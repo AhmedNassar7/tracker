@@ -2,7 +2,7 @@ name: Daily Egypt Dev Jobs PR
 
 on:
   schedule:
-    - cron: "15 1 * * *" # 01:15 UTC daily
+    - cron: "15 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -33,7 +33,6 @@ jobs:
           MONTH_LABEL="$(date -u +'%B %Y')"
           TIME="$(date -u +'%H:%M:%S UTC')"
 
-          # Public API source (no scraping)
           curl -fsSL "https://remotive.com/api/remote-jobs?category=software-dev" -o data/jobs-raw.json
 
           python3 <<'PY'
@@ -42,33 +41,33 @@ jobs:
 
           raw = Path("data/jobs-raw.json")
           out = Path("data/jobs-egypt.json")
-          md = Path("data/jobs-egypt-latest.md")
+          md  = Path("data/jobs-egypt-latest.md")
 
-          data = json.loads(raw.read_text(encoding="utf-8"))
-          jobs = data.get("jobs", [])
+          data    = json.loads(raw.read_text(encoding="utf-8"))
+          jobs    = data.get("jobs", [])
           pattern = re.compile(r"(egypt|cairo|alexandria|giza|mena|middle east)", re.I)
 
           filtered = []
           for j in jobs:
-              loc = (j.get("candidate_required_location") or "").strip()
-              title = (j.get("title") or "").strip()
-              company = (j.get("company_name") or "").strip()
-              url = (j.get("url") or "").strip()
-              pub = (j.get("publication_date") or "").strip()
+              loc     = (j.get("candidate_required_location") or "").strip()
+              title   = (j.get("title")            or "").strip()
+              company = (j.get("company_name")     or "").strip()
+              url     = (j.get("url")              or "").strip()
+              pub     = (j.get("publication_date") or "").strip()
               if pattern.search(loc):
                   filtered.append({
-                      "title": title,
-                      "company": company,
-                      "location": loc,
-                      "url": url,
-                      "publication_date": pub
+                      "title":            title,
+                      "company":          company,
+                      "location":         loc,
+                      "url":              url,
+                      "publication_date": pub,
                   })
 
           filtered = filtered[:20]
 
           out.write_text(
               json.dumps({"count": len(filtered), "jobs": filtered}, ensure_ascii=False, indent=2),
-              encoding="utf-8"
+              encoding="utf-8",
           )
 
           today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
@@ -76,13 +75,13 @@ jobs:
               f"# Egypt Dev Jobs Snapshot ({today})",
               "",
               f"Total matching jobs: {len(filtered)}",
-              ""
+              "",
           ]
           for j in filtered[:10]:
               lines.append(f"- [{j['title']}]({j['url']}) — {j['company']} ({j['location']})")
 
           md.write_text("\n".join(lines) + "\n", encoding="utf-8")
-          print(f"Done — {len(filtered)} Egypt jobs written.")
+          print(f"Done — {len(filtered)} Egypt/MENA jobs written.")
           PY
 
           FILE="log/${MONTH}.md"
@@ -90,8 +89,8 @@ jobs:
             echo "# Log — ${MONTH_LABEL}" > "$FILE"
             echo "" >> "$FILE"
           fi
-
           grep -q "^\- \[${TODAY}\]" "$FILE" || echo "- [${TODAY}] Egypt jobs snapshot updated at ${TIME}" >> "$FILE"
+
           echo "${TODAY} ${TIME}" > LAST_UPDATED
 
       - name: Create Pull Request
@@ -112,5 +111,4 @@ jobs:
         if: steps.cpr.outputs.pull-request-number != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --auto --delete-branch
+        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --auto --delete-branch
