@@ -179,13 +179,6 @@ def format_company(company):
 
 def format_location_display(location):
     clean_location = re.sub(r"\s+", " ", location.strip())
-    country_flag = ""
-    for rx, flag, _country in COUNTRY_MARK_MAP:
-        if rx.search(clean_location):
-            country_flag = flag
-            break
-    if country_flag and country_flag not in clean_location:
-        return f"{clean_location} {country_flag}"
     return clean_location
 
 def is_allowed_company(company):
@@ -600,9 +593,10 @@ def write_outputs(rows):
         "",
         "## Stats Snapshot",
         "",
-        "| Metric | Count |",
-        "|---|---:|",
-        f"| Total roles | {len(public_rows)} |",
+        f"[![{len(public_rows)} roles](https://img.shields.io/badge/roles-{len(public_rows)}-brightgreen.svg)](data/jobs-global-latest.md) [![5 levels](https://img.shields.io/badge/levels-5-blue.svg)](data/jobs-global-latest.md) [![4 sources](https://img.shields.io/badge/sources-4-orange.svg)](README.md#sources)",
+        "",
+        f"[![Internship {len([r for r in public_rows if r['level'] == 'internship'])}](https://img.shields.io/badge/Internship-{len([r for r in public_rows if r['level'] == 'internship'])}-22c55e.svg)](data/jobs-global-latest.md#internship) [![New Grad {len([r for r in public_rows if r['level'] == 'new_grad'])}](https://img.shields.io/badge/New%20Grad-{len([r for r in public_rows if r['level'] == 'new_grad'])}-0ea5e9.svg)](data/jobs-global-latest.md#new-grad) [![Junior {len([r for r in public_rows if r['level'] == 'junior'])}](https://img.shields.io/badge/Junior-{len([r for r in public_rows if r['level'] == 'junior'])}-f59e0b.svg)](data/jobs-global-latest.md#junior) [![Entry Level {len([r for r in public_rows if r['level'] == 'entry_level'])}](https://img.shields.io/badge/Entry%20Level-{len([r for r in public_rows if r['level'] == 'entry_level'])}-8b5cf6.svg)](data/jobs-global-latest.md#entry-level) [![Mid Level {len([r for r in public_rows if r['level'] == 'mid_level'])}](https://img.shields.io/badge/Mid%20Level-{len([r for r in public_rows if r['level'] == 'mid_level'])}-ef4444.svg)](data/jobs-global-latest.md#mid-level)",
+        "",
     ]
 
     level_sections = [
@@ -614,12 +608,6 @@ def write_outputs(rows):
     ]
 
     md_lines.extend([
-        f"| Internship roles | {len([r for r in public_rows if r['level'] == 'internship'])} |",
-        f"| New grad roles | {len([r for r in public_rows if r['level'] == 'new_grad'])} |",
-        f"| Junior roles | {len([r for r in public_rows if r['level'] == 'junior'])} |",
-        f"| Entry level roles | {len([r for r in public_rows if r['level'] == 'entry_level'])} |",
-        f"| Mid level roles | {len([r for r in public_rows if r['level'] == 'mid_level'])} |",
-        "",
         "## Browse by Level",
         "",
         "- [Internship](#internship)",
