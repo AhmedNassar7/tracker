@@ -2,7 +2,33 @@
 
 [![Daily Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml)
 
-Daily automated snapshot of software/computer-science roles at top-tier companies.
+Daily Global Dev Jobs Tracker.
+
+## Quick Test
+
+Run the test directly with Python:
+
+```bash
+python tests/test_fetch.py
+```
+
+Expected result:
+- Green check lines with emoji
+- Final line: `✅ ALL PASSED: 9 checks`
+
+## What To Expect In GitHub Actions
+
+If the workflow finds matching jobs, it should create/update these files:
+
+- `data/jobs-global.json`
+- `data/jobs-global-latest.md`
+- `data/stats.json`
+- `log/YYYY-MM.md`
+- `LAST_UPDATED`
+
+If no jobs match, the workflow still completes and writes empty outputs, so you can see that the run happened.
+
+Run time is usually about 1 to 3 minutes. If an API is down, the workflow should continue with the other sources and report warnings in the Actions log.
 
 ## 🎯 Scope
 

@@ -182,6 +182,7 @@ def fetch_remotive():
     
     if not fetch_url("https://remotive.com/api/remote-jobs?category=software-dev", path):
         log_warn("Remotive fetch failed, skipping")
+        return out
     
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -236,6 +237,7 @@ def fetch_arbeitnow():
     
     if not fetch_url("https://arbeitnow.com/api/job-board-api", path):
         log_warn("ArbeitNow fetch failed, skipping")
+        return out
         return out
     
     try:
@@ -526,8 +528,8 @@ def main():
     
     if len(rows) == 0:
         log_warn("No jobs found after filtering!")
-    else:
-        write_outputs(rows)
+
+    write_outputs(rows)
 
     log_info("=" * 70)
     log_info(f"COMPLETE: {len(rows)} final roles")
