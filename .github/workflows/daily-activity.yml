@@ -1,0 +1,116 @@
+name: Daily Egypt Dev Jobs PR
+
+on:
+  schedule:
+    - cron: "15 1 * * *" # 01:15 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: daily-egypt-jobs
+  cancel-in-progress: false
+
+jobs:
+  daily-pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch Egypt dev jobs and update log
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data log
+
+          TODAY="$(date -u +'%Y-%m-%d')"
+          MONTH="$(date -u +'%Y-%m')"
+          MONTH_LABEL="$(date -u +'%B %Y')"
+          TIME="$(date -u +'%H:%M:%S UTC')"
+
+          # Public API source (no scraping)
+          curl -fsSL "https://remotive.com/api/remote-jobs?category=software-dev" -o data/jobs-raw.json
+
+          python3 <<'PY'
+          import json, re, datetime
+          from pathlib import Path
+
+          raw = Path("data/jobs-raw.json")
+          out = Path("data/jobs-egypt.json")
+          md = Path("data/jobs-egypt-latest.md")
+
+          data = json.loads(raw.read_text(encoding="utf-8"))
+          jobs = data.get("jobs", [])
+          pattern = re.compile(r"(egypt|cairo|alexandria|giza|mena|middle east)", re.I)
+
+          filtered = []
+          for j in jobs:
+              loc = (j.get("candidate_required_location") or "").strip()
+              title = (j.get("title") or "").strip()
+              company = (j.get("company_name") or "").strip()
+              url = (j.get("url") or "").strip()
+              pub = (j.get("publication_date") or "").strip()
+              if pattern.search(loc):
+                  filtered.append({
+                      "title": title,
+                      "company": company,
+                      "location": loc,
+                      "url": url,
+                      "publication_date": pub
+                  })
+
+          filtered = filtered[:20]
+
+          out.write_text(
+              json.dumps({"count": len(filtered), "jobs": filtered}, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+
+          today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+          lines = [
+              f"# Egypt Dev Jobs Snapshot ({today})",
+              "",
+              f"Total matching jobs: {len(filtered)}",
+              ""
+          ]
+          for j in filtered[:10]:
+              lines.append(f"- [{j['title']}]({j['url']}) — {j['company']} ({j['location']})")
+
+          md.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          print(f"Done — {len(filtered)} Egypt jobs written.")
+          PY
+
+          FILE="log/${MONTH}.md"
+          if [ ! -f "$FILE" ]; then
+            echo "# Log — ${MONTH_LABEL}" > "$FILE"
+            echo "" >> "$FILE"
+          fi
+
+          grep -q "^\- \[${TODAY}\]" "$FILE" || echo "- [${TODAY}] Egypt jobs snapshot updated at ${TIME}" >> "$FILE"
+          echo "${TODAY} ${TIME}" > LAST_UPDATED
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: egypt jobs snapshot (${{ github.run_id }})"
+          title: "chore: egypt jobs snapshot"
+          body: |
+            Automated daily Egypt dev jobs snapshot.
+            Fetched from Remotive public API.
+          branch: "daily/jobs-${{ github.run_id }}"
+          delete-branch: true
+          labels: automated
+
+      - name: Auto-merge PR
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --auto --delete-branch
