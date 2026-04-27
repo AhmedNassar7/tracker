@@ -116,24 +116,24 @@ WANTED_REGIONS = {"us", "canada", "emea", "remote"}
 RELAXED_MODE = False
 
 COUNTRY_MARK_MAP = [
-    (re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary|surrey|brampton|ontario|bc)\b", re.I), "CA", "Canada"),
-    (re.compile(r"\b(united states|usa|\bUS\b|new york|california|texas|washington|seattle|austin|boston|san francisco|los angeles|chicago|denver|atlanta|miami|nyc|fulton|el segundo|san jose|waltham|lehi|sunnyvale)\b", re.I), "US", "United States"),
-    (re.compile(r"\b(united kingdom|uk|england|london|reading)\b", re.I), "UK", "United Kingdom"),
-    (re.compile(r"\b(germany|berlin|munich|nuremberg|pforzheim|frankfurt|hamburg)\b", re.I), "DE", "Germany"),
-    (re.compile(r"\b(france|paris)\b", re.I), "FR", "France"),
-    (re.compile(r"\b(netherlands|amsterdam)\b", re.I), "NL", "Netherlands"),
-    (re.compile(r"\b(sweden|stockholm)\b", re.I), "SE", "Sweden"),
-    (re.compile(r"\b(ireland|dublin)\b", re.I), "IE", "Ireland"),
-    (re.compile(r"\b(italy|milan|rome)\b", re.I), "IT", "Italy"),
-    (re.compile(r"\b(spain|madrid|barcelona)\b", re.I), "ES", "Spain"),
-    (re.compile(r"\b(portugal|lisbon|porto)\b", re.I), "PT", "Portugal"),
-    (re.compile(r"\b(switzerland|zurich|geneva)\b", re.I), "CH", "Switzerland"),
-    (re.compile(r"\b(poland|warsaw|krakow)\b", re.I), "PL", "Poland"),
-    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi)\b", re.I), "AE", "United Arab Emirates"),
-    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah)\b", re.I), "SA", "Saudi Arabia"),
-    (re.compile(r"\b(qatar|doha)\b", re.I), "QA", "Qatar"),
-    (re.compile(r"\b(israel|tel aviv|jerusalem)\b", re.I), "IL", "Israel"),
-    (re.compile(r"\b(egypt|cairo|alexandria|giza)\b", re.I), "EG", "Egypt"),
+    (re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary|surrey|brampton|ontario|bc)\b", re.I), "🇨🇦", "Canada"),
+    (re.compile(r"\b(united states|usa|\bUS\b|new york|california|texas|washington|seattle|austin|boston|san francisco|los angeles|chicago|denver|atlanta|miami|nyc|fulton|el segundo|san jose|waltham|lehi|sunnyvale)\b", re.I), "🇺🇸", "United States"),
+    (re.compile(r"\b(united kingdom|uk|england|london|reading)\b", re.I), "🇬🇧", "United Kingdom"),
+    (re.compile(r"\b(germany|berlin|munich|nuremberg|pforzheim|frankfurt|hamburg)\b", re.I), "🇩🇪", "Germany"),
+    (re.compile(r"\b(france|paris)\b", re.I), "🇫🇷", "France"),
+    (re.compile(r"\b(netherlands|amsterdam)\b", re.I), "🇳🇱", "Netherlands"),
+    (re.compile(r"\b(sweden|stockholm)\b", re.I), "🇸🇪", "Sweden"),
+    (re.compile(r"\b(ireland|dublin)\b", re.I), "🇮🇪", "Ireland"),
+    (re.compile(r"\b(italy|milan|rome)\b", re.I), "🇮🇹", "Italy"),
+    (re.compile(r"\b(spain|madrid|barcelona)\b", re.I), "🇪🇸", "Spain"),
+    (re.compile(r"\b(portugal|lisbon|porto)\b", re.I), "🇵🇹", "Portugal"),
+    (re.compile(r"\b(switzerland|zurich|geneva)\b", re.I), "🇨🇭", "Switzerland"),
+    (re.compile(r"\b(poland|warsaw|krakow)\b", re.I), "🇵🇱", "Poland"),
+    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi)\b", re.I), "🇦🇪", "United Arab Emirates"),
+    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah)\b", re.I), "🇸🇦", "Saudi Arabia"),
+    (re.compile(r"\b(qatar|doha)\b", re.I), "🇶🇦", "Qatar"),
+    (re.compile(r"\b(israel|tel aviv|jerusalem)\b", re.I), "🇮🇱", "Israel"),
+    (re.compile(r"\b(egypt|cairo|alexandria|giza)\b", re.I), "🇪🇬", "Egypt"),
 ]
 
 # Utility functions
@@ -179,13 +179,13 @@ def format_company(company):
 
 def format_location_display(location):
     clean_location = re.sub(r"\s+", " ", location.strip())
-    country_code = ""
-    for rx, code, _country in COUNTRY_MARK_MAP:
+    country_flag = ""
+    for rx, flag, _country in COUNTRY_MARK_MAP:
         if rx.search(clean_location):
-            country_code = code
+            country_flag = flag
             break
-    if country_code and country_code not in clean_location:
-        return f"{clean_location} ({country_code})"
+    if country_flag and country_flag not in clean_location:
+        return f"{clean_location} {country_flag}"
     return clean_location
 
 def is_allowed_company(company):
@@ -691,6 +691,52 @@ def write_outputs(rows):
         log_info(f"Exported {stats_file}")
     except Exception as e:
         log_error(f"Failed to write stats: {e}")
+
+    readme_file = ROOT / "README.md"
+    level_names = [
+        ("internship", "Internship"),
+        ("new_grad", "New Grad"),
+        ("junior", "Junior"),
+        ("entry_level", "Entry Level"),
+        ("mid_level", "Mid Level"),
+    ]
+    if readme_file.exists():
+        try:
+            readme_text = readme_file.read_text(encoding="utf-8")
+            badge_specs = {
+                "internship": ("Internship", "22c55e"),
+                "new_grad": ("New%20Grad", "0ea5e9"),
+                "junior": ("Junior", "f59e0b"),
+                "entry_level": ("Entry%20Level", "8b5cf6"),
+                "mid_level": ("Mid%20Level", "ef4444"),
+            }
+            badge_start = "<!-- LEVEL_BADGES_START -->"
+            badge_end = "<!-- LEVEL_BADGES_END -->"
+            start_marker = "<!-- LEVEL_COUNTS_START -->"
+            end_marker = "<!-- LEVEL_COUNTS_END -->"
+            if badge_start in readme_text and badge_end in readme_text:
+                badges = []
+                for level, _label in level_names:
+                    badge_label, color = badge_specs[level]
+                    badges.append(
+                        f"[![{badge_label} {stats['by_level'].get(level, 0)}](https://img.shields.io/badge/{badge_label}-{stats['by_level'].get(level, 0)}-{color}.svg)](data/jobs-global-latest.md#{level.replace('_', '-')})"
+                    )
+                before, remainder = readme_text.split(badge_start, 1)
+                _, after = remainder.split(badge_end, 1)
+                updated_readme = before.rstrip() + "\n\n" + badge_start + "\n" + " ".join(badges) + "\n" + badge_end + after
+                readme_text = updated_readme
+            if start_marker in readme_text and end_marker in readme_text:
+                counts_block = [start_marker]
+                for level, label in level_names:
+                    counts_block.append(f"- {label}: {stats['by_level'].get(level, 0)}")
+                counts_block.extend([end_marker, ""])
+                before, remainder = readme_text.split(start_marker, 1)
+                _, after = remainder.split(end_marker, 1)
+                updated_readme = before.rstrip() + "\n\n" + "\n".join(counts_block) + after
+                readme_file.write_text(updated_readme, encoding="utf-8")
+                log_info(f"Updated {readme_file}")
+        except Exception as e:
+            log_error(f"Failed to update README counts: {e}")
 
 def main():
     global RELAXED_MODE
