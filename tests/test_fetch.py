@@ -2,6 +2,8 @@ import importlib.util
 import json
 import tempfile
 import sys
+import io
+import contextlib
 from pathlib import Path
 from unittest.mock import patch
 
@@ -12,8 +14,6 @@ RESET = "\033[0m"
 
 
 def color(text, code):
-    if not sys.stdout.isatty():
-        return text
     return f"{code}{text}{RESET}"
 
 
@@ -22,7 +22,8 @@ def load_fetch_module():
     spec = importlib.util.spec_from_file_location("fetch_module", module_path)
     module = importlib.util.module_from_spec(spec)
     assert spec.loader is not None
-    spec.loader.exec_module(module)
+    with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+        spec.loader.exec_module(module)
     return module
 
 
@@ -33,6 +34,10 @@ def check(name, condition, details=""):
 
 def main():
     fetch = load_fetch_module()
+    fetch.log_info = lambda *_args, **_kwargs: None
+    fetch.log_warn = lambda *_args, **_kwargs: None
+    fetch.log_error = lambda *_args, **_kwargs: None
+    fetch.log_debug = lambda *_args, **_kwargs: None
     total = 0
 
     def run(name, fn):
