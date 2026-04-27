@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-04-27T14:46:39Z",
-  "total": 0,
-  "by_level": {},
-  "by_region": {},
-  "by_source": {}
+  "generated_at": "2026-04-27T15:04:04Z",
+  "total": 22,
+  "by_level": {
+    "internship": 4,
+    "new_grad": 13,
+    "junior": 2,
+    "entry_level": 2,
+    "mid_level": 1
+  },
+  "by_region": {
+    "remote": 1,
+    "us": 12,
+    "emea": 5,
+    "canada": 4
+  },
+  "by_source": {
+    "simplify_internships": 4,
+    "simplify_newgrad": 18
+  }
 }

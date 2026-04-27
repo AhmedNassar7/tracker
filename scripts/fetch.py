@@ -14,6 +14,7 @@ import urllib.request
 import urllib.error
 import sys
 import traceback
+import html
 from pathlib import Path
 from collections import Counter
 
@@ -106,6 +107,7 @@ HYBRID_RE = re.compile(r"\bhybrid\b", re.I)
 
 WANTED_LEVELS = {"internship", "new_grad", "junior", "entry_level", "mid_level"}
 WANTED_REGIONS = {"us", "canada", "emea", "remote"}
+RELAXED_MODE = False
 
 # Utility functions
 def make_id(company, title, url):
@@ -136,6 +138,89 @@ def detect_remote_type(location):
 def is_allowed_company(company):
     c = company.lower()
     return any(a in c or c in a for a in ALLOWLIST)
+
+def include_job(row, company):
+    if not RELAXED_MODE:
+        return (
+            row["level"] in WANTED_LEVELS
+            and row["region"] in WANTED_REGIONS
+            and is_allowed_company(company)
+        )
+
+    level_ok = row["level"] in WANTED_LEVELS or row["level"] == "unknown"
+    region_ok = row["region"] in WANTED_REGIONS or row["region"] == "unknown"
+    company_ok = is_allowed_company(company) or row["level"] in {"internship", "new_grad"}
+    return level_ok and region_ok and company_ok
+
+def _clean_html_text(value):
+    value = re.sub(r"<br\s*/?>", " ", value, flags=re.I)
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = html.unescape(value)
+    return re.sub(r"\s+", " ", value).strip()
+
+def _extract_markdown_link(value):
+    match = re.search(r"\[[^\]]*\]\((https?://[^)]+)\)", value)
+    if match:
+        return match.group(1).strip()
+    match = re.search(r"(https?://\S+)", value)
+    if match:
+        return match.group(1).strip().rstrip("|")
+    return ""
+
+def parse_simplify_entries(content):
+    entries = []
+
+    # Markdown table rows: | Company | Position | Location | Link |
+    for line in content.splitlines():
+        line = line.strip()
+        if not line.startswith("|") or "http" not in line:
+            continue
+        parts = [part.strip() for part in line.split("|")[1:-1]]
+        if len(parts) < 4:
+            continue
+        company = _clean_html_text(parts[0])
+        title = _clean_html_text(parts[1])
+        location = _clean_html_text(parts[2]) or "Remote"
+        url = _extract_markdown_link(parts[3])
+        if company and title and url:
+            entries.append((company, title, location, url))
+
+    # HTML table rows: <tr><td>...</td>...</tr>
+    for row_html in re.findall(r"<tr[^>]*>(.*?)</tr>", content, flags=re.I | re.S):
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", row_html, flags=re.I | re.S)
+        if len(cells) < 3:
+            continue
+
+        texts = [_clean_html_text(cell) for cell in cells]
+        company = texts[0]
+        title = texts[1] if len(texts) > 1 else ""
+        location = texts[2] if len(texts) > 2 else "Remote"
+
+        hrefs = re.findall(r"href=\"(https?://[^\"]+)\"", row_html, flags=re.I)
+        url = ""
+        for href in hrefs:
+            if "simplify.jobs/c/" in href:
+                continue
+            if "simplify.jobs/p/" in href:
+                continue
+            url = href
+            break
+        if not url and hrefs:
+            url = hrefs[0]
+
+        if company and title and url:
+            entries.append((company, title, location, url))
+
+    # Deduplicate parsed entries
+    deduped = []
+    seen = set()
+    for item in entries:
+        key = (item[0].lower(), item[1].lower(), item[3])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+    return deduped
 
 def fetch_url(url, dest, timeout=25):
     try:
@@ -213,15 +298,14 @@ def fetch_remotive():
             continue
         
         row = normalize(company, title, location, url, posted, "remotive", "https://remotive.com/")
-        
-        if row["level"] not in WANTED_LEVELS:
-            skipped["level"] += 1
-            continue
-        if row["region"] not in WANTED_REGIONS:
-            skipped["region"] += 1
-            continue
-        if not is_allowed_company(company):
-            skipped["company"] += 1
+
+        if not include_job(row, company):
+            if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:
+                skipped["level"] += 1
+            elif row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                skipped["region"] += 1
+            else:
+                skipped["company"] += 1
             continue
         
         out.append(row)
@@ -274,15 +358,14 @@ def fetch_arbeitnow():
             continue
         
         row = normalize(company, title, location, url, posted, "arbeitnow", "https://arbeitnow.com/")
-        
-        if row["level"] not in WANTED_LEVELS:
-            skipped["level"] += 1
-            continue
-        if row["region"] not in WANTED_REGIONS:
-            skipped["region"] += 1
-            continue
-        if not is_allowed_company(company):
-            skipped["company"] += 1
+
+        if not include_job(row, company):
+            if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:
+                skipped["level"] += 1
+            elif row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                skipped["region"] += 1
+            else:
+                skipped["company"] += 1
             continue
         
         out.append(row)
@@ -305,28 +388,16 @@ def fetch_simplify_internships():
     
     try:
         content = path.read_text(encoding="utf-8")
-        lines = content.split("\n")
-        log_debug(f"Internships readme has {len(lines)} lines")
+        entries = parse_simplify_entries(content)
+        log_debug(f"Internships parser extracted {len(entries)} entries")
     except Exception as e:
         log_error(f"Error reading internships markdown: {e}")
         return out
     
     skipped = {"role": 0, "level": 0, "region": 0, "company": 0, "parse": 0}
     
-    for line in lines:
-        if not line.startswith("|") or "http" not in line:
-            continue
-        
+    for company, title, location, url in entries:
         try:
-            parts = [p.strip() for p in line.split("|")]
-            if len(parts) < 5:
-                skipped["parse"] += 1
-                continue
-            
-            company = parts[1]
-            title = parts[2]
-            location = parts[3]
-            url = parts[4].split("](")[-1].rstrip(")")
             
             if not (company and title and url):
                 skipped["parse"] += 1
@@ -345,12 +416,12 @@ def fetch_simplify_internships():
                 "simplify_internships",
                 "https://github.com/SimplifyJobs/Summer2026-Internships",
             )
-            
-            if row["region"] not in WANTED_REGIONS:
-                skipped["region"] += 1
-                continue
-            if not is_allowed_company(company):
-                skipped["company"] += 1
+
+            if not include_job(row, company):
+                if row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                    skipped["region"] += 1
+                else:
+                    skipped["company"] += 1
                 continue
             
             out.append(row)
@@ -376,28 +447,16 @@ def fetch_simplify_newgrad():
     
     try:
         content = path.read_text(encoding="utf-8")
-        lines = content.split("\n")
-        log_debug(f"New grad readme has {len(lines)} lines")
+        entries = parse_simplify_entries(content)
+        log_debug(f"New grad parser extracted {len(entries)} entries")
     except Exception as e:
         log_error(f"Error reading new grad markdown: {e}")
         return out
     
     skipped = {"role": 0, "level": 0, "region": 0, "company": 0, "parse": 0}
     
-    for line in lines:
-        if not line.startswith("|") or "http" not in line:
-            continue
-        
+    for company, title, location, url in entries:
         try:
-            parts = [p.strip() for p in line.split("|")]
-            if len(parts) < 5:
-                skipped["parse"] += 1
-                continue
-            
-            company = parts[1]
-            title = parts[2]
-            location = parts[3]
-            url = parts[4].split("](")[-1].rstrip(")")
             
             if not (company and title and url):
                 skipped["parse"] += 1
@@ -416,12 +475,12 @@ def fetch_simplify_newgrad():
                 "simplify_newgrad",
                 "https://github.com/SimplifyJobs/New-Grad-Positions",
             )
-            
-            if row["region"] not in WANTED_REGIONS:
-                skipped["region"] += 1
-                continue
-            if not is_allowed_company(company):
-                skipped["company"] += 1
+
+            if not include_job(row, company):
+                if row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                    skipped["region"] += 1
+                else:
+                    skipped["company"] += 1
                 continue
             
             out.append(row)
@@ -504,6 +563,7 @@ def write_outputs(rows):
         log_error(f"Failed to write stats: {e}")
 
 def main():
+    global RELAXED_MODE
     log_info("=" * 70)
     log_info("GLOBAL TECH ROLES FETCHER")
     log_info("=" * 70)
@@ -525,6 +585,20 @@ def main():
         traceback.print_exc()
 
     rows = dedupe(rows)
+
+    if len(rows) == 0:
+        log_warn("No jobs found in strict mode. Retrying with relaxed filters...")
+        RELAXED_MODE = True
+        retry_rows = []
+        try:
+            retry_rows += fetch_remotive()
+            retry_rows += fetch_arbeitnow()
+            retry_rows += fetch_simplify_internships()
+            retry_rows += fetch_simplify_newgrad()
+        except Exception as e:
+            log_error(f"Unexpected error during relaxed retry: {e}")
+            traceback.print_exc()
+        rows = dedupe(retry_rows)
     
     if len(rows) == 0:
         log_warn("No jobs found after filtering!")

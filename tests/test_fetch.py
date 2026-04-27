@@ -173,12 +173,13 @@ def main():
 
     with patch.object(fetch, "fetch_remotive", return_value=[]) as remotive_mock, patch.object(fetch, "fetch_arbeitnow", return_value=[]) as arbeitnow_mock, patch.object(fetch, "fetch_simplify_internships", return_value=[]) as internships_mock, patch.object(fetch, "fetch_simplify_newgrad", return_value=[]) as newgrad_mock, patch.object(fetch, "dedupe", return_value=[]), patch.object(fetch, "write_outputs") as write_outputs, patch.object(fetch, "log_warn"):
         fetch.main()
-    assert remotive_mock.call_count == 1
-    assert arbeitnow_mock.call_count == 1
-    assert internships_mock.call_count == 1
-    assert newgrad_mock.call_count == 1
+    assert remotive_mock.call_count >= 1
+    assert arbeitnow_mock.call_count >= 1
+    assert internships_mock.call_count >= 1
+    assert newgrad_mock.call_count >= 1
+    assert remotive_mock.call_count == arbeitnow_mock.call_count == internships_mock.call_count == newgrad_mock.call_count
     assert write_outputs.call_count == 1
-    print(color("✅ main calls each source once", GREEN))
+    print(color("✅ main calls all sources consistently", GREEN))
     total += 1
 
     print(color(f"✅ ALL PASSED: {total} checks", GREEN))

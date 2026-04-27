@@ -4,7 +4,7 @@
 
 Daily Global Dev Jobs Tracker.
 
-## Quick Test
+<!-- ## Quick Test
 
 Run the test directly with Python:
 
@@ -28,7 +28,7 @@ If the workflow finds matching jobs, it should create/update these files:
 
 If no jobs match, the workflow still completes and writes empty outputs, so you can see that the run happened.
 
-Run time is usually about 1 to 3 minutes. If an API is down, the workflow should continue with the other sources and report warnings in the Actions log.
+Run time is usually about 1 to 3 minutes. If an API is down, the workflow should continue with the other sources and report warnings in the Actions log. -->
 
 ## 🎯 Scope
 
@@ -62,7 +62,7 @@ Each job entry includes:
 - Standardized fields: `id`, `company`, `title`, `level`, `region`, `remote_type`, `location`, `posted_at`
 - Deduplication and normalization per `config/schema.json`
 
-## 📁 Outputs
+<!-- ## 📁 Outputs
 
 Updated daily in `data/`:
 
@@ -101,7 +101,7 @@ Sources are properly attributed:
 - Each job listing includes `source` and `source_url`
 - Respect `robots.txt` and Terms of Service
 - Public APIs and feeds only
-- No forbidden scraping
+- No forbidden scraping -->
 
 ---
 
