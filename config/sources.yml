@@ -1,0 +1,61 @@
+sources:
+  - id: remotive
+    name: Remotive
+    type: api
+    url: "https://remotive.com/api/remote-jobs?category=software-dev"
+    enabled: true
+    attribution_url: "https://remotive.com"
+    description: "Global remote job board with strong SWE coverage"
+
+  - id: arbeitnow
+    name: ArbeitNow
+    type: api
+    url: "https://arbeitnow.com/api/job-board-api"
+    enabled: true
+    attribution_url: "https://arbeitnow.com"
+    description: "Remote work focused job board"
+
+  - id: simplify_internships
+    name: SimplifyJobs Summer Internships
+    type: github
+    url: "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/README.md"
+    enabled: true
+    attribution_url: "https://github.com/SimplifyJobs/Summer2026-Internships"
+    description: "Curated summer internship positions at top companies"
+
+  - id: simplify_newgrad
+    name: SimplifyJobs New Grad
+    type: github
+    url: "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/README.md"
+    enabled: true
+    attribution_url: "https://github.com/SimplifyJobs/New-Grad-Positions"
+    description: "New graduate software engineer positions"
+
+  - id: remoteok
+    name: RemoteOK
+    type: api
+    url: "https://remoteok.com/api?tags=dev"
+    enabled: false
+    attribution_url: "https://remoteok.com"
+    description: "General remote job board (disabled - high noise)"
+
+# OPTIONAL ADVANCED SOURCES (requires manual setup)
+# These platforms (Greenhouse, Lever, Ashby, Workable) don't have public aggregator APIs.
+# Instead, they host individual company career pages. To use:
+# 1. Greenhouse: Manually add specific company URLs (e.g., google.greenhouse.io/jobs)
+# 2. Lever: Manually add specific company URLs (e.g., jobs.lever.co/company)
+# 3. Ashby: Same as above
+# 4. Workable: Has public API (https://workable.com/developers) but requires auth
+#
+# Recommended: Use these only if building company-specific integrations.
+# For now, stick with aggregator APIs above (Remotive, ArbeitNow, SimplifyJobs).
+#
+# Example if you want to add a specific Greenhouse company:
+#  - id: greenhouse_google
+#    name: "Google Careers (Greenhouse)"
+#    type: html_table
+#    url: "https://www.google.com/careers/jobs/results/"
+#    enabled: false
+#    attribution_url: "https://www.google.com/careers"
+#    description: "Company-specific job board"
+#    require_auth: false

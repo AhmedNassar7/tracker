@@ -1,0 +1,94 @@
+# Only jobs from these companies are accepted.
+# Match is case-insensitive substring of the company field.
+
+faang:
+  - Google
+  - Meta
+  - Apple
+  - Amazon
+  - Netflix
+
+microsoft_group:
+  - Microsoft
+  - LinkedIn
+  - GitHub
+
+big_tech:
+  - Nvidia
+  - AMD
+  - Intel
+  - Qualcomm
+  - ARM
+  - IBM
+  - Oracle
+  - Salesforce
+  - Adobe
+  - Cisco
+  - SAP
+  - Samsung
+  - Sony
+  - Siemens
+
+cloud_infra:
+  - Cloudflare
+  - Datadog
+  - Splunk
+  - Snowflake
+  - Databricks
+  - MongoDB
+  - Elastic
+  - HashiCorp
+  - Twilio
+  - Stripe
+  - Okta
+
+product_saas:
+  - Spotify
+  - Shopify
+  - Figma
+  - Notion
+  - Atlassian
+  - Slack
+  - Zoom
+  - Dropbox
+  - Asana
+  - HubSpot
+  - Palantir
+
+ai_research:
+  - OpenAI
+  - Anthropic
+  - DeepMind
+  - Cohere
+  - Mistral
+  - Scale AI
+  - Hugging Face
+
+fintech:
+  - Stripe
+  - PayPal
+  - Revolut
+  - N26
+  - Wise
+  - Klarna
+  - Visa
+  - Mastercard
+
+ride_delivery:
+  - Uber
+  - Lyft
+  - DoorDash
+  - Airbnb
+  - Booking
+  - Expedia
+
+consulting_finance:
+  - Goldman Sachs
+  - Morgan Stanley
+  - JPMorgan
+  - Bloomberg
+  - McKinsey
+  - Two Sigma
+  - Jane Street
+  - Citadel
+  - Hudson River Trading
