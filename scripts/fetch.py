@@ -72,10 +72,6 @@ LEVEL_MAP = {
     "junior": re.compile(r"\b(junior|jr\.?)\b", re.I),
     "entry_level": re.compile(r"\b(entry.?level|associate)\b", re.I),
     "mid_level": re.compile(r"\b(mid.?level|engineer ii|sde2|software engineer 2)\b", re.I),
-    "senior_level": re.compile(r"\b(senior|sr\.?)\b", re.I),
-    "staff_level": re.compile(r"\b(staff|principal staff)\b", re.I),
-    "lead_level": re.compile(r"\b(tech lead|team lead|lead engineer|engineering lead)\b", re.I),
-    "principal_level": re.compile(r"\b(principal|distinguished)\b", re.I),
 }
 
 # Software engineering role patterns
@@ -115,33 +111,29 @@ WANTED_LEVELS = {
     "junior",
     "entry_level",
     "mid_level",
-    "senior_level",
-    "staff_level",
-    "lead_level",
-    "principal_level",
 }
 WANTED_REGIONS = {"us", "canada", "emea", "remote"}
 RELAXED_MODE = False
 
-COUNTRY_FLAG_MAP = [
-    (re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary|surrey|brampton|ontario|bc)\b", re.I), "🇨🇦"),
-    (re.compile(r"\b(united states|usa|\bUS\b|new york|california|texas|washington|seattle|austin|boston|san francisco|los angeles|chicago|denver|atlanta|miami|nyc|fulton|el segundo|san jose|waltham|lehi|sunnyvale)\b", re.I), "🇺🇸"),
-    (re.compile(r"\b(united kingdom|uk|england|london|reading)\b", re.I), "🇬🇧"),
-    (re.compile(r"\b(germany|berlin|munich|nuremberg|pforzheim|frankfurt|hamburg)\b", re.I), "🇩🇪"),
-    (re.compile(r"\b(france|paris)\b", re.I), "🇫🇷"),
-    (re.compile(r"\b(netherlands|amsterdam)\b", re.I), "🇳🇱"),
-    (re.compile(r"\b(sweden|stockholm)\b", re.I), "🇸🇪"),
-    (re.compile(r"\b(ireland|dublin)\b", re.I), "🇮🇪"),
-    (re.compile(r"\b(italy|milan|rome)\b", re.I), "🇮🇹"),
-    (re.compile(r"\b(spain|madrid|barcelona)\b", re.I), "🇪🇸"),
-    (re.compile(r"\b(portugal|lisbon|porto)\b", re.I), "🇵🇹"),
-    (re.compile(r"\b(switzerland|zurich|geneva)\b", re.I), "🇨🇭"),
-    (re.compile(r"\b(poland|warsaw|krakow)\b", re.I), "🇵🇱"),
-    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi)\b", re.I), "🇦🇪"),
-    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah)\b", re.I), "🇸🇦"),
-    (re.compile(r"\b(qatar|doha)\b", re.I), "🇶🇦"),
-    (re.compile(r"\b(israel|tel aviv|jerusalem)\b", re.I), "🇮🇱"),
-    (re.compile(r"\b(egypt|cairo|alexandria|giza)\b", re.I), "🇪🇬"),
+COUNTRY_MARK_MAP = [
+    (re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary|surrey|brampton|ontario|bc)\b", re.I), "CA", "Canada"),
+    (re.compile(r"\b(united states|usa|\bUS\b|new york|california|texas|washington|seattle|austin|boston|san francisco|los angeles|chicago|denver|atlanta|miami|nyc|fulton|el segundo|san jose|waltham|lehi|sunnyvale)\b", re.I), "US", "United States"),
+    (re.compile(r"\b(united kingdom|uk|england|london|reading)\b", re.I), "UK", "United Kingdom"),
+    (re.compile(r"\b(germany|berlin|munich|nuremberg|pforzheim|frankfurt|hamburg)\b", re.I), "DE", "Germany"),
+    (re.compile(r"\b(france|paris)\b", re.I), "FR", "France"),
+    (re.compile(r"\b(netherlands|amsterdam)\b", re.I), "NL", "Netherlands"),
+    (re.compile(r"\b(sweden|stockholm)\b", re.I), "SE", "Sweden"),
+    (re.compile(r"\b(ireland|dublin)\b", re.I), "IE", "Ireland"),
+    (re.compile(r"\b(italy|milan|rome)\b", re.I), "IT", "Italy"),
+    (re.compile(r"\b(spain|madrid|barcelona)\b", re.I), "ES", "Spain"),
+    (re.compile(r"\b(portugal|lisbon|porto)\b", re.I), "PT", "Portugal"),
+    (re.compile(r"\b(switzerland|zurich|geneva)\b", re.I), "CH", "Switzerland"),
+    (re.compile(r"\b(poland|warsaw|krakow)\b", re.I), "PL", "Poland"),
+    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi)\b", re.I), "AE", "United Arab Emirates"),
+    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah)\b", re.I), "SA", "Saudi Arabia"),
+    (re.compile(r"\b(qatar|doha)\b", re.I), "QA", "Qatar"),
+    (re.compile(r"\b(israel|tel aviv|jerusalem)\b", re.I), "IL", "Israel"),
+    (re.compile(r"\b(egypt|cairo|alexandria|giza)\b", re.I), "EG", "Egypt"),
 ]
 
 # Utility functions
@@ -171,44 +163,9 @@ def detect_remote_type(location):
     return "onsite" if location.strip() else "unknown"
 
 def detect_country(location):
-    for rx, country in COUNTRY_FLAG_MAP:
+    for rx, _code, country in COUNTRY_MARK_MAP:
         if rx.search(location):
-            if country == "🇨🇦":
-                return "Canada"
-            if country == "🇺🇸":
-                return "United States"
-            if country == "🇬🇧":
-                return "United Kingdom"
-            if country == "🇩🇪":
-                return "Germany"
-            if country == "🇫🇷":
-                return "France"
-            if country == "🇳🇱":
-                return "Netherlands"
-            if country == "🇸🇪":
-                return "Sweden"
-            if country == "🇮🇪":
-                return "Ireland"
-            if country == "🇮🇹":
-                return "Italy"
-            if country == "🇪🇸":
-                return "Spain"
-            if country == "🇵🇹":
-                return "Portugal"
-            if country == "🇨🇭":
-                return "Switzerland"
-            if country == "🇵🇱":
-                return "Poland"
-            if country == "🇦🇪":
-                return "United Arab Emirates"
-            if country == "🇸🇦":
-                return "Saudi Arabia"
-            if country == "🇶🇦":
-                return "Qatar"
-            if country == "🇮🇱":
-                return "Israel"
-            if country == "🇪🇬":
-                return "Egypt"
+            return country
     if REMOTE_RE.search(location):
         return "Remote"
     return "Unknown"
@@ -222,14 +179,13 @@ def format_company(company):
 
 def format_location_display(location):
     clean_location = re.sub(r"\s+", " ", location.strip())
-    country = detect_country(clean_location)
-    flag = ""
-    for rx, emoji in COUNTRY_FLAG_MAP:
+    country_code = ""
+    for rx, code, _country in COUNTRY_MARK_MAP:
         if rx.search(clean_location):
-            flag = emoji
+            country_code = code
             break
-    if flag and flag not in clean_location:
-        return f"{clean_location} {flag}"
+    if country_code and country_code not in clean_location:
+        return f"{clean_location} ({country_code})"
     return clean_location
 
 def is_allowed_company(company):
@@ -640,7 +596,7 @@ def write_outputs(rows):
         "",
         f"**Total matching roles:** {len(rows)}",
         "",
-        "**Scope:** US, Canada, EMEA (+ remote) | **Levels:** Internship/New Grad/Junior/Entry/Mid/Senior/Staff/Lead/Principal | **Companies:** Top-tier allowlist only",
+        "**Scope:** US, Canada, EMEA (+ remote) | **Levels:** Internship/New Grad/Junior/Entry/Mid | **Companies:** Top-tier allowlist only",
         "",
         "## Stats Snapshot",
         "",
@@ -655,10 +611,6 @@ def write_outputs(rows):
         ("junior", "Junior"),
         ("entry_level", "Entry Level"),
         ("mid_level", "Mid Level"),
-        ("senior_level", "Senior Level"),
-        ("staff_level", "Staff Level"),
-        ("lead_level", "Lead / Tech Lead"),
-        ("principal_level", "Principal Level"),
     ]
 
     md_lines.extend([
@@ -667,10 +619,6 @@ def write_outputs(rows):
         f"| Junior roles | {len([r for r in public_rows if r['level'] == 'junior'])} |",
         f"| Entry level roles | {len([r for r in public_rows if r['level'] == 'entry_level'])} |",
         f"| Mid level roles | {len([r for r in public_rows if r['level'] == 'mid_level'])} |",
-        f"| Senior roles | {len([r for r in public_rows if r['level'] == 'senior_level'])} |",
-        f"| Staff roles | {len([r for r in public_rows if r['level'] == 'staff_level'])} |",
-        f"| Lead roles | {len([r for r in public_rows if r['level'] == 'lead_level'])} |",
-        f"| Principal roles | {len([r for r in public_rows if r['level'] == 'principal_level'])} |",
         "",
         "## Browse by Level",
         "",
@@ -679,10 +627,6 @@ def write_outputs(rows):
         "- [Junior](#junior)",
         "- [Entry Level](#entry-level)",
         "- [Mid Level](#mid-level)",
-        "- [Senior Level](#senior-level)",
-        "- [Staff Level](#staff-level)",
-        "- [Lead / Tech Lead](#lead--tech-lead)",
-        "- [Principal Level](#principal-level)",
         "",
     ])
 
@@ -692,11 +636,6 @@ def write_outputs(rows):
         "junior": "Junior",
         "entry_level": "Entry Level",
         "mid_level": "Mid Level",
-        "senior_level": "Senior Level",
-        "staff_level": "Staff Level",
-        "lead_level": "Lead / Tech Lead",
-        "principal_level": "Principal Level",
-        "unknown": "Other",
     }
 
     rows_by_level = {level: [] for level, _label in level_sections}

@@ -59,9 +59,6 @@ def main():
         "level and region detection",
         fetch.detect_level("Software Engineer Intern") == "internship"
         and fetch.detect_level("Junior Backend Engineer") == "junior"
-        and fetch.detect_level("Senior Software Engineer") == "senior_level"
-        and fetch.detect_level("Staff Platform Engineer") == "staff_level"
-        and fetch.detect_level("Tech Lead, Platform") == "lead_level"
         and fetch.detect_region("Toronto, Canada") == "canada"
         and fetch.detect_region("Berlin, Germany") == "emea"
         and fetch.detect_region("Remote - Worldwide") == "remote"
