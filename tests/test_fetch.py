@@ -59,6 +59,9 @@ def main():
         "level and region detection",
         fetch.detect_level("Software Engineer Intern") == "internship"
         and fetch.detect_level("Junior Backend Engineer") == "junior"
+        and fetch.detect_level("Senior Software Engineer") == "senior_level"
+        and fetch.detect_level("Staff Platform Engineer") == "staff_level"
+        and fetch.detect_level("Tech Lead, Platform") == "lead_level"
         and fetch.detect_region("Toronto, Canada") == "canada"
         and fetch.detect_region("Berlin, Germany") == "emea"
         and fetch.detect_region("Remote - Worldwide") == "remote"
@@ -169,7 +172,7 @@ def main():
         with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"):
             fetch.write_outputs(rows)
         payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
-        run("write outputs", lambda: check("write outputs", payload["total"] == 1 and (data_out / "jobs-global-latest.md").exists() and (data_out / "stats.json").exists()))
+        run("write outputs", lambda: check("write outputs", payload["total"] == 1 and "region" not in payload["jobs"][0] and (data_out / "jobs-global-latest.md").exists() and (data_out / "stats.json").exists()))
 
     with patch.object(fetch, "fetch_remotive", return_value=[]) as remotive_mock, patch.object(fetch, "fetch_arbeitnow", return_value=[]) as arbeitnow_mock, patch.object(fetch, "fetch_simplify_internships", return_value=[]) as internships_mock, patch.object(fetch, "fetch_simplify_newgrad", return_value=[]) as newgrad_mock, patch.object(fetch, "dedupe", return_value=[]), patch.object(fetch, "write_outputs") as write_outputs, patch.object(fetch, "log_warn"):
         fetch.main()

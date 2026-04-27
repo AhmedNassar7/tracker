@@ -72,6 +72,10 @@ LEVEL_MAP = {
     "junior": re.compile(r"\b(junior|jr\.?)\b", re.I),
     "entry_level": re.compile(r"\b(entry.?level|associate)\b", re.I),
     "mid_level": re.compile(r"\b(mid.?level|engineer ii|sde2|software engineer 2)\b", re.I),
+    "senior_level": re.compile(r"\b(senior|sr\.?)\b", re.I),
+    "staff_level": re.compile(r"\b(staff|principal staff)\b", re.I),
+    "lead_level": re.compile(r"\b(tech lead|team lead|lead engineer|engineering lead)\b", re.I),
+    "principal_level": re.compile(r"\b(principal|distinguished)\b", re.I),
 }
 
 # Software engineering role patterns
@@ -105,9 +109,40 @@ REGION_MAP = {
 REMOTE_RE = re.compile(r"\b(remote|worldwide|global|fully remote|anywhere)\b", re.I)
 HYBRID_RE = re.compile(r"\bhybrid\b", re.I)
 
-WANTED_LEVELS = {"internship", "new_grad", "junior", "entry_level", "mid_level"}
+WANTED_LEVELS = {
+    "internship",
+    "new_grad",
+    "junior",
+    "entry_level",
+    "mid_level",
+    "senior_level",
+    "staff_level",
+    "lead_level",
+    "principal_level",
+}
 WANTED_REGIONS = {"us", "canada", "emea", "remote"}
 RELAXED_MODE = False
+
+COUNTRY_FLAG_MAP = [
+    (re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary|surrey|brampton|ontario|bc)\b", re.I), "🇨🇦"),
+    (re.compile(r"\b(united states|usa|\bUS\b|new york|california|texas|washington|seattle|austin|boston|san francisco|los angeles|chicago|denver|atlanta|miami|nyc|fulton|el segundo|san jose|waltham|lehi|sunnyvale)\b", re.I), "🇺🇸"),
+    (re.compile(r"\b(united kingdom|uk|england|london|reading)\b", re.I), "🇬🇧"),
+    (re.compile(r"\b(germany|berlin|munich|nuremberg|pforzheim|frankfurt|hamburg)\b", re.I), "🇩🇪"),
+    (re.compile(r"\b(france|paris)\b", re.I), "🇫🇷"),
+    (re.compile(r"\b(netherlands|amsterdam)\b", re.I), "🇳🇱"),
+    (re.compile(r"\b(sweden|stockholm)\b", re.I), "🇸🇪"),
+    (re.compile(r"\b(ireland|dublin)\b", re.I), "🇮🇪"),
+    (re.compile(r"\b(italy|milan|rome)\b", re.I), "🇮🇹"),
+    (re.compile(r"\b(spain|madrid|barcelona)\b", re.I), "🇪🇸"),
+    (re.compile(r"\b(portugal|lisbon|porto)\b", re.I), "🇵🇹"),
+    (re.compile(r"\b(switzerland|zurich|geneva)\b", re.I), "🇨🇭"),
+    (re.compile(r"\b(poland|warsaw|krakow)\b", re.I), "🇵🇱"),
+    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi)\b", re.I), "🇦🇪"),
+    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah)\b", re.I), "🇸🇦"),
+    (re.compile(r"\b(qatar|doha)\b", re.I), "🇶🇦"),
+    (re.compile(r"\b(israel|tel aviv|jerusalem)\b", re.I), "🇮🇱"),
+    (re.compile(r"\b(egypt|cairo|alexandria|giza)\b", re.I), "🇪🇬"),
+]
 
 # Utility functions
 def make_id(company, title, url):
@@ -134,6 +169,68 @@ def detect_remote_type(location):
     if HYBRID_RE.search(location):
         return "hybrid"
     return "onsite" if location.strip() else "unknown"
+
+def detect_country(location):
+    for rx, country in COUNTRY_FLAG_MAP:
+        if rx.search(location):
+            if country == "🇨🇦":
+                return "Canada"
+            if country == "🇺🇸":
+                return "United States"
+            if country == "🇬🇧":
+                return "United Kingdom"
+            if country == "🇩🇪":
+                return "Germany"
+            if country == "🇫🇷":
+                return "France"
+            if country == "🇳🇱":
+                return "Netherlands"
+            if country == "🇸🇪":
+                return "Sweden"
+            if country == "🇮🇪":
+                return "Ireland"
+            if country == "🇮🇹":
+                return "Italy"
+            if country == "🇪🇸":
+                return "Spain"
+            if country == "🇵🇹":
+                return "Portugal"
+            if country == "🇨🇭":
+                return "Switzerland"
+            if country == "🇵🇱":
+                return "Poland"
+            if country == "🇦🇪":
+                return "United Arab Emirates"
+            if country == "🇸🇦":
+                return "Saudi Arabia"
+            if country == "🇶🇦":
+                return "Qatar"
+            if country == "🇮🇱":
+                return "Israel"
+            if country == "🇪🇬":
+                return "Egypt"
+    if REMOTE_RE.search(location):
+        return "Remote"
+    return "Unknown"
+
+def clean_company(company):
+    company = re.sub(r"^[\s🔥]+", "", company).strip()
+    return re.sub(r"\s+", " ", company)
+
+def format_company(company):
+    return clean_company(company).replace("🔥", "")
+
+def format_location_display(location):
+    clean_location = re.sub(r"\s+", " ", location.strip())
+    country = detect_country(clean_location)
+    flag = ""
+    for rx, emoji in COUNTRY_FLAG_MAP:
+        if rx.search(clean_location):
+            flag = emoji
+            break
+    if flag and flag not in clean_location:
+        return f"{clean_location} {flag}"
+    return clean_location
 
 def is_allowed_company(company):
     c = company.lower()
@@ -243,11 +340,11 @@ def fetch_url(url, dest, timeout=25):
 def normalize(company, title, location, url, posted_at, source, source_url):
     return {
         "id": make_id(company, title, url),
-        "company": company.strip(),
+        "company": clean_company(company),
         "title": title.strip(),
         "level": detect_level(title),
         "region": detect_region(location),
-        "country": "REMOTE" if detect_remote_type(location) == "remote" else "UNKNOWN",
+        "country": detect_country(location),
         "location": location.strip(),
         "remote_type": detect_remote_type(location),
         "url": url.strip(),
@@ -321,7 +418,6 @@ def fetch_arbeitnow():
     
     if not fetch_url("https://arbeitnow.com/api/job-board-api", path):
         log_warn("ArbeitNow fetch failed, skipping")
-        return out
         return out
     
     try:
@@ -507,12 +603,30 @@ def dedupe(rows):
     log_info(f"Deduplication: {len(rows)} → {len(out)} jobs")
     return out
 
+def public_job_record(row):
+    return {
+        "id": row["id"],
+        "company": format_company(row["company"]),
+        "title": row["title"],
+        "level": row["level"],
+        "country": row["country"],
+        "location": format_location_display(row["location"]),
+        "remote_type": row["remote_type"],
+        "url": row["url"],
+        "source": row["source"],
+        "source_url": row["source_url"],
+        "posted_at": row["posted_at"],
+        "collected_at": row["collected_at"],
+        "tags": row["tags"],
+    }
+
 def write_outputs(rows):
     """Write JSON, Markdown, and stats files"""
     rows = sorted(rows, key=lambda x: x["posted_at"], reverse=True)
+    public_rows = [public_job_record(row) for row in rows]
 
     # JSON export
-    payload = {"generated_at": NOW_ISO, "total": len(rows), "jobs": rows}
+    payload = {"generated_at": NOW_ISO, "total": len(public_rows), "jobs": public_rows}
     json_file = DATA_OUT / "jobs-global.json"
     try:
         json_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -526,19 +640,96 @@ def write_outputs(rows):
         "",
         f"**Total matching roles:** {len(rows)}",
         "",
-        "**Scope:** US, Canada, EMEA (+ remote) | **Levels:** Internship/New Grad/Junior/Entry/Mid | **Companies:** Top-tier allowlist only",
+        "**Scope:** US, Canada, EMEA (+ remote) | **Levels:** Internship/New Grad/Junior/Entry/Mid/Senior/Staff/Lead/Principal | **Companies:** Top-tier allowlist only",
         "",
-        "| Company | Title | Level | Region | Location | Posted | Source |",
-        "|---|---|---|---|---|---|---|",
+        "## Stats Snapshot",
+        "",
+        "| Metric | Count |",
+        "|---|---:|",
+        f"| Total roles | {len(public_rows)} |",
     ]
-    
-    for r in rows[:200]:
-        title = r["title"].replace("|", " ")
-        company = r["company"].replace("|", " ")
-        location = r["location"].replace("|", " ")
-        md_lines.append(
-            f"| {company} | [{title}]({r['url']}) | {r['level']} | {r['region']} | {location} | {r['posted_at']} | [{r['source']}]({r['source_url']}) |"
-        )
+
+    level_sections = [
+        ("internship", "Internship"),
+        ("new_grad", "New Grad"),
+        ("junior", "Junior"),
+        ("entry_level", "Entry Level"),
+        ("mid_level", "Mid Level"),
+        ("senior_level", "Senior Level"),
+        ("staff_level", "Staff Level"),
+        ("lead_level", "Lead / Tech Lead"),
+        ("principal_level", "Principal Level"),
+    ]
+
+    md_lines.extend([
+        f"| Internship roles | {len([r for r in public_rows if r['level'] == 'internship'])} |",
+        f"| New grad roles | {len([r for r in public_rows if r['level'] == 'new_grad'])} |",
+        f"| Junior roles | {len([r for r in public_rows if r['level'] == 'junior'])} |",
+        f"| Entry level roles | {len([r for r in public_rows if r['level'] == 'entry_level'])} |",
+        f"| Mid level roles | {len([r for r in public_rows if r['level'] == 'mid_level'])} |",
+        f"| Senior roles | {len([r for r in public_rows if r['level'] == 'senior_level'])} |",
+        f"| Staff roles | {len([r for r in public_rows if r['level'] == 'staff_level'])} |",
+        f"| Lead roles | {len([r for r in public_rows if r['level'] == 'lead_level'])} |",
+        f"| Principal roles | {len([r for r in public_rows if r['level'] == 'principal_level'])} |",
+        "",
+        "## Browse by Level",
+        "",
+        "- [Internship](#internship)",
+        "- [New Grad](#new-grad)",
+        "- [Junior](#junior)",
+        "- [Entry Level](#entry-level)",
+        "- [Mid Level](#mid-level)",
+        "- [Senior Level](#senior-level)",
+        "- [Staff Level](#staff-level)",
+        "- [Lead / Tech Lead](#lead--tech-lead)",
+        "- [Principal Level](#principal-level)",
+        "",
+    ])
+
+    level_titles = {
+        "internship": "Internship",
+        "new_grad": "New Grad",
+        "junior": "Junior",
+        "entry_level": "Entry Level",
+        "mid_level": "Mid Level",
+        "senior_level": "Senior Level",
+        "staff_level": "Staff Level",
+        "lead_level": "Lead / Tech Lead",
+        "principal_level": "Principal Level",
+        "unknown": "Other",
+    }
+
+    rows_by_level = {level: [] for level, _label in level_sections}
+    for row in public_rows:
+        rows_by_level.setdefault(row["level"], []).append(row)
+
+    for level, _label in level_sections:
+        level_rows = rows_by_level.get(level, [])
+        md_lines.extend([
+            f"## {level_titles[level]}",
+            "",
+            f"Total roles: {len(level_rows)}",
+            "",
+        ])
+        if not level_rows:
+            md_lines.extend([
+                "No roles matched this level today.",
+                "",
+            ])
+            continue
+
+        md_lines.extend([
+            "| Company | Title | Location | Posted | Source |",
+            "|---|---|---|---|---|",
+        ])
+        for r in level_rows[:200]:
+            company = r["company"].replace("|", " ")
+            title = r["title"].replace("|", " ")
+            location = r["location"].replace("|", " ")
+            md_lines.append(
+                f"| {company} | [{title}]({r['url']}) | {location} | {r['posted_at']} | [{r['source']}]({r['source_url']}) |"
+            )
+        md_lines.append("")
     
     md_file = DATA_OUT / "jobs-global-latest.md"
     try:
@@ -552,7 +743,7 @@ def write_outputs(rows):
         "generated_at": NOW_ISO,
         "total": len(rows),
         "by_level": dict(Counter(r["level"] for r in rows)),
-        "by_region": dict(Counter(r["region"] for r in rows)),
+        "by_country": dict(Counter(r["country"] for r in rows)),
         "by_source": dict(Counter(r["source"] for r in rows)),
     }
     stats_file = DATA_OUT / "stats.json"

@@ -7,7 +7,6 @@
     "company",
     "title",
     "level",
-    "region",
     "country",
     "location",
     "remote_type",
@@ -38,14 +37,9 @@
       "enum": ["internship", "new_grad", "junior", "entry_level", "mid_level", "unknown"],
       "description": "Career level detected from title"
     },
-    "region": {
-      "type": "string",
-      "enum": ["us", "canada", "emea", "remote", "unknown"],
-      "description": "Geographic region"
-    },
     "country": {
       "type": "string",
-      "description": "Country or 'REMOTE' or 'UNKNOWN'"
+      "description": "Detected country name, or 'Remote'/'Unknown' when not recognized"
     },
     "location": {
       "type": "string",
