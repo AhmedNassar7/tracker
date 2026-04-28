@@ -1,32 +1,37 @@
 # tracker
 
-[![Daily Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml) [![8 roles](https://img.shields.io/badge/roles-8-brightgreen.svg)](data/jobs-global-latest.md) [![5 levels](https://img.shields.io/badge/levels-5-blue.svg)](data/jobs-global-latest.md) [![4 sources](https://img.shields.io/badge/sources-4-orange.svg)](README.md#sources)
+[![Daily Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml) [![Total opportunities 136](https://img.shields.io/badge/Total%20opportunities-136-brightgreen.svg)](data/README.md) [![Jobs 127](https://img.shields.io/badge/Jobs-127-16a34a.svg)](data/README.md#jobs) [![Curated roles 23](https://img.shields.io/badge/Curated%20roles-23-2563eb.svg)](data/README.md#source-files) [![Public opportunities 187](https://img.shields.io/badge/Public%20opportunities-187-7c3aed.svg)](data/README.md#source-files)
 
-<!-- LEVEL_BADGES_START -->
-[![Internship 4](https://img.shields.io/badge/Internship-4-22c55e.svg)](data/jobs-global-latest.md#internship) [![New%20Grad 4](https://img.shields.io/badge/New%20Grad-4-0ea5e9.svg)](data/jobs-global-latest.md#new-grad) [![Junior 0](https://img.shields.io/badge/Junior-0-f59e0b.svg)](data/jobs-global-latest.md#junior) [![Entry%20Level 0](https://img.shields.io/badge/Entry%20Level-0-8b5cf6.svg)](data/jobs-global-latest.md#entry-level) [![Mid%20Level 0](https://img.shields.io/badge/Mid%20Level-0-ef4444.svg)](data/jobs-global-latest.md#mid-level)
-<!-- LEVEL_BADGES_END -->
+[![Internship 19](https://img.shields.io/badge/Internship-19-22c55e.svg)](data/README.md#internship) [![Early Career 9](https://img.shields.io/badge/Early%20Career-9-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 99](https://img.shields.io/badge/Mid-Level%20and%20Above-99-ef4444.svg)](data/README.md#mid-level-and-above) [![Hackathons 2](https://img.shields.io/badge/Hackathons-2-f59e0b.svg)](data/README.md#hackathons) [![Events 7](https://img.shields.io/badge/Events-7-8b5cf6.svg)](data/README.md#events)
 
-This repo runs a daily jobs pipeline for software roles at top-tier companies.
+Daily automated pipeline tracking software engineering opportunities from curated top-tier companies and public job boards.
 
 ## Start Here
 
-Use this page to jump straight to the jobs you want:
+Open [data/README.md](data/README.md) for the combined data page with all tables and links.
 
-- [Internship](data/jobs-global-latest.md#internship)
-- [New Grad](data/jobs-global-latest.md#new-grad)
-- [Junior](data/jobs-global-latest.md#junior)
-- [Entry Level](data/jobs-global-latest.md#entry-level)
-- [Mid Level](data/jobs-global-latest.md#mid-level)
-- [All jobs](data/jobs-global-latest.md)
+## Snapshot
 
+| Category | Count |
+|---|---:|
+| Curated roles | 23 |
+| Public opportunities | 187 |
+| Jobs | 127 |
+| Hackathons | 2 |
+| Events | 7 |
+| Total | 136 |
 
-## Sources
+## Navigation
 
-Public and allowed sources only:
-- Remotive
-- ArbeitNow
-- SimplifyJobs
+- [Combined data page](data/README.md)
+- [Jobs tables](data/README.md#jobs)
+- [Internship table](data/README.md#internship)
+- [Early career table](data/README.md#early-career)
+- [Mid-level and above table](data/README.md#mid-level-and-above)
+- [Hackathons table](data/README.md#hackathons)
+- [Events table](data/README.md#events)
 
----
+## Notes
 
-*Maintained by [AhmedNassar7](https://github.com/AhmedNassar7)*
+- The data page is generated from the JSON outputs in `data/`.
+- Raw JSON stays separate from the single Markdown view.

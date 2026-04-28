@@ -34,6 +34,12 @@ jobs:
           mkdir -p data/raw log
           python3 scripts/fetch.py
 
+      - name: Run public opportunity layer
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/public_sources.py
+
       - name: Update log and timestamp
         shell: bash
         run: |
@@ -70,11 +76,18 @@ jobs:
             - ArbeitNow API
             - SimplifyJobs Internships
             - SimplifyJobs New Grad
+            - Devpost hackathons
+            - Luma discovery pages
+            - Greenhouse public job boards
+            - Lever public postings
+            - Workday public pages (configurable)
             
             **Generated files:**
             - `data/jobs-global.json`
             - `data/jobs-global-latest.md`
             - `data/stats.json`
+            - `data/public-opportunities.json`
+            - `data/public-opportunities.md`
           branch: "daily/global-roles-${{ github.run_id }}"
           delete-branch: true
           labels: automated
