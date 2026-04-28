@@ -1,8 +1,16 @@
 # Software Engineering Opportunities
 
-**Last Updated:** 2026-04-28
+**Last Updated:** 2026-04-29
 
 This is the single data page for all tables. Use the links below to jump to each table.
+
+## Emoji Guide
+
+| Emoji | Meaning |
+|---|---|
+| 🎓 | PhD or advanced degree required |
+| 🇺🇸 | US only |
+| 🛂 | Visa sponsorship |
 
 ## Quick Links
 
@@ -19,8 +27,6 @@ This is the single data page for all tables. Use the links below to jump to each
 
 | Section | Count |
 |---|---:|
-| Curated roles | 23 |
-| Public opportunities | 187 |
 | Jobs | 127 |
 | Hackathons | 2 |
 | Events | 7 |
@@ -28,7 +34,7 @@ This is the single data page for all tables. Use the links below to jump to each
 
 ## Jobs
 
-[![Jobs 127](https://img.shields.io/badge/Jobs-127-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 19](https://img.shields.io/badge/Internship-19-22c55e.svg)](#internship) [![Early Career 9](https://img.shields.io/badge/Early%20Career-9-0ea5e9.svg)](#early-career) [![Mid-Level and Above 99](https://img.shields.io/badge/Mid-Level%20and%20Above-99-ef4444.svg)](#mid-level-and-above)
+[![Jobs 127](https://img.shields.io/badge/Jobs-127-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 19](https://img.shields.io/badge/Internship-19-22c55e.svg)](#internship) [![Early Career 9](https://img.shields.io/badge/Early%20Career-9-0ea5e9.svg)](#early-career) [![Mid-Level and Above 99](https://img.shields.io/badge/Mid-Level%20and%20Above-99-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -36,10 +42,13 @@ Total roles: 19
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Airbnb | [Machine Learning Engineer Intern - PhD 🎓](https://careers.airbnb.com/positions/7669906?gh_jid=7669906&utm_source=Simplify&ref=Simplify) | United States | 1d |
+| CCC Intelligent Solutions | [Machine Learning Annotation and Gen AI Analyst Intern](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Machine-Learning---Annotation-and-Gen-AI-Analyst-Intern_0014537?utm_source=Simplify&ref=Simplify) | Chicago, IL | 1d |
+| Twilio | [Software Engineer Intern](https://job-boards.greenhouse.io/twilio/jobs/7850821?utm_source=Simplify&ref=Simplify) | Remote in USA | 1d |
 | Adobe | [AI/ML Intern - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R160428?utm_source=Simplify&ref=Simplify) | San Jose, CA | 3d |
 | Twilio | [Software Engineer Intern (22nd June - 11th September, remote-US)](https://job-boards.greenhouse.io/twilio/jobs/7850821) | Remote - US | 4d |
 | Alarm.com | [Software Engineering Intern](https://job-boards.greenhouse.io/alarmcom/jobs/8417037002) | Tysons, Virginia | 5d |
-| Adobe | [AI/ML Intern - Machine Learning Engineer 🎓](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify) | 7 locations: Seattle, WA, SF, Austin, TX, San Jose, CA, Waltham, MA, NYC, Lehi, UT | 16d |
+| Adobe | [AI/ML Intern - Machine Learning Engineer 🎓](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify) | <details><summary>7 locations</summary>Seattle, WA<br>SF<br>Austin, TX<br>San Jose, CA<br>Waltham, MA<br>NYC<br>Lehi, UT</details> | 16d |
 | Texas Farm Bureau Casualty Insurance Company | [Software Developer Intern 🇺🇸](https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify) | Waco, TX | 21d |
 | Adobe | [Intern - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-Intern---Machine-Learning-Engineer_R160621?utm_source=Simplify&ref=Simplify) | SF San Jose, CA | 27d |
 | Samsung | [Software Engineer Backend Intern](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Engineer--Backend-Internship_R115950?utm_source=Simplify&ref=Simplify) | Mountain View, CA | 28d |
@@ -52,9 +61,6 @@ Total roles: 19
 | Palantir | [Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) | New York, NY | 1mo |
 | Palantir | [Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) | New York, NY | 2mo |
 | Palantir | [Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) | Honolulu, HI | 4mo |
-| Airbnb | [Machine Learning Engineer Intern - PhD 🎓](https://careers.airbnb.com/positions/7669906?gh_jid=7669906&utm_source=Simplify&ref=Simplify) | United States |  |
-| CCC Intelligent Solutions | [Machine Learning Annotation and Gen AI Analyst Intern](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Machine-Learning---Annotation-and-Gen-AI-Analyst-Intern_0014537?utm_source=Simplify&ref=Simplify) | Chicago, IL |  |
-| Twilio | [Software Engineer Intern](https://job-boards.greenhouse.io/twilio/jobs/7850821?utm_source=Simplify&ref=Simplify) | Remote in USA |  |
 
 ### Early Career
 
@@ -63,14 +69,14 @@ Total roles: 9
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Notion | [Software Engineer – New Grad - AI](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify) | SF | 0d |
+| Citadel Securities | [Software Engineer – University Graduate - US](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC | 1d |
 | Notion | [Software Engineer – New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify) | SF | 4d |
 | Scale AI | [Software Engineer - New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4605996005) | San Francisco, CA | 19d |
 | Uber | [Graduate Software Engineer 1 - Mobile - iOS](https://university-uber.icims.com/jobs/158011/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | SF | 22d |
-| Uber | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify) | 4 locations: Seattle, WA, SF, NYC, Sunnyvale, CA | 24d |
+| Uber | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details> | 24d |
 | Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 2mo |
-| Google | [Software Engineer Early Career - Infrastructure 🎓](https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify) | 12 locations: Madison, WI, Seattle, WA, Austin, TX, LA, Raleigh, NC, San Bruno, CA, Durham, NC, Kirkland, WA, NYC, Sunnyvale, CA, Mountain View, CA, Atlanta, GA | 5mo |
+| Google | [Software Engineer Early Career - Infrastructure 🎓](https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify) | <details><summary>12 locations</summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details> | 5mo |
 | Palantir | [Software Engineer – New Grad - Production Infrastructure](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply?utm_source=Simplify&ref=Simplify) | NYC | 5mo |
-| Citadel Securities | [Software Engineer – University Graduate - US](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC |  |
 
 ### Mid-Level and Above
 
@@ -182,24 +188,24 @@ Total roles: 99
 
 Total hackathons: 2
 
-| Organizer | Hackathon | Location | Timeline |
-|---|---|---|---|
-| Devpost | [Devpost Participate in our public hackathons](https://devpost.com/hackathons) | Various |  |
-| Devpost | [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons) | Various |  |
+| Organizer | Hackathon |
+|---|---|
+| Devpost | [Devpost Participate in our public hackathons](https://devpost.com/hackathons) |
+| Devpost | [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons) |
 
 ## Events
 
 Total events: 7
 
-| Organizer | Event | Location |
-|---|---|---|
-| Luma | [Subscribe Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c) | Global |
-| Luma | [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c) | Global |
-| Luma | [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c) | Global |
-| Luma | [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c) | Global |
-| Luma | [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c) | Global |
-| Luma | [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c) | Global |
-| Luma | [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c) | Global |
+| Organizer | Event |
+|---|---|
+| Luma | [Build Club](https://lu.ma/buildercommunityanz?k=c) |
+| Luma | [Cursor Community](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Design Buddies](https://lu.ma/design?k=c) |
+| Luma | [Google DeepMind](https://lu.ma/deepmind?k=c) |
+| Luma | [OpenClaw Meetups](https://lu.ma/claw?k=c) |
+| Luma | [Reading Rhythms](https://lu.ma/readingrhythms-global?k=c) |
+| Luma | [South Park](https://lu.ma/southparkcommons-events?k=c) |
 
 ## Source Files
 

@@ -21,16 +21,34 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def calculate_age_from_date(posted_at: str) -> str:
+    """Calculate age from posted_at date if it exists."""
+    try:
+        posted_date = datetime.datetime.strptime(posted_at, "%Y-%m-%d").date()
+        today = datetime.date.today()
+        delta = today - posted_date
+        if delta.days < 1:
+            return "0d"
+        return f"{delta.days}d"
+    except:
+        return ""
+
+
 def normalize_rows(rows: list[dict], origin: str) -> list[dict]:
     normalized: list[dict] = []
     for row in rows:
+        age = row.get("age") or row.get("date") or ""
+        # If age is still empty, calculate from posted_at
+        if not age:
+            age = calculate_age_from_date(row.get("posted_at") or "")
+        
         normalized.append(
             {
                 "origin": origin,
                 "company": row.get("company") or "",
                 "title": row.get("title") or "",
                 "location": row.get("location") or "",
-                "age": row.get("age") or row.get("date") or "",
+                "age": age,
                 "level": row.get("level") or "other",
                 "url": row.get("url") or "",
                 "source": row.get("source") or "",
@@ -124,18 +142,116 @@ def clean_cell(value: str) -> str:
     return text.replace("|", " ")
 
 
-def table_rows(rows: list[dict]) -> list[str]:
+def parse_locations(location_str: str) -> tuple[str, list[str]]:
+    """Parse location string and return (display_text, all_locations)."""
+    location_str = (location_str or "").strip()
+    if not location_str:
+        return "", []
+    
+    # Check if it has multiple locations pattern like "N locations: ..."
+    if " locations: " in location_str.lower():
+        parts = location_str.split(": ", 1)
+        if len(parts) == 2:
+            locations = [loc.strip() for loc in parts[1].split(", ")]
+            display = f"{len(locations)} locations: {', '.join(locations[:3])}..."
+            return display, locations
+    
+    return location_str, [location_str]
+
+
+def table_rows(rows: list[dict], enable_details: bool = True) -> list[str]:
     lines: list[str] = []
     for row in rows:
         company = clean_cell(row["company"])
         title = clean_cell(row["title"])
-        location = clean_cell(row["location"])
+        location_full = clean_cell(row["location"])
         age = clean_cell(row["age"])
         age_formatted = format_age(age)
+        
+        # Handle multiple locations with expandable details
+        if enable_details and " locations: " in location_full.lower():
+            # Split the header from the location list
+            parts = location_full.split(": ", 1)
+            if len(parts) == 2:
+                count_part = parts[0]  # e.g., "7 locations"
+                locs_str = parts[1]  # e.g., "Seattle, WA, SF, Austin, TX, ..."
+                
+                # Split locations, but keep pairs together (City, State)
+                # This is a simple heuristic: pairs of items separated by commas are kept together
+                loc_items = [item.strip() for item in locs_str.split(", ")]
+                
+                # Group into pairs where possible (City, State pattern)
+                grouped_locs = []
+                i = 0
+                while i < len(loc_items):
+                    if i + 1 < len(loc_items) and len(loc_items[i + 1]) <= 2:
+                        # Likely a state abbreviation, keep with city
+                        grouped_locs.append(f"{loc_items[i]}, {loc_items[i + 1]}")
+                        i += 2
+                    else:
+                        grouped_locs.append(loc_items[i])
+                        i += 1
+                
+                # Create expandable location with HTML details/summary
+                location_lines = "<br>".join(grouped_locs)
+                location_display = f'<details><summary>{count_part}</summary>{location_lines}</details>'
+            else:
+                location_display = location_full
+        else:
+            location_display = location_full
+        
         lines.append(
-            f"| {company} | [{title}]({row['url']}) | {location} | {age_formatted} |"
+            f"| {company} | [{title}]({row['url']}) | {location_display} | {age_formatted} |"
         )
     return lines
+
+
+def simplify_event_name(title: str) -> str:
+    """Simplify event names by removing 'Subscribe' prefix and descriptions."""
+    title = (title or "").strip()
+    # Remove "Subscribe " prefix
+    if title.startswith("Subscribe "):
+        title = title[10:]
+    
+    # Extract just the event name (first meaningful part)
+    # Split by common description patterns
+    parts = title.split(" - ", 1)
+    name = parts[0].strip()
+    
+    # For very descriptive titles, try to get just the main name
+    # Examples: "Build Club The most..." -> "Build Club"
+    # "Cursor Community Cursor community..." -> "Cursor Community"
+    words = name.split()
+    if len(words) > 4:
+        # If more than 4 words, likely contains description, take first 2-3 meaningful words
+        potential_names = [" ".join(words[:2]), " ".join(words[:3])]
+        # Use the one that doesn't repeat keywords
+        for candidate in potential_names:
+            if candidate.lower().count(candidate.lower().split()[0]) == 1:
+                name = candidate
+                break
+        else:
+            name = potential_names[0]
+    
+    # Remove parenthetical descriptions
+    name = re.sub(r'\s*\(.*?\)', '', name)
+    # Remove URLs
+    name = re.sub(r'https?://\S+', '', name)
+    # Remove "Global" suffix if present at the end
+    if name.endswith(" Global"):
+        name = name[:-7]
+    
+    name = name.strip()
+    return name if name else title
+
+
+def fix_event_url(url: str) -> str:
+    """Fix event URLs that are relative paths."""
+    url = (url or "").strip()
+    if url and url.startswith("/"):
+        # Convert relative Luma URLs to full URLs
+        return f"https://lu.ma{url}"
+    return url
 
 
 def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackathons: list[dict], events: list[dict]) -> str:
@@ -159,6 +275,14 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "",
         "This is the single data page for all tables. Use the links below to jump to each table.",
         "",
+        "## Emoji Guide",
+        "",
+        "| Emoji | Meaning |",
+        "|---|---|",
+        "| 🎓 | PhD or advanced degree required |",
+        "| 🇺🇸 | US only |",
+        "| 🛂 | Visa sponsorship |",
+        "",
         "## Quick Links",
         "",
         "### Jobs",
@@ -174,8 +298,6 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "",
         "| Section | Count |",
         "|---|---:|",
-        f"| Curated roles | {stats['curated_roles']} |",
-        f"| Public opportunities | {stats['public_opportunities']} |",
         f"| Jobs | {stats['jobs_total']} |",
         f"| Hackathons | {len(hackathons)} |",
         f"| Events | {len(events)} |",
@@ -183,7 +305,7 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "",
         "## Jobs",
         "",
-        f"{badge('Jobs', stats['jobs_total'], 'brightgreen', '#jobs')} {badge('Levels', 3, 'blue', '#jobs')} {badge('Internship', len(internship_rows), '22c55e', '#internship')} {badge('Early Career', len(early_rows), '0ea5e9', '#early-career')} {badge('Mid-Level and Above', len(mid_rows), 'ef4444', '#mid-level-and-above')}",
+        f"{badge('Jobs', stats['jobs_total'], 'brightgreen', '#jobs')} {badge('Levels', 3, 'blue', '#jobs')} {badge('Internship', len(internship_rows), '22c55e', '#internship')} {badge('Early Career', len(early_rows), '0ea5e9', '#early-career')} {badge('Mid-Level and Above', len(mid_rows), 'dc2626', '#mid-level-and-above')}",
         "",
         "### Internship",
         "",
@@ -231,13 +353,11 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "",
         f"Total hackathons: {len(hackathons)}",
         "",
-        "| Organizer | Hackathon | Location | Timeline |",
-        "|---|---|---|---|",
+        "| Organizer | Hackathon |",
+        "|---|---|",
     ])
     for row in hackathons:
-        location = row.get("location") or "Various"
-        timeline = row.get("date") or ""
-        lines.append(f"| {row['company']} | [{row['title']}]({row['url']}) | {location} | {timeline} |")
+        lines.append(f"| {row['company']} | [{row['title']}]({row['url']}) |")
 
     lines.extend([
         "",
@@ -245,12 +365,13 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "",
         f"Total events: {len(events)}",
         "",
-        "| Organizer | Event | Location |",
-        "|---|---|---|",
+        "| Organizer | Event |",
+        "|---|---|",
     ])
     for row in events:
-        location = row.get("location") or "Global"
-        lines.append(f"| {row['company']} | [{row['title']}]({row['url']}) | {location} |")
+        event_name = simplify_event_name(row.get("title") or "")
+        event_url = fix_event_url(row.get("url") or "")
+        lines.append(f"| {row['company']} | [{event_name}]({event_url}) |")
 
     lines.extend([
         "",
@@ -271,8 +392,6 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
 
 
 def render_root_readme(stats: dict) -> str:
-    curated_total = stats["curated_roles"]
-    public_total = stats["public_opportunities"]
     jobs_total = stats["jobs_total"]
     total_items = stats["total_items"]
     internship_total = stats["level_counts"]["internship"]
@@ -283,13 +402,11 @@ def render_root_readme(stats: dict) -> str:
         "[![Daily Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml)",
         badge("Total opportunities", total_items, "brightgreen", "data/README.md"),
         badge("Jobs", jobs_total, "16a34a", "data/README.md#jobs"),
-        badge("Curated roles", curated_total, "2563eb", "data/README.md#source-files"),
-        badge("Public opportunities", public_total, "7c3aed", "data/README.md#source-files"),
     ])
     level_badges = " ".join([
         badge("Internship", internship_total, "22c55e", "data/README.md#internship"),
         badge("Early Career", early_total, "0ea5e9", "data/README.md#early-career"),
-        badge("Mid-Level and Above", mid_total, "ef4444", "data/README.md#mid-level-and-above"),
+        badge("Mid-Level and Above", mid_total, "dc2626", "data/README.md#mid-level-and-above"),
         badge("Hackathons", 2, "f59e0b", "data/README.md#hackathons"),
         badge("Events", 7, "8b5cf6", "data/README.md#events"),
     ])
@@ -311,8 +428,6 @@ def render_root_readme(stats: dict) -> str:
         "",
         "| Category | Count |",
         "|---|---:|",
-        f"| Curated roles | {curated_total} |",
-        f"| Public opportunities | {public_total} |",
         f"| Jobs | {jobs_total} |",
         f"| Hackathons | 2 |",
         f"| Events | 7 |",
