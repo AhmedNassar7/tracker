@@ -27,14 +27,14 @@ This is the single data page for all tables. Use the links below to jump to each
 
 | Section | Count |
 |---|---:|
-| Jobs | 127 |
+| Jobs | 129 |
 | Hackathons | 2 |
-| Events | 7 |
-| Total | 136 |
+| Events | 8 |
+| Total | 139 |
 
 ## Jobs
 
-[![Jobs 127](https://img.shields.io/badge/Jobs-127-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 19](https://img.shields.io/badge/Internship-19-22c55e.svg)](#internship) [![Early Career 9](https://img.shields.io/badge/Early%20Career-9-0ea5e9.svg)](#early-career) [![Mid-Level and Above 99](https://img.shields.io/badge/Mid-Level%20and%20Above-99-dc2626.svg)](#mid-level-and-above)
+[![Jobs 129](https://img.shields.io/badge/Jobs-129-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 19](https://img.shields.io/badge/Internship-19-22c55e.svg)](#internship) [![Early Career 9](https://img.shields.io/badge/Early%20Career-9-0ea5e9.svg)](#early-career) [![Mid-Level and Above 101](https://img.shields.io/badge/Mid--Level%20and%20Above-101-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -42,11 +42,11 @@ Total roles: 19
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Twilio | [Software Engineer Intern (22nd June - 11th September, remote-US)](https://job-boards.greenhouse.io/twilio/jobs/7850821) | Remote - US | 0d |
 | Airbnb | [Machine Learning Engineer Intern - PhD 🎓](https://careers.airbnb.com/positions/7669906?gh_jid=7669906&utm_source=Simplify&ref=Simplify) | United States | 1d |
 | CCC Intelligent Solutions | [Machine Learning Annotation and Gen AI Analyst Intern](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Machine-Learning---Annotation-and-Gen-AI-Analyst-Intern_0014537?utm_source=Simplify&ref=Simplify) | Chicago, IL | 1d |
 | Twilio | [Software Engineer Intern](https://job-boards.greenhouse.io/twilio/jobs/7850821?utm_source=Simplify&ref=Simplify) | Remote in USA | 1d |
 | Adobe | [AI/ML Intern - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R160428?utm_source=Simplify&ref=Simplify) | San Jose, CA | 3d |
-| Twilio | [Software Engineer Intern (22nd June - 11th September, remote-US)](https://job-boards.greenhouse.io/twilio/jobs/7850821) | Remote - US | 4d |
 | Alarm.com | [Software Engineering Intern](https://job-boards.greenhouse.io/alarmcom/jobs/8417037002) | Tysons, Virginia | 5d |
 | Adobe | [AI/ML Intern - Machine Learning Engineer 🎓](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify) | <details><summary>7 locations</summary>Seattle, WA<br>SF<br>Austin, TX<br>San Jose, CA<br>Waltham, MA<br>NYC<br>Lehi, UT</details> | 16d |
 | Texas Farm Bureau Casualty Insurance Company | [Software Developer Intern 🇺🇸](https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify) | Waco, TX | 21d |
@@ -80,53 +80,55 @@ Total roles: 9
 
 ### Mid-Level and Above
 
-Total roles: 99
+Total roles: 101
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Alarm.com | [Senior Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8527096002) | Needham, Massachusetts | 0d |
+| Alarm.com | [Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8505982002) | Centennial, Colorado | 0d |
+| Scale AI | [AI Infrastructure Engineer - Training Platform](https://job-boards.greenhouse.io/scaleai/jobs/4689751005) | San Francisco, CA; Seattle, WA; New York, NY | 0d |
+| Twilio | [Cloud Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7484699) | Remote - Ireland | 0d |
+| Twilio | [Product Engineer (Backend)](https://job-boards.greenhouse.io/twilio/jobs/7671815) | Remote - US | 0d |
+| Twilio | [Senior Cloud Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7807419) | Remote - Spain | 0d |
+| Twilio | [Senior Infrastructure Engineer](https://job-boards.greenhouse.io/twilio/jobs/7474040) | Remote - US | 0d |
+| Twilio | [Senior Manager, Platform Engineering - Secure Supply Chain](https://job-boards.greenhouse.io/twilio/jobs/7755317) | Remote - US | 0d |
 | Twilio | [Senior Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7662058) | Remote - United Kingdom | 0d |
+| Twilio | [Senior Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7595407) | Remote - US | 0d |
+| Twilio | [Senior Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7535345) | Remote - Spain | 0d |
+| Twilio | [Senior Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7747554) | Remote - Ireland | 0d |
+| Twilio | [Senior Software Engineer- Video Signalling](https://job-boards.greenhouse.io/twilio/jobs/7394811) | Remote - Ireland | 0d |
+| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7699251) | Remote - Estonia | 0d |
+| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7647708) | Remote - Estonia | 0d |
+| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7605743) | Remote - US | 0d |
+| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7747550) | Remote - Ireland | 0d |
+| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7785202) | Remote - Ireland | 0d |
+| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7846633) | Remote - Spain | 0d |
+| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7822831) | Remote - Ireland | 0d |
+| Twilio | [Software Engineer (L2)](https://job-boards.greenhouse.io/twilio/jobs/7188174) | Remote - US | 0d |
+| Twilio | [Software Engineer (L3)](https://job-boards.greenhouse.io/twilio/jobs/7301401) | Remote - US | 0d |
+| Twilio | [Software Engineer (L3) Infrastructure](https://job-boards.greenhouse.io/twilio/jobs/7767260) | Remote - Canada | 0d |
+| Twilio | [Staff Software Engineer (L4)](https://job-boards.greenhouse.io/twilio/jobs/7716279) | Remote - Colombia | 0d |
+| Twilio | [Staff Software Engineer (L4)](https://job-boards.greenhouse.io/twilio/jobs/7714237) | Remote - Canada | 0d |
+| Twilio | [Staff Software Engineer (L4) Data Platform](https://job-boards.greenhouse.io/twilio/jobs/7782805) | Remote - US | 0d |
 | Alarm.com | [Software Engineer II (Full-stack Android)](https://job-boards.greenhouse.io/alarmcom/jobs/8442359002) | Kraków, Lesser Poland Voivodeship, Poland | 1d |
 | Scale AI | [Senior Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4673310005) | London, UK | 1d |
 | Scale AI | [Staff Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4676610005) | London, UK | 1d |
-| Twilio | [Cloud Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7484699) | Remote - Ireland | 1d |
-| Twilio | [Senior Cloud Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7807419) | Remote - Spain | 1d |
-| Twilio | [Senior Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7535345) | Remote - Spain | 1d |
-| Twilio | [Senior Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7747554) | Remote - Ireland | 1d |
-| Twilio | [Senior Software Engineer- Video Signalling](https://job-boards.greenhouse.io/twilio/jobs/7394811) | Remote - Ireland | 1d |
-| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7647708) | Remote - Estonia | 1d |
-| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7699251) | Remote - Estonia | 1d |
-| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7747550) | Remote - Ireland | 1d |
-| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7785202) | Remote - Ireland | 1d |
-| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7846633) | Remote - Spain | 1d |
-| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7822831) | Remote - Ireland | 1d |
-| Twilio | [Software Engineer (L3) Infrastructure](https://job-boards.greenhouse.io/twilio/jobs/7767260) | Remote - Canada | 1d |
-| Twilio | [Staff Software Engineer (L4)](https://job-boards.greenhouse.io/twilio/jobs/7716279) | Remote - Colombia | 1d |
-| Twilio | [Staff Software Engineer (L4)](https://job-boards.greenhouse.io/twilio/jobs/7714237) | Remote - Canada | 1d |
 | Alarm.com | [DevOps Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8522951002) | Centennial, Colorado | 4d |
 | Alarm.com | [DevOps Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8398722002) | Tysons, Virginia | 4d |
 | Alarm.com | [Senior Software Engineer (.NET, C#, Protocols Team)](https://job-boards.greenhouse.io/alarmcom/jobs/8442366002) | Kraków, Lesser Poland Voivodeship, Poland | 4d |
 | Alarm.com | [Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8506045002) | Centennial, Colorado | 4d |
 | Alarm.com | [Software Engineer (.NET, C#)](https://job-boards.greenhouse.io/alarmcom/jobs/8504183002) | EBS Warsaw, Poland | 5d |
-| Twilio | [Senior Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7595407) | Remote - US | 5d |
-| Alarm.com | [Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8490045002) | Lawrence, Kansas | 6d |
 | Alarm.com | [Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8490048002) | Centennial, Colorado | 6d |
+| Alarm.com | [Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8490045002) | Lawrence, Kansas | 6d |
 | Scale AI | [Software Engineer (Backend), Enterprise](https://job-boards.greenhouse.io/scaleai/jobs/4630032005) | Budapest, Hungary | 6d |
 | Scale AI | [Mission Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4481921005) | Baltimore, MD; Colorado Springs, CO; Hampton Roads, VA; Tampa, FL; Tucson,AZ; San Francisco, CA; New York, NY; Honolulu, HI, St. Louis, MO; Washington, DC | 7d |
-| Twilio | [Product Engineer (Backend)](https://job-boards.greenhouse.io/twilio/jobs/7671815) | Remote - US | 7d |
-| Twilio | [Senior Infrastructure Engineer](https://job-boards.greenhouse.io/twilio/jobs/7474040) | Remote - US | 8d |
-| Twilio | [Senior Manager, Platform Engineering - Secure Supply Chain](https://job-boards.greenhouse.io/twilio/jobs/7755317) | Remote - US | 10d |
-| Twilio | [Software Engineer (L3)](https://job-boards.greenhouse.io/twilio/jobs/7301401) | Remote - US | 11d |
 | Alarm.com | [Senior Software Engineering Manager](https://job-boards.greenhouse.io/alarmcom/jobs/8490051002) | Boston, Massachusetts | 12d |
 | Alarm.com | [Staff Software Engineer - AI Focus](https://job-boards.greenhouse.io/alarmcom/jobs/8477654002) | Tysons, Virginia | 12d |
 | Scale AI | [Senior Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4674911005) | San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC | 12d |
-| Scale AI | [Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4302243005) | San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC | 12d |
 | Scale AI | [Staff Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4674913005) | San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC | 12d |
-| Twilio | [Software Engineer (L2)](https://job-boards.greenhouse.io/twilio/jobs/7188174) | Remote - US | 12d |
 | Alarm.com | [Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8508197002) | Liberty Lake, Washington | 13d |
 | Alarm.com | [Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8498612002) | Tysons, Virginia | 14d |
 | Alarm.com | [Senior Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8430339002) | Tysons, Virginia | 15d |
-| Twilio | [Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/7605743) | Remote - US | 15d |
-| Twilio | [Staff Software Engineer (L4) Data Platform](https://job-boards.greenhouse.io/twilio/jobs/7782805) | Remote - US | 15d |
 | Scale AI | [Software Engineer, Gen AI](https://job-boards.greenhouse.io/scaleai/jobs/4591300005) | San Francisco, CA; New York, NY | 19d |
 | Alarm.com | [Software Engineer - Localization](https://job-boards.greenhouse.io/alarmcom/jobs/8459004002) | Tysons, Virginia | 21d |
 | Alarm.com | [Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8384631002) | Tysons, Virginia | 22d |
@@ -195,7 +197,7 @@ Total hackathons: 2
 
 ## Events
 
-Total events: 7
+Total events: 8
 
 | Organizer | Event |
 |---|---|
@@ -203,6 +205,7 @@ Total events: 7
 | Luma | [Cursor Community](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Design Buddies](https://lu.ma/design?k=c) |
 | Luma | [Google DeepMind](https://lu.ma/deepmind?k=c) |
+| Luma | [mHUB Events](https://lu.ma/mHUB_Events?k=c) |
 | Luma | [OpenClaw Meetups](https://lu.ma/claw?k=c) |
 | Luma | [Reading Rhythms](https://lu.ma/readingrhythms-global?k=c) |
 | Luma | [South Park](https://lu.ma/southparkcommons-events?k=c) |

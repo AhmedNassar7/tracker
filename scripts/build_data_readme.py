@@ -4,6 +4,7 @@ from __future__ import annotations
 import datetime
 import json
 import re
+from urllib.parse import quote
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -127,7 +128,7 @@ def filter_stale_jobs(rows: list[dict]) -> list[dict]:
 
 
 def badge(label: str, value: int, color: str, link: str) -> str:
-    safe_label = label.replace(" ", "%20")
+    safe_label = quote(label, safe="").replace("-", "--")
     return f"[![{label} {value}](https://img.shields.io/badge/{safe_label}-{value}-{color}.svg)]({link})"
 
 
