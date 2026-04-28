@@ -68,7 +68,7 @@ else:
 # Define career level detection patterns
 LEVEL_MAP = {
     "internship": re.compile(r"\b(intern|internship|co.?op)\b", re.I),
-    "new_grad": re.compile(r"\b(new.?grad|fresh.?grad|recent.?grad|graduate|campus)\b", re.I),
+    "new_grad": re.compile(r"\b(new.?grad|fresh.?grad|recent.?grad|graduate|campus|early.?career)\b", re.I),
     "junior": re.compile(r"\b(junior|jr\.?)\b", re.I),
     "entry_level": re.compile(r"\b(entry.?level|associate)\b", re.I),
     "mid_level": re.compile(r"\b(mid.?level|engineer ii|sde2|software engineer 2)\b", re.I),
@@ -181,6 +181,83 @@ def format_location_display(location):
     clean_location = re.sub(r"\s+", " ", location.strip())
     return clean_location
 
+def format_job_age(row):
+    age = (row.get("age") or "").strip()
+    if age:
+        return age
+
+    posted_at = (row.get("posted_at") or "").strip()
+    try:
+        posted_date = datetime.date.fromisoformat(posted_at[:10])
+    except Exception:
+        return ""
+
+    age_days = max((datetime.datetime.now(datetime.UTC).date() - posted_date).days, 0)
+    return f"{age_days}d"
+
+def _extract_location_details(value):
+    match = re.search(
+        r"<details[^>]*>\s*<summary><strong>(\d+)\s+locations?</strong></summary>(.*?)</details>",
+        value,
+        flags=re.I | re.S,
+    )
+    if not match:
+        return _clean_html_text(value), []
+
+    inner = match.group(2)
+    inner = re.sub(r"<br\s*/?>|</br>", "\n", inner, flags=re.I)
+    inner = re.sub(r"<[^>]+>", " ", inner)
+    inner = html.unescape(inner)
+    locations = [part.strip(" \t\r\n-•") for part in inner.split("\n")]
+    locations = [part for part in locations if part]
+    location_text = " ".join(locations)
+    return location_text or _clean_html_text(value), locations
+
+def _format_location_display(location, location_details=None):
+    clean_location = re.sub(r"\s+", " ", location.strip())
+    if location_details:
+        count = len(location_details)
+        summary = f"{count} location" if count == 1 else f"{count} locations"
+        body = "<br>".join(html.escape(item) for item in location_details)
+        return f"<details><summary><strong>{summary}</strong></summary>{body}</details>"
+
+    count_match = re.match(r"^(?P<count>\d+)\s+locations?\s+(?P<rest>.+)$", clean_location, flags=re.I)
+    if count_match:
+        count = int(count_match.group("count"))
+        summary = f"{count} location" if count == 1 else f"{count} locations"
+        body = html.escape(count_match.group("rest").strip())
+        return f"<details><summary><strong>{summary}</strong></summary>{body}</details>"
+
+    return clean_location
+
+def _job_compare_payload(row):
+    return {
+        "id": row.get("id"),
+        "company": row.get("company"),
+        "title": row.get("title"),
+        "level": row.get("level"),
+        "country": row.get("country"),
+        "location": row.get("location"),
+        "remote_type": row.get("remote_type"),
+        "url": row.get("url"),
+        "source": row.get("source"),
+        "source_url": row.get("source_url"),
+        "tags": row.get("tags"),
+    }
+
+def _job_signature(row):
+    return json.dumps(_job_compare_payload(row), sort_keys=True, ensure_ascii=False)
+
+def _load_jobs_payload(path):
+    if not path.exists():
+        return []
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    jobs = payload.get("jobs", [])
+    return jobs if isinstance(jobs, list) else []
+
 def is_allowed_company(company):
     c = company.lower()
     return any(a in c or c in a for a in ALLOWLIST)
@@ -216,6 +293,10 @@ def _extract_markdown_link(value):
 def parse_simplify_entries(content):
     entries = []
 
+    inactive_match = re.search(r"🗃️\s*Inactive roles", content, flags=re.I)
+    if inactive_match:
+        content = content[:inactive_match.start()]
+
     # Markdown table rows: | Company | Position | Location | Link |
     for line in content.splitlines():
         line = line.strip()
@@ -229,7 +310,7 @@ def parse_simplify_entries(content):
         location = _clean_html_text(parts[2]) or "Remote"
         url = _extract_markdown_link(parts[3])
         if company and title and url:
-            entries.append((company, title, location, url))
+            entries.append((company, title, location, url, "", []))
 
     # HTML table rows: <tr><td>...</td>...</tr>
     for row_html in re.findall(r"<tr[^>]*>(.*?)</tr>", content, flags=re.I | re.S):
@@ -240,7 +321,11 @@ def parse_simplify_entries(content):
         texts = [_clean_html_text(cell) for cell in cells]
         company = texts[0]
         title = texts[1] if len(texts) > 1 else ""
-        location = texts[2] if len(texts) > 2 else "Remote"
+        location_cell = cells[2] if len(cells) > 2 else "Remote"
+        location, location_details = _extract_location_details(location_cell)
+        if not location:
+            location = texts[2] if len(texts) > 2 else "Remote"
+        age = _clean_html_text(cells[4]) if len(cells) > 4 else ""
 
         hrefs = re.findall(r"href=\"(https?://[^\"]+)\"", row_html, flags=re.I)
         url = ""
@@ -255,7 +340,7 @@ def parse_simplify_entries(content):
             url = hrefs[0]
 
         if company and title and url:
-            entries.append((company, title, location, url))
+            entries.append((company, title, location, url, age, location_details))
 
     # Deduplicate parsed entries
     deduped = []
@@ -286,7 +371,7 @@ def fetch_url(url, dest, timeout=25):
         log_error(f"Unexpected error fetching {url}: {type(e).__name__}: {e}")
         return False
 
-def normalize(company, title, location, url, posted_at, source, source_url):
+def normalize(company, title, location, url, posted_at, source, source_url, age="", location_details=None):
     return {
         "id": make_id(company, title, url),
         "company": clean_company(company),
@@ -300,6 +385,8 @@ def normalize(company, title, location, url, posted_at, source, source_url):
         "source": source,
         "source_url": source_url,
         "posted_at": (posted_at or TODAY)[:10],
+        "age": age.strip(),
+        "location_details": location_details or [],
         "collected_at": NOW_ISO,
         "tags": ["software", "programming", "global-tech-roles"],
     }
@@ -441,7 +528,7 @@ def fetch_simplify_internships():
     
     skipped = {"role": 0, "level": 0, "region": 0, "company": 0, "parse": 0}
     
-    for company, title, location, url in entries:
+    for company, title, location, url, age, location_details in entries:
         try:
             
             if not (company and title and url):
@@ -460,6 +547,8 @@ def fetch_simplify_internships():
                 TODAY,
                 "simplify_internships",
                 "https://github.com/SimplifyJobs/Summer2026-Internships",
+                age=age,
+                location_details=location_details,
             )
 
             if not include_job(row, company):
@@ -500,7 +589,7 @@ def fetch_simplify_newgrad():
     
     skipped = {"role": 0, "level": 0, "region": 0, "company": 0, "parse": 0}
     
-    for company, title, location, url in entries:
+    for company, title, location, url, age, location_details in entries:
         try:
             
             if not (company and title and url):
@@ -519,6 +608,8 @@ def fetch_simplify_newgrad():
                 TODAY,
                 "simplify_newgrad",
                 "https://github.com/SimplifyJobs/New-Grad-Positions",
+                age=age,
+                location_details=location_details,
             )
 
             if not include_job(row, company):
@@ -559,12 +650,13 @@ def public_job_record(row):
         "title": row["title"],
         "level": row["level"],
         "country": row["country"],
-        "location": format_location_display(row["location"]),
+        "location": _format_location_display(row["location"], row.get("location_details")),
         "remote_type": row["remote_type"],
         "url": row["url"],
         "source": row["source"],
         "source_url": row["source_url"],
         "posted_at": row["posted_at"],
+        "age": format_job_age(row),
         "collected_at": row["collected_at"],
         "tags": row["tags"],
     }
@@ -574,12 +666,57 @@ def write_outputs(rows):
     rows = sorted(rows, key=lambda x: x["posted_at"], reverse=True)
     public_rows = [public_job_record(row) for row in rows]
 
+    active_file = DATA_OUT / "jobs-global.json"
+    archive_file = DATA_OUT / "jobs-global-archive.json"
+    previous_active_rows = _load_jobs_payload(active_file)
+    previous_archive_rows = _load_jobs_payload(archive_file)
+    previous_active_by_id = {row.get("id"): row for row in previous_active_rows if row.get("id")}
+    previous_archive_by_id = {row.get("id"): row for row in previous_archive_rows if row.get("id")}
+
+    changed = not active_file.exists() or not archive_file.exists()
+    current_ids = set()
+    merged_public_rows = []
+    for row in public_rows:
+        row_id = row["id"]
+        current_ids.add(row_id)
+        previous_row = previous_active_by_id.get(row_id)
+        if previous_row and _job_signature(previous_row) == _job_signature(row):
+            merged_public_rows.append(previous_row)
+        else:
+            merged_public_rows.append(row)
+            if previous_row is None or _job_signature(previous_row) != _job_signature(row):
+                changed = True
+
+    archive_rows = dict(previous_archive_by_id)
+    for row_id, previous_row in previous_active_by_id.items():
+        if row_id not in current_ids and row_id not in archive_rows:
+            archive_row = dict(previous_row)
+            archive_row["closed_at"] = NOW_ISO
+            archive_rows[row_id] = archive_row
+            changed = True
+
+    for row_id in list(archive_rows.keys()):
+        if row_id in current_ids:
+            del archive_rows[row_id]
+            changed = True
+
+    archive_public_rows = sorted(
+        archive_rows.values(),
+        key=lambda x: x.get("closed_at", x.get("collected_at", "")),
+        reverse=True,
+    )
+
+    if not changed:
+        log_info("No job changes detected; skipping output refresh")
+        return
+
+    public_rows = merged_public_rows
+
     # JSON export
     payload = {"generated_at": NOW_ISO, "total": len(public_rows), "jobs": public_rows}
-    json_file = DATA_OUT / "jobs-global.json"
     try:
-        json_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-        log_info(f"Exported {json_file}")
+        active_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        log_info(f"Exported {active_file}")
     except Exception as e:
         log_error(f"Failed to write JSON: {e}")
 
@@ -646,15 +783,35 @@ def write_outputs(rows):
             continue
 
         md_lines.extend([
-            "| Company | Title | Location | Posted | Source |",
+            "| Company | Title | Location | Age | Source |",
             "|---|---|---|---|---|",
         ])
         for r in level_rows[:200]:
             company = r["company"].replace("|", " ")
             title = r["title"].replace("|", " ")
             location = r["location"].replace("|", " ")
+            age = format_job_age(r).replace("|", " ")
             md_lines.append(
-                f"| {company} | [{title}]({r['url']}) | {location} | {r['posted_at']} | [{r['source']}]({r['source_url']}) |"
+                f"| {company} | [{title}]({r['url']}) | {location} | {age} | [{r['source']}]({r['source_url']}) |"
+            )
+        md_lines.append("")
+
+    if archive_public_rows:
+        md_lines.extend([
+            "## Archive",
+            "",
+            f"Closed roles tracked: {len(archive_public_rows)}",
+            "",
+            "| Company | Title | Location | Closed | Source |",
+            "|---|---|---|---|---|",
+        ])
+        for r in archive_public_rows[:200]:
+            company = r["company"].replace("|", " ")
+            title = r["title"].replace("|", " ")
+            location = r["location"].replace("|", " ")
+            closed_at = (r.get("closed_at") or r.get("collected_at") or "")[:10]
+            md_lines.append(
+                f"| {company} | [{title}]({r['url']}) | {location} | {closed_at} | [{r['source']}]({r['source_url']}) |"
             )
         md_lines.append("")
     
@@ -664,6 +821,13 @@ def write_outputs(rows):
         log_info(f"Exported {md_file}")
     except Exception as e:
         log_error(f"Failed to write markdown: {e}")
+
+    archive_payload = {"generated_at": NOW_ISO, "total": len(archive_public_rows), "jobs": archive_public_rows}
+    try:
+        archive_file.write_text(json.dumps(archive_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        log_info(f"Exported {archive_file}")
+    except Exception as e:
+        log_error(f"Failed to write archive JSON: {e}")
 
     # Stats export
     stats = {
@@ -702,6 +866,12 @@ def write_outputs(rows):
             badge_end = "<!-- LEVEL_BADGES_END -->"
             start_marker = "<!-- LEVEL_COUNTS_START -->"
             end_marker = "<!-- LEVEL_COUNTS_END -->"
+            readme_text = re.sub(
+                r"\[!\[\d+ roles\]\(https://img\.shields\.io/badge/roles-\d+-brightgreen\.svg\)\]",
+                f"[![{stats['total']} roles](https://img.shields.io/badge/roles-{stats['total']}-brightgreen.svg)]",
+                readme_text,
+                count=1,
+            )
             if badge_start in readme_text and badge_end in readme_text:
                 badges = []
                 for level, _label in level_names:

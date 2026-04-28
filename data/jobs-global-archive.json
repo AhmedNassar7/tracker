@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-04-28T09:16:05Z",
+  "total": 17,
+  "jobs": [
+    {
+      "id": "3f70592ae4e006ea",
+      "company": "Uber",
+      "title": "Graduate Software Engineer 1",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "4 locations Seattle, WA SF NYC Sunnyvale, CA",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/158009/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "08d9fa604197735e",
+      "company": "Stripe",
+      "title": "Software Engineer – New Grad",
+      "level": "new_grad",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Stripe?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "5f11ed39338311f8",
+      "company": "Visa",
+      "title": "Junior Software Engineer",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "b0739f58ed05ca94",
+      "company": "Uber",
+      "title": "Graduate 2026 Software Engineer 1 - US",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA SF NYC",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Uber?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "d15737624cdd84a7",
+      "company": "Uber",
+      "title": "Graduate Software Engineer 1 - Mobile",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "4 locations Seattle, WA SF NYC Sunnyvale, CA",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Uber?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "6d20550ce0d7cf4e",
+      "company": "DoorDash",
+      "title": "Software Engineer - Entry Level",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Toronto, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/DoorDash?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "66a9f544905cfa9a",
+      "company": "Databricks",
+      "title": "Software Engineer New Grad - 2026 Start",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Vancouver, BC, Canada",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Databricks?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "2f18dc2a298044f5",
+      "company": "Okta",
+      "title": "Software Engineer I – New Grad",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Okta?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "d9659915fee5d210",
+      "company": "Visa",
+      "title": "Graduate Software Engineer",
+      "level": "new_grad",
+      "country": "United Kingdom",
+      "location": "Reading, United Kingdom",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "4e805651de128140",
+      "company": "NVIDIA",
+      "title": "DL Performance Software Engineer – New College Graduate 2025 - LLM Inference",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/NVIDIA?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "15ac6da295db41a1",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer – New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Palantir?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "b9dcc4afcfad63a2",
+      "company": "Visa",
+      "title": "Junior Software Engineer - Java Engineering",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "4c08708b2fb8c48d",
+      "company": "Adobe",
+      "title": "University Graduate - Machine Learning Engineer 🎓",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R160133?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "4a5382aa552303b8",
+      "company": "Google",
+      "title": "Software Engineer II, Early Career - Google Cloud AI Catalyst Program",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Sunnyvale, CA Kirkland, WA Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Google?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "9e0a9bd422e5aebf",
+      "company": "Adobe",
+      "title": "2026 University Graduate - Machine Learning Engineer 🎓",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Adobe?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "cbf0c77fc66979eb",
+      "company": "Morgan Stanley",
+      "title": "Machine Learning Research Associate Program - PhD 🎓",
+      "level": "entry_level",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Morgan-Stanley?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    },
+    {
+      "id": "13a3202168de55b2",
+      "company": "Stripe",
+      "title": "PhD Machine Learning Engineer – New Grad 🎓",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA SF NYC",
+      "remote_type": "onsite",
+      "url": "https://simplify.jobs/c/Stripe?utm_source=GHList&utm_medium=company",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-27",
+      "collected_at": "2026-04-27T16:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-04-28T09:16:05Z"
+    }
+  ]
+}

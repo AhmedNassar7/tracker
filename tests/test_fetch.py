@@ -58,6 +58,7 @@ def main():
     run("level and region detection", lambda: check(
         "level and region detection",
         fetch.detect_level("Software Engineer Intern") == "internship"
+        and fetch.detect_level("Software Engineer – Early Career") == "new_grad"
         and fetch.detect_level("Junior Backend Engineer") == "junior"
         and fetch.detect_region("Toronto, Canada") == "canada"
         and fetch.detect_region("Berlin, Germany") == "emea"
@@ -148,6 +149,52 @@ def main():
             internship_rows = fetch.fetch_simplify_internships()
     run("simplify internships fetch", lambda: check("simplify internships fetch", len(internship_rows) == 1 and internship_rows[0]["company"] == "Google" and internship_rows[0]["source"] == "simplify_internships"))
 
+    simplify_html = "\n".join([
+        "<table>",
+        "<thead>",
+        "<tr><th>Company</th><th>Role</th><th>Location</th><th>Application</th><th>Age</th></tr>",
+        "</thead>",
+        "<tbody>",
+        "<tr>",
+        '<td><strong><a href="https://simplify.jobs/c/Mirage?utm_source=GHList&utm_medium=company">Mirage</a></strong></td>',
+        "<td>Software Engineer – Early Career</td>",
+        '<td><details><summary><strong>4 locations</strong></summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details></td>',
+        '<td><div align="center"><a href="https://jobs.example.com/apply"><img src="https://i.imgur.com/fbjwDvo.png" width="52" alt="Apply"></a></div></td>',
+        "<td>3d</td>",
+        "</tr>",
+        "</tbody>",
+        "</table>",
+        "<details><summary>🗃️ Inactive roles (1)</summary>",
+        "<table>",
+        "<tbody>",
+        "<tr>",
+        '<td><strong><a href="https://simplify.jobs/c/ClosedCo?utm_source=GHList&utm_medium=company">ClosedCo</a></strong></td>',
+        "<td>Software Engineer – Early Career</td>",
+        '<td>Remote in USA</td>',
+        '<td><div align="center"><a href="https://jobs.example.com/closed"><img src="https://i.imgur.com/fbjwDvo.png" width="52" alt="Apply"></a></div></td>',
+        "<td>99d</td>",
+        "</tr>",
+        "</tbody>",
+        "</table>",
+        "</details>",
+    ])
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25):
+            dest.write_text(simplify_html, encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["mirage", "closedco"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            simplify_rows = fetch.fetch_simplify_newgrad()
+    run("simplify new grad active rows only", lambda: check(
+        "simplify new grad active rows only",
+        len(simplify_rows) == 1
+        and simplify_rows[0]["company"] == "Mirage"
+        and simplify_rows[0]["age"] == "3d"
+        and simplify_rows[0]["location_details"] == ["Seattle, WA", "SF", "NYC", "Sunnyvale, CA"],
+    ))
+
     rows = [{
         "id": "aaaaaaaaaaaaaaaa",
         "company": "Google",
@@ -169,7 +216,48 @@ def main():
         with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"):
             fetch.write_outputs(rows)
         payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
-        run("write outputs", lambda: check("write outputs", payload["total"] == 1 and "region" not in payload["jobs"][0] and (data_out / "jobs-global-latest.md").exists() and (data_out / "stats.json").exists()))
+        run("write outputs", lambda: check("write outputs", payload["total"] == 1 and "region" not in payload["jobs"][0] and "age" in payload["jobs"][0] and (data_out / "jobs-global-latest.md").exists() and (data_out / "stats.json").exists() and (data_out / "jobs-global-archive.json").exists()))
+
+    existing_row = {
+        "id": "bbbbbbbbbbbbbbbb",
+        "company": "Mirage",
+        "title": "Software Engineer – Early Career",
+        "level": "new_grad",
+        "country": "United States",
+        "location": "Seattle, WA SF NYC Sunnyvale, CA",
+        "remote_type": "onsite",
+        "url": "https://example.com/mirage",
+        "source": "simplify_newgrad",
+        "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+        "posted_at": "2026-01-01",
+        "age": "2d",
+        "collected_at": "2026-01-01T00:00:00Z",
+        "tags": ["software", "programming", "global-tech-roles"],
+    }
+    with tempfile.TemporaryDirectory() as tmp:
+        data_out = Path(tmp)
+        (data_out / "jobs-global.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 1, "jobs": [existing_row]}, ensure_ascii=False, indent=2), encoding="utf-8")
+        (data_out / "jobs-global-archive.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 0, "jobs": []}, ensure_ascii=False, indent=2), encoding="utf-8")
+        (data_out / "jobs-global-latest.md").write_text("original markdown\n", encoding="utf-8")
+        (data_out / "stats.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 1, "by_level": {"new_grad": 1}, "by_country": {"United States": 1}, "by_source": {"simplify_newgrad": 1}}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        unchanged_row = dict(existing_row)
+        unchanged_row["age"] = "3d"
+        unchanged_row["collected_at"] = "2026-01-02T00:00:00Z"
+
+        before_json = (data_out / "jobs-global.json").read_text(encoding="utf-8")
+        before_md = (data_out / "jobs-global-latest.md").read_text(encoding="utf-8")
+        before_stats = (data_out / "stats.json").read_text(encoding="utf-8")
+
+        with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-02T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-02"):
+            fetch.write_outputs([unchanged_row])
+
+        run("write outputs skips age-only changes", lambda: check(
+            "write outputs skips age-only changes",
+            (data_out / "jobs-global.json").read_text(encoding="utf-8") == before_json
+            and (data_out / "jobs-global-latest.md").read_text(encoding="utf-8") == before_md
+            and (data_out / "stats.json").read_text(encoding="utf-8") == before_stats,
+        ))
 
     with patch.object(fetch, "fetch_remotive", return_value=[]) as remotive_mock, patch.object(fetch, "fetch_arbeitnow", return_value=[]) as arbeitnow_mock, patch.object(fetch, "fetch_simplify_internships", return_value=[]) as internships_mock, patch.object(fetch, "fetch_simplify_newgrad", return_value=[]) as newgrad_mock, patch.object(fetch, "dedupe", return_value=[]), patch.object(fetch, "write_outputs") as write_outputs, patch.object(fetch, "log_warn"):
         fetch.main()
