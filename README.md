@@ -25,22 +25,7 @@ Use this page to jump straight to the jobs you want:
 Public and allowed sources only:
 - Remotive
 - ArbeitNow
-- SimplifyJobs Internships
-- SimplifyJobs New Grad
-
-## Test
-
-Run the test directly:
-
-```bash
-python tests/test_fetch.py
-```
-
-## Source Policy
-
-- Public APIs and public job board pages only
-- Keep `source` and `source_url` for attribution
-- No forbidden scraping
+- SimplifyJobs
 
 ---
 
