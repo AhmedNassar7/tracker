@@ -195,6 +195,46 @@ def format_job_age(row):
     age_days = max((datetime.datetime.now(datetime.UTC).date() - posted_date).days, 0)
     return f"{age_days}d"
 
+def _age_to_days(age_value):
+    age_value = (age_value or "").strip().lower()
+    if not age_value:
+        return None
+
+    match = re.match(r"^(\d+)\s*(d|day|days|w|week|weeks|mo|month|months|y|year|years)$", age_value)
+    if not match:
+        return None
+
+    amount = int(match.group(1))
+    unit = match.group(2)
+    if unit in {"d", "day", "days"}:
+        return amount
+    if unit in {"w", "week", "weeks"}:
+        return amount * 7
+    if unit in {"mo", "month", "months"}:
+        return amount * 30
+    if unit in {"y", "year", "years"}:
+        return amount * 365
+    return None
+
+def _job_sort_key(row):
+    age_days = _age_to_days(row.get("age"))
+    if age_days is None:
+        posted_at = (row.get("posted_at") or "").strip()
+        try:
+            posted_date = datetime.date.fromisoformat(posted_at[:10])
+            age_days = max((datetime.datetime.now(datetime.UTC).date() - posted_date).days, 0)
+        except Exception:
+            age_days = 10**9
+
+    posted_at = (row.get("posted_at") or "").strip()
+    try:
+        posted_date = datetime.date.fromisoformat(posted_at[:10])
+        posted_sort = -posted_date.toordinal()
+    except Exception:
+        posted_sort = 0
+
+    return (age_days, posted_sort, (row.get("company") or "").lower(), (row.get("title") or "").lower())
+
 def _extract_location_details(value):
     match = re.search(
         r"<details[^>]*>\s*<summary><strong>(\d+)\s+locations?</strong></summary>(.*?)</details>",
@@ -663,7 +703,7 @@ def public_job_record(row):
 
 def write_outputs(rows):
     """Write JSON, Markdown, and stats files"""
-    rows = sorted(rows, key=lambda x: x["posted_at"], reverse=True)
+    rows = sorted(rows, key=_job_sort_key)
     public_rows = [public_job_record(row) for row in rows]
 
     active_file = DATA_OUT / "jobs-global.json"
@@ -676,16 +716,17 @@ def write_outputs(rows):
     # Append-only behavior: merge previous active rows with newly fetched rows.
     # Do NOT archive jobs just because they're not present in the current fetch.
     changed = not active_file.exists() or not archive_file.exists()
-    # Start with previous active rows, then update/overwrite with current public rows
-    merged_by_id = {row.get("id"): dict(row) for row in previous_active_rows if row.get("id")}
+    # Build the merged active list in the new sorted order, but preserve unchanged row objects.
+    previous_active_by_id = {row.get("id"): row for row in previous_active_rows if row.get("id")}
+    merged_public_rows = []
     for row in public_rows:
         row_id = row["id"]
-        prev = merged_by_id.get(row_id)
+        prev = previous_active_by_id.get(row_id)
         if prev and _job_signature(prev) == _job_signature(row):
-            # no structural change for this job
-            continue
-        merged_by_id[row_id] = dict(row)
-        changed = True
+            merged_public_rows.append(prev)
+        else:
+            merged_public_rows.append(dict(row))
+            changed = True
 
     # Preserve previous archive as-is; we do not automatically move missing jobs to archive
     archive_rows = dict(previous_archive_by_id)
@@ -695,7 +736,10 @@ def write_outputs(rows):
         reverse=True,
     )
 
-    merged_public_rows = list(merged_by_id.values())
+    previous_active_order = [row.get("id") for row in previous_active_rows if row.get("id")]
+    current_active_order = [row.get("id") for row in merged_public_rows if row.get("id")]
+    if previous_active_order != current_active_order:
+        changed = True
 
     if not changed:
         log_info("No job changes detected; skipping output refresh")
@@ -759,7 +803,7 @@ def write_outputs(rows):
         rows_by_level.setdefault(row["level"], []).append(row)
 
     for level, _label in level_sections:
-        level_rows = rows_by_level.get(level, [])
+        level_rows = sorted(rows_by_level.get(level, []), key=_job_sort_key)
         md_lines.extend([
             f"## {level_titles[level]}",
             "",

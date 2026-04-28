@@ -218,6 +218,50 @@ def main():
         payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
         run("write outputs", lambda: check("write outputs", payload["total"] == 1 and "region" not in payload["jobs"][0] and "age" in payload["jobs"][0] and (data_out / "jobs-global-latest.md").exists() and (data_out / "stats.json").exists() and (data_out / "jobs-global-archive.json").exists()))
 
+        with tempfile.TemporaryDirectory() as tmp:
+            data_out = Path(tmp)
+            unsorted_rows = [
+                {
+                    "id": "bbbbbbbbbbbbbbbb",
+                    "company": "Beta",
+                    "title": "Software Engineer",
+                    "level": "new_grad",
+                    "country": "United States",
+                    "location": "Remote",
+                    "remote_type": "remote",
+                    "url": "https://example.com/beta",
+                    "source": "simplify_newgrad",
+                    "source_url": "https://example.com/source",
+                    "posted_at": "2026-01-10",
+                    "age": "10d",
+                    "collected_at": "2026-01-10T00:00:00Z",
+                    "tags": ["software"],
+                },
+                {
+                    "id": "aaaaaaaaaaaaaaaa",
+                    "company": "Alpha",
+                    "title": "Software Engineer",
+                    "level": "new_grad",
+                    "country": "United States",
+                    "location": "Remote",
+                    "remote_type": "remote",
+                    "url": "https://example.com/alpha",
+                    "source": "simplify_newgrad",
+                    "source_url": "https://example.com/source",
+                    "posted_at": "2026-01-12",
+                    "age": "2d",
+                    "collected_at": "2026-01-12T00:00:00Z",
+                    "tags": ["software"],
+                },
+            ]
+            with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"):
+                fetch.write_outputs(unsorted_rows)
+            md_text = (data_out / "jobs-global-latest.md").read_text(encoding="utf-8")
+            run("write outputs sorts by age", lambda: check(
+                "write outputs sorts by age",
+                md_text.index("| Alpha |") < md_text.index("| Beta |")
+            ))
+
     existing_row = {
         "id": "bbbbbbbbbbbbbbbb",
         "company": "Mirage",

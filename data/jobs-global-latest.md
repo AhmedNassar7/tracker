@@ -22,23 +22,23 @@
 
 Total roles: 4
 
-| Company | Title | Location | Age | Source |
-|---|---|---|---|---|
-| Twilio | [Software Engineer Intern](https://job-boards.greenhouse.io/twilio/jobs/7850821?utm_source=Simplify&ref=Simplify) | Remote in USA | 1d | [simplify_internships](https://github.com/SimplifyJobs/Summer2026-Internships) |
-| Adobe | [AI/ML Intern - Machine Learning Engineer 🎓](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify) | <details><summary><strong>7 locations</strong></summary>Seattle, WA<br>SF<br>Austin, TX<br>San Jose, CA<br>Waltham, MA<br>NYC<br>Lehi, UT</details> | 16d | [simplify_internships](https://github.com/SimplifyJobs/Summer2026-Internships) |
-| CCC Intelligent Solutions | [Machine Learning Annotation and Gen AI Analyst Intern](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Machine-Learning---Annotation-and-Gen-AI-Analyst-Intern_0014537?utm_source=Simplify&ref=Simplify) | Chicago, IL | 1d | [simplify_internships](https://github.com/SimplifyJobs/Summer2026-Internships) |
-| Airbnb | [Machine Learning Engineer Intern - PhD 🎓](https://careers.airbnb.com/positions/7669906?gh_jid=7669906&utm_source=Simplify&ref=Simplify) | United States | 1d | [simplify_internships](https://github.com/SimplifyJobs/Summer2026-Internships) |
+| Company | Title | Location | Age |
+|---|---|---|---|
+| Airbnb | [Machine Learning Engineer Intern - PhD 🎓](https://careers.airbnb.com/positions/7669906?gh_jid=7669906&utm_source=Simplify&ref=Simplify) | United States | 0d |
+| CCC Intelligent Solutions | [Machine Learning Annotation and Gen AI Analyst Intern](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Machine-Learning---Annotation-and-Gen-AI-Analyst-Intern_0014537?utm_source=Simplify&ref=Simplify) | Chicago, IL | 0d |
+| Twilio | [Software Engineer Intern](https://job-boards.greenhouse.io/twilio/jobs/7850821?utm_source=Simplify&ref=Simplify) | Remote in USA | 0d |
+| Adobe | [AI/ML Intern - Machine Learning Engineer 🎓](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify) | <details><summary><strong>7 locations</strong></summary>Seattle, WA<br>SF<br>Austin, TX<br>San Jose, CA<br>Waltham, MA<br>NYC<br>Lehi, UT</details> | 16d |
 
 ## New Grad
 
 Total roles: 4
 
-| Company | Title | Location | Age | Source |
-|---|---|---|---|---|
-| Uber | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify) | <details><summary><strong>4 locations</strong></summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details> | 24d | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 2mo | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Google | [Software Engineer Early Career - Infrastructure 🎓](https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify) | <details><summary><strong>12 locations</strong></summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details> | 5mo | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Citadel Securities | [Software Engineer – University Graduate - US](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC | 1d | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
+| Company | Title | Location | Age |
+|---|---|---|---|
+| Citadel Securities | [Software Engineer – University Graduate - US](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC | 0d |
+| Uber | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify) | <details><summary><strong>4 locations</strong></summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details> | 24d |
+| Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 2mo |
+| Google | [Software Engineer Early Career - Infrastructure 🎓](https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify) | <details><summary><strong>12 locations</strong></summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details> | 5mo |
 
 ## Junior
 
@@ -62,23 +62,23 @@ No roles matched this level today.
 
 Closed roles tracked: 17
 
-| Company | Title | Location | Closed | Source |
-|---|---|---|---|---|
-| Uber | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/158009/?utm_source=Simplify&ref=Simplify) | 4 locations Seattle, WA SF NYC Sunnyvale, CA | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Stripe | [Software Engineer – New Grad](https://simplify.jobs/c/Stripe?utm_source=GHList&utm_medium=company) | London, UK | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Visa | [Junior Software Engineer](https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company) | London, UK | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Uber | [Graduate 2026 Software Engineer 1 - US](https://simplify.jobs/c/Uber?utm_source=GHList&utm_medium=company) | Seattle, WA SF NYC | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Uber | [Graduate Software Engineer 1 - Mobile](https://simplify.jobs/c/Uber?utm_source=GHList&utm_medium=company) | 4 locations Seattle, WA SF NYC Sunnyvale, CA | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| DoorDash | [Software Engineer - Entry Level](https://simplify.jobs/c/DoorDash?utm_source=GHList&utm_medium=company) | Toronto, ON, Canada | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Databricks | [Software Engineer New Grad - 2026 Start](https://simplify.jobs/c/Databricks?utm_source=GHList&utm_medium=company) | Vancouver, BC, Canada | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Okta | [Software Engineer I – New Grad](https://simplify.jobs/c/Okta?utm_source=GHList&utm_medium=company) | Toronto, ON, Canada | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Visa | [Graduate Software Engineer](https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company) | Reading, United Kingdom | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| NVIDIA | [DL Performance Software Engineer – New College Graduate 2025 - LLM Inference](https://simplify.jobs/c/NVIDIA?utm_source=GHList&utm_medium=company) | Toronto, ON, Canada | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Palantir | [Forward Deployed Software Engineer – New Grad - Commercial](https://simplify.jobs/c/Palantir?utm_source=GHList&utm_medium=company) | London, UK | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Visa | [Junior Software Engineer - Java Engineering](https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company) | London, UK | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Adobe | [University Graduate - Machine Learning Engineer 🎓](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R160133?utm_source=Simplify&ref=Simplify) | Seattle, WA | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Google | [Software Engineer II, Early Career - Google Cloud AI Catalyst Program](https://simplify.jobs/c/Google?utm_source=GHList&utm_medium=company) | Sunnyvale, CA Kirkland, WA Seattle, WA | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Adobe | [2026 University Graduate - Machine Learning Engineer 🎓](https://simplify.jobs/c/Adobe?utm_source=GHList&utm_medium=company) | Seattle, WA San Jose, CA | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Morgan Stanley | [Machine Learning Research Associate Program - PhD 🎓](https://simplify.jobs/c/Morgan-Stanley?utm_source=GHList&utm_medium=company) | New York, NY | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
-| Stripe | [PhD Machine Learning Engineer – New Grad 🎓](https://simplify.jobs/c/Stripe?utm_source=GHList&utm_medium=company) | Seattle, WA SF NYC | 2026-04-28 | [simplify_newgrad](https://github.com/SimplifyJobs/New-Grad-Positions) |
+| Company | Title | Location | Closed |
+|---|---|---|---|
+| Uber | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/158009/?utm_source=Simplify&ref=Simplify) | 4 locations Seattle, WA SF NYC Sunnyvale, CA | 2026-04-28 |
+| Stripe | [Software Engineer – New Grad](https://simplify.jobs/c/Stripe?utm_source=GHList&utm_medium=company) | London, UK | 2026-04-28 |
+| Visa | [Junior Software Engineer](https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company) | London, UK | 2026-04-28 |
+| Uber | [Graduate 2026 Software Engineer 1 - US](https://simplify.jobs/c/Uber?utm_source=GHList&utm_medium=company) | Seattle, WA SF NYC | 2026-04-28 |
+| Uber | [Graduate Software Engineer 1 - Mobile](https://simplify.jobs/c/Uber?utm_source=GHList&utm_medium=company) | 4 locations Seattle, WA SF NYC Sunnyvale, CA | 2026-04-28 |
+| DoorDash | [Software Engineer - Entry Level](https://simplify.jobs/c/DoorDash?utm_source=GHList&utm_medium=company) | Toronto, ON, Canada | 2026-04-28 |
+| Databricks | [Software Engineer New Grad - 2026 Start](https://simplify.jobs/c/Databricks?utm_source=GHList&utm_medium=company) | Vancouver, BC, Canada | 2026-04-28 |
+| Okta | [Software Engineer I – New Grad](https://simplify.jobs/c/Okta?utm_source=GHList&utm_medium=company) | Toronto, ON, Canada | 2026-04-28 |
+| Visa | [Graduate Software Engineer](https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company) | Reading, United Kingdom | 2026-04-28 |
+| NVIDIA | [DL Performance Software Engineer – New College Graduate 2025 - LLM Inference](https://simplify.jobs/c/NVIDIA?utm_source=GHList&utm_medium=company) | Toronto, ON, Canada | 2026-04-28 |
+| Palantir | [Forward Deployed Software Engineer – New Grad - Commercial](https://simplify.jobs/c/Palantir?utm_source=GHList&utm_medium=company) | London, UK | 2026-04-28 |
+| Visa | [Junior Software Engineer - Java Engineering](https://simplify.jobs/c/Visa?utm_source=GHList&utm_medium=company) | London, UK | 2026-04-28 |
+| Adobe | [University Graduate - Machine Learning Engineer 🎓](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/XMLNAME-2026-University-Graduate---Machine-Learning-Engineer_R160133?utm_source=Simplify&ref=Simplify) | Seattle, WA | 2026-04-28 |
+| Google | [Software Engineer II, Early Career - Google Cloud AI Catalyst Program](https://simplify.jobs/c/Google?utm_source=GHList&utm_medium=company) | Sunnyvale, CA Kirkland, WA Seattle, WA | 2026-04-28 |
+| Adobe | [2026 University Graduate - Machine Learning Engineer 🎓](https://simplify.jobs/c/Adobe?utm_source=GHList&utm_medium=company) | Seattle, WA San Jose, CA | 2026-04-28 |
+| Morgan Stanley | [Machine Learning Research Associate Program - PhD 🎓](https://simplify.jobs/c/Morgan-Stanley?utm_source=GHList&utm_medium=company) | New York, NY | 2026-04-28 |
+| Stripe | [PhD Machine Learning Engineer – New Grad 🎓](https://simplify.jobs/c/Stripe?utm_source=GHList&utm_medium=company) | Seattle, WA SF NYC | 2026-04-28 |
 
