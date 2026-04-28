@@ -68,6 +68,12 @@ def main():
         and fetch.detect_remote_type("Austin, USA") == "onsite",
     ))
 
+    with patch.object(fetch, "ALLOWLIST", ["google"]):
+        run("include job accepts any region", lambda: check(
+            "include job accepts any region",
+            fetch.include_job({"level": "new_grad", "region": "unknown"}, "Google")
+        ))
+
     with patch.object(fetch, "ALLOWLIST", ["google", "microsoft"]):
         run("allowlist matching", lambda: check(
             "allowlist matching",

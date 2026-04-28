@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-04-28T11:22:54Z",
-  "total": 8,
+  "generated_at": "2026-04-28T11:33:05Z",
+  "total": 23,
   "jobs": [
+    {
+      "id": "de8c1b8d6d3c7d5c",
+      "company": "Notion",
+      "title": "Software Engineer – New Grad - AI",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "0d",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b2236081251b0249",
+      "company": "Adobe",
+      "title": "AI/ML Intern - Machine Learning Engineer",
+      "level": "internship",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R160428?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "3d",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "149fe611441bf727",
       "company": "Twilio",
@@ -15,6 +55,26 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
       "collected_at": "2026-04-28T04:44:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "cfb5f03e5469f465",
+      "company": "Notion",
+      "title": "Software Engineer – New Grad",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "4d",
+      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
@@ -42,6 +102,46 @@
       ]
     },
     {
+      "id": "a0bf509b5c07fa5b",
+      "company": "Texas Farm Bureau Casualty Insurance Company",
+      "title": "Software Developer Intern 🇺🇸",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Waco, TX",
+      "remote_type": "onsite",
+      "url": "https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "21d",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8c9fe015be20fb01",
+      "company": "Uber",
+      "title": "Graduate Software Engineer 1 - Mobile - iOS",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://university-uber.icims.com/jobs/158011/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "22d",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "ec85ca8d99c8a3d4",
       "company": "Uber",
       "title": "Graduate Software Engineer 1",
@@ -55,6 +155,46 @@
       "posted_at": "2026-04-28",
       "age": "24d",
       "collected_at": "2026-04-28T09:16:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f32cda56feb31f5d",
+      "company": "Adobe",
+      "title": "Intern - Machine Learning Engineer",
+      "level": "internship",
+      "country": "United States",
+      "location": "SF San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-Intern---Machine-Learning-Engineer_R160621?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "27d",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0a11be61fb395a98",
+      "company": "Samsung",
+      "title": "Software Engineer Backend Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Mountain View, CA",
+      "remote_type": "onsite",
+      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Engineer--Backend-Internship_R115950?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "28d",
+      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
@@ -81,6 +221,26 @@
       ]
     },
     {
+      "id": "11a754ac01d75f7b",
+      "company": "Alarm.com",
+      "title": "Cloud Operations Intern-DevOps 🛂",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Tysons, VA",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8440261002?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "1mo",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "b079157d0e929375",
       "company": "CCC Intelligent Solutions",
       "title": "Machine Learning Annotation and Gen AI Analyst Intern",
@@ -93,6 +253,106 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
       "collected_at": "2026-04-28T04:44:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8b84ad2cc028f26e",
+      "company": "Coherent",
+      "title": "Data Scientist Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Easton, PA Parsippany-Troy Hills, NJ",
+      "remote_type": "onsite",
+      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011271?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "1mo",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b29ff6c10f2e5598",
+      "company": "Coherent",
+      "title": "Intern Data Science Software Engineer",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Hartford, CT",
+      "remote_type": "onsite",
+      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2010686?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "1mo",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8b990dc12950e5ce",
+      "company": "Coherent",
+      "title": "Intern Machine Learning - Semiconductor Laser Manufacturing",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Fremont, CA",
+      "remote_type": "onsite",
+      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011194?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "1mo",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c4d9fc9fdc93afd8",
+      "company": "Coherent",
+      "title": "Intern Software Developer - Document Control - Global Quality",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011079?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "1mo",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a8346e0d42d21e06",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/030ece08-c341-4959-bdfe-314e89b691ce/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "1mo",
+      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
@@ -152,6 +412,46 @@
       "posted_at": "2026-04-28",
       "age": "5mo",
       "collected_at": "2026-04-28T09:16:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "56f9527f2090c3e9",
+      "company": "Palantir",
+      "title": "Software Engineer – New Grad - Production Infrastructure",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "5mo",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "60d8fcf99c5a6b70",
+      "company": "Scale AI",
+      "title": "Software Engineer – New Grad",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605996005?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "7mo",
+      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",

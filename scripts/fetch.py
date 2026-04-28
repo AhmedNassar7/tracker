@@ -306,14 +306,12 @@ def include_job(row, company):
     if not RELAXED_MODE:
         return (
             row["level"] in WANTED_LEVELS
-            and row["region"] in WANTED_REGIONS
             and is_allowed_company(company)
         )
 
     level_ok = row["level"] in WANTED_LEVELS or row["level"] == "unknown"
-    region_ok = row["region"] in WANTED_REGIONS or row["region"] == "unknown"
     company_ok = is_allowed_company(company) or row["level"] in {"internship", "new_grad"}
-    return level_ok and region_ok and company_ok
+    return level_ok and company_ok
 
 def _clean_html_text(value):
     value = re.sub(r"<br\s*/?>", " ", value, flags=re.I)
