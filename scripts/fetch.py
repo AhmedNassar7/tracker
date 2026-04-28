@@ -673,38 +673,29 @@ def write_outputs(rows):
     previous_active_by_id = {row.get("id"): row for row in previous_active_rows if row.get("id")}
     previous_archive_by_id = {row.get("id"): row for row in previous_archive_rows if row.get("id")}
 
+    # Append-only behavior: merge previous active rows with newly fetched rows.
+    # Do NOT archive jobs just because they're not present in the current fetch.
     changed = not active_file.exists() or not archive_file.exists()
-    current_ids = set()
-    merged_public_rows = []
+    # Start with previous active rows, then update/overwrite with current public rows
+    merged_by_id = {row.get("id"): dict(row) for row in previous_active_rows if row.get("id")}
     for row in public_rows:
         row_id = row["id"]
-        current_ids.add(row_id)
-        previous_row = previous_active_by_id.get(row_id)
-        if previous_row and _job_signature(previous_row) == _job_signature(row):
-            merged_public_rows.append(previous_row)
-        else:
-            merged_public_rows.append(row)
-            if previous_row is None or _job_signature(previous_row) != _job_signature(row):
-                changed = True
+        prev = merged_by_id.get(row_id)
+        if prev and _job_signature(prev) == _job_signature(row):
+            # no structural change for this job
+            continue
+        merged_by_id[row_id] = dict(row)
+        changed = True
 
+    # Preserve previous archive as-is; we do not automatically move missing jobs to archive
     archive_rows = dict(previous_archive_by_id)
-    for row_id, previous_row in previous_active_by_id.items():
-        if row_id not in current_ids and row_id not in archive_rows:
-            archive_row = dict(previous_row)
-            archive_row["closed_at"] = NOW_ISO
-            archive_rows[row_id] = archive_row
-            changed = True
-
-    for row_id in list(archive_rows.keys()):
-        if row_id in current_ids:
-            del archive_rows[row_id]
-            changed = True
-
     archive_public_rows = sorted(
         archive_rows.values(),
         key=lambda x: x.get("closed_at", x.get("collected_at", "")),
         reverse=True,
     )
+
+    merged_public_rows = list(merged_by_id.values())
 
     if not changed:
         log_info("No job changes detected; skipping output refresh")
@@ -783,8 +774,8 @@ def write_outputs(rows):
             continue
 
         md_lines.extend([
-            "| Company | Title | Location | Age | Source |",
-            "|---|---|---|---|---|",
+            "| Company | Title | Location | Age |",
+            "|---|---|---|---|",
         ])
         for r in level_rows[:200]:
             company = r["company"].replace("|", " ")
@@ -792,7 +783,7 @@ def write_outputs(rows):
             location = r["location"].replace("|", " ")
             age = format_job_age(r).replace("|", " ")
             md_lines.append(
-                f"| {company} | [{title}]({r['url']}) | {location} | {age} | [{r['source']}]({r['source_url']}) |"
+                f"| {company} | [{title}]({r['url']}) | {location} | {age} |"
             )
         md_lines.append("")
 
@@ -802,8 +793,8 @@ def write_outputs(rows):
             "",
             f"Closed roles tracked: {len(archive_public_rows)}",
             "",
-            "| Company | Title | Location | Closed | Source |",
-            "|---|---|---|---|---|",
+            "| Company | Title | Location | Closed |",
+            "|---|---|---|---|",
         ])
         for r in archive_public_rows[:200]:
             company = r["company"].replace("|", " ")
@@ -811,7 +802,7 @@ def write_outputs(rows):
             location = r["location"].replace("|", " ")
             closed_at = (r.get("closed_at") or r.get("collected_at") or "")[:10]
             md_lines.append(
-                f"| {company} | [{title}]({r['url']}) | {location} | {closed_at} | [{r['source']}]({r['source_url']}) |"
+                f"| {company} | [{title}]({r['url']}) | {location} | {closed_at} |"
             )
         md_lines.append("")
     
