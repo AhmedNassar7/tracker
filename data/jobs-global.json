@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-04-28T11:33:05Z",
-  "total": 23,
+  "generated_at": "2026-04-29T04:41:06Z",
+  "total": 25,
   "jobs": [
+    {
+      "id": "556cf3e7238e867a",
+      "company": "Airbnb",
+      "title": "iOS Software Engineer – New Grad",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA SF",
+      "remote_type": "onsite",
+      "url": "https://careers.airbnb.com/positions/7859317?gh_jid=7859317&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-29",
+      "age": "0d",
+      "collected_at": "2026-04-29T04:41:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3713ad0c5b09a6c7",
+      "company": "Snowflake",
+      "title": "Software Engineer – Entry Level - Engineering Infrastructure",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Toronto, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/snowflake/a104fbc0-d07c-4974-aeeb-49aa56948fe7/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-29",
+      "age": "0d",
+      "collected_at": "2026-04-29T04:41:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "de8c1b8d6d3c7d5c",
       "company": "Notion",
@@ -380,25 +420,6 @@
       ]
     },
     {
-      "id": "700907f6ea377584",
-      "company": "Citadel Securities",
-      "title": "Software Engineer – University Graduate - US",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Miami, FL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "collected_at": "2026-04-28T04:44:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "197c63e0767809a5",
       "company": "Google",
       "title": "Software Engineer Early Career - Infrastructure 🎓",
@@ -432,6 +453,25 @@
       "posted_at": "2026-04-28",
       "age": "5mo",
       "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "700907f6ea377584",
+      "company": "Citadel Securities",
+      "title": "Software Engineer – University Graduate - US",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Miami, FL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "collected_at": "2026-04-28T04:44:59Z",
       "tags": [
         "software",
         "programming",
