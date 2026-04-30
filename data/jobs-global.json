@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-29T04:41:06Z",
-  "total": 25,
+  "generated_at": "2026-04-30T04:43:59Z",
+  "total": 24,
   "jobs": [
     {
       "id": "556cf3e7238e867a",
@@ -222,26 +222,6 @@
       ]
     },
     {
-      "id": "0a11be61fb395a98",
-      "company": "Samsung",
-      "title": "Software Engineer Backend Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Mountain View, CA",
-      "remote_type": "onsite",
-      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Engineer--Backend-Internship_R115950?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "28d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "144980de2576bbe3",
       "company": "Airbnb",
       "title": "Machine Learning Engineer Intern - PhD 🎓",
@@ -293,26 +273,6 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
       "collected_at": "2026-04-28T04:44:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8b84ad2cc028f26e",
-      "company": "Coherent",
-      "title": "Data Scientist Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Easton, PA Parsippany-Troy Hills, NJ",
-      "remote_type": "onsite",
-      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011271?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
-      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
@@ -400,6 +360,26 @@
       ]
     },
     {
+      "id": "0a11be61fb395a98",
+      "company": "Samsung",
+      "title": "Software Engineer Backend Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Mountain View, CA",
+      "remote_type": "onsite",
+      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Engineer--Backend-Internship_R115950?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "28d",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5f5f047de1a6c2ed",
       "company": "Google",
       "title": "Software Engineer – Early Career - AI/ML - PhD 🎓",
@@ -412,26 +392,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-04-28",
       "age": "2mo",
-      "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "197c63e0767809a5",
-      "company": "Google",
-      "title": "Software Engineer Early Career - Infrastructure 🎓",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "<details><summary><strong>12 locations</strong></summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details>",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "5mo",
       "collected_at": "2026-04-28T09:16:05Z",
       "tags": [
         "software",
@@ -472,6 +432,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-04-28",
       "collected_at": "2026-04-28T04:44:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "197c63e0767809a5",
+      "company": "Google",
+      "title": "Software Engineer Early Career - Infrastructure 🎓",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "<details><summary><strong>12 locations</strong></summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details>",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "5mo",
+      "collected_at": "2026-04-28T09:16:05Z",
       "tags": [
         "software",
         "programming",
