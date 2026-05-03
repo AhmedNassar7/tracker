@@ -45,18 +45,17 @@ def main():
         fn()
         print(color(f"✅ {name}", GREEN))
 
+    seed_jobs = [
+        {"company": "Twilio", "url": "https://job-boards.greenhouse.io/twilio/jobs/7850821"},
+        {"company": "Example Co", "url": "https://jobs.lever.co/exampleco/123"},
+        {"company": "Other", "url": "https://example.com"},
+    ]
+    discovered = mod.discover_job_board_sources(seed_jobs)
+
     run("discover greenhouse and lever sources", lambda: check(
         "discover greenhouse and lever sources",
-        mod.discover_job_board_sources([
-            {"company": "Twilio", "url": "https://job-boards.greenhouse.io/twilio/jobs/7850821"},
-            {"company": "Example Co", "url": "https://jobs.lever.co/exampleco/123"},
-            {"company": "Other", "url": "https://example.com"},
-        ])[0].get("twilio") == "Twilio"
-        and mod.discover_job_board_sources([
-            {"company": "Twilio", "url": "https://job-boards.greenhouse.io/twilio/jobs/7850821"},
-            {"company": "Example Co", "url": "https://jobs.lever.co/exampleco/123"},
-            {"company": "Other", "url": "https://example.com"},
-        ])[1].get("exampleco") == "Example Co",
+        discovered[0].get("twilio") == "Twilio"
+        and discovered[1].get("exampleco") == "Example Co",
     ))
 
     run("software role detection", lambda: check(

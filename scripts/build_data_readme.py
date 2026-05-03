@@ -143,23 +143,6 @@ def clean_cell(value: str) -> str:
     return text.replace("|", " ")
 
 
-def parse_locations(location_str: str) -> tuple[str, list[str]]:
-    """Parse location string and return (display_text, all_locations)."""
-    location_str = (location_str or "").strip()
-    if not location_str:
-        return "", []
-    
-    # Check if it has multiple locations pattern like "N locations: ..."
-    if " locations: " in location_str.lower():
-        parts = location_str.split(": ", 1)
-        if len(parts) == 2:
-            locations = [loc.strip() for loc in parts[1].split(", ")]
-            display = f"{len(locations)} locations: {', '.join(locations[:3])}..."
-            return display, locations
-    
-    return location_str, [location_str]
-
-
 def table_rows(rows: list[dict], enable_details: bool = True) -> list[str]:
     lines: list[str] = []
     for row in rows:
@@ -473,7 +456,6 @@ def main() -> int:
     filtered_jobs = internship_bucket + early_bucket + mid_bucket
     
 
-    all_jobs = curated_jobs + public_jobs
     level_counts = {
         "internship": len(internship_bucket),
         "early_career": len(early_bucket),

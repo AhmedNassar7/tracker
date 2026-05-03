@@ -14,9 +14,26 @@ import urllib.request
 import urllib.error
 import sys
 import traceback
-import html
 from pathlib import Path
-from collections import Counter
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from patterns import (
+    FETCH_COUNTRY_MARK_MAP,
+    FETCH_HYBRID_RE,
+    FETCH_LEVEL_MAP,
+    FETCH_REGION_MAP,
+    FETCH_REMOTE_RE,
+    FETCH_ROLE_RE,
+)
+from simplify_jobs_parser import (
+    clean_html_text as _clean_html_text,
+    format_location_display as _format_location_display,
+    parse_simplify_entries,
+)
+from fetch_outputs import write_fetch_outputs
 
 # Setup paths and directories
 ROOT = Path(__file__).parent.parent
@@ -65,45 +82,11 @@ else:
         log_error(f"Failed to load allowlist: {e}")
         ALLOWLIST = []
 
-# Define career level detection patterns
-LEVEL_MAP = {
-    "internship": re.compile(r"\b(intern|internship|co.?op)\b", re.I),
-    "new_grad": re.compile(r"\b(new.?grad|fresh.?grad|recent.?grad|graduate|campus|early.?career)\b", re.I),
-    "junior": re.compile(r"\b(junior|jr\.?)\b", re.I),
-    "entry_level": re.compile(r"\b(entry.?level|associate)\b", re.I),
-    "mid_level": re.compile(r"\b(mid.?level|engineer ii|sde2|software engineer 2)\b", re.I),
-}
-
-# Software engineering role patterns
-ROLE_RE = re.compile(
-    r"\b("
-    r"software engineer|software developer|sde|full.?stack|frontend|front.?end|backend|back.?end|"
-    r"mobile|android|ios|flutter|react native|web developer|python|java|javascript|typescript|"
-    r"golang|go developer|c\+\+|c#|dotnet|\.net|node\.?js|devops|platform engineer|site reliability|sre|"
-    r"machine learning|ml engineer|data engineer|data scientist|qa engineer|test automation|"
-    r"security engineer|cloud engineer|embedded software"
-    r")\b",
-    re.I,
-)
-
-# Geographic region patterns
-REGION_MAP = {
-    "us": re.compile(
-        r"\b(usa|united states|new york|california|texas|washington|seattle|austin|boston|"
-        r"san francisco|los angeles|chicago|denver|atlanta|miami)\b",
-        re.I,
-    ),
-    "canada": re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary)\b", re.I),
-    "emea": re.compile(
-        r"\b(emea|europe|uk|united kingdom|germany|france|netherlands|spain|portugal|"
-        r"poland|sweden|ireland|italy|middle east|uae|egypt|saudi|qatar|israel|london|"
-        r"berlin|paris|amsterdam|zurich)\b",
-        re.I,
-    ),
-}
-
-REMOTE_RE = re.compile(r"\b(remote|worldwide|global|fully remote|anywhere)\b", re.I)
-HYBRID_RE = re.compile(r"\bhybrid\b", re.I)
+LEVEL_MAP = FETCH_LEVEL_MAP
+ROLE_RE = FETCH_ROLE_RE
+REGION_MAP = FETCH_REGION_MAP
+REMOTE_RE = FETCH_REMOTE_RE
+HYBRID_RE = FETCH_HYBRID_RE
 
 WANTED_LEVELS = {
     "internship",
@@ -115,26 +98,7 @@ WANTED_LEVELS = {
 WANTED_REGIONS = {"us", "canada", "emea", "remote"}
 RELAXED_MODE = False
 
-COUNTRY_MARK_MAP = [
-    (re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary|surrey|brampton|ontario|bc)\b", re.I), "🇨🇦", "Canada"),
-    (re.compile(r"\b(united states|usa|\bUS\b|new york|california|texas|washington|seattle|austin|boston|san francisco|los angeles|chicago|denver|atlanta|miami|nyc|fulton|el segundo|san jose|waltham|lehi|sunnyvale)\b", re.I), "🇺🇸", "United States"),
-    (re.compile(r"\b(united kingdom|uk|england|london|reading)\b", re.I), "🇬🇧", "United Kingdom"),
-    (re.compile(r"\b(germany|berlin|munich|nuremberg|pforzheim|frankfurt|hamburg)\b", re.I), "🇩🇪", "Germany"),
-    (re.compile(r"\b(france|paris)\b", re.I), "🇫🇷", "France"),
-    (re.compile(r"\b(netherlands|amsterdam)\b", re.I), "🇳🇱", "Netherlands"),
-    (re.compile(r"\b(sweden|stockholm)\b", re.I), "🇸🇪", "Sweden"),
-    (re.compile(r"\b(ireland|dublin)\b", re.I), "🇮🇪", "Ireland"),
-    (re.compile(r"\b(italy|milan|rome)\b", re.I), "🇮🇹", "Italy"),
-    (re.compile(r"\b(spain|madrid|barcelona)\b", re.I), "🇪🇸", "Spain"),
-    (re.compile(r"\b(portugal|lisbon|porto)\b", re.I), "🇵🇹", "Portugal"),
-    (re.compile(r"\b(switzerland|zurich|geneva)\b", re.I), "🇨🇭", "Switzerland"),
-    (re.compile(r"\b(poland|warsaw|krakow)\b", re.I), "🇵🇱", "Poland"),
-    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi)\b", re.I), "🇦🇪", "United Arab Emirates"),
-    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah)\b", re.I), "🇸🇦", "Saudi Arabia"),
-    (re.compile(r"\b(qatar|doha)\b", re.I), "🇶🇦", "Qatar"),
-    (re.compile(r"\b(israel|tel aviv|jerusalem)\b", re.I), "🇮🇱", "Israel"),
-    (re.compile(r"\b(egypt|cairo|alexandria|giza)\b", re.I), "🇪🇬", "Egypt"),
-]
+COUNTRY_MARK_MAP = FETCH_COUNTRY_MARK_MAP
 
 # Utility functions
 def make_id(company, title, url):
@@ -235,69 +199,6 @@ def _job_sort_key(row):
 
     return (age_days, posted_sort, (row.get("company") or "").lower(), (row.get("title") or "").lower())
 
-def _extract_location_details(value):
-    match = re.search(
-        r"<details[^>]*>\s*<summary><strong>(\d+)\s+locations?</strong></summary>(.*?)</details>",
-        value,
-        flags=re.I | re.S,
-    )
-    if not match:
-        return _clean_html_text(value), []
-
-    inner = match.group(2)
-    inner = re.sub(r"<br\s*/?>|</br>", "\n", inner, flags=re.I)
-    inner = re.sub(r"<[^>]+>", " ", inner)
-    inner = html.unescape(inner)
-    locations = [part.strip(" \t\r\n-•") for part in inner.split("\n")]
-    locations = [part for part in locations if part]
-    location_text = " ".join(locations)
-    return location_text or _clean_html_text(value), locations
-
-def _format_location_display(location, location_details=None):
-    clean_location = re.sub(r"\s+", " ", location.strip())
-    if location_details:
-        count = len(location_details)
-        summary = f"{count} location" if count == 1 else f"{count} locations"
-        body = "<br>".join(html.escape(item) for item in location_details)
-        return f"<details><summary><strong>{summary}</strong></summary>{body}</details>"
-
-    count_match = re.match(r"^(?P<count>\d+)\s+locations?\s+(?P<rest>.+)$", clean_location, flags=re.I)
-    if count_match:
-        count = int(count_match.group("count"))
-        summary = f"{count} location" if count == 1 else f"{count} locations"
-        body = html.escape(count_match.group("rest").strip())
-        return f"<details><summary><strong>{summary}</strong></summary>{body}</details>"
-
-    return clean_location
-
-def _job_compare_payload(row):
-    return {
-        "id": row.get("id"),
-        "company": row.get("company"),
-        "title": row.get("title"),
-        "level": row.get("level"),
-        "country": row.get("country"),
-        "location": row.get("location"),
-        "remote_type": row.get("remote_type"),
-        "url": row.get("url"),
-        "source": row.get("source"),
-        "source_url": row.get("source_url"),
-        "tags": row.get("tags"),
-    }
-
-def _job_signature(row):
-    return json.dumps(_job_compare_payload(row), sort_keys=True, ensure_ascii=False)
-
-def _load_jobs_payload(path):
-    if not path.exists():
-        return []
-    try:
-        payload = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return []
-    jobs = payload.get("jobs", [])
-    return jobs if isinstance(jobs, list) else []
-
 def is_allowed_company(company):
     c = company.lower()
     return any(a in c or c in a for a in ALLOWLIST)
@@ -312,84 +213,6 @@ def include_job(row, company):
     level_ok = row["level"] in WANTED_LEVELS or row["level"] == "unknown"
     company_ok = is_allowed_company(company) or row["level"] in {"internship", "new_grad"}
     return level_ok and company_ok
-
-def _clean_html_text(value):
-    value = re.sub(r"<br\s*/?>", " ", value, flags=re.I)
-    value = re.sub(r"<[^>]+>", " ", value)
-    value = html.unescape(value)
-    return re.sub(r"\s+", " ", value).strip()
-
-def _extract_markdown_link(value):
-    match = re.search(r"\[[^\]]*\]\((https?://[^)]+)\)", value)
-    if match:
-        return match.group(1).strip()
-    match = re.search(r"(https?://\S+)", value)
-    if match:
-        return match.group(1).strip().rstrip("|")
-    return ""
-
-def parse_simplify_entries(content):
-    entries = []
-
-    inactive_match = re.search(r"🗃️\s*Inactive roles", content, flags=re.I)
-    if inactive_match:
-        content = content[:inactive_match.start()]
-
-    # Markdown table rows: | Company | Position | Location | Link |
-    for line in content.splitlines():
-        line = line.strip()
-        if not line.startswith("|") or "http" not in line:
-            continue
-        parts = [part.strip() for part in line.split("|")[1:-1]]
-        if len(parts) < 4:
-            continue
-        company = _clean_html_text(parts[0])
-        title = _clean_html_text(parts[1])
-        location = _clean_html_text(parts[2]) or "Remote"
-        url = _extract_markdown_link(parts[3])
-        if company and title and url:
-            entries.append((company, title, location, url, "", []))
-
-    # HTML table rows: <tr><td>...</td>...</tr>
-    for row_html in re.findall(r"<tr[^>]*>(.*?)</tr>", content, flags=re.I | re.S):
-        cells = re.findall(r"<td[^>]*>(.*?)</td>", row_html, flags=re.I | re.S)
-        if len(cells) < 3:
-            continue
-
-        texts = [_clean_html_text(cell) for cell in cells]
-        company = texts[0]
-        title = texts[1] if len(texts) > 1 else ""
-        location_cell = cells[2] if len(cells) > 2 else "Remote"
-        location, location_details = _extract_location_details(location_cell)
-        if not location:
-            location = texts[2] if len(texts) > 2 else "Remote"
-        age = _clean_html_text(cells[4]) if len(cells) > 4 else ""
-
-        hrefs = re.findall(r"href=\"(https?://[^\"]+)\"", row_html, flags=re.I)
-        url = ""
-        for href in hrefs:
-            if "simplify.jobs/c/" in href:
-                continue
-            if "simplify.jobs/p/" in href:
-                continue
-            url = href
-            break
-        if not url and hrefs:
-            url = hrefs[0]
-
-        if company and title and url:
-            entries.append((company, title, location, url, age, location_details))
-
-    # Deduplicate parsed entries
-    deduped = []
-    seen = set()
-    for item in entries:
-        key = (item[0].lower(), item[1].lower(), item[3])
-        if key in seen:
-            continue
-        seen.add(key)
-        deduped.append(item)
-    return deduped
 
 def fetch_url(url, dest, timeout=25):
     try:
@@ -700,80 +523,15 @@ def public_job_record(row):
     }
 
 def write_outputs(rows):
-    """Write JSON, Markdown, and stats files"""
-    rows = sorted(rows, key=_job_sort_key)
-    public_rows = [public_job_record(row) for row in rows]
-
-    active_file = DATA_OUT / "jobs-global.json"
-    archive_file = DATA_OUT / "jobs-global-archive.json"
-    previous_active_rows = _load_jobs_payload(active_file)
-    previous_archive_rows = _load_jobs_payload(archive_file)
-    previous_active_by_id = {row.get("id"): row for row in previous_active_rows if row.get("id")}
-    previous_archive_by_id = {row.get("id"): row for row in previous_archive_rows if row.get("id")}
-
-    # Append-only behavior: merge previous active rows with newly fetched rows.
-    # Do NOT archive jobs just because they're not present in the current fetch.
-    changed = not active_file.exists() or not archive_file.exists()
-    # Build the merged active list in the new sorted order, but preserve unchanged row objects.
-    previous_active_by_id = {row.get("id"): row for row in previous_active_rows if row.get("id")}
-    merged_public_rows = []
-    for row in public_rows:
-        row_id = row["id"]
-        prev = previous_active_by_id.get(row_id)
-        if prev and _job_signature(prev) == _job_signature(row):
-            merged_public_rows.append(prev)
-        else:
-            merged_public_rows.append(dict(row))
-            changed = True
-
-    # Preserve previous archive as-is; we do not automatically move missing jobs to archive
-    archive_rows = dict(previous_archive_by_id)
-    archive_public_rows = sorted(
-        archive_rows.values(),
-        key=lambda x: x.get("closed_at", x.get("collected_at", "")),
-        reverse=True,
+    write_fetch_outputs(
+        rows,
+        data_out=DATA_OUT,
+        now_iso=NOW_ISO,
+        public_job_record=public_job_record,
+        job_sort_key=_job_sort_key,
+        log_info=log_info,
+        log_error=log_error,
     )
-
-    previous_active_order = [row.get("id") for row in previous_active_rows if row.get("id")]
-    current_active_order = [row.get("id") for row in merged_public_rows if row.get("id")]
-    if previous_active_order != current_active_order:
-        changed = True
-
-    if not changed:
-        log_info("No job changes detected; skipping output refresh")
-        return
-
-    public_rows = merged_public_rows
-
-    # JSON export
-    payload = {"generated_at": NOW_ISO, "total": len(public_rows), "jobs": public_rows}
-    try:
-        active_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-        log_info(f"Exported {active_file}")
-    except Exception as e:
-        log_error(f"Failed to write JSON: {e}")
-
-    archive_payload = {"generated_at": NOW_ISO, "total": len(archive_public_rows), "jobs": archive_public_rows}
-    try:
-        archive_file.write_text(json.dumps(archive_payload, ensure_ascii=False, indent=2), encoding="utf-8")
-        log_info(f"Exported {archive_file}")
-    except Exception as e:
-        log_error(f"Failed to write archive JSON: {e}")
-
-    # Stats export
-    stats = {
-        "generated_at": NOW_ISO,
-        "total": len(rows),
-        "by_level": dict(Counter(r["level"] for r in rows)),
-        "by_country": dict(Counter(r["country"] for r in rows)),
-        "by_source": dict(Counter(r["source"] for r in rows)),
-    }
-    stats_file = DATA_OUT / "stats.json"
-    try:
-        stats_file.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
-        log_info(f"Exported {stats_file}")
-    except Exception as e:
-        log_error(f"Failed to write stats: {e}")
 
 
 def main():

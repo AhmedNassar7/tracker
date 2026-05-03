@@ -1,8 +1,8 @@
-name: Daily Global Tech Roles PR
+name: Frequent Global Tech Roles PR
 
 on:
   schedule:
-    - cron: "15 1 * * *"
+    - cron: "15 0,4,8,12,16 * * *"
   workflow_dispatch:
 
 permissions:
@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: daily-global-tech-roles
+  group: frequent-global-tech-roles
   cancel-in-progress: false
 
 jobs:
@@ -55,7 +55,7 @@ jobs:
             echo "" >> "$FILE"
           fi
 
-          grep -q "^\- \[${TODAY}\]" "$FILE" || echo "- [${TODAY}] Global roles snapshot updated at ${TIME}" >> "$FILE"
+          echo "- [${TODAY}] Global roles snapshot updated at ${TIME}" >> "$FILE"
           echo "${TODAY} ${TIME}" > LAST_UPDATED
 
       - name: Create Pull Request
@@ -64,11 +64,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: global tech roles snapshot (${{ github.run_id }})"
-          title: "chore: global tech roles snapshot"
+          title: "chore: global tech roles snapshot (${{ github.run_id }})"
           body: |
-            Automated daily global tech roles snapshot.
-            **Scope:** US, Canada, EMEA (+ remote)
-            **Levels:** Internship/New Grad/Junior/Entry/Mid
+            Automated global tech roles snapshot (scheduled 5 times daily).
+            
+            **Schedule (UTC):** 00:15, 04:15, 08:15, 12:15, 16:15
+            **Levels:** Internship/New Grad/Mid
             **Companies:** Top-tier allowlist only
             
             **Sources:**
@@ -82,13 +83,15 @@ jobs:
             - Lever public postings
             - Workday public pages (configurable)
             
-            **Generated files:**
+            **Updated artifacts in this PR:**
             - `data/jobs-global.json`
-            - `data/jobs-global-latest.md`
+            - `data/jobs-global-archive.json`
             - `data/stats.json`
             - `data/public-opportunities.json`
-            - `data/public-opportunities.md`
-          branch: "daily/global-roles-${{ github.run_id }}"
+            - `data/raw/*.json` (source snapshots)
+            - `LAST_UPDATED`
+            - `log/YYYY-MM.md`
+          branch: "frequent/global-roles-${{ github.run_id }}"
           delete-branch: true
           labels: automated
 

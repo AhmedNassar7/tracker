@@ -1,7 +1,6 @@
 import importlib.util
 import json
 import tempfile
-import sys
 import io
 import contextlib
 from pathlib import Path

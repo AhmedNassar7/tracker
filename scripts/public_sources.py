@@ -19,10 +19,21 @@ import json
 import re
 import sys
 import traceback
-import urllib.error
 import urllib.request
 from pathlib import Path
 from urllib.parse import urlparse
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from patterns import (
+    PUBLIC_LEVEL_PATTERNS,
+    PUBLIC_NON_SOFTWARE_TITLE_PATTERNS,
+    PUBLIC_ROLE_PATTERNS,
+    PUBLIC_SOFTWARE_ROLE_TYPES,
+)
+from public_outputs import write_public_outputs
 
 
 ROOT = Path(__file__).parent.parent
@@ -33,46 +44,10 @@ DATA_OUT.mkdir(parents=True, exist_ok=True)
 NOW_ISO = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 TODAY = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d")
 
-LEVEL_PATTERNS = {
-    "internship": re.compile(r"\b(intern|internship|co.?op)\b", re.I),
-    "new_grad": re.compile(r"\b(new.?grad|fresh.?grad|recent.?grad|graduate|campus|early.?career)\b", re.I),
-    "junior": re.compile(r"\b(junior|jr\.?)\b", re.I),
-    "entry_level": re.compile(r"\b(entry.?level|associate)\b", re.I),
-    "mid_level": re.compile(r"\b(mid.?level|engineer ii|sde2|software engineer 2)\b", re.I),
-}
-
-ROLE_PATTERNS = {
-    "full_stack": re.compile(r"\bfull.?stack\b", re.I),
-    "backend": re.compile(r"\bback.?end\b", re.I),
-    "frontend": re.compile(r"\bfront.?end\b", re.I),
-    "mobile": re.compile(r"\bmobile|android|ios|react native|flutter\b", re.I),
-    "platform": re.compile(r"\bplatform engineer|platform\b", re.I),
-    "infrastructure": re.compile(r"\binfrastructure|infra|site reliability|sre|devops\b", re.I),
-    "security": re.compile(r"\bsecurity\b", re.I),
-    "machine_learning": re.compile(r"\bmachine learning|ml engineer|data engineer|data scientist\b", re.I),
-    "software_engineer": re.compile(r"\bsoftware engineer|software developer|sde\b", re.I),
-}
-
-SOFTWARE_ROLE_TYPES = {
-    "software_engineer",
-    "full_stack",
-    "backend",
-    "frontend",
-    "mobile",
-    "platform",
-    "infrastructure",
-}
-
-NON_SOFTWARE_TITLE_PATTERNS = [
-    re.compile(r"\bsecurity\b", re.I),
-    re.compile(r"\bmachine learning\b|\bml engineer\b|\bdata scientist\b|\bdata engineer\b", re.I),
-    re.compile(r"\bsolutions? engineer\b", re.I),
-    re.compile(r"\bpresales?\b|\bsales\b", re.I),
-    re.compile(r"\bproduct manager\b|\bprogram manager\b", re.I),
-    re.compile(r"\banalyst\b|\bconsultant\b", re.I),
-    re.compile(r"\bsupport\b|\bcustomer success\b|\btechnical support\b", re.I),
-    re.compile(r"\bcompliance\b|\boperations\b", re.I),
-]
+LEVEL_PATTERNS = PUBLIC_LEVEL_PATTERNS
+ROLE_PATTERNS = PUBLIC_ROLE_PATTERNS
+SOFTWARE_ROLE_TYPES = PUBLIC_SOFTWARE_ROLE_TYPES
+NON_SOFTWARE_TITLE_PATTERNS = PUBLIC_NON_SOFTWARE_TITLE_PATTERNS
 
 
 def log_info(msg):
@@ -431,21 +406,7 @@ def dedupe(rows):
 
 
 def write_outputs(rows):
-    rows = sorted(rows, key=sort_key)
-    jobs = [row for row in rows if row.get("kind") == "job"]
-    hackathons = [row for row in rows if row.get("kind") == "hackathon"]
-    events = [row for row in rows if row.get("kind") == "event"]
-
-    json_path = DATA_OUT / "public-opportunities.json"
-    payload = {
-        "generated_at": NOW_ISO,
-        "total": len(rows),
-        "jobs": jobs,
-        "hackathons": hackathons,
-        "events": events,
-    }
-    json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    log_info(f"Exported {json_path}")
+    write_public_outputs(rows, data_out=DATA_OUT, now_iso=NOW_ISO, sort_key=sort_key, log_info=log_info)
 
 def main():
     log_info("=" * 70)
