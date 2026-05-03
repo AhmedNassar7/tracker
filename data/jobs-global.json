@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-04-28T11:33:05Z",
-  "total": 23,
+  "generated_at": "2026-05-02T04:28:21Z",
+  "total": 19,
   "jobs": [
+    {
+      "id": "bba8ff59709e0af1",
+      "company": "Airbnb",
+      "title": "Software Engineer New Grad",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA SF",
+      "remote_type": "onsite",
+      "url": "https://careers.airbnb.com/positions/7773838?gh_jid=7773838&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-05-01",
+      "age": "0d",
+      "collected_at": "2026-05-01T04:57:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "71167b227fe53a01",
+      "company": "Intelcom | Dragonfly",
+      "title": "Embedded Software Development Intern",
+      "level": "internship",
+      "country": "Canada",
+      "location": "Montreal, QC, Canada",
+      "remote_type": "onsite",
+      "url": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-01",
+      "age": "0d",
+      "collected_at": "2026-05-01T04:57:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "556cf3e7238e867a",
+      "company": "Airbnb",
+      "title": "iOS Software Engineer – New Grad",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA SF",
+      "remote_type": "onsite",
+      "url": "https://careers.airbnb.com/positions/7859317?gh_jid=7859317&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-29",
+      "age": "0d",
+      "collected_at": "2026-04-29T04:41:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "de8c1b8d6d3c7d5c",
       "company": "Notion",
@@ -36,25 +96,6 @@
       "posted_at": "2026-04-28",
       "age": "3d",
       "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "149fe611441bf727",
-      "company": "Twilio",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "Remote in USA",
-      "remote_type": "remote",
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/7850821?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "collected_at": "2026-04-28T04:44:59Z",
       "tags": [
         "software",
         "programming",
@@ -122,26 +163,6 @@
       ]
     },
     {
-      "id": "8c9fe015be20fb01",
-      "company": "Uber",
-      "title": "Graduate Software Engineer 1 - Mobile - iOS",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://university-uber.icims.com/jobs/158011/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "22d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "ec85ca8d99c8a3d4",
       "company": "Uber",
       "title": "Graduate Software Engineer 1",
@@ -182,45 +203,6 @@
       ]
     },
     {
-      "id": "0a11be61fb395a98",
-      "company": "Samsung",
-      "title": "Software Engineer Backend Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Mountain View, CA",
-      "remote_type": "onsite",
-      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Engineer--Backend-Internship_R115950?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "28d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "144980de2576bbe3",
-      "company": "Airbnb",
-      "title": "Machine Learning Engineer Intern - PhD 🎓",
-      "level": "internship",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://careers.airbnb.com/positions/7669906?gh_jid=7669906&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "collected_at": "2026-04-28T04:44:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "11a754ac01d75f7b",
       "company": "Alarm.com",
       "title": "Cloud Operations Intern-DevOps 🛂",
@@ -241,45 +223,6 @@
       ]
     },
     {
-      "id": "b079157d0e929375",
-      "company": "CCC Intelligent Solutions",
-      "title": "Machine Learning Annotation and Gen AI Analyst Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "Chicago, IL",
-      "remote_type": "onsite",
-      "url": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Machine-Learning---Annotation-and-Gen-AI-Analyst-Intern_0014537?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "collected_at": "2026-04-28T04:44:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8b84ad2cc028f26e",
-      "company": "Coherent",
-      "title": "Data Scientist Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Easton, PA Parsippany-Troy Hills, NJ",
-      "remote_type": "onsite",
-      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011271?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "b29ff6c10f2e5598",
       "company": "Coherent",
       "title": "Intern Data Science Software Engineer",
@@ -288,26 +231,6 @@
       "location": "Hartford, CT",
       "remote_type": "onsite",
       "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2010686?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8b990dc12950e5ce",
-      "company": "Coherent",
-      "title": "Intern Machine Learning - Semiconductor Laser Manufacturing",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Fremont, CA",
-      "remote_type": "onsite",
-      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011194?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
@@ -380,6 +303,26 @@
       ]
     },
     {
+      "id": "56f9527f2090c3e9",
+      "company": "Palantir",
+      "title": "Software Engineer – New Grad - Production Infrastructure",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "5mo",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "700907f6ea377584",
       "company": "Citadel Securities",
       "title": "Software Engineer – University Graduate - US",
@@ -412,26 +355,6 @@
       "posted_at": "2026-04-28",
       "age": "5mo",
       "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "56f9527f2090c3e9",
-      "company": "Palantir",
-      "title": "Software Engineer – New Grad - Production Infrastructure",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "5mo",
-      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
