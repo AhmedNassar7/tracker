@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-05-04T10:23:11Z
+Generated at: 2026-05-04T14:27:59Z
 
-Total: 166
+Total: 165
 
 ## Jobs
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/3d06b4bc-6a7b-4f73-b5c5-4544354e3d0f) (Warsaw, Poland) - 3d
@@ -33,7 +33,6 @@ Total: 166
 - [Alarm.com - Senior Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8430339002) (Tysons, Virginia) - 21d
 - [Scale AI - Software Engineer - New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4605996005) (San Francisco, CA) - 25d
 - [Scale AI - Software Engineer, Gen AI](https://job-boards.greenhouse.io/scaleai/jobs/4591300005) (San Francisco, CA; New York, NY) - 25d
-- [Alarm.com - Software Engineer - Localization](https://job-boards.greenhouse.io/alarmcom/jobs/8459004002) (Tysons, Virginia) - 27d
 - [Alarm.com - Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8384631002) (Tysons, Virginia) - 28d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a) (New York, NY) - 28d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/a92b55d0-1d36-4884-8e65-f456450b3a74) (London, United Kingdom) - 28d

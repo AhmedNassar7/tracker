@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T10:23:11Z",
-  "total": 166,
+  "generated_at": "2026-05-04T14:27:59Z",
+  "total": 165,
   "jobs": [
     {
       "id": "0ff2dc47ed8b6b5b",
@@ -393,20 +393,6 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591300005",
       "source": "greenhouse:scaleai",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
-    },
-    {
-      "id": "3669a305cb730142",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer - Localization",
-      "location": "Tysons, Virginia",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "27d",
-      "posted_at": "2026-04-07",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8459004002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
     },
     {
       "id": "fb2992fcd7c56719",
