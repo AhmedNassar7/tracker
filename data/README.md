@@ -2,16 +2,6 @@
 
 **Last Updated:** 2026-04-29
 
-This is the single data page for all tables. Use the links below to jump to each table.
-
-## Emoji Guide
-
-| Emoji | Meaning |
-|---|---|
-| 🎓 | PhD or advanced degree required |
-| 🇺🇸 | US only |
-| 🛂 | Visa sponsorship |
-
 ## Quick Links
 
 ### Jobs
@@ -31,6 +21,14 @@ This is the single data page for all tables. Use the links below to jump to each
 | Hackathons | 2 |
 | Events | 8 |
 | Total | 139 |
+
+## Emoji Guide
+
+| Emoji | Meaning |
+|---|---|
+| 🎓 | PhD or advanced degree required |
+| 🇺🇸 | US only |
+| 🛂 | Visa sponsorship |
 
 ## Jobs
 

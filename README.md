@@ -21,7 +21,6 @@ Open [data/README.md](data/README.md) for the combined data page with all tables
 
 ## Navigation
 
-- [Combined data page](data/README.md)
 - [Jobs tables](data/README.md#jobs)
 - [Internship table](data/README.md#internship)
 - [Early career table](data/README.md#early-career)
