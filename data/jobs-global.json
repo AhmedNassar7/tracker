@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T04:28:21Z",
+  "generated_at": "2026-05-04T06:51:56Z",
   "total": 19,
   "jobs": [
     {
@@ -163,26 +163,6 @@
       ]
     },
     {
-      "id": "ec85ca8d99c8a3d4",
-      "company": "Uber",
-      "title": "Graduate Software Engineer 1",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "<details><summary><strong>4 locations</strong></summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details>",
-      "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "24d",
-      "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f32cda56feb31f5d",
       "company": "Adobe",
       "title": "Intern - Machine Learning Engineer",
@@ -276,6 +256,26 @@
       "posted_at": "2026-04-28",
       "age": "1mo",
       "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ec85ca8d99c8a3d4",
+      "company": "Uber",
+      "title": "Graduate Software Engineer 1",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "<details><summary><strong>4 locations</strong></summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details>",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "24d",
+      "collected_at": "2026-04-28T09:16:05Z",
       "tags": [
         "software",
         "programming",
