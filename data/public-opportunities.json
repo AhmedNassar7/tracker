@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-05T10:11:55Z",
-  "total": 141,
+  "generated_at": "2026-05-05T14:21:15Z",
+  "total": 140,
   "jobs": [
     {
       "id": "2b5caf2bcbba992f",
@@ -521,20 +521,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
     },
     {
-      "id": "05d375e4f73b00ad",
-      "kind": "job",
-      "company": "Scale AI",
-      "title": "Software Engineer, Robotics",
-      "location": "Mexico City, MX",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "40d",
-      "posted_at": "2026-03-26",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4655050005",
-      "source": "greenhouse:scaleai",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
-    },
-    {
       "id": "4bf9345b357c6280",
       "kind": "job",
       "company": "Scale AI",
@@ -545,6 +531,20 @@
       "date": "40d",
       "posted_at": "2026-03-26",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612282005",
+      "source": "greenhouse:scaleai",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
+    },
+    {
+      "id": "05d375e4f73b00ad",
+      "kind": "job",
+      "company": "Scale AI",
+      "title": "Software Engineer, Robotics",
+      "location": "Mexico City, MX",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "40d",
+      "posted_at": "2026-03-26",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4655050005",
       "source": "greenhouse:scaleai",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
     },
@@ -1909,18 +1909,6 @@
       "date": "",
       "posted_at": "2026-05-05",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "c7a839af8d100573",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-05",
-      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
