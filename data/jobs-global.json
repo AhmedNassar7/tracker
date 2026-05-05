@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T06:51:56Z",
-  "total": 19,
+  "generated_at": "2026-05-05T03:46:44Z",
+  "total": 16,
   "jobs": [
     {
       "id": "bba8ff59709e0af1",
@@ -203,46 +203,6 @@
       ]
     },
     {
-      "id": "b29ff6c10f2e5598",
-      "company": "Coherent",
-      "title": "Intern Data Science Software Engineer",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Hartford, CT",
-      "remote_type": "onsite",
-      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2010686?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c4d9fc9fdc93afd8",
-      "company": "Coherent",
-      "title": "Intern Software Developer - Document Control - Global Quality",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011079?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a8346e0d42d21e06",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer Intern",
@@ -256,26 +216,6 @@
       "posted_at": "2026-04-28",
       "age": "1mo",
       "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ec85ca8d99c8a3d4",
-      "company": "Uber",
-      "title": "Graduate Software Engineer 1",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "<details><summary><strong>4 locations</strong></summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details>",
-      "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "24d",
-      "collected_at": "2026-04-28T09:16:05Z",
       "tags": [
         "software",
         "programming",
