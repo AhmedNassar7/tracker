@@ -1,54 +1,31 @@
 # Public Opportunities
 
-Generated at: 2026-05-05T06:27:05Z
+Generated at: 2026-05-05T10:11:55Z
 
-Total: 168
+Total: 141
 
 ## Jobs
-- [Alarm.com - Senior Frontend Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8516456002) (Lawrence, Kansas) - 1d
 - [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/0fccbe95-2520-4df3-8600-7897656c06a2) (Honolulu, HI) - 1d
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/3d06b4bc-6a7b-4f73-b5c5-4544354e3d0f) (Warsaw, Poland) - 4d
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/ce20af4c-4de3-4079-bbdf-bc30a2e25404) (Paris, France) - 4d
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/fe65ee3c-61e0-4eb6-99e5-c90e38e7043f) (London, United Kingdom) - 6d
-- [Alarm.com - Senior Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8527096002) (Needham, Massachusetts) - 7d
-- [Alarm.com - Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8505982002) (Centennial, Colorado) - 7d
 - [Scale AI - Senior AI Infrastructure Engineer - Training Platform](https://job-boards.greenhouse.io/scaleai/jobs/4689751005) (San Francisco, CA; Seattle, WA; New York, NY) - 7d
-- [Alarm.com - Software Engineer II (Full-stack Android)](https://job-boards.greenhouse.io/alarmcom/jobs/8442359002) (Kraków, Lesser Poland Voivodeship, Poland) - 8d
 - [Scale AI - Senior Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4673310005) (London, UK) - 8d
 - [Scale AI - Staff Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4676610005) (London, UK) - 8d
-- [Alarm.com - DevOps Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8522951002) (Centennial, Colorado) - 11d
-- [Alarm.com - DevOps Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8398722002) (Tysons, Virginia) - 11d
-- [Alarm.com - Senior Software Engineer (.NET, C#, Protocols Team)](https://job-boards.greenhouse.io/alarmcom/jobs/8442366002) (Kraków, Lesser Poland Voivodeship, Poland) - 11d
-- [Alarm.com - Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8506045002) (Centennial, Colorado) - 11d
-- [Alarm.com - Software Engineer (.NET, C#)](https://job-boards.greenhouse.io/alarmcom/jobs/8504183002) (EBS Warsaw, Poland) - 12d
-- [Alarm.com - Software Engineering Intern](https://job-boards.greenhouse.io/alarmcom/jobs/8417037002) (Tysons, Virginia) - 12d
-- [Alarm.com - Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8490045002) (Lawrence, Kansas) - 13d
-- [Alarm.com - Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8490048002) (Centennial, Colorado) - 13d
 - [Scale AI - Software Engineer (Backend), Enterprise](https://job-boards.greenhouse.io/scaleai/jobs/4630032005) (Budapest, Hungary) - 13d
 - [Scale AI - Mission Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4481921005) (Baltimore, MD; Colorado Springs, CO; Hampton Roads, VA; Tampa, FL; Tucson,AZ; San Francisco, CA; New York, NY; Honolulu, HI, St. Louis, MO; Washington, DC) - 14d
-- [Alarm.com - Senior Software Engineering Manager](https://job-boards.greenhouse.io/alarmcom/jobs/8490051002) (Boston, Massachusetts) - 19d
-- [Alarm.com - Staff Software Engineer - AI Focus](https://job-boards.greenhouse.io/alarmcom/jobs/8477654002) (Tysons, Virginia) - 19d
 - [Scale AI - Senior Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4674911005) (San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC) - 19d
 - [Scale AI - Staff Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4674913005) (San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC) - 19d
-- [Alarm.com - Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8508197002) (Liberty Lake, Washington) - 20d
-- [Alarm.com - Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8498612002) (Tysons, Virginia) - 21d
-- [Alarm.com - Senior Staff Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8430339002) (Tysons, Virginia) - 22d
 - [Scale AI - Software Engineer - New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4605996005) (San Francisco, CA) - 26d
 - [Scale AI - Software Engineer, Gen AI](https://job-boards.greenhouse.io/scaleai/jobs/4591300005) (San Francisco, CA; New York, NY) - 26d
-- [Alarm.com - Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8384631002) (Tysons, Virginia) - 29d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a) (New York, NY) - 29d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/a92b55d0-1d36-4884-8e65-f456450b3a74) (London, United Kingdom) - 29d
 - [Palantir - Senior Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/2cd25c0b-088d-4a5c-9b96-1165a33fe652) (London, United Kingdom) - 29d
 - [Palantir - Senior Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/b5ad6660-8145-4be5-97e2-3799f2912f5b) (New York, NY) - 29d
-- [Alarm.com - Senior Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8430376002) (Tysons, Virginia) - 34d
-- [Alarm.com - Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8455660002) (Tysons, Virginia) - 34d
-- [Alarm.com - Software Engineering Manager](https://job-boards.greenhouse.io/alarmcom/jobs/8413577002) (Greenville, South Carolina) - 34d
 - [Palantir - Platform Engineer - Identity and Access Management (IAM)](https://jobs.lever.co/palantir/666d13c7-c6f0-43fb-a0ab-091c338085dc) (London, United Kingdom) - 35d
-- [Alarm.com - Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8459003002) (Tysons, Virginia) - 36d
 - [Scale AI - Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4676600005) (Doha, Qatar) - 36d
 - [Scale AI - Senior Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4676606005) (Doha, Qatar) - 36d
 - [Scale AI - Staff FullStack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4673314005) (Doha, Qatar) - 36d
-- [Alarm.com - Senior Software Engineer (Financial Systems)](https://job-boards.greenhouse.io/alarmcom/jobs/8455658002) (Tysons, Virginia) - 40d
 - [Scale AI - DevOps Engineer, GPS](https://job-boards.greenhouse.io/scaleai/jobs/4613839005) (Doha, Qatar) - 40d
 - [Scale AI - Infrastructure Software Engineer, Enterprise GenAI](https://job-boards.greenhouse.io/scaleai/jobs/4665557005) (San Francisco, CA; New York, NY) - 40d
 - [Scale AI - Mission Software Engineering Manager, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4631039005) (San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC) - 40d
@@ -72,15 +49,11 @@ Total: 168
 - [Scale AI - Staff Software Engineer, Enterprise GenAI](https://job-boards.greenhouse.io/scaleai/jobs/4569678005) (San Francisco, CA; New York, NY) - 40d
 - [Scale AI - Staff Software Engineer, Full-Stack - Enterprise Gen AI](https://job-boards.greenhouse.io/scaleai/jobs/4529529005) (New York, NY; San Francisco, CA) - 40d
 - [Scale AI - Staff Software Engineer, Platform](https://job-boards.greenhouse.io/scaleai/jobs/4649893005) (San Francisco, CA; New York, NY) - 40d
-- [Alarm.com - Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8432004002) (Boston, Massachusetts) - 42d
-- [Alarm.com - Senior Software Engineer](https://job-boards.greenhouse.io/alarmcom/jobs/8455659002) (Tysons, Virginia) - 48d
 - [Palantir - Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) (New York, NY) - 56d
 - [Palantir - Backend Software Engineer](https://jobs.lever.co/palantir/0b2dbe51-0d9f-47ee-9f24-82bff4654048) (Singapore, Singapore) - 63d
 - [Palantir - Forward Deployed Software Engineer - Tactical Edge](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) (Washington, D.C.) - 64d
-- [Alarm.com - Senior Software Engineer (.NET, C#)](https://job-boards.greenhouse.io/alarmcom/jobs/8439593002) (Warszawa, Masovian Voivodeship, Poland) - 67d
 - [Palantir - Forward Deployed Software Engineer - France Government](https://jobs.lever.co/palantir/215bfcd6-c929-45ae-a11b-3fa59ed78025) (Paris, France) - 75d
 - [Palantir - Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) (New York, NY) - 75d
-- [Alarm.com - Software Engineer II](https://job-boards.greenhouse.io/alarmcom/jobs/8284605002) (Needham, Massachusetts) - 97d
 - [Palantir - Software Engineer - Defense Applications](https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410) (Washington, D.C.) - 99d
 - [Palantir - Forward Deployed Software Engineer - Autonomous Systems C2](https://jobs.lever.co/palantir/0edf7365-49f0-4263-818a-19409ec4f430) (Seattle, WA) - 109d
 - [Palantir - Forward Deployed Software Engineer - Autonomous Systems C2](https://jobs.lever.co/palantir/c62264f5-5da8-40fe-9b44-f7f0f0012e11) (Palo Alto, CA) - 109d

@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-05-05T06:27:05Z",
-  "total": 168,
+  "generated_at": "2026-05-05T10:11:55Z",
+  "total": 141,
   "jobs": [
-    {
-      "id": "b170764ac42a9d7b",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Frontend Engineer",
-      "location": "Lawrence, Kansas",
-      "level": "other",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-05-04",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8516456002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
     {
       "id": "2b5caf2bcbba992f",
       "kind": "job",
@@ -73,34 +59,6 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
-      "id": "899fd86e3bffe9ed",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Software Engineer",
-      "location": "Needham, Massachusetts",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-04-28",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8527096002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "47b1e30e71bccc40",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer II",
-      "location": "Centennial, Colorado",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-04-28",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8505982002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
       "id": "32c558538d716231",
       "kind": "job",
       "company": "Scale AI",
@@ -113,20 +71,6 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689751005",
       "source": "greenhouse:scaleai",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
-    },
-    {
-      "id": "3d33ec4fd3e17dba",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer II (Full-stack Android)",
-      "location": "Kraków, Lesser Poland Voivodeship, Poland",
-      "level": "mid_level",
-      "role_type": "full_stack",
-      "date": "8d",
-      "posted_at": "2026-04-27",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8442359002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
     },
     {
       "id": "465887e74828d0f7",
@@ -157,118 +101,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
     },
     {
-      "id": "e7a2f82cd12f330b",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "DevOps Engineer",
-      "location": "Centennial, Colorado",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "11d",
-      "posted_at": "2026-04-24",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8522951002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "522160e8bbf2ae42",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "DevOps Engineer",
-      "location": "Tysons, Virginia",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "11d",
-      "posted_at": "2026-04-24",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8398722002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "042b25de2f1d4649",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Software Engineer (.NET, C#, Protocols Team)",
-      "location": "Kraków, Lesser Poland Voivodeship, Poland",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "11d",
-      "posted_at": "2026-04-24",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8442366002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "3ceb2acd8119426e",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Staff Software Engineer",
-      "location": "Centennial, Colorado",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "11d",
-      "posted_at": "2026-04-24",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8506045002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "fdb258ea81fb03bf",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer (.NET, C#)",
-      "location": "EBS Warsaw, Poland",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "12d",
-      "posted_at": "2026-04-23",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8504183002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "69ff2f13e1d31fd3",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineering Intern",
-      "location": "Tysons, Virginia",
-      "level": "internship",
-      "role_type": "software_engineer",
-      "date": "12d",
-      "posted_at": "2026-04-23",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8417037002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "cca0943d433f52b4",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer",
-      "location": "Lawrence, Kansas",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-04-22",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8490045002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "4120b0c14c897199",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer",
-      "location": "Centennial, Colorado",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-04-22",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8490048002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
       "id": "007ec96bb01aaf48",
       "kind": "job",
       "company": "Scale AI",
@@ -295,34 +127,6 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4481921005",
       "source": "greenhouse:scaleai",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
-    },
-    {
-      "id": "cdd47071703f2407",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Software Engineering Manager",
-      "location": "Boston, Massachusetts",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "19d",
-      "posted_at": "2026-04-16",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8490051002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "81dc016725ac94ef",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Staff Software Engineer - AI Focus",
-      "location": "Tysons, Virginia",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "19d",
-      "posted_at": "2026-04-16",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8477654002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
     },
     {
       "id": "0db2c9dea005b4b6",
@@ -353,48 +157,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
     },
     {
-      "id": "00566d89f47160e8",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Staff Software Engineer",
-      "location": "Liberty Lake, Washington",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "20d",
-      "posted_at": "2026-04-15",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8508197002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "4149a4ffc21e4c15",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Staff Software Engineer",
-      "location": "Tysons, Virginia",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "21d",
-      "posted_at": "2026-04-14",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8498612002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "4e1011e293d46b94",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Staff Software Engineer",
-      "location": "Tysons, Virginia",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "22d",
-      "posted_at": "2026-04-13",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8430339002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
       "id": "de4710a0f7679772",
       "kind": "job",
       "company": "Scale AI",
@@ -421,20 +183,6 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591300005",
       "source": "greenhouse:scaleai",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
-    },
-    {
-      "id": "fb2992fcd7c56719",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer II",
-      "location": "Tysons, Virginia",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "29d",
-      "posted_at": "2026-04-06",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8384631002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
     },
     {
       "id": "d8cc39973fd68c09",
@@ -493,48 +241,6 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
-      "id": "55ae61584151cc16",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Software Engineer",
-      "location": "Tysons, Virginia",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-04-01",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8430376002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "be20a645354519c8",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer II",
-      "location": "Tysons, Virginia",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-04-01",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8455660002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "ccb9286d44157a31",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineering Manager",
-      "location": "Greenville, South Carolina",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-04-01",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8413577002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
       "id": "11bf6a6a1a90dae4",
       "kind": "job",
       "company": "Palantir",
@@ -547,20 +253,6 @@
       "url": "https://jobs.lever.co/palantir/666d13c7-c6f0-43fb-a0ab-091c338085dc",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "a550a96a68f1d487",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer II",
-      "location": "Tysons, Virginia",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "36d",
-      "posted_at": "2026-03-30",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8459003002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
     },
     {
       "id": "2b9497ae322c3a90",
@@ -603,20 +295,6 @@
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673314005",
       "source": "greenhouse:scaleai",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
-    },
-    {
-      "id": "ed080f3202a26c7b",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Software Engineer (Financial Systems)",
-      "location": "Tysons, Virginia",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "40d",
-      "posted_at": "2026-03-26",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8455658002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
     },
     {
       "id": "27baa6c2813dadd8",
@@ -941,34 +619,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true"
     },
     {
-      "id": "867b2863a6fe65f0",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer II",
-      "location": "Boston, Massachusetts",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "42d",
-      "posted_at": "2026-03-24",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8432004002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
-      "id": "ac2872d573a83bd1",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Software Engineer",
-      "location": "Tysons, Virginia",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "48d",
-      "posted_at": "2026-03-18",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8455659002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
       "id": "b74025fc67560d7e",
       "kind": "job",
       "company": "Palantir",
@@ -1011,20 +661,6 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
-      "id": "fcc648c45a3e0e72",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Senior Software Engineer (.NET, C#)",
-      "location": "Warszawa, Masovian Voivodeship, Poland",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "67d",
-      "posted_at": "2026-02-27",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8439593002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
-    },
-    {
       "id": "aca34b7724773957",
       "kind": "job",
       "company": "Palantir",
@@ -1051,20 +687,6 @@
       "url": "https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "87abfcb424c867ce",
-      "kind": "job",
-      "company": "Alarm.com",
-      "title": "Software Engineer II",
-      "location": "Needham, Massachusetts",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "97d",
-      "posted_at": "2026-01-28",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8284605002",
-      "source": "greenhouse:alarmcom",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/alarmcom/jobs?content=true"
     },
     {
       "id": "858c8e1082b95e33",

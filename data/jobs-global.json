@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-05T03:46:44Z",
-  "total": 16,
+  "generated_at": "2026-05-05T10:11:54Z",
+  "total": 15,
   "jobs": [
     {
       "id": "bba8ff59709e0af1",
@@ -175,26 +175,6 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
       "age": "27d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "11a754ac01d75f7b",
-      "company": "Alarm.com",
-      "title": "Cloud Operations Intern-DevOps 🛂",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Tysons, VA",
-      "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8440261002?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
       "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
