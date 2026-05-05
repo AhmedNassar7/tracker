@@ -1,10 +1,12 @@
 # Public Opportunities
 
-Generated at: 2026-05-05T14:21:15Z
+Generated at: 2026-05-05T17:45:57Z
 
-Total: 140
+Total: 138
 
 ## Jobs
+- [Scale AI - Senior Software Engineer, Connectivity](https://job-boards.greenhouse.io/scaleai/jobs/4654275005) (San Francisco, CA; New York, NY) - 0d
+- [Scale AI - Senior Software Engineer, Full-Stack – Scale GP](https://job-boards.greenhouse.io/scaleai/jobs/4637484005) (San Francisco, CA; New York, NY) - 0d
 - [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/0fccbe95-2520-4df3-8600-7897656c06a2) (Honolulu, HI) - 1d
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/3d06b4bc-6a7b-4f73-b5c5-4544354e3d0f) (Warsaw, Poland) - 4d
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/ce20af4c-4de3-4079-bbdf-bc30a2e25404) (Paris, France) - 4d
@@ -17,7 +19,6 @@ Total: 140
 - [Scale AI - Senior Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4674911005) (San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC) - 19d
 - [Scale AI - Staff Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4674913005) (San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC) - 19d
 - [Scale AI - Software Engineer - New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4605996005) (San Francisco, CA) - 26d
-- [Scale AI - Software Engineer, Gen AI](https://job-boards.greenhouse.io/scaleai/jobs/4591300005) (San Francisco, CA; New York, NY) - 26d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a) (New York, NY) - 29d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/a92b55d0-1d36-4884-8e65-f456450b3a74) (London, United Kingdom) - 29d
 - [Palantir - Senior Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/2cd25c0b-088d-4a5c-9b96-1165a33fe652) (London, United Kingdom) - 29d
@@ -32,10 +33,6 @@ Total: 140
 - [Scale AI - Senior AI Infrastructure Engineer, Model Serving Platform](https://job-boards.greenhouse.io/scaleai/jobs/4520320005) (San Francisco, CA; New York, NY) - 40d
 - [Scale AI - Senior Software Engineer - Internal Tools & Productivity](https://job-boards.greenhouse.io/scaleai/jobs/4654897005) (San Francisco, CA) - 40d
 - [Scale AI - Senior Software Engineer, Agentic Data Products](https://job-boards.greenhouse.io/scaleai/jobs/4653827005) (San Francisco, CA) - 40d
-- [Scale AI - Senior Software Engineer, Backend — Frontier Data](https://job-boards.greenhouse.io/scaleai/jobs/4648525005) (San Francisco, CA; New York, NY) - 40d
-- [Scale AI - Senior Software Engineer, Billing Platform](https://job-boards.greenhouse.io/scaleai/jobs/4630325005) (San Francisco, CA; New York, NY) - 40d
-- [Scale AI - Senior Software Engineer, Connectivity](https://job-boards.greenhouse.io/scaleai/jobs/4654275005) (San Francisco, CA; New York, NY) - 40d
-- [Scale AI - Senior Software Engineer, Full-Stack – Scale GP](https://job-boards.greenhouse.io/scaleai/jobs/4637484005) (San Francisco, CA; New York, NY) - 40d
 - [Scale AI - Senior Software Engineer, GenAI](https://job-boards.greenhouse.io/scaleai/jobs/4591298005) (San Francisco, CA; New York, NY) - 40d
 - [Scale AI - Site Reliability Engineer / DevOps](https://job-boards.greenhouse.io/scaleai/jobs/4654831005) (Mexico City, MX) - 40d
 - [Scale AI - Software Engineer, ARC Team](https://job-boards.greenhouse.io/scaleai/jobs/4673771005) (San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC) - 40d
@@ -146,6 +143,7 @@ Total: 140
 - [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
 - [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
+- [Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
 - [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
