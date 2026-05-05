@@ -1,6 +1,6 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-04T06:51:56Z
+Generated at: 2026-05-05T03:46:44Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -14,10 +14,7 @@ Generated at: 2026-05-04T06:51:56Z
 | Texas Farm Bureau Casualty Insurance Company | [Software Developer Intern 🇺🇸](https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify) | Waco, TX | 21d |
 | Adobe | [Intern - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-Intern---Machine-Learning-Engineer_R160621?utm_source=Simplify&ref=Simplify) | SF San Jose, CA | 27d |
 | Alarm.com | [Cloud Operations Intern-DevOps 🛂](https://job-boards.greenhouse.io/alarmcom/jobs/8440261002?utm_source=Simplify&ref=Simplify) | Tysons, VA | 1mo |
-| Coherent | [Intern Data Science Software Engineer](https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2010686?utm_source=Simplify&ref=Simplify) | Hartford, CT | 1mo |
-| Coherent | [Intern Software Developer - Document Control - Global Quality](https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011079?utm_source=Simplify&ref=Simplify) | Santa Clara, CA | 1mo |
 | Palantir | [Forward Deployed Software Engineer Intern](https://jobs.lever.co/palantir/030ece08-c341-4959-bdfe-314e89b691ce/apply?utm_source=Simplify&ref=Simplify) | NYC | 1mo |
-| Uber | [Graduate Software Engineer 1](https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify) | <details><summary><strong>4 locations</strong></summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details> | 24d |
 | Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 2mo |
 | Palantir | [Software Engineer – New Grad - Production Infrastructure](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply?utm_source=Simplify&ref=Simplify) | NYC | 5mo |
 | Citadel Securities | [Software Engineer – University Graduate - US](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC |  |
