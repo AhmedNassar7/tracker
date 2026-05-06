@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-05-06T10:26:40Z
+Generated at: 2026-05-06T14:42:44Z
 
-Total: 143
+Total: 136
 
 ## Jobs
 - [Scale AI - Senior Software Engineer, Connectivity](https://job-boards.greenhouse.io/scaleai/jobs/4654275005) (San Francisco, CA; New York, NY) - 1d
@@ -129,7 +129,6 @@ Total: 143
 - [Palantir - DevOps Engineer](https://jobs.lever.co/palantir/51ea4a3b-7764-4c87-96e4-310e19c856d5) (Washington, D.C.) - 2869d
 - [Palantir - DevOps Engineer](https://jobs.lever.co/palantir/c3f40e41-6258-4233-a7f9-091bf67df30b) (New York, NY) - 2869d
 - [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/492a16bb-6b9f-457e-82c3-294e1a2c565d) (Amsterdam, Netherlands) - 2934d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/06c7bd36-e24b-4f3a-8b45-1e846ae44095) (Ottawa, Canada) - 3971d
 - [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/dab396d4-2f14-4796-aac0-0d82883dccf0) (New York, NY) - 4486d
 - [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/c4442730-2926-41ad-8c0e-5e5a6b4d14ae) (Tel Aviv, Israel) - 4885d
 - [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/5168e8fd-fec1-4fea-b7a1-81bdaea65850) (London, United Kingdom) - 5996d
@@ -139,16 +138,10 @@ Total: 143
 - [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons)
 
 ## Events
-- [Subscribe [SF] Builders Collective San Francisco · Bringing together the hottest tech for the community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!](/sf-builders-collective?k=c)
-- [Subscribe Big Brain Lectures - SF San Francisco · A lecture series hosted in The Bay's coolest spaces.](/Big-Brain-SF?k=c)
-- [Subscribe Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (120k+) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join](/genai-sf?k=c)
 - [Subscribe Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c)
 - [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
-- [Subscribe Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply](/frontiertower?k=c)
 - [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
 - [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
-- [Subscribe SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!](/sf-hardware-meetup?k=c)
 - [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
-- [Subscribe tiat (the intersection of art & technology) San Francisco · creative technology in sf](/tiat?k=c)
