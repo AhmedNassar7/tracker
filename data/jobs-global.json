@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T10:11:54Z",
+  "generated_at": "2026-05-06T14:42:42Z",
   "total": 15,
   "jobs": [
     {
@@ -143,26 +143,6 @@
       ]
     },
     {
-      "id": "a0bf509b5c07fa5b",
-      "company": "Texas Farm Bureau Casualty Insurance Company",
-      "title": "Software Developer Intern 🇺🇸",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Waco, TX",
-      "remote_type": "onsite",
-      "url": "https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "21d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f32cda56feb31f5d",
       "company": "Adobe",
       "title": "Intern - Machine Learning Engineer",
@@ -195,6 +175,26 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
       "age": "1mo",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a0bf509b5c07fa5b",
+      "company": "Texas Farm Bureau Casualty Insurance Company",
+      "title": "Software Developer Intern 🇺🇸",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Waco, TX",
+      "remote_type": "onsite",
+      "url": "https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-04-28",
+      "age": "21d",
       "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
