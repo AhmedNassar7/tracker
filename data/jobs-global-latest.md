@@ -1,6 +1,6 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-06T14:42:42Z
+Generated at: 2026-05-07T04:00:33Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -15,7 +15,5 @@ Generated at: 2026-05-06T14:42:42Z
 | Palantir | [Forward Deployed Software Engineer Intern](https://jobs.lever.co/palantir/030ece08-c341-4959-bdfe-314e89b691ce/apply?utm_source=Simplify&ref=Simplify) | NYC | 1mo |
 | Texas Farm Bureau Casualty Insurance Company | [Software Developer Intern 🇺🇸](https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify) | Waco, TX | 21d |
 | Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 2mo |
-| Palantir | [Software Engineer – New Grad - Production Infrastructure](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply?utm_source=Simplify&ref=Simplify) | NYC | 5mo |
 | Citadel Securities | [Software Engineer – University Graduate - US](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC |  |
 | Google | [Software Engineer Early Career - Infrastructure 🎓](https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify) | <details><summary><strong>12 locations</strong></summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details> | 5mo |
-| Scale AI | [Software Engineer – New Grad](https://job-boards.greenhouse.io/scaleai/jobs/4605996005?utm_source=Simplify&ref=Simplify) | SF | 7mo |
