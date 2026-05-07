@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T06:51:56Z",
-  "total": 19,
+  "generated_at": "2026-05-07T04:00:33Z",
+  "total": 13,
   "jobs": [
     {
       "id": "bba8ff59709e0af1",
@@ -143,26 +143,6 @@
       ]
     },
     {
-      "id": "a0bf509b5c07fa5b",
-      "company": "Texas Farm Bureau Casualty Insurance Company",
-      "title": "Software Developer Intern 🇺🇸",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Waco, TX",
-      "remote_type": "onsite",
-      "url": "https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "21d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f32cda56feb31f5d",
       "company": "Adobe",
       "title": "Intern - Machine Learning Engineer",
@@ -175,66 +155,6 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
       "age": "27d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "11a754ac01d75f7b",
-      "company": "Alarm.com",
-      "title": "Cloud Operations Intern-DevOps 🛂",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Tysons, VA",
-      "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/alarmcom/jobs/8440261002?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b29ff6c10f2e5598",
-      "company": "Coherent",
-      "title": "Intern Data Science Software Engineer",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Hartford, CT",
-      "remote_type": "onsite",
-      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2010686?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c4d9fc9fdc93afd8",
-      "company": "Coherent",
-      "title": "Intern Software Developer - Document Control - Global Quality",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011079?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
       "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
@@ -263,19 +183,19 @@
       ]
     },
     {
-      "id": "ec85ca8d99c8a3d4",
-      "company": "Uber",
-      "title": "Graduate Software Engineer 1",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "<details><summary><strong>4 locations</strong></summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details>",
+      "id": "a0bf509b5c07fa5b",
+      "company": "Texas Farm Bureau Casualty Insurance Company",
+      "title": "Software Developer Intern 🇺🇸",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Waco, TX",
       "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/158011/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "url": "https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
-      "age": "24d",
-      "collected_at": "2026-04-28T09:16:05Z",
+      "age": "21d",
+      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
@@ -296,26 +216,6 @@
       "posted_at": "2026-04-28",
       "age": "2mo",
       "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "56f9527f2090c3e9",
-      "company": "Palantir",
-      "title": "Software Engineer – New Grad - Production Infrastructure",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "5mo",
-      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
@@ -355,26 +255,6 @@
       "posted_at": "2026-04-28",
       "age": "5mo",
       "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "60d8fcf99c5a6b70",
-      "company": "Scale AI",
-      "title": "Software Engineer – New Grad",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605996005?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "7mo",
-      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
