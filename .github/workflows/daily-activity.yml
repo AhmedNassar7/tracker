@@ -62,9 +62,11 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           commit-message: "chore: global tech roles snapshot (${{ github.run_id }})"
           title: "chore: global tech roles snapshot (${{ github.run_id }})"
+          author: "AhmedNassar7 <a.moh.nassar00@users.noreply.github.com>"
+          committer: "AhmedNassar7 <a.moh.nassar00@users.noreply.github.com>"
           body: |
             Automated global tech roles snapshot (scheduled 5 times daily).
             
@@ -98,5 +100,5 @@ jobs:
       - name: Auto-merge PR
         if: steps.cpr.outputs.pull-request-number != ''
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --auto --delete-branch
