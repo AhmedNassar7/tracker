@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-06T14:42:42Z",
-  "total": 15,
+  "generated_at": "2026-05-07T04:00:33Z",
+  "total": 13,
   "jobs": [
     {
       "id": "bba8ff59709e0af1",
@@ -223,26 +223,6 @@
       ]
     },
     {
-      "id": "56f9527f2090c3e9",
-      "company": "Palantir",
-      "title": "Software Engineer – New Grad - Production Infrastructure",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "5mo",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "700907f6ea377584",
       "company": "Citadel Securities",
       "title": "Software Engineer – University Graduate - US",
@@ -275,26 +255,6 @@
       "posted_at": "2026-04-28",
       "age": "5mo",
       "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "60d8fcf99c5a6b70",
-      "company": "Scale AI",
-      "title": "Software Engineer – New Grad",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605996005?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "7mo",
-      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
