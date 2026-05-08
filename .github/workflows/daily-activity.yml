@@ -64,7 +64,7 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
           commit-message: "chore: global tech roles snapshot (${{ github.run_id }})"
-          title: "chore: global tech roles snapshot (${{ github.run_id }})"
+          title: "chore: global tech roles snapshot"
           author: "AhmedNassar7 <a.moh.nassar00@users.noreply.github.com>"
           committer: "AhmedNassar7 <a.moh.nassar00@users.noreply.github.com>"
           body: |
@@ -84,15 +84,6 @@ jobs:
             - Greenhouse public job boards
             - Lever public postings
             - Workday public pages (configurable)
-            
-            **Updated artifacts in this PR:**
-            - `data/jobs-global.json`
-            - `data/jobs-global-archive.json`
-            - `data/stats.json`
-            - `data/public-opportunities.json`
-            - `data/raw/*.json` (source snapshots)
-            - `LAST_UPDATED`
-            - `log/YYYY-MM.md`
           branch: "frequent/global-roles-${{ github.run_id }}"
           delete-branch: true
           labels: automated
