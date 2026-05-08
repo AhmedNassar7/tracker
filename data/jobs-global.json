@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-05-07T04:00:33Z",
-  "total": 13,
+  "generated_at": "2026-05-08T03:51:01Z",
+  "total": 14,
   "jobs": [
+    {
+      "id": "aa1e9ddd8f269032",
+      "company": "Oracle",
+      "title": "Software Engineer Intern - Netsuite",
+      "level": "internship",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/332961?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-08",
+      "age": "0d",
+      "collected_at": "2026-05-08T03:51:01Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "bba8ff59709e0af1",
       "company": "Airbnb",

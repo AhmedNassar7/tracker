@@ -1,9 +1,10 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-07T04:00:33Z
+Generated at: 2026-05-08T03:51:01Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Oracle | [Software Engineer Intern - Netsuite](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/332961?utm_source=Simplify&ref=Simplify) | United States | 0d |
 | Airbnb | [Software Engineer New Grad](https://careers.airbnb.com/positions/7773838?gh_jid=7773838&utm_source=Simplify&ref=Simplify) | Seattle, WA SF | 0d |
 | Intelcom | Dragonfly | [Embedded Software Development Intern](https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1?utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada | 0d |
 | Airbnb | [iOS Software Engineer – New Grad](https://careers.airbnb.com/positions/7859317?gh_jid=7859317&utm_source=Simplify&ref=Simplify) | Seattle, WA SF | 0d |
