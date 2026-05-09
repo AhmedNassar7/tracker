@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-05-08T17:42:41Z",
-  "total": 15,
+  "generated_at": "2026-05-09T09:42:19Z",
+  "total": 13,
   "jobs": [
-    {
-      "id": "d896070ba4d36107",
-      "company": "NVIDIA",
-      "title": "Machine Learning Intern - Multimodal Models Generative AI",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "St Paul, MN",
-      "remote_type": "onsite",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-08",
-      "age": "0d",
-      "collected_at": "2026-05-08T17:42:41Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
     {
       "id": "aa1e9ddd8f269032",
       "company": "Oracle",
@@ -156,26 +136,6 @@
       "posted_at": "2026-04-28",
       "age": "4d",
       "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1b3261a2c463b000",
-      "company": "Adobe",
-      "title": "AI/ML Intern - Machine Learning Engineer 🎓",
-      "level": "internship",
-      "country": "United States",
-      "location": "<details><summary><strong>7 locations</strong></summary>Seattle, WA<br>SF<br>Austin, TX<br>San Jose, CA<br>Waltham, MA<br>NYC<br>Lehi, UT</details>",
-      "remote_type": "onsite",
-      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "16d",
-      "collected_at": "2026-04-28T09:16:05Z",
       "tags": [
         "software",
         "programming",
