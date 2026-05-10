@@ -1,6 +1,6 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-09T13:49:05Z
+Generated at: 2026-05-10T04:10:41Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -12,6 +12,7 @@ Generated at: 2026-05-09T13:49:05Z
 | Notion | [Software Engineer – New Grad - AI](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify) | SF | 0d |
 | Adobe | [AI/ML Intern - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R160428?utm_source=Simplify&ref=Simplify) | San Jose, CA | 3d |
 | Notion | [Software Engineer – New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify) | SF | 4d |
+| Adobe | [AI/ML Intern - Machine Learning Engineer 🎓](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify) | <details><summary><strong>7 locations</strong></summary>Seattle, WA<br>SF<br>Austin, TX<br>San Jose, CA<br>Waltham, MA<br>NYC<br>Lehi, UT</details> | 28d |
 | Adobe | [Intern - Machine Learning Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-Intern---Machine-Learning-Engineer_R160621?utm_source=Simplify&ref=Simplify) | SF San Jose, CA | 27d |
 | Palantir | [Forward Deployed Software Engineer Intern](https://jobs.lever.co/palantir/030ece08-c341-4959-bdfe-314e89b691ce/apply?utm_source=Simplify&ref=Simplify) | NYC | 1mo |
 | Texas Farm Bureau Casualty Insurance Company | [Software Developer Intern 🇺🇸](https://jobs.dayforcehcm.com/en-US/texasfarm/CANDIDATEPORTAL/jobs/634?utm_source=Simplify&ref=Simplify) | Waco, TX | 21d |
