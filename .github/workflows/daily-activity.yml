@@ -63,7 +63,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.PAT_TOKEN }}
-          commit-message: "chore: global tech roles snapshot (${{ github.run_id }})"
+          commit-message: "chore: global tech roles"
           title: "chore: global tech roles snapshot"
           author: "AhmedNassar7 <a.moh.nassar00@users.noreply.github.com>"
           committer: "AhmedNassar7 <a.moh.nassar00@users.noreply.github.com>"
