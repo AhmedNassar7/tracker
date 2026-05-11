@@ -1,6 +1,6 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-10T04:10:41Z
+Generated at: 2026-05-11T04:20:57Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -19,3 +19,5 @@ Generated at: 2026-05-10T04:10:41Z
 | Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 2mo |
 | Citadel Securities | [Software Engineer – University Graduate - US](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC |  |
 | Google | [Software Engineer Early Career - Infrastructure 🎓](https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify) | <details><summary><strong>12 locations</strong></summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details> | 5mo |
+| Flix | [Junior DevOps Engineer (m/f/d)](https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-munchen-300553) | München, Bayern, Deutschland |  |
+| Flix | [Junior DevOps Engineer (m/f/d)](https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-berlin-268701) | Berlin, Berlin, Germany |  |
