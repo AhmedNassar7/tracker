@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T17:42:41Z",
-  "total": 15,
+  "generated_at": "2026-05-11T04:20:57Z",
+  "total": 17,
   "jobs": [
     {
       "id": "d896070ba4d36107",
@@ -13,9 +13,9 @@
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-08",
+      "posted_at": "2026-05-09",
       "age": "0d",
-      "collected_at": "2026-05-08T17:42:41Z",
+      "collected_at": "2026-05-09T13:49:05Z",
       "tags": [
         "software",
         "programming",
@@ -173,9 +173,9 @@
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "16d",
-      "collected_at": "2026-04-28T09:16:05Z",
+      "posted_at": "2026-05-10",
+      "age": "28d",
+      "collected_at": "2026-05-10T04:10:41Z",
       "tags": [
         "software",
         "programming",
@@ -295,6 +295,46 @@
       "posted_at": "2026-04-28",
       "age": "5mo",
       "collected_at": "2026-04-28T09:16:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3e20d28606c8cc0f",
+      "company": "Flix",
+      "title": "Junior DevOps Engineer (m/f/d)",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "München, Bayern, Deutschland",
+      "remote_type": "onsite",
+      "url": "https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-munchen-300553",
+      "source": "arbeitnow",
+      "source_url": "https://arbeitnow.com/",
+      "posted_at": "1778456720",
+      "age": "",
+      "collected_at": "2026-05-11T04:20:57Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fa50c2b1e39797cd",
+      "company": "Flix",
+      "title": "Junior DevOps Engineer (m/f/d)",
+      "level": "junior",
+      "country": "Germany",
+      "location": "Berlin, Berlin, Germany",
+      "remote_type": "onsite",
+      "url": "https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-berlin-268701",
+      "source": "arbeitnow",
+      "source_url": "https://arbeitnow.com/",
+      "posted_at": "1778456720",
+      "age": "",
+      "collected_at": "2026-05-11T04:20:57Z",
       "tags": [
         "software",
         "programming",
