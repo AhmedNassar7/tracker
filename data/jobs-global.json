@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-10T04:10:41Z",
-  "total": 15,
+  "generated_at": "2026-05-11T04:20:57Z",
+  "total": 17,
   "jobs": [
     {
       "id": "d896070ba4d36107",
@@ -295,6 +295,46 @@
       "posted_at": "2026-04-28",
       "age": "5mo",
       "collected_at": "2026-04-28T09:16:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3e20d28606c8cc0f",
+      "company": "Flix",
+      "title": "Junior DevOps Engineer (m/f/d)",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "München, Bayern, Deutschland",
+      "remote_type": "onsite",
+      "url": "https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-munchen-300553",
+      "source": "arbeitnow",
+      "source_url": "https://arbeitnow.com/",
+      "posted_at": "1778456720",
+      "age": "",
+      "collected_at": "2026-05-11T04:20:57Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fa50c2b1e39797cd",
+      "company": "Flix",
+      "title": "Junior DevOps Engineer (m/f/d)",
+      "level": "junior",
+      "country": "Germany",
+      "location": "Berlin, Berlin, Germany",
+      "remote_type": "onsite",
+      "url": "https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-berlin-268701",
+      "source": "arbeitnow",
+      "source_url": "https://arbeitnow.com/",
+      "posted_at": "1778456720",
+      "age": "",
+      "collected_at": "2026-05-11T04:20:57Z",
       "tags": [
         "software",
         "programming",
