@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-11T15:33:52Z",
-  "total": 15,
+  "generated_at": "2026-05-12T04:02:22Z",
+  "total": 13,
   "jobs": [
     {
       "id": "d896070ba4d36107",
@@ -16,26 +16,6 @@
       "posted_at": "2026-05-09",
       "age": "0d",
       "collected_at": "2026-05-09T13:49:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "aa1e9ddd8f269032",
-      "company": "Oracle",
-      "title": "Software Engineer Intern - Netsuite",
-      "level": "internship",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/332961?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-08",
-      "age": "0d",
-      "collected_at": "2026-05-08T03:51:01Z",
       "tags": [
         "software",
         "programming",
@@ -195,26 +175,6 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-04-28",
       "age": "27d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a8346e0d42d21e06",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/030ece08-c341-4959-bdfe-314e89b691ce/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "1mo",
       "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
