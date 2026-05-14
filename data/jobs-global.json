@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-05-13T04:10:10Z",
-  "total": 11,
+  "generated_at": "2026-05-14T04:09:45Z",
+  "total": 12,
   "jobs": [
+    {
+      "id": "67b7f33b2d042678",
+      "company": "Cloudflare",
+      "title": "Machine Learning Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7914628?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-14",
+      "age": "0d",
+      "collected_at": "2026-05-14T04:09:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "d896070ba4d36107",
       "company": "NVIDIA",
