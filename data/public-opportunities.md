@@ -1,11 +1,14 @@
 # Public Opportunities
 
-Generated at: 2026-05-13T18:09:44Z
+Generated at: 2026-05-14T04:09:46Z
 
-Total: 9
+Total: 13
 
 ## Jobs
-- None
+- [Cloudflare - Senior Software Engineer, Storage Infrastructure](https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805) (Hybrid) - 2d
+- [Cloudflare - Senior Manager, Solutions Architecture, AI & Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/7469508?gh_jid=7469508) (Hybrid) - 6d
+- [Cloudflare - Senior Partner Strategy Manager, Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/7428796?gh_jid=7428796) (Hybrid) - 6d
+- [Cloudflare - Solutions Architect, AI/Cloudflare Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/7505582?gh_jid=7505582) (Hybrid) - 6d
 
 ## Hackathons
 - [Devpost Participate in our public hackathons](https://devpost.com/hackathons)
