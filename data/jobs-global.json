@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-05-14T04:09:45Z",
-  "total": 12,
+  "generated_at": "2026-05-15T04:14:30Z",
+  "total": 13,
   "jobs": [
+    {
+      "id": "24df41475a0bb623",
+      "company": "Palantir",
+      "title": "Palantir Intern - Software Engineer",
+      "level": "internship",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-15",
+      "age": "0d",
+      "collected_at": "2026-05-15T04:14:30Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "67b7f33b2d042678",
       "company": "Cloudflare",
