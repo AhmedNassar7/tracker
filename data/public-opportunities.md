@@ -1,13 +1,11 @@
 # Public Opportunities
 
-Generated at: 2026-05-15T14:31:07Z
+Generated at: 2026-05-15T17:50:44Z
 
-Total: 106
+Total: 105
 
 ## Jobs
-- [Cloudflare - Senior Software Engineer, Storage Infrastructure](https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805) (Hybrid) - 3d
 - [Cloudflare - Senior Manager, Solutions Architecture, AI & Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/7469508?gh_jid=7469508) (Hybrid) - 7d
-- [Cloudflare - Senior Partner Strategy Manager, Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/7428796?gh_jid=7428796) (Hybrid) - 7d
 - [Cloudflare - Solutions Architect, AI/Cloudflare Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/7505582?gh_jid=7505582) (Hybrid) - 7d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 8d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/e7100322-be11-40c8-9dba-7a21b7302c08) (Washington, D.C.) - 8d
@@ -112,6 +110,7 @@ Total: 106
 - [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
 - [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
+- [Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
 - [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
