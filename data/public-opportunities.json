@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-05-15T14:31:07Z",
-  "total": 106,
+  "generated_at": "2026-05-15T17:50:44Z",
+  "total": 105,
   "jobs": [
-    {
-      "id": "0b60cda15c4feae2",
-      "kind": "job",
-      "company": "Cloudflare",
-      "title": "Senior Software Engineer, Storage Infrastructure",
-      "location": "Hybrid",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "3d",
-      "posted_at": "2026-05-12",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805",
-      "source": "greenhouse:cloudflare",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
     {
       "id": "07dbd6665d84f8a0",
       "kind": "job",
@@ -27,20 +13,6 @@
       "date": "7d",
       "posted_at": "2026-05-08",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7469508?gh_jid=7469508",
-      "source": "greenhouse:cloudflare",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
-    {
-      "id": "dd37204652bd4b53",
-      "kind": "job",
-      "company": "Cloudflare",
-      "title": "Senior Partner Strategy Manager, Developer Platform",
-      "location": "Hybrid",
-      "level": "other",
-      "role_type": "platform",
-      "date": "7d",
-      "posted_at": "2026-05-08",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7428796?gh_jid=7428796",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
@@ -1433,6 +1405,18 @@
       "date": "",
       "posted_at": "2026-05-15",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "c7a839af8d100573",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-15",
+      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
