@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-16T09:50:15Z",
-  "total": 10,
+  "generated_at": "2026-05-16T17:12:28Z",
+  "total": 11,
   "jobs": [
     {
       "id": "24df41475a0bb623",
@@ -96,6 +96,26 @@
       "posted_at": "2026-04-28",
       "age": "4d",
       "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1b3261a2c463b000",
+      "company": "Adobe",
+      "title": "AI/ML Intern - Machine Learning Engineer 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "<details><summary><strong>7 locations</strong></summary>Seattle, WA<br>SF<br>Austin, TX<br>San Jose, CA<br>Waltham, MA<br>NYC<br>Lehi, UT</details>",
+      "remote_type": "onsite",
+      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer_R158493?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-16",
+      "age": "1mo",
+      "collected_at": "2026-05-16T17:12:28Z",
       "tags": [
         "software",
         "programming",
