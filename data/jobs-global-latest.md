@@ -1,11 +1,12 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-17T04:17:32Z
+Generated at: 2026-05-17T09:58:26Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Palantir | [Palantir Intern - Software Engineer](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329/apply?utm_source=Simplify&ref=Simplify) | NYC | 0d |
 | Cloudflare | [Machine Learning Engineer Intern](https://boards.greenhouse.io/cloudflare/jobs/7914628?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
+| NVIDIA | [Machine Learning Intern - Multimodal Models Generative AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify) | St Paul, MN | 8d |
 | Intelcom | Dragonfly | [Embedded Software Development Intern](https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1?utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada | 16d |
 | Airbnb | [iOS Software Engineer – New Grad](https://careers.airbnb.com/positions/7859317?gh_jid=7859317&utm_source=Simplify&ref=Simplify) | Seattle, WA SF | 0d |
 | Notion | [Software Engineer – New Grad - AI](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify) | SF | 0d |
