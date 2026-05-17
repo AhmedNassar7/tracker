@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-17T04:17:32Z",
-  "total": 12,
+  "generated_at": "2026-05-17T09:58:26Z",
+  "total": 13,
   "jobs": [
     {
       "id": "24df41475a0bb623",
@@ -36,6 +36,26 @@
       "posted_at": "2026-05-14",
       "age": "0d",
       "collected_at": "2026-05-14T04:09:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d896070ba4d36107",
+      "company": "NVIDIA",
+      "title": "Machine Learning Intern - Multimodal Models Generative AI",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "St Paul, MN",
+      "remote_type": "onsite",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-17",
+      "age": "8d",
+      "collected_at": "2026-05-17T09:58:26Z",
       "tags": [
         "software",
         "programming",
