@@ -1,10 +1,10 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-17T09:58:26Z
+Generated at: 2026-05-18T18:08:35Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
-| Palantir | [Palantir Intern - Software Engineer](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329/apply?utm_source=Simplify&ref=Simplify) | NYC | 0d |
+| Palantir | [Year at Palantir Intern - Forward Deployed Software Engineer - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply?utm_source=Simplify&ref=Simplify) | NYC | 3d |
 | Cloudflare | [Machine Learning Engineer Intern](https://boards.greenhouse.io/cloudflare/jobs/7914628?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
 | NVIDIA | [Machine Learning Intern - Multimodal Models Generative AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify) | St Paul, MN | 8d |
 | Intelcom | Dragonfly | [Embedded Software Development Intern](https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1?utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada | 16d |

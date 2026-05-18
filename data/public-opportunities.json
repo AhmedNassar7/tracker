@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-18T15:54:40Z",
-  "total": 104,
+  "generated_at": "2026-05-18T18:08:37Z",
+  "total": 103,
   "jobs": [
     {
       "id": "07dbd6665d84f8a0",
@@ -237,20 +237,6 @@
       "date": "59d",
       "posted_at": "2026-03-20",
       "url": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "0ae3f01085d98120",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Year at Palantir - Software Engineer, Internship",
-      "location": "New York, NY",
-      "level": "internship",
-      "role_type": "software_engineer",
-      "date": "59d",
-      "posted_at": "2026-03-20",
-      "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
