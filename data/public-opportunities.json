@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-19T15:47:07Z",
-  "total": 103,
+  "generated_at": "2026-05-19T18:14:06Z",
+  "total": 102,
   "jobs": [
     {
       "id": "07dbd6665d84f8a0",
@@ -279,20 +279,6 @@
       "date": "78d",
       "posted_at": "2026-03-02",
       "url": "https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "aca34b7724773957",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer - France Government",
-      "location": "Paris, France",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "89d",
-      "posted_at": "2026-02-19",
-      "url": "https://jobs.lever.co/palantir/215bfcd6-c929-45ae-a11b-3fa59ed78025",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },

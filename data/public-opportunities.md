@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-05-19T15:47:07Z
+Generated at: 2026-05-19T18:14:06Z
 
-Total: 103
+Total: 102
 
 ## Jobs
 - [Cloudflare - Senior Manager, Solutions Architecture, AI & Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/7469508?gh_jid=7469508) (Hybrid) - 11d
@@ -25,7 +25,6 @@ Total: 103
 - [Palantir - Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) (New York, NY) - 70d
 - [Palantir - Backend Software Engineer](https://jobs.lever.co/palantir/0b2dbe51-0d9f-47ee-9f24-82bff4654048) (Singapore, Singapore) - 77d
 - [Palantir - Forward Deployed Software Engineer - Tactical Edge](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) (Washington, D.C.) - 78d
-- [Palantir - Forward Deployed Software Engineer - France Government](https://jobs.lever.co/palantir/215bfcd6-c929-45ae-a11b-3fa59ed78025) (Paris, France) - 89d
 - [Palantir - Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) (New York, NY) - 89d
 - [Palantir - Software Engineer - Defense Applications](https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410) (Washington, D.C.) - 113d
 - [Palantir - Forward Deployed Software Engineer - Autonomous Systems C2](https://jobs.lever.co/palantir/0edf7365-49f0-4263-818a-19409ec4f430) (Seattle, WA) - 123d
