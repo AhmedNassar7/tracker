@@ -1,9 +1,10 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-18T18:08:35Z
+Generated at: 2026-05-19T04:21:56Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Cisco | [Software Engineer 1 Intern](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-I--Intern----United-States_2007170?utm_source=Simplify&ref=Simplify) | San Jose, CA Durham, NC | 0d |
 | Palantir | [Year at Palantir Intern - Forward Deployed Software Engineer - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply?utm_source=Simplify&ref=Simplify) | NYC | 3d |
 | Cloudflare | [Machine Learning Engineer Intern](https://boards.greenhouse.io/cloudflare/jobs/7914628?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
 | NVIDIA | [Machine Learning Intern - Multimodal Models Generative AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify) | St Paul, MN | 8d |
