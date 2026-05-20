@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-05-19T04:21:56Z",
+  "generated_at": "2026-05-20T04:33:36Z",
   "total": 14,
   "jobs": [
+    {
+      "id": "f0f5a099cbeb83b6",
+      "company": "NVIDIA",
+      "title": "Software Engineer New Grad 🎓",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Remote in USA Santa Clara, CA",
+      "remote_type": "remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--AI-and-DL-Kernel-Libraries---New-College-Grad-2026_JR2018473?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-05-20",
+      "age": "0d",
+      "collected_at": "2026-05-20T04:33:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "b90e9e5609a42f2c",
       "company": "Cisco",
@@ -176,26 +196,6 @@
       "posted_at": "2026-05-16",
       "age": "1mo",
       "collected_at": "2026-05-16T17:12:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f32cda56feb31f5d",
-      "company": "Adobe",
-      "title": "Intern - Machine Learning Engineer",
-      "level": "internship",
-      "country": "United States",
-      "location": "SF San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-Intern---Machine-Learning-Engineer_R160621?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-04-28",
-      "age": "27d",
-      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
