@@ -1,9 +1,10 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-21T04:40:54Z
+Generated at: 2026-05-21T15:49:36Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Apple | [Machine Learning and Artificial Intelligence Undergraduate Intern](https://jobs.apple.com/en-us/details/200664204?utm_source=Simplify&ref=Simplify) | United States | 0d |
 | Oracle | [Software Engineer Intern](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify) | Seattle, WA Santa Clara, CA | 0d |
 | NVIDIA | [Software Engineer New Grad 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--AI-and-DL-Kernel-Libraries---New-College-Grad-2026_JR2018473?utm_source=Simplify&ref=Simplify) | Remote in USA Santa Clara, CA | 0d |
 | Cisco | [Software Engineer 1 Intern](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-I--Intern----United-States_2007170?utm_source=Simplify&ref=Simplify) | San Jose, CA Durham, NC | 0d |
