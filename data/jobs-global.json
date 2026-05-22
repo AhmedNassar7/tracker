@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T11:14:58Z",
-  "total": 16,
+  "generated_at": "2026-05-22T15:18:17Z",
+  "total": 15,
   "jobs": [
     {
       "id": "7b7b4713bfe78653",
@@ -56,26 +56,6 @@
       "posted_at": "2026-05-20",
       "age": "0d",
       "collected_at": "2026-05-20T04:33:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b90e9e5609a42f2c",
-      "company": "Cisco",
-      "title": "Software Engineer 1 Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "San Jose, CA Durham, NC",
-      "remote_type": "onsite",
-      "url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-I--Intern----United-States_2007170?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-19",
-      "age": "0d",
-      "collected_at": "2026-05-19T04:21:56Z",
       "tags": [
         "software",
         "programming",
