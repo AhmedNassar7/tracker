@@ -1,12 +1,11 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-22T15:18:17Z
+Generated at: 2026-05-23T10:03:17Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Apple | [Machine Learning and Artificial Intelligence Undergraduate Intern](https://jobs.apple.com/en-us/details/200664780?utm_source=Simplify&ref=Simplify) | United States | 0d |
 | Oracle | [Software Engineer Intern](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify) | Seattle, WA Santa Clara, CA | 0d |
-| NVIDIA | [Software Engineer New Grad 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--AI-and-DL-Kernel-Libraries---New-College-Grad-2026_JR2018473?utm_source=Simplify&ref=Simplify) | Remote in USA Santa Clara, CA | 0d |
 | Palantir | [Year at Palantir Intern - Forward Deployed Software Engineer - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply?utm_source=Simplify&ref=Simplify) | NYC | 3d |
 | Cloudflare | [Machine Learning Engineer Intern](https://boards.greenhouse.io/cloudflare/jobs/7914628?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
 | NVIDIA | [Machine Learning Intern - Multimodal Models Generative AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify) | St Paul, MN | 8d |
