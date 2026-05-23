@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-23T10:03:17Z",
-  "total": 14,
+  "generated_at": "2026-05-23T17:14:53Z",
+  "total": 15,
   "jobs": [
     {
       "id": "7b7b4713bfe78653",
@@ -36,6 +36,26 @@
       "posted_at": "2026-05-21",
       "age": "0d",
       "collected_at": "2026-05-21T04:40:54Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f0f5a099cbeb83b6",
+      "company": "NVIDIA",
+      "title": "Software Engineer New Grad 🎓",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Remote in USA Santa Clara, CA",
+      "remote_type": "remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--AI-and-DL-Kernel-Libraries---New-College-Grad-2026_JR2018473?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-05-23",
+      "age": "3d",
+      "collected_at": "2026-05-23T17:14:53Z",
       "tags": [
         "software",
         "programming",
