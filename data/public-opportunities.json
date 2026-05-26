@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-26T04:22:31Z",
-  "total": 101,
+  "generated_at": "2026-05-26T16:05:35Z",
+  "total": 106,
   "jobs": [
     {
       "id": "07dbd6665d84f8a0",
@@ -251,20 +251,6 @@
       "date": "77d",
       "posted_at": "2026-03-10",
       "url": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "e91ede843816d95a",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Backend Software Engineer",
-      "location": "Singapore, Singapore",
-      "level": "other",
-      "role_type": "backend",
-      "date": "84d",
-      "posted_at": "2026-03-03",
-      "url": "https://jobs.lever.co/palantir/0b2dbe51-0d9f-47ee-9f24-82bff4654048",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
@@ -1305,6 +1291,42 @@
   ],
   "events": [
     {
+      "id": "9b13e9d480d6da2c",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe [SF] Builders Collective San Francisco · Bringing together the hottest tech for the community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-26",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "cb1cfe1c64e27bad",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe Big Brain Lectures - SF San Francisco · A lecture series hosted in The Bay's coolest spaces.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-26",
+      "url": "/Big-Brain-SF?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "4f1800b7e670b75a",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (120k+) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-26",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "ae17056fbac58dde",
       "kind": "event",
       "company": "Luma",
@@ -1341,6 +1363,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "38d148d4af637b43",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-26",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "8f5f443beb6ab5c8",
       "kind": "event",
       "company": "Luma",
@@ -1349,18 +1383,6 @@
       "date": "",
       "posted_at": "2026-05-26",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "c7a839af8d100573",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-26",
-      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
@@ -1389,6 +1411,30 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "3576922839f97848",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe SF Climate Week 2026 San Francisco · ⚠️ FULL CALENDAR: https://sfclimateweek.org/events | CA's largest summit for climate action + solutions. 25k+ attendees, 500+ events. | Get involved: SFClimateWeek.org",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-26",
+      "url": "/sfcw2026?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "c219c1d8cff5cc4e",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-26",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "e7ab907a550e80ce",
       "kind": "event",
       "company": "Luma",
@@ -1397,6 +1443,18 @@
       "date": "",
       "posted_at": "2026-05-26",
       "url": "/southparkcommons-events?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "62452bacce3540bf",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe tiat (the intersection of art & technology) San Francisco · creative technology in sf",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-26",
+      "url": "/tiat?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

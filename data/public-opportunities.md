@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-05-26T04:22:31Z
+Generated at: 2026-05-26T16:05:35Z
 
-Total: 101
+Total: 106
 
 ## Jobs
 - [Cloudflare - Senior Manager, Solutions Architecture, AI & Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/7469508?gh_jid=7469508) (Hybrid) - 18d
@@ -23,7 +23,6 @@ Total: 101
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d) (New York, NY) - 67d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333) (New York, NY) - 67d
 - [Palantir - Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) (New York, NY) - 77d
-- [Palantir - Backend Software Engineer](https://jobs.lever.co/palantir/0b2dbe51-0d9f-47ee-9f24-82bff4654048) (Singapore, Singapore) - 84d
 - [Palantir - Forward Deployed Software Engineer - Tactical Edge](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) (Washington, D.C.) - 85d
 - [Palantir - Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) (New York, NY) - 96d
 - [Palantir - Software Engineer - Defense Applications](https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410) (Washington, D.C.) - 120d
@@ -102,11 +101,17 @@ Total: 101
 - [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons)
 
 ## Events
+- [Subscribe [SF] Builders Collective San Francisco · Bringing together the hottest tech for the community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!](/sf-builders-collective?k=c)
+- [Subscribe Big Brain Lectures - SF San Francisco · A lecture series hosted in The Bay's coolest spaces.](/Big-Brain-SF?k=c)
+- [Subscribe Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (120k+) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join](/genai-sf?k=c)
 - [Subscribe Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c)
 - [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
+- [Subscribe Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply](/frontiertower?k=c)
 - [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
-- [Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
+- [Subscribe SF Climate Week 2026 San Francisco · ⚠️ FULL CALENDAR: https://sfclimateweek.org/events | CA's largest summit for climate action + solutions. 25k+ attendees, 500+ events. | Get involved: SFClimateWeek.org](/sfcw2026?k=c)
+- [Subscribe SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!](/sf-hardware-meetup?k=c)
 - [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
+- [Subscribe tiat (the intersection of art & technology) San Francisco · creative technology in sf](/tiat?k=c)
