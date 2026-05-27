@@ -1,6 +1,6 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-05-25T11:58:55Z
+Generated at: 2026-05-27T04:45:20Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -8,7 +8,6 @@ Generated at: 2026-05-25T11:58:55Z
 | Oracle | [Software Engineer Intern](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify) | Seattle, WA Santa Clara, CA | 0d |
 | NVIDIA | [Software Engineer New Grad 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--AI-and-DL-Kernel-Libraries---New-College-Grad-2026_JR2018473?utm_source=Simplify&ref=Simplify) | Remote in USA Santa Clara, CA | 3d |
 | Palantir | [Year at Palantir Intern - Forward Deployed Software Engineer - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply?utm_source=Simplify&ref=Simplify) | NYC | 3d |
-| Cloudflare | [Machine Learning Engineer Intern](https://boards.greenhouse.io/cloudflare/jobs/7914628?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
 | NVIDIA | [Machine Learning Intern - Multimodal Models Generative AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify) | St Paul, MN | 8d |
 | Intelcom | Dragonfly | [Embedded Software Development Intern](https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1?utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada | 16d |
 | Airbnb | [iOS Software Engineer – New Grad](https://careers.airbnb.com/positions/7859317?gh_jid=7859317&utm_source=Simplify&ref=Simplify) | Seattle, WA SF | 0d |
