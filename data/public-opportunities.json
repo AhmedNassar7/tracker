@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-27T16:09:56Z",
-  "total": 97,
+  "generated_at": "2026-05-27T18:31:58Z",
+  "total": 98,
   "jobs": [
     {
       "id": "e7adbd09a2257b4a",
@@ -1307,6 +1307,18 @@
       "date": "",
       "posted_at": "2026-05-27",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "c7a839af8d100573",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-05-27",
+      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
