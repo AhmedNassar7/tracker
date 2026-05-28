@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-05-28T11:48:49Z
+Generated at: 2026-05-28T16:30:44Z
 
-Total: 89
+Total: 96
 
 ## Jobs
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 21d
@@ -98,4 +98,10 @@ Total: 89
 - [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons)
 
 ## Events
-- None
+- [Subscribe Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c)
+- [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
+- [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
+- [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
+- [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
+- [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
+- [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
