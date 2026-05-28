@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-05-28T04:35:57Z
+Generated at: 2026-05-28T11:48:49Z
 
-Total: 97
+Total: 89
 
 ## Jobs
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 21d
@@ -71,7 +71,6 @@ Total: 97
 - [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/74748e0e-a0bc-4c53-a636-ef14e36d9b5e) (Washington, D.C.) - 987d
 - [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/b57f08e9-546c-4b9b-8d21-db0ebbc11363) (New York, NY) - 987d
 - [Palantir - Forward Deployed Software Engineer - UK Government](https://jobs.lever.co/palantir/57a3f928-e7d3-4037-8196-b38e2f867152) (London, United Kingdom) - 1233d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/2a817317-48a6-48b7-9a74-a98ccd2457d2) (Doha, Qatar) - 1273d
 - [Palantir - Software Engineer - Developer Productivity](https://jobs.lever.co/palantir/3c84af24-b7aa-483e-b2c3-e1d83494fe15) (New York, NY) - 1297d
 - [Palantir - Senior Software Engineer - Observability](https://jobs.lever.co/palantir/8a95dba1-b814-4243-be14-eba1df340ceb) (New York, NY) - 1319d
 - [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/90aa8748-3fef-4e2b-9ea9-c4dc5f37f0d2) (Abu Dhabi, United Arab Emirates) - 1331d
@@ -99,10 +98,4 @@ Total: 97
 - [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons)
 
 ## Events
-- [Subscribe Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c)
-- [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
-- [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
-- [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
-- [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
-- [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
-- [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
+- None
