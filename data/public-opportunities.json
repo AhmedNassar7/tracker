@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-28T04:35:57Z",
-  "total": 97,
+  "generated_at": "2026-05-28T11:48:49Z",
+  "total": 89,
   "jobs": [
     {
       "id": "e7adbd09a2257b4a",
@@ -927,20 +927,6 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
-      "id": "e27d77d366ea40b1",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer",
-      "location": "Doha, Qatar",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1273d",
-      "posted_at": "2022-12-02",
-      "url": "https://jobs.lever.co/palantir/2a817317-48a6-48b7-9a74-a98ccd2457d2",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
       "id": "a7c2b9f2886df05f",
       "kind": "job",
       "company": "Palantir",
@@ -1261,90 +1247,5 @@
       "source_url": "https://devpost.com/hackathons"
     }
   ],
-  "events": [
-    {
-      "id": "ae17056fbac58dde",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-28",
-      "url": "/buildercommunityanz?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "932f97efd3ec04f0",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-28",
-      "url": "/cursorcommunity?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "b9acd2f3fee866c8",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-28",
-      "url": "/design?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "8f5f443beb6ab5c8",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-28",
-      "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "06c449352e9cb86c",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-28",
-      "url": "/claw?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "f9f13fe497f7d97e",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-28",
-      "url": "/readingrhythms-global?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e7ab907a550e80ce",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-05-28",
-      "url": "/southparkcommons-events?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    }
-  ]
+  "events": []
 }
