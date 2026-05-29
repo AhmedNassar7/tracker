@@ -1,10 +1,11 @@
 # Public Opportunities
 
-Generated at: 2026-05-29T11:38:47Z
+Generated at: 2026-05-29T16:06:56Z
 
-Total: 96
+Total: 97
 
 ## Jobs
+- [Palantir - Forward Deployed Software Engineer, Internship - AUS Government](https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976) (Sydney, Australia) - 0d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 22d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/e7100322-be11-40c8-9dba-7a21b7302c08) (Washington, D.C.) - 22d
 - [Palantir - Forward Deployed Software Engineer, Internship](https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a) (Paris, France) - 23d
