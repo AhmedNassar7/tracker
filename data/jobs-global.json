@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T04:39:19Z",
+  "generated_at": "2026-05-29T11:38:47Z",
   "total": 13,
   "jobs": [
     {
@@ -223,6 +223,25 @@
       ]
     },
     {
+      "id": "700907f6ea377584",
+      "company": "Citadel Securities",
+      "title": "Software Engineer – University Graduate - US",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Miami, FL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "collected_at": "2026-04-28T04:44:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "197c63e0767809a5",
       "company": "Google",
       "title": "Software Engineer Early Career - Infrastructure 🎓",
@@ -236,25 +255,6 @@
       "posted_at": "2026-04-28",
       "age": "5mo",
       "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "700907f6ea377584",
-      "company": "Citadel Securities",
-      "title": "Software Engineer – University Graduate - US",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Miami, FL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "collected_at": "2026-04-28T04:44:59Z",
       "tags": [
         "software",
         "programming",
