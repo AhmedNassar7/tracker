@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-05-29T11:38:47Z",
-  "total": 96,
+  "generated_at": "2026-05-29T16:06:56Z",
+  "total": 97,
   "jobs": [
+    {
+      "id": "9e8ef5e42fefefd5",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - AUS Government",
+      "location": "Sydney, Australia",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-05-29",
+      "url": "https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
     {
       "id": "e7adbd09a2257b4a",
       "kind": "job",
