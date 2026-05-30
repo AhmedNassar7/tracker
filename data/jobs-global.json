@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T04:14:20Z",
+  "generated_at": "2026-05-30T07:18:37Z",
   "total": 14,
   "jobs": [
     {
@@ -103,46 +103,6 @@
       ]
     },
     {
-      "id": "71167b227fe53a01",
-      "company": "Intelcom | Dragonfly",
-      "title": "Embedded Software Development Intern",
-      "level": "internship",
-      "country": "Canada",
-      "location": "Montreal, QC, Canada",
-      "remote_type": "onsite",
-      "url": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-17",
-      "age": "16d",
-      "collected_at": "2026-05-17T04:17:32Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "cc04081844cc3c76",
-      "company": "Intelcom | Dragonfly",
-      "title": "Software Development Intern - Mobile Application",
-      "level": "internship",
-      "country": "Canada",
-      "location": "Montreal, QC, Canada",
-      "remote_type": "onsite",
-      "url": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Mobile-Application_JR110747-1?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-30",
-      "age": "29d",
-      "collected_at": "2026-05-30T04:14:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "1b3261a2c463b000",
       "company": "Adobe",
       "title": "AI/ML Intern - Machine Learning Engineer 🎓",
@@ -176,6 +136,46 @@
       "posted_at": "2026-04-29",
       "age": "0d",
       "collected_at": "2026-04-29T04:41:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "71167b227fe53a01",
+      "company": "Intelcom | Dragonfly",
+      "title": "Embedded Software Development Intern",
+      "level": "internship",
+      "country": "Canada",
+      "location": "Montreal, QC, Canada",
+      "remote_type": "onsite",
+      "url": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-17",
+      "age": "16d",
+      "collected_at": "2026-05-17T04:17:32Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "cc04081844cc3c76",
+      "company": "Intelcom | Dragonfly",
+      "title": "Software Development Intern - Mobile Application",
+      "level": "internship",
+      "country": "Canada",
+      "location": "Montreal, QC, Canada",
+      "remote_type": "onsite",
+      "url": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Mobile-Application_JR110747-1?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-30",
+      "age": "29d",
+      "collected_at": "2026-05-30T04:14:20Z",
       "tags": [
         "software",
         "programming",
