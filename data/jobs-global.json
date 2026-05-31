@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-30T10:12:42Z",
-  "total": 12,
+  "generated_at": "2026-05-31T10:22:49Z",
+  "total": 11,
   "jobs": [
     {
       "id": "7b7b4713bfe78653",
@@ -116,26 +116,6 @@
       "posted_at": "2026-04-29",
       "age": "0d",
       "collected_at": "2026-04-29T04:41:06Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "71167b227fe53a01",
-      "company": "Intelcom | Dragonfly",
-      "title": "Embedded Software Development Intern",
-      "level": "internship",
-      "country": "Canada",
-      "location": "Montreal, QC, Canada",
-      "remote_type": "onsite",
-      "url": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-17",
-      "age": "16d",
-      "collected_at": "2026-05-17T04:17:32Z",
       "tags": [
         "software",
         "programming",
