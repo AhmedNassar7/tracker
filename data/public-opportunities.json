@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-01T13:45:17Z",
-  "total": 98,
+  "generated_at": "2026-06-01T20:23:37Z",
+  "total": 99,
   "jobs": [
     {
       "id": "9e8ef5e42fefefd5",
@@ -115,6 +115,20 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
+      "id": "2496eab8d560203e",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
+      "location": "Washington, D.C.",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "39d",
+      "posted_at": "2026-04-23",
+      "url": "https://jobs.lever.co/palantir/e24202f1-fccd-470f-b001-e24d901735a4",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
       "id": "004dae8751efc263",
       "kind": "job",
       "company": "Palantir",
@@ -223,6 +237,20 @@
       "date": "73d",
       "posted_at": "2026-03-20",
       "url": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "0ae3f01085d98120",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Year at Palantir - Software Engineer, Internship",
+      "location": "New York, NY",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "73d",
+      "posted_at": "2026-03-20",
+      "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
@@ -1307,18 +1335,6 @@
       "date": "",
       "posted_at": "2026-06-01",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "c7a839af8d100573",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-01",
-      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },

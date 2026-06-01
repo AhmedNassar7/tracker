@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-06-01T13:45:17Z
+Generated at: 2026-06-01T20:23:37Z
 
-Total: 98
+Total: 99
 
 ## Jobs
 - [Palantir - Forward Deployed Software Engineer, Internship - AUS Government](https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976) (Sydney, Australia) - 3d
@@ -13,6 +13,7 @@ Total: 98
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/3d06b4bc-6a7b-4f73-b5c5-4544354e3d0f) (Warsaw, Poland) - 31d
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/ce20af4c-4de3-4079-bbdf-bc30a2e25404) (Paris, France) - 31d
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/fe65ee3c-61e0-4eb6-99e5-c90e38e7043f) (London, United Kingdom) - 33d
+- [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e24202f1-fccd-470f-b001-e24d901735a4) (Washington, D.C.) - 39d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019) (Washington, D.C.) - 39d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a) (New York, NY) - 56d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/a92b55d0-1d36-4884-8e65-f456450b3a74) (London, United Kingdom) - 56d
@@ -21,6 +22,7 @@ Total: 98
 - [Palantir - Platform Engineer - Identity and Access Management (IAM)](https://jobs.lever.co/palantir/666d13c7-c6f0-43fb-a0ab-091c338085dc) (London, United Kingdom) - 62d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d) (New York, NY) - 73d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333) (New York, NY) - 73d
+- [Palantir - Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329) (New York, NY) - 73d
 - [Palantir - Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) (New York, NY) - 83d
 - [Palantir - Forward Deployed Software Engineer - Tactical Edge](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) (Washington, D.C.) - 91d
 - [Palantir - Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) (New York, NY) - 102d
@@ -103,7 +105,6 @@ Total: 98
 - [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
 - [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
-- [Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
 - [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
