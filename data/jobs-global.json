@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-05-31T10:22:49Z",
-  "total": 11,
+  "generated_at": "2026-06-02T04:58:10Z",
+  "total": 13,
   "jobs": [
+    {
+      "id": "df74b3c1d2c1ef4e",
+      "company": "Cisco",
+      "title": "Software Engineer Data/AI/Intelligent Systems Intern - United States",
+      "level": "internship",
+      "country": "United States",
+      "location": "<details><summary><strong>17 locations</strong></summary>Boston, MA<br>Seattle, WA<br>Knoxville, TN<br>Milpitas, CA<br>SF<br>Austin, TX<br>San Jose, CA<br>Fulton, MD<br>Dallas, TX<br>Hillsboro, OR<br>Alpharetta, GA<br>NYC<br>Acton, MA<br>Portland, OR<br>Research Triangle, Durham, NC<br>Atlanta, GA<br>Richardson, TX</details>",
+      "remote_type": "onsite",
+      "url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-06-02",
+      "age": "0d",
+      "collected_at": "2026-06-02T04:58:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fc086526f15b0d3a",
+      "company": "Palantir",
+      "title": "Year at Palantir Intern - Forward Deployed Software Engineer - Commercial",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e24202f1-fccd-470f-b001-e24d901735a4/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-06-02",
+      "age": "0d",
+      "collected_at": "2026-06-02T04:58:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "7b7b4713bfe78653",
       "company": "Apple",
