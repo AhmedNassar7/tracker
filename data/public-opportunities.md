@@ -1,10 +1,13 @@
 # Public Opportunities
 
-Generated at: 2026-06-03T12:49:17Z
+Generated at: 2026-06-03T19:56:31Z
 
-Total: 99
+Total: 102
 
 ## Jobs
+- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a) (New York, NY) - 0d
+- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/7a9600be-cdcb-4311-bb5c-65b6939b5956) (Washington, D.C.) - 0d
+- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/e9aecd15-c7e9-4803-9928-fc0b67e70f5b) (Palo Alto, CA) - 0d
 - [Palantir - Forward Deployed Software Engineer, Internship - AUS Government](https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976) (Sydney, Australia) - 5d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 27d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/e7100322-be11-40c8-9dba-7a21b7302c08) (Washington, D.C.) - 27d
