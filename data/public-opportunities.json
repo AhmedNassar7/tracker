@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-06-03T12:49:17Z",
-  "total": 99,
+  "generated_at": "2026-06-03T19:56:31Z",
+  "total": 102,
   "jobs": [
+    {
+      "id": "8ab3f4c3abaebf98",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Software Engineer - Hosted Model Infrastructure",
+      "location": "New York, NY",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-06-03",
+      "url": "https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "1becc3061d327e5f",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Software Engineer - Hosted Model Infrastructure",
+      "location": "Washington, D.C.",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-06-03",
+      "url": "https://jobs.lever.co/palantir/7a9600be-cdcb-4311-bb5c-65b6939b5956",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "b2afb5dcf716eb38",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Software Engineer - Hosted Model Infrastructure",
+      "location": "Palo Alto, CA",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-06-03",
+      "url": "https://jobs.lever.co/palantir/e9aecd15-c7e9-4803-9928-fc0b67e70f5b",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
     {
       "id": "9e8ef5e42fefefd5",
       "kind": "job",
