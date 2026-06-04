@@ -1,9 +1,11 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-06-02T04:58:10Z
+Generated at: 2026-06-04T05:01:48Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Asana | [Software Engineer Early Career - Product](https://www.asana.com/jobs/apply/7979625?gh_jid=7979625&utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 0d |
+| NVIDIA | [Software Engineer New Grad - Hardware Tools and Methodology 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify) | Santa Clara, CA | 0d |
 | Cisco | [Software Engineer Data/AI/Intelligent Systems Intern - United States](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | <details><summary><strong>17 locations</strong></summary>Boston, MA<br>Seattle, WA<br>Knoxville, TN<br>Milpitas, CA<br>SF<br>Austin, TX<br>San Jose, CA<br>Fulton, MD<br>Dallas, TX<br>Hillsboro, OR<br>Alpharetta, GA<br>NYC<br>Acton, MA<br>Portland, OR<br>Research Triangle, Durham, NC<br>Atlanta, GA<br>Richardson, TX</details> | 0d |
 | Palantir | [Year at Palantir Intern - Forward Deployed Software Engineer - Commercial](https://jobs.lever.co/palantir/e24202f1-fccd-470f-b001-e24d901735a4/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 0d |
 | Apple | [Machine Learning and Artificial Intelligence Undergraduate Intern](https://jobs.apple.com/en-us/details/200664780?utm_source=Simplify&ref=Simplify) | United States | 0d |

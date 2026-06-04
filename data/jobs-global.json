@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-06-02T04:58:10Z",
-  "total": 13,
+  "generated_at": "2026-06-04T05:01:48Z",
+  "total": 15,
   "jobs": [
+    {
+      "id": "58c2c2ae80220dce",
+      "company": "Asana",
+      "title": "Software Engineer Early Career - Product",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Vancouver, BC, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.asana.com/jobs/apply/7979625?gh_jid=7979625&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-06-04",
+      "age": "0d",
+      "collected_at": "2026-06-04T05:01:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "99e702d10db39f9b",
+      "company": "NVIDIA",
+      "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-06-04",
+      "age": "0d",
+      "collected_at": "2026-06-04T05:01:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "df74b3c1d2c1ef4e",
       "company": "Cisco",
