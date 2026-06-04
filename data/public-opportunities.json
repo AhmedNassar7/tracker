@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T05:01:50Z",
-  "total": 102,
+  "generated_at": "2026-06-04T11:25:27Z",
+  "total": 100,
   "jobs": [
     {
       "id": "8ab3f4c3abaebf98",
@@ -1305,32 +1305,7 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     }
   ],
-  "hackathons": [
-    {
-      "id": "0630fa55ceddb031",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Devpost Participate in our public hackathons",
-      "location": "Various",
-      "date": "",
-      "posted_at": "2026-06-04",
-      "url": "https://devpost.com/hackathons",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "bdcf811b35bb4e2e",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Your hackathons",
-      "location": "Various",
-      "date": "",
-      "posted_at": "2026-06-04",
-      "url": "https://devpost.com/portfolio/redirect?page=hackathons",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    }
-  ],
+  "hackathons": [],
   "events": [
     {
       "id": "ae17056fbac58dde",

@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-06-04T05:01:50Z
+Generated at: 2026-06-04T11:25:27Z
 
-Total: 102
+Total: 100
 
 ## Jobs
 - [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a) (New York, NY) - 1d
@@ -100,8 +100,7 @@ Total: 102
 - [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/5168e8fd-fec1-4fea-b7a1-81bdaea65850) (London, United Kingdom) - 6025d
 
 ## Hackathons
-- [Devpost Participate in our public hackathons](https://devpost.com/hackathons)
-- [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons)
+- None
 
 ## Events
 - [Subscribe Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c)
