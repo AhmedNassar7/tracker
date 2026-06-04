@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T11:25:27Z",
-  "total": 100,
+  "generated_at": "2026-06-04T15:37:47Z",
+  "total": 103,
   "jobs": [
     {
       "id": "8ab3f4c3abaebf98",
@@ -1305,7 +1305,32 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     }
   ],
-  "hackathons": [],
+  "hackathons": [
+    {
+      "id": "0630fa55ceddb031",
+      "kind": "hackathon",
+      "company": "Devpost",
+      "title": "Devpost Participate in our public hackathons",
+      "location": "Various",
+      "date": "",
+      "posted_at": "2026-06-04",
+      "url": "https://devpost.com/hackathons",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "bdcf811b35bb4e2e",
+      "kind": "hackathon",
+      "company": "Devpost",
+      "title": "Your hackathons",
+      "location": "Various",
+      "date": "",
+      "posted_at": "2026-06-04",
+      "url": "https://devpost.com/portfolio/redirect?page=hackathons",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    }
+  ],
   "events": [
     {
       "id": "ae17056fbac58dde",
@@ -1352,6 +1377,18 @@
       "date": "",
       "posted_at": "2026-06-04",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "c7a839af8d100573",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-06-04",
+      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
