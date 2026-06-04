@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T05:01:48Z",
-  "total": 15,
+  "generated_at": "2026-06-04T11:25:25Z",
+  "total": 14,
   "jobs": [
     {
       "id": "58c2c2ae80220dce",
@@ -36,26 +36,6 @@
       "posted_at": "2026-06-04",
       "age": "0d",
       "collected_at": "2026-06-04T05:01:48Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "df74b3c1d2c1ef4e",
-      "company": "Cisco",
-      "title": "Software Engineer Data/AI/Intelligent Systems Intern - United States",
-      "level": "internship",
-      "country": "United States",
-      "location": "<details><summary><strong>17 locations</strong></summary>Boston, MA<br>Seattle, WA<br>Knoxville, TN<br>Milpitas, CA<br>SF<br>Austin, TX<br>San Jose, CA<br>Fulton, MD<br>Dallas, TX<br>Hillsboro, OR<br>Alpharetta, GA<br>NYC<br>Acton, MA<br>Portland, OR<br>Research Triangle, Durham, NC<br>Atlanta, GA<br>Richardson, TX</details>",
-      "remote_type": "onsite",
-      "url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-06-02",
-      "age": "0d",
-      "collected_at": "2026-06-02T04:58:10Z",
       "tags": [
         "software",
         "programming",
