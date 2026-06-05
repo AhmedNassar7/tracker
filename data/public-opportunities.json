@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-05T04:44:23Z",
-  "total": 102,
+  "generated_at": "2026-06-05T11:35:08Z",
+  "total": 101,
   "jobs": [
     {
       "id": "8ab3f4c3abaebf98",
@@ -1161,20 +1161,6 @@
       "date": "1691d",
       "posted_at": "2021-10-18",
       "url": "https://jobs.lever.co/palantir/34b3a697-6e22-4751-befd-0b7921abbd5f",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "5d3fc6d7d9e8cfed",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer",
-      "location": "Warsaw, Poland",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1781d",
-      "posted_at": "2021-07-20",
-      "url": "https://jobs.lever.co/palantir/bf718bd3-b2ef-451e-8033-cb4d2d9c094b",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
