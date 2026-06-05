@@ -1,9 +1,10 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-06-04T11:25:25Z
+Generated at: 2026-06-05T15:25:46Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Cohere Health | [Machine Learning Engineer Intern](https://job-boards.greenhouse.io/coherehealth/jobs/7734482003?utm_source=Simplify&ref=Simplify) | Remote in USA | 0d |
 | Asana | [Software Engineer Early Career - Product](https://www.asana.com/jobs/apply/7979625?gh_jid=7979625&utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 0d |
 | NVIDIA | [Software Engineer New Grad - Hardware Tools and Methodology 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify) | Santa Clara, CA | 0d |
 | Palantir | [Year at Palantir Intern - Forward Deployed Software Engineer - Commercial](https://jobs.lever.co/palantir/e24202f1-fccd-470f-b001-e24d901735a4/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 0d |

@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-04T11:25:25Z",
-  "total": 14,
+  "generated_at": "2026-06-05T15:25:46Z",
+  "total": 15,
   "by_level": {
-    "new_grad": 8,
-    "internship": 6
+    "internship": 7,
+    "new_grad": 8
   },
   "by_country": {
+    "United States": 9,
     "Canada": 1,
     "Unknown": 4,
-    "United States": 8,
     "United Kingdom": 1
   },
   "by_source": {
-    "simplify_newgrad": 8,
-    "simplify_internships": 6
+    "simplify_internships": 7,
+    "simplify_newgrad": 8
   }
 }

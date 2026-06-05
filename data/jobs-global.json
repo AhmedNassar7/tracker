@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-06-04T11:25:25Z",
-  "total": 14,
+  "generated_at": "2026-06-05T15:25:46Z",
+  "total": 15,
   "jobs": [
+    {
+      "id": "17829cd306f1d4d1",
+      "company": "Cohere Health",
+      "title": "Machine Learning Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "Remote in USA",
+      "remote_type": "remote",
+      "url": "https://job-boards.greenhouse.io/coherehealth/jobs/7734482003?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-06-05",
+      "age": "0d",
+      "collected_at": "2026-06-05T15:25:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "58c2c2ae80220dce",
       "company": "Asana",
