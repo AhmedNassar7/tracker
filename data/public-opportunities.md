@@ -1,14 +1,24 @@
 # Public Opportunities
 
-Generated at: 2026-06-05T11:35:08Z
+Generated at: 2026-06-05T15:25:47Z
 
-Total: 101
+Total: 112
 
 ## Jobs
+- [Cohere Health - Lead Software Engineer - Data Platform](https://job-boards.greenhouse.io/coherehealth/jobs/7722409003) (United States) - 1d
+- [Cohere Health - Senior Software Engineer](https://job-boards.greenhouse.io/coherehealth/jobs/7631730003) (United States) - 1d
+- [Cohere Health - Senior Software Engineer, Payment Integrity](https://job-boards.greenhouse.io/coherehealth/jobs/7691011003) (United States) - 1d
+- [Cohere Health - Sr Software Engineer, AI Engineering](https://job-boards.greenhouse.io/coherehealth/jobs/7763561003) (Hyderabad, Telangana, India) - 1d
+- [Cohere Health - Staff Software Engineer - Platform Engineering](https://job-boards.greenhouse.io/coherehealth/jobs/7718566003) (United States) - 1d
 - [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a) (New York, NY) - 2d
 - [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/7a9600be-cdcb-4311-bb5c-65b6939b5956) (Washington, D.C.) - 2d
 - [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/e9aecd15-c7e9-4803-9928-fc0b67e70f5b) (Palo Alto, CA) - 2d
 - [Palantir - Forward Deployed Software Engineer, Internship - AUS Government](https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976) (Sydney, Australia) - 7d
+- [Cohere Health - Director, Software Engineering](https://job-boards.greenhouse.io/coherehealth/jobs/7720514003) (Hyderabad, Telangana, India) - 17d
+- [Cohere Health - Staff Platform Engineer](https://job-boards.greenhouse.io/coherehealth/jobs/7735261003) (Hyderabad, Telangana, India) - 21d
+- [Cohere Health - Lead DevOps Engineer](https://job-boards.greenhouse.io/coherehealth/jobs/7606008003) (Hyderabad, Telangana, India) - 29d
+- [Cohere Health - Manager, Software Engineering](https://job-boards.greenhouse.io/coherehealth/jobs/7598916003) (Hyderabad, Telangana, India) - 29d
+- [Cohere Health - Sr Software Engineer](https://job-boards.greenhouse.io/coherehealth/jobs/7712797003) (Hyderabad, Telangana, India) - 29d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 29d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/e7100322-be11-40c8-9dba-7a21b7302c08) (Washington, D.C.) - 29d
 - [Palantir - Forward Deployed Software Engineer, Internship](https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a) (Paris, France) - 30d
@@ -107,6 +117,7 @@ Total: 101
 - [Subscribe Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Subscribe Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
 - [Subscribe Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
+- [Subscribe mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
 - [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
