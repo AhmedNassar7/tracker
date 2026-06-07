@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-06T10:18:11Z",
-  "total": 14,
+  "generated_at": "2026-06-07T04:53:20Z",
+  "total": 11,
   "jobs": [
     {
       "id": "58c2c2ae80220dce",
@@ -11,26 +11,6 @@
       "location": "Vancouver, BC, Canada",
       "remote_type": "onsite",
       "url": "https://www.asana.com/jobs/apply/7979625?gh_jid=7979625&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-06-04",
-      "age": "0d",
-      "collected_at": "2026-06-04T05:01:48Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "99e702d10db39f9b",
-      "company": "NVIDIA",
-      "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify",
       "source": "simplify_newgrad",
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-06-04",
@@ -143,26 +123,6 @@
       ]
     },
     {
-      "id": "d896070ba4d36107",
-      "company": "NVIDIA",
-      "title": "Machine Learning Intern - Multimodal Models Generative AI",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "St Paul, MN",
-      "remote_type": "onsite",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Hong-Kong-STP/Machine-Learning-Intern---Multimodal-Models-Generative-AI_JR2017296-1?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-17",
-      "age": "8d",
-      "collected_at": "2026-05-17T09:58:26Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "556cf3e7238e867a",
       "company": "Airbnb",
       "title": "iOS Software Engineer – New Grad",
@@ -255,26 +215,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-04-28",
       "collected_at": "2026-04-28T04:44:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "197c63e0767809a5",
-      "company": "Google",
-      "title": "Software Engineer Early Career - Infrastructure 🎓",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "<details><summary><strong>12 locations</strong></summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details>",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "5mo",
-      "collected_at": "2026-04-28T09:16:05Z",
       "tags": [
         "software",
         "programming",
