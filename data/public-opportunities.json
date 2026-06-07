@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-07T14:17:55Z",
-  "total": 107,
+  "generated_at": "2026-06-07T17:38:21Z",
+  "total": 100,
   "jobs": [
     {
       "id": "8ab3f4c3abaebf98",
@@ -1291,69 +1291,8 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     }
   ],
-  "hackathons": [
-    {
-      "id": "0630fa55ceddb031",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Devpost Participate in our public hackathons",
-      "location": "Various",
-      "date": "",
-      "posted_at": "2026-06-07",
-      "url": "https://devpost.com/hackathons",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "bdcf811b35bb4e2e",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Your hackathons",
-      "location": "Various",
-      "date": "",
-      "posted_at": "2026-06-07",
-      "url": "https://devpost.com/portfolio/redirect?page=hackathons",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    }
-  ],
+  "hackathons": [],
   "events": [
-    {
-      "id": "9b13e9d480d6da2c",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe [SF] Builders Collective San Francisco · Bringing together the hottest tech for the community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-07",
-      "url": "/sf-builders-collective?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "68a32d2ec625383f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe Big Brain Lectures - Bay Area San Francisco · A lecture series hosted in The Bay's coolest spaces.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-07",
-      "url": "/Big-Brain-SF?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "4f1800b7e670b75a",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (120k+) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-07",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
     {
       "id": "ae17056fbac58dde",
       "kind": "event",
@@ -1363,6 +1302,18 @@
       "date": "",
       "posted_at": "2026-06-07",
       "url": "/buildercommunityanz?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "fec0d535438580d2",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Subscribe Cannes Lions Cannes · Explore side events at Cannes Lions, where the creative marketing communications industry gathers for global networking, thought leadership, brand activations, and benchmark-setting awards celebrating world-class creativity. June 22-26, Cannes, France.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-06-07",
+      "url": "/canneslions?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
@@ -1387,18 +1338,6 @@
       "date": "",
       "posted_at": "2026-06-07",
       "url": "/design?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "38d148d4af637b43",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-07",
-      "url": "/frontiertower?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
@@ -1439,18 +1378,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "c219c1d8cff5cc4e",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-07",
-      "url": "/sf-hardware-meetup?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "e7ab907a550e80ce",
       "kind": "event",
       "company": "Luma",
@@ -1459,18 +1386,6 @@
       "date": "",
       "posted_at": "2026-06-07",
       "url": "/southparkcommons-events?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "62452bacce3540bf",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Subscribe tiat (the intersection of art & technology) San Francisco · creative technology in sf",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-07",
-      "url": "/tiat?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
