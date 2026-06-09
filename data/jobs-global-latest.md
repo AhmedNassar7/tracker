@@ -1,6 +1,6 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-06-09T04:21:03Z
+Generated at: 2026-06-09T15:25:23Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -16,4 +16,3 @@ Generated at: 2026-06-09T04:21:03Z
 | Notion | [Software Engineer – New Grad - AI](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify) | SF | 0d |
 | Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 2mo |
 | Citadel Securities | [Software Engineer – University Graduate - US](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC |  |
-| Flix | [Data Platform Engineer (Mid-Level) (m/f/d)](https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-mid-level-berlin-181232) | Berlin, Berlin, Germany |  |
