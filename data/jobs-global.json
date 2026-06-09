@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-06-07T04:53:20Z",
-  "total": 11,
+  "generated_at": "2026-06-09T04:21:03Z",
+  "total": 13,
   "jobs": [
+    {
+      "id": "6449db0f3aa36c1d",
+      "company": "NVIDIA",
+      "title": "Cloud Distributed Systems Backend Intern - Geforce NOW",
+      "level": "internship",
+      "country": "Canada",
+      "location": "Canada Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Cloud-Distributed-Systems-Backend-Intern--GeForce-NOW---Summer-2026_JR2019407?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-06-09",
+      "age": "0d",
+      "collected_at": "2026-06-09T04:21:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "58c2c2ae80220dce",
       "company": "Asana",
@@ -215,6 +235,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-04-28",
       "collected_at": "2026-04-28T04:44:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ddf380ff0b326e9c",
+      "company": "Flix",
+      "title": "Data Platform Engineer (Mid-Level) (m/f/d)",
+      "level": "mid_level",
+      "country": "Germany",
+      "location": "Berlin, Berlin, Germany",
+      "remote_type": "onsite",
+      "url": "https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-mid-level-berlin-181232",
+      "source": "arbeitnow",
+      "source_url": "https://arbeitnow.com/",
+      "posted_at": "1780951524",
+      "age": "",
+      "collected_at": "2026-06-09T04:21:03Z",
       "tags": [
         "software",
         "programming",
