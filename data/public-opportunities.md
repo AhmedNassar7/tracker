@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-06-10T16:04:31Z
+Generated at: 2026-06-10T18:39:24Z
 
-Total: 102
+Total: 103
 
 ## Jobs
 - [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a) (New York, NY) - 7d
@@ -111,3 +111,4 @@ Total: 102
 - [Subscribe OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Subscribe Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
 - [Subscribe South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
+- [Subscribe Story Walk Summer Tour Stories that go where you go. A walking audiobook club brought to you by Reese's Book Club and Apple Books.](/storywalk?k=c)
