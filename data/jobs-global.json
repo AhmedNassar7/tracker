@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-06-09T15:25:23Z",
-  "total": 12,
+  "generated_at": "2026-06-11T04:56:22Z",
+  "total": 11,
   "jobs": [
+    {
+      "id": "a223bcc43980f9bb",
+      "company": "Stripe",
+      "title": "Software Engineer New Grad",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=7991718&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-06-11",
+      "age": "0d",
+      "collected_at": "2026-06-11T04:56:22Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "6449db0f3aa36c1d",
       "company": "NVIDIA",
@@ -36,26 +56,6 @@
       "posted_at": "2026-06-04",
       "age": "0d",
       "collected_at": "2026-06-04T05:01:48Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "fc086526f15b0d3a",
-      "company": "Palantir",
-      "title": "Year at Palantir Intern - Forward Deployed Software Engineer - Commercial",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e24202f1-fccd-470f-b001-e24d901735a4/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-06-02",
-      "age": "0d",
-      "collected_at": "2026-06-02T04:58:10Z",
       "tags": [
         "software",
         "programming",
@@ -136,26 +136,6 @@
       "posted_at": "2026-05-18",
       "age": "3d",
       "collected_at": "2026-05-18T18:08:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "556cf3e7238e867a",
-      "company": "Airbnb",
-      "title": "iOS Software Engineer – New Grad",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Seattle, WA SF",
-      "remote_type": "onsite",
-      "url": "https://careers.airbnb.com/positions/7859317?gh_jid=7859317&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-29",
-      "age": "0d",
-      "collected_at": "2026-04-29T04:41:06Z",
       "tags": [
         "software",
         "programming",
