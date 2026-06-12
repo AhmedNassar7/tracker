@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-12T04:59:36Z",
-  "total": 12,
+  "generated_at": "2026-06-12T15:35:56Z",
+  "total": 13,
   "jobs": [
     {
       "id": "5885aefa9d6428ef",
@@ -16,6 +16,26 @@
       "posted_at": "2026-06-12",
       "age": "0d",
       "collected_at": "2026-06-12T04:59:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ad7c8fd9fe2f5426",
+      "company": "Ultra Intelligence and Communications",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX",
+      "remote_type": "onsite",
+      "url": "https://ultra.wd3.myworkdayjobs.com/uiccareers/job/Austin-TX-United-States/Software-Engineer-Intern_REQ-12111?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-06-12",
+      "age": "0d",
+      "collected_at": "2026-06-12T15:35:56Z",
       "tags": [
         "software",
         "programming",
