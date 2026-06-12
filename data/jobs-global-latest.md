@@ -1,10 +1,11 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-06-12T04:59:36Z
+Generated at: 2026-06-12T15:35:56Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Intel | [AI Software Engineer Intern](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify) | Phoenix, AZ | 0d |
+| Ultra Intelligence and Communications | [Software Engineer Intern](https://ultra.wd3.myworkdayjobs.com/uiccareers/job/Austin-TX-United-States/Software-Engineer-Intern_REQ-12111?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
 | Stripe | [Software Engineer New Grad](https://stripe.com/jobs/search?gh_jid=7991718&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 0d |
 | NVIDIA | [Cloud Distributed Systems Backend Intern - Geforce NOW](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Cloud-Distributed-Systems-Backend-Intern--GeForce-NOW---Summer-2026_JR2019407?utm_source=Simplify&ref=Simplify) | Canada Santa Clara, CA | 0d |
 | Asana | [Software Engineer Early Career - Product](https://www.asana.com/jobs/apply/7979625?gh_jid=7979625&utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 0d |
