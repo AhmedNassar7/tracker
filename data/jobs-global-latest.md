@@ -1,10 +1,12 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-06-13T10:37:11Z
+Generated at: 2026-06-13T14:21:47Z
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Ultra Intelligence and Communications | [Software Engineer Intern](https://ultra.wd3.myworkdayjobs.com/uiccareers/job/Austin-TX-United-States/Software-Engineer-Intern_REQ-12111?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
 | Stripe | [Software Engineer New Grad](https://stripe.com/jobs/search?gh_jid=7991718&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 0d |
+| NVIDIA | [Cloud Distributed Systems Backend Intern - Geforce NOW](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Cloud-Distributed-Systems-Backend-Intern--GeForce-NOW---Summer-2026_JR2019407?utm_source=Simplify&ref=Simplify) | Canada Santa Clara, CA | 4d |
 | Asana | [Software Engineer Early Career - Product](https://www.asana.com/jobs/apply/7979625?gh_jid=7979625&utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 0d |
 | Apple | [Machine Learning and Artificial Intelligence Undergraduate Intern](https://jobs.apple.com/en-us/details/200664780?utm_source=Simplify&ref=Simplify) | United States | 0d |
 | Oracle | [Software Engineer Intern](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify) | Seattle, WA Santa Clara, CA | 0d |
