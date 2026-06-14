@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T14:21:47Z",
-  "total": 12,
+  "generated_at": "2026-06-14T05:03:20Z",
+  "total": 13,
   "jobs": [
     {
       "id": "ad7c8fd9fe2f5426",
@@ -16,6 +16,26 @@
       "posted_at": "2026-06-13",
       "age": "0d",
       "collected_at": "2026-06-13T14:21:47Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5885aefa9d6428ef",
+      "company": "Intel",
+      "title": "AI Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Phoenix, AZ",
+      "remote_type": "onsite",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-06-14",
+      "age": "2d",
+      "collected_at": "2026-06-14T05:03:20Z",
       "tags": [
         "software",
         "programming",
@@ -143,26 +163,6 @@
       ]
     },
     {
-      "id": "7f94af32d34eef08",
-      "company": "Palantir",
-      "title": "Year at Palantir Intern - Forward Deployed Software Engineer - Commercial",
-      "level": "internship",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-18",
-      "age": "3d",
-      "collected_at": "2026-05-18T18:08:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "cfb5f03e5469f465",
       "company": "Notion",
       "title": "Software Engineer – New Grad",
@@ -196,6 +196,26 @@
       "posted_at": "2026-04-28",
       "age": "0d",
       "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "7f94af32d34eef08",
+      "company": "Palantir",
+      "title": "Year at Palantir Intern - Forward Deployed Software Engineer - Commercial",
+      "level": "internship",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-18",
+      "age": "3d",
+      "collected_at": "2026-05-18T18:08:35Z",
       "tags": [
         "software",
         "programming",
