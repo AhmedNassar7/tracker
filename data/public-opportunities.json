@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-06-15T05:24:23Z",
-  "total": 104,
+  "generated_at": "2026-06-15T14:32:53Z",
+  "total": 110,
   "jobs": [
+    {
+      "id": "0fb39bf83769331e",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer - Norwegian Government",
+      "location": "Oslo, Norway",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-06-15",
+      "url": "https://jobs.lever.co/palantir/0a0d2db2-75a5-48e4-b0a0-81baa6588e36",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
     {
       "id": "e9cbb1ac2fefd01d",
       "kind": "job",
@@ -591,6 +605,20 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
+      "id": "449e9cb6eb1c451f",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, New Grad - Commercial",
+      "location": "New York, NY",
+      "level": "new_grad",
+      "role_type": "software_engineer",
+      "date": "367d",
+      "posted_at": "2025-06-13",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
       "id": "70d66aaf737563d5",
       "kind": "job",
       "company": "Palantir",
@@ -797,6 +825,20 @@
       "date": "678d",
       "posted_at": "2024-08-06",
       "url": "https://jobs.lever.co/palantir/d2a87a1d-63f4-4dcd-b0d0-f6be91fed4d3",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "299a1045c90a5d5e",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - Defense Tech",
+      "location": "Washington, D.C.",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "679d",
+      "posted_at": "2024-08-05",
+      "url": "https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
@@ -1109,6 +1151,48 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
+      "id": "2befa115bd2aa838",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - US Government",
+      "location": "New York, NY",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "1446d",
+      "posted_at": "2022-06-30",
+      "url": "https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "e1e4c7c24c4b0a52",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, New Grad - US Government",
+      "location": "Washington, D.C.",
+      "level": "new_grad",
+      "role_type": "software_engineer",
+      "date": "1446d",
+      "posted_at": "2022-06-30",
+      "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "8dcd79c8eff3b0c5",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, New Grad - US Government",
+      "location": "New York, NY",
+      "level": "new_grad",
+      "role_type": "software_engineer",
+      "date": "1446d",
+      "posted_at": "2022-06-30",
+      "url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
       "id": "2f4bfdf10c5eca0c",
       "kind": "job",
       "company": "Palantir",
@@ -1175,6 +1259,20 @@
       "date": "1701d",
       "posted_at": "2021-10-18",
       "url": "https://jobs.lever.co/palantir/34b3a697-6e22-4751-befd-0b7921abbd5f",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "3a39001b3101280d",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - US Government",
+      "location": "Washington, D.C.",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "1810d",
+      "posted_at": "2021-07-01",
+      "url": "https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
@@ -1263,6 +1361,20 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
+      "id": "e72393e4bda18b09",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - Commercial",
+      "location": "New York, NY",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "3764d",
+      "posted_at": "2016-02-24",
+      "url": "https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
       "id": "7e860b9d5871a9b3",
       "kind": "job",
       "company": "Palantir",
@@ -1305,32 +1417,7 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     }
   ],
-  "hackathons": [
-    {
-      "id": "0630fa55ceddb031",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Devpost Participate in our public hackathons",
-      "location": "Various",
-      "date": "",
-      "posted_at": "2026-06-15",
-      "url": "https://devpost.com/hackathons",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "bdcf811b35bb4e2e",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Your hackathons",
-      "location": "Various",
-      "date": "",
-      "posted_at": "2026-06-15",
-      "url": "https://devpost.com/portfolio/redirect?page=hackathons",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    }
-  ],
+  "hackathons": [],
   "events": [
     {
       "id": "471efdb8c8e9c1eb",
