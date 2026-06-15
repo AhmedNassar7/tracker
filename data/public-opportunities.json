@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T14:32:53Z",
-  "total": 110,
+  "generated_at": "2026-06-15T19:54:22Z",
+  "total": 109,
   "jobs": [
     {
       "id": "0fb39bf83769331e",
@@ -13,6 +13,20 @@
       "date": "0d",
       "posted_at": "2026-06-15",
       "url": "https://jobs.lever.co/palantir/0a0d2db2-75a5-48e4-b0a0-81baa6588e36",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "794a87038ea6fd0d",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, New Grad - Intel, US Government",
+      "location": "Washington, D.C.",
+      "level": "new_grad",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-06-15",
+      "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
@@ -601,20 +615,6 @@
       "date": "321d",
       "posted_at": "2025-07-29",
       "url": "https://jobs.lever.co/palantir/84131e3f-455e-47fc-9c11-898d95f09048",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "449e9cb6eb1c451f",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, New Grad - Commercial",
-      "location": "New York, NY",
-      "level": "new_grad",
-      "role_type": "software_engineer",
-      "date": "367d",
-      "posted_at": "2025-06-13",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
@@ -1357,20 +1357,6 @@
       "date": "2974d",
       "posted_at": "2018-04-24",
       "url": "https://jobs.lever.co/palantir/492a16bb-6b9f-457e-82c3-294e1a2c565d",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "e72393e4bda18b09",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, Internship - Commercial",
-      "location": "New York, NY",
-      "level": "internship",
-      "role_type": "software_engineer",
-      "date": "3764d",
-      "posted_at": "2016-02-24",
-      "url": "https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
