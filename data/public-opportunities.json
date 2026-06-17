@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-17T12:24:42Z",
-  "total": 118,
+  "generated_at": "2026-06-17T18:30:24Z",
+  "total": 110,
   "jobs": [
     {
       "id": "0fb39bf83769331e",
@@ -279,20 +279,6 @@
       "date": "72d",
       "posted_at": "2026-04-06",
       "url": "https://jobs.lever.co/palantir/b5ad6660-8145-4be5-97e2-3799f2912f5b",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "11bf6a6a1a90dae4",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Platform Engineer - Identity and Access Management (IAM)",
-      "location": "London, United Kingdom",
-      "level": "other",
-      "role_type": "platform",
-      "date": "78d",
-      "posted_at": "2026-03-31",
-      "url": "https://jobs.lever.co/palantir/666d13c7-c6f0-43fb-a0ab-091c338085dc",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
@@ -1431,42 +1417,6 @@
   ],
   "events": [
     {
-      "id": "e78adb4890b3590e",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] Builders Collective San Francisco · Bringing together the hottest tech for the community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-17",
-      "url": "/sf-builders-collective?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "14d5459a5945c512",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Big Brain Lectures - Bay Area San Francisco · A lecture series hosted in The Bay's coolest spaces.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-17",
-      "url": "/Big-Brain-SF?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "264b2ad37e6591c9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (120k+) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-17",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -1503,18 +1453,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "afc4ed010cc9a3b7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Data + AI Summit San Francisco · Explore side events at Data + AI Summit, the Databricks conference where data engineers, scientists, AI practitioners, business leaders, and open source contributors gather for sessions, keynotes, training, and networking on analytics, governance, and AI. June 15-18, San Francisco.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-17",
-      "url": "/dataai?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "e9a16624cec97d4a",
       "kind": "event",
       "company": "Luma",
@@ -1523,18 +1461,6 @@
       "date": "",
       "posted_at": "2026-06-17",
       "url": "/design?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-17",
-      "url": "/frontiertower?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
@@ -1575,18 +1501,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-17",
-      "url": "/sf-hardware-meetup?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "b7fae028fb5330fc",
       "kind": "event",
       "company": "Luma",
@@ -1607,18 +1521,6 @@
       "date": "",
       "posted_at": "2026-06-17",
       "url": "/storywalk?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "f5aca94041df0c53",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow tiat (the intersection of art & technology) San Francisco · creative technology in sf",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-06-17",
-      "url": "/tiat?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
