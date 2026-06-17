@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-17T05:10:23Z",
-  "total": 12,
+  "generated_at": "2026-06-17T12:24:40Z",
+  "total": 11,
   "jobs": [
     {
       "id": "585bc93f2cf40eda",
@@ -56,26 +56,6 @@
       "posted_at": "2026-06-11",
       "age": "0d",
       "collected_at": "2026-06-11T04:56:22Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "58c2c2ae80220dce",
-      "company": "Asana",
-      "title": "Software Engineer Early Career - Product",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Vancouver, BC, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.asana.com/jobs/apply/7979625?gh_jid=7979625&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-06-04",
-      "age": "0d",
-      "collected_at": "2026-06-04T05:01:48Z",
       "tags": [
         "software",
         "programming",
