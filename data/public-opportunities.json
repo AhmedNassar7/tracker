@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T11:56:28Z",
-  "total": 110,
+  "generated_at": "2026-06-18T15:50:28Z",
+  "total": 111,
   "jobs": [
     {
       "id": "0fb39bf83769331e",
@@ -517,6 +517,20 @@
       "date": "254d",
       "posted_at": "2025-10-07",
       "url": "https://jobs.lever.co/palantir/27bf5707-96fa-460e-8a5b-53bc192ca87b",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "bc45d8411f8f6a07",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Senior Software Engineer - Autonomous Systems",
+      "location": "Seattle, WA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "254d",
+      "posted_at": "2025-10-07",
+      "url": "https://jobs.lever.co/palantir/88f8f593-af1f-4d27-9042-454c24a64d3f",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
