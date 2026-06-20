@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T04:58:36Z",
+  "generated_at": "2026-06-20T04:38:00Z",
   "total": 12,
   "jobs": [
     {
@@ -103,26 +103,6 @@
       ]
     },
     {
-      "id": "854c2196ea82b88d",
-      "company": "Oracle",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, WA Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-21",
-      "age": "0d",
-      "collected_at": "2026-05-21T04:40:54Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9c9e868cedf8a51e",
       "company": "Adobe",
       "title": "AI/ML Intern – Machine Learning Engineer/Researcher Intern 🎓",
@@ -176,6 +156,26 @@
       "posted_at": "2026-04-28",
       "age": "0d",
       "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "854c2196ea82b88d",
+      "company": "Oracle",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, WA Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-21",
+      "age": "0d",
+      "collected_at": "2026-05-21T04:40:54Z",
       "tags": [
         "software",
         "programming",
