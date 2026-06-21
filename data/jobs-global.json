@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T04:38:00Z",
+  "generated_at": "2026-06-21T11:23:31Z",
   "total": 12,
   "jobs": [
     {
@@ -83,26 +83,6 @@
       ]
     },
     {
-      "id": "7b7b4713bfe78653",
-      "company": "Apple",
-      "title": "Machine Learning and Artificial Intelligence Undergraduate Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://jobs.apple.com/en-us/details/200664780?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-05-22",
-      "age": "0d",
-      "collected_at": "2026-05-22T11:14:58Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9c9e868cedf8a51e",
       "company": "Adobe",
       "title": "AI/ML Intern – Machine Learning Engineer/Researcher Intern 🎓",
@@ -116,6 +96,26 @@
       "posted_at": "2026-06-06",
       "age": "20d",
       "collected_at": "2026-06-06T10:18:11Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "7b7b4713bfe78653",
+      "company": "Apple",
+      "title": "Machine Learning and Artificial Intelligence Undergraduate Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200664780?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-05-22",
+      "age": "0d",
+      "collected_at": "2026-05-22T11:14:58Z",
       "tags": [
         "software",
         "programming",
