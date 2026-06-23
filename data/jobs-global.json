@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T11:23:31Z",
+  "generated_at": "2026-06-23T04:17:43Z",
   "total": 12,
   "jobs": [
     {
@@ -123,26 +123,6 @@
       ]
     },
     {
-      "id": "cfb5f03e5469f465",
-      "company": "Notion",
-      "title": "Software Engineer – New Grad",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-04-28",
-      "age": "4d",
-      "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "de8c1b8d6d3c7d5c",
       "company": "Notion",
       "title": "Software Engineer – New Grad - AI",
@@ -196,6 +176,26 @@
       "posted_at": "2026-05-18",
       "age": "3d",
       "collected_at": "2026-05-18T18:08:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "cfb5f03e5469f465",
+      "company": "Notion",
+      "title": "Software Engineer – New Grad",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "4d",
+      "collected_at": "2026-04-28T11:33:05Z",
       "tags": [
         "software",
         "programming",
