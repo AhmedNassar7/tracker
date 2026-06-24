@@ -1,123 +1,128 @@
 # Public Opportunities
 
-Generated at: 2026-06-23T18:10:07Z
+Generated at: 2026-06-24T04:21:48Z
 
-Total: 112
+Total: 117
 
 ## Jobs
-- [Palantir - Forward Deployed Software Engineer - Norwegian Government](https://jobs.lever.co/palantir/0a0d2db2-75a5-48e4-b0a0-81baa6588e36) (Oslo, Norway) - 8d
-- [Palantir - Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) (Washington, D.C.) - 8d
-- [Palantir - Software Engineer - Core Interfaces](https://jobs.lever.co/palantir/3b4ae28e-c4f2-4654-83b4-64366bfe72fa) (New York, NY) - 12d
-- [Palantir - Software Engineer - Defense Applications](https://jobs.lever.co/palantir/c288bb43-3c63-4557-bd96-600ef0d1b7a6) (New York, NY) - 12d
-- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a) (New York, NY) - 20d
-- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/7a9600be-cdcb-4311-bb5c-65b6939b5956) (Washington, D.C.) - 20d
-- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/e9aecd15-c7e9-4803-9928-fc0b67e70f5b) (Palo Alto, CA) - 20d
-- [Palantir - Forward Deployed Software Engineer, Internship - AUS Government](https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976) (Sydney, Australia) - 25d
-- [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 47d
-- [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/e7100322-be11-40c8-9dba-7a21b7302c08) (Washington, D.C.) - 47d
-- [Palantir - Forward Deployed Software Engineer, Internship](https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a) (Paris, France) - 48d
-- [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/0fccbe95-2520-4df3-8600-7897656c06a2) (Honolulu, HI) - 50d
-- [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/3d06b4bc-6a7b-4f73-b5c5-4544354e3d0f) (Warsaw, Poland) - 53d
-- [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/ce20af4c-4de3-4079-bbdf-bc30a2e25404) (Paris, France) - 53d
-- [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/fe65ee3c-61e0-4eb6-99e5-c90e38e7043f) (London, United Kingdom) - 55d
-- [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019) (Washington, D.C.) - 61d
-- [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a) (New York, NY) - 78d
-- [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/a92b55d0-1d36-4884-8e65-f456450b3a74) (London, United Kingdom) - 78d
-- [Palantir - Senior Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/2cd25c0b-088d-4a5c-9b96-1165a33fe652) (London, United Kingdom) - 78d
-- [Palantir - Senior Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/b5ad6660-8145-4be5-97e2-3799f2912f5b) (New York, NY) - 78d
-- [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d) (New York, NY) - 95d
-- [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333) (New York, NY) - 95d
-- [Palantir - Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329) (New York, NY) - 95d
-- [Palantir - Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) (New York, NY) - 105d
-- [Palantir - Forward Deployed Software Engineer - Tactical Edge](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) (Washington, D.C.) - 113d
-- [Palantir - Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) (New York, NY) - 124d
-- [Palantir - Software Engineer - Defense Applications](https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410) (Washington, D.C.) - 148d
-- [Palantir - Forward Deployed Software Engineer - Autonomous Systems C2](https://jobs.lever.co/palantir/0edf7365-49f0-4263-818a-19409ec4f430) (Seattle, WA) - 158d
-- [Palantir - Forward Deployed Software Engineer - Autonomous Systems C2](https://jobs.lever.co/palantir/c62264f5-5da8-40fe-9b44-f7f0f0012e11) (Palo Alto, CA) - 158d
-- [Palantir - Software Engineer - Core Interfaces](https://jobs.lever.co/palantir/cf76738e-3030-42fa-92ac-a9446df956fc) (Palo Alto, CA) - 161d
-- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/d83fac1c-353e-4b77-a586-3276b1090b6e) (Fayetteville, NC) - 162d
-- [Palantir - Platform Intelligence Engineer](https://jobs.lever.co/palantir/a753a9e7-a361-426b-9c25-3cf2488c1730) (New York, NY) - 190d
-- [Palantir - Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) (Honolulu, HI) - 194d
-- [Palantir - Software Engineer - Apollo Systems](https://jobs.lever.co/palantir/832e4652-5088-4e5b-aeac-1e82ec3ebad4) (New York, NY) - 225d
-- [Palantir - Software Engineer - Apollo Systems](https://jobs.lever.co/palantir/e47d4410-2542-47d8-b558-b5295fc28821) (Seattle, WA) - 225d
-- [Palantir - Software Engineer - Edge](https://jobs.lever.co/palantir/397fb983-47b7-4a53-a7df-f080f43f7720) (Washington, D.C.) - 231d
-- [Palantir - Forward Deployed Software Engineer - Edge Autonomous Systems](https://jobs.lever.co/palantir/27bf5707-96fa-460e-8a5b-53bc192ca87b) (Washington, D.C.) - 259d
-- [Palantir - Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/88f8f593-af1f-4d27-9042-454c24a64d3f) (Seattle, WA) - 259d
-- [Palantir - Senior Software Engineer, Network Infrastructure](https://jobs.lever.co/palantir/89a77547-8b74-45b2-8590-f04b16e19a59) (Washington, D.C.) - 319d
-- [Palantir - Senior Software Engineer, Substrate](https://jobs.lever.co/palantir/26176860-7b27-412a-9959-d8b8705acf53) (Washington, D.C.) - 319d
-- [Palantir - Software Engineer - Mission Manager](https://jobs.lever.co/palantir/8aec0fba-0ac9-48a5-8f54-f2d8465d6698) (Washington, D.C.) - 319d
-- [Palantir - Forward Deployed Infrastructure Engineer - UK Government](https://jobs.lever.co/palantir/72e51928-07f0-4be0-aae5-0ae6956a4846) (London, United Kingdom) - 320d
-- [Palantir - Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/6fe5515f-f677-4d98-8ac2-1775a425f5e7) (New York, NY) - 321d
-- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/84131e3f-455e-47fc-9c11-898d95f09048) (San Diego, CA) - 329d
-- [Palantir - Software Engineer - Mission Manager](https://jobs.lever.co/palantir/c0b60d64-1244-4270-9d55-14115c97c24b) (New York, NY) - 453d
-- [Palantir - Software Engineer - Mission Manager](https://jobs.lever.co/palantir/e168a922-a2f0-45d0-912c-678d66e15118) (Seattle, WA) - 453d
-- [Palantir - Forward Deployed Software Engineer - Japan Government](https://jobs.lever.co/palantir/12e94938-55cb-4ad9-9c05-405ebc9ef430) (Tokyo, Japan) - 473d
-- [Palantir - Backend Software Engineer - Defense](https://jobs.lever.co/palantir/1345438c-ebfc-4fa5-b545-30c1414f317c) (Washington, D.C.) - 484d
-- [Palantir - Backend Software Engineer - Defense](https://jobs.lever.co/palantir/a8174f9c-6f46-46b4-8e15-d1ff9e37c9eb) (Palo Alto, CA) - 484d
-- [Palantir - Backend Software Engineer - Defense](https://jobs.lever.co/palantir/d33e0c31-ac7e-4f57-ba74-36f2df6ae2f5) (New York, NY) - 484d
-- [Palantir - Forward Deployed Software Engineer - Warp Speed](https://jobs.lever.co/palantir/13f99633-43b5-4459-8e84-25073f257c18) (New York, NY) - 501d
-- [Palantir - Forward Deployed Software Engineer - Japan Forward Deployed](https://jobs.lever.co/palantir/8aba5995-653d-4805-96e8-24488e6abf37) (Washington, D.C.) - 628d
-- [Palantir - Forward Deployed Software Engineer - Korea Forward Deployed](https://jobs.lever.co/palantir/a39bf84c-6648-4871-bd07-9b882d401c4c) (Washington, D.C.) - 628d
-- [Palantir - Forward Deployed Software Engineer - AUS Government](https://jobs.lever.co/palantir/909875b4-1940-41bd-b08d-a269c7235100) (Sydney, Australia) - 656d
-- [Palantir - Software Engineer - Environment Platform](https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497) (Seattle, WA) - 656d
-- [Palantir - Software Engineer - Environment Platform](https://jobs.lever.co/palantir/d5d83a8f-cb96-41cc-9612-c7224fbb2fbc) (New York, NY) - 656d
-- [Palantir - Forward Deployed Software Engineer - AUS Government](https://jobs.lever.co/palantir/8f15d728-99cc-4003-9add-928bd72a7f30) (Canberra, Australia) - 657d
-- [Palantir - Senior Front End Software Engineer - Application Development](https://jobs.lever.co/palantir/4e7d0732-f477-4c7a-aac9-abd62f8c9987) (London, United Kingdom) - 685d
-- [Palantir - Senior Front End Software Engineer - Application Development](https://jobs.lever.co/palantir/d2a87a1d-63f4-4dcd-b0d0-f6be91fed4d3) (New York, NY) - 686d
-- [Palantir - Forward Deployed Software Engineer, Internship - Defense Tech](https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b) (Washington, D.C.) - 687d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/8148182c-6127-4689-b615-7815a94173bb) (Dubai, United Arab Emirates) - 783d
-- [Palantir - Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/10dfc8bc-99ad-4ca2-ab76-853cb90a92c2) (London, United Kingdom) - 834d
-- [Palantir - Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/ab7e3425-81d5-4705-a7b5-cd60c8a45cdb) (New York, NY) - 834d
-- [Palantir - Senior Software Engineer, Network Infrastructure](https://jobs.lever.co/palantir/39c57909-ae76-4c86-9290-9fb50c689c4f) (Seattle, WA) - 847d
-- [Palantir - Senior Software Engineer, Network Infrastructure](https://jobs.lever.co/palantir/55005ee7-4e06-4520-b569-f6e8f26745cb) (New York, NY) - 847d
-- [Palantir - Senior Software Engineer, Substrate](https://jobs.lever.co/palantir/68d690cf-fc8a-4755-9b69-abe13f93d262) (New York, NY) - 847d
-- [Palantir - Senior Software Engineer, Substrate](https://jobs.lever.co/palantir/b80d45be-7fe8-4a11-b159-65551320c61f) (London, United Kingdom) - 847d
-- [Palantir - Senior Software Engineer, Substrate](https://jobs.lever.co/palantir/c38bb622-6f8e-43a1-8ae7-32291da328a8) (Seattle, WA) - 847d
-- [Palantir - Software Engineer - Frontend Developer Productivity](https://jobs.lever.co/palantir/71ed917e-850a-484b-9454-fa66bdf24540) (New York, NY) - 851d
-- [Palantir - Full Stack Software Engineer - Application Development](https://jobs.lever.co/palantir/c44510a1-9537-4c52-ae81-51546979fe47) (London, United Kingdom) - 852d
-- [Palantir - Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/f70cdff7-c62f-4b73-a136-909e5e3d1891) (London, United Kingdom) - 854d
-- [Palantir - Backend Software Engineer - Infrastructure, Foundations](https://jobs.lever.co/palantir/fb2d3222-dbd8-4e03-8d39-47b820e9509c) (New York, NY) - 854d
-- [Palantir - Full Stack Software Engineer - Application Development](https://jobs.lever.co/palantir/2da4be12-bc7a-4950-87db-e9d68d955ff7) (New York, NY) - 857d
-- [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/74748e0e-a0bc-4c53-a636-ef14e36d9b5e) (Washington, D.C.) - 1013d
-- [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/b57f08e9-546c-4b9b-8d21-db0ebbc11363) (New York, NY) - 1013d
-- [Palantir - Forward Deployed Software Engineer - UK Government](https://jobs.lever.co/palantir/57a3f928-e7d3-4037-8196-b38e2f867152) (London, United Kingdom) - 1259d
-- [Palantir - Software Engineer - Developer Productivity](https://jobs.lever.co/palantir/3c84af24-b7aa-483e-b2c3-e1d83494fe15) (New York, NY) - 1323d
-- [Palantir - Senior Software Engineer - Observability](https://jobs.lever.co/palantir/8a95dba1-b814-4243-be14-eba1df340ceb) (New York, NY) - 1345d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/90aa8748-3fef-4e2b-9ea9-c4dc5f37f0d2) (Abu Dhabi, United Arab Emirates) - 1357d
-- [Palantir - Software Engineer - Apollo Platform](https://jobs.lever.co/palantir/f75cb0d2-6608-450b-848e-0f27937c930d) (London, United Kingdom) - 1408d
-- [Palantir - Software Engineer - Apollo Platform](https://jobs.lever.co/palantir/8f308f3e-43d2-49c9-accd-cc7af0f1565c) (New York, NY) - 1413d
-- [Palantir - Software Engineer - Apollo Platform](https://jobs.lever.co/palantir/afea07a8-2721-45e6-a9ca-6580f3f9783c) (Seattle, WA) - 1413d
-- [Palantir - Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f) (New York, NY) - 1454d
-- [Palantir - Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) (Washington, D.C.) - 1454d
-- [Palantir - Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) (New York, NY) - 1454d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/1bb19522-3936-4adc-9ced-c3df8b5900b9) (Seoul, South Korea) - 1523d
-- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/ce8ca664-60dc-4f9a-8986-3c96673bcfdf) (Honolulu, HI) - 1538d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/98b81271-9e15-40b7-8dce-0c62f24702f9) (Vilnius, Lithuania) - 1609d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/d084b769-6f53-4409-afa8-c183b059b384) (Stockholm, Sweden) - 1708d
-- [Palantir - Forward Deployed Software Engineer - Intel](https://jobs.lever.co/palantir/34b3a697-6e22-4751-befd-0b7921abbd5f) (Washington, D.C.) - 1709d
-- [Palantir - Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2) (Washington, D.C.) - 1818d
-- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/e82b696e-a085-4bbf-8bcb-6d2c4f8cf2f7) (New York, NY) - 2212d
-- [Palantir - Site Reliability Engineer - US Government](https://jobs.lever.co/palantir/211f99dc-269e-4f25-84d3-d73dea782080) (Washington, D.C.) - 2253d
-- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/289ad049-7b4e-41e3-8a39-146fbeb6fb64) (Washington, D.C.) - 2260d
-- [Palantir - DevOps Engineer](https://jobs.lever.co/palantir/51ea4a3b-7764-4c87-96e4-310e19c856d5) (Washington, D.C.) - 2917d
-- [Palantir - DevOps Engineer](https://jobs.lever.co/palantir/c3f40e41-6258-4233-a7f9-091bf67df30b) (New York, NY) - 2917d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/492a16bb-6b9f-457e-82c3-294e1a2c565d) (Amsterdam, Netherlands) - 2982d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/dab396d4-2f14-4796-aac0-0d82883dccf0) (New York, NY) - 4534d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/c4442730-2926-41ad-8c0e-5e5a6b4d14ae) (Tel Aviv, Israel) - 4933d
-- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/5168e8fd-fec1-4fea-b7a1-81bdaea65850) (London, United Kingdom) - 6044d
+- [Palantir - Forward Deployed Software Engineer - Norwegian Government](https://jobs.lever.co/palantir/0a0d2db2-75a5-48e4-b0a0-81baa6588e36) (Oslo, Norway) - 9d
+- [Palantir - Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) (Washington, D.C.) - 9d
+- [Palantir - Software Engineer - Core Interfaces](https://jobs.lever.co/palantir/3b4ae28e-c4f2-4654-83b4-64366bfe72fa) (New York, NY) - 13d
+- [Palantir - Software Engineer - Defense Applications](https://jobs.lever.co/palantir/c288bb43-3c63-4557-bd96-600ef0d1b7a6) (New York, NY) - 13d
+- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a) (New York, NY) - 21d
+- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/7a9600be-cdcb-4311-bb5c-65b6939b5956) (Washington, D.C.) - 21d
+- [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/e9aecd15-c7e9-4803-9928-fc0b67e70f5b) (Palo Alto, CA) - 21d
+- [Palantir - Forward Deployed Software Engineer, Internship - AUS Government](https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976) (Sydney, Australia) - 26d
+- [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 48d
+- [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/e7100322-be11-40c8-9dba-7a21b7302c08) (Washington, D.C.) - 48d
+- [Palantir - Forward Deployed Software Engineer, Internship](https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a) (Paris, France) - 49d
+- [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/0fccbe95-2520-4df3-8600-7897656c06a2) (Honolulu, HI) - 51d
+- [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/3d06b4bc-6a7b-4f73-b5c5-4544354e3d0f) (Warsaw, Poland) - 54d
+- [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/ce20af4c-4de3-4079-bbdf-bc30a2e25404) (Paris, France) - 54d
+- [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/fe65ee3c-61e0-4eb6-99e5-c90e38e7043f) (London, United Kingdom) - 56d
+- [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019) (Washington, D.C.) - 62d
+- [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a) (New York, NY) - 79d
+- [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/a92b55d0-1d36-4884-8e65-f456450b3a74) (London, United Kingdom) - 79d
+- [Palantir - Senior Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/2cd25c0b-088d-4a5c-9b96-1165a33fe652) (London, United Kingdom) - 79d
+- [Palantir - Senior Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/b5ad6660-8145-4be5-97e2-3799f2912f5b) (New York, NY) - 79d
+- [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d) (New York, NY) - 96d
+- [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333) (New York, NY) - 96d
+- [Palantir - Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329) (New York, NY) - 96d
+- [Palantir - Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) (New York, NY) - 106d
+- [Palantir - Forward Deployed Software Engineer - Tactical Edge](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) (Washington, D.C.) - 114d
+- [Palantir - Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) (New York, NY) - 125d
+- [Palantir - Software Engineer - Defense Applications](https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410) (Washington, D.C.) - 149d
+- [Palantir - Forward Deployed Software Engineer - Autonomous Systems C2](https://jobs.lever.co/palantir/0edf7365-49f0-4263-818a-19409ec4f430) (Seattle, WA) - 159d
+- [Palantir - Forward Deployed Software Engineer - Autonomous Systems C2](https://jobs.lever.co/palantir/c62264f5-5da8-40fe-9b44-f7f0f0012e11) (Palo Alto, CA) - 159d
+- [Palantir - Software Engineer - Core Interfaces](https://jobs.lever.co/palantir/cf76738e-3030-42fa-92ac-a9446df956fc) (Palo Alto, CA) - 162d
+- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/d83fac1c-353e-4b77-a586-3276b1090b6e) (Fayetteville, NC) - 163d
+- [Palantir - Platform Intelligence Engineer](https://jobs.lever.co/palantir/a753a9e7-a361-426b-9c25-3cf2488c1730) (New York, NY) - 191d
+- [Palantir - Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) (Honolulu, HI) - 195d
+- [Palantir - Software Engineer - Apollo Systems](https://jobs.lever.co/palantir/832e4652-5088-4e5b-aeac-1e82ec3ebad4) (New York, NY) - 226d
+- [Palantir - Software Engineer - Apollo Systems](https://jobs.lever.co/palantir/e47d4410-2542-47d8-b558-b5295fc28821) (Seattle, WA) - 226d
+- [Palantir - Software Engineer - Edge](https://jobs.lever.co/palantir/397fb983-47b7-4a53-a7df-f080f43f7720) (Washington, D.C.) - 232d
+- [Palantir - Forward Deployed Software Engineer - Edge Autonomous Systems](https://jobs.lever.co/palantir/27bf5707-96fa-460e-8a5b-53bc192ca87b) (Washington, D.C.) - 260d
+- [Palantir - Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/88f8f593-af1f-4d27-9042-454c24a64d3f) (Seattle, WA) - 260d
+- [Palantir - Senior Software Engineer, Network Infrastructure](https://jobs.lever.co/palantir/89a77547-8b74-45b2-8590-f04b16e19a59) (Washington, D.C.) - 320d
+- [Palantir - Senior Software Engineer, Substrate](https://jobs.lever.co/palantir/26176860-7b27-412a-9959-d8b8705acf53) (Washington, D.C.) - 320d
+- [Palantir - Software Engineer - Mission Manager](https://jobs.lever.co/palantir/8aec0fba-0ac9-48a5-8f54-f2d8465d6698) (Washington, D.C.) - 320d
+- [Palantir - Forward Deployed Infrastructure Engineer - UK Government](https://jobs.lever.co/palantir/72e51928-07f0-4be0-aae5-0ae6956a4846) (London, United Kingdom) - 321d
+- [Palantir - Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/6fe5515f-f677-4d98-8ac2-1775a425f5e7) (New York, NY) - 322d
+- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/84131e3f-455e-47fc-9c11-898d95f09048) (San Diego, CA) - 330d
+- [Palantir - Software Engineer - Mission Manager](https://jobs.lever.co/palantir/c0b60d64-1244-4270-9d55-14115c97c24b) (New York, NY) - 454d
+- [Palantir - Software Engineer - Mission Manager](https://jobs.lever.co/palantir/e168a922-a2f0-45d0-912c-678d66e15118) (Seattle, WA) - 454d
+- [Palantir - Forward Deployed Software Engineer - Japan Government](https://jobs.lever.co/palantir/12e94938-55cb-4ad9-9c05-405ebc9ef430) (Tokyo, Japan) - 474d
+- [Palantir - Backend Software Engineer - Defense](https://jobs.lever.co/palantir/1345438c-ebfc-4fa5-b545-30c1414f317c) (Washington, D.C.) - 485d
+- [Palantir - Backend Software Engineer - Defense](https://jobs.lever.co/palantir/a8174f9c-6f46-46b4-8e15-d1ff9e37c9eb) (Palo Alto, CA) - 485d
+- [Palantir - Backend Software Engineer - Defense](https://jobs.lever.co/palantir/d33e0c31-ac7e-4f57-ba74-36f2df6ae2f5) (New York, NY) - 485d
+- [Palantir - Forward Deployed Software Engineer - Warp Speed](https://jobs.lever.co/palantir/13f99633-43b5-4459-8e84-25073f257c18) (New York, NY) - 502d
+- [Palantir - Forward Deployed Software Engineer - Japan Forward Deployed](https://jobs.lever.co/palantir/8aba5995-653d-4805-96e8-24488e6abf37) (Washington, D.C.) - 629d
+- [Palantir - Forward Deployed Software Engineer - Korea Forward Deployed](https://jobs.lever.co/palantir/a39bf84c-6648-4871-bd07-9b882d401c4c) (Washington, D.C.) - 629d
+- [Palantir - Forward Deployed Software Engineer - AUS Government](https://jobs.lever.co/palantir/909875b4-1940-41bd-b08d-a269c7235100) (Sydney, Australia) - 657d
+- [Palantir - Software Engineer - Environment Platform](https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497) (Seattle, WA) - 657d
+- [Palantir - Software Engineer - Environment Platform](https://jobs.lever.co/palantir/d5d83a8f-cb96-41cc-9612-c7224fbb2fbc) (New York, NY) - 657d
+- [Palantir - Forward Deployed Software Engineer - AUS Government](https://jobs.lever.co/palantir/8f15d728-99cc-4003-9add-928bd72a7f30) (Canberra, Australia) - 658d
+- [Palantir - Senior Front End Software Engineer - Application Development](https://jobs.lever.co/palantir/4e7d0732-f477-4c7a-aac9-abd62f8c9987) (London, United Kingdom) - 686d
+- [Palantir - Senior Front End Software Engineer - Application Development](https://jobs.lever.co/palantir/d2a87a1d-63f4-4dcd-b0d0-f6be91fed4d3) (New York, NY) - 687d
+- [Palantir - Forward Deployed Software Engineer, Internship - Defense Tech](https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b) (Washington, D.C.) - 688d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/8148182c-6127-4689-b615-7815a94173bb) (Dubai, United Arab Emirates) - 784d
+- [Palantir - Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/10dfc8bc-99ad-4ca2-ab76-853cb90a92c2) (London, United Kingdom) - 835d
+- [Palantir - Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/ab7e3425-81d5-4705-a7b5-cd60c8a45cdb) (New York, NY) - 835d
+- [Palantir - Senior Software Engineer, Network Infrastructure](https://jobs.lever.co/palantir/39c57909-ae76-4c86-9290-9fb50c689c4f) (Seattle, WA) - 848d
+- [Palantir - Senior Software Engineer, Network Infrastructure](https://jobs.lever.co/palantir/55005ee7-4e06-4520-b569-f6e8f26745cb) (New York, NY) - 848d
+- [Palantir - Senior Software Engineer, Substrate](https://jobs.lever.co/palantir/68d690cf-fc8a-4755-9b69-abe13f93d262) (New York, NY) - 848d
+- [Palantir - Senior Software Engineer, Substrate](https://jobs.lever.co/palantir/b80d45be-7fe8-4a11-b159-65551320c61f) (London, United Kingdom) - 848d
+- [Palantir - Senior Software Engineer, Substrate](https://jobs.lever.co/palantir/c38bb622-6f8e-43a1-8ae7-32291da328a8) (Seattle, WA) - 848d
+- [Palantir - Software Engineer - Frontend Developer Productivity](https://jobs.lever.co/palantir/71ed917e-850a-484b-9454-fa66bdf24540) (New York, NY) - 852d
+- [Palantir - Full Stack Software Engineer - Application Development](https://jobs.lever.co/palantir/c44510a1-9537-4c52-ae81-51546979fe47) (London, United Kingdom) - 853d
+- [Palantir - Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/f70cdff7-c62f-4b73-a136-909e5e3d1891) (London, United Kingdom) - 855d
+- [Palantir - Backend Software Engineer - Infrastructure, Foundations](https://jobs.lever.co/palantir/fb2d3222-dbd8-4e03-8d39-47b820e9509c) (New York, NY) - 855d
+- [Palantir - Full Stack Software Engineer - Application Development](https://jobs.lever.co/palantir/2da4be12-bc7a-4950-87db-e9d68d955ff7) (New York, NY) - 858d
+- [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/74748e0e-a0bc-4c53-a636-ef14e36d9b5e) (Washington, D.C.) - 1014d
+- [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/b57f08e9-546c-4b9b-8d21-db0ebbc11363) (New York, NY) - 1014d
+- [Palantir - Forward Deployed Software Engineer - UK Government](https://jobs.lever.co/palantir/57a3f928-e7d3-4037-8196-b38e2f867152) (London, United Kingdom) - 1260d
+- [Palantir - Software Engineer - Developer Productivity](https://jobs.lever.co/palantir/3c84af24-b7aa-483e-b2c3-e1d83494fe15) (New York, NY) - 1324d
+- [Palantir - Senior Software Engineer - Observability](https://jobs.lever.co/palantir/8a95dba1-b814-4243-be14-eba1df340ceb) (New York, NY) - 1346d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/90aa8748-3fef-4e2b-9ea9-c4dc5f37f0d2) (Abu Dhabi, United Arab Emirates) - 1358d
+- [Palantir - Software Engineer - Apollo Platform](https://jobs.lever.co/palantir/f75cb0d2-6608-450b-848e-0f27937c930d) (London, United Kingdom) - 1409d
+- [Palantir - Software Engineer - Apollo Platform](https://jobs.lever.co/palantir/8f308f3e-43d2-49c9-accd-cc7af0f1565c) (New York, NY) - 1414d
+- [Palantir - Software Engineer - Apollo Platform](https://jobs.lever.co/palantir/afea07a8-2721-45e6-a9ca-6580f3f9783c) (Seattle, WA) - 1414d
+- [Palantir - Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f) (New York, NY) - 1455d
+- [Palantir - Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb) (Washington, D.C.) - 1455d
+- [Palantir - Forward Deployed Software Engineer, New Grad - US Government](https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca) (New York, NY) - 1455d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/1bb19522-3936-4adc-9ced-c3df8b5900b9) (Seoul, South Korea) - 1524d
+- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/ce8ca664-60dc-4f9a-8986-3c96673bcfdf) (Honolulu, HI) - 1539d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/98b81271-9e15-40b7-8dce-0c62f24702f9) (Vilnius, Lithuania) - 1610d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/d084b769-6f53-4409-afa8-c183b059b384) (Stockholm, Sweden) - 1709d
+- [Palantir - Forward Deployed Software Engineer - Intel](https://jobs.lever.co/palantir/34b3a697-6e22-4751-befd-0b7921abbd5f) (Washington, D.C.) - 1710d
+- [Palantir - Forward Deployed Software Engineer, Internship - US Government](https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2) (Washington, D.C.) - 1819d
+- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/e82b696e-a085-4bbf-8bcb-6d2c4f8cf2f7) (New York, NY) - 2213d
+- [Palantir - Site Reliability Engineer - US Government](https://jobs.lever.co/palantir/211f99dc-269e-4f25-84d3-d73dea782080) (Washington, D.C.) - 2254d
+- [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/289ad049-7b4e-41e3-8a39-146fbeb6fb64) (Washington, D.C.) - 2261d
+- [Palantir - DevOps Engineer](https://jobs.lever.co/palantir/51ea4a3b-7764-4c87-96e4-310e19c856d5) (Washington, D.C.) - 2918d
+- [Palantir - DevOps Engineer](https://jobs.lever.co/palantir/c3f40e41-6258-4233-a7f9-091bf67df30b) (New York, NY) - 2918d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/492a16bb-6b9f-457e-82c3-294e1a2c565d) (Amsterdam, Netherlands) - 2983d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/dab396d4-2f14-4796-aac0-0d82883dccf0) (New York, NY) - 4535d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/c4442730-2926-41ad-8c0e-5e5a6b4d14ae) (Tel Aviv, Israel) - 4934d
+- [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/5168e8fd-fec1-4fea-b7a1-81bdaea65850) (London, United Kingdom) - 6045d
 
 ## Hackathons
 - [Devpost Participate in our public hackathons](https://devpost.com/hackathons)
 - [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons)
 
 ## Events
+- [Follow [SF] Builders Collective San Francisco · Bringing together the hottest tech for the community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!](/sf-builders-collective?k=c)
+- [Follow Big Brain Lectures - Bay Area San Francisco · A lecture series hosted in The Bay's coolest spaces.](/Big-Brain-SF?k=c)
+- [Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (120k+) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join](/genai-sf?k=c)
 - [Follow Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c)
 - [Follow Cannes Lions Cannes · Explore side events at Cannes Lions, where the creative marketing communications industry gathers for global networking, thought leadership, brand activations, and benchmark-setting awards celebrating world-class creativity. June 22-26, Cannes, France.](/canneslions?k=c)
 - [Follow Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Follow Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
+- [Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply](/frontiertower?k=c)
 - [Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
-- [Follow mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Follow OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Follow Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
+- [Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!](/sf-hardware-meetup?k=c)
 - [Follow South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
 - [Follow Story Walk Summer Tour Stories that go where you go. A walking audiobook club brought to you by Reese's Book Club and Apple Books.](/storywalk?k=c)
+- [Follow tiat (the intersection of art & technology) San Francisco · creative technology in sf](/tiat?k=c)
