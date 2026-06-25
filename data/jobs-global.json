@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-06-23T04:17:43Z",
-  "total": 12,
+  "generated_at": "2026-06-25T04:20:58Z",
+  "total": 13,
   "jobs": [
+    {
+      "id": "03be42349ac68449",
+      "company": "Intel",
+      "title": "AI Security Engineer Intern 🎓",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Santa Clara, CA Hillsboro, OR",
+      "remote_type": "onsite",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/AI-Security-Engineering-Intern_JR0285140?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-06-25",
+      "age": "0d",
+      "collected_at": "2026-06-25T04:20:58Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "e45bb16a9d62c7df",
       "company": "Sony",
