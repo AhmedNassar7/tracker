@@ -1,10 +1,11 @@
 # Public Opportunities
 
-Generated at: 2026-06-29T04:56:47Z
+Generated at: 2026-06-29T12:41:17Z
 
-Total: 111
+Total: 112
 
 ## Jobs
+- [Palantir - Forward Deployed Software Engineer - Spanish Government](https://jobs.lever.co/palantir/53fb4c05-f949-4146-a046-5c063c36a628) (Madrid, Spain) - 0d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) (Chicago, IL) - 5d
 - [Palantir - Forward Deployed Software Engineer - Norwegian Government](https://jobs.lever.co/palantir/0a0d2db2-75a5-48e4-b0a0-81baa6588e36) (Oslo, Norway) - 14d
 - [Palantir - Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) (Washington, D.C.) - 14d
