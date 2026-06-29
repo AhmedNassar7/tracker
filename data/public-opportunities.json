@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-06-29T04:56:47Z",
-  "total": 111,
+  "generated_at": "2026-06-29T12:41:17Z",
+  "total": 112,
   "jobs": [
+    {
+      "id": "8869985351480035",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer - Spanish Government",
+      "location": "Madrid, Spain",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-06-29",
+      "url": "https://jobs.lever.co/palantir/53fb4c05-f949-4146-a046-5c063c36a628",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
     {
       "id": "d0861b887ea3c5be",
       "kind": "job",
