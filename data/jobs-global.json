@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-07-01T04:50:28Z",
-  "total": 12,
+  "generated_at": "2026-07-01T11:32:05Z",
+  "total": 13,
   "jobs": [
+    {
+      "id": "26ec41004b2d610b",
+      "company": "Citadel Securities",
+      "title": "Machine Learning Researcher PhD Intern 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "Miami, FL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-01",
+      "age": "0d",
+      "collected_at": "2026-07-01T11:32:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "9415006c972556db",
       "company": "Palantir",
@@ -16,6 +36,26 @@
       "posted_at": "2026-07-01",
       "age": "1d",
       "collected_at": "2026-07-01T04:50:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e0a08d115d5c7f8c",
+      "company": "Palantir",
+      "title": "Palantir Software Engineer Intern - Forward Deployed Software Engineer - Commercial",
+      "level": "internship",
+      "country": "United States",
+      "location": "Chicago, IL",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-01",
+      "age": "6d",
+      "collected_at": "2026-07-01T11:32:05Z",
       "tags": [
         "software",
         "programming",
@@ -96,26 +136,6 @@
       "posted_at": "2026-06-11",
       "age": "0d",
       "collected_at": "2026-06-11T04:56:22Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "9c9e868cedf8a51e",
-      "company": "Adobe",
-      "title": "AI/ML Intern – Machine Learning Engineer/Researcher Intern 🎓",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, WA SF San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-AI-ML-Intern---Machine-Learning-Engineer-Intern_R160706?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-06-06",
-      "age": "20d",
-      "collected_at": "2026-06-06T10:18:11Z",
       "tags": [
         "software",
         "programming",
