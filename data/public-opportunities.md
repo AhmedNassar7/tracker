@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-07-02T14:25:58Z
+Generated at: 2026-07-02T18:00:02Z
 
-Total: 140
+Total: 141
 
 ## Jobs
 - [Palantir - Forward Deployed Software Engineer, Internship - Intel](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) (Washington, D.C.) - 1d
@@ -145,6 +145,7 @@ Total: 140
 - [Follow Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Follow Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
 - [Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
+- [Follow mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Follow OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Follow Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
 - [Follow South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
