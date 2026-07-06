@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-07-06T04:35:43Z",
-  "total": 13,
+  "generated_at": "2026-07-06T12:12:14Z",
+  "total": 15,
   "jobs": [
+    {
+      "id": "9b738d3d019be839",
+      "company": "Citadel",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "<details><summary><strong>4 locations</strong></summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details>",
+      "remote_type": "onsite",
+      "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-06",
+      "age": "0d",
+      "collected_at": "2026-07-06T12:12:14Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a2074999bf3dbf58",
+      "company": "Citadel",
+      "title": "Software Engineer – University Graduate",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "<details><summary><strong>4 locations</strong></summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details>",
+      "remote_type": "onsite",
+      "url": "https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-06",
+      "age": "0d",
+      "collected_at": "2026-07-06T12:12:14Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "26ec41004b2d610b",
       "company": "Citadel Securities",
