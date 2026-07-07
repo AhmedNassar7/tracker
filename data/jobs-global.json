@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-07-06T15:53:23Z",
-  "total": 16,
+  "generated_at": "2026-07-07T18:55:10Z",
+  "total": 18,
   "jobs": [
+    {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-07",
+      "age": "0d",
+      "collected_at": "2026-07-07T18:55:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "9b738d3d019be839",
       "company": "Citadel",
@@ -163,26 +183,6 @@
       ]
     },
     {
-      "id": "5885aefa9d6428ef",
-      "company": "Intel",
-      "title": "AI Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Phoenix, AZ",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-06-14",
-      "age": "2d",
-      "collected_at": "2026-06-14T05:03:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a223bcc43980f9bb",
       "company": "Stripe",
       "title": "Software Engineer New Grad",
@@ -316,6 +316,46 @@
       "posted_at": "2026-04-28",
       "age": "2mo",
       "collected_at": "2026-04-28T09:16:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "867ee942a0aa14b3",
+      "company": "Flix",
+      "title": "Junior DevOps Engineer (m/f/d)",
+      "level": "junior",
+      "country": "Germany",
+      "location": "Berlin, Berlin, Germany",
+      "remote_type": "onsite",
+      "url": "https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-berlin-74956",
+      "source": "arbeitnow",
+      "source_url": "https://arbeitnow.com/",
+      "posted_at": "1783370726",
+      "age": "",
+      "collected_at": "2026-07-07T18:55:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9ecec05baadcc776",
+      "company": "Flix",
+      "title": "Junior DevOps Engineer (m/f/d)",
+      "level": "junior",
+      "country": "Germany",
+      "location": "Berlin, Berlin, Germany",
+      "remote_type": "onsite",
+      "url": "https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-berlin-143109",
+      "source": "arbeitnow",
+      "source_url": "https://arbeitnow.com/",
+      "posted_at": "1783370726",
+      "age": "",
+      "collected_at": "2026-07-07T18:55:10Z",
       "tags": [
         "software",
         "programming",
