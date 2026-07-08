@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-07-07T18:55:10Z",
-  "total": 18,
+  "generated_at": "2026-07-08T03:39:07Z",
+  "total": 15,
   "jobs": [
-    {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-07",
-      "age": "0d",
-      "collected_at": "2026-07-07T18:55:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
     {
       "id": "9b738d3d019be839",
       "company": "Citadel",
@@ -63,6 +43,26 @@
       ]
     },
     {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-07",
+      "age": "0d",
+      "collected_at": "2026-07-07T18:55:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "26ec41004b2d610b",
       "company": "Citadel Securities",
       "title": "Machine Learning Researcher PhD Intern 🎓",
@@ -96,26 +96,6 @@
       "posted_at": "2026-07-01",
       "age": "1d",
       "collected_at": "2026-07-01T04:50:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-06",
-      "age": "7d",
-      "collected_at": "2026-07-06T15:53:23Z",
       "tags": [
         "software",
         "programming",
@@ -316,46 +296,6 @@
       "posted_at": "2026-04-28",
       "age": "2mo",
       "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "867ee942a0aa14b3",
-      "company": "Flix",
-      "title": "Junior DevOps Engineer (m/f/d)",
-      "level": "junior",
-      "country": "Germany",
-      "location": "Berlin, Berlin, Germany",
-      "remote_type": "onsite",
-      "url": "https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-berlin-74956",
-      "source": "arbeitnow",
-      "source_url": "https://arbeitnow.com/",
-      "posted_at": "1783370726",
-      "age": "",
-      "collected_at": "2026-07-07T18:55:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "9ecec05baadcc776",
-      "company": "Flix",
-      "title": "Junior DevOps Engineer (m/f/d)",
-      "level": "junior",
-      "country": "Germany",
-      "location": "Berlin, Berlin, Germany",
-      "remote_type": "onsite",
-      "url": "https://www.arbeitnow.com/jobs/companies/flix/junior-devops-engineer-berlin-143109",
-      "source": "arbeitnow",
-      "source_url": "https://arbeitnow.com/",
-      "posted_at": "1783370726",
-      "age": "",
-      "collected_at": "2026-07-07T18:55:10Z",
       "tags": [
         "software",
         "programming",
