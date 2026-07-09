@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-07-09T04:09:32Z",
+  "generated_at": "2026-07-09T07:49:54Z",
   "total": 15,
   "jobs": [
+    {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-07",
+      "age": "0d",
+      "collected_at": "2026-07-07T18:55:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "9b738d3d019be839",
       "company": "Citadel",
@@ -36,26 +56,6 @@
       "posted_at": "2026-07-06",
       "age": "0d",
       "collected_at": "2026-07-06T15:53:23Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-07",
-      "age": "0d",
-      "collected_at": "2026-07-07T18:55:10Z",
       "tags": [
         "software",
         "programming",
