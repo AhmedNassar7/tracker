@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T11:16:17Z",
-  "total": 140,
+  "generated_at": "2026-07-09T15:31:11Z",
+  "total": 143,
   "jobs": [
     {
       "id": "c574860b82aa3d18",
@@ -99,6 +99,34 @@
       "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "b23346e7c60d2ce2",
+      "kind": "job",
+      "company": "Uber Freight",
+      "title": "Sr. Backend Engineer",
+      "location": "Mexico City",
+      "level": "other",
+      "role_type": "backend",
+      "date": "24d",
+      "posted_at": "2026-06-15",
+      "url": "https://job-boards.greenhouse.io/uberfreight/jobs/4528517008",
+      "source": "greenhouse:uberfreight",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/uberfreight/jobs?content=true"
+    },
+    {
+      "id": "7ff6e3ca4e527f7c",
+      "kind": "job",
+      "company": "Uber Freight",
+      "title": "Sr. Software Engineer",
+      "location": "Frisco, TX 75034, United States",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "24d",
+      "posted_at": "2026-06-15",
+      "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5236227008",
+      "source": "greenhouse:uberfreight",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/uberfreight/jobs?content=true"
     },
     {
       "id": "e9cbb1ac2fefd01d",
@@ -1895,6 +1923,18 @@
       "date": "",
       "posted_at": "2026-07-09",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "021eb057c47f4ed6",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-09",
+      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
