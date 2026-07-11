@@ -1,8 +1,8 @@
 # Public Opportunities
 
-Generated at: 2026-07-11T03:36:48Z
+Generated at: 2026-07-11T06:23:21Z
 
-Total: 151
+Total: 145
 
 ## Jobs
 - [Palantir - Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9) (Washington, D.C.) - 1d
@@ -146,17 +146,11 @@ Total: 151
 - [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons)
 
 ## Events
-- [Follow [SF] HackerSquad San Francisco · Bringing together the hottest tech for the community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them! Previously [SF] Builders Collective](/sf-builders-collective?k=c)
-- [Follow Big Brain Lectures - Bay Area San Francisco · A lecture series hosted in The Bay's coolest spaces.](/Big-Brain-SF?k=c)
-- [Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join](/genai-sf?k=c)
 - [Follow Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c)
 - [Follow Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Follow Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
-- [Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply](/frontiertower?k=c)
 - [Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
 - [Follow OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Follow Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
-- [Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!](/sf-hardware-meetup?k=c)
 - [Follow South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
 - [Follow Story Walk Summer Tour Stories that go where you go. A walking audiobook club brought to you by Reese's Book Club and Apple Books.](/storywalk?k=c)
-- [Follow tiat (the intersection of art & technology) San Francisco · creative technology in sf](/tiat?k=c)
