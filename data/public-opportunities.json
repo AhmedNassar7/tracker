@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T06:23:21Z",
-  "total": 145,
+  "generated_at": "2026-07-11T09:45:29Z",
+  "total": 151,
   "jobs": [
     {
       "id": "270ff3dc00237f1c",
@@ -1921,6 +1921,42 @@
   ],
   "events": [
     {
+      "id": "4bffba80c1b868dc",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Bringing together the hottest tech for the community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them! Previously [SF] Builders Collective",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-11",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "14d5459a5945c512",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Big Brain Lectures - Bay Area San Francisco · A lecture series hosted in The Bay's coolest spaces.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-11",
+      "url": "/Big-Brain-SF?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-11",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -1953,6 +1989,18 @@
       "date": "",
       "posted_at": "2026-07-11",
       "url": "/design?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-11",
+      "url": "/frontiertower?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
@@ -1993,6 +2041,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-11",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "b7fae028fb5330fc",
       "kind": "event",
       "company": "Luma",
@@ -2013,6 +2073,18 @@
       "date": "",
       "posted_at": "2026-07-11",
       "url": "/storywalk?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "f5aca94041df0c53",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow tiat (the intersection of art & technology) San Francisco · creative technology in sf",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-11",
+      "url": "/tiat?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
