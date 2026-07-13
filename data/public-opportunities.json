@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T11:26:14Z",
-  "total": 146,
+  "generated_at": "2026-07-13T15:07:54Z",
+  "total": 144,
   "jobs": [
     {
       "id": "270ff3dc00237f1c",
@@ -153,20 +153,6 @@
       "date": "28d",
       "posted_at": "2026-06-15",
       "url": "https://job-boards.greenhouse.io/uberfreight/jobs/4528517008",
-      "source": "greenhouse:uberfreight",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/uberfreight/jobs?content=true"
-    },
-    {
-      "id": "7ff6e3ca4e527f7c",
-      "kind": "job",
-      "company": "Uber Freight",
-      "title": "Sr. Software Engineer",
-      "location": "Frisco, TX 75034, United States",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "28d",
-      "posted_at": "2026-06-15",
-      "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5236227008",
       "source": "greenhouse:uberfreight",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/uberfreight/jobs?content=true"
     },
@@ -1965,18 +1951,6 @@
       "date": "",
       "posted_at": "2026-07-13",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "021eb057c47f4ed6",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-13",
-      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
