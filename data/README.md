@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 108 |
+| Jobs | 107 |
 | Hackathons | 2 |
 | Events | 8 |
-| Total | 118 |
+| Total | 117 |
 
 ## Jobs
 
-[![Jobs 108](https://img.shields.io/badge/Jobs-108-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 17](https://img.shields.io/badge/Early%20Career-17-0ea5e9.svg)](#early-career) [![Mid-Level and Above 70](https://img.shields.io/badge/Mid--Level%20and%20Above-70-dc2626.svg)](#mid-level-and-above)
+[![Jobs 107](https://img.shields.io/badge/Jobs-107-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 70](https://img.shields.io/badge/Mid--Level%20and%20Above-70-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -66,7 +66,7 @@ Total roles: 21
 
 ### Early Career
 
-Total roles: 17
+Total roles: 16
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -79,7 +79,6 @@ Total roles: 17
 | Notion | [Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) | San Francisco, California | 9d |
 | Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California | 9d |
 | Palantir | [Software Engineer New Grad - Production Infrastructure](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 15d |
-| Palantir | [Forward Deployed Software Engineer New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify) | NYC | 16d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 16d |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 28d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) | Washington, D.C. | 1mo |
