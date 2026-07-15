@@ -29,12 +29,12 @@ Every row links straight to the real application page. Click a title to apply â€
 |---|---:|
 | Jobs | 109 |
 | Hackathons | 2 |
-| Events | 8 |
-| Total | 119 |
+| Events | 14 |
+| Total | 125 |
 
 ## Jobs
 
-[![Jobs 109](https://img.shields.io/badge/Jobs-109-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 22](https://img.shields.io/badge/Internship-22-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 71](https://img.shields.io/badge/Mid--Level%20and%20Above-71-dc2626.svg)](#mid-level-and-above)
+[![Jobs 109](https://img.shields.io/badge/Jobs-109-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 22](https://img.shields.io/badge/Internship-22-22c55e.svg)](#internship) [![Early Career 17](https://img.shields.io/badge/Early%20Career-17-0ea5e9.svg)](#early-career) [![Mid-Level and Above 70](https://img.shields.io/badge/Mid--Level%20and%20Above-70-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -67,7 +67,7 @@ Total roles: 22
 
 ### Early Career
 
-Total roles: 16
+Total roles: 17
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -80,6 +80,7 @@ Total roles: 16
 | Notion | [Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) | San Francisco, California | 9d |
 | Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California | 9d |
 | Palantir | [Software Engineer New Grad - Production Infrastructure](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 15d |
+| Palantir | [Forward Deployed Software Engineer New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify) | NYC | 16d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 16d |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 28d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) | Washington, D.C. | 1mo |
@@ -90,7 +91,7 @@ Total roles: 16
 
 ### Mid-Level and Above
 
-Total roles: 71
+Total roles: 70
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -98,7 +99,6 @@ Total roles: 71
 | Wise | [Senior iOS Engineer â€“ Send Experience](https://jobs.smartrecruiters.com/Wise/744000137820489) | London, United Kingdom | 0d |
 | Wise | [Senior Software Engineer II - Payin Platform - Backend (Java)](https://jobs.smartrecruiters.com/Wise/744000137863319) | London, United Kingdom | 0d |
 | Notion | [Software Engineer, AI Platform](https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1) | San Francisco, California | 1d |
-| Uber Freight | [Senior Software Engineer](https://job-boards.greenhouse.io/uberfreight/jobs/4819655008) | Frisco, TX 75034, United States | 1d |
 | Wise | [Senior Software Engineer I - KYC Experience](https://jobs.smartrecruiters.com/Wise/744000137388120) | London, United Kingdom | 2d |
 | Ramp | [Software Engineer, Web + Design](https://jobs.ashbyhq.com/ramp/8d61885c-0f08-4267-8ace-69e28b1d3f38) | New York, NY (HQ) | 5d |
 | Wise | [Product Lead - Financial Crime Platform](https://jobs.smartrecruiters.com/Wise/744000137083329) | London, United Kingdom | 5d |
@@ -177,18 +177,24 @@ Total hackathons: 2
 
 ## Events
 
-Total events: 8
+Total events: 14
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Big Brain Lectures](https://lu.ma/Big-Brain-SF?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Design](https://lu.ma/design?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
 | Luma | [Follow OpenClaw](https://lu.ma/claw?k=c) |
 | Luma | [Follow Reading](https://lu.ma/readingrhythms-global?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 | Luma | [Follow South](https://lu.ma/southparkcommons-events?k=c) |
 | Luma | [Follow Story](https://lu.ma/storywalk?k=c) |
+| Luma | [Follow tiat](https://lu.ma/tiat?k=c) |
 
 ## Source Files
 

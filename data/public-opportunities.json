@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T13:18:02Z",
-  "total": 210,
+  "generated_at": "2026-07-15T15:02:27Z",
+  "total": 215,
   "jobs": [
     {
       "id": "3d0bf76d44d35b46",
@@ -57,20 +57,6 @@
       "url": "https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1",
       "source": "ashby:notion",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/notion"
-    },
-    {
-      "id": "def46ff28217e45d",
-      "kind": "job",
-      "company": "Uber Freight",
-      "title": "Senior Software Engineer",
-      "location": "Frisco, TX 75034, United States",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-07-14",
-      "url": "https://job-boards.greenhouse.io/uberfreight/jobs/4819655008",
-      "source": "greenhouse:uberfreight",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/uberfreight/jobs?content=true"
     },
     {
       "id": "43ed885ab52ff19c",
@@ -2831,6 +2817,42 @@
   ],
   "events": [
     {
+      "id": "229397d627dbf883",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-15",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "14d5459a5945c512",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Big Brain Lectures - Bay Area San Francisco · A lecture series hosted in The Bay's coolest spaces.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-15",
+      "url": "/Big-Brain-SF?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-15",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -2863,6 +2885,18 @@
       "date": "",
       "posted_at": "2026-07-15",
       "url": "/design?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-15",
+      "url": "/frontiertower?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
@@ -2903,6 +2937,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-15",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "b7fae028fb5330fc",
       "kind": "event",
       "company": "Luma",
@@ -2923,6 +2969,18 @@
       "date": "",
       "posted_at": "2026-07-15",
       "url": "/storywalk?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "f5aca94041df0c53",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow tiat (the intersection of art & technology) San Francisco · creative technology in sf",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-15",
+      "url": "/tiat?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
