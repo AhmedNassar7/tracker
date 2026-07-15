@@ -27,25 +27,24 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 110 |
+| Jobs | 108 |
 | Hackathons | 2 |
-| Events | 8 |
-| Total | 120 |
+| Events | 14 |
+| Total | 124 |
 
 ## Jobs
 
-[![Jobs 110](https://img.shields.io/badge/Jobs-110-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 22](https://img.shields.io/badge/Internship-22-22c55e.svg)](#internship) [![Early Career 17](https://img.shields.io/badge/Early%20Career-17-0ea5e9.svg)](#early-career) [![Mid-Level and Above 71](https://img.shields.io/badge/Mid--Level%20and%20Above-71-dc2626.svg)](#mid-level-and-above)
+[![Jobs 108](https://img.shields.io/badge/Jobs-108-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 17](https://img.shields.io/badge/Early%20Career-17-0ea5e9.svg)](#early-career) [![Mid-Level and Above 70](https://img.shields.io/badge/Mid--Level%20and%20Above-70-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 22
+Total roles: 21
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9) | Washington, D.C. | 5d |
 | Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69) | Palo Alto, CA | 5d |
 | Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/cf5f44ff-1b0b-4752-bcd4-2dc88798f25b) | New York, NY | 5d |
-| Uber Freight | [Data Scientist Intern](https://job-boards.greenhouse.io/uberfreight/jobs/5194491008?utm_source=Simplify&ref=Simplify) | Chicago, IL | 5d |
 | Citadel | [Software Engineer Intern](https://www.citadel.com/careers/details/software-engineer-intern-us/?utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details> | 9d |
 | Citadel Securities | [Machine Learning Researcher PhD Intern ðŸŽ“](https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC | 14d |
 | Palantir | [Forward Deployed Software Engineer, Internship - Intel](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) | Washington, D.C. | 14d |
@@ -91,7 +90,7 @@ Total roles: 17
 
 ### Mid-Level and Above
 
-Total roles: 71
+Total roles: 70
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -125,7 +124,6 @@ Total roles: 71
 | Notion | [Software Engineer, Developer Experience (Go Lead)](https://jobs.ashbyhq.com/notion/876c69a9-be0a-4a71-bf4a-04cbc9c6328e) | New York, New York | 22d |
 | Ramp | [Software Engineer, International](https://jobs.ashbyhq.com/ramp/be75224c-854c-4a55-9da5-62ca2dcc09df) | London | 29d |
 | Palantir | [Forward Deployed Software Engineer - Norwegian Government](https://jobs.lever.co/palantir/0a0d2db2-75a5-48e4-b0a0-81baa6588e36) | Oslo, Norway | 1mo |
-| Uber Freight | [Sr. Backend Engineer](https://job-boards.greenhouse.io/uberfreight/jobs/4528517008) | Mexico City | 1mo |
 | Notion | [Engineering Manager, Search & Context Platform](https://jobs.ashbyhq.com/notion/eb46a31c-a258-4b19-afe6-f2c65eaa2dcc) | San Francisco, California | 1mo |
 | Palantir | [Software Engineer - Core Interfaces](https://jobs.lever.co/palantir/3b4ae28e-c4f2-4654-83b4-64366bfe72fa) | New York, NY | 1mo |
 | Palantir | [Software Engineer - Defense Applications](https://jobs.lever.co/palantir/c288bb43-3c63-4557-bd96-600ef0d1b7a6) | New York, NY | 1mo |
@@ -178,18 +176,24 @@ Total hackathons: 2
 
 ## Events
 
-Total events: 8
+Total events: 14
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Big Brain Lectures](https://lu.ma/Big-Brain-SF?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Design](https://lu.ma/design?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
 | Luma | [Follow OpenClaw](https://lu.ma/claw?k=c) |
 | Luma | [Follow Reading](https://lu.ma/readingrhythms-global?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 | Luma | [Follow South](https://lu.ma/southparkcommons-events?k=c) |
 | Luma | [Follow Story](https://lu.ma/storywalk?k=c) |
+| Luma | [Follow tiat](https://lu.ma/tiat?k=c) |
 
 ## Source Files
 
