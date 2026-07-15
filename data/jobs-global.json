@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T15:02:27Z",
-  "total": 18,
+  "generated_at": "2026-07-15T18:19:17Z",
+  "total": 17,
   "jobs": [
     {
       "id": "d530f67da5b76ff6",
@@ -35,26 +35,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "2d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2c71883af2e40770",
-      "company": "Uber Freight",
-      "title": "Data Scientist Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "Chicago, IL",
-      "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5194491008?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-15",
-      "age": "5d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
