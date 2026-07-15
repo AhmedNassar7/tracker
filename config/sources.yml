@@ -1,3 +1,13 @@
+# Reference documentation only — this file is NOT read by the pipeline.
+# scripts/fetch.py calls Remotive, ArbeitNow, and SimplifyJobs directly with
+# hardcoded URLs; this list just documents what those calls do and why.
+#
+# To change actual behavior:
+#   - Which companies are accepted → edit config/companies_allowlist.yml (no code)
+#   - Which Ashby/SmartRecruiters companies are tracked → edit config/extra_job_boards.yml (no code)
+#   - Add a brand-new API/board type → add a fetcher function in scripts/fetch.py
+#     or scripts/public_sources.py (requires Python), then update this file to match.
+
 sources:
   - id: remotive
     name: Remotive
@@ -39,23 +49,12 @@ sources:
     attribution_url: "https://remoteok.com"
     description: "General remote job board (disabled - high noise)"
 
-# OPTIONAL ADVANCED SOURCES (requires manual setup)
-# These platforms (Greenhouse, Lever, Ashby, Workable) don't have public aggregator APIs.
-# Instead, they host individual company career pages. To use:
-# 1. Greenhouse: Manually add specific company URLs (e.g., google.greenhouse.io/jobs)
-# 2. Lever: Manually add specific company URLs (e.g., jobs.lever.co/company)
-# 3. Ashby: Same as above
-# 4. Workable: Has public API (https://workable.com/developers) but requires auth
+# PER-COMPANY BOARD SOURCES (implemented in scripts/public_sources.py, not this file)
 #
-# Recommended: Use these only if building company-specific integrations.
-# For now, stick with aggregator APIs above (Remotive, ArbeitNow, SimplifyJobs).
-#
-# Example if you want to add a specific Greenhouse company:
-#  - id: greenhouse_google
-#    name: "Google Careers (Greenhouse)"
-#    type: html_table
-#    url: "https://www.google.com/careers/jobs/results/"
-#    enabled: false
-#    attribution_url: "https://www.google.com/careers"
-#    description: "Company-specific job board"
-#    require_auth: false
+# - Greenhouse and Lever: no setup needed. Company boards are auto-discovered
+#   from job URLs already present in data/jobs-global.json — the first time a
+#   company's posting shows up via any other source, its board is picked up
+#   on the next run.
+# - Ashby and SmartRecruiters: no auto-discovery, so companies are curated by
+#   hand in config/extra_job_boards.yml (plain list, no code needed).
+# - Workday: hosts are detected automatically for future use but not yet fetched.

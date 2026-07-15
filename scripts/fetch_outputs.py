@@ -41,6 +41,10 @@ def _render_latest_markdown(public_rows, now_iso):
         "",
         f"Generated at: {now_iso}",
         "",
+        "This is a raw export of the curated-source feed only (Remotive, ArbeitNow, SimplifyJobs)."
+        " For the full combined list — this feed plus Greenhouse, Lever, Ashby, SmartRecruiters, hackathons,"
+        " and events — see [README.md](README.md) or the [project overview](../README.md).",
+        "",
         "| Company | Title | Location | Age |",
         "|---|---|---|---|",
     ]

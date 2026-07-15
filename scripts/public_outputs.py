@@ -26,6 +26,9 @@ def write_public_outputs(rows, *, data_out, now_iso, sort_key, log_info):
         "",
         f"Generated at: {now_iso}",
         "",
+        "This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma)."
+        " For the full combined list, see [README.md](README.md) or the [project overview](../README.md).",
+        "",
         f"Total: {len(rows)}",
         "",
         "## Jobs",

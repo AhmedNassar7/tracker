@@ -2,6 +2,8 @@
 
 Generated at: 2026-07-15T12:58:43Z
 
+This is a raw export of the curated-source feed only (Remotive, ArbeitNow, SimplifyJobs). For the full combined list — this feed plus Greenhouse, Lever, Ashby, SmartRecruiters, hackathons, and events — see [README.md](README.md) or the [project overview](../README.md).
+
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Citadel Securities | [Software Engineer – University Graduate](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify) | London, UK | 0d |
