@@ -1,8 +1,8 @@
-name: Frequent Global Tech Roles PR
+name: Hourly Global Tech Roles PR
 
 on:
   schedule:
-    - cron: "15 0,4,8,12,16 * * *"
+    - cron: "15 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -40,6 +40,12 @@ jobs:
           set -euo pipefail
           python3 scripts/public_sources.py
 
+      - name: Rebuild README pages from data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/build_data_readme.py
+
       - name: Update log and timestamp
         shell: bash
         run: |
@@ -68,9 +74,9 @@ jobs:
           author: "AhmedNassar7 <a.moh.nassar00@users.noreply.github.com>"
           committer: "AhmedNassar7 <a.moh.nassar00@users.noreply.github.com>"
           body: |
-            Automated global tech roles snapshot (scheduled 5 times daily).
-            
-            **Schedule (UTC):** 00:15, 04:15, 08:15, 12:15, 16:15
+            Automated global tech roles snapshot (scheduled hourly).
+
+            **Schedule (UTC):** every hour at :15
             **Levels:** Internship/New Grad/Mid
             **Companies:** Top-tier allowlist only
             
@@ -83,6 +89,8 @@ jobs:
             - Luma discovery pages
             - Greenhouse public job boards
             - Lever public postings
+            - Ashby public job boards
+            - SmartRecruiters public postings
             - Workday public pages (configurable)
           branch: "frequent/global-roles-${{ github.run_id }}"
           delete-branch: true

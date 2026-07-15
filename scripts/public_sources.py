@@ -5,8 +5,10 @@ This layer is separate from the main jobs snapshot. It uses public feeds/APIs
 to widen coverage:
 - Devpost hackathons
 - Luma discovery pages
-- Greenhouse public job board API
-- Lever public postings JSON
+- Greenhouse public job board API (auto-discovered from existing job URLs)
+- Lever public postings JSON (auto-discovered from existing job URLs)
+- Ashby public job board API (companies listed in config/extra_job_boards.yml)
+- SmartRecruiters public postings API (companies listed in config/extra_job_boards.yml)
 - Workday page support (generic HTML extraction; enable per-source)
 """
 
@@ -280,6 +282,116 @@ def fetch_lever_jobs(company_slug, company_name):
     return jobs
 
 
+def fetch_ashby_board_jobs(board_token, company_name):
+    api_url = f"https://api.ashbyhq.com/posting-api/job-board/{board_token}"
+    try:
+        payload = fetch_json(api_url)
+    except Exception as exc:
+        log_warn(f"Ashby fetch failed for {board_token}: {exc}")
+        return []
+
+    jobs = []
+    for item in payload.get("jobs", []):
+        if item.get("isListed") is False:
+            continue
+        title = clean_text(item.get("title") or "")
+        location = clean_text(item.get("location") or "")
+        url = item.get("jobUrl") or item.get("applyUrl") or ""
+        posted_at = parse_iso_date(item.get("publishedAt") or "")
+        if not (title and url) or not is_software_job(title):
+            continue
+        jobs.append(
+            {
+                "id": make_id("ashby", board_token, title, url),
+                "kind": "job",
+                "company": company_name or board_token,
+                "title": title,
+                "location": location,
+                "level": detect_level(title),
+                "role_type": detect_role_type(title),
+                "date": format_age_from_date(posted_at),
+                "posted_at": posted_at,
+                "url": url,
+                "source": f"ashby:{board_token}",
+                "source_url": api_url,
+            }
+        )
+    return jobs
+
+
+def fetch_smartrecruiters_jobs(company_slug, company_name):
+    api_url = f"https://api.smartrecruiters.com/v1/companies/{company_slug}/postings?limit=100"
+    try:
+        payload = fetch_json(api_url)
+    except Exception as exc:
+        log_warn(f"SmartRecruiters fetch failed for {company_slug}: {exc}")
+        return []
+
+    jobs = []
+    for item in payload.get("content", []):
+        title = clean_text(item.get("name") or "")
+        location_info = item.get("location") or {}
+        full_location = location_info.get("fullLocation") or ""
+        location = clean_text(", ".join(part.strip() for part in full_location.split(",") if part.strip()))
+        if not location:
+            location_parts = [location_info.get("city"), location_info.get("region"), location_info.get("country")]
+            location = clean_text(", ".join(part for part in location_parts if part))
+        if location_info.get("remote") and "remote" not in location.lower():
+            location = f"{location} (Remote)".strip()
+        posting_id = item.get("id") or ""
+        url = f"https://jobs.smartrecruiters.com/{company_slug}/{posting_id}" if posting_id else ""
+        posted_at = parse_iso_date(item.get("releasedDate") or "")
+        if not (title and url) or not is_software_job(title):
+            continue
+        jobs.append(
+            {
+                "id": make_id("smartrecruiters", company_slug, title, url),
+                "kind": "job",
+                "company": company_name or company_slug,
+                "title": title,
+                "location": location,
+                "level": detect_level(title),
+                "role_type": detect_role_type(title),
+                "date": format_age_from_date(posted_at),
+                "posted_at": posted_at,
+                "url": url,
+                "source": f"smartrecruiters:{company_slug}",
+                "source_url": api_url,
+            }
+        )
+    return jobs
+
+
+def load_extra_job_boards():
+    """Load Ashby/SmartRecruiters company tokens from config/extra_job_boards.yml.
+
+    These platforms can't be auto-discovered from existing job URLs the way
+    Greenhouse/Lever tokens can, so they're curated by hand in that file.
+    Parsed with simple line matching (no YAML dependency), same approach as
+    the company allowlist loader in fetch.py.
+    """
+    path = ROOT / "config" / "extra_job_boards.yml"
+    boards = {"ashby": [], "smartrecruiters": []}
+    if not path.exists():
+        return boards
+    section = None
+    try:
+        for line in path.read_text(encoding="utf-8").splitlines():
+            stripped = line.strip()
+            if not stripped or stripped.startswith("#"):
+                continue
+            if stripped.endswith(":") and not stripped.startswith("-"):
+                section = stripped[:-1].strip().lower()
+                continue
+            if stripped.startswith("-") and section in boards:
+                token = stripped.lstrip("- ").strip()
+                if token:
+                    boards[section].append(token)
+    except Exception as exc:
+        log_warn(f"Failed to load extra job boards config: {exc}")
+    return boards
+
+
 def parse_devpost_hackathons(html_text):
     matches = re.findall(r'<a[^>]+href="([^"]*devpost\.com[^"]*)"[^>]*>(.*?)</a>', html_text, flags=re.I | re.S)
     rows = []
@@ -427,6 +539,16 @@ def main():
 
     for company_slug, company in sorted(lever.items()):
         rows.extend(fetch_lever_jobs(company_slug, company))
+
+    extra_boards = load_extra_job_boards()
+    log_info(
+        f"Loaded {len(extra_boards['ashby'])} Ashby boards and "
+        f"{len(extra_boards['smartrecruiters'])} SmartRecruiters boards from config"
+    )
+    for token in extra_boards["ashby"]:
+        rows.extend(fetch_ashby_board_jobs(token, token.replace("-", " ").title()))
+    for token in extra_boards["smartrecruiters"]:
+        rows.extend(fetch_smartrecruiters_jobs(token, token.replace("-", " ").title()))
 
     # Workday support is available as a helper for configurable pages.
     if workday:

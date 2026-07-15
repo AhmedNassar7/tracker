@@ -124,6 +124,82 @@ def main():
         len(no_rows) == 0,
     ))
 
+    ashby_payload = {
+        "jobs": [
+            {
+                "title": "Software Engineer, Backend",
+                "location": "Remote - US",
+                "publishedAt": "2026-01-02T10:00:00.000Z",
+                "isListed": True,
+                "jobUrl": "https://jobs.ashbyhq.com/example/1",
+            },
+            {
+                "title": "Account Executive",
+                "location": "Remote - US",
+                "publishedAt": "2026-01-02T10:00:00.000Z",
+                "isListed": True,
+                "jobUrl": "https://jobs.ashbyhq.com/example/2",
+            },
+            {
+                "title": "Software Engineer, Frontend",
+                "location": "Remote - US",
+                "publishedAt": "2026-01-02T10:00:00.000Z",
+                "isListed": False,
+                "jobUrl": "https://jobs.ashbyhq.com/example/3",
+            },
+        ]
+    }
+    with patch.object(mod, "fetch_json", return_value=ashby_payload):
+        ashby_rows = mod.fetch_ashby_board_jobs("example", "Example Co")
+    run("ashby job board fetch", lambda: check(
+        "ashby job board fetch",
+        len(ashby_rows) == 1
+        and ashby_rows[0]["company"] == "Example Co"
+        and ashby_rows[0]["source"] == "ashby:example"
+        and ashby_rows[0]["url"] == "https://jobs.ashbyhq.com/example/1",
+    ))
+
+    smartrecruiters_payload = {
+        "content": [
+            {
+                "id": "12345",
+                "name": "Software Engineer II",
+                "location": {"city": "London", "country": "UK", "remote": True},
+                "releasedDate": "2026-01-02T00:00:00Z",
+            },
+            {
+                "id": "67890",
+                "name": "Recruiter",
+                "location": {"city": "London", "country": "UK", "remote": False},
+                "releasedDate": "2026-01-02T00:00:00Z",
+            },
+        ]
+    }
+    with patch.object(mod, "fetch_json", return_value=smartrecruiters_payload):
+        sr_rows = mod.fetch_smartrecruiters_jobs("Example", "Example Co")
+    run("smartrecruiters job board fetch", lambda: check(
+        "smartrecruiters job board fetch",
+        len(sr_rows) == 1
+        and sr_rows[0]["company"] == "Example Co"
+        and sr_rows[0]["url"] == "https://jobs.smartrecruiters.com/Example/12345"
+        and "Remote" in sr_rows[0]["location"],
+    ))
+
+    with tempfile.TemporaryDirectory() as tmp:
+        config_dir = Path(tmp) / "config"
+        config_dir.mkdir()
+        (config_dir / "extra_job_boards.yml").write_text(
+            "ashby:\n  - notion\n  - linear\n\nsmartrecruiters:\n  - Visa\n",
+            encoding="utf-8",
+        )
+        with patch.object(mod, "ROOT", Path(tmp)):
+            boards = mod.load_extra_job_boards()
+        run("load extra job boards config", lambda: check(
+            "load extra job boards config",
+            boards["ashby"] == ["notion", "linear"]
+            and boards["smartrecruiters"] == ["Visa"],
+        ))
+
     with tempfile.TemporaryDirectory() as tmp:
         out_dir = Path(tmp)
         rows = gh_rows + devpost_rows + luma_rows

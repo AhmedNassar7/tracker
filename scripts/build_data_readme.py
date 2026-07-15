@@ -255,9 +255,10 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
     lines: list[str] = [
         "# Software Engineering Opportunities",
         "",
-        f"**Last Updated:** {now_text}",
+        f"**Last Updated:** {now_text}  ·  refreshed hourly  ·  [← back to project overview](../README.md)",
         "",
-        "This is the single data page for all tables. Use the links below to jump to each table.",
+        "Every row links straight to the real application page. Click a title to apply — no account on this repo needed."
+        " The **Age** column shows how long ago the listing was posted, so you can spot the newest roles at a glance.",
         "",
         "## Emoji Guide",
         "",
@@ -375,62 +376,117 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
     return "\n".join(lines) + "\n"
 
 
-def render_root_readme(stats: dict) -> str:
+def render_root_readme(now_text: str, stats: dict) -> str:
     jobs_total = stats["jobs_total"]
     total_items = stats["total_items"]
+    hackathons_total = stats["hackathons_total"]
+    events_total = stats["events_total"]
     internship_total = stats["level_counts"]["internship"]
     early_total = stats["level_counts"]["early_career"]
     mid_total = stats["level_counts"]["mid_level"]
 
-    badges = " ".join([
-        "[![Daily Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml)",
+    last_updated_value = quote(now_text, safe="").replace("-", "--")
+    status_badges = " ".join([
+        "[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml)",
         badge("Total opportunities", total_items, "brightgreen", "data/README.md"),
         badge("Jobs", jobs_total, "16a34a", "data/README.md#jobs"),
+        f"[![Last updated {now_text}](https://img.shields.io/badge/Last%20updated-{last_updated_value}-grey.svg)](LAST_UPDATED)",
     ])
     level_badges = " ".join([
         badge("Internship", internship_total, "22c55e", "data/README.md#internship"),
         badge("Early Career", early_total, "0ea5e9", "data/README.md#early-career"),
         badge("Mid-Level and Above", mid_total, "dc2626", "data/README.md#mid-level-and-above"),
-        badge("Hackathons", 2, "f59e0b", "data/README.md#hackathons"),
-        badge("Events", 7, "8b5cf6", "data/README.md#events"),
+        badge("Hackathons", hackathons_total, "f59e0b", "data/README.md#hackathons"),
+        badge("Events", events_total, "8b5cf6", "data/README.md#events"),
     ])
 
     return "\n".join([
         "# tracker",
         "",
-        badges,
+        "**A free, always-up-to-date list of software engineering jobs, internships, hackathons, and events — no sign-up, no paywall.**",
+        "",
+        "A robot checks top companies and public job boards every hour, so you don't have to. Everything below is refreshed automatically.",
+        "",
+        status_badges,
         "",
         level_badges,
         "",
-        "Daily automated pipeline tracking software engineering opportunities from curated top-tier companies and public job boards.",
+        "## New here? Start with one click",
         "",
-        "## Start Here",
+        f"### 👉 [**Open the full list of {total_items} opportunities**](data/README.md)",
         "",
-        "Open [data/README.md](data/README.md) for the combined data page with all tables and links.",
+        "That page has everything: jobs, internships, hackathons, and events, each with a direct apply link. No account needed, just click and go.",
         "",
         "## Snapshot",
         "",
-        "| Category | Count |",
-        "|---|---:|",
-        f"| Jobs | {jobs_total} |",
-        f"| Hackathons | 2 |",
-        f"| Events | 7 |",
-        f"| Total | {total_items} |",
+        f"_As of {now_text}._",
         "",
-        "## Navigation",
+        "| Category | Count | Link |",
+        "|---|---:|---|",
+        f"| Internship | {internship_total} | [View](data/README.md#internship) |",
+        f"| Early Career | {early_total} | [View](data/README.md#early-career) |",
+        f"| Mid-Level and Above | {mid_total} | [View](data/README.md#mid-level-and-above) |",
+        f"| **Jobs total** | **{jobs_total}** | [View](data/README.md#jobs) |",
+        f"| Hackathons | {hackathons_total} | [View](data/README.md#hackathons) |",
+        f"| Events | {events_total} | [View](data/README.md#events) |",
+        f"| **Grand total** | **{total_items}** | [View](data/README.md) |",
         "",
-        "- [Combined data page](data/README.md)",
-        "- [Jobs tables](data/README.md#jobs)",
-        "- [Internship table](data/README.md#internship)",
-        "- [Early career table](data/README.md#early-career)",
-        "- [Mid-level and above table](data/README.md#mid-level-and-above)",
-        "- [Hackathons table](data/README.md#hackathons)",
-        "- [Events table](data/README.md#events)",
+        "## How it works",
+        "",
+        "1. **Fetch** — [scripts/fetch.py](scripts/fetch.py) pulls Remotive, ArbeitNow, and SimplifyJobs, filtered by the companies in"
+        " [config/companies_allowlist.yml](config/companies_allowlist.yml). [scripts/public_sources.py](scripts/public_sources.py) widens"
+        " coverage with Devpost, Luma, Greenhouse, and Lever (auto-discovered from those results), plus Ashby and SmartRecruiters"
+        " for the companies listed in [config/extra_job_boards.yml](config/extra_job_boards.yml).",
+        "2. **Build** — [scripts/build_data_readme.py](scripts/build_data_readme.py) turns the raw JSON in [data/](data/) into the readable"
+        " tables in this file and in [data/README.md](data/README.md).",
+        "3. **Publish** — a [GitHub Actions workflow](.github/workflows/daily-activity.yml) runs this pipeline hourly, opens a pull request"
+        " with whatever changed, and auto-merges it. No manual steps.",
+        "",
+        "Curious about a specific run? Check the [workflow runs](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml)"
+        " or the day-by-day notes in [log/](log/).",
+        "",
+        "## Want a job source added?",
+        "",
+        "- **Track one more company** on a platform we already support (Ashby or SmartRecruiters) — add its board token to"
+        " [config/extra_job_boards.yml](config/extra_job_boards.yml). Greenhouse and Lever companies need no config at all; they're picked up"
+        " automatically the first time one of their postings shows up from another source.",
+        "- **Change which companies are accepted** — edit [config/companies_allowlist.yml](config/companies_allowlist.yml). Both of these are"
+        " plain YAML lists, no coding required.",
+        "- **Add a brand-new job board/API** (like Remotive or SimplifyJobs) — this needs a short fetcher function in"
+        " [scripts/fetch.py](scripts/fetch.py) or [scripts/public_sources.py](scripts/public_sources.py), since each API has its own shape.",
+        "",
+        "Not comfortable writing YAML or Python? Open an issue with the company or board name and someone will add it.",
+        "",
+        "## Career resources",
+        "",
+        "Free, well-known resources people use alongside this list to prepare for software engineering interviews at FAANG and other"
+        " top tech companies:",
+        "",
+        "| Resource | What it's for |",
+        "|---|---|",
+        "| [NeetCode](https://neetcode.io/) | Coding interview problems organized by pattern, with free video explanations |",
+        "| [Grind75](https://www.grind75.com/) | A free, prioritized coding-interview study plan (the spiritual successor to Blind75) |",
+        "| [Tech Interview Handbook](https://www.techinterviewhandbook.org/) | Free guide covering resumes, behavioral questions, and interview strategy |",
+        "| [System Design Primer](https://github.com/donnemartin/system-design-primer) | The most-starred free guide to system design interviews |",
+        "| [Levels.fyi](https://www.levels.fyi/) | Crowdsourced compensation data to benchmark and negotiate offers |",
+        "",
+        "## Repository layout",
+        "",
+        "| Path | What's in it |",
+        "|---|---|",
+        "| [data/README.md](data/README.md) | The combined, human-readable table of every open opportunity |",
+        "| [data/](data/) | Raw JSON the tables are generated from |",
+        "| [config/companies_allowlist.yml](config/companies_allowlist.yml) | Which companies' listings are accepted |",
+        "| [config/extra_job_boards.yml](config/extra_job_boards.yml) | Ashby/SmartRecruiters companies to track |",
+        "| [scripts/](scripts/) | The fetch/build pipeline (Python) |",
+        "| [log/](log/) | One line per automated run, grouped by month |",
+        "| [tests/](tests/) | Automated tests for the pipeline scripts |",
         "",
         "## Notes",
         "",
-        "- The data page is generated from the JSON outputs in `data/`.",
-        "- Raw JSON stays separate from the single Markdown view.",
+        "- This README and [data/README.md](data/README.md) are generated files — edits should go through"
+        " [scripts/build_data_readme.py](scripts/build_data_readme.py) so they survive the next automated run.",
+        "- Raw JSON stays separate from the Markdown views so either can be consumed independently.",
     ]) + "\n"
 
 
@@ -465,6 +521,8 @@ def main() -> int:
         "curated_roles": len(curated_jobs),
         "public_opportunities": len(public_jobs) + len(hackathons) + len(events),
         "jobs_total": len(filtered_jobs),
+        "hackathons_total": len(hackathons),
+        "events_total": len(events),
         "total_items": len(filtered_jobs) + len(hackathons) + len(events),
         "level_counts": level_counts,
     }
@@ -472,7 +530,7 @@ def main() -> int:
     now_text = datetime.date.today().isoformat()
     DATA_OUT.mkdir(parents=True, exist_ok=True)
     DATA_README.write_text(render_data_readme(now_text, stats, all_jobs, hackathons, events), encoding="utf-8")
-    ROOT_README.write_text(render_root_readme(stats), encoding="utf-8")
+    ROOT_README.write_text(render_root_readme(now_text, stats), encoding="utf-8")
     print(f"Wrote {DATA_README}")
     print(f"Wrote {ROOT_README}")
     return 0
