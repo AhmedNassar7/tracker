@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 109 |
+| Jobs | 110 |
 | Hackathons | 2 |
-| Events | 14 |
-| Total | 125 |
+| Events | 8 |
+| Total | 120 |
 
 ## Jobs
 
-[![Jobs 109](https://img.shields.io/badge/Jobs-109-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 22](https://img.shields.io/badge/Internship-22-22c55e.svg)](#internship) [![Early Career 17](https://img.shields.io/badge/Early%20Career-17-0ea5e9.svg)](#early-career) [![Mid-Level and Above 70](https://img.shields.io/badge/Mid--Level%20and%20Above-70-dc2626.svg)](#mid-level-and-above)
+[![Jobs 110](https://img.shields.io/badge/Jobs-110-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 22](https://img.shields.io/badge/Internship-22-22c55e.svg)](#internship) [![Early Career 17](https://img.shields.io/badge/Early%20Career-17-0ea5e9.svg)](#early-career) [![Mid-Level and Above 71](https://img.shields.io/badge/Mid--Level%20and%20Above-71-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -91,19 +91,20 @@ Total roles: 17
 
 ### Mid-Level and Above
 
-Total roles: 70
+Total roles: 71
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000137834080) | London, United Kingdom | 0d |
 | Wise | [Senior iOS Engineer â€“ Send Experience](https://jobs.smartrecruiters.com/Wise/744000137820489) | London, United Kingdom | 0d |
+| Wise | [Senior Software Engineer II - FinCrime - Scam Prevention Team](https://jobs.smartrecruiters.com/Wise/744000137927403) | London, United Kingdom | 0d |
 | Wise | [Senior Software Engineer II - Payin Platform - Backend (Java)](https://jobs.smartrecruiters.com/Wise/744000137863319) | London, United Kingdom | 0d |
+| Wise | [Software Engineer - Recurring Payin](https://jobs.smartrecruiters.com/Wise/744000137942542) | London, United Kingdom | 0d |
 | Notion | [Software Engineer, AI Platform](https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1) | San Francisco, California | 1d |
 | Wise | [Senior Software Engineer I - KYC Experience](https://jobs.smartrecruiters.com/Wise/744000137388120) | London, United Kingdom | 2d |
 | Ramp | [Software Engineer, Web + Design](https://jobs.ashbyhq.com/ramp/8d61885c-0f08-4267-8ace-69e28b1d3f38) | New York, NY (HQ) | 5d |
 | Wise | [Product Lead - Financial Crime Platform](https://jobs.smartrecruiters.com/Wise/744000137083329) | London, United Kingdom | 5d |
 | Wise | [Senior Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136956138) | Seoul, Korea, republic of | 5d |
-| Wise | [Senior Software Engineer I - FinCrime - Scam Prevention Team](https://jobs.smartrecruiters.com/Wise/744000137158760) | London, United Kingdom | 5d |
 | Wise | [Senior Software Engineer II - Wise for Enterprise](https://jobs.smartrecruiters.com/Wise/744000137154630) | London, United Kingdom | 5d |
 | Wise | [Senior Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000137062525) | Budapest, Hungary | 5d |
 | Wise | [Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136954197) | Seoul, Korea, republic of | 5d |
@@ -177,24 +178,18 @@ Total hackathons: 2
 
 ## Events
 
-Total events: 14
+Total events: 8
 
 | Organizer | Event |
 |---|---|
-| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
-| Luma | [Follow Big Brain Lectures](https://lu.ma/Big-Brain-SF?k=c) |
-| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Design](https://lu.ma/design?k=c) |
-| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
 | Luma | [Follow OpenClaw](https://lu.ma/claw?k=c) |
 | Luma | [Follow Reading](https://lu.ma/readingrhythms-global?k=c) |
-| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 | Luma | [Follow South](https://lu.ma/southparkcommons-events?k=c) |
 | Luma | [Follow Story](https://lu.ma/storywalk?k=c) |
-| Luma | [Follow tiat](https://lu.ma/tiat?k=c) |
 
 ## Source Files
 
