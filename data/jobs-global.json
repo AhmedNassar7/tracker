@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T16:40:47Z",
+  "generated_at": "2026-07-16T23:10:13Z",
   "total": 17,
   "jobs": [
     {
@@ -203,26 +203,6 @@
       ]
     },
     {
-      "id": "585bc93f2cf40eda",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "28d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7b7b4713bfe78653",
       "company": "Apple",
       "title": "Machine Learning and Artificial Intelligence Undergraduate Intern",
@@ -255,6 +235,26 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-07-15",
       "age": "1mo",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "585bc93f2cf40eda",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "28d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
