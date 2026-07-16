@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T06:30:51Z",
+  "generated_at": "2026-07-16T09:27:19Z",
   "total": 16,
   "jobs": [
     {
@@ -43,26 +43,6 @@
       ]
     },
     {
-      "id": "a2074999bf3dbf58",
-      "company": "Citadel",
-      "title": "Software Engineer – University Graduate",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "<details><summary><strong>4 locations</strong></summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details>",
-      "remote_type": "onsite",
-      "url": "https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "9d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f73dd927af2286fb",
       "company": "Notion",
       "title": "Software Engineer – Early Career",
@@ -93,6 +73,26 @@
       "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-15",
+      "age": "9d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a2074999bf3dbf58",
+      "company": "Citadel",
+      "title": "Software Engineer – University Graduate",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "<details><summary><strong>4 locations</strong></summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details>",
+      "remote_type": "onsite",
+      "url": "https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
       "collected_at": "2026-07-15T12:58:43Z",
