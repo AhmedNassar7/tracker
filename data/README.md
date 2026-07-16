@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 105 |
+| Jobs | 104 |
 | Hackathons | 2 |
-| Events | 14 |
-| Total | 121 |
+| Events | 8 |
+| Total | 114 |
 
 ## Jobs
 
-[![Jobs 105](https://img.shields.io/badge/Jobs-105-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 68](https://img.shields.io/badge/Mid--Level%20and%20Above-68-dc2626.svg)](#mid-level-and-above)
+[![Jobs 104](https://img.shields.io/badge/Jobs-104-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 67](https://img.shields.io/badge/Mid--Level%20and%20Above-67-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -89,7 +89,7 @@ Total roles: 16
 
 ### Mid-Level and Above
 
-Total roles: 68
+Total roles: 67
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -112,7 +112,6 @@ Total roles: 68
 | Wise | [Senior Software Engineer, Business Pricing](https://jobs.smartrecruiters.com/Wise/744000136773132) | London, United Kingdom | 7d |
 | Wise | [Software Engineer - Microsoft Business Central Specialist](https://jobs.smartrecruiters.com/Wise/744000136863378) | Tallinn, Estonia | 7d |
 | Wise | [Staff Software Engineer - Global KYC and Onboarding](https://jobs.smartrecruiters.com/Wise/744000136858422) | London, United Kingdom | 7d |
-| Wise | [Senior Software Engineer - Finance Core Accounting](https://jobs.smartrecruiters.com/Wise/744000136492269) | Tallinn, Estonia | 8d |
 | Notion | [Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) | New York, New York | 14d |
 | Palantir | [Forward Deployed Software Engineer - Spain](https://jobs.lever.co/palantir/53fb4c05-f949-4146-a046-5c063c36a628) | Madrid, Spain | 17d |
 | Ramp | [Software Engineer, Developer API](https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138) | New York, NY (HQ) | 17d |
@@ -173,24 +172,18 @@ Total hackathons: 2
 
 ## Events
 
-Total events: 14
+Total events: 8
 
 | Organizer | Event |
 |---|---|
-| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
-| Luma | [Follow Big Brain Lectures](https://lu.ma/Big-Brain-SF?k=c) |
-| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Design](https://lu.ma/design?k=c) |
-| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
 | Luma | [Follow OpenClaw](https://lu.ma/claw?k=c) |
 | Luma | [Follow Reading](https://lu.ma/readingrhythms-global?k=c) |
-| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 | Luma | [Follow South](https://lu.ma/southparkcommons-events?k=c) |
 | Luma | [Follow Story](https://lu.ma/storywalk?k=c) |
-| Luma | [Follow tiat](https://lu.ma/tiat?k=c) |
 
 ## Source Files
 
