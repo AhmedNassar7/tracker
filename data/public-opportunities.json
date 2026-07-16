@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T14:21:44Z",
-  "total": 208,
+  "generated_at": "2026-07-16T16:40:49Z",
+  "total": 206,
   "jobs": [
     {
       "id": "1ea9315dcad81827",
@@ -17,6 +17,34 @@
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
+      "id": "bdb596a2011b60fb",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Backend Engineer for Acquiring Risk",
+      "location": "London, United Kingdom",
+      "level": "other",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "2026-07-16",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138152479",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
+      "id": "b730859d5d69d03d",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Senior Java Software Engineer- Continuous Delivery (CD)",
+      "location": "London, United Kingdom",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-16",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138162069",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
       "id": "22e3c4dc30bfa828",
       "kind": "job",
       "company": "Wise",
@@ -27,6 +55,20 @@
       "date": "0d",
       "posted_at": "2026-07-16",
       "url": "https://jobs.smartrecruiters.com/Wise/744000138127429",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
+      "id": "4c6c7c4f26c4af72",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Staff Software Engineer - Global KYC and Onboarding",
+      "location": "London, United Kingdom",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-16",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138147299",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -237,62 +279,6 @@
       "date": "6d",
       "posted_at": "2026-07-10",
       "url": "https://jobs.smartrecruiters.com/Wise/744000136954197",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "79955bf943cfe799",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Senior Software Engineer - Global KYC and Onboarding - Java",
-      "location": "London, United Kingdom",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-07-09",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000136776449",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "5cea5d73b2a6c837",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Senior Software Engineer, Business Pricing",
-      "location": "London, United Kingdom",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-07-09",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000136773132",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "1e6b56d2efa9b589",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Software Engineer - Microsoft Business Central Specialist",
-      "location": "Tallinn, Estonia",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-07-09",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000136863378",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "fc33732ec09076f6",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Staff Software Engineer - Global KYC and Onboarding",
-      "location": "London, United Kingdom",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-07-09",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000136858422",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -2833,18 +2819,6 @@
       "date": "",
       "posted_at": "2026-07-16",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "021eb057c47f4ed6",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-16",
-      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },

@@ -29,12 +29,12 @@ Every row links straight to the real application page. Click a title to apply â€
 |---|---:|
 | Jobs | 103 |
 | Hackathons | 2 |
-| Events | 9 |
-| Total | 114 |
+| Events | 8 |
+| Total | 113 |
 
 ## Jobs
 
-[![Jobs 103](https://img.shields.io/badge/Jobs-103-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 66](https://img.shields.io/badge/Mid--Level%20and%20Above-66-dc2626.svg)](#mid-level-and-above)
+[![Jobs 103](https://img.shields.io/badge/Jobs-103-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 17](https://img.shields.io/badge/Early%20Career-17-0ea5e9.svg)](#early-career) [![Mid-Level and Above 65](https://img.shields.io/badge/Mid--Level%20and%20Above-65-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -66,7 +66,7 @@ Total roles: 21
 
 ### Early Career
 
-Total roles: 16
+Total roles: 17
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -79,6 +79,7 @@ Total roles: 16
 | Notion | [Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) | San Francisco, California | 10d |
 | Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California | 10d |
 | Palantir | [Software Engineer New Grad - Production Infrastructure](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 15d |
+| Palantir | [Forward Deployed Software Engineer New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify) | NYC | 17d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 17d |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 28d |
 | Stripe | [Software Engineer New Grad](https://stripe.com/jobs/search?gh_jid=7991718&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 1mo |
@@ -89,12 +90,15 @@ Total roles: 16
 
 ### Mid-Level and Above
 
-Total roles: 66
+Total roles: 65
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138101410) | London, United Kingdom (Remote) | 0d |
+| Wise | [Backend Engineer for Acquiring Risk](https://jobs.smartrecruiters.com/Wise/744000138152479) | London, United Kingdom | 0d |
+| Wise | [Senior Java Software Engineer- Continuous Delivery (CD)](https://jobs.smartrecruiters.com/Wise/744000138162069) | London, United Kingdom | 0d |
 | Wise | [Sr Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138127429) | London, England, United Kingdom | 0d |
+| Wise | [Staff Software Engineer - Global KYC and Onboarding](https://jobs.smartrecruiters.com/Wise/744000138147299) | London, United Kingdom | 0d |
 | Wise | [Senior iOS Engineer â€“ Send Experience](https://jobs.smartrecruiters.com/Wise/744000137820489) | London, United Kingdom | 1d |
 | Wise | [Senior Software Engineer II - FinCrime - Scam Prevention Team](https://jobs.smartrecruiters.com/Wise/744000137927403) | London, United Kingdom | 1d |
 | Wise | [Senior Software Engineer II - Payin Platform - Backend (Java)](https://jobs.smartrecruiters.com/Wise/744000137863319) | London, United Kingdom | 1d |
@@ -107,10 +111,6 @@ Total roles: 66
 | Wise | [Senior Software Engineer II - Wise for Enterprise](https://jobs.smartrecruiters.com/Wise/744000137154630) | London, United Kingdom | 6d |
 | Wise | [Senior Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000137062525) | Budapest, Hungary | 6d |
 | Wise | [Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136954197) | Seoul, Korea, republic of | 6d |
-| Wise | [Senior Software Engineer - Global KYC and Onboarding - Java](https://jobs.smartrecruiters.com/Wise/744000136776449) | London, United Kingdom | 7d |
-| Wise | [Senior Software Engineer, Business Pricing](https://jobs.smartrecruiters.com/Wise/744000136773132) | London, United Kingdom | 7d |
-| Wise | [Software Engineer - Microsoft Business Central Specialist](https://jobs.smartrecruiters.com/Wise/744000136863378) | Tallinn, Estonia | 7d |
-| Wise | [Staff Software Engineer - Global KYC and Onboarding](https://jobs.smartrecruiters.com/Wise/744000136858422) | London, United Kingdom | 7d |
 | Notion | [Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) | New York, New York | 14d |
 | Palantir | [Forward Deployed Software Engineer - Spain](https://jobs.lever.co/palantir/53fb4c05-f949-4146-a046-5c063c36a628) | Madrid, Spain | 17d |
 | Ramp | [Software Engineer, Developer API](https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138) | New York, NY (HQ) | 17d |
@@ -171,7 +171,7 @@ Total hackathons: 2
 
 ## Events
 
-Total events: 9
+Total events: 8
 
 | Organizer | Event |
 |---|---|
@@ -179,7 +179,6 @@ Total events: 9
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Design](https://lu.ma/design?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow mHUB](https://lu.ma/mHUB_Events?k=c) |
 | Luma | [Follow OpenClaw](https://lu.ma/claw?k=c) |
 | Luma | [Follow Reading](https://lu.ma/readingrhythms-global?k=c) |
 | Luma | [Follow South](https://lu.ma/southparkcommons-events?k=c) |
