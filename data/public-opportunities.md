@@ -1,14 +1,17 @@
 # Public Opportunities
 
-Generated at: 2026-07-16T14:21:44Z
+Generated at: 2026-07-16T16:40:49Z
 
 This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma). For the full combined list, see [README.md](README.md) or the [project overview](../README.md).
 
-Total: 208
+Total: 206
 
 ## Jobs
 - [Wise - Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138101410) (London, United Kingdom (Remote)) - 0d
+- [Wise - Backend Engineer for Acquiring Risk](https://jobs.smartrecruiters.com/Wise/744000138152479) (London, United Kingdom) - 0d
+- [Wise - Senior Java Software Engineer- Continuous Delivery (CD)](https://jobs.smartrecruiters.com/Wise/744000138162069) (London, United Kingdom) - 0d
 - [Wise - Sr Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138127429) (London, England, United Kingdom) - 0d
+- [Wise - Staff Software Engineer - Global KYC and Onboarding](https://jobs.smartrecruiters.com/Wise/744000138147299) (London, United Kingdom) - 0d
 - [Wise - Senior iOS Engineer – Send Experience](https://jobs.smartrecruiters.com/Wise/744000137820489) (London, United Kingdom) - 1d
 - [Wise - Senior Software Engineer II - FinCrime - Scam Prevention Team](https://jobs.smartrecruiters.com/Wise/744000137927403) (London, United Kingdom) - 1d
 - [Wise - Senior Software Engineer II - Payin Platform - Backend (Java)](https://jobs.smartrecruiters.com/Wise/744000137863319) (London, United Kingdom) - 1d
@@ -24,10 +27,6 @@ Total: 208
 - [Wise - Senior Software Engineer II - Wise for Enterprise](https://jobs.smartrecruiters.com/Wise/744000137154630) (London, United Kingdom) - 6d
 - [Wise - Senior Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000137062525) (Budapest, Hungary) - 6d
 - [Wise - Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136954197) (Seoul, Korea, republic of) - 6d
-- [Wise - Senior Software Engineer - Global KYC and Onboarding - Java](https://jobs.smartrecruiters.com/Wise/744000136776449) (London, United Kingdom) - 7d
-- [Wise - Senior Software Engineer, Business Pricing](https://jobs.smartrecruiters.com/Wise/744000136773132) (London, United Kingdom) - 7d
-- [Wise - Software Engineer - Microsoft Business Central Specialist](https://jobs.smartrecruiters.com/Wise/744000136863378) (Tallinn, Estonia) - 7d
-- [Wise - Staff Software Engineer - Global KYC and Onboarding](https://jobs.smartrecruiters.com/Wise/744000136858422) (London, United Kingdom) - 7d
 - [Notion - Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) (San Francisco, California) - 10d
 - [Notion - Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) (San Francisco, California) - 10d
 - [Notion - Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) (New York, New York) - 14d
@@ -214,7 +213,6 @@ Total: 208
 - [Follow Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Follow Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
 - [Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
-- [Follow mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Follow OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Follow Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
 - [Follow South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
