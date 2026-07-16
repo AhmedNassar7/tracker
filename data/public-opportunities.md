@@ -1,13 +1,14 @@
 # Public Opportunities
 
-Generated at: 2026-07-16T11:53:48Z
+Generated at: 2026-07-16T14:21:44Z
 
 This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma). For the full combined list, see [README.md](README.md) or the [project overview](../README.md).
 
 Total: 208
 
 ## Jobs
-- [Wise - Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000137834080) (London, United Kingdom) - 1d
+- [Wise - Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138101410) (London, United Kingdom (Remote)) - 0d
+- [Wise - Sr Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138127429) (London, England, United Kingdom) - 0d
 - [Wise - Senior iOS Engineer – Send Experience](https://jobs.smartrecruiters.com/Wise/744000137820489) (London, United Kingdom) - 1d
 - [Wise - Senior Software Engineer II - FinCrime - Scam Prevention Team](https://jobs.smartrecruiters.com/Wise/744000137927403) (London, United Kingdom) - 1d
 - [Wise - Senior Software Engineer II - Payin Platform - Backend (Java)](https://jobs.smartrecruiters.com/Wise/744000137863319) (London, United Kingdom) - 1d
@@ -23,9 +24,7 @@ Total: 208
 - [Wise - Senior Software Engineer II - Wise for Enterprise](https://jobs.smartrecruiters.com/Wise/744000137154630) (London, United Kingdom) - 6d
 - [Wise - Senior Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000137062525) (Budapest, Hungary) - 6d
 - [Wise - Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136954197) (Seoul, Korea, republic of) - 6d
-- [Wise - Sr Software Engineer II - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000137113509) (London, England, United Kingdom) - 6d
 - [Wise - Senior Software Engineer - Global KYC and Onboarding - Java](https://jobs.smartrecruiters.com/Wise/744000136776449) (London, United Kingdom) - 7d
-- [Wise - Senior Software Engineer - Marketing Platform](https://jobs.smartrecruiters.com/Wise/744000136774132) (London, United Kingdom) - 7d
 - [Wise - Senior Software Engineer, Business Pricing](https://jobs.smartrecruiters.com/Wise/744000136773132) (London, United Kingdom) - 7d
 - [Wise - Software Engineer - Microsoft Business Central Specialist](https://jobs.smartrecruiters.com/Wise/744000136863378) (Tallinn, Estonia) - 7d
 - [Wise - Staff Software Engineer - Global KYC and Onboarding](https://jobs.smartrecruiters.com/Wise/744000136858422) (London, United Kingdom) - 7d
@@ -215,6 +214,7 @@ Total: 208
 - [Follow Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Follow Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
 - [Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
+- [Follow mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events](/mHUB_Events?k=c)
 - [Follow OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Follow Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
 - [Follow South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)

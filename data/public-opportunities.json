@@ -1,18 +1,32 @@
 {
-  "generated_at": "2026-07-16T11:53:48Z",
+  "generated_at": "2026-07-16T14:21:44Z",
   "total": 208,
   "jobs": [
     {
-      "id": "3d0bf76d44d35b46",
+      "id": "1ea9315dcad81827",
       "kind": "job",
       "company": "Wise",
       "title": "Backend Engineer - Account Sharing",
-      "location": "London, United Kingdom",
+      "location": "London, United Kingdom (Remote)",
       "level": "other",
       "role_type": "backend",
-      "date": "1d",
-      "posted_at": "2026-07-15",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000137834080",
+      "date": "0d",
+      "posted_at": "2026-07-16",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138101410",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
+      "id": "22e3c4dc30bfa828",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Sr Software Engineer - Fincrime - Scam Prevention",
+      "location": "London, England, United Kingdom",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-16",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138127429",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -227,20 +241,6 @@
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
-      "id": "c3c95135d4689d35",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Sr Software Engineer II - Fincrime - Scam Prevention",
-      "location": "London, England, United Kingdom",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "6d",
-      "posted_at": "2026-07-10",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000137113509",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
       "id": "79955bf943cfe799",
       "kind": "job",
       "company": "Wise",
@@ -251,20 +251,6 @@
       "date": "7d",
       "posted_at": "2026-07-09",
       "url": "https://jobs.smartrecruiters.com/Wise/744000136776449",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "2de13a8412cfe948",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Senior Software Engineer - Marketing Platform",
-      "location": "London, United Kingdom",
-      "level": "other",
-      "role_type": "platform",
-      "date": "7d",
-      "posted_at": "2026-07-09",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000136774132",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -2847,6 +2833,18 @@
       "date": "",
       "posted_at": "2026-07-16",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "021eb057c47f4ed6",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow mHUB Events Chicago · Join the mHUB innovation center's marquee events from networking receptions to fireside chats and conferences. For a list of all upcoming events at mHUB, visit: https://www.mhubchicago.com/events",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-16",
+      "url": "/mHUB_Events?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
