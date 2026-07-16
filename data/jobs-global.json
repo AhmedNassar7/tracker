@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T23:12:49Z",
+  "generated_at": "2026-07-16T06:30:51Z",
   "total": 16,
   "jobs": [
     {
@@ -43,26 +43,6 @@
       ]
     },
     {
-      "id": "9b738d3d019be839",
-      "company": "Citadel",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "<details><summary><strong>4 locations</strong></summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details>",
-      "remote_type": "onsite",
-      "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-15",
-      "age": "9d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a2074999bf3dbf58",
       "company": "Citadel",
       "title": "Software Engineer – University Graduate",
@@ -95,6 +75,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "8d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9b738d3d019be839",
+      "company": "Citadel",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "<details><summary><strong>4 locations</strong></summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details>",
+      "remote_type": "onsite",
+      "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-15",
+      "age": "9d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
