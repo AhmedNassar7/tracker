@@ -29,8 +29,8 @@ Every row links straight to the real application page. Click a title to apply â€
 |---|---:|
 | Jobs | 103 |
 | Hackathons | 2 |
-| Events | 8 |
-| Total | 113 |
+| Events | 9 |
+| Total | 114 |
 
 ## Jobs
 
@@ -171,7 +171,7 @@ Total hackathons: 2
 
 ## Events
 
-Total events: 8
+Total events: 9
 
 | Organizer | Event |
 |---|---|
@@ -179,6 +179,7 @@ Total events: 8
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Design](https://lu.ma/design?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow mHUB](https://lu.ma/mHUB_Events?k=c) |
 | Luma | [Follow OpenClaw](https://lu.ma/claw?k=c) |
 | Luma | [Follow Reading](https://lu.ma/readingrhythms-global?k=c) |
 | Luma | [Follow South](https://lu.ma/southparkcommons-events?k=c) |
