@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-17T15:38:29Z",
-  "total": 17,
+  "generated_at": "2026-07-17T19:31:50Z",
+  "total": 24,
   "jobs": [
     {
       "id": "d530f67da5b76ff6",
@@ -103,6 +103,26 @@
       ]
     },
     {
+      "id": "15d1542d38db74c4",
+      "company": "Palo Alto Networks",
+      "title": "Software Engineer Intern 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "California",
+      "remote_type": "onsite",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011595?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "15d",
+      "collected_at": "2026-07-17T19:31:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "26ec41004b2d610b",
       "company": "Citadel Securities",
       "title": "Machine Learning Researcher PhD Intern 🎓",
@@ -136,6 +156,26 @@
       "posted_at": "2026-07-15",
       "age": "15d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fe5669a53ce7b6e5",
+      "company": "Tesla",
+      "title": "Data Engineer Intern - Applications Engineering",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Fremont, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "17d",
+      "collected_at": "2026-07-17T19:31:50Z",
       "tags": [
         "software",
         "programming",
@@ -223,6 +263,26 @@
       ]
     },
     {
+      "id": "7791f533fabbb7ec",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - Developer Infrastructure",
+      "level": "internship",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7595707875767699765/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "1mo",
+      "collected_at": "2026-07-17T19:31:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "854c2196ea82b88d",
       "company": "Oracle",
       "title": "Software Engineer Intern",
@@ -283,6 +343,66 @@
       ]
     },
     {
+      "id": "ada48cd0c30bc88e",
+      "company": "Tesla",
+      "title": "Embedded Software Engineer Intern - Embedded Software Engineer - Body Controls Firmware",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/270618?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "1mo",
+      "collected_at": "2026-07-17T19:31:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9f006435922a11f8",
+      "company": "Tesla",
+      "title": "Embedded Software Engineer Intern - Embedded Software Engineer - Steering,Chassis Systems",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/274047?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "30d",
+      "collected_at": "2026-07-17T19:31:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "09808599addeeb14",
+      "company": "Tesla",
+      "title": "Software Engineer Intern - Software Engineer - AI Hardware Infrastructure",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/260382?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "1mo",
+      "collected_at": "2026-07-17T19:31:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cfb5f03e5469f465",
       "company": "Notion",
       "title": "Software Engineer – New Grad",
@@ -316,6 +436,26 @@
       "posted_at": "2026-04-28",
       "age": "0d",
       "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9d4da7ab66a34571",
+      "company": "ServiceNow",
+      "title": "Associate Software Engineer, Core Infrastructure - Moveworks 🇺🇸",
+      "level": "entry_level",
+      "country": "Unknown",
+      "location": "Mountain View, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/2274d8e3-af4a-4935-b065-f65622b5ea3f?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-17",
+      "age": "2mo",
+      "collected_at": "2026-07-17T19:31:50Z",
       "tags": [
         "software",
         "programming",
