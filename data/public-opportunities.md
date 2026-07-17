@@ -1,10 +1,10 @@
 # Public Opportunities
 
-Generated at: 2026-07-17T06:27:10Z
+Generated at: 2026-07-17T09:21:03Z
 
 This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma). For the full combined list, see [README.md](README.md) or the [project overview](../README.md).
 
-Total: 205
+Total: 204
 
 ## Jobs
 - [Wise - Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138101410) (London, United Kingdom (Remote)) - 1d
@@ -25,7 +25,6 @@ Total: 205
 - [Wise - Product Lead - Financial Crime Platform](https://jobs.smartrecruiters.com/Wise/744000137083329) (London, United Kingdom) - 7d
 - [Wise - Senior Software Engineer II - Wise for Enterprise](https://jobs.smartrecruiters.com/Wise/744000137154630) (London, United Kingdom) - 7d
 - [Wise - Senior Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000137062525) (Budapest, Hungary) - 7d
-- [Wise - Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136954197) (Seoul, Korea, republic of) - 7d
 - [Notion - Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) (San Francisco, California) - 11d
 - [Notion - Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) (San Francisco, California) - 11d
 - [Notion - Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) (New York, New York) - 15d

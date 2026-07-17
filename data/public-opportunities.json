@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-17T06:27:10Z",
-  "total": 205,
+  "generated_at": "2026-07-17T09:21:03Z",
+  "total": 204,
   "jobs": [
     {
       "id": "1ea9315dcad81827",
@@ -251,20 +251,6 @@
       "date": "7d",
       "posted_at": "2026-07-10",
       "url": "https://jobs.smartrecruiters.com/Wise/744000137062525",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "1bbd7ca8ab4de06e",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Software Engineer - APAC Expansion (Korea)",
-      "location": "Seoul, Korea, republic of",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-07-10",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000136954197",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
