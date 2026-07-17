@@ -1,10 +1,10 @@
 # Public Opportunities
 
-Generated at: 2026-07-17T19:32:05Z
+Generated at: 2026-07-17T21:07:28Z
 
 This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma). For the full combined list, see [README.md](README.md) or the [project overview](../README.md).
 
-Total: 548
+Total: 546
 
 ## Jobs
 - [NVIDIA - Principal Platform Software Engineer - RAS](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/XMLNAME--Principal-Platform-Software-Engineer---RAS_JR2011909) (2 Locations) - 0d
@@ -21,6 +21,7 @@ Total: 548
 - [NVIDIA - Software Engineer, DOCA SDK](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer--DOCA-SDK_JR2021303) (Israel, Yokneam) - 0d
 - [NVIDIA - Software Engineer, NVIDIA OpenShell](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Software-Engineer--NVIDIA-OpenShell_JR2017604) (US, CA, Remote) - 0d
 - [NVIDIA - System Software Engineer, GPU Development Tools](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--GPU-Development-Tools_JR2015188) (2 Locations) - 0d
+- [NVIDIA - Systems Software Engineer, Accelerated Kubernetes Performance and Scale - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957) (2 Locations) - 0d
 - [Openai - Backend Software Engineer, API Enterprise Controls](https://jobs.ashbyhq.com/openai/d0956b18-4f80-4c67-b94b-313181a16be6) (San Francisco) - 0d
 - [Openai - Senior Staff Software Engineer, Engineering Acceleration | Consumer Devices](https://jobs.ashbyhq.com/openai/fced529d-4523-436d-9559-cf1a8321b0fa) (San Francisco) - 0d
 - [Openai - Systems Generalist, GPT Infrastructure](https://jobs.ashbyhq.com/openai/78c2a68b-cc77-4c62-8891-96afb603650a) (San Francisco) - 0d
@@ -29,10 +30,7 @@ Total: 548
 - [Palo Alto Networks - Senior Staff Software Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Senior-Software-Developer_JR-018014) (Office - India - CyberArk Hyderabad) - 0d
 - [Wise - Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138299259) (London, United Kingdom (Remote)) - 0d
 - [Wise - Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138372564) (London, England, United Kingdom) - 0d
-- [NVIDIA - DevOps Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/DevOps-Engineer_JR2020630) (Israel, Yokneam) - 1d
 - [NVIDIA - Engineering Manager, Agentic GenAI Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Deep-Learning-Algorithms_JR2020646) (US, CA, Santa Clara) - 1d
-- [NVIDIA - Manager, AIR SaaS Platform Verification](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Manager--AIR-SaaS-Platform-Verification_JR2021309) (Israel, Tel Aviv) - 1d
-- [NVIDIA - Principal Software Engineer - Cloud Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Cloud-Services_JR2021408) (2 Locations) - 1d
 - [NVIDIA - Senior Cloud Software Engineer, DGXC Data Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389) (2 Locations) - 1d
 - [NVIDIA - Senior Platform Engineer, Network Infrastructure - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436) (6 Locations) - 1d
 - [NVIDIA - Senior Platform Telemetry Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Telemetry-Engineer_JR2002276) (2 Locations) - 1d
