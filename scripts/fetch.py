@@ -127,7 +127,7 @@ def detect_remote_type(location):
     return "onsite" if location.strip() else "unknown"
 
 def detect_country(location):
-    for rx, _code, country in COUNTRY_MARK_MAP:
+    for rx, country in COUNTRY_MARK_MAP:
         if rx.search(location):
             return country
     if REMOTE_RE.search(location):
@@ -213,6 +213,29 @@ def include_job(row, company):
     level_ok = row["level"] in WANTED_LEVELS or row["level"] == "unknown"
     company_ok = is_allowed_company(company) or row["level"] in {"internship", "new_grad"}
     return level_ok and company_ok
+
+def check_url_alive(url, timeout=8):
+    """Best-effort liveness check for a job's apply link. Only a confirmed
+    404/410 counts as dead — anything else (403 bot-blocking, 429 rate limits,
+    timeouts, DNS hiccups) is treated as "can't tell, assume alive" so a flaky
+    check never wrongly archives a live posting.
+    """
+    if not url:
+        return True
+    for method in ("HEAD", "GET"):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"}, method=method)
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                return response.status < 400
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):
+                return False
+            if e.code == 405 and method == "HEAD":
+                continue  # some ATS boards reject HEAD; retry with GET
+            return True
+        except Exception:
+            return True
+    return True
 
 def fetch_url(url, dest, timeout=25):
     try:
@@ -531,6 +554,7 @@ def write_outputs(rows):
         job_sort_key=_job_sort_key,
         log_info=log_info,
         log_error=log_error,
+        check_url_alive=check_url_alive,
     )
 
 

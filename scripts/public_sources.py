@@ -7,9 +7,9 @@ to widen coverage:
 - Luma discovery pages
 - Greenhouse public job board API (auto-discovered from existing job URLs)
 - Lever public postings JSON (auto-discovered from existing job URLs)
+- Workday CXS jobs API (auto-discovered from existing job URLs)
 - Ashby public job board API (companies listed in config/extra_job_boards.yml)
 - SmartRecruiters public postings API (companies listed in config/extra_job_boards.yml)
-- Workday page support (generic HTML extraction; enable per-source)
 """
 
 from __future__ import annotations
@@ -144,6 +144,22 @@ def fetch_json(url):
     return json.loads(fetch_url(url))
 
 
+def fetch_json_post(url, payload, timeout=25):
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={
+            "User-Agent": "tracker-bot/1.0",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8", errors="replace"))
+
+
 def extract_greenhouse_board_token(job_url):
     parsed = urlparse(job_url)
     host = parsed.netloc.lower()
@@ -174,6 +190,22 @@ def extract_lever_slug(job_url):
     return ""
 
 
+def extract_workday_site(job_url):
+    """Return (host, site) for a Workday-hosted job URL, e.g.
+    "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/..." ->
+    ("nvidia.wd5.myworkdayjobs.com", "NVIDIAExternalCareerSite"). The tenant
+    used by the CXS API is the host's first label ("nvidia").
+    """
+    parsed = urlparse(job_url)
+    host = parsed.netloc.lower()
+    if "workdayjobs.com" not in host:
+        return "", ""
+    path_parts = [part for part in parsed.path.split("/") if part]
+    if not path_parts:
+        return "", ""
+    return host, path_parts[0]
+
+
 def load_seed_jobs():
     path = DATA_OUT / "jobs-global.json"
     if not path.exists():
@@ -201,9 +233,9 @@ def discover_job_board_sources(seed_jobs):
         if lever_slug:
             lever[lever_slug] = company
             continue
-        parsed = urlparse(url)
-        if "workdayjobs.com" in parsed.netloc.lower():
-            workday[parsed.netloc.lower()] = company
+        workday_host, workday_site = extract_workday_site(url)
+        if workday_host and workday_site:
+            workday[(workday_host, workday_site)] = company
     return greenhouse, lever, workday
 
 
@@ -359,6 +391,77 @@ def fetch_smartrecruiters_jobs(company_slug, company_name):
                 "source_url": api_url,
             }
         )
+    return jobs
+
+
+def parse_workday_posted_on(text):
+    """Workday only exposes fuzzy relative dates ("Posted Today", "Posted
+    3 Days Ago", "Posted 30+ Days Ago") rather than a timestamp, so this
+    returns an age string directly instead of a parseable date.
+    """
+    text = (text or "").strip().lower()
+    if not text:
+        return ""
+    if "today" in text:
+        return "0d"
+    if "yesterday" in text:
+        return "1d"
+    match = re.search(r"(\d+)\+?\s*day", text)
+    if match:
+        return f"{match.group(1)}d"
+    return ""
+
+
+def fetch_workday_jobs(host, site, company_name, max_pages=5):
+    """Page through the Workday CXS jobs API. The endpoint hard-caps `limit`
+    at 20 per request (larger values 400), so wide coverage needs pagination
+    rather than one big page like the other board fetchers use.
+    """
+    tenant = host.split(".")[0]
+    api_url = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
+    page_size = 20
+
+    jobs = []
+    for page in range(max_pages):
+        payload = {"appliedFacets": {}, "limit": page_size, "offset": page * page_size, "searchText": ""}
+        try:
+            result = fetch_json_post(api_url, payload)
+        except Exception as exc:
+            if page == 0:
+                log_warn(f"Workday fetch failed for {host}/{site}: {exc}")
+            break
+
+        postings = result.get("jobPostings", [])
+        if not postings:
+            break
+
+        for item in postings:
+            title = clean_text(item.get("title") or "")
+            location = clean_text(item.get("locationsText") or "")
+            external_path = item.get("externalPath") or ""
+            if not (title and external_path) or not is_software_job(title):
+                continue
+            url = f"https://{host}/{site}{external_path}"
+            jobs.append(
+                {
+                    "id": make_id("workday", host, site, title, url),
+                    "kind": "job",
+                    "company": company_name or tenant.title(),
+                    "title": title,
+                    "location": location,
+                    "level": detect_level(title),
+                    "role_type": detect_role_type(title),
+                    "date": parse_workday_posted_on(item.get("postedOn") or ""),
+                    "posted_at": "",
+                    "url": url,
+                    "source": f"workday:{tenant}",
+                    "source_url": api_url,
+                }
+            )
+
+        if len(postings) < page_size:
+            break
+
     return jobs
 
 
@@ -529,7 +632,10 @@ def main():
     seed_jobs = load_seed_jobs()
     greenhouse, lever, workday = discover_job_board_sources(seed_jobs)
 
-    log_info(f"Discovered {len(greenhouse)} Greenhouse boards and {len(lever)} Lever boards from existing jobs")
+    log_info(
+        f"Discovered {len(greenhouse)} Greenhouse boards, {len(lever)} Lever boards, "
+        f"and {len(workday)} Workday hosts from existing jobs"
+    )
 
     rows.extend(fetch_devpost_events())
     rows.extend(fetch_luma_discover())
@@ -550,9 +656,10 @@ def main():
     for token in extra_boards["smartrecruiters"]:
         rows.extend(fetch_smartrecruiters_jobs(token, token.replace("-", " ").title()))
 
-    # Workday support is available as a helper for configurable pages.
+    for (host, site), company in sorted(workday.items()):
+        rows.extend(fetch_workday_jobs(host, site, company))
     if workday:
-        log_info(f"Detected {len(workday)} Workday hosts for future source configuration")
+        log_info(f"Fetched Workday postings from {len(workday)} discovered host(s)")
 
     rows = dedupe(rows)
     write_outputs(rows)

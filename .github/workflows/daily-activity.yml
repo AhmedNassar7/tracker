@@ -91,7 +91,7 @@ jobs:
             - Lever public postings
             - Ashby public job boards
             - SmartRecruiters public postings
-            - Workday public pages (configurable)
+            - Workday CXS job boards (auto-discovered)
           branch: "frequent/global-roles-${{ github.run_id }}"
           delete-branch: true
           labels: automated

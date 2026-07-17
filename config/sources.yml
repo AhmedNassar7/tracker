@@ -51,10 +51,9 @@ sources:
 
 # PER-COMPANY BOARD SOURCES (implemented in scripts/public_sources.py, not this file)
 #
-# - Greenhouse and Lever: no setup needed. Company boards are auto-discovered
-#   from job URLs already present in data/jobs-global.json — the first time a
-#   company's posting shows up via any other source, its board is picked up
-#   on the next run.
+# - Greenhouse, Lever, and Workday: no setup needed. Company boards are
+#   auto-discovered from job URLs already present in data/jobs-global.json —
+#   the first time a company's posting shows up via any other source, its
+#   board is picked up and fetched directly on the next run.
 # - Ashby and SmartRecruiters: no auto-discovery, so companies are curated by
 #   hand in config/extra_job_boards.yml (plain list, no code needed).
-# - Workday: hosts are detected automatically for future use but not yet fetched.

@@ -1,6 +1,6 @@
 # Software Engineering Opportunities
 
-**Last Updated:** 2026-07-15  ·  refreshed hourly  ·  [← back to project overview](../README.md)
+**Last Updated:** 2026-07-17  ·  refreshed hourly  ·  [← back to project overview](../README.md)
 
 Every row links straight to the real application page. Click a title to apply — no account on this repo needed. The **Age** column shows how long ago the listing was posted, so you can spot the newest roles at a glance.
 
@@ -192,13 +192,20 @@ Total events: 8
 
 ## Source Files
 
+The tables above are enough for most people — the files below are the raw data behind them, useful if you want to build something on top of this list (a script, a bot, your own site).
+
 | File | What it contains |
 |---|---|
-| [jobs-global.json](jobs-global.json) | Curated raw data |
-| [public-opportunities.json](public-opportunities.json) | Public raw data |
+| [jobs-global.json](jobs-global.json) | Curated jobs: Remotive, ArbeitNow, SimplifyJobs, filtered to the top-tier company allowlist |
+| [jobs-global-archive.json](jobs-global-archive.json) | Curated jobs that have since closed, gone dead-link, or rolled off the source feed |
+| [jobs-global-latest.md](jobs-global-latest.md) | Human-readable view of the curated feed only, without the public-board jobs |
+| [public-opportunities.json](public-opportunities.json) | Public-board jobs, hackathons, and events: Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma |
+| [public-opportunities.md](public-opportunities.md) | Human-readable view of the public-board feed only |
+| [stats.json](stats.json) | Counts of the curated feed broken down by level, country, and source |
 
 ## Notes
 
 - Use [README.md](../README.md) as the root entry point.
-- Tables are merged from the curated and public feeds.
-- The combined page is rebuilt from JSON outputs.
+- This page merges two feeds: the curated one (top-tier companies only) and the public one (broader board coverage). Both refresh every hour.
+- Looking for interview prep, resume tools, or open-source fellowships instead of a job listing? See [resources.md](resources.md).
+- Everything on this page is generated automatically — don't hand-edit it, since the next hourly run will overwrite it. To change how it's built, edit [scripts/build_data_readme.py](../scripts/build_data_readme.py).

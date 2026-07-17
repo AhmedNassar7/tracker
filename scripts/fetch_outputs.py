@@ -58,7 +58,17 @@ def _render_latest_markdown(public_rows, now_iso):
     return "\n".join(lines) + "\n"
 
 
-def write_fetch_outputs(rows, *, data_out, now_iso, public_job_record, job_sort_key, log_info, log_error):
+def write_fetch_outputs(
+    rows,
+    *,
+    data_out,
+    now_iso,
+    public_job_record,
+    job_sort_key,
+    log_info,
+    log_error,
+    check_url_alive=None,
+):
     rows = sorted(rows, key=job_sort_key)
     public_rows = [public_job_record(row) for row in rows]
 
@@ -71,21 +81,38 @@ def write_fetch_outputs(rows, *, data_out, now_iso, public_job_record, job_sort_
 
     changed = not active_file.exists() or not archive_file.exists()
     merged_public_rows = []
+    newly_closed_rows = []
+    current_ids = set()
+
     for row in public_rows:
         row_id = row["id"]
+        current_ids.add(row_id)
         prev = previous_active_by_id.get(row_id)
         if prev and _job_signature(prev) == _job_signature(row):
-            merged_public_rows.append(prev)
+            candidate = prev
         else:
-            merged_public_rows.append(dict(row))
+            candidate = dict(row)
             changed = True
 
-    archive_rows = dict(previous_archive_by_id)
-    archive_public_rows = sorted(
-        archive_rows.values(),
-        key=lambda x: x.get("closed_at", x.get("collected_at", "")),
-        reverse=True,
-    )
+        # A URL that 404s/410s even though the source still lists the posting —
+        # catches stale scraped data the "still present upstream" check below can't.
+        if check_url_alive is not None and not check_url_alive(candidate.get("url") or ""):
+            log_info(f"Dead link, archiving: {candidate.get('company')} - {candidate.get('title')}")
+            closed = dict(candidate)
+            closed["closed_at"] = now_iso
+            newly_closed_rows.append(closed)
+            changed = True
+            continue
+
+        merged_public_rows.append(candidate)
+
+    # A posting that was active last run but is absent from this run's fetch has
+    # closed (or rolled off the source) — archive it instead of silently dropping it.
+    for row_id in set(previous_active_by_id) - current_ids:
+        closed = dict(previous_active_by_id[row_id])
+        closed["closed_at"] = now_iso
+        newly_closed_rows.append(closed)
+        changed = True
 
     previous_active_order = [row.get("id") for row in previous_active_rows if row.get("id")]
     current_active_order = [row.get("id") for row in merged_public_rows if row.get("id")]
@@ -97,6 +124,15 @@ def write_fetch_outputs(rows, *, data_out, now_iso, public_job_record, job_sort_
         return
 
     public_rows = merged_public_rows
+
+    archive_rows = dict(previous_archive_by_id)
+    for row in newly_closed_rows:
+        archive_rows[row["id"]] = row
+    archive_public_rows = sorted(
+        archive_rows.values(),
+        key=lambda x: x.get("closed_at", x.get("collected_at", "")),
+        reverse=True,
+    )
     payload = {"generated_at": now_iso, "total": len(public_rows), "jobs": public_rows}
     try:
         active_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -81,6 +81,34 @@ def main():
             and not fetch.is_allowed_company("Small Startup Inc"),
         ))
 
+    class _FakeResponse:
+        def __init__(self, status):
+            self.status = status
+        def __enter__(self):
+            return self
+        def __exit__(self, *exc):
+            return False
+
+    import urllib.error
+
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200)):
+        run("check_url_alive treats 200 as alive", lambda: check(
+            "check_url_alive treats 200 as alive",
+            fetch.check_url_alive("https://example.com/job/1") is True,
+        ))
+
+    with patch("urllib.request.urlopen", side_effect=urllib.error.HTTPError("u", 404, "Not Found", {}, None)):
+        run("check_url_alive treats 404 as dead", lambda: check(
+            "check_url_alive treats 404 as dead",
+            fetch.check_url_alive("https://example.com/job/gone") is False,
+        ))
+
+    with patch("urllib.request.urlopen", side_effect=urllib.error.HTTPError("u", 403, "Forbidden", {}, None)):
+        run("check_url_alive treats inconclusive errors as alive", lambda: check(
+            "check_url_alive treats inconclusive errors as alive",
+            fetch.check_url_alive("https://example.com/job/blocked") is True,
+        ))
+
     with patch.object(fetch, "NOW_ISO", "2026-01-01T00:00:00Z"):
         row = fetch.normalize(
             company="Google",
@@ -218,7 +246,7 @@ def main():
     }]
     with tempfile.TemporaryDirectory() as tmp:
         data_out = Path(tmp)
-        with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"):
+        with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"), patch.object(fetch, "check_url_alive", return_value=True):
             fetch.write_outputs(rows)
         payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
         run("write outputs", lambda: check("write outputs", payload["total"] == 1 and "region" not in payload["jobs"][0] and "age" in payload["jobs"][0] and (data_out / "jobs-global-latest.md").exists() and (data_out / "stats.json").exists() and (data_out / "jobs-global-archive.json").exists()))
@@ -259,7 +287,7 @@ def main():
                     "tags": ["software"],
                 },
             ]
-            with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"):
+            with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"), patch.object(fetch, "check_url_alive", return_value=True):
                 fetch.write_outputs(unsorted_rows)
             md_text = (data_out / "jobs-global-latest.md").read_text(encoding="utf-8")
             run("write outputs sorts by age", lambda: check(
@@ -298,7 +326,7 @@ def main():
         before_md = (data_out / "jobs-global-latest.md").read_text(encoding="utf-8")
         before_stats = (data_out / "stats.json").read_text(encoding="utf-8")
 
-        with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-02T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-02"):
+        with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-02T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-02"), patch.object(fetch, "check_url_alive", return_value=True):
             fetch.write_outputs([unchanged_row])
 
         run("write outputs skips age-only changes", lambda: check(
@@ -306,6 +334,44 @@ def main():
             (data_out / "jobs-global.json").read_text(encoding="utf-8") == before_json
             and (data_out / "jobs-global-latest.md").read_text(encoding="utf-8") == before_md
             and (data_out / "stats.json").read_text(encoding="utf-8") == before_stats,
+        ))
+
+    with tempfile.TemporaryDirectory() as tmp:
+        data_out = Path(tmp)
+        (data_out / "jobs-global.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 1, "jobs": [existing_row]}, ensure_ascii=False, indent=2), encoding="utf-8")
+        (data_out / "jobs-global-archive.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 0, "jobs": []}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        dead_link_row = dict(existing_row)
+        dead_link_row["age"] = "3d"
+        with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-02T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-02"), patch.object(fetch, "check_url_alive", return_value=False):
+            fetch.write_outputs([dead_link_row])
+
+        active_payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
+        archive_payload = json.loads((data_out / "jobs-global-archive.json").read_text(encoding="utf-8"))
+        run("dead link is archived instead of published", lambda: check(
+            "dead link is archived instead of published",
+            active_payload["total"] == 0
+            and archive_payload["total"] == 1
+            and archive_payload["jobs"][0]["id"] == existing_row["id"]
+            and archive_payload["jobs"][0]["closed_at"] == "2026-01-02T00:00:00Z",
+        ))
+
+    with tempfile.TemporaryDirectory() as tmp:
+        data_out = Path(tmp)
+        (data_out / "jobs-global.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 1, "jobs": [existing_row]}, ensure_ascii=False, indent=2), encoding="utf-8")
+        (data_out / "jobs-global-archive.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 0, "jobs": []}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-02T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-02"), patch.object(fetch, "check_url_alive", return_value=True):
+            fetch.write_outputs([])
+
+        active_payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
+        archive_payload = json.loads((data_out / "jobs-global-archive.json").read_text(encoding="utf-8"))
+        run("posting dropped from the source feed is archived", lambda: check(
+            "posting dropped from the source feed is archived",
+            active_payload["total"] == 0
+            and archive_payload["total"] == 1
+            and archive_payload["jobs"][0]["id"] == existing_row["id"]
+            and archive_payload["jobs"][0]["closed_at"] == "2026-01-02T00:00:00Z",
         ))
 
     with patch.object(fetch, "fetch_remotive", return_value=[]) as remotive_mock, patch.object(fetch, "fetch_arbeitnow", return_value=[]) as arbeitnow_mock, patch.object(fetch, "fetch_simplify_internships", return_value=[]) as internships_mock, patch.object(fetch, "fetch_simplify_newgrad", return_value=[]) as newgrad_mock, patch.object(fetch, "dedupe", return_value=[]), patch.object(fetch, "write_outputs") as write_outputs, patch.object(fetch, "log_warn"):

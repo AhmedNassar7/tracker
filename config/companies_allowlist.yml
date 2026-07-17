@@ -92,3 +92,75 @@ consulting_finance:
   - Jane Street
   - Citadel
   - Hudson River Trading
+
+apac_tech:
+  - Grab
+  - Sea Limited
+  - Tokopedia
+  - Rakuten
+  - LINE
+  - Naver
+  - Coupang
+  - Tencent
+  - Alibaba
+  - ByteDance
+  - Baidu
+  - Xiaomi
+  - TSMC
+  - MediaTek
+  - Canva
+  - Flipkart
+  - Swiggy
+  - Zomato
+  - PhonePe
+  - Razorpay
+  - Freshworks
+  - Zoho
+  - Paytm
+
+latam_tech:
+  - MercadoLibre
+  - Nubank
+  - Rappi
+  - iFood
+  - Globant
+  - dLocal
+
+mena_africa_tech:
+  - Careem
+  - Talabat
+  - Noon
+  - Jumia
+  - Flutterwave
+  - Paystack
+  - Interswitch
+  - Fawry
+
+more_global_tech:
+  - Tesla
+  - SpaceX
+  - Palo Alto Networks
+  - CrowdStrike
+  - ServiceNow
+  - Workday
+  - Block
+  - Coinbase
+  - Robinhood
+  - Instacart
+  - Pinterest
+  - Reddit
+  - Snap
+  - Roblox
+  - Unity
+  - Epic Games
+  - Discord
+  - Duolingo
+  - Vercel
+  - Airtable
+  - Webflow
+  - Loom
+  - Substack
+  - Attio
+  - Mercury
+  - Plaid
+  - ClickHouse

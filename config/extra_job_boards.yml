@@ -16,6 +16,17 @@ ashby:
   - linear
   - ramp
   - deel
+  - vercel
+  - airtable
+  - webflow
+  - loom
+  - substack
+  - attio
+  - mercury
+  - plaid
+  - cohere
+  - openai
+  - clickhouse
 
 smartrecruiters:
   - Visa

@@ -48,6 +48,7 @@ def main():
     seed_jobs = [
         {"company": "Twilio", "url": "https://job-boards.greenhouse.io/twilio/jobs/7850821"},
         {"company": "Example Co", "url": "https://jobs.lever.co/exampleco/123"},
+        {"company": "Acme", "url": "https://acme.wd5.myworkdayjobs.com/AcmeCareers/job/US-Remote/Software-Engineer_JR123"},
         {"company": "Other", "url": "https://example.com"},
     ]
     discovered = mod.discover_job_board_sources(seed_jobs)
@@ -56,6 +57,11 @@ def main():
         "discover greenhouse and lever sources",
         discovered[0].get("twilio") == "Twilio"
         and discovered[1].get("exampleco") == "Example Co",
+    ))
+
+    run("discover workday host and site", lambda: check(
+        "discover workday host and site",
+        discovered[2].get(("acme.wd5.myworkdayjobs.com", "AcmeCareers")) == "Acme",
     ))
 
     run("software role detection", lambda: check(
@@ -183,6 +189,54 @@ def main():
         and sr_rows[0]["company"] == "Example Co"
         and sr_rows[0]["url"] == "https://jobs.smartrecruiters.com/Example/12345"
         and "Remote" in sr_rows[0]["location"],
+    ))
+
+    workday_page_1 = {
+        "jobPostings": [
+            {
+                "title": "Software Engineer, Platform",
+                "locationsText": "US, Remote",
+                "postedOn": "Posted Today",
+                "externalPath": "/job/US-Remote/Software-Engineer--Platform_JR1",
+            },
+            {
+                "title": "Account Executive",
+                "locationsText": "US, Remote",
+                "postedOn": "Posted 3 Days Ago",
+                "externalPath": "/job/US-Remote/Account-Executive_JR2",
+            },
+        ]
+        + [
+            {
+                "title": f"Software Engineer {i}",
+                "locationsText": "US, Remote",
+                "postedOn": "Posted Today",
+                "externalPath": f"/job/US-Remote/Software-Engineer-{i}_JR{i}",
+            }
+            for i in range(18)
+        ]
+    }
+    workday_page_2 = {"jobPostings": []}
+    with patch.object(mod, "fetch_json_post", side_effect=[workday_page_1, workday_page_2]) as wd_mock:
+        wd_rows = mod.fetch_workday_jobs("acme.wd5.myworkdayjobs.com", "AcmeCareers", "Acme")
+        wd_call_count = wd_mock.call_count
+    run("workday job board fetch paginates and filters", lambda: check(
+        "workday job board fetch paginates and filters",
+        len(wd_rows) == 19
+        and wd_rows[0]["company"] == "Acme"
+        and wd_rows[0]["source"] == "workday:acme"
+        and wd_rows[0]["url"] == "https://acme.wd5.myworkdayjobs.com/AcmeCareers/job/US-Remote/Software-Engineer--Platform_JR1"
+        and wd_rows[0]["date"] == "0d"
+        and wd_call_count == 2,
+    ))
+
+    run("workday posted-on parsing", lambda: check(
+        "workday posted-on parsing",
+        mod.parse_workday_posted_on("Posted Today") == "0d"
+        and mod.parse_workday_posted_on("Posted Yesterday") == "1d"
+        and mod.parse_workday_posted_on("Posted 3 Days Ago") == "3d"
+        and mod.parse_workday_posted_on("Posted 30+ Days Ago") == "30d"
+        and mod.parse_workday_posted_on("") == "",
     ))
 
     with tempfile.TemporaryDirectory() as tmp:
