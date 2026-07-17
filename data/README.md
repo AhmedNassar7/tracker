@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 367 |
+| Jobs | 365 |
 | Hackathons | 2 |
 | Events | 8 |
-| Total | 377 |
+| Total | 375 |
 
 ## Jobs
 
-[![Jobs 367](https://img.shields.io/badge/Jobs-367-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 29](https://img.shields.io/badge/Internship-29-22c55e.svg)](#internship) [![Early Career 18](https://img.shields.io/badge/Early%20Career-18-0ea5e9.svg)](#early-career) [![Mid-Level and Above 320](https://img.shields.io/badge/Mid--Level%20and%20Above-320-dc2626.svg)](#mid-level-and-above)
+[![Jobs 365](https://img.shields.io/badge/Jobs-365-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 29](https://img.shields.io/badge/Internship-29-22c55e.svg)](#internship) [![Early Career 18](https://img.shields.io/badge/Early%20Career-18-0ea5e9.svg)](#early-career) [![Mid-Level and Above 318](https://img.shields.io/badge/Mid--Level%20and%20Above-318-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -99,7 +99,7 @@ Total roles: 18
 
 ### Mid-Level and Above
 
-Total roles: 320
+Total roles: 318
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -117,6 +117,7 @@ Total roles: 320
 | NVIDIA | [Software Engineer, DOCA SDK](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer--DOCA-SDK_JR2021303) | Israel, Yokneam | 0d |
 | NVIDIA | [Software Engineer, NVIDIA OpenShell](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Software-Engineer--NVIDIA-OpenShell_JR2017604) | US, CA, Remote | 0d |
 | NVIDIA | [System Software Engineer, GPU Development Tools](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--GPU-Development-Tools_JR2015188) | 2 Locations | 0d |
+| NVIDIA | [Systems Software Engineer, Accelerated Kubernetes Performance and Scale - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957) | 2 Locations | 0d |
 | Openai | [Backend Software Engineer, API Enterprise Controls](https://jobs.ashbyhq.com/openai/d0956b18-4f80-4c67-b94b-313181a16be6) | San Francisco | 0d |
 | Openai | [Senior Staff Software Engineer, Engineering Acceleration   Consumer Devices](https://jobs.ashbyhq.com/openai/fced529d-4523-436d-9559-cf1a8321b0fa) | San Francisco | 0d |
 | Openai | [Systems Generalist, GPT Infrastructure](https://jobs.ashbyhq.com/openai/78c2a68b-cc77-4c62-8891-96afb603650a) | San Francisco | 0d |
@@ -125,10 +126,7 @@ Total roles: 320
 | Palo Alto Networks | [Senior Staff Software Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Senior-Software-Developer_JR-018014) | Office - India - CyberArk Hyderabad | 0d |
 | Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138299259) | London, United Kingdom (Remote) | 0d |
 | Wise | [Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138372564) | London, England, United Kingdom | 0d |
-| NVIDIA | [DevOps Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/DevOps-Engineer_JR2020630) | Israel, Yokneam | 1d |
 | NVIDIA | [Engineering Manager, Agentic GenAI Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Deep-Learning-Algorithms_JR2020646) | US, CA, Santa Clara | 1d |
-| NVIDIA | [Manager, AIR SaaS Platform Verification](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Manager--AIR-SaaS-Platform-Verification_JR2021309) | Israel, Tel Aviv | 1d |
-| NVIDIA | [Principal Software Engineer - Cloud Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Cloud-Services_JR2021408) | 2 Locations | 1d |
 | NVIDIA | [Senior Cloud Software Engineer, DGXC Data Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389) | 2 Locations | 1d |
 | NVIDIA | [Senior Platform Engineer, Network Infrastructure - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436) | 6 Locations | 1d |
 | NVIDIA | [Senior Platform Telemetry Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Telemetry-Engineer_JR2002276) | 2 Locations | 1d |
