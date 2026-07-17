@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 102 |
+| Jobs | 101 |
 | Hackathons | 2 |
-| Events | 14 |
-| Total | 118 |
+| Events | 8 |
+| Total | 111 |
 
 ## Jobs
 
-[![Jobs 102](https://img.shields.io/badge/Jobs-102-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 65](https://img.shields.io/badge/Mid--Level%20and%20Above-65-dc2626.svg)](#mid-level-and-above)
+[![Jobs 101](https://img.shields.io/badge/Jobs-101-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 64](https://img.shields.io/badge/Mid--Level%20and%20Above-64-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -89,7 +89,7 @@ Total roles: 16
 
 ### Mid-Level and Above
 
-Total roles: 65
+Total roles: 64
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -106,7 +106,6 @@ Total roles: 65
 | Wise | [Senior Software Engineer I - KYC Experience](https://jobs.smartrecruiters.com/Wise/744000137388120) | London, United Kingdom | 4d |
 | Ramp | [Software Engineer, Web + Design](https://jobs.ashbyhq.com/ramp/8d61885c-0f08-4267-8ace-69e28b1d3f38) | New York, NY (HQ) | 7d |
 | Wise | [Product Lead - Financial Crime Platform](https://jobs.smartrecruiters.com/Wise/744000137083329) | London, United Kingdom | 7d |
-| Wise | [Senior Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136956138) | Seoul, Korea, republic of | 7d |
 | Wise | [Senior Software Engineer II - Wise for Enterprise](https://jobs.smartrecruiters.com/Wise/744000137154630) | London, United Kingdom | 7d |
 | Wise | [Senior Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000137062525) | Budapest, Hungary | 7d |
 | Wise | [Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136954197) | Seoul, Korea, republic of | 7d |
@@ -170,24 +169,18 @@ Total hackathons: 2
 
 ## Events
 
-Total events: 14
+Total events: 8
 
 | Organizer | Event |
 |---|---|
-| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
-| Luma | [Follow Big Brain Lectures](https://lu.ma/Big-Brain-SF?k=c) |
-| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Design](https://lu.ma/design?k=c) |
-| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
 | Luma | [Follow OpenClaw](https://lu.ma/claw?k=c) |
 | Luma | [Follow Reading](https://lu.ma/readingrhythms-global?k=c) |
-| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 | Luma | [Follow South](https://lu.ma/southparkcommons-events?k=c) |
 | Luma | [Follow Story](https://lu.ma/storywalk?k=c) |
-| Luma | [Follow tiat](https://lu.ma/tiat?k=c) |
 
 ## Source Files
 
