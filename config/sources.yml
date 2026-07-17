@@ -1,6 +1,6 @@
 # Reference documentation only — this file is NOT read by the pipeline.
-# scripts/fetch.py calls Remotive, ArbeitNow, and SimplifyJobs directly with
-# hardcoded URLs; this list just documents what those calls do and why.
+# scripts/fetch.py calls every source below directly with hardcoded URLs;
+# this list just documents what those calls do and why.
 #
 # To change actual behavior:
 #   - Which companies are accepted → edit config/companies_allowlist.yml (no code)
@@ -40,6 +40,46 @@ sources:
     enabled: true
     attribution_url: "https://github.com/SimplifyJobs/New-Grad-Positions"
     description: "New graduate software engineer positions"
+
+  - id: speedyapply_swe
+    name: speedyapply 2027 SWE College Jobs
+    type: github
+    url: "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md"
+    enabled: true
+    attribution_url: "https://github.com/speedyapply/2027-SWE-College-Jobs"
+    description: "Community-tracked SWE internship/new-grad roles, US + international"
+
+  - id: speedyapply_ai
+    name: speedyapply 2027 AI College Jobs
+    type: github
+    url: "https://raw.githubusercontent.com/speedyapply/2027-AI-College-Jobs/main/README.md"
+    enabled: true
+    attribution_url: "https://github.com/speedyapply/2027-AI-College-Jobs"
+    description: "Same tracker, focused on AI/ML/data science roles"
+
+  - id: zapplyjobs_newgrad
+    name: zapplyjobs New Grad Software Engineering Jobs 2027
+    type: github
+    url: "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027/main/README.md"
+    enabled: true
+    attribution_url: "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027"
+    description: "Fast-growing community new-grad SWE tracker"
+
+  - id: hanzili_canada
+    name: hanzili Canada SDE Junior/New Grad
+    type: github
+    url: "https://raw.githubusercontent.com/hanzili/canada_sde_junior_new_grad_position/main/README.md"
+    enabled: true
+    attribution_url: "https://github.com/hanzili/canada_sde_junior_new_grad_position"
+    description: "The dedicated tracker for Canadian new-grad/junior/co-op roles"
+
+  - id: ambicuity
+    name: ambicuity New-Grad-Jobs
+    type: api
+    url: "https://jobs.riteshrana.engineer/jobs.json"
+    enabled: true
+    attribution_url: "https://github.com/ambicuity/New-Grad-Jobs"
+    description: "Fully automated new-grad tracker with a real JSON feed, refreshed every 5 minutes upstream"
 
   - id: remoteok
     name: RemoteOK

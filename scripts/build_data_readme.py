@@ -398,7 +398,8 @@ def render_root_readme(now_text: str, stats: dict) -> str:
 
     last_updated_value = quote(now_text, safe="").replace("-", "--")
     status_badges = " ".join([
-        "[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml)",
+        "[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml)",
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)",
         badge("Total opportunities", total_items, "brightgreen", "data/README.md"),
         badge("Jobs", jobs_total, "16a34a", "data/README.md#jobs"),
         f"[![Last updated {now_text}](https://img.shields.io/badge/Last%20updated-{last_updated_value}-grey.svg)](LAST_UPDATED)",
@@ -444,16 +445,18 @@ def render_root_readme(now_text: str, stats: dict) -> str:
         "",
         "## How it works",
         "",
-        "1. **Fetch** — [scripts/fetch.py](scripts/fetch.py) pulls Remotive, ArbeitNow, and SimplifyJobs, filtered by the companies in"
-        " [config/companies_allowlist.yml](config/companies_allowlist.yml). [scripts/public_sources.py](scripts/public_sources.py) widens"
-        " coverage with Devpost, Luma, Greenhouse, Lever, and Workday (all auto-discovered from those results), plus Ashby and"
-        " SmartRecruiters for the companies listed in [config/extra_job_boards.yml](config/extra_job_boards.yml).",
+        "1. **Fetch** — [scripts/fetch.py](scripts/fetch.py) pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply, zapplyjobs, hanzili,"
+        " and ambicuity, filtered by the companies in [config/companies_allowlist.yml](config/companies_allowlist.yml)."
+        " [scripts/public_sources.py](scripts/public_sources.py) widens coverage with Devpost, Luma, Greenhouse, Lever, and Workday"
+        " (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in"
+        " [config/extra_job_boards.yml](config/extra_job_boards.yml). Every apply link is checked before publishing, and dead ones are"
+        " moved to the archive automatically.",
         "2. **Build** — [scripts/build_data_readme.py](scripts/build_data_readme.py) turns the raw JSON in [data/](data/) into the readable"
         " tables in this file and in [data/README.md](data/README.md).",
-        "3. **Publish** — a [GitHub Actions workflow](.github/workflows/daily-activity.yml) runs this pipeline hourly, opens a pull request"
+        "3. **Publish** — a [GitHub Actions workflow](.github/workflows/hourly-global-roles.yml) runs this pipeline hourly, opens a pull request"
         " with whatever changed, and auto-merges it. No manual steps.",
         "",
-        "Curious about a specific run? Check the [workflow runs](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml)"
+        "Curious about a specific run? Check the [workflow runs](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml)"
         " or the day-by-day notes in [log/](log/).",
         "",
         "## Want a job source added?",
@@ -497,11 +500,12 @@ def render_root_readme(now_text: str, stats: dict) -> str:
         "| [config/companies_allowlist.yml](config/companies_allowlist.yml) | Which companies' listings are accepted (edit this, no coding required) |",
         "| [config/extra_job_boards.yml](config/extra_job_boards.yml) | Ashby/SmartRecruiters companies to track (edit this, no coding required) |",
         "| [config/sources.yml](config/sources.yml) | Reference docs for the APIs the pipeline calls — not read by the code itself |",
-        "| [config/schema.json](config/schema.json) | JSON Schema describing the shape of each job record, for anyone building on top of the data |",
+        "| [config/job-entry.schema.json](config/job-entry.schema.json) | JSON Schema describing the shape of each job record, for anyone building on top of the data |",
         "| [scripts/](scripts/) | The fetch/build pipeline (Python, standard library only — no dependencies to install) |",
         "| [tests/](tests/) | Automated tests for the pipeline scripts, run in CI on every pull request |",
         "| [.github/workflows/](.github/workflows/) | The hourly refresh job and the CI test job |",
         "| [log/](log/) | One line per automated run, grouped by month — a history of when data was refreshed |",
+        "| [LICENSE](LICENSE) | MIT — free to use, fork, and self-host |",
         "",
         "## Notes",
         "",

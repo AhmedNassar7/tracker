@@ -64,6 +64,14 @@ def main():
         discovered[2].get(("acme.wd5.myworkdayjobs.com", "AcmeCareers")) == "Acme",
     ))
 
+    run("workday site extraction skips a locale prefix", lambda: check(
+        "workday site extraction skips a locale prefix",
+        mod.extract_workday_site("https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-AZ/x_JR1")
+        == ("intel.wd1.myworkdayjobs.com", "external")
+        and mod.extract_workday_site("https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/x")
+        == ("nvidia.wd5.myworkdayjobs.com", "NVIDIAExternalCareerSite"),
+    ))
+
     run("software role detection", lambda: check(
         "software role detection",
         mod.is_software_job("Senior Software Engineer")

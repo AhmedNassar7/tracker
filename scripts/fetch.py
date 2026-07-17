@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Fetch global tech roles from multiple sources, normalize, dedupe, and export.
-Sources: Remotive, ArbeitNow, SimplifyJobs (internships & new grad)
+Sources: Remotive, ArbeitNow, SimplifyJobs (internships & new grad), ambicuity/
+New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada)
 Scope: US, Canada, EMEA + Remote | Levels: Internship/New Grad/Junior/Entry/Mid
 Companies: Top-tier allowlist only
 """
@@ -33,6 +34,7 @@ from simplify_jobs_parser import (
     format_location_display as _format_location_display,
     parse_simplify_entries,
 )
+from community_board_parser import parse_job_table
 from fetch_outputs import write_fetch_outputs
 
 # Setup paths and directories
@@ -215,10 +217,13 @@ def include_job(row, company):
     return level_ok and company_ok
 
 def check_url_alive(url, timeout=8):
-    """Best-effort liveness check for a job's apply link. Only a confirmed
-    404/410 counts as dead — anything else (403 bot-blocking, 429 rate limits,
-    timeouts, DNS hiccups) is treated as "can't tell, assume alive" so a flaky
-    check never wrongly archives a live posting.
+    """Best-effort liveness check for a job's apply link. Only a 404/410
+    confirmed by a GET counts as dead — a HEAD-only 404 is not trusted on its
+    own, since some ATS pages (observed on Pinterest's careers site) mishandle
+    HEAD and 404 it while the page is genuinely live on GET. Anything else
+    (403 bot-blocking, 429 rate limits, timeouts, DNS hiccups) is treated as
+    "can't tell, assume alive" so a flaky check never wrongly archives a live
+    posting.
     """
     if not url:
         return True
@@ -229,9 +234,11 @@ def check_url_alive(url, timeout=8):
                 return response.status < 400
         except urllib.error.HTTPError as e:
             if e.code in (404, 410):
-                return False
+                if method == "HEAD":
+                    continue  # unreliable on some servers; confirm with a GET before trusting it
+                return False  # GET also says gone -> genuinely dead
             if e.code == 405 and method == "HEAD":
-                continue  # some ATS boards reject HEAD; retry with GET
+                continue  # some ATS boards reject HEAD entirely; retry with GET
             return True
         except Exception:
             return True
@@ -511,6 +518,151 @@ def fetch_simplify_newgrad():
     log_info(f"SimplifyJobs New Grad: {len(out)} matched (skipped role:{skipped['role']} region:{skipped['region']} company:{skipped['company']} parse:{skipped['parse']})")
     return out
 
+def _fetch_community_board(source_id, source_url, raw_readme_url, cache_name, *, company_idx, title_idx, location_idx):
+    """Shared fetch+parse+filter loop for community job-tracker READMEs that
+    share the generic pipe-table shape handled by community_board_parser
+    (speedyapply, zapplyjobs, hanzili — each with its own column order).
+    """
+    out = []
+    path = DATA_RAW / cache_name
+    log_info(f"Fetching {source_id}...")
+
+    if not fetch_url(raw_readme_url, path):
+        log_warn(f"{source_id} fetch failed, skipping")
+        return out
+
+    try:
+        content = path.read_text(encoding="utf-8")
+        entries = parse_job_table(content, company_idx=company_idx, title_idx=title_idx, location_idx=location_idx)
+        log_debug(f"{source_id} parser extracted {len(entries)} entries")
+    except Exception as e:
+        log_error(f"Error reading {source_id} markdown: {e}")
+        return out
+
+    skipped = {"role": 0, "region": 0, "company": 0, "parse": 0}
+
+    for company, title, location, url, age in entries:
+        try:
+            if not (company and title and url):
+                skipped["parse"] += 1
+                continue
+
+            if not ROLE_RE.search(title):
+                skipped["role"] += 1
+                continue
+
+            row = normalize(company, title, location, url, TODAY, source_id, source_url, age=age)
+
+            if not include_job(row, company):
+                if row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                    skipped["region"] += 1
+                else:
+                    skipped["company"] += 1
+                continue
+
+            out.append(row)
+        except Exception as e:
+            log_debug(f"Error parsing {source_id} line: {e}")
+            skipped["parse"] += 1
+
+    log_info(f"{source_id}: {len(out)} matched (skipped role:{skipped['role']} region:{skipped['region']} company:{skipped['company']} parse:{skipped['parse']})")
+    return out
+
+def fetch_speedyapply_swe():
+    """Fetch speedyapply/2027-SWE-College-Jobs' README job table."""
+    return _fetch_community_board(
+        "speedyapply_swe",
+        "https://github.com/speedyapply/2027-SWE-College-Jobs",
+        "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md",
+        "speedyapply_swe.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
+def fetch_speedyapply_ai():
+    """Fetch speedyapply/2027-AI-College-Jobs' README job table."""
+    return _fetch_community_board(
+        "speedyapply_ai",
+        "https://github.com/speedyapply/2027-AI-College-Jobs",
+        "https://raw.githubusercontent.com/speedyapply/2027-AI-College-Jobs/main/README.md",
+        "speedyapply_ai.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
+def fetch_zapplyjobs_newgrad():
+    """Fetch zapplyjobs/New-Grad-Software-Engineering-Jobs-2027's README job table."""
+    return _fetch_community_board(
+        "zapplyjobs_newgrad",
+        "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+        "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027/main/README.md",
+        "zapplyjobs_newgrad.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
+def fetch_hanzili_canada():
+    """Fetch hanzili/canada_sde_junior_new_grad_position's README job table."""
+    return _fetch_community_board(
+        "hanzili_canada",
+        "https://github.com/hanzili/canada_sde_junior_new_grad_position",
+        "https://raw.githubusercontent.com/hanzili/canada_sde_junior_new_grad_position/main/README.md",
+        "hanzili_canada.md",
+        company_idx=1, title_idx=0, location_idx=5,
+    )
+
+def fetch_ambicuity_newgrad():
+    """Fetch ambicuity/New-Grad-Jobs' live JSON feed (refreshed every 5 min upstream)."""
+    out = []
+    path = DATA_RAW / "ambicuity.json"
+    log_info("Fetching ambicuity New-Grad-Jobs...")
+
+    if not fetch_url("https://jobs.riteshrana.engineer/jobs.json", path):
+        log_warn("ambicuity fetch failed, skipping")
+        return out
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        jobs = data.get("jobs", [])
+        log_debug(f"ambicuity returned {len(jobs)} total jobs")
+    except Exception as e:
+        log_error(f"Error parsing ambicuity feed: {e}")
+        return out
+
+    skipped = {"role": 0, "level": 0, "region": 0, "company": 0, "closed": 0}
+
+    for j in jobs:
+        if j.get("is_closed"):
+            skipped["closed"] += 1
+            continue
+
+        company = (j.get("company") or "").strip()
+        title = (j.get("title") or "").strip()
+        location = (j.get("location") or "Remote").strip()
+        url = (j.get("url") or "").strip()
+        posted = (j.get("posted_at") or TODAY)[:10]
+
+        if not (company and title and url):
+            skipped["role"] += 1
+            continue
+
+        if not ROLE_RE.search(title):
+            skipped["role"] += 1
+            continue
+
+        row = normalize(company, title, location, url, posted, "ambicuity", "https://github.com/ambicuity/New-Grad-Jobs")
+
+        if not include_job(row, company):
+            if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:
+                skipped["level"] += 1
+            elif row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                skipped["region"] += 1
+            else:
+                skipped["company"] += 1
+            continue
+
+        out.append(row)
+
+    log_info(f"ambicuity: {len(out)} matched (skipped role:{skipped['role']} level:{skipped['level']} region:{skipped['region']} company:{skipped['company']} closed:{skipped['closed']})")
+    return out
+
 def dedupe(rows):
     """Remove duplicate entries (by id, company, title)"""
     seen = set()
@@ -576,6 +728,11 @@ def main():
         rows += fetch_arbeitnow()
         rows += fetch_simplify_internships()
         rows += fetch_simplify_newgrad()
+        rows += fetch_speedyapply_swe()
+        rows += fetch_speedyapply_ai()
+        rows += fetch_zapplyjobs_newgrad()
+        rows += fetch_hanzili_canada()
+        rows += fetch_ambicuity_newgrad()
     except Exception as e:
         log_error(f"Unexpected error during fetching: {e}")
         traceback.print_exc()
@@ -591,6 +748,11 @@ def main():
             retry_rows += fetch_arbeitnow()
             retry_rows += fetch_simplify_internships()
             retry_rows += fetch_simplify_newgrad()
+            retry_rows += fetch_speedyapply_swe()
+            retry_rows += fetch_speedyapply_ai()
+            retry_rows += fetch_zapplyjobs_newgrad()
+            retry_rows += fetch_hanzili_canada()
+            retry_rows += fetch_ambicuity_newgrad()
         except Exception as e:
             log_error(f"Unexpected error during relaxed retry: {e}")
             traceback.print_exc()

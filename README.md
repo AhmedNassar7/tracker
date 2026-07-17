@@ -4,37 +4,37 @@
 
 A robot checks top companies and public job boards every hour, so you don't have to. Everything below is refreshed automatically.
 
-[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml) [![Total opportunities 119](https://img.shields.io/badge/Total%20opportunities-119-brightgreen.svg)](data/README.md) [![Jobs 109](https://img.shields.io/badge/Jobs-109-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-07-17](https://img.shields.io/badge/Last%20updated-2026--07--17-grey.svg)](LAST_UPDATED)
+[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Total opportunities 352](https://img.shields.io/badge/Total%20opportunities-352-brightgreen.svg)](data/README.md) [![Jobs 342](https://img.shields.io/badge/Jobs-342-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-07-18](https://img.shields.io/badge/Last%20updated-2026--07--18-grey.svg)](LAST_UPDATED)
 
-[![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](data/README.md#internship) [![Early Career 17](https://img.shields.io/badge/Early%20Career-17-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 61](https://img.shields.io/badge/Mid--Level%20and%20Above-61-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 2](https://img.shields.io/badge/Hackathons-2-f59e0b.svg)](data/README.md#hackathons) [![Events 8](https://img.shields.io/badge/Events-8-8b5cf6.svg)](data/README.md#events)
+[![Internship 63](https://img.shields.io/badge/Internship-63-22c55e.svg)](data/README.md#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 252](https://img.shields.io/badge/Mid--Level%20and%20Above-252-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 2](https://img.shields.io/badge/Hackathons-2-f59e0b.svg)](data/README.md#hackathons) [![Events 8](https://img.shields.io/badge/Events-8-8b5cf6.svg)](data/README.md#events)
 
 ## New here? Start with one click
 
-### 👉 [**Open the full list of 109 opportunities**](data/README.md)
+### 👉 [**Open the full list of 352 opportunities**](data/README.md)
 
 That page has everything: jobs, internships, hackathons, and events, each with a direct apply link. No account needed, just click and go.
 
 ## Snapshot
 
-_As of 2026-07-17._
+_As of 2026-07-18._
 
 | Category | Count | Link |
 |---|---:|---|
-| Internship | 21 | [View](data/README.md#internship) |
-| Early Career | 17 | [View](data/README.md#early-career) |
-| Mid-Level and Above | 61 | [View](data/README.md#mid-level-and-above) |
-| **Jobs total** | **99** | [View](data/README.md#jobs) |
+| Internship | 63 | [View](data/README.md#internship) |
+| Early Career | 27 | [View](data/README.md#early-career) |
+| Mid-Level and Above | 252 | [View](data/README.md#mid-level-and-above) |
+| **Jobs total** | **342** | [View](data/README.md#jobs) |
 | Hackathons | 2 | [View](data/README.md#hackathons) |
 | Events | 8 | [View](data/README.md#events) |
-| **Grand total** | **109** | [View](data/README.md) |
+| **Grand total** | **352** | [View](data/README.md) |
 
 ## How it works
 
-1. **Fetch** — [scripts/fetch.py](scripts/fetch.py) pulls Remotive, ArbeitNow, and SimplifyJobs, filtered by the companies in [config/companies_allowlist.yml](config/companies_allowlist.yml). [scripts/public_sources.py](scripts/public_sources.py) widens coverage with Devpost, Luma, Greenhouse, Lever, and Workday (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in [config/extra_job_boards.yml](config/extra_job_boards.yml).
+1. **Fetch** — [scripts/fetch.py](scripts/fetch.py) pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply, zapplyjobs, hanzili, and ambicuity, filtered by the companies in [config/companies_allowlist.yml](config/companies_allowlist.yml). [scripts/public_sources.py](scripts/public_sources.py) widens coverage with Devpost, Luma, Greenhouse, Lever, and Workday (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in [config/extra_job_boards.yml](config/extra_job_boards.yml). Every apply link is checked before publishing, and dead ones are moved to the archive automatically.
 2. **Build** — [scripts/build_data_readme.py](scripts/build_data_readme.py) turns the raw JSON in [data/](data/) into the readable tables in this file and in [data/README.md](data/README.md).
-3. **Publish** — a [GitHub Actions workflow](.github/workflows/daily-activity.yml) runs this pipeline hourly, opens a pull request with whatever changed, and auto-merges it. No manual steps.
+3. **Publish** — a [GitHub Actions workflow](.github/workflows/hourly-global-roles.yml) runs this pipeline hourly, opens a pull request with whatever changed, and auto-merges it. No manual steps.
 
-Curious about a specific run? Check the [workflow runs](https://github.com/AhmedNassar7/tracker/actions/workflows/daily-activity.yml) or the day-by-day notes in [log/](log/).
+Curious about a specific run? Check the [workflow runs](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) or the day-by-day notes in [log/](log/).
 
 ## Want a job source added?
 
@@ -70,11 +70,12 @@ Job seekers only need [data/README.md](data/README.md). Everything else here is 
 | [config/companies_allowlist.yml](config/companies_allowlist.yml) | Which companies' listings are accepted (edit this, no coding required) |
 | [config/extra_job_boards.yml](config/extra_job_boards.yml) | Ashby/SmartRecruiters companies to track (edit this, no coding required) |
 | [config/sources.yml](config/sources.yml) | Reference docs for the APIs the pipeline calls — not read by the code itself |
-| [config/schema.json](config/schema.json) | JSON Schema describing the shape of each job record, for anyone building on top of the data |
+| [config/job-entry.schema.json](config/job-entry.schema.json) | JSON Schema describing the shape of each job record, for anyone building on top of the data |
 | [scripts/](scripts/) | The fetch/build pipeline (Python, standard library only — no dependencies to install) |
 | [tests/](tests/) | Automated tests for the pipeline scripts, run in CI on every pull request |
 | [.github/workflows/](.github/workflows/) | The hourly refresh job and the CI test job |
 | [log/](log/) | One line per automated run, grouped by month — a history of when data was refreshed |
+| [LICENSE](LICENSE) | MIT — free to use, fork, and self-host |
 
 ## Notes
 

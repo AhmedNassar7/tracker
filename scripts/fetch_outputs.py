@@ -128,6 +128,10 @@ def write_fetch_outputs(
     archive_rows = dict(previous_archive_by_id)
     for row in newly_closed_rows:
         archive_rows[row["id"]] = row
+    for row in merged_public_rows:
+        # Reappeared in this run's active set (e.g. a previously wrongly-flagged
+        # dead link turned out to be alive) — drop the stale archive entry.
+        archive_rows.pop(row.get("id"), None)
     archive_public_rows = sorted(
         archive_rows.values(),
         key=lambda x: x.get("closed_at", x.get("collected_at", "")),

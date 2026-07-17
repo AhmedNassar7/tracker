@@ -42,6 +42,14 @@ This page is hand-curated and doesn't change automatically — unlike the job ta
 | [Kickresume](https://www.kickresume.com/) | Resume builder with templates aimed at tech roles |
 | [Teal](https://www.tealhq.com/) | Resume builder plus a job-application tracker |
 | [Grammarly](https://www.grammarly.com/) | Grammar and clarity checker for resumes and cover letters |
+| [zapplyjobs/resume-samples-2026](https://github.com/zapplyjobs/resume-samples-2026) | Free, ATS-friendly resume templates aimed at new-grad tech applications |
+| [zapplyjobs/interview-handbook-2026](https://github.com/zapplyjobs/interview-handbook-2026) | Behavioral-interview prep, including STAR-method answer structuring |
+
+## Project Ideas & Portfolio
+
+| Resource | What it's for |
+|---|---|
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Tutorials for building real systems from scratch (a Docker, a Git, a database) — strong portfolio material for junior applicants |
 
 ## Learning Platforms
 
@@ -69,6 +77,17 @@ Real commits on your profile, often with mentorship and sometimes a stipend:
 |---|---|
 | [Levels.fyi](https://www.levels.fyi/) | Crowdsourced compensation data to benchmark and negotiate offers |
 | [Blind](https://www.teamblind.com/) | Anonymous, verified-employee community for company and offer discussion |
+
+## Other Job Trackers Worth Knowing
+
+tracker already pulls directly from the open-source repos below (see [README.md](README.md#source-files) for the full source list) — you don't need to check them separately. They're listed here for transparency and credit, and because each has its own web app that goes beyond what a flat file can show:
+
+| Resource | What it's for |
+|---|---|
+| [simplify.jobs](https://simplify.jobs/) | The company behind the SimplifyJobs GitHub lists; one-click autofill applications |
+| [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) | The single most-used community new-grad tracker on GitHub |
+| [SimplifyJobs/Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) | Its internship-focused counterpart |
+| [swelist.com](https://swelist.com/) | A hosted internship board with email alerts when new roles are posted |
 
 ## Notes
 

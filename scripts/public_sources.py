@@ -190,11 +190,19 @@ def extract_lever_slug(job_url):
     return ""
 
 
+WORKDAY_LOCALE_RE = re.compile(r"^[a-z]{2}(-[A-Za-z]{2})?$")
+
+
 def extract_workday_site(job_url):
     """Return (host, site) for a Workday-hosted job URL, e.g.
     "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/..." ->
     ("nvidia.wd5.myworkdayjobs.com", "NVIDIAExternalCareerSite"). The tenant
     used by the CXS API is the host's first label ("nvidia").
+
+    Some tenants (observed on Intel, Sony) prefix the site with a locale
+    segment instead, e.g. ".../en-US/SonyGlobalCareers/job/..." — treating
+    "en-US" itself as the site 404s, so a locale-shaped first segment is
+    skipped in favor of the one after it.
     """
     parsed = urlparse(job_url)
     host = parsed.netloc.lower()
@@ -203,7 +211,10 @@ def extract_workday_site(job_url):
     path_parts = [part for part in parsed.path.split("/") if part]
     if not path_parts:
         return "", ""
-    return host, path_parts[0]
+    site = path_parts[0]
+    if WORKDAY_LOCALE_RE.match(site) and len(path_parts) > 1:
+        site = path_parts[1]
+    return host, site
 
 
 def load_seed_jobs():

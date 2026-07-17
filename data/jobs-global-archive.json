@@ -1,7 +1,175 @@
 {
-  "generated_at": "2026-07-17T15:38:29Z",
-  "total": 17,
+  "generated_at": "2026-07-17T22:39:15Z",
+  "total": 25,
   "jobs": [
+    {
+      "id": "080d31991cdf119f",
+      "company": "Mastercard",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Site-Reliability-Engineer-II_R-275061-1",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:39:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-17T22:39:15Z"
+    },
+    {
+      "id": "6e40f0252dd85e3c",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-280085-1",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:39:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-17T22:39:15Z"
+    },
+    {
+      "id": "59b4f1aff1a389af",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Engineer-II_R-279240",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-16",
+      "age": "1d",
+      "collected_at": "2026-07-17T22:39:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-17T22:39:15Z"
+    },
+    {
+      "id": "fde4c0df19b9097c",
+      "company": "Mastercard",
+      "title": "Software Engineer II-1",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II-1_R-282787",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-16",
+      "age": "1d",
+      "collected_at": "2026-07-17T22:39:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-17T22:39:15Z"
+    },
+    {
+      "id": "12ba43e52a579e87",
+      "company": "Mastercard",
+      "title": "Software Engineer II-2",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II-2_R-282788-1",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-16",
+      "age": "1d",
+      "collected_at": "2026-07-17T22:39:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-17T22:39:15Z"
+    },
+    {
+      "id": "b2d028c109660605",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-281363",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-15",
+      "age": "2d",
+      "collected_at": "2026-07-17T22:39:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-17T22:39:15Z"
+    },
+    {
+      "id": "35d0bd20fa4d05a3",
+      "company": "Microsoft",
+      "title": "Back-End Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556859034",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-17",
+      "age": "Recently",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-17T22:39:15Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-17",
+      "age": "18d",
+      "collected_at": "2026-07-17T15:38:29Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-17T22:39:15Z"
+    },
     {
       "id": "3f70592ae4e006ea",
       "company": "Uber",
