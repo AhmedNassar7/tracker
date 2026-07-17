@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T22:06:25Z",
+  "generated_at": "2026-07-17T23:07:36Z",
   "total": 548,
   "jobs": [
     {
@@ -55,6 +55,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Robotics-Software-Engineer---Robot-Simulation-and-Benchmarking_JR2021400",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "0c52979e7e5a711f",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Backend Platform Engineer",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Backend-Platform-Engineer_JR2021162",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -967,20 +981,6 @@
       "url": "https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1",
       "source": "ashby:notion",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/notion"
-    },
-    {
-      "id": "e841a8c66fa59720",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Principal Engineer Software – Frontend (Machine Identity Management)",
-      "location": "Office - USA - CyberArk Santa Clara (CA)",
-      "level": "other",
-      "role_type": "frontend",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CyberArk-Santa-Clara-CA/Staff-Software-Engineer---Frontend-Platform--Machine-Identity-Management-_JR-017995-1",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
       "id": "cc98693a417be4d1",

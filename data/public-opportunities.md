@@ -1,6 +1,6 @@
 # Public Opportunities
 
-Generated at: 2026-07-17T22:06:25Z
+Generated at: 2026-07-17T23:07:36Z
 
 This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma). For the full combined list, see [README.md](README.md) or the [project overview](../README.md).
 
@@ -11,6 +11,7 @@ Total: 548
 - [NVIDIA - Principal Software Engineer - Rack Scale Systems Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966) (5 Locations) - 0d
 - [NVIDIA - Principal Software Engineer, Vehicle Dynamics Simulation - AV](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Vehicle-Dynamics-Simulation---AV_JR2020644-1) (US, CA, Santa Clara) - 0d
 - [NVIDIA - Robotics Software Engineer - Robot Simulation and Benchmarking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Robotics-Software-Engineer---Robot-Simulation-and-Benchmarking_JR2021400) (Switzerland, Zurich) - 0d
+- [NVIDIA - Senior Backend Platform Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Backend-Platform-Engineer_JR2021162) (US, CA, Santa Clara) - 0d
 - [NVIDIA - Senior DevOps Engineer, Cloud Simulation Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DevOps-Engineer--Cloud-Simulation-Infrastructure_JR2021039) (US, CA, Santa Clara) - 0d
 - [NVIDIA - Senior DevOps Software Engineer - Chip Design](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Infrastructure-Engineer---Chip-Design_JR2021392) (2 Locations) - 0d
 - [NVIDIA - Senior Platform Engineer, Network Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Platform-Engineer--Network-Infrastructure_JR2021500) (4 Locations) - 0d
@@ -76,7 +77,6 @@ Total: 548
 - [Wise - Senior Software Engineer II - Payin Platform - Backend (Java)](https://jobs.smartrecruiters.com/Wise/744000137863319) (London, United Kingdom) - 2d
 - [Wise - Software Engineer - Recurring Payin](https://jobs.smartrecruiters.com/Wise/744000137942542) (London, United Kingdom) - 2d
 - [Notion - Software Engineer, AI Platform](https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1) (San Francisco, California) - 3d
-- [Palo Alto Networks - Principal Engineer Software – Frontend (Machine Identity Management)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CyberArk-Santa-Clara-CA/Staff-Software-Engineer---Frontend-Platform--Machine-Identity-Management-_JR-017995-1) (Office - USA - CyberArk Santa Clara (CA)) - 3d
 - [Palo Alto Networks - Principal Software Engineer (Cloud NGFW)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Santa-Clara-United-States-of-America/Principal-Engineer-Software_JR-011694-1) (Santa Clara, United States of America) - 3d
 - [Palo Alto Networks - Principal Software Engineer - Back End (Wildfire)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer_JR-016747) (Office - USA - CA - Headquarters) - 3d
 - [Palo Alto Networks - Senior Manager, Software Engineering](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Santa-Clara-United-States-of-America/Senior-Manager--Software-Engineering_JR-019280) (3 Locations) - 3d
