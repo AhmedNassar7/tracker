@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T15:38:30Z",
+  "generated_at": "2026-07-17T17:30:20Z",
   "total": 202,
   "jobs": [
     {
@@ -13,6 +13,20 @@
       "date": "0d",
       "posted_at": "2026-07-17",
       "url": "https://jobs.smartrecruiters.com/Wise/744000138299259",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
+      "id": "614e92bcfabeccf3",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Software Engineer - Fincrime - Scam Prevention",
+      "location": "London, England, United Kingdom",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-17",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138372564",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -41,20 +55,6 @@
       "date": "1d",
       "posted_at": "2026-07-16",
       "url": "https://jobs.smartrecruiters.com/Wise/744000138162069",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "22e3c4dc30bfa828",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Sr Software Engineer - Fincrime - Scam Prevention",
-      "location": "London, England, United Kingdom",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-07-16",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000138127429",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },

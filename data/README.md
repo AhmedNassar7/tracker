@@ -95,9 +95,9 @@ Total roles: 61
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138299259) | London, United Kingdom (Remote) | 0d |
+| Wise | [Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138372564) | London, England, United Kingdom | 0d |
 | Wise | [Backend Engineer for Acquiring Risk](https://jobs.smartrecruiters.com/Wise/744000138152479) | London, United Kingdom | 1d |
 | Wise | [Senior Java Software Engineer- Continuous Delivery (CD)](https://jobs.smartrecruiters.com/Wise/744000138162069) | London, United Kingdom | 1d |
-| Wise | [Sr Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138127429) | London, England, United Kingdom | 1d |
 | Wise | [Staff Software Engineer - Global KYC and Onboarding](https://jobs.smartrecruiters.com/Wise/744000138147299) | London, United Kingdom | 1d |
 | Wise | [Senior iOS Engineer – Send Experience](https://jobs.smartrecruiters.com/Wise/744000137820489) | London, United Kingdom | 2d |
 | Wise | [Senior Software Engineer II - FinCrime - Scam Prevention Team](https://jobs.smartrecruiters.com/Wise/744000137927403) | London, United Kingdom | 2d |
