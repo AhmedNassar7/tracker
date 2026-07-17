@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-17T09:21:03Z",
-  "total": 204,
+  "generated_at": "2026-07-17T11:39:59Z",
+  "total": 208,
   "jobs": [
     {
-      "id": "1ea9315dcad81827",
+      "id": "bdbdcb3efe6e9d4e",
       "kind": "job",
       "company": "Wise",
       "title": "Backend Engineer - Account Sharing",
       "location": "London, United Kingdom (Remote)",
       "level": "other",
       "role_type": "backend",
-      "date": "1d",
-      "posted_at": "2026-07-16",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000138101410",
+      "date": "0d",
+      "posted_at": "2026-07-17",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138299259",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -213,20 +213,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/ramp"
     },
     {
-      "id": "0d805524fd152ebb",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Product Lead - Financial Crime Platform",
-      "location": "London, United Kingdom",
-      "level": "other",
-      "role_type": "platform",
-      "date": "7d",
-      "posted_at": "2026-07-10",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000137083329",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
       "id": "d39cd6d83efe6f2b",
       "kind": "job",
       "company": "Wise",
@@ -237,20 +223,6 @@
       "date": "7d",
       "posted_at": "2026-07-10",
       "url": "https://jobs.smartrecruiters.com/Wise/744000137154630",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "8685c951cb1e740e",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Senior Staff Software Engineer",
-      "location": "Budapest, Hungary",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-07-10",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000137062525",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -2747,6 +2719,42 @@
   ],
   "events": [
     {
+      "id": "229397d627dbf883",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-17",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "14d5459a5945c512",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Big Brain Lectures - Bay Area San Francisco · A lecture series hosted in The Bay's coolest spaces.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-17",
+      "url": "/Big-Brain-SF?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-17",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -2779,6 +2787,18 @@
       "date": "",
       "posted_at": "2026-07-17",
       "url": "/design?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-17",
+      "url": "/frontiertower?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
@@ -2819,6 +2839,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-17",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "b7fae028fb5330fc",
       "kind": "event",
       "company": "Luma",
@@ -2839,6 +2871,18 @@
       "date": "",
       "posted_at": "2026-07-17",
       "url": "/storywalk?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "f5aca94041df0c53",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow tiat (the intersection of art & technology) San Francisco · creative technology in sf",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-17",
+      "url": "/tiat?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

@@ -1,13 +1,13 @@
 # Public Opportunities
 
-Generated at: 2026-07-17T09:21:03Z
+Generated at: 2026-07-17T11:39:59Z
 
 This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma). For the full combined list, see [README.md](README.md) or the [project overview](../README.md).
 
-Total: 204
+Total: 208
 
 ## Jobs
-- [Wise - Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138101410) (London, United Kingdom (Remote)) - 1d
+- [Wise - Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138299259) (London, United Kingdom (Remote)) - 0d
 - [Wise - Backend Engineer for Acquiring Risk](https://jobs.smartrecruiters.com/Wise/744000138152479) (London, United Kingdom) - 1d
 - [Wise - Senior Java Software Engineer- Continuous Delivery (CD)](https://jobs.smartrecruiters.com/Wise/744000138162069) (London, United Kingdom) - 1d
 - [Wise - Sr Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138127429) (London, England, United Kingdom) - 1d
@@ -22,9 +22,7 @@ Total: 204
 - [Palantir - Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69) (Palo Alto, CA) - 7d
 - [Palantir - Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/cf5f44ff-1b0b-4752-bcd4-2dc88798f25b) (New York, NY) - 7d
 - [Ramp - Software Engineer, Web + Design](https://jobs.ashbyhq.com/ramp/8d61885c-0f08-4267-8ace-69e28b1d3f38) (New York, NY (HQ)) - 7d
-- [Wise - Product Lead - Financial Crime Platform](https://jobs.smartrecruiters.com/Wise/744000137083329) (London, United Kingdom) - 7d
 - [Wise - Senior Software Engineer II - Wise for Enterprise](https://jobs.smartrecruiters.com/Wise/744000137154630) (London, United Kingdom) - 7d
-- [Wise - Senior Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000137062525) (Budapest, Hungary) - 7d
 - [Notion - Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) (San Francisco, California) - 11d
 - [Notion - Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) (San Francisco, California) - 11d
 - [Notion - Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) (New York, New York) - 15d
@@ -207,11 +205,17 @@ Total: 204
 - [Your hackathons](https://devpost.com/portfolio/redirect?page=hackathons)
 
 ## Events
+- [Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!](/sf-builders-collective?k=c)
+- [Follow Big Brain Lectures - Bay Area San Francisco · A lecture series hosted in The Bay's coolest spaces.](/Big-Brain-SF?k=c)
+- [Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join](/genai-sf?k=c)
 - [Follow Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)](/buildercommunityanz?k=c)
 - [Follow Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community](/cursorcommunity?k=c)
 - [Follow Design Buddies Events for all creatives across SF/LA, online, and the world! Hosted by Design Buddies, the world's largest design community (https://designbuddies.community). Founded by Grace Ling](/design?k=c)
+- [Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply](/frontiertower?k=c)
 - [Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team](/deepmind?k=c)
 - [Follow OpenClaw Meetups Discover community meetups for OpenClaw around the world.](/claw?k=c)
 - [Follow Reading Rhythms Global Not a book club. A reading party. Read with friends to live music & curated playlists!](/readingrhythms-global?k=c)
+- [Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!](/sf-hardware-meetup?k=c)
 - [Follow South Park Commons South Park Commons helps you get from -1 to 0. To learn more or apply, visit southparkcommons.com.](/southparkcommons-events?k=c)
 - [Follow Story Walk Summer Tour Stories that go where you go. A walking audiobook club brought to you by Reese's Book Club and Apple Books.](/storywalk?k=c)
+- [Follow tiat (the intersection of art & technology) San Francisco · creative technology in sf](/tiat?k=c)
