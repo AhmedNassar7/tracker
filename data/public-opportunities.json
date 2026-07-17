@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-17T21:07:28Z",
-  "total": 546,
+  "generated_at": "2026-07-17T22:06:25Z",
+  "total": 548,
   "jobs": [
     {
       "id": "763d89ee53cce07f",
@@ -31,6 +31,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "635581b5f35aaea9",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Principal Software Engineer, Vehicle Dynamics Simulation - AV",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Vehicle-Dynamics-Simulation---AV_JR2020644-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "f67e0138d62f466d",
       "kind": "job",
       "company": "NVIDIA",
@@ -45,16 +59,16 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "4475edce7988c1fc",
+      "id": "7d0d9544f1b0c5ef",
       "kind": "job",
       "company": "NVIDIA",
-      "title": "Senior CUDA Test Development Software Engineer, SDET",
-      "location": "China, Shanghai",
+      "title": "Senior DevOps Engineer, Cloud Simulation Infrastructure",
+      "location": "US, CA, Santa Clara",
       "level": "other",
-      "role_type": "software_engineer",
+      "role_type": "infrastructure",
       "date": "0d",
       "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-CUDA-Test-Development-Software-Engineer--SDET_JR2021474",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DevOps-Engineer--Cloud-Simulation-Infrastructure_JR2021039",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -139,6 +153,62 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--ASIC-Design-and-Verification-Tools_JR2012173",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "64cd8374a08fe422",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Solutions Architect, AI Infrastructure",
+      "location": "3 Locations",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect--AI-Infrastructure_JR2021235",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "6dc5d95d8cb48d56",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - AV Platform",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---AV-Platform_JR2021284",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "9ea4850c37d1ad81",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - AV Platform",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---AV-Platform_JR2021102",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "9c95350064fc1778",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - AV Platform",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---AV-Platform_JR2021287",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -311,6 +381,20 @@
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
+      "id": "dff972bc450d5aad",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Senior Software Engineer",
+      "location": "São Paulo, Brazil",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-17",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138414549",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
       "id": "614e92bcfabeccf3",
       "kind": "job",
       "company": "Wise",
@@ -321,6 +405,20 @@
       "date": "0d",
       "posted_at": "2026-07-17",
       "url": "https://jobs.smartrecruiters.com/Wise/744000138372564",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
+      "id": "0809a593076b921c",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Staff Software Engineer",
+      "location": "São Paulo, Brazil",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-17",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000138414579",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -349,20 +447,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "ce8f4252148fa9c3",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Platform Engineer, Network Infrastructure - DGX Cloud",
-      "location": "6 Locations",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -423,20 +507,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "39d7bb17f1df4dbe",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, At Scale Compute Analysis",
-      "location": "5 Locations",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "0de9814edb00c6c5",
       "kind": "job",
       "company": "NVIDIA",
@@ -461,20 +531,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Spatial-Intelligence-and-Foundation-Models_JR2021311-1",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "f00b461056e88a8b",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Solutions Architect, AI Infrastructure Enterprise ISVs",
-      "location": "5 Locations",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect--AI-Infrastructure-Enterprise-ISVs_JR2021244",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -1107,20 +1163,6 @@
       "url": "https://jobs.ashbyhq.com/ramp/8d61885c-0f08-4267-8ace-69e28b1d3f38",
       "source": "ashby:ramp",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/ramp"
-    },
-    {
-      "id": "d39cd6d83efe6f2b",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Senior Software Engineer II - Wise for Enterprise",
-      "location": "London, United Kingdom",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-07-10",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000137154630",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
       "id": "54c9d4aa37cc236d",
@@ -2395,20 +2437,6 @@
       "url": "https://jobs.ashbyhq.com/notion/6895adad-5031-4dce-9e8e-b9361d3a2850",
       "source": "ashby:notion",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/notion"
-    },
-    {
-      "id": "c303608aa878dd8b",
-      "kind": "job",
-      "company": "Plaid",
-      "title": "Engineering Manager - Integrations Platform",
-      "location": "San Francisco HQ",
-      "level": "other",
-      "role_type": "platform",
-      "date": "50d",
-      "posted_at": "2026-05-28",
-      "url": "https://jobs.ashbyhq.com/plaid/1b7b751b-759c-4088-b21e-102ce6a1b707",
-      "source": "ashby:plaid",
-      "source_url": "https://api.ashbyhq.com/posting-api/job-board/plaid"
     },
     {
       "id": "638074102b10563b",
