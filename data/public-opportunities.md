@@ -110,11 +110,14 @@ Total: 403
 - [Sony - Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282) (San Diego) - 16d
 - [Sony - Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282) (San Diego) - 16d
 - [Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) (Chicago, IL) - 17d
+- [Openai - Founding Full Stack Software Engineer, Legal](https://jobs.ashbyhq.com/openai/fcb0ed1a-9329-4e8f-8aab-92bb626d8141) (San Francisco) - 18d
 - [Palantir - Forward Deployed Software Engineer - Spain](https://jobs.lever.co/palantir/53fb4c05-f949-4146-a046-5c063c36a628) (Madrid, Spain) - 18d
 - [Palantir - Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) (Chicago, IL) - 18d
 - [Ramp - Software Engineer, Developer API](https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138) (New York, NY (HQ)) - 18d
 - [Notion - Software Engineer, Data Product Platform](https://jobs.ashbyhq.com/notion/53fb4637-d1d6-4411-8a87-52865db5a11c) (San Francisco, California) - 21d
+- [Openai - Senior Software Engineer - Research Platform, Consumer Devices](https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d) (San Francisco) - 21d
 - [Ramp - Staff Software Engineer | iOS](https://jobs.ashbyhq.com/ramp/0ed80a29-6cca-42d7-b7e0-066d4fa7b37f) (New York, NY (HQ)) - 21d
+- [Openai - Full Stack Software Engineer, API Experience](https://jobs.ashbyhq.com/openai/66288824-8b77-4774-bc57-6825d3e6221e) (New York City) - 22d
 - [Notion - Software Engineer, Developer Experience](https://jobs.ashbyhq.com/notion/49bdf081-6e20-4323-8c73-6d6b19544ff5) (Hyderabad, India) - 23d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) (Chicago, IL) - 23d
 - [Ramp - Applied AI Engineer, Fullstack](https://jobs.ashbyhq.com/ramp/6a7e382f-240a-4952-b9e5-7fe2b3856bc9) (New York, NY (HQ)) - 23d
@@ -140,6 +143,8 @@ Total: 403
 - [Palantir - Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) (Washington, D.C.) - 32d
 - [Cohere - Engineering Manager, FDE Infrastructure (NORAM)](https://jobs.ashbyhq.com/cohere/6a6120d5-5e02-4811-99d9-6baf0b910e37) (Canada) - 36d
 - [Notion - Engineering Manager, Search & Context Platform](https://jobs.ashbyhq.com/notion/eb46a31c-a258-4b19-afe6-f2c65eaa2dcc) (San Francisco, California) - 36d
+- [Openai - Full Stack Software Engineer, Codex](https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582) (San Francisco) - 36d
+- [Openai - Software Engineer, Web Layer](https://jobs.ashbyhq.com/openai/915a325b-55f6-44e2-8314-34ec0d8bb2c9) (San Francisco) - 36d
 - [Palantir - Software Engineer - Core Interfaces](https://jobs.lever.co/palantir/3b4ae28e-c4f2-4654-83b4-64366bfe72fa) (New York, NY) - 36d
 - [Palantir - Software Engineer - Defense Applications](https://jobs.lever.co/palantir/c288bb43-3c63-4557-bd96-600ef0d1b7a6) (New York, NY) - 36d
 - [Attio - Senior Platform Engineer](https://jobs.ashbyhq.com/attio/c05a61a4-ae7c-4d93-a920-08d60c7448ad) (London) - 37d
@@ -149,6 +154,9 @@ Total: 403
 - [Clickhouse - Senior Software Engineer - Clickpipes (CDC/Streaming)](https://jobs.ashbyhq.com/clickhouse/ba109ff4-ed44-4a6d-92c3-92647a0c223b) (EMEA) - 42d
 - [Clickhouse - Senior Software Engineer - Clickpipes (CDC/Streaming)](https://jobs.ashbyhq.com/clickhouse/46e95c93-31cf-4b2a-97e9-97871e07dcc3) (EMEA) - 42d
 - [Notion - Software Engineer, Infrastructure](https://jobs.ashbyhq.com/notion/42f18ccd-c4c8-4a85-8c1f-de12c575fe87) (Hyderabad, India) - 43d
+- [Openai - Full Stack Software Engineer, Cybersecurity Products](https://jobs.ashbyhq.com/openai/88654e7f-4e23-4e75-8e54-18c10d09b093) (San Francisco) - 43d
+- [Openai - Full Stack Software Engineer, Codex Cloud Apps](https://jobs.ashbyhq.com/openai/130a5389-83e1-493f-9205-542d3ff53afb) (San Francisco) - 44d
+- [Openai - Host Systems Software Engineer](https://jobs.ashbyhq.com/openai/87e5f8c3-3337-480a-9db2-e4cef5db909b) (San Francisco) - 44d
 - [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a) (New York, NY) - 44d
 - [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/7a9600be-cdcb-4311-bb5c-65b6939b5956) (Washington, D.C.) - 44d
 - [Palantir - Software Engineer - Hosted Model Infrastructure](https://jobs.lever.co/palantir/e9aecd15-c7e9-4803-9928-fc0b67e70f5b) (Palo Alto, CA) - 44d
@@ -160,6 +168,7 @@ Total: 403
 - [Substack - Full Stack Software Engineer - Enterprise](https://jobs.ashbyhq.com/substack/6c70c3bb-e722-4689-bc9d-cc44136358b5) (New York) - 46d
 - [Palantir - Forward Deployed Software Engineer, Internship - AUS Government](https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976) (Sydney, Australia) - 49d
 - [Notion - Software Engineer, Web Infrastructure](https://jobs.ashbyhq.com/notion/6895adad-5031-4dce-9e8e-b9361d3a2850) (San Francisco, California) - 50d
+- [Openai - Software Engineer, Cyber Frontier](https://jobs.ashbyhq.com/openai/b7f46b2e-dfc7-4b06-8e5e-8468555c102b) (San Francisco) - 51d
 - [Ramp - Software Engineer, Banking](https://jobs.ashbyhq.com/ramp/d818443f-d4c5-4eab-892d-3715a935c165) (New York, NY (HQ)) - 51d
 - [Notion - Software Engineer, AI Workflows](https://jobs.ashbyhq.com/notion/17330e14-83db-49a4-ae31-411690d97dba) (San Francisco, California) - 52d
 - [Plaid - Software Engineer](https://jobs.ashbyhq.com/plaid/5fc0bf62-9e80-4bbe-82f4-7fdf5461deb9) (London Office) - 52d
@@ -184,8 +193,12 @@ Total: 403
 - [Attio - Senior Product Engineer [Backend]](https://jobs.ashbyhq.com/attio/433cfa12-a43d-435e-9f69-8fb8688d1b10) (Poland) - 66d
 - [Cohere - Forward Deployed Engineer, Agentic Platform (UK/Europe)](https://jobs.ashbyhq.com/cohere/2d256112-b336-4539-8133-a0bf7f6698f0) (Europe) - 66d
 - [Notion - Software Engineer, Trust](https://jobs.ashbyhq.com/notion/66236b7e-2905-4a93-84a5-ed036a1a6581) (San Francisco, California) - 71d
+- [Openai - Backend Software Engineer, Applied Foundations](https://jobs.ashbyhq.com/openai/b398e1c6-0c32-4464-bb34-6ccda901b688) (San Francisco) - 71d
+- [Openai - Full-Stack Software Engineer, Applied Foundations](https://jobs.ashbyhq.com/openai/f873dd71-46c9-4be1-8580-bc67c56b4cad) (San Francisco) - 71d
+- [Openai - Systems Software Engineer, Management Plane](https://jobs.ashbyhq.com/openai/21229750-8bd1-4134-a20e-2a8922b88806) (San Francisco) - 71d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc) (New York, NY) - 71d
 - [Palantir - Forward Deployed Software Engineer - US Government - Federal Health and Civilian](https://jobs.lever.co/palantir/e7100322-be11-40c8-9dba-7a21b7302c08) (Washington, D.C.) - 71d
+- [Openai - Software Engineer, Core Network Engineering](https://jobs.ashbyhq.com/openai/1fec5ecd-5b7b-45bc-bc8c-ac7184565551) (San Francisco) - 72d
 - [Palantir - Forward Deployed Software Engineer, Internship](https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a) (Paris, France) - 72d
 - [Cohere - Engineering Manager, FDE Agentic Platform (UK)](https://jobs.ashbyhq.com/cohere/7a420921-b7dc-4341-a134-6fe209615e86) (United Kingdom) - 73d
 - [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/0fccbe95-2520-4df3-8600-7897656c06a2) (Honolulu, HI) - 74d
@@ -205,8 +218,11 @@ Total: 403
 - [Palantir - Edge Infrastructure Engineer](https://jobs.lever.co/palantir/fe65ee3c-61e0-4eb6-99e5-c90e38e7043f) (London, United Kingdom) - 79d
 - [Cohere - Lead Member of Technical Staff, Inference Infrastructure](https://jobs.ashbyhq.com/cohere/5806a521-8584-4bbe-b60a-49031b919251) (San Francisco) - 80d
 - [Notion - Software Engineer, New Grad (AI)](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9) (San Francisco, California) - 81d
+- [Openai - Software Engineer, Compute Infrastructure](https://jobs.ashbyhq.com/openai/ca300a6d-a2a7-4580-aad7-323fbdfee7b1) (San Francisco) - 81d
+- [Openai - Tokens-as-a-Service (Taas) Software Engineer](https://jobs.ashbyhq.com/openai/f3ddd41c-541f-485e-90d6-86c26e018e9f) (San Francisco) - 81d
 - [Ramp - Software Engineer, Engineering Platform](https://jobs.ashbyhq.com/ramp/198150d6-789a-4ef8-999f-93a49656d4f1) (New York, NY (HQ)) - 81d
 - [Ramp - Software Engineer, Production Engineering](https://jobs.ashbyhq.com/ramp/be496b52-cfbf-494e-b862-61fb4a188b24) (New York, NY (HQ)) - 81d
+- [Openai - Software Engineer, Inference - Performance Optimization](https://jobs.ashbyhq.com/openai/85fceac9-fb8a-4d71-a524-a8e5f1e9b01b) (San Francisco) - 83d
 - [Notion - Software Engineer, Collections Experience](https://jobs.ashbyhq.com/notion/5d8c1ec6-e9ea-416b-9715-880bf5037abc) (San Francisco, California) - 85d
 - [Notion - Software Engineer, New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) (San Francisco, California) - 85d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019) (Washington, D.C.) - 85d
@@ -215,6 +231,16 @@ Total: 403
 - [Clickhouse - Senior Software Engineer - JVM Language Clients](https://jobs.ashbyhq.com/clickhouse/49425fa1-0277-4016-a453-cc4b05d8eb93) (EMEA) - 86d
 - [Cohere - Engineering Manager, FDE Infrastructure (UK)](https://jobs.ashbyhq.com/cohere/9bdbb821-6536-4090-8faa-a2b04a70bbf1) (United Kingdom) - 87d
 - [Notion - Software Engineer, AI Capture](https://jobs.ashbyhq.com/notion/b31ce253-4238-4ed6-a5a2-73b63cbf1709) (San Francisco, California) - 87d
+- [Openai - Director, Compute & Infrastructure FP&A](https://jobs.ashbyhq.com/openai/7536171d-0f98-4964-8f22-7968db062105) (San Francisco) - 87d
+- [Openai - Software Engineer, ChatGPT Infrastructure](https://jobs.ashbyhq.com/openai/e6981259-c1d0-46de-8376-56bde28cfb10) (San Francisco) - 87d
+- [Openai - Data Center Infrastructure Electrical Engineer](https://jobs.ashbyhq.com/openai/e602cd50-002d-4ace-bb30-19db0afcf635) (San Francisco) - 89d
+- [Openai - Data Center Infrastructure Mechanical Engineer](https://jobs.ashbyhq.com/openai/8e856e36-075e-40b4-b617-0229b5c1a308) (San Francisco) - 89d
+- [Openai - Software Engineer, Engineering Acceleration | Consumer Devices](https://jobs.ashbyhq.com/openai/ae3a32af-b862-45db-838c-7fb49d4bc27e) (San Francisco) - 91d
+- [Openai - Software Engineer, Kernel Performance & AI Tooling](https://jobs.ashbyhq.com/openai/e9627fa6-ac76-4899-9a93-9251419e61a0) (San Francisco) - 91d
+- [Openai - Full Stack Software Engineer, OpenAI Edu](https://jobs.ashbyhq.com/openai/9b1b62f5-1400-4672-910a-fda6f975f642) (San Francisco) - 92d
+- [Openai - Software Engineer, Infrastructure, Consumer Devices](https://jobs.ashbyhq.com/openai/3544fb7b-669b-43e3-8828-94972620bac7) (San Francisco) - 93d
+- [Openai - Software Engineer, Foundations Search](https://jobs.ashbyhq.com/openai/40ed6975-ef61-4807-b748-37c2fa2b76c7) (San Francisco) - 94d
+- [Openai - Software Engineer, Infrastructure - Analytics Platform](https://jobs.ashbyhq.com/openai/e44bfa94-0b82-4d0c-b224-02155b76eea9) (San Francisco) - 97d
 - [Notion - Software Engineer Intern (Fall 2026)](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) (San Francisco, California) - 102d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a) (New York, NY) - 102d
 - [Palantir - Senior Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/a92b55d0-1d36-4884-8e65-f456450b3a74) (London, United Kingdom) - 102d
@@ -227,6 +253,8 @@ Total: 403
 - [Clickhouse - Senior Backend Engineer - ClickStack](https://jobs.ashbyhq.com/clickhouse/a626430b-3596-427e-a6f8-87ce6ae88a20) (United States) - 106d
 - [Plaid - Staff Software Engineer - AI Applications](https://jobs.ashbyhq.com/plaid/0d80a5be-8860-46ea-9e67-c4a2bb53b1bf) (San Francisco HQ) - 109d
 - [Ramp - Software Engineer, Fraud & Identity](https://jobs.ashbyhq.com/ramp/8fa367de-71ba-409e-befd-175a163acb1b) (New York, NY (HQ)) - 112d
+- [Openai - Software Engineer, Codex Core Agents](https://jobs.ashbyhq.com/openai/7ade7a12-845c-4e3a-af23-c028420bd181) (San Francisco) - 113d
+- [Openai - Principal Software Engineer, B2B Engineering](https://jobs.ashbyhq.com/openai/aeff784b-ea9a-40c9-aa13-6cb0b5e362cc) (Remote - US) - 116d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d) (New York, NY) - 119d
 - [Palantir - Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333) (New York, NY) - 119d
 - [Palantir - Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329) (New York, NY) - 119d
@@ -247,7 +275,10 @@ Total: 403
 - [Cohere - Forward Deployed Engineer, Agentic Platform](https://jobs.ashbyhq.com/cohere/b0bcef37-1d20-414f-aade-c54942d63df9) (United States) - 135d
 - [Cohere - Forward Deployed Engineer, Agentic Platform](https://jobs.ashbyhq.com/cohere/75c0032c-7200-48bf-9d6d-355880dd93d9) (Middle East) - 135d
 - [Ramp - Backend Engineer, Ops](https://jobs.ashbyhq.com/ramp/7bfa613e-151c-469b-9973-c89ee3d14838) (New York, NY (HQ)) - 135d
+- [Openai - Software Engineer, Ads Monetization, Revenue Platform](https://jobs.ashbyhq.com/openai/3ce0949d-b028-44f1-983c-446bb7bb1881) (San Francisco) - 137d
 - [Palantir - Forward Deployed Software Engineer - Tactical Edge](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) (Washington, D.C.) - 137d
+- [Openai - Android Engineer, ChatGPT Mobile Infrastructure](https://jobs.ashbyhq.com/openai/76ab9863-fc86-4ecf-9cc2-759cdd6b64b7) (San Francisco) - 138d
+- [Openai - iOS Engineer, ChatGPT Mobile Infrastructure](https://jobs.ashbyhq.com/openai/d66ae477-8742-4c4c-85a2-6f92a7dc67f2) (San Francisco) - 138d
 - [Ramp - Software Engineer, GTM Platform, Frontend](https://jobs.ashbyhq.com/ramp/1540a41f-d88f-4c89-9b08-5b9fade1ee81) (New York, NY (HQ)) - 141d
 - [Clickhouse - Senior Software Engineer - Clickpipes (CDC/Streaming)](https://jobs.ashbyhq.com/clickhouse/ef3e71d9-9224-4f3d-9dc4-bfa9859a6d4a) (EMEA) - 147d
 - [Clickhouse - Senior Software Engineer - Clickpipes (CDC/Streaming)](https://jobs.ashbyhq.com/clickhouse/bbf5a442-5a8b-4076-a5f7-a179a0bccc2c) (EMEA) - 147d
@@ -288,16 +319,24 @@ Total: 403
 - [Clickhouse - Senior Infrastructure Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/cad55156-d34b-4071-9c0f-c730a1d09d55) (United States) - 239d
 - [Clickhouse - Senior Infrastructure Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/f2dffb5f-9852-456f-9ebe-92cae51c99c4) (United States) - 239d
 - [Ramp - Software Engineer, Argentina](https://jobs.ashbyhq.com/ramp/9320454f-f2ca-4c19-82d2-b51b8d75fd3a) (Remote (Buenos Aires, Argentina)) - 240d
+- [Openai - Software Engineer, Full Stack, Revenue Platform](https://jobs.ashbyhq.com/openai/8427b270-8440-400c-bc18-ff24c4f0f987) (San Francisco) - 241d
+- [Openai - Forward Deployed Software Engineer - SF](https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047) (San Francisco) - 244d
+- [Openai - Software Engineer, Distributed Data Systems - Robotics](https://jobs.ashbyhq.com/openai/da07ba71-81fd-47c7-adb1-2b2d1eaed325) (San Francisco) - 245d
+- [Openai - Forward Deployed Software Engineer - London](https://jobs.ashbyhq.com/openai/54b2072e-4c1c-40e4-b2dc-ec51d9d0ab60) (London, UK) - 246d
+- [Openai - Full Stack Engineer, Intelligence Systems](https://jobs.ashbyhq.com/openai/52c72cb9-7c44-4cba-b440-e05262a38491) (San Francisco) - 247d
 - [Palantir - Software Engineer - Apollo Systems](https://jobs.lever.co/palantir/832e4652-5088-4e5b-aeac-1e82ec3ebad4) (New York, NY) - 249d
 - [Palantir - Software Engineer - Apollo Systems](https://jobs.lever.co/palantir/e47d4410-2542-47d8-b558-b5295fc28821) (Seattle, WA) - 249d
 - [Ramp - Software Engineer, AI Forward Deployed](https://jobs.ashbyhq.com/ramp/deca582c-a1d0-4705-9975-60aed81ba89f) (San Francisco, CA) - 254d
 - [Palantir - Software Engineer - Edge](https://jobs.lever.co/palantir/397fb983-47b7-4a53-a7df-f080f43f7720) (Washington, D.C.) - 255d
+- [Openai - Site Reliability Engineer, Frontier Systems Infrastructure](https://jobs.ashbyhq.com/openai/ad2cf782-15a4-48c7-9133-1788e3f33bbb) (San Francisco) - 256d
+- [Openai - Software Engineer, Hardware](https://jobs.ashbyhq.com/openai/778e3a4f-c318-4a79-a745-00e722e5ee47) (San Francisco) - 259d
 - [Ramp - Software Engineer, Bill Pay & Procurement](https://jobs.ashbyhq.com/ramp/2a4968ae-220c-471b-b890-a011de570bbb) (New York, NY (HQ)) - 261d
 - [Clickhouse - Cloud Software Engineer - Observability Platform](https://jobs.ashbyhq.com/clickhouse/afc48f47-a398-4aeb-b7ad-1d2e225f722c) (United States) - 268d
 - [Clickhouse - Cloud Software Engineer - Observability Platform](https://jobs.ashbyhq.com/clickhouse/f92906ba-a912-4e19-b55c-9f2a07306e87) (United States) - 268d
 - [Palantir - Forward Deployed Software Engineer - Edge Autonomous Systems](https://jobs.lever.co/palantir/27bf5707-96fa-460e-8a5b-53bc192ca87b) (Washington, D.C.) - 283d
 - [Palantir - Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/88f8f593-af1f-4d27-9042-454c24a64d3f) (Seattle, WA) - 283d
 - [Notion - Software Engineer, Product Infrastructure](https://jobs.ashbyhq.com/notion/d41b635b-c17b-4efd-89fd-fdb2ddb62e9a) (San Francisco, California) - 287d
+- [Openai - Software Engineer, Cloud Infrastructure](https://jobs.ashbyhq.com/openai/29c2c171-fb63-4985-9ac5-229b2ff5ced6) (London, UK) - 289d
 - [Ramp - Software Engineer, Growth Platform](https://jobs.ashbyhq.com/ramp/f5b60cf1-c0ec-42c1-89db-ece853e998ab) (New York, NY (HQ)) - 291d
 - [Cohere - Forward Deployed Engineer, Infrastructure Specialist (North America)](https://jobs.ashbyhq.com/cohere/be48aafc-9610-4ebd-8414-a0722a3cd59a) (Toronto) - 309d
 - [Palantir - Software Engineer, Internship - Infrastructure](https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4) (Palo Alto, CA) - 332d
@@ -310,8 +349,10 @@ Total: 403
 - [Palantir - Forward Deployed Infrastructure Engineer - UK Government](https://jobs.lever.co/palantir/72e51928-07f0-4be0-aae5-0ae6956a4846) (London, United Kingdom) - 344d
 - [Ramp - Software Engineer Internship, Android](https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b) (New York, NY (HQ)) - 344d
 - [Palantir - Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/6fe5515f-f677-4d98-8ac2-1775a425f5e7) (New York, NY) - 345d
+- [Openai - Software Engineer, Cloud Infrastructure](https://jobs.ashbyhq.com/openai/12342ebb-dcd4-45e2-b875-fc5447fdb7d8) (San Francisco) - 347d
 - [Ramp - Mobile Engineer, Android](https://jobs.ashbyhq.com/ramp/f564dcf9-9390-4a3f-896f-8047a5086040) (New York, NY (HQ)) - 351d
 - [Ramp - Mobile Engineer, iOS](https://jobs.ashbyhq.com/ramp/4859cd5e-f2a9-44d7-81f7-8bfc0e62369f) (New York, NY (HQ)) - 351d
+- [Openai - Software Engineer, Database Systems](https://jobs.ashbyhq.com/openai/2b5e8e15-7952-4170-a927-2ad68e318ed6) (San Francisco) - 353d
 - [Palantir - Forward Deployed Software Engineer - US Government](https://jobs.lever.co/palantir/84131e3f-455e-47fc-9c11-898d95f09048) (San Diego, CA) - 353d
 - [Clickhouse - Full Stack Software Engineer - Control Plane](https://jobs.ashbyhq.com/clickhouse/6bfcbf93-226b-4490-b5f2-9535c31310d6) (EMEA) - 371d
 - [Clickhouse - Full Stack Software Engineer - Control Plane](https://jobs.ashbyhq.com/clickhouse/a46b39bb-a57c-412c-bb32-06d1fe21ee70) (EMEA) - 371d
@@ -324,12 +365,19 @@ Total: 403
 - [Palantir - Software Engineer, New Grad - Infrastructure](https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4) (New York, NY) - 386d
 - [Palantir - Software Engineer, New Grad - Production Infrastructure](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) (Seattle, WA) - 386d
 - [Palantir - Software Engineer, New Grad - Production Infrastructure](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) (New York, NY) - 386d
+- [Openai - Software Engineer, Payments](https://jobs.ashbyhq.com/openai/0da75470-7e1e-44c3-90df-6f93cf90b968) (San Francisco) - 392d
 - [Palantir - Software Engineer, New Grad - Defense](https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278) (New York, NY) - 393d
 - [Palantir - Software Engineer, New Grad - Defense](https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79) (Washington, D.C.) - 393d
 - [Palantir - Software Engineer, New Grad - Defense](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3) (Palo Alto, CA) - 393d
 - [Palantir - Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728) (New York, NY) - 399d
+- [Openai - Software Engineer, Agent Infrastructure](https://jobs.ashbyhq.com/openai/c1316397-25bb-4add-9e9d-0e3ea8ba929a) (San Francisco) - 413d
+- [Openai - Software Engineer, Inference - Multi Modal](https://jobs.ashbyhq.com/openai/4d14449e-5e7f-45d4-b103-8776a6c87086) (San Francisco) - 422d
+- [Openai - Software Engineer, Habitat (Online Data)](https://jobs.ashbyhq.com/openai/460b4295-3803-4dda-983d-3b0fea0b0fc4) (Seattle) - 459d
+- [Openai - Software Engineer, Privacy](https://jobs.ashbyhq.com/openai/fb5862cc-244c-410b-b287-47df89ad1e43) (Dublin, Ireland) - 463d
+- [Openai - Software Engineer, Developer Productivity](https://jobs.ashbyhq.com/openai/2cba0d45-7a4f-4f38-ac73-3f8633bf0349) (San Francisco) - 477d
 - [Palantir - Software Engineer - Mission Manager](https://jobs.lever.co/palantir/c0b60d64-1244-4270-9d55-14115c97c24b) (New York, NY) - 477d
 - [Palantir - Software Engineer - Mission Manager](https://jobs.lever.co/palantir/e168a922-a2f0-45d0-912c-678d66e15118) (Seattle, WA) - 477d
+- [Openai - Software Engineer, AI Safety](https://jobs.ashbyhq.com/openai/b9dee2a0-9bb3-447e-9bce-2b1bed784e5b) (San Francisco) - 487d
 - [Palantir - Forward Deployed Software Engineer - Japan Government](https://jobs.lever.co/palantir/12e94938-55cb-4ad9-9c05-405ebc9ef430) (Tokyo, Japan) - 497d
 - [Palantir - Backend Software Engineer - Defense](https://jobs.lever.co/palantir/1345438c-ebfc-4fa5-b545-30c1414f317c) (Washington, D.C.) - 508d
 - [Palantir - Backend Software Engineer - Defense](https://jobs.lever.co/palantir/a8174f9c-6f46-46b4-8e15-d1ff9e37c9eb) (Palo Alto, CA) - 508d
@@ -350,7 +398,11 @@ Total: 403
 - [Palantir - Software Engineer, Internship - Defense Tech](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e) (New York, NY) - 711d
 - [Palantir - Software Engineer, Internship - Defense Tech](https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d) (Palo Alto, CA) - 711d
 - [Palantir - Software Engineer, Internship - Defense Tech](https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7) (Washington, D.C.) - 711d
+- [Openai - Software Engineer, Data Infrastructure](https://jobs.ashbyhq.com/openai/f763c6b3-5167-4a67-b691-4c3fa2c44156) (San Francisco) - 750d
+- [Openai - Software Engineer, Integrity Foundations](https://jobs.ashbyhq.com/openai/991948b7-0305-4125-bb9a-625f5bc24189) (San Francisco) - 766d
 - [Palantir - Forward Deployed Software Engineer](https://jobs.lever.co/palantir/8148182c-6127-4689-b615-7815a94173bb) (Dubai, United Arab Emirates) - 807d
+- [Openai - Software Engineer, Collective Communication](https://jobs.ashbyhq.com/openai/340c0c22-8d8f-4232-b17e-f642b64c25c3) (San Francisco) - 818d
+- [Openai - Software Engineer, Financial Engineering](https://jobs.ashbyhq.com/openai/4ef5bf23-cf0e-4b97-a639-11f963c99b88) (San Francisco) - 830d
 - [Palantir - Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/10dfc8bc-99ad-4ca2-ab76-853cb90a92c2) (London, United Kingdom) - 858d
 - [Palantir - Backend Software Engineer - Application Development](https://jobs.lever.co/palantir/ab7e3425-81d5-4705-a7b5-cd60c8a45cdb) (New York, NY) - 858d
 - [Palantir - Senior Software Engineer, Network Infrastructure](https://jobs.lever.co/palantir/39c57909-ae76-4c86-9290-9fb50c689c4f) (Seattle, WA) - 871d
@@ -363,6 +415,7 @@ Total: 403
 - [Palantir - Backend Software Engineer - Infrastructure](https://jobs.lever.co/palantir/f70cdff7-c62f-4b73-a136-909e5e3d1891) (London, United Kingdom) - 878d
 - [Palantir - Backend Software Engineer - Infrastructure, Foundations](https://jobs.lever.co/palantir/fb2d3222-dbd8-4e03-8d39-47b820e9509c) (New York, NY) - 878d
 - [Palantir - Full Stack Software Engineer - Application Development](https://jobs.lever.co/palantir/2da4be12-bc7a-4950-87db-e9d68d955ff7) (New York, NY) - 881d
+- [Openai - Software Engineer, Data Acquisition](https://jobs.ashbyhq.com/openai/41d9d129-2e58-4ad3-be81-2e5096f4da4d) (San Francisco) - 1029d
 - [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/74748e0e-a0bc-4c53-a636-ef14e36d9b5e) (Washington, D.C.) - 1037d
 - [Palantir - Forward Deployed Infrastructure Engineer - US Government](https://jobs.lever.co/palantir/b57f08e9-546c-4b9b-8d21-db0ebbc11363) (New York, NY) - 1037d
 - [Ramp - Software Engineer, Frontend](https://jobs.ashbyhq.com/ramp/4e64ab86-4e30-403b-b1b9-41dc052570ce) (New York, NY (HQ)) - 1226d
