@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 101 |
+| Jobs | 100 |
 | Hackathons | 2 |
 | Events | 8 |
-| Total | 111 |
+| Total | 110 |
 
 ## Jobs
 
-[![Jobs 101](https://img.shields.io/badge/Jobs-101-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 64](https://img.shields.io/badge/Mid--Level%20and%20Above-64-dc2626.svg)](#mid-level-and-above)
+[![Jobs 100](https://img.shields.io/badge/Jobs-100-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 21](https://img.shields.io/badge/Internship-21-22c55e.svg)](#internship) [![Early Career 16](https://img.shields.io/badge/Early%20Career-16-0ea5e9.svg)](#early-career) [![Mid-Level and Above 63](https://img.shields.io/badge/Mid--Level%20and%20Above-63-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -89,7 +89,7 @@ Total roles: 16
 
 ### Mid-Level and Above
 
-Total roles: 64
+Total roles: 63
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -108,7 +108,6 @@ Total roles: 64
 | Wise | [Product Lead - Financial Crime Platform](https://jobs.smartrecruiters.com/Wise/744000137083329) | London, United Kingdom | 7d |
 | Wise | [Senior Software Engineer II - Wise for Enterprise](https://jobs.smartrecruiters.com/Wise/744000137154630) | London, United Kingdom | 7d |
 | Wise | [Senior Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000137062525) | Budapest, Hungary | 7d |
-| Wise | [Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000136954197) | Seoul, Korea, republic of | 7d |
 | Notion | [Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) | New York, New York | 15d |
 | Palantir | [Forward Deployed Software Engineer - Spain](https://jobs.lever.co/palantir/53fb4c05-f949-4146-a046-5c063c36a628) | Madrid, Spain | 18d |
 | Ramp | [Software Engineer, Developer API](https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138) | New York, NY (HQ) | 18d |
