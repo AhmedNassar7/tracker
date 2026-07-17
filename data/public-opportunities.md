@@ -1,6 +1,6 @@
 # Public Opportunities
 
-Generated at: 2026-07-17T11:39:59Z
+Generated at: 2026-07-17T14:02:12Z
 
 This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma). For the full combined list, see [README.md](README.md) or the [project overview](../README.md).
 
