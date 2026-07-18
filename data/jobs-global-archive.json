@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T22:06:37Z",
-  "total": 36,
+  "generated_at": "2026-07-18T23:09:44Z",
+  "total": 35,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "1d",
-      "collected_at": "2026-07-18T22:06:37Z",
+      "collected_at": "2026-07-18T23:09:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T22:06:37Z"
+      "closed_at": "2026-07-18T23:09:44Z"
     },
     {
       "id": "59b4f1aff1a389af",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "2d",
-      "collected_at": "2026-07-18T22:06:37Z",
+      "collected_at": "2026-07-18T23:09:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T22:06:37Z"
+      "closed_at": "2026-07-18T23:09:44Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "1d",
-      "collected_at": "2026-07-18T22:06:37Z",
+      "collected_at": "2026-07-18T23:09:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T22:06:37Z"
+      "closed_at": "2026-07-18T23:09:44Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "2d",
-      "collected_at": "2026-07-18T22:06:37Z",
+      "collected_at": "2026-07-18T23:09:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T22:06:37Z"
+      "closed_at": "2026-07-18T23:09:44Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "2d",
-      "collected_at": "2026-07-18T22:06:37Z",
+      "collected_at": "2026-07-18T23:09:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T22:06:37Z"
+      "closed_at": "2026-07-18T23:09:44Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -120,13 +120,34 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "1d",
-      "collected_at": "2026-07-18T22:06:37Z",
+      "collected_at": "2026-07-18T23:09:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T22:06:37Z"
+      "closed_at": "2026-07-18T23:09:44Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-18",
+      "age": "19d",
+      "collected_at": "2026-07-18T15:13:57Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-18T23:09:44Z"
     },
     {
       "id": "8a32d8c56dfd9a12",
@@ -142,48 +163,6 @@
       "posted_at": "2026-07-17",
       "age": "Recently",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T21:05:42Z"
-    },
-    {
-      "id": "ae609c2c13eb416e",
-      "company": "Amazon.com",
-      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=2e56c813ce52841f",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-05-21",
-      "age": "58d",
-      "collected_at": "2026-07-18T10:39:52Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T21:05:42Z"
-    },
-    {
-      "id": "814d2f7eac64722d",
-      "company": "Amazon.com",
-      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=1e3a468f019b7884",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-05-21",
-      "age": "58d",
-      "collected_at": "2026-07-18T10:39:52Z",
       "tags": [
         "software",
         "programming",

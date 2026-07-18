@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 408 |
+| Jobs | 409 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 465 |
+| Total | 466 |
 
 ## Jobs
 
-[![Jobs 408](https://img.shields.io/badge/Jobs-408-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 61](https://img.shields.io/badge/Internship-61-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 319](https://img.shields.io/badge/Mid--Level%20and%20Above-319-dc2626.svg)](#mid-level-and-above)
+[![Jobs 409](https://img.shields.io/badge/Jobs-409-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 61](https://img.shields.io/badge/Internship-61-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 321](https://img.shields.io/badge/Mid--Level%20and%20Above-321-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -106,7 +106,7 @@ Total roles: 61
 
 ### Early Career
 
-Total roles: 28
+Total roles: 27
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -126,7 +126,6 @@ Total roles: 28
 | Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California | 12d |
 | Palantir | [Software Engineer New Grad - Production Infrastructure](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 15d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 18d |
-| Palantir | [Forward Deployed Software Engineer New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify) | NYC | 19d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 19d |
 | Stripe | [Software Engineer, New Grad, Developer & End User Experience Platform](https://stripe.com/jobs/search?gh_jid=7991718) | Toronto | 21d |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 28d |
@@ -141,7 +140,7 @@ Total roles: 28
 
 ### Mid-Level and Above
 
-Total roles: 319
+Total roles: 321
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -321,6 +320,8 @@ Total roles: 319
 | Openai | [Capacity Systems Software Engineer](https://jobs.ashbyhq.com/openai/11c51b12-3ba0-4a7a-a0d2-ed0661324dc3) | San Francisco | 1mo |
 | Openai | [Software Engineer, API SDK](https://jobs.ashbyhq.com/openai/77fbf383-bb97-4006-9b2d-e5de2d6f79d3) | Seattle | 1mo |
 | Openai | [Software Engineer, ML Systems & Training Architecture](https://jobs.ashbyhq.com/openai/9117987a-7a59-449e-a702-89e8d0e8cb60) | San Francisco | 1mo |
+| Amazon.com | [Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising](https://www.indeed.com/viewjob?jk=2e56c813ce52841f) | New York, NY, US | 1mo |
+| Amazon.com | [Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising](https://www.indeed.com/viewjob?jk=1e3a468f019b7884) | Seattle, WA, US | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/a11e0267-85fb-4eaa-920b-849edbb5b625) | AMER | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/b8ebc311-9742-4a17-ac8e-36d23b925626) | AMER | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/c9c55913-563f-432d-9d9b-722e71f57b53) | AMER | 1mo |
