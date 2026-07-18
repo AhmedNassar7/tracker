@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T10:40:45Z",
-  "total": 522,
+  "generated_at": "2026-07-18T12:04:48Z",
+  "total": 529,
   "jobs": [
     {
       "id": "73a18997e7bf3005",
@@ -99,6 +99,62 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "9fab4ec665ecf704",
+      "kind": "job",
+      "company": "Intel",
+      "title": "AI Software Engineering Intern",
+      "location": "2 Locations",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "518ba7cf3decd72d",
+      "kind": "job",
+      "company": "Intel",
+      "title": "AI Software Engineering Intern",
+      "location": "US, Arizona, Phoenix",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "dd7722dbb23fc0f6",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Software Engineer",
+      "location": "2 Locations",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer_JR0285453",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "05e84cb9f1db0fc7",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Software Engineer - Agent Harness",
+      "location": "4 Locations",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/Software-Engineer---Agent-Harness_JR0284869",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "ee36bb020b12a233",
@@ -409,6 +465,20 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
+      "id": "5859cae08c5c3d4c",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Senior Software Engineer",
+      "location": "US, Arizona, Phoenix",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Senior-Software-Engineer_JR0285595",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
       "id": "b2f12adc03697273",
       "kind": "job",
       "company": "Openai",
@@ -505,6 +575,20 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "e2cff3074eafc6cf",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Senior AI Software Engineer - Neuromorphic Computing",
+      "location": "3 Locations",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-AI-Software-Engineer---Neuromorphic-Computing_JR0282751",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "277be340e64e288a",
@@ -1289,6 +1373,20 @@
       "url": "https://jobs.ashbyhq.com/cohere/732c05f5-a9ec-43a3-9ae4-3ec7f7630fff",
       "source": "ashby:cohere",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
+    },
+    {
+      "id": "eab2bb3f3ce58c85",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Hardware Platform Applications Engineer - Military & Aerospace",
+      "location": "4 Locations",
+      "level": "other",
+      "role_type": "platform",
+      "date": "29d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "c47a95fa752129e6",

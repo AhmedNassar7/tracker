@@ -1,10 +1,10 @@
 # Public Opportunities
 
-Generated at: 2026-07-18T10:40:45Z
+Generated at: 2026-07-18T12:04:48Z
 
 This is a raw export of the public-board feed only (Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma). For the full combined list, see [README.md](README.md) or the [project overview](../README.md).
 
-Total: 522
+Total: 529
 
 ## Jobs
 - [Cloudflare - Models Deployment Engineer, AI Platform](https://boards.greenhouse.io/cloudflare/jobs/8028747?gh_jid=8028747) (Hybrid) - 1d
@@ -14,6 +14,10 @@ Total: 522
 - [Cloudflare - Senior Software Engineer, Workers Runtime](https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726) (In-Office) - 1d
 - [Cloudflare - Senior Systems Engineer, Cloudflare Data Platform](https://boards.greenhouse.io/cloudflare/jobs/8030240?gh_jid=8030240) (In-Office) - 1d
 - [Cloudflare - Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424) (In-Office) - 1d
+- [Intel - AI Software Engineering Intern](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639) (2 Locations) - 1d
+- [Intel - AI Software Engineering Intern](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641) (US, Arizona, Phoenix) - 1d
+- [Intel - Software Engineer](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer_JR0285453) (2 Locations) - 1d
+- [Intel - Software Engineer - Agent Harness](https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/Software-Engineer---Agent-Harness_JR0284869) (4 Locations) - 1d
 - [Openai - Backend Software Engineer, API Enterprise Controls](https://jobs.ashbyhq.com/openai/d0956b18-4f80-4c67-b94b-313181a16be6) (San Francisco) - 1d
 - [Openai - Senior Staff Software Engineer, Engineering Acceleration | Consumer Devices](https://jobs.ashbyhq.com/openai/fced529d-4523-436d-9559-cf1a8321b0fa) (San Francisco) - 1d
 - [Openai - Systems Generalist, GPT Infrastructure](https://jobs.ashbyhq.com/openai/78c2a68b-cc77-4c62-8891-96afb603650a) (San Francisco) - 1d
@@ -36,6 +40,7 @@ Total: 522
 - [Cloudflare - Senior Software Engineer - Network Connectivity (Go/Rust)](https://boards.greenhouse.io/cloudflare/jobs/7793013?gh_jid=7793013) (Hybrid) - 3d
 - [Cloudflare - Senior Software Engineer, Distributed Databases](https://boards.greenhouse.io/cloudflare/jobs/7896462?gh_jid=7896462) (In-Office) - 3d
 - [Cloudflare - Software Engineer, AI Agents](https://boards.greenhouse.io/cloudflare/jobs/7831810?gh_jid=7831810) (In-Office) - 3d
+- [Intel - Senior Software Engineer](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Senior-Software-Engineer_JR0285595) (US, Arizona, Phoenix) - 3d
 - [Openai - Software Engineer, Privacy Engineering](https://jobs.ashbyhq.com/openai/07153f7c-7e8b-4283-a879-cb07a224e083) (San Francisco) - 3d
 - [Wise - Senior iOS Engineer – Send Experience](https://jobs.smartrecruiters.com/Wise/744000137820489) (London, United Kingdom) - 3d
 - [Wise - Senior Software Engineer II - FinCrime - Scam Prevention Team](https://jobs.smartrecruiters.com/Wise/744000137927403) (London, United Kingdom) - 3d
@@ -43,6 +48,7 @@ Total: 522
 - [Wise - Software Engineer - Recurring Payin](https://jobs.smartrecruiters.com/Wise/744000137942542) (London, United Kingdom) - 3d
 - [Cloudflare - Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) (Hybrid) - 4d
 - [Cloudflare - Software Engineer Intern (Fall 2026) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) (In-Office) - 4d
+- [Intel - Senior AI Software Engineer - Neuromorphic Computing](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-AI-Software-Engineer---Neuromorphic-Computing_JR0282751) (3 Locations) - 4d
 - [Notion - Software Engineer, AI Platform](https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1) (San Francisco, California) - 4d
 - [Clickhouse - Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/586876a1-0847-4652-b799-1680eb2ef880) (United States) - 5d
 - [Clickhouse - Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/2cc93462-d3db-44f4-a0fe-407cd9c20329) (United States) - 5d
@@ -99,6 +105,7 @@ Total: 522
 - [Openai - Engineering Manager, Identity & Access Platform](https://jobs.ashbyhq.com/openai/5839b9a2-7d92-452a-8b56-06f8c3f97b75) (San Francisco) - 26d
 - [Cohere - Senior/Staff Software Engineer, Developer Experience](https://jobs.ashbyhq.com/cohere/6d499dbb-8209-4f02-ae57-a1f1efa9ecbb) (London) - 29d
 - [Cohere - Software Engineer, Adoption](https://jobs.ashbyhq.com/cohere/732c05f5-a9ec-43a3-9ae4-3ec7f7630fff) (London) - 29d
+- [Intel - Hardware Platform Applications Engineer - Military & Aerospace](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700) (4 Locations) - 29d
 - [Plaid - Staff Site Reliability Engineer - Release Engineering](https://jobs.ashbyhq.com/plaid/07cde72b-a127-48a8-b01a-570de5768340) (New York City Office) - 29d
 - [Clickhouse - Senior Software Engineer - JVM Language Clients](https://jobs.ashbyhq.com/clickhouse/1d6e5075-22b0-4b40-b1dc-9319d34fc772) (EMEA) - 30d
 - [Clickhouse - Senior Software Engineer - JVM Language Clients](https://jobs.ashbyhq.com/clickhouse/dd5fef15-20ec-4b43-94fc-f74faca10c83) (EMEA) - 30d
