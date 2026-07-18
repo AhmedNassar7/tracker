@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-17T22:39:15Z",
-  "total": 86,
+  "generated_at": "2026-07-18T03:30:28Z",
+  "total": 90,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -176,6 +176,66 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "7901ce2e362ca859",
+      "company": "Siemens",
+      "title": "Software Developer - New Graduate- 12 Month Contract",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Vaughan, Ontario (Hybrid)",
+      "remote_type": "hybrid",
+      "url": "https://ca.linkedin.com/jobs/view/software-developer-new-graduate-12-month-contract-at-siemens-4414765886",
+      "source": "hanzili_canada",
+      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8c423d3b1aa78262",
+      "company": "Triunity Software, Inc.",
+      "title": "Jr. Machine Learning Engineer",
+      "level": "junior",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia (Onsite)",
+      "remote_type": "onsite",
+      "url": "https://ca.linkedin.com/jobs/view/jr-machine-learning-engineer-at-triunity-software-inc-4435698475",
+      "source": "hanzili_canada",
+      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "172c7369e682e281",
+      "company": "NVIDIA",
+      "title": "Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-18",
+      "age": "1d",
+      "collected_at": "2026-07-18T03:30:28Z",
       "tags": [
         "software",
         "programming",
@@ -463,59 +523,19 @@
       ]
     },
     {
-      "id": "7901ce2e362ca859",
-      "company": "Siemens",
-      "title": "Software Developer - New Graduate- 12 Month Contract",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Vaughan, Ontario (Hybrid)",
-      "remote_type": "hybrid",
-      "url": "https://ca.linkedin.com/jobs/view/software-developer-new-graduate-12-month-contract-at-siemens-4414765886",
-      "source": "hanzili_canada",
-      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
-      "posted_at": "2026-07-17",
-      "age": "0d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8c423d3b1aa78262",
-      "company": "Triunity Software, Inc.",
-      "title": "Jr. Machine Learning Engineer",
-      "level": "junior",
-      "country": "Canada",
-      "location": "Vancouver, British Columbia (Onsite)",
-      "remote_type": "onsite",
-      "url": "https://ca.linkedin.com/jobs/view/jr-machine-learning-engineer-at-triunity-software-inc-4435698475",
-      "source": "hanzili_canada",
-      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
-      "posted_at": "2026-07-17",
-      "age": "0d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "94e82ce9fab7c51d",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Backend",
+      "id": "540edb64573c2dd2",
+      "company": "Uber",
+      "title": "Software Engineer II - Engineer",
       "level": "mid_level",
       "country": "United States",
-      "location": "New York, NY",
+      "location": "Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8637306002?gh_jid=8637306002",
+      "url": "https://www.indeed.com/viewjob?jk=dd7d6bbea70d6dc8",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
+      "posted_at": "2026-07-17",
       "age": "1d",
-      "collected_at": "2026-07-17T22:19:39Z",
+      "collected_at": "2026-07-18T03:30:28Z",
       "tags": [
         "software",
         "programming",
@@ -523,19 +543,19 @@
       ]
     },
     {
-      "id": "3141ab0fb72519b3",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Backend",
+      "id": "65b4d73b0c20f513",
+      "company": "Uber",
+      "title": "Software Engineer II - Engineer",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
+      "country": "United States",
+      "location": "Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8637300002?gh_jid=8637300002",
+      "url": "https://www.indeed.com/viewjob?jk=2b876f72d2df5ac8",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
+      "posted_at": "2026-07-17",
       "age": "1d",
-      "collected_at": "2026-07-17T22:19:39Z",
+      "collected_at": "2026-07-18T03:30:28Z",
       "tags": [
         "software",
         "programming",
@@ -623,26 +643,6 @@
       ]
     },
     {
-      "id": "d530f67da5b76ff6",
-      "company": "Citadel Securities",
-      "title": "Software Engineer – University Graduate",
-      "level": "new_grad",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "0d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "77d97c5b772d74b1",
       "company": "Cloudflare",
       "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
@@ -656,6 +656,66 @@
       "posted_at": "2026-07-17",
       "age": "2d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "94e82ce9fab7c51d",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Backend",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://careers.duolingo.com/jobs/8637306002?gh_jid=8637306002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-16",
+      "age": "1d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3141ab0fb72519b3",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Backend",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
+      "remote_type": "onsite",
+      "url": "https://careers.duolingo.com/jobs/8637300002?gh_jid=8637300002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-16",
+      "age": "1d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d530f67da5b76ff6",
+      "company": "Citadel Securities",
+      "title": "Software Engineer – University Graduate",
+      "level": "new_grad",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "0d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1103,26 +1163,6 @@
       ]
     },
     {
-      "id": "fe5669a53ce7b6e5",
-      "company": "Tesla",
-      "title": "Data Engineer Intern - Applications Engineering",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Fremont, CA",
-      "remote_type": "onsite",
-      "url": "https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-17",
-      "age": "17d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9415006c972556db",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Production Infrastructure",
@@ -1136,6 +1176,26 @@
       "posted_at": "2026-07-15",
       "age": "15d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fe5669a53ce7b6e5",
+      "company": "Tesla",
+      "title": "Data Engineer Intern - Applications Engineering",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Fremont, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "17d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -1183,26 +1243,6 @@
       ]
     },
     {
-      "id": "3c46b9d61da3d979",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Toronto",
-      "remote_type": "onsite",
-      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-06-26",
-      "age": "21d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e0a6ba48b79e0ae3",
       "company": "Palantir",
       "title": "Year at Palantir - Forward Deployed Software Engineer - Internship - Commercial",
@@ -1215,6 +1255,26 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-07-17",
       "age": "22d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3c46b9d61da3d979",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-06-26",
+      "age": "21d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
@@ -1436,6 +1496,26 @@
       "posted_at": "2026-07-17",
       "age": "1mo",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8808ebd8ff2fae91",
+      "company": "Tesla",
+      "title": "Software Engineer Intern - Wireless Connectivity Software Engineer - Electronic Devices",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/269792?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-18",
+      "age": "1mo",
+      "collected_at": "2026-07-18T03:30:28Z",
       "tags": [
         "software",
         "programming",
