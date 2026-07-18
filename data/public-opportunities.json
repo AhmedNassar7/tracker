@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T08:58:54Z",
-  "total": 516,
+  "generated_at": "2026-07-18T10:40:45Z",
+  "total": 522,
   "jobs": [
     {
       "id": "73a18997e7bf3005",
@@ -997,6 +997,34 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
+      "id": "123f4a942d94b029",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "location": "San Diego",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "17d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs"
+    },
+    {
+      "id": "123f4a942d94b029",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "location": "San Diego",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "17d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
+    },
+    {
       "id": "ded47d8202b7750e",
       "kind": "job",
       "company": "Palantir",
@@ -1303,6 +1331,62 @@
       "url": "https://jobs.ashbyhq.com/clickhouse/dd5fef15-20ec-4b43-94fc-f74faca10c83",
       "source": "ashby:clickhouse",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/clickhouse"
+    },
+    {
+      "id": "0c7f6192cd4a600a",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Sr. Software Engineer, AI Native",
+      "location": "NA / Culver City 10202 W. Washington 37.5",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs"
+    },
+    {
+      "id": "0c7f6192cd4a600a",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Sr. Software Engineer, AI Native",
+      "location": "NA / Culver City 10202 W. Washington 37.5",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
+    },
+    {
+      "id": "bb1981b2e81f1198",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Staff Software Engineer, AI Native",
+      "location": "10 Locations",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Culver-City/Staff-Software-Engineer--AI-Native_JR-119292-1",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs"
+    },
+    {
+      "id": "bb1981b2e81f1198",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Staff Software Engineer, AI Native",
+      "location": "10 Locations",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Culver-City/Staff-Software-Engineer--AI-Native_JR-119292-1",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
     },
     {
       "id": "4beecd10f0e6456c",

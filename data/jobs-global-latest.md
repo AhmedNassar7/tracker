@@ -1,6 +1,6 @@
 # Global Tech Roles (Latest)
 
-Generated at: 2026-07-18T08:58:03Z
+Generated at: 2026-07-18T10:39:52Z
 
 This is a raw export of the curated-source feed only (Remotive, ArbeitNow, SimplifyJobs). For the full combined list — this feed plus Greenhouse, Lever, Ashby, SmartRecruiters, hackathons, and events — see [README.md](README.md) or the [project overview](../README.md).
 
@@ -42,7 +42,6 @@ This is a raw export of the curated-source feed only (Remotive, ArbeitNow, Simpl
 | Hudson River Trading | [Software Engineering Internship - C++ or Python - Summer 2027](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) | London, United Kingdom +4 | 3d |
 | Jane Street | [Data Engineer Summer Internship](https://www.janestreet.com/join-jane-street/position/8631973002) | New York City, NY | 3d |
 | ZoomInfo | [Software Engineer II - SAP ABAP FIORI](https://www.zoominfo.com/careers?gh_jid=8555306002) | Bengaluru, Karnataka, India | 3d |
-| NVIDIA | [Backend Compiler Engineer New Grad](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242?utm_source=Simplify&ref=Simplify) | Canada Santa Clara, CA | 5d |
 | Okta | [Software Engineer II, Core Identity (Auth0)](https://www.okta.com/company/careers/opportunity/8001096?gh_jid=8001096) | Toronto, Ontario, Canada | 4d |
 | Okta | [Software Engineer II, Security Engineering (Auth0)](https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538) | Toronto, Ontario, Canada | 4d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) | Pittsburgh, PA | 7d |
@@ -69,7 +68,6 @@ This is a raw export of the curated-source feed only (Remotive, ArbeitNow, Simpl
 | Palantir | [Palantir Software Engineer Intern - Forward Deployed Software Engineer - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3/apply?utm_source=Simplify&ref=Simplify) | Chicago, IL | 20d |
 | Apple | [Machine Learning and Artificial Intelligence Undergraduate Intern](https://jobs.apple.com/en-us/details/200664780?utm_source=Simplify&ref=Simplify) | United States | 1mo |
 | ByteDance | [Software Engineer Intern - Developer Infrastructure](https://jobs.bytedance.com/en/position/7595707875767699765/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
-| Intel | [AI Software Engineer Intern](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify) | Phoenix, AZ | 1mo |
 | Oracle | [Software Engineer Intern](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify) | Seattle, WA Santa Clara, CA | 1mo |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 28d |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify) | San Diego, CA | 28d |
@@ -80,6 +78,8 @@ This is a raw export of the curated-source feed only (Remotive, ArbeitNow, Simpl
 | Palantir | [Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) | Washington, D.C. | 32d |
 | Zipline | [Enterprise Systems Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7767667003) | South San Francisco, CA | 37d |
 | Zipline | [Embedded Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7765240003) | South San Francisco, CA | 41d |
+| Amazon.com | [Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising](https://www.indeed.com/viewjob?jk=2e56c813ce52841f) | New York, NY, US | 58d |
+| Amazon.com | [Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising](https://www.indeed.com/viewjob?jk=1e3a468f019b7884) | Seattle, WA, US | 58d |
 | Notion | [Software Engineer – New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify) | SF | 4d |
 | Notion | [Software Engineer – New Grad - AI](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify) | SF | 0d |
 | ServiceNow | [Associate Software Engineer, Core Infrastructure - Moveworks 🇺🇸](https://jobs.smartrecruiters.com/ServiceNow/2274d8e3-af4a-4935-b065-f65622b5ea3f?utm_source=Simplify&ref=Simplify) | Mountain View, CA | 2mo |

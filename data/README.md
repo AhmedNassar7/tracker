@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 396 |
+| Jobs | 402 |
 | Hackathons | 2 |
 | Events | 8 |
-| Total | 406 |
+| Total | 412 |
 
 ## Jobs
 
-[![Jobs 396](https://img.shields.io/badge/Jobs-396-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 58](https://img.shields.io/badge/Internship-58-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 311](https://img.shields.io/badge/Mid--Level%20and%20Above-311-dc2626.svg)](#mid-level-and-above)
+[![Jobs 402](https://img.shields.io/badge/Jobs-402-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 59](https://img.shields.io/badge/Internship-59-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 317](https://img.shields.io/badge/Mid--Level%20and%20Above-317-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 58
+Total roles: 59
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -63,6 +63,8 @@ Total roles: 58
 | Palantir | [Forward Deployed Software Engineer - Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | 16d |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego, CA | 16d |
 | Palantir | [Forward Deployed Software Engineer, Internship - Intel](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) | Washington, D.C. | 17d |
+| Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego | 17d |
+| Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego | 17d |
 | Tesla | [Data Engineer Intern - Applications Engineering](https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify) | Fremont, CA | 17d |
 | Palantir | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | 18d |
 | Palantir | [Palantir Software Engineer Intern - Forward Deployed Software Engineer - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3/apply?utm_source=Simplify&ref=Simplify) | Chicago, IL | 20d |
@@ -72,7 +74,6 @@ Total roles: 58
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify) | San Diego, CA | 28d |
 | Apple | [Machine Learning and Artificial Intelligence Undergraduate Intern](https://jobs.apple.com/en-us/details/200664780?utm_source=Simplify&ref=Simplify) | United States | 1mo |
 | ByteDance | [Software Engineer Intern - Developer Infrastructure](https://jobs.bytedance.com/en/position/7595707875767699765/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
-| Intel | [AI Software Engineer Intern](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify) | Phoenix, AZ | 1mo |
 | Oracle | [Software Engineer Intern](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify) | Seattle, WA Santa Clara, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Body Controls Firmware](https://www.tesla.com/careers/search/job/270618?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Steering,Chassis Systems](https://www.tesla.com/careers/search/job/274047?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
@@ -103,7 +104,7 @@ Total roles: 58
 
 ### Early Career
 
-Total roles: 27
+Total roles: 26
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -115,7 +116,6 @@ Total roles: 27
 | Siemens | [Software Developer - New Graduate- 12 Month Contract](https://ca.linkedin.com/jobs/view/software-developer-new-graduate-12-month-contract-at-siemens-4414765886) | Vaughan, Ontario (Hybrid) | 0d |
 | Triunity Software, Inc. | [Jr. Machine Learning Engineer](https://ca.linkedin.com/jobs/view/jr-machine-learning-engineer-at-triunity-software-inc-4435698475) | Vancouver, British Columbia (Onsite) | 0d |
 | Notion | [Software Engineer – New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify) | SF | 4d |
-| NVIDIA | [Backend Compiler Engineer New Grad](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242?utm_source=Simplify&ref=Simplify) | Canada Santa Clara, CA | 5d |
 | Notion | [Software Engineer – Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify) | SF | 8d |
 | Citadel | [Software Engineer – University Graduate](https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details> | 9d |
 | Notion | [Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) | San Francisco, California, United States | 11d |
@@ -137,7 +137,7 @@ Total roles: 27
 
 ### Mid-Level and Above
 
-Total roles: 311
+Total roles: 317
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -245,6 +245,10 @@ Total roles: 311
 | Plaid | [Staff Site Reliability Engineer - Release Engineering](https://jobs.ashbyhq.com/plaid/07cde72b-a127-48a8-b01a-570de5768340) | New York City Office | 29d |
 | Clickhouse | [Senior Software Engineer - JVM Language Clients](https://jobs.ashbyhq.com/clickhouse/1d6e5075-22b0-4b40-b1dc-9319d34fc772) | EMEA | 1mo |
 | Clickhouse | [Senior Software Engineer - JVM Language Clients](https://jobs.ashbyhq.com/clickhouse/dd5fef15-20ec-4b43-94fc-f74faca10c83) | EMEA | 1mo |
+| Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
+| Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
+| Sony | [Staff Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Culver-City/Staff-Software-Engineer--AI-Native_JR-119292-1) | 10 Locations | 1mo |
+| Sony | [Staff Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Culver-City/Staff-Software-Engineer--AI-Native_JR-119292-1) | 10 Locations | 1mo |
 | Cohere | [Data Annotation Specialist, Software Engineering](https://jobs.ashbyhq.com/cohere/5d31ba60-683a-4d59-8059-3f728b772a9e) | Canada | 1mo |
 | Openai | [Full Stack Software Engineer, Agent Enablement](https://jobs.ashbyhq.com/openai/2d7f1028-ce9b-49c7-acc8-782714ca1cf4) | San Francisco | 1mo |
 | Cohere | [Software Engineer, North for Finance](https://jobs.ashbyhq.com/cohere/f722247c-291b-44ee-af67-5159b8d5d9b9) | Europe | 1mo |
@@ -309,6 +313,8 @@ Total roles: 311
 | Openai | [Capacity Systems Software Engineer](https://jobs.ashbyhq.com/openai/11c51b12-3ba0-4a7a-a0d2-ed0661324dc3) | San Francisco | 1mo |
 | Openai | [Software Engineer, API SDK](https://jobs.ashbyhq.com/openai/77fbf383-bb97-4006-9b2d-e5de2d6f79d3) | Seattle | 1mo |
 | Openai | [Software Engineer, ML Systems & Training Architecture](https://jobs.ashbyhq.com/openai/9117987a-7a59-449e-a702-89e8d0e8cb60) | San Francisco | 1mo |
+| Amazon.com | [Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising](https://www.indeed.com/viewjob?jk=2e56c813ce52841f) | New York, NY, US | 1mo |
+| Amazon.com | [Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising](https://www.indeed.com/viewjob?jk=1e3a468f019b7884) | Seattle, WA, US | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/a11e0267-85fb-4eaa-920b-849edbb5b625) | AMER | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/b8ebc311-9742-4a17-ac8e-36d23b925626) | AMER | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/c9c55913-563f-432d-9d9b-722e71f57b53) | AMER | 1mo |

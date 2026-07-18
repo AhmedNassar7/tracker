@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T08:58:03Z",
+  "generated_at": "2026-07-18T10:39:52Z",
   "total": 85,
   "jobs": [
     {
@@ -723,26 +723,6 @@
       ]
     },
     {
-      "id": "979e29bf5b7e0276",
-      "company": "NVIDIA",
-      "title": "Backend Compiler Engineer New Grad",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Canada Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-18",
-      "age": "5d",
-      "collected_at": "2026-07-18T08:58:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "afb15b16c99cdaad",
       "company": "Okta",
       "title": "Software Engineer II, Core Identity (Auth0)",
@@ -1263,26 +1243,6 @@
       ]
     },
     {
-      "id": "5885aefa9d6428ef",
-      "company": "Intel",
-      "title": "AI Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Phoenix, AZ",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-17",
-      "age": "1mo",
-      "collected_at": "2026-07-17T22:39:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "854c2196ea82b88d",
       "company": "Oracle",
       "title": "Software Engineer Intern",
@@ -1476,6 +1436,46 @@
       "posted_at": "2026-07-17",
       "age": "41d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ae609c2c13eb416e",
+      "company": "Amazon.com",
+      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=2e56c813ce52841f",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-05-21",
+      "age": "58d",
+      "collected_at": "2026-07-18T10:39:52Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "814d2f7eac64722d",
+      "company": "Amazon.com",
+      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=1e3a468f019b7884",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-05-21",
+      "age": "58d",
+      "collected_at": "2026-07-18T10:39:52Z",
       "tags": [
         "software",
         "programming",
