@@ -34,7 +34,7 @@ Every row links straight to the real application page. Click a title to apply �
 
 ## Jobs
 
-[![Jobs 411](https://img.shields.io/badge/Jobs-411-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 62](https://img.shields.io/badge/Internship-62-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 322](https://img.shields.io/badge/Mid--Level%20and%20Above-322-dc2626.svg)](#mid-level-and-above)
+[![Jobs 411](https://img.shields.io/badge/Jobs-411-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 62](https://img.shields.io/badge/Internship-62-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 321](https://img.shields.io/badge/Mid--Level%20and%20Above-321-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -107,7 +107,7 @@ Total roles: 62
 
 ### Early Career
 
-Total roles: 27
+Total roles: 28
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -138,10 +138,11 @@ Total roles: 27
 | ServiceNow | [Associate Software Engineer, Core Infrastructure - Moveworks 🇺🇸](https://jobs.smartrecruiters.com/ServiceNow/2274d8e3-af4a-4935-b065-f65622b5ea3f?utm_source=Simplify&ref=Simplify) | Mountain View, CA | 2mo |
 | Notion | [Software Engineer, New Grad (AI)](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9) | San Francisco, California | 2mo |
 | Notion | [Software Engineer, New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) | San Francisco, California | 2mo |
+| JPMorgan Chase | [Data Scientist - Sr Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210769384) | Bengaluru, Karnat... | recently |
 
 ### Mid-Level and Above
 
-Total roles: 322
+Total roles: 321
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -465,7 +466,6 @@ Total roles: 322
 | Ramp | [Software Engineer, Accounting](https://jobs.ashbyhq.com/ramp/ed2e9a94-f58e-4ff8-8853-afd977850d43) | New York, NY (HQ) | 5mo |
 | Ramp | [Software Engineer, Core Product](https://jobs.ashbyhq.com/ramp/5fe4c64e-9336-4384-9e6f-ff32eeb3fdae) | New York, NY (HQ) | 5mo |
 | Amazon Web Services, Inc. | [Data Engineer II, GTPC Tech, Complian...](https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security) | New York, NY | recently |
-| Amazon.com Services LLC | [Data Engineer II, Intelligent Talent ...](https://www.amazon.jobs/en/jobs/10476682/data-engineer-ii-intelligent-talent-acquisition-ita-data) | Seattle, WA | recently |
 | Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556927939) | Hyderabad, Telang... | recently |
 
 ## Hackathons
@@ -478,6 +478,7 @@ Total hackathons: 54
 | aethera.affiliate | [Aethera Hacks](https://aethera-hacks.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
 | Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
+| Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) |
 | Blueprint Hackathon | [The Blueprint Hackathon (For All Ages, July 17th-31st)](https://the-blueprint-hackathon.devpost.com/) |
 | BuildBeyond | [Build Beyond Hackathon](https://build-beyond-hackathon.devpost.com/) |
 | BuildBeyond | [IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities](https://igad-husika-hackathon.devpost.com/) |
@@ -491,7 +492,6 @@ Total hackathons: 54
 | Girls In Stem MENA&Central Asia | [Girls In STEM Global Hackathon](https://girlsinstemhackathon.devpost.com/) |
 | global-tech-challenge | [Global Tech Innovation Challenge](https://global-tech-challenge.devpost.com/) |
 | Hack the 6ix | [Hack the 6ix 2026](https://hackthe6ix2026.devpost.com/) |
-| Hack4Brahma | [Hack Days Nashik](https://hack-days-nashik.devpost.com/) |
 | HackFinity | [Code Carnage](https://code-carnage.devpost.com/) |
 | hacktheconcretejungle | [HTCJ Aviation Futures Innovation Challenge](https://htcj-aviation-futures.devpost.com/) |
 | HackTheLimit | [Hack The Limit](https://hack-the-limit-1.devpost.com/) |
@@ -517,7 +517,7 @@ Total hackathons: 54
 | shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
 | snap2measure | [Measure up](https://measureme-up.devpost.com/) |
 | STEMise | [DSH Pitch](https://dsh-pitch-30500.devpost.com/) |
-| TAWS | [Agentic Scale](https://agentic-scale.devpost.com/) |
+| Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
 | Tech Exploration Lab | [TEL: Spatial Intelligence Ideathon](https://spatial-intelligence-ideathon.devpost.com/) |
 | TechCommons | [TechCommons Hacks](https://techcommons-hacks.devpost.com/) |
 | TechElevate | [Sound for All](https://sound-for-all.devpost.com/) |
