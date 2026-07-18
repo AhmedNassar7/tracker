@@ -35,29 +35,6 @@ def _load_jobs_payload(path):
     return jobs if isinstance(jobs, list) else []
 
 
-def _render_latest_markdown(public_rows, now_iso):
-    lines = [
-        "# Global Tech Roles (Latest)",
-        "",
-        f"Generated at: {now_iso}",
-        "",
-        "This is a raw export of the curated-source feed only (Remotive, ArbeitNow, SimplifyJobs)."
-        " For the full combined list — this feed plus Greenhouse, Lever, Ashby, SmartRecruiters, hackathons,"
-        " and events — see [README.md](README.md) or the [project overview](../README.md).",
-        "",
-        "| Company | Title | Location | Age |",
-        "|---|---|---|---|",
-    ]
-    for row in public_rows:
-        company = row.get("company") or ""
-        title = row.get("title") or ""
-        url = row.get("url") or ""
-        location = row.get("location") or ""
-        age = row.get("age") or ""
-        lines.append(f"| {company} | [{title}]({url}) | {location} | {age} |")
-    return "\n".join(lines) + "\n"
-
-
 def write_fetch_outputs(
     rows,
     *,
@@ -150,13 +127,6 @@ def write_fetch_outputs(
         log_info(f"Exported {archive_file}")
     except Exception as e:
         log_error(f"Failed to write archive JSON: {e}")
-
-    latest_md_file = data_out / "jobs-global-latest.md"
-    try:
-        latest_md_file.write_text(_render_latest_markdown(public_rows, now_iso), encoding="utf-8")
-        log_info(f"Exported {latest_md_file}")
-    except Exception as e:
-        log_error(f"Failed to write markdown: {e}")
 
     stats = {
         "generated_at": now_iso,

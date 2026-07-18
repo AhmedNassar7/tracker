@@ -81,23 +81,42 @@ def main():
         and mod.detect_role_type("Software Engineer Intern") == "software_engineer",
     ))
 
-    devpost_html = '<a href="https://example.devpost.com/?ref_feature=challenge&ref_medium=discover">Online Build with Me Hackathon 22 days left Apr 09 - May 20, 2026 $50,000 in prizes 4543 participants</a>'
-    devpost_rows = mod.parse_devpost_hackathons(devpost_html)
-    run("parse devpost hackathon card", lambda: check(
-        "parse devpost hackathon card",
+    devpost_payload = {
+        "hackathons": [
+            {
+                "title": "Build with Me Hackathon",
+                "url": "https://example.devpost.com/",
+                "displayed_location": {"location": "Online"},
+                "time_left_to_submission": "22 days left",
+                "organization_name": "Example Org",
+            }
+        ],
+        "meta": {"total_count": 1},
+    }
+    with patch.object(mod, "fetch_json", return_value=devpost_payload):
+        devpost_rows = mod.fetch_devpost_hackathons()
+    run("devpost hackathons fetch uses the JSON API", lambda: check(
+        "devpost hackathons fetch uses the JSON API",
         len(devpost_rows) == 1
-        and devpost_rows[0]["company"] == "Devpost"
+        and devpost_rows[0]["company"] == "Example Org"
         and devpost_rows[0]["kind"] == "hackathon"
-        and "Build with Me Hackathon" in devpost_rows[0]["title"]
+        and devpost_rows[0]["title"] == "Build with Me Hackathon"
+        and devpost_rows[0]["url"] == "https://example.devpost.com/",
     ))
 
-    luma_html = '<a href="https://luma.com/cursorcommunity?k=c">Avatar for Cursor Community Subscribe Cursor Community Discover community meetups, hackathons, workshops taking place around the world.</a>'
+    luma_html = (
+        '<a href="https://luma.com/cursorcommunity?k=c">Avatar for Cursor Community Subscribe Cursor Community'
+        ' Discover community meetups, hackathons, workshops taking place around the world.</a>'
+        '<a href="https://luma.com/readingclub?k=c">Avatar for Reading Rhythms Subscribe Reading Rhythms'
+        ' Not a book club. A reading party. Read with friends to live music.</a>'
+    )
     luma_rows = mod.parse_luma_discover(luma_html)
-    run("parse luma discover card", lambda: check(
-        "parse luma discover card",
+    run("parse luma discover card filters out non-tech communities", lambda: check(
+        "parse luma discover card filters out non-tech communities",
         len(luma_rows) == 1
         and luma_rows[0]["company"] == "Luma"
         and luma_rows[0]["kind"] == "event"
+        and "Cursor" in luma_rows[0]["title"]
     ))
 
     greenhouse_payload = {
@@ -247,6 +266,35 @@ def main():
         and mod.parse_workday_posted_on("") == "",
     ))
 
+    # The listing endpoint only ever gives a bare "N Locations" count for a
+    # multi-location posting — the real names only come from a per-job detail
+    # call, which fetch_workday_jobs should make just for that one posting.
+    workday_multi_loc_page = {
+        "jobPostings": [
+            {
+                "title": "Software Engineer",
+                "locationsText": "2 Locations",
+                "postedOn": "Posted Today",
+                "externalPath": "/job/US-AZ/Software-Engineer_JR1",
+            }
+        ]
+    }
+    workday_job_detail = {
+        "jobPostingInfo": {
+            "location": "US, Arizona, Phoenix",
+            "additionalLocations": ["US, Oregon, Hillsboro"],
+        }
+    }
+    with patch.object(mod, "fetch_json_post", side_effect=[workday_multi_loc_page, {"jobPostings": []}]), patch.object(mod, "fetch_json", return_value=workday_job_detail):
+        wd_multi_rows = mod.fetch_workday_jobs("acme.wd5.myworkdayjobs.com", "AcmeCareers", "Acme")
+    run("workday fetch resolves a bare location count into a real dropdown", lambda: check(
+        "workday fetch resolves a bare location count into a real dropdown",
+        len(wd_multi_rows) == 1
+        and "<details>" in wd_multi_rows[0]["location"]
+        and "Phoenix" in wd_multi_rows[0]["location"]
+        and "Hillsboro" in wd_multi_rows[0]["location"],
+    ))
+
     with tempfile.TemporaryDirectory() as tmp:
         config_dir = Path(tmp) / "config"
         config_dir.mkdir()
@@ -271,7 +319,6 @@ def main():
         run("write public opportunities outputs", lambda: check(
             "write public opportunities outputs",
             payload["total"] == len(rows)
-            and (out_dir / "public-opportunities.md").exists()
             and payload["jobs"]
             and payload["hackathons"]
             and payload["events"]

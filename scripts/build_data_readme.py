@@ -362,16 +362,15 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "",
         "## Source Files",
         "",
-        "The tables above are enough for most people — the files below are the raw data behind them,"
-        " useful if you want to build something on top of this list (a script, a bot, your own site).",
+        "This page is the one formatted view — everyone who just wants to browse jobs should stop here."
+        " The two files below are the raw JSON behind it, only useful if you're building something on top"
+        " of this list (a script, a bot, your own site):",
         "",
         "| File | What it contains |",
         "|---|---|",
-        "| [jobs-global.json](jobs-global.json) | Curated jobs: Remotive, ArbeitNow, SimplifyJobs, filtered to the top-tier company allowlist |",
+        "| [jobs-global.json](jobs-global.json) | Curated jobs: Remotive, ArbeitNow, SimplifyJobs, and others, filtered to the top-tier company allowlist |",
         "| [jobs-global-archive.json](jobs-global-archive.json) | Curated jobs that have since closed, gone dead-link, or rolled off the source feed |",
-        "| [jobs-global-latest.md](jobs-global-latest.md) | Human-readable view of the curated feed only, without the public-board jobs |",
-        "| [public-opportunities.json](public-opportunities.json) | Public-board jobs, hackathons, and events: Greenhouse, Lever, Ashby, SmartRecruiters, Devpost, Luma |",
-        "| [public-opportunities.md](public-opportunities.md) | Human-readable view of the public-board feed only |",
+        "| [public-opportunities.json](public-opportunities.json) | Public-board jobs, hackathons, and events: Greenhouse, Lever, Workday, Ashby, SmartRecruiters, Devpost, Luma |",
         "| [stats.json](stats.json) | Counts of the curated feed broken down by level, country, and source |",
         "",
         "## Notes",
@@ -423,19 +422,7 @@ def render_root_readme(now_text: str, stats: dict) -> str:
         "",
         level_badges,
         "",
-        "## Contents",
-        "",
-        "- [Start here](#start-here)",
-        "- [Snapshot](#snapshot)",
-        "- [Career resources](#career-resources)",
-        "- [How it works](#how-it-works)",
-        "- [Contributing](#contributing)",
-        "- [Repository layout](#repository-layout)",
-        "- [License](#license)",
-        "",
-        "## Start here",
-        "",
-        f"### 👉 [**Open the full list of {total_items} opportunities**](data/README.md)",
+        "### 👉 [**Open the full list of {} opportunities**](data/README.md)".format(total_items),
         "",
         "That page has everything: jobs, internships, hackathons, and events, each with a direct apply link. No account needed, just click and go.",
         "",
@@ -453,80 +440,16 @@ def render_root_readme(now_text: str, stats: dict) -> str:
         f"| Events | {events_total} | [View](data/README.md#events) |",
         f"| **Grand total** | **{total_items}** | [View](data/README.md) |",
         "",
-        "## Career resources",
+        "## Also here",
         "",
-        "Free, well-known resources people use alongside this list to prepare for software engineering interviews at FAANG and other"
-        " top tech companies:",
-        "",
-        "| Resource | What it's for |",
-        "|---|---|",
-        "| [NeetCode](https://neetcode.io/) | Coding interview problems organized by pattern, with free video explanations |",
-        "| [Grind75](https://www.grind75.com/) | A free, prioritized coding-interview study plan (the spiritual successor to Blind75) |",
-        "| [Tech Interview Handbook](https://www.techinterviewhandbook.org/) | Free guide covering resumes, behavioral questions, and interview strategy |",
-        "| [System Design Primer](https://github.com/donnemartin/system-design-primer) | The most-starred free guide to system design interviews |",
-        "| [Levels.fyi](https://www.levels.fyi/) | Crowdsourced compensation data to benchmark and negotiate offers |",
-        "",
-        "That's the five most-used ones. [**See the full resource catalog →**](data/resources.md) for mock interviews, resume tools,"
-        " open-source fellowships, learning platforms, and more.",
-        "",
-        "## How it works",
-        "",
-        "1. **Fetch** — [scripts/fetch.py](scripts/fetch.py) pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply, zapplyjobs, hanzili,"
-        " and ambicuity, filtered by the companies in [config/companies_allowlist.yml](config/companies_allowlist.yml)."
-        " [scripts/public_sources.py](scripts/public_sources.py) widens coverage with Devpost, Luma, Greenhouse, Lever, and Workday"
-        " (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in"
-        " [config/extra_job_boards.yml](config/extra_job_boards.yml). Every apply link is checked before publishing, and dead ones are"
-        " moved to the archive automatically.",
-        "2. **Build** — [scripts/build_data_readme.py](scripts/build_data_readme.py) turns the raw JSON in [data/](data/) into the readable"
-        " tables in this file and in [data/README.md](data/README.md).",
-        "3. **Publish** — a [GitHub Actions workflow](.github/workflows/hourly-global-roles.yml) runs this pipeline hourly, opens a pull request"
-        " with whatever changed, and auto-merges it. No manual steps.",
-        "",
-        "Curious about a specific run? Check the [workflow runs](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml)"
-        " or the day-by-day notes in [log/](log/).",
-        "",
-        "## Contributing",
-        "",
-        "- **Track one more company** on a platform we already support (Ashby or SmartRecruiters) — add its board token to"
-        " [config/extra_job_boards.yml](config/extra_job_boards.yml). Greenhouse, Lever, and Workday companies need no config at all;"
-        " they're picked up automatically the first time one of their postings shows up from another source.",
-        "- **Change which companies are accepted** — edit [config/companies_allowlist.yml](config/companies_allowlist.yml). Both of these are"
-        " plain YAML lists, no coding required.",
-        "- **Add a brand-new job board/API** (like Remotive or SimplifyJobs) — this needs a short fetcher function in"
-        " [scripts/fetch.py](scripts/fetch.py) or [scripts/public_sources.py](scripts/public_sources.py), since each API has its own shape.",
-        "",
-        "Not comfortable writing YAML or Python? Open an issue with the company or board name and someone will add it. Pull requests"
-        " run through [CI](.github/workflows/ci.yml) automatically — the test suite (`python tests/test_fetch.py` and"
-        " `python tests/test_public_sources.py`) needs to pass before merging.",
-        "",
-        "## Repository layout",
-        "",
-        "Job seekers only need [data/README.md](data/README.md). Everything else here is for anyone who"
-        " wants to understand, run, or contribute to the pipeline that builds it:",
-        "",
-        "| Path | What's in it |",
-        "|---|---|",
-        "| [data/README.md](data/README.md) | The combined, human-readable table of every open opportunity |",
-        "| [data/resources.md](data/resources.md) | Hand-curated career resources: coding practice, mock interviews, resume tools, and more |",
-        "| [data/](data/) | Raw JSON/Markdown the tables above are generated from — see [Source Files](data/README.md#source-files) |",
-        "| [config/companies_allowlist.yml](config/companies_allowlist.yml) | Which companies' listings are accepted (edit this, no coding required) |",
-        "| [config/extra_job_boards.yml](config/extra_job_boards.yml) | Ashby/SmartRecruiters companies to track (edit this, no coding required) |",
-        "| [config/sources.yml](config/sources.yml) | Reference docs for the APIs the pipeline calls — not read by the code itself |",
-        "| [config/job-entry.schema.json](config/job-entry.schema.json) | JSON Schema describing the shape of each job record, for anyone building on top of the data |",
-        "| [scripts/](scripts/) | The fetch/build pipeline (Python, standard library only — no dependencies to install) |",
-        "| [tests/](tests/) | Automated tests for the pipeline scripts, run in CI on every pull request |",
-        "| [.github/workflows/](.github/workflows/) | The hourly refresh job and the CI test job |",
-        "| [log/](log/) | One line per automated run, grouped by month — a history of when data was refreshed |",
+        "- 📚 **[Career resources](data/resources.md)** — coding practice, mock interviews, resume tools, and more, for preparing"
+        " applications alongside the job list.",
+        "- 🛠️ **[Contributing](CONTRIBUTING.md)** — how the automation works, how to add a company or job source, and how to run it"
+        " locally. Only needed if you want to help build or extend this repo.",
         "",
         "## License",
         "",
         "[MIT](LICENSE) — free to use, fork, and self-host.",
-        "",
-        "## Notes",
-        "",
-        "- This README and [data/README.md](data/README.md) are generated files — edits should go through"
-        " [scripts/build_data_readme.py](scripts/build_data_readme.py) so they survive the next automated run.",
-        "- Raw JSON stays separate from the Markdown views so either can be consumed independently.",
     ]) + "\n"
 
 

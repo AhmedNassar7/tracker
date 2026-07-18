@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  daily-pr:
+  hourly-pr:
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
@@ -31,7 +31,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p data/raw log
+          mkdir -p data/raw
           python3 scripts/fetch.py
 
       - name: Run public opportunity layer
@@ -46,22 +46,12 @@ jobs:
           set -euo pipefail
           python3 scripts/build_data_readme.py
 
-      - name: Update log and timestamp
+      - name: Update timestamp
         shell: bash
         run: |
           set -euo pipefail
           TODAY="$(date -u +'%Y-%m-%d')"
-          MONTH="$(date -u +'%Y-%m')"
-          MONTH_LABEL="$(date -u +'%B %Y')"
           TIME="$(date -u +'%H:%M:%S UTC')"
-
-          FILE="log/${MONTH}.md"
-          if [ ! -f "$FILE" ]; then
-            echo "# Log — ${MONTH_LABEL}" > "$FILE"
-            echo "" >> "$FILE"
-          fi
-
-          echo "- [${TODAY}] Global roles snapshot updated at ${TIME}" >> "$FILE"
           echo "${TODAY} ${TIME}" > LAST_UPDATED
 
       - name: Create Pull Request
@@ -77,21 +67,29 @@ jobs:
             Automated global tech roles snapshot (scheduled hourly).
 
             **Schedule (UTC):** every hour at :15
-            **Levels:** Internship/New Grad/Mid
-            **Companies:** Top-tier allowlist only
-            
-            **Sources:**
+            **Levels:** Internship / New Grad / Junior / Entry Level / Mid-Level
+            **Companies:** Top-tier allowlist only ([config/companies_allowlist.yml](config/companies_allowlist.yml))
+
+            **Curated sources** (scripts/fetch.py):
             - Remotive API
             - ArbeitNow API
             - SimplifyJobs Internships
             - SimplifyJobs New Grad
+            - speedyapply (SWE + AI)
+            - zapplyjobs New Grad
+            - hanzili Canada SDE
+            - ambicuity New-Grad-Jobs
+
+            **Public-board sources** (scripts/public_sources.py):
             - Devpost hackathons
-            - Luma discovery pages
-            - Greenhouse public job boards
-            - Lever public postings
-            - Ashby public job boards
-            - SmartRecruiters public postings
+            - Luma discovery pages (tech/software-relevant only)
+            - Greenhouse public job boards (auto-discovered)
+            - Lever public postings (auto-discovered)
             - Workday CXS job boards (auto-discovered)
+            - Ashby public job boards ([config/extra_job_boards.yml](config/extra_job_boards.yml))
+            - SmartRecruiters public postings ([config/extra_job_boards.yml](config/extra_job_boards.yml))
+
+            Every apply link is checked before publishing; dead ones move to the archive automatically. See [CONTRIBUTING.md](CONTRIBUTING.md) for how the pipeline works.
           branch: "frequent/global-roles-${{ github.run_id }}"
           delete-branch: true
           labels: automated

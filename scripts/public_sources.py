@@ -35,6 +35,7 @@ from patterns import (
     PUBLIC_ROLE_PATTERNS,
     PUBLIC_SOFTWARE_ROLE_TYPES,
 )
+from simplify_jobs_parser import format_location_display
 from public_outputs import write_public_outputs
 
 
@@ -423,7 +424,36 @@ def parse_workday_posted_on(text):
     return ""
 
 
-def fetch_workday_jobs(host, site, company_name, max_pages=5):
+WORKDAY_LOCATION_COUNT_RE = re.compile(r"^\d+\s+locations?$", re.I)
+
+
+def fetch_workday_job_locations(host, tenant, site, external_path):
+    """Workday's job *listing* endpoint only ever gives a bare count like
+    "2 Locations" for a multi-location posting — the actual location names
+    live behind a separate per-job detail call. Only worth making for
+    postings that hit that bare-count case (most postings are single-location
+    and already have a real name from the listing).
+    """
+    detail_url = f"https://{host}/wday/cxs/{tenant}/{site}{external_path}"
+    try:
+        detail = fetch_json(detail_url)
+    except Exception as exc:
+        log_warn(f"Workday location detail fetch failed for {external_path}: {exc}")
+        return []
+
+    info = detail.get("jobPostingInfo") or {}
+    locations = []
+    primary = clean_text(info.get("location") or "")
+    if primary:
+        locations.append(primary)
+    for extra in info.get("additionalLocations") or []:
+        extra_clean = clean_text(extra or "")
+        if extra_clean:
+            locations.append(extra_clean)
+    return locations
+
+
+def fetch_workday_jobs(host, site, company_name, max_pages=5, max_location_lookups=25):
     """Page through the Workday CXS jobs API. The endpoint hard-caps `limit`
     at 20 per request (larger values 400), so wide coverage needs pagination
     rather than one big page like the other board fetchers use.
@@ -431,6 +461,7 @@ def fetch_workday_jobs(host, site, company_name, max_pages=5):
     tenant = host.split(".")[0]
     api_url = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
     page_size = 20
+    location_lookups = 0
 
     jobs = []
     for page in range(max_pages):
@@ -453,13 +484,20 @@ def fetch_workday_jobs(host, site, company_name, max_pages=5):
             if not (title and external_path) or not is_software_job(title):
                 continue
             url = f"https://{host}/{site}{external_path}"
+
+            location_details = []
+            if WORKDAY_LOCATION_COUNT_RE.match(location) and location_lookups < max_location_lookups:
+                location_lookups += 1
+                location_details = fetch_workday_job_locations(host, tenant, site, external_path)
+            display_location = format_location_display(location, location_details) if location_details else location
+
             jobs.append(
                 {
                     "id": make_id("workday", host, site, title, url),
                     "kind": "job",
                     "company": company_name or tenant.title(),
                     "title": title,
-                    "location": location,
+                    "location": display_location,
                     "level": detect_level(title),
                     "role_type": detect_role_type(title),
                     "date": parse_workday_posted_on(item.get("postedOn") or ""),
@@ -506,61 +544,74 @@ def load_extra_job_boards():
     return boards
 
 
-def parse_devpost_hackathons(html_text):
-    matches = re.findall(r'<a[^>]+href="([^"]*devpost\.com[^"]*)"[^>]*>(.*?)</a>', html_text, flags=re.I | re.S)
+def fetch_devpost_hackathons(max_pages=6):
+    """Fetch currently-open hackathons from Devpost's own JSON API.
+
+    The hackathons *page* is client-rendered — the server HTML has no
+    listings in it at all, only nav chrome — so scraping it was silently
+    returning link text like "Participate in our public hackathons" as if
+    it were a hackathon title. `devpost.com/api/hackathons` is the real
+    endpoint Devpost's own frontend calls; it returns clean, structured,
+    already-tech-relevant data (every Devpost hackathon is a build event
+    by definition), no relevance filtering needed.
+    """
     rows = []
-    seen = set()
-    for href, inner in matches:
-        parsed = urlparse(href)
-        text = clean_text(inner)
-        if not text:
-            continue
-        if not parsed.netloc.endswith("devpost.com"):
-            continue
-        if "info.devpost.com" in href.lower():
-            continue
-        if "ref_feature=challenge" not in href and "hackathon" not in text.lower():
-            continue
-        if not any(token in text.lower() for token in ["days left", "participants", "prizes", "hackathon", "challenge"]):
-            continue
-        title = text
-        for marker in [r"\s+\d+\s+days? left.*$", r"\s+about\s+\d+\s+months? left.*$", r"\s+\d+\s+participants.*$", r"\s+\$[\d,]+\s+in prizes.*$", r"\s+\d+\s+non-cash prizes.*$", r"\s+\d{1,2}\s+[A-Z][a-z]{2}\s*-\s*[A-Z][a-z]{2}\s+\d{1,2},\s+\d{4}.*$"]:
-            title = re.sub(marker, "", title, flags=re.I)
-        title = re.sub(r"^(Online|Hybrid|In-person)\s+", "", title, flags=re.I)
-        title = title.strip(" -|")
-        if not title:
-            continue
-        key = href.lower()
-        if key in seen:
-            continue
-        seen.add(key)
-        timeline_match = re.search(r"(\d+\s+days? left|about\s+\d+\s+months? left|[A-Z][a-z]{2}\s+\d{1,2}\s*-\s*[A-Z][a-z]{2}\s+\d{1,2},\s+\d{4})", text)
-        timeline = timeline_match.group(1) if timeline_match else ""
-        location = "Online" if re.search(r"\bonline\b", text, flags=re.I) else "Various"
-        rows.append(
-            {
-                "id": make_id("devpost", title, href),
-                "kind": "hackathon",
-                "company": "Devpost",
-                "title": title,
-                "location": location,
-                "date": timeline,
-                "posted_at": TODAY,
-                "url": href,
-                "source": "devpost",
-                "source_url": "https://devpost.com/hackathons",
-            }
-        )
+    seen_urls = set()
+    for page in range(1, max_pages + 1):
+        api_url = f"https://devpost.com/api/hackathons?status[]=open&order_by=recently-added&page={page}"
+        try:
+            payload = fetch_json(api_url)
+        except Exception as exc:
+            if page == 1:
+                log_warn(f"Devpost fetch failed: {exc}")
+            break
+
+        hackathons = payload.get("hackathons", [])
+        if not hackathons:
+            break
+
+        for item in hackathons:
+            title = clean_text(item.get("title") or "")
+            url = item.get("url") or ""
+            if not (title and url) or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            location = clean_text((item.get("displayed_location") or {}).get("location") or "") or "Various"
+            rows.append(
+                {
+                    "id": make_id("devpost", title, url),
+                    "kind": "hackathon",
+                    "company": clean_text(item.get("organization_name") or "") or "Devpost",
+                    "title": title,
+                    "location": location,
+                    "date": item.get("time_left_to_submission") or "",
+                    "posted_at": TODAY,
+                    "url": url,
+                    "source": "devpost",
+                    "source_url": "https://devpost.com/hackathons",
+                }
+            )
+
+        total_count = (payload.get("meta") or {}).get("total_count", 0)
+        if len(seen_urls) >= total_count:
+            break
+
     return rows
 
 
-def fetch_devpost_events():
-    try:
-        html_text = fetch_url("https://devpost.com/hackathons")
-    except Exception as exc:
-        log_warn(f"Devpost fetch failed: {exc}")
-        return []
-    return parse_devpost_hackathons(html_text)
+# Luma's "discover" page is a general community directory, not tech-specific
+# — it mixes real dev/AI/startup communities with completely unrelated ones
+# (book clubs, walking tours, general design meetups). Keep only entries
+# whose visible text signals software/tech/startup relevance.
+LUMA_RELEVANT_RE = re.compile(
+    r"\b("
+    r"tech|software|develop\w*|coding|code|engineer\w*|startup|founder\w*|"
+    r"artificial intelligence|\bai\b|machine learning|\bml\b|hackathon\w*|programming|"
+    r"open.?source|github|web3|blockchain|data science|cloud|devops|no.?code|"
+    r"product manager|builder\w*|computer science"
+    r")\b",
+    re.I,
+)
 
 
 def parse_luma_discover(html_text):
@@ -571,6 +622,8 @@ def parse_luma_discover(html_text):
             continue
         text = clean_text(inner)
         if not text:
+            continue
+        if not LUMA_RELEVANT_RE.search(text):
             continue
         title = re.sub(r"^Avatar for\s+", "", text, flags=re.I)
         title = re.sub(r"\s+Subscribe\s+", " ", title, flags=re.I)
@@ -648,7 +701,7 @@ def main():
         f"and {len(workday)} Workday hosts from existing jobs"
     )
 
-    rows.extend(fetch_devpost_events())
+    rows.extend(fetch_devpost_hackathons())
     rows.extend(fetch_luma_discover())
 
     for board_token, company in sorted(greenhouse.items()):

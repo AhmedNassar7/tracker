@@ -373,7 +373,7 @@ def main():
         with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"), patch.object(fetch, "check_url_alive", return_value=True):
             fetch.write_outputs(rows)
         payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
-        run("write outputs", lambda: check("write outputs", payload["total"] == 1 and "region" not in payload["jobs"][0] and "age" in payload["jobs"][0] and (data_out / "jobs-global-latest.md").exists() and (data_out / "stats.json").exists() and (data_out / "jobs-global-archive.json").exists()))
+        run("write outputs", lambda: check("write outputs", payload["total"] == 1 and "region" not in payload["jobs"][0] and "age" in payload["jobs"][0] and (data_out / "stats.json").exists() and (data_out / "jobs-global-archive.json").exists()))
 
         with tempfile.TemporaryDirectory() as tmp:
             data_out = Path(tmp)
@@ -413,10 +413,11 @@ def main():
             ]
             with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"), patch.object(fetch, "check_url_alive", return_value=True):
                 fetch.write_outputs(unsorted_rows)
-            md_text = (data_out / "jobs-global-latest.md").read_text(encoding="utf-8")
+            sorted_payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
+            companies_in_order = [j["company"] for j in sorted_payload["jobs"]]
             run("write outputs sorts by age", lambda: check(
                 "write outputs sorts by age",
-                md_text.index("| Alpha |") < md_text.index("| Beta |")
+                companies_in_order.index("Alpha") < companies_in_order.index("Beta")
             ))
 
     existing_row = {
@@ -439,7 +440,6 @@ def main():
         data_out = Path(tmp)
         (data_out / "jobs-global.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 1, "jobs": [existing_row]}, ensure_ascii=False, indent=2), encoding="utf-8")
         (data_out / "jobs-global-archive.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 0, "jobs": []}, ensure_ascii=False, indent=2), encoding="utf-8")
-        (data_out / "jobs-global-latest.md").write_text("original markdown\n", encoding="utf-8")
         (data_out / "stats.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 1, "by_level": {"new_grad": 1}, "by_country": {"United States": 1}, "by_source": {"simplify_newgrad": 1}}, ensure_ascii=False, indent=2), encoding="utf-8")
 
         unchanged_row = dict(existing_row)
@@ -447,7 +447,6 @@ def main():
         unchanged_row["collected_at"] = "2026-01-02T00:00:00Z"
 
         before_json = (data_out / "jobs-global.json").read_text(encoding="utf-8")
-        before_md = (data_out / "jobs-global-latest.md").read_text(encoding="utf-8")
         before_stats = (data_out / "stats.json").read_text(encoding="utf-8")
 
         with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-02T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-02"), patch.object(fetch, "check_url_alive", return_value=True):
@@ -456,7 +455,6 @@ def main():
         run("write outputs skips age-only changes", lambda: check(
             "write outputs skips age-only changes",
             (data_out / "jobs-global.json").read_text(encoding="utf-8") == before_json
-            and (data_out / "jobs-global-latest.md").read_text(encoding="utf-8") == before_md
             and (data_out / "stats.json").read_text(encoding="utf-8") == before_stats,
         ))
 
