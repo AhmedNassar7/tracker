@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T13:48:25Z",
+  "generated_at": "2026-07-18T15:15:02Z",
   "total": 576,
   "jobs": [
     {
@@ -7300,7 +7300,7 @@
       "company": "aethera.affiliate",
       "title": "Aethera Hacks",
       "location": "Online",
-      "date": "about 14 hours left",
+      "date": "about 13 hours left",
       "posted_at": "2026-07-18",
       "url": "https://aethera-hacks.devpost.com/",
       "source": "devpost",
@@ -7492,7 +7492,7 @@
       "company": "Hack the 6ix",
       "title": "Hack the 6ix 2026",
       "location": "University of Toronto Bahen Centre",
-      "date": "about 24 hours left",
+      "date": "about 23 hours left",
       "posted_at": "2026-07-18",
       "url": "https://hackthe6ix2026.devpost.com/",
       "source": "devpost",
@@ -7504,7 +7504,7 @@
       "company": "Hack4Brahma",
       "title": "Hack Days Nashik",
       "location": "Sandip University, Nashik",
-      "date": "about 5 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-07-18",
       "url": "https://hack-days-nashik.devpost.com/",
       "source": "devpost",
@@ -7615,6 +7615,18 @@
       "date": "13 days left",
       "posted_at": "2026-07-18",
       "url": "https://kuki-designed-group.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "65d53af4628f0b80",
+      "kind": "hackathon",
+      "company": "localhost-nyc",
+      "title": "Flight Zero - Hack Your Way Into the Hacker House",
+      "location": "McNally Amphitheater",
+      "date": "about 6 hours left",
+      "posted_at": "2026-07-18",
+      "url": "https://frontier-ai-hacker-house.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -7751,18 +7763,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "8662a5bbc58a19f5",
-      "kind": "hackathon",
-      "company": "Rice University",
-      "title": "The Rice University Urban Sustainability Hackathon",
-      "location": "Online",
-      "date": "2 months left",
-      "posted_at": "2026-07-18",
-      "url": "https://rice-urban-sustainability.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "9b62b6d6f198e0c2",
       "kind": "hackathon",
       "company": "SAIN Utrecht",
@@ -7816,7 +7816,7 @@
       "company": "TAWS",
       "title": "Agentic Scale",
       "location": "Centro Informacion Bibliotecaria ESPOL",
-      "date": "about 5 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-07-18",
       "url": "https://agentic-scale.devpost.com/",
       "source": "devpost",

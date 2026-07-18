@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 410 |
+| Jobs | 412 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 467 |
+| Total | 469 |
 
 ## Jobs
 
-[![Jobs 410](https://img.shields.io/badge/Jobs-410-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 62](https://img.shields.io/badge/Internship-62-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 322](https://img.shields.io/badge/Mid--Level%20and%20Above-322-dc2626.svg)](#mid-level-and-above)
+[![Jobs 412](https://img.shields.io/badge/Jobs-412-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 62](https://img.shields.io/badge/Internship-62-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 323](https://img.shields.io/badge/Mid--Level%20and%20Above-323-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -107,7 +107,7 @@ Total roles: 62
 
 ### Early Career
 
-Total roles: 26
+Total roles: 27
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -127,6 +127,7 @@ Total roles: 26
 | Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California | 12d |
 | Palantir | [Software Engineer New Grad - Production Infrastructure](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 15d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 18d |
+| Palantir | [Forward Deployed Software Engineer New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify) | NYC | 19d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 19d |
 | Stripe | [Software Engineer, New Grad, Developer & End User Experience Platform](https://stripe.com/jobs/search?gh_jid=7991718) | Toronto | 21d |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 28d |
@@ -140,7 +141,7 @@ Total roles: 26
 
 ### Mid-Level and Above
 
-Total roles: 322
+Total roles: 323
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -151,8 +152,8 @@ Total roles: 322
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II](https://www.pinterestcareers.com/jobs/?gh_jid=7958766) | Palo Alto, CA, US | 0d |
 | Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 0d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 0d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 0d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 0d |
 | Pinterest | [Software Engineer II, Backend, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782552) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Big Data, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782546) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 0d |
@@ -466,6 +467,7 @@ Total roles: 322
 | Ramp | [Software Engineer, Core Product](https://jobs.ashbyhq.com/ramp/5fe4c64e-9336-4384-9e6f-ff32eeb3fdae) | New York, NY (HQ) | 5mo |
 | Amazon Web Services, Inc. | [Data Engineer II, GTPC Tech, Complian...](https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security) | New York, NY | recently |
 | Amazon.com Services LLC | [Data Engineer II, Intelligent Talent ...](https://www.amazon.jobs/en/jobs/10476682/data-engineer-ii-intelligent-talent-acquisition-ita-data) | Seattle, WA | recently |
+| Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556927939) | Hyderabad, Telang... | recently |
 
 ## Hackathons
 
@@ -502,6 +504,7 @@ Total hackathons: 54
 | International AI Youth Education Society | [AI YES :International Youth AI Competition](https://ai-yes-competition-30441.devpost.com/) |
 | Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
 | Kuki Designed group | [Kuki Designed group](https://kuki-designed-group.devpost.com/) |
+| localhost-nyc | [Flight Zero - Hack Your Way Into the Hacker House](https://frontier-ai-hacker-house.devpost.com/) |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
 | Major League Hacking | [Midnight Hackathon](https://midnight-hackathon-july-2026.devpost.com/) |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 2.0](https://ml-empowerment-2.devpost.com/) |
@@ -513,7 +516,6 @@ Total hackathons: 54
 | Pinch Payments | [Pinch Me! I Want 50K: A Nationwide Australian Payments & Fintech Hackathon](https://pinch-me-i-want-50k.devpost.com/) |
 | Prometheus | [Prometheus July AI Challenge](https://prometheus-july-ai-challenge.devpost.com/) |
 | Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
-| Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) |
 | SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
 | shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
 | snap2measure | [Measure up](https://measureme-up.devpost.com/) |
