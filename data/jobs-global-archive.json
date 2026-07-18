@@ -1,58 +1,16 @@
 {
-  "generated_at": "2026-07-18T03:30:28Z",
-  "total": 25,
+  "generated_at": "2026-07-18T06:17:17Z",
+  "total": 21,
   "jobs": [
     {
-      "id": "080d31991cdf119f",
-      "company": "Mastercard",
-      "title": "Site Reliability Engineer II",
+      "id": "65b4d73b0c20f513",
+      "company": "Uber",
+      "title": "Software Engineer II - Engineer",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
+      "country": "United States",
+      "location": "Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Site-Reliability-Engineer-II_R-275061-1",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-18",
-      "age": "0d",
-      "collected_at": "2026-07-18T03:30:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T03:30:28Z"
-    },
-    {
-      "id": "6e40f0252dd85e3c",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-280085-1",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-18",
-      "age": "0d",
-      "collected_at": "2026-07-18T03:30:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T03:30:28Z"
-    },
-    {
-      "id": "59b4f1aff1a389af",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Engineer-II_R-279240",
+      "url": "https://www.indeed.com/viewjob?jk=2b876f72d2df5ac8",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -63,17 +21,17 @@
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T03:30:28Z"
+      "closed_at": "2026-07-18T06:17:17Z"
     },
     {
-      "id": "fde4c0df19b9097c",
-      "company": "Mastercard",
-      "title": "Software Engineer II-1",
+      "id": "540edb64573c2dd2",
+      "company": "Uber",
+      "title": "Software Engineer II - Engineer",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
+      "country": "United States",
+      "location": "Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II-1_R-282787",
+      "url": "https://www.indeed.com/viewjob?jk=dd7d6bbea70d6dc8",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -84,49 +42,7 @@
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T03:30:28Z"
-    },
-    {
-      "id": "12ba43e52a579e87",
-      "company": "Mastercard",
-      "title": "Software Engineer II-2",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II-2_R-282788-1",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "1d",
-      "collected_at": "2026-07-18T03:30:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T03:30:28Z"
-    },
-    {
-      "id": "b2d028c109660605",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-281363",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "2d",
-      "collected_at": "2026-07-18T03:30:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T03:30:28Z"
+      "closed_at": "2026-07-18T06:17:17Z"
     },
     {
       "id": "35d0bd20fa4d05a3",
