@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T19:30:03Z",
-  "total": 88,
+  "generated_at": "2026-07-18T21:05:42Z",
+  "total": 85,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -11,26 +11,6 @@
       "location": "New York, NY",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-17",
-      "age": "Recently",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8a32d8c56dfd9a12",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern (Glo...",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, Washington",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7535953226975054098",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-07-17",
@@ -1496,46 +1476,6 @@
       "posted_at": "2026-07-17",
       "age": "41d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ae609c2c13eb416e",
-      "company": "Amazon.com",
-      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=2e56c813ce52841f",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-05-21",
-      "age": "58d",
-      "collected_at": "2026-07-18T10:39:52Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "814d2f7eac64722d",
-      "company": "Amazon.com",
-      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=1e3a468f019b7884",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-05-21",
-      "age": "58d",
-      "collected_at": "2026-07-18T10:39:52Z",
       "tags": [
         "software",
         "programming",
