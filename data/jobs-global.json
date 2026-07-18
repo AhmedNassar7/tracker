@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T18:09:49Z",
+  "generated_at": "2026-07-18T19:30:03Z",
   "total": 88,
   "jobs": [
     {
@@ -11,26 +11,6 @@
       "location": "New York, NY",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-17",
-      "age": "Recently",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "43be740a7fcf2801",
-      "company": "Amazon.com Services LLC",
-      "title": "Data Engineer II, Intelligent Talent ...",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10476682/data-engineer-ii-intelligent-talent-acquisition-ita-data",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-07-17",
@@ -176,6 +156,26 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d643765c93016cb4",
+      "company": "JPMorgan Chase",
+      "title": "Data Scientist - Sr Associate",
+      "level": "entry_level",
+      "country": "Unknown",
+      "location": "Bengaluru, Karnat...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210769384",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-18",
+      "age": "Recently",
+      "collected_at": "2026-07-18T19:30:03Z",
       "tags": [
         "software",
         "programming",
