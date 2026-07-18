@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T16:12:58Z",
+  "generated_at": "2026-07-18T17:15:09Z",
   "total": 576,
   "jobs": [
     {
@@ -7415,18 +7415,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "9d1e64e6b9e68b9e",
-      "kind": "hackathon",
-      "company": "Cupertino GDC",
-      "title": "MelonJam 7",
-      "location": "Online",
-      "date": "2 days left",
-      "posted_at": "2026-07-18",
-      "url": "https://melonjam-7.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "67d4f374bbe1b10f",
       "kind": "hackathon",
       "company": "DataHub",
@@ -7480,7 +7468,7 @@
       "company": "Hack the 6ix",
       "title": "Hack the 6ix 2026",
       "location": "University of Toronto Bahen Centre",
-      "date": "about 21 hours left",
+      "date": "about 20 hours left",
       "posted_at": "2026-07-18",
       "url": "https://hackthe6ix2026.devpost.com/",
       "source": "devpost",
@@ -7612,7 +7600,7 @@
       "company": "localhost-nyc",
       "title": "Flight Zero - Hack Your Way Into the Hacker House",
       "location": "McNally Amphitheater",
-      "date": "about 5 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-07-18",
       "url": "https://frontier-ai-hacker-house.devpost.com/",
       "source": "devpost",
@@ -7636,7 +7624,7 @@
       "company": "Major League Hacking",
       "title": "Midnight Hackathon",
       "location": "New York, NY, USA",
-      "date": "about 24 hours left",
+      "date": "about 23 hours left",
       "posted_at": "2026-07-18",
       "url": "https://midnight-hackathon-july-2026.devpost.com/",
       "source": "devpost",
@@ -7720,7 +7708,7 @@
       "company": "Prometheus",
       "title": "Prometheus July AI Challenge",
       "location": "Online",
-      "date": "13 days left",
+      "date": "12 days left",
       "posted_at": "2026-07-18",
       "url": "https://prometheus-july-ai-challenge.devpost.com/",
       "source": "devpost",
@@ -7804,9 +7792,21 @@
       "company": "TAWS",
       "title": "Agentic Scale",
       "location": "Centro Informacion Bibliotecaria ESPOL",
-      "date": "about 2 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-07-18",
       "url": "https://agentic-scale.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "14c245c77537b812",
+      "kind": "hackathon",
+      "company": "Tech Exploration Lab",
+      "title": "TEL: Spatial Intelligence Ideathon",
+      "location": "Tech Exploration Lab",
+      "date": "about 3 hours left",
+      "posted_at": "2026-07-18",
+      "url": "https://spatial-intelligence-ideathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -7852,7 +7852,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 17 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-07-18",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
