@@ -483,6 +483,7 @@ Total hackathons: 54
 | Cloud Counselage | [DTI Hackathon 2026](https://dti-hackathon-2026-30476.devpost.com/) |
 | Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
 | contact@orionglobalhackathon.com | [OrionHackathon](https://orionhackathon.devpost.com/) |
+| Cupertino GDC | [MelonJam 7](https://melonjam-7.devpost.com/) |
 | DataHub | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
@@ -498,12 +499,12 @@ Total hackathons: 54
 | International AI Youth Education Society | [AI YES :International Youth AI Competition](https://ai-yes-competition-30441.devpost.com/) |
 | Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
 | Kuki Designed group | [Kuki Designed group](https://kuki-designed-group.devpost.com/) |
-| localhost-nyc | [Flight Zero - Hack Your Way Into the Hacker House](https://frontier-ai-hacker-house.devpost.com/) |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
 | Major League Hacking | [Midnight Hackathon](https://midnight-hackathon-july-2026.devpost.com/) |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 2.0](https://ml-empowerment-2.devpost.com/) |
 | NeuralSprint | [NeuralSprint](https://neuralsprint.devpost.com/) |
 | nill | [Code for Humanity](https://code-for-humanity.devpost.com/) |
+| Open Atlas | [Open Atlas - AI for Social Good Hackathon 2026, presented by Manifest](https://oa-ai-for-social-good.devpost.com/) |
 | OpenAI | [OpenAI Build Week](https://openai.devpost.com/) |
 | Perfect Corp | [YouCam API Skin AI & Apparel VTO Hackathon](https://youcam-api.devpost.com/) |
 | Pinch Payments | [Pinch Me! I Want 50K: A Nationwide Australian Payments & Fintech Hackathon](https://pinch-me-i-want-50k.devpost.com/) |
@@ -515,7 +516,6 @@ Total hackathons: 54
 | snap2measure | [Measure up](https://measureme-up.devpost.com/) |
 | STEMise | [DSH Pitch](https://dsh-pitch-30500.devpost.com/) |
 | Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
-| Tech Exploration Lab | [TEL: Spatial Intelligence Ideathon](https://spatial-intelligence-ideathon.devpost.com/) |
 | TechCommons | [TechCommons Hacks](https://techcommons-hacks.devpost.com/) |
 | TechElevate | [Sound for All](https://sound-for-all.devpost.com/) |
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
