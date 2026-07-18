@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 411 |
+| Jobs | 408 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 468 |
+| Total | 465 |
 
 ## Jobs
 
-[![Jobs 411](https://img.shields.io/badge/Jobs-411-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 62](https://img.shields.io/badge/Internship-62-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 321](https://img.shields.io/badge/Mid--Level%20and%20Above-321-dc2626.svg)](#mid-level-and-above)
+[![Jobs 408](https://img.shields.io/badge/Jobs-408-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 61](https://img.shields.io/badge/Internship-61-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 319](https://img.shields.io/badge/Mid--Level%20and%20Above-319-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 62
+Total roles: 61
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -100,7 +100,6 @@ Total roles: 62
 | Palantir | [Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329) | New York, NY | 4mo |
 | Palantir | [Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) | New York, NY | 4mo |
 | Palantir | [Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) | New York, NY | 4mo |
-| ByteDance | [Machine Learning Engineer Intern (Glo...](https://joinbytedance.com/search/7535953226975054098) | Seattle, Washington | recently |
 | ByteDance | [Machine Learning Engineer Intern (Glo...](https://joinbytedance.com/search/7535951608832657682) | Seattle, Washington | recently |
 | ByteDance | [Site Reliability Engineer Intern (Dat...](https://joinbytedance.com/search/7535646140345272584) | San Jose, California | recently |
 | ByteDance | [Software Engineer Intern (Applied Mac...](https://joinbytedance.com/search/7533045355162044690) | San Jose, California | recently |
@@ -142,7 +141,7 @@ Total roles: 28
 
 ### Mid-Level and Above
 
-Total roles: 321
+Total roles: 319
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -322,8 +321,6 @@ Total roles: 321
 | Openai | [Capacity Systems Software Engineer](https://jobs.ashbyhq.com/openai/11c51b12-3ba0-4a7a-a0d2-ed0661324dc3) | San Francisco | 1mo |
 | Openai | [Software Engineer, API SDK](https://jobs.ashbyhq.com/openai/77fbf383-bb97-4006-9b2d-e5de2d6f79d3) | Seattle | 1mo |
 | Openai | [Software Engineer, ML Systems & Training Architecture](https://jobs.ashbyhq.com/openai/9117987a-7a59-449e-a702-89e8d0e8cb60) | San Francisco | 1mo |
-| Amazon.com | [Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising](https://www.indeed.com/viewjob?jk=2e56c813ce52841f) | New York, NY, US | 1mo |
-| Amazon.com | [Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising](https://www.indeed.com/viewjob?jk=1e3a468f019b7884) | Seattle, WA, US | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/a11e0267-85fb-4eaa-920b-849edbb5b625) | AMER | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/b8ebc311-9742-4a17-ac8e-36d23b925626) | AMER | 1mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/c9c55913-563f-432d-9d9b-722e71f57b53) | AMER | 1mo |
