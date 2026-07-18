@@ -38,7 +38,7 @@ Every row links straight to the real application page. Click a title to apply �
 
 ### Internship
 
-Total roles: 63
+Total roles: 62
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -62,7 +62,6 @@ Total roles: 63
 | Jane Street | [Software Engineer Winter Co-Op](https://www.janestreet.com/join-jane-street/position/8419303002) | New York City, NY | 10d |
 | Citadel Securities | [Machine Learning Researcher PhD Intern 🎓](https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC | 14d |
 | Palantir | [Forward Deployed Software Engineer - Internship - Intel](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) | Washington, DC | 15d |
-| Palo Alto Networks | [Software Engineer Intern 🎓](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011595?utm_source=Simplify&ref=Simplify) | California | 15d |
 | Palantir | [Forward Deployed Software Engineer - Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | 16d |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego, CA | 16d |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego | 16d |
@@ -108,7 +107,7 @@ Total roles: 63
 
 ### Early Career
 
-Total roles: 27
+Total roles: 26
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -119,7 +118,6 @@ Total roles: 27
 | Notion | [Software Engineer – New Grad - AI](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify) | SF | 0d |
 | Siemens | [Software Developer - New Graduate- 12 Month Contract](https://ca.linkedin.com/jobs/view/software-developer-new-graduate-12-month-contract-at-siemens-4414765886) | Vaughan, Ontario (Hybrid) | 0d |
 | Triunity Software, Inc. | [Jr. Machine Learning Engineer](https://ca.linkedin.com/jobs/view/jr-machine-learning-engineer-at-triunity-software-inc-4435698475) | Vancouver, British Columbia (Onsite) | 0d |
-| NVIDIA | [System Software Engineer New Grad - Dynamo-Triton Inference Server 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767?utm_source=Simplify&ref=Simplify) | Remote in USA Santa Clara, CA | 2d |
 | Notion | [Software Engineer – New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify) | SF | 4d |
 | Notion | [Software Engineer – Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify) | SF | 8d |
 | Citadel | [Software Engineer – University Graduate](https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details> | 9d |
@@ -181,8 +179,8 @@ Total roles: 352
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II](https://www.pinterestcareers.com/jobs/?gh_jid=7958766) | Palo Alto, CA, US | 0d |
 | Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 0d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 0d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 0d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 0d |
 | Pinterest | [Software Engineer II, Backend, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782552) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Big Data, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782546) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 0d |
