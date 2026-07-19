@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T23:09:44Z",
-  "total": 86,
+  "generated_at": "2026-07-19T00:09:07Z",
+  "total": 84,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -363,14 +363,14 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -383,14 +383,14 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -496,46 +496,6 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:39:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "94e82ce9fab7c51d",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Backend",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8637306002?gh_jid=8637306002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "1d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3141ab0fb72519b3",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Backend",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8637300002?gh_jid=8637300002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "1d",
-      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -655,6 +615,46 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-07-17",
       "age": "2d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "94e82ce9fab7c51d",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Backend",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://careers.duolingo.com/jobs/8637306002?gh_jid=8637306002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-16",
+      "age": "1d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3141ab0fb72519b3",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Backend",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
+      "remote_type": "onsite",
+      "url": "https://careers.duolingo.com/jobs/8637300002?gh_jid=8637300002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-16",
+      "age": "1d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
@@ -1143,26 +1143,6 @@
       ]
     },
     {
-      "id": "3c46b9d61da3d979",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Toronto",
-      "remote_type": "onsite",
-      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-06-26",
-      "age": "21d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e0a6ba48b79e0ae3",
       "company": "Palantir",
       "title": "Year at Palantir - Forward Deployed Software Engineer - Internship - Commercial",
@@ -1175,6 +1155,26 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-07-17",
       "age": "22d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3c46b9d61da3d979",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-06-26",
+      "age": "21d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
@@ -1456,46 +1456,6 @@
       "posted_at": "2026-07-17",
       "age": "41d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ae609c2c13eb416e",
-      "company": "Amazon.com",
-      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=2e56c813ce52841f",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-05-21",
-      "age": "58d",
-      "collected_at": "2026-07-18T23:09:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "814d2f7eac64722d",
-      "company": "Amazon.com",
-      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=1e3a468f019b7884",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-05-21",
-      "age": "58d",
-      "collected_at": "2026-07-18T23:09:44Z",
       "tags": [
         "software",
         "programming",
