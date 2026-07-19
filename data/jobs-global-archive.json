@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T11:28:08Z",
-  "total": 37,
+  "generated_at": "2026-07-19T13:52:35Z",
+  "total": 38,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "2d",
-      "collected_at": "2026-07-19T11:28:08Z",
+      "collected_at": "2026-07-19T13:52:35Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T11:28:08Z"
+      "closed_at": "2026-07-19T13:52:35Z"
     },
     {
       "id": "59b4f1aff1a389af",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "3d",
-      "collected_at": "2026-07-19T11:28:08Z",
+      "collected_at": "2026-07-19T13:52:35Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T11:28:08Z"
+      "closed_at": "2026-07-19T13:52:35Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "2d",
-      "collected_at": "2026-07-19T11:28:08Z",
+      "collected_at": "2026-07-19T13:52:35Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T11:28:08Z"
+      "closed_at": "2026-07-19T13:52:35Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "3d",
-      "collected_at": "2026-07-19T11:28:08Z",
+      "collected_at": "2026-07-19T13:52:35Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T11:28:08Z"
+      "closed_at": "2026-07-19T13:52:35Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "3d",
-      "collected_at": "2026-07-19T11:28:08Z",
+      "collected_at": "2026-07-19T13:52:35Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T11:28:08Z"
+      "closed_at": "2026-07-19T13:52:35Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -120,13 +120,34 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "2d",
-      "collected_at": "2026-07-19T11:28:08Z",
+      "collected_at": "2026-07-19T13:52:35Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T11:28:08Z"
+      "closed_at": "2026-07-19T13:52:35Z"
+    },
+    {
+      "id": "51eb59d2afff0645",
+      "company": "Palantir",
+      "title": "Year at Palantir - Software Engineer - Internship",
+      "level": "internship",
+      "country": "United States",
+      "location": "New York City, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "118d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-19T13:52:35Z"
     },
     {
       "id": "8808ebd8ff2fae91",
