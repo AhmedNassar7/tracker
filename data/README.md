@@ -99,7 +99,7 @@ Total roles: 60
 | Palantir | [Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329) | New York, NY | 4mo |
 | Palantir | [Forward Deployed Software Engineer, Internship - France](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) | New York, NY | 4mo |
 | Palantir | [Forward Deployed Software Engineer, Internship - Poland](https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9) | New York, NY | 5mo |
-| ByteDance | [Machine Learning Engineer Intern (Glo...](https://joinbytedance.com/search/7535951608832657682) | Seattle, Washington | recently |
+| ByteDance | [Machine Learning Engineer Intern (Glo...](https://joinbytedance.com/search/7535953226975054098) | Seattle, Washington | recently |
 | ByteDance | [Site Reliability Engineer Intern (Dat...](https://joinbytedance.com/search/7535646140345272584) | San Jose, California | recently |
 | ByteDance | [Software Engineer Intern (Applied Mac...](https://joinbytedance.com/search/7533045355162044690) | San Jose, California | recently |
 
