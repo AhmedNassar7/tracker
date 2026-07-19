@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-19T22:08:16Z",
-  "total": 91,
+  "generated_at": "2026-07-19T23:10:48Z",
+  "total": 90,
   "by_level": {
     "mid_level": 30,
     "internship": 39,
     "junior": 3,
     "entry_level": 3,
-    "new_grad": 16
+    "new_grad": 15
   },
   "by_country": {
-    "United States": 47,
+    "United States": 46,
     "Remote": 1,
     "Canada": 15,
     "Unknown": 25,
@@ -21,7 +21,7 @@
     "ambicuity": 33,
     "speedyapply_ai": 8,
     "speedyapply_swe": 16,
-    "simplify_newgrad": 11,
+    "simplify_newgrad": 10,
     "simplify_internships": 12
   }
 }
