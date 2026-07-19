@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T19:31:23Z",
+  "generated_at": "2026-07-19T21:06:40Z",
   "total": 37,
   "jobs": [
     {
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "3d",
-      "collected_at": "2026-07-19T19:31:23Z",
+      "collected_at": "2026-07-19T21:06:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T19:31:23Z"
+      "closed_at": "2026-07-19T21:06:40Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "3d",
-      "collected_at": "2026-07-19T19:31:23Z",
+      "collected_at": "2026-07-19T21:06:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T19:31:23Z"
+      "closed_at": "2026-07-19T21:06:40Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "2d",
-      "collected_at": "2026-07-19T17:16:53Z",
+      "collected_at": "2026-07-19T21:06:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T19:31:23Z"
+      "closed_at": "2026-07-19T21:06:40Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "2d",
-      "collected_at": "2026-07-19T17:16:53Z",
+      "collected_at": "2026-07-19T21:06:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T19:31:23Z"
+      "closed_at": "2026-07-19T21:06:40Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "2d",
-      "collected_at": "2026-07-19T17:16:53Z",
+      "collected_at": "2026-07-19T21:06:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T19:31:23Z"
+      "closed_at": "2026-07-19T21:06:40Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -120,13 +120,34 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "3d",
-      "collected_at": "2026-07-19T17:16:53Z",
+      "collected_at": "2026-07-19T21:06:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T19:31:23Z"
+      "closed_at": "2026-07-19T21:06:40Z"
+    },
+    {
+      "id": "271a4ea4a9d69e55",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern (Glo...",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7535951608832657682",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-17",
+      "age": "Recently",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-19T21:06:40Z"
     },
     {
       "id": "51eb59d2afff0645",
@@ -211,27 +232,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-19T00:09:07Z"
-    },
-    {
-      "id": "8a32d8c56dfd9a12",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern (Glo...",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, Washington",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7535953226975054098",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-17",
-      "age": "Recently",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T21:05:42Z"
     },
     {
       "id": "43be740a7fcf2801",
