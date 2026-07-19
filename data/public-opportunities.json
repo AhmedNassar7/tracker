@@ -1,63 +1,7 @@
 {
-  "generated_at": "2026-07-19T06:44:35Z",
-  "total": 575,
+  "generated_at": "2026-07-19T09:16:45Z",
+  "total": 579,
   "jobs": [
-    {
-      "id": "9fab4ec665ecf704",
-      "kind": "job",
-      "company": "Intel",
-      "title": "AI Software Engineering Intern",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, Oregon, Hillsboro<br>US, California, Folsom</details>",
-      "level": "internship",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
-    },
-    {
-      "id": "518ba7cf3decd72d",
-      "kind": "job",
-      "company": "Intel",
-      "title": "AI Software Engineering Intern",
-      "location": "US, Arizona, Phoenix",
-      "level": "internship",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
-    },
-    {
-      "id": "dd7722dbb23fc0f6",
-      "kind": "job",
-      "company": "Intel",
-      "title": "Software Engineer",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, Arizona, Phoenix<br>US, Oregon, Hillsboro</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer_JR0285453",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
-    },
-    {
-      "id": "05e84cb9f1db0fc7",
-      "kind": "job",
-      "company": "Intel",
-      "title": "Software Engineer - Agent Harness",
-      "location": "<details><summary><strong>4 locations</strong></summary>US, California, Santa Clara<br>US, Oregon, Hillsboro<br>US, California, Folsom<br>US, Arizona, Phoenix</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/Software-Engineer---Agent-Harness_JR0284869",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
-    },
     {
       "id": "73a18997e7bf3005",
       "kind": "job",
@@ -155,6 +99,62 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "9fab4ec665ecf704",
+      "kind": "job",
+      "company": "Intel",
+      "title": "AI Software Engineering Intern",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, Oregon, Hillsboro<br>US, California, Folsom</details>",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "518ba7cf3decd72d",
+      "kind": "job",
+      "company": "Intel",
+      "title": "AI Software Engineering Intern",
+      "location": "US, Arizona, Phoenix",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "dd7722dbb23fc0f6",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Software Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, Arizona, Phoenix<br>US, Oregon, Hillsboro</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer_JR0285453",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "05e84cb9f1db0fc7",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Software Engineer - Agent Harness",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, California, Santa Clara<br>US, Oregon, Hillsboro<br>US, California, Folsom<br>US, Arizona, Phoenix</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/Software-Engineer---Agent-Harness_JR0284869",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "ee36bb020b12a233",
@@ -267,20 +267,6 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
-    {
-      "id": "5859cae08c5c3d4c",
-      "kind": "job",
-      "company": "Intel",
-      "title": "Senior Software Engineer",
-      "location": "US, Arizona, Phoenix",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Senior-Software-Engineer_JR0285595",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "3b4a3c467b032e7c",
@@ -479,16 +465,16 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
-      "id": "e2cff3074eafc6cf",
+      "id": "5859cae08c5c3d4c",
       "kind": "job",
       "company": "Intel",
-      "title": "Senior AI Software Engineer - Neuromorphic Computing",
-      "location": "<details><summary><strong>3 locations</strong></summary>US, Oregon, Hillsboro<br>US, California, Santa Clara<br>US, Texas, Austin</details>",
+      "title": "Senior Software Engineer",
+      "location": "US, Arizona, Phoenix",
       "level": "other",
       "role_type": "software_engineer",
       "date": "4d",
       "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-AI-Software-Engineer---Neuromorphic-Computing_JR0282751",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Senior-Software-Engineer_JR0285595",
       "source": "workday:intel",
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
@@ -589,6 +575,20 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "e2cff3074eafc6cf",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Senior AI Software Engineer - Neuromorphic Computing",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, Oregon, Hillsboro<br>US, California, Santa Clara<br>US, Texas, Austin</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "5d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-AI-Software-Engineer---Neuromorphic-Computing_JR0282751",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "277be340e64e288a",
@@ -1053,34 +1053,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/notion"
     },
     {
-      "id": "123f4a942d94b029",
-      "kind": "job",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "location": "San Diego",
-      "level": "internship",
-      "role_type": "software_engineer",
-      "date": "17d",
-      "posted_at": "",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
-      "source": "workday:sonyglobal",
-      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs"
-    },
-    {
-      "id": "123f4a942d94b029",
-      "kind": "job",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "location": "San Diego",
-      "level": "internship",
-      "role_type": "software_engineer",
-      "date": "17d",
-      "posted_at": "",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
-      "source": "workday:sonyglobal",
-      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
-    },
-    {
       "id": "ce77c9f94a7642fb",
       "kind": "job",
       "company": "Cloudflare",
@@ -1107,6 +1079,34 @@
       "url": "https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "123f4a942d94b029",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "location": "San Diego",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "18d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs"
+    },
+    {
+      "id": "123f4a942d94b029",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "location": "San Diego",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "18d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
     },
     {
       "id": "ded47d8202b7750e",
@@ -1347,20 +1347,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
-      "id": "eab2bb3f3ce58c85",
-      "kind": "job",
-      "company": "Intel",
-      "title": "Hardware Platform Applications Engineer - Military & Aerospace",
-      "location": "<details><summary><strong>4 locations</strong></summary>US, Arizona, Phoenix<br>US, Oregon, Hillsboro<br>US, California, Folsom<br>US, California, Santa Clara</details>",
-      "level": "other",
-      "role_type": "platform",
-      "date": "29d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
-    },
-    {
       "id": "5154a210fdf18e71",
       "kind": "job",
       "company": "Cohere",
@@ -1387,6 +1373,20 @@
       "url": "https://jobs.ashbyhq.com/cohere/732c05f5-a9ec-43a3-9ae4-3ec7f7630fff",
       "source": "ashby:cohere",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
+    },
+    {
+      "id": "eab2bb3f3ce58c85",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Hardware Platform Applications Engineer - Military & Aerospace",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, Arizona, Phoenix<br>US, Oregon, Hillsboro<br>US, California, Folsom<br>US, California, Santa Clara</details>",
+      "level": "other",
+      "role_type": "platform",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "c47a95fa752129e6",
@@ -7257,6 +7257,18 @@
   ],
   "hackathons": [
     {
+      "id": "2b4cacd32ad51b41",
+      "kind": "hackathon",
+      "company": "ACT House",
+      "title": "Brainwave 2026",
+      "location": "Online",
+      "date": "22 days left",
+      "posted_at": "2026-07-19",
+      "url": "https://brainwaves.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "754cf7c8686d8157",
       "kind": "hackathon",
       "company": "ACTS EDC",
@@ -7382,7 +7394,7 @@
       "company": "Code crate",
       "title": "Hack with AI",
       "location": "NRI Group of Institutions Bhopal",
-      "date": "about 5 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-07-19",
       "url": "https://hack-with-ai-by-code-crate.devpost.com/",
       "source": "devpost",
@@ -7418,7 +7430,7 @@
       "company": "DataHub",
       "title": "Build with DataHub: The Agent Hackathon",
       "location": "Online",
-      "date": "23 days left",
+      "date": "22 days left",
       "posted_at": "2026-07-19",
       "url": "https://datahub.devpost.com/",
       "source": "devpost",
@@ -7466,7 +7478,7 @@
       "company": "global-tech-challenge",
       "title": "Global Tech Innovation Challenge",
       "location": "Online",
-      "date": "6 days left",
+      "date": "5 days left",
       "posted_at": "2026-07-19",
       "url": "https://global-tech-challenge.devpost.com/",
       "source": "devpost",
@@ -7478,7 +7490,7 @@
       "company": "Hack the 6ix",
       "title": "Hack the 6ix 2026",
       "location": "University of Toronto Bahen Centre",
-      "date": "about 7 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-07-19",
       "url": "https://hackthe6ix2026.devpost.com/",
       "source": "devpost",
@@ -7610,7 +7622,7 @@
       "company": "Major League Hacking",
       "title": "Midnight Hackathon",
       "location": "New York, NY, USA",
-      "date": "about 9 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-07-19",
       "url": "https://midnight-hackathon-july-2026.devpost.com/",
       "source": "devpost",
@@ -7694,7 +7706,7 @@
       "company": "Pinch Payments",
       "title": "Pinch Me! I Want 50K: A Nationwide Australian Payments & Fintech Hackathon",
       "location": "Tank Stream Labs, Online",
-      "date": "4 days left",
+      "date": "3 days left",
       "posted_at": "2026-07-19",
       "url": "https://pinch-me-i-want-50k.devpost.com/",
       "source": "devpost",
@@ -7742,7 +7754,7 @@
       "company": "SensAI Hack",
       "title": "Worlds in Action Hack [02-LA]",
       "location": "Los Angeles",
-      "date": "about 13 hours left",
+      "date": "about 11 hours left",
       "posted_at": "2026-07-19",
       "url": "https://worlds-in-action-hack-02-la.devpost.com/",
       "source": "devpost",
@@ -7754,7 +7766,7 @@
       "company": "shekunj",
       "title": "INNOVIK 6.0 : International Hackathon 2026",
       "location": "VITM, Indore",
-      "date": "29 days left",
+      "date": "28 days left",
       "posted_at": "2026-07-19",
       "url": "https://innovik-6-0-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -7833,18 +7845,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "45645b8447699aad",
-      "kind": "hackathon",
-      "company": "Tecnoviz Dev Comm",
-      "title": "Technoviz Summer of Code",
-      "location": "Online",
-      "date": "about 4 hours left",
-      "posted_at": "2026-07-19",
-      "url": "https://technoviz-summer-of-code.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "838a01c47b0f86fe",
       "kind": "hackathon",
       "company": "The Webb Schools CSC",
@@ -7907,6 +7907,30 @@
   ],
   "events": [
     {
+      "id": "229397d627dbf883",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-19",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-19",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -7931,6 +7955,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-19",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -7939,6 +7975,18 @@
       "date": "",
       "posted_at": "2026-07-19",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-19",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
