@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T22:08:58Z",
+  "generated_at": "2026-07-19T23:11:30Z",
   "total": 575,
   "jobs": [
     {
@@ -7257,18 +7257,6 @@
   ],
   "hackathons": [
     {
-      "id": "78d02a8f68fa1b72",
-      "kind": "hackathon",
-      "company": "AceSAT",
-      "title": "AceSAT Education AI-Agent",
-      "location": "Online",
-      "date": "27 days left",
-      "posted_at": "2026-07-19",
-      "url": "https://acesat-ai-agent.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -7485,6 +7473,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "51d21fd767023119",
+      "kind": "hackathon",
+      "company": "google build with ai",
+      "title": "Google x IITG AI Hackathon",
+      "location": "Online",
+      "date": "about 14 hours left",
+      "posted_at": "2026-07-19",
+      "url": "https://google-ai-workshop-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "52d3ba98a32ed2eb",
       "kind": "hackathon",
       "company": "HackFinity",
@@ -7529,6 +7529,18 @@
       "date": "12 days left",
       "posted_at": "2026-07-19",
       "url": "https://3d-websites-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "ecd632ec2871a4d2",
+      "kind": "hackathon",
+      "company": "ICON",
+      "title": "ICON x Lyra Hackathon",
+      "location": "UNSW",
+      "date": "3 days left",
+      "posted_at": "2026-07-19",
+      "url": "https://icon-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -7737,18 +7749,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "9769784f87b4bca4",
-      "kind": "hackathon",
-      "company": "SensAI Hack",
-      "title": "Worlds in Action Hack [02-LA]",
-      "location": "Los Angeles",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-19",
-      "url": "https://worlds-in-action-hack-02-la.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "9a3b8aa57657ce4b",
       "kind": "hackathon",
       "company": "shekunj",
@@ -7802,7 +7802,7 @@
       "company": "TechCommons",
       "title": "TechCommons Hacks",
       "location": "Online",
-      "date": "about 17 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-07-19",
       "url": "https://techcommons-hacks.devpost.com/",
       "source": "devpost",
