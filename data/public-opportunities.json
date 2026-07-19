@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T13:53:23Z",
+  "generated_at": "2026-07-19T15:15:06Z",
   "total": 579,
   "jobs": [
     {
@@ -7257,18 +7257,6 @@
   ],
   "hackathons": [
     {
-      "id": "78d02a8f68fa1b72",
-      "kind": "hackathon",
-      "company": "AceSAT",
-      "title": "AceSAT Education AI-Agent",
-      "location": "Online",
-      "date": "27 days left",
-      "posted_at": "2026-07-19",
-      "url": "https://acesat-ai-agent.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -7397,18 +7385,6 @@
       "date": "about 1 month left",
       "posted_at": "2026-07-19",
       "url": "https://cockroachdb-ai.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "268a4bb890339b82",
-      "kind": "hackathon",
-      "company": "Code crate",
-      "title": "Hack with AI",
-      "location": "NRI Group of Institutions Bhopal",
-      "date": "22 minutes left",
-      "posted_at": "2026-07-19",
-      "url": "https://hack-with-ai-by-code-crate.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -7622,7 +7598,7 @@
       "company": "Major League Hacking",
       "title": "Midnight Hackathon",
       "location": "New York, NY, USA",
-      "date": "about 2 hours left",
+      "date": "30 minutes left",
       "posted_at": "2026-07-19",
       "url": "https://midnight-hackathon-july-2026.devpost.com/",
       "source": "devpost",
@@ -7737,6 +7713,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "8662a5bbc58a19f5",
+      "kind": "hackathon",
+      "company": "Rice University",
+      "title": "The Rice University Urban Sustainability Hackathon",
+      "location": "Online",
+      "date": "2 months left",
+      "posted_at": "2026-07-19",
+      "url": "https://rice-urban-sustainability.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "9b62b6d6f198e0c2",
       "kind": "hackathon",
       "company": "SAIN Utrecht",
@@ -7754,7 +7742,7 @@
       "company": "SensAI Hack",
       "title": "Worlds in Action Hack [02-LA]",
       "location": "Los Angeles",
-      "date": "about 8 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-07-19",
       "url": "https://worlds-in-action-hack-02-la.devpost.com/",
       "source": "devpost",
@@ -7814,7 +7802,7 @@
       "company": "TechCommons",
       "title": "TechCommons Hacks",
       "location": "Online",
-      "date": "1 day left",
+      "date": "about 24 hours left",
       "posted_at": "2026-07-19",
       "url": "https://techcommons-hacks.devpost.com/",
       "source": "devpost",
@@ -7841,6 +7829,18 @@
       "date": "3 days left",
       "posted_at": "2026-07-19",
       "url": "https://buuniex-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "45645b8447699aad",
+      "kind": "hackathon",
+      "company": "Tecnoviz Dev Comm",
+      "title": "Technoviz Summer of Code",
+      "location": "Online",
+      "date": "about 18 hours left",
+      "posted_at": "2026-07-19",
+      "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },

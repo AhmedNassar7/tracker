@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T13:52:35Z",
-  "total": 84,
+  "generated_at": "2026-07-19T15:14:18Z",
+  "total": 85,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -1116,6 +1116,26 @@
       "posted_at": "2026-07-17",
       "age": "17d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-19",
+      "age": "20d",
+      "collected_at": "2026-07-19T15:14:18Z",
       "tags": [
         "software",
         "programming",
