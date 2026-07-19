@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T23:09:44Z",
-  "total": 35,
+  "generated_at": "2026-07-19T00:09:07Z",
+  "total": 37,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -14,14 +14,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "1d",
-      "collected_at": "2026-07-18T23:09:44Z",
+      "age": "2d",
+      "collected_at": "2026-07-19T00:09:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T23:09:44Z"
+      "closed_at": "2026-07-19T00:09:07Z"
     },
     {
       "id": "59b4f1aff1a389af",
@@ -35,14 +35,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
-      "age": "2d",
-      "collected_at": "2026-07-18T23:09:44Z",
+      "age": "3d",
+      "collected_at": "2026-07-19T00:09:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T23:09:44Z"
+      "closed_at": "2026-07-19T00:09:07Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -56,14 +56,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "1d",
-      "collected_at": "2026-07-18T23:09:44Z",
+      "age": "2d",
+      "collected_at": "2026-07-19T00:09:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T23:09:44Z"
+      "closed_at": "2026-07-19T00:09:07Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -77,14 +77,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
-      "age": "2d",
-      "collected_at": "2026-07-18T23:09:44Z",
+      "age": "3d",
+      "collected_at": "2026-07-19T00:09:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T23:09:44Z"
+      "closed_at": "2026-07-19T00:09:07Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -98,14 +98,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
-      "age": "2d",
-      "collected_at": "2026-07-18T23:09:44Z",
+      "age": "3d",
+      "collected_at": "2026-07-19T00:09:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T23:09:44Z"
+      "closed_at": "2026-07-19T00:09:07Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -119,14 +119,56 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "1d",
+      "age": "2d",
+      "collected_at": "2026-07-19T00:09:07Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-19T00:09:07Z"
+    },
+    {
+      "id": "814d2f7eac64722d",
+      "company": "Amazon.com",
+      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=1e3a468f019b7884",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-05-21",
+      "age": "58d",
       "collected_at": "2026-07-18T23:09:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-18T23:09:44Z"
+      "closed_at": "2026-07-19T00:09:07Z"
+    },
+    {
+      "id": "ae609c2c13eb416e",
+      "company": "Amazon.com",
+      "title": "Machine Learning Engineer II, Sponsored Products Search Sourcing, Amazon Advertising",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=2e56c813ce52841f",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-05-21",
+      "age": "58d",
+      "collected_at": "2026-07-18T23:09:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-19T00:09:07Z"
     },
     {
       "id": "1d189997c9218173",
