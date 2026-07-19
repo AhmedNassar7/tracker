@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T00:09:07Z",
-  "total": 37,
+  "generated_at": "2026-07-19T03:52:36Z",
+  "total": 36,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -13,15 +13,15 @@
       "url": "https://paypal.wd1.myworkdayjobs.com/job/San-Jose-California-United-States-of-America/Software-Engineer-2_R0137107",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "2d",
-      "collected_at": "2026-07-19T00:09:07Z",
+      "posted_at": "2026-07-18",
+      "age": "1d",
+      "collected_at": "2026-07-19T03:52:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T00:09:07Z"
+      "closed_at": "2026-07-19T03:52:36Z"
     },
     {
       "id": "59b4f1aff1a389af",
@@ -34,15 +34,15 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Engineer-II_R-279240",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "3d",
-      "collected_at": "2026-07-19T00:09:07Z",
+      "posted_at": "2026-07-17",
+      "age": "2d",
+      "collected_at": "2026-07-19T03:52:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T00:09:07Z"
+      "closed_at": "2026-07-19T03:52:36Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -55,15 +55,15 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-280085-1",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "2d",
-      "collected_at": "2026-07-19T00:09:07Z",
+      "posted_at": "2026-07-18",
+      "age": "1d",
+      "collected_at": "2026-07-19T03:52:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T00:09:07Z"
+      "closed_at": "2026-07-19T03:52:36Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -76,15 +76,15 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II-1_R-282787",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "3d",
-      "collected_at": "2026-07-19T00:09:07Z",
+      "posted_at": "2026-07-17",
+      "age": "2d",
+      "collected_at": "2026-07-19T03:52:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T00:09:07Z"
+      "closed_at": "2026-07-19T03:52:36Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -97,15 +97,15 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II-2_R-282788-1",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "3d",
-      "collected_at": "2026-07-19T00:09:07Z",
+      "posted_at": "2026-07-17",
+      "age": "2d",
+      "collected_at": "2026-07-19T03:52:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T00:09:07Z"
+      "closed_at": "2026-07-19T03:52:36Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -118,15 +118,15 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Site-Reliability-Engineer-II_R-275061-1",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "2d",
-      "collected_at": "2026-07-19T00:09:07Z",
+      "posted_at": "2026-07-18",
+      "age": "1d",
+      "collected_at": "2026-07-19T03:52:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-19T00:09:07Z"
+      "closed_at": "2026-07-19T03:52:36Z"
     },
     {
       "id": "814d2f7eac64722d",
@@ -310,27 +310,6 @@
       "posted_at": "2026-07-15",
       "age": "2d",
       "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T08:58:03Z"
-    },
-    {
-      "id": "8808ebd8ff2fae91",
-      "company": "Tesla",
-      "title": "Software Engineer Intern - Wireless Connectivity Software Engineer - Electronic Devices",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://www.tesla.com/careers/search/job/269792?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-18",
-      "age": "1mo",
-      "collected_at": "2026-07-18T03:30:28Z",
       "tags": [
         "software",
         "programming",
