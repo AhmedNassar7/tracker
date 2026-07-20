@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-20T04:04:34Z",
+  "generated_at": "2026-07-20T07:28:00Z",
   "total": 90,
   "by_level": {
-    "mid_level": 30,
-    "internship": 39,
+    "mid_level": 31,
+    "internship": 38,
     "junior": 3,
     "entry_level": 3,
     "new_grad": 15
@@ -16,12 +16,12 @@
     "United Kingdom": 3
   },
   "by_source": {
-    "zapplyjobs_newgrad": 6,
+    "zapplyjobs_newgrad": 7,
     "hanzili_canada": 5,
     "ambicuity": 33,
     "speedyapply_ai": 8,
     "speedyapply_swe": 16,
     "simplify_newgrad": 10,
-    "simplify_internships": 12
+    "simplify_internships": 11
   }
 }
