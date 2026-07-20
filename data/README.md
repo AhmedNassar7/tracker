@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 401 |
+| Jobs | 398 |
 | Hackathons | 54 |
-| Events | 3 |
-| Total | 458 |
+| Events | 8 |
+| Total | 460 |
 
 ## Jobs
 
-[![Jobs 401](https://img.shields.io/badge/Jobs-401-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 59](https://img.shields.io/badge/Internship-59-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 314](https://img.shields.io/badge/Mid--Level%20and%20Above-314-dc2626.svg)](#mid-level-and-above)
+[![Jobs 398](https://img.shields.io/badge/Jobs-398-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 59](https://img.shields.io/badge/Internship-59-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 312](https://img.shields.io/badge/Mid--Level%20and%20Above-312-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -104,7 +104,7 @@ Total roles: 59
 
 ### Early Career
 
-Total roles: 28
+Total roles: 27
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -135,11 +135,10 @@ Total roles: 28
 | ServiceNow | [Associate Software Engineer, Core Infrastructure - Moveworks 🇺🇸](https://jobs.smartrecruiters.com/ServiceNow/2274d8e3-af4a-4935-b065-f65622b5ea3f?utm_source=Simplify&ref=Simplify) | Mountain View, CA | 2mo |
 | Notion | [Software Engineer, New Grad (AI)](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9) | San Francisco, California | 2mo |
 | Notion | [Software Engineer, New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) | San Francisco, California | 2mo |
-| JPMorgan Chase | [Data Scientist - Sr Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210769384) | Bengaluru, Karnat... | recently |
 
 ### Mid-Level and Above
 
-Total roles: 314
+Total roles: 312
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -161,8 +160,6 @@ Total roles: 314
 | Pinterest | [Software Engineer II, iOS](https://www.pinterestcareers.com/jobs/?gh_jid=5601228) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Web](https://www.pinterestcareers.com/jobs/?gh_jid=8024883) | Toronto, ON, CA | 0d |
 | Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138593452) | London, United Kingdom | 0d |
-| Duolingo | [Software Engineer II, Backend](https://careers.duolingo.com/jobs/8637306002?gh_jid=8637306002) | New York, NY | 1d |
-| Duolingo | [Software Engineer II, Backend](https://careers.duolingo.com/jobs/8637300002?gh_jid=8637300002) | Pittsburgh, PA | 1d |
 | Cloudflare | [Models Deployment Engineer, AI Platform](https://boards.greenhouse.io/cloudflare/jobs/8028747?gh_jid=8028747) | Hybrid | 3d |
 | Cloudflare | [Principal Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320) | In-Office | 3d |
 | Cloudflare | [Senior Software Engineer, Durable Objects (DO)](https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243) | In-Office | 3d |
@@ -456,7 +453,7 @@ Total roles: 314
 | Openai | [Software Engineer, Research - Human Data](https://jobs.ashbyhq.com/openai/4d6a5951-9838-434c-830a-22cb938ea228) | San Francisco | 5mo |
 | Amazon Web Services, Inc. | [Data Engineer II, GTPC Tech, Complian...](https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security) | New York, NY | recently |
 | JPMorgan Chase | [AI/ML Software Engineer II](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210704214) | New York, NY, Uni... | recently |
-| Microsoft | [Software Engineer II- GitHub India](https://apply.careers.microsoft.com/careers/job/1970393556864884) | Hyderabad, Telang... | recently |
+| Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556872156) | Redmond, Washingt... | recently |
 
 ## Hackathons
 
@@ -521,13 +518,18 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 3
+Total events: 8
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
+| Luma | [Follow YC](https://lu.ma/ycss?k=c) |
 
 ## Source Files
 

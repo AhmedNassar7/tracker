@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T18:18:42Z",
-  "total": 84,
+  "generated_at": "2026-07-20T20:40:09Z",
+  "total": 81,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -163,19 +163,19 @@
       ]
     },
     {
-      "id": "d643765c93016cb4",
-      "company": "JPMorgan Chase",
-      "title": "Data Scientist - Sr Associate",
-      "level": "entry_level",
+      "id": "f19911bc3e6638c1",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
       "country": "Unknown",
-      "location": "Bengaluru, Karnat...",
+      "location": "Redmond, Washingt...",
       "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210769384",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556872156",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-18",
+      "posted_at": "2026-07-20",
       "age": "Recently",
-      "collected_at": "2026-07-18T19:30:03Z",
+      "collected_at": "2026-07-20T20:40:09Z",
       "tags": [
         "software",
         "programming",
@@ -183,19 +183,19 @@
       ]
     },
     {
-      "id": "195492fd68446b7c",
-      "company": "Microsoft",
-      "title": "Software Engineer II- GitHub India",
+      "id": "ef35692e10223a42",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Hyderabad, Telang...",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556864884",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-20",
-      "age": "Recently",
-      "collected_at": "2026-07-20T13:17:46Z",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:39:15Z",
       "tags": [
         "software",
         "programming",
@@ -383,26 +383,6 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "0d",
-      "collected_at": "2026-07-17T22:39:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
@@ -516,46 +496,6 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:39:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "94e82ce9fab7c51d",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Backend",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8637306002?gh_jid=8637306002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "1d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3141ab0fb72519b3",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Backend",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8637300002?gh_jid=8637300002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "1d",
-      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
