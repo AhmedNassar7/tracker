@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T11:12:29Z",
-  "total": 42,
+  "generated_at": "2026-07-20T13:17:46Z",
+  "total": 43,
   "jobs": [
     {
       "id": "59b4f1aff1a389af",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T11:12:29Z",
+      "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T11:12:29Z"
+      "closed_at": "2026-07-20T13:17:46Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T11:12:29Z",
+      "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T11:12:29Z"
+      "closed_at": "2026-07-20T13:17:46Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T11:12:29Z",
+      "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T11:12:29Z"
+      "closed_at": "2026-07-20T13:17:46Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T11:12:29Z",
+      "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T11:12:29Z"
+      "closed_at": "2026-07-20T13:17:46Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T11:12:29Z",
+      "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T11:12:29Z"
+      "closed_at": "2026-07-20T13:17:46Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -120,13 +120,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T11:12:29Z",
+      "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T11:12:29Z"
+      "closed_at": "2026-07-20T13:17:46Z"
     },
     {
       "id": "94330349857504d1",
@@ -141,13 +141,34 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "0d",
-      "collected_at": "2026-07-20T11:12:29Z",
+      "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T11:12:29Z"
+      "closed_at": "2026-07-20T13:17:46Z"
+    },
+    {
+      "id": "a660e47a0f37a7dd",
+      "company": "Mastercard",
+      "title": "Software Engineer II Java Full stack Developer",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II-Java-Full-stack-Developer_R-281493",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-20",
+      "age": "0d",
+      "collected_at": "2026-07-20T13:17:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-20T13:17:46Z"
     },
     {
       "id": "6402b8a8ec08954b",
