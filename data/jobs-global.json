@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T07:28:00Z",
-  "total": 84,
+  "generated_at": "2026-07-20T11:12:29Z",
+  "total": 83,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -176,26 +176,6 @@
       "posted_at": "2026-07-20",
       "age": "Recently",
       "collected_at": "2026-07-20T07:28:00Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6402b8a8ec08954b",
-      "company": "Microsoft",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Hyderabad, Telang...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556927939",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-18",
-      "age": "Recently",
-      "collected_at": "2026-07-18T15:13:57Z",
       "tags": [
         "software",
         "programming",
@@ -383,14 +363,14 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -403,14 +383,14 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",

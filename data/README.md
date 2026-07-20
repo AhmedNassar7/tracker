@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 401 |
+| Jobs | 399 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 458 |
+| Total | 456 |
 
 ## Jobs
 
-[![Jobs 401](https://img.shields.io/badge/Jobs-401-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 59](https://img.shields.io/badge/Internship-59-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 315](https://img.shields.io/badge/Mid--Level%20and%20Above-315-dc2626.svg)](#mid-level-and-above)
+[![Jobs 399](https://img.shields.io/badge/Jobs-399-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 59](https://img.shields.io/badge/Internship-59-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 313](https://img.shields.io/badge/Mid--Level%20and%20Above-313-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -138,10 +138,11 @@ Total roles: 27
 
 ### Mid-Level and Above
 
-Total roles: 315
+Total roles: 313
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Cloudflare | [Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) | Hybrid | 0d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 0d |
 | Pinterest | [Security Software Engineer II, Corporate Security](https://www.pinterestcareers.com/jobs/?gh_jid=7732971) | San Francisco, CA, US; Remote, US | 0d |
@@ -149,13 +150,14 @@ Total roles: 315
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II](https://www.pinterestcareers.com/jobs/?gh_jid=7958766) | Palo Alto, CA, US | 0d |
 | Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 0d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 0d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 0d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 0d |
 | Pinterest | [Software Engineer II, Backend, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782552) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Big Data, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782546) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 0d |
 | Pinterest | [Software Engineer II, iOS](https://www.pinterestcareers.com/jobs/?gh_jid=5601228) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Web](https://www.pinterestcareers.com/jobs/?gh_jid=8024883) | Toronto, ON, CA | 0d |
+| Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138593452) | London, United Kingdom | 0d |
 | Duolingo | [Software Engineer II, Backend](https://careers.duolingo.com/jobs/8637306002?gh_jid=8637306002) | New York, NY | 1d |
 | Duolingo | [Software Engineer II, Backend](https://careers.duolingo.com/jobs/8637300002?gh_jid=8637300002) | Pittsburgh, PA | 1d |
 | Cloudflare | [Models Deployment Engineer, AI Platform](https://boards.greenhouse.io/cloudflare/jobs/8028747?gh_jid=8028747) | Hybrid | 3d |
@@ -170,7 +172,6 @@ Total roles: 315
 | Openai | [Backend Software Engineer, API Enterprise Controls](https://jobs.ashbyhq.com/openai/d0956b18-4f80-4c67-b94b-313181a16be6) | San Francisco | 3d |
 | Openai | [Senior Staff Software Engineer, Engineering Acceleration   Consumer Devices](https://jobs.ashbyhq.com/openai/fced529d-4523-436d-9559-cf1a8321b0fa) | San Francisco | 3d |
 | Openai | [Systems Generalist, GPT Infrastructure](https://jobs.ashbyhq.com/openai/78c2a68b-cc77-4c62-8891-96afb603650a) | San Francisco | 3d |
-| Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138299259) | London, United Kingdom (Remote) | 3d |
 | Wise | [Senior Software Engineer](https://jobs.smartrecruiters.com/Wise/744000138414549) | São Paulo, Brazil | 3d |
 | Wise | [Software Engineer - Fincrime - Scam Prevention](https://jobs.smartrecruiters.com/Wise/744000138372564) | London, England, United Kingdom | 3d |
 | Wise | [Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000138414579) | São Paulo, Brazil | 3d |
@@ -198,7 +199,6 @@ Total roles: 315
 | Wise | [Senior Software Engineer II - FinCrime - Scam Prevention Team](https://jobs.smartrecruiters.com/Wise/744000137927403) | London, United Kingdom | 5d |
 | Wise | [Senior Software Engineer II - Payin Platform - Backend (Java)](https://jobs.smartrecruiters.com/Wise/744000137863319) | London, United Kingdom | 5d |
 | Wise | [Software Engineer - Recurring Payin](https://jobs.smartrecruiters.com/Wise/744000137942542) | London, United Kingdom | 5d |
-| Cloudflare | [Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) | Hybrid | 6d |
 | Intel | [Senior AI Software Engineer - Neuromorphic Computing](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-AI-Software-Engineer---Neuromorphic-Computing_JR0282751) | <details><summary>3 locations</summary>US<br>Oregon<br>Hillsboro, US<br>California<br>Santa Clara, US<br>Texas<br>Austin</details> | 6d |
 | Notion | [Software Engineer, AI Platform](https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1) | San Francisco, California | 6d |
 | Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/586876a1-0847-4652-b799-1680eb2ef880) | United States | 7d |
@@ -211,7 +211,6 @@ Total roles: 315
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002) | New York, NY | 7d |
 | Openai | [Software Engineer, Codex -Enterprise Controls](https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db) | San Francisco | 7d |
 | Openai | [Software Engineer, Codex — User Activation](https://jobs.ashbyhq.com/openai/d1c6cb87-a44d-4d04-92a8-dc40eccd090e) | San Francisco | 7d |
-| Wise | [Senior Software Engineer I - KYC Experience](https://jobs.smartrecruiters.com/Wise/744000137388120) | London, United Kingdom | 7d |
 | Plaid | [Senior Software Engineer - AI Tooling](https://jobs.ashbyhq.com/plaid/3f7a4b9f-50b9-4adf-8475-4a4e6b8f0893) | San Francisco HQ | 10d |
 | Ramp | [Software Engineer, Web + Design](https://jobs.ashbyhq.com/ramp/8d61885c-0f08-4267-8ace-69e28b1d3f38) | New York, NY (HQ) | 10d |
 | Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/863956bc-9a2e-4531-ba9e-45c409e4f1ca) | The Netherlands | 11d |
@@ -456,7 +455,6 @@ Total roles: 315
 | Openai | [Software Engineer, Research - Human Data](https://jobs.ashbyhq.com/openai/4d6a5951-9838-434c-830a-22cb938ea228) | San Francisco | 5mo |
 | Amazon Web Services, Inc. | [Data Engineer II, GTPC Tech, Complian...](https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security) | New York, NY | recently |
 | JPMorgan Chase | [Software Engineer II - React, Java](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210750732) | Hyderabad, Telang... | recently |
-| Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556927939) | Hyderabad, Telang... | recently |
 
 ## Hackathons
 
@@ -504,6 +502,7 @@ Total hackathons: 54
 | Pinch Payments | [Pinch Me! I Want 50K: A Nationwide Australian Payments & Fintech Hackathon](https://pinch-me-i-want-50k.devpost.com/) |
 | Prometheus | [Prometheus July AI Challenge](https://prometheus-july-ai-challenge.devpost.com/) |
 | Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
+| Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) |
 | SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
 | shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
 | snap2measure | [Measure up](https://measureme-up.devpost.com/) |
@@ -512,7 +511,6 @@ Total hackathons: 54
 | TechCommons | [TechCommons Hacks](https://techcommons-hacks.devpost.com/) |
 | TechElevate | [Sound for All](https://sound-for-all.devpost.com/) |
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
-| Tecnoviz Dev Comm | [Technoviz Summer of Code](https://technoviz-summer-of-code.devpost.com/) |
 | The Webb Schools CSC | [CSC Summer Impactathon](https://csc-summer-impactathon.devpost.com/) |
 | to be determined | [Prompt Insights News](https://prompt-insights-news.devpost.com/) |
 | Trainzex AI | [Creation Code](https://creation-code-30750.devpost.com/) |
