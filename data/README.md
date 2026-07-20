@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 399 |
+| Jobs | 401 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 456 |
+| Total | 458 |
 
 ## Jobs
 
-[![Jobs 399](https://img.shields.io/badge/Jobs-399-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 59](https://img.shields.io/badge/Internship-59-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 312](https://img.shields.io/badge/Mid--Level%20and%20Above-312-dc2626.svg)](#mid-level-and-above)
+[![Jobs 401](https://img.shields.io/badge/Jobs-401-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 59](https://img.shields.io/badge/Internship-59-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 314](https://img.shields.io/badge/Mid--Level%20and%20Above-314-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -139,11 +139,12 @@ Total roles: 28
 
 ### Mid-Level and Above
 
-Total roles: 312
+Total roles: 314
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Cloudflare | [Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) | Hybrid | 0d |
+| Intel | [Cloud Software Engineer](https://intel.wd1.myworkdayjobs.com/external/job/Costa-Rica-San-Jose/Cloud-Software-Engineer_JR0285121) | Costa Rica, San Jose | 0d |
 | Notion | [Software Engineer, Infrastructure](https://jobs.ashbyhq.com/notion/42f18ccd-c4c8-4a85-8c1f-de12c575fe87) | Hyderabad, India | 0d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 0d |
@@ -152,8 +153,8 @@ Total roles: 312
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II](https://www.pinterestcareers.com/jobs/?gh_jid=7958766) | Palo Alto, CA, US | 0d |
 | Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 0d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 0d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 0d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 0d |
 | Pinterest | [Software Engineer II, Backend, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782552) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Big Data, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782546) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 0d |
@@ -454,6 +455,7 @@ Total roles: 312
 | Openai | [Software Engineer, Platform Systems](https://jobs.ashbyhq.com/openai/4349f80b-3518-4e4d-b9eb-3e5e9b490cc7) | London, UK | 5mo |
 | Openai | [Software Engineer, Research - Human Data](https://jobs.ashbyhq.com/openai/4d6a5951-9838-434c-830a-22cb938ea228) | San Francisco | 5mo |
 | Amazon Web Services, Inc. | [Data Engineer II, GTPC Tech, Complian...](https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security) | New York, NY | recently |
+| JPMorgan Chase | [AI/ML Software Engineer II](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210704214) | New York, NY, Uni... | recently |
 | Microsoft | [Software Engineer II- GitHub India](https://apply.careers.microsoft.com/careers/job/1970393556864884) | Hyderabad, Telang... | recently |
 
 ## Hackathons
@@ -462,6 +464,7 @@ Total hackathons: 54
 
 | Organizer | Hackathon |
 |---|---|
+| AceSAT | [AceSAT Education AI-Agent](https://acesat-ai-agent.devpost.com/) |
 | ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
 | ACTS EDC | [Brainwave 2026 – X402 Blockchain Track](https://brainwave-2026.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
@@ -474,7 +477,6 @@ Total hackathons: 54
 | Cloud Counselage | [DTI Hackathon 2026](https://dti-hackathon-2026-30476.devpost.com/) |
 | Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
 | contact@orionglobalhackathon.com | [OrionHackathon](https://orionhackathon.devpost.com/) |
-| Cupertino GDC | [MelonJam 7](https://melonjam-7.devpost.com/) |
 | DataHub | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
