@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T16:01:13Z",
+  "generated_at": "2026-07-20T18:18:42Z",
   "total": 47,
   "jobs": [
     {
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T16:01:13Z",
+      "collected_at": "2026-07-20T18:18:42Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T16:01:13Z"
+      "closed_at": "2026-07-20T18:18:42Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T16:01:13Z",
+      "collected_at": "2026-07-20T18:18:42Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T16:01:13Z"
+      "closed_at": "2026-07-20T18:18:42Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T16:01:13Z",
+      "collected_at": "2026-07-20T18:18:42Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T16:01:13Z"
+      "closed_at": "2026-07-20T18:18:42Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T16:01:13Z",
+      "collected_at": "2026-07-20T18:18:42Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T16:01:13Z"
+      "closed_at": "2026-07-20T18:18:42Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T16:01:13Z",
+      "collected_at": "2026-07-20T18:18:42Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T16:01:13Z"
+      "closed_at": "2026-07-20T18:18:42Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -120,34 +120,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T16:01:13Z",
+      "collected_at": "2026-07-20T18:18:42Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T16:01:13Z"
-    },
-    {
-      "id": "94330349857504d1",
-      "company": "Mastercard",
-      "title": "Software Engineer II (Mainframe Developer)",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II--Mainframe-Developer-_R-274163",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-20",
-      "age": "0d",
-      "collected_at": "2026-07-20T16:01:13Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-20T16:01:13Z"
+      "closed_at": "2026-07-20T18:18:42Z"
     },
     {
       "id": "a660e47a0f37a7dd",
@@ -162,13 +141,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "0d",
-      "collected_at": "2026-07-20T16:01:13Z",
+      "collected_at": "2026-07-20T18:18:42Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T16:01:13Z"
+      "closed_at": "2026-07-20T18:18:42Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -179,6 +158,27 @@
       "location": "Navi Mumbai, India (Finicity)",
       "remote_type": "onsite",
       "url": "https://mastercard.wd1.myworkdayjobs.com/job/Navi-Mumbai-India-Finicity/Software-Engineer-II_R-282346",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-20",
+      "age": "0d",
+      "collected_at": "2026-07-20T18:18:42Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-20T18:18:42Z"
+    },
+    {
+      "id": "94330349857504d1",
+      "company": "Mastercard",
+      "title": "Software Engineer II (Mainframe Developer)",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II--Mainframe-Developer-_R-274163",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",

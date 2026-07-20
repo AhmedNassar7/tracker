@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T16:02:11Z",
-  "total": 574,
+  "generated_at": "2026-07-20T18:19:32Z",
+  "total": 575,
   "jobs": [
     {
       "id": "ccb330ec44fe5074",
@@ -15,6 +15,20 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "48e00fe8646c6512",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Cloud Software Engineer",
+      "location": "Costa Rica, San Jose",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/Costa-Rica-San-Jose/Cloud-Software-Engineer_JR0285121",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "7c44659d90e080bd",
@@ -7243,6 +7257,18 @@
   ],
   "hackathons": [
     {
+      "id": "78d02a8f68fa1b72",
+      "kind": "hackathon",
+      "company": "AceSAT",
+      "title": "AceSAT Education AI-Agent",
+      "location": "Online",
+      "date": "26 days left",
+      "posted_at": "2026-07-20",
+      "url": "https://acesat-ai-agent.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -7387,18 +7413,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "9d1e64e6b9e68b9e",
-      "kind": "hackathon",
-      "company": "Cupertino GDC",
-      "title": "MelonJam 7",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-20",
-      "url": "https://melonjam-7.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "67d4f374bbe1b10f",
       "kind": "hackathon",
       "company": "DataHub",
@@ -7440,7 +7454,7 @@
       "company": "GABA",
       "title": "GABA Hackday",
       "location": "Alpharetta, GA, USA",
-      "date": "about 9 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-07-20",
       "url": "https://gaba-hackday.devpost.com/",
       "source": "devpost",
@@ -7884,7 +7898,7 @@
       "company": "vitalitics",
       "title": "Vitalitics 2026",
       "location": "Online",
-      "date": "11 days left",
+      "date": "10 days left",
       "posted_at": "2026-07-20",
       "url": "https://vitalitics26.devpost.com/",
       "source": "devpost",
