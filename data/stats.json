@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T00:11:44Z",
+  "generated_at": "2026-07-20T04:04:34Z",
   "total": 90,
   "by_level": {
     "mid_level": 30,
@@ -9,10 +9,10 @@
     "new_grad": 15
   },
   "by_country": {
-    "United States": 46,
+    "United States": 45,
     "Remote": 1,
     "Canada": 15,
-    "Unknown": 25,
+    "Unknown": 26,
     "United Kingdom": 3
   },
   "by_source": {

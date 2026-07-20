@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T00:11:44Z",
-  "total": 38,
+  "generated_at": "2026-07-20T04:04:34Z",
+  "total": 39,
   "jobs": [
     {
       "id": "59b4f1aff1a389af",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T00:11:44Z",
+      "collected_at": "2026-07-20T04:04:34Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T00:11:44Z"
+      "closed_at": "2026-07-20T04:04:34Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T00:11:44Z",
+      "collected_at": "2026-07-20T04:04:34Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T00:11:44Z"
+      "closed_at": "2026-07-20T04:04:34Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T00:11:44Z",
+      "collected_at": "2026-07-20T04:04:34Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T00:11:44Z"
+      "closed_at": "2026-07-20T04:04:34Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T00:11:44Z",
+      "collected_at": "2026-07-20T04:04:34Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T00:11:44Z"
+      "closed_at": "2026-07-20T04:04:34Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T00:11:44Z",
+      "collected_at": "2026-07-20T04:04:34Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T00:11:44Z"
+      "closed_at": "2026-07-20T04:04:34Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -120,13 +120,34 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T00:11:44Z",
+      "collected_at": "2026-07-20T04:04:34Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T00:11:44Z"
+      "closed_at": "2026-07-20T04:04:34Z"
+    },
+    {
+      "id": "854c2196ea82b88d",
+      "company": "Oracle",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, WA Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-15",
+      "age": "1mo",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-20T04:04:34Z"
     },
     {
       "id": "1d189997c9218173",
