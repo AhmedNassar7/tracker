@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T13:17:46Z",
-  "total": 43,
+  "generated_at": "2026-07-20T16:01:13Z",
+  "total": 47,
   "jobs": [
     {
       "id": "59b4f1aff1a389af",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T13:17:46Z",
+      "collected_at": "2026-07-20T16:01:13Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T13:17:46Z"
+      "closed_at": "2026-07-20T16:01:13Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T13:17:46Z",
+      "collected_at": "2026-07-20T16:01:13Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T13:17:46Z"
+      "closed_at": "2026-07-20T16:01:13Z"
     },
     {
       "id": "080d31991cdf119f",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T13:17:46Z",
+      "collected_at": "2026-07-20T16:01:13Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T13:17:46Z"
+      "closed_at": "2026-07-20T16:01:13Z"
     },
     {
       "id": "6e40f0252dd85e3c",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T13:17:46Z",
+      "collected_at": "2026-07-20T16:01:13Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T13:17:46Z"
+      "closed_at": "2026-07-20T16:01:13Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "3d",
-      "collected_at": "2026-07-20T13:17:46Z",
+      "collected_at": "2026-07-20T16:01:13Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T13:17:46Z"
+      "closed_at": "2026-07-20T16:01:13Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -120,13 +120,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "4d",
-      "collected_at": "2026-07-20T13:17:46Z",
+      "collected_at": "2026-07-20T16:01:13Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T13:17:46Z"
+      "closed_at": "2026-07-20T16:01:13Z"
     },
     {
       "id": "94330349857504d1",
@@ -141,13 +141,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "0d",
-      "collected_at": "2026-07-20T13:17:46Z",
+      "collected_at": "2026-07-20T16:01:13Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T13:17:46Z"
+      "closed_at": "2026-07-20T16:01:13Z"
     },
     {
       "id": "a660e47a0f37a7dd",
@@ -162,13 +162,118 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "0d",
+      "collected_at": "2026-07-20T16:01:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-20T16:01:13Z"
+    },
+    {
+      "id": "ea4369a261c1e4a2",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Navi Mumbai, India (Finicity)",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Navi-Mumbai-India-Finicity/Software-Engineer-II_R-282346",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-20",
+      "age": "0d",
+      "collected_at": "2026-07-20T16:01:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-20T16:01:13Z"
+    },
+    {
+      "id": "79f2e62c9dcc022b",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II - React, Java",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Hyderabad, Telang...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210750732",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-20",
+      "age": "Recently",
+      "collected_at": "2026-07-20T07:28:00Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-20T16:01:13Z"
+    },
+    {
+      "id": "f638dcd42bef4a06",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Bangalore, Karnat...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556938469",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-20",
+      "age": "Recently",
       "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-20T13:17:46Z"
+      "closed_at": "2026-07-20T16:01:13Z"
+    },
+    {
+      "id": "803131699f78168e",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "TS, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=a2c467ab9154a807",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-08",
+      "age": "11d",
+      "collected_at": "2026-07-19T13:52:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-20T16:01:13Z"
+    },
+    {
+      "id": "0476ba52df9714ce",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-20",
+      "age": "Recently",
+      "collected_at": "2026-07-20T13:17:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-20T16:01:13Z"
     },
     {
       "id": "6402b8a8ec08954b",
@@ -232,27 +337,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-20T04:04:34Z"
-    },
-    {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-19",
-      "age": "20d",
-      "collected_at": "2026-07-19T15:14:18Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-19T23:10:48Z"
     },
     {
       "id": "271a4ea4a9d69e55",
