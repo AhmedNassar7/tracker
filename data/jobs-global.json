@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T22:12:32Z",
-  "total": 79,
+  "generated_at": "2026-07-20T23:15:18Z",
+  "total": 80,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -136,6 +136,46 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "06f4740f4fce1c44",
+      "company": "JPMorganChase",
+      "title": "AI/ML Software Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=d91138e06f288f59",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-20",
+      "age": "0d",
+      "collected_at": "2026-07-20T23:15:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9c229b4720a5ee7d",
+      "company": "Microsoft",
+      "title": "Software Engineer II - \"Fullstack/Fro...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556915397",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-20",
+      "age": "Recently",
+      "collected_at": "2026-07-20T23:15:18Z",
       "tags": [
         "software",
         "programming",
@@ -683,14 +723,14 @@
       ]
     },
     {
-      "id": "f7eb9ebbd5e7799c",
+      "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -703,14 +743,14 @@
       ]
     },
     {
-      "id": "d7e4cd19ff147953",
+      "id": "f7eb9ebbd5e7799c",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
+      "country": "United States",
+      "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -803,26 +843,6 @@
       ]
     },
     {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "8d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9b738d3d019be839",
       "company": "Citadel",
       "title": "Software Engineer Intern",
@@ -855,6 +875,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
@@ -983,26 +1023,6 @@
       ]
     },
     {
-      "id": "9415006c972556db",
-      "company": "Palantir",
-      "title": "Software Engineer New Grad - Production Infrastructure",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "15d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "fe5669a53ce7b6e5",
       "company": "Tesla",
       "title": "Data Engineer Intern - Applications Engineering",
@@ -1023,19 +1043,19 @@
       ]
     },
     {
-      "id": "1d189997c9218173",
+      "id": "9415006c972556db",
       "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "title": "Software Engineer New Grad - Production Infrastructure",
       "level": "new_grad",
       "country": "United States",
-      "location": "NYC",
+      "location": "Washington, DC",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify",
       "source": "simplify_newgrad",
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-20",
-      "age": "21d",
-      "collected_at": "2026-07-20T16:01:13Z",
+      "posted_at": "2026-07-15",
+      "age": "15d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1103,26 +1123,6 @@
       ]
     },
     {
-      "id": "e0a08d115d5c7f8c",
-      "company": "Palantir",
-      "title": "Palantir Software Engineer Intern - Forward Deployed Software Engineer - Commercial",
-      "level": "internship",
-      "country": "United States",
-      "location": "Chicago, IL",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-15",
-      "age": "20d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e0a6ba48b79e0ae3",
       "company": "Palantir",
       "title": "Year at Palantir - Forward Deployed Software Engineer - Internship - Commercial",
@@ -1136,6 +1136,26 @@
       "posted_at": "2026-07-17",
       "age": "22d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e0a08d115d5c7f8c",
+      "company": "Palantir",
+      "title": "Palantir Software Engineer Intern - Forward Deployed Software Engineer - Commercial",
+      "level": "internship",
+      "country": "United States",
+      "location": "Chicago, IL",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-15",
+      "age": "20d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
