@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T14:20:30Z",
-  "total": 79,
+  "generated_at": "2026-07-21T16:40:40Z",
+  "total": 82,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -196,6 +196,26 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "509c261cafd606d0",
+      "company": "Sony Interactive Entertainment",
+      "title": "Platform Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "CA",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6121289004",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-21",
+      "age": "Recently",
+      "collected_at": "2026-07-21T16:40:40Z",
       "tags": [
         "software",
         "programming",
@@ -1103,6 +1123,26 @@
       ]
     },
     {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-21",
+      "age": "22d",
+      "collected_at": "2026-07-21T16:40:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "18d7e7fbe2542c91",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer, New Grad - Commercial",
@@ -1216,6 +1256,26 @@
       "posted_at": "2026-07-17",
       "age": "1mo",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "99e702d10db39f9b",
+      "company": "NVIDIA",
+      "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-21",
+      "age": "1mo",
+      "collected_at": "2026-07-21T16:40:40Z",
       "tags": [
         "software",
         "programming",
