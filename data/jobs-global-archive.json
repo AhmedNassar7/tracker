@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T18:39:40Z",
-  "total": 62,
+  "generated_at": "2026-07-21T20:35:53Z",
+  "total": 64,
   "jobs": [
     {
       "id": "59b4f1aff1a389af",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "5d",
-      "collected_at": "2026-07-21T18:39:40Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T18:39:40Z"
+      "closed_at": "2026-07-21T20:35:53Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "5d",
-      "collected_at": "2026-07-21T18:39:40Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T18:39:40Z"
+      "closed_at": "2026-07-21T20:35:53Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "4d",
-      "collected_at": "2026-07-21T18:39:40Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T18:39:40Z"
+      "closed_at": "2026-07-21T20:35:53Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "5d",
-      "collected_at": "2026-07-21T18:39:40Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T18:39:40Z"
+      "closed_at": "2026-07-21T20:35:53Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "1d",
-      "collected_at": "2026-07-21T18:39:40Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T18:39:40Z"
+      "closed_at": "2026-07-21T20:35:53Z"
     },
     {
       "id": "d76a868df556107a",
@@ -120,13 +120,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "1d",
-      "collected_at": "2026-07-21T18:39:40Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T18:39:40Z"
+      "closed_at": "2026-07-21T20:35:53Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -141,13 +141,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "0d",
-      "collected_at": "2026-07-21T18:39:40Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T18:39:40Z"
+      "closed_at": "2026-07-21T20:35:53Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -162,13 +162,55 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "0d",
-      "collected_at": "2026-07-21T18:39:40Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T18:39:40Z"
+      "closed_at": "2026-07-21T20:35:53Z"
+    },
+    {
+      "id": "dcc81c9b52042507",
+      "company": "Amazon",
+      "title": "Fall 2026 Annapurna Labs at AWS Internship - US - Machine Learning Systems & Silicon Innovation",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Cupertino, CA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/jobs/10400153/apply",
+      "source": "speedyapply_ai",
+      "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "85d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-21T20:35:53Z"
+    },
+    {
+      "id": "44cd135987b94955",
+      "company": "Palo Alto Networks",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "California",
+      "remote_type": "onsite",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011590?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-21",
+      "age": "19d",
+      "collected_at": "2026-07-21T11:59:22Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-21T20:35:53Z"
     },
     {
       "id": "759afec56ce5ebf9",
