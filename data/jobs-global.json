@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T18:39:40Z",
-  "total": 83,
+  "generated_at": "2026-07-21T20:35:53Z",
+  "total": 82,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -1043,19 +1043,19 @@
       ]
     },
     {
-      "id": "44cd135987b94955",
+      "id": "52701a261180efd0",
       "company": "Palo Alto Networks",
-      "title": "Software Engineer Intern",
+      "title": "Software Engineer Intern 🎓",
       "level": "internship",
       "country": "United States",
       "location": "California",
       "remote_type": "onsite",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011590?utm_source=Simplify&ref=Simplify",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011598?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-07-21",
       "age": "19d",
-      "collected_at": "2026-07-21T11:59:22Z",
+      "collected_at": "2026-07-21T20:35:53Z",
       "tags": [
         "software",
         "programming",
@@ -1575,26 +1575,6 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-07-17",
       "age": "84d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "dcc81c9b52042507",
-      "company": "Amazon",
-      "title": "Fall 2026 Annapurna Labs at AWS Internship - US - Machine Learning Systems & Silicon Innovation",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Cupertino, CA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/jobs/10400153/apply",
-      "source": "speedyapply_ai",
-      "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "85d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
