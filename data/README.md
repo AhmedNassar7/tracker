@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 492 |
+| Jobs | 493 |
 | Hackathons | 54 |
-| Events | 3 |
-| Total | 549 |
+| Events | 8 |
+| Total | 555 |
 
 ## Jobs
 
-[![Jobs 492](https://img.shields.io/badge/Jobs-492-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 54](https://img.shields.io/badge/Internship-54-22c55e.svg)](#internship) [![Early Career 30](https://img.shields.io/badge/Early%20Career-30-0ea5e9.svg)](#early-career) [![Mid-Level and Above 408](https://img.shields.io/badge/Mid--Level%20and%20Above-408-dc2626.svg)](#mid-level-and-above)
+[![Jobs 493](https://img.shields.io/badge/Jobs-493-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 54](https://img.shields.io/badge/Internship-54-22c55e.svg)](#internship) [![Early Career 29](https://img.shields.io/badge/Early%20Career-29-0ea5e9.svg)](#early-career) [![Mid-Level and Above 410](https://img.shields.io/badge/Mid--Level%20and%20Above-410-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -99,7 +99,7 @@ Total roles: 54
 
 ### Early Career
 
-Total roles: 30
+Total roles: 29
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -107,8 +107,8 @@ Total roles: 30
 | Elastic Path | [Junior DevOps Engineer](https://ca.linkedin.com/jobs/view/junior-devops-engineer-at-elastic-path-4421227352) | Remote | 0d |
 | IBM | [Associate Cloud Engineer (September 2026 - Calgary)](https://ca.linkedin.com/jobs/view/associate-cloud-engineer-september-2026-calgary-at-ibm-4433150025) | Calgary, Alberta (Remote) | 0d |
 | IBM | [Junior Software Developer](https://ca.linkedin.com/jobs/view/junior-software-developer-at-ibm-4429414438) | Ottawa, Ontario (Onsite) | 0d |
+| LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://ca.indeed.com/viewjob?jk=1078ede0a1d4e725) | Montréal, QC, CA | 0d |
 | Notion | [Software Engineer – New Grad - AI](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify) | SF | 0d |
-| Priceline.com | [Associate Software Engineer](https://in.indeed.com/viewjob?jk=b75cf58b80f4d5a3) | MH, IN | 0d |
 | Siemens | [Software Developer - New Graduate- 12 Month Contract](https://ca.linkedin.com/jobs/view/software-developer-new-graduate-12-month-contract-at-siemens-4414765886) | Vaughan, Ontario (Hybrid) | 0d |
 | Triunity Software, Inc. | [Jr. Machine Learning Engineer](https://ca.linkedin.com/jobs/view/jr-machine-learning-engineer-at-triunity-software-inc-4435698475) | Vancouver, British Columbia (Onsite) | 0d |
 | Notion | [Software Engineer – New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application?utm_source=Simplify&ref=Simplify) | SF | 4d |
@@ -130,13 +130,12 @@ Total roles: 30
 | Palantir | [Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) | Washington, D.C. | 1mo |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) | Washington, D.C. | 1mo |
 | Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 2mo |
-| ServiceNow | [Associate Software Engineer, Core Infrastructure - Moveworks 🇺🇸](https://jobs.smartrecruiters.com/ServiceNow/2274d8e3-af4a-4935-b065-f65622b5ea3f?utm_source=Simplify&ref=Simplify) | Mountain View, CA | 2mo |
 | Notion | [Software Engineer, New Grad (AI)](https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9) | San Francisco, California | 2mo |
 | Notion | [Software Engineer, New Grad](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555) | San Francisco, California | 2mo |
 
 ### Mid-Level and Above
 
-Total roles: 408
+Total roles: 410
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -151,6 +150,7 @@ Total roles: 408
 | NVIDIA | [Senior System Software Engineer - Halos Core and Robotics Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer----Halos-Core-and-Robotics-Platform_JR2021314) | India, Bengaluru | 0d |
 | NVIDIA | [Senior System Software Engineer — CPU Platform Pre-Silicon Systems Validation Lead](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-System-Software-Engineer---CPU-Platform-Pre-Silicon-Systems-Validation-Lead_JR2021366) | Taiwan, Taipei | 0d |
 | Openai | [Software Engineer, Ads Integrity](https://jobs.ashbyhq.com/openai/596e543a-0ab9-471e-a1ff-40fd55c74fce) | San Francisco | 0d |
+| Openai | [Software Engineer, Compute Foundations Systems](https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64) | San Francisco | 0d |
 | Palo Alto Networks | [Principal Cross-Platform C++ Engineer (Cortex XDR)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Cross-Platform-C---Engineer--Cortex-XDR-_JR-019057) | Office - Israel - Tel Aviv | 0d |
 | Palo Alto Networks | [Principal Site Reliability Engineer (Sovereign Cloud)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office--Bulgaria---CyberArk-Sofia/Principal-Site-Reliability-Engineer_JR-018300) | Office -Bulgaria - CyberArk Sofia | 0d |
 | Palo Alto Networks | [Principal Site Reliability Engineer (Sovereign Cloud)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office--Bulgaria---CyberArk-Sofia/Principal-Site-Reliability-Engineer_JR-018310) | Office -Bulgaria - CyberArk Sofia | 0d |
@@ -187,7 +187,6 @@ Total roles: 408
 | NVIDIA | [Principal Software Engineer, At-Scale Reliability and Fleet Intelligence — CSP Engagements](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--At-Scale-Reliability-and-Fleet-Intelligence---CSP-Engagements_JR2020320) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Principal Software Engineer, E2E Performance and Goodput — CSP Engagements](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--E2E-Performance-and-Goodput---CSP-Engagements_JR2020321) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>OR<br>Remote, US<br>CA<br>Remote</details> | 1d |
 | NVIDIA | [Principal Software Engineer, Rack-Scale System Software — CSP Engagements](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>OR<br>Remote, US<br>CA<br>Remote</details> | 1d |
-| NVIDIA | [Senior Director, Enterprise Software Engineering and AI Platforms](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Director--Enterprise-Software-Engineering-and-AI-Platforms_JR2021430) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Firmware Engineer - Development, Verification and Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Firmware-Engineer_JR2007787) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Frontend Engineer, NVIDIA Marketplace](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Frontend-Engineer--NVIDIA-Marketplace_JR2021196) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Manager, Systems Software Engineering - GeForce NOW Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Systems-Software-Engineering---GeForce-NOW-Cloud_JR2014496) | US, CA, Santa Clara | 1d |
@@ -546,6 +545,8 @@ Total roles: 408
 | Openai | [Software Engineer, Platform Systems](https://jobs.ashbyhq.com/openai/4349f80b-3518-4e4d-b9eb-3e5e9b490cc7) | London, UK | 5mo |
 | Openai | [Software Engineer, Research - Human Data](https://jobs.ashbyhq.com/openai/4d6a5951-9838-434c-830a-22cb938ea228) | San Francisco | 5mo |
 | Amazon Web Services, Inc. | [Data Engineer II, GTPC Tech, Complian...](https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security) | New York, NY | recently |
+| JPMorgan Chase | [Software Engineer II (Java/FullStack/...](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210723025) | Westerville, OH, ... | recently |
+| JPMorgan Chase | [Software Engineer II (Java/Fullstack/...](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210725729) | OH, United States | recently |
 | Microsoft | [Software Engineer II - CTJ - Poly](https://apply.careers.microsoft.com/careers/job/1970393556938788) | Reston, Virginia,... | recently |
 | Sony Interactive Entertainment | [Platform Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6121289004) | CA | recently |
 
@@ -555,7 +556,6 @@ Total hackathons: 54
 
 | Organizer | Hackathon |
 |---|---|
-| AceSAT | [AceSAT Education AI-Agent](https://acesat-ai-agent.devpost.com/) |
 | ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
 | ACTS EDC | [Brainwave 2026 – X402 Blockchain Track](https://brainwave-2026.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
@@ -598,6 +598,7 @@ Total hackathons: 54
 | shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
 | snap2measure | [Measure up](https://measureme-up.devpost.com/) |
 | STEMise | [DSH Pitch](https://dsh-pitch-30500.devpost.com/) |
+| Student Organization | [COMPSPHERE 11](https://compsphere-11.devpost.com/) |
 | Student Organization | [Shibainu Hacks](https://shibainu-hacks.devpost.com/) |
 | Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
 | TechElevate | [Sound for All](https://sound-for-all.devpost.com/) |
@@ -612,13 +613,18 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 3
+Total events: 8
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
+| Luma | [Follow YC](https://lu.ma/ycss?k=c) |
 
 ## Source Files
 

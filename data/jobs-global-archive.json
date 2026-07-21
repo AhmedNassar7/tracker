@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T16:40:40Z",
-  "total": 60,
+  "generated_at": "2026-07-21T18:39:40Z",
+  "total": 62,
   "jobs": [
     {
       "id": "59b4f1aff1a389af",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "5d",
-      "collected_at": "2026-07-21T16:40:40Z",
+      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T16:40:40Z"
+      "closed_at": "2026-07-21T18:39:40Z"
     },
     {
       "id": "fde4c0df19b9097c",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "5d",
-      "collected_at": "2026-07-21T16:40:40Z",
+      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T16:40:40Z"
+      "closed_at": "2026-07-21T18:39:40Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "4d",
-      "collected_at": "2026-07-21T16:40:40Z",
+      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T16:40:40Z"
+      "closed_at": "2026-07-21T18:39:40Z"
     },
     {
       "id": "12ba43e52a579e87",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "5d",
-      "collected_at": "2026-07-21T16:40:40Z",
+      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T16:40:40Z"
+      "closed_at": "2026-07-21T18:39:40Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "1d",
-      "collected_at": "2026-07-21T16:40:40Z",
+      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T16:40:40Z"
+      "closed_at": "2026-07-21T18:39:40Z"
     },
     {
       "id": "d76a868df556107a",
@@ -120,13 +120,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "1d",
-      "collected_at": "2026-07-21T16:40:40Z",
+      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T16:40:40Z"
+      "closed_at": "2026-07-21T18:39:40Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -141,13 +141,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "0d",
-      "collected_at": "2026-07-21T16:40:40Z",
+      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T16:40:40Z"
+      "closed_at": "2026-07-21T18:39:40Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -162,13 +162,55 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "0d",
-      "collected_at": "2026-07-21T16:40:40Z",
+      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T16:40:40Z"
+      "closed_at": "2026-07-21T18:39:40Z"
+    },
+    {
+      "id": "759afec56ce5ebf9",
+      "company": "Priceline.com",
+      "title": "Associate Software Engineer",
+      "level": "entry_level",
+      "country": "Unknown",
+      "location": "MH, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=b75cf58b80f4d5a3",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-21",
+      "age": "0d",
+      "collected_at": "2026-07-21T14:20:30Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-21T18:39:40Z"
+    },
+    {
+      "id": "9d4da7ab66a34571",
+      "company": "ServiceNow",
+      "title": "Associate Software Engineer, Core Infrastructure - Moveworks 🇺🇸",
+      "level": "entry_level",
+      "country": "Unknown",
+      "location": "Mountain View, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/2274d8e3-af4a-4935-b065-f65622b5ea3f?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-17",
+      "age": "2mo",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-21T18:39:40Z"
     },
     {
       "id": "e45bb16a9d62c7df",

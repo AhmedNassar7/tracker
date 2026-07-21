@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T16:40:40Z",
-  "total": 82,
+  "generated_at": "2026-07-21T18:39:40Z",
+  "total": 83,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -143,6 +143,66 @@
       ]
     },
     {
+      "id": "55776a9947ed6270",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II (Java/FullStack/...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Westerville, OH, ...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210723025",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-21",
+      "age": "Recently",
+      "collected_at": "2026-07-21T18:39:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "173a399c9f0cd9ab",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II (Java/Fullstack/...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "OH, United States",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210725729",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-21",
+      "age": "Recently",
+      "collected_at": "2026-07-21T18:39:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "414b3e13b36e80a4",
+      "company": "LGS, an IBM Company",
+      "title": "Junior to Intermediate Data Engineer",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "Montréal, QC, CA",
+      "remote_type": "onsite",
+      "url": "https://ca.indeed.com/viewjob?jk=1078ede0a1d4e725",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-21",
+      "age": "0d",
+      "collected_at": "2026-07-21T18:39:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "03c585276290ce47",
       "company": "Microsoft",
       "title": "Software Engineer II - CTJ - Poly",
@@ -156,26 +216,6 @@
       "posted_at": "2026-07-21",
       "age": "Recently",
       "collected_at": "2026-07-21T03:43:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "759afec56ce5ebf9",
-      "company": "Priceline.com",
-      "title": "Associate Software Engineer",
-      "level": "entry_level",
-      "country": "Unknown",
-      "location": "MH, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=b75cf58b80f4d5a3",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-21",
-      "age": "0d",
-      "collected_at": "2026-07-21T14:20:30Z",
       "tags": [
         "software",
         "programming",
@@ -1476,26 +1516,6 @@
       "posted_at": "2026-04-28",
       "age": "0d",
       "collected_at": "2026-04-28T11:33:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "9d4da7ab66a34571",
-      "company": "ServiceNow",
-      "title": "Associate Software Engineer, Core Infrastructure - Moveworks 🇺🇸",
-      "level": "entry_level",
-      "country": "Unknown",
-      "location": "Mountain View, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/2274d8e3-af4a-4935-b065-f65622b5ea3f?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-17",
-      "age": "2mo",
-      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
