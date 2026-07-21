@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T22:11:59Z",
-  "total": 65,
+  "generated_at": "2026-07-21T23:12:05Z",
+  "total": 67,
   "jobs": [
     {
       "id": "59b4f1aff1a389af",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "5d",
-      "collected_at": "2026-07-21T22:11:59Z",
+      "collected_at": "2026-07-21T23:12:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T22:11:59Z"
+      "closed_at": "2026-07-21T23:12:05Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "4d",
-      "collected_at": "2026-07-21T22:11:59Z",
+      "collected_at": "2026-07-21T23:12:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T22:11:59Z"
+      "closed_at": "2026-07-21T23:12:05Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "1d",
-      "collected_at": "2026-07-21T22:11:59Z",
+      "collected_at": "2026-07-21T23:12:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T22:11:59Z"
+      "closed_at": "2026-07-21T23:12:05Z"
     },
     {
       "id": "d76a868df556107a",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "1d",
-      "collected_at": "2026-07-21T22:11:59Z",
+      "collected_at": "2026-07-21T23:12:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T22:11:59Z"
+      "closed_at": "2026-07-21T23:12:05Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "0d",
-      "collected_at": "2026-07-21T22:11:59Z",
+      "collected_at": "2026-07-21T23:12:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T22:11:59Z"
+      "closed_at": "2026-07-21T23:12:05Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -120,13 +120,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "0d",
-      "collected_at": "2026-07-21T22:11:59Z",
+      "collected_at": "2026-07-21T23:12:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T22:11:59Z"
+      "closed_at": "2026-07-21T23:12:05Z"
     },
     {
       "id": "dcc81c9b52042507",
@@ -141,13 +141,76 @@
       "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
       "posted_at": "2026-07-21",
       "age": "89d",
+      "collected_at": "2026-07-21T23:12:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-21T23:12:05Z"
+    },
+    {
+      "id": "7f1d0f063b2e6217",
+      "company": "Microsoft",
+      "title": "Software Engineer II - Finance Data &...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556937301",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-21",
+      "age": "Recently",
       "collected_at": "2026-07-21T22:11:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T22:11:59Z"
+      "closed_at": "2026-07-21T23:12:05Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-21",
+      "age": "22d",
+      "collected_at": "2026-07-21T16:40:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-21T23:12:05Z"
+    },
+    {
+      "id": "de8c1b8d6d3c7d5c",
+      "company": "Notion",
+      "title": "Software Engineer – New Grad - AI",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/7e6dc7fe-7ddd-42c1-8928-13f7bddb9ec9/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-04-28",
+      "age": "0d",
+      "collected_at": "2026-04-28T11:33:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-21T23:12:05Z"
     },
     {
       "id": "979e29bf5b7e0276",
@@ -919,27 +982,6 @@
       "posted_at": "2026-07-17",
       "age": "15d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T08:58:03Z"
-    },
-    {
-      "id": "172c7369e682e281",
-      "company": "NVIDIA",
-      "title": "Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Seattle, WA Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-18",
-      "age": "1d",
-      "collected_at": "2026-07-18T03:30:28Z",
       "tags": [
         "software",
         "programming",
