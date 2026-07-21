@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T06:40:51Z",
-  "total": 78,
+  "generated_at": "2026-07-21T09:39:08Z",
+  "total": 77,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -1156,26 +1156,6 @@
       "posted_at": "2026-07-17",
       "age": "1mo",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5885aefa9d6428ef",
-      "company": "Intel",
-      "title": "AI Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Phoenix, AZ",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-18",
-      "age": "1mo",
-      "collected_at": "2026-07-18T12:03:56Z",
       "tags": [
         "software",
         "programming",
