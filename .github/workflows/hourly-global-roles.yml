@@ -94,8 +94,8 @@ jobs:
           delete-branch: true
           labels: automated
 
-      - name: Auto-merge PR
+      - name: Merge PR
         if: steps.cpr.outputs.pull-request-number != ''
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --auto --delete-branch
+        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch
