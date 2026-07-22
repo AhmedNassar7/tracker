@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T09:38:14Z",
-  "total": 67,
+  "generated_at": "2026-07-22T12:03:16Z",
+  "total": 69,
   "jobs": [
     {
       "id": "59b4f1aff1a389af",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
       "age": "6d",
-      "collected_at": "2026-07-22T09:38:14Z",
+      "collected_at": "2026-07-22T12:03:16Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T09:38:14Z"
+      "closed_at": "2026-07-22T12:03:16Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "5d",
-      "collected_at": "2026-07-22T09:38:14Z",
+      "collected_at": "2026-07-22T12:03:16Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T09:38:14Z"
+      "closed_at": "2026-07-22T12:03:16Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "2d",
-      "collected_at": "2026-07-22T09:38:14Z",
+      "collected_at": "2026-07-22T12:03:16Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T09:38:14Z"
+      "closed_at": "2026-07-22T12:03:16Z"
     },
     {
       "id": "d76a868df556107a",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "2d",
-      "collected_at": "2026-07-22T09:38:14Z",
+      "collected_at": "2026-07-22T12:03:16Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T09:38:14Z"
+      "closed_at": "2026-07-22T12:03:16Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "1d",
-      "collected_at": "2026-07-22T09:38:14Z",
+      "collected_at": "2026-07-22T12:03:16Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T09:38:14Z"
+      "closed_at": "2026-07-22T12:03:16Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -120,13 +120,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "1d",
-      "collected_at": "2026-07-22T09:38:14Z",
+      "collected_at": "2026-07-22T12:03:16Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T09:38:14Z"
+      "closed_at": "2026-07-22T12:03:16Z"
     },
     {
       "id": "dcc81c9b52042507",
@@ -141,34 +141,76 @@
       "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
       "posted_at": "2026-07-22",
       "age": "89d",
+      "collected_at": "2026-07-22T12:03:16Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T12:03:16Z"
+    },
+    {
+      "id": "0125c43b3f1d1719",
+      "company": "Amazon.com",
+      "title": "Embedded Software Dev Engineer II, Amazon Leo for Government - Leo Modem Module Software Team",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Redmond, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=322bcf903bfd5006",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-09",
+      "age": "13d",
       "collected_at": "2026-07-22T09:38:14Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T09:38:14Z"
+      "closed_at": "2026-07-22T12:03:16Z"
     },
     {
-      "id": "5885aefa9d6428ef",
-      "company": "Intel",
-      "title": "AI Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Phoenix, AZ",
+      "id": "75c3d28326f259ee",
+      "company": "Amazon.com",
+      "title": "Embedded Software Dev Engineer II, Amazon Leo for Government - Leo Modem Module Software Team",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Northridge, CA, US",
       "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-22",
-      "age": "1mo",
-      "collected_at": "2026-07-22T03:44:53Z",
+      "url": "https://www.indeed.com/viewjob?jk=37c172121730f26c",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-09",
+      "age": "13d",
+      "collected_at": "2026-07-22T09:38:14Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T09:38:14Z"
+      "closed_at": "2026-07-22T12:03:16Z"
+    },
+    {
+      "id": "501f1f58ce62d501",
+      "company": "Amazon.com",
+      "title": "Embedded Software Dev Engineer II, Amazon Leo for Government - Leo Modem Module Software Team",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Arlington, VA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=79c9d3cbb00f6247",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-09",
+      "age": "13d",
+      "collected_at": "2026-07-22T09:38:14Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T12:03:16Z"
     },
     {
       "id": "e0a08d115d5c7f8c",
