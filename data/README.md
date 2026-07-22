@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 502 |
+| Jobs | 501 |
 | Hackathons | 54 |
-| Events | 3 |
-| Total | 559 |
+| Events | 8 |
+| Total | 563 |
 
 ## Jobs
 
-[![Jobs 502](https://img.shields.io/badge/Jobs-502-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 56](https://img.shields.io/badge/Internship-56-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 420](https://img.shields.io/badge/Mid--Level%20and%20Above-420-dc2626.svg)](#mid-level-and-above)
+[![Jobs 501](https://img.shields.io/badge/Jobs-501-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 56](https://img.shields.io/badge/Internship-56-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 419](https://img.shields.io/badge/Mid--Level%20and%20Above-419-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -134,7 +134,7 @@ Total roles: 26
 
 ### Mid-Level and Above
 
-Total roles: 420
+Total roles: 419
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -145,12 +145,19 @@ Total roles: 420
 | NVIDIA | [Senior Software Engineer - Networking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer---RDMA-and-Doca_JR2015006) | China, Shanghai | 0d |
 | NVIDIA | [Senior Software Engineer, Profiling Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Engineer--Profiling-Services_JR2014709) | Israel, Tel Aviv | 0d |
 | NVIDIA | [Senior System Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR2021723) | <details><summary>3 locations</summary>India<br>Pune<br>India<br>Hyderabad<br>India<br>Bengaluru</details> | 0d |
+| NVIDIA | [Senior System Software Engineer - Autonomous Vehicles](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Autonomous-Vehicles_JR2012685) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior System Software Engineer Platform - OpenBMC](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer-Platform---OpenBMC_JR1999525) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
+| NVIDIA | [Software Engineer, GPU Design Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--GPU-Design-Automation_JR2017504) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>OR<br>Hillsboro, US<br>OR<br>Remote, US<br>Remote, US<br>CA<br>Remote</details> | 0d |
+| NVIDIA | [Software Engineer, GPU Performance Tools](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--GPU-Performance-Tools_JR2017424) | <details><summary>3 locations</summary>US, CA<br>Santa Clara, US<br>OR<br>Hillsboro, US<br>Remote</details> | 0d |
 | NVIDIA | [System Software Engineer - GPU Profiling](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/System-Software-Engineer---GPU-Profiling_JR2020625) | <details><summary>2 locations</summary>India<br>Pune<br>India<br>Bengaluru</details> | 0d |
+| Openai | [Simulation Infrastructure Engineer](https://jobs.ashbyhq.com/openai/39cd0dd8-520d-4932-80bf-7495a1d1d11b) | San Francisco | 0d |
 | Openai | [Tax Director - Infrastructure & Incentives](https://jobs.ashbyhq.com/openai/11a78901-33d6-4c49-8750-25286038aafa) | San Francisco | 0d |
 | Palo Alto Networks | [Manager, Software Engineering (Cortex Platform)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Manager--Software-Engineering--Cortex-Platform-_JR-020357) | Office - USA - CA - Headquarters | 0d |
+| Palo Alto Networks | [Principal Engineer Software- Backend (Prisma Browser)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Principal-Engineer-Software--Backend--Prisma-Browser-_JR-018343) | Office - USA - CA - Headquarters | 0d |
 | Palo Alto Networks | [Principal Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Site-Reliability-Engineer_JR-020124) | Office - USA - CA - Headquarters | 0d |
 | Palo Alto Networks | [Principal Site Reliability Engineer ( U.S Citizenship required )](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Site-Reliability-Engineer_JR-015876) | Office - USA - CA - Headquarters | 0d |
+| Palo Alto Networks | [Principal Software Engineer (C++-low level-Prisma Browser)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/XMLNAME--Sr-Principal-Software-Engineer--Prisma-Browser-_JR-018344) | Office - USA - CA - Headquarters | 0d |
+| Palo Alto Networks | [Principal Software Engineer (Prisma Access)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer--Prisma-Access-_JR-019041) | Office - USA - CA - Headquarters | 0d |
 | Palo Alto Networks | [Principal Software Engineer (Secure Agentic AI) - Petach Tikva \ Be'er Sheva](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Principal-Software-Engineer--Secure-Agentic-AI----Petach-Tikva---Be-er-Sheva_JR-018160) | Office - Israel - CyberArk Petach Tikva | 0d |
 | Palo Alto Networks | [Senior Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office--Bulgaria---CyberArk-Sofia/Sr-Staff-Site-Reliability-Engineer_JR-019260) | Office -Bulgaria - CyberArk Sofia | 0d |
 | Palo Alto Networks | [Senior Software Engineer (Secure Agentic AI - Be'er Sheva)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Beer-Sheva/Senior-Software-Engineer--Secure-Agentic-AI---Be-er-Sheva-_JR-018039) | Office - Israel - CyberArk Be'er Sheva | 0d |
@@ -161,6 +168,7 @@ Total roles: 420
 | Palo Alto Networks | [Senior Staff Software Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Senior-Software-Developer_JR-018029) | Office - India - CyberArk Hyderabad | 0d |
 | Palo Alto Networks | [Senior Staff Software Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Senior-Software-Engineer_JR-018017) | Office - India - CyberArk Hyderabad | 0d |
 | Palo Alto Networks | [Senior Staff Software Engineer (EPM)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Senior-Staff-Software-Engineer--EPM-_JR-018152) | Office - Israel - CyberArk Petach Tikva | 0d |
+| Palo Alto Networks | [Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Site-Reliability-Engineer_JR-019651) | Office - India - CyberArk Hyderabad | 0d |
 | Palo Alto Networks | [Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Site-Reliability-Engineer_JR-020196) | Office - India - CyberArk Hyderabad | 0d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 0d |
@@ -189,19 +197,14 @@ Total roles: 420
 | NVIDIA | [Senior Software Engineer, CUDA Python Core Libraries](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--CUDA-Core-Libraries_JR2021172) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
 | NVIDIA | [Senior Software Engineer, Networking Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Networking-Software_JR1998106) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Remote, US<br>WA<br>Remote, US<br>CA<br>Remote</details> | 1d |
 | NVIDIA | [Senior System Software Engineer - Halos Core and Robotics Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer----Halos-Core-and-Robotics-Platform_JR2021341) | US, CA, Santa Clara | 1d |
-| NVIDIA | [Senior System Software Engineer - Halos Core and Robotics Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer---Halos-Core-and-Robotics-Platform_JR2021368) | <details><summary>3 locations</summary>India<br>Bengaluru<br>India<br>Hyderabad<br>India<br>Pune</details> | 1d |
 | NVIDIA | [Senior System Software Engineer, Interactive World Models](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Interactive-World-Models_JR2021612) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Systems Software Engineer – Wireless](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Wireless_JR2021459) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 1d |
 | Openai | [Product Engineer, Enterprise AI Platform](https://jobs.ashbyhq.com/openai/aeeabb7a-f6e0-4e8d-a9ad-ae3464288125) | San Francisco | 1d |
 | Openai | [Software Engineer, Ads Integrity](https://jobs.ashbyhq.com/openai/596e543a-0ab9-471e-a1ff-40fd55c74fce) | San Francisco | 1d |
 | Openai | [Software Engineer, Compute Foundations Systems](https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64) | San Francisco | 1d |
-| Palo Alto Networks | [Principal Cross-Platform C++ Engineer (Cortex XDR)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Cross-Platform-C---Engineer--Cortex-XDR-_JR-019057) | Office - Israel - Tel Aviv | 1d |
-| Palo Alto Networks | [Principal Site Reliability Engineer (Sovereign Cloud)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office--Bulgaria---CyberArk-Sofia/Principal-Site-Reliability-Engineer_JR-018300) | Office -Bulgaria - CyberArk Sofia | 1d |
-| Palo Alto Networks | [Principal Site Reliability Engineer (Sovereign Cloud)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office--Bulgaria---CyberArk-Sofia/Principal-Site-Reliability-Engineer_JR-018310) | Office -Bulgaria - CyberArk Sofia | 1d |
 | Palo Alto Networks | [Principal Software Engineer (Cloud Management)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer--Cloud-Management-_JR-020186) | Office - USA - CA - Headquarters | 1d |
 | Palo Alto Networks | [Principal/Senior Principal Software Engineer Data Platform ( Cortex)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Senior-Principal-Software-Engineer-Data-Platform---Cortex-_JR-018776) | Office - Israel - Tel Aviv | 1d |
 | Palo Alto Networks | [Senior/ Principal Software Development Engineer   Cortex Detection team (Backend)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Software-Development-Engineer---Cortex-Detection-team--Backend-_JR-016462) | Office - Israel - Tel Aviv | 1d |
-| Palo Alto Networks | [Senior/Principal SRE Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Senior-Principal-SRE-Engineer_JR-019542) | Office - Israel - Tel Aviv | 1d |
 | Palo Alto Networks | [Sr Principal Site Reliability Engineer (Sovereign Cloud)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office--Bulgaria---CyberArk-Sofia/Sr-Principal-Site-Reliability-Engineer_JR-018302-1) | Office -Bulgaria - CyberArk Sofia | 1d |
 | Sony Interactive Entertainment | [Platform Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6121289004) | United States, Aliso Viejo, CA | 1d |
 | Sony Interactive Entertainment | [Sr Software Engineer (Audio)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6122115004) | United States, San Mateo, CA | 1d |
@@ -212,11 +215,7 @@ Total roles: 420
 | Wise | [Software Engineer - Payin Platform](https://jobs.smartrecruiters.com/Wise/744000138840349) | Tallinn, Estonia | 1d |
 | Cloudflare | [Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) | Hybrid | 2d |
 | Notion | [Software Engineer, Infrastructure](https://jobs.ashbyhq.com/notion/42f18ccd-c4c8-4a85-8c1f-de12c575fe87) | Hyderabad, India | 2d |
-| NVIDIA | [Compiler Engineer, Infrastructure - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compiler-Engineer--Infrastructure----New-College-Grad-2026_JR2021228) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>TX<br>Remote, US<br>WA<br>Remote, US<br>CA<br>Remote, US<br>WA<br>Redmond</details> | 2d |
-| NVIDIA | [Principal Software Engineer, E2E Performance and Goodput — CSP Engagements](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--E2E-Performance-and-Goodput---CSP-Engagements_JR2020321) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>OR<br>Remote, US<br>CA<br>Remote</details> | 2d |
-| NVIDIA | [Principal Software Engineer, Rack-Scale System Software — CSP Engagements](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>OR<br>Remote, US<br>CA<br>Remote</details> | 2d |
 | NVIDIA | [Senior Software Engineer, Fabric Networking - GPU](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Fabric-Networking---GPU_JR2015216) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>IL<br>Remote, US<br>CO<br>Remote, US<br>AZ<br>Remote, US<br>CA<br>Remote, US<br>MA<br>Remote</details> | 2d |
-| NVIDIA | [Senior Systems Software Engineer - Fleet Debuggability](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Fleet-Debuggability_JR2021461) | US, CA, Santa Clara | 2d |
 | Openai | [Software Engineer, Ads Conversion Measurement](https://jobs.ashbyhq.com/openai/1b86ec8e-fe34-452d-bbff-6619579e7385) | San Francisco | 2d |
 | Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138593452) | London, United Kingdom | 2d |
 | ZoomInfo | [Software Engineer II - SAP ABAP FIORI](https://www.zoominfo.com/careers?gh_jid=8555306002) | Bengaluru, Karnataka, India | 3d |
@@ -291,10 +290,10 @@ Total roles: 420
 | Sony Interactive Entertainment | [Principal Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5728848004) | Ireland, Dublin | 13d |
 | Sony Interactive Entertainment | [Senior Graphics Programmer, Mobile (iOS/Android)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5849862004) | United States, San Diego, CA | 13d |
 | Sony Interactive Entertainment | [Senior Platform Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6001345004) | Germany, Berlin | 13d |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004) | United Kingdom, London | 13d |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004) | United States, San Mateo, CA | 13d |
 | Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004) | United Kingdom, Liverpool | 13d |
 | Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004) | United States, San Mateo, CA | 13d |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004) | United States, San Mateo, CA | 13d |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004) | United Kingdom, London | 13d |
 | Sony Interactive Entertainment | [Senior Software Engineer (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004) | United States, San Diego, CA | 13d |
 | Sony Interactive Entertainment | [Senior Software Engineer (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004) | United States, Los Angeles, CA | 13d |
 | Sony Interactive Entertainment | [Senior Software Engineer (Platform Data Reliability & Automation)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6030609004) | United States, San Diego, CA | 13d |
@@ -302,28 +301,27 @@ Total roles: 420
 | Sony Interactive Entertainment | [Senior Software Engineer - Rendering API](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5837061004) | United Kingdom, London | 13d |
 | Sony Interactive Entertainment | [Senior Software Engineer SDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5842559004) | United States, San Mateo, CA | 13d |
 | Sony Interactive Entertainment | [Senior Software Engineer, Audio Validation Systems](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6006523004) | United Kingdom, London | 13d |
-| Sony Interactive Entertainment | [Senior Storage Platform Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5808685004) | United States, Austin, TX | 13d |
 | Sony Interactive Entertainment | [Senior Storage Platform Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5803140004) | United States, Aliso Viejo, CA | 13d |
+| Sony Interactive Entertainment | [Senior Storage Platform Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5808685004) | United States, Austin, TX | 13d |
 | Sony Interactive Entertainment | [Site Reliability Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5976696004) | Germany, Berlin | 13d |
 | Sony Interactive Entertainment | [Site Reliability Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5843870004) | United States, Aliso Viejo, CA | 13d |
 | Sony Interactive Entertainment | [Software Engineer - C#/Windows](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5969132004) | United Kingdom, London | 13d |
 | Sony Interactive Entertainment | [Software Engineer - Frontend/Full Stack](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5822183004) | Ireland, Dublin | 13d |
 | Sony Interactive Entertainment | [Software Engineer I](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5840958004) | United States, Los Angeles, CA | 13d |
 | Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5995645004) | United States, San Diego, CA | 13d |
-| Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004) | United States, San Mateo, CA | 13d |
 | Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101023004) | United States, San Mateo, CA | 13d |
+| Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004) | United States, San Mateo, CA | 13d |
 | Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6110560004) | United States, Los Angeles, CA | 13d |
 | Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004) | United States, San Mateo, CA | 13d |
 | Sony Interactive Entertainment | [Software Engineer II (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5712558004) | United States, Los Angeles, CA | 13d |
 | Sony Interactive Entertainment | [Software Engineer II (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5712556004) | United States, San Diego, CA | 13d |
-| Sony Interactive Entertainment | [Sr DevOps Engineer (Contract)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5799683004) | United States, Los Angeles, CA | 13d |
 | Sony Interactive Entertainment | [Sr Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5996147004) | United States, San Mateo, CA | 13d |
 | Sony Interactive Entertainment | [Sr. Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101013004) | United States, San Mateo, CA | 13d |
 | Sony Interactive Entertainment | [Sr. Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101710004) | United States, San Mateo, CA | 13d |
 | Sony Interactive Entertainment | [Sr. Software Engineer in Test](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101052004) | United States, San Diego, CA | 13d |
 | Sony Interactive Entertainment | [Staff Software Engineer - AI Tools](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5655306004) | United Kingdom, Remote | 13d |
-| Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004) | United States, Remote | 13d |
 | Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004) | United States, Aliso Viejo, CA | 13d |
+| Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004) | United States, Remote | 13d |
 | Cloudflare | [Threat Intelligence Software Engineer, Cloudforce One](https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174) | Hybrid | 14d |
 | Openai | [Software Engineer, Codex Cyber](https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1) | San Francisco | 15d |
 | Cloudflare | [Full Stack Engineer - Internal Audit](https://boards.greenhouse.io/cloudflare/jobs/8014902?gh_jid=8014902) | Hybrid | 16d |
@@ -557,6 +555,7 @@ Total roles: 420
 | Amazon Web Services, Inc. | [Data Engineer II, GTPC Tech, Complian...](https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security) | New York, NY | recently |
 | Amazon.com Services LLC | [Data Engineer II, AMZL-Central Learni...](https://www.amazon.jobs/en/jobs/10481342/data-engineer-ii-amzl-central-learning-solutions-data-engineering-team) | Bellevue, WA | recently |
 | Amazon.com Services LLC | [Security Engineer II, Security Incide...](https://www.amazon.jobs/en/jobs/10481118/security-engineer-ii-security-incident-response-team-sirt) | Seattle, WA | recently |
+| Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556870502) | Redmond, Washingt... | recently |
 | Sony Interactive Entertainment | [Platform Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6121289004) | CA | recently |
 
 ## Hackathons
@@ -576,6 +575,7 @@ Total hackathons: 54
 | BuildBeyond | [Build Beyond Hackathon](https://build-beyond-hackathon.devpost.com/) |
 | BuildBeyond | [IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities](https://igad-husika-hackathon.devpost.com/) |
 | CAHSI at FIU | [305 SummerCodex Edition July 2026](https://305summercodexjul2026.devpost.com/) |
+| Celesta | [India High School Exoplanet Data Challenge](https://celesta-exoplanet-challenge.devpost.com/) |
 | Cloud Counselage | [DTI Hackathon 2026](https://dti-hackathon-2026-30476.devpost.com/) |
 | Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
 | contact@orionglobalhackathon.com | [OrionHackathon](https://orionhackathon.devpost.com/) |
@@ -584,7 +584,6 @@ Total hackathons: 54
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
 | Girls In Stem MENA&Central Asia | [Girls In STEM Global Hackathon](https://girlsinstemhackathon.devpost.com/) |
 | global-tech-challenge | [Global Tech Innovation Challenge](https://global-tech-challenge.devpost.com/) |
-| H & P PROJECTS | [HackVerse](https://hackverse-30753.devpost.com/) |
 | HackFinity | [Code Carnage](https://code-carnage.devpost.com/) |
 | hacktheconcretejungle | [HTCJ Aviation Futures Innovation Challenge](https://htcj-aviation-futures.devpost.com/) |
 | HackTheLimit | [Hack The Limit](https://hack-the-limit-1.devpost.com/) |
@@ -622,13 +621,18 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 3
+Total events: 8
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
+| Luma | [Follow YC](https://lu.ma/ycss?k=c) |
 
 ## Source Files
 
