@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T20:21:23Z",
-  "total": 87,
+  "generated_at": "2026-07-22T22:15:36Z",
+  "total": 86,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -103,26 +103,6 @@
       ]
     },
     {
-      "id": "8a32d8c56dfd9a12",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern (Glo...",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, Washington",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7535953226975054098",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-19",
-      "age": "Recently",
-      "collected_at": "2026-07-19T21:06:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "271a4ea4a9d69e55",
       "company": "ByteDance",
       "title": "Machine Learning Engineer Intern (Glo...",
@@ -136,6 +116,26 @@
       "posted_at": "2026-07-21",
       "age": "Recently",
       "collected_at": "2026-07-21T22:11:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8a32d8c56dfd9a12",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern (Glo...",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7535953226975054098",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-19",
+      "age": "Recently",
+      "collected_at": "2026-07-19T21:06:40Z",
       "tags": [
         "software",
         "programming",
@@ -256,26 +256,6 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T16:44:07Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b737e904b3c9a646",
-      "company": "Microsoft",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Redmond, Washingt...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556870502",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-22",
-      "age": "Recently",
-      "collected_at": "2026-07-22T18:21:08Z",
       "tags": [
         "software",
         "programming",

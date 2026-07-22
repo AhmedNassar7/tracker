@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T20:21:23Z",
-  "total": 74,
+  "generated_at": "2026-07-22T22:15:36Z",
+  "total": 76,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "5d",
-      "collected_at": "2026-07-22T20:21:23Z",
+      "collected_at": "2026-07-22T22:15:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T20:21:23Z"
+      "closed_at": "2026-07-22T22:15:36Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "2d",
-      "collected_at": "2026-07-22T20:21:23Z",
+      "collected_at": "2026-07-22T22:15:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T20:21:23Z"
+      "closed_at": "2026-07-22T22:15:36Z"
     },
     {
       "id": "d76a868df556107a",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "2d",
-      "collected_at": "2026-07-22T20:21:23Z",
+      "collected_at": "2026-07-22T22:15:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T20:21:23Z"
+      "closed_at": "2026-07-22T22:15:36Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "1d",
-      "collected_at": "2026-07-22T20:21:23Z",
+      "collected_at": "2026-07-22T22:15:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T20:21:23Z"
+      "closed_at": "2026-07-22T22:15:36Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "1d",
-      "collected_at": "2026-07-22T20:21:23Z",
+      "collected_at": "2026-07-22T22:15:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T20:21:23Z"
+      "closed_at": "2026-07-22T22:15:36Z"
     },
     {
       "id": "dcc81c9b52042507",
@@ -120,13 +120,55 @@
       "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
       "posted_at": "2026-07-22",
       "age": "90d",
-      "collected_at": "2026-07-22T20:21:23Z",
+      "collected_at": "2026-07-22T22:15:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T20:21:23Z"
+      "closed_at": "2026-07-22T22:15:36Z"
+    },
+    {
+      "id": "a014bb964bd683bb",
+      "company": "PayPal",
+      "title": "Software Engineer 2",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Scottsdale, Arizona, United States of America",
+      "remote_type": "onsite",
+      "url": "https://paypal.wd1.myworkdayjobs.com/job/Scottsdale-Arizona-United-States-of-America/Software-Engineer-2_R0137112",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-22",
+      "age": "0d",
+      "collected_at": "2026-07-22T22:15:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T22:15:36Z"
+    },
+    {
+      "id": "b737e904b3c9a646",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556870502",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T18:21:08Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T22:15:36Z"
     },
     {
       "id": "500685113392f7cf",

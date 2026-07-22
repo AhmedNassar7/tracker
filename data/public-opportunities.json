@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T20:22:22Z",
-  "total": 672,
+  "generated_at": "2026-07-22T22:16:25Z",
+  "total": 677,
   "jobs": [
     {
       "id": "bd902e8f6a2e3a87",
@@ -101,16 +101,44 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "16fcea8e7606f9f0",
+      "id": "934ec89a1d23fae4",
       "kind": "job",
       "company": "NVIDIA",
-      "title": "Senior Software Engineer - Networking",
-      "location": "China, Shanghai",
+      "title": "Senior Networking Software Engineer",
+      "location": "US, CA, Santa Clara",
       "level": "other",
       "role_type": "software_engineer",
       "date": "0d",
       "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer---RDMA-and-Doca_JR2015006",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Software-Engineer_JR2015068",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "04e854a4013ee540",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, DOCA SDK",
+      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Raanana<br>Israel, Yokneam</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Software-Engineer--DOCA-SDK_JR2021322",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "cb995c8c129fdc50",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, DOCA Verification",
+      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Yokneam<br>Israel, Tel Aviv</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--DOCA-Verification_JR2021708",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -125,6 +153,34 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Engineer--Profiling-Services_JR2014709",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "176217c535d3d8ec",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, Quantized Inference",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, WA, Redmond<br>US, CA, Santa Clara</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Quantized-Inference_JR2021844",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "475274b4c007b7a1",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Staff Software Engineer - AI Agent Platform",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer---AI-Agent-Platform_JR2016997",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -157,6 +213,34 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "92a0a0aef8b0617c",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - Halos",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer----Halos_JR2021297",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "f130a7360d0df573",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - Halos Core and Robotics Platform",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer----Halos-Core-and-Robotics-Platform_JR2021313",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "d830cc0b1c6d6669",
       "kind": "job",
       "company": "NVIDIA",
@@ -167,6 +251,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer-Platform---OpenBMC_JR1999525",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "71ea73724e0d5efc",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer – QoS",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Remote<br>US, CA, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---QoS_JR2021815",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -265,6 +363,20 @@
       "date": "0d",
       "posted_at": "2026-07-22",
       "url": "https://jobs.lever.co/palantir/d7030550-f80f-422c-965f-3120db433dea",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "9ac631b4258a0d41",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Software Engineer - Edge AI Systems",
+      "location": "Seattle, WA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-22",
+      "url": "https://jobs.lever.co/palantir/67110929-adea-41c3-851a-8882e222d9e4",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
@@ -521,6 +633,20 @@
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
+      "id": "d073099552a49bdb",
+      "kind": "job",
+      "company": "Palo Alto Networks",
+      "title": "Sr Staff Site Reliability Engineer",
+      "location": "Madrid, Spain",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Madrid-Spain/Sr-Staff-Site-Reliability-Engineer_JR-018712-1",
+      "source": "workday:paloaltonetworks",
+      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
+    },
+    {
       "id": "147e11c25d3441c6",
       "kind": "job",
       "company": "Sony",
@@ -549,20 +675,6 @@
       "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
     },
     {
-      "id": "0e84400d9308113a",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II",
-      "location": "United States, Los Angeles, CA",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "2026-07-22",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5712558004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "7b82af3b0c8bf58c",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -573,6 +685,20 @@
       "date": "0d",
       "posted_at": "2026-07-22",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5712556004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "0e84400d9308113a",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II",
+      "location": "United States, Los Angeles, CA",
+      "level": "mid_level",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-22",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5712558004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -661,34 +787,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
-      "id": "ca795f9ce98f83b2",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior DevOps Engineer, AI Agent Platforms",
-      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Yokneam<br>Israel, Tel Aviv</details>",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-DevOps-Engineer--AI-Agent-Platforms_JR2021704",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "a6358dd210a6374d",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Networking Software Engineer, Linux Kernel Drivers",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Software-Engineer_JR2015068",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "25b06b6004425c66",
       "kind": "job",
       "company": "NVIDIA",
@@ -699,34 +797,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Datacenter-Systems_JR2017468",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "0de9814edb00c6c5",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, Cloud-Native Stack – CSP Engagements",
-      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, Remote<br>US, WA, Redmond<br>US, WA, Seattle</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud-Native-Stack---CSP-Engagements_JR2001098",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "6705737556914276",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, CUDA Python Core Libraries",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--CUDA-Core-Libraries_JR2021172",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -2005,20 +2075,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "d78f6f48b460fb71",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United Kingdom, Liverpool",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "bbfac693fc70de24",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2029,6 +2085,20 @@
       "date": "13d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "d78f6f48b460fb71",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United Kingdom, Liverpool",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "13d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2131,20 +2201,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "aba916840fea8dd9",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Storage Platform Engineer",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "other",
-      "role_type": "platform",
-      "date": "13d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5803140004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "9c5f625f62fd9a73",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2155,6 +2211,20 @@
       "date": "13d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5808685004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "aba916840fea8dd9",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Storage Platform Engineer",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "other",
+      "role_type": "platform",
+      "date": "13d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5803140004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2229,6 +2299,20 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
+      "id": "035ed16f3bcab99a",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II",
+      "location": "United States, Los Angeles, CA",
+      "level": "mid_level",
+      "role_type": "software_engineer",
+      "date": "13d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6110560004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "1aa5c9f1e048c079",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2239,34 +2323,6 @@
       "date": "13d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101023004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "b585719121752ff7",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II",
-      "location": "United States, San Mateo, CA",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "8e5ce1fe3bf27593",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II",
-      "location": "United States, San Mateo, CA",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2285,16 +2341,30 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "035ed16f3bcab99a",
+      "id": "8e5ce1fe3bf27593",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Software Engineer II",
-      "location": "United States, Los Angeles, CA",
+      "location": "United States, San Mateo, CA",
       "level": "mid_level",
       "role_type": "software_engineer",
       "date": "13d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6110560004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "b585719121752ff7",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II",
+      "location": "United States, San Mateo, CA",
+      "level": "mid_level",
+      "role_type": "software_engineer",
+      "date": "13d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2369,20 +2439,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "e7b17ac3b8ffd684",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Staff Software Engineer - DPDK",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "e8654b3741330c42",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2393,6 +2449,20 @@
       "date": "13d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "e7b17ac3b8ffd684",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Staff Software Engineer - DPDK",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "13d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -9148,7 +9218,7 @@
       "company": "Student Organization",
       "title": "COMPSPHERE 11",
       "location": "Online",
-      "date": "about 19 hours left",
+      "date": "about 17 hours left",
       "posted_at": "2026-07-22",
       "url": "https://compsphere-11.devpost.com/",
       "source": "devpost",
