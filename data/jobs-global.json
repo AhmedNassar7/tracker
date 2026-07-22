@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T06:41:57Z",
-  "total": 85,
+  "generated_at": "2026-07-22T09:38:14Z",
+  "total": 87,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -56,6 +56,26 @@
       "posted_at": "2026-07-17",
       "age": "Recently",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ba5c250781904d04",
+      "company": "Amazon.com Services LLC",
+      "title": "Security Engineer II, Security Incide...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10481118/security-engineer-ii-security-incident-response-team-sirt",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T09:38:14Z",
       "tags": [
         "software",
         "programming",
@@ -943,6 +963,66 @@
       ]
     },
     {
+      "id": "501f1f58ce62d501",
+      "company": "Amazon.com",
+      "title": "Embedded Software Dev Engineer II, Amazon Leo for Government - Leo Modem Module Software Team",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Arlington, VA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=79c9d3cbb00f6247",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-09",
+      "age": "13d",
+      "collected_at": "2026-07-22T09:38:14Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "75c3d28326f259ee",
+      "company": "Amazon.com",
+      "title": "Embedded Software Dev Engineer II, Amazon Leo for Government - Leo Modem Module Software Team",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Northridge, CA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=37c172121730f26c",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-09",
+      "age": "13d",
+      "collected_at": "2026-07-22T09:38:14Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0125c43b3f1d1719",
+      "company": "Amazon.com",
+      "title": "Embedded Software Dev Engineer II, Amazon Leo for Government - Leo Modem Module Software Team",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Redmond, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=322bcf903bfd5006",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-09",
+      "age": "13d",
+      "collected_at": "2026-07-22T09:38:14Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d689c5f1aca938ee",
       "company": "Jane Street",
       "title": "Machine Learning Engineer Summer Internship",
@@ -1323,26 +1403,6 @@
       ]
     },
     {
-      "id": "e0a08d115d5c7f8c",
-      "company": "Palantir",
-      "title": "Palantir Software Engineer Intern - Forward Deployed Software Engineer - Commercial",
-      "level": "internship",
-      "country": "United States",
-      "location": "Chicago, IL",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-15",
-      "age": "20d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7791f533fabbb7ec",
       "company": "ByteDance",
       "title": "Software Engineer Intern - Developer Infrastructure",
@@ -1356,26 +1416,6 @@
       "posted_at": "2026-07-17",
       "age": "1mo",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5885aefa9d6428ef",
-      "company": "Intel",
-      "title": "AI Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Phoenix, AZ",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-22",
-      "age": "1mo",
-      "collected_at": "2026-07-22T03:44:53Z",
       "tags": [
         "software",
         "programming",
