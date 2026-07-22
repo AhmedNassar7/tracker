@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-07-22T00:07:54Z",
-  "total": 82,
+  "generated_at": "2026-07-22T03:44:53Z",
+  "total": 86,
   "jobs": [
+    {
+      "id": "f8c598e8adf6d6c0",
+      "company": "Amazon Development Center U.S., Inc.",
+      "title": "Data Engineer II, AWS Analytics Engin...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10481020/data-engineer-ii-aws-analytics-engineering",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T03:44:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "21d8a8f240a7db00",
+      "company": "Amazon Development Center U.S., Inc.",
+      "title": "Data Engineer II, AWS Analytics Engin...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10480965/data-engineer-ii-aws-analytics-engineering",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T03:44:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "500685113392f7cf",
       "company": "Amazon Web Services, Inc.",
@@ -703,26 +743,6 @@
       ]
     },
     {
-      "id": "d530f67da5b76ff6",
-      "company": "Citadel Securities",
-      "title": "Software Engineer – University Graduate",
-      "level": "new_grad",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "0d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "77d97c5b772d74b1",
       "company": "Cloudflare",
       "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
@@ -736,6 +756,26 @@
       "posted_at": "2026-07-17",
       "age": "2d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d530f67da5b76ff6",
+      "company": "Citadel Securities",
+      "title": "Software Engineer – University Graduate",
+      "level": "new_grad",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "0d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1183,26 +1223,6 @@
       ]
     },
     {
-      "id": "fe5669a53ce7b6e5",
-      "company": "Tesla",
-      "title": "Data Engineer Intern - Applications Engineering",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Fremont, CA",
-      "remote_type": "onsite",
-      "url": "https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-17",
-      "age": "17d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9415006c972556db",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Production Infrastructure",
@@ -1216,6 +1236,26 @@
       "posted_at": "2026-07-15",
       "age": "15d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fe5669a53ce7b6e5",
+      "company": "Tesla",
+      "title": "Data Engineer Intern - Applications Engineering",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Fremont, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "17d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -1316,6 +1356,26 @@
       "posted_at": "2026-07-17",
       "age": "1mo",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5885aefa9d6428ef",
+      "company": "Intel",
+      "title": "AI Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Phoenix, AZ",
+      "remote_type": "onsite",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-22",
+      "age": "1mo",
+      "collected_at": "2026-07-22T03:44:53Z",
       "tags": [
         "software",
         "programming",
@@ -1456,6 +1516,26 @@
       "posted_at": "2026-07-17",
       "age": "1mo",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8808ebd8ff2fae91",
+      "company": "Tesla",
+      "title": "Software Engineer Intern - Wireless Connectivity Software Engineer - Electronic Devices",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/269792?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-22",
+      "age": "1mo",
+      "collected_at": "2026-07-22T03:44:53Z",
       "tags": [
         "software",
         "programming",
