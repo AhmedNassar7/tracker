@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-07-22T12:04:19Z",
-  "total": 676,
+  "generated_at": "2026-07-22T14:22:17Z",
+  "total": 674,
   "jobs": [
+    {
+      "id": "66a5b09646b38bbd",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Backend STA Engineer",
+      "location": "Israel, Haifa",
+      "level": "other",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/Israel-Haifa/Backend-STA-Engineer_JR0285851-1",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
     {
       "id": "bbd861cb95aad6e1",
       "kind": "job",
@@ -27,6 +41,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer---RDMA-and-Doca_JR2015006",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "0a82839ced3cba21",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, Profiling Services",
+      "location": "Israel, Tel Aviv",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Engineer--Profiling-Services_JR2014709",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -241,20 +269,6 @@
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
-      "id": "84b06d5f98b45a8a",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Staff Software Engineer",
-      "location": "Office - India - Bangalore Bagmane Tech Park",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---Bangalore-Bagmane-Tech-Park/Software-Engineer_JR-018187",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
       "id": "0270c41cc2de086c",
       "kind": "job",
       "company": "Wise",
@@ -433,20 +447,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer----Halos-Core-and-Robotics-Platform_JR2021314",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "2942e3eb061ea32e",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer — CPU Platform Pre-Silicon Systems Validation Lead",
-      "location": "Taiwan, Taipei",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-System-Software-Engineer---CPU-Platform-Pre-Silicon-Systems-Validation-Lead_JR2021366",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -843,20 +843,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "5f592acde896f993",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Manager, Systems Software Engineering - GeForce NOW Cloud",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Systems-Software-Engineering---GeForce-NOW-Cloud_JR2014496",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "202abfdba2f53576",
       "kind": "job",
       "company": "NVIDIA",
@@ -951,20 +937,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Staff---Principal-Software-Engineer-in-Test----Automation---AI-_JR-016864",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
-      "id": "e596273d1cf3b470",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Principal/Senior ML Platform Engineer (Cortex)",
-      "location": "Office - Israel - Tel Aviv",
-      "level": "other",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-MLOps-Engineer--Cortex-_JR-018537",
       "source": "workday:paloaltonetworks",
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
@@ -1977,16 +1949,16 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "f76c730e27bebfc9",
+      "id": "d78f6f48b460fb71",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
+      "location": "United Kingdom, Liverpool",
       "level": "other",
       "role_type": "software_engineer",
       "date": "13d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2005,16 +1977,16 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "d78f6f48b460fb71",
+      "id": "f76c730e27bebfc9",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Senior Software Engineer",
-      "location": "United Kingdom, Liverpool",
+      "location": "United States, San Mateo, CA",
       "level": "other",
       "role_type": "software_engineer",
       "date": "13d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2033,20 +2005,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "3ce2517841ac0ee2",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer (Frontend), Social",
-      "location": "United States, San Diego, CA",
-      "level": "other",
-      "role_type": "frontend",
-      "date": "13d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "cb20f6a438518f12",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2057,6 +2015,20 @@
       "date": "13d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "3ce2517841ac0ee2",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer (Frontend), Social",
+      "location": "United States, San Diego, CA",
+      "level": "other",
+      "role_type": "frontend",
+      "date": "13d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2229,6 +2201,20 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
+      "id": "035ed16f3bcab99a",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II",
+      "location": "United States, Los Angeles, CA",
+      "level": "mid_level",
+      "role_type": "software_engineer",
+      "date": "13d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6110560004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "1aa5c9f1e048c079",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2239,20 +2225,6 @@
       "date": "13d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101023004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "3d56e4683623cf5b",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II",
-      "location": "United States, San Diego, CA",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5995645004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2271,6 +2243,20 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
+      "id": "3d56e4683623cf5b",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II",
+      "location": "United States, San Diego, CA",
+      "level": "mid_level",
+      "role_type": "software_engineer",
+      "date": "13d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5995645004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "b585719121752ff7",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2285,16 +2271,16 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "035ed16f3bcab99a",
+      "id": "4cd1475f64e849fe",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II",
+      "title": "Software Engineer II (Frontend), Social",
       "location": "United States, Los Angeles, CA",
       "level": "mid_level",
-      "role_type": "software_engineer",
+      "role_type": "frontend",
       "date": "13d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6110560004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5712558004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2309,20 +2295,6 @@
       "date": "13d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5712556004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "4cd1475f64e849fe",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II (Frontend), Social",
-      "location": "United States, Los Angeles, CA",
-      "level": "mid_level",
-      "role_type": "frontend",
-      "date": "13d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5712558004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -5435,10 +5407,10 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
-      "id": "28dbabf5378e46dd",
+      "id": "db441720954366bd",
       "kind": "job",
       "company": "Ramp",
-      "title": "Backend Engineer, Ops",
+      "title": "Backend Engineer, Ops Engineering",
       "location": "New York, NY (HQ)",
       "level": "other",
       "role_type": "backend",
@@ -8719,6 +8691,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "f868559e521b0d53",
+      "kind": "hackathon",
+      "company": "arm",
+      "title": "Arm Create: AI Optimization Challenge",
+      "location": "Online",
+      "date": "23 days left",
+      "posted_at": "2026-07-22",
+      "url": "https://arm-ai-optimization-challenge.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "b0e0865e822e55ce",
       "kind": "hackathon",
       "company": "Backblaze",
@@ -8892,7 +8876,7 @@
       "company": "H & P PROJECTS",
       "title": "HackVerse",
       "location": "Bhubaneswar",
-      "date": "about 6 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-07-22",
       "url": "https://hackverse-30753.devpost.com/",
       "source": "devpost",
@@ -8943,18 +8927,6 @@
       "date": "9 days left",
       "posted_at": "2026-07-22",
       "url": "https://3d-websites-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "ecd632ec2871a4d2",
-      "kind": "hackathon",
-      "company": "ICON",
-      "title": "ICON x Lyra Hackathon",
-      "location": "UNSW",
-      "date": "about 2 hours left",
-      "posted_at": "2026-07-22",
-      "url": "https://icon-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9180,7 +9152,7 @@
       "company": "snap2measure",
       "title": "Measure up",
       "location": "Online",
-      "date": "6 days left",
+      "date": "5 days left",
       "posted_at": "2026-07-22",
       "url": "https://measureme-up.devpost.com/",
       "source": "devpost",
@@ -9300,7 +9272,7 @@
       "company": "university of pennsylvania",
       "title": "M&TSI 2026 (Deliwala/Babin)",
       "location": "Online",
-      "date": "3 days left",
+      "date": "2 days left",
       "posted_at": "2026-07-22",
       "url": "https://mtsi2026.devpost.com/",
       "source": "devpost",
