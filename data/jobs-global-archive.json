@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T18:21:08Z",
-  "total": 73,
+  "generated_at": "2026-07-22T20:21:23Z",
+  "total": 74,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "5d",
-      "collected_at": "2026-07-22T18:21:08Z",
+      "collected_at": "2026-07-22T20:21:23Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T18:21:08Z"
+      "closed_at": "2026-07-22T20:21:23Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "2d",
-      "collected_at": "2026-07-22T18:21:08Z",
+      "collected_at": "2026-07-22T20:21:23Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T18:21:08Z"
+      "closed_at": "2026-07-22T20:21:23Z"
     },
     {
       "id": "d76a868df556107a",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "2d",
-      "collected_at": "2026-07-22T18:21:08Z",
+      "collected_at": "2026-07-22T20:21:23Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T18:21:08Z"
+      "closed_at": "2026-07-22T20:21:23Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "1d",
-      "collected_at": "2026-07-22T18:21:08Z",
+      "collected_at": "2026-07-22T20:21:23Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T18:21:08Z"
+      "closed_at": "2026-07-22T20:21:23Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "1d",
-      "collected_at": "2026-07-22T18:21:08Z",
+      "collected_at": "2026-07-22T20:21:23Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T18:21:08Z"
+      "closed_at": "2026-07-22T20:21:23Z"
     },
     {
       "id": "dcc81c9b52042507",
@@ -120,13 +120,34 @@
       "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
       "posted_at": "2026-07-22",
       "age": "90d",
-      "collected_at": "2026-07-22T18:21:08Z",
+      "collected_at": "2026-07-22T20:21:23Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T18:21:08Z"
+      "closed_at": "2026-07-22T20:21:23Z"
+    },
+    {
+      "id": "500685113392f7cf",
+      "company": "Amazon Web Services, Inc.",
+      "title": "Data Engineer II, GTPC Tech, Complian...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-17",
+      "age": "Recently",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T20:21:23Z"
     },
     {
       "id": "8ffbad96f9ce768c",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T18:21:08Z",
-  "total": 86,
+  "generated_at": "2026-07-22T20:21:23Z",
+  "total": 87,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -56,26 +56,6 @@
       "posted_at": "2026-07-22",
       "age": "Recently",
       "collected_at": "2026-07-22T12:03:16Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "500685113392f7cf",
-      "company": "Amazon Web Services, Inc.",
-      "title": "Data Engineer II, GTPC Tech, Complian...",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-17",
-      "age": "Recently",
-      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -303,6 +283,26 @@
       ]
     },
     {
+      "id": "d277fa92c52b7ff3",
+      "company": "Priceline.com",
+      "title": "Associate Java Developer",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://ca.indeed.com/viewjob?jk=5dcaf0ddf7f5042f",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-22",
+      "age": "0d",
+      "collected_at": "2026-07-22T20:21:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "7901ce2e362ca859",
       "company": "Siemens",
       "title": "Software Developer - New Graduate- 12 Month Contract",
@@ -376,6 +376,26 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "bfd9be4a45a6b2a5",
+      "company": "Uber",
+      "title": "Graduate 2026 PhD Software Engineer I...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Sunnyvale, Santa ...",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/302359/",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T20:21:23Z",
       "tags": [
         "software",
         "programming",
