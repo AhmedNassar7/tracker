@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T23:12:05Z",
-  "total": 80,
+  "generated_at": "2026-07-22T00:07:54Z",
+  "total": 82,
   "jobs": [
     {
       "id": "500685113392f7cf",
@@ -203,26 +203,6 @@
       ]
     },
     {
-      "id": "414b3e13b36e80a4",
-      "company": "LGS, an IBM Company",
-      "title": "Junior to Intermediate Data Engineer",
-      "level": "junior",
-      "country": "Unknown",
-      "location": "Montréal, QC, CA",
-      "remote_type": "onsite",
-      "url": "https://ca.indeed.com/viewjob?jk=1078ede0a1d4e725",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-21",
-      "age": "0d",
-      "collected_at": "2026-07-21T18:39:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7901ce2e362ca859",
       "company": "Siemens",
       "title": "Software Developer - New Graduate- 12 Month Contract",
@@ -263,26 +243,6 @@
       ]
     },
     {
-      "id": "3c46b9d61da3d979",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Toronto",
-      "remote_type": "onsite",
-      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-06-26",
-      "age": "21d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "8c423d3b1aa78262",
       "company": "Triunity Software, Inc.",
       "title": "Jr. Machine Learning Engineer",
@@ -295,6 +255,66 @@
       "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
       "posted_at": "2026-07-17",
       "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "414b3e13b36e80a4",
+      "company": "LGS, an IBM Company",
+      "title": "Junior to Intermediate Data Engineer",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "Montréal, QC, CA",
+      "remote_type": "onsite",
+      "url": "https://ca.indeed.com/viewjob?jk=1078ede0a1d4e725",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-21",
+      "age": "0d",
+      "collected_at": "2026-07-21T18:39:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ff212343f4eada90",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "MH, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=d43d045cc2cabc5c",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-21",
+      "age": "1d",
+      "collected_at": "2026-07-22T00:07:54Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3c46b9d61da3d979",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-06-26",
+      "age": "21d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
@@ -1336,6 +1356,26 @@
       "posted_at": "2026-07-15",
       "age": "28d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e45bb16a9d62c7df",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Diego, CA",
+      "remote_type": "onsite",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-22",
+      "age": "1mo",
+      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
