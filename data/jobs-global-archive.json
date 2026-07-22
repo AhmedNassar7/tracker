@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T23:12:05Z",
-  "total": 67,
+  "generated_at": "2026-07-22T00:07:54Z",
+  "total": 66,
   "jobs": [
     {
       "id": "59b4f1aff1a389af",
@@ -14,14 +14,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-16",
-      "age": "5d",
-      "collected_at": "2026-07-21T23:12:05Z",
+      "age": "6d",
+      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T23:12:05Z"
+      "closed_at": "2026-07-22T00:07:54Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -35,14 +35,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "4d",
-      "collected_at": "2026-07-21T23:12:05Z",
+      "age": "5d",
+      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T23:12:05Z"
+      "closed_at": "2026-07-22T00:07:54Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -56,14 +56,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
-      "age": "1d",
-      "collected_at": "2026-07-21T23:12:05Z",
+      "age": "2d",
+      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T23:12:05Z"
+      "closed_at": "2026-07-22T00:07:54Z"
     },
     {
       "id": "d76a868df556107a",
@@ -77,14 +77,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
-      "age": "1d",
-      "collected_at": "2026-07-21T23:12:05Z",
+      "age": "2d",
+      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T23:12:05Z"
+      "closed_at": "2026-07-22T00:07:54Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -98,14 +98,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
-      "age": "0d",
-      "collected_at": "2026-07-21T23:12:05Z",
+      "age": "1d",
+      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T23:12:05Z"
+      "closed_at": "2026-07-22T00:07:54Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -119,14 +119,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
-      "age": "0d",
-      "collected_at": "2026-07-21T23:12:05Z",
+      "age": "1d",
+      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T23:12:05Z"
+      "closed_at": "2026-07-22T00:07:54Z"
     },
     {
       "id": "dcc81c9b52042507",
@@ -139,15 +139,15 @@
       "url": "https://www.amazon.jobs/jobs/10400153/apply",
       "source": "speedyapply_ai",
       "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
-      "posted_at": "2026-07-21",
+      "posted_at": "2026-07-22",
       "age": "89d",
-      "collected_at": "2026-07-21T23:12:05Z",
+      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-21T23:12:05Z"
+      "closed_at": "2026-07-22T00:07:54Z"
     },
     {
       "id": "7f1d0f063b2e6217",
@@ -379,27 +379,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-21T18:39:40Z"
-    },
-    {
-      "id": "e45bb16a9d62c7df",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Diego, CA",
-      "remote_type": "onsite",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-16",
-      "age": "28d",
-      "collected_at": "2026-07-16T14:21:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-21T11:59:22Z"
     },
     {
       "id": "5885aefa9d6428ef",
