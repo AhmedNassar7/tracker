@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T14:21:11Z",
-  "total": 86,
+  "generated_at": "2026-07-22T16:44:07Z",
+  "total": 85,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -76,6 +76,26 @@
       "posted_at": "2026-07-17",
       "age": "Recently",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "cc296b8b977e9751",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer II, AMZL-Central Learni...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Bellevue, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10481342/data-engineer-ii-amzl-central-learning-solutions-data-engineering-team",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",
@@ -243,49 +263,9 @@
       ]
     },
     {
-      "id": "55776a9947ed6270",
-      "company": "JPMorgan Chase",
-      "title": "Software Engineer II (Java/FullStack/...",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Westerville, OH, ...",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210723025",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-21",
-      "age": "Recently",
-      "collected_at": "2026-07-21T18:39:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "173a399c9f0cd9ab",
-      "company": "JPMorgan Chase",
-      "title": "Software Engineer II (Java/Fullstack/...",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "OH, United States",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210725729",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-21",
-      "age": "Recently",
-      "collected_at": "2026-07-21T18:39:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8ffbad96f9ce768c",
+      "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
-      "title": "🆕 Junior to Intermediate Data Engineer",
+      "title": "Junior to Intermediate Data Engineer",
       "level": "junior",
       "country": "Unknown",
       "location": "Montréal, QC H3B 3M4 (Onsite)",
@@ -295,7 +275,7 @@
       "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
       "posted_at": "2026-07-22",
       "age": "0d",
-      "collected_at": "2026-07-22T12:03:16Z",
+      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",
@@ -356,26 +336,6 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "414b3e13b36e80a4",
-      "company": "LGS, an IBM Company",
-      "title": "Junior to Intermediate Data Engineer",
-      "level": "junior",
-      "country": "Unknown",
-      "location": "Montréal, QC, CA",
-      "remote_type": "onsite",
-      "url": "https://ca.indeed.com/viewjob?jk=1078ede0a1d4e725",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-21",
-      "age": "0d",
-      "collected_at": "2026-07-21T18:39:40Z",
       "tags": [
         "software",
         "programming",
@@ -943,14 +903,14 @@
       ]
     },
     {
-      "id": "f7eb9ebbd5e7799c",
+      "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -963,14 +923,14 @@
       ]
     },
     {
-      "id": "d7e4cd19ff147953",
+      "id": "f7eb9ebbd5e7799c",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
+      "country": "United States",
+      "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -1296,6 +1256,26 @@
       "posted_at": "2026-07-17",
       "age": "17d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-22",
+      "age": "23d",
+      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",

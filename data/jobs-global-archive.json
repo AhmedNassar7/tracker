@@ -1,28 +1,7 @@
 {
-  "generated_at": "2026-07-22T14:21:11Z",
-  "total": 70,
+  "generated_at": "2026-07-22T16:44:07Z",
+  "total": 73,
   "jobs": [
-    {
-      "id": "59b4f1aff1a389af",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Engineer-II_R-279240",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-16",
-      "age": "6d",
-      "collected_at": "2026-07-22T14:21:11Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-22T14:21:11Z"
-    },
     {
       "id": "10ef33ebed97b74e",
       "company": "PayPal",
@@ -36,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "5d",
-      "collected_at": "2026-07-22T14:21:11Z",
+      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T14:21:11Z"
+      "closed_at": "2026-07-22T16:44:07Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -57,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "2d",
-      "collected_at": "2026-07-22T14:21:11Z",
+      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T14:21:11Z"
+      "closed_at": "2026-07-22T16:44:07Z"
     },
     {
       "id": "d76a868df556107a",
@@ -78,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "2d",
-      "collected_at": "2026-07-22T14:21:11Z",
+      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T14:21:11Z"
+      "closed_at": "2026-07-22T16:44:07Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -99,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "1d",
-      "collected_at": "2026-07-22T14:21:11Z",
+      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T14:21:11Z"
+      "closed_at": "2026-07-22T16:44:07Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -120,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "1d",
-      "collected_at": "2026-07-22T14:21:11Z",
+      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T14:21:11Z"
+      "closed_at": "2026-07-22T16:44:07Z"
     },
     {
       "id": "dcc81c9b52042507",
@@ -141,6 +120,111 @@
       "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
       "posted_at": "2026-07-22",
       "age": "90d",
+      "collected_at": "2026-07-22T16:44:07Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T16:44:07Z"
+    },
+    {
+      "id": "8ffbad96f9ce768c",
+      "company": "LGS, an IBM Company",
+      "title": "🆕 Junior to Intermediate Data Engineer",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "Montréal, QC H3B 3M4 (Onsite)",
+      "remote_type": "onsite",
+      "url": "https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293",
+      "source": "hanzili_canada",
+      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
+      "posted_at": "2026-07-22",
+      "age": "0d",
+      "collected_at": "2026-07-22T12:03:16Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T16:44:07Z"
+    },
+    {
+      "id": "414b3e13b36e80a4",
+      "company": "LGS, an IBM Company",
+      "title": "Junior to Intermediate Data Engineer",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "Montréal, QC, CA",
+      "remote_type": "onsite",
+      "url": "https://ca.indeed.com/viewjob?jk=1078ede0a1d4e725",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-21",
+      "age": "0d",
+      "collected_at": "2026-07-21T18:39:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T16:44:07Z"
+    },
+    {
+      "id": "55776a9947ed6270",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II (Java/FullStack/...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Westerville, OH, ...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210723025",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-21",
+      "age": "Recently",
+      "collected_at": "2026-07-21T18:39:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T16:44:07Z"
+    },
+    {
+      "id": "173a399c9f0cd9ab",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II (Java/Fullstack/...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "OH, United States",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210725729",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-21",
+      "age": "Recently",
+      "collected_at": "2026-07-21T18:39:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-22T16:44:07Z"
+    },
+    {
+      "id": "59b4f1aff1a389af",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Engineer-II_R-279240",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-16",
+      "age": "6d",
       "collected_at": "2026-07-22T14:21:11Z",
       "tags": [
         "software",
@@ -289,27 +373,6 @@
       "posted_at": "2026-07-21",
       "age": "Recently",
       "collected_at": "2026-07-21T22:11:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-21T23:12:05Z"
-    },
-    {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-21",
-      "age": "22d",
-      "collected_at": "2026-07-21T16:40:40Z",
       "tags": [
         "software",
         "programming",
