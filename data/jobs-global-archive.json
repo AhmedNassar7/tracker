@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T12:02:14Z",
-  "total": 81,
+  "generated_at": "2026-07-23T14:30:18Z",
+  "total": 82,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "6d",
-      "collected_at": "2026-07-23T12:02:14Z",
+      "collected_at": "2026-07-23T14:30:18Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T12:02:14Z"
+      "closed_at": "2026-07-23T14:30:18Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "3d",
-      "collected_at": "2026-07-23T12:02:14Z",
+      "collected_at": "2026-07-23T14:30:18Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T12:02:14Z"
+      "closed_at": "2026-07-23T14:30:18Z"
     },
     {
       "id": "d76a868df556107a",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "3d",
-      "collected_at": "2026-07-23T12:02:14Z",
+      "collected_at": "2026-07-23T14:30:18Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T12:02:14Z"
+      "closed_at": "2026-07-23T14:30:18Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "2d",
-      "collected_at": "2026-07-23T12:02:14Z",
+      "collected_at": "2026-07-23T14:30:18Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T12:02:14Z"
+      "closed_at": "2026-07-23T14:30:18Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -99,34 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "2d",
-      "collected_at": "2026-07-23T12:02:14Z",
+      "collected_at": "2026-07-23T14:30:18Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T12:02:14Z"
-    },
-    {
-      "id": "dcc81c9b52042507",
-      "company": "Amazon",
-      "title": "Fall 2026 Annapurna Labs at AWS Internship - US - Machine Learning Systems & Silicon Innovation",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Cupertino, CA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/jobs/10400153/apply",
-      "source": "speedyapply_ai",
-      "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
-      "posted_at": "2026-07-23",
-      "age": "90d",
-      "collected_at": "2026-07-23T12:02:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-23T12:02:14Z"
+      "closed_at": "2026-07-23T14:30:18Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -141,6 +120,48 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "1d",
+      "collected_at": "2026-07-23T14:30:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T14:30:18Z"
+    },
+    {
+      "id": "0d93cdecb3b6023b",
+      "company": "IBM",
+      "title": "Junior Software Developer",
+      "level": "junior",
+      "country": "Canada",
+      "location": "Ottawa, Ontario (Onsite)",
+      "remote_type": "onsite",
+      "url": "https://ca.linkedin.com/jobs/view/junior-software-developer-at-ibm-4429414438",
+      "source": "hanzili_canada",
+      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T14:30:18Z"
+    },
+    {
+      "id": "dcc81c9b52042507",
+      "company": "Amazon",
+      "title": "Fall 2026 Annapurna Labs at AWS Internship - US - Machine Learning Systems & Silicon Innovation",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Cupertino, CA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/jobs/10400153/apply",
+      "source": "speedyapply_ai",
+      "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
+      "posted_at": "2026-07-23",
+      "age": "90d",
       "collected_at": "2026-07-23T12:02:14Z",
       "tags": [
         "software",

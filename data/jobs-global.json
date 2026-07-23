@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T12:02:14Z",
+  "generated_at": "2026-07-23T14:30:18Z",
   "total": 85,
   "jobs": [
     {
@@ -183,6 +183,46 @@
       ]
     },
     {
+      "id": "d7e4cd19ff147953",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
+      "remote_type": "onsite",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-10",
+      "age": "7d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f7eb9ebbd5e7799c",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-10",
+      "age": "7d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "df8b2d6a41f60490",
       "company": "Elastic Path",
       "title": "Junior DevOps Engineer",
@@ -223,19 +263,19 @@
       ]
     },
     {
-      "id": "0d93cdecb3b6023b",
-      "company": "IBM",
-      "title": "Junior Software Developer",
-      "level": "junior",
-      "country": "Canada",
-      "location": "Ottawa, Ontario (Onsite)",
+      "id": "3451c64242c7f7b0",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II - Automation Eng...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY, Uni...",
       "remote_type": "onsite",
-      "url": "https://ca.linkedin.com/jobs/view/junior-software-developer-at-ibm-4429414438",
-      "source": "hanzili_canada",
-      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
-      "posted_at": "2026-07-17",
-      "age": "0d",
-      "collected_at": "2026-07-17T22:19:39Z",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210760696",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-23",
+      "age": "Recently",
+      "collected_at": "2026-07-23T14:30:18Z",
       "tags": [
         "software",
         "programming",
@@ -763,26 +803,6 @@
       ]
     },
     {
-      "id": "77d97c5b772d74b1",
-      "company": "Cloudflare",
-      "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "2d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d530f67da5b76ff6",
       "company": "Citadel Securities",
       "title": "Software Engineer – University Graduate",
@@ -796,6 +816,26 @@
       "posted_at": "2026-07-15",
       "age": "0d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "77d97c5b772d74b1",
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "2d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -915,46 +955,6 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-13",
       "age": "4d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d7e4cd19ff147953",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-10",
-      "age": "7d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f7eb9ebbd5e7799c",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-10",
-      "age": "7d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
@@ -1163,26 +1163,6 @@
       ]
     },
     {
-      "id": "d4aa23e98c8055cb",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer - Internship - Commercial",
-      "level": "internship",
-      "country": "United States",
-      "location": "Chicago, IL",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "16d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "52701a261180efd0",
       "company": "Palo Alto Networks",
       "title": "Software Engineer Intern 🎓",
@@ -1203,26 +1183,6 @@
       ]
     },
     {
-      "id": "25112912b64a7e96",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Diego, CA",
-      "remote_type": "onsite",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "16d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "26ec41004b2d610b",
       "company": "Citadel Securities",
       "title": "Machine Learning Researcher PhD Intern 🎓",
@@ -1236,6 +1196,46 @@
       "posted_at": "2026-07-15",
       "age": "14d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d4aa23e98c8055cb",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer - Internship - Commercial",
+      "level": "internship",
+      "country": "United States",
+      "location": "Chicago, IL",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "16d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "25112912b64a7e96",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Diego, CA",
+      "remote_type": "onsite",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "16d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
