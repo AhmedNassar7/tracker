@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T16:45:09Z",
-  "total": 83,
+  "generated_at": "2026-07-23T18:37:15Z",
+  "total": 85,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "6d",
-      "collected_at": "2026-07-23T16:45:09Z",
+      "collected_at": "2026-07-23T18:37:15Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T16:45:09Z"
+      "closed_at": "2026-07-23T18:37:15Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "3d",
-      "collected_at": "2026-07-23T16:45:09Z",
+      "collected_at": "2026-07-23T18:37:15Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T16:45:09Z"
+      "closed_at": "2026-07-23T18:37:15Z"
     },
     {
       "id": "d76a868df556107a",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "3d",
-      "collected_at": "2026-07-23T16:45:09Z",
+      "collected_at": "2026-07-23T18:37:15Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T16:45:09Z"
+      "closed_at": "2026-07-23T18:37:15Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "2d",
-      "collected_at": "2026-07-23T16:45:09Z",
+      "collected_at": "2026-07-23T18:37:15Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T16:45:09Z"
+      "closed_at": "2026-07-23T18:37:15Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -99,13 +99,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "2d",
-      "collected_at": "2026-07-23T16:45:09Z",
+      "collected_at": "2026-07-23T18:37:15Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T16:45:09Z"
+      "closed_at": "2026-07-23T18:37:15Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -120,13 +120,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "1d",
-      "collected_at": "2026-07-23T16:45:09Z",
+      "collected_at": "2026-07-23T18:37:15Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T16:45:09Z"
+      "closed_at": "2026-07-23T18:37:15Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -141,13 +141,55 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "0d",
-      "collected_at": "2026-07-23T16:45:09Z",
+      "collected_at": "2026-07-23T18:37:15Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T16:45:09Z"
+      "closed_at": "2026-07-23T18:37:15Z"
+    },
+    {
+      "id": "bfd9be4a45a6b2a5",
+      "company": "Uber",
+      "title": "Graduate 2026 PhD Software Engineer I...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Sunnyvale, Santa ...",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/302359/",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T20:21:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T18:37:15Z"
+    },
+    {
+      "id": "3451c64242c7f7b0",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II - Automation Eng...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY, Uni...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210760696",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-23",
+      "age": "Recently",
+      "collected_at": "2026-07-23T14:30:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T18:37:15Z"
     },
     {
       "id": "509c261cafd606d0",
