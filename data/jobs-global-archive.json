@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T22:15:36Z",
-  "total": 76,
+  "generated_at": "2026-07-23T00:12:48Z",
+  "total": 77,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -14,14 +14,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "5d",
-      "collected_at": "2026-07-22T22:15:36Z",
+      "age": "6d",
+      "collected_at": "2026-07-23T00:12:48Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T22:15:36Z"
+      "closed_at": "2026-07-23T00:12:48Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -35,14 +35,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
-      "age": "2d",
-      "collected_at": "2026-07-22T22:15:36Z",
+      "age": "3d",
+      "collected_at": "2026-07-23T00:12:48Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T22:15:36Z"
+      "closed_at": "2026-07-23T00:12:48Z"
     },
     {
       "id": "d76a868df556107a",
@@ -56,14 +56,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
-      "age": "2d",
-      "collected_at": "2026-07-22T22:15:36Z",
+      "age": "3d",
+      "collected_at": "2026-07-23T00:12:48Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T22:15:36Z"
+      "closed_at": "2026-07-23T00:12:48Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -77,14 +77,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
-      "age": "1d",
-      "collected_at": "2026-07-22T22:15:36Z",
+      "age": "2d",
+      "collected_at": "2026-07-23T00:12:48Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T22:15:36Z"
+      "closed_at": "2026-07-23T00:12:48Z"
     },
     {
       "id": "85d3de89a0ecf741",
@@ -98,14 +98,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
-      "age": "1d",
-      "collected_at": "2026-07-22T22:15:36Z",
+      "age": "2d",
+      "collected_at": "2026-07-23T00:12:48Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T22:15:36Z"
+      "closed_at": "2026-07-23T00:12:48Z"
     },
     {
       "id": "dcc81c9b52042507",
@@ -118,15 +118,15 @@
       "url": "https://www.amazon.jobs/jobs/10400153/apply",
       "source": "speedyapply_ai",
       "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
-      "posted_at": "2026-07-22",
+      "posted_at": "2026-07-23",
       "age": "90d",
-      "collected_at": "2026-07-22T22:15:36Z",
+      "collected_at": "2026-07-23T00:12:48Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T22:15:36Z"
+      "closed_at": "2026-07-23T00:12:48Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -140,14 +140,35 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
-      "age": "0d",
-      "collected_at": "2026-07-22T22:15:36Z",
+      "age": "1d",
+      "collected_at": "2026-07-23T00:12:48Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-22T22:15:36Z"
+      "closed_at": "2026-07-23T00:12:48Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-22",
+      "age": "23d",
+      "collected_at": "2026-07-22T16:44:07Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T00:12:48Z"
     },
     {
       "id": "b737e904b3c9a646",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T22:15:36Z",
-  "total": 86,
+  "generated_at": "2026-07-23T00:12:48Z",
+  "total": 87,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -263,26 +263,6 @@
       ]
     },
     {
-      "id": "d277fa92c52b7ff3",
-      "company": "Priceline.com",
-      "title": "Associate Java Developer",
-      "level": "entry_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://ca.indeed.com/viewjob?jk=5dcaf0ddf7f5042f",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-22",
-      "age": "0d",
-      "collected_at": "2026-07-22T20:21:23Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7901ce2e362ca859",
       "company": "Siemens",
       "title": "Software Developer - New Graduate- 12 Month Contract",
@@ -323,26 +303,6 @@
       ]
     },
     {
-      "id": "3c46b9d61da3d979",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Toronto",
-      "remote_type": "onsite",
-      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-06-26",
-      "age": "21d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "8c423d3b1aa78262",
       "company": "Triunity Software, Inc.",
       "title": "Jr. Machine Learning Engineer",
@@ -376,6 +336,46 @@
       "posted_at": "2026-07-22",
       "age": "Recently",
       "collected_at": "2026-07-22T20:21:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d277fa92c52b7ff3",
+      "company": "Priceline.com",
+      "title": "Associate Java Developer",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://ca.indeed.com/viewjob?jk=5dcaf0ddf7f5042f",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-22",
+      "age": "0d",
+      "collected_at": "2026-07-22T20:21:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3c46b9d61da3d979",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-06-26",
+      "age": "21d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -883,6 +883,46 @@
       ]
     },
     {
+      "id": "1bffb1c2f8168e55",
+      "company": "Amazon.com",
+      "title": "Security Engineer II, Infrastructure Security Identity",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=ab330030610b3cf0",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-13",
+      "age": "10d",
+      "collected_at": "2026-07-23T00:12:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c00f73476a1d2ce8",
+      "company": "Amazon.com",
+      "title": "Security Engineer II, Infrastructure Security Identity",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Minneapolis, MN, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=c547c60e7b51d2c9",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-13",
+      "age": "10d",
+      "collected_at": "2026-07-23T00:12:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "afb15b16c99cdaad",
       "company": "Okta",
       "title": "Software Engineer II, Core Identity (Auth0)",
@@ -1043,26 +1083,6 @@
       ]
     },
     {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "8d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9b738d3d019be839",
       "company": "Citadel",
       "title": "Software Engineer Intern",
@@ -1095,6 +1115,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
@@ -1163,26 +1203,6 @@
       ]
     },
     {
-      "id": "52701a261180efd0",
-      "company": "Palo Alto Networks",
-      "title": "Software Engineer Intern 🎓",
-      "level": "internship",
-      "country": "United States",
-      "location": "California",
-      "remote_type": "onsite",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011598?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-21",
-      "age": "19d",
-      "collected_at": "2026-07-21T20:35:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "26ec41004b2d610b",
       "company": "Citadel Securities",
       "title": "Machine Learning Researcher PhD Intern 🎓",
@@ -1223,6 +1243,26 @@
       ]
     },
     {
+      "id": "52701a261180efd0",
+      "company": "Palo Alto Networks",
+      "title": "Software Engineer Intern 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "California",
+      "remote_type": "onsite",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011598?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-21",
+      "age": "19d",
+      "collected_at": "2026-07-21T20:35:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "25112912b64a7e96",
       "company": "Sony",
       "title": "Software Engineer Intern",
@@ -1236,26 +1276,6 @@
       "posted_at": "2026-07-17",
       "age": "16d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "9415006c972556db",
-      "company": "Palantir",
-      "title": "Software Engineer New Grad - Production Infrastructure",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "15d",
-      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1283,19 +1303,19 @@
       ]
     },
     {
-      "id": "1d189997c9218173",
+      "id": "9415006c972556db",
       "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "title": "Software Engineer New Grad - Production Infrastructure",
       "level": "new_grad",
       "country": "United States",
-      "location": "NYC",
+      "location": "Washington, DC",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify",
       "source": "simplify_newgrad",
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-22",
-      "age": "23d",
-      "collected_at": "2026-07-22T16:44:07Z",
+      "posted_at": "2026-07-15",
+      "age": "15d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
