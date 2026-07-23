@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T18:37:15Z",
-  "total": 85,
+  "generated_at": "2026-07-23T20:19:38Z",
+  "total": 86,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,118 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "6d",
-      "collected_at": "2026-07-23T18:37:15Z",
+      "collected_at": "2026-07-23T20:19:38Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T18:37:15Z"
+      "closed_at": "2026-07-23T20:19:38Z"
+    },
+    {
+      "id": "d76a868df556107a",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Development-Engineer-II_R-284432",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-20",
+      "age": "3d",
+      "collected_at": "2026-07-23T20:19:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T20:19:38Z"
+    },
+    {
+      "id": "21b3e9049fd45232",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-282822",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-21",
+      "age": "2d",
+      "collected_at": "2026-07-23T20:19:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T20:19:38Z"
+    },
+    {
+      "id": "a014bb964bd683bb",
+      "company": "PayPal",
+      "title": "Software Engineer 2",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Scottsdale, Arizona, United States of America",
+      "remote_type": "onsite",
+      "url": "https://paypal.wd1.myworkdayjobs.com/job/Scottsdale-Arizona-United-States-of-America/Software-Engineer-2_R0137112",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-22",
+      "age": "1d",
+      "collected_at": "2026-07-23T20:19:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T20:19:38Z"
+    },
+    {
+      "id": "863fe0cc99138a63",
+      "company": "Mastercard",
+      "title": "Data Engineer II-1",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Data-Engineer-II-1_R-279726-1",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-23",
+      "age": "0d",
+      "collected_at": "2026-07-23T20:19:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T20:19:38Z"
+    },
+    {
+      "id": "5473943c81f97a56",
+      "company": "Pinterest",
+      "title": "Security Software Engineer II, Corporate Security",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Remote, US",
+      "remote_type": "remote",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7732971",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:39:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T20:19:38Z"
     },
     {
       "id": "ea4369a261c1e4a2",
@@ -45,48 +150,6 @@
       "closed_at": "2026-07-23T18:37:15Z"
     },
     {
-      "id": "d76a868df556107a",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Development-Engineer-II_R-284432",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-20",
-      "age": "3d",
-      "collected_at": "2026-07-23T18:37:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-23T18:37:15Z"
-    },
-    {
-      "id": "21b3e9049fd45232",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-282822",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-21",
-      "age": "2d",
-      "collected_at": "2026-07-23T18:37:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-23T18:37:15Z"
-    },
-    {
       "id": "85d3de89a0ecf741",
       "company": "Mastercard",
       "title": "Software Engineer II - CS",
@@ -99,48 +162,6 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "2d",
-      "collected_at": "2026-07-23T18:37:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-23T18:37:15Z"
-    },
-    {
-      "id": "a014bb964bd683bb",
-      "company": "PayPal",
-      "title": "Software Engineer 2",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Scottsdale, Arizona, United States of America",
-      "remote_type": "onsite",
-      "url": "https://paypal.wd1.myworkdayjobs.com/job/Scottsdale-Arizona-United-States-of-America/Software-Engineer-2_R0137112",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-22",
-      "age": "1d",
-      "collected_at": "2026-07-23T18:37:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-23T18:37:15Z"
-    },
-    {
-      "id": "863fe0cc99138a63",
-      "company": "Mastercard",
-      "title": "Data Engineer II-1",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Data-Engineer-II-1_R-279726-1",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-23",
-      "age": "0d",
       "collected_at": "2026-07-23T18:37:15Z",
       "tags": [
         "software",

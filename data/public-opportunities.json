@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T18:38:02Z",
-  "total": 629,
+  "generated_at": "2026-07-23T20:20:33Z",
+  "total": 631,
   "jobs": [
     {
       "id": "60c7c8c9d83ff421",
@@ -129,6 +129,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "213f79206666ac8e",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, DGX Cloud Orchestration",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "2dcb93a251497102",
       "kind": "job",
       "company": "NVIDIA",
@@ -153,6 +167,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "67a32871f5b5bdb5",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Engineer, Neural Graphics Developer Tools",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, OR, Hillsboro<br>US, NC, Durham<br>US, WA, Seattle</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Neural-Graphics-Developer-Tools_JR2015681",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -183,6 +211,20 @@
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Software-Engineer--Production-Engineering_JR2020074-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "3e7817d4117ddfe1",
+      "kind": "job",
+      "company": "Openai",
+      "title": "Software Engineer, Privacy Engineering (Lawful Access)",
+      "location": "San Francisco",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-23",
+      "url": "https://jobs.ashbyhq.com/openai/a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3",
+      "source": "ashby:openai",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
       "id": "0908f52a68b6d051",
@@ -741,20 +783,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer--Prisma-Access-_JR-019041",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
-      "id": "7b575db5548c213f",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Principal Software Engineer (Secure Agentic AI) - Petach Tikva \\ Be'er Sheva",
-      "location": "Office - Israel - CyberArk Petach Tikva",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Principal-Software-Engineer--Secure-Agentic-AI----Petach-Tikva---Be-er-Sheva_JR-018160",
       "source": "workday:paloaltonetworks",
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
@@ -8102,7 +8130,7 @@
       "company": "BuildBeyond",
       "title": "Build Beyond Hackathon",
       "location": "Online",
-      "date": "24 days left",
+      "date": "23 days left",
       "posted_at": "2026-07-23",
       "url": "https://build-beyond-hackathon.devpost.com/",
       "source": "devpost",
@@ -8378,7 +8406,7 @@
       "company": "ML Empowerment Foundation",
       "title": "ML Empowerment Build Challenge 2.0",
       "location": "Online",
-      "date": "23 days left",
+      "date": "22 days left",
       "posted_at": "2026-07-23",
       "url": "https://ml-empowerment-2.devpost.com/",
       "source": "devpost",
@@ -8570,7 +8598,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 2 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-07-23",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8582,7 +8610,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Summer Impactathon",
       "location": "Online",
-      "date": "18 days left",
+      "date": "17 days left",
       "posted_at": "2026-07-23",
       "url": "https://csc-summer-impactathon.devpost.com/",
       "source": "devpost",
