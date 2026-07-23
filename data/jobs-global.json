@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T03:45:56Z",
-  "total": 86,
+  "generated_at": "2026-07-23T06:39:43Z",
+  "total": 87,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -336,6 +336,46 @@
       "posted_at": "2026-07-22",
       "age": "Recently",
       "collected_at": "2026-07-22T20:21:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "db33967b86c341e0",
+      "company": "Goldman Sachs",
+      "title": "Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - Dallas",
+      "level": "entry_level",
+      "country": "United States",
+      "location": "Dallas, TX, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=f4361b7290689784",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-22",
+      "age": "1d",
+      "collected_at": "2026-07-23T06:39:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "25050aa1f2948c46",
+      "company": "Goldman Sachs",
+      "title": "Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - New York",
+      "level": "entry_level",
+      "country": "United States",
+      "location": "New York, NY, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=74433be930df41f9",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-22",
+      "age": "1d",
+      "collected_at": "2026-07-23T06:39:43Z",
       "tags": [
         "software",
         "programming",
@@ -1043,6 +1083,26 @@
       ]
     },
     {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "8d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "9b738d3d019be839",
       "company": "Citadel",
       "title": "Software Engineer Intern",
@@ -1075,26 +1135,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
@@ -1163,26 +1203,6 @@
       ]
     },
     {
-      "id": "26ec41004b2d610b",
-      "company": "Citadel Securities",
-      "title": "Machine Learning Researcher PhD Intern 🎓",
-      "level": "internship",
-      "country": "United States",
-      "location": "Miami, FL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-15",
-      "age": "14d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d4aa23e98c8055cb",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer - Internship - Commercial",
@@ -1236,6 +1256,26 @@
       "posted_at": "2026-07-17",
       "age": "16d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "26ec41004b2d610b",
+      "company": "Citadel Securities",
+      "title": "Machine Learning Researcher PhD Intern 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "Miami, FL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-15",
+      "age": "14d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1496,26 +1536,6 @@
       "posted_at": "2026-07-17",
       "age": "30d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "dee61fd2a43c40e9",
-      "company": "Tesla",
-      "title": "Software Engineer Intern - Fullstack Software Engineer - Fleetnet",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://www.tesla.com/careers/search/job/266764?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-23",
-      "age": "1mo",
-      "collected_at": "2026-07-23T03:45:56Z",
       "tags": [
         "software",
         "programming",
