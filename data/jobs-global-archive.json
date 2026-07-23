@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T20:19:38Z",
-  "total": 86,
+  "generated_at": "2026-07-23T22:13:53Z",
+  "total": 87,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "6d",
-      "collected_at": "2026-07-23T20:19:38Z",
+      "collected_at": "2026-07-23T22:13:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T20:19:38Z"
+      "closed_at": "2026-07-23T22:13:53Z"
     },
     {
       "id": "d76a868df556107a",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
       "age": "3d",
-      "collected_at": "2026-07-23T20:19:38Z",
+      "collected_at": "2026-07-23T22:13:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T20:19:38Z"
+      "closed_at": "2026-07-23T22:13:53Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "2d",
-      "collected_at": "2026-07-23T20:19:38Z",
+      "collected_at": "2026-07-23T22:13:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T20:19:38Z"
+      "closed_at": "2026-07-23T22:13:53Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "1d",
-      "collected_at": "2026-07-23T20:19:38Z",
+      "collected_at": "2026-07-23T22:13:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T20:19:38Z"
+      "closed_at": "2026-07-23T22:13:53Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -99,13 +99,34 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "0d",
-      "collected_at": "2026-07-23T20:19:38Z",
+      "collected_at": "2026-07-23T22:13:53Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T20:19:38Z"
+      "closed_at": "2026-07-23T22:13:53Z"
+    },
+    {
+      "id": "5885aefa9d6428ef",
+      "company": "Intel",
+      "title": "AI Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Phoenix, AZ",
+      "remote_type": "onsite",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-22",
+      "age": "1mo",
+      "collected_at": "2026-07-22T12:03:16Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-23T22:13:53Z"
     },
     {
       "id": "5473943c81f97a56",
