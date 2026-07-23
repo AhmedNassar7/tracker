@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T00:13:53Z",
+  "generated_at": "2026-07-23T03:46:54Z",
   "total": 678,
   "jobs": [
     {
@@ -323,6 +323,20 @@
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/System-Software-Engineer---GPU-Profiling_JR2020625",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "57ab938206878794",
+      "kind": "job",
+      "company": "Palo Alto Networks",
+      "title": "Distinguished Software Engineer - ADEM (Backend)",
+      "location": "Santa Clara, United States of America",
+      "level": "other",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Santa-Clara-United-States-of-America/Distinguished-Software-Engineer---ADEM--Backend-_JR-018648",
+      "source": "workday:paloaltonetworks",
+      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
       "id": "f0859ffaaeeb669e",
@@ -743,20 +757,6 @@
       "url": "https://jobs.lever.co/palantir/67110929-adea-41c3-851a-8882e222d9e4",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "9c93d30da116cc42",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Principal Software Engineer (Cloud Management)",
-      "location": "Office - USA - CA - Headquarters",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer--Cloud-Management-_JR-020186",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
       "id": "7b82af3b0c8bf58c",
@@ -8728,7 +8728,7 @@
       "company": "ACTS EDC",
       "title": "Brainwave 2026 – X402 Blockchain Track",
       "location": "Auditorium",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-07-23",
       "url": "https://brainwave-2026.devpost.com/",
       "source": "devpost",
@@ -8812,7 +8812,7 @@
       "company": "BuildBeyond",
       "title": "IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities",
       "location": "ICPAC",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-07-23",
       "url": "https://igad-husika-hackathon.devpost.com/",
       "source": "devpost",
@@ -8932,7 +8932,7 @@
       "company": "global-tech-challenge",
       "title": "Global Tech Innovation Challenge",
       "location": "Online",
-      "date": "2 days left",
+      "date": "1 day left",
       "posted_at": "2026-07-23",
       "url": "https://global-tech-challenge.devpost.com/",
       "source": "devpost",
@@ -9004,7 +9004,7 @@
       "company": "Innovation Hacks",
       "title": "NextGen Innovation2026",
       "location": "Online",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-07-23",
       "url": "https://nextgen-innovation-2026.devpost.com/",
       "source": "devpost",
@@ -9136,7 +9136,7 @@
       "company": "Perfect Corp",
       "title": "YouCam API Skin AI & Apparel VTO Hackathon",
       "location": "Online",
-      "date": "26 days left",
+      "date": "25 days left",
       "posted_at": "2026-07-23",
       "url": "https://youcam-api.devpost.com/",
       "source": "devpost",
@@ -9328,7 +9328,7 @@
       "company": "university of pennsylvania",
       "title": "M&TSI 2026 (Deliwala/Babin)",
       "location": "Online",
-      "date": "2 days left",
+      "date": "1 day left",
       "posted_at": "2026-07-23",
       "url": "https://mtsi2026.devpost.com/",
       "source": "devpost",
