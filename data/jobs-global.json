@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T06:39:43Z",
-  "total": 87,
+  "generated_at": "2026-07-23T09:35:35Z",
+  "total": 85,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -336,46 +336,6 @@
       "posted_at": "2026-07-22",
       "age": "Recently",
       "collected_at": "2026-07-22T20:21:23Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "db33967b86c341e0",
-      "company": "Goldman Sachs",
-      "title": "Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - Dallas",
-      "level": "entry_level",
-      "country": "United States",
-      "location": "Dallas, TX, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=f4361b7290689784",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-22",
-      "age": "1d",
-      "collected_at": "2026-07-23T06:39:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "25050aa1f2948c46",
-      "company": "Goldman Sachs",
-      "title": "Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - New York",
-      "level": "entry_level",
-      "country": "United States",
-      "location": "New York, NY, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=74433be930df41f9",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-22",
-      "age": "1d",
-      "collected_at": "2026-07-23T06:39:43Z",
       "tags": [
         "software",
         "programming",
