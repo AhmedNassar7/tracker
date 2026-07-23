@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T03:46:54Z",
-  "total": 678,
+  "generated_at": "2026-07-23T06:40:29Z",
+  "total": 679,
   "jobs": [
     {
       "id": "66a5b09646b38bbd",
@@ -601,6 +601,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Madrid-Spain/Sr-Staff-Site-Reliability-Engineer_JR-018712-1",
+      "source": "workday:paloaltonetworks",
+      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
+    },
+    {
+      "id": "51be6a890c3c8a1d",
+      "kind": "job",
+      "company": "Palo Alto Networks",
+      "title": "Sr Staff Software Engineer (Data & AI Platform)",
+      "location": "Office - Israel - CyberArk Petach Tikva",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Sr-Staff-Senior-Software-Engineer--Data---AI-Platform-_JR-018205",
       "source": "workday:paloaltonetworks",
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
@@ -8747,18 +8761,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "f868559e521b0d53",
-      "kind": "hackathon",
-      "company": "arm",
-      "title": "Arm Create: AI Optimization Challenge",
-      "location": "Online",
-      "date": "23 days left",
-      "posted_at": "2026-07-23",
-      "url": "https://arm-ai-optimization-challenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "b0e0865e822e55ce",
       "kind": "hackathon",
       "company": "Backblaze",
@@ -8831,24 +8833,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "9db32b1799e931c4",
-      "kind": "hackathon",
-      "company": "Celesta",
-      "title": "India High School Exoplanet Data Challenge",
-      "location": "Online",
-      "date": "9 days left",
-      "posted_at": "2026-07-23",
-      "url": "https://celesta-exoplanet-challenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "38582d808f539be4",
       "kind": "hackathon",
       "company": "Cloud Counselage",
       "title": "DTI Hackathon 2026",
       "location": "Online",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-07-23",
       "url": "https://dti-hackathon-2026-30476.devpost.com/",
       "source": "devpost",
@@ -9071,6 +9061,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "efa4246f884c2d37",
+      "kind": "hackathon",
+      "company": "Major League Hacking",
+      "title": "Dev Clash",
+      "location": "Online",
+      "date": "about 5 hours left",
+      "posted_at": "2026-07-23",
+      "url": "https://dev-clash.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "557cb67ce581fd9b",
       "kind": "hackathon",
       "company": "ML Empowerment Foundation",
@@ -9232,7 +9234,7 @@
       "company": "Student Organization",
       "title": "COMPSPHERE 11",
       "location": "Online",
-      "date": "about 15 hours left",
+      "date": "about 9 hours left",
       "posted_at": "2026-07-23",
       "url": "https://compsphere-11.devpost.com/",
       "source": "devpost",
@@ -9271,6 +9273,18 @@
       "date": "about 1 month left",
       "posted_at": "2026-07-23",
       "url": "https://buuniex-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "45645b8447699aad",
+      "kind": "hackathon",
+      "company": "Tecnoviz Dev Comm",
+      "title": "Technoviz Summer of Code",
+      "location": "Online",
+      "date": "about 15 hours left",
+      "posted_at": "2026-07-23",
+      "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9316,7 +9330,7 @@
       "company": "TrainzexAI",
       "title": "Impact Creation",
       "location": "Online",
-      "date": "6 days left",
+      "date": "5 days left",
       "posted_at": "2026-07-23",
       "url": "https://impact-creation.devpost.com/",
       "source": "devpost",

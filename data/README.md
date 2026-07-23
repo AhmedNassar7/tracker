@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 503 |
+| Jobs | 505 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 560 |
+| Total | 562 |
 
 ## Jobs
 
-[![Jobs 503](https://img.shields.io/badge/Jobs-503-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 57](https://img.shields.io/badge/Internship-57-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 419](https://img.shields.io/badge/Mid--Level%20and%20Above-419-dc2626.svg)](#mid-level-and-above)
+[![Jobs 505](https://img.shields.io/badge/Jobs-505-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 56](https://img.shields.io/badge/Internship-56-22c55e.svg)](#internship) [![Early Career 29](https://img.shields.io/badge/Early%20Career-29-0ea5e9.svg)](#early-career) [![Mid-Level and Above 420](https://img.shields.io/badge/Mid--Level%20and%20Above-420-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 57
+Total roles: 56
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -76,7 +76,6 @@ Total roles: 57
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify) | San Diego, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Body Controls Firmware](https://www.tesla.com/careers/search/job/270618?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Steering,Chassis Systems](https://www.tesla.com/careers/search/job/274047?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
-| Tesla | [Software Engineer Intern - Fullstack Software Engineer - Fleetnet](https://www.tesla.com/careers/search/job/266764?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Tesla | [Software Engineer Intern - Software Engineer - AI Hardware Infrastructure](https://www.tesla.com/careers/search/job/260382?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Zipline | [Enterprise Systems Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7767667003) | South San Francisco, CA | 1mo |
 | Zipline | [Embedded Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7765240003) | South San Francisco, CA | 1mo |
@@ -102,7 +101,7 @@ Total roles: 57
 
 ### Early Career
 
-Total roles: 27
+Total roles: 29
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -114,6 +113,8 @@ Total roles: 27
 | Priceline.com | [Associate Java Developer](https://ca.indeed.com/viewjob?jk=5dcaf0ddf7f5042f) | Toronto, ON, CA | 0d |
 | Siemens | [Software Developer - New Graduate- 12 Month Contract](https://ca.linkedin.com/jobs/view/software-developer-new-graduate-12-month-contract-at-siemens-4414765886) | Vaughan, Ontario (Hybrid) | 0d |
 | Triunity Software, Inc. | [Jr. Machine Learning Engineer](https://ca.linkedin.com/jobs/view/jr-machine-learning-engineer-at-triunity-software-inc-4435698475) | Vancouver, British Columbia (Onsite) | 0d |
+| Goldman Sachs | [Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - Dallas](https://www.indeed.com/viewjob?jk=f4361b7290689784) | Dallas, TX, US | 1d |
+| Goldman Sachs | [Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - New York](https://www.indeed.com/viewjob?jk=74433be930df41f9) | New York, NY, US | 1d |
 | NVIDIA | [Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957?utm_source=Simplify&ref=Simplify) | Seattle, WA Santa Clara, CA | 4d |
 | Notion | [Software Engineer – Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify) | SF | 8d |
 | NVIDIA | [System Software Engineer New Grad - Dynamo-Triton Inference Server 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Dynamo-Triton-Inference-Server---New-College-Grad-2026_JR2020767?utm_source=Simplify&ref=Simplify) | Remote in USA Santa Clara, CA | 8d |
@@ -136,7 +137,7 @@ Total roles: 27
 
 ### Mid-Level and Above
 
-Total roles: 419
+Total roles: 420
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -183,6 +184,7 @@ Total roles: 419
 | Palo Alto Networks | [Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Site-Reliability-Engineer_JR-019651) | Office - India - CyberArk Hyderabad | 0d |
 | Palo Alto Networks | [Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Site-Reliability-Engineer_JR-020196) | Office - India - CyberArk Hyderabad | 0d |
 | Palo Alto Networks | [Sr Staff Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Madrid-Spain/Sr-Staff-Site-Reliability-Engineer_JR-018712-1) | Madrid, Spain | 0d |
+| Palo Alto Networks | [Sr Staff Software Engineer (Data & AI Platform)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Sr-Staff-Senior-Software-Engineer--Data---AI-Platform-_JR-018205) | Office - Israel - CyberArk Petach Tikva | 0d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 0d |
 | Pinterest | [Security Software Engineer II, Corporate Security](https://www.pinterestcareers.com/jobs/?gh_jid=7732971) | San Francisco, CA, US; Remote, US | 0d |
@@ -570,14 +572,12 @@ Total hackathons: 54
 | ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
 | ACTS EDC | [Brainwave 2026 – X402 Blockchain Track](https://brainwave-2026.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
-| arm | [Arm Create: AI Optimization Challenge](https://arm-ai-optimization-challenge.devpost.com/) |
 | Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
 | Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) |
 | Blueprint Hackathon | [The Blueprint Hackathon (For All Ages, July 17th-31st)](https://the-blueprint-hackathon.devpost.com/) |
 | BuildBeyond | [Build Beyond Hackathon](https://build-beyond-hackathon.devpost.com/) |
 | BuildBeyond | [IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities](https://igad-husika-hackathon.devpost.com/) |
 | CAHSI at FIU | [305 SummerCodex Edition July 2026](https://305summercodexjul2026.devpost.com/) |
-| Celesta | [India High School Exoplanet Data Challenge](https://celesta-exoplanet-challenge.devpost.com/) |
 | Cloud Counselage | [DTI Hackathon 2026](https://dti-hackathon-2026-30476.devpost.com/) |
 | Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
 | contact@orionglobalhackathon.com | [OrionHackathon](https://orionhackathon.devpost.com/) |
@@ -597,6 +597,7 @@ Total hackathons: 54
 | kit | [Rampamble](https://rampamble.devpost.com/) |
 | Kuki Designed group | [Kuki Designed group](https://kuki-designed-group.devpost.com/) |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
+| Major League Hacking | [Dev Clash](https://dev-clash.devpost.com/) |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 2.0](https://ml-empowerment-2.devpost.com/) |
 | NeuralSprint | [NeuralSprint](https://neuralsprint.devpost.com/) |
 | Next Bytes | [Next Byte Hacks V3](https://next-byte-hacks-v3.devpost.com/) |
@@ -614,6 +615,7 @@ Total hackathons: 54
 | Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
 | TechElevate | [Sound for All](https://sound-for-all.devpost.com/) |
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
+| Tecnoviz Dev Comm | [Technoviz Summer of Code](https://technoviz-summer-of-code.devpost.com/) |
 | The Webb Schools CSC | [CSC Summer Impactathon](https://csc-summer-impactathon.devpost.com/) |
 | to be determined | [Prompt Insights News](https://prompt-insights-news.devpost.com/) |
 | Trainzex AI | [Creation Code](https://creation-code-30750.devpost.com/) |
