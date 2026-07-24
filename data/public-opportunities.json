@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T00:12:49Z",
-  "total": 630,
+  "generated_at": "2026-07-24T03:45:15Z",
+  "total": 625,
   "jobs": [
     {
       "id": "8f994339dc5e9827",
@@ -129,10 +129,10 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "9c8460485f3d4af2",
+      "id": "16c98306287145f3",
       "kind": "job",
       "company": "NVIDIA",
-      "title": "Senior Software Engineer, CUDA Core Libraries",
+      "title": "Senior Software Engineer, CUDA Rust Core Libraries",
       "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
       "level": "other",
       "role_type": "software_engineer",
@@ -181,6 +181,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--L4---Autonomous-Vehicles_JR2021766-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "d2165dc37a59e2fb",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Firmware Engineer - BIOS UEFI",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, CA, Santa Clara<br>US, OR, Hillsboro<br>US, WA, Redmond</details>",
+      "level": "other",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Firmware-Engineer---BIOS-UEFI_JR2014710",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -405,20 +419,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Software-Engineer_JR2015068",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "04e854a4013ee540",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, DOCA SDK",
-      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Raanana<br>Israel, Yokneam</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Software-Engineer--DOCA-SDK_JR2021322",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -7986,7 +7986,7 @@
       "company": "ACTS EDC",
       "title": "Brainwave 2026 – X402 Blockchain Track",
       "location": "Auditorium",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-07-24",
       "url": "https://brainwave-2026.devpost.com/",
       "source": "devpost",
@@ -8058,7 +8058,7 @@
       "company": "BuildBeyond",
       "title": "IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities",
       "location": "ICPAC",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-07-24",
       "url": "https://igad-husika-hackathon.devpost.com/",
       "source": "devpost",
@@ -8070,7 +8070,7 @@
       "company": "CAHSI at FIU",
       "title": "305 SummerCodex Edition July 2026",
       "location": "Online",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-07-24",
       "url": "https://305summercodexjul2026.devpost.com/",
       "source": "devpost",
@@ -8178,7 +8178,7 @@
       "company": "global-tech-challenge",
       "title": "Global Tech Innovation Challenge",
       "location": "Online",
-      "date": "about 22 hours left",
+      "date": "about 17 hours left",
       "posted_at": "2026-07-24",
       "url": "https://global-tech-challenge.devpost.com/",
       "source": "devpost",
@@ -8250,7 +8250,7 @@
       "company": "Innovation Hacks",
       "title": "NextGen Innovation2026",
       "location": "Online",
-      "date": "16 days left",
+      "date": "15 days left",
       "posted_at": "2026-07-24",
       "url": "https://nextgen-innovation-2026.devpost.com/",
       "source": "devpost",
@@ -8607,30 +8607,6 @@
   ],
   "events": [
     {
-      "id": "229397d627dbf883",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/sf-builders-collective?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8655,18 +8631,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8675,30 +8639,6 @@
       "date": "",
       "posted_at": "2026-07-24",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/sf-hardware-meetup?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "29d2320e60efcc7f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow YC Startup School San Francisco · Explore unofficial side events at YC Startup School, a two-day gathering where ambitious technical builders, engineers, researchers around startup-focused activities. July 25-26, San Francisco.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/ycss?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
