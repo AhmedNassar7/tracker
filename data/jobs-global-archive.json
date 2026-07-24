@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T23:12:53Z",
-  "total": 88,
+  "generated_at": "2026-07-24T00:11:49Z",
+  "total": 90,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -14,14 +14,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "6d",
-      "collected_at": "2026-07-23T23:12:53Z",
+      "age": "7d",
+      "collected_at": "2026-07-24T00:11:49Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T23:12:53Z"
+      "closed_at": "2026-07-24T00:11:49Z"
     },
     {
       "id": "d76a868df556107a",
@@ -35,14 +35,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-20",
-      "age": "3d",
-      "collected_at": "2026-07-23T23:12:53Z",
+      "age": "4d",
+      "collected_at": "2026-07-24T00:11:49Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T23:12:53Z"
+      "closed_at": "2026-07-24T00:11:49Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -56,14 +56,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
-      "age": "2d",
-      "collected_at": "2026-07-23T23:12:53Z",
+      "age": "3d",
+      "collected_at": "2026-07-24T00:11:49Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T23:12:53Z"
+      "closed_at": "2026-07-24T00:11:49Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -77,14 +77,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
-      "age": "1d",
-      "collected_at": "2026-07-23T23:12:53Z",
+      "age": "2d",
+      "collected_at": "2026-07-24T00:11:49Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T23:12:53Z"
+      "closed_at": "2026-07-24T00:11:49Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -98,14 +98,56 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
-      "age": "0d",
-      "collected_at": "2026-07-23T23:12:53Z",
+      "age": "1d",
+      "collected_at": "2026-07-24T00:11:49Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-23T23:12:53Z"
+      "closed_at": "2026-07-24T00:11:49Z"
+    },
+    {
+      "id": "cc296b8b977e9751",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer II, AMZL-Central Learni...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Bellevue, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10481342/data-engineer-ii-amzl-central-learning-solutions-data-engineering-team",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T16:44:07Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-24T00:11:49Z"
+    },
+    {
+      "id": "037cf01d4c0ec553",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556941883",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-23",
+      "age": "Recently",
+      "collected_at": "2026-07-23T20:19:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-24T00:11:49Z"
     },
     {
       "id": "1d189997c9218173",
