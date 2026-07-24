@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T15:44:03Z",
-  "total": 84,
+  "generated_at": "2026-07-24T17:50:41Z",
+  "total": 85,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -256,6 +256,26 @@
       "posted_at": "2026-07-24",
       "age": "Recently",
       "collected_at": "2026-07-24T00:11:49Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "be4fe26d948a3ddc",
+      "company": "Pinterest",
+      "title": "Software Engineer II, tvScientific",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7782535",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-24",
+      "age": "Recently",
+      "collected_at": "2026-07-24T17:50:41Z",
       "tags": [
         "software",
         "programming",
