@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T23:12:53Z",
-  "total": 83,
+  "generated_at": "2026-07-24T00:11:49Z",
+  "total": 82,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -56,26 +56,6 @@
       "posted_at": "2026-07-22",
       "age": "Recently",
       "collected_at": "2026-07-22T12:03:16Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "cc296b8b977e9751",
-      "company": "Amazon.com Services LLC",
-      "title": "Data Engineer II, AMZL-Central Learni...",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Bellevue, WA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10481342/data-engineer-ii-amzl-central-learning-solutions-data-engineering-team",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-22",
-      "age": "Recently",
-      "collected_at": "2026-07-22T16:44:07Z",
       "tags": [
         "software",
         "programming",
@@ -183,46 +163,6 @@
       ]
     },
     {
-      "id": "d7e4cd19ff147953",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-10",
-      "age": "7d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f7eb9ebbd5e7799c",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-10",
-      "age": "7d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "df8b2d6a41f60490",
       "company": "Elastic Path",
       "title": "Junior DevOps Engineer",
@@ -303,39 +243,19 @@
       ]
     },
     {
-      "id": "037cf01d4c0ec553",
+      "id": "ab38e68a0a7ca07c",
       "company": "Microsoft",
-      "title": "Software Engineer II",
+      "title": "Software Engineer II Azure Resource...",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Redmond, Washingt...",
+      "country": "United States",
+      "location": "United States",
       "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556941883",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556847370",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-23",
+      "posted_at": "2026-07-24",
       "age": "Recently",
-      "collected_at": "2026-07-23T20:19:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6bf7501bc7674cab",
-      "company": "NVIDIA",
-      "title": "Software Engineer New Grad - Physical Design Infrastructure",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-23",
-      "age": "0d",
-      "collected_at": "2026-07-23T23:12:53Z",
+      "collected_at": "2026-07-24T00:11:49Z",
       "tags": [
         "software",
         "programming",
@@ -375,6 +295,66 @@
       "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
       "posted_at": "2026-07-17",
       "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6bf7501bc7674cab",
+      "company": "NVIDIA",
+      "title": "Software Engineer New Grad - Physical Design Infrastructure",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-23",
+      "age": "0d",
+      "collected_at": "2026-07-23T23:12:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d7e4cd19ff147953",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
+      "remote_type": "onsite",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-10",
+      "age": "7d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f7eb9ebbd5e7799c",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-10",
+      "age": "7d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",

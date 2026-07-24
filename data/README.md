@@ -1,6 +1,6 @@
 # Software Engineering Opportunities
 
-**Last Updated:** 2026-07-23  ·  refreshed hourly  ·  [← back to project overview](../README.md)
+**Last Updated:** 2026-07-24  ·  refreshed hourly  ·  [← back to project overview](../README.md)
 
 Every row links straight to the real application page. Click a title to apply — no account on this repo needed. The **Age** column shows how long ago the listing was posted, so you can spot the newest roles at a glance.
 
@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 445 |
+| Jobs | 447 |
 | Hackathons | 54 |
-| Events | 3 |
-| Total | 502 |
+| Events | 8 |
+| Total | 509 |
 
 ## Jobs
 
-[![Jobs 445](https://img.shields.io/badge/Jobs-445-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 55](https://img.shields.io/badge/Internship-55-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 364](https://img.shields.io/badge/Mid--Level%20and%20Above-364-dc2626.svg)](#mid-level-and-above)
+[![Jobs 447](https://img.shields.io/badge/Jobs-447-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 55](https://img.shields.io/badge/Internship-55-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 366](https://img.shields.io/badge/Mid--Level%20and%20Above-366-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -50,28 +50,28 @@ Total roles: 55
 | Hudson River Trading | [Software Engineering Internship - C++ or Python - Summer 2027](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) | London, United Kingdom +4 | 3d |
 | Jane Street | [Data Engineer Summer Internship](https://www.janestreet.com/join-jane-street/position/8631973002) | New York City, NY | 3d |
 | Citadel | [Software Engineer Intern](https://www.citadel.com/careers/details/software-engineer-intern-us/?utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details> | 9d |
-| Cloudflare | [Software Engineer Intern (Fall 2026) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) | In-Office | 9d |
+| Cloudflare | [Software Engineer Intern (Fall 2026) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) | In-Office | 10d |
 | Jane Street | [Machine Learning Engineer Summer Internship](https://www.janestreet.com/join-jane-street/position/8611307002) | New York City, NY | 10d |
 | Jane Street | [Machine Learning Researcher Summer Internship](https://www.janestreet.com/join-jane-street/position/8384490002) | New York City, NY | 10d |
 | Jane Street | [Software Engineer Summer Internship](https://www.janestreet.com/join-jane-street/position/8599644002) | New York City, NY | 10d |
 | Jane Street | [Software Engineer Winter Co-Op](https://www.janestreet.com/join-jane-street/position/8419303002) | New York City, NY | 10d |
-| Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9) | Washington, D.C. | 13d |
-| Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69) | Palo Alto, CA | 13d |
-| Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/cf5f44ff-1b0b-4752-bcd4-2dc88798f25b) | New York, NY | 13d |
 | Citadel Securities | [Machine Learning Researcher PhD Intern 🎓](https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify) | Miami, FL NYC | 14d |
+| Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9) | Washington, D.C. | 14d |
+| Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69) | Palo Alto, CA | 14d |
+| Palantir | [Forward Deployed Infrastructure Engineer, Internship - US Government](https://jobs.lever.co/palantir/cf5f44ff-1b0b-4752-bcd4-2dc88798f25b) | New York, NY | 14d |
 | Palantir | [Forward Deployed Software Engineer - Internship - Intel](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) | Washington, DC | 15d |
 | Palantir | [Forward Deployed Software Engineer - Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | 16d |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego, CA | 16d |
 | Tesla | [Data Engineer Intern - Applications Engineering](https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify) | Fremont, CA | 17d |
 | Palo Alto Networks | [Software Engineer Intern 🎓](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011598?utm_source=Simplify&ref=Simplify) | California | 19d |
 | Zipline | [Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7787509003) | South San Francisco, CA | 20d |
-| Palantir | [Forward Deployed Software Engineer, Internship - Intel](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) | Washington, D.C. | 22d |
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer - Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 22d |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego | 22d |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego | 22d |
-| Palantir | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | 23d |
-| Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 29d |
+| Palantir | [Forward Deployed Software Engineer, Internship - Intel](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) | Washington, D.C. | 23d |
+| Palantir | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) | Chicago, IL | 24d |
 | ByteDance | [Software Engineer Intern - Developer Infrastructure](https://jobs.bytedance.com/en/position/7595707875767699765/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
+| Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 1mo |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify) | San Diego, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Body Controls Firmware](https://www.tesla.com/careers/search/job/270618?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Steering,Chassis Systems](https://www.tesla.com/careers/search/job/274047?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
@@ -119,11 +119,11 @@ Total roles: 26
 | Notion | [Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) | San Francisco, California, United States | 11d |
 | Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California, United States | 11d |
 | Palantir | [Software Engineer New Grad - Production Infrastructure](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 15d |
-| Notion | [Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) | San Francisco, California | 17d |
-| Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California | 17d |
+| Notion | [Software Engineer, Early Career](https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f) | San Francisco, California | 18d |
+| Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California | 18d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 18d |
 | Stripe | [Software Engineer, New Grad, Developer & End User Experience Platform](https://stripe.com/jobs/search?gh_jid=7991718) | Toronto | 21d |
-| Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 24d |
+| Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 25d |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 28d |
 | NVIDIA | [Software Engineer New Grad - Hardware Tools and Methodology 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify) | Santa Clara, CA | 1mo |
 | Stripe | [Software Engineer New Grad](https://stripe.com/jobs/search?gh_jid=7991718&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 1mo |
@@ -133,7 +133,7 @@ Total roles: 26
 
 ### Mid-Level and Above
 
-Total roles: 364
+Total roles: 366
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -146,16 +146,15 @@ Total roles: 364
 | NVIDIA | [Senior Software Engineer - Applied Research in Robotics](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---Applied-Research-in-Robotics_JR2021411) | India, Bengaluru | 0d |
 | NVIDIA | [Senior Software Engineer - Server Manageability](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer---Server-Manageability_JR2015959) | <details><summary>6 locations</summary>US, CA<br>Remote, US<br>TX<br>Austin, US<br>CO<br>Remote, US<br>WA<br>Remote, US<br>CA<br>Santa Clara, US<br>MA<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer, AI Agent Compute](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--AI-Agent-Compute_JR2021516-1) | <details><summary>2 locations</summary>US, CA<br>Remote, US<br>NC<br>Remote</details> | 0d |
+| NVIDIA | [Senior Software Engineer, CUDA Core Libraries](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--CUDA-Core-Libraries_JR2021170) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer, DGX Cloud Orchestration](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer, Humanoid Robotics](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--Humanoid-Robotics_JR2021777) | China, Shanghai | 0d |
+| NVIDIA | [Senior Software Engineer, L4 - Autonomous Vehicles](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--L4---Autonomous-Vehicles_JR2021766-1) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior Systems Software Engineer, Data Center Platform Enablement](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Software Engineer, Neural Graphics Developer Tools](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Neural-Graphics-Developer-Tools_JR2015681) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>OR<br>Hillsboro, US<br>NC<br>Durham, US<br>WA<br>Seattle</details> | 0d |
+| NVIDIA | [Software Engineer, Performance Lab and Tools](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2014711) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Software Engineer, Physical Design Infrastructure - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Software Engineer, Production Engineering](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Software-Engineer--Production-Engineering_JR2020074-1) | India, Bengaluru | 0d |
-| Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3) | San Francisco | 0d |
-| Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/118b71ad-0daa-497d-9061-68e90ea03368) | London, UK | 0d |
-| Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/e99105f1-0a15-4f25-9538-60312568f835) | Dublin, Ireland | 0d |
-| Palantir | [Forward Deployed Software Engineer - NATO](https://jobs.lever.co/palantir/73d1a90c-162d-4cb6-9e0c-4c8de9561ad0) | London, United Kingdom | 0d |
 | Palo Alto Networks | [Principal Cloud Infrastructure Engineer (Advanced Threat Protection)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Cloud-Infrastructure-Engineer--Advanced-Threat-Protection-_JR-019223) | Office - USA - CA - Headquarters | 0d |
 | Palo Alto Networks | [Principal DevOps Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---United-Kingdom---CyberArk-London/Staff-Automation-Engineer_JR-018138) | Office - United Kingdom - CyberArk London | 0d |
 | Palo Alto Networks | [Principal DevOps Engineer (Prisma Access Browser)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-DevOps-Engineer--Prisma-Access-Browser-_JR-019895) | Office - Israel - Tel Aviv | 0d |
@@ -176,12 +175,6 @@ Total roles: 364
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 0d |
 | Pinterest | [Software Engineer II, iOS](https://www.pinterestcareers.com/jobs/?gh_jid=5601228) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Software Engineer II, Web](https://www.pinterestcareers.com/jobs/?gh_jid=8024883) | Toronto, ON, CA | 0d |
-| Wise | [Android Engineer- Regional Experience](https://jobs.smartrecruiters.com/Wise/744000139322290) | London, United Kingdom | 0d |
-| Wise | [Senior Backend Engineer](https://jobs.smartrecruiters.com/Wise/744000139212569) | Hyderabad, India | 0d |
-| Wise | [Senior Software Engineer I - Stream Processing - Kafka & Flink](https://jobs.smartrecruiters.com/Wise/744000139237939) | London, England, United Kingdom | 0d |
-| Clickhouse | [Senior Cloud Data Infrastructure Engineer](https://jobs.ashbyhq.com/clickhouse/b6e7fb97-e7e2-4e29-9476-b777d787a94c) | EMEA | 1d |
-| Clickhouse | [Senior Cloud Data Infrastructure Engineer](https://jobs.ashbyhq.com/clickhouse/9e205698-0e50-42e5-8783-a79a7ff7efaa) | EMEA | 1d |
-| Cloudflare | [Software Engineer, Realtime](https://boards.greenhouse.io/cloudflare/jobs/7887609?gh_jid=7887609) | Hybrid | 1d |
 | NVIDIA | [Deep Learning Software Engineer, Inference - New College Grad 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Deep-Learning-Software-Engineer--Inference---New-College-Grad-2026_JR2021742) | <details><summary>5 locations</summary>US, CA<br>Remote, US<br>TX<br>Remote, US<br>NY<br>Remote, US<br>WA<br>Remote, US<br>MA<br>Remote</details> | 1d |
 | NVIDIA | [Director, Autonomous Vehicles Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Abstraction-Layer-Engineering---Autonomous-Platform_JR2002272) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Director, System Software Engineering - Metropolis Accelerated and Inferencing Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Metropolis-Accelerated-and-Inferencing-Software_JR2011299) | US, CA, Santa Clara | 1d |
@@ -193,11 +186,10 @@ Total roles: 364
 | NVIDIA | [Senior System Software Engineer - Halos](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer----Halos_JR2021297) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior System Software Engineer - Halos Core and Robotics Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer----Halos-Core-and-Robotics-Platform_JR2021313) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Systems Software Engineer – QoS](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---QoS_JR2021815) | <details><summary>3 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Remote, US<br>CA<br>Remote</details> | 1d |
-| Openai | [Simulation Infrastructure Engineer](https://jobs.ashbyhq.com/openai/39cd0dd8-520d-4932-80bf-7495a1d1d11b) | San Francisco | 1d |
-| Openai | [Tax Director - Infrastructure & Incentives](https://jobs.ashbyhq.com/openai/11a78901-33d6-4c49-8750-25286038aafa) | San Francisco | 1d |
-| Palantir | [Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/d40d5d19-8f9e-4e6b-b4d3-b7457c90adec) | Washington, D.C. | 1d |
-| Palantir | [Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/d7030550-f80f-422c-965f-3120db433dea) | Palo Alto, CA | 1d |
-| Palantir | [Software Engineer - Edge AI Systems](https://jobs.lever.co/palantir/67110929-adea-41c3-851a-8882e222d9e4) | Seattle, WA | 1d |
+| Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3) | San Francisco | 1d |
+| Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/118b71ad-0daa-497d-9061-68e90ea03368) | London, UK | 1d |
+| Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/e99105f1-0a15-4f25-9538-60312568f835) | Dublin, Ireland | 1d |
+| Palantir | [Forward Deployed Software Engineer - NATO](https://jobs.lever.co/palantir/73d1a90c-162d-4cb6-9e0c-4c8de9561ad0) | London, United Kingdom | 1d |
 | Palo Alto Networks | [Distinguished Software Engineer - ADEM (Backend)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Santa-Clara-United-States-of-America/Distinguished-Software-Engineer---ADEM--Backend-_JR-018648) | Santa Clara, United States of America | 1d |
 | Palo Alto Networks | [Principal Engineer Software- Backend (Prisma Browser)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Principal-Engineer-Software--Backend--Prisma-Browser-_JR-018343) | Office - USA - CA - Headquarters | 1d |
 | Palo Alto Networks | [Principal Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Site-Reliability-Engineer_JR-020124) | Office - USA - CA - Headquarters | 1d |
@@ -209,90 +201,101 @@ Total roles: 364
 | Palo Alto Networks | [Sr Staff Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Madrid-Spain/Sr-Staff-Site-Reliability-Engineer_JR-018712-1) | Madrid, Spain | 1d |
 | Sony | [Staff Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Texas/Staff-Software-Engineer--AI-Native_JR-119292-1) | <details><summary>11 locations</summary>Remote - Texas<br>Work from Home-TX<br>Work from Home-CO<br>Work from Home-CA<br>Work from Home-OR<br>NA / Culver City 10202 W. Washington 40<br>Work from Home-SD<br>NA / San Diego Via Esprillo 40<br>Work from Home-WA<br>Work from Home-NV<br>Work from Home-NM</details> | 1d |
 | Sony | [Staff Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Texas/Staff-Software-Engineer--AI-Native_JR-119292-1) | <details><summary>11 locations</summary>Remote - Texas<br>Work from Home-TX<br>Work from Home-CO<br>Work from Home-CA<br>Work from Home-OR<br>NA / Culver City 10202 W. Washington 40<br>Work from Home-SD<br>NA / San Diego Via Esprillo 40<br>Work from Home-WA<br>Work from Home-NV<br>Work from Home-NM</details> | 1d |
-| Wise | [Senior Backend Software Engineer I - Personal & Business Pricing Team](https://jobs.smartrecruiters.com/Wise/744000139048599) | London, United Kingdom | 1d |
-| Wise | [Senior Fullstack Engineer - Customer Risk Assessment](https://jobs.smartrecruiters.com/Wise/744000139112495) | Budapest, Hungary | 1d |
-| Wise | [Senior iOS Engineer – Send Experience](https://jobs.smartrecruiters.com/Wise/744000139108560) | London, United Kingdom | 1d |
-| Wise | [Senior Software Engineer I - Servicing Platform](https://jobs.smartrecruiters.com/Wise/744000139108668) | London, United Kingdom | 1d |
-| Cohere | [Engineering Manager, GPU Infrastructure](https://jobs.ashbyhq.com/cohere/28239d75-5dd9-41fb-ba43-cb08b491be2b) | United States | 2d |
-| Openai | [Product Engineer, Enterprise AI Platform](https://jobs.ashbyhq.com/openai/aeeabb7a-f6e0-4e8d-a9ad-ae3464288125) | San Francisco | 2d |
-| Openai | [Software Engineer, Ads Integrity](https://jobs.ashbyhq.com/openai/596e543a-0ab9-471e-a1ff-40fd55c74fce) | San Francisco | 2d |
-| Openai | [Software Engineer, Compute Foundations Systems](https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64) | San Francisco | 2d |
-| Wise | [Senior Backend Engineer - Payin Platform](https://jobs.smartrecruiters.com/Wise/744000138816199) | London, United Kingdom | 2d |
-| Wise | [Senior Fullstack Engineer - Servicing, FinCrime](https://jobs.smartrecruiters.com/Wise/744000138842199) | London, United Kingdom | 2d |
-| Wise | [Senior Software Engineer - Generative AI Platform](https://jobs.smartrecruiters.com/Wise/744000138827839) | Tallinn, Estonia | 2d |
-| Wise | [Senior Software Engineer I - KYC Experience](https://jobs.smartrecruiters.com/Wise/744000138801759) | London, United Kingdom | 2d |
-| Wise | [Software Engineer - Payin Platform](https://jobs.smartrecruiters.com/Wise/744000138840349) | Tallinn, Estonia | 2d |
-| Cloudflare | [Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) | Hybrid | 3d |
-| Notion | [Software Engineer, Infrastructure](https://jobs.ashbyhq.com/notion/42f18ccd-c4c8-4a85-8c1f-de12c575fe87) | Hyderabad, India | 3d |
-| Openai | [Software Engineer, Ads Conversion Measurement](https://jobs.ashbyhq.com/openai/1b86ec8e-fe34-452d-bbff-6619579e7385) | San Francisco | 3d |
-| Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138593452) | London, United Kingdom | 3d |
+| Wise | [Android Engineer- Regional Experience](https://jobs.smartrecruiters.com/Wise/744000139322290) | London, United Kingdom | 1d |
+| Wise | [Senior Backend Engineer](https://jobs.smartrecruiters.com/Wise/744000139212569) | Hyderabad, India | 1d |
+| Wise | [Senior Software Engineer I - Stream Processing - Kafka & Flink](https://jobs.smartrecruiters.com/Wise/744000139237939) | London, England, United Kingdom | 1d |
+| Clickhouse | [Senior Cloud Data Infrastructure Engineer](https://jobs.ashbyhq.com/clickhouse/b6e7fb97-e7e2-4e29-9476-b777d787a94c) | EMEA | 2d |
+| Clickhouse | [Senior Cloud Data Infrastructure Engineer](https://jobs.ashbyhq.com/clickhouse/9e205698-0e50-42e5-8783-a79a7ff7efaa) | EMEA | 2d |
+| Cloudflare | [Software Engineer, Realtime](https://boards.greenhouse.io/cloudflare/jobs/7887609?gh_jid=7887609) | Hybrid | 2d |
+| Openai | [Simulation Infrastructure Engineer](https://jobs.ashbyhq.com/openai/39cd0dd8-520d-4932-80bf-7495a1d1d11b) | San Francisco | 2d |
+| Openai | [Tax Director - Infrastructure & Incentives](https://jobs.ashbyhq.com/openai/11a78901-33d6-4c49-8750-25286038aafa) | San Francisco | 2d |
+| Palantir | [Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/d40d5d19-8f9e-4e6b-b4d3-b7457c90adec) | Washington, D.C. | 2d |
+| Palantir | [Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/d7030550-f80f-422c-965f-3120db433dea) | Palo Alto, CA | 2d |
+| Palantir | [Software Engineer - Edge AI Systems](https://jobs.lever.co/palantir/67110929-adea-41c3-851a-8882e222d9e4) | Seattle, WA | 2d |
+| Wise | [Senior Backend Software Engineer I - Personal & Business Pricing Team](https://jobs.smartrecruiters.com/Wise/744000139048599) | London, United Kingdom | 2d |
+| Wise | [Senior Fullstack Engineer - Customer Risk Assessment](https://jobs.smartrecruiters.com/Wise/744000139112495) | Budapest, Hungary | 2d |
+| Wise | [Senior iOS Engineer – Send Experience](https://jobs.smartrecruiters.com/Wise/744000139108560) | London, United Kingdom | 2d |
+| Wise | [Senior Software Engineer I - Servicing Platform](https://jobs.smartrecruiters.com/Wise/744000139108668) | London, United Kingdom | 2d |
+| Cohere | [Engineering Manager, GPU Infrastructure](https://jobs.ashbyhq.com/cohere/28239d75-5dd9-41fb-ba43-cb08b491be2b) | United States | 3d |
+| Openai | [Product Engineer, Enterprise AI Platform](https://jobs.ashbyhq.com/openai/aeeabb7a-f6e0-4e8d-a9ad-ae3464288125) | San Francisco | 3d |
+| Openai | [Software Engineer, Ads Integrity](https://jobs.ashbyhq.com/openai/596e543a-0ab9-471e-a1ff-40fd55c74fce) | San Francisco | 3d |
+| Openai | [Software Engineer, Compute Foundations Systems](https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64) | San Francisco | 3d |
+| Wise | [Senior Backend Engineer - Payin Platform](https://jobs.smartrecruiters.com/Wise/744000138816199) | London, United Kingdom | 3d |
+| Wise | [Senior Fullstack Engineer - Servicing, FinCrime](https://jobs.smartrecruiters.com/Wise/744000138842199) | London, United Kingdom | 3d |
+| Wise | [Senior Software Engineer - Generative AI Platform](https://jobs.smartrecruiters.com/Wise/744000138827839) | Tallinn, Estonia | 3d |
+| Wise | [Senior Software Engineer I - KYC Experience](https://jobs.smartrecruiters.com/Wise/744000138801759) | London, United Kingdom | 3d |
+| Wise | [Software Engineer - Payin Platform](https://jobs.smartrecruiters.com/Wise/744000138840349) | Tallinn, Estonia | 3d |
 | ZoomInfo | [Software Engineer II - SAP ABAP FIORI](https://www.zoominfo.com/careers?gh_jid=8555306002) | Bengaluru, Karnataka, India | 3d |
+| Cloudflare | [Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) | Hybrid | 4d |
+| Notion | [Software Engineer, Infrastructure](https://jobs.ashbyhq.com/notion/42f18ccd-c4c8-4a85-8c1f-de12c575fe87) | Hyderabad, India | 4d |
 | Okta | [Software Engineer II, Core Identity (Auth0)](https://www.okta.com/company/careers/opportunity/8001096?gh_jid=8001096) | Toronto, Ontario, Canada | 4d |
 | Okta | [Software Engineer II, Security Engineering (Auth0)](https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538) | Toronto, Ontario, Canada | 4d |
-| Cloudflare | [Models Deployment Engineer, AI Platform](https://boards.greenhouse.io/cloudflare/jobs/8028747?gh_jid=8028747) | Hybrid | 6d |
-| Cloudflare | [Principal Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320) | In-Office | 6d |
-| Cloudflare | [Senior Software Engineer, Durable Objects (DO)](https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243) | In-Office | 6d |
-| Cloudflare | [Senior Software Engineer, R2 Metadata](https://boards.greenhouse.io/cloudflare/jobs/7276690?gh_jid=7276690) | Hybrid | 6d |
-| Cloudflare | [Senior Software Engineer, Workers Runtime](https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726) | In-Office | 6d |
-| Cloudflare | [Senior Systems Engineer, Cloudflare Data Platform](https://boards.greenhouse.io/cloudflare/jobs/8030240?gh_jid=8030240) | In-Office | 6d |
-| Cloudflare | [Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424) | In-Office | 6d |
-| Openai | [Backend Software Engineer, API Enterprise Controls](https://jobs.ashbyhq.com/openai/d0956b18-4f80-4c67-b94b-313181a16be6) | San Francisco | 6d |
-| Openai | [Senior Staff Software Engineer, Engineering Acceleration   Consumer Devices](https://jobs.ashbyhq.com/openai/fced529d-4523-436d-9559-cf1a8321b0fa) | San Francisco | 6d |
-| Openai | [Systems Generalist, GPT Infrastructure](https://jobs.ashbyhq.com/openai/78c2a68b-cc77-4c62-8891-96afb603650a) | San Francisco | 6d |
-| Wise | [Senior Software Engineer](https://jobs.smartrecruiters.com/Wise/744000138414549) | São Paulo, Brazil | 6d |
-| Wise | [Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000138414579) | São Paulo, Brazil | 6d |
-| Cloudflare | [Senior Software Engineer, Storage Infrastructure](https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805) | In-Office | 7d |
+| Openai | [Software Engineer, Ads Conversion Measurement](https://jobs.ashbyhq.com/openai/1b86ec8e-fe34-452d-bbff-6619579e7385) | San Francisco | 4d |
+| Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138593452) | London, United Kingdom | 4d |
+| Cloudflare | [Models Deployment Engineer, AI Platform](https://boards.greenhouse.io/cloudflare/jobs/8028747?gh_jid=8028747) | Hybrid | 7d |
+| Cloudflare | [Principal Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320) | In-Office | 7d |
+| Cloudflare | [Senior Software Engineer, Durable Objects (DO)](https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243) | In-Office | 7d |
+| Cloudflare | [Senior Software Engineer, R2 Metadata](https://boards.greenhouse.io/cloudflare/jobs/7276690?gh_jid=7276690) | Hybrid | 7d |
+| Cloudflare | [Senior Software Engineer, Workers Runtime](https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726) | In-Office | 7d |
+| Cloudflare | [Senior Systems Engineer, Cloudflare Data Platform](https://boards.greenhouse.io/cloudflare/jobs/8030240?gh_jid=8030240) | In-Office | 7d |
+| Cloudflare | [Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424) | In-Office | 7d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) | Pittsburgh, PA | 7d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002) | New York, NY | 7d |
-| Openai | [Data Center Compute Infrastructure](https://jobs.ashbyhq.com/openai/3d4ac845-ec9c-43e0-bd79-9fdf5b87da69) | San Francisco | 7d |
-| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/13b54822-b67a-484e-a744-e17a264c62e6) | EMEA | 8d |
-| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/bea939ff-0f34-44e2-8ee9-dc5599e0332d) | EMEA | 8d |
-| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/a23adc86-b637-4ad3-b768-1a496677a070) | EMEA | 8d |
-| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/0a9ffa59-e779-4836-b475-1536c3f5ede2) | EMEA | 8d |
-| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/bdb81a3b-dd72-4785-a908-9fd394025f73) | EMEA | 8d |
-| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/c4263794-713f-4940-a401-a22de0eec5b9) | EMEA | 8d |
-| Cloudflare | [Senior Software Engineer, Distributed Databases](https://boards.greenhouse.io/cloudflare/jobs/7896462?gh_jid=7896462) | In-Office | 8d |
-| Cloudflare | [Software Engineer, AI Agents](https://boards.greenhouse.io/cloudflare/jobs/7831810?gh_jid=7831810) | In-Office | 8d |
-| Openai | [Software Engineer, Privacy Engineering](https://jobs.ashbyhq.com/openai/07153f7c-7e8b-4283-a879-cb07a224e083) | San Francisco | 8d |
-| Notion | [Software Engineer, AI Platform](https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1) | San Francisco, California | 9d |
-| Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/586876a1-0847-4652-b799-1680eb2ef880) | United States | 10d |
-| Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/2cc93462-d3db-44f4-a0fe-407cd9c20329) | United States | 10d |
-| Cloudflare | [Distributed Systems Engineer - Data Platform (Delivery, Database, Retrieval)](https://boards.greenhouse.io/cloudflare/jobs/7462801?gh_jid=7462801) | Hybrid | 10d |
-| Cloudflare | [Distributed Systems Engineer - Data Platform - Analytics and Alerts](https://boards.greenhouse.io/cloudflare/jobs/7462803?gh_jid=7462803) | Hybrid | 10d |
-| Cloudflare | [Distributed Systems Engineer - Data Platform - Logs and Audit Logs](https://boards.greenhouse.io/cloudflare/jobs/7462802?gh_jid=7462802) | Hybrid | 10d |
-| Cloudflare | [Distributed Systems Engineer, Analytical Database Platform](https://boards.greenhouse.io/cloudflare/jobs/7462799?gh_jid=7462799) | Hybrid | 10d |
-| Openai | [Software Engineer, Codex -Enterprise Controls](https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db) | San Francisco | 10d |
-| Openai | [Software Engineer, Codex — User Activation](https://jobs.ashbyhq.com/openai/d1c6cb87-a44d-4d04-92a8-dc40eccd090e) | San Francisco | 10d |
-| Plaid | [Senior Software Engineer - AI Tooling](https://jobs.ashbyhq.com/plaid/3f7a4b9f-50b9-4adf-8475-4a4e6b8f0893) | San Francisco HQ | 13d |
-| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/863956bc-9a2e-4531-ba9e-45c409e4f1ca) | The Netherlands | 14d |
-| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/b66b5501-17ca-4887-878b-c3c5a7273142) | The Netherlands | 14d |
-| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/7fb1aca5-b7d2-463b-aac0-28b75cfbec7d) | The Netherlands | 14d |
-| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/bf41aec7-162d-4e97-bcbe-44e4febb877e) | The Netherlands | 14d |
-| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/4590946c-3e3c-4ce9-9d59-dbe41b0503b8) | The Netherlands | 14d |
-| Openai | [Principal Software Engineer, Codex Cyber](https://jobs.ashbyhq.com/openai/6c552323-f0bd-4756-a5fb-db2cda70173f) | San Francisco | 14d |
-| Openai | [Principal Software Engineer, Simulation](https://jobs.ashbyhq.com/openai/86450337-b12a-48c1-836e-cc0c5766eb8e) | San Francisco | 14d |
-| Openai | [Software Engineer, ChatGPT Shopping](https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8) | San Francisco | 14d |
-| Openai | [Software Engineer, GPU Infrastructure- ChatGPT Engineering](https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b) | London, UK | 14d |
-| Plaid | [Staff Software Engineer - Data Governance](https://jobs.ashbyhq.com/plaid/95225497-fc9b-4c5d-8df0-df98df219ae5) | San Francisco HQ | 14d |
-| Cloudflare | [Threat Intelligence Software Engineer, Cloudforce One](https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174) | Hybrid | 15d |
-| Openai | [Software Engineer, Codex Cyber](https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1) | San Francisco | 16d |
-| Cloudflare | [Full Stack Engineer - Internal Audit](https://boards.greenhouse.io/cloudflare/jobs/8014902?gh_jid=8014902) | Hybrid | 17d |
-| Plaid | [Staff Software Engineer - Data Infrastructure](https://jobs.ashbyhq.com/plaid/127d31ff-3a16-488b-ba01-6e87dbb96957) | San Francisco HQ | 17d |
-| Cloudflare | [Software Engineer, Network Performance & Reliability](https://boards.greenhouse.io/cloudflare/jobs/7446310?gh_jid=7446310) | Hybrid | 21d |
-| Notion | [Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) | New York, New York | 21d |
-| Cloudflare | [Principal Software Engineer: Distributed Systems (Config, Test, & Deployment)](https://boards.greenhouse.io/cloudflare/jobs/8038898?gh_jid=8038898) | Hybrid | 22d |
-| Openai | [Founding Full Stack Software Engineer, Legal](https://jobs.ashbyhq.com/openai/fcb0ed1a-9329-4e8f-8aab-92bb626d8141) | San Francisco | 24d |
-| Palantir | [Forward Deployed Software Engineer - Spain](https://jobs.lever.co/palantir/53fb4c05-f949-4146-a046-5c063c36a628) | Madrid, Spain | 24d |
-| Ramp | [Software Engineer, Developer API](https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138) | New York, NY (HQ) | 24d |
-| Notion | [Software Engineer, Data Product Platform](https://jobs.ashbyhq.com/notion/53fb4637-d1d6-4411-8a87-52865db5a11c) | San Francisco, California | 27d |
-| Openai | [Senior Software Engineer - Research Platform, Consumer Devices](https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d) | San Francisco | 27d |
-| Ramp | [Staff Software Engineer, iOS](https://jobs.ashbyhq.com/ramp/0ed80a29-6cca-42d7-b7e0-066d4fa7b37f) | New York, NY (HQ) | 27d |
-| Openai | [Full Stack Software Engineer, API Experience](https://jobs.ashbyhq.com/openai/66288824-8b77-4774-bc57-6825d3e6221e) | New York City | 28d |
-| Notion | [Software Engineer, Developer Experience](https://jobs.ashbyhq.com/notion/49bdf081-6e20-4323-8c73-6d6b19544ff5) | Hyderabad, India | 29d |
-| Ramp | [Applied AI Engineer, Fullstack](https://jobs.ashbyhq.com/ramp/6a7e382f-240a-4952-b9e5-7fe2b3856bc9) | New York, NY (HQ) | 29d |
-| Notion | [Software Engineer, Developer Experience (Go Lead)](https://jobs.ashbyhq.com/notion/876c69a9-be0a-4a71-bf4a-04cbc9c6328e) | New York, New York | 1mo |
+| Openai | [Backend Software Engineer, API Enterprise Controls](https://jobs.ashbyhq.com/openai/d0956b18-4f80-4c67-b94b-313181a16be6) | San Francisco | 7d |
+| Openai | [Senior Staff Software Engineer, Engineering Acceleration   Consumer Devices](https://jobs.ashbyhq.com/openai/fced529d-4523-436d-9559-cf1a8321b0fa) | San Francisco | 7d |
+| Openai | [Systems Generalist, GPT Infrastructure](https://jobs.ashbyhq.com/openai/78c2a68b-cc77-4c62-8891-96afb603650a) | San Francisco | 7d |
+| Wise | [Senior Software Engineer](https://jobs.smartrecruiters.com/Wise/744000138414549) | São Paulo, Brazil | 7d |
+| Wise | [Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000138414579) | São Paulo, Brazil | 7d |
+| Cloudflare | [Senior Software Engineer, Storage Infrastructure](https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805) | In-Office | 8d |
+| Openai | [Data Center Compute Infrastructure](https://jobs.ashbyhq.com/openai/3d4ac845-ec9c-43e0-bd79-9fdf5b87da69) | San Francisco | 8d |
+| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/13b54822-b67a-484e-a744-e17a264c62e6) | EMEA | 9d |
+| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/bea939ff-0f34-44e2-8ee9-dc5599e0332d) | EMEA | 9d |
+| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/a23adc86-b637-4ad3-b768-1a496677a070) | EMEA | 9d |
+| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/0a9ffa59-e779-4836-b475-1536c3f5ede2) | EMEA | 9d |
+| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/bdb81a3b-dd72-4785-a908-9fd394025f73) | EMEA | 9d |
+| Clickhouse | [Senior Software Engineer - Cloud Partner Integrations](https://jobs.ashbyhq.com/clickhouse/c4263794-713f-4940-a401-a22de0eec5b9) | EMEA | 9d |
+| Cloudflare | [Senior Software Engineer, Distributed Databases](https://boards.greenhouse.io/cloudflare/jobs/7896462?gh_jid=7896462) | In-Office | 9d |
+| Cloudflare | [Software Engineer, AI Agents](https://boards.greenhouse.io/cloudflare/jobs/7831810?gh_jid=7831810) | In-Office | 9d |
+| Openai | [Software Engineer, Privacy Engineering](https://jobs.ashbyhq.com/openai/07153f7c-7e8b-4283-a879-cb07a224e083) | San Francisco | 9d |
+| Notion | [Software Engineer, AI Platform](https://jobs.ashbyhq.com/notion/a9d4a192-d31c-48d2-8156-e2a75d98eec1) | San Francisco, California | 10d |
+| Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/586876a1-0847-4652-b799-1680eb2ef880) | United States | 11d |
+| Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/2cc93462-d3db-44f4-a0fe-407cd9c20329) | United States | 11d |
+| Cloudflare | [Distributed Systems Engineer - Data Platform (Delivery, Database, Retrieval)](https://boards.greenhouse.io/cloudflare/jobs/7462801?gh_jid=7462801) | Hybrid | 11d |
+| Cloudflare | [Distributed Systems Engineer - Data Platform - Analytics and Alerts](https://boards.greenhouse.io/cloudflare/jobs/7462803?gh_jid=7462803) | Hybrid | 11d |
+| Cloudflare | [Distributed Systems Engineer - Data Platform - Logs and Audit Logs](https://boards.greenhouse.io/cloudflare/jobs/7462802?gh_jid=7462802) | Hybrid | 11d |
+| Cloudflare | [Distributed Systems Engineer, Analytical Database Platform](https://boards.greenhouse.io/cloudflare/jobs/7462799?gh_jid=7462799) | Hybrid | 11d |
+| Openai | [Software Engineer, Codex -Enterprise Controls](https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db) | San Francisco | 11d |
+| Openai | [Software Engineer, Codex — User Activation](https://jobs.ashbyhq.com/openai/d1c6cb87-a44d-4d04-92a8-dc40eccd090e) | San Francisco | 11d |
+| Plaid | [Senior Software Engineer - AI Tooling](https://jobs.ashbyhq.com/plaid/3f7a4b9f-50b9-4adf-8475-4a4e6b8f0893) | San Francisco HQ | 14d |
+| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/863956bc-9a2e-4531-ba9e-45c409e4f1ca) | The Netherlands | 15d |
+| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/b66b5501-17ca-4887-878b-c3c5a7273142) | The Netherlands | 15d |
+| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/7fb1aca5-b7d2-463b-aac0-28b75cfbec7d) | The Netherlands | 15d |
+| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/bf41aec7-162d-4e97-bcbe-44e4febb877e) | The Netherlands | 15d |
+| Clickhouse | [Senior Software Engineer - Python and Data Ecosystem](https://jobs.ashbyhq.com/clickhouse/4590946c-3e3c-4ce9-9d59-dbe41b0503b8) | The Netherlands | 15d |
+| Openai | [Principal Software Engineer, Codex Cyber](https://jobs.ashbyhq.com/openai/6c552323-f0bd-4756-a5fb-db2cda70173f) | San Francisco | 15d |
+| Openai | [Principal Software Engineer, Simulation](https://jobs.ashbyhq.com/openai/86450337-b12a-48c1-836e-cc0c5766eb8e) | San Francisco | 15d |
+| Openai | [Software Engineer, ChatGPT Shopping](https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8) | San Francisco | 15d |
+| Openai | [Software Engineer, GPU Infrastructure- ChatGPT Engineering](https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b) | London, UK | 15d |
+| Plaid | [Staff Software Engineer - Data Governance](https://jobs.ashbyhq.com/plaid/95225497-fc9b-4c5d-8df0-df98df219ae5) | San Francisco HQ | 15d |
+| Cloudflare | [Threat Intelligence Software Engineer, Cloudforce One](https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174) | Hybrid | 16d |
+| Openai | [Software Engineer, Codex Cyber](https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1) | San Francisco | 17d |
+| Cloudflare | [Full Stack Engineer - Internal Audit](https://boards.greenhouse.io/cloudflare/jobs/8014902?gh_jid=8014902) | Hybrid | 18d |
+| Plaid | [Staff Software Engineer - Data Infrastructure](https://jobs.ashbyhq.com/plaid/127d31ff-3a16-488b-ba01-6e87dbb96957) | San Francisco HQ | 18d |
+| Cloudflare | [Software Engineer, Network Performance & Reliability](https://boards.greenhouse.io/cloudflare/jobs/7446310?gh_jid=7446310) | Hybrid | 22d |
+| Notion | [Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) | New York, New York | 22d |
+| Cloudflare | [Principal Software Engineer: Distributed Systems (Config, Test, & Deployment)](https://boards.greenhouse.io/cloudflare/jobs/8038898?gh_jid=8038898) | Hybrid | 23d |
+| Openai | [Founding Full Stack Software Engineer, Legal](https://jobs.ashbyhq.com/openai/fcb0ed1a-9329-4e8f-8aab-92bb626d8141) | San Francisco | 25d |
+| Palantir | [Forward Deployed Software Engineer - Spain](https://jobs.lever.co/palantir/53fb4c05-f949-4146-a046-5c063c36a628) | Madrid, Spain | 25d |
+| Ramp | [Software Engineer, Developer API](https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138) | New York, NY (HQ) | 25d |
+| Notion | [Software Engineer, Data Product Platform](https://jobs.ashbyhq.com/notion/53fb4637-d1d6-4411-8a87-52865db5a11c) | San Francisco, California | 28d |
+| Openai | [Senior Software Engineer - Research Platform, Consumer Devices](https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d) | San Francisco | 28d |
+| Ramp | [Staff Software Engineer, iOS](https://jobs.ashbyhq.com/ramp/0ed80a29-6cca-42d7-b7e0-066d4fa7b37f) | New York, NY (HQ) | 28d |
+| Openai | [Full Stack Software Engineer, API Experience](https://jobs.ashbyhq.com/openai/66288824-8b77-4774-bc57-6825d3e6221e) | New York City | 29d |
+| Notion | [Software Engineer, Developer Experience](https://jobs.ashbyhq.com/notion/49bdf081-6e20-4323-8c73-6d6b19544ff5) | Hyderabad, India | 1mo |
+| Ramp | [Applied AI Engineer, Fullstack](https://jobs.ashbyhq.com/ramp/6a7e382f-240a-4952-b9e5-7fe2b3856bc9) | New York, NY (HQ) | 1mo |
 | Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
 | Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
+| Notion | [Software Engineer, Developer Experience (Go Lead)](https://jobs.ashbyhq.com/notion/876c69a9-be0a-4a71-bf4a-04cbc9c6328e) | New York, New York | 1mo |
 | Clickhouse | [Senior Software Engineer - Identity & Authorization Platform](https://jobs.ashbyhq.com/clickhouse/4dc25e4c-6710-4b47-aedc-7caa260f043a) | EMEA | 1mo |
 | Clickhouse | [Senior Software Engineer - Identity & Authorization Platform](https://jobs.ashbyhq.com/clickhouse/f0495f4d-fcc2-4a55-b9d5-5e7dbf20df1d) | EMEA | 1mo |
 | Cohere | [Forward Deployed Engineer, Infrastructure Specialist](https://jobs.ashbyhq.com/cohere/38f75a48-199c-4325-a7f8-2af6ed6a1b3b) | Tokyo | 1mo |
@@ -354,7 +357,7 @@ Total roles: 364
 | Openai | [Software Engineer, Ad Formats](https://jobs.ashbyhq.com/openai/0b212a4a-6709-4da8-b59d-283a9bbf812e) | San Francisco | 1mo |
 | Openai | [Software Engineer, Ads Manager](https://jobs.ashbyhq.com/openai/5a4eed17-29d5-41cb-856e-09bfdaffe017) | Seattle | 1mo |
 | Plaid | [Software Engineer](https://jobs.ashbyhq.com/plaid/5fc0bf62-9e80-4bbe-82f4-7fdf5461deb9) | London Office | 1mo |
-| Openai | [Software Engineer, Build Systems / CI](https://jobs.ashbyhq.com/openai/202eb061-23d7-4a58-80c8-bc3b41e56d39) | San Francisco | 1mo |
+| Openai | [Software Engineer, Build Systems / CI](https://jobs.ashbyhq.com/openai/202eb061-23d7-4a58-80c8-bc3b41e56d39) | San Francisco | 2mo |
 | Openai | [Software Engineer, RL Training Infra](https://jobs.ashbyhq.com/openai/13995549-e8cc-498f-9eaa-1869067ac35b) | San Francisco | 2mo |
 | Clickhouse | [Senior Software Engineer - Java Streaming - Connectors](https://jobs.ashbyhq.com/clickhouse/e2846d78-99fb-4180-9c37-9eefa311ef5a) | The Netherlands | 2mo |
 | Clickhouse | [Senior Software Engineer - Java Streaming - Connectors](https://jobs.ashbyhq.com/clickhouse/26800b2f-1d5e-46f2-ab31-07c37df1848a) | The Netherlands | 2mo |
@@ -417,7 +420,7 @@ Total roles: 364
 | Openai | [Tokens-as-a-Service (Taas) Software Engineer](https://jobs.ashbyhq.com/openai/f3ddd41c-541f-485e-90d6-86c26e018e9f) | San Francisco | 2mo |
 | Ramp | [Software Engineer, Engineering Platform](https://jobs.ashbyhq.com/ramp/198150d6-789a-4ef8-999f-93a49656d4f1) | New York, NY (HQ) | 2mo |
 | Ramp | [Software Engineer, Production Engineering](https://jobs.ashbyhq.com/ramp/be496b52-cfbf-494e-b862-61fb4a188b24) | New York, NY (HQ) | 2mo |
-| Openai | [Software Engineer, Inference - Performance Optimization](https://jobs.ashbyhq.com/openai/85fceac9-fb8a-4d71-a524-a8e5f1e9b01b) | San Francisco | 2mo |
+| Openai | [Software Engineer, Inference - Performance Optimization](https://jobs.ashbyhq.com/openai/85fceac9-fb8a-4d71-a524-a8e5f1e9b01b) | San Francisco | 3mo |
 | Notion | [Software Engineer, Collections Experience](https://jobs.ashbyhq.com/notion/5d8c1ec6-e9ea-416b-9715-880bf5037abc) | San Francisco, California | 3mo |
 | Clickhouse | [Senior Software Engineer - JVM Language Clients](https://jobs.ashbyhq.com/clickhouse/109e2395-01a8-4178-9a5a-71c7d61d127f) | EMEA | 3mo |
 | Clickhouse | [Senior Software Engineer - JVM Language Clients](https://jobs.ashbyhq.com/clickhouse/ae1532ed-fcb8-4e2b-99de-59e53cc83977) | EMEA | 3mo |
@@ -446,7 +449,7 @@ Total roles: 364
 | Openai | [Software Engineer, System Enablement](https://jobs.ashbyhq.com/openai/e1321408-91da-4ef3-8ac6-2e1da1be796f) | San Francisco | 3mo |
 | Openai | [Software Engineer, Workload Enablement](https://jobs.ashbyhq.com/openai/9efcef02-0515-4672-bace-81329944b38b) | San Francisco | 3mo |
 | Ramp | [Software Engineer, Fraud & Identity](https://jobs.ashbyhq.com/ramp/8fa367de-71ba-409e-befd-175a163acb1b) | New York, NY (HQ) | 3mo |
-| Openai | [Software Engineer, Codex Core Agents](https://jobs.ashbyhq.com/openai/7ade7a12-845c-4e3a-af23-c028420bd181) | San Francisco | 3mo |
+| Openai | [Software Engineer, Codex Core Agents](https://jobs.ashbyhq.com/openai/7ade7a12-845c-4e3a-af23-c028420bd181) | San Francisco | 4mo |
 | Openai | [Principal Software Engineer, B2B Engineering](https://jobs.ashbyhq.com/openai/aeff784b-ea9a-40c9-aa13-6cb0b5e362cc) | Remote - US | 4mo |
 | Plaid | [Senior Software Engineer - Data Infrastructure](https://jobs.ashbyhq.com/plaid/2efbc1b7-92ff-419b-8aaf-95ede4758fe0) | San Francisco HQ | 4mo |
 | Plaid | [Staff Software Engineer - Europe](https://jobs.ashbyhq.com/plaid/89021252-6e43-4128-b996-aef2f0c1483a) | London Office | 4mo |
@@ -497,10 +500,9 @@ Total roles: 364
 | Amazon Development Center U.S., Inc. | [Data Engineer II, AWS Analytics Engin...](https://www.amazon.jobs/en/jobs/10481020/data-engineer-ii-aws-analytics-engineering) | Seattle, WA | recently |
 | Amazon Development Center U.S., Inc. | [Data Engineer II, AWS Analytics Engin...](https://www.amazon.jobs/en/jobs/10480965/data-engineer-ii-aws-analytics-engineering) | Seattle, WA | recently |
 | Amazon Web Services, Inc. | [Data Engineer II, AWS Marketplace and...](https://www.amazon.jobs/en/jobs/10481199/data-engineer-ii-aws-marketplace-and-partner-services) | Seattle, WA | recently |
-| Amazon.com Services LLC | [Data Engineer II, AMZL-Central Learni...](https://www.amazon.jobs/en/jobs/10481342/data-engineer-ii-amzl-central-learning-solutions-data-engineering-team) | Bellevue, WA | recently |
 | Amazon.com Services LLC | [Security Engineer II, Security Incide...](https://www.amazon.jobs/en/jobs/10481118/security-engineer-ii-security-incident-response-team-sirt) | Seattle, WA | recently |
 | JPMorgan Chase | [Software Engineer II/ Java Fullstack](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210734042) | OH, United States | recently |
-| Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556941883) | Redmond, Washingt... | recently |
+| Microsoft | [Software Engineer II Azure Resource...](https://apply.careers.microsoft.com/careers/job/1970393556847370) | United States | recently |
 
 ## Hackathons
 
@@ -565,13 +567,18 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 3
+Total events: 8
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
+| Luma | [Follow YC](https://lu.ma/ycss?k=c) |
 
 ## Source Files
 
