@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T21:20:07Z",
-  "total": 94,
+  "generated_at": "2026-07-24T23:15:30Z",
+  "total": 97,
   "jobs": [
     {
       "id": "10ef33ebed97b74e",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "7d",
-      "collected_at": "2026-07-24T21:20:07Z",
+      "collected_at": "2026-07-24T23:15:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-24T21:20:07Z"
+      "closed_at": "2026-07-24T23:15:30Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "3d",
-      "collected_at": "2026-07-24T21:20:07Z",
+      "collected_at": "2026-07-24T23:15:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-24T21:20:07Z"
+      "closed_at": "2026-07-24T23:15:30Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "2d",
-      "collected_at": "2026-07-24T21:20:07Z",
+      "collected_at": "2026-07-24T23:15:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-24T21:20:07Z"
+      "closed_at": "2026-07-24T23:15:30Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "1d",
-      "collected_at": "2026-07-24T21:20:07Z",
+      "collected_at": "2026-07-24T23:15:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-24T21:20:07Z"
+      "closed_at": "2026-07-24T23:15:30Z"
     },
     {
       "id": "6132e8bbbdffd728",
@@ -99,13 +99,76 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-24",
       "age": "0d",
+      "collected_at": "2026-07-24T23:15:30Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-24T23:15:30Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-24",
+      "age": "25d",
+      "collected_at": "2026-07-24T15:44:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-24T23:15:30Z"
+    },
+    {
+      "id": "6096f44af77b375a",
+      "company": "Microsoft",
+      "title": "Software Engineer II (Customer & Prod...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556938231",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-24",
+      "age": "Recently",
       "collected_at": "2026-07-24T21:20:07Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-24T21:20:07Z"
+      "closed_at": "2026-07-24T23:15:30Z"
+    },
+    {
+      "id": "9f006435922a11f8",
+      "company": "Tesla",
+      "title": "Embedded Software Engineer Intern - Embedded Software Engineer - Steering,Chassis Systems",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/274047?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "30d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-24T23:15:30Z"
     },
     {
       "id": "ab38e68a0a7ca07c",
