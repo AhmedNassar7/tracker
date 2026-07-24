@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T17:50:41Z",
-  "total": 85,
+  "generated_at": "2026-07-24T19:45:35Z",
+  "total": 86,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -243,6 +243,26 @@
       ]
     },
     {
+      "id": "6096f44af77b375a",
+      "company": "Microsoft",
+      "title": "Software Engineer II (Customer & Prod...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556938231",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-24",
+      "age": "Recently",
+      "collected_at": "2026-07-24T19:45:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "ab38e68a0a7ca07c",
       "company": "Microsoft",
       "title": "Software Engineer II Azure Resource...",
@@ -295,6 +315,26 @@
       "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
       "posted_at": "2026-07-17",
       "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3c46b9d61da3d979",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-06-26",
+      "age": "21d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
@@ -416,26 +456,6 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T20:21:23Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3c46b9d61da3d979",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Toronto",
-      "remote_type": "onsite",
-      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-06-26",
-      "age": "21d",
-      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
