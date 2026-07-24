@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T03:45:15Z",
-  "total": 625,
+  "generated_at": "2026-07-24T06:39:49Z",
+  "total": 629,
   "jobs": [
     {
       "id": "8f994339dc5e9827",
@@ -55,6 +55,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Physical-Design-Backend-Engineer_JR2015705",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "4cec66e71a1c4d60",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior ASIC Front End Infrastructure Engineer",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Santa Clara<br>US, MA, Westford<br>US, TX, Austin<br>US, NC, Durham</details>",
+      "level": "other",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-ASIC-Front-End-Infrastructure-Engineer_JR2018704-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -423,20 +437,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "cb995c8c129fdc50",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, DOCA Verification",
-      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Yokneam<br>Israel, Tel Aviv</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--DOCA-Verification_JR2021708",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "176217c535d3d8ec",
       "kind": "job",
       "company": "NVIDIA",
@@ -657,20 +657,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office--Bulgaria---CyberArk-Sofia/Sr-Staff-Site-Reliability-Engineer_JR-019260",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
-      "id": "e4bb990ff5e330f0",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Site Reliability Engineer",
-      "location": "Office - India - CyberArk Hyderabad",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Site-Reliability-Engineer_JR-019651",
       "source": "workday:paloaltonetworks",
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
@@ -8178,7 +8164,7 @@
       "company": "global-tech-challenge",
       "title": "Global Tech Innovation Challenge",
       "location": "Online",
-      "date": "about 17 hours left",
+      "date": "about 14 hours left",
       "posted_at": "2026-07-24",
       "url": "https://global-tech-challenge.devpost.com/",
       "source": "devpost",
@@ -8382,7 +8368,7 @@
       "company": "Perfect Corp",
       "title": "YouCam API Skin AI & Apparel VTO Hackathon",
       "location": "Online",
-      "date": "25 days left",
+      "date": "24 days left",
       "posted_at": "2026-07-24",
       "url": "https://youcam-api.devpost.com/",
       "source": "devpost",
@@ -8442,7 +8428,7 @@
       "company": "shekunj",
       "title": "INNOVIK 6.0 : International Hackathon 2026",
       "location": "VITM, Indore",
-      "date": "24 days left",
+      "date": "23 days left",
       "posted_at": "2026-07-24",
       "url": "https://innovik-6-0-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -8490,7 +8476,7 @@
       "company": "SVHEC",
       "title": "NEXORA Global Hackathon",
       "location": "Online",
-      "date": "23 days left",
+      "date": "22 days left",
       "posted_at": "2026-07-24",
       "url": "https://nexora-global-hackathon.devpost.com/",
       "source": "devpost",
@@ -8514,7 +8500,7 @@
       "company": "TechieBunnies team",
       "title": "BuunieX Hackathon",
       "location": "Online",
-      "date": "30 days left",
+      "date": "29 days left",
       "posted_at": "2026-07-24",
       "url": "https://buuniex-hackathon.devpost.com/",
       "source": "devpost",
@@ -8574,7 +8560,7 @@
       "company": "university of pennsylvania",
       "title": "M&TSI 2026 (Deliwala/Babin)",
       "location": "Online",
-      "date": "about 24 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-07-24",
       "url": "https://mtsi2026.devpost.com/",
       "source": "devpost",
@@ -8607,6 +8593,30 @@
   ],
   "events": [
     {
+      "id": "229397d627dbf883",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-24",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-24",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8631,6 +8641,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-24",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8639,6 +8661,30 @@
       "date": "",
       "posted_at": "2026-07-24",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-24",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "29d2320e60efcc7f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow YC Startup School San Francisco · Explore unofficial side events at YC Startup School, a two-day gathering where ambitious technical builders, engineers, researchers around startup-focused activities. July 25-26, San Francisco.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-24",
+      "url": "/ycss?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
