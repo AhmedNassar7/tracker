@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T21:20:50Z",
-  "total": 627,
+  "generated_at": "2026-07-24T23:16:16Z",
+  "total": 623,
   "jobs": [
     {
       "id": "021adde9431ea3d1",
@@ -31,6 +31,20 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
+      "id": "5aba4f9cbd0487e2",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Manager, System Software Engineering - Local AI",
+      "location": "India, Pune",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Manager--System-Software-Engineering---Local-AI_JR2021898-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "0f2be7ff09c44994",
       "kind": "job",
       "company": "NVIDIA",
@@ -55,6 +69,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DevOps-Engineer--GeForce-NOW_JR2012459",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "bb18612b5374b783",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Engineer, Build and DevOps - ADI",
+      "location": "<details><summary><strong>6 locations</strong></summary>US, NY, Remote<br>US, NC, Remote<br>US, TX, Remote<br>US, IL, Remote<br>US, WA, Remote<br>US, CA, Remote</details>",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NY-Remote/Senior-Engineer--Build-and-DevOps---ADI_JR2021994",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -101,6 +129,34 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "832e5f3865d21550",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - Local AI",
+      "location": "India, Pune",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---Local-AI_JR2021896",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "de530a39d7d856ac",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - LocalAI",
+      "location": "India, Pune",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---LocalAI_JR2021897",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "78fb30ae1bbe6a95",
       "kind": "job",
       "company": "NVIDIA",
@@ -111,6 +167,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer---Computer-Vision-Algorithms-and-SDK_JR2010349-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "e2034af3f850d46a",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer, Automotive Cybersecurity",
+      "location": "<details><summary><strong>3 locations</strong></summary>India, Hyderabad<br>India, Bengaluru<br>India, Pune</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Hyderabad/Senior-System-Software-Engineer--Automotive-Cybersecurity_JR2021732",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -143,6 +213,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "c13a6bad895a61bd",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Engineer, Linux Graphics",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, CA, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Linux-Graphics_JR2021838",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "88e80bff2aaee26e",
       "kind": "job",
       "company": "NVIDIA",
@@ -153,6 +237,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/System-Software-Engineer--Profiler---GPU_JR2011622",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "d477899d302671aa",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "System Software Engineering Lead",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, CA, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineering-Lead_JR2021953",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -255,34 +353,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "54da1c736fa98306",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Developer Tools DevOps Engineer",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Tools-DevOps-Engineer_JR2013314",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "da8e8f6f276a1f54",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Physical Design Backend Engineer",
-      "location": "Israel, Yokneam",
-      "level": "other",
-      "role_type": "backend",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Physical-Design-Backend-Engineer_JR2015705",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "4cec66e71a1c4d60",
       "kind": "job",
       "company": "NVIDIA",
@@ -321,20 +391,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-QA-Software-Engineer---Networking_JR2020567",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "aca91ebb812f0469",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - Applied Research in Robotics",
-      "location": "India, Bengaluru",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---Applied-Research-in-Robotics_JR2021411",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -391,20 +447,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2020967-1",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "2dcb93a251497102",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, Humanoid Robotics",
-      "location": "China, Shanghai",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--Humanoid-Robotics_JR2021777",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -475,20 +517,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Performance-Lab-and-Tools_JR2014711",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "49509dab8dcd87d5",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineer, Physical Design Infrastructure - New College Grad 2026",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -811,20 +839,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Santa-Clara-United-States-of-America/Distinguished-Software-Engineer---ADEM--Backend-_JR-018648",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
-      "id": "0f59da0bfab4b9ec",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Principal Software Engineer (Prisma Access)",
-      "location": "Office - USA - CA - Headquarters",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer--Prisma-Access-_JR-019041",
       "source": "workday:paloaltonetworks",
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
@@ -1527,48 +1541,6 @@
       "url": "https://jobs.ashbyhq.com/openai/d1c6cb87-a44d-4d04-92a8-dc40eccd090e",
       "source": "ashby:openai",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
-    },
-    {
-      "id": "270ff3dc00237f1c",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
-      "location": "Washington, D.C.",
-      "level": "internship",
-      "role_type": "infrastructure",
-      "date": "14d",
-      "posted_at": "2026-07-10",
-      "url": "https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "1d82864f7972083b",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
-      "location": "Palo Alto, CA",
-      "level": "internship",
-      "role_type": "infrastructure",
-      "date": "14d",
-      "posted_at": "2026-07-10",
-      "url": "https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "bbf8729a608c82e1",
-      "kind": "job",
-      "company": "Palantir",
-      "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
-      "location": "New York, NY",
-      "level": "internship",
-      "role_type": "infrastructure",
-      "date": "14d",
-      "posted_at": "2026-07-10",
-      "url": "https://jobs.lever.co/palantir/cf5f44ff-1b0b-4752-bcd4-2dc88798f25b",
-      "source": "lever:palantir",
-      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
       "id": "ccb656c9f25f6aa7",
@@ -5925,6 +5897,48 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
+      "id": "ca52b014b61d9507",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+      "location": "Palo Alto, CA",
+      "level": "new_grad",
+      "role_type": "infrastructure",
+      "date": "268d",
+      "posted_at": "2025-10-29",
+      "url": "https://jobs.lever.co/palantir/33243fb5-6907-40c7-930c-968b25d825d0",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "2c1f6518cdfd8c02",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+      "location": "Washington, D.C.",
+      "level": "new_grad",
+      "role_type": "infrastructure",
+      "date": "268d",
+      "posted_at": "2025-10-29",
+      "url": "https://jobs.lever.co/palantir/5a28f3a5-8655-47f2-ab19-a79b8a319da8",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "0bf75352df12ae36",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
+      "location": "New York, NY",
+      "level": "new_grad",
+      "role_type": "infrastructure",
+      "date": "268d",
+      "posted_at": "2025-10-29",
+      "url": "https://jobs.lever.co/palantir/91117724-9389-48dc-912f-98e48d4d45d8",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
       "id": "66f73afa94d791b8",
       "kind": "job",
       "company": "Ramp",
@@ -7915,6 +7929,18 @@
   ],
   "hackathons": [
     {
+      "id": "2b4cacd32ad51b41",
+      "kind": "hackathon",
+      "company": "ACT House",
+      "title": "Brainwave 2026",
+      "location": "Online",
+      "date": "16 days left",
+      "posted_at": "2026-07-24",
+      "url": "https://brainwaves.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "754cf7c8686d8157",
       "kind": "hackathon",
       "company": "ACTS EDC",
@@ -7999,18 +8025,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "74a9befe48760d1f",
-      "kind": "hackathon",
-      "company": "CAHSI at FIU",
-      "title": "305 SummerCodex Edition July 2026",
-      "location": "Online",
-      "date": "about 3 hours left",
-      "posted_at": "2026-07-24",
-      "url": "https://305-summercodex-ed-july-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "2d4c73d14fe4177b",
       "kind": "hackathon",
       "company": "CAHSI at FIU",
@@ -8079,18 +8093,6 @@
       "date": "17 days left",
       "posted_at": "2026-07-24",
       "url": "https://datahub.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "971627fb8feef136",
-      "kind": "hackathon",
-      "company": "daytona",
-      "title": "Daytona HackSprint w/ Braintrust - SF, July 2026",
-      "location": "San Francisco, CA, USA",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-24",
-      "url": "https://daytona-hacksprint-sf-jul-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8412,7 +8414,7 @@
       "company": "Student Organization",
       "title": "MIT BWSI Cyber Operations Cohort Hackathon 2026",
       "location": "Online",
-      "date": "about 3 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-07-24",
       "url": "https://mit-bwsi-cyber-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -8484,7 +8486,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Summer Impactathon",
       "location": "Online",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-07-24",
       "url": "https://csc-summer-impactathon.devpost.com/",
       "source": "devpost",
@@ -8508,7 +8510,7 @@
       "company": "tokens&",
       "title": "Self-Evolving Agents Hackathon",
       "location": "DG717",
-      "date": "about 2 hours left",
+      "date": "15 minutes left",
       "posted_at": "2026-07-24",
       "url": "https://self-evolving-agents.devpost.com/",
       "source": "devpost",
@@ -8523,6 +8525,18 @@
       "date": "11 days left",
       "posted_at": "2026-07-24",
       "url": "https://creation-code-30750.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "c6a7c6dc0e8ba30a",
+      "kind": "hackathon",
+      "company": "TrainzexAI",
+      "title": "Impact Creation",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-07-24",
+      "url": "https://impact-creation.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8565,30 +8579,6 @@
   ],
   "events": [
     {
-      "id": "229397d627dbf883",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/sf-builders-collective?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8613,18 +8603,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8633,30 +8611,6 @@
       "date": "",
       "posted_at": "2026-07-24",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/sf-hardware-meetup?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "29d2320e60efcc7f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow YC Startup School San Francisco · Explore unofficial side events at YC Startup School, a two-day gathering where ambitious technical builders, engineers, researchers around startup-focused activities. July 25-26, San Francisco.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-24",
-      "url": "/ycss?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
