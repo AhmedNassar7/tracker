@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T17:50:41Z",
-  "total": 85,
+  "generated_at": "2026-07-24T21:20:07Z",
+  "total": 83,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -103,26 +103,6 @@
       ]
     },
     {
-      "id": "8a32d8c56dfd9a12",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern (Glo...",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, Washington",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7535953226975054098",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-19",
-      "age": "Recently",
-      "collected_at": "2026-07-19T21:06:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d515a44a8e8bc910",
       "company": "ByteDance",
       "title": "Site Reliability Engineer Intern (Dat...",
@@ -131,26 +111,6 @@
       "location": "San Jose, California",
       "remote_type": "onsite",
       "url": "https://joinbytedance.com/search/7535646140345272584",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-17",
-      "age": "Recently",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "53aa6fef1050c85b",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern (Applied Mac...",
-      "level": "internship",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7533045355162044690",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-07-17",
@@ -243,19 +203,19 @@
       ]
     },
     {
-      "id": "ab38e68a0a7ca07c",
+      "id": "6096f44af77b375a",
       "company": "Microsoft",
-      "title": "Software Engineer II Azure Resource...",
+      "title": "Software Engineer II (Customer & Prod...",
       "level": "mid_level",
       "country": "United States",
       "location": "United States",
       "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556847370",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556938231",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-07-24",
       "age": "Recently",
-      "collected_at": "2026-07-24T00:11:49Z",
+      "collected_at": "2026-07-24T21:20:07Z",
       "tags": [
         "software",
         "programming",
@@ -295,6 +255,26 @@
       "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
       "posted_at": "2026-07-17",
       "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3c46b9d61da3d979",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-06-26",
+      "age": "21d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
@@ -416,26 +396,6 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T20:21:23Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3c46b9d61da3d979",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Toronto",
-      "remote_type": "onsite",
-      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-06-26",
-      "age": "21d",
-      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
