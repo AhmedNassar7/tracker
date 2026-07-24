@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T14:11:47Z",
+  "generated_at": "2026-07-24T15:44:03Z",
   "total": 91,
   "jobs": [
     {
@@ -15,34 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "7d",
-      "collected_at": "2026-07-24T14:11:47Z",
+      "collected_at": "2026-07-24T15:44:03Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-24T14:11:47Z"
-    },
-    {
-      "id": "d76a868df556107a",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Development-Engineer-II_R-284432",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-20",
-      "age": "4d",
-      "collected_at": "2026-07-24T14:11:47Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-24T14:11:47Z"
+      "closed_at": "2026-07-24T15:44:03Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -57,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "3d",
-      "collected_at": "2026-07-24T14:11:47Z",
+      "collected_at": "2026-07-24T15:44:03Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-24T14:11:47Z"
+      "closed_at": "2026-07-24T15:44:03Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -78,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "2d",
-      "collected_at": "2026-07-24T14:11:47Z",
+      "collected_at": "2026-07-24T15:44:03Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-24T14:11:47Z"
+      "closed_at": "2026-07-24T15:44:03Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -99,6 +78,48 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "1d",
+      "collected_at": "2026-07-24T15:44:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-24T15:44:03Z"
+    },
+    {
+      "id": "6132e8bbbdffd728",
+      "company": "Mastercard",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Site-Reliability-Engineer-II_R-274938",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-24",
+      "age": "0d",
+      "collected_at": "2026-07-24T15:44:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-24T15:44:03Z"
+    },
+    {
+      "id": "d76a868df556107a",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Development-Engineer-II_R-284432",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-20",
+      "age": "4d",
       "collected_at": "2026-07-24T14:11:47Z",
       "tags": [
         "software",
@@ -190,27 +211,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-24T00:11:49Z"
-    },
-    {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-23",
-      "age": "24d",
-      "collected_at": "2026-07-23T16:45:09Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-23T23:12:53Z"
     },
     {
       "id": "5885aefa9d6428ef",
