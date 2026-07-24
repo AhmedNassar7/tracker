@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T11:55:23Z",
+  "generated_at": "2026-07-24T14:11:47Z",
   "total": 87,
   "by_level": {
     "mid_level": 29,
@@ -9,17 +9,17 @@
     "new_grad": 17
   },
   "by_country": {
-    "United States": 51,
+    "United States": 50,
     "Remote": 1,
     "Canada": 15,
-    "Unknown": 17,
+    "Unknown": 18,
     "United Kingdom": 3
   },
   "by_source": {
-    "zapplyjobs_newgrad": 10,
+    "zapplyjobs_newgrad": 9,
     "hanzili_canada": 5,
+    "ambicuity": 30,
     "simplify_newgrad": 11,
-    "ambicuity": 29,
     "speedyapply_ai": 7,
     "speedyapply_swe": 16,
     "simplify_internships": 9
