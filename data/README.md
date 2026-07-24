@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 448 |
+| Jobs | 446 |
 | Hackathons | 54 |
-| Events | 3 |
-| Total | 505 |
+| Events | 8 |
+| Total | 508 |
 
 ## Jobs
 
-[![Jobs 448](https://img.shields.io/badge/Jobs-448-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 56](https://img.shields.io/badge/Internship-56-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 366](https://img.shields.io/badge/Mid--Level%20and%20Above-366-dc2626.svg)](#mid-level-and-above)
+[![Jobs 446](https://img.shields.io/badge/Jobs-446-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 55](https://img.shields.io/badge/Internship-55-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 365](https://img.shields.io/badge/Mid--Level%20and%20Above-365-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 56
+Total roles: 55
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -75,7 +75,6 @@ Total roles: 56
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify) | San Diego, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Body Controls Firmware](https://www.tesla.com/careers/search/job/270618?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Steering,Chassis Systems](https://www.tesla.com/careers/search/job/274047?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
-| Tesla | [Software Engineer Intern - Fullstack Software Engineer - Fleetnet](https://www.tesla.com/careers/search/job/266764?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Tesla | [Software Engineer Intern - Software Engineer - AI Hardware Infrastructure](https://www.tesla.com/careers/search/job/260382?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Zipline | [Enterprise Systems Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7767667003) | South San Francisco, CA | 1mo |
 | Zipline | [Embedded Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7765240003) | South San Francisco, CA | 1mo |
@@ -134,7 +133,7 @@ Total roles: 26
 
 ### Mid-Level and Above
 
-Total roles: 366
+Total roles: 365
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -142,6 +141,7 @@ Total roles: 366
 | NVIDIA | [Developer Tools DevOps Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Tools-DevOps-Engineer_JR2013314) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Infrastructure Software Engineer, Deep Learning Libraries](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Infrastructure-Software-Engineer--Deep-Learning-Libraries_JR2020990) | <details><summary>2 locations</summary>China<br>Shanghai<br>China<br>Beijing</details> | 0d |
 | NVIDIA | [Physical Design Backend Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Physical-Design-Backend-Engineer_JR2015705) | Israel, Yokneam | 0d |
+| NVIDIA | [Senior ASIC Front End Infrastructure Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-ASIC-Front-End-Infrastructure-Engineer_JR2018704-1) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>MA<br>Westford, US<br>TX<br>Austin, US<br>NC<br>Durham</details> | 0d |
 | NVIDIA | [Senior Hardware Systems Engineer - LPU Platform Pathfinding](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Hardware-Systems-Engineer---LPU-Platforms_JR2014698) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior QA Software Engineer - Networking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-QA-Software-Engineer---Networking_JR2020567) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior Software Engineer - Applied Research in Robotics](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---Applied-Research-in-Robotics_JR2021411) | India, Bengaluru | 0d |
@@ -181,7 +181,6 @@ Total roles: 366
 | NVIDIA | [Director, Autonomous Vehicles Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Abstraction-Layer-Engineering---Autonomous-Platform_JR2002272) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Director, System Software Engineering - Metropolis Accelerated and Inferencing Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Metropolis-Accelerated-and-Inferencing-Software_JR2011299) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Networking Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Software-Engineer_JR2015068) | US, CA, Santa Clara | 1d |
-| NVIDIA | [Senior Software Engineer, DOCA Verification](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--DOCA-Verification_JR2021708) | <details><summary>2 locations</summary>Israel<br>Yokneam<br>Israel<br>Tel Aviv</details> | 1d |
 | NVIDIA | [Senior Software Engineer, Quantized Inference](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Quantized-Inference_JR2021844) | <details><summary>2 locations</summary>US, WA<br>Redmond, US<br>CA<br>Santa Clara</details> | 1d |
 | NVIDIA | [Senior Staff Software Engineer - AI Agent Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer---AI-Agent-Platform_JR2016997) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior System Software Engineer - Halos](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer----Halos_JR2021297) | US, CA, Santa Clara | 1d |
@@ -198,7 +197,6 @@ Total roles: 366
 | Palo Alto Networks | [Principal Software Engineer (C++-low level-Prisma Browser)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/XMLNAME--Sr-Principal-Software-Engineer--Prisma-Browser-_JR-018344) | Office - USA - CA - Headquarters | 1d |
 | Palo Alto Networks | [Principal Software Engineer (Prisma Access)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer--Prisma-Access-_JR-019041) | Office - USA - CA - Headquarters | 1d |
 | Palo Alto Networks | [Senior Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office--Bulgaria---CyberArk-Sofia/Sr-Staff-Site-Reliability-Engineer_JR-019260) | Office -Bulgaria - CyberArk Sofia | 1d |
-| Palo Alto Networks | [Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---CyberArk-Hyderabad/Site-Reliability-Engineer_JR-019651) | Office - India - CyberArk Hyderabad | 1d |
 | Palo Alto Networks | [Sr Staff Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Madrid-Spain/Sr-Staff-Site-Reliability-Engineer_JR-018712-1) | Madrid, Spain | 1d |
 | Sony | [Staff Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Texas/Staff-Software-Engineer--AI-Native_JR-119292-1) | <details><summary>11 locations</summary>Remote - Texas<br>Work from Home-TX<br>Work from Home-CO<br>Work from Home-CA<br>Work from Home-OR<br>NA / Culver City 10202 W. Washington 40<br>Work from Home-SD<br>NA / San Diego Via Esprillo 40<br>Work from Home-WA<br>Work from Home-NV<br>Work from Home-NM</details> | 1d |
 | Sony | [Staff Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Texas/Staff-Software-Engineer--AI-Native_JR-119292-1) | <details><summary>11 locations</summary>Remote - Texas<br>Work from Home-TX<br>Work from Home-CO<br>Work from Home-CA<br>Work from Home-OR<br>NA / Culver City 10202 W. Washington 40<br>Work from Home-SD<br>NA / San Diego Via Esprillo 40<br>Work from Home-WA<br>Work from Home-NV<br>Work from Home-NM</details> | 1d |
@@ -568,13 +566,18 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 3
+Total events: 8
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
+| Luma | [Follow YC](https://lu.ma/ycss?k=c) |
 
 ## Source Files
 
