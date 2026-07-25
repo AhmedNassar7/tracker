@@ -29,8 +29,8 @@ Every row links straight to the real application page. Click a title to apply �
 |---|---:|
 | Jobs | 443 |
 | Hackathons | 54 |
-| Events | 3 |
-| Total | 500 |
+| Events | 8 |
+| Total | 505 |
 
 ## Jobs
 
@@ -228,8 +228,8 @@ Total roles: 368
 | Notion | [Software Engineer, Infrastructure](https://jobs.ashbyhq.com/notion/42f18ccd-c4c8-4a85-8c1f-de12c575fe87) | Hyderabad, India | 5d |
 | Openai | [Software Engineer, Ads Conversion Measurement](https://jobs.ashbyhq.com/openai/1b86ec8e-fe34-452d-bbff-6619579e7385) | San Francisco | 5d |
 | Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138593452) | London, United Kingdom | 5d |
-| Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) | Pittsburgh, PA | 7d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002) | New York, NY | 7d |
+| Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) | Pittsburgh, PA | 7d |
 | Cloudflare | [Models Deployment Engineer, AI Platform](https://boards.greenhouse.io/cloudflare/jobs/8028747?gh_jid=8028747) | Hybrid | 8d |
 | Cloudflare | [Principal Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320) | In-Office | 8d |
 | Cloudflare | [Senior Software Engineer, Durable Objects (DO)](https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243) | In-Office | 8d |
@@ -506,6 +506,7 @@ Total hackathons: 54
 
 | Organizer | Hackathon |
 |---|---|
+| ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
 | ACTS EDC | [Brainwave 2026 – X402 Blockchain Track](https://brainwave-2026.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
 | Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
@@ -520,7 +521,6 @@ Total hackathons: 54
 | Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
 | contact@orionglobalhackathon.com | [OrionHackathon](https://orionhackathon.devpost.com/) |
 | DataHub | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) |
-| DevsUnite | [DevsUnite Hiring Hackathon](https://devsunite-hiring-hackathon.devpost.com/) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
 | GatewayGS | [GatewayGS & The AEI Initiative: AI 4 Earth Hackathon](https://gatewaygs-ai-4-earth-hackathon.devpost.com/) |
@@ -563,13 +563,18 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 3
+Total events: 8
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
+| Luma | [Follow YC](https://lu.ma/ycss?k=c) |
 
 ## Source Files
 

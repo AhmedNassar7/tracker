@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T10:45:21Z",
-  "total": 624,
+  "generated_at": "2026-07-25T12:10:15Z",
+  "total": 629,
   "jobs": [
     {
       "id": "5aba4f9cbd0487e2",
@@ -7943,6 +7943,18 @@
   ],
   "hackathons": [
     {
+      "id": "2b4cacd32ad51b41",
+      "kind": "hackathon",
+      "company": "ACT House",
+      "title": "Brainwave 2026",
+      "location": "Online",
+      "date": "15 days left",
+      "posted_at": "2026-07-25",
+      "url": "https://brainwaves.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "754cf7c8686d8157",
       "kind": "hackathon",
       "company": "ACTS EDC",
@@ -8008,7 +8020,7 @@
       "company": "BTP",
       "title": "DIVE 2026",
       "location": "4F, BEXCO Exhibition Center 2",
-      "date": "1 day left",
+      "date": "about 21 hours left",
       "posted_at": "2026-07-25",
       "url": "https://dive2026.devpost.com/",
       "source": "devpost",
@@ -8107,18 +8119,6 @@
       "date": "16 days left",
       "posted_at": "2026-07-25",
       "url": "https://datahub.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "395a76ea224537b3",
-      "kind": "hackathon",
-      "company": "DevsUnite",
-      "title": "DevsUnite Hiring Hackathon",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-25",
-      "url": "https://devsunite-hiring-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8320,7 +8320,7 @@
       "company": "MLH",
       "title": "Build with AI extended : Build, automate, impact",
       "location": "Agence Togo Digital",
-      "date": "about 14 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-07-25",
       "url": "https://build-with-ai-extended.devpost.com/",
       "source": "devpost",
@@ -8428,7 +8428,7 @@
       "company": "snap2measure",
       "title": "Measure up",
       "location": "Online",
-      "date": "3 days left",
+      "date": "2 days left",
       "posted_at": "2026-07-25",
       "url": "https://measureme-up.devpost.com/",
       "source": "devpost",
@@ -8593,6 +8593,30 @@
   ],
   "events": [
     {
+      "id": "229397d627dbf883",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-25",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-25",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8617,6 +8641,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-25",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8625,6 +8661,30 @@
       "date": "",
       "posted_at": "2026-07-25",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-25",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "29d2320e60efcc7f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow YC Startup School San Francisco · Explore unofficial side events at YC Startup School, a two-day gathering where ambitious technical builders, engineers, researchers around startup-focused activities. July 25-26, San Francisco.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-25",
+      "url": "/ycss?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
