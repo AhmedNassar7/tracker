@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T10:44:32Z",
+  "generated_at": "2026-07-25T12:09:30Z",
   "total": 82,
   "jobs": [
     {
@@ -363,14 +363,14 @@
       ]
     },
     {
-      "id": "d7e4cd19ff147953",
+      "id": "f7eb9ebbd5e7799c",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
+      "country": "United States",
+      "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -383,14 +383,14 @@
       ]
     },
     {
-      "id": "f7eb9ebbd5e7799c",
+      "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
