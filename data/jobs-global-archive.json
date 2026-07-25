@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T18:10:01Z",
-  "total": 99,
+  "generated_at": "2026-07-25T19:34:06Z",
+  "total": 100,
   "jobs": [
     {
       "id": "6132e8bbbdffd728",
@@ -15,34 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-24",
       "age": "1d",
-      "collected_at": "2026-07-25T18:10:01Z",
+      "collected_at": "2026-07-25T19:34:06Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T18:10:01Z"
-    },
-    {
-      "id": "21b3e9049fd45232",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-282822",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-21",
-      "age": "4d",
-      "collected_at": "2026-07-25T18:10:01Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-25T18:10:01Z"
+      "closed_at": "2026-07-25T19:34:06Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -57,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "3d",
-      "collected_at": "2026-07-25T18:10:01Z",
+      "collected_at": "2026-07-25T19:34:06Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T18:10:01Z"
+      "closed_at": "2026-07-25T19:34:06Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -78,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "8d",
-      "collected_at": "2026-07-25T18:10:01Z",
+      "collected_at": "2026-07-25T19:34:06Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T18:10:01Z"
+      "closed_at": "2026-07-25T19:34:06Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -99,6 +78,48 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "2d",
+      "collected_at": "2026-07-25T19:34:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-25T19:34:06Z"
+    },
+    {
+      "id": "33de175624113ea8",
+      "company": "West Pharmaceutical Services",
+      "title": "Associate Software Engineer, D&T, Azure/Cloud",
+      "level": "entry_level",
+      "country": "Unknown",
+      "location": "KA, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=904c81639ce08dce",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-23",
+      "age": "2d",
+      "collected_at": "2026-07-25T15:18:29Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-25T19:34:06Z"
+    },
+    {
+      "id": "21b3e9049fd45232",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-282822",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-21",
+      "age": "4d",
       "collected_at": "2026-07-25T18:10:01Z",
       "tags": [
         "software",
