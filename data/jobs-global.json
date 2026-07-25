@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T06:28:42Z",
-  "total": 89,
+  "generated_at": "2026-07-25T09:12:13Z",
+  "total": 82,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -183,26 +183,6 @@
       ]
     },
     {
-      "id": "6132e8bbbdffd728",
-      "company": "Mastercard",
-      "title": "Site Reliability Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Site-Reliability-Engineer-II_R-274938",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-25",
-      "age": "0d",
-      "collected_at": "2026-07-25T06:28:42Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "18fce6c33851cfc4",
       "company": "Microsoft",
       "title": "Software Engineer II",
@@ -343,26 +323,6 @@
       ]
     },
     {
-      "id": "863fe0cc99138a63",
-      "company": "Mastercard",
-      "title": "Data Engineer II-1",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Data-Engineer-II-1_R-279726-1",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-24",
-      "age": "1d",
-      "collected_at": "2026-07-25T06:28:42Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "3c46b9d61da3d979",
       "company": "Stripe",
       "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
@@ -403,26 +363,6 @@
       ]
     },
     {
-      "id": "d7e4cd19ff147953",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-10",
-      "age": "7d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f7eb9ebbd5e7799c",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
@@ -443,59 +383,19 @@
       ]
     },
     {
-      "id": "a014bb964bd683bb",
-      "company": "PayPal",
-      "title": "Software Engineer 2",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Scottsdale, Arizona, United States of America",
-      "remote_type": "onsite",
-      "url": "https://paypal.wd1.myworkdayjobs.com/job/Scottsdale-Arizona-United-States-of-America/Software-Engineer-2_R0137112",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-23",
-      "age": "2d",
-      "collected_at": "2026-07-25T06:28:42Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "33de175624113ea8",
-      "company": "West Pharmaceutical Services",
-      "title": "Associate Software Engineer, D&T, Azure/Cloud",
-      "level": "entry_level",
-      "country": "Unknown",
-      "location": "KA, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=904c81639ce08dce",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-23",
-      "age": "1d",
-      "collected_at": "2026-07-24T15:44:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "21b3e9049fd45232",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
+      "id": "d7e4cd19ff147953",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Android",
       "level": "mid_level",
       "country": "Unknown",
-      "location": "Pune, India",
+      "location": "Pittsburgh, PA",
       "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-282822",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-22",
-      "age": "3d",
-      "collected_at": "2026-07-25T06:28:42Z",
+      "posted_at": "2026-07-10",
+      "age": "7d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -536,26 +436,6 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:39:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "10ef33ebed97b74e",
-      "company": "PayPal",
-      "title": "Software Engineer 2",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "San Jose, California, United States of America",
-      "remote_type": "onsite",
-      "url": "https://paypal.wd1.myworkdayjobs.com/job/San-Jose-California-United-States-of-America/Software-Engineer-2_R0137107",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-18",
-      "age": "7d",
-      "collected_at": "2026-07-25T06:28:42Z",
       "tags": [
         "software",
         "programming",
@@ -1143,6 +1023,26 @@
       ]
     },
     {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "8d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "9b738d3d019be839",
       "company": "Citadel",
       "title": "Software Engineer Intern",
@@ -1175,26 +1075,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
@@ -1263,26 +1143,6 @@
       ]
     },
     {
-      "id": "26ec41004b2d610b",
-      "company": "Citadel Securities",
-      "title": "Machine Learning Researcher PhD Intern 🎓",
-      "level": "internship",
-      "country": "United States",
-      "location": "Miami, FL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-15",
-      "age": "14d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d4aa23e98c8055cb",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer - Internship - Commercial",
@@ -1336,6 +1196,26 @@
       "posted_at": "2026-07-17",
       "age": "16d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "26ec41004b2d610b",
+      "company": "Citadel Securities",
+      "title": "Machine Learning Researcher PhD Intern 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "Miami, FL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-15",
+      "age": "14d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1556,26 +1436,6 @@
       "posted_at": "2026-07-17",
       "age": "1mo",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "dee61fd2a43c40e9",
-      "company": "Tesla",
-      "title": "Software Engineer Intern - Fullstack Software Engineer - Fleetnet",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://www.tesla.com/careers/search/job/266764?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-25",
-      "age": "1mo",
-      "collected_at": "2026-07-25T03:35:43Z",
       "tags": [
         "software",
         "programming",
