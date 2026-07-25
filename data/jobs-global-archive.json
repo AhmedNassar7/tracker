@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T12:09:30Z",
-  "total": 98,
+  "generated_at": "2026-07-25T14:00:44Z",
+  "total": 99,
   "jobs": [
     {
       "id": "6132e8bbbdffd728",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-24",
       "age": "1d",
-      "collected_at": "2026-07-25T12:09:30Z",
+      "collected_at": "2026-07-25T14:00:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T12:09:30Z"
+      "closed_at": "2026-07-25T14:00:44Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-21",
       "age": "4d",
-      "collected_at": "2026-07-25T12:09:30Z",
+      "collected_at": "2026-07-25T14:00:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T12:09:30Z"
+      "closed_at": "2026-07-25T14:00:44Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "3d",
-      "collected_at": "2026-07-25T12:09:30Z",
+      "collected_at": "2026-07-25T14:00:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T12:09:30Z"
+      "closed_at": "2026-07-25T14:00:44Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -78,13 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "8d",
-      "collected_at": "2026-07-25T12:09:30Z",
+      "collected_at": "2026-07-25T14:00:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T12:09:30Z"
+      "closed_at": "2026-07-25T14:00:44Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -99,13 +99,34 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "2d",
-      "collected_at": "2026-07-25T12:09:30Z",
+      "collected_at": "2026-07-25T14:00:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T12:09:30Z"
+      "closed_at": "2026-07-25T14:00:44Z"
+    },
+    {
+      "id": "6ce765548a8ff117",
+      "company": "Pinterest",
+      "title": "PhD Fall Machine Learning Intern - ATG — Visual - Multimodal - and Recommender Systems",
+      "level": "internship",
+      "country": "United States",
+      "location": "San Francisco, CA +3",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7255640",
+      "source": "speedyapply_ai",
+      "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "87d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-25T14:00:44Z"
     },
     {
       "id": "dee61fd2a43c40e9",

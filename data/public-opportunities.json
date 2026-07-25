@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T12:10:15Z",
+  "generated_at": "2026-07-25T14:01:42Z",
   "total": 629,
   "jobs": [
     {
@@ -7943,18 +7943,6 @@
   ],
   "hackathons": [
     {
-      "id": "2b4cacd32ad51b41",
-      "kind": "hackathon",
-      "company": "ACT House",
-      "title": "Brainwave 2026",
-      "location": "Online",
-      "date": "15 days left",
-      "posted_at": "2026-07-25",
-      "url": "https://brainwaves.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "754cf7c8686d8157",
       "kind": "hackathon",
       "company": "ACTS EDC",
@@ -8020,7 +8008,7 @@
       "company": "BTP",
       "title": "DIVE 2026",
       "location": "4F, BEXCO Exhibition Center 2",
-      "date": "about 21 hours left",
+      "date": "about 19 hours left",
       "posted_at": "2026-07-25",
       "url": "https://dive2026.devpost.com/",
       "source": "devpost",
@@ -8188,7 +8176,7 @@
       "company": "hacktheconcretejungle",
       "title": "HTCJ Aviation Futures Innovation Challenge",
       "location": "Casa Vertigo",
-      "date": "3 days left",
+      "date": "2 days left",
       "posted_at": "2026-07-25",
       "url": "https://htcj-aviation-futures.devpost.com/",
       "source": "devpost",
@@ -8320,9 +8308,21 @@
       "company": "MLH",
       "title": "Build with AI extended : Build, automate, impact",
       "location": "Agence Togo Digital",
-      "date": "about 12 hours left",
+      "date": "about 11 hours left",
       "posted_at": "2026-07-25",
       "url": "https://build-with-ai-extended.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "cc84f0c2ee060edc",
+      "kind": "hackathon",
+      "company": "MLH",
+      "title": "Hack the Valley Hack Day",
+      "location": "Sam Ibrahim Building",
+      "date": "about 7 hours left",
+      "posted_at": "2026-07-25",
+      "url": "https://hack-the-valley-hack-day.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8392,7 +8392,7 @@
       "company": "Quantumhacks",
       "title": "QuantumHacks",
       "location": "Online",
-      "date": "27 days left",
+      "date": "26 days left",
       "posted_at": "2026-07-25",
       "url": "https://quantumhacks.devpost.com/",
       "source": "devpost",
@@ -8407,6 +8407,18 @@
       "date": "24 days left",
       "posted_at": "2026-07-25",
       "url": "https://win4aisafety-sain-utrecht.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "40bba5d0dcbb525c",
+      "kind": "hackathon",
+      "company": "Salam Consulting, Oasis Hill & Riwayah A",
+      "title": "DMV Hackathon",
+      "location": "Fuse at Mason Square",
+      "date": "about 9 hours left",
+      "posted_at": "2026-07-25",
+      "url": "https://dmv-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8452,7 +8464,7 @@
       "company": "Student Organization",
       "title": "MIT BWSI Cyber Operations Cohort Hackathon 2026",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-07-25",
       "url": "https://mit-bwsi-cyber-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -8512,7 +8524,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 12 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-07-25",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8543,18 +8555,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "c6a7c6dc0e8ba30a",
-      "kind": "hackathon",
-      "company": "TrainzexAI",
-      "title": "Impact Creation",
-      "location": "Online",
-      "date": "3 days left",
-      "posted_at": "2026-07-25",
-      "url": "https://impact-creation.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "db2fa3afa42afff7",
       "kind": "hackathon",
       "company": "vitalitics",
@@ -8572,7 +8572,7 @@
       "company": "WithAI Research",
       "title": "The Email Game",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-07-25",
       "url": "https://the-email-game.devpost.com/",
       "source": "devpost",
