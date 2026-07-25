@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T18:10:01Z",
-  "total": 81,
+  "generated_at": "2026-07-25T19:34:06Z",
+  "total": 80,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -323,26 +323,6 @@
       ]
     },
     {
-      "id": "f7eb9ebbd5e7799c",
-      "company": "Duolingo",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-10",
-      "age": "7d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
@@ -363,19 +343,19 @@
       ]
     },
     {
-      "id": "33de175624113ea8",
-      "company": "West Pharmaceutical Services",
-      "title": "Associate Software Engineer, D&T, Azure/Cloud",
-      "level": "entry_level",
-      "country": "Unknown",
-      "location": "KA, IN",
+      "id": "f7eb9ebbd5e7799c",
+      "company": "Duolingo",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=904c81639ce08dce",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-23",
-      "age": "2d",
-      "collected_at": "2026-07-25T15:18:29Z",
+      "posted_at": "2026-07-10",
+      "age": "7d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
