@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T22:10:10Z",
+  "generated_at": "2026-07-25T23:12:13Z",
   "total": 624,
   "jobs": [
     {
@@ -7943,6 +7943,18 @@
   ],
   "hackathons": [
     {
+      "id": "2b4cacd32ad51b41",
+      "kind": "hackathon",
+      "company": "ACT House",
+      "title": "Brainwave 2026",
+      "location": "Online",
+      "date": "15 days left",
+      "posted_at": "2026-07-25",
+      "url": "https://brainwaves.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "754cf7c8686d8157",
       "kind": "hackathon",
       "company": "ACTS EDC",
@@ -8104,7 +8116,7 @@
       "company": "CSI",
       "title": "CSI Hacks",
       "location": "Zoho Corporation, Pleasanton CA",
-      "date": "about 3 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-07-25",
       "url": "https://csi-hacks.devpost.com/",
       "source": "devpost",
@@ -8320,7 +8332,7 @@
       "company": "MLH",
       "title": "Build with AI extended : Build, automate, impact",
       "location": "Agence Togo Digital",
-      "date": "about 3 hours left",
+      "date": "42 minutes left",
       "posted_at": "2026-07-25",
       "url": "https://build-with-ai-extended.devpost.com/",
       "source": "devpost",
@@ -8392,7 +8404,7 @@
       "company": "Prompt Driven",
       "title": "⚡ Build Fast. Launch Loud. ⚡",
       "location": "Palo Alto, CA, USA",
-      "date": "about 6 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-07-25",
       "url": "https://build-fast-launch-loud.devpost.com/",
       "source": "devpost",
@@ -8419,18 +8431,6 @@
       "date": "24 days left",
       "posted_at": "2026-07-25",
       "url": "https://win4aisafety-sain-utrecht.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "40bba5d0dcbb525c",
-      "kind": "hackathon",
-      "company": "Salam Consulting, Oasis Hill & Riwayah A",
-      "title": "DMV Hackathon",
-      "location": "Fuse at Mason Square",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-25",
-      "url": "https://dmv-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },

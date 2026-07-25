@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T22:09:30Z",
-  "total": 82,
+  "generated_at": "2026-07-25T23:11:25Z",
+  "total": 80,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -136,6 +136,26 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0476ba52df9714ce",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-25",
+      "age": "Recently",
+      "collected_at": "2026-07-25T23:11:25Z",
       "tags": [
         "software",
         "programming",
@@ -283,26 +303,6 @@
       ]
     },
     {
-      "id": "27009c0825f8482d",
-      "company": "JPMorganChase",
-      "title": "Data Engineer II - SRE",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "KA, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=adbfb518a6c549a8",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-24",
-      "age": "1d",
-      "collected_at": "2026-07-25T22:09:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "3c46b9d61da3d979",
       "company": "Stripe",
       "title": "Software Engineer, New Grad, Developer & End User Experience Platform",
@@ -376,26 +376,6 @@
       "posted_at": "2026-07-10",
       "age": "7d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "33de175624113ea8",
-      "company": "West Pharmaceutical Services",
-      "title": "Associate Software Engineer, D&T, Azure/Cloud",
-      "level": "entry_level",
-      "country": "Unknown",
-      "location": "KA, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=904c81639ce08dce",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-23",
-      "age": "2d",
-      "collected_at": "2026-07-25T22:09:30Z",
       "tags": [
         "software",
         "programming",
@@ -1023,26 +1003,6 @@
       ]
     },
     {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "8d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9b738d3d019be839",
       "company": "Citadel",
       "title": "Software Engineer Intern",
@@ -1075,6 +1035,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
@@ -1223,26 +1203,6 @@
       ]
     },
     {
-      "id": "9415006c972556db",
-      "company": "Palantir",
-      "title": "Software Engineer New Grad - Production Infrastructure",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "15d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "fe5669a53ce7b6e5",
       "company": "Tesla",
       "title": "Data Engineer Intern - Applications Engineering",
@@ -1263,19 +1223,19 @@
       ]
     },
     {
-      "id": "1d189997c9218173",
+      "id": "9415006c972556db",
       "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "title": "Software Engineer New Grad - Production Infrastructure",
       "level": "new_grad",
       "country": "United States",
-      "location": "NYC",
+      "location": "Washington, DC",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify",
       "source": "simplify_newgrad",
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-25",
-      "age": "26d",
-      "collected_at": "2026-07-25T15:18:29Z",
+      "posted_at": "2026-07-15",
+      "age": "15d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",

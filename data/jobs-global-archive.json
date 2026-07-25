@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T22:09:30Z",
-  "total": 98,
+  "generated_at": "2026-07-25T23:11:25Z",
+  "total": 100,
   "jobs": [
     {
       "id": "6132e8bbbdffd728",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-24",
       "age": "1d",
-      "collected_at": "2026-07-25T22:09:30Z",
+      "collected_at": "2026-07-25T23:11:25Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T22:09:30Z"
+      "closed_at": "2026-07-25T23:11:25Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "3d",
-      "collected_at": "2026-07-25T22:09:30Z",
+      "collected_at": "2026-07-25T23:11:25Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T22:09:30Z"
+      "closed_at": "2026-07-25T23:11:25Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "8d",
-      "collected_at": "2026-07-25T22:09:30Z",
+      "collected_at": "2026-07-25T23:11:25Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T22:09:30Z"
+      "closed_at": "2026-07-25T23:11:25Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -78,13 +78,76 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "2d",
+      "collected_at": "2026-07-25T23:11:25Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-25T23:11:25Z"
+    },
+    {
+      "id": "33de175624113ea8",
+      "company": "West Pharmaceutical Services",
+      "title": "Associate Software Engineer, D&T, Azure/Cloud",
+      "level": "entry_level",
+      "country": "Unknown",
+      "location": "KA, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=904c81639ce08dce",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-23",
+      "age": "2d",
       "collected_at": "2026-07-25T22:09:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T22:09:30Z"
+      "closed_at": "2026-07-25T23:11:25Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-25",
+      "age": "26d",
+      "collected_at": "2026-07-25T15:18:29Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-25T23:11:25Z"
+    },
+    {
+      "id": "27009c0825f8482d",
+      "company": "JPMorganChase",
+      "title": "Data Engineer II - SRE",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "KA, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=adbfb518a6c549a8",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-24",
+      "age": "1d",
+      "collected_at": "2026-07-25T22:09:30Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-25T23:11:25Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -1444,27 +1507,6 @@
       "posted_at": "2026-07-08",
       "age": "11d",
       "collected_at": "2026-07-19T13:52:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-20T16:01:13Z"
-    },
-    {
-      "id": "0476ba52df9714ce",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-20",
-      "age": "Recently",
-      "collected_at": "2026-07-20T13:17:46Z",
       "tags": [
         "software",
         "programming",
