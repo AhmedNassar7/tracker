@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T21:09:09Z",
+  "generated_at": "2026-07-25T22:10:10Z",
   "total": 624,
   "jobs": [
     {
@@ -8104,7 +8104,7 @@
       "company": "CSI",
       "title": "CSI Hacks",
       "location": "Zoho Corporation, Pleasanton CA",
-      "date": "about 4 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-07-25",
       "url": "https://csi-hacks.devpost.com/",
       "source": "devpost",
@@ -8296,7 +8296,7 @@
       "company": "Mafiq Foundation",
       "title": "MYHack 2026",
       "location": "Gaithersburg, MD, USA",
-      "date": "about 20 hours left",
+      "date": "about 19 hours left",
       "posted_at": "2026-07-25",
       "url": "https://myhack-2026.devpost.com/",
       "source": "devpost",
@@ -8323,18 +8323,6 @@
       "date": "about 3 hours left",
       "posted_at": "2026-07-25",
       "url": "https://build-with-ai-extended.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "cc84f0c2ee060edc",
-      "kind": "hackathon",
-      "company": "MLH",
-      "title": "Hack the Valley Hack Day",
-      "location": "Sam Ibrahim Building",
-      "date": "6 minutes left",
-      "posted_at": "2026-07-25",
-      "url": "https://hack-the-valley-hack-day.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8440,7 +8428,7 @@
       "company": "Salam Consulting, Oasis Hill & Riwayah A",
       "title": "DMV Hackathon",
       "location": "Fuse at Mason Square",
-      "date": "about 2 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-07-25",
       "url": "https://dmv-hackathon.devpost.com/",
       "source": "devpost",
@@ -8551,6 +8539,18 @@
       "date": "10 days left",
       "posted_at": "2026-07-25",
       "url": "https://creation-code-30750.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "c6a7c6dc0e8ba30a",
+      "kind": "hackathon",
+      "company": "TrainzexAI",
+      "title": "Impact Creation",
+      "location": "Online",
+      "date": "3 days left",
+      "posted_at": "2026-07-25",
+      "url": "https://impact-creation.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },

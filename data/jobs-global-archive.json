@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T21:08:21Z",
-  "total": 100,
+  "generated_at": "2026-07-25T22:09:30Z",
+  "total": 98,
   "jobs": [
     {
       "id": "6132e8bbbdffd728",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-24",
       "age": "1d",
-      "collected_at": "2026-07-25T21:08:21Z",
+      "collected_at": "2026-07-25T22:09:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T21:08:21Z"
+      "closed_at": "2026-07-25T22:09:30Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "3d",
-      "collected_at": "2026-07-25T21:08:21Z",
+      "collected_at": "2026-07-25T22:09:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T21:08:21Z"
+      "closed_at": "2026-07-25T22:09:30Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "8d",
-      "collected_at": "2026-07-25T21:08:21Z",
+      "collected_at": "2026-07-25T22:09:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T21:08:21Z"
+      "closed_at": "2026-07-25T22:09:30Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -78,34 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "2d",
-      "collected_at": "2026-07-25T21:08:21Z",
+      "collected_at": "2026-07-25T22:09:30Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-25T21:08:21Z"
-    },
-    {
-      "id": "33de175624113ea8",
-      "company": "West Pharmaceutical Services",
-      "title": "Associate Software Engineer, D&T, Azure/Cloud",
-      "level": "entry_level",
-      "country": "Unknown",
-      "location": "KA, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=904c81639ce08dce",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-23",
-      "age": "2d",
-      "collected_at": "2026-07-25T15:18:29Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-25T19:34:06Z"
+      "closed_at": "2026-07-25T22:09:30Z"
     },
     {
       "id": "21b3e9049fd45232",
@@ -127,27 +106,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-25T18:10:01Z"
-    },
-    {
-      "id": "27009c0825f8482d",
-      "company": "JPMorganChase",
-      "title": "Data Engineer II - SRE",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "KA, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=adbfb518a6c549a8",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-24",
-      "age": "0d",
-      "collected_at": "2026-07-24T14:11:47Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-25T17:14:11Z"
     },
     {
       "id": "8c423d3b1aa78262",
