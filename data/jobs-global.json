@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T15:18:29Z",
-  "total": 82,
+  "generated_at": "2026-07-25T17:14:11Z",
+  "total": 81,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -276,26 +276,6 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "27009c0825f8482d",
-      "company": "JPMorganChase",
-      "title": "Data Engineer II - SRE",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "KA, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=adbfb518a6c549a8",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-24",
-      "age": "0d",
-      "collected_at": "2026-07-24T14:11:47Z",
       "tags": [
         "software",
         "programming",
