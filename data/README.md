@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 443 |
+| Jobs | 442 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 500 |
+| Total | 499 |
 
 ## Jobs
 
-[![Jobs 443](https://img.shields.io/badge/Jobs-443-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 48](https://img.shields.io/badge/Internship-48-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 368](https://img.shields.io/badge/Mid--Level%20and%20Above-368-dc2626.svg)](#mid-level-and-above)
+[![Jobs 442](https://img.shields.io/badge/Jobs-442-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 48](https://img.shields.io/badge/Internship-48-22c55e.svg)](#internship) [![Early Career 27](https://img.shields.io/badge/Early%20Career-27-0ea5e9.svg)](#early-career) [![Mid-Level and Above 367](https://img.shields.io/badge/Mid--Level%20and%20Above-367-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -127,11 +127,10 @@ Total roles: 27
 
 ### Mid-Level and Above
 
-Total roles: 368
+Total roles: 367
 
 | Company | Title | Location | Age |
 |---|---|---|---|
-| JPMorganChase | [Data Engineer II - SRE](https://in.indeed.com/viewjob?jk=adbfb518a6c549a8) | KA, IN | 0d |
 | NVIDIA | [Manager, System Software Engineering - Local AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Manager--System-Software-Engineering---Local-AI_JR2021898-1) | India, Pune | 0d |
 | NVIDIA | [Senior System Software Engineer - Local AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---Local-AI_JR2021896) | India, Pune | 0d |
 | NVIDIA | [Senior System Software Engineer - Local AI Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---Local-AI-Automation_JR2021900) | India, Pune | 0d |
@@ -507,9 +506,9 @@ Total hackathons: 54
 | Organizer | Hackathon |
 |---|---|
 | ACTS EDC | [Brainwave 2026 – X402 Blockchain Track](https://brainwave-2026.devpost.com/) |
-| Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
 | Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
 | Blueprint Hackathon | [The Blueprint Hackathon (For All Ages, July 17th-31st)](https://the-blueprint-hackathon.devpost.com/) |
+| BTP | [DIVE 2026](https://dive2026.devpost.com/) |
 | BuildBeyond | [Build Beyond Hackathon](https://build-beyond-hackathon.devpost.com/) |
 | BuildBeyond | [IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities](https://igad-husika-hackathon.devpost.com/) |
 | CAHSI at FIU | [305 SummerCodex Edition July 2026](https://305summercodexjul2026.devpost.com/) |
@@ -530,7 +529,6 @@ Total hackathons: 54
 | ImpactForge | [ImpactForge](https://impactforge.devpost.com/) |
 | Innovation Hacks | [NextGen Innovation2026](https://nextgen-innovation-2026.devpost.com/) |
 | International AI Youth Education Society | [AI YES :International Youth AI Competition](https://ai-yes-competition-30441.devpost.com/) |
-| Jababeka | [CYPER HACKATHON (Testing)](https://hacksphere-26.devpost.com/) |
 | Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
 | Kuki Designed group | [Kuki Designed group](https://kuki-designed-group.devpost.com/) |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
@@ -543,6 +541,7 @@ Total hackathons: 54
 | Paritok | [Build with Paritok: The Token-Efficiency Hackathon](https://build-with-paritok.devpost.com/) |
 | Perfect Corp | [YouCam API Skin AI & Apparel VTO Hackathon](https://youcam-api.devpost.com/) |
 | Prometheus | [Prometheus July AI Challenge](https://prometheus-july-ai-challenge.devpost.com/) |
+| Prompt Driven | [⚡ Build Fast. Launch Loud. ⚡](https://build-fast-launch-loud.devpost.com/) |
 | Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
 | SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
 | Salam Consulting, Oasis Hill & Riwayah A | [DMV Hackathon](https://dmv-hackathon.devpost.com/) |
