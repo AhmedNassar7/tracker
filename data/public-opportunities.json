@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T09:12:54Z",
+  "generated_at": "2026-07-25T10:45:21Z",
   "total": 624,
   "jobs": [
     {
@@ -7943,18 +7943,6 @@
   ],
   "hackathons": [
     {
-      "id": "2b4cacd32ad51b41",
-      "kind": "hackathon",
-      "company": "ACT House",
-      "title": "Brainwave 2026",
-      "location": "Online",
-      "date": "16 days left",
-      "posted_at": "2026-07-25",
-      "url": "https://brainwaves.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "754cf7c8686d8157",
       "kind": "hackathon",
       "company": "ACTS EDC",
@@ -7984,7 +7972,7 @@
       "company": "Backblaze",
       "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2",
       "location": "Online",
-      "date": "10 days left",
+      "date": "9 days left",
       "posted_at": "2026-07-25",
       "url": "https://backblaze-generative-media.devpost.com/",
       "source": "devpost",
@@ -8008,7 +7996,7 @@
       "company": "Blueprint Hackathon",
       "title": "The Blueprint Hackathon (For All Ages, July 17th-31st)",
       "location": "Online",
-      "date": "7 days left",
+      "date": "6 days left",
       "posted_at": "2026-07-25",
       "url": "https://the-blueprint-hackathon.devpost.com/",
       "source": "devpost",
@@ -8092,7 +8080,7 @@
       "company": "Cockroach Labs",
       "title": "CockroachDB × AWS Hackathon - Build with Agentic Memory",
       "location": "Online",
-      "date": "25 days left",
+      "date": "24 days left",
       "posted_at": "2026-07-25",
       "url": "https://cockroachdb-ai.devpost.com/",
       "source": "devpost",
@@ -8128,7 +8116,7 @@
       "company": "DevsUnite",
       "title": "DevsUnite Hiring Hackathon",
       "location": "Online",
-      "date": "about 3 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-07-25",
       "url": "https://devsunite-hiring-hackathon.devpost.com/",
       "source": "devpost",
@@ -8224,7 +8212,7 @@
       "company": "high school",
       "title": "3D Websites Hackathon",
       "location": "Online",
-      "date": "7 days left",
+      "date": "6 days left",
       "posted_at": "2026-07-25",
       "url": "https://3d-websites-hackathon.devpost.com/",
       "source": "devpost",
@@ -8323,6 +8311,18 @@
       "date": "21 days left",
       "posted_at": "2026-07-25",
       "url": "https://ml-empowerment-2.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "9e9c8ad924b96f64",
+      "kind": "hackathon",
+      "company": "MLH",
+      "title": "Build with AI extended : Build, automate, impact",
+      "location": "Agence Togo Digital",
+      "date": "about 14 hours left",
+      "posted_at": "2026-07-25",
+      "url": "https://build-with-ai-extended.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8488,7 +8488,7 @@
       "company": "TechElevate",
       "title": "Sound for All",
       "location": "Online",
-      "date": "7 days left",
+      "date": "6 days left",
       "posted_at": "2026-07-25",
       "url": "https://sound-for-all.devpost.com/",
       "source": "devpost",
