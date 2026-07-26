@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T13:55:52Z",
-  "total": 631,
+  "generated_at": "2026-07-26T15:21:10Z",
+  "total": 625,
   "jobs": [
     {
       "id": "8f3985c0b4a067b0",
@@ -883,20 +883,6 @@
       "url": "https://jobs.lever.co/palantir/67110929-adea-41c3-851a-8882e222d9e4",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "57ab938206878794",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Distinguished Software Engineer - ADEM (Backend)",
-      "location": "Santa Clara, United States of America",
-      "level": "other",
-      "role_type": "backend",
-      "date": "4d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Santa-Clara-United-States-of-America/Distinguished-Software-Engineer---ADEM--Backend-_JR-018648",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
       "id": "147e11c25d3441c6",
@@ -8324,7 +8310,7 @@
       "company": "Mafiq Foundation",
       "title": "MYHack 2026",
       "location": "Gaithersburg, MD, USA",
-      "date": "about 3 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-07-26",
       "url": "https://myhack-2026.devpost.com/",
       "source": "devpost",
@@ -8336,7 +8322,7 @@
       "company": "Microsoft Student Club - SCU",
       "title": "Canal Startup Sprint Hackathon",
       "location": "Creativa Innovation Hub Ismailia",
-      "date": "20 days left",
+      "date": "19 days left",
       "posted_at": "2026-07-26",
       "url": "https://canal-startup-sprint-hackathon.devpost.com/",
       "source": "devpost",
@@ -8540,7 +8526,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 10 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-07-26",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8621,30 +8607,6 @@
   ],
   "events": [
     {
-      "id": "229397d627dbf883",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-26",
-      "url": "/sf-builders-collective?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-26",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8669,18 +8631,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-26",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8689,30 +8639,6 @@
       "date": "",
       "posted_at": "2026-07-26",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-26",
-      "url": "/sf-hardware-meetup?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "29d2320e60efcc7f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow YC Startup School San Francisco · Explore unofficial side events at YC Startup School, a two-day gathering where ambitious technical builders, engineers, researchers around startup-focused activities. July 25-26, San Francisco.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-26",
-      "url": "/ycss?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
