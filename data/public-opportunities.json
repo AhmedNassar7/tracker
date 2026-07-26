@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-07-26T18:14:41Z",
+  "generated_at": "2026-07-26T19:37:19Z",
   "total": 625,
   "jobs": [
-    {
-      "id": "8f3985c0b4a067b0",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "DevOps Engineer, DOCA",
-      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Yokneam<br>Israel, Tel Aviv</details>",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/DevOps-Engineer--DOCA_JR2017774",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
     {
       "id": "9f32662026ca53f0",
       "kind": "job",
@@ -27,6 +13,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer---NVLink-GPU-Networking_JR2016557",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "75742413ade6a640",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Manager, Infra Tools AI Team",
+      "location": "Israel, Raanana",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Manager--Infra-Tools-AI_JR2016759",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -7957,18 +7957,6 @@
   ],
   "hackathons": [
     {
-      "id": "78d02a8f68fa1b72",
-      "kind": "hackathon",
-      "company": "AceSAT",
-      "title": "AceSAT Education AI-Agent",
-      "location": "Online",
-      "date": "20 days left",
-      "posted_at": "2026-07-26",
-      "url": "https://acesat-ai-agent.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -7998,7 +7986,7 @@
       "company": "Africa Deep Tech Foundation",
       "title": "Africa Deep Tech Challenge 2026",
       "location": "Online",
-      "date": "30 days left",
+      "date": "29 days left",
       "posted_at": "2026-07-26",
       "url": "https://adtc-2026.devpost.com/",
       "source": "devpost",
@@ -8058,7 +8046,7 @@
       "company": "BuildBeyond",
       "title": "Build Beyond Hackathon",
       "location": "Online",
-      "date": "21 days left",
+      "date": "20 days left",
       "posted_at": "2026-07-26",
       "url": "https://build-beyond-hackathon.devpost.com/",
       "source": "devpost",
@@ -8281,6 +8269,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "4a8dccd721137a9e",
+      "kind": "hackathon",
+      "company": "Jaseci Labs",
+      "title": "JacHacks SF",
+      "location": "Founders Inc.",
+      "date": "about 7 hours left",
+      "posted_at": "2026-07-26",
+      "url": "https://jachacks-sf.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "d6c1fefdc062072b",
       "kind": "hackathon",
       "company": "Kang Chiao International School Student",
@@ -8346,7 +8346,7 @@
       "company": "NeuralSprint",
       "title": "NeuralSprint",
       "location": "Online",
-      "date": "29 days left",
+      "date": "28 days left",
       "posted_at": "2026-07-26",
       "url": "https://neuralsprint.devpost.com/",
       "source": "devpost",
@@ -8526,7 +8526,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "about 14 hours left",
       "posted_at": "2026-07-26",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
