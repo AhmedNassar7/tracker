@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T00:12:55Z",
+  "generated_at": "2026-07-26T03:56:43Z",
   "total": 80,
   "jobs": [
     {
@@ -136,26 +136,6 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0476ba52df9714ce",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-25",
-      "age": "Recently",
-      "collected_at": "2026-07-25T23:11:25Z",
       "tags": [
         "software",
         "programming",
@@ -763,26 +743,6 @@
       ]
     },
     {
-      "id": "d530f67da5b76ff6",
-      "company": "Citadel Securities",
-      "title": "Software Engineer – University Graduate",
-      "level": "new_grad",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "0d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "77d97c5b772d74b1",
       "company": "Cloudflare",
       "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
@@ -796,6 +756,26 @@
       "posted_at": "2026-07-17",
       "age": "2d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d530f67da5b76ff6",
+      "company": "Citadel Securities",
+      "title": "Software Engineer – University Graduate",
+      "level": "new_grad",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "0d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1203,26 +1183,6 @@
       ]
     },
     {
-      "id": "fe5669a53ce7b6e5",
-      "company": "Tesla",
-      "title": "Data Engineer Intern - Applications Engineering",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Fremont, CA",
-      "remote_type": "onsite",
-      "url": "https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-17",
-      "age": "17d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9415006c972556db",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Production Infrastructure",
@@ -1236,6 +1196,26 @@
       "posted_at": "2026-07-15",
       "age": "15d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fe5669a53ce7b6e5",
+      "company": "Tesla",
+      "title": "Data Engineer Intern - Applications Engineering",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Fremont, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-17",
+      "age": "17d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -1416,6 +1396,26 @@
       "posted_at": "2026-07-17",
       "age": "1mo",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "dee61fd2a43c40e9",
+      "company": "Tesla",
+      "title": "Software Engineer Intern - Fullstack Software Engineer - Fleetnet",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/266764?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-26",
+      "age": "1mo",
+      "collected_at": "2026-07-26T03:56:43Z",
       "tags": [
         "software",
         "programming",
