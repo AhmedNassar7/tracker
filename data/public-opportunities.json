@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-07-26T21:12:04Z",
-  "total": 631,
+  "generated_at": "2026-07-26T22:13:19Z",
+  "total": 630,
   "jobs": [
+    {
+      "id": "021adde9431ea3d1",
+      "kind": "job",
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, People Ops and AI Tools",
+      "location": "Austin, TX, United States",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-26",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8035679?gh_jid=8035679",
+      "source": "greenhouse:cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
     {
       "id": "17e6672fdae10227",
       "kind": "job",
@@ -325,20 +339,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "021adde9431ea3d1",
-      "kind": "job",
-      "company": "Cloudflare",
-      "title": "Senior Software Engineer, People Ops and AI Tools",
-      "location": "In-Office",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-07-24",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8035679?gh_jid=8035679",
-      "source": "greenhouse:cloudflare",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
-    {
       "id": "ec31014d8a0ef82d",
       "kind": "job",
       "company": "Cohere",
@@ -489,20 +489,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---NV-Cloud-Functions_JR2020483-1",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "413ff50e75884f27",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Technical Product Marketing Manager - AI Infrastructure",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Product-Marketing-Manager---AI-Infrastructure_JR2021774",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -8358,7 +8344,7 @@
       "company": "Jaseci Labs",
       "title": "JacHacks SF",
       "location": "Founders Inc.",
-      "date": "about 5 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-07-26",
       "url": "https://jachacks-sf.devpost.com/",
       "source": "devpost",
