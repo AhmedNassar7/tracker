@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 436 |
+| Jobs | 435 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 493 |
+| Total | 492 |
 
 ## Jobs
 
-[![Jobs 436](https://img.shields.io/badge/Jobs-436-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 49](https://img.shields.io/badge/Internship-49-22c55e.svg)](#internship) [![Early Career 25](https://img.shields.io/badge/Early%20Career-25-0ea5e9.svg)](#early-career) [![Mid-Level and Above 362](https://img.shields.io/badge/Mid--Level%20and%20Above-362-dc2626.svg)](#mid-level-and-above)
+[![Jobs 435](https://img.shields.io/badge/Jobs-435-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 48](https://img.shields.io/badge/Internship-48-22c55e.svg)](#internship) [![Early Career 25](https://img.shields.io/badge/Early%20Career-25-0ea5e9.svg)](#early-career) [![Mid-Level and Above 362](https://img.shields.io/badge/Mid--Level%20and%20Above-362-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 49
+Total roles: 48
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -70,7 +70,6 @@ Total roles: 49
 | ByteDance | [Software Engineer Intern - Developer Infrastructure](https://jobs.bytedance.com/en/position/7595707875767699765/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify) | San Diego, CA | 1mo |
 | Tesla | [Embedded Software Engineer Intern - Embedded Software Engineer - Body Controls Firmware](https://www.tesla.com/careers/search/job/270618?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
-| Tesla | [Software Engineer Intern - Fullstack Software Engineer - Fleetnet](https://www.tesla.com/careers/search/job/266764?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Tesla | [Software Engineer Intern - Software Engineer - AI Hardware Infrastructure](https://www.tesla.com/careers/search/job/260382?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 1mo |
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 1mo |
 | Zipline | [Enterprise Systems Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7767667003) | South San Francisco, CA | 1mo |
@@ -530,15 +529,14 @@ Total hackathons: 54
 | Kuki Designed group | [Kuki Designed group](https://kuki-designed-group.devpost.com/) |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
 | Mafiq Foundation | [MYHack 2026](https://myhack-2026.devpost.com/) |
+| Microsoft Student Club - SCU | [Canal Startup Sprint Hackathon](https://canal-startup-sprint-hackathon.devpost.com/) |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 2.0](https://ml-empowerment-2.devpost.com/) |
 | NeuralSprint | [NeuralSprint](https://neuralsprint.devpost.com/) |
-| Next Bytes | [Next Byte Hacks V3](https://next-byte-hacks-v3.devpost.com/) |
 | nill | [Code for Humanity](https://code-for-humanity.devpost.com/) |
 | Paritok | [Build with Paritok: The Token-Efficiency Hackathon](https://build-with-paritok.devpost.com/) |
 | Perfect Corp | [YouCam API Skin AI & Apparel VTO Hackathon](https://youcam-api.devpost.com/) |
 | Prometheus | [Prometheus July AI Challenge](https://prometheus-july-ai-challenge.devpost.com/) |
 | Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
-| Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) |
 | SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
 | shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
 | snap2measure | [Measure up](https://measureme-up.devpost.com/) |
@@ -547,6 +545,7 @@ Total hackathons: 54
 | SVHEC | [NEXORA Global Hackathon](https://nexora-global-hackathon.devpost.com/) |
 | TechElevate | [Sound for All](https://sound-for-all.devpost.com/) |
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
+| Tecnoviz Dev Comm | [Technoviz Summer of Code](https://technoviz-summer-of-code.devpost.com/) |
 | The Webb Schools CSC | [CSC Summer Impactathon](https://csc-summer-impactathon.devpost.com/) |
 | Trainzex AI | [Build With Gemini - Creation Code](https://creation-code-30750.devpost.com/) |
 | TrainzexAI | [Impact Creation](https://impact-creation.devpost.com/) |
