@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T09:23:32Z",
-  "total": 79,
+  "generated_at": "2026-07-26T11:36:14Z",
+  "total": 78,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -1336,26 +1336,6 @@
       "posted_at": "2026-07-17",
       "age": "22d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "e45bb16a9d62c7df",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Diego, CA",
-      "remote_type": "onsite",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-22",
-      "age": "1mo",
-      "collected_at": "2026-07-22T00:07:54Z",
       "tags": [
         "software",
         "programming",
