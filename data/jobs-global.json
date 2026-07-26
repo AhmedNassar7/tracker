@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T15:20:32Z",
-  "total": 81,
+  "generated_at": "2026-07-26T17:14:40Z",
+  "total": 80,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -136,26 +136,6 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0476ba52df9714ce",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-26",
-      "age": "Recently",
-      "collected_at": "2026-07-26T15:20:32Z",
       "tags": [
         "software",
         "programming",
@@ -343,14 +323,14 @@
       ]
     },
     {
-      "id": "f7eb9ebbd5e7799c",
+      "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -363,14 +343,14 @@
       ]
     },
     {
-      "id": "d7e4cd19ff147953",
+      "id": "f7eb9ebbd5e7799c",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
+      "country": "United States",
+      "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
