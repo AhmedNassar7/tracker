@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T11:36:14Z",
-  "total": 78,
+  "generated_at": "2026-07-26T13:55:06Z",
+  "total": 79,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -743,26 +743,6 @@
       ]
     },
     {
-      "id": "77d97c5b772d74b1",
-      "company": "Cloudflare",
-      "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "2d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d530f67da5b76ff6",
       "company": "Citadel Securities",
       "title": "Software Engineer – University Graduate",
@@ -776,6 +756,26 @@
       "posted_at": "2026-07-15",
       "age": "0d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "77d97c5b772d74b1",
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "2d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -1103,26 +1103,6 @@
       ]
     },
     {
-      "id": "d4aa23e98c8055cb",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer - Internship - Commercial",
-      "level": "internship",
-      "country": "United States",
-      "location": "Chicago, IL",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "16d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "52701a261180efd0",
       "company": "Palo Alto Networks",
       "title": "Software Engineer Intern 🎓",
@@ -1143,26 +1123,6 @@
       ]
     },
     {
-      "id": "25112912b64a7e96",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Diego, CA",
-      "remote_type": "onsite",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "16d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "26ec41004b2d610b",
       "company": "Citadel Securities",
       "title": "Machine Learning Researcher PhD Intern 🎓",
@@ -1176,6 +1136,46 @@
       "posted_at": "2026-07-15",
       "age": "14d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d4aa23e98c8055cb",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer - Internship - Commercial",
+      "level": "internship",
+      "country": "United States",
+      "location": "Chicago, IL",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "16d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "25112912b64a7e96",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Diego, CA",
+      "remote_type": "onsite",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "16d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -1323,19 +1323,19 @@
       ]
     },
     {
-      "id": "e0a6ba48b79e0ae3",
-      "company": "Palantir",
-      "title": "Year at Palantir - Forward Deployed Software Engineer - Internship - Commercial",
+      "id": "e45bb16a9d62c7df",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
       "level": "internship",
-      "country": "United States",
-      "location": "Chicago, IL",
+      "country": "Unknown",
+      "location": "San Diego, CA",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "22d",
-      "collected_at": "2026-07-17T22:19:39Z",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-26",
+      "age": "1mo",
+      "collected_at": "2026-07-26T13:55:06Z",
       "tags": [
         "software",
         "programming",
@@ -1395,6 +1395,26 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-07-17",
       "age": "1mo",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e0a6ba48b79e0ae3",
+      "company": "Palantir",
+      "title": "Year at Palantir - Forward Deployed Software Engineer - Internship - Commercial",
+      "level": "internship",
+      "country": "United States",
+      "location": "Chicago, IL",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "22d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",

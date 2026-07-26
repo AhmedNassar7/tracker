@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T11:36:14Z",
-  "total": 102,
+  "generated_at": "2026-07-26T13:55:06Z",
+  "total": 101,
   "jobs": [
     {
       "id": "6132e8bbbdffd728",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-24",
       "age": "2d",
-      "collected_at": "2026-07-26T11:36:14Z",
+      "collected_at": "2026-07-26T13:55:06Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-26T11:36:14Z"
+      "closed_at": "2026-07-26T13:55:06Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "4d",
-      "collected_at": "2026-07-26T11:36:14Z",
+      "collected_at": "2026-07-26T13:55:06Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-26T11:36:14Z"
+      "closed_at": "2026-07-26T13:55:06Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "9d",
-      "collected_at": "2026-07-26T11:36:14Z",
+      "collected_at": "2026-07-26T13:55:06Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-26T11:36:14Z"
+      "closed_at": "2026-07-26T13:55:06Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -78,34 +78,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
       "age": "3d",
-      "collected_at": "2026-07-26T11:36:14Z",
+      "collected_at": "2026-07-26T13:55:06Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-26T11:36:14Z"
-    },
-    {
-      "id": "e45bb16a9d62c7df",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Diego, CA",
-      "remote_type": "onsite",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Software-Engineer-Intern_JR-119282?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-22",
-      "age": "1mo",
-      "collected_at": "2026-07-22T00:07:54Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-26T11:36:14Z"
+      "closed_at": "2026-07-26T13:55:06Z"
     },
     {
       "id": "dee61fd2a43c40e9",
