@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T13:55:06Z",
-  "total": 79,
+  "generated_at": "2026-07-26T15:20:32Z",
+  "total": 81,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -136,6 +136,26 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0476ba52df9714ce",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-26",
+      "age": "Recently",
+      "collected_at": "2026-07-26T15:20:32Z",
       "tags": [
         "software",
         "programming",
@@ -1216,6 +1236,26 @@
       "posted_at": "2026-07-17",
       "age": "17d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-26",
+      "age": "27d",
+      "collected_at": "2026-07-26T15:20:32Z",
       "tags": [
         "software",
         "programming",
