@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T20:43:19Z",
-  "total": 631,
+  "generated_at": "2026-07-27T22:18:06Z",
+  "total": 633,
   "jobs": [
     {
       "id": "cffa31a1d5d25f13",
@@ -209,6 +209,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Software-Engineer--Cortex-Vulnerability-Experience-Platform-_JR-018370",
+      "source": "workday:paloaltonetworks",
+      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
+    },
+    {
+      "id": "2f59c6c05f16feeb",
+      "kind": "job",
+      "company": "Palo Alto Networks",
+      "title": "Senior Staff DevOps Engineer",
+      "location": "Office - USA - CA - Headquarters",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Staff-DevOps-Engineer_JR-020397",
       "source": "workday:paloaltonetworks",
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
@@ -6793,6 +6807,20 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
+      "id": "4aba4ca7dc2eb957",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Site Reliability Engineer - US Government",
+      "location": "Washington, D.C.",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "424d",
+      "posted_at": "2025-05-29",
+      "url": "https://jobs.lever.co/palantir/a194220b-684a-4b4e-b918-1f70154b464c",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
       "id": "22f537e1ad6a257f",
       "kind": "job",
       "company": "Openai",
@@ -8142,7 +8170,7 @@
       "company": "CAHSI at FIU",
       "title": "305 SummerCodex Edition July 2026",
       "location": "Online",
-      "date": "5 days left",
+      "date": "4 days left",
       "posted_at": "2026-07-27",
       "url": "https://305summercodexjul2026.devpost.com/",
       "source": "devpost",
@@ -8253,6 +8281,18 @@
       "date": "9 days left",
       "posted_at": "2026-07-27",
       "url": "https://girlsinstemhackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "7a7d518099355a3e",
+      "kind": "hackathon",
+      "company": "Google",
+      "title": "Agentic Cinema: The Blockbuster Hackathon",
+      "location": "Online",
+      "date": "about 1 month left",
+      "posted_at": "2026-07-27",
+      "url": "https://agentic-cinema.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8533,18 +8573,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "542ea16e18a4b97b",
-      "kind": "hackathon",
-      "company": "snap2measure",
-      "title": "Measure up",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-27",
-      "url": "https://measureme-up.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "f972d0619bc34a45",
       "kind": "hackathon",
       "company": "STEMise",
@@ -8617,18 +8645,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "45645b8447699aad",
-      "kind": "hackathon",
-      "company": "Tecnoviz Dev Comm",
-      "title": "Technoviz Summer of Code",
-      "location": "Online",
-      "date": "18 minutes left",
-      "posted_at": "2026-07-27",
-      "url": "https://technoviz-summer-of-code.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "838a01c47b0f86fe",
       "kind": "hackathon",
       "company": "The Webb Schools CSC",
@@ -8649,6 +8665,18 @@
       "date": "8 days left",
       "posted_at": "2026-07-27",
       "url": "https://creation-code-30750.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "c6a7c6dc0e8ba30a",
+      "kind": "hackathon",
+      "company": "TrainzexAI",
+      "title": "Impact Creation",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-07-27",
+      "url": "https://impact-creation.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
