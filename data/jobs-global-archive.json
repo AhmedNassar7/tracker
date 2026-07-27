@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T17:10:22Z",
-  "total": 101,
+  "generated_at": "2026-07-27T18:46:41Z",
+  "total": 103,
   "jobs": [
     {
       "id": "6132e8bbbdffd728",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-24",
       "age": "3d",
-      "collected_at": "2026-07-27T17:10:22Z",
+      "collected_at": "2026-07-27T18:46:41Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-27T17:10:22Z"
+      "closed_at": "2026-07-27T18:46:41Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "5d",
-      "collected_at": "2026-07-27T17:10:22Z",
+      "collected_at": "2026-07-27T18:46:41Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-27T17:10:22Z"
+      "closed_at": "2026-07-27T18:46:41Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -57,13 +57,55 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "10d",
-      "collected_at": "2026-07-27T17:10:22Z",
+      "collected_at": "2026-07-27T18:46:41Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-27T17:10:22Z"
+      "closed_at": "2026-07-27T18:46:41Z"
+    },
+    {
+      "id": "014977c39e18874c",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943241",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-24",
+      "age": "Recently",
+      "collected_at": "2026-07-24T23:15:30Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-27T18:46:41Z"
+    },
+    {
+      "id": "7f76981a3a66bdb4",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943730",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-24",
+      "age": "Recently",
+      "collected_at": "2026-07-24T23:15:30Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-27T18:46:41Z"
     },
     {
       "id": "ba5c250781904d04",
