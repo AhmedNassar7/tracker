@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T18:47:31Z",
-  "total": 633,
+  "generated_at": "2026-07-27T20:43:19Z",
+  "total": 631,
   "jobs": [
     {
       "id": "cffa31a1d5d25f13",
@@ -29,6 +29,20 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8089031?gh_jid=8089031",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "50689885e9b63b1f",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Build and DevOps Engineer for Compilers",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin</details>",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Build-and-DevOps-Engineer-for-Compilers_JR2018968",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
       "id": "8c67eb3ab13dc392",
@@ -115,6 +129,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "877666812ac8679d",
+      "kind": "job",
+      "company": "Openai",
+      "title": "Software Engineer - Data Aquisition (systems)",
+      "location": "San Francisco",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-27",
+      "url": "https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01",
+      "source": "ashby:openai",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
+    },
+    {
       "id": "b94ff66d27df07e3",
       "kind": "job",
       "company": "Palo Alto Networks",
@@ -157,6 +185,20 @@
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
+      "id": "b1d55bd5743992ef",
+      "kind": "job",
+      "company": "Palo Alto Networks",
+      "title": "Principal Software Engineer (Backend Prisma Access)",
+      "location": "Santa Clara, United States of America",
+      "level": "other",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Santa-Clara-United-States-of-America/Principal-Software-Engineer--Prisma-Access_JR-017876-1",
+      "source": "workday:paloaltonetworks",
+      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
+    },
+    {
       "id": "14ecef4922ef66ee",
       "kind": "job",
       "company": "Palo Alto Networks",
@@ -169,6 +211,34 @@
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Software-Engineer--Cortex-Vulnerability-Experience-Platform-_JR-018370",
       "source": "workday:paloaltonetworks",
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
+    },
+    {
+      "id": "47756d5953ad636b",
+      "kind": "job",
+      "company": "Palo Alto Networks",
+      "title": "Sr Principal / Architect Engineer Software (Identity Platform)",
+      "location": "Office - Israel - CyberArk Petach Tikva",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Sr-Principal---Architect-Engineer-Software--Identity-Platform-_JR-019743",
+      "source": "workday:paloaltonetworks",
+      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
+    },
+    {
+      "id": "fd2fa4152a580fea",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Wise Platform Enterprise Team Lead",
+      "location": "Austin, United States",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-07-27",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000140081544",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
       "id": "021adde9431ea3d1",
@@ -799,34 +869,6 @@
       "url": "https://jobs.lever.co/palantir/73d1a90c-162d-4cb6-9e0c-4c8de9561ad0",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "f419fad4a0fc0464",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Principal Cloud Infrastructure Engineer (Advanced Threat Protection)",
-      "location": "Office - USA - CA - Headquarters",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "4d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Cloud-Infrastructure-Engineer--Advanced-Threat-Protection-_JR-019223",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
-      "id": "553c55993a7e65c3",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Principal Site Reliability Engineer (AIOps)",
-      "location": "Office - USA - CA - Headquarters",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "4d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Site-Reliability-Engineer--AIOps-_JR-016776",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
       "id": "0209a197d0b89ed4",
@@ -8016,7 +8058,7 @@
       "company": "Africa Deep Tech Foundation",
       "title": "Africa Deep Tech Challenge 2026",
       "location": "Online",
-      "date": "29 days left",
+      "date": "28 days left",
       "posted_at": "2026-07-27",
       "url": "https://adtc-2026.devpost.com/",
       "source": "devpost",
@@ -8047,6 +8089,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "a83458d106532a8c",
+      "kind": "hackathon",
+      "company": "Binnovative",
+      "title": "AnimalHack 2026",
+      "location": "Online",
+      "date": "about 2 months left",
+      "posted_at": "2026-07-27",
+      "url": "https://animalhack2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "c5a559f96054b38c",
       "kind": "hackathon",
       "company": "Blueprint Hackathon",
@@ -8064,7 +8118,7 @@
       "company": "BuildBeyond",
       "title": "Build Beyond Hackathon",
       "location": "Online",
-      "date": "20 days left",
+      "date": "19 days left",
       "posted_at": "2026-07-27",
       "url": "https://build-beyond-hackathon.devpost.com/",
       "source": "devpost",
@@ -8215,24 +8269,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "52d3ba98a32ed2eb",
-      "kind": "hackathon",
-      "company": "HackFinity",
-      "title": "Code Carnage",
-      "location": "Online",
-      "date": "22 days left",
-      "posted_at": "2026-07-27",
-      "url": "https://code-carnage.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "9f3b51235f856246",
       "kind": "hackathon",
       "company": "hacktheconcretejungle",
       "title": "HTCJ Aviation Futures Innovation Challenge",
       "location": "Casa Vertigo",
-      "date": "about 6 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-07-27",
       "url": "https://htcj-aviation-futures.devpost.com/",
       "source": "devpost",
@@ -8268,7 +8310,7 @@
       "company": "ImpactForge",
       "title": "ImpactForge",
       "location": "Online",
-      "date": "28 days left",
+      "date": "27 days left",
       "posted_at": "2026-07-27",
       "url": "https://impactforge.devpost.com/",
       "source": "devpost",
@@ -8352,7 +8394,7 @@
       "company": "ML Empowerment Foundation",
       "title": "ML Empowerment Build Challenge 2.0",
       "location": "Online",
-      "date": "19 days left",
+      "date": "18 days left",
       "posted_at": "2026-07-27",
       "url": "https://ml-empowerment-2.devpost.com/",
       "source": "devpost",
@@ -8364,7 +8406,7 @@
       "company": "MUEEC, CISSA",
       "title": "HARDWIRED 2026 MUEEC X CISSA",
       "location": "Online",
-      "date": "4 days left",
+      "date": "3 days left",
       "posted_at": "2026-07-27",
       "url": "https://hardwired-2026-mueec-x-cissa.devpost.com/",
       "source": "devpost",
@@ -8388,7 +8430,7 @@
       "company": "NeuralSprint",
       "title": "NeuralSprint",
       "location": "Online",
-      "date": "28 days left",
+      "date": "27 days left",
       "posted_at": "2026-07-27",
       "url": "https://neuralsprint.devpost.com/",
       "source": "devpost",
@@ -8496,7 +8538,7 @@
       "company": "snap2measure",
       "title": "Measure up",
       "location": "Online",
-      "date": "about 2 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-07-27",
       "url": "https://measureme-up.devpost.com/",
       "source": "devpost",
@@ -8580,7 +8622,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 2 hours left",
+      "date": "18 minutes left",
       "posted_at": "2026-07-27",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8592,7 +8634,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Summer Impactathon",
       "location": "Online",
-      "date": "14 days left",
+      "date": "13 days left",
       "posted_at": "2026-07-27",
       "url": "https://csc-summer-impactathon.devpost.com/",
       "source": "devpost",
@@ -8649,30 +8691,6 @@
   ],
   "events": [
     {
-      "id": "229397d627dbf883",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-27",
-      "url": "/sf-builders-collective?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-27",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8697,18 +8715,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-27",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8717,30 +8723,6 @@
       "date": "",
       "posted_at": "2026-07-27",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-27",
-      "url": "/sf-hardware-meetup?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "29d2320e60efcc7f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow YC Startup School San Francisco · Explore unofficial side events at YC Startup School, a two-day gathering where ambitious technical builders, engineers, researchers around startup-focused activities. July 25-26, San Francisco.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-27",
-      "url": "/ycss?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
