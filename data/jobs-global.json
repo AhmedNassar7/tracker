@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T15:12:15Z",
+  "generated_at": "2026-07-27T17:10:22Z",
   "total": 80,
   "jobs": [
     {
@@ -56,26 +56,6 @@
       "posted_at": "2026-07-22",
       "age": "Recently",
       "collected_at": "2026-07-22T12:03:16Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ba5c250781904d04",
-      "company": "Amazon.com Services LLC",
-      "title": "Security Engineer II, Security Incide...",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10481118/security-engineer-ii-security-incident-response-team-sirt",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-22",
-      "age": "Recently",
-      "collected_at": "2026-07-22T09:38:14Z",
       "tags": [
         "software",
         "programming",
@@ -363,14 +343,14 @@
       ]
     },
     {
-      "id": "f7eb9ebbd5e7799c",
+      "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -383,14 +363,14 @@
       ]
     },
     {
-      "id": "d7e4cd19ff147953",
+      "id": "f7eb9ebbd5e7799c",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
+      "country": "United States",
+      "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -1216,6 +1196,26 @@
       "posted_at": "2026-07-15",
       "age": "15d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fe5669a53ce7b6e5",
+      "company": "Tesla",
+      "title": "Data Engineer Intern - Applications Engineering",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Fremont, CA",
+      "remote_type": "onsite",
+      "url": "https://www.tesla.com/careers/search/job/272928?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-27",
+      "age": "27d",
+      "collected_at": "2026-07-27T17:10:22Z",
       "tags": [
         "software",
         "programming",
