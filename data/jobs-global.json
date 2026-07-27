@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T07:49:12Z",
+  "generated_at": "2026-07-27T11:37:30Z",
   "total": 80,
   "jobs": [
     {
@@ -295,6 +295,26 @@
       "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
       "posted_at": "2026-07-17",
       "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "921fd245dad84f38",
+      "company": "ZoomInfo",
+      "title": "Software Engineer II - SAP ABAP FIORI",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Bengaluru, Karnataka, India",
+      "remote_type": "onsite",
+      "url": "https://www.zoominfo.com/careers?gh_jid=8555306002",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-14",
+      "age": "3d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
@@ -834,26 +854,6 @@
       "source": "speedyapply_ai",
       "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
       "posted_at": "2026-07-17",
-      "age": "3d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "921fd245dad84f38",
-      "company": "ZoomInfo",
-      "title": "Software Engineer II - SAP ABAP FIORI",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Bengaluru, Karnataka, India",
-      "remote_type": "onsite",
-      "url": "https://www.zoominfo.com/careers?gh_jid=8555306002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-14",
       "age": "3d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
