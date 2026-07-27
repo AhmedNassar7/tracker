@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T00:13:35Z",
-  "total": 630,
+  "generated_at": "2026-07-27T04:04:14Z",
+  "total": 639,
   "jobs": [
     {
       "id": "17e6672fdae10227",
@@ -27,6 +27,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "763d89ee53cce07f",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Principal Platform Software Engineer - RAS",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/XMLNAME--Principal-Platform-Software-Engineer---RAS_JR2011909",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -115,6 +129,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "0de9814edb00c6c5",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, Cloud-Native Stack – CSP Engagements",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, Remote<br>US, WA, Redmond<br>US, WA, Seattle</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud-Native-Stack---CSP-Engagements_JR2001098",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "74653e584bdab038",
       "kind": "job",
       "company": "NVIDIA",
@@ -125,6 +153,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Fabric-Networking---GPU_JR2015216",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "ae2921cd6f48e32c",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, GoLang - DSX MaxQ",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, CA, Santa Clara<br>US, WA, Redmond<br>US, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GoLang---DSX-MaxQ_JR2017740-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -171,6 +213,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "07600af1f89fb6ca",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer - Fleet Debuggability",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Fleet-Debuggability_JR2021461",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "bfb1141b80e4b771",
       "kind": "job",
       "company": "NVIDIA",
@@ -181,6 +237,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "fa700671cce75c44",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer, AI Stack and Performance - DGX Station",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--AI-Stack-and-Performance---DGX-Station_JR2019004",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -685,20 +755,6 @@
       "date": "3d",
       "posted_at": "",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer--PAN-OS-Cloud-Applications-_JR-020276",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
-      "id": "51be6a890c3c8a1d",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Sr Staff Software Engineer (Data & AI Platform)",
-      "location": "Office - Israel - CyberArk Petach Tikva",
-      "level": "other",
-      "role_type": "platform",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Sr-Staff-Senior-Software-Engineer--Data---AI-Platform-_JR-018205",
       "source": "workday:paloaltonetworks",
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
@@ -8027,6 +8083,18 @@
   ],
   "hackathons": [
     {
+      "id": "78d02a8f68fa1b72",
+      "kind": "hackathon",
+      "company": "AceSAT",
+      "title": "AceSAT Education AI-Agent",
+      "location": "Online",
+      "date": "20 days left",
+      "posted_at": "2026-07-27",
+      "url": "https://acesat-ai-agent.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -8044,7 +8112,7 @@
       "company": "ACTS EDC",
       "title": "Brainwave 2026 – X402 Blockchain Track",
       "location": "Auditorium",
-      "date": "5 days left",
+      "date": "4 days left",
       "posted_at": "2026-07-27",
       "url": "https://brainwave-2026.devpost.com/",
       "source": "devpost",
@@ -8128,7 +8196,7 @@
       "company": "BuildBeyond",
       "title": "IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities",
       "location": "ICPAC",
-      "date": "5 days left",
+      "date": "4 days left",
       "posted_at": "2026-07-27",
       "url": "https://igad-husika-hackathon.devpost.com/",
       "source": "devpost",
@@ -8339,18 +8407,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "4a8dccd721137a9e",
-      "kind": "hackathon",
-      "company": "Jaseci Labs",
-      "title": "JacHacks SF",
-      "location": "Founders Inc.",
-      "date": "about 2 hours left",
-      "posted_at": "2026-07-27",
-      "url": "https://jachacks-sf.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "d6c1fefdc062072b",
       "kind": "hackathon",
       "company": "Kang Chiao International School Student",
@@ -8440,7 +8496,7 @@
       "company": "Paritok",
       "title": "Build with Paritok: The Token-Efficiency Hackathon",
       "location": "Online",
-      "date": "10 days left",
+      "date": "9 days left",
       "posted_at": "2026-07-27",
       "url": "https://build-with-paritok.devpost.com/",
       "source": "devpost",
@@ -8524,7 +8580,7 @@
       "company": "snap2measure",
       "title": "Measure up",
       "location": "Online",
-      "date": "1 day left",
+      "date": "about 17 hours left",
       "posted_at": "2026-07-27",
       "url": "https://measureme-up.devpost.com/",
       "source": "devpost",
@@ -8572,7 +8628,7 @@
       "company": "TechElevate",
       "title": "Sound for All",
       "location": "Online",
-      "date": "6 days left",
+      "date": "5 days left",
       "posted_at": "2026-07-27",
       "url": "https://sound-for-all.devpost.com/",
       "source": "devpost",
@@ -8620,7 +8676,7 @@
       "company": "Trainzex AI",
       "title": "Build With Gemini - Creation Code",
       "location": "Jaipur, India",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-07-27",
       "url": "https://creation-code-30750.devpost.com/",
       "source": "devpost",
@@ -8677,6 +8733,30 @@
   ],
   "events": [
     {
+      "id": "229397d627dbf883",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8701,6 +8781,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8709,6 +8801,30 @@
       "date": "",
       "posted_at": "2026-07-27",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "29d2320e60efcc7f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow YC Startup School San Francisco · Explore unofficial side events at YC Startup School, a two-day gathering where ambitious technical builders, engineers, researchers around startup-focused activities. July 25-26, San Francisco.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/ycss?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
