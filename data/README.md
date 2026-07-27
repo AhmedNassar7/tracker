@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 439 |
+| Jobs | 440 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 496 |
+| Total | 497 |
 
 ## Jobs
 
-[![Jobs 439](https://img.shields.io/badge/Jobs-439-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 49](https://img.shields.io/badge/Internship-49-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 362](https://img.shields.io/badge/Mid--Level%20and%20Above-362-dc2626.svg)](#mid-level-and-above)
+[![Jobs 440](https://img.shields.io/badge/Jobs-440-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 49](https://img.shields.io/badge/Internship-49-22c55e.svg)](#internship) [![Early Career 28](https://img.shields.io/badge/Early%20Career-28-0ea5e9.svg)](#early-career) [![Mid-Level and Above 363](https://img.shields.io/badge/Mid--Level%20and%20Above-363-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -129,7 +129,7 @@ Total roles: 28
 
 ### Mid-Level and Above
 
-Total roles: 362
+Total roles: 363
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -149,6 +149,7 @@ Total roles: 362
 | Palo Alto Networks | [Principal Site Reliability Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Site-Reliability-Engineer_JR-020124) | Office - USA - CA - Headquarters | 0d |
 | Palo Alto Networks | [Principal Software Engineer (Backend Prisma Access)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Santa-Clara-United-States-of-America/Principal-Software-Engineer--Prisma-Access_JR-017876-1) | Santa Clara, United States of America | 0d |
 | Palo Alto Networks | [Principal Software Engineer (Cortex Vulnerability Experience Platform)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Software-Engineer--Cortex-Vulnerability-Experience-Platform-_JR-018370) | Office - USA - CA - Headquarters | 0d |
+| Palo Alto Networks | [Senior Staff DevOps Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Staff-DevOps-Engineer_JR-020397) | Office - USA - CA - Headquarters | 0d |
 | Palo Alto Networks | [Sr Principal / Architect Engineer Software (Identity Platform)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Sr-Principal---Architect-Engineer-Software--Identity-Platform-_JR-019743) | Office - Israel - CyberArk Petach Tikva | 0d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 0d |
@@ -235,8 +236,8 @@ Total roles: 362
 | Wise | [Senior Software Engineer I - KYC Experience](https://jobs.smartrecruiters.com/Wise/744000138801759) | London, United Kingdom | 6d |
 | Wise | [Software Engineer - Payin Platform](https://jobs.smartrecruiters.com/Wise/744000138840349) | Tallinn, Estonia | 6d |
 | Cloudflare | [Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) | Hybrid | 7d |
-| Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002) | New York, NY | 7d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) | Pittsburgh, PA | 7d |
+| Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002) | New York, NY | 7d |
 | Notion | [Software Engineer, Infrastructure](https://jobs.ashbyhq.com/notion/42f18ccd-c4c8-4a85-8c1f-de12c575fe87) | Hyderabad, India | 7d |
 | Openai | [Software Engineer, Ads Conversion Measurement](https://jobs.ashbyhq.com/openai/1b86ec8e-fe34-452d-bbff-6619579e7385) | San Francisco | 7d |
 | Wise | [Backend Engineer - Account Sharing](https://jobs.smartrecruiters.com/Wise/744000138593452) | London, United Kingdom | 7d |
@@ -520,6 +521,7 @@ Total hackathons: 54
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
 | GatewayGS | [GatewayGS & The AEI Initiative: AI 4 Earth Hackathon](https://gatewaygs-ai-4-earth-hackathon.devpost.com/) |
 | Girls In Stem MENA&Central Asia | [Girls In STEM Global Hackathon](https://girlsinstemhackathon.devpost.com/) |
+| Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) |
 | Hacker Fund | [Compton Tech Week Hackathon - S26](https://comptontechweeksummer26.devpost.com/) |
 | hacktheconcretejungle | [HTCJ Aviation Futures Innovation Challenge](https://htcj-aviation-futures.devpost.com/) |
 | HackTheLimit | [Hack The Limit](https://hack-the-limit-1.devpost.com/) |
@@ -543,16 +545,15 @@ Total hackathons: 54
 | Resera | [RLC Hacks 2026](https://rlc-hacks-30705.devpost.com/) |
 | SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
 | shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
-| snap2measure | [Measure up](https://measureme-up.devpost.com/) |
 | STEMise | [DSH Pitch](https://dsh-pitch-30500.devpost.com/) |
 | Steph Community | [Steph Hack Day](https://steph-hack-day.devpost.com/) |
 | Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
 | SVHEC | [NEXORA Global Hackathon](https://nexora-global-hackathon.devpost.com/) |
 | TechElevate | [Sound for All](https://sound-for-all.devpost.com/) |
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
-| Tecnoviz Dev Comm | [Technoviz Summer of Code](https://technoviz-summer-of-code.devpost.com/) |
 | The Webb Schools CSC | [CSC Summer Impactathon](https://csc-summer-impactathon.devpost.com/) |
 | Trainzex AI | [Build With Gemini - Creation Code](https://creation-code-30750.devpost.com/) |
+| TrainzexAI | [Impact Creation](https://impact-creation.devpost.com/) |
 | vitalitics | [Vitalitics 2026](https://vitalitics26.devpost.com/) |
 | WithAI Research | [The Email Game](https://the-email-game.devpost.com/) |
 | Women In Product India | [The Great Agent Hackathon](https://the-great-agent-hackathon.devpost.com/) |
