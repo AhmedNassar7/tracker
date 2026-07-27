@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T17:10:22Z",
-  "total": 80,
+  "generated_at": "2026-07-27T18:46:41Z",
+  "total": 79,
   "jobs": [
     {
       "id": "f8c598e8adf6d6c0",
@@ -203,39 +203,19 @@
       ]
     },
     {
-      "id": "7f76981a3a66bdb4",
+      "id": "69b26a594a90417d",
       "company": "Microsoft",
-      "title": "Software Engineer II",
+      "title": "Software Engineer II - CTJ - Poly",
       "level": "mid_level",
       "country": "Unknown",
-      "location": "Redmond, Washingt...",
+      "location": "Reston, Virginia,...",
       "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943730",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556751791",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-24",
-      "age": "Recently",
-      "collected_at": "2026-07-24T23:15:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "014977c39e18874c",
-      "company": "Microsoft",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Redmond, Washingt...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943241",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-24",
-      "age": "Recently",
-      "collected_at": "2026-07-24T23:15:30Z",
+      "posted_at": "2026-07-27",
+      "age": "0d",
+      "collected_at": "2026-07-27T18:46:41Z",
       "tags": [
         "software",
         "programming",

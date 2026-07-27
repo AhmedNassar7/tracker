@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T17:11:05Z",
-  "total": 631,
+  "generated_at": "2026-07-27T18:47:31Z",
+  "total": 633,
   "jobs": [
     {
       "id": "cffa31a1d5d25f13",
@@ -41,6 +41,48 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-AI-Platform-Engineer_JR2019516",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "8f42eebbbe3534c1",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Development Engineer, Neural Graph Infrastructure",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-CAD-Infrastructure-Development-Engineer_JR2010334",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "3462c23115353357",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer",
+      "location": "Israel, Tel Aviv",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Engineer_JR1994007",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "4ad0e5eff52b6146",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer - Agentic AI",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Applied-LLM-Engineer--AI---Chip-Design_JR1989138",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -563,20 +605,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
-      "id": "bb18612b5374b783",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Engineer, Build and DevOps - ADI",
-      "location": "<details><summary><strong>6 locations</strong></summary>US, NY, Remote<br>US, NC, Remote<br>US, TX, Remote<br>US, IL, Remote<br>US, WA, Remote<br>US, CA, Remote</details>",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NY-Remote/Senior-Engineer--Build-and-DevOps---ADI_JR2021994",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "61fda2c8047109a9",
       "kind": "job",
       "company": "NVIDIA",
@@ -601,34 +629,6 @@
       "date": "3d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Performance---CUDA-Driver_JR2009423",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "c13a6bad895a61bd",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineer, Linux Graphics",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, CA, Remote</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Linux-Graphics_JR2021838",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "d477899d302671aa",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "System Software Engineering Lead",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, CA, Remote</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineering-Lead_JR2021953",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -829,20 +829,6 @@
       "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
     },
     {
-      "id": "f55819e7c80b1891",
-      "kind": "job",
-      "company": "Palo Alto Networks",
-      "title": "Principal Software Engineer (PAN OS Cloud Applications)",
-      "location": "Office - USA - CA - Headquarters",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Principal-Software-Engineer--PAN-OS-Cloud-Applications-_JR-020276",
-      "source": "workday:paloaltonetworks",
-      "source_url": "https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
       "id": "0209a197d0b89ed4",
       "kind": "job",
       "company": "Wise",
@@ -995,34 +981,6 @@
       "url": "https://jobs.lever.co/palantir/67110929-adea-41c3-851a-8882e222d9e4",
       "source": "lever:palantir",
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
-    },
-    {
-      "id": "147e11c25d3441c6",
-      "kind": "job",
-      "company": "Sony",
-      "title": "Staff Software Engineer, AI Native",
-      "location": "<details><summary><strong>11 locations</strong></summary>Remote - Texas<br>Work from Home-TX<br>Work from Home-CO<br>Work from Home-CA<br>Work from Home-OR<br>NA / Culver City 10202 W. Washington 40<br>Work from Home-SD<br>NA / San Diego Via Esprillo 40<br>Work from Home-WA<br>Work from Home-NV<br>Work from Home-NM</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "5d",
-      "posted_at": "",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Texas/Staff-Software-Engineer--AI-Native_JR-119292-1",
-      "source": "workday:sonyglobal",
-      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs"
-    },
-    {
-      "id": "147e11c25d3441c6",
-      "kind": "job",
-      "company": "Sony",
-      "title": "Staff Software Engineer, AI Native",
-      "location": "<details><summary><strong>11 locations</strong></summary>Remote - Texas<br>Work from Home-TX<br>Work from Home-CO<br>Work from Home-CA<br>Work from Home-OR<br>NA / Culver City 10202 W. Washington 40<br>Work from Home-SD<br>NA / San Diego Via Esprillo 40<br>Work from Home-WA<br>Work from Home-NV<br>Work from Home-NM</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "5d",
-      "posted_at": "",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Texas/Staff-Software-Engineer--AI-Native_JR-119292-1",
-      "source": "workday:sonyglobal",
-      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
     },
     {
       "id": "8c29836016fd56a1",
@@ -8274,7 +8232,7 @@
       "company": "hacktheconcretejungle",
       "title": "HTCJ Aviation Futures Innovation Challenge",
       "location": "Casa Vertigo",
-      "date": "about 11 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-07-27",
       "url": "https://htcj-aviation-futures.devpost.com/",
       "source": "devpost",
@@ -8502,7 +8460,7 @@
       "company": "Resera",
       "title": "RLC Hacks 2026",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-07-27",
       "url": "https://rlc-hacks-30705.devpost.com/",
       "source": "devpost",
@@ -8538,7 +8496,7 @@
       "company": "snap2measure",
       "title": "Measure up",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-07-27",
       "url": "https://measureme-up.devpost.com/",
       "source": "devpost",
@@ -8622,7 +8580,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-07-27",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8658,7 +8616,7 @@
       "company": "vitalitics",
       "title": "Vitalitics 2026",
       "location": "Online",
-      "date": "4 days left",
+      "date": "3 days left",
       "posted_at": "2026-07-27",
       "url": "https://vitalitics26.devpost.com/",
       "source": "devpost",
@@ -8691,6 +8649,30 @@
   ],
   "events": [
     {
+      "id": "229397d627dbf883",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8715,6 +8697,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8723,6 +8717,30 @@
       "date": "",
       "posted_at": "2026-07-27",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "29d2320e60efcc7f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow YC Startup School San Francisco · Explore unofficial side events at YC Startup School, a two-day gathering where ambitious technical builders, engineers, researchers around startup-focused activities. July 25-26, San Francisco.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-27",
+      "url": "/ycss?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
