@@ -1,28 +1,7 @@
 {
-  "generated_at": "2026-07-27T18:46:41Z",
-  "total": 103,
+  "generated_at": "2026-07-27T20:42:26Z",
+  "total": 107,
   "jobs": [
-    {
-      "id": "6132e8bbbdffd728",
-      "company": "Mastercard",
-      "title": "Site Reliability Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Site-Reliability-Engineer-II_R-274938",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-24",
-      "age": "3d",
-      "collected_at": "2026-07-27T18:46:41Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-27T18:46:41Z"
-    },
     {
       "id": "a014bb964bd683bb",
       "company": "PayPal",
@@ -36,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "5d",
-      "collected_at": "2026-07-27T18:46:41Z",
+      "collected_at": "2026-07-27T20:42:26Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-27T18:46:41Z"
+      "closed_at": "2026-07-27T20:42:26Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -57,6 +36,111 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "10d",
+      "collected_at": "2026-07-27T20:42:26Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-27T20:42:26Z"
+    },
+    {
+      "id": "f8c598e8adf6d6c0",
+      "company": "Amazon Development Center U.S., Inc.",
+      "title": "Data Engineer II, AWS Analytics Engin...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10481020/data-engineer-ii-aws-analytics-engineering",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T03:44:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-27T20:42:26Z"
+    },
+    {
+      "id": "18fce6c33851cfc4",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556942124",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-25",
+      "age": "Recently",
+      "collected_at": "2026-07-25T03:35:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-27T20:42:26Z"
+    },
+    {
+      "id": "b028d94f5b6a4176",
+      "company": "Amazon Web Services, Inc.",
+      "title": "Data Engineer II, AWS Marketplace and...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10481199/data-engineer-ii-aws-marketplace-and-partner-services",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T12:03:16Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-27T20:42:26Z"
+    },
+    {
+      "id": "21d8a8f240a7db00",
+      "company": "Amazon Development Center U.S., Inc.",
+      "title": "Data Engineer II, AWS Analytics Engin...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10480965/data-engineer-ii-aws-analytics-engineering",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-22",
+      "age": "Recently",
+      "collected_at": "2026-07-22T03:44:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-27T20:42:26Z"
+    },
+    {
+      "id": "6132e8bbbdffd728",
+      "company": "Mastercard",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Site-Reliability-Engineer-II_R-274938",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-24",
+      "age": "3d",
       "collected_at": "2026-07-27T18:46:41Z",
       "tags": [
         "software",
