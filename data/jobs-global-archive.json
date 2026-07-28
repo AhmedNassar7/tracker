@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T14:38:36Z",
-  "total": 107,
+  "generated_at": "2026-07-28T16:49:44Z",
+  "total": 110,
   "jobs": [
     {
       "id": "a014bb964bd683bb",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "6d",
-      "collected_at": "2026-07-28T14:38:36Z",
+      "collected_at": "2026-07-28T16:49:44Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-28T14:38:36Z"
+      "closed_at": "2026-07-28T16:49:44Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -36,13 +36,97 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "11d",
+      "collected_at": "2026-07-28T16:49:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-28T16:49:44Z"
+    },
+    {
+      "id": "b2d028c109660605",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-281363",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T16:49:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-28T16:49:44Z"
+    },
+    {
+      "id": "2b7696b9f4dc138c",
+      "company": "Flix",
+      "title": "Data Platform Engineer (Mid-Level) (m/f/d)",
+      "level": "mid_level",
+      "country": "Germany",
+      "location": "Berlin, Berlin, Germany",
+      "remote_type": "onsite",
+      "url": "https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-mid-level-berlin-231606",
+      "source": "arbeitnow",
+      "source_url": "https://arbeitnow.com/",
+      "posted_at": "1785221124",
+      "age": "",
+      "collected_at": "2026-07-28T09:46:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-28T16:49:44Z"
+    },
+    {
+      "id": "c6682e19446b6310",
+      "company": "Cisco",
+      "title": "Data Engineer II (Full Time) United S...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "RTP, North Caroli...",
+      "remote_type": "onsite",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Data-Engineer-II--Full-Time--United-States_2001849",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
       "collected_at": "2026-07-28T14:38:36Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-28T14:38:36Z"
+      "closed_at": "2026-07-28T16:49:44Z"
+    },
+    {
+      "id": "69b26a594a90417d",
+      "company": "Microsoft",
+      "title": "Software Engineer II - CTJ - Poly",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Reston, Virginia,...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556751791",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T09:46:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-28T16:49:44Z"
     },
     {
       "id": "dee61fd2a43c40e9",
@@ -1786,27 +1870,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-18T19:30:03Z"
-    },
-    {
-      "id": "b2d028c109660605",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-281363",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-15",
-      "age": "3d",
-      "collected_at": "2026-07-18T18:09:49Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-18T18:09:49Z"
     },
     {
       "id": "15d1542d38db74c4",

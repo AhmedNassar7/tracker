@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T14:38:36Z",
-  "total": 79,
+  "generated_at": "2026-07-28T16:49:44Z",
+  "total": 80,
   "jobs": [
     {
       "id": "247568ccec84a5cc",
@@ -16,6 +16,46 @@
       "posted_at": "2026-07-28",
       "age": "0d",
       "collected_at": "2026-07-28T00:10:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5e1c582d0dea166a",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer II, Ring NA Sales and M...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Hawthorne, CA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10486103/data-engineer-ii-ring-na-sales-and-marketing-rbks-sales-marketing-analytics",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T16:49:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "cd27ebdbab070786",
+      "company": "Amazon.com Services LLC",
+      "title": "Software Engineer II, Search Science ...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10486163/software-engineer-ii-search-science-data-infra",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T16:49:44Z",
       "tags": [
         "software",
         "programming",
@@ -83,26 +123,6 @@
       ]
     },
     {
-      "id": "c6682e19446b6310",
-      "company": "Cisco",
-      "title": "Data Engineer II (Full Time) United S...",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "RTP, North Caroli...",
-      "remote_type": "onsite",
-      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Data-Engineer-II--Full-Time--United-States_2001849",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-28",
-      "age": "0d",
-      "collected_at": "2026-07-28T14:38:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "df8b2d6a41f60490",
       "company": "Elastic Path",
       "title": "Junior DevOps Engineer",
@@ -143,6 +163,46 @@
       ]
     },
     {
+      "id": "9315cbd61b8a2745",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II- Test Automation",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "NY, United States",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773895",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T16:49:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "7ff881b32256dadf",
+      "company": "JPMorganChase",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "MH, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=13eeee0258ae9f4a",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T16:49:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
       "title": "Junior to Intermediate Data Engineer",
@@ -176,26 +236,6 @@
       "posted_at": "2026-07-28",
       "age": "0d",
       "collected_at": "2026-07-28T00:10:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "69b26a594a90417d",
-      "company": "Microsoft",
-      "title": "Software Engineer II - CTJ - Poly",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Reston, Virginia,...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556751791",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-28",
-      "age": "0d",
-      "collected_at": "2026-07-28T09:46:56Z",
       "tags": [
         "software",
         "programming",
@@ -1556,26 +1596,6 @@
       "posted_at": "2026-04-28",
       "age": "2mo",
       "collected_at": "2026-04-28T09:16:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2b7696b9f4dc138c",
-      "company": "Flix",
-      "title": "Data Platform Engineer (Mid-Level) (m/f/d)",
-      "level": "mid_level",
-      "country": "Germany",
-      "location": "Berlin, Berlin, Germany",
-      "remote_type": "onsite",
-      "url": "https://www.arbeitnow.com/jobs/companies/flix/data-platform-engineer-mid-level-berlin-231606",
-      "source": "arbeitnow",
-      "source_url": "https://arbeitnow.com/",
-      "posted_at": "1785221124",
-      "age": "",
-      "collected_at": "2026-07-28T09:46:56Z",
       "tags": [
         "software",
         "programming",
