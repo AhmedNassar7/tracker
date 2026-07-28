@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T12:12:26Z",
-  "total": 77,
+  "generated_at": "2026-07-28T14:38:36Z",
+  "total": 79,
   "jobs": [
     {
       "id": "247568ccec84a5cc",
@@ -76,6 +76,26 @@
       "posted_at": "2026-07-17",
       "age": "Recently",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c6682e19446b6310",
+      "company": "Cisco",
+      "title": "Data Engineer II (Full Time) United S...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "RTP, North Caroli...",
+      "remote_type": "onsite",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Data-Engineer-II--Full-Time--United-States_2001849",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T14:38:36Z",
       "tags": [
         "software",
         "programming",
@@ -703,26 +723,6 @@
       ]
     },
     {
-      "id": "77d97c5b772d74b1",
-      "company": "Cloudflare",
-      "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "2d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d530f67da5b76ff6",
       "company": "Citadel Securities",
       "title": "Software Engineer – University Graduate",
@@ -736,6 +736,26 @@
       "posted_at": "2026-07-15",
       "age": "0d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "77d97c5b772d74b1",
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "2d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -1043,26 +1063,6 @@
       ]
     },
     {
-      "id": "d4aa23e98c8055cb",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer - Internship - Commercial",
-      "level": "internship",
-      "country": "United States",
-      "location": "Chicago, IL",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "16d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "52701a261180efd0",
       "company": "Palo Alto Networks",
       "title": "Software Engineer Intern 🎓",
@@ -1083,26 +1083,6 @@
       ]
     },
     {
-      "id": "25112912b64a7e96",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Diego, CA",
-      "remote_type": "onsite",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "16d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "26ec41004b2d610b",
       "company": "Citadel Securities",
       "title": "Machine Learning Researcher PhD Intern 🎓",
@@ -1116,6 +1096,46 @@
       "posted_at": "2026-07-15",
       "age": "14d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d4aa23e98c8055cb",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer - Internship - Commercial",
+      "level": "internship",
+      "country": "United States",
+      "location": "Chicago, IL",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "16d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "25112912b64a7e96",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Diego, CA",
+      "remote_type": "onsite",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "16d",
+      "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
         "programming",
@@ -1156,6 +1176,26 @@
       "posted_at": "2026-07-27",
       "age": "27d",
       "collected_at": "2026-07-27T17:10:22Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-28",
+      "age": "29d",
+      "collected_at": "2026-07-28T14:38:36Z",
       "tags": [
         "software",
         "programming",
