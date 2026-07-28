@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T18:45:04Z",
-  "total": 77,
+  "generated_at": "2026-07-28T20:34:18Z",
+  "total": 78,
   "jobs": [
     {
       "id": "5e1c582d0dea166a",
@@ -116,6 +116,26 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fd3e3a899cc79508",
+      "company": "JPMorgan Chase",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Chicago, IL, Unit...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210747513",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T20:34:18Z",
       "tags": [
         "software",
         "programming",

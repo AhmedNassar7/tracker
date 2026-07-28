@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 427 |
-| Hackathons | 54 |
-| Events | 3 |
-| Total | 484 |
+| Jobs | 430 |
+| Hackathons | 0 |
+| Events | 7 |
+| Total | 437 |
 
 ## Jobs
 
-[![Jobs 427](https://img.shields.io/badge/Jobs-427-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 49](https://img.shields.io/badge/Internship-49-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 352](https://img.shields.io/badge/Mid--Level%20and%20Above-352-dc2626.svg)](#mid-level-and-above)
+[![Jobs 430](https://img.shields.io/badge/Jobs-430-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 49](https://img.shields.io/badge/Internship-49-22c55e.svg)](#internship) [![Early Career 26](https://img.shields.io/badge/Early%20Career-26-0ea5e9.svg)](#early-career) [![Mid-Level and Above 355](https://img.shields.io/badge/Mid--Level%20and%20Above-355-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -127,13 +127,14 @@ Total roles: 26
 
 ### Mid-Level and Above
 
-Total roles: 352
+Total roles: 355
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Amazon.com Services LLC | [Data Engineer II, Ring NA Sales and M...](https://www.amazon.jobs/en/jobs/10486103/data-engineer-ii-ring-na-sales-and-marketing-rbks-sales-marketing-analytics) | Hawthorne, CA | 0d |
 | Clickhouse | [Engineering Lead, Web Platform](https://jobs.ashbyhq.com/clickhouse/1046284f-49d6-46a2-b08e-2cdc437d0836) | AMER | 0d |
 | Cloudflare | [Senior Software Engineer, Cloudflare Queues](https://boards.greenhouse.io/cloudflare/jobs/8080780?gh_jid=8080780) | In-Office | 0d |
+| JPMorgan Chase | [Site Reliability Engineer II](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210747513) | Chicago, IL, Unit... | 0d |
 | JPMorganChase | [Site Reliability Engineer II](https://in.indeed.com/viewjob?jk=13eeee0258ae9f4a) | MH, IN | 0d |
 | Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556943321) | Vancouver, Britis... | 0d |
 | NVIDIA | [Engineering Manager, DRIVE OS Communication Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Engineering-Manager--DRIVE-OS-Communication-Infrastructure_JR2021854) | US, CA, Santa Clara | 0d |
@@ -141,11 +142,14 @@ Total roles: 352
 | NVIDIA | [Principal Software Engineer - Rack Scale Systems Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>TX<br>Remote, US<br>Remote, US<br>MA<br>Remote</details> | 0d |
 | NVIDIA | [Senior Cloud Software Engineer, DGXC Data Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Senior Fullstack Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Senior-Fullstack-Software-Engineer_JR2021866) | <details><summary>3 locations</summary>US, MA<br>Westford, US<br>TX<br>Austin, US<br>CA<br>Santa Clara</details> | 0d |
+| NVIDIA | [Senior Networking Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Software-Engineer_JR2015068) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior Platform AI Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-AI-Engineer_JR2020962) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>CA<br>Remote</details> | 0d |
 | NVIDIA | [Senior Platform Software Engineer – Factory](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Software-Engineer---Factory_JR2012307) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer - Local AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Local-AI_JR2021826) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 0d |
 | NVIDIA | [Senior Software Engineer, AI Storage](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Storage_JR2014785) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer, CUDA Core Libraries](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Remote/Senior-Software-Engineer--CUDA-Core-Libraries_JR2014754) | <details><summary>6 locations</summary>Germany<br>Remote, UK<br>Remote<br>Sweden<br>Remote<br>Poland<br>Remote<br>Switzerland<br>Remote<br>France<br>Remote</details> | 0d |
+| NVIDIA | [Senior Software Engineer, Distributed Systems Engineer - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Distributed-Systems-Engineer---DGX-Cloud_JR2021856-1) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Remote, US<br>WA<br>Remote, US<br>Remote, US<br>CA<br>Remote</details> | 0d |
+| NVIDIA | [Senior Software Engineer, Resilience Engineering - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Resilience-Engineering---DGX-Cloud_JR2021860) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Infrastructure Developer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Infrastructure-Developer_JR2022204) | Israel, Yokneam | 0d |
 | NVIDIA | [Senior Storage Software Engineer, DGXC Data Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer--DGXC-Data-Services_JR2020844) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>TX<br>Remote, US<br>WA<br>Remote, US<br>Remote, US<br>CA<br>Remote</details> | 0d |
 | NVIDIA | [Senior System Software Engineer - Tegra Boot Stack Firmware](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Tegra-Boot-Stack-Firmware_JR2021797) | US, CA, Santa Clara | 0d |
@@ -155,10 +159,12 @@ Total roles: 352
 | NVIDIA | [Senior Systems Software Engineer, Data Center Platform Enablement](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2022097) | Taiwan, Taipei | 0d |
 | NVIDIA | [Senior Systems Software Engineer, Windows and Linux Enablement - DGX Station](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Windows-and-Linux-Enablement----DGX-Station_JR2019007) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [System Software Engineer - Performance Verification Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574) | <details><summary>2 locations</summary>US, MA<br>Westford, US<br>CA<br>Santa Clara</details> | 0d |
+| Openai | [Software Engineer, ChatGPT Infrastructure](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) | London, UK | 0d |
 | Openai | [Software Engineer, Enterprise Verticals](https://jobs.ashbyhq.com/openai/3229b152-015f-49ad-9921-9c9de95570c8) | San Francisco | 0d |
 | Palo Alto Networks | [AI-First Core IT Software Engineering: Software, ML & Data (Staff – Principal)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/AI-First-Core-IT-Software-Engineering--Software--ML---Data--Staff---Principal-_JR-015294) | Office - USA - CA - Headquarters | 0d |
 | Palo Alto Networks | [Senior Software Engineer (Secure Agentic AI - Be'er Sheva)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Beer-Sheva/Senior-Software-Engineer--Secure-Agentic-AI---Be-er-Sheva-_JR-018039) | Office - Israel - CyberArk Be'er Sheva | 0d |
 | Palo Alto Networks | [Sr Principal / Architect Engineer Software (Identity Platform)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Sr-Principal---Architect-Engineer-Software--Identity-Platform-_JR-019743) | Office - Israel - CyberArk Petach Tikva | 0d |
+| Palo Alto Networks | [Staff Frontend Engineer (EPM)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Staff-Engineer-Software_JR-019433) | Office - Israel - CyberArk Petach Tikva | 0d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 0d |
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 0d |
 | Pinterest | [Security Software Engineer II, Detection and Response](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) | San Francisco, CA, US; Remote, US | 0d |
@@ -180,7 +186,6 @@ Total roles: 352
 | Wise | [Senior Software Engineer I - Fincrime Requests](https://jobs.smartrecruiters.com/Wise/744000140227666) | Tallinn, Estonia | 0d |
 | Wise | [Senior Software Engineer II - Send Core](https://jobs.smartrecruiters.com/Wise/744000140184589) | London, England, United Kingdom | 0d |
 | Wise | [Staff Software Engineer](https://jobs.smartrecruiters.com/Wise/744000140320649) | São Paulo, Brazil | 0d |
-| NVIDIA | [Build and DevOps Engineer for Compilers](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Build-and-DevOps-Engineer-for-Compilers_JR2018968) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 1d |
 | NVIDIA | [Senior Cloud Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Cloud-Software-Engineer_JR2022029-1) | <details><summary>3 locations</summary>US, CA<br>Santa Clara, US<br>Remote, US<br>WA<br>Seattle</details> | 1d |
 | NVIDIA | [Senior Software Engineer - NVLink Rack Scale Stability and Reliability](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---NVLink-Rack-Scale-Stability-and-Reliability_JR2018426) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>IL<br>Remote, US<br>CO<br>Remote, US<br>AZ<br>Remote, US<br>CA<br>Remote, US<br>MA<br>Remote</details> | 1d |
 | NVIDIA | [Senior Software Engineer, Customer Data and Marketing AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Remote/Senior-Software-Engineer--Customer-Data-and-Marketing-AI_JR2022042) | <details><summary>3 locations</summary>US, TX<br>Remote, US<br>CA<br>Remote, US<br>CA<br>Santa Clara</details> | 1d |
@@ -198,7 +203,6 @@ Total roles: 352
 | Palo Alto Networks | [Senior Staff DevOps Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Staff-DevOps-Engineer_JR-020397) | Office - USA - CA - Headquarters | 1d |
 | Wise | [Wise Platform Enterprise Team Lead](https://jobs.smartrecruiters.com/Wise/744000140081544) | Austin, United States | 1d |
 | Cloudflare | [Senior Software Engineer, People Ops and AI Tools](https://boards.greenhouse.io/cloudflare/jobs/8035679?gh_jid=8035679) | Austin, TX, United States | 2d |
-| Palo Alto Networks | [Staff Software Engineer (Credential Provider)](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Staff-Software-Engineer--Credential-Provider-_JR-018560) | Office - Israel - CyberArk Petach Tikva | 2d |
 | Pinterest | [Software Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782535) | Toronto, ON, CA | 3d |
 | ZoomInfo | [Software Engineer II - SAP ABAP FIORI](https://www.zoominfo.com/careers?gh_jid=8555306002) | Bengaluru, Karnataka, India | 3d |
 | Cohere | [Engineering Manager, FDE Agentic Platform](https://jobs.ashbyhq.com/cohere/bb0c781f-b2ca-47fb-90bf-ee13dbf58718) | Middle East | 4d |
@@ -332,7 +336,6 @@ Total roles: 352
 | Clickhouse | [Senior Software Engineer - Clickpipes (CDC/Streaming)](https://jobs.ashbyhq.com/clickhouse/46e95c93-31cf-4b2a-97e9-97871e07dcc3) | EMEA | 1mo |
 | Openai | [Compute & Infrastructure Accounting Manager](https://jobs.ashbyhq.com/openai/67ef8778-71a1-4a20-ae82-3a3c2ab9c780) | San Francisco | 1mo |
 | Openai | [Robotics Software Engineer](https://jobs.ashbyhq.com/openai/fabfc6c5-57b5-49ba-aae9-e7dd5d7030ca) | San Francisco | 1mo |
-| Openai | [Software Engineer, Infrastructure Reliability](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) | London, UK | 1mo |
 | Openai | [Full Stack Software Engineer, Cybersecurity Products](https://jobs.ashbyhq.com/openai/88654e7f-4e23-4e75-8e54-18c10d09b093) | San Francisco | 1mo |
 | Openai | [Full Stack Software Engineer, Codex Cloud Apps](https://jobs.ashbyhq.com/openai/130a5389-83e1-493f-9205-542d3ff53afb) | San Francisco | 1mo |
 | Openai | [Host Systems Software Engineer](https://jobs.ashbyhq.com/openai/87e5f8c3-3337-480a-9db2-e4cef5db909b) | San Francisco | 1mo |
@@ -486,74 +489,24 @@ Total roles: 352
 
 ## Hackathons
 
-Total hackathons: 54
+Total hackathons: 0
 
 | Organizer | Hackathon |
 |---|---|
-| ACTS EDC | [Brainwave 2026 – X402 Blockchain Track](https://brainwave-2026.devpost.com/) |
-| Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
-| AICOO | [AICOO HACKATHON](https://aicoo-hackathon.devpost.com/) |
-| Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
-| Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) |
-| BITS Pilani | [Caspian Buildathon: Build agents that can reach anyone](https://caspian.devpost.com/) |
-| Blueprint Hackathon | [The Blueprint Hackathon (For All Ages, July 17th-31st)](https://the-blueprint-hackathon.devpost.com/) |
-| BuildBeyond | [Build Beyond Hackathon](https://build-beyond-hackathon.devpost.com/) |
-| BuildBeyond | [IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities](https://igad-husika-hackathon.devpost.com/) |
-| CAHSI at FIU | [305 SummerCodex Edition July 2026](https://305summercodexjul2026.devpost.com/) |
-| CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) |
-| Cloud Counselage | [DTI Hackathon 2026](https://dti-hackathon-2026-30476.devpost.com/) |
-| Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
-| contact@orionglobalhackathon.com | [OrionHackathon](https://orionhackathon.devpost.com/) |
-| DataHub | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) |
-| dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
-| Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
-| GatewayGS | [GatewayGS & The AEI Initiative: AI 4 Earth Hackathon](https://gatewaygs-ai-4-earth-hackathon.devpost.com/) |
-| Girls In Stem MENA&Central Asia | [Girls In STEM Global Hackathon](https://girlsinstemhackathon.devpost.com/) |
-| Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) |
-| Hacker Fund | [Compton Tech Week Hackathon - S26](https://comptontechweeksummer26.devpost.com/) |
-| HackTheLimit | [Hack The Limit](https://hack-the-limit-1.devpost.com/) |
-| high school | [3D Websites Hackathon](https://3d-websites-hackathon.devpost.com/) |
-| ImpactForge | [ImpactForge](https://impactforge.devpost.com/) |
-| Innovation Hacks | [NextGen Innovation2026](https://nextgen-innovation-2026.devpost.com/) |
-| International AI Youth Education Society | [AI YES :International Youth AI Competition](https://ai-yes-competition-30441.devpost.com/) |
-| Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
-| Kuki Designed group | [Kuki Designed group](https://kuki-designed-group.devpost.com/) |
-| LOOP NCBA | [Developer Portal](https://developer-portal.devpost.com/) |
-| LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
-| Microsoft Student Club - SCU | [Canal Startup Sprint Hackathon](https://canal-startup-sprint-hackathon.devpost.com/) |
-| ML Empowerment Foundation | [ML Empowerment Build Challenge 2.0](https://ml-empowerment-2.devpost.com/) |
-| MUEEC, CISSA | [HARDWIRED 2026 MUEEC X CISSA](https://hardwired-2026-mueec-x-cissa.devpost.com/) |
-| nanyang technological university | [NTU InnovateX Hackathon 2026](https://ntu-cctf-snz-innovatex-2026.devpost.com/) |
-| NeuralSprint | [NeuralSprint](https://neuralsprint.devpost.com/) |
-| nill | [Code for Humanity](https://code-for-humanity.devpost.com/) |
-| Paritok | [Build with Paritok: The Token-Efficiency Hackathon](https://build-with-paritok.devpost.com/) |
-| Perfect Corp | [YouCam API Skin AI & Apparel VTO Hackathon](https://youcam-api.devpost.com/) |
-| Prometheus | [Prometheus July AI Challenge](https://prometheus-july-ai-challenge.devpost.com/) |
-| Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
-| Resera | [RLC Hacks 2026](https://rlc-hacks-30705.devpost.com/) |
-| SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
-| shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
-| STEMise | [DSH Pitch](https://dsh-pitch-30500.devpost.com/) |
-| Steph Community | [Steph Hack Day](https://steph-hack-day.devpost.com/) |
-| Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
-| SVHEC | [NEXORA Global Hackathon](https://nexora-global-hackathon.devpost.com/) |
-| TechElevate | [Sound for All](https://sound-for-all.devpost.com/) |
-| TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
-| The Webb Schools CSC | [CSC Summer Impactathon](https://csc-summer-impactathon.devpost.com/) |
-| Trainzex AI | [Build With Gemini - Creation Code](https://creation-code-30750.devpost.com/) |
-| vitalitics | [Vitalitics 2026](https://vitalitics26.devpost.com/) |
-| WithAI Research | [The Email Game](https://the-email-game.devpost.com/) |
-| Women In Product India | [The Great Agent Hackathon](https://the-great-agent-hackathon.devpost.com/) |
 
 ## Events
 
-Total events: 3
+Total events: 7
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 
 ## Source Files
 
