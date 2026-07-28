@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T09:46:56Z",
-  "total": 108,
+  "generated_at": "2026-07-28T12:12:26Z",
+  "total": 109,
   "jobs": [
     {
       "id": "a014bb964bd683bb",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "6d",
-      "collected_at": "2026-07-28T09:46:56Z",
+      "collected_at": "2026-07-28T12:12:26Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-28T09:46:56Z"
+      "closed_at": "2026-07-28T12:12:26Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -36,13 +36,34 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "11d",
+      "collected_at": "2026-07-28T12:12:26Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-28T12:12:26Z"
+    },
+    {
+      "id": "c6682e19446b6310",
+      "company": "Cisco",
+      "title": "Data Engineer II (Full Time) United S...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "RTP, North Caroli...",
+      "remote_type": "onsite",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Data-Engineer-II--Full-Time--United-States_2001849",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
       "collected_at": "2026-07-28T09:46:56Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-28T09:46:56Z"
+      "closed_at": "2026-07-28T12:12:26Z"
     },
     {
       "id": "dee61fd2a43c40e9",
