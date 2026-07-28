@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T22:17:27Z",
-  "total": 107,
+  "generated_at": "2026-07-28T00:10:39Z",
+  "total": 109,
   "jobs": [
     {
       "id": "a014bb964bd683bb",
@@ -14,14 +14,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
-      "age": "5d",
-      "collected_at": "2026-07-27T22:17:27Z",
+      "age": "6d",
+      "collected_at": "2026-07-28T00:10:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-27T22:17:27Z"
+      "closed_at": "2026-07-28T00:10:39Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -35,14 +35,56 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "10d",
-      "collected_at": "2026-07-27T22:17:27Z",
+      "age": "11d",
+      "collected_at": "2026-07-28T00:10:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-27T22:17:27Z"
+      "closed_at": "2026-07-28T00:10:39Z"
+    },
+    {
+      "id": "69b26a594a90417d",
+      "company": "Microsoft",
+      "title": "Software Engineer II - CTJ - Poly",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Reston, Virginia,...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556751791",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-27",
+      "age": "0d",
+      "collected_at": "2026-07-27T18:46:41Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-28T00:10:39Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-27",
+      "age": "28d",
+      "collected_at": "2026-07-27T15:12:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-28T00:10:39Z"
     },
     {
       "id": "f8c598e8adf6d6c0",
