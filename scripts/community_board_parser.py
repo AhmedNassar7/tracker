@@ -42,6 +42,9 @@ def extract_cell_url(cell: str) -> str:
     return ""
 
 
+DITTO_MARKERS = {"", "↳"}
+
+
 def parse_job_table(content, *, company_idx, title_idx, location_idx):
     """Parse a markdown pipe-table of jobs into (company, title, location, url, age) tuples.
 
@@ -52,10 +55,16 @@ def parse_job_table(content, *, company_idx, title_idx, location_idx):
     which shifts every index after it. So the apply URL and the age are each
     found by scanning cells for their *shape* (a link, a "Nd"/"Nmo"-style or
     relative-date cell) rather than trusting a fixed position.
+
+    Some sources (e.g. vanshb03's trackers) group consecutive roles at the
+    same company under one header row and mark the repeated company cell
+    with "↳" (or leave it blank) instead of repeating the name — carry the
+    last real company name forward onto those rows rather than dropping them.
     """
     entries = []
     min_cells = max(company_idx, title_idx, location_idx) + 1
     relative_age_words = {"today", "yesterday", "recently"}
+    last_company = ""
 
     for line in content.splitlines():
         line = line.strip()
@@ -67,6 +76,10 @@ def parse_job_table(content, *, company_idx, title_idx, location_idx):
             continue
 
         company = clean_cell_text(cells[company_idx])
+        if company in DITTO_MARKERS:
+            company = last_company
+        else:
+            last_company = company
         title = clean_cell_text(cells[title_idx])
         location = clean_cell_text(cells[location_idx]) or "Remote"
 

@@ -650,6 +650,32 @@ def fetch_zapplyjobs_canada_internships():
         company_idx=0, title_idx=1, location_idx=2,
     )
 
+def fetch_vanshb03_summer_internships():
+    """Fetch vanshb03/Summer2027-Internships' README job table.
+
+    One of the most-starred internship trackers on GitHub. Consecutive roles
+    at the same company are grouped under a single header row with a "↳"
+    marker instead of repeating the company name — parse_job_table carries
+    the company forward for those rows.
+    """
+    return _fetch_community_board(
+        "vanshb03_summer_internships",
+        "https://github.com/vanshb03/Summer2027-Internships",
+        "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/README.md",
+        "vanshb03_summer_internships.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
+def fetch_vanshb03_newgrad():
+    """Fetch vanshb03/New-Grad-2027's README job table."""
+    return _fetch_community_board(
+        "vanshb03_newgrad",
+        "https://github.com/vanshb03/New-Grad-2027",
+        "https://raw.githubusercontent.com/vanshb03/New-Grad-2027/main/README.md",
+        "vanshb03_newgrad.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
 def fetch_hanzili_canada():
     """Fetch hanzili/canada_sde_junior_new_grad_position's README job table."""
     return _fetch_community_board(
@@ -788,6 +814,8 @@ def main():
         rows += fetch_zapplyjobs_datascience()
         rows += fetch_zapplyjobs_canada()
         rows += fetch_zapplyjobs_canada_internships()
+        rows += fetch_vanshb03_summer_internships()
+        rows += fetch_vanshb03_newgrad()
         rows += fetch_hanzili_canada()
         rows += fetch_ambicuity_newgrad()
     except Exception as e:
@@ -813,6 +841,8 @@ def main():
             retry_rows += fetch_zapplyjobs_datascience()
             retry_rows += fetch_zapplyjobs_canada()
             retry_rows += fetch_zapplyjobs_canada_internships()
+            retry_rows += fetch_vanshb03_summer_internships()
+            retry_rows += fetch_vanshb03_newgrad()
             retry_rows += fetch_hanzili_canada()
             retry_rows += fetch_ambicuity_newgrad()
         except Exception as e:

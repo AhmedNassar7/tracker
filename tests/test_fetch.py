@@ -288,6 +288,35 @@ def main():
         and zapplyjobs_rows[0]["age"] == "Recently"
     ))
 
+    # vanshb03-style table: raw `<a href>` apply link (no markdown/img
+    # wrapper), real "Mon DD" posted dates (not parsed as an age), and a "↳"
+    # marker on the second row that should carry the company from the row above.
+    vanshb03_md = "\n".join([
+        "| Company | Role | Location | Application/Link | Date Posted |",
+        "| --- | --- | --- | --- | --- |",
+        '| Google | Software Engineer Intern | Remote - USA | <a href="https://example.com/vb1">Apply</a> | Jul 28 |',
+        '| ↳ | Backend Engineer Intern | Remote - USA | <a href="https://example.com/vb2">Apply</a> | Jul 27 |',
+        '| UnknownCo | Software Engineer Intern | Remote - USA | <a href="https://example.com/vb3">Apply</a> | Jul 26 |',
+    ])
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25):
+            dest.write_text(vanshb03_md, encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["google"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            vanshb03_rows = fetch.fetch_vanshb03_summer_internships()
+    run("vanshb03 fetch carries the company forward across a ↓ ditto row", lambda: check(
+        "vanshb03 fetch carries the company forward across a ditto row",
+        len(vanshb03_rows) == 2
+        and vanshb03_rows[0]["company"] == "Google"
+        and vanshb03_rows[0]["url"] == "https://example.com/vb1"
+        and vanshb03_rows[1]["company"] == "Google"
+        and vanshb03_rows[1]["title"] == "Backend Engineer Intern"
+        and vanshb03_rows[1]["url"] == "https://example.com/vb2",
+    ))
+
     # hanzili-style table: Title comes before Company (reversed column order
     # vs. every other source), url wrapped in a markdown link with <angle
     # brackets> around it.
@@ -529,6 +558,8 @@ def main():
         "fetch_zapplyjobs_datascience",
         "fetch_zapplyjobs_canada",
         "fetch_zapplyjobs_canada_internships",
+        "fetch_vanshb03_summer_internships",
+        "fetch_vanshb03_newgrad",
         "fetch_hanzili_canada",
         "fetch_ambicuity_newgrad",
     ]
