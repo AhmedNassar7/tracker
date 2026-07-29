@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T12:20:19Z",
+  "generated_at": "2026-07-29T15:18:56Z",
   "total": 122,
   "jobs": [
     {
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "7d",
-      "collected_at": "2026-07-29T12:20:19Z",
+      "collected_at": "2026-07-29T15:18:56Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T12:20:19Z"
+      "closed_at": "2026-07-29T15:18:56Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "12d",
-      "collected_at": "2026-07-29T12:20:19Z",
+      "collected_at": "2026-07-29T15:18:56Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T12:20:19Z"
+      "closed_at": "2026-07-29T15:18:56Z"
     },
     {
       "id": "b2d028c109660605",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
       "age": "1d",
-      "collected_at": "2026-07-29T12:20:19Z",
+      "collected_at": "2026-07-29T15:18:56Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T12:20:19Z"
+      "closed_at": "2026-07-29T15:18:56Z"
     },
     {
       "id": "75fffeb2b2e3525d",
@@ -78,13 +78,55 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
       "age": "1d",
-      "collected_at": "2026-07-29T12:20:19Z",
+      "collected_at": "2026-07-29T15:18:56Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T12:20:19Z"
+      "closed_at": "2026-07-29T15:18:56Z"
+    },
+    {
+      "id": "7ff881b32256dadf",
+      "company": "JPMorganChase",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "MH, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=13eeee0258ae9f4a",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T16:49:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T15:18:56Z"
+    },
+    {
+      "id": "fd3e3a899cc79508",
+      "company": "JPMorgan Chase",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Chicago, IL, Unit...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210747513",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T20:34:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T15:18:56Z"
     },
     {
       "id": "dee61fd2a43c40e9",
@@ -184,27 +226,6 @@
       "posted_at": "2026-07-23",
       "age": "0d",
       "collected_at": "2026-07-23T23:12:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-29T00:08:23Z"
-    },
-    {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-28",
-      "age": "29d",
-      "collected_at": "2026-07-28T14:38:36Z",
       "tags": [
         "software",
         "programming",
@@ -904,27 +925,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-24T00:11:49Z"
-    },
-    {
-      "id": "5885aefa9d6428ef",
-      "company": "Intel",
-      "title": "AI Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Phoenix, AZ",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-22",
-      "age": "1mo",
-      "collected_at": "2026-07-22T12:03:16Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-23T22:13:53Z"
     },
     {
       "id": "5473943c81f97a56",
