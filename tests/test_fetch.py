@@ -524,6 +524,11 @@ def main():
         "fetch_speedyapply_swe",
         "fetch_speedyapply_ai",
         "fetch_zapplyjobs_newgrad",
+        "fetch_zapplyjobs_all_newgrad",
+        "fetch_zapplyjobs_internships",
+        "fetch_zapplyjobs_datascience",
+        "fetch_zapplyjobs_canada",
+        "fetch_zapplyjobs_canada_internships",
         "fetch_hanzili_canada",
         "fetch_ambicuity_newgrad",
     ]

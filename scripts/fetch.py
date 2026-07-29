@@ -598,6 +598,58 @@ def fetch_zapplyjobs_newgrad():
         company_idx=0, title_idx=1, location_idx=2,
     )
 
+def fetch_zapplyjobs_all_newgrad():
+    """Fetch zapplyjobs/New-Grad-Jobs-2027's README job table (all disciplines,
+    not just SWE — same bot-generated table shape as the SWE-only board, but
+    covers ~100+ companies the SWE-only board doesn't, e.g. Anthropic, Airbnb, ASML."""
+    return _fetch_community_board(
+        "zapplyjobs_all_newgrad",
+        "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+        "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/main/README.md",
+        "zapplyjobs_all_newgrad.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
+def fetch_zapplyjobs_internships():
+    """Fetch zapplyjobs/Internships-2027's README job table."""
+    return _fetch_community_board(
+        "zapplyjobs_internships",
+        "https://github.com/zapplyjobs/Internships-2027",
+        "https://raw.githubusercontent.com/zapplyjobs/Internships-2027/main/README.md",
+        "zapplyjobs_internships.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
+def fetch_zapplyjobs_datascience():
+    """Fetch zapplyjobs/New-Grad-Data-Science-Jobs-2027's README job table."""
+    return _fetch_community_board(
+        "zapplyjobs_datascience",
+        "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+        "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027/main/README.md",
+        "zapplyjobs_datascience.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
+def fetch_zapplyjobs_canada():
+    """Fetch zapplyjobs/Canada-Jobs-2027's README job table."""
+    return _fetch_community_board(
+        "zapplyjobs_canada",
+        "https://github.com/zapplyjobs/Canada-Jobs-2027",
+        "https://raw.githubusercontent.com/zapplyjobs/Canada-Jobs-2027/main/README.md",
+        "zapplyjobs_canada.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
+def fetch_zapplyjobs_canada_internships():
+    """Fetch zapplyjobs/Canada-Internships-2027's README job table."""
+    return _fetch_community_board(
+        "zapplyjobs_canada_internships",
+        "https://github.com/zapplyjobs/Canada-Internships-2027",
+        "https://raw.githubusercontent.com/zapplyjobs/Canada-Internships-2027/main/README.md",
+        "zapplyjobs_canada_internships.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
 def fetch_hanzili_canada():
     """Fetch hanzili/canada_sde_junior_new_grad_position's README job table."""
     return _fetch_community_board(
@@ -731,6 +783,11 @@ def main():
         rows += fetch_speedyapply_swe()
         rows += fetch_speedyapply_ai()
         rows += fetch_zapplyjobs_newgrad()
+        rows += fetch_zapplyjobs_all_newgrad()
+        rows += fetch_zapplyjobs_internships()
+        rows += fetch_zapplyjobs_datascience()
+        rows += fetch_zapplyjobs_canada()
+        rows += fetch_zapplyjobs_canada_internships()
         rows += fetch_hanzili_canada()
         rows += fetch_ambicuity_newgrad()
     except Exception as e:
@@ -751,6 +808,11 @@ def main():
             retry_rows += fetch_speedyapply_swe()
             retry_rows += fetch_speedyapply_ai()
             retry_rows += fetch_zapplyjobs_newgrad()
+            retry_rows += fetch_zapplyjobs_all_newgrad()
+            retry_rows += fetch_zapplyjobs_internships()
+            retry_rows += fetch_zapplyjobs_datascience()
+            retry_rows += fetch_zapplyjobs_canada()
+            retry_rows += fetch_zapplyjobs_canada_internships()
             retry_rows += fetch_hanzili_canada()
             retry_rows += fetch_ambicuity_newgrad()
         except Exception as e:
