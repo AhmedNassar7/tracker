@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T19:42:36Z",
-  "total": 656,
+  "generated_at": "2026-07-29T21:12:59Z",
+  "total": 654,
   "jobs": [
     {
       "id": "3070dcd93ef1612a",
@@ -13,6 +13,20 @@
       "date": "0d",
       "posted_at": "2026-07-29",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8054669?gh_jid=8054669",
+      "source": "greenhouse:cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "fd00b287039ec937",
+      "kind": "job",
+      "company": "Cloudflare",
+      "title": "Software Engineer, Cloudflare Network Interconnect",
+      "location": "Hybrid",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-07-29",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8088751?gh_jid=8088751",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
@@ -185,6 +199,20 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
+      "id": "a305a87df4a297fe",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "location": "Arlington, Virginia",
+      "level": "mid_level",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Software-Engineer-II_R-278530",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
       "id": "ecd4c24155a4a282",
       "kind": "job",
       "company": "NVIDIA",
@@ -213,16 +241,16 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "6c1765f9c71eb2d7",
+      "id": "0ec73e134c3f6b26",
       "kind": "job",
       "company": "NVIDIA",
-      "title": "DevOps Engineer",
-      "location": "Israel, Raanana",
+      "title": "Senior Data Center Infrastructure Engineer",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Remote<br>US, TX, Remote<br>US, NY, Remote<br>US, WA, Remote</details>",
       "level": "other",
       "role_type": "infrastructure",
       "date": "0d",
       "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/DevOps-Engineer_JR2008768",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Data-Center-Infrastructure-Engineer_JR2015093-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -307,6 +335,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---TensorRT-Edge-LLM_JR2012868",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "804b58c7059cbd0d",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Storage Software Engineer - DGX Cloud",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer---DGX-Cloud_JR2022385",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -643,20 +685,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer--Java-_R-281113-1",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "eddf1440478d07a8",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Lead, Platform Engineering",
-      "location": "Pune, India",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead--Platform-Engineering_R-276717-1",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -8364,7 +8392,7 @@
       "company": "AICOO",
       "title": "AICOO HACKATHON",
       "location": "Online",
-      "date": "about 3 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-07-29",
       "url": "https://aicoo-hackathon.devpost.com/",
       "source": "devpost",
@@ -8436,7 +8464,7 @@
       "company": "BuildBeyond",
       "title": "IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities",
       "location": "ICPAC",
-      "date": "2 days left",
+      "date": "1 day left",
       "posted_at": "2026-07-29",
       "url": "https://igad-husika-hackathon.devpost.com/",
       "source": "devpost",
@@ -8940,7 +8968,7 @@
       "company": "TrainzexAI",
       "title": "Impact Creation",
       "location": "Online",
-      "date": "2 days left",
+      "date": "1 day left",
       "posted_at": "2026-07-29",
       "url": "https://impact-creation.devpost.com/",
       "source": "devpost",
@@ -8985,30 +9013,6 @@
   ],
   "events": [
     {
-      "id": "229397d627dbf883",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-29",
-      "url": "/sf-builders-collective?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-29",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -9033,18 +9037,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-29",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9053,18 +9045,6 @@
       "date": "",
       "posted_at": "2026-07-29",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-07-29",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
