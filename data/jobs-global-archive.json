@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T22:16:12Z",
-  "total": 116,
+  "generated_at": "2026-07-29T00:08:23Z",
+  "total": 121,
   "jobs": [
     {
       "id": "a014bb964bd683bb",
@@ -14,14 +14,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
-      "age": "6d",
-      "collected_at": "2026-07-28T22:16:12Z",
+      "age": "7d",
+      "collected_at": "2026-07-29T00:08:23Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-28T22:16:12Z"
+      "closed_at": "2026-07-29T00:08:23Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -35,14 +35,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "11d",
-      "collected_at": "2026-07-28T22:16:12Z",
+      "age": "12d",
+      "collected_at": "2026-07-29T00:08:23Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-28T22:16:12Z"
+      "closed_at": "2026-07-29T00:08:23Z"
     },
     {
       "id": "b2d028c109660605",
@@ -56,6 +56,69 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
+      "age": "1d",
+      "collected_at": "2026-07-29T00:08:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T00:08:23Z"
+    },
+    {
+      "id": "75fffeb2b2e3525d",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Engineer-II_R-284379",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "1d",
+      "collected_at": "2026-07-29T00:08:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T00:08:23Z"
+    },
+    {
+      "id": "172c7369e682e281",
+      "company": "NVIDIA",
+      "title": "Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-21",
+      "age": "4d",
+      "collected_at": "2026-07-21T23:12:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T00:08:23Z"
+    },
+    {
+      "id": "530c0ec88414dc90",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943264",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
       "age": "0d",
       "collected_at": "2026-07-28T22:16:12Z",
       "tags": [
@@ -63,7 +126,49 @@
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-28T22:16:12Z"
+      "closed_at": "2026-07-29T00:08:23Z"
+    },
+    {
+      "id": "6bf7501bc7674cab",
+      "company": "NVIDIA",
+      "title": "Software Engineer New Grad - Physical Design Infrastructure",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-23",
+      "age": "0d",
+      "collected_at": "2026-07-23T23:12:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T00:08:23Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-28",
+      "age": "29d",
+      "collected_at": "2026-07-28T14:38:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T00:08:23Z"
     },
     {
       "id": "d277fa92c52b7ff3",
