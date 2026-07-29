@@ -80,13 +80,15 @@ Real commits on your profile, often with mentorship and sometimes a stipend:
 
 ## Other Job Trackers Worth Knowing
 
-tracker already pulls directly from the open-source repos below (see [README.md](README.md#source-files) for the full source list) — you don't need to check them separately. They're listed here for transparency and credit, and because each has its own web app that goes beyond what a flat file can show:
+tracker already pulls directly from the open-source repos below (see [SOURCES.md](../SOURCES.md) for the full source list) — you don't need to check them separately. They're listed here for transparency and credit, and because each has its own web app that goes beyond what a flat file can show:
 
 | Resource | What it's for |
 |---|---|
 | [simplify.jobs](https://simplify.jobs/) | The company behind the SimplifyJobs GitHub lists; one-click autofill applications |
 | [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) | The single most-used community new-grad tracker on GitHub |
 | [SimplifyJobs/Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) | Its internship-focused counterpart |
+| [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027) | Another widely-used new-grad tracker |
+| [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships) | Its internship-focused counterpart |
 | [swelist.com](https://swelist.com/) | A hosted internship board with email alerts when new roles are posted |
 
 ## Notes

@@ -317,6 +317,33 @@ def main():
         and vanshb03_rows[1]["url"] == "https://example.com/vb2",
     ))
 
+    # LorenzoLaCorte-style table: lowercase company/title, a trailing empty
+    # cell after the link column ("||"), and EMEA locations that should
+    # region/country-tag correctly.
+    lorenzolacorte_md = "\n".join([
+        "|company|title|location|link|",
+        "|---|---|---|---|",
+        "|google|software engineer, new grad|paris, île-de-france, france|[🔗](https://example.com/eu1)||",
+        "|unknownco|software engineer, new grad|paris, île-de-france, france|[🔗](https://example.com/eu2)||",
+    ])
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25):
+            dest.write_text(lorenzolacorte_md, encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["google"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            lorenzolacorte_rows = fetch.fetch_lorenzolacorte_eu()
+    run("LorenzoLaCorte fetch title-cases the all-lowercase company name, handles a trailing empty cell, and tags EMEA/France", lambda: check(
+        "LorenzoLaCorte fetch title-cases the all-lowercase company name, handles a trailing empty cell, and tags EMEA/France",
+        len(lorenzolacorte_rows) == 1
+        and lorenzolacorte_rows[0]["company"] == "Google"
+        and lorenzolacorte_rows[0]["url"] == "https://example.com/eu1"
+        and lorenzolacorte_rows[0]["region"] == "emea"
+        and lorenzolacorte_rows[0]["country"] == "France",
+    ))
+
     # hanzili-style table: Title comes before Company (reversed column order
     # vs. every other source), url wrapped in a markdown link with <angle
     # brackets> around it.
@@ -560,6 +587,7 @@ def main():
         "fetch_zapplyjobs_canada_internships",
         "fetch_vanshb03_summer_internships",
         "fetch_vanshb03_newgrad",
+        "fetch_lorenzolacorte_eu",
         "fetch_hanzili_canada",
         "fetch_ambicuity_newgrad",
     ]

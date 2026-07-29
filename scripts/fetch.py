@@ -676,6 +676,28 @@ def fetch_vanshb03_newgrad():
         company_idx=0, title_idx=1, location_idx=2,
     )
 
+def fetch_lorenzolacorte_eu():
+    """Fetch LorenzoLaCorte/european-tech-internships-2026's README job table.
+
+    A dedicated Europe-focused tracker (internships, new-grad, and PhD
+    sections) — added to widen coverage beyond the mostly US/Canada
+    curated sources. Apply links point at the original LinkedIn posting
+    rather than a direct ATS page, same as any other source here.
+    """
+    rows = _fetch_community_board(
+        "lorenzolacorte_eu",
+        "https://github.com/LorenzoLaCorte/european-tech-internships-2026",
+        "https://raw.githubusercontent.com/LorenzoLaCorte/european-tech-internships-2026/main/README.md",
+        "lorenzolacorte_eu.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+    # Unlike every other source, this one lists every company name in
+    # all-lowercase ("google", "coca-cola hbc ag") — title-case it for
+    # display consistency with the rest of the site.
+    for row in rows:
+        row["company"] = row["company"].title()
+    return rows
+
 def fetch_hanzili_canada():
     """Fetch hanzili/canada_sde_junior_new_grad_position's README job table."""
     return _fetch_community_board(
@@ -816,6 +838,7 @@ def main():
         rows += fetch_zapplyjobs_canada_internships()
         rows += fetch_vanshb03_summer_internships()
         rows += fetch_vanshb03_newgrad()
+        rows += fetch_lorenzolacorte_eu()
         rows += fetch_hanzili_canada()
         rows += fetch_ambicuity_newgrad()
     except Exception as e:
@@ -843,6 +866,7 @@ def main():
             retry_rows += fetch_zapplyjobs_canada_internships()
             retry_rows += fetch_vanshb03_summer_internships()
             retry_rows += fetch_vanshb03_newgrad()
+            retry_rows += fetch_lorenzolacorte_eu()
             retry_rows += fetch_hanzili_canada()
             retry_rows += fetch_ambicuity_newgrad()
         except Exception as e:

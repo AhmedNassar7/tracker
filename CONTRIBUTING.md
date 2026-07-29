@@ -4,7 +4,7 @@ This file is for anyone who wants to understand, run, or extend the pipeline beh
 
 ## How it works
 
-1. **Fetch** — `scripts/fetch.py` pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply, zapplyjobs, hanzili, and ambicuity, filtered by the companies in `config/companies_allowlist.yml`. `scripts/public_sources.py` widens coverage with Devpost, Luma, Greenhouse, Lever, and Workday (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in `config/extra_job_boards.yml`. Every apply link is checked before publishing, and dead ones are moved to the archive automatically.
+1. **Fetch** — `scripts/fetch.py` pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply, vanshb03, zapplyjobs, hanzili, ambicuity, and LorenzoLaCorte's European tracker, filtered by the companies in `config/companies_allowlist.yml`. `scripts/public_sources.py` widens coverage with Devpost, Luma, Greenhouse, Lever, and Workday (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in `config/extra_job_boards.yml`. Every apply link is checked before publishing, and dead ones are moved to the archive automatically. See [SOURCES.md](SOURCES.md) for the full list with links.
 2. **Build** — `scripts/build_data_readme.py` turns the raw JSON in `data/` into the readable tables in `README.md` and `data/README.md`.
 3. **Publish** — a [GitHub Actions workflow](.github/workflows/hourly-global-roles.yml) runs this pipeline hourly, opens a pull request with whatever changed, and auto-merges it. No manual steps.
 
@@ -38,6 +38,7 @@ Pull requests run through [CI](.github/workflows/ci.yml) automatically — both 
 | Path | What's in it |
 |---|---|
 | [data/README.md](data/README.md) | The combined, human-readable table of every open opportunity |
+| [SOURCES.md](SOURCES.md) | Every website/repo/API the pipeline pulls from, with links |
 | [data/resources.md](data/resources.md) | Hand-curated career resources: coding practice, mock interviews, resume tools, and more |
 | [data/](data/) | Raw JSON the tables above are generated from — see [Source Files](data/README.md#source-files) |
 | [config/companies_allowlist.yml](config/companies_allowlist.yml) | Which companies' listings are accepted (edit this, no coding required) |
@@ -50,4 +51,4 @@ Pull requests run through [CI](.github/workflows/ci.yml) automatically — both 
 ## Notes
 
 - `README.md` and `data/README.md` are generated files — edits should go through `scripts/build_data_readme.py` so they survive the next automated run.
-- `data/resources.md` and this file are hand-maintained, not touched by the pipeline.
+- `data/resources.md`, `SOURCES.md`, and this file are hand-maintained, not touched by the pipeline.
