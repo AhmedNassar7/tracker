@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T22:16:12Z",
-  "total": 77,
+  "generated_at": "2026-07-29T00:08:23Z",
+  "total": 78,
   "jobs": [
     {
       "id": "5e1c582d0dea166a",
@@ -143,26 +143,6 @@
       ]
     },
     {
-      "id": "7ff881b32256dadf",
-      "company": "JPMorganChase",
-      "title": "Site Reliability Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "MH, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=13eeee0258ae9f4a",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "0d",
-      "collected_at": "2026-07-28T16:49:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
       "title": "Junior to Intermediate Data Engineer",
@@ -183,19 +163,139 @@
       ]
     },
     {
-      "id": "530c0ec88414dc90",
-      "company": "Microsoft",
+      "id": "e67470febc20f1ed",
+      "company": "Mastercard",
       "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-284379",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T00:08:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "489240d3c45499c4",
+      "company": "Microsoft",
+      "title": "Data Engineer II",
       "level": "mid_level",
       "country": "Unknown",
       "location": "Redmond, Washingt...",
       "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943264",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556945522",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T00:08:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "2425fdb1b09a20f8",
+      "company": "Microsoft",
+      "title": "Software Engineer II - Compromise & F...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556944835",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T00:08:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "759cb9223ff765d6",
+      "company": "Microsoft",
+      "title": "Software Engineer II, Minecraft",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943762",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T00:08:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "7901ce2e362ca859",
+      "company": "Siemens",
+      "title": "Software Developer - New Graduate- 12 Month Contract",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Vaughan, Ontario (Hybrid)",
+      "remote_type": "hybrid",
+      "url": "https://ca.linkedin.com/jobs/view/software-developer-new-graduate-12-month-contract-at-siemens-4414765886",
+      "source": "hanzili_canada",
+      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d19c5e1ad446181f",
+      "company": "CarMax",
+      "title": "Cloud Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Richmond, VA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=01f53c2e79fc3772",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "1d",
+      "collected_at": "2026-07-29T00:08:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "7ff881b32256dadf",
+      "company": "JPMorganChase",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "MH, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=13eeee0258ae9f4a",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
       "age": "0d",
-      "collected_at": "2026-07-28T22:16:12Z",
+      "collected_at": "2026-07-28T16:49:44Z",
       "tags": [
         "software",
         "programming",
@@ -323,14 +423,14 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -343,14 +443,14 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -483,26 +583,6 @@
       ]
     },
     {
-      "id": "7901ce2e362ca859",
-      "company": "Siemens",
-      "title": "Software Developer - New Graduate- 12 Month Contract",
-      "level": "new_grad",
-      "country": "Canada",
-      "location": "Vaughan, Ontario (Hybrid)",
-      "remote_type": "hybrid",
-      "url": "https://ca.linkedin.com/jobs/view/software-developer-new-graduate-12-month-contract-at-siemens-4414765886",
-      "source": "hanzili_canada",
-      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
-      "posted_at": "2026-07-17",
-      "age": "0d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "921fd245dad84f38",
       "company": "ZoomInfo",
       "title": "Software Engineer II - SAP ABAP FIORI",
@@ -543,26 +623,6 @@
       ]
     },
     {
-      "id": "6bf7501bc7674cab",
-      "company": "NVIDIA",
-      "title": "Software Engineer New Grad - Physical Design Infrastructure",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Physical-Design-Infrastructure---New-College-Grad-2026_JR2021823?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-23",
-      "age": "0d",
-      "collected_at": "2026-07-23T23:12:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
@@ -596,26 +656,6 @@
       "posted_at": "2026-07-10",
       "age": "7d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "172c7369e682e281",
-      "company": "NVIDIA",
-      "title": "Systems Software Engineer New Grad - Accelerated Kubernetes Performance and Scale",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Seattle, WA Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer--Accelerated-Kubernetes-Performance-and-Scale---New-College-Grad-2026_JR2020957?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-21",
-      "age": "4d",
-      "collected_at": "2026-07-21T23:12:05Z",
       "tags": [
         "software",
         "programming",
@@ -923,26 +963,6 @@
       ]
     },
     {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "8d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9b738d3d019be839",
       "company": "Citadel",
       "title": "Software Engineer Intern",
@@ -975,6 +995,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
@@ -1043,26 +1083,6 @@
       ]
     },
     {
-      "id": "52701a261180efd0",
-      "company": "Palo Alto Networks",
-      "title": "Software Engineer Intern 🎓",
-      "level": "internship",
-      "country": "United States",
-      "location": "California",
-      "remote_type": "onsite",
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011598?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-21",
-      "age": "19d",
-      "collected_at": "2026-07-21T20:35:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "26ec41004b2d610b",
       "company": "Citadel Securities",
       "title": "Machine Learning Researcher PhD Intern 🎓",
@@ -1103,6 +1123,26 @@
       ]
     },
     {
+      "id": "52701a261180efd0",
+      "company": "Palo Alto Networks",
+      "title": "Software Engineer Intern 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "California",
+      "remote_type": "onsite",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---Software-Engineer_JR-011598?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-21",
+      "age": "19d",
+      "collected_at": "2026-07-21T20:35:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "25112912b64a7e96",
       "company": "Sony",
       "title": "Software Engineer Intern",
@@ -1116,26 +1156,6 @@
       "posted_at": "2026-07-17",
       "age": "16d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "9415006c972556db",
-      "company": "Palantir",
-      "title": "Software Engineer New Grad - Production Infrastructure",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "15d",
-      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1163,39 +1183,19 @@
       ]
     },
     {
-      "id": "1d189997c9218173",
+      "id": "9415006c972556db",
       "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "title": "Software Engineer New Grad - Production Infrastructure",
       "level": "new_grad",
       "country": "United States",
-      "location": "NYC",
+      "location": "Washington, DC",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6/apply?utm_source=Simplify&ref=Simplify",
       "source": "simplify_newgrad",
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-28",
-      "age": "29d",
-      "collected_at": "2026-07-28T14:38:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "18d7e7fbe2542c91",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Chicago, IL",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-06-29",
-      "age": "18d",
-      "collected_at": "2026-07-17T22:19:39Z",
+      "posted_at": "2026-07-15",
+      "age": "15d",
+      "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
         "programming",
@@ -1335,6 +1335,26 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-07-17",
       "age": "1mo",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "18d7e7fbe2542c91",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Chicago, IL",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-06-29",
+      "age": "18d",
       "collected_at": "2026-07-17T22:19:39Z",
       "tags": [
         "software",
