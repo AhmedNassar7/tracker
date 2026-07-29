@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T17:38:39Z",
-  "total": 657,
+  "generated_at": "2026-07-29T19:42:36Z",
+  "total": 656,
   "jobs": [
     {
       "id": "3070dcd93ef1612a",
@@ -69,20 +69,6 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Director-Software-Engineering_R-282206",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "035213b3674aa418",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Lead Software Engineer",
-      "location": "Pune, India",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-280843",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -157,16 +143,16 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
-      "id": "b82035b124244e8f",
+      "id": "6e449c76385699b3",
       "kind": "job",
       "company": "Mastercard",
-      "title": "Senior Site Reliability Engineer",
-      "location": "Pune, India",
+      "title": "Senior Software Engineer",
+      "location": "O'Fallon, Missouri",
       "level": "other",
-      "role_type": "infrastructure",
+      "role_type": "software_engineer",
       "date": "0d",
       "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Site-Reliability-Engineer_R-280840",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-275738",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -195,20 +181,6 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Java-Full-stack---AI--Python---PyTorch---TensorFlow--Hugging-Face-_R-278862-1",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "8057cfd168bf8c1c",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Senior Software Engineer-3",
-      "location": "Pune, India",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-3_R-281678-1",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -283,6 +255,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "25b06b6004425c66",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer - Datacenter Systems",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, CA, Santa Clara<br>US, CA, Remote<br>US, AZ, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Datacenter-Systems_JR2017468",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "d9d709bec07b82cd",
       "kind": "job",
       "company": "NVIDIA",
@@ -353,6 +339,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "51eae5c0a432384c",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer, AV Platform - Test Platform Infrastructure, Tools and Simulation",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--AV-Platform---Test-Platform-Infrastructure--Tools-and-Simulation_JR2022283",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "776cb743aa812ee5",
       "kind": "job",
       "company": "NVIDIA",
@@ -363,6 +363,34 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-Systems-Software-Engineer--Developer-Productivity-and-Cloud-Automation---GeForce-NOW_JR2021957",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "6a3949857ee40c3d",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Engineer, CAD Automation",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CAD-Automation_JR2019252",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "bc7c7b9957619719",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Engineering Manager - GPU Communications Libraries",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Manager---GPU-Communications-Libraries_JR1980109",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -619,20 +647,6 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
-      "id": "a7a3d9e02975f43b",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Lead Software Engineer - C/C++, Unix/Linux, ARQC, ARPC, HSM",
-      "location": "Pune, India",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer---C-C----Unix-Linux--ARQC--ARPC--HSM_R-281192",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
       "id": "eddf1440478d07a8",
       "kind": "job",
       "company": "Mastercard",
@@ -713,20 +727,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Site-Reliability-Engineer--Performance-Engineering_R-286332",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "6e449c76385699b3",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Senior Software Engineer",
-      "location": "O'Fallon, Missouri",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-275738",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -815,20 +815,6 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
-      "id": "b9bc14e260e408cc",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "location": "Pune, India",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-281363",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
       "id": "b33741e61d0a34f0",
       "kind": "job",
       "company": "NVIDIA",
@@ -843,20 +829,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "18e312651f3a3a97",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Lead System Software Engineer Platform - Server Embedded Firmware",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer-Platform---Server-Embedded-Firmware_JR2014509",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "22703bbb46a19b91",
       "kind": "job",
       "company": "NVIDIA",
@@ -867,20 +839,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Employee-Productivity_JR2021643-1",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "c3713a1ca8334239",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Principal Software Engineer - Rack Scale Systems Infrastructure",
-      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, NC, Remote<br>US, TX, Remote<br>US, Remote<br>US, MA, Remote</details>",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -965,34 +923,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Software-Engineer_JR2015068",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "da351b1cc3155dac",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Platform AI Engineer",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, CA, Remote</details>",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-AI-Engineer_JR2020962",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "06a53d318cd38244",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Platform Software Engineer – Factory",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Software-Engineer---Factory_JR2012307",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -8422,7 +8352,7 @@
       "company": "Africa Deep Tech Foundation",
       "title": "Africa Deep Tech Challenge 2026",
       "location": "Online",
-      "date": "27 days left",
+      "date": "26 days left",
       "posted_at": "2026-07-29",
       "url": "https://adtc-2026.devpost.com/",
       "source": "devpost",
@@ -8434,7 +8364,7 @@
       "company": "AICOO",
       "title": "AICOO HACKATHON",
       "location": "Online",
-      "date": "about 5 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-07-29",
       "url": "https://aicoo-hackathon.devpost.com/",
       "source": "devpost",
@@ -8494,7 +8424,7 @@
       "company": "BuildBeyond",
       "title": "Build Beyond Hackathon",
       "location": "Online",
-      "date": "18 days left",
+      "date": "17 days left",
       "posted_at": "2026-07-29",
       "url": "https://build-beyond-hackathon.devpost.com/",
       "source": "devpost",
@@ -8686,7 +8616,7 @@
       "company": "ImpactForge",
       "title": "ImpactForge",
       "location": "Online",
-      "date": "26 days left",
+      "date": "25 days left",
       "posted_at": "2026-07-29",
       "url": "https://impactforge.devpost.com/",
       "source": "devpost",
@@ -8770,7 +8700,7 @@
       "company": "ML Empowerment Foundation",
       "title": "ML Empowerment Build Challenge 2.0",
       "location": "Online",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-07-29",
       "url": "https://ml-empowerment-2.devpost.com/",
       "source": "devpost",
@@ -8806,7 +8736,7 @@
       "company": "NeuralSprint",
       "title": "NeuralSprint",
       "location": "Online",
-      "date": "26 days left",
+      "date": "25 days left",
       "posted_at": "2026-07-29",
       "url": "https://neuralsprint.devpost.com/",
       "source": "devpost",
@@ -8830,7 +8760,7 @@
       "company": "Paritok",
       "title": "Build with Paritok: The Token-Efficiency Hackathon",
       "location": "Online",
-      "date": "7 days left",
+      "date": "6 days left",
       "posted_at": "2026-07-29",
       "url": "https://build-with-paritok.devpost.com/",
       "source": "devpost",
@@ -8974,7 +8904,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "about 13 hours left",
       "posted_at": "2026-07-29",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -9055,6 +8985,30 @@
   ],
   "events": [
     {
+      "id": "229397d627dbf883",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-29",
+      "url": "/sf-builders-collective?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-29",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -9079,6 +9033,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-29",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9087,6 +9053,18 @@
       "date": "",
       "posted_at": "2026-07-29",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-29",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

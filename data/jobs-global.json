@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-07-29T17:37:50Z",
-  "total": 78,
+  "generated_at": "2026-07-29T19:41:50Z",
+  "total": 80,
   "jobs": [
+    {
+      "id": "35225b86dab9d04b",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer, Associate Experience, ...",
+      "level": "entry_level",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10487503/data-engineer-associate-experience-amazon-customer-service",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T19:41:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "7d2b84ddfe19bd46",
       "company": "ByteDance",
@@ -83,6 +103,26 @@
       ]
     },
     {
+      "id": "0476ba52df9714ce",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T19:41:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5ef40465774dff2c",
       "company": "IBM",
       "title": "Associate Cloud Engineer (September 2026 - Calgary)",
@@ -96,6 +136,26 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5d1ecca6b6113aa7",
+      "company": "Instacart",
+      "title": "Software Engineer II, Technical Search Visibility",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=7963661",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T19:41:50Z",
       "tags": [
         "software",
         "programming",
@@ -216,26 +276,6 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T15:18:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "759cb9223ff765d6",
-      "company": "Microsoft",
-      "title": "Software Engineer II, Minecraft",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Redmond, Washingt...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943762",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-29",
-      "age": "0d",
-      "collected_at": "2026-07-29T00:08:23Z",
       "tags": [
         "software",
         "programming",
@@ -383,14 +423,14 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -403,14 +443,14 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
@@ -583,14 +623,14 @@
       ]
     },
     {
-      "id": "d7e4cd19ff147953",
+      "id": "f7eb9ebbd5e7799c",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
+      "country": "United States",
+      "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
+      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
@@ -603,14 +643,14 @@
       ]
     },
     {
-      "id": "f7eb9ebbd5e7799c",
+      "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
+      "country": "Unknown",
+      "location": "Pittsburgh, PA",
       "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002",
+      "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-10",
