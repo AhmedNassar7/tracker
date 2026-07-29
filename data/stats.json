@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-29T15:18:56Z",
+  "generated_at": "2026-07-29T17:37:50Z",
   "total": 82,
   "by_level": {
-    "mid_level": 29,
     "internship": 34,
     "junior": 2,
-    "entry_level": 1,
+    "entry_level": 2,
+    "mid_level": 28,
     "new_grad": 16
   },
   "by_country": {
-    "Unknown": 20,
-    "United States": 43,
+    "United States": 44,
     "Remote": 1,
     "Canada": 15,
+    "Unknown": 19,
     "United Kingdom": 3
   },
   "by_source": {
