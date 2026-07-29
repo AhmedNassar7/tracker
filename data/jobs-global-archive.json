@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T00:08:23Z",
+  "generated_at": "2026-07-29T03:37:29Z",
   "total": 121,
   "jobs": [
     {
@@ -13,15 +13,15 @@
       "url": "https://paypal.wd1.myworkdayjobs.com/job/Scottsdale-Arizona-United-States-of-America/Software-Engineer-2_R0137112",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-22",
-      "age": "7d",
-      "collected_at": "2026-07-29T00:08:23Z",
+      "posted_at": "2026-07-23",
+      "age": "6d",
+      "collected_at": "2026-07-29T03:37:29Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T00:08:23Z"
+      "closed_at": "2026-07-29T03:37:29Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -34,15 +34,15 @@
       "url": "https://paypal.wd1.myworkdayjobs.com/job/San-Jose-California-United-States-of-America/Software-Engineer-2_R0137107",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "12d",
-      "collected_at": "2026-07-29T00:08:23Z",
+      "posted_at": "2026-07-18",
+      "age": "11d",
+      "collected_at": "2026-07-29T03:37:29Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T00:08:23Z"
+      "closed_at": "2026-07-29T03:37:29Z"
     },
     {
       "id": "b2d028c109660605",
@@ -55,15 +55,15 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-281363",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "1d",
-      "collected_at": "2026-07-29T00:08:23Z",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T03:37:29Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T00:08:23Z"
+      "closed_at": "2026-07-29T03:37:29Z"
     },
     {
       "id": "75fffeb2b2e3525d",
@@ -76,6 +76,27 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Engineer-II_R-284379",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T03:37:29Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T03:37:29Z"
+    },
+    {
+      "id": "d19c5e1ad446181f",
+      "company": "CarMax",
+      "title": "Cloud Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Richmond, VA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=01f53c2e79fc3772",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
       "age": "1d",
       "collected_at": "2026-07-29T00:08:23Z",
@@ -84,7 +105,7 @@
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T00:08:23Z"
+      "closed_at": "2026-07-29T03:37:29Z"
     },
     {
       "id": "172c7369e682e281",
@@ -358,27 +379,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-28T16:49:44Z"
-    },
-    {
-      "id": "dee61fd2a43c40e9",
-      "company": "Tesla",
-      "title": "Software Engineer Intern - Fullstack Software Engineer - Fleetnet",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://www.tesla.com/careers/search/job/266764?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-28",
-      "age": "1mo",
-      "collected_at": "2026-07-28T03:34:25Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-28T06:39:24Z"
     },
     {
       "id": "f8c598e8adf6d6c0",
