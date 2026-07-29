@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T15:18:56Z",
-  "total": 122,
+  "generated_at": "2026-07-29T17:37:50Z",
+  "total": 123,
   "jobs": [
     {
       "id": "a014bb964bd683bb",
@@ -15,13 +15,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "7d",
-      "collected_at": "2026-07-29T15:18:56Z",
+      "collected_at": "2026-07-29T17:37:50Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T15:18:56Z"
+      "closed_at": "2026-07-29T17:37:50Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -36,13 +36,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
       "age": "12d",
-      "collected_at": "2026-07-29T15:18:56Z",
+      "collected_at": "2026-07-29T17:37:50Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T15:18:56Z"
+      "closed_at": "2026-07-29T17:37:50Z"
     },
     {
       "id": "b2d028c109660605",
@@ -57,13 +57,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
       "age": "1d",
-      "collected_at": "2026-07-29T15:18:56Z",
+      "collected_at": "2026-07-29T17:37:50Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T15:18:56Z"
+      "closed_at": "2026-07-29T17:37:50Z"
     },
     {
       "id": "75fffeb2b2e3525d",
@@ -78,13 +78,55 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
       "age": "1d",
-      "collected_at": "2026-07-29T15:18:56Z",
+      "collected_at": "2026-07-29T17:37:50Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T15:18:56Z"
+      "closed_at": "2026-07-29T17:37:50Z"
+    },
+    {
+      "id": "2425fdb1b09a20f8",
+      "company": "Microsoft",
+      "title": "Software Engineer II - Compromise & F...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556944835",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T00:08:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T17:37:50Z"
+    },
+    {
+      "id": "5e1c582d0dea166a",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer II, Ring NA Sales and M...",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Hawthorne, CA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10486103/data-engineer-ii-ring-na-sales-and-marketing-rbks-sales-marketing-analytics",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-28",
+      "age": "0d",
+      "collected_at": "2026-07-28T16:49:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T17:37:50Z"
     },
     {
       "id": "7ff881b32256dadf",
@@ -100,27 +142,6 @@
       "posted_at": "2026-07-28",
       "age": "0d",
       "collected_at": "2026-07-28T16:49:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-29T15:18:56Z"
-    },
-    {
-      "id": "fd3e3a899cc79508",
-      "company": "JPMorgan Chase",
-      "title": "Site Reliability Engineer II",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Chicago, IL, Unit...",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210747513",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-28",
-      "age": "0d",
-      "collected_at": "2026-07-28T20:34:18Z",
       "tags": [
         "software",
         "programming",
