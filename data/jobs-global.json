@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T03:30:30Z",
-  "total": 157,
+  "generated_at": "2026-07-30T06:40:34Z",
+  "total": 154,
   "jobs": [
     {
       "id": "b028d94f5b6a4176",
@@ -583,26 +583,6 @@
       ]
     },
     {
-      "id": "c6682e19446b6310",
-      "company": "Cisco",
-      "title": "Data Engineer II (Full Time) United S...",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "RTP, North Caroli...",
-      "remote_type": "onsite",
-      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Data-Engineer-II--Full-Time--United-States_2001849",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-07-29",
-      "age": "0d",
-      "collected_at": "2026-07-29T23:15:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "dacc592f860fc68b",
       "company": "Citadel",
       "title": "Software Engineer Intern",
@@ -671,11 +651,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254/application",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-07-29",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-07-30",
       "age": "0d",
-      "collected_at": "2026-07-29T23:15:12Z",
+      "collected_at": "2026-07-30T06:40:34Z",
       "tags": [
         "software",
         "programming",
@@ -1023,46 +1003,6 @@
       ]
     },
     {
-      "id": "3fb36561fa28d5a8",
-      "company": "JPMorgan Chase",
-      "title": "Associate, Automation Testing Java De...",
-      "level": "entry_level",
-      "country": "Unknown",
-      "location": "Wilmington, DE, U...",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210698366",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-29",
-      "age": "0d",
-      "collected_at": "2026-07-29T17:37:50Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "fd3e3a899cc79508",
-      "company": "JPMorgan Chase",
-      "title": "Site Reliability Engineer II",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Chicago, IL, Unit...",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210747513",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-29",
-      "age": "0d",
-      "collected_at": "2026-07-29T17:37:50Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
       "title": "Junior to Intermediate Data Engineer",
@@ -1083,19 +1023,19 @@
       ]
     },
     {
-      "id": "e67470febc20f1ed",
+      "id": "bba70718880d7063",
       "company": "Mastercard",
       "title": "Software Engineer II",
       "level": "mid_level",
       "country": "Unknown",
-      "location": "O'Fallon, Missouri",
+      "location": "Arlington, Virginia",
       "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-284379",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Software-Engineer-II_R-278530",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-29",
+      "posted_at": "2026-07-30",
       "age": "0d",
-      "collected_at": "2026-07-29T00:08:23Z",
+      "collected_at": "2026-07-30T06:40:34Z",
       "tags": [
         "software",
         "programming",
@@ -1151,11 +1091,11 @@
       "location": "Vancouver, Britis...",
       "remote_type": "onsite",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556866289",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-29",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-07-30",
       "age": "0d",
-      "collected_at": "2026-07-29T15:18:56Z",
+      "collected_at": "2026-07-30T06:40:34Z",
       "tags": [
         "software",
         "programming",
@@ -2663,26 +2603,6 @@
       ]
     },
     {
-      "id": "a2074999bf3dbf58",
-      "company": "Citadel",
-      "title": "Software Engineer – University Graduate",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "<details><summary><strong>4 locations</strong></summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details>",
-      "remote_type": "onsite",
-      "url": "https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "9d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f73dd927af2286fb",
       "company": "Notion",
       "title": "Software Engineer – Early Career",
@@ -2695,6 +2615,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "8d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a2074999bf3dbf58",
+      "company": "Citadel",
+      "title": "Software Engineer – University Graduate",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "<details><summary><strong>4 locations</strong></summary>Greenwich, CT<br>Houston, TX<br>Miami, FL<br>NYC</details>",
+      "remote_type": "onsite",
+      "url": "https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "9d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
