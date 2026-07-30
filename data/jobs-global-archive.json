@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T22:13:19Z",
-  "total": 124,
+  "generated_at": "2026-07-30T00:12:50Z",
+  "total": 134,
   "jobs": [
     {
       "id": "a014bb964bd683bb",
@@ -14,14 +14,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
-      "age": "7d",
-      "collected_at": "2026-07-29T22:13:19Z",
+      "age": "8d",
+      "collected_at": "2026-07-30T00:12:50Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T22:13:19Z"
+      "closed_at": "2026-07-30T00:12:50Z"
     },
     {
       "id": "10ef33ebed97b74e",
@@ -35,14 +35,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-17",
-      "age": "12d",
-      "collected_at": "2026-07-29T22:13:19Z",
+      "age": "13d",
+      "collected_at": "2026-07-30T00:12:50Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T22:13:19Z"
+      "closed_at": "2026-07-30T00:12:50Z"
     },
     {
       "id": "75fffeb2b2e3525d",
@@ -56,14 +56,14 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
-      "age": "1d",
-      "collected_at": "2026-07-29T22:13:19Z",
+      "age": "2d",
+      "collected_at": "2026-07-30T00:12:50Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T22:13:19Z"
+      "closed_at": "2026-07-30T00:12:50Z"
     },
     {
       "id": "beef7fca61bf2805",
@@ -77,14 +77,392 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-29",
-      "age": "0d",
-      "collected_at": "2026-07-29T22:13:19Z",
+      "age": "1d",
+      "collected_at": "2026-07-30T00:12:50Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-07-29T22:13:19Z"
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "32488451baa6f650",
+      "company": "Adobe",
+      "title": "New Grad 2026: Application Security Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159164EXTERNALENUS/2026-University-Graduate-Application-Security-Engineer?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "b24b8faf5662603b",
+      "company": "Adobe",
+      "title": "New Grad 2026: Machine Learning Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR157573EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "2790e9e3e128e0f6",
+      "company": "Adobe",
+      "title": "New Grad 2026: Machine Learning Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR158632EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "0b810af44c8a5911",
+      "company": "Adobe",
+      "title": "New Grad 2026: Software Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA Lehi, UT",
+      "remote_type": "onsite",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159163EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "2e13f81c5669b4fc",
+      "company": "Adobe",
+      "title": "New Grad 2026: Software Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA Lehi, UT",
+      "remote_type": "onsite",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159933EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "f5280ae38e0be665",
+      "company": "Atlassian",
+      "title": "New Grad 2026: Machine Learning Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://careers-americas.icims.com/jobs/20906/machine-learning-engineer%252c-2026-graduate-u.s./job?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "866f1efaf58c81a0",
+      "company": "Atlassian",
+      "title": "New Grad 2026: Software Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://careers-americas.icims.com/jobs/20901/software-engineer%252c-2026-graduate-u.s./job?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "ed0b3c42b8d5d4ce",
+      "company": "Dayton Freight Lines",
+      "title": "Entry Level Software Developer",
+      "level": "entry_level",
+      "country": "Unknown",
+      "location": "Dayton, OH",
+      "remote_type": "onsite",
+      "url": "https://careers-daytonfreight.icims.com/jobs/16714/job?mobile=true&needsRedirect=false&utm_source=vansh&ref=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "608a093a1e5c0194",
+      "company": "Meta",
+      "title": "New Grad 2026: Product Security Engineer",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Bellevue, WA Menlo Park, CA",
+      "remote_type": "onsite",
+      "url": "https://www.metacareers.com/jobs/609052015548260?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "fcd8d48008aeb19b",
+      "company": "Pinterest",
+      "title": "New Grad 2026: Software Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Palo Alto, CA Seattle, WA SF",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/job-form?gh_jid=7211012&utm_source=vansh&ref=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "04b19ea76d57f3d5",
+      "company": "SIG",
+      "title": "New Grad: Software Developer",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Bala Cynwyd, PA",
+      "remote_type": "onsite",
+      "url": "https://careers.sig.com/job/SUSQA004Y9261?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "6821502c7f2c45ec",
+      "company": "Stripe",
+      "title": "New Grad: Security Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA South San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/listing/security-engineer-new-grad/7477571?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "c5cc73c5ab5f680e",
+      "company": "Stripe",
+      "title": "New Grad: Software Engineer",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "South San Francisco, CA Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/listing/software-engineer-new-grad/7210112?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "a45f3452e9f2fe2d",
+      "company": "Uber",
+      "title": "New Grad 2025: Software Engineer I",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://university-uber.icims.com/jobs/149558/job?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "e275350e3044499b",
+      "company": "Uber",
+      "title": "New Grad 2026: Software Engineer I",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://university-uber.icims.com/jobs/152427/job?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "f467b5a94bb30a2d",
+      "company": "Uber",
+      "title": "New Grad 2026: Software Engineer I, Mobile",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://university-uber.icims.com/jobs/152559/job?mobile=false&width=1069&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240&utm_source=vansh&ref=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T00:12:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-30T00:12:50Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-29",
+      "age": "1mo",
+      "collected_at": "2026-07-29T15:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T23:15:12Z"
+    },
+    {
+      "id": "17ef35aff14e7dc6",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend, tvScientific",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Remote, US",
+      "remote_type": "remote",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7782552",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "0d",
+      "collected_at": "2026-07-17T22:39:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-07-29T23:15:12Z"
     },
     {
       "id": "759cb9223ff765d6",
@@ -142,27 +520,6 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T00:08:23Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-29T17:37:50Z"
-    },
-    {
-      "id": "5e1c582d0dea166a",
-      "company": "Amazon.com Services LLC",
-      "title": "Data Engineer II, Ring NA Sales and M...",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Hawthorne, CA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10486103/data-engineer-ii-ring-na-sales-and-marketing-rbks-sales-marketing-analytics",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-28",
-      "age": "0d",
-      "collected_at": "2026-07-28T16:49:44Z",
       "tags": [
         "software",
         "programming",
@@ -318,27 +675,6 @@
       "closed_at": "2026-07-28T22:16:12Z"
     },
     {
-      "id": "df5d5568772affed",
-      "company": "Microsoft",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Vancouver, Britis...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556943321",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-28",
-      "age": "0d",
-      "collected_at": "2026-07-28T18:45:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-28T22:16:12Z"
-    },
-    {
       "id": "9315cbd61b8a2745",
       "company": "JPMorgan Chase",
       "title": "Software Engineer II- Test Automation",
@@ -444,27 +780,6 @@
       "closed_at": "2026-07-28T16:49:44Z"
     },
     {
-      "id": "c6682e19446b6310",
-      "company": "Cisco",
-      "title": "Data Engineer II (Full Time) United S...",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "RTP, North Caroli...",
-      "remote_type": "onsite",
-      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Data-Engineer-II--Full-Time--United-States_2001849",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-28",
-      "age": "0d",
-      "collected_at": "2026-07-28T14:38:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-28T16:49:44Z"
-    },
-    {
       "id": "69b26a594a90417d",
       "company": "Microsoft",
       "title": "Software Engineer II - CTJ - Poly",
@@ -520,27 +835,6 @@
       "posted_at": "2026-07-25",
       "age": "Recently",
       "collected_at": "2026-07-25T03:35:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-27T20:42:26Z"
-    },
-    {
-      "id": "b028d94f5b6a4176",
-      "company": "Amazon Web Services, Inc.",
-      "title": "Data Engineer II, AWS Marketplace and...",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10481199/data-engineer-ii-aws-marketplace-and-partner-services",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-22",
-      "age": "Recently",
-      "collected_at": "2026-07-22T12:03:16Z",
       "tags": [
         "software",
         "programming",
@@ -631,27 +925,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-27T18:46:41Z"
-    },
-    {
-      "id": "ba5c250781904d04",
-      "company": "Amazon.com Services LLC",
-      "title": "Security Engineer II, Security Incide...",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10481118/security-engineer-ii-security-incident-response-team-sirt",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-22",
-      "age": "Recently",
-      "collected_at": "2026-07-22T09:38:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-27T17:10:22Z"
     },
     {
       "id": "863fe0cc99138a63",
@@ -835,48 +1108,6 @@
       "posted_at": "2026-07-24",
       "age": "Recently",
       "collected_at": "2026-07-24T00:11:49Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-24T21:20:07Z"
-    },
-    {
-      "id": "53aa6fef1050c85b",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern (Applied Mac...",
-      "level": "internship",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7533045355162044690",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-17",
-      "age": "Recently",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-24T21:20:07Z"
-    },
-    {
-      "id": "8a32d8c56dfd9a12",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern (Glo...",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, Washington",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7535953226975054098",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-19",
-      "age": "Recently",
-      "collected_at": "2026-07-19T21:06:40Z",
       "tags": [
         "software",
         "programming",
@@ -1240,27 +1471,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-07-22T22:15:36Z"
-    },
-    {
-      "id": "500685113392f7cf",
-      "company": "Amazon Web Services, Inc.",
-      "title": "Data Engineer II, GTPC Tech, Complian...",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10477449/data-engineer-ii-gtpc-tech-compliance-assurance-aws-security",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-17",
-      "age": "Recently",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-07-22T20:21:23Z"
     },
     {
       "id": "8ffbad96f9ce768c",
