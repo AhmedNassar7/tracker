@@ -43,7 +43,8 @@ Pull requests run through [CI](.github/workflows/ci.yml) automatically — both 
 | [data/](data/) | Raw JSON the tables above are generated from — see [Source Files](data/README.md#source-files) |
 | [config/companies_allowlist.yml](config/companies_allowlist.yml) | Which companies' listings are accepted (edit this, no coding required) |
 | [config/extra_job_boards.yml](config/extra_job_boards.yml) | Ashby/SmartRecruiters companies to track (edit this, no coding required) |
-| [config/job-entry.schema.json](config/job-entry.schema.json) | JSON Schema describing the shape of each job record |
+| [config/job-entry.schema.json](config/job-entry.schema.json) | JSON Schema for each record in `data/jobs-global.json` / `jobs-global-archive.json` |
+| [config/public-entry.schema.json](config/public-entry.schema.json) | JSON Schema for each record in `data/public-opportunities.json` (jobs/hackathons/events share one shape, disambiguated by `kind`) |
 | [scripts/](scripts/) | The fetch/build pipeline (Python, standard library only) |
 | [tests/](tests/) | Automated tests for the pipeline scripts, run in CI on every pull request |
 | [.github/workflows/](.github/workflows/) | The hourly refresh job (`hourly-global-roles.yml`) and the CI test job (`ci.yml`) |
@@ -52,3 +53,4 @@ Pull requests run through [CI](.github/workflows/ci.yml) automatically — both 
 
 - `README.md` and `data/README.md` are generated files — edits should go through `scripts/build_data_readme.py` so they survive the next automated run.
 - `data/resources.md`, `SOURCES.md`, and this file are hand-maintained, not touched by the pipeline.
+- `.nojekyll` at the repo root is prep for a future GitHub Pages site published from `main` / root: without it, GitHub runs the whole repo through Jekyll before serving, which can mangle the site's own `index.html` and is unnecessary since this repo has no Jekyll config. The data JSON stays reachable at its normal path either way, so the site (once built) can `fetch()` it directly, same-origin, with zero duplication.

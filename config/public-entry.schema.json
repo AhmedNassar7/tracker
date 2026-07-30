@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PublicEntry",
+  "description": "Shape of each entry in data/public-opportunities.json (the 'jobs', 'hackathons', and 'events' arrays are all built from this same entry shape, disambiguated by 'kind'). This is a different, simpler shape than config/job-entry.schema.json, which describes data/jobs-global.json instead.",
+  "type": "object",
+  "required": ["id", "kind", "company", "title", "location", "date", "posted_at", "url", "source", "source_url"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "16-char hex ID (stable hash of source-specific fields, always including title+url)"
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["job", "hackathon", "event"],
+      "description": "Which of the three arrays this entry belongs to; 'level' and 'role_type' are only present when kind is 'job'"
+    },
+    "company": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Company or organizer name"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Job title, hackathon name, or event name"
+    },
+    "location": {
+      "type": "string",
+      "description": "Free-form location string; 'Various' or 'Global' when not a single place"
+    },
+    "level": {
+      "type": "string",
+      "enum": ["internship", "new_grad", "junior", "entry_level", "mid_level", "other"],
+      "description": "Career level detected from title. Only present when kind is 'job'"
+    },
+    "role_type": {
+      "type": "string",
+      "enum": ["full_stack", "backend", "frontend", "mobile", "platform", "infrastructure", "security", "machine_learning", "software_engineer", "other_swe"],
+      "description": "Engineering discipline detected from title. Only present when kind is 'job'"
+    },
+    "date": {
+      "type": "string",
+      "description": "Human-readable time-since-posting for jobs (e.g. '0d'), submission deadline for hackathons (e.g. '1 day left'), or '' for events. Free-form, not machine-parseable across kinds"
+    },
+    "posted_at": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Date this entry was posted or collected (YYYY-MM-DD)"
+    },
+    "url": {
+      "type": "string",
+      "description": "Link to the posting. Usually an absolute URL, but Luma events use a site-relative path (e.g. '/some-event?k=c')"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source ID, e.g. 'greenhouse:stripe', 'lever:acme', 'devpost', 'luma'"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Source API or website URL for attribution"
+    }
+  },
+  "additionalProperties": false
+}
