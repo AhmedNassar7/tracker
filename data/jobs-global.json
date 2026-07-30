@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T23:15:12Z",
+  "generated_at": "2026-07-30T00:12:50Z",
   "total": 163,
   "jobs": [
     {
@@ -936,26 +936,6 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5d1ecca6b6113aa7",
-      "company": "Instacart",
-      "title": "Software Engineer II, Technical Search Visibility",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Canada - Remote (ON, AB, BC, or NS Only)",
-      "remote_type": "remote",
-      "url": "https://instacart.careers/job/?gh_jid=7963661",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-29",
-      "age": "0d",
-      "collected_at": "2026-07-29T19:41:50Z",
       "tags": [
         "software",
         "programming",
@@ -2056,6 +2036,26 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5d1ecca6b6113aa7",
+      "company": "Instacart",
+      "title": "Software Engineer II, Technical Search Visibility",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=7963661",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-29",
+      "age": "0d",
+      "collected_at": "2026-07-29T19:41:50Z",
       "tags": [
         "software",
         "programming",
