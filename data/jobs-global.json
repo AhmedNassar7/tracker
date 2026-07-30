@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T06:40:34Z",
-  "total": 154,
+  "generated_at": "2026-07-30T09:40:45Z",
+  "total": 155,
   "jobs": [
     {
       "id": "b028d94f5b6a4176",
@@ -1003,6 +1003,26 @@
       ]
     },
     {
+      "id": "fd3e3a899cc79508",
+      "company": "JPMorgan Chase",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Chicago, IL, Unit...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210747513",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T09:40:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
       "title": "Junior to Intermediate Data Engineer",
@@ -1016,26 +1036,6 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T16:44:07Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "bba70718880d7063",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Arlington, Virginia",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Software-Engineer-II_R-278530",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-30",
-      "age": "0d",
-      "collected_at": "2026-07-30T06:40:34Z",
       "tags": [
         "software",
         "programming",
@@ -1091,11 +1091,11 @@
       "location": "Vancouver, Britis...",
       "remote_type": "onsite",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556866289",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-07-30",
       "age": "0d",
-      "collected_at": "2026-07-30T06:40:34Z",
+      "collected_at": "2026-07-30T09:40:45Z",
       "tags": [
         "software",
         "programming",
@@ -1116,6 +1116,26 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T09:40:45Z",
       "tags": [
         "software",
         "programming",
