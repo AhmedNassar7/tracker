@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T17:51:19Z",
-  "total": 158,
+  "generated_at": "2026-07-31T19:51:46Z",
+  "total": 159,
   "jobs": [
     {
       "id": "b028d94f5b6a4176",
@@ -883,6 +883,46 @@
       ]
     },
     {
+      "id": "6d38983388bb25d0",
+      "company": "Intel",
+      "title": "AI Software Engineer Graduate Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "Virtual US",
+      "remote_type": "onsite",
+      "url": "https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T19:51:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ad7ea2e6af5494ac",
+      "company": "Jane Street",
+      "title": "Campus Recruiter, Machine Learning an...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "New York, New Yor...",
+      "remote_type": "onsite",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8229056002?gh_jid=8229056002",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T19:51:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e589e3d72c5831dd",
       "company": "Jane Street",
       "title": "Data Engineer Intern",
@@ -1063,6 +1103,26 @@
       ]
     },
     {
+      "id": "3c8975ff30d16999",
+      "company": "Mastercard",
+      "title": "Data Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Data-Engineer-II_R-286580",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T19:51:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "489240d3c45499c4",
       "company": "Microsoft",
       "title": "Data Engineer II",
@@ -1071,11 +1131,11 @@
       "location": "Redmond, Washingt...",
       "remote_type": "onsite",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556945522",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-07-31",
       "age": "0d",
-      "collected_at": "2026-07-31T13:05:27Z",
+      "collected_at": "2026-07-31T19:51:46Z",
       "tags": [
         "software",
         "programming",
@@ -1216,46 +1276,6 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2a7af28867a8b788",
-      "company": "Okta",
-      "title": "Software Engineer II, Core Identity (...",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, Ontario,...",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8001096?gh_jid=8001096",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-07-30",
-      "age": "0d",
-      "collected_at": "2026-07-30T18:44:50Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "afb15b16c99cdaad",
-      "company": "Okta",
-      "title": "Software Engineer II, Core Identity (Auth0)",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, Ontario, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8001096?gh_jid=8001096",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-30",
-      "age": "0d",
-      "collected_at": "2026-07-30T22:18:56Z",
       "tags": [
         "software",
         "programming",
