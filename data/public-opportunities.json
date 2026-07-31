@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T19:54:02Z",
-  "total": 647,
+  "generated_at": "2026-07-31T21:23:40Z",
+  "total": 648,
   "jobs": [
     {
       "id": "fd00b287039ec937",
@@ -241,6 +241,62 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
+      "id": "030e09611f61541a",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Developer Engagement Lead - AI Coding Tools - MSDE",
+      "location": "Budapest, Hungary",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Budapest-Hungary/Developer-Engagement-Lead---AI-Coding-Tools---MSDE_PT-JR040909",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
+      "id": "341f9237de1f2cd5",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Developer Engagement Lead - AI Coding Tools - MSDE",
+      "location": "London, United Kingdom",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/Developer-Engagement-Lead---AI-Coding-Tools---MSDE_PT-JR040891",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
+      "id": "31ec65dc85e28330",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Lead Software Engineer - Vice President",
+      "location": "Bengaluru, India",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Bengaluru-India/Lead-Software-Engineer---Vice-President_PT-JR041616-2",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
+      "id": "28fdf90fc2c085d8",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Senior Software Engineer (Java/Scala)",
+      "location": "Budapest, Hungary",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Budapest-Hungary/Senior-Software-Engineer_PT-JR039312",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
       "id": "17e6672fdae10227",
       "kind": "job",
       "company": "NVIDIA",
@@ -283,6 +339,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "a98aaffd0e31c3bb",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Deep Learning Infrastructure Engineer",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, Remote</details>",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Deep-Learning-Infrastructure-Engineer_JR2011068",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "9ff97a0a3c3944d0",
       "kind": "job",
       "company": "NVIDIA",
@@ -311,6 +381,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "c44c66f7fa554bf5",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "other",
+      "role_type": "full_stack",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "5fccb036a9bf2a62",
       "kind": "job",
       "company": "NVIDIA",
@@ -325,6 +409,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "1b431839b721aced",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Platform Telemetry Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "other",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Telemetry-Engineer_JR2002276",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "89c12652afdf6d81",
       "kind": "job",
       "company": "NVIDIA",
@@ -335,6 +433,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Manufacturing-and-Factory_JR2020348-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "d4b18ea2b1e5e0f9",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer - Server Manageability",
+      "location": "<details><summary><strong>6 locations</strong></summary>US, CA, Remote<br>US, TX, Austin<br>US, CO, Remote<br>US, WA, Remote<br>US, CA, Santa Clara<br>US, MA, Remote</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer---Server-Manageability_JR2015959",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -437,6 +549,20 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "9f4e854c859b69f5",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer, Cloud Infrastructure and Development",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Cloud-Infrastructure-and-Development_JR2013426",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "ac955a1fe183a901",
       "kind": "job",
       "company": "NVIDIA",
@@ -447,6 +573,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Software-Engineer--OpenShell_JR2020825",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "8bf8a0fe75b11237",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "System Software Engineer - GPU and SOC",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, WA, Redmond</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---GPU-and-SOC_JR2015886",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -661,48 +801,6 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
-      "id": "6c1765f9c71eb2d7",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "DevOps Engineer",
-      "location": "Israel, Raanana",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/DevOps-Engineer_JR2008768",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "763d89ee53cce07f",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Principal Platform Software Engineer - RAS",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/XMLNAME--Principal-Platform-Software-Engineer---RAS_JR2011909",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "b055cf9de6740369",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Firmware Engineer - Development, Verification and Infrastructure",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Firmware-Engineer_JR2007787",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "9286ed73e4d9fd4d",
       "kind": "job",
       "company": "NVIDIA",
@@ -713,48 +811,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Senior-Full-Stack-Software-Engineer---DGX-Cloud_JR2021832",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "40918f8191b8b6d3",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Linux Kernel Systems Software Engineer – CSP Engagements",
-      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, WA, Redmond<br>US, WA, Seattle</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "ce8f4252148fa9c3",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Platform Engineer, Network Infrastructure - DGX Cloud",
-      "location": "<details><summary><strong>6 locations</strong></summary>US, CA, Santa Clara<br>US, IL, Remote<br>US, WA, Remote<br>US, Remote<br>US, CA, Remote<br>US, MA, Remote</details>",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "0de9814edb00c6c5",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, Cloud-Native Stack – CSP Engagements",
-      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, Remote<br>US, WA, Redmond<br>US, WA, Seattle</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud-Native-Stack---CSP-Engagements_JR2001098",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -815,20 +871,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "d830cc0b1c6d6669",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer Platform - OpenBMC",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "level": "other",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer-Platform---OpenBMC_JR1999525",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "27a442b669ef2a45",
       "kind": "job",
       "company": "NVIDIA",
@@ -853,20 +895,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--CUDA-Driver-for-Windows_JR2022474",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "a1cd3bf8796f468f",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Systems Software Engineer - NVIDIA Cloud Functions",
-      "location": "India, Bengaluru",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Systems-Software-Engineer---NVIDIA-Cloud-Functions_JR2022322",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -955,60 +983,18 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
-      "id": "4bde549cf58365e4",
+      "id": "ea86c5813b575e6b",
       "kind": "job",
-      "company": "Intel",
-      "title": "Development Tools Software Engineer",
-      "location": "US, California, Santa Clara",
+      "company": "Morgan Stanley",
+      "title": "Lead Site Reliability Engineer, Vice President",
+      "location": "New York, New York, United States of America",
       "level": "other",
-      "role_type": "software_engineer",
+      "role_type": "infrastructure",
       "date": "2d",
       "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Development-Tools-Software-Engineer_JR0285054",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs"
-    },
-    {
-      "id": "725588d9657e7fea",
-      "kind": "job",
-      "company": "Intel",
-      "title": "System Software Engineer",
-      "location": "US, Oregon, Hillsboro",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/System-Software-Engineer_JR0285048",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs"
-    },
-    {
-      "id": "86dd34f491346919",
-      "kind": "job",
-      "company": "Intel",
-      "title": "System Software Engineer",
-      "location": "US, Arizona, Phoenix",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/System-Software-Engineer_JR0285035-1",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs"
-    },
-    {
-      "id": "1ffbe4a1a7e4489f",
-      "kind": "job",
-      "company": "Intel",
-      "title": "System Software Engineer",
-      "location": "US, Arizona, Phoenix",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/System-Software-Engineer_JR0285033",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs"
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Lead-Site-Reliability-Engineer--VP--P5_PT-JR031661",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "3f4eecb7a0fbb532",
@@ -1893,20 +1879,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
-      "id": "e2cff3074eafc6cf",
-      "kind": "job",
-      "company": "Intel",
-      "title": "Senior AI Software Engineer - Neuromorphic Computing",
-      "location": "<details><summary><strong>3 locations</strong></summary>US, Oregon, Hillsboro<br>US, California, Santa Clara<br>US, Texas, Austin</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "17d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Senior-AI-Software-Engineer---Neuromorphic-Computing_JR0282751",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs"
-    },
-    {
       "id": "277be340e64e288a",
       "kind": "job",
       "company": "Notion",
@@ -2227,20 +2199,6 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8038898?gh_jid=8038898",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
-    {
-      "id": "eab2bb3f3ce58c85",
-      "kind": "job",
-      "company": "Intel",
-      "title": "Hardware Platform Applications Engineer - Military & Aerospace",
-      "location": "<details><summary><strong>4 locations</strong></summary>US, Arizona, Phoenix<br>US, Oregon, Hillsboro<br>US, California, Folsom<br>US, California, Santa Clara</details>",
-      "level": "other",
-      "role_type": "platform",
-      "date": "30d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs"
     },
     {
       "id": "c574860b82aa3d18",
@@ -8265,6 +8223,18 @@
   ],
   "hackathons": [
     {
+      "id": "78d02a8f68fa1b72",
+      "kind": "hackathon",
+      "company": "AceSAT",
+      "title": "AceSAT Education AI-Agent",
+      "location": "Online",
+      "date": "15 days left",
+      "posted_at": "2026-07-31",
+      "url": "https://acesat-ai-agent.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -8289,6 +8259,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "f868559e521b0d53",
+      "kind": "hackathon",
+      "company": "arm",
+      "title": "Arm Create: AI Optimization Challenge",
+      "location": "Online",
+      "date": "14 days left",
+      "posted_at": "2026-07-31",
+      "url": "https://arm-ai-optimization-challenge.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "b0e0865e822e55ce",
       "kind": "hackathon",
       "company": "Backblaze",
@@ -8297,6 +8279,18 @@
       "date": "3 days left",
       "posted_at": "2026-07-31",
       "url": "https://backblaze-generative-media.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "7222a45e1853fc20",
+      "kind": "hackathon",
+      "company": "BASK",
+      "title": "BASK(Business Achievement Spotlight for Kids) Monthly Pitch Competition",
+      "location": "Online",
+      "date": "about 7 hours left",
+      "posted_at": "2026-07-31",
+      "url": "https://baskchallenge.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8325,18 +8319,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "c5a559f96054b38c",
-      "kind": "hackathon",
-      "company": "Blueprint Hackathon",
-      "title": "The Blueprint Hackathon (For All Ages, July 17th-31st)",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-31",
-      "url": "https://the-blueprint-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "1c3c40ba79d910c1",
       "kind": "hackathon",
       "company": "BuildBeyond",
@@ -8349,24 +8331,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "634685d972b9fe92",
-      "kind": "hackathon",
-      "company": "BuildBeyond",
-      "title": "IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities",
-      "location": "ICPAC",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-31",
-      "url": "https://igad-husika-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "2d4c73d14fe4177b",
       "kind": "hackathon",
       "company": "CAHSI at FIU",
       "title": "305 SummerCodex Edition July 2026",
       "location": "Online",
-      "date": "about 10 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-07-31",
       "url": "https://305summercodexjul2026.devpost.com/",
       "source": "devpost",
@@ -8481,6 +8451,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "f18e793dcb9bdfe1",
+      "kind": "hackathon",
+      "company": "Hack the Arts",
+      "title": "Hack the Arts",
+      "location": "Online",
+      "date": "1 day left",
+      "posted_at": "2026-07-31",
+      "url": "https://hackthearts.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "ee12e4874858de50",
       "kind": "hackathon",
       "company": "hackhere",
@@ -8561,18 +8543,6 @@
       "date": "about 2 months left",
       "posted_at": "2026-07-31",
       "url": "https://gibc-v2.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "2534fca085bdeebb",
-      "kind": "hackathon",
-      "company": "Kuki Designed group",
-      "title": "Kuki Designed group",
-      "location": "Ethiopia",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-31",
-      "url": "https://kuki-designed-group.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8793,18 +8763,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "338e421712fb8f83",
-      "kind": "hackathon",
-      "company": "TechElevate",
-      "title": "Sound for All",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-07-31",
-      "url": "https://sound-for-all.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "ec498e66d3a7fca8",
       "kind": "hackathon",
       "company": "TechieBunnies team",
@@ -8834,7 +8792,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-07-31",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8846,7 +8804,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Summer Impactathon",
       "location": "Online",
-      "date": "10 days left",
+      "date": "9 days left",
       "posted_at": "2026-07-31",
       "url": "https://csc-summer-impactathon.devpost.com/",
       "source": "devpost",
@@ -8870,7 +8828,7 @@
       "company": "UNSW AISOC",
       "title": "The Atlassian X Mistral X AISoc Hack",
       "location": "Kensington, Australia",
-      "date": "about 7 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-07-31",
       "url": "https://aisoc-atlassian-mistral.devpost.com/",
       "source": "devpost",
@@ -8915,6 +8873,30 @@
   ],
   "events": [
     {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-31",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-31",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8939,6 +8921,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-31",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8947,6 +8941,18 @@
       "date": "",
       "posted_at": "2026-07-31",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-07-31",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
