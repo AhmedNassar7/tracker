@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T21:21:09Z",
-  "total": 157,
+  "generated_at": "2026-07-31T23:15:13Z",
+  "total": 158,
   "jobs": [
     {
       "id": "b028d94f5b6a4176",
@@ -36,6 +36,26 @@
       "posted_at": "2026-07-30",
       "age": "0d",
       "collected_at": "2026-07-30T20:34:19Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "534b429f18cdf19d",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer II, NAST CX Tech",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Bellevue, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489805/data-engineer-ii-nast-cx-tech",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T23:15:13Z",
       "tags": [
         "software",
         "programming",
@@ -131,11 +151,11 @@
       "location": "Seattle, Washington",
       "remote_type": "onsite",
       "url": "https://joinbytedance.com/search/7535951608832657682",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-21",
-      "age": "Recently",
-      "collected_at": "2026-07-21T22:11:59Z",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T23:15:13Z",
       "tags": [
         "software",
         "programming",
@@ -591,11 +611,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254/application",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-07-31",
       "age": "0d",
-      "collected_at": "2026-07-31T21:21:09Z",
+      "collected_at": "2026-07-31T23:15:13Z",
       "tags": [
         "software",
         "programming",
@@ -883,6 +903,26 @@
       ]
     },
     {
+      "id": "ad7ea2e6af5494ac",
+      "company": "Jane Street",
+      "title": "Campus Recruiter, Machine Learning an...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "New York, New Yor...",
+      "remote_type": "onsite",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8229056002?gh_jid=8229056002",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T23:15:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e589e3d72c5831dd",
       "company": "Jane Street",
       "title": "Data Engineer Intern",
@@ -1043,19 +1083,19 @@
       ]
     },
     {
-      "id": "3c8975ff30d16999",
-      "company": "Mastercard",
-      "title": "Data Engineer II",
+      "id": "35d0bd20fa4d05a3",
+      "company": "Microsoft",
+      "title": "Back-End Software Engineer II",
       "level": "mid_level",
       "country": "Unknown",
-      "location": "O'Fallon, Missouri",
+      "location": "Redmond, Washingt...",
       "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Data-Engineer-II_R-286580",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556859034",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-07-31",
       "age": "0d",
-      "collected_at": "2026-07-31T19:51:46Z",
+      "collected_at": "2026-07-31T23:15:13Z",
       "tags": [
         "software",
         "programming",
@@ -1083,19 +1123,19 @@
       ]
     },
     {
-      "id": "1fabda86e2644ab0",
+      "id": "37a5726efab32747",
       "company": "Microsoft",
       "title": "Software Engineer II",
       "level": "mid_level",
       "country": "Unknown",
       "location": "Redmond, Washingt...",
       "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556945414",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556945356",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-07-31",
       "age": "0d",
-      "collected_at": "2026-07-31T15:28:45Z",
+      "collected_at": "2026-07-31T23:15:13Z",
       "tags": [
         "software",
         "programming",
@@ -2483,26 +2523,6 @@
       ]
     },
     {
-      "id": "39170ffa9c9e83ca",
-      "company": "Hudson River Trading",
-      "title": "Software Engineer Intern - C++ or Python",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX Chicago, IL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-30",
-      "age": "16d",
-      "collected_at": "2026-07-30T03:30:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7c5e419f14edb6b5",
       "company": "Hudson River Trading",
       "title": "Software Engineering Internship - C++ or Python - Summer 2027",
@@ -2536,6 +2556,26 @@
       "posted_at": "2026-07-17",
       "age": "3d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "39170ffa9c9e83ca",
+      "company": "Hudson River Trading",
+      "title": "Software Engineer Intern - C++ or Python",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX Chicago, IL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-30",
+      "age": "16d",
+      "collected_at": "2026-07-30T03:30:30Z",
       "tags": [
         "software",
         "programming",
@@ -2643,26 +2683,6 @@
       ]
     },
     {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "8d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a2074999bf3dbf58",
       "company": "Citadel",
       "title": "Software Engineer – University Graduate",
@@ -2675,6 +2695,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
@@ -2816,26 +2856,6 @@
       "posted_at": "2026-07-15",
       "age": "28d",
       "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-31",
-      "age": "1mo",
-      "collected_at": "2026-07-31T15:28:45Z",
       "tags": [
         "software",
         "programming",
