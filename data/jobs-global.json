@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T15:28:45Z",
-  "total": 157,
+  "generated_at": "2026-07-31T17:51:19Z",
+  "total": 158,
   "jobs": [
     {
       "id": "b028d94f5b6a4176",
@@ -36,26 +36,6 @@
       "posted_at": "2026-07-30",
       "age": "0d",
       "collected_at": "2026-07-30T20:34:19Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ba5c250781904d04",
-      "company": "Amazon.com Services LLC",
-      "title": "Security Engineer II, Security Incide...",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10481118/security-engineer-ii-security-incident-response-team-sirt",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-07-30",
-      "age": "0d",
-      "collected_at": "2026-07-30T22:18:56Z",
       "tags": [
         "software",
         "programming",
@@ -683,6 +663,46 @@
       ]
     },
     {
+      "id": "c2294a5eb85d645e",
+      "company": "Elastic",
+      "title": "Fullstack Software Engineer II - Admi...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8077634&gh_jid=8077634",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T17:51:19Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "907645706f2a9552",
+      "company": "Elastic",
+      "title": "Fullstack Software Engineer II - Admin UX - Platform Applications",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8077634&gh_jid=8077634",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T17:51:19Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "df8b2d6a41f60490",
       "company": "Elastic Path",
       "title": "Junior DevOps Engineer",
@@ -863,26 +883,6 @@
       ]
     },
     {
-      "id": "ad7ea2e6af5494ac",
-      "company": "Jane Street",
-      "title": "Campus Recruiter, Machine Learning an...",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "New York, New Yor...",
-      "remote_type": "onsite",
-      "url": "https://www.janestreet.com/join-jane-street/apply/8229056002?gh_jid=8229056002",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-07-31",
-      "age": "0d",
-      "collected_at": "2026-07-31T13:05:27Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e589e3d72c5831dd",
       "company": "Jane Street",
       "title": "Data Engineer Intern",
@@ -1016,6 +1016,26 @@
       "posted_at": "2026-07-31",
       "age": "0d",
       "collected_at": "2026-07-31T15:28:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "be5641cedbf2efb3",
+      "company": "JPMorganChase",
+      "title": "Site Reliability Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "MH, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=d56e585b4e6af31f",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T17:51:19Z",
       "tags": [
         "software",
         "programming",
@@ -1223,6 +1243,26 @@
       ]
     },
     {
+      "id": "afb15b16c99cdaad",
+      "company": "Okta",
+      "title": "Software Engineer II, Core Identity (Auth0)",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, Ontario, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/8001096?gh_jid=8001096",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T22:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "9cf273c5da4b1510",
       "company": "Okta",
       "title": "Software Engineer II, Security Engine...",
@@ -1236,6 +1276,26 @@
       "posted_at": "2026-07-30",
       "age": "0d",
       "collected_at": "2026-07-30T18:44:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "cc9259f9d30e250c",
+      "company": "Okta",
+      "title": "Software Engineer II, Security Engineering (Auth0)",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, Ontario, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-30",
+      "age": "0d",
+      "collected_at": "2026-07-30T22:18:56Z",
       "tags": [
         "software",
         "programming",
@@ -1443,19 +1503,19 @@
       ]
     },
     {
-      "id": "c2d2ce0632062e97",
+      "id": "373ebba468ac25c1",
       "company": "Palantir",
-      "title": "Software Engineer – New Grad",
+      "title": "Software Engineer New Grad - Infrastructure",
       "level": "new_grad",
       "country": "United Kingdom",
       "location": "London, UK",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/d372c805-d0cd-4a10-9522-fbecc78d6f3e/apply?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.lever.co/palantir/9265acce-12cd-4179-8c50-55d15963532b/apply?utm_source=Simplify&ref=Simplify",
       "source": "simplify_newgrad",
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-31",
       "age": "0d",
-      "collected_at": "2026-07-31T15:28:45Z",
+      "collected_at": "2026-07-31T17:51:19Z",
       "tags": [
         "software",
         "programming",
@@ -2016,46 +2076,6 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "afb15b16c99cdaad",
-      "company": "Okta",
-      "title": "Software Engineer II, Core Identity (Auth0)",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, Ontario, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8001096?gh_jid=8001096",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-30",
-      "age": "0d",
-      "collected_at": "2026-07-30T22:18:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "cc9259f9d30e250c",
-      "company": "Okta",
-      "title": "Software Engineer II, Security Engineering (Auth0)",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, Ontario, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-30",
-      "age": "0d",
-      "collected_at": "2026-07-30T22:18:56Z",
       "tags": [
         "software",
         "programming",
