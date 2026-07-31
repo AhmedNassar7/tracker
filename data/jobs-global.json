@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T19:51:46Z",
-  "total": 159,
+  "generated_at": "2026-07-31T21:21:09Z",
+  "total": 157,
   "jobs": [
     {
       "id": "b028d94f5b6a4176",
@@ -591,11 +591,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254/application",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-07-31",
       "age": "0d",
-      "collected_at": "2026-07-31T10:50:11Z",
+      "collected_at": "2026-07-31T21:21:09Z",
       "tags": [
         "software",
         "programming",
@@ -883,46 +883,6 @@
       ]
     },
     {
-      "id": "6d38983388bb25d0",
-      "company": "Intel",
-      "title": "AI Software Engineer Graduate Intern",
-      "level": "internship",
-      "country": "United States",
-      "location": "Virtual US",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-31",
-      "age": "0d",
-      "collected_at": "2026-07-31T19:51:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ad7ea2e6af5494ac",
-      "company": "Jane Street",
-      "title": "Campus Recruiter, Machine Learning an...",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "New York, New Yor...",
-      "remote_type": "onsite",
-      "url": "https://www.janestreet.com/join-jane-street/apply/8229056002?gh_jid=8229056002",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-07-31",
-      "age": "0d",
-      "collected_at": "2026-07-31T19:51:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e589e3d72c5831dd",
       "company": "Jane Street",
       "title": "Data Engineer Intern",
@@ -1011,26 +971,6 @@
       "location": "Westerville, OH, ...",
       "remote_type": "onsite",
       "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210746522",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-07-31",
-      "age": "0d",
-      "collected_at": "2026-07-31T15:28:45Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "fc89dbbc38696152",
-      "company": "JPMorgan Chase",
-      "title": "Software Engineer II - Java, AWS, AI",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Charlotte, NC, Un...",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210739664",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-07-31",
@@ -1216,6 +1156,26 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T21:21:09Z",
       "tags": [
         "software",
         "programming",
