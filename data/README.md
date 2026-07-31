@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 495 |
+| Jobs | 488 |
 | Hackathons | 54 |
-| Events | 3 |
-| Total | 552 |
+| Events | 7 |
+| Total | 549 |
 
 ## Jobs
 
-[![Jobs 495](https://img.shields.io/badge/Jobs-495-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 65](https://img.shields.io/badge/Internship-65-22c55e.svg)](#internship) [![Early Career 75](https://img.shields.io/badge/Early%20Career-75-0ea5e9.svg)](#early-career) [![Mid-Level and Above 355](https://img.shields.io/badge/Mid--Level%20and%20Above-355-dc2626.svg)](#mid-level-and-above)
+[![Jobs 488](https://img.shields.io/badge/Jobs-488-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 65](https://img.shields.io/badge/Internship-65-22c55e.svg)](#internship) [![Early Career 75](https://img.shields.io/badge/Early%20Career-75-0ea5e9.svg)](#early-career) [![Mid-Level and Above 348](https://img.shields.io/badge/Mid--Level%20and%20Above-348-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -192,7 +192,7 @@ Total roles: 75
 
 ### Mid-Level and Above
 
-Total roles: 355
+Total roles: 348
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -250,12 +250,8 @@ Total roles: 355
 | Cloudflare | [Software Engineer, Cloudflare Network Interconnect](https://boards.greenhouse.io/cloudflare/jobs/8088751?gh_jid=8088751) | Hybrid | 2d |
 | NVIDIA | [Senior Data Center Infrastructure Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Data-Center-Infrastructure-Engineer_JR2015093-1) | <details><summary>4 locations</summary>US, CA<br>Remote, US<br>TX<br>Remote, US<br>NY<br>Remote, US<br>WA<br>Remote</details> | 2d |
 | NVIDIA | [Senior Software Engineer - CUDA Driver](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---CUDA-Driver_JR2014725) | US, CA, Santa Clara | 2d |
-| NVIDIA | [Senior Software Engineer - Datacenter Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Datacenter-Systems_JR2017468) | <details><summary>3 locations</summary>US, CA<br>Santa Clara, US<br>CA<br>Remote, US<br>AZ<br>Remote</details> | 2d |
-| NVIDIA | [Senior Software Engineer – TensorRT Edge-LLM](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---TensorRT-Edge-LLM_JR2012868) | <details><summary>3 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>CA<br>Remote</details> | 2d |
 | NVIDIA | [Senior Storage Software Engineer - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer---DGX-Cloud_JR2022385) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 2d |
-| NVIDIA | [Senior System Software Engineer, AV Platform - Test Platform Infrastructure, Tools and Simulation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--AV-Platform---Test-Platform-Infrastructure--Tools-and-Simulation_JR2022283) | US, CA, Santa Clara | 2d |
 | NVIDIA | [Software Engineer, CAD Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--CAD-Automation_JR2019252) | US, CA, Santa Clara | 2d |
-| NVIDIA | [Software Engineering Manager - GPU Communications Libraries](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Manager---GPU-Communications-Libraries_JR1980109) | US, CA, Santa Clara | 2d |
 | Openai | [Software Engineer, Enterprise Verticals](https://jobs.ashbyhq.com/openai/3229b152-015f-49ad-9921-9c9de95570c8) | San Francisco | 2d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 2d |
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 2d |
@@ -304,9 +300,6 @@ Total roles: 355
 | Palantir | [Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/d40d5d19-8f9e-4e6b-b4d3-b7457c90adec) | Washington, D.C. | 9d |
 | Palantir | [Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/d7030550-f80f-422c-965f-3120db433dea) | Palo Alto, CA | 9d |
 | Palantir | [Software Engineer - Edge AI Systems](https://jobs.lever.co/palantir/67110929-adea-41c3-851a-8882e222d9e4) | Seattle, WA | 9d |
-| Wise | [Senior Fullstack Engineer - Customer Risk Assessment](https://jobs.smartrecruiters.com/Wise/744000139112495) | Budapest, Hungary | 9d |
-| Wise | [Senior iOS Engineer – Send Experience](https://jobs.smartrecruiters.com/Wise/744000139108560) | London, United Kingdom | 9d |
-| Wise | [Senior Software Engineer I - Servicing Platform](https://jobs.smartrecruiters.com/Wise/744000139108668) | London, United Kingdom | 9d |
 | Cohere | [Engineering Manager, GPU Infrastructure](https://jobs.ashbyhq.com/cohere/28239d75-5dd9-41fb-ba43-cb08b491be2b) | United States | 10d |
 | Openai | [Product Engineer, Enterprise AI Platform](https://jobs.ashbyhq.com/openai/aeeabb7a-f6e0-4e8d-a9ad-ae3464288125) | San Francisco | 10d |
 | Openai | [Software Engineer, Ads Integrity](https://jobs.ashbyhq.com/openai/596e543a-0ab9-471e-a1ff-40fd55c74fce) | San Francisco | 10d |
@@ -615,13 +608,17 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 3
+Total events: 7
 
 | Organizer | Event |
 |---|---|
+| Luma | [Follow [SF]](https://lu.ma/sf-builders-collective?k=c) |
+| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 
 ## Source Files
 

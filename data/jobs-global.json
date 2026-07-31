@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:09:37Z",
+  "generated_at": "2026-07-31T10:50:11Z",
   "total": 152,
   "jobs": [
     {
@@ -611,11 +611,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254/application",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-07-31",
       "age": "0d",
-      "collected_at": "2026-07-31T08:09:37Z",
+      "collected_at": "2026-07-31T10:50:11Z",
       "tags": [
         "software",
         "programming",
