@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 498 |
+| Jobs | 500 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 555 |
+| Total | 557 |
 
 ## Jobs
 
-[![Jobs 498](https://img.shields.io/badge/Jobs-498-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 64](https://img.shields.io/badge/Internship-64-22c55e.svg)](#internship) [![Early Career 78](https://img.shields.io/badge/Early%20Career-78-0ea5e9.svg)](#early-career) [![Mid-Level and Above 356](https://img.shields.io/badge/Mid--Level%20and%20Above-356-dc2626.svg)](#mid-level-and-above)
+[![Jobs 500](https://img.shields.io/badge/Jobs-500-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 64](https://img.shields.io/badge/Internship-64-22c55e.svg)](#internship) [![Early Career 77](https://img.shields.io/badge/Early%20Career-77-0ea5e9.svg)](#early-career) [![Mid-Level and Above 359](https://img.shields.io/badge/Mid--Level%20and%20Above-359-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -109,7 +109,7 @@ Total roles: 64
 
 ### Early Career
 
-Total roles: 78
+Total roles: 77
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -141,7 +141,6 @@ Total roles: 78
 | Google | [software engineer, ai/ml, phd, early career](https://www.linkedin.com/jobs/view/4369576892) | london, england, united kingdom | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
 | IBM | [Associate Cloud Engineer (September 2026 - Calgary)](https://ca.linkedin.com/jobs/view/associate-cloud-engineer-september-2026-calgary-at-ibm-4433150025) | Calgary, Alberta (Remote) | 0d |
-| Jane Street | [Campus Recruiter, Machine Learning an...](https://www.janestreet.com/join-jane-street/apply/8229056002?gh_jid=8229056002) | New York, New Yor... | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
 | Mistral | [software engineer, new grad](https://www.linkedin.com/jobs/view/4439093092) | paris, île-de-france, france | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
@@ -155,7 +154,7 @@ Total roles: 78
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79?utm_source=vansh) | Washington, DC | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3?utm_source=vansh) | Palo Alto, CA | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh) | New York, NY | 0d |
-| Palantir | [Software Engineer – New Grad](https://jobs.lever.co/palantir/d372c805-d0cd-4a10-9522-fbecc78d6f3e/apply?utm_source=Simplify&ref=Simplify) | London, UK | 0d |
+| Palantir | [Software Engineer New Grad - Infrastructure](https://jobs.lever.co/palantir/9265acce-12cd-4179-8c50-55d15963532b/apply?utm_source=Simplify&ref=Simplify) | London, UK | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908747686?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908696559?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | Roblox | [New Grad 2025: Software Engineer, Game Solutions Engineering](https://careers.roblox.com/jobs/6749070?utm_source=vansh) | San Mateo, CA | 0d |
@@ -194,18 +193,21 @@ Total roles: 78
 
 ### Mid-Level and Above
 
-Total roles: 356
+Total roles: 359
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Amazon Web Services, Inc. | [Data Engineer II, AWS Marketplace and...](https://www.amazon.jobs/en/jobs/10481199/data-engineer-ii-aws-marketplace-and-partner-services) | Seattle, WA | 0d |
 | Amazon.com Services LLC | [Data Engineer II, Business Data Techn...](https://www.amazon.jobs/en/jobs/10488675/data-engineer-ii-business-data-technologies) | Seattle, WA | 0d |
-| Amazon.com Services LLC | [Security Engineer II, Security Incide...](https://www.amazon.jobs/en/jobs/10481118/security-engineer-ii-security-incident-response-team-sirt) | Seattle, WA | 0d |
 | Amazon.com Services LLC - A57 | [Data Engineer II - AMZ9956938](https://www.amazon.jobs/en/jobs/10488510/data-engineer-ii-amz9956938) | New York, NY | 0d |
+| Cloudflare | [Software Engineer, Cloudflare Network Interconnect](https://boards.greenhouse.io/cloudflare/jobs/8088751?gh_jid=8088751) | Hybrid | 0d |
+| Elastic | [Fullstack Software Engineer II - Admi...](https://jobs.elastic.co/jobs?gh_jid=8077634&gh_jid=8077634) | United States | 0d |
+| Elastic | [Fullstack Software Engineer II - Admin UX - Platform Applications](https://jobs.elastic.co/jobs?gh_jid=8077634&gh_jid=8077634) | United States | 0d |
 | Instacart | [Software Engineer II, Technical Searc...](https://instacart.careers/job/?gh_jid=7963661) | Remote (ON, AB, B... | 0d |
 | JPMorgan Chase | [Software Engineer II (Java/FullStack/...](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210746522) | Westerville, OH, ... | 0d |
 | JPMorgan Chase | [Software Engineer II - Java, AWS, AI](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210739664) | Charlotte, NC, Un... | 0d |
 | JPMorgan Chase | [Software Engineer II - Java/ React](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210753488) | Columbus, OH, Uni... | 0d |
+| JPMorganChase | [Site Reliability Engineer II](https://in.indeed.com/viewjob?jk=d56e585b4e6af31f) | MH, IN | 0d |
 | Microsoft | [Data Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556945522) | Redmond, Washingt... | 0d |
 | Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556945414) | Redmond, Washingt... | 0d |
 | Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556943321) | Vancouver, Britis... | 0d |
@@ -217,10 +219,13 @@ Total roles: 356
 | NVIDIA | [Senior Embedded System Software Engineer - Hypervisor and Visualization](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-Embedded-System-Software-Engineer---Hypervisor-and-Visualization_JR2022307) | Taiwan, Taipei | 0d |
 | NVIDIA | [Senior GPU System Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-GPU-System-Software-Engineer_JR2020254) | India, Bengaluru | 0d |
 | NVIDIA | [Senior Software Engineer - Manufacturing and Factory](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Manufacturing-and-Factory_JR2020348-1) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>Remote, US<br>NC<br>Durham, US<br>WA<br>Redmond</details> | 0d |
+| NVIDIA | [Senior Software Engineer, AV Infra](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--AV-Infra_JR2022340) | China, Shanghai | 0d |
+| NVIDIA | [Senior Software Engineer, Infrastructure Automation and Distributed Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-SC-Remote/Senior-Software-Engineer--Infrastructure-Automation-and-Distributed-Systems_JR2014877) | <details><summary>5 locations</summary>US, SC<br>Remote, US<br>MA<br>Westford, US<br>TX<br>Austin, US<br>NC<br>Durham, US<br>CA<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer, NCCL](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior System Software Engineer - CPU SoC Boot Firmware](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---CPU-SoC-Boot-Firmware_JR2022325-1) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>CO<br>Boulder</details> | 0d |
 | NVIDIA | [Senior System Software Engineer - GPU Performance](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Senior System Software Engineer - Video](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR2021723) | <details><summary>3 locations</summary>India<br>Pune<br>India<br>Hyderabad<br>India<br>Bengaluru</details> | 0d |
+| NVIDIA | [Software Engineer, OpenShell](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Software-Engineer--OpenShell_JR2020825) | US, Remote | 0d |
 | Okta | [Software Engineer II, Core Identity (...](https://www.okta.com/company/careers/opportunity/8001096?gh_jid=8001096) | Toronto, Ontario,... | 0d |
 | Okta | [Software Engineer II, Core Identity (Auth0)](https://www.okta.com/company/careers/opportunity/8001096?gh_jid=8001096) | Toronto, Ontario, Canada | 0d |
 | Okta | [Software Engineer II, Security Engine...](https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538) | Toronto, Ontario,... | 0d |
@@ -259,8 +264,6 @@ Total roles: 356
 | Wise | [Senior iOS Engineer II - Account Mobile](https://jobs.smartrecruiters.com/Wise/744000140694919) | London, United Kingdom | 1d |
 | Wise | [Senior Software Engineer II - Data Onboarding & Reporting](https://jobs.smartrecruiters.com/Wise/744000140680320) | London, England, United Kingdom | 1d |
 | Cloudflare | [Principal Engineer - GTM Data Platform](https://boards.greenhouse.io/cloudflare/jobs/8054669?gh_jid=8054669) | Hybrid | 2d |
-| Cloudflare | [Software Engineer, Cloudflare Network Interconnect](https://boards.greenhouse.io/cloudflare/jobs/8088751?gh_jid=8088751) | Hybrid | 2d |
-| NVIDIA | [Senior Data Center Infrastructure Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Data-Center-Infrastructure-Engineer_JR2015093-1) | <details><summary>4 locations</summary>US, CA<br>Remote, US<br>TX<br>Remote, US<br>NY<br>Remote, US<br>WA<br>Remote</details> | 2d |
 | NVIDIA | [Senior Software Engineer - CUDA Driver](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---CUDA-Driver_JR2014725) | US, CA, Santa Clara | 2d |
 | Openai | [Software Engineer, Enterprise Verticals](https://jobs.ashbyhq.com/openai/3229b152-015f-49ad-9921-9c9de95570c8) | San Francisco | 2d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 2d |
@@ -395,7 +398,6 @@ Total roles: 356
 | Attio | [Senior Platform Engineer](https://jobs.ashbyhq.com/attio/c05a61a4-ae7c-4d93-a920-08d60c7448ad) | London | 1mo |
 | Attio | [Senior Platform Engineer](https://jobs.ashbyhq.com/attio/d973504f-6cdd-4eaa-912d-b8e8dc8703d9) | Poland | 1mo |
 | Openai | [Software Engineer, API Multicloud](https://jobs.ashbyhq.com/openai/4070d52e-0263-4cd5-9107-052b4ecc1209) | San Francisco | 1mo |
-| Plaid | [Staff Software Engineer - AI Integrations](https://jobs.ashbyhq.com/plaid/587c8950-65ad-4e65-89fb-803b9b8520c1) | New York City Office | 1mo |
 | Openai | [Full Stack Software Engineer, ChatGPT ImageGen](https://jobs.ashbyhq.com/openai/6b47238e-025a-4350-b270-2f3564002fcc) | San Francisco | 1mo |
 | Openai | [Software Engineer, Internal Applications - Enterprise](https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1) | San Francisco | 1mo |
 | Openai | [Senior Manager, Technical Accounting, Compute Infrastructure](https://jobs.ashbyhq.com/openai/5c85c498-6459-4e4a-937c-6bc9150f743e) | San Francisco | 1mo |
@@ -561,6 +563,7 @@ Total hackathons: 54
 
 | Organizer | Hackathon |
 |---|---|
+| ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
 | Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
 | Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) |
@@ -578,7 +581,6 @@ Total hackathons: 54
 | GatewayGS | [GatewayGS & The AEI Initiative: AI 4 Earth Hackathon](https://gatewaygs-ai-4-earth-hackathon.devpost.com/) |
 | Girls In Stem MENA&Central Asia | [Girls In STEM Global Hackathon](https://girlsinstemhackathon.devpost.com/) |
 | Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) |
-| Hacker Fund | [Compton Tech Week Hackathon - S26](https://comptontechweeksummer26.devpost.com/) |
 | hackhere | [Nexora](https://nexora.devpost.com/) |
 | HackTheLimit | [Hack The Limit](https://hack-the-limit-1.devpost.com/) |
 | high school | [3D Websites Hackathon](https://3d-websites-hackathon.devpost.com/) |
@@ -599,6 +601,7 @@ Total hackathons: 54
 | Primus B School | [Vidhyarthi Sewa EduHack Karnataka 2026](https://vidhyarthi-sewa-eduhack.devpost.com/) |
 | Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
 | Resera | [RLC Hacks 2026](https://rlc-hacks-30705.devpost.com/) |
+| Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) |
 | SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
 | shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
 | STEMise | [DSH Pitch](https://dsh-pitch-30500.devpost.com/) |
@@ -608,7 +611,6 @@ Total hackathons: 54
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
 | Teclaws | [Neuu Hack DAy](https://neuu-hack-day.devpost.com/) |
 | Tecnoviz Dev Comm | [Technoviz Summer of Code](https://technoviz-summer-of-code.devpost.com/) |
-| Test Hackathon | [Developer Portal](https://developer-portal.devpost.com/) |
 | The Webb Schools CSC | [CSC Summer Impactathon](https://csc-summer-impactathon.devpost.com/) |
 | Trainzex AI | [Build With Gemini - Creation Code](https://creation-code-30750.devpost.com/) |
 | UNSW AISOC | [The Atlassian X Mistral X AISoc Hack](https://aisoc-atlassian-mistral.devpost.com/) |
