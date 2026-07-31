@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T10:50:11Z",
-  "total": 152,
+  "generated_at": "2026-07-31T13:05:27Z",
+  "total": 154,
   "jobs": [
     {
       "id": "b028d94f5b6a4176",
@@ -703,6 +703,26 @@
       ]
     },
     {
+      "id": "8d73c6793bf84312",
+      "company": "Google",
+      "title": "Cloud Engineer II, Networking, Profes...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/95418751217738438",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T13:05:27Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "028681d9b2d8b499",
       "company": "Google",
       "title": "New Grad 2026: Software Engineer",
@@ -863,6 +883,26 @@
       ]
     },
     {
+      "id": "ad7ea2e6af5494ac",
+      "company": "Jane Street",
+      "title": "Campus Recruiter, Machine Learning an...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "New York, New Yor...",
+      "remote_type": "onsite",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8229056002?gh_jid=8229056002",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T13:05:27Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e589e3d72c5831dd",
       "company": "Jane Street",
       "title": "Data Engineer Intern",
@@ -971,11 +1011,11 @@
       "location": "Redmond, Washingt...",
       "remote_type": "onsite",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556945522",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-07-30",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-31",
       "age": "0d",
-      "collected_at": "2026-07-30T22:18:56Z",
+      "collected_at": "2026-07-31T13:05:27Z",
       "tags": [
         "software",
         "programming",
@@ -1036,6 +1076,26 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-07-31",
+      "age": "0d",
+      "collected_at": "2026-07-31T13:05:27Z",
       "tags": [
         "software",
         "programming",
@@ -1916,26 +1976,6 @@
       "posted_at": "2026-07-30",
       "age": "0d",
       "collected_at": "2026-07-30T22:18:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5f5451c26478d899",
-      "company": "Mastercard",
-      "title": "Software Engineer II - Decision Management Program",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "O'Fallon, MO, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=b45e28be48fb61f0",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-30",
-      "age": "1d",
-      "collected_at": "2026-07-31T08:09:37Z",
       "tags": [
         "software",
         "programming",
