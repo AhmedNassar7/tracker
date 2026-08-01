@@ -532,7 +532,6 @@ Total hackathons: 54
 
 | Organizer | Hackathon |
 |---|---|
-| AceSAT | [AceSAT Education AI-Agent](https://acesat-ai-agent.devpost.com/) |
 | ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
 | Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
@@ -580,6 +579,7 @@ Total hackathons: 54
 | SVHEC | [NEXORA Global Hackathon](https://nexora-global-hackathon.devpost.com/) |
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
 | Teclaws | [Neuu Hack DAy](https://neuu-hack-day.devpost.com/) |
+| Tecnoviz Dev Comm | [Technoviz Summer of Code](https://technoviz-summer-of-code.devpost.com/) |
 | The Webb Schools CSC | [CSC Summer Impactathon](https://csc-summer-impactathon.devpost.com/) |
 | Trainzex AI | [Build With Gemini - Creation Code](https://creation-code-30750.devpost.com/) |
 | vitalitics | [Vitalitics 2026](https://vitalitics26.devpost.com/) |
