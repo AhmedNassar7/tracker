@@ -34,11 +34,11 @@ Every row links straight to the real application page. Click a title to apply �
 
 ## Jobs
 
-[![Jobs 469](https://img.shields.io/badge/Jobs-469-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 51](https://img.shields.io/badge/Internship-51-22c55e.svg)](#internship) [![Early Career 74](https://img.shields.io/badge/Early%20Career-74-0ea5e9.svg)](#early-career) [![Mid-Level and Above 344](https://img.shields.io/badge/Mid--Level%20and%20Above-344-dc2626.svg)](#mid-level-and-above)
+[![Jobs 469](https://img.shields.io/badge/Jobs-469-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 50](https://img.shields.io/badge/Internship-50-22c55e.svg)](#internship) [![Early Career 75](https://img.shields.io/badge/Early%20Career-75-0ea5e9.svg)](#early-career) [![Mid-Level and Above 344](https://img.shields.io/badge/Mid--Level%20and%20Above-344-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 51
+Total roles: 50
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -87,7 +87,6 @@ Total roles: 51
 | Palantir | [Forward Deployed Software Engineer, Internship](https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a) | Paris, France | 2mo |
 | Cohere | [Software Engineer Intern (Fall / Winter 2026)](https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254) | Canada | 3mo |
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019) | Washington, D.C. | 3mo |
-| Notion | [Software Engineer Intern - Fall 2026](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) | San Francisco, CA | 3mo |
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d) | New York, NY | 4mo |
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333) | New York, NY | 4mo |
 | Palantir | [Year at Palantir - Software Engineer, Internship](https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329) | New York, NY | 4mo |
@@ -96,7 +95,7 @@ Total roles: 51
 
 ### Early Career
 
-Total roles: 74
+Total roles: 75
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -128,6 +127,7 @@ Total roles: 74
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
 | IBM | [Associate Cloud Engineer (September 2026 - Calgary)](https://ca.linkedin.com/jobs/view/associate-cloud-engineer-september-2026-calgary-at-ibm-4433150025) | Calgary, Alberta (Remote) | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
+| Meta | [New Grad 2026: Product Security Engineer](https://www.metacareers.com/jobs/609052015548260?utm_source=vansh) | Bellevue, WA Menlo Park, CA | 0d |
 | Mistral | [software engineer, new grad](https://www.linkedin.com/jobs/view/4439093092) | paris, île-de-france, france | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
 | Notion | [Software Engineer, Fullstack, Early Career](https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b?utm_source=vansh) | San Francisco, CA New York, NY | 0d |
@@ -532,6 +532,7 @@ Total hackathons: 54
 
 | Organizer | Hackathon |
 |---|---|
+| AceSAT | [AceSAT Education AI-Agent](https://acesat-ai-agent.devpost.com/) |
 | ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
 | Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
@@ -557,7 +558,6 @@ Total hackathons: 54
 | International AI Youth Education Society | [AI YES :International Youth AI Competition](https://ai-yes-competition-30441.devpost.com/) |
 | Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
-| Major League Hacking | [MLH Hack Day @ Kristu Jayanti](https://mlhackday.devpost.com/) |
 | Microsoft Student Club - SCU | [Canal Startup Sprint Hackathon](https://canal-startup-sprint-hackathon.devpost.com/) |
 | Mid valley International College | [Build Nepal](https://buildnepal.devpost.com/) |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 2.0](https://ml-empowerment-2.devpost.com/) |

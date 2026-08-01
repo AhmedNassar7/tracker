@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T11:36:21Z",
+  "generated_at": "2026-08-01T13:55:36Z",
   "total": 620,
   "jobs": [
     {
@@ -7887,6 +7887,18 @@
   ],
   "hackathons": [
     {
+      "id": "78d02a8f68fa1b72",
+      "kind": "hackathon",
+      "company": "AceSAT",
+      "title": "AceSAT Education AI-Agent",
+      "location": "Online",
+      "date": "14 days left",
+      "posted_at": "2026-08-01",
+      "url": "https://acesat-ai-agent.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -8187,24 +8199,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "c32775955b89b898",
-      "kind": "hackathon",
-      "company": "Major League Hacking",
-      "title": "MLH Hack Day @ Kristu Jayanti",
-      "location": "Kristu Jayanti (Deemed to be University)",
-      "date": "about 2 hours left",
-      "posted_at": "2026-08-01",
-      "url": "https://mlhackday.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "42dba1bb0c3d87f4",
       "kind": "hackathon",
       "company": "Microsoft Student Club - SCU",
       "title": "Canal Startup Sprint Hackathon",
       "location": "Creativa Innovation Hub Ismailia",
-      "date": "14 days left",
+      "date": "13 days left",
       "posted_at": "2026-08-01",
       "url": "https://canal-startup-sprint-hackathon.devpost.com/",
       "source": "devpost",
@@ -8324,7 +8324,7 @@
       "company": "Quantumhacks",
       "title": "QuantumHacks",
       "location": "Online",
-      "date": "20 days left",
+      "date": "19 days left",
       "posted_at": "2026-08-01",
       "url": "https://quantumhacks.devpost.com/",
       "source": "devpost",
@@ -8444,7 +8444,7 @@
       "company": "Teclaws",
       "title": "Neuu Hack DAy",
       "location": "Kikao 64 Hub",
-      "date": "about 3 hours left",
+      "date": "16 minutes left",
       "posted_at": "2026-08-01",
       "url": "https://neuu-hack-day.devpost.com/",
       "source": "devpost",
@@ -8456,7 +8456,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 5 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-08-01",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8516,7 +8516,7 @@
       "company": "WithAI Research",
       "title": "The Email Game",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 11 hours left",
       "posted_at": "2026-08-01",
       "url": "https://the-email-game.devpost.com/",
       "source": "devpost",
