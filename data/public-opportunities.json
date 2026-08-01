@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T15:20:29Z",
-  "total": 620,
+  "generated_at": "2026-08-01T17:15:38Z",
+  "total": 624,
   "jobs": [
     {
       "id": "153457ca76e72564",
@@ -7923,6 +7923,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "f868559e521b0d53",
+      "kind": "hackathon",
+      "company": "arm",
+      "title": "Arm Create: AI Optimization Challenge",
+      "location": "Online",
+      "date": "13 days left",
+      "posted_at": "2026-08-01",
+      "url": "https://arm-ai-optimization-challenge.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "b0e0865e822e55ce",
       "kind": "hackathon",
       "company": "Backblaze",
@@ -8060,7 +8072,7 @@
       "company": "Girls In Stem MENA&Central Asia",
       "title": "Girls In STEM Global Hackathon",
       "location": "Online",
-      "date": "5 days left",
+      "date": "4 days left",
       "posted_at": "2026-08-01",
       "url": "https://girlsinstemhackathon.devpost.com/",
       "source": "devpost",
@@ -8084,7 +8096,7 @@
       "company": "google deepmind",
       "title": "Build with Gemma NYC: On-Device AI for Healthcare",
       "location": "New York City / TBD",
-      "date": "about 7 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-08-01",
       "url": "https://gemmanycaihealthcare.devpost.com/",
       "source": "devpost",
@@ -8228,7 +8240,7 @@
       "company": "Mid valley International College",
       "title": "Build Nepal",
       "location": "Mid valley International College",
-      "date": "1 day left",
+      "date": "about 19 hours left",
       "posted_at": "2026-08-01",
       "url": "https://buildnepal.devpost.com/",
       "source": "devpost",
@@ -8348,7 +8360,7 @@
       "company": "Resera",
       "title": "RLC Hacks 2026",
       "location": "Online",
-      "date": "3 days left",
+      "date": "2 days left",
       "posted_at": "2026-08-01",
       "url": "https://rlc-hacks-30705.devpost.com/",
       "source": "devpost",
@@ -8384,7 +8396,7 @@
       "company": "shekunj",
       "title": "INNOVIK 6.0 : International Hackathon 2026",
       "location": "VITM, Indore",
-      "date": "15 days left",
+      "date": "14 days left",
       "posted_at": "2026-08-01",
       "url": "https://innovik-6-0-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -8451,18 +8463,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "45645b8447699aad",
-      "kind": "hackathon",
-      "company": "Tecnoviz Dev Comm",
-      "title": "Technoviz Summer of Code",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-08-01",
-      "url": "https://technoviz-summer-of-code.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "838a01c47b0f86fe",
       "kind": "hackathon",
       "company": "The Webb Schools CSC",
@@ -8516,7 +8516,7 @@
       "company": "WithAI Research",
       "title": "The Email Game",
       "location": "Online",
-      "date": "about 10 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-08-01",
       "url": "https://the-email-game.devpost.com/",
       "source": "devpost",
@@ -8536,6 +8536,30 @@
     }
   ],
   "events": [
+    {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-01",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-01",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
     {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
@@ -8561,6 +8585,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-01",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8569,6 +8605,18 @@
       "date": "",
       "posted_at": "2026-08-01",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-01",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
