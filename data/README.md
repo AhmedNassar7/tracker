@@ -1,6 +1,6 @@
 # Software Engineering Opportunities
 
-**Last Updated:** 2026-07-30  ·  refreshed hourly  ·  [← back to project overview](../README.md)
+**Last Updated:** 2026-08-01  ·  refreshed hourly  ·  [← back to project overview](../README.md)
 
 Every row links straight to the real application page. Click a title to apply — no account on this repo needed. The **Age** column shows how long ago the listing was posted, so you can spot the newest roles at a glance.
 
