@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T22:12:28Z",
+  "generated_at": "2026-08-01T23:12:04Z",
   "total": 620,
   "jobs": [
     {
@@ -8096,7 +8096,7 @@
       "company": "Hack the Arts",
       "title": "Hack the Arts",
       "location": "Online",
-      "date": "about 6 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-08-01",
       "url": "https://hackthearts.devpost.com/",
       "source": "devpost",
@@ -8111,6 +8111,18 @@
       "date": "15 days left",
       "posted_at": "2026-08-01",
       "url": "https://nexora.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "78fc57669df0a848",
+      "kind": "hackathon",
+      "company": "hacknomics",
+      "title": "HackNomics",
+      "location": "Online",
+      "date": "about 12 hours left",
+      "posted_at": "2026-08-01",
+      "url": "https://hacknomicshack.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8144,7 +8156,7 @@
       "company": "high school",
       "title": "3D Websites Hackathon",
       "location": "Online",
-      "date": "about 1 month left",
+      "date": "30 days left",
       "posted_at": "2026-08-01",
       "url": "https://3d-websites-hackathon.devpost.com/",
       "source": "devpost",
@@ -8240,7 +8252,7 @@
       "company": "Mid valley International College",
       "title": "Build Nepal",
       "location": "Mid valley International College",
-      "date": "about 19 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-08-01",
       "url": "https://buildnepal.devpost.com/",
       "source": "devpost",
@@ -8420,7 +8432,7 @@
       "company": "STEMist Education",
       "title": "STEMist Hacks IV",
       "location": "Online",
-      "date": "1 day left",
+      "date": "about 24 hours left",
       "posted_at": "2026-08-01",
       "url": "https://stemist-hacks-iv.devpost.com/",
       "source": "devpost",
@@ -8499,24 +8511,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "7a629fc4c306121e",
-      "kind": "hackathon",
-      "company": "wavehack",
-      "title": "Maverick Hackathon",
-      "location": "Alpharetta, GA, USA",
-      "date": "37 minutes left",
-      "posted_at": "2026-08-01",
-      "url": "https://maverick-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "453eab158ca21140",
       "kind": "hackathon",
       "company": "WithAI Research",
       "title": "The Email Game",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-08-01",
       "url": "https://the-email-game.devpost.com/",
       "source": "devpost",
