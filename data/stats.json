@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T06:39:59Z",
-  "total": 148,
+  "generated_at": "2026-08-01T09:19:57Z",
+  "total": 142,
   "by_level": {
     "new_grad": 81,
     "internship": 37,
     "entry_level": 2,
     "junior": 2,
-    "mid_level": 26
+    "mid_level": 20
   },
   "by_country": {
-    "United States": 95,
-    "Unknown": 31,
+    "United States": 94,
+    "Unknown": 26,
     "Remote": 1,
     "United Kingdom": 5,
     "Poland": 1,
@@ -22,8 +22,8 @@
     "vanshb03_summer_internships": 12,
     "hanzili_canada": 4,
     "lorenzolacorte_eu": 3,
-    "ambicuity": 31,
     "simplify_newgrad": 10,
+    "ambicuity": 25,
     "speedyapply_ai": 6,
     "speedyapply_swe": 16,
     "simplify_internships": 3
