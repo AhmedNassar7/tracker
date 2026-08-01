@@ -1,63 +1,7 @@
 {
-  "generated_at": "2026-08-01T00:16:03Z",
-  "total": 624,
+  "generated_at": "2026-08-01T03:54:23Z",
+  "total": 623,
   "jobs": [
-    {
-      "id": "030e09611f61541a",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Developer Engagement Lead - AI Coding Tools - MSDE",
-      "location": "Budapest, Hungary",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Budapest-Hungary/Developer-Engagement-Lead---AI-Coding-Tools---MSDE_PT-JR040909",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
-      "id": "341f9237de1f2cd5",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Developer Engagement Lead - AI Coding Tools - MSDE",
-      "location": "London, United Kingdom",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/Developer-Engagement-Lead---AI-Coding-Tools---MSDE_PT-JR040891",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
-      "id": "31ec65dc85e28330",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Lead Software Engineer - Vice President",
-      "location": "Bengaluru, India",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Bengaluru-India/Lead-Software-Engineer---Vice-President_PT-JR041616-2",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
-      "id": "28fdf90fc2c085d8",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Senior Software Engineer (Java/Scala)",
-      "location": "Budapest, Hungary",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Budapest-Hungary/Senior-Software-Engineer_PT-JR039312",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
     {
       "id": "17e6672fdae10227",
       "kind": "job",
@@ -631,20 +575,6 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
-    {
-      "id": "ea86c5813b575e6b",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Lead Site Reliability Engineer, Vice President",
-      "location": "New York, New York, United States of America",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Lead-Site-Reliability-Engineer--VP--P5_PT-JR031661",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "de9981d468ee3bac",
@@ -8003,18 +7933,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "7222a45e1853fc20",
-      "kind": "hackathon",
-      "company": "BASK",
-      "title": "BASK(Business Achievement Spotlight for Kids) Monthly Pitch Competition",
-      "location": "Online",
-      "date": "about 4 hours left",
-      "posted_at": "2026-08-01",
-      "url": "https://baskchallenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "a83458d106532a8c",
       "kind": "hackathon",
       "company": "Binnovative",
@@ -8047,18 +7965,6 @@
       "date": "15 days left",
       "posted_at": "2026-08-01",
       "url": "https://build-beyond-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "2d4c73d14fe4177b",
-      "kind": "hackathon",
-      "company": "CAHSI at FIU",
-      "title": "305 SummerCodex Edition July 2026",
-      "location": "Online",
-      "date": "about 7 hours left",
-      "posted_at": "2026-08-01",
-      "url": "https://305summercodexjul2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8107,6 +8013,18 @@
       "date": "10 days left",
       "posted_at": "2026-08-01",
       "url": "https://datahub.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "de624d5ac4eb8afd",
+      "kind": "hackathon",
+      "company": "Dialogate",
+      "title": "VoltHacks",
+      "location": "Online",
+      "date": "about 1 month left",
+      "posted_at": "2026-08-01",
+      "url": "https://volthacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8236,7 +8154,7 @@
       "company": "Innovation Hacks",
       "title": "NextGen Innovation2026",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-08-01",
       "url": "https://nextgen-innovation-2026.devpost.com/",
       "source": "devpost",
@@ -8459,6 +8377,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "9f63052d92e1b0b3",
+      "kind": "hackathon",
+      "company": "STEMist Education",
+      "title": "STEMist Hacks IV",
+      "location": "Online",
+      "date": "2 days left",
+      "posted_at": "2026-08-01",
+      "url": "https://stemist-hacks-iv.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "76585d3dc3653b3d",
       "kind": "hackathon",
       "company": "Student Organization",
@@ -8500,7 +8430,7 @@
       "company": "Teclaws",
       "title": "Neuu Hack DAy",
       "location": "Kikao 64 Hub",
-      "date": "about 16 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-08-01",
       "url": "https://neuu-hack-day.devpost.com/",
       "source": "devpost",
@@ -8512,7 +8442,7 @@
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-08-01",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8543,18 +8473,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "26a2dfa0fc8ef5fd",
-      "kind": "hackathon",
-      "company": "UNSW AISOC",
-      "title": "The Atlassian X Mistral X AISoc Hack",
-      "location": "Kensington, Australia",
-      "date": "about 2 hours left",
-      "posted_at": "2026-08-01",
-      "url": "https://aisoc-atlassian-mistral.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "db2fa3afa42afff7",
       "kind": "hackathon",
       "company": "vitalitics",
@@ -8572,7 +8490,7 @@
       "company": "WithAI Research",
       "title": "The Email Game",
       "location": "Online",
-      "date": "1 day left",
+      "date": "about 23 hours left",
       "posted_at": "2026-08-01",
       "url": "https://the-email-game.devpost.com/",
       "source": "devpost",
@@ -8589,9 +8507,45 @@
       "url": "https://the-great-agent-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "01b6cc55af7fb884",
+      "kind": "hackathon",
+      "company": "XPRIZE",
+      "title": "Build with Gemini XPRIZE",
+      "location": "Online",
+      "date": "17 days left",
+      "posted_at": "2026-08-01",
+      "url": "https://xprize.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
+    {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-01",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-01",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
     {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
@@ -8617,6 +8571,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-01",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8625,6 +8591,18 @@
       "date": "",
       "posted_at": "2026-08-01",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-01",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
