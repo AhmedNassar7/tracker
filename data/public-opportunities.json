@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T13:55:36Z",
+  "generated_at": "2026-08-01T15:20:29Z",
   "total": 620,
   "jobs": [
     {
@@ -8079,6 +8079,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "9b02dd8220349d88",
+      "kind": "hackathon",
+      "company": "google deepmind",
+      "title": "Build with Gemma NYC: On-Device AI for Healthcare",
+      "location": "New York City / TBD",
+      "date": "about 7 hours left",
+      "posted_at": "2026-08-01",
+      "url": "https://gemmanycaihealthcare.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "ee12e4874858de50",
       "kind": "hackathon",
       "company": "hackhere",
@@ -8192,7 +8204,7 @@
       "company": "LUMA",
       "title": "LUMA Hackathon (September 20th - 28th)",
       "location": "Online",
-      "date": "2 months left",
+      "date": "about 2 months left",
       "posted_at": "2026-08-01",
       "url": "https://luma-hackathon-fall.devpost.com/",
       "source": "devpost",
@@ -8439,24 +8451,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "b8588f673135cfc2",
-      "kind": "hackathon",
-      "company": "Teclaws",
-      "title": "Neuu Hack DAy",
-      "location": "Kikao 64 Hub",
-      "date": "16 minutes left",
-      "posted_at": "2026-08-01",
-      "url": "https://neuu-hack-day.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "45645b8447699aad",
       "kind": "hackathon",
       "company": "Tecnoviz Dev Comm",
       "title": "Technoviz Summer of Code",
       "location": "Online",
-      "date": "about 2 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-08-01",
       "url": "https://technoviz-summer-of-code.devpost.com/",
       "source": "devpost",
@@ -8516,7 +8516,7 @@
       "company": "WithAI Research",
       "title": "The Email Game",
       "location": "Online",
-      "date": "about 11 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-08-01",
       "url": "https://the-email-game.devpost.com/",
       "source": "devpost",
