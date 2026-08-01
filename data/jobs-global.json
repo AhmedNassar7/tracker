@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T22:10:09Z",
+  "generated_at": "2026-08-01T23:10:03Z",
   "total": 128,
   "jobs": [
     {
@@ -676,6 +676,26 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T16:44:07Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "608a093a1e5c0194",
+      "company": "Meta",
+      "title": "New Grad 2026: Product Security Engineer",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Bellevue, WA Menlo Park, CA",
+      "remote_type": "onsite",
+      "url": "https://www.metacareers.com/jobs/609052015548260?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-01",
+      "age": "0d",
+      "collected_at": "2026-08-01T23:10:03Z",
       "tags": [
         "software",
         "programming",
@@ -1923,26 +1943,6 @@
       ]
     },
     {
-      "id": "39170ffa9c9e83ca",
-      "company": "Hudson River Trading",
-      "title": "Software Engineer Intern - C++ or Python",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX Chicago, IL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-30",
-      "age": "16d",
-      "collected_at": "2026-07-30T03:30:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7c5e419f14edb6b5",
       "company": "Hudson River Trading",
       "title": "Software Engineering Internship - C++ or Python - Summer 2027",
@@ -1976,6 +1976,26 @@
       "posted_at": "2026-07-17",
       "age": "3d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "39170ffa9c9e83ca",
+      "company": "Hudson River Trading",
+      "title": "Software Engineer Intern - C++ or Python",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX Chicago, IL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-30",
+      "age": "16d",
+      "collected_at": "2026-07-30T03:30:30Z",
       "tags": [
         "software",
         "programming",
@@ -2083,26 +2103,6 @@
       ]
     },
     {
-      "id": "f73dd927af2286fb",
-      "company": "Notion",
-      "title": "Software Engineer – Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "8d",
-      "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a2074999bf3dbf58",
       "company": "Citadel",
       "title": "Software Engineer – University Graduate",
@@ -2115,6 +2115,26 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-07-15",
       "age": "9d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f73dd927af2286fb",
+      "company": "Notion",
+      "title": "Software Engineer – Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f/application?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
       "tags": [
         "software",
@@ -2236,26 +2256,6 @@
       "posted_at": "2026-07-15",
       "age": "28d",
       "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "1mo",
-      "collected_at": "2026-08-01T15:18:04Z",
       "tags": [
         "software",
         "programming",
