@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 469 |
+| Jobs | 470 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 526 |
+| Total | 527 |
 
 ## Jobs
 
-[![Jobs 469](https://img.shields.io/badge/Jobs-469-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 50](https://img.shields.io/badge/Internship-50-22c55e.svg)](#internship) [![Early Career 75](https://img.shields.io/badge/Early%20Career-75-0ea5e9.svg)](#early-career) [![Mid-Level and Above 344](https://img.shields.io/badge/Mid--Level%20and%20Above-344-dc2626.svg)](#mid-level-and-above)
+[![Jobs 470](https://img.shields.io/badge/Jobs-470-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 50](https://img.shields.io/badge/Internship-50-22c55e.svg)](#internship) [![Early Career 75](https://img.shields.io/badge/Early%20Career-75-0ea5e9.svg)](#early-career) [![Mid-Level and Above 345](https://img.shields.io/badge/Mid--Level%20and%20Above-345-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -177,10 +177,12 @@ Total roles: 75
 
 ### Mid-Level and Above
 
-Total roles: 344
+Total roles: 345
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Cohere | [Forward Deployed Engineer, Agentic Platform](https://jobs.ashbyhq.com/cohere/b0bcef37-1d20-414f-aade-c54942d63df9) | United States | 0d |
+| Cohere | [Forward Deployed Engineer, Agentic Platform (West Coast)](https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9) | San Francisco | 0d |
 | Elastic | [Fullstack Software Engineer II - Admin UX - Platform Applications](https://jobs.elastic.co/jobs?gh_jid=8077634&gh_jid=8077634) | United States | 0d |
 | JPMorganChase | [Site Reliability Engineer II](https://in.indeed.com/viewjob?jk=d56e585b4e6af31f) | MH, IN | 0d |
 | NVIDIA | [Senior Software Engineer, AV Infra](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--AV-Infra_JR2022340) | China, Shanghai | 0d |
@@ -503,7 +505,6 @@ Total roles: 344
 | Clickhouse | [Senior Software Engineer - Cloud Infrastructure](https://jobs.ashbyhq.com/clickhouse/99ec4a62-ec22-484e-ac1d-d291ad892114) | AMER | 4mo |
 | Clickhouse | [Senior Software Engineer - Cloud Infrastructure](https://jobs.ashbyhq.com/clickhouse/2fdde21b-48de-419f-96e6-b0016c7133e1) | AMER | 4mo |
 | Clickhouse | [Senior Software Engineer - Cloud Infrastructure](https://jobs.ashbyhq.com/clickhouse/7fa613e3-ed23-47b3-b6d3-6a73c9607be2) | AMER | 4mo |
-| Cohere | [Forward Deployed Engineer, Agentic Platform](https://jobs.ashbyhq.com/cohere/b0bcef37-1d20-414f-aade-c54942d63df9) | United States | 5mo |
 | Cohere | [Forward Deployed Engineer, Agentic Platform](https://jobs.ashbyhq.com/cohere/75c0032c-7200-48bf-9d6d-355880dd93d9) | Middle East | 5mo |
 | Openai | [Forward Deployed Software Engineer - Seattle](https://jobs.ashbyhq.com/openai/7b90b83c-ec28-4e65-a235-6675e37b91c3) | Seattle | 5mo |
 | Ramp | [Backend Engineer, Ops Engineering](https://jobs.ashbyhq.com/ramp/7bfa613e-151c-469b-9973-c89ee3d14838) | New York, NY (HQ) | 5mo |
