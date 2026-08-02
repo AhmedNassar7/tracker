@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T06:44:25Z",
-  "total": 128,
+  "generated_at": "2026-08-02T09:20:15Z",
+  "total": 127,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -1396,26 +1396,6 @@
       "posted_at": "2026-07-31",
       "age": "0d",
       "collected_at": "2026-07-31T17:51:19Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "7d4799b3f93e45b0",
-      "company": "Mastercard",
-      "title": "Software Engineer II - Decision Management Program",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/OFallon-Missouri/Software-Engineer-II---Decision-Management-Program_R-286598",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-31",
-      "age": "2d",
-      "collected_at": "2026-08-02T06:44:25Z",
       "tags": [
         "software",
         "programming",
