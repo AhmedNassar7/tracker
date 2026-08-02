@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 469 |
+| Jobs | 468 |
 | Hackathons | 54 |
 | Events | 3 |
-| Total | 526 |
+| Total | 525 |
 
 ## Jobs
 
-[![Jobs 469](https://img.shields.io/badge/Jobs-469-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 50](https://img.shields.io/badge/Internship-50-22c55e.svg)](#internship) [![Early Career 76](https://img.shields.io/badge/Early%20Career-76-0ea5e9.svg)](#early-career) [![Mid-Level and Above 343](https://img.shields.io/badge/Mid--Level%20and%20Above-343-dc2626.svg)](#mid-level-and-above)
+[![Jobs 468](https://img.shields.io/badge/Jobs-468-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 50](https://img.shields.io/badge/Internship-50-22c55e.svg)](#internship) [![Early Career 75](https://img.shields.io/badge/Early%20Career-75-0ea5e9.svg)](#early-career) [![Mid-Level and Above 343](https://img.shields.io/badge/Mid--Level%20and%20Above-343-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -95,7 +95,7 @@ Total roles: 50
 
 ### Early Career
 
-Total roles: 76
+Total roles: 75
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -168,7 +168,6 @@ Total roles: 76
 | Notion | [Software Engineer, Early Career (AI)](https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28) | San Francisco, California | 27d |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb/apply?utm_source=Simplify&ref=Simplify) | Washington, DC | 28d |
 | NVIDIA | [Software Engineer New Grad - Hardware Tools and Methodology ðŸŽ“](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify) | Santa Clara, CA | 1mo |
-| Palantir | [Forward Deployed Software Engineer New Grad - Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify) | NYC | 1mo |
 | Stripe | [Software Engineer New Grad](https://stripe.com/jobs/search?gh_jid=7991718&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 1mo |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 1mo |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40) | Chicago, IL | 1mo |
@@ -578,7 +577,6 @@ Total hackathons: 54
 | SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
 | shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
 | STEMise | [DSH Pitch](https://dsh-pitch-30500.devpost.com/) |
-| STEMist Education | [STEMist Hacks IV](https://stemist-hacks-iv.devpost.com/) |
 | Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
 | SVHEC | [NEXORA Global Hackathon](https://nexora-global-hackathon.devpost.com/) |
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
@@ -586,6 +584,7 @@ Total hackathons: 54
 | Trainzex AI | [Build With Gemini - Creation Code](https://creation-code-30750.devpost.com/) |
 | vitalitics | [Vitalitics 2026](https://vitalitics26.devpost.com/) |
 | Women In Product India | [The Great Agent Hackathon](https://the-great-agent-hackathon.devpost.com/) |
+| XPRIZE | [Build with Gemini XPRIZE](https://xprize.devpost.com/) |
 
 ## Events
 
