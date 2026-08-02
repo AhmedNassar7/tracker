@@ -1,112 +1,7 @@
 {
-  "generated_at": "2026-08-02T18:12:56Z",
-  "total": 205,
+  "generated_at": "2026-08-02T19:36:02Z",
+  "total": 199,
   "jobs": [
-    {
-      "id": "32488451baa6f650",
-      "company": "Adobe",
-      "title": "New Grad 2026: Application Security Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159164EXTERNALENUS/2026-University-Graduate-Application-Security-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-02T18:12:56Z"
-    },
-    {
-      "id": "b24b8faf5662603b",
-      "company": "Adobe",
-      "title": "New Grad 2026: Machine Learning Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR157573EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-02T18:12:56Z"
-    },
-    {
-      "id": "2790e9e3e128e0f6",
-      "company": "Adobe",
-      "title": "New Grad 2026: Machine Learning Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR158632EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-02T18:12:56Z"
-    },
-    {
-      "id": "0b810af44c8a5911",
-      "company": "Adobe",
-      "title": "New Grad 2026: Software Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA Lehi, UT",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159163EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-02T18:12:56Z"
-    },
-    {
-      "id": "2e13f81c5669b4fc",
-      "company": "Adobe",
-      "title": "New Grad 2026: Software Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA Lehi, UT",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159933EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-02T18:12:56Z"
-    },
     {
       "id": "f5280ae38e0be665",
       "company": "Atlassian",
@@ -120,13 +15,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "866f1efaf58c81a0",
@@ -141,13 +36,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "ed0b3c42b8d5d4ce",
@@ -162,13 +57,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "fcd8d48008aeb19b",
@@ -183,34 +78,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
-    },
-    {
-      "id": "04b19ea76d57f3d5",
-      "company": "SIG",
-      "title": "New Grad: Software Developer",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "Bala Cynwyd, PA",
-      "remote_type": "onsite",
-      "url": "https://careers.sig.com/job/SUSQA004Y9261?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "6821502c7f2c45ec",
@@ -225,13 +99,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "c5cc73c5ab5f680e",
@@ -246,13 +120,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "a45f3452e9f2fe2d",
@@ -267,13 +141,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "e275350e3044499b",
@@ -288,13 +162,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "f467b5a94bb30a2d",
@@ -309,13 +183,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "a014bb964bd683bb",
@@ -330,13 +204,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-22",
       "age": "11d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "4e41ca8801d566d3",
@@ -351,13 +225,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-30",
       "age": "3d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "ee90759258df204e",
@@ -372,13 +246,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-31",
       "age": "2d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "75fffeb2b2e3525d",
@@ -393,13 +267,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
       "age": "5d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "d04ff9618b4f83ad",
@@ -414,13 +288,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-30",
       "age": "3d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "608a093a1e5c0194",
@@ -435,13 +309,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-02",
       "age": "0d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "7d4799b3f93e45b0",
@@ -456,13 +330,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-30",
       "age": "3d",
-      "collected_at": "2026-08-02T18:12:56Z",
+      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-02T18:12:56Z"
+      "closed_at": "2026-08-02T19:36:02Z"
     },
     {
       "id": "7901ce2e362ca859",
