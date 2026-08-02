@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T03:54:17Z",
+  "generated_at": "2026-08-02T06:46:32Z",
   "total": 620,
   "jobs": [
     {
@@ -7887,18 +7887,6 @@
   ],
   "hackathons": [
     {
-      "id": "78d02a8f68fa1b72",
-      "kind": "hackathon",
-      "company": "AceSAT",
-      "title": "AceSAT Education AI-Agent",
-      "location": "Online",
-      "date": "14 days left",
-      "posted_at": "2026-08-02",
-      "url": "https://acesat-ai-agent.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -7919,18 +7907,6 @@
       "date": "23 days left",
       "posted_at": "2026-08-02",
       "url": "https://adtc-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "f868559e521b0d53",
-      "kind": "hackathon",
-      "company": "arm",
-      "title": "Arm Create: AI Optimization Challenge",
-      "location": "Online",
-      "date": "13 days left",
-      "posted_at": "2026-08-02",
-      "url": "https://arm-ai-optimization-challenge.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8103,18 +8079,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "78fc57669df0a848",
-      "kind": "hackathon",
-      "company": "hacknomics",
-      "title": "HackNomics",
-      "location": "Online",
-      "date": "about 12 hours left",
-      "posted_at": "2026-08-02",
-      "url": "https://hacknomicshack.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "4fdf993780e90439",
       "kind": "hackathon",
       "company": "Hacksocial",
@@ -8235,6 +8199,30 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "0e339005f486843f",
+      "kind": "hackathon",
+      "company": "Major League Hacking",
+      "title": "Hack Days in Bansal",
+      "location": "Main Auditorium - Bansal Institute",
+      "date": "about 6 hours left",
+      "posted_at": "2026-08-02",
+      "url": "https://hack-days-in-bansal.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "2988cb7e3b47623d",
+      "kind": "hackathon",
+      "company": "Major League Hacking",
+      "title": "Hack days in KGI",
+      "location": "Hosur",
+      "date": "17 days left",
+      "posted_at": "2026-08-02",
+      "url": "https://hack-days-in-kgi.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "42dba1bb0c3d87f4",
       "kind": "hackathon",
       "company": "Microsoft Student Club - SCU",
@@ -8252,7 +8240,7 @@
       "company": "Mid valley International College",
       "title": "Build Nepal",
       "location": "Mid valley International College",
-      "date": "about 12 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-08-02",
       "url": "https://buildnepal.devpost.com/",
       "source": "devpost",
@@ -8288,7 +8276,7 @@
       "company": "nanyang technological university",
       "title": "NTU InnovateX Hackathon 2026",
       "location": "Nanyang Technological University",
-      "date": "13 days left",
+      "date": "12 days left",
       "posted_at": "2026-08-02",
       "url": "https://ntu-cctf-snz-innovatex-2026.devpost.com/",
       "source": "devpost",
@@ -8336,7 +8324,7 @@
       "company": "Perfect Corp",
       "title": "YouCam API Skin AI & Apparel VTO Hackathon",
       "location": "Online",
-      "date": "16 days left",
+      "date": "15 days left",
       "posted_at": "2026-08-02",
       "url": "https://youcam-api.devpost.com/",
       "source": "devpost",
@@ -8444,7 +8432,7 @@
       "company": "STEMist Education",
       "title": "STEMist Hacks IV",
       "location": "Online",
-      "date": "about 19 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-08-02",
       "url": "https://stemist-hacks-iv.devpost.com/",
       "source": "devpost",
@@ -8468,7 +8456,7 @@
       "company": "SVHEC",
       "title": "NEXORA Global Hackathon",
       "location": "Online",
-      "date": "14 days left",
+      "date": "13 days left",
       "posted_at": "2026-08-02",
       "url": "https://nexora-global-hackathon.devpost.com/",
       "source": "devpost",
@@ -8483,6 +8471,18 @@
       "date": "21 days left",
       "posted_at": "2026-08-02",
       "url": "https://buuniex-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "1aedf7a093785070",
+      "kind": "hackathon",
+      "company": "Test Hackathon",
+      "title": "revolutetest",
+      "location": "Cambridge, MA, USA",
+      "date": "about 16 hours left",
+      "posted_at": "2026-08-02",
+      "url": "https://revolutetest.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
