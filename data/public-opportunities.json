@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T17:16:15Z",
+  "generated_at": "2026-08-02T18:14:59Z",
   "total": 619,
   "jobs": [
     {
@@ -7909,18 +7909,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "f868559e521b0d53",
-      "kind": "hackathon",
-      "company": "arm",
-      "title": "Arm Create: AI Optimization Challenge",
-      "location": "Online",
-      "date": "12 days left",
-      "posted_at": "2026-08-02",
-      "url": "https://arm-ai-optimization-challenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "b0e0865e822e55ce",
       "kind": "hackathon",
       "company": "Backblaze",
@@ -8101,6 +8089,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "9f3b51235f856246",
+      "kind": "hackathon",
+      "company": "hacktheconcretejungle",
+      "title": "HTCJ Aviation Futures Innovation Challenge",
+      "location": "San Diego Convention Center",
+      "date": "2 months left",
+      "posted_at": "2026-08-02",
+      "url": "https://htcj-aviation-futures.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "18c4813e6ca19475",
       "kind": "hackathon",
       "company": "HackTheLimit",
@@ -8190,7 +8190,7 @@
       "company": "Katy Youth Hacks",
       "title": "Katy Youth Hacks 2026",
       "location": "Online",
-      "date": "about 20 hours left",
+      "date": "about 19 hours left",
       "posted_at": "2026-08-02",
       "url": "https://katy-youth-hacks-2026.devpost.com/",
       "source": "devpost",
@@ -8358,7 +8358,7 @@
       "company": "Revolute Hackathon",
       "title": "Revolute Hackathon",
       "location": "FabLab, Cambridge, MA",
-      "date": "about 3 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-08-02",
       "url": "https://revolute-hackathon.devpost.com/",
       "source": "devpost",
@@ -8418,7 +8418,7 @@
       "company": "STEMist Education",
       "title": "STEMist Hacks IV",
       "location": "Online",
-      "date": "about 5 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-08-02",
       "url": "https://stemist-hacks-iv.devpost.com/",
       "source": "devpost",
