@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-02T15:20:54Z",
-  "total": 625,
+  "generated_at": "2026-08-02T17:16:15Z",
+  "total": 619,
   "jobs": [
+    {
+      "id": "3d75bc9b947d2e21",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer - ICPE",
+      "location": "Israel, Yokneam",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer---ICPE_JR2019162",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
     {
       "id": "9f32662026ca53f0",
       "kind": "job",
@@ -367,20 +381,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "7cb204a62d0fc25b",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer - Video",
-      "location": "<details><summary><strong>3 locations</strong></summary>India, Pune<br>India, Hyderabad<br>India, Bengaluru</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR2021723",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "bfb1141b80e4b771",
       "kind": "job",
       "company": "NVIDIA",
@@ -601,20 +601,6 @@
       "date": "3d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Firmware-Engineer---BIOS-UEFI_JR2014710",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "2c6e051265efb035",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer, CUDA Driver for Windows",
-      "location": "<details><summary><strong>3 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, Remote</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--CUDA-Driver-for-Windows_JR2022474",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -2297,20 +2283,6 @@
       "url": "https://jobs.ashbyhq.com/cohere/4a3c3eb2-ae2e-4a86-a677-7bdecbc7d76e",
       "source": "ashby:cohere",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
-    },
-    {
-      "id": "279562a6a72533f4",
-      "kind": "job",
-      "company": "Openai",
-      "title": "Biosafety Red Teaming Specialist",
-      "location": "San Francisco",
-      "level": "other",
-      "role_type": "mobile",
-      "date": "48d",
-      "posted_at": "2026-06-15",
-      "url": "https://jobs.ashbyhq.com/openai/811eaa16-7a8e-48e6-8cfd-194330f1341d",
-      "source": "ashby:openai",
-      "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
       "id": "40b82662bd0522cf",
@@ -7906,7 +7878,7 @@
       "company": "AceSAT",
       "title": "AceSAT Education AI-Agent",
       "location": "Online",
-      "date": "14 days left",
+      "date": "13 days left",
       "posted_at": "2026-08-02",
       "url": "https://acesat-ai-agent.devpost.com/",
       "source": "devpost",
@@ -7933,6 +7905,18 @@
       "date": "23 days left",
       "posted_at": "2026-08-02",
       "url": "https://adtc-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "f868559e521b0d53",
+      "kind": "hackathon",
+      "company": "arm",
+      "title": "Arm Create: AI Optimization Challenge",
+      "location": "Online",
+      "date": "12 days left",
+      "posted_at": "2026-08-02",
+      "url": "https://arm-ai-optimization-challenge.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8074,7 +8058,7 @@
       "company": "Girls In Stem MENA&Central Asia",
       "title": "Girls In STEM Global Hackathon",
       "location": "Online",
-      "date": "4 days left",
+      "date": "3 days left",
       "posted_at": "2026-08-02",
       "url": "https://girlsinstemhackathon.devpost.com/",
       "source": "devpost",
@@ -8206,7 +8190,7 @@
       "company": "Katy Youth Hacks",
       "title": "Katy Youth Hacks 2026",
       "location": "Online",
-      "date": "about 22 hours left",
+      "date": "about 20 hours left",
       "posted_at": "2026-08-02",
       "url": "https://katy-youth-hacks-2026.devpost.com/",
       "source": "devpost",
@@ -8221,18 +8205,6 @@
       "date": "about 2 months left",
       "posted_at": "2026-08-02",
       "url": "https://luma-hackathon-fall.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "0e339005f486843f",
-      "kind": "hackathon",
-      "company": "Major League Hacking",
-      "title": "Hack Days in Bansal",
-      "location": "Main Auditorium - Bansal Institute",
-      "date": "10 minutes left",
-      "posted_at": "2026-08-02",
-      "url": "https://hack-days-in-bansal.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8386,7 +8358,7 @@
       "company": "Revolute Hackathon",
       "title": "Revolute Hackathon",
       "location": "FabLab, Cambridge, MA",
-      "date": "about 5 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-08-02",
       "url": "https://revolute-hackathon.devpost.com/",
       "source": "devpost",
@@ -8434,7 +8406,7 @@
       "company": "STEMise",
       "title": "DSH Pitch",
       "location": "Online",
-      "date": "5 months left",
+      "date": "4 months left",
       "posted_at": "2026-08-02",
       "url": "https://dsh-pitch-30500.devpost.com/",
       "source": "devpost",
@@ -8446,7 +8418,7 @@
       "company": "STEMist Education",
       "title": "STEMist Hacks IV",
       "location": "Online",
-      "date": "about 7 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-08-02",
       "url": "https://stemist-hacks-iv.devpost.com/",
       "source": "devpost",
@@ -8494,7 +8466,7 @@
       "company": "Test Hackathon",
       "title": "revolutetest",
       "location": "Cambridge, MA, USA",
-      "date": "about 5 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-08-02",
       "url": "https://revolutetest.devpost.com/",
       "source": "devpost",
@@ -8551,30 +8523,6 @@
   ],
   "events": [
     {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-02",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-02",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8599,18 +8547,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-02",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8619,18 +8555,6 @@
       "date": "",
       "posted_at": "2026-08-02",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-02",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
