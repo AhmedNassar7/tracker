@@ -1,107 +1,7 @@
 {
-  "generated_at": "2026-08-02T19:36:02Z",
-  "total": 133,
+  "generated_at": "2026-08-02T21:09:44Z",
+  "total": 127,
   "jobs": [
-    {
-      "id": "32488451baa6f650",
-      "company": "Adobe",
-      "title": "New Grad 2026: Application Security Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159164EXTERNALENUS/2026-University-Graduate-Application-Security-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T19:36:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b24b8faf5662603b",
-      "company": "Adobe",
-      "title": "New Grad 2026: Machine Learning Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR157573EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T19:36:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2790e9e3e128e0f6",
-      "company": "Adobe",
-      "title": "New Grad 2026: Machine Learning Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR158632EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T19:36:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0b810af44c8a5911",
-      "company": "Adobe",
-      "title": "New Grad 2026: Software Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA Lehi, UT",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159163EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T19:36:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2e13f81c5669b4fc",
-      "company": "Adobe",
-      "title": "New Grad 2026: Software Engineer",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA Lehi, UT",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159933EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T19:36:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
     {
       "id": "bf17c108c5cd3259",
       "company": "Apple",
@@ -1196,26 +1096,6 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "04b19ea76d57f3d5",
-      "company": "SIG",
-      "title": "New Grad: Software Developer",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "Bala Cynwyd, PA",
-      "remote_type": "onsite",
-      "url": "https://careers.sig.com/job/SUSQA004Y9261?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-02",
-      "age": "0d",
-      "collected_at": "2026-08-02T19:36:02Z",
       "tags": [
         "software",
         "programming",

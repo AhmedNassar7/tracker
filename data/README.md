@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 475 |
-| Hackathons | 0 |
+| Jobs | 469 |
+| Hackathons | 54 |
 | Events | 3 |
-| Total | 478 |
+| Total | 526 |
 
 ## Jobs
 
-[![Jobs 475](https://img.shields.io/badge/Jobs-475-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 50](https://img.shields.io/badge/Internship-50-22c55e.svg)](#internship) [![Early Career 82](https://img.shields.io/badge/Early%20Career-82-0ea5e9.svg)](#early-career) [![Mid-Level and Above 343](https://img.shields.io/badge/Mid--Level%20and%20Above-343-dc2626.svg)](#mid-level-and-above)
+[![Jobs 469](https://img.shields.io/badge/Jobs-469-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 50](https://img.shields.io/badge/Internship-50-22c55e.svg)](#internship) [![Early Career 76](https://img.shields.io/badge/Early%20Career-76-0ea5e9.svg)](#early-career) [![Mid-Level and Above 343](https://img.shields.io/badge/Mid--Level%20and%20Above-343-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -95,15 +95,10 @@ Total roles: 50
 
 ### Early Career
 
-Total roles: 82
+Total roles: 76
 
 | Company | Title | Location | Age |
 |---|---|---|---|
-| Adobe | [New Grad 2026: Application Security Engineer](https://careers.adobe.com/us/en/job/ADOBUSR159164EXTERNALENUS/2026-University-Graduate-Application-Security-Engineer?utm_source=vansh) | San Jose, CA San Francisco, CA | 0d |
-| Adobe | [New Grad 2026: Machine Learning Engineer](https://careers.adobe.com/us/en/job/ADOBUSR157573EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh) | San Jose, CA | 0d |
-| Adobe | [New Grad 2026: Machine Learning Engineer](https://careers.adobe.com/us/en/job/ADOBUSR158632EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh) | San Jose, CA San Francisco, CA | 0d |
-| Adobe | [New Grad 2026: Software Engineer](https://careers.adobe.com/us/en/job/ADOBUSR159163EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh) | San Jose, CA Lehi, UT | 0d |
-| Adobe | [New Grad 2026: Software Engineer](https://careers.adobe.com/us/en/job/ADOBUSR159933EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh) | San Jose, CA Lehi, UT | 0d |
 | Apple | [Software Engineer, IS&T Early Career](https://jobs.apple.com/en-us/details/200627852-3956/software-engineer-is-t-early-career?utm_source=vansh) | Sunnyvale, CA | 0d |
 | ByteDance | [New Grad 2026: Backend Software Engineer (Customer Service Platform)](https://jobs.bytedance.com/en/position/7527836662400026898/detail?spread=BSPP2KS&utm_source=vansh&ref=vansh) | Seattle, WA | 0d |
 | ByteDance | [New Grad 2026: Backend Software Engineer Graduate](https://joinbytedance.com/search/7527678842316998919?utm_source=vansh) | San Jose, CA | 0d |
@@ -149,7 +144,6 @@ Total roles: 82
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908696559?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | Roblox | [New Grad 2025: Software Engineer, Game Solutions Engineering](https://careers.roblox.com/jobs/6749070?utm_source=vansh) | San Mateo, CA | 0d |
 | Roblox | [Software Engineer - Early Career](https://careers.roblox.com/jobs/7114754?gh_jid=7114754&utm_source=vansh&ref=vansh) | San Mateo, CA | 0d |
-| SIG | [New Grad: Software Developer](https://careers.sig.com/job/SUSQA004Y9261?utm_source=vansh) | Bala Cynwyd, PA | 0d |
 | Stripe | [Software Engineer - New Grad](https://stripe.com/jobs/search?gh_jid=7210112&utm_source=vansh&ref=vansh) | Seattle, WA SF | 0d |
 | Visa | [New Grad 2026: Site Reliability Engineer 🛂](https://jobs.smartrecruiters.com/visa/744000080909305-site-reliability-engineer-new-college-grad-2026?utm_source=vansh) | Ashburn, VA | 0d |
 | Visa | [New Grad 2026: Site Reliability Engineer 🛂](https://jobs.smartrecruiters.com/visa/744000080908246-site-reliability-engineer-new-college-grad-2026?utm_source=vansh) | Austin, TX | 0d |
@@ -534,10 +528,64 @@ Total roles: 343
 
 ## Hackathons
 
-Total hackathons: 0
+Total hackathons: 54
 
 | Organizer | Hackathon |
 |---|---|
+| AceSAT | [AceSAT Education AI-Agent](https://acesat-ai-agent.devpost.com/) |
+| ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
+| Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
+| arm | [Arm Create: AI Optimization Challenge](https://arm-ai-optimization-challenge.devpost.com/) |
+| Backblaze | [Backblaze Generative Media Hackathon: Build with Genblaze on B2](https://backblaze-generative-media.devpost.com/) |
+| Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) |
+| BITS Pilani | [Caspian Buildathon: Build agents that can reach anyone](https://caspian.devpost.com/) |
+| BuildBeyond | [Build Beyond Hackathon](https://build-beyond-hackathon.devpost.com/) |
+| CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) |
+| Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
+| contact@orionglobalhackathon.com | [OrionHackathon](https://orionhackathon.devpost.com/) |
+| DataHub | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) |
+| Dialogate | [VoltHacks](https://volthacks.devpost.com/) |
+| dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
+| Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
+| GatewayGS | [GatewayGS & The AEI Initiative: AI 4 Earth Hackathon](https://gatewaygs-ai-4-earth-hackathon.devpost.com/) |
+| Girls In Stem MENA&Central Asia | [Girls In STEM Global Hackathon](https://girlsinstemhackathon.devpost.com/) |
+| Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) |
+| hackhere | [Nexora](https://nexora.devpost.com/) |
+| Hacksocial | [Hacksocial 2026](https://hacksocial2026.devpost.com/) |
+| hacktheconcretejungle | [HTCJ Aviation Futures Innovation Challenge](https://htcj-aviation-futures.devpost.com/) |
+| HackTheLimit | [Hack The Limit](https://hack-the-limit-1.devpost.com/) |
+| high school | [3D Websites Hackathon](https://3d-websites-hackathon.devpost.com/) |
+| ImpactForge | [ImpactForge](https://impactforge.devpost.com/) |
+| IncludEDU, partner w Stanford NNEA | [IncludAI - The Neurodiversity Hackathon, in Partnership with Stanford NNEA](https://includai-2026.devpost.com/) |
+| Innovation Hacks | [NextGen Innovation2026](https://nextgen-innovation-2026.devpost.com/) |
+| International AI Youth Education Society | [AI YES :International Youth AI Competition](https://ai-yes-competition-30441.devpost.com/) |
+| Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
+| Katy Youth Hacks | [Katy Youth Hacks 2026](https://katy-youth-hacks-2026.devpost.com/) |
+| LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
+| Major League Hacking | [Hack days in KGI](https://hack-days-in-kgi.devpost.com/) |
+| Microsoft Student Club - SCU | [Canal Startup Sprint Hackathon](https://canal-startup-sprint-hackathon.devpost.com/) |
+| ML Empowerment Foundation | [ML Empowerment Build Challenge 2.0](https://ml-empowerment-2.devpost.com/) |
+| nanyang technological university | [NTU InnovateX Hackathon 2026](https://ntu-cctf-snz-innovatex-2026.devpost.com/) |
+| NeuralSprint | [NeuralSprint](https://neuralsprint.devpost.com/) |
+| nill | [Code for Humanity](https://code-for-humanity.devpost.com/) |
+| Paritok | [Build with Paritok: The Token-Efficiency Hackathon](https://build-with-paritok.devpost.com/) |
+| Perfect Corp | [YouCam API Skin AI & Apparel VTO Hackathon](https://youcam-api.devpost.com/) |
+| Primus B School | [Vidhyarthi Sewa EduHack Karnataka 2026](https://vidhyarthi-sewa-eduhack.devpost.com/) |
+| Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
+| Resera | [RLC Hacks 2026](https://rlc-hacks-30705.devpost.com/) |
+| ReverieHacks | [Reverie Hacks 2026](https://reverie-hacks-2026.devpost.com/) |
+| Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) |
+| SAIN Utrecht | [Win4AISafety - Open Research Summer Challenge](https://win4aisafety-sain-utrecht.devpost.com/) |
+| shekunj | [INNOVIK 6.0 : International Hackathon 2026](https://innovik-6-0-hackathon-2026.devpost.com/) |
+| STEMise | [DSH Pitch](https://dsh-pitch-30500.devpost.com/) |
+| STEMist Education | [STEMist Hacks IV](https://stemist-hacks-iv.devpost.com/) |
+| Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
+| SVHEC | [NEXORA Global Hackathon](https://nexora-global-hackathon.devpost.com/) |
+| TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
+| The Webb Schools CSC | [CSC Summer Impactathon](https://csc-summer-impactathon.devpost.com/) |
+| Trainzex AI | [Build With Gemini - Creation Code](https://creation-code-30750.devpost.com/) |
+| vitalitics | [Vitalitics 2026](https://vitalitics26.devpost.com/) |
+| Women In Product India | [The Great Agent Hackathon](https://the-great-agent-hackathon.devpost.com/) |
 
 ## Events
 
