@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T13:55:42Z",
-  "total": 620,
+  "generated_at": "2026-08-02T15:20:54Z",
+  "total": 625,
   "jobs": [
     {
       "id": "9f32662026ca53f0",
@@ -13,6 +13,20 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer---NVLink-GPU-Networking_JR2016557",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "ac4bfc4eaa07a823",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Engineer, SPE",
+      "location": "Israel, Yokneam",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer--SPE_JR2015623",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -8192,7 +8206,7 @@
       "company": "Katy Youth Hacks",
       "title": "Katy Youth Hacks 2026",
       "location": "Online",
-      "date": "about 23 hours left",
+      "date": "about 22 hours left",
       "posted_at": "2026-08-02",
       "url": "https://katy-youth-hacks-2026.devpost.com/",
       "source": "devpost",
@@ -8216,7 +8230,7 @@
       "company": "Major League Hacking",
       "title": "Hack Days in Bansal",
       "location": "Main Auditorium - Bansal Institute",
-      "date": "about 2 hours left",
+      "date": "10 minutes left",
       "posted_at": "2026-08-02",
       "url": "https://hack-days-in-bansal.devpost.com/",
       "source": "devpost",
@@ -8372,7 +8386,7 @@
       "company": "Revolute Hackathon",
       "title": "Revolute Hackathon",
       "location": "FabLab, Cambridge, MA",
-      "date": "about 18 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-08-02",
       "url": "https://revolute-hackathon.devpost.com/",
       "source": "devpost",
@@ -8432,7 +8446,7 @@
       "company": "STEMist Education",
       "title": "STEMist Hacks IV",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-08-02",
       "url": "https://stemist-hacks-iv.devpost.com/",
       "source": "devpost",
@@ -8480,7 +8494,7 @@
       "company": "Test Hackathon",
       "title": "revolutetest",
       "location": "Cambridge, MA, USA",
-      "date": "about 7 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-08-02",
       "url": "https://revolutetest.devpost.com/",
       "source": "devpost",
@@ -8537,6 +8551,30 @@
   ],
   "events": [
     {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-02",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-02",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -8561,6 +8599,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-02",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -8569,6 +8619,18 @@
       "date": "",
       "posted_at": "2026-08-02",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-02",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
