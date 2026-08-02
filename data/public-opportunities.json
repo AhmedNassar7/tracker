@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T00:13:04Z",
+  "generated_at": "2026-08-02T03:54:17Z",
   "total": 620,
   "jobs": [
     {
@@ -7940,7 +7940,7 @@
       "company": "Backblaze",
       "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2",
       "location": "Online",
-      "date": "2 days left",
+      "date": "1 day left",
       "posted_at": "2026-08-02",
       "url": "https://backblaze-generative-media.devpost.com/",
       "source": "devpost",
@@ -8091,18 +8091,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "f18e793dcb9bdfe1",
-      "kind": "hackathon",
-      "company": "Hack the Arts",
-      "title": "Hack the Arts",
-      "location": "Online",
-      "date": "about 4 hours left",
-      "posted_at": "2026-08-02",
-      "url": "https://hackthearts.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "ee12e4874858de50",
       "kind": "hackathon",
       "company": "hackhere",
@@ -8111,6 +8099,18 @@
       "date": "15 days left",
       "posted_at": "2026-08-02",
       "url": "https://nexora.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "78fc57669df0a848",
+      "kind": "hackathon",
+      "company": "hacknomics",
+      "title": "HackNomics",
+      "location": "Online",
+      "date": "about 12 hours left",
+      "posted_at": "2026-08-02",
+      "url": "https://hacknomicshack.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8180,7 +8180,7 @@
       "company": "Innovation Hacks",
       "title": "NextGen Innovation2026",
       "location": "Online",
-      "date": "7 days left",
+      "date": "6 days left",
       "posted_at": "2026-08-02",
       "url": "https://nextgen-innovation-2026.devpost.com/",
       "source": "devpost",
@@ -8207,6 +8207,18 @@
       "date": "about 2 months left",
       "posted_at": "2026-08-02",
       "url": "https://gibc-v2.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "97c8b198803f84cc",
+      "kind": "hackathon",
+      "company": "Katy Youth Hacks",
+      "title": "Katy Youth Hacks 2026",
+      "location": "Online",
+      "date": "1 day left",
+      "posted_at": "2026-08-02",
+      "url": "https://katy-youth-hacks-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8312,7 +8324,7 @@
       "company": "Paritok",
       "title": "Build with Paritok: The Token-Efficiency Hackathon",
       "location": "Online",
-      "date": "4 days left",
+      "date": "3 days left",
       "posted_at": "2026-08-02",
       "url": "https://build-with-paritok.devpost.com/",
       "source": "devpost",
@@ -8327,18 +8339,6 @@
       "date": "16 days left",
       "posted_at": "2026-08-02",
       "url": "https://youcam-api.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "4bd275419fd799dd",
-      "kind": "hackathon",
-      "company": "President University",
-      "title": "Revolute Hackathon",
-      "location": "FabLab, Cambridge, MA",
-      "date": "about 20 hours left",
-      "posted_at": "2026-08-02",
-      "url": "https://revolute-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8375,6 +8375,18 @@
       "date": "2 days left",
       "posted_at": "2026-08-02",
       "url": "https://rlc-hacks-30705.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "4bd275419fd799dd",
+      "kind": "hackathon",
+      "company": "Revolute Hackathon",
+      "title": "Revolute Hackathon",
+      "location": "FabLab, Cambridge, MA",
+      "date": "about 18 hours left",
+      "posted_at": "2026-08-02",
+      "url": "https://revolute-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -8432,7 +8444,7 @@
       "company": "STEMist Education",
       "title": "STEMist Hacks IV",
       "location": "Online",
-      "date": "about 24 hours left",
+      "date": "about 19 hours left",
       "posted_at": "2026-08-02",
       "url": "https://stemist-hacks-iv.devpost.com/",
       "source": "devpost",
@@ -8507,18 +8519,6 @@
       "date": "3 days left",
       "posted_at": "2026-08-02",
       "url": "https://vitalitics26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "453eab158ca21140",
-      "kind": "hackathon",
-      "company": "WithAI Research",
-      "title": "The Email Game",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-08-02",
-      "url": "https://the-email-game.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
