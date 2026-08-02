@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T23:10:03Z",
-  "total": 128,
+  "generated_at": "2026-08-02T00:10:55Z",
+  "total": 127,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -683,26 +683,6 @@
       ]
     },
     {
-      "id": "608a093a1e5c0194",
-      "company": "Meta",
-      "title": "New Grad 2026: Product Security Engineer",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "Bellevue, WA Menlo Park, CA",
-      "remote_type": "onsite",
-      "url": "https://www.metacareers.com/jobs/609052015548260?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-01",
-      "age": "0d",
-      "collected_at": "2026-08-01T23:10:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "63a09f50fa9ce441",
       "company": "Mistral",
       "title": "software engineer, new grad",
@@ -1363,6 +1343,26 @@
       ]
     },
     {
+      "id": "becefb85046fc9c8",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - .NET Backend",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-01",
+      "age": "2d",
+      "collected_at": "2026-08-01T22:10:09Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "907645706f2a9552",
       "company": "Elastic",
       "title": "Fullstack Software Engineer II - Admin UX - Platform Applications",
@@ -1416,26 +1416,6 @@
       "posted_at": "2026-07-30",
       "age": "0d",
       "collected_at": "2026-07-30T22:18:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "becefb85046fc9c8",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - .NET Backend",
-      "level": "junior",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "2d",
-      "collected_at": "2026-08-01T22:10:09Z",
       "tags": [
         "software",
         "programming",
@@ -1763,6 +1743,26 @@
       ]
     },
     {
+      "id": "9b0e9b510a42c9e0",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - Backend",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-01",
+      "age": "10d",
+      "collected_at": "2026-08-01T21:08:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
@@ -1796,26 +1796,6 @@
       "posted_at": "2026-07-23",
       "age": "7d",
       "collected_at": "2026-07-30T22:18:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "9b0e9b510a42c9e0",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - Backend",
-      "level": "junior",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "10d",
-      "collected_at": "2026-08-01T21:08:28Z",
       "tags": [
         "software",
         "programming",
