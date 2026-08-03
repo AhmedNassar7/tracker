@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T07:45:02Z",
-  "total": 153,
+  "generated_at": "2026-08-03T11:42:51Z",
+  "total": 162,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -36,6 +36,66 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "088a072c26ce5095",
+      "company": "ByteDance",
+      "title": "Backend and Infra Software Engineer Graduate (Dev Infra US) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=0270f93090354c8e",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fae9ea1488151b2b",
+      "company": "ByteDance",
+      "title": "Backend Software Engineer Graduate (Platform) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=a674b9ff6c7df7bf",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1244f857127b9f59",
+      "company": "ByteDance",
+      "title": "Backend Software Engineer Graduate (Platform) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "New York, NY, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=4727b775b7099d43",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
       "tags": [
         "software",
         "programming",
@@ -403,6 +463,26 @@
       ]
     },
     {
+      "id": "8e6d39aa8da70dd5",
+      "company": "ByteDance",
+      "title": "Product Security Engineer Graduate (Security BP) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=98a3b834f6e5daf2",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "10f698f421fbdc18",
       "company": "ByteDance",
       "title": "Site Reliability Engineer Graduate [Security Engineering-US]",
@@ -423,6 +503,106 @@
       ]
     },
     {
+      "id": "56291d5a616db845",
+      "company": "ByteDance",
+      "title": "Software Engineer Graduate (AI Infra Compute) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=005f8deb92799bb1",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9ef3f4ee45350d3f",
+      "company": "ByteDance",
+      "title": "Software Engineer Graduate (AI Infra Compute) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=28777bdb467fb1a4",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "585f537b6b275aad",
+      "company": "ByteDance",
+      "title": "Software Engineer Graduate (AI Infrastructure — Compute Efficiency & Scheduling) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=443ebd4d92598f78",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "40f562b01b47ffcf",
+      "company": "ByteDance",
+      "title": "Software Engineer Graduate (AI Infrastructure-Compute Efficiency & Scheduling) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=198cd897050d072e",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b036d05658b03113",
+      "company": "ByteDance",
+      "title": "Software Engineer Graduate (Traffic Infrastructure) - 2027 Start",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=86011e3bc583ab31",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "53aa6fef1050c85b",
       "company": "ByteDance",
       "title": "Software Engineer Intern (Applied Mac...",
@@ -436,6 +616,46 @@
       "posted_at": "2026-08-03",
       "age": "0d",
       "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "37125469539dbe4d",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AI Infra Compute 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c5e489e11daa11be",
+      "company": "ByteDance",
+      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
       "tags": [
         "software",
         "programming",
@@ -796,6 +1016,26 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T16:44:07Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ac69770dbba7e2da",
+      "company": "Microsoft",
+      "title": "Software Engineer Intern - CoreAI",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Redmond, WA",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
       "tags": [
         "software",
         "programming",
@@ -1523,26 +1763,6 @@
       ]
     },
     {
-      "id": "becefb85046fc9c8",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - .NET Backend",
-      "level": "junior",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "2d",
-      "collected_at": "2026-08-01T22:10:09Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "907645706f2a9552",
       "company": "Elastic",
       "title": "Fullstack Software Engineer II - Admin UX - Platform Applications",
@@ -1643,19 +1863,19 @@
       ]
     },
     {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "country": "Canada",
-      "location": "Montreal, Canada",
+      "id": "becefb85046fc9c8",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - .NET Backend",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
       "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-03",
-      "age": "4d",
-      "collected_at": "2026-08-03T03:54:38Z",
+      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-01",
+      "age": "2d",
+      "collected_at": "2026-08-01T22:10:09Z",
       "tags": [
         "software",
         "programming",
@@ -2876,46 +3096,6 @@
       "posted_at": "2026-07-21",
       "age": "1mo",
       "collected_at": "2026-07-21T16:40:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "e9ff0a701a45e958",
-      "company": "Oracle",
-      "title": "OCI Software Engineer Intern - OVIP",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX, Unite...",
-      "remote_type": "onsite",
-      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334333",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-03",
-      "age": "2mo",
-      "collected_at": "2026-08-03T03:54:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f4f2f42cd83f2d77",
-      "company": "Oracle",
-      "title": "OCI Software Engineer Intern - OVIP",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, WA, Unit...",
-      "remote_type": "onsite",
-      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-03",
-      "age": "2mo",
-      "collected_at": "2026-08-03T03:54:38Z",
       "tags": [
         "software",
         "programming",
