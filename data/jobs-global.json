@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T23:10:10Z",
-  "total": 126,
+  "generated_at": "2026-08-03T00:11:31Z",
+  "total": 150,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -36,6 +36,86 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "7d2b84ddfe19bd46",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern (E-C...",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7538942403488188680",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "271a4ea4a9d69e55",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern (Glo...",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7535951608832657682",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8a32d8c56dfd9a12",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern (Glo...",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7535953226975054098",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "66de60fbe1a2e9a1",
+      "company": "ByteDance",
+      "title": "Machine Learning Graduate (E-Commerce...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7538929248565381383",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T00:11:31Z",
       "tags": [
         "software",
         "programming",
@@ -336,6 +416,46 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d515a44a8e8bc910",
+      "company": "ByteDance",
+      "title": "Site Reliability Engineer Intern (Dat...",
+      "level": "internship",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7535646140345272584",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "53aa6fef1050c85b",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern (Applied Mac...",
+      "level": "internship",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7533045355162044690",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T00:11:31Z",
       "tags": [
         "software",
         "programming",
@@ -1303,6 +1423,66 @@
       ]
     },
     {
+      "id": "c2294a5eb85d645e",
+      "company": "Elastic",
+      "title": "Fullstack Software Engineer II - Admi...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8077634&gh_jid=8077634",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "2d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "35d0bd20fa4d05a3",
+      "company": "Microsoft",
+      "title": "Back-End Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556859034",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "2d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "37a5726efab32747",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556945356",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "2d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "373ebba468ac25c1",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Infrastructure",
@@ -1316,6 +1496,46 @@
       "posted_at": "2026-07-31",
       "age": "0d",
       "collected_at": "2026-07-31T17:51:19Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "534b429f18cdf19d",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer II, NAST CX Tech",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Bellevue, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489805/data-engineer-ii-nast-cx-tech",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "3d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "becefb85046fc9c8",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - .NET Backend",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-01",
+      "age": "2d",
+      "collected_at": "2026-08-01T22:10:09Z",
       "tags": [
         "software",
         "programming",
@@ -1383,19 +1603,79 @@
       ]
     },
     {
-      "id": "becefb85046fc9c8",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - .NET Backend",
-      "level": "junior",
-      "country": "United Kingdom",
-      "location": "London, UK",
+      "id": "d13ba8a06b4bccf9",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer II, Business Data Techn...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA",
       "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "2d",
-      "collected_at": "2026-08-01T22:10:09Z",
+      "url": "https://www.amazon.jobs/en/jobs/10488675/data-engineer-ii-business-data-technologies",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "4d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "90786c4992f34265",
+      "company": "Amazon.com Services LLC - A57",
+      "title": "Data Engineer II - AMZ9956938",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10488510/data-engineer-ii-amz9956938",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "4d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9d39468beeab86d4",
+      "company": "Microsoft",
+      "title": "Software Engineer II - Full Stack",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Vancouver, Britis...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556866289",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "4d",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "489240d3c45499c4",
+      "company": "Microsoft",
+      "title": "Data Engineer II",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Redmond, Washingt...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556945522",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "5d",
+      "collected_at": "2026-08-03T00:11:31Z",
       "tags": [
         "software",
         "programming",
@@ -1523,26 +1803,6 @@
       ]
     },
     {
-      "id": "1c826b0a416b09ad",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "4d",
-      "collected_at": "2026-08-01T03:52:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
@@ -1643,6 +1903,26 @@
       ]
     },
     {
+      "id": "b028d94f5b6a4176",
+      "company": "Amazon Web Services, Inc.",
+      "title": "Data Engineer II, AWS Marketplace and...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10481199/data-engineer-ii-aws-marketplace-and-partner-services",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "1w",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "be4fe26d948a3ddc",
       "company": "Pinterest",
       "title": "Software Engineer II, tvScientific",
@@ -1651,31 +1931,11 @@
       "location": "Toronto, ON, CA",
       "remote_type": "onsite",
       "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7782535",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "4d",
-      "collected_at": "2026-08-01T03:52:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d71534e0be751568",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Web",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8024883",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "4d",
-      "collected_at": "2026-08-01T03:52:20Z",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "1w",
+      "collected_at": "2026-08-03T00:11:31Z",
       "tags": [
         "software",
         "programming",
@@ -1723,6 +1983,26 @@
       ]
     },
     {
+      "id": "9b0e9b510a42c9e0",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - Backend",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-01",
+      "age": "10d",
+      "collected_at": "2026-08-01T21:08:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
@@ -1763,19 +2043,19 @@
       ]
     },
     {
-      "id": "9b0e9b510a42c9e0",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - Backend",
-      "level": "junior",
-      "country": "United Kingdom",
-      "location": "London, UK",
+      "id": "9c0205e993e680d7",
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern (Fall 2026) ...",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX",
       "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "10d",
-      "collected_at": "2026-08-01T21:08:28Z",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-03",
+      "age": "2w",
+      "collected_at": "2026-08-03T00:11:31Z",
       "tags": [
         "software",
         "programming",
@@ -1903,26 +2183,6 @@
       ]
     },
     {
-      "id": "39170ffa9c9e83ca",
-      "company": "Hudson River Trading",
-      "title": "Software Engineer Intern - C++ or Python",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX Chicago, IL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-30",
-      "age": "16d",
-      "collected_at": "2026-07-30T03:30:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7c5e419f14edb6b5",
       "company": "Hudson River Trading",
       "title": "Software Engineering Internship - C++ or Python - Summer 2027",
@@ -1956,6 +2216,26 @@
       "posted_at": "2026-07-17",
       "age": "3d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "39170ffa9c9e83ca",
+      "company": "Hudson River Trading",
+      "title": "Software Engineer Intern - C++ or Python",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX Chicago, IL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-30",
+      "age": "16d",
+      "collected_at": "2026-07-30T03:30:30Z",
       "tags": [
         "software",
         "programming",
@@ -2143,6 +2423,26 @@
       ]
     },
     {
+      "id": "9cf273c5da4b1510",
+      "company": "Okta",
+      "title": "Software Engineer II, Security Engine...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, Ontario,...",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "1mo",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5654a56dfc1a5b2d",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer Intern - Commercial",
@@ -2223,6 +2523,66 @@
       ]
     },
     {
+      "id": "1c826b0a416b09ad",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "1mo",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d71534e0be751568",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Web",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8024883",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "1mo",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8b81bbd8d722fcd1",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Diego",
+      "remote_type": "onsite",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-03",
+      "age": "1mo",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "a223bcc43980f9bb",
       "company": "Stripe",
       "title": "Software Engineer New Grad",
@@ -2236,6 +2596,66 @@
       "posted_at": "2026-07-15",
       "age": "1mo",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "895d3bbee50ded3e",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad, Develope...",
+      "level": "new_grad",
+      "country": "Canada",
+      "location": "Toronto",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=7991718",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-08-03",
+      "age": "1mo",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c2e4ac6a2a65be88",
+      "company": "Zipline",
+      "title": "Software Engineer Intern (Fall 2026)",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "South San Francis...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7787509003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-03",
+      "age": "1mo",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "da17b2dc6cd07803",
+      "company": "Zipline",
+      "title": "System Test Automation Intern (Fall 2...",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "South San Francis...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7786445003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-03",
+      "age": "1mo",
+      "collected_at": "2026-08-03T00:11:31Z",
       "tags": [
         "software",
         "programming",
@@ -2423,6 +2843,26 @@
       ]
     },
     {
+      "id": "a103b22017e65e63",
+      "company": "Cohere",
+      "title": "Machine Learning Intern/Co-op (Fall,...",
+      "level": "internship",
+      "country": "Canada",
+      "location": "Canada",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "2mo",
+      "collected_at": "2026-08-03T00:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "99e702d10db39f9b",
       "company": "NVIDIA",
       "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
@@ -2456,6 +2896,26 @@
       "posted_at": "2026-07-17",
       "age": "64d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e8a8f44cd2761397",
+      "company": "Cohere",
+      "title": "Software Engineer Intern (Fall / Wint...",
+      "level": "internship",
+      "country": "Canada",
+      "location": "Canada",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-08-03",
+      "age": "3mo",
+      "collected_at": "2026-08-03T00:11:31Z",
       "tags": [
         "software",
         "programming",
@@ -2516,6 +2976,26 @@
       "posted_at": "2026-04-28",
       "age": "2mo",
       "collected_at": "2026-04-28T09:16:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b9ce96c7f005af83",
+      "company": "Pinterest",
+      "title": "Machine Learning Engineer II, Core En...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7473497",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-03",
+      "age": "7mo",
+      "collected_at": "2026-08-03T00:11:31Z",
       "tags": [
         "software",
         "programming",
