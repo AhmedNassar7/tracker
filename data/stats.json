@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-06T15:23:28Z",
-  "total": 223,
+  "generated_at": "2026-08-06T16:02:37Z",
+  "total": 225,
   "by_level": {
     "new_grad": 100,
-    "internship": 76,
+    "internship": 78,
     "entry_level": 3,
     "junior": 6,
     "mid_level": 38
   },
   "by_country": {
-    "United States": 140,
+    "United States": 142,
     "Unknown": 50,
     "Remote": 2,
     "United Kingdom": 7,
@@ -23,7 +23,7 @@
     "simplify_internships": 9,
     "simplify_newgrad": 17,
     "zapplyjobs_newgrad": 8,
-    "zapplyjobs_internships": 9,
+    "zapplyjobs_internships": 11,
     "zapplyjobs_all_newgrad": 1,
     "zapplyjobs_datascience": 5,
     "hanzili_canada": 2,

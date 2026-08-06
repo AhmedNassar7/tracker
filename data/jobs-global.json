@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T15:23:28Z",
-  "total": 199,
+  "generated_at": "2026-08-06T16:02:37Z",
+  "total": 201,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -3796,6 +3796,46 @@
       "posted_at": "2026-07-21",
       "age": "1mo",
       "collected_at": "2026-07-21T16:40:40Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e9ff0a701a45e958",
+      "company": "Oracle",
+      "title": "OCI Software Engineer Intern - OVIP",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX, Unite...",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334333",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-06",
+      "age": "2mo",
+      "collected_at": "2026-08-06T16:02:37Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f4f2f42cd83f2d77",
+      "company": "Oracle",
+      "title": "OCI Software Engineer Intern - OVIP",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, WA, Unit...",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-06",
+      "age": "2mo",
+      "collected_at": "2026-08-06T16:02:37Z",
       "tags": [
         "software",
         "programming",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T15:27:37Z",
-  "total": 675,
+  "generated_at": "2026-08-06T16:07:15Z",
+  "total": 672,
   "jobs": [
     {
       "id": "8e0836454727c9da",
@@ -689,20 +689,6 @@
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
-      "id": "bc7c7b9957619719",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineering Manager - GPU Communications Libraries",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Manager---GPU-Communications-Libraries_JR1980109",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "14bcca8f3837b2a9",
       "kind": "job",
       "company": "Openai",
@@ -1389,20 +1375,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "5508a82696f5a420",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer I",
-      "location": "United States, Los Angeles, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "10d",
-      "posted_at": "2026-07-27",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5840958004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "f035310cd1ef05fe",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -1413,6 +1385,20 @@
       "date": "10d",
       "posted_at": "2026-07-27",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104600004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "5508a82696f5a420",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer I",
+      "location": "United States, Los Angeles, CA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "10d",
+      "posted_at": "2026-07-27",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5840958004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -1529,20 +1515,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "ad459adc67d9fa13",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II",
-      "location": "United States, San Mateo, CA",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-07-24",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5985241004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "b585719121752ff7",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -1553,6 +1525,20 @@
       "date": "13d",
       "posted_at": "2026-07-24",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "ad459adc67d9fa13",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II",
+      "location": "United States, San Mateo, CA",
+      "level": "mid_level",
+      "role_type": "software_engineer",
+      "date": "13d",
+      "posted_at": "2026-07-24",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5985241004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2481,20 +2467,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "d78f6f48b460fb71",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United Kingdom, Liverpool",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "28d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "bbfac693fc70de24",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2509,20 +2481,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "b60a61280d8b5a9b",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United Kingdom, London",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "28d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "f76c730e27bebfc9",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2533,6 +2491,34 @@
       "date": "28d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "d78f6f48b460fb71",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United Kingdom, Liverpool",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "28d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "b60a61280d8b5a9b",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United Kingdom, London",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "28d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -8838,7 +8824,7 @@
       "company": "hackhere",
       "title": "Nexora",
       "location": "SNS Innovation HUB",
-      "date": "11 days left",
+      "date": "10 days left",
       "posted_at": "2026-08-06",
       "url": "https://nexora.devpost.com/",
       "source": "devpost",
@@ -8910,7 +8896,7 @@
       "company": "IEEE Computer Society SEU SBC",
       "title": "Build With AI Hack Days @ Southeast University",
       "location": "Online",
-      "date": "about 21 hours left",
+      "date": "about 20 hours left",
       "posted_at": "2026-08-06",
       "url": "https://build-with-ai-hack-days-seu.devpost.com/",
       "source": "devpost",
@@ -9145,6 +9131,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "d1ad500a0b138171",
+      "kind": "hackathon",
+      "company": "ReverieHacks",
+      "title": "Reverie Hacks 2026",
+      "location": "Online",
+      "date": "11 days left",
+      "posted_at": "2026-08-06",
+      "url": "https://reverie-hacks-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "8662a5bbc58a19f5",
       "kind": "hackathon",
       "company": "Rice University",
@@ -9253,18 +9251,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "425b19a4f546cc7d",
-      "kind": "hackathon",
-      "company": "Trainzex AI",
-      "title": "Build With Gemini - HackMatrix",
-      "location": "Jaipur",
-      "date": "30 days left",
-      "posted_at": "2026-08-06",
-      "url": "https://hackmatrix-30920.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "9f7bf4fa902d3f16",
       "kind": "hackathon",
       "company": "Women In Product India",
@@ -9303,18 +9289,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-06",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9323,18 +9297,6 @@
       "date": "",
       "posted_at": "2026-08-06",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-06",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
