@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:39:54Z",
+  "generated_at": "2026-08-07T09:14:42Z",
   "total": 198,
   "jobs": [
     {
@@ -816,6 +816,26 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "36a558da58240319",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T09:14:42Z",
       "tags": [
         "software",
         "programming",
@@ -2276,26 +2296,6 @@
       "posted_at": "2026-08-03",
       "age": "0d",
       "collected_at": "2026-08-03T11:42:51Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "84d4583b4f599d07",
-      "company": "Microsoft",
-      "title": "Software Engineer: AI/ML & LLM Intern...",
-      "level": "internship",
-      "country": "United States",
-      "location": "Redmond, Washington, U...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T23:36:45Z",
       "tags": [
         "software",
         "programming",
