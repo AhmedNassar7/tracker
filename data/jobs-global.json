@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T03:17:40Z",
-  "total": 198,
+  "generated_at": "2026-08-07T05:49:33Z",
+  "total": 196,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -1951,11 +1951,11 @@
       "location": "Seattle, WA",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10493224/data-engineer-ii-data-management-team",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-06",
-      "age": "1d",
-      "collected_at": "2026-08-06T15:23:28Z",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "2d",
+      "collected_at": "2026-08-07T05:49:33Z",
       "tags": [
         "software",
         "programming",
@@ -2623,26 +2623,6 @@
       ]
     },
     {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "1w",
-      "collected_at": "2026-08-07T03:17:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "becefb85046fc9c8",
       "company": "Trainline",
       "title": "Junior .NET Engineer - .NET Backend",
@@ -2763,26 +2743,6 @@
       ]
     },
     {
-      "id": "1c826b0a416b09ad",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "10d",
-      "collected_at": "2026-08-07T03:17:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
@@ -2855,26 +2815,6 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
       "age": "2d",
-      "collected_at": "2026-07-30T22:18:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "921fd245dad84f38",
-      "company": "ZoomInfo",
-      "title": "Software Engineer II - SAP ABAP FIORI",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "Bengaluru, Karnataka, India",
-      "remote_type": "onsite",
-      "url": "https://www.zoominfo.com/careers?gh_jid=8555306002",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-27",
-      "age": "3d",
       "collected_at": "2026-07-30T22:18:56Z",
       "tags": [
         "software",
@@ -3383,6 +3323,26 @@
       ]
     },
     {
+      "id": "1c826b0a416b09ad",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "1mo",
+      "collected_at": "2026-08-07T05:49:33Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d71534e0be751568",
       "company": "Pinterest",
       "title": "Software Engineer II, Web",
@@ -3451,11 +3411,11 @@
       "location": "Toronto",
       "remote_type": "onsite",
       "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-08-07",
       "age": "1mo",
-      "collected_at": "2026-08-07T03:17:40Z",
+      "collected_at": "2026-08-07T05:49:33Z",
       "tags": [
         "software",
         "programming",
