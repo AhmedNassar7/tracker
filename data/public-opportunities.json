@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T18:05:05Z",
-  "total": 695,
+  "generated_at": "2026-08-07T19:17:51Z",
+  "total": 694,
   "jobs": [
     {
       "id": "1414ff9ab42f36c7",
@@ -1935,20 +1935,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "26e732befa499b11",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Platform Engineer - Application Networking",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "other",
-      "role_type": "platform",
-      "date": "11d",
-      "posted_at": "2026-07-27",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5812444004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "74dd2c5522e9056a",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2075,7 +2061,7 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "b585719121752ff7",
+      "id": "8e5ce1fe3bf27593",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Software Engineer II",
@@ -2084,7 +2070,7 @@
       "role_type": "software_engineer",
       "date": "14d",
       "posted_at": "2026-07-24",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2103,7 +2089,7 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "8e5ce1fe3bf27593",
+      "id": "b585719121752ff7",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Software Engineer II",
@@ -2112,7 +2098,7 @@
       "role_type": "software_engineer",
       "date": "14d",
       "posted_at": "2026-07-24",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2873,6 +2859,20 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
+      "id": "bbfac693fc70de24",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United States, San Mateo, CA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "29d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "b60a61280d8b5a9b",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2897,20 +2897,6 @@
       "date": "29d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "bbfac693fc70de24",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "29d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3111,20 +3097,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "e7b17ac3b8ffd684",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Staff Software Engineer - DPDK",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "29d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "e8654b3741330c42",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3135,6 +3107,20 @@
       "date": "29d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "e7b17ac3b8ffd684",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Staff Software Engineer - DPDK",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "29d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -8973,6 +8959,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "d3b162e31c049b9f",
+      "kind": "hackathon",
+      "company": "Amazon Web Services",
+      "title": "AWS Trainium Frontier Competition",
+      "location": "Online",
+      "date": "about 2 months left",
+      "posted_at": "2026-08-07",
+      "url": "https://trainium-frontier.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "f868559e521b0d53",
       "kind": "hackathon",
       "company": "arm",
@@ -9026,7 +9024,7 @@
       "company": "BuildBeyond",
       "title": "Build Beyond Hackathon",
       "location": "Online",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-08-07",
       "url": "https://build-beyond-hackathon.devpost.com/",
       "source": "devpost",
@@ -9077,18 +9075,6 @@
       "date": "3 days left",
       "posted_at": "2026-08-07",
       "url": "https://datahub.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "de624d5ac4eb8afd",
-      "kind": "hackathon",
-      "company": "Dialogate",
-      "title": "VoltHacks",
-      "location": "Online",
-      "date": "29 days left",
-      "posted_at": "2026-08-07",
-      "url": "https://volthacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9218,7 +9204,7 @@
       "company": "HackTheLimit",
       "title": "Hack The Limit",
       "location": "Online",
-      "date": "23 days left",
+      "date": "22 days left",
       "posted_at": "2026-08-07",
       "url": "https://hack-the-limit-1.devpost.com/",
       "source": "devpost",
@@ -9242,7 +9228,7 @@
       "company": "ImpactForge",
       "title": "ImpactForge",
       "location": "Online",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-08-07",
       "url": "https://impactforge.devpost.com/",
       "source": "devpost",
@@ -9266,7 +9252,7 @@
       "company": "Innovation Hacks",
       "title": "NextGen Innovation2026",
       "location": "Online",
-      "date": "about 18 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-08-07",
       "url": "https://nextgen-innovation-2026.devpost.com/",
       "source": "devpost",
@@ -9290,7 +9276,7 @@
       "company": "James Logan High School",
       "title": "AQX Sports Analytics Data Bowl 3.0",
       "location": "Online",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-08-07",
       "url": "https://aqxanalyticsthree.devpost.com/",
       "source": "devpost",
@@ -9350,7 +9336,7 @@
       "company": "ML Empowerment Foundation",
       "title": "ML Empowerment Build Challenge 2.0",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-08-07",
       "url": "https://ml-empowerment-2.devpost.com/",
       "source": "devpost",
