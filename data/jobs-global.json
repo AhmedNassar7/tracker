@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T05:49:33Z",
-  "total": 196,
+  "generated_at": "2026-08-07T07:39:54Z",
+  "total": 198,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -53,26 +53,6 @@
       "url": "https://joinbytedance.com/search/7670009669494704437?utm_source=github-vansh-ouckah",
       "source": "vanshb03_summer_internships",
       "source_url": "https://github.com/vanshb03/Summer2027-Internships",
-      "posted_at": "2026-08-06",
-      "age": "0d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ba35424657a379e0",
-      "company": "ByteDance",
-      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-08-06",
       "age": "0d",
       "collected_at": "2026-08-06T15:23:28Z",
@@ -1463,6 +1443,26 @@
       ]
     },
     {
+      "id": "08629f37a73cf4dc",
+      "company": "Roblox",
+      "title": "[2027] Software Engineer, Early Career",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Mateo, CA, United States",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "0d",
+      "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2e03e268c36df0fd",
       "company": "Roblox",
       "title": "New Grad 2025: Software Engineer, Game Solutions Engineering",
@@ -1763,6 +1763,46 @@
       ]
     },
     {
+      "id": "5319fc8fec65d19c",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
+      "level": "internship",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-07",
+      "age": "1d",
+      "collected_at": "2026-08-07T07:39:54Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ba35424657a379e0",
+      "company": "ByteDance",
+      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-06",
+      "age": "0d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "c15d900208d07885",
       "company": "ByteDance",
       "title": "GPU/AI Application System Software Engineer Intern - System Technologies and Engineering",
@@ -1843,6 +1883,26 @@
       ]
     },
     {
+      "id": "e52f5396811272da",
+      "company": "Freightgain online technologies private limited",
+      "title": "Junior Python Developer",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "MH, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=a442e1acd2239145",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "1d",
+      "collected_at": "2026-08-07T07:39:54Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "b5cfb2ab59203b6e",
       "company": "JPMorganChase",
       "title": "Site Reliability Engineer II",
@@ -1876,26 +1936,6 @@
       "posted_at": "2026-08-03",
       "age": "3d",
       "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "08629f37a73cf4dc",
-      "company": "Roblox",
-      "title": "[2027] Software Engineer, Early Career",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Mateo, CA, United States",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "0d",
-      "collected_at": "2026-08-06T23:36:45Z",
       "tags": [
         "software",
         "programming",
@@ -1951,11 +1991,11 @@
       "location": "Seattle, WA",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10493224/data-engineer-ii-data-management-team",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-07",
       "age": "2d",
-      "collected_at": "2026-08-07T05:49:33Z",
+      "collected_at": "2026-08-07T07:39:54Z",
       "tags": [
         "software",
         "programming",
@@ -2111,11 +2151,11 @@
       "location": "Sunnyvale, Santa Clara",
       "remote_type": "onsite",
       "url": "https://www.uber.com/global/en/careers/list/303619/",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-07",
       "age": "2d",
-      "collected_at": "2026-08-07T03:17:40Z",
+      "collected_at": "2026-08-07T07:39:54Z",
       "tags": [
         "software",
         "programming",
@@ -2196,26 +2236,6 @@
       "posted_at": "2026-08-03",
       "age": "0d",
       "collected_at": "2026-08-03T11:42:51Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5a9b57a990547181",
-      "company": "HarmonyTech",
-      "title": "Junior Software Developer - .NET",
-      "level": "junior",
-      "country": "Unknown",
-      "location": "Herndon, VA",
-      "remote_type": "onsite",
-      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-03",
-      "age": "0d",
-      "collected_at": "2026-08-03T07:45:02Z",
       "tags": [
         "software",
         "programming",
@@ -2356,6 +2376,26 @@
       "posted_at": "2026-08-04",
       "age": "2d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5a9b57a990547181",
+      "company": "HarmonyTech",
+      "title": "Junior Software Developer - .NET",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "Herndon, VA",
+      "remote_type": "onsite",
+      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T07:45:02Z",
       "tags": [
         "software",
         "programming",
