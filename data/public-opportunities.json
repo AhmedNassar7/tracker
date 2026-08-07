@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T19:17:51Z",
-  "total": 694,
+  "generated_at": "2026-08-07T20:04:37Z",
+  "total": 691,
   "jobs": [
     {
       "id": "1414ff9ab42f36c7",
@@ -1221,20 +1221,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "9f85c51500d01add",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineer, Storage",
-      "location": "Israel, Raanana",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Engineer--Storage_JR2005235",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "c5422e92b9c04a7b",
       "kind": "job",
       "company": "NVIDIA",
@@ -1361,20 +1347,6 @@
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
-      "id": "74477d0557d272a1",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "System Software Engineer, UEFI Firmware",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, CO, Boulder</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2022276",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "9d1866fa05916e1f",
       "kind": "job",
       "company": "Openai",
@@ -1443,20 +1415,6 @@
       "url": "https://jobs.smartrecruiters.com/Wise/744000141690789",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "124a4a94b31569bf",
-      "kind": "job",
-      "company": "Intel",
-      "title": "Senior Software Engineer",
-      "location": "US, Arizona, Phoenix",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Senior-Software-Engineer_JR0286219",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "14bcca8f3837b2a9",
@@ -2061,7 +2019,7 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "8e5ce1fe3bf27593",
+      "id": "b585719121752ff7",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Software Engineer II",
@@ -2070,7 +2028,7 @@
       "role_type": "software_engineer",
       "date": "14d",
       "posted_at": "2026-07-24",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2089,7 +2047,7 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "b585719121752ff7",
+      "id": "8e5ce1fe3bf27593",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Software Engineer II",
@@ -2098,7 +2056,7 @@
       "role_type": "software_engineer",
       "date": "14d",
       "posted_at": "2026-07-24",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2845,16 +2803,16 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "f76c730e27bebfc9",
+      "id": "b60a61280d8b5a9b",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
+      "location": "United Kingdom, London",
       "level": "other",
       "role_type": "software_engineer",
       "date": "29d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2873,16 +2831,16 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "b60a61280d8b5a9b",
+      "id": "f76c730e27bebfc9",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Senior Software Engineer",
-      "location": "United Kingdom, London",
+      "location": "United States, San Mateo, CA",
       "level": "other",
       "role_type": "software_engineer",
       "date": "29d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3013,20 +2971,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "1aa5c9f1e048c079",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II",
-      "location": "United States, San Mateo, CA",
-      "level": "mid_level",
-      "role_type": "software_engineer",
-      "date": "29d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101023004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "3d56e4683623cf5b",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3037,6 +2981,20 @@
       "date": "29d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5995645004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "1aa5c9f1e048c079",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II",
+      "location": "United States, San Mateo, CA",
+      "level": "mid_level",
+      "role_type": "software_engineer",
+      "date": "29d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101023004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3097,20 +3055,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "e8654b3741330c42",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Staff Software Engineer - DPDK",
-      "location": "United States, Remote",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "29d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "e7b17ac3b8ffd684",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3121,6 +3065,20 @@
       "date": "29d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "e8654b3741330c42",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Staff Software Engineer - DPDK",
+      "location": "United States, Remote",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "29d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -9360,7 +9318,7 @@
       "company": "NeuralSprint",
       "title": "NeuralSprint",
       "location": "Online",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-08-07",
       "url": "https://neuralsprint.devpost.com/",
       "source": "devpost",
@@ -9540,7 +9498,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Summer Impactathon",
       "location": "Online",
-      "date": "3 days left",
+      "date": "2 days left",
       "posted_at": "2026-08-07",
       "url": "https://csc-summer-impactathon.devpost.com/",
       "source": "devpost",

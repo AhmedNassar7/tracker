@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-08-07T19:13:52Z",
-  "total": 203,
+  "generated_at": "2026-08-07T20:00:06Z",
+  "total": 204,
   "jobs": [
+    {
+      "id": "12bc66fa8157b50b",
+      "company": "Amazon Development Centre Canada ULC",
+      "title": "Data Engineer II, Alexa Audio",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Vancouver, BC",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10496221/data-engineer-ii-alexa-audio",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T20:00:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "bf17c108c5cd3259",
       "company": "Apple",
@@ -1043,6 +1063,26 @@
       ]
     },
     {
+      "id": "608a093a1e5c0194",
+      "company": "Meta",
+      "title": "New Grad 2026: Product Security Engineer",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Bellevue, WA Menlo Park, CA",
+      "remote_type": "onsite",
+      "url": "https://www.metacareers.com/jobs/609052015548260?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T20:00:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cfad94fecd82f215",
       "company": "Microsoft",
       "title": "Software Engineer Intern, AI/ML & LLM",
@@ -2071,11 +2111,11 @@
       "location": "Seattle, WA",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10493224/data-engineer-ii-data-management-team",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-07",
       "age": "2d",
-      "collected_at": "2026-08-07T19:13:52Z",
+      "collected_at": "2026-08-07T20:00:06Z",
       "tags": [
         "software",
         "programming",
@@ -2116,26 +2156,6 @@
       "posted_at": "2026-08-06",
       "age": "1d",
       "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3a419e6b9aa790db",
-      "company": "Uber",
-      "title": "Machine Learning Engineer II - AV Labs",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Sunnyvale, Santa Clara",
-      "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/303619/",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "2d",
-      "collected_at": "2026-08-07T17:06:21Z",
       "tags": [
         "software",
         "programming",
