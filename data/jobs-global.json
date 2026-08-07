@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T10:13:05Z",
-  "total": 198,
+  "generated_at": "2026-08-07T11:07:59Z",
+  "total": 199,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -956,6 +956,26 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T16:44:07Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3591e0aa9d4277db",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556929363",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T11:07:59Z",
       "tags": [
         "software",
         "programming",
