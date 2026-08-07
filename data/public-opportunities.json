@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T17:10:37Z",
-  "total": 703,
+  "generated_at": "2026-08-07T18:05:05Z",
+  "total": 695,
   "jobs": [
     {
       "id": "1414ff9ab42f36c7",
@@ -43,20 +43,6 @@
       "url": "https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Software-Engineer--Intern-_JR0286207-1",
       "source": "workday:intel",
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
-    },
-    {
-      "id": "c3bf49679964c0d8",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "IT Data Infrastructure Architect - VP",
-      "location": "Glasgow, United Kingdom",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Glasgow-United-Kingdom/IT-Data-Infrastructure-Architect---VP_PT-JR033220",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "3ad062d045e8976f",
@@ -1025,62 +1011,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs?content=true"
     },
     {
-      "id": "8e0836454727c9da",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Executive Director – Site Reliability Engineering – WM Technology",
-      "location": "New York, New York, United States of America",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Executive-Director---Site-Reliability-Engineering---WM-Technology_PT-JR036281",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
-      "id": "7550d7a314946ac4",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Full Stack – Java Application Developer (Hybrid)",
-      "location": "Montreal, Canada",
-      "level": "other",
-      "role_type": "full_stack",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Full-Stack---Java-Application-Developer--Hybrid-_PT-JR041278",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
-      "id": "8f3263714bdd4121",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Senior Java/Scala Developer - Risk Infrastructure (Hybrid)",
-      "location": "Montreal, Canada",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Senior-Java-Scala-Developer-Risk-Infrastructure--Hybrid-_PT-JR040772-1",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
-      "id": "4535be5b57457fa0",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Software Engineer - Backend",
-      "location": "New York, New York, United States of America",
-      "level": "other",
-      "role_type": "backend",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Software-Engineer---Backend_PT-JR041639",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
       "id": "7c44659d90e080bd",
       "kind": "job",
       "company": "Notion",
@@ -1287,20 +1217,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer--NvSci_JR2022897",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "9f32662026ca53f0",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineer - NVLink GPU Networking",
-      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Tel Aviv<br>Israel, Raanana</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer---NVLink-GPU-Networking_JR2016557",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -9254,7 +9170,7 @@
       "company": "Hack the Habitat",
       "title": "Hack the Habitat",
       "location": "Online",
-      "date": "24 days left",
+      "date": "23 days left",
       "posted_at": "2026-08-07",
       "url": "https://hack-the-habitat-2026.devpost.com/",
       "source": "devpost",
@@ -9695,18 +9611,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-07",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9715,18 +9619,6 @@
       "date": "",
       "posted_at": "2026-08-07",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-07",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

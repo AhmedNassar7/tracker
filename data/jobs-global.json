@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T17:06:21Z",
-  "total": 215,
+  "generated_at": "2026-08-07T18:00:52Z",
+  "total": 205,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -871,186 +871,6 @@
       "location": "Los Angeles, CA, US",
       "remote_type": "onsite",
       "url": "https://www.indeed.com/viewjob?jk=d9926ae337be23ac",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "61b775cfe90c94d8",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Sunnyvale, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=6b88bfe77c8fb97e",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d53f857cbc12f6ac",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Bruno, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=4e53c06ab5f1ca6d",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ad612ab6cb740e94",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Mountain View, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=97e2670684f7c55d",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "25662d205939df8d",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Pittsburgh, PA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=2aee19b91117eda6",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c3f1e4821fc626b6",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=c7efaa959ceef880",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "104bf0f731ef7e13",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Seattle, WA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=eb9c3456b43c9ae6",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6661d28f4191b31f",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Cambridge, MA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=05f6e5b8b18abe83",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a2fe6976a5730491",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "New York, NY, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=e6489bd83820f079",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "003786684451c501",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Kirkland, WA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=32c6986154298136",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-07",
@@ -2183,26 +2003,6 @@
       ]
     },
     {
-      "id": "e52f5396811272da",
-      "company": "Freightgain online technologies private limited",
-      "title": "Junior Python Developer",
-      "level": "junior",
-      "country": "Unknown",
-      "location": "MH, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=a442e1acd2239145",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "1d",
-      "collected_at": "2026-08-07T07:39:54Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "b5cfb2ab59203b6e",
       "company": "JPMorganChase",
       "title": "Site Reliability Engineer II",
@@ -2956,26 +2756,6 @@
       "posted_at": "2026-08-06",
       "age": "1w",
       "collected_at": "2026-08-06T23:36:45Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "1w",
-      "collected_at": "2026-08-07T17:06:21Z",
       "tags": [
         "software",
         "programming",
@@ -4043,6 +3823,26 @@
       ]
     },
     {
+      "id": "8f07a852351cfac5",
+      "company": "Instacart",
+      "title": "Software Engineer II, Technical Searc...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Remote (ON, AB, BC, or...",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=7963661",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "2mo",
+      "collected_at": "2026-08-07T18:00:52Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "99e702d10db39f9b",
       "company": "NVIDIA",
       "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
@@ -4171,11 +3971,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-08-07",
       "age": "3mo",
-      "collected_at": "2026-08-07T16:08:14Z",
+      "collected_at": "2026-08-07T18:00:52Z",
       "tags": [
         "software",
         "programming",
