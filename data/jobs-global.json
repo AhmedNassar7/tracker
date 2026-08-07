@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T18:00:52Z",
-  "total": 205,
+  "generated_at": "2026-08-07T19:13:52Z",
+  "total": 203,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -856,26 +856,6 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c2be074a69832916",
-      "company": "Google",
-      "title": "Software Engineer, Early Career, Campus",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Los Angeles, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=d9926ae337be23ac",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T16:08:14Z",
       "tags": [
         "software",
         "programming",
@@ -2091,11 +2071,11 @@
       "location": "Seattle, WA",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10493224/data-engineer-ii-data-management-team",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-08-07",
       "age": "2d",
-      "collected_at": "2026-08-07T07:39:54Z",
+      "collected_at": "2026-08-07T19:13:52Z",
       "tags": [
         "software",
         "programming",
@@ -2323,26 +2303,6 @@
       ]
     },
     {
-      "id": "8c7a759de29d75c5",
-      "company": "Okta",
-      "title": "Software Engineer II, Developer Tooli...",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, Ontario, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "3d",
-      "collected_at": "2026-08-07T15:08:11Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "221ef6dcbfc7f668",
       "company": "JPMorganChase",
       "title": "Compliance - Applied AI/ML Data Scientist - Associate",
@@ -2516,6 +2476,26 @@
       "posted_at": "2026-08-06",
       "age": "3d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8c7a759de29d75c5",
+      "company": "Okta",
+      "title": "Software Engineer II, Developer Tooli...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, Ontario, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "3d",
+      "collected_at": "2026-08-07T15:08:11Z",
       "tags": [
         "software",
         "programming",
@@ -3823,26 +3803,6 @@
       ]
     },
     {
-      "id": "8f07a852351cfac5",
-      "company": "Instacart",
-      "title": "Software Engineer II, Technical Searc...",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Remote (ON, AB, BC, or...",
-      "remote_type": "remote",
-      "url": "https://instacart.careers/job/?gh_jid=7963661",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "2mo",
-      "collected_at": "2026-08-07T18:00:52Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "99e702d10db39f9b",
       "company": "NVIDIA",
       "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
@@ -3971,11 +3931,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-08-07",
       "age": "3mo",
-      "collected_at": "2026-08-07T18:00:52Z",
+      "collected_at": "2026-08-07T19:13:52Z",
       "tags": [
         "software",
         "programming",
