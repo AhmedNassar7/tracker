@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T22:54:36Z",
-  "total": 200,
+  "generated_at": "2026-08-07T23:47:24Z",
+  "total": 203,
   "jobs": [
     {
       "id": "12bc66fa8157b50b",
@@ -783,6 +783,26 @@
       ]
     },
     {
+      "id": "37234a7f51864d35",
+      "company": "Epic Games",
+      "title": "Machine Learning Intern - Special Projects - Epic Research Group 🎓",
+      "level": "internship",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T23:47:24Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "028681d9b2d8b499",
       "company": "Google",
       "title": "New Grad 2026: Software Engineer",
@@ -1036,6 +1056,26 @@
       "posted_at": "2026-07-29",
       "age": "0d",
       "collected_at": "2026-07-29T23:15:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d70cc86f623362a1",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II - Backend Python...",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Plano, TX, United States",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210750169",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T23:47:24Z",
       "tags": [
         "software",
         "programming",
@@ -2123,26 +2163,6 @@
       ]
     },
     {
-      "id": "3a419e6b9aa790db",
-      "company": "Uber",
-      "title": "Machine Learning Engineer II - AV Labs",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Sunnyvale, Santa Clara",
-      "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/303619/",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "2d",
-      "collected_at": "2026-08-07T22:54:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5d1ecca6b6113aa7",
       "company": "Instacart",
       "title": "Software Engineer II, Technical Search Visibility",
@@ -2316,6 +2336,26 @@
       "posted_at": "2026-08-06",
       "age": "1d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3a419e6b9aa790db",
+      "company": "Uber",
+      "title": "Machine Learning Engineer II - AV Labs",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Sunnyvale, Santa Clara",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/303619/",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "2d",
+      "collected_at": "2026-08-07T22:54:36Z",
       "tags": [
         "software",
         "programming",
@@ -2736,6 +2776,26 @@
       "posted_at": "2026-08-06",
       "age": "1w",
       "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "1w",
+      "collected_at": "2026-08-07T23:47:24Z",
       "tags": [
         "software",
         "programming",
