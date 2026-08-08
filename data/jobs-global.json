@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T20:46:54Z",
-  "total": 205,
+  "generated_at": "2026-08-08T21:44:24Z",
+  "total": 207,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -903,6 +903,26 @@
       ]
     },
     {
+      "id": "cd77e51d71dd8b27",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II: Data Engineer",
+      "level": "mid_level",
+      "country": "Unknown",
+      "location": "Jersey City, NJ, Unite...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210739969",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "0d",
+      "collected_at": "2026-08-08T21:44:24Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
       "title": "Junior to Intermediate Data Engineer",
@@ -936,26 +956,6 @@
       "posted_at": "2026-08-08",
       "age": "0d",
       "collected_at": "2026-08-08T04:20:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "bb0c89a310bce06c",
-      "company": "Microsoft",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Redmond, Washington, U...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-08",
-      "age": "0d",
-      "collected_at": "2026-08-08T02:20:30Z",
       "tags": [
         "software",
         "programming",
@@ -1836,6 +1836,26 @@
       "posted_at": "2026-08-07",
       "age": "0d",
       "collected_at": "2026-08-07T17:06:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "bb0c89a310bce06c",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Redmond, Washington, U...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "0d",
+      "collected_at": "2026-08-08T02:20:30Z",
       "tags": [
         "software",
         "programming",
@@ -2776,6 +2796,26 @@
       "posted_at": "2026-08-06",
       "age": "1w",
       "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "1w",
+      "collected_at": "2026-08-08T21:44:24Z",
       "tags": [
         "software",
         "programming",
