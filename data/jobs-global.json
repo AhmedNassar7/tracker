@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T22:46:00Z",
+  "generated_at": "2026-08-08T23:43:45Z",
   "total": 205,
   "jobs": [
     {
@@ -2111,11 +2111,11 @@
       "location": "Seattle, WA",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10493224/data-engineer-ii-data-management-team",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "2d",
-      "collected_at": "2026-08-07T20:57:28Z",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "3d",
+      "collected_at": "2026-08-08T23:43:45Z",
       "tags": [
         "software",
         "programming",
@@ -2176,26 +2176,6 @@
       "posted_at": "2026-08-08",
       "age": "2d",
       "collected_at": "2026-08-08T13:56:34Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3a419e6b9aa790db",
-      "company": "Uber",
-      "title": "Machine Learning Engineer II - AV Labs",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Sunnyvale, Santa Clara",
-      "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/303619/",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-08",
-      "age": "3d",
-      "collected_at": "2026-08-08T04:20:15Z",
       "tags": [
         "software",
         "programming",
@@ -2376,6 +2356,26 @@
       "posted_at": "2026-08-06",
       "age": "1d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3a419e6b9aa790db",
+      "company": "Uber",
+      "title": "Machine Learning Engineer II - AV Labs",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Sunnyvale, Santa Clara",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/303619/",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "3d",
+      "collected_at": "2026-08-08T04:20:15Z",
       "tags": [
         "software",
         "programming",
@@ -2943,19 +2943,19 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "1c826b0a416b09ad",
       "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
+      "title": "Software Engineer II, Android",
       "level": "mid_level",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
-      "age": "2d",
-      "collected_at": "2026-07-30T22:18:56Z",
+      "age": "11d",
+      "collected_at": "2026-08-08T23:43:45Z",
       "tags": [
         "software",
         "programming",
@@ -2971,6 +2971,26 @@
       "location": "Toronto, ON, CA",
       "remote_type": "onsite",
       "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "2d",
+      "collected_at": "2026-07-30T22:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e3eeae369030798f",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3436,26 +3456,6 @@
       "posted_at": "2026-07-15",
       "age": "15d",
       "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1c826b0a416b09ad",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-08",
-      "age": "1mo",
-      "collected_at": "2026-08-08T20:46:54Z",
       "tags": [
         "software",
         "programming",
