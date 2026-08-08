@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T11:41:21Z",
+  "generated_at": "2026-08-08T13:11:11Z",
   "total": 206,
   "jobs": [
     {
@@ -1863,26 +1863,6 @@
       ]
     },
     {
-      "id": "528900449981b412",
-      "company": "Roblox",
-      "title": "Summer 2027 Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Mateo, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "0d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "4d89a5d111e3cbaf",
       "company": "Google",
       "title": "Software Developer, Early Career, Campus",
@@ -2083,16 +2063,16 @@
       ]
     },
     {
-      "id": "d62ebe9a690265a4",
+      "id": "528900449981b412",
       "company": "Roblox",
-      "title": "Software Engineer Intern",
+      "title": "Summer 2027 Software Engineer Intern",
       "level": "internship",
       "country": "Unknown",
       "location": "San Mateo, CA",
       "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-06",
       "age": "0d",
       "collected_at": "2026-08-06T15:23:28Z",
@@ -2203,106 +2183,6 @@
       ]
     },
     {
-      "id": "81b7064d117d7445",
-      "company": "Microsoft",
-      "title": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2d86d615f91b6a77",
-      "company": "Microsoft",
-      "title": "Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students - Redmond",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922923",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d04c76f5519b617d",
-      "company": "Microsoft",
-      "title": "Software Engineer: Data Platform/Analytics Intern Opportunities for University Students - Redmond",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922931",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "194123aeadf38079",
-      "company": "Microsoft",
-      "title": "Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922922",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c35713fc15a34ae9",
-      "company": "Microsoft",
-      "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "6ab659b51db44551",
       "company": "Sony Interactive Entertainment",
       "title": "Software Engineer II / Software Devel...",
@@ -2403,18 +2283,18 @@
       ]
     },
     {
-      "id": "79e22881541bb82c",
-      "company": "Intel",
-      "title": "AI Software Engineer Graduate Intern",
+      "id": "81b7064d117d7445",
+      "company": "Microsoft",
+      "title": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond",
       "level": "internship",
       "country": "United States",
-      "location": "Remote - USA",
-      "remote_type": "remote",
-      "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
       "source": "speedyapply_swe",
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-06",
-      "age": "3d",
+      "age": "2d",
       "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
@@ -2423,18 +2303,78 @@
       ]
     },
     {
-      "id": "3270629d3b451866",
+      "id": "2d86d615f91b6a77",
       "company": "Microsoft",
-      "title": "Software Engineer: Intern Opportunities for University Students - CoreAI",
+      "title": "Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students - Redmond",
       "level": "internship",
       "country": "United States",
       "location": "Washington, DC",
       "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922923",
       "source": "speedyapply_swe",
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-06",
-      "age": "3d",
+      "age": "2d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d04c76f5519b617d",
+      "company": "Microsoft",
+      "title": "Software Engineer: Data Platform/Analytics Intern Opportunities for University Students - Redmond",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922931",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "2d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "194123aeadf38079",
+      "company": "Microsoft",
+      "title": "Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922922",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "2d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c35713fc15a34ae9",
+      "company": "Microsoft",
+      "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "2d",
       "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
@@ -2583,6 +2523,26 @@
       ]
     },
     {
+      "id": "79e22881541bb82c",
+      "company": "Intel",
+      "title": "AI Software Engineer Graduate Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "Remote - USA",
+      "remote_type": "remote",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "3d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "ac69770dbba7e2da",
       "company": "Microsoft",
       "title": "Software Engineer Intern - CoreAI",
@@ -2596,6 +2556,26 @@
       "posted_at": "2026-08-03",
       "age": "0d",
       "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3270629d3b451866",
+      "company": "Microsoft",
+      "title": "Software Engineer: Intern Opportunities for University Students - CoreAI",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "3d",
+      "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
         "programming",
@@ -2816,6 +2796,26 @@
       "posted_at": "2026-08-06",
       "age": "1w",
       "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "1w",
+      "collected_at": "2026-08-08T13:11:11Z",
       "tags": [
         "software",
         "programming",
@@ -3203,6 +3203,26 @@
       ]
     },
     {
+      "id": "d530f67da5b76ff6",
+      "company": "Citadel Securities",
+      "title": "Software Engineer – University Graduate",
+      "level": "new_grad",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "0d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "77d97c5b772d74b1",
       "company": "Cloudflare",
       "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
@@ -3223,19 +3243,19 @@
       ]
     },
     {
-      "id": "d530f67da5b76ff6",
-      "company": "Citadel Securities",
-      "title": "Software Engineer – University Graduate",
-      "level": "new_grad",
-      "country": "United Kingdom",
-      "location": "London, UK",
+      "id": "39170ffa9c9e83ca",
+      "company": "Hudson River Trading",
+      "title": "Software Engineer Intern - C++ or Python",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX Chicago, IL NYC",
       "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "0d",
-      "collected_at": "2026-07-15T12:58:43Z",
+      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-30",
+      "age": "16d",
+      "collected_at": "2026-07-30T03:30:30Z",
       "tags": [
         "software",
         "programming",
@@ -3276,26 +3296,6 @@
       "posted_at": "2026-07-17",
       "age": "3d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "39170ffa9c9e83ca",
-      "company": "Hudson River Trading",
-      "title": "Software Engineer Intern - C++ or Python",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX Chicago, IL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-30",
-      "age": "16d",
-      "collected_at": "2026-07-30T03:30:30Z",
       "tags": [
         "software",
         "programming",

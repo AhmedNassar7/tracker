@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T11:45:46Z",
-  "total": 691,
+  "generated_at": "2026-08-08T13:15:16Z",
+  "total": 694,
   "jobs": [
     {
       "id": "1414ff9ab42f36c7",
@@ -491,6 +491,20 @@
       "url": "https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Systems-Software-Engineer-with-uArch-Expertise--Temporary-Position_JR0286208",
       "source": "workday:intel",
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "c3bf49679964c0d8",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "IT Data Infrastructure Architect - VP",
+      "location": "Glasgow, United Kingdom",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Glasgow-United-Kingdom/IT-Data-Infrastructure-Architect---VP_PT-JR033220",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "3ad062d045e8976f",
@@ -1135,6 +1149,34 @@
       "url": "https://jobs.ashbyhq.com/cohere/8ac3ed85-e315-443b-bc13-e7a0b900b922",
       "source": "ashby:cohere",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
+    },
+    {
+      "id": "7550d7a314946ac4",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Full Stack – Java Application Developer (Hybrid)",
+      "location": "Montreal, Canada",
+      "level": "other",
+      "role_type": "full_stack",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Full-Stack---Java-Application-Developer--Hybrid-_PT-JR041278",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
+      "id": "4535be5b57457fa0",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Software Engineer - Backend",
+      "location": "New York, New York, United States of America",
+      "level": "other",
+      "role_type": "backend",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Software-Engineer---Backend_PT-JR041639",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "7c44659d90e080bd",
@@ -9090,7 +9132,7 @@
       "company": "Google",
       "title": "All Things Agentic Hackathon",
       "location": "Online",
-      "date": "24 days left",
+      "date": "23 days left",
       "posted_at": "2026-08-08",
       "url": "https://allthingsagentichackathon.devpost.com/",
       "source": "devpost",
@@ -9117,18 +9159,6 @@
       "date": "23 days left",
       "posted_at": "2026-08-08",
       "url": "https://hack-the-habitat-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "eadeb7c439f9ff6d",
-      "kind": "hackathon",
-      "company": "Hack4Brahma",
-      "title": "Hack Days Nagaland",
-      "location": "Dimapur, Nagaland",
-      "date": "about 1 hour left",
-      "posted_at": "2026-08-08",
-      "url": "https://hack-days-nagaland.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9210,7 +9240,7 @@
       "company": "IncludEDU, partner w Stanford NNEA",
       "title": "IncludAI - The Neurodiversity Hackathon, in Partnership with Stanford NNEA",
       "location": "Online",
-      "date": "about 19 hours left",
+      "date": "about 18 hours left",
       "posted_at": "2026-08-08",
       "url": "https://includai-2026.devpost.com/",
       "source": "devpost",
@@ -9342,7 +9372,7 @@
       "company": "OurPlanet.Rocks",
       "title": "OurPlanet.Rocks",
       "location": "Online",
-      "date": "2 days left",
+      "date": "1 day left",
       "posted_at": "2026-08-08",
       "url": "https://ourplanetrocks.devpost.com/",
       "source": "devpost",
@@ -9393,6 +9423,18 @@
       "date": "13 days left",
       "posted_at": "2026-08-08",
       "url": "https://quantumhacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "d1ad500a0b138171",
+      "kind": "hackathon",
+      "company": "ReverieHacks",
+      "title": "Reverie Hacks 2026",
+      "location": "Online",
+      "date": "9 days left",
+      "posted_at": "2026-08-08",
+      "url": "https://reverie-hacks-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
