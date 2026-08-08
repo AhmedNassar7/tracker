@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:45:01Z",
+  "generated_at": "2026-08-08T16:50:44Z",
   "total": 227,
   "by_level": {
     "new_grad": 102,
@@ -12,10 +12,10 @@
     "United States": 147,
     "Unknown": 44,
     "Remote": 1,
-    "Canada": 25,
     "United Kingdom": 8,
     "Poland": 1,
-    "France": 1
+    "France": 1,
+    "Canada": 25
   },
   "by_source": {
     "vanshb03_newgrad": 63,
