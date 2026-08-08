@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T08:01:02Z",
-  "total": 208,
+  "generated_at": "2026-08-08T08:58:51Z",
+  "total": 206,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -2123,26 +2123,6 @@
       ]
     },
     {
-      "id": "b5cfb2ab59203b6e",
-      "company": "JPMorganChase",
-      "title": "Site Reliability Engineer II",
-      "level": "mid_level",
-      "country": "Unknown",
-      "location": "MH, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=da3349942ec51fb0",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "1d",
-      "collected_at": "2026-08-07T03:17:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "78dd42daf48c79bb",
       "company": "Pinterest",
       "title": "Software Engineer II, Android",
@@ -2836,26 +2816,6 @@
       "posted_at": "2026-08-06",
       "age": "1w",
       "collected_at": "2026-08-06T23:36:45Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-08",
-      "age": "1w",
-      "collected_at": "2026-08-08T07:13:45Z",
       "tags": [
         "software",
         "programming",

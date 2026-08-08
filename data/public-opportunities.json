@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T08:05:19Z",
-  "total": 685,
+  "generated_at": "2026-08-08T09:03:18Z",
+  "total": 692,
   "jobs": [
     {
       "id": "1414ff9ab42f36c7",
@@ -451,18 +451,46 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs?content=true"
     },
     {
-      "id": "c3bf49679964c0d8",
+      "id": "c50552e1cd29a1f1",
       "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "IT Data Infrastructure Architect - VP",
-      "location": "Glasgow, United Kingdom",
+      "company": "Intel",
+      "title": "AI Infrastructure Engineer",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, California, Santa Clara<br>US, Oregon, Hillsboro<br>US, California, Folsom<br>US, Texas, Austin</details>",
       "level": "other",
       "role_type": "infrastructure",
       "date": "1d",
       "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Glasgow-United-Kingdom/IT-Data-Infrastructure-Architect---VP_PT-JR033220",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Infrastructure-Engineer_JR0286233",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "43d63a3bc62ed69d",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Software Engineer (Intern)",
+      "location": "Mexico, Guadalajara",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Software-Engineer--Intern-_JR0286207-1",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "762c21c1943c7199",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Systems Software Engineer with uArch Expertise- Temporary Position",
+      "location": "Mexico, Guadalajara",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Systems-Software-Engineer-with-uArch-Expertise--Temporary-Position_JR0286208",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
       "id": "3ad062d045e8976f",
@@ -1109,34 +1137,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
-      "id": "7550d7a314946ac4",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Full Stack – Java Application Developer (Hybrid)",
-      "location": "Montreal, Canada",
-      "level": "other",
-      "role_type": "full_stack",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Full-Stack---Java-Application-Developer--Hybrid-_PT-JR041278",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
-      "id": "4535be5b57457fa0",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Software Engineer - Backend",
-      "location": "New York, New York, United States of America",
-      "level": "other",
-      "role_type": "backend",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Software-Engineer---Backend_PT-JR041639",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
       "id": "7c44659d90e080bd",
       "kind": "job",
       "company": "Notion",
@@ -1389,6 +1389,20 @@
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
+      "id": "9dd0d902ca1fd638",
+      "kind": "job",
+      "company": "Intel",
+      "title": "AI Full Stack Engineer",
+      "location": "US, Oregon, Hillsboro",
+      "level": "other",
+      "role_type": "full_stack",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Full-Stack-Engineer_JR0286065",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
       "id": "9d1866fa05916e1f",
       "kind": "job",
       "company": "Openai",
@@ -1429,6 +1443,20 @@
       "url": "https://jobs.ashbyhq.com/openai/da07ba71-81fd-47c7-adb1-2b2d1eaed325",
       "source": "ashby:openai",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
+    },
+    {
+      "id": "41f4a4658cf7e08e",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Staff Software Engineer",
+      "location": "Work from Home-CA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Work-from-Home-CA/Staff-Software-Engineer_JR-119434",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
     },
     {
       "id": "48dcc4d6dce5415b",
@@ -1501,6 +1529,20 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
+      "id": "45f7a0c77d6d7673",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Senior Software Engineer I",
+      "location": "<details><summary><strong>2 locations</strong></summary>San Diego<br>Los Angeles</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Senior-Software-Engineer-I_JR-119435",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
+    },
+    {
       "id": "c8011c05f3dfda7b",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -1515,20 +1557,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "cb20f6a438518f12",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer (Frontend), Social",
-      "location": "United States, Los Angeles, CA",
-      "level": "other",
-      "role_type": "frontend",
-      "date": "4d",
-      "posted_at": "2026-08-04",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "3ce2517841ac0ee2",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -1539,6 +1567,20 @@
       "date": "4d",
       "posted_at": "2026-08-04",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "cb20f6a438518f12",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer (Frontend), Social",
+      "location": "United States, Los Angeles, CA",
+      "level": "other",
+      "role_type": "frontend",
+      "date": "4d",
+      "posted_at": "2026-08-04",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -1585,20 +1627,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "7c616ae6112e2acb",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II, Data Platform",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "mid_level",
-      "role_type": "platform",
-      "date": "4d",
-      "posted_at": "2026-08-04",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133925004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "8624f9b69f27e6ce",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -1609,6 +1637,20 @@
       "date": "4d",
       "posted_at": "2026-08-04",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133926004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "7c616ae6112e2acb",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II, Data Platform",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "mid_level",
+      "role_type": "platform",
+      "date": "4d",
+      "posted_at": "2026-08-04",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133925004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2495,6 +2537,20 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
+      "id": "e2cff3074eafc6cf",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Senior AI Software Engineer - Neuromorphic Computing",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, Oregon, Hillsboro<br>US, California, Santa Clara<br>US, Texas, Austin</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "25d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-AI-Software-Engineer---Neuromorphic-Computing_JR0282751",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
       "id": "277be340e64e288a",
       "kind": "job",
       "company": "Notion",
@@ -2663,6 +2719,20 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/clickhouse"
     },
     {
+      "id": "eab2bb3f3ce58c85",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Hardware Platform Applications Engineer - Military & Aerospace",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, Arizona, Phoenix<br>US, Oregon, Hillsboro<br>US, California, Folsom<br>US, California, Santa Clara</details>",
+      "level": "other",
+      "role_type": "platform",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
       "id": "c98b8d27b045086a",
       "kind": "job",
       "company": "Openai",
@@ -2733,6 +2803,34 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/plaid"
     },
     {
+      "id": "123f4a942d94b029",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "location": "San Diego",
+      "level": "internship",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
+    },
+    {
+      "id": "0c7f6192cd4a600a",
+      "kind": "job",
+      "company": "Sony",
+      "title": "Sr. Software Engineer, AI Native",
+      "location": "NA / Culver City 10202 W. Washington 37.5",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291",
+      "source": "workday:sonyglobal",
+      "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
+    },
+    {
       "id": "c379a72e9e585297",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2789,16 +2887,16 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "b60a61280d8b5a9b",
+      "id": "f76c730e27bebfc9",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Senior Software Engineer",
-      "location": "United Kingdom, London",
+      "location": "United States, San Mateo, CA",
       "level": "other",
       "role_type": "software_engineer",
       "date": "30d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2817,20 +2915,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "f76c730e27bebfc9",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "30d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "d78f6f48b460fb71",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2841,6 +2925,20 @@
       "date": "30d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "b60a61280d8b5a9b",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United Kingdom, London",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3027,20 +3125,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "e7b17ac3b8ffd684",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Staff Software Engineer - DPDK",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "30d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "e8654b3741330c42",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3051,6 +3135,20 @@
       "date": "30d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "e7b17ac3b8ffd684",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Staff Software Engineer - DPDK",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -9030,7 +9128,7 @@
       "company": "Hack4Brahma",
       "title": "Hack Days Nagaland",
       "location": "Dimapur, Nagaland",
-      "date": "about 5 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-08-08",
       "url": "https://hack-days-nagaland.devpost.com/",
       "source": "devpost",
@@ -9042,7 +9140,7 @@
       "company": "hackhere",
       "title": "Nexora",
       "location": "SNS Innovation HUB",
-      "date": "10 days left",
+      "date": "9 days left",
       "posted_at": "2026-08-08",
       "url": "https://nexora.devpost.com/",
       "source": "devpost",
@@ -9114,7 +9212,7 @@
       "company": "IncludEDU, partner w Stanford NNEA",
       "title": "IncludAI - The Neurodiversity Hackathon, in Partnership with Stanford NNEA",
       "location": "Online",
-      "date": "about 23 hours left",
+      "date": "about 22 hours left",
       "posted_at": "2026-08-08",
       "url": "https://includai-2026.devpost.com/",
       "source": "devpost",
@@ -9126,7 +9224,7 @@
       "company": "Innovation Hacks",
       "title": "NextGen Innovation2026",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-08-08",
       "url": "https://nextgen-innovation-2026.devpost.com/",
       "source": "devpost",
