@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:45:41Z",
+  "generated_at": "2026-08-08T18:57:05Z",
   "total": 207,
   "jobs": [
     {
@@ -2963,6 +2963,26 @@
       ]
     },
     {
+      "id": "1c826b0a416b09ad",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "11d",
+      "collected_at": "2026-08-08T18:57:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
@@ -3476,26 +3496,6 @@
       "posted_at": "2026-07-15",
       "age": "15d",
       "collected_at": "2026-07-15T12:58:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1c826b0a416b09ad",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "1mo",
-      "collected_at": "2026-08-07T21:55:03Z",
       "tags": [
         "software",
         "programming",
