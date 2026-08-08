@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T04:20:15Z",
-  "total": 207,
+  "generated_at": "2026-08-08T05:55:45Z",
+  "total": 205,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -976,26 +976,6 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T16:44:07Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "608a093a1e5c0194",
-      "company": "Meta",
-      "title": "New Grad 2026: Product Security Engineer",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "Bellevue, WA Menlo Park, CA",
-      "remote_type": "onsite",
-      "url": "https://www.metacareers.com/jobs/609052015548260?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-08",
-      "age": "0d",
-      "collected_at": "2026-08-08T04:20:15Z",
       "tags": [
         "software",
         "programming",
@@ -3911,26 +3891,6 @@
       "location": "Austin, TX, United States",
       "remote_type": "onsite",
       "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334333",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-08",
-      "age": "2mo",
-      "collected_at": "2026-08-08T02:20:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f4f2f42cd83f2d77",
-      "company": "Oracle",
-      "title": "OCI Software Engineer Intern - OVIP",
-      "level": "internship",
-      "country": "United States",
-      "location": "Seattle, WA, United St...",
-      "remote_type": "onsite",
-      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-08-08",

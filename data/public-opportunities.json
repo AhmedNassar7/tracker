@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:24:22Z",
+  "generated_at": "2026-08-08T05:59:38Z",
   "total": 692,
   "jobs": [
     {
@@ -8943,18 +8943,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "f868559e521b0d53",
-      "kind": "hackathon",
-      "company": "arm",
-      "title": "Arm Create: AI Optimization Challenge",
-      "location": "Online",
-      "date": "7 days left",
-      "posted_at": "2026-08-08",
-      "url": "https://arm-ai-optimization-challenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "a83458d106532a8c",
       "kind": "hackathon",
       "company": "Binnovative",
@@ -8984,7 +8972,7 @@
       "company": "BTT",
       "title": "BTT Web Game Jam - Summer 2026",
       "location": "Online",
-      "date": "14 days left",
+      "date": "13 days left",
       "posted_at": "2026-08-08",
       "url": "https://btt-web-game-jam.devpost.com/",
       "source": "devpost",
@@ -9140,7 +9128,7 @@
       "company": "Hack4Brahma",
       "title": "Hack Days Nagaland",
       "location": "Dimapur, Nagaland",
-      "date": "about 10 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-08-08",
       "url": "https://hack-days-nagaland.devpost.com/",
       "source": "devpost",
@@ -9236,7 +9224,7 @@
       "company": "Innovation Hacks",
       "title": "NextGen Innovation2026",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-08-08",
       "url": "https://nextgen-innovation-2026.devpost.com/",
       "source": "devpost",
@@ -9459,6 +9447,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "ccd0f90354c071cd",
+      "kind": "hackathon",
+      "company": "Singapore Management University",
+      "title": ".exploreSWE",
+      "location": "Singapore Management University",
+      "date": "about 2 hours left",
+      "posted_at": "2026-08-08",
+      "url": "https://exploreswe.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "f972d0619bc34a45",
       "kind": "hackathon",
       "company": "STEMise",
@@ -9500,7 +9500,7 @@
       "company": "TechieBunnies team",
       "title": "BuunieX Hackathon",
       "location": "Online",
-      "date": "17 days left",
+      "date": "14 days left",
       "posted_at": "2026-08-08",
       "url": "https://buuniex-hackathon.devpost.com/",
       "source": "devpost",
@@ -9524,7 +9524,7 @@
       "company": "Trainzex AI",
       "title": "Build With Gemini - Creation Code",
       "location": "Jaipur, India",
-      "date": "27 days left",
+      "date": "26 days left",
       "posted_at": "2026-08-08",
       "url": "https://creation-code-30750.devpost.com/",
       "source": "devpost",
