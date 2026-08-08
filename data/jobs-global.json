@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T02:20:30Z",
-  "total": 204,
+  "generated_at": "2026-08-08T04:20:15Z",
+  "total": 207,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -976,6 +976,46 @@
       "posted_at": "2026-07-22",
       "age": "0d",
       "collected_at": "2026-07-22T16:44:07Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "608a093a1e5c0194",
+      "company": "Meta",
+      "title": "New Grad 2026: Product Security Engineer",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "Bellevue, WA Menlo Park, CA",
+      "remote_type": "onsite",
+      "url": "https://www.metacareers.com/jobs/609052015548260?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-08",
+      "age": "0d",
+      "collected_at": "2026-08-08T04:20:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "bbb195cc47e2bc51",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Redmond, Washington, U...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556944958",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "0d",
+      "collected_at": "2026-08-08T04:20:15Z",
       "tags": [
         "software",
         "programming",
@@ -2316,6 +2356,26 @@
       "posted_at": "2026-08-06",
       "age": "1d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3a419e6b9aa790db",
+      "company": "Uber",
+      "title": "Machine Learning Engineer II - AV Labs",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Sunnyvale, Santa Clara",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/303619/",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "3d",
+      "collected_at": "2026-08-08T04:20:15Z",
       "tags": [
         "software",
         "programming",
