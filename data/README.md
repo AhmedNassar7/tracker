@@ -29,8 +29,8 @@ Every row links straight to the real application page. Click a title to apply â€
 |---|---:|
 | Jobs | 627 |
 | Hackathons | 54 |
-| Events | 7 |
-| Total | 688 |
+| Events | 3 |
+| Total | 684 |
 
 ## Jobs
 
@@ -387,13 +387,13 @@ Total roles: 430
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/a80afc2b-2564-4a98-84c2-34cdcc0402df) | Washington, D.C. | 4d |
 | Sony | [Senior Software Engineer I](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Senior-Software-Engineer-I_JR-119435) | <details><summary>2 locations</summary>San Diego<br>Los Angeles</details> | 4d |
 | Sony Interactive Entertainment | [Manager, Software Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6127233004) | United States, San Mateo, CA | 4d |
-| Sony Interactive Entertainment | [Senior Software Engineer (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004) | United States, San Diego, CA | 4d |
 | Sony Interactive Entertainment | [Senior Software Engineer (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004) | United States, Los Angeles, CA | 4d |
+| Sony Interactive Entertainment | [Senior Software Engineer (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004) | United States, San Diego, CA | 4d |
 | Sony Interactive Entertainment | [Senior Software Engineer, Quality Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134013004) | United Kingdom, London | 4d |
 | Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5806762004) | United States, San Mateo, CA | 4d |
 | Sony Interactive Entertainment | [Software Engineer II / Software Developer II (React Native)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134526004) | Canada, Waterloo, ON | 4d |
-| Sony Interactive Entertainment | [Software Engineer II, Data Platform](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133926004) | United States, Los Angeles, CA | 4d |
 | Sony Interactive Entertainment | [Software Engineer II, Data Platform](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133925004) | United States, Aliso Viejo, CA | 4d |
+| Sony Interactive Entertainment | [Software Engineer II, Data Platform](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133926004) | United States, Los Angeles, CA | 4d |
 | Wise | [Senior Software Engineer I - Europe and UK Business Onboarding and Verification](https://jobs.smartrecruiters.com/Wise/744000141434229) | London, England, United Kingdom | 4d |
 | Wise | [Senior Software Engineer I - Fincrime Requests](https://jobs.smartrecruiters.com/Wise/744000141541057) | Tallinn, Estonia | 4d |
 | Linear | [Mobile Product Designer](https://jobs.ashbyhq.com/linear/eac7f181-d658-4943-9430-51bae2bcd110) | North America | 5d |
@@ -412,6 +412,7 @@ Total roles: 430
 | Clickhouse | [Engineering Lead, Web Platform](https://jobs.ashbyhq.com/clickhouse/1046284f-49d6-46a2-b08e-2cdc437d0836) | AMER | 11d |
 | Openai | [Software Engineer, ChatGPT Infrastructure](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) | London, UK | 11d |
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/cf08f44c-bf75-45ed-9fab-f4836e51013e) | New York, NY | 11d |
+| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 11d |
 | Ramp | [Software Engineer, Forward Deployed AI](https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27) | New York, NY (HQ) | 11d |
 | Sony Interactive Entertainment | [People Technology Platform Engineer (Workday)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5981437004) | Ireland, Dublin | 11d |
 | Openai | [Software Engineer - Data Aquisition (systems)](https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01) | San Francisco | 12d |
@@ -477,7 +478,6 @@ Total roles: 430
 | Openai | [Principal Software Engineer, Simulation](https://jobs.ashbyhq.com/openai/86450337-b12a-48c1-836e-cc0c5766eb8e) | San Francisco | 1mo |
 | Openai | [Software Engineer, ChatGPT Shopping](https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8) | San Francisco | 1mo |
 | Openai | [Software Engineer, GPU Infrastructure- ChatGPT Engineering](https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b) | London, UK | 1mo |
-| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 1mo |
 | Pinterest | [Software Engineer II, Web](https://www.pinterestcareers.com/jobs/?gh_jid=8024883) | Toronto, ON, CA | 1mo |
 | Plaid | [Staff Software Engineer - Data Governance](https://jobs.ashbyhq.com/plaid/95225497-fc9b-4c5d-8df0-df98df219ae5) | San Francisco HQ | 1mo |
 | Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
@@ -485,10 +485,10 @@ Total roles: 430
 | Sony Interactive Entertainment | [Manager, Software Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6099561004) | United States, Aliso Viejo, CA | 1mo |
 | Sony Interactive Entertainment | [Principal Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5728848004) | Ireland, Dublin | 1mo |
 | Sony Interactive Entertainment | [Senior Graphics Programmer, Mobile (iOS/Android)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5849862004) | United States, San Diego, CA | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004) | United States, San Mateo, CA | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004) | United States, San Mateo, CA | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004) | United Kingdom, Liverpool | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004) | United Kingdom, London | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004) | United States, San Mateo, CA | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004) | United States, San Mateo, CA | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004) | United Kingdom, Liverpool | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer (Platform Data Reliability & Automation)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6030609004) | United States, San Diego, CA | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer - GPU Capture and Replay](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5837069004) | United Kingdom, London | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer - Rendering API](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5837061004) | United Kingdom, London | 1mo |
@@ -502,8 +502,8 @@ Total roles: 430
 | Sony Interactive Entertainment | [Sr. Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101710004) | United States, San Mateo, CA | 1mo |
 | Sony Interactive Entertainment | [Sr. Software Engineer in Test](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101052004) | United States, San Diego, CA | 1mo |
 | Sony Interactive Entertainment | [Staff Software Engineer - AI Tools](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5655306004) | United Kingdom, Remote | 1mo |
-| Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004) | United States, Remote | 1mo |
 | Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004) | United States, Aliso Viejo, CA | 1mo |
+| Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004) | United States, Remote | 1mo |
 | Openai | [Software Engineer, Codex Cyber](https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1) | San Francisco | 1mo |
 | Plaid | [Staff Software Engineer - Data Infrastructure](https://jobs.ashbyhq.com/plaid/127d31ff-3a16-488b-ba01-6e87dbb96957) | San Francisco HQ | 1mo |
 | Notion | [Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) | New York, New York | 1mo |
@@ -747,17 +747,13 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 7
+Total events: 3
 
 | Organizer | Event |
 |---|---|
-| Luma | [Follow [SF]](https://lu.ma/sf-hackersquad?k=c) |
-| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
-| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 
 ## Source Files
 
