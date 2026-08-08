@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:56:34Z",
+  "generated_at": "2026-08-08T14:48:49Z",
   "total": 206,
   "jobs": [
     {
@@ -2803,26 +2803,6 @@
       ]
     },
     {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-08",
-      "age": "1w",
-      "collected_at": "2026-08-08T13:11:11Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "373ebba468ac25c1",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Infrastructure",
@@ -3043,26 +3023,6 @@
       ]
     },
     {
-      "id": "9b0e9b510a42c9e0",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - Backend",
-      "level": "junior",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "10d",
-      "collected_at": "2026-08-01T21:08:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f7eb9ebbd5e7799c",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
@@ -3096,6 +3056,26 @@
       "posted_at": "2026-07-23",
       "age": "7d",
       "collected_at": "2026-07-30T22:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9b0e9b510a42c9e0",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - Backend",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-01",
+      "age": "10d",
+      "collected_at": "2026-08-01T21:08:28Z",
       "tags": [
         "software",
         "programming",
@@ -3416,6 +3396,26 @@
       "posted_at": "2026-07-15",
       "age": "28d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-08",
+      "age": "1mo",
+      "collected_at": "2026-08-08T14:48:49Z",
       "tags": [
         "software",
         "programming",
