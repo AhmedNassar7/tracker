@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T07:13:45Z",
+  "generated_at": "2026-08-08T08:01:02Z",
   "total": 208,
   "jobs": [
     {
@@ -1823,26 +1823,6 @@
       ]
     },
     {
-      "id": "5319fc8fec65d19c",
-      "company": "ByteDance",
-      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
-      "level": "internship",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-07",
-      "age": "1d",
-      "collected_at": "2026-08-07T07:39:54Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5720b9be285a1055",
       "company": "ByteDance",
       "title": "Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓",
@@ -1996,6 +1976,26 @@
       "posted_at": "2026-08-07",
       "age": "1d",
       "collected_at": "2026-08-07T17:06:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5319fc8fec65d19c",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
+      "level": "internship",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-07",
+      "age": "1d",
+      "collected_at": "2026-08-07T07:39:54Z",
       "tags": [
         "software",
         "programming",
