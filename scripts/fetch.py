@@ -11,10 +11,10 @@ import json
 import re
 import hashlib
 import datetime
+import traceback
 import urllib.request
 import urllib.error
 import sys
-import traceback
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -36,6 +36,7 @@ from simplify_jobs_parser import (
 )
 from community_board_parser import parse_job_table
 from fetch_outputs import write_fetch_outputs
+from net import fetch_with_retry, run_concurrently
 
 # Setup paths and directories
 ROOT = Path(__file__).parent.parent
@@ -247,11 +248,10 @@ def check_url_alive(url, timeout=8):
 def fetch_url(url, dest, timeout=25):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"})
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            data = response.read()
-            dest.write_bytes(data)
-            log_debug(f"Fetched {len(data)} bytes from {url}")
-            return True
+        _status, data = fetch_with_retry(req, timeout)
+        dest.write_bytes(data)
+        log_debug(f"Fetched {len(data)} bytes from {url}")
+        return True
     except urllib.error.HTTPError as e:
         log_warn(f"HTTP {e.code} from {url}: {e.reason}")
         return False
@@ -810,6 +810,46 @@ def write_outputs(rows):
     )
 
 
+SOURCE_FETCHER_NAMES = [
+    "fetch_remotive",
+    "fetch_arbeitnow",
+    "fetch_simplify_internships",
+    "fetch_simplify_newgrad",
+    "fetch_speedyapply_swe",
+    "fetch_speedyapply_ai",
+    "fetch_zapplyjobs_newgrad",
+    "fetch_zapplyjobs_all_newgrad",
+    "fetch_zapplyjobs_internships",
+    "fetch_zapplyjobs_datascience",
+    "fetch_zapplyjobs_canada",
+    "fetch_zapplyjobs_canada_internships",
+    "fetch_vanshb03_summer_internships",
+    "fetch_vanshb03_newgrad",
+    "fetch_lorenzolacorte_eu",
+    "fetch_hanzili_canada",
+    "fetch_ambicuity_newgrad",
+]
+
+def _call_fetcher_by_name(name):
+    # Looked up via globals() rather than a captured function reference so
+    # tests can still patch e.g. fetch.fetch_remotive on the module.
+    return globals()[name]()
+
+def _run_fetchers(names):
+    """Run each named source fetcher concurrently (they each hit a different
+    URL and write to their own cache file, so they're fully independent) and
+    concatenate results in the same order the names were given, so output
+    stays deterministic regardless of which network call finishes first.
+    """
+    rows = []
+    for (name,), result, exc in run_concurrently(_call_fetcher_by_name, [(n,) for n in names], max_workers=8):
+        if exc is not None:
+            log_error(f"Unexpected error fetching from {name}: {exc}")
+            traceback.print_exception(exc)
+        else:
+            rows += result
+    return rows
+
 def main():
     global RELAXED_MODE
     log_info("=" * 70)
@@ -821,59 +861,15 @@ def main():
     log_info(f"Timestamp: {NOW_ISO}")
     log_info("=" * 70)
 
-    rows = []
-    
-    try:
-        rows += fetch_remotive()
-        rows += fetch_arbeitnow()
-        rows += fetch_simplify_internships()
-        rows += fetch_simplify_newgrad()
-        rows += fetch_speedyapply_swe()
-        rows += fetch_speedyapply_ai()
-        rows += fetch_zapplyjobs_newgrad()
-        rows += fetch_zapplyjobs_all_newgrad()
-        rows += fetch_zapplyjobs_internships()
-        rows += fetch_zapplyjobs_datascience()
-        rows += fetch_zapplyjobs_canada()
-        rows += fetch_zapplyjobs_canada_internships()
-        rows += fetch_vanshb03_summer_internships()
-        rows += fetch_vanshb03_newgrad()
-        rows += fetch_lorenzolacorte_eu()
-        rows += fetch_hanzili_canada()
-        rows += fetch_ambicuity_newgrad()
-    except Exception as e:
-        log_error(f"Unexpected error during fetching: {e}")
-        traceback.print_exc()
-
+    rows = _run_fetchers(SOURCE_FETCHER_NAMES)
     rows = dedupe(rows)
 
     if len(rows) == 0:
         log_warn("No jobs found in strict mode. Retrying with relaxed filters...")
         RELAXED_MODE = True
-        retry_rows = []
-        try:
-            retry_rows += fetch_remotive()
-            retry_rows += fetch_arbeitnow()
-            retry_rows += fetch_simplify_internships()
-            retry_rows += fetch_simplify_newgrad()
-            retry_rows += fetch_speedyapply_swe()
-            retry_rows += fetch_speedyapply_ai()
-            retry_rows += fetch_zapplyjobs_newgrad()
-            retry_rows += fetch_zapplyjobs_all_newgrad()
-            retry_rows += fetch_zapplyjobs_internships()
-            retry_rows += fetch_zapplyjobs_datascience()
-            retry_rows += fetch_zapplyjobs_canada()
-            retry_rows += fetch_zapplyjobs_canada_internships()
-            retry_rows += fetch_vanshb03_summer_internships()
-            retry_rows += fetch_vanshb03_newgrad()
-            retry_rows += fetch_lorenzolacorte_eu()
-            retry_rows += fetch_hanzili_canada()
-            retry_rows += fetch_ambicuity_newgrad()
-        except Exception as e:
-            log_error(f"Unexpected error during relaxed retry: {e}")
-            traceback.print_exc()
+        retry_rows = _run_fetchers(SOURCE_FETCHER_NAMES)
         rows = dedupe(retry_rows)
-    
+
     if len(rows) == 0:
         log_warn("No jobs found after filtering!")
 

@@ -24,5 +24,6 @@ jobs:
 
       - name: Run test suite
         run: |
+          python3 tests/test_net.py
           python3 tests/test_fetch.py
           python3 tests/test_public_sources.py

@@ -23,6 +23,7 @@ python scripts/public_sources.py     # public board sources -> data/public-oppor
 python scripts/build_data_readme.py  # renders README.md and data/README.md from the JSON above
 
 # Run tests (plain scripts with an assert-based runner, not pytest — no test framework is installed)
+python tests/test_net.py
 python tests/test_fetch.py
 python tests/test_public_sources.py
 
@@ -32,7 +33,7 @@ set PYTHONIOENCODING=utf-8   # PowerShell: $env:PYTHONIOENCODING = "utf-8"
 
 There's no way to run "a single test" — each test file is one `main()` that runs every check in sequence and exits nonzero on the first failed assertion. To isolate one check while debugging, temporarily comment out the other `run(...)` calls in the relevant `tests/test_*.py`.
 
-CI (`.github/workflows/ci.yml`) runs both test files on every push/PR. The hourly data-refresh workflow is `.github/workflows/hourly-global-roles.yml` — it runs the three pipeline commands above in order, commits whatever changed, and auto-merges via `peter-evans/create-pull-request`.
+CI (`.github/workflows/ci.yml`) runs all three test files on every push/PR. The hourly data-refresh workflow is `.github/workflows/hourly-global-roles.yml` — it runs the three pipeline commands above in order, commits whatever changed, and auto-merges via `peter-evans/create-pull-request`.
 
 ## Architecture
 
@@ -49,6 +50,12 @@ Both layers converge on the same normalized shape (documented as JSON Schema in 
 ### Dead-link handling (`scripts/fetch_outputs.py`)
 
 Before publishing, `fetch.py` passes `check_url_alive` into `write_fetch_outputs`. **A `HEAD` 404 is not trusted on its own** — some ATS pages (observed live on Pinterest's careers site) mishandle `HEAD` and 404 it even though the page is genuinely live on `GET`. Only a `GET`-confirmed 404/410 is treated as dead. Anything else (403 bot-blocking, timeouts, DNS errors) is treated as "can't tell, assume alive." Two things get archived into `jobs-global-archive.json` with a `closed_at` timestamp: postings that fail this check, and postings present last run but absent from this run's fresh fetch. If an archived posting reappears active later, its stale archive entry is dropped automatically.
+
+These checks run concurrently (via `net.run_concurrently`, capped at 20 workers) instead of one job at a time — with ~600+ published jobs, checking them sequentially at up to 16s each (`HEAD` then `GET`, 8s timeout apiece) would make the hourly run scale linearly with the job count. `check_url_alive` itself never raises (it has a catch-all "assume alive" fallback), so a caught exception from it is treated as a bug in that contract, not routine — it still degrades to "assume alive" rather than aborting the whole output-write.
+
+### Networking (`scripts/net.py`)
+
+Shared by both collector layers: `fetch_with_retry(req, timeout)` performs `urlopen()` + `read()` as one retried unit (a connection can drop mid-download, so retrying only `urlopen()` and not the read isn't enough) and retries transient failures — connection-level errors and 429/5xx HTTP responses (honoring `Retry-After` on a 429) — while re-raising conclusive HTTP errors (404, 403, ...) immediately. `run_concurrently(fn, arg_tuples)` fans a function out over a thread pool and gathers `(args, result, exception)` triples back in the *order arg_tuples was given*, not completion order, so callers stay deterministic and one failing call never loses the others' results. Both `fetch.py` (17 independent source fetchers) and `public_sources.py` (auto-discovered Greenhouse/Lever/Workday boards, configured Ashby/SmartRecruiters boards) use it to fan out their fetches; Greenhouse/Lever/Ashby/SmartRecruiters calls are deliberately capped at 5 concurrent workers since each platform serves every company from one shared API host — Workday doesn't need that cap since each company gets its own subdomain.
 
 ### Community-board table parsing
 

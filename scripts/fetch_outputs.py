@@ -3,6 +3,8 @@ from __future__ import annotations
 import json
 from collections import Counter
 
+from net import run_concurrently
+
 
 def _job_compare_payload(row):
     return {
@@ -61,6 +63,7 @@ def write_fetch_outputs(
     newly_closed_rows = []
     current_ids = set()
 
+    candidates_by_id = {}
     for row in public_rows:
         row_id = row["id"]
         current_ids.add(row_id)
@@ -70,10 +73,33 @@ def write_fetch_outputs(
         else:
             candidate = dict(row)
             changed = True
+        candidates_by_id[row_id] = candidate
+
+    # Dead-link checks are one or two HTTP requests each; running them
+    # concurrently instead of one-by-one keeps this from scaling linearly
+    # with the number of published jobs.
+    alive_by_id = {}
+    if check_url_alive is not None and candidates_by_id:
+        items = list(candidates_by_id.items())
+        calls = [(candidate.get("url") or "",) for _row_id, candidate in items]
+        checked = run_concurrently(check_url_alive, calls, max_workers=20)
+        for (row_id, candidate), (_args, alive, exc) in zip(items, checked):
+            if exc is not None:
+                # check_url_alive itself never raises (it has a catch-all
+                # fallback) — this only fires if that contract changes later.
+                # Same safe default it uses: can't tell, assume alive.
+                log_error(f"Dead-link check failed for {candidate.get('url')}: {exc}")
+                alive_by_id[row_id] = True
+            else:
+                alive_by_id[row_id] = alive
+
+    for row in public_rows:
+        row_id = row["id"]
+        candidate = candidates_by_id[row_id]
 
         # A URL that 404s/410s even though the source still lists the posting —
         # catches stale scraped data the "still present upstream" check below can't.
-        if check_url_alive is not None and not check_url_alive(candidate.get("url") or ""):
+        if not alive_by_id.get(row_id, True):
             log_info(f"Dead link, archiving: {candidate.get('company')} - {candidate.get('title')}")
             closed = dict(candidate)
             closed["closed_at"] = now_iso

@@ -63,8 +63,8 @@ There's no build step, no linter configured, and no package manager — these fi
 1. Check whether the source has a JSON API before writing a scraper — several "just a GitHub README" sources actually have one (see `fetch_ambicuity_newgrad` in [scripts/fetch.py](../scripts/fetch.py) for the pattern: it hits `jobs.riteshrana.engineer/jobs.json` instead of parsing a README).
 2. If it's a markdown table shaped like the existing community trackers (one company/title/location column, apply link and age findable but not fixed-position), reuse `_fetch_community_board()` + `parse_job_table()` from [scripts/community_board_parser.py](../scripts/community_board_parser.py) — just supply the column indices, like `fetch_hanzili_canada` does.
 3. Otherwise write a dedicated `fetch_<source>()` function following the shape of `fetch_remotive`: fetch → parse → `normalize()` each row → `include_job()` filter → return list.
-4. Add the new fetcher's call to the `rows +=` chain in `main()` in `scripts/fetch.py` (and to the retry block just below it).
-5. Add a matching case to `tests/test_fetch.py` (see next section) and to the `source_fn_names` list near the bottom of that test file so the "main calls all sources consistently" check covers it.
+4. Add the new fetcher's name to the `SOURCE_FETCHER_NAMES` list in `scripts/fetch.py` — `main()` runs every name in that list concurrently (via `net.run_concurrently`) for both the strict pass and the relaxed retry, so one entry covers both.
+5. Add a matching case to `tests/test_fetch.py` (see next section). No separate test-side registration needed — the "main calls all sources consistently" check reads `fetch.SOURCE_FETCHER_NAMES` directly, so it picks up the new fetcher automatically.
 6. Update [SOURCES.md](../SOURCES.md) and the "How it works" section of [CONTRIBUTING.md](../CONTRIBUTING.md) — both are hand-maintained, not generated.
 
 ### Add a company to an existing platform
@@ -114,7 +114,7 @@ run("my_source fetch", lambda: check(
 ```
 
 3. Run just that file to confirm: `python tests/test_fetch.py`. There's no way to run a single check in isolation short of temporarily commenting out the other `run(...)` calls — the whole file is one sequential `main()`.
-4. If you added a new fetcher, also add its name to the `source_fn_names` list near the end of `tests/test_fetch.py` so `main()`'s "calls all sources consistently" check picks it up.
+4. If you added a new fetcher, add its name to `fetch.SOURCE_FETCHER_NAMES` in `scripts/fetch.py` — `main()`'s "calls all sources consistently" check reads that same list, so there's no separate test-side list to update.
 
 See [TESTING.md](TESTING.md) for the full feature-to-test map.
 

@@ -37,6 +37,7 @@ from patterns import (
 )
 from simplify_jobs_parser import format_location_display
 from public_outputs import write_public_outputs
+from net import fetch_with_retry, run_concurrently
 
 
 ROOT = Path(__file__).parent.parent
@@ -67,8 +68,8 @@ def log_error(msg):
 
 def fetch_url(url, timeout=25):
     req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        return response.read().decode("utf-8", errors="replace")
+    _status, data = fetch_with_retry(req, timeout)
+    return data.decode("utf-8", errors="replace")
 
 
 def clean_text(value):
@@ -157,8 +158,8 @@ def fetch_json_post(url, payload, timeout=25):
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        return json.loads(response.read().decode("utf-8", errors="replace"))
+    _status, data = fetch_with_retry(req, timeout)
+    return json.loads(data.decode("utf-8", errors="replace"))
 
 
 def extract_greenhouse_board_token(job_url):
@@ -661,6 +662,22 @@ def fetch_luma_discover():
     return parse_luma_discover(html_text)
 
 
+def _run_concurrently(fn, arg_tuples, max_workers=10):
+    """Call fn(*args) for each entry in arg_tuples concurrently and
+    concatenate the returned lists, in the same order arg_tuples was given
+    (not completion order) so output stays deterministic. Each board/company
+    is an independent HTTP call, and the number of auto-discovered boards
+    only grows over time, so running them one-by-one doesn't scale.
+    """
+    rows = []
+    for args, result, exc in run_concurrently(fn, arg_tuples, max_workers=max_workers):
+        if exc is not None:
+            log_warn(f"{fn.__name__} failed for {args!r}: {exc}")
+        else:
+            rows += result
+    return rows
+
+
 def sort_key(row):
     kind_rank = {"job": 0, "hackathon": 1, "event": 2}
     date_hint = (row.get("date") or "").strip().lower()
@@ -704,24 +721,41 @@ def main():
     rows.extend(fetch_devpost_hackathons())
     rows.extend(fetch_luma_discover())
 
-    for board_token, company in sorted(greenhouse.items()):
-        rows.extend(fetch_greenhouse_board_jobs(board_token, company))
+    # Greenhouse/Lever/Ashby/SmartRecruiters each serve *every* company from
+    # one shared API host, so a wide-open worker count risks tripping that
+    # host's rate limiting; keep those bursts modest (fetch_with_retry still
+    # backs off and retries a 429 if one slips through). Workday is the
+    # exception — each company gets its own subdomain, so there's no shared
+    # host to be polite to and the higher default concurrency is fine.
+    SHARED_HOST_WORKERS = 5
 
-    for company_slug, company in sorted(lever.items()):
-        rows.extend(fetch_lever_jobs(company_slug, company))
+    rows.extend(_run_concurrently(
+        fetch_greenhouse_board_jobs, sorted(greenhouse.items()), max_workers=SHARED_HOST_WORKERS,
+    ))
+    rows.extend(_run_concurrently(
+        fetch_lever_jobs, sorted(lever.items()), max_workers=SHARED_HOST_WORKERS,
+    ))
 
     extra_boards = load_extra_job_boards()
     log_info(
         f"Loaded {len(extra_boards['ashby'])} Ashby boards and "
         f"{len(extra_boards['smartrecruiters'])} SmartRecruiters boards from config"
     )
-    for token in extra_boards["ashby"]:
-        rows.extend(fetch_ashby_board_jobs(token, token.replace("-", " ").title()))
-    for token in extra_boards["smartrecruiters"]:
-        rows.extend(fetch_smartrecruiters_jobs(token, token.replace("-", " ").title()))
+    rows.extend(_run_concurrently(
+        fetch_ashby_board_jobs,
+        [(token, token.replace("-", " ").title()) for token in extra_boards["ashby"]],
+        max_workers=SHARED_HOST_WORKERS,
+    ))
+    rows.extend(_run_concurrently(
+        fetch_smartrecruiters_jobs,
+        [(token, token.replace("-", " ").title()) for token in extra_boards["smartrecruiters"]],
+        max_workers=SHARED_HOST_WORKERS,
+    ))
 
-    for (host, site), company in sorted(workday.items()):
-        rows.extend(fetch_workday_jobs(host, site, company))
+    rows.extend(_run_concurrently(
+        fetch_workday_jobs,
+        [(host, site, company) for (host, site), company in sorted(workday.items())],
+    ))
     if workday:
         log_info(f"Fetched Workday postings from {len(workday)} discovered host(s)")
 

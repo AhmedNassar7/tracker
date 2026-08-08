@@ -572,25 +572,10 @@ def main():
             and archive_payload["total"] == 0,
         ))
 
-    source_fn_names = [
-        "fetch_remotive",
-        "fetch_arbeitnow",
-        "fetch_simplify_internships",
-        "fetch_simplify_newgrad",
-        "fetch_speedyapply_swe",
-        "fetch_speedyapply_ai",
-        "fetch_zapplyjobs_newgrad",
-        "fetch_zapplyjobs_all_newgrad",
-        "fetch_zapplyjobs_internships",
-        "fetch_zapplyjobs_datascience",
-        "fetch_zapplyjobs_canada",
-        "fetch_zapplyjobs_canada_internships",
-        "fetch_vanshb03_summer_internships",
-        "fetch_vanshb03_newgrad",
-        "fetch_lorenzolacorte_eu",
-        "fetch_hanzili_canada",
-        "fetch_ambicuity_newgrad",
-    ]
+    # Sourced from fetch.SOURCE_FETCHER_NAMES itself (rather than a second
+    # hardcoded copy here) so this check can't silently drift out of sync
+    # when a new source fetcher is added.
+    source_fn_names = fetch.SOURCE_FETCHER_NAMES
     with contextlib.ExitStack() as stack:
         source_mocks = {
             name: stack.enter_context(patch.object(fetch, name, return_value=[]))

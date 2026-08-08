@@ -11,11 +11,12 @@ Each check is registered with a local `run(name, fn)` helper that prints a green
 ## How to run tests
 
 ```bash
+python tests/test_net.py
 python tests/test_fetch.py
 python tests/test_public_sources.py
 ```
 
-Both must pass — this is exactly what [CI](DEPLOYMENT.md) runs on every push/PR. On Windows, if the ✅/❌ characters raise `UnicodeEncodeError`, set UTF-8 output first:
+All three must pass — this is exactly what [CI](DEPLOYMENT.md) runs on every push/PR. On Windows, if the ✅/❌ characters raise `UnicodeEncodeError`, set UTF-8 output first:
 
 ```powershell
 $env:PYTHONIOENCODING = "utf-8"
@@ -27,6 +28,8 @@ There is no test runner flag to select one test — to isolate a single check wh
 
 | Feature / function | Tested in | What's covered |
 |---|---|---|
+| `fetch_with_retry` | `tests/test_net.py` | Succeeds first try; does not retry a non-retryable HTTP error (404); retries a transient `URLError` and recovers; raises after exhausting retries; retries a 429 and recovers; honors a `Retry-After` header |
+| `run_concurrently` | `tests/test_net.py` | Results come back in `arg_tuples` order, not completion order; a per-call exception is isolated without losing the other results; empty input returns `[]` |
 | `make_id`, `detect_level`, `detect_region`, `detect_remote_type` | `tests/test_fetch.py` | ID stability/uniqueness, level/region/remote-type classification against real-shaped title/location strings |
 | `include_job`, `is_allowed_company` | `tests/test_fetch.py` | Allowlist substring matching, relaxed-region inclusion rule |
 | `check_url_alive` | `tests/test_fetch.py` | 200 = alive, GET-confirmed 404 = dead, inconclusive errors (403) = assume alive, **HEAD 404 followed by GET 200 = alive** (the Pinterest-observed edge case) |
@@ -92,4 +95,4 @@ run("speedyapply fetch handles missing salary column", lambda: check(
 
 The comment above the fixture explains *why* this specific input shape matters (a missing trailing column shifting indices) — follow that pattern: a new test's fixture should encode the real edge case you're guarding against, not a generic happy path, since the happy path is already covered by the `fetch_remotive`/`fetch_arbeitnow` tests.
 
-To add a check: pick the right test file, add a fixture + patched-fetch block following the pattern above, call it through `run("descriptive name", lambda: check(...))`, then run the file directly to confirm the green checkmark appears. If you added a brand-new fetcher, also append its name to the `source_fn_names` list near the bottom of `tests/test_fetch.py` (see [DEVELOPER-GUIDE.md](DEVELOPER-GUIDE.md#how-to-add-a-new-feature-for-this-codebase)).
+To add a check: pick the right test file, add a fixture + patched-fetch block following the pattern above, call it through `run("descriptive name", lambda: check(...))`, then run the file directly to confirm the green checkmark appears. If you added a brand-new fetcher, register it in `fetch.SOURCE_FETCHER_NAMES` (`scripts/fetch.py`) — the "main calls all sources consistently" check in `tests/test_fetch.py` reads that same list rather than keeping its own separate copy, so there's nothing to update on the test side (see [DEVELOPER-GUIDE.md](DEVELOPER-GUIDE.md#how-to-add-a-new-feature-for-this-codebase)).
