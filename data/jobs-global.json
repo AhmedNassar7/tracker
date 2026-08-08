@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T18:57:05Z",
-  "total": 207,
+  "generated_at": "2026-08-08T19:43:52Z",
+  "total": 205,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -1103,26 +1103,6 @@
       ]
     },
     {
-      "id": "d8b477342eed450c",
-      "company": "Microsoft",
-      "title": "Software Engineer: Intern Opportuniti...",
-      "level": "internship",
-      "country": "United States",
-      "location": "Redmond, Washington, U...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-08",
-      "age": "0d",
-      "collected_at": "2026-08-08T02:20:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "63a09f50fa9ce441",
       "company": "Mistral",
       "title": "software engineer, new grad",
@@ -1503,6 +1483,26 @@
       ]
     },
     {
+      "id": "08629f37a73cf4dc",
+      "company": "Roblox",
+      "title": "[2027] Software Engineer, Early Career",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Mateo, CA, United States",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "0d",
+      "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2e03e268c36df0fd",
       "company": "Roblox",
       "title": "New Grad 2025: Software Engineer, Game Solutions Engineering",
@@ -1863,6 +1863,26 @@
       ]
     },
     {
+      "id": "d8b477342eed450c",
+      "company": "Microsoft",
+      "title": "Software Engineer: Intern Opportuniti...",
+      "level": "internship",
+      "country": "United States",
+      "location": "Redmond, Washington, U...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-08",
+      "age": "0d",
+      "collected_at": "2026-08-08T02:20:30Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "4d89a5d111e3cbaf",
       "company": "Google",
       "title": "Software Developer, Early Career, Campus",
@@ -1916,26 +1936,6 @@
       "posted_at": "2026-08-07",
       "age": "0d",
       "collected_at": "2026-08-07T13:37:50Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "08629f37a73cf4dc",
-      "company": "Roblox",
-      "title": "[2027] Software Engineer, Early Career",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Mateo, CA, United States",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "0d",
-      "collected_at": "2026-08-06T23:36:45Z",
       "tags": [
         "software",
         "programming",
@@ -2383,26 +2383,6 @@
       ]
     },
     {
-      "id": "8c7a759de29d75c5",
-      "company": "Okta",
-      "title": "Software Engineer II, Developer Tooli...",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, Ontario, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "3d",
-      "collected_at": "2026-08-07T15:08:11Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "221ef6dcbfc7f668",
       "company": "JPMorganChase",
       "title": "Compliance - Applied AI/ML Data Scientist - Associate",
@@ -2576,6 +2556,26 @@
       "posted_at": "2026-08-06",
       "age": "3d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8c7a759de29d75c5",
+      "company": "Okta",
+      "title": "Software Engineer II, Developer Tooli...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, Ontario, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "3d",
+      "collected_at": "2026-08-07T15:08:11Z",
       "tags": [
         "software",
         "programming",
@@ -2796,26 +2796,6 @@
       "posted_at": "2026-08-06",
       "age": "1w",
       "collected_at": "2026-08-06T23:36:45Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-08",
-      "age": "1w",
-      "collected_at": "2026-08-08T17:45:41Z",
       "tags": [
         "software",
         "programming",
@@ -3383,26 +3363,6 @@
       ]
     },
     {
-      "id": "9cf273c5da4b1510",
-      "company": "Okta",
-      "title": "Software Engineer II, Security Engine...",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, Ontario, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "1mo",
-      "collected_at": "2026-08-07T00:14:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5654a56dfc1a5b2d",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer Intern - Commercial",
@@ -3571,11 +3531,11 @@
       "location": "Toronto",
       "remote_type": "onsite",
       "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-08-08",
       "age": "1mo",
-      "collected_at": "2026-08-07T05:49:33Z",
+      "collected_at": "2026-08-08T19:43:52Z",
       "tags": [
         "software",
         "programming",
