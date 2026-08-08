@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:45:01Z",
+  "generated_at": "2026-08-08T16:50:44Z",
   "total": 206,
   "jobs": [
     {
@@ -676,46 +676,6 @@
       "posted_at": "2026-07-17",
       "age": "0d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "fbe836b1062279f3",
-      "company": "Epic Games",
-      "title": "Machine Learning Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "BLANK,BLANK,Multiple L...",
-      "remote_type": "onsite",
-      "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T17:06:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b3aa804a2744134a",
-      "company": "Epic Games",
-      "title": "Machine Learning Intern",
-      "level": "internship",
-      "country": "Canada",
-      "location": "Montreal,Quebec,Canada",
-      "remote_type": "onsite",
-      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T17:06:21Z",
       "tags": [
         "software",
         "programming",
@@ -1863,6 +1823,46 @@
       ]
     },
     {
+      "id": "fbe836b1062279f3",
+      "company": "Epic Games",
+      "title": "Machine Learning Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "BLANK,BLANK,Multiple L...",
+      "remote_type": "onsite",
+      "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T17:06:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b3aa804a2744134a",
+      "company": "Epic Games",
+      "title": "Machine Learning Intern",
+      "level": "internship",
+      "country": "Canada",
+      "location": "Montreal,Quebec,Canada",
+      "remote_type": "onsite",
+      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T17:06:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "4d89a5d111e3cbaf",
       "company": "Google",
       "title": "Software Developer, Early Career, Campus",
@@ -2023,26 +2023,6 @@
       ]
     },
     {
-      "id": "9098182275db12f7",
-      "company": "Roblox",
-      "title": "[Summer 2027] Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Mateo, CA, United ...",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-06",
-      "age": "1d",
-      "collected_at": "2026-08-06T23:36:45Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5862cbc805a6aa6d",
       "company": "Roblox",
       "title": "Software Engineer - Early Career",
@@ -2176,6 +2156,26 @@
       "posted_at": "2026-08-07",
       "age": "2d",
       "collected_at": "2026-08-07T20:57:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9098182275db12f7",
+      "company": "Roblox",
+      "title": "[Summer 2027] Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Mateo, CA, United ...",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-06",
+      "age": "1d",
+      "collected_at": "2026-08-06T23:36:45Z",
       "tags": [
         "software",
         "programming",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T15:49:21Z",
-  "total": 697,
+  "generated_at": "2026-08-08T16:51:01Z",
+  "total": 693,
   "jobs": [
     {
       "id": "3a2f4263c0b3d9f7",
@@ -8909,18 +8909,6 @@
   ],
   "hackathons": [
     {
-      "id": "78d02a8f68fa1b72",
-      "kind": "hackathon",
-      "company": "AceSAT",
-      "title": "AceSAT Education AI-Agent",
-      "location": "Online",
-      "date": "7 days left",
-      "posted_at": "2026-08-08",
-      "url": "https://acesat-ai-agent.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "2b4cacd32ad51b41",
       "kind": "hackathon",
       "company": "ACT House",
@@ -9013,6 +9001,18 @@
       "date": "about 1 month left",
       "posted_at": "2026-08-08",
       "url": "https://call-e.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "53d54c0a5fe8ccec",
+      "kind": "hackathon",
+      "company": "Canadian Undergraduate Tech Conference",
+      "title": "CUTC: Transform Hackathon",
+      "location": "Online",
+      "date": "7 days left",
+      "posted_at": "2026-08-08",
+      "url": "https://cutc-transform.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9226,7 +9226,7 @@
       "company": "IncludEDU, partner w Stanford NNEA",
       "title": "IncludAI - The Neurodiversity Hackathon, in Partnership with Stanford NNEA",
       "location": "Online",
-      "date": "about 15 hours left",
+      "date": "about 14 hours left",
       "posted_at": "2026-08-08",
       "url": "https://includai-2026.devpost.com/",
       "source": "devpost",
@@ -9425,18 +9425,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "8662a5bbc58a19f5",
-      "kind": "hackathon",
-      "company": "Rice University",
-      "title": "The Rice University Urban Sustainability Hackathon",
-      "location": "Online",
-      "date": "about 1 month left",
-      "posted_at": "2026-08-08",
-      "url": "https://rice-urban-sustainability.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "9b62b6d6f198e0c2",
       "kind": "hackathon",
       "company": "SAIN Utrecht",
@@ -9469,6 +9457,18 @@
       "date": "1 day left",
       "posted_at": "2026-08-08",
       "url": "https://sispik-hacks-1-0.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "b5209d75f34296c1",
+      "kind": "hackathon",
+      "company": "SpaceXAI",
+      "title": "SpaceXAI Grokathon",
+      "location": "San Francisco",
+      "date": "about 13 hours left",
+      "posted_at": "2026-08-08",
+      "url": "https://spacexai-grokathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9559,30 +9559,6 @@
   ],
   "events": [
     {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-08",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-08",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -9607,18 +9583,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-08",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9627,18 +9591,6 @@
       "date": "",
       "posted_at": "2026-08-08",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-08",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
