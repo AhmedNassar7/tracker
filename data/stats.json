@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-08T16:50:44Z",
-  "total": 227,
+  "generated_at": "2026-08-08T17:45:41Z",
+  "total": 228,
   "by_level": {
     "new_grad": 102,
     "internship": 81,
-    "entry_level": 2,
+    "entry_level": 3,
     "junior": 6,
     "mid_level": 36
   },
@@ -15,7 +15,7 @@
     "United Kingdom": 8,
     "Poland": 1,
     "France": 1,
-    "Canada": 25
+    "Canada": 26
   },
   "by_source": {
     "vanshb03_newgrad": 63,
@@ -30,7 +30,7 @@
     "ambicuity": 40,
     "simplify_newgrad": 17,
     "speedyapply_swe": 22,
-    "zapplyjobs_canada": 10,
+    "zapplyjobs_canada": 11,
     "speedyapply_ai": 6,
     "zapplyjobs_canada_internships": 1
   }
