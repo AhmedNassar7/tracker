@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T16:50:44Z",
-  "total": 206,
+  "generated_at": "2026-08-08T17:45:41Z",
+  "total": 207,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -2796,6 +2796,26 @@
       "posted_at": "2026-08-06",
       "age": "1w",
       "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "1w",
+      "collected_at": "2026-08-08T17:45:41Z",
       "tags": [
         "software",
         "programming",
