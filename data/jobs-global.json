@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:11:11Z",
+  "generated_at": "2026-08-08T13:56:34Z",
   "total": 206,
   "jobs": [
     {
@@ -2063,6 +2063,26 @@
       ]
     },
     {
+      "id": "d62ebe9a690265a4",
+      "company": "Roblox",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Mateo, CA",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-08",
+      "age": "2d",
+      "collected_at": "2026-08-08T13:56:34Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "528900449981b412",
       "company": "Roblox",
       "title": "Summer 2027 Software Engineer Intern",
@@ -2076,26 +2096,6 @@
       "posted_at": "2026-08-06",
       "age": "0d",
       "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "e52f5396811272da",
-      "company": "Freightgain online technologies private limited",
-      "title": "Junior Python Developer",
-      "level": "junior",
-      "country": "Unknown",
-      "location": "MH, IN",
-      "remote_type": "onsite",
-      "url": "https://in.indeed.com/viewjob?jk=a442e1acd2239145",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-08T07:13:45Z",
       "tags": [
         "software",
         "programming",
