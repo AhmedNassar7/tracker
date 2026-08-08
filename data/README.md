@@ -314,7 +314,6 @@ Total roles: 427
 | Sony Interactive Entertainment | [Software Engineer I](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6122262004) | Germany, Berlin | 1d |
 | Sony Interactive Entertainment | [Software Engineer II / Software Devel...](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134526004) | Canada, Waterloo, ON | 1d |
 | Wise | [Group Design Lead - Wise Platform FTC (12-Month Maternity Cover)](https://jobs.smartrecruiters.com/Wise/744000142103074) | London, United Kingdom | 1d |
-| Amazon Web Services, Inc. | [Data Engineer II, Data Management Team](https://www.amazon.jobs/en/jobs/10493224/data-engineer-ii-data-management-team) | Seattle, WA | 2d |
 | Cloudflare | [Distributed Systems Engineer - Data Platform (Delivery, Database, Retrieval)](https://boards.greenhouse.io/cloudflare/jobs/7462801?gh_jid=7462801) | Hybrid | 2d |
 | Cloudflare | [Distributed Systems Engineer - Data Platform - Analytics and Alerts](https://boards.greenhouse.io/cloudflare/jobs/7462803?gh_jid=7462803) | Hybrid | 2d |
 | Cloudflare | [Distributed Systems Engineer - Data Platform - Logs and Audit Logs](https://boards.greenhouse.io/cloudflare/jobs/7462802?gh_jid=7462802) | Hybrid | 2d |
@@ -359,13 +358,14 @@ Total roles: 427
 | Pinterest | [Security Software Engineer II, Detection and Response](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) | San Francisco, CA, US; Remote, US | 2d |
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 2d |
 | Pinterest | [Software Engineer II](https://www.pinterestcareers.com/jobs/?gh_jid=7958766) | Palo Alto, CA, US | 2d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 2d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 2d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 2d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 2d |
 | Pinterest | [Software Engineer II, iOS](https://www.pinterestcareers.com/jobs/?gh_jid=5601228) | San Francisco, CA, US; Remote, US | 2d |
 | Sony Interactive Entertainment | [Software Engineering Manager](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5889415004) | Ireland, Dublin | 2d |
 | Sony Interactive Entertainment | [Sr Cloud Infrastructure & Platform Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6124245004) | United States, Madison, WI | 2d |
 | Wise | [Senior Software Engineer I - Pricing Core](https://jobs.smartrecruiters.com/Wise/744000141876659) | London, United Kingdom | 2d |
+| Amazon Web Services, Inc. | [Data Engineer II, Data Management Team](https://www.amazon.jobs/en/jobs/10493224/data-engineer-ii-data-management-team) | Seattle, WA | 3d |
 | Intel | [AI Full Stack Engineer](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Full-Stack-Engineer_JR0286065) | US, Oregon, Hillsboro | 3d |
 | Okta | [Software Engineer II, Developer Tooli...](https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088) | Toronto, Ontario, Canada | 3d |
 | Openai | [Software Engineer, Agent Productivity](https://jobs.ashbyhq.com/openai/0432731c-f229-476e-92b6-d53491e79096) | San Francisco | 3d |
@@ -406,6 +406,7 @@ Total roles: 427
 | Clickhouse | [Engineering Lead, Web Platform](https://jobs.ashbyhq.com/clickhouse/1046284f-49d6-46a2-b08e-2cdc437d0836) | AMER | 11d |
 | Openai | [Software Engineer, ChatGPT Infrastructure](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) | London, UK | 11d |
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/cf08f44c-bf75-45ed-9fab-f4836e51013e) | New York, NY | 11d |
+| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 11d |
 | Ramp | [Software Engineer, Forward Deployed AI](https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27) | New York, NY (HQ) | 11d |
 | Sony Interactive Entertainment | [People Technology Platform Engineer (Workday)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5981437004) | Ireland, Dublin | 11d |
 | Openai | [Software Engineer - Data Aquisition (systems)](https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01) | San Francisco | 12d |
@@ -471,7 +472,6 @@ Total roles: 427
 | Openai | [Principal Software Engineer, Simulation](https://jobs.ashbyhq.com/openai/86450337-b12a-48c1-836e-cc0c5766eb8e) | San Francisco | 1mo |
 | Openai | [Software Engineer, ChatGPT Shopping](https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8) | San Francisco | 1mo |
 | Openai | [Software Engineer, GPU Infrastructure- ChatGPT Engineering](https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b) | London, UK | 1mo |
-| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 1mo |
 | Pinterest | [Software Engineer II, Web](https://www.pinterestcareers.com/jobs/?gh_jid=8024883) | Toronto, ON, CA | 1mo |
 | Plaid | [Staff Software Engineer - Data Governance](https://jobs.ashbyhq.com/plaid/95225497-fc9b-4c5d-8df0-df98df219ae5) | San Francisco HQ | 1mo |
 | Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
