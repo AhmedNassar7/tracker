@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T05:55:45Z",
-  "total": 205,
+  "generated_at": "2026-08-08T07:13:45Z",
+  "total": 208,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -1843,26 +1843,6 @@
       ]
     },
     {
-      "id": "ba35424657a379e0",
-      "company": "ByteDance",
-      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-06",
-      "age": "0d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5720b9be285a1055",
       "company": "ByteDance",
       "title": "Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓",
@@ -2023,6 +2003,26 @@
       ]
     },
     {
+      "id": "ba35424657a379e0",
+      "company": "ByteDance",
+      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-06",
+      "age": "0d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "c15d900208d07885",
       "company": "ByteDance",
       "title": "GPU/AI Application System Software Engineer Intern - System Technologies and Engineering",
@@ -2096,6 +2096,26 @@
       "posted_at": "2026-08-06",
       "age": "0d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e52f5396811272da",
+      "company": "Freightgain online technologies private limited",
+      "title": "Junior Python Developer",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "MH, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=a442e1acd2239145",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "2d",
+      "collected_at": "2026-08-08T07:13:45Z",
       "tags": [
         "software",
         "programming",
@@ -2443,26 +2463,6 @@
       ]
     },
     {
-      "id": "5a9b57a990547181",
-      "company": "HarmonyTech",
-      "title": "Junior Software Developer - .NET",
-      "level": "junior",
-      "country": "Unknown",
-      "location": "Herndon, VA",
-      "remote_type": "onsite",
-      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-03",
-      "age": "0d",
-      "collected_at": "2026-08-03T07:45:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "79e22881541bb82c",
       "company": "Intel",
       "title": "AI Software Engineer Graduate Intern",
@@ -2596,6 +2596,26 @@
       "posted_at": "2026-08-04",
       "age": "2d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5a9b57a990547181",
+      "company": "HarmonyTech",
+      "title": "Junior Software Developer - .NET",
+      "level": "junior",
+      "country": "Unknown",
+      "location": "Herndon, VA",
+      "remote_type": "onsite",
+      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T07:45:02Z",
       "tags": [
         "software",
         "programming",
@@ -2816,6 +2836,26 @@
       "posted_at": "2026-08-06",
       "age": "1w",
       "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "1w",
+      "collected_at": "2026-08-08T07:13:45Z",
       "tags": [
         "software",
         "programming",
@@ -3896,6 +3936,26 @@
       "posted_at": "2026-08-08",
       "age": "2mo",
       "collected_at": "2026-08-08T02:20:30Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f4f2f42cd83f2d77",
+      "company": "Oracle",
+      "title": "OCI Software Engineer Intern - OVIP",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, WA, United St...",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-08",
+      "age": "2mo",
+      "collected_at": "2026-08-08T07:13:45Z",
       "tags": [
         "software",
         "programming",
