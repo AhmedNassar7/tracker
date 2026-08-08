@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T20:47:09Z",
-  "total": 696,
+  "generated_at": "2026-08-08T21:44:40Z",
+  "total": 699,
   "jobs": [
     {
       "id": "3a2f4263c0b3d9f7",
@@ -547,6 +547,20 @@
       "url": "https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Systems-Software-Engineer-with-uArch-Expertise--Temporary-Position_JR0286208",
       "source": "workday:intel",
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "c3bf49679964c0d8",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "IT Data Infrastructure Architect - VP",
+      "location": "Glasgow, United Kingdom",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Glasgow-United-Kingdom/IT-Data-Infrastructure-Architect---VP_PT-JR033220",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "3ad062d045e8976f",
@@ -1193,6 +1207,34 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
+      "id": "7550d7a314946ac4",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Full Stack – Java Application Developer (Hybrid)",
+      "location": "Montreal, Canada",
+      "level": "other",
+      "role_type": "full_stack",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Full-Stack---Java-Application-Developer--Hybrid-_PT-JR041278",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
+      "id": "4535be5b57457fa0",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Software Engineer - Backend",
+      "location": "New York, New York, United States of America",
+      "level": "other",
+      "role_type": "backend",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Software-Engineer---Backend_PT-JR041639",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
       "id": "7c44659d90e080bd",
       "kind": "job",
       "company": "Notion",
@@ -1305,20 +1347,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "a5c8967ce2c19c40",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, Mapping - Autonomous Vehicles",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, WA, Seattle</details>",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Mapping---Autonomous-Vehicles_JR2019727",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "57fab66ffdb191fe",
       "kind": "job",
       "company": "NVIDIA",
@@ -1329,20 +1357,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Quantum-Applied-Research_JR2020378-1",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "95433b281b20f8fb",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer, NvSci",
-      "location": "India, Bengaluru",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer--NvSci_JR2022897",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -1599,20 +1613,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "cb20f6a438518f12",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer (Frontend), Social",
-      "location": "United States, Los Angeles, CA",
-      "level": "other",
-      "role_type": "frontend",
-      "date": "4d",
-      "posted_at": "2026-08-04",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "3ce2517841ac0ee2",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -1623,6 +1623,20 @@
       "date": "4d",
       "posted_at": "2026-08-04",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "cb20f6a438518f12",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer (Frontend), Social",
+      "location": "United States, Los Angeles, CA",
+      "level": "other",
+      "role_type": "frontend",
+      "date": "4d",
+      "posted_at": "2026-08-04",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -1669,20 +1683,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "7c616ae6112e2acb",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II, Data Platform",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "mid_level",
-      "role_type": "platform",
-      "date": "4d",
-      "posted_at": "2026-08-04",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133925004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "8624f9b69f27e6ce",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -1693,6 +1693,20 @@
       "date": "4d",
       "posted_at": "2026-08-04",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133926004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "7c616ae6112e2acb",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II, Data Platform",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "mid_level",
+      "role_type": "platform",
+      "date": "4d",
+      "posted_at": "2026-08-04",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133925004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2929,16 +2943,16 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "b60a61280d8b5a9b",
+      "id": "f76c730e27bebfc9",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Senior Software Engineer",
-      "location": "United Kingdom, London",
+      "location": "United States, San Mateo, CA",
       "level": "other",
       "role_type": "software_engineer",
       "date": "30d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2957,20 +2971,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "f76c730e27bebfc9",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "30d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "d78f6f48b460fb71",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2981,6 +2981,20 @@
       "date": "30d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "b60a61280d8b5a9b",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United Kingdom, London",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3167,20 +3181,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "e7b17ac3b8ffd684",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Staff Software Engineer - DPDK",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "30d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "e8654b3741330c42",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3191,6 +3191,20 @@
       "date": "30d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "e7b17ac3b8ffd684",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Staff Software Engineer - DPDK",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -8923,18 +8937,6 @@
   ],
   "hackathons": [
     {
-      "id": "5f7a489df8f1ccdc",
-      "kind": "hackathon",
-      "company": "Africa Deep Tech Foundation",
-      "title": "Africa Deep Tech Challenge 2026",
-      "location": "Online",
-      "date": "17 days left",
-      "posted_at": "2026-08-08",
-      "url": "https://adtc-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "d3b162e31c049b9f",
       "kind": "hackathon",
       "company": "Amazon Web Services",
@@ -9120,7 +9122,7 @@
       "company": "Google",
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "location": "Online",
-      "date": "about 1 month left",
+      "date": "30 days left",
       "posted_at": "2026-08-08",
       "url": "https://agentic-cinema.devpost.com/",
       "source": "devpost",
@@ -9240,9 +9242,21 @@
       "company": "IncludEDU, partner w Stanford NNEA",
       "title": "IncludAI - The Neurodiversity Hackathon, in Partnership with Stanford NNEA",
       "location": "Online",
-      "date": "about 10 hours left",
+      "date": "about 9 hours left",
       "posted_at": "2026-08-08",
       "url": "https://includai-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e1d15d349498fdc7",
+      "kind": "hackathon",
+      "company": "International AI Youth Education Society",
+      "title": "AI YES :International Youth AI Competition",
+      "location": "Online",
+      "date": "24 days left",
+      "posted_at": "2026-08-08",
+      "url": "https://ai-yes-competition-30441.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9264,7 +9278,7 @@
       "company": "James Logan High School",
       "title": "AQX Sports Analytics Data Bowl 3.0",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-08-08",
       "url": "https://aqxanalyticsthree.devpost.com/",
       "source": "devpost",
@@ -9372,7 +9386,7 @@
       "company": "Open Skies Initiative",
       "title": "SummerHacks",
       "location": "Stackt Marketplace",
-      "date": "about 20 hours left",
+      "date": "about 19 hours left",
       "posted_at": "2026-08-08",
       "url": "https://summerhacksca.devpost.com/",
       "source": "devpost",
@@ -9573,6 +9587,30 @@
   ],
   "events": [
     {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-08",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-08",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -9597,14 +9635,14 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
+      "id": "190d2fdcd350a5e9",
       "kind": "event",
       "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
       "location": "Global",
       "date": "",
       "posted_at": "2026-08-08",
-      "url": "/DC2?k=c",
+      "url": "/frontiertower?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
@@ -9621,14 +9659,14 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d0a49f1be49b91d7",
+      "id": "e62e8da82d967bd3",
       "kind": "event",
       "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
       "location": "Global",
       "date": "",
       "posted_at": "2026-08-08",
-      "url": "/stationdc?k=c",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
