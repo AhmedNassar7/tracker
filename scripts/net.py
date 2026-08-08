@@ -3,7 +3,9 @@
 """
 
 import concurrent.futures
+import math
 import time
+import traceback
 import urllib.error
 import urllib.request
 
@@ -41,9 +43,12 @@ def fetch_with_retry(req, timeout, retries=2, backoff=0.6):
 def _parse_retry_after(headers, cap_seconds=10):
     value = (headers.get("Retry-After") if headers else None) or ""
     try:
-        return min(float(value), cap_seconds)
+        seconds = float(value)
     except ValueError:
         return None
+    if not math.isfinite(seconds):
+        return None
+    return max(0.0, min(seconds, cap_seconds))
 
 
 def run_concurrently(fn, arg_tuples, max_workers=10):
@@ -65,3 +70,22 @@ def run_concurrently(fn, arg_tuples, max_workers=10):
             except Exception as exc:
                 results.append((args, None, exc))
     return results
+
+
+def run_and_collect(fn, arg_tuples, log_error, max_workers=10, label=None):
+    """run_concurrently() plus the aggregation policy both collector layers
+    want: concatenate each call's list result (in arg_tuples order), and for
+    a call that raised, log the message + full traceback and skip its
+    contribution rather than losing every other call's results too.
+    `label(args)` customizes the logged identifier for a failed call
+    (defaults to `repr(args)`).
+    """
+    label = label or repr
+    combined = []
+    for args, result, exc in run_concurrently(fn, arg_tuples, max_workers=max_workers):
+        if exc is not None:
+            log_error(f"{fn.__name__} failed for {label(args)}: {exc}")
+            traceback.print_exception(exc)
+        else:
+            combined += result
+    return combined

@@ -161,6 +161,45 @@ def main():
         net.run_concurrently(maybe_raise, []) == [],
     ))
 
+    run("_parse_retry_after clamps a negative Retry-After to zero", lambda: check(
+        "_parse_retry_after clamps a negative Retry-After to zero",
+        net._parse_retry_after({"Retry-After": "-5"}) == 0.0,
+    ))
+
+    run("_parse_retry_after rejects a non-finite Retry-After instead of crashing", lambda: check(
+        "_parse_retry_after rejects a non-finite Retry-After instead of crashing",
+        net._parse_retry_after({"Retry-After": "nan"}) is None
+        and net._parse_retry_after({"Retry-After": "inf"}) is None,
+    ))
+
+    run("_parse_retry_after caps an oversized Retry-After", lambda: check(
+        "_parse_retry_after caps an oversized Retry-After",
+        net._parse_retry_after({"Retry-After": "999"}, cap_seconds=10) == 10.0,
+    ))
+
+    def double(n):
+        if n == 2:
+            raise ValueError("boom")
+        return [n * 2]
+
+    errors = []
+    combined = net.run_and_collect(double, [(1,), (2,), (3,)], lambda msg: errors.append(msg), max_workers=3)
+    run("run_and_collect concatenates successful results and logs a failing call", lambda: check(
+        "run_and_collect concatenates successful results and logs a failing call",
+        combined == [2, 6] and len(errors) == 1 and "boom" in errors[0],
+        details=f"combined={combined!r} errors={errors!r}",
+    ))
+
+    labeled_errors = []
+    net.run_and_collect(
+        double, [(2,)], lambda msg: labeled_errors.append(msg), label=lambda args: f"n={args[0]}",
+    )
+    run("run_and_collect uses the custom label in its error message", lambda: check(
+        "run_and_collect uses the custom label in its error message",
+        labeled_errors and "n=2" in labeled_errors[0],
+        details=str(labeled_errors),
+    ))
+
     print(color(f"✅ ALL PASSED: {total} checks", GREEN))
     return 0
 

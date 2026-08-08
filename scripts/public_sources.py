@@ -37,7 +37,7 @@ from patterns import (
 )
 from simplify_jobs_parser import format_location_display
 from public_outputs import write_public_outputs
-from net import fetch_with_retry, run_concurrently
+from net import fetch_with_retry, run_and_collect
 
 
 ROOT = Path(__file__).parent.parent
@@ -669,13 +669,7 @@ def _run_concurrently(fn, arg_tuples, max_workers=10):
     is an independent HTTP call, and the number of auto-discovered boards
     only grows over time, so running them one-by-one doesn't scale.
     """
-    rows = []
-    for args, result, exc in run_concurrently(fn, arg_tuples, max_workers=max_workers):
-        if exc is not None:
-            log_warn(f"{fn.__name__} failed for {args!r}: {exc}")
-        else:
-            rows += result
-    return rows
+    return run_and_collect(fn, arg_tuples, log_error, max_workers=max_workers)
 
 
 def sort_key(row):

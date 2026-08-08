@@ -11,7 +11,6 @@ import json
 import re
 import hashlib
 import datetime
-import traceback
 import urllib.request
 import urllib.error
 import sys
@@ -36,7 +35,7 @@ from simplify_jobs_parser import (
 )
 from community_board_parser import parse_job_table
 from fetch_outputs import write_fetch_outputs
-from net import fetch_with_retry, run_concurrently
+from net import fetch_with_retry, run_and_collect
 
 # Setup paths and directories
 ROOT = Path(__file__).parent.parent
@@ -835,20 +834,27 @@ def _call_fetcher_by_name(name):
     # tests can still patch e.g. fetch.fetch_remotive on the module.
     return globals()[name]()
 
+# Most of these 17 sources (SimplifyJobs, speedyapply, zapplyjobs, vanshb03,
+# LorenzoLaCorte, hanzili) are all README files on raw.githubusercontent.com
+# — one shared host, same "don't burst too hard against one API" reasoning
+# as SHARED_HOST_WORKERS in public_sources.py. Kept a bit higher than that
+# cap since this is a CDN serving static files rather than a single
+# application server answering paginated queries, but still bounded.
+_FETCHER_WORKERS = 6
+
 def _run_fetchers(names):
     """Run each named source fetcher concurrently (they each hit a different
     URL and write to their own cache file, so they're fully independent) and
     concatenate results in the same order the names were given, so output
     stays deterministic regardless of which network call finishes first.
     """
-    rows = []
-    for (name,), result, exc in run_concurrently(_call_fetcher_by_name, [(n,) for n in names], max_workers=8):
-        if exc is not None:
-            log_error(f"Unexpected error fetching from {name}: {exc}")
-            traceback.print_exception(exc)
-        else:
-            rows += result
-    return rows
+    return run_and_collect(
+        _call_fetcher_by_name,
+        [(n,) for n in names],
+        log_error,
+        max_workers=_FETCHER_WORKERS,
+        label=lambda args: args[0],
+    )
 
 def main():
     global RELAXED_MODE
