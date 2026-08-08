@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:58:51Z",
+  "generated_at": "2026-08-08T09:53:28Z",
   "total": 206,
   "jobs": [
     {
@@ -2423,26 +2423,6 @@
       ]
     },
     {
-      "id": "c5e489e11daa11be",
-      "company": "ByteDance",
-      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-03",
-      "age": "0d",
-      "collected_at": "2026-08-03T11:42:51Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "79e22881541bb82c",
       "company": "Intel",
       "title": "AI Software Engineer Graduate Intern",
@@ -2576,6 +2556,26 @@
       "posted_at": "2026-08-04",
       "age": "2d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c5e489e11daa11be",
+      "company": "ByteDance",
+      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
       "tags": [
         "software",
         "programming",
@@ -2843,26 +2843,6 @@
       ]
     },
     {
-      "id": "becefb85046fc9c8",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - .NET Backend",
-      "level": "junior",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "2d",
-      "collected_at": "2026-08-01T22:10:09Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "cc9259f9d30e250c",
       "company": "Okta",
       "title": "Software Engineer II, Security Engineering (Auth0)",
@@ -2876,6 +2856,26 @@
       "posted_at": "2026-07-30",
       "age": "0d",
       "collected_at": "2026-07-30T22:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "becefb85046fc9c8",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - .NET Backend",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-01",
+      "age": "2d",
+      "collected_at": "2026-08-01T22:10:09Z",
       "tags": [
         "software",
         "programming",
