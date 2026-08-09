@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T22:49:05Z",
-  "total": 700,
+  "generated_at": "2026-08-09T23:45:31Z",
+  "total": 702,
   "jobs": [
     {
       "id": "9e1140bcce67f7b4",
@@ -9144,7 +9144,7 @@
       "company": "CodeStarters",
       "title": "Firehacks",
       "location": "Pleasanton, California",
-      "date": "about 1 hour left",
+      "date": "30 minutes left",
       "posted_at": "2026-08-09",
       "url": "https://firehacks.devpost.com/",
       "source": "devpost",
@@ -9168,7 +9168,7 @@
       "company": "DataHub",
       "title": "Build with DataHub: The Agent Hackathon",
       "location": "Online",
-      "date": "about 22 hours left",
+      "date": "about 21 hours left",
       "posted_at": "2026-08-09",
       "url": "https://datahub.devpost.com/",
       "source": "devpost",
@@ -9228,7 +9228,7 @@
       "company": "Global Builders Community",
       "title": "Global Builders Hackathon: Code for Impact",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-08-09",
       "url": "https://global-builders.devpost.com/",
       "source": "devpost",
@@ -9468,7 +9468,7 @@
       "company": "OurPlanet.Rocks",
       "title": "OurPlanet.Rocks",
       "location": "Online",
-      "date": "about 20 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-08-09",
       "url": "https://ourplanetrocks.devpost.com/",
       "source": "devpost",
@@ -9681,6 +9681,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-09",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9689,6 +9701,18 @@
       "date": "",
       "posted_at": "2026-08-09",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-09",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
