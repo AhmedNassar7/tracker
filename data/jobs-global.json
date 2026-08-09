@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T21:47:02Z",
-  "total": 204,
+  "generated_at": "2026-08-09T22:48:50Z",
+  "total": 202,
   "jobs": [
     {
       "id": "740a1e48b89d1e0d",
@@ -843,26 +843,6 @@
       ]
     },
     {
-      "id": "da25b8c9120d3e41",
-      "company": "JPMorgan Chase",
-      "title": "Security Engineer II -SAAS",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Seattle, WA, United St...",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210762317",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-09",
-      "age": "0d",
-      "collected_at": "2026-08-09T20:50:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
       "title": "Junior to Intermediate Data Engineer",
@@ -1663,26 +1643,6 @@
       ]
     },
     {
-      "id": "37234a7f51864d35",
-      "company": "Epic Games",
-      "title": "Machine Learning Intern - Special Projects - Epic Research Group 🎓",
-      "level": "internship",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-07",
-      "age": "0d",
-      "collected_at": "2026-08-07T23:47:24Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "bbb195cc47e2bc51",
       "company": "Microsoft",
       "title": "Software Engineer II",
@@ -1796,6 +1756,26 @@
       "posted_at": "2026-08-07",
       "age": "0d",
       "collected_at": "2026-08-07T17:06:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "37234a7f51864d35",
+      "company": "Epic Games",
+      "title": "Machine Learning Intern - Special Projects - Epic Research Group 🎓",
+      "level": "internship",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-07",
+      "age": "0d",
+      "collected_at": "2026-08-07T23:47:24Z",
       "tags": [
         "software",
         "programming",
@@ -1983,46 +1963,6 @@
       ]
     },
     {
-      "id": "5862cbc805a6aa6d",
-      "company": "Roblox",
-      "title": "Software Engineer - Early Career",
-      "level": "new_grad",
-      "country": "Unknown",
-      "location": "San Mateo, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-06",
-      "age": "0d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d62ebe9a690265a4",
-      "company": "Roblox",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Mateo, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-08",
-      "age": "2d",
-      "collected_at": "2026-08-08T13:56:34Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "528900449981b412",
       "company": "Roblox",
       "title": "Summer 2027 Software Engineer Intern",
@@ -2143,19 +2083,39 @@
       ]
     },
     {
-      "id": "6ab659b51db44551",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II / Software Devel...",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Canada, Waterloo, ON",
+      "id": "5862cbc805a6aa6d",
+      "company": "Roblox",
+      "title": "Software Engineer - Early Career",
+      "level": "new_grad",
+      "country": "Unknown",
+      "location": "San Mateo, CA",
       "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134526004",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-08-06",
-      "age": "1d",
+      "age": "0d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d62ebe9a690265a4",
+      "company": "Roblox",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Mateo, CA",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-08",
+      "age": "2d",
+      "collected_at": "2026-08-08T13:56:34Z",
       "tags": [
         "software",
         "programming",
@@ -2335,6 +2295,26 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-06",
       "age": "2d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6ab659b51db44551",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II / Software Devel...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Canada, Waterloo, ON",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134526004",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-06",
+      "age": "1d",
       "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
@@ -2903,6 +2883,26 @@
       ]
     },
     {
+      "id": "1c826b0a416b09ad",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "12d",
+      "collected_at": "2026-08-09T22:48:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
@@ -3183,26 +3183,6 @@
       ]
     },
     {
-      "id": "39170ffa9c9e83ca",
-      "company": "Hudson River Trading",
-      "title": "Software Engineer Intern - C++ or Python",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX Chicago, IL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-30",
-      "age": "16d",
-      "collected_at": "2026-07-30T03:30:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7c5e419f14edb6b5",
       "company": "Hudson River Trading",
       "title": "Software Engineering Internship - C++ or Python - Summer 2027",
@@ -3236,6 +3216,26 @@
       "posted_at": "2026-07-17",
       "age": "3d",
       "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "39170ffa9c9e83ca",
+      "company": "Hudson River Trading",
+      "title": "Software Engineer Intern - C++ or Python",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX Chicago, IL NYC",
+      "remote_type": "onsite",
+      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-30",
+      "age": "16d",
+      "collected_at": "2026-07-30T03:30:30Z",
       "tags": [
         "software",
         "programming",
@@ -3363,26 +3363,6 @@
       ]
     },
     {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-09",
-      "age": "1mo",
-      "collected_at": "2026-08-09T14:51:34Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "8dd6ce444d2a566a",
       "company": "Palantir",
       "title": "Privacy and Civil Liberties Software Engineer Intern",
@@ -3491,11 +3471,11 @@
       "location": "Toronto",
       "remote_type": "onsite",
       "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-08-09",
       "age": "1mo",
-      "collected_at": "2026-08-09T21:47:02Z",
+      "collected_at": "2026-08-09T22:48:50Z",
       "tags": [
         "software",
         "programming",
@@ -3836,26 +3816,6 @@
       "posted_at": "2026-08-09",
       "age": "2mo",
       "collected_at": "2026-08-09T09:01:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1c826b0a416b09ad",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-09",
-      "age": "2mo",
-      "collected_at": "2026-08-09T21:47:02Z",
       "tags": [
         "software",
         "programming",
