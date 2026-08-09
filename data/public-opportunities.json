@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-09T21:47:20Z",
-  "total": 699,
+  "generated_at": "2026-08-09T22:49:05Z",
+  "total": 700,
   "jobs": [
+    {
+      "id": "9e1140bcce67f7b4",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "DevOps Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Raanana<br>Israel, Yokneam</details>",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/DevOps-Engineer_JR2020488",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
     {
       "id": "46317014c6f543ef",
       "kind": "job",
@@ -9125,6 +9139,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "49f2c297381d2b3e",
+      "kind": "hackathon",
+      "company": "CodeStarters",
+      "title": "Firehacks",
+      "location": "Pleasanton, California",
+      "date": "about 1 hour left",
+      "posted_at": "2026-08-09",
+      "url": "https://firehacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "7dac94bfa21e1c68",
       "kind": "hackathon",
       "company": "CreateHER Fest",
@@ -9142,7 +9168,7 @@
       "company": "DataHub",
       "title": "Build with DataHub: The Agent Hackathon",
       "location": "Online",
-      "date": "about 23 hours left",
+      "date": "about 22 hours left",
       "posted_at": "2026-08-09",
       "url": "https://datahub.devpost.com/",
       "source": "devpost",
@@ -9325,18 +9351,6 @@
       "date": "23 days left",
       "posted_at": "2026-08-09",
       "url": "https://ai-yes-competition-30441.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "06bf9f686f02f860",
-      "kind": "hackathon",
-      "company": "Iris Hacks",
-      "title": "Iris Hacks IV",
-      "location": "Online",
-      "date": "44 minutes left",
-      "posted_at": "2026-08-09",
-      "url": "https://iris-hacks-iv.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9598,7 +9612,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Summer Impactathon",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-08-09",
       "url": "https://csc-summer-impactathon.devpost.com/",
       "source": "devpost",
