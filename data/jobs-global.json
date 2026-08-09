@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T09:55:31Z",
-  "total": 206,
+  "generated_at": "2026-08-09T10:51:54Z",
+  "total": 205,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -2803,26 +2803,6 @@
       ]
     },
     {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-09",
-      "age": "1w",
-      "collected_at": "2026-08-09T09:55:31Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "373ebba468ac25c1",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Infrastructure",
@@ -2963,19 +2943,19 @@
       ]
     },
     {
-      "id": "1c826b0a416b09ad",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
-      "title": "Software Engineer II, Android",
+      "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "country": "Canada",
       "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
-      "age": "12d",
-      "collected_at": "2026-08-09T09:55:31Z",
+      "age": "2d",
+      "collected_at": "2026-07-30T22:18:56Z",
       "tags": [
         "software",
         "programming",
@@ -2991,26 +2971,6 @@
       "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
       "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "2d",
-      "collected_at": "2026-07-30T22:18:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ef35692e10223a42",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3476,6 +3436,26 @@
       "posted_at": "2026-07-15",
       "age": "15d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1c826b0a416b09ad",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-09",
+      "age": "1mo",
+      "collected_at": "2026-08-09T10:51:54Z",
       "tags": [
         "software",
         "programming",

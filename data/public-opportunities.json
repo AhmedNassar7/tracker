@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T09:55:52Z",
-  "total": 699,
+  "generated_at": "2026-08-09T10:52:10Z",
+  "total": 698,
   "jobs": [
     {
       "id": "6075afd7bb28ed0a",
@@ -689,20 +689,6 @@
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
-      "id": "c3bf49679964c0d8",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "IT Data Infrastructure Architect - VP",
-      "location": "Glasgow, United Kingdom",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Glasgow-United-Kingdom/IT-Data-Infrastructure-Architect---VP_PT-JR033220",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
       "id": "3ad062d045e8976f",
       "kind": "job",
       "company": "NVIDIA",
@@ -1331,34 +1317,6 @@
       "url": "https://jobs.ashbyhq.com/cohere/8ac3ed85-e315-443b-bc13-e7a0b900b922",
       "source": "ashby:cohere",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
-    },
-    {
-      "id": "7550d7a314946ac4",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Full Stack – Java Application Developer (Hybrid)",
-      "location": "Montreal, Canada",
-      "level": "other",
-      "role_type": "full_stack",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Full-Stack---Java-Application-Developer--Hybrid-_PT-JR041278",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
-    },
-    {
-      "id": "4535be5b57457fa0",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Software Engineer - Backend",
-      "location": "New York, New York, United States of America",
-      "level": "other",
-      "role_type": "backend",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Software-Engineer---Backend_PT-JR041639",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "7c44659d90e080bd",
@@ -9286,7 +9244,7 @@
       "company": "high school",
       "title": "3D Websites Hackathon",
       "location": "Online",
-      "date": "23 days left",
+      "date": "22 days left",
       "posted_at": "2026-08-09",
       "url": "https://3d-websites-hackathon.devpost.com/",
       "source": "devpost",
@@ -9322,7 +9280,7 @@
       "company": "Iris Hacks",
       "title": "Iris Hacks IV",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-08-09",
       "url": "https://iris-hacks-iv.devpost.com/",
       "source": "devpost",
@@ -9442,7 +9400,7 @@
       "company": "Open Skies Initiative",
       "title": "SummerHacks",
       "location": "Stackt Marketplace",
-      "date": "about 9 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-08-09",
       "url": "https://summerhacksca.devpost.com/",
       "source": "devpost",
@@ -9454,7 +9412,7 @@
       "company": "OurPlanet.Rocks",
       "title": "OurPlanet.Rocks",
       "location": "Online",
-      "date": "about 19 hours left",
+      "date": "about 17 hours left",
       "posted_at": "2026-08-09",
       "url": "https://ourplanetrocks.devpost.com/",
       "source": "devpost",
@@ -9538,7 +9496,7 @@
       "company": "Singapore School Pantai Indah Kapuk",
       "title": "SISPIK HACKS 1.0",
       "location": "Singapore School Pantai Indah Kapuk",
-      "date": "about 2 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-08-09",
       "url": "https://sispik-hacks-1-0.devpost.com/",
       "source": "devpost",
@@ -9667,6 +9625,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-09",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9675,6 +9645,18 @@
       "date": "",
       "posted_at": "2026-08-09",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-09",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
