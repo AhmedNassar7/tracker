@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 625 |
+| Jobs | 624 |
 | Hackathons | 54 |
 | Events | 5 |
-| Total | 684 |
+| Total | 683 |
 
 ## Jobs
 
-[![Jobs 625](https://img.shields.io/badge/Jobs-625-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 95](https://img.shields.io/badge/Internship-95-22c55e.svg)](#internship) [![Early Career 99](https://img.shields.io/badge/Early%20Career-99-0ea5e9.svg)](#early-career) [![Mid-Level and Above 431](https://img.shields.io/badge/Mid--Level%20and%20Above-431-dc2626.svg)](#mid-level-and-above)
+[![Jobs 624](https://img.shields.io/badge/Jobs-624-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 95](https://img.shields.io/badge/Internship-95-22c55e.svg)](#internship) [![Early Career 99](https://img.shields.io/badge/Early%20Career-99-0ea5e9.svg)](#early-career) [![Mid-Level and Above 430](https://img.shields.io/badge/Mid--Level%20and%20Above-430-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -246,7 +246,7 @@ Total roles: 99
 
 ### Mid-Level and Above
 
-Total roles: 431
+Total roles: 430
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -326,8 +326,8 @@ Total roles: 431
 | Pinterest | [Security Software Engineer II, Detection and Response](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) | San Francisco, CA, US; Remote, US | 2d |
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 2d |
 | Pinterest | [Software Engineer II](https://www.pinterestcareers.com/jobs/?gh_jid=7958766) | Palo Alto, CA, US | 2d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 2d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 2d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 2d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 2d |
 | Pinterest | [Software Engineer II, iOS](https://www.pinterestcareers.com/jobs/?gh_jid=5601228) | San Francisco, CA, US; Remote, US | 2d |
 | Sony Interactive Entertainment | [Software Engineer I](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6122262004) | Germany, Berlin | 2d |
@@ -410,6 +410,7 @@ Total roles: 431
 | Clickhouse | [Engineering Lead, Web Platform](https://jobs.ashbyhq.com/clickhouse/1046284f-49d6-46a2-b08e-2cdc437d0836) | AMER | 12d |
 | Openai | [Software Engineer, ChatGPT Infrastructure](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) | London, UK | 12d |
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/cf08f44c-bf75-45ed-9fab-f4836e51013e) | New York, NY | 12d |
+| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 12d |
 | Ramp | [Software Engineer, Forward Deployed AI](https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27) | New York, NY (HQ) | 12d |
 | Sony Interactive Entertainment | [People Technology Platform Engineer (Workday)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5981437004) | Ireland, Dublin | 12d |
 | Openai | [Software Engineer - Data Aquisition (systems)](https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01) | San Francisco | 13d |
@@ -464,8 +465,6 @@ Total roles: 431
 | Openai | [Software Engineer, Codex -Enterprise Controls](https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db) | San Francisco | 27d |
 | Openai | [Software Engineer, Codex â€” User Activation](https://jobs.ashbyhq.com/openai/d1c6cb87-a44d-4d04-92a8-dc40eccd090e) | San Francisco | 27d |
 | Intel | [Hardware Platform Applications Engineer - Military & Aerospace](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700) | <details><summary>4 locations</summary>US<br>Arizona<br>Phoenix, US<br>Oregon<br>Hillsboro, US<br>California<br>Folsom, US<br>California<br>Santa Clara</details> | 1mo |
-| Okta | [Software Engineer II, Security Engine...](https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538) | Toronto, Ontario, Canada | 1mo |
-| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 1mo |
 | Pinterest | [Software Engineer II, Web](https://www.pinterestcareers.com/jobs/?gh_jid=8024883) | Toronto, ON, CA | 1mo |
 | Plaid | [Senior Software Engineer - AI Tooling](https://jobs.ashbyhq.com/plaid/3f7a4b9f-50b9-4adf-8475-4a4e6b8f0893) | San Francisco HQ | 1mo |
 | Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
