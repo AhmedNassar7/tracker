@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T11:44:01Z",
-  "total": 204,
+  "generated_at": "2026-08-09T13:14:46Z",
+  "total": 206,
   "jobs": [
     {
       "id": "bf17c108c5cd3259",
@@ -1883,26 +1883,6 @@
       ]
     },
     {
-      "id": "528900449981b412",
-      "company": "Roblox",
-      "title": "Summer 2027 Software Engineer Intern",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "San Mateo, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "0d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "4d89a5d111e3cbaf",
       "company": "Google",
       "title": "Software Developer, Early Career, Campus",
@@ -2103,6 +2083,26 @@
       ]
     },
     {
+      "id": "528900449981b412",
+      "company": "Roblox",
+      "title": "Summer 2027 Software Engineer Intern",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "San Mateo, CA",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "0d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "78dd42daf48c79bb",
       "company": "Pinterest",
       "title": "Software Engineer II, Android",
@@ -2176,106 +2176,6 @@
       "posted_at": "2026-08-09",
       "age": "4d",
       "collected_at": "2026-08-09T02:27:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "81b7064d117d7445",
-      "company": "Microsoft",
-      "title": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2d86d615f91b6a77",
-      "company": "Microsoft",
-      "title": "Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students - Redmond",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922923",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d04c76f5519b617d",
-      "company": "Microsoft",
-      "title": "Software Engineer: Data Platform/Analytics Intern Opportunities for University Students - Redmond",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922931",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "194123aeadf38079",
-      "company": "Microsoft",
-      "title": "Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922922",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c35713fc15a34ae9",
-      "company": "Microsoft",
-      "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
-      "level": "internship",
-      "country": "United States",
-      "location": "Washington, DC",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
         "programming",
@@ -2383,18 +2283,18 @@
       ]
     },
     {
-      "id": "79e22881541bb82c",
-      "company": "Intel",
-      "title": "AI Software Engineer Graduate Intern",
+      "id": "81b7064d117d7445",
+      "company": "Microsoft",
+      "title": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond",
       "level": "internship",
       "country": "United States",
-      "location": "Remote - USA",
-      "remote_type": "remote",
-      "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
       "source": "speedyapply_swe",
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-06",
-      "age": "3d",
+      "age": "2d",
       "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
@@ -2403,18 +2303,78 @@
       ]
     },
     {
-      "id": "3270629d3b451866",
+      "id": "2d86d615f91b6a77",
       "company": "Microsoft",
-      "title": "Software Engineer: Intern Opportunities for University Students - CoreAI",
+      "title": "Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students - Redmond",
       "level": "internship",
       "country": "United States",
       "location": "Washington, DC",
       "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922923",
       "source": "speedyapply_swe",
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-06",
-      "age": "3d",
+      "age": "2d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d04c76f5519b617d",
+      "company": "Microsoft",
+      "title": "Software Engineer: Data Platform/Analytics Intern Opportunities for University Students - Redmond",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922931",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "2d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "194123aeadf38079",
+      "company": "Microsoft",
+      "title": "Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922922",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "2d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c35713fc15a34ae9",
+      "company": "Microsoft",
+      "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "2d",
       "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
@@ -2563,6 +2523,26 @@
       ]
     },
     {
+      "id": "79e22881541bb82c",
+      "company": "Intel",
+      "title": "AI Software Engineer Graduate Intern",
+      "level": "internship",
+      "country": "United States",
+      "location": "Remote - USA",
+      "remote_type": "remote",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "3d",
+      "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "ac69770dbba7e2da",
       "company": "Microsoft",
       "title": "Software Engineer Intern - CoreAI",
@@ -2576,6 +2556,26 @@
       "posted_at": "2026-08-03",
       "age": "0d",
       "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3270629d3b451866",
+      "company": "Microsoft",
+      "title": "Software Engineer: Intern Opportunities for University Students - CoreAI",
+      "level": "internship",
+      "country": "United States",
+      "location": "Washington, DC",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "3d",
+      "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
         "programming",
@@ -2943,19 +2943,19 @@
       ]
     },
     {
-      "id": "1c826b0a416b09ad",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
-      "title": "Software Engineer II, Android",
+      "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "country": "Canada",
       "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
-      "age": "12d",
-      "collected_at": "2026-08-09T11:44:01Z",
+      "age": "2d",
+      "collected_at": "2026-07-30T22:18:56Z",
       "tags": [
         "software",
         "programming",
@@ -2971,26 +2971,6 @@
       "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
       "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "2d",
-      "collected_at": "2026-07-30T22:18:56Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ef35692e10223a42",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3203,6 +3183,26 @@
       ]
     },
     {
+      "id": "d530f67da5b76ff6",
+      "company": "Citadel Securities",
+      "title": "Software Engineer – University Graduate",
+      "level": "new_grad",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-07-15",
+      "age": "0d",
+      "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "77d97c5b772d74b1",
       "company": "Cloudflare",
       "title": "Software Engineer Intern - Fall 2026 - Austin - TX",
@@ -3223,19 +3223,19 @@
       ]
     },
     {
-      "id": "d530f67da5b76ff6",
-      "company": "Citadel Securities",
-      "title": "Software Engineer – University Graduate",
-      "level": "new_grad",
-      "country": "United Kingdom",
-      "location": "London, UK",
+      "id": "39170ffa9c9e83ca",
+      "company": "Hudson River Trading",
+      "title": "Software Engineer Intern - C++ or Python",
+      "level": "internship",
+      "country": "United States",
+      "location": "Austin, TX Chicago, IL NYC",
       "remote_type": "onsite",
-      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-07-15",
-      "age": "0d",
-      "collected_at": "2026-07-15T12:58:43Z",
+      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-07-30",
+      "age": "16d",
+      "collected_at": "2026-07-30T03:30:30Z",
       "tags": [
         "software",
         "programming",
@@ -3276,26 +3276,6 @@
       "posted_at": "2026-07-17",
       "age": "3d",
       "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "39170ffa9c9e83ca",
-      "company": "Hudson River Trading",
-      "title": "Software Engineer Intern - C++ or Python",
-      "level": "internship",
-      "country": "United States",
-      "location": "Austin, TX Chicago, IL NYC",
-      "remote_type": "onsite",
-      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-07-30",
-      "age": "16d",
-      "collected_at": "2026-07-30T03:30:30Z",
       "tags": [
         "software",
         "programming",
@@ -3356,6 +3336,26 @@
       "posted_at": "2026-07-15",
       "age": "8d",
       "collected_at": "2026-07-15T12:58:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9cf273c5da4b1510",
+      "company": "Okta",
+      "title": "Software Engineer II, Security Engine...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, Ontario, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-09",
+      "age": "1mo",
+      "collected_at": "2026-08-09T13:14:46Z",
       "tags": [
         "software",
         "programming",
@@ -3443,6 +3443,26 @@
       ]
     },
     {
+      "id": "1c826b0a416b09ad",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-09",
+      "age": "1mo",
+      "collected_at": "2026-08-09T13:14:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d71534e0be751568",
       "company": "Pinterest",
       "title": "Software Engineer II, Web",
@@ -3511,11 +3531,11 @@
       "location": "Toronto",
       "remote_type": "onsite",
       "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-08-09",
       "age": "1mo",
-      "collected_at": "2026-08-09T11:44:01Z",
+      "collected_at": "2026-08-09T13:14:46Z",
       "tags": [
         "software",
         "programming",
@@ -3783,26 +3803,6 @@
       ]
     },
     {
-      "id": "e9f91958d3112e08",
-      "company": "Zipline",
-      "title": "Enterprise Systems Software Engineer Intern - Fall 2026",
-      "level": "internship",
-      "country": "United States",
-      "location": "South San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7767667003",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "posted_at": "2026-07-17",
-      "age": "37d",
-      "collected_at": "2026-07-17T22:19:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "ad947d29b5f7b1bf",
       "company": "Cohere",
       "title": "Machine Learning Intern/Co-op (Winte...",
@@ -3816,6 +3816,26 @@
       "posted_at": "2026-08-06",
       "age": "2mo",
       "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8f07a852351cfac5",
+      "company": "Instacart",
+      "title": "Software Engineer II, Technical Searc...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Remote (ON, AB, BC, or...",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=7963661",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-09",
+      "age": "2mo",
+      "collected_at": "2026-08-09T13:14:46Z",
       "tags": [
         "software",
         "programming",
@@ -3903,6 +3923,26 @@
       ]
     },
     {
+      "id": "e9f91958d3112e08",
+      "company": "Zipline",
+      "title": "Enterprise Systems Software Engineer Intern - Fall 2026",
+      "level": "internship",
+      "country": "United States",
+      "location": "South San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7767667003",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "posted_at": "2026-07-17",
+      "age": "37d",
+      "collected_at": "2026-07-17T22:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "77d3c3317e6190d8",
       "company": "Zipline",
       "title": "Embedded Software Engineer Intern - Fall 2026",
@@ -3951,11 +3991,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-08-09",
       "age": "3mo",
-      "collected_at": "2026-08-09T09:55:31Z",
+      "collected_at": "2026-08-09T13:14:46Z",
       "tags": [
         "software",
         "programming",
