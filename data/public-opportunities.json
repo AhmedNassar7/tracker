@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T14:51:51Z",
-  "total": 697,
+  "generated_at": "2026-08-09T15:45:50Z",
+  "total": 700,
   "jobs": [
     {
       "id": "6075afd7bb28ed0a",
@@ -703,6 +703,20 @@
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
+      "id": "c3bf49679964c0d8",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "IT Data Infrastructure Architect - VP",
+      "location": "Glasgow, United Kingdom",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Glasgow-United-Kingdom/IT-Data-Infrastructure-Architect---VP_PT-JR033220",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
       "id": "3ad062d045e8976f",
       "kind": "job",
       "company": "NVIDIA",
@@ -1331,6 +1345,34 @@
       "url": "https://jobs.ashbyhq.com/cohere/8ac3ed85-e315-443b-bc13-e7a0b900b922",
       "source": "ashby:cohere",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
+    },
+    {
+      "id": "7550d7a314946ac4",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Full Stack – Java Application Developer (Hybrid)",
+      "location": "Montreal, Canada",
+      "level": "other",
+      "role_type": "full_stack",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Full-Stack---Java-Application-Developer--Hybrid-_PT-JR041278",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
+      "id": "4535be5b57457fa0",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Software Engineer - Backend",
+      "location": "New York, New York, United States of America",
+      "level": "other",
+      "role_type": "backend",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Software-Engineer---Backend_PT-JR041639",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "7c44659d90e080bd",
@@ -8989,18 +9031,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "a83458d106532a8c",
-      "kind": "hackathon",
-      "company": "Binnovative",
-      "title": "AnimalHack 2026",
-      "location": "Online",
-      "date": "about 1 month left",
-      "posted_at": "2026-08-09",
-      "url": "https://animalhack2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "a9166073ec62a5b9",
       "kind": "hackathon",
       "company": "BioCataalysis",
@@ -9198,7 +9228,7 @@
       "company": "GTPN",
       "title": "GTPN Hackathon 2026",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-08-09",
       "url": "https://gtpn-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -9306,7 +9336,7 @@
       "company": "Iris Hacks",
       "title": "Iris Hacks IV",
       "location": "Online",
-      "date": "about 8 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-08-09",
       "url": "https://iris-hacks-iv.devpost.com/",
       "source": "devpost",
@@ -9333,6 +9363,18 @@
       "date": "about 1 month left",
       "posted_at": "2026-08-09",
       "url": "https://gibc-v2.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "acb3d25d63cbd333",
+      "kind": "hackathon",
+      "company": "localhost-nyc",
+      "title": "Checkout - The Travel & Hospitality Hackathon",
+      "location": "KAAGNY",
+      "date": "about 5 hours left",
+      "posted_at": "2026-08-09",
+      "url": "https://nyc-travel-hack.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9426,7 +9468,7 @@
       "company": "Open Skies Initiative",
       "title": "SummerHacks",
       "location": "Stackt Marketplace",
-      "date": "about 2 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-08-09",
       "url": "https://summerhacksca.devpost.com/",
       "source": "devpost",
@@ -9438,7 +9480,7 @@
       "company": "OurPlanet.Rocks",
       "title": "OurPlanet.Rocks",
       "location": "Online",
-      "date": "about 14 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-08-09",
       "url": "https://ourplanetrocks.devpost.com/",
       "source": "devpost",
@@ -9570,7 +9612,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Summer Impactathon",
       "location": "Online",
-      "date": "about 16 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-08-09",
       "url": "https://csc-summer-impactathon.devpost.com/",
       "source": "devpost",
