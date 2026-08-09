@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:14:56Z",
+  "generated_at": "2026-08-09T08:03:49Z",
   "total": 203,
   "jobs": [
     {
@@ -1403,6 +1403,26 @@
       ]
     },
     {
+      "id": "08629f37a73cf4dc",
+      "company": "Roblox",
+      "title": "[2027] Software Engineer, Early Career",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "San Mateo, CA, United States",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-06",
+      "age": "0d",
+      "collected_at": "2026-08-06T23:36:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2e03e268c36df0fd",
       "company": "Roblox",
       "title": "New Grad 2025: Software Engineer, Game Solutions Engineering",
@@ -1803,26 +1823,6 @@
       ]
     },
     {
-      "id": "08629f37a73cf4dc",
-      "company": "Roblox",
-      "title": "[2027] Software Engineer, Early Career",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "San Mateo, CA, United States",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-06",
-      "age": "0d",
-      "collected_at": "2026-08-06T23:36:45Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "12bc66fa8157b50b",
       "company": "Amazon Development Centre Canada ULC",
       "title": "Data Engineer II, Alexa Audio",
@@ -1836,26 +1836,6 @@
       "posted_at": "2026-08-07",
       "age": "0d",
       "collected_at": "2026-08-07T20:00:06Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5319fc8fec65d19c",
-      "company": "ByteDance",
-      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
-      "level": "internship",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-07",
-      "age": "1d",
-      "collected_at": "2026-08-07T07:39:54Z",
       "tags": [
         "software",
         "programming",
@@ -1996,6 +1976,26 @@
       "posted_at": "2026-08-07",
       "age": "1d",
       "collected_at": "2026-08-07T17:06:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5319fc8fec65d19c",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
+      "level": "internship",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-07",
+      "age": "1d",
+      "collected_at": "2026-08-07T07:39:54Z",
       "tags": [
         "software",
         "programming",
@@ -2943,14 +2943,14 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -2963,14 +2963,14 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
