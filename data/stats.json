@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-09T09:01:20Z",
+  "generated_at": "2026-08-09T09:55:31Z",
   "total": 226,
   "by_level": {
     "new_grad": 101,
     "internship": 80,
-    "entry_level": 2,
+    "entry_level": 3,
     "junior": 6,
-    "mid_level": 37
+    "mid_level": 36
   },
   "by_country": {
     "United States": 145,
@@ -26,11 +26,12 @@
     "hanzili_canada": 2,
     "lorenzolacorte_eu": 3,
     "zapplyjobs_datascience": 7,
-    "ambicuity": 39,
+    "ambicuity": 40,
     "simplify_internships": 12,
     "speedyapply_swe": 22,
     "simplify_newgrad": 16,
-    "zapplyjobs_canada": 12,
-    "speedyapply_ai": 6
+    "zapplyjobs_canada": 10,
+    "speedyapply_ai": 6,
+    "zapplyjobs_canada_internships": 1
   }
 }

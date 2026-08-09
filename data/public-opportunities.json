@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-09T09:01:35Z",
-  "total": 698,
+  "generated_at": "2026-08-09T09:55:52Z",
+  "total": 699,
   "jobs": [
+    {
+      "id": "6075afd7bb28ed0a",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior QA Software Engineer, Networking",
+      "location": "<details><summary><strong>3 locations</strong></summary>Israel, Yokneam<br>Israel, Raanana<br>Israel, Tel Aviv</details>",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-QA-Software-Engineer--Networking_JR2016610",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
     {
       "id": "3d75bc9b947d2e21",
       "kind": "job",
@@ -675,6 +689,20 @@
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
+      "id": "c3bf49679964c0d8",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "IT Data Infrastructure Architect - VP",
+      "location": "Glasgow, United Kingdom",
+      "level": "other",
+      "role_type": "infrastructure",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Glasgow-United-Kingdom/IT-Data-Infrastructure-Architect---VP_PT-JR033220",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
       "id": "3ad062d045e8976f",
       "kind": "job",
       "company": "NVIDIA",
@@ -1305,6 +1333,34 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
+      "id": "7550d7a314946ac4",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Full Stack – Java Application Developer (Hybrid)",
+      "location": "Montreal, Canada",
+      "level": "other",
+      "role_type": "full_stack",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Full-Stack---Java-Application-Developer--Hybrid-_PT-JR041278",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
+      "id": "4535be5b57457fa0",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Software Engineer - Backend",
+      "location": "New York, New York, United States of America",
+      "level": "other",
+      "role_type": "backend",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Software-Engineer---Backend_PT-JR041639",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
       "id": "7c44659d90e080bd",
       "kind": "job",
       "company": "Notion",
@@ -1329,20 +1385,6 @@
       "date": "3d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-AI-Infrastructure-Software-Engineer---DGX-Cloud_JR2018042",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "6829c9f6ead5b415",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Deep Learning Sofware Infrastructure Engineer",
-      "location": "US, CA, Remote",
-      "level": "other",
-      "role_type": "infrastructure",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Deep-Learning-Sofware-Infrastructure-Engineer_JR2022034",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -9124,7 +9166,7 @@
       "company": "GatewayGS",
       "title": "GatewayGS & The AEI Initiative: AI 4 Earth Hackathon",
       "location": "Online",
-      "date": "7 days left",
+      "date": "6 days left",
       "posted_at": "2026-08-09",
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/",
       "source": "devpost",
@@ -9268,7 +9310,7 @@
       "company": "International AI Youth Education Society",
       "title": "AI YES :International Youth AI Competition",
       "location": "Online",
-      "date": "24 days left",
+      "date": "23 days left",
       "posted_at": "2026-08-09",
       "url": "https://ai-yes-competition-30441.devpost.com/",
       "source": "devpost",
@@ -9340,7 +9382,7 @@
       "company": "Microsoft Student Club - SCU",
       "title": "Canal Startup Sprint Hackathon",
       "location": "Creativa Innovation Hub Ismailia",
-      "date": "6 days left",
+      "date": "5 days left",
       "posted_at": "2026-08-09",
       "url": "https://canal-startup-sprint-hackathon.devpost.com/",
       "source": "devpost",
@@ -9496,7 +9538,7 @@
       "company": "Singapore School Pantai Indah Kapuk",
       "title": "SISPIK HACKS 1.0",
       "location": "Singapore School Pantai Indah Kapuk",
-      "date": "about 3 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-08-09",
       "url": "https://sispik-hacks-1-0.devpost.com/",
       "source": "devpost",
@@ -9625,18 +9667,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-09",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9645,18 +9675,6 @@
       "date": "",
       "posted_at": "2026-08-09",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-09",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
