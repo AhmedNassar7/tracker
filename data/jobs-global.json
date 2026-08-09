@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:01:20Z",
+  "generated_at": "2026-08-09T09:55:31Z",
   "total": 206,
   "jobs": [
     {
@@ -2183,26 +2183,6 @@
       ]
     },
     {
-      "id": "d39caadda70c376a",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - AI Platform",
-      "level": "internship",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-06",
-      "age": "2d",
-      "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "81b7064d117d7445",
       "company": "Microsoft",
       "title": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond",
@@ -2383,39 +2363,19 @@
       ]
     },
     {
-      "id": "37125469539dbe4d",
+      "id": "d39caadda70c376a",
       "company": "ByteDance",
-      "title": "Software Engineer Intern - AI Infra Compute 🎓",
+      "title": "Software Engineer Intern - AI Platform",
       "level": "internship",
       "country": "United States",
-      "location": "Seattle, WA",
+      "location": "San Jose, CA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-03",
-      "age": "0d",
-      "collected_at": "2026-08-03T11:42:51Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c5e489e11daa11be",
-      "company": "ByteDance",
-      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
-      "level": "new_grad",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-03",
-      "age": "0d",
-      "collected_at": "2026-08-03T11:42:51Z",
+      "posted_at": "2026-08-06",
+      "age": "2d",
+      "collected_at": "2026-08-06T15:23:28Z",
       "tags": [
         "software",
         "programming",
@@ -2436,26 +2396,6 @@
       "posted_at": "2026-08-06",
       "age": "3d",
       "collected_at": "2026-08-06T15:23:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ac69770dbba7e2da",
-      "company": "Microsoft",
-      "title": "Software Engineer Intern - CoreAI",
-      "level": "internship",
-      "country": "Unknown",
-      "location": "Redmond, WA",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-03",
-      "age": "0d",
-      "collected_at": "2026-08-03T11:42:51Z",
       "tags": [
         "software",
         "programming",
@@ -2563,6 +2503,46 @@
       ]
     },
     {
+      "id": "37125469539dbe4d",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AI Infra Compute 🎓",
+      "level": "internship",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c5e489e11daa11be",
+      "company": "ByteDance",
+      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
+      "level": "new_grad",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5a9b57a990547181",
       "company": "HarmonyTech",
       "title": "Junior Software Developer - .NET",
@@ -2576,6 +2556,26 @@
       "posted_at": "2026-08-03",
       "age": "0d",
       "collected_at": "2026-08-03T07:45:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ac69770dbba7e2da",
+      "company": "Microsoft",
+      "title": "Software Engineer Intern - CoreAI",
+      "level": "internship",
+      "country": "Unknown",
+      "location": "Redmond, WA",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-03",
+      "age": "0d",
+      "collected_at": "2026-08-03T11:42:51Z",
       "tags": [
         "software",
         "programming",
@@ -2803,6 +2803,26 @@
       ]
     },
     {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-09",
+      "age": "1w",
+      "collected_at": "2026-08-09T09:55:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "373ebba468ac25c1",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Infrastructure",
@@ -2823,26 +2843,6 @@
       ]
     },
     {
-      "id": "becefb85046fc9c8",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - .NET Backend",
-      "level": "junior",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-01",
-      "age": "2d",
-      "collected_at": "2026-08-01T22:10:09Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "cc9259f9d30e250c",
       "company": "Okta",
       "title": "Software Engineer II, Security Engineering (Auth0)",
@@ -2856,6 +2856,26 @@
       "posted_at": "2026-07-30",
       "age": "0d",
       "collected_at": "2026-07-30T22:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "becefb85046fc9c8",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - .NET Backend",
+      "level": "junior",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-01",
+      "age": "2d",
+      "collected_at": "2026-08-01T22:10:09Z",
       "tags": [
         "software",
         "programming",
@@ -2943,19 +2963,19 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "1c826b0a416b09ad",
       "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
+      "title": "Software Engineer II, Android",
       "level": "mid_level",
       "country": "Canada",
       "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
-      "age": "2d",
-      "collected_at": "2026-07-30T22:18:56Z",
+      "age": "12d",
+      "collected_at": "2026-08-09T09:55:31Z",
       "tags": [
         "software",
         "programming",
@@ -2971,6 +2991,26 @@
       "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
       "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-07-28",
+      "age": "2d",
+      "collected_at": "2026-07-30T22:18:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ef35692e10223a42",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3443,26 +3483,6 @@
       ]
     },
     {
-      "id": "1c826b0a416b09ad",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-09",
-      "age": "1mo",
-      "collected_at": "2026-08-09T02:27:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d71534e0be751568",
       "company": "Pinterest",
       "title": "Software Engineer II, Web",
@@ -3843,26 +3863,6 @@
       ]
     },
     {
-      "id": "8f07a852351cfac5",
-      "company": "Instacart",
-      "title": "Software Engineer II, Technical Searc...",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Remote (ON, AB, BC, or...",
-      "remote_type": "remote",
-      "url": "https://instacart.careers/job/?gh_jid=7963661",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-09",
-      "age": "2mo",
-      "collected_at": "2026-08-09T09:01:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "99e702d10db39f9b",
       "company": "NVIDIA",
       "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
@@ -3991,11 +3991,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-08-09",
       "age": "3mo",
-      "collected_at": "2026-08-09T09:01:20Z",
+      "collected_at": "2026-08-09T09:55:31Z",
       "tags": [
         "software",
         "programming",
