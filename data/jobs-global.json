@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:59:47Z",
+  "generated_at": "2026-08-09T19:47:22Z",
   "total": 206,
   "jobs": [
     {
@@ -1763,26 +1763,6 @@
       ]
     },
     {
-      "id": "d8b477342eed450c",
-      "company": "Microsoft",
-      "title": "Software Engineer: Intern Opportuniti...",
-      "level": "internship",
-      "country": "United States",
-      "location": "Redmond, Washington, U...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-08",
-      "age": "0d",
-      "collected_at": "2026-08-08T02:20:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "12bc66fa8157b50b",
       "company": "Amazon Development Centre Canada ULC",
       "title": "Data Engineer II, Alexa Audio",
@@ -1876,6 +1856,26 @@
       "posted_at": "2026-08-07",
       "age": "0d",
       "collected_at": "2026-08-07T17:06:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d8b477342eed450c",
+      "company": "Microsoft",
+      "title": "Software Engineer: Intern Opportuniti...",
+      "level": "internship",
+      "country": "United States",
+      "location": "Redmond, Washington, U...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-08",
+      "age": "0d",
+      "collected_at": "2026-08-08T02:20:30Z",
       "tags": [
         "software",
         "programming",
@@ -2383,26 +2383,6 @@
       ]
     },
     {
-      "id": "8c7a759de29d75c5",
-      "company": "Okta",
-      "title": "Software Engineer II, Developer Tooli...",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, Ontario, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-07",
-      "age": "3d",
-      "collected_at": "2026-08-07T15:08:11Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "221ef6dcbfc7f668",
       "company": "JPMorganChase",
       "title": "Compliance - Applied AI/ML Data Scientist - Associate",
@@ -2576,6 +2556,26 @@
       "posted_at": "2026-08-06",
       "age": "3d",
       "collected_at": "2026-08-06T15:23:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8c7a759de29d75c5",
+      "company": "Okta",
+      "title": "Software Engineer II, Developer Tooli...",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, Ontario, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-07",
+      "age": "3d",
+      "collected_at": "2026-08-07T15:08:11Z",
       "tags": [
         "software",
         "programming",
