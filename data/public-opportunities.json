@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T20:50:50Z",
-  "total": 703,
+  "generated_at": "2026-08-09T21:47:20Z",
+  "total": 699,
   "jobs": [
     {
       "id": "46317014c6f543ef",
@@ -2999,21 +2999,7 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "d78f6f48b460fb71",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United Kingdom, Liverpool",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "31d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "bbfac693fc70de24",
+      "id": "f76c730e27bebfc9",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Senior Software Engineer",
@@ -3022,7 +3008,7 @@
       "role_type": "software_engineer",
       "date": "31d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3041,7 +3027,7 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "f76c730e27bebfc9",
+      "id": "bbfac693fc70de24",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
       "title": "Senior Software Engineer",
@@ -3050,7 +3036,21 @@
       "role_type": "software_engineer",
       "date": "31d",
       "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "d78f6f48b460fb71",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United Kingdom, Liverpool",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "31d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3237,20 +3237,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "e7b17ac3b8ffd684",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Staff Software Engineer - DPDK",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "other",
-      "role_type": "software_engineer",
-      "date": "31d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "e8654b3741330c42",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3261,6 +3247,20 @@
       "date": "31d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "e7b17ac3b8ffd684",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Staff Software Engineer - DPDK",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "other",
+      "role_type": "software_engineer",
+      "date": "31d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -8993,14 +8993,14 @@
   ],
   "hackathons": [
     {
-      "id": "2b4cacd32ad51b41",
+      "id": "78d02a8f68fa1b72",
       "kind": "hackathon",
-      "company": "ACT House",
-      "title": "Brainwave 2026",
+      "company": "AceSAT",
+      "title": "AceSAT Education AI-Agent",
       "location": "Online",
-      "date": "10 minutes left",
+      "date": "6 days left",
       "posted_at": "2026-08-09",
-      "url": "https://brainwaves.devpost.com/",
+      "url": "https://acesat-ai-agent.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9025,6 +9025,18 @@
       "date": "about 2 months left",
       "posted_at": "2026-08-09",
       "url": "https://trainium-frontier.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "f868559e521b0d53",
+      "kind": "hackathon",
+      "company": "arm",
+      "title": "Arm Create: AI Optimization Challenge",
+      "location": "Online",
+      "date": "5 days left",
+      "posted_at": "2026-08-09",
+      "url": "https://arm-ai-optimization-challenge.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -9113,18 +9125,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "49f2c297381d2b3e",
-      "kind": "hackathon",
-      "company": "CodeStarters",
-      "title": "Firehacks",
-      "location": "Pleasanton, CA, USA",
-      "date": "about 4 hours left",
-      "posted_at": "2026-08-09",
-      "url": "https://firehacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "7dac94bfa21e1c68",
       "kind": "hackathon",
       "company": "CreateHER Fest",
@@ -9142,7 +9142,7 @@
       "company": "DataHub",
       "title": "Build with DataHub: The Agent Hackathon",
       "location": "Online",
-      "date": "1 day left",
+      "date": "about 23 hours left",
       "posted_at": "2026-08-09",
       "url": "https://datahub.devpost.com/",
       "source": "devpost",
@@ -9202,7 +9202,7 @@
       "company": "Global Builders Community",
       "title": "Global Builders Hackathon: Code for Impact",
       "location": "Online",
-      "date": "about 15 hours left",
+      "date": "about 13 hours left",
       "posted_at": "2026-08-09",
       "url": "https://global-builders.devpost.com/",
       "source": "devpost",
@@ -9334,7 +9334,7 @@
       "company": "Iris Hacks",
       "title": "Iris Hacks IV",
       "location": "Online",
-      "date": "about 2 hours left",
+      "date": "44 minutes left",
       "posted_at": "2026-08-09",
       "url": "https://iris-hacks-iv.devpost.com/",
       "source": "devpost",
@@ -9598,7 +9598,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Summer Impactathon",
       "location": "Online",
-      "date": "about 10 hours left",
+      "date": "about 9 hours left",
       "posted_at": "2026-08-09",
       "url": "https://csc-summer-impactathon.devpost.com/",
       "source": "devpost",
@@ -9643,30 +9643,6 @@
   ],
   "events": [
     {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-09",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-09",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -9691,18 +9667,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-09",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -9711,18 +9675,6 @@
       "date": "",
       "posted_at": "2026-08-09",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-09",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:50:35Z",
+  "generated_at": "2026-08-09T21:47:02Z",
   "total": 224,
   "by_level": {
     "new_grad": 100,
@@ -27,12 +27,12 @@
     "zapplyjobs_newgrad": 7,
     "hanzili_canada": 2,
     "zapplyjobs_datascience": 7,
-    "ambicuity": 40,
+    "ambicuity": 39,
     "simplify_internships": 12,
     "simplify_newgrad": 17,
     "speedyapply_swe": 22,
-    "zapplyjobs_canada": 8,
+    "zapplyjobs_canada": 10,
     "speedyapply_ai": 6,
-    "zapplyjobs_canada_internships": 2
+    "zapplyjobs_canada_internships": 1
   }
 }
