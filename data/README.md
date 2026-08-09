@@ -29,8 +29,8 @@ Every row links straight to the real application page. Click a title to apply â€
 |---|---:|
 | Jobs | 627 |
 | Hackathons | 54 |
-| Events | 7 |
-| Total | 688 |
+| Events | 3 |
+| Total | 684 |
 
 ## Jobs
 
@@ -412,7 +412,6 @@ Total roles: 434
 | Clickhouse | [Engineering Lead, Web Platform](https://jobs.ashbyhq.com/clickhouse/1046284f-49d6-46a2-b08e-2cdc437d0836) | AMER | 12d |
 | Openai | [Software Engineer, ChatGPT Infrastructure](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) | London, UK | 12d |
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/cf08f44c-bf75-45ed-9fab-f4836e51013e) | New York, NY | 12d |
-| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 12d |
 | Ramp | [Software Engineer, Forward Deployed AI](https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27) | New York, NY (HQ) | 12d |
 | Sony Interactive Entertainment | [People Technology Platform Engineer (Workday)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5981437004) | Ireland, Dublin | 12d |
 | Openai | [Software Engineer - Data Aquisition (systems)](https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01) | San Francisco | 13d |
@@ -485,10 +484,10 @@ Total roles: 434
 | Sony Interactive Entertainment | [Manager, Software Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6099561004) | United States, Aliso Viejo, CA | 1mo |
 | Sony Interactive Entertainment | [Principal Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5728848004) | Ireland, Dublin | 1mo |
 | Sony Interactive Entertainment | [Senior Graphics Programmer, Mobile (iOS/Android)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5849862004) | United States, San Diego, CA | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004) | United Kingdom, Liverpool | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004) | United States, San Mateo, CA | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004) | United Kingdom, London | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004) | United States, San Mateo, CA | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004) | United Kingdom, London | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004) | United States, San Mateo, CA | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004) | United Kingdom, Liverpool | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer (Platform Data Reliability & Automation)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6030609004) | United States, San Diego, CA | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer - GPU Capture and Replay](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5837069004) | United Kingdom, London | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer - Rendering API](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5837061004) | United Kingdom, London | 1mo |
@@ -502,8 +501,8 @@ Total roles: 434
 | Sony Interactive Entertainment | [Sr. Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101710004) | United States, San Mateo, CA | 1mo |
 | Sony Interactive Entertainment | [Sr. Software Engineer in Test](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101052004) | United States, San Diego, CA | 1mo |
 | Sony Interactive Entertainment | [Staff Software Engineer - AI Tools](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5655306004) | United Kingdom, Remote | 1mo |
-| Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004) | United States, Aliso Viejo, CA | 1mo |
 | Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004) | United States, Remote | 1mo |
+| Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004) | United States, Aliso Viejo, CA | 1mo |
 | Openai | [Software Engineer, Codex Cyber](https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1) | San Francisco | 1mo |
 | Plaid | [Staff Software Engineer - Data Infrastructure](https://jobs.ashbyhq.com/plaid/127d31ff-3a16-488b-ba01-6e87dbb96957) | San Francisco HQ | 1mo |
 | Notion | [Business Development Manager, Product & Platform](https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973) | New York, New York | 1mo |
@@ -540,6 +539,7 @@ Total roles: 434
 | Palantir | [Software Engineer - Core Interfaces](https://jobs.lever.co/palantir/3b4ae28e-c4f2-4654-83b4-64366bfe72fa) | New York, NY | 1mo |
 | Palantir | [Software Engineer - Defense Applications](https://jobs.lever.co/palantir/c288bb43-3c63-4557-bd96-600ef0d1b7a6) | New York, NY | 1mo |
 | Openai | [Software Engineer, API Multicloud](https://jobs.ashbyhq.com/openai/4070d52e-0263-4cd5-9107-052b4ecc1209) | San Francisco | 2mo |
+| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 2mo |
 | Openai | [Full Stack Software Engineer, ChatGPT ImageGen](https://jobs.ashbyhq.com/openai/6b47238e-025a-4350-b270-2f3564002fcc) | San Francisco | 2mo |
 | Openai | [Software Engineer, Internal Applications - Enterprise](https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1) | San Francisco | 2mo |
 | Openai | [Senior Manager, Technical Accounting, Compute Infrastructure](https://jobs.ashbyhq.com/openai/5c85c498-6459-4e4a-937c-6bc9150f743e) | San Francisco | 2mo |
@@ -690,9 +690,10 @@ Total hackathons: 54
 
 | Organizer | Hackathon |
 |---|---|
-| ACT House | [Brainwave 2026](https://brainwaves.devpost.com/) |
+| AceSAT | [AceSAT Education AI-Agent](https://acesat-ai-agent.devpost.com/) |
 | Africa Deep Tech Foundation | [Africa Deep Tech Challenge 2026](https://adtc-2026.devpost.com/) |
 | Amazon Web Services | [AWS Trainium Frontier Competition](https://trainium-frontier.devpost.com/) |
+| arm | [Arm Create: AI Optimization Challenge](https://arm-ai-optimization-challenge.devpost.com/) |
 | Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) |
 | BioCataalysis | [UnivaBio](https://univabio.devpost.com/) |
 | BTT | [BTT Web Game Jam - Summer 2026](https://btt-web-game-jam.devpost.com/) |
@@ -700,7 +701,6 @@ Total hackathons: 54
 | CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) |
 | Canadian Undergraduate Tech Conference | [CUTC: Transform Hackathon](https://cutc-transform.devpost.com/) |
 | Cockroach Labs | [CockroachDB Ã— AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
-| CodeStarters | [Firehacks](https://firehacks.devpost.com/) |
 | CreateHER Fest | [DIALED IN Builder Challenge](https://dialedin.devpost.com/) |
 | DataHub | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
@@ -747,17 +747,13 @@ Total hackathons: 54
 
 ## Events
 
-Total events: 7
+Total events: 3
 
 | Organizer | Event |
 |---|---|
-| Luma | [Follow [SF]](https://lu.ma/sf-hackersquad?k=c) |
-| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
-| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 
 ## Source Files
 

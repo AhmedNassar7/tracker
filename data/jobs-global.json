@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:50:35Z",
+  "generated_at": "2026-08-09T21:47:02Z",
   "total": 204,
   "jobs": [
     {
@@ -1703,26 +1703,6 @@
       ]
     },
     {
-      "id": "bb0c89a310bce06c",
-      "company": "Microsoft",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "country": "United States",
-      "location": "Redmond, Washington, U...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-08",
-      "age": "0d",
-      "collected_at": "2026-08-08T02:20:30Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "12bc66fa8157b50b",
       "company": "Amazon Development Centre Canada ULC",
       "title": "Data Engineer II, Alexa Audio",
@@ -1816,6 +1796,26 @@
       "posted_at": "2026-08-07",
       "age": "0d",
       "collected_at": "2026-08-07T17:06:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "bb0c89a310bce06c",
+      "company": "Microsoft",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "country": "United States",
+      "location": "Redmond, Washington, U...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-08",
+      "age": "0d",
+      "collected_at": "2026-08-08T02:20:30Z",
       "tags": [
         "software",
         "programming",
@@ -2903,26 +2903,6 @@
       ]
     },
     {
-      "id": "1c826b0a416b09ad",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Android",
-      "level": "mid_level",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "12d",
-      "collected_at": "2026-08-09T20:50:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
@@ -3511,11 +3491,11 @@
       "location": "Toronto",
       "remote_type": "onsite",
       "url": "https://stripe.com/jobs/search?gh_jid=7991718",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-08-09",
       "age": "1mo",
-      "collected_at": "2026-08-09T20:50:35Z",
+      "collected_at": "2026-08-09T21:47:02Z",
       "tags": [
         "software",
         "programming",
@@ -3856,6 +3836,26 @@
       "posted_at": "2026-08-09",
       "age": "2mo",
       "collected_at": "2026-08-09T09:01:20Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1c826b0a416b09ad",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Android",
+      "level": "mid_level",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
+      "remote_type": "onsite",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-09",
+      "age": "2mo",
+      "collected_at": "2026-08-09T21:47:02Z",
       "tags": [
         "software",
         "programming",
