@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T22:55:45Z",
-  "total": 224,
+  "generated_at": "2026-08-10T23:50:13Z",
+  "total": 228,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -670,6 +670,29 @@
       ]
     },
     {
+      "id": "ab2582333521aab8",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AML-Engine-Orchestration",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T23:50:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "b1f6a4e05d509c83",
       "company": "ByteDance",
       "title": "Software Engineer Intern, AI Platform 🛂",
@@ -732,6 +755,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "52447632a29beaab",
+      "company": "Citadel",
+      "title": "Sector Data Scientist Intern",
+      "level": "internship",
+      "category": "consulting_finance",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T23:50:13Z",
       "tags": [
         "software",
         "programming",
@@ -1003,11 +1049,11 @@
       "location": "United States",
       "remote_type": "onsite",
       "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-10",
       "age": "0d",
-      "collected_at": "2026-08-10T21:01:02Z",
+      "collected_at": "2026-08-10T23:50:13Z",
       "tags": [
         "software",
         "programming",
@@ -1981,6 +2027,29 @@
       ]
     },
     {
+      "id": "f23e36fdf4ef0471",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer I SDK",
+      "level": "entry_level",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "CA",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6119793004",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T23:50:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e416900ac3a9892e",
       "company": "Stripe",
       "title": "Software Engineer - New Grad",
@@ -2786,29 +2855,6 @@
       ]
     },
     {
-      "id": "3a419e6b9aa790db",
-      "company": "Uber",
-      "title": "Machine Learning Engineer II - AV Labs",
-      "level": "mid_level",
-      "category": "ride_delivery",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Sunnyvale, Santa Clara",
-      "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/303619/",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "5d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5d1ecca6b6113aa7",
       "company": "Instacart",
       "title": "Software Engineer II, Technical Search Visibility",
@@ -3006,6 +3052,29 @@
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134526004",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-10",
+      "age": "5d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3a419e6b9aa790db",
+      "company": "Uber",
+      "title": "Machine Learning Engineer II - AV Labs",
+      "level": "mid_level",
+      "category": "ride_delivery",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Sunnyvale, Santa Clara",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/303619/",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-08-10",
       "age": "5d",
       "collected_at": "2026-08-10T09:39:03Z",
@@ -4603,6 +4672,29 @@
       ]
     },
     {
+      "id": "8f07a852351cfac5",
+      "company": "Instacart",
+      "title": "Software Engineer II, Technical Searc...",
+      "level": "mid_level",
+      "category": "more_global_tech",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Remote (ON, AB, BC, or...",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=7963661",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-10",
+      "age": "2mo",
+      "collected_at": "2026-08-10T23:50:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "99e702d10db39f9b",
       "company": "NVIDIA",
       "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
@@ -4867,11 +4959,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-08-10",
       "age": "3mo",
-      "collected_at": "2026-08-10T22:55:45Z",
+      "collected_at": "2026-08-10T23:50:13Z",
       "tags": [
         "software",
         "programming",
