@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 673 |
+| Jobs | 699 |
 | Hackathons | 199 |
-| Events | 3 |
-| Total | 875 |
+| Events | 5 |
+| Total | 903 |
 
 ## Jobs
 
-[![Jobs 673](https://img.shields.io/badge/Jobs-673-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 96](https://img.shields.io/badge/Internship-96-22c55e.svg)](#internship) [![Early Career 104](https://img.shields.io/badge/Early%20Career-104-0ea5e9.svg)](#early-career) [![Mid-Level and Above 473](https://img.shields.io/badge/Mid--Level%20and%20Above-473-dc2626.svg)](#mid-level-and-above)
+[![Jobs 699](https://img.shields.io/badge/Jobs-699-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 99](https://img.shields.io/badge/Internship-99-22c55e.svg)](#internship) [![Early Career 104](https://img.shields.io/badge/Early%20Career-104-0ea5e9.svg)](#early-career) [![Mid-Level and Above 496](https://img.shields.io/badge/Mid--Level%20and%20Above-496-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 96
+Total roles: 99
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -47,13 +47,16 @@ Total roles: 96
 | Apple | [Software Engineer Intern, Undergrad](https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships?utm_source=github-vansh-ouckah) | United States | 0d |
 | ByteDance | [Applied Machine Learning Production Engineer Intern](https://joinbytedance.com/search/7670009669494704437?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [GPU/AI Application System Software Engineer Intern](https://joinbytedance.com/search/7668464504736876853?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
+| ByteDance | [Machine Learning Engineer Intern](https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 0d |
 | ByteDance | [Machine Learning Engineer Intern (E-C...](https://joinbytedance.com/search/7538942403488188680) | Seattle, Washington | 0d |
+| ByteDance | [Machine Learning Engineer Intern (E-c...](https://joinbytedance.com/search/7535171166420453639) | Seattle, Washington | 0d |
 | ByteDance | [Machine Learning Engineer Intern (Glo...](https://joinbytedance.com/search/7535951608832657682) | Seattle, Washington | 0d |
-| ByteDance | [Software Engineer Intern (AI Infra Co...](https://joinbytedance.com/search/7667378931599214853) | Seattle, Washington | 0d |
 | ByteDance | [Software Engineer Intern, AI Platform 🛂](https://joinbytedance.com/search/7668212952030841093?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Software Engineer Intern, Distributed NoSQL Database Systems](https://joinbytedance.com/search/7668374190764050741?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Software Engineer Intern, Distributed NoSQL Database Systems](https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
 | Citadel | [Software Engineer Intern](https://www.citadel.com/careers/details/software-engineer-intern-us/?utm_source=github-vansh-ouckah) | <details><summary>4 locations</summary>New York<br>NY Greenwich<br>CT Miami<br>FL Houston, TX</details> | 0d |
+| Figma | [Software Engineer Intern (Winter 2027)](https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) | San Francisco, CA • Ne... | 0d |
+| Figma | [Software Engineer Intern (Winter 2027)](https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) | San Francisco, CA • New York, NY | 0d |
 | Hudson River Trading | [Software Engineer Intern](https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/?gh_src=&utm_source=github-vansh-ouckah) | Austin, TX Chicago, IL New York, NY | 0d |
 | Jane Street | [Data Engineer Intern](https://www.janestreet.com/join-jane-street/position/8631973002/?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Jane Street | [Machine Learning Engineer Intern](https://www.janestreet.com/join-jane-street/position/8611307002/?utm_source=github-vansh-ouckah) | New York, NY | 0d |
@@ -146,6 +149,7 @@ Total roles: 104
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Apple | [Software Engineer, IS&T Early Career](https://jobs.apple.com/en-us/details/200627852-3956/software-engineer-is-t-early-career?utm_source=vansh) | Sunnyvale, CA | 0d |
+| ByteDance | [Machine Learning Engineer Graduate (A...](https://joinbytedance.com/search/7671141679848933685) | San Jose, California | 0d |
 | ByteDance | [New Grad 2026: Backend Software Engineer (Customer Service Platform)](https://jobs.bytedance.com/en/position/7527836662400026898/detail?spread=BSPP2KS&utm_source=vansh&ref=vansh) | Seattle, WA | 0d |
 | ByteDance | [New Grad 2026: Backend Software Engineer Graduate](https://joinbytedance.com/search/7527678842316998919?utm_source=vansh) | San Jose, CA | 0d |
 | ByteDance | [New Grad 2026: Machine Learning Graduate (eCommerce User Growth & Intelligent Marketing)](https://joinbytedance.com/search/7542674819873081608?utm_source=vansh) | Seattle, WA | 0d |
@@ -174,6 +178,7 @@ Total roles: 104
 | Google | [Software Engineer II, Early Career](https://www.google.com/about/careers/applications/jobs/results/143333237156913862-software-engineer-ii/?utm_source=vansh) | <details><summary>12 locations</summary>Mountain View<br>CA Kirkland<br>WA Los Angeles<br>CA Madison<br>WI New York<br>NY Palo Alto<br>CA Pittsburgh<br>PA Raleigh<br>NC Durham<br>NC San Bruno<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
 | Google | [Software Engineer II, Early Career, Google Cloud AI Catalyst Program](https://www.google.com/about/careers/applications/jobs/results/90452041138086598-software-engineer-ii-early-career-google-cloud-ai-catalyst-program?utm_source=vansh) | Sunnyvale, CA Kirkland, WA Seattle, WA | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
+| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
 | JPMorgan Chase | [Software Engineer Associate III - Dat...](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210767184) | New York, NY, United S... | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
 | Mastercard | [Site Reliability Engineer I](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Site-Reliability-Engineer-I_R-286909-1) | Pune, India | 0d |
@@ -215,7 +220,6 @@ Total roles: 104
 | Google | [Software Developer, Early Career, Campus](https://ca.indeed.com/viewjob?jk=1a2dec0029d845d0) | Waterloo, ON, CA | 3d |
 | ByteDance | [Backend Inference Runtime Engineer New Grad - AML Inference](https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 4d |
 | Roblox | [Software Engineer - Early Career](https://careers.roblox.com/jobs/8072244?gh_jid=8072244&utm_source=Simplify&ref=Simplify) | San Mateo, CA | 4d |
-| Stripe | [Software Engineer, New Grad, Developer & End User Experience Platform](https://stripe.com/jobs/search?gh_jid=7991718) | Toronto | 4d |
 | Wise | [Senior Software Engineer I - Pricing Core](https://jobs.smartrecruiters.com/Wise/744000141876659) | London, United Kingdom | 4d |
 | Roblox | [[2027] Software Engineer, Early Career](https://www.indeed.com/viewjob?jk=d34c39ff49256b50) | San Mateo, CA, US | 5d |
 | JPMorganChase | [Compliance - Applied AI/ML Data Scientist - Associate](https://www.indeed.com/viewjob?jk=12008038ae30291c) | Jersey City, NJ, US | 6d |
@@ -247,12 +251,11 @@ Total roles: 104
 | Palantir | [Forward Deployed Software Engineer, New Grad - Intel, US Government](https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382) | Washington, D.C. | 1mo |
 | NVIDIA | [Software Engineer New Grad - Hardware Tools and Methodology 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify) | Santa Clara, CA | 2mo |
 | Stripe | [Software Engineer New Grad](https://stripe.com/jobs/search?gh_jid=7991718&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 2mo |
-| Stripe | [Software Engineer, New Grad, Develope...](https://stripe.com/jobs/search?gh_jid=7991718) | Toronto | 2mo |
 | Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 6mo |
 
 ### Mid-Level and Above
 
-Total roles: 473
+Total roles: 496
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -286,6 +289,14 @@ Total roles: 473
 | DoorDash | [Staff Software Engineer, Backend](https://job-boards.greenhouse.io/doordashusa/jobs/5630302) | New York, NY; Seattle, WA | 0d |
 | DoorDash | [Staff Software Engineer, Event Streaming Systems](https://job-boards.greenhouse.io/doordashusa/jobs/8049133) | New York, NY | 0d |
 | DoorDash | [Strategic Account Development Executive, Platform Innovation](https://job-boards.greenhouse.io/doordashusa/jobs/7644701) | New York, NY; Chicago, IL | 0d |
+| Figma | [Software Engineer - Data Infrastructure](https://boards.greenhouse.io/figma/jobs/5551686004?gh_jid=5551686004) | San Francisco, CA • New York, NY • United States | 0d |
+| Figma | [Software Engineer - Developer Experience](https://boards.greenhouse.io/figma/jobs/5790627004?gh_jid=5790627004) | San Francisco, CA • New York, NY • United States | 0d |
+| Figma | [Software Engineer - Distributed Systems](https://boards.greenhouse.io/figma/jobs/5552549004?gh_jid=5552549004) | San Francisco, CA • New York, NY • United States | 0d |
+| Figma | [Software Engineer - Full Stack](https://boards.greenhouse.io/figma/jobs/5691911004?gh_jid=5691911004) | San Francisco, CA • New York, NY • United States | 0d |
+| Figma | [Software Engineer - Production Engineering](https://boards.greenhouse.io/figma/jobs/5551649004?gh_jid=5551649004) | San Francisco, CA • New York, NY • United States | 0d |
+| Figma | [Software Engineer - Production Engineering (London, United Kingdom)](https://boards.greenhouse.io/figma/jobs/5781928004?gh_jid=5781928004) | London, England | 0d |
+| Figma | [Software Engineer - Traffic](https://boards.greenhouse.io/figma/jobs/6102379004?gh_jid=6102379004) | San Francisco, CA • New York, NY • United States | 0d |
+| Intel | [Mfg Systems Software Engineer](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Mfg-Systems-Software-Engineer_JR0286221) | US, Oregon, Hillsboro | 0d |
 | Mastercard | [Data Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Data-Engineer-II_R-286713) | Toronto, Canada | 0d |
 | Mastercard | [Director, Platform Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Director--Platform-Engineering_R-273321) | O'Fallon, Missouri | 0d |
 | Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Navi-Mumbai-India-Finicity/Lead-Software-Engineer_R-284367) | Navi Mumbai, India (Finicity) | 0d |
@@ -301,7 +312,10 @@ Total roles: 473
 | Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-274666) | O'Fallon, Missouri | 0d |
 | Mastercard | [Senior Software Engineer - Java Backend](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Backend_R-282235) | Pune, India | 0d |
 | Mastercard | [Senior Vice President – Software Engineering, Commercial Acceptance](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland-One-South-County/Senior-Vice-President---Software-Engineering--Commercial-Acceptance_R-287903) | <details><summary>2 locations</summary>Dublin<br>Ireland (One South County)<br>London<br>England (Angel Lane)</details> | 0d |
+| Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-287461) | O'Fallon, Missouri | 0d |
+| Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-287461) | O'Fallon, Missouri | 0d |
 | Mastercard | [Software Engineer   ](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer---_R-287018) | Pune, India | 0d |
+| Notion | [Software Engineer, Collections Infra](https://jobs.ashbyhq.com/notion/ca74504a-9b91-4ce3-b0df-97919b46e749) | San Francisco, California | 0d |
 | NVIDIA | [DevOps Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/DevOps-Engineer_JR2020488) | <details><summary>2 locations</summary>Israel<br>Raanana<br>Israel<br>Yokneam</details> | 0d |
 | NVIDIA | [Senior Deep Learning Software Engineer, Inference](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Netherlands-Remote/Senior-Deep-Learning-Software-Engineer--Inference_JR2023106-1) | <details><summary>3 locations</summary>Netherlands<br>Remote, UK<br>Remote<br>Poland<br>Remote</details> | 0d |
 | NVIDIA | [Senior DevOps Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-DevOps-Engineer_JR2017130) | <details><summary>3 locations</summary>Israel<br>Raanana<br>Israel<br>Tel Aviv<br>Israel<br>Yokneam</details> | 0d |
@@ -309,8 +323,10 @@ Total roles: 473
 | NVIDIA | [Senior Site Reliability Engineer - Storage](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---Storage_JR2022324) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior Software Engineer, Developer Tools for Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154) | <details><summary>3 locations</summary>US, WA<br>Redmond, US<br>IL<br>Remote, US<br>WA<br>Remote</details> | 0d |
 | NVIDIA | [Senior System Software Engineer - CPU SoC Boot Firmware](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---CPU-SoC-Boot-Firmware_JR2023056) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>CO<br>Boulder</details> | 0d |
+| NVIDIA | [Senior System Software Engineer - Simulation Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Simulation-Software_JR2022959) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>OR<br>Hillsboro, US<br>WA<br>Seattle</details> | 0d |
 | NVIDIA | [Senior System Software Engineer, Deep Learning Accelerator](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer--Deep-Learning-Accelerator-_JR2014631) | India, Bengaluru | 0d |
 | NVIDIA | [Senior System Software Engineer, Modeling and Validation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-System-Software-Engineer--Modeling-and-Validation_JR2022344) | China, Shanghai | 0d |
+| Okta | [Software Engineer II, End User Protection (Auth0)](https://www.okta.com/company/careers/opportunity/7821930?gh_jid=7821930) | Toronto, Ontario, Canada | 0d |
 | Sony | [Staff Software Engineer](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Staff-Software-Engineer_JR-119434) | <details><summary>2 locations</summary>San Diego<br>Los Angeles</details> | 0d |
 | Sony Interactive Entertainment | [Senior Software Engineer Cloud Engineering (Contractor)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6118761004) | United States, Aliso Viejo, CA | 0d |
 | Wise | [Senior iOS Engineer II](https://jobs.smartrecruiters.com/Wise/744000142620849) | London, England, United Kingdom | 0d |
@@ -327,7 +343,6 @@ Total roles: 473
 | NVIDIA | [Senior System Software Engineer - Video](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR2021723) | <details><summary>3 locations</summary>India<br>Pune<br>India<br>Hyderabad<br>India<br>Bengaluru</details> | 1d |
 | Openai | [Strategic Sourcing Manager, Data Center Infrastructure: Mechanical](https://jobs.ashbyhq.com/openai/61171d99-747f-441e-985d-20c010112ad8) | San Francisco | 1d |
 | Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-275738) | O'Fallon, Missouri | 2d |
-| Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556944958) | Redmond, Washington, U... | 2d |
 | NVIDIA | [Senior Cloud Software Engineer, DGXC Data Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 2d |
 | NVIDIA | [Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 2d |
 | NVIDIA | [Senior Platform Engineer, Network Infrastructure - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>IL<br>Remote, US<br>WA<br>Remote, US<br>Remote, US<br>CA<br>Remote, US<br>MA<br>Remote</details> | 2d |
@@ -348,15 +363,11 @@ Total roles: 473
 | Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Lead-Software-Engineer_R-286989) | New York City, New York | 3d |
 | Mastercard | [Lead Software Engineer (DevOps)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Budapest-Hungary/Lead-Software-Engineer--DevOps-_R-287887) | Budapest, Hungary | 3d |
 | Mastercard | [Lead Software Engineer - Frontend (UI)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Full-Stack-Lead-Software-Engineer_R-281246) | Dublin, Ireland | 3d |
-| Mastercard | [Manager, Site Reliability Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Site-Reliability-Engineering_R-279502-1) | Pune, India | 3d |
 | Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-273743) | O'Fallon, Missouri | 3d |
 | Mastercard | [Senior Software Engineer (AI)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Lead-Software-Engineer_R-280100-1) | Mexico City, Mexico | 3d |
 | Mastercard | [Senior Software Engineer (Full Stack)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Senior-Software-Engineer--Full-Stack-_R-287835-1) | New York City, New York | 3d |
 | NVIDIA | [Principal Software Engineer - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Principal-Software-Engineer---DGX-Cloud_JR2023059) | <details><summary>3 locations</summary>US, WA<br>Seattle, US<br>CA<br>Santa Clara, US<br>WA<br>Remote</details> | 3d |
-| NVIDIA | [Senior Embedded System Software Engineer – Platform Execution Lead](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Embedded-System-Software-Engineer---Platform-Execution-Lead_JR2022948-1) | US, CA, Santa Clara | 3d |
-| NVIDIA | [Senior GPU System Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-GPU-System-Software-Engineer_JR2022837) | US, CA, Santa Clara | 3d |
 | NVIDIA | [Senior Software Engineer - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Senior-Software-Engineer---DGX-Cloud_JR2023057) | <details><summary>3 locations</summary>US, WA<br>Seattle, US<br>CA<br>Santa Clara, US<br>WA<br>Remote</details> | 3d |
-| NVIDIA | [Senior Software Engineer, Networking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Software-Engineer_JR2015068) | US, CA, Santa Clara | 3d |
 | NVIDIA | [Senior System Software Engineer Platform - OpenBMC](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer-Platform---OpenBMC_JR1999525) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 3d |
 | Okta | [Software Engineer II, Developer Tooling (Auth0)](https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088) | Toronto, Ontario, Canada | 3d |
 | Wise | [Group Design Lead - Wise Platform FTC (12-Month Maternity Cover)](https://jobs.smartrecruiters.com/Wise/744000142103074) | London, United Kingdom | 3d |
@@ -435,14 +446,15 @@ Total roles: 473
 | Amazon | [Software Development Engineer II](https://www.amazon.jobs/en/jobs/10486441/software-development-engineer-ii) | North Reading, Massachusetts, USA | 13d |
 | Amazon | [Software Development Engineer II, Personalization](https://www.amazon.jobs/en/jobs/10486664/software-development-engineer-ii-personalization) | Seattle, Washington, USA | 13d |
 | Clickhouse | [Engineering Lead, Web Platform](https://jobs.ashbyhq.com/clickhouse/1046284f-49d6-46a2-b08e-2cdc437d0836) | AMER | 13d |
+| Figma | [Software Engineer, AI Product (London, United Kingdom)](https://boards.greenhouse.io/figma/jobs/5551697004?gh_jid=5551697004) | London, England | 13d |
 | Openai | [Software Engineer, ChatGPT Infrastructure](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) | London, UK | 13d |
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/cf08f44c-bf75-45ed-9fab-f4836e51013e) | New York, NY | 13d |
 | Pinterest | [Machine Learning Engineer II, Computer Vision Applied Science](https://www.pinterestcareers.com/jobs/?gh_jid=7697137) | San Francisco, CA, US; Remote, US | 13d |
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 13d |
 | Pinterest | [Security Software Engineer II, Detection and Response](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) | San Francisco, CA, US; Remote, US | 13d |
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 13d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 13d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, iOS](https://www.pinterestcareers.com/jobs/?gh_jid=5601228) | San Francisco, CA, US; Remote, US | 13d |
 | Ramp | [Software Engineer, Forward Deployed AI](https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27) | New York, NY (HQ) | 13d |
@@ -463,12 +475,28 @@ Total roles: 473
 | Sony Interactive Entertainment | [Sr Software Engineer (Audio)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6122115004) | United States, San Mateo, CA | 17d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) | Pittsburgh, PA | 18d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002) | New York, NY | 18d |
+| Figma | [Manager, Software Engineering - Observability](https://boards.greenhouse.io/figma/jobs/5807963004?gh_jid=5807963004) | San Francisco, CA • New York, NY • United States | 18d |
 | Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3) | San Francisco | 18d |
 | Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/118b71ad-0daa-497d-9061-68e90ea03368) | London, UK | 18d |
 | Openai | [Software Engineer, Privacy Engineering (Lawful Access)](https://jobs.ashbyhq.com/openai/e99105f1-0a15-4f25-9538-60312568f835) | Dublin, Ireland | 18d |
 | Palantir | [Forward Deployed Software Engineer - NATO](https://jobs.lever.co/palantir/73d1a90c-162d-4cb6-9e0c-4c8de9561ad0) | London, United Kingdom | 18d |
 | Clickhouse | [Senior Cloud Data Infrastructure Engineer](https://jobs.ashbyhq.com/clickhouse/b6e7fb97-e7e2-4e29-9476-b777d787a94c) | EMEA | 19d |
 | Clickhouse | [Senior Cloud Data Infrastructure Engineer](https://jobs.ashbyhq.com/clickhouse/9e205698-0e50-42e5-8783-a79a7ff7efaa) | EMEA | 19d |
+| Figma | [Manager, Software Engineering - AI Product](https://boards.greenhouse.io/figma/jobs/5838098004?gh_jid=5838098004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Manager, Software Engineering - AI Product (London, United Kingdom)](https://boards.greenhouse.io/figma/jobs/6099616004?gh_jid=6099616004) | London, England | 19d |
+| Figma | [Manager, Software Engineering - Billing](https://boards.greenhouse.io/figma/jobs/5722244004?gh_jid=5722244004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Manager, Software Engineering - DevEx AI Tools](https://boards.greenhouse.io/figma/jobs/6008752004?gh_jid=6008752004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Manager, Software Engineering - Figma Weave (Tel Aviv, Israel)](https://boards.greenhouse.io/figma/jobs/6105734004?gh_jid=6105734004) | Tel Aviv, Israel | 19d |
+| Figma | [Manager, Software Engineering - Growth Platform](https://boards.greenhouse.io/figma/jobs/6010279004?gh_jid=6010279004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Manager, Software Engineering - Interaction Design](https://boards.greenhouse.io/figma/jobs/5778796004?gh_jid=5778796004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Manager, Software Engineering - Payload](https://boards.greenhouse.io/figma/jobs/6092906004?gh_jid=6092906004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Software Engineer - Figma Weave (Tel Aviv, Israel)](https://boards.greenhouse.io/figma/jobs/6073106004?gh_jid=6073106004) | Tel Aviv, Israel | 19d |
+| Figma | [Software Engineer, AI Platforms](https://boards.greenhouse.io/figma/jobs/5691886004?gh_jid=5691886004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Software Engineer, AI Product](https://boards.greenhouse.io/figma/jobs/5551730004?gh_jid=5551730004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Software Engineer, C++](https://boards.greenhouse.io/figma/jobs/5552530004?gh_jid=5552530004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Software Engineer, Graphics & Media](https://boards.greenhouse.io/figma/jobs/5552522004?gh_jid=5552522004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Software Engineer, Growth & Monetization](https://boards.greenhouse.io/figma/jobs/5552560004?gh_jid=5552560004) | San Francisco, CA • New York, NY • United States | 19d |
+| Figma | [Software Engineer, Mobile Web](https://boards.greenhouse.io/figma/jobs/6100023004?gh_jid=6100023004) | San Francisco, CA • New York, NY • United States | 19d |
 | Openai | [Simulation Infrastructure Engineer](https://jobs.ashbyhq.com/openai/39cd0dd8-520d-4932-80bf-7495a1d1d11b) | San Francisco | 19d |
 | Openai | [Tax Director - Infrastructure & Incentives](https://jobs.ashbyhq.com/openai/11a78901-33d6-4c49-8750-25286038aafa) | San Francisco | 19d |
 | Palantir | [Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/d40d5d19-8f9e-4e6b-b4d3-b7457c90adec) | Washington, D.C. | 19d |
@@ -562,7 +590,6 @@ Total roles: 473
 | Amazon | [Software Development Engineer II, Aurora](https://www.amazon.jobs/en/jobs/10451656/software-development-engineer-ii-aurora) | Bengaluru, Karnataka, IND | 1mo |
 | Cohere | [Data Annotation Specialist, Software Engineering](https://jobs.ashbyhq.com/cohere/5d31ba60-683a-4d59-8059-3f728b772a9e) | Canada | 1mo |
 | Openai | [Full Stack Software Engineer, Agent Enablement](https://jobs.ashbyhq.com/openai/2d7f1028-ce9b-49c7-acc8-782714ca1cf4) | San Francisco | 1mo |
-| Amazon | [Software Development Engineer II, Software Defined Networking](https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking) | Austin, Texas, USA | 1mo |
 | Cohere | [Software Engineer, North for Finance](https://jobs.ashbyhq.com/cohere/f722247c-291b-44ee-af67-5159b8d5d9b9) | Europe | 1mo |
 | Ramp | [Software Engineer, International](https://jobs.ashbyhq.com/ramp/be75224c-854c-4a55-9da5-62ca2dcc09df) | London | 1mo |
 | Cohere | [Software Engineer, Agents & Automations](https://jobs.ashbyhq.com/cohere/4a3c3eb2-ae2e-4a86-a677-7bdecbc7d76e) | London | 1mo |
@@ -618,7 +645,6 @@ Total roles: 473
 | Openai | [Capacity Systems Software Engineer](https://jobs.ashbyhq.com/openai/11c51b12-3ba0-4a7a-a0d2-ed0661324dc3) | San Francisco | 2mo |
 | Openai | [Software Engineer, API SDK](https://jobs.ashbyhq.com/openai/77fbf383-bb97-4006-9b2d-e5de2d6f79d3) | Seattle | 2mo |
 | Openai | [Software Engineer, ML Systems & Training Architecture](https://jobs.ashbyhq.com/openai/9117987a-7a59-449e-a702-89e8d0e8cb60) | San Francisco | 2mo |
-| Amazon | [Software Development Engineer II, Agents](https://www.amazon.jobs/en/jobs/10427407/software-development-engineer-ii-agents) | Arlington, Virginia, USA | 2mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/a11e0267-85fb-4eaa-920b-849edbb5b625) | AMER | 2mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/b8ebc311-9742-4a17-ac8e-36d23b925626) | AMER | 2mo |
 | Clickhouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/c9c55913-563f-432d-9d9b-722e71f57b53) | AMER | 2mo |
@@ -769,7 +795,6 @@ Total hackathons: 199
 | D'Code NSUT | [Code Royale](https://unstop.com/hackathons/code-royale-oblivion26-dcode-nsut-1722239) |
 | D'Code NSUT | [Hack-4-Crown](https://unstop.com/hackathons/hack-4-crown-oblivion26-dcode-nsut-1721294) |
 | D'Code NSUT | [Vibewright](https://unstop.com/hackathons/vibewright-oblivion26-dcode-nsut-1722532) |
-| DataHub | [Build with DataHub: The Agent Hackathon](https://datahub.devpost.com/) |
 | Deenbandhu Chhotu Ram University Of Science And Technology (DCRUST), Murthal, Haryana | [Paper Buddy EduVerse Hackathon 2026](https://unstop.com/hackathons/paper-buddy-eduverse-hackathon-2026-deenbandhu-chhotu-ram-university-of-science-and-technology-dcrust-murthal-1726534) |
 | DETOX | [Trivium 2.0](https://unstop.com/hackathons/trivium-20-detox-1727396) |
 | Devfolio | [.hack '26](https://dothack26.devfolio.co) |
@@ -869,6 +894,7 @@ Total hackathons: 199
 | Malla Reddy (MR) Deemed University | [Code Chakra Competitive Programming Championship](https://unstop.com/hackathons/code-chakra-competitive-programming-championship-malla-reddy-mr-deemed-university-1726414) |
 | Malla Reddy (MR) Deemed University | [Techfusion Hackathon](https://unstop.com/hackathons/techfusion-hackathon-malla-reddy-mr-deemed-university-1726419) |
 | Malla Reddy Deemed to Be University | [Open Innovation Hackathon](https://unstop.com/hackathons/open-innovation-hackathon-hakitxmrdu-malla-reddy-deemed-to-be-university-1725253) |
+| Manipal University (MU), Jaipur | [International Innovation Challenge 3.0](https://unstop.com/hackathons/international-innovation-challenge-30-manipal-university-mu-jaipur-1702624) |
 | Microsoft Student Club - SCU | [Canal Startup Sprint Hackathon](https://canal-startup-sprint-hackathon.devpost.com/) |
 | MIT Academy of Engineering (MITAOE), Pune, Maharashtra | [National Level MIT India Hackathon 2026](https://unstop.com/hackathons/national-level-mit-india-hackathon-2026-mit-academy-of-engineering-mitaoe-pune-maharashtra-1727144) |
 | MIT Arts, Commerce & Science College, Alandi, Pune, Maharashtra | [Kurukshetra 2.0 Hackfest](https://unstop.com/hackathons/kurukshetra-20-hackfest-mit-arts-commerce-science-college-alandi-pune-maharashtra-1726911) |
@@ -930,21 +956,23 @@ Total hackathons: 199
 | University of Engineering and Management Kolkata | [FusioniX'26](https://unstop.com/hackathons/fusionix-2026-university-of-engineering-and-management-kolkata-1727790) |
 | University of Engineering and Management Kolkata | [Hack Synthesis 3.0 - 2026](https://unstop.com/hackathons/hack-synthesis-30-2026-university-of-engineering-and-management-kolkata-1710631) |
 | University Visvesvaraya College Of Engineering (UVCE), Bangalore | [CodeFury 9.0](https://unstop.com/hackathons/codefury-90-university-visvesvaraya-college-of-engineering-uvce-bangalore-1726707) |
-| Vasantdada Patil Pratishthan's College of Engineering and Visual Arts, Mumbai, Maharashtra | [IDEATHON: Spark Before the Code](https://unstop.com/hackathons/ideathon-spark-before-the-code-vasantdada-patil-pratishthans-college-of-engineering-and-visual-arts-mumbai-ma-1718428) |
 | Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Avadi | [VELOHACK 2k26: 24 Hour International Hackathon](https://unstop.com/hackathons/velohack-2k26-24-hour-international-hackathon-vel-tech-rangarajan-dr-sagunthala-rd-institute-of-science-and-t-1730386) |
 | Vidyavardhini’s College of Engineering and Technology | [VCET Hackathon 2026](https://unstop.com/hackathons/vcet-hackathon-2026-vidyavardhinis-college-of-engineering-and-technology-1729412) |
+| VITM | [INNOVIK 6.0 – International Hackathon 2026 | Indore Edition](https://innovik6-indore.devpost.com/) |
 | Women In Product India | [The Great Agent Hackathon](https://the-great-agent-hackathon.devpost.com/) |
 | 멋쟁이사자처럼 | [LIKELION Internal Test Hackathon](https://likelion-test-2026.devpost.com/) |
 
 ## Events
 
-Total events: 3
+Total events: 5
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow DC](https://lu.ma/DC2?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 
