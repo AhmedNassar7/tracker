@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T17:07:31Z",
-  "total": 226,
+  "generated_at": "2026-08-10T18:02:29Z",
+  "total": 223,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -893,29 +893,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0476ba52df9714ce",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T17:07:31Z",
       "tags": [
         "software",
         "programming",
@@ -2165,29 +2142,6 @@
       ]
     },
     {
-      "id": "bb0c89a310bce06c",
-      "company": "Microsoft",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "category": "microsoft_group",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Redmond, Washington, U...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556955027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "2d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "3270629d3b451866",
       "company": "Microsoft",
       "title": "Software Engineer: Intern Opportunities for University Students - CoreAI",
@@ -3004,29 +2958,6 @@
       "location": "Palo Alto, CA, US",
       "remote_type": "onsite",
       "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7958766",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-04",
-      "age": "6d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d7de8fa14aa6e40f",
-      "company": "SnapCyte Solutions Inc.",
-      "title": "Junior Machine Learning Engineer",
-      "level": "junior",
-      "category": "more_global_tech",
-      "region": "canada",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Vancouver, BC, CA",
-      "remote_type": "onsite",
-      "url": "https://ca.indeed.com/viewjob?jk=9e40d364d6182dfb",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-04",
