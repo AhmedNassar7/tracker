@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-09T23:45:16Z",
-  "total": 222,
+  "generated_at": "2026-08-10T02:33:21Z",
+  "total": 223,
   "by_level": {
     "new_grad": 99,
     "internship": 80,
-    "entry_level": 2,
+    "entry_level": 3,
     "junior": 6,
     "mid_level": 35
   },
@@ -15,7 +15,7 @@
     "Remote": 1,
     "Poland": 1,
     "Portugal": 1,
-    "Canada": 25,
+    "Canada": 26,
     "United Kingdom": 7
   },
   "by_source": {
@@ -31,7 +31,7 @@
     "simplify_internships": 12,
     "simplify_newgrad": 16,
     "speedyapply_swe": 22,
-    "zapplyjobs_canada": 10,
+    "zapplyjobs_canada": 11,
     "speedyapply_ai": 6,
     "zapplyjobs_canada_internships": 1
   }
