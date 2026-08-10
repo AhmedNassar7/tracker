@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T21:01:23Z",
-  "total": 896,
+  "generated_at": "2026-08-10T21:57:28Z",
+  "total": 891,
   "jobs": [
     {
       "id": "4e0095038470d9bc",
@@ -1563,21 +1563,6 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
-      "id": "73789859055822bf",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Lead Site Reliability Engineer",
-      "location": "Pune, India",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Site-Reliability-Engineer_R-278954",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
       "id": "4c6f0bb2598c3f4c",
       "kind": "job",
       "company": "Mastercard",
@@ -1666,36 +1651,6 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Senior-Software-Engineer--Full-Stack-_R-287835-1",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "d16c4ade535c60ac",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Principal Software Engineer - DGX Cloud",
-      "location": "<details><summary><strong>3 locations</strong></summary>US, WA, Seattle<br>US, CA, Santa Clara<br>US, WA, Remote</details>",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Principal-Software-Engineer---DGX-Cloud_JR2023059",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "ed12844424c2abc4",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - DGX Cloud",
-      "location": "<details><summary><strong>3 locations</strong></summary>US, WA, Seattle<br>US, CA, Santa Clara<br>US, WA, Remote</details>",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Senior-Software-Engineer---DGX-Cloud_JR2023057",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
       "id": "d830cc0b1c6d6669",
@@ -11374,7 +11329,7 @@
       "company": "dsmhack",
       "title": "Hack Away Hunger: Food Insecurity Challenge",
       "location": "Corteva's Pioneer Shull Building",
-      "date": "2 months left",
+      "date": "about 2 months left",
       "posted_at": "2026-08-10",
       "url": "https://hack-away-hunger.devpost.com/",
       "source": "devpost",
@@ -12034,7 +11989,7 @@
       "company": "MLH",
       "title": "PIXEL.GEMINI 3.0",
       "location": "Valarpuram, India",
-      "date": "about 17 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-08-10",
       "url": "https://pixel-gemini-3-0.devpost.com/",
       "source": "devpost",
@@ -12799,18 +12754,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-10",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -12819,18 +12762,6 @@
       "date": "",
       "posted_at": "2026-08-10",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-10",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
