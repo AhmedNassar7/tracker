@@ -50,8 +50,8 @@
     },
     "posted_at": {
       "type": "string",
-      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
-      "description": "Date this entry was posted or collected (YYYY-MM-DD)"
+      "pattern": "^$|^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Date this entry was posted or collected (YYYY-MM-DD), or '' when the source only exposes a fuzzy relative date instead of a real timestamp (e.g. Workday's 'Posted 3 Days Ago' — see the 'date' field for that fuzzy value instead)"
     },
     "url": {
       "type": "string",

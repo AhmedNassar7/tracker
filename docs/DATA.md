@@ -84,7 +84,7 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 | `role_type` | enum | Job-only: `full_stack` \| `backend` \| `frontend` \| `mobile` \| `platform` \| `infrastructure` \| `security` \| `machine_learning` \| `software_engineer` \| `other_swe` |
 | `region` | enum | Job-only: `us` \| `canada` \| `emea` \| `remote` \| `unknown` |
 | `date` | string | Free-form: age for jobs, submission deadline for hackathons, `""` for events |
-| `posted_at` | string | `YYYY-MM-DD` |
+| `posted_at` | string | `YYYY-MM-DD`, or `""` when a source only exposes a fuzzy relative date instead of a real timestamp (Workday — the fuzzy value lives in `date` instead) |
 | `url` | string | Absolute URL, except Luma events which use a site-relative path |
 | `source` | string | e.g. `greenhouse:stripe`, `lever:acme`, `devpost`, `luma` |
 | `source_url` | string (uri) | |

@@ -1,6 +1,7 @@
 import contextlib
 import importlib.util
 import io
+import json
 import tempfile
 from pathlib import Path
 from unittest.mock import patch
@@ -143,6 +144,18 @@ def main():
         sv.validate_record(valid_hackathon, public_schema) == [],
     ))
 
+    # Regression test: Workday only exposes fuzzy relative dates ("Posted 3
+    # Days Ago"), so fetch_workday_jobs() intentionally writes posted_at as
+    # "" (the real date goes in 'date' instead) — this must validate cleanly,
+    # not be treated as a malformed date.
+    valid_workday_job = dict(valid_public_job)
+    valid_workday_job["posted_at"] = ""
+    valid_workday_job["date"] = "3d"
+    run("empty posted_at (Workday's fuzzy-date case) is valid, not malformed", lambda: check(
+        "empty posted_at is valid",
+        sv.validate_record(valid_workday_job, public_schema) == [],
+    ))
+
     run("validate_records flags the right index", lambda: check(
         "validate_records flags the right index",
         any("[1]" in e for e in sv.validate_records([valid_job, bad_enum], job_schema, label="jobs")),
@@ -183,6 +196,70 @@ def main():
     run("write_outputs refuses to publish a schema-invalid job row", lambda: check(
         "write_outputs refuses to publish a schema-invalid job row",
         _raises(write_bad_job_row, ValueError),
+    ))
+
+    # Regression test for a real production incident: validating the merged/
+    # carried-forward lists instead of only this run's freshly fetched rows
+    # meant one old, legacy-shaped row already sitting in the archive (from
+    # before this validator existed, missing 'age' entirely) permanently
+    # blocked every future run — even though nothing about that row changed
+    # and today's code did nothing wrong. Validation must be scoped to what
+    # this run actually produced, not history it's merely carrying forward.
+    legacy_archived_row = {
+        "id": "ffffffffffffffff",
+        "company": "OldCo",
+        "title": "Software Engineer",
+        "level": "new_grad",
+        "country": "United States",
+        "location": "Remote",
+        "remote_type": "remote",
+        "url": "https://example.com/legacy",
+        "source": "remotive",
+        "source_url": "https://remotive.com",
+        "posted_at": "2024-01-01",
+        # "age" deliberately omitted, no category/region/role_type either —
+        # simulating a row written before those fields (or this validator)
+        # existed.
+        "collected_at": "2024-01-01T00:00:00Z",
+        "tags": ["software"],
+    }
+    fresh_valid_row = {
+        "id": "aaaaaaaaaaaaaaaa",
+        "company": "Google",
+        "title": "Software Engineer New Grad",
+        "level": "new_grad",
+        "category": "faang",
+        "region": "us",
+        "role_type": "software_engineer",
+        "country": "United States",
+        "location": "Mountain View, CA",
+        "remote_type": "onsite",
+        "url": "https://example.com/fresh",
+        "source": "remotive",
+        "source_url": "https://remotive.com",
+        "posted_at": "2026-01-01",
+        "age": "0d",
+        "collected_at": "2026-01-01T00:00:00Z",
+        "tags": ["software"],
+    }
+
+    def write_with_legacy_archive_present():
+        with tempfile.TemporaryDirectory() as tmp:
+            data_out = Path(tmp)
+            (data_out / "jobs-global.json").write_text(
+                json.dumps({"generated_at": "2024-01-01T00:00:00Z", "total": 0, "jobs": []}), encoding="utf-8",
+            )
+            (data_out / "jobs-global-archive.json").write_text(
+                json.dumps({"generated_at": "2024-01-01T00:00:00Z", "total": 1, "jobs": [legacy_archived_row]}), encoding="utf-8",
+            )
+            with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "check_url_alive", return_value=True):
+                fetch.write_outputs([fresh_valid_row])
+            return json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
+
+    legacy_result = write_with_legacy_archive_present()
+    run("a pre-existing legacy-shaped archive row doesn't block a run with valid fresh data", lambda: check(
+        "legacy archive row doesn't block the run",
+        legacy_result["total"] == 1 and legacy_result["jobs"][0]["company"] == "Google",
     ))
 
     public_sources = load_module("scripts/public_sources.py", "public_sources_module_for_schema_test")

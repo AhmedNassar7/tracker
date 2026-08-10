@@ -58,6 +58,24 @@ def write_fetch_outputs(
     rows = sorted(rows, key=job_sort_key)
     public_rows = [public_job_record(row) for row in rows]
 
+    # Validate what THIS run's fetch + normalize + public_job_record actually
+    # produced, before it's merged with previously-written data below.
+    # Deliberately scoped to only these freshly computed rows, not the merged
+    # active/archive lists further down: those carry forward rows written by
+    # past runs verbatim when unchanged (including rows written before this
+    # validator existed, or before a field was even added to the schema) —
+    # re-validating that inherited history every run would mean one old row
+    # permanently blocks every future run instead of catching an actual bug
+    # in today's code, which is what this check exists to do.
+    validation_errors = validate_records(public_rows, JOB_ENTRY_SCHEMA, label="jobs-global.json jobs")
+    if validation_errors:
+        for err in validation_errors[:20]:
+            log_error(f"Schema validation: {err}")
+        raise ValueError(
+            f"Schema validation failed for {len(validation_errors)} field(s) in this run's "
+            f"freshly fetched rows — see logged errors above"
+        )
+
     active_file = data_out / "jobs-global.json"
     archive_file = data_out / "jobs-global-archive.json"
     previous_active_rows = _load_jobs_payload(active_file)
@@ -147,19 +165,6 @@ def write_fetch_outputs(
         key=lambda x: x.get("closed_at", x.get("collected_at", "")),
         reverse=True,
     )
-
-    # Validate before writing anything — a shape drift in either output
-    # should fail the run loudly rather than silently ship bad data to the
-    # site that will read these files.
-    validation_errors = validate_records(public_rows, JOB_ENTRY_SCHEMA, label="jobs-global.json jobs")
-    validation_errors += validate_records(archive_public_rows, JOB_ENTRY_SCHEMA, label="jobs-global-archive.json jobs")
-    if validation_errors:
-        for err in validation_errors[:20]:
-            log_error(f"Schema validation: {err}")
-        raise ValueError(
-            f"Schema validation failed for {len(validation_errors)} field(s) across "
-            f"{active_file.name}/{archive_file.name} — see logged errors above"
-        )
 
     payload = {"generated_at": now_iso, "total": len(public_rows), "jobs": public_rows}
     try:

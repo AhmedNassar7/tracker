@@ -1,38 +1,39 @@
 {
-  "generated_at": "2026-08-10T02:33:21Z",
-  "total": 223,
+  "generated_at": "2026-08-10T09:39:03Z",
+  "total": 249,
   "by_level": {
-    "new_grad": 99,
-    "internship": 80,
-    "entry_level": 3,
-    "junior": 6,
-    "mid_level": 35
+    "new_grad": 91,
+    "entry_level": 11,
+    "internship": 82,
+    "junior": 7,
+    "mid_level": 58
   },
   "by_country": {
-    "United States": 143,
+    "United States": 154,
+    "Unknown": 57,
     "Germany": 1,
-    "Unknown": 43,
     "Remote": 1,
+    "Canada": 27,
     "Poland": 1,
     "Portugal": 1,
-    "Canada": 26,
     "United Kingdom": 7
   },
   "by_source": {
-    "vanshb03_newgrad": 63,
+    "vanshb03_newgrad": 71,
+    "vanshb03_summer_internships": 25,
     "lorenzolacorte_eu": 3,
-    "vanshb03_summer_internships": 24,
     "zapplyjobs_internships": 10,
     "zapplyjobs_all_newgrad": 1,
-    "zapplyjobs_newgrad": 6,
+    "zapplyjobs_newgrad": 7,
     "hanzili_canada": 2,
-    "zapplyjobs_datascience": 7,
-    "ambicuity": 39,
+    "zapplyjobs_canada_internships": 2,
+    "ambicuity": 31,
     "simplify_internships": 12,
+    "speedyapply_swe": 23,
+    "zapplyjobs_datascience": 6,
     "simplify_newgrad": 16,
-    "speedyapply_swe": 22,
     "zapplyjobs_canada": 11,
-    "speedyapply_ai": 6,
-    "zapplyjobs_canada_internships": 1
+    "amazon": 23,
+    "speedyapply_ai": 6
   }
 }
