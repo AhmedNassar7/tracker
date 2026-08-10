@@ -4,6 +4,8 @@
 This layer is separate from the main jobs snapshot. It uses public feeds/APIs
 to widen coverage:
 - Devpost hackathons
+- Unstop hackathons
+- Devfolio hackathons
 - Luma discovery pages
 - Greenhouse public job board API (auto-discovered from existing job URLs)
 - Lever public postings JSON (auto-discovered from existing job URLs)
@@ -32,8 +34,9 @@ if str(SCRIPT_DIR) not in sys.path:
 from patterns import (
     PUBLIC_LEVEL_PATTERNS,
     PUBLIC_NON_SOFTWARE_TITLE_PATTERNS,
-    PUBLIC_ROLE_PATTERNS,
     PUBLIC_SOFTWARE_ROLE_TYPES,
+    detect_region,
+    detect_role_type,
 )
 from simplify_jobs_parser import format_location_display
 from public_outputs import write_public_outputs
@@ -49,7 +52,6 @@ NOW_ISO = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 TODAY = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d")
 
 LEVEL_PATTERNS = PUBLIC_LEVEL_PATTERNS
-ROLE_PATTERNS = PUBLIC_ROLE_PATTERNS
 SOFTWARE_ROLE_TYPES = PUBLIC_SOFTWARE_ROLE_TYPES
 NON_SOFTWARE_TITLE_PATTERNS = PUBLIC_NON_SOFTWARE_TITLE_PATTERNS
 
@@ -109,28 +111,6 @@ def detect_level(title):
         if rx.search(title):
             return level
     return "other"
-
-
-def detect_role_type(title):
-    if ROLE_PATTERNS["full_stack"].search(title):
-        return "full_stack"
-    if ROLE_PATTERNS["backend"].search(title):
-        return "backend"
-    if ROLE_PATTERNS["frontend"].search(title):
-        return "frontend"
-    if ROLE_PATTERNS["mobile"].search(title):
-        return "mobile"
-    if ROLE_PATTERNS["platform"].search(title):
-        return "platform"
-    if ROLE_PATTERNS["infrastructure"].search(title):
-        return "infrastructure"
-    if ROLE_PATTERNS["security"].search(title):
-        return "security"
-    if ROLE_PATTERNS["machine_learning"].search(title):
-        return "machine_learning"
-    if ROLE_PATTERNS["software_engineer"].search(title):
-        return "software_engineer"
-    return "other_swe"
 
 
 def is_software_job(title):
@@ -276,6 +256,7 @@ def fetch_greenhouse_board_jobs(board_token, company_name):
                 "title": title,
                 "location": location,
                 "level": detect_level(title),
+                "region": detect_region(location),
                 "role_type": detect_role_type(title),
                 "date": format_age_from_date(posted_at),
                 "posted_at": posted_at,
@@ -316,6 +297,7 @@ def fetch_lever_jobs(company_slug, company_name):
                 "title": title,
                 "location": location,
                 "level": detect_level(title),
+                "region": detect_region(location),
                 "role_type": detect_role_type(title),
                 "date": format_age_from_date(posted_at),
                 "posted_at": posted_at,
@@ -353,6 +335,7 @@ def fetch_ashby_board_jobs(board_token, company_name):
                 "title": title,
                 "location": location,
                 "level": detect_level(title),
+                "region": detect_region(location),
                 "role_type": detect_role_type(title),
                 "date": format_age_from_date(posted_at),
                 "posted_at": posted_at,
@@ -396,6 +379,7 @@ def fetch_smartrecruiters_jobs(company_slug, company_name):
                 "title": title,
                 "location": location,
                 "level": detect_level(title),
+                "region": detect_region(location),
                 "role_type": detect_role_type(title),
                 "date": format_age_from_date(posted_at),
                 "posted_at": posted_at,
@@ -500,6 +484,7 @@ def fetch_workday_jobs(host, site, company_name, max_pages=5, max_location_looku
                     "title": title,
                     "location": display_location,
                     "level": detect_level(title),
+                    "region": detect_region(display_location),
                     "role_type": detect_role_type(title),
                     "date": parse_workday_posted_on(item.get("postedOn") or ""),
                     "posted_at": "",
@@ -595,6 +580,154 @@ def fetch_devpost_hackathons(max_pages=6):
 
         total_count = (payload.get("meta") or {}).get("total_count", 0)
         if len(seen_urls) >= total_count:
+            break
+
+    return rows
+
+
+def _format_deadline_from_end(end_dt, now):
+    if end_dt is None:
+        return ""
+    days_left = (end_dt - now).days
+    if days_left < 0:
+        return "closed"
+    if days_left == 0:
+        return "last day"
+    return f"{days_left} days left"
+
+
+def fetch_unstop_hackathons(max_pages=10):
+    """Fetch currently-recruiting hackathons from Unstop's own public API —
+    verified live: a real, free, keyless, paginated JSON endpoint (10
+    results/page) covering thousands of hackathons, complementing Devpost's
+    catalog rather than duplicating it. `oppstatus=recruiting` narrows to
+    ones still accepting registrations; capped at max_pages since the full
+    catalog is 6000+ entries and most of it is well past relevant.
+    """
+    rows = []
+    seen_urls = set()
+    now = datetime.datetime.now(datetime.UTC)
+    api_base = "https://unstop.com/api/public/opportunity/search-result"
+
+    for page in range(1, max_pages + 1):
+        api_url = f"{api_base}?opportunity=hackathons&oppstatus=recruiting&page={page}"
+        try:
+            payload = fetch_json(api_url)
+        except Exception as exc:
+            if page == 1:
+                log_warn(f"Unstop fetch failed: {exc}")
+            break
+
+        result = payload.get("data") or {}
+        items = result.get("data", [])
+        if not items:
+            break
+
+        for item in items:
+            title = clean_text(item.get("title") or "")
+            url = item.get("seo_url") or item.get("public_url") or ""
+            if url and not url.startswith("http"):
+                url = f"https://unstop.com/{url.lstrip('/')}"
+            if not (title and url) or url in seen_urls:
+                continue
+            seen_urls.add(url)
+
+            organisation = (item.get("organisation") or {}).get("name") or "Unstop"
+            region = clean_text(item.get("region") or "")
+            location = "Online" if region.lower() == "online" else (region.title() if region else "Various")
+
+            end_dt = None
+            try:
+                end_dt = datetime.datetime.fromisoformat(item.get("end_date") or "")
+            except Exception:
+                pass
+
+            rows.append(
+                {
+                    "id": make_id("unstop", title, url),
+                    "kind": "hackathon",
+                    "company": clean_text(organisation),
+                    "title": title,
+                    "location": location,
+                    "date": _format_deadline_from_end(end_dt, now),
+                    "posted_at": TODAY,
+                    "url": url,
+                    "source": "unstop",
+                    "source_url": "https://unstop.com/hackathons",
+                }
+            )
+
+        total = result.get("total", 0)
+        if page * 10 >= total:
+            break
+
+    return rows
+
+
+def fetch_devfolio_hackathons(max_pages=2):
+    """Fetch hackathons from Devfolio's own public API — verified live, real
+    JSON, no key. The whole catalog is only `pages` batches (2 today, ~1000
+    each), so this pulls all of them and filters to ones that haven't ended
+    yet — Devfolio's API doesn't expose a separate "still open" flag the way
+    Unstop's regn_open does, so `ends_at` in the future is the signal used.
+    """
+    rows = []
+    seen_urls = set()
+    now = datetime.datetime.now(datetime.UTC)
+
+    for page in range(1, max_pages + 1):
+        api_url = f"https://api.devfolio.co/api/hackathons?page={page}"
+        try:
+            payload = fetch_json(api_url)
+        except Exception as exc:
+            if page == 1:
+                log_warn(f"Devfolio fetch failed: {exc}")
+            break
+
+        items = payload.get("result", [])
+        if not items:
+            break
+
+        for item in items:
+            end_dt = None
+            try:
+                end_dt = datetime.datetime.fromisoformat(item.get("ends_at") or "")
+            except Exception:
+                pass
+            if end_dt is None or end_dt < now:
+                continue  # already concluded — not worth publishing
+
+            title = clean_text(item.get("name") or "")
+            slug = item.get("slug") or ""
+            url = f"https://{slug}.devfolio.co" if slug else ""
+            if not (title and url) or url in seen_urls:
+                continue
+            seen_urls.add(url)
+
+            if item.get("is_online"):
+                location = "Online"
+            else:
+                city = clean_text(item.get("city") or "")
+                country = clean_text(item.get("country") or "")
+                location = ", ".join(part for part in (city, country) if part) or "Various"
+
+            rows.append(
+                {
+                    "id": make_id("devfolio", title, url),
+                    "kind": "hackathon",
+                    "company": "Devfolio",
+                    "title": title,
+                    "location": location,
+                    "date": _format_deadline_from_end(end_dt, now),
+                    "posted_at": TODAY,
+                    "url": url,
+                    "source": "devfolio",
+                    "source_url": "https://devfolio.co/hackathons",
+                }
+            )
+
+        total_pages = payload.get("pages", page)
+        if page >= total_pages:
             break
 
     return rows
@@ -696,7 +829,7 @@ def dedupe(rows):
 
 
 def write_outputs(rows):
-    write_public_outputs(rows, data_out=DATA_OUT, now_iso=NOW_ISO, sort_key=sort_key, log_info=log_info)
+    write_public_outputs(rows, data_out=DATA_OUT, now_iso=NOW_ISO, sort_key=sort_key, log_info=log_info, log_error=log_error)
 
 def main():
     log_info("=" * 70)
@@ -713,6 +846,8 @@ def main():
     )
 
     rows.extend(fetch_devpost_hackathons())
+    rows.extend(fetch_unstop_hackathons())
+    rows.extend(fetch_devfolio_hackathons())
     rows.extend(fetch_luma_discover())
 
     # Greenhouse/Lever/Ashby/SmartRecruiters each serve *every* company from

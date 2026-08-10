@@ -4,7 +4,7 @@ This file is for anyone who wants to understand, run, or extend the pipeline beh
 
 ## How it works
 
-1. **Fetch** — `scripts/fetch.py` pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply, vanshb03, zapplyjobs, hanzili, ambicuity, and LorenzoLaCorte's European tracker, filtered by the companies in `config/companies_allowlist.yml`. `scripts/public_sources.py` widens coverage with Devpost, Luma, Greenhouse, Lever, and Workday (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in `config/extra_job_boards.yml`. Every apply link is checked before publishing, and dead ones are moved to the archive automatically. See [SOURCES.md](SOURCES.md) for the full list with links.
+1. **Fetch** — `scripts/fetch.py` pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply, vanshb03, zapplyjobs, hanzili, ambicuity, LorenzoLaCorte's European tracker, and Amazon's own careers API directly, filtered by the companies in `config/companies_allowlist.yml`. `scripts/public_sources.py` widens coverage with Devpost, Unstop, Devfolio, Luma, Greenhouse, Lever, and Workday (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in `config/extra_job_boards.yml`. Every apply link is checked before publishing, and dead ones are moved to the archive automatically. Every published row is also checked against `config/job-entry.schema.json` / `config/public-entry.schema.json` before being written — a shape drift fails the run instead of silently shipping bad data. See [SOURCES.md](SOURCES.md) for the full list with links.
 2. **Build** — `scripts/build_data_readme.py` turns the raw JSON in `data/` into the readable tables in `README.md` and `data/README.md`.
 3. **Publish** — a [GitHub Actions workflow](.github/workflows/hourly-global-roles.yml) runs this pipeline hourly, opens a pull request with whatever changed, and auto-merges it. No manual steps.
 
@@ -29,6 +29,7 @@ python scripts/build_data_readme.py  # renders README.md and data/README.md from
 
 python tests/test_fetch.py
 python tests/test_public_sources.py
+python tests/test_schema_validation.py
 ```
 
 Pull requests run through [CI](.github/workflows/ci.yml) automatically — both test files need to pass before merging.

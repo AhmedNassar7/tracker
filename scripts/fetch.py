@@ -2,7 +2,8 @@
 """
 Fetch global tech roles from multiple sources, normalize, dedupe, and export.
 Sources: Remotive, ArbeitNow, SimplifyJobs (internships & new grad), ambicuity/
-New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada)
+New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada), Amazon
+(direct from amazon.jobs' own API)
 Scope: US, Canada, EMEA + Remote | Levels: Internship/New Grad/Junior/Entry/Mid
 Companies: Top-tier allowlist only
 """
@@ -24,9 +25,10 @@ from patterns import (
     FETCH_COUNTRY_MARK_MAP,
     FETCH_HYBRID_RE,
     FETCH_LEVEL_MAP,
-    FETCH_REGION_MAP,
     FETCH_REMOTE_RE,
     FETCH_ROLE_RE,
+    detect_region,
+    detect_role_type,
 )
 from simplify_jobs_parser import (
     clean_html_text as _clean_html_text,
@@ -67,26 +69,40 @@ def log_debug(msg):
     if DEBUG:
         print(f"[DEBUG] {msg}", file=sys.stdout, flush=True)
 
-# Load company allowlist
+# Load company allowlist. ALLOWLIST stays a flat list of lowercase company
+# names (matching the config file's own line-by-line shape); the YAML's
+# top-level category headers (faang, big_tech, cloud_infra, ...) are tracked
+# alongside it in ALLOWLIST_CATEGORY_BY_NAME rather than folded into
+# ALLOWLIST's own shape, so is_allowed_company() can report which category a
+# company matched without changing what ALLOWLIST itself looks like.
 ALLOWLIST_PATH = CONFIG / "companies_allowlist.yml"
 ALLOWLIST = []
+ALLOWLIST_CATEGORY_BY_NAME = {}
 
 if not ALLOWLIST_PATH.exists():
     log_error(f"Allowlist not found: {ALLOWLIST_PATH}")
 else:
     try:
+        current_category = None
         for line in ALLOWLIST_PATH.read_text(encoding="utf-8").splitlines():
             s = line.strip()
-            if s and not s.startswith("#") and not s.endswith(":"):
-                ALLOWLIST.append(s.lstrip("- ").strip().lower())
+            if not s or s.startswith("#"):
+                continue
+            if s.endswith(":"):
+                current_category = s[:-1].strip()
+                continue
+            name = s.lstrip("- ").strip().lower()
+            if name:
+                ALLOWLIST.append(name)
+                ALLOWLIST_CATEGORY_BY_NAME[name] = current_category or "other"
         log_info(f"Loaded {len(ALLOWLIST)} companies from allowlist")
     except Exception as e:
         log_error(f"Failed to load allowlist: {e}")
         ALLOWLIST = []
+        ALLOWLIST_CATEGORY_BY_NAME = {}
 
 LEVEL_MAP = FETCH_LEVEL_MAP
 ROLE_RE = FETCH_ROLE_RE
-REGION_MAP = FETCH_REGION_MAP
 REMOTE_RE = FETCH_REMOTE_RE
 HYBRID_RE = FETCH_HYBRID_RE
 
@@ -111,14 +127,6 @@ def detect_level(title):
     for level, rx in LEVEL_MAP.items():
         if rx.search(title):
             return level
-    return "unknown"
-
-def detect_region(location):
-    if REMOTE_RE.search(location):
-        return "remote"
-    for region, rx in REGION_MAP.items():
-        if rx.search(location):
-            return region
     return "unknown"
 
 def detect_remote_type(location):
@@ -202,18 +210,28 @@ def _job_sort_key(row):
     return (age_days, posted_sort, (row.get("company") or "").lower(), (row.get("title") or "").lower())
 
 def is_allowed_company(company):
+    """Return the matched allowlist category (e.g. 'faang', 'big_tech') if
+    company is on the allowlist, or None if it isn't. Still works anywhere
+    that only checked this for truthiness before.
+    """
     c = company.lower()
-    return any(a in c or c in a for a in ALLOWLIST)
+    for a in ALLOWLIST:
+        if a in c or c in a:
+            return ALLOWLIST_CATEGORY_BY_NAME.get(a, "other")
+    return None
 
 def include_job(row, company):
+    category = is_allowed_company(company)
+    row["category"] = category or ""
+
     if not RELAXED_MODE:
         return (
             row["level"] in WANTED_LEVELS
-            and is_allowed_company(company)
+            and category is not None
         )
 
     level_ok = row["level"] in WANTED_LEVELS or row["level"] == "unknown"
-    company_ok = is_allowed_company(company) or row["level"] in {"internship", "new_grad"}
+    company_ok = category is not None or row["level"] in {"internship", "new_grad"}
     return level_ok and company_ok
 
 def check_url_alive(url, timeout=8):
@@ -268,6 +286,7 @@ def normalize(company, title, location, url, posted_at, source, source_url, age=
         "title": title.strip(),
         "level": detect_level(title),
         "region": detect_region(location),
+        "role_type": detect_role_type(title),
         "country": detect_country(location),
         "location": location.strip(),
         "remote_type": detect_remote_type(location),
@@ -707,6 +726,90 @@ def fetch_hanzili_canada():
         company_idx=1, title_idx=0, location_idx=5,
     )
 
+_AMAZON_POSTED_DATE_RE = re.compile(r"^([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})$")
+
+def _parse_amazon_posted_date(text):
+    """Amazon's search API returns dates like 'April  9, 2026' (a double
+    space before single-digit days) — collapse whitespace before parsing.
+    """
+    collapsed = re.sub(r"\s+", " ", (text or "").strip())
+    try:
+        return datetime.datetime.strptime(collapsed, "%B %d, %Y").date().isoformat()
+    except Exception:
+        return TODAY
+
+def fetch_amazon(max_pages=3, result_limit=100):
+    """Fetch directly from amazon.jobs' own search API — verified live,
+    keyless, real JSON — rather than only through third-party trackers that
+    can carry stale/removed Amazon listings with no reliable way to verify
+    them (Amazon's own careers site has no dead-link ambiguity the way a
+    community README does: a closed posting simply won't appear in a fresh
+    search result here).
+
+    Query is Amazon's own job-family name ("software development engineer"),
+    not narrowed to a level, since Amazon's title convention doesn't always
+    self-describe level the way other sources do — level filtering is left
+    entirely to detect_level() + include_job(), same as every other source.
+    """
+    out = []
+    log_info("Fetching Amazon (direct)...")
+    base_url = "https://www.amazon.jobs/en/search.json"
+    skipped = {"role": 0, "level": 0, "region": 0, "company": 0}
+
+    for page in range(max_pages):
+        offset = page * result_limit
+        url = f"{base_url}?base_query=software+development+engineer&result_limit={result_limit}&offset={offset}"
+        path = DATA_RAW / f"amazon_page{page}.json"
+
+        if not fetch_url(url, path):
+            log_warn(f"Amazon fetch failed on page {page}, stopping pagination")
+            break
+
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            jobs = data.get("jobs", [])
+        except Exception as e:
+            log_error(f"Error parsing Amazon page {page}: {e}")
+            break
+
+        if not jobs:
+            break
+
+        for j in jobs:
+            title = (j.get("title") or "").strip()
+            job_path = (j.get("job_path") or "").strip()
+            url_full = f"https://www.amazon.jobs{job_path}" if job_path else ""
+            location = (j.get("normalized_location") or "").strip()
+            posted = _parse_amazon_posted_date(j.get("posted_date") or "")
+
+            if not (title and url_full):
+                skipped["role"] += 1
+                continue
+
+            if not ROLE_RE.search(title):
+                skipped["role"] += 1
+                continue
+
+            row = normalize("Amazon", title, location, url_full, posted, "amazon", "https://www.amazon.jobs/")
+
+            if not include_job(row, "Amazon"):
+                if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:
+                    skipped["level"] += 1
+                elif row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                    skipped["region"] += 1
+                else:
+                    skipped["company"] += 1
+                continue
+
+            out.append(row)
+
+        hits = data.get("hits", 0)
+        if offset + result_limit >= hits:
+            break
+
+    log_info(f"Amazon: {len(out)} matched (skipped role:{skipped['role']} level:{skipped['level']} region:{skipped['region']} company:{skipped['company']})")
+    return out
+
 def fetch_ambicuity_newgrad():
     """Fetch ambicuity/New-Grad-Jobs' live JSON feed (refreshed every 5 min upstream)."""
     out = []
@@ -784,6 +887,9 @@ def public_job_record(row):
         "company": format_company(row["company"]),
         "title": row["title"],
         "level": row["level"],
+        "category": row.get("category", ""),
+        "region": row.get("region", "unknown"),
+        "role_type": row.get("role_type", "other_swe"),
         "country": row["country"],
         "location": _format_location_display(row["location"], row.get("location_details")),
         "remote_type": row["remote_type"],
@@ -827,6 +933,7 @@ SOURCE_FETCHER_NAMES = [
     "fetch_lorenzolacorte_eu",
     "fetch_hanzili_canada",
     "fetch_ambicuity_newgrad",
+    "fetch_amazon",
 ]
 
 def _call_fetcher_by_name(name):

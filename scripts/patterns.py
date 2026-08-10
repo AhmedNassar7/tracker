@@ -6,13 +6,13 @@ FETCH_LEVEL_MAP = {
     "internship": re.compile(r"\b(intern|internship|co.?op)\b", re.I),
     "new_grad": re.compile(r"\b(new.?grad|fresh.?grad|recent.?grad|graduate|campus|early.?career)\b", re.I),
     "junior": re.compile(r"\b(junior|jr\.?)\b", re.I),
-    "entry_level": re.compile(r"\b(entry.?level|associate)\b", re.I),
+    "entry_level": re.compile(r"\b(entry.?level|associate|engineer i|sde ?i|sde ?1)\b", re.I),
     "mid_level": re.compile(r"\b(mid.?level|engineer ii|sde2|software engineer 2)\b", re.I),
 }
 
 FETCH_ROLE_RE = re.compile(
     r"\b("
-    r"software engineer|software developer|sde|full.?stack|frontend|front.?end|backend|back.?end|"
+    r"software development engineer|software engineer|software developer|sde|full.?stack|frontend|front.?end|backend|back.?end|"
     r"mobile|android|ios|flutter|react native|web developer|python|java|javascript|typescript|"
     r"golang|go developer|c\+\+|c#|dotnet|\.net|node\.?js|devops|platform engineer|site reliability|sre|"
     r"machine learning|ml engineer|data engineer|data scientist|qa engineer|test automation|"
@@ -64,7 +64,7 @@ PUBLIC_LEVEL_PATTERNS = {
     "internship": re.compile(r"\b(intern|internship|co.?op)\b", re.I),
     "new_grad": re.compile(r"\b(new.?grad|fresh.?grad|recent.?grad|graduate|campus|early.?career)\b", re.I),
     "junior": re.compile(r"\b(junior|jr\.?)\b", re.I),
-    "entry_level": re.compile(r"\b(entry.?level|associate)\b", re.I),
+    "entry_level": re.compile(r"\b(entry.?level|associate|engineer i|sde ?i|sde ?1)\b", re.I),
     "mid_level": re.compile(r"\b(mid.?level|engineer ii|sde2|software engineer 2)\b", re.I),
 }
 
@@ -100,3 +100,42 @@ PUBLIC_NON_SOFTWARE_TITLE_PATTERNS = [
     re.compile(r"\bsupport\b|\bcustomer success\b|\btechnical support\b", re.I),
     re.compile(r"\bcompliance\b|\boperations\b", re.I),
 ]
+
+
+def detect_region(location):
+    """Coarse region bucket ('us'/'canada'/'emea'/'remote'/'unknown') from a
+    free-text location string. Shared by both the curated and public layers
+    so 'region' means the same thing everywhere it's published.
+    """
+    if FETCH_REMOTE_RE.search(location):
+        return "remote"
+    for region, rx in FETCH_REGION_MAP.items():
+        if rx.search(location):
+            return region
+    return "unknown"
+
+
+def detect_role_type(title):
+    """Engineering discipline detected from a job title. Shared by both
+    layers — previously duplicated as a near-identical function inside
+    public_sources.py.
+    """
+    if PUBLIC_ROLE_PATTERNS["full_stack"].search(title):
+        return "full_stack"
+    if PUBLIC_ROLE_PATTERNS["backend"].search(title):
+        return "backend"
+    if PUBLIC_ROLE_PATTERNS["frontend"].search(title):
+        return "frontend"
+    if PUBLIC_ROLE_PATTERNS["mobile"].search(title):
+        return "mobile"
+    if PUBLIC_ROLE_PATTERNS["platform"].search(title):
+        return "platform"
+    if PUBLIC_ROLE_PATTERNS["infrastructure"].search(title):
+        return "infrastructure"
+    if PUBLIC_ROLE_PATTERNS["security"].search(title):
+        return "security"
+    if PUBLIC_ROLE_PATTERNS["machine_learning"].search(title):
+        return "machine_learning"
+    if PUBLIC_ROLE_PATTERNS["software_engineer"].search(title):
+        return "software_engineer"
+    return "other_swe"

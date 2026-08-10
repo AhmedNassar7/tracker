@@ -25,6 +25,7 @@ Every row from these sources is checked against [config/companies_allowlist.yml]
 | hanzili | [repo](https://github.com/hanzili/canada_sde_junior_new_grad_position) | Canada SDE junior/new-grad tracker |
 | ambicuity | [JSON feed](https://jobs.riteshrana.engineer/jobs.json) · [repo](https://github.com/ambicuity/New-Grad-Jobs) | New-grad job list backed by a live JSON API (not README-scraped) |
 | LorenzoLaCorte — European Tech | [repo](https://github.com/LorenzoLaCorte/european-tech-internships-2026) | Dedicated Europe internship/new-grad/PhD tracker, added to widen EMEA coverage beyond ArbeitNow. Apply links point at the original LinkedIn posting |
+| Amazon (direct) | [API](https://www.amazon.jobs/en/search.json?base_query=software+development+engineer) · [site](https://www.amazon.jobs/) | Amazon's own careers search API, hit directly rather than only through third-party trackers — verified free, keyless, real structured JSON. Every apply link points straight at `amazon.jobs`, with no third-party staleness risk |
 
 ## Public layer (`scripts/public_sources.py`)
 
@@ -38,6 +39,8 @@ Widens coverage beyond the allowlist-gated curated layer.
 | Ashby | [api.ashbyhq.com](https://api.ashbyhq.com/) | Listed by hand in [config/extra_job_boards.yml](config/extra_job_boards.yml) — verify a token with `curl https://api.ashbyhq.com/posting-api/job-board/<token>` before adding |
 | SmartRecruiters | [api.smartrecruiters.com](https://api.smartrecruiters.com/) | Listed by hand in [config/extra_job_boards.yml](config/extra_job_boards.yml) — the API can't confirm a slug is valid, so only add ones verified out-of-band |
 | Devpost | [devpost.com/api/hackathons](https://devpost.com/api/hackathons) · [site](https://devpost.com/hackathons) | Devpost's own JSON API (the hackathons page itself is client-rendered) |
+| Unstop | [API](https://unstop.com/api/public/opportunity/search-result?opportunity=hackathons) · [site](https://unstop.com/hackathons) | Free, keyless, paginated JSON API — 6,000+ hackathons at time of adding, filtered to `oppstatus=recruiting` (still accepting registrations). Complements Devpost rather than duplicating it |
+| Devfolio | [API](https://api.devfolio.co/api/hackathons) · [site](https://devfolio.co/hackathons) | Free, keyless JSON API, strong for Web3/student hackathons Devpost under-covers. Filtered client-side to events whose `ends_at` hasn't passed yet, since the API has no separate "still open" flag |
 | Luma | [luma.com/discover](https://luma.com/discover) | Filtered for tech/software relevance — Luma's discover page is a general community directory, not tech-specific |
 
 ## Considered, not added

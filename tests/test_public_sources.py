@@ -104,6 +104,65 @@ def main():
         and devpost_rows[0]["url"] == "https://example.devpost.com/",
     ))
 
+    unstop_payload = {
+        "data": {
+            "data": [
+                {
+                    "title": "StartupX Hackathon 2026",
+                    "seo_url": "https://unstop.com/hackathons/startupx-hackathon-2026-gamnexis-1733546",
+                    "organisation": {"name": "Gamnexis"},
+                    "region": "online",
+                    "end_date": "2099-09-05T23:59:00+05:30",
+                }
+            ],
+            "total": 1,
+        }
+    }
+    with patch.object(mod, "fetch_json", return_value=unstop_payload):
+        unstop_rows = mod.fetch_unstop_hackathons()
+    run("unstop hackathons fetch uses the JSON API", lambda: check(
+        "unstop hackathons fetch uses the JSON API",
+        len(unstop_rows) == 1
+        and unstop_rows[0]["kind"] == "hackathon"
+        and unstop_rows[0]["company"] == "Gamnexis"
+        and unstop_rows[0]["location"] == "Online"
+        and unstop_rows[0]["date"].endswith("days left")
+        and unstop_rows[0]["source"] == "unstop",
+    ))
+
+    devfolio_payload = {
+        "result": [
+            {
+                "name": "Future Hackathon",
+                "slug": "future-hackathon",
+                "is_online": False,
+                "city": "Cairo",
+                "country": "Egypt",
+                "ends_at": "2099-12-05T14:30:00.000Z",
+            },
+            {
+                "name": "Long-Over Hackathon",
+                "slug": "long-over-hackathon",
+                "is_online": True,
+                "city": "",
+                "country": "",
+                "ends_at": "2020-01-01T00:00:00.000Z",
+            },
+        ],
+        "count": 2,
+        "pages": 1,
+    }
+    with patch.object(mod, "fetch_json", return_value=devfolio_payload):
+        devfolio_rows = mod.fetch_devfolio_hackathons()
+    run("devfolio hackathons fetch drops already-concluded events", lambda: check(
+        "devfolio hackathons fetch drops already-concluded events",
+        len(devfolio_rows) == 1
+        and devfolio_rows[0]["title"] == "Future Hackathon"
+        and devfolio_rows[0]["url"] == "https://future-hackathon.devfolio.co"
+        and devfolio_rows[0]["location"] == "Cairo, Egypt"
+        and devfolio_rows[0]["source"] == "devfolio",
+    ))
+
     luma_html = (
         '<a href="https://luma.com/cursorcommunity?k=c">Avatar for Cursor Community Subscribe Cursor Community'
         ' Discover community meetups, hackathons, workshops taking place around the world.</a>'
@@ -137,7 +196,8 @@ def main():
         and gh_rows[0]["company"] == "Twilio"
         and gh_rows[0]["kind"] == "job"
         and gh_rows[0]["level"] == "internship"
-        and gh_rows[0]["role_type"] == "software_engineer",
+        and gh_rows[0]["role_type"] == "software_engineer"
+        and gh_rows[0]["region"] == "remote",
     ))
 
     greenhouse_non_swe = {

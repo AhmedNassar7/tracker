@@ -38,6 +38,20 @@
       "enum": ["internship", "new_grad", "junior", "entry_level", "mid_level", "unknown"],
       "description": "Career level detected from title"
     },
+    "category": {
+      "type": "string",
+      "description": "Allowlist category the company matched in config/companies_allowlist.yml (e.g. 'faang', 'big_tech', 'cloud_infra'), or '' if the row was only included via a relaxed-mode fallback without a strict allowlist hit"
+    },
+    "region": {
+      "type": "string",
+      "enum": ["us", "canada", "emea", "remote", "unknown"],
+      "description": "Coarse region detected from location, same taxonomy as the public layer's region field"
+    },
+    "role_type": {
+      "type": "string",
+      "enum": ["full_stack", "backend", "frontend", "mobile", "platform", "infrastructure", "security", "machine_learning", "software_engineer", "other_swe"],
+      "description": "Engineering discipline detected from title, same taxonomy as the public layer's role_type"
+    },
     "country": {
       "type": "string",
       "description": "Detected country name, or 'Remote'/'Unknown' when not recognized"
@@ -86,6 +100,11 @@
       },
       "default": [],
       "description": "Tags (e.g., 'software', 'programming', 'global-tech-roles')"
+    },
+    "closed_at": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$",
+      "description": "UTC timestamp this row was archived. Only present in data/jobs-global-archive.json, never in data/jobs-global.json"
     }
   },
   "additionalProperties": false

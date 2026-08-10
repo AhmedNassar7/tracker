@@ -20,6 +20,7 @@ There is no database. All state is JSON files committed to the repo under [data/
 | LorenzoLaCorte European Tech | `raw.githubusercontent.com/LorenzoLaCorte/european-tech-internships-2026/main/README.md` | Markdown pipe table (all-lowercase company names, title-cased on ingest) |
 | hanzili Canada | `raw.githubusercontent.com/hanzili/canada_sde_junior_new_grad_position/main/README.md` | Markdown pipe table (reversed title/company column order) |
 | ambicuity New-Grad-Jobs | `https://jobs.riteshrana.engineer/jobs.json` | JSON API (live feed, refreshed every 5 min upstream — not a README scrape) |
+| Amazon (direct) | `https://www.amazon.jobs/en/search.json?base_query=software+development+engineer` | JSON API — Amazon's own careers search, hit directly instead of only through third-party trackers |
 
 ### Public / auto-discovery layer (`scripts/public_sources.py`)
 
@@ -31,13 +32,15 @@ There is no database. All state is JSON files committed to the repo under [data/
 | Ashby | `api.ashbyhq.com/posting-api/job-board/<token>` | Manual — `config/extra_job_boards.yml` |
 | SmartRecruiters | `api.smartrecruiters.com/v1/companies/<slug>/postings?limit=100` | Manual — `config/extra_job_boards.yml` |
 | Devpost | `devpost.com/api/hackathons?status[]=open&order_by=recently-added&page=N` | Standalone (not company-driven) |
+| Unstop | `unstop.com/api/public/opportunity/search-result?opportunity=hackathons&oppstatus=recruiting&page=N` | Standalone; paginated, filtered to still-recruiting hackathons |
+| Devfolio | `api.devfolio.co/api/hackathons?page=N` | Standalone; filtered client-side to events whose `ends_at` hasn't passed |
 | Luma | `luma.com/discover` (HTML, regex-parsed) | Standalone; filtered by `LUMA_RELEVANT_RE` for tech relevance |
 
-All 15 are free-tier, keyless, public endpoints. Full descriptions with rationale live in [SOURCES.md](../SOURCES.md).
+All 18 are free-tier, keyless, public endpoints. Full descriptions with rationale live in [SOURCES.md](../SOURCES.md).
 
 ## Data shapes and schemas
 
-Two JSON Schemas document the two output record shapes:
+Two JSON Schemas document the two output record shapes, and both are now actually enforced: `scripts/schema_validator.py` is a small, dependency-free validator (no `jsonschema` package — matches the repo's stdlib-only rule) that `fetch_outputs.py` and `public_outputs.py` run against every row right before writing. A shape drift raises `ValueError` and aborts the run under `set -euo pipefail`, rather than silently publishing bad data — see `tests/test_schema_validation.py` for both the validator's own unit tests and two integration tests proving the write path actually refuses invalid rows.
 
 ### `JobEntry` — [config/job-entry.schema.json](../config/job-entry.schema.json)
 
@@ -49,6 +52,9 @@ Used by `data/jobs-global.json` and `data/jobs-global-archive.json` (archive ent
 | `company` | string | |
 | `title` | string | |
 | `level` | enum | `internship` \| `new_grad` \| `junior` \| `entry_level` \| `mid_level` \| `unknown` |
+| `category` | string | Allowlist category the company matched (`faang`, `big_tech`, `cloud_infra`, ...), or `""` if only included via relaxed-mode fallback |
+| `region` | enum | `us` \| `canada` \| `emea` \| `remote` \| `unknown` — same taxonomy as `PublicEntry.region` |
+| `role_type` | enum | Same 10-value taxonomy as `PublicEntry.role_type` below |
 | `country` | string | Detected country name, or `Remote`/`Unknown` |
 | `location` | string | Raw location string from the source |
 | `remote_type` | enum | `remote` \| `hybrid` \| `onsite` \| `unknown` |
@@ -59,6 +65,7 @@ Used by `data/jobs-global.json` and `data/jobs-global-archive.json` (archive ent
 | `age` | string | Human-readable, e.g. `"0d"`, `"5d"`, `"Recently"` — sourced verbatim when the origin provides it, else computed from `posted_at` |
 | `collected_at` | string | ISO 8601 UTC timestamp |
 | `tags` | string[] | Always `["software", "programming", "global-tech-roles"]` currently |
+| `closed_at` | string | ISO 8601 UTC timestamp. Only present in `jobs-global-archive.json`, never in `jobs-global.json` |
 
 `additionalProperties: false` — the schema is exhaustive; nothing else is ever written to this shape.
 
@@ -75,6 +82,7 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 | `location` | string | `Various`/`Global` when not a single place |
 | `level` | enum | Job-only: same 5 curated levels + `other` |
 | `role_type` | enum | Job-only: `full_stack` \| `backend` \| `frontend` \| `mobile` \| `platform` \| `infrastructure` \| `security` \| `machine_learning` \| `software_engineer` \| `other_swe` |
+| `region` | enum | Job-only: `us` \| `canada` \| `emea` \| `remote` \| `unknown` |
 | `date` | string | Free-form: age for jobs, submission deadline for hackathons, `""` for events |
 | `posted_at` | string | `YYYY-MM-DD` |
 | `url` | string | Absolute URL, except Luma events which use a site-relative path |
@@ -85,7 +93,7 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 
 ### `config/companies_allowlist.yml`
 
-Plain YAML, hand-parsed (no PyYAML). Top-level keys are category labels for human readability only (`faang`, `cloud_infra`, `ai_research`, `apac_tech`, etc.) — the code ignores category names entirely and flattens every list item into one lowercase set. A company anywhere in the file passes the curated-layer filter via case-insensitive substring match in `is_allowed_company()`.
+Plain YAML, hand-parsed (no PyYAML). Top-level keys are category labels (`faang`, `cloud_infra`, `ai_research`, `apac_tech`, etc.). `ALLOWLIST` itself stays a flat lowercase list of company names, but the loader also tracks each name's category in a parallel `ALLOWLIST_CATEGORY_BY_NAME` dict, so `is_allowed_company()` returns the matched category (e.g. `"faang"`) instead of a plain bool — every job row that passes the curated-layer filter via case-insensitive substring match carries that category through to `data/jobs-global.json` as its `category` field.
 
 ### `config/extra_job_boards.yml`
 

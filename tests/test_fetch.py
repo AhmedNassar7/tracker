@@ -59,12 +59,20 @@ def main():
         fetch.detect_level("Software Engineer Intern") == "internship"
         and fetch.detect_level("Software Engineer – Early Career") == "new_grad"
         and fetch.detect_level("Junior Backend Engineer") == "junior"
+        and fetch.detect_level("Software Development Engineer I") == "entry_level"
+        and fetch.detect_level("Software Development Engineer II") == "mid_level"
         and fetch.detect_region("Toronto, Canada") == "canada"
         and fetch.detect_region("Berlin, Germany") == "emea"
         and fetch.detect_region("Remote - Worldwide") == "remote"
         and fetch.detect_remote_type("Remote - Worldwide") == "remote"
         and fetch.detect_remote_type("Hybrid - London") == "hybrid"
         and fetch.detect_remote_type("Austin, USA") == "onsite",
+    ))
+
+    run("role regex recognizes Amazon's job-family title", lambda: check(
+        "role regex recognizes Amazon's job-family title",
+        bool(fetch.ROLE_RE.search("Software Development Engineer"))
+        and bool(fetch.ROLE_RE.search("Software Development Engineer II")),
     ))
 
     with patch.object(fetch, "ALLOWLIST", ["google"]):
@@ -408,6 +416,42 @@ def main():
         and ambicuity_rows[0]["source"] == "ambicuity",
     ))
 
+    amazon_payload = {
+        "hits": 2,
+        "jobs": [
+            {
+                "title": "Software Development Engineer I",
+                "job_path": "/en/jobs/123/software-development-engineer-i",
+                "normalized_location": "Seattle, WA, USA",
+                "posted_date": "April  9, 2026",
+            },
+            {
+                "title": "Principal Software Development Engineer",
+                "job_path": "/en/jobs/456/principal-software-development-engineer",
+                "normalized_location": "Seattle, WA, USA",
+                "posted_date": "April  9, 2026",
+            },
+        ],
+    }
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25):
+            dest.write_text(json.dumps(amazon_payload), encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["amazon"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            amazon_rows = fetch.fetch_amazon(max_pages=1)
+    run("amazon fetch hits its own API directly and filters by level", lambda: check(
+        "amazon fetch hits its own API directly and filters by level",
+        len(amazon_rows) == 1
+        and amazon_rows[0]["title"] == "Software Development Engineer I"
+        and amazon_rows[0]["level"] == "entry_level"
+        and amazon_rows[0]["url"] == "https://www.amazon.jobs/en/jobs/123/software-development-engineer-i"
+        and amazon_rows[0]["posted_at"] == "2026-04-09"
+        and amazon_rows[0]["source"] == "amazon",
+    ))
+
     rows = [{
         "id": "aaaaaaaaaaaaaaaa",
         "company": "Google",
@@ -429,7 +473,7 @@ def main():
         with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-12T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-12"), patch.object(fetch, "check_url_alive", return_value=True):
             fetch.write_outputs(rows)
         payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
-        run("write outputs", lambda: check("write outputs", payload["total"] == 1 and "region" not in payload["jobs"][0] and "age" in payload["jobs"][0] and (data_out / "stats.json").exists() and (data_out / "jobs-global-archive.json").exists()))
+        run("write outputs", lambda: check("write outputs", payload["total"] == 1 and payload["jobs"][0]["region"] == "remote" and payload["jobs"][0]["role_type"] == "other_swe" and payload["jobs"][0]["category"] == "" and "age" in payload["jobs"][0] and (data_out / "stats.json").exists() and (data_out / "jobs-global-archive.json").exists()))
 
         with tempfile.TemporaryDirectory() as tmp:
             data_out = Path(tmp)
@@ -481,6 +525,9 @@ def main():
         "company": "Mirage",
         "title": "Software Engineer – Early Career",
         "level": "new_grad",
+        "category": "",
+        "region": "us",
+        "role_type": "software_engineer",
         "country": "United States",
         "location": "Seattle, WA SF NYC Sunnyvale, CA",
         "remote_type": "onsite",

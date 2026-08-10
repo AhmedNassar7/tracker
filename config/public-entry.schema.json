@@ -39,6 +39,11 @@
       "enum": ["full_stack", "backend", "frontend", "mobile", "platform", "infrastructure", "security", "machine_learning", "software_engineer", "other_swe"],
       "description": "Engineering discipline detected from title. Only present when kind is 'job'"
     },
+    "region": {
+      "type": "string",
+      "enum": ["us", "canada", "emea", "remote", "unknown"],
+      "description": "Coarse region detected from location, same taxonomy as the curated layer's region field. Only present when kind is 'job'"
+    },
     "date": {
       "type": "string",
       "description": "Human-readable time-since-posting for jobs (e.g. '0d'), submission deadline for hackathons (e.g. '1 day left'), or '' for events. Free-form, not machine-parseable across kinds"

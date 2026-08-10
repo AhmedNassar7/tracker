@@ -2,8 +2,12 @@ from __future__ import annotations
 
 import json
 from collections import Counter
+from pathlib import Path
 
 from net import run_concurrently
+from schema_validator import load_schema, validate_records
+
+JOB_ENTRY_SCHEMA = load_schema(Path(__file__).resolve().parent.parent / "config" / "job-entry.schema.json")
 
 
 def _job_compare_payload(row):
@@ -12,6 +16,9 @@ def _job_compare_payload(row):
         "company": row.get("company"),
         "title": row.get("title"),
         "level": row.get("level"),
+        "category": row.get("category"),
+        "region": row.get("region"),
+        "role_type": row.get("role_type"),
         "country": row.get("country"),
         "location": row.get("location"),
         "remote_type": row.get("remote_type"),
@@ -140,6 +147,20 @@ def write_fetch_outputs(
         key=lambda x: x.get("closed_at", x.get("collected_at", "")),
         reverse=True,
     )
+
+    # Validate before writing anything — a shape drift in either output
+    # should fail the run loudly rather than silently ship bad data to the
+    # site that will read these files.
+    validation_errors = validate_records(public_rows, JOB_ENTRY_SCHEMA, label="jobs-global.json jobs")
+    validation_errors += validate_records(archive_public_rows, JOB_ENTRY_SCHEMA, label="jobs-global-archive.json jobs")
+    if validation_errors:
+        for err in validation_errors[:20]:
+            log_error(f"Schema validation: {err}")
+        raise ValueError(
+            f"Schema validation failed for {len(validation_errors)} field(s) across "
+            f"{active_file.name}/{archive_file.name} — see logged errors above"
+        )
+
     payload = {"generated_at": now_iso, "total": len(public_rows), "jobs": public_rows}
     try:
         active_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

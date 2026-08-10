@@ -81,9 +81,12 @@ jobs:
             - LorenzoLaCorte European Tech Internships/New Grad/PhD (EMEA)
             - hanzili Canada SDE
             - ambicuity New-Grad-Jobs
+            - Amazon (direct from amazon.jobs' own API)
 
             **Public-board sources** (scripts/public_sources.py):
             - Devpost hackathons
+            - Unstop hackathons
+            - Devfolio hackathons
             - Luma discovery pages (tech/software-relevant only)
             - Greenhouse public job boards (auto-discovered)
             - Lever public postings (auto-discovered)
