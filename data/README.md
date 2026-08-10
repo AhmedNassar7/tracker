@@ -34,7 +34,7 @@ Every row links straight to the real application page. Click a title to apply �
 
 ## Jobs
 
-[![Jobs 648](https://img.shields.io/badge/Jobs-648-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 97](https://img.shields.io/badge/Internship-97-22c55e.svg)](#internship) [![Early Career 100](https://img.shields.io/badge/Early%20Career-100-0ea5e9.svg)](#early-career) [![Mid-Level and Above 451](https://img.shields.io/badge/Mid--Level%20and%20Above-451-dc2626.svg)](#mid-level-and-above)
+[![Jobs 648](https://img.shields.io/badge/Jobs-648-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 97](https://img.shields.io/badge/Internship-97-22c55e.svg)](#internship) [![Early Career 103](https://img.shields.io/badge/Early%20Career-103-0ea5e9.svg)](#early-career) [![Mid-Level and Above 448](https://img.shields.io/badge/Mid--Level%20and%20Above-448-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -142,7 +142,7 @@ Total roles: 97
 
 ### Early Career
 
-Total roles: 100
+Total roles: 103
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -173,7 +173,10 @@ Total roles: 100
 | Google | [Software Engineer II, Early Career](https://www.google.com/about/careers/applications/jobs/results/143333237156913862-software-engineer-ii/?utm_source=vansh) | <details><summary>12 locations</summary>Mountain View<br>CA Kirkland<br>WA Los Angeles<br>CA Madison<br>WI New York<br>NY Palo Alto<br>CA Pittsburgh<br>PA Raleigh<br>NC Durham<br>NC San Bruno<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
 | Google | [Software Engineer II, Early Career, Google Cloud AI Catalyst Program](https://www.google.com/about/careers/applications/jobs/results/90452041138086598-software-engineer-ii-early-career-google-cloud-ai-catalyst-program?utm_source=vansh) | Sunnyvale, CA Kirkland, WA Seattle, WA | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
+| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
+| JPMorgan Chase | [Software Engineer Associate III - Dat...](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210767184) | New York, NY, United S... | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
+| Mastercard | [Site Reliability Engineer I](https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Site-Reliability-Engineer-I_R-286909-1) | Pune, India | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
 | Notion | [Software Engineer, Fullstack, Early Career](https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b?utm_source=vansh) | San Francisco, CA New York, NY | 0d |
 | Notion | [Software Engineer, Infrastructure, Early Career](https://jobs.ashbyhq.com/notion/add58865-8b9f-4cf7-9720-2908ba5f4d80?utm_source=vansh) | San Francisco, CA New York, NY | 0d |
@@ -249,11 +252,12 @@ Total roles: 100
 
 ### Mid-Level and Above
 
-Total roles: 451
+Total roles: 448
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Cloudflare | [Full Stack Engineer - Internal Audit](https://boards.greenhouse.io/cloudflare/jobs/8014902?gh_jid=8014902) | Hybrid | 0d |
+| Morgan Stanley | [Executive Director – Site Reliability Engineering – WM Technology](https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Executive-Director---Site-Reliability-Engineering---WM-Technology_PT-JR036281) | New York, New York, United States of America | 0d |
 | NVIDIA | [DevOps Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/DevOps-Engineer_JR2020488) | <details><summary>2 locations</summary>Israel<br>Raanana<br>Israel<br>Yokneam</details> | 0d |
 | NVIDIA | [Senior DevOps Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-DevOps-Engineer_JR2017130) | <details><summary>3 locations</summary>Israel<br>Raanana<br>Israel<br>Tel Aviv<br>Israel<br>Yokneam</details> | 0d |
 | NVIDIA | [Senior System Software Engineer, Deep Learning Accelerator](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer--Deep-Learning-Accelerator-_JR2014631) | India, Bengaluru | 0d |
@@ -321,10 +325,8 @@ Total roles: 451
 | NVIDIA | [Principal Software Engineer - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Principal-Software-Engineer---DGX-Cloud_JR2023059) | <details><summary>3 locations</summary>US, WA<br>Seattle, US<br>CA<br>Santa Clara, US<br>WA<br>Remote</details> | 3d |
 | NVIDIA | [Senior Embedded System Software Engineer – Platform Execution Lead](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Embedded-System-Software-Engineer---Platform-Execution-Lead_JR2022948-1) | US, CA, Santa Clara | 3d |
 | NVIDIA | [Senior GPU System Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-GPU-System-Software-Engineer_JR2022837) | US, CA, Santa Clara | 3d |
-| NVIDIA | [Senior Infrastructure Automation Engineer - Silicon Co-Design Group](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Infrastructure-Automation-Engineer---Silicon-Co-Design-Group_JR2020805) | China, Shanghai | 3d |
 | NVIDIA | [Senior Software Engineer - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Senior-Software-Engineer---DGX-Cloud_JR2023057) | <details><summary>3 locations</summary>US, WA<br>Seattle, US<br>CA<br>Santa Clara, US<br>WA<br>Remote</details> | 3d |
 | NVIDIA | [Senior Software Engineer, Automation Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--Automation-Infrastructure_JR2022807) | China, Shanghai | 3d |
-| NVIDIA | [Senior Software Engineer, L4 - Autonomous Vehicles](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--L4---Autonomous-Vehicles_JR2022208) | China, Shanghai | 3d |
 | NVIDIA | [Senior Software Engineer, Networking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Software-Engineer_JR2015068) | US, CA, Santa Clara | 3d |
 | NVIDIA | [Senior Software Engineer, Unified Access Management Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Unified-Access-Management-Platform_JR2022966) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 3d |
 | NVIDIA | [Senior System Software Engineer Platform - OpenBMC](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer-Platform---OpenBMC_JR1999525) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 3d |
@@ -397,7 +399,6 @@ Total roles: 451
 | Amazon | [Software Development Engineer II, CloudFront](https://www.amazon.jobs/en/jobs/10490542/software-development-engineer-ii-cloudfront) | Seattle, Washington, USA | 7d |
 | Linear | [Mobile Product Designer](https://jobs.ashbyhq.com/linear/eac7f181-d658-4943-9430-51bae2bcd110) | North America | 7d |
 | Sony Interactive Entertainment | [Senior Software Engineer, Quality Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5722668004) | United Kingdom, Bristol | 7d |
-| Wise | [Senior Software Engineer II - Wealth & Investments Team](https://jobs.smartrecruiters.com/Wise/744000141196949) | London, United Kingdom | 7d |
 | Cohere | [Forward Deployed Engineer, Agentic Platform](https://jobs.ashbyhq.com/cohere/b0bcef37-1d20-414f-aade-c54942d63df9) | United States | 9d |
 | Cohere | [Forward Deployed Engineer, Agentic Platform (West Coast)](https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9) | San Francisco | 9d |
 | Openai | [Software Engineer, API Agents](https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda) | San Francisco | 9d |
@@ -418,6 +419,7 @@ Total roles: 451
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 13d |
 | Pinterest | [Security Software Engineer II, Detection and Response](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) | San Francisco, CA, US; Remote, US | 13d |
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 13d |
+| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 13d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 13d |
@@ -478,7 +480,6 @@ Total roles: 451
 | Openai | [Software Engineer, Codex -Enterprise Controls](https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db) | San Francisco | 28d |
 | Openai | [Software Engineer, Codex — User Activation](https://jobs.ashbyhq.com/openai/d1c6cb87-a44d-4d04-92a8-dc40eccd090e) | San Francisco | 28d |
 | Intel | [Hardware Platform Applications Engineer - Military & Aerospace](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700) | <details><summary>4 locations</summary>US<br>Arizona<br>Phoenix, US<br>Oregon<br>Hillsboro, US<br>California<br>Folsom, US<br>California<br>Santa Clara</details> | 1mo |
-| Okta | [Software Engineer II, Security Engine...](https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538) | Toronto, Ontario, Canada | 1mo |
 | Pinterest | [Software Engineer II, Web](https://www.pinterestcareers.com/jobs/?gh_jid=8024883) | Toronto, ON, CA | 1mo |
 | Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
 | Plaid | [Senior Software Engineer - AI Tooling](https://jobs.ashbyhq.com/plaid/3f7a4b9f-50b9-4adf-8475-4a4e6b8f0893) | San Francisco HQ | 1mo |
@@ -552,7 +553,6 @@ Total roles: 451
 | Openai | [Software Engineer, Web Layer](https://jobs.ashbyhq.com/openai/915a325b-55f6-44e2-8314-34ec0d8bb2c9) | San Francisco | 2mo |
 | Palantir | [Software Engineer - Core Interfaces](https://jobs.lever.co/palantir/3b4ae28e-c4f2-4654-83b4-64366bfe72fa) | New York, NY | 2mo |
 | Palantir | [Software Engineer - Defense Applications](https://jobs.lever.co/palantir/c288bb43-3c63-4557-bd96-600ef0d1b7a6) | New York, NY | 2mo |
-| Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 2mo |
 | Openai | [Software Engineer, API Multicloud](https://jobs.ashbyhq.com/openai/4070d52e-0263-4cd5-9107-052b4ecc1209) | San Francisco | 2mo |
 | Openai | [Full Stack Software Engineer, ChatGPT ImageGen](https://jobs.ashbyhq.com/openai/6b47238e-025a-4350-b270-2f3564002fcc) | San Francisco | 2mo |
 | Openai | [Software Engineer, Internal Applications - Enterprise](https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1) | San Francisco | 2mo |
