@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T13:43:08Z",
-  "total": 848,
+  "generated_at": "2026-08-10T15:15:45Z",
+  "total": 850,
   "jobs": [
     {
       "id": "4e0095038470d9bc",
@@ -18,19 +18,19 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
-      "id": "8e0836454727c9da",
+      "id": "9eacb9df82e8fa76",
       "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Executive Director – Site Reliability Engineering – WM Technology",
-      "location": "New York, New York, United States of America",
+      "company": "Cloudflare",
+      "title": "Software Engineer, Network Firewall",
+      "location": "Hybrid",
       "level": "other",
-      "region": "us",
-      "role_type": "infrastructure",
+      "region": "unknown",
+      "role_type": "software_engineer",
       "date": "0d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Executive-Director---Site-Reliability-Engineering---WM-Technology_PT-JR036281",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+      "posted_at": "2026-08-10",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8106815?gh_jid=8106815",
+      "source": "greenhouse:cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
       "id": "9e1140bcce67f7b4",
@@ -93,6 +93,51 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "85cd6a75efbc3dd5",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - Commercial",
+      "location": "Seoul, South Korea",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-10",
+      "url": "https://jobs.lever.co/palantir/2ad0ab10-34c3-410d-883b-8052864a95cd",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "8e50cc8184911607",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, New Grad - Commercial",
+      "location": "Seoul, South Korea",
+      "level": "new_grad",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-10",
+      "url": "https://jobs.lever.co/palantir/341d5cae-a473-4813-9a6c-0f67fcc1b253",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
+      "id": "564a9a0a4f92f7a6",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer Cloud Engineering (Contractor)",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-10",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6118761004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "15d7b3d2f233bbff",
       "kind": "job",
       "company": "Wise",
@@ -134,6 +179,21 @@
       "date": "0d",
       "posted_at": "2026-08-10",
       "url": "https://jobs.smartrecruiters.com/Wise/744000142618282",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
+      "id": "4537f1a507d1dc0b",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Software Engineer - Treasury Money Movement",
+      "location": "Tallinn, Estonia",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-10",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000142661439",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -813,21 +873,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs?content=true"
     },
     {
-      "id": "772fa73590eb4e09",
-      "kind": "job",
-      "company": "DoorDash",
-      "title": "Software Engineer, Reliability Platforms",
-      "location": "San Francisco, CA; Sunnyvale, CA; New York, NY",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "2026-08-07",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7994290",
-      "source": "greenhouse:doordashusa",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs?content=true"
-    },
-    {
       "id": "bddc0b3ecfd70121",
       "kind": "job",
       "company": "DoorDash",
@@ -961,21 +1006,6 @@
       "url": "https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Systems-Software-Engineer-with-uArch-Expertise--Temporary-Position_JR0286208",
       "source": "workday:intel",
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
-    },
-    {
-      "id": "c3bf49679964c0d8",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "IT Data Infrastructure Architect - VP",
-      "location": "Glasgow, United Kingdom",
-      "level": "other",
-      "region": "emea",
-      "role_type": "infrastructure",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Glasgow-United-Kingdom/IT-Data-Infrastructure-Architect---VP_PT-JR033220",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "3ad062d045e8976f",
@@ -1488,21 +1518,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
-      "id": "9eacb9df82e8fa76",
-      "kind": "job",
-      "company": "Cloudflare",
-      "title": "Software Engineer, Network Firewall",
-      "location": "Hybrid",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "2026-08-06",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8106815?gh_jid=8106815",
-      "source": "greenhouse:cloudflare",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
-    {
       "id": "db0b5e409bd57f55",
       "kind": "job",
       "company": "Cloudflare",
@@ -1606,21 +1621,6 @@
       "url": "https://jobs.ashbyhq.com/cohere/8ac3ed85-e315-443b-bc13-e7a0b900b922",
       "source": "ashby:cohere",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
-    },
-    {
-      "id": "4535be5b57457fa0",
-      "kind": "job",
-      "company": "Morgan Stanley",
-      "title": "Software Engineer - Backend",
-      "location": "New York, New York, United States of America",
-      "level": "other",
-      "region": "us",
-      "role_type": "backend",
-      "date": "4d",
-      "posted_at": "",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Software-Engineer---Backend_PT-JR041639",
-      "source": "workday:ms",
-      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
       "id": "7c44659d90e080bd",
@@ -1893,21 +1893,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "3ce2517841ac0ee2",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer (Frontend), Social",
-      "location": "United States, San Diego, CA",
-      "level": "other",
-      "region": "us",
-      "role_type": "frontend",
-      "date": "6d",
-      "posted_at": "2026-08-04",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "cb20f6a438518f12",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -1919,6 +1904,21 @@
       "date": "6d",
       "posted_at": "2026-08-04",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "3ce2517841ac0ee2",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer (Frontend), Social",
+      "location": "United States, San Diego, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "frontend",
+      "date": "6d",
+      "posted_at": "2026-08-04",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3273,36 +3273,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "bbfac693fc70de24",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer",
-      "date": "32d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "f76c730e27bebfc9",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer",
-      "date": "32d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "d78f6f48b460fb71",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3318,6 +3288,21 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
+      "id": "bbfac693fc70de24",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United States, San Mateo, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "32d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "b60a61280d8b5a9b",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3329,6 +3314,21 @@
       "date": "32d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "f76c730e27bebfc9",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United States, San Mateo, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "32d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3528,21 +3528,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "e8654b3741330c42",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Staff Software Engineer - DPDK",
-      "location": "United States, Remote",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "32d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "e7b17ac3b8ffd684",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3554,6 +3539,21 @@
       "date": "32d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "e8654b3741330c42",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Staff Software Engineer - DPDK",
+      "location": "United States, Remote",
+      "level": "other",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "32d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -10072,7 +10072,7 @@
       "company": "DataHub",
       "title": "Build with DataHub: The Agent Hackathon",
       "location": "Online",
-      "date": "about 7 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-08-10",
       "url": "https://datahub.devpost.com/",
       "source": "devpost",
@@ -10456,7 +10456,7 @@
       "company": "Devfolio",
       "title": "Interledger Student Hackathon - Tec de Software",
       "location": "Mérida, Mexico",
-      "date": "33 days left",
+      "date": "32 days left",
       "posted_at": "2026-08-10",
       "url": "https://interledger-student-hackathon-merida.devfolio.co",
       "source": "devfolio",
@@ -10552,7 +10552,7 @@
       "company": "Devfolio",
       "title": "PEC HACKS 4.0",
       "location": "India",
-      "date": "20 days left",
+      "date": "19 days left",
       "posted_at": "2026-08-10",
       "url": "https://pec-hacks.devfolio.co",
       "source": "devfolio",
@@ -10600,7 +10600,7 @@
       "company": "Devfolio",
       "title": "TUM Blockchain & AI Hackathon",
       "location": "München, Germany",
-      "date": "82 days left",
+      "date": "81 days left",
       "posted_at": "2026-08-10",
       "url": "https://tum.devfolio.co",
       "source": "devfolio",
@@ -10684,7 +10684,7 @@
       "company": "E-Cell, JSS Noida",
       "title": "StarForge Hackathon 2026",
       "location": "Offline",
-      "date": "3 days left",
+      "date": "2 days left",
       "posted_at": "2026-08-10",
       "url": "https://unstop.com/hackathons/pathway-hackathon-e-cell-jss-noida-1731395",
       "source": "unstop",
@@ -10727,10 +10727,10 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "a3b1961717bd6307",
+      "id": "7be864ffa9c62135",
       "kind": "hackathon",
       "company": "Falcon Sphere",
-      "title": "Hackside Down - Hackathon For School Students",
+      "title": "Hackside Down Hackathon",
       "location": "Offline",
       "date": "12 days left",
       "posted_at": "2026-08-10",
@@ -11212,7 +11212,7 @@
       "company": "Makers Need More (MnM)",
       "title": "Morrow 1.0",
       "location": "Online",
-      "date": "38 days left",
+      "date": "37 days left",
       "posted_at": "2026-08-10",
       "url": "https://unstop.com/hackathons/morrow-10-makers-need-more-mnm-1727667",
       "source": "unstop",
@@ -11320,7 +11320,7 @@
       "company": "MLH",
       "title": "PIXEL.GEMINI 3.0",
       "location": "Valarpuram, India",
-      "date": "about 24 hours left",
+      "date": "about 23 hours left",
       "posted_at": "2026-08-10",
       "url": "https://pixel-gemini-3-0.devpost.com/",
       "source": "devpost",
@@ -11512,7 +11512,7 @@
       "company": "OurPlanet.Rocks",
       "title": "OurPlanet.Rocks",
       "location": "Online",
-      "date": "about 3 hours left",
+      "date": "37 minutes left",
       "posted_at": "2026-08-10",
       "url": "https://ourplanetrocks.devpost.com/",
       "source": "devpost",
@@ -11735,18 +11735,6 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "bc25e6f4878af4f0",
-      "kind": "hackathon",
-      "company": "Smt Kashibai Navale College of Engineering (SKNCE), Pune",
-      "title": "Samarthya 2026 Project Competition",
-      "location": "Online",
-      "date": "1 days left",
-      "posted_at": "2026-08-10",
-      "url": "https://unstop.com/hackathons/samarthya-2026-project-competition-smt-kashibai-navale-college-of-engineering-sknce-pune-1727380",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
       "id": "df6b658192c87ec8",
       "kind": "hackathon",
       "company": "SRM Easwari Engineering College (SRMEEC), Ramapuram",
@@ -11843,14 +11831,14 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "1929882d51a65bbb",
+      "id": "ca325cbaf6a7a8d4",
       "kind": "hackathon",
       "company": "STEMise",
       "title": "DSH Hacks V2",
       "location": "Online",
       "date": "3 months left",
       "posted_at": "2026-08-10",
-      "url": "https://dsh-pitch-30500.devpost.com/",
+      "url": "https://dsh-hacks-v2.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -12035,6 +12023,18 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
+      "id": "e96595473cc6f234",
+      "kind": "hackathon",
+      "company": "Vasantdada Patil Pratishthan's College of Engineering and Visual Arts, Mumbai, Maharashtra",
+      "title": "IDEATHON: Spark Before the Code",
+      "location": "Offline",
+      "date": "24 days left",
+      "posted_at": "2026-08-10",
+      "url": "https://unstop.com/hackathons/ideathon-spark-before-the-code-vasantdada-patil-pratishthans-college-of-engineering-and-visual-arts-mumbai-ma-1718428",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
       "id": "829caa2c31953951",
       "kind": "hackathon",
       "company": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Avadi",
@@ -12109,6 +12109,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-10",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -12117,6 +12129,18 @@
       "date": "",
       "posted_at": "2026-08-10",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-10",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
