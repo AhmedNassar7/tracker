@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T18:06:35Z",
-  "total": 222,
+  "generated_at": "2026-08-11T19:18:32Z",
+  "total": 223,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -200,29 +200,6 @@
       "url": "https://joinbytedance.com/search/7671141679848933685",
       "source": "zapplyjobs_newgrad",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T21:01:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "890929dcc79a8964",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T21:01:02Z",
@@ -969,29 +946,6 @@
       ]
     },
     {
-      "id": "affe941dfff55262",
-      "company": "Figma",
-      "title": "Software Engineer Intern (Winter 2027)",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Francisco, CA • Ne...",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T17:11:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "ae4746f77f7523da",
       "company": "Figma",
       "title": "Software Engineer Intern - Winter 2027",
@@ -1130,29 +1084,6 @@
       ]
     },
     {
-      "id": "36a558da58240319",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T15:15:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "cc7a168906373af1",
       "company": "Hudson River Trading",
       "title": "Software Engineer Intern",
@@ -1268,6 +1199,29 @@
       ]
     },
     {
+      "id": "cd77e51d71dd8b27",
+      "company": "JPMorgan Chase",
+      "title": "Software Engineer II: Data Engineer",
+      "level": "mid_level",
+      "category": "consulting_finance",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "Unknown",
+      "location": "Jersey City, NJ, Unite...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210739969",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T19:18:32Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
       "title": "Junior to Intermediate Data Engineer",
@@ -1284,29 +1238,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "043e11661f449ed7",
-      "company": "Microsoft",
-      "title": "Software Engineer 2 - CoreAI",
-      "level": "mid_level",
-      "category": "microsoft_group",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Redmond, Washington, U...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556956391",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T15:15:21Z",
       "tags": [
         "software",
         "programming",
@@ -2280,6 +2211,52 @@
       ]
     },
     {
+      "id": "890929dcc79a8964",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T21:01:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "affe941dfff55262",
+      "company": "Figma",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, CA • Ne...",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T17:11:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "33face31b2ac9ef0",
       "company": "JPMorgan Chase",
       "title": "Software Engineer Associate III - Dat...",
@@ -2822,29 +2799,6 @@
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134526004",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "5d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3a419e6b9aa790db",
-      "company": "Uber",
-      "title": "Machine Learning Engineer II - AV Labs",
-      "level": "mid_level",
-      "category": "ride_delivery",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Sunnyvale, Santa Clara",
-      "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/303619/",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-08-10",
       "age": "5d",
       "collected_at": "2026-08-10T09:39:03Z",
@@ -3591,17 +3545,17 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "category": "more_global_tech",
-      "region": "us",
+      "region": "canada",
       "role_type": "backend",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3614,17 +3568,17 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "category": "more_global_tech",
-      "region": "canada",
+      "region": "us",
       "role_type": "backend",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -4626,6 +4580,52 @@
       ]
     },
     {
+      "id": "e9ff0a701a45e958",
+      "company": "Oracle",
+      "title": "OCI Software Engineer Intern - OVIP",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Austin, TX, United States",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334333",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "2mo",
+      "collected_at": "2026-08-11T19:18:32Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f4f2f42cd83f2d77",
+      "company": "Oracle",
+      "title": "OCI Software Engineer Intern - OVIP",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA, United St...",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "2mo",
+      "collected_at": "2026-08-11T19:18:32Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "1c826b0a416b09ad",
       "company": "Pinterest",
       "title": "Software Engineer II, Android",
@@ -4780,6 +4780,29 @@
       "posted_at": "2026-05-14",
       "age": "88d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6b83d186955a50d9",
+      "company": "Amazon.com Services LLC",
+      "title": "Software Development Engineer Intern,...",
+      "level": "internship",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "3mo",
+      "collected_at": "2026-08-11T19:18:32Z",
       "tags": [
         "software",
         "programming",
