@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 705 |
+| Jobs | 704 |
 | Hackathons | 199 |
-| Events | 7 |
-| Total | 911 |
+| Events | 3 |
+| Total | 906 |
 
 ## Jobs
 
-[![Jobs 705](https://img.shields.io/badge/Jobs-705-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 102](https://img.shields.io/badge/Internship-102-22c55e.svg)](#internship) [![Early Career 104](https://img.shields.io/badge/Early%20Career-104-0ea5e9.svg)](#early-career) [![Mid-Level and Above 499](https://img.shields.io/badge/Mid--Level%20and%20Above-499-dc2626.svg)](#mid-level-and-above)
+[![Jobs 704](https://img.shields.io/badge/Jobs-704-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 100](https://img.shields.io/badge/Internship-100-22c55e.svg)](#internship) [![Early Career 104](https://img.shields.io/badge/Early%20Career-104-0ea5e9.svg)](#early-career) [![Mid-Level and Above 500](https://img.shields.io/badge/Mid--Level%20and%20Above-500-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 102
+Total roles: 100
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -124,8 +124,6 @@ Total roles: 102
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer - Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 1mo |
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 1mo |
 | Cohere | [Machine Learning Intern/Co-op (Winte...](https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b) | Canada | 2mo |
-| Oracle | [OCI Software Engineer Intern - OVIP](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334333) | Austin, TX, United States | 2mo |
-| Oracle | [OCI Software Engineer Intern - OVIP](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325) | Seattle, WA, United St... | 2mo |
 | Zipline | [Embedded Software Engineer Intern (Fa...](https://www.zipline.com/open-roles?gh_jid=7765240003) | South San Francisco, C... | 2mo |
 | Zipline | [Enterprise Systems Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7767667003) | South San Francisco, CA | 2mo |
 | Zipline | [Embedded Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7765240003) | South San Francisco, CA | 2mo |
@@ -258,7 +256,7 @@ Total roles: 104
 
 ### Mid-Level and Above
 
-Total roles: 499
+Total roles: 500
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -275,9 +273,11 @@ Total roles: 499
 | Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-281852) | Pune, India | 0d |
 | Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-280735-1) | Pune, India | 0d |
 | Mastercard | [Lead Software Engineer (C/C++)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer--C-C---_R-286321) | O'Fallon, Missouri | 0d |
+| Mastercard | [Lead Software Engineer (Connex)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer--Connex-_R-281114-1) | Pune, India | 0d |
 | Mastercard | [Lead Software Engineer - Agentic Systems](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer---Agentic-Systems_R-279158-1) | Pune, India | 0d |
 | Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-282017) | O'Fallon, Missouri | 0d |
 | Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering_R-281531) | Pune, India | 0d |
+| Mastercard | [Senior Platform Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Platform-Engineer_R-284557) | Pune, India | 0d |
 | Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-278015-1) | O'Fallon, Missouri | 0d |
 | Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-274666) | O'Fallon, Missouri | 0d |
 | Mastercard | [Senior Software Engineer - Java Backend](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Backend_R-282235) | Pune, India | 0d |
@@ -285,6 +285,7 @@ Total roles: 499
 | Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-287461) | O'Fallon, Missouri | 0d |
 | Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-287461) | O'Fallon, Missouri | 0d |
 | Mastercard | [Software Engineer   ](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer---_R-287018) | Pune, India | 0d |
+| Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556929364) | Redmond, Washington, U... | 0d |
 | Microsoft | [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556863505) | United States | 0d |
 | Microsoft | [Software Engineer II - CoreAI](https://apply.careers.microsoft.com/careers/job/1970393556953081) | Redmond, Washington, U... | 0d |
 | NVIDIA | [DevOps Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/DevOps-Engineer_JR2020488) | <details><summary>2 locations</summary>Israel<br>Raanana<br>Israel<br>Yokneam</details> | 0d |
@@ -372,7 +373,6 @@ Total roles: 499
 | Mastercard | [Lead Software Engineer - Frontend (UI)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Full-Stack-Lead-Software-Engineer_R-281246) | Dublin, Ireland | 3d |
 | Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-273743) | O'Fallon, Missouri | 3d |
 | Mastercard | [Senior Software Engineer (AI)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Lead-Software-Engineer_R-280100-1) | Mexico City, Mexico | 3d |
-| Mastercard | [Senior Software Engineer (Full Stack)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Senior-Software-Engineer--Full-Stack-_R-287835-1) | New York City, New York | 3d |
 | Okta | [Software Engineer II, Developer Tooling (Auth0)](https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088) | Toronto, Ontario, Canada | 3d |
 | Amazon.com Services LLC | [Data Engineer II, Creator Services](https://www.amazon.jobs/en/jobs/10495351/data-engineer-ii-creator-services) | Culver City, CA | 4d |
 | Cloudflare | [Principal Software Engineer, Data](https://boards.greenhouse.io/cloudflare/jobs/8102350?gh_jid=8102350) | Austin, TX, United States | 4d |
@@ -428,13 +428,13 @@ Total roles: 499
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/721fe5ca-73b8-4223-826e-93a528194821) | Palo Alto, CA | 7d |
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/a80afc2b-2564-4a98-84c2-34cdcc0402df) | Washington, D.C. | 7d |
 | Sony Interactive Entertainment | [Manager, Software Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6127233004) | United States, San Mateo, CA | 7d |
-| Sony Interactive Entertainment | [Senior Software Engineer (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004) | United States, Los Angeles, CA | 7d |
 | Sony Interactive Entertainment | [Senior Software Engineer (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004) | United States, San Diego, CA | 7d |
+| Sony Interactive Entertainment | [Senior Software Engineer (Frontend), Social](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004) | United States, Los Angeles, CA | 7d |
 | Sony Interactive Entertainment | [Senior Software Engineer, Quality Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134013004) | United Kingdom, London | 7d |
 | Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5806762004) | United States, San Mateo, CA | 7d |
 | Sony Interactive Entertainment | [Software Engineer II / Software Developer II (React Native)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134526004) | Canada, Waterloo, ON | 7d |
-| Sony Interactive Entertainment | [Software Engineer II, Data Platform](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133926004) | United States, Los Angeles, CA | 7d |
 | Sony Interactive Entertainment | [Software Engineer II, Data Platform](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133925004) | United States, Aliso Viejo, CA | 7d |
+| Sony Interactive Entertainment | [Software Engineer II, Data Platform](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133926004) | United States, Los Angeles, CA | 7d |
 | Linear | [Mobile Product Designer](https://jobs.ashbyhq.com/linear/eac7f181-d658-4943-9430-51bae2bcd110) | North America | 8d |
 | Sony Interactive Entertainment | [Senior Software Engineer, Quality Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5722668004) | United Kingdom, Bristol | 8d |
 | Amazon | [Software Development Engineer II (ADBL178)](https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178) | Newark, New Jersey, USA | 10d |
@@ -475,9 +475,9 @@ Total roles: 499
 | Sony Interactive Entertainment | [Platform Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6121289004) | United States, Aliso Viejo, CA | 18d |
 | Sony Interactive Entertainment | [Senior Software Engineer / Software Developer (React Native)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6126786004) | Canada, Waterloo, ON | 18d |
 | Sony Interactive Entertainment | [Software Engineer - Frontend Development](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6122466004) | Ireland, Dublin | 18d |
-| Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004) | United States, San Mateo, CA | 18d |
-| Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004) | United States, San Mateo, CA | 18d |
 | Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5985241004) | United States, San Mateo, CA | 18d |
+| Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018473004) | United States, San Mateo, CA | 18d |
+| Sony Interactive Entertainment | [Software Engineer II](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004) | United States, San Mateo, CA | 18d |
 | Sony Interactive Entertainment | [Sr Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5996147004) | United States, San Mateo, CA | 18d |
 | Sony Interactive Entertainment | [Sr Software Engineer (Audio)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6122115004) | United States, San Mateo, CA | 18d |
 | Figma | [Manager, Software Engineering - Observability](https://boards.greenhouse.io/figma/jobs/5807963004?gh_jid=5807963004) | San Francisco, CA • New York, NY • United States | 19d |
@@ -552,10 +552,10 @@ Total roles: 499
 | Sony Interactive Entertainment | [Manager, Software Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6099561004) | United States, Aliso Viejo, CA | 1mo |
 | Sony Interactive Entertainment | [Principal Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5728848004) | Ireland, Dublin | 1mo |
 | Sony Interactive Entertainment | [Senior Graphics Programmer, Mobile (iOS/Android)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5849862004) | United States, San Diego, CA | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004) | United States, San Mateo, CA | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004) | United Kingdom, Liverpool | 1mo |
-| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004) | United States, San Mateo, CA | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004) | United Kingdom, London | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004) | United States, San Mateo, CA | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004) | United States, San Mateo, CA | 1mo |
+| Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004) | United Kingdom, Liverpool | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer (Platform Data Reliability & Automation)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6030609004) | United States, San Diego, CA | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer - GPU Capture and Replay](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5837069004) | United Kingdom, London | 1mo |
 | Sony Interactive Entertainment | [Senior Software Engineer - Rendering API](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5837061004) | United Kingdom, London | 1mo |
@@ -569,8 +569,8 @@ Total roles: 499
 | Sony Interactive Entertainment | [Sr. Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101710004) | United States, San Mateo, CA | 1mo |
 | Sony Interactive Entertainment | [Sr. Software Engineer in Test](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101052004) | United States, San Diego, CA | 1mo |
 | Sony Interactive Entertainment | [Staff Software Engineer - AI Tools](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5655306004) | United Kingdom, Remote | 1mo |
-| Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004) | United States, Remote | 1mo |
 | Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004) | United States, Aliso Viejo, CA | 1mo |
+| Sony Interactive Entertainment | [Staff Software Engineer - DPDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004) | United States, Remote | 1mo |
 | Amazon | [Software Development Engineer II](https://www.amazon.jobs/en/jobs/10466814/software-development-engineer-ii) | North Reading, Massachusetts, USA | 1mo |
 | Openai | [Software Engineer, Codex Cyber](https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1) | San Francisco | 1mo |
 | Plaid | [Staff Software Engineer - Data Infrastructure](https://jobs.ashbyhq.com/plaid/127d31ff-3a16-488b-ba01-6e87dbb96957) | San Francisco HQ | 1mo |
@@ -601,7 +601,6 @@ Total roles: 499
 | Cohere | [Software Engineer, Agents & Automations](https://jobs.ashbyhq.com/cohere/4a3c3eb2-ae2e-4a86-a677-7bdecbc7d76e) | London | 1mo |
 | Openai | [Full Stack Software Engineer, ChatGPT Finances](https://jobs.ashbyhq.com/openai/39e06ef9-5e62-425d-81e2-e8690188011f) | San Francisco | 1mo |
 | Palantir | [Forward Deployed Software Engineer - Norwegian Government](https://jobs.lever.co/palantir/0a0d2db2-75a5-48e4-b0a0-81baa6588e36) | Oslo, Norway | 1mo |
-| Instacart | [Software Engineer II, Technical Searc...](https://instacart.careers/job/?gh_jid=7963661) | Remote (ON, AB, BC, or... | 2mo |
 | Openai | [Software Engineer, Computer Use & Frontier Interfaces](https://jobs.ashbyhq.com/openai/39a709f3-6e9e-45e9-94eb-43a1c2aaaeaf) | San Francisco | 2mo |
 | Openai | [Software Engineer, Private Computing](https://jobs.ashbyhq.com/openai/0f887fe6-39f4-44f6-8ee5-230c3002f0d7) | San Francisco | 2mo |
 | Pinterest | [Software Engineer II, Android](https://www.pinterestcareers.com/jobs/?gh_jid=7987854) | Toronto, ON, CA | 2mo |
@@ -788,6 +787,7 @@ Total hackathons: 199
 | BVC College of Engineering, Rajamahendravaram, Andhra Pradesh | [Python Basic Programming Competition](https://unstop.com/hackathons/python-basic-programming-competition-bvc-college-of-engineering-rajamahendravaram-andhra-pradesh-1729093) |
 | CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) |
 | Canadian Undergraduate Tech Conference | [CUTC: Transform Hackathon](https://cutc-transform.devpost.com/) |
+| Caspian | [Caspian AI Agent Hackathon](https://unstop.com/hackathons/caspian-ai-agent-hackathon-caspian-1726439) |
 | CENTRAL UNIVERSITY OF RAJASTHAN, AJMER KISHANGARDH | [Aethon 2026 | 24-Hour National Hackathon](https://unstop.com/hackathons/aethon-2026-24-hour-national-hackathon-enac-3-day-innovation-entrepreneurship-fest-2026-central-university-of-1731459) |
 | Chandigah University | [byteBuilt 1.0](https://unstop.com/hackathons/bytebuilt-10-chandigah-university-1733940) |
 | Chennai Institute of Technology | [Hack Fusion 2026](https://unstop.com/hackathons/hack-fusion-2026-chennai-institute-of-technology-1730112) |
@@ -849,7 +849,6 @@ Total hackathons: 199
 | DevTech It Solution | [PitchX 2026 – India's Biggest Startup Pitch Challenge](https://unstop.com/hackathons/pitchx-2026-indias-biggest-startup-pitch-challenge-devtech-it-solution-1729843) |
 | Digimation Flight | [Flight Hack 2.0](https://unstop.com/hackathons/flight-hack-20-digimation-flight-1727112) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
-| E-Cell, JSS Noida | [StarForge Hackathon 2026](https://unstop.com/hackathons/pathway-hackathon-e-cell-jss-noida-1731395) |
 | EduLinkUp | [ELUCode](https://unstop.com/hackathons/elucode-edulinkup-1712263) |
 | egoist machines @ cambridge university | [AI Passport Ideathon](https://ai-passport-ideathon.devpost.com/) |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
@@ -970,17 +969,13 @@ Total hackathons: 199
 
 ## Events
 
-Total events: 7
+Total events: 3
 
 | Organizer | Event |
 |---|---|
-| Luma | [Follow [SF]](https://lu.ma/sf-hackersquad?k=c) |
-| Luma | [Follow Bond AI](https://lu.ma/genai-sf?k=c) |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
-| Luma | [Follow Frontier](https://lu.ma/frontiertower?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow SF](https://lu.ma/sf-hardware-meetup?k=c) |
 
 ## Source Files
 
