@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T21:02:53Z",
-  "total": 221,
+  "generated_at": "2026-08-11T22:03:24Z",
+  "total": 222,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -95,6 +95,29 @@
       ]
     },
     {
+      "id": "c9478dd08e1c1277",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer II, Accounting, Accounting",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "Unknown",
+      "location": "Arlington, VA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10499131/data-engineer-ii-accounting-accounting",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T22:03:24Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "bf17c108c5cd3259",
       "company": "Apple",
       "title": "Software Engineer Intern, Undergrad",
@@ -134,29 +157,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "e43b8a547335c195",
-      "company": "Apple",
-      "title": "Software Engineer, IS&T Early Career ...",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Austin",
-      "remote_type": "onsite",
-      "url": "https://jobs.apple.com/en-us/details/200677377/software-engineer-is-t-early-career-opportunities",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T21:02:53Z",
       "tags": [
         "software",
         "programming",
@@ -2602,29 +2602,6 @@
       ]
     },
     {
-      "id": "948e911a4754882a",
-      "company": "Amazon.com Services LLC",
-      "title": "Data Engineer II, Creator Services",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "Unknown",
-      "location": "Culver City, CA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10495351/data-engineer-ii-creator-services",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "4d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5319fc8fec65d19c",
       "company": "ByteDance",
       "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
@@ -2878,6 +2855,29 @@
       ]
     },
     {
+      "id": "3a419e6b9aa790db",
+      "company": "Uber",
+      "title": "Machine Learning Engineer II - AV Labs",
+      "level": "mid_level",
+      "category": "ride_delivery",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Sunnyvale, Santa Clara",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/303619/",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "6d",
+      "collected_at": "2026-08-11T22:03:24Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5d1ecca6b6113aa7",
       "company": "Instacart",
       "title": "Software Engineer II, Technical Search Visibility",
@@ -2894,6 +2894,29 @@
       "posted_at": "2026-08-05",
       "age": "5d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "4bc64fe1480cc7d3",
+      "company": "PayPal",
+      "title": "Software Engineer 2",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, California, United States of America",
+      "remote_type": "onsite",
+      "url": "https://paypal.wd1.myworkdayjobs.com/job/San-Jose-California-United-States-of-America/Software-Engineer-2_R0137187",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-05",
+      "age": "6d",
+      "collected_at": "2026-08-11T22:03:24Z",
       "tags": [
         "software",
         "programming",
@@ -4821,11 +4844,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-08-11",
       "age": "3mo",
-      "collected_at": "2026-08-11T18:06:35Z",
+      "collected_at": "2026-08-11T22:03:24Z",
       "tags": [
         "software",
         "programming",
