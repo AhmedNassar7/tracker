@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T13:41:44Z",
-  "total": 873,
+  "generated_at": "2026-08-11T15:15:41Z",
+  "total": 875,
   "jobs": [
     {
       "id": "603b0b84a350dd67",
@@ -74,6 +74,21 @@
       "date": "0d",
       "posted_at": "2026-08-11",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7958917",
+      "source": "greenhouse:doordashusa",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs?content=true"
+    },
+    {
+      "id": "668affaa447b1b9d",
+      "kind": "job",
+      "company": "DoorDash",
+      "title": "Software Engineer, Traffic",
+      "location": "San Francisco, CA; New York, NY; Seattle, WA",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-11",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8120763",
       "source": "greenhouse:doordashusa",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs?content=true"
     },
@@ -209,6 +224,21 @@
       "date": "0d",
       "posted_at": "2026-08-11",
       "url": "https://jobs.smartrecruiters.com/Wise/744000142816509",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
+      "id": "0c2ad61f9b2d09e6",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Content Marketing Manager (B2B) - Wise Platform",
+      "location": "London, United Kingdom",
+      "level": "other",
+      "region": "emea",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-08-11",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000142897224",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -1246,36 +1276,6 @@
       "url": "https://jobs.smartrecruiters.com/Wise/744000142661439",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "297db35276a3eab5",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - Scientific Evaluation",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Scientific-Evaluation_JR2022919-1",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "79bdfcf30839b79d",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, DGX Cloud Orchestration",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Orchestration_JR2022827",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
       "id": "506ede91dbfe067d",
@@ -3648,36 +3648,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "bbfac693fc70de24",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer",
-      "date": "33d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "b60a61280d8b5a9b",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United Kingdom, London",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer",
-      "date": "33d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "d78f6f48b460fb71",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3693,6 +3663,21 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
+      "id": "bbfac693fc70de24",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United States, San Mateo, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "33d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104596004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "f76c730e27bebfc9",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3704,6 +3689,21 @@
       "date": "33d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "b60a61280d8b5a9b",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United Kingdom, London",
+      "level": "other",
+      "region": "emea",
+      "role_type": "software_engineer",
+      "date": "33d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6021939004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -10807,7 +10807,7 @@
       "company": "Devfolio",
       "title": "Interledger Student Hackathon - Tec de Software",
       "location": "Mérida, Mexico",
-      "date": "32 days left",
+      "date": "31 days left",
       "posted_at": "2026-08-11",
       "url": "https://interledger-student-hackathon-merida.devfolio.co",
       "source": "devfolio",
@@ -10903,7 +10903,7 @@
       "company": "Devfolio",
       "title": "PEC HACKS 4.0",
       "location": "India",
-      "date": "19 days left",
+      "date": "18 days left",
       "posted_at": "2026-08-11",
       "url": "https://pec-hacks.devfolio.co",
       "source": "devfolio",
@@ -10963,7 +10963,7 @@
       "company": "Devfolio",
       "title": "TUM Blockchain & AI Hackathon",
       "location": "München, Germany",
-      "date": "81 days left",
+      "date": "80 days left",
       "posted_at": "2026-08-11",
       "url": "https://tum.devfolio.co",
       "source": "devfolio",
@@ -11599,7 +11599,7 @@
       "company": "Makers Need More (MnM)",
       "title": "Morrow 1.0",
       "location": "Online",
-      "date": "37 days left",
+      "date": "36 days left",
       "posted_at": "2026-08-11",
       "url": "https://unstop.com/hackathons/morrow-10-makers-need-more-mnm-1727667",
       "source": "unstop",
@@ -12472,6 +12472,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-11",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -12480,6 +12492,18 @@
       "date": "",
       "posted_at": "2026-08-11",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-11",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

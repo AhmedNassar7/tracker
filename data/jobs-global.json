@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T13:41:21Z",
+  "generated_at": "2026-08-11T15:15:21Z",
   "total": 225,
   "jobs": [
     {
@@ -88,6 +88,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "866f1efaf58c81a0",
+      "company": "Atlassian",
+      "title": "New Grad 2026: Software Engineer",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://careers-americas.icims.com/jobs/20901/software-engineer%252c-2026-graduate-u.s./job?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T15:15:21Z",
       "tags": [
         "software",
         "programming",
@@ -1061,6 +1084,29 @@
       ]
     },
     {
+      "id": "36a558da58240319",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T15:15:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cc7a168906373af1",
       "company": "Hudson River Trading",
       "title": "Software Engineer Intern",
@@ -1199,6 +1245,29 @@
       ]
     },
     {
+      "id": "043e11661f449ed7",
+      "company": "Microsoft",
+      "title": "Software Engineer 2 - CoreAI",
+      "level": "mid_level",
+      "category": "microsoft_group",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Redmond, Washington, U...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556956391",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T15:15:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "4471a762b4a6b6e8",
       "company": "Microsoft",
       "title": "Software Engineer II",
@@ -1215,52 +1284,6 @@
       "posted_at": "2026-08-11",
       "age": "0d",
       "collected_at": "2026-08-11T06:03:08Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "331e8fa03b457785",
-      "company": "Microsoft",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "category": "microsoft_group",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556863505",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T22:55:45Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "415f63e1b0de0f8d",
-      "company": "Microsoft",
-      "title": "Software Engineer II - CoreAI",
-      "level": "mid_level",
-      "category": "microsoft_group",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Redmond, Washington, U...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953081",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T21:57:10Z",
       "tags": [
         "software",
         "programming",
@@ -1935,6 +1958,29 @@
       ]
     },
     {
+      "id": "e42f9cb3d2411b5a",
+      "company": "ServiceNow",
+      "title": "Associate Software Engineer, Core Inf...",
+      "level": "entry_level",
+      "category": "more_global_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Mountain View, CALIFORNIA",
+      "remote_type": "onsite",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000107369741",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T15:15:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "f23e36fdf4ef0471",
       "company": "Sony Interactive Entertainment",
       "title": "Software Engineer I SDK",
@@ -2388,29 +2434,6 @@
       "posted_at": "2026-08-10",
       "age": "2d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "12bc66fa8157b50b",
-      "company": "Amazon Development Centre Canada ULC",
-      "title": "Data Engineer II, Alexa Audio",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "canada",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Vancouver, BC",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10496221/data-engineer-ii-alexa-audio",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-11",
-      "age": "4d",
-      "collected_at": "2026-08-11T07:35:48Z",
       "tags": [
         "software",
         "programming",
@@ -3453,29 +3476,6 @@
       ]
     },
     {
-      "id": "393b1602c4588b34",
-      "company": "Amazon",
-      "title": "Software Development Engineer I FTC",
-      "level": "entry_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10488045/software-development-engineer-i-ftc",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-30",
-      "age": "11d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "071b07f69ae43265",
       "company": "Amazon",
       "title": "Software Development Engineer II",
@@ -3614,17 +3614,17 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "category": "more_global_tech",
-      "region": "us",
+      "region": "canada",
       "role_type": "backend",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3637,17 +3637,17 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "category": "more_global_tech",
-      "region": "canada",
+      "region": "us",
       "role_type": "backend",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3706,29 +3706,6 @@
       ]
     },
     {
-      "id": "9b0e9b510a42c9e0",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - Backend",
-      "level": "junior",
-      "category": "apac_tech",
-      "region": "emea",
-      "role_type": "backend",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "18d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d7e4cd19ff147953",
       "company": "Duolingo",
       "title": "Software Engineer II, Android",
@@ -3766,6 +3743,29 @@
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-23",
+      "age": "18d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9b0e9b510a42c9e0",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - Backend",
+      "level": "junior",
+      "category": "apac_tech",
+      "region": "emea",
+      "role_type": "backend",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
       "age": "18d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
@@ -4166,6 +4166,29 @@
       ]
     },
     {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-11",
+      "age": "1mo",
+      "collected_at": "2026-08-11T15:15:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "8dd6ce444d2a566a",
       "company": "Palantir",
       "title": "Privacy and Civil Liberties Software Engineer Intern",
@@ -4550,29 +4573,6 @@
       "posted_at": "2026-06-17",
       "age": "54d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "cfab04505d542392",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Software Defined Networking",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Austin, Texas, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-06-16",
-      "age": "56d",
-      "collected_at": "2026-08-11T11:05:13Z",
       "tags": [
         "software",
         "programming",
