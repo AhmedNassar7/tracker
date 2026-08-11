@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T09:12:36Z",
-  "total": 224,
+  "generated_at": "2026-08-11T10:11:31Z",
+  "total": 222,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -2234,75 +2234,6 @@
       ]
     },
     {
-      "id": "368516ed979193b4",
-      "company": "Mastercard",
-      "title": "Data Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "canada",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Toronto, Canada",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Data-Engineer-II_R-286713",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-11",
-      "age": "1d",
-      "collected_at": "2026-08-11T09:12:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "e8b7c8d553134c9a",
-      "company": "Mastercard",
-      "title": "Software Engineer I",
-      "level": "entry_level",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-I_R-280783",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-11",
-      "age": "1d",
-      "collected_at": "2026-08-11T09:12:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a2a4ad5364c1f93d",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-287461",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T21:01:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "1a22e368a899bfe1",
       "company": "Amazon",
       "title": "Software Development Engineer II",
@@ -2878,29 +2809,6 @@
       ]
     },
     {
-      "id": "d39caadda70c376a",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - AI Platform",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "platform",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-10",
-      "age": "6d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "81b7064d117d7445",
       "company": "Microsoft",
       "title": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students - Redmond",
@@ -3131,44 +3039,21 @@
       ]
     },
     {
-      "id": "37125469539dbe4d",
+      "id": "d39caadda70c376a",
       "company": "ByteDance",
-      "title": "Software Engineer Intern - AI Infra Compute 🎓",
+      "title": "Software Engineer Intern - AI Platform",
       "level": "internship",
       "category": "apac_tech",
-      "region": "us",
-      "role_type": "infrastructure",
+      "region": "unknown",
+      "role_type": "platform",
       "country": "United States",
-      "location": "Seattle, WA",
+      "location": "San Jose, CA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-08-10",
-      "age": "7d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c5e489e11daa11be",
-      "company": "ByteDance",
-      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "7d",
+      "age": "6d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
@@ -3315,6 +3200,52 @@
       ]
     },
     {
+      "id": "37125469539dbe4d",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AI Infra Compute 🎓",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "7d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c5e489e11daa11be",
+      "company": "ByteDance",
+      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
+      "age": "7d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5a9b57a990547181",
       "company": "HarmonyTech",
       "title": "Junior Software Developer - .NET",
@@ -3376,29 +3307,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-08-10",
       "age": "9d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "becefb85046fc9c8",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - .NET Backend",
-      "level": "junior",
-      "category": "apac_tech",
-      "region": "emea",
-      "role_type": "backend",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "11d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
@@ -3514,6 +3422,29 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-31",
       "age": "10d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "becefb85046fc9c8",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - .NET Backend",
+      "level": "junior",
+      "category": "apac_tech",
+      "region": "emea",
+      "role_type": "backend",
+      "country": "United Kingdom",
+      "location": "London, UK",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
+      "age": "11d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
@@ -4304,6 +4235,29 @@
       ]
     },
     {
+      "id": "8b81bbd8d722fcd1",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "San Diego",
+      "remote_type": "onsite",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "1mo",
+      "collected_at": "2026-08-11T10:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d689c5f1aca938ee",
       "company": "Jane Street",
       "title": "Machine Learning Engineer Summer Internship",
@@ -4867,11 +4821,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-08-11",
       "age": "3mo",
-      "collected_at": "2026-08-11T09:12:36Z",
+      "collected_at": "2026-08-11T10:11:31Z",
       "tags": [
         "software",
         "programming",
