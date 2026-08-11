@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T07:36:06Z",
-  "total": 897,
+  "generated_at": "2026-08-11T09:12:55Z",
+  "total": 900,
   "jobs": [
     {
       "id": "603b0b84a350dd67",
@@ -48,6 +48,21 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true"
     },
     {
+      "id": "c32081ef8dfd02c4",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Lead Software Engineer",
+      "location": "Pune, India",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-287556-1",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
       "id": "2afc04a686d35c67",
       "kind": "job",
       "company": "Mastercard",
@@ -59,6 +74,21 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer--Connex-_R-281114-1",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "7a4add4df92a8b03",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Manager, Software Engineering",
+      "location": "Pune, India",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering_R-282706",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -121,6 +151,21 @@
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-Systems-Software-Engineer--Developer-Productivity-and-Cloud-Automation---GeForce-NOW_JR2021957",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "315a091555fa9a88",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Backend Engineer - NorthAm",
+      "location": "Budapest, Hungary",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "2026-08-11",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000142816509",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
       "id": "dd512a93c52683fb",
@@ -989,21 +1034,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland-One-South-County/Senior-Vice-President---Software-Engineering--Commercial-Acceptance_R-287903",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "4265f38433de5555",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Site Reliability Engineer I",
-      "location": "Pune, India",
-      "level": "entry_level",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Site-Reliability-Engineer-I_R-286909-1",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -2296,21 +2326,6 @@
       "url": "https://jobs.ashbyhq.com/openai/da07ba71-81fd-47c7-adb1-2b2d1eaed325",
       "source": "ashby:openai",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
-    },
-    {
-      "id": "48dcc4d6dce5415b",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Backend Engineer - NorthAm",
-      "location": "Budapest, Hungary",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend",
-      "date": "6d",
-      "posted_at": "2026-08-05",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000141690789",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
       "id": "14bcca8f3837b2a9",
@@ -10609,7 +10624,7 @@
       "company": "BVC College of Engineering, Rajamahendravaram, Andhra Pradesh",
       "title": "Python Basic Programming Competition",
       "location": "Online",
-      "date": "5 days left",
+      "date": "4 days left",
       "posted_at": "2026-08-11",
       "url": "https://unstop.com/hackathons/python-basic-programming-competition-bvc-college-of-engineering-rajamahendravaram-andhra-pradesh-1729093",
       "source": "unstop",
@@ -10729,7 +10744,7 @@
       "company": "Cockroach Labs",
       "title": "CockroachDB × AWS Hackathon - Build with Agentic Memory",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-08-11",
       "url": "https://cockroachdb-ai.devpost.com/",
       "source": "devpost",
@@ -10856,6 +10871,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "a908a7135fe42027",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "CodeShift",
+      "location": "Kukas, India",
+      "date": "11 days left",
+      "posted_at": "2026-08-11",
+      "url": "https://codeshift.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "213e99592eedec18",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -10864,6 +10891,18 @@
       "date": "20 days left",
       "posted_at": "2026-08-11",
       "url": "https://codestorm-futureforge.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "6a59618eef323579",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "CodeWars1.0",
+      "location": "Kukas, India",
+      "date": "11 days left",
+      "posted_at": "2026-08-11",
+      "url": "https://codewars-2.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -10940,6 +10979,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "24d8ae6614b71e3a",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "FusioniX2026",
+      "location": "Various",
+      "date": "31 days left",
+      "posted_at": "2026-08-11",
+      "url": "https://fusionix-1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "cb715b9a8536b44e",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -10993,7 +11044,7 @@
       "company": "Devfolio",
       "title": "HACKER HOUSE GOA 2026",
       "location": "India",
-      "date": "81 days left",
+      "date": "80 days left",
       "posted_at": "2026-08-11",
       "url": "https://hacker-house-goa-2026.devfolio.co",
       "source": "devfolio",
@@ -11041,7 +11092,7 @@
       "company": "Devfolio",
       "title": "HackSpire'26",
       "location": "Kolkata, India",
-      "date": "53 days left",
+      "date": "52 days left",
       "posted_at": "2026-08-11",
       "url": "https://hackspire26.devfolio.co",
       "source": "devfolio",
@@ -11264,6 +11315,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "d647c924b92306f0",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Recursion Edition II",
+      "location": "Chennai, India",
+      "date": "18 days left",
+      "posted_at": "2026-08-11",
+      "url": "https://recursion-edition.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "8ca5b8bfef4c4cec",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -11293,7 +11356,7 @@
       "company": "Devfolio",
       "title": "The Great Agent Hackathon",
       "location": "Online",
-      "date": "46 days left",
+      "date": "45 days left",
       "posted_at": "2026-08-11",
       "url": "https://the-great-agent-hackathon.devfolio.co",
       "source": "devfolio",
@@ -11509,7 +11572,7 @@
       "company": "Google",
       "title": "Agentic Cinema: The Blockbuster Hackathon",
       "location": "Online",
-      "date": "28 days left",
+      "date": "27 days left",
       "posted_at": "2026-08-11",
       "url": "https://agentic-cinema.devpost.com/",
       "source": "devpost",
@@ -12085,7 +12148,7 @@
       "company": "National Institute of Technology (NIT), Delhi",
       "title": "Build With Bharat 2.0",
       "location": "Offline",
-      "date": "33 days left",
+      "date": "32 days left",
       "posted_at": "2026-08-11",
       "url": "https://unstop.com/hackathons/build-with-bharat-40-national-institute-of-technology-nit-delhi-1719203",
       "source": "unstop",
@@ -12541,7 +12604,7 @@
       "company": "STAMPERS",
       "title": "STAMPERS National Hackathon 2026",
       "location": "Online",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-08-11",
       "url": "https://unstop.com/hackathons/stampers-national-hackathon-2026-stampers-1726290",
       "source": "unstop",
@@ -12814,18 +12877,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-11",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -12834,18 +12885,6 @@
       "date": "",
       "posted_at": "2026-08-11",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-11",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
