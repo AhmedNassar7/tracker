@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T21:03:12Z",
-  "total": 884,
+  "generated_at": "2026-08-11T22:03:46Z",
+  "total": 882,
   "jobs": [
     {
       "id": "a6a43ecca047b191",
@@ -888,6 +888,21 @@
       "source_url": "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/sonyglobalcareers/jobs"
     },
     {
+      "id": "c7229f2d830ea12a",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United States, San Mateo, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-11",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134777004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "c043cbca2bc46982",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -901,6 +916,21 @@
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5996147004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "57cadc62ff296fef",
+      "kind": "job",
+      "company": "Substack",
+      "title": "Full Stack Software Engineer - Community",
+      "location": "San Francisco (HQ)",
+      "level": "other",
+      "region": "us",
+      "role_type": "full_stack",
+      "date": "0d",
+      "posted_at": "2026-08-11",
+      "url": "https://jobs.ashbyhq.com/substack/46b21719-a949-44ab-8b0f-8baa1c7f0392",
+      "source": "ashby:substack",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/substack"
     },
     {
       "id": "315a091555fa9a88",
@@ -2133,21 +2163,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "cb20f6a438518f12",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer (Frontend), Social",
-      "location": "United States, Los Angeles, CA",
-      "level": "other",
-      "region": "us",
-      "role_type": "frontend",
-      "date": "7d",
-      "posted_at": "2026-08-04",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "3ce2517841ac0ee2",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2159,6 +2174,21 @@
       "date": "7d",
       "posted_at": "2026-08-04",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732890004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "cb20f6a438518f12",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer (Frontend), Social",
+      "location": "United States, Los Angeles, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "frontend",
+      "date": "7d",
+      "posted_at": "2026-08-04",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5732891004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2208,21 +2238,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "8624f9b69f27e6ce",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II, Data Platform",
-      "location": "United States, Los Angeles, CA",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "platform",
-      "date": "7d",
-      "posted_at": "2026-08-04",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133926004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "7c616ae6112e2acb",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2234,6 +2249,21 @@
       "date": "7d",
       "posted_at": "2026-08-04",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133925004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "8624f9b69f27e6ce",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II, Data Platform",
+      "location": "United States, Los Angeles, CA",
+      "level": "mid_level",
+      "region": "us",
+      "role_type": "platform",
+      "date": "7d",
+      "posted_at": "2026-08-04",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6133926004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -2628,21 +2658,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "ad459adc67d9fa13",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Software Engineer II",
-      "location": "United States, San Mateo, CA",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "software_engineer",
-      "date": "18d",
-      "posted_at": "2026-07-24",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5985241004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "8e5ce1fe3bf27593",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -2669,6 +2684,21 @@
       "date": "18d",
       "posted_at": "2026-07-24",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5838328004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "ad459adc67d9fa13",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II",
+      "location": "United States, San Mateo, CA",
+      "level": "mid_level",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "18d",
+      "posted_at": "2026-07-24",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5985241004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3753,6 +3783,21 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
+      "id": "d78f6f48b460fb71",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Senior Software Engineer",
+      "location": "United Kingdom, Liverpool",
+      "level": "other",
+      "region": "emea",
+      "role_type": "software_engineer",
+      "date": "33d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
       "id": "b60a61280d8b5a9b",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -3779,21 +3824,6 @@
       "date": "33d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101732004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
-      "id": "d78f6f48b460fb71",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Senior Software Engineer",
-      "location": "United Kingdom, Liverpool",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer",
-      "date": "33d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6017297004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -3993,21 +4023,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
     {
-      "id": "e7b17ac3b8ffd684",
-      "kind": "job",
-      "company": "Sony Interactive Entertainment",
-      "title": "Staff Software Engineer - DPDK",
-      "location": "United States, Aliso Viejo, CA",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer",
-      "date": "33d",
-      "posted_at": "2026-07-09",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
-    },
-    {
       "id": "e8654b3741330c42",
       "kind": "job",
       "company": "Sony Interactive Entertainment",
@@ -4019,6 +4034,21 @@
       "date": "33d",
       "posted_at": "2026-07-09",
       "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5684638004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
+    },
+    {
+      "id": "e7b17ac3b8ffd684",
+      "kind": "job",
+      "company": "Sony Interactive Entertainment",
+      "title": "Staff Software Engineer - DPDK",
+      "location": "United States, Aliso Viejo, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "33d",
+      "posted_at": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5679380004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true"
     },
@@ -5988,10 +6018,10 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
-      "id": "3d0f17b0c730cbdc",
+      "id": "677a8293e5824927",
       "kind": "job",
       "company": "Openai",
-      "title": "GPT-infra Lead",
+      "title": "GPT Infrastructure Lead",
       "location": "San Francisco",
       "level": "other",
       "region": "us",
@@ -6018,14 +6048,14 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
-      "id": "ef1680220a5b86a4",
+      "id": "681ed80dc7d0ba49",
       "kind": "job",
       "company": "Openai",
-      "title": "Tokens-as-a-Service (Taas) Software Engineer",
+      "title": "Software Engineer, GPT Infrastructure",
       "location": "San Francisco",
       "level": "other",
       "region": "us",
-      "role_type": "software_engineer",
+      "role_type": "infrastructure",
       "date": "106d",
       "posted_at": "2026-04-27",
       "url": "https://jobs.ashbyhq.com/openai/f3ddd41c-541f-485e-90d6-86c26e018e9f",
@@ -12553,30 +12583,6 @@
   ],
   "events": [
     {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-11",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-11",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -12601,18 +12607,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-11",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -12621,18 +12615,6 @@
       "date": "",
       "posted_at": "2026-08-11",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-11",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
