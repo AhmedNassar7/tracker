@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:03:08Z",
+  "generated_at": "2026-08-11T07:35:48Z",
   "total": 225,
   "jobs": [
     {
@@ -1176,75 +1176,6 @@
       ]
     },
     {
-      "id": "368516ed979193b4",
-      "company": "Mastercard",
-      "title": "Data Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "canada",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Toronto, Canada",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Data-Engineer-II_R-286713",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T17:07:31Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "e8b7c8d553134c9a",
-      "company": "Mastercard",
-      "title": "Software Engineer I",
-      "level": "entry_level",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-I_R-280783",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T19:15:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a2a4ad5364c1f93d",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-287461",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T21:01:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "4471a762b4a6b6e8",
       "company": "Microsoft",
       "title": "Software Engineer II",
@@ -1889,6 +1820,29 @@
       ]
     },
     {
+      "id": "08629f37a73cf4dc",
+      "company": "Roblox",
+      "title": "[2027] Software Engineer, Early Career",
+      "level": "new_grad",
+      "category": "more_global_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Mateo, CA, United States",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2e03e268c36df0fd",
       "company": "Roblox",
       "title": "New Grad 2025: Software Engineer, Game Solutions Engineering",
@@ -2280,6 +2234,29 @@
       ]
     },
     {
+      "id": "a2a4ad5364c1f93d",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-287461",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T21:01:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "1a22e368a899bfe1",
       "company": "Amazon",
       "title": "Software Development Engineer II",
@@ -2319,29 +2296,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T21:01:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "08629f37a73cf4dc",
-      "company": "Roblox",
-      "title": "[2027] Software Engineer, Early Career",
-      "level": "new_grad",
-      "category": "more_global_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Mateo, CA, United States",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
         "programming",
@@ -2464,6 +2418,29 @@
       ]
     },
     {
+      "id": "12bc66fa8157b50b",
+      "company": "Amazon Development Centre Canada ULC",
+      "title": "Data Engineer II, Alexa Audio",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Vancouver, BC",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10496221/data-engineer-ii-alexa-audio",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "4d",
+      "collected_at": "2026-08-11T07:35:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2135ec6f0a8004ef",
       "company": "Amazon.com Services LLC",
       "title": "Data Engineer I, Sales Data Services ...",
@@ -2480,52 +2457,6 @@
       "posted_at": "2026-08-10",
       "age": "3d",
       "collected_at": "2026-08-10T22:55:45Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5319fc8fec65d19c",
-      "company": "ByteDance",
-      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-10",
-      "age": "4d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ba35424657a379e0",
-      "company": "ByteDance",
-      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "backend",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "4d",
-      "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
         "programming",
@@ -2684,6 +2615,52 @@
       "url": "https://www.amazon.jobs/en/jobs/10495351/data-engineer-ii-creator-services",
       "source": "zapplyjobs_datascience",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-10",
+      "age": "4d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5319fc8fec65d19c",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "4d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ba35424657a379e0",
+      "company": "ByteDance",
+      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "backend",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-08-10",
       "age": "4d",
       "collected_at": "2026-08-10T09:39:03Z",
@@ -3154,29 +3131,6 @@
       ]
     },
     {
-      "id": "5a9b57a990547181",
-      "company": "HarmonyTech",
-      "title": "Junior Software Developer - .NET",
-      "level": "junior",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Herndon, VA",
-      "remote_type": "onsite",
-      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "7d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "79e22881541bb82c",
       "company": "Intel",
       "title": "AI Software Engineer Graduate Intern",
@@ -3307,6 +3261,29 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-04",
       "age": "6d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5a9b57a990547181",
+      "company": "HarmonyTech",
+      "title": "Junior Software Developer - .NET",
+      "level": "junior",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Herndon, VA",
+      "remote_type": "onsite",
+      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
+      "age": "7d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
@@ -4603,29 +4580,6 @@
       ]
     },
     {
-      "id": "cfab04505d542392",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Software Defined Networking",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Austin, Texas, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-06-16",
-      "age": "56d",
-      "collected_at": "2026-08-11T04:38:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "0d5c958987b17583",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer, New Grad - Intel, US Government",
@@ -4672,6 +4626,29 @@
       ]
     },
     {
+      "id": "8f07a852351cfac5",
+      "company": "Instacart",
+      "title": "Software Engineer II, Technical Searc...",
+      "level": "mid_level",
+      "category": "more_global_tech",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Remote (ON, AB, BC, or...",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=7963661",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "2mo",
+      "collected_at": "2026-08-11T07:35:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "99e702d10db39f9b",
       "company": "NVIDIA",
       "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
@@ -4695,6 +4672,52 @@
       ]
     },
     {
+      "id": "e9ff0a701a45e958",
+      "company": "Oracle",
+      "title": "OCI Software Engineer Intern - OVIP",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Austin, TX, United States",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334333",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "2mo",
+      "collected_at": "2026-08-11T07:35:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f4f2f42cd83f2d77",
+      "company": "Oracle",
+      "title": "OCI Software Engineer Intern - OVIP",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA, United St...",
+      "remote_type": "onsite",
+      "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "2mo",
+      "collected_at": "2026-08-11T07:35:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "1c826b0a416b09ad",
       "company": "Pinterest",
       "title": "Software Engineer II, Android",
@@ -4711,29 +4734,6 @@
       "posted_at": "2026-08-10",
       "age": "2mo",
       "collected_at": "2026-08-10T15:15:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a223bcc43980f9bb",
-      "company": "Stripe",
-      "title": "Software Engineer New Grad",
-      "level": "new_grad",
-      "category": "fintech",
-      "region": "canada",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Toronto, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://stripe.com/jobs/search?gh_jid=7991718&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "2mo",
-      "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
         "programming",
