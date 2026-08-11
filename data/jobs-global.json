@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T02:26:32Z",
-  "total": 225,
+  "generated_at": "2026-08-11T04:38:46Z",
+  "total": 227,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1008,6 +1008,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "36a558da58240319",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T04:38:46Z",
       "tags": [
         "software",
         "programming",
@@ -4550,6 +4573,29 @@
       "posted_at": "2026-06-17",
       "age": "54d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "cfab04505d542392",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Software Defined Networking",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Austin, Texas, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-16",
+      "age": "56d",
+      "collected_at": "2026-08-11T04:38:46Z",
       "tags": [
         "software",
         "programming",
