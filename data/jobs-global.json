@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T23:00:23Z",
-  "total": 221,
+  "generated_at": "2026-08-12T23:56:45Z",
+  "total": 222,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1544,6 +1544,75 @@
       ]
     },
     {
+      "id": "2e3662f9560e0d0e",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-12",
+      "age": "0d",
+      "collected_at": "2026-08-12T23:56:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b394979186da07cb",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-12",
+      "age": "0d",
+      "collected_at": "2026-08-12T23:56:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "40d131fcd9acc466",
+      "company": "Palantir",
+      "title": "Software Engineer, New Grad",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-12",
+      "age": "0d",
+      "collected_at": "2026-08-12T23:56:45Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2ee142b47bfc9198",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -2257,29 +2326,6 @@
       ]
     },
     {
-      "id": "ab2582333521aab8",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - AML-Engine-Orchestration",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T23:50:13Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "be8160db39d009c7",
       "company": "Citadel",
       "title": "Sector Data Scientist - 2027 Intern - US",
@@ -2296,29 +2342,6 @@
       "posted_at": "2026-08-11",
       "age": "0d",
       "collected_at": "2026-08-11T13:41:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "52447632a29beaab",
-      "company": "Citadel",
-      "title": "Sector Data Scientist Intern",
-      "level": "internship",
-      "category": "consulting_finance",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T23:50:13Z",
       "tags": [
         "software",
         "programming",
@@ -2464,6 +2487,52 @@
       ]
     },
     {
+      "id": "ab2582333521aab8",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AML-Engine-Orchestration",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T23:50:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "52447632a29beaab",
+      "company": "Citadel",
+      "title": "Sector Data Scientist Intern",
+      "level": "internship",
+      "category": "consulting_finance",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T23:50:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "affe941dfff55262",
       "company": "Figma",
       "title": "Software Engineer Intern (Winter 2027)",
@@ -2526,29 +2595,6 @@
       "posted_at": "2026-08-10",
       "age": "2d",
       "collected_at": "2026-08-12T17:11:58Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2f9fc78494152a0c",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Graduate (AML-Engine-Orchestration) - 2027 Start",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=c04073c4963d3da3",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-10",
-      "age": "2d",
-      "collected_at": "2026-08-12T22:01:37Z",
       "tags": [
         "software",
         "programming",
@@ -3165,29 +3211,6 @@
       "location": "Canada - Remote (ON, AB, BC, or NS Only)",
       "remote_type": "remote",
       "url": "https://instacart.careers/job/?gh_jid=7963661",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-05",
-      "age": "5d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3e41a2e798697bed",
-      "company": "Roblox",
-      "title": "[2027] Software Engineer, Early Career",
-      "level": "new_grad",
-      "category": "more_global_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Mateo, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=d34c39ff49256b50",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-05",

@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 700 |
+| Jobs | 699 |
 | Hackathons | 203 |
 | Events | 3 |
-| Total | 906 |
+| Total | 905 |
 
 ## Jobs
 
-[![Jobs 700](https://img.shields.io/badge/Jobs-700-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 94](https://img.shields.io/badge/Internship-94-22c55e.svg)](#internship) [![Early Career 107](https://img.shields.io/badge/Early%20Career-107-0ea5e9.svg)](#early-career) [![Mid-Level and Above 499](https://img.shields.io/badge/Mid--Level%20and%20Above-499-dc2626.svg)](#mid-level-and-above)
+[![Jobs 699](https://img.shields.io/badge/Jobs-699-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 96](https://img.shields.io/badge/Internship-96-22c55e.svg)](#internship) [![Early Career 106](https://img.shields.io/badge/Early%20Career-106-0ea5e9.svg)](#early-career) [![Mid-Level and Above 497](https://img.shields.io/badge/Mid--Level%20and%20Above-497-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 94
+Total roles: 96
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -72,6 +72,8 @@ Total roles: 94
 | Microsoft | [Software Engineer Intern, Data Platform/Analytics](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922931&utm_source=github-vansh-ouckah) | Redmond, WA | 0d |
 | Microsoft | [Software Engineer Intern, Fullstack Product (Web + Services)](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922&utm_source=github-vansh-ouckah) | Multiple Locations, United States | 0d |
 | Microsoft | [Software Engineer Intern, Security & Identity](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930&utm_source=github-vansh-ouckah) | Redmond, WA | 0d |
+| Palantir | [Software Engineer, Internship - Produ...](https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116) | New York, NY | 0d |
+| Palantir | [Software Engineer, Internship - Produ...](https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -139,7 +141,7 @@ Total roles: 94
 
 ### Early Career
 
-Total roles: 107
+Total roles: 106
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -190,6 +192,7 @@ Total roles: 107
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79?utm_source=vansh) | Washington, DC | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3?utm_source=vansh) | Palo Alto, CA | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh) | New York, NY | 0d |
+| Palantir | [Software Engineer, New Grad](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92) | New York, NY | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908747686?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908696559?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | Revolut | [graduate programme 2027: software engineer (python)](https://www.linkedin.com/jobs/view/4418833557) | portugal | 0d |
@@ -212,7 +215,6 @@ Total roles: 107
 | ByteDance | [Machine Learning Engineer Graduate (AML-Engine-Orchestration) - 2027 Start](https://www.indeed.com/viewjob?jk=1a3bec1ecbd603ac) | Seattle, WA, US | 1d |
 | ByteDance | [Software Engineer Graduate (AML-Engine-Orchestration) - 2027 Start](https://www.indeed.com/viewjob?jk=c36aa3cb0db78978) | Seattle, WA, US | 1d |
 | ByteDance | [Software Engineer Graduate (AML-Engine-Orchestration) - 2027 Start (PhD)](https://www.indeed.com/viewjob?jk=a3b6f1d28b3a64cb) | Seattle, WA, US | 1d |
-| ByteDance | [Machine Learning Engineer Graduate (AML-Engine-Orchestration) - 2027 Start](https://www.indeed.com/viewjob?jk=c04073c4963d3da3) | San Jose, CA, US | 2d |
 | ByteDance | [Machine Learning Engineer Graduate (AML-Engine-Orchestration) - 2027 Start (PhD)](https://www.indeed.com/viewjob?jk=b4743c3b2995cb89) | San Jose, CA, US | 2d |
 | ByteDance | [Software Engineer Graduate (AML-Engine-Orchestration) - 2027 Start](https://www.indeed.com/viewjob?jk=8990cca0675ce699) | San Jose, CA, US | 2d |
 | ByteDance | [Software Engineer Graduate (AML-Engine-Orchestration) - 2027 Start (PhD)](https://www.indeed.com/viewjob?jk=ab4f32235933dd31) | San Jose, CA, US | 2d |
@@ -222,7 +224,6 @@ Total roles: 107
 | Google | [Software Developer, Early Career, Campus](https://ca.indeed.com/viewjob?jk=1a2dec0029d845d0) | Waterloo, ON, CA | 3d |
 | ByteDance | [Backend Inference Runtime Engineer New Grad - AML Inference](https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 4d |
 | Roblox | [Software Engineer - Early Career](https://careers.roblox.com/jobs/8072244?gh_jid=8072244&utm_source=Simplify&ref=Simplify) | San Mateo, CA | 4d |
-| Roblox | [[2027] Software Engineer, Early Career](https://www.indeed.com/viewjob?jk=d34c39ff49256b50) | San Mateo, CA, US | 5d |
 | ByteDance | [GPU Application Platform Engineer Graduate (Server Research and Development) - 2027 Start (PhD)](https://www.indeed.com/viewjob?jk=35ad56e25374deb9) | San Jose, CA, US | 6d |
 | Wise | [Senior Software Engineer I - Pricing Core](https://jobs.smartrecruiters.com/Wise/744000141876659) | London, United Kingdom | 6d |
 | ByteDance | [Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling](https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify) | Seattle, WA | 7d |
@@ -253,7 +254,7 @@ Total roles: 107
 
 ### Mid-Level and Above
 
-Total roles: 499
+Total roles: 497
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -342,8 +343,6 @@ Total roles: 499
 | NVIDIA | [Manager, CI/CD Infrastructure - Open Source Accelerated Computing](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Agentic-Software-Development-and-Test-Infrastructure_JR2017482) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Principal Software Engineer, DGX Cloud Production Engineering](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--DGX-Cloud-Production-Engineering_JR2022554) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
 | NVIDIA | [Senior Deep Learning Software Engineer, Inference](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Deep-Learning-Software-Engineer--Inference_JR2003655) | <details><summary>5 locations</summary>US, CA<br>Remote, US<br>TX<br>Remote, US<br>NY<br>Remote, US<br>WA<br>Remote, US<br>MA<br>Remote</details> | 1d |
-| NVIDIA | [Senior Linux Kernel Systems Software Engineer – CSP Engagements](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>WA<br>Redmond, US<br>WA<br>Seattle</details> | 1d |
-| NVIDIA | [Senior Platform Software Engineer – Factory](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Software-Engineer---Factory_JR2012307) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
 | NVIDIA | [Senior Site Reliability Engineer, GeForce NOW](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer--GeForce-NOW_JR2018411) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>CA<br>Remote</details> | 1d |
 | NVIDIA | [Senior Software Engineer - NVIDIA Warp](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---NVIDIA-Warp_JR2022492) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Software Engineer, DPU - Networking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Senior-Software-Engineer--DPU---Networking_JR2017846) | US, MA, Westford | 1d |
