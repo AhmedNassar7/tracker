@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-12T15:13:44Z",
-  "total": 243,
+  "generated_at": "2026-08-12T16:10:50Z",
+  "total": 245,
   "by_level": {
-    "new_grad": 91,
+    "new_grad": 93,
     "entry_level": 13,
-    "internship": 78,
+    "internship": 77,
     "junior": 5,
-    "mid_level": 56
+    "mid_level": 57
   },
   "by_country": {
-    "United States": 153,
+    "United States": 154,
     "Unknown": 58,
     "Germany": 1,
     "Remote": 1,
-    "Canada": 21,
+    "Canada": 22,
     "Poland": 1,
     "Portugal": 1,
     "United Kingdom": 7
@@ -24,14 +24,14 @@
     "lorenzolacorte_eu": 3,
     "simplify_newgrad": 17,
     "simplify_internships": 17,
-    "zapplyjobs_datascience": 9,
-    "zapplyjobs_newgrad": 3,
+    "zapplyjobs_datascience": 8,
+    "zapplyjobs_newgrad": 6,
     "zapplyjobs_all_newgrad": 1,
-    "zapplyjobs_internships": 7,
+    "zapplyjobs_internships": 6,
     "hanzili_canada": 2,
     "zapplyjobs_canada_internships": 2,
     "ambicuity": 36,
-    "zapplyjobs_canada": 6,
+    "zapplyjobs_canada": 7,
     "speedyapply_ai": 7,
     "speedyapply_swe": 17,
     "amazon": 20
