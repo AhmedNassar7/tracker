@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T18:07:00Z",
-  "total": 211,
+  "generated_at": "2026-08-12T19:19:18Z",
+  "total": 216,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -111,6 +111,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "2ac0fcd40a75de58",
+      "company": "Box",
+      "title": "Enterprise Security Engineer II",
+      "level": "mid_level",
+      "category": "product_saas",
+      "region": "remote",
+      "role_type": "security",
+      "country": "Remote",
+      "location": "Remote",
+      "remote_type": "remote",
+      "url": "https://job-boards.greenhouse.io/boxinc/jobs/8119806",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-12",
+      "age": "0d",
+      "collected_at": "2026-08-12T19:19:18Z",
       "tags": [
         "software",
         "programming",
@@ -1061,29 +1084,6 @@
       ]
     },
     {
-      "id": "fd3e3a899cc79508",
-      "company": "JPMorgan Chase",
-      "title": "Site Reliability Engineer II",
-      "level": "mid_level",
-      "category": "consulting_finance",
-      "region": "us",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "Chicago, IL, United St...",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210747513",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-12",
-      "age": "0d",
-      "collected_at": "2026-08-12T15:13:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "238f1ec0223031ae",
       "company": "LGS, an IBM Company",
       "title": "Junior to Intermediate Data Engineer",
@@ -1514,6 +1514,75 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b3126ca0917b76be",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-12",
+      "age": "0d",
+      "collected_at": "2026-08-12T19:19:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-12",
+      "age": "0d",
+      "collected_at": "2026-08-12T19:19:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "bb0cb6b18c873219",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-12",
+      "age": "0d",
+      "collected_at": "2026-08-12T19:19:18Z",
       "tags": [
         "software",
         "programming",
@@ -2188,29 +2257,6 @@
       ]
     },
     {
-      "id": "890929dcc79a8964",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T21:01:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "dbc54393c0f12516",
       "company": "ByteDance",
       "title": "Software Engineer Intern - AML-Engine-Orchestration",
@@ -2303,29 +2349,6 @@
       ]
     },
     {
-      "id": "affe941dfff55262",
-      "company": "Figma",
-      "title": "Software Engineer Intern (Winter 2027)",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Francisco, CA • Ne...",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T17:11:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "ae4746f77f7523da",
       "company": "Figma",
       "title": "Software Engineer Intern - Winter 2027",
@@ -2365,6 +2388,52 @@
       "posted_at": "2026-08-11",
       "age": "0d",
       "collected_at": "2026-08-11T23:58:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "890929dcc79a8964",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T21:01:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "affe941dfff55262",
+      "company": "Figma",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, CA • Ne...",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T17:11:10Z",
       "tags": [
         "software",
         "programming",
@@ -4442,6 +4511,29 @@
       ]
     },
     {
+      "id": "11a9889cef0cc1ec",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Software Defined Networking",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Austin, Texas, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10450346/software-development-engineer-ii-software-defined-networking",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-16",
+      "age": "57d",
+      "collected_at": "2026-08-12T19:19:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "0d5c958987b17583",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer, New Grad - Intel, US Government",
@@ -4481,6 +4573,29 @@
       "posted_at": "2026-08-10",
       "age": "2mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "736f8b93488bd073",
+      "company": "Zipline",
+      "title": "Embedded Software Engineer Intern (Fa...",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "South San Francisco, C...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7765240003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-12",
+      "age": "2mo",
+      "collected_at": "2026-08-12T19:19:18Z",
       "tags": [
         "software",
         "programming",
