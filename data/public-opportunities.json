@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T13:46:12Z",
-  "total": 912,
+  "generated_at": "2026-08-13T15:14:35Z",
+  "total": 910,
   "jobs": [
     {
       "id": "a2e61fdf0fee1082",
@@ -31,6 +31,21 @@
       "url": "https://jobs.ashbyhq.com/clickhouse/24aecf2b-0948-4fd0-94d2-1cb9875a59cd",
       "source": "ashby:clickhouse",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/clickhouse"
+    },
+    {
+      "id": "0cde187423391915",
+      "kind": "job",
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Durable Objects (DO)",
+      "location": "In-Office",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-13",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243",
+      "source": "greenhouse:cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
       "id": "df6b4b5346903797",
@@ -138,6 +153,21 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "67a32871f5b5bdb5",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Engineer, Neural Graphics Developer Tools",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, OR, Hillsboro<br>US, NC, Durham<br>US, WA, Seattle</details>",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Neural-Graphics-Developer-Tools_JR2015681",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "decd18e625de434e",
       "kind": "job",
       "company": "NVIDIA",
@@ -166,6 +196,21 @@
       "url": "https://jobs.ashbyhq.com/openai/fe753283-d232-4470-8e20-fbeb217ea9e2",
       "source": "ashby:openai",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
+    },
+    {
+      "id": "ad915cb0710f6e76",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Android Engineer - Spend",
+      "location": "Singapore, Singapore",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "2026-08-13",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000143324000",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
       "id": "0da38c97d60b243b",
@@ -2144,21 +2189,6 @@
       "date": "7d",
       "posted_at": "2026-08-06",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/7896462?gh_jid=7896462",
-      "source": "greenhouse:cloudflare",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
-    {
-      "id": "0cde187423391915",
-      "kind": "job",
-      "company": "Cloudflare",
-      "title": "Senior Software Engineer, Durable Objects (DO)",
-      "location": "In-Office",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "7d",
-      "posted_at": "2026-08-06",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
@@ -10850,6 +10880,18 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
+      "id": "b17ff20a70e6e56f",
+      "kind": "hackathon",
+      "company": "CMR Institute Of Technology",
+      "title": "Signal Quest – IEEE SPS Hackathon 2026",
+      "location": "Offline",
+      "date": "37 days left",
+      "posted_at": "2026-08-13",
+      "url": "https://unstop.com/hackathons/signal-quest-ieee-sps-hackathon-2026-cmr-institute-of-technology-1736521",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
       "id": "283afe21ed9694d9",
       "kind": "hackathon",
       "company": "CoArena",
@@ -11359,7 +11401,7 @@
       "company": "Devfolio",
       "title": "Interledger Student Hackathon - Tec de Software",
       "location": "Mérida, Mexico",
-      "date": "30 days left",
+      "date": "29 days left",
       "posted_at": "2026-08-13",
       "url": "https://interledger-student-hackathon-merida.devfolio.co",
       "source": "devfolio",
@@ -11443,7 +11485,7 @@
       "company": "Devfolio",
       "title": "PEC HACKS 4.0",
       "location": "India",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-08-13",
       "url": "https://pec-hacks.devfolio.co",
       "source": "devfolio",
@@ -11503,7 +11545,7 @@
       "company": "Devfolio",
       "title": "TUM Blockchain & AI Hackathon",
       "location": "München, Germany",
-      "date": "79 days left",
+      "date": "78 days left",
       "posted_at": "2026-08-13",
       "url": "https://tum.devfolio.co",
       "source": "devfolio",
@@ -11580,18 +11622,6 @@
       "url": "https://hack-away-hunger.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "efe2bc8c3fdf5007",
-      "kind": "hackathon",
-      "company": "EduLinkUp",
-      "title": "ELUCode",
-      "location": "Online",
-      "date": "2 days left",
-      "posted_at": "2026-08-13",
-      "url": "https://unstop.com/hackathons/elucode-edulinkup-1712263",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "84fd0eca7466b4a1",
@@ -11731,7 +11761,7 @@
       "company": "Google Developer Groups on Campus",
       "title": "GDGoC Summer DevSprint",
       "location": "Online",
-      "date": "about 19 hours left",
+      "date": "about 17 hours left",
       "posted_at": "2026-08-13",
       "url": "https://gdgoc-summer-devsprint.devpost.com/",
       "source": "devpost",
@@ -12139,7 +12169,7 @@
       "company": "Makers Need More (MnM)",
       "title": "Morrow 1.0",
       "location": "Online",
-      "date": "35 days left",
+      "date": "34 days left",
       "posted_at": "2026-08-13",
       "url": "https://unstop.com/hackathons/morrow-10-makers-need-more-mnm-1727667",
       "source": "unstop",
@@ -12535,7 +12565,7 @@
       "company": "Quantumhacks",
       "title": "QuantumHacks",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-08-13",
       "url": "https://quantumhacks.devpost.com/",
       "source": "devpost",
@@ -12955,7 +12985,7 @@
       "company": "VITM",
       "title": "INNOVIK 6.0 – International Hackathon 2026 | Indore Edition",
       "location": "VITM Indore",
-      "date": "2 days left",
+      "date": "1 day left",
       "posted_at": "2026-08-13",
       "url": "https://innovik6-indore.devpost.com/",
       "source": "devpost",
@@ -12975,30 +13005,6 @@
     }
   ],
   "events": [
-    {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-13",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-13",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
     {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
@@ -13024,18 +13030,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-13",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -13044,18 +13038,6 @@
       "date": "",
       "posted_at": "2026-08-13",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-13",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
