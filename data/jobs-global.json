@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T06:44:17Z",
-  "total": 216,
+  "generated_at": "2026-08-13T08:42:39Z",
+  "total": 220,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -946,6 +946,29 @@
       ]
     },
     {
+      "id": "36a558da58240319",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-13",
+      "age": "0d",
+      "collected_at": "2026-08-13T08:42:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cc7a168906373af1",
       "company": "Hudson River Trading",
       "title": "Software Engineer Intern",
@@ -1475,6 +1498,75 @@
       ]
     },
     {
+      "id": "c11a7704129b8b60",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-13",
+      "age": "0d",
+      "collected_at": "2026-08-13T08:42:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "2e3662f9560e0d0e",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-13",
+      "age": "0d",
+      "collected_at": "2026-08-13T08:42:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b394979186da07cb",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-13",
+      "age": "0d",
+      "collected_at": "2026-08-13T08:42:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2ee142b47bfc9198",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -1649,6 +1741,29 @@
       "url": "https://www.linkedin.com/jobs/view/4418833557",
       "source": "lorenzolacorte_eu",
       "source_url": "https://github.com/LorenzoLaCorte/european-tech-internships-2026",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "08629f37a73cf4dc",
+      "company": "Roblox",
+      "title": "[2027] Software Engineer, Early Career",
+      "level": "new_grad",
+      "category": "more_global_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Mateo, CA, United States",
+      "remote_type": "onsite",
+      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
@@ -2257,29 +2372,6 @@
       ]
     },
     {
-      "id": "08629f37a73cf4dc",
-      "company": "Roblox",
-      "title": "[2027] Software Engineer, Early Career",
-      "level": "new_grad",
-      "category": "more_global_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Mateo, CA, United States",
-      "remote_type": "onsite",
-      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "191354f2c3448700",
       "company": "Amazon Development Centre Canada ULC",
       "title": "Software Development Engineer II, Cam...",
@@ -2457,29 +2549,6 @@
       "posted_at": "2026-08-11",
       "age": "0d",
       "collected_at": "2026-08-11T23:58:50Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "aac28f7b08dfc9f2",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Graduate (AML-Engine-Orchestration) - 2027 Start",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Seattle, WA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=1a3bec1ecbd603ac",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-11",
-      "age": "1d",
-      "collected_at": "2026-08-12T22:01:37Z",
       "tags": [
         "software",
         "programming",
@@ -2993,22 +3062,22 @@
       ]
     },
     {
-      "id": "69b3b3f36c7959d0",
-      "company": "ByteDance",
-      "title": "GPU Application Platform Engineer Graduate (Server Research and Development) - 2027 Start (PhD)",
-      "level": "new_grad",
+      "id": "e52f5396811272da",
+      "company": "Freightgain online technologies private limited",
+      "title": "Junior Python Developer",
+      "level": "junior",
       "category": "apac_tech",
       "region": "unknown",
-      "role_type": "platform",
-      "country": "United States",
-      "location": "San Jose, CA, US",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "MH, IN",
       "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=35ad56e25374deb9",
+      "url": "https://in.indeed.com/viewjob?jk=a442e1acd2239145",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-06",
-      "age": "6d",
-      "collected_at": "2026-08-12T22:01:37Z",
+      "age": "7d",
+      "collected_at": "2026-08-13T08:42:39Z",
       "tags": [
         "software",
         "programming",
@@ -4573,6 +4642,29 @@
       "posted_at": "2026-08-13",
       "age": "2mo",
       "collected_at": "2026-08-13T05:02:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3f75e139ddcfc77b",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-12",
+      "age": "62d",
+      "collected_at": "2026-08-13T08:42:39Z",
       "tags": [
         "software",
         "programming",
