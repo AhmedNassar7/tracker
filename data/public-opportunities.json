@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T15:14:35Z",
-  "total": 910,
+  "generated_at": "2026-08-13T16:11:49Z",
+  "total": 915,
   "jobs": [
     {
       "id": "a2e61fdf0fee1082",
@@ -254,6 +254,21 @@
       "date": "0d",
       "posted_at": "2026-08-13",
       "url": "https://jobs.smartrecruiters.com/Wise/744000143283159",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
+    },
+    {
+      "id": "671eaa772c11e769",
+      "kind": "job",
+      "company": "Wise",
+      "title": "Senior Software Engineer I - Europe and UK Onboarding",
+      "location": "London, England, United Kingdom",
+      "level": "entry_level",
+      "region": "emea",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-13",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000143348888",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -10700,18 +10715,6 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "a83458d106532a8c",
-      "kind": "hackathon",
-      "company": "Binnovative",
-      "title": "AnimalHack 2026",
-      "location": "Online",
-      "date": "about 1 month left",
-      "posted_at": "2026-08-13",
-      "url": "https://animalhack2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "a9166073ec62a5b9",
       "kind": "hackathon",
       "company": "BioCataalysis",
@@ -11449,7 +11452,7 @@
       "company": "Devfolio",
       "title": "MUBA Blockchain Hackathon",
       "location": "Online",
-      "date": "23 days left",
+      "date": "22 days left",
       "posted_at": "2026-08-13",
       "url": "https://muba-hackathon.devfolio.co",
       "source": "devfolio",
@@ -11797,7 +11800,7 @@
       "company": "Hack Club",
       "title": "Prism Build Challenge",
       "location": "Online",
-      "date": "about 7 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-08-13",
       "url": "https://prismbuild.devpost.com/",
       "source": "devpost",
@@ -12296,12 +12299,24 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
+      "id": "3d0cb21ab41cf7f7",
+      "kind": "hackathon",
+      "company": "n/a",
+      "title": "Social Media Automation Hackathon",
+      "location": "Online",
+      "date": "3 days left",
+      "posted_at": "2026-08-13",
+      "url": "https://social-media-automation-hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "0afcafc9025cd02b",
       "kind": "hackathon",
       "company": "nanyang technological university",
       "title": "NTU InnovateX Hackathon 2026",
       "location": "Nanyang Technological University",
-      "date": "1 day left",
+      "date": "about 24 hours left",
       "posted_at": "2026-08-13",
       "url": "https://ntu-cctf-snz-innovatex-2026.devpost.com/",
       "source": "devpost",
@@ -12637,7 +12652,7 @@
       "company": "shekunj",
       "title": "INNOVIK 6.0 : International Hackathon 2026",
       "location": "VITM, Indore",
-      "date": "3 days left",
+      "date": "2 days left",
       "posted_at": "2026-08-13",
       "url": "https://innovik-6-0-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -13006,6 +13021,30 @@
   ],
   "events": [
     {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-13",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-13",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -13030,6 +13069,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-13",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -13038,6 +13089,18 @@
       "date": "",
       "posted_at": "2026-08-13",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-13",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
