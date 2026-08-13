@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply ‚Ä
 
 | Section | Count |
 |---|---:|
-| Jobs | 703 |
-| Hackathons | 203 |
+| Jobs | 702 |
+| Hackathons | 202 |
 | Events | 3 |
-| Total | 909 |
+| Total | 907 |
 
 ## Jobs
 
-[![Jobs 703](https://img.shields.io/badge/Jobs-703-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 96](https://img.shields.io/badge/Internship-96-22c55e.svg)](#internship) [![Early Career 101](https://img.shields.io/badge/Early%20Career-101-0ea5e9.svg)](#early-career) [![Mid-Level and Above 506](https://img.shields.io/badge/Mid--Level%20and%20Above-506-dc2626.svg)](#mid-level-and-above)
+[![Jobs 702](https://img.shields.io/badge/Jobs-702-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 94](https://img.shields.io/badge/Internship-94-22c55e.svg)](#internship) [![Early Career 101](https://img.shields.io/badge/Early%20Career-101-0ea5e9.svg)](#early-career) [![Mid-Level and Above 507](https://img.shields.io/badge/Mid--Level%20and%20Above-507-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 96
+Total roles: 94
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -72,8 +72,6 @@ Total roles: 96
 | Microsoft | [Software Engineer Intern, Data Platform/Analytics](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922931&utm_source=github-vansh-ouckah) | Redmond, WA | 0d |
 | Microsoft | [Software Engineer Intern, Fullstack Product (Web + Services)](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922&utm_source=github-vansh-ouckah) | Multiple Locations, United States | 0d |
 | Microsoft | [Software Engineer Intern, Security & Identity](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930&utm_source=github-vansh-ouckah) | Redmond, WA | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) | Denver, CO | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -173,12 +171,12 @@ Total roles: 101
 | Duolingo | [New Grad: Data Scientist](https://careers.duolingo.com/jobs/8162849002?utm_source=vansh) | Pittsburgh, PA | 0d |
 | Duolingo | [New Grad: Software Engineer](https://careers.duolingo.com/jobs/8155283002?utm_source=vansh) | Pittsburgh, PA | 0d |
 | Elastic Path | [Junior DevOps Engineer](https://ca.linkedin.com/jobs/view/junior-devops-engineer-at-elastic-path-4421227352) | Remote | 0d |
-| Garmin | [Software Engineer I - Embedded Software](https://careers.garmin.com/jobs/16827?utm_source=vansh) | Olathe, KS | 0d |
 | Google | [New Grad 2026: Software Engineer](https://www.google.com/about/careers/applications/jobs/results/79125737784648390?utm_source=vansh) | Mountain View, CA | 0d |
 | Google | [Software Developer, Early Career, Campus](https://www.google.com/about/careers/applications/jobs/results/120686451305128646) | Canada | 0d |
 | Google | [Software Engineer II, Early Career](https://www.google.com/about/careers/applications/jobs/results/143333237156913862-software-engineer-ii/?utm_source=vansh) | <details><summary>12 locations</summary>Mountain View<br>CA Kirkland<br>WA Los Angeles<br>CA Madison<br>WI New York<br>NY Palo Alto<br>CA Pittsburgh<br>PA Raleigh<br>NC Durham<br>NC San Bruno<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
 | Google | [Software Engineer II, Early Career, Google Cloud AI Catalyst Program](https://www.google.com/about/careers/applications/jobs/results/90452041138086598-software-engineer-ii-early-career-google-cloud-ai-catalyst-program?utm_source=vansh) | Sunnyvale, CA Kirkland, WA Seattle, WA | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
+| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montr√©al, QC H3B 3M4 (Onsite) | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
 | Notion | [Software Engineer, Fullstack, Early Career](https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b?utm_source=vansh) | San Francisco, CA New York, NY | 0d |
@@ -249,7 +247,7 @@ Total roles: 101
 
 ### Mid-Level and Above
 
-Total roles: 506
+Total roles: 507
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -263,6 +261,7 @@ Total roles: 506
 | NVIDIA | [Senior C++ Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-C---Software-Engineer_JR2022693) | Israel, Tel Aviv | 0d |
 | NVIDIA | [Senior HPC Platform Architect](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-HPC-Platform-Architect_JR2022882) | India, Bengaluru | 0d |
 | NVIDIA | [Senior Software Engineer - Image and Data Processing Libraries](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Remote/Senior-Software-Engineer---Image-and-Data-Processing-Libraries_JR2022702) | <details><summary>3 locations</summary>Poland<br>Remote<br>Switzerland<br>Remote<br>Germany<br>Munich</details> | 0d |
+| NVIDIA | [Senior Software Engineer - NIC and Switch Simulation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer---NIC-and-Switch-Simulation_JR2018714) | <details><summary>2 locations</summary>Israel<br>Yokneam<br>Israel<br>Tel Aviv</details> | 0d |
 | NVIDIA | [Senior Software Engineer, AIOps](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Software-Engineer--AIOps_JR2023309-1) | <details><summary>2 locations</summary>Israel<br>Raanana<br>Israel<br>Tel Aviv</details> | 0d |
 | NVIDIA | [Senior System Software Engineer - Local AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---Local-AI_JR2021893) | India, Pune | 0d |
 | NVIDIA | [Software Engineering Manager, Networking Tools Team](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineering-Manager--Networking-Tools-Team_JR2022733) | <details><summary>2 locations</summary>Israel<br>Yokneam<br>Israel<br>Tel Aviv</details> | 0d |
@@ -271,7 +270,8 @@ Total roles: 506
 | Openai | [Strategic Sourcing Manager, Data Center Infrastructure: Electrical](https://jobs.ashbyhq.com/openai/fe753283-d232-4470-8e20-fbeb217ea9e2) | San Francisco | 0d |
 | Wise | [Backend Engineer - Feature Platform](https://jobs.smartrecruiters.com/Wise/744000143268808) | Budapest, Hungary | 0d |
 | Wise | [Backend Engineer - NorthAm](https://jobs.smartrecruiters.com/Wise/744000143266427) | Budapest, Hungary | 0d |
-| Wise | [Senior Backend Engineer](https://jobs.smartrecruiters.com/Wise/744000143276279) | Budapest, Hungary | 0d |
+| Wise | [Senior Backend Engineer](https://jobs.smartrecruiters.com/Wise/744000143283159) | Budapest, Hungary | 0d |
+| Wise | [Senior Software Engineer II - Wealth & Investments](https://jobs.smartrecruiters.com/Wise/744000143281529) | London, United Kingdom | 0d |
 | Wise | [Software Engineer - Screening Controls](https://jobs.smartrecruiters.com/Wise/744000143239689) | Tallinn, Estonia | 0d |
 | Box | [Senior Software Backend Engineer](https://job-boards.greenhouse.io/boxinc/jobs/5644237) | Warsaw, Poland | 1d |
 | Box | [Senior Software Engineer, NaaS](https://job-boards.greenhouse.io/boxinc/jobs/7962280) | Redwood City, CA, United States | 1d |
@@ -335,7 +335,6 @@ Total roles: 506
 | Wise | [Senior Software Engineer - Cards API team](https://jobs.smartrecruiters.com/Wise/744000143076429) | Singapore, Singapore | 1d |
 | Wise | [Senior Software Engineer - Contact Automation - AI](https://jobs.smartrecruiters.com/Wise/744000143045834) | Budapest, Hungary | 1d |
 | Wise | [Senior Software Engineer II- Regional Expansion LatAM](https://jobs.smartrecruiters.com/Wise/744000143077656) | London, United Kingdom | 1d |
-| Amazon.com | [Software Development Engineer II, Amazon WorkSpaces Applications](https://www.indeed.com/viewjob?jk=de4e6e47d7e0792a) | Seattle, WA, US | 2d |
 | Amazon.com | [Software Development Engineer II, Fintech TAX - RoW Compliance](https://in.indeed.com/viewjob?jk=622dd44d29a5284b) | TS, IN | 2d |
 | Box | [Front End Developer](https://job-boards.greenhouse.io/boxinc/jobs/8064629) | Warsaw, Poland | 2d |
 | Cohere | [Engineering Manager, FDE Agentic Platform](https://jobs.ashbyhq.com/cohere/e906188a-e089-4b86-85b9-aad0d4413c68) | Toronto | 2d |
@@ -459,8 +458,8 @@ Total roles: 506
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 13d |
 | Pinterest | [Security Software Engineer II, Detection and Response](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) | San Francisco, CA, US; Remote, US | 13d |
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 13d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 13d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 13d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 13d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, iOS](https://www.pinterestcareers.com/jobs/?gh_jid=5601228) | San Francisco, CA, US; Remote, US | 13d |
 | Sony Interactive Entertainment | [Director, IT Core Infrastructure](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6102723004) | United Kingdom, London | 13d |
@@ -762,7 +761,7 @@ Total roles: 506
 
 ## Hackathons
 
-Total hackathons: 203
+Total hackathons: 202
 
 | Organizer | Hackathon |
 |---|---|
@@ -833,7 +832,6 @@ Total hackathons: 203
 | Devfolio | [Interledger Student Hackathon - CUC](https://interledger-student-hackathon-cuc.devfolio.co) |
 | Devfolio | [Interledger Student Hackathon - ICESI](https://interledger-student-hackathon-icesi.devfolio.co) |
 | Devfolio | [Interledger Student Hackathon - Tec de Software](https://interledger-student-hackathon-merida.devfolio.co) |
-| Devfolio | [Interledger Student Hackathon - UPIICSA IPN](https://interledger-student-hackathon-upiicsa.devfolio.co) |
 | Devfolio | [Meowathon 2025](https://meow.devfolio.co) |
 | Devfolio | [Meowathon 2026](https://meowthon.devfolio.co) |
 | Devfolio | [Metamorph 2.0](https://metamorph-2.devfolio.co) |
