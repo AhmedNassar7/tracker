@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T19:19:00Z",
+  "generated_at": "2026-08-13T21:01:56Z",
   "total": 215,
   "jobs": [
     {
@@ -2349,29 +2349,6 @@
       ]
     },
     {
-      "id": "890929dcc79a8964",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T21:01:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "dbc54393c0f12516",
       "company": "ByteDance",
       "title": "Software Engineer Intern - AML-Engine-Orchestration",
@@ -2526,6 +2503,29 @@
       "posted_at": "2026-08-11",
       "age": "0d",
       "collected_at": "2026-08-11T23:58:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "890929dcc79a8964",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T21:01:02Z",
       "tags": [
         "software",
         "programming",
@@ -3591,17 +3591,17 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "category": "more_global_tech",
-      "region": "us",
+      "region": "canada",
       "role_type": "backend",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3614,17 +3614,17 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "category": "more_global_tech",
-      "region": "canada",
+      "region": "us",
       "role_type": "backend",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
