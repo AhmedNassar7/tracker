@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T16:05:38Z",
-  "total": 895,
+  "generated_at": "2026-08-14T17:10:30Z",
+  "total": 887,
   "jobs": [
     {
       "id": "c6223dd035dea2a7",
@@ -46,6 +46,21 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8125865?gh_jid=8125865",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "bd9e4838c5419d91",
+      "kind": "job",
+      "company": "Figma",
+      "title": "Manager, Design - Systems & Infrastructure",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "level": "other",
+      "region": "us",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-08-14",
+      "url": "https://boards.greenhouse.io/figma/jobs/6135656004?gh_jid=6135656004",
+      "source": "greenhouse:figma",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true"
     },
     {
       "id": "84d03083078f2fec",
@@ -1188,66 +1203,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs?content=true"
     },
     {
-      "id": "18e312651f3a3a97",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Lead System Software Engineer Platform - Server Embedded Firmware",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer-Platform---Server-Embedded-Firmware_JR2014509",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "fae697a84439c5dd",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer - Image and Data Processing Libraries",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, CA, Remote</details>",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Image-and-Data-Processing-Libraries_JR2022710",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "f893363966b390ca",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, NCCL",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "1bc3f00a63ebf573",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer - GPU Performance",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "75b9c51edfb26896",
       "kind": "job",
       "company": "Openai",
@@ -1949,21 +1904,6 @@
       "date": "4d",
       "posted_at": "2026-08-10",
       "url": "https://jobs.smartrecruiters.com/Wise/744000142620849",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
-    },
-    {
-      "id": "ae8182c55204ba22",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Senior Software Engineer II - Engineering Experience",
-      "location": "London, United Kingdom",
-      "level": "mid_level",
-      "region": "emea",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "2026-08-10",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000142562609",
       "source": "smartrecruiters:Wise",
       "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
@@ -10489,7 +10429,7 @@
       "company": "Canadian Undergraduate Tech Conference",
       "title": "CUTC: Transform Hackathon",
       "location": "Online",
-      "date": "about 24 hours left",
+      "date": "about 23 hours left",
       "posted_at": "2026-08-14",
       "url": "https://cutc-transform.devpost.com/",
       "source": "devpost",
@@ -11485,7 +11425,7 @@
       "company": "Hack Club",
       "title": "Prism Build Challenge",
       "location": "Online",
-      "date": "about 5 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-08-14",
       "url": "https://prismbuild.devpost.com/",
       "source": "devpost",
@@ -11545,7 +11485,7 @@
       "company": "Hackers Unity",
       "title": "CodeWars",
       "location": "Offline",
-      "date": "6 days left",
+      "date": "5 days left",
       "posted_at": "2026-08-14",
       "url": "https://unstop.com/hackathons/codewars-hackers-unity-1733690",
       "source": "unstop",
@@ -11941,7 +11881,7 @@
       "company": "ML Empowerment Foundation",
       "title": "ML Empowerment Build Challenge 2.0",
       "location": "Online",
-      "date": "about 15 hours left",
+      "date": "about 14 hours left",
       "posted_at": "2026-08-14",
       "url": "https://ml-empowerment-2.devpost.com/",
       "source": "devpost",
@@ -12608,18 +12548,6 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "28217a2ea49dfb7d",
-      "kind": "hackathon",
-      "company": "University of Engineering and Management Kolkata",
-      "title": "Hack Synthesis 3.0 - 2026",
-      "location": "Offline",
-      "date": "36 days left",
-      "posted_at": "2026-08-14",
-      "url": "https://unstop.com/hackathons/hack-synthesis-30-2026-university-of-engineering-and-management-kolkata-1710631",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
       "id": "8b234de9eef9fae7",
       "kind": "hackathon",
       "company": "University Visvesvaraya College Of Engineering (UVCE), Bangalore",
@@ -12680,6 +12608,18 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
+      "id": "ab7f735b8c4721c6",
+      "kind": "hackathon",
+      "company": "Vikrant Institute of Technology and Management, Indore",
+      "title": "Innovik 6.0 – International Hackathon 2026",
+      "location": "Offline",
+      "date": "32 days left",
+      "posted_at": "2026-08-14",
+      "url": "https://unstop.com/hackathons/innovik-60-international-hackathon-2026-vikrant-institute-of-technology-and-management-indore-1731748",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
       "id": "67f1a6eb04011599",
       "kind": "hackathon",
       "company": "VITM",
@@ -12718,30 +12658,6 @@
   ],
   "events": [
     {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-14",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "9163688688d4df34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-14",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -12766,18 +12682,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-14",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -12786,18 +12690,6 @@
       "date": "",
       "posted_at": "2026-08-14",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-14",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
