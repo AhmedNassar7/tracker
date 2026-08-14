@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T16:05:17Z",
-  "total": 212,
+  "generated_at": "2026-08-14T17:10:09Z",
+  "total": 210,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -962,29 +962,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "36a558da58240319",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-14",
-      "age": "0d",
-      "collected_at": "2026-08-14T13:41:00Z",
       "tags": [
         "software",
         "programming",
@@ -2257,29 +2234,6 @@
       ]
     },
     {
-      "id": "a0c3c593b475af93",
-      "company": "ByteDance",
-      "title": "Multi-Cloud CDN Data Platform Engineer Graduate (CDN Platform) - 2027 Start",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "platform",
-      "country": "United States",
-      "location": "Seattle, WA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=e870a7ca825e6f91",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-12",
-      "age": "1d",
-      "collected_at": "2026-08-13T02:45:50Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7e582e5c0150d8b0",
       "company": "Okta",
       "title": "Site Reliability Engineer II",
@@ -2602,29 +2556,6 @@
       ]
     },
     {
-      "id": "b3aa804a2744134a",
-      "company": "Epic Games",
-      "title": "Machine Learning Intern",
-      "level": "internship",
-      "category": "more_global_tech",
-      "region": "canada",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Montreal,Quebec,Canada",
-      "remote_type": "onsite",
-      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-11",
-      "age": "4d",
-      "collected_at": "2026-08-11T17:11:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "37234a7f51864d35",
       "company": "Epic Games",
       "title": "Machine Learning Intern - Special Projects - Epic Research Group 🎓",
@@ -2740,6 +2671,29 @@
       ]
     },
     {
+      "id": "b3aa804a2744134a",
+      "company": "Epic Games",
+      "title": "Machine Learning Intern",
+      "level": "internship",
+      "category": "more_global_tech",
+      "region": "canada",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Montreal,Quebec,Canada",
+      "remote_type": "onsite",
+      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-11",
+      "age": "4d",
+      "collected_at": "2026-08-11T17:11:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "8c7a759de29d75c5",
       "company": "Okta",
       "title": "Software Engineer II, Developer Tooli...",
@@ -2825,29 +2779,6 @@
       "posted_at": "2026-08-14",
       "age": "1w",
       "collected_at": "2026-08-14T11:56:01Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "4d89a5d111e3cbaf",
-      "company": "Google",
-      "title": "Software Developer, Early Career, Campus",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Montréal, QC, CA",
-      "remote_type": "onsite",
-      "url": "https://ca.indeed.com/viewjob?jk=ee34826facf330aa",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-07",
-      "age": "7d",
-      "collected_at": "2026-08-14T16:05:17Z",
       "tags": [
         "software",
         "programming",
@@ -3200,29 +3131,6 @@
       ]
     },
     {
-      "id": "a9eeaa7ffb9ab263",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, CloudFront",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Seattle, Washington, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10490542/software-development-engineer-ii-cloudfront",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-03",
-      "age": "7d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "373ebba468ac25c1",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Infrastructure",
@@ -3239,6 +3147,29 @@
       "posted_at": "2026-08-10",
       "age": "9d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b79f5f772d067aaf",
+      "company": "Amazon",
+      "title": "Software Development Engineer II (ADBL178)",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Newark, New Jersey, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-31",
+      "age": "14d",
+      "collected_at": "2026-08-14T17:10:09Z",
       "tags": [
         "software",
         "programming",
@@ -3308,29 +3239,6 @@
       "posted_at": "2026-07-31",
       "age": "11d",
       "collected_at": "2026-08-11T17:11:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "526cc621dd52664b",
-      "company": "Amazon",
-      "title": "Software Development Engineer II (ADBL190)",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Newark, New Jersey, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10489788/software-development-engineer-ii-adbl190",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-31",
-      "age": "10d",
-      "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
         "programming",
@@ -3418,29 +3326,6 @@
       "location": "North Reading, Massachusetts, USA",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10486441/software-development-engineer-ii",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-28",
-      "age": "13d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b65c7ed397861745",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Personalization",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Seattle, Washington, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10486664/software-development-engineer-ii-personalization",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-07-28",
@@ -3722,6 +3607,29 @@
       "posted_at": "2026-08-10",
       "age": "18d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fd95b7ef37fe6f7c",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AmazonMQ",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "other_swe",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia, CAN",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-17",
+      "age": "28d",
+      "collected_at": "2026-08-14T17:10:09Z",
       "tags": [
         "software",
         "programming",
@@ -4465,6 +4373,29 @@
       ]
     },
     {
+      "id": "15f0a62446ff8bfb",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Aurora",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Bengaluru, Karnataka, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10451656/software-development-engineer-ii-aurora",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-17",
+      "age": "58d",
+      "collected_at": "2026-08-14T17:10:09Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cfab04505d542392",
       "company": "Amazon",
       "title": "Software Development Engineer II, Software Defined Networking",
@@ -4511,22 +4442,22 @@
       ]
     },
     {
-      "id": "0d5c958987b17583",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, New Grad - Intel, US Government",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
+      "id": "3f75e139ddcfc77b",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-06-15",
-      "age": "56d",
-      "collected_at": "2026-08-10T09:39:03Z",
+      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-12",
+      "age": "63d",
+      "collected_at": "2026-08-14T17:10:09Z",
       "tags": [
         "software",
         "programming",
@@ -4734,6 +4665,29 @@
       "posted_at": "2026-04-27",
       "age": "105d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "86c087a99d1f949a",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Amazon",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-04-25",
+      "age": "111d",
+      "collected_at": "2026-08-14T17:10:09Z",
       "tags": [
         "software",
         "programming",
