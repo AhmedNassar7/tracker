@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-14T17:10:09Z",
-  "total": 241,
+  "generated_at": "2026-08-14T18:05:15Z",
+  "total": 243,
   "by_level": {
     "new_grad": 93,
     "entry_level": 10,
     "internship": 77,
-    "mid_level": 57,
+    "mid_level": 59,
     "junior": 4
   },
   "by_country": {
-    "United States": 149,
+    "United States": 151,
     "Unknown": 60,
     "Germany": 1,
     "Canada": 21,
@@ -30,10 +30,10 @@
     "hanzili_canada": 1,
     "speedyapply_swe": 18,
     "simplify_newgrad": 17,
-    "simplify_internships": 17,
     "zapplyjobs_canada": 6,
     "zapplyjobs_datascience": 3,
+    "simplify_internships": 17,
     "speedyapply_ai": 7,
-    "amazon": 21
+    "amazon": 23
   }
 }
