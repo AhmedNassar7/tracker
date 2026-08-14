@@ -1,127 +1,7 @@
 {
-  "generated_at": "2026-08-14T17:23:59Z",
-  "total": 260,
+  "generated_at": "2026-08-14T21:39:05Z",
+  "total": 369,
   "jobs": [
-    {
-      "id": "6c70dab38e59d2a4",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10371530/software-development-engineer-ii-fintech",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-03-19",
-      "age": "144d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T17:23:59Z"
-    },
-    {
-      "id": "3a4c9d0ed3b2683f",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Appstore",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Bengaluru, Karnataka, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10379143/software-development-engineer-ii-appstore",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-03-30",
-      "age": "133d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T17:23:59Z"
-    },
-    {
-      "id": "54d40171da4a6efb",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Agents",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Arlington, Virginia, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10427407/software-development-engineer-ii-agents",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-05-21",
-      "age": "81d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T17:23:59Z"
-    },
-    {
-      "id": "dbd32e45d87f4401",
-      "company": "Amazon",
-      "title": "Software Development Engineer II",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Bengaluru, Karnataka, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10464878/software-development-engineer-ii",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-02",
-      "age": "39d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T17:23:59Z"
-    },
-    {
-      "id": "393b1602c4588b34",
-      "company": "Amazon",
-      "title": "Software Development Engineer I FTC",
-      "level": "entry_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10488045/software-development-engineer-i-ftc",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-30",
-      "age": "11d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T17:23:59Z"
-    },
     {
       "id": "f5280ae38e0be665",
       "company": "Atlassian",
@@ -138,13 +18,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "ed0b3c42b8d5d4ce",
@@ -162,13 +42,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "fcd8d48008aeb19b",
@@ -186,13 +66,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "6821502c7f2c45ec",
@@ -210,13 +90,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "c5cc73c5ab5f680e",
@@ -234,13 +114,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "a45f3452e9f2fe2d",
@@ -258,13 +138,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "e275350e3044499b",
@@ -282,13 +162,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "f467b5a94bb30a2d",
@@ -306,13 +186,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "32488451baa6f650",
@@ -330,13 +210,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "b24b8faf5662603b",
@@ -354,13 +234,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "2790e9e3e128e0f6",
@@ -378,13 +258,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "0b810af44c8a5911",
@@ -402,13 +282,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "2e13f81c5669b4fc",
@@ -426,13 +306,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "04b19ea76d57f3d5",
@@ -450,13 +330,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "608a093a1e5c0194",
@@ -474,13 +354,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "0680764019d08884",
@@ -498,13 +378,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "665c4be06e7a8da9",
@@ -522,13 +402,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "0d7ff9a8513ee95c",
@@ -546,13 +426,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "47cdffcc83421c4d",
@@ -570,13 +450,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "866f1efaf58c81a0",
@@ -594,13 +474,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "db2deb50ee4c2fcd",
@@ -618,13 +498,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-11",
       "age": "3d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "11e5f8171dd3380f",
@@ -642,13 +522,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-12",
       "age": "2d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "beef7fca61bf2805",
@@ -666,13 +546,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-12",
       "age": "2d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "9e21f2b53bed8a18",
@@ -690,13 +570,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-12",
       "age": "2d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "4bc64fe1480cc7d3",
@@ -714,13 +594,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-05",
       "age": "9d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "ef1fd982c0e174c8",
@@ -738,13 +618,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-13",
       "age": "1d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "3f4859a5213071e5",
@@ -762,13 +642,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-13",
       "age": "1d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "846905b220430e03",
@@ -786,13 +666,13 @@
       "source_url": "https://github.com/vanshb03/New-Grad-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "94330349857504d1",
@@ -810,13 +690,13 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T20:44:26Z",
+      "collected_at": "2026-08-14T21:39:05Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "0e3f3b4d37510f29",
@@ -834,13 +714,85 @@
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-08-14",
       "age": "0d",
+      "collected_at": "2026-08-14T21:39:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-08-14T21:39:05Z"
+    },
+    {
+      "id": "a7dedeb54130f279",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern (AML-Engine-...",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7672386983965100341",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-14",
+      "age": "0d",
       "collected_at": "2026-08-14T20:44:26Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-08-14T20:44:26Z"
+      "closed_at": "2026-08-14T21:39:05Z"
+    },
+    {
+      "id": "af003bc56b75ed1e",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern (AML-Engine-...",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7671162985123907845",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T23:01:55Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-08-14T21:39:05Z"
+    },
+    {
+      "id": "cfab04505d542392",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Software Defined Networking",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Austin, Texas, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-16",
+      "age": "59d",
+      "collected_at": "2026-08-14T20:44:26Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-08-14T21:39:05Z"
     },
     {
       "id": "5ac64156433ffe93",
@@ -858,126 +810,6 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T19:56:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T20:44:26Z"
-    },
-    {
-      "id": "b79f5f772d067aaf",
-      "company": "Amazon",
-      "title": "Software Development Engineer II (ADBL178)",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Newark, New Jersey, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-31",
-      "age": "14d",
-      "collected_at": "2026-08-14T19:56:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T20:44:26Z"
-    },
-    {
-      "id": "fd95b7ef37fe6f7c",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, AmazonMQ",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "canada",
-      "role_type": "other_swe",
-      "country": "Canada",
-      "location": "Vancouver, British Columbia, CAN",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-17",
-      "age": "28d",
-      "collected_at": "2026-08-14T19:56:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T20:44:26Z"
-    },
-    {
-      "id": "15f0a62446ff8bfb",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Aurora",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Bengaluru, Karnataka, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10451656/software-development-engineer-ii-aurora",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-06-17",
-      "age": "58d",
-      "collected_at": "2026-08-14T19:56:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T20:44:26Z"
-    },
-    {
-      "id": "86c087a99d1f949a",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Amazon",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-04-25",
-      "age": "111d",
-      "collected_at": "2026-08-14T19:56:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-14T20:44:26Z"
-    },
-    {
-      "id": "3f75e139ddcfc77b",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-06-12",
-      "age": "63d",
       "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
@@ -1803,30 +1635,6 @@
       "closed_at": "2026-08-13T23:01:28Z"
     },
     {
-      "id": "405351d60ff0c149",
-      "company": "ByteDance",
-      "title": "LLM Backend Engineer Graduate (Applie...",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "backend",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7667730992538585349",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T21:02:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-13T23:01:28Z"
-    },
-    {
       "id": "11a9889cef0cc1ec",
       "company": "Amazon",
       "title": "Software Development Engineer II, Software Defined Networking",
@@ -2547,6 +2355,30 @@
       "closed_at": "2026-08-12T15:13:44Z"
     },
     {
+      "id": "6c70dab38e59d2a4",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10371530/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-03-19",
+      "age": "144d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-08-12T13:45:20Z"
+    },
+    {
       "id": "194123aeadf38079",
       "company": "Microsoft",
       "title": "Software Engineer: Fullstack Product - Web + Services Intern Opportunities for University Students",
@@ -2682,30 +2514,6 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-10",
       "age": "6d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-12T13:45:20Z"
-    },
-    {
-      "id": "6c70dab38e59d2a4",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10371530/software-development-engineer-ii-fintech",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-03-19",
-      "age": "144d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
@@ -3747,30 +3555,6 @@
       "closed_at": "2026-08-10T15:15:28Z"
     },
     {
-      "id": "4162f9d09fe4a03b",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Pune, India",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-279456-1",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T10:35:41Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-08-10T10:35:41Z"
-    },
-    {
       "id": "3a4c9d0ed3b2683f",
       "company": "Amazon",
       "title": "Software Development Engineer II, Appstore",
@@ -3811,6 +3595,30 @@
       "posted_at": "2026-07-02",
       "age": "39d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-08-10T10:35:41Z"
+    },
+    {
+      "id": "4162f9d09fe4a03b",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/job/Pune-India/Software-Engineer-II_R-279456-1",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T10:35:41Z",
       "tags": [
         "software",
         "programming",
