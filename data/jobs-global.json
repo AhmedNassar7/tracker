@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:39:47Z",
+  "generated_at": "2026-08-14T23:35:36Z",
   "total": 214,
   "jobs": [
     {
@@ -2487,29 +2487,6 @@
       ]
     },
     {
-      "id": "ab2582333521aab8",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - AML-Engine-Orchestration",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T23:50:13Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "be8160db39d009c7",
       "company": "Citadel",
       "title": "Sector Data Scientist - 2027 Intern - US",
@@ -2526,29 +2503,6 @@
       "posted_at": "2026-08-11",
       "age": "0d",
       "collected_at": "2026-08-11T13:41:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "52447632a29beaab",
-      "company": "Citadel",
-      "title": "Sector Data Scientist Intern",
-      "level": "internship",
-      "category": "consulting_finance",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T23:50:13Z",
       "tags": [
         "software",
         "programming",
@@ -2618,6 +2572,52 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T21:01:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ab2582333521aab8",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AML-Engine-Orchestration",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T23:50:13Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "52447632a29beaab",
+      "company": "Citadel",
+      "title": "Sector Data Scientist Intern",
+      "level": "internship",
+      "category": "consulting_finance",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-10",
+      "age": "0d",
+      "collected_at": "2026-08-10T23:50:13Z",
       "tags": [
         "software",
         "programming",
