@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T15:06:12Z",
-  "total": 214,
+  "generated_at": "2026-08-14T16:05:17Z",
+  "total": 212,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -640,29 +640,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5ac64156433ffe93",
-      "company": "ByteDance",
-      "title": "Software Engineer Graduate (AML-Engin...",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7671148355447343365",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-14",
-      "age": "0d",
-      "collected_at": "2026-08-14T11:56:01Z",
       "tags": [
         "software",
         "programming",
@@ -1383,6 +1360,29 @@
       ]
     },
     {
+      "id": "d316ff3103249fa5",
+      "company": "NVIDIA",
+      "title": "Software Engineer, Deep Learning Libraries - New College Graduate 2026",
+      "level": "new_grad",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Santa Clara, CA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=5feaa93da132b4f0",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-14",
+      "age": "0d",
+      "collected_at": "2026-08-14T16:05:17Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "9025abbddbdf22f0",
       "company": "Palantir",
       "title": "New Grad: Software Engineer",
@@ -1560,75 +1560,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "bb0cb6b18c873219",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-14",
-      "age": "0d",
-      "collected_at": "2026-08-14T15:06:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "f4a553483f9bcfd6",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship - Defen...",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-14",
-      "age": "0d",
-      "collected_at": "2026-08-14T15:06:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0519abb92d76c8a3",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship - Defen...",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-14",
-      "age": "0d",
-      "collected_at": "2026-08-14T15:06:12Z",
       "tags": [
         "software",
         "programming",
@@ -2894,6 +2825,29 @@
       "posted_at": "2026-08-14",
       "age": "1w",
       "collected_at": "2026-08-14T11:56:01Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "4d89a5d111e3cbaf",
+      "company": "Google",
+      "title": "Software Developer, Early Career, Campus",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Montréal, QC, CA",
+      "remote_type": "onsite",
+      "url": "https://ca.indeed.com/viewjob?jk=ee34826facf330aa",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-07",
+      "age": "7d",
+      "collected_at": "2026-08-14T16:05:17Z",
       "tags": [
         "software",
         "programming",
