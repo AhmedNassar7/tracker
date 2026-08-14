@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T09:39:03Z",
-  "total": 224,
+  "generated_at": "2026-08-14T17:23:59Z",
+  "total": 219,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -3269,29 +3269,6 @@
       ]
     },
     {
-      "id": "393b1602c4588b34",
-      "company": "Amazon",
-      "title": "Software Development Engineer I FTC",
-      "level": "entry_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10488045/software-development-engineer-i-ftc",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-30",
-      "age": "11d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "071b07f69ae43265",
       "company": "Amazon",
       "title": "Software Development Engineer II",
@@ -4327,29 +4304,6 @@
       ]
     },
     {
-      "id": "dbd32e45d87f4401",
-      "company": "Amazon",
-      "title": "Software Development Engineer II",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Bengaluru, Karnataka, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10464878/software-development-engineer-ii",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-02",
-      "age": "39d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "18d7e7fbe2542c91",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer, New Grad - Commercial",
@@ -4718,29 +4672,6 @@
       ]
     },
     {
-      "id": "54d40171da4a6efb",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Agents",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Arlington, Virginia, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10427407/software-development-engineer-ii-agents",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-05-21",
-      "age": "81d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5f19bf392c2cb0ea",
       "company": "Amazon",
       "title": "Software Development Engineer II",
@@ -4971,29 +4902,6 @@
       ]
     },
     {
-      "id": "3a4c9d0ed3b2683f",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Appstore",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Bengaluru, Karnataka, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10379143/software-development-engineer-ii-appstore",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-03-30",
-      "age": "133d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a564dd046d7e095a",
       "company": "Amazon",
       "title": "Software Development Engineer II, Homepage",
@@ -5009,29 +4917,6 @@
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-03-25",
       "age": "138d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6c70dab38e59d2a4",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10371530/software-development-engineer-ii-fintech",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-03-19",
-      "age": "144d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",

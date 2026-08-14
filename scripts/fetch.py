@@ -262,6 +262,30 @@ def check_url_alive(url, timeout=8):
             return True
     return True
 
+
+def find_dead_links(rows, timeout=8):
+    """Return the subset of rows whose apply URL is definitively dead.
+
+    This is a project-level audit helper for checking the exported dataset. It
+    intentionally mirrors the production liveness policy: only a confirmed GET
+    404/410 is treated as dead; everything else is treated as "can't tell" and
+    therefore remains alive.
+    """
+    dead = []
+    for row in rows:
+        url = (row or {}).get("url")
+        if not url:
+            continue
+        if not check_url_alive(url, timeout=timeout):
+            dead.append({
+                "company": row.get("company", ""),
+                "title": row.get("title", ""),
+                "url": url,
+                "source": row.get("source", ""),
+            })
+    return dead
+
+
 def fetch_url(url, dest, timeout=25):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"})

@@ -125,6 +125,15 @@ def main():
             fetch.check_url_alive("https://example.com/job/head-404-but-live") is True,
         ))
 
+    with patch.object(fetch, "check_url_alive", side_effect=[False, True]):
+        run("find_dead_links flags only definitive 404/410 links", lambda: check(
+            "find_dead_links flags only definitive 404/410 links",
+            {item["url"] for item in fetch.find_dead_links([
+                {"company": "Broken Co", "title": "Engineer", "url": "https://example.com/dead"},
+                {"company": "Good Co", "title": "Engineer", "url": "https://example.com/live"},
+            ])} == {"https://example.com/dead"},
+        ))
+
     with patch.object(fetch, "NOW_ISO", "2026-01-01T00:00:00Z"):
         row = fetch.normalize(
             company="Google",
