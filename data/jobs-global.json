@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T19:12:47Z",
-  "total": 208,
+  "generated_at": "2026-08-14T19:56:46Z",
+  "total": 215,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -647,6 +647,29 @@
       ]
     },
     {
+      "id": "5ac64156433ffe93",
+      "company": "ByteDance",
+      "title": "Software Engineer Graduate (AML-Engin...",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7671148355447343365",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-14",
+      "age": "0d",
+      "collected_at": "2026-08-14T19:56:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "a7dedeb54130f279",
       "company": "ByteDance",
       "title": "Software Engineer Intern (AML-Engine-...",
@@ -658,11 +681,11 @@
       "location": "Seattle, Washington",
       "remote_type": "onsite",
       "url": "https://joinbytedance.com/search/7672386983965100341",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-14",
       "age": "0d",
-      "collected_at": "2026-08-14T15:06:12Z",
+      "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
         "programming",
@@ -1291,6 +1314,52 @@
       ]
     },
     {
+      "id": "a0ac6f46d6e94f5d",
+      "company": "Notion",
+      "title": "Software Engineer Intern (Summer 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, California",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-14",
+      "age": "0d",
+      "collected_at": "2026-08-14T19:56:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "50e8011ae0cbfd83",
+      "company": "Notion",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, California",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-14",
+      "age": "0d",
+      "collected_at": "2026-08-14T19:56:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "4820e80c676d6a6b",
       "company": "Notion",
       "title": "Software Engineer, Fullstack, Early Career",
@@ -1330,6 +1399,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9b2a29e27072beb9",
+      "company": "Notion",
+      "title": "Software Engineer, New Grad (Dec 2026)",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, California, United States",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-08-14",
+      "age": "0d",
+      "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
         "programming",
@@ -2372,29 +2464,6 @@
       ]
     },
     {
-      "id": "affe941dfff55262",
-      "company": "Figma",
-      "title": "Software Engineer Intern (Winter 2027)",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Francisco, CA • Ne...",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T17:11:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "ae4746f77f7523da",
       "company": "Figma",
       "title": "Software Engineer Intern - Winter 2027",
@@ -2457,6 +2526,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T21:01:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "affe941dfff55262",
+      "company": "Figma",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, CA • Ne...",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T17:11:10Z",
       "tags": [
         "software",
         "programming",
@@ -2756,29 +2848,6 @@
       "posted_at": "2026-08-10",
       "age": "5d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3a419e6b9aa790db",
-      "company": "Uber",
-      "title": "Machine Learning Engineer II - AV Labs",
-      "level": "mid_level",
-      "category": "ride_delivery",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Sunnyvale, Santa Clara",
-      "remote_type": "onsite",
-      "url": "https://www.uber.com/global/en/careers/list/303619/",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-14",
-      "age": "1w",
-      "collected_at": "2026-08-14T11:56:01Z",
       "tags": [
         "software",
         "programming",
@@ -3170,6 +3239,29 @@
       "posted_at": "2026-08-10",
       "age": "9d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b79f5f772d067aaf",
+      "company": "Amazon",
+      "title": "Software Development Engineer II (ADBL178)",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Newark, New Jersey, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-31",
+      "age": "14d",
+      "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
         "programming",
@@ -3653,6 +3745,29 @@
       "posted_at": "2026-08-10",
       "age": "18d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fd95b7ef37fe6f7c",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AmazonMQ",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "other_swe",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia, CAN",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-17",
+      "age": "28d",
+      "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
         "programming",
@@ -4396,22 +4511,22 @@
       ]
     },
     {
-      "id": "cfab04505d542392",
+      "id": "15f0a62446ff8bfb",
       "company": "Amazon",
-      "title": "Software Development Engineer II, Software Defined Networking",
+      "title": "Software Development Engineer II, Aurora",
       "level": "mid_level",
       "category": "faang",
-      "region": "us",
+      "region": "unknown",
       "role_type": "other_swe",
-      "country": "United States",
-      "location": "Austin, Texas, USA",
+      "country": "Unknown",
+      "location": "Bengaluru, Karnataka, IND",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
+      "url": "https://www.amazon.jobs/en/jobs/10451656/software-development-engineer-ii-aurora",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-06-16",
-      "age": "59d",
-      "collected_at": "2026-08-14T19:12:47Z",
+      "posted_at": "2026-06-17",
+      "age": "58d",
+      "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
         "programming",
@@ -4435,6 +4550,29 @@
       "posted_at": "2026-08-10",
       "age": "2mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3f75e139ddcfc77b",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-12",
+      "age": "63d",
+      "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
         "programming",
@@ -4642,6 +4780,29 @@
       "posted_at": "2026-04-27",
       "age": "105d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "86c087a99d1f949a",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Amazon",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-04-25",
+      "age": "111d",
+      "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
         "programming",
