@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 695 |
+| Jobs | 696 |
 | Hackathons | 202 |
 | Events | 3 |
-| Total | 900 |
+| Total | 901 |
 
 ## Jobs
 
-[![Jobs 695](https://img.shields.io/badge/Jobs-695-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 94](https://img.shields.io/badge/Internship-94-22c55e.svg)](#internship) [![Early Career 95](https://img.shields.io/badge/Early%20Career-95-0ea5e9.svg)](#early-career) [![Mid-Level and Above 506](https://img.shields.io/badge/Mid--Level%20and%20Above-506-dc2626.svg)](#mid-level-and-above)
+[![Jobs 696](https://img.shields.io/badge/Jobs-696-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 96](https://img.shields.io/badge/Internship-96-22c55e.svg)](#internship) [![Early Career 95](https://img.shields.io/badge/Early%20Career-95-0ea5e9.svg)](#early-career) [![Mid-Level and Above 505](https://img.shields.io/badge/Mid--Level%20and%20Above-505-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 94
+Total roles: 96
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -118,6 +118,8 @@ Total roles: 94
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer - Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 1mo |
 | Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 1mo |
 | Cohere | [Machine Learning Intern/Co-op (Winte...](https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b) | Canada | 2mo |
+| Oracle | [OCI Software Engineer Intern - OVIP](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334333) | Austin, TX, United States | 2mo |
+| Oracle | [OCI Software Engineer Intern - OVIP](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334325) | Seattle, WA, United St... | 2mo |
 | Zipline | [Embedded Software Engineer Intern (Fa...](https://www.zipline.com/open-roles?gh_jid=7765240003) | South San Francisco, C... | 2mo |
 | Zipline | [Embedded Software Engineer Intern - Fall 2026](https://www.zipline.com/open-roles?gh_jid=7765240003) | South San Francisco, CA | 2mo |
 | Palantir | [Forward Deployed Software Engineer, Internship - AUS Government](https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976) | Sydney, Australia | 2mo |
@@ -172,7 +174,6 @@ Total roles: 95
 | Google | [Software Engineer II, Early Career](https://www.google.com/about/careers/applications/jobs/results/143333237156913862-software-engineer-ii/?utm_source=vansh) | <details><summary>12 locations</summary>Mountain View<br>CA Kirkland<br>WA Los Angeles<br>CA Madison<br>WI New York<br>NY Palo Alto<br>CA Pittsburgh<br>PA Raleigh<br>NC Durham<br>NC San Bruno<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
 | Google | [Software Engineer II, Early Career, Google Cloud AI Catalyst Program](https://www.google.com/about/careers/applications/jobs/results/90452041138086598-software-engineer-ii-early-career-google-cloud-ai-catalyst-program?utm_source=vansh) | Sunnyvale, CA Kirkland, WA Seattle, WA | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
-| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
 | Notion | [Software Engineer, Fullstack, Early Career](https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b?utm_source=vansh) | San Francisco, CA New York, NY | 0d |
@@ -207,6 +208,7 @@ Total roles: 95
 | ByteDance | [Multi-Cloud CDN Data Platform Engineer Graduate (CDN Platform) - 2027 Start](https://www.indeed.com/viewjob?jk=e870a7ca825e6f91) | Seattle, WA, US | 1d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Graduate (CDN Platform) - 2027 Start](https://www.indeed.com/viewjob?jk=f3a5927ae034364b) | San Jose, CA, US | 1d |
 | Wise | [Senior Software Engineer I - Europe and UK Onboarding](https://jobs.smartrecruiters.com/Wise/744000143348888) | London, England, United Kingdom | 1d |
+| ByteDance | [Video/Image AI/ML Software Engineer Graduate (Multimedia) - 2027 Start (PhD)](https://www.indeed.com/viewjob?jk=34f02ded88911306) | San Diego, CA, US | 2d |
 | DoorDash | [Associate Manager, Restaurant Off Platform Measurement](https://job-boards.greenhouse.io/doordashusa/jobs/8056412) | New York, NY; Washington, DC; Atlanta, GA; Miami, FL; Boston, MA; Philadelphia, PA; Chicago, IL; Houston, TX; Dallas, TX; Austin, TX; Phoenix, AZ; Denver, CO; Seattle, WA; Portland, OR; San Francisco, CA; Los Angeles, CA; United States - Remote | 2d |
 | DoorDash | [Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)](https://job-boards.greenhouse.io/doordashusa/jobs/7263610) | New York, NY; San Francisco, CA; Los Angeles, CA; Seattle, WA; Sunnyvale, CA | 2d |
 | ByteDance | [Backend Inference Runtime Engineer New Grad - AML Inference](https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 4d |
@@ -241,7 +243,7 @@ Total roles: 95
 
 ### Mid-Level and Above
 
-Total roles: 506
+Total roles: 505
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -283,7 +285,6 @@ Total roles: 506
 | NVIDIA | [Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
 | NVIDIA | [Senior Software Engineer - Image and Data Processing Libraries](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Image-and-Data-Processing-Libraries_JR2022710) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>CA<br>Remote</details> | 1d |
 | NVIDIA | [Senior Software Engineer, Agent Simulation and Evaluation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Agentic-AI-Engineer--Simulation-and-Evaluation_JR2023184) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>CA<br>Remote</details> | 1d |
-| NVIDIA | [Senior Software Engineer, AI Performance Analysis](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Performance-Analysis_JR2017417) | <details><summary>3 locations</summary>US, CA<br>Santa Clara, US<br>CA<br>Remote, US<br>OR<br>Hillsboro</details> | 1d |
 | NVIDIA | [Senior Software Engineer, Infrastructure Automation and Distributed Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-SC-Remote/Senior-Software-Engineer--Infrastructure-Automation-and-Distributed-Systems_JR2014877) | <details><summary>5 locations</summary>US, SC<br>Remote, US<br>MA<br>Westford, US<br>TX<br>Austin, US<br>NC<br>Durham, US<br>CA<br>Remote</details> | 1d |
 | NVIDIA | [Senior Software Engineer, NCCL](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior System Software Engineer - GPU Performance](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
@@ -871,6 +872,7 @@ Total hackathons: 202
 | HackTheLimit | [Hack The Limit](https://hack-the-limit-1.devpost.com/) |
 | high school | [3D Websites Hackathon](https://3d-websites-hackathon.devpost.com/) |
 | IcyPluto | [MARKATHON 2026 – India's Biggest Marketing Innovation Challenge](https://unstop.com/hackathons/markathon-2026-indias-biggest-marketing-innovation-challenge-icypluto-1734496) |
+| IEM Kolkata | [Code Voyage](https://unstop.com/hackathons/code-voyage-iem-kolkata-1736284) |
 | ImpactForge | [ImpactForge](https://impactforge.devpost.com/) |
 | Inderprastha Engineering College (IPEC), Ghaziabad | [HackSynergy 2026](https://unstop.com/hackathons/hacksynergy-2026-inderprastha-engineering-college-ipec-ghaziabad-1716413) |
 | Indian Institute of Information Technology (IIIT), Allahabad | [OOSC 4.0 Hackathon](https://unstop.com/hackathons/oosc-4o-hackathon-indian-institute-of-information-technology-iiit-allahabad-1730805) |
@@ -953,7 +955,6 @@ Total hackathons: 202
 | University Institute of Engineering and Technology (UIET), Chandigarh | [The Chandigarh Police Hackathon](https://unstop.com/hackathons/the-chandigarh-police-hackathon-university-institute-of-engineering-and-technology-uiet-chandigarh-1730320) |
 | University of Engineering and Management (UEM), Kolkata | [SuperNova Hackathon](https://unstop.com/hackathons/supernova-hackathon-university-of-engineering-and-management-uem-kolkata-1730807) |
 | University of Engineering and Management Kolkata | [FusioniX'26](https://unstop.com/hackathons/fusionix-2026-university-of-engineering-and-management-kolkata-1727790) |
-| University of Engineering and Management Kolkata | [Hack Synthesis 3.0 - 2026](https://unstop.com/hackathons/hack-synthesis-30-2026-university-of-engineering-and-management-kolkata-1710631) |
 | University Visvesvaraya College Of Engineering (UVCE), Bangalore | [CodeFury 9.0](https://unstop.com/hackathons/codefury-90-university-visvesvaraya-college-of-engineering-uvce-bangalore-1726707) |
 | Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Avadi | [VELOHACK 2k26: 24 Hour International Hackathon](https://unstop.com/hackathons/velohack-2k26-24-hour-international-hackathon-vel-tech-rangarajan-dr-sagunthala-rd-institute-of-science-and-t-1730386) |
 | Vellore Institute of Technology (VIT), Vellore | [DevJams'26](https://unstop.com/hackathons/devjams26-gravitas26-vit-vellore-1735999) |
