@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T02:44:58Z",
-  "total": 208,
+  "generated_at": "2026-08-14T05:00:57Z",
+  "total": 211,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -2004,6 +2004,29 @@
       ]
     },
     {
+      "id": "2ac0fcd40a75de58",
+      "company": "Box",
+      "title": "Enterprise Security Engineer II",
+      "level": "mid_level",
+      "category": "product_saas",
+      "region": "remote",
+      "role_type": "security",
+      "country": "Remote",
+      "location": "Remote",
+      "remote_type": "remote",
+      "url": "https://job-boards.greenhouse.io/boxinc/jobs/8119806",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-14",
+      "age": "1d",
+      "collected_at": "2026-08-14T05:00:57Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "8a4bba29a1df2ec8",
       "company": "Oracle",
       "title": "Platform Software Engineer 1 - Full-time Intern Conversion",
@@ -2165,29 +2188,6 @@
       ]
     },
     {
-      "id": "d12527d49aa37e6c",
-      "company": "ByteDance",
-      "title": "AI/LLM Network Software Development Engineer Graduate (High Speed Network) - 2027 Start (PhD)",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Seattle, WA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=f3091fbdb951d121",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-12",
-      "age": "0d",
-      "collected_at": "2026-08-12T22:01:37Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a0c3c593b475af93",
       "company": "ByteDance",
       "title": "Multi-Cloud CDN Data Platform Engineer Graduate (CDN Platform) - 2027 Start",
@@ -2227,29 +2227,6 @@
       "posted_at": "2026-08-12",
       "age": "1d",
       "collected_at": "2026-08-13T02:45:50Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a41db98389ca395b",
-      "company": "ByteDance",
-      "title": "Video/Image AI/ML Software Engineer Graduate (Multimedia) - 2027 Start (PhD)",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Diego, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=34f02ded88911306",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-08-12",
-      "age": "0d",
-      "collected_at": "2026-08-12T22:01:37Z",
       "tags": [
         "software",
         "programming",
@@ -2802,6 +2779,29 @@
       "posted_at": "2026-08-10",
       "age": "5d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3a419e6b9aa790db",
+      "company": "Uber",
+      "title": "Machine Learning Engineer II - AV Labs",
+      "level": "mid_level",
+      "category": "ride_delivery",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Sunnyvale, Santa Clara",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/303619/",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-14",
+      "age": "1w",
+      "collected_at": "2026-08-14T05:00:57Z",
       "tags": [
         "software",
         "programming",
@@ -3522,29 +3522,6 @@
       ]
     },
     {
-      "id": "001452a1118fddde",
-      "company": "Pinterest",
-      "title": "Software Engineer II, iOS",
-      "level": "mid_level",
-      "category": "more_global_tech",
-      "region": "remote",
-      "role_type": "mobile",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Remote, US",
-      "remote_type": "remote",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5601228",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-07-28",
-      "age": "13d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d71534e0be751568",
       "company": "Pinterest",
       "title": "Software Engineer II, Web",
@@ -3936,6 +3913,29 @@
       ]
     },
     {
+      "id": "9cf273c5da4b1510",
+      "company": "Okta",
+      "title": "Software Engineer II, Security Engine...",
+      "level": "mid_level",
+      "category": "cloud_infra",
+      "region": "canada",
+      "role_type": "security",
+      "country": "Canada",
+      "location": "Toronto, Ontario, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-14",
+      "age": "1mo",
+      "collected_at": "2026-08-14T05:00:57Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5654a56dfc1a5b2d",
       "company": "Palantir",
       "title": "Forward Deployed Software Engineer Intern - Commercial",
@@ -4021,29 +4021,6 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8b81bbd8d722fcd1",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "San Diego",
-      "remote_type": "onsite",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-11",
-      "age": "1mo",
-      "collected_at": "2026-08-11T10:11:31Z",
       "tags": [
         "software",
         "programming",
@@ -4373,6 +4350,29 @@
       ]
     },
     {
+      "id": "8f07a852351cfac5",
+      "company": "Instacart",
+      "title": "Software Engineer II, Technical Searc...",
+      "level": "mid_level",
+      "category": "more_global_tech",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Remote (ON, AB, BC, or...",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=7963661",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-14",
+      "age": "2mo",
+      "collected_at": "2026-08-14T05:00:57Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "99e702d10db39f9b",
       "company": "NVIDIA",
       "title": "Software Engineer New Grad - Hardware Tools and Methodology 🎓",
@@ -4488,6 +4488,29 @@
       ]
     },
     {
+      "id": "6b83d186955a50d9",
+      "company": "Amazon.com Services LLC",
+      "title": "Software Development Engineer Intern,...",
+      "level": "internship",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-14",
+      "age": "3mo",
+      "collected_at": "2026-08-14T05:00:57Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "ad947d29b5f7b1bf",
       "company": "Cohere",
       "title": "Machine Learning Intern/Co-op (Winte...",
@@ -4522,11 +4545,34 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-08-11",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-14",
       "age": "3mo",
-      "collected_at": "2026-08-11T23:01:55Z",
+      "collected_at": "2026-08-14T05:00:57Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d1deed852a8916f9",
+      "company": "Okta",
+      "title": "Software Engineer II, End User Protec...",
+      "level": "mid_level",
+      "category": "cloud_infra",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Toronto, Ontario, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.okta.com/company/careers/opportunity/7821930?gh_jid=7821930",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-14",
+      "age": "3mo",
+      "collected_at": "2026-08-14T05:00:57Z",
       "tags": [
         "software",
         "programming",
@@ -4757,6 +4803,29 @@
       "posted_at": "2025-11-09",
       "age": "274d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6fc5e22cf4881e60",
+      "company": "DoorDash",
+      "title": "Software Engineer I, Entry-Level (Gra...",
+      "level": "entry_level",
+      "category": "ride_delivery",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-14",
+      "age": "10mo",
+      "collected_at": "2026-08-14T05:00:57Z",
       "tags": [
         "software",
         "programming",
