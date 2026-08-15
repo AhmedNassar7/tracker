@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:36:27Z",
+  "generated_at": "2026-08-15T23:33:36Z",
   "total": 1179,
   "jobs": [
     {
@@ -14785,7 +14785,7 @@
       "company": "Canadian Undergraduate Tech Conference",
       "title": "CUTC: Transform Hackathon",
       "location": "Online",
-      "date": "about 6 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-08-15",
       "url": "https://cutc-transform.devpost.com/",
       "source": "devpost",
@@ -14922,18 +14922,6 @@
       "url": "https://cockroachdb-ai.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "de751039cdd36f9c",
-      "kind": "hackathon",
-      "company": "CodeNeuraX",
-      "title": "CodeNeuraX: AlgoRush",
-      "location": "Online",
-      "date": "14 days left",
-      "posted_at": "2026-08-15",
-      "url": "https://unstop.com/hackathons/codeneurax-algorush-codeneurax-1737089",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "7dac94bfa21e1c68",
@@ -15925,7 +15913,7 @@
       "company": "HackerRank Campus Crew",
       "title": "Infinity Hacks 2026 | HackerRank",
       "location": "Online",
-      "date": "about 12 hours left",
+      "date": "about 9 hours left",
       "posted_at": "2026-08-15",
       "url": "https://infinity-hacks-2026-hackerrank.devpost.com/",
       "source": "devpost",
@@ -16045,7 +16033,7 @@
       "company": "ImpactForge",
       "title": "Impact Forge: Summer 2026 Hackathon",
       "location": "Online",
-      "date": "1 day left",
+      "date": "about 24 hours left",
       "posted_at": "2026-08-15",
       "url": "https://impactforge26.devpost.com/",
       "source": "devpost",
@@ -16237,7 +16225,7 @@
       "company": "Major League Hacking",
       "title": "Built for NYC: AI Hackathon at NYPL",
       "location": "Stavros Niarchos Foundation Library",
-      "date": "about 20 hours left",
+      "date": "about 18 hours left",
       "posted_at": "2026-08-15",
       "url": "https://built-for-nyc.devpost.com/",
       "source": "devpost",
@@ -16300,6 +16288,18 @@
       "date": "4 days left",
       "posted_at": "2026-08-15",
       "url": "https://unstop.com/hackathons/open-innovation-hackathon-hakitxmrdu-malla-reddy-deemed-to-be-university-1725253",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "3bf00293ef1dde93",
+      "kind": "hackathon",
+      "company": "Manipal University (MU), Jaipur",
+      "title": "International Innovation Challenge 3.0",
+      "location": "Offline",
+      "date": "24 days left",
+      "posted_at": "2026-08-15",
+      "url": "https://unstop.com/hackathons/international-innovation-challenge-30-manipal-university-mu-jaipur-1702624",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
     },
