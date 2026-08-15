@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T12:58:01Z",
-  "total": 224,
+  "generated_at": "2026-08-15T13:42:55Z",
+  "total": 225,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -980,11 +980,11 @@
       "location": "United States",
       "remote_type": "onsite",
       "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-15",
       "age": "0d",
-      "collected_at": "2026-08-15T10:37:17Z",
+      "collected_at": "2026-08-15T13:42:55Z",
       "tags": [
         "software",
         "programming",
@@ -1123,6 +1123,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "608a093a1e5c0194",
+      "company": "Meta",
+      "title": "New Grad 2026: Product Security Engineer",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "security",
+      "country": "Unknown",
+      "location": "Bellevue, WA Menlo Park, CA",
+      "remote_type": "onsite",
+      "url": "https://www.metacareers.com/jobs/609052015548260?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-15",
+      "age": "0d",
+      "collected_at": "2026-08-15T13:42:55Z",
       "tags": [
         "software",
         "programming",
