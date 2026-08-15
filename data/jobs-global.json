@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T06:56:43Z",
-  "total": 223,
+  "generated_at": "2026-08-15T07:42:58Z",
+  "total": 222,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1636,75 +1636,6 @@
       ]
     },
     {
-      "id": "0519abb92d76c8a3",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship - Defen...",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-15",
-      "age": "0d",
-      "collected_at": "2026-08-15T06:56:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "15cecd05a12a4b83",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship - Defen...",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-15",
-      "age": "0d",
-      "collected_at": "2026-08-15T06:56:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "49ab68c4e0bc4f6a",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship - Infra...",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-15",
-      "age": "0d",
-      "collected_at": "2026-08-15T06:56:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "2ee142b47bfc9198",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -3147,6 +3078,29 @@
       "posted_at": "2026-08-07",
       "age": "3d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5319fc8fec65d19c",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-15",
+      "age": "9d",
+      "collected_at": "2026-08-15T07:42:58Z",
       "tags": [
         "software",
         "programming",
@@ -5125,6 +5079,29 @@
       "posted_at": "2025-11-09",
       "age": "274d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "40adb1805cc41774",
+      "company": "DoorDash",
+      "title": "Software Engineer II, Data Engineering",
+      "level": "mid_level",
+      "category": "ride_delivery",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/6458514",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-15",
+      "age": "20mo",
+      "collected_at": "2026-08-15T07:42:58Z",
       "tags": [
         "software",
         "programming",
