@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 989 |
+| Jobs | 987 |
 | Hackathons | 207 |
-| Events | 5 |
-| Total | 1201 |
+| Events | 3 |
+| Total | 1197 |
 
 ## Jobs
 
-[![Jobs 989](https://img.shields.io/badge/Jobs-989-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 106](https://img.shields.io/badge/Internship-106-22c55e.svg)](#internship) [![Early Career 110](https://img.shields.io/badge/Early%20Career-110-0ea5e9.svg)](#early-career) [![Mid-Level and Above 773](https://img.shields.io/badge/Mid--Level%20and%20Above-773-dc2626.svg)](#mid-level-and-above)
+[![Jobs 987](https://img.shields.io/badge/Jobs-987-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 103](https://img.shields.io/badge/Internship-103-22c55e.svg)](#internship) [![Early Career 111](https://img.shields.io/badge/Early%20Career-111-0ea5e9.svg)](#early-career) [![Mid-Level and Above 773](https://img.shields.io/badge/Mid--Level%20and%20Above-773-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 106
+Total roles: 103
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -77,9 +77,6 @@ Total roles: 106
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true&utm_source=Simplify&ref=Simplify) | SF NYC | 0d |
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) | San Francisco, CA +1 | 0d |
 | Notion | [Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8) | San Francisco, CA +1 | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) | Denver, CO | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -151,7 +148,7 @@ Total roles: 106
 
 ### Early Career
 
-Total roles: 110
+Total roles: 111
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -191,6 +188,7 @@ Total roles: 110
 | Google | [Software Engineer II, Early Career](https://www.google.com/about/careers/applications/jobs/results/143333237156913862-software-engineer-ii/?utm_source=vansh) | <details><summary>12 locations</summary>Mountain View<br>CA Kirkland<br>WA Los Angeles<br>CA Madison<br>WI New York<br>NY Palo Alto<br>CA Pittsburgh<br>PA Raleigh<br>NC Durham<br>NC San Bruno<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
 | Google | [Software Engineer II, Early Career, Google Cloud AI Catalyst Program](https://www.google.com/about/careers/applications/jobs/results/90452041138086598-software-engineer-ii-early-career-google-cloud-ai-catalyst-program?utm_source=vansh) | Sunnyvale, CA Kirkland, WA Seattle, WA | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
+| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
 | Notion | [Software Engineer New Grad](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&utm_source=Simplify&ref=Simplify) | SF | 0d |
@@ -206,9 +204,9 @@ Total roles: 110
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79?utm_source=vansh) | Washington, DC | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3?utm_source=vansh) | Palo Alto, CA | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh) | New York, NY | 0d |
-| Palantir | [Software Engineer, New Grad - Product...](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6) | Washington, D.C. | 0d |
-| Palantir | [Software Engineer, New Grad - Product...](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) | Seattle, WA | 0d |
-| Palantir | [Software Engineer, New Grad - Product...](https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a) | New York, NY | 0d |
+| Palantir | [Software Engineer, New Grad - Defense](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3) | Palo Alto, CA | 0d |
+| Palantir | [Software Engineer, New Grad - Infrast...](https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4) | New York, NY | 0d |
+| Palantir | [Software Engineer, New Grad - Infrast...](https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d) | Palo Alto, CA | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908747686?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908696559?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | Revolut | [graduate programme 2027: software engineer (python)](https://www.linkedin.com/jobs/view/4418833557) | portugal | 0d |
@@ -1062,6 +1060,7 @@ Total hackathons: 207
 | Amrita Vishwa Vidyapeetham Chennai | [Gameathon 2026](https://unstop.com/hackathons/gameathon-2026-amrita-vishwa-vidyapeetham-chennai-1736083) |
 | Army Institute of Technology (AIT), Pune | [ML Bubble 2026 – Machine Learning Awareness & Skill Building Challenge](https://unstop.com/hackathons/ml-bubble-2026-machine-learning-awareness-skill-building-challenge-army-institute-of-technology-ait-pune-1729558) |
 | Badruka School of Management | [BSM Agentic AI Competition](https://unstop.com/hackathons/bsm-agentic-ai-competition-badruka-school-of-management-1736229) |
+| Bharat Academix | [AI Innovation Hackathon 2026 – Build Real-World AI Solutions](https://unstop.com/hackathons/ai-innovation-hackathon-2026-build-real-world-ai-solutions-bharat-academix-1737263) |
 | Bharat Ratna baba saheb bhim rao ambedkar rajkiya engineering college pratapgarh | [Internal Smart India Hackathon 2026](https://unstop.com/hackathons/internal-smart-india-hackathon-2026-bharat-ratna-baba-saheb-bhim-rao-ambedkar-rajkiya-engineering-college-pra-1736096) |
 | BioCataalysis | [UnivaBio](https://univabio.devpost.com/) |
 | Bitmela | [Bitmela Launchpad: Ideathon 01](https://unstop.com/hackathons/bitmela-launchpad-ideathon-01-bitmela-1722812) |
@@ -1197,7 +1196,6 @@ Total hackathons: 207
 | Malla Reddy (MR) Deemed University | [Code Chakra Competitive Programming Championship](https://unstop.com/hackathons/code-chakra-competitive-programming-championship-malla-reddy-mr-deemed-university-1726414) |
 | Malla Reddy (MR) Deemed University | [Techfusion Hackathon](https://unstop.com/hackathons/techfusion-hackathon-malla-reddy-mr-deemed-university-1726419) |
 | Malla Reddy Deemed to Be University | [Open Innovation Hackathon](https://unstop.com/hackathons/open-innovation-hackathon-hakitxmrdu-malla-reddy-deemed-to-be-university-1725253) |
-| Manipal University (MU), Jaipur | [International Innovation Challenge 3.0](https://unstop.com/hackathons/international-innovation-challenge-30-manipal-university-mu-jaipur-1702624) |
 | MIT Arts, Commerce & Science College, Alandi, Pune, Maharashtra | [Kurukshetra 2.0 Hackfest](https://unstop.com/hackathons/kurukshetra-20-hackfest-mit-arts-commerce-science-college-alandi-pune-maharashtra-1726911) |
 | MLH | [Create with Gemini](https://create-with-gemini.devpost.com/) |
 | MLH | [Gemini Builds](https://gemini-builds.devpost.com/) |
@@ -1262,15 +1260,13 @@ Total hackathons: 207
 
 ## Events
 
-Total events: 5
+Total events: 3
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
-| Luma | [Follow DC](https://lu.ma/DC2?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 
