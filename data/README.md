@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 988 |
+| Jobs | 1016 |
 | Hackathons | 206 |
-| Events | 5 |
-| Total | 1199 |
+| Events | 3 |
+| Total | 1225 |
 
 ## Jobs
 
-[![Jobs 988](https://img.shields.io/badge/Jobs-988-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 106](https://img.shields.io/badge/Internship-106-22c55e.svg)](#internship) [![Early Career 108](https://img.shields.io/badge/Early%20Career-108-0ea5e9.svg)](#early-career) [![Mid-Level and Above 774](https://img.shields.io/badge/Mid--Level%20and%20Above-774-dc2626.svg)](#mid-level-and-above)
+[![Jobs 1016](https://img.shields.io/badge/Jobs-1016-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 103](https://img.shields.io/badge/Internship-103-22c55e.svg)](#internship) [![Early Career 110](https://img.shields.io/badge/Early%20Career-110-0ea5e9.svg)](#early-career) [![Mid-Level and Above 803](https://img.shields.io/badge/Mid--Level%20and%20Above-803-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 106
+Total roles: 103
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -77,9 +77,6 @@ Total roles: 106
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true&utm_source=Simplify&ref=Simplify) | SF NYC | 0d |
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) | San Francisco, CA +1 | 0d |
 | Notion | [Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8) | San Francisco, CA +1 | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) | Denver, CO | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -151,7 +148,7 @@ Total roles: 106
 
 ### Early Career
 
-Total roles: 108
+Total roles: 110
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -232,6 +229,8 @@ Total roles: 108
 | Wise | [Senior Software Engineer I - Send Core](https://jobs.smartrecruiters.com/Wise/744000143464700) | London, United Kingdom | 1d |
 | Amazon.com | [Software Development Engineer, Early Career - 2026](https://ca.indeed.com/viewjob?jk=0bf4a7e311f6a9df) | Vancouver, BC, CA | 2d |
 | Wise | [Senior Software Engineer I - Europe and UK Onboarding](https://jobs.smartrecruiters.com/Wise/744000143348888) | London, England, United Kingdom | 2d |
+| DoorDash | [Associate Manager, Restaurant Off Platform Measurement](https://job-boards.greenhouse.io/doordashusa/jobs/8056412) | New York, NY; Washington, DC; Atlanta, GA; Miami, FL; Boston, MA; Philadelphia, PA; Chicago, IL; Houston, TX; Dallas, TX; Austin, TX; Phoenix, AZ; Denver, CO; Seattle, WA; Portland, OR; San Francisco, CA; Los Angeles, CA; United States - Remote | 3d |
+| DoorDash | [Software Engineer I, Entry-Level (Graduation Date: Fall 2025-Summer 2026)](https://job-boards.greenhouse.io/doordashusa/jobs/7263610) | New York, NY; San Francisco, CA; Los Angeles, CA; Seattle, WA; Sunnyvale, CA | 3d |
 | ByteDance | [Backend Inference Runtime Engineer New Grad - AML Inference](https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 4d |
 | Roblox | [Software Engineer - Early Career](https://careers.roblox.com/jobs/8072244?gh_jid=8072244&utm_source=Simplify&ref=Simplify) | San Mateo, CA | 4d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/341d5cae-a473-4813-9a6c-0f67fcc1b253) | Seoul, South Korea | 5d |
@@ -266,7 +265,7 @@ Total roles: 108
 
 ### Mid-Level and Above
 
-Total roles: 774
+Total roles: 803
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -283,6 +282,7 @@ Total roles: 774
 | Cloudflare | [Senior Software Engineer, Network Performance & Reliability](https://boards.greenhouse.io/cloudflare/jobs/7446340?gh_jid=7446340) | Hybrid | 1d |
 | Cloudflare | [Senior Software Engineer, Workers Runtime](https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726) | In-Office | 1d |
 | Cloudflare | [Software Engineer-](https://boards.greenhouse.io/cloudflare/jobs/8125865?gh_jid=8125865) | Hybrid | 1d |
+| DoorDash | [Infrastructure Supply Chain Manager, Autonomy & Robotics - DoorDash Dot](https://job-boards.greenhouse.io/doordashusa/jobs/8056130) | Oakland, CA | 1d |
 | Figma | [Manager, Design - Systems & Infrastructure](https://boards.greenhouse.io/figma/jobs/6135656004?gh_jid=6135656004) | San Francisco, CA • New York, NY • United States | 1d |
 | NVIDIA | [Developer Relations Manager, AI Platform and Tools - MLOps](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Relations-Manager--AI-Platform-and-Tools---MLOps_JR2018976) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
 | NVIDIA | [Embedded Software Engineer - DPU Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1) | US, MA, Westford | 1d |
@@ -338,6 +338,34 @@ Total roles: 774
 | Wise | [Software Engineer - Screening Controls](https://jobs.smartrecruiters.com/Wise/744000143239689) | Tallinn, Estonia | 2d |
 | Amazon.com | [Software Development Engineer II, Fintech TAX - RoW Compliance](https://in.indeed.com/viewjob?jk=622dd44d29a5284b) | TS, IN | 3d |
 | Cohere | [Forward Deployed Engineer, Infrastructure Specialist (Singapore)](https://jobs.ashbyhq.com/cohere/e88931c0-d3fa-4e81-accc-45db823ea616) | Singapore | 3d |
+| DoorDash | [Account Manager, Platform Innovation](https://job-boards.greenhouse.io/doordashusa/jobs/7958917) | Chicago, IL; Detroit, MI; New York, NY; Philadelphia, PA; Washington, DC | 3d |
+| DoorDash | [Director, Analytics, Commerce Platform](https://job-boards.greenhouse.io/doordashusa/jobs/7822599) | New York,NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | 3d |
+| DoorDash | [Embedded Software Engineer - Labs, DoorDash Air](https://job-boards.greenhouse.io/doordashusa/jobs/8122134) | San Francisco, CA | 3d |
+| DoorDash | [Engineering Manager, Backend Frameworks](https://job-boards.greenhouse.io/doordashusa/jobs/7259738) | San Francisco, CA; Sunnyvale, CA; Seattle, WA; Los Angeles, CA; New York, NY | 3d |
+| DoorDash | [Engineering Manager, Mobile Developer Experience](https://job-boards.greenhouse.io/doordashusa/jobs/8119303) | San Francisco, CA; Sunnyvale, CA; Seattle, WA; Los Angeles, CA; New York, New York | 3d |
+| DoorDash | [Engineering Manager, Risk & Identity Platform](https://job-boards.greenhouse.io/doordashusa/jobs/7276102) | New York, NY | 3d |
+| DoorDash | [Front-End Web Developer, B2B, Marketing Technology](https://job-boards.greenhouse.io/doordashusa/jobs/8028899) | San Francisco, CA; New York, NY; Washington D.C.; United States - Remote | 3d |
+| DoorDash | [Manager, CPG Off Platform Measurement](https://job-boards.greenhouse.io/doordashusa/jobs/8016044) | New York, NY; San Francisco, CA; Los Angeles, CA; Chicago, IL; Seattle, WA; Washington, DC; Tempe, AZ | 3d |
+| DoorDash | [Manager, Retention Marketing, Commerce Platform](https://job-boards.greenhouse.io/doordashusa/jobs/8046443) | New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Sunnyvale, CA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA; Miami, FL; Boston, MA; Washington, DC | 3d |
+| DoorDash | [Principal Software Engineer, Ads](https://job-boards.greenhouse.io/doordashusa/jobs/7947255) | New York, NY; San Francisco, CA; Sunnyvale, CA | 3d |
+| DoorDash | [Robotics Software Engineer - Labs, DoorDash Air](https://job-boards.greenhouse.io/doordashusa/jobs/6682078) | San Francisco, CA | 3d |
+| DoorDash | [Senior Software Engineer, iOS](https://job-boards.greenhouse.io/doordashusa/jobs/5516948) | Sunnyvale, CA; San Francisco, CA | 3d |
+| DoorDash | [Senior Software Engineer, Motion Planning – DoorDash Labs, DoorDash Air](https://job-boards.greenhouse.io/doordashusa/jobs/7763162) | San Francisco, CA | 3d |
+| DoorDash | [Senior Software Engineer, Spark Platform](https://job-boards.greenhouse.io/doordashusa/jobs/8044371) | San Francisco, CA; Seattle, WA; Sunnyvale, CA; New York, NY | 3d |
+| DoorDash | [Senior Staff Software Engineer - Launchpad](https://job-boards.greenhouse.io/doordashusa/jobs/7637668) | San Francisco, CA; Sunnyvale, CA; New York, NY | 3d |
+| DoorDash | [Software Engineer, Android (All Teams)](https://job-boards.greenhouse.io/doordashusa/jobs/5630438) | Sunnyvale, CA; San Francisco, CA; Seattle, WA | 3d |
+| DoorDash | [Software Engineer, Backend (All Teams)](https://job-boards.greenhouse.io/doordashusa/jobs/5630445) | Sunnyvale, CA; San Francisco, CA; New York, NY; Seattle, WA; Ann Arbor, MI | 3d |
+| DoorDash | [Software Engineer, Backend - DoorDash Air](https://job-boards.greenhouse.io/doordashusa/jobs/6599474) | San Francisco, CA | 3d |
+| DoorDash | [Software Engineer, Data Platform (All Teams)](https://job-boards.greenhouse.io/doordashusa/jobs/7577073) | San Francisco, CA; Seattle, WA; Sunnyvale, CA; New York, NY | 3d |
+| DoorDash | [Software Engineer, iOS (All Teams)](https://job-boards.greenhouse.io/doordashusa/jobs/5630454) | Sunnyvale, CA; San Francisco, CA; Seattle, WA; New York, NY | 3d |
+| DoorDash | [Software Engineer, Planning & Controls - Autonomy & Robotics, DoorDash Air](https://job-boards.greenhouse.io/doordashusa/jobs/8046982) | San Francisco, CA | 3d |
+| DoorDash | [Software Engineer, Robotics Infrastructure - Autonomy & Robotics, DoorDash Air](https://job-boards.greenhouse.io/doordashusa/jobs/8046909) | San Francisco, CA | 3d |
+| DoorDash | [Software Engineer, Spark Platform](https://job-boards.greenhouse.io/doordashusa/jobs/8044370) | San Francisco, CA; Seattle, WA; Sunnyvale, CA; New York, NY | 3d |
+| DoorDash | [Software Engineer, Storage](https://job-boards.greenhouse.io/doordashusa/jobs/8024644) | San Francisco, CA; Seattle, WA; New York, NY | 3d |
+| DoorDash | [Software Engineer, Traffic](https://job-boards.greenhouse.io/doordashusa/jobs/8120763) | San Francisco, CA; New York, NY; Seattle, WA | 3d |
+| DoorDash | [Staff Software Engineer, Backend](https://job-boards.greenhouse.io/doordashusa/jobs/5630302) | New York, NY; Seattle, WA | 3d |
+| DoorDash | [Staff Software Engineer, Event Streaming Systems](https://job-boards.greenhouse.io/doordashusa/jobs/8049133) | New York, NY | 3d |
+| DoorDash | [Strategic Account Development Executive, Platform Innovation](https://job-boards.greenhouse.io/doordashusa/jobs/7644701) | New York, NY; Chicago, IL | 3d |
 | Okta | [Software Engineer II, Developer Tooling (Auth0)](https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088) | Toronto, Ontario, Canada | 3d |
 | Openai | [Software Engineer, GPU Infrastructure- ChatGPT Engineering](https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b) | London, UK | 3d |
 | Plaid | [Staff Software Engineer - AI & Intelligent Tooling](https://jobs.ashbyhq.com/plaid/41448609-24d6-44ea-a5ba-c87cf3dc3f0d) | San Francisco HQ | 3d |
@@ -1207,7 +1235,6 @@ Total hackathons: 206
 | National University of Singapore | [Spatial Hack AI](https://spatial-hack-ai.devpost.com/) |
 | Netaji Subhas University of Technology (NSUT), Delhi | [The Innovator's Court](https://unstop.com/hackathons/the-innovators-court-oblivion26-netaji-subhas-university-of-technology-nsut-delhi-1722249) |
 | Netaji Subhas University of Technology (NSUT), Delhi | [UX Imperium](https://unstop.com/hackathons/ux-imperium-oblivion26-netaji-subhas-university-of-technology-nsut-delhi-1722371) |
-| NeuralSprint | [NeuralSprint](https://neuralsprint.devpost.com/) |
 | Nexploit | [Evil Corp CTF V2](https://unstop.com/hackathons/evil-corp-ctf-v2-nexploit-1733381) |
 | nill | [Code for Humanity](https://code-for-humanity.devpost.com/) |
 | NIMBLUX | [Orvix Hackathon](https://unstop.com/hackathons/orvix-hackathon-nimblux-1730437) |
@@ -1234,6 +1261,7 @@ Total hackathons: 206
 | SRM Institute of Science and Technology (SRMIST), Kattankulathur, Chennai | [Pasumai Hackathon](https://unstop.com/hackathons/pasumai-hackathon-srm-institute-of-science-and-technology-kattankulathur-chennai-1729884) |
 | St Peters Engineering College | [Specathon 2026](https://unstop.com/hackathons/specathon-2026-st-peters-engineering-college-1723868) |
 | St.Joseph's Institute of Technology (STJIT), Chennai | [SN1PHERS 3.0: Capture The Flag(CTF)](https://unstop.com/hackathons/sn1phers-30-capture-the-flagctf-stjosephs-institute-of-technology-stjit-chennai-1732038) |
+| STEMinate Texas | [STEMinate Wildcard Hack](https://steminate-wildcard-hack.devpost.com/) |
 | STEMise | [DSH Hacks V2](https://dsh-hacks-v2.devpost.com/) |
 | Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
 | Suvidha International Foundation | [Suvidha AI Virtual Hackathon](https://suvidha-ai-virtual-hackathon.devpost.com/) |
@@ -1260,15 +1288,13 @@ Total hackathons: 206
 
 ## Events
 
-Total events: 5
+Total events: 3
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
-| Luma | [Follow DC](https://lu.ma/DC2?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 
