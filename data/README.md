@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 1013 |
+| Jobs | 1012 |
 | Hackathons | 207 |
 | Events | 3 |
-| Total | 1223 |
+| Total | 1222 |
 
 ## Jobs
 
-[![Jobs 1013](https://img.shields.io/badge/Jobs-1013-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 103](https://img.shields.io/badge/Internship-103-22c55e.svg)](#internship) [![Early Career 107](https://img.shields.io/badge/Early%20Career-107-0ea5e9.svg)](#early-career) [![Mid-Level and Above 803](https://img.shields.io/badge/Mid--Level%20and%20Above-803-dc2626.svg)](#mid-level-and-above)
+[![Jobs 1012](https://img.shields.io/badge/Jobs-1012-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 103](https://img.shields.io/badge/Internship-103-22c55e.svg)](#internship) [![Early Career 107](https://img.shields.io/badge/Early%20Career-107-0ea5e9.svg)](#early-career) [![Mid-Level and Above 802](https://img.shields.io/badge/Mid--Level%20and%20Above-802-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -75,9 +75,9 @@ Total roles: 103
 | Notion | [Software Engineer Intern (Summer 2027)](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) | San Francisco, California | 0d |
 | Notion | [Software Engineer Intern (Winter 2027)](https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8) | San Francisco, California | 0d |
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true&utm_source=Simplify&ref=Simplify) | SF NYC | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c) | Palo Alto, CA | 0d |
-| Palantir | [Software Engineer, Internship - Defen...](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e) | New York, NY | 0d |
-| Palantir | [Software Engineer, Internship - Defen...](https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d) | Palo Alto, CA | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) | Denver, CO | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -152,6 +152,7 @@ Total roles: 107
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Amazon | [Software Development Engineer - Early Career](https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 0d |
 | Apple | [Software Engineer - Information Systems and Technology - Early Career](https://jobs.apple.com/en-us/details/200677377?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
 | Apple | [Software Engineer, IS&T Early Career](https://jobs.apple.com/en-us/details/200627852-3956/software-engineer-is-t-early-career?utm_source=vansh) | Sunnyvale, CA | 0d |
 | ByteDance | [LLM Backend Engineer Graduate (Applie...](https://joinbytedance.com/search/7667730992538585349) | San Jose, California | 0d |
@@ -187,7 +188,6 @@ Total roles: 107
 | Google | [Software Engineer II, Early Career](https://www.google.com/about/careers/applications/jobs/results/143333237156913862-software-engineer-ii/?utm_source=vansh) | <details><summary>12 locations</summary>Mountain View<br>CA Kirkland<br>WA Los Angeles<br>CA Madison<br>WI New York<br>NY Palo Alto<br>CA Pittsburgh<br>PA Raleigh<br>NC Durham<br>NC San Bruno<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
 | Google | [Software Engineer II, Early Career, Google Cloud AI Catalyst Program](https://www.google.com/about/careers/applications/jobs/results/90452041138086598-software-engineer-ii-early-career-google-cloud-ai-catalyst-program?utm_source=vansh) | Sunnyvale, CA Kirkland, WA Seattle, WA | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
-| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/88714689822761670) | United States | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
 | Notion | [Software Engineer New Grad](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&utm_source=Simplify&ref=Simplify) | SF | 0d |
@@ -262,7 +262,7 @@ Total roles: 107
 
 ### Mid-Level and Above
 
-Total roles: 803
+Total roles: 802
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -271,7 +271,6 @@ Total roles: 803
 | Amazon | [Software Development Engineer II, FBA](https://www.amazon.jobs/en/jobs/10499299/software-development-engineer-ii-fba) | Bengaluru, Karnataka, IND | 0d |
 | Amazon Development Centre Canada ULC | [Software Development Engineer II, Cam...](https://www.amazon.jobs/en/jobs/10499059/software-development-engineer-ii-campaign-management) | Toronto, ON | 0d |
 | Amazon.com Services LLC | [Data Engineer II, Accounting, Accounting](https://www.amazon.jobs/en/jobs/10499131/data-engineer-ii-accounting-accounting) | Arlington, VA | 0d |
-| Google | [Cloud Engineer II, Networking, Profes...](https://www.google.com/about/careers/applications/jobs/results/95418751217738438) | United States | 0d |
 | Instacart | [Site Reliability Engineer II](https://instacart.careers/job/?gh_jid=8121910) | Remote | 0d |
 | NVIDIA | [Developer Relations Manager, AI Platform and Tools - MLOps](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Relations-Manager--AI-Platform-and-Tools---MLOps_JR2018976) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Embedded Software Engineer - DPU Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1) | US, MA, Westford | 0d |
@@ -1103,8 +1102,8 @@ Total hackathons: 207
 | CoArena | [CoArena Hackathon](https://unstop.com/hackathons/coarena-hackathon-coarena-1733431) |
 | Cobuild | [Code Build 1.0](https://unstop.com/hackathons/code-build-10-cobuild-1703709) |
 | Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
+| CodeNeuraX | [CodeNeuraX: AlgoRush](https://unstop.com/hackathons/codeneurax-algorush-codeneurax-1737089) |
 | CreateHER Fest | [DIALED IN Builder Challenge](https://dialedin.devpost.com/) |
-| Cyber HX | [Null Origin - 24 Hour CTF Challenge](https://unstop.com/hackathons/null-origin-24-hour-ctf-challenge-cyber-hx-1698744) |
 | D'Code NSUT | [Ascendant Agents](https://unstop.com/hackathons/ascendant-agents-oblivion26-dcode-nsut-1722256) |
 | D'Code NSUT | [Code Royale](https://unstop.com/hackathons/code-royale-oblivion26-dcode-nsut-1722239) |
 | D'Code NSUT | [Hack-4-Crown](https://unstop.com/hackathons/hack-4-crown-oblivion26-dcode-nsut-1721294) |
@@ -1168,6 +1167,7 @@ Total hackathons: 207
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
 | EduLinkUp | [ELUCode](https://unstop.com/hackathons/elucode-edulinkup-1712263) |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
+| Faculty of Technology, Delhi University | [VakyaBhed](https://unstop.com/hackathons/vakyabhed-yantrika-10-innovate-elevate-faculty-of-technology-delhi-university-1736989) |
 | Falcon Sphere | [Hackside Down Hackathon](https://unstop.com/hackathons/hackside-down-falcon-sphere-1712468) |
 | Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Bandra | [Idea Competition 2026](https://unstop.com/hackathons/idea-competition-2026-fr-conceicao-rodrigues-college-of-engineering-frcrce-bandra-1736048) |
 | G. H. Raisoni College of Engineering and Management (GHRCEM), Nagpur | [Code Forge 2026](https://unstop.com/hackathons/code-forge-2026-g-h-raisoni-college-of-engineering-and-management-ghrcem-nagpur-1726255) |
@@ -1184,6 +1184,7 @@ Total hackathons: 207
 | Hack the Habitat | [Hack the Habitat](https://hack-the-habitat-2026.devpost.com/) |
 | Hackathon Raptors | [Zero Dependency | 72-Hour Hackathon](https://unstop.com/hackathons/zero-dependency-72-hour-hackathon-hackathon-raptors-1733673) |
 | hacker rank | [Infinity Hacks](https://infinity-hacks.devpost.com/) |
+| HackerRank Campus Crew | [Infinity Hacks 2026 | HackerRank](https://infinity-hacks-2026-hackerrank.devpost.com/) |
 | Hackers Cult | [Hackblox AI & Open Source Hackathon](https://unstop.com/hackathons/hackblox-open-source-hackathon-hackers-cult-1731738) |
 | Hackers Unity | [CodeWars](https://unstop.com/hackathons/codewars-hackers-unity-1733690) |
 | hackhere | [Nexora](https://nexora.devpost.com/) |
@@ -1205,7 +1206,6 @@ Total hackathons: 207
 | invoqe | [Breakpoint Hackathon 2026](https://unstop.com/hackathons/breakpoint-hackathon-2026-invoqe-1734966) |
 | Jaihind college of Engineering Kuran | [Hacker's Gambit 2026](https://unstop.com/hackathons/hackers-gambit-2026-jaihind-college-of-engineering-kuran-1723293) |
 | James Logan High School | [AQX Sports Analytics Data Bowl 3.0](https://aqxanalyticsthree.devpost.com/) |
-| Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
 | Kiras Logic | [Hack to Survive](https://unstop.com/hackathons/hack-to-survive-kiras-logic-1705001) |
 | KNOTiC | [EchoSphere: Agora Conversational AI Hackathon](https://unstop.com/hackathons/echosphere-agora-conversational-ai-hackathon-knotic-1723695) |
 | KPR Institute of Engineering and Technology (KPRIET), Coimbatore | [Y-Hack'26 – 24-Hour National Hackathon](https://unstop.com/hackathons/y-hack26-24-hour-national-hackathon-kpr-institute-of-engineering-and-technology-kpriet-coimbatore-1702198) |
@@ -1243,7 +1243,6 @@ Total hackathons: 207
 | Pimpri Chinchwad College of Engineering (PCCOE), Pune | [Indradhanu: PCCOE International Grand Challenge 2026](https://unstop.com/hackathons/indradhanu-pccoe-international-grand-challenge-2026-pimpri-chinchwad-college-of-engineering-pccoe-pune-1710779) |
 | President University | [COMPSPHERE 11](https://compsphere11.devpost.com/) |
 | Primus B School | [Vidhyarthi Sewa EduHack Karnataka 2026](https://vidhyarthi-sewa-eduhack.devpost.com/) |
-| Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
 | Raj Kumar Goel Institute of Technology (RKGIT), Ghaziabad | [Binary Hacks 4.0](https://unstop.com/hackathons/binary-hacks-40-raj-kumar-goel-institute-of-technology-rkgit-ghaziabad-1730767) |
 | Ramco Institute of Technology | [InfiniX'26 – National Level 32-Hour Hackathon](https://unstop.com/hackathons/infinix26-national-level-32-hour-hackathon-ramco-institute-of-technology-1730876) |
 | Ramco Institute of Technology (RIT), Tamil Nadu | [Hackfinity 3.0](https://unstop.com/hackathons/hackfinity-30-ramco-institute-of-technology-rit-tamil-nadu-1722654) |
@@ -1261,10 +1260,10 @@ Total hackathons: 207
 | St.Joseph's Institute of Technology (STJIT), Chennai | [SN1PHERS 3.0: Capture The Flag(CTF)](https://unstop.com/hackathons/sn1phers-30-capture-the-flagctf-stjosephs-institute-of-technology-stjit-chennai-1732038) |
 | STEMise | [DSH Hacks V2](https://dsh-hacks-v2.devpost.com/) |
 | Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
+| Suvidha International Foundation | [Suvidha AI Virtual Hackathon](https://suvidha-ai-virtual-hackathon.devpost.com/) |
 | SVHEC | [NEXORA Global Hackathon](https://nexora-global-hackathon.devpost.com/) |
 | Symbiosis Institute of Digital and Telecom Management (SIDTM) | [AI with Initiative: AI Makes the First Move - Hackathon](https://unstop.com/hackathons/ai-with-initiative-ai-makes-the-first-move-hackathon-symbiosis-institute-of-digital-and-telecom-management-si-1731061) |
 | TechieBunnies team | [BuunieX Hackathon](https://buuniex-hackathon.devpost.com/) |
-| TechNeekX | [TNX Codathon](https://unstop.com/hackathons/tnx-codathon-techneekx-1701580) |
 | Technocrats Group of Institutions, Bhopal, Madhya Pradesh | [Techno Vbiquity 2.O – Technical Coding Competition](https://unstop.com/hackathons/techno-vbiquity-2o-technical-coding-competition-technocrats-group-of-institutions-bhopal-madhya-pradesh-1728481) |
 | Technocrats Institute of Technology (Excellence), Bhopal | [P.A.C.E - Where Logic Meets Expression.](https://unstop.com/hackathons/pace-where-logic-meets-expression-technocrats-institute-of-technology-excellence-bhopal-1719528) |
 | Thadomal Shahani Engineering College (TSEC), Mumbai | [Codeissance 2026](https://unstop.com/hackathons/codeissance-2026-thadomal-shahani-engineering-college-tsec-mumbai-1729289) |
