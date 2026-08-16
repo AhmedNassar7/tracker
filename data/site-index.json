@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T13:45:08Z",
-  "count": 1405,
-  "checksum": "sha256:aad1589ff1f4a8a3a0a5e3d9e3c0c9e65f91398f3b16cef9cb50926c80ce8f47",
+  "generated_at": "2026-08-16T14:38:54Z",
+  "count": 1413,
+  "checksum": "sha256:b789ea3bd3c5c869086fa14f904d60d48c61db4d7231002d91db2ad5b55618c2",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -1175,6 +1175,63 @@
       "age": "0d",
       "posted_at": "2026-08-10",
       "level": "new_grad",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "f4a553483f9bcfd6",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "location": "New York, NY",
+      "url": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "0519abb92d76c8a3",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "location": "Palo Alto, CA",
+      "url": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "Unknown"
+    },
+    {
+      "id": "15cecd05a12a4b83",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "location": "Washington, D.C.",
+      "url": "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
       "category": "product_saas",
@@ -3234,25 +3291,6 @@
       "country": "Canada"
     },
     {
-      "id": "9b0e9b510a42c9e0",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - Backend",
-      "location": "London, UK",
-      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "age": "18d",
-      "posted_at": "2026-08-10",
-      "level": "junior",
-      "region": "emea",
-      "role_type": "backend",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United Kingdom"
-    },
-    {
       "id": "f7eb9ebbd5e7799c",
       "kind": "job",
       "origin": "curated",
@@ -3289,6 +3327,25 @@
       "category": "more_global_tech",
       "remote_type": "onsite",
       "country": "Unknown"
+    },
+    {
+      "id": "9b0e9b510a42c9e0",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - Backend",
+      "location": "London, UK",
+      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "age": "18d",
+      "posted_at": "2026-08-10",
+      "level": "junior",
+      "region": "emea",
+      "role_type": "backend",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United Kingdom"
     },
     {
       "id": "a2074999bf3dbf58",
@@ -3418,6 +3475,25 @@
       "posted_at": "2026-08-10",
       "level": "internship",
       "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "1d189997c9218173",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "location": "NYC",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "age": "1mo",
+      "posted_at": "2026-08-16",
+      "level": "new_grad",
+      "region": "unknown",
       "role_type": "software_engineer",
       "category": "product_saas",
       "remote_type": "onsite",
@@ -4239,6 +4315,38 @@
       "category": "faang",
       "remote_type": "onsite",
       "country": "Unknown"
+    },
+    {
+      "id": "bbd861cb95aad6e1",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Cloud Software Engineer, DGXC Data Services",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "c44c66f7fa554bf5",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
+      "role_type": "full_stack"
     },
     {
       "id": "d31ef50af876ebe4",
@@ -20026,7 +20134,7 @@
       "url": "https://inspire-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 7 hours left",
+      "age": "about 6 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20156,7 +20264,7 @@
       "url": "https://cissa-product-thon-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "1 day left",
+      "age": "about 20 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20858,7 +20966,7 @@
       "url": "https://pec-hacks.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "14 days left",
+      "age": "13 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20936,7 +21044,7 @@
       "url": "https://tum.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "76 days left",
+      "age": "75 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21313,7 +21421,7 @@
       "url": "https://nexora.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 15 hours left",
+      "age": "about 13 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21404,7 +21512,7 @@
       "url": "https://impactforge26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 9 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21612,7 +21720,7 @@
       "url": "https://built-for-nyc.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 4 hours left",
+      "age": "about 3 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21625,7 +21733,7 @@
       "url": "https://hack-days-in-jabalpur.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "about 1 hour left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21651,7 +21759,7 @@
       "url": "https://hack-days-in-oriental.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "about 1 hour left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21781,7 +21889,7 @@
       "url": "https://social-media-automation-hacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 9 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22301,7 +22409,7 @@
       "url": "https://hack-days-in-bhopal-2-o.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "about 1 hour left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22483,7 +22591,7 @@
       "url": "https://unstop.com/hackathons/hackathon-to-solve-indias-garbage-problem-wonksknow-india-technologies-pvt-ltd-1733085",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "55 days left",
+      "age": "54 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22513,6 +22621,19 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "origin": "public",
@@ -22520,6 +22641,19 @@
       "title": "Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team",
       "location": "Global",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "age": "",
