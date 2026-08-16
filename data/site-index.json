@@ -137,6 +137,25 @@
       "country": "United States"
     },
     {
+      "id": "405351d60ff0c149",
+      "kind": "job",
+      "origin": "curated",
+      "company": "ByteDance",
+      "title": "LLM Backend Engineer Graduate (Applie...",
+      "location": "San Jose, California",
+      "url": "https://joinbytedance.com/search/7667730992538585349",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "new_grad",
+      "region": "us",
+      "role_type": "backend",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "9811585ef87e2efe",
       "kind": "job",
       "origin": "curated",
@@ -821,6 +840,25 @@
       "country": "United States"
     },
     {
+      "id": "b3c6ec579af73f91",
+      "kind": "job",
+      "origin": "curated",
+      "company": "JPMorgan Chase",
+      "title": "AI/ML Software Engineer II",
+      "location": "New York, NY, United S...",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210761228",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "mid_level",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "consulting_finance",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "238f1ec0223031ae",
       "kind": "job",
       "origin": "curated",
@@ -1194,6 +1232,63 @@
       "age": "0d",
       "posted_at": "2026-08-10",
       "level": "new_grad",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "66bbf1e553376c7c",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Denver, CO",
+      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "b3126ca0917b76be",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "New York, NY",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Washington, D.C.",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
       "category": "product_saas",
@@ -1733,6 +1828,82 @@
       "country": "United States"
     },
     {
+      "id": "542c662d8fe764e5",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Notion",
+      "title": "Software Engineer Intern - Summer 2027",
+      "location": "SF NYC",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "age": "0d",
+      "posted_at": "2026-08-15",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "e6139c97f0fc6319",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Notion",
+      "title": "Software Engineer Intern - Summer 2027",
+      "location": "San Francisco, CA +1",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "age": "0d",
+      "posted_at": "2026-08-15",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "3b1e7a977e516338",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Notion",
+      "title": "Software Engineer Intern - Winter 2027",
+      "location": "San Francisco, CA +1",
+      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "age": "0d",
+      "posted_at": "2026-08-15",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "6152e80b377e626e",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Notion",
+      "title": "Software Engineer New Grad",
+      "location": "SF",
+      "url": "https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "age": "0d",
+      "posted_at": "2026-08-15",
+      "level": "new_grad",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "Unknown"
+    },
+    {
       "id": "d549d4f2b6e8202f",
       "kind": "job",
       "origin": "curated",
@@ -1999,7 +2170,7 @@
       "country": "United States"
     },
     {
-      "id": "8a4bba29a1df2ec8",
+      "id": "0763a5e01a513519",
       "kind": "job",
       "origin": "curated",
       "company": "Oracle",
@@ -2009,11 +2180,11 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "url": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/342415",
       "age": "1d",
-      "posted_at": "2026-08-13",
+      "posted_at": "2026-08-14",
       "level": "internship",
       "region": "us",
-      "role_type": "platform",
-      "category": "big_tech",
+      "role_type": "software_engineer",
+      "category": "faang",
       "remote_type": "onsite",
       "country": "United States"
     },
@@ -2037,7 +2208,7 @@
       "country": "Canada"
     },
     {
-      "id": "cb7bb974632cdb47",
+      "id": "8a4bba29a1df2ec8",
       "kind": "job",
       "origin": "curated",
       "company": "Apple",
@@ -2126,8 +2297,8 @@
       "posted_at": "2026-08-11",
       "level": "internship",
       "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
+      "role_type": "platform",
+      "category": "big_tech",
       "remote_type": "onsite",
       "country": "United States"
     },
@@ -2189,7 +2360,26 @@
       "country": "Unknown"
     },
     {
-      "id": "890929dcc79a8964",
+      "id": "cb7bb974632cdb47",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Apple",
+      "title": "Software Engineer - Information Systems and Technology - Early Career",
+      "location": "Austin, TX",
+      "url": "https://jobs.apple.com/en-us/details/200677377?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "age": "0d",
+      "posted_at": "2026-08-11",
+      "level": "new_grad",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "faang",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "d9aed6e4a169bea6",
       "kind": "job",
       "origin": "curated",
       "company": "ByteDance",
@@ -2199,10 +2389,29 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
       "age": "0d",
-      "posted_at": "2026-08-10",
+      "posted_at": "2026-08-11",
       "level": "internship",
-      "region": "unknown",
-      "role_type": "machine_learning",
+      "region": "us",
+      "role_type": "infrastructure",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "dbc54393c0f12516",
+      "kind": "job",
+      "origin": "curated",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AML-Engine-Orchestration",
+      "location": "Seattle, WA",
+      "url": "https://jobs.bytedance.com/en/position/7672386983965100341/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "age": "0d",
+      "posted_at": "2026-08-11",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
       "category": "apac_tech",
       "remote_type": "onsite",
       "country": "United States"
@@ -2227,6 +2436,25 @@
       "country": "United States"
     },
     {
+      "id": "be8160db39d009c7",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Citadel",
+      "title": "Sector Data Scientist - 2027 Intern - US",
+      "location": "New York City, NY",
+      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
+      "source": "speedyapply_ai",
+      "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
+      "age": "0d",
+      "posted_at": "2026-08-11",
+      "level": "internship",
+      "region": "us",
+      "role_type": "machine_learning",
+      "category": "consulting_finance",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "52447632a29beaab",
       "kind": "job",
       "origin": "curated",
@@ -2246,7 +2474,7 @@
       "country": "United States"
     },
     {
-      "id": "affe941dfff55262",
+      "id": "ae4746f77f7523da",
       "kind": "job",
       "origin": "curated",
       "company": "Figma",
@@ -2282,6 +2510,44 @@
       "category": "faang",
       "remote_type": "onsite",
       "country": "Unknown"
+    },
+    {
+      "id": "890929dcc79a8964",
+      "kind": "job",
+      "origin": "curated",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern",
+      "location": "San Jose, CA",
+      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "age": "0d",
+      "posted_at": "2026-08-10",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "affe941dfff55262",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Figma",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "location": "San Francisco, CA • Ne...",
+      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "age": "0d",
+      "posted_at": "2026-08-11",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
     },
     {
       "id": "1a22e368a899bfe1",
@@ -2645,6 +2911,25 @@
       "country": "Unknown"
     },
     {
+      "id": "528900449981b412",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Roblox",
+      "title": "Summer 2027 Software Engineer Intern",
+      "location": "San Mateo, CA",
+      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "age": "3d",
+      "posted_at": "2026-08-10",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "category": "more_global_tech",
+      "remote_type": "onsite",
+      "country": "Unknown"
+    },
+    {
       "id": "78dd42daf48c79bb",
       "kind": "job",
       "origin": "curated",
@@ -2662,6 +2947,25 @@
       "category": "more_global_tech",
       "remote_type": "remote",
       "country": "United States"
+    },
+    {
+      "id": "5862cbc805a6aa6d",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Roblox",
+      "title": "Software Engineer - Early Career",
+      "location": "San Mateo, CA",
+      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "age": "4d",
+      "posted_at": "2026-08-10",
+      "level": "new_grad",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "category": "more_global_tech",
+      "remote_type": "onsite",
+      "country": "Unknown"
     },
     {
       "id": "5d1ecca6b6113aa7",
@@ -3158,6 +3462,25 @@
       "country": "Canada"
     },
     {
+      "id": "e3eeae369030798f",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "age": "13d",
+      "posted_at": "2026-07-28",
+      "level": "mid_level",
+      "region": "us",
+      "role_type": "backend",
+      "category": "more_global_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "5c234e2e6c85b5c9",
       "kind": "job",
       "origin": "curated",
@@ -3251,6 +3574,25 @@
       "category": "more_global_tech",
       "remote_type": "onsite",
       "country": "Unknown"
+    },
+    {
+      "id": "9b0e9b510a42c9e0",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - Backend",
+      "location": "London, UK",
+      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "age": "18d",
+      "posted_at": "2026-08-10",
+      "level": "junior",
+      "region": "emea",
+      "role_type": "backend",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United Kingdom"
     },
     {
       "id": "a2074999bf3dbf58",
@@ -3880,7 +4222,7 @@
       "country": "United States"
     },
     {
-      "id": "15f0a62446ff8bfb",
+      "id": "cfab04505d542392",
       "kind": "job",
       "origin": "curated",
       "company": "Amazon",
@@ -3892,7 +4234,7 @@
       "age": "60d",
       "posted_at": "2026-06-17",
       "level": "mid_level",
-      "region": "unknown",
+      "region": "us",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
@@ -4201,6 +4543,54 @@
       "category": "faang",
       "remote_type": "onsite",
       "country": "Unknown"
+    },
+    {
+      "id": "7b57fb548163b49f",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Engineering Manager - OpenBMC Platform",
+      "location": "US, CA, Santa Clara",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform"
+    },
+    {
+      "id": "bbd861cb95aad6e1",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Cloud Software Engineer, DGXC Data Services",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "c44c66f7fa554bf5",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
+      "role_type": "full_stack"
     },
     {
       "id": "d31ef50af876ebe4",
@@ -5051,7 +5441,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "adbafc6103e96dba",
+      "id": "bcab495a8bda256a",
       "kind": "job",
       "origin": "public",
       "company": "Sony Interactive Entertainment",
@@ -5067,7 +5457,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "bcab495a8bda256a",
+      "id": "adbafc6103e96dba",
       "kind": "job",
       "origin": "public",
       "company": "Sony Interactive Entertainment",
@@ -5371,6 +5761,22 @@
       "role_type": "platform"
     },
     {
+      "id": "ddc23d9132da6295",
+      "kind": "job",
+      "origin": "public",
+      "company": "SpaceX",
+      "title": "AI Engineer, Platform Infrastructure, Special Programs",
+      "location": "Washington, DC",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8557252002?gh_jid=8557252002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "age": "4d",
+      "posted_at": "2026-08-12",
+      "level": "other",
+      "region": "us",
+      "role_type": "platform"
+    },
+    {
       "id": "79e27507b64b5ea4",
       "kind": "job",
       "origin": "public",
@@ -5435,7 +5841,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "bdede97ac59dceba",
+      "id": "bd6051aee512f3ac",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -5451,7 +5857,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "bd6051aee512f3ac",
+      "id": "bdede97ac59dceba",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -6395,6 +6801,22 @@
       "role_type": "mobile"
     },
     {
+      "id": "1acb4243b8ccb982",
+      "kind": "job",
+      "origin": "public",
+      "company": "SpaceX",
+      "title": "Satellite Policy Manager (Starlink Mobile)",
+      "location": "Redmond, WA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8691166002?gh_jid=8691166002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "age": "9d",
+      "posted_at": "2026-08-07",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "mobile"
+    },
+    {
       "id": "0aa89a691ba77e4e",
       "kind": "job",
       "origin": "public",
@@ -7099,7 +7521,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "84b9cb83322a78c0",
+      "id": "a7a20a84a65ed227",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -7115,7 +7537,7 @@
       "role_type": "mobile"
     },
     {
-      "id": "a7a20a84a65ed227",
+      "id": "84b9cb83322a78c0",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -7595,7 +8017,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "20c46fe37198e34b",
+      "id": "08107c55902ae07f",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -7611,7 +8033,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "08107c55902ae07f",
+      "id": "20c46fe37198e34b",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -7787,7 +8209,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "f2576a1ed47562f4",
+      "id": "f9bedbc650d6d245",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -7819,7 +8241,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "f9bedbc650d6d245",
+      "id": "f2576a1ed47562f4",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -8043,7 +8465,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "a2ff72e6cfc181e4",
+      "id": "62819ce847eafe3a",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -8059,7 +8481,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "62819ce847eafe3a",
+      "id": "a2ff72e6cfc181e4",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -8235,7 +8657,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "e833292c609d7626",
+      "id": "25976c0d6b8b0484",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -8251,7 +8673,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "25976c0d6b8b0484",
+      "id": "e833292c609d7626",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -8539,7 +8961,7 @@
       "role_type": "frontend"
     },
     {
-      "id": "8e5ce1fe3bf27593",
+      "id": "ad459adc67d9fa13",
       "kind": "job",
       "origin": "public",
       "company": "Sony Interactive Entertainment",
@@ -8555,7 +8977,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "ad459adc67d9fa13",
+      "id": "8e5ce1fe3bf27593",
       "kind": "job",
       "origin": "public",
       "company": "Sony Interactive Entertainment",
@@ -8676,6 +9098,22 @@
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "url": "https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002",
+      "age": "23d",
+      "posted_at": "2026-07-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "031c599dbe53cb78",
+      "kind": "job",
+      "origin": "public",
+      "company": "SpaceX",
+      "title": "Application Software Engineer",
+      "location": "Cape Canaveral, FL",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8643772002?gh_jid=8643772002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "age": "23d",
       "posted_at": "2026-07-24",
       "level": "other",
@@ -8811,7 +9249,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "68c2a5200d804437",
+      "id": "edf4e298d22c6051",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -8827,7 +9265,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "edf4e298d22c6051",
+      "id": "68c2a5200d804437",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -8971,7 +9409,7 @@
       "role_type": "full_stack"
     },
     {
-      "id": "35839cba285c3ea2",
+      "id": "f3ec79b1e54f00b3",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -8987,7 +9425,7 @@
       "role_type": "full_stack"
     },
     {
-      "id": "f3ec79b1e54f00b3",
+      "id": "35839cba285c3ea2",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9195,7 +9633,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "35cca9ba6a32342a",
+      "id": "193a89a3129af4f8",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9211,7 +9649,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "193a89a3129af4f8",
+      "id": "35cca9ba6a32342a",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9451,7 +9889,7 @@
       "role_type": "platform"
     },
     {
-      "id": "92f797e21a782c69",
+      "id": "1f6fcc3107601f72",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9499,7 +9937,7 @@
       "role_type": "platform"
     },
     {
-      "id": "1f6fcc3107601f72",
+      "id": "e9753784a5dc0f53",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9515,7 +9953,7 @@
       "role_type": "platform"
     },
     {
-      "id": "e9753784a5dc0f53",
+      "id": "92f797e21a782c69",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9835,7 +10273,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "d09504878dbe1a29",
+      "id": "33cc234c10067f1b",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9867,7 +10305,7 @@
       "role_type": "platform"
     },
     {
-      "id": "33cc234c10067f1b",
+      "id": "d09504878dbe1a29",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9899,7 +10337,7 @@
       "role_type": "platform"
     },
     {
-      "id": "fe7912460adc4b7b",
+      "id": "d58e9b5f449ab8df",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -9915,7 +10353,7 @@
       "role_type": "platform"
     },
     {
-      "id": "d58e9b5f449ab8df",
+      "id": "fe7912460adc4b7b",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10011,7 +10449,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "aa4e0d51923de6b7",
+      "id": "c36392570a4914f8",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10027,7 +10465,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "c36392570a4914f8",
+      "id": "aa4e0d51923de6b7",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10123,7 +10561,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "e3ff0dbd78264061",
+      "id": "18abdb9a2f8c2b15",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10139,7 +10577,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "18abdb9a2f8c2b15",
+      "id": "e3ff0dbd78264061",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10203,7 +10641,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "d57bfdc9d81feafc",
+      "id": "8389a8c65a684928",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10219,7 +10657,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "8389a8c65a684928",
+      "id": "d57bfdc9d81feafc",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10459,7 +10897,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "9cb6513634d6d55e",
+      "id": "7c516585e4de12fd",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10475,7 +10913,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "7c516585e4de12fd",
+      "id": "9cb6513634d6d55e",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10587,7 +11025,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "dccae8fa2afc5caf",
+      "id": "d6428e5978d3bdb1",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10603,7 +11041,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "d6428e5978d3bdb1",
+      "id": "dccae8fa2afc5caf",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10635,7 +11073,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "d57f7c6cd6828de7",
+      "id": "39aa85b60295b85e",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10651,7 +11089,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "39aa85b60295b85e",
+      "id": "d57f7c6cd6828de7",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10795,7 +11233,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "43a474cdcb21d6da",
+      "id": "105a3a42d5fa1d18",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10811,7 +11249,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "105a3a42d5fa1d18",
+      "id": "43a474cdcb21d6da",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10891,7 +11329,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "27440c8454c71796",
+      "id": "afeb0f395dab38c9",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -10907,7 +11345,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "afeb0f395dab38c9",
+      "id": "27440c8454c71796",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11083,7 +11521,7 @@
       "role_type": "mobile"
     },
     {
-      "id": "a496ef0dbdc020b2",
+      "id": "eb534e6a4ce819f0",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11099,7 +11537,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "eb534e6a4ce819f0",
+      "id": "a496ef0dbdc020b2",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11323,6 +11761,22 @@
       "role_type": "frontend"
     },
     {
+      "id": "843040d32e7dd58a",
+      "kind": "job",
+      "origin": "public",
+      "company": "SpaceX",
+      "title": "Sr. RF Front-End Module Design Engineer (RFIC Engineering)",
+      "location": "Redmond, WA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8499101002?gh_jid=8499101002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "age": "23d",
+      "posted_at": "2026-07-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "frontend"
+    },
+    {
       "id": "83e7c58e36c736fa",
       "kind": "job",
       "origin": "public",
@@ -11467,6 +11921,22 @@
       "role_type": "infrastructure"
     },
     {
+      "id": "01ddbb7819c3af28",
+      "kind": "job",
+      "origin": "public",
+      "company": "SpaceX",
+      "title": "Sr. Site Reliability Engineer (Starshield)",
+      "location": "Redmond, WA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "age": "23d",
+      "posted_at": "2026-07-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "infrastructure"
+    },
+    {
       "id": "bcbb00f258f5d8e4",
       "kind": "job",
       "origin": "public",
@@ -11499,7 +11969,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "a86c3810554ebb5c",
+      "id": "96ea9cf4906aea50",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11531,6 +12001,22 @@
       "role_type": "platform"
     },
     {
+      "id": "469c28668ac8658c",
+      "kind": "job",
+      "origin": "public",
+      "company": "SpaceX",
+      "title": "Sr. Software Engineer (Platform Team)",
+      "location": "Hawthorne, CA",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8495853002?gh_jid=8495853002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "age": "23d",
+      "posted_at": "2026-07-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform"
+    },
+    {
       "id": "42e9273c3311e7f7",
       "kind": "job",
       "origin": "public",
@@ -11547,7 +12033,7 @@
       "role_type": "platform"
     },
     {
-      "id": "96ea9cf4906aea50",
+      "id": "a86c3810554ebb5c",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11659,7 +12145,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "ce10748af22132ae",
+      "id": "9bc8d0661bc0da70",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11675,7 +12161,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "9bc8d0661bc0da70",
+      "id": "ce10748af22132ae",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11755,7 +12241,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "4436b6d1730e6821",
+      "id": "af305a7a10adae41",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11771,7 +12257,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "af305a7a10adae41",
+      "id": "4436b6d1730e6821",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11819,7 +12305,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "acbe3829d49dc1ba",
+      "id": "5c1b32e3203e7687",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11835,7 +12321,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "5c1b32e3203e7687",
+      "id": "acbe3829d49dc1ba",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11899,7 +12385,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "16d8d7afb412b577",
+      "id": "d1f7fa8736672d45",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -11915,7 +12401,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "d1f7fa8736672d45",
+      "id": "16d8d7afb412b577",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -12075,7 +12561,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "59a3ca7b2452a49d",
+      "id": "b1a0225dc99a6f2f",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -12091,7 +12577,7 @@
       "role_type": "mobile"
     },
     {
-      "id": "b1a0225dc99a6f2f",
+      "id": "59a3ca7b2452a49d",
       "kind": "job",
       "origin": "public",
       "company": "SpaceX",
@@ -13115,7 +13601,7 @@
       "role_type": "mobile"
     },
     {
-      "id": "f76c730e27bebfc9",
+      "id": "b60a61280d8b5a9b",
       "kind": "job",
       "origin": "public",
       "company": "Sony Interactive Entertainment",
@@ -13127,7 +13613,7 @@
       "age": "38d",
       "posted_at": "2026-07-09",
       "level": "other",
-      "region": "us",
+      "region": "emea",
       "role_type": "software_engineer"
     },
     {
@@ -13147,7 +13633,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "b60a61280d8b5a9b",
+      "id": "f76c730e27bebfc9",
       "kind": "job",
       "origin": "public",
       "company": "Sony Interactive Entertainment",
@@ -13159,7 +13645,7 @@
       "age": "38d",
       "posted_at": "2026-07-09",
       "level": "other",
-      "region": "emea",
+      "region": "us",
       "role_type": "software_engineer"
     },
     {
@@ -19940,6 +20426,19 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "a83458d106532a8c",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Binnovative",
+      "title": "AnimalHack 2026",
+      "location": "Online",
+      "url": "https://animalhack2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "age": "27 days left",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "a9166073ec62a5b9",
       "kind": "hackathon",
       "origin": "public",
@@ -20639,6 +21138,19 @@
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hackverse-into-the-web.devfolio.co",
       "age": "16 days left",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "id": "1304fab8be08f2be",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Hakkathon",
+      "location": "Philadelphia, United States",
+      "url": "https://hakkathon.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "age": "2 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22046,6 +22558,19 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "8662a5bbc58a19f5",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Rice University",
+      "title": "The Rice University Urban Sustainability Hackathon",
+      "location": "Online",
+      "url": "https://rice-urban-sustainability.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "age": "about 1 month left",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "9b62b6d6f198e0c2",
       "kind": "hackathon",
       "origin": "public",
@@ -22176,6 +22701,19 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "a590ba4acbf4fa0e",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Student Organization",
+      "title": "Next Founders Hackathon",
+      "location": "Online",
+      "url": "https://next-founders.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "age": "about 2 months left",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "76585d3dc3653b3d",
       "kind": "hackathon",
       "origin": "public",
@@ -22254,7 +22792,7 @@
       "posted_at": "2026-08-16"
     },
     {
-      "id": "bad291df5c28ed21",
+      "id": "f1beaa9ecddd729b",
       "kind": "hackathon",
       "origin": "public",
       "company": "The BlockZen",
@@ -22475,6 +23013,19 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "origin": "public",
@@ -22484,6 +23035,19 @@
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "url": "https://lu.ma/deepmind?k=c",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
       "age": "",
       "posted_at": "2026-08-16"
     }
