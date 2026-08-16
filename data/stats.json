@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T04:49:23Z",
+  "generated_at": "2026-08-16T05:41:56Z",
   "total": 252,
   "by_level": {
     "new_grad": 99,
@@ -23,9 +23,10 @@
     "vanshb03_summer_internships": 25,
     "lorenzolacorte_eu": 4,
     "simplify_newgrad": 19,
-    "zapplyjobs_newgrad": 6,
+    "zapplyjobs_newgrad": 5,
     "zapplyjobs_all_newgrad": 1,
     "zapplyjobs_canada_internships": 2,
+    "zapplyjobs_datascience": 3,
     "hanzili_canada": 1,
     "ambicuity": 41,
     "speedyapply_swe": 20,
@@ -33,7 +34,6 @@
     "zapplyjobs_internships": 6,
     "amazon": 24,
     "speedyapply_ai": 7,
-    "zapplyjobs_canada": 5,
-    "zapplyjobs_datascience": 2
+    "zapplyjobs_canada": 5
   }
 }
