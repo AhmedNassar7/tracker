@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:36:14Z",
+  "generated_at": "2026-08-16T21:33:33Z",
   "total": 224,
   "jobs": [
     {
@@ -1008,6 +1008,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b3c6ec579af73f91",
+      "company": "JPMorgan Chase",
+      "title": "AI/ML Software Engineer II",
+      "level": "mid_level",
+      "category": "consulting_finance",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY, United S...",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210761228",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-16",
+      "age": "0d",
+      "collected_at": "2026-08-16T21:33:33Z",
       "tags": [
         "software",
         "programming",
@@ -2917,29 +2940,6 @@
       "posted_at": "2026-08-11",
       "age": "4d",
       "collected_at": "2026-08-11T17:11:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8c7a759de29d75c5",
-      "company": "Okta",
-      "title": "Software Engineer II, Developer Tooli...",
-      "level": "mid_level",
-      "category": "cloud_infra",
-      "region": "canada",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Toronto, Ontario, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-16",
-      "age": "1w",
-      "collected_at": "2026-08-16T12:59:42Z",
       "tags": [
         "software",
         "programming",
