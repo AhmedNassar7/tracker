@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply ‚Ä
 
 | Section | Count |
 |---|---:|
-| Jobs | 981 |
+| Jobs | 985 |
 | Hackathons | 207 |
-| Events | 3 |
-| Total | 1191 |
+| Events | 5 |
+| Total | 1197 |
 
 ## Jobs
 
-[![Jobs 981](https://img.shields.io/badge/Jobs-981-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 104](https://img.shields.io/badge/Internship-104-22c55e.svg)](#internship) [![Early Career 106](https://img.shields.io/badge/Early%20Career-106-0ea5e9.svg)](#early-career) [![Mid-Level and Above 771](https://img.shields.io/badge/Mid--Level%20and%20Above-771-dc2626.svg)](#mid-level-and-above)
+[![Jobs 985](https://img.shields.io/badge/Jobs-985-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 104](https://img.shields.io/badge/Internship-104-22c55e.svg)](#internship) [![Early Career 106](https://img.shields.io/badge/Early%20Career-106-0ea5e9.svg)](#early-career) [![Mid-Level and Above 775](https://img.shields.io/badge/Mid--Level%20and%20Above-775-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -156,6 +156,7 @@ Total roles: 106
 | Amazon | [Software Development Engineer - Early Career](https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 0d |
 | Apple | [Software Engineer - Information Systems and Technology - Early Career](https://jobs.apple.com/en-us/details/200677377?utm_source=Simplify&ref=Simplify) | Austin, TX | 0d |
 | Apple | [Software Engineer, IS&T Early Career](https://jobs.apple.com/en-us/details/200627852-3956/software-engineer-is-t-early-career?utm_source=vansh) | Sunnyvale, CA | 0d |
+| ByteDance | [LLM Backend Engineer Graduate (Applie...](https://joinbytedance.com/search/7667730992538585349) | San Jose, California | 0d |
 | ByteDance | [Multi-Cloud CDN Data Platform Engineer Graduate (CDN Platform) - 2027 Start](https://www.indeed.com/viewjob?jk=2e9adcb2b4a866c9) | Seattle, WA, US | 0d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Graduate (CDN Platform) - 2027 Start](https://www.indeed.com/viewjob?jk=8c35fee4caa3719c) | San Jose, CA, US | 0d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Graduate (CDN Platform) - 2027 Start](https://www.indeed.com/viewjob?jk=3273d8f069b0aea2) | Seattle, WA, US | 0d |
@@ -186,7 +187,6 @@ Total roles: 106
 | Google | [Software Engineer II, Early Career](https://www.google.com/about/careers/applications/jobs/results/143333237156913862-software-engineer-ii/?utm_source=vansh) | <details><summary>12 locations</summary>Mountain View<br>CA Kirkland<br>WA Los Angeles<br>CA Madison<br>WI New York<br>NY Palo Alto<br>CA Pittsburgh<br>PA Raleigh<br>NC Durham<br>NC San Bruno<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
 | Google | [Software Engineer II, Early Career, Google Cloud AI Catalyst Program](https://www.google.com/about/careers/applications/jobs/results/90452041138086598-software-engineer-ii-early-career-google-cloud-ai-catalyst-program?utm_source=vansh) | Sunnyvale, CA Kirkland, WA Seattle, WA | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
-| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montr√©al, QC H3B 3M4 (Onsite) | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
 | Notion | [Software Engineer New Grad](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&utm_source=Simplify&ref=Simplify) | SF | 0d |
@@ -262,7 +262,7 @@ Total roles: 106
 
 ### Mid-Level and Above
 
-Total roles: 771
+Total roles: 775
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -489,8 +489,8 @@ Total roles: 771
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 13d |
 | Pinterest | [Security Software Engineer II, Detection and Response](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) | San Francisco, CA, US; Remote, US | 13d |
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 13d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 13d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 13d |
 | Sony Interactive Entertainment | [Senior Software Engineer, Quality Engineering](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5722668004) | United Kingdom, Bristol | 13d |
 | SpaceX | [Electric Engineer, Energy Infrastructure & Generation](https://boards.greenhouse.io/spacex/jobs/8658859002?gh_jid=8658859002) | Bastrop, TX | 13d |
@@ -505,6 +505,7 @@ Total roles: 771
 | Cohere | [Forward Deployed Engineer, Agentic Platform](https://jobs.ashbyhq.com/cohere/b0bcef37-1d20-414f-aade-c54942d63df9) | United States | 15d |
 | Cohere | [Forward Deployed Engineer, Agentic Platform (West Coast)](https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9) | San Francisco | 15d |
 | Openai | [Software Engineer, API Agents](https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda) | San Francisco | 15d |
+| Amazon | [Software Development Engineer II (ADBL178)](https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178) | Newark, New Jersey, USA | 16d |
 | Openai | [Software Engineer, API Multimodal](https://jobs.ashbyhq.com/openai/96de8acb-556e-451b-bc84-7124bb4b0a20) | San Francisco | 16d |
 | Sony Interactive Entertainment | [Director, IT Core Infrastructure](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6102723004) | United Kingdom, London | 16d |
 | SpaceX | [Full Stack Software Engineer, Internal Systems](https://boards.greenhouse.io/spacex/jobs/8663562002?gh_jid=8663562002) | Bastrop, TX | 16d |
@@ -809,6 +810,7 @@ Total roles: 771
 | Openai | [Software Engineer, Compute Foundations Systems](https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64) | San Francisco | 26d |
 | Openai | [Software Engineer, Ads Conversion Measurement](https://jobs.ashbyhq.com/openai/1b86ec8e-fe34-452d-bbff-6619579e7385) | San Francisco | 27d |
 | Amazon | [Software Development Engineer II, Amazon](https://www.amazon.jobs/en/jobs/10472832/software-development-engineer-ii-amazon) | Seattle, Washington, USA | 28d |
+| Amazon | [Software Development Engineer II, AmazonMQ](https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq) | Vancouver, British Columbia, CAN | 1mo |
 | Openai | [Systems Generalist, GPT Infrastructure](https://jobs.ashbyhq.com/openai/78c2a68b-cc77-4c62-8891-96afb603650a) | San Francisco | 1mo |
 | Sony | [Sr. Software Engineer, AI Native](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/NA--Culver-City-10202-W-Washington-375/Sr-Software-Engineer--AI-Native_JR-119291) | NA / Culver City 10202 W. Washington 37.5 | 1mo |
 | Sony Interactive Entertainment | [Software Engineer II, Data Platform](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5836234004) | United States, San Diego, CA | 1mo |
@@ -883,14 +885,15 @@ Total roles: 771
 | Cohere | [Senior/Staff Software Engineer, Developer Experience](https://jobs.ashbyhq.com/cohere/6d499dbb-8209-4f02-ae57-a1f1efa9ecbb) | London | 1mo |
 | Cohere | [Software Engineer, Adoption](https://jobs.ashbyhq.com/cohere/732c05f5-a9ec-43a3-9ae4-3ec7f7630fff) | London | 1mo |
 | Plaid | [Staff Site Reliability Engineer - Release Engineering](https://jobs.ashbyhq.com/plaid/07cde72b-a127-48a8-b01a-570de5768340) | New York City Office | 1mo |
+| Amazon | [Software Development Engineer II, Aurora](https://www.amazon.jobs/en/jobs/10451656/software-development-engineer-ii-aurora) | Bengaluru, Karnataka, IND | 2mo |
 | Cohere | [Data Annotation Specialist, Software Engineering](https://jobs.ashbyhq.com/cohere/5d31ba60-683a-4d59-8059-3f728b772a9e) | Canada | 2mo |
 | Openai | [Full Stack Software Engineer, Agent Enablement](https://jobs.ashbyhq.com/openai/2d7f1028-ce9b-49c7-acc8-782714ca1cf4) | San Francisco | 2mo |
-| Amazon | [Software Development Engineer II, Software Defined Networking](https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking) | Austin, Texas, USA | 2mo |
 | Cohere | [Software Engineer, North for Finance](https://jobs.ashbyhq.com/cohere/f722247c-291b-44ee-af67-5159b8d5d9b9) | Europe | 2mo |
 | Ramp | [Software Engineer, International](https://jobs.ashbyhq.com/ramp/be75224c-854c-4a55-9da5-62ca2dcc09df) | London | 2mo |
 | Cohere | [Software Engineer, Agents & Automations](https://jobs.ashbyhq.com/cohere/4a3c3eb2-ae2e-4a86-a677-7bdecbc7d76e) | London | 2mo |
 | Openai | [Full Stack Software Engineer, ChatGPT Finances](https://jobs.ashbyhq.com/openai/39e06ef9-5e62-425d-81e2-e8690188011f) | San Francisco | 2mo |
 | Palantir | [Forward Deployed Software Engineer - Norwegian Government](https://jobs.lever.co/palantir/0a0d2db2-75a5-48e4-b0a0-81baa6588e36) | Oslo, Norway | 2mo |
+| Amazon | [Software Development Engineer II, FinTech](https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech) | Hyderabad, Telangana, IND | 2mo |
 | Openai | [Software Engineer, Computer Use & Frontier Interfaces](https://jobs.ashbyhq.com/openai/39a709f3-6e9e-45e9-94eb-43a1c2aaaeaf) | San Francisco | 2mo |
 | Openai | [Software Engineer, Private Computing](https://jobs.ashbyhq.com/openai/0f887fe6-39f4-44f6-8ee5-230c3002f0d7) | San Francisco | 2mo |
 | Cohere | [Engineering Manager, FDE Infrastructure (NORAM)](https://jobs.ashbyhq.com/cohere/6a6120d5-5e02-4811-99d9-6baf0b910e37) | Canada | 2mo |
@@ -988,6 +991,7 @@ Total roles: 771
 | Openai | [Software Engineer, GPT Infrastructure](https://jobs.ashbyhq.com/openai/f3ddd41c-541f-485e-90d6-86c26e018e9f) | San Francisco | 3mo |
 | Ramp | [Software Engineer, Engineering Platform](https://jobs.ashbyhq.com/ramp/198150d6-789a-4ef8-999f-93a49656d4f1) | New York, NY (HQ) | 3mo |
 | Ramp | [Software Engineer, Production Engineering](https://jobs.ashbyhq.com/ramp/be496b52-cfbf-494e-b862-61fb4a188b24) | New York, NY (HQ) | 3mo |
+| Amazon | [Software Development Engineer II, Amazon](https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon) | Hyderabad, Telangana, IND | 3mo |
 | Openai | [Software Engineer, Inference - Performance Optimization](https://jobs.ashbyhq.com/openai/85fceac9-fb8a-4d71-a524-a8e5f1e9b01b) | San Francisco | 3mo |
 | Notion | [Software Engineer, Collections Experience](https://jobs.ashbyhq.com/notion/5d8c1ec6-e9ea-416b-9715-880bf5037abc) | San Francisco, California | 3mo |
 | Cohere | [Engineering Manager, FDE Infrastructure (UK)](https://jobs.ashbyhq.com/cohere/9bdbb821-6536-4090-8faa-a2b04a70bbf1) | United Kingdom | 3mo |
@@ -1254,13 +1258,15 @@ Total hackathons: 207
 
 ## Events
 
-Total events: 3
+Total events: 5
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow DC](https://lu.ma/DC2?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 

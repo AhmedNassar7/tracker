@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T19:33:46Z",
-  "count": 1406,
-  "checksum": "sha256:3676bc12b9fdb0a72731b1d3a9a6b6af67ef525b31070394bf91d00aa91c43a6",
+  "generated_at": "2026-08-16T20:37:24Z",
+  "count": 1412,
+  "checksum": "sha256:21416f4d761d7b3ac6ddcdbc4a986ae9a69dc1fa33862b203ec249e612bd00a6",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -132,6 +132,25 @@
       "level": "internship",
       "region": "unknown",
       "role_type": "software_engineer",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "405351d60ff0c149",
+      "kind": "job",
+      "origin": "curated",
+      "company": "ByteDance",
+      "title": "LLM Backend Engineer Graduate (Applie...",
+      "location": "San Jose, California",
+      "url": "https://joinbytedance.com/search/7667730992538585349",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "new_grad",
+      "region": "us",
+      "role_type": "backend",
       "category": "apac_tech",
       "remote_type": "onsite",
       "country": "United States"
@@ -724,25 +743,6 @@
       "category": "faang",
       "remote_type": "onsite",
       "country": "Poland"
-    },
-    {
-      "id": "36a558da58240319",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "location": "United States",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "age": "0d",
-      "posted_at": "2026-08-16",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
     },
     {
       "id": "cc7a168906373af1",
@@ -2873,6 +2873,25 @@
       "country": "United Kingdom"
     },
     {
+      "id": "b79f5f772d067aaf",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Amazon",
+      "title": "Software Development Engineer II (ADBL178)",
+      "location": "Newark, New Jersey, USA",
+      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "age": "16d",
+      "posted_at": "2026-07-31",
+      "level": "mid_level",
+      "region": "us",
+      "role_type": "other_swe",
+      "category": "faang",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "3de94be518093ad5",
       "kind": "job",
       "origin": "curated",
@@ -3139,25 +3158,6 @@
       "country": "Canada"
     },
     {
-      "id": "ef35692e10223a42",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
-      "location": "Toronto, ON, CA",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "age": "13d",
-      "posted_at": "2026-07-28",
-      "level": "mid_level",
-      "region": "canada",
-      "role_type": "backend",
-      "category": "more_global_tech",
-      "remote_type": "onsite",
-      "country": "Canada"
-    },
-    {
       "id": "e3eeae369030798f",
       "kind": "job",
       "origin": "curated",
@@ -3175,6 +3175,25 @@
       "category": "more_global_tech",
       "remote_type": "onsite",
       "country": "United States"
+    },
+    {
+      "id": "ef35692e10223a42",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend",
+      "location": "Toronto, ON, CA",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "age": "13d",
+      "posted_at": "2026-07-28",
+      "level": "mid_level",
+      "region": "canada",
+      "role_type": "backend",
+      "category": "more_global_tech",
+      "remote_type": "onsite",
+      "country": "Canada"
     },
     {
       "id": "5c234e2e6c85b5c9",
@@ -3479,6 +3498,25 @@
       "category": "big_tech",
       "remote_type": "onsite",
       "country": "Unknown"
+    },
+    {
+      "id": "fd95b7ef37fe6f7c",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AmazonMQ",
+      "location": "Vancouver, British Columbia, CAN",
+      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "age": "30d",
+      "posted_at": "2026-07-17",
+      "level": "mid_level",
+      "region": "canada",
+      "role_type": "other_swe",
+      "category": "faang",
+      "remote_type": "onsite",
+      "country": "Canada"
     },
     {
       "id": "311a5c380149d262",
@@ -3899,23 +3937,42 @@
       "country": "United States"
     },
     {
-      "id": "cfab04505d542392",
+      "id": "15f0a62446ff8bfb",
       "kind": "job",
       "origin": "curated",
       "company": "Amazon",
-      "title": "Software Development Engineer II, Software Defined Networking",
-      "location": "Austin, Texas, USA",
-      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
+      "title": "Software Development Engineer II, Aurora",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/10451656/software-development-engineer-ii-aurora",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
-      "age": "61d",
-      "posted_at": "2026-06-16",
+      "age": "60d",
+      "posted_at": "2026-06-17",
       "level": "mid_level",
-      "region": "us",
+      "region": "unknown",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
-      "country": "United States"
+      "country": "Unknown"
+    },
+    {
+      "id": "3f75e139ddcfc77b",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "location": "Hyderabad, Telangana, IND",
+      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "age": "65d",
+      "posted_at": "2026-06-12",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "category": "faang",
+      "remote_type": "onsite",
+      "country": "Unknown"
     },
     {
       "id": "77d3c3317e6190d8",
@@ -4081,6 +4138,25 @@
       "source_url": "https://www.amazon.jobs/",
       "age": "105d",
       "posted_at": "2026-04-27",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "category": "faang",
+      "remote_type": "onsite",
+      "country": "Unknown"
+    },
+    {
+      "id": "86c087a99d1f949a",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Amazon",
+      "location": "Hyderabad, Telangana, IND",
+      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "age": "113d",
+      "posted_at": "2026-04-25",
       "level": "mid_level",
       "region": "unknown",
       "role_type": "other_swe",
@@ -19822,7 +19898,7 @@
       "url": "https://brainwave-2026-midnight-track.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 24 hours left",
+      "age": "about 22 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -19835,7 +19911,7 @@
       "url": "https://adtc-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "9 days left",
+      "age": "8 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20043,7 +20119,7 @@
       "url": "https://inspire-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "about 1 hour left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20238,7 +20314,7 @@
       "url": "https://cs-girlies-wellness-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "about 1 hour left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20251,7 +20327,7 @@
       "url": "https://dialedin.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "24 days left",
+      "age": "23 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20563,7 +20639,7 @@
       "url": "https://hackonhills8.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "77 days left",
+      "age": "76 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20823,7 +20899,7 @@
       "url": "https://meowthon.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21278,7 +21354,7 @@
       "url": "https://prismbuild.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "35 minutes left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21434,7 +21510,7 @@
       "url": "https://impactforge26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 3 hours left",
+      "age": "about 2 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21720,7 +21796,7 @@
       "url": "https://create-with-gemini.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "10 days left",
+      "age": "9 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21759,7 +21835,7 @@
       "url": "https://social-media-automation-hacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 3 hours left",
+      "age": "about 2 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21889,7 +21965,7 @@
       "url": "https://oregonhacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 20 hours left",
+      "age": "about 19 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21915,7 +21991,7 @@
       "url": "https://youcam-api.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 20 hours left",
+      "age": "about 19 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22461,7 +22537,7 @@
       "url": "https://unstop.com/hackathons/innovik-60-international-hackathon-2026-vikrant-institute-of-technology-and-management-indore-1731748",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "30 days left",
+      "age": "29 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22517,6 +22593,19 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "origin": "public",
@@ -22524,6 +22613,19 @@
       "title": "Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team",
       "location": "Global",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "age": "",
