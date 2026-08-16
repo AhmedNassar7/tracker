@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T16:41:56Z",
-  "count": 1409,
-  "checksum": "sha256:d59677988d166e8217b92002ce89ceaeeaf483d263164ec517f3b4152abadd6d",
+  "generated_at": "2026-08-16T17:33:55Z",
+  "count": 1410,
+  "checksum": "sha256:646f5e0351ef47aef0efe747e97b68355af5b02cd80301f0c3efe3c065a842a3",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -1175,6 +1175,25 @@
       "age": "0d",
       "posted_at": "2026-08-10",
       "level": "new_grad",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Washington, D.C.",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
       "category": "product_saas",
@@ -20119,7 +20138,7 @@
       "url": "https://inspire-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 4 hours left",
+      "age": "about 3 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20249,7 +20268,7 @@
       "url": "https://cissa-product-thon-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 19 hours left",
+      "age": "about 17 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20314,7 +20333,7 @@
       "url": "https://cs-girlies-wellness-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 5 hours left",
+      "age": "about 4 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21341,7 +21360,7 @@
       "url": "https://prismbuild.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 5 hours left",
+      "age": "about 3 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21354,7 +21373,7 @@
       "url": "https://hack-the-habitat-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "15 days left",
+      "age": "14 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21367,7 +21386,7 @@
       "url": "https://unstop.com/hackathons/zero-dependency-72-hour-hackathon-hackathon-raptors-1733673",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "12 days left",
+      "age": "11 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21406,7 +21425,7 @@
       "url": "https://nexora.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 12 hours left",
+      "age": "about 11 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21497,7 +21516,7 @@
       "url": "https://impactforge26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 6 hours left",
+      "age": "about 5 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21692,7 +21711,7 @@
       "url": "https://built-for-nyc.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 1 hour left",
+      "age": "27 minutes left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21835,7 +21854,7 @@
       "url": "https://social-media-automation-hacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 6 hours left",
+      "age": "about 5 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21965,7 +21984,7 @@
       "url": "https://oregonhacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 23 hours left",
+      "age": "about 22 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21991,7 +22010,7 @@
       "url": "https://youcam-api.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 23 hours left",
+      "age": "about 22 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22056,7 +22075,7 @@
       "url": "https://vidhyarthi-sewa-eduhack.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-16"
     },
     {
