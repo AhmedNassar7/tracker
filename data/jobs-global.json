@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T04:49:23Z",
+  "generated_at": "2026-08-16T05:41:56Z",
   "total": 221,
   "jobs": [
     {
@@ -911,11 +911,11 @@
       "location": "United States",
       "remote_type": "onsite",
       "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-08-16",
       "age": "0d",
-      "collected_at": "2026-08-16T04:49:23Z",
+      "collected_at": "2026-08-16T05:41:56Z",
       "tags": [
         "software",
         "programming",

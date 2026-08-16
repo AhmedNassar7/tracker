@@ -28,9 +28,9 @@ Every row links straight to the real application page. Click a title to apply â€
 | Section | Count |
 |---|---:|
 | Jobs | 979 |
-| Hackathons | 207 |
-| Events | 3 |
-| Total | 1189 |
+| Hackathons | 206 |
+| Events | 5 |
+| Total | 1190 |
 
 ## Jobs
 
@@ -1038,7 +1038,7 @@ Total roles: 771
 
 ## Hackathons
 
-Total hackathons: 207
+Total hackathons: 206
 
 | Organizer | Hackathon |
 |---|---|
@@ -1111,7 +1111,6 @@ Total hackathons: 207
 | Devfolio | [HackVerse: Into the Web](https://hackverse-into-the-web.devfolio.co) |
 | Devfolio | [Hefty-Hacks](https://hefty-hacks.devfolio.co) |
 | Devfolio | [HyperFusion](https://hyperfusion.devfolio.co) |
-| Devfolio | [Infinity Hacks 2026](https://infinity-hacks.devfolio.co) |
 | Devfolio | [InnoFusion 3.0](https://innofusion-3.devfolio.co) |
 | Devfolio | [Innohacks 4.0](https://innohacks-4.devfolio.co) |
 | Devfolio | [Interledger Student Hackathon - CUC](https://interledger-student-hackathon-cuc.devfolio.co) |
@@ -1252,13 +1251,15 @@ Total hackathons: 207
 
 ## Events
 
-Total events: 3
+Total events: 5
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow DC](https://lu.ma/DC2?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 
