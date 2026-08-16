@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T11:34:30Z",
-  "count": 1401,
-  "checksum": "sha256:3cf889df4a47f8814f53d6c8603dae10e214f0525bf4ded28f874cbf8a7501ea",
+  "generated_at": "2026-08-16T13:01:03Z",
+  "count": 1405,
+  "checksum": "sha256:80345fb02998552ea5c7eaa538691d5aaa694f15e9a3f2c40005aa6e6e0fa33d",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -859,25 +859,6 @@
       "country": "Unknown"
     },
     {
-      "id": "608a093a1e5c0194",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Meta",
-      "title": "New Grad 2026: Product Security Engineer",
-      "location": "Bellevue, WA Menlo Park, CA",
-      "url": "https://www.metacareers.com/jobs/609052015548260?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "age": "0d",
-      "posted_at": "2026-08-16",
-      "level": "new_grad",
-      "region": "unknown",
-      "role_type": "security",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "Unknown"
-    },
-    {
       "id": "cfad94fecd82f215",
       "kind": "job",
       "origin": "curated",
@@ -1004,44 +985,6 @@
       "age": "0d",
       "posted_at": "2026-08-10",
       "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "e6139c97f0fc6319",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Notion",
-      "title": "Software Engineer Intern - Summer 2027",
-      "location": "San Francisco, CA +1",
-      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "age": "0d",
-      "posted_at": "2026-08-15",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "3b1e7a977e516338",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Notion",
-      "title": "Software Engineer Intern - Winter 2027",
-      "location": "San Francisco, CA +1",
-      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "age": "0d",
-      "posted_at": "2026-08-15",
-      "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
       "category": "product_saas",
@@ -1771,25 +1714,6 @@
       "country": "United States"
     },
     {
-      "id": "d549d4f2b6e8202f",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Instacart",
-      "title": "Site Reliability Engineer II",
-      "location": "Remote",
-      "url": "https://instacart.careers/job/?gh_jid=8121910",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "age": "0d",
-      "posted_at": "2026-08-14",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "infrastructure",
-      "category": "more_global_tech",
-      "remote_type": "remote",
-      "country": "Remote"
-    },
-    {
       "id": "a0ac6f46d6e94f5d",
       "kind": "job",
       "origin": "curated",
@@ -1847,6 +1771,44 @@
       "country": "United States"
     },
     {
+      "id": "e6139c97f0fc6319",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Notion",
+      "title": "Software Engineer Intern - Summer 2027",
+      "location": "San Francisco, CA +1",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "age": "0d",
+      "posted_at": "2026-08-15",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "3b1e7a977e516338",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Notion",
+      "title": "Software Engineer Intern - Winter 2027",
+      "location": "San Francisco, CA +1",
+      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "age": "0d",
+      "posted_at": "2026-08-15",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "6152e80b377e626e",
       "kind": "job",
       "origin": "curated",
@@ -1885,23 +1847,23 @@
       "country": "Unknown"
     },
     {
-      "id": "0763a5e01a513519",
+      "id": "d549d4f2b6e8202f",
       "kind": "job",
       "origin": "curated",
-      "company": "Metaphor",
-      "title": "Software Engineer - Intern",
-      "location": "San Francisco, CA",
-      "url": "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "age": "1d",
+      "company": "Instacart",
+      "title": "Site Reliability Engineer II",
+      "location": "Remote",
+      "url": "https://instacart.careers/job/?gh_jid=8121910",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "age": "0d",
       "posted_at": "2026-08-14",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "infrastructure",
+      "category": "more_global_tech",
+      "remote_type": "remote",
+      "country": "Remote"
     },
     {
       "id": "a94f56686c011fc3",
@@ -2037,21 +1999,21 @@
       "country": "United States"
     },
     {
-      "id": "8a4bba29a1df2ec8",
+      "id": "0763a5e01a513519",
       "kind": "job",
       "origin": "curated",
-      "company": "Oracle",
-      "title": "Platform Software Engineer 1 - Full-time Intern Conversion",
-      "location": "USA",
-      "url": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/342415",
+      "company": "Metaphor",
+      "title": "Software Engineer - Intern",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16",
       "source": "speedyapply_swe",
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "age": "1d",
-      "posted_at": "2026-08-13",
+      "posted_at": "2026-08-14",
       "level": "internship",
       "region": "us",
-      "role_type": "platform",
-      "category": "big_tech",
+      "role_type": "software_engineer",
+      "category": "faang",
       "remote_type": "onsite",
       "country": "United States"
     },
@@ -2132,40 +2094,21 @@
       "country": "United States"
     },
     {
-      "id": "be8160db39d009c7",
+      "id": "8a4bba29a1df2ec8",
       "kind": "job",
       "origin": "curated",
-      "company": "Citadel",
-      "title": "Sector Data Scientist - 2027 Intern - US",
-      "location": "New York City, NY",
-      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
-      "source": "speedyapply_ai",
-      "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
-      "age": "0d",
-      "posted_at": "2026-08-11",
-      "level": "internship",
-      "region": "us",
-      "role_type": "machine_learning",
-      "category": "consulting_finance",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "ae4746f77f7523da",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Figma",
-      "title": "Software Engineer Intern - Winter 2027",
-      "location": "San Francisco, CA +1",
-      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+      "company": "Oracle",
+      "title": "Platform Software Engineer 1 - Full-time Intern Conversion",
+      "location": "USA",
+      "url": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/342415",
       "source": "speedyapply_swe",
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "age": "0d",
-      "posted_at": "2026-08-11",
+      "age": "1d",
+      "posted_at": "2026-08-13",
       "level": "internship",
       "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
+      "role_type": "platform",
+      "category": "big_tech",
       "remote_type": "onsite",
       "country": "United States"
     },
@@ -2265,6 +2208,25 @@
       "country": "United States"
     },
     {
+      "id": "be8160db39d009c7",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Citadel",
+      "title": "Sector Data Scientist - 2027 Intern - US",
+      "location": "New York City, NY",
+      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
+      "source": "speedyapply_ai",
+      "source_url": "https://github.com/speedyapply/2027-AI-College-Jobs",
+      "age": "0d",
+      "posted_at": "2026-08-11",
+      "level": "internship",
+      "region": "us",
+      "role_type": "machine_learning",
+      "category": "consulting_finance",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "52447632a29beaab",
       "kind": "job",
       "origin": "curated",
@@ -2293,6 +2255,25 @@
       "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "age": "0d",
+      "posted_at": "2026-08-11",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "ae4746f77f7523da",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Figma",
+      "title": "Software Engineer Intern - Winter 2027",
+      "location": "San Francisco, CA +1",
+      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "age": "0d",
       "posted_at": "2026-08-11",
       "level": "internship",
@@ -2436,6 +2417,25 @@
       "country": "Canada"
     },
     {
+      "id": "8c7a759de29d75c5",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Okta",
+      "title": "Software Engineer II, Developer Tooli...",
+      "location": "Toronto, Ontario, Canada",
+      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "age": "1w",
+      "posted_at": "2026-08-16",
+      "level": "mid_level",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "category": "cloud_infra",
+      "remote_type": "onsite",
+      "country": "Canada"
+    },
+    {
       "id": "9098182275db12f7",
       "kind": "job",
       "origin": "curated",
@@ -2550,25 +2550,6 @@
       "country": "United States"
     },
     {
-      "id": "528900449981b412",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Roblox",
-      "title": "Summer 2027 Software Engineer Intern",
-      "location": "San Mateo, CA",
-      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
-      "source": "speedyapply_swe",
-      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-      "age": "3d",
-      "posted_at": "2026-08-10",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "category": "more_global_tech",
-      "remote_type": "onsite",
-      "country": "Unknown"
-    },
-    {
       "id": "2291c5bc50849301",
       "kind": "job",
       "origin": "curated",
@@ -2674,6 +2655,25 @@
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "age": "4d",
+      "posted_at": "2026-08-10",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "category": "more_global_tech",
+      "remote_type": "onsite",
+      "country": "Unknown"
+    },
+    {
+      "id": "528900449981b412",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Roblox",
+      "title": "Summer 2027 Software Engineer Intern",
+      "location": "San Mateo, CA",
+      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+      "source": "speedyapply_swe",
+      "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+      "age": "3d",
       "posted_at": "2026-08-10",
       "level": "internship",
       "region": "unknown",
@@ -19781,7 +19781,7 @@
       "url": "https://agentsforhumans.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "30 days left",
+      "age": "29 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -19950,7 +19950,7 @@
       "url": "https://inspire-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 12 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20028,7 +20028,7 @@
       "url": "https://unstop.com/hackathons/bytebuilt-10-chandigah-university-1733940",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "4 days left",
+      "age": "3 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20041,7 +20041,7 @@
       "url": "https://unstop.com/hackathons/cypherverse-chandigarh-group-of-colleges-cgc-jhanjeri-1736257",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "4 days left",
+      "age": "6 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20262,7 +20262,7 @@
       "url": "https://binary-hacks-4.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "37 days left",
+      "age": "36 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20340,7 +20340,7 @@
       "url": "https://convergence1.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "77 days left",
+      "age": "76 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20652,7 +20652,7 @@
       "url": "https://innohacks-4.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "49 days left",
+      "age": "48 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20756,7 +20756,7 @@
       "url": "https://nexhack-2.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "41 days left",
+      "age": "40 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20795,7 +20795,7 @@
       "url": "https://recursion-edition.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
-      "age": "13 days left",
+      "age": "18 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20990,7 +20990,7 @@
       "url": "https://unstop.com/hackathons/hackside-down-falcon-sphere-1712468",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "14 days left",
+      "age": "13 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21055,7 +21055,7 @@
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "7 days left",
+      "age": "6 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21068,7 +21068,7 @@
       "url": "https://unstop.com/hackathons/crp-precision-care-challenge-2026-ge-healthcare-1731208",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "46 days left",
+      "age": "45 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21120,7 +21120,7 @@
       "url": "https://allthingsagentichackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "16 days left",
+      "age": "15 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21172,7 +21172,7 @@
       "url": "https://prismbuild.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 10 hours left",
+      "age": "about 9 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21237,7 +21237,7 @@
       "url": "https://nexora.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 22 hours left",
+      "age": "about 15 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21302,7 +21302,7 @@
       "url": "https://unstop.com/hackathons/markathon-2026-indias-biggest-marketing-innovation-challenge-icypluto-1734496",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "7 days left",
+      "age": "6 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21328,7 +21328,7 @@
       "url": "https://impactforge26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 12 hours left",
+      "age": "about 10 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21471,7 +21471,7 @@
       "url": "https://unstop.com/hackathons/echosphere-agora-conversational-ai-hackathon-knotic-1723695",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "27 days left",
+      "age": "26 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21536,7 +21536,7 @@
       "url": "https://built-for-nyc.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 7 hours left",
+      "age": "about 5 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21549,7 +21549,7 @@
       "url": "https://hack-days-in-jabalpur.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 1 hour left",
+      "age": "30 minutes left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21575,7 +21575,7 @@
       "url": "https://hack-days-in-oriental.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "30 minutes left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21640,7 +21640,7 @@
       "url": "https://unstop.com/hackathons/international-innovation-challenge-30-manipal-university-mu-jaipur-1702624",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "24 days left",
+      "age": "23 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21705,7 +21705,7 @@
       "url": "https://social-media-automation-hacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 12 hours left",
+      "age": "about 10 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21852,19 +21852,6 @@
       "posted_at": "2026-08-16"
     },
     {
-      "id": "e6b6105611c29ee8",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Oriental College of Technology (OCT), Bhopal",
-      "title": "HackQuest 2026",
-      "location": "Online",
-      "url": "https://unstop.com/hackathons/hackquest-2026-oriental-college-of-technology-oct-bhopal-1724486",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "age": "last day",
-      "posted_at": "2026-08-16"
-    },
-    {
       "id": "d3ff17a5fa2ca763",
       "kind": "hackathon",
       "origin": "public",
@@ -21952,7 +21939,7 @@
       "url": "https://quantumhacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22216,6 +22203,19 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "f1beaa9ecddd729b",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Thakur Ramnarayan College of Arts and Commerce",
+      "title": "The Pirate’s Flag – Capture the Flag Challenge",
+      "location": "Offline",
+      "url": "https://unstop.com/hackathons/the-pirates-flag-capture-the-flag-challenge-thakur-ramnarayan-college-of-arts-and-commerce-1737865",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "age": "24 days left",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "bad291df5c28ed21",
       "kind": "hackathon",
       "origin": "public",
@@ -22225,7 +22225,7 @@
       "url": "https://hack-days-in-bhopal-2-o.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 1 hour left",
+      "age": "30 minutes left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22264,7 +22264,7 @@
       "url": "https://gemini-event-hackmatrix.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "21 days left",
+      "age": "20 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22316,7 +22316,7 @@
       "url": "https://unstop.com/hackathons/hack-synthesis-30-2026-university-of-engineering-and-management-kolkata-1710631",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "35 days left",
+      "age": "34 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22368,7 +22368,7 @@
       "url": "https://unstop.com/hackathons/vcet-hackathon-2026-vidyavardhinis-college-of-engineering-and-technology-1729412",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "age": "20 days left",
+      "age": "19 days left",
       "posted_at": "2026-08-16"
     },
     {
@@ -22411,6 +22411,32 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "origin": "public",
@@ -22437,6 +22463,19 @@
       "posted_at": "2026-08-16"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "origin": "public",
@@ -22444,6 +22483,19 @@
       "title": "Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team",
       "location": "Global",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "age": "",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "age": "",
