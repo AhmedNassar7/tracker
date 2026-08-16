@@ -28,3 +28,4 @@ jobs:
           python3 tests/test_fetch.py
           python3 tests/test_public_sources.py
           python3 tests/test_schema_validation.py
+          python3 tests/test_site_index.py

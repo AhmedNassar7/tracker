@@ -40,7 +40,7 @@ All 18 are free-tier, keyless, public endpoints. Full descriptions with rational
 
 ## Data shapes and schemas
 
-Two JSON Schemas document the two output record shapes, and both are now actually enforced: `scripts/schema_validator.py` is a small, dependency-free validator (no `jsonschema` package — matches the repo's stdlib-only rule) that `fetch_outputs.py` and `public_outputs.py` run against every row right before writing. A shape drift raises `ValueError` and aborts the run under `set -euo pipefail`, rather than silently publishing bad data — see `tests/test_schema_validation.py` for both the validator's own unit tests and two integration tests proving the write path actually refuses invalid rows.
+Three JSON Schemas document the three output record shapes, and all three are actually enforced: `scripts/schema_validator.py` is a small, dependency-free validator (no `jsonschema` package — matches the repo's stdlib-only rule) that `fetch_outputs.py`, `public_outputs.py`, and `build_data_readme.py` (for `site-index.json`) each run against every row right before writing. A shape drift raises `ValueError` and aborts the run under `set -euo pipefail`, rather than silently publishing bad data — see `tests/test_schema_validation.py` (the two publish-layer schemas) and `tests/test_site_index.py` (the flattened index) for the validator's unit tests plus integration tests proving each write path actually refuses invalid rows.
 
 ### `JobEntry` — [config/job-entry.schema.json](../config/job-entry.schema.json)
 
@@ -89,6 +89,23 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 | `source` | string | e.g. `greenhouse:stripe`, `lever:acme`, `devpost`, `luma` |
 | `source_url` | string (uri) | |
 
+### `SiteIndexEntry` — [config/site-index.schema.json](../config/site-index.schema.json)
+
+Used by the `items` array in `data/site-index.json`, written by `build_site_index()` in `scripts/build_data_readme.py`. This isn't a third source of truth — every item is copied straight from a `JobEntry` or `PublicEntry` record already validated against the two schemas above; the point of this file is giving a client (a future site, a script) one small flattened file instead of having to fetch and merge `jobs-global.json` and `public-opportunities.json` itself.
+
+| Field | Type | Notes |
+|---|---|---|
+| `id` | string | 16-char hex, carried over unchanged |
+| `kind` | enum | `job` \| `hackathon` \| `event` |
+| `origin` | enum | `curated` (from `jobs-global.json`) \| `public` (from `public-opportunities.json`) |
+| `company`, `title`, `location`, `url`, `source`, `source_url` | string | Copied straight through |
+| `age` | string | Unified from `JobEntry.age` / `PublicEntry.date` |
+| `posted_at` | string | `YYYY-MM-DD` or `""` |
+| `level`, `region`, `role_type` | enum | Job-only |
+| `category`, `remote_type`, `country` | string / enum | Job-only, **curated-origin only** — omitted entirely (not `""` or guessed) on public-origin job items, since the public layer never detects them |
+
+Top-level shape: `{generated_at, count, checksum, items}`. `checksum` is `"sha256:" + sha256(sorted item ids joined by "\n")` — cheap to compute and enough to answer "did the item set change since last visit," not a full-content hash. Not itself schema-validated (only `items[]` entries are); it's a plain wrapper this pipeline's own code constructs.
+
 ## Config files and what each field does
 
 ### `config/companies_allowlist.yml`
@@ -113,6 +130,7 @@ Everything is a flat JSON or Markdown file inside [data/](../data/), committed d
 | `data/jobs-global-archive.json` | JSON (`JobEntry[]` + `closed_at`) | same | Closed/dead-linked/vanished curated jobs |
 | `data/public-opportunities.json` | JSON (`{jobs, hackathons, events}`) | `scripts/public_sources.py` via `public_outputs.py` | Public-board jobs + hackathons + events |
 | `data/stats.json` | JSON | `scripts/fetch.py` via `fetch_outputs.py` | Curated-feed counts by level/country/source |
+| `data/site-index.json` | JSON (`SiteIndexEntry[]` + wrapper) | `scripts/build_data_readme.py` | Both feeds flattened into one checksummed list |
 | `data/README.md` | Markdown | `scripts/build_data_readme.py` | The full human-readable job/hackathon/event tables |
 | `README.md` (root) | Markdown | `scripts/build_data_readme.py` | Lean overview + badges + snapshot counts |
 | `data/raw/*.json` / `*.md` | Raw source payloads | each fetcher's `fetch_url()` call | Debugging aid — inspect a source's untouched pull before its parser runs |

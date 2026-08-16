@@ -2,18 +2,33 @@
 from __future__ import annotations
 
 import datetime
+import hashlib
 import json
 import re
+import sys
 from urllib.parse import quote
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 DATA_OUT = ROOT / "data"
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from schema_validator import load_schema, validate_records
+
 CURATED_JSON = DATA_OUT / "jobs-global.json"
 PUBLIC_JSON = DATA_OUT / "public-opportunities.json"
 ROOT_README = ROOT / "README.md"
 DATA_README = DATA_OUT / "README.md"
+SITE_INDEX_JSON = DATA_OUT / "site-index.json"
+SITE_INDEX_SCHEMA = ROOT / "config" / "site-index.schema.json"
+
+# Fields copied straight through when present; curated-only fields (category,
+# remote_type, country) and the level/region/role_type job fields are added
+# separately per-kind so we never fabricate a key an origin layer doesn't have.
+_SITE_INDEX_PASSTHROUGH = ("company", "title", "location", "url", "source", "source_url")
 
 
 def load_json(path: Path) -> dict:
@@ -372,6 +387,7 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "| [jobs-global-archive.json](jobs-global-archive.json) | Curated jobs that have since closed, gone dead-link, or rolled off the source feed |",
         "| [public-opportunities.json](public-opportunities.json) | Public-board jobs, hackathons, and events: Greenhouse, Lever, Workday, Ashby, SmartRecruiters, Devpost, Luma |",
         "| [stats.json](stats.json) | Counts of the curated feed broken down by level, country, and source |",
+        "| [site-index.json](site-index.json) | Both feeds above, flattened into one list with a content checksum — meant for a future site to fetch as a single lightweight file |",
         "",
         "## Notes",
         "",
@@ -468,6 +484,65 @@ def render_root_readme(now_text: str, stats: dict) -> str:
     ]) + "\n"
 
 
+def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
+    entry = {"id": row.get("id") or "", "kind": kind, "origin": origin}
+    for field in _SITE_INDEX_PASSTHROUGH:
+        entry[field] = row.get(field) or ""
+    entry["age"] = row.get("age") or row.get("date") or ""
+    entry["posted_at"] = row.get("posted_at") or ""
+
+    if kind == "job":
+        if row.get("level"):
+            entry["level"] = row["level"]
+        if row.get("region"):
+            entry["region"] = row["region"]
+        if row.get("role_type"):
+            entry["role_type"] = row["role_type"]
+        if origin == "curated":
+            # Only the curated layer detects these — leave them out entirely
+            # for public-layer jobs rather than guessing a value.
+            entry["category"] = row.get("category") or ""
+            if row.get("remote_type"):
+                entry["remote_type"] = row["remote_type"]
+            if row.get("country"):
+                entry["country"] = row["country"]
+
+    return entry
+
+
+def build_site_index(curated_payload: dict, public_payload: dict) -> dict:
+    """Flatten both layers' raw records into one site-sized list, reusing the
+    payloads main() already loaded rather than re-reading either data file.
+    """
+    items: list[dict] = []
+    for row in curated_payload.get("jobs", []) or []:
+        items.append(_site_index_entry(row, kind="job", origin="curated"))
+    for row in public_payload.get("jobs", []) or []:
+        items.append(_site_index_entry(row, kind="job", origin="public"))
+    for row in public_payload.get("hackathons", []) or []:
+        items.append(_site_index_entry(row, kind="hackathon", origin="public"))
+    for row in public_payload.get("events", []) or []:
+        items.append(_site_index_entry(row, kind="event", origin="public"))
+
+    schema = load_schema(SITE_INDEX_SCHEMA)
+    errors = validate_records(items, schema, label="site-index.json items")
+    if errors:
+        raise ValueError("site-index.json failed schema validation:\n" + "\n".join(errors))
+
+    # Checksum over the sorted id set only (not full record content): cheap to
+    # compute, and its only job is answering "did the set of items change
+    # since last visit" for client-side diffing — not detecting in-place field
+    # edits to an otherwise-unchanged posting.
+    checksum = hashlib.sha256("\n".join(sorted(item["id"] for item in items)).encode("utf-8")).hexdigest()
+
+    return {
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "count": len(items),
+        "checksum": f"sha256:{checksum}",
+        "items": items,
+    }
+
+
 def main() -> int:
     curated_payload = load_json(CURATED_JSON)
     public_payload = load_json(PUBLIC_JSON)
@@ -511,6 +586,10 @@ def main() -> int:
     ROOT_README.write_text(render_root_readme(now_text, stats), encoding="utf-8")
     print(f"Wrote {DATA_README}")
     print(f"Wrote {ROOT_README}")
+
+    site_index = build_site_index(curated_payload, public_payload)
+    SITE_INDEX_JSON.write_text(json.dumps(site_index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
     return 0
 
 

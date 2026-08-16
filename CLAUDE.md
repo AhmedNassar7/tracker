@@ -26,6 +26,8 @@ python scripts/build_data_readme.py  # renders README.md and data/README.md from
 python tests/test_net.py
 python tests/test_fetch.py
 python tests/test_public_sources.py
+python tests/test_schema_validation.py
+python tests/test_site_index.py
 
 # On Windows, the emoji check marks in test output need UTF-8, or `print` raises UnicodeEncodeError:
 set PYTHONIOENCODING=utf-8   # PowerShell: $env:PYTHONIOENCODING = "utf-8"
@@ -33,7 +35,7 @@ set PYTHONIOENCODING=utf-8   # PowerShell: $env:PYTHONIOENCODING = "utf-8"
 
 There's no way to run "a single test" — each test file is one `main()` that runs every check in sequence and exits nonzero on the first failed assertion. To isolate one check while debugging, temporarily comment out the other `run(...)` calls in the relevant `tests/test_*.py`.
 
-CI (`.github/workflows/ci.yml`) runs all three test files on every push/PR. The hourly data-refresh workflow is `.github/workflows/hourly-global-roles.yml` — it runs the three pipeline commands above in order, commits whatever changed, and auto-merges via `peter-evans/create-pull-request`.
+CI (`.github/workflows/ci.yml`) runs all five test files on every push/PR. The hourly data-refresh workflow is `.github/workflows/hourly-global-roles.yml` — it runs the three pipeline commands above in order, commits whatever changed, and auto-merges via `peter-evans/create-pull-request`.
 
 ## Architecture
 
@@ -41,7 +43,7 @@ CI (`.github/workflows/ci.yml`) runs all three test files on every push/PR. The 
 
 - **Curated layer** (`scripts/fetch.py`) — pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply (SWE + AI), zapplyjobs, hanzili, and ambicuity. Every row is checked against `config/companies_allowlist.yml` (substring match, case-insensitive) — this is the strict, high-quality feed. Writes `data/jobs-global.json` / `data/jobs-global-archive.json` / `data/stats.json` via `scripts/fetch_outputs.py`.
 - **Public layer** (`scripts/public_sources.py`) — widens coverage via Greenhouse, Lever, and Workday (all **auto-discovered**: the first time one of these company's postings shows up from any source, its board gets polled directly on the next run — no config needed), plus Ashby/SmartRecruiters for companies listed by hand in `config/extra_job_boards.yml`, plus Devpost hackathons (its own JSON API — the hackathons *page* is client-rendered and has no listings in the server HTML) and Luma events (filtered for tech/software relevance — Luma's discover page is a general community directory, not tech-specific). Writes `data/public-opportunities.json` via `scripts/public_outputs.py`.
-- `scripts/build_data_readme.py` loads both JSON outputs, merges them, and renders both README files (the root one is a lean overview; `data/README.md` has the actual job tables). It's the single source of truth for all human-facing text in this repo — badges, counts, and table formatting all live in its `render_root_readme` / `render_data_readme` functions. Architecture/contributing prose lives in the hand-maintained `CONTRIBUTING.md`, not in the generator.
+- `scripts/build_data_readme.py` loads both JSON outputs, merges them, and renders both README files (the root one is a lean overview; `data/README.md` has the actual job tables). It's the single source of truth for all human-facing text in this repo — badges, counts, and table formatting all live in its `render_root_readme` / `render_data_readme` functions. Architecture/contributing prose lives in the hand-maintained `CONTRIBUTING.md`, not in the generator. The same run also writes `data/site-index.json` (via `build_site_index()`), a flattened `{generated_at, count, checksum, items}` projection of both feeds meant for a future frontend to fetch as one file — each item is copied straight from its source `JobEntry`/`PublicEntry` record, never fabricated, so fields only one layer detects (e.g. `category`, `remote_type`, `country` are curated-only) are simply absent on the other layer's items rather than guessed.
 
 ### Job-record shape
 

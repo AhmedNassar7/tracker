@@ -1269,6 +1269,7 @@ This page is the one formatted view — everyone who just wants to browse jobs s
 | [jobs-global-archive.json](jobs-global-archive.json) | Curated jobs that have since closed, gone dead-link, or rolled off the source feed |
 | [public-opportunities.json](public-opportunities.json) | Public-board jobs, hackathons, and events: Greenhouse, Lever, Workday, Ashby, SmartRecruiters, Devpost, Luma |
 | [stats.json](stats.json) | Counts of the curated feed broken down by level, country, and source |
+| [site-index.json](site-index.json) | Both feeds above, flattened into one list with a content checksum — meant for a future site to fetch as a single lightweight file |
 
 ## Notes
 

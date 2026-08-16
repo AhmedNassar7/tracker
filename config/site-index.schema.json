@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SiteIndexEntry",
+  "description": "Shape of each entry in data/site-index.json's 'items' array — a flattened, site-sized view merging data/jobs-global.json and data/public-opportunities.json into one list. This is a read projection for a future frontend, not a new source of truth: every field here is copied from a JobEntry or PublicEntry record (see config/job-entry.schema.json / config/public-entry.schema.json), never invented. Fields that only exist on one origin layer (e.g. 'category', 'country', 'remote_type' are curated-only) are omitted entirely rather than filled in with a guessed value when absent.",
+  "type": "object",
+  "required": ["id", "kind", "origin", "company", "title", "location", "age", "posted_at", "url", "source", "source_url"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "16-char hex ID, carried over unchanged from the source record"
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["job", "hackathon", "event"],
+      "description": "'job' for every data/jobs-global.json entry and every kind:'job' public entry; 'hackathon'/'event' pass straight through from the public layer"
+    },
+    "origin": {
+      "type": "string",
+      "enum": ["curated", "public"],
+      "description": "Which pipeline layer produced this entry — data/jobs-global.json ('curated') or data/public-opportunities.json ('public')"
+    },
+    "company": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "location": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string",
+      "enum": ["internship", "new_grad", "junior", "entry_level", "mid_level", "unknown", "other"],
+      "description": "Job-only. Curated records use the 6-value JobEntry taxonomy; public records add 'other'"
+    },
+    "category": {
+      "type": "string",
+      "description": "Job-only, curated-origin only — the allowlist category matched (e.g. 'faang'), or '' for a relaxed-mode fallback match. Public-origin job entries never have this key, since the public layer isn't allowlist-gated"
+    },
+    "region": {
+      "type": "string",
+      "enum": ["us", "canada", "emea", "remote", "unknown"],
+      "description": "Job-only"
+    },
+    "role_type": {
+      "type": "string",
+      "enum": ["full_stack", "backend", "frontend", "mobile", "platform", "infrastructure", "security", "machine_learning", "software_engineer", "other_swe"],
+      "description": "Job-only"
+    },
+    "remote_type": {
+      "type": "string",
+      "enum": ["remote", "hybrid", "onsite", "unknown"],
+      "description": "Job-only, curated-origin only — the public layer doesn't detect this"
+    },
+    "country": {
+      "type": "string",
+      "description": "Job-only, curated-origin only"
+    },
+    "age": {
+      "type": "string",
+      "description": "Human-readable age for jobs, submission deadline for hackathons, or '' for events — unified from JobEntry.age / PublicEntry.date"
+    },
+    "posted_at": {
+      "type": "string",
+      "pattern": "^$|^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "YYYY-MM-DD, or '' when the source only exposes a fuzzy relative date (see 'age' instead)"
+    },
+    "url": {
+      "type": "string",
+      "description": "Link to the posting. Usually absolute; Luma events use a site-relative path"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "additionalProperties": false
+}

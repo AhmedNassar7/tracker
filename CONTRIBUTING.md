@@ -5,7 +5,7 @@ This file is for anyone who wants to understand, run, or extend the pipeline beh
 ## How it works
 
 1. **Fetch** — `scripts/fetch.py` pulls Remotive, ArbeitNow, SimplifyJobs, speedyapply, vanshb03, zapplyjobs, hanzili, ambicuity, LorenzoLaCorte's European tracker, and Amazon's own careers API directly, filtered by the companies in `config/companies_allowlist.yml`. `scripts/public_sources.py` widens coverage with Devpost, Unstop, Devfolio, Luma, Greenhouse, Lever, and Workday (all auto-discovered from those results), plus Ashby and SmartRecruiters for the companies listed in `config/extra_job_boards.yml`. Every apply link is checked before publishing, and dead ones are moved to the archive automatically. Every published row is also checked against `config/job-entry.schema.json` / `config/public-entry.schema.json` before being written — a shape drift fails the run instead of silently shipping bad data. See [SOURCES.md](SOURCES.md) for the full list with links.
-2. **Build** — `scripts/build_data_readme.py` turns the raw JSON in `data/` into the readable tables in `README.md` and `data/README.md`.
+2. **Build** — `scripts/build_data_readme.py` turns the raw JSON in `data/` into the readable tables in `README.md` and `data/README.md`, and also writes `data/site-index.json`, a flattened, checksummed view of both feeds for anything (a future site, a script) that wants the whole list as one small file instead of parsing both `jobs-global.json` and `public-opportunities.json` separately.
 3. **Publish** — a [GitHub Actions workflow](.github/workflows/hourly-global-roles.yml) runs this pipeline hourly, opens a pull request with whatever changed, and auto-merges it. No manual steps.
 
 Curious about a specific run? Check the [workflow runs](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) — every run that changes anything opens and merges its own PR, so the merged-PR history doubles as a changelog.
@@ -27,12 +27,14 @@ python scripts/fetch.py              # curated sources -> data/jobs-global*.json
 python scripts/public_sources.py     # public board sources -> data/public-opportunities.json
 python scripts/build_data_readme.py  # renders README.md and data/README.md from the JSON above
 
+python tests/test_net.py
 python tests/test_fetch.py
 python tests/test_public_sources.py
 python tests/test_schema_validation.py
+python tests/test_site_index.py
 ```
 
-Pull requests run through [CI](.github/workflows/ci.yml) automatically — both test files need to pass before merging.
+Pull requests run through [CI](.github/workflows/ci.yml) automatically — every test file needs to pass before merging.
 
 ## Repository layout
 
@@ -46,6 +48,7 @@ Pull requests run through [CI](.github/workflows/ci.yml) automatically — both 
 | [config/extra_job_boards.yml](config/extra_job_boards.yml) | Ashby/SmartRecruiters companies to track (edit this, no coding required) |
 | [config/job-entry.schema.json](config/job-entry.schema.json) | JSON Schema for each record in `data/jobs-global.json` / `jobs-global-archive.json` |
 | [config/public-entry.schema.json](config/public-entry.schema.json) | JSON Schema for each record in `data/public-opportunities.json` (jobs/hackathons/events share one shape, disambiguated by `kind`) |
+| [config/site-index.schema.json](config/site-index.schema.json) | JSON Schema for each item in `data/site-index.json`, the flattened combined view of both feeds |
 | [scripts/](scripts/) | The fetch/build pipeline (Python, standard library only) |
 | [tests/](tests/) | Automated tests for the pipeline scripts, run in CI on every pull request |
 | [.github/workflows/](.github/workflows/) | The hourly refresh job (`hourly-global-roles.yml`) and the CI test job (`ci.yml`) |

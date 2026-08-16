@@ -14,9 +14,11 @@ Each check is registered with a local `run(name, fn)` helper that prints a green
 python tests/test_net.py
 python tests/test_fetch.py
 python tests/test_public_sources.py
+python tests/test_schema_validation.py
+python tests/test_site_index.py
 ```
 
-All three must pass — this is exactly what [CI](DEPLOYMENT.md) runs on every push/PR. On Windows, if the ✅/❌ characters raise `UnicodeEncodeError`, set UTF-8 output first:
+All five must pass — this is exactly what [CI](DEPLOYMENT.md) runs on every push/PR. On Windows, if the ✅/❌ characters raise `UnicodeEncodeError`, set UTF-8 output first:
 
 ```powershell
 $env:PYTHONIOENCODING = "utf-8"
@@ -57,8 +59,10 @@ There is no test runner flag to select one test — to isolate a single check wh
 | `fetch_workday_job_locations` (via `fetch_workday_jobs`) | `tests/test_public_sources.py` | Bare "N Locations" count resolved into a real `<details>` dropdown via the per-job detail call |
 | `load_extra_job_boards` | `tests/test_public_sources.py` | YAML-by-hand parsing of `ashby:`/`smartrecruiters:` sections |
 | `write_outputs` (public) | `tests/test_public_sources.py` | Correct split into `jobs`/`hackathons`/`events` arrays |
+| `validate_record`, `validate_records` (`scripts/schema_validator.py`) | `tests/test_schema_validation.py` | Type/enum/pattern/`additionalProperties` checks against both `JobEntry` and `PublicEntry`; integration tests proving `fetch.write_outputs` / `public_sources.write_outputs` refuse to publish an invalid row; a pre-existing legacy-shaped archive row doesn't block a run with valid fresh data |
+| `build_site_index` (`scripts/build_data_readme.py`) | `tests/test_site_index.py` | Curated-only fields (`category`/`remote_type`/`country`) kept on curated items and omitted (not fabricated) on public items; `date`→`age` unification; checksum stability/change detection; refuses to publish a schema-invalid row |
 
-Not covered by either suite: `scripts/build_data_readme.py` (the README renderer) has no automated test — it's verified manually by running it and reading the output. If you change it, run it locally and diff the result before committing.
+The README-rendering functions (`render_root_readme` / `render_data_readme` in `scripts/build_data_readme.py`) still have no automated test — verified manually by running the script and reading the output. If you change those, run it locally and diff the result before committing.
 
 ## How to write a new test — real example from this codebase
 

@@ -21,10 +21,13 @@ There is no hosting target, container, or server to deploy to. "Deployment" here
 Steps:
 1. Checkout (`actions/checkout@v4`)
 2. Set up Python 3.11 (`actions/setup-python@v5`)
-3. Run `python3 tests/test_fetch.py`
-4. Run `python3 tests/test_public_sources.py`
+3. Run `python3 tests/test_net.py`
+4. Run `python3 tests/test_fetch.py`
+5. Run `python3 tests/test_public_sources.py`
+6. Run `python3 tests/test_schema_validation.py`
+7. Run `python3 tests/test_site_index.py`
 
-Either test file exiting nonzero fails the job. This is the only gate before a PR can merge — there's no separate lint/typecheck/build step because there's nothing to build.
+Any test file exiting nonzero fails the job. This is the only gate before a PR can merge — there's no separate lint/typecheck/build step because there's nothing to build.
 
 ### `hourly-global-roles.yml` — the pipeline itself
 
