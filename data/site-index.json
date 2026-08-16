@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T20:37:24Z",
+  "generated_at": "2026-08-16T21:34:58Z",
   "count": 1412,
-  "checksum": "sha256:21416f4d761d7b3ac6ddcdbc4a986ae9a69dc1fa33862b203ec249e612bd00a6",
+  "checksum": "sha256:bec616dc1e1baa8ba2f38079ac769999e59beb2ff79b745567b4d0d77dd4ad20",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -833,6 +833,25 @@
       "age": "0d",
       "posted_at": "2026-08-10",
       "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "consulting_finance",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "b3c6ec579af73f91",
+      "kind": "job",
+      "origin": "curated",
+      "company": "JPMorgan Chase",
+      "title": "AI/ML Software Engineer II",
+      "location": "New York, NY, United S...",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210761228",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "age": "0d",
+      "posted_at": "2026-08-16",
+      "level": "mid_level",
       "region": "us",
       "role_type": "software_engineer",
       "category": "consulting_finance",
@@ -2413,25 +2432,6 @@
       "region": "canada",
       "role_type": "machine_learning",
       "category": "more_global_tech",
-      "remote_type": "onsite",
-      "country": "Canada"
-    },
-    {
-      "id": "8c7a759de29d75c5",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Okta",
-      "title": "Software Engineer II, Developer Tooli...",
-      "location": "Toronto, Ontario, Canada",
-      "url": "https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "age": "1w",
-      "posted_at": "2026-08-16",
-      "level": "mid_level",
-      "region": "canada",
-      "role_type": "software_engineer",
-      "category": "cloud_infra",
       "remote_type": "onsite",
       "country": "Canada"
     },
@@ -19898,7 +19898,7 @@
       "url": "https://brainwave-2026-midnight-track.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 22 hours left",
+      "age": "about 21 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20119,7 +20119,7 @@
       "url": "https://inspire-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 1 hour left",
+      "age": "about 23 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -20314,7 +20314,7 @@
       "url": "https://cs-girlies-wellness-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 1 hour left",
+      "age": "26 minutes left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21354,7 +21354,7 @@
       "url": "https://prismbuild.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "35 minutes left",
+      "age": "about 23 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21419,7 +21419,7 @@
       "url": "https://nexora.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 10 hours left",
+      "age": "about 6 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21510,7 +21510,7 @@
       "url": "https://impactforge26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "about 1 hour left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21835,7 +21835,7 @@
       "url": "https://social-media-automation-hacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 2 hours left",
+      "age": "about 1 hour left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21965,7 +21965,7 @@
       "url": "https://oregonhacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 19 hours left",
+      "age": "about 18 hours left",
       "posted_at": "2026-08-16"
     },
     {
@@ -21991,7 +21991,7 @@
       "url": "https://youcam-api.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "age": "about 19 hours left",
+      "age": "about 18 hours left",
       "posted_at": "2026-08-16"
     },
     {
