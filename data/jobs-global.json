@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T01:56:30Z",
-  "total": 219,
+  "generated_at": "2026-08-16T03:12:01Z",
+  "total": 221,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -900,6 +900,29 @@
       ]
     },
     {
+      "id": "36a558da58240319",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-16",
+      "age": "0d",
+      "collected_at": "2026-08-16T03:12:01Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cc7a168906373af1",
       "company": "Hudson River Trading",
       "title": "Software Engineer Intern",
@@ -1636,9 +1659,9 @@
       ]
     },
     {
-      "id": "ff94edfadfe0d97f",
+      "id": "4a081dbee465a891",
       "company": "Revolut",
-      "title": "graduate programme 2027: software engineer (python)",
+      "title": "graduate programme 2027: software engineer (java)",
       "level": "new_grad",
       "category": "fintech",
       "region": "emea",
@@ -1646,12 +1669,35 @@
       "country": "Portugal",
       "location": "portugal",
       "remote_type": "onsite",
-      "url": "https://www.linkedin.com/jobs/view/4418833557",
+      "url": "https://www.linkedin.com/jobs/view/4418834450",
       "source": "lorenzolacorte_eu",
       "source_url": "https://github.com/LorenzoLaCorte/european-tech-internships-2026",
-      "posted_at": "2026-08-10",
+      "posted_at": "2026-08-16",
       "age": "0d",
-      "collected_at": "2026-08-10T09:39:03Z",
+      "collected_at": "2026-08-16T03:12:01Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d2f1e664af4aa035",
+      "company": "Revolut",
+      "title": "graduate programme 2027: software engineer (python)",
+      "level": "new_grad",
+      "category": "fintech",
+      "region": "emea",
+      "role_type": "software_engineer",
+      "country": "Portugal",
+      "location": "porto, porto, portugal",
+      "remote_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4418841246",
+      "source": "lorenzolacorte_eu",
+      "source_url": "https://github.com/LorenzoLaCorte/european-tech-internships-2026",
+      "posted_at": "2026-08-16",
+      "age": "0d",
+      "collected_at": "2026-08-16T03:12:01Z",
       "tags": [
         "software",
         "programming",
