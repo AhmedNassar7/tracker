@@ -90,12 +90,15 @@ def main():
         ))
 
     class _FakeResponse:
-        def __init__(self, status):
+        def __init__(self, status, body=b""):
             self.status = status
+            self._body = body
         def __enter__(self):
             return self
         def __exit__(self, *exc):
             return False
+        def read(self, _n=-1):
+            return self._body
 
     import urllib.error
 
@@ -123,6 +126,25 @@ def main():
         run("check_url_alive confirms a HEAD 404 with a GET before trusting it", lambda: check(
             "check_url_alive confirms a HEAD 404 with a GET before trusting it",
             fetch.check_url_alive("https://example.com/job/head-404-but-live") is True,
+        ))
+
+    # Google Careers always returns 200, live or expired — only the
+    # og:title meta tag (empty when expired) tells them apart.
+    _google_url = "https://www.google.com/about/careers/applications/jobs/results/123-engineer"
+    _live_body = b'<meta property="og:title" content="Software Engineer">'
+    _expired_body = b'<meta property="og:title" content="">'
+
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, _live_body)) as mock_urlopen:
+        run("check_url_alive treats a Google Careers page with a real og:title as alive", lambda: check(
+            "check_url_alive treats a Google Careers page with a real og:title as alive",
+            fetch.check_url_alive(_google_url) is True
+            and mock_urlopen.call_args.args[0].get_method() == "GET",
+        ))
+
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, _expired_body)):
+        run("check_url_alive treats a Google Careers page with an empty og:title as dead", lambda: check(
+            "check_url_alive treats a Google Careers page with an empty og:title as dead",
+            fetch.check_url_alive(_google_url) is False,
         ))
 
     with patch.object(fetch, "check_url_alive", side_effect=[False, True]):

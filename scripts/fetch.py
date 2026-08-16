@@ -234,6 +234,28 @@ def include_job(row, company):
     company_ok = category is not None or row["level"] in {"internship", "new_grad"}
     return level_ok and company_ok
 
+# Google Careers is a client-rendered SPA: an expired/removed job id still
+# returns HTTP 200 with the generic "Jobs search" shell instead of a 404, so
+# a status-code check alone can never catch it dead (unlike the Pinterest
+# case below, where the eventual GET at least returns the right code). The
+# one server-rendered difference is the og:title meta tag — populated with
+# the real job title on a live posting, left empty on an expired one.
+# Confirmed by hand against several live vs. expired postings; only add
+# another entry here once a new source's soft-404 shape is confirmed the
+# same way, not on suspicion.
+_GOOGLE_CAREERS_RESULT_RE = re.compile(
+    r"^https?://(?:www\.)?google\.com/about/careers/applications/jobs/results/"
+)
+_GOOGLE_CAREERS_DEAD_MARKER = '<meta property="og:title" content="">'
+# The marker sits ~980KB into a ~1.3MB document; capped read keeps this
+# bounded instead of downloading the whole page every time.
+_SOFT_404_BODY_CAP = 1_200_000
+
+
+def _is_google_careers_result(url):
+    return bool(_GOOGLE_CAREERS_RESULT_RE.match(url))
+
+
 def check_url_alive(url, timeout=8):
     """Best-effort liveness check for a job's apply link. Only a 404/410
     confirmed by a GET counts as dead — a HEAD-only 404 is not trusted on its
@@ -242,13 +264,23 @@ def check_url_alive(url, timeout=8):
     (403 bot-blocking, 429 rate limits, timeouts, DNS hiccups) is treated as
     "can't tell, assume alive" so a flaky check never wrongly archives a live
     posting.
+
+    Google Careers result pages are a separate case: they always return 200,
+    live or expired, so this skips the HEAD short-circuit for them and reads
+    the GET body far enough to check the og:title marker described above —
+    still "can't tell, assume alive" if the marker isn't found.
     """
     if not url:
         return True
-    for method in ("HEAD", "GET"):
+    needs_body_check = _is_google_careers_result(url)
+    methods = ("GET",) if needs_body_check else ("HEAD", "GET")
+    for method in methods:
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"}, method=method)
             with urllib.request.urlopen(req, timeout=timeout) as response:
+                if needs_body_check:
+                    body = response.read(_SOFT_404_BODY_CAP).decode("utf-8", errors="replace")
+                    return _GOOGLE_CAREERS_DEAD_MARKER not in body
                 return response.status < 400
         except urllib.error.HTTPError as e:
             if e.code in (404, 410):

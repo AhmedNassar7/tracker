@@ -70,7 +70,7 @@
     },
     "url": {
       "type": "string",
-      "description": "Link to the posting. Usually absolute; Luma events use a site-relative path"
+      "description": "Link to the posting — always an absolute URL. Unlike PublicEntry.url, Luma's site-relative event paths (e.g. '/some-event?k=c') are already resolved to 'https://lu.ma/...' here, so no consumer of this file needs source-specific URL handling"
     },
     "source": {
       "type": "string"

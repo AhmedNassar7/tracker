@@ -28,7 +28,7 @@ SITE_INDEX_SCHEMA = ROOT / "config" / "site-index.schema.json"
 # Fields copied straight through when present; curated-only fields (category,
 # remote_type, country) and the level/region/role_type job fields are added
 # separately per-kind so we never fabricate a key an origin layer doesn't have.
-_SITE_INDEX_PASSTHROUGH = ("company", "title", "location", "url", "source", "source_url")
+_SITE_INDEX_PASSTHROUGH = ("company", "title", "location", "source", "source_url")
 
 
 def load_json(path: Path) -> dict:
@@ -488,6 +488,12 @@ def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
     entry = {"id": row.get("id") or "", "kind": kind, "origin": origin}
     for field in _SITE_INDEX_PASSTHROUGH:
         entry[field] = row.get(field) or ""
+    # Resolve Luma's site-relative event paths here so every url in
+    # site-index.json is always a ready-to-use absolute link — a consumer
+    # (e.g. the site) shouldn't need to know which source emits relative
+    # paths, same normalization fix_event_url() already applies for the
+    # rendered README tables.
+    entry["url"] = fix_event_url(row.get("url") or "")
     entry["age"] = row.get("age") or row.get("date") or ""
     entry["posted_at"] = row.get("posted_at") or ""
 

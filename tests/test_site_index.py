@@ -98,7 +98,7 @@ def main():
         "location": "Global",
         "date": "",
         "posted_at": "2026-01-01",
-        "url": "/some-event?k=c",
+        "url": "/some-event?k=c",  # Luma's site-relative shape
         "source": "luma",
         "source_url": "https://luma.com/discover",
     }
@@ -170,6 +170,16 @@ def main():
     run("event with an empty date still has a valid (empty) age", lambda: check(
         "event age",
         by_id["dddddddddddddddd"]["kind"] == "event" and by_id["dddddddddddddddd"]["age"] == "",
+    ))
+
+    run("Luma's site-relative event url is resolved to an absolute link", lambda: check(
+        "relative url resolved",
+        by_id["dddddddddddddddd"]["url"] == "https://lu.ma/some-event?k=c",
+    ))
+
+    run("an already-absolute url is left unchanged", lambda: check(
+        "absolute url unchanged",
+        by_id["cccccccccccccccc"]["url"] == "https://example.devpost.com/",
     ))
 
     run("every generated item validates against site-index.schema.json", lambda: check(
