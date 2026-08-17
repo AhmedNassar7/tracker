@@ -27,7 +27,7 @@ const isResourcesPage = Astro.url.pathname.startsWith(`${base}resources`);
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<meta name="description" content={description} />
@@ -95,6 +95,7 @@ const isResourcesPage = Astro.url.pathname.startsWith(`${base}resources`);
 			>
 				<svg
 					id="theme-toggle-icon-sun"
+					aria-hidden="true"
 					class="hidden h-4 w-4 dark:block"
 					viewBox="0 0 24 24"
 					fill="none"
@@ -107,6 +108,7 @@ const isResourcesPage = Astro.url.pathname.startsWith(`${base}resources`);
 				</svg>
 				<svg
 					id="theme-toggle-icon-moon"
+					aria-hidden="true"
 					class="h-4 w-4 dark:hidden"
 					viewBox="0 0 24 24"
 					fill="none"

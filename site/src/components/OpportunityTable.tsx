@@ -57,7 +57,7 @@ export default function OpportunityTable({ items }: Props) {
                 >
                   {item.title}
                 </a>
-                <div className="mt-0.5 text-xs text-slate-400 dark:text-slate-500">
+                <div className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
                   via{" "}
                   <a
                     href={item.source_url}

@@ -1,41 +1,55 @@
-import { DEFAULT_FILTERS, hasActiveFilters, type FilterState } from "../lib/filters";
-import type { SiteIndexKind } from "../lib/types";
+import {
+  DEFAULT_FILTERS,
+  hasActiveFilters,
+  KIND_VALUES,
+  LEVEL_VALUES,
+  REGION_VALUES,
+  REMOTE_VALUES,
+  type FilterState,
+} from "../lib/filters";
 
-const KIND_TABS: { value: SiteIndexKind | "all"; label: string }[] = [
-  { value: "all", label: "All" },
-  { value: "job", label: "Jobs" },
-  { value: "hackathon", label: "Hackathons" },
-  { value: "event", label: "Events" },
-];
+// Option lists are built off filters.ts's canonical value arrays (the same
+// ones that validate incoming URL query params) so this UI and that
+// validation can never drift apart — only the display label lives here.
+const KIND_LABELS: Record<string, string> = {
+  all: "All",
+  job: "Jobs",
+  hackathon: "Hackathons",
+  event: "Events",
+};
+const KIND_TABS = KIND_VALUES.map((value) => ({ value, label: KIND_LABELS[value] }));
 
 // Job-only facets — deliberately just the "available now" fields from the
 // plan's filter taxonomy (level/region/remote_type on every job row already).
 // Company, posted-age, and company-type filters are a fast-follow, not
 // missing by accident.
-const LEVEL_OPTIONS: { value: string; label: string }[] = [
-  { value: "internship", label: "Internship" },
-  { value: "new_grad", label: "New grad" },
-  { value: "junior", label: "Junior" },
-  { value: "entry_level", label: "Entry level" },
-  { value: "mid_level", label: "Mid level" },
-  { value: "other", label: "Other" },
-  { value: "unknown", label: "Unknown" },
-];
+const LEVEL_LABELS: Record<string, string> = {
+  internship: "Internship",
+  new_grad: "New grad",
+  junior: "Junior",
+  entry_level: "Entry level",
+  mid_level: "Mid level",
+  other: "Other",
+  unknown: "Unknown",
+};
+const LEVEL_OPTIONS = LEVEL_VALUES.map((value) => ({ value, label: LEVEL_LABELS[value] }));
 
-const REGION_OPTIONS: { value: string; label: string }[] = [
-  { value: "us", label: "United States" },
-  { value: "canada", label: "Canada" },
-  { value: "emea", label: "EMEA" },
-  { value: "remote", label: "Remote" },
-  { value: "unknown", label: "Unknown" },
-];
+const REGION_LABELS: Record<string, string> = {
+  us: "United States",
+  canada: "Canada",
+  emea: "EMEA",
+  remote: "Remote",
+  unknown: "Unknown",
+};
+const REGION_OPTIONS = REGION_VALUES.map((value) => ({ value, label: REGION_LABELS[value] }));
 
-const REMOTE_OPTIONS: { value: string; label: string }[] = [
-  { value: "remote", label: "Remote" },
-  { value: "hybrid", label: "Hybrid" },
-  { value: "onsite", label: "Onsite" },
-  { value: "unknown", label: "Unknown" },
-];
+const REMOTE_LABELS: Record<string, string> = {
+  remote: "Remote",
+  hybrid: "Hybrid",
+  onsite: "Onsite",
+  unknown: "Unknown",
+};
+const REMOTE_OPTIONS = REMOTE_VALUES.map((value) => ({ value, label: REMOTE_LABELS[value] }));
 
 interface Props {
   filters: FilterState;
@@ -50,7 +64,7 @@ export default function FilterBar({ filters, onChange, resultCount }: Props) {
 
   return (
     <div className="mb-6 space-y-3">
-      <div className="flex flex-wrap items-center gap-2">
+      <div role="group" aria-label="Filter by kind" className="flex flex-wrap items-center gap-2">
         {KIND_TABS.map((tab) => (
           <button
             key={tab.value}

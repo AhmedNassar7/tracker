@@ -1,4 +1,4 @@
-import type { SiteIndexEntry, SiteIndexKind } from "./types";
+import type { Level, Region, RemoteType, SiteIndexEntry, SiteIndexKind } from "./types";
 
 export interface FilterState {
   q: string;
@@ -16,6 +16,22 @@ export const DEFAULT_FILTERS: FilterState = {
   remote: "",
 };
 
+// Single source of truth for what each dropdown may legally hold — used both
+// to build FilterBar's option lists and to validate incoming URL query
+// params below, so the two can never drift apart.
+export const KIND_VALUES: readonly (SiteIndexKind | "all")[] = ["all", "job", "hackathon", "event"];
+export const LEVEL_VALUES: readonly Level[] = [
+  "internship",
+  "new_grad",
+  "junior",
+  "entry_level",
+  "mid_level",
+  "other",
+  "unknown",
+];
+export const REGION_VALUES: readonly Region[] = ["us", "canada", "emea", "remote", "unknown"];
+export const REMOTE_VALUES: readonly RemoteType[] = ["remote", "hybrid", "onsite", "unknown"];
+
 // URL query param names — short, but distinct from likely-future params
 // (e.g. a saved-view id) so shared links stay readable.
 const PARAM_KEYS: Record<keyof FilterState, string> = {
@@ -26,13 +42,24 @@ const PARAM_KEYS: Record<keyof FilterState, string> = {
   remote: "remote",
 };
 
+// A hand-edited or stale shared URL can carry any string in its query
+// params. Falling back to the default for anything outside the known set
+// means a bad `?level=xyz` degrades to "show everything" instead of
+// silently matching zero rows with no visible explanation why. Every
+// FilterState field is a plain string (kind is narrowed at the call site
+// below), so this stays untyped rather than forcing values through the
+// stricter Level/Region/RemoteType enums it's validating against.
+function pickValid(raw: string | null, valid: readonly string[], fallback: string): string {
+  return raw && valid.includes(raw) ? raw : fallback;
+}
+
 export function filtersFromSearchParams(params: URLSearchParams): FilterState {
   return {
     q: params.get(PARAM_KEYS.q) ?? DEFAULT_FILTERS.q,
-    kind: (params.get(PARAM_KEYS.kind) as FilterState["kind"]) || DEFAULT_FILTERS.kind,
-    level: params.get(PARAM_KEYS.level) ?? DEFAULT_FILTERS.level,
-    region: params.get(PARAM_KEYS.region) ?? DEFAULT_FILTERS.region,
-    remote: params.get(PARAM_KEYS.remote) ?? DEFAULT_FILTERS.remote,
+    kind: pickValid(params.get(PARAM_KEYS.kind), KIND_VALUES, DEFAULT_FILTERS.kind) as FilterState["kind"],
+    level: pickValid(params.get(PARAM_KEYS.level), LEVEL_VALUES, DEFAULT_FILTERS.level),
+    region: pickValid(params.get(PARAM_KEYS.region), REGION_VALUES, DEFAULT_FILTERS.region),
+    remote: pickValid(params.get(PARAM_KEYS.remote), REMOTE_VALUES, DEFAULT_FILTERS.remote),
   };
 }
 
