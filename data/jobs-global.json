@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T18:56:46Z",
-  "total": 212,
+  "generated_at": "2026-08-17T19:41:05Z",
+  "total": 214,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -962,6 +962,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "245f603d6870fd64",
+      "company": "JPMorgan Chase",
+      "title": "Red Team Assoc Security Engineer II",
+      "level": "mid_level",
+      "category": "consulting_finance",
+      "region": "us",
+      "role_type": "security",
+      "country": "United States",
+      "location": "Plano, TX, United States",
+      "remote_type": "onsite",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210758538",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-17",
+      "age": "0d",
+      "collected_at": "2026-08-17T19:41:05Z",
       "tags": [
         "software",
         "programming",
@@ -2027,52 +2050,6 @@
       ]
     },
     {
-      "id": "a0ac6f46d6e94f5d",
-      "company": "Notion",
-      "title": "Software Engineer Intern (Summer 2027)",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Francisco, California",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-14",
-      "age": "0d",
-      "collected_at": "2026-08-14T19:56:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "50e8011ae0cbfd83",
-      "company": "Notion",
-      "title": "Software Engineer Intern (Winter 2027)",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Francisco, California",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-14",
-      "age": "0d",
-      "collected_at": "2026-08-14T19:56:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "542c662d8fe764e5",
       "company": "Notion",
       "title": "Software Engineer Intern - Summer 2027",
@@ -2181,6 +2158,52 @@
       "posted_at": "2026-08-14",
       "age": "0d",
       "collected_at": "2026-08-14T22:39:47Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a0ac6f46d6e94f5d",
+      "company": "Notion",
+      "title": "Software Engineer Intern (Summer 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, California",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-14",
+      "age": "0d",
+      "collected_at": "2026-08-14T19:56:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "50e8011ae0cbfd83",
+      "company": "Notion",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, California",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-14",
+      "age": "0d",
+      "collected_at": "2026-08-14T19:56:46Z",
       "tags": [
         "software",
         "programming",
@@ -2487,29 +2510,6 @@
       ]
     },
     {
-      "id": "890929dcc79a8964",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-17",
-      "age": "6d",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "dbc54393c0f12516",
       "company": "ByteDance",
       "title": "Software Engineer Intern - AML-Engine-Orchestration",
@@ -2602,29 +2602,6 @@
       ]
     },
     {
-      "id": "affe941dfff55262",
-      "company": "Figma",
-      "title": "Software Engineer Intern (Winter 2027)",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Francisco, CA • Ne...",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T17:11:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "ae4746f77f7523da",
       "company": "Figma",
       "title": "Software Engineer Intern - Winter 2027",
@@ -2694,6 +2671,29 @@
       ]
     },
     {
+      "id": "890929dcc79a8964",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-17",
+      "age": "6d",
+      "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "b3aa804a2744134a",
       "company": "Epic Games",
       "title": "Machine Learning Intern",
@@ -2710,6 +2710,29 @@
       "posted_at": "2026-08-17",
       "age": "1w",
       "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "affe941dfff55262",
+      "company": "Figma",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, CA • Ne...",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-11",
+      "age": "0d",
+      "collected_at": "2026-08-11T17:11:10Z",
       "tags": [
         "software",
         "programming",
@@ -3637,17 +3660,17 @@
       ]
     },
     {
-      "id": "e3eeae369030798f",
+      "id": "ef35692e10223a42",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "category": "more_global_tech",
-      "region": "us",
+      "region": "canada",
       "role_type": "backend",
-      "country": "United States",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "country": "Canada",
+      "location": "Toronto, ON, CA",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3660,17 +3683,17 @@
       ]
     },
     {
-      "id": "ef35692e10223a42",
+      "id": "e3eeae369030798f",
       "company": "Pinterest",
       "title": "Software Engineer II, Backend",
       "level": "mid_level",
       "category": "more_global_tech",
-      "region": "canada",
+      "region": "us",
       "role_type": "backend",
-      "country": "Canada",
-      "location": "Toronto, ON, CA",
+      "country": "United States",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
       "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-07-28",
@@ -3998,6 +4021,29 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8b81bbd8d722fcd1",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "San Diego",
+      "remote_type": "onsite",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-17",
+      "age": "1mo",
+      "collected_at": "2026-08-17T19:41:05Z",
       "tags": [
         "software",
         "programming",
