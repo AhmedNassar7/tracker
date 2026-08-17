@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ApplicationsTracker from "../components/ApplicationsTracker";
+---
+
+<Layout
+	title="My Applications — tracker"
+	description="Track your job applications through bookmarked, applied, OA, interview, and offer — stored locally on your device, exportable any time."
+>
+	<div class="mx-auto max-w-3xl">
+		<h1 class="text-2xl font-semibold">My Applications</h1>
+		<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
+			Bookmark jobs from the listings, then track them through your own funnel. Nothing here is
+			sent anywhere — it lives in this browser only, and you can export it any time.
+		</p>
+
+		<div class="mt-6">
+			<ApplicationsTracker client:load />
+		</div>
+	</div>
+</Layout>

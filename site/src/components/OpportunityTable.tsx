@@ -1,3 +1,4 @@
+import BookmarkButton from "./BookmarkButton";
 import CompanyAvatar from "./CompanyAvatar";
 import type { SiteIndexEntry } from "../lib/types";
 
@@ -26,14 +27,19 @@ function formatLocation(location: string): string {
 
 interface Props {
   items: SiteIndexEntry[];
+  trackedIds: Set<string>;
+  onToggleTrack: (item: SiteIndexEntry) => void;
 }
 
-export default function OpportunityTable({ items }: Props) {
+export default function OpportunityTable({ items, trackedIds, onToggleTrack }: Props) {
   return (
     <div className="overflow-x-auto rounded-md border border-slate-200 dark:border-slate-800">
-      <table className="w-full min-w-[720px] border-collapse text-sm">
+      <table className="w-full min-w-[760px] border-collapse text-sm">
         <thead>
           <tr className="bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500 dark:bg-slate-900 dark:text-slate-400">
+            <th className="px-3 py-2">
+              <span className="sr-only">Track</span>
+            </th>
             <th className="px-3 py-2">Company</th>
             <th className="px-3 py-2">Title</th>
             <th className="px-3 py-2">Kind</th>
@@ -48,6 +54,13 @@ export default function OpportunityTable({ items }: Props) {
               key={item.id}
               className="border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
             >
+              <td className="px-3 py-2">
+                <BookmarkButton
+                  tracked={trackedIds.has(item.id)}
+                  onToggle={() => onToggleTrack(item)}
+                  label={`${item.company} — ${item.title}`}
+                />
+              </td>
               <td className="px-3 py-2 font-medium text-slate-900 dark:text-slate-100">
                 <div className="flex items-center gap-2">
                   <CompanyAvatar company={item.company} />

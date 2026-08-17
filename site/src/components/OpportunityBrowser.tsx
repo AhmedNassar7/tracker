@@ -7,7 +7,8 @@ import {
   searchParamsFromFilters,
   type FilterState,
 } from "../lib/filters";
-import type { SiteIndex } from "../lib/types";
+import { trackApplication, trackedIdSet, untrackApplication } from "../lib/tracker";
+import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
 
@@ -47,6 +48,7 @@ export default function OpportunityBrowser() {
   // string with an empty one for one commit before self-correcting.
   const [filters, setFilters] = useState<FilterState>(() => readFiltersFromLocation());
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [trackedIds, setTrackedIds] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     let cancelled = false;
@@ -66,6 +68,36 @@ export default function OpportunityBrowser() {
       cancelled = true;
     };
   }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    trackedIdSet().then((ids) => {
+      if (!cancelled) setTrackedIds(ids);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // Optimistic: the toggle updates on-screen state immediately, then fires
+  // the IndexedDB write. A failure there is exceedingly unlikely at this
+  // data size (no realistic quota pressure) and not worth blocking a click
+  // on — this mirrors how the rest of the site treats local storage as
+  // reliable-by-default.
+  function handleToggleTrack(item: SiteIndexEntry) {
+    const isTracked = trackedIds.has(item.id);
+    setTrackedIds((prev) => {
+      const next = new Set(prev);
+      if (isTracked) next.delete(item.id);
+      else next.add(item.id);
+      return next;
+    });
+    if (isTracked) {
+      void untrackApplication(item.id);
+    } else {
+      void trackApplication(item);
+    }
+  }
 
   // replaceState, not pushState — a filtered view is still a link someone
   // can copy and share, but adjusting a dropdown shouldn't spam the
@@ -121,7 +153,7 @@ export default function OpportunityBrowser() {
         <p className="py-10 text-center text-slate-500 dark:text-slate-400">No results match these filters.</p>
       ) : (
         <>
-          <OpportunityTable items={visibleItems} />
+          <OpportunityTable items={visibleItems} trackedIds={trackedIds} onToggleTrack={handleToggleTrack} />
           {hasMore && (
             <div className="mt-4 flex justify-center">
               <button

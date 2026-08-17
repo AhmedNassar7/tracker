@@ -1,3 +1,4 @@
+import { BASE_URL } from "./basePath";
 import type { SiteIndex } from "./types";
 
 // Runtime fetch, not a build-time import — the site must show data that's at
@@ -14,12 +15,7 @@ const PROD_SOURCES = [
 // Dev-only same-origin fallback: a manually-copied snapshot (public/site-index.json,
 // gitignored) so local development has real data before anything is pushed to
 // main. Never used in a production build.
-// import.meta.env.BASE_URL isn't guaranteed to carry a trailing slash (it
-// doesn't in this Astro version) — normalize before concatenating.
-const BASE = import.meta.env.BASE_URL.endsWith("/")
-  ? import.meta.env.BASE_URL
-  : `${import.meta.env.BASE_URL}/`;
-const DEV_FALLBACK_SOURCE = `${BASE}site-index.json`;
+const DEV_FALLBACK_SOURCE = `${BASE_URL}site-index.json`;
 
 function sourcesForEnvironment(): string[] {
   return import.meta.env.DEV ? [...PROD_SOURCES, DEV_FALLBACK_SOURCE] : PROD_SOURCES;

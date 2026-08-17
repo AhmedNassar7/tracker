@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { BASE_URL } from '../lib/basePath';
 
 interface Props {
   title?: string;
@@ -11,16 +12,15 @@ const {
   description = "Software engineering jobs, internships, hackathons, and events, merged hourly from 15+ sources with no signup and no fabricated data.",
 } = Astro.props;
 
-// import.meta.env.BASE_URL isn't guaranteed to carry a trailing slash (it
-// doesn't in this Astro version), so build asset/internal URLs off a
-// normalized copy rather than string-concatenating the raw env value.
-const base = import.meta.env.BASE_URL.endsWith("/")
-	? import.meta.env.BASE_URL
-	: `${import.meta.env.BASE_URL}/`;
-
+const base = BASE_URL;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const isResourcesPage = Astro.url.pathname.startsWith(`${base}resources`);
+const NAV_LINKS = [
+	{ href: base, label: "Jobs", match: (path: string) => path === base },
+	{ href: `${base}resources`, label: "Resources", match: (path: string) => path.startsWith(`${base}resources`) },
+	{ href: `${base}applications`, label: "My Applications", match: (path: string) => path.startsWith(`${base}applications`) },
+];
+const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.href ?? base;
 ---
 
 <html lang="en">
@@ -62,29 +62,25 @@ const isResourcesPage = Astro.url.pathname.startsWith(`${base}resources`);
 				<p class="text-sm text-slate-500 dark:text-slate-400">
 					Software engineering jobs, internships, hackathons, and events — refreshed hourly.
 				</p>
-				<nav class="mt-2 flex gap-4 text-sm">
-					<a
-						href={base}
-						aria-current={isResourcesPage ? undefined : "page"}
-						class={
-							isResourcesPage
-								? "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
-								: "font-medium text-teal-700 dark:text-teal-400"
-						}
-					>
-						Jobs
-					</a>
-					<a
-						href={`${base}resources`}
-						aria-current={isResourcesPage ? "page" : undefined}
-						class={
-							isResourcesPage
-								? "font-medium text-teal-700 dark:text-teal-400"
-								: "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
-						}
-					>
-						Resources
-					</a>
+				<nav class="mt-2 flex flex-wrap gap-4 text-sm">
+					{
+						NAV_LINKS.map((link) => {
+							const isActive = link.href === activeHref;
+							return (
+								<a
+									href={link.href}
+									aria-current={isActive ? "page" : undefined}
+									class={
+										isActive
+											? "font-medium text-teal-700 dark:text-teal-400"
+											: "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
+									}
+								>
+									{link.label}
+								</a>
+							);
+						})
+					}
 				</nav>
 			</div>
 			<button
