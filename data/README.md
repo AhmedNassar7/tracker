@@ -28,17 +28,17 @@ Every row links straight to the real application page. Click a title to apply �
 | Section | Count |
 |---|---:|
 | Jobs | 979 |
-| Hackathons | 207 |
-| Events | 5 |
-| Total | 1191 |
+| Hackathons | 154 |
+| Events | 3 |
+| Total | 1136 |
 
 ## Jobs
 
-[![Jobs 979](https://img.shields.io/badge/Jobs-979-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 103](https://img.shields.io/badge/Internship-103-22c55e.svg)](#internship) [![Early Career 102](https://img.shields.io/badge/Early%20Career-102-0ea5e9.svg)](#early-career) [![Mid-Level and Above 774](https://img.shields.io/badge/Mid--Level%20and%20Above-774-dc2626.svg)](#mid-level-and-above)
+[![Jobs 979](https://img.shields.io/badge/Jobs-979-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 105](https://img.shields.io/badge/Internship-105-22c55e.svg)](#internship) [![Early Career 100](https://img.shields.io/badge/Early%20Career-100-0ea5e9.svg)](#early-career) [![Mid-Level and Above 774](https://img.shields.io/badge/Mid--Level%20and%20Above-774-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 103
+Total roles: 105
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -78,7 +78,8 @@ Total roles: 103
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) | San Francisco, CA +1 | 0d |
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true&utm_source=Simplify&ref=Simplify) | SF NYC | 0d |
 | Notion | [Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8) | San Francisco, CA +1 | 0d |
-| Palantir | [Software Engineer, Internship - Produ...](https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86) | Washington, D.C. | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) | Denver, CO | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -103,6 +104,7 @@ Total roles: 103
 | Cloudflare | [Software Engineer Intern (Fall 2026)](https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845) | In-Office | 7d |
 | Figma | [Software Engineer Intern (Winter 2027)](https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) | San Francisco, CA • New York, NY | 7d |
 | Palantir | [Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/2ad0ab10-34c3-410d-883b-8052864a95cd) | Seoul, South Korea | 7d |
+| ByteDance | [Applied Machine Learning Production Engineer Intern - AML Production Engineer](https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 11d |
 | Cloudflare | [Software Engineer Intern (Fall 2026) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) | In-Office | 11d |
 | SpaceX | [Spring 2027 Software Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002) | Flexible - Any SpaceX Site | 14d |
 | SpaceX | [Summer 2027 Software Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002) | Flexible - Any SpaceX Site | 14d |
@@ -148,7 +150,7 @@ Total roles: 103
 
 ### Early Career
 
-Total roles: 102
+Total roles: 100
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -198,8 +200,6 @@ Total roles: 102
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79?utm_source=vansh) | Washington, DC | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3?utm_source=vansh) | Palo Alto, CA | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh) | New York, NY | 0d |
-| Palantir | [Software Engineer, New Grad](https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92) | New York, NY | 0d |
-| Palantir | [Software Engineer, New Grad](https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29) | Denver, CO | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908747686?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908696559?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | Revolut | [graduate programme 2027: software engineer (java)](https://www.linkedin.com/jobs/view/4418834450) | portugal | 0d |
@@ -1038,7 +1038,7 @@ Total roles: 774
 
 ## Hackathons
 
-Total hackathons: 207
+Total hackathons: 154
 
 | Organizer | Hackathon |
 |---|---|
@@ -1077,59 +1077,6 @@ Total hackathons: 207
 | Cyber HX | [Null Origin - 24 Hour CTF Challenge](https://unstop.com/hackathons/null-origin-24-hour-ctf-challenge-cyber-hx-1698744) |
 | D'Code NSUT | [Ascendant Agents](https://unstop.com/hackathons/ascendant-agents-oblivion26-dcode-nsut-1722256) |
 | Deenbandhu Chhotu Ram University Of Science And Technology (DCRUST), Murthal, Haryana | [Paper Buddy EduVerse Hackathon 2026](https://unstop.com/hackathons/paper-buddy-eduverse-hackathon-2026-deenbandhu-chhotu-ram-university-of-science-and-technology-dcrust-murthal-1726534) |
-| Devfolio | [.hack '26](https://dothack26.devfolio.co) |
-| Devfolio | [Awesome Hackathon 2.0](https://awesome-hackathon.devfolio.co) |
-| Devfolio | [Binary Hacks 4.0](https://binary-hacks-4.devfolio.co) |
-| Devfolio | [BOSS Battle](https://boss-battle.devfolio.co) |
-| Devfolio | [CodeClash'24](https://codeclash24.devfolio.co) |
-| Devfolio | [CodeShift](https://codeshift.devfolio.co) |
-| Devfolio | [CodeStorm 2026: FutureForge](https://codestorm-futureforge.devfolio.co) |
-| Devfolio | [CodeWars1.0](https://codewars-2.devfolio.co) |
-| Devfolio | [Convergence](https://convergence1.devfolio.co) |
-| Devfolio | [Discord Testing](https://discord-testing.devfolio.co) |
-| Devfolio | [DOMINION 2026](https://dominion2026.devfolio.co) |
-| Devfolio | [Dora Hack 2.0](https://dora-hack.devfolio.co) |
-| Devfolio | [DSU DEVHACK 3.0](https://dsudevhack3.devfolio.co) |
-| Devfolio | [EAG Global Buildathon](https://eag-global-buildathon.devfolio.co) |
-| Devfolio | [ETHKochi](https://ethkochi.devfolio.co) |
-| Devfolio | [FlutterFlow Champions League Hackathon](https://flutterflow-champions-league-hackathon.devfolio.co) |
-| Devfolio | [FusioniX2026](https://fusionix-1.devfolio.co) |
-| Devfolio | [Girlathon 4.0](https://girlathon26.devfolio.co) |
-| Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) |
-| Devfolio | [Hack4Brahma 2.0](https://hack4brahma2.devfolio.co) |
-| Devfolio | [HACKBIOS 2K26](https://hackbios2k26.devfolio.co) |
-| Devfolio | [HACKER HOUSE GOA 2026](https://hacker-house-goa-2026.devfolio.co) |
-| Devfolio | [Hackify 3.0](https://hackify-3.devfolio.co) |
-| Devfolio | [HackInverse 1.0](https://hackinverse-s1.devfolio.co) |
-| Devfolio | [Hacknauts 2.0](https://hacknauts26.devfolio.co) |
-| Devfolio | [HackNex Season 2](https://hacknex-season-2.devfolio.co) |
-| Devfolio | [HackSpire'26](https://hackspire26.devfolio.co) |
-| Devfolio | [HackTopus'FE](https://hacktopusgdg.devfolio.co) |
-| Devfolio | [HackVerse: Into the Web](https://hackverse-into-the-web.devfolio.co) |
-| Devfolio | [Hakkathon](https://hakkathon.devfolio.co) |
-| Devfolio | [Hefty-Hacks](https://hefty-hacks.devfolio.co) |
-| Devfolio | [HyperFusion](https://hyperfusion.devfolio.co) |
-| Devfolio | [InnoFusion 3.0](https://innofusion-3.devfolio.co) |
-| Devfolio | [Innohacks 4.0](https://innohacks-4.devfolio.co) |
-| Devfolio | [Interledger Student Hackathon - CUC](https://interledger-student-hackathon-cuc.devfolio.co) |
-| Devfolio | [Interledger Student Hackathon - ICESI](https://interledger-student-hackathon-icesi.devfolio.co) |
-| Devfolio | [Interledger Student Hackathon - Tec de Software](https://interledger-student-hackathon-merida.devfolio.co) |
-| Devfolio | [Meowathon 2025](https://meow.devfolio.co) |
-| Devfolio | [Meowathon 2026](https://meowthon.devfolio.co) |
-| Devfolio | [Metamorph 2.0](https://metamorph-2.devfolio.co) |
-| Devfolio | [MUBA Blockchain Hackathon](https://muba-hackathon.devfolio.co) |
-| Devfolio | [NexHack 2.0](https://nexhack-2.devfolio.co) |
-| Devfolio | [Origins](https://origins.devfolio.co) |
-| Devfolio | [PEC HACKS 4.0](https://pec-hacks.devfolio.co) |
-| Devfolio | [Recursion Edition II](https://recursion-edition.devfolio.co) |
-| Devfolio | [RevengersHack](https://revengershack.devfolio.co) |
-| Devfolio | [Road to Devcon - NITK Surathkal](https://road-to-devcon-nitk-surathkal.devfolio.co) |
-| Devfolio | [Test Flow Online](https://test-flow-online.devfolio.co) |
-| Devfolio | [The Great Agent Hackathon](https://the-great-agent-hackathon.devfolio.co) |
-| Devfolio | [TUM Blockchain & AI Hackathon](https://tum.devfolio.co) |
-| Devfolio | [VENTURE'26](https://venture-26.devfolio.co) |
-| Devfolio | [VYNORAE](https://vynorae.devfolio.co) |
-| Devfolio | [WebCraft24](https://webcraft24.devfolio.co) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
 | Elliana | [Nairobi Hack Day](https://nairobi-hack-day.devpost.com/) |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
@@ -1149,7 +1096,6 @@ Total hackathons: 207
 | Google | [All Things Agentic Hackathon](https://allthingsagentichackathon.devpost.com/) |
 | Government Engineering College (GEC), Thrissur | [Matrix 2026](https://unstop.com/hackathons/matrix-2026-government-engineering-college-gec-thrissur-1737241) |
 | Government Engineering College(GEC), Jamui | [TEJAS India Hackathon 2026](https://unstop.com/hackathons/tejas-india-hackathon-2026-government-engineering-collegegec-jamui-1733064) |
-| Guru Nanak Institutions Technical Campus (GNITC), Hyderabad | [Tech Horizon 2.0 - National Level Hackathon](https://unstop.com/hackathons/tech-horizon-20-national-level-hackathon-guru-nanak-institutions-technical-campus-gnitc-hyderabad-1677311) |
 | H & P Projects | [H & P PROJECTS Hackathon Global Challenges 2026](https://unstop.com/hackathons/h-p-projects-hackathon-global-challenges-2026-h-p-projects-1719280) |
 | Hack Club | [Prism Build Challenge](https://prismbuild.devpost.com/) |
 | Hack the Habitat | [Hack the Habitat](https://hack-the-habitat-2026.devpost.com/) |
@@ -1178,6 +1124,7 @@ Total hackathons: 207
 | KPR Institute of Engineering and Technology (KPRIET), Coimbatore | [Y-Hack'26 – 24-Hour National Hackathon](https://unstop.com/hackathons/y-hack26-24-hour-national-hackathon-kpr-institute-of-engineering-and-technology-kpriet-coimbatore-1702198) |
 | KVG College of Engineering (KVGCE), Sullia, Karnataka | [test](https://unstop.com/hackathons/hacknova-2026-kvg-college-of-engineering-kvgce-sullia-karnataka-1715653) |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
+| LV8 Tech | [CardioViz XR: 48-Hour Medical Animation Challenge](https://unstop.com/hackathons/cardioviz-xr-48-hour-medical-animation-challenge-lv8-tech-1738943) |
 | Madhav Institute of Technology and Science | [IEEE HackSynapse 2026 National Level 36-Hours Hackathon](https://unstop.com/hackathons/ieee-hacksynapse-2026-madhav-institute-of-technology-and-science-1717985) |
 | Major League Hacking | [Hack days in KGI](https://hack-days-in-kgi.devpost.com/) |
 | Makers Need More (MnM) | [Morrow 1.0](https://unstop.com/hackathons/morrow-10-makers-need-more-mnm-1727667) |
@@ -1204,7 +1151,6 @@ Total hackathons: 207
 | PES Modern College of Engineering (PESMCE), Pune | [Game of Codes 3.0](https://unstop.com/hackathons/game-of-codes-30-pes-modern-college-of-engineering-pesmce-pune-1727351) |
 | Pimpri Chinchwad College Of Engineering & Research (PCCOE&R), Ravet, Pimpri-Chinchwad, Pune | [CraftVerse 2.0](https://unstop.com/hackathons/craftverse-20-pimpri-chinchwad-college-of-engineering-research-pccoer-ravet-pimpri-chinchwad-pune-1719658) |
 | Pimpri Chinchwad College of Engineering (PCCOE), Pune | [Indradhanu: PCCOE International Grand Challenge 2026](https://unstop.com/hackathons/indradhanu-pccoe-international-grand-challenge-2026-pimpri-chinchwad-college-of-engineering-pccoe-pune-1710779) |
-| Pixel Forge | [Pixel Forge AI Hackathon ($18,000+ in Prizes)](https://pixel-forge-ai-hackathon-08.devpost.com/) |
 | President University | [COMPSPHERE 11](https://compsphere11.devpost.com/) |
 | Primus B School | [Vidhyarthi Sewa EduHack Karnataka 2026](https://vidhyarthi-sewa-eduhack.devpost.com/) |
 | Quantumhacks | [QuantumHacks](https://quantumhacks.devpost.com/) |
@@ -1235,6 +1181,7 @@ Total hackathons: 207
 | Together We Solve | [AETHOS - Day Zero](https://unstop.com/hackathons/aethos-day-zero-together-we-solve-1730263) |
 | Trainzex AI | [Build With Gemini - Creation Code](https://creation-code-30750.devpost.com/) |
 | Trainzex AI | [Gemini Event - HackMatrix](https://gemini-event-hackmatrix.devpost.com/) |
+| trr | [Hackathon 55](https://expo26-30947.devpost.com/) |
 | UniDevs | [Build with AI Hack Days @EMK](https://build-with-ai-hack-days-emk.devpost.com/) |
 | University Institute of Engineering and Technology (UIET), Chandigarh | [The Chandigarh Police Hackathon](https://unstop.com/hackathons/the-chandigarh-police-hackathon-university-institute-of-engineering-and-technology-uiet-chandigarh-1730320) |
 | University of Engineering and Management (UEM), Kolkata | [SuperNova Hackathon](https://unstop.com/hackathons/supernova-hackathon-university-of-engineering-and-management-uem-kolkata-1730807) |
@@ -1252,15 +1199,13 @@ Total hackathons: 207
 
 ## Events
 
-Total events: 5
+Total events: 3
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
-| Luma | [Follow DC](https://lu.ma/DC2?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 
