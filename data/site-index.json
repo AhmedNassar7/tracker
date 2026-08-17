@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T04:03:58Z",
-  "count": 1404,
-  "checksum": "sha256:86660e9db756f80e73784f8ea7252b94ba163e3a2d73d7c96fcd40efd4bc2ebe",
+  "generated_at": "2026-08-17T04:58:35Z",
+  "count": 1403,
+  "checksum": "sha256:4f9d16f88907fbba7a4899fc0d8f6153a862ec4983408f3c5253cf1e8331e8b5",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -1163,6 +1163,44 @@
       "country": "United States"
     },
     {
+      "id": "b3126ca0917b76be",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "New York, NY",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "age": "0d",
+      "posted_at": "2026-08-17",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Washington, D.C.",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "age": "0d",
+      "posted_at": "2026-08-17",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "2ee142b47bfc9198",
       "kind": "job",
       "origin": "curated",
@@ -1638,25 +1676,6 @@
       "country": "Unknown"
     },
     {
-      "id": "ee8897a5d093e9c4",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Amazon",
-      "title": "Software Development Engineer - Early Career",
-      "location": "Vancouver, BC, Canada",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "url": "https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&ref=Simplify",
-      "age": "0d",
-      "posted_at": "2026-08-15",
-      "level": "new_grad",
-      "region": "canada",
-      "role_type": "other_swe",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "Canada"
-    },
-    {
       "id": "e6139c97f0fc6319",
       "kind": "job",
       "origin": "curated",
@@ -1712,6 +1731,25 @@
       "category": "more_global_tech",
       "remote_type": "onsite",
       "country": "United States"
+    },
+    {
+      "id": "ee8897a5d093e9c4",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Amazon",
+      "title": "Software Development Engineer - Early Career",
+      "location": "Vancouver, BC, Canada",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "url": "https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&ref=Simplify",
+      "age": "0d",
+      "posted_at": "2026-08-15",
+      "level": "new_grad",
+      "region": "canada",
+      "role_type": "other_swe",
+      "category": "faang",
+      "remote_type": "onsite",
+      "country": "Canada"
     },
     {
       "id": "403fd95b6fe2a235",
@@ -3251,25 +3289,6 @@
       "category": "consulting_finance",
       "remote_type": "onsite",
       "country": "United Kingdom"
-    },
-    {
-      "id": "9c0205e993e680d7",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Cloudflare",
-      "title": "Software Engineer Intern (Fall 2026) ...",
-      "location": "Austin, TX",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785",
-      "age": "3w",
-      "posted_at": "2026-08-10",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "cloud_infra",
-      "remote_type": "onsite",
-      "country": "United States"
     },
     {
       "id": "39170ffa9c9e83ca",
@@ -20171,7 +20190,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/paper-buddy-eduverse-hackathon-2026-deenbandhu-chhotu-ram-university-of-science-and-technology-dcrust-murthal-1726534",
-      "age": "15 days left",
+      "age": "14 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -20184,7 +20203,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://dothack26.devfolio.co",
-      "age": "20 days left",
+      "age": "19 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -20990,7 +21009,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/puzzle-masters-hackathon-2026-gamnexis-1726256",
-      "age": "6 days left",
+      "age": "5 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -21107,7 +21126,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/tejas-india-hackathon-2026-government-engineering-collegegec-jamui-1733064",
-      "age": "4 days left",
+      "age": "3 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -21146,7 +21165,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://prismbuild.devpost.com/",
-      "age": "about 17 hours left",
+      "age": "about 16 hours left",
       "posted_at": "2026-08-17"
     },
     {
@@ -21523,7 +21542,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hack-days-in-kgi.devpost.com/",
-      "age": "3 days left",
+      "age": "2 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -21770,7 +21789,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://oregonhacks.devpost.com/",
-      "age": "about 12 hours left",
+      "age": "about 10 hours left",
       "posted_at": "2026-08-17"
     },
     {
@@ -21796,7 +21815,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://youcam-api.devpost.com/",
-      "age": "about 12 hours left",
+      "age": "about 11 hours left",
       "posted_at": "2026-08-17"
     },
     {
@@ -21848,7 +21867,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://pixel-forge-ai-hackathon-08.devpost.com/",
-      "age": "6 days left",
+      "age": "5 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -21900,7 +21919,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/binary-hacks-40-raj-kumar-goel-institute-of-technology-rkgit-ghaziabad-1730767",
-      "age": "26 days left",
+      "age": "25 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -22160,7 +22179,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://buuniex-hackathon.devpost.com/",
-      "age": "6 days left",
+      "age": "5 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -22264,7 +22283,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://build-with-ai-hack-days-emk.devpost.com/",
-      "age": "about 6 hours left",
+      "age": "about 5 hours left",
       "posted_at": "2026-08-17"
     },
     {
@@ -22342,7 +22361,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/velohack-2k26-24-hour-international-hackathon-vel-tech-rangarajan-dr-sagunthala-rd-institute-of-science-and-t-1730386",
-      "age": "26 days left",
+      "age": "25 days left",
       "posted_at": "2026-08-17"
     },
     {
@@ -22450,19 +22469,6 @@
       "posted_at": "2026-08-17"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "origin": "public",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "source": "luma",
-      "source_url": "https://luma.com/discover",
-      "url": "https://lu.ma/DC2?k=c",
-      "age": "",
-      "posted_at": "2026-08-17"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "origin": "public",
@@ -22472,19 +22478,6 @@
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "url": "https://lu.ma/deepmind?k=c",
-      "age": "",
-      "posted_at": "2026-08-17"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "origin": "public",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "source": "luma",
-      "source_url": "https://luma.com/discover",
-      "url": "https://lu.ma/stationdc?k=c",
       "age": "",
       "posted_at": "2026-08-17"
     }
