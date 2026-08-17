@@ -3,9 +3,13 @@ import '../styles/global.css';
 
 interface Props {
   title?: string;
+  description?: string;
 }
 
-const { title = "tracker — job, hackathon & event tracker" } = Astro.props;
+const {
+  title = "tracker — job, hackathon & event tracker",
+  description = "Software engineering jobs, internships, hackathons, and events, merged hourly from 15+ sources with no signup and no fabricated data.",
+} = Astro.props;
 
 // import.meta.env.BASE_URL isn't guaranteed to carry a trailing slash (it
 // doesn't in this Astro version), so build asset/internal URLs off a
@@ -13,6 +17,8 @@ const { title = "tracker — job, hackathon & event tracker" } = Astro.props;
 const base = import.meta.env.BASE_URL.endsWith("/")
 	? import.meta.env.BASE_URL
 	: `${import.meta.env.BASE_URL}/`;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <html lang="en">
@@ -22,6 +28,15 @@ const base = import.meta.env.BASE_URL.endsWith("/")
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonicalURL} />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonicalURL} />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
 		<script is:inline>
 			// Runs before first paint (blocking, in <head>) so the page never
 			// flashes the wrong theme. No stored preference means "follow the
