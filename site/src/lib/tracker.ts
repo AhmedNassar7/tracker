@@ -51,54 +51,73 @@ async function writeAll(map: ApplicationMap): Promise<void> {
   await set(STORE_KEY, map);
 }
 
+// Every mutation below is a read-modify-write against the same key, and
+// idb-keyval's get/set aren't transactional across that gap. Two calls
+// fired close together (e.g. bookmarking two different jobs in quick
+// succession, or a status change racing a notes blur-save) would otherwise
+// interleave and the second write would silently clobber the first's
+// change — real data loss for the one place this data lives. Chaining
+// every mutation onto a single module-level promise serializes them
+// without needing real IndexedDB transactions.
+let writeQueue: Promise<unknown> = Promise.resolve();
+
+function enqueueMutation<T>(mutate: (map: ApplicationMap) => T | Promise<T>): Promise<T> {
+  const result = writeQueue.then(async () => {
+    const map = await readAll();
+    const value = await mutate(map);
+    await writeAll(map);
+    return value;
+  });
+  // Swallow rejections in the queue chain itself so one failed mutation
+  // doesn't permanently wedge every mutation queued after it; the actual
+  // error still propagates to the caller of this specific call via `result`.
+  writeQueue = result.catch(() => undefined);
+  return result;
+}
+
 export async function listApplications(): Promise<TrackedApplication[]> {
   const map = await readAll();
   return Object.values(map).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
-export async function trackedIdSet(): Promise<Set<string>> {
-  const map = await readAll();
-  return new Set(Object.keys(map));
-}
-
 type TrackableEntry = Pick<SiteIndexEntry, "id" | "kind" | "company" | "title" | "url">;
 
-export async function trackApplication(entry: TrackableEntry): Promise<TrackedApplication> {
-  const map = await readAll();
-  const now = new Date().toISOString();
-  const record: TrackedApplication = map[entry.id] ?? {
-    id: entry.id,
-    kind: entry.kind,
-    company: entry.company,
-    title: entry.title,
-    url: entry.url,
-    status: "bookmarked",
-    notes: "",
-    addedAt: now,
-    updatedAt: now,
-  };
-  map[entry.id] = record;
-  await writeAll(map);
-  return record;
+export function trackApplication(entry: TrackableEntry): Promise<TrackedApplication> {
+  return enqueueMutation((map) => {
+    const now = new Date().toISOString();
+    const record: TrackedApplication = map[entry.id] ?? {
+      id: entry.id,
+      kind: entry.kind,
+      company: entry.company,
+      title: entry.title,
+      url: entry.url,
+      status: "bookmarked",
+      notes: "",
+      addedAt: now,
+      updatedAt: now,
+    };
+    map[entry.id] = record;
+    return record;
+  });
 }
 
-export async function untrackApplication(id: string): Promise<void> {
-  const map = await readAll();
-  delete map[id];
-  await writeAll(map);
+export function untrackApplication(id: string): Promise<void> {
+  return enqueueMutation((map) => {
+    delete map[id];
+  });
 }
 
-export async function updateApplication(
+export function updateApplication(
   id: string,
   patch: Partial<Pick<TrackedApplication, "status" | "notes">>,
 ): Promise<TrackedApplication | undefined> {
-  const map = await readAll();
-  const existing = map[id];
-  if (!existing) return undefined;
-  const updated: TrackedApplication = { ...existing, ...patch, updatedAt: new Date().toISOString() };
-  map[id] = updated;
-  await writeAll(map);
-  return updated;
+  return enqueueMutation((map) => {
+    const existing = map[id];
+    if (!existing) return undefined;
+    const updated: TrackedApplication = { ...existing, ...patch, updatedAt: new Date().toISOString() };
+    map[id] = updated;
+    return updated;
+  });
 }
 
 export function applicationsToJson(applications: TrackedApplication[]): string {
@@ -112,6 +131,14 @@ function csvField(value: string): string {
   return `"${value.replace(/"/g, '""')}"`;
 }
 
+// Leading UTF-8 BOM: without it, Excel (the most common consumer of an
+// exported CSV) guesses the wrong encoding for any non-ASCII character in
+// a company or job title and renders it as mojibake. Built from a char
+// code rather than typed as a literal invisible character in source, so
+// it can't be silently stripped or mangled by an editor/tool that doesn't
+// render invisible codepoints.
+const UTF8_BOM = String.fromCharCode(0xfeff);
+
 export function applicationsToCsv(applications: TrackedApplication[]): string {
   const header = ["company", "title", "status", "kind", "url", "notes", "added_at", "updated_at"];
   const rows = applications.map((app) =>
@@ -119,5 +146,5 @@ export function applicationsToCsv(applications: TrackedApplication[]): string {
       .map(csvField)
       .join(","),
   );
-  return [header.join(","), ...rows].join("\r\n");
+  return UTF8_BOM + [header.join(","), ...rows].join("\r\n");
 }

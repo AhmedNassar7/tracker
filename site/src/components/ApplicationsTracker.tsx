@@ -74,7 +74,12 @@ export default function ApplicationsTracker() {
 
   async function handleRemove(id: string) {
     if (state.status !== "loaded") return;
-    setState({ status: "loaded", applications: state.applications.filter((app) => app.id !== id) });
+    const app = state.applications.find((a) => a.id === id);
+    if (!app) return;
+    if (!window.confirm(`Remove ${app.company} — ${app.title} from your tracked applications? This can't be undone.`)) {
+      return;
+    }
+    setState({ status: "loaded", applications: state.applications.filter((a) => a.id !== id) });
     await untrackApplication(id);
   }
 

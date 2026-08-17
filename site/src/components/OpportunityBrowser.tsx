@@ -7,7 +7,7 @@ import {
   searchParamsFromFilters,
   type FilterState,
 } from "../lib/filters";
-import { trackApplication, trackedIdSet, untrackApplication } from "../lib/tracker";
+import { listApplications, STATUS_LABELS, trackApplication, untrackApplication, type TrackedApplication } from "../lib/tracker";
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
@@ -48,7 +48,7 @@ export default function OpportunityBrowser() {
   // string with an empty one for one commit before self-correcting.
   const [filters, setFilters] = useState<FilterState>(() => readFiltersFromLocation());
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-  const [trackedIds, setTrackedIds] = useState<Set<string>>(new Set());
+  const [trackedApps, setTrackedApps] = useState<Map<string, TrackedApplication>>(new Map());
 
   useEffect(() => {
     let cancelled = false;
@@ -71,30 +71,62 @@ export default function OpportunityBrowser() {
 
   useEffect(() => {
     let cancelled = false;
-    trackedIdSet().then((ids) => {
-      if (!cancelled) setTrackedIds(ids);
+    listApplications().then((apps) => {
+      if (!cancelled) setTrackedApps(new Map(apps.map((app) => [app.id, app])));
     });
     return () => {
       cancelled = true;
     };
   }, []);
 
+  const trackedIds = useMemo(() => new Set(trackedApps.keys()), [trackedApps]);
+
   // Optimistic: the toggle updates on-screen state immediately, then fires
   // the IndexedDB write. A failure there is exceedingly unlikely at this
   // data size (no realistic quota pressure) and not worth blocking a click
   // on — this mirrors how the rest of the site treats local storage as
   // reliable-by-default.
+  //
+  // Un-tracking here calls the same delete this table's star button always
+  // has — but by the time someone has moved a bookmark to "Interview" and
+  // added notes on the /applications page, clicking the same star back on
+  // this listings page would silently destroy that history with no warning
+  // otherwise. Confirm only in that case; a plain bookmark toggle (still
+  // "bookmarked" status, no notes) stays a single frictionless click.
   function handleToggleTrack(item: SiteIndexEntry) {
-    const isTracked = trackedIds.has(item.id);
-    setTrackedIds((prev) => {
-      const next = new Set(prev);
-      if (isTracked) next.delete(item.id);
-      else next.add(item.id);
-      return next;
-    });
-    if (isTracked) {
+    const existing = trackedApps.get(item.id);
+    if (existing) {
+      const hasProgress = existing.status !== "bookmarked" || existing.notes.trim() !== "";
+      if (
+        hasProgress &&
+        !window.confirm(
+          `${item.company} — ${item.title} is marked "${STATUS_LABELS[existing.status]}"${
+            existing.notes.trim() ? " with notes" : ""
+          }. Remove it from your tracked applications? This can't be undone.`,
+        )
+      ) {
+        return;
+      }
+      setTrackedApps((prev) => {
+        const next = new Map(prev);
+        next.delete(item.id);
+        return next;
+      });
       void untrackApplication(item.id);
     } else {
+      const now = new Date().toISOString();
+      const optimistic: TrackedApplication = {
+        id: item.id,
+        kind: item.kind,
+        company: item.company,
+        title: item.title,
+        url: item.url,
+        status: "bookmarked",
+        notes: "",
+        addedAt: now,
+        updatedAt: now,
+      };
+      setTrackedApps((prev) => new Map(prev).set(item.id, optimistic));
       void trackApplication(item);
     }
   }
