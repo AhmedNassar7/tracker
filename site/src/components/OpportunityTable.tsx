@@ -1,3 +1,4 @@
+import CompanyAvatar from "./CompanyAvatar";
 import type { SiteIndexEntry } from "../lib/types";
 
 const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
@@ -47,7 +48,12 @@ export default function OpportunityTable({ items }: Props) {
               key={item.id}
               className="border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
             >
-              <td className="px-3 py-2 font-medium text-slate-900 dark:text-slate-100">{item.company}</td>
+              <td className="px-3 py-2 font-medium text-slate-900 dark:text-slate-100">
+                <div className="flex items-center gap-2">
+                  <CompanyAvatar company={item.company} />
+                  <span>{item.company}</span>
+                </div>
+              </td>
               <td className="px-3 py-2">
                 <a
                   className="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
