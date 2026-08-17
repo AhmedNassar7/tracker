@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 913 |
+| Jobs | 918 |
 | Hackathons | 207 |
 | Events | 3 |
-| Total | 1123 |
+| Total | 1128 |
 
 ## Jobs
 
-[![Jobs 913](https://img.shields.io/badge/Jobs-913-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 101](https://img.shields.io/badge/Internship-101-22c55e.svg)](#internship) [![Early Career 95](https://img.shields.io/badge/Early%20Career-95-0ea5e9.svg)](#early-career) [![Mid-Level and Above 717](https://img.shields.io/badge/Mid--Level%20and%20Above-717-dc2626.svg)](#mid-level-and-above)
+[![Jobs 918](https://img.shields.io/badge/Jobs-918-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 100](https://img.shields.io/badge/Internship-100-22c55e.svg)](#internship) [![Early Career 98](https://img.shields.io/badge/Early%20Career-98-0ea5e9.svg)](#early-career) [![Mid-Level and Above 720](https://img.shields.io/badge/Mid--Level%20and%20Above-720-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 101
+Total roles: 100
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -115,7 +115,6 @@ Total roles: 101
 | Palantir | [Forward Deployed Software Engineer Intern - Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply?utm_source=Simplify&ref=Simplify) | Chicago, IL | 1mo |
 | Palantir | [Privacy and Civil Liberties Software Engineer Intern](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply?utm_source=Simplify&ref=Simplify) | NYC | 1mo |
 | Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego | 1mo |
-| Sony | [Software Engineer Intern](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282) | San Diego | 1mo |
 | Jane Street | [Machine Learning Engineer Summer Internship](https://www.janestreet.com/join-jane-street/position/8611307002) | New York City, NY | 1mo |
 | Jane Street | [Machine Learning Researcher Summer Internship](https://www.janestreet.com/join-jane-street/position/8384490002) | New York City, NY | 1mo |
 | Jane Street | [Software Engineer Summer Internship](https://www.janestreet.com/join-jane-street/position/8599644002) | New York City, NY | 1mo |
@@ -146,12 +145,13 @@ Total roles: 101
 
 ### Early Career
 
-Total roles: 95
+Total roles: 98
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Amazon | [Software Development Engineer - Early Career](https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 0d |
 | Apple | [Software Engineer, IS&T Early Career](https://jobs.apple.com/en-us/details/200627852-3956/software-engineer-is-t-early-career?utm_source=vansh) | Sunnyvale, CA | 0d |
+| ByteDance | [LLM Backend Engineer Graduate (Applie...](https://joinbytedance.com/search/7667730992538585349) | San Jose, California | 0d |
 | ByteDance | [Multi-Cloud CDN Data Platform Engineer Graduate (CDN Platform) - 2027 Start](https://www.indeed.com/viewjob?jk=2e9adcb2b4a866c9) | Seattle, WA, US | 0d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Graduate (CDN Platform) - 2027 Start](https://www.indeed.com/viewjob?jk=8c35fee4caa3719c) | San Jose, CA, US | 0d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Graduate (CDN Platform) - 2027 Start](https://www.indeed.com/viewjob?jk=3273d8f069b0aea2) | Seattle, WA, US | 0d |
@@ -171,12 +171,15 @@ Total roles: 95
 | ByteDance | [New Grad 2026: Software Engineer Graduate (Applied Machine Learning - MLDev)](https://jobs.bytedance.com/en/position/7535233571066349842/detail?spread=BSPP2KS&utm_source=vansh&ref=vansh) | San Jose, CA | 0d |
 | ByteDance | [New Grad 2026: Software Engineer in ML Systems](https://joinbytedance.com/search/7265752342699837757?utm_source=vansh) | San Jose, CA | 0d |
 | ByteDance | [New Grad 2026: Software Engineer, Authorization-US](https://jobs.bytedance.com/en/position/7531126749275851026/detail?spread=BSPP2KS&utm_source=vansh&ref=vansh) | San Jose, CA | 0d |
+| ByteDance | [Product Security Engineer Graduate (S...](https://joinbytedance.com/search/7668636404159858997) | San Jose, California | 0d |
 | ByteDance | [Site Reliability Engineer Graduate [Security Engineering-US]](https://jobs.bytedance.com/en/position/7534838755829696776/detail?spread=BSPP2KS&utm_source=vansh&ref=vansh) | San Jose, CA | 0d |
 | DoorDash | [New Grad: Software Engineer I](https://careersatdoordash.com/jobs/software-engineer-i-entry-level-graduation-date-fall-2025-summer-2026/7263610/?utm_source=vansh) | <details><summary>5 locations</summary>New York<br>NY San Francisco<br>CA Los Angeles<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
 | Duolingo | [New Grad: Data Scientist](https://careers.duolingo.com/jobs/8162849002?utm_source=vansh) | Pittsburgh, PA | 0d |
 | Duolingo | [New Grad: Software Engineer](https://careers.duolingo.com/jobs/8155283002?utm_source=vansh) | Pittsburgh, PA | 0d |
 | Google | [Software Developer, Early Career, Campus](https://www.google.com/about/careers/applications/jobs/results/120686451305128646) | Canada | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
+| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
+| LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
 | Notion | [Software Engineer New Grad](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&utm_source=Simplify&ref=Simplify) | SF | 0d |
 | Notion | [Software Engineer, Fullstack, Early Career](https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b?utm_source=vansh) | San Francisco, CA New York, NY | 0d |
@@ -199,7 +202,6 @@ Total roles: 95
 | Roblox | [New Grad 2025: Software Engineer, Game Solutions Engineering](https://careers.roblox.com/jobs/6749070?utm_source=vansh) | San Mateo, CA | 0d |
 | Roblox | [Software Engineer - Early Career](https://careers.roblox.com/jobs/7114754?gh_jid=7114754&utm_source=vansh&ref=vansh) | San Mateo, CA | 0d |
 | ServiceNow | [Associate Software Engineer, Core Inf...](https://jobs.smartrecruiters.com/ServiceNow/744000107369741) | Mountain View, CALIFORNIA | 0d |
-| SIG | [New Grad: Software Developer](https://careers.sig.com/job/SUSQA004Y9261?utm_source=vansh) | Bala Cynwyd, PA | 0d |
 | SpaceX | [Software Engineer New Grad - Software - Starlink](https://boards.greenhouse.io/spacex/jobs/8696097002?utm_source=Simplify&ref=Simplify) | Bastrop, TX | 0d |
 | Stripe | [Software Engineer - New Grad](https://stripe.com/jobs/search?gh_jid=7210112&utm_source=vansh&ref=vansh) | Seattle, WA SF | 0d |
 | Uber Technologies, Inc. | [Software Engineer I](https://jobs.uber.com/en/jobs/160017/?_csid=BOBcQVO6jwRuNsBKbjoAZA&effect=&sm_flow_id=92Yhskrz&state=xlA80FxvL-2272sFxrCsxXWLk7KQR60tJLE43FsTxHI%3D&utm_source=vansh&ref=vansh) | Seattle, Washington | 0d |
@@ -248,32 +250,39 @@ Total roles: 95
 
 ### Mid-Level and Above
 
-Total roles: 717
+Total roles: 720
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Amazon | [Software Development Engineer II](https://www.amazon.jobs/en/jobs/10497918/software-development-engineer-ii) | Bengaluru, Karnataka, IND | 0d |
 | Amazon | [Software Development Engineer II, Amazon](https://www.amazon.jobs/en/jobs/10502808/software-development-engineer-ii-amazon) | Hyderabad, Telangana, IND | 0d |
 | Amazon | [Software Development Engineer II, FBA](https://www.amazon.jobs/en/jobs/10499299/software-development-engineer-ii-fba) | Bengaluru, Karnataka, IND | 0d |
-| Instacart | [Site Reliability Engineer II](https://instacart.careers/job/?gh_jid=8121910) | Remote | 0d |
+| Amazon Development Centre Canada ULC | [Software Development Engineer II, Ama...](https://www.amazon.jobs/en/jobs/10503715/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization) | Toronto, ON | 0d |
+| Figma | [Software Engineer - Application Platform](https://boards.greenhouse.io/figma/jobs/6142506004?gh_jid=6142506004) | San Francisco, CA • New York, NY • United States | 0d |
 | NVIDIA | [Distinguished Software Engineer - NVLink Fusion Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Distinguished-Software-Engineer---NVLink-Fusion-Software_JR2000295) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>OR<br>Hillsboro, US<br>NC<br>Durham, US<br>CO<br>Boulder, US<br>WA<br>Redmond</details> | 0d |
 | NVIDIA | [Lead System Software Engineer Platform - Server Embedded Firmware](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer-Platform---Server-Embedded-Firmware_JR2014509) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Manager, Infrastructure Engineering and DevOps](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Manager--Infrastructure-Engineering-and-DevOps_JR2023224) | Israel, Yokneam | 0d |
+| NVIDIA | [Principal Software Engineer - Rack Scale Systems Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>TX<br>Remote, US<br>Remote, US<br>MA<br>Remote</details> | 0d |
 | NVIDIA | [Senior AI Infrastructure Business Development Manager — Service Providers and Telco](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-AI-Infrastructure-Business-Development-Manager---Service-Providers-and-Telco_JR2022938-1) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior Linux Kernel Systems Software Engineer – CSP Engagements](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>WA<br>Redmond, US<br>WA<br>Seattle</details> | 0d |
 | NVIDIA | [Senior Platform Engineer, Network Infrastructure - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>IL<br>Remote, US<br>WA<br>Remote, US<br>Remote, US<br>CA<br>Remote, US<br>MA<br>Remote</details> | 0d |
 | NVIDIA | [Senior Site Reliability Engineer in Test, SDET](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Site-Reliability-Engineer-in-Test--SDET_JR2023203-1) | China, Shanghai | 0d |
 | NVIDIA | [Senior Software Engineer - AI Networking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer---AI-Networking_JR2023361) | <details><summary>2 locations</summary>China<br>Shanghai<br>China<br>Beijing</details> | 0d |
 | NVIDIA | [Senior Software Engineer - NIC and Switch Simulation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer---NIC-and-Switch-Simulation_JR2018714) | <details><summary>2 locations</summary>Israel<br>Yokneam<br>Israel<br>Tel Aviv</details> | 0d |
+| NVIDIA | [Senior Software Engineer - NVLink Rack Scale Stability and Reliability](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---NVLink-Rack-Scale-Stability-and-Reliability_JR2018426) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>IL<br>Remote, US<br>CO<br>Remote, US<br>AZ<br>Remote, US<br>CA<br>Remote, US<br>MA<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer - RDMA and Doca](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer---RDMA-and-Doca_JR2023358-1) | <details><summary>2 locations</summary>China<br>Shanghai<br>China<br>Beijing</details> | 0d |
+| NVIDIA | [Senior Software Engineer — cuEquivariance](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---cuEquivariance_JR2018334) | US, CA, Santa Clara | 0d |
+| NVIDIA | [Senior Software Engineer, Agent Architecture and Evaluation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Agentic-AI-Software-Engineer_JR2023179) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>CA<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer, Cloud Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-Software-Engineer--Cloud-Platform_JR2022909) | <details><summary>2 locations</summary>Taiwan<br>Taipei<br>Taiwan<br>Hsinchu</details> | 0d |
 | NVIDIA | [Senior Software Engineer, Developer Experience](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Developer-Experience_JR2023498) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior System Firmware Engineer - BIOS UEFI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Firmware-Engineer---BIOS-UEFI_JR2014710) | <details><summary>3 locations</summary>US, CA<br>Santa Clara, US<br>OR<br>Hillsboro, US<br>WA<br>Redmond</details> | 0d |
+| NVIDIA | [Senior Systems Software Engineer, Data Center Platform Enablement](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870) | US, CA, Santa Clara | 0d |
 | Okta | [Site Reliability Engineer II](https://www.okta.com/company/careers/opportunity/8121308?gh_jid=8121308) | Bengaluru, India | 0d |
 | Okta | [Software Engineer II, End User Protection (Auth0)](https://www.okta.com/company/careers/opportunity/7821930?gh_jid=7821930) | Toronto, Ontario, Canada | 0d |
 | Openai | [Product Engineer, Full Stack - Agents](https://jobs.ashbyhq.com/openai/5ed99d32-eed1-4679-b7b4-037de073e57c) | San Francisco | 0d |
+| Openai | [Software Engineer, Model Deployment- ChatGPT Engineering](https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b) | London, UK | 0d |
 | Wise | [Senior Android Engineer - Design Systems](https://jobs.smartrecruiters.com/Wise/744000143775470) | London, United Kingdom | 0d |
-| JPMorganChase | [AI/ML Software Engineer II](https://www.indeed.com/viewjob?jk=65720298244a9c5d) | New York, NY, US | 1d |
+| Wise | [Senior Software Engineer II - Fraud Squad - Account Integrity (Java)](https://jobs.smartrecruiters.com/Wise/744000143895890) | London, United Kingdom | 0d |
 | NVIDIA | [Engineering Manager - OpenBMC Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Cloud Software Engineer, DGXC Data Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
 | NVIDIA | [Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
@@ -294,19 +303,16 @@ Total roles: 717
 | Cloudflare | [Senior Software Engineer, Workers Runtime](https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726) | In-Office | 3d |
 | Cloudflare | [Software Engineer-](https://boards.greenhouse.io/cloudflare/jobs/8125865?gh_jid=8125865) | Hybrid | 3d |
 | Figma | [Manager, Design - Systems & Infrastructure](https://boards.greenhouse.io/figma/jobs/6135656004?gh_jid=6135656004) | San Francisco, CA • New York, NY • United States | 3d |
+| Instacart | [Site Reliability Engineer II](https://instacart.careers/job/?gh_jid=8121910) | United States - Remote | 3d |
 | NVIDIA | [Developer Relations Manager, AI Platform and Tools - MLOps](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Relations-Manager--AI-Platform-and-Tools---MLOps_JR2018976) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 3d |
 | NVIDIA | [Embedded Software Engineer - DPU Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1) | US, MA, Westford | 3d |
-| NVIDIA | [Senior Hardware Systems Engineer - LPU Platform Pathfinding](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Hardware-Systems-Engineer---LPU-Platforms_JR2014698) | US, CA, Santa Clara | 3d |
-| NVIDIA | [Senior Platform Telemetry Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Telemetry-Engineer_JR2002276) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 3d |
+| NVIDIA | [Senior Platform Telemetry Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Telemetry-Engineer_JR2002276) | 2 Locations | 3d |
 | NVIDIA | [Senior Software Engineer, AI Inference Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/Senior-Software-Engineer--AI-Inference-Systems_JR2008495) | Canada, Toronto | 3d |
 | NVIDIA | [Senior Software Engineer, AI Storage](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Storage_JR2014785) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 3d |
 | NVIDIA | [Senior Software Engineer, At Scale Compute Analysis](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>CO<br>Remote, US<br>WA<br>Remote, US<br>CA<br>Remote</details> | 3d |
 | NVIDIA | [Senior Software Engineer, C++ and CUDA - Analytics and Data Intelligence](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--C---and-CUDA---Analytics-and-Data-Intelligence_JR2023072-1) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Remote, US<br>NY<br>Remote, US<br>WA<br>Remote, US<br>CA<br>Remote, US<br>MA<br>Remote</details> | 3d |
 | NVIDIA | [Senior Software Engineer, Core Infrastructure Services - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552) | <details><summary>5 locations</summary>US<br>Remote, US<br>TX<br>Remote, US<br>CO<br>Remote, US<br>CA<br>Remote, US<br>MA<br>Remote</details> | 3d |
 | NVIDIA | [Senior Software Engineer, Hardware Tools and Methodology Development](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Hardware-Tools-and-Methodology-Development_JR2012046) | US, CA, Santa Clara | 3d |
-| NVIDIA | [Senior System Mechanical Engineer - LPU Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Mechanical-Engineer---LPU-Platform_JR2017840) | US, CA, Santa Clara | 3d |
-| NVIDIA | [Software Engineer, Infrastructure - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Infrastructure---DGX-Cloud_JR2022400) | US, CA, Santa Clara | 3d |
-| NVIDIA | [Systems Software Engineer, CPU Manageability Stack](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Systems-Software-Engineer--CPU-Manageability-Stack_JR2023337) | India, Bengaluru | 3d |
 | Okta | [Software Engineer II, Developer Tooling (Auth0)](https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088) | Toronto, Ontario, Canada | 3d |
 | Openai | [Senior Counsel, Commercial (Infrastructure)](https://jobs.ashbyhq.com/openai/30d4f083-e3b7-4f06-bc57-575a3368c23a) | San Francisco | 3d |
 | Openai | [Software Engineer, Compute Infrastructure](https://jobs.ashbyhq.com/openai/ca300a6d-a2a7-4580-aad7-323fbdfee7b1) | San Francisco | 3d |
@@ -335,7 +341,6 @@ Total roles: 717
 | Wise | [Software Engineer - Screening Controls](https://jobs.smartrecruiters.com/Wise/744000143239689) | Tallinn, Estonia | 4d |
 | Cohere | [Forward Deployed Engineer, Infrastructure Specialist (Singapore)](https://jobs.ashbyhq.com/cohere/e88931c0-d3fa-4e81-accc-45db823ea616) | Singapore | 5d |
 | Instacart | [Software Engineer II, Technical Search Visibility](https://instacart.careers/job/?gh_jid=7963661) | Canada - Remote (ON, AB, BC, or NS Only) | 5d |
-| Openai | [Software Engineer, GPU Infrastructure- ChatGPT Engineering](https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b) | London, UK | 5d |
 | Plaid | [Staff Software Engineer - AI & Intelligent Tooling](https://jobs.ashbyhq.com/plaid/41448609-24d6-44ea-a5ba-c87cf3dc3f0d) | San Francisco HQ | 5d |
 | SpaceX | [AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557252002?gh_jid=8557252002) | Washington, DC | 5d |
 | SpaceX | [AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557110002?gh_jid=8557110002) | Palo Alto, CA | 5d |
@@ -343,8 +348,8 @@ Total roles: 717
 | SpaceX | [Full Stack Software Engineer, Manufacturing Systems](https://boards.greenhouse.io/spacex/jobs/8703540002?gh_jid=8703540002) | Hawthorne, CA | 5d |
 | SpaceX | [IT Network Infrastructure Engineer](https://boards.greenhouse.io/spacex/jobs/8570046002?gh_jid=8570046002) | Hawthorne, CA | 5d |
 | SpaceX | [Sr. Site Reliability Engineer](https://boards.greenhouse.io/spacex/jobs/8601441002?gh_jid=8601441002) | Washington, DC | 5d |
-| SpaceX | [Sr. Site Reliability Engineer - Top Secret Clearance (Starlink)](https://boards.greenhouse.io/spacex/jobs/8640515002?gh_jid=8640515002) | Hawthorne, CA | 5d |
 | SpaceX | [Sr. Site Reliability Engineer - Top Secret Clearance (Starlink)](https://boards.greenhouse.io/spacex/jobs/8701706002?gh_jid=8701706002) | Redmond, WA | 5d |
+| SpaceX | [Sr. Site Reliability Engineer - Top Secret Clearance (Starlink)](https://boards.greenhouse.io/spacex/jobs/8640515002?gh_jid=8640515002) | Hawthorne, CA | 5d |
 | Wise | [Global Events Lead - Wise Platform](https://jobs.smartrecruiters.com/Wise/744000143096365) | London, United Kingdom | 5d |
 | Wise | [Product Marketing Lead - Wise Platform](https://jobs.smartrecruiters.com/Wise/744000143155229) | London, United Kingdom | 5d |
 | Wise | [Senior Software Engineer - Contact Automation - AI](https://jobs.smartrecruiters.com/Wise/744000143045834) | Budapest, Hungary | 5d |
@@ -383,7 +388,6 @@ Total roles: 717
 | Substack | [Full Stack Software Engineer - Community](https://jobs.ashbyhq.com/substack/46b21719-a949-44ab-8b0f-8baa1c7f0392) | San Francisco (HQ) | 6d |
 | Wise | [Content Marketing Manager (B2B) - Wise Platform](https://jobs.smartrecruiters.com/Wise/744000142897224) | London, United Kingdom | 6d |
 | Wise | [Senior Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000142765080) | Seoul, Korea, republic of | 6d |
-| Wise | [Senior Software Engineer - Fraud Squad - Account Integrity (Java)](https://jobs.smartrecruiters.com/Wise/744000142919660) | London, United Kingdom | 6d |
 | Wise | [Software Engineer - APAC Expansion (Korea)](https://jobs.smartrecruiters.com/Wise/744000142767192) | Seoul, Korea, republic of | 6d |
 | Cloudflare | [Full Stack Engineer - Internal Audit](https://boards.greenhouse.io/cloudflare/jobs/8014902?gh_jid=8014902) | Hybrid | 7d |
 | Cloudflare | [Software Engineer, Network Firewall](https://boards.greenhouse.io/cloudflare/jobs/8106815?gh_jid=8106815) | Hybrid | 7d |
@@ -398,8 +402,8 @@ Total roles: 717
 | Cloudflare | [Principal Software Engineer, Data](https://boards.greenhouse.io/cloudflare/jobs/8102350?gh_jid=8102350) | Austin, TX, United States | 10d |
 | Okta | [Software Engineer II, Security Engineering (Auth0)](https://www.okta.com/company/careers/opportunity/8003538?gh_jid=8003538) | Toronto, Ontario, Canada | 10d |
 | SpaceX | [Lead Software Engineer, Application Software (Finance)](https://boards.greenhouse.io/spacex/jobs/8692493002?gh_jid=8692493002) | Hawthorne, CA | 10d |
-| SpaceX | [Satellite Policy Manager (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8691166002?gh_jid=8691166002) | Redmond, WA | 10d |
 | SpaceX | [Satellite Policy Manager (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8691128002?gh_jid=8691128002) | Washington, DC | 10d |
+| SpaceX | [Satellite Policy Manager (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8691166002?gh_jid=8691166002) | Redmond, WA | 10d |
 | SpaceX | [Sr. Full Stack Engineer, Finance](https://boards.greenhouse.io/spacex/jobs/8692498002?gh_jid=8692498002) | Hawthorne, CA | 10d |
 | SpaceX | [Sr. Satellite Policy Manager (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8624755002?gh_jid=8624755002) | Washington, DC | 10d |
 | Amazon | [Software Development Engineer II (ADBL188)](https://www.amazon.jobs/en/jobs/10489763/software-development-engineer-ii-adbl188) | Newark, New Jersey, USA | 11d |
@@ -434,17 +438,17 @@ Total roles: 717
 | SpaceX | [Manager, IT Infrastructure (Data Centers)](https://boards.greenhouse.io/spacex/jobs/8687826002?gh_jid=8687826002) | Hawthorne, CA | 11d |
 | SpaceX | [Principal RF Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8650021002?gh_jid=8650021002) | Hawthorne, CA | 11d |
 | SpaceX | [Sr. Counsel, Datacenter Development & Infrastructure](https://boards.greenhouse.io/spacex/jobs/8631678002?gh_jid=8631678002) | Starbase, TX | 11d |
-| SpaceX | [Sr. Counsel, Datacenter Development & Infrastructure](https://boards.greenhouse.io/spacex/jobs/8632985002?gh_jid=8632985002) | Bastrop, TX | 11d |
 | SpaceX | [Sr. Counsel, Datacenter Development & Infrastructure](https://boards.greenhouse.io/spacex/jobs/8631722002?gh_jid=8631722002) | Cape Canaveral, FL | 11d |
+| SpaceX | [Sr. Counsel, Datacenter Development & Infrastructure](https://boards.greenhouse.io/spacex/jobs/8632985002?gh_jid=8632985002) | Bastrop, TX | 11d |
 | Openai | [Software Engineer, Agent Productivity](https://jobs.ashbyhq.com/openai/0432731c-f229-476e-92b6-d53491e79096) | San Francisco | 12d |
 | Openai | [Software Engineer, API Enterprise Controls](https://jobs.ashbyhq.com/openai/4c0a6cb6-d365-4e5b-bdff-c093d951026d) | San Francisco | 12d |
 | Openai | [Software Engineer, Distributed Data Systems - Robotics](https://jobs.ashbyhq.com/openai/da07ba71-81fd-47c7-adb1-2b2d1eaed325) | San Francisco | 12d |
 | SpaceX | [Full Stack Software Engineer, Internal Systems](https://boards.greenhouse.io/spacex/jobs/8686286002?gh_jid=8686286002) | Memphis, TN | 12d |
-| SpaceX | [RAN Validation Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8674890002?gh_jid=8674890002) | Palo Alto, CA | 12d |
 | SpaceX | [RAN Validation Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8675026002?gh_jid=8675026002) | Redmond, WA | 12d |
+| SpaceX | [RAN Validation Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8674890002?gh_jid=8674890002) | Palo Alto, CA | 12d |
 | SpaceX | [Software Engineer, C++ Simulations (Starlink)](https://boards.greenhouse.io/spacex/jobs/8682197002?gh_jid=8682197002) | Redmond, WA | 12d |
-| SpaceX | [Sr. RAN Software Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8673035002?gh_jid=8673035002) | Redmond, WA | 12d |
 | SpaceX | [Sr. RAN Software Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8672784002?gh_jid=8672784002) | Palo Alto, CA | 12d |
+| SpaceX | [Sr. RAN Software Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8673035002?gh_jid=8673035002) | Redmond, WA | 12d |
 | SpaceX | [Sr. Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8684403002?gh_jid=8684403002) | Hawthorne, CA | 12d |
 | Amazon | [Software Development Engineer II](https://www.amazon.jobs/en/jobs/10486441/software-development-engineer-ii) | North Reading, Massachusetts, USA | 13d |
 | Openai | [Full-Stack Engineer, ChatGPT Education & Learning](https://jobs.ashbyhq.com/openai/ef828b89-41ed-4cde-96a9-94ffe5770d4c) | San Francisco | 13d |
@@ -455,8 +459,8 @@ Total roles: 717
 | Pinterest | [Machine Learning Engineer II, Core Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=7473497) | Toronto, ON, CA | 13d |
 | Pinterest | [Security Software Engineer II, Detection and Response](https://www.pinterestcareers.com/jobs/?gh_jid=8015490) | San Francisco, CA, US; Remote, US | 13d |
 | Pinterest | [Site Reliability Engineer II, tvScientific](https://www.pinterestcareers.com/jobs/?gh_jid=7782538) | San Francisco, CA, US; Remote, US | 13d |
-| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=4813946) | San Francisco, CA, US; Seattle, WA, US | 13d |
+| Pinterest | [Software Engineer II, Backend](https://www.pinterestcareers.com/jobs/?gh_jid=5132899) | Toronto, ON, CA | 13d |
 | Pinterest | [Software Engineer II, Full Stack](https://www.pinterestcareers.com/jobs/?gh_jid=5459622) | Toronto, ON, CA | 13d |
 | SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8675909002?gh_jid=8675909002) | Hawthorne, CA | 13d |
 | SpaceX | [Civil Engineer, Land Development (Starship Infrastructure)](https://boards.greenhouse.io/spacex/jobs/8673971002?gh_jid=8673971002) | Cape Canaveral, FL | 13d |
@@ -486,13 +490,13 @@ Total roles: 717
 | SpaceX | [Sr. Full Stack Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8663952002?gh_jid=8663952002) | Bastrop, TX | 17d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002) | New York, NY | 18d |
 | Duolingo | [Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) | Pittsburgh, PA | 18d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002) | Redmond, WA | 18d |
 | SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658743002?gh_jid=8658743002) | Cape Canaveral, FL | 18d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002) | Vandenberg, CA | 18d |
 | SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002) | McGregor, TX | 18d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002) | Hawthorne, CA | 18d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002) | Bastrop, TX | 18d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002) | Redmond, WA | 18d |
 | SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002) | Starbase, TX | 18d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002) | Bastrop, TX | 18d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002) | Hawthorne, CA | 18d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002) | Vandenberg, CA | 18d |
 | SpaceX | [Software Engineer, Data - Top Secret Clearance (Starlink)](https://boards.greenhouse.io/spacex/jobs/8640537002?gh_jid=8640537002) | Hawthorne, CA | 18d |
 | Openai | [Software Engineer, Enterprise Verticals](https://jobs.ashbyhq.com/openai/3229b152-015f-49ad-9921-9c9de95570c8) | San Francisco | 19d |
 | SpaceX | [Full Stack Software Engineer, Data (Starlink)](https://boards.greenhouse.io/spacex/jobs/8656465002?gh_jid=8656465002) | Redmond, WA | 19d |
@@ -502,12 +506,12 @@ Total roles: 717
 | SpaceX | [Software Engineer, CDN (Starlink)](https://boards.greenhouse.io/spacex/jobs/8632172002?gh_jid=8632172002) | Redmond, WA | 19d |
 | SpaceX | [Software Engineer, Data (Starlink)](https://boards.greenhouse.io/spacex/jobs/8631217002?gh_jid=8631217002) | Hawthorne, CA | 19d |
 | SpaceX | [Software Engineer, DevOps (Starlink)](https://boards.greenhouse.io/spacex/jobs/8573204002?gh_jid=8573204002) | Redmond, WA | 19d |
-| SpaceX | [Software Engineer, Telemetry (Starlink)](https://boards.greenhouse.io/spacex/jobs/8656526002?gh_jid=8656526002) | Redmond, WA | 19d |
 | SpaceX | [Software Engineer, Telemetry (Starlink)](https://boards.greenhouse.io/spacex/jobs/8631930002?gh_jid=8631930002) | Hawthorne, CA | 19d |
+| SpaceX | [Software Engineer, Telemetry (Starlink)](https://boards.greenhouse.io/spacex/jobs/8656526002?gh_jid=8656526002) | Redmond, WA | 19d |
 | SpaceX | [Sr. Software Engineer, Data (Starlink)](https://boards.greenhouse.io/spacex/jobs/8646142002?gh_jid=8646142002) | Redmond, WA | 19d |
 | SpaceX | [Sr. Software Engineer, DevOps (Starlink)](https://boards.greenhouse.io/spacex/jobs/8576894002?gh_jid=8576894002) | Redmond, WA | 19d |
-| SpaceX | [Sr. Software Engineer, Telemetry (Starlink)](https://boards.greenhouse.io/spacex/jobs/8656520002?gh_jid=8656520002) | Redmond, WA | 19d |
 | SpaceX | [Sr. Software Engineer, Telemetry (Starlink)](https://boards.greenhouse.io/spacex/jobs/8631952002?gh_jid=8631952002) | Hawthorne, CA | 19d |
+| SpaceX | [Sr. Software Engineer, Telemetry (Starlink)](https://boards.greenhouse.io/spacex/jobs/8656520002?gh_jid=8656520002) | Redmond, WA | 19d |
 | Clickhouse | [Engineering Lead, Web Platform](https://jobs.ashbyhq.com/clickhouse/1046284f-49d6-46a2-b08e-2cdc437d0836) | AMER | 20d |
 | Openai | [Software Engineer, ChatGPT Infrastructure](https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8) | London, UK | 20d |
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/cf08f44c-bf75-45ed-9fab-f4836e51013e) | New York, NY | 20d |
@@ -529,9 +533,9 @@ Total roles: 717
 | SpaceX | [AI Software Engineer (Vehicle Engineering)](https://boards.greenhouse.io/spacex/jobs/8559015002?gh_jid=8559015002) | Hawthorne, CA | 24d |
 | SpaceX | [Antenna Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8587170002?gh_jid=8587170002) | Redmond, WA | 24d |
 | SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002) | Memphis, TN | 24d |
-| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8643772002?gh_jid=8643772002) | Cape Canaveral, FL | 24d |
-| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8494240002?gh_jid=8494240002) | Bastrop, TX | 24d |
 | SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611189002?gh_jid=8611189002) | Palo Alto, CA | 24d |
+| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8494240002?gh_jid=8494240002) | Bastrop, TX | 24d |
+| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8643772002?gh_jid=8643772002) | Cape Canaveral, FL | 24d |
 | SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002) | Starbase, TX | 24d |
 | SpaceX | [Application Software Engineer, Employee Experience](https://boards.greenhouse.io/spacex/jobs/8632106002?gh_jid=8632106002) | Starbase, TX | 24d |
 | SpaceX | [Application Software Engineer, Manufacturing Systems](https://boards.greenhouse.io/spacex/jobs/8600012002?gh_jid=8600012002) | Bastrop, TX | 24d |
@@ -539,8 +543,8 @@ Total roles: 717
 | SpaceX | [Construction Project Manager (Facilities Infrastructure)](https://boards.greenhouse.io/spacex/jobs/8623616002?gh_jid=8623616002) | Cape Canaveral, FL | 24d |
 | SpaceX | [Construction Project Manager (Starship Launch Infrastructure)](https://boards.greenhouse.io/spacex/jobs/8461302002?gh_jid=8461302002) | Cape Canaveral, FL | 24d |
 | SpaceX | [Electrical Engineer, Facilities Infrastructure](https://boards.greenhouse.io/spacex/jobs/8583707002?gh_jid=8583707002) | Cape Canaveral, FL | 24d |
-| SpaceX | [Embedded Software Engineer, Laser Mesh Routing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578936002?gh_jid=8578936002) | Redmond, WA | 24d |
 | SpaceX | [Embedded Software Engineer, Laser Mesh Routing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578934002?gh_jid=8578934002) | Palo Alto, CA | 24d |
+| SpaceX | [Embedded Software Engineer, Laser Mesh Routing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578936002?gh_jid=8578936002) | Redmond, WA | 24d |
 | SpaceX | [Embedded Software Engineer, OS/Platform (Starlink)](https://boards.greenhouse.io/spacex/jobs/8552893002?gh_jid=8552893002) | Redmond, WA | 24d |
 | SpaceX | [Embedded Software Engineer, OS/Platform (Starlink)](https://boards.greenhouse.io/spacex/jobs/8511391002?gh_jid=8511391002) | Bastrop, TX | 24d |
 | SpaceX | [Embedded Software Engineer, OS/Platform (Starshield)](https://boards.greenhouse.io/spacex/jobs/8530798002?gh_jid=8530798002) | Hawthorne, CA | 24d |
@@ -562,30 +566,30 @@ Total roles: 717
 | SpaceX | [IT Infrastructure Engineer, Virtualization & Storage](https://boards.greenhouse.io/spacex/jobs/8451903002?gh_jid=8451903002) | Hawthorne, CA | 24d |
 | SpaceX | [IT Network Infrastructure Engineer, Launch](https://boards.greenhouse.io/spacex/jobs/8458745002?gh_jid=8458745002) | Starbase, TX | 24d |
 | SpaceX | [IT Network Infrastructure Specialist](https://boards.greenhouse.io/spacex/jobs/8536387002?gh_jid=8536387002) | Starbase, TX | 24d |
-| SpaceX | [IT Network Infrastructure Technician](https://boards.greenhouse.io/spacex/jobs/8579623002?gh_jid=8579623002) | Bastrop, TX | 24d |
 | SpaceX | [IT Network Infrastructure Technician](https://boards.greenhouse.io/spacex/jobs/8459561002?gh_jid=8459561002) | Starbase, TX | 24d |
+| SpaceX | [IT Network Infrastructure Technician](https://boards.greenhouse.io/spacex/jobs/8579623002?gh_jid=8579623002) | Bastrop, TX | 24d |
 | SpaceX | [Kubernetes Platform Infrastructure Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8573281002?gh_jid=8573281002) | Redmond, WA | 24d |
 | SpaceX | [Lead Full Stack Engineer, Starship Manufacturing (Application Software)](https://boards.greenhouse.io/spacex/jobs/8641549002?gh_jid=8641549002) | Starbase, TX | 24d |
 | SpaceX | [Lead Software Engineer (Full Stack) - Build Reliability](https://boards.greenhouse.io/spacex/jobs/8555708002?gh_jid=8555708002) | Hawthorne, CA | 24d |
 | SpaceX | [Lead Software Engineer, Application Software (Manufacturing)](https://boards.greenhouse.io/spacex/jobs/8612703002?gh_jid=8612703002) | Starbase, TX | 24d |
 | SpaceX | [Lead Software Engineer, Flight Systems - Top Secret Clearance](https://boards.greenhouse.io/spacex/jobs/8435966002?gh_jid=8435966002) | Hawthorne, CA | 24d |
 | SpaceX | [Lead Software Engineer, Full Stack - Top Secret Clearance](https://boards.greenhouse.io/spacex/jobs/8476329002?gh_jid=8476329002) | Hawthorne, CA | 24d |
-| SpaceX | [Manager, Datacenter Compute Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8647973002?gh_jid=8647973002) | Palo Alto, CA | 24d |
 | SpaceX | [Manager, Datacenter Compute Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8648031002?gh_jid=8648031002) | Austin, TX | 24d |
+| SpaceX | [Manager, Datacenter Compute Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8647973002?gh_jid=8647973002) | Palo Alto, CA | 24d |
 | SpaceX | [Mechanical Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8558427002?gh_jid=8558427002) | Redmond, WA | 24d |
 | SpaceX | [Mechanical Engineer (Structures), Starship Infrastructure](https://boards.greenhouse.io/spacex/jobs/8617175002?gh_jid=8617175002) | Starbase, TX | 24d |
 | SpaceX | [Mission Integration Engineer, Network and Infrastructure (Starshield)](https://boards.greenhouse.io/spacex/jobs/8519574002?gh_jid=8519574002) | Hawthorne, CA | 24d |
 | SpaceX | [OS/Platform Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8552882002?gh_jid=8552882002) | Redmond, WA | 24d |
 | SpaceX | [Platform Integrity Manager (Starlink)](https://boards.greenhouse.io/spacex/jobs/8622988002?gh_jid=8622988002) | Bastrop, TX | 24d |
-| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002) | Sunnyvale, CA | 24d |
-| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8494978002?gh_jid=8494978002) | Hawthorne, CA | 24d |
-| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558839002?gh_jid=8558839002) | Palo Alto, CA | 24d |
-| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560575002?gh_jid=8560575002) | Starbase, TX | 24d |
-| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560572002?gh_jid=8560572002) | Bastrop, TX | 24d |
 | SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558817002?gh_jid=8558817002) | Redmond, WA | 24d |
+| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560575002?gh_jid=8560575002) | Starbase, TX | 24d |
+| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002) | Sunnyvale, CA | 24d |
+| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558839002?gh_jid=8558839002) | Palo Alto, CA | 24d |
+| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560572002?gh_jid=8560572002) | Bastrop, TX | 24d |
+| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8494978002?gh_jid=8494978002) | Hawthorne, CA | 24d |
 | SpaceX | [Principal Software Engineer, CDN (Starlink)](https://boards.greenhouse.io/spacex/jobs/8562265002?gh_jid=8562265002) | Palo Alto, CA | 24d |
-| SpaceX | [Principal Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533843002?gh_jid=8533843002) | Hawthorne, CA | 24d |
 | SpaceX | [Principal Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533847002?gh_jid=8533847002) | Starbase, TX | 24d |
+| SpaceX | [Principal Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533843002?gh_jid=8533843002) | Hawthorne, CA | 24d |
 | SpaceX | [Principal Wi-Fi Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8564810002?gh_jid=8564810002) | Palo Alto, CA | 24d |
 | SpaceX | [Production Engineer, Site Reliability (Application Software)](https://boards.greenhouse.io/spacex/jobs/8649729002?gh_jid=8649729002) | Hawthorne, CA | 24d |
 | SpaceX | [RF Silicon Software Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8439627002?gh_jid=8439627002) | Redmond, WA | 24d |
@@ -604,17 +608,17 @@ Total roles: 717
 | SpaceX | [Software Engineer (Flight Reliability)](https://boards.greenhouse.io/spacex/jobs/8512876002?gh_jid=8512876002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002) | Starbase, TX | 24d |
 | SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002) | Redmond, WA | 24d |
-| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002) | Sunnyvale, CA | 24d |
-| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002) | Palo Alto, CA | 24d |
 | SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560546002?gh_jid=8560546002) | Bastrop, TX | 24d |
+| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002) | Palo Alto, CA | 24d |
+| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002) | Sunnyvale, CA | 24d |
 | SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer (Special Projects) - Top Secret Clearance](https://boards.greenhouse.io/spacex/jobs/8568970002?gh_jid=8568970002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer (Starfall)](https://boards.greenhouse.io/spacex/jobs/8642274002?gh_jid=8642274002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer (Starlink Enterprise)](https://boards.greenhouse.io/spacex/jobs/8586637002?gh_jid=8586637002) | Palo Alto, CA | 24d |
 | SpaceX | [Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8525359002?gh_jid=8525359002) | Redmond, WA | 24d |
 | SpaceX | [Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8569790002?gh_jid=8569790002) | Redmond, WA | 24d |
-| SpaceX | [Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8605075002?gh_jid=8605075002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8501199002?gh_jid=8501199002) | Redmond, WA | 24d |
+| SpaceX | [Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8605075002?gh_jid=8605075002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer (Starshield) - Top Secret Clearance](https://boards.greenhouse.io/spacex/jobs/8621649002?gh_jid=8621649002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer (Starship)](https://boards.greenhouse.io/spacex/jobs/8569160002?gh_jid=8569160002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer (Starship)](https://boards.greenhouse.io/spacex/jobs/8569125002?gh_jid=8569125002) | Starbase, TX | 24d |
@@ -652,8 +656,8 @@ Total roles: 717
 | SpaceX | [Software Engineer, Low Latency Computing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578923002?gh_jid=8578923002) | Redmond, WA | 24d |
 | SpaceX | [Software Engineer, Mobile Apps (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637756002?gh_jid=8637756002) | Redmond, WA | 24d |
 | SpaceX | [Software Engineer, Platform / Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8632322002?gh_jid=8632322002) | Palo Alto, CA | 24d |
-| SpaceX | [Software Engineer, Product Development (Starshield)](https://boards.greenhouse.io/spacex/jobs/8436728002?gh_jid=8436728002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer, Product Development (Starshield)](https://boards.greenhouse.io/spacex/jobs/8621621002?gh_jid=8621621002) | Hawthorne, CA | 24d |
+| SpaceX | [Software Engineer, Product Development (Starshield)](https://boards.greenhouse.io/spacex/jobs/8436728002?gh_jid=8436728002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer, Propulsion Simulation & Data Analysis](https://boards.greenhouse.io/spacex/jobs/8581299002?gh_jid=8581299002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer, Satellite Systems (Starshield)](https://boards.greenhouse.io/spacex/jobs/8621508002?gh_jid=8621508002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer, Simulations (Application Software)](https://boards.greenhouse.io/spacex/jobs/8487534002?gh_jid=8487534002) | Hawthorne, CA | 24d |
@@ -663,15 +667,15 @@ Total roles: 717
 | SpaceX | [Software Engineer, Starlink UX (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637755002?gh_jid=8637755002) | Redmond, WA | 24d |
 | SpaceX | [Software Engineer, Test Infrastructure (Application Software)](https://boards.greenhouse.io/spacex/jobs/8585072002?gh_jid=8585072002) | Hawthorne, CA | 24d |
 | SpaceX | [Software Engineer, Test Infrastructure (C/C++)](https://boards.greenhouse.io/spacex/jobs/8637049002?gh_jid=8637049002) | Hawthorne, CA | 24d |
-| SpaceX | [Software Infrastructure Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8573279002?gh_jid=8573279002) | Redmond, WA | 24d |
 | SpaceX | [Software Infrastructure Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8584920002?gh_jid=8584920002) | Palo Alto, CA | 24d |
+| SpaceX | [Software Infrastructure Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8573279002?gh_jid=8573279002) | Redmond, WA | 24d |
 | SpaceX | [Sourcing Manager, Ground Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8619968002?gh_jid=8619968002) | Redmond, WA | 24d |
 | SpaceX | [Sr. 3GPP RAN Standardization Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8633803002?gh_jid=8633803002) | Palo Alto, CA | 24d |
 | SpaceX | [Sr. AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557262002?gh_jid=8557262002) | Washington, DC | 24d |
 | SpaceX | [Sr. AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557126002?gh_jid=8557126002) | Palo Alto, CA | 24d |
-| SpaceX | [Sr. Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611181002?gh_jid=8611181002) | Starbase, TX | 24d |
 | SpaceX | [Sr. Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8612668002?gh_jid=8612668002) | Bastrop, TX | 24d |
 | SpaceX | [Sr. Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8594168002?gh_jid=8594168002) | Hawthorne, CA | 24d |
+| SpaceX | [Sr. Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611181002?gh_jid=8611181002) | Starbase, TX | 24d |
 | SpaceX | [Sr. Application Software Engineer, Data Analytics](https://boards.greenhouse.io/spacex/jobs/8612682002?gh_jid=8612682002) | Bastrop, TX | 24d |
 | SpaceX | [Sr. Civil Engineer, Offsite Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8497586002?gh_jid=8497586002) | Bastrop, TX | 24d |
 | SpaceX | [Sr. Core Integration Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8624593002?gh_jid=8624593002) | Redmond, WA | 24d |
@@ -684,12 +688,12 @@ Total roles: 717
 | SpaceX | [Sr. Full Stack Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8505483002?gh_jid=8505483002) | Palo Alto, CA | 24d |
 | SpaceX | [Sr. Hardware / Infrastructure Site Reliability Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8573251002?gh_jid=8573251002) | Redmond, WA | 24d |
 | SpaceX | [Sr. Kubernetes Platform Site Reliability Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8573253002?gh_jid=8573253002) | Redmond, WA | 24d |
-| SpaceX | [Sr. Manager, Datacenter Compute Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8648026002?gh_jid=8648026002) | Austin, TX | 24d |
 | SpaceX | [Sr. Manager, Datacenter Compute Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8646604002?gh_jid=8646604002) | Palo Alto, CA | 24d |
+| SpaceX | [Sr. Manager, Datacenter Compute Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8648026002?gh_jid=8648026002) | Austin, TX | 24d |
 | SpaceX | [Sr. Mechanical Engineer, HVAC & Controls (Facilities Infrastructure)](https://boards.greenhouse.io/spacex/jobs/8540007002?gh_jid=8540007002) | Vandenberg, CA | 24d |
+| SpaceX | [Sr. RF Front-End Module Design Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8562302002?gh_jid=8562302002) | Sunnyvale, CA | 24d |
 | SpaceX | [Sr. RF Front-End Module Design Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8562301002?gh_jid=8562301002) | Irvine, CA | 24d |
 | SpaceX | [Sr. RF Front-End Module Design Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8499101002?gh_jid=8499101002) | Redmond, WA | 24d |
-| SpaceX | [Sr. RF Front-End Module Design Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8562302002?gh_jid=8562302002) | Sunnyvale, CA | 24d |
 | SpaceX | [Sr. RF Silicon Software Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8438151002?gh_jid=8438151002) | Redmond, WA | 24d |
 | SpaceX | [Sr. RF Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8624890002?gh_jid=8624890002) | Bastrop, TX | 24d |
 | SpaceX | [Sr. RF Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8573920002?gh_jid=8573920002) | Hawthorne, CA | 24d |
@@ -697,16 +701,16 @@ Total roles: 717
 | SpaceX | [Sr. Site Reliability Engineer](https://boards.greenhouse.io/spacex/jobs/8601438002?gh_jid=8601438002) | Washington, DC | 24d |
 | SpaceX | [Sr. Site Reliability Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8611174002?gh_jid=8611174002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597547002?gh_jid=8597547002) | Washington, DC | 24d |
-| SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002) | Redmond, WA | 24d |
 | SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597497002?gh_jid=8597497002) | Hawthorne, CA | 24d |
+| SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002) | Redmond, WA | 24d |
 | SpaceX | [Sr. Software Engineer (Components)](https://boards.greenhouse.io/spacex/jobs/8628394002?gh_jid=8628394002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Software Engineer (Flight Reliability)](https://boards.greenhouse.io/spacex/jobs/8530108002?gh_jid=8530108002) | Hawthorne, CA | 24d |
-| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560569002?gh_jid=8560569002) | Starbase, TX | 24d |
-| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560570002?gh_jid=8560570002) | Bastrop, TX | 24d |
-| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8495853002?gh_jid=8495853002) | Hawthorne, CA | 24d |
-| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558871002?gh_jid=8558871002) | Palo Alto, CA | 24d |
 | SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558870002?gh_jid=8558870002) | Sunnyvale, CA | 24d |
+| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560569002?gh_jid=8560569002) | Starbase, TX | 24d |
+| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558871002?gh_jid=8558871002) | Palo Alto, CA | 24d |
 | SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558869002?gh_jid=8558869002) | Redmond, WA | 24d |
+| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8495853002?gh_jid=8495853002) | Hawthorne, CA | 24d |
+| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560570002?gh_jid=8560570002) | Bastrop, TX | 24d |
 | SpaceX | [Sr. Software Engineer (Special Projects) - Top Secret Clearance](https://boards.greenhouse.io/spacex/jobs/8568980002?gh_jid=8568980002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Software Engineer (Starfall)](https://boards.greenhouse.io/spacex/jobs/8642277002?gh_jid=8642277002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Software Engineer (Vehicle Engineering)](https://boards.greenhouse.io/spacex/jobs/8555142002?gh_jid=8555142002) | Hawthorne, CA | 24d |
@@ -721,24 +725,24 @@ Total roles: 717
 | SpaceX | [Sr. Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533833002?gh_jid=8533833002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Software Engineer, Data (Starlink)](https://boards.greenhouse.io/spacex/jobs/8631749002?gh_jid=8631749002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Software Engineer, Design Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8466962002?gh_jid=8466962002) | Hawthorne, CA | 24d |
-| SpaceX | [Sr. Software Engineer, Flight Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8562073002?gh_jid=8562073002) | Starbase, TX | 24d |
 | SpaceX | [Sr. Software Engineer, Flight Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8562412002?gh_jid=8562412002) | Hawthorne, CA | 24d |
+| SpaceX | [Sr. Software Engineer, Flight Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8562073002?gh_jid=8562073002) | Starbase, TX | 24d |
 | SpaceX | [Sr. Software Engineer, Hardware Test & Automation (Starshield)](https://boards.greenhouse.io/spacex/jobs/8546146002?gh_jid=8546146002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Software Engineer, High Performance Computing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8579126002?gh_jid=8579126002) | Palo Alto, CA | 24d |
 | SpaceX | [Sr. Software Engineer, High Performance Computing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8579131002?gh_jid=8579131002) | Redmond, WA | 24d |
-| SpaceX | [Sr. Software Engineer, Low Latency Computing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8579128002?gh_jid=8579128002) | Redmond, WA | 24d |
 | SpaceX | [Sr. Software Engineer, Low Latency Computing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8579127002?gh_jid=8579127002) | Palo Alto, CA | 24d |
+| SpaceX | [Sr. Software Engineer, Low Latency Computing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8579128002?gh_jid=8579128002) | Redmond, WA | 24d |
 | SpaceX | [Sr. Software Engineer, Propulsion Simulation & Data Analysis (Raptor)](https://boards.greenhouse.io/spacex/jobs/8581310002?gh_jid=8581310002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Software Engineer, Simulations (Application Software)](https://boards.greenhouse.io/spacex/jobs/8487481002?gh_jid=8487481002) | Hawthorne, CA | 24d |
 | SpaceX | [Sr. Software Engineer, Starlink Network](https://boards.greenhouse.io/spacex/jobs/8458038002?gh_jid=8458038002) | Redmond, WA | 24d |
 | SpaceX | [Sr. Software Infrastructure Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8573254002?gh_jid=8573254002) | Redmond, WA | 24d |
 | SpaceX | [Sr. Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546682002?gh_jid=8546682002) | Sunnyvale, CA | 24d |
 | SpaceX | [Sr. Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546720002?gh_jid=8546720002) | Redmond, WA | 24d |
-| SpaceX | [Sr. Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002) | Palo Alto, CA | 24d |
 | SpaceX | [Sr. Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637824002?gh_jid=8637824002) | Redmond, WA | 24d |
+| SpaceX | [Sr. Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002) | Palo Alto, CA | 24d |
 | SpaceX | [Structural Engineer (Critical Infrastructure)](https://boards.greenhouse.io/spacex/jobs/8595083002?gh_jid=8595083002) | Hawthorne, CA | 24d |
-| SpaceX | [Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002) | Sunnyvale, CA | 24d |
 | SpaceX | [Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546722002?gh_jid=8546722002) | Redmond, WA | 24d |
+| SpaceX | [Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002) | Sunnyvale, CA | 24d |
 | SpaceX | [Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637814002?gh_jid=8637814002) | Palo Alto, CA | 24d |
 | SpaceX | [Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637826002?gh_jid=8637826002) | Redmond, WA | 24d |
 | SpaceX | [Wireless Systems Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546717002?gh_jid=8546717002) | Sunnyvale, CA | 24d |
@@ -969,6 +973,7 @@ Total roles: 717
 | Palantir | [Forward Deployed Software Engineer - Tactical Edge](https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43) | Washington, D.C. | 5mo |
 | Ramp | [Software Engineer, Frontend, Ramp Revenue](https://jobs.ashbyhq.com/ramp/1540a41f-d88f-4c89-9b08-5b9fade1ee81) | New York, NY (HQ) | 5mo |
 | Openai | [Software Engineer, Observability](https://jobs.ashbyhq.com/openai/d4dcd344-40cf-44d6-a7dd-172118eb0842) | San Francisco | 5mo |
+| Amazon Web Services, Inc. | [Data Engineer II, Data Management Team](https://www.amazon.jobs/en/jobs/10493224/data-engineer-ii-data-management-team) | Seattle, WA | 1w |
 
 ## Hackathons
 
@@ -1008,6 +1013,7 @@ Total hackathons: 207
 | Cockroach Labs | [CockroachDB × AWS Hackathon - Build with Agentic Memory](https://cockroachdb-ai.devpost.com/) |
 | CreateHER Fest | [DIALED IN Builder Challenge](https://dialedin.devpost.com/) |
 | D'Code NSUT | [Ascendant Agents](https://unstop.com/hackathons/ascendant-agents-oblivion26-dcode-nsut-1722256) |
+| D'Code NSUT | [Code Royale](https://unstop.com/hackathons/code-royale-oblivion26-dcode-nsut-1722239) |
 | D'Code NSUT | [Hack-4-Crown](https://unstop.com/hackathons/hack-4-crown-oblivion26-dcode-nsut-1721294) |
 | D'Code NSUT | [Vibewright](https://unstop.com/hackathons/vibewright-oblivion26-dcode-nsut-1722532) |
 | Deenbandhu Chhotu Ram University Of Science And Technology (DCRUST), Murthal, Haryana | [Paper Buddy EduVerse Hackathon 2026](https://unstop.com/hackathons/paper-buddy-eduverse-hackathon-2026-deenbandhu-chhotu-ram-university-of-science-and-technology-dcrust-murthal-1726534) |
@@ -1064,9 +1070,9 @@ Total hackathons: 207
 | Devfolio | [VENTURE'26](https://venture-26.devfolio.co) |
 | Devfolio | [VYNORAE](https://vynorae.devfolio.co) |
 | Devfolio | [WebCraft24](https://webcraft24.devfolio.co) |
+| Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar | [HackOut'26](https://unstop.com/hackathons/hackout26-dhirubhai-ambani-institute-of-information-and-communication-technology-da-iict-gandhinagar-1729614) |
 | Dialogate | [VoltHacks](https://volthacks.devpost.com/) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
-| Elliana | [Nairobi Hack Day](https://nairobi-hack-day.devpost.com/) |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
 | Faculty of Technology, Delhi University | [Nari Kavach](https://unstop.com/hackathons/nari-kavach-yantrika-10-innovate-elevate-faculty-of-technology-delhi-university-1736993) |
 | Faculty of Technology, Delhi University | [Quantum Alpha](https://unstop.com/hackathons/quantum-alpha-yantrika-10-innovate-elevate-faculty-of-technology-delhi-university-1736992) |
@@ -1091,7 +1097,7 @@ Total hackathons: 207
 | Hackers Cult | [Hackblox AI & Open Source Hackathon](https://unstop.com/hackathons/hackblox-open-source-hackathon-hackers-cult-1731738) |
 | Hackers Cult | [ONE HACK: 8 Hours Web3 Hackathon](https://unstop.com/hackathons/one-hack-8-hours-web3-hackathon-hackers-cult-1737227) |
 | Hackers Unity | [CodeWars](https://unstop.com/hackathons/codewars-hackers-unity-1733690) |
-| HackShastra | [Grand Hack IPEC](https://unstop.com/hackathons/grand-hack-ipec-hackshastra-1704703) |
+| hackonomics | [Hackonomics 2027](https://hackonomics27.devpost.com/) |
 | Hacksocial | [Hacksocial 2026](https://hacksocial2026.devpost.com/) |
 | hacktheconcretejungle | [HTCJ Aviation Futures Innovation Challenge](https://htcj-aviation-futures.devpost.com/) |
 | HackTheLimit | [Hack The Limit](https://hack-the-limit-1.devpost.com/) |
@@ -1108,7 +1114,6 @@ Total hackathons: 207
 | invoqe | [Breakpoint Hackathon 2026](https://unstop.com/hackathons/breakpoint-hackathon-2026-invoqe-1734966) |
 | Jaihind college of Engineering Kuran | [Hacker's Gambit 2026](https://unstop.com/hackathons/hackers-gambit-2026-jaihind-college-of-engineering-kuran-1723293) |
 | Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
-| Kiras Logic | [Hack to Survive](https://unstop.com/hackathons/hack-to-survive-kiras-logic-1705001) |
 | KNOTiC | [EchoSphere: Agora Conversational AI Hackathon](https://unstop.com/hackathons/echosphere-agora-conversational-ai-hackathon-knotic-1723695) |
 | KPR Institute of Engineering and Technology (KPRIET), Coimbatore | [Y-Hack'26 – 24-Hour National Hackathon](https://unstop.com/hackathons/y-hack26-24-hour-national-hackathon-kpr-institute-of-engineering-and-technology-kpriet-coimbatore-1702198) |
 | KVG College of Engineering (KVGCE), Sullia, Karnataka | [test](https://unstop.com/hackathons/hacknova-2026-kvg-college-of-engineering-kvgce-sullia-karnataka-1715653) |
@@ -1135,7 +1140,6 @@ Total hackathons: 207
 | nill | [Code for Humanity](https://code-for-humanity.devpost.com/) |
 | NIMBLUX | [Orvix Hackathon](https://unstop.com/hackathons/orvix-hackathon-nimblux-1730437) |
 | Oriental College of Technology (OCT), Bhopal | [CodeSprint 2.O : One Shot Challenge](https://unstop.com/hackathons/codesprint-2o-one-shot-challenge-oriental-college-of-technology-oct-bhopal-1728495) |
-| Perfect Corp | [YouCam API Skin AI & Apparel VTO Hackathon](https://youcam-api.devpost.com/) |
 | PES Modern College of Engineering (PESMCE), Pune | [Game of Codes 3.0](https://unstop.com/hackathons/game-of-codes-30-pes-modern-college-of-engineering-pesmce-pune-1727351) |
 | Pimpri Chinchwad College Of Engineering & Research (PCCOE&R), Ravet, Pimpri-Chinchwad, Pune | [CraftVerse 2.0](https://unstop.com/hackathons/craftverse-20-pimpri-chinchwad-college-of-engineering-research-pccoer-ravet-pimpri-chinchwad-pune-1719658) |
 | Pimpri Chinchwad College of Engineering (PCCOE), Pune | [Indradhanu: PCCOE International Grand Challenge 2026](https://unstop.com/hackathons/indradhanu-pccoe-international-grand-challenge-2026-pimpri-chinchwad-college-of-engineering-pccoe-pune-1710779) |
@@ -1146,6 +1150,7 @@ Total hackathons: 207
 | Raj Kumar Goel Institute of Technology (RKGIT), Ghaziabad | [Binary Hacks 4.0](https://unstop.com/hackathons/binary-hacks-40-raj-kumar-goel-institute-of-technology-rkgit-ghaziabad-1730767) |
 | Ramco Institute of Technology | [InfiniX'26 – National Level 32-Hour Hackathon](https://unstop.com/hackathons/infinix26-national-level-32-hour-hackathon-ramco-institute-of-technology-1730876) |
 | Ramco Institute of Technology (RIT), Tamil Nadu | [Hackfinity 3.0](https://unstop.com/hackathons/hackfinity-30-ramco-institute-of-technology-rit-tamil-nadu-1722654) |
+| RevenueCat | [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/) |
 | ReverieHacks | [Reverie Hacks 2026](https://reverie-hacks-2026.devpost.com/) |
 | Rhinon Tech Pvt Lmt | [NextGen Hackathon](https://unstop.com/hackathons/nextgen-hackathon-rhinon-tech-pvt-lmt-1731840) |
 | Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) |
