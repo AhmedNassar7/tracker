@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T01:54:00Z",
-  "total": 216,
+  "generated_at": "2026-08-17T03:12:03Z",
+  "total": 214,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1981,29 +1981,6 @@
       ]
     },
     {
-      "id": "b3c6ec579af73f91",
-      "company": "JPMorgan Chase",
-      "title": "AI/ML Software Engineer II",
-      "level": "mid_level",
-      "category": "consulting_finance",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY, United S...",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210761228",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-16",
-      "age": "0d",
-      "collected_at": "2026-08-16T21:33:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e6139c97f0fc6319",
       "company": "Notion",
       "title": "Software Engineer Intern - Summer 2027",
@@ -2043,29 +2020,6 @@
       "posted_at": "2026-08-15",
       "age": "0d",
       "collected_at": "2026-08-15T12:58:01Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6152e80b377e626e",
-      "company": "Notion",
-      "title": "Software Engineer New Grad",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-15",
-      "age": "0d",
-      "collected_at": "2026-08-15T01:48:39Z",
       "tags": [
         "software",
         "programming",
@@ -2201,6 +2155,29 @@
       "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true&utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-15",
+      "age": "0d",
+      "collected_at": "2026-08-15T01:48:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6152e80b377e626e",
+      "company": "Notion",
+      "title": "Software Engineer New Grad",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "SF",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-08-15",
       "age": "0d",
       "collected_at": "2026-08-15T01:48:39Z",
@@ -2457,29 +2434,6 @@
       "posted_at": "2026-08-13",
       "age": "2d",
       "collected_at": "2026-08-15T09:39:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "cb7bb974632cdb47",
-      "company": "Apple",
-      "title": "Software Engineer - Information Systems and Technology - Early Career",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Austin, TX",
-      "remote_type": "onsite",
-      "url": "https://jobs.apple.com/en-us/details/200677377?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-11",
-      "age": "0d",
-      "collected_at": "2026-08-11T23:01:55Z",
       "tags": [
         "software",
         "programming",
