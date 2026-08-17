@@ -1,0 +1,145 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { RESOURCE_CATEGORIES } from "../data/resources";
+
+const totalCount = RESOURCE_CATEGORIES.reduce((n, c) => n + c.items.length, 0);
+---
+
+<Layout
+	title="Resources — tracker"
+	description="Free tools for coding practice, mock interviews, system design, resumes, and more — hand-curated to go alongside tracker's job listings."
+>
+	<div class="mx-auto max-w-3xl">
+		<h1 class="text-2xl font-semibold">Resources</h1>
+		<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
+			{totalCount} free, well-known tools people use alongside the job list to prepare for
+			software engineering interviews — hand-curated, not pulled from the hourly pipeline.
+		</p>
+
+		<div class="mt-6 space-y-3">
+			<input
+				id="resource-search"
+				type="search"
+				placeholder="Search resources…"
+				aria-label="Search resources"
+				class="w-full max-w-sm rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-900 focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
+			/>
+			<div class="flex flex-wrap gap-2">
+				<button
+					type="button"
+					class="resource-filter-chip rounded-full border px-3 py-1 text-sm font-medium border-teal-700 bg-teal-700 text-white dark:border-teal-600 dark:bg-teal-600"
+					data-category="all"
+					aria-pressed="true"
+				>
+					All
+				</button>
+				{
+					RESOURCE_CATEGORIES.map((category) => (
+						<button
+							type="button"
+							class="resource-filter-chip rounded-full border px-3 py-1 text-sm font-medium border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:bg-slate-900"
+							data-category={category.id}
+							aria-pressed="false"
+						>
+							{category.title}
+						</button>
+					))
+				}
+			</div>
+			<p id="resource-count" class="text-sm text-slate-500 dark:text-slate-400">
+				{totalCount} resources
+			</p>
+		</div>
+
+		<div class="mt-6 space-y-8">
+			{
+				RESOURCE_CATEGORIES.map((category) => (
+					<section class="resource-category" data-category={category.id}>
+						<h2 class="text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+							{category.title}
+						</h2>
+						<ul class="mt-3 grid gap-3 sm:grid-cols-2">
+							{category.items.map((item) => (
+								<li
+									class="resource-card rounded-md border border-slate-200 p-3 dark:border-slate-800"
+									data-search={`${item.name} ${item.description}`.toLowerCase()}
+								>
+									<a
+										href={item.url}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="font-medium text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
+									>
+										{item.name}
+									</a>
+									<p class="mt-1 text-sm text-slate-600 dark:text-slate-400">{item.description}</p>
+								</li>
+							))}
+						</ul>
+					</section>
+				))
+			}
+		</div>
+
+		<p id="resource-empty" class="hidden py-10 text-center text-slate-500 dark:text-slate-400">
+			No resources match these filters.
+		</p>
+	</div>
+
+	<script>
+		const searchInput = document.getElementById("resource-search") as HTMLInputElement;
+		const chips = Array.from(document.querySelectorAll<HTMLButtonElement>(".resource-filter-chip"));
+		const categories = Array.from(document.querySelectorAll<HTMLElement>(".resource-category"));
+		const countLabel = document.getElementById("resource-count")!;
+		const emptyState = document.getElementById("resource-empty")!;
+
+		let activeCategory = "all";
+
+		function applyFilters() {
+			const query = searchInput.value.trim().toLowerCase();
+			let visibleCount = 0;
+
+			for (const section of categories) {
+				const matchesCategory = activeCategory === "all" || section.dataset.category === activeCategory;
+				let sectionHasVisibleCard = false;
+
+				for (const card of Array.from(section.querySelectorAll<HTMLElement>(".resource-card"))) {
+					const matchesQuery = !query || (card.dataset.search ?? "").includes(query);
+					const visible = matchesCategory && matchesQuery;
+					card.classList.toggle("hidden", !visible);
+					if (visible) {
+						sectionHasVisibleCard = true;
+						visibleCount++;
+					}
+				}
+
+				section.classList.toggle("hidden", !sectionHasVisibleCard);
+			}
+
+			countLabel.textContent = `${visibleCount} resource${visibleCount === 1 ? "" : "s"}`;
+			emptyState.classList.toggle("hidden", visibleCount !== 0);
+		}
+
+		searchInput.addEventListener("input", applyFilters);
+
+		chips.forEach((chip) => {
+			chip.addEventListener("click", () => {
+				activeCategory = chip.dataset.category ?? "all";
+				chips.forEach((c) => {
+					const isActive = c === chip;
+					c.setAttribute("aria-pressed", String(isActive));
+					c.classList.toggle("border-teal-700", isActive);
+					c.classList.toggle("bg-teal-700", isActive);
+					c.classList.toggle("text-white", isActive);
+					c.classList.toggle("dark:border-teal-600", isActive);
+					c.classList.toggle("dark:bg-teal-600", isActive);
+					c.classList.toggle("border-slate-200", !isActive);
+					c.classList.toggle("text-slate-600", !isActive);
+					c.classList.toggle("dark:border-slate-700", !isActive);
+					c.classList.toggle("dark:text-slate-300", !isActive);
+				});
+				applyFilters();
+			});
+		});
+	</script>
+</Layout>

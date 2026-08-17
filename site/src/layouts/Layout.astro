@@ -19,6 +19,8 @@ const base = import.meta.env.BASE_URL.endsWith("/")
 	: `${import.meta.env.BASE_URL}/`;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const isResourcesPage = Astro.url.pathname.startsWith(`${base}resources`);
 ---
 
 <html lang="en">
@@ -60,6 +62,30 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 				<p class="text-sm text-slate-500 dark:text-slate-400">
 					Software engineering jobs, internships, hackathons, and events — refreshed hourly.
 				</p>
+				<nav class="mt-2 flex gap-4 text-sm">
+					<a
+						href={base}
+						aria-current={isResourcesPage ? undefined : "page"}
+						class={
+							isResourcesPage
+								? "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
+								: "font-medium text-teal-700 dark:text-teal-400"
+						}
+					>
+						Jobs
+					</a>
+					<a
+						href={`${base}resources`}
+						aria-current={isResourcesPage ? "page" : undefined}
+						class={
+							isResourcesPage
+								? "font-medium text-teal-700 dark:text-teal-400"
+								: "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
+						}
+					>
+						Resources
+					</a>
+				</nav>
 			</div>
 			<button
 				id="theme-toggle"
