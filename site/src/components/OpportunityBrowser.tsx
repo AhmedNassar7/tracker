@@ -86,12 +86,12 @@ export default function OpportunityBrowser() {
   }, [state, filters]);
 
   if (state.status === "loading") {
-    return <p className="py-10 text-center text-slate-500">Loading opportunities…</p>;
+    return <p className="py-10 text-center text-slate-500 dark:text-slate-400">Loading opportunities…</p>;
   }
 
   if (state.status === "error") {
     return (
-      <p className="py-10 text-center text-red-600">
+      <p className="py-10 text-center text-red-600 dark:text-red-400">
         Couldn't load listings right now ({state.message}). Try refreshing, or browse{" "}
         <a
           className="underline"
@@ -110,7 +110,7 @@ export default function OpportunityBrowser() {
 
   return (
     <div>
-      <p className="mb-4 text-sm text-slate-500">
+      <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">
         {data.count.toLocaleString()} opportunities tracked · data as of{" "}
         {formatGeneratedAt(data.generated_at)}
       </p>
@@ -118,7 +118,7 @@ export default function OpportunityBrowser() {
       <FilterBar filters={filters} onChange={setFilters} resultCount={filteredItems.length} />
 
       {filteredItems.length === 0 ? (
-        <p className="py-10 text-center text-slate-500">No results match these filters.</p>
+        <p className="py-10 text-center text-slate-500 dark:text-slate-400">No results match these filters.</p>
       ) : (
         <>
           <OpportunityTable items={visibleItems} />
@@ -127,7 +127,7 @@ export default function OpportunityBrowser() {
               <button
                 type="button"
                 onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
-                className="rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50"
+                className="rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
               >
                 Load more ({(filteredItems.length - visibleCount).toLocaleString()} remaining)
               </button>

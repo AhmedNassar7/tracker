@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Manual light/dark toggle on top of Tailwind v4's default media-query-only
+   dark variant — a `dark` class on <html> (set by the anti-FOUC script in
+   Layout.astro) lets a user override the OS preference. */
+@custom-variant dark (&:where(.dark, .dark *));

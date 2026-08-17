@@ -29,10 +29,10 @@ interface Props {
 
 export default function OpportunityTable({ items }: Props) {
   return (
-    <div className="overflow-x-auto rounded-md border border-slate-200">
+    <div className="overflow-x-auto rounded-md border border-slate-200 dark:border-slate-800">
       <table className="w-full min-w-[720px] border-collapse text-sm">
         <thead>
-          <tr className="bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500">
+          <tr className="bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500 dark:bg-slate-900 dark:text-slate-400">
             <th className="px-3 py-2">Company</th>
             <th className="px-3 py-2">Title</th>
             <th className="px-3 py-2">Kind</th>
@@ -43,22 +43,36 @@ export default function OpportunityTable({ items }: Props) {
         </thead>
         <tbody>
           {items.map((item) => (
-            <tr key={item.id} className="border-t border-slate-200 hover:bg-slate-50">
-              <td className="px-3 py-2 font-medium text-slate-900">{item.company}</td>
+            <tr
+              key={item.id}
+              className="border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
+            >
+              <td className="px-3 py-2 font-medium text-slate-900 dark:text-slate-100">{item.company}</td>
               <td className="px-3 py-2">
                 <a
-                  className="text-teal-700 underline-offset-2 hover:underline"
+                  className="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   {item.title}
                 </a>
+                <div className="mt-0.5 text-xs text-slate-400 dark:text-slate-500">
+                  via{" "}
+                  <a
+                    href={item.source_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    {item.source}
+                  </a>
+                </div>
               </td>
-              <td className="px-3 py-2 text-slate-500">{KIND_LABEL[item.kind]}</td>
-              <td className="px-3 py-2 text-slate-500">{item.level ?? "—"}</td>
-              <td className="px-3 py-2 text-slate-500">{formatLocation(item.location)}</td>
-              <td className="px-3 py-2 text-slate-500">{item.age || "—"}</td>
+              <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{KIND_LABEL[item.kind]}</td>
+              <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{item.level ?? "—"}</td>
+              <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{formatLocation(item.location)}</td>
+              <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{item.age || "—"}</td>
             </tr>
           ))}
         </tbody>

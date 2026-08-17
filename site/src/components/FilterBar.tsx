@@ -60,8 +60,8 @@ export default function FilterBar({ filters, onChange, resultCount }: Props) {
             className={
               "rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
               (filters.kind === tab.value
-                ? "border-teal-700 bg-teal-700 text-white"
-                : "border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-50")
+                ? "border-teal-700 bg-teal-700 text-white dark:border-teal-600 dark:bg-teal-600"
+                : "border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:bg-slate-900")
             }
           >
             {tab.label}
@@ -76,14 +76,14 @@ export default function FilterBar({ filters, onChange, resultCount }: Props) {
           onChange={(e) => set("q", e.target.value)}
           placeholder="Search company or title…"
           aria-label="Search company or title"
-          className="w-full max-w-xs rounded-md border border-slate-300 px-3 py-1.5 text-sm focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600 sm:w-64"
+          className="w-full max-w-xs rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-900 focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 sm:w-64"
         />
 
         <select
           value={filters.level}
           onChange={(e) => set("level", e.target.value)}
           aria-label="Filter by level"
-          className="rounded-md border border-slate-300 px-2 py-1.5 text-sm text-slate-700"
+          className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
         >
           <option value="">Any level</option>
           {LEVEL_OPTIONS.map((opt) => (
@@ -97,7 +97,7 @@ export default function FilterBar({ filters, onChange, resultCount }: Props) {
           value={filters.region}
           onChange={(e) => set("region", e.target.value)}
           aria-label="Filter by region"
-          className="rounded-md border border-slate-300 px-2 py-1.5 text-sm text-slate-700"
+          className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
         >
           <option value="">Any region</option>
           {REGION_OPTIONS.map((opt) => (
@@ -111,7 +111,7 @@ export default function FilterBar({ filters, onChange, resultCount }: Props) {
           value={filters.remote}
           onChange={(e) => set("remote", e.target.value)}
           aria-label="Filter by work type"
-          className="rounded-md border border-slate-300 px-2 py-1.5 text-sm text-slate-700"
+          className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
         >
           <option value="">Any work type</option>
           {REMOTE_OPTIONS.map((opt) => (
@@ -125,13 +125,13 @@ export default function FilterBar({ filters, onChange, resultCount }: Props) {
           <button
             type="button"
             onClick={() => onChange(DEFAULT_FILTERS)}
-            className="text-sm text-slate-500 underline-offset-2 hover:text-slate-700 hover:underline"
+            className="text-sm text-slate-500 underline-offset-2 hover:text-slate-700 hover:underline dark:text-slate-400 dark:hover:text-slate-200"
           >
             Clear filters
           </button>
         )}
 
-        <span className="ml-auto text-sm text-slate-500">
+        <span className="ml-auto text-sm text-slate-500 dark:text-slate-400">
           {resultCount.toLocaleString()} result{resultCount === 1 ? "" : "s"}
         </span>
       </div>

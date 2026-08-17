@@ -22,16 +22,74 @@ const base = import.meta.env.BASE_URL.endsWith("/")
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<script is:inline>
+			// Runs before first paint (blocking, in <head>) so the page never
+			// flashes the wrong theme. No stored preference means "follow the
+			// OS setting" — an explicit toggle click is the only thing that
+			// pins it one way, via the "tracker:theme" localStorage key.
+			(function () {
+				var stored = localStorage.getItem("tracker:theme");
+				var isDark = stored
+					? stored === "dark"
+					: window.matchMedia("(prefers-color-scheme: dark)").matches;
+				document.documentElement.classList.toggle("dark", isDark);
+			})();
+		</script>
 	</head>
-	<body class="min-h-screen bg-white text-slate-900">
-		<header class="border-b border-slate-200 px-4 py-4 sm:px-8">
-			<a href={base} class="text-lg font-semibold">tracker</a>
-			<p class="text-sm text-slate-500">
-				Software engineering jobs, internships, hackathons, and events — refreshed hourly.
-			</p>
+	<body class="min-h-screen bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+		<header
+			class="flex items-start justify-between gap-4 border-b border-slate-200 px-4 py-4 dark:border-slate-800 sm:px-8"
+		>
+			<div>
+				<a href={base} class="text-lg font-semibold">tracker</a>
+				<p class="text-sm text-slate-500 dark:text-slate-400">
+					Software engineering jobs, internships, hackathons, and events — refreshed hourly.
+				</p>
+			</div>
+			<button
+				id="theme-toggle"
+				type="button"
+				aria-label="Toggle color theme"
+				class="mt-0.5 shrink-0 rounded-md border border-slate-300 p-2 text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
+			>
+				<svg
+					id="theme-toggle-icon-sun"
+					class="hidden h-4 w-4 dark:block"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+				>
+					<circle cx="12" cy="12" r="4" />
+					<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+				</svg>
+				<svg
+					id="theme-toggle-icon-moon"
+					class="h-4 w-4 dark:hidden"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+				</svg>
+			</button>
 		</header>
 		<main class="px-4 py-6 sm:px-8">
 			<slot />
 		</main>
+		<script is:inline>
+			(function () {
+				var btn = document.getElementById("theme-toggle");
+				btn.addEventListener("click", function () {
+					var next = !document.documentElement.classList.contains("dark");
+					document.documentElement.classList.toggle("dark", next);
+					localStorage.setItem("tracker:theme", next ? "dark" : "light");
+				});
+			})();
+		</script>
 	</body>
 </html>
