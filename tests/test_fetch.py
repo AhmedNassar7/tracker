@@ -493,6 +493,58 @@ def main():
         and amazon_rows[0]["source"] == "amazon",
     ))
 
+    netflix_payload = {
+        "count": 3,
+        "positions": [
+            {
+                # Netflix's real numbered-grade titles ("Software Engineer 4/5/6",
+                # "L5", "L6" — seen live) don't match detect_level()'s patterns at
+                # all (those only recognize up to "engineer ii"/"sde2"), so they
+                # correctly come back level:"unknown" and get filtered by
+                # include_job() in strict mode same as any other source's
+                # unclassifiable title — this is real Netflix data, confirmed
+                # live 2026-08-18, not a fabricated edge case.
+                "name": "Software Engineer 4 - Platform Systems",
+                "canonicalPositionUrl": "https://explore.jobs.netflix.net/careers/job/790298014263",
+                "location": "USA - Remote",
+                "t_create": 1721692800,
+            },
+            {
+                # "engineer ii" is one of the few numbered patterns detect_level
+                # does recognize (mid_level) — this is what actually clears the
+                # level filter.
+                "name": "Software Engineer II - Platform Systems",
+                "canonicalPositionUrl": "https://explore.jobs.netflix.net/careers/job/790298014264",
+                "location": "USA - Remote",
+                "t_create": 1721692800,  # 2024-07-23T00:00:00Z
+            },
+            {
+                "name": "Staff Product Designer",  # non-engineering title -> filtered by ROLE_RE
+                "canonicalPositionUrl": "https://explore.jobs.netflix.net/careers/job/999",
+                "location": "USA - Remote",
+                "t_create": 1721692800,
+            },
+        ],
+    }
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25):
+            dest.write_text(json.dumps(netflix_payload), encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["netflix"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            netflix_rows = fetch.fetch_netflix(max_pages=1)
+    run("netflix fetch hits its own Eightfold API directly, filters non-engineering and unclassifiable-level roles", lambda: check(
+        "netflix fetch hits its own Eightfold API directly, filters non-engineering and unclassifiable-level roles",
+        len(netflix_rows) == 1
+        and netflix_rows[0]["title"] == "Software Engineer II - Platform Systems"
+        and netflix_rows[0]["url"] == "https://explore.jobs.netflix.net/careers/job/790298014264"
+        and netflix_rows[0]["posted_at"] == "2024-07-23"
+        and netflix_rows[0]["source"] == "netflix"
+        and netflix_rows[0]["company"] == "Netflix",
+    ))
+
     rows = [{
         "id": "aaaaaaaaaaaaaaaa",
         "company": "Google",

@@ -82,6 +82,7 @@ jobs:
             - hanzili Canada SDE
             - ambicuity New-Grad-Jobs
             - Amazon (direct from amazon.jobs' own API)
+            - Netflix (direct from its Eightfold-hosted careers API)
 
             **Public-board sources** (scripts/public_sources.py):
             - Devpost hackathons

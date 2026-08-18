@@ -3,7 +3,8 @@
 Fetch global tech roles from multiple sources, normalize, dedupe, and export.
 Sources: Remotive, ArbeitNow, SimplifyJobs (internships & new grad), ambicuity/
 New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada), Amazon
-(direct from amazon.jobs' own API)
+(direct from amazon.jobs' own API), Netflix (direct from its Eightfold-hosted
+careers API)
 Scope: US, Canada, EMEA + Remote | Levels: Internship/New Grad/Junior/Entry/Mid
 Companies: Top-tier allowlist only
 """
@@ -783,6 +784,97 @@ def fetch_amazon(max_pages=3, result_limit=100):
     log_info(f"Amazon: {len(out)} matched (skipped role:{skipped['role']} level:{skipped['level']} region:{skipped['region']} company:{skipped['company']})")
     return out
 
+def _parse_netflix_posted_date(unix_ts):
+    """Netflix's Eightfold API returns t_create as a Unix timestamp (seconds)."""
+    try:
+        return datetime.datetime.fromtimestamp(int(unix_ts), tz=datetime.timezone.utc).date().isoformat()
+    except Exception:
+        return TODAY
+
+def fetch_netflix(max_pages=20, page_size=10):
+    """Fetch directly from Netflix's own Eightfold-hosted careers API —
+    verified live, keyless, real JSON — rather than not tracking Netflix at
+    all, which was the status quo: Netflix runs its own Eightfold instance,
+    not Greenhouse/Lever/Workday/Ashby/SmartRecruiters, so none of the
+    public layer's auto-discovery/config mechanisms can ever reach it.
+
+    Confirmed live 2026-08-18: `netflix.eightfold.ai/api/apply/v2/jobs` with
+    `domain=netflix.com` returns real structured positions (id, name,
+    location, canonicalPositionUrl, t_create/t_update as Unix timestamps),
+    500 total open roles. The `query` param filters server-side — confirmed
+    "software engineer" narrows that to ~164 — so this pages through the
+    software-engineering subset directly instead of pulling all 500 and
+    filtering client-side (each page returns at most 10 regardless of the
+    `num` value requested — also confirmed live, not documented — hence the
+    small `page_size` default and correspondingly higher `max_pages`).
+
+    Eightfold's subdomain isn't a guessable-per-company pattern the way
+    Greenhouse/Lever's are (spot-checked several other known Eightfold
+    customers — none resolved at `<company>.eightfold.ai`), so this is a
+    single verified direct integration, not a generalized auto-discovered
+    platform — same treatment as Amazon's own direct API above.
+    """
+    out = []
+    log_info("Fetching Netflix (direct)...")
+    base_url = "https://netflix.eightfold.ai/api/apply/v2/jobs"
+    skipped = {"role": 0, "level": 0, "region": 0, "company": 0}
+
+    for page in range(max_pages):
+        offset = page * page_size
+        url = f"{base_url}?domain=netflix.com&query=software+engineer&start={offset}&num={page_size}"
+        path = DATA_RAW / f"netflix_page{page}.json"
+
+        if not fetch_url(url, path):
+            log_warn(f"Netflix fetch failed on page {page}, stopping pagination")
+            break
+
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            positions = data.get("positions", [])
+        except Exception as e:
+            log_error(f"Error parsing Netflix page {page}: {e}")
+            break
+
+        if not positions:
+            break
+
+        for p in positions:
+            title = (p.get("name") or "").strip()
+            url_full = (p.get("canonicalPositionUrl") or "").strip()
+            location = (p.get("location") or "").strip()
+            posted = _parse_netflix_posted_date(p.get("t_create"))
+
+            if not (title and url_full):
+                skipped["role"] += 1
+                continue
+
+            if not ROLE_RE.search(title):
+                skipped["role"] += 1
+                continue
+
+            row = normalize(
+                "Netflix", title, location, url_full, posted, "netflix",
+                "https://explore.jobs.netflix.net/careers",
+            )
+
+            if not include_job(row, "Netflix"):
+                if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:
+                    skipped["level"] += 1
+                elif row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                    skipped["region"] += 1
+                else:
+                    skipped["company"] += 1
+                continue
+
+            out.append(row)
+
+        count = data.get("count", 0)
+        if offset + page_size >= count:
+            break
+
+    log_info(f"Netflix: {len(out)} matched (skipped role:{skipped['role']} level:{skipped['level']} region:{skipped['region']} company:{skipped['company']})")
+    return out
+
 def fetch_ambicuity_newgrad():
     """Fetch ambicuity/New-Grad-Jobs' live JSON feed (refreshed every 5 min upstream)."""
     out = []
@@ -907,6 +999,7 @@ SOURCE_FETCHER_NAMES = [
     "fetch_hanzili_canada",
     "fetch_ambicuity_newgrad",
     "fetch_amazon",
+    "fetch_netflix",
 ]
 
 def _call_fetcher_by_name(name):

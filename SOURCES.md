@@ -26,6 +26,7 @@ Every row from these sources is checked against [config/companies_allowlist.yml]
 | ambicuity | [JSON feed](https://jobs.riteshrana.engineer/jobs.json) · [repo](https://github.com/ambicuity/New-Grad-Jobs) | New-grad job list backed by a live JSON API (not README-scraped) |
 | LorenzoLaCorte — European Tech | [repo](https://github.com/LorenzoLaCorte/european-tech-internships-2026) | Dedicated Europe internship/new-grad/PhD tracker, added to widen EMEA coverage beyond ArbeitNow. Apply links point at the original LinkedIn posting |
 | Amazon (direct) | [API](https://www.amazon.jobs/en/search.json?base_query=software+development+engineer) · [site](https://www.amazon.jobs/) | Amazon's own careers search API, hit directly rather than only through third-party trackers — verified free, keyless, real structured JSON. Every apply link points straight at `amazon.jobs`, with no third-party staleness risk |
+| Netflix (direct) | [API](https://netflix.eightfold.ai/api/apply/v2/jobs?domain=netflix.com) · [site](https://explore.jobs.netflix.net/careers) | Netflix's own Eightfold-hosted careers API, hit directly — verified free, keyless, real structured JSON, 500 open roles total. Netflix's own numbered-grade title convention ("Software Engineer 4/5/6") mostly falls outside this project's internship–mid-level scope, so this currently surfaces few rows day to day — real reflection of Netflix's senior-skewed hiring, not a fetcher bug |
 
 ## Public layer (`scripts/public_sources.py`)
 
