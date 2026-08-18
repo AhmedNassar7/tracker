@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T10:46:40Z",
-  "count": 1387,
-  "checksum": "sha256:69711c272e64dc7e92a8f1342f45b0d3fb706df993a3fd4cebd459d04d79a94e",
+  "generated_at": "2026-08-18T11:40:53Z",
+  "count": 1385,
+  "checksum": "sha256:4efa071fcf0bf6cd9163c51a295a9bcd08ba39b464f062bdecbfb6ea35f3f1f2",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -724,25 +724,6 @@
       "category": "faang",
       "remote_type": "onsite",
       "country": "Poland"
-    },
-    {
-      "id": "36a558da58240319",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "location": "United States",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "age": "0d",
-      "posted_at": "2026-08-18",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
     },
     {
       "id": "cc7a168906373af1",
@@ -2833,25 +2814,6 @@
       "category": "product_saas",
       "remote_type": "onsite",
       "country": "United States"
-    },
-    {
-      "id": "8b81bbd8d722fcd1",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Sony",
-      "title": "Software Engineer Intern",
-      "location": "San Diego",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
-      "age": "1mo",
-      "posted_at": "2026-08-18",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "category": "big_tech",
-      "remote_type": "onsite",
-      "country": "Unknown"
     },
     {
       "id": "fd95b7ef37fe6f7c",
@@ -19582,7 +19544,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/bitmela-launchpad-ideathon-01-bitmela-1722812",
-      "age": "74 days left",
+      "age": "73 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -19673,7 +19635,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/aethon-2026-24-hour-national-hackathon-enac-3-day-innovation-entrepreneurship-fest-2026-central-university-of-1731459",
-      "age": "6 days left",
+      "age": "5 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -19751,7 +19713,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/code-build-10-cobuild-1703709",
-      "age": "25 days left",
+      "age": "24 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -19764,7 +19726,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://cockroachdb-ai.devpost.com/",
-      "age": "about 10 hours left",
+      "age": "about 9 hours left",
       "posted_at": "2026-08-18"
     },
     {
@@ -19803,7 +19765,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/ascendant-agents-oblivion26-dcode-nsut-1722256",
-      "age": "4 days left",
+      "age": "3 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -19816,7 +19778,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/code-royale-oblivion26-dcode-nsut-1722239",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -19842,7 +19804,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/vibewright-oblivion26-dcode-nsut-1722532",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20063,7 +20025,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://flutterflow-champions-league-hackathon.devfolio.co",
-      "age": "4 days left",
+      "age": "3 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20271,7 +20233,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hyperfusion.devfolio.co",
-      "age": "9 days left",
+      "age": "8 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20778,7 +20740,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/matrix-2026-government-engineering-college-gec-thrissur-1737241",
-      "age": "37 days left",
+      "age": "36 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20791,7 +20753,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://prismbuild.devpost.com/",
-      "age": "about 11 hours left",
+      "age": "about 10 hours left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20843,7 +20805,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/one-hack-8-hours-web3-hackathon-hackers-cult-1737227",
-      "age": "26 days left",
+      "age": "25 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20869,7 +20831,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hackonomics27.devpost.com/",
-      "age": "12 days left",
+      "age": "11 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20882,7 +20844,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/grand-hack-ipec-hackshastra-1704703",
-      "age": "40 days left",
+      "age": "39 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20934,7 +20896,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://3d-websites-hackathon.devpost.com/",
-      "age": "14 days left",
+      "age": "13 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21025,7 +20987,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/build-bank-igdtuw-delhi-1728282",
-      "age": "33 days left",
+      "age": "32 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21324,7 +21286,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/webverse-hackathon-modern-education-societys-college-of-engineering-mes-pune-1733529",
-      "age": "23 days left",
+      "age": "22 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21376,7 +21338,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/the-innovators-court-oblivion26-netaji-subhas-university-of-technology-nsut-delhi-1722249",
-      "age": "4 days left",
+      "age": "3 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21389,7 +21351,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/ux-imperium-oblivion26-netaji-subhas-university-of-technology-nsut-delhi-1722371",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21584,7 +21546,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/infinix26-national-level-32-hour-hackathon-ramco-institute-of-technology-1730876",
-      "age": "24 days left",
+      "age": "23 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21740,7 +21702,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/specathon-2026-st-peters-engineering-college-1723868",
-      "age": "25 days left",
+      "age": "24 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21753,7 +21715,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/sn1phers-30-capture-the-flagctf-stjosephs-institute-of-technology-stjit-chennai-1732038",
-      "age": "4 days left",
+      "age": "3 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21974,7 +21936,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/codefury-90-university-visvesvaraya-college-of-engineering-uvce-bangalore-1726707",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-18"
     },
     {
