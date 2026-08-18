@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T15:45:11Z",
-  "total": 184,
+  "generated_at": "2026-08-18T16:47:27Z",
+  "total": 186,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -42,6 +42,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "56b213eb36de30c0",
+      "company": "Amazon.com LLC",
+      "title": "Security Engineer II, Enterprise Prot...",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "security",
+      "country": "Unknown",
+      "location": "Herndon, VA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10505020/security-engineer-ii-enterprise-protection-program",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T16:47:27Z",
       "tags": [
         "software",
         "programming",
@@ -635,11 +658,11 @@
       "location": "San Jose, California",
       "remote_type": "onsite",
       "url": "https://joinbytedance.com/search/7668315137242351925",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-18",
       "age": "0d",
-      "collected_at": "2026-08-18T15:45:11Z",
+      "collected_at": "2026-08-18T16:47:27Z",
       "tags": [
         "software",
         "programming",
@@ -877,7 +900,7 @@
       ]
     },
     {
-      "id": "36a558da58240319",
+      "id": "0476ba52df9714ce",
       "company": "Google",
       "title": "Software Engineer, PhD, Early Career,...",
       "level": "new_grad",
@@ -887,12 +910,12 @@
       "country": "United States",
       "location": "United States",
       "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/88714689822761670",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-18",
       "age": "0d",
-      "collected_at": "2026-08-18T15:45:11Z",
+      "collected_at": "2026-08-18T16:47:27Z",
       "tags": [
         "software",
         "programming",
@@ -1422,6 +1445,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "2e3662f9560e0d0e",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T16:47:27Z",
       "tags": [
         "software",
         "programming",
