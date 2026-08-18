@@ -105,3 +105,27 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch
+
+      - name: Purge jsDelivr CDN cache
+        # The site (site/src/lib/dataSource.ts) fetches from jsDelivr first,
+        # raw.githubusercontent.com only as a fallback on outright failure —
+        # not on staleness. Without this, jsDelivr's edge cache can keep
+        # serving last hour's snapshot to visitors for a while after a merge
+        # (confirmed live: site-index.json was ~2.5h stale via jsDelivr until
+        # purged by hand). Purging right after a real merge closes that gap
+        # instead of waiting on jsDelivr's own TTL to expire naturally.
+        # Best-effort: jsDelivr's purge API is a courtesy service, not
+        # critical path, so a failed purge here shouldn't fail the run.
+        if: steps.cpr.outputs.pull-request-number != ''
+        shell: bash
+        run: |
+          for path in \
+            "data/site-index.json" \
+            "data/stats-history.json" \
+            "data/feeds/all-jobs.xml" \
+            "data/feeds/internships.xml" \
+            "data/feeds/new-grad.xml" \
+            "data/feeds/hackathons.xml" \
+            "data/feeds/events.xml"; do
+            curl -s -o /dev/null "https://purge.jsdelivr.net/gh/AhmedNassar7/tracker@main/${path}" || true
+          done
