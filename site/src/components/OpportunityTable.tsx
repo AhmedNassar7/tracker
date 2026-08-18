@@ -52,7 +52,7 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack }: P
           {items.map((item) => (
             <tr
               key={item.id}
-              className="border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
+              className="row-enter border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
             >
               <td className="px-3 py-2">
                 <BookmarkButton

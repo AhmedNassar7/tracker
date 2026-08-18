@@ -21,3 +21,27 @@
     transform: scale(1);
   }
 }
+
+/* Row entrance animation on filter changes (OpportunityTable.tsx). Plain
+   CSS rather than Framer Motion — React keeps the same DOM node for a row
+   whose key it's already rendered (an existing row updating in place never
+   remounts), so this class-triggered animation only plays for a genuinely
+   new row entering the visible set, which is exactly the "rows animate in
+   on filter changes" effect without a ~50kb dependency for it. A raw media
+   query, not Tailwind's motion-safe: variant, since this is a bespoke
+   keyframe rule rather than a utility-class combination. */
+@keyframes row-enter {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .row-enter {
+    animation: row-enter 0.25s ease-out;
+  }
+}
