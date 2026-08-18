@@ -30,3 +30,4 @@ jobs:
           python3 tests/test_schema_validation.py
           python3 tests/test_site_index.py
           python3 tests/test_stats_history.py
+          python3 tests/test_rss_feeds.py

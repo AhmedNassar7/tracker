@@ -1,8 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import OpportunityBrowser from "../components/OpportunityBrowser";
+import RssFeedLinks from "../components/RssFeedLinks.astro";
 ---
 
 <Layout>
 	<OpportunityBrowser client:load />
+	<div class="mt-8">
+		<RssFeedLinks />
+	</div>
 </Layout>

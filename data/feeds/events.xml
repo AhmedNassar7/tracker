@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>tracker — Events</title>
+    <link>https://ahmednassar7.github.io/tracker/</link>
+    <description>Tech events tracker is currently tracking.</description>
+    <lastBuildDate>Tue, 18 Aug 2026 09:37:32 GMT</lastBuildDate>
+    <item>
+      <title>Luma — Follow Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)</title>
+      <link>https://lu.ma/buildercommunityanz?k=c</link>
+      <guid isPermaLink="false">471efdb8c8e9c1eb</guid>
+      <description>Global</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luma — Follow Cursor Community Cursor community meetups, hackathons, workshops taking place around the world. Learn more here: cursor.com/community</title>
+      <link>https://lu.ma/cursorcommunity?k=c</link>
+      <guid isPermaLink="false">d35dc629a0895460</guid>
+      <description>Global</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luma — Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team</title>
+      <link>https://lu.ma/deepmind?k=c</link>
+      <guid isPermaLink="false">a55b3bdcd72bf05f</guid>
+      <description>Global</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

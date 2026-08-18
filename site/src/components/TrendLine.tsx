@@ -152,6 +152,33 @@ export default function TrendLine({ points, label, valueFormatter = (n) => n.toL
         <span>{formatDate(first.at)}</span>
         <span>{formatDate(lastPoint.at)}</span>
       </div>
+
+      {/* The chart's per-point values are otherwise only reachable by
+          pointer hover — this is the keyboard/screen-reader equivalent
+          the dataviz skill requires ("same details on keyboard focus as
+          on hover"; "a table view exists"), as plain semantic HTML rather
+          than in-SVG focus management. */}
+      <details className="mt-2 text-xs">
+        <summary className="cursor-pointer text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200">
+          Show as table
+        </summary>
+        <table className="mt-2 w-full border-collapse">
+          <thead>
+            <tr className="text-left text-slate-500 dark:text-slate-400">
+              <th className="py-1 pr-4 font-medium">Date</th>
+              <th className="py-1 font-medium">{label}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {points.map((point) => (
+              <tr key={point.at} className="border-t border-slate-100 dark:border-slate-800">
+                <td className="py-1 pr-4 text-slate-600 dark:text-slate-400">{formatDate(point.at)}</td>
+                <td className="py-1 tabular-nums text-slate-700 dark:text-slate-300">{valueFormatter(point.value)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </details>
     </div>
   );
 }

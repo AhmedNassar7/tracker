@@ -9,6 +9,7 @@ import {
 } from "../lib/filters";
 import { listApplications, STATUS_LABELS, trackApplication, untrackApplication, type TrackedApplication } from "../lib/tracker";
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
+import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
 
@@ -49,12 +50,32 @@ export default function OpportunityBrowser() {
   const [filters, setFilters] = useState<FilterState>(() => readFiltersFromLocation());
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [trackedApps, setTrackedApps] = useState<Map<string, TrackedApplication>>(new Map());
+  const [newIds, setNewIds] = useState<Set<string>>(new Set());
+  const [lastVisitAt, setLastVisitAt] = useState<string | null>(null);
+  const [showOnlyNew, setShowOnlyNew] = useState(false);
+  const [bannerDismissed, setBannerDismissed] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
     fetchSiteIndex()
       .then((data) => {
-        if (!cancelled) setState({ status: "loaded", data });
+        if (cancelled) return;
+        setState({ status: "loaded", data });
+
+        // A prior visit (`at !== null`) is what makes "new" a meaningful
+        // signal — on the very first-ever visit, everything is trivially
+        // "new" against an empty baseline, which isn't useful information
+        // and would just be noise. Compare, then immediately re-baseline
+        // to this visit's full id set, so a same-session reload correctly
+        // shows zero new (already seen) rather than re-flagging the same
+        // items — the same behavior an inbox's "unread" count has.
+        const lastVisit = readLastVisit();
+        if (lastVisit.at !== null) {
+          const freshIds = new Set(data.items.filter((item) => !lastVisit.ids.has(item.id)).map((item) => item.id));
+          setNewIds(freshIds);
+          setLastVisitAt(lastVisit.at);
+        }
+        writeLastVisit(data.items.map((item) => item.id), data.generated_at);
       })
       .catch((err: unknown) => {
         if (!cancelled) {
@@ -148,8 +169,9 @@ export default function OpportunityBrowser() {
 
   const filteredItems = useMemo(() => {
     if (state.status !== "loaded") return [];
-    return applyFilters(state.data.items, filters);
-  }, [state, filters]);
+    const filtered = applyFilters(state.data.items, filters);
+    return showOnlyNew ? filtered.filter((item) => newIds.has(item.id)) : filtered;
+  }, [state, filters, showOnlyNew, newIds]);
 
   if (state.status === "loading") {
     return <p className="py-10 text-center text-slate-500 dark:text-slate-400">Loading opportunities…</p>;
@@ -180,6 +202,42 @@ export default function OpportunityBrowser() {
         {data.count.toLocaleString()} opportunities tracked · data as of{" "}
         {formatGeneratedAt(data.generated_at)}
       </p>
+
+      {newIds.size > 0 && !bannerDismissed && (
+        <div className="mb-4 flex flex-wrap items-center gap-3 rounded-md border border-teal-200 bg-teal-50 px-4 py-2.5 text-sm dark:border-teal-900 dark:bg-teal-950">
+          <span className="text-teal-900 dark:text-teal-100">
+            <strong>{newIds.size.toLocaleString()}</strong> new since your last visit
+            {lastVisitAt && <> ({formatGeneratedAt(lastVisitAt)})</>}
+          </span>
+          <button
+            type="button"
+            onClick={() => setShowOnlyNew((v) => !v)}
+            aria-pressed={showOnlyNew}
+            className={
+              "rounded-full border px-3 py-0.5 text-xs font-medium " +
+              (showOnlyNew
+                ? "border-teal-700 bg-teal-700 text-white dark:border-teal-600 dark:bg-teal-600"
+                : "border-teal-300 text-teal-800 hover:bg-teal-100 dark:border-teal-700 dark:text-teal-200 dark:hover:bg-teal-900")
+            }
+          >
+            {showOnlyNew ? "Showing only new" : "Show only new"}
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              setBannerDismissed(true);
+              // Dismissing hides the "Show only new" toggle along with it —
+              // reset so dismissing never leaves the list silently stuck
+              // filtered to new-only with no visible way to undo it.
+              setShowOnlyNew(false);
+            }}
+            className="ml-auto text-teal-700 hover:text-teal-900 dark:text-teal-300 dark:hover:text-teal-100"
+            aria-label="Dismiss"
+          >
+            Dismiss
+          </button>
+        </div>
+      )}
 
       <FilterBar filters={filters} onChange={setFilters} resultCount={filteredItems.length} />
 

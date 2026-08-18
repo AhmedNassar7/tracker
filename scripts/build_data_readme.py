@@ -17,6 +17,7 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 from schema_validator import load_schema, validate_records
+from rss_feeds import write_feeds
 
 CURATED_JSON = DATA_OUT / "jobs-global.json"
 PUBLIC_JSON = DATA_OUT / "public-opportunities.json"
@@ -29,6 +30,7 @@ STATS_HISTORY_SCHEMA = ROOT / "config" / "stats-history.schema.json"
 # One point per hourly run; 90 days keeps the file bounded (~2,160 points at
 # worst) while covering enough history for a meaningful trend line.
 STATS_HISTORY_RETENTION_DAYS = 90
+FEEDS_DIR = DATA_OUT / "feeds"
 
 # Fields copied straight through when present; curated-only fields (category,
 # remote_type, country) and the level/region/role_type job fields are added
@@ -395,6 +397,18 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "| [site-index.json](site-index.json) | Both feeds above, flattened into one list with a content checksum — meant for a future site to fetch as a single lightweight file |",
         "| [stats-history.json](stats-history.json) | One snapshot of the totals above per hourly run, last 90 days — a free trend line with no extra fetching (see [config/stats-history.schema.json](../config/stats-history.schema.json)) |",
         "",
+        "## RSS Feeds",
+        "",
+        "Five preset feeds, refreshed hourly — fixed filters rather than arbitrary saved ones, since a static site can't compute custom filtered XML on demand:",
+        "",
+        "| Feed | Filter |",
+        "|---|---|",
+        "| [feeds/all-jobs.xml](feeds/all-jobs.xml) | Every job |",
+        "| [feeds/internships.xml](feeds/internships.xml) | Internships only |",
+        "| [feeds/new-grad.xml](feeds/new-grad.xml) | New-grad roles only |",
+        "| [feeds/hackathons.xml](feeds/hackathons.xml) | Hackathons |",
+        "| [feeds/events.xml](feeds/events.xml) | Events |",
+        "",
         "## Notes",
         "",
         "- Use [README.md](../README.md) as the root entry point.",
@@ -666,6 +680,9 @@ def main() -> int:
     stats_history = update_stats_history(load_json(STATS_HISTORY_JSON), stats, now_iso)
     STATS_HISTORY_JSON.write_text(json.dumps(stats_history, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {STATS_HISTORY_JSON} ({len(stats_history['snapshots'])} snapshots)")
+
+    feed_paths = write_feeds(site_index["items"], site_index["generated_at"], FEEDS_DIR)
+    print(f"Wrote {len(feed_paths)} RSS feeds to {FEEDS_DIR}")
     return 0
 
 
