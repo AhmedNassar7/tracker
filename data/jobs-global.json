@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T17:41:57Z",
-  "total": 185,
+  "generated_at": "2026-08-18T18:55:12Z",
+  "total": 192,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -2096,6 +2096,52 @@
       ]
     },
     {
+      "id": "6cc808079b2b19bb",
+      "company": "Zipline",
+      "title": "System Test Automation Intern (Spring...",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "South San Francisco, C...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7893946003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T18:55:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "467edd19817158ae",
+      "company": "Zipline",
+      "title": "System Test Automation Intern (Summer...",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "South San Francisco, C...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7886320003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T18:55:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "dc30a7884af241c8",
       "company": "Amazon Development Centre Canada ULC",
       "title": "Software Development Engineer II, Ama...",
@@ -3108,6 +3154,29 @@
       ]
     },
     {
+      "id": "b79f5f772d067aaf",
+      "company": "Amazon",
+      "title": "Software Development Engineer II (ADBL178)",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Newark, New Jersey, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-31",
+      "age": "18d",
+      "collected_at": "2026-08-18T18:55:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "3de94be518093ad5",
       "company": "Amazon",
       "title": "Software Development Engineer II (ADBL183)",
@@ -3492,6 +3561,52 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8b81bbd8d722fcd1",
+      "company": "Sony",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "San Diego",
+      "remote_type": "onsite",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Software-Engineer-Intern_JR-119282",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-18",
+      "age": "1mo",
+      "collected_at": "2026-08-18T18:55:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fd95b7ef37fe6f7c",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AmazonMQ",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "other_swe",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia, CAN",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-17",
+      "age": "32d",
+      "collected_at": "2026-08-18T18:55:12Z",
       "tags": [
         "software",
         "programming",
@@ -3936,22 +4051,22 @@
       ]
     },
     {
-      "id": "cfab04505d542392",
+      "id": "3f75e139ddcfc77b",
       "company": "Amazon",
-      "title": "Software Development Engineer II, Software Defined Networking",
+      "title": "Software Development Engineer II, FinTech",
       "level": "mid_level",
       "category": "faang",
-      "region": "us",
+      "region": "unknown",
       "role_type": "other_swe",
-      "country": "United States",
-      "location": "Austin, Texas, USA",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
+      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-06-16",
-      "age": "63d",
-      "collected_at": "2026-08-18T13:55:48Z",
+      "posted_at": "2026-06-12",
+      "age": "67d",
+      "collected_at": "2026-08-18T18:55:12Z",
       "tags": [
         "software",
         "programming",
@@ -4143,6 +4258,29 @@
       ]
     },
     {
+      "id": "86c087a99d1f949a",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Amazon",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-04-25",
+      "age": "115d",
+      "collected_at": "2026-08-18T18:55:12Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "8b16d1d4f305bf5d",
       "company": "Palantir",
       "title": "Year at Palantir - Forward Deployed Software Engineer - Internship - USG",
@@ -4228,6 +4366,29 @@
       "posted_at": "2026-08-10",
       "age": "6mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6d9b5b50c81ce46b",
+      "company": "Netflix",
+      "title": "Software Engineer PhD Intern, Streaming Algorithms (Summer 2026)",
+      "level": "internship",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Los Gatos,California,United States of America",
+      "remote_type": "onsite",
+      "url": "https://explore.jobs.netflix.net/careers/job/790313241540",
+      "source": "netflix",
+      "source_url": "https://explore.jobs.netflix.net/careers",
+      "posted_at": "2025-12-10",
+      "age": "251d",
+      "collected_at": "2026-08-18T18:55:12Z",
       "tags": [
         "software",
         "programming",
