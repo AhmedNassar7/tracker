@@ -24,6 +24,11 @@ ROOT_README = ROOT / "README.md"
 DATA_README = DATA_OUT / "README.md"
 SITE_INDEX_JSON = DATA_OUT / "site-index.json"
 SITE_INDEX_SCHEMA = ROOT / "config" / "site-index.schema.json"
+STATS_HISTORY_JSON = DATA_OUT / "stats-history.json"
+STATS_HISTORY_SCHEMA = ROOT / "config" / "stats-history.schema.json"
+# One point per hourly run; 90 days keeps the file bounded (~2,160 points at
+# worst) while covering enough history for a meaningful trend line.
+STATS_HISTORY_RETENTION_DAYS = 90
 
 # Fields copied straight through when present; curated-only fields (category,
 # remote_type, country) and the level/region/role_type job fields are added
@@ -388,6 +393,7 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         "| [public-opportunities.json](public-opportunities.json) | Public-board jobs, hackathons, and events: Greenhouse, Lever, Workday, Ashby, SmartRecruiters, Devpost, Luma |",
         "| [stats.json](stats.json) | Counts of the curated feed broken down by level, country, and source |",
         "| [site-index.json](site-index.json) | Both feeds above, flattened into one list with a content checksum — meant for a future site to fetch as a single lightweight file |",
+        "| [stats-history.json](stats-history.json) | One snapshot of the totals above per hourly run, last 90 days — a free trend line with no extra fetching (see [config/stats-history.schema.json](../config/stats-history.schema.json)) |",
         "",
         "## Notes",
         "",
@@ -549,6 +555,65 @@ def build_site_index(curated_payload: dict, public_payload: dict) -> dict:
     }
 
 
+def update_stats_history(existing_history: dict, stats: dict, now_iso: str) -> dict:
+    """Append this run's snapshot to the rolling history, pruning anything
+    older than STATS_HISTORY_RETENTION_DAYS. Pure — takes the previously
+    written history dict (or {} if data/stats-history.json doesn't exist
+    yet) rather than reading the file itself, so it's testable without disk
+    I/O, matching build_site_index()'s shape.
+
+    This is the free time-series data the plan's website-build doc calls
+    for ("a trend line built from stats.json's own git history"), built
+    forward one point per hourly run instead of scraping this repo's git
+    history through GitHub's rate-limited API from every site visitor's
+    browser — that would hit a 60-req/hr unauthenticated ceiling shared
+    across all visitors, unreliable at any real traffic. A site consuming
+    this file needs nothing beyond a normal fetch, same as site-index.json.
+    """
+    snapshots = list(existing_history.get("snapshots", []) or [])
+    snapshots.append(
+        {
+            "at": now_iso,
+            "curated_roles": stats["curated_roles"],
+            "public_opportunities": stats["public_opportunities"],
+            "jobs_total": stats["jobs_total"],
+            "hackathons_total": stats["hackathons_total"],
+            "events_total": stats["events_total"],
+            "total_items": stats["total_items"],
+            "level_counts": dict(stats["level_counts"]),
+        }
+    )
+
+    # Timestamps are all "YYYY-MM-DDTHH:MM:SSZ" (fixed-width, zero-padded,
+    # UTC) — the same format already relied on for lexicographic ordering
+    # elsewhere in this pipeline (e.g. archive sort by closed_at), so a
+    # plain string comparison against the cutoff is correct here too.
+    #
+    # The cutoff is computed from `now_iso`, not a fresh clock read — this
+    # function takes "now" as an input specifically so it stays pure and
+    # deterministic (same inputs, same output, no hidden dependency on
+    # wall-clock time). Deriving the cutoff from a real `datetime.now()`
+    # call here instead would silently prune anything dated more than 90
+    # real-world days ago even when `now_iso` itself is a much older
+    # timestamp (e.g. in a test, or a backfill) — exactly the kind of bug
+    # this function's own tests are meant to catch.
+    now = datetime.datetime.strptime(now_iso, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)
+    cutoff = now - datetime.timedelta(days=STATS_HISTORY_RETENTION_DAYS)
+    cutoff_iso = cutoff.strftime("%Y-%m-%dT%H:%M:%SZ")
+    snapshots = [s for s in snapshots if s.get("at", "") >= cutoff_iso]
+
+    schema = load_schema(STATS_HISTORY_SCHEMA)
+    errors = validate_records(snapshots, schema, label="stats-history.json snapshots")
+    if errors:
+        raise ValueError("stats-history.json failed schema validation:\n" + "\n".join(errors))
+
+    return {
+        "updated_at": now_iso,
+        "retention_days": STATS_HISTORY_RETENTION_DAYS,
+        "snapshots": snapshots,
+    }
+
+
 def main() -> int:
     curated_payload = load_json(CURATED_JSON)
     public_payload = load_json(PUBLIC_JSON)
@@ -596,6 +661,11 @@ def main() -> int:
     site_index = build_site_index(curated_payload, public_payload)
     SITE_INDEX_JSON.write_text(json.dumps(site_index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
+
+    now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    stats_history = update_stats_history(load_json(STATS_HISTORY_JSON), stats, now_iso)
+    STATS_HISTORY_JSON.write_text(json.dumps(stats_history, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Wrote {STATS_HISTORY_JSON} ({len(stats_history['snapshots'])} snapshots)")
     return 0
 
 

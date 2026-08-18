@@ -1,11 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
-import { fetchSiteIndex } from "../lib/dataSource";
+import { fetchSiteIndex, fetchStatsHistory } from "../lib/dataSource";
 import { SINGLE_SERIES_COLOR } from "../lib/chartColors";
-import type { SiteIndex } from "../lib/types";
+import type { SiteIndex, StatsHistory } from "../lib/types";
 import BarList from "./BarList";
 import StatTile from "./StatTile";
+import TrendLine from "./TrendLine";
 
 type LoadState = { status: "loading" } | { status: "error"; message: string } | { status: "loaded"; data: SiteIndex };
+
+// Independent of the main load state — a stale or missing history file
+// (e.g. before this feature's first hourly run) shouldn't block the rest
+// of the dashboard from rendering.
+type HistoryState = { status: "loading" | "error" } | { status: "loaded"; data: StatsHistory };
 
 const REGION_LABELS: Record<string, string> = {
   us: "United States",
@@ -41,6 +47,7 @@ function topEntries(counts: Map<string, number>, limit: number): [string, number
 
 export default function GlobalDashboard() {
   const [state, setState] = useState<LoadState>({ status: "loading" });
+  const [historyState, setHistoryState] = useState<HistoryState>({ status: "loading" });
 
   useEffect(() => {
     let cancelled = false;
@@ -52,6 +59,20 @@ export default function GlobalDashboard() {
         if (!cancelled) {
           setState({ status: "error", message: err instanceof Error ? err.message : "Unknown error" });
         }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetchStatsHistory()
+      .then((data) => {
+        if (!cancelled) setHistoryState({ status: "loaded", data });
+      })
+      .catch(() => {
+        if (!cancelled) setHistoryState({ status: "error" });
       });
     return () => {
       cancelled = true;
@@ -103,6 +124,18 @@ export default function GlobalDashboard() {
         <StatTile label="Hackathons" value={kindCounts.get("hackathon") ?? 0} />
         <StatTile label="Events" value={kindCounts.get("event") ?? 0} />
       </div>
+
+      {historyState.status === "loaded" && historyState.data.snapshots.length > 0 && (
+        <div>
+          <h3 className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-300">
+            Total opportunities over time
+          </h3>
+          <TrendLine
+            label="Total opportunities tracked"
+            points={historyState.data.snapshots.map((snapshot) => ({ at: snapshot.at, value: snapshot.total_items }))}
+          />
+        </div>
+      )}
 
       {regionCounts.size > 0 && (
         <div>

@@ -58,3 +58,25 @@ export interface SiteIndex {
   checksum: string;
   items: SiteIndexEntry[];
 }
+
+// Mirrors config/stats-history.schema.json.
+export interface StatsHistorySnapshot {
+  at: string;
+  curated_roles: number;
+  public_opportunities: number;
+  jobs_total: number;
+  hackathons_total: number;
+  events_total: number;
+  total_items: number;
+  level_counts: {
+    internship: number;
+    early_career: number;
+    mid_level: number;
+  };
+}
+
+export interface StatsHistory {
+  updated_at: string;
+  retention_days: number;
+  snapshots: StatsHistorySnapshot[];
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StatsHistorySnapshot",
+  "description": "Shape of each entry in data/stats-history.json's 'snapshots' array — one point appended per hourly pipeline run by scripts/build_data_readme.py, so a site can render a real trend line without scraping this repo's git history through GitHub's rate-limited API. Every value mirrors the 'stats' dict build_data_readme.py already computes for the README tables; nothing here is a new calculation, and data/stats-history.json itself is capped to the last STATS_HISTORY_RETENTION_DAYS (90) days.",
+  "type": "object",
+  "required": [
+    "at",
+    "curated_roles",
+    "public_opportunities",
+    "jobs_total",
+    "hackathons_total",
+    "events_total",
+    "total_items",
+    "level_counts"
+  ],
+  "properties": {
+    "at": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$",
+      "description": "UTC timestamp this snapshot was taken (ISO 8601)"
+    },
+    "curated_roles": {
+      "type": "integer",
+      "description": "Count of curated-layer jobs (data/jobs-global.json) at this point in time"
+    },
+    "public_opportunities": {
+      "type": "integer",
+      "description": "Count of public-layer jobs + hackathons + events (data/public-opportunities.json) at this point in time"
+    },
+    "jobs_total": {
+      "type": "integer",
+      "description": "Curated + public jobs combined, after stale-listing filtering"
+    },
+    "hackathons_total": {
+      "type": "integer"
+    },
+    "events_total": {
+      "type": "integer"
+    },
+    "total_items": {
+      "type": "integer",
+      "description": "jobs_total + hackathons_total + events_total"
+    },
+    "level_counts": {
+      "type": "object",
+      "description": "Job counts bucketed into internship / early_career / mid_level, the same buckets data/README.md renders. Nested field types are documentation only — the dependency-free validator in scripts/schema_validator.py doesn't recurse into nested object properties."
+    }
+  },
+  "additionalProperties": false
+}

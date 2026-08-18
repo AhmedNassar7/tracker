@@ -23,8 +23,9 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# dev-only fixture: a manual snapshot of ../data/site-index.json, used as a
+# dev-only fixtures: manual snapshots of ../data/*.json, used as a
 # same-origin fallback so `astro dev` has real data before anything is
 # pushed. Production always fetches cross-origin (src/lib/dataSource.ts) —
-# this file must never be the site's real data source, so it isn't committed.
+# these files must never be the site's real data source, so they aren't committed.
 public/site-index.json
+public/stats-history.json
