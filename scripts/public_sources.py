@@ -525,8 +525,15 @@ def load_extra_job_boards():
     section = None
     try:
         for line in path.read_text(encoding="utf-8").splitlines():
-            stripped = line.strip()
-            if not stripped or stripped.startswith("#"):
+            # Strip a trailing "# comment" *before* anything else — a
+            # comment explaining why a company was added (e.g. "- careem  #
+            # verified live 2026-08-18, 231 real postings") would otherwise
+            # get swallowed into the token itself, since none of this
+            # file's real content ever contains a literal '#'. This also
+            # correctly reduces a pure comment line to "", which the
+            # empty-line check below already skips.
+            stripped = line.split("#", 1)[0].strip()
+            if not stripped:
                 continue
             if stripped.endswith(":") and not stripped.startswith("-"):
                 section = stripped[:-1].strip().lower()

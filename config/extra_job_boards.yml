@@ -41,5 +41,48 @@ smartrecruiters:
 
 greenhouse:
   - careem  # Dubai, UAE super-app (Uber-owned) — verified live 2026-08-18, 231 real postings incl. Dubai/UAE
+  # Everything below: real Greenhouse board confirmed live 2026-08-18 (non-empty
+  # jobs array, not just a non-404 response) for a company already in
+  # config/companies_allowlist.yml whose board had never been auto-discovered —
+  # none of these companies ever happened to appear in another curated source
+  # first, so discover_job_board_sources() never had a URL to find them from.
+  - linkedin
+  - datadog
+  - databricks
+  - mongodb
+  - elastic
+  - twilio
+  - stripe
+  - okta
+  - figma
+  - dropbox
+  - asana
+  - anthropic
+  - deepmind
+  - scaleai
+  - n26
+  - lyft
+  - airbnb
+  - janestreet
+  - coupang
+  - baidu
+  - phonepe
+  - jumia
+  - block
+  - robinhood
+  - instacart
+  - pinterest
+  - reddit
+  - roblox
+  - epicgames
+  - discord
+  - duolingo
+  - webflow
 
 lever:
+  # Same discipline: real Lever board confirmed live 2026-08-18 with actual
+  # postings, not just a non-404 response.
+  - spotify
+  - palantir
+  - paytm
+  - dlocal

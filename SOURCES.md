@@ -34,8 +34,8 @@ Widens coverage beyond the allowlist-gated curated layer.
 
 | Source | Link | How it's included |
 |---|---|---|
-| Greenhouse | [boards-api.greenhouse.io](https://boards-api.greenhouse.io/) | Auto-discovered — a company's board gets polled directly once one of its postings shows up via any other source |
-| Lever | [api.lever.co](https://api.lever.co/) | Auto-discovered, same mechanism as Greenhouse |
+| Greenhouse | [boards-api.greenhouse.io](https://boards-api.greenhouse.io/) | Auto-discovered — a company's board gets polled directly once one of its postings shows up via any other source — **plus 32 companies hand-seeded** in [config/extra_job_boards.yml](config/extra_job_boards.yml)'s `greenhouse:` section (verified live 2026-08-18: real, non-empty boards for allowlisted companies — LinkedIn, Datadog, Databricks, MongoDB, Elastic, Twilio, Stripe, Okta, Figma, Dropbox, Asana, Anthropic, DeepMind, Scale AI, N26, Lyft, Airbnb, Jane Street, Coupang, Baidu, PhonePe, Jumia, Block, Robinhood, Instacart, Pinterest, Reddit, Roblox, Epic Games, Discord, Duolingo, Webflow, Careem — that had never been auto-discovered because none of them ever happened to appear in another curated source first) |
+| Lever | [api.lever.co](https://api.lever.co/) | Auto-discovered, same mechanism as Greenhouse — plus 4 hand-seeded companies (Spotify, Palantir, Paytm, dLocal), same discipline |
 | Workday | CXS API (per-tenant, no single URL) | Auto-discovered, same mechanism as Greenhouse |
 | Ashby | [api.ashbyhq.com](https://api.ashbyhq.com/) | Listed by hand in [config/extra_job_boards.yml](config/extra_job_boards.yml) — verify a token with `curl https://api.ashbyhq.com/posting-api/job-board/<token>` before adding |
 | SmartRecruiters | [api.smartrecruiters.com](https://api.smartrecruiters.com/) | Listed by hand in [config/extra_job_boards.yml](config/extra_job_boards.yml) — the API can't confirm a slug is valid, so only add ones verified out-of-band |

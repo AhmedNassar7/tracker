@@ -360,7 +360,12 @@ def main():
         config_dir.mkdir()
         (config_dir / "extra_job_boards.yml").write_text(
             "ashby:\n  - notion\n  - linear\n\nsmartrecruiters:\n  - Visa\n\n"
-            "greenhouse:\n  - careem\n\nlever:\n  - somecompany\n",
+            # careem's line deliberately carries an inline "# ..." comment —
+            # a real bug shipped once where the parser folded the whole
+            # comment into the token itself (e.g. "careem  # verified
+            # live..."), which then broke the actual API URL at fetch time.
+            # This is the regression test for that.
+            "greenhouse:\n  - careem  # Dubai, UAE — verified live 2026-08-18\n\nlever:\n  - somecompany\n",
             encoding="utf-8",
         )
         with patch.object(mod, "ROOT", Path(tmp)):
@@ -373,6 +378,10 @@ def main():
         run("load extra job boards config includes hand-seeded greenhouse/lever", lambda: check(
             "greenhouse/lever sections parsed",
             boards["greenhouse"] == ["careem"] and boards["lever"] == ["somecompany"],
+        ))
+        run("an inline '# comment' on a company line doesn't get folded into the token", lambda: check(
+            "token is exactly 'careem', not 'careem  # Dubai, UAE — verified live 2026-08-18'",
+            boards["greenhouse"] == ["careem"],
         ))
 
     with tempfile.TemporaryDirectory() as tmp:
