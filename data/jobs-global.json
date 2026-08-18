@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T14:51:48Z",
-  "total": 183,
+  "generated_at": "2026-08-18T15:45:11Z",
+  "total": 184,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -635,11 +635,11 @@
       "location": "San Jose, California",
       "remote_type": "onsite",
       "url": "https://joinbytedance.com/search/7668315137242351925",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-08-18",
       "age": "0d",
-      "collected_at": "2026-08-18T03:56:35Z",
+      "collected_at": "2026-08-18T15:45:11Z",
       "tags": [
         "software",
         "programming",
@@ -870,6 +870,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "36a558da58240319",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T15:45:11Z",
       "tags": [
         "software",
         "programming",
@@ -2038,11 +2061,11 @@
       "location": "Plano, TX, United States",
       "remote_type": "onsite",
       "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210758538",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-17",
-      "age": "0d",
-      "collected_at": "2026-08-17T19:41:05Z",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-08-18",
+      "age": "1d",
+      "collected_at": "2026-08-18T15:45:11Z",
       "tags": [
         "software",
         "programming",
