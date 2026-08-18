@@ -11,7 +11,9 @@ import { listApplications, STATUS_LABELS, trackApplication, untrackApplication, 
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import FilterBar from "./FilterBar";
+import FreshnessPulse from "./FreshnessPulse";
 import OpportunityTable from "./OpportunityTable";
+import SkeletonTable from "./SkeletonTable";
 
 type LoadState =
   | { status: "loading" }
@@ -174,7 +176,7 @@ export default function OpportunityBrowser() {
   }, [state, filters, showOnlyNew, newIds]);
 
   if (state.status === "loading") {
-    return <p className="py-10 text-center text-slate-500 dark:text-slate-400">Loading opportunities…</p>;
+    return <SkeletonTable label="Loading opportunities…" />;
   }
 
   if (state.status === "error") {
@@ -198,7 +200,8 @@ export default function OpportunityBrowser() {
 
   return (
     <div>
-      <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">
+      <p className="mb-4 flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
+        <FreshnessPulse />
         {data.count.toLocaleString()} opportunities tracked · data as of{" "}
         {formatGeneratedAt(data.generated_at)}
       </p>

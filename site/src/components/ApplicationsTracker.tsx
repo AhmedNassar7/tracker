@@ -11,6 +11,7 @@ import {
   type ApplicationStatus,
   type TrackedApplication,
 } from "../lib/tracker";
+import StatusDot from "./StatusDot";
 
 type LoadState = { status: "loading" } | { status: "loaded"; applications: TrackedApplication[] };
 
@@ -149,6 +150,7 @@ export default function ApplicationsTracker() {
                 </p>
               </div>
               <div className="flex items-center gap-2">
+                <StatusDot status={app.status} />
                 <select
                   value={app.status}
                   onChange={(e) => handleStatusChange(app.id, e.target.value as ApplicationStatus)}

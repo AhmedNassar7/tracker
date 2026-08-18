@@ -30,6 +30,14 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		<link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="manifest" href={`${base}manifest.webmanifest`} />
+		<meta name="theme-color" content="#0f766e" />
+		{/* robots.txt here would have no effect — crawlers only ever check
+		it at the true host root, which this GitHub Pages project sub-path
+		doesn't control (see tracker-website-plan.html §7's custom-domain
+		research). This <link> is the discovery path that still works from
+		a sub-path: search engines and Search Console both honor it. */}
+		<link rel="sitemap" href={`${base}sitemap-index.xml`} />
 		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonicalURL} />
@@ -130,6 +138,17 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 					localStorage.setItem("tracker:theme", next ? "dark" : "light");
 				});
 			})();
+		</script>
+		<script is:inline>
+			// After load, not blocking — registering the worker is what makes
+			// the PWA installable and gives "shows last-known data offline"
+			// (see public/sw.js), but it shouldn't compete with the page's own
+			// resources for priority on first paint.
+			if ("serviceWorker" in navigator) {
+				window.addEventListener("load", function () {
+					navigator.serviceWorker.register("/tracker/sw.js", { scope: "/tracker/" });
+				});
+			}
 		</script>
 	</body>
 </html>

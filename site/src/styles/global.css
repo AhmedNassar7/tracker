@@ -4,3 +4,20 @@
    dark variant — a `dark` class on <html> (set by the anti-FOUC script in
    Layout.astro) lets a user override the OS preference. */
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* Bookmark "pop" micro-interaction (BookmarkButton.tsx) — applied only via
+   the motion-safe: variant, so prefers-reduced-motion users never see it. */
+@theme {
+  --animate-pop: pop 0.3s ease-out;
+}
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.35);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

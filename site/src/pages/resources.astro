@@ -61,7 +61,7 @@ const totalCount = RESOURCE_CATEGORIES.reduce((n, c) => n + c.items.length, 0);
 						<ul class="mt-3 grid gap-3 sm:grid-cols-2">
 							{category.items.map((item) => (
 								<li
-									class="resource-card rounded-md border border-slate-200 p-3 dark:border-slate-800"
+									class="resource-card rounded-md border border-slate-200 p-3 transition-[transform,box-shadow] motion-safe:hover:-translate-y-0.5 hover:shadow-sm dark:border-slate-800"
 									data-search={`${item.name} ${item.description}`.toLowerCase()}
 								>
 									<a

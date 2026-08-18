@@ -1,0 +1,11 @@
+{
+  "name": "tracker — job, hackathon & event tracker",
+  "short_name": "tracker",
+  "description": "Software engineering jobs, internships, hackathons, and events, merged hourly from 15+ sources with no signup.",
+  "start_url": "/tracker/",
+  "scope": "/tracker/",
+  "display": "standalone",
+  "theme_color": "#0f766e",
+  "background_color": "#ffffff",
+  "icons": [{ "src": "/tracker/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
