@@ -1,9 +1,10 @@
 """Shared HTTP + concurrency helpers used by both collector layers
-(fetch.py, public_sources.py, fetch_outputs.py).
+(fetch.py, public_sources.py, fetch_outputs.py, public_outputs.py).
 """
 
 import concurrent.futures
 import math
+import re
 import time
 import traceback
 import urllib.error
@@ -89,3 +90,92 @@ def run_and_collect(fn, arg_tuples, log_error, max_workers=10, label=None):
         else:
             combined += result
     return combined
+
+
+# Google Careers is a client-rendered SPA: an expired/removed job id still
+# returns HTTP 200 with the generic "Jobs search" shell instead of a 404, so
+# a status-code check alone can never catch it dead (unlike the Pinterest
+# case in check_url_alive's docstring, where the eventual GET at least
+# returns the right code). The one server-rendered difference is the
+# og:title meta tag — populated with the real job title on a live posting,
+# left empty on an expired one. Confirmed by hand against several live vs.
+# expired postings; only add another entry here once a new source's
+# soft-404 shape is confirmed the same way, not on suspicion.
+_GOOGLE_CAREERS_RESULT_RE = re.compile(
+    r"^https?://(?:www\.)?google\.com/about/careers/applications/jobs/results/"
+)
+_GOOGLE_CAREERS_DEAD_MARKER = '<meta property="og:title" content="">'
+# The marker sits ~980KB into a ~1.3MB document; capped read keeps this
+# bounded instead of downloading the whole page every time.
+_SOFT_404_BODY_CAP = 1_200_000
+
+
+def _is_google_careers_result(url):
+    return bool(_GOOGLE_CAREERS_RESULT_RE.match(url))
+
+
+def check_url_alive(url, timeout=8):
+    """Best-effort liveness check for a posting's apply link. Shared by both
+    collector layers — originally curated-only (fetch.py), now also used by
+    the public layer (public_outputs.py), since a Greenhouse/Lever/Workday/
+    Ashby/SmartRecruiters/Devpost/Unstop/Devfolio/Luma link can go dead
+    exactly the same way a curated one can.
+
+    Only a 404/410 confirmed by a GET counts as dead — a HEAD-only 404 is
+    not trusted on its own, since some ATS pages (observed on Pinterest's
+    careers site) mishandle HEAD and 404 it while the page is genuinely
+    live on GET. Anything else (403 bot-blocking, 429 rate limits,
+    timeouts, DNS hiccups) is treated as "can't tell, assume alive" so a
+    flaky check never wrongly archives a live posting.
+
+    Google Careers result pages are a separate case: they always return
+    200, live or expired, so this skips the HEAD short-circuit for them and
+    reads the GET body far enough to check the og:title marker described
+    above — still "can't tell, assume alive" if the marker isn't found.
+    """
+    if not url:
+        return True
+    needs_body_check = _is_google_careers_result(url)
+    methods = ("GET",) if needs_body_check else ("HEAD", "GET")
+    for method in methods:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"}, method=method)
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                if needs_body_check:
+                    body = response.read(_SOFT_404_BODY_CAP).decode("utf-8", errors="replace")
+                    return _GOOGLE_CAREERS_DEAD_MARKER not in body
+                return response.status < 400
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):
+                if method == "HEAD":
+                    continue  # unreliable on some servers; confirm with a GET before trusting it
+                return False  # GET also says gone -> genuinely dead
+            if e.code == 405 and method == "HEAD":
+                continue  # some ATS boards reject HEAD entirely; retry with GET
+            return True
+        except Exception:
+            return True
+    return True
+
+
+def find_dead_links(rows, timeout=8):
+    """Return the subset of rows whose apply URL is definitively dead.
+
+    This is a project-level audit helper for checking an exported dataset. It
+    intentionally mirrors the production liveness policy: only a confirmed GET
+    404/410 is treated as dead; everything else is treated as "can't tell" and
+    therefore remains alive.
+    """
+    dead = []
+    for row in rows:
+        url = (row or {}).get("url")
+        if not url:
+            continue
+        if not check_url_alive(url, timeout=timeout):
+            dead.append({
+                "company": row.get("company", ""),
+                "title": row.get("title", ""),
+                "url": url,
+                "source": row.get("source", ""),
+            })
+    return dead

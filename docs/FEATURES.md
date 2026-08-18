@@ -41,9 +41,9 @@ flowchart LR
 
 ## Dead-link detection and archiving
 
-**Purpose:** Keep the published job list free of postings whose apply link is actually gone, without wrongly archiving live postings just because a server mishandled one HTTP verb.
+**Purpose:** Keep the published list free of postings whose link is actually gone, without wrongly archiving/dropping live postings just because a server mishandled one HTTP verb.
 
-**Where it lives:** `check_url_alive()` in [scripts/fetch.py](../scripts/fetch.py); the archiving logic in `write_fetch_outputs()` in [scripts/fetch_outputs.py](../scripts/fetch_outputs.py).
+**Where it lives:** `check_url_alive()` in [scripts/net.py](../scripts/net.py), shared by both collector layers. The curated layer's archiving logic is in `write_fetch_outputs()` in [scripts/fetch_outputs.py](../scripts/fetch_outputs.py) (archives to `jobs-global-archive.json` with `closed_at`); the public layer's is in `write_public_outputs()` in [scripts/public_outputs.py](../scripts/public_outputs.py) (drops the row outright — no archive file exists for that layer).
 
 **How it works:** For each URL, `check_url_alive` tries `HEAD` first; a `HEAD` 404/410/405 is *not* trusted on its own (observed live on Pinterest's careers site) — it retries with `GET` before declaring the link dead. Anything else (403 bot-block, timeout, DNS error) is treated as "can't tell, assume alive." Separately, a posting present in the previous run but missing from this run's fresh fetch (rolled off the source, not necessarily dead-linked) is also archived. A posting that reappears active later has its stale archive entry dropped automatically.
 

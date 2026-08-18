@@ -1,14 +1,21 @@
-# Companies for the Ashby and SmartRecruiters public job-board APIs.
+# Companies for the Ashby, SmartRecruiters, and hand-seeded Greenhouse/Lever
+# public job-board APIs.
 #
-# Unlike Greenhouse/Lever (auto-discovered from URLs already present in the
-# fetched data), these two platforms have no discovery mechanism, so their
-# companies are curated here by hand.
+# Ashby and SmartRecruiters have no discovery mechanism, so their companies
+# are always curated here by hand. Greenhouse and Lever normally auto-discover
+# a company's board the first time one of its postings shows up in another
+# curated source — the greenhouse:/lever: sections below are the manual
+# escape hatch for a company that never happens to appear that way (e.g. a
+# MENA-region company none of the mostly US/EU-focused curated sources ever
+# mention), even though its board is sitting right there, publicly pollable.
 #
 # To add a company, add one line under the right section with its board
 # token/company identifier, then verify it works by opening the API URL
 # directly in a browser before opening a pull request:
 #   Ashby:            https://api.ashbyhq.com/posting-api/job-board/<token>
 #   SmartRecruiters:   https://api.smartrecruiters.com/v1/companies/<token>/postings
+#   Greenhouse:        https://boards-api.greenhouse.io/v1/boards/<token>/jobs
+#   Lever:             https://api.lever.co/v0/postings/<token>?mode=json
 # No Python changes are needed — scripts/public_sources.py reads this file automatically.
 
 ashby:
@@ -26,7 +33,13 @@ ashby:
   - cohere
   - openai
   - clickhouse
+  - thndr  # Cairo, Egypt fintech — verified live 2026-08-18, real Cairo-office postings
 
 smartrecruiters:
   - Visa
   - Wise
+
+greenhouse:
+  - careem  # Dubai, UAE super-app (Uber-owned) — verified live 2026-08-18, 231 real postings incl. Dubai/UAE
+
+lever:

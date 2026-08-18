@@ -40,7 +40,7 @@ from patterns import (
 )
 from simplify_jobs_parser import format_location_display
 from public_outputs import write_public_outputs
-from net import fetch_with_retry, run_and_collect
+from net import check_url_alive, fetch_with_retry, run_and_collect
 
 
 ROOT = Path(__file__).parent.parent
@@ -501,15 +501,25 @@ def fetch_workday_jobs(host, site, company_name, max_pages=5, max_location_looku
 
 
 def load_extra_job_boards():
-    """Load Ashby/SmartRecruiters company tokens from config/extra_job_boards.yml.
+    """Load Ashby/SmartRecruiters/hand-seeded-Greenhouse/hand-seeded-Lever
+    company tokens from config/extra_job_boards.yml.
 
-    These platforms can't be auto-discovered from existing job URLs the way
-    Greenhouse/Lever tokens can, so they're curated by hand in that file.
+    Ashby and SmartRecruiters have no discovery mechanism at all, so they're
+    always curated by hand. Greenhouse/Lever normally auto-discover a
+    company's board the first time one of its postings surfaces through an
+    existing curated fetcher (see discover_job_board_sources) — but a
+    company that never happens to appear that way (e.g. a MENA-region
+    company none of the ~17 curated sources, mostly US/EU-focused, ever
+    mention) stays invisible indefinitely even when its board is sitting
+    right there, publicly pollable. These two sections are the manual
+    escape hatch for exactly that case — verified live before adding, same
+    discipline as Ashby tokens (curl the board URL and confirm real
+    postings, not just a 200).
     Parsed with simple line matching (no YAML dependency), same approach as
     the company allowlist loader in fetch.py.
     """
     path = ROOT / "config" / "extra_job_boards.yml"
-    boards = {"ashby": [], "smartrecruiters": []}
+    boards = {"ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": []}
     if not path.exists():
         return boards
     section = None
@@ -829,7 +839,15 @@ def dedupe(rows):
 
 
 def write_outputs(rows):
-    write_public_outputs(rows, data_out=DATA_OUT, now_iso=NOW_ISO, sort_key=sort_key, log_info=log_info, log_error=log_error)
+    write_public_outputs(
+        rows,
+        data_out=DATA_OUT,
+        now_iso=NOW_ISO,
+        sort_key=sort_key,
+        log_info=log_info,
+        log_error=log_error,
+        check_url_alive=check_url_alive,
+    )
 
 def main():
     log_info("=" * 70)
@@ -840,9 +858,22 @@ def main():
     seed_jobs = load_seed_jobs()
     greenhouse, lever, workday = discover_job_board_sources(seed_jobs)
 
+    # Hand-curated Greenhouse/Lever tokens (config/extra_job_boards.yml) merge
+    # in here, before the fetch calls below — these are boards that would
+    # never get auto-discovered above because the company they belong to
+    # never happens to appear in any of the other curated sources (see
+    # load_extra_job_boards' docstring). setdefault so an auto-discovered
+    # entry (a real company name from an actual fetched row) always wins
+    # over the config fallback's title-cased guess at the same token.
+    extra_boards = load_extra_job_boards()
+    for token in extra_boards["greenhouse"]:
+        greenhouse.setdefault(token, token.replace("-", " ").title())
+    for token in extra_boards["lever"]:
+        lever.setdefault(token, token.replace("-", " ").title())
+
     log_info(
         f"Discovered {len(greenhouse)} Greenhouse boards, {len(lever)} Lever boards, "
-        f"and {len(workday)} Workday hosts from existing jobs"
+        f"and {len(workday)} Workday hosts from existing jobs + hand-curated config"
     )
 
     rows.extend(fetch_devpost_hackathons())
@@ -865,7 +896,6 @@ def main():
         fetch_lever_jobs, sorted(lever.items()), max_workers=SHARED_HOST_WORKERS,
     ))
 
-    extra_boards = load_extra_job_boards()
     log_info(
         f"Loaded {len(extra_boards['ashby'])} Ashby boards and "
         f"{len(extra_boards['smartrecruiters'])} SmartRecruiters boards from config"

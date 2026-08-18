@@ -33,6 +33,16 @@ def check(name, condition, details=""):
 
 def main():
     fetch = load_fetch_module()
+    # check_url_alive/find_dead_links now live in net.py (shared by both
+    # collector layers), imported into fetch's namespace via
+    # `from net import ...`. find_dead_links' own internal call to
+    # check_url_alive resolves against net.py's globals, not fetch's — so
+    # patching fetch.check_url_alive (as the tests below do for the
+    # standalone check_url_alive tests) would NOT intercept that internal
+    # call. This import, already on sys.path from fetch.py's own
+    # sys.path.insert above, gets the same cached net module fetch.py
+    # itself imported, so patching net.check_url_alive here reaches it.
+    import net
     fetch.log_info = lambda *_args, **_kwargs: None
     fetch.log_warn = lambda *_args, **_kwargs: None
     fetch.log_error = lambda *_args, **_kwargs: None
@@ -147,7 +157,7 @@ def main():
             fetch.check_url_alive(_google_url) is False,
         ))
 
-    with patch.object(fetch, "check_url_alive", side_effect=[False, True]):
+    with patch.object(net, "check_url_alive", side_effect=[False, True]):
         run("find_dead_links flags only definitive 404/410 links", lambda: check(
             "find_dead_links flags only definitive 404/410 links",
             {item["url"] for item in fetch.find_dead_links([

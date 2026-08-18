@@ -359,7 +359,8 @@ def main():
         config_dir = Path(tmp) / "config"
         config_dir.mkdir()
         (config_dir / "extra_job_boards.yml").write_text(
-            "ashby:\n  - notion\n  - linear\n\nsmartrecruiters:\n  - Visa\n",
+            "ashby:\n  - notion\n  - linear\n\nsmartrecruiters:\n  - Visa\n\n"
+            "greenhouse:\n  - careem\n\nlever:\n  - somecompany\n",
             encoding="utf-8",
         )
         with patch.object(mod, "ROOT", Path(tmp)):
@@ -369,11 +370,20 @@ def main():
             boards["ashby"] == ["notion", "linear"]
             and boards["smartrecruiters"] == ["Visa"],
         ))
+        run("load extra job boards config includes hand-seeded greenhouse/lever", lambda: check(
+            "greenhouse/lever sections parsed",
+            boards["greenhouse"] == ["careem"] and boards["lever"] == ["somecompany"],
+        ))
 
     with tempfile.TemporaryDirectory() as tmp:
         out_dir = Path(tmp)
         rows = gh_rows + devpost_rows + luma_rows
-        with patch.object(mod, "DATA_OUT", out_dir), patch.object(mod, "NOW_ISO", "2026-01-02T00:00:00Z"), patch.object(mod, "TODAY", "2026-01-02"):
+        with (
+            patch.object(mod, "DATA_OUT", out_dir),
+            patch.object(mod, "NOW_ISO", "2026-01-02T00:00:00Z"),
+            patch.object(mod, "TODAY", "2026-01-02"),
+            patch.object(mod, "check_url_alive", return_value=True),
+        ):
             mod.write_outputs(rows)
         payload = json.loads((out_dir / "public-opportunities.json").read_text(encoding="utf-8"))
         run("write public opportunities outputs", lambda: check(
@@ -383,6 +393,29 @@ def main():
             and payload["hackathons"]
             and payload["events"]
             and "feeds" not in payload,
+        ))
+
+    # This layer never ran a liveness check on its links at all before —
+    # every published job/hackathon/event came straight from the source
+    # with no verification. Confirm the wiring actually drops a
+    # confirmed-dead row and keeps a confirmed-live one, the same policy
+    # the curated layer already applies.
+    with tempfile.TemporaryDirectory() as tmp:
+        out_dir = Path(tmp)
+        dead_row = {**gh_rows[0], "id": "ffffffffffffffff", "url": "https://example.com/dead-job"}
+        live_row = {**gh_rows[0], "id": "1111111111111111", "url": "https://example.com/live-job"}
+        with (
+            patch.object(mod, "DATA_OUT", out_dir),
+            patch.object(mod, "NOW_ISO", "2026-01-02T00:00:00Z"),
+            patch.object(mod, "TODAY", "2026-01-02"),
+            patch.object(mod, "check_url_alive", side_effect=lambda url: url != "https://example.com/dead-job"),
+        ):
+            mod.write_outputs([dead_row, live_row])
+        payload = json.loads((out_dir / "public-opportunities.json").read_text(encoding="utf-8"))
+        published_urls = {job["url"] for job in payload["jobs"]}
+        run("write_outputs drops a confirmed-dead public-layer link before publishing", lambda: check(
+            "dead link dropped, live link kept",
+            published_urls == {"https://example.com/live-job"},
         ))
 
     print(color(f"✅ ALL PASSED: {total} checks", GREEN))

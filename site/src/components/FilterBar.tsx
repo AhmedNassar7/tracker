@@ -55,9 +55,14 @@ interface Props {
   filters: FilterState;
   onChange: (next: FilterState) => void;
   resultCount: number;
+  // Country has no fixed enum (unlike level/region/remote) — it's whatever
+  // countries actually appear in the loaded data, computed by the caller
+  // from the real dataset. This dropdown only ever offers values that
+  // exist right now, so it can never invent a country with zero postings.
+  availableCountries: string[];
 }
 
-export default function FilterBar({ filters, onChange, resultCount }: Props) {
+export default function FilterBar({ filters, onChange, resultCount, availableCountries }: Props) {
   const set = <K extends keyof FilterState>(key: K, value: FilterState[K]) => {
     onChange({ ...filters, [key]: value });
   };
@@ -134,6 +139,22 @@ export default function FilterBar({ filters, onChange, resultCount }: Props) {
             </option>
           ))}
         </select>
+
+        {availableCountries.length > 0 && (
+          <select
+            value={filters.country}
+            onChange={(e) => set("country", e.target.value)}
+            aria-label="Filter by country"
+            className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
+          >
+            <option value="">Any country</option>
+            {availableCountries.map((country) => (
+              <option key={country} value={country}>
+                {country}
+              </option>
+            ))}
+          </select>
+        )}
 
         {hasActiveFilters(filters) && (
           <button

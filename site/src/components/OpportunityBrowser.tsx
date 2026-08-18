@@ -175,6 +175,19 @@ export default function OpportunityBrowser() {
     return showOnlyNew ? filtered.filter((item) => newIds.has(item.id)) : filtered;
   }, [state, filters, showOnlyNew, newIds]);
 
+  // Country has no fixed enum (curated-layer only, free-form per
+  // job-entry.schema.json) — the filter dropdown is populated from
+  // whatever countries actually exist in the loaded data, so it always
+  // reflects real coverage and never lists a country with zero postings.
+  const availableCountries = useMemo(() => {
+    if (state.status !== "loaded") return [];
+    const countries = new Set<string>();
+    for (const item of state.data.items) {
+      if (item.country) countries.add(item.country);
+    }
+    return [...countries].sort((a, b) => a.localeCompare(b));
+  }, [state]);
+
   if (state.status === "loading") {
     return <SkeletonTable label="Loading opportunities…" />;
   }
@@ -242,7 +255,12 @@ export default function OpportunityBrowser() {
         </div>
       )}
 
-      <FilterBar filters={filters} onChange={setFilters} resultCount={filteredItems.length} />
+      <FilterBar
+        filters={filters}
+        onChange={setFilters}
+        resultCount={filteredItems.length}
+        availableCountries={availableCountries}
+      />
 
       {filteredItems.length === 0 ? (
         <p className="py-10 text-center text-slate-500 dark:text-slate-400">No results match these filters.</p>
