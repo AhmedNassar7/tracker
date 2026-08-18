@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T08:53:23Z",
-  "count": 1421,
-  "checksum": "sha256:95245c7f6da0f162d053d100aa29e966cb9a4baec1f8ff9607523399074a56ad",
+  "generated_at": "2026-08-18T09:46:22Z",
+  "count": 1422,
+  "checksum": "sha256:7409e5e1316a80af7a81969eee459c8bf7ba86c449341ebde7a3e9d2067ba3d8",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -726,25 +726,6 @@
       "country": "Poland"
     },
     {
-      "id": "36a558da58240319",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "location": "United States",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "age": "0d",
-      "posted_at": "2026-08-18",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "cc7a168906373af1",
       "kind": "job",
       "origin": "curated",
@@ -1175,6 +1156,63 @@
       "age": "0d",
       "posted_at": "2026-08-10",
       "level": "new_grad",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "49ab68c4e0bc4f6a",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Infra...",
+      "location": "New York, NY",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
+      "age": "0d",
+      "posted_at": "2026-08-18",
+      "level": "internship",
+      "region": "us",
+      "role_type": "infrastructure",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "370eb61e0e3295cd",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Infra...",
+      "location": "Palo Alto, CA",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4",
+      "age": "0d",
+      "posted_at": "2026-08-18",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "Unknown"
+    },
+    {
+      "id": "c11a7704129b8b60",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "location": "Seattle, WA",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
+      "age": "0d",
+      "posted_at": "2026-08-18",
+      "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
       "category": "product_saas",
@@ -2664,25 +2702,6 @@
       "country": "United States"
     },
     {
-      "id": "d39caadda70c376a",
-      "kind": "job",
-      "origin": "curated",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - AI Platform",
-      "location": "San Jose, CA",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "url": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify",
-      "age": "13d",
-      "posted_at": "2026-08-17",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "platform",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "5d1ecca6b6113aa7",
       "kind": "job",
       "origin": "curated",
@@ -2702,39 +2721,20 @@
       "country": "Canada"
     },
     {
-      "id": "37125469539dbe4d",
+      "id": "d39caadda70c376a",
       "kind": "job",
       "origin": "curated",
       "company": "ByteDance",
-      "title": "Software Engineer Intern - AI Infra Compute 🎓",
-      "location": "Seattle, WA",
+      "title": "Software Engineer Intern - AI Platform",
+      "location": "San Jose, CA",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "url": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify",
-      "age": "14d",
+      "url": "https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify",
+      "age": "13d",
       "posted_at": "2026-08-17",
       "level": "internship",
-      "region": "us",
-      "role_type": "infrastructure",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "c5e489e11daa11be",
-      "kind": "job",
-      "origin": "curated",
-      "company": "ByteDance",
-      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
-      "location": "Seattle, WA",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
-      "age": "7d",
-      "posted_at": "2026-08-10",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "infrastructure",
+      "region": "unknown",
+      "role_type": "platform",
       "category": "apac_tech",
       "remote_type": "onsite",
       "country": "United States"
@@ -2774,6 +2774,44 @@
       "region": "unknown",
       "role_type": "software_engineer",
       "category": "more_global_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "37125469539dbe4d",
+      "kind": "job",
+      "origin": "curated",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AI Infra Compute 🎓",
+      "location": "Seattle, WA",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "url": "https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify",
+      "age": "14d",
+      "posted_at": "2026-08-17",
+      "level": "internship",
+      "region": "us",
+      "role_type": "infrastructure",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "c5e489e11daa11be",
+      "kind": "job",
+      "origin": "curated",
+      "company": "ByteDance",
+      "title": "Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling",
+      "location": "Seattle, WA",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "url": "https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify",
+      "age": "7d",
+      "posted_at": "2026-08-10",
+      "level": "new_grad",
+      "region": "us",
+      "role_type": "infrastructure",
+      "category": "apac_tech",
       "remote_type": "onsite",
       "country": "United States"
     },
@@ -2831,25 +2869,6 @@
       "region": "emea",
       "role_type": "infrastructure",
       "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United Kingdom"
-    },
-    {
-      "id": "becefb85046fc9c8",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - .NET Backend",
-      "location": "London, UK",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "age": "11d",
-      "posted_at": "2026-08-10",
-      "level": "junior",
-      "region": "emea",
-      "role_type": "backend",
-      "category": "apac_tech",
       "remote_type": "onsite",
       "country": "United Kingdom"
     },
@@ -2966,6 +2985,25 @@
       "category": "cloud_infra",
       "remote_type": "onsite",
       "country": "Canada"
+    },
+    {
+      "id": "becefb85046fc9c8",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Trainline",
+      "title": "Junior .NET Engineer - .NET Backend",
+      "location": "London, UK",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "url": "https://jobs.ashbyhq.com/trainline/20a8a318-136e-44c7-844d-7d305e416671/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "age": "11d",
+      "posted_at": "2026-08-10",
+      "level": "junior",
+      "region": "emea",
+      "role_type": "backend",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United Kingdom"
     },
     {
       "id": "f3057b97b9c319f6",
@@ -3120,25 +3158,6 @@
       "country": "Canada"
     },
     {
-      "id": "e3eeae369030798f",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
-      "age": "13d",
-      "posted_at": "2026-07-28",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "backend",
-      "category": "more_global_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "ef35692e10223a42",
       "kind": "job",
       "origin": "curated",
@@ -3156,6 +3175,25 @@
       "category": "more_global_tech",
       "remote_type": "onsite",
       "country": "Canada"
+    },
+    {
+      "id": "e3eeae369030798f",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "age": "13d",
+      "posted_at": "2026-07-28",
+      "level": "mid_level",
+      "region": "us",
+      "role_type": "backend",
+      "category": "more_global_tech",
+      "remote_type": "onsite",
+      "country": "United States"
     },
     {
       "id": "5c234e2e6c85b5c9",
@@ -4144,6 +4182,22 @@
       "category": "ride_delivery",
       "remote_type": "onsite",
       "country": "United States"
+    },
+    {
+      "id": "ccd3dd1ebacead90",
+      "kind": "job",
+      "origin": "public",
+      "company": "Figma",
+      "title": "Software Engineer - AI Product (London, United Kingdom)",
+      "location": "London, England",
+      "source": "greenhouse:figma",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+      "url": "https://boards.greenhouse.io/figma/jobs/5551697004?gh_jid=5551697004",
+      "age": "0d",
+      "posted_at": "2026-08-18",
+      "level": "other",
+      "region": "emea",
+      "role_type": "software_engineer"
     },
     {
       "id": "acb1bcafb7a2f6a0",
@@ -5362,6 +5416,22 @@
       "role_type": "platform"
     },
     {
+      "id": "bfb1141b80e4b771",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer - GPU Performance at Scale",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, NC, Remote<br>US, TX, Remote<br>US, Remote<br>US, CA, Remote</details>",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987",
+      "age": "2d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
+      "role_type": "software_engineer"
+    },
+    {
       "id": "bc7c7b9957619719",
       "kind": "job",
       "origin": "public",
@@ -5582,22 +5652,6 @@
       "age": "4d",
       "posted_at": "2026-08-14",
       "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "78809453ebb33816",
-      "kind": "job",
-      "origin": "public",
-      "company": "Wise",
-      "title": "Senior Software Engineer II- Regional Expansion",
-      "location": "London, United Kingdom",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000143607001",
-      "age": "4d",
-      "posted_at": "2026-08-14",
-      "level": "mid_level",
       "region": "emea",
       "role_type": "software_engineer"
     },
@@ -6242,22 +6296,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "ccd3dd1ebacead90",
-      "kind": "job",
-      "origin": "public",
-      "company": "Figma",
-      "title": "Software Engineer - AI Product (London, United Kingdom)",
-      "location": "London, England",
-      "source": "greenhouse:figma",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
-      "url": "https://boards.greenhouse.io/figma/jobs/5551697004?gh_jid=5551697004",
-      "age": "7d",
-      "posted_at": "2026-08-11",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "e2ab2278cf330965",
       "kind": "job",
       "origin": "public",
@@ -6864,6 +6902,22 @@
       "level": "other",
       "region": "unknown",
       "role_type": "infrastructure"
+    },
+    {
+      "id": "15d7b3d2f233bbff",
+      "kind": "job",
+      "origin": "public",
+      "company": "Wise",
+      "title": "Senior iOS Engineer II",
+      "location": "London, England, United Kingdom",
+      "source": "smartrecruiters:Wise",
+      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100",
+      "url": "https://jobs.smartrecruiters.com/Wise/744000142620849",
+      "age": "8d",
+      "posted_at": "2026-08-10",
+      "level": "mid_level",
+      "region": "emea",
+      "role_type": "mobile"
     },
     {
       "id": "4537f1a507d1dc0b",
@@ -20219,7 +20273,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://inspire-hackathon.devpost.com/",
-      "age": "about 14 hours left",
+      "age": "about 11 hours left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20323,7 +20377,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/build-with-bharat-30-chitkara-university-cu-himachal-pradesh-1722484",
-      "age": "35 days left",
+      "age": "34 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -20375,7 +20429,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://cockroachdb-ai.devpost.com/",
-      "age": "about 12 hours left",
+      "age": "about 11 hours left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21064,7 +21118,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://revengershack.devfolio.co",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21168,7 +21222,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://volthacks.devpost.com/",
-      "age": "19 days left",
+      "age": "18 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21276,19 +21330,6 @@
       "posted_at": "2026-08-18"
     },
     {
-      "id": "e05011afa745f5ba",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Galuxium",
-      "title": "Galuxium Nexus V2",
-      "location": "Online",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://galuxium-nexus-v2-29411.devpost.com/",
-      "age": "13 days left",
-      "posted_at": "2026-08-18"
-    },
-    {
       "id": "47c9d117bbe35275",
       "kind": "hackathon",
       "origin": "public",
@@ -21324,7 +21365,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21376,7 +21417,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://agentic-cinema.devpost.com/",
-      "age": "23 days left",
+      "age": "22 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21415,7 +21456,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://prismbuild.devpost.com/",
-      "age": "about 13 hours left",
+      "age": "about 11 hours left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21519,7 +21560,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hacksocial2026.devpost.com/",
-      "age": "14 days left",
+      "age": "13 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21922,7 +21963,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://create-with-gemini.devpost.com/",
-      "age": "8 days left",
+      "age": "7 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -21961,7 +22002,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/build-with-bharat-40-national-institute-of-technology-nit-delhi-1719203",
-      "age": "27 days left",
+      "age": "26 days left",
       "posted_at": "2026-08-18"
     },
     {
@@ -22160,6 +22201,19 @@
       "posted_at": "2026-08-18"
     },
     {
+      "id": "7b5dcf8737ee855e",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Prometheus CS",
+      "title": "Prometheus August AI Challenge",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://august-ai-challenge-31059.devpost.com/",
+      "age": "12 days left",
+      "posted_at": "2026-08-18"
+    },
+    {
       "id": "83e75100b80fbb48",
       "kind": "hackathon",
       "origin": "public",
@@ -22273,7 +22327,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://win4aisafety-sain-utrecht.devpost.com/",
-      "age": "about 8 hours left",
+      "age": "about 2 hours left",
       "posted_at": "2026-08-18"
     },
     {
@@ -22719,19 +22773,6 @@
       "posted_at": "2026-08-18"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "origin": "public",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "source": "luma",
-      "source_url": "https://luma.com/discover",
-      "url": "https://lu.ma/DC2?k=c",
-      "age": "",
-      "posted_at": "2026-08-18"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "origin": "public",
@@ -22741,19 +22782,6 @@
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "url": "https://lu.ma/deepmind?k=c",
-      "age": "",
-      "posted_at": "2026-08-18"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "origin": "public",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "source": "luma",
-      "source_url": "https://luma.com/discover",
-      "url": "https://lu.ma/stationdc?k=c",
       "age": "",
       "posted_at": "2026-08-18"
     }
