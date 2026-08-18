@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PersonalDashboard from "../components/PersonalDashboard";
+import GlobalDashboard from "../components/GlobalDashboard";
+---
+
+<Layout
+	title="Dashboard — tracker"
+	description="Your application funnel, plus a live overview of every job, hackathon, and event tracker currently tracks — region mix, level mix, and top sources."
+>
+	<div class="mx-auto max-w-3xl space-y-10">
+		<section>
+			<h1 class="text-2xl font-semibold">Your funnel</h1>
+			<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
+				Built from the applications you've tracked — stored on this device only.
+			</p>
+			<div class="mt-4">
+				<PersonalDashboard client:load />
+			</div>
+		</section>
+
+		<section>
+			<h2 class="text-2xl font-semibold">tracker overview</h2>
+			<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
+				A live snapshot of everything currently published, refreshed hourly.
+			</p>
+			<div class="mt-4">
+				<GlobalDashboard client:load />
+			</div>
+		</section>
+	</div>
+</Layout>

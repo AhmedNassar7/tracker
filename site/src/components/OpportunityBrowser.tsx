@@ -121,8 +121,10 @@ export default function OpportunityBrowser() {
         company: item.company,
         title: item.title,
         url: item.url,
+        level: item.level,
         status: "bookmarked",
         notes: "",
+        statusHistory: [{ status: "bookmarked", at: now }],
         addedAt: now,
         updatedAt: now,
       };

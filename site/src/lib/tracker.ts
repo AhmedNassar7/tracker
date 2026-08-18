@@ -27,14 +27,31 @@ export const STATUS_LABELS: Record<ApplicationStatus, string> = {
   rejected: "Rejected",
 };
 
+export interface StatusChange {
+  status: ApplicationStatus;
+  at: string;
+}
+
 export interface TrackedApplication {
   id: string;
   kind: SiteIndexKind;
   company: string;
   title: string;
   url: string;
+  // Captured at track time from the listing's own level field (jobs only —
+  // absent for hackathons/events, same "absent, not guessed" convention the
+  // site-index schema already uses). Kept even if the source listing later
+  // expires, so the personal dashboard's breakdown stays meaningful for
+  // applications whose original posting is long gone.
+  level?: string;
   status: ApplicationStatus;
   notes: string;
+  // Every status transition, oldest first — what makes real elapsed-time
+  // stats (e.g. "median days from applied to interview") possible without
+  // fabricating them. Absent on records written before this field existed;
+  // callers treat that the same as an empty array rather than migrating
+  // old data, since there's nothing to backfill it from.
+  statusHistory: StatusChange[];
   addedAt: string;
   updatedAt: string;
 }
@@ -80,7 +97,7 @@ export async function listApplications(): Promise<TrackedApplication[]> {
   return Object.values(map).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
-type TrackableEntry = Pick<SiteIndexEntry, "id" | "kind" | "company" | "title" | "url">;
+type TrackableEntry = Pick<SiteIndexEntry, "id" | "kind" | "company" | "title" | "url" | "level">;
 
 export function trackApplication(entry: TrackableEntry): Promise<TrackedApplication> {
   return enqueueMutation((map) => {
@@ -91,8 +108,10 @@ export function trackApplication(entry: TrackableEntry): Promise<TrackedApplicat
       company: entry.company,
       title: entry.title,
       url: entry.url,
+      level: entry.level,
       status: "bookmarked",
       notes: "",
+      statusHistory: [{ status: "bookmarked", at: now }],
       addedAt: now,
       updatedAt: now,
     };
@@ -114,7 +133,16 @@ export function updateApplication(
   return enqueueMutation((map) => {
     const existing = map[id];
     if (!existing) return undefined;
-    const updated: TrackedApplication = { ...existing, ...patch, updatedAt: new Date().toISOString() };
+    const now = new Date().toISOString();
+    const statusChanged = patch.status !== undefined && patch.status !== existing.status;
+    const updated: TrackedApplication = {
+      ...existing,
+      ...patch,
+      statusHistory: statusChanged
+        ? [...existing.statusHistory, { status: patch.status as ApplicationStatus, at: now }]
+        : existing.statusHistory,
+      updatedAt: now,
+    };
     map[id] = updated;
     return updated;
   });
@@ -140,9 +168,19 @@ function csvField(value: string): string {
 const UTF8_BOM = String.fromCharCode(0xfeff);
 
 export function applicationsToCsv(applications: TrackedApplication[]): string {
-  const header = ["company", "title", "status", "kind", "url", "notes", "added_at", "updated_at"];
+  const header = ["company", "title", "status", "kind", "level", "url", "notes", "added_at", "updated_at"];
   const rows = applications.map((app) =>
-    [app.company, app.title, STATUS_LABELS[app.status], app.kind, app.url, app.notes, app.addedAt, app.updatedAt]
+    [
+      app.company,
+      app.title,
+      STATUS_LABELS[app.status],
+      app.kind,
+      app.level ?? "",
+      app.url,
+      app.notes,
+      app.addedAt,
+      app.updatedAt,
+    ]
       .map(csvField)
       .join(","),
   );
