@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Tue, 18 Aug 2026 16:51:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 17:46:16 GMT</lastBuildDate>
     <item>
       <title>AAA College of Engineering and Technology (AAACET), Sivakasi, Tamil Nadu — ZYRORA - 24-Hour National Level Inter-College Hackathon</title>
       <link>https://unstop.com/hackathons/zyrora-24-hour-national-level-inter-college-hackathon-aaa-college-of-engineering-and-technology-aaacet-sivaka-1734489</link>
@@ -121,7 +121,7 @@
       <title>Bug Zero Club — Inspire Hackathon</title>
       <link>https://inspire-hackathon.devpost.com/</link>
       <guid isPermaLink="false">2aa75d0cfe5e7d9a</guid>
-      <description>Online · about 4 hours left</description>
+      <description>Online · about 3 hours left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -205,7 +205,7 @@
       <title>Cockroach Labs — CockroachDB × AWS Hackathon - Build with Agentic Memory</title>
       <link>https://cockroachdb-ai.devpost.com/</link>
       <guid isPermaLink="false">f40c08d93295abf2</guid>
-      <description>Online · about 4 hours left</description>
+      <description>Online · about 3 hours left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -758,7 +758,7 @@
       <title>Hack Club — Prism Build Challenge</title>
       <link>https://prismbuild.devpost.com/</link>
       <guid isPermaLink="false">810ef27f81dc3b11</guid>
-      <description>Online · about 6 hours left</description>
+      <description>Online · about 3 hours left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -772,7 +772,7 @@
       <title>Hackathon Raptors — Zero Dependency | 72-Hour Hackathon</title>
       <link>https://unstop.com/hackathons/zero-dependency-72-hour-hackathon-hackathon-raptors-1733673</link>
       <guid isPermaLink="false">ef86f72cd2659eb4</guid>
-      <description>Online · 10 days left</description>
+      <description>Online · 9 days left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -864,6 +864,13 @@
       <link>https://unstop.com/hackathons/breaking-bot-ipec-inderprastha-engineering-college-ipec-ghaziabad-1708852</link>
       <guid isPermaLink="false">476dc87e791f7412</guid>
       <description>Offline · 42 days left</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Indian Education Society Management College &amp; Research, Mumbai — Hackathon 4.0</title>
+      <link>https://unstop.com/hackathons/hackathon-40-indian-education-society-management-college-research-mumbai-1739792</link>
+      <guid isPermaLink="false">15e491ef4d94e535</guid>
+      <description>Online · 13 days left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -989,7 +996,7 @@
       <title>Major League Hacking — Hack days in KGI</title>
       <link>https://hack-days-in-kgi.devpost.com/</link>
       <guid isPermaLink="false">2988cb7e3b47623d</guid>
-      <description>Hosur · about 21 hours left</description>
+      <description>Hosur · about 18 hours left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1010,14 +1017,14 @@
       <title>Malla Reddy (MR) Deemed University — Techfusion Hackathon</title>
       <link>https://unstop.com/hackathons/techfusion-hackathon-malla-reddy-mr-deemed-university-1726419</link>
       <guid isPermaLink="false">195b3eebb9625bf8</guid>
-      <description>Offline · 2 days left</description>
+      <description>Offline · last day</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Malla Reddy Deemed to Be University — Open Innovation Hackathon</title>
       <link>https://unstop.com/hackathons/open-innovation-hackathon-hakitxmrdu-malla-reddy-deemed-to-be-university-1725253</link>
       <guid isPermaLink="false">e3a9709e1d669e1e</guid>
-      <description>Offline · 2 days left</description>
+      <description>Offline · last day</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1157,7 +1164,7 @@
       <title>President University — COMPSPHERE 11</title>
       <link>https://compsphere11.devpost.com/</link>
       <guid isPermaLink="false">7e4670c921fd45be</guid>
-      <description>Online · about 1 month left</description>
+      <description>Online · 30 days left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1213,7 +1220,7 @@
       <title>ReverieHacks — Reverie Hacks 2026</title>
       <link>https://reverie-hacks-2026.devpost.com/</link>
       <guid isPermaLink="false">d1ad500a0b138171</guid>
-      <description>Online · 6 days left</description>
+      <description>Online · 5 days left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1312,13 +1319,6 @@
       <link>https://buuniex-hackathon.devpost.com/</link>
       <guid isPermaLink="false">ec498e66d3a7fca8</guid>
       <description>Online · 4 days left</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>TechNeekX — TNX Codathon</title>
-      <link>https://unstop.com/hackathons/tnx-codathon-techneekx-1701580</link>
-      <guid isPermaLink="false">c5509a39fbaf4939</guid>
-      <description>Offline · 6 days left</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
