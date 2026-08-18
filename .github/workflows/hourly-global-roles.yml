@@ -89,7 +89,7 @@ jobs:
             - Unstop hackathons
             - Devfolio hackathons
             - Luma discovery pages (tech/software-relevant only)
-            - Greenhouse public job boards (auto-discovered, plus 32 hand-seeded — see [config/extra_job_boards.yml](config/extra_job_boards.yml))
+            - Greenhouse public job boards (auto-discovered, plus 35 hand-seeded — see [config/extra_job_boards.yml](config/extra_job_boards.yml))
             - Lever public postings (auto-discovered, plus 4 hand-seeded — see [config/extra_job_boards.yml](config/extra_job_boards.yml))
             - Workday CXS job boards (auto-discovered)
             - Ashby public job boards ([config/extra_job_boards.yml](config/extra_job_boards.yml))

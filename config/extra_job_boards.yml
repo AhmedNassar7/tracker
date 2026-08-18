@@ -34,6 +34,7 @@ ashby:
   - openai
   - clickhouse
   - thndr  # Cairo, Egypt fintech — verified live 2026-08-18, real Cairo-office postings
+  - snowflake  # verified live 2026-08-18, real non-empty board (4.8MB, genuine postings)
 
 smartrecruiters:
   - Visa
@@ -78,6 +79,11 @@ greenhouse:
   - discord
   - duolingo
   - webflow
+  # Second verification pass, 2026-08-18: three companies that had transient
+  # connection failures in the first pass, retried and confirmed real.
+  - cloudflare
+  - spacex
+  - coinbase
 
 lever:
   # Same discipline: real Lever board confirmed live 2026-08-18 with actual
