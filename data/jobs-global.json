@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T17:38:56Z",
-  "total": 192,
+  "generated_at": "2026-08-19T18:52:06Z",
+  "total": 191,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -42,6 +42,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d2341865b609359c",
+      "company": "Amazon.com Services LLC - A57",
+      "title": "Data Engineer II - AMZ10414442",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "Unknown",
+      "location": "Dallas, TX",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10507174/data-engineer-ii-amz10414442",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T18:52:06Z",
       "tags": [
         "software",
         "programming",
@@ -877,6 +900,52 @@
       ]
     },
     {
+      "id": "846905b220430e03",
+      "company": "Garmin",
+      "title": "Software Engineer I - Embedded Software",
+      "level": "entry_level",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Olathe, KS",
+      "remote_type": "onsite",
+      "url": "https://careers.garmin.com/jobs/16827?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T18:52:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "47cdffcc83421c4d",
+      "company": "Garmin",
+      "title": "Software Engineer I, Aviation Web Development",
+      "level": "entry_level",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Chandler, AZ Olathe, KS",
+      "remote_type": "onsite",
+      "url": "https://careers.garmin.com/jobs/16774?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T18:52:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "1d7513e0b87b3185",
       "company": "Google",
       "title": "Security Engineer II, Hybrid Cloud Gu...",
@@ -1491,75 +1560,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "66bbf1e553376c7c",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Denver, CO",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T15:45:13Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b3126ca0917b76be",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T15:45:13Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "162a14da3a107f9f",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T15:45:13Z",
       "tags": [
         "software",
         "programming",
@@ -2188,29 +2188,6 @@
       ]
     },
     {
-      "id": "467edd19817158ae",
-      "company": "Zipline",
-      "title": "System Test Automation Intern (Summer...",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "South San Francisco, C...",
-      "remote_type": "onsite",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7886320003",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-18",
-      "age": "0d",
-      "collected_at": "2026-08-18T18:55:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "8930a40cfc88203b",
       "company": "Amazon Development Centre Canada ULC",
       "title": "Software Development Engineer II, Ama...",
@@ -2365,6 +2342,29 @@
       "posted_at": "2026-08-17",
       "age": "0d",
       "collected_at": "2026-08-17T22:39:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "467edd19817158ae",
+      "company": "Zipline",
+      "title": "System Test Automation Intern (Summer...",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "South San Francisco, C...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7886320003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T18:55:12Z",
       "tags": [
         "software",
         "programming",
@@ -2671,52 +2671,6 @@
       ]
     },
     {
-      "id": "d9aed6e4a169bea6",
-      "company": "ByteDance",
-      "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied Machine Learning Ark",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7672394389001816325/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-17",
-      "age": "5d",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "dbc54393c0f12516",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - AML-Engine-Orchestration",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7672386983965100341/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-17",
-      "age": "5d",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "b3aa804a2744134a",
       "company": "Epic Games",
       "title": "Machine Learning Intern",
@@ -2763,6 +2717,29 @@
       ]
     },
     {
+      "id": "d9aed6e4a169bea6",
+      "company": "ByteDance",
+      "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied Machine Learning Ark",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7672394389001816325/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-17",
+      "age": "5d",
+      "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "890929dcc79a8964",
       "company": "ByteDance",
       "title": "Machine Learning Engineer Intern",
@@ -2778,6 +2755,29 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-08-17",
       "age": "6d",
+      "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "dbc54393c0f12516",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AML-Engine-Orchestration",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7672386983965100341/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-17",
+      "age": "5d",
       "collected_at": "2026-08-17T15:38:02Z",
       "tags": [
         "software",
@@ -3492,29 +3492,6 @@
       "posted_at": "2026-07-28",
       "age": "17d",
       "collected_at": "2026-08-14T18:05:15Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "9b0e9b510a42c9e0",
-      "company": "Trainline",
-      "title": "Junior .NET Engineer - Backend",
-      "level": "junior",
-      "category": "apac_tech",
-      "region": "emea",
-      "role_type": "backend",
-      "country": "United Kingdom",
-      "location": "London, UK",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/trainline/68f597e9-60b3-482e-8d73-618d24b0bf8e/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "18d",
-      "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
         "programming",
