@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T04:50:45Z",
-  "total": 191,
+  "generated_at": "2026-08-19T05:45:39Z",
+  "total": 190,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -670,29 +670,6 @@
       ]
     },
     {
-      "id": "0e752fa3e5e45184",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern (Traffic Inf...",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7672626707586746629",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T03:10:13Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "b1f6a4e05d509c83",
       "company": "ByteDance",
       "title": "Software Engineer Intern, AI Platform 🛂",
@@ -773,11 +750,11 @@
       "location": "San Diego, California",
       "remote_type": "onsite",
       "url": "https://joinbytedance.com/search/7670354329765464373",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-08-19",
       "age": "0d",
-      "collected_at": "2026-08-19T01:51:48Z",
+      "collected_at": "2026-08-19T05:45:39Z",
       "tags": [
         "software",
         "programming",
