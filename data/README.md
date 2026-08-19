@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 2354 |
+| Jobs | 2362 |
 | Hackathons | 207 |
-| Events | 3 |
-| Total | 2564 |
+| Events | 5 |
+| Total | 2574 |
 
 ## Jobs
 
-[![Jobs 2354](https://img.shields.io/badge/Jobs-2354-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 109](https://img.shields.io/badge/Internship-109-22c55e.svg)](#internship) [![Early Career 105](https://img.shields.io/badge/Early%20Career-105-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2140](https://img.shields.io/badge/Mid--Level%20and%20Above-2140-dc2626.svg)](#mid-level-and-above)
+[![Jobs 2362](https://img.shields.io/badge/Jobs-2362-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 114](https://img.shields.io/badge/Internship-114-22c55e.svg)](#internship) [![Early Career 105](https://img.shields.io/badge/Early%20Career-105-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2143](https://img.shields.io/badge/Mid--Level%20and%20Above-2143-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 109
+Total roles: 114
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -72,6 +72,11 @@ Total roles: 109
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) | San Francisco, CA +1 | 0d |
 | Notion | [Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8) | San Francisco, CA +1 | 0d |
 | NVIDIA | [Software Engineering Intern, NCCL - 2026](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645) | <details><summary>2 locations</summary>China<br>Shanghai<br>China<br>Beijing</details> | 0d |
+| NVIDIA | [Software Engineering Intern, Test Automation — Autonomous Vehicles](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/Software-Engineering-Intern--Test-Automation---Autonomous-Vehicles_JR2023302) | Germany, Munich | 0d |
+| NVIDIA | [System Software Engineer – GPU and SOC (2027 RDSS Intern)](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineer---GPU-and-SOC--2027-RDSS-Intern-_JR2023628) | Taiwan, Taipei | 0d |
+| Palantir | [Software Engineer, Internship - Defen...](https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7) | Washington, D.C. | 0d |
+| Palantir | [Software Engineer, Internship - Infra...](https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3) | New York, NY | 0d |
+| Palantir | [Software Engineer, Internship - Infra...](https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4) | Palo Alto, CA | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -266,7 +271,7 @@ Total roles: 105
 
 ### Mid-Level and Above
 
-Total roles: 2140
+Total roles: 2143
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -283,6 +288,8 @@ Total roles: 2140
 | NVIDIA | [Backend Compiler Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Backend-Compiler-Engineer_JR2017221) | <details><summary>6 locations</summary>US, TX<br>Austin, US<br>TX<br>Remote, US<br>OR<br>Remote, US<br>CA<br>Remote, US<br>WA<br>Redmond, US<br>CA<br>Santa Clara</details> | 0d |
 | NVIDIA | [Embedded Software Engineer - DPU Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1) | US, MA, Westford | 0d |
 | NVIDIA | [Senior Compiler Engineer - Backend](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Senior-Compiler-Engineer---Backend_JR2017210) | <details><summary>4 locations</summary>US, TX<br>Austin, US<br>TX<br>Remote, US<br>CA<br>Remote, US<br>CA<br>Santa Clara</details> | 0d |
+| NVIDIA | [Senior Linux Software Engineer - Chip System Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Software-Engineer---Chip-System-Software_JR2023408) | US, CA, Santa Clara | 0d |
+| NVIDIA | [Senior Platform Engineer, Design Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-Platform-Engineer--Design-Automation_JR2023352) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior Site Reliability Engineer, DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Senior-Site-Reliability-Engineer--DGX-Cloud_JR2021427-1) | <details><summary>2 locations</summary>Switzerland<br>Zurich<br>Switzerland<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Engineer_JR1994007) | Israel, Tel Aviv | 0d |
 | NVIDIA | [Senior Software Engineer, DGX Cloud Production Engineering](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Production-Engineering_JR2023607-1) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
@@ -290,8 +297,9 @@ Total roles: 2140
 | NVIDIA | [Senior System Software Engineer - Local AI Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---Local-AI-Automation_JR2021900) | India, Pune | 0d |
 | NVIDIA | [Senior System Software Engineer, Software Defined Networking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-System-Software-Engineer--Software-Defined-Networking_JR2023002) | Taiwan, Taipei | 0d |
 | NVIDIA | [Senior Systems Software Engineer, Compute Stack Acceleration](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>TX<br>Remote, US<br>CA<br>Remote</details> | 0d |
+| NVIDIA | [Senior Tegra Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Tegra-Software-Engineer_JR2022972-1) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Solutions Architect, AI Factory Infrastructure DevOps](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Solutions-Architect--AI-Factory-Infrastructure-DevOps_JR2018908) | <details><summary>4 locations</summary>US, CA<br>Remote, US<br>TX<br>Austin, US<br>TX<br>Remote, US<br>OH<br>Remote</details> | 0d |
-| NVIDIA | [Staff Platform Engineer, Design Automation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-Platform-Engineer--Design-Automation_JR2023352) | US, CA, Santa Clara | 0d |
+| NVIDIA | [System Software Engineer - Trusted Firmware](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Trusted-Firmware_JR2023340) | US, CA, Santa Clara | 0d |
 | Snowflake | [Staff/Principal AI Software Engineer - Snowflake CoWork](https://jobs.ashbyhq.com/snowflake/92b3b8b0-b60d-43c5-a15b-7fcd7aeeeb3e) | US-CA-Menlo Park | 0d |
 | Sony Interactive Entertainment | [Software Engineer II/ Software Develo...](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6145793004) | Canada, Waterloo, ON | 0d |
 | Airbnb | [Staff Software Engineer, Communication & Connectivity](https://careers.airbnb.com/positions/7421419?gh_jid=7421419) | United States | 1d |
@@ -768,8 +776,8 @@ Total roles: 2140
 | Coinbase | [Senior Software Engineer, Consumer](https://www.coinbase.com/careers/positions/8067033?gh_jid=8067033) | Remote - Singapore | 2d |
 | Coinbase | [Software Engineer, CDP - Stablecoin](https://www.coinbase.com/careers/positions/8092485?gh_jid=8092485) | Remote - Canada | 2d |
 | Coupang | [Senior Back End Engineer (Global Mobility & Business Travel)](https://www.coupang.jobs/en/jobs/?gh_jid=8129468) | Seoul, South Korea | 2d |
-| Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7962133) | Mountain View, USA | 2d |
 | Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7438944) | Seattle, USA | 2d |
+| Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7962133) | Mountain View, USA | 2d |
 | DoorDash | [Account Manager, Platform Innovation](https://job-boards.greenhouse.io/doordashusa/jobs/7958917) | Chicago, IL; Detroit, MI; New York, NY; Philadelphia, PA; Washington, DC | 2d |
 | DoorDash | [Director, Analytics, Commerce Platform](https://job-boards.greenhouse.io/doordashusa/jobs/7822599) | New York,NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | 2d |
 | DoorDash | [Embedded Software Engineer - Labs, DoorDash Air](https://job-boards.greenhouse.io/doordashusa/jobs/8122134) | San Francisco, CA | 2d |
@@ -1108,8 +1116,8 @@ Total roles: 2140
 | Cohere | [Forward Deployed Engineer, Infrastructure Specialist (South Korea)](https://jobs.ashbyhq.com/cohere/9c5e1ab3-883b-4d15-885c-76400da7ca11) | Korea | 8d |
 | Cohere | [Senior Full-Stack Engineer, North Tools & Retrieval](https://jobs.ashbyhq.com/cohere/6ebac60b-0758-4bb8-8299-44328d4926cb) | Europe | 8d |
 | Cohere | [Software Engineer, Integrations](https://jobs.ashbyhq.com/cohere/96c74af4-b3d7-4960-a666-212ce4debac8) | Europe | 8d |
-| Coupang | [Senior Staff Backend Engineer (Pricing)](https://www.coupang.jobs/en/jobs/?gh_jid=8120779) | Seattle, USA | 8d |
 | Coupang | [Senior Staff Backend Engineer (Pricing)](https://www.coupang.jobs/en/jobs/?gh_jid=8123934) | Mountain View, USA | 8d |
+| Coupang | [Senior Staff Backend Engineer (Pricing)](https://www.coupang.jobs/en/jobs/?gh_jid=8120779) | Seattle, USA | 8d |
 | Coupang | [Senior Staff, Mobile engineer(Eats Mobile Engineering)](https://www.coupang.jobs/en/jobs/?gh_jid=7984162) | Seoul, South Korea | 8d |
 | Duolingo | [Software Engineer II](https://careers.duolingo.com/jobs/8612120002?gh_jid=8612120002) | Beijing, China | 8d |
 | Elastic | [Java Developer II - AutoOps Services - Platform Applications](https://jobs.elastic.co/jobs?gh_jid=8088738&gh_jid=8088738) | Canada | 8d |
@@ -1546,11 +1554,11 @@ Total roles: 2140
 | Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892757) | Hyderabad | 19d |
 | Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892762) | Hyderabad | 19d |
 | Coupang | [Staff Back-end Engineer (TW Pre-Purchase)](https://www.coupang.jobs/en/jobs/?gh_jid=8090538) | Seoul, South Korea | 19d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 19d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8095677) | Bengaluru | 19d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8076600) | Bengaluru | 19d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8098140) | Bengaluru | 19d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 19d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8050353) | Hyderabad | 19d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8095677) | Bengaluru | 19d |
 | Coupang | [Staff Backend Engineer - IAM](https://www.coupang.jobs/en/jobs/?gh_jid=7925108) | Bengaluru | 19d |
 | Coupang | [Staff Backend Engineer - Intelligent Cloud](https://www.coupang.jobs/en/jobs/?gh_jid=7916715) | Bengaluru | 19d |
 | Coupang | [Staff Engineer - Backend (E-Commerce Engineering)](https://www.coupang.jobs/en/jobs/?gh_jid=7988274) | Bengaluru | 19d |
@@ -2627,13 +2635,15 @@ Total hackathons: 207
 
 ## Events
 
-Total events: 3
+Total events: 5
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
+| Luma | [Follow DC](https://lu.ma/DC2?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 
