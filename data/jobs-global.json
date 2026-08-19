@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-08-19T13:07:25Z",
-  "total": 192,
+  "generated_at": "2026-08-19T13:56:35Z",
+  "total": 193,
   "jobs": [
+    {
+      "id": "32488451baa6f650",
+      "company": "Adobe",
+      "title": "New Grad 2026: Application Security Engineer",
+      "level": "new_grad",
+      "category": "big_tech",
+      "region": "us",
+      "role_type": "security",
+      "country": "United States",
+      "location": "San Jose, CA San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159164EXTERNALENUS/2026-University-Graduate-Application-Security-Engineer?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T13:56:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
     {
       "id": "143334daec998e2c",
       "company": "Amazon",
@@ -1790,6 +1813,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a45f3452e9f2fe2d",
+      "company": "Uber",
+      "title": "New Grad 2025: Software Engineer I",
+      "level": "new_grad",
+      "category": "ride_delivery",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://university-uber.icims.com/jobs/149558/job?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T13:56:35Z",
       "tags": [
         "software",
         "programming",
@@ -4389,29 +4435,6 @@
       "posted_at": "2025-12-10",
       "age": "251d",
       "collected_at": "2026-08-18T18:55:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "40adb1805cc41774",
-      "company": "DoorDash",
-      "title": "Software Engineer II, Data Engineering",
-      "level": "mid_level",
-      "category": "ride_delivery",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/6458514",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-17",
-      "age": "20mo",
-      "collected_at": "2026-08-17T23:34:56Z",
       "tags": [
         "software",
         "programming",
