@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Wed, 19 Aug 2026 03:13:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 04:00:30 GMT</lastBuildDate>
     <item>
       <title>ByteDance — Software Engineer Intern (Traffic Inf...</title>
       <link>https://joinbytedance.com/search/7672626707586746629</link>
@@ -31,6 +31,27 @@
       <link>https://apply.careers.microsoft.com/careers/job/1970393556962716</link>
       <guid isPermaLink="false">d926f5ee51008fe3</guid>
       <description>Redmond, Washington, U... · mid_level · 0d</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, Internship - Defen...</title>
+      <link>https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7</link>
+      <guid isPermaLink="false">15cecd05a12a4b83</guid>
+      <description>Washington, D.C. · internship · 0d</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, Internship - Infra...</title>
+      <link>https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3</link>
+      <guid isPermaLink="false">49ab68c4e0bc4f6a</guid>
+      <description>New York, NY · internship · 0d</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, Internship - Infra...</title>
+      <link>https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4</link>
+      <guid isPermaLink="false">370eb61e0e3295cd</guid>
+      <description>Palo Alto, CA · internship · 0d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3612,16 +3633,16 @@
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer - Cloud Infrastructure</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7962133</link>
-      <guid isPermaLink="false">f294a5abe28d09c8</guid>
-      <description>Mountain View, USA · other · 2d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7438944</link>
+      <guid isPermaLink="false">9813148fc092fe7c</guid>
+      <description>Seattle, USA · other · 2d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer - Cloud Infrastructure</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7438944</link>
-      <guid isPermaLink="false">9813148fc092fe7c</guid>
-      <description>Seattle, USA · other · 2d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7962133</link>
+      <guid isPermaLink="false">f294a5abe28d09c8</guid>
+      <description>Mountain View, USA · other · 2d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6125,16 +6146,16 @@
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer (Pricing)</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8120779</link>
-      <guid isPermaLink="false">61886914b79d3014</guid>
-      <description>Seattle, USA · other · 8d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8123934</link>
+      <guid isPermaLink="false">96d4328278803111</guid>
+      <description>Mountain View, USA · other · 8d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer (Pricing)</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8123934</link>
-      <guid isPermaLink="false">96d4328278803111</guid>
-      <description>Mountain View, USA · other · 8d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8120779</link>
+      <guid isPermaLink="false">61886914b79d3014</guid>
+      <description>Seattle, USA · other · 8d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10038,6 +10059,20 @@
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
+      <guid isPermaLink="false">9e94f52205a3dcf4</guid>
+      <description>Hyderabad · other · 19d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8095677</link>
+      <guid isPermaLink="false">d47df4948fc5bb81</guid>
+      <description>Bengaluru · other · 19d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8076600</link>
       <guid isPermaLink="false">781572205b96f90e</guid>
       <description>Bengaluru · other · 19d</description>
@@ -10052,23 +10087,9 @@
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
-      <guid isPermaLink="false">9e94f52205a3dcf4</guid>
-      <description>Hyderabad · other · 19d</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8050353</link>
       <guid isPermaLink="false">2f6a38eaa80a83e3</guid>
       <description>Hyderabad · other · 19d</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8095677</link>
-      <guid isPermaLink="false">d47df4948fc5bb81</guid>
-      <description>Bengaluru · other · 19d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -17771,6 +17792,18 @@
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;4 locations&lt;/strong&gt;&lt;/summary&gt;US, TX, Austin&lt;br&gt;US, TX, Remote&lt;br&gt;US, CA, Remote&lt;br&gt;US, CA, Santa Clara&lt;/details&gt; · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Linux Software Engineer - Chip System Software</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Software-Engineer---Chip-System-Software_JR2023408</link>
+      <guid isPermaLink="false">9ff5aeb54a526b4e</guid>
+      <description>US, CA, Santa Clara · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Platform Engineer, Design Automation</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-Platform-Engineer--Design-Automation_JR2023352</link>
+      <guid isPermaLink="false">f30b090919988274</guid>
+      <description>US, CA, Santa Clara · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Site Reliability Engineer, DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Senior-Site-Reliability-Engineer--DGX-Cloud_JR2021427-1</link>
       <guid isPermaLink="false">816850be52b8e892</guid>
@@ -17813,10 +17846,22 @@
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;4 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, NC, Remote&lt;br&gt;US, TX, Remote&lt;br&gt;US, CA, Remote&lt;/details&gt; · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Tegra Software Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Tegra-Software-Engineer_JR2022972-1</link>
+      <guid isPermaLink="false">cab9eddcd2e8d3ce</guid>
+      <description>US, CA, Santa Clara · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Software Engineering Intern, NCCL - 2026</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645</link>
       <guid isPermaLink="false">1072f7657a07fdc8</guid>
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;China, Shanghai&lt;br&gt;China, Beijing&lt;/details&gt; · internship · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Software Engineering Intern, Test Automation — Autonomous Vehicles</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/Software-Engineering-Intern--Test-Automation---Autonomous-Vehicles_JR2023302</link>
+      <guid isPermaLink="false">2e360892ea6230f9</guid>
+      <description>Germany, Munich · internship · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Solutions Architect, AI Factory Infrastructure DevOps</title>
@@ -17825,10 +17870,16 @@
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;4 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Remote&lt;br&gt;US, TX, Austin&lt;br&gt;US, TX, Remote&lt;br&gt;US, OH, Remote&lt;/details&gt; · other · 0d</description>
     </item>
     <item>
-      <title>NVIDIA — Staff Platform Engineer, Design Automation</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-Platform-Engineer--Design-Automation_JR2023352</link>
-      <guid isPermaLink="false">febb178cf12dc0c3</guid>
+      <title>NVIDIA — System Software Engineer - Trusted Firmware</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Trusted-Firmware_JR2023340</link>
+      <guid isPermaLink="false">355999007a9cea54</guid>
       <description>US, CA, Santa Clara · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — System Software Engineer – GPU and SOC (2027 RDSS Intern)</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineer---GPU-and-SOC--2027-RDSS-Intern-_JR2023628</link>
+      <guid isPermaLink="false">0395db9f5975c4cd</guid>
+      <description>Taiwan, Taipei · internship · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Director, System Software - AV Platform</title>

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T03:10:13Z",
-  "total": 192,
+  "generated_at": "2026-08-19T03:57:33Z",
+  "total": 195,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1514,6 +1514,75 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "15cecd05a12a4b83",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T03:57:33Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "49ab68c4e0bc4f6a",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Infra...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T03:57:33Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "370eb61e0e3295cd",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Infra...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T03:57:33Z",
       "tags": [
         "software",
         "programming",
