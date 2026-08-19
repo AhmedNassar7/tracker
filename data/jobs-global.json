@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-08-19T13:56:35Z",
-  "total": 193,
+  "generated_at": "2026-08-19T14:52:38Z",
+  "total": 194,
   "jobs": [
-    {
-      "id": "32488451baa6f650",
-      "company": "Adobe",
-      "title": "New Grad 2026: Application Security Engineer",
-      "level": "new_grad",
-      "category": "big_tech",
-      "region": "us",
-      "role_type": "security",
-      "country": "United States",
-      "location": "San Jose, CA San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.adobe.com/us/en/job/ADOBUSR159164EXTERNALENUS/2026-University-Graduate-Application-Security-Engineer?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T13:56:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
     {
       "id": "143334daec998e2c",
       "company": "Amazon",
@@ -1095,11 +1072,11 @@
       "location": "Redmond, Washington, U...",
       "remote_type": "onsite",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556962716",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-08-19",
       "age": "0d",
-      "collected_at": "2026-08-19T09:48:29Z",
+      "collected_at": "2026-08-19T14:52:38Z",
       "tags": [
         "software",
         "programming",
@@ -1498,6 +1475,75 @@
       ]
     },
     {
+      "id": "66bbf1e553376c7c",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Denver, CO",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T14:52:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b3126ca0917b76be",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T14:52:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T14:52:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2ee142b47bfc9198",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -1813,29 +1859,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a45f3452e9f2fe2d",
-      "company": "Uber",
-      "title": "New Grad 2025: Software Engineer I",
-      "level": "new_grad",
-      "category": "ride_delivery",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://university-uber.icims.com/jobs/149558/job?utm_source=vansh",
-      "source": "vanshb03_newgrad",
-      "source_url": "https://github.com/vanshb03/New-Grad-2027",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T13:56:35Z",
       "tags": [
         "software",
         "programming",
@@ -2222,11 +2245,11 @@
       "location": "Herndon, VA",
       "remote_type": "onsite",
       "url": "https://www.amazon.jobs/en/jobs/10505020/security-engineer-ii-enterprise-protection-program",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
       "posted_at": "2026-08-19",
       "age": "1d",
-      "collected_at": "2026-08-19T08:53:17Z",
+      "collected_at": "2026-08-19T14:52:38Z",
       "tags": [
         "software",
         "programming",
