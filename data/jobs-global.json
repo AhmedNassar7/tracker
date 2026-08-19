@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T10:44:47Z",
-  "total": 191,
+  "generated_at": "2026-08-19T11:38:27Z",
+  "total": 189,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -663,29 +663,6 @@
       "posted_at": "2026-08-18",
       "age": "0d",
       "collected_at": "2026-08-18T20:39:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0e752fa3e5e45184",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern (Traffic Inf...",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7672626707586746629",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T09:48:29Z",
       "tags": [
         "software",
         "programming",
@@ -4044,29 +4021,6 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "cfab04505d542392",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Software Defined Networking",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Austin, Texas, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-06-16",
-      "age": "64d",
-      "collected_at": "2026-08-19T10:44:47Z",
       "tags": [
         "software",
         "programming",
