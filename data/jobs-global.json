@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T05:45:39Z",
-  "total": 190,
+  "generated_at": "2026-08-19T07:04:28Z",
+  "total": 194,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -42,29 +42,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5c31d8db3a84c7a6",
-      "company": "Apple",
-      "title": "Software Engineer - IS&T Early Career Opportunities",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Cupertino, CA Sunnyvale, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.apple.com/en-us/details/200678510?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-18",
-      "age": "0d",
-      "collected_at": "2026-08-18T07:53:08Z",
       "tags": [
         "software",
         "programming",
@@ -1475,6 +1452,75 @@
       ]
     },
     {
+      "id": "66bbf1e553376c7c",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Denver, CO",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T07:04:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b3126ca0917b76be",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T07:04:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T07:04:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2ee142b47bfc9198",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -2135,6 +2181,29 @@
       "posted_at": "2026-08-19",
       "age": "1d",
       "collected_at": "2026-08-19T01:51:48Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5c31d8db3a84c7a6",
+      "company": "Apple",
+      "title": "Software Engineer - IS&T Early Career Opportunities",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Cupertino, CA Sunnyvale, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200678510?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T07:53:08Z",
       "tags": [
         "software",
         "programming",
@@ -2832,29 +2901,6 @@
       ]
     },
     {
-      "id": "ba35424657a379e0",
-      "company": "ByteDance",
-      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "backend",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "4d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5720b9be285a1055",
       "company": "ByteDance",
       "title": "Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓",
@@ -2916,6 +2962,52 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-10",
       "age": "3d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5319fc8fec65d19c",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-19",
+      "age": "13d",
+      "collected_at": "2026-08-19T07:04:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ba35424657a379e0",
+      "company": "ByteDance",
+      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "backend",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
+      "age": "4d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
@@ -3062,29 +3154,6 @@
       ]
     },
     {
-      "id": "5a9b57a990547181",
-      "company": "HarmonyTech",
-      "title": "Junior Software Developer - .NET",
-      "level": "junior",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Herndon, VA",
-      "remote_type": "onsite",
-      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "7d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "8ed25ec831823aa0",
       "company": "Amazon",
       "title": "Software Development Engineer II, FinTech",
@@ -3100,6 +3169,29 @@
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-04",
       "age": "6d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5a9b57a990547181",
+      "company": "HarmonyTech",
+      "title": "Junior Software Developer - .NET",
+      "level": "junior",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Herndon, VA",
+      "remote_type": "onsite",
+      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
+      "age": "7d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
