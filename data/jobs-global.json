@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T17:44:31Z",
-  "total": 193,
+  "generated_at": "2026-08-20T18:58:03Z",
+  "total": 194,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -854,6 +854,29 @@
       ]
     },
     {
+      "id": "1d7513e0b87b3185",
+      "company": "Google",
+      "title": "Security Engineer II, Hybrid Cloud Gu...",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "security",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-08-20",
+      "age": "0d",
+      "collected_at": "2026-08-20T18:58:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d0c6c5402c438c0d",
       "company": "Google",
       "title": "Software Developer, Early Career, Campus",
@@ -900,6 +923,29 @@
       ]
     },
     {
+      "id": "36a558da58240319",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-20",
+      "age": "0d",
+      "collected_at": "2026-08-20T18:58:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cc7a168906373af1",
       "company": "Hudson River Trading",
       "title": "Software Engineer Intern",
@@ -934,11 +980,11 @@
       "location": "US, Oregon, Hillsboro",
       "remote_type": "onsite",
       "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-20",
       "age": "0d",
-      "collected_at": "2026-08-20T17:44:31Z",
+      "collected_at": "2026-08-20T18:58:03Z",
       "tags": [
         "software",
         "programming",
@@ -957,11 +1003,11 @@
       "location": "US, Arizona, Phoenix",
       "remote_type": "onsite",
       "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-20",
       "age": "0d",
-      "collected_at": "2026-08-20T17:44:31Z",
+      "collected_at": "2026-08-20T18:58:03Z",
       "tags": [
         "software",
         "programming",
@@ -2181,29 +2227,6 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T08:53:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "7f2b5486ee9e0b6f",
-      "company": "JPMorgan Chase",
-      "title": "Data Engineer II - AWS/PySpark/ETL",
-      "level": "mid_level",
-      "category": "consulting_finance",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "OH, United States",
-      "remote_type": "onsite",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210737118",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T21:39:36Z",
       "tags": [
         "software",
         "programming",
