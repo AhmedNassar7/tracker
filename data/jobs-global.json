@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T20:45:28Z",
-  "total": 190,
+  "generated_at": "2026-08-20T21:42:38Z",
+  "total": 193,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -877,29 +877,6 @@
       ]
     },
     {
-      "id": "36a558da58240319",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-20",
-      "age": "0d",
-      "collected_at": "2026-08-20T18:58:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "cc7a168906373af1",
       "company": "Hudson River Trading",
       "title": "Software Engineer Intern",
@@ -916,6 +893,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "4719395b49b03f05",
+      "company": "Instacart",
+      "title": "Machine Learning Engineer II, Ads - R...",
+      "level": "mid_level",
+      "category": "more_global_tech",
+      "region": "remote",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Remote (ON, AB, BC, or...",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=8143263",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-20",
+      "age": "0d",
+      "collected_at": "2026-08-20T21:42:38Z",
       "tags": [
         "software",
         "programming",
@@ -1475,6 +1475,75 @@
       ]
     },
     {
+      "id": "0519abb92d76c8a3",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-20",
+      "age": "0d",
+      "collected_at": "2026-08-20T21:42:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "15cecd05a12a4b83",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-20",
+      "age": "0d",
+      "collected_at": "2026-08-20T21:42:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "49ab68c4e0bc4f6a",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Infra...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-20",
+      "age": "0d",
+      "collected_at": "2026-08-20T21:42:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2ee142b47bfc9198",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -1767,29 +1836,6 @@
       "posted_at": "2026-08-11",
       "age": "0d",
       "collected_at": "2026-08-11T15:15:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "11e112c948252134",
-      "company": "SpaceX",
-      "title": "Software Engineer New Grad - Software - Application Software",
-      "level": "new_grad",
-      "category": "more_global_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Hawthorne, CA",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T21:39:36Z",
       "tags": [
         "software",
         "programming",
@@ -2181,6 +2227,29 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T14:52:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "11e112c948252134",
+      "company": "SpaceX",
+      "title": "Software Engineer New Grad - Software - Application Software",
+      "level": "new_grad",
+      "category": "more_global_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Hawthorne, CA",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T21:39:36Z",
       "tags": [
         "software",
         "programming",
