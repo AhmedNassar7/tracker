@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T05:45:12Z",
-  "total": 191,
+  "generated_at": "2026-08-20T07:05:11Z",
+  "total": 196,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -2211,29 +2211,6 @@
       ]
     },
     {
-      "id": "5c31d8db3a84c7a6",
-      "company": "Apple",
-      "title": "Software Engineer - IS&T Early Career Opportunities",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Cupertino, CA Sunnyvale, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.apple.com/en-us/details/200678510?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-18",
-      "age": "0d",
-      "collected_at": "2026-08-18T07:53:08Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "7f2b5486ee9e0b6f",
       "company": "JPMorgan Chase",
       "title": "Data Engineer II - AWS/PySpark/ETL",
@@ -2388,6 +2365,29 @@
       "posted_at": "2026-08-18",
       "age": "0d",
       "collected_at": "2026-08-18T22:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5c31d8db3a84c7a6",
+      "company": "Apple",
+      "title": "Software Engineer - IS&T Early Career Opportunities",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Cupertino, CA Sunnyvale, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200678510?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T07:53:08Z",
       "tags": [
         "software",
         "programming",
@@ -3039,29 +3039,6 @@
       ]
     },
     {
-      "id": "ba35424657a379e0",
-      "company": "ByteDance",
-      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "backend",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "4d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5720b9be285a1055",
       "company": "ByteDance",
       "title": "Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓",
@@ -3123,6 +3100,52 @@
       "source_url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
       "posted_at": "2026-08-10",
       "age": "3d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5319fc8fec65d19c",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-20",
+      "age": "14d",
+      "collected_at": "2026-08-20T07:05:11Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ba35424657a379e0",
+      "company": "ByteDance",
+      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "backend",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
+      "age": "4d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
@@ -3292,29 +3315,6 @@
       ]
     },
     {
-      "id": "5a9b57a990547181",
-      "company": "HarmonyTech",
-      "title": "Junior Software Developer - .NET",
-      "level": "junior",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Herndon, VA",
-      "remote_type": "onsite",
-      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "7d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "8ed25ec831823aa0",
       "company": "Amazon",
       "title": "Software Development Engineer II, FinTech",
@@ -3330,6 +3330,29 @@
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-04",
       "age": "6d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5a9b57a990547181",
+      "company": "HarmonyTech",
+      "title": "Junior Software Developer - .NET",
+      "level": "junior",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Herndon, VA",
+      "remote_type": "onsite",
+      "url": "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
+      "age": "7d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
@@ -3377,6 +3400,29 @@
       "posted_at": "2026-08-10",
       "age": "9d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b79f5f772d067aaf",
+      "company": "Amazon",
+      "title": "Software Development Engineer II (ADBL178)",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Newark, New Jersey, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-31",
+      "age": "20d",
+      "collected_at": "2026-08-20T07:05:11Z",
       "tags": [
         "software",
         "programming",
@@ -3699,6 +3745,29 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fd95b7ef37fe6f7c",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AmazonMQ",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "other_swe",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia, CAN",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-17",
+      "age": "34d",
+      "collected_at": "2026-08-20T07:05:11Z",
       "tags": [
         "software",
         "programming",
@@ -4143,6 +4212,29 @@
       ]
     },
     {
+      "id": "3f75e139ddcfc77b",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-12",
+      "age": "69d",
+      "collected_at": "2026-08-20T07:05:11Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5f19bf392c2cb0ea",
       "company": "Amazon",
       "title": "Software Development Engineer II",
@@ -4297,6 +4389,29 @@
       "posted_at": "2026-08-10",
       "age": "107d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "86c087a99d1f949a",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Amazon",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-04-25",
+      "age": "117d",
+      "collected_at": "2026-08-20T07:05:11Z",
       "tags": [
         "software",
         "programming",
