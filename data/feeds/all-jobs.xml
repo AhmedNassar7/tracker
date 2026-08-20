@@ -4,12 +4,26 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Thu, 20 Aug 2026 17:49:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 19:01:35 GMT</lastBuildDate>
     <item>
       <title>Cohere — Software Engineer Intern (Fall / Wint...</title>
       <link>https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254</link>
       <guid isPermaLink="false">e8a8f44cd2761397</guid>
       <description>Canada · internship · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Security Engineer II, Hybrid Cloud Gu...</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/101300536594047686</link>
+      <guid isPermaLink="false">1d7513e0b87b3185</guid>
+      <description>United States · mid_level · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Software Engineer, PhD, Early Career,...</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/122258040807137990</link>
+      <guid isPermaLink="false">36a558da58240319</guid>
+      <description>United States · new_grad · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -433,10 +447,31 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Epicgames — Senior Software Engineer, Audio Engine</title>
+      <link>https://epicgames.com/careers/jobs/5990685004?gh_jid=5990685004</link>
+      <guid isPermaLink="false">70ed3d87754b19ee</guid>
+      <description>Cary,North Carolina,United States · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Lyft — Software Engineer, iOS Integrity</title>
       <link>https://app.careerpuck.com/job-board/lyft/job/8733650002?gh_jid=8733650002</link>
       <guid isPermaLink="false">a367d688894ce55b</guid>
       <description>Toronto, Canada · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Android Engineer - Payments</title>
+      <link>https://n26.com/en-eu/careers/positions/8121362?gh_jid=8121362</link>
+      <guid isPermaLink="false">ab5ae7846f00430d</guid>
+      <description>Berlin · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Android Engineer - Payments</title>
+      <link>https://n26.com/en-eu/careers/positions/8143846?gh_jid=8143846</link>
+      <guid isPermaLink="false">0122501c6c69a68d</guid>
+      <description>Barcelona · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -465,6 +500,13 @@
       <link>https://www.okta.com/company/careers/opportunity/7919336?gh_jid=7919336</link>
       <guid isPermaLink="false">98365a427c094ad3</guid>
       <description>Bengaluru, India · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Plaid — Staff Software Engineer - Data Governance</title>
+      <link>https://jobs.ashbyhq.com/plaid/95225497-fc9b-4c5d-8df0-df98df219ae5</link>
+      <guid isPermaLink="false">09c9f2a97d14ef53</guid>
+      <description>San Francisco HQ · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -553,16 +595,16 @@
     </item>
     <item>
       <title>Robinhood — Senior Android Engineer, Wallet</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8084379?t=gh_src=&amp;gh_jid=8084379</link>
-      <guid isPermaLink="false">826652056f3575bc</guid>
-      <description>Menlo Park, CA; New York, NY · other · 0d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8084381?t=gh_src=&amp;gh_jid=8084381</link>
+      <guid isPermaLink="false">3ab140d6aa5a8d29</guid>
+      <description>Toronto, Canada · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Senior Android Engineer, Wallet</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8084381?t=gh_src=&amp;gh_jid=8084381</link>
-      <guid isPermaLink="false">3ab140d6aa5a8d29</guid>
-      <description>Toronto, Canada · other · 0d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8084379?t=gh_src=&amp;gh_jid=8084379</link>
+      <guid isPermaLink="false">826652056f3575bc</guid>
+      <description>Menlo Park, CA; New York, NY · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -609,16 +651,16 @@
     </item>
     <item>
       <title>Robinhood — Senior Software Engineer, Custody Services</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7648454?t=gh_src=&amp;gh_jid=7648454</link>
-      <guid isPermaLink="false">c09fe330e5510f69</guid>
-      <description>Ljubljana, Slovenia · other · 0d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/7648452?t=gh_src=&amp;gh_jid=7648452</link>
+      <guid isPermaLink="false">167ddd6659e93f29</guid>
+      <description>London, UK · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Senior Software Engineer, Custody Services</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7648452?t=gh_src=&amp;gh_jid=7648452</link>
-      <guid isPermaLink="false">167ddd6659e93f29</guid>
-      <description>London, UK · other · 0d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/7648454?t=gh_src=&amp;gh_jid=7648454</link>
+      <guid isPermaLink="false">c09fe330e5510f69</guid>
+      <description>Ljubljana, Slovenia · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -728,16 +770,16 @@
     </item>
     <item>
       <title>Robinhood — Software Engineer, Wallet</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8088444?t=gh_src=&amp;gh_jid=8088444</link>
-      <guid isPermaLink="false">6289162f09e4178a</guid>
-      <description>Menlo Park, CA; New York, NY · other · 0d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8088446?t=gh_src=&amp;gh_jid=8088446</link>
+      <guid isPermaLink="false">436b5c71c2fdb131</guid>
+      <description>Toronto, Canada · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Software Engineer, Wallet</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8088446?t=gh_src=&amp;gh_jid=8088446</link>
-      <guid isPermaLink="false">436b5c71c2fdb131</guid>
-      <description>Toronto, Canada · other · 0d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8088444?t=gh_src=&amp;gh_jid=8088444</link>
+      <guid isPermaLink="false">6289162f09e4178a</guid>
+      <description>Menlo Park, CA; New York, NY · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -791,16 +833,16 @@
     </item>
     <item>
       <title>Robinhood — Staff Software Engineer, Web3</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&amp;gh_jid=7489950</link>
-      <guid isPermaLink="false">a268785f8fd1c15a</guid>
-      <description>Menlo Park, CA; New York, NY · other · 0d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&amp;gh_jid=7489952</link>
+      <guid isPermaLink="false">13ee8aabcd984d51</guid>
+      <description>Toronto, Canada · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Staff Software Engineer, Web3</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&amp;gh_jid=7489952</link>
-      <guid isPermaLink="false">13ee8aabcd984d51</guid>
-      <description>Toronto, Canada · other · 0d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&amp;gh_jid=7489950</link>
+      <guid isPermaLink="false">a268785f8fd1c15a</guid>
+      <description>Menlo Park, CA; New York, NY · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1406,6 +1448,27 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Scaleai — Forward Deployed Software Engineer, Public Sector</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4481921005</link>
+      <guid isPermaLink="false">3f3110d5648470ba</guid>
+      <description>Austin, TX; Colorado Springs, CO; Honolulu, HI; St. Louis, MO; Washington, DC · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scaleai — Senior Full-Stack Software Engineer, (Forward Deployed), GPS</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4673310005</link>
+      <guid isPermaLink="false">465887e74828d0f7</guid>
+      <description>London, UK · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scaleai — Staff Full-Stack Software Engineer, (Forward Deployed), GPS</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4676610005</link>
+      <guid isPermaLink="false">f2dfd755ff24d4e1</guid>
+      <description>London, UK · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Snowflake — Software Engineer AI Team</title>
       <link>https://jobs.ashbyhq.com/snowflake/04559598-b320-4bcd-ace8-fb9cc551a02c</link>
       <guid isPermaLink="false">2894e9560c42634f</guid>
@@ -1417,6 +1480,20 @@
       <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6128869004</link>
       <guid isPermaLink="false">25ba739717dfab82</guid>
       <description>United States, Aliso Viejo, CA · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — IT Network Infrastructure Engineer</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8570046002?gh_jid=8570046002</link>
+      <guid isPermaLink="false">cdbc455ba3a7e092</guid>
+      <description>Hawthorne, CA · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Site Reliability Engineer (Top Secret Clearance)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8601223002?gh_jid=8601223002</link>
+      <guid isPermaLink="false">3f1990c403a7a053</guid>
+      <description>Hawthorne, CA · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1470,16 +1547,23 @@
     </item>
     <item>
       <title>Twilio — Staff Software Engineer (L4)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7996770</link>
+      <guid isPermaLink="false">7cc91c09b7efef5a</guid>
+      <description>Remote - India · other · 0d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Staff Software Engineer (L4)</title>
       <link>https://job-boards.greenhouse.io/twilio/jobs/7716279</link>
       <guid isPermaLink="false">d55f01ef83636424</guid>
       <description>Remote - Canada · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Twilio — Staff Software Engineer (L4)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7996770</link>
-      <guid isPermaLink="false">7cc91c09b7efef5a</guid>
-      <description>Remote - India · other · 0d</description>
+      <title>Twilio — Staff Software Engineer (L4) Data Platform</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7782805</link>
+      <guid isPermaLink="false">76190ef4cdbad205</guid>
+      <description>Remote - US · other · 0d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1550,13 +1634,6 @@
       <link>https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">822623bc288d8af4</guid>
       <description>Seattle, WA · internship · 0d</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>JPMorgan Chase — Data Engineer II - AWS/PySpark/ETL</title>
-      <link>https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210737118</link>
-      <guid isPermaLink="false">7f2b5486ee9e0b6f</guid>
-      <description>OH, United States · mid_level · 0d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1833,6 +1910,13 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>N26 — Backend Engineer - Payments</title>
+      <link>https://n26.com/en-eu/careers/positions/8132053?gh_jid=8132053</link>
+      <guid isPermaLink="false">0c3d0abbff0f19e1</guid>
+      <description>Berlin, Barcelona · other · 1d</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Okta — Senior Software Engineer, Customer Dev Tools (Auth0)</title>
       <link>https://www.okta.com/company/careers/opportunity/8113501?gh_jid=8113501</link>
       <guid isPermaLink="false">375afa3f7e0e4a9a</guid>
@@ -1900,13 +1984,6 @@
       <link>https://careers.roblox.com/jobs/8080438?gh_jid=8080438</link>
       <guid isPermaLink="false">8406b12b63a0d4e2</guid>
       <description>San Mateo, CA, United States · other · 1d</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scaleai — Staff Full-Stack Software Engineer, (Forward Deployed), GPS</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4676610005</link>
-      <guid isPermaLink="false">f2dfd755ff24d4e1</guid>
-      <description>London, UK · other · 1d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1981,16 +2058,16 @@
     </item>
     <item>
       <title>SpaceX — Platform Integrity Manager (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8622988002?gh_jid=8622988002</link>
-      <guid isPermaLink="false">8bd1975b902d16a9</guid>
-      <description>Bastrop, TX · other · 1d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8656713002?gh_jid=8656713002</link>
+      <guid isPermaLink="false">619f7bf51b4298e1</guid>
+      <description>Redmond, WA · other · 1d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Platform Integrity Manager (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8656713002?gh_jid=8656713002</link>
-      <guid isPermaLink="false">619f7bf51b4298e1</guid>
-      <description>Redmond, WA · other · 1d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8622988002?gh_jid=8622988002</link>
+      <guid isPermaLink="false">8bd1975b902d16a9</guid>
+      <description>Bastrop, TX · other · 1d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2023,16 +2100,16 @@
     </item>
     <item>
       <title>SpaceX — Wi-Fi Software Engineer (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8715832002?gh_jid=8715832002</link>
-      <guid isPermaLink="false">504e2af2a08454b4</guid>
-      <description>Palo Alto, CA · other · 1d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8715500002?gh_jid=8715500002</link>
+      <guid isPermaLink="false">7b7dfead06d61f7e</guid>
+      <description>Bastrop, TX · other · 1d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Wi-Fi Software Engineer (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8715500002?gh_jid=8715500002</link>
-      <guid isPermaLink="false">7b7dfead06d61f7e</guid>
-      <description>Bastrop, TX · other · 1d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8715832002?gh_jid=8715832002</link>
+      <guid isPermaLink="false">504e2af2a08454b4</guid>
+      <description>Palo Alto, CA · other · 1d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2478,22 +2555,8 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Fullstack</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002</link>
-      <guid isPermaLink="false">5d817d23d47b3929</guid>
-      <description>Seattle, Washington · other · 2d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Fullstack</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002</link>
       <guid isPermaLink="false">2e094679bca63e8b</guid>
-      <description>Mountain View, California; San Francisco, California · other · 2d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Fullstack</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002</link>
-      <guid isPermaLink="false">68c8979bffb454a6</guid>
       <description>Mountain View, California; San Francisco, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2506,9 +2569,23 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Fullstack</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002</link>
+      <guid isPermaLink="false">68c8979bffb454a6</guid>
+      <description>Mountain View, California; San Francisco, California · other · 2d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Fullstack</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8099342002</link>
       <guid isPermaLink="false">7cc274516ed9b66b</guid>
       <description>Vancouver, Canada · other · 2d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Fullstack</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002</link>
+      <guid isPermaLink="false">5d817d23d47b3929</guid>
+      <description>Seattle, Washington · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2625,16 +2702,16 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002</link>
-      <guid isPermaLink="false">11ccc4a3fa96e3bd</guid>
-      <description>Aarhus, Denmark · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002</link>
+      <guid isPermaLink="false">893d8bdfdabf2b1c</guid>
+      <description>London, United Kingdom · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002</link>
-      <guid isPermaLink="false">893d8bdfdabf2b1c</guid>
-      <description>London, United Kingdom · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002</link>
+      <guid isPermaLink="false">11ccc4a3fa96e3bd</guid>
+      <description>Aarhus, Denmark · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2646,16 +2723,16 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002</link>
-      <guid isPermaLink="false">bcddd175f2cfb885</guid>
-      <description>Amsterdam, Netherlands · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002</link>
+      <guid isPermaLink="false">d9be831edfe51857</guid>
+      <description>Berlin, Germany · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002</link>
-      <guid isPermaLink="false">d9be831edfe51857</guid>
-      <description>Berlin, Germany · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002</link>
+      <guid isPermaLink="false">bcddd175f2cfb885</guid>
+      <description>Amsterdam, Netherlands · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2667,16 +2744,16 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002</link>
-      <guid isPermaLink="false">90e32f90d2b5d9e0</guid>
-      <description>Mountain View, California · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7274557002</link>
+      <guid isPermaLink="false">a7e80bc154ad4ddc</guid>
+      <description>Seattle, Washington · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7274557002</link>
-      <guid isPermaLink="false">a7e80bc154ad4ddc</guid>
-      <description>Seattle, Washington · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002</link>
+      <guid isPermaLink="false">90e32f90d2b5d9e0</guid>
+      <description>Mountain View, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2688,9 +2765,9 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8407527002</link>
-      <guid isPermaLink="false">6c39a915a5e7a3bb</guid>
-      <description>Berlin, Germany · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422477002</link>
+      <guid isPermaLink="false">a85070203ae70ce3</guid>
+      <description>Amsterdam, Netherlands · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2702,6 +2779,13 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002</link>
+      <guid isPermaLink="false">c4b010cb78dffcd6</guid>
+      <description>Zürich, Switzerland · other · 2d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002</link>
       <guid isPermaLink="false">2b6658aa37bc7452</guid>
       <description>London, United Kingdom · other · 2d</description>
@@ -2709,16 +2793,9 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422477002</link>
-      <guid isPermaLink="false">a85070203ae70ce3</guid>
-      <description>Amsterdam, Netherlands · other · 2d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002</link>
-      <guid isPermaLink="false">c4b010cb78dffcd6</guid>
-      <description>Zürich, Switzerland · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8407527002</link>
+      <guid isPermaLink="false">6c39a915a5e7a3bb</guid>
+      <description>Berlin, Germany · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2947,16 +3024,16 @@
     </item>
     <item>
       <title>Databricks — Sr. Staff Software Engineer — Observability, Insights &amp; Governance</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002</link>
-      <guid isPermaLink="false">105be2d3dfcc1298</guid>
-      <description>Bellevue, Washington; Seattle, Washington · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002</link>
+      <guid isPermaLink="false">706161d42d11bf58</guid>
+      <description>Mountain View, California; San Francisco, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Sr. Staff Software Engineer — Observability, Insights &amp; Governance</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002</link>
-      <guid isPermaLink="false">706161d42d11bf58</guid>
-      <description>Mountain View, California; San Francisco, California · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002</link>
+      <guid isPermaLink="false">105be2d3dfcc1298</guid>
+      <description>Bellevue, Washington; Seattle, Washington · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3080,15 +3157,15 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - AI Research Infrastructure</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8552484002</link>
-      <guid isPermaLink="false">95771d26aeb26329</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8532682002</link>
+      <guid isPermaLink="false">a5db16239036f538</guid>
       <description>New York City, New York; San Francisco, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - AI Research Infrastructure</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8532682002</link>
-      <guid isPermaLink="false">a5db16239036f538</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8552484002</link>
+      <guid isPermaLink="false">95771d26aeb26329</guid>
       <description>New York City, New York; San Francisco, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3101,13 +3178,6 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002</link>
-      <guid isPermaLink="false">f5fd51870e015b24</guid>
-      <description>Mountain View, California · other · 2d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Staff Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
       <guid isPermaLink="false">fb40916992e1a363</guid>
       <description>Amsterdam, Netherlands · other · 2d</description>
@@ -3115,23 +3185,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002</link>
-      <guid isPermaLink="false">8dfe1193df322fd7</guid>
-      <description>Bellevue, Washington · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002</link>
+      <guid isPermaLink="false">f51c9989663a679f</guid>
+      <description>Seattle, Washington · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002</link>
-      <guid isPermaLink="false">495ed840808fffe2</guid>
-      <description>San Francisco, California · other · 2d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002</link>
-      <guid isPermaLink="false">f416496950d6f1ec</guid>
-      <description>Bengaluru, India · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002</link>
+      <guid isPermaLink="false">f5fd51870e015b24</guid>
+      <description>Mountain View, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3143,9 +3206,23 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002</link>
-      <guid isPermaLink="false">f51c9989663a679f</guid>
-      <description>Seattle, Washington · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002</link>
+      <guid isPermaLink="false">8dfe1193df322fd7</guid>
+      <description>Bellevue, Washington · other · 2d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Staff Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002</link>
+      <guid isPermaLink="false">f416496950d6f1ec</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Staff Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002</link>
+      <guid isPermaLink="false">495ed840808fffe2</guid>
+      <description>San Francisco, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3192,16 +3269,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Database Engine Internals</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012818002</link>
-      <guid isPermaLink="false">84aaf8c3aead9571</guid>
-      <description>Belgrade, Serbia · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002</link>
+      <guid isPermaLink="false">48f46a7a19ddad19</guid>
+      <description>San Francisco, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Database Engine Internals</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002</link>
-      <guid isPermaLink="false">48f46a7a19ddad19</guid>
-      <description>San Francisco, California · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012818002</link>
+      <guid isPermaLink="false">84aaf8c3aead9571</guid>
+      <description>Belgrade, Serbia · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3213,13 +3290,6 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002</link>
-      <guid isPermaLink="false">408b5364750c7afe</guid>
-      <description>San Francisco, California · other · 2d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002</link>
       <guid isPermaLink="false">bfaca1ec851dd8b4</guid>
       <description>Mountain View, California · other · 2d</description>
@@ -3227,16 +3297,23 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002</link>
-      <guid isPermaLink="false">f88ed55e40ffc257</guid>
-      <description>Belgrade, Serbia · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002</link>
+      <guid isPermaLink="false">048418dc6e4fb67a</guid>
+      <description>Bellevue, Washington · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002</link>
-      <guid isPermaLink="false">048418dc6e4fb67a</guid>
-      <description>Bellevue, Washington · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002</link>
+      <guid isPermaLink="false">408b5364750c7afe</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002</link>
+      <guid isPermaLink="false">f88ed55e40ffc257</guid>
+      <description>Belgrade, Serbia · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3276,16 +3353,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002</link>
-      <guid isPermaLink="false">898148f0d1b020df</guid>
-      <description>Bellevue, Washington · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002</link>
+      <guid isPermaLink="false">9ab4edc91423a494</guid>
+      <description>Mountain View, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002</link>
-      <guid isPermaLink="false">9ab4edc91423a494</guid>
-      <description>Mountain View, California · other · 2d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002</link>
+      <guid isPermaLink="false">898148f0d1b020df</guid>
+      <description>Bellevue, Washington · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3346,15 +3423,15 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer, AI Native Web Platform</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002</link>
-      <guid isPermaLink="false">4437abb7a7294999</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002</link>
+      <guid isPermaLink="false">348417584ac1e588</guid>
       <description>Mountain View, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer, AI Native Web Platform</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002</link>
-      <guid isPermaLink="false">348417584ac1e588</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002</link>
+      <guid isPermaLink="false">4437abb7a7294999</guid>
       <description>Mountain View, California · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3619,16 +3696,16 @@
     </item>
     <item>
       <title>Instacart — Engineering Manager, Service Platform</title>
-      <link>https://instacart.careers/job/?gh_jid=7960958</link>
-      <guid isPermaLink="false">d207f53e27e6b5e5</guid>
-      <description>United States - Remote · other · 2d</description>
+      <link>https://instacart.careers/job/?gh_jid=7960988</link>
+      <guid isPermaLink="false">6b0bbd13ae434a24</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Instacart — Engineering Manager, Service Platform</title>
-      <link>https://instacart.careers/job/?gh_jid=7960988</link>
-      <guid isPermaLink="false">6b0bbd13ae434a24</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · other · 2d</description>
+      <link>https://instacart.careers/job/?gh_jid=7960958</link>
+      <guid isPermaLink="false">d207f53e27e6b5e5</guid>
+      <description>United States - Remote · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3703,16 +3780,16 @@
     </item>
     <item>
       <title>Instacart — Staff Software Engineer, Bazel &amp; Go</title>
-      <link>https://instacart.careers/job/?gh_jid=8080310</link>
-      <guid isPermaLink="false">28bdb29902e59701</guid>
-      <description>United States - Remote · other · 2d</description>
+      <link>https://instacart.careers/job/?gh_jid=8080312</link>
+      <guid isPermaLink="false">eae418e1065960ef</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Instacart — Staff Software Engineer, Bazel &amp; Go</title>
-      <link>https://instacart.careers/job/?gh_jid=8080312</link>
-      <guid isPermaLink="false">eae418e1065960ef</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · other · 2d</description>
+      <link>https://instacart.careers/job/?gh_jid=8080310</link>
+      <guid isPermaLink="false">28bdb29902e59701</guid>
+      <description>United States - Remote · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3734,6 +3811,13 @@
       <link>https://www.mongodb.com/careers/job/?gh_jid=8107301</link>
       <guid isPermaLink="false">4c7fedc46df0d8ea</guid>
       <description>Gurugram · other · 2d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — iOS Engineer</title>
+      <link>https://n26.com/en-eu/careers/positions/8108409?gh_jid=8108409</link>
+      <guid isPermaLink="false">b4c8417e028d3f36</guid>
+      <description>Berlin, Barcelona · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3821,13 +3905,6 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Scaleai — Senior Full-Stack Software Engineer, (Forward Deployed), GPS</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4673310005</link>
-      <guid isPermaLink="false">465887e74828d0f7</guid>
-      <description>London, UK · other · 2d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Snowflake — Principal Data Platform Architect</title>
       <link>https://jobs.ashbyhq.com/snowflake/95564ff4-bf27-4b41-a87e-e4defff7cd4e</link>
       <guid isPermaLink="false">9f02dcc5be1a64aa</guid>
@@ -3864,16 +3941,16 @@
     </item>
     <item>
       <title>SpaceX — Satellite Policy Manager (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8691166002?gh_jid=8691166002</link>
-      <guid isPermaLink="false">1acb4243b8ccb982</guid>
-      <description>Redmond, WA · other · 2d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8691128002?gh_jid=8691128002</link>
+      <guid isPermaLink="false">41371ed4dbb9755a</guid>
+      <description>Washington, DC · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Satellite Policy Manager (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8691128002?gh_jid=8691128002</link>
-      <guid isPermaLink="false">41371ed4dbb9755a</guid>
-      <description>Washington, DC · other · 2d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8691166002?gh_jid=8691166002</link>
+      <guid isPermaLink="false">1acb4243b8ccb982</guid>
+      <description>Redmond, WA · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4172,9 +4249,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer</title>
-      <link>https://stripe.com/jobs/search?gh_jid=7991636</link>
-      <guid isPermaLink="false">8ee7068a40f708f4</guid>
-      <description>Seattle · other · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8107379</link>
+      <guid isPermaLink="false">7aac6260ba1b97ae</guid>
+      <description>South San Francisco, CA · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4186,9 +4263,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8107379</link>
-      <guid isPermaLink="false">7aac6260ba1b97ae</guid>
-      <description>South San Francisco, CA · other · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=7991636</link>
+      <guid isPermaLink="false">8ee7068a40f708f4</guid>
+      <description>Seattle · other · 2d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4872,13 +4949,6 @@
     </item>
     <item>
       <title>Mongodb — Manager, Site Reliability Engineering - Storage Layer Service</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7743304</link>
-      <guid isPermaLink="false">80c15a7732300bfd</guid>
-      <description>New York City · other · 3d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mongodb — Manager, Site Reliability Engineering - Storage Layer Service</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=7957589</link>
       <guid isPermaLink="false">ef54ee31747a2588</guid>
       <description>Cork · other · 3d</description>
@@ -4889,6 +4959,13 @@
       <link>https://www.mongodb.com/careers/job/?gh_jid=7818635</link>
       <guid isPermaLink="false">8add1a4c4b135ed1</guid>
       <description>Dublin · other · 3d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mongodb — Manager, Site Reliability Engineering - Storage Layer Service</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7743304</link>
+      <guid isPermaLink="false">80c15a7732300bfd</guid>
+      <description>New York City · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4970,16 +5047,16 @@
     </item>
     <item>
       <title>Mongodb — Senior Software Engineer, Forward Deployed AI Engineer</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7392902</link>
-      <guid isPermaLink="false">f21fb0111aa0c42d</guid>
-      <description>Cork, Ireland; Dublin, Ireland · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7590735</link>
+      <guid isPermaLink="false">1aaaee5d5a320b56</guid>
+      <description>Ireland · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Mongodb — Senior Software Engineer, Forward Deployed AI Engineer</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7590735</link>
-      <guid isPermaLink="false">1aaaee5d5a320b56</guid>
-      <description>Ireland · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7392902</link>
+      <guid isPermaLink="false">f21fb0111aa0c42d</guid>
+      <description>Cork, Ireland; Dublin, Ireland · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5026,16 +5103,16 @@
     </item>
     <item>
       <title>Mongodb — Site Reliability Engineer (Senior or Staff), Deployments</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7727913</link>
-      <guid isPermaLink="false">8f9e9dcdcebacd94</guid>
-      <description>Toronto · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7727910</link>
+      <guid isPermaLink="false">c1a37ece67b27fd0</guid>
+      <description>Boston; Miami; New Jersey; New York City; Princeton; Raleigh; Washington DC · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Mongodb — Site Reliability Engineer (Senior or Staff), Deployments</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7727910</link>
-      <guid isPermaLink="false">c1a37ece67b27fd0</guid>
-      <description>Boston; Miami; New Jersey; New York City; Princeton; Raleigh; Washington DC · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7727913</link>
+      <guid isPermaLink="false">8f9e9dcdcebacd94</guid>
+      <description>Toronto · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5089,30 +5166,9 @@
     </item>
     <item>
       <title>Mongodb — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8107198</link>
-      <guid isPermaLink="false">079305eb06c1e3b7</guid>
-      <description>New York City · other · 3d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mongodb — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8092317</link>
-      <guid isPermaLink="false">5da37839012eee44</guid>
-      <description>Sydney · other · 3d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mongodb — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8089124</link>
-      <guid isPermaLink="false">981b6fda89022e3d</guid>
-      <description>United States · other · 3d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mongodb — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8108725</link>
-      <guid isPermaLink="false">9649c7b680898e56</guid>
-      <description>Alberta; British Columbia; Manitoba; Nova Scotia; Ontario; Quebec · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8083366</link>
+      <guid isPermaLink="false">86cc509ce14125f1</guid>
+      <description>Gurugram · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5124,9 +5180,23 @@
     </item>
     <item>
       <title>Mongodb — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8083366</link>
-      <guid isPermaLink="false">86cc509ce14125f1</guid>
-      <description>Gurugram · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8107198</link>
+      <guid isPermaLink="false">079305eb06c1e3b7</guid>
+      <description>New York City · other · 3d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mongodb — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8108725</link>
+      <guid isPermaLink="false">9649c7b680898e56</guid>
+      <description>Alberta; British Columbia; Manitoba; Nova Scotia; Ontario; Quebec · other · 3d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mongodb — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8089124</link>
+      <guid isPermaLink="false">981b6fda89022e3d</guid>
+      <description>United States · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5134,6 +5204,13 @@
       <link>https://www.mongodb.com/careers/job/?gh_jid=8083761</link>
       <guid isPermaLink="false">afa153cf6c07094e</guid>
       <description>New York City · other · 3d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mongodb — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8092317</link>
+      <guid isPermaLink="false">5da37839012eee44</guid>
+      <description>Sydney · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5159,16 +5236,16 @@
     </item>
     <item>
       <title>Mongodb — Software Engineer 3, Atlas Search Systems</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7523920</link>
-      <guid isPermaLink="false">6865aed5c9bebef4</guid>
-      <description>San Francisco · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7662950</link>
+      <guid isPermaLink="false">c92c6c391e29a4bc</guid>
+      <description>Toronto · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Mongodb — Software Engineer 3, Atlas Search Systems</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7662950</link>
-      <guid isPermaLink="false">c92c6c391e29a4bc</guid>
-      <description>Toronto · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7523920</link>
+      <guid isPermaLink="false">6865aed5c9bebef4</guid>
+      <description>San Francisco · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5194,16 +5271,16 @@
     </item>
     <item>
       <title>Mongodb — Software Engineer, Code Generation</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7311708</link>
-      <guid isPermaLink="false">71b31490d0072699</guid>
-      <description>British Columbia; Calgary · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7311666</link>
+      <guid isPermaLink="false">fe742a102d40dde3</guid>
+      <description>California; Colorado; Montana; Nevada; New Mexico; Oregon; Utah; Washington · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Mongodb — Software Engineer, Code Generation</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7311666</link>
-      <guid isPermaLink="false">fe742a102d40dde3</guid>
-      <description>California; Colorado; Montana; Nevada; New Mexico; Oregon; Utah; Washington · other · 3d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7311708</link>
+      <guid isPermaLink="false">71b31490d0072699</guid>
+      <description>British Columbia; Calgary · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5232,6 +5309,13 @@
       <link>https://www.mongodb.com/careers/job/?gh_jid=7460019</link>
       <guid isPermaLink="false">9392df22b8e83e1a</guid>
       <description>Palo Alto · other · 3d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Backend Engineer - Connectivity</title>
+      <link>https://n26.com/en-eu/careers/positions/7992597?gh_jid=7992597</link>
+      <guid isPermaLink="false">e13a6f610d52d8fb</guid>
+      <description>Berlin, Barcelona · other · 3d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5641,6 +5725,13 @@
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>N26 — Backend Engineer - Lending</title>
+      <link>https://n26.com/en-eu/careers/positions/8129812?gh_jid=8129812</link>
+      <guid isPermaLink="false">08f19c371e0ce657</guid>
+      <description>Berlin · other · 6d</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Notion — Software Engineer Intern (Summer 2027)</title>
       <link>https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c</link>
       <guid isPermaLink="false">da9d6e3435e6b8f3</guid>
@@ -5852,29 +5943,15 @@
     </item>
     <item>
       <title>Epicgames — Principal Engineer, AI Platform</title>
-      <link>https://epicgames.com/careers/jobs/5996485004?gh_jid=5996485004</link>
-      <guid isPermaLink="false">2c50d762de383f60</guid>
-      <description>Cary,North Carolina,United States · other · 7d</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Epicgames — Principal Engineer, AI Platform</title>
       <link>https://epicgames.com/careers/jobs/5996487004?gh_jid=5996487004</link>
       <guid isPermaLink="false">bfebaf631ea2d900</guid>
       <description>BLANK,BLANK,Multiple Locations · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epicgames — Principal Software Engineer, Media Services</title>
-      <link>https://epicgames.com/careers/jobs/5990685004?gh_jid=5990685004</link>
-      <guid isPermaLink="false">b7f0652c72c954fa</guid>
-      <description>Cary,North Carolina,United States · other · 7d</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Epicgames — Product Management Director (Platform)</title>
-      <link>https://epicgames.com/careers/jobs/5674509004?gh_jid=5674509004</link>
-      <guid isPermaLink="false">d042d49a2c605f5f</guid>
+      <title>Epicgames — Principal Engineer, AI Platform</title>
+      <link>https://epicgames.com/careers/jobs/5996485004?gh_jid=5996485004</link>
+      <guid isPermaLink="false">2c50d762de383f60</guid>
       <description>Cary,North Carolina,United States · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -5883,6 +5960,13 @@
       <link>https://epicgames.com/careers/jobs/5674511004?gh_jid=5674511004</link>
       <guid isPermaLink="false">3c55bd1c91a93256</guid>
       <description>BLANK,BLANK,Multiple Locations · other · 7d</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epicgames — Product Management Director (Platform)</title>
+      <link>https://epicgames.com/careers/jobs/5674509004?gh_jid=5674509004</link>
+      <guid isPermaLink="false">d042d49a2c605f5f</guid>
+      <description>Cary,North Carolina,United States · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5901,16 +5985,16 @@
     </item>
     <item>
       <title>Epicgames — Senior Software Engineer</title>
-      <link>https://epicgames.com/careers/jobs/6122983004?gh_jid=6122983004</link>
-      <guid isPermaLink="false">45b6f38561da62d9</guid>
-      <description>Cary,North Carolina,United States · other · 7d</description>
+      <link>https://epicgames.com/careers/jobs/6122985004?gh_jid=6122985004</link>
+      <guid isPermaLink="false">eae92a1be25b2ef0</guid>
+      <description>BLANK,BLANK,Multiple Locations · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Epicgames — Senior Software Engineer</title>
-      <link>https://epicgames.com/careers/jobs/6122985004?gh_jid=6122985004</link>
-      <guid isPermaLink="false">eae92a1be25b2ef0</guid>
-      <description>BLANK,BLANK,Multiple Locations · other · 7d</description>
+      <link>https://epicgames.com/careers/jobs/6122983004?gh_jid=6122983004</link>
+      <guid isPermaLink="false">45b6f38561da62d9</guid>
+      <description>Cary,North Carolina,United States · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5953,13 +6037,6 @@
       <link>https://job-boards.greenhouse.io/scaleai/jobs/4520320005</link>
       <guid isPermaLink="false">9bf7887b13a580a2</guid>
       <description>San Francisco, CA; New York, NY · other · 7d</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scaleai — Forward Deployed Software Engineer, Public Sector</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4481921005</link>
-      <guid isPermaLink="false">3f3110d5648470ba</guid>
-      <description>Austin, TX; Colorado Springs, CO; Honolulu, HI; St. Louis, MO; Washington, DC · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6076,16 +6153,16 @@
     </item>
     <item>
       <title>Twilio — Principal Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7644471</link>
-      <guid isPermaLink="false">5ef2c720cc276f31</guid>
-      <description>Remote - India · other · 7d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8081530</link>
+      <guid isPermaLink="false">bca3137a83d4c3bd</guid>
+      <description>Remote - US · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Twilio — Principal Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8081530</link>
-      <guid isPermaLink="false">bca3137a83d4c3bd</guid>
-      <description>Remote - US · other · 7d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7644471</link>
+      <guid isPermaLink="false">5ef2c720cc276f31</guid>
+      <description>Remote - India · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6146,15 +6223,15 @@
     </item>
     <item>
       <title>Twilio — Software Engineer (L4)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8098945</link>
-      <guid isPermaLink="false">7eeb8666e358e421</guid>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8103253</link>
+      <guid isPermaLink="false">ef6e4f4ec46647d6</guid>
       <description>Remote - US · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Twilio — Software Engineer (L4)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8103253</link>
-      <guid isPermaLink="false">ef6e4f4ec46647d6</guid>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8098945</link>
+      <guid isPermaLink="false">7eeb8666e358e421</guid>
       <description>Remote - US · other · 7d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -6475,16 +6552,16 @@
     </item>
     <item>
       <title>SpaceX — AI Engineer, Platform Infrastructure, Special Programs</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8557252002?gh_jid=8557252002</link>
-      <guid isPermaLink="false">ddc23d9132da6295</guid>
-      <description>Washington, DC · other · 8d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8557110002?gh_jid=8557110002</link>
+      <guid isPermaLink="false">c96261312bacc900</guid>
+      <description>Palo Alto, CA · other · 8d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — AI Engineer, Platform Infrastructure, Special Programs</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8557110002?gh_jid=8557110002</link>
-      <guid isPermaLink="false">c96261312bacc900</guid>
-      <description>Palo Alto, CA · other · 8d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8557252002?gh_jid=8557252002</link>
+      <guid isPermaLink="false">ddc23d9132da6295</guid>
+      <description>Washington, DC · other · 8d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6502,13 +6579,6 @@
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — IT Network Infrastructure Engineer</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8570046002?gh_jid=8570046002</link>
-      <guid isPermaLink="false">cdbc455ba3a7e092</guid>
-      <description>Hawthorne, CA · other · 8d</description>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>SpaceX — Sr. Site Reliability Engineer</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8601441002?gh_jid=8601441002</link>
       <guid isPermaLink="false">68556c99413d5886</guid>
@@ -6517,16 +6587,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. Site Reliability Engineer - Top Secret Clearance (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8701706002?gh_jid=8701706002</link>
-      <guid isPermaLink="false">bdede97ac59dceba</guid>
-      <description>Redmond, WA · other · 8d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8640515002?gh_jid=8640515002</link>
+      <guid isPermaLink="false">bd6051aee512f3ac</guid>
+      <description>Hawthorne, CA · other · 8d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. Site Reliability Engineer - Top Secret Clearance (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8640515002?gh_jid=8640515002</link>
-      <guid isPermaLink="false">bd6051aee512f3ac</guid>
-      <description>Hawthorne, CA · other · 8d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8701706002?gh_jid=8701706002</link>
+      <guid isPermaLink="false">bdede97ac59dceba</guid>
+      <description>Redmond, WA · other · 8d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8021,13 +8091,6 @@
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — Site Reliability Engineer (Top Secret Clearance)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8601223002?gh_jid=8601223002</link>
-      <guid isPermaLink="false">3f1990c403a7a053</guid>
-      <description>Hawthorne, CA · other · 10d</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Spotify — Senior Staff Engineer - Platform &amp; Partner Experience</title>
       <link>https://jobs.lever.co/spotify/cfbb2765-b4e9-445a-b558-d1fa7876863d</link>
       <guid isPermaLink="false">1a662397e55e5a49</guid>
@@ -8406,6 +8469,13 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>N26 — iOS Engineer - Digital Identity</title>
+      <link>https://n26.com/en-eu/careers/positions/8111543?gh_jid=8111543</link>
+      <guid isPermaLink="false">f2f7391289261b88</guid>
+      <description>Berlin, Barcelona, Vienna · other · 14d</description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Notion — Software Engineer, Infrastructure</title>
       <link>https://jobs.ashbyhq.com/notion/42f18ccd-c4c8-4a85-8c1f-de12c575fe87</link>
       <guid isPermaLink="false">7c44659d90e080bd</guid>
@@ -8512,16 +8582,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. Counsel, Datacenter Development &amp; Infrastructure</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8631678002?gh_jid=8631678002</link>
-      <guid isPermaLink="false">9c2b232c0bab5b14</guid>
-      <description>Starbase, TX · other · 14d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8631722002?gh_jid=8631722002</link>
+      <guid isPermaLink="false">1a6e996abc864b4f</guid>
+      <description>Cape Canaveral, FL · other · 14d</description>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. Counsel, Datacenter Development &amp; Infrastructure</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8631722002?gh_jid=8631722002</link>
-      <guid isPermaLink="false">1a6e996abc864b4f</guid>
-      <description>Cape Canaveral, FL · other · 14d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8631678002?gh_jid=8631678002</link>
+      <guid isPermaLink="false">9c2b232c0bab5b14</guid>
+      <description>Starbase, TX · other · 14d</description>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8616,6 +8686,132 @@
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>N26 — Backend Engineer - Engagement</title>
+      <link>https://n26.com/en-eu/careers/positions/7925103?gh_jid=7925103</link>
+      <guid isPermaLink="false">2b4c81c5a403eefd</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Backend Engineer - Investments &amp; Savings</title>
+      <link>https://n26.com/en-eu/careers/positions/8020517?gh_jid=8020517</link>
+      <guid isPermaLink="false">8796a3c365382b9a</guid>
+      <description>Berlin, Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Backend Engineer - Lending</title>
+      <link>https://n26.com/en-eu/careers/positions/8064019?gh_jid=8064019</link>
+      <guid isPermaLink="false">410182b4d21cf2a3</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Backend Engineer - Subscriptions</title>
+      <link>https://n26.com/en-eu/careers/positions/7960138?gh_jid=7960138</link>
+      <guid isPermaLink="false">bf1d9382da711bc6</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Engineering Manager - Runtime Platform</title>
+      <link>https://n26.com/en-eu/careers/positions/8077056?gh_jid=8077056</link>
+      <guid isPermaLink="false">ef6b8754c8ca0d7d</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Engineering Manager - Runtime Platform</title>
+      <link>https://n26.com/en-eu/careers/positions/8076631?gh_jid=8076631</link>
+      <guid isPermaLink="false">1a2d22c7691f6a1d</guid>
+      <description>Berlin · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Lead Software Engineer (ServiceNow) - RegTech</title>
+      <link>https://n26.com/en-eu/careers/positions/7992499?gh_jid=7992499</link>
+      <guid isPermaLink="false">175b5b6c53ca4e39</guid>
+      <description>Berlin · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Backend Engineer - Customer Risk Lifecycle</title>
+      <link>https://n26.com/en-eu/careers/positions/7656920?gh_jid=7656920</link>
+      <guid isPermaLink="false">48ab2a7cb6996f4d</guid>
+      <description>Berlin, Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Site Reliability Engineer - Access Team</title>
+      <link>https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526</link>
+      <guid isPermaLink="false">7d9a0225774ceb4a</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Site Reliability Engineer - Access Team</title>
+      <link>https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035</link>
+      <guid isPermaLink="false">19915a2b3101f03e</guid>
+      <description>Berlin · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Site Reliability Engineer - Infrastructure</title>
+      <link>https://n26.com/en-eu/careers/positions/7797431?gh_jid=7797431</link>
+      <guid isPermaLink="false">78bbcadb6db10417</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Site Reliability Engineer - Infrastructure</title>
+      <link>https://n26.com/en-eu/careers/positions/7796233?gh_jid=7796233</link>
+      <guid isPermaLink="false">38af59360e8ccb30</guid>
+      <description>Berlin · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior Site Reliability Engineer - Software Logistics</title>
+      <link>https://n26.com/en-eu/careers/positions/8002486?gh_jid=8002486</link>
+      <guid isPermaLink="false">c33236c2bef16644</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Senior SRE - Cloud Network Engineering</title>
+      <link>https://n26.com/en-eu/careers/positions/8007338?gh_jid=8007338</link>
+      <guid isPermaLink="false">53b79e760be08345</guid>
+      <description>Berlin · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Site Reliability Engineer - Data Platform</title>
+      <link>https://n26.com/en-eu/careers/positions/7866308?gh_jid=7866308</link>
+      <guid isPermaLink="false">a82ccf11c0f7a2bb</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Site Reliability Engineer - Data Platform</title>
+      <link>https://n26.com/en-eu/careers/positions/7866309?gh_jid=7866309</link>
+      <guid isPermaLink="false">6c5129b5d8fcd095</guid>
+      <description>Berlin · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Site Reliability Engineer - Observability</title>
+      <link>https://n26.com/en-eu/careers/positions/7405138?gh_jid=7405138</link>
+      <guid isPermaLink="false">107e29df2f3aae13</guid>
+      <description>Berlin · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>N26 — Site Reliability Engineer - Observability</title>
+      <link>https://n26.com/en-eu/careers/positions/8053277?gh_jid=8053277</link>
+      <guid isPermaLink="false">7894aa41b7485977</guid>
+      <description>Barcelona · other · 15d</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Okta — Senior Software Engineer, Observability</title>
       <link>https://www.okta.com/company/careers/opportunity/8024818?gh_jid=8024818</link>
       <guid isPermaLink="false">62b2326792cac638</guid>
@@ -8673,15 +8869,15 @@
     </item>
     <item>
       <title>Pinterest — Sr. Software Engineer</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=7896332</link>
-      <guid isPermaLink="false">7203b9c62b8fcc0c</guid>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8100299</link>
+      <guid isPermaLink="false">9c234530845f42b1</guid>
       <description>Dublin, IE · other · 15d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Pinterest — Sr. Software Engineer</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8100299</link>
-      <guid isPermaLink="false">9c234530845f42b1</guid>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=7896332</link>
+      <guid isPermaLink="false">7203b9c62b8fcc0c</guid>
       <description>Dublin, IE · other · 15d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -8736,16 +8932,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. RAN Software Engineer (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8673035002?gh_jid=8673035002</link>
-      <guid isPermaLink="false">a7a20a84a65ed227</guid>
-      <description>Redmond, WA · other · 15d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8672784002?gh_jid=8672784002</link>
+      <guid isPermaLink="false">84b9cb83322a78c0</guid>
+      <description>Palo Alto, CA · other · 15d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. RAN Software Engineer (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8672784002?gh_jid=8672784002</link>
-      <guid isPermaLink="false">84b9cb83322a78c0</guid>
-      <description>Palo Alto, CA · other · 15d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8673035002?gh_jid=8673035002</link>
+      <guid isPermaLink="false">a7a20a84a65ed227</guid>
+      <description>Redmond, WA · other · 15d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8939,16 +9135,16 @@
     </item>
     <item>
       <title>Scaleai — Senior Software Engineer, Identity</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4711898005</link>
-      <guid isPermaLink="false">f4a0d1c6004c334c</guid>
-      <description>San Francisco, CA; New York, NY; Washington, DC · other · 16d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4715352005</link>
+      <guid isPermaLink="false">ac3858a2c9a349ed</guid>
+      <description>London, UK · other · 16d</description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Scaleai — Senior Software Engineer, Identity</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4715352005</link>
-      <guid isPermaLink="false">ac3858a2c9a349ed</guid>
-      <description>London, UK · other · 16d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4711898005</link>
+      <guid isPermaLink="false">f4a0d1c6004c334c</guid>
+      <description>San Francisco, CA; New York, NY; Washington, DC · other · 16d</description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9520,13 +9716,6 @@
     </item>
     <item>
       <title>Block — Senior Site Reliability Engineer</title>
-      <link>http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008</link>
-      <guid isPermaLink="false">4062282a4de36bb4</guid>
-      <description>New York, NY, United States of America · other · 17d</description>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Block — Senior Site Reliability Engineer</title>
       <link>http://block.xyz/careers/jobs/5225436008?gh_jid=5225436008</link>
       <guid isPermaLink="false">b6eb9068028b80c2</guid>
       <description>Melbourne, Australia · other · 17d</description>
@@ -9537,6 +9726,13 @@
       <link>http://block.xyz/careers/jobs/5181749008?gh_jid=5181749008</link>
       <guid isPermaLink="false">05c31b5864f2b8b3</guid>
       <description>Bay Area, CA, United States of America · other · 17d</description>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Block — Senior Site Reliability Engineer</title>
+      <link>http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008</link>
+      <guid isPermaLink="false">4062282a4de36bb4</guid>
+      <description>New York, NY, United States of America · other · 17d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9611,6 +9807,13 @@
     </item>
     <item>
       <title>Block — Staff Software Engineer, Cash App Banking</title>
+      <link>http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008</link>
+      <guid isPermaLink="false">a930250a5d3f8c43</guid>
+      <description>Toronto, Ontario, Canada · other · 17d</description>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Block — Staff Software Engineer, Cash App Banking</title>
       <link>http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008</link>
       <guid isPermaLink="false">539e358960f4de7e</guid>
       <description>Bay Area, CA, United States of America · other · 17d</description>
@@ -9624,10 +9827,10 @@
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Block — Staff Software Engineer, Cash App Banking</title>
-      <link>http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008</link>
-      <guid isPermaLink="false">a930250a5d3f8c43</guid>
-      <description>Toronto, Ontario, Canada · other · 17d</description>
+      <title>Block — Tech Lead, Business Platform Engineering (Bizplat)</title>
+      <link>http://block.xyz/careers/jobs/5311661008?gh_jid=5311661008</link>
+      <guid isPermaLink="false">166ab759043ff2ce</guid>
+      <description>New York, NY, United States of America · other · 17d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9642,13 +9845,6 @@
       <link>http://block.xyz/careers/jobs/5025564008?gh_jid=5025564008</link>
       <guid isPermaLink="false">01d3863967c082eb</guid>
       <description>Bay Area, CA, United States of America · other · 17d</description>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Block — Tech Lead, Business Platform Engineering (Bizplat)</title>
-      <link>http://block.xyz/careers/jobs/5311661008?gh_jid=5311661008</link>
-      <guid isPermaLink="false">166ab759043ff2ce</guid>
-      <description>New York, NY, United States of America · other · 17d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9821,16 +10017,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer, CDN (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8672206002?gh_jid=8672206002</link>
-      <guid isPermaLink="false">08107c55902ae07f</guid>
-      <description>Palo Alto, CA · other · 17d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8632177002?gh_jid=8632177002</link>
+      <guid isPermaLink="false">20c46fe37198e34b</guid>
+      <description>Redmond, WA · other · 17d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer, CDN (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8632177002?gh_jid=8632177002</link>
-      <guid isPermaLink="false">20c46fe37198e34b</guid>
-      <description>Redmond, WA · other · 17d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8672206002?gh_jid=8672206002</link>
+      <guid isPermaLink="false">08107c55902ae07f</guid>
+      <description>Palo Alto, CA · other · 17d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10864,6 +11060,13 @@
     </item>
     <item>
       <title>SpaceX — Application Software Engineer, Applied AI</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002</link>
+      <guid isPermaLink="false">cffb4c98b19c5fa1</guid>
+      <description>Bastrop, TX · other · 21d</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Application Software Engineer, Applied AI</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002</link>
       <guid isPermaLink="false">46b259820cf2bed4</guid>
       <description>McGregor, TX · other · 21d</description>
@@ -10871,30 +11074,9 @@
     </item>
     <item>
       <title>SpaceX — Application Software Engineer, Applied AI</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002</link>
-      <guid isPermaLink="false">5b0429c11b9bea04</guid>
-      <description>Starbase, TX · other · 21d</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Application Software Engineer, Applied AI</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002</link>
-      <guid isPermaLink="false">eb08e7b9a4e665a6</guid>
-      <description>Hawthorne, CA · other · 21d</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Application Software Engineer, Applied AI</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002</link>
-      <guid isPermaLink="false">30c995dca51ef65e</guid>
-      <description>Redmond, WA · other · 21d</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Application Software Engineer, Applied AI</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002</link>
-      <guid isPermaLink="false">cffb4c98b19c5fa1</guid>
-      <description>Bastrop, TX · other · 21d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002</link>
+      <guid isPermaLink="false">f2576a1ed47562f4</guid>
+      <description>Vandenberg, CA · other · 21d</description>
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10906,9 +11088,23 @@
     </item>
     <item>
       <title>SpaceX — Application Software Engineer, Applied AI</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002</link>
-      <guid isPermaLink="false">f2576a1ed47562f4</guid>
-      <description>Vandenberg, CA · other · 21d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002</link>
+      <guid isPermaLink="false">eb08e7b9a4e665a6</guid>
+      <description>Hawthorne, CA · other · 21d</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Application Software Engineer, Applied AI</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002</link>
+      <guid isPermaLink="false">5b0429c11b9bea04</guid>
+      <description>Starbase, TX · other · 21d</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Application Software Engineer, Applied AI</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002</link>
+      <guid isPermaLink="false">30c995dca51ef65e</guid>
+      <description>Redmond, WA · other · 21d</description>
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11025,16 +11221,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer, Telemetry (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8656526002?gh_jid=8656526002</link>
-      <guid isPermaLink="false">a2ff72e6cfc181e4</guid>
-      <description>Redmond, WA · other · 22d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8631930002?gh_jid=8631930002</link>
+      <guid isPermaLink="false">62819ce847eafe3a</guid>
+      <description>Hawthorne, CA · other · 22d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer, Telemetry (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8631930002?gh_jid=8631930002</link>
-      <guid isPermaLink="false">62819ce847eafe3a</guid>
-      <description>Hawthorne, CA · other · 22d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8656526002?gh_jid=8656526002</link>
+      <guid isPermaLink="false">a2ff72e6cfc181e4</guid>
+      <description>Redmond, WA · other · 22d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11053,16 +11249,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer, Telemetry (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8631952002?gh_jid=8631952002</link>
-      <guid isPermaLink="false">213a0a27068b4c73</guid>
-      <description>Hawthorne, CA · other · 22d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8656520002?gh_jid=8656520002</link>
+      <guid isPermaLink="false">f1b2700fd1ec4846</guid>
+      <description>Redmond, WA · other · 22d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer, Telemetry (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8656520002?gh_jid=8656520002</link>
-      <guid isPermaLink="false">f1b2700fd1ec4846</guid>
-      <description>Redmond, WA · other · 22d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8631952002?gh_jid=8631952002</link>
+      <guid isPermaLink="false">213a0a27068b4c73</guid>
+      <description>Hawthorne, CA · other · 22d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11305,16 +11501,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. Site Reliability Engineer (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8654199002?gh_jid=8654199002</link>
-      <guid isPermaLink="false">04227580136711b9</guid>
-      <description>Palo Alto, CA · other · 23d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8654200002?gh_jid=8654200002</link>
+      <guid isPermaLink="false">25976c0d6b8b0484</guid>
+      <description>Redmond, WA · other · 23d</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. Site Reliability Engineer (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8654200002?gh_jid=8654200002</link>
-      <guid isPermaLink="false">25976c0d6b8b0484</guid>
-      <description>Redmond, WA · other · 23d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8654199002?gh_jid=8654199002</link>
+      <guid isPermaLink="false">04227580136711b9</guid>
+      <description>Palo Alto, CA · other · 23d</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11592,16 +11788,9 @@
     </item>
     <item>
       <title>SpaceX — Application Software Engineer</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002</link>
-      <guid isPermaLink="false">10d63452fe4ff616</guid>
-      <description>Memphis, TN · other · 27d</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Application Software Engineer</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002</link>
-      <guid isPermaLink="false">3363db4a4a3a09b2</guid>
-      <description>Starbase, TX · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8611189002?gh_jid=8611189002</link>
+      <guid isPermaLink="false">902f6f267d50ed0f</guid>
+      <description>Palo Alto, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11620,9 +11809,16 @@
     </item>
     <item>
       <title>SpaceX — Application Software Engineer</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8611189002?gh_jid=8611189002</link>
-      <guid isPermaLink="false">902f6f267d50ed0f</guid>
-      <description>Palo Alto, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002</link>
+      <guid isPermaLink="false">10d63452fe4ff616</guid>
+      <description>Memphis, TN · other · 27d</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Application Software Engineer</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002</link>
+      <guid isPermaLink="false">3363db4a4a3a09b2</guid>
+      <description>Starbase, TX · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11676,16 +11872,16 @@
     </item>
     <item>
       <title>SpaceX — Embedded Software Engineer, Laser Mesh Routing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8578936002?gh_jid=8578936002</link>
-      <guid isPermaLink="false">68c2a5200d804437</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8578934002?gh_jid=8578934002</link>
+      <guid isPermaLink="false">edf4e298d22c6051</guid>
+      <description>Palo Alto, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Embedded Software Engineer, Laser Mesh Routing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8578934002?gh_jid=8578934002</link>
-      <guid isPermaLink="false">edf4e298d22c6051</guid>
-      <description>Palo Alto, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8578936002?gh_jid=8578936002</link>
+      <guid isPermaLink="false">68c2a5200d804437</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11732,6 +11928,13 @@
     </item>
     <item>
       <title>SpaceX — Full Stack Software Engineer (Application Software)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8648213002?gh_jid=8648213002</link>
+      <guid isPermaLink="false">35839cba285c3ea2</guid>
+      <description>Memphis, TN · other · 27d</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Full Stack Software Engineer (Application Software)</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8495180002?gh_jid=8495180002</link>
       <guid isPermaLink="false">f3ec79b1e54f00b3</guid>
       <description>Bastrop, TX · other · 27d</description>
@@ -11742,13 +11945,6 @@
       <link>https://boards.greenhouse.io/spacex/jobs/8639573002?gh_jid=8639573002</link>
       <guid isPermaLink="false">715fec139c228abb</guid>
       <description>Starbase, TX · other · 27d</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Full Stack Software Engineer (Application Software)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8648213002?gh_jid=8648213002</link>
-      <guid isPermaLink="false">35839cba285c3ea2</guid>
-      <description>Memphis, TN · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11879,16 +12075,16 @@
     </item>
     <item>
       <title>SpaceX — Manager, Datacenter Compute Infrastructure (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8647973002?gh_jid=8647973002</link>
-      <guid isPermaLink="false">90ff5663a153cc51</guid>
-      <description>Palo Alto, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8648031002?gh_jid=8648031002</link>
+      <guid isPermaLink="false">d8766fbc761b0e6a</guid>
+      <description>Austin, TX · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Manager, Datacenter Compute Infrastructure (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8648031002?gh_jid=8648031002</link>
-      <guid isPermaLink="false">d8766fbc761b0e6a</guid>
-      <description>Austin, TX · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8647973002?gh_jid=8647973002</link>
+      <guid isPermaLink="false">90ff5663a153cc51</guid>
+      <description>Palo Alto, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11914,16 +12110,16 @@
     </item>
     <item>
       <title>SpaceX — Principal Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002</link>
-      <guid isPermaLink="false">e9753784a5dc0f53</guid>
-      <description>Sunnyvale, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8494978002?gh_jid=8494978002</link>
+      <guid isPermaLink="false">1f6fcc3107601f72</guid>
+      <description>Hawthorne, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Principal Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8560572002?gh_jid=8560572002</link>
-      <guid isPermaLink="false">03e99d40fc40b81c</guid>
-      <description>Bastrop, TX · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002</link>
+      <guid isPermaLink="false">e9753784a5dc0f53</guid>
+      <description>Sunnyvale, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11942,16 +12138,16 @@
     </item>
     <item>
       <title>SpaceX — Principal Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558817002?gh_jid=8558817002</link>
-      <guid isPermaLink="false">5d2ec47f084ce7b3</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8560572002?gh_jid=8560572002</link>
+      <guid isPermaLink="false">03e99d40fc40b81c</guid>
+      <description>Bastrop, TX · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Principal Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8494978002?gh_jid=8494978002</link>
-      <guid isPermaLink="false">1f6fcc3107601f72</guid>
-      <description>Hawthorne, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558817002?gh_jid=8558817002</link>
+      <guid isPermaLink="false">5d2ec47f084ce7b3</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11963,16 +12159,16 @@
     </item>
     <item>
       <title>SpaceX — Principal Software Engineer, Continuous Integration (Starship)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8533847002?gh_jid=8533847002</link>
-      <guid isPermaLink="false">b6871d4e11a03ae1</guid>
-      <description>Starbase, TX · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8533843002?gh_jid=8533843002</link>
+      <guid isPermaLink="false">283d070558c18d53</guid>
+      <description>Hawthorne, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Principal Software Engineer, Continuous Integration (Starship)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8533843002?gh_jid=8533843002</link>
-      <guid isPermaLink="false">283d070558c18d53</guid>
-      <description>Hawthorne, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8533847002?gh_jid=8533847002</link>
+      <guid isPermaLink="false">b6871d4e11a03ae1</guid>
+      <description>Starbase, TX · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12054,16 +12250,16 @@
     </item>
     <item>
       <title>SpaceX — Site Reliability Engineer, Kubernetes Platform (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8597472002?gh_jid=8597472002</link>
-      <guid isPermaLink="false">a1963fe9e7aa098f</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8597455002?gh_jid=8597455002</link>
+      <guid isPermaLink="false">208e72eeb48e602c</guid>
+      <description>Hawthorne, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Site Reliability Engineer, Kubernetes Platform (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8597455002?gh_jid=8597455002</link>
-      <guid isPermaLink="false">208e72eeb48e602c</guid>
-      <description>Hawthorne, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8597472002?gh_jid=8597472002</link>
+      <guid isPermaLink="false">a1963fe9e7aa098f</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12089,30 +12285,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002</link>
-      <guid isPermaLink="false">d58e9b5f449ab8df</guid>
-      <description>Hawthorne, CA · other · 27d</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002</link>
-      <guid isPermaLink="false">fe7912460adc4b7b</guid>
-      <description>Sunnyvale, CA · other · 27d</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002</link>
-      <guid isPermaLink="false">4d1e0294f5d2f35e</guid>
-      <description>Palo Alto, CA · other · 27d</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Software Engineer (Platform Team)</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8560546002?gh_jid=8560546002</link>
       <guid isPermaLink="false">9a1571f21251bf04</guid>
       <description>Bastrop, TX · other · 27d</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Software Engineer (Platform Team)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002</link>
+      <guid isPermaLink="false">d58e9b5f449ab8df</guid>
+      <description>Hawthorne, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12127,6 +12309,20 @@
       <link>https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002</link>
       <guid isPermaLink="false">d09504878dbe1a29</guid>
       <description>Redmond, WA · other · 27d</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Software Engineer (Platform Team)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002</link>
+      <guid isPermaLink="false">fe7912460adc4b7b</guid>
+      <description>Sunnyvale, CA · other · 27d</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Software Engineer (Platform Team)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002</link>
+      <guid isPermaLink="false">4d1e0294f5d2f35e</guid>
+      <description>Palo Alto, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12215,16 +12411,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer, Beam Planning (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8578907002?gh_jid=8578907002</link>
-      <guid isPermaLink="false">18abdb9a2f8c2b15</guid>
-      <description>Palo Alto, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8578929002?gh_jid=8578929002</link>
+      <guid isPermaLink="false">e3ff0dbd78264061</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer, Beam Planning (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8578929002?gh_jid=8578929002</link>
-      <guid isPermaLink="false">e3ff0dbd78264061</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8578907002?gh_jid=8578907002</link>
+      <guid isPermaLink="false">18abdb9a2f8c2b15</guid>
+      <description>Palo Alto, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12250,16 +12446,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer, C++ (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8477124002?gh_jid=8477124002</link>
-      <guid isPermaLink="false">8389a8c65a684928</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8451960002?gh_jid=8451960002</link>
+      <guid isPermaLink="false">d57bfdc9d81feafc</guid>
+      <description>Sunnyvale, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer, C++ (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8451960002?gh_jid=8451960002</link>
-      <guid isPermaLink="false">d57bfdc9d81feafc</guid>
-      <description>Sunnyvale, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8477124002?gh_jid=8477124002</link>
+      <guid isPermaLink="false">8389a8c65a684928</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12278,16 +12474,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer, Continuous Integration (Starship)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8533853002?gh_jid=8533853002</link>
-      <guid isPermaLink="false">71d5c1d11ff3defc</guid>
-      <description>Hawthorne, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8533859002?gh_jid=8533859002</link>
+      <guid isPermaLink="false">8a1353b61bd91b9d</guid>
+      <description>Starbase, TX · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer, Continuous Integration (Starship)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8533859002?gh_jid=8533859002</link>
-      <guid isPermaLink="false">8a1353b61bd91b9d</guid>
-      <description>Starbase, TX · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8533853002?gh_jid=8533853002</link>
+      <guid isPermaLink="false">71d5c1d11ff3defc</guid>
+      <description>Hawthorne, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12341,16 +12537,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer, Flight Software (Starship)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002</link>
-      <guid isPermaLink="false">7c516585e4de12fd</guid>
-      <description>Hawthorne, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8562284002?gh_jid=8562284002</link>
+      <guid isPermaLink="false">9cb6513634d6d55e</guid>
+      <description>Starbase, TX · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer, Flight Software (Starship)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8562284002?gh_jid=8562284002</link>
-      <guid isPermaLink="false">9cb6513634d6d55e</guid>
-      <description>Starbase, TX · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002</link>
+      <guid isPermaLink="false">7c516585e4de12fd</guid>
+      <description>Hawthorne, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12509,16 +12705,16 @@
     </item>
     <item>
       <title>SpaceX — Software Infrastructure Engineer (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8573279002?gh_jid=8573279002</link>
-      <guid isPermaLink="false">27440c8454c71796</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8584920002?gh_jid=8584920002</link>
+      <guid isPermaLink="false">afeb0f395dab38c9</guid>
+      <description>Palo Alto, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Infrastructure Engineer (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8584920002?gh_jid=8584920002</link>
-      <guid isPermaLink="false">afeb0f395dab38c9</guid>
-      <description>Palo Alto, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8573279002?gh_jid=8573279002</link>
+      <guid isPermaLink="false">27440c8454c71796</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12537,23 +12733,23 @@
     </item>
     <item>
       <title>SpaceX — Sr. AI Engineer, Platform Infrastructure, Special Programs</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8557126002?gh_jid=8557126002</link>
-      <guid isPermaLink="false">7fee4f3bddc86456</guid>
-      <description>Palo Alto, CA · other · 27d</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Sr. AI Engineer, Platform Infrastructure, Special Programs</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8557262002?gh_jid=8557262002</link>
       <guid isPermaLink="false">cf0b9e927c374957</guid>
       <description>Washington, DC · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>SpaceX — Sr. AI Engineer, Platform Infrastructure, Special Programs</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8557126002?gh_jid=8557126002</link>
+      <guid isPermaLink="false">7fee4f3bddc86456</guid>
+      <description>Palo Alto, CA · other · 27d</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>SpaceX — Sr. Application Software Engineer</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8611181002?gh_jid=8611181002</link>
-      <guid isPermaLink="false">17e2160628584830</guid>
-      <description>Starbase, TX · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8594168002?gh_jid=8594168002</link>
+      <guid isPermaLink="false">0877ec3c09730683</guid>
+      <description>Hawthorne, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12565,9 +12761,9 @@
     </item>
     <item>
       <title>SpaceX — Sr. Application Software Engineer</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8594168002?gh_jid=8594168002</link>
-      <guid isPermaLink="false">0877ec3c09730683</guid>
-      <description>Hawthorne, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8611181002?gh_jid=8611181002</link>
+      <guid isPermaLink="false">17e2160628584830</guid>
+      <description>Starbase, TX · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12586,16 +12782,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8579133002?gh_jid=8579133002</link>
-      <guid isPermaLink="false">eb534e6a4ce819f0</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8579132002?gh_jid=8579132002</link>
+      <guid isPermaLink="false">a496ef0dbdc020b2</guid>
+      <description>Palo Alto, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8579132002?gh_jid=8579132002</link>
-      <guid isPermaLink="false">a496ef0dbdc020b2</guid>
-      <description>Palo Alto, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8579133002?gh_jid=8579133002</link>
+      <guid isPermaLink="false">eb534e6a4ce819f0</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12733,16 +12929,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. Site Reliability Engineer (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8597497002?gh_jid=8597497002</link>
-      <guid isPermaLink="false">16a2a7ed2d936401</guid>
-      <description>Hawthorne, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002</link>
+      <guid isPermaLink="false">01ddbb7819c3af28</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. Site Reliability Engineer (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002</link>
-      <guid isPermaLink="false">01ddbb7819c3af28</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8597497002?gh_jid=8597497002</link>
+      <guid isPermaLink="false">16a2a7ed2d936401</guid>
+      <description>Hawthorne, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12782,9 +12978,9 @@
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558869002?gh_jid=8558869002</link>
-      <guid isPermaLink="false">a86c3810554ebb5c</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558870002?gh_jid=8558870002</link>
+      <guid isPermaLink="false">96ea9cf4906aea50</guid>
+      <description>Sunnyvale, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12796,9 +12992,9 @@
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558870002?gh_jid=8558870002</link>
-      <guid isPermaLink="false">96ea9cf4906aea50</guid>
-      <description>Sunnyvale, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558869002?gh_jid=8558869002</link>
+      <guid isPermaLink="false">a86c3810554ebb5c</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -13020,16 +13216,16 @@
     </item>
     <item>
       <title>SpaceX — Wireless Firmware Engineer (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002</link>
-      <guid isPermaLink="false">b1a0225dc99a6f2f</guid>
-      <description>Sunnyvale, CA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8546722002?gh_jid=8546722002</link>
+      <guid isPermaLink="false">59a3ca7b2452a49d</guid>
+      <description>Redmond, WA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Wireless Firmware Engineer (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8546722002?gh_jid=8546722002</link>
-      <guid isPermaLink="false">59a3ca7b2452a49d</guid>
-      <description>Redmond, WA · other · 27d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002</link>
+      <guid isPermaLink="false">b1a0225dc99a6f2f</guid>
+      <description>Sunnyvale, CA · other · 27d</description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -13758,13 +13954,6 @@
       <link>https://job-boards.greenhouse.io/phonepe/jobs/7799494003</link>
       <guid isPermaLink="false">5137949edd226906</guid>
       <description>Bangalore · other · 42d</description>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Plaid — Staff Software Engineer - Data Governance</title>
-      <link>https://jobs.ashbyhq.com/plaid/95225497-fc9b-4c5d-8df0-df98df219ae5</link>
-      <guid isPermaLink="false">09c9f2a97d14ef53</guid>
-      <description>San Francisco HQ · other · 42d</description>
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -17364,6 +17553,12 @@
       <description>US, Arizona, Phoenix · internship · 0d</description>
     </item>
     <item>
+      <title>Morgan Stanley — Lead Software Engineer - Fixed Income Municipal Securities eTrading (Hybrid)</title>
+      <link>https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Principal-Java-Developer--Hybrid-_PT-JR034823</link>
+      <guid isPermaLink="false">e241fd8db973912e</guid>
+      <description>Montreal, Canada · other · 0d</description>
+    </item>
+    <item>
       <title>Morgan Stanley — Principal Software Engineer - VP</title>
       <link>https://ms.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/Principal-Software-Engineer---VP_PT-JR042438</link>
       <guid isPermaLink="false">4de3fa25c0e2b726</guid>
@@ -17410,6 +17605,12 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Chips-System-Software_JR2023525</link>
       <guid isPermaLink="false">a4878479efabcbcf</guid>
       <description>US, CA, Santa Clara · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer, Quantized Inference</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Quantized-Inference_JR2021844</link>
+      <guid isPermaLink="false">176217c535d3d8ec</guid>
+      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;US, WA, Redmond&lt;br&gt;US, CA, Santa Clara&lt;/details&gt; · other · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Staff Site Reliability Engineer</title>
