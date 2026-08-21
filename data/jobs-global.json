@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T10:46:27Z",
-  "total": 187,
+  "generated_at": "2026-08-21T11:40:18Z",
+  "total": 192,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -946,6 +946,29 @@
       ]
     },
     {
+      "id": "36a558da58240319",
+      "company": "Google",
+      "title": "Software Engineer, PhD, Early Career,...",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T11:40:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cc7a168906373af1",
       "company": "Hudson River Trading",
       "title": "Software Engineer Intern",
@@ -1468,6 +1491,75 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "370eb61e0e3295cd",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Infra...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T11:40:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c11a7704129b8b60",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T11:40:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "2e3662f9560e0d0e",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T11:40:18Z",
       "tags": [
         "software",
         "programming",
@@ -4067,6 +4159,29 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3f75e139ddcfc77b",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-12",
+      "age": "70d",
+      "collected_at": "2026-08-21T11:40:18Z",
       "tags": [
         "software",
         "programming",
