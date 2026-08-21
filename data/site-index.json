@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T09:54:37Z",
-  "count": 2765,
-  "checksum": "sha256:de7bc8ed3a5dd937f1260135763d931120f9bfa78c88c6b6739e5da82e2b0d38",
+  "generated_at": "2026-08-21T10:49:51Z",
+  "count": 2763,
+  "checksum": "sha256:81417878cb614250cdb536ce37b875861ac3fa334538eabc028a4cc0bf98a748",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -745,25 +745,6 @@
       "country": "Unknown"
     },
     {
-      "id": "1d7513e0b87b3185",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Security Engineer II, Hybrid Cloud Gu...",
-      "location": "United States",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
-      "age": "0d",
-      "posted_at": "2026-08-21",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "security",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "d0c6c5402c438c0d",
       "kind": "job",
       "origin": "curated",
@@ -914,25 +895,6 @@
       "category": "consulting_finance",
       "remote_type": "onsite",
       "country": "United States"
-    },
-    {
-      "id": "238f1ec0223031ae",
-      "kind": "job",
-      "origin": "curated",
-      "company": "LGS, an IBM Company",
-      "title": "Junior to Intermediate Data Engineer",
-      "location": "Montréal, QC H3B 3M4 (Onsite)",
-      "source": "hanzili_canada",
-      "source_url": "https://github.com/hanzili/canada_sde_junior_new_grad_position",
-      "url": "https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293",
-      "age": "0d",
-      "posted_at": "2026-08-17",
-      "level": "junior",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "category": "big_tech",
-      "remote_type": "onsite",
-      "country": "Unknown"
     },
     {
       "id": "cfad94fecd82f215",
@@ -3867,6 +3829,22 @@
       "role_type": "software_engineer"
     },
     {
+      "id": "d4a5d9b8b2c05a5a",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Senior Software Engineer",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585",
+      "age": "0d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
       "id": "cec1ffe9cb7db1dd",
       "kind": "job",
       "origin": "public",
@@ -6427,22 +6405,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "ab5ae7846f00430d",
-      "kind": "job",
-      "origin": "public",
-      "company": "N26",
-      "title": "Senior Android Engineer - Payments",
-      "location": "Berlin",
-      "source": "greenhouse:n26",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
-      "url": "https://n26.com/en-eu/careers/positions/8121362?gh_jid=8121362",
-      "age": "1d",
-      "posted_at": "2026-08-20",
-      "level": "other",
-      "region": "emea",
-      "role_type": "mobile"
-    },
-    {
       "id": "0122501c6c69a68d",
       "kind": "job",
       "origin": "public",
@@ -6456,6 +6418,22 @@
       "posted_at": "2026-08-20",
       "level": "other",
       "region": "unknown",
+      "role_type": "mobile"
+    },
+    {
+      "id": "ab5ae7846f00430d",
+      "kind": "job",
+      "origin": "public",
+      "company": "N26",
+      "title": "Senior Android Engineer - Payments",
+      "location": "Berlin",
+      "source": "greenhouse:n26",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
+      "url": "https://n26.com/en-eu/careers/positions/8121362?gh_jid=8121362",
+      "age": "1d",
+      "posted_at": "2026-08-20",
+      "level": "other",
+      "region": "emea",
       "role_type": "mobile"
     },
     {
@@ -15355,22 +15333,6 @@
       "role_type": "backend"
     },
     {
-      "id": "f294a5abe28d09c8",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Senior Staff Backend Engineer - Cloud Infrastructure",
-      "location": "Mountain View, USA",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7962133",
-      "age": "4d",
-      "posted_at": "2026-08-17",
-      "level": "other",
-      "region": "us",
-      "role_type": "backend"
-    },
-    {
       "id": "9813148fc092fe7c",
       "kind": "job",
       "origin": "public",
@@ -15380,6 +15342,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7438944",
+      "age": "4d",
+      "posted_at": "2026-08-17",
+      "level": "other",
+      "region": "us",
+      "role_type": "backend"
+    },
+    {
+      "id": "f294a5abe28d09c8",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Senior Staff Backend Engineer - Cloud Infrastructure",
+      "location": "Mountain View, USA",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7962133",
       "age": "4d",
       "posted_at": "2026-08-17",
       "level": "other",
@@ -18376,22 +18354,6 @@
       "posted_at": "2026-08-13",
       "level": "mid_level",
       "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "5544fe5221356073",
-      "kind": "job",
-      "origin": "public",
-      "company": "Wise",
-      "title": "Software Engineer - Screening Controls",
-      "location": "Tallinn, Estonia",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000143239689",
-      "age": "8d",
-      "posted_at": "2026-08-13",
-      "level": "other",
-      "region": "unknown",
       "role_type": "software_engineer"
     },
     {
@@ -21963,22 +21925,6 @@
       "role_type": "backend"
     },
     {
-      "id": "ef6b8754c8ca0d7d",
-      "kind": "job",
-      "origin": "public",
-      "company": "N26",
-      "title": "Engineering Manager - Runtime Platform",
-      "location": "Barcelona",
-      "source": "greenhouse:n26",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
-      "url": "https://n26.com/en-eu/careers/positions/8077056?gh_jid=8077056",
-      "age": "16d",
-      "posted_at": "2026-08-05",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform"
-    },
-    {
       "id": "1a2d22c7691f6a1d",
       "kind": "job",
       "origin": "public",
@@ -21992,6 +21938,22 @@
       "posted_at": "2026-08-05",
       "level": "other",
       "region": "emea",
+      "role_type": "platform"
+    },
+    {
+      "id": "ef6b8754c8ca0d7d",
+      "kind": "job",
+      "origin": "public",
+      "company": "N26",
+      "title": "Engineering Manager - Runtime Platform",
+      "location": "Barcelona",
+      "source": "greenhouse:n26",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
+      "url": "https://n26.com/en-eu/careers/positions/8077056?gh_jid=8077056",
+      "age": "16d",
+      "posted_at": "2026-08-05",
+      "level": "other",
+      "region": "unknown",
       "role_type": "platform"
     },
     {
@@ -22059,22 +22021,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "78bbcadb6db10417",
-      "kind": "job",
-      "origin": "public",
-      "company": "N26",
-      "title": "Senior Site Reliability Engineer - Infrastructure",
-      "location": "Barcelona",
-      "source": "greenhouse:n26",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
-      "url": "https://n26.com/en-eu/careers/positions/7797431?gh_jid=7797431",
-      "age": "16d",
-      "posted_at": "2026-08-05",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "infrastructure"
-    },
-    {
       "id": "38af59360e8ccb30",
       "kind": "job",
       "origin": "public",
@@ -22088,6 +22034,22 @@
       "posted_at": "2026-08-05",
       "level": "other",
       "region": "emea",
+      "role_type": "infrastructure"
+    },
+    {
+      "id": "78bbcadb6db10417",
+      "kind": "job",
+      "origin": "public",
+      "company": "N26",
+      "title": "Senior Site Reliability Engineer - Infrastructure",
+      "location": "Barcelona",
+      "source": "greenhouse:n26",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
+      "url": "https://n26.com/en-eu/careers/positions/7797431?gh_jid=7797431",
+      "age": "16d",
+      "posted_at": "2026-08-05",
+      "level": "other",
+      "region": "unknown",
       "role_type": "infrastructure"
     },
     {
@@ -22155,22 +22117,6 @@
       "role_type": "platform"
     },
     {
-      "id": "107e29df2f3aae13",
-      "kind": "job",
-      "origin": "public",
-      "company": "N26",
-      "title": "Site Reliability Engineer - Observability",
-      "location": "Berlin",
-      "source": "greenhouse:n26",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
-      "url": "https://n26.com/en-eu/careers/positions/7405138?gh_jid=7405138",
-      "age": "16d",
-      "posted_at": "2026-08-05",
-      "level": "other",
-      "region": "emea",
-      "role_type": "infrastructure"
-    },
-    {
       "id": "7894aa41b7485977",
       "kind": "job",
       "origin": "public",
@@ -22184,6 +22130,22 @@
       "posted_at": "2026-08-05",
       "level": "other",
       "region": "unknown",
+      "role_type": "infrastructure"
+    },
+    {
+      "id": "107e29df2f3aae13",
+      "kind": "job",
+      "origin": "public",
+      "company": "N26",
+      "title": "Site Reliability Engineer - Observability",
+      "location": "Berlin",
+      "source": "greenhouse:n26",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
+      "url": "https://n26.com/en-eu/careers/positions/7405138?gh_jid=7405138",
+      "age": "16d",
+      "posted_at": "2026-08-05",
+      "level": "other",
+      "region": "emea",
       "role_type": "infrastructure"
     },
     {
@@ -25163,22 +25125,6 @@
       "role_type": "backend"
     },
     {
-      "id": "b09f34f6077eca0a",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Staff Back-end Engineer",
-      "location": "Hyderabad",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892762",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
       "id": "2fe478ff8cc06e45",
       "kind": "job",
       "origin": "public",
@@ -25188,6 +25134,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892757",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "b09f34f6077eca0a",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Staff Back-end Engineer",
+      "location": "Hyderabad",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892762",
       "age": "21d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -25211,38 +25173,6 @@
       "role_type": "backend"
     },
     {
-      "id": "d47df4948fc5bb81",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Bengaluru",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8095677",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
-      "id": "9e94f52205a3dcf4",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Hyderabad",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8051361",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
       "id": "2f6a38eaa80a83e3",
       "kind": "job",
       "origin": "public",
@@ -25259,6 +25189,22 @@
       "role_type": "backend"
     },
     {
+      "id": "d47df4948fc5bb81",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer",
+      "location": "Bengaluru",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8095677",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
       "id": "71187b4892e1f07a",
       "kind": "job",
       "origin": "public",
@@ -25268,6 +25214,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "9e94f52205a3dcf4",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer",
+      "location": "Hyderabad",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8051361",
       "age": "21d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -25867,22 +25829,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "149f6e3c65aca6ce",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Senior Software Engineer",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "2b6544e7f3a7ca2b",
       "kind": "job",
       "origin": "public",
@@ -25892,6 +25838,22 @@
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "url": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "149f6e3c65aca6ce",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Senior Software Engineer",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679",
       "age": "21d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -26299,22 +26261,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "54a5c2cb0a9f2495",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
       "id": "a9b699d18660fcf4",
       "kind": "job",
       "origin": "public",
@@ -26328,6 +26274,22 @@
       "posted_at": "2026-07-31",
       "level": "other",
       "region": "canada",
+      "role_type": "backend"
+    },
+    {
+      "id": "54a5c2cb0a9f2495",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
       "role_type": "backend"
     },
     {
@@ -41697,7 +41659,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://btt-web-game-jam.devpost.com/",
-      "age": "about 6 hours left",
+      "age": "about 5 hours left",
       "posted_at": "2026-08-21"
     },
     {
@@ -41723,7 +41685,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/codeyourcult-build-cult-1723045",
-      "age": "16 days left",
+      "age": "15 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -41736,7 +41698,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://build-beyond-hackathon.devpost.com/",
-      "age": "about 21 hours left",
+      "age": "about 20 hours left",
       "posted_at": "2026-08-21"
     },
     {
@@ -41935,19 +41897,6 @@
       "posted_at": "2026-08-21"
     },
     {
-      "id": "c9780b80dd97a888",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Devfolio",
-      "title": "(Demo) Push to Prod",
-      "location": "Bengaluru, India",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons",
-      "url": "https://demo-push-to-prod.devfolio.co",
-      "age": "7 days left",
-      "posted_at": "2026-08-21"
-    },
-    {
       "id": "881770e0f8402235",
       "kind": "hackathon",
       "origin": "public",
@@ -42052,6 +42001,19 @@
       "posted_at": "2026-08-21"
     },
     {
+      "id": "c22f1bb5ffe40e7d",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Demo Trace Commons Hackathon",
+      "location": "Bengaluru, India",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "url": "https://demo-trace-commons.devfolio.co",
+      "age": "7 days left",
+      "posted_at": "2026-08-21"
+    },
+    {
       "id": "dfc61f176f652875",
       "kind": "hackathon",
       "origin": "public",
@@ -42100,7 +42062,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://dsudevhack3.devfolio.co",
-      "age": "29 days left",
+      "age": "28 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42295,7 +42257,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hacktopusgdg.devfolio.co",
-      "age": "56 days left",
+      "age": "55 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42347,7 +42309,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://innofusion-3.devfolio.co",
-      "age": "2 days left",
+      "age": "1 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42737,7 +42699,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/idea-competition-2026-fr-conceicao-rodrigues-college-of-engineering-frcrce-bandra-1736048",
-      "age": "169 days left",
+      "age": "168 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42802,7 +42764,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/nexhack-20-geeta-university-naultha-panipat-1733198",
-      "age": "96 days left",
+      "age": "95 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43192,7 +43154,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/code-insight-2k26-ksr-college-of-engineering-namakkal-tamil-nadu-1740415",
-      "age": "13 days left",
+      "age": "12 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43257,7 +43219,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/ieee-hacksynapse-2026-madhav-institute-of-technology-and-science-1717985",
-      "age": "16 days left",
+      "age": "15 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43508,19 +43470,6 @@
       "posted_at": "2026-08-21"
     },
     {
-      "id": "d43962c0e757f8c0",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Pixel Forge",
-      "title": "Pixel Forge AI Hackathon ($18,000+ in Prizes)",
-      "location": "Online",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://pixel-forge-ai-hackathon-08.devpost.com/",
-      "age": "1 day left",
-      "posted_at": "2026-08-21"
-    },
-    {
       "id": "9447d5ab04c31b4e",
       "kind": "hackathon",
       "origin": "public",
@@ -43625,6 +43574,19 @@
       "posted_at": "2026-08-21"
     },
     {
+      "id": "d1ad500a0b138171",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "ReverieHacks",
+      "title": "Reverie Hacks 2026",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://reverie-hacks-2026.devpost.com/",
+      "age": "3 days left",
+      "posted_at": "2026-08-21"
+    },
+    {
       "id": "0bcbb2ffce69eed4",
       "kind": "hackathon",
       "origin": "public",
@@ -43699,7 +43661,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/bharatbuild-a-low-code-hackathon-srm-institute-of-science-and-technology-kattankulathur-chennai-1729858",
-      "age": "18 days left",
+      "age": "17 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43725,7 +43687,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/pasumai-hackathon-srm-institute-of-science-and-technology-kattankulathur-chennai-1729884",
-      "age": "19 days left",
+      "age": "18 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43777,7 +43739,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://suvidha-ai-virtual-hackathon.devpost.com/",
-      "age": "about 21 hours left",
+      "age": "about 20 hours left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43790,7 +43752,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://3d-websites-hackathon.devpost.com/",
-      "age": "11 days left",
+      "age": "10 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43907,7 +43869,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/aethos-day-zero-together-we-solve-1730263",
-      "age": "43 days left",
+      "age": "42 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43959,7 +43921,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/supernova-hackathon-university-of-engineering-and-management-uem-kolkata-1730807",
-      "age": "44 days left",
+      "age": "43 days left",
       "posted_at": "2026-08-21"
     },
     {
