@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 2342 |
+| Jobs | 2346 |
 | Hackathons | 206 |
-| Events | 4 |
-| Total | 2552 |
+| Events | 3 |
+| Total | 2555 |
 
 ## Jobs
 
-[![Jobs 2342](https://img.shields.io/badge/Jobs-2342-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 116](https://img.shields.io/badge/Internship-116-22c55e.svg)](#internship) [![Early Career 104](https://img.shields.io/badge/Early%20Career-104-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2122](https://img.shields.io/badge/Mid--Level%20and%20Above-2122-dc2626.svg)](#mid-level-and-above)
+[![Jobs 2346](https://img.shields.io/badge/Jobs-2346-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 119](https://img.shields.io/badge/Internship-119-22c55e.svg)](#internship) [![Early Career 103](https://img.shields.io/badge/Early%20Career-103-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2124](https://img.shields.io/badge/Mid--Level%20and%20Above-2124-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 116
+Total roles: 119
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -78,6 +78,9 @@ Total roles: 116
 | NVIDIA | [Software Engineering Intern, CUDA Test Development - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--CUDA-Test-Development---2027_JR2023645) | China, Shanghai | 0d |
 | NVIDIA | [Test Development Software Engineering Intern - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern---2027_JR2023632) | China, Shanghai | 0d |
 | NVIDIA | [Test Development Software Engineering Intern, Aerial - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern--Aerial---2027_JR2023852) | China, Shanghai | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0) | Washington, D.C. | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c) | Palo Alto, CA | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -161,7 +164,7 @@ Total roles: 116
 
 ### Early Career
 
-Total roles: 104
+Total roles: 103
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -192,7 +195,6 @@ Total roles: 104
 | Duolingo | [New Grad: Software Engineer](https://careers.duolingo.com/jobs/8155283002?utm_source=vansh) | Pittsburgh, PA | 0d |
 | Google | [Software Developer, Early Career, Campus](https://www.google.com/about/careers/applications/jobs/results/120686451305128646) | Canada | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
-| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
 | Morgan Stanley | [SRE Associate (Hybrid)](https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929) | Montreal, Canada | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
@@ -272,7 +274,7 @@ Total roles: 104
 
 ### Mid-Level and Above
 
-Total roles: 2122
+Total roles: 2124
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -287,6 +289,8 @@ Total roles: 2122
 | Instacart | [Machine Learning Engineer II, Ads - R...](https://instacart.careers/job/?gh_jid=8143263) | Remote (ON, AB, BC, or... | 0d |
 | Intel | [AI Infrastructure Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Infrastructure-Engineer_JR0286233) | <details><summary>4 locations</summary>US<br>California<br>Santa Clara, US<br>Oregon<br>Hillsboro, US<br>California<br>Folsom, US<br>Texas<br>Austin</details> | 0d |
 | Microsoft | [Data Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556962716) | Redmond, Washington, U... | 0d |
+| Mongodb | [Software Engineer 3, Networking & Observability](https://www.mongodb.com/careers/job/?gh_jid=8119841) | New York City; United States | 0d |
+| Mongodb | [Software Engineer 3, Networking & Observability](https://www.mongodb.com/careers/job/?gh_jid=8119843) | Alberta; British Columbia; Ontario; Quebec | 0d |
 | Morgan Stanley | [Lead Software Engineer - Fixed Income Municipal Securities eTrading (Hybrid)](https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Principal-Java-Developer--Hybrid-_PT-JR034823) | Montreal, Canada | 0d |
 | Morgan Stanley | [Principal Software Engineer - VP](https://ms.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/Principal-Software-Engineer---VP_PT-JR042438) | London, United Kingdom | 0d |
 | Morgan Stanley | [Site Reliability Engineer](https://ms.wd5.myworkdayjobs.com/External/job/Alpharetta-Georgia-United-States-of-America/Identity-and-Access-Management-Site-Reliability-Engineer--SRE-_PT-JR028816) | Alpharetta, Georgia, United States of America | 0d |
@@ -907,8 +911,8 @@ Total roles: 2122
 | Stripe | [Backend Engineer, Payments and Risk](https://stripe.com/jobs/search?gh_jid=7232592) | US | 3d |
 | Stripe | [Backend Engineer, Privy](https://stripe.com/jobs/search?gh_jid=7235875) | NYC-Privy | 3d |
 | Stripe | [Backend Engineer/API, Payments and Risk](https://stripe.com/jobs/search?gh_jid=4921361) | Dublin, Ireland | 3d |
-| Stripe | [Backend/API Engineer, Money as a Service](https://stripe.com/jobs/search?gh_jid=7369543) | United Kingdom | 3d |
 | Stripe | [Backend/API Engineer, Money as a Service](https://stripe.com/jobs/search?gh_jid=6176758) | US | 3d |
+| Stripe | [Backend/API Engineer, Money as a Service](https://stripe.com/jobs/search?gh_jid=7369543) | United Kingdom | 3d |
 | Stripe | [Designer, Web Presence & Platform](https://stripe.com/jobs/search?gh_jid=7977745) | US / Cananda | 3d |
 | Stripe | [Engineering Manager, AI Conversation Platform](https://stripe.com/jobs/search?gh_jid=7943804) | Toronto, Canada | 3d |
 | Stripe | [Engineering Manager, Infrastructure](https://stripe.com/jobs/search?gh_jid=8128496) | Seattle, San Francisco, New York City | 3d |
@@ -927,9 +931,9 @@ Total roles: 2122
 | Stripe | [React Native Engineer, Merchant Experience Mobile](https://stripe.com/jobs/search?gh_jid=8035557) | Barcelona | 3d |
 | Stripe | [Risk Strategist, Platform Risk Strategy](https://stripe.com/jobs/search?gh_jid=7811937) | Chicago, US-Remote, Toronto | 3d |
 | Stripe | [Senior Software Engineer](https://stripe.com/jobs/search?gh_jid=8026511) | South San Francisco, CA | 3d |
-| Stripe | [Software Engineer](https://stripe.com/jobs/search?gh_jid=8107379) | South San Francisco, CA | 3d |
 | Stripe | [Software Engineer](https://stripe.com/jobs/search?gh_jid=7991636) | Seattle | 3d |
 | Stripe | [Software Engineer](https://stripe.com/jobs/search?gh_jid=8137972) | Chicago, IL | 3d |
+| Stripe | [Software Engineer](https://stripe.com/jobs/search?gh_jid=8107379) | South San Francisco, CA | 3d |
 | Stripe | [Software Engineer - Infrastructure](https://stripe.com/jobs/search?gh_jid=8099239) | Seattle, WA | 3d |
 | Stripe | [Software Engineer - Smart Contract, Bridge](https://stripe.com/jobs/search?gh_jid=7507904) | San Francisco or New York | 3d |
 | Stripe | [Software Engineer, Authorization Infrastructure](https://stripe.com/jobs/search?gh_jid=8069941) | N/A | 3d |
@@ -994,8 +998,8 @@ Total roles: 2122
 | Coinbase | [Senior Software Engineer, Consumer](https://www.coinbase.com/careers/positions/8067033?gh_jid=8067033) | Remote - Singapore | 4d |
 | Coinbase | [Software Engineer, CDP - Stablecoin](https://www.coinbase.com/careers/positions/8092485?gh_jid=8092485) | Remote - Canada | 4d |
 | Coupang | [Senior Back End Engineer (Global Mobility & Business Travel)](https://www.coupang.jobs/en/jobs/?gh_jid=8129468) | Seoul, South Korea | 4d |
-| Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7962133) | Mountain View, USA | 4d |
 | Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7438944) | Seattle, USA | 4d |
+| Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7962133) | Mountain View, USA | 4d |
 | Lyft | [Staff Android Engineer - Rider Experience & Mobile Platform](https://app.careerpuck.com/job-board/lyft/job/8680013002?gh_jid=8680013002) | San Francisco, CA | 4d |
 | Mongodb | [Director, Web Platform & Technology](https://www.mongodb.com/careers/job/?gh_jid=8009965) | Cork, Ireland; Dublin, Ireland | 4d |
 | Mongodb | [Lead, Platform Engineering](https://www.mongodb.com/careers/job/?gh_jid=8071475) | Gurugram | 4d |
@@ -1021,22 +1025,22 @@ Total roles: 2122
 | Mongodb | [Senior Software Engineer, Search Deployments Infrastructure](https://www.mongodb.com/careers/job/?gh_jid=8081945) | San Francisco | 4d |
 | Mongodb | [Senior Software Engineer, Storage Layer Services](https://www.mongodb.com/careers/job/?gh_jid=7947560) | New York City; United States | 4d |
 | Mongodb | [Site Reliability Engineer (Senior or Staff), Atlas](https://www.mongodb.com/careers/job/?gh_jid=7727964) | Austin; Boston; Chicago; Miami; New York City; Philadelphia; Pittsburgh; Raleigh; United States; Washington DC | 4d |
-| Mongodb | [Site Reliability Engineer (Senior or Staff), Deployments](https://www.mongodb.com/careers/job/?gh_jid=7727913) | Toronto | 4d |
 | Mongodb | [Site Reliability Engineer (Senior or Staff), Deployments](https://www.mongodb.com/careers/job/?gh_jid=7727910) | Boston; Miami; New Jersey; New York City; Princeton; Raleigh; Washington DC | 4d |
-| Mongodb | [Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)](https://www.mongodb.com/careers/job/?gh_jid=7793634) | Montreal; Toronto | 4d |
+| Mongodb | [Site Reliability Engineer (Senior or Staff), Deployments](https://www.mongodb.com/careers/job/?gh_jid=7727913) | Toronto | 4d |
 | Mongodb | [Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)](https://www.mongodb.com/careers/job/?gh_jid=7743366) | Boston; Miami; New York City; Pittsburgh; Raleigh; United States | 4d |
+| Mongodb | [Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)](https://www.mongodb.com/careers/job/?gh_jid=7793634) | Montreal; Toronto | 4d |
 | Mongodb | [Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)](https://www.mongodb.com/careers/job/?gh_jid=6984814) | Cork, Ireland; Dublin, Ireland | 4d |
 | Mongodb | [Site Reliability Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=7821316) | New York City | 4d |
-| Mongodb | [Site Reliability Engineering, Fabric (Mid, Senior, or Staff)](https://www.mongodb.com/careers/job/?gh_jid=7727923) | Toronto; Vancouver | 4d |
 | Mongodb | [Site Reliability Engineering, Fabric (Mid, Senior, or Staff)](https://www.mongodb.com/careers/job/?gh_jid=7727920) | United States | 4d |
+| Mongodb | [Site Reliability Engineering, Fabric (Mid, Senior, or Staff)](https://www.mongodb.com/careers/job/?gh_jid=7727923) | Toronto; Vancouver | 4d |
 | Mongodb | [Software Engineer 2](https://www.mongodb.com/careers/job/?gh_jid=7613695) | Dublin | 4d |
-| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8089124) | United States | 4d |
-| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8083761) | New York City | 4d |
-| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8092317) | Sydney | 4d |
-| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8107198) | New York City | 4d |
-| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8083366) | Gurugram | 4d |
 | Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8108725) | Alberta; British Columbia; Manitoba; Nova Scotia; Ontario; Quebec | 4d |
+| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8092317) | Sydney | 4d |
+| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8083761) | New York City | 4d |
+| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8083366) | Gurugram | 4d |
+| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8089124) | United States | 4d |
 | Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=7993984) | Gurugram | 4d |
+| Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8107198) | New York City | 4d |
 | Mongodb | [Software Engineer 3, App Analysis & Modelling](https://www.mongodb.com/careers/job/?gh_jid=7523878) | Sydney | 4d |
 | Mongodb | [Software Engineer 3, Atlas Growth 2](https://www.mongodb.com/careers/job/?gh_jid=8064448) | Dublin, Ireland | 4d |
 | Mongodb | [Software Engineer 3, Atlas Identity and Access Management](https://www.mongodb.com/careers/job/?gh_jid=8069776) | New York City | 4d |
@@ -1233,8 +1237,8 @@ Total roles: 2122
 | Cohere | [Forward Deployed Engineer, Infrastructure Specialist (South Korea)](https://jobs.ashbyhq.com/cohere/9c5e1ab3-883b-4d15-885c-76400da7ca11) | Korea | 10d |
 | Cohere | [Senior Full-Stack Engineer, North Tools & Retrieval](https://jobs.ashbyhq.com/cohere/6ebac60b-0758-4bb8-8299-44328d4926cb) | Europe | 10d |
 | Cohere | [Software Engineer, Integrations](https://jobs.ashbyhq.com/cohere/96c74af4-b3d7-4960-a666-212ce4debac8) | Europe | 10d |
-| Coupang | [Senior Staff Backend Engineer (Pricing)](https://www.coupang.jobs/en/jobs/?gh_jid=8123934) | Mountain View, USA | 10d |
 | Coupang | [Senior Staff Backend Engineer (Pricing)](https://www.coupang.jobs/en/jobs/?gh_jid=8120779) | Seattle, USA | 10d |
+| Coupang | [Senior Staff Backend Engineer (Pricing)](https://www.coupang.jobs/en/jobs/?gh_jid=8123934) | Mountain View, USA | 10d |
 | Elastic | [Java Developer II - AutoOps Services - Platform Applications](https://jobs.elastic.co/jobs?gh_jid=8088738&gh_jid=8088738) | Canada | 10d |
 | Figma | [Manager, Software Engineering - Data Platform](https://boards.greenhouse.io/figma/jobs/6135721004?gh_jid=6135721004) | San Francisco, CA • New York, NY • United States | 10d |
 | Figma | [Software Engineer - AI Platforms](https://boards.greenhouse.io/figma/jobs/5691886004?gh_jid=5691886004) | San Francisco, CA • New York, NY • United States | 10d |
@@ -1601,15 +1605,15 @@ Total roles: 2122
 | Coupang | [Sr. Director, AI Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7361248) | Mountain View, USA; Seattle, USA | 21d |
 | Coupang | [Sr. Staff Backend Software Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7965062) | Seattle, USA | 21d |
 | Coupang | [Sr. Staff, Technical Program Management (Marketplace Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=7927990) | Seoul, South Korea | 21d |
-| Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7925105) | Hyderabad | 21d |
 | Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7948499) | Hyderabad | 21d |
+| Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7925105) | Hyderabad | 21d |
 | Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892762) | Hyderabad | 21d |
 | Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892757) | Hyderabad | 21d |
 | Coupang | [Staff Back-end Engineer (TW Pre-Purchase)](https://www.coupang.jobs/en/jobs/?gh_jid=8090538) | Seoul, South Korea | 21d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 21d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8098140) | Bengaluru | 21d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8095677) | Bengaluru | 21d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8050353) | Hyderabad | 21d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 21d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8095677) | Bengaluru | 21d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8098140) | Bengaluru | 21d |
 | Coupang | [Staff Backend Engineer - IAM](https://www.coupang.jobs/en/jobs/?gh_jid=7925108) | Bengaluru | 21d |
 | Coupang | [Staff Backend Engineer - Intelligent Cloud](https://www.coupang.jobs/en/jobs/?gh_jid=7916715) | Bengaluru | 21d |
 | Coupang | [Staff Engineer - Backend (E-Commerce Engineering)](https://www.coupang.jobs/en/jobs/?gh_jid=7988274) | Bengaluru | 21d |
@@ -1637,8 +1641,8 @@ Total roles: 2122
 | Okta | [Mobile Architect](https://www.okta.com/company/careers/opportunity/7613460?gh_jid=7613460) | Bengaluru, India | 21d |
 | Okta | [Principal Data Platform Engineer (Bengaluru)](https://www.okta.com/company/careers/opportunity/7648974?gh_jid=7648974) | Bengaluru, India | 21d |
 | Okta | [Principal Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8002576?gh_jid=8002576) | Bengaluru, India | 21d |
-| Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674) | Bengaluru, India | 21d |
 | Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7993541?gh_jid=7993541) | Toronto, Ontario, Canada | 21d |
+| Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674) | Bengaluru, India | 21d |
 | Okta | [Principal Software Engineer - Backend](https://www.okta.com/company/careers/opportunity/8007071?gh_jid=8007071) | Bengaluru, India | 21d |
 | Okta | [Principal Software Engineer - Windows](https://www.okta.com/company/careers/opportunity/8007080?gh_jid=8007080) | Bengaluru, India | 21d |
 | Okta | [Principal Software Engineer, AI Engineering](https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663) | Bengaluru, India | 21d |
@@ -1647,8 +1651,8 @@ Total roles: 2122
 | Okta | [Senior Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/7963271?gh_jid=7963271) | Bengaluru, India | 21d |
 | Okta | [Senior Site Reliability Engineer (Auth0)](https://www.okta.com/company/careers/opportunity/7418982?gh_jid=7418982) | Barcelona, Spain | 21d |
 | Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679) | Bengaluru, India | 21d |
-| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8021050?gh_jid=8021050) | Bengaluru, India | 21d |
 | Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312) | Bengaluru, India | 21d |
+| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8021050?gh_jid=8021050) | Bengaluru, India | 21d |
 | Okta | [Senior Software Engineer (Core Frontier)](https://www.okta.com/company/careers/opportunity/7894398?gh_jid=7894398) | Bengaluru, India | 21d |
 | Okta | [Senior Software Engineer - Salesforce](https://www.okta.com/company/careers/opportunity/7995191?gh_jid=7995191) | Bengaluru, India | 21d |
 | Okta | [Senior Software Engineer in Test, Federal Classified](https://www.okta.com/company/careers/opportunity/8069707?gh_jid=8069707) | Washington, DC | 21d |
@@ -1692,8 +1696,8 @@ Total roles: 2122
 | Okta | [Staff Software Engineer, Java, Spring (Backend)](https://www.okta.com/company/careers/opportunity/7916607?gh_jid=7916607) | Bengaluru, India | 21d |
 | Okta | [Staff Software Engineer, Resiliency (Federal)](https://www.okta.com/company/careers/opportunity/7745812?gh_jid=7745812) | San Francisco, California | 21d |
 | Okta | [Staff Software Reliability Engineer - Data Platform](https://www.okta.com/company/careers/opportunity/8082028?gh_jid=8082028) | Toronto, Ontario, Canada | 21d |
-| Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062) | San Francisco, California | 21d |
 | Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073066?gh_jid=8073066) | Washington, DC | 21d |
+| Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062) | San Francisco, California | 21d |
 | Openai | [Software Engineer, API Multimodal](https://jobs.ashbyhq.com/openai/96de8acb-556e-451b-bc84-7124bb4b0a20) | San Francisco | 21d |
 | SpaceX | [Full Stack Software Engineer, Internal Systems](https://boards.greenhouse.io/spacex/jobs/8663562002?gh_jid=8663562002) | Bastrop, TX | 21d |
 | SpaceX | [Sr. Full Stack Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8663952002?gh_jid=8663952002) | Bastrop, TX | 21d |
@@ -2496,6 +2500,7 @@ Total hackathons: 206
 | Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar | [HackOut'26](https://unstop.com/hackathons/hackout26-dhirubhai-ambani-institute-of-information-and-communication-technology-da-iict-gandhinagar-1729614) |
 | Dialogate | [VoltHacks](https://volthacks.devpost.com/) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
+| EduLinkUp | [ELUCode-2](https://unstop.com/hackathons/elucode-2-edulinkup-1740124) |
 | elipseday | [Beginner's Paradise - FirstCommit](https://firstcommit.devpost.com/) |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
 | Faculty of Technology, Delhi University | [Nari Kavach](https://unstop.com/hackathons/nari-kavach-yantrika-10-innovate-elevate-faculty-of-technology-delhi-university-1736993) |
@@ -2511,7 +2516,6 @@ Total hackathons: 206
 | Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) |
 | Google | [All Things Agentic Hackathon](https://allthingsagentichackathon.devpost.com/) |
 | Government Engineering College (GEC), Thrissur | [Matrix 2026](https://unstop.com/hackathons/matrix-2026-government-engineering-college-gec-thrissur-1737241) |
-| Guru Nanak Institutions Technical Campus (GNITC), Hyderabad | [Tech Horizon 2.0 - National Level Hackathon](https://unstop.com/hackathons/tech-horizon-20-national-level-hackathon-guru-nanak-institutions-technical-campus-gnitc-hyderabad-1677311) |
 | Hack the Habitat | [Hack the Habitat](https://hack-the-habitat-2026.devpost.com/) |
 | HackAlphaX | [NextStep Hacks 2026](https://nextstep2026.devpost.com/) |
 | Hackathon Raptors | [Zero Dependency | 72-Hour Hackathon](https://unstop.com/hackathons/zero-dependency-72-hour-hackathon-hackathon-raptors-1733673) |
@@ -2614,14 +2618,13 @@ Total hackathons: 206
 
 ## Events
 
-Total events: 4
+Total events: 3
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 

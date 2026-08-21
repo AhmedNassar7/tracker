@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T04:53:26Z",
-  "total": 188,
+  "generated_at": "2026-08-21T05:47:24Z",
+  "total": 190,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -900,29 +900,6 @@
       ]
     },
     {
-      "id": "36a558da58240319",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-21",
-      "age": "0d",
-      "collected_at": "2026-08-21T03:15:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "cc7a168906373af1",
       "company": "Hudson River Trading",
       "title": "Software Engineer Intern",
@@ -1514,6 +1491,75 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b3126ca0917b76be",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T05:47:24Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T05:47:24Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "bb0cb6b18c873219",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T05:47:24Z",
       "tags": [
         "software",
         "programming",

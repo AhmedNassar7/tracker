@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T04:56:30Z",
-  "count": 2762,
-  "checksum": "sha256:9bf926f4ee0625ed3ec93c759c57630593cfd5edc6620088799bd45fdc92dc78",
+  "generated_at": "2026-08-21T05:50:18Z",
+  "count": 2765,
+  "checksum": "sha256:e7e60e0eafc754eca10150e88cef8769ac0543c821aaf88fc3b57e9edbe51c1e",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -745,25 +745,6 @@
       "country": "Poland"
     },
     {
-      "id": "36a558da58240319",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Software Engineer, PhD, Early Career,...",
-      "location": "United States",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/122258040807137990",
-      "age": "0d",
-      "posted_at": "2026-08-21",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "cc7a168906373af1",
       "kind": "job",
       "origin": "curated",
@@ -1256,6 +1237,63 @@
       "category": "product_saas",
       "remote_type": "onsite",
       "country": "United States"
+    },
+    {
+      "id": "b3126ca0917b76be",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "New York, NY",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "age": "0d",
+      "posted_at": "2026-08-21",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Washington, D.C.",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "age": "0d",
+      "posted_at": "2026-08-21",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "bb0cb6b18c873219",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Palo Alto, CA",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+      "age": "0d",
+      "posted_at": "2026-08-21",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "Unknown"
     },
     {
       "id": "2ee142b47bfc9198",
@@ -3590,6 +3628,38 @@
       "level": "other",
       "region": "us",
       "role_type": "infrastructure"
+    },
+    {
+      "id": "a1e308cba437ef20",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Software Engineer 3, Networking & Observability",
+      "location": "New York City; United States",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8119841",
+      "age": "0d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "6d5633b738e08a04",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Software Engineer 3, Networking & Observability",
+      "location": "Alberta; British Columbia; Ontario; Quebec",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8119843",
+      "age": "0d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
     },
     {
       "id": "e241fd8db973912e",
@@ -13784,22 +13854,6 @@
       "role_type": "backend"
     },
     {
-      "id": "0b21a553f67f1879",
-      "kind": "job",
-      "origin": "public",
-      "company": "Stripe",
-      "title": "Backend/API Engineer, Money as a Service",
-      "location": "United Kingdom",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
-      "age": "3d",
-      "posted_at": "2026-08-18",
-      "level": "other",
-      "region": "emea",
-      "role_type": "backend"
-    },
-    {
       "id": "411683c4787fd798",
       "kind": "job",
       "origin": "public",
@@ -13813,6 +13867,22 @@
       "posted_at": "2026-08-18",
       "level": "other",
       "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "0b21a553f67f1879",
+      "kind": "job",
+      "origin": "public",
+      "company": "Stripe",
+      "title": "Backend/API Engineer, Money as a Service",
+      "location": "United Kingdom",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
+      "age": "3d",
+      "posted_at": "2026-08-18",
+      "level": "other",
+      "region": "emea",
       "role_type": "backend"
     },
     {
@@ -14104,22 +14174,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "7aac6260ba1b97ae",
-      "kind": "job",
-      "origin": "public",
-      "company": "Stripe",
-      "title": "Software Engineer",
-      "location": "South San Francisco, CA",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "url": "https://stripe.com/jobs/search?gh_jid=8107379",
-      "age": "3d",
-      "posted_at": "2026-08-18",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "8ee7068a40f708f4",
       "kind": "job",
       "origin": "public",
@@ -14145,6 +14199,22 @@
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "url": "https://stripe.com/jobs/search?gh_jid=8137972",
+      "age": "3d",
+      "posted_at": "2026-08-18",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "7aac6260ba1b97ae",
+      "kind": "job",
+      "origin": "public",
+      "company": "Stripe",
+      "title": "Software Engineer",
+      "location": "South San Francisco, CA",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "url": "https://stripe.com/jobs/search?gh_jid=8107379",
       "age": "3d",
       "posted_at": "2026-08-18",
       "level": "other",
@@ -15208,22 +15278,6 @@
       "role_type": "backend"
     },
     {
-      "id": "f294a5abe28d09c8",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Senior Staff Backend Engineer - Cloud Infrastructure",
-      "location": "Mountain View, USA",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7962133",
-      "age": "4d",
-      "posted_at": "2026-08-17",
-      "level": "other",
-      "region": "us",
-      "role_type": "backend"
-    },
-    {
       "id": "9813148fc092fe7c",
       "kind": "job",
       "origin": "public",
@@ -15233,6 +15287,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7438944",
+      "age": "4d",
+      "posted_at": "2026-08-17",
+      "level": "other",
+      "region": "us",
+      "role_type": "backend"
+    },
+    {
+      "id": "f294a5abe28d09c8",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Senior Staff Backend Engineer - Cloud Infrastructure",
+      "location": "Mountain View, USA",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7962133",
       "age": "4d",
       "posted_at": "2026-08-17",
       "level": "other",
@@ -15640,22 +15710,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "8f9e9dcdcebacd94",
-      "kind": "job",
-      "origin": "public",
-      "company": "Mongodb",
-      "title": "Site Reliability Engineer (Senior or Staff), Deployments",
-      "location": "Toronto",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7727913",
-      "age": "4d",
-      "posted_at": "2026-08-17",
-      "level": "other",
-      "region": "canada",
-      "role_type": "infrastructure"
-    },
-    {
       "id": "c1a37ece67b27fd0",
       "kind": "job",
       "origin": "public",
@@ -15672,15 +15726,15 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "9fada16bfaa5408b",
+      "id": "8f9e9dcdcebacd94",
       "kind": "job",
       "origin": "public",
       "company": "Mongodb",
-      "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
-      "location": "Montreal; Toronto",
+      "title": "Site Reliability Engineer (Senior or Staff), Deployments",
+      "location": "Toronto",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7793634",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7727913",
       "age": "4d",
       "posted_at": "2026-08-17",
       "level": "other",
@@ -15701,6 +15755,22 @@
       "posted_at": "2026-08-17",
       "level": "other",
       "region": "us",
+      "role_type": "infrastructure"
+    },
+    {
+      "id": "9fada16bfaa5408b",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
+      "location": "Montreal; Toronto",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7793634",
+      "age": "4d",
+      "posted_at": "2026-08-17",
+      "level": "other",
+      "region": "canada",
       "role_type": "infrastructure"
     },
     {
@@ -15736,22 +15806,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "5b8d933804f2a7a1",
-      "kind": "job",
-      "origin": "public",
-      "company": "Mongodb",
-      "title": "Site Reliability Engineering, Fabric (Mid, Senior, or Staff)",
-      "location": "Toronto; Vancouver",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7727923",
-      "age": "4d",
-      "posted_at": "2026-08-17",
-      "level": "other",
-      "region": "canada",
-      "role_type": "infrastructure"
-    },
-    {
       "id": "ba5fd2c9aa267caa",
       "kind": "job",
       "origin": "public",
@@ -15765,6 +15819,22 @@
       "posted_at": "2026-08-17",
       "level": "other",
       "region": "us",
+      "role_type": "infrastructure"
+    },
+    {
+      "id": "5b8d933804f2a7a1",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Site Reliability Engineering, Fabric (Mid, Senior, or Staff)",
+      "location": "Toronto; Vancouver",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7727923",
+      "age": "4d",
+      "posted_at": "2026-08-17",
+      "level": "other",
+      "region": "canada",
       "role_type": "infrastructure"
     },
     {
@@ -15784,35 +15854,19 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "981b6fda89022e3d",
+      "id": "9649c7b680898e56",
       "kind": "job",
       "origin": "public",
       "company": "Mongodb",
       "title": "Software Engineer 3",
-      "location": "United States",
+      "location": "Alberta; British Columbia; Manitoba; Nova Scotia; Ontario; Quebec",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8089124",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8108725",
       "age": "4d",
       "posted_at": "2026-08-17",
       "level": "other",
-      "region": "us",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "afa153cf6c07094e",
-      "kind": "job",
-      "origin": "public",
-      "company": "Mongodb",
-      "title": "Software Engineer 3",
-      "location": "New York City",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8083761",
-      "age": "4d",
-      "posted_at": "2026-08-17",
-      "level": "other",
-      "region": "us",
+      "region": "unknown",
       "role_type": "software_engineer"
     },
     {
@@ -15832,7 +15886,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "079305eb06c1e3b7",
+      "id": "afa153cf6c07094e",
       "kind": "job",
       "origin": "public",
       "company": "Mongodb",
@@ -15840,7 +15894,7 @@
       "location": "New York City",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8107198",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8083761",
       "age": "4d",
       "posted_at": "2026-08-17",
       "level": "other",
@@ -15864,19 +15918,19 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "9649c7b680898e56",
+      "id": "981b6fda89022e3d",
       "kind": "job",
       "origin": "public",
       "company": "Mongodb",
       "title": "Software Engineer 3",
-      "location": "Alberta; British Columbia; Manitoba; Nova Scotia; Ontario; Quebec",
+      "location": "United States",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8108725",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8089124",
       "age": "4d",
       "posted_at": "2026-08-17",
       "level": "other",
-      "region": "unknown",
+      "region": "us",
       "role_type": "software_engineer"
     },
     {
@@ -15893,6 +15947,22 @@
       "posted_at": "2026-08-17",
       "level": "other",
       "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "079305eb06c1e3b7",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Software Engineer 3",
+      "location": "New York City",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8107198",
+      "age": "4d",
+      "posted_at": "2026-08-17",
+      "level": "other",
+      "region": "us",
       "role_type": "software_engineer"
     },
     {
@@ -19064,22 +19134,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "96d4328278803111",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Senior Staff Backend Engineer (Pricing)",
-      "location": "Mountain View, USA",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8123934",
-      "age": "10d",
-      "posted_at": "2026-08-11",
-      "level": "other",
-      "region": "us",
-      "role_type": "backend"
-    },
-    {
       "id": "61886914b79d3014",
       "kind": "job",
       "origin": "public",
@@ -19089,6 +19143,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8120779",
+      "age": "10d",
+      "posted_at": "2026-08-11",
+      "level": "other",
+      "region": "us",
+      "role_type": "backend"
+    },
+    {
+      "id": "96d4328278803111",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Senior Staff Backend Engineer (Pricing)",
+      "location": "Mountain View, USA",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8123934",
       "age": "10d",
       "posted_at": "2026-08-11",
       "level": "other",
@@ -25048,22 +25118,6 @@
       "role_type": "platform"
     },
     {
-      "id": "51983b44cc6d9e55",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Sr.Staff Backend Engineer",
-      "location": "Hyderabad",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7925105",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
       "id": "08663e102caa2726",
       "kind": "job",
       "origin": "public",
@@ -25073,6 +25127,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7948499",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "51983b44cc6d9e55",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Sr.Staff Backend Engineer",
+      "location": "Hyderabad",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7925105",
       "age": "21d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -25128,6 +25198,22 @@
       "role_type": "backend"
     },
     {
+      "id": "2f6a38eaa80a83e3",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer",
+      "location": "Hyderabad",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8050353",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
       "id": "9e94f52205a3dcf4",
       "kind": "job",
       "origin": "public",
@@ -25137,22 +25223,6 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8051361",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
-      "id": "71187b4892e1f07a",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Bengaluru",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
       "age": "21d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -25176,15 +25246,15 @@
       "role_type": "backend"
     },
     {
-      "id": "2f6a38eaa80a83e3",
+      "id": "71187b4892e1f07a",
       "kind": "job",
       "origin": "public",
       "company": "Coupang",
       "title": "Staff Backend Engineer",
-      "location": "Hyderabad",
+      "location": "Bengaluru",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8050353",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
       "age": "21d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -25624,22 +25694,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "d287749893376873",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Principal Software Engineer",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "5e47e8b70e48d245",
       "kind": "job",
       "origin": "public",
@@ -25653,6 +25707,22 @@
       "posted_at": "2026-07-31",
       "level": "other",
       "region": "canada",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "d287749893376873",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Principal Software Engineer",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
       "role_type": "software_engineer"
     },
     {
@@ -25784,22 +25854,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "ab548098427fa23d",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Senior Software Engineer",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8021050?gh_jid=8021050",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "2b6544e7f3a7ca2b",
       "kind": "job",
       "origin": "public",
@@ -25809,6 +25863,22 @@
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "url": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "ab548098427fa23d",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Senior Software Engineer",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/8021050?gh_jid=8021050",
       "age": "21d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -26504,22 +26574,6 @@
       "role_type": "platform"
     },
     {
-      "id": "7c294a02c0376723",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Staff TDI Site Reliability Engineer, Okta Federal",
-      "location": "San Francisco, California",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062",
-      "age": "21d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "us",
-      "role_type": "infrastructure"
-    },
-    {
       "id": "4b5861f8ccc271f1",
       "kind": "job",
       "origin": "public",
@@ -26529,6 +26583,22 @@
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "url": "https://www.okta.com/company/careers/opportunity/8073066?gh_jid=8073066",
+      "age": "21d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "us",
+      "role_type": "infrastructure"
+    },
+    {
+      "id": "7c294a02c0376723",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Staff TDI Site Reliability Engineer, Okta Federal",
+      "location": "San Francisco, California",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062",
       "age": "21d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -41695,7 +41765,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/aurex26-classical-tamils-first-lingual-tech-hackathon-central-institute-of-classical-tamil-cict-1736281",
-      "age": "34 days left",
+      "age": "33 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -41747,7 +41817,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://cissa-catalyst-2026.devpost.com/",
-      "age": "2 days left",
+      "age": "1 day left",
       "posted_at": "2026-08-21"
     },
     {
@@ -41864,7 +41934,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/paper-buddy-eduverse-hackathon-2026-deenbandhu-chhotu-ram-university-of-science-and-technology-dcrust-murthal-1726534",
-      "age": "15 days left",
+      "age": "14 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42124,7 +42194,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hack4brahma2.devfolio.co",
-      "age": "37 days left",
+      "age": "36 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42202,7 +42272,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hacknex-season-2.devfolio.co",
-      "age": "36 days left",
+      "age": "35 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42306,7 +42376,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://interledger-student-hackathon-cuc.devfolio.co",
-      "age": "29 days left",
+      "age": "28 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42527,7 +42597,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://vynorae.devfolio.co",
-      "age": "1 days left",
+      "age": "last day",
       "posted_at": "2026-08-21"
     },
     {
@@ -42580,6 +42650,19 @@
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hack-away-hunger.devpost.com/",
       "age": "about 2 months left",
+      "posted_at": "2026-08-21"
+    },
+    {
+      "id": "601868fef8ff0da9",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "EduLinkUp",
+      "title": "ELUCode-2",
+      "location": "Online",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "url": "https://unstop.com/hackathons/elucode-2-edulinkup-1740124",
+      "age": "29 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42696,7 +42779,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/",
-      "age": "2 days left",
+      "age": "1 day left",
       "posted_at": "2026-08-21"
     },
     {
@@ -42775,19 +42858,6 @@
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/matrix-2026-government-engineering-college-gec-thrissur-1737241",
       "age": "34 days left",
-      "posted_at": "2026-08-21"
-    },
-    {
-      "id": "8a5211f16b524ad2",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Guru Nanak Institutions Technical Campus (GNITC), Hyderabad",
-      "title": "Tech Horizon 2.0 - National Level Hackathon",
-      "location": "Offline",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "url": "https://unstop.com/hackathons/tech-horizon-20-national-level-hackathon-guru-nanak-institutions-technical-campus-gnitc-hyderabad-1677311",
-      "age": "50 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43242,7 +43312,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gemini-builds.devpost.com/",
-      "age": "4 days left",
+      "age": "3 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43554,7 +43624,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/nextgen-hackathon-rhinon-tech-pvt-lmt-1731840",
-      "age": "9 days left",
+      "age": "8 days left",
       "posted_at": "2026-08-21"
     },
     {
@@ -43723,7 +43793,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://buuniex-hackathon.devpost.com/",
-      "age": "1 day left",
+      "age": "about 1 month left",
       "posted_at": "2026-08-21"
     },
     {
@@ -44113,19 +44183,6 @@
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "url": "https://lu.ma/deepmind?k=c",
-      "age": "",
-      "posted_at": "2026-08-21"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "origin": "public",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "source": "luma",
-      "source_url": "https://luma.com/discover",
-      "url": "https://lu.ma/stationdc?k=c",
       "age": "",
       "posted_at": "2026-08-21"
     }
