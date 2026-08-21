@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:43:38Z",
+  "generated_at": "2026-08-21T18:55:03Z",
   "total": 192,
   "jobs": [
     {
@@ -2096,29 +2096,6 @@
       ]
     },
     {
-      "id": "41ceed3e98160877",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Spring 2027)",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "South San Francisco, C...",
-      "remote_type": "onsite",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-20",
-      "age": "0d",
-      "collected_at": "2026-08-20T19:44:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "3ed6fdf9d821bcdd",
       "company": "Zipline",
       "title": "Software Engineer Intern (Summer 2027)",
@@ -2181,6 +2158,29 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T21:39:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "41ceed3e98160877",
+      "company": "Zipline",
+      "title": "Software Engineer Intern (Spring 2027)",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "South San Francisco, C...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-20",
+      "age": "0d",
+      "collected_at": "2026-08-20T19:44:44Z",
       "tags": [
         "software",
         "programming",
