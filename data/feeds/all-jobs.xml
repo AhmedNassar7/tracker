@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Fri, 21 Aug 2026 09:54:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 10:49:51 GMT</lastBuildDate>
     <item>
       <title>AMD — 2027 Masters Software Engineer Intern...</title>
       <link>https://campus-amd.icims.com/jobs/91180/login</link>
@@ -31,13 +31,6 @@
       <link>https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254</link>
       <guid isPermaLink="false">e8a8f44cd2761397</guid>
       <description>Canada · internship · 0d</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google — Security Engineer II, Hybrid Cloud Gu...</title>
-      <link>https://www.google.com/about/careers/applications/jobs/results/101300536594047686</link>
-      <guid isPermaLink="false">1d7513e0b87b3185</guid>
-      <description>United States · mid_level · 0d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -87,6 +80,13 @@
       <link>https://n26.com/en-eu/careers/positions/8108866?gh_jid=8108866</link>
       <guid isPermaLink="false">5961ba5e9ff265cb</guid>
       <description>Barcelona · other · 0d</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585</link>
+      <guid isPermaLink="false">d4a5d9b8b2c05a5a</guid>
+      <description>Bengaluru, India · other · 0d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1211,16 +1211,16 @@
     </item>
     <item>
       <title>N26 — Senior Android Engineer - Payments</title>
-      <link>https://n26.com/en-eu/careers/positions/8121362?gh_jid=8121362</link>
-      <guid isPermaLink="false">ab5ae7846f00430d</guid>
-      <description>Berlin · other · 1d</description>
+      <link>https://n26.com/en-eu/careers/positions/8143846?gh_jid=8143846</link>
+      <guid isPermaLink="false">0122501c6c69a68d</guid>
+      <description>Barcelona · other · 1d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>N26 — Senior Android Engineer - Payments</title>
-      <link>https://n26.com/en-eu/careers/positions/8143846?gh_jid=8143846</link>
-      <guid isPermaLink="false">0122501c6c69a68d</guid>
-      <description>Barcelona · other · 1d</description>
+      <link>https://n26.com/en-eu/careers/positions/8121362?gh_jid=8121362</link>
+      <guid isPermaLink="false">ab5ae7846f00430d</guid>
+      <description>Berlin · other · 1d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4829,13 +4829,6 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>LGS, an IBM Company — Junior to Intermediate Data Engineer</title>
-      <link>https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293</link>
-      <guid isPermaLink="false">238f1ec0223031ae</guid>
-      <description>Montréal, QC H3B 3M4 (Onsite) · junior · 0d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ByteDance — Software Engineer Intern - Global Payment</title>
       <link>https://jobs.bytedance.com/en/position/7668650945276168453/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">6226673bf5db5561</guid>
@@ -5208,16 +5201,16 @@
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer - Cloud Infrastructure</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7962133</link>
-      <guid isPermaLink="false">f294a5abe28d09c8</guid>
-      <description>Mountain View, USA · other · 4d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7438944</link>
+      <guid isPermaLink="false">9813148fc092fe7c</guid>
+      <description>Seattle, USA · other · 4d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer - Cloud Infrastructure</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7438944</link>
-      <guid isPermaLink="false">9813148fc092fe7c</guid>
-      <description>Seattle, USA · other · 4d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7962133</link>
+      <guid isPermaLink="false">f294a5abe28d09c8</guid>
+      <description>Mountain View, USA · other · 4d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6590,13 +6583,6 @@
       <link>https://jobs.smartrecruiters.com/Wise/744000143281529</link>
       <guid isPermaLink="false">7e8876cf3c983c1c</guid>
       <description>London, United Kingdom · mid_level · 8d</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wise — Software Engineer - Screening Controls</title>
-      <link>https://jobs.smartrecruiters.com/Wise/744000143239689</link>
-      <guid isPermaLink="false">5544fe5221356073</guid>
-      <description>Tallinn, Estonia · other · 8d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8932,16 +8918,16 @@
     </item>
     <item>
       <title>N26 — Engineering Manager - Runtime Platform</title>
-      <link>https://n26.com/en-eu/careers/positions/8077056?gh_jid=8077056</link>
-      <guid isPermaLink="false">ef6b8754c8ca0d7d</guid>
-      <description>Barcelona · other · 16d</description>
+      <link>https://n26.com/en-eu/careers/positions/8076631?gh_jid=8076631</link>
+      <guid isPermaLink="false">1a2d22c7691f6a1d</guid>
+      <description>Berlin · other · 16d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>N26 — Engineering Manager - Runtime Platform</title>
-      <link>https://n26.com/en-eu/careers/positions/8076631?gh_jid=8076631</link>
-      <guid isPermaLink="false">1a2d22c7691f6a1d</guid>
-      <description>Berlin · other · 16d</description>
+      <link>https://n26.com/en-eu/careers/positions/8077056?gh_jid=8077056</link>
+      <guid isPermaLink="false">ef6b8754c8ca0d7d</guid>
+      <description>Barcelona · other · 16d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8974,16 +8960,16 @@
     </item>
     <item>
       <title>N26 — Senior Site Reliability Engineer - Infrastructure</title>
-      <link>https://n26.com/en-eu/careers/positions/7797431?gh_jid=7797431</link>
-      <guid isPermaLink="false">78bbcadb6db10417</guid>
-      <description>Barcelona · other · 16d</description>
+      <link>https://n26.com/en-eu/careers/positions/7796233?gh_jid=7796233</link>
+      <guid isPermaLink="false">38af59360e8ccb30</guid>
+      <description>Berlin · other · 16d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>N26 — Senior Site Reliability Engineer - Infrastructure</title>
-      <link>https://n26.com/en-eu/careers/positions/7796233?gh_jid=7796233</link>
-      <guid isPermaLink="false">38af59360e8ccb30</guid>
-      <description>Berlin · other · 16d</description>
+      <link>https://n26.com/en-eu/careers/positions/7797431?gh_jid=7797431</link>
+      <guid isPermaLink="false">78bbcadb6db10417</guid>
+      <description>Barcelona · other · 16d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9016,16 +9002,16 @@
     </item>
     <item>
       <title>N26 — Site Reliability Engineer - Observability</title>
-      <link>https://n26.com/en-eu/careers/positions/7405138?gh_jid=7405138</link>
-      <guid isPermaLink="false">107e29df2f3aae13</guid>
-      <description>Berlin · other · 16d</description>
+      <link>https://n26.com/en-eu/careers/positions/8053277?gh_jid=8053277</link>
+      <guid isPermaLink="false">7894aa41b7485977</guid>
+      <description>Barcelona · other · 16d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>N26 — Site Reliability Engineer - Observability</title>
-      <link>https://n26.com/en-eu/careers/positions/8053277?gh_jid=8053277</link>
-      <guid isPermaLink="false">7894aa41b7485977</guid>
-      <description>Barcelona · other · 16d</description>
+      <link>https://n26.com/en-eu/careers/positions/7405138?gh_jid=7405138</link>
+      <guid isPermaLink="false">107e29df2f3aae13</guid>
+      <description>Berlin · other · 16d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10367,15 +10353,15 @@
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
-      <guid isPermaLink="false">b09f34f6077eca0a</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
+      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
       <description>Hyderabad · other · 21d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
-      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
+      <guid isPermaLink="false">b09f34f6077eca0a</guid>
       <description>Hyderabad · other · 21d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -10388,8 +10374,22 @@
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8050353</link>
+      <guid isPermaLink="false">2f6a38eaa80a83e3</guid>
+      <description>Hyderabad · other · 21d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8095677</link>
       <guid isPermaLink="false">d47df4948fc5bb81</guid>
+      <description>Bengaluru · other · 21d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
+      <guid isPermaLink="false">71187b4892e1f07a</guid>
       <description>Bengaluru · other · 21d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -10398,20 +10398,6 @@
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
       <guid isPermaLink="false">9e94f52205a3dcf4</guid>
       <description>Hyderabad · other · 21d</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8050353</link>
-      <guid isPermaLink="false">2f6a38eaa80a83e3</guid>
-      <description>Hyderabad · other · 21d</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
-      <guid isPermaLink="false">71187b4892e1f07a</guid>
-      <description>Bengaluru · other · 21d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10675,15 +10661,15 @@
     </item>
     <item>
       <title>Okta — Senior Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679</link>
-      <guid isPermaLink="false">149f6e3c65aca6ce</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312</link>
+      <guid isPermaLink="false">2b6544e7f3a7ca2b</guid>
       <description>Bengaluru, India · other · 21d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Senior Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312</link>
-      <guid isPermaLink="false">2b6544e7f3a7ca2b</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679</link>
+      <guid isPermaLink="false">149f6e3c65aca6ce</guid>
       <description>Bengaluru, India · other · 21d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -10864,16 +10850,16 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer - Backend</title>
-      <link>https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085</link>
-      <guid isPermaLink="false">54a5c2cb0a9f2495</guid>
-      <description>Bengaluru, India · other · 21d</description>
+      <link>https://www.okta.com/company/careers/opportunity/7917929?gh_jid=7917929</link>
+      <guid isPermaLink="false">a9b699d18660fcf4</guid>
+      <description>Toronto, Ontario, Canada · other · 21d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer - Backend</title>
-      <link>https://www.okta.com/company/careers/opportunity/7917929?gh_jid=7917929</link>
-      <guid isPermaLink="false">a9b699d18660fcf4</guid>
-      <description>Toronto, Ontario, Canada · other · 21d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085</link>
+      <guid isPermaLink="false">54a5c2cb0a9f2495</guid>
+      <description>Bengaluru, India · other · 21d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
