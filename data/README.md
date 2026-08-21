@@ -27,24 +27,26 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 2346 |
+| Jobs | 2339 |
 | Hackathons | 206 |
-| Events | 3 |
-| Total | 2555 |
+| Events | 4 |
+| Total | 2549 |
 
 ## Jobs
 
-[![Jobs 2346](https://img.shields.io/badge/Jobs-2346-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 119](https://img.shields.io/badge/Internship-119-22c55e.svg)](#internship) [![Early Career 103](https://img.shields.io/badge/Early%20Career-103-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2124](https://img.shields.io/badge/Mid--Level%20and%20Above-2124-dc2626.svg)](#mid-level-and-above)
+[![Jobs 2339](https://img.shields.io/badge/Jobs-2339-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 117](https://img.shields.io/badge/Internship-117-22c55e.svg)](#internship) [![Early Career 104](https://img.shields.io/badge/Early%20Career-104-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2118](https://img.shields.io/badge/Mid--Level%20and%20Above-2118-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 119
+Total roles: 117
 
 | Company | Title | Location | Age |
 |---|---|---|---|
 | Amazon | [Robotics - Software Development Engineer Intern/Co-op](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1&utm_source=github-vansh-ouckah) | <details><summary>8 locations</summary>Sunnyvale<br>CA North Reading<br>MA Westboro<br>MA Nashville<br>TN Austin<br>TX Arlington<br>VA Bellevue<br>WA Seattle, WA</details> | 0d |
 | Amazon | [software dev engineer intern machine learning, amazon robotics](https://www.linkedin.com/jobs/view/4445212226) | berlin, germany | 0d |
 | AMD | [2027 Masters Software Engineer Intern...](https://campus-amd.icims.com/jobs/91180/login) | Austin, TX, United States | 0d |
+| AMD | [Machine Learning Intern/Co-op - Artificial Intelligence 🎓](https://careers.amd.com/jobs/91181?icims=1&utm_source=Simplify&ref=Simplify) | <details><summary>6 locations</summary>Rochester, NY<br>Austin, TX<br>Longmont, CO<br>Fishkill, NY<br>Fort Collins, CO<br>Boxborough, MA</details> | 0d |
+| AMD | [Software Engineer Intern/Co-op - Masters 🎓](https://careers.amd.com/jobs/91176?icims=1&utm_source=Simplify&ref=Simplify) | San Jose, CA Santa Clara, CA | 0d |
 | Apple | [Software Engineer Intern, Undergrad](https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships?utm_source=github-vansh-ouckah) | United States | 0d |
 | ByteDance | [Applied Machine Learning Production Engineer Intern](https://joinbytedance.com/search/7670009669494704437?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Backend Development Engineer Intern (...](https://joinbytedance.com/search/7668489218234157365) | San Jose, California | 0d |
@@ -60,8 +62,6 @@ Total roles: 119
 | Cohere | [Software Engineer Intern (Fall / Wint...](https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254) | Canada | 0d |
 | Figma | [Software Engineer Intern - Winter 2027](https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) | San Francisco, CA +1 | 0d |
 | Hudson River Trading | [Software Engineer Intern](https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/?gh_src=&utm_source=github-vansh-ouckah) | Austin, TX Chicago, IL New York, NY | 0d |
-| Intel | [Software Engineer Graduate Intern](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491) | US, Oregon, Hillsboro | 0d |
-| Intel | [Software Engineer Graduate Intern](https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489) | US, Arizona, Phoenix | 0d |
 | Jane Street | [Data Engineer Intern](https://www.janestreet.com/join-jane-street/position/8631973002/?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Jane Street | [Machine Learning Engineer Intern](https://www.janestreet.com/join-jane-street/position/8611307002/?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Jane Street | [Machine Learning Researcher Intern](https://www.janestreet.com/join-jane-street/position/8384490002/?utm_source=github-vansh-ouckah) | New York, NY | 0d |
@@ -74,18 +74,13 @@ Total roles: 119
 | Microsoft | [Software Engineer Intern, Security & Identity](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930&utm_source=github-vansh-ouckah) | Redmond, WA | 0d |
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) | San Francisco, CA +1 | 0d |
 | Notion | [Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8) | San Francisco, CA +1 | 0d |
-| NVIDIA | [Deep Learning Software Engineering Intern, Test Development - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023656) | China, Shanghai | 0d |
-| NVIDIA | [Software Engineering Intern, CUDA Test Development - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--CUDA-Test-Development---2027_JR2023645) | China, Shanghai | 0d |
 | NVIDIA | [Test Development Software Engineering Intern - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern---2027_JR2023632) | China, Shanghai | 0d |
-| NVIDIA | [Test Development Software Engineering Intern, Aerial - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern--Aerial---2027_JR2023852) | China, Shanghai | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0) | Washington, D.C. | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c) | Palo Alto, CA | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
 | Palantir Technologies | [Software Engineer Intern, Infrastructure](https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern, Production Infrastructure](https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
+| Roblox | [[Summer 2027] Software Engineer Intern](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) | San Mateo, CA, United States | 0d |
 | Roblox | [Software Engineer Intern 🇺🇸](https://careers.roblox.com/jobs/8072713?gh_jid=8072713&gh_src=nnh32o631us&utm_source=github-vansh-ouckah) | San Mateo, CA | 0d |
 | Zipline | [Enterprise Systems Software Engineer Intern - Spring 2027](https://www.zipline.com/open-roles?gh_jid=7893926003) | South San Francisco, CA | 0d |
 | Zipline | [Software Engineer Intern (Spring 2027)](https://www.zipline.com/open-roles?gh_jid=7907191003) | South San Francisco, C... | 0d |
@@ -93,8 +88,10 @@ Total roles: 119
 | Databricks | [Software Engineering Intern (2027 Start) - Winter](https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002) | Bellevue, Washington; Mountain View, California; San Francisco, California | 1d |
 | Datadog | [Software Engineering Intern (Winter)](https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095) | Boston, Massachusetts, USA; New York, New York, USA | 1d |
 | Metaphor | [Software Engineer - Intern](https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16) | San Francisco, CA | 1d |
+| NVIDIA | [Deep Learning Software Engineering Intern, Test Development - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023656) | China, Shanghai | 1d |
+| NVIDIA | [Software Engineering Intern, CUDA Test Development - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--CUDA-Test-Development---2027_JR2023645) | China, Shanghai | 1d |
+| NVIDIA | [Test Development Software Engineering Intern, Aerial - 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern--Aerial---2027_JR2023852) | China, Shanghai | 1d |
 | Oracle | [Platform Software Engineer 1 - Full-time Intern Conversion](https://careers.oracle.com/jobs/#en/sites/jobsearch/job/342415) | USA | 1d |
-| Roblox | [[Summer 2027] Software Engineer Intern](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) | San Mateo, CA, United States | 1d |
 | Zipline | [Enterprise Systems Software Engineer Intern - Summer 2027](https://www.zipline.com/open-roles?gh_jid=7886501003) | South San Francisco, CA | 1d |
 | ByteDance | [Software Engineer Intern - Global Payment Infra and SRE](https://jobs.bytedance.com/en/position/7668315137242351925/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 2d |
 | Figma | [Software Engineer Intern (Winter 2027)](https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) | San Francisco, CA • New York, NY | 2d |
@@ -121,6 +118,7 @@ Total roles: 119
 | Roblox | [Software Engineer Intern](https://careers.roblox.com/jobs/8072713?gh_jid=8072713&utm_source=Simplify&ref=Simplify) | San Mateo, CA | 11d |
 | ByteDance | [Software Engineer Intern - AI Platform](https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 13d |
 | ByteDance | [Software Engineer Intern - AI Infra Compute 🎓](https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&ref=Simplify) | Seattle, WA | 14d |
+| ByteDance | [Applied Machine Learning Production Engineer Intern - AML Production Engineer](https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 15d |
 | Cloudflare | [Software Engineer Intern (Fall 2026) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) | In-Office | 15d |
 | SpaceX | [Spring 2027 Software Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002) | Flexible - Any SpaceX Site | 18d |
 | SpaceX | [Summer 2027 Software Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002) | Flexible - Any SpaceX Site | 18d |
@@ -164,7 +162,7 @@ Total roles: 119
 
 ### Early Career
 
-Total roles: 103
+Total roles: 104
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -195,6 +193,7 @@ Total roles: 103
 | Duolingo | [New Grad: Software Engineer](https://careers.duolingo.com/jobs/8155283002?utm_source=vansh) | Pittsburgh, PA | 0d |
 | Google | [Software Developer, Early Career, Campus](https://www.google.com/about/careers/applications/jobs/results/120686451305128646) | Canada | 0d |
 | Google | [software engineer, performance, reliability, observability, phd, early career](https://www.linkedin.com/jobs/view/4321301694) | warsaw, mazowieckie, poland | 0d |
+| Google | [Software Engineer, PhD, Early Career,...](https://www.google.com/about/careers/applications/jobs/results/122258040807137990) | United States | 0d |
 | LGS, an IBM Company | [Junior to Intermediate Data Engineer](https://jobs.dayforcehcm.com/en-US/lgs/CANDIDATEPORTAL/jobs/3293) | Montréal, QC H3B 3M4 (Onsite) | 0d |
 | Morgan Stanley | [SRE Associate (Hybrid)](https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929) | Montreal, Canada | 0d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 0d |
@@ -214,6 +213,7 @@ Total roles: 103
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908696559?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | Revolut | [graduate programme 2027: software engineer (java)](https://www.linkedin.com/jobs/view/4418834450) | portugal | 0d |
 | Revolut | [graduate programme 2027: software engineer (python)](https://www.linkedin.com/jobs/view/4418841246) | porto, porto, portugal | 0d |
+| Roblox | [[2027] Software Engineer, Early Career](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) | San Mateo, CA, United States | 0d |
 | Roblox | [New Grad 2025: Software Engineer, Game Solutions Engineering](https://careers.roblox.com/jobs/6749070?utm_source=vansh) | San Mateo, CA | 0d |
 | Roblox | [Software Engineer - Early Career](https://careers.roblox.com/jobs/7114754?gh_jid=7114754&utm_source=vansh&ref=vansh) | San Mateo, CA | 0d |
 | ServiceNow | [Associate Software Engineer, Core Inf...](https://jobs.smartrecruiters.com/ServiceNow/744000107369741) | Mountain View, CALIFORNIA | 0d |
@@ -231,7 +231,6 @@ Total roles: 103
 | Visa | [New Grad 2026: Software Engineer 🛂](https://jobs.smartrecruiters.com/visa/744000080905285-software-engineer-new-college-grad-2026?utm_source=vansh) | Highlands Ranch, CO | 0d |
 | Visa | [New Grad 2026: Software Engineer 🛂](https://jobs.smartrecruiters.com/visa/744000080905065-software-engineer-new-college-grad-2026?utm_source=vansh) | Foster City, CA | 0d |
 | Visa | [New Grad 2026: Software Engineer 🛂](https://jobs.smartrecruiters.com/visa/744000080904205-software-engineer-new-college-grad-2026?utm_source=vansh) | Bellevue, WA | 0d |
-| Roblox | [[2027] Software Engineer, Early Career](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) | San Mateo, CA, United States | 1d |
 | Wise | [Senior Software Engineer I - Global KYC and Onboarding - Java](https://jobs.smartrecruiters.com/Wise/744000144504749) | London, United Kingdom | 1d |
 | Careem | [Senior Software Engineer I](https://boards.greenhouse.io/careem/jobs/8682543002?gh_jid=8682543002) | Karachi, Pakistan; Lahore, Pakistan | 2d |
 | Careem | [Software Engineer I](https://boards.greenhouse.io/careem/jobs/7107610002?gh_jid=7107610002) | Karachi, Pakistan; Lahore, Pakistan | 2d |
@@ -252,7 +251,7 @@ Total roles: 103
 | Palantir | [Forward Deployed Software Engineer, New Grad - Commercial](https://jobs.lever.co/palantir/341d5cae-a473-4813-9a6c-0f67fcc1b253) | Seoul, South Korea | 11d |
 | Sony Interactive Entertainment | [Software Engineer I SDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6119793004) | United States, San Mateo, CA | 11d |
 | Careem | [Senior Software Engineer I - Backend](https://boards.greenhouse.io/careem/jobs/8620291002?gh_jid=8620291002) | Amman, Jordan; Islamabad, Pakistan; Karachi, Pakistan; Lahore, Pakistan | 16d |
-| Sony | [Senior Software Engineer I](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Senior-Software-Engineer-I_JR-119435) | <details><summary>2 locations</summary>San Diego<br>Los Angeles</details> | 16d |
+| Sony | [Senior Software Engineer I](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Senior-Software-Engineer-I_JR-119435) | <details><summary>2 locations</summary>San Diego<br>Los Angeles</details> | 17d |
 | SpaceX | [Sr. Satellite Policy Associate (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8633673002?gh_jid=8633673002) | Washington, DC | 21d |
 | Openai | [Associate General Counsel, Commercial – Infrastructure](https://jobs.ashbyhq.com/openai/2b148425-b807-46a5-97e1-fae307aacb80) | San Francisco | 22d |
 | Sony Interactive Entertainment | [Software Engineer I](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104600004) | United States, San Mateo, CA | 25d |
@@ -274,7 +273,7 @@ Total roles: 103
 
 ### Mid-Level and Above
 
-Total roles: 2124
+Total roles: 2118
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -287,36 +286,95 @@ Total roles: 2124
 | Amazon Development Centre Canada ULC | [Software Development Engineer II, Ama...](https://www.amazon.jobs/en/jobs/10503715/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization) | Toronto, ON | 0d |
 | Amazon.com Services LLC - A57 | [Data Engineer II - AMZ10414442](https://www.amazon.jobs/en/jobs/10507174/data-engineer-ii-amz10414442) | Dallas, TX | 0d |
 | Instacart | [Machine Learning Engineer II, Ads - R...](https://instacart.careers/job/?gh_jid=8143263) | Remote (ON, AB, BC, or... | 0d |
-| Intel | [AI Infrastructure Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Infrastructure-Engineer_JR0286233) | <details><summary>4 locations</summary>US<br>California<br>Santa Clara, US<br>Oregon<br>Hillsboro, US<br>California<br>Folsom, US<br>Texas<br>Austin</details> | 0d |
 | Microsoft | [Data Engineer II](https://apply.careers.microsoft.com/careers/job/1970393556962716) | Redmond, Washington, U... | 0d |
 | Mongodb | [Software Engineer 3, Networking & Observability](https://www.mongodb.com/careers/job/?gh_jid=8119841) | New York City; United States | 0d |
 | Mongodb | [Software Engineer 3, Networking & Observability](https://www.mongodb.com/careers/job/?gh_jid=8119843) | Alberta; British Columbia; Ontario; Quebec | 0d |
-| Morgan Stanley | [Lead Software Engineer - Fixed Income Municipal Securities eTrading (Hybrid)](https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Principal-Java-Developer--Hybrid-_PT-JR034823) | Montreal, Canada | 0d |
-| Morgan Stanley | [Principal Software Engineer - VP](https://ms.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/Principal-Software-Engineer---VP_PT-JR042438) | London, United Kingdom | 0d |
-| Morgan Stanley | [Site Reliability Engineer](https://ms.wd5.myworkdayjobs.com/External/job/Alpharetta-Georgia-United-States-of-America/Identity-and-Access-Management-Site-Reliability-Engineer--SRE-_PT-JR028816) | Alpharetta, Georgia, United States of America | 0d |
-| NVIDIA | [Compute Platform Engineer, License Scheduling](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compute-Platform-Engineer--License-Scheduling_JR2023965) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 0d |
-| NVIDIA | [Senior AI Infrastructure Software Engineer - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-AI-Infrastructure-Software-Engineer---DGX-Cloud_JR2018042) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>Remote, US<br>WA<br>Redmond, US<br>WA<br>Seattle</details> | 0d |
-| NVIDIA | [Senior Compute Platform Engineer, LSF](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Compute-Platform-Engineer--LSF-_JR2023960) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 0d |
-| NVIDIA | [Senior CUDA Test Development Software Engineer, SDET](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shenzhen/Senior-CUDA-Test-Development-Software-Engineer--SDET_JR2023864-1) | China, Shenzhen | 0d |
-| NVIDIA | [Senior Infrastructure Automation Engineer, Compute Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 0d |
-| NVIDIA | [Senior Linux Drivers Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Linux-Drivers-Software-Engineer_JR2016301) | Israel, Yokneam | 0d |
-| NVIDIA | [Senior Manager, Site Reliability Engineering](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Site-Reliability-Engineering_JR2016119) | US, CA, Santa Clara | 0d |
-| NVIDIA | [Senior Product Architect, K8s-Based AI Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Product-Architect--K8s-Based-AI-Infrastructure_JR2023964) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
-| NVIDIA | [Senior Site Reliability Engineer, DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Senior-Site-Reliability-Engineer--DGX-Cloud_JR2021427-1) | <details><summary>2 locations</summary>Switzerland<br>Zurich<br>Switzerland<br>Remote</details> | 0d |
-| NVIDIA | [Senior Software Engineer, AI Storage](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Storage_JR2014785) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
-| NVIDIA | [Senior Software Engineer, At Scale Compute Analysis](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>CO<br>Remote, US<br>WA<br>Remote, US<br>CA<br>Remote</details> | 0d |
-| NVIDIA | [Senior Software Engineer, Chips System Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Chips-System-Software_JR2023525) | US, CA, Santa Clara | 0d |
-| NVIDIA | [Senior Software Engineer, Metropolis Vision AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Metropolis-Vision-AI_JR2021019) | US, CA, Santa Clara | 0d |
-| NVIDIA | [Senior Software Engineer, Quantized Inference](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Quantized-Inference_JR2021844) | <details><summary>2 locations</summary>US, WA<br>Redmond, US<br>CA<br>Santa Clara</details> | 0d |
-| NVIDIA | [Senior Staff Site Reliability Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Staff-Site-Reliability-Engineer_JR2023364) | India, Bengaluru | 0d |
-| NVIDIA | [Senior System Software Engineer - SoC Power](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---SoC-Power_JR2023443) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>OR<br>Hillsboro</details> | 0d |
-| NVIDIA | [Senior System Software Engineer, RTL-to-GDS Flow Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-System-Software-Engineer--RTL-to-GDS-Flow-Platform_JR2018368) | US, CA, Santa Clara | 0d |
-| NVIDIA | [Senior Systems Software Engineer - GPU Performance at Scale](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>TX<br>Remote, US<br>Remote, US<br>CA<br>Remote</details> | 0d |
-| NVIDIA | [Site Reliability Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Site-Reliability-Engineer_JR2023532-1) | India, Bengaluru | 0d |
-| NVIDIA | [Software Architect, Autonomous Vehicles - Backend and AI Agents](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Architect--Autonomous-Vehicles---Backend-and--AI-Agents_JR2020146) | China, Shanghai | 0d |
 | NVIDIA | [Solutions Architect, Data Center Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Singapore-Singapore-Suntec-Tower/Solutions-Architect--Data-Center-Infrastructure_JR2023988) | Singapore, Singapore-Suntec Tower | 0d |
-| NVIDIA | [System Software Engineer, Distributed Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Distributed-Systems_JR2013472) | US, CA, Santa Clara | 0d |
-| NVIDIA | [System Software Engineer, Engineering Workflow Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371) | US, CA, Santa Clara | 0d |
+| Phonepe | [Software Engineer(3-5 years) Backend](https://job-boards.greenhouse.io/phonepe/jobs/7821471003) | Bangalore | 0d |
+| Roblox | [Director, Product Management, Consumer Frontend](https://careers.roblox.com/jobs/7913665?gh_jid=7913665) | San Mateo, CA, United States | 0d |
+| Roblox | [Engineering Manager, Home Infrastructure (Recommendation Systems)](https://careers.roblox.com/jobs/7905464?gh_jid=7905464) | San Mateo, CA, United States | 0d |
+| Roblox | [Engineering Manager, Observability Infrastructure](https://careers.roblox.com/jobs/7901793?gh_jid=7901793) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Frontend Software Engineer - Discovery UX](https://careers.roblox.com/jobs/8052466?gh_jid=8052466) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Frontend Software Engineer, Connections](https://careers.roblox.com/jobs/8025477?gh_jid=8025477) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer](https://careers.roblox.com/jobs/8017415?gh_jid=8017415) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer](https://careers.roblox.com/jobs/7744272?gh_jid=7744272) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Compute (Kubernetes)](https://careers.roblox.com/jobs/8024627?gh_jid=8024627) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Content Lifecycle](https://careers.roblox.com/jobs/7650307?gh_jid=7650307) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Content Platform](https://careers.roblox.com/jobs/7821818?gh_jid=7821818) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Creator Collaboration](https://careers.roblox.com/jobs/7769510?gh_jid=7769510) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Creator Distributed Systems & Storage](https://careers.roblox.com/jobs/7740153?gh_jid=7740153) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Economy ML (Data Systems)](https://careers.roblox.com/jobs/7629489?gh_jid=7629489) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Game Engine Systems (C++)](https://careers.roblox.com/jobs/7449585?gh_jid=7449585) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Network Transport (C++)](https://careers.roblox.com/jobs/7561743?gh_jid=7561743) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Roblox Database](https://careers.roblox.com/jobs/8036892?gh_jid=8036892) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer - Roblox Economy Platform](https://careers.roblox.com/jobs/7545955?gh_jid=7545955) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Ads Experience](https://careers.roblox.com/jobs/7460850?gh_jid=7460850) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Backend - Sharing](https://careers.roblox.com/jobs/8013437?gh_jid=8013437) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, CI and CD Foundation](https://careers.roblox.com/jobs/8047821?gh_jid=8047821) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Compute Fleet Management](https://careers.roblox.com/jobs/7983990?gh_jid=7983990) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Data Infrastructure](https://careers.roblox.com/jobs/8029695?gh_jid=8029695) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Engine Systems](https://careers.roblox.com/jobs/8036223?gh_jid=8036223) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Engineering Efficiency](https://careers.roblox.com/jobs/7991993?gh_jid=7991993) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Game Safety](https://careers.roblox.com/jobs/8031166?gh_jid=8031166) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, GPU Compute](https://careers.roblox.com/jobs/7978492?gh_jid=7978492) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Physics](https://careers.roblox.com/jobs/7998366?gh_jid=7998366) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, Physics](https://careers.roblox.com/jobs/8084445?gh_jid=8084445) | Vancouver, British Columbia, Canada | 0d |
+| Roblox | [Principal Software Engineer, Physics](https://careers.roblox.com/jobs/8039680?gh_jid=8039680) | San Mateo, CA, United States | 0d |
+| Roblox | [Principal Software Engineer, WebRTC](https://careers.roblox.com/jobs/8036680?gh_jid=8036680) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior / Principal Infrastructure Engineer - ML Platform](https://careers.roblox.com/jobs/8027755?gh_jid=8027755) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Engineering Manager, AI Safety Platform](https://careers.roblox.com/jobs/8030839?gh_jid=8030839) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Frontend Engineer, Voice Communication](https://careers.roblox.com/jobs/8011015?gh_jid=8011015) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Frontend Software Engineer - Marketplace](https://careers.roblox.com/jobs/7913878?gh_jid=7913878) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Frontend Software Engineer, Ads Experience](https://careers.roblox.com/jobs/7396342?gh_jid=7396342) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Hardware Engineer - GPU & AI Infrastructure](https://careers.roblox.com/jobs/7463674?gh_jid=7463674) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Hardware Engineer - Infrastructure](https://careers.roblox.com/jobs/7947153?gh_jid=7947153) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Mobile Systems Engineer, Audio Team (Android & C++)](https://careers.roblox.com/jobs/7528070?gh_jid=7528070) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Privacy Software Engineer](https://careers.roblox.com/jobs/8022674?gh_jid=8022674) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Site Reliability Engineer, Compute](https://careers.roblox.com/jobs/8042554?gh_jid=8042554) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer (Backend), Communication](https://careers.roblox.com/jobs/8001022?gh_jid=8001022) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer (C++)](https://careers.roblox.com/jobs/8025510?gh_jid=8025510) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Avatar Personalization](https://careers.roblox.com/jobs/7545202?gh_jid=7545202) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Bot Defense](https://careers.roblox.com/jobs/8047817?gh_jid=8047817) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Consoles](https://careers.roblox.com/jobs/8089039?gh_jid=8089039) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Core Platform and Systems](https://careers.roblox.com/jobs/8079797?gh_jid=8079797) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Core UX Studio](https://careers.roblox.com/jobs/8079799?gh_jid=8079799) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Data Access](https://careers.roblox.com/jobs/7437922?gh_jid=7437922) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Data Infrastructure, Safety](https://careers.roblox.com/jobs/7852258?gh_jid=7852258) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Fraud](https://careers.roblox.com/jobs/8008607?gh_jid=8008607) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Marketplace (Avatar Identity)](https://careers.roblox.com/jobs/7913302?gh_jid=7913302) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Marketplace Foundation](https://careers.roblox.com/jobs/8142712?gh_jid=8142712) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Orchestration](https://careers.roblox.com/jobs/8047831?gh_jid=8047831) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Storage Cache](https://careers.roblox.com/jobs/7862605?gh_jid=7862605) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer - Studio Tools](https://careers.roblox.com/jobs/8079795?gh_jid=8079795) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Ads Experience (C++)](https://careers.roblox.com/jobs/7655780?gh_jid=7655780) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Ads Platform](https://careers.roblox.com/jobs/8011079?gh_jid=8011079) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, App Performance](https://careers.roblox.com/jobs/7360413?gh_jid=7360413) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Avatar Animation](https://careers.roblox.com/jobs/7540219?gh_jid=7540219) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Client Systems (C++)](https://careers.roblox.com/jobs/8036535?gh_jid=8036535) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Compute Cell Platform](https://careers.roblox.com/jobs/8056362?gh_jid=8056362) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Content Suitability](https://careers.roblox.com/jobs/7987819?gh_jid=7987819) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Core UI](https://careers.roblox.com/jobs/8036724?gh_jid=8036724) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Data Infrastructure](https://careers.roblox.com/jobs/8014486?gh_jid=8014486) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Data Insights](https://careers.roblox.com/jobs/8011273?gh_jid=8011273) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Engine Systems](https://careers.roblox.com/jobs/7309267?gh_jid=7309267) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Engineering Acceleration](https://careers.roblox.com/jobs/8047829?gh_jid=8047829) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Engineering Acceleration Foundations](https://careers.roblox.com/jobs/7998339?gh_jid=7998339) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Game Engine Systems](https://careers.roblox.com/jobs/7354277?gh_jid=7354277) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Geometry](https://careers.roblox.com/jobs/7998292?gh_jid=7998292) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, ML Infra (Communication Safety)](https://careers.roblox.com/jobs/8073279?gh_jid=8073279) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Privacy Infrastructure](https://careers.roblox.com/jobs/8127033?gh_jid=8127033) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Runtime](https://careers.roblox.com/jobs/8097810?gh_jid=8097810) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Safety Foundation](https://careers.roblox.com/jobs/8017352?gh_jid=8017352) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Service Mesh](https://careers.roblox.com/jobs/7698330?gh_jid=7698330) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Service Mesh](https://careers.roblox.com/jobs/8015824?gh_jid=8015824) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, UGC Validation](https://careers.roblox.com/jobs/7997637?gh_jid=7997637) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer- Account Authentication](https://careers.roblox.com/jobs/8092905?gh_jid=8092905) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer: Assistant](https://careers.roblox.com/jobs/8047823?gh_jid=8047823) | San Mateo, CA, United States | 0d |
+| Roblox | [Software Engineer, Account Authentication](https://careers.roblox.com/jobs/8097701?gh_jid=8097701) | San Mateo, CA, United States | 0d |
+| Roblox | [Software Engineer, Communications](https://careers.roblox.com/jobs/8083944?gh_jid=8083944) | San Mateo, CA, United States | 0d |
+| Roblox | [Software Engineer, Foundation AI](https://careers.roblox.com/jobs/8123004?gh_jid=8123004) | San Mateo, CA, United States | 0d |
+| Roblox | [Software Engineering Manager, Engine UI](https://careers.roblox.com/jobs/7482015?gh_jid=7482015) | San Mateo, CA, United States | 0d |
+| Roblox | [Technical Director, Content Platform](https://careers.roblox.com/jobs/7754152?gh_jid=7754152) | San Mateo, CA, United States | 0d |
 | Sony Interactive Entertainment | [Software Engineer II/ Software Develo...](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6145793004) | Canada, Waterloo, ON | 0d |
 | Anthropic | [Staff+ Software Engineer, Claude Managed Agents](https://job-boards.greenhouse.io/anthropic/jobs/5395767008) | San Francisco, CA   New York City, NY | 1d |
 | Anthropic | [Staff+ Software Engineer, Platform](https://job-boards.greenhouse.io/anthropic/jobs/5157847008) | San Francisco, CA   New York City, NY   Seattle, WA | 1d |
@@ -381,18 +439,35 @@ Total roles: 2124
 | Epicgames | [Principal Engineer, AI Platform](https://epicgames.com/careers/jobs/5996485004?gh_jid=5996485004) | Cary,North Carolina,United States | 1d |
 | Epicgames | [Principal Engineer, AI Platform](https://epicgames.com/careers/jobs/5996487004?gh_jid=5996487004) | BLANK,BLANK,Multiple Locations | 1d |
 | Epicgames | [Senior Software Engineer, Audio Engine](https://epicgames.com/careers/jobs/5990685004?gh_jid=5990685004) | Cary,North Carolina,United States | 1d |
-| Intel | [Sr. Director, Software Engineering](https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/Software-Engineering-Manager_JR0284770) | Virtual US | 1d |
 | Lyft | [Software Engineer, iOS Integrity](https://app.careerpuck.com/job-board/lyft/job/8733650002?gh_jid=8733650002) | Toronto, Canada | 1d |
 | Mongodb | [Senior Software Engineer](https://www.mongodb.com/careers/job/?gh_jid=8081430) | Toronto | 1d |
+| Morgan Stanley | [Lead Software Engineer - Fixed Income Municipal Securities eTrading (Hybrid)](https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/Principal-Java-Developer--Hybrid-_PT-JR034823) | Montreal, Canada | 1d |
+| Morgan Stanley | [Principal Software Engineer - VP](https://ms.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/Principal-Software-Engineer---VP_PT-JR042438) | London, United Kingdom | 1d |
+| Morgan Stanley | [Site Reliability Engineer](https://ms.wd5.myworkdayjobs.com/External/job/Alpharetta-Georgia-United-States-of-America/Identity-and-Access-Management-Site-Reliability-Engineer--SRE-_PT-JR028816) | Alpharetta, Georgia, United States of America | 1d |
 | N26 | [Senior Android Engineer - Payments](https://n26.com/en-eu/careers/positions/8121362?gh_jid=8121362) | Berlin | 1d |
 | N26 | [Senior Android Engineer - Payments](https://n26.com/en-eu/careers/positions/8143846?gh_jid=8143846) | Barcelona | 1d |
-| NVIDIA | [Director, Legal – Strategic Sourcing, IP and Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Legal---Strategic-Sourcing--IP-and-Infrastructure_JR2022939-1) | US, CA, Santa Clara | 1d |
-| NVIDIA | [Senior Software Engineer - Topography](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Topography_JR2020161) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
-| NVIDIA | [Senior Software Engineer, Agent Simulation and Evaluation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Agentic-AI-Engineer--Simulation-and-Evaluation_JR2023184) | US, CA, Santa Clara | 1d |
-| NVIDIA | [Senior Software Engineer, Attestation Services - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Attestation-Services---DGX-Cloud_JR2023561) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Remote, US<br>WA<br>Remote, US<br>Remote, US<br>CA<br>Remote</details> | 1d |
-| NVIDIA | [Senior Software Engineer, Developer Experience](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Developer-Experience_JR2023498) | US, CA, Santa Clara | 1d |
-| NVIDIA | [Senior Staff Platform Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Platform-Engineer_JR2023515) | US, CA, Santa Clara | 1d |
-| NVIDIA | [Senior Systems Software Engineer - Advanced Technology Group](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Senior-Systems-Software-Engineer---Advanced-Technology-Group_JR2014995) | US, OR, Hillsboro | 1d |
+| NVIDIA | [Compute Platform Engineer, License Scheduling](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compute-Platform-Engineer--License-Scheduling_JR2023965) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 1d |
+| NVIDIA | [Senior AI Infrastructure Software Engineer - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-AI-Infrastructure-Software-Engineer---DGX-Cloud_JR2018042) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>Remote, US<br>WA<br>Redmond, US<br>WA<br>Seattle</details> | 1d |
+| NVIDIA | [Senior Compute Platform Engineer, LSF](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Compute-Platform-Engineer--LSF-_JR2023960) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 1d |
+| NVIDIA | [Senior CUDA Test Development Software Engineer, SDET](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shenzhen/Senior-CUDA-Test-Development-Software-Engineer--SDET_JR2023864-1) | China, Shenzhen | 1d |
+| NVIDIA | [Senior Infrastructure Automation Engineer, Compute Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin</details> | 1d |
+| NVIDIA | [Senior Linux Drivers Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Linux-Drivers-Software-Engineer_JR2016301) | Israel, Yokneam | 1d |
+| NVIDIA | [Senior Manager, Site Reliability Engineering](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Site-Reliability-Engineering_JR2016119) | US, CA, Santa Clara | 1d |
+| NVIDIA | [Senior Product Architect, K8s-Based AI Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Product-Architect--K8s-Based-AI-Infrastructure_JR2023964) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
+| NVIDIA | [Senior Site Reliability Engineer, DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Senior-Site-Reliability-Engineer--DGX-Cloud_JR2021427-1) | <details><summary>2 locations</summary>Switzerland<br>Zurich<br>Switzerland<br>Remote</details> | 1d |
+| NVIDIA | [Senior Software Engineer, AI Storage](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Storage_JR2014785) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
+| NVIDIA | [Senior Software Engineer, At Scale Compute Analysis](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>CO<br>Remote, US<br>WA<br>Remote, US<br>CA<br>Remote</details> | 1d |
+| NVIDIA | [Senior Software Engineer, Chips System Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Chips-System-Software_JR2023525) | US, CA, Santa Clara | 1d |
+| NVIDIA | [Senior Software Engineer, Metropolis Vision AI](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Metropolis-Vision-AI_JR2021019) | US, CA, Santa Clara | 1d |
+| NVIDIA | [Senior Software Engineer, Quantized Inference](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Senior-Software-Engineer--Quantized-Inference_JR2021844) | <details><summary>2 locations</summary>US, WA<br>Redmond, US<br>CA<br>Santa Clara</details> | 1d |
+| NVIDIA | [Senior Staff Site Reliability Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Staff-Site-Reliability-Engineer_JR2023364) | India, Bengaluru | 1d |
+| NVIDIA | [Senior System Software Engineer - SoC Power](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---SoC-Power_JR2023443) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>OR<br>Hillsboro</details> | 1d |
+| NVIDIA | [Senior System Software Engineer, RTL-to-GDS Flow Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-System-Software-Engineer--RTL-to-GDS-Flow-Platform_JR2018368) | US, CA, Santa Clara | 1d |
+| NVIDIA | [Senior Systems Software Engineer - GPU Performance at Scale](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>TX<br>Remote, US<br>Remote, US<br>CA<br>Remote</details> | 1d |
+| NVIDIA | [Site Reliability Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Site-Reliability-Engineer_JR2023532-1) | India, Bengaluru | 1d |
+| NVIDIA | [Software Architect, Autonomous Vehicles - Backend and AI Agents](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Architect--Autonomous-Vehicles---Backend-and--AI-Agents_JR2020146) | China, Shanghai | 1d |
+| NVIDIA | [System Software Engineer, Distributed Systems](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Distributed-Systems_JR2013472) | US, CA, Santa Clara | 1d |
+| NVIDIA | [System Software Engineer, Engineering Workflow Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371) | US, CA, Santa Clara | 1d |
 | Okta | [Manager, Site Reliability Engineering](https://www.okta.com/company/careers/opportunity/7977080?gh_jid=7977080) | Bellevue, Washington; Chicago, Illinois; San Francisco, California; Washington, DC | 1d |
 | Okta | [Principal Software Engineer - PAM](https://www.okta.com/company/careers/opportunity/8127234?gh_jid=8127234) | Bengaluru, India | 1d |
 | Okta | [Senior Manager, Site Reliability Engineering - Infrastructure Platform](https://www.okta.com/company/careers/opportunity/7317857?gh_jid=7317857) | Bellevue, Washington; Chicago, Illinois; San Francisco, California; Washington, DC | 1d |
@@ -472,95 +547,10 @@ Total roles: 2124
 | Robinhood | [Staff Software Engineer, Storage Platform](https://boards.greenhouse.io/robinhood/jobs/8044227?t=gh_src=&gh_jid=8044227) | Bellevue, WA | 1d |
 | Robinhood | [Staff Software Engineer, Web3](https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&gh_jid=7489952) | Toronto, Canada | 1d |
 | Robinhood | [Staff Software Engineer, Web3](https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&gh_jid=7489950) | Menlo Park, CA; New York, NY | 1d |
-| Roblox | [Director, Product Management, Consumer Frontend](https://careers.roblox.com/jobs/7913665?gh_jid=7913665) | San Mateo, CA, United States | 1d |
-| Roblox | [Engineering Manager, Home Infrastructure (Recommendation Systems)](https://careers.roblox.com/jobs/7905464?gh_jid=7905464) | San Mateo, CA, United States | 1d |
-| Roblox | [Engineering Manager, Observability Infrastructure](https://careers.roblox.com/jobs/7901793?gh_jid=7901793) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Frontend Software Engineer - Discovery UX](https://careers.roblox.com/jobs/8052466?gh_jid=8052466) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Frontend Software Engineer, Connections](https://careers.roblox.com/jobs/8025477?gh_jid=8025477) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer](https://careers.roblox.com/jobs/8017415?gh_jid=8017415) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer](https://careers.roblox.com/jobs/7744272?gh_jid=7744272) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Compute (Kubernetes)](https://careers.roblox.com/jobs/8024627?gh_jid=8024627) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Content Lifecycle](https://careers.roblox.com/jobs/7650307?gh_jid=7650307) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Content Platform](https://careers.roblox.com/jobs/7821818?gh_jid=7821818) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Creator Collaboration](https://careers.roblox.com/jobs/7769510?gh_jid=7769510) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Creator Distributed Systems & Storage](https://careers.roblox.com/jobs/7740153?gh_jid=7740153) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Economy ML (Data Systems)](https://careers.roblox.com/jobs/7629489?gh_jid=7629489) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Game Engine Systems (C++)](https://careers.roblox.com/jobs/7449585?gh_jid=7449585) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Network Transport (C++)](https://careers.roblox.com/jobs/7561743?gh_jid=7561743) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Roblox Database](https://careers.roblox.com/jobs/8036892?gh_jid=8036892) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer - Roblox Economy Platform](https://careers.roblox.com/jobs/7545955?gh_jid=7545955) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Ads Experience](https://careers.roblox.com/jobs/7460850?gh_jid=7460850) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Backend - Sharing](https://careers.roblox.com/jobs/8013437?gh_jid=8013437) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, CI and CD Foundation](https://careers.roblox.com/jobs/8047821?gh_jid=8047821) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Compute Fleet Management](https://careers.roblox.com/jobs/7983990?gh_jid=7983990) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Data Infrastructure](https://careers.roblox.com/jobs/8029695?gh_jid=8029695) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Engine Systems](https://careers.roblox.com/jobs/8036223?gh_jid=8036223) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Engineering Efficiency](https://careers.roblox.com/jobs/7991993?gh_jid=7991993) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Game Safety](https://careers.roblox.com/jobs/8031166?gh_jid=8031166) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, GPU Compute](https://careers.roblox.com/jobs/7978492?gh_jid=7978492) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Physics](https://careers.roblox.com/jobs/7998366?gh_jid=7998366) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, Physics](https://careers.roblox.com/jobs/8084445?gh_jid=8084445) | Vancouver, British Columbia, Canada | 1d |
-| Roblox | [Principal Software Engineer, Physics](https://careers.roblox.com/jobs/8039680?gh_jid=8039680) | San Mateo, CA, United States | 1d |
-| Roblox | [Principal Software Engineer, WebRTC](https://careers.roblox.com/jobs/8036680?gh_jid=8036680) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior / Principal Infrastructure Engineer - ML Platform](https://careers.roblox.com/jobs/8027755?gh_jid=8027755) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Engineering Manager, AI Safety Platform](https://careers.roblox.com/jobs/8030839?gh_jid=8030839) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Frontend Engineer, Voice Communication](https://careers.roblox.com/jobs/8011015?gh_jid=8011015) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Frontend Software Engineer - Marketplace](https://careers.roblox.com/jobs/7913878?gh_jid=7913878) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Frontend Software Engineer, Ads Experience](https://careers.roblox.com/jobs/7396342?gh_jid=7396342) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Hardware Engineer - GPU & AI Infrastructure](https://careers.roblox.com/jobs/7463674?gh_jid=7463674) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Hardware Engineer - Infrastructure](https://careers.roblox.com/jobs/7947153?gh_jid=7947153) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Mobile Systems Engineer, Audio Team (Android & C++)](https://careers.roblox.com/jobs/7528070?gh_jid=7528070) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Privacy Software Engineer](https://careers.roblox.com/jobs/8022674?gh_jid=8022674) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Site Reliability Engineer, Compute](https://careers.roblox.com/jobs/8042554?gh_jid=8042554) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer (Backend), Communication](https://careers.roblox.com/jobs/8001022?gh_jid=8001022) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer (C++)](https://careers.roblox.com/jobs/8025510?gh_jid=8025510) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Avatar Personalization](https://careers.roblox.com/jobs/7545202?gh_jid=7545202) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Bot Defense](https://careers.roblox.com/jobs/8047817?gh_jid=8047817) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Consoles](https://careers.roblox.com/jobs/8089039?gh_jid=8089039) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Core Platform and Systems](https://careers.roblox.com/jobs/8079797?gh_jid=8079797) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Core UX Studio](https://careers.roblox.com/jobs/8079799?gh_jid=8079799) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Data Access](https://careers.roblox.com/jobs/7437922?gh_jid=7437922) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Data Infrastructure, Safety](https://careers.roblox.com/jobs/7852258?gh_jid=7852258) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Fraud](https://careers.roblox.com/jobs/8008607?gh_jid=8008607) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Marketplace (Avatar Identity)](https://careers.roblox.com/jobs/7913302?gh_jid=7913302) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Marketplace Foundation](https://careers.roblox.com/jobs/8142712?gh_jid=8142712) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Orchestration](https://careers.roblox.com/jobs/8047831?gh_jid=8047831) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Storage Cache](https://careers.roblox.com/jobs/7862605?gh_jid=7862605) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer - Studio Tools](https://careers.roblox.com/jobs/8079795?gh_jid=8079795) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Ads Experience (C++)](https://careers.roblox.com/jobs/7655780?gh_jid=7655780) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Ads Platform](https://careers.roblox.com/jobs/8011079?gh_jid=8011079) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, App Performance](https://careers.roblox.com/jobs/7360413?gh_jid=7360413) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Avatar Animation](https://careers.roblox.com/jobs/7540219?gh_jid=7540219) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Client Systems (C++)](https://careers.roblox.com/jobs/8036535?gh_jid=8036535) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Compute Cell Platform](https://careers.roblox.com/jobs/8056362?gh_jid=8056362) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Content Suitability](https://careers.roblox.com/jobs/7987819?gh_jid=7987819) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Core UI](https://careers.roblox.com/jobs/8036724?gh_jid=8036724) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Data Infrastructure](https://careers.roblox.com/jobs/8014486?gh_jid=8014486) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Data Insights](https://careers.roblox.com/jobs/8011273?gh_jid=8011273) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Engine Systems](https://careers.roblox.com/jobs/7309267?gh_jid=7309267) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Engineering Acceleration](https://careers.roblox.com/jobs/8047829?gh_jid=8047829) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Engineering Acceleration Foundations](https://careers.roblox.com/jobs/7998339?gh_jid=7998339) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Game Engine Systems](https://careers.roblox.com/jobs/7354277?gh_jid=7354277) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Geometry](https://careers.roblox.com/jobs/7998292?gh_jid=7998292) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, ML Infra (Communication Safety)](https://careers.roblox.com/jobs/8073279?gh_jid=8073279) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Privacy Infrastructure](https://careers.roblox.com/jobs/8127033?gh_jid=8127033) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Runtime](https://careers.roblox.com/jobs/8097810?gh_jid=8097810) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Safety Foundation](https://careers.roblox.com/jobs/8017352?gh_jid=8017352) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Service Mesh](https://careers.roblox.com/jobs/7698330?gh_jid=7698330) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, Service Mesh](https://careers.roblox.com/jobs/8015824?gh_jid=8015824) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer, UGC Validation](https://careers.roblox.com/jobs/7997637?gh_jid=7997637) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer- Account Authentication](https://careers.roblox.com/jobs/8092905?gh_jid=8092905) | San Mateo, CA, United States | 1d |
-| Roblox | [Senior Software Engineer: Assistant](https://careers.roblox.com/jobs/8047823?gh_jid=8047823) | San Mateo, CA, United States | 1d |
-| Roblox | [Software Engineer, Account Authentication](https://careers.roblox.com/jobs/8097701?gh_jid=8097701) | San Mateo, CA, United States | 1d |
-| Roblox | [Software Engineer, Communications](https://careers.roblox.com/jobs/8083944?gh_jid=8083944) | San Mateo, CA, United States | 1d |
-| Roblox | [Software Engineer, Foundation AI](https://careers.roblox.com/jobs/8123004?gh_jid=8123004) | San Mateo, CA, United States | 1d |
-| Roblox | [Software Engineering Manager, Engine UI](https://careers.roblox.com/jobs/7482015?gh_jid=7482015) | San Mateo, CA, United States | 1d |
-| Roblox | [Technical Director, Content Platform](https://careers.roblox.com/jobs/7754152?gh_jid=7754152) | San Mateo, CA, United States | 1d |
 | Scaleai | [Forward Deployed Software Engineer, Public Sector](https://job-boards.greenhouse.io/scaleai/jobs/4481921005) | Austin, TX; Colorado Springs, CO; Honolulu, HI; St. Louis, MO; Washington, DC | 1d |
 | Scaleai | [Senior Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4673310005) | London, UK | 1d |
 | Scaleai | [Staff Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4676610005) | London, UK | 1d |
 | Snowflake | [Software Engineer AI Team](https://jobs.ashbyhq.com/snowflake/04559598-b320-4bcd-ace8-fb9cc551a02c) | PL-Warsaw-Lixa C | 1d |
-| Sony | [Manager, Software Engineering](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Manager--Software-Engineering--_JR-119486) | San Diego | 1d |
 | Sony Interactive Entertainment | [Senior Software Engineer - Streaming & Systems](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6128869004) | United States, Aliso Viejo, CA | 1d |
 | SpaceX | [Electrical Engineer, Energy Infrastructure & Generation](https://boards.greenhouse.io/spacex/jobs/8658859002?gh_jid=8658859002) | Bastrop, TX | 1d |
 | SpaceX | [Full Stack Software Engineer - Simulation & Flight Systems](https://boards.greenhouse.io/spacex/jobs/8731959002?gh_jid=8731959002) | Hawthorne, CA | 1d |
@@ -586,7 +576,6 @@ Total roles: 2124
 | Wise | [Senior Engineering Manager II - Risk API - Servicing Platform](https://jobs.smartrecruiters.com/Wise/744000144509854) | London, United Kingdom | 1d |
 | Wise | [Senior Software Engineer - Cards API team](https://jobs.smartrecruiters.com/Wise/744000144496594) | Singapore, Singapore | 1d |
 | Airbnb | [Senior iOS Engineer, Passport & Commerce](https://careers.airbnb.com/positions/8135797?gh_jid=8135797) | Remote, USA | 2d |
-| Airbnb | [Senior Software Engineer(AI/ML), Trust](https://careers.airbnb.com/positions/8138500?gh_jid=8138500) | Bangalore, India | 2d |
 | Airbnb | [Senior Software Engineer, Payments Platform](https://careers.airbnb.com/positions/8138002?gh_jid=8138002) | Remote, USA | 2d |
 | Airbnb | [Software Engineer, Trust](https://careers.airbnb.com/positions/8142827?gh_jid=8142827) | Remote, United States | 2d |
 | Airbnb | [Staff Platform Manager, Conversational Products](https://careers.airbnb.com/positions/8136554?gh_jid=8136554) | United States | 2d |
@@ -609,11 +598,17 @@ Total roles: 2124
 | Duolingo | [Software Engineer II, iOS, Growth](https://careers.duolingo.com/jobs/8612120002?gh_jid=8612120002) | Beijing, China | 2d |
 | Instacart | [Senior Software Engineer II, Marketing Enablement & Technology](https://instacart.careers/job/?gh_jid=8141533) | United States - Remote | 2d |
 | Instacart | [Senior Software Engineer II, Marketing Enablement & Technology](https://instacart.careers/job/?gh_jid=8141535) | Canada - Remote (ON, AB, BC, or NS Only) | 2d |
-| Intel | [Design Automation & DevOps Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/Design-Automation---DevOps-Software-Engineer_JR0286395) | US, Texas, Austin | 2d |
 | Lyft | [Senior Software Engineer, Lyft Business](https://app.careerpuck.com/job-board/lyft/job/8445493002?gh_jid=8445493002) | San Francisco, CA | 2d |
 | Lyft | [Senior Software Engineer, Recommendations](https://app.careerpuck.com/job-board/lyft/job/8716218002?gh_jid=8716218002) | Toronto, Canada | 2d |
 | Mongodb | [Software Engineer 3](https://www.mongodb.com/careers/job/?gh_jid=8111979) | Gurugram | 2d |
 | N26 | [Backend Engineer - Payments](https://n26.com/en-eu/careers/positions/8132053?gh_jid=8132053) | Berlin, Barcelona | 2d |
+| NVIDIA | [Director, Legal – Strategic Sourcing, IP and Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Legal---Strategic-Sourcing--IP-and-Infrastructure_JR2022939-1) | US, CA, Santa Clara | 2d |
+| NVIDIA | [Senior Software Engineer - Topography](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Topography_JR2020161) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 2d |
+| NVIDIA | [Senior Software Engineer, Agent Simulation and Evaluation](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Agentic-AI-Engineer--Simulation-and-Evaluation_JR2023184) | US, CA, Santa Clara | 2d |
+| NVIDIA | [Senior Software Engineer, Attestation Services - DGX Cloud](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Attestation-Services---DGX-Cloud_JR2023561) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Remote, US<br>WA<br>Remote, US<br>Remote, US<br>CA<br>Remote</details> | 2d |
+| NVIDIA | [Senior Software Engineer, Developer Experience](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Developer-Experience_JR2023498) | US, CA, Santa Clara | 2d |
+| NVIDIA | [Senior Staff Platform Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Platform-Engineer_JR2023515) | US, CA, Santa Clara | 2d |
+| NVIDIA | [Senior Systems Software Engineer - Advanced Technology Group](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Senior-Systems-Software-Engineer---Advanced-Technology-Group_JR2014995) | US, OR, Hillsboro | 2d |
 | Okta | [Senior Software Engineer, Customer Dev Tools (Auth0)](https://www.okta.com/company/careers/opportunity/8113501?gh_jid=8113501) | Bengaluru, India | 2d |
 | Okta | [Staff Backend Engineer, Passwordless](https://www.okta.com/company/careers/opportunity/8142022?gh_jid=8142022) | Toronto, Ontario, Canada | 2d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/7626022?gh_jid=7626022) | Warsaw, Poland | 2d |
@@ -625,6 +620,7 @@ Total roles: 2124
 | Snowflake | [Senior Software Engineer - Observability](https://jobs.ashbyhq.com/snowflake/1ed263be-f6d1-41fb-8cd7-fc99112c2ca1) | US-WA-Bellevue | 2d |
 | Snowflake | [Senior Software Engineer - Observe by Snowflake, Data Management](https://jobs.ashbyhq.com/snowflake/db4f0492-ae21-49b7-a7eb-100be61e92bb) | US-CA-Menlo Park | 2d |
 | Snowflake | [Staff/Principal AI Software Engineer - Snowflake CoWork](https://jobs.ashbyhq.com/snowflake/92b3b8b0-b60d-43c5-a15b-7fcd7aeeeb3e) | US-CA-Menlo Park | 2d |
+| Sony | [Manager, Software Engineering](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Manager--Software-Engineering--_JR-119486) | San Diego | 2d |
 | Sony Interactive Entertainment | [Senior/Staff Software Engineer - Rendering API](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5837061004) | United Kingdom, London | 2d |
 | Sony Interactive Entertainment | [Sr Software Engineer (Audio)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6122115004) | United States, San Mateo, CA | 2d |
 | Sony Interactive Entertainment | [Staff Software Engineer - AI Tools](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5655306004) | United Kingdom, Remote | 2d |
@@ -869,7 +865,6 @@ Total roles: 2124
 | Instacart | [Staff Software Engineer, Bazel & Go](https://instacart.careers/job/?gh_jid=8080312) | Canada - Remote (ON, AB, BC, or NS Only) | 3d |
 | Instacart | [Staff Software Engineer, Data Governance & Foundations](https://instacart.careers/job/?gh_jid=7778693) | United States - Remote | 3d |
 | Instacart | [Staff Software Engineer, Orders Platform](https://instacart.careers/job/?gh_jid=8110286) | United States - Remote | 3d |
-| Intel | [AI Systems Software Engineer - Neuromorphic Computing](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/AI-Systems-Software-Engineer---Neuromorphic-Computing_JR0286514) | US, Oregon, Hillsboro | 3d |
 | Mongodb | [Senior Software Engineer, AI Framework Integrations](https://www.mongodb.com/careers/job/?gh_jid=8107301) | Gurugram | 3d |
 | N26 | [iOS Engineer](https://n26.com/en-eu/careers/positions/8108409?gh_jid=8108409) | Berlin, Barcelona | 3d |
 | Okta | [Principal Software Engineer – Developer Platform (Auth0)](https://www.okta.com/company/careers/opportunity/8139694?gh_jid=8139694) | Toronto, Ontario, Canada | 3d |
@@ -1104,7 +1099,6 @@ Total roles: 2124
 | Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8105634&gh_jid=8105634) | Barcelona, Spain | 7d |
 | Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8131025&gh_jid=8131025) | Portugal | 7d |
 | Figma | [Manager, Design - Systems & Infrastructure](https://boards.greenhouse.io/figma/jobs/6135656004?gh_jid=6135656004) | San Francisco, CA • New York, NY • United States | 7d |
-| Intel | [Senior CPU Front End Methodology Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/Senior-CPU-Front-End-Methodology-Engineer_JR0286460-1) | <details><summary>3 locations</summary>US<br>Texas<br>Austin, US<br>Arizona<br>Phoenix, US<br>Oregon<br>Hillsboro</details> | 7d |
 | Lyft | [Software Engineer, Fulfillment Core Services](https://app.careerpuck.com/job-board/lyft/job/8716222002?gh_jid=8716222002) | Seattle, WA | 7d |
 | Lyft | [Software Engineer, Observability](https://app.careerpuck.com/job-board/lyft/job/8716220002?gh_jid=8716220002) | Toronto, Canada | 7d |
 | N26 | [Backend Engineer - Lending](https://n26.com/en-eu/careers/positions/8129812?gh_jid=8129812) | Berlin | 7d |
@@ -1124,8 +1118,8 @@ Total roles: 2124
 | Cloudflare | [Senior Software Engineer, Durable Objects (DO)](https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243) | In-Office | 8d |
 | Coinbase | [Senior Software Engineer - Frontend - Coinbase Card team](https://www.coinbase.com/careers/positions/8088201?gh_jid=8088201) | Remote - USA | 8d |
 | Coupang | [Director, Back-end Engineering (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8124387) | Seoul, South Korea | 8d |
-| Coupang | [Manager, Back-end Engineering (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8080958) | Seoul, South Korea | 8d |
 | Coupang | [Manager, Back-end Engineering (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8078891) | Seoul, South Korea | 8d |
+| Coupang | [Manager, Back-end Engineering (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8080958) | Seoul, South Korea | 8d |
 | Coupang | [Manager, Backend Engineering (New Fintech Product)](https://www.coupang.jobs/en/jobs/?gh_jid=8093930) | Seoul, South Korea | 8d |
 | Coupang | [Senior Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7953042) | Hyderabad | 8d |
 | Coupang | [Sr Backend Engineer (Eats Merchant)](https://www.coupang.jobs/en/jobs/?gh_jid=8127112) | Seoul, South Korea | 8d |
@@ -1215,7 +1209,6 @@ Total roles: 2124
 | Okta | [Software Engineering Manager - Core & Resilience Engineering](https://www.okta.com/company/careers/opportunity/8001002?gh_jid=8001002) | Bengaluru, India | 9d |
 | Plaid | [Staff Software Engineer - AI & Intelligent Tooling](https://jobs.ashbyhq.com/plaid/41448609-24d6-44ea-a5ba-c87cf3dc3f0d) | San Francisco HQ | 9d |
 | Snowflake | [Cloud Infrastructure Engineer](https://jobs.ashbyhq.com/snowflake/4fe8d816-0453-4d63-ae0a-2085a5a49101) | US-CA-Dublin | 9d |
-| Sony | [Lead Mobile App Developer/Architect](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Virginia/Lead-Mobile-App-Developer-Architect_JR-119453) | Remote - Virginia | 9d |
 | SpaceX | [AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557110002?gh_jid=8557110002) | Palo Alto, CA | 9d |
 | SpaceX | [AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557252002?gh_jid=8557252002) | Washington, DC | 9d |
 | SpaceX | [Full Stack Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8701392002?gh_jid=8701392002) | Redmond, WA | 9d |
@@ -1224,8 +1217,8 @@ Total roles: 2124
 | SpaceX | [Sr. Site Reliability Engineer - Top Secret Clearance (Starlink)](https://boards.greenhouse.io/spacex/jobs/8640515002?gh_jid=8640515002) | Hawthorne, CA | 9d |
 | SpaceX | [Sr. Site Reliability Engineer - Top Secret Clearance (Starlink)](https://boards.greenhouse.io/spacex/jobs/8701706002?gh_jid=8701706002) | Redmond, WA | 9d |
 | Wise | [Product Marketing Lead - Wise Platform](https://jobs.smartrecruiters.com/Wise/744000143155229) | London, United Kingdom | 9d |
-| Airbnb | [Staff Platform Manager, Payments Regional Growth](https://careers.airbnb.com/positions/8120611?gh_jid=8120611) | Brazil | 10d |
 | Airbnb | [Staff Platform Manager, Payments Regional Growth](https://careers.airbnb.com/positions/8120721?gh_jid=8120721) | Mexico | 10d |
+| Airbnb | [Staff Platform Manager, Payments Regional Growth](https://careers.airbnb.com/positions/8120611?gh_jid=8120611) | Brazil | 10d |
 | Amazon | [Software Development Engineer II (ADBL183)](https://www.amazon.jobs/en/jobs/10489696/software-development-engineer-ii-adbl183) | Cambridge, Massachusetts, USA | 10d |
 | Amazon | [Software Development Engineer II (ADBL186)](https://www.amazon.jobs/en/jobs/10489739/software-development-engineer-ii-adbl186) | New York, New York, USA | 10d |
 | Anthropic | [Infrastructure Capacity Planner, Demand Planning](https://job-boards.greenhouse.io/anthropic/jobs/5382744008) | San Francisco, CA   New York City, NY | 10d |
@@ -1264,7 +1257,7 @@ Total roles: 2124
 | Scaleai | [Software Engineer, Platform](https://job-boards.greenhouse.io/scaleai/jobs/4703527005) | London, UK | 10d |
 | Snowflake | [Senior / Software Engineer - Cortex Code Agentic System](https://jobs.ashbyhq.com/snowflake/654c1b07-0d92-42f5-afaf-f9d1f3d9eb8e) | US-CA-Menlo Park | 10d |
 | Snowflake | [Senior Software Engineer - Cortex AI - FDE](https://jobs.ashbyhq.com/snowflake/79e0f681-fed6-42cc-9754-9e150e056c5a) | US-CA-Menlo Park | 10d |
-| Sony | [Staff Software Engineer](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Staff-Software-Engineer_JR-119434) | <details><summary>2 locations</summary>San Diego<br>Los Angeles</details> | 10d |
+| Sony | [Lead Mobile App Developer/Architect](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Virginia/Lead-Mobile-App-Developer-Architect_JR-119453) | Remote - Virginia | 10d |
 | Sony Interactive Entertainment | [Senior Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6134777004) | United States, San Mateo, CA | 10d |
 | Sony Interactive Entertainment | [Sr Software Engineer](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5996147004) | United States, San Mateo, CA | 10d |
 | SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8696154002?gh_jid=8696154002) | Redmond, WA | 10d |
@@ -1320,6 +1313,7 @@ Total roles: 2124
 | Okta | [Staff Software Engineer, Data Platform](https://www.okta.com/company/careers/opportunity/8045905?gh_jid=8045905) | Bengaluru, India | 11d |
 | Okta | [Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)](https://www.okta.com/company/careers/opportunity/7839826?gh_jid=7839826) | Bengaluru, India | 11d |
 | Phonepe | [Engineering Manager, Backend](https://job-boards.greenhouse.io/phonepe/jobs/7847265003) | Bangalore | 11d |
+| Sony | [Staff Software Engineer](https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Staff-Software-Engineer_JR-119434) | <details><summary>2 locations</summary>San Diego<br>Los Angeles</details> | 11d |
 | Sony Interactive Entertainment | [Senior Software Engineer Cloud Engineering (Contractor)](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6118761004) | United States, Aliso Viejo, CA | 11d |
 | Spotify | [Senior Staff Engineer - Platform & Partner Experience](https://jobs.lever.co/spotify/cfbb2765-b4e9-445a-b558-d1fa7876863d) | London | 11d |
 | Openai | [Strategic Sourcing Manager, Data Center Infrastructure: Mechanical](https://jobs.ashbyhq.com/openai/61171d99-747f-441e-985d-20c010112ad8) | San Francisco | 12d |
@@ -1513,8 +1507,8 @@ Total roles: 2124
 | Anthropic | [Staff + Sr. Software Engineer, Cloud Inference](https://job-boards.greenhouse.io/anthropic/jobs/5231496008) | San Francisco, CA | 18d |
 | Anthropic | [Staff + Sr. Software Engineer, Cloud Inference Launch Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5238296008) | San Francisco, CA | 18d |
 | Anthropic | [Staff Software Engineer, AI Reliability](https://job-boards.greenhouse.io/anthropic/jobs/5113224008) | San Francisco, CA   New York City, NY   Seattle, WA | 18d |
-| Anthropic | [Staff Software Engineer, AI Reliability Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5101169008) | Dublin, IE | 18d |
 | Anthropic | [Staff Software Engineer, AI Reliability Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5101173008) | London, UK | 18d |
+| Anthropic | [Staff Software Engineer, AI Reliability Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5101169008) | Dublin, IE | 18d |
 | Anthropic | [Staff Software Engineer, Android](https://job-boards.greenhouse.io/anthropic/jobs/4899511008) | San Francisco, CA   New York City, NY   Seattle, WA | 18d |
 | Anthropic | [Staff Software Engineer, Billing Platform](https://job-boards.greenhouse.io/anthropic/jobs/5146298008) | San Francisco, CA   New York City, NY   Seattle, WA | 18d |
 | Anthropic | [Staff Software Engineer, Claude Design](https://job-boards.greenhouse.io/anthropic/jobs/5229345008) | San Francisco, CA   New York City, NY   Seattle, WA | 18d |
@@ -1607,13 +1601,13 @@ Total roles: 2124
 | Coupang | [Sr. Staff, Technical Program Management (Marketplace Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=7927990) | Seoul, South Korea | 21d |
 | Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7948499) | Hyderabad | 21d |
 | Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7925105) | Hyderabad | 21d |
-| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892762) | Hyderabad | 21d |
 | Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892757) | Hyderabad | 21d |
+| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892762) | Hyderabad | 21d |
 | Coupang | [Staff Back-end Engineer (TW Pre-Purchase)](https://www.coupang.jobs/en/jobs/?gh_jid=8090538) | Seoul, South Korea | 21d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8050353) | Hyderabad | 21d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 21d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8095677) | Bengaluru | 21d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8098140) | Bengaluru | 21d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8050353) | Hyderabad | 21d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 21d |
 | Coupang | [Staff Backend Engineer - IAM](https://www.coupang.jobs/en/jobs/?gh_jid=7925108) | Bengaluru | 21d |
 | Coupang | [Staff Backend Engineer - Intelligent Cloud](https://www.coupang.jobs/en/jobs/?gh_jid=7916715) | Bengaluru | 21d |
 | Coupang | [Staff Engineer - Backend (E-Commerce Engineering)](https://www.coupang.jobs/en/jobs/?gh_jid=7988274) | Bengaluru | 21d |
@@ -2050,7 +2044,6 @@ Total roles: 2124
 | Figma | [Manager, Software Engineering - Interaction Design](https://boards.greenhouse.io/figma/jobs/5778796004?gh_jid=5778796004) | San Francisco, CA • New York, NY • United States | 1mo |
 | Figma | [Manager, Software Engineering - Payload](https://boards.greenhouse.io/figma/jobs/6092906004?gh_jid=6092906004) | San Francisco, CA • New York, NY • United States | 1mo |
 | Figma | [Software Engineer - Figma Weave (Tel Aviv, Israel)](https://boards.greenhouse.io/figma/jobs/6073106004?gh_jid=6073106004) | Tel Aviv, Israel | 1mo |
-| Intel | [Hardware Platform Applications Engineer - Military & Aerospace](https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700) | <details><summary>4 locations</summary>US<br>Arizona<br>Phoenix, US<br>Oregon<br>Hillsboro, US<br>California<br>Folsom, US<br>California<br>Santa Clara</details> | 1mo |
 | Openai | [Simulation Infrastructure Engineer](https://jobs.ashbyhq.com/openai/39cd0dd8-520d-4932-80bf-7495a1d1d11b) | San Francisco | 1mo |
 | Openai | [Tax Director - Infrastructure & Incentives](https://jobs.ashbyhq.com/openai/11a78901-33d6-4c49-8750-25286038aafa) | San Francisco | 1mo |
 | Palantir | [Senior Software Engineer - Autonomous Systems](https://jobs.lever.co/palantir/d40d5d19-8f9e-4e6b-b4d3-b7457c90adec) | Washington, D.C. | 1mo |
@@ -2443,7 +2436,6 @@ Total hackathons: 206
 | Computer Society of India , KJSSE | [CSI KJSSE Hackday 2.0](https://unstop.com/hackathons/csi-kjsse-hackday-20-computer-society-of-india-kjsse-1739732) |
 | Concept2Action | [Ignition Hackathon Series 2026](https://unstop.com/hackathons/ignition-hackathon-series-2026-concept2action-1742078) |
 | CreateHER Fest | [DIALED IN Builder Challenge](https://dialedin.devpost.com/) |
-| Cyber HX | [Null Origin - 24 Hour CTF Challenge](https://unstop.com/hackathons/null-origin-24-hour-ctf-challenge-cyber-hx-1698744) |
 | Deenbandhu Chhotu Ram University Of Science And Technology (DCRUST), Murthal, Haryana | [Paper Buddy EduVerse Hackathon 2026](https://unstop.com/hackathons/paper-buddy-eduverse-hackathon-2026-deenbandhu-chhotu-ram-university-of-science-and-technology-dcrust-murthal-1726534) |
 | Devfolio | [(Demo) Push to Prod](https://demo-push-to-prod.devfolio.co) |
 | Devfolio | [.hack '26](https://dothack26.devfolio.co) |
@@ -2498,7 +2490,6 @@ Total hackathons: 206
 | Devfolio | [VYNORAE](https://vynorae.devfolio.co) |
 | Devfolio | [WebCraft24](https://webcraft24.devfolio.co) |
 | Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar | [HackOut'26](https://unstop.com/hackathons/hackout26-dhirubhai-ambani-institute-of-information-and-communication-technology-da-iict-gandhinagar-1729614) |
-| Dialogate | [VoltHacks](https://volthacks.devpost.com/) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
 | EduLinkUp | [ELUCode-2](https://unstop.com/hackathons/elucode-2-edulinkup-1740124) |
 | elipseday | [Beginner's Paradise - FirstCommit](https://firstcommit.devpost.com/) |
@@ -2506,6 +2497,7 @@ Total hackathons: 206
 | Faculty of Technology, Delhi University | [Nari Kavach](https://unstop.com/hackathons/nari-kavach-yantrika-10-innovate-elevate-faculty-of-technology-delhi-university-1736993) |
 | Faculty of Technology, Delhi University | [Quantum Alpha](https://unstop.com/hackathons/quantum-alpha-yantrika-10-innovate-elevate-faculty-of-technology-delhi-university-1736992) |
 | Faculty of Technology, Delhi University | [VakyaBhed](https://unstop.com/hackathons/vakyabhed-yantrika-10-innovate-elevate-faculty-of-technology-delhi-university-1736989) |
+| Falcon Sphere | [Hackside Down Hackathon](https://unstop.com/hackathons/hackside-down-falcon-sphere-1712468) |
 | Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Bandra | [Idea Competition 2026](https://unstop.com/hackathons/idea-competition-2026-fr-conceicao-rodrigues-college-of-engineering-frcrce-bandra-1736048) |
 | G. H. Raisoni College of Engineering and Management (GHRCEM), Nagpur | [Code Forge 2026](https://unstop.com/hackathons/code-forge-2026-g-h-raisoni-college-of-engineering-and-management-ghrcem-nagpur-1726255) |
 | Gamnexis | [StartupX Hackathon 2026](https://unstop.com/hackathons/startupx-hackathon-2026-gamnexis-1733546) |
@@ -2521,6 +2513,7 @@ Total hackathons: 206
 | Hackathon Raptors | [Zero Dependency | 72-Hour Hackathon](https://unstop.com/hackathons/zero-dependency-72-hour-hackathon-hackathon-raptors-1733673) |
 | Hackers Cult | [Hackblox AI & Open Source Hackathon](https://unstop.com/hackathons/hackblox-open-source-hackathon-hackers-cult-1731738) |
 | Hackers Cult | [ONE HACK: 8 Hours AI & Web3 Hackathon](https://unstop.com/hackathons/one-hack-8-hours-web3-hackathon-hackers-cult-1737227) |
+| HackMelbourne | [Melbourne Hack 2026](https://melbourne-hack-2026.devpost.com/) |
 | HackShastra | [Grand Hack IPEC](https://unstop.com/hackathons/grand-hack-ipec-hackshastra-1704703) |
 | Hacksocial | [Hacksocial 2026](https://hacksocial2026.devpost.com/) |
 | hacktheconcretejungle | [HTCJ Aviation Futures Innovation Challenge](https://htcj-aviation-futures.devpost.com/) |
@@ -2560,11 +2553,11 @@ Total hackathons: 206
 | NIMBLUX | [Orvix Hackathon](https://unstop.com/hackathons/orvix-hackathon-nimblux-1730437) |
 | Oriental College of Technology (OCT), Bhopal | [CodeSprint 2.O : One Shot Challenge](https://unstop.com/hackathons/codesprint-2o-one-shot-challenge-oriental-college-of-technology-oct-bhopal-1728495) |
 | OSC | [AI Builders Hackathon](https://ai-builders-hackathon-2026.devpost.com/) |
+| other | [TechNisa Hacks](https://technisa-hacks.devpost.com/) |
 | Parala Maharaja Engineering College, Berhampur | [Edge AI Hackathon 2026](https://unstop.com/hackathons/edge-ai-hackathon-2026-parala-maharaja-engineering-college-berhampur-1720578) |
 | Pillai University, Navi Mumbai | [HackCelestial 3.0](https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808) |
 | Pimpri Chinchwad College Of Engineering & Research (PCCOE&R), Ravet, Pimpri-Chinchwad, Pune | [CraftVerse 2.0](https://unstop.com/hackathons/craftverse-20-pimpri-chinchwad-college-of-engineering-research-pccoer-ravet-pimpri-chinchwad-pune-1719658) |
 | Pimpri Chinchwad College of Engineering (PCCOE), Pune | [Indradhanu: PCCOE International Grand Challenge 2026](https://unstop.com/hackathons/indradhanu-pccoe-international-grand-challenge-2026-pimpri-chinchwad-college-of-engineering-pccoe-pune-1710779) |
-| Pixel Forge | [Pixel Forge AI Hackathon ($18,000+ in Prizes)](https://pixel-forge-ai-hackathon-08.devpost.com/) |
 | President University | [COMPSPHERE 12](https://compsphere11.devpost.com/) |
 | Prometheus CS | [Prometheus August AI Challenge](https://august-ai-challenge-31059.devpost.com/) |
 | Prometheus CS | [Prometheus September AI Challenge](https://prometheus-sept-ai-classic.devpost.com/) |
@@ -2618,13 +2611,14 @@ Total hackathons: 206
 
 ## Events
 
-Total events: 3
+Total events: 4
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 
