@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T15:47:30Z",
-  "total": 188,
+  "generated_at": "2026-08-21T16:50:09Z",
+  "total": 190,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -900,6 +900,29 @@
       ]
     },
     {
+      "id": "91c2658c290393d1",
+      "company": "Epic Games",
+      "title": "Machine Learning Research Intern 🛂",
+      "level": "internship",
+      "category": "more_global_tech",
+      "region": "canada",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.epicgames.com/site/careers/jobs/6138140004?gh_jid=6138140004&utm_source=github-vansh-ouckah",
+      "source": "vanshb03_summer_internships",
+      "source_url": "https://github.com/vanshb03/Summer2027-Internships",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T16:50:09Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d0c6c5402c438c0d",
       "company": "Google",
       "title": "Software Developer, Early Career, Campus",
@@ -1238,6 +1261,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6a49c8dec8df3117",
+      "company": "Notion",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, CA New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c?utm_source=github-vansh-ouckah",
+      "source": "vanshb03_summer_internships",
+      "source_url": "https://github.com/vanshb03/Summer2027-Internships",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T16:50:09Z",
       "tags": [
         "software",
         "programming",
@@ -2625,29 +2671,6 @@
       ]
     },
     {
-      "id": "b3aa804a2744134a",
-      "company": "Epic Games",
-      "title": "Machine Learning Intern",
-      "level": "internship",
-      "category": "more_global_tech",
-      "region": "canada",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Montreal,Quebec,Canada",
-      "remote_type": "onsite",
-      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-17",
-      "age": "1w",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "affe941dfff55262",
       "company": "Figma",
       "title": "Software Engineer Intern (Winter 2027)",
@@ -3008,6 +3031,29 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-08-17",
       "age": "10d",
+      "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b3aa804a2744134a",
+      "company": "Epic Games",
+      "title": "Machine Learning Intern",
+      "level": "internship",
+      "category": "more_global_tech",
+      "region": "canada",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Montreal,Quebec,Canada",
+      "remote_type": "onsite",
+      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-17",
+      "age": "1w",
       "collected_at": "2026-08-17T15:38:02Z",
       "tags": [
         "software",
