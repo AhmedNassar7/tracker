@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T10:39:07Z",
-  "total": 194,
+  "generated_at": "2026-08-22T11:33:55Z",
+  "total": 192,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -2158,52 +2158,6 @@
       "posted_at": "2026-08-20",
       "age": "0d",
       "collected_at": "2026-08-20T21:42:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "7f89e4195fb09be8",
-      "company": "Intel",
-      "title": "Software Engineer Graduate Intern",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "US, Oregon, Hillsboro",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-22",
-      "age": "1d",
-      "collected_at": "2026-08-22T06:58:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3dcfa4fa4c7c9171",
-      "company": "Intel",
-      "title": "Software Engineer Graduate Intern",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "US, Arizona, Phoenix",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-22",
-      "age": "1d",
-      "collected_at": "2026-08-22T06:58:20Z",
       "tags": [
         "software",
         "programming",
