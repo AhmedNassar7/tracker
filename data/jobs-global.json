@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T19:33:45Z",
-  "total": 192,
+  "generated_at": "2026-08-22T20:38:36Z",
+  "total": 193,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -180,6 +180,29 @@
       "posted_at": "2026-08-17",
       "age": "0d",
       "collected_at": "2026-08-17T18:56:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e4849a7f2b9bc9ed",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern (AML...",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://joinbytedance.com/search/7672382828525832501",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-22",
+      "age": "0d",
+      "collected_at": "2026-08-22T20:38:36Z",
       "tags": [
         "software",
         "programming",
