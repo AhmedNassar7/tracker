@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T08:46:42Z",
-  "total": 197,
+  "generated_at": "2026-08-22T09:40:51Z",
+  "total": 194,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -750,11 +750,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-08-22",
       "age": "0d",
-      "collected_at": "2026-08-22T08:46:42Z",
+      "collected_at": "2026-08-22T09:40:51Z",
       "tags": [
         "software",
         "programming",
@@ -1422,75 +1422,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b3126ca0917b76be",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-22",
-      "age": "0d",
-      "collected_at": "2026-08-22T08:46:42Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "162a14da3a107f9f",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-22",
-      "age": "0d",
-      "collected_at": "2026-08-22T08:46:42Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "bb0cb6b18c873219",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-22",
-      "age": "0d",
-      "collected_at": "2026-08-22T08:46:42Z",
       "tags": [
         "software",
         "programming",
@@ -3384,6 +3315,29 @@
       ]
     },
     {
+      "id": "8ed25ec831823aa0",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-08-04",
+      "age": "6d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "37125469539dbe4d",
       "company": "ByteDance",
       "title": "Software Engineer Intern - AI Infra Compute 🎓",
@@ -3422,29 +3376,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-08-10",
       "age": "7d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8ed25ec831823aa0",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-04",
-      "age": "6d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
