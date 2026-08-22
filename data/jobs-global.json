@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T09:40:51Z",
+  "generated_at": "2026-08-22T10:39:07Z",
   "total": 194,
   "jobs": [
     {
@@ -2372,29 +2372,6 @@
       ]
     },
     {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "category": "consulting_finance",
-      "region": "canada",
-      "role_type": "infrastructure",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-18",
-      "age": "0d",
-      "collected_at": "2026-08-18T20:39:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "bff5c3680bab1848",
       "company": "Amazon",
       "title": "Software Development Engineer II, Geospatial",
@@ -2480,6 +2457,29 @@
       "posted_at": "2026-08-17",
       "age": "0d",
       "collected_at": "2026-08-17T22:39:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "category": "consulting_finance",
+      "region": "canada",
+      "role_type": "infrastructure",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T20:39:28Z",
       "tags": [
         "software",
         "programming",
