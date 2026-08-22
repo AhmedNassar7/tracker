@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:55:22Z",
+  "generated_at": "2026-08-22T04:47:47Z",
   "total": 190,
   "jobs": [
     {
@@ -893,29 +893,6 @@
       "posted_at": "2026-08-21",
       "age": "0d",
       "collected_at": "2026-08-21T16:50:09Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1d7513e0b87b3185",
-      "company": "Google",
-      "title": "Security Engineer II, Hybrid Cloud Gu...",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "security",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-08-22",
-      "age": "0d",
-      "collected_at": "2026-08-22T03:55:22Z",
       "tags": [
         "software",
         "programming",
@@ -4136,6 +4113,29 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3f75e139ddcfc77b",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-12",
+      "age": "71d",
+      "collected_at": "2026-08-22T04:47:47Z",
       "tags": [
         "software",
         "programming",
