@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T18:51:13Z",
-  "count": 2770,
-  "checksum": "sha256:bba65fefc16b05b189790cc5f65f098a46260896d94956ef3d5ae812728da719",
+  "generated_at": "2026-08-22T19:36:48Z",
+  "count": 2767,
+  "checksum": "sha256:4281b32175c0de2c44b918c454536c3932728f6d81095d98e0758e9edb11b60f",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -1182,63 +1182,6 @@
       "country": "United States"
     },
     {
-      "id": "b3126ca0917b76be",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "location": "New York, NY",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
-      "age": "0d",
-      "posted_at": "2026-08-22",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "162a14da3a107f9f",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "location": "Washington, D.C.",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
-      "age": "0d",
-      "posted_at": "2026-08-22",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "bb0cb6b18c873219",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "location": "Palo Alto, CA",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
-      "age": "0d",
-      "posted_at": "2026-08-22",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "Unknown"
-    },
-    {
       "id": "2ee142b47bfc9198",
       "kind": "job",
       "origin": "curated",
@@ -1809,44 +1752,6 @@
       "country": "United States"
     },
     {
-      "id": "4719395b49b03f05",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Instacart",
-      "title": "Machine Learning Engineer II, Ads - R...",
-      "location": "Remote (ON, AB, BC, or...",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "url": "https://instacart.careers/job/?gh_jid=8143263",
-      "age": "0d",
-      "posted_at": "2026-08-20",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "machine_learning",
-      "category": "more_global_tech",
-      "remote_type": "remote",
-      "country": "Canada"
-    },
-    {
-      "id": "41ceed3e98160877",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Spring 2027)",
-      "location": "South San Francisco, C...",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
-      "age": "0d",
-      "posted_at": "2026-08-20",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "3ed6fdf9d821bcdd",
       "kind": "job",
       "origin": "curated",
@@ -1885,6 +1790,25 @@
       "country": "United States"
     },
     {
+      "id": "4719395b49b03f05",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Instacart",
+      "title": "Machine Learning Engineer II, Ads - R...",
+      "location": "Remote (ON, AB, BC, or...",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "url": "https://instacart.careers/job/?gh_jid=8143263",
+      "age": "0d",
+      "posted_at": "2026-08-20",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "machine_learning",
+      "category": "more_global_tech",
+      "remote_type": "remote",
+      "country": "Canada"
+    },
+    {
       "id": "11e112c948252134",
       "kind": "job",
       "origin": "curated",
@@ -1902,6 +1826,25 @@
       "category": "more_global_tech",
       "remote_type": "onsite",
       "country": "Unknown"
+    },
+    {
+      "id": "41ceed3e98160877",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Zipline",
+      "title": "Software Engineer Intern (Spring 2027)",
+      "location": "South San Francisco, C...",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
+      "age": "0d",
+      "posted_at": "2026-08-20",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
     },
     {
       "id": "d2341865b609359c",
@@ -27933,22 +27876,6 @@
       "role_type": "mobile"
     },
     {
-      "id": "4130225c97b1a6c7",
-      "kind": "job",
-      "origin": "public",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
-      "location": "Toronto, ON, CA",
-      "source": "greenhouse:pinterest",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
-      "age": "25d",
-      "posted_at": "2026-07-28",
-      "level": "mid_level",
-      "region": "canada",
-      "role_type": "backend"
-    },
-    {
       "id": "24f35b2a35e949e1",
       "kind": "job",
       "origin": "public",
@@ -27962,6 +27889,22 @@
       "posted_at": "2026-07-28",
       "level": "mid_level",
       "region": "us",
+      "role_type": "backend"
+    },
+    {
+      "id": "4130225c97b1a6c7",
+      "kind": "job",
+      "origin": "public",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend",
+      "location": "Toronto, ON, CA",
+      "source": "greenhouse:pinterest",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5132899",
+      "age": "25d",
+      "posted_at": "2026-07-28",
+      "level": "mid_level",
+      "region": "canada",
       "role_type": "backend"
     },
     {
@@ -41603,7 +41546,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://ai-innovation-day-31076.devpost.com/",
-      "age": "1 day left",
+      "age": "about 23 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -41629,7 +41572,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://adtc-2026.devpost.com/",
-      "age": "3 days left",
+      "age": "2 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42591,7 +42534,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://test-flow-online.devfolio.co",
-      "age": "34 days left",
+      "age": "33 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42799,7 +42742,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/",
-      "age": "about 2 hours left",
+      "age": "about 1 hour left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42890,7 +42833,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://8-bit-jam.devpost.com/",
-      "age": "about 3 hours left",
+      "age": "about 2 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43020,7 +42963,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hack-the-limit-1.devpost.com/",
-      "age": "8 days left",
+      "age": "7 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43423,7 +43366,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gemini-builds.devpost.com/",
-      "age": "2 days left",
+      "age": "1 day left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43527,7 +43470,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://technisa-hacks.devpost.com/",
-      "age": "about 20 hours left",
+      "age": "about 17 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43540,7 +43483,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/edge-ai-hackathon-2026-parala-maharaja-engineering-college-berhampur-1720578",
-      "age": "44 days left",
+      "age": "43 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43566,7 +43509,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://pixel-forge-ai-hackathon-08.devpost.com/",
-      "age": "about 21 hours left",
+      "age": "about 20 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43605,7 +43548,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://august-ai-challenge-31059.devpost.com/",
-      "age": "8 days left",
+      "age": "7 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43735,7 +43678,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://rice-urban-sustainability.devpost.com/",
-      "age": "27 days left",
+      "age": "26 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -44216,7 +44159,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://innovik6-indore.devpost.com/",
-      "age": "3 days left",
+      "age": "2 days left",
       "posted_at": "2026-08-22"
     },
     {
