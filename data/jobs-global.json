@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T06:58:20Z",
-  "total": 193,
+  "generated_at": "2026-08-22T07:44:57Z",
+  "total": 194,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -847,6 +847,29 @@
       "posted_at": "2026-08-21",
       "age": "0d",
       "collected_at": "2026-08-21T16:50:09Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1d7513e0b87b3185",
+      "company": "Google",
+      "title": "Security Engineer II, Hybrid Cloud Gu...",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "security",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-08-22",
+      "age": "0d",
+      "collected_at": "2026-08-22T07:44:57Z",
       "tags": [
         "software",
         "programming",
