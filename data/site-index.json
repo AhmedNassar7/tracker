@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T14:39:47Z",
-  "count": 2766,
-  "checksum": "sha256:bc2ac5ab3cd8a3ed584741af43c3ccff5f62ca18227f8a07741bdfd7ec6bae11",
+  "generated_at": "2026-08-22T15:37:48Z",
+  "count": 2771,
+  "checksum": "sha256:d2ef1e764bea118e6b9036c83cc519ef2c35dfe01af487d5cdd695527825b8e8",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -707,6 +707,25 @@
       "country": "Canada"
     },
     {
+      "id": "1d7513e0b87b3185",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Google",
+      "title": "Security Engineer II, Hybrid Cloud Gu...",
+      "location": "United States",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
+      "age": "0d",
+      "posted_at": "2026-08-22",
+      "level": "mid_level",
+      "region": "us",
+      "role_type": "security",
+      "category": "faang",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "d0c6c5402c438c0d",
       "kind": "job",
       "origin": "curated",
@@ -1174,6 +1193,63 @@
       "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh",
       "age": "0d",
       "posted_at": "2026-08-10",
+      "level": "new_grad",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "b394979186da07cb",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "location": "Washington, D.C.",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
+      "age": "0d",
+      "posted_at": "2026-08-22",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "40d131fcd9acc466",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, New Grad",
+      "location": "New York, NY",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
+      "age": "0d",
+      "posted_at": "2026-08-22",
+      "level": "new_grad",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "ee14d221d22e0975",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, New Grad",
+      "location": "Denver, CO",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
+      "age": "0d",
+      "posted_at": "2026-08-22",
       "level": "new_grad",
       "region": "us",
       "role_type": "software_engineer",
@@ -3038,6 +3114,25 @@
       "posted_at": "2026-08-17",
       "level": "internship",
       "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "1d189997c9218173",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "location": "NYC",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "age": "1mo",
+      "posted_at": "2026-08-22",
+      "level": "new_grad",
+      "region": "unknown",
       "role_type": "software_engineer",
       "category": "product_saas",
       "remote_type": "onsite",
@@ -41813,7 +41908,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://cissa-catalyst-2026.devpost.com/",
-      "age": "about 9 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42385,7 +42480,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://interledger-student-hackathon-merida.devfolio.co",
-      "age": "21 days left",
+      "age": "20 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42736,7 +42831,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/",
-      "age": "about 7 hours left",
+      "age": "about 5 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43321,7 +43416,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/morrow-10-makers-need-more-mnm-1727667",
-      "age": "26 days left",
+      "age": "25 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43451,7 +43546,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://ai-builders-hackathon-2026.devpost.com/",
-      "age": "25 days left",
+      "age": "24 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43464,7 +43559,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://technisa-hacks.devpost.com/",
-      "age": "about 23 hours left",
+      "age": "about 21 hours left",
       "posted_at": "2026-08-22"
     },
     {
