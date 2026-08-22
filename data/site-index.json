@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T15:37:48Z",
-  "count": 2771,
-  "checksum": "sha256:d2ef1e764bea118e6b9036c83cc519ef2c35dfe01af487d5cdd695527825b8e8",
+  "generated_at": "2026-08-22T16:42:23Z",
+  "count": 2767,
+  "checksum": "sha256:4281b32175c0de2c44b918c454536c3932728f6d81095d98e0758e9edb11b60f",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -618,8 +618,8 @@
       "company": "Cohere",
       "title": "Software Engineer Intern (Fall / Wint...",
       "location": "Canada",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
       "age": "0d",
       "posted_at": "2026-08-22",
@@ -705,25 +705,6 @@
       "category": "more_global_tech",
       "remote_type": "onsite",
       "country": "Canada"
-    },
-    {
-      "id": "1d7513e0b87b3185",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Security Engineer II, Hybrid Cloud Gu...",
-      "location": "United States",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
-      "age": "0d",
-      "posted_at": "2026-08-22",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "security",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
     },
     {
       "id": "d0c6c5402c438c0d",
@@ -1193,63 +1174,6 @@
       "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh",
       "age": "0d",
       "posted_at": "2026-08-10",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "b394979186da07cb",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship - Produ...",
-      "location": "Washington, D.C.",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
-      "age": "0d",
-      "posted_at": "2026-08-22",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "40d131fcd9acc466",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad",
-      "location": "New York, NY",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
-      "age": "0d",
-      "posted_at": "2026-08-22",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "ee14d221d22e0975",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad",
-      "location": "Denver, CO",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
-      "age": "0d",
-      "posted_at": "2026-08-22",
       "level": "new_grad",
       "region": "us",
       "role_type": "software_engineer",
@@ -41830,7 +41754,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://inspire-hackathon.devpost.com/",
-      "age": "3 days left",
+      "age": "2 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -41908,7 +41832,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://cissa-catalyst-2026.devpost.com/",
-      "age": "about 8 hours left",
+      "age": "about 7 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -41947,7 +41871,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/code-x-novas-innovathon-2026-national-software-ai-hackathon-code-x-novas-1737822",
-      "age": "79 days left",
+      "age": "78 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42519,7 +42443,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://muba-hackathon.devfolio.co",
-      "age": "14 days left",
+      "age": "13 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42679,19 +42603,6 @@
       "posted_at": "2026-08-22"
     },
     {
-      "id": "de624d5ac4eb8afd",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Dialogate",
-      "title": "VoltHacks",
-      "location": "Online",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://volthacks.devpost.com/",
-      "age": "14 days left",
-      "posted_at": "2026-08-22"
-    },
-    {
       "id": "8ce674c48f25ad3e",
       "kind": "hackathon",
       "origin": "public",
@@ -42831,7 +42742,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/",
-      "age": "about 5 hours left",
+      "age": "about 4 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42935,7 +42846,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://graphiques-challenge.devpost.com/",
-      "age": "about 18 hours left",
+      "age": "about 17 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42987,7 +42898,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/hackblox-open-source-hackathon-hackers-cult-1731738",
-      "age": "12 days left",
+      "age": "11 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43221,7 +43132,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/math-o-stellar-tech-zephyr-40-indian-institute-of-technology-bhubaneswar-1742777",
-      "age": "70 days left",
+      "age": "69 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43286,7 +43197,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/crp-eon-future-makers-challenge-infosys-1739537",
-      "age": "435 days left",
+      "age": "434 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43559,7 +43470,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://technisa-hacks.devpost.com/",
-      "age": "about 21 hours left",
+      "age": "about 20 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43598,7 +43509,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://pixel-forge-ai-hackathon-08.devpost.com/",
-      "age": "1 day left",
+      "age": "about 23 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43663,7 +43574,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://prometheus-september-ai-2.devpost.com/",
-      "age": "22 days left",
+      "age": "21 days left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43885,6 +43796,19 @@
       "source_url": "https://devpost.com/hackathons",
       "url": "https://syntax-summit.devpost.com/",
       "age": "14 days left",
+      "posted_at": "2026-08-22"
+    },
+    {
+      "id": "d5e502f5a1f15bc0",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Student Run",
+      "title": "RescueHacks",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://rescue-hacks-30680.devpost.com/",
+      "age": "7 days left",
       "posted_at": "2026-08-22"
     },
     {
