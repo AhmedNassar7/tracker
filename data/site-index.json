@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T20:41:57Z",
-  "count": 2768,
-  "checksum": "sha256:b653ebd1ba1d9682d3fbbdf602fba2c34a57e4f98a310a7e3dffec2d99846098",
+  "generated_at": "2026-08-22T21:38:06Z",
+  "count": 2769,
+  "checksum": "sha256:d363c55124681ffb925f3b8a9f846f626876876bfd479a253de95df04d018955",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -3924,6 +3924,22 @@
       "posted_at": "",
       "level": "other",
       "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "f60d3bc96b13f178",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer, Cloud Services - GeForce Now",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, WA, Remote<br>US, FL, Remote<br>US, CA, Remote<br>US, MD, Remote</details>",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Cloud-Services---GeForce-Now_JR2017441",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
       "role_type": "software_engineer"
     },
     {
@@ -41851,7 +41867,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://cissa-catalyst-2026.devpost.com/",
-      "age": "about 3 hours left",
+      "age": "about 2 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -42622,6 +42638,19 @@
       "posted_at": "2026-08-22"
     },
     {
+      "id": "de624d5ac4eb8afd",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Dialogate",
+      "title": "VoltHacks",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://volthacks.devpost.com/",
+      "age": "14 days left",
+      "posted_at": "2026-08-22"
+    },
+    {
       "id": "8ce674c48f25ad3e",
       "kind": "hackathon",
       "origin": "public",
@@ -42752,19 +42781,6 @@
       "posted_at": "2026-08-22"
     },
     {
-      "id": "8302f373d54fb2b8",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "GatewayGS",
-      "title": "GatewayGS & The AEI Initiative: AI 4 Earth Hackathon",
-      "location": "Online",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/",
-      "age": "22 minutes left",
-      "posted_at": "2026-08-22"
-    },
-    {
       "id": "83a8920afcabbafb",
       "kind": "hackathon",
       "origin": "public",
@@ -42843,19 +42859,6 @@
       "posted_at": "2026-08-22"
     },
     {
-      "id": "f9c7e57a4cb70130",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Hack Club",
-      "title": "8-Bit Jam",
-      "location": "Great Falls, Virginia",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://8-bit-jam.devpost.com/",
-      "age": "about 1 hour left",
-      "posted_at": "2026-08-22"
-    },
-    {
       "id": "a1b0841eccae8d89",
       "kind": "hackathon",
       "origin": "public",
@@ -42865,7 +42868,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://graphiques-challenge.devpost.com/",
-      "age": "about 13 hours left",
+      "age": "about 12 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43528,7 +43531,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://pixel-forge-ai-hackathon-08.devpost.com/",
-      "age": "about 20 hours left",
+      "age": "about 19 hours left",
       "posted_at": "2026-08-22"
     },
     {
@@ -43659,6 +43662,19 @@
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/ec-council-hackai-challenge-racex360-reva-academy-for-corporate-excellence-bangalore-karnataka-1739884",
       "age": "24 days left",
+      "posted_at": "2026-08-22"
+    },
+    {
+      "id": "37b6bc24041cc8fd",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "RevenueCat",
+      "title": "RevenueCat Shipaton 2026",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://revenuecat-shipaton-2026.devpost.com/",
+      "age": "about 1 month left",
       "posted_at": "2026-08-22"
     },
     {
