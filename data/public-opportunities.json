@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T22:37:03Z",
-  "total": 2591,
+  "generated_at": "2026-08-23T23:34:57Z",
+  "total": 2590,
   "jobs": [
     {
       "id": "4c63e9a34c143091",
@@ -37111,7 +37111,7 @@
       "company": "ImpactForge",
       "title": "ImpactForge",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-08-23",
       "url": "https://impactforge.devpost.com/",
       "source": "devpost",
@@ -37471,7 +37471,7 @@
       "company": "NeuralSprint",
       "title": "NeuralSprint",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-08-23",
       "url": "https://neuralsprint.devpost.com/",
       "source": "devpost",
@@ -37639,7 +37639,7 @@
       "company": "Quantumhacks",
       "title": "QuantumHacks",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-08-23",
       "url": "https://quantumhacks.devpost.com/",
       "source": "devpost",
@@ -37711,7 +37711,7 @@
       "company": "ReverieHacks",
       "title": "Reverie Hacks 2026",
       "location": "Online",
-      "date": "about 6 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-08-23",
       "url": "https://reverie-hacks-2026.devpost.com/",
       "source": "devpost",
@@ -38232,18 +38232,6 @@
       "date": "",
       "posted_at": "2026-08-23",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-08-23",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
