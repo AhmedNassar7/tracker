@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T13:04:11Z",
-  "count": 2778,
-  "checksum": "sha256:2b7debe3aab0ef4c7ece620531b277f740ff09c621bf2b851c2f453f1d58d8b2",
+  "generated_at": "2026-08-23T13:48:01Z",
+  "count": 2775,
+  "checksum": "sha256:518414cf239b06c8c0d8e3b87d83a8d4ac0bc1c1674770c438358d4f097bfae3",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -637,8 +637,8 @@
       "company": "Cohere",
       "title": "Software Engineer Intern (Fall / Wint...",
       "location": "Canada",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
       "age": "0d",
       "posted_at": "2026-08-23",
@@ -1212,63 +1212,6 @@
       "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh",
       "age": "0d",
       "posted_at": "2026-08-10",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "2157980cd28337aa",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Infrast...",
-      "location": "Palo Alto, CA",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "new_grad",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "Unknown"
-    },
-    {
-      "id": "8c0b6a275a676493",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Product...",
-      "location": "Washington, D.C.",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "222260aec118fe33",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Product...",
-      "location": "Seattle, WA",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
-      "age": "0d",
-      "posted_at": "2026-08-23",
       "level": "new_grad",
       "region": "us",
       "role_type": "software_engineer",
@@ -41817,7 +41760,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://brainwave-2026-midnight-track.devpost.com/",
-      "age": "4 days left",
+      "age": "3 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42233,7 +42176,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://builders-day-hackunion.devfolio.co",
-      "age": "28 days left",
+      "age": "33 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42562,19 +42505,6 @@
       "posted_at": "2026-08-23"
     },
     {
-      "id": "604ce526d742ebfb",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Devfolio",
-      "title": "Inception World Model Hackathon II",
-      "location": "Online",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons",
-      "url": "https://inception-ii.devfolio.co",
-      "age": "last day",
-      "posted_at": "2026-08-23"
-    },
-    {
       "id": "abb36eb72fb88192",
       "kind": "hackathon",
       "origin": "public",
@@ -42805,7 +42735,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://agentic-hackathon.devpost.com/",
-      "age": "15 days left",
+      "age": "14 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43052,7 +42982,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://graphiques-challenge.devpost.com/",
-      "age": "about 9 hours left",
+      "age": "about 7 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43221,7 +43151,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://impactforge.devpost.com/",
-      "age": "about 18 hours left",
+      "age": "about 17 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43429,7 +43359,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/breakpoint-hackathon-2026-invoqe-1734966",
-      "age": "12 days left",
+      "age": "11 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43546,7 +43476,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gemini-builds.devpost.com/",
-      "age": "1 day left",
+      "age": "about 22 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43598,7 +43528,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://neuralsprint.devpost.com/",
-      "age": "about 18 hours left",
+      "age": "about 17 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43702,7 +43632,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://pixel-forge-ai-hackathon-08.devpost.com/",
-      "age": "about 3 hours left",
+      "age": "about 2 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43793,7 +43723,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://quantumhacks.devpost.com/",
-      "age": "about 18 hours left",
+      "age": "about 17 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43858,7 +43788,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://reverie-hacks-2026.devpost.com/",
-      "age": "about 16 hours left",
+      "age": "about 15 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -44430,6 +44360,19 @@
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "url": "https://lu.ma/deepmind?k=c",
+      "age": "",
+      "posted_at": "2026-08-23"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "url": "https://lu.ma/stationdc?k=c",
       "age": "",
       "posted_at": "2026-08-23"
     }
