@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T01:59:06Z",
+  "generated_at": "2026-08-23T03:14:55Z",
   "total": 2526,
   "jobs": [
     {
@@ -15738,21 +15738,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
-      "id": "61886914b79d3014",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Senior Staff Backend Engineer (Pricing)",
-      "location": "Seattle, USA",
-      "level": "other",
-      "region": "us",
-      "role_type": "backend",
-      "date": "12d",
-      "posted_at": "2026-08-11",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8120779",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
-    },
-    {
       "id": "96d4328278803111",
       "kind": "job",
       "company": "Coupang",
@@ -15764,6 +15749,21 @@
       "date": "12d",
       "posted_at": "2026-08-11",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8123934",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
+    },
+    {
+      "id": "61886914b79d3014",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Senior Staff Backend Engineer (Pricing)",
+      "location": "Seattle, USA",
+      "level": "other",
+      "region": "us",
+      "role_type": "backend",
+      "date": "12d",
+      "posted_at": "2026-08-11",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8120779",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
@@ -20208,22 +20208,7 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
     {
-      "id": "9e94f52205a3dcf4",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Hyderabad",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend",
-      "date": "23d",
-      "posted_at": "2026-07-31",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8051361",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
-    },
-    {
-      "id": "71187b4892e1f07a",
+      "id": "d47df4948fc5bb81",
       "kind": "job",
       "company": "Coupang",
       "title": "Staff Backend Engineer",
@@ -20233,7 +20218,7 @@
       "role_type": "backend",
       "date": "23d",
       "posted_at": "2026-07-31",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8095677",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
@@ -20253,7 +20238,7 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
     {
-      "id": "d47df4948fc5bb81",
+      "id": "71187b4892e1f07a",
       "kind": "job",
       "company": "Coupang",
       "title": "Staff Backend Engineer",
@@ -20263,7 +20248,22 @@
       "role_type": "backend",
       "date": "23d",
       "posted_at": "2026-07-31",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8095677",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
+    },
+    {
+      "id": "9e94f52205a3dcf4",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer",
+      "location": "Hyderabad",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend",
+      "date": "23d",
+      "posted_at": "2026-07-31",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8051361",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
@@ -35980,7 +35980,7 @@
       "company": "Hack Club",
       "title": "Graphiques Innovation Challenge",
       "location": "Online",
-      "date": "about 8 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-08-23",
       "url": "https://graphiques-challenge.devpost.com/",
       "source": "devpost",
@@ -36556,7 +36556,7 @@
       "company": "other",
       "title": "TechNisa Hacks",
       "location": "Toronto Metropolitan University",
-      "date": "about 10 hours left",
+      "date": "about 9 hours left",
       "posted_at": "2026-08-23",
       "url": "https://technisa-hacks.devpost.com/",
       "source": "devpost",
@@ -36592,7 +36592,7 @@
       "company": "Pixel Forge",
       "title": "Pixel Forge AI Hackathon ($18,000+ in Prizes)",
       "location": "Online",
-      "date": "about 14 hours left",
+      "date": "about 13 hours left",
       "posted_at": "2026-08-23",
       "url": "https://pixel-forge-ai-hackathon-08.devpost.com/",
       "source": "devpost",

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-23T01:58:43Z",
-  "total": 213,
+  "generated_at": "2026-08-23T03:14:32Z",
+  "total": 216,
   "by_level": {
     "new_grad": 85,
     "entry_level": 11,
-    "internship": 90,
+    "internship": 93,
     "mid_level": 26,
     "junior": 1
   },
   "by_country": {
-    "United States": 142,
-    "Unknown": 48,
+    "United States": 144,
+    "Unknown": 49,
     "Germany": 1,
     "Canada": 14,
     "Poland": 1,
@@ -26,7 +26,7 @@
     "zapplyjobs_all_newgrad": 1,
     "zapplyjobs_canada": 7,
     "zapplyjobs_canada_internships": 1,
-    "zapplyjobs_newgrad": 1,
+    "zapplyjobs_newgrad": 4,
     "speedyapply_swe": 19,
     "simplify_internships": 23,
     "simplify_newgrad": 17,
