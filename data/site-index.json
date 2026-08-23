@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T19:36:51Z",
-  "count": 2782,
-  "checksum": "sha256:8349bae62098902cf68d733c76b264aa8fcf1e1fa2d595e7b1db0af4a3f941bc",
+  "generated_at": "2026-08-23T20:41:00Z",
+  "count": 2784,
+  "checksum": "sha256:a2f76171e0c7a94e7c968e4d2ea63a009334ab20d1c168389706fe718b3c2c63",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -726,25 +726,6 @@
       "country": "Canada"
     },
     {
-      "id": "1d7513e0b87b3185",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Security Engineer II, Hybrid Cloud Gu...",
-      "location": "United States",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "security",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "d0c6c5402c438c0d",
       "kind": "job",
       "origin": "curated",
@@ -1212,63 +1193,6 @@
       "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh",
       "age": "0d",
       "posted_at": "2026-08-10",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "40d131fcd9acc466",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad",
-      "location": "New York, NY",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "ee14d221d22e0975",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad",
-      "location": "Denver, CO",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "35785393474d5bd5",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Defense",
-      "location": "New York, NY",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
-      "age": "0d",
-      "posted_at": "2026-08-23",
       "level": "new_grad",
       "region": "us",
       "role_type": "software_engineer",
@@ -4089,6 +4013,22 @@
       "role_type": "software_engineer"
     },
     {
+      "id": "c540561ee98067f4",
+      "kind": "job",
+      "origin": "public",
+      "company": "Openai",
+      "title": "Strategic Sourcing Manager, Data Center Infrastructure, Owner Furnished Equipment",
+      "location": "San Francisco",
+      "source": "ashby:openai",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai",
+      "url": "https://jobs.ashbyhq.com/openai/831e2f91-c213-4208-9eb3-4ce2cc6b9acf",
+      "age": "0d",
+      "posted_at": "2026-08-23",
+      "level": "other",
+      "region": "us",
+      "role_type": "infrastructure"
+    },
+    {
       "id": "6b5d8a27f0918b8c",
       "kind": "job",
       "origin": "public",
@@ -4233,22 +4173,6 @@
       "role_type": "frontend"
     },
     {
-      "id": "9137e2b0f54449d4",
-      "kind": "job",
-      "origin": "public",
-      "company": "Roblox",
-      "title": "Principal Software Engineer",
-      "location": "San Mateo, CA, United States",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "url": "https://careers.roblox.com/jobs/7744272?gh_jid=7744272",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "61f4ca10d0cdd856",
       "kind": "job",
       "origin": "public",
@@ -4258,6 +4182,22 @@
       "source": "greenhouse:roblox",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
       "url": "https://careers.roblox.com/jobs/8017415?gh_jid=8017415",
+      "age": "0d",
+      "posted_at": "2026-08-23",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "9137e2b0f54449d4",
+      "kind": "job",
+      "origin": "public",
+      "company": "Roblox",
+      "title": "Principal Software Engineer",
+      "location": "San Mateo, CA, United States",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "url": "https://careers.roblox.com/jobs/7744272?gh_jid=7744272",
       "age": "0d",
       "posted_at": "2026-08-23",
       "level": "other",
@@ -17209,22 +17149,6 @@
       "role_type": "backend"
     },
     {
-      "id": "411683c4787fd798",
-      "kind": "job",
-      "origin": "public",
-      "company": "Stripe",
-      "title": "Backend/API Engineer, Money as a Service",
-      "location": "US",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "url": "https://stripe.com/jobs/search?gh_jid=6176758",
-      "age": "5d",
-      "posted_at": "2026-08-18",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
       "id": "0b21a553f67f1879",
       "kind": "job",
       "origin": "public",
@@ -17238,6 +17162,22 @@
       "posted_at": "2026-08-18",
       "level": "other",
       "region": "emea",
+      "role_type": "backend"
+    },
+    {
+      "id": "411683c4787fd798",
+      "kind": "job",
+      "origin": "public",
+      "company": "Stripe",
+      "title": "Backend/API Engineer, Money as a Service",
+      "location": "US",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "url": "https://stripe.com/jobs/search?gh_jid=6176758",
+      "age": "5d",
+      "posted_at": "2026-08-18",
+      "level": "other",
+      "region": "unknown",
       "role_type": "backend"
     },
     {
@@ -17513,15 +17453,15 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "7aac6260ba1b97ae",
+      "id": "306f56c6b83b2abd",
       "kind": "job",
       "origin": "public",
       "company": "Stripe",
       "title": "Software Engineer",
-      "location": "South San Francisco, CA",
+      "location": "Chicago, IL",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "url": "https://stripe.com/jobs/search?gh_jid=8107379",
+      "url": "https://stripe.com/jobs/search?gh_jid=8137972",
       "age": "5d",
       "posted_at": "2026-08-18",
       "level": "other",
@@ -17545,15 +17485,15 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "306f56c6b83b2abd",
+      "id": "7aac6260ba1b97ae",
       "kind": "job",
       "origin": "public",
       "company": "Stripe",
       "title": "Software Engineer",
-      "location": "Chicago, IL",
+      "location": "South San Francisco, CA",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "url": "https://stripe.com/jobs/search?gh_jid=8137972",
+      "url": "https://stripe.com/jobs/search?gh_jid=8107379",
       "age": "5d",
       "posted_at": "2026-08-18",
       "level": "other",
@@ -42362,6 +42302,32 @@
       "posted_at": "2026-08-23"
     },
     {
+      "id": "67489d16f2ffb8e2",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Codeutsava X.0",
+      "location": "Raipur, India",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "url": "https://codeutsava-x.devfolio.co",
+      "age": "41 days left",
+      "posted_at": "2026-08-23"
+    },
+    {
+      "id": "30f4d87edfbdea96",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Cognition - GameJam '26",
+      "location": "Navi Mumbai, India",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "url": "https://cognition-gamejam-1.devfolio.co",
+      "age": "33 days left",
+      "posted_at": "2026-08-23"
+    },
+    {
       "id": "3c58ff5709a2778b",
       "kind": "hackathon",
       "origin": "public",
@@ -42372,6 +42338,19 @@
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://convergence1.devfolio.co",
       "age": "69 days left",
+      "posted_at": "2026-08-23"
+    },
+    {
+      "id": "3860f01de25b7203",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "DEFINE 4.0",
+      "location": "Thiruvananthapuram, India",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "url": "https://define4.devfolio.co",
+      "age": "47 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42501,7 +42480,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hackonhills8.devfolio.co",
-      "age": "70 days left",
+      "age": "69 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42593,6 +42572,19 @@
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hacknex-season-2.devfolio.co",
       "age": "33 days left",
+      "posted_at": "2026-08-23"
+    },
+    {
+      "id": "2b770a0bd3bde6cf",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Hackrit",
+      "location": "Kolkata, India",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "url": "https://hackrit2026.devfolio.co",
+      "age": "19 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42791,6 +42783,19 @@
       "posted_at": "2026-08-23"
     },
     {
+      "id": "4d198d7fa4844cf4",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Realm Hack '26",
+      "location": "Thodiyoor, India",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "url": "https://realm-hack-1.devfolio.co",
+      "age": "46 days left",
+      "posted_at": "2026-08-23"
+    },
+    {
       "id": "d647c924b92306f0",
       "kind": "hackathon",
       "origin": "public",
@@ -42930,7 +42935,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/elucode-2-edulinkup-1740124",
-      "age": "27 days left",
+      "age": "26 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43203,7 +43208,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://melbourne-hack-2026.devpost.com/",
-      "age": "about 21 hours left",
+      "age": "about 18 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43866,7 +43871,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://quantumhacks.devpost.com/",
-      "age": "about 11 hours left",
+      "age": "about 10 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43944,7 +43949,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://reverie-hacks-2026.devpost.com/",
-      "age": "about 9 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -44425,7 +44430,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/innovik-60-international-hackathon-2026-vikrant-institute-of-technology-and-management-indore-1731748",
-      "age": "23 days left",
+      "age": "22 days left",
       "posted_at": "2026-08-23"
     },
     {
