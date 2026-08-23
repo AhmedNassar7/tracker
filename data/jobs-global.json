@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T13:00:40Z",
-  "total": 198,
+  "generated_at": "2026-08-23T13:44:55Z",
+  "total": 195,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -773,11 +773,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-08-23",
       "age": "0d",
-      "collected_at": "2026-08-23T13:00:40Z",
+      "collected_at": "2026-08-23T13:44:55Z",
       "tags": [
         "software",
         "programming",
@@ -1468,75 +1468,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2157980cd28337aa",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Infrast...",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-23",
-      "age": "0d",
-      "collected_at": "2026-08-23T13:00:40Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8c0b6a275a676493",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Product...",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-23",
-      "age": "0d",
-      "collected_at": "2026-08-23T11:33:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "222260aec118fe33",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Product...",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-23",
-      "age": "0d",
-      "collected_at": "2026-08-23T11:33:36Z",
       "tags": [
         "software",
         "programming",

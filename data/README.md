@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 2363 |
-| Hackathons | 201 |
-| Events | 3 |
-| Total | 2567 |
+| Jobs | 2360 |
+| Hackathons | 200 |
+| Events | 4 |
+| Total | 2564 |
 
 ## Jobs
 
-[![Jobs 2363](https://img.shields.io/badge/Jobs-2363-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 123](https://img.shields.io/badge/Internship-123-22c55e.svg)](#internship) [![Early Career 103](https://img.shields.io/badge/Early%20Career-103-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2137](https://img.shields.io/badge/Mid--Level%20and%20Above-2137-dc2626.svg)](#mid-level-and-above)
+[![Jobs 2360](https://img.shields.io/badge/Jobs-2360-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 123](https://img.shields.io/badge/Internship-123-22c55e.svg)](#internship) [![Early Career 100](https://img.shields.io/badge/Early%20Career-100-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2137](https://img.shields.io/badge/Mid--Level%20and%20Above-2137-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -168,7 +168,7 @@ Total roles: 123
 
 ### Early Career
 
-Total roles: 103
+Total roles: 100
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -211,9 +211,6 @@ Total roles: 103
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79?utm_source=vansh) | Washington, DC | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3?utm_source=vansh) | Palo Alto, CA | 0d |
 | Palantir | [New Grad: Software Engineer 🇺🇸](https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278?utm_source=vansh) | New York, NY | 0d |
-| Palantir | [Software Engineer, New Grad - Infrast...](https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d) | Palo Alto, CA | 0d |
-| Palantir | [Software Engineer, New Grad - Product...](https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6) | Washington, D.C. | 0d |
-| Palantir | [Software Engineer, New Grad - Product...](https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af) | Seattle, WA | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908747686?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | PayPal | [New Grad: Software Engineer](https://paypal.eightfold.ai/careers/job/274908696559?utm_source=vansh) | <details><summary>5 locations</summary>San Jose<br>CA Chicago<br>IL Omaha<br>NE Scottsdale<br>AZ Austin, TX</details> | 0d |
 | Revolut | [graduate programme 2027: software engineer (java)](https://www.linkedin.com/jobs/view/4418834450) | portugal | 0d |
@@ -2422,7 +2419,7 @@ Total roles: 2137
 
 ## Hackathons
 
-Total hackathons: 201
+Total hackathons: 200
 
 | Organizer | Hackathon |
 |---|---|
@@ -2486,7 +2483,6 @@ Total hackathons: 201
 | Devfolio | [HackVerse: Into the Web](https://hackverse-into-the-web.devfolio.co) |
 | Devfolio | [Hefty-Hacks](https://hefty-hacks.devfolio.co) |
 | Devfolio | [HyperFusion](https://hyperfusion.devfolio.co) |
-| Devfolio | [Inception World Model Hackathon II](https://inception-ii.devfolio.co) |
 | Devfolio | [Innohacks 4.0](https://innohacks-4.devfolio.co) |
 | Devfolio | [Interledger Student Hackathon - CUC](https://interledger-student-hackathon-cuc.devfolio.co) |
 | Devfolio | [Interledger Student Hackathon - ICESI](https://interledger-student-hackathon-icesi.devfolio.co) |
@@ -2630,13 +2626,14 @@ Total hackathons: 201
 
 ## Events
 
-Total events: 3
+Total events: 4
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 
