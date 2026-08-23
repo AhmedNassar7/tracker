@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T07:46:17Z",
-  "total": 196,
+  "generated_at": "2026-08-23T08:47:43Z",
+  "total": 193,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -877,6 +877,29 @@
       ]
     },
     {
+      "id": "1d7513e0b87b3185",
+      "company": "Google",
+      "title": "Security Engineer II, Hybrid Cloud Gu...",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "security",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-08-23",
+      "age": "0d",
+      "collected_at": "2026-08-23T08:47:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d0c6c5402c438c0d",
       "company": "Google",
       "title": "Software Developer, Early Career, Campus",
@@ -1445,75 +1468,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "66bbf1e553376c7c",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Denver, CO",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-23",
-      "age": "0d",
-      "collected_at": "2026-08-23T07:46:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b3126ca0917b76be",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-23",
-      "age": "0d",
-      "collected_at": "2026-08-23T07:46:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "162a14da3a107f9f",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-23",
-      "age": "0d",
-      "collected_at": "2026-08-23T07:46:17Z",
       "tags": [
         "software",
         "programming",
@@ -2349,29 +2303,6 @@
       ]
     },
     {
-      "id": "822623bc288d8af4",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T08:53:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "11e112c948252134",
       "company": "SpaceX",
       "title": "Software Engineer New Grad - Software - Application Software",
@@ -2434,6 +2365,29 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T18:52:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "822623bc288d8af4",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T08:53:17Z",
       "tags": [
         "software",
         "programming",
@@ -3453,6 +3407,29 @@
       ]
     },
     {
+      "id": "a9eeaa7ffb9ab263",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, CloudFront",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Seattle, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10490542/software-development-engineer-ii-cloudfront",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-08-03",
+      "age": "20d",
+      "collected_at": "2026-08-23T08:47:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "373ebba468ac25c1",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Infrastructure",
@@ -3469,29 +3446,6 @@
       "posted_at": "2026-08-10",
       "age": "9d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b79f5f772d067aaf",
-      "company": "Amazon",
-      "title": "Software Development Engineer II (ADBL178)",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Newark, New Jersey, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-31",
-      "age": "23d",
-      "collected_at": "2026-08-23T07:00:00Z",
       "tags": [
         "software",
         "programming",
@@ -3561,6 +3515,29 @@
       "posted_at": "2026-07-31",
       "age": "11d",
       "collected_at": "2026-08-11T17:11:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "526cc621dd52664b",
+      "company": "Amazon",
+      "title": "Software Development Engineer II (ADBL190)",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Newark, New Jersey, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489788/software-development-engineer-ii-adbl190",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-31",
+      "age": "23d",
+      "collected_at": "2026-08-23T08:47:43Z",
       "tags": [
         "software",
         "programming",
@@ -3791,29 +3768,6 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "fd95b7ef37fe6f7c",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, AmazonMQ",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "canada",
-      "role_type": "other_swe",
-      "country": "Canada",
-      "location": "Vancouver, British Columbia, CAN",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-17",
-      "age": "37d",
-      "collected_at": "2026-08-23T07:00:00Z",
       "tags": [
         "software",
         "programming",
@@ -4412,29 +4366,6 @@
       "posted_at": "2026-04-27",
       "age": "105d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "86c087a99d1f949a",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Amazon",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-04-25",
-      "age": "120d",
-      "collected_at": "2026-08-23T07:00:00Z",
       "tags": [
         "software",
         "programming",
