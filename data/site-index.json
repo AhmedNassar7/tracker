@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T16:45:06Z",
-  "count": 2779,
-  "checksum": "sha256:f03bccffe2f26848da4765a3f7980ec34dde4c788433d6c4ba5fae5767e9171d",
+  "generated_at": "2026-08-23T17:36:03Z",
+  "count": 2778,
+  "checksum": "sha256:c70d082454e6c05ee1eef0bd8c9a67c2002841d81e72ee88ac828eb749fabdf5",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -1676,25 +1676,6 @@
       "country": "Unknown"
     },
     {
-      "id": "3ed6fdf9d821bcdd",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Summer 2027)",
-      "location": "South San Francisco, C...",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7929236003",
-      "age": "0d",
-      "posted_at": "2026-08-21",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "9007d432b6682356",
       "kind": "job",
       "origin": "curated",
@@ -1858,6 +1839,25 @@
       "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
       "age": "0d",
       "posted_at": "2026-08-20",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "3ed6fdf9d821bcdd",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Zipline",
+      "title": "Software Engineer Intern (Summer 2027)",
+      "location": "South San Francisco, C...",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7929236003",
+      "age": "0d",
+      "posted_at": "2026-08-21",
       "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
@@ -3770,6 +3770,22 @@
       "posted_at": "",
       "level": "other",
       "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "bbd861cb95aad6e1",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Cloud Software Engineer, DGXC Data Services",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
       "role_type": "software_engineer"
     },
     {
@@ -10891,22 +10907,6 @@
       "level": "other",
       "region": "emea",
       "role_type": "mobile"
-    },
-    {
-      "id": "3f02cef6ece324a0",
-      "kind": "job",
-      "origin": "public",
-      "company": "NVIDIA",
-      "title": "Senior Compute Platform Engineer, LSF",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin</details>",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Compute-Platform-Engineer--LSF-_JR2023960",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "us",
-      "role_type": "platform"
     },
     {
       "id": "03eca567102d5d78",
@@ -42322,19 +42322,6 @@
       "posted_at": "2026-08-23"
     },
     {
-      "id": "254ca63ad5ffb190",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Devfolio",
-      "title": "DOMINION 2026",
-      "location": "Kattankulathur, India",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons",
-      "url": "https://dominion2026.devfolio.co",
-      "age": "10 days left",
-      "posted_at": "2026-08-23"
-    },
-    {
       "id": "ae2241a9dc345ce7",
       "kind": "hackathon",
       "origin": "public",
@@ -42344,7 +42331,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://dora-hack.devfolio.co",
-      "age": "7 days left",
+      "age": "6 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43059,7 +43046,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://graphiques-challenge.devpost.com/",
-      "age": "about 4 hours left",
+      "age": "about 16 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43072,7 +43059,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hack-the-habitat-2026.devpost.com/",
-      "age": "8 days left",
+      "age": "7 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43098,7 +43085,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/zero-dependency-72-hour-hackathon-hackathon-raptors-1733673",
-      "age": "5 days left",
+      "age": "4 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43137,7 +43124,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://melbourne-hack-2026.devpost.com/",
-      "age": "about 22 hours left",
+      "age": "about 21 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43228,7 +43215,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://impactforge.devpost.com/",
-      "age": "about 14 hours left",
+      "age": "about 13 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43306,7 +43293,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/cp-contest-indian-institute-of-technology-bhubaneswar-1742751",
-      "age": "69 days left",
+      "age": "68 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43553,7 +43540,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gemini-builds.devpost.com/",
-      "age": "about 19 hours left",
+      "age": "about 18 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43605,7 +43592,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://neuralsprint.devpost.com/",
-      "age": "about 14 hours left",
+      "age": "about 13 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43865,7 +43852,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://reverie-hacks-2026.devpost.com/",
-      "age": "about 12 hours left",
+      "age": "about 11 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43891,7 +43878,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://rice-urban-sustainability.devpost.com/",
-      "age": "26 days left",
+      "age": "25 days left",
       "posted_at": "2026-08-23"
     },
     {
