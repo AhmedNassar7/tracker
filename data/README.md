@@ -29,8 +29,8 @@ Every row links straight to the real application page. Click a title to apply â€
 |---|---:|
 | Jobs | 2366 |
 | Hackathons | 204 |
-| Events | 4 |
-| Total | 2574 |
+| Events | 3 |
+| Total | 2573 |
 
 ## Jobs
 
@@ -2636,14 +2636,13 @@ Total hackathons: 204
 
 ## Events
 
-Total events: 4
+Total events: 3
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 

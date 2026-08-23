@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T22:39:40Z",
-  "count": 2785,
-  "checksum": "sha256:f09902b55f772fc6a01d370a60a5b5f48247d48e85fc1f9226b8af02c343bb87",
+  "generated_at": "2026-08-23T23:37:55Z",
+  "count": 2784,
+  "checksum": "sha256:61605aad207064292ef9416d6fe33736c392a4a5d73e917ac6d7f8aafe669424",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -2379,25 +2379,6 @@
       "country": "United States"
     },
     {
-      "id": "ab2582333521aab8",
-      "kind": "job",
-      "origin": "curated",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - AML-Engine-Orchestration",
-      "location": "San Jose, CA",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "url": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify",
-      "age": "6d",
-      "posted_at": "2026-08-17",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "be8160db39d009c7",
       "kind": "job",
       "origin": "curated",
@@ -2411,25 +2392,6 @@
       "posted_at": "2026-08-11",
       "level": "internship",
       "region": "us",
-      "role_type": "machine_learning",
-      "category": "consulting_finance",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "52447632a29beaab",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Citadel",
-      "title": "Sector Data Scientist Intern",
-      "location": "NYC",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/?utm_source=Simplify&ref=Simplify",
-      "age": "6d",
-      "posted_at": "2026-08-17",
-      "level": "internship",
-      "region": "unknown",
       "role_type": "machine_learning",
       "category": "consulting_finance",
       "remote_type": "onsite",
@@ -2489,6 +2451,44 @@
       "region": "unknown",
       "role_type": "machine_learning",
       "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "ab2582333521aab8",
+      "kind": "job",
+      "origin": "curated",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AML-Engine-Orchestration",
+      "location": "San Jose, CA",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "url": "https://jobs.bytedance.com/en/position/7671162985123907845/detail?utm_source=Simplify&ref=Simplify",
+      "age": "6d",
+      "posted_at": "2026-08-17",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "category": "apac_tech",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "52447632a29beaab",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Citadel",
+      "title": "Sector Data Scientist Intern",
+      "location": "NYC",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/?utm_source=Simplify&ref=Simplify",
+      "age": "6d",
+      "posted_at": "2026-08-17",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "category": "consulting_finance",
       "remote_type": "onsite",
       "country": "United States"
     },
@@ -43296,7 +43296,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://impactforge.devpost.com/",
-      "age": "about 9 hours left",
+      "age": "about 7 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43686,7 +43686,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://neuralsprint.devpost.com/",
-      "age": "about 9 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43868,7 +43868,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://quantumhacks.devpost.com/",
-      "age": "about 9 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43946,7 +43946,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://reverie-hacks-2026.devpost.com/",
-      "age": "about 6 hours left",
+      "age": "about 5 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -44505,19 +44505,6 @@
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "url": "https://lu.ma/deepmind?k=c",
-      "age": "",
-      "posted_at": "2026-08-23"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "origin": "public",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "source": "luma",
-      "source_url": "https://luma.com/discover",
-      "url": "https://lu.ma/stationdc?k=c",
       "age": "",
       "posted_at": "2026-08-23"
     }
