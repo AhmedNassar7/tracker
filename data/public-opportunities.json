@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T19:33:48Z",
-  "total": 2583,
+  "generated_at": "2026-08-23T20:37:59Z",
+  "total": 2589,
   "jobs": [
     {
       "id": "4c63e9a34c143091",
@@ -288,6 +288,21 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true"
     },
     {
+      "id": "c540561ee98067f4",
+      "kind": "job",
+      "company": "Openai",
+      "title": "Strategic Sourcing Manager, Data Center Infrastructure, Owner Furnished Equipment",
+      "location": "San Francisco",
+      "level": "other",
+      "region": "us",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-08-23",
+      "url": "https://jobs.ashbyhq.com/openai/831e2f91-c213-4208-9eb3-4ce2cc6b9acf",
+      "source": "ashby:openai",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
+    },
+    {
       "id": "6b5d8a27f0918b8c",
       "kind": "job",
       "company": "Reddit",
@@ -423,21 +438,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true"
     },
     {
-      "id": "9137e2b0f54449d4",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "2026-08-23",
-      "url": "https://careers.roblox.com/jobs/7744272?gh_jid=7744272",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true"
-    },
-    {
       "id": "61f4ca10d0cdd856",
       "kind": "job",
       "company": "Roblox",
@@ -449,6 +449,21 @@
       "date": "0d",
       "posted_at": "2026-08-23",
       "url": "https://careers.roblox.com/jobs/8017415?gh_jid=8017415",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true"
+    },
+    {
+      "id": "9137e2b0f54449d4",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-23",
+      "url": "https://careers.roblox.com/jobs/7744272?gh_jid=7744272",
       "source": "greenhouse:roblox",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true"
     },
@@ -12588,21 +12603,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
     {
-      "id": "411683c4787fd798",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Backend/API Engineer, Money as a Service",
-      "location": "US",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend",
-      "date": "5d",
-      "posted_at": "2026-08-18",
-      "url": "https://stripe.com/jobs/search?gh_jid=6176758",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
-    },
-    {
       "id": "0b21a553f67f1879",
       "kind": "job",
       "company": "Stripe",
@@ -12614,6 +12614,21 @@
       "date": "5d",
       "posted_at": "2026-08-18",
       "url": "https://stripe.com/jobs/search?gh_jid=7369543",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
+    },
+    {
+      "id": "411683c4787fd798",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Backend/API Engineer, Money as a Service",
+      "location": "US",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend",
+      "date": "5d",
+      "posted_at": "2026-08-18",
+      "url": "https://stripe.com/jobs/search?gh_jid=6176758",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
@@ -12873,17 +12888,17 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
     {
-      "id": "7aac6260ba1b97ae",
+      "id": "306f56c6b83b2abd",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer",
-      "location": "South San Francisco, CA",
+      "location": "Chicago, IL",
       "level": "other",
       "region": "us",
       "role_type": "software_engineer",
       "date": "5d",
       "posted_at": "2026-08-18",
-      "url": "https://stripe.com/jobs/search?gh_jid=8107379",
+      "url": "https://stripe.com/jobs/search?gh_jid=8137972",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
@@ -12903,17 +12918,17 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
     {
-      "id": "306f56c6b83b2abd",
+      "id": "7aac6260ba1b97ae",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer",
-      "location": "Chicago, IL",
+      "location": "South San Francisco, CA",
       "level": "other",
       "region": "us",
       "role_type": "software_engineer",
       "date": "5d",
       "posted_at": "2026-08-18",
-      "url": "https://stripe.com/jobs/search?gh_jid=8137972",
+      "url": "https://stripe.com/jobs/search?gh_jid=8107379",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
@@ -36164,6 +36179,30 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "67489d16f2ffb8e2",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Codeutsava X.0",
+      "location": "Raipur, India",
+      "date": "41 days left",
+      "posted_at": "2026-08-23",
+      "url": "https://codeutsava-x.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "30f4d87edfbdea96",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Cognition - GameJam '26",
+      "location": "Navi Mumbai, India",
+      "date": "33 days left",
+      "posted_at": "2026-08-23",
+      "url": "https://cognition-gamejam-1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "3c58ff5709a2778b",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -36172,6 +36211,18 @@
       "date": "69 days left",
       "posted_at": "2026-08-23",
       "url": "https://convergence1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "3860f01de25b7203",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "DEFINE 4.0",
+      "location": "Thiruvananthapuram, India",
+      "date": "47 days left",
+      "posted_at": "2026-08-23",
+      "url": "https://define4.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -36289,7 +36340,7 @@
       "company": "Devfolio",
       "title": "Hack On Hills 8.0",
       "location": "Hamirpur, India",
-      "date": "70 days left",
+      "date": "69 days left",
       "posted_at": "2026-08-23",
       "url": "https://hackonhills8.devfolio.co",
       "source": "devfolio",
@@ -36376,6 +36427,18 @@
       "date": "33 days left",
       "posted_at": "2026-08-23",
       "url": "https://hacknex-season-2.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "2b770a0bd3bde6cf",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hackrit",
+      "location": "Kolkata, India",
+      "date": "19 days left",
+      "posted_at": "2026-08-23",
+      "url": "https://hackrit2026.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -36560,6 +36623,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "4d198d7fa4844cf4",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Realm Hack '26",
+      "location": "Thodiyoor, India",
+      "date": "46 days left",
+      "posted_at": "2026-08-23",
+      "url": "https://realm-hack-1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "d647c924b92306f0",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -36685,7 +36760,7 @@
       "company": "EduLinkUp",
       "title": "ELUCode-2",
       "location": "Online",
-      "date": "27 days left",
+      "date": "26 days left",
       "posted_at": "2026-08-23",
       "url": "https://unstop.com/hackathons/elucode-2-edulinkup-1740124",
       "source": "unstop",
@@ -36937,7 +37012,7 @@
       "company": "HackMelbourne",
       "title": "Melbourne Hack 2026",
       "location": "University of Melbourne",
-      "date": "about 21 hours left",
+      "date": "about 18 hours left",
       "posted_at": "2026-08-23",
       "url": "https://melbourne-hack-2026.devpost.com/",
       "source": "devpost",
@@ -37549,7 +37624,7 @@
       "company": "Quantumhacks",
       "title": "QuantumHacks",
       "location": "Online",
-      "date": "about 11 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-08-23",
       "url": "https://quantumhacks.devpost.com/",
       "source": "devpost",
@@ -37621,7 +37696,7 @@
       "company": "ReverieHacks",
       "title": "Reverie Hacks 2026",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-08-23",
       "url": "https://reverie-hacks-2026.devpost.com/",
       "source": "devpost",
@@ -38065,7 +38140,7 @@
       "company": "Vikrant Institute of Technology and Management, Indore",
       "title": "Innovik 6.0 – International Hackathon 2026",
       "location": "Offline",
-      "date": "23 days left",
+      "date": "22 days left",
       "posted_at": "2026-08-23",
       "url": "https://unstop.com/hackathons/innovik-60-international-hackathon-2026-vikrant-institute-of-technology-and-management-indore-1731748",
       "source": "unstop",
