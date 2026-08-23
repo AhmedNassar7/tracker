@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T01:58:43Z",
-  "total": 189,
+  "generated_at": "2026-08-23T03:14:32Z",
+  "total": 192,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1445,6 +1445,75 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f4a553483f9bcfd6",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-23",
+      "age": "0d",
+      "collected_at": "2026-08-23T03:14:32Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0519abb92d76c8a3",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-23",
+      "age": "0d",
+      "collected_at": "2026-08-23T03:14:32Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "15cecd05a12a4b83",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Defen...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-23",
+      "age": "0d",
+      "collected_at": "2026-08-23T03:14:32Z",
       "tags": [
         "software",
         "programming",
