@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T15:38:15Z",
-  "count": 2781,
-  "checksum": "sha256:acc5364dd5112352cf8574db63f97c61dff759a72361c6d1c717e6431a0e069a",
+  "generated_at": "2026-08-23T16:45:06Z",
+  "count": 2779,
+  "checksum": "sha256:f03bccffe2f26848da4765a3f7980ec34dde4c788433d6c4ba5fae5767e9171d",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -726,25 +726,6 @@
       "country": "Canada"
     },
     {
-      "id": "1d7513e0b87b3185",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Security Engineer II, Hybrid Cloud Gu...",
-      "location": "United States",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "security",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "d0c6c5402c438c0d",
       "kind": "job",
       "origin": "curated",
@@ -1213,44 +1194,6 @@
       "age": "0d",
       "posted_at": "2026-08-10",
       "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "66bbf1e553376c7c",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "location": "Denver, CO",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "b3126ca0917b76be",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "location": "New York, NY",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
-      "age": "0d",
-      "posted_at": "2026-08-23",
-      "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
       "category": "product_saas",
@@ -3814,6 +3757,38 @@
       "role_type": "infrastructure"
     },
     {
+      "id": "d31ef50af876ebe4",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Manager, System Software Engineering - Factory",
+      "location": "US, CA, Santa Clara",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--System-Software-Engineering---Factory_JR2021001",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "b055cf9de6740369",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Firmware Engineer - Development, Verification and Infrastructure",
+      "location": "US, CA, Santa Clara",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Firmware-Engineer_JR2007787",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "infrastructure"
+    },
+    {
       "id": "c44c66f7fa554bf5",
       "kind": "job",
       "origin": "public",
@@ -3828,6 +3803,38 @@
       "level": "other",
       "region": "remote",
       "role_type": "full_stack"
+    },
+    {
+      "id": "ce8f4252148fa9c3",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Platform Engineer, Network Infrastructure - DGX Cloud",
+      "location": "<details><summary><strong>6 locations</strong></summary>US, CA, Santa Clara<br>US, IL, Remote<br>US, WA, Remote<br>US, Remote<br>US, CA, Remote<br>US, MA, Remote</details>",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
+      "role_type": "platform"
+    },
+    {
+      "id": "3a16ec96db95e50b",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Site Reliability Engineer, BCM - DGX Cloud",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer--BCM---DGX-Cloud_JR2023431",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "remote",
+      "role_type": "infrastructure"
     },
     {
       "id": "687d264bbf0ffcf6",
@@ -3907,6 +3914,22 @@
       "posted_at": "",
       "level": "other",
       "region": "remote",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "c8787db2e8ccb9ae",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Software Engineering Intern, Test Development - 2027",
+      "location": "China, Shanghai",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023649-1",
+      "age": "0d",
+      "posted_at": "",
+      "level": "internship",
+      "region": "unknown",
       "role_type": "software_engineer"
     },
     {
@@ -10870,22 +10893,6 @@
       "role_type": "mobile"
     },
     {
-      "id": "358a0608494dbece",
-      "kind": "job",
-      "origin": "public",
-      "company": "NVIDIA",
-      "title": "Compute Platform Engineer, License Scheduling",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin</details>",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compute-Platform-Engineer--License-Scheduling_JR2023965",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "us",
-      "role_type": "platform"
-    },
-    {
       "id": "3f02cef6ece324a0",
       "kind": "job",
       "origin": "public",
@@ -10895,22 +10902,6 @@
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Compute-Platform-Engineer--LSF-_JR2023960",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "us",
-      "role_type": "platform"
-    },
-    {
-      "id": "e85bd3dfd9fba75e",
-      "kind": "job",
-      "origin": "public",
-      "company": "NVIDIA",
-      "title": "Senior Infrastructure Automation Engineer, Compute Platform",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin</details>",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962",
       "age": "3d",
       "posted_at": "",
       "level": "other",
@@ -10932,38 +10923,6 @@
       "level": "other",
       "region": "unknown",
       "role_type": "infrastructure"
-    },
-    {
-      "id": "147c0ae04ada1b0f",
-      "kind": "job",
-      "origin": "public",
-      "company": "NVIDIA",
-      "title": "Senior Product Architect, K8s-Based AI Infrastructure",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Product-Architect--K8s-Based-AI-Infrastructure_JR2023964",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "remote",
-      "role_type": "infrastructure"
-    },
-    {
-      "id": "ac9eff66d410fa2c",
-      "kind": "job",
-      "origin": "public",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, AI Storage",
-      "location": "2 Locations",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Storage_JR2014785",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
     },
     {
       "id": "39d7bb17f1df4dbe",
@@ -41917,7 +41876,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://blockchain-amrita.devpost.com/",
-      "age": "3 days left",
+      "age": "2 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42190,7 +42149,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/code-x-novas-innovathon-2026-national-software-ai-hackathon-code-x-novas-1737822",
-      "age": "78 days left",
+      "age": "77 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42229,7 +42188,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://dialedin.devpost.com/",
-      "age": "18 days left",
+      "age": "16 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42710,7 +42669,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://muba-hackathon.devfolio.co",
-      "age": "13 days left",
+      "age": "12 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -42866,6 +42825,19 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/hackout26-dhirubhai-ambani-institute-of-information-and-communication-technology-da-iict-gandhinagar-1729614",
+      "age": "13 days left",
+      "posted_at": "2026-08-23"
+    },
+    {
+      "id": "de624d5ac4eb8afd",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Dialogate",
+      "title": "VoltHacks",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://volthacks.devpost.com/",
       "age": "13 days left",
       "posted_at": "2026-08-23"
     },
@@ -43087,7 +43059,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://graphiques-challenge.devpost.com/",
-      "age": "about 6 hours left",
+      "age": "about 4 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43139,7 +43111,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/hackblox-open-source-hackathon-hackers-cult-1731738",
-      "age": "11 days left",
+      "age": "10 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43165,7 +43137,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://melbourne-hack-2026.devpost.com/",
-      "age": "about 24 hours left",
+      "age": "about 22 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43256,7 +43228,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://impactforge.devpost.com/",
-      "age": "about 15 hours left",
+      "age": "about 14 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43360,7 +43332,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/math-o-stellar-tech-zephyr-40-indian-institute-of-technology-bhubaneswar-1742777",
-      "age": "69 days left",
+      "age": "68 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43425,7 +43397,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/crp-eon-future-makers-challenge-infosys-1739537",
-      "age": "434 days left",
+      "age": "433 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43581,7 +43553,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gemini-builds.devpost.com/",
-      "age": "about 22 hours left",
+      "age": "about 19 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43633,7 +43605,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://neuralsprint.devpost.com/",
-      "age": "about 15 hours left",
+      "age": "about 14 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43741,19 +43713,6 @@
       "posted_at": "2026-08-23"
     },
     {
-      "id": "d43962c0e757f8c0",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Pixel Forge",
-      "title": "Pixel Forge AI Hackathon ($18,000+ in Prizes)",
-      "location": "Online",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://pixel-forge-ai-hackathon-08.devpost.com/",
-      "age": "25 minutes left",
-      "posted_at": "2026-08-23"
-    },
-    {
       "id": "88933e7fa3c15313",
       "kind": "hackathon",
       "origin": "public",
@@ -43815,7 +43774,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://prometheus-september-ai-2.devpost.com/",
-      "age": "21 days left",
+      "age": "20 days left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43841,7 +43800,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://quantumhacks.devpost.com/",
-      "age": "about 15 hours left",
+      "age": "about 14 hours left",
       "posted_at": "2026-08-23"
     },
     {
@@ -43906,7 +43865,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://reverie-hacks-2026.devpost.com/",
-      "age": "about 13 hours left",
+      "age": "about 12 hours left",
       "posted_at": "2026-08-23"
     },
     {
