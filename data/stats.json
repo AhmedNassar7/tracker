@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-24T19:43:44Z",
-  "total": 219,
+  "generated_at": "2026-08-24T20:47:17Z",
+  "total": 226,
   "by_level": {
-    "new_grad": 87,
+    "new_grad": 88,
     "entry_level": 11,
-    "internship": 93,
-    "mid_level": 27,
+    "internship": 98,
+    "mid_level": 28,
     "junior": 1
   },
   "by_country": {
-    "United States": 146,
-    "Unknown": 49,
+    "United States": 149,
+    "Unknown": 52,
     "Germany": 1,
-    "Canada": 15,
+    "Canada": 16,
     "Poland": 1,
     "Portugal": 2,
     "United Kingdom": 5
@@ -22,15 +22,15 @@
     "vanshb03_summer_internships": 27,
     "lorenzolacorte_eu": 4,
     "zapplyjobs_all_newgrad": 2,
-    "zapplyjobs_internships": 9,
-    "zapplyjobs_datascience": 3,
-    "zapplyjobs_canada": 6,
-    "simplify_internships": 26,
+    "zapplyjobs_internships": 12,
+    "zapplyjobs_datascience": 5,
+    "zapplyjobs_canada": 7,
+    "simplify_internships": 28,
     "zapplyjobs_canada_internships": 2,
     "simplify_newgrad": 19,
     "zapplyjobs_newgrad": 1,
     "speedyapply_swe": 19,
-    "amazon": 22,
+    "amazon": 21,
     "speedyapply_ai": 7,
     "netflix": 1
   }
