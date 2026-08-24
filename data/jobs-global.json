@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T07:19:04Z",
-  "total": 191,
+  "generated_at": "2026-08-24T09:03:04Z",
+  "total": 196,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -877,6 +877,29 @@
       ]
     },
     {
+      "id": "21f753f9775c0d41",
+      "company": "Google",
+      "title": "Software Developer Intern, PhD, Summe...",
+      "level": "internship",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Canada",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T09:03:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d0c6c5402c438c0d",
       "company": "Google",
       "title": "Software Developer, Early Career, Campus",
@@ -1445,6 +1468,75 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "40d131fcd9acc466",
+      "company": "Palantir",
+      "title": "Software Engineer, New Grad",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T09:03:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ee14d221d22e0975",
+      "company": "Palantir",
+      "title": "Software Engineer, New Grad",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Denver, CO",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T09:03:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "35785393474d5bd5",
+      "company": "Palantir",
+      "title": "Software Engineer, New Grad - Defense",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T09:03:04Z",
       "tags": [
         "software",
         "programming",
@@ -2234,29 +2326,6 @@
       ]
     },
     {
-      "id": "822623bc288d8af4",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T08:53:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "11e112c948252134",
       "company": "SpaceX",
       "title": "Software Engineer New Grad - Software - Application Software",
@@ -2319,6 +2388,29 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T18:52:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "822623bc288d8af4",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T08:53:17Z",
       "tags": [
         "software",
         "programming",
@@ -2434,6 +2526,29 @@
       "posted_at": "2026-08-17",
       "age": "0d",
       "collected_at": "2026-08-17T22:39:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c92afc03750eb277",
+      "company": "Sony Interactive Entertainment",
+      "title": "Software Engineer II/ Software Develo...",
+      "level": "mid_level",
+      "category": "big_tech",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Canada, Waterloo, ON",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6145793004",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-24",
+      "age": "6d",
+      "collected_at": "2026-08-24T09:03:04Z",
       "tags": [
         "software",
         "programming",
