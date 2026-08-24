@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T09:03:04Z",
-  "total": 196,
+  "generated_at": "2026-08-24T10:02:55Z",
+  "total": 195,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -877,6 +877,29 @@
       ]
     },
     {
+      "id": "1d7513e0b87b3185",
+      "company": "Google",
+      "title": "Security Engineer II, Hybrid Cloud Gu...",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "security",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T10:02:55Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "21f753f9775c0d41",
       "company": "Google",
       "title": "Software Developer Intern, PhD, Summe...",
@@ -1468,75 +1491,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "40d131fcd9acc466",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T09:03:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ee14d221d22e0975",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Denver, CO",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T09:03:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "35785393474d5bd5",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Defense",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T09:03:04Z",
       "tags": [
         "software",
         "programming",
@@ -2441,29 +2395,6 @@
       ]
     },
     {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "category": "consulting_finance",
-      "region": "canada",
-      "role_type": "infrastructure",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-18",
-      "age": "0d",
-      "collected_at": "2026-08-18T20:39:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "bff5c3680bab1848",
       "company": "Amazon",
       "title": "Software Development Engineer II, Geospatial",
@@ -2526,6 +2457,29 @@
       "posted_at": "2026-08-17",
       "age": "0d",
       "collected_at": "2026-08-17T22:39:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "category": "consulting_finance",
+      "region": "canada",
+      "role_type": "infrastructure",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-18",
+      "age": "0d",
+      "collected_at": "2026-08-18T20:39:28Z",
       "tags": [
         "software",
         "programming",
@@ -3361,6 +3315,29 @@
       ]
     },
     {
+      "id": "8ed25ec831823aa0",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-08-04",
+      "age": "6d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "37125469539dbe4d",
       "company": "ByteDance",
       "title": "Software Engineer Intern - AI Infra Compute 🎓",
@@ -3407,29 +3384,6 @@
       ]
     },
     {
-      "id": "8ed25ec831823aa0",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-04",
-      "age": "6d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5a9b57a990547181",
       "company": "HarmonyTech",
       "title": "Junior Software Developer - .NET",
@@ -3453,29 +3407,6 @@
       ]
     },
     {
-      "id": "a9eeaa7ffb9ab263",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, CloudFront",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Seattle, Washington, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10490542/software-development-engineer-ii-cloudfront",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-03",
-      "age": "20d",
-      "collected_at": "2026-08-23T08:47:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "373ebba468ac25c1",
       "company": "Palantir",
       "title": "Software Engineer New Grad - Infrastructure",
@@ -3492,6 +3423,29 @@
       "posted_at": "2026-08-10",
       "age": "9d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b79f5f772d067aaf",
+      "company": "Amazon",
+      "title": "Software Development Engineer II (ADBL178)",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Newark, New Jersey, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-31",
+      "age": "24d",
+      "collected_at": "2026-08-24T10:02:55Z",
       "tags": [
         "software",
         "programming",
@@ -3814,6 +3768,29 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fd95b7ef37fe6f7c",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AmazonMQ",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "other_swe",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia, CAN",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-17",
+      "age": "38d",
+      "collected_at": "2026-08-24T10:02:55Z",
       "tags": [
         "software",
         "programming",
