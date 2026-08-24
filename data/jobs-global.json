@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T13:11:41Z",
-  "total": 194,
+  "generated_at": "2026-08-24T14:02:08Z",
+  "total": 193,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -773,11 +773,11 @@
       "location": "Canada",
       "remote_type": "onsite",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-23",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-08-24",
       "age": "0d",
-      "collected_at": "2026-08-23T15:35:12Z",
+      "collected_at": "2026-08-24T14:02:08Z",
       "tags": [
         "software",
         "programming",
@@ -2533,29 +2533,6 @@
       ]
     },
     {
-      "id": "dc30a7884af241c8",
-      "company": "Amazon Development Centre Canada ULC",
-      "title": "Software Development Engineer II, Ama...",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "canada",
-      "role_type": "other_swe",
-      "country": "Canada",
-      "location": "Toronto, ON",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10503715/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-24",
-      "age": "1w",
-      "collected_at": "2026-08-24T07:19:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "affe941dfff55262",
       "company": "Figma",
       "title": "Software Engineer Intern (Winter 2027)",
@@ -3131,9 +3108,9 @@
       ]
     },
     {
-      "id": "29460bb6a889f370",
+      "id": "16cf2b070fa13f44",
       "company": "ByteDance",
-      "title": "Network Software Engineer Intern - Network Observation",
+      "title": "Network Software Engineer Intern - Network Switch",
       "level": "internship",
       "category": "apac_tech",
       "region": "unknown",
@@ -3141,12 +3118,12 @@
       "country": "United States",
       "location": "San Jose, CA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7670772641439041797/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.bytedance.com/en/position/7670778018960542005/detail?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-08-24",
       "age": "17d",
-      "collected_at": "2026-08-24T13:11:41Z",
+      "collected_at": "2026-08-24T14:02:08Z",
       "tags": [
         "software",
         "programming",
