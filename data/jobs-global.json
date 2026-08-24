@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T14:58:44Z",
-  "total": 198,
+  "generated_at": "2026-08-24T15:54:55Z",
+  "total": 197,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -877,6 +877,52 @@
       ]
     },
     {
+      "id": "47cdffcc83421c4d",
+      "company": "Garmin",
+      "title": "Software Engineer I, Aviation Web Development",
+      "level": "entry_level",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Chandler, AZ Olathe, KS",
+      "remote_type": "onsite",
+      "url": "https://careers.garmin.com/jobs/16774?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T15:54:55Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b21d299265fbeb6b",
+      "company": "Google",
+      "title": "Software Developer Intern 🎓",
+      "level": "internship",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Montreal, QC, Canada Toronto, ON, Canada Waterloo, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T15:54:55Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "21f753f9775c0d41",
       "company": "Google",
       "title": "Software Developer Intern, PhD, Summe...",
@@ -916,6 +962,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5d5f25c8580f62e8",
+      "company": "Google",
+      "title": "Software Engineer Early Career - Multiple Teams 🎓",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "<details><summary><strong>12 locations</strong></summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details>",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/84680705375642310?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T15:54:55Z",
       "tags": [
         "software",
         "programming",
@@ -1491,75 +1560,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "66bbf1e553376c7c",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Denver, CO",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T14:58:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b3126ca0917b76be",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T14:58:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "162a14da3a107f9f",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T14:58:44Z",
       "tags": [
         "software",
         "programming",
@@ -4274,29 +4274,6 @@
       "posted_at": "2026-08-10",
       "age": "45d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "cfab04505d542392",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Software Defined Networking",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Austin, Texas, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-06-16",
-      "age": "69d",
-      "collected_at": "2026-08-24T14:58:44Z",
       "tags": [
         "software",
         "programming",
