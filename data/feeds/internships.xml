@@ -4,7 +4,7 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Mon, 24 Aug 2026 21:46:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 22:46:17 GMT</lastBuildDate>
     <item>
       <title>Cohere — Software Engineer Intern (Winter 2027)</title>
       <link>https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254</link>
@@ -63,15 +63,15 @@
     </item>
     <item>
       <title>Cloudflare — Software Engineer Intern (Fall 2026)</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845</link>
-      <guid isPermaLink="false">338873061c4c56a9</guid>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855</link>
+      <guid isPermaLink="false">2ea5bd301ce19286</guid>
       <description>In-Office · internship · 0d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cloudflare — Software Engineer Intern (Fall 2026)</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855</link>
-      <guid isPermaLink="false">2ea5bd301ce19286</guid>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845</link>
+      <guid isPermaLink="false">338873061c4c56a9</guid>
       <description>In-Office · internship · 0d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -87,6 +87,13 @@
       <link>https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095</link>
       <guid isPermaLink="false">0bb80c7171a93f1f</guid>
       <description>Boston, Massachusetts, USA; New York, New York, USA · internship · 0d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Figma — Software Engineer Intern (Winter 2027)</title>
+      <link>https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004</link>
+      <guid isPermaLink="false">6468274f2f7ac16a</guid>
+      <description>San Francisco, CA • New York, NY · internship · 0d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -216,13 +223,6 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Figma — Software Engineer Intern (Winter 2027)</title>
-      <link>https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004</link>
-      <guid isPermaLink="false">6468274f2f7ac16a</guid>
-      <description>San Francisco, CA • New York, NY · internship · 5d</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ByteDance — Backend Development Engineer Intern (...</title>
       <link>https://joinbytedance.com/search/7668489218234157365</link>
       <guid isPermaLink="false">0e4485df545670d3</guid>
@@ -321,17 +321,17 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epic Games — Machine Learning Intern - Special Projects - Epic Research Group 🎓</title>
-      <link>https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">37234a7f51864d35</guid>
-      <description>London, UK · internship · 9d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ByteDance — Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓</title>
       <link>https://jobs.bytedance.com/en/position/7670855041951795509/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">5720b9be285a1055</guid>
       <description>Seattle, WA · internship · 10d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic Games — Machine Learning Intern - Special Projects - Epic Research Group 🎓</title>
+      <link>https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">37234a7f51864d35</guid>
+      <description>London, UK · internship · 9d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1030,24 +1030,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineer---Embedded-Power-Management--RDSS-Intern-_JR2023967</link>
       <guid isPermaLink="false">c6e3bc756b119022</guid>
       <description>Taiwan, Taipei · internship · 0d</description>
-    </item>
-    <item>
-      <title>NVIDIA — CUDA Full Stack &amp; AI Test Dev Intern - 2027</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/CUDA-Full-Stack---AI-Test-Dev-Intern---2027_JR2023666-1</link>
-      <guid isPermaLink="false">b5fcc6dd8340ad2c</guid>
-      <description>China, Shanghai · internship · 3d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023639</link>
-      <guid isPermaLink="false">21c78da6f71717a4</guid>
-      <description>China, Shanghai · internship · 3d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023641</link>
-      <guid isPermaLink="false">8d57d3251172d50a</guid>
-      <description>China, Shanghai · internship · 3d</description>
     </item>
     <item>
       <title>Sony — Software Engineer Intern</title>
