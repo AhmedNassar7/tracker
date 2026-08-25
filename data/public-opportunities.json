@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T15:04:20Z",
-  "total": 2571,
+  "generated_at": "2026-08-25T15:59:30Z",
+  "total": 2570,
   "jobs": [
     {
       "id": "92168d38256f213d",
@@ -31,6 +31,21 @@
       "url": "http://block.xyz/careers/jobs/5381210008?gh_jid=5381210008",
       "source": "greenhouse:block",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/block/jobs?content=true"
+    },
+    {
+      "id": "29f0b57f846c161c",
+      "kind": "job",
+      "company": "Cloudflare",
+      "title": "Software Engineer, Enterprise Integrations",
+      "location": "Hybrid",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-25",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8155495?gh_jid=8155495",
+      "source": "greenhouse:cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
       "id": "b6a416b32237e799",
@@ -91,6 +106,36 @@
       "url": "https://careers.duolingo.com/jobs/8745752002?gh_jid=8745752002",
       "source": "greenhouse:duolingo",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/duolingo/jobs?content=true"
+    },
+    {
+      "id": "7d64a59c643ed8a1",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Developer",
+      "location": "Canada",
+      "level": "other",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-25",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8130076&gh_jid=8130076",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true"
+    },
+    {
+      "id": "f283cf683a74a044",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer",
+      "location": "United States",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-08-25",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8069178&gh_jid=8069178",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true"
     },
     {
       "id": "bfebaf631ea2d900",
@@ -333,6 +378,21 @@
       "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
     },
     {
+      "id": "a7b7727796a12f8e",
+      "kind": "job",
+      "company": "Morgan Stanley",
+      "title": "Lead Site Reliability Engineer",
+      "location": "Alpharetta, Georgia, United States of America",
+      "level": "other",
+      "region": "us",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Alpharetta-Georgia-United-States-of-America/SRE-Production-Support-Lead_PT-JR040869",
+      "source": "workday:ms",
+      "source_url": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs"
+    },
+    {
       "id": "ea1e0b83fd35d239",
       "kind": "job",
       "company": "Morgan Stanley",
@@ -404,6 +464,21 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023658",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "cbb50a281c9f91e0",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "GPU Development Tools System Software Engineer",
+      "location": "US, CA, Santa Clara",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Development-Tools-System-Software-Engineer_JR2015871-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -2388,21 +2463,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
     {
-      "id": "338873061c4c56a9",
-      "kind": "job",
-      "company": "Cloudflare",
-      "title": "Software Engineer Intern (Fall 2026)",
-      "location": "In-Office",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-08-24",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845",
-      "source": "greenhouse:cloudflare",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-    },
-    {
       "id": "2ea5bd301ce19286",
       "kind": "job",
       "company": "Cloudflare",
@@ -2414,6 +2474,21 @@
       "date": "1d",
       "posted_at": "2026-08-24",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855",
+      "source": "greenhouse:cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
+    },
+    {
+      "id": "338873061c4c56a9",
+      "kind": "job",
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern (Fall 2026)",
+      "location": "In-Office",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-08-24",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845",
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
     },
@@ -3798,21 +3873,6 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
-      "id": "771bbe90d4cb1f34",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Manager of Software Engineering",
-      "location": "Pune, India",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager-of-Software-Engineering_R-281535",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
       "id": "7363444146c4ba92",
       "kind": "job",
       "company": "Mastercard",
@@ -4394,21 +4454,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "c8787db2e8ccb9ae",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineering Intern, Test Development - 2027",
-      "location": "China, Shanghai",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023649-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -6753,21 +6798,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
     {
-      "id": "bbd861cb95aad6e1",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Cloud Software Engineer, DGXC Data Services",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "0de9814edb00c6c5",
       "kind": "job",
       "company": "NVIDIA",
@@ -7518,21 +7548,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
     },
     {
-      "id": "6ed05561613aeec1",
-      "kind": "job",
-      "company": "Anthropic",
-      "title": "Staff Software Engineer, AI Reliability Engineering",
-      "location": "London, UK",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "2026-08-21",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101173008",
-      "source": "greenhouse:anthropic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
-    },
-    {
       "id": "69e056bd28f26982",
       "kind": "job",
       "company": "Anthropic",
@@ -7544,6 +7559,21 @@
       "date": "4d",
       "posted_at": "2026-08-21",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008",
+      "source": "greenhouse:anthropic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
+    },
+    {
+      "id": "6ed05561613aeec1",
+      "kind": "job",
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, AI Reliability Engineering",
+      "location": "London, UK",
+      "level": "other",
+      "region": "emea",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "2026-08-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101173008",
       "source": "greenhouse:anthropic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
     },
@@ -7698,21 +7728,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
     },
     {
-      "id": "b0c27cfd94fd9ffd",
-      "kind": "job",
-      "company": "Anthropic",
-      "title": "Staff Software Engineer, Inference",
-      "location": "Dublin, IE",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "2026-08-21",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5150472008",
-      "source": "greenhouse:anthropic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
-    },
-    {
       "id": "c9dec937b621f864",
       "kind": "job",
       "company": "Anthropic",
@@ -7724,6 +7739,21 @@
       "date": "4d",
       "posted_at": "2026-08-21",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008",
+      "source": "greenhouse:anthropic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
+    },
+    {
+      "id": "b0c27cfd94fd9ffd",
+      "kind": "job",
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, Inference",
+      "location": "Dublin, IE",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "2026-08-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5150472008",
       "source": "greenhouse:anthropic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
     },
@@ -12166,21 +12196,6 @@
       "url": "https://jobs.ashbyhq.com/substack/110ac422-58fb-461f-b249-9072eff43f3a",
       "source": "ashby:substack",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/substack"
-    },
-    {
-      "id": "7fdb4cbf3452fae1",
-      "kind": "job",
-      "company": "Wise",
-      "title": "Android Engineer- Regional Experience",
-      "location": "London, United Kingdom",
-      "level": "other",
-      "region": "emea",
-      "role_type": "mobile",
-      "date": "6d",
-      "posted_at": "2026-08-19",
-      "url": "https://jobs.smartrecruiters.com/Wise/744000144330269",
-      "source": "smartrecruiters:Wise",
-      "source_url": "https://api.smartrecruiters.com/v1/companies/Wise/postings?limit=100"
     },
     {
       "id": "fd9616418a74cb76",
@@ -16908,36 +16923,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true"
     },
     {
-      "id": "7d64a59c643ed8a1",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Developer",
-      "location": "Canada",
-      "level": "other",
-      "region": "canada",
-      "role_type": "software_engineer",
-      "date": "11d",
-      "posted_at": "2026-08-14",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8130076&gh_jid=8130076",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true"
-    },
-    {
-      "id": "f283cf683a74a044",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer",
-      "location": "United States",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer",
-      "date": "11d",
-      "posted_at": "2026-08-14",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8069178&gh_jid=8069178",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true"
-    },
-    {
       "id": "588943220fea9ab4",
       "kind": "job",
       "company": "Elastic",
@@ -18333,21 +18318,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/webflow/jobs?content=true"
     },
     {
-      "id": "e8aaee1125e832cc",
-      "kind": "job",
-      "company": "Airbnb",
-      "title": "Staff Platform Manager, Payments Regional Growth",
-      "location": "Mexico",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "14d",
-      "posted_at": "2026-08-11",
-      "url": "https://careers.airbnb.com/positions/8120721?gh_jid=8120721",
-      "source": "greenhouse:airbnb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true"
-    },
-    {
       "id": "f8ef52a2739afce1",
       "kind": "job",
       "company": "Airbnb",
@@ -18359,6 +18329,21 @@
       "date": "14d",
       "posted_at": "2026-08-11",
       "url": "https://careers.airbnb.com/positions/8120611?gh_jid=8120611",
+      "source": "greenhouse:airbnb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true"
+    },
+    {
+      "id": "e8aaee1125e832cc",
+      "kind": "job",
+      "company": "Airbnb",
+      "title": "Staff Platform Manager, Payments Regional Growth",
+      "location": "Mexico",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "14d",
+      "posted_at": "2026-08-11",
+      "url": "https://careers.airbnb.com/positions/8120721?gh_jid=8120721",
       "source": "greenhouse:airbnb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true"
     },
@@ -22833,6 +22818,21 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true"
     },
     {
+      "id": "77132cce796551d8",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Software Engineer, Core Platform",
+      "location": "Los Angeles, CA",
+      "level": "other",
+      "region": "us",
+      "role_type": "platform",
+      "date": "27d",
+      "posted_at": "2026-07-29",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8022447",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true"
+    },
+    {
       "id": "8a4effaca641fbe4",
       "kind": "job",
       "company": "Reddit",
@@ -22874,21 +22874,6 @@
       "date": "27d",
       "posted_at": "2026-07-29",
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8022449",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true"
-    },
-    {
-      "id": "77132cce796551d8",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Software Engineer, Core Platform",
-      "location": "Los Angeles, CA",
-      "level": "other",
-      "region": "us",
-      "role_type": "platform",
-      "date": "27d",
-      "posted_at": "2026-07-29",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8022447",
       "source": "greenhouse:reddit",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true"
     },
@@ -29028,21 +29013,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true"
     },
     {
-      "id": "9537e2e0362b4027",
-      "kind": "job",
-      "company": "Notion",
-      "title": "Software Engineer, Product Analytics Platform",
-      "location": "San Francisco, California",
-      "level": "other",
-      "region": "us",
-      "role_type": "platform",
-      "date": "60d",
-      "posted_at": "2026-06-26",
-      "url": "https://jobs.ashbyhq.com/notion/53fb4637-d1d6-4411-8a87-52865db5a11c",
-      "source": "ashby:notion",
-      "source_url": "https://api.ashbyhq.com/posting-api/job-board/notion"
-    },
-    {
       "id": "45c08806081c9f17",
       "kind": "job",
       "company": "Openai",
@@ -30558,21 +30528,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/clickhouse"
     },
     {
-      "id": "c6e69af605bd2478",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Software Engineer, Ads",
-      "location": "Remote - United States",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "99d",
-      "posted_at": "2026-05-18",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/6469397",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true"
-    },
-    {
       "id": "26cbf983a2f6c72d",
       "kind": "job",
       "company": "Reddit",
@@ -30584,6 +30539,21 @@
       "date": "99d",
       "posted_at": "2026-05-18",
       "url": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true"
+    },
+    {
+      "id": "c6e69af605bd2478",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Software Engineer, Ads",
+      "location": "Remote - United States",
+      "level": "other",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "99d",
+      "posted_at": "2026-05-18",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/6469397",
       "source": "greenhouse:reddit",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true"
     },
@@ -34488,6 +34458,21 @@
       "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
     },
     {
+      "id": "003ed7573967f1cd",
+      "kind": "job",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer - AUS Government",
+      "location": "Sydney, Australia",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "719d",
+      "posted_at": "2024-09-05",
+      "url": "https://jobs.lever.co/palantir/909875b4-1940-41bd-b08d-a269c7235100",
+      "source": "lever:palantir",
+      "source_url": "https://api.lever.co/v0/postings/palantir?mode=json"
+    },
+    {
       "id": "e19270a7a5de5e40",
       "kind": "job",
       "company": "Palantir",
@@ -35800,7 +35785,7 @@
       "company": "CreateHER Fest",
       "title": "DIALED IN Builder Challenge",
       "location": "The Hub @ Office Logic",
-      "date": "15 days left",
+      "date": "26 days left",
       "posted_at": "2026-08-25",
       "url": "https://dialedin.devpost.com/",
       "source": "devpost",
@@ -36688,7 +36673,7 @@
       "company": "Hack Club",
       "title": "Graphiques Innovation Challenge",
       "location": "Online",
-      "date": "about 6 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-08-25",
       "url": "https://graphiques-challenge.devpost.com/",
       "source": "devpost",
@@ -36700,7 +36685,7 @@
       "company": "Hack for Humanity",
       "title": "Hack for Humanity | Summer 2026 (+13 non-cash prizes)",
       "location": "Online",
-      "date": "11 days left",
+      "date": "10 days left",
       "posted_at": "2026-08-25",
       "url": "https://hack-for-humanity-summer-26.devpost.com/",
       "source": "devpost",

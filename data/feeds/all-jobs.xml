@@ -4,33 +4,12 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Tue, 25 Aug 2026 15:07:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 16:02:59 GMT</lastBuildDate>
     <item>
       <title>Cohere — Software Engineer Intern (Winter 2027)</title>
       <link>https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254</link>
       <guid isPermaLink="false">4c6a5bad81ca99ee</guid>
       <description>Canada · internship · 0d</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, New Grad - Product...</title>
-      <link>https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6</link>
-      <guid isPermaLink="false">8c0b6a275a676493</guid>
-      <description>Washington, D.C. · new_grad · 0d</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, New Grad - Product...</title>
-      <link>https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af</link>
-      <guid isPermaLink="false">222260aec118fe33</guid>
-      <description>Seattle, WA · new_grad · 0d</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, New Grad - Product...</title>
-      <link>https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a</link>
-      <guid isPermaLink="false">02b43ee80c10fd44</guid>
-      <description>New York, NY · new_grad · 0d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -90,6 +69,13 @@
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Cloudflare — Software Engineer, Enterprise Integrations</title>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8155495?gh_jid=8155495</link>
+      <guid isPermaLink="false">29f0b57f846c161c</guid>
+      <description>Hybrid · other · 0d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Coinbase — Senior Analytics Engineer (Platform - Financial Analytics)</title>
       <link>https://www.coinbase.com/careers/positions/7736521?gh_jid=7736521</link>
       <guid isPermaLink="false">b6a416b32237e799</guid>
@@ -115,6 +101,20 @@
       <link>https://careers.duolingo.com/jobs/8745752002?gh_jid=8745752002</link>
       <guid isPermaLink="false">d88b81e0c12dfa94</guid>
       <description>Pittsburgh, PA · other · 0d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Developer</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8130076&amp;gh_jid=8130076</link>
+      <guid isPermaLink="false">7d64a59c643ed8a1</guid>
+      <description>Canada · other · 0d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8069178&amp;gh_jid=8069178</link>
+      <guid isPermaLink="false">f283cf683a74a044</guid>
+      <description>United States · other · 0d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1141,15 +1141,15 @@
     </item>
     <item>
       <title>Cloudflare — Software Engineer Intern (Fall 2026)</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845</link>
-      <guid isPermaLink="false">338873061c4c56a9</guid>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855</link>
+      <guid isPermaLink="false">2ea5bd301ce19286</guid>
       <description>In-Office · internship · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cloudflare — Software Engineer Intern (Fall 2026)</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855</link>
-      <guid isPermaLink="false">2ea5bd301ce19286</guid>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845</link>
+      <guid isPermaLink="false">338873061c4c56a9</guid>
       <description>In-Office · internship · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3290,16 +3290,16 @@
     </item>
     <item>
       <title>Anthropic — Staff Software Engineer, AI Reliability Engineering</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101173008</link>
-      <guid isPermaLink="false">6ed05561613aeec1</guid>
-      <description>London, UK · other · 4d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101169008</link>
+      <guid isPermaLink="false">69e056bd28f26982</guid>
+      <description>Dublin, IE · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic — Staff Software Engineer, AI Reliability Engineering</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101169008</link>
-      <guid isPermaLink="false">69e056bd28f26982</guid>
-      <description>Dublin, IE · other · 4d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101173008</link>
+      <guid isPermaLink="false">6ed05561613aeec1</guid>
+      <description>London, UK · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3374,16 +3374,16 @@
     </item>
     <item>
       <title>Anthropic — Staff Software Engineer, Inference</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5150472008</link>
-      <guid isPermaLink="false">b0c27cfd94fd9ffd</guid>
-      <description>Dublin, IE · other · 4d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5097742008</link>
+      <guid isPermaLink="false">c9dec937b621f864</guid>
+      <description>London, UK · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic — Staff Software Engineer, Inference</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5097742008</link>
-      <guid isPermaLink="false">c9dec937b621f864</guid>
-      <description>London, UK · other · 4d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5150472008</link>
+      <guid isPermaLink="false">b0c27cfd94fd9ffd</guid>
+      <description>Dublin, IE · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5498,13 +5498,6 @@
       <link>https://jobs.ashbyhq.com/substack/110ac422-58fb-461f-b249-9072eff43f3a</link>
       <guid isPermaLink="false">3fbb14213ff23342</guid>
       <description>San Francisco (HQ) · other · 6d</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wise — Android Engineer- Regional Experience</title>
-      <link>https://jobs.smartrecruiters.com/Wise/744000144330269</link>
-      <guid isPermaLink="false">7fdb4cbf3452fae1</guid>
-      <description>London, United Kingdom · other · 6d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7958,20 +7951,6 @@
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Elastic — Senior Software Developer</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8130076&amp;gh_jid=8130076</link>
-      <guid isPermaLink="false">7d64a59c643ed8a1</guid>
-      <description>Canada · other · 11d</description>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8069178&amp;gh_jid=8069178</link>
-      <guid isPermaLink="false">f283cf683a74a044</guid>
-      <description>United States · other · 11d</description>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
       <link>https://jobs.elastic.co/jobs?gh_jid=8131025&amp;gh_jid=8131025</link>
       <guid isPermaLink="false">588943220fea9ab4</guid>
@@ -8645,16 +8624,16 @@
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
-      <guid isPermaLink="false">e8aaee1125e832cc</guid>
-      <description>Mexico · other · 14d</description>
+      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
+      <guid isPermaLink="false">f8ef52a2739afce1</guid>
+      <description>Brazil · other · 14d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
-      <guid isPermaLink="false">f8ef52a2739afce1</guid>
-      <description>Brazil · other · 14d</description>
+      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
+      <guid isPermaLink="false">e8aaee1125e832cc</guid>
+      <description>Mexico · other · 14d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11515,6 +11494,13 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Core Platform</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8022447</link>
+      <guid isPermaLink="false">77132cce796551d8</guid>
+      <description>Los Angeles, CA · other · 27d</description>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Software Engineer, Core Platform</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8022446</link>
       <guid isPermaLink="false">8a4effaca641fbe4</guid>
       <description>San Francisco, CA · other · 27d</description>
@@ -11532,13 +11518,6 @@
       <link>https://job-boards.greenhouse.io/reddit/jobs/8022449</link>
       <guid isPermaLink="false">7e3e5d9445a8e52c</guid>
       <description>New York City, NY · other · 27d</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Software Engineer, Core Platform</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8022447</link>
-      <guid isPermaLink="false">77132cce796551d8</guid>
-      <description>Los Angeles, CA · other · 27d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14398,13 +14377,6 @@
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Notion — Software Engineer, Product Analytics Platform</title>
-      <link>https://jobs.ashbyhq.com/notion/53fb4637-d1d6-4411-8a87-52865db5a11c</link>
-      <guid isPermaLink="false">9537e2e0362b4027</guid>
-      <description>San Francisco, California · other · 60d</description>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Openai — Senior Software Engineer - Research Platform, Consumer Devices</title>
       <link>https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d</link>
       <guid isPermaLink="false">45c08806081c9f17</guid>
@@ -15127,16 +15099,16 @@
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
-      <guid isPermaLink="false">c6e69af605bd2478</guid>
-      <description>Remote - United States · other · 99d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
+      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
+      <description>Remote - Ontario, Canada · other · 99d</description>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
-      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
-      <description>Remote - Ontario, Canada · other · 99d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
+      <guid isPermaLink="false">c6e69af605bd2478</guid>
+      <description>Remote - United States · other · 99d</description>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -16995,6 +16967,13 @@
       <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Palantir — Forward Deployed Software Engineer - AUS Government</title>
+      <link>https://jobs.lever.co/palantir/909875b4-1940-41bd-b08d-a269c7235100</link>
+      <guid isPermaLink="false">003ed7573967f1cd</guid>
+      <description>Sydney, Australia · other · 719d</description>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Palantir — Software Engineer - Environment Platform</title>
       <link>https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497</link>
       <guid isPermaLink="false">e19270a7a5de5e40</guid>
@@ -17530,6 +17509,12 @@
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;44 locations&lt;/strong&gt;&lt;/summary&gt;Alpharetta, Georgia, United States of America&lt;br&gt;Home - Alabama (United States)&lt;br&gt;Home - Arkansas (United States)&lt;br&gt;Home - Arizona (United States)&lt;br&gt;Home - Colorado (United States)&lt;br&gt;Home - Delaware (United States)&lt;br&gt;Home - Florida (United States)&lt;br&gt;Home - Georgia (United States)&lt;br&gt;Home - Iowa (United States)&lt;br&gt;Home - Idaho (United States)&lt;br&gt;Home - Illinois (United States)&lt;br&gt;Home - Indiana (United States)&lt;br&gt;Home - Kansas (United States)&lt;br&gt;Home - Kentucky (United States)&lt;br&gt;Home - Louisiana (United States)&lt;br&gt;Home - Massachusetts (United States)&lt;br&gt;Home - Maryland (United States)&lt;br&gt;Home - Maine (United States)&lt;br&gt;Home - Michigan (United States)&lt;br&gt;Home - Minnesota (United States)&lt;br&gt;Home - Missouri (United States)&lt;br&gt;Home - Mississippi (United States)&lt;br&gt;Home - Montana (United States)&lt;br&gt;Home - North Carolina (United States)&lt;br&gt;Home - North Dakota (United States)&lt;br&gt;Home - Nebraska (United States)&lt;br&gt;Home - New Hampshire (United States)&lt;br&gt;Home - New Mexico (United States)&lt;br&gt;Home - Nevada (United States)&lt;br&gt;Home - Ohio (United States)&lt;br&gt;Home - Oklahoma (United States)&lt;br&gt;Home - Oregon (United States)&lt;br&gt;Home - Pennsylvania (United States)&lt;br&gt;Home - Rhode Island (United States)&lt;br&gt;Home - South Carolina (United States)&lt;br&gt;Home - South Dakota (United States)&lt;br&gt;Home - Tennessee (United States)&lt;br&gt;Home - Texas (United States)&lt;br&gt;Home - Utah (United States)&lt;br&gt;Home - Virginia (United States)&lt;br&gt;Home - Vermont (United States)&lt;br&gt;Home - Wisconsin (United States)&lt;br&gt;Home - West Virginia (United States)&lt;br&gt;Home - Wyoming (United States)&lt;/details&gt; · other · 0d</description>
     </item>
     <item>
+      <title>Morgan Stanley — Lead Site Reliability Engineer</title>
+      <link>https://ms.wd5.myworkdayjobs.com/External/job/Alpharetta-Georgia-United-States-of-America/SRE-Production-Support-Lead_PT-JR040869</link>
+      <guid isPermaLink="false">a7b7727796a12f8e</guid>
+      <description>Alpharetta, Georgia, United States of America · other · 0d</description>
+    </item>
+    <item>
       <title>Morgan Stanley — Principal Software Engineer - Parametric</title>
       <link>https://ms.wd5.myworkdayjobs.com/External/job/Mumbai-India/Lead-Software-Engineer---Parametric_PT-JR038438-1</link>
       <guid isPermaLink="false">ea1e0b83fd35d239</guid>
@@ -17552,6 +17537,12 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023658</link>
       <guid isPermaLink="false">d190500e6eae8db5</guid>
       <description>China, Shanghai · internship · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — GPU Development Tools System Software Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Development-Tools-System-Software-Engineer_JR2015871-1</link>
+      <guid isPermaLink="false">cbb50a281c9f91e0</guid>
+      <description>US, CA, Santa Clara · other · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer - AUTOSAR</title>
@@ -17587,12 +17578,6 @@
       <title>Mastercard — Lead Software Engineer - Java development</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Quality-Engineer---Automation-Testing---Java-Coding_R-270159</link>
       <guid isPermaLink="false">2b5473fa81c1db6e</guid>
-      <description>Pune, India · other · 1d</description>
-    </item>
-    <item>
-      <title>Mastercard — Manager of Software Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager-of-Software-Engineering_R-281535</link>
-      <guid isPermaLink="false">771bbe90d4cb1f34</guid>
       <description>Pune, India · other · 1d</description>
     </item>
     <item>
@@ -17788,12 +17773,6 @@
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;4 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, NC, Remote&lt;br&gt;US, TX, Remote&lt;br&gt;US, CA, Remote&lt;/details&gt; · other · 1d</description>
     </item>
     <item>
-      <title>NVIDIA — Software Engineering Intern, Test Development - 2027</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023649-1</link>
-      <guid isPermaLink="false">c8787db2e8ccb9ae</guid>
-      <description>China, Shanghai · internship · 1d</description>
-    </item>
-    <item>
       <title>NVIDIA — Software Engineering Manager - GPU Communications Libraries</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Manager---GPU-Communications-Libraries_JR1980109</link>
       <guid isPermaLink="false">bc7c7b9957619719</guid>
@@ -17816,12 +17795,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-IL-Champaign/System-Software-Engineer--Multi-Node-Analysis_JR2023603</link>
       <guid isPermaLink="false">086d3a32cd3b94ea</guid>
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;3 locations&lt;/strong&gt;&lt;/summary&gt;US, IL, Champaign&lt;br&gt;US, TX, Austin&lt;br&gt;US, WA, Redmond&lt;/details&gt; · other · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Cloud Software Engineer, DGXC Data Services</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389</link>
-      <guid isPermaLink="false">bbd861cb95aad6e1</guid>
-      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, Remote&lt;/details&gt; · other · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Cloud-Native Stack – CSP Engagements</title>
