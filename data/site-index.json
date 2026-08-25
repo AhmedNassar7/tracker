@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T03:15:12Z",
-  "count": 2779,
-  "checksum": "sha256:6dc3b4c1e03385056c90960a6e9229c7e83015b0d3064d8e1d03b2f9255a251b",
+  "generated_at": "2026-08-25T04:02:46Z",
+  "count": 2780,
+  "checksum": "sha256:36e47fae68547864a42da894e1d5fc060669cf38ae38382e9ffb5fa5cf631335",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -656,11 +656,11 @@
       "company": "Cohere",
       "title": "Software Engineer Intern (Winter 2027)",
       "location": "Canada",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254",
       "age": "0d",
-      "posted_at": "2026-08-24",
+      "posted_at": "2026-08-25",
       "level": "internship",
       "region": "canada",
       "role_type": "software_engineer",
@@ -1313,63 +1313,6 @@
       "category": "product_saas",
       "remote_type": "onsite",
       "country": "United States"
-    },
-    {
-      "id": "35785393474d5bd5",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Defense",
-      "location": "New York, NY",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
-      "age": "0d",
-      "posted_at": "2026-08-25",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "a3f5f8cd724a3149",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Defense",
-      "location": "Washington, D.C.",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79",
-      "age": "0d",
-      "posted_at": "2026-08-25",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "ab00771a4543207c",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Defense",
-      "location": "Palo Alto, CA",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3",
-      "age": "0d",
-      "posted_at": "2026-08-25",
-      "level": "new_grad",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "category": "product_saas",
-      "remote_type": "onsite",
-      "country": "Unknown"
     },
     {
       "id": "2ee142b47bfc9198",
@@ -4454,6 +4397,22 @@
       "role_type": "software_engineer"
     },
     {
+      "id": "dc2c91338c487155",
+      "kind": "job",
+      "origin": "public",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Service Tools",
+      "location": "USA",
+      "source": "greenhouse:airbnb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+      "url": "https://careers.airbnb.com/positions/8154739?gh_jid=8154739",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer"
+    },
+    {
       "id": "ccc2ba87cd25e183",
       "kind": "job",
       "origin": "public",
@@ -5235,22 +5194,6 @@
       "posted_at": "2026-08-24",
       "level": "other",
       "region": "remote",
-      "role_type": "platform"
-    },
-    {
-      "id": "044c797a0c023da2",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "[쿠팡] 로켓배송 셀렉션 플래닝 운영기획 (Platform Biz Intelligence)",
-      "location": "Seoul, South Korea",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8073848",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "unknown",
       "role_type": "platform"
     },
     {
@@ -11718,22 +11661,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "abfb9b53fa47ee03",
-      "kind": "job",
-      "origin": "public",
-      "company": "Anthropic",
-      "title": "Staff + Senior Software Engineer, Inference",
-      "location": "Ontario, CAN",
-      "source": "greenhouse:anthropic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385998008",
-      "age": "4d",
-      "posted_at": "2026-08-21",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "c8c6312c5fa1c54b",
       "kind": "job",
       "origin": "public",
@@ -11747,6 +11674,22 @@
       "posted_at": "2026-08-21",
       "level": "other",
       "region": "us",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "abfb9b53fa47ee03",
+      "kind": "job",
+      "origin": "public",
+      "company": "Anthropic",
+      "title": "Staff + Senior Software Engineer, Inference",
+      "location": "Ontario, CAN",
+      "source": "greenhouse:anthropic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385998008",
+      "age": "4d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "unknown",
       "role_type": "software_engineer"
     },
     {
@@ -20326,22 +20269,6 @@
       "role_type": "backend"
     },
     {
-      "id": "0b21a553f67f1879",
-      "kind": "job",
-      "origin": "public",
-      "company": "Stripe",
-      "title": "Backend/API Engineer, Money as a Service",
-      "location": "United Kingdom",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
-      "age": "7d",
-      "posted_at": "2026-08-18",
-      "level": "other",
-      "region": "emea",
-      "role_type": "backend"
-    },
-    {
       "id": "411683c4787fd798",
       "kind": "job",
       "origin": "public",
@@ -20355,6 +20282,22 @@
       "posted_at": "2026-08-18",
       "level": "other",
       "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "0b21a553f67f1879",
+      "kind": "job",
+      "origin": "public",
+      "company": "Stripe",
+      "title": "Backend/API Engineer, Money as a Service",
+      "location": "United Kingdom",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
+      "age": "7d",
+      "posted_at": "2026-08-18",
+      "level": "other",
+      "region": "emea",
       "role_type": "backend"
     },
     {
@@ -23478,22 +23421,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "f8ef52a2739afce1",
-      "kind": "job",
-      "origin": "public",
-      "company": "Airbnb",
-      "title": "Staff Platform Manager, Payments Regional Growth",
-      "location": "Brazil",
-      "source": "greenhouse:airbnb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
-      "url": "https://careers.airbnb.com/positions/8120611?gh_jid=8120611",
-      "age": "14d",
-      "posted_at": "2026-08-11",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform"
-    },
-    {
       "id": "e8aaee1125e832cc",
       "kind": "job",
       "origin": "public",
@@ -23503,6 +23430,22 @@
       "source": "greenhouse:airbnb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
       "url": "https://careers.airbnb.com/positions/8120721?gh_jid=8120721",
+      "age": "14d",
+      "posted_at": "2026-08-11",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform"
+    },
+    {
+      "id": "f8ef52a2739afce1",
+      "kind": "job",
+      "origin": "public",
+      "company": "Airbnb",
+      "title": "Staff Platform Manager, Payments Regional Growth",
+      "location": "Brazil",
+      "source": "greenhouse:airbnb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
+      "url": "https://careers.airbnb.com/positions/8120611?gh_jid=8120611",
       "age": "14d",
       "posted_at": "2026-08-11",
       "level": "other",
@@ -23590,22 +23533,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "61886914b79d3014",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Senior Staff Backend Engineer (Pricing)",
-      "location": "Seattle, USA",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8120779",
-      "age": "14d",
-      "posted_at": "2026-08-11",
-      "level": "other",
-      "region": "us",
-      "role_type": "backend"
-    },
-    {
       "id": "96d4328278803111",
       "kind": "job",
       "origin": "public",
@@ -23615,6 +23542,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8123934",
+      "age": "14d",
+      "posted_at": "2026-08-11",
+      "level": "other",
+      "region": "us",
+      "role_type": "backend"
+    },
+    {
+      "id": "61886914b79d3014",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Senior Staff Backend Engineer (Pricing)",
+      "location": "Seattle, USA",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8120779",
       "age": "14d",
       "posted_at": "2026-08-11",
       "level": "other",
@@ -27270,22 +27213,6 @@
       "role_type": "backend"
     },
     {
-      "id": "2fe478ff8cc06e45",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Staff Back-end Engineer",
-      "location": "Hyderabad",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892757",
-      "age": "25d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
       "id": "b09f34f6077eca0a",
       "kind": "job",
       "origin": "public",
@@ -27302,6 +27229,22 @@
       "role_type": "backend"
     },
     {
+      "id": "2fe478ff8cc06e45",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Staff Back-end Engineer",
+      "location": "Hyderabad",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892757",
+      "age": "25d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
       "id": "56ac177293055766",
       "kind": "job",
       "origin": "public",
@@ -27311,22 +27254,6 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8090538",
-      "age": "25d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
-      "id": "71187b4892e1f07a",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Bengaluru",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
       "age": "25d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -27359,6 +27286,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8095677",
+      "age": "25d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "71187b4892e1f07a",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer",
+      "location": "Bengaluru",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
       "age": "25d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -41817,7 +41760,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://adtc-2026.devpost.com/",
-      "age": "about 4 hours left",
+      "age": "about 3 hours left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42012,7 +41955,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://call-e.devpost.com/",
-      "age": "21 days left",
+      "age": "20 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42233,7 +42176,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://define4.devfolio.co",
-      "age": "46 days left",
+      "age": "45 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42415,7 +42358,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hackify-3.devfolio.co",
-      "age": "47 days left",
+      "age": "46 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42740,7 +42683,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://venture-26.devfolio.co",
-      "age": "17 days left",
+      "age": "16 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -43741,7 +43684,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/fusion-x-10-24-hour-hackathon-paavai-engineering-college-pec-namakkal-1743196",
-      "age": "25 days left",
+      "age": "24 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -44408,6 +44351,32 @@
       "posted_at": "2026-08-25"
     },
     {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "url": "https://lu.ma/sf-hackersquad?k=c",
+      "age": "",
+      "posted_at": "2026-08-25"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "url": "https://lu.ma/genai-sf?k=c",
+      "age": "",
+      "posted_at": "2026-08-25"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "origin": "public",
@@ -44434,6 +44403,19 @@
       "posted_at": "2026-08-25"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "url": "https://lu.ma/frontiertower?k=c",
+      "age": "",
+      "posted_at": "2026-08-25"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "origin": "public",
@@ -44443,6 +44425,19 @@
       "source": "luma",
       "source_url": "https://luma.com/discover",
       "url": "https://lu.ma/deepmind?k=c",
+      "age": "",
+      "posted_at": "2026-08-25"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "origin": "public",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "source": "luma",
+      "source_url": "https://luma.com/discover",
+      "url": "https://lu.ma/sf-hardware-meetup?k=c",
       "age": "",
       "posted_at": "2026-08-25"
     }

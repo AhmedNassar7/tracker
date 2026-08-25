@@ -4,26 +4,12 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Tue, 25 Aug 2026 03:15:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 04:02:46 GMT</lastBuildDate>
     <item>
-      <title>Palantir — Software Engineer, New Grad - Defense</title>
-      <link>https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278</link>
-      <guid isPermaLink="false">35785393474d5bd5</guid>
-      <description>New York, NY · new_grad · 0d</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, New Grad - Defense</title>
-      <link>https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79</link>
-      <guid isPermaLink="false">a3f5f8cd724a3149</guid>
-      <description>Washington, D.C. · new_grad · 0d</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, New Grad - Defense</title>
-      <link>https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3</link>
-      <guid isPermaLink="false">ab00771a4543207c</guid>
-      <description>Palo Alto, CA · new_grad · 0d</description>
+      <title>Cohere — Software Engineer Intern (Winter 2027)</title>
+      <link>https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254</link>
+      <guid isPermaLink="false">4c6a5bad81ca99ee</guid>
+      <description>Canada · internship · 0d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -31,13 +17,6 @@
       <link>https://joinbytedance.com/search/7671158113903937797</link>
       <guid isPermaLink="false">290f32f0afe650c5</guid>
       <description>San Jose, California · new_grad · 0d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cohere — Software Engineer Intern (Winter 2027)</title>
-      <link>https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254</link>
-      <guid isPermaLink="false">4c6a5bad81ca99ee</guid>
-      <description>Canada · internship · 0d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -108,6 +87,13 @@
       <link>https://jobs.bytedance.com/en/position/7670778018960542005/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">16cf2b070fa13f44</guid>
       <description>San Jose, CA · internship · 17d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Staff Software Engineer, Service Tools</title>
+      <link>https://careers.airbnb.com/positions/8154739?gh_jid=8154739</link>
+      <guid isPermaLink="false">dc2c91338c487155</guid>
+      <description>USA · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -451,13 +437,6 @@
       <link>https://www.coinbase.com/careers/positions/8148248?gh_jid=8148248</link>
       <guid isPermaLink="false">c6cd01e5a47fddc9</guid>
       <description>Remote - USA · other · 1d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — [쿠팡] 로켓배송 셀렉션 플래닝 운영기획 (Platform Biz Intelligence)</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8073848</link>
-      <guid isPermaLink="false">044c797a0c023da2</guid>
-      <description>Seoul, South Korea · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3164,16 +3143,16 @@
     </item>
     <item>
       <title>Anthropic — Staff + Senior Software Engineer, Inference</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5385998008</link>
-      <guid isPermaLink="false">abfb9b53fa47ee03</guid>
-      <description>Ontario, CAN · other · 4d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5245851008</link>
+      <guid isPermaLink="false">c8c6312c5fa1c54b</guid>
+      <description>San Francisco, CA | New York City, NY | Seattle, WA · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic — Staff + Senior Software Engineer, Inference</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5245851008</link>
-      <guid isPermaLink="false">c8c6312c5fa1c54b</guid>
-      <description>San Francisco, CA | New York City, NY | Seattle, WA · other · 4d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5385998008</link>
+      <guid isPermaLink="false">abfb9b53fa47ee03</guid>
+      <description>Ontario, CAN · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7021,16 +7000,16 @@
     </item>
     <item>
       <title>Stripe — Backend/API Engineer, Money as a Service</title>
-      <link>https://stripe.com/jobs/search?gh_jid=7369543</link>
-      <guid isPermaLink="false">0b21a553f67f1879</guid>
-      <description>United Kingdom · other · 7d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=6176758</link>
+      <guid isPermaLink="false">411683c4787fd798</guid>
+      <description>US · other · 7d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Backend/API Engineer, Money as a Service</title>
-      <link>https://stripe.com/jobs/search?gh_jid=6176758</link>
-      <guid isPermaLink="false">411683c4787fd798</guid>
-      <description>US · other · 7d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=7369543</link>
+      <guid isPermaLink="false">0b21a553f67f1879</guid>
+      <description>United Kingdom · other · 7d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8631,16 +8610,16 @@
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
-      <guid isPermaLink="false">f8ef52a2739afce1</guid>
-      <description>Brazil · other · 14d</description>
+      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
+      <guid isPermaLink="false">e8aaee1125e832cc</guid>
+      <description>Mexico · other · 14d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
-      <guid isPermaLink="false">e8aaee1125e832cc</guid>
-      <description>Mexico · other · 14d</description>
+      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
+      <guid isPermaLink="false">f8ef52a2739afce1</guid>
+      <description>Brazil · other · 14d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8680,16 +8659,16 @@
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer (Pricing)</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8120779</link>
-      <guid isPermaLink="false">61886914b79d3014</guid>
-      <description>Seattle, USA · other · 14d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8123934</link>
+      <guid isPermaLink="false">96d4328278803111</guid>
+      <description>Mountain View, USA · other · 14d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer (Pricing)</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8123934</link>
-      <guid isPermaLink="false">96d4328278803111</guid>
-      <description>Mountain View, USA · other · 14d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8120779</link>
+      <guid isPermaLink="false">61886914b79d3014</guid>
+      <description>Seattle, USA · other · 14d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11074,15 +11053,15 @@
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
-      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
+      <guid isPermaLink="false">b09f34f6077eca0a</guid>
       <description>Hyderabad · other · 25d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
-      <guid isPermaLink="false">b09f34f6077eca0a</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
+      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
       <description>Hyderabad · other · 25d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -11091,13 +11070,6 @@
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8090538</link>
       <guid isPermaLink="false">56ac177293055766</guid>
       <description>Seoul, South Korea · other · 25d</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
-      <guid isPermaLink="false">71187b4892e1f07a</guid>
-      <description>Bengaluru · other · 25d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11111,6 +11083,13 @@
       <title>Coupang — Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8095677</link>
       <guid isPermaLink="false">d47df4948fc5bb81</guid>
+      <description>Bengaluru · other · 25d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
+      <guid isPermaLink="false">71187b4892e1f07a</guid>
       <description>Bengaluru · other · 25d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
