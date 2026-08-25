@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T03:12:19Z",
-  "total": 2581,
+  "generated_at": "2026-08-25T04:00:03Z",
+  "total": 2585,
   "jobs": [
     {
       "id": "b42d013abe0e6d80",
@@ -646,6 +646,21 @@
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-IL-Champaign/System-Software-Engineer--Multi-Node-Analysis_JR2023603",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "dc2c91338c487155",
+      "kind": "job",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Service Tools",
+      "location": "USA",
+      "level": "other",
+      "region": "us",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-08-24",
+      "url": "https://careers.airbnb.com/positions/8154739?gh_jid=8154739",
+      "source": "greenhouse:airbnb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true"
     },
     {
       "id": "ccc2ba87cd25e183",
@@ -1381,21 +1396,6 @@
       "url": "https://www.coinbase.com/careers/positions/8148248?gh_jid=8148248",
       "source": "greenhouse:coinbase",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true"
-    },
-    {
-      "id": "044c797a0c023da2",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "[쿠팡] 로켓배송 셀렉션 플래닝 운영기획 (Platform Biz Intelligence)",
-      "location": "Seoul, South Korea",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "2026-08-24",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8073848",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
     {
       "id": "a78465d963f0c3d3",
@@ -7458,21 +7458,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
     },
     {
-      "id": "abfb9b53fa47ee03",
-      "kind": "job",
-      "company": "Anthropic",
-      "title": "Staff + Senior Software Engineer, Inference",
-      "location": "Ontario, CAN",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "2026-08-21",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385998008",
-      "source": "greenhouse:anthropic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
-    },
-    {
       "id": "c8c6312c5fa1c54b",
       "kind": "job",
       "company": "Anthropic",
@@ -7484,6 +7469,21 @@
       "date": "4d",
       "posted_at": "2026-08-21",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5245851008",
+      "source": "greenhouse:anthropic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
+    },
+    {
+      "id": "abfb9b53fa47ee03",
+      "kind": "job",
+      "company": "Anthropic",
+      "title": "Staff + Senior Software Engineer, Inference",
+      "location": "Ontario, CAN",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "2026-08-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385998008",
       "source": "greenhouse:anthropic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
     },
@@ -15528,21 +15528,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
     {
-      "id": "0b21a553f67f1879",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Backend/API Engineer, Money as a Service",
-      "location": "United Kingdom",
-      "level": "other",
-      "region": "emea",
-      "role_type": "backend",
-      "date": "7d",
-      "posted_at": "2026-08-18",
-      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
-    },
-    {
       "id": "411683c4787fd798",
       "kind": "job",
       "company": "Stripe",
@@ -15554,6 +15539,21 @@
       "date": "7d",
       "posted_at": "2026-08-18",
       "url": "https://stripe.com/jobs/search?gh_jid=6176758",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
+    },
+    {
+      "id": "0b21a553f67f1879",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Backend/API Engineer, Money as a Service",
+      "location": "United Kingdom",
+      "level": "other",
+      "region": "emea",
+      "role_type": "backend",
+      "date": "7d",
+      "posted_at": "2026-08-18",
+      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
@@ -18483,21 +18483,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/webflow/jobs?content=true"
     },
     {
-      "id": "f8ef52a2739afce1",
-      "kind": "job",
-      "company": "Airbnb",
-      "title": "Staff Platform Manager, Payments Regional Growth",
-      "location": "Brazil",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "14d",
-      "posted_at": "2026-08-11",
-      "url": "https://careers.airbnb.com/positions/8120611?gh_jid=8120611",
-      "source": "greenhouse:airbnb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true"
-    },
-    {
       "id": "e8aaee1125e832cc",
       "kind": "job",
       "company": "Airbnb",
@@ -18509,6 +18494,21 @@
       "date": "14d",
       "posted_at": "2026-08-11",
       "url": "https://careers.airbnb.com/positions/8120721?gh_jid=8120721",
+      "source": "greenhouse:airbnb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true"
+    },
+    {
+      "id": "f8ef52a2739afce1",
+      "kind": "job",
+      "company": "Airbnb",
+      "title": "Staff Platform Manager, Payments Regional Growth",
+      "location": "Brazil",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "14d",
+      "posted_at": "2026-08-11",
+      "url": "https://careers.airbnb.com/positions/8120611?gh_jid=8120611",
       "source": "greenhouse:airbnb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true"
     },
@@ -18588,21 +18588,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
-      "id": "61886914b79d3014",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Senior Staff Backend Engineer (Pricing)",
-      "location": "Seattle, USA",
-      "level": "other",
-      "region": "us",
-      "role_type": "backend",
-      "date": "14d",
-      "posted_at": "2026-08-11",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8120779",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
-    },
-    {
       "id": "96d4328278803111",
       "kind": "job",
       "company": "Coupang",
@@ -18614,6 +18599,21 @@
       "date": "14d",
       "posted_at": "2026-08-11",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8123934",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
+    },
+    {
+      "id": "61886914b79d3014",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Senior Staff Backend Engineer (Pricing)",
+      "location": "Seattle, USA",
+      "level": "other",
+      "region": "us",
+      "role_type": "backend",
+      "date": "14d",
+      "posted_at": "2026-08-11",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8120779",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
@@ -22038,21 +22038,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
     {
-      "id": "2fe478ff8cc06e45",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Back-end Engineer",
-      "location": "Hyderabad",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend",
-      "date": "25d",
-      "posted_at": "2026-07-31",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892757",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
-    },
-    {
       "id": "b09f34f6077eca0a",
       "kind": "job",
       "company": "Coupang",
@@ -22068,6 +22053,21 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
     {
+      "id": "2fe478ff8cc06e45",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Staff Back-end Engineer",
+      "location": "Hyderabad",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend",
+      "date": "25d",
+      "posted_at": "2026-07-31",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892757",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
+    },
+    {
       "id": "56ac177293055766",
       "kind": "job",
       "company": "Coupang",
@@ -22079,21 +22079,6 @@
       "date": "25d",
       "posted_at": "2026-07-31",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8090538",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
-    },
-    {
-      "id": "71187b4892e1f07a",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Bengaluru",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend",
-      "date": "25d",
-      "posted_at": "2026-07-31",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
@@ -22124,6 +22109,21 @@
       "date": "25d",
       "posted_at": "2026-07-31",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8095677",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
+    },
+    {
+      "id": "71187b4892e1f07a",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer",
+      "location": "Bengaluru",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend",
+      "date": "25d",
+      "posted_at": "2026-07-31",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8098140",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true"
     },
@@ -35674,7 +35674,7 @@
       "company": "Africa Deep Tech Foundation",
       "title": "Africa Deep Tech Challenge 2026",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-08-25",
       "url": "https://adtc-2026.devpost.com/",
       "source": "devpost",
@@ -35854,7 +35854,7 @@
       "company": "CALL-E",
       "title": "CALL-E: Your Code Is Calling",
       "location": "Online",
-      "date": "21 days left",
+      "date": "20 days left",
       "posted_at": "2026-08-25",
       "url": "https://call-e.devpost.com/",
       "source": "devpost",
@@ -36058,7 +36058,7 @@
       "company": "Devfolio",
       "title": "DEFINE 4.0",
       "location": "Thiruvananthapuram, India",
-      "date": "46 days left",
+      "date": "45 days left",
       "posted_at": "2026-08-25",
       "url": "https://define4.devfolio.co",
       "source": "devfolio",
@@ -36226,7 +36226,7 @@
       "company": "Devfolio",
       "title": "Hackify 3.0",
       "location": "Kothamangalam, India",
-      "date": "47 days left",
+      "date": "46 days left",
       "posted_at": "2026-08-25",
       "url": "https://hackify-3.devfolio.co",
       "source": "devfolio",
@@ -36526,7 +36526,7 @@
       "company": "Devfolio",
       "title": "VENTURE'26",
       "location": "Kothamangalam, India",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-08-25",
       "url": "https://venture-26.devfolio.co",
       "source": "devfolio",
@@ -37450,7 +37450,7 @@
       "company": "Paavai Engineering College (PEC), Namakkal",
       "title": "FUSION X 1.0 – 24-Hour Hackathon",
       "location": "Offline",
-      "date": "25 days left",
+      "date": "24 days left",
       "posted_at": "2026-08-25",
       "url": "https://unstop.com/hackathons/fusion-x-10-24-hour-hackathon-paavai-engineering-college-pec-namakkal-1743196",
       "source": "unstop",
@@ -38071,6 +38071,30 @@
   ],
   "events": [
     {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-25",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "9163688688d4df34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (130k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-25",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -38095,6 +38119,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-25",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -38103,6 +38139,18 @@
       "date": "",
       "posted_at": "2026-08-25",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-08-25",
+      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
