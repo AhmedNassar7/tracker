@@ -6,7 +6,7 @@ A robot checks top companies and public job boards every hour, so you don't have
 
 [![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Total opportunities 2554](https://img.shields.io/badge/Total%20opportunities-2554-brightgreen.svg)](data/README.md) [![Jobs 2349](https://img.shields.io/badge/Jobs-2349-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-08-25](https://img.shields.io/badge/Last%20updated-2026--08--25-grey.svg)](LAST_UPDATED)
 
-[![Internship 123](https://img.shields.io/badge/Internship-123-22c55e.svg)](data/README.md#internship) [![Early Career 99](https://img.shields.io/badge/Early%20Career-99-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 2127](https://img.shields.io/badge/Mid--Level%20and%20Above-2127-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 202](https://img.shields.io/badge/Hackathons-202-f59e0b.svg)](data/README.md#hackathons) [![Events 3](https://img.shields.io/badge/Events-3-8b5cf6.svg)](data/README.md#events)
+[![Internship 123](https://img.shields.io/badge/Internship-123-22c55e.svg)](data/README.md#internship) [![Early Career 100](https://img.shields.io/badge/Early%20Career-100-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 2126](https://img.shields.io/badge/Mid--Level%20and%20Above-2126-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 202](https://img.shields.io/badge/Hackathons-202-f59e0b.svg)](data/README.md#hackathons) [![Events 3](https://img.shields.io/badge/Events-3-8b5cf6.svg)](data/README.md#events)
 
 ### 👉 [**Open the full list of 2554 opportunities**](data/README.md)
 
@@ -19,8 +19,8 @@ _As of 2026-08-25._
 | Category | Count | Link |
 |---|---:|---|
 | Internship | 123 | [View](data/README.md#internship) |
-| Early Career | 99 | [View](data/README.md#early-career) |
-| Mid-Level and Above | 2127 | [View](data/README.md#mid-level-and-above) |
+| Early Career | 100 | [View](data/README.md#early-career) |
+| Mid-Level and Above | 2126 | [View](data/README.md#mid-level-and-above) |
 | **Jobs total** | **2349** | [View](data/README.md#jobs) |
 | Hackathons | 202 | [View](data/README.md#hackathons) |
 | Events | 3 | [View](data/README.md#events) |
