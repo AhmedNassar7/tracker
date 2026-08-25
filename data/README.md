@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 2340 |
-| Hackathons | 204 |
-| Events | 4 |
-| Total | 2548 |
+| Jobs | 2338 |
+| Hackathons | 201 |
+| Events | 3 |
+| Total | 2542 |
 
 ## Jobs
 
-[![Jobs 2340](https://img.shields.io/badge/Jobs-2340-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 121](https://img.shields.io/badge/Internship-121-22c55e.svg)](#internship) [![Early Career 98](https://img.shields.io/badge/Early%20Career-98-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2121](https://img.shields.io/badge/Mid--Level%20and%20Above-2121-dc2626.svg)](#mid-level-and-above)
+[![Jobs 2338](https://img.shields.io/badge/Jobs-2338-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 121](https://img.shields.io/badge/Internship-121-22c55e.svg)](#internship) [![Early Career 98](https://img.shields.io/badge/Early%20Career-98-0ea5e9.svg)](#early-career) [![Mid-Level and Above 2119](https://img.shields.io/badge/Mid--Level%20and%20Above-2119-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -271,7 +271,7 @@ Total roles: 98
 
 ### Mid-Level and Above
 
-Total roles: 2121
+Total roles: 2119
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -295,12 +295,69 @@ Total roles: 2121
 | Coinbase | [Software Engineer, Frontend (Coinbase Advisor - Agentic Trading)](https://www.coinbase.com/careers/positions/8070574?gh_jid=8070574) | Remote - USA | 0d |
 | Coupang | [Senior Staff Backend Engineer - (K8)](https://www.coupang.jobs/en/jobs/?gh_jid=7912287) | Bengaluru | 0d |
 | Databricks | [Specialist Solutions Architect - Cloud Infrastructure & Platform (AWS)](https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002) | United States | 0d |
+| Databricks | [Specialist Solutions Architect - Cloud Infrastructure & Platform (Azure)](https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002) | United States | 0d |
 | Discord | [Software Engineer, Developer Success](https://job-boards.greenhouse.io/discord/jobs/8609250002) | San Francisco Bay Area | 0d |
 | Duolingo | [Senior Android Engineer, Client Platform - Application Stability and Performance](https://careers.duolingo.com/jobs/8745736002?gh_jid=8745736002) | New York, NY | 0d |
 | Duolingo | [Senior Android Engineer, Client Platform - Application Stability and Performance](https://careers.duolingo.com/jobs/8745752002?gh_jid=8745752002) | Pittsburgh, PA | 0d |
+| Elastic | [Java Developer II - AutoOps Services - Platform Applications](https://jobs.elastic.co/jobs?gh_jid=8088738&gh_jid=8088738) | Canada | 0d |
+| Elastic | [Lead Salesforce Full Stack AI Engineer](https://jobs.elastic.co/jobs?gh_jid=8138062&gh_jid=8138062) | Bangalore, India | 0d |
 | Elastic | [Lead Salesforce Full Stack Engineer](https://jobs.elastic.co/jobs?gh_jid=8138060&gh_jid=8138060) | United States | 0d |
+| Elastic | [Platform Engineer - Kubernetes](https://jobs.elastic.co/jobs?gh_jid=8047349&gh_jid=8047349) | United States | 0d |
+| Elastic | [Principal Software Developer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138661&gh_jid=8138661) | Canada | 0d |
+| Elastic | [Principal Software Developer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074820&gh_jid=8074820) | Canada | 0d |
+| Elastic | [Principal Software Developer - Vector Search - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8143620&gh_jid=8143620) | Canada | 0d |
+| Elastic | [Principal software developer/Tech Lead, Agent Framework - Observability](https://jobs.elastic.co/jobs?gh_jid=8106089&gh_jid=8106089) | Canada | 0d |
+| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138692&gh_jid=8138692) | Portugal | 0d |
+| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138690&gh_jid=8138690) | Norway | 0d |
+| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138694&gh_jid=8138694) | Romania | 0d |
+| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138683&gh_jid=8138683) | Greece | 0d |
+| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8119454&gh_jid=8119454) | United States | 0d |
+| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138687&gh_jid=8138687) | Ireland | 0d |
+| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138696&gh_jid=8138696) | Spain | 0d |
+| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138699&gh_jid=8138699) | Poland | 0d |
+| Elastic | [Principal Software Engineer - Relevance in ES QL - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8066479&gh_jid=8066479) | United States | 0d |
+| Elastic | [Principal Software Engineer - Search Infra - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=7348426&gh_jid=7348426) | United States | 0d |
+| Elastic | [Principal Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074819&gh_jid=8074819) | United States | 0d |
+| Elastic | [Principal Software Engineer - Vector Search - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=7843348&gh_jid=7843348) | United States | 0d |
+| Elastic | [Senior Java Developer - Core/Infra - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074285&gh_jid=8074285) | Canada | 0d |
+| Elastic | [Senior Java Engineer - Core/Infra - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8053886&gh_jid=8053886) | United States | 0d |
+| Elastic | [Senior Site Reliability Engineer (Capacity) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8155558&gh_jid=8155558) | Greece | 0d |
+| Elastic | [Senior Site Reliability Engineer (Capacity) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8155560&gh_jid=8155560) | Ireland | 0d |
+| Elastic | [Senior Site Reliability Engineer (Capacity) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8070615&gh_jid=8070615) | Spain | 0d |
+| Elastic | [Senior Site Reliability Engineer (Capacity) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8155557&gh_jid=8155557) | Portugal | 0d |
 | Elastic | [Senior Software Developer](https://jobs.elastic.co/jobs?gh_jid=8130076&gh_jid=8130076) | Canada | 0d |
+| Elastic | [Senior Software Developer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138559&gh_jid=8138559) | Canada | 0d |
+| Elastic | [Senior Software Developer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074844&gh_jid=8074844) | Canada | 0d |
 | Elastic | [Senior Software Engineer](https://jobs.elastic.co/jobs?gh_jid=8069178&gh_jid=8069178) | United States | 0d |
+| Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8131023&gh_jid=8131023) | Greece | 0d |
+| Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8105634&gh_jid=8105634) | Spain | 0d |
+| Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8131025&gh_jid=8131025) | Portugal | 0d |
+| Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8131024&gh_jid=8131024) | Ireland | 0d |
+| Elastic | [Senior Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8119450&gh_jid=8119450) | United States | 0d |
+| Elastic | [Senior Software Engineer - Search Relevance in ES QL - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8066481&gh_jid=8066481) | United States | 0d |
+| Elastic | [Senior Software Engineer - SSC](https://jobs.elastic.co/jobs?gh_jid=8111965&gh_jid=8111965) | Ireland | 0d |
+| Elastic | [Senior Software Engineer - SSC](https://jobs.elastic.co/jobs?gh_jid=8111793&gh_jid=8111793) | Greece | 0d |
+| Elastic | [Senior Software Engineer - SSC](https://jobs.elastic.co/jobs?gh_jid=8111792&gh_jid=8111792) | Spain | 0d |
+| Elastic | [Senior Software Engineer - SSC](https://jobs.elastic.co/jobs?gh_jid=8111966&gh_jid=8111966) | Portugal | 0d |
+| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074889&gh_jid=8074889) | Portugal | 0d |
+| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074894&gh_jid=8074894) | Romania | 0d |
+| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074886&gh_jid=8074886) | Greece | 0d |
+| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074854&gh_jid=8074854) | Ireland | 0d |
+| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074895&gh_jid=8074895) | Norway | 0d |
+| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074855&gh_jid=8074855) | Spain | 0d |
+| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8066491&gh_jid=8066491) | United States | 0d |
+| Elastic | [Software Engineer II (Networking) - Platform Infra](https://jobs.elastic.co/jobs?gh_jid=8125983&gh_jid=8125983) | Norway | 0d |
+| Elastic | [Software Engineer II (Networking) - Platform Infra](https://jobs.elastic.co/jobs?gh_jid=8053905&gh_jid=8053905) | Greece | 0d |
+| Elastic | [Software Engineer II (Networking) - Platform Infra](https://jobs.elastic.co/jobs?gh_jid=8125975&gh_jid=8125975) | Spain | 0d |
+| Elastic | [Software Engineer II (Networking) - Platform Infra](https://jobs.elastic.co/jobs?gh_jid=8125987&gh_jid=8125987) | Portugal | 0d |
+| Elastic | [Software Engineer II - Full Stack - Web Engineering](https://jobs.elastic.co/jobs?gh_jid=8080260&gh_jid=8080260) | Portugal | 0d |
+| Elastic | [Software Engineer II - Full Stack - Web Engineering](https://jobs.elastic.co/jobs?gh_jid=8080264&gh_jid=8080264) | Greece | 0d |
+| Elastic | [Software Engineer II - Full Stack - Web Engineering](https://jobs.elastic.co/jobs?gh_jid=8080263&gh_jid=8080263) | Spain | 0d |
+| Elastic | [Software Engineer II - Full Stack - Web Engineering](https://jobs.elastic.co/jobs?gh_jid=8097064&gh_jid=8097064) | Ireland | 0d |
+| Elastic | [Software Engineer II - Platform Infrastructure (Orchestration)](https://jobs.elastic.co/jobs?gh_jid=8025629&gh_jid=8025629) | Norway | 0d |
+| Elastic | [Software Engineer II - Platform Infrastructure (Orchestration)](https://jobs.elastic.co/jobs?gh_jid=8025626&gh_jid=8025626) | Portugal | 0d |
+| Elastic | [Software Engineer II - Platform Infrastructure (Orchestration)](https://jobs.elastic.co/jobs?gh_jid=8025625&gh_jid=8025625) | Greece | 0d |
+| Elastic | [Software Engineer II - Platform Infrastructure (Orchestration)](https://jobs.elastic.co/jobs?gh_jid=7976542&gh_jid=7976542) | Spain | 0d |
 | Epicgames | [Principal Engineer, AI Platform](https://epicgames.com/careers/jobs/5996487004?gh_jid=5996487004) | BLANK,BLANK,Multiple Locations | 0d |
 | Epicgames | [Principal Engineer, AI Platform](https://epicgames.com/careers/jobs/5996485004?gh_jid=5996485004) | Cary,North Carolina,United States | 0d |
 | Instacart | [Machine Learning Engineer II, Ads - R...](https://instacart.careers/job/?gh_jid=8143263) | Remote (ON, AB, BC, or... | 0d |
@@ -316,7 +373,9 @@ Total roles: 2121
 | Mastercard | [Senior Software Engineer - MPG](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Copenhagen-Denmark-Arne-Jacobsens/Senior-Software-Engineer---MPG_R-289243) | Copenhagen, Denmark (Arne Jacobsens) | 0d |
 | Mastercard | [Senior Software Engineer-3](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer-3_R-281678-1) | Pune, India | 0d |
 | Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-288256) | O'Fallon, Missouri | 0d |
+| Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-288575) | O'Fallon, Missouri | 0d |
 | Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Software-Engineer-II_R-286506) | Toronto, Canada | 0d |
+| Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-288575) | O'Fallon, Missouri | 0d |
 | Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-288256) | O'Fallon, Missouri | 0d |
 | Mongodb | [Director, Web Platform & Technology](https://www.mongodb.com/careers/job/?gh_jid=8009965) | Cork, Ireland; Dublin, Ireland | 0d |
 | Mongodb | [Software Engineer 3, AI Builder Experience](https://www.mongodb.com/careers/job/?gh_jid=8111979) | Gurugram | 0d |
@@ -456,6 +515,7 @@ Total roles: 2121
 | Roblox | [Senior Software Engineer, Ads Experience (C++)](https://careers.roblox.com/jobs/7655780?gh_jid=7655780) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer, Ads Platform](https://careers.roblox.com/jobs/8011079?gh_jid=8011079) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer, App Performance](https://careers.roblox.com/jobs/7360413?gh_jid=7360413) | San Mateo, CA, United States | 0d |
+| Roblox | [Senior Software Engineer, Application Gateway](https://careers.roblox.com/jobs/7698330?gh_jid=7698330) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer, Avatar Animation](https://careers.roblox.com/jobs/7540219?gh_jid=7540219) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer, Client Systems (C++)](https://careers.roblox.com/jobs/8036535?gh_jid=8036535) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer, Compute Cell Platform](https://careers.roblox.com/jobs/8056362?gh_jid=8056362) | San Mateo, CA, United States | 0d |
@@ -472,7 +532,6 @@ Total roles: 2121
 | Roblox | [Senior Software Engineer, Runtime](https://careers.roblox.com/jobs/8097810?gh_jid=8097810) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer, Safety Foundation](https://careers.roblox.com/jobs/8017352?gh_jid=8017352) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer, Service Mesh](https://careers.roblox.com/jobs/8015824?gh_jid=8015824) | San Mateo, CA, United States | 0d |
-| Roblox | [Senior Software Engineer, Service Mesh](https://careers.roblox.com/jobs/7698330?gh_jid=7698330) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer, UGC Validation](https://careers.roblox.com/jobs/7997637?gh_jid=7997637) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer- Account Authentication](https://careers.roblox.com/jobs/8092905?gh_jid=8092905) | San Mateo, CA, United States | 0d |
 | Roblox | [Senior Software Engineer: Assistant](https://careers.roblox.com/jobs/8047823?gh_jid=8047823) | San Mateo, CA, United States | 0d |
@@ -482,6 +541,7 @@ Total roles: 2121
 | Roblox | [Software Engineer, Foundation AI](https://careers.roblox.com/jobs/8123004?gh_jid=8123004) | San Mateo, CA, United States | 0d |
 | Roblox | [Software Engineering Manager, Engine UI](https://careers.roblox.com/jobs/7482015?gh_jid=7482015) | San Mateo, CA, United States | 0d |
 | Roblox | [Technical Director, Content Platform](https://careers.roblox.com/jobs/7754152?gh_jid=7754152) | San Mateo, CA, United States | 0d |
+| Scaleai | [AI Infrastructure Engineer, Sandbox Platform](https://job-boards.greenhouse.io/scaleai/jobs/4717105005) | London, UK | 0d |
 | Scaleai | [Staff FullStack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4673314005) | Doha, Qatar | 0d |
 | SpaceX | [Full Stack Software Engineer, Data Platform (Starlink)](https://boards.greenhouse.io/spacex/jobs/8746439002?gh_jid=8746439002) | Redmond, WA | 0d |
 | Stripe | [Account Executive, Strategic Platform Partnerships](https://stripe.com/jobs/search?gh_jid=8157577) | San Francisco, CA; New York, NY | 0d |
@@ -497,8 +557,8 @@ Total roles: 2121
 | Wise | [Senior Full-Stack Software Engineer](https://jobs.smartrecruiters.com/Wise/744000145464649) | London, United Kingdom | 0d |
 | Airbnb | [Staff Software Engineer, Service Tools](https://careers.airbnb.com/positions/8154739?gh_jid=8154739) | USA | 1d |
 | Anthropic | [IT Systems Engineer, Mobile Client Platform Engineer](https://job-boards.greenhouse.io/anthropic/jobs/5396384008) | Boston, MA; Remote-Friendly (Travel-Required)   San Francisco, CA   Seattle, WA   New York City, NY; Washington, DC | 1d |
-| Anthropic | [Software Engineer, Business Technology](https://job-boards.greenhouse.io/anthropic/jobs/5400153008) | New York City, NY   Seattle, WA; San Francisco, CA   New York City, NY | 1d |
 | Anthropic | [Software Engineer, Business Technology](https://job-boards.greenhouse.io/anthropic/jobs/5400160008) | London, UK | 1d |
+| Anthropic | [Software Engineer, Business Technology](https://job-boards.greenhouse.io/anthropic/jobs/5400153008) | New York City, NY   Seattle, WA; San Francisco, CA   New York City, NY | 1d |
 | Anthropic | [Staff + Sr. Software Engineer, Scaling](https://job-boards.greenhouse.io/anthropic/jobs/5400012008) | San Francisco, CA   Seattle, WA | 1d |
 | Careem | [Senior IT Infrastructure Engineer II](https://boards.greenhouse.io/careem/jobs/8620488002?gh_jid=8620488002) | Karachi, Pakistan | 1d |
 | Careem | [Software Engineer II - Backend   NextGen Engineering](https://boards.greenhouse.io/careem/jobs/7004825002?gh_jid=7004825002) | Lahore, Pakistan | 1d |
@@ -544,7 +604,6 @@ Total roles: 2121
 | Coupang | [Staff Software Engineer, Coupang Media Group](https://www.coupang.jobs/en/jobs/?gh_jid=8075427) | Seattle, USA | 1d |
 | Coupang | [Staff, Android Engineer(CX Engineering) - Coupang Play](https://www.coupang.jobs/en/jobs/?gh_jid=8045744) | Seoul, South Korea | 1d |
 | Databricks | [Senior Software Engineer- Singapore](https://databricks.com/company/careers/open-positions/job?gh_jid=8350956002) | Singapore | 1d |
-| Databricks | [Specialist Solutions Architect - Cloud Infrastructure & Platform (Azure)](https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002) | United States | 1d |
 | Datadog | [Director, Engineering - Detection Platform](https://careers.datadoghq.com/detail/8026520/?gh_jid=8026520) | New York, New York, USA | 1d |
 | Datadog | [Manager I, Engineering - AI Platform - Evaluation & Annotation](https://careers.datadoghq.com/detail/7965428/?gh_jid=7965428) | Paris, France | 1d |
 | Datadog | [Manager I, Engineering - AI Platform - Training & Serving](https://careers.datadoghq.com/detail/7529852/?gh_jid=7529852) | Paris, France | 1d |
@@ -575,12 +634,6 @@ Total roles: 2121
 | Datadog | [Technical Escalations Engineer 2 (Web Platform) - US-West](https://careers.datadoghq.com/detail/8130723/?gh_jid=8130723) | Denver, Colorado, USA; San Francisco, California, USA | 1d |
 | Duolingo | [Senior Software Engineer, Backend](https://careers.duolingo.com/jobs/8583977002?gh_jid=8583977002) | New York, NY | 1d |
 | Duolingo | [Senior Software Engineer, Backend](https://careers.duolingo.com/jobs/8584012002?gh_jid=8584012002) | Pittsburgh, PA | 1d |
-| Elastic | [Senior Site Reliability Engineer (Capacity) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8155558&gh_jid=8155558) | Greece | 1d |
-| Elastic | [Senior Site Reliability Engineer (Capacity) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8155560&gh_jid=8155560) | Ireland | 1d |
-| Elastic | [Senior Site Reliability Engineer (Capacity) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8070615&gh_jid=8070615) | Spain | 1d |
-| Elastic | [Senior Site Reliability Engineer (Capacity) - Platform Infrastructure](https://jobs.elastic.co/jobs?gh_jid=8155557&gh_jid=8155557) | Portugal | 1d |
-| Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8131023&gh_jid=8131023) | Greece | 1d |
-| Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8105634&gh_jid=8105634) | Spain | 1d |
 | Instacart | [Engineering Manager, Service Platform](https://instacart.careers/job/?gh_jid=7960988) | Canada - Remote (ON, AB, BC, or NS Only) | 1d |
 | Instacart | [Engineering Manager, Service Platform](https://instacart.careers/job/?gh_jid=7960958) | United States - Remote | 1d |
 | Instacart | [iOS Developer](https://instacart.careers/job/?gh_jid=8154479) | Israel - Hybrid (3 days/week in office required) | 1d |
@@ -611,7 +664,6 @@ Total roles: 2121
 | Mastercard | [Lead Software Engineer - Java development](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Quality-Engineer---Automation-Testing---Java-Coding_R-270159) | Pune, India | 1d |
 | Mastercard | [Manager Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager-Software-Engineering_R-281303-1) | Pune, India | 1d |
 | Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-288453) | O'Fallon, Missouri | 1d |
-| Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Manager--Software-Engineering_R-287330) | Dublin, Ireland | 1d |
 | Mastercard | [Principal Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Principal-Software-Engineer_R-288265) | O'Fallon, Missouri | 1d |
 | Mastercard | [Principal Software Engineer/Solution Architect](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Principal-Software-Engineer-Solution-Architect_R-278568-1) | Pune, India | 1d |
 | Mastercard | [Senior AI Platform Engineer (DevOps)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-AI-Platform-Engineer--DevOps-_R-287470-1) | <details><summary>3 locations</summary>O&#x27;Fallon<br>Missouri<br>Atlanta<br>Georgia<br>Austin<br>Texas</details> | 1d |
@@ -643,9 +695,9 @@ Total roles: 2121
 | Okta | [Mobile Architect](https://www.okta.com/company/careers/opportunity/7613460?gh_jid=7613460) | Bengaluru, India | 1d |
 | Okta | [Principal Data Platform Engineer (Bengaluru)](https://www.okta.com/company/careers/opportunity/7648974?gh_jid=7648974) | Bengaluru, India | 1d |
 | Okta | [Principal Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8002576?gh_jid=8002576) | Bengaluru, India | 1d |
-| Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/8064188?gh_jid=8064188) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7696955?gh_jid=7696955) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674) | Bengaluru, India | 1d |
+| Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/8064188?gh_jid=8064188) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/8071508?gh_jid=8071508) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer - Backend](https://www.okta.com/company/careers/opportunity/8007071?gh_jid=8007071) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer - macOS](https://www.okta.com/company/careers/opportunity/8007078?gh_jid=8007078) | Bengaluru, India | 1d |
@@ -661,10 +713,10 @@ Total roles: 2121
 | Okta | [Senior Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8100444?gh_jid=8100444) | Bellevue, Washington; San Francisco, California | 1d |
 | Okta | [Senior Site Reliability Engineer (Auth0)](https://www.okta.com/company/careers/opportunity/7418982?gh_jid=7418982) | Barcelona, Spain | 1d |
 | Okta | [Senior Site Reliability Engineer -](https://www.okta.com/company/careers/opportunity/7610901?gh_jid=7610901) | Bellevue, Washington | 1d |
-| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312) | Bengaluru, India | 1d |
-| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585) | Bengaluru, India | 1d |
+| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679) | Bengaluru, India | 1d |
+| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/5781654?gh_jid=5781654) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer (Android)](https://www.okta.com/company/careers/opportunity/8108376?gh_jid=8108376) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer (Core Frontier)](https://www.okta.com/company/careers/opportunity/7894398?gh_jid=7894398) | Bengaluru, India | 1d |
@@ -699,8 +751,8 @@ Total roles: 2121
 | Okta | [Staff Fullstack Engineer](https://www.okta.com/company/careers/opportunity/8078400?gh_jid=8078400) | Bengaluru, India | 1d |
 | Okta | [Staff FullStack Engineer, Okta Secures AI](https://www.okta.com/company/careers/opportunity/8120329?gh_jid=8120329) | Toronto, Ontario, Canada | 1d |
 | Okta | [Staff Platform Engineer (FedRAMP)](https://www.okta.com/company/careers/opportunity/8064889?gh_jid=8064889) | Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC | 1d |
-| Okta | [Staff Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/7840544?gh_jid=7840544) | Bengaluru, India | 1d |
 | Okta | [Staff Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8059472?gh_jid=8059472) | Bengaluru, India | 1d |
+| Okta | [Staff Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/7840544?gh_jid=7840544) | Bengaluru, India | 1d |
 | Okta | [Staff Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8087718?gh_jid=8087718) | Bengaluru, India | 1d |
 | Okta | [Staff Site Reliability Engineer - Core iDaaS](https://www.okta.com/company/careers/opportunity/7307866?gh_jid=7307866) | Bengaluru, India | 1d |
 | Okta | [Staff Site Reliability Engineer - Ecosystem](https://www.okta.com/company/careers/opportunity/8090568?gh_jid=8090568) | Bengaluru, India | 1d |
@@ -709,11 +761,11 @@ Total roles: 2121
 | Okta | [Staff Site Reliability Engineer, EPG (FedRAMP)](https://www.okta.com/company/careers/opportunity/8064877?gh_jid=8064877) | Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC | 1d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8034884?gh_jid=8034884) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8087945?gh_jid=8087945) | Bengaluru, India | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310) | Bengaluru, India | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016) | Bengaluru, India | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/7626022?gh_jid=7626022) | Warsaw, Poland | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857) | Tel Aviv, Israel | 1d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/7626022?gh_jid=7626022) | Warsaw, Poland | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857) | Tel Aviv, Israel | 1d |
 | Okta | [Staff Software Engineer - Android Device Authenticators](https://www.okta.com/company/careers/opportunity/8007082?gh_jid=8007082) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer - Backend](https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer - Backend](https://www.okta.com/company/careers/opportunity/7917929?gh_jid=7917929) | Toronto, Ontario, Canada | 1d |
@@ -737,8 +789,8 @@ Total roles: 2121
 | Okta | [Staff Software Engineer, Data Platform (FedRAMP)](https://www.okta.com/company/careers/opportunity/7674814?gh_jid=7674814) | Bellevue, Washington; San Francisco, California | 1d |
 | Okta | [Staff Software Engineer, Delegated Administration (Auth0)](https://www.okta.com/company/careers/opportunity/7560775?gh_jid=7560775) | Toronto, Ontario, Canada | 1d |
 | Okta | [Staff Software Engineer, Developer Platform (Auth0)](https://www.okta.com/company/careers/opportunity/8041360?gh_jid=8041360) | Toronto, Ontario, Canada | 1d |
-| Okta | [Staff Software Engineer, Identity Administration](https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer, Identity Administration](https://www.okta.com/company/careers/opportunity/8147222?gh_jid=8147222) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer, Identity Administration](https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer, Identity Administration (Full Stack)](https://www.okta.com/company/careers/opportunity/7831189?gh_jid=7831189) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer, Java, Spring](https://www.okta.com/company/careers/opportunity/7582318?gh_jid=7582318) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer, Java, Spring (Backend)](https://www.okta.com/company/careers/opportunity/7916607?gh_jid=7916607) | Bengaluru, India | 1d |
@@ -746,10 +798,10 @@ Total roles: 2121
 | Okta | [Staff Software Engineer, Streaming Foundations](https://www.okta.com/company/careers/opportunity/8139280?gh_jid=8139280) | Toronto, Ontario, Canada | 1d |
 | Okta | [Staff Software Reliability Engineer - Data Platform](https://www.okta.com/company/careers/opportunity/8082028?gh_jid=8082028) | Toronto, Ontario, Canada | 1d |
 | Okta | [Staff SRE for Cloud Network Infrastructure Team (Managing edge in multi-cloud(AWS & GCP), mTLS, Global Routing, AI Automation)](https://www.okta.com/company/careers/opportunity/8090773?gh_jid=8090773) | Bengaluru, India | 1d |
-| Okta | [Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)](https://www.okta.com/company/careers/opportunity/8102369?gh_jid=8102369) | Bengaluru, India | 1d |
 | Okta | [Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)](https://www.okta.com/company/careers/opportunity/7839826?gh_jid=7839826) | Bengaluru, India | 1d |
-| Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073066?gh_jid=8073066) | Washington, DC | 1d |
+| Okta | [Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)](https://www.okta.com/company/careers/opportunity/8102369?gh_jid=8102369) | Bengaluru, India | 1d |
 | Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062) | San Francisco, California | 1d |
+| Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073066?gh_jid=8073066) | Washington, DC | 1d |
 | Okta | [Staff UI Software Engineer](https://www.okta.com/company/careers/opportunity/7902410?gh_jid=7902410) | Bengaluru, India | 1d |
 | Openai | [Compute Strategy & Transactions, GPT-Infra](https://jobs.ashbyhq.com/openai/9fb99d74-c678-4556-b962-8e8388925902) | San Francisco | 1d |
 | Openai | [Software Engineer, AI accelerator Runtime](https://jobs.ashbyhq.com/openai/9248eab6-74e0-4940-98eb-ca09b17da532) | San Francisco | 1d |
@@ -764,8 +816,8 @@ Total roles: 2121
 | Snowflake | [Staff Software Engineer, Snowpark Container Service](https://jobs.ashbyhq.com/snowflake/b470bf43-46b4-4a31-a164-7181e7372d29) | US-CA-Menlo Park | 1d |
 | SpaceX | [Mechanical Engineer, Infrastructure](https://boards.greenhouse.io/spacex/jobs/8735901002?gh_jid=8735901002) | Starbase, TX | 1d |
 | SpaceX | [Sr. Automation & Controls Engineer, Infrastructure & Utility (Starship)](https://boards.greenhouse.io/spacex/jobs/8743394002?gh_jid=8743394002) | Starbase, TX | 1d |
-| SpaceX | [Sr. Wi-Fi Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8716120002?gh_jid=8716120002) | Bastrop, TX | 1d |
 | SpaceX | [Sr. Wi-Fi Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8716131002?gh_jid=8716131002) | Palo Alto, CA | 1d |
+| SpaceX | [Sr. Wi-Fi Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8716120002?gh_jid=8716120002) | Bastrop, TX | 1d |
 | Stripe | [Backend Engineer, Developer & End-user Experience Platform](https://stripe.com/jobs/search?gh_jid=7476555) | SEA, SF, NY, Toronto | 1d |
 | Stripe | [Backend Engineer, Financial Connections](https://stripe.com/jobs/search?gh_jid=8047083) | NYC, Toronto, Remote in Canada | 1d |
 | Stripe | [Backend Engineer, Link](https://stripe.com/jobs/search?gh_jid=8131144) | NYC, Sea, SF, Tor | 1d |
@@ -821,15 +873,15 @@ Total roles: 2121
 | Anthropic | [Software Engineer, ML Networking](https://job-boards.greenhouse.io/anthropic/jobs/4926242008) | San Francisco, CA   New York City, NY   Seattle, WA | 4d |
 | Anthropic | [Software Engineer, Research Data Platform](https://job-boards.greenhouse.io/anthropic/jobs/5191226008) | San Francisco, CA   New York City, NY | 4d |
 | Anthropic | [Software Engineer, Research Tools](https://job-boards.greenhouse.io/anthropic/jobs/4981828008) | San Francisco, CA   New York City, NY; San Francisco, CA   New York City, NY   Seattle, WA | 4d |
-| Anthropic | [Staff + Senior Software Engineer, Inference](https://job-boards.greenhouse.io/anthropic/jobs/5245851008) | San Francisco, CA   New York City, NY   Seattle, WA | 4d |
 | Anthropic | [Staff + Senior Software Engineer, Inference](https://job-boards.greenhouse.io/anthropic/jobs/5385998008) | Ontario, CAN | 4d |
+| Anthropic | [Staff + Senior Software Engineer, Inference](https://job-boards.greenhouse.io/anthropic/jobs/5245851008) | San Francisco, CA   New York City, NY   Seattle, WA | 4d |
 | Anthropic | [Staff + Senior Software Engineer, Inference Deployment](https://job-boards.greenhouse.io/anthropic/jobs/5285557008) | San Francisco, CA   New York City, NY   Seattle, WA | 4d |
 | Anthropic | [Staff + Sr. Software Engineer, Cloud Inference](https://job-boards.greenhouse.io/anthropic/jobs/5231496008) | San Francisco, CA | 4d |
 | Anthropic | [Staff + Sr. Software Engineer, Cloud Inference Launch Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5238296008) | San Francisco, CA | 4d |
 | Anthropic | [Staff Infrastructure Engineer, Cluster Infrastructure](https://job-boards.greenhouse.io/anthropic/jobs/5211297008) | London, UK | 4d |
 | Anthropic | [Staff Software Engineer, AI Reliability](https://job-boards.greenhouse.io/anthropic/jobs/5113224008) | San Francisco, CA   New York City, NY   Seattle, WA | 4d |
-| Anthropic | [Staff Software Engineer, AI Reliability Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5101173008) | London, UK | 4d |
 | Anthropic | [Staff Software Engineer, AI Reliability Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5101169008) | Dublin, IE | 4d |
+| Anthropic | [Staff Software Engineer, AI Reliability Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5101173008) | London, UK | 4d |
 | Anthropic | [Staff Software Engineer, Android](https://job-boards.greenhouse.io/anthropic/jobs/4899511008) | San Francisco, CA   New York City, NY   Seattle, WA | 4d |
 | Anthropic | [Staff Software Engineer, Billing Platform](https://job-boards.greenhouse.io/anthropic/jobs/5146298008) | San Francisco, CA   New York City, NY   Seattle, WA | 4d |
 | Anthropic | [Staff Software Engineer, Claude Code](https://job-boards.greenhouse.io/anthropic/jobs/5383610008) | San Francisco, CA   New York City, NY   Seattle, WA | 4d |
@@ -906,7 +958,6 @@ Total roles: 2121
 | Duolingo | [Senior iOS Engineer](https://careers.duolingo.com/jobs/8318257002?gh_jid=8318257002) | New York, NY | 4d |
 | Duolingo | [Senior/Software Engineer II, Android](https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002) | New York, NY | 4d |
 | Duolingo | [Senior/Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) | Pittsburgh, PA | 4d |
-| Elastic | [Lead Salesforce Full Stack AI Engineer](https://jobs.elastic.co/jobs?gh_jid=8138062&gh_jid=8138062) | Bangalore, India | 4d |
 | Lyft | [Software Engineer, Fulfillment](https://app.careerpuck.com/job-board/lyft/job/8584593002?gh_jid=8584593002) | Toronto, Canada | 4d |
 | Mongodb | [Lead, Platform Engineering](https://www.mongodb.com/careers/job/?gh_jid=8071475) | Gurugram | 4d |
 | Mongodb | [Manager, Site Reliability Engineering - Storage Layer Service](https://www.mongodb.com/careers/job/?gh_jid=7743304) | New York City | 4d |
@@ -972,11 +1023,11 @@ Total roles: 2121
 | SpaceX | [Manager, Data Center Hardware & Infrastructure (TS/SCI)](https://boards.greenhouse.io/spacex/jobs/8738842002?gh_jid=8738842002) | Hawthorne, CA | 4d |
 | SpaceX | [Sr. Full Stack Engineer, Manufacturing Systems](https://boards.greenhouse.io/spacex/jobs/8738608002?gh_jid=8738608002) | Bastrop, TX | 4d |
 | SpaceX | [Sr. Software Engineer, Starlink Enterprise Product (Space Lasers)](https://boards.greenhouse.io/spacex/jobs/8716848002?gh_jid=8716848002) | Redmond, WA | 4d |
-| SpaceX | [Sr. Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546682002?gh_jid=8546682002) | Palo Alto, CA | 4d |
 | SpaceX | [Sr. Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546720002?gh_jid=8546720002) | Redmond, WA | 4d |
+| SpaceX | [Sr. Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546682002?gh_jid=8546682002) | Palo Alto, CA | 4d |
 | SpaceX | [Structural Engineer, Launch Infrastructure (Starship)](https://boards.greenhouse.io/spacex/jobs/8737416002?gh_jid=8737416002) | Cape Canaveral, FL | 4d |
-| SpaceX | [Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546722002?gh_jid=8546722002) | Redmond, WA | 4d |
 | SpaceX | [Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002) | Palo Alto, CA | 4d |
+| SpaceX | [Wireless Firmware Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546722002?gh_jid=8546722002) | Redmond, WA | 4d |
 | Spotify | [Senior Backend Engineer, Podcast](https://jobs.lever.co/spotify/481e84f8-9048-4da3-9ad4-e2fba06e005f) | New York, NY | 4d |
 | Stripe | [Backend Engineer, Payments Experiences](https://stripe.com/jobs/search?gh_jid=7895287) | Sao Paulo | 4d |
 | Stripe | [Full Stack Engineer, Link](https://stripe.com/jobs/search?gh_jid=8062305) | New York, New York | 4d |
@@ -999,13 +1050,7 @@ Total roles: 2121
 | Coupang | [Staff Back-end Engineer (Eats Customer)](https://www.coupang.jobs/en/jobs/?gh_jid=7994958) | Seoul, South Korea | 5d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8020098) | Hyderabad | 5d |
 | Databricks | [Senior Software Engineer - Enterprise Platform, CustomerLake](https://databricks.com/company/careers/open-positions/job?gh_jid=8715639002) | New York City, New York | 5d |
-| Elastic | [Principal Software Developer - Vector Search - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8143620&gh_jid=8143620) | Canada | 5d |
-| Elastic | [Principal Software Engineer - Relevance in ES QL - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8066479&gh_jid=8066479) | United States | 5d |
-| Elastic | [Principal Software Engineer - Search Infra - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=7348426&gh_jid=7348426) | United States | 5d |
-| Elastic | [Principal Software Engineer - Vector Search - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=7843348&gh_jid=7843348) | United States | 5d |
-| Elastic | [Senior Software Engineer - Search Relevance in ES QL - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8066481&gh_jid=8066481) | United States | 5d |
 | Epicgames | [Senior Software Engineer, Audio Engine](https://epicgames.com/careers/jobs/5990685004?gh_jid=5990685004) | Cary,North Carolina,United States | 5d |
-| Intel | [AI Infrastructure Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Infrastructure-Engineer_JR0286233) | <details><summary>4 locations</summary>US<br>California<br>Santa Clara, US<br>Oregon<br>Hillsboro, US<br>California<br>Folsom, US<br>Texas<br>Austin</details> | 5d |
 | Openai | [Software Engineer, Private Computing](https://jobs.ashbyhq.com/openai/0f887fe6-39f4-44f6-8ee5-230c3002f0d7) | San Francisco | 5d |
 | Pinterest | [Director of Engineering, Core & Ads Serving Platform](https://www.pinterestcareers.com/jobs/?gh_jid=8035163) | San Francisco, CA, US; Palo Alto, CA, US | 5d |
 | Pinterest | [Finance Manager I, Technology Infrastructure](https://www.pinterestcareers.com/jobs/?gh_jid=7685103) | San Francisco, CA, US; Remote, US | 5d |
@@ -1048,7 +1093,6 @@ Total roles: 2121
 | Stripe | [Full Stack Software Engineer, Brazil](https://stripe.com/jobs/search?gh_jid=7895284) | Sao Paulo | 5d |
 | Webflow | [Senior Staff Software Engineer](https://job-boards.greenhouse.io/webflow/jobs/8136483) | U.S. Remote | 5d |
 | Wise | [Senior Engineering Manager II - Risk API - Servicing Platform](https://jobs.smartrecruiters.com/Wise/744000144509854) | London, United Kingdom | 5d |
-| Airbnb | [Senior iOS Engineer, Passport & Commerce](https://careers.airbnb.com/positions/8135797?gh_jid=8135797) | Remote, USA | 6d |
 | Airbnb | [Senior Software Engineer, Payments Platform](https://careers.airbnb.com/positions/8138002?gh_jid=8138002) | Remote, USA | 6d |
 | Airbnb | [Staff Platform Manager, Conversational Products](https://careers.airbnb.com/positions/8136554?gh_jid=8136554) | United States | 6d |
 | Amazon | [Software Development Engineer II, FinTech](https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech) | Hyderabad, Telangana, IND | 6d |
@@ -1079,8 +1123,8 @@ Total roles: 2121
 | SpaceX | [Automation & Controls Technician, Infrastructure & Utility (Starship)](https://boards.greenhouse.io/spacex/jobs/8730577002?gh_jid=8730577002) | Starbase, TX | 6d |
 | SpaceX | [Construction Project Manager, Starbase Infrastructure](https://boards.greenhouse.io/spacex/jobs/8727965002?gh_jid=8727965002) | Starbase, TX | 6d |
 | SpaceX | [Platform Integrity Manager (Starlink)](https://boards.greenhouse.io/spacex/jobs/8656713002?gh_jid=8656713002) | Redmond, WA | 6d |
-| SpaceX | [Platform Integrity Manager (Starlink)](https://boards.greenhouse.io/spacex/jobs/8622988002?gh_jid=8622988002) | Bastrop, TX | 6d |
 | SpaceX | [Platform Integrity Manager (Starlink)](https://boards.greenhouse.io/spacex/jobs/8656715002?gh_jid=8656715002) | Hawthorne, CA | 6d |
+| SpaceX | [Platform Integrity Manager (Starlink)](https://boards.greenhouse.io/spacex/jobs/8622988002?gh_jid=8622988002) | Bastrop, TX | 6d |
 | SpaceX | [Software Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8731256002?gh_jid=8731256002) | Hawthorne, CA | 6d |
 | SpaceX | [Software Engineer, Development Test (Starlink)](https://boards.greenhouse.io/spacex/jobs/8532395002?gh_jid=8532395002) | Redmond, WA | 6d |
 | SpaceX | [Sr. Embedded Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8716175002?gh_jid=8716175002) | Bastrop, TX | 6d |
@@ -1105,30 +1149,30 @@ Total roles: 2121
 | Databricks | [Senior Engineering Manager for Workspace Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=7987658002) | San Francisco, California | 7d |
 | Databricks | [Senior Forward Deployed Engineer - Full stack](https://databricks.com/company/careers/open-positions/job?gh_jid=8556371002) | Paris, France | 7d |
 | Databricks | [Senior Manager, Forward Deployed Engineering (Full Stack) x 2 New roles](https://databricks.com/company/careers/open-positions/job?gh_jid=8439078002) | Paris, France | 7d |
-| Databricks | [Senior Manager, Infrastructure Data Science](https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002) | San Francisco, California | 7d |
 | Databricks | [Senior Manager, Infrastructure Data Science](https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002) | Mountain View, California | 7d |
+| Databricks | [Senior Manager, Infrastructure Data Science](https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002) | San Francisco, California | 7d |
 | Databricks | [Senior Software Engineer (Backend)](https://databricks.com/company/careers/open-positions/job?gh_jid=6709301002) | Bengaluru, India | 7d |
 | Databricks | [Senior Software Engineer (Backend) - AI/ML Environments](https://databricks.com/company/careers/open-positions/job?gh_jid=8233899002) | Mountain View, California | 7d |
 | Databricks | [Senior Software Engineer - Application Traffic team](https://databricks.com/company/careers/open-positions/job?gh_jid=8183195002) | Mountain View, California | 7d |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002) | Mountain View, California | 7d |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002) | San Francisco, California | 7d |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002) | Bellevue, Washington | 7d |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002) | Berlin, Germany | 7d |
 | Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002) | Vancouver, Canada | 7d |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002) | Amsterdam, Netherlands | 7d |
 | Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002) | Belgrade, Serbia | 7d |
-| Databricks | [Senior Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002) | Mountain View, California | 7d |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002) | Berlin, Germany | 7d |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002) | Bellevue, Washington | 7d |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002) | Mountain View, California | 7d |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002) | Amsterdam, Netherlands | 7d |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002) | San Francisco, California | 7d |
 | Databricks | [Senior Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002) | San Francisco, California | 7d |
+| Databricks | [Senior Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002) | Mountain View, California | 7d |
 | Databricks | [Senior Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=8012809002) | Belgrade, Serbia | 7d |
+| Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002) | Bellevue, Washington | 7d |
 | Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002) | San Francisco, California | 7d |
 | Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002) | Belgrade, Serbia | 7d |
-| Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002) | Bellevue, Washington | 7d |
 | Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002) | Mountain View, California | 7d |
 | Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002) | Mountain View, California; San Francisco, California | 7d |
-| Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002) | Mountain View, California; San Francisco, California | 7d |
 | Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002) | Seattle, Washington | 7d |
-| Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=8029679002) | Amsterdam, Netherlands | 7d |
 | Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=8099342002) | Vancouver, Canada | 7d |
+| Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=8029679002) | Amsterdam, Netherlands | 7d |
+| Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002) | Mountain View, California; San Francisco, California | 7d |
 | Databricks | [Senior Software Engineer - Infrastructure and Tools](https://databricks.com/company/careers/open-positions/job?gh_jid=6318503002) | San Francisco, California | 7d |
 | Databricks | [Senior Software Engineer - Ingestion](https://databricks.com/company/careers/open-positions/job?gh_jid=7934782002) | Bengaluru, India | 7d |
 | Databricks | [Senior Software Engineer - Money Team](https://databricks.com/company/careers/open-positions/job?gh_jid=8027404002) | Bellevue, Washington | 7d |
@@ -1137,32 +1181,32 @@ Total roles: 2121
 | Databricks | [Senior Software Engineer, Model Serving](https://databricks.com/company/careers/open-positions/job?gh_jid=8211648002) | San Francisco, California | 7d |
 | Databricks | [Senior Software Engineer- Networking](https://databricks.com/company/careers/open-positions/job?gh_jid=7647353002) | Bengaluru, India | 7d |
 | Databricks | [Senior Software Frontend Engineer – Dashboards](https://databricks.com/company/careers/open-positions/job?gh_jid=8230883002) | Vancouver, Canada | 7d |
-| Databricks | [Senior Staff Software Engineer (Backend)](https://databricks.com/company/careers/open-positions/job?gh_jid=7651326002) | Bengaluru, India | 7d |
 | Databricks | [Senior Staff Software Engineer (Backend)](https://databricks.com/company/careers/open-positions/job?gh_jid=7651345002) | Bengaluru, India | 7d |
+| Databricks | [Senior Staff Software Engineer (Backend)](https://databricks.com/company/careers/open-positions/job?gh_jid=7651326002) | Bengaluru, India | 7d |
 | Databricks | [Senior Staff Software Engineer - App and Partner Ecosystem](https://databricks.com/company/careers/open-positions/job?gh_jid=7807722002) | Seattle, Washington | 7d |
 | Databricks | [Senior Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8421894002) | Bengaluru, India | 7d |
-| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002) | Zürich, Switzerland | 7d |
 | Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002) | Berlin, Germany | 7d |
-| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002) | Amsterdam, Netherlands | 7d |
-| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002) | Aarhus, Denmark | 7d |
 | Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002) | London, United Kingdom | 7d |
+| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002) | Zürich, Switzerland | 7d |
+| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002) | Aarhus, Denmark | 7d |
+| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002) | Amsterdam, Netherlands | 7d |
 | Databricks | [Senior Staff Software Engineer - Enzyme](https://databricks.com/company/careers/open-positions/job?gh_jid=7934466002) | Mountain View, California | 7d |
-| Databricks | [Senior Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7274557002) | Seattle, Washington | 7d |
 | Databricks | [Senior Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002) | Mountain View, California | 7d |
+| Databricks | [Senior Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7274557002) | Seattle, Washington | 7d |
 | Databricks | [Senior Staff Software Engineer - Lakeflow Pipelines Datasets](https://databricks.com/company/careers/open-positions/job?gh_jid=8493002002) | Mountain View, California; San Francisco, California | 7d |
 | Databricks | [Senior Staff Software Engineer - Unity Catalog Runtime Enforcement](https://databricks.com/company/careers/open-positions/job?gh_jid=8422477002) | Amsterdam, Netherlands | 7d |
-| Databricks | [Senior Staff Software Engineer - Unity Catalog Runtime Enforcement](https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002) | London, United Kingdom | 7d |
 | Databricks | [Senior Staff Software Engineer - Unity Catalog Runtime Enforcement](https://databricks.com/company/careers/open-positions/job?gh_jid=8422484002) | Aarhus, Denmark | 7d |
 | Databricks | [Senior Staff Software Engineer - Unity Catalog Runtime Enforcement](https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002) | Zürich, Switzerland | 7d |
+| Databricks | [Senior Staff Software Engineer - Unity Catalog Runtime Enforcement](https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002) | London, United Kingdom | 7d |
 | Databricks | [Senior Staff Software Engineer - Unity Catalog Runtime Enforcement](https://databricks.com/company/careers/open-positions/job?gh_jid=8407527002) | Berlin, Germany | 7d |
 | Databricks | [Senior Staff Software Engineer- Networking](https://databricks.com/company/careers/open-positions/job?gh_jid=8433583002) | Bengaluru, India | 7d |
 | Databricks | [Senior Staff Software Engineer- Search Quality](https://databricks.com/company/careers/open-positions/job?gh_jid=8439350002) | Bengaluru, India | 7d |
-| Databricks | [Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002) | Amsterdam, Netherlands | 7d |
 | Databricks | [Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002) | Belgrade, Serbia | 7d |
+| Databricks | [Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002) | Amsterdam, Netherlands | 7d |
 | Databricks | [Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=8012658002) | Belgrade, Serbia | 7d |
 | Databricks | [Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=8012691002) | Belgrade, Serbia | 7d |
-| Databricks | [Software Engineer, Web Products](https://databricks.com/company/careers/open-positions/job?gh_jid=8560779002) | Mountain View, California | 7d |
 | Databricks | [Software Engineer, Web Products](https://databricks.com/company/careers/open-positions/job?gh_jid=8635225002) | Mountain View, California | 7d |
+| Databricks | [Software Engineer, Web Products](https://databricks.com/company/careers/open-positions/job?gh_jid=8560779002) | Mountain View, California | 7d |
 | Databricks | [Sr Software Engineer -Public Sector](https://databricks.com/company/careers/open-positions/job?gh_jid=8512856002) | McLean, Virginia | 7d |
 | Databricks | [Sr Software Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8220814002) | Mountain View, California | 7d |
 | Databricks | [Sr Software Engineer, Infrastructure](https://databricks.com/company/careers/open-positions/job?gh_jid=8493170002) | San Francisco, California | 7d |
@@ -1184,15 +1228,15 @@ Total roles: 2121
 | Databricks | [Sr. Staff Software Engineer - Managed Tables](https://databricks.com/company/careers/open-positions/job?gh_jid=8555864002) | Mountain View, California | 7d |
 | Databricks | [Sr. Staff Software Engineer - Money Team](https://databricks.com/company/careers/open-positions/job?gh_jid=8285949002) | Bellevue, Washington | 7d |
 | Databricks | [Sr. Staff Software Engineer - Unity Catalog Data Governance](https://databricks.com/company/careers/open-positions/job?gh_jid=7993609002) | Bellevue, Washington | 7d |
-| Databricks | [Sr. Staff Software Engineer — Observability, Insights & Governance](https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002) | Mountain View, California; San Francisco, California | 7d |
 | Databricks | [Sr. Staff Software Engineer — Observability, Insights & Governance](https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002) | Bellevue, Washington; Seattle, Washington | 7d |
+| Databricks | [Sr. Staff Software Engineer — Observability, Insights & Governance](https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002) | Mountain View, California; San Francisco, California | 7d |
 | Databricks | [Sr.Staff Software Engineer- Network Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8462811002) | Bengaluru, India | 7d |
 | Databricks | [Staff Backend Software Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8468436002) | New York | 7d |
 | Databricks | [Staff Backend Software Engineer- (AI Platform)](https://databricks.com/company/careers/open-positions/job?gh_jid=8367019002) | San Francisco, California | 7d |
 | Databricks | [Staff Frontend Engineer - UI Platform - Seattle](https://databricks.com/company/careers/open-positions/job?gh_jid=8399551002) | Seattle, Washington | 7d |
 | Databricks | [Staff Fullstack Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=6704975002) | San Francisco, California | 7d |
-| Databricks | [Staff Fullstack Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002) | Mountain View, California | 7d |
 | Databricks | [Staff Fullstack Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8220840002) | Mountain View, California | 7d |
+| Databricks | [Staff Fullstack Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002) | Mountain View, California | 7d |
 | Databricks | [Staff Software Engineer (Core Experiences)](https://databricks.com/company/careers/open-positions/job?gh_jid=6716344002) | Bengaluru, India | 7d |
 | Databricks | [Staff Software Engineer (Data Platform)](https://databricks.com/company/careers/open-positions/job?gh_jid=7652016002) | Bengaluru, India | 7d |
 | Databricks | [Staff Software Engineer (Infrastructure)](https://databricks.com/company/careers/open-positions/job?gh_jid=7648674002) | Bengaluru, India | 7d |
@@ -1204,16 +1248,16 @@ Total roles: 2121
 | Databricks | [Staff Software Engineer - AI Platform (NYC)](https://databricks.com/company/careers/open-positions/job?gh_jid=8509536002) | New York City, New York | 7d |
 | Databricks | [Staff Software Engineer - AI Research Infrastructure](https://databricks.com/company/careers/open-positions/job?gh_jid=8552484002) | New York City, New York; San Francisco, California | 7d |
 | Databricks | [Staff Software Engineer - AI Research Infrastructure](https://databricks.com/company/careers/open-positions/job?gh_jid=8532682002) | New York City, New York; San Francisco, California | 7d |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002) | Mountain View, California | 7d |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002) | Berlin, Germany | 7d |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002) | Seattle, Washington | 7d |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002) | San Francisco, California | 7d |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002) | Bengaluru, India | 7d |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002) | Amsterdam, Netherlands | 7d |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002) | Belgrade, Serbia | 7d |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002) | Bellevue, Washington | 7d |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8093293002) | Vancouver, Canada | 7d |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002) | San Francisco, California | 7d |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002) | Seattle, Washington | 7d |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002) | Berlin, Germany | 7d |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002) | Mountain View, California | 7d |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002) | Belgrade, Serbia | 7d |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002) | Amsterdam, Netherlands | 7d |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002) | Bengaluru, India | 7d |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002) | London, United Kingdom | 7d |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8093293002) | Vancouver, Canada | 7d |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7642799002) | Aarhus, Denmark | 7d |
 | Databricks | [Staff Software Engineer - Customer Engagement & Docs Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8032546002) | San Francisco, California | 7d |
 | Databricks | [Staff Software Engineer - Data Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=7601572002) | Bengaluru, India | 7d |
@@ -1221,9 +1265,9 @@ Total roles: 2121
 | Databricks | [Staff Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=8012818002) | Belgrade, Serbia | 7d |
 | Databricks | [Staff Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002) | San Francisco, California | 7d |
 | Databricks | [Staff Software Engineer - Databases](https://databricks.com/company/careers/open-positions/job?gh_jid=7601565002) | Bengaluru, India | 7d |
-| Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002) | San Francisco, California | 7d |
-| Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002) | Bellevue, Washington | 7d |
 | Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002) | Mountain View, California | 7d |
+| Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002) | Bellevue, Washington | 7d |
+| Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002) | San Francisco, California | 7d |
 | Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002) | Belgrade, Serbia | 7d |
 | Databricks | [Staff Software Engineer - Frontend (NYC)](https://databricks.com/company/careers/open-positions/job?gh_jid=8384595002) | New York City, New York | 7d |
 | Databricks | [Staff Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=8099343002) | Vancouver, Canada | 7d |
@@ -1232,16 +1276,16 @@ Total roles: 2121
 | Databricks | [Staff Software Engineer - GenAI Performance and Kernel](https://databricks.com/company/careers/open-positions/job?gh_jid=8202700002) | San Francisco, California | 7d |
 | Databricks | [Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002) | Mountain View, California | 7d |
 | Databricks | [Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002) | Bellevue, Washington | 7d |
-| Databricks | [Staff Software Engineer - Ingestion](https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002) | Bengaluru, India | 7d |
 | Databricks | [Staff Software Engineer - Ingestion](https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002) | Bengaluru, India | 7d |
+| Databricks | [Staff Software Engineer - Ingestion](https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002) | Bengaluru, India | 7d |
 | Databricks | [Staff Software Engineer - Money Team](https://databricks.com/company/careers/open-positions/job?gh_jid=7111068002) | Bellevue, Washington | 7d |
 | Databricks | [Staff Software Engineer - Multi Cloud Efficiency](https://databricks.com/company/careers/open-positions/job?gh_jid=8593107002) | Bengaluru, India | 7d |
 | Databricks | [Staff Software Engineer - Streaming](https://databricks.com/company/careers/open-positions/job?gh_jid=8663972002) | Seattle, Washington | 7d |
 | Databricks | [Staff Software Engineer - User Activation](https://databricks.com/company/careers/open-positions/job?gh_jid=7979523002) | San Francisco, California | 7d |
 | Databricks | [Staff Software Engineer – Customer Experience Intelligence (CXI)](https://databricks.com/company/careers/open-positions/job?gh_jid=8416959002) | Mountain View, California; San Francisco, California | 7d |
 | Databricks | [Staff Software Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8635182002) | Mountain View, California | 7d |
-| Databricks | [Staff Software Engineer, AI Native Web Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002) | Mountain View, California | 7d |
 | Databricks | [Staff Software Engineer, AI Native Web Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002) | Mountain View, California | 7d |
+| Databricks | [Staff Software Engineer, AI Native Web Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002) | Mountain View, California | 7d |
 | Databricks | [Staff Software Engineer, AI Runtime](https://databricks.com/company/careers/open-positions/job?gh_jid=8582271002) | Mountain View, California; San Francisco, California | 7d |
 | Databricks | [Staff Software Engineer, AI Search](https://databricks.com/company/careers/open-positions/job?gh_jid=8578177002) | Mountain View, California | 7d |
 | Databricks | [Staff Software Engineer, Foundation Model Inference](https://databricks.com/company/careers/open-positions/job?gh_jid=8637143002) | San Francisco, California | 7d |
@@ -1255,23 +1299,12 @@ Total roles: 2121
 | Databricks | [Staff Software Engineer- Networking](https://databricks.com/company/careers/open-positions/job?gh_jid=7648669002) | Bengaluru, India | 7d |
 | Databricks | [Staff Software Engineer- Public Sector](https://databricks.com/company/careers/open-positions/job?gh_jid=8517555002) | Virginia | 7d |
 | Databricks | [Staff Software Engineer- Search Quality](https://databricks.com/company/careers/open-positions/job?gh_jid=8439348002) | Bengaluru, India | 7d |
-| Databricks | [Systems PhD - Software Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002) | Mountain View, California; San Francisco, California | 7d |
 | Databricks | [Systems PhD - Software Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002) | Bellevue, Washington; Seattle, Washington | 7d |
+| Databricks | [Systems PhD - Software Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002) | Mountain View, California; San Francisco, California | 7d |
 | Discord | [Senior Software Engineer, Data Platform](https://job-boards.greenhouse.io/discord/jobs/8694476002) | San Francisco Bay Area | 7d |
 | Discord | [Software Engineer, Distributed Systems](https://job-boards.greenhouse.io/discord/jobs/8545663002) | San Francisco Bay Area | 7d |
 | Discord | [Staff Software Engineer, Data Platform](https://job-boards.greenhouse.io/discord/jobs/8498984002) | San Francisco, CA | 7d |
 | Discord | [Staff Software Engineer, Experimentation Platform](https://job-boards.greenhouse.io/discord/jobs/8700605002) | San Francisco Bay Area | 7d |
-| Elastic | [Principal Software Developer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138661&gh_jid=8138661) | Canada | 7d |
-| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138692&gh_jid=8138692) | Portugal | 7d |
-| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138690&gh_jid=8138690) | Norway | 7d |
-| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138694&gh_jid=8138694) | Romania | 7d |
-| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138683&gh_jid=8138683) | Greece | 7d |
-| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8119454&gh_jid=8119454) | United States | 7d |
-| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138687&gh_jid=8138687) | Ireland | 7d |
-| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138696&gh_jid=8138696) | Spain | 7d |
-| Elastic | [Principal Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138699&gh_jid=8138699) | Poland | 7d |
-| Elastic | [Senior Software Developer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8138559&gh_jid=8138559) | Canada | 7d |
-| Elastic | [Senior Software Engineer - Performance Tuning - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8119450&gh_jid=8119450) | United States | 7d |
 | Figma | [Software Engineer - AI Product (London, United Kingdom)](https://boards.greenhouse.io/figma/jobs/5551697004?gh_jid=5551697004) | London, England | 7d |
 | Figma | [Software Engineer - Application Platform](https://boards.greenhouse.io/figma/jobs/6142506004?gh_jid=6142506004) | San Francisco, CA • New York, NY • United States | 7d |
 | N26 | [iOS Engineer](https://n26.com/en-eu/careers/positions/8108409?gh_jid=8108409) | Berlin, Barcelona | 7d |
@@ -1303,8 +1336,8 @@ Total roles: 2121
 | Stripe | [Backend Engineer, Payments and Risk](https://stripe.com/jobs/search?gh_jid=7232592) | US | 7d |
 | Stripe | [Backend Engineer, Privy](https://stripe.com/jobs/search?gh_jid=7235875) | NYC-Privy | 7d |
 | Stripe | [Backend Engineer/API, Payments and Risk](https://stripe.com/jobs/search?gh_jid=4921361) | Dublin, Ireland | 7d |
-| Stripe | [Backend/API Engineer, Money as a Service](https://stripe.com/jobs/search?gh_jid=6176758) | US | 7d |
 | Stripe | [Backend/API Engineer, Money as a Service](https://stripe.com/jobs/search?gh_jid=7369543) | United Kingdom | 7d |
+| Stripe | [Backend/API Engineer, Money as a Service](https://stripe.com/jobs/search?gh_jid=6176758) | US | 7d |
 | Stripe | [Designer, Web Presence & Platform](https://stripe.com/jobs/search?gh_jid=7977745) | US / Cananda | 7d |
 | Stripe | [Engineering Manager, AI Conversation Platform](https://stripe.com/jobs/search?gh_jid=7943804) | Toronto, Canada | 7d |
 | Stripe | [Engineering Manager, Infrastructure](https://stripe.com/jobs/search?gh_jid=8128496) | Seattle, San Francisco, New York City | 7d |
@@ -1403,8 +1436,6 @@ Total roles: 2121
 | Amazon | [Software Development Engineer II (ADBL188)](https://www.amazon.jobs/en/jobs/10489763/software-development-engineer-ii-adbl188) | Newark, New Jersey, USA | 11d |
 | Coupang | [Sr. Staff Back-end Engineer (Coupang Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=7936538) | Seoul, South Korea | 11d |
 | Dropbox | [Infrastructure Software Engineer, Metadata Core](https://jobs.dropbox.com/listing/7958409?gh_jid=7958409) | Remote - Poland | 11d |
-| Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8131025&gh_jid=8131025) | Portugal | 11d |
-| Elastic | [Senior Software Engineer - Integrations 3P - Platform](https://jobs.elastic.co/jobs?gh_jid=8131024&gh_jid=8131024) | Ireland | 11d |
 | Figma | [Manager, Design - Systems & Infrastructure](https://boards.greenhouse.io/figma/jobs/6135656004?gh_jid=6135656004) | San Francisco, CA • New York, NY • United States | 11d |
 | Lyft | [Software Engineer, Fulfillment Core Services](https://app.careerpuck.com/job-board/lyft/job/8716222002?gh_jid=8716222002) | Seattle, WA | 11d |
 | Lyft | [Software Engineer, Observability](https://app.careerpuck.com/job-board/lyft/job/8716220002?gh_jid=8716220002) | Toronto, Canada | 11d |
@@ -1478,10 +1509,6 @@ Total roles: 2121
 | Coupang | [Senior Staff Backend Engineer - Fraud Detection](https://www.coupang.jobs/en/jobs/?gh_jid=8064140) | Bengaluru | 13d |
 | Coupang | [Senior Staff, Back-end Engineer (New Fintech Product Engineering)](https://www.coupang.jobs/en/jobs/?gh_jid=8088014) | Seoul, South Korea | 13d |
 | Discord | [Senior Software Engineer, Ads](https://job-boards.greenhouse.io/discord/jobs/8697883002) | San Francisco Bay Area | 13d |
-| Elastic | [Software Engineer II (Networking) - Platform Infra](https://jobs.elastic.co/jobs?gh_jid=8125983&gh_jid=8125983) | Norway | 13d |
-| Elastic | [Software Engineer II (Networking) - Platform Infra](https://jobs.elastic.co/jobs?gh_jid=8053905&gh_jid=8053905) | Greece | 13d |
-| Elastic | [Software Engineer II (Networking) - Platform Infra](https://jobs.elastic.co/jobs?gh_jid=8125975&gh_jid=8125975) | Spain | 13d |
-| Elastic | [Software Engineer II (Networking) - Platform Infra](https://jobs.elastic.co/jobs?gh_jid=8125987&gh_jid=8125987) | Portugal | 13d |
 | Plaid | [Staff Software Engineer - AI & Intelligent Tooling](https://jobs.ashbyhq.com/plaid/41448609-24d6-44ea-a5ba-c87cf3dc3f0d) | San Francisco HQ | 13d |
 | Snowflake | [Cloud Infrastructure Engineer](https://jobs.ashbyhq.com/snowflake/4fe8d816-0453-4d63-ae0a-2085a5a49101) | US-CA-Dublin | 13d |
 | SpaceX | [Full Stack Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8701392002?gh_jid=8701392002) | Redmond, WA | 13d |
@@ -1497,7 +1524,6 @@ Total roles: 2121
 | Cohere | [Software Engineer, Integrations](https://jobs.ashbyhq.com/cohere/96c74af4-b3d7-4960-a666-212ce4debac8) | Europe | 14d |
 | Coupang | [Senior Staff Backend Engineer (Pricing)](https://www.coupang.jobs/en/jobs/?gh_jid=8120779) | Seattle, USA | 14d |
 | Coupang | [Senior Staff Backend Engineer (Pricing)](https://www.coupang.jobs/en/jobs/?gh_jid=8123934) | Mountain View, USA | 14d |
-| Elastic | [Java Developer II - AutoOps Services - Platform Applications](https://jobs.elastic.co/jobs?gh_jid=8088738&gh_jid=8088738) | Canada | 14d |
 | Figma | [Manager, Software Engineering - Data Platform](https://boards.greenhouse.io/figma/jobs/6135721004?gh_jid=6135721004) | San Francisco, CA • New York, NY • United States | 14d |
 | Figma | [Software Engineer - AI Platforms](https://boards.greenhouse.io/figma/jobs/5691886004?gh_jid=5691886004) | San Francisco, CA • New York, NY • United States | 14d |
 | Figma | [Software Engineer - AI Product](https://boards.greenhouse.io/figma/jobs/5551730004?gh_jid=5551730004) | San Francisco, CA • New York, NY • United States | 14d |
@@ -1530,32 +1556,6 @@ Total roles: 2121
 | Substack | [Full Stack Software Engineer - Community](https://jobs.ashbyhq.com/substack/46b21719-a949-44ab-8b0f-8baa1c7f0392) | San Francisco (HQ) | 14d |
 | Coupang | [Staff Mobile Engineer (TW Android)](https://www.coupang.jobs/en/jobs/?gh_jid=8118893) | Beijing, China | 15d |
 | Dlocal | [Platform Architect](https://jobs.lever.co/dlocal/69656039-9233-4406-94de-1dd729eaf8cc) | Madrid | 15d |
-| Elastic | [Platform Engineer - Kubernetes](https://jobs.elastic.co/jobs?gh_jid=8047349&gh_jid=8047349) | United States | 15d |
-| Elastic | [Principal Software Developer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074820&gh_jid=8074820) | Canada | 15d |
-| Elastic | [Principal software developer/Tech Lead, Agent Framework - Observability](https://jobs.elastic.co/jobs?gh_jid=8106089&gh_jid=8106089) | Canada | 15d |
-| Elastic | [Principal Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074819&gh_jid=8074819) | United States | 15d |
-| Elastic | [Senior Java Developer - Core/Infra - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074285&gh_jid=8074285) | Canada | 15d |
-| Elastic | [Senior Java Engineer - Core/Infra - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8053886&gh_jid=8053886) | United States | 15d |
-| Elastic | [Senior Software Developer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074844&gh_jid=8074844) | Canada | 15d |
-| Elastic | [Senior Software Engineer - SSC](https://jobs.elastic.co/jobs?gh_jid=8111965&gh_jid=8111965) | Ireland | 15d |
-| Elastic | [Senior Software Engineer - SSC](https://jobs.elastic.co/jobs?gh_jid=8111793&gh_jid=8111793) | Greece | 15d |
-| Elastic | [Senior Software Engineer - SSC](https://jobs.elastic.co/jobs?gh_jid=8111792&gh_jid=8111792) | Spain | 15d |
-| Elastic | [Senior Software Engineer - SSC](https://jobs.elastic.co/jobs?gh_jid=8111966&gh_jid=8111966) | Portugal | 15d |
-| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074889&gh_jid=8074889) | Portugal | 15d |
-| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074894&gh_jid=8074894) | Romania | 15d |
-| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074886&gh_jid=8074886) | Greece | 15d |
-| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074854&gh_jid=8074854) | Ireland | 15d |
-| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074895&gh_jid=8074895) | Norway | 15d |
-| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8074855&gh_jid=8074855) | Spain | 15d |
-| Elastic | [Senior Software Engineer - Storage Engine - Elasticsearch](https://jobs.elastic.co/jobs?gh_jid=8066491&gh_jid=8066491) | United States | 15d |
-| Elastic | [Software Engineer II - Full Stack - Web Engineering](https://jobs.elastic.co/jobs?gh_jid=8080260&gh_jid=8080260) | Portugal | 15d |
-| Elastic | [Software Engineer II - Full Stack - Web Engineering](https://jobs.elastic.co/jobs?gh_jid=8080264&gh_jid=8080264) | Greece | 15d |
-| Elastic | [Software Engineer II - Full Stack - Web Engineering](https://jobs.elastic.co/jobs?gh_jid=8080263&gh_jid=8080263) | Spain | 15d |
-| Elastic | [Software Engineer II - Full Stack - Web Engineering](https://jobs.elastic.co/jobs?gh_jid=8097064&gh_jid=8097064) | Ireland | 15d |
-| Elastic | [Software Engineer II - Platform Infrastructure (Orchestration)](https://jobs.elastic.co/jobs?gh_jid=8025629&gh_jid=8025629) | Norway | 15d |
-| Elastic | [Software Engineer II - Platform Infrastructure (Orchestration)](https://jobs.elastic.co/jobs?gh_jid=8025626&gh_jid=8025626) | Portugal | 15d |
-| Elastic | [Software Engineer II - Platform Infrastructure (Orchestration)](https://jobs.elastic.co/jobs?gh_jid=8025625&gh_jid=8025625) | Greece | 15d |
-| Elastic | [Software Engineer II - Platform Infrastructure (Orchestration)](https://jobs.elastic.co/jobs?gh_jid=7976542&gh_jid=7976542) | Spain | 15d |
 | Lyft | [Senior Software Engineer, Places and Search](https://app.careerpuck.com/job-board/lyft/job/8693500002?gh_jid=8693500002) | Toronto, Canada | 15d |
 | Notion | [Software Engineer, Collections Infra](https://jobs.ashbyhq.com/notion/ca74504a-9b91-4ce3-b0df-97919b46e749) | San Francisco, California | 15d |
 | Phonepe | [Engineering Manager, Backend](https://job-boards.greenhouse.io/phonepe/jobs/7847265003) | Bangalore | 15d |
@@ -1600,8 +1600,8 @@ Total roles: 2121
 | Coupang | [Sr. Staff Observability Software Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8107448) | Mountain View, USA; Seattle, USA | 20d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7953040) | Hyderabad | 20d |
 | Dropbox | [Infrastructure Software Engineer](https://jobs.dropbox.com/listing/6330377?gh_jid=6330377) | Remote - Poland | 20d |
-| Dropbox | [Principal Software Engineer, Core Sharing & Collaboration](https://jobs.dropbox.com/listing/8006972?gh_jid=8006972) | Remote - US: All locations | 20d |
 | Dropbox | [Principal Software Engineer, Core Sharing & Collaboration](https://jobs.dropbox.com/listing/8006977?gh_jid=8006977) | Remote - Canada: Select locations | 20d |
+| Dropbox | [Principal Software Engineer, Core Sharing & Collaboration](https://jobs.dropbox.com/listing/8006972?gh_jid=8006972) | Remote - US: All locations | 20d |
 | Dropbox | [Senior Infrastructure Software Engineer](https://jobs.dropbox.com/listing/6333181?gh_jid=6333181) | Remote - Poland | 20d |
 | Janestreet | [Enterprise Mobility Platform Engineer](https://www.janestreet.com/join-jane-street/apply/7871047002?gh_jid=7871047002) | London, England, United Kingdom | 20d |
 | Lyft | [Software Engineer](https://app.careerpuck.com/job-board/lyft/job/8678744002?gh_jid=8678744002) | San Francisco, CA | 20d |
@@ -1635,7 +1635,6 @@ Total roles: 2121
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/721fe5ca-73b8-4223-826e-93a528194821) | Palo Alto, CA | 21d |
 | Palantir | [Platform Engineer - Identity Infrastructure](https://jobs.lever.co/palantir/a80afc2b-2564-4a98-84c2-34cdcc0402df) | Washington, D.C. | 21d |
 | Reddit | [Senior Backend Engineer, IAM](https://job-boards.greenhouse.io/reddit/jobs/8044767) | Remote - United States | 21d |
-| Scaleai | [AI Infrastructure Engineer, Sandbox Platform](https://job-boards.greenhouse.io/scaleai/jobs/4717105005) | London, UK | 21d |
 | Scaleai | [AI Infrastructure Engineer, Serving Platform](https://job-boards.greenhouse.io/scaleai/jobs/4717977005) | London, UK | 21d |
 | Scaleai | [Engineering Manager, Infrastructure](https://job-boards.greenhouse.io/scaleai/jobs/4719479005) | London, UK | 21d |
 | Scaleai | [Senior Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4676606005) | Doha, Qatar | 21d |
@@ -1670,8 +1669,8 @@ Total roles: 2121
 | SpaceX | [Software Engineer, AI Satellites (Starmind)](https://boards.greenhouse.io/spacex/jobs/8676015002?gh_jid=8676015002) | Bastrop, TX | 21d |
 | SpaceX | [Sr. Full Stack Engineer, Internal Systems](https://boards.greenhouse.io/spacex/jobs/8675900002?gh_jid=8675900002) | Hawthorne, CA | 21d |
 | Airbnb | [Senior Web Automation Engineer, Quality Platform](https://careers.airbnb.com/positions/7863467?gh_jid=7863467) | Brazil | 22d |
-| Block | [Senior Site Reliability Engineer](http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008) | New York, NY, United States of America | 22d |
 | Block | [Senior Site Reliability Engineer](http://block.xyz/careers/jobs/5181749008?gh_jid=5181749008) | Bay Area, CA, United States of America | 22d |
+| Block | [Senior Site Reliability Engineer](http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008) | New York, NY, United States of America | 22d |
 | Block | [Senior Site Reliability Engineer](http://block.xyz/careers/jobs/5225436008?gh_jid=5225436008) | Melbourne, Australia | 22d |
 | Block | [Senior Software Engineer, Cash App Taxes](http://block.xyz/careers/jobs/5207134008?gh_jid=5207134008) | New York, NY, United States of America | 22d |
 | Block | [Senior Software Engineer, Cash App Taxes](http://block.xyz/careers/jobs/5196187008?gh_jid=5196187008) | Bay Area, CA, United States of America | 22d |
@@ -1680,12 +1679,12 @@ Total roles: 2121
 | Block | [Software Engineer, Reconciliation & Reporting](http://block.xyz/careers/jobs/5369941008?gh_jid=5369941008) | Bay Area, CA, United States of America | 22d |
 | Block | [Staff Android Software Engineer, Cash App Consumer Platform](http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008) | Bay Area, CA, United States of America | 22d |
 | Block | [Staff Android Software Engineer, Cash App Consumer Platform](http://block.xyz/careers/jobs/5238423008?gh_jid=5238423008) | New York, NY, United States of America | 22d |
-| Block | [Staff Software Engineer, Cash App Banking](http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008) | Toronto, Ontario, Canada | 22d |
-| Block | [Staff Software Engineer, Cash App Banking](http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008) | Bay Area, CA, United States of America | 22d |
 | Block | [Staff Software Engineer, Cash App Banking](http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008) | New York, NY, United States of America | 22d |
+| Block | [Staff Software Engineer, Cash App Banking](http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008) | Bay Area, CA, United States of America | 22d |
+| Block | [Staff Software Engineer, Cash App Banking](http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008) | Toronto, Ontario, Canada | 22d |
+| Block | [Tech Lead, Business Platform Engineering (Bizplat)](http://block.xyz/careers/jobs/5311661008?gh_jid=5311661008) | New York, NY, United States of America | 22d |
 | Block | [Tech Lead, Business Platform Engineering (Bizplat)](http://block.xyz/careers/jobs/5025564008?gh_jid=5025564008) | Bay Area, CA, United States of America | 22d |
 | Block | [Tech Lead, Business Platform Engineering (Bizplat)](http://block.xyz/careers/jobs/5025566008?gh_jid=5025566008) | Toronto, Ontario, Canada | 22d |
-| Block | [Tech Lead, Business Platform Engineering (Bizplat)](http://block.xyz/careers/jobs/5311661008?gh_jid=5311661008) | New York, NY, United States of America | 22d |
 | Coinbase | [Senior Enterprise Engineer - Salesforce Platform (EAA - STP)](https://www.coinbase.com/careers/positions/7652048?gh_jid=7652048) | Remote - USA | 22d |
 | Coinbase | [Senior Software Engineer, Backend - Platform (Tokens & Wrapped Assets)](https://www.coinbase.com/careers/positions/8095252?gh_jid=8095252) | Remote - USA | 22d |
 | Coupang | [[CFN] Staff Back-end Engineer (Lending Engineering)](https://www.coupang.jobs/en/jobs/?gh_jid=8102540) | Seoul, South Korea | 22d |
@@ -1696,8 +1695,8 @@ Total roles: 2121
 | SpaceX | [Full Stack Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8675232002?gh_jid=8675232002) | Palo Alto, CA | 22d |
 | SpaceX | [Software Engineer, Backend (C/C++)](https://boards.greenhouse.io/spacex/jobs/8672397002?gh_jid=8672397002) | Hawthorne, CA | 22d |
 | SpaceX | [Software Engineer, Telemetry - Top Secret Clearance (Starlink)](https://boards.greenhouse.io/spacex/jobs/8656274002?gh_jid=8656274002) | Hawthorne, CA | 22d |
-| SpaceX | [Sr. Software Engineer, CDN (Starlink)](https://boards.greenhouse.io/spacex/jobs/8632177002?gh_jid=8632177002) | Redmond, WA | 22d |
 | SpaceX | [Sr. Software Engineer, CDN (Starlink)](https://boards.greenhouse.io/spacex/jobs/8672206002?gh_jid=8672206002) | Palo Alto, CA | 22d |
+| SpaceX | [Sr. Software Engineer, CDN (Starlink)](https://boards.greenhouse.io/spacex/jobs/8632177002?gh_jid=8632177002) | Redmond, WA | 22d |
 | Amazon | [Software Development Engineer II (ADBL190)](https://www.amazon.jobs/en/jobs/10489788/software-development-engineer-ii-adbl190) | Newark, New Jersey, USA | 23d |
 | Cohere | [Forward Deployed Engineer, Agentic Platform](https://jobs.ashbyhq.com/cohere/b0bcef37-1d20-414f-aade-c54942d63df9) | United States | 24d |
 | Cohere | [Forward Deployed Engineer, Agentic Platform (West Coast)](https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9) | San Francisco | 24d |
@@ -1768,13 +1767,13 @@ Total roles: 2121
 | Janestreet | [Software Engineer / Writer](https://www.janestreet.com/join-jane-street/apply/7604415002?gh_jid=7604415002) | New York, New York, United States | 26d |
 | Lyft | [Software Engineer, Privacy](https://app.careerpuck.com/job-board/lyft/job/8658624002?gh_jid=8658624002) | Mexico City, Mexico | 26d |
 | Snowflake | [Software Engineer, Applied AI](https://jobs.ashbyhq.com/snowflake/6e31e0cb-7821-4dcf-9d69-0afce918bcc4) | PL-Warsaw-Lixa C | 26d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002) | Redmond, WA | 26d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658743002?gh_jid=8658743002) | Cape Canaveral, FL | 26d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002) | Vandenberg, CA | 26d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002) | McGregor, TX | 26d |
 | SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002) | Starbase, TX | 26d |
-| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002) | Bastrop, TX | 26d |
 | SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002) | Hawthorne, CA | 26d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002) | Vandenberg, CA | 26d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658743002?gh_jid=8658743002) | Cape Canaveral, FL | 26d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002) | McGregor, TX | 26d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002) | Bastrop, TX | 26d |
+| SpaceX | [Application Software Engineer, Applied AI](https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002) | Redmond, WA | 26d |
 | SpaceX | [Software Engineer, Data - Top Secret Clearance (Starlink)](https://boards.greenhouse.io/spacex/jobs/8640537002?gh_jid=8640537002) | Hawthorne, CA | 26d |
 | Airbnb | [Senior Staff Software Engineer, Marketing Technology](https://careers.airbnb.com/positions/8095365?gh_jid=8095365) | Remote, USA | 27d |
 | Openai | [Software Engineer, Enterprise Verticals](https://jobs.ashbyhq.com/openai/3229b152-015f-49ad-9921-9c9de95570c8) | San Francisco | 27d |
@@ -1818,9 +1817,9 @@ Total roles: 2121
 | Snowflake | [Principal Software Engineer](https://jobs.ashbyhq.com/snowflake/ef4a5f8b-76c5-4b98-a52a-6e65aef426ba) | US-CA-Menlo Park | 28d |
 | Snowflake | [Software Engineer - Database Engineering](https://jobs.ashbyhq.com/snowflake/db1375f0-ea5d-404a-b640-259f94dbc995) | US-CA-Menlo Park | 28d |
 | SpaceX | [Software Engineer, Power Optimization (Starlink)](https://boards.greenhouse.io/spacex/jobs/8647459002?gh_jid=8647459002) | Redmond, WA | 28d |
-| SpaceX | [Sr. Site Reliability Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8654200002?gh_jid=8654200002) | Redmond, WA | 28d |
-| SpaceX | [Sr. Site Reliability Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8639503002?gh_jid=8639503002) | Hawthorne, CA | 28d |
 | SpaceX | [Sr. Site Reliability Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8654199002?gh_jid=8654199002) | Palo Alto, CA | 28d |
+| SpaceX | [Sr. Site Reliability Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8639503002?gh_jid=8639503002) | Hawthorne, CA | 28d |
+| SpaceX | [Sr. Site Reliability Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8654200002?gh_jid=8654200002) | Redmond, WA | 28d |
 | Spotify | [Fullstack Engineer - Subscriptions](https://jobs.lever.co/spotify/1e8c984e-fa8e-4dbb-8f74-6f608ae3bfa1) | London | 28d |
 | Coinbase | [Senior Software Engineer, Frontend (Consumer - Payments)](https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035) | Remote - USA | 29d |
 | Openai | [Software Engineer - Data Aquisition (systems)](https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01) | San Francisco | 29d |
@@ -1855,18 +1854,18 @@ Total roles: 2121
 | Lyft | [Senior Platform Engineer, Workday Extend & Integrations](https://app.careerpuck.com/job-board/lyft/job/8621017002?gh_jid=8621017002) | San Francisco, CA | 1mo |
 | SpaceX | [AI Software Engineer (Vehicle Engineering)](https://boards.greenhouse.io/spacex/jobs/8559015002?gh_jid=8559015002) | Hawthorne, CA | 1mo |
 | SpaceX | [Antenna Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8587170002?gh_jid=8587170002) | Redmond, WA | 1mo |
-| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002) | Starbase, TX | 1mo |
-| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8494240002?gh_jid=8494240002) | Bastrop, TX | 1mo |
 | SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611189002?gh_jid=8611189002) | Palo Alto, CA | 1mo |
-| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002) | Memphis, TN | 1mo |
 | SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8643772002?gh_jid=8643772002) | Cape Canaveral, FL | 1mo |
+| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8494240002?gh_jid=8494240002) | Bastrop, TX | 1mo |
+| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611191002?gh_jid=8611191002) | Memphis, TN | 1mo |
+| SpaceX | [Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002) | Starbase, TX | 1mo |
 | SpaceX | [Application Software Engineer, Employee Experience](https://boards.greenhouse.io/spacex/jobs/8632106002?gh_jid=8632106002) | Starbase, TX | 1mo |
 | SpaceX | [Application Software Engineer, Manufacturing Systems](https://boards.greenhouse.io/spacex/jobs/8600012002?gh_jid=8600012002) | Bastrop, TX | 1mo |
 | SpaceX | [Civil Engineer, Starbase Infrastructure (Starship)](https://boards.greenhouse.io/spacex/jobs/8583754002?gh_jid=8583754002) | Starbase, TX | 1mo |
 | SpaceX | [Construction Project Manager (Facilities Infrastructure)](https://boards.greenhouse.io/spacex/jobs/8623616002?gh_jid=8623616002) | Cape Canaveral, FL | 1mo |
 | SpaceX | [Electrical Engineer, Facilities Infrastructure](https://boards.greenhouse.io/spacex/jobs/8583707002?gh_jid=8583707002) | Cape Canaveral, FL | 1mo |
-| SpaceX | [Embedded Software Engineer, Laser Mesh Routing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578934002?gh_jid=8578934002) | Palo Alto, CA | 1mo |
 | SpaceX | [Embedded Software Engineer, Laser Mesh Routing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578936002?gh_jid=8578936002) | Redmond, WA | 1mo |
+| SpaceX | [Embedded Software Engineer, Laser Mesh Routing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578934002?gh_jid=8578934002) | Palo Alto, CA | 1mo |
 | SpaceX | [Embedded Software Engineer, OS/Platform (Starlink)](https://boards.greenhouse.io/spacex/jobs/8552893002?gh_jid=8552893002) | Redmond, WA | 1mo |
 | SpaceX | [Embedded Software Engineer, OS/Platform (Starlink)](https://boards.greenhouse.io/spacex/jobs/8511391002?gh_jid=8511391002) | Bastrop, TX | 1mo |
 | SpaceX | [Embedded Software Engineer, OS/Platform (Starshield)](https://boards.greenhouse.io/spacex/jobs/8530798002?gh_jid=8530798002) | Hawthorne, CA | 1mo |
@@ -1898,15 +1897,15 @@ Total roles: 2121
 | SpaceX | [Mechanical Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8558427002?gh_jid=8558427002) | Redmond, WA | 1mo |
 | SpaceX | [Mechanical Engineer (Structures), Starship Infrastructure](https://boards.greenhouse.io/spacex/jobs/8617175002?gh_jid=8617175002) | Starbase, TX | 1mo |
 | SpaceX | [OS/Platform Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8552882002?gh_jid=8552882002) | Redmond, WA | 1mo |
+| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560572002?gh_jid=8560572002) | Bastrop, TX | 1mo |
+| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558817002?gh_jid=8558817002) | Redmond, WA | 1mo |
 | SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560575002?gh_jid=8560575002) | Starbase, TX | 1mo |
 | SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8494978002?gh_jid=8494978002) | Hawthorne, CA | 1mo |
-| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558817002?gh_jid=8558817002) | Redmond, WA | 1mo |
 | SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002) | Sunnyvale, CA | 1mo |
 | SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558839002?gh_jid=8558839002) | Palo Alto, CA | 1mo |
-| SpaceX | [Principal Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560572002?gh_jid=8560572002) | Bastrop, TX | 1mo |
 | SpaceX | [Principal Software Engineer, CDN (Starlink)](https://boards.greenhouse.io/spacex/jobs/8562265002?gh_jid=8562265002) | Palo Alto, CA | 1mo |
-| SpaceX | [Principal Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533843002?gh_jid=8533843002) | Hawthorne, CA | 1mo |
 | SpaceX | [Principal Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533847002?gh_jid=8533847002) | Starbase, TX | 1mo |
+| SpaceX | [Principal Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533843002?gh_jid=8533843002) | Hawthorne, CA | 1mo |
 | SpaceX | [Principal Wi-Fi Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8564810002?gh_jid=8564810002) | Palo Alto, CA | 1mo |
 | SpaceX | [Production Engineer, Site Reliability (Application Software)](https://boards.greenhouse.io/spacex/jobs/8649729002?gh_jid=8649729002) | Hawthorne, CA | 1mo |
 | SpaceX | [RF Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8624761002?gh_jid=8624761002) | Bastrop, TX | 1mo |
@@ -1922,35 +1921,35 @@ Total roles: 2121
 | SpaceX | [Software Engineer](https://boards.greenhouse.io/spacex/jobs/8563110002?gh_jid=8563110002) | McGregor, TX | 1mo |
 | SpaceX | [Software Engineer (Components)](https://boards.greenhouse.io/spacex/jobs/8557032002?gh_jid=8557032002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer (Flight Reliability)](https://boards.greenhouse.io/spacex/jobs/8512876002?gh_jid=8512876002) | Hawthorne, CA | 1mo |
-| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002) | Redmond, WA | 1mo |
-| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002) | Starbase, TX | 1mo |
 | SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002) | Palo Alto, CA | 1mo |
+| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002) | Sunnyvale, CA | 1mo |
 | SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560546002?gh_jid=8560546002) | Bastrop, TX | 1mo |
 | SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002) | Hawthorne, CA | 1mo |
-| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002) | Sunnyvale, CA | 1mo |
+| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002) | Starbase, TX | 1mo |
+| SpaceX | [Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002) | Redmond, WA | 1mo |
 | SpaceX | [Software Engineer (Special Projects) - Top Secret Clearance](https://boards.greenhouse.io/spacex/jobs/8568970002?gh_jid=8568970002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer (Starfall)](https://boards.greenhouse.io/spacex/jobs/8642274002?gh_jid=8642274002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer (Starlink Enterprise)](https://boards.greenhouse.io/spacex/jobs/8586637002?gh_jid=8586637002) | Palo Alto, CA | 1mo |
 | SpaceX | [Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8525359002?gh_jid=8525359002) | Redmond, WA | 1mo |
 | SpaceX | [Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8569790002?gh_jid=8569790002) | Redmond, WA | 1mo |
-| SpaceX | [Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8605075002?gh_jid=8605075002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8501199002?gh_jid=8501199002) | Redmond, WA | 1mo |
+| SpaceX | [Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8605075002?gh_jid=8605075002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer (Starshield) - Top Secret Clearance](https://boards.greenhouse.io/spacex/jobs/8621649002?gh_jid=8621649002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer (Starship)](https://boards.greenhouse.io/spacex/jobs/8569160002?gh_jid=8569160002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer (Starship)](https://boards.greenhouse.io/spacex/jobs/8569125002?gh_jid=8569125002) | Starbase, TX | 1mo |
 | SpaceX | [Software Engineer (Thermal & Fluid Analysis)](https://boards.greenhouse.io/spacex/jobs/8562437002?gh_jid=8562437002) | Starbase, TX | 1mo |
 | SpaceX | [Software Engineer, Applied AI (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637712002?gh_jid=8637712002) | Redmond, WA | 1mo |
-| SpaceX | [Software Engineer, Beam Planning (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578907002?gh_jid=8578907002) | Palo Alto, CA | 1mo |
 | SpaceX | [Software Engineer, Beam Planning (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578929002?gh_jid=8578929002) | Redmond, WA | 1mo |
+| SpaceX | [Software Engineer, Beam Planning (Starlink)](https://boards.greenhouse.io/spacex/jobs/8578907002?gh_jid=8578907002) | Palo Alto, CA | 1mo |
 | SpaceX | [Software Engineer, C++ (Dragon)](https://boards.greenhouse.io/spacex/jobs/8601802002?gh_jid=8601802002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, C++ (Raptor)](https://boards.greenhouse.io/spacex/jobs/8598038002?gh_jid=8598038002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, C++ (Simulations)](https://boards.greenhouse.io/spacex/jobs/8603609002?gh_jid=8603609002) | Hawthorne, CA | 1mo |
-| SpaceX | [Software Engineer, C++ (Starlink)](https://boards.greenhouse.io/spacex/jobs/8451960002?gh_jid=8451960002) | Sunnyvale, CA | 1mo |
 | SpaceX | [Software Engineer, C++ (Starlink)](https://boards.greenhouse.io/spacex/jobs/8477124002?gh_jid=8477124002) | Redmond, WA | 1mo |
+| SpaceX | [Software Engineer, C++ (Starlink)](https://boards.greenhouse.io/spacex/jobs/8451960002?gh_jid=8451960002) | Sunnyvale, CA | 1mo |
 | SpaceX | [Software Engineer, Components (Starshield)](https://boards.greenhouse.io/spacex/jobs/8625617002?gh_jid=8625617002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Components Test (Starshield)](https://boards.greenhouse.io/spacex/jobs/8625615002?gh_jid=8625615002) | Hawthorne, CA | 1mo |
-| SpaceX | [Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533859002?gh_jid=8533859002) | Starbase, TX | 1mo |
 | SpaceX | [Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533853002?gh_jid=8533853002) | Hawthorne, CA | 1mo |
+| SpaceX | [Software Engineer, Continuous Integration (Starship)](https://boards.greenhouse.io/spacex/jobs/8533859002?gh_jid=8533859002) | Starbase, TX | 1mo |
 | SpaceX | [Software Engineer, Design Engineering (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637713002?gh_jid=8637713002) | Redmond, WA | 1mo |
 | SpaceX | [Software Engineer, Design Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8466905002?gh_jid=8466905002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Design Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8466837002?gh_jid=8466837002) | Starbase, TX | 1mo |
@@ -1958,8 +1957,8 @@ Total roles: 2121
 | SpaceX | [Software Engineer, Embedded Software (Starshield)](https://boards.greenhouse.io/spacex/jobs/8436708002?gh_jid=8436708002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Engineering Simulation & Automation (Vehicle Engineering)](https://boards.greenhouse.io/spacex/jobs/8559054002?gh_jid=8559054002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Flight Software (Starlink)](https://boards.greenhouse.io/spacex/jobs/8551932002?gh_jid=8551932002) | Redmond, WA | 1mo |
-| SpaceX | [Software Engineer, Flight Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Flight Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8562284002?gh_jid=8562284002) | Starbase, TX | 1mo |
+| SpaceX | [Software Engineer, Flight Software (Starship)](https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Flight Software C++ (Starshield)](https://boards.greenhouse.io/spacex/jobs/8593183002?gh_jid=8593183002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Hardware Test & Automation (Starlink)](https://boards.greenhouse.io/spacex/jobs/8565155002?gh_jid=8565155002) | Redmond, WA | 1mo |
 | SpaceX | [Software Engineer, Hardware Test & Automation (Starshield)](https://boards.greenhouse.io/spacex/jobs/8574243002?gh_jid=8574243002) | Hawthorne, CA | 1mo |
@@ -1977,8 +1976,8 @@ Total roles: 2121
 | SpaceX | [Software Engineer, Satellite Systems (Starshield)](https://boards.greenhouse.io/spacex/jobs/8621508002?gh_jid=8621508002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Simulations (Application Software)](https://boards.greenhouse.io/spacex/jobs/8487534002?gh_jid=8487534002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Site Reliability Engineering (Application Software)](https://boards.greenhouse.io/spacex/jobs/8647095002?gh_jid=8647095002) | Hawthorne, CA | 1mo |
-| SpaceX | [Software Engineer, Starlink Network](https://boards.greenhouse.io/spacex/jobs/8477137002?gh_jid=8477137002) | Redmond, WA | 1mo |
 | SpaceX | [Software Engineer, Starlink Network](https://boards.greenhouse.io/spacex/jobs/8458001002?gh_jid=8458001002) | Sunnyvale, CA | 1mo |
+| SpaceX | [Software Engineer, Starlink Network](https://boards.greenhouse.io/spacex/jobs/8477137002?gh_jid=8477137002) | Redmond, WA | 1mo |
 | SpaceX | [Software Engineer, Starlink UX (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637755002?gh_jid=8637755002) | Redmond, WA | 1mo |
 | SpaceX | [Software Engineer, Test Infrastructure (Application Software)](https://boards.greenhouse.io/spacex/jobs/8585072002?gh_jid=8585072002) | Hawthorne, CA | 1mo |
 | SpaceX | [Software Engineer, Test Infrastructure (C/C++)](https://boards.greenhouse.io/spacex/jobs/8637049002?gh_jid=8637049002) | Hawthorne, CA | 1mo |
@@ -1986,11 +1985,11 @@ Total roles: 2121
 | SpaceX | [Software Infrastructure Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8584920002?gh_jid=8584920002) | Palo Alto, CA | 1mo |
 | SpaceX | [Sourcing Manager, Ground Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8619968002?gh_jid=8619968002) | Redmond, WA | 1mo |
 | SpaceX | [Sr. 3GPP RAN Standardization Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8633803002?gh_jid=8633803002) | Palo Alto, CA | 1mo |
-| SpaceX | [Sr. AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557262002?gh_jid=8557262002) | Washington, DC | 1mo |
 | SpaceX | [Sr. AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557126002?gh_jid=8557126002) | Palo Alto, CA | 1mo |
-| SpaceX | [Sr. Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611181002?gh_jid=8611181002) | Starbase, TX | 1mo |
+| SpaceX | [Sr. AI Engineer, Platform Infrastructure, Special Programs](https://boards.greenhouse.io/spacex/jobs/8557262002?gh_jid=8557262002) | Washington, DC | 1mo |
 | SpaceX | [Sr. Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8612668002?gh_jid=8612668002) | Bastrop, TX | 1mo |
 | SpaceX | [Sr. Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8594168002?gh_jid=8594168002) | Hawthorne, CA | 1mo |
+| SpaceX | [Sr. Application Software Engineer](https://boards.greenhouse.io/spacex/jobs/8611181002?gh_jid=8611181002) | Starbase, TX | 1mo |
 | SpaceX | [Sr. Civil Engineer, Offsite Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8497586002?gh_jid=8497586002) | Bastrop, TX | 1mo |
 | SpaceX | [Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8579132002?gh_jid=8579132002) | Palo Alto, CA | 1mo |
 | SpaceX | [Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)](https://boards.greenhouse.io/spacex/jobs/8579133002?gh_jid=8579133002) | Redmond, WA | 1mo |
@@ -2004,24 +2003,24 @@ Total roles: 2121
 | SpaceX | [Sr. Manager, Datacenter Compute Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8646604002?gh_jid=8646604002) | Palo Alto, CA | 1mo |
 | SpaceX | [Sr. Manager, Datacenter Compute Infrastructure (Starlink)](https://boards.greenhouse.io/spacex/jobs/8648026002?gh_jid=8648026002) | Austin, TX | 1mo |
 | SpaceX | [Sr. Mechanical Engineer, HVAC & Controls (Facilities Infrastructure)](https://boards.greenhouse.io/spacex/jobs/8540007002?gh_jid=8540007002) | Vandenberg, CA | 1mo |
-| SpaceX | [Sr. RF Front-End Module Design Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8562301002?gh_jid=8562301002) | Irvine, CA | 1mo |
 | SpaceX | [Sr. RF Front-End Module Design Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8499101002?gh_jid=8499101002) | Redmond, WA | 1mo |
 | SpaceX | [Sr. RF Front-End Module Design Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8562302002?gh_jid=8562302002) | Sunnyvale, CA | 1mo |
+| SpaceX | [Sr. RF Front-End Module Design Engineer (RFIC Engineering)](https://boards.greenhouse.io/spacex/jobs/8562301002?gh_jid=8562301002) | Irvine, CA | 1mo |
 | SpaceX | [Sr. RF Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8624890002?gh_jid=8624890002) | Bastrop, TX | 1mo |
 | SpaceX | [Sr. RF Software Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8573920002?gh_jid=8573920002) | Hawthorne, CA | 1mo |
 | SpaceX | [Sr. Simulation Software Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8487924002?gh_jid=8487924002) | Hawthorne, CA | 1mo |
 | SpaceX | [Sr. Site Reliability Engineer (Application Software)](https://boards.greenhouse.io/spacex/jobs/8611174002?gh_jid=8611174002) | Hawthorne, CA | 1mo |
-| SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002) | Redmond, WA | 1mo |
-| SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597497002?gh_jid=8597497002) | Hawthorne, CA | 1mo |
 | SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597547002?gh_jid=8597547002) | Washington, DC | 1mo |
+| SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597497002?gh_jid=8597497002) | Hawthorne, CA | 1mo |
+| SpaceX | [Sr. Site Reliability Engineer (Starshield)](https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002) | Redmond, WA | 1mo |
 | SpaceX | [Sr. Software Engineer (Components)](https://boards.greenhouse.io/spacex/jobs/8628394002?gh_jid=8628394002) | Hawthorne, CA | 1mo |
 | SpaceX | [Sr. Software Engineer (Flight Reliability)](https://boards.greenhouse.io/spacex/jobs/8530108002?gh_jid=8530108002) | Hawthorne, CA | 1mo |
-| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8495853002?gh_jid=8495853002) | Hawthorne, CA | 1mo |
 | SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558871002?gh_jid=8558871002) | Palo Alto, CA | 1mo |
 | SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560570002?gh_jid=8560570002) | Bastrop, TX | 1mo |
-| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558870002?gh_jid=8558870002) | Sunnyvale, CA | 1mo |
-| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560569002?gh_jid=8560569002) | Starbase, TX | 1mo |
 | SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558869002?gh_jid=8558869002) | Redmond, WA | 1mo |
+| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8495853002?gh_jid=8495853002) | Hawthorne, CA | 1mo |
+| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8560569002?gh_jid=8560569002) | Starbase, TX | 1mo |
+| SpaceX | [Sr. Software Engineer (Platform Team)](https://boards.greenhouse.io/spacex/jobs/8558870002?gh_jid=8558870002) | Sunnyvale, CA | 1mo |
 | SpaceX | [Sr. Software Engineer (Special Projects) - Top Secret Clearance](https://boards.greenhouse.io/spacex/jobs/8568980002?gh_jid=8568980002) | Hawthorne, CA | 1mo |
 | SpaceX | [Sr. Software Engineer (Starfall)](https://boards.greenhouse.io/spacex/jobs/8642277002?gh_jid=8642277002) | Hawthorne, CA | 1mo |
 | SpaceX | [Sr. Software Engineer (Vehicle Engineering)](https://boards.greenhouse.io/spacex/jobs/8555142002?gh_jid=8555142002) | Hawthorne, CA | 1mo |
@@ -2046,11 +2045,11 @@ Total roles: 2121
 | SpaceX | [Sr. Software Engineer, Simulations (Application Software)](https://boards.greenhouse.io/spacex/jobs/8487481002?gh_jid=8487481002) | Hawthorne, CA | 1mo |
 | SpaceX | [Sr. Software Engineer, Starlink Network](https://boards.greenhouse.io/spacex/jobs/8458038002?gh_jid=8458038002) | Redmond, WA | 1mo |
 | SpaceX | [Sr. Software Infrastructure Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8573254002?gh_jid=8573254002) | Redmond, WA | 1mo |
-| SpaceX | [Sr. Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002) | Palo Alto, CA | 1mo |
 | SpaceX | [Sr. Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637824002?gh_jid=8637824002) | Redmond, WA | 1mo |
+| SpaceX | [Sr. Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002) | Palo Alto, CA | 1mo |
 | SpaceX | [Structural Engineer (Critical Infrastructure)](https://boards.greenhouse.io/spacex/jobs/8595083002?gh_jid=8595083002) | Hawthorne, CA | 1mo |
-| SpaceX | [Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637814002?gh_jid=8637814002) | Palo Alto, CA | 1mo |
 | SpaceX | [Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637826002?gh_jid=8637826002) | Redmond, WA | 1mo |
+| SpaceX | [Wireless Software Engineer (Starlink)](https://boards.greenhouse.io/spacex/jobs/8637814002?gh_jid=8637814002) | Palo Alto, CA | 1mo |
 | SpaceX | [Wireless Systems Engineer (Starlink Mobile)](https://boards.greenhouse.io/spacex/jobs/8546717002?gh_jid=8546717002) | Sunnyvale, CA | 1mo |
 | Coinbase | [Senior Software Engineer](https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647) | Remote - USA | 1mo |
 | Coinbase | [Senior Software Engineer - Blockchain Network](https://www.coinbase.com/careers/positions/7967649?gh_jid=7967649) | Remote - USA | 1mo |
@@ -2378,7 +2377,6 @@ Total roles: 2121
 | Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/56e89edd-e189-4afa-9b63-c3f339762ef0) | United States | 5mo |
 | Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/1be86605-d940-4cdd-ada8-145056ed5bdc) | United States | 5mo |
 | Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/5265b4b2-8fa3-416f-99eb-a53c68ff898e) | United States | 5mo |
-| Airbnb | [Senior iOS Automation Engineer](https://careers.airbnb.com/positions/7453190?gh_jid=7453190) | Brazil - Remote | 5mo |
 | Clickhouse | [Senior Site Reliability Engineer- Remote](https://jobs.ashbyhq.com/clickhouse/d1339d58-daaf-4ac6-9c48-87b0361be11d) | United States | 5mo |
 | Cohere | [Senior Software Engineer, Agent Infrastructure](https://jobs.ashbyhq.com/cohere/70664617-84f6-4ee8-a4f6-4037ebfda9db) | Toronto | 5mo |
 | Ramp | [Software Engineer, Data Platform](https://jobs.ashbyhq.com/ramp/bca0346c-b843-4795-96df-6091f51e421b) | New York, NY (HQ) | 5mo |
@@ -2399,7 +2397,7 @@ Total roles: 2121
 
 ## Hackathons
 
-Total hackathons: 204
+Total hackathons: 201
 
 | Organizer | Hackathon |
 |---|---|
@@ -2501,9 +2499,7 @@ Total hackathons: 204
 | Geeta University, Naultha, Panipat | [NexHack 2.0](https://unstop.com/hackathons/nexhack-20-geeta-university-naultha-panipat-1733198) |
 | Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) |
 | Google | [All Things Agentic Hackathon](https://allthingsagentichackathon.devpost.com/) |
-| Google | [Fund My Crazy by Google](https://google-ai-workshop-hackathon.devpost.com/) |
 | Gradient Learnings | [Data Analytics Hackathon](https://unstop.com/hackathons/data-analytics-hackathon-gradient-1742481) |
-| Hack Club | [Graphiques Innovation Challenge](https://graphiques-challenge.devpost.com/) |
 | Hack for Humanity | [Hack for Humanity | Summer 2026 (+13 non-cash prizes)](https://hack-for-humanity-summer-26.devpost.com/) |
 | Hack the Habitat | [Hack the Habitat](https://hack-the-habitat-2026.devpost.com/) |
 | HackAlphaX | [NextStep Hacks 2026](https://nextstep2026.devpost.com/) |
@@ -2547,7 +2543,6 @@ Total hackathons: 204
 | LV8 Tech | [The Minute - LV8 Tech Video Editor Hackathon](https://unstop.com/hackathons/the-minute-lv8-tech-video-editor-hackathon-lv8-tech-1743164) |
 | Mindworks Lab Limited | [Innovators Guild Hackathon](https://unstop.com/hackathons/innovators-guild-hackathon-mindworks-lab-limited-1741580) |
 | Mizzou Computing Association | [MCA 2026 projects](https://mca-2026-projects.devpost.com/) |
-| MLH | [Create with Gemini](https://create-with-gemini.devpost.com/) |
 | Modern Education Society's College of Engineering - (MES), Pune | [Webverse Hackathon](https://unstop.com/hackathons/webverse-hackathon-modern-education-societys-college-of-engineering-mes-pune-1733529) |
 | Mukesh Patel college of engineering and management, (MPSTME ) | [INIT'26 - Hackathon](https://unstop.com/hackathons/init26-hackathon-mukesh-patel-college-of-engineering-and-management-mpstme-1743123) |
 | National Institute of Technology (NIT), Delhi | [CodeSlayer 2.0 2k26](https://unstop.com/hackathons/codeslayer-20-2k26-national-institute-of-technology-nit-delhi-1743965) |
@@ -2610,14 +2605,13 @@ Total hackathons: 204
 
 ## Events
 
-Total events: 4
+Total events: 3
 
 | Organizer | Event |
 |---|---|
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
 | Luma | [Follow Cursor](https://lu.ma/cursorcommunity?k=c) |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
-| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) |
 
 ## Source Files
 

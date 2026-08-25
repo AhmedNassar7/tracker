@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T20:44:54Z",
-  "total": 195,
+  "generated_at": "2026-08-25T21:42:51Z",
+  "total": 196,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1100,6 +1100,29 @@
       "posted_at": "2026-08-25",
       "age": "0d",
       "collected_at": "2026-08-25T20:44:54Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9bc2238a7d88ecda",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-288575",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-08-25",
+      "age": "0d",
+      "collected_at": "2026-08-25T21:42:51Z",
       "tags": [
         "software",
         "programming",
@@ -2441,29 +2464,6 @@
       ]
     },
     {
-      "id": "11e112c948252134",
-      "company": "SpaceX",
-      "title": "Software Engineer New Grad - Software - Application Software",
-      "level": "new_grad",
-      "category": "more_global_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Hawthorne, CA",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T21:39:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "41ceed3e98160877",
       "company": "Zipline",
       "title": "Software Engineer Intern (Spring 2027)",
@@ -2526,6 +2526,29 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T08:53:17Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "11e112c948252134",
+      "company": "SpaceX",
+      "title": "Software Engineer New Grad - Software - Application Software",
+      "level": "new_grad",
+      "category": "more_global_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Hawthorne, CA",
+      "remote_type": "onsite",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T21:39:36Z",
       "tags": [
         "software",
         "programming",
