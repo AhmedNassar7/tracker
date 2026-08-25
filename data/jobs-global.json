@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T10:48:43Z",
-  "total": 201,
+  "generated_at": "2026-08-25T11:42:17Z",
+  "total": 197,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -923,29 +923,6 @@
       ]
     },
     {
-      "id": "b21d299265fbeb6b",
-      "company": "Google",
-      "title": "Software Developer Intern 🎓",
-      "level": "internship",
-      "category": "faang",
-      "region": "canada",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Montreal, QC, Canada Toronto, ON, Canada Waterloo, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T15:54:55Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "21f753f9775c0d41",
       "company": "Google",
       "title": "Software Developer Intern, PhD, Summe...",
@@ -1567,68 +1544,22 @@
       ]
     },
     {
-      "id": "66bbf1e553376c7c",
+      "id": "02b43ee80c10fd44",
       "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Denver, CO",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-25",
-      "age": "0d",
-      "collected_at": "2026-08-25T10:48:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b3126ca0917b76be",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
+      "title": "Software Engineer, New Grad - Product...",
+      "level": "new_grad",
       "category": "product_saas",
       "region": "us",
       "role_type": "software_engineer",
       "country": "United States",
       "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-08-25",
       "age": "0d",
-      "collected_at": "2026-08-25T10:48:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "162a14da3a107f9f",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-25",
-      "age": "0d",
-      "collected_at": "2026-08-25T10:48:43Z",
+      "collected_at": "2026-08-25T11:42:17Z",
       "tags": [
         "software",
         "programming",
@@ -2418,29 +2349,6 @@
       ]
     },
     {
-      "id": "ff15340eadc5aa76",
-      "company": "AMD",
-      "title": "Machine Learning Intern/Co-op - Artificial Intelligence 🎓",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "<details><summary><strong>6 locations</strong></summary>Rochester, NY<br>Austin, TX<br>Longmont, CO<br>Fishkill, NY<br>Fort Collins, CO<br>Boxborough, MA</details>",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/91181?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-21",
-      "age": "0d",
-      "collected_at": "2026-08-21T07:06:27Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e0354b8d66861049",
       "company": "AMD",
       "title": "Software Engineer Intern/Co-op - Masters 🎓",
@@ -2705,11 +2613,11 @@
       "location": "Montreal, Canada",
       "remote_type": "onsite",
       "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-08-25",
       "age": "1w",
-      "collected_at": "2026-08-25T10:48:43Z",
+      "collected_at": "2026-08-25T11:42:17Z",
       "tags": [
         "software",
         "programming",
