@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T13:10:27Z",
-  "total": 197,
+  "generated_at": "2026-08-25T14:02:56Z",
+  "total": 195,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -923,29 +923,6 @@
       ]
     },
     {
-      "id": "1d7513e0b87b3185",
-      "company": "Google",
-      "title": "Security Engineer II, Hybrid Cloud Gu...",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "security",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-08-25",
-      "age": "0d",
-      "collected_at": "2026-08-25T13:10:27Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "21f753f9775c0d41",
       "company": "Google",
       "title": "Software Developer Intern, PhD, Summe...",
@@ -1560,29 +1537,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "02b43ee80c10fd44",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Product...",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-25",
-      "age": "0d",
-      "collected_at": "2026-08-25T11:42:17Z",
       "tags": [
         "software",
         "programming",
