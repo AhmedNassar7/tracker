@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T09:53:35Z",
-  "count": 2774,
-  "checksum": "sha256:8b84915b5ea89cbe8988c61c6bf4893339537b93a94a17cdcb1cdccbbcead1a9",
+  "generated_at": "2026-08-25T10:52:45Z",
+  "count": 2779,
+  "checksum": "sha256:33a89e6627027304b8ed99da707e3da2dda5b4e8f2bf469b24b1722c91bb2648",
   "items": [
     {
       "id": "143334daec998e2c",
@@ -1296,6 +1296,63 @@
       "country": "United States"
     },
     {
+      "id": "66bbf1e553376c7c",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Denver, CO",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
+      "age": "0d",
+      "posted_at": "2026-08-25",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "b3126ca0917b76be",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "New York, NY",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "age": "0d",
+      "posted_at": "2026-08-25",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Washington, D.C.",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "age": "0d",
+      "posted_at": "2026-08-25",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
       "id": "2ee142b47bfc9198",
       "kind": "job",
       "origin": "curated",
@@ -2176,8 +2233,8 @@
       "company": "Morgan Stanley",
       "title": "SRE Associate (Hybrid)",
       "location": "Montreal, Canada",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
       "age": "1w",
       "posted_at": "2026-08-25",
@@ -3862,6 +3919,22 @@
       "role_type": "software_engineer"
     },
     {
+      "id": "325e6a1bf931c006",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer - Android",
+      "location": "Vadodara, India",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vadodara-India/Senior-Software-Engineer---Android_R-274233-1",
+      "age": "0d",
+      "posted_at": "",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "mobile"
+    },
+    {
       "id": "8057cfd168bf8c1c",
       "kind": "job",
       "origin": "public",
@@ -3876,6 +3949,22 @@
       "level": "other",
       "region": "unknown",
       "role_type": "software_engineer"
+    },
+    {
+      "id": "c92c7863ea2769d6",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mastercard",
+      "title": "Site Reliability Engineer II",
+      "location": "Pune, India",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Site-Reliability-Engineer-II_R-276576-1",
+      "age": "0d",
+      "posted_at": "",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "infrastructure"
     },
     {
       "id": "93e6c986a6aceae8",
@@ -5990,22 +6079,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "2ea5bd301ce19286",
-      "kind": "job",
-      "origin": "public",
-      "company": "Cloudflare",
-      "title": "Software Engineer Intern (Fall 2026)",
-      "location": "In-Office",
-      "source": "greenhouse:cloudflare",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "338873061c4c56a9",
       "kind": "job",
       "origin": "public",
@@ -6015,6 +6088,22 @@
       "source": "greenhouse:cloudflare",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "2ea5bd301ce19286",
+      "kind": "job",
+      "origin": "public",
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern (Fall 2026)",
+      "location": "In-Office",
+      "source": "greenhouse:cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855",
       "age": "1d",
       "posted_at": "2026-08-24",
       "level": "internship",
@@ -6918,6 +7007,22 @@
       "role_type": "backend"
     },
     {
+      "id": "c591baa07b90fc49",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Senior Site Reliability Engineer (Capacity) - Platform Infrastructure",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8155558&gh_jid=8155558",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform"
+    },
+    {
       "id": "ac8c2d157f8e3106",
       "kind": "job",
       "origin": "public",
@@ -6947,22 +7052,6 @@
       "posted_at": "2026-08-24",
       "level": "other",
       "region": "emea",
-      "role_type": "platform"
-    },
-    {
-      "id": "c591baa07b90fc49",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Senior Site Reliability Engineer (Capacity) - Platform Infrastructure",
-      "location": "Greece",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8155558&gh_jid=8155558",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "unknown",
       "role_type": "platform"
     },
     {
@@ -7846,22 +7935,6 @@
       "role_type": "backend"
     },
     {
-      "id": "0122501c6c69a68d",
-      "kind": "job",
-      "origin": "public",
-      "company": "N26",
-      "title": "Senior Android Engineer - Payments",
-      "location": "Barcelona",
-      "source": "greenhouse:n26",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
-      "url": "https://n26.com/en-eu/careers/positions/8143846?gh_jid=8143846",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "mobile"
-    },
-    {
       "id": "ab5ae7846f00430d",
       "kind": "job",
       "origin": "public",
@@ -7875,6 +7948,22 @@
       "posted_at": "2026-08-24",
       "level": "other",
       "region": "emea",
+      "role_type": "mobile"
+    },
+    {
+      "id": "0122501c6c69a68d",
+      "kind": "job",
+      "origin": "public",
+      "company": "N26",
+      "title": "Senior Android Engineer - Payments",
+      "location": "Barcelona",
+      "source": "greenhouse:n26",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
+      "url": "https://n26.com/en-eu/careers/positions/8143846?gh_jid=8143846",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "unknown",
       "role_type": "mobile"
     },
     {
@@ -8358,22 +8447,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "d287749893376873",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Principal Software Engineer",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "b1c53a7f97acfca4",
       "kind": "job",
       "origin": "public",
@@ -8399,6 +8472,22 @@
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "url": "https://www.okta.com/company/careers/opportunity/7696955?gh_jid=7696955",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "d287749893376873",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Principal Software Engineer",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674",
       "age": "1d",
       "posted_at": "2026-08-24",
       "level": "other",
@@ -8582,22 +8671,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "8733ffb9969fd3f7",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Senior Site Reliability Engineer",
-      "location": "Bellevue, Washington; San Francisco, California",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8100444?gh_jid=8100444",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "us",
-      "role_type": "infrastructure"
-    },
-    {
       "id": "4174c2cc4a38286c",
       "kind": "job",
       "origin": "public",
@@ -8611,6 +8684,22 @@
       "posted_at": "2026-08-24",
       "level": "other",
       "region": "unknown",
+      "role_type": "infrastructure"
+    },
+    {
+      "id": "8733ffb9969fd3f7",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Senior Site Reliability Engineer",
+      "location": "Bellevue, Washington; San Francisco, California",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/8100444?gh_jid=8100444",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "us",
       "role_type": "infrastructure"
     },
     {
@@ -8646,7 +8735,7 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "149f6e3c65aca6ce",
+      "id": "c9d6280c915f6dc9",
       "kind": "job",
       "origin": "public",
       "company": "Okta",
@@ -8654,7 +8743,7 @@
       "location": "Bengaluru, India",
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679",
+      "url": "https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085",
       "age": "1d",
       "posted_at": "2026-08-24",
       "level": "other",
@@ -8678,6 +8767,22 @@
       "role_type": "software_engineer"
     },
     {
+      "id": "149f6e3c65aca6ce",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Senior Software Engineer",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
       "id": "d4a5d9b8b2c05a5a",
       "kind": "job",
       "origin": "public",
@@ -8687,22 +8792,6 @@
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "url": "https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "c9d6280c915f6dc9",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Senior Software Engineer",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085",
       "age": "1d",
       "posted_at": "2026-08-24",
       "level": "other",
@@ -9462,7 +9551,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "1b7920aa8efcc92e",
+      "id": "d936584c98855dd2",
       "kind": "job",
       "origin": "public",
       "company": "Okta",
@@ -9470,39 +9559,7 @@
       "location": "Bengaluru, India",
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "f9e52f0fb641c20d",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "Warsaw, Poland",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/7626022?gh_jid=7626022",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "989b7ab2d0af515b",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046",
+      "url": "https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310",
       "age": "1d",
       "posted_at": "2026-08-24",
       "level": "other",
@@ -9526,7 +9583,7 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "d936584c98855dd2",
+      "id": "989b7ab2d0af515b",
       "kind": "job",
       "origin": "public",
       "company": "Okta",
@@ -9534,7 +9591,39 @@
       "location": "Bengaluru, India",
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310",
+      "url": "https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "f9e52f0fb641c20d",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "Warsaw, Poland",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/7626022?gh_jid=7626022",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "emea",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "1b7920aa8efcc92e",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016",
       "age": "1d",
       "posted_at": "2026-08-24",
       "level": "other",
@@ -9558,22 +9647,6 @@
       "role_type": "mobile"
     },
     {
-      "id": "a9b699d18660fcf4",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Toronto, Ontario, Canada",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/7917929?gh_jid=7917929",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "canada",
-      "role_type": "backend"
-    },
-    {
       "id": "54a5c2cb0a9f2495",
       "kind": "job",
       "origin": "public",
@@ -9587,6 +9660,22 @@
       "posted_at": "2026-08-24",
       "level": "other",
       "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "a9b699d18660fcf4",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Toronto, Ontario, Canada",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/7917929?gh_jid=7917929",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "canada",
       "role_type": "backend"
     },
     {
@@ -9606,22 +9695,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "98bea4300399ac01",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Staff Software Engineer - Lifecycle Management",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/6879868?gh_jid=6879868",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "d78484560652b146",
       "kind": "job",
       "origin": "public",
@@ -9631,6 +9704,22 @@
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "url": "https://www.okta.com/company/careers/opportunity/7882710?gh_jid=7882710",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "98bea4300399ac01",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Staff Software Engineer - Lifecycle Management",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/6879868?gh_jid=6879868",
       "age": "1d",
       "posted_at": "2026-08-24",
       "level": "other",
@@ -9910,22 +9999,6 @@
       "role_type": "platform"
     },
     {
-      "id": "fff7ebb730dfe841",
-      "kind": "job",
-      "origin": "public",
-      "company": "Okta",
-      "title": "Staff Software Engineer, Identity Administration",
-      "location": "Bengaluru, India",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "url": "https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071",
-      "age": "1d",
-      "posted_at": "2026-08-24",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "163e96fc7656a213",
       "kind": "job",
       "origin": "public",
@@ -9935,6 +10008,22 @@
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "url": "https://www.okta.com/company/careers/opportunity/8147222?gh_jid=8147222",
+      "age": "1d",
+      "posted_at": "2026-08-24",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "fff7ebb730dfe841",
+      "kind": "job",
+      "origin": "public",
+      "company": "Okta",
+      "title": "Staff Software Engineer, Identity Administration",
+      "location": "Bengaluru, India",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "url": "https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071",
       "age": "1d",
       "posted_at": "2026-08-24",
       "level": "other",
@@ -11638,22 +11727,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "69e056bd28f26982",
-      "kind": "job",
-      "origin": "public",
-      "company": "Anthropic",
-      "title": "Staff Software Engineer, AI Reliability Engineering",
-      "location": "Dublin, IE",
-      "source": "greenhouse:anthropic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008",
-      "age": "4d",
-      "posted_at": "2026-08-21",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "6ed05561613aeec1",
       "kind": "job",
       "origin": "public",
@@ -11667,6 +11740,22 @@
       "posted_at": "2026-08-21",
       "level": "other",
       "region": "emea",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "69e056bd28f26982",
+      "kind": "job",
+      "origin": "public",
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, AI Reliability Engineering",
+      "location": "Dublin, IE",
+      "source": "greenhouse:anthropic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008",
+      "age": "4d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "unknown",
       "role_type": "software_engineer"
     },
     {
@@ -11830,22 +11919,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "c9dec937b621f864",
-      "kind": "job",
-      "origin": "public",
-      "company": "Anthropic",
-      "title": "Staff Software Engineer, Inference",
-      "location": "London, UK",
-      "source": "greenhouse:anthropic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008",
-      "age": "4d",
-      "posted_at": "2026-08-21",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "b0c27cfd94fd9ffd",
       "kind": "job",
       "origin": "public",
@@ -11859,6 +11932,22 @@
       "posted_at": "2026-08-21",
       "level": "other",
       "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "c9dec937b621f864",
+      "kind": "job",
+      "origin": "public",
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, Inference",
+      "location": "London, UK",
+      "source": "greenhouse:anthropic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008",
+      "age": "4d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "emea",
       "role_type": "software_engineer"
     },
     {
@@ -13094,6 +13183,22 @@
       "role_type": "platform"
     },
     {
+      "id": "80c15a7732300bfd",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Manager, Site Reliability Engineering - Storage Layer Service",
+      "location": "New York City",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7743304",
+      "age": "4d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "us",
+      "role_type": "infrastructure"
+    },
+    {
       "id": "ef54ee31747a2588",
       "kind": "job",
       "origin": "public",
@@ -13123,22 +13228,6 @@
       "posted_at": "2026-08-21",
       "level": "other",
       "region": "unknown",
-      "role_type": "infrastructure"
-    },
-    {
-      "id": "80c15a7732300bfd",
-      "kind": "job",
-      "origin": "public",
-      "company": "Mongodb",
-      "title": "Manager, Site Reliability Engineering - Storage Layer Service",
-      "location": "New York City",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7743304",
-      "age": "4d",
-      "posted_at": "2026-08-21",
-      "level": "other",
-      "region": "us",
       "role_type": "infrastructure"
     },
     {
@@ -13478,22 +13567,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "c4a9a8b24349a0ec",
-      "kind": "job",
-      "origin": "public",
-      "company": "Mongodb",
-      "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
-      "location": "Boston; Miami; New York City; Pittsburgh; Raleigh; United States",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7743366",
-      "age": "4d",
-      "posted_at": "2026-08-21",
-      "level": "other",
-      "region": "us",
-      "role_type": "infrastructure"
-    },
-    {
       "id": "9fada16bfaa5408b",
       "kind": "job",
       "origin": "public",
@@ -13507,6 +13580,22 @@
       "posted_at": "2026-08-21",
       "level": "other",
       "region": "canada",
+      "role_type": "infrastructure"
+    },
+    {
+      "id": "c4a9a8b24349a0ec",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
+      "location": "Boston; Miami; New York City; Pittsburgh; Raleigh; United States",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7743366",
+      "age": "4d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "us",
       "role_type": "infrastructure"
     },
     {
@@ -13542,22 +13631,6 @@
       "role_type": "infrastructure"
     },
     {
-      "id": "ba5fd2c9aa267caa",
-      "kind": "job",
-      "origin": "public",
-      "company": "Mongodb",
-      "title": "Site Reliability Engineering, Fabric (Mid, Senior, or Staff)",
-      "location": "United States",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7727920",
-      "age": "4d",
-      "posted_at": "2026-08-21",
-      "level": "other",
-      "region": "us",
-      "role_type": "infrastructure"
-    },
-    {
       "id": "5b8d933804f2a7a1",
       "kind": "job",
       "origin": "public",
@@ -13571,6 +13644,22 @@
       "posted_at": "2026-08-21",
       "level": "other",
       "region": "canada",
+      "role_type": "infrastructure"
+    },
+    {
+      "id": "ba5fd2c9aa267caa",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Site Reliability Engineering, Fabric (Mid, Senior, or Staff)",
+      "location": "United States",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7727920",
+      "age": "4d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "us",
       "role_type": "infrastructure"
     },
     {
@@ -13590,35 +13679,19 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "5da37839012eee44",
+      "id": "afa153cf6c07094e",
       "kind": "job",
       "origin": "public",
       "company": "Mongodb",
       "title": "Software Engineer 3",
-      "location": "Sydney",
+      "location": "New York City",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8092317",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8083761",
       "age": "4d",
       "posted_at": "2026-08-21",
       "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "e4c7a324b57cb782",
-      "kind": "job",
-      "origin": "public",
-      "company": "Mongodb",
-      "title": "Software Engineer 3",
-      "location": "Gurugram",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7993984",
-      "age": "4d",
-      "posted_at": "2026-08-21",
-      "level": "other",
-      "region": "unknown",
+      "region": "us",
       "role_type": "software_engineer"
     },
     {
@@ -13654,35 +13727,35 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "afa153cf6c07094e",
+      "id": "5da37839012eee44",
       "kind": "job",
       "origin": "public",
       "company": "Mongodb",
       "title": "Software Engineer 3",
-      "location": "New York City",
+      "location": "Sydney",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8083761",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8092317",
       "age": "4d",
       "posted_at": "2026-08-21",
       "level": "other",
-      "region": "us",
+      "region": "unknown",
       "role_type": "software_engineer"
     },
     {
-      "id": "079305eb06c1e3b7",
+      "id": "e4c7a324b57cb782",
       "kind": "job",
       "origin": "public",
       "company": "Mongodb",
       "title": "Software Engineer 3",
-      "location": "New York City",
+      "location": "Gurugram",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8107198",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7993984",
       "age": "4d",
       "posted_at": "2026-08-21",
       "level": "other",
-      "region": "us",
+      "region": "unknown",
       "role_type": "software_engineer"
     },
     {
@@ -13699,6 +13772,22 @@
       "posted_at": "2026-08-21",
       "level": "other",
       "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "079305eb06c1e3b7",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Software Engineer 3",
+      "location": "New York City",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8107198",
+      "age": "4d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "us",
       "role_type": "software_engineer"
     },
     {
@@ -13766,22 +13855,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "6865aed5c9bebef4",
-      "kind": "job",
-      "origin": "public",
-      "company": "Mongodb",
-      "title": "Software Engineer 3, Atlas Search Systems",
-      "location": "San Francisco",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7523920",
-      "age": "4d",
-      "posted_at": "2026-08-21",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "c92c6c391e29a4bc",
       "kind": "job",
       "origin": "public",
@@ -13795,6 +13868,22 @@
       "posted_at": "2026-08-21",
       "level": "other",
       "region": "canada",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "6865aed5c9bebef4",
+      "kind": "job",
+      "origin": "public",
+      "company": "Mongodb",
+      "title": "Software Engineer 3, Atlas Search Systems",
+      "location": "San Francisco",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7523920",
+      "age": "4d",
+      "posted_at": "2026-08-21",
+      "level": "other",
+      "region": "us",
       "role_type": "software_engineer"
     },
     {
@@ -19606,47 +19695,15 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "1a65a2a221258c34",
+      "id": "d303727d02b4b2b0",
       "kind": "job",
       "origin": "public",
       "company": "Elastic",
       "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
-      "location": "United States",
+      "location": "Romania",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8119454&gh_jid=8119454",
-      "age": "7d",
-      "posted_at": "2026-08-18",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "0fd4d12dd85f6dd7",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
-      "location": "Ireland",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8138687&gh_jid=8138687",
-      "age": "7d",
-      "posted_at": "2026-08-18",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "36aa3d109fd07394",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
-      "location": "Norway",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8138690&gh_jid=8138690",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8138694&gh_jid=8138694",
       "age": "7d",
       "posted_at": "2026-08-18",
       "level": "other",
@@ -19654,15 +19711,15 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "1e9262809b2ebd81",
+      "id": "86d9100fb6159c11",
       "kind": "job",
       "origin": "public",
       "company": "Elastic",
       "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
-      "location": "Portugal",
+      "location": "Spain",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8138692&gh_jid=8138692",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8138696&gh_jid=8138696",
       "age": "7d",
       "posted_at": "2026-08-18",
       "level": "other",
@@ -19686,15 +19743,15 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "86d9100fb6159c11",
+      "id": "1e9262809b2ebd81",
       "kind": "job",
       "origin": "public",
       "company": "Elastic",
       "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
-      "location": "Spain",
+      "location": "Portugal",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8138696&gh_jid=8138696",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8138692&gh_jid=8138692",
       "age": "7d",
       "posted_at": "2026-08-18",
       "level": "other",
@@ -19702,19 +19759,51 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "d303727d02b4b2b0",
+      "id": "36aa3d109fd07394",
       "kind": "job",
       "origin": "public",
       "company": "Elastic",
       "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
-      "location": "Romania",
+      "location": "Norway",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8138694&gh_jid=8138694",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8138690&gh_jid=8138690",
       "age": "7d",
       "posted_at": "2026-08-18",
       "level": "other",
       "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "0fd4d12dd85f6dd7",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8138687&gh_jid=8138687",
+      "age": "7d",
+      "posted_at": "2026-08-18",
+      "level": "other",
+      "region": "emea",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "1a65a2a221258c34",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8119454&gh_jid=8119454",
+      "age": "7d",
+      "posted_at": "2026-08-18",
+      "level": "other",
+      "region": "us",
       "role_type": "software_engineer"
     },
     {
@@ -21878,22 +21967,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "408a78c71ba3283e",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Integrations 3P - Platform",
-      "location": "Ireland",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8131024&gh_jid=8131024",
-      "age": "11d",
-      "posted_at": "2026-08-14",
-      "level": "other",
-      "region": "emea",
-      "role_type": "platform"
-    },
-    {
       "id": "588943220fea9ab4",
       "kind": "job",
       "origin": "public",
@@ -21903,6 +21976,22 @@
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8131025&gh_jid=8131025",
+      "age": "11d",
+      "posted_at": "2026-08-14",
+      "level": "other",
+      "region": "emea",
+      "role_type": "platform"
+    },
+    {
+      "id": "408a78c71ba3283e",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Integrations 3P - Platform",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8131024&gh_jid=8131024",
       "age": "11d",
       "posted_at": "2026-08-14",
       "level": "other",
@@ -22198,22 +22287,6 @@
       "role_type": "backend"
     },
     {
-      "id": "9feefcd8d5347356",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Manager, Back-end Engineering (Rocket Pay)",
-      "location": "Seoul, South Korea",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8078891",
-      "age": "12d",
-      "posted_at": "2026-08-13",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
       "id": "c758d320ad89ac72",
       "kind": "job",
       "origin": "public",
@@ -22223,6 +22296,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8080958",
+      "age": "12d",
+      "posted_at": "2026-08-13",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "9feefcd8d5347356",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Manager, Back-end Engineering (Rocket Pay)",
+      "location": "Seoul, South Korea",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8078891",
       "age": "12d",
       "posted_at": "2026-08-13",
       "level": "other",
@@ -23510,22 +23599,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "96d4328278803111",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Senior Staff Backend Engineer (Pricing)",
-      "location": "Mountain View, USA",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8123934",
-      "age": "14d",
-      "posted_at": "2026-08-11",
-      "level": "other",
-      "region": "us",
-      "role_type": "backend"
-    },
-    {
       "id": "61886914b79d3014",
       "kind": "job",
       "origin": "public",
@@ -23535,6 +23608,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8120779",
+      "age": "14d",
+      "posted_at": "2026-08-11",
+      "level": "other",
+      "region": "us",
+      "role_type": "backend"
+    },
+    {
+      "id": "96d4328278803111",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Senior Staff Backend Engineer (Pricing)",
+      "location": "Mountain View, USA",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8123934",
       "age": "14d",
       "posted_at": "2026-08-11",
       "level": "other",
@@ -24182,6 +24271,38 @@
       "role_type": "software_engineer"
     },
     {
+      "id": "6bfb7630ca522bc7",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - SSC",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8111965&gh_jid=8111965",
+      "age": "15d",
+      "posted_at": "2026-08-10",
+      "level": "other",
+      "region": "emea",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "47bc29fc4375b988",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - SSC",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8111793&gh_jid=8111793",
+      "age": "15d",
+      "posted_at": "2026-08-10",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
       "id": "ea6cc7a144eb3472",
       "kind": "job",
       "origin": "public",
@@ -24214,38 +24335,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "47bc29fc4375b988",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - SSC",
-      "location": "Greece",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8111793&gh_jid=8111793",
-      "age": "15d",
-      "posted_at": "2026-08-10",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "6bfb7630ca522bc7",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - SSC",
-      "location": "Ireland",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8111965&gh_jid=8111965",
-      "age": "15d",
-      "posted_at": "2026-08-10",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "11c282c2d377ef69",
       "kind": "job",
       "origin": "public",
@@ -24259,6 +24348,38 @@
       "posted_at": "2026-08-10",
       "level": "other",
       "region": "us",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "232dc59b5fa5cd9f",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
+      "location": "Spain",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074855&gh_jid=8074855",
+      "age": "15d",
+      "posted_at": "2026-08-10",
+      "level": "other",
+      "region": "emea",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "581ec900bd26f1c2",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074854&gh_jid=8074854",
+      "age": "15d",
+      "posted_at": "2026-08-10",
+      "level": "other",
+      "region": "emea",
       "role_type": "software_engineer"
     },
     {
@@ -24326,38 +24447,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "581ec900bd26f1c2",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
-      "location": "Ireland",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8074854&gh_jid=8074854",
-      "age": "15d",
-      "posted_at": "2026-08-10",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "232dc59b5fa5cd9f",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
-      "location": "Spain",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8074855&gh_jid=8074855",
-      "age": "15d",
-      "posted_at": "2026-08-10",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "f8c1200a068130e5",
       "kind": "job",
       "origin": "public",
@@ -24371,22 +24460,6 @@
       "posted_at": "2026-08-10",
       "level": "mid_level",
       "region": "emea",
-      "role_type": "full_stack"
-    },
-    {
-      "id": "cdd4daa43a82773c",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Software Engineer II - Full Stack - Web Engineering",
-      "location": "Greece",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8080264&gh_jid=8080264",
-      "age": "15d",
-      "posted_at": "2026-08-10",
-      "level": "mid_level",
-      "region": "unknown",
       "role_type": "full_stack"
     },
     {
@@ -24420,6 +24493,38 @@
       "level": "mid_level",
       "region": "emea",
       "role_type": "full_stack"
+    },
+    {
+      "id": "cdd4daa43a82773c",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Software Engineer II - Full Stack - Web Engineering",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8080264&gh_jid=8080264",
+      "age": "15d",
+      "posted_at": "2026-08-10",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "full_stack"
+    },
+    {
+      "id": "064b5ac02f9f3a17",
+      "kind": "job",
+      "origin": "public",
+      "company": "Elastic",
+      "title": "Software Engineer II - Platform Infrastructure (Orchestration)",
+      "location": "Norway",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8025629&gh_jid=8025629",
+      "age": "15d",
+      "posted_at": "2026-08-10",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "platform"
     },
     {
       "id": "4e5814c984ca1487",
@@ -24467,22 +24572,6 @@
       "posted_at": "2026-08-10",
       "level": "mid_level",
       "region": "emea",
-      "role_type": "platform"
-    },
-    {
-      "id": "064b5ac02f9f3a17",
-      "kind": "job",
-      "origin": "public",
-      "company": "Elastic",
-      "title": "Software Engineer II - Platform Infrastructure (Orchestration)",
-      "location": "Norway",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8025629&gh_jid=8025629",
-      "age": "15d",
-      "posted_at": "2026-08-10",
-      "level": "mid_level",
-      "region": "unknown",
       "role_type": "platform"
     },
     {
@@ -25894,22 +25983,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "f4a0d1c6004c334c",
-      "kind": "job",
-      "origin": "public",
-      "company": "Scaleai",
-      "title": "Senior Software Engineer, Identity",
-      "location": "San Francisco, CA; New York, NY; Washington, DC",
-      "source": "greenhouse:scaleai",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711898005",
-      "age": "21d",
-      "posted_at": "2026-08-04",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "ac3858a2c9a349ed",
       "kind": "job",
       "origin": "public",
@@ -25923,6 +25996,22 @@
       "posted_at": "2026-08-04",
       "level": "other",
       "region": "emea",
+      "role_type": "software_engineer"
+    },
+    {
+      "id": "f4a0d1c6004c334c",
+      "kind": "job",
+      "origin": "public",
+      "company": "Scaleai",
+      "title": "Senior Software Engineer, Identity",
+      "location": "San Francisco, CA; New York, NY; Washington, DC",
+      "source": "greenhouse:scaleai",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs?content=true",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711898005",
+      "age": "21d",
+      "posted_at": "2026-08-04",
+      "level": "other",
+      "region": "us",
       "role_type": "software_engineer"
     },
     {
@@ -27158,22 +27247,6 @@
       "role_type": "platform"
     },
     {
-      "id": "08663e102caa2726",
-      "kind": "job",
-      "origin": "public",
-      "company": "Coupang",
-      "title": "Sr.Staff Backend Engineer",
-      "location": "Hyderabad",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7948499",
-      "age": "25d",
-      "posted_at": "2026-07-31",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
-    },
-    {
       "id": "51983b44cc6d9e55",
       "kind": "job",
       "origin": "public",
@@ -27183,6 +27256,22 @@
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7925105",
+      "age": "25d",
+      "posted_at": "2026-07-31",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "backend"
+    },
+    {
+      "id": "08663e102caa2726",
+      "kind": "job",
+      "origin": "public",
+      "company": "Coupang",
+      "title": "Sr.Staff Backend Engineer",
+      "location": "Hyderabad",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7948499",
       "age": "25d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -27238,15 +27327,15 @@
       "role_type": "backend"
     },
     {
-      "id": "d47df4948fc5bb81",
+      "id": "2f6a38eaa80a83e3",
       "kind": "job",
       "origin": "public",
       "company": "Coupang",
       "title": "Staff Backend Engineer",
-      "location": "Bengaluru",
+      "location": "Hyderabad",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8095677",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8050353",
       "age": "25d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -27286,15 +27375,15 @@
       "role_type": "backend"
     },
     {
-      "id": "2f6a38eaa80a83e3",
+      "id": "d47df4948fc5bb81",
       "kind": "job",
       "origin": "public",
       "company": "Coupang",
       "title": "Staff Backend Engineer",
-      "location": "Hyderabad",
+      "location": "Bengaluru",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8050353",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8095677",
       "age": "25d",
       "posted_at": "2026-07-31",
       "level": "other",
@@ -28550,22 +28639,6 @@
       "role_type": "mobile"
     },
     {
-      "id": "24f35b2a35e949e1",
-      "kind": "job",
-      "origin": "public",
-      "company": "Pinterest",
-      "title": "Software Engineer II, Backend",
-      "location": "San Francisco, CA, US; Seattle, WA, US",
-      "source": "greenhouse:pinterest",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
-      "age": "28d",
-      "posted_at": "2026-07-28",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "backend"
-    },
-    {
       "id": "4130225c97b1a6c7",
       "kind": "job",
       "origin": "public",
@@ -28579,6 +28652,22 @@
       "posted_at": "2026-07-28",
       "level": "mid_level",
       "region": "canada",
+      "role_type": "backend"
+    },
+    {
+      "id": "24f35b2a35e949e1",
+      "kind": "job",
+      "origin": "public",
+      "company": "Pinterest",
+      "title": "Software Engineer II, Backend",
+      "location": "San Francisco, CA, US; Seattle, WA, US",
+      "source": "greenhouse:pinterest",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=4813946",
+      "age": "28d",
+      "posted_at": "2026-07-28",
+      "level": "mid_level",
+      "region": "us",
       "role_type": "backend"
     },
     {
@@ -28646,22 +28735,6 @@
       "role_type": "full_stack"
     },
     {
-      "id": "32d6966589c3de08",
-      "kind": "job",
-      "origin": "public",
-      "company": "Pinterest",
-      "title": "Sr. Software Engineer, Android",
-      "location": "Toronto, ON, CA",
-      "source": "greenhouse:pinterest",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5773689",
-      "age": "28d",
-      "posted_at": "2026-07-28",
-      "level": "other",
-      "region": "canada",
-      "role_type": "mobile"
-    },
-    {
       "id": "06767a5fe315d5eb",
       "kind": "job",
       "origin": "public",
@@ -28675,6 +28748,22 @@
       "posted_at": "2026-07-28",
       "level": "other",
       "region": "remote",
+      "role_type": "mobile"
+    },
+    {
+      "id": "32d6966589c3de08",
+      "kind": "job",
+      "origin": "public",
+      "company": "Pinterest",
+      "title": "Sr. Software Engineer, Android",
+      "location": "Toronto, ON, CA",
+      "source": "greenhouse:pinterest",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=5773689",
+      "age": "28d",
+      "posted_at": "2026-07-28",
+      "level": "other",
+      "region": "canada",
       "role_type": "mobile"
     },
     {
@@ -41763,7 +41852,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/legend-of-the-treasure-takara-no-densetsu-amity-school-of-engineering-technology-amity-noida-1736600",
-      "age": "16 days left",
+      "age": "15 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42127,7 +42216,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://codeutsava-x.devfolio.co",
-      "age": "40 days left",
+      "age": "39 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42231,7 +42320,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://dsudevhack3.devfolio.co",
-      "age": "25 days left",
+      "age": "24 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42413,7 +42502,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hackspire26.devfolio.co",
-      "age": "39 days left",
+      "age": "38 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42426,7 +42515,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hacktopusgdg.devfolio.co",
-      "age": "52 days left",
+      "age": "51 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42738,7 +42827,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://volthacks.devpost.com/",
-      "age": "12 days left",
+      "age": "11 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42842,7 +42931,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/idea-competition-2026-fr-conceicao-rodrigues-college-of-engineering-frcrce-bandra-1736048",
-      "age": "165 days left",
+      "age": "164 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42920,7 +43009,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/nexhack-20-geeta-university-naultha-panipat-1733198",
-      "age": "92 days left",
+      "age": "91 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42959,7 +43048,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://google-ai-workshop-hackathon.devpost.com/",
-      "age": "about 5 hours left",
+      "age": "about 4 hours left",
       "posted_at": "2026-08-25"
     },
     {
@@ -42998,7 +43087,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://graphiques-challenge.devpost.com/",
-      "age": "about 12 hours left",
+      "age": "about 11 hours left",
       "posted_at": "2026-08-25"
     },
     {
@@ -43115,7 +43204,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://htcj-aviation-futures.devpost.com/",
-      "age": "about 2 months left",
+      "age": "about 1 month left",
       "posted_at": "2026-08-25"
     },
     {
@@ -43180,7 +43269,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hyperbloom-september.devpost.com/",
-      "age": "21 days left",
+      "age": "20 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -43570,7 +43659,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://create-with-gemini.devpost.com/",
-      "age": "about 12 hours left",
+      "age": "about 11 hours left",
       "posted_at": "2026-08-25"
     },
     {
@@ -43947,7 +44036,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/bharatbuild-a-low-code-hackathon-srm-institute-of-science-and-technology-kattankulathur-chennai-1729858",
-      "age": "14 days left",
+      "age": "13 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -43986,7 +44075,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://dsh-hacks-v2.devpost.com/",
-      "age": "3 months left",
+      "age": "2 months left",
       "posted_at": "2026-08-25"
     },
     {
@@ -44038,7 +44127,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://3d-websites-hackathon.devpost.com/",
-      "age": "7 days left",
+      "age": "6 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -44181,7 +44270,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "url": "https://unstop.com/hackathons/supernova-hackathon-university-of-engineering-and-management-uem-kolkata-1730807",
-      "age": "40 days left",
+      "age": "39 days left",
       "posted_at": "2026-08-25"
     },
     {
@@ -44311,7 +44400,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://the-great-agent-hackathon.devpost.com/",
-      "age": "about 9 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-25"
     },
     {
