@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T15:59:03Z",
-  "total": 196,
+  "generated_at": "2026-08-25T16:53:56Z",
+  "total": 197,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -42,6 +42,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c4133cb78b032b9b",
+      "company": "Amazon.com Services LLC",
+      "title": "Data Engineer I, Fire TV",
+      "level": "entry_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10513820/data-engineer-i-fire-tv",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-25",
+      "age": "0d",
+      "collected_at": "2026-08-25T16:53:56Z",
       "tags": [
         "software",
         "programming",
