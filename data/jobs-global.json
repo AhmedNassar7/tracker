@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T07:07:06Z",
-  "total": 198,
+  "generated_at": "2026-08-25T07:57:06Z",
+  "total": 197,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1153,29 +1153,6 @@
       ]
     },
     {
-      "id": "7ff24571ea46dc4b",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "canada",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Toronto, Canada",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Software-Engineer-II_R-286506",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T20:47:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "cfad94fecd82f215",
       "company": "Microsoft",
       "title": "Software Engineer Intern, AI/ML & LLM",
@@ -2234,6 +2211,29 @@
       ]
     },
     {
+      "id": "7ff24571ea46dc4b",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Toronto, Canada",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Software-Engineer-II_R-286506",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-24",
+      "age": "0d",
+      "collected_at": "2026-08-24T20:47:17Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e0ffc635af48b17f",
       "company": "Mastercard",
       "title": "Software Engineer Intern",
@@ -2342,29 +2342,6 @@
       "posted_at": "2026-08-21",
       "age": "0d",
       "collected_at": "2026-08-21T20:39:50Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "93e3acbc92491061",
-      "company": "AMD",
-      "title": "2027 Masters Software Engineer Intern...",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Austin, TX, United States",
-      "remote_type": "onsite",
-      "url": "https://campus-amd.icims.com/jobs/91180/login",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-21",
-      "age": "0d",
-      "collected_at": "2026-08-21T01:56:17Z",
       "tags": [
         "software",
         "programming",
@@ -2602,29 +2579,6 @@
       ]
     },
     {
-      "id": "73586fa3d025c6d6",
-      "company": "Morgan Stanley",
-      "title": "SRE Associate (Hybrid)",
-      "level": "entry_level",
-      "category": "consulting_finance",
-      "region": "canada",
-      "role_type": "infrastructure",
-      "country": "Canada",
-      "location": "Montreal, Canada",
-      "remote_type": "onsite",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-18",
-      "age": "0d",
-      "collected_at": "2026-08-18T20:39:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "bff5c3680bab1848",
       "company": "Amazon",
       "title": "Software Development Engineer II, Geospatial",
@@ -2664,6 +2618,29 @@
       "posted_at": "2026-08-17",
       "age": "0d",
       "collected_at": "2026-08-17T22:39:46Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "73586fa3d025c6d6",
+      "company": "Morgan Stanley",
+      "title": "SRE Associate (Hybrid)",
+      "level": "entry_level",
+      "category": "consulting_finance",
+      "region": "canada",
+      "role_type": "infrastructure",
+      "country": "Canada",
+      "location": "Montreal, Canada",
+      "remote_type": "onsite",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-08-25",
+      "age": "1w",
+      "collected_at": "2026-08-25T07:57:06Z",
       "tags": [
         "software",
         "programming",
