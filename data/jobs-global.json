@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:53:56Z",
+  "generated_at": "2026-08-25T17:44:44Z",
   "total": 197,
   "jobs": [
     {
@@ -1544,6 +1544,29 @@
       ]
     },
     {
+      "id": "b394979186da07cb",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship - Produ...",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-25",
+      "age": "0d",
+      "collected_at": "2026-08-25T17:44:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2ee142b47bfc9198",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -2142,29 +2165,6 @@
       ]
     },
     {
-      "id": "85442c9c3c773f3c",
-      "company": "Amazon.com Services LLC",
-      "title": "Security Engineer II, Ads Security",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "security",
-      "country": "Unknown",
-      "location": "Bellevue, WA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10512092/security-engineer-ii-ads-security",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-08-24",
-      "age": "0d",
-      "collected_at": "2026-08-24T16:54:09Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "921de14411d750e8",
       "company": "DuCharme, McMillen & Associates",
       "title": "Software Developer Intern",
@@ -2250,29 +2250,6 @@
       "posted_at": "2026-08-24",
       "age": "0d",
       "collected_at": "2026-08-24T14:58:44Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3ed6fdf9d821bcdd",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Summer 2027)",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "South San Francisco, C...",
-      "remote_type": "onsite",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7929236003",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-21",
-      "age": "0d",
-      "collected_at": "2026-08-21T17:43:38Z",
       "tags": [
         "software",
         "programming",
@@ -2434,6 +2411,29 @@
       "posted_at": "2026-08-20",
       "age": "0d",
       "collected_at": "2026-08-20T19:44:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3ed6fdf9d821bcdd",
+      "company": "Zipline",
+      "title": "Software Engineer Intern (Summer 2027)",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "South San Francisco, C...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7929236003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-21",
+      "age": "0d",
+      "collected_at": "2026-08-21T17:43:38Z",
       "tags": [
         "software",
         "programming",
@@ -2924,29 +2924,6 @@
       ]
     },
     {
-      "id": "dbc54393c0f12516",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - AML-Engine-Orchestration",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7672386983965100341/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-17",
-      "age": "5d",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "890929dcc79a8964",
       "company": "ByteDance",
       "title": "Machine Learning Engineer Intern",
@@ -2962,6 +2939,29 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-08-17",
       "age": "6d",
+      "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "dbc54393c0f12516",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - AML-Engine-Orchestration",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7672386983965100341/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-17",
+      "age": "5d",
       "collected_at": "2026-08-17T15:38:02Z",
       "tags": [
         "software",
