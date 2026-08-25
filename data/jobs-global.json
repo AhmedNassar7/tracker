@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T07:57:06Z",
-  "total": 197,
+  "generated_at": "2026-08-25T08:58:53Z",
+  "total": 198,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -2487,29 +2487,6 @@
       ]
     },
     {
-      "id": "822623bc288d8af4",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-19",
-      "age": "0d",
-      "collected_at": "2026-08-19T08:53:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "11e112c948252134",
       "company": "SpaceX",
       "title": "Software Engineer New Grad - Software - Application Software",
@@ -2572,6 +2549,29 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T18:52:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "822623bc288d8af4",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T08:53:17Z",
       "tags": [
         "software",
         "programming",
@@ -4297,6 +4297,29 @@
       "posted_at": "2026-08-10",
       "age": "45d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "cfab04505d542392",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Software Defined Networking",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Austin, Texas, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10450350/software-development-engineer-ii-software-defined-networking",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-16",
+      "age": "70d",
+      "collected_at": "2026-08-25T08:58:53Z",
       "tags": [
         "software",
         "programming",

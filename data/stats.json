@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-25T07:57:06Z",
-  "total": 221,
+  "generated_at": "2026-08-25T08:58:53Z",
+  "total": 222,
   "by_level": {
     "new_grad": 88,
     "entry_level": 11,
     "internship": 96,
-    "mid_level": 25,
+    "mid_level": 26,
     "junior": 1
   },
   "by_country": {
-    "United States": 145,
+    "United States": 146,
     "Unknown": 52,
     "Germany": 1,
     "Canada": 15,
@@ -30,7 +30,7 @@
     "simplify_newgrad": 19,
     "zapplyjobs_newgrad": 1,
     "speedyapply_swe": 19,
-    "amazon": 21,
+    "amazon": 22,
     "speedyapply_ai": 7,
     "netflix": 1
   }
