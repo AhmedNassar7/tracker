@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Tue, 25 Aug 2026 09:02:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 09:53:35 GMT</lastBuildDate>
     <item>
       <title>Cohere — Software Engineer Intern (Winter 2027)</title>
       <link>https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254</link>
@@ -62,6 +62,13 @@
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Mongodb — Director, Web Platform &amp; Technology</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8009965</link>
+      <guid isPermaLink="false">93e6c986a6aceae8</guid>
+      <description>Cork, Ireland; Dublin, Ireland · other · 0d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>N26 — Senior Backend Engineer - Connectivity</title>
       <link>https://n26.com/en-eu/careers/positions/7992597?gh_jid=7992597</link>
       <guid isPermaLink="false">e13a6f610d52d8fb</guid>
@@ -72,6 +79,13 @@
       <title>Okta — DevOps Engineer, Professional Services R&amp;D</title>
       <link>https://www.okta.com/company/careers/opportunity/8056209?gh_jid=8056209</link>
       <guid isPermaLink="false">5d2e6c60cf8c7b88</guid>
+      <description>Bengaluru, India · other · 0d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Director, Site Reliability Engineering</title>
+      <link>https://www.okta.com/company/careers/opportunity/8155879?gh_jid=8155879</link>
+      <guid isPermaLink="false">6fee861f46866e5f</guid>
       <description>Bengaluru, India · other · 0d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -699,6 +713,13 @@
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Wise — Senior Full-Stack Software Engineer</title>
+      <link>https://jobs.smartrecruiters.com/Wise/744000145464649</link>
+      <guid isPermaLink="false">4ac77072131cf65f</guid>
+      <description>London, United Kingdom · other · 0d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ByteDance — Machine Learning Engineer Graduate (A...</title>
       <link>https://joinbytedance.com/search/7671158113903937797</link>
       <guid isPermaLink="false">290f32f0afe650c5</guid>
@@ -791,16 +812,16 @@
     </item>
     <item>
       <title>Anthropic — Software Engineer, Business Technology</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5400153008</link>
-      <guid isPermaLink="false">ba9eb0ceec3c599a</guid>
-      <description>New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY · other · 1d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5400160008</link>
+      <guid isPermaLink="false">7ff91fd18924a5fc</guid>
+      <description>London, UK · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic — Software Engineer, Business Technology</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5400160008</link>
-      <guid isPermaLink="false">7ff91fd18924a5fc</guid>
-      <description>London, UK · other · 1d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5400153008</link>
+      <guid isPermaLink="false">ba9eb0ceec3c599a</guid>
+      <description>New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1295,13 +1316,6 @@
     </item>
     <item>
       <title>Datadog — Senior Software Engineer - REDAPL Graph Engine</title>
-      <link>https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962</link>
-      <guid isPermaLink="false">1fad5dedb1eb9efa</guid>
-      <description>Dublin, Ireland; Madrid, Spain; Paris, France · other · 1d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Datadog — Senior Software Engineer - REDAPL Graph Engine</title>
       <link>https://careers.datadoghq.com/detail/7959967/?gh_jid=7959967</link>
       <guid isPermaLink="false">7d6b20ec02fc100a</guid>
       <description>Lisbon, Portugal · other · 1d</description>
@@ -1312,6 +1326,13 @@
       <link>https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966</link>
       <guid isPermaLink="false">135c87069a515ffa</guid>
       <description>France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote · other · 1d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Datadog — Senior Software Engineer - REDAPL Graph Engine</title>
+      <link>https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962</link>
+      <guid isPermaLink="false">1fad5dedb1eb9efa</guid>
+      <description>Dublin, Ireland; Madrid, Spain; Paris, France · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1421,9 +1442,9 @@
     </item>
     <item>
       <title>Elastic — Senior Site Reliability Engineer (Capacity) - Platform Infrastructure</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8155557&amp;gh_jid=8155557</link>
-      <guid isPermaLink="false">b984a4b2998bb5eb</guid>
-      <description>Portugal · other · 1d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8155560&amp;gh_jid=8155560</link>
+      <guid isPermaLink="false">ac8c2d157f8e3106</guid>
+      <description>Ireland · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1442,9 +1463,9 @@
     </item>
     <item>
       <title>Elastic — Senior Site Reliability Engineer (Capacity) - Platform Infrastructure</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8155560&amp;gh_jid=8155560</link>
-      <guid isPermaLink="false">ac8c2d157f8e3106</guid>
-      <description>Ireland · other · 1d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8155557&amp;gh_jid=8155557</link>
+      <guid isPermaLink="false">b984a4b2998bb5eb</guid>
+      <description>Portugal · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1644,13 +1665,6 @@
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mongodb — Director, Web Platform &amp; Technology</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8009965</link>
-      <guid isPermaLink="false">93e6c986a6aceae8</guid>
-      <description>Cork, Ireland; Dublin, Ireland · other · 1d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Mongodb — Senior Software Engineer, Atlas Search Systems</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8081430</link>
       <guid isPermaLink="false">caa4e01c9f041b3c</guid>
@@ -1764,8 +1778,8 @@
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7696955?gh_jid=7696955</link>
-      <guid isPermaLink="false">0465cbdfb32be206</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
+      <guid isPermaLink="false">d287749893376873</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1778,8 +1792,8 @@
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
-      <guid isPermaLink="false">d287749893376873</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7696955?gh_jid=7696955</link>
+      <guid isPermaLink="false">0465cbdfb32be206</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1974,16 +1988,16 @@
     </item>
     <item>
       <title>Okta — Senior Software Engineer, AI Agentic Experience (Auth0)</title>
-      <link>https://www.okta.com/company/careers/opportunity/7305744?gh_jid=7305744</link>
-      <guid isPermaLink="false">ceacf5055514fc62</guid>
-      <description>San Francisco, California · other · 1d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8092242?gh_jid=8092242</link>
+      <guid isPermaLink="false">c9c0f5cf99aa1236</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; New York, New York · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Senior Software Engineer, AI Agentic Experience (Auth0)</title>
-      <link>https://www.okta.com/company/careers/opportunity/8092242?gh_jid=8092242</link>
-      <guid isPermaLink="false">c9c0f5cf99aa1236</guid>
-      <description>Bellevue, Washington; Chicago, Illinois; New York, New York · other · 1d</description>
+      <link>https://www.okta.com/company/careers/opportunity/7305744?gh_jid=7305744</link>
+      <guid isPermaLink="false">ceacf5055514fc62</guid>
+      <description>San Francisco, California · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2135,15 +2149,15 @@
     </item>
     <item>
       <title>Okta — Staff Fullstack Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7929542?gh_jid=7929542</link>
-      <guid isPermaLink="false">d26c177aacc47cb6</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8078400?gh_jid=8078400</link>
+      <guid isPermaLink="false">898b45f8dafdeba3</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Fullstack Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8078400?gh_jid=8078400</link>
-      <guid isPermaLink="false">898b45f8dafdeba3</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7929542?gh_jid=7929542</link>
+      <guid isPermaLink="false">d26c177aacc47cb6</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2163,6 +2177,13 @@
     </item>
     <item>
       <title>Okta — Staff Site Reliability Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8087718?gh_jid=8087718</link>
+      <guid isPermaLink="false">6db95808fb906a82</guid>
+      <description>Bengaluru, India · other · 1d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/8059472?gh_jid=8059472</link>
       <guid isPermaLink="false">b6d3f25b2f8791fc</guid>
       <description>Bengaluru, India · other · 1d</description>
@@ -2172,13 +2193,6 @@
       <title>Okta — Staff Site Reliability Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/7840544?gh_jid=7840544</link>
       <guid isPermaLink="false">0a59e4d0c8703b9e</guid>
-      <description>Bengaluru, India · other · 1d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Site Reliability Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8087718?gh_jid=8087718</link>
-      <guid isPermaLink="false">6db95808fb906a82</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2254,8 +2268,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310</link>
-      <guid isPermaLink="false">d936584c98855dd2</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7626022?gh_jid=7626022</link>
+      <guid isPermaLink="false">f9e52f0fb641c20d</guid>
+      <description>Warsaw, Poland · other · 1d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046</link>
+      <guid isPermaLink="false">989b7ab2d0af515b</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2268,16 +2289,9 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046</link>
-      <guid isPermaLink="false">989b7ab2d0af515b</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310</link>
+      <guid isPermaLink="false">d936584c98855dd2</guid>
       <description>Bengaluru, India · other · 1d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7626022?gh_jid=7626022</link>
-      <guid isPermaLink="false">f9e52f0fb641c20d</guid>
-      <description>Warsaw, Poland · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2310,15 +2324,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer - Lifecycle Management</title>
-      <link>https://www.okta.com/company/careers/opportunity/7882710?gh_jid=7882710</link>
-      <guid isPermaLink="false">d78484560652b146</guid>
+      <link>https://www.okta.com/company/careers/opportunity/6879868?gh_jid=6879868</link>
+      <guid isPermaLink="false">98bea4300399ac01</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer - Lifecycle Management</title>
-      <link>https://www.okta.com/company/careers/opportunity/6879868?gh_jid=6879868</link>
-      <guid isPermaLink="false">98bea4300399ac01</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7882710?gh_jid=7882710</link>
+      <guid isPermaLink="false">d78484560652b146</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2443,15 +2457,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer, Identity Administration</title>
-      <link>https://www.okta.com/company/careers/opportunity/8147222?gh_jid=8147222</link>
-      <guid isPermaLink="false">163e96fc7656a213</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071</link>
+      <guid isPermaLink="false">fff7ebb730dfe841</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer, Identity Administration</title>
-      <link>https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071</link>
-      <guid isPermaLink="false">fff7ebb730dfe841</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8147222?gh_jid=8147222</link>
+      <guid isPermaLink="false">163e96fc7656a213</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2506,15 +2520,15 @@
     </item>
     <item>
       <title>Okta — Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)</title>
-      <link>https://www.okta.com/company/careers/opportunity/7839826?gh_jid=7839826</link>
-      <guid isPermaLink="false">946b25d5a36e474f</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8102369?gh_jid=8102369</link>
+      <guid isPermaLink="false">d43ff643d55e5695</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)</title>
-      <link>https://www.okta.com/company/careers/opportunity/8102369?gh_jid=8102369</link>
-      <guid isPermaLink="false">d43ff643d55e5695</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7839826?gh_jid=7839826</link>
+      <guid isPermaLink="false">946b25d5a36e474f</guid>
       <description>Bengaluru, India · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2775,13 +2789,6 @@
       <link>https://jobs.smartrecruiters.com/Wise/744000145250489</link>
       <guid isPermaLink="false">f02d32746b51fe3c</guid>
       <description>London, England, United Kingdom · entry_level · 1d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wise — Senior Software Engineer</title>
-      <link>https://jobs.smartrecruiters.com/Wise/744000145241782</link>
-      <guid isPermaLink="false">19c1a63e890347d1</guid>
-      <description>London, United Kingdom · other · 1d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3142,13 +3149,6 @@
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic — Software Engineer, Human Data Interface</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5109273008</link>
-      <guid isPermaLink="false">3ede8c9e50fc2216</guid>
-      <description>San Francisco, CA | New York City, NY · other · 4d</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic — Software Engineer, Infrastructure, Interpretability</title>
       <link>https://job-boards.greenhouse.io/anthropic/jobs/5388612008</link>
       <guid isPermaLink="false">ac3f65ded16a4f5d</guid>
@@ -3174,13 +3174,6 @@
       <link>https://job-boards.greenhouse.io/anthropic/jobs/4981828008</link>
       <guid isPermaLink="false">8b5b6c1cc07237f1</guid>
       <description>San Francisco, CA | New York City, NY; San Francisco, CA | New York City, NY | Seattle, WA · other · 4d</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic — Software Engineer, RL Data</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5238606008</link>
-      <guid isPermaLink="false">331d9fa3436f474b</guid>
-      <description>San Francisco, CA | New York City, NY · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3234,16 +3227,16 @@
     </item>
     <item>
       <title>Anthropic — Staff Software Engineer, AI Reliability Engineering</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101173008</link>
-      <guid isPermaLink="false">6ed05561613aeec1</guid>
-      <description>London, UK · other · 4d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101169008</link>
+      <guid isPermaLink="false">69e056bd28f26982</guid>
+      <description>Dublin, IE · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic — Staff Software Engineer, AI Reliability Engineering</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101169008</link>
-      <guid isPermaLink="false">69e056bd28f26982</guid>
-      <description>Dublin, IE · other · 4d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101173008</link>
+      <guid isPermaLink="false">6ed05561613aeec1</guid>
+      <description>London, UK · other · 4d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7945,16 +7938,16 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8131025&amp;gh_jid=8131025</link>
-      <guid isPermaLink="false">588943220fea9ab4</guid>
-      <description>Portugal · other · 11d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8131024&amp;gh_jid=8131024</link>
+      <guid isPermaLink="false">408a78c71ba3283e</guid>
+      <description>Ireland · other · 11d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8131024&amp;gh_jid=8131024</link>
-      <guid isPermaLink="false">408a78c71ba3283e</guid>
-      <description>Ireland · other · 11d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8131025&amp;gh_jid=8131025</link>
+      <guid isPermaLink="false">588943220fea9ab4</guid>
+      <description>Portugal · other · 11d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8526,16 +8519,9 @@
     </item>
     <item>
       <title>Elastic — Software Engineer II (Networking) - Platform Infra</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8125975&amp;gh_jid=8125975</link>
-      <guid isPermaLink="false">aee93ce557dec679</guid>
-      <description>Spain · mid_level · 13d</description>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Software Engineer II (Networking) - Platform Infra</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8053905&amp;gh_jid=8053905</link>
-      <guid isPermaLink="false">8dfd704080493780</guid>
-      <description>Greece · mid_level · 13d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8125987&amp;gh_jid=8125987</link>
+      <guid isPermaLink="false">cbcde2606d8b93fc</guid>
+      <description>Portugal · mid_level · 13d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8547,9 +8533,16 @@
     </item>
     <item>
       <title>Elastic — Software Engineer II (Networking) - Platform Infra</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8125987&amp;gh_jid=8125987</link>
-      <guid isPermaLink="false">cbcde2606d8b93fc</guid>
-      <description>Portugal · mid_level · 13d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8053905&amp;gh_jid=8053905</link>
+      <guid isPermaLink="false">8dfd704080493780</guid>
+      <description>Greece · mid_level · 13d</description>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Software Engineer II (Networking) - Platform Infra</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8125975&amp;gh_jid=8125975</link>
+      <guid isPermaLink="false">aee93ce557dec679</guid>
+      <description>Spain · mid_level · 13d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9716,20 +9709,6 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - SSC</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8111965&amp;gh_jid=8111965</link>
-      <guid isPermaLink="false">6bfb7630ca522bc7</guid>
-      <description>Ireland · other · 15d</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - SSC</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8111793&amp;gh_jid=8111793</link>
-      <guid isPermaLink="false">47bc29fc4375b988</guid>
-      <description>Greece · other · 15d</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - SSC</title>
       <link>https://jobs.elastic.co/jobs?gh_jid=8111966&amp;gh_jid=8111966</link>
       <guid isPermaLink="false">ea6cc7a144eb3472</guid>
       <description>Portugal · other · 15d</description>
@@ -9743,10 +9722,38 @@
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8074854&amp;gh_jid=8074854</link>
-      <guid isPermaLink="false">581ec900bd26f1c2</guid>
+      <title>Elastic — Senior Software Engineer - SSC</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8111793&amp;gh_jid=8111793</link>
+      <guid isPermaLink="false">47bc29fc4375b988</guid>
+      <description>Greece · other · 15d</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - SSC</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8111965&amp;gh_jid=8111965</link>
+      <guid isPermaLink="false">6bfb7630ca522bc7</guid>
       <description>Ireland · other · 15d</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8066491&amp;gh_jid=8066491</link>
+      <guid isPermaLink="false">11c282c2d377ef69</guid>
+      <description>United States · other · 15d</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8074886&amp;gh_jid=8074886</link>
+      <guid isPermaLink="false">d0297c10d266ca3f</guid>
+      <description>Greece · other · 15d</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8074889&amp;gh_jid=8074889</link>
+      <guid isPermaLink="false">c93ab004f0f593cf</guid>
+      <description>Portugal · other · 15d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9765,16 +9772,9 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8074889&amp;gh_jid=8074889</link>
-      <guid isPermaLink="false">c93ab004f0f593cf</guid>
-      <description>Portugal · other · 15d</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8066491&amp;gh_jid=8066491</link>
-      <guid isPermaLink="false">11c282c2d377ef69</guid>
-      <description>United States · other · 15d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8074854&amp;gh_jid=8074854</link>
+      <guid isPermaLink="false">581ec900bd26f1c2</guid>
+      <description>Ireland · other · 15d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9782,27 +9782,6 @@
       <link>https://jobs.elastic.co/jobs?gh_jid=8074855&amp;gh_jid=8074855</link>
       <guid isPermaLink="false">232dc59b5fa5cd9f</guid>
       <description>Spain · other · 15d</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8074886&amp;gh_jid=8074886</link>
-      <guid isPermaLink="false">d0297c10d266ca3f</guid>
-      <description>Greece · other · 15d</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Software Engineer II - Full Stack - Web Engineering</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8080263&amp;gh_jid=8080263</link>
-      <guid isPermaLink="false">1304ba8dbd3260ab</guid>
-      <description>Spain · mid_level · 15d</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Software Engineer II - Full Stack - Web Engineering</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8080264&amp;gh_jid=8080264</link>
-      <guid isPermaLink="false">cdd4daa43a82773c</guid>
-      <description>Greece · mid_level · 15d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9814,16 +9793,23 @@
     </item>
     <item>
       <title>Elastic — Software Engineer II - Full Stack - Web Engineering</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8080264&amp;gh_jid=8080264</link>
+      <guid isPermaLink="false">cdd4daa43a82773c</guid>
+      <description>Greece · mid_level · 15d</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Software Engineer II - Full Stack - Web Engineering</title>
       <link>https://jobs.elastic.co/jobs?gh_jid=8080260&amp;gh_jid=8080260</link>
       <guid isPermaLink="false">8924375d2728c786</guid>
       <description>Portugal · mid_level · 15d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Elastic — Software Engineer II - Platform Infrastructure (Orchestration)</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8025629&amp;gh_jid=8025629</link>
-      <guid isPermaLink="false">064b5ac02f9f3a17</guid>
-      <description>Norway · mid_level · 15d</description>
+      <title>Elastic — Software Engineer II - Full Stack - Web Engineering</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8080263&amp;gh_jid=8080263</link>
+      <guid isPermaLink="false">1304ba8dbd3260ab</guid>
+      <description>Spain · mid_level · 15d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9845,6 +9831,13 @@
       <link>https://jobs.elastic.co/jobs?gh_jid=8025626&amp;gh_jid=8025626</link>
       <guid isPermaLink="false">5b72714c878c3024</guid>
       <description>Portugal · mid_level · 15d</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Software Engineer II - Platform Infrastructure (Orchestration)</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8025629&amp;gh_jid=8025629</link>
+      <guid isPermaLink="false">064b5ac02f9f3a17</guid>
+      <description>Norway · mid_level · 15d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11067,15 +11060,15 @@
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
-      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
+      <guid isPermaLink="false">b09f34f6077eca0a</guid>
       <description>Hyderabad · other · 25d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
-      <guid isPermaLink="false">b09f34f6077eca0a</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
+      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
       <description>Hyderabad · other · 25d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -11084,20 +11077,6 @@
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8090538</link>
       <guid isPermaLink="false">56ac177293055766</guid>
       <description>Seoul, South Korea · other · 25d</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8050353</link>
-      <guid isPermaLink="false">2f6a38eaa80a83e3</guid>
-      <description>Hyderabad · other · 25d</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
-      <guid isPermaLink="false">71187b4892e1f07a</guid>
-      <description>Bengaluru · other · 25d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11111,6 +11090,20 @@
       <title>Coupang — Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
       <guid isPermaLink="false">9e94f52205a3dcf4</guid>
+      <description>Hyderabad · other · 25d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
+      <guid isPermaLink="false">71187b4892e1f07a</guid>
+      <description>Bengaluru · other · 25d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8050353</link>
+      <guid isPermaLink="false">2f6a38eaa80a83e3</guid>
       <description>Hyderabad · other · 25d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -17494,6 +17487,12 @@
       <description>UK, Remote · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Agentic AI Platform Senior Account Manager, DACH</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/Agentic-AI-Platform-Senior-Account-Manager--DACH_JR2024090</link>
+      <guid isPermaLink="false">490838ce94899ee6</guid>
+      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;Germany, Munich&lt;br&gt;Germany, Remote&lt;/details&gt; · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Deep Learning Software Engineering Intern, Test Development - 2027</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023658</link>
       <guid isPermaLink="false">d190500e6eae8db5</guid>
@@ -17788,12 +17787,6 @@
       <description>US, CA, Santa Clara · other · 2d</description>
     </item>
     <item>
-      <title>NVIDIA — Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944</link>
-      <guid isPermaLink="false">c44c66f7fa554bf5</guid>
-      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, Remote&lt;/details&gt; · other · 2d</description>
-    </item>
-    <item>
       <title>NVIDIA — Senior Platform Engineer, Network Infrastructure - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436</link>
       <guid isPermaLink="false">ce8f4252148fa9c3</guid>
@@ -17806,22 +17799,10 @@
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, Remote&lt;/details&gt; · other · 2d</description>
     </item>
     <item>
-      <title>NVIDIA — Senior Software Engineer - Server Manageability</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer---Server-Manageability_JR2015959</link>
-      <guid isPermaLink="false">d4b18ea2b1e5e0f9</guid>
-      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;6 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Remote&lt;br&gt;US, TX, Austin&lt;br&gt;US, CO, Remote&lt;br&gt;US, WA, Remote&lt;br&gt;US, CA, Santa Clara&lt;br&gt;US, MA, Remote&lt;/details&gt; · other · 2d</description>
-    </item>
-    <item>
       <title>NVIDIA — Senior Software Engineer, Cloud-Native Stack – CSP Engagements</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud-Native-Stack---CSP-Engagements_JR2001098</link>
       <guid isPermaLink="false">0de9814edb00c6c5</guid>
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;5 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, TX, Austin&lt;br&gt;US, Remote&lt;br&gt;US, WA, Redmond&lt;br&gt;US, WA, Seattle&lt;/details&gt; · other · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, Fabric Networking - GPU</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Fabric-Networking---GPU_JR2015216</link>
-      <guid isPermaLink="false">74653e584bdab038</guid>
-      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;6 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, IL, Remote&lt;br&gt;US, CO, Remote&lt;br&gt;US, AZ, Remote&lt;br&gt;US, CA, Remote&lt;br&gt;US, MA, Remote&lt;/details&gt; · other · 2d</description>
     </item>
     <item>
       <title>Mastercard — Lead Site Reliability Engineer</title>
@@ -17846,12 +17827,6 @@
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Lead-Software-Engineer_R-286842</link>
       <guid isPermaLink="false">241d4ebb2a45c3bc</guid>
       <description>Toronto, Canada (Ethoca) · other · 4d</description>
-    </item>
-    <item>
-      <title>Mastercard — Manager, Site Reliability Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Site-Reliability-Engineering_R-286678-1</link>
-      <guid isPermaLink="false">2f66b5e89cf48fef</guid>
-      <description>O'Fallon, Missouri · other · 4d</description>
     </item>
     <item>
       <title>Mastercard — Manager, Software Engineering</title>
