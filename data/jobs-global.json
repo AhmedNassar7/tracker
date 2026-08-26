@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T16:58:31Z",
-  "total": 195,
+  "generated_at": "2026-08-26T19:18:34Z",
+  "total": 196,
   "jobs": [
     {
       "id": "143334daec998e2c",
@@ -1061,6 +1061,29 @@
       ]
     },
     {
+      "id": "ac29a8e3d486ec1a",
+      "company": "Microsoft",
+      "title": "Software Engineer II - Distributed Sy...",
+      "level": "mid_level",
+      "category": "microsoft_group",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Vancouver, British Col...",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556928710",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-26",
+      "age": "0d",
+      "collected_at": "2026-08-26T19:18:34Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "cfad94fecd82f215",
       "company": "Microsoft",
       "title": "Software Engineer Intern, AI/ML & LLM",
@@ -1843,6 +1866,29 @@
       ]
     },
     {
+      "id": "b84f95acdcc2b1c8",
+      "company": "Sony Interactive Entertainment",
+      "title": "Data Engineer II",
+      "level": "mid_level",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "Unknown",
+      "location": "CA",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147069004",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-08-26",
+      "age": "0d",
+      "collected_at": "2026-08-26T19:18:34Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e416900ac3a9892e",
       "company": "Stripe",
       "title": "Software Engineer - New Grad",
@@ -2119,6 +2165,29 @@
       ]
     },
     {
+      "id": "4f6d22ccb17ae162",
+      "company": "Zipline",
+      "title": "Embedded Software Engineer Intern (Sp...",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "South San Francisco, C...",
+      "remote_type": "onsite",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7974890003",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-26",
+      "age": "0d",
+      "collected_at": "2026-08-26T19:18:34Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "fbeb36797fc2d96c",
       "company": "Zipline",
       "title": "Embedded Software Engineer Intern (Sp...",
@@ -2326,29 +2395,6 @@
       ]
     },
     {
-      "id": "3ed6fdf9d821bcdd",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Summer 2027)",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "South San Francisco, C...",
-      "remote_type": "onsite",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7929236003",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-21",
-      "age": "0d",
-      "collected_at": "2026-08-21T17:43:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "9007d432b6682356",
       "company": "Zipline",
       "title": "Software Engineer Intern - Summer 2027",
@@ -2418,32 +2464,9 @@
       ]
     },
     {
-      "id": "4719395b49b03f05",
-      "company": "Instacart",
-      "title": "Machine Learning Engineer II, Ads - R...",
-      "level": "mid_level",
-      "category": "more_global_tech",
-      "region": "remote",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Remote (ON, AB, BC, or...",
-      "remote_type": "remote",
-      "url": "https://instacart.careers/job/?gh_jid=8143263",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-20",
-      "age": "0d",
-      "collected_at": "2026-08-20T21:42:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "41ceed3e98160877",
+      "id": "3ed6fdf9d821bcdd",
       "company": "Zipline",
-      "title": "Software Engineer Intern (Spring 2027)",
+      "title": "Software Engineer Intern (Summer 2027)",
       "level": "internship",
       "category": "apac_tech",
       "region": "us",
@@ -2451,12 +2474,12 @@
       "country": "United States",
       "location": "South San Francisco, C...",
       "remote_type": "onsite",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
+      "url": "https://www.zipline.com/open-roles?gh_jid=7929236003",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-20",
+      "posted_at": "2026-08-21",
       "age": "0d",
-      "collected_at": "2026-08-20T19:44:44Z",
+      "collected_at": "2026-08-21T17:43:38Z",
       "tags": [
         "software",
         "programming",
@@ -2480,6 +2503,29 @@
       "posted_at": "2026-08-21",
       "age": "0d",
       "collected_at": "2026-08-21T13:09:25Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "4719395b49b03f05",
+      "company": "Instacart",
+      "title": "Machine Learning Engineer II, Ads - R...",
+      "level": "mid_level",
+      "category": "more_global_tech",
+      "region": "remote",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Remote (ON, AB, BC, or...",
+      "remote_type": "remote",
+      "url": "https://instacart.careers/job/?gh_jid=8143263",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-20",
+      "age": "0d",
+      "collected_at": "2026-08-20T21:42:38Z",
       "tags": [
         "software",
         "programming",
@@ -2595,6 +2641,29 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T19:37:44Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ea5b8610770926e7",
+      "company": "Netflix",
+      "title": "Machine Learning/AI Scientist PhD Intern, Winter 2027",
+      "level": "internship",
+      "category": "faang",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Los Gatos,California,United States of America",
+      "remote_type": "onsite",
+      "url": "https://explore.jobs.netflix.net/careers/job/790317916733",
+      "source": "netflix",
+      "source_url": "https://explore.jobs.netflix.net/careers",
+      "posted_at": "2026-08-19",
+      "age": "7d",
+      "collected_at": "2026-08-26T19:18:34Z",
       "tags": [
         "software",
         "programming",
@@ -2855,6 +2924,29 @@
       ]
     },
     {
+      "id": "b3aa804a2744134a",
+      "company": "Epic Games",
+      "title": "Machine Learning Intern",
+      "level": "internship",
+      "category": "more_global_tech",
+      "region": "canada",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Montreal,Quebec,Canada",
+      "remote_type": "onsite",
+      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-08-17",
+      "age": "1w",
+      "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d9aed6e4a169bea6",
       "company": "ByteDance",
       "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied Machine Learning Ark",
@@ -2893,52 +2985,6 @@
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
       "posted_at": "2026-08-17",
       "age": "5d",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "b3aa804a2744134a",
-      "company": "Epic Games",
-      "title": "Machine Learning Intern",
-      "level": "internship",
-      "category": "more_global_tech",
-      "region": "canada",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Montreal,Quebec,Canada",
-      "remote_type": "onsite",
-      "url": "https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-08-17",
-      "age": "1w",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "890929dcc79a8964",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-17",
-      "age": "6d",
       "collected_at": "2026-08-17T15:38:02Z",
       "tags": [
         "software",
@@ -3055,6 +3101,29 @@
       "posted_at": "2026-08-11",
       "age": "0d",
       "collected_at": "2026-08-11T23:58:50Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "890929dcc79a8964",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7671291260529821957/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-17",
+      "age": "6d",
+      "collected_at": "2026-08-17T15:38:02Z",
       "tags": [
         "software",
         "programming",
@@ -4396,29 +4465,6 @@
       ]
     },
     {
-      "id": "86c087a99d1f949a",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Amazon",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-04-25",
-      "age": "123d",
-      "collected_at": "2026-08-26T07:07:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a564dd046d7e095a",
       "company": "Amazon",
       "title": "Software Development Engineer II, Homepage",
@@ -4458,29 +4504,6 @@
       "posted_at": "2026-08-10",
       "age": "6mo",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6d9b5b50c81ce46b",
-      "company": "Netflix",
-      "title": "Software Engineer PhD Intern, Streaming Algorithms (Summer 2026)",
-      "level": "internship",
-      "category": "faang",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Los Gatos,California,United States of America",
-      "remote_type": "onsite",
-      "url": "https://explore.jobs.netflix.net/careers/job/790313241540",
-      "source": "netflix",
-      "source_url": "https://explore.jobs.netflix.net/careers",
-      "posted_at": "2025-12-10",
-      "age": "251d",
-      "collected_at": "2026-08-18T18:55:12Z",
       "tags": [
         "software",
         "programming",
