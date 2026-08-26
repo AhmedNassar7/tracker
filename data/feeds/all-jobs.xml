@@ -4,25 +4,25 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Wed, 26 Aug 2026 08:01:34 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 09:04:26 GMT</lastBuildDate>
     <item>
-      <title>Palantir — Software Engineer, Internship - Defen...</title>
-      <link>https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e</link>
-      <guid isPermaLink="false">f4a553483f9bcfd6</guid>
+      <title>Palantir — Software Engineer, Internship</title>
+      <link>https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249</link>
+      <guid isPermaLink="false">66bbf1e553376c7c</guid>
+      <description>Denver, CO · internship · 0d</description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, Internship</title>
+      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d</link>
+      <guid isPermaLink="false">b3126ca0917b76be</guid>
       <description>New York, NY · internship · 0d</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Software Engineer, Internship - Defen...</title>
-      <link>https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d</link>
-      <guid isPermaLink="false">0519abb92d76c8a3</guid>
-      <description>Palo Alto, CA · internship · 0d</description>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, Internship - Defen...</title>
-      <link>https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7</link>
-      <guid isPermaLink="false">15cecd05a12a4b83</guid>
+      <title>Palantir — Software Engineer, Internship</title>
+      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0</link>
+      <guid isPermaLink="false">162a14da3a107f9f</guid>
       <description>Washington, D.C. · internship · 0d</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -38,6 +38,13 @@
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8127112</link>
       <guid isPermaLink="false">f7866a2892c5d3b0</guid>
       <description>Seoul, South Korea · other · 0d</description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Forward Deployed Engineer - Full stack</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8556371002</link>
+      <guid isPermaLink="false">0d356430a9cc053f</guid>
+      <description>Paris, France · other · 0d</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1560,6 +1567,48 @@
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Okta — DevOps Engineer, Professional Services R&amp;D</title>
+      <link>https://www.okta.com/company/careers/opportunity/8056209?gh_jid=8056209</link>
+      <guid isPermaLink="false">5d2e6c60cf8c7b88</guid>
+      <description>Bengaluru, India · other · 1d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Director, Site Reliability Engineering</title>
+      <link>https://www.okta.com/company/careers/opportunity/8155879?gh_jid=8155879</link>
+      <guid isPermaLink="false">6fee861f46866e5f</guid>
+      <description>Bengaluru, India · other · 1d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Site Reliability Engineer -</title>
+      <link>https://www.okta.com/company/careers/opportunity/7610901?gh_jid=7610901</link>
+      <guid isPermaLink="false">c9a72264b7d53bea</guid>
+      <description>Bellevue, Washington · other · 1d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer in Test, Federal Classified</title>
+      <link>https://www.okta.com/company/careers/opportunity/8069707?gh_jid=8069707</link>
+      <guid isPermaLink="false">96d38a64b2222208</guid>
+      <description>Washington, DC · other · 1d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer, Federal (TS/SCI)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8097489?gh_jid=8097489</link>
+      <guid isPermaLink="false">ac468a61febed843</guid>
+      <description>Washington, DC · other · 1d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer, Networking w/ active TS/SCI</title>
+      <link>https://www.okta.com/company/careers/opportunity/7575679?gh_jid=7575679</link>
+      <guid isPermaLink="false">16c12f446941987a</guid>
+      <description>Maryland; Virginia; Washington, DC · other · 1d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Pinterest — Sr. Staff Software Engineer, Big Data Platform</title>
       <link>https://www.pinterestcareers.com/jobs/?gh_jid=7494956</link>
       <guid isPermaLink="false">7f583405237ae49a</guid>
@@ -2009,15 +2058,15 @@
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
-      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
+      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
       <description>Remote - US · other · 1d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
-      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
+      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
       <description>Remote - US · other · 1d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2666,6 +2715,811 @@
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Okta — Developer Platform Partnership Marketing Manager</title>
+      <link>https://www.okta.com/company/careers/opportunity/8072698?gh_jid=8072698</link>
+      <guid isPermaLink="false">997586f186b3c948</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Director, Product Management - Platform &amp; Shared Services</title>
+      <link>https://www.okta.com/company/careers/opportunity/8107045?gh_jid=8107045</link>
+      <guid isPermaLink="false">7c029dd538cd1c9d</guid>
+      <description>San Francisco, California; Seattle, Washington · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Engineering Manager - Platform Migration Services (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7606225?gh_jid=7606225</link>
+      <guid isPermaLink="false">9f0da6a07d7f3857</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Fullstack Staff Software Engineer - PAM</title>
+      <link>https://www.okta.com/company/careers/opportunity/8064490?gh_jid=8064490</link>
+      <guid isPermaLink="false">b1f84899f074ff19</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Manager, Site Reliability Engineering</title>
+      <link>https://www.okta.com/company/careers/opportunity/7977080?gh_jid=7977080</link>
+      <guid isPermaLink="false">c3a676d208666e77</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; San Francisco, California; Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Manager- Site Reliability Engineering</title>
+      <link>https://www.okta.com/company/careers/opportunity/7845385?gh_jid=7845385</link>
+      <guid isPermaLink="false">f324369c0357c009</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Mobile Architect</title>
+      <link>https://www.okta.com/company/careers/opportunity/7613460?gh_jid=7613460</link>
+      <guid isPermaLink="false">964df362fe08de18</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Data Platform Engineer (Bengaluru)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7648974?gh_jid=7648974</link>
+      <guid isPermaLink="false">11b78e13dc422484</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Site Reliability Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8002576?gh_jid=8002576</link>
+      <guid isPermaLink="false">498642dee8c2eeaf</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8064188?gh_jid=8064188</link>
+      <guid isPermaLink="false">b1c53a7f97acfca4</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7696955?gh_jid=7696955</link>
+      <guid isPermaLink="false">0465cbdfb32be206</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
+      <guid isPermaLink="false">d287749893376873</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8071508?gh_jid=8071508</link>
+      <guid isPermaLink="false">0bcb587ee8344cfb</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer - Backend</title>
+      <link>https://www.okta.com/company/careers/opportunity/8007071?gh_jid=8007071</link>
+      <guid isPermaLink="false">87e7b50b4298768e</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer - macOS</title>
+      <link>https://www.okta.com/company/careers/opportunity/8007078?gh_jid=8007078</link>
+      <guid isPermaLink="false">044ebff4df5bf795</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer - PAM</title>
+      <link>https://www.okta.com/company/careers/opportunity/8127234?gh_jid=8127234</link>
+      <guid isPermaLink="false">c4de3cf7597ccf58</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer - Windows</title>
+      <link>https://www.okta.com/company/careers/opportunity/8007080?gh_jid=8007080</link>
+      <guid isPermaLink="false">711efb7b6ee742b2</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer – Developer Platform (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8139694?gh_jid=8139694</link>
+      <guid isPermaLink="false">8ae69d88029e37e0</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer, AI Engineering</title>
+      <link>https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663</link>
+      <guid isPermaLink="false">00ce9fb902a731cc</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Full Stack Software Engineer – Acquisitions and Activation (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7875175?gh_jid=7875175</link>
+      <guid isPermaLink="false">b446d9204618ee95</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Manager, Site Reliability Engineering (Federal)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7917007?gh_jid=7917007</link>
+      <guid isPermaLink="false">fdfd9c72bf5e7d2a</guid>
+      <description>Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Manager, Site Reliability Engineering - Infrastructure Platform</title>
+      <link>https://www.okta.com/company/careers/opportunity/7317857?gh_jid=7317857</link>
+      <guid isPermaLink="false">cdc293b4eadf6aba</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; San Francisco, California; Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Manager, Software Engineering- Core (FED)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7743974?gh_jid=7743974</link>
+      <guid isPermaLink="false">5244273f5aa7b162</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Site Reliability Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8100444?gh_jid=8100444</link>
+      <guid isPermaLink="false">8733ffb9969fd3f7</guid>
+      <description>Bellevue, Washington; San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Site Reliability Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7963271?gh_jid=7963271</link>
+      <guid isPermaLink="false">4174c2cc4a38286c</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Site Reliability Engineer (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7418982?gh_jid=7418982</link>
+      <guid isPermaLink="false">0b856e6ef279a2cb</guid>
+      <description>Barcelona, Spain · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312</link>
+      <guid isPermaLink="false">2b6544e7f3a7ca2b</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085</link>
+      <guid isPermaLink="false">c9d6280c915f6dc9</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585</link>
+      <guid isPermaLink="false">d4a5d9b8b2c05a5a</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679</link>
+      <guid isPermaLink="false">149f6e3c65aca6ce</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/5781654?gh_jid=5781654</link>
+      <guid isPermaLink="false">5d44f64e4c2b67d0</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer (Android)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8108376?gh_jid=8108376</link>
+      <guid isPermaLink="false">a793730f30da97ac</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer (Core Frontier)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7894398?gh_jid=7894398</link>
+      <guid isPermaLink="false">ae4712822a561e18</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer (Node.js &amp; React.js)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8119091?gh_jid=8119091</link>
+      <guid isPermaLink="false">e23963c3eeb5d4b1</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer in Test — macOS</title>
+      <link>https://www.okta.com/company/careers/opportunity/7588357?gh_jid=7588357</link>
+      <guid isPermaLink="false">5bb7c5aeef9d21e6</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer – Tooling &amp; Platform (Terraform)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7765038?gh_jid=7765038</link>
+      <guid isPermaLink="false">d6ff5bb21c04df9c</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, AI Agentic Experience (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7305744?gh_jid=7305744</link>
+      <guid isPermaLink="false">ceacf5055514fc62</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, AI Agentic Experience (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8092242?gh_jid=8092242</link>
+      <guid isPermaLink="false">c9c0f5cf99aa1236</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; New York, New York · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, AI Authentication (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7872569?gh_jid=7872569</link>
+      <guid isPermaLink="false">b3535740a2fbe967</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, Customer Dev Tools (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8113501?gh_jid=8113501</link>
+      <guid isPermaLink="false">375afa3f7e0e4a9a</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, Datastores (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8112922?gh_jid=8112922</link>
+      <guid isPermaLink="false">ab25c6028fb9b596</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, Frontend (Web)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8024173?gh_jid=8024173</link>
+      <guid isPermaLink="false">6305d58e68bb694e</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, Identity Administration</title>
+      <link>https://www.okta.com/company/careers/opportunity/8146810?gh_jid=8146810</link>
+      <guid isPermaLink="false">f5ba27171b3eb88b</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, Observability</title>
+      <link>https://www.okta.com/company/careers/opportunity/8024818?gh_jid=8024818</link>
+      <guid isPermaLink="false">62b2326792cac638</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; New York, New York; Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, Platform Network (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8041376?gh_jid=8041376</link>
+      <guid isPermaLink="false">80ee7b997e42dbcd</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Architect, Java Backend</title>
+      <link>https://www.okta.com/company/careers/opportunity/7882676?gh_jid=7882676</link>
+      <guid isPermaLink="false">9f762c4e4ca50f4a</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7919336?gh_jid=7919336</link>
+      <guid isPermaLink="false">98365a427c094ad3</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Engineer II, Developer Tooling (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8103088?gh_jid=8103088</link>
+      <guid isPermaLink="false">7a335d2d826c19c8</guid>
+      <description>Toronto, Ontario, Canada · mid_level · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Engineer II, End User Protection (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7821930?gh_jid=7821930</link>
+      <guid isPermaLink="false">be020f52567b2d6f</guid>
+      <description>Toronto, Ontario, Canada · mid_level · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Engineer II, Frontend Agentic AI</title>
+      <link>https://www.okta.com/company/careers/opportunity/8139374?gh_jid=8139374</link>
+      <guid isPermaLink="false">1bc33c3091c2b48b</guid>
+      <description>San Francisco, California · mid_level · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Engineer Manager, Okta Developer Foundation</title>
+      <link>https://www.okta.com/company/careers/opportunity/7855584?gh_jid=7855584</link>
+      <guid isPermaLink="false">67d8527aad47ced2</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Engineer Manager, Okta Developer Foundation (ODF)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8035192?gh_jid=8035192</link>
+      <guid isPermaLink="false">8082694abd167dd8</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Engineering Manager</title>
+      <link>https://www.okta.com/company/careers/opportunity/7602340?gh_jid=7602340</link>
+      <guid isPermaLink="false">530ff3ade3e55fb9</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Software Engineering Manager - Core &amp; Resilience Engineering</title>
+      <link>https://www.okta.com/company/careers/opportunity/8001002?gh_jid=8001002</link>
+      <guid isPermaLink="false">349d3a2f65b716d7</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Backend Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8077094?gh_jid=8077094</link>
+      <guid isPermaLink="false">777d94da4a326498</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Backend Engineer, Identity Threat Protection</title>
+      <link>https://www.okta.com/company/careers/opportunity/8053199?gh_jid=8053199</link>
+      <guid isPermaLink="false">a55221e15c0bdd1a</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Backend Engineer, Passwordless</title>
+      <link>https://www.okta.com/company/careers/opportunity/8142022?gh_jid=8142022</link>
+      <guid isPermaLink="false">956641dbc7445180</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Engineer - Fullstack</title>
+      <link>https://www.okta.com/company/careers/opportunity/7593555?gh_jid=7593555</link>
+      <guid isPermaLink="false">08f0087e0e507693</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Full-Stack Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7471202?gh_jid=7471202</link>
+      <guid isPermaLink="false">16a2902d8e69e52e</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Fullstack Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7929542?gh_jid=7929542</link>
+      <guid isPermaLink="false">d26c177aacc47cb6</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Fullstack Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8078400?gh_jid=8078400</link>
+      <guid isPermaLink="false">898b45f8dafdeba3</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff FullStack Engineer, Okta Secures AI</title>
+      <link>https://www.okta.com/company/careers/opportunity/8120329?gh_jid=8120329</link>
+      <guid isPermaLink="false">cd689644889dc48a</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Platform Engineer (FedRAMP)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8064889?gh_jid=8064889</link>
+      <guid isPermaLink="false">865042b1b2b52241</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8059472?gh_jid=8059472</link>
+      <guid isPermaLink="false">b6d3f25b2f8791fc</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7840544?gh_jid=7840544</link>
+      <guid isPermaLink="false">0a59e4d0c8703b9e</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8087718?gh_jid=8087718</link>
+      <guid isPermaLink="false">6db95808fb906a82</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer - Core iDaaS</title>
+      <link>https://www.okta.com/company/careers/opportunity/7307866?gh_jid=7307866</link>
+      <guid isPermaLink="false">b9998c58ee086201</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer - Ecosystem</title>
+      <link>https://www.okta.com/company/careers/opportunity/8090568?gh_jid=8090568</link>
+      <guid isPermaLink="false">67dd6fddfad2509a</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer - Kubernetes</title>
+      <link>https://www.okta.com/company/careers/opportunity/7743339?gh_jid=7743339</link>
+      <guid isPermaLink="false">85483ac4653b94bf</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer - Splunk</title>
+      <link>https://www.okta.com/company/careers/opportunity/7658254?gh_jid=7658254</link>
+      <guid isPermaLink="false">6dda6b0bc391c1f4</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Site Reliability Engineer, EPG (FedRAMP)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8064877?gh_jid=8064877</link>
+      <guid isPermaLink="false">7430af912be89436</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8034884?gh_jid=8034884</link>
+      <guid isPermaLink="false">e33c191e56d3d68f</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8087945?gh_jid=8087945</link>
+      <guid isPermaLink="false">e6e358f6de3725be</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310</link>
+      <guid isPermaLink="false">d936584c98855dd2</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016</link>
+      <guid isPermaLink="false">1b7920aa8efcc92e</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857</link>
+      <guid isPermaLink="false">2068ff8f2fccaae5</guid>
+      <description>Tel Aviv, Israel · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046</link>
+      <guid isPermaLink="false">989b7ab2d0af515b</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7626022?gh_jid=7626022</link>
+      <guid isPermaLink="false">f9e52f0fb641c20d</guid>
+      <description>Warsaw, Poland · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Android Device Authenticators</title>
+      <link>https://www.okta.com/company/careers/opportunity/8007082?gh_jid=8007082</link>
+      <guid isPermaLink="false">c7f668be22c84650</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Backend</title>
+      <link>https://www.okta.com/company/careers/opportunity/7917929?gh_jid=7917929</link>
+      <guid isPermaLink="false">a9b699d18660fcf4</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Backend</title>
+      <link>https://www.okta.com/company/careers/opportunity/8007085?gh_jid=8007085</link>
+      <guid isPermaLink="false">54a5c2cb0a9f2495</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Federal</title>
+      <link>https://www.okta.com/company/careers/opportunity/7571064?gh_jid=7571064</link>
+      <guid isPermaLink="false">cdb40a777af5db35</guid>
+      <description>Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Lifecycle Management</title>
+      <link>https://www.okta.com/company/careers/opportunity/6879868?gh_jid=6879868</link>
+      <guid isPermaLink="false">98bea4300399ac01</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Lifecycle Management</title>
+      <link>https://www.okta.com/company/careers/opportunity/7882710?gh_jid=7882710</link>
+      <guid isPermaLink="false">d78484560652b146</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - macOS</title>
+      <link>https://www.okta.com/company/careers/opportunity/8007089?gh_jid=8007089</link>
+      <guid isPermaLink="false">87280301548d6683</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Node.js (JavaScript or TypeScript)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7602354?gh_jid=7602354</link>
+      <guid isPermaLink="false">799661867467eb9b</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - PAM</title>
+      <link>https://www.okta.com/company/careers/opportunity/8077108?gh_jid=8077108</link>
+      <guid isPermaLink="false">b3fb7ba1df0ca060</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - UI Platform</title>
+      <link>https://www.okta.com/company/careers/opportunity/8021682?gh_jid=8021682</link>
+      <guid isPermaLink="false">bee4b8fb3c334562</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Windows</title>
+      <link>https://www.okta.com/company/careers/opportunity/8007091?gh_jid=8007091</link>
+      <guid isPermaLink="false">db8d69dc292a0989</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer in Test</title>
+      <link>https://www.okta.com/company/careers/opportunity/8068775?gh_jid=8068775</link>
+      <guid isPermaLink="false">8612ad7c38008c7d</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer in Test, Linux</title>
+      <link>https://www.okta.com/company/careers/opportunity/8010671?gh_jid=8010671</link>
+      <guid isPermaLink="false">2a29bc22c0928cc9</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Agent Gateway</title>
+      <link>https://www.okta.com/company/careers/opportunity/8108855?gh_jid=8108855</link>
+      <guid isPermaLink="false">07cddf663e07a0a0</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, AI Agentic Experience (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7306066?gh_jid=7306066</link>
+      <guid isPermaLink="false">629a0ad50133b6bd</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, AI-Core (Federal)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7917002?gh_jid=7917002</link>
+      <guid isPermaLink="false">29d6202cdb7af6f3</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Backend</title>
+      <link>https://www.okta.com/company/careers/opportunity/8139936?gh_jid=8139936</link>
+      <guid isPermaLink="false">161765308e35209c</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Core Infrastructure</title>
+      <link>https://www.okta.com/company/careers/opportunity/7273087?gh_jid=7273087</link>
+      <guid isPermaLink="false">cec1ffe9cb7db1dd</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Core Infrastructure</title>
+      <link>https://www.okta.com/company/careers/opportunity/8081732?gh_jid=8081732</link>
+      <guid isPermaLink="false">9dccfb508f7869ab</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Data Platform</title>
+      <link>https://www.okta.com/company/careers/opportunity/8045905?gh_jid=8045905</link>
+      <guid isPermaLink="false">5c9de9f897a189cd</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Data Platform (FedRAMP)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7674814?gh_jid=7674814</link>
+      <guid isPermaLink="false">6116aed7620130cc</guid>
+      <description>Bellevue, Washington; San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Delegated Administration (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7560775?gh_jid=7560775</link>
+      <guid isPermaLink="false">273a90d26af888aa</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Developer Platform (Auth0)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8041360?gh_jid=8041360</link>
+      <guid isPermaLink="false">03129b75b881d4f8</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Identity Administration</title>
+      <link>https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071</link>
+      <guid isPermaLink="false">fff7ebb730dfe841</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Identity Administration</title>
+      <link>https://www.okta.com/company/careers/opportunity/8147222?gh_jid=8147222</link>
+      <guid isPermaLink="false">163e96fc7656a213</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Identity Administration (Full Stack)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7831189?gh_jid=7831189</link>
+      <guid isPermaLink="false">17c80428ed37e3b3</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Java, Spring</title>
+      <link>https://www.okta.com/company/careers/opportunity/7582318?gh_jid=7582318</link>
+      <guid isPermaLink="false">38f1e9dbf9b33241</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Java, Spring (Backend)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7916607?gh_jid=7916607</link>
+      <guid isPermaLink="false">9a661776c535d0af</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Resiliency (Federal)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7745812?gh_jid=7745812</link>
+      <guid isPermaLink="false">a5383e36f7a03d5d</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer, Streaming Foundations</title>
+      <link>https://www.okta.com/company/careers/opportunity/8139280?gh_jid=8139280</link>
+      <guid isPermaLink="false">dbd938f3f8948ec8</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Reliability Engineer - Data Platform</title>
+      <link>https://www.okta.com/company/careers/opportunity/8082028?gh_jid=8082028</link>
+      <guid isPermaLink="false">63c18d058d266c7e</guid>
+      <description>Toronto, Ontario, Canada · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff SRE for Cloud Network Infrastructure Team (Managing edge in multi-cloud(AWS &amp; GCP), mTLS, Global Routing, AI Automation)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8090773?gh_jid=8090773</link>
+      <guid isPermaLink="false">e0a8696667b20501</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)</title>
+      <link>https://www.okta.com/company/careers/opportunity/8102369?gh_jid=8102369</link>
+      <guid isPermaLink="false">d43ff643d55e5695</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)</title>
+      <link>https://www.okta.com/company/careers/opportunity/7839826?gh_jid=7839826</link>
+      <guid isPermaLink="false">946b25d5a36e474f</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff TDI Site Reliability Engineer, Okta Federal</title>
+      <link>https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062</link>
+      <guid isPermaLink="false">7c294a02c0376723</guid>
+      <description>San Francisco, California · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff TDI Site Reliability Engineer, Okta Federal</title>
+      <link>https://www.okta.com/company/careers/opportunity/8073066?gh_jid=8073066</link>
+      <guid isPermaLink="false">4b5861f8ccc271f1</guid>
+      <description>Washington, DC · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff UI Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7902410?gh_jid=7902410</link>
+      <guid isPermaLink="false">ede2824eb8867cd0</guid>
+      <description>Bengaluru, India · other · 2d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Openai — Compute Strategy &amp; Transactions, GPT-Infra</title>
       <link>https://jobs.ashbyhq.com/openai/9fb99d74-c678-4556-b962-8e8388925902</link>
       <guid isPermaLink="false">9d9a6ffa72c670ab</guid>
@@ -2863,15 +3717,15 @@
     </item>
     <item>
       <title>Coupang — Sr. Director, Back-End Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118861</link>
-      <guid isPermaLink="false">dcedf4c9c8a0c807</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118859</link>
+      <guid isPermaLink="false">4c63e9a34c143091</guid>
       <description>Seoul, South Korea · other · 3d</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Sr. Director, Back-End Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118859</link>
-      <guid isPermaLink="false">4c63e9a34c143091</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118861</link>
+      <guid isPermaLink="false">dcedf4c9c8a0c807</guid>
       <description>Seoul, South Korea · other · 3d</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2919,15 +3773,15 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer (App-Framework)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8210383002</link>
-      <guid isPermaLink="false">fc12a85f892dc2bb</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002</link>
+      <guid isPermaLink="false">1a00da2fc7050da3</guid>
       <description>Bengaluru, India · other · 4d</description>
       <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Software Engineer (App-Framework)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002</link>
-      <guid isPermaLink="false">1a00da2fc7050da3</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8210383002</link>
+      <guid isPermaLink="false">fc12a85f892dc2bb</guid>
       <description>Bengaluru, India · other · 4d</description>
       <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -4696,6 +5550,13 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Snowflake — Cloud Infrastructure Engineer</title>
+      <link>https://jobs.ashbyhq.com/snowflake/cbc2087c-f5fc-48b7-8d23-114836a42e3e</link>
+      <guid isPermaLink="false">720c4e70dbdbadfc</guid>
+      <description>PL-Warsaw-Lixa C · other · 6d</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Snowflake — Software Engineer AI Team</title>
       <link>https://jobs.ashbyhq.com/snowflake/04559598-b320-4bcd-ace8-fb9cc551a02c</link>
       <guid isPermaLink="false">2894e9560c42634f</guid>
@@ -4787,13 +5648,6 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ByteDance — Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓</title>
-      <link>https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">822623bc288d8af4</guid>
-      <description>Seattle, WA · internship · 0d</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>SpaceX — Software Engineer New Grad - Software - Application Software</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">11e112c948252134</guid>
@@ -4812,6 +5666,13 @@
       <link>https://www.amazon.jobs/en/jobs/10507174/data-engineer-ii-amz10414442</link>
       <guid isPermaLink="false">d2341865b609359c</guid>
       <description>Dallas, TX · mid_level · 0d</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓</title>
+      <link>https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">822623bc288d8af4</guid>
+      <description>Seattle, WA · internship · 0d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5159,16 +6020,16 @@
     </item>
     <item>
       <title>Databricks — Engineering Manager - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5313313002</link>
-      <guid isPermaLink="false">ed29abd0c882dd0e</guid>
-      <description>Amsterdam, Netherlands · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7439442002</link>
+      <guid isPermaLink="false">eb2b61cd37c7e358</guid>
+      <description>Bengaluru, India · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Engineering Manager - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7439442002</link>
-      <guid isPermaLink="false">eb2b61cd37c7e358</guid>
-      <description>Bengaluru, India · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5313313002</link>
+      <guid isPermaLink="false">ed29abd0c882dd0e</guid>
+      <description>Amsterdam, Netherlands · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5214,13 +6075,6 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Senior Forward Deployed Engineer - Full stack</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8556371002</link>
-      <guid isPermaLink="false">0d356430a9cc053f</guid>
-      <description>Paris, France · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Databricks — Senior Manager, Forward Deployed Engineering (Full Stack) x 2 New roles</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8439078002</link>
       <guid isPermaLink="false">0a8ff43a11ed8fbb</guid>
@@ -5229,16 +6083,16 @@
     </item>
     <item>
       <title>Databricks — Senior Manager, Infrastructure Data Science</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002</link>
-      <guid isPermaLink="false">abf2322b6aa2d80a</guid>
-      <description>Mountain View, California · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002</link>
+      <guid isPermaLink="false">a573c0e2bdb6e5d8</guid>
+      <description>San Francisco, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Manager, Infrastructure Data Science</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002</link>
-      <guid isPermaLink="false">a573c0e2bdb6e5d8</guid>
-      <description>San Francisco, California · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002</link>
+      <guid isPermaLink="false">abf2322b6aa2d80a</guid>
+      <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5264,37 +6118,16 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002</link>
-      <guid isPermaLink="false">4c3fca2b744fa4a7</guid>
-      <description>Belgrade, Serbia · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002</link>
-      <guid isPermaLink="false">7b4e0f43956fbe01</guid>
-      <description>San Francisco, California · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002</link>
-      <guid isPermaLink="false">b988dd06ebf8702f</guid>
-      <description>Vancouver, Canada · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002</link>
-      <guid isPermaLink="false">ded4910a9d51e04a</guid>
-      <description>Mountain View, California · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002</link>
       <guid isPermaLink="false">76e92a54692eda56</guid>
       <description>Bellevue, Washington · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002</link>
+      <guid isPermaLink="false">1bf877368f091a05</guid>
+      <description>Amsterdam, Netherlands · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5306,16 +6139,37 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002</link>
-      <guid isPermaLink="false">1bf877368f091a05</guid>
-      <description>Amsterdam, Netherlands · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002</link>
+      <guid isPermaLink="false">7b4e0f43956fbe01</guid>
+      <description>San Francisco, California · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002</link>
+      <guid isPermaLink="false">ded4910a9d51e04a</guid>
+      <description>Mountain View, California · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002</link>
+      <guid isPermaLink="false">b988dd06ebf8702f</guid>
+      <description>Vancouver, Canada · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002</link>
+      <guid isPermaLink="false">4c3fca2b744fa4a7</guid>
+      <description>Belgrade, Serbia · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Database Engine Internals</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002</link>
-      <guid isPermaLink="false">81794e09fa2922e5</guid>
-      <description>Mountain View, California · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012809002</link>
+      <guid isPermaLink="false">e7d2a03de44f6faa</guid>
+      <description>Belgrade, Serbia · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5327,9 +6181,23 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Database Engine Internals</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012809002</link>
-      <guid isPermaLink="false">e7d2a03de44f6faa</guid>
-      <description>Belgrade, Serbia · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002</link>
+      <guid isPermaLink="false">81794e09fa2922e5</guid>
+      <description>Mountain View, California · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Distributed Data Systems</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002</link>
+      <guid isPermaLink="false">72e912f039a6d6b9</guid>
+      <description>San Francisco, California · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Distributed Data Systems</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002</link>
+      <guid isPermaLink="false">de8da72858c799ef</guid>
+      <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5347,38 +6215,10 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Senior Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002</link>
-      <guid isPermaLink="false">de8da72858c799ef</guid>
-      <description>Mountain View, California · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002</link>
-      <guid isPermaLink="false">72e912f039a6d6b9</guid>
-      <description>San Francisco, California · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Fullstack</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8099342002</link>
-      <guid isPermaLink="false">7cc274516ed9b66b</guid>
-      <description>Vancouver, Canada · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Databricks — Senior Software Engineer - Fullstack</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029679002</link>
       <guid isPermaLink="false">424176d286a5f099</guid>
       <description>Amsterdam, Netherlands · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Fullstack</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002</link>
-      <guid isPermaLink="false">68c8979bffb454a6</guid>
-      <description>Mountain View, California; San Francisco, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5390,9 +6230,23 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Fullstack</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002</link>
+      <guid isPermaLink="false">68c8979bffb454a6</guid>
+      <description>Mountain View, California; San Francisco, California · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Fullstack</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002</link>
       <guid isPermaLink="false">2e094679bca63e8b</guid>
       <description>Mountain View, California; San Francisco, California · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Fullstack</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8099342002</link>
+      <guid isPermaLink="false">7cc274516ed9b66b</guid>
+      <description>Vancouver, Canada · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5453,15 +6307,15 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer (Backend)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7651345002</link>
-      <guid isPermaLink="false">26c45b01561219a9</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7651326002</link>
+      <guid isPermaLink="false">b3a035b1a45ded99</guid>
       <description>Bengaluru, India · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer (Backend)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7651326002</link>
-      <guid isPermaLink="false">b3a035b1a45ded99</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7651345002</link>
+      <guid isPermaLink="false">26c45b01561219a9</guid>
       <description>Bengaluru, India · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -5477,6 +6331,20 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8421894002</link>
       <guid isPermaLink="false">40d8baae75ae9776</guid>
       <description>Bengaluru, India · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Staff Software Engineer - Delta</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
+      <guid isPermaLink="false">96334280637b268a</guid>
+      <description>Zürich, Switzerland · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Staff Software Engineer - Delta</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002</link>
+      <guid isPermaLink="false">bcddd175f2cfb885</guid>
+      <description>Amsterdam, Netherlands · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5501,23 +6369,16 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
-      <guid isPermaLink="false">96334280637b268a</guid>
-      <description>Zürich, Switzerland · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002</link>
-      <guid isPermaLink="false">bcddd175f2cfb885</guid>
-      <description>Amsterdam, Netherlands · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Databricks — Senior Staff Software Engineer - Enzyme</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7934466002</link>
       <guid isPermaLink="false">f8094fee0baecd3e</guid>
+      <description>Mountain View, California · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Staff Software Engineer - IAM</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002</link>
+      <guid isPermaLink="false">90e32f90d2b5d9e0</guid>
       <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -5529,24 +6390,10 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Senior Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002</link>
-      <guid isPermaLink="false">90e32f90d2b5d9e0</guid>
-      <description>Mountain View, California · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Databricks — Senior Staff Software Engineer - Lakeflow Pipelines Datasets</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8493002002</link>
       <guid isPermaLink="false">4738081839b75f3b</guid>
       <description>Mountain View, California; San Francisco, California · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002</link>
-      <guid isPermaLink="false">c4b010cb78dffcd6</guid>
-      <description>Zürich, Switzerland · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5558,9 +6405,16 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422477002</link>
-      <guid isPermaLink="false">a85070203ae70ce3</guid>
-      <description>Amsterdam, Netherlands · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002</link>
+      <guid isPermaLink="false">c4b010cb78dffcd6</guid>
+      <description>Zürich, Switzerland · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422484002</link>
+      <guid isPermaLink="false">8999289123d6eb00</guid>
+      <description>Aarhus, Denmark · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5572,9 +6426,9 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422484002</link>
-      <guid isPermaLink="false">8999289123d6eb00</guid>
-      <description>Aarhus, Denmark · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422477002</link>
+      <guid isPermaLink="false">a85070203ae70ce3</guid>
+      <description>Amsterdam, Netherlands · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5593,16 +6447,16 @@
     </item>
     <item>
       <title>Databricks — Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002</link>
-      <guid isPermaLink="false">08c6994d46264745</guid>
-      <description>Belgrade, Serbia · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002</link>
+      <guid isPermaLink="false">1ee773cbf2650d87</guid>
+      <description>Amsterdam, Netherlands · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002</link>
-      <guid isPermaLink="false">1ee773cbf2650d87</guid>
-      <description>Amsterdam, Netherlands · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002</link>
+      <guid isPermaLink="false">08c6994d46264745</guid>
+      <description>Belgrade, Serbia · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5831,15 +6685,15 @@
     </item>
     <item>
       <title>Databricks — Staff Fullstack Engineer, Agentic Applications</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8220840002</link>
-      <guid isPermaLink="false">f277a2bd22190cf1</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002</link>
+      <guid isPermaLink="false">69bde1e52cc505e2</guid>
       <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Fullstack Engineer, Agentic Applications</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002</link>
-      <guid isPermaLink="false">69bde1e52cc505e2</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8220840002</link>
+      <guid isPermaLink="false">f277a2bd22190cf1</guid>
       <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -5922,20 +6776,6 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002</link>
-      <guid isPermaLink="false">cee270926d3d303b</guid>
-      <description>Belgrade, Serbia · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002</link>
-      <guid isPermaLink="false">f5fd51870e015b24</guid>
-      <description>Mountain View, California · other · 8d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Staff Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002</link>
       <guid isPermaLink="false">f51c9989663a679f</guid>
       <description>Seattle, Washington · other · 8d</description>
@@ -5943,16 +6783,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002</link>
-      <guid isPermaLink="false">8dfe1193df322fd7</guid>
-      <description>Bellevue, Washington · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002</link>
+      <guid isPermaLink="false">495ed840808fffe2</guid>
+      <description>San Francisco, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
-      <guid isPermaLink="false">fb40916992e1a363</guid>
-      <description>Amsterdam, Netherlands · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002</link>
+      <guid isPermaLink="false">cee270926d3d303b</guid>
+      <description>Belgrade, Serbia · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5971,16 +6811,23 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002</link>
-      <guid isPermaLink="false">495ed840808fffe2</guid>
-      <description>San Francisco, California · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002</link>
+      <guid isPermaLink="false">f5fd51870e015b24</guid>
+      <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8093293002</link>
-      <guid isPermaLink="false">dad1876d57a8f252</guid>
-      <description>Vancouver, Canada · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
+      <guid isPermaLink="false">fb40916992e1a363</guid>
+      <description>Amsterdam, Netherlands · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Staff Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002</link>
+      <guid isPermaLink="false">8dfe1193df322fd7</guid>
+      <description>Bellevue, Washington · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5988,6 +6835,13 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002</link>
       <guid isPermaLink="false">2d6e3850e9fb5e88</guid>
       <description>London, United Kingdom · other · 8d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Staff Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8093293002</link>
+      <guid isPermaLink="false">dad1876d57a8f252</guid>
+      <description>Vancouver, Canada · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6020,16 +6874,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Database Engine Internals</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002</link>
-      <guid isPermaLink="false">48f46a7a19ddad19</guid>
-      <description>San Francisco, California · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012818002</link>
+      <guid isPermaLink="false">84aaf8c3aead9571</guid>
+      <description>Belgrade, Serbia · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Database Engine Internals</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012818002</link>
-      <guid isPermaLink="false">84aaf8c3aead9571</guid>
-      <description>Belgrade, Serbia · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002</link>
+      <guid isPermaLink="false">48f46a7a19ddad19</guid>
+      <description>San Francisco, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6041,16 +6895,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002</link>
-      <guid isPermaLink="false">408b5364750c7afe</guid>
-      <description>San Francisco, California · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002</link>
+      <guid isPermaLink="false">048418dc6e4fb67a</guid>
+      <description>Bellevue, Washington · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002</link>
-      <guid isPermaLink="false">048418dc6e4fb67a</guid>
-      <description>Bellevue, Washington · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002</link>
+      <guid isPermaLink="false">408b5364750c7afe</guid>
+      <description>San Francisco, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6076,16 +6930,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Fullstack</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8037500002</link>
-      <guid isPermaLink="false">025e2df448d094d9</guid>
-      <description>Bengaluru, India · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8099343002</link>
+      <guid isPermaLink="false">af29acfcbbcfdd24</guid>
+      <description>Vancouver, Canada · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Fullstack</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8099343002</link>
-      <guid isPermaLink="false">af29acfcbbcfdd24</guid>
-      <description>Vancouver, Canada · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8037500002</link>
+      <guid isPermaLink="false">025e2df448d094d9</guid>
+      <description>Bengaluru, India · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6104,16 +6958,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002</link>
-      <guid isPermaLink="false">898148f0d1b020df</guid>
-      <description>Bellevue, Washington · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002</link>
+      <guid isPermaLink="false">9ab4edc91423a494</guid>
+      <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002</link>
-      <guid isPermaLink="false">9ab4edc91423a494</guid>
-      <description>Mountain View, California · other · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002</link>
+      <guid isPermaLink="false">898148f0d1b020df</guid>
+      <description>Bellevue, Washington · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6174,15 +7028,15 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer, AI Native Web Platform</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002</link>
-      <guid isPermaLink="false">348417584ac1e588</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002</link>
+      <guid isPermaLink="false">4437abb7a7294999</guid>
       <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer, AI Native Web Platform</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002</link>
-      <guid isPermaLink="false">4437abb7a7294999</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002</link>
+      <guid isPermaLink="false">348417584ac1e588</guid>
       <description>Mountain View, California · other · 8d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -10171,22 +11025,15 @@
     </item>
     <item>
       <title>Coupang — Sr.Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7948499</link>
-      <guid isPermaLink="false">08663e102caa2726</guid>
-      <description>Hyderabad · other · 26d</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Sr.Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=7925105</link>
       <guid isPermaLink="false">51983b44cc6d9e55</guid>
       <description>Hyderabad · other · 26d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
-      <guid isPermaLink="false">b09f34f6077eca0a</guid>
+      <title>Coupang — Sr.Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7948499</link>
+      <guid isPermaLink="false">08663e102caa2726</guid>
       <description>Hyderabad · other · 26d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -10194,6 +11041,13 @@
       <title>Coupang — Staff Back-end Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
       <guid isPermaLink="false">2fe478ff8cc06e45</guid>
+      <description>Hyderabad · other · 26d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Back-end Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
+      <guid isPermaLink="false">b09f34f6077eca0a</guid>
       <description>Hyderabad · other · 26d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -10206,9 +11060,9 @@
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8095677</link>
-      <guid isPermaLink="false">d47df4948fc5bb81</guid>
-      <description>Bengaluru · other · 26d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
+      <guid isPermaLink="false">9e94f52205a3dcf4</guid>
+      <description>Hyderabad · other · 26d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10220,9 +11074,9 @@
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
-      <guid isPermaLink="false">9e94f52205a3dcf4</guid>
-      <description>Hyderabad · other · 26d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8095677</link>
+      <guid isPermaLink="false">d47df4948fc5bb81</guid>
+      <description>Bengaluru · other · 26d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -16504,10 +17358,22 @@
       <description>Pune, India · other · 0d</description>
     </item>
     <item>
+      <title>Morgan Stanley — Front Office Senior Software Engineer (Fixed Income Risk System)</title>
+      <link>https://ms.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/Senior-Software-Engineer_PT-JR038923</link>
+      <guid isPermaLink="false">926305d0cf8fd62d</guid>
+      <description>London, United Kingdom · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Site Reliability Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2024251</link>
       <guid isPermaLink="false">07b2f23e14f397fe</guid>
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;Israel, Yokneam&lt;br&gt;Israel, Raanana&lt;/details&gt; · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Developer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Remote/Senior-Software-Developer_JR2022425</link>
+      <guid isPermaLink="false">778a44ab12fa7f6a</guid>
+      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;4 locations&lt;/strong&gt;&lt;/summary&gt;Germany, Remote&lt;br&gt;UK, Remote&lt;br&gt;Netherlands, Remote&lt;br&gt;Denmark, Remote&lt;/details&gt; · other · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Network System Validation</title>
@@ -16760,12 +17626,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314</link>
       <guid isPermaLink="false">d4c8b8d92ee52b00</guid>
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, CO, Boulder&lt;/details&gt; · other · 1d</description>
-    </item>
-    <item>
-      <title>Mastercard — Manager Software Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager-Software-Engineering_R-281303-1</link>
-      <guid isPermaLink="false">7363444146c4ba92</guid>
-      <description>Pune, India · other · 2d</description>
     </item>
     <item>
       <title>Mastercard — Manager, Software Engineering</title>
