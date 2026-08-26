@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-26T05:49:21Z",
-  "total": 216,
+  "generated_at": "2026-08-26T07:07:35Z",
+  "total": 220,
   "by_level": {
     "new_grad": 87,
     "entry_level": 12,
-    "internship": 92,
-    "mid_level": 24,
+    "internship": 93,
+    "mid_level": 27,
     "junior": 1
   },
   "by_country": {
-    "United States": 142,
-    "Unknown": 51,
+    "United States": 144,
+    "Unknown": 52,
     "Germany": 1,
-    "Canada": 14,
+    "Canada": 15,
     "Poland": 1,
     "Portugal": 2,
     "United Kingdom": 5
@@ -26,11 +26,11 @@
     "zapplyjobs_all_newgrad": 1,
     "zapplyjobs_canada": 5,
     "zapplyjobs_canada_internships": 3,
-    "zapplyjobs_newgrad": 1,
+    "zapplyjobs_newgrad": 2,
     "simplify_internships": 25,
     "simplify_newgrad": 19,
     "speedyapply_swe": 19,
-    "amazon": 21,
+    "amazon": 24,
     "speedyapply_ai": 7,
     "netflix": 1
   }
