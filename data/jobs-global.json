@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T09:01:33Z",
-  "total": 202,
+  "generated_at": "2026-08-29T14:27:37Z",
+  "total": 193,
   "jobs": [
     {
       "id": "740a1e48b89d1e0d",
@@ -175,11 +175,11 @@
       "location": "Seattle, Washington",
       "remote_type": "onsite",
       "url": "https://joinbytedance.com/search/7675477254269765941",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-08-29",
       "age": "0d",
-      "collected_at": "2026-08-29T09:01:33Z",
+      "collected_at": "2026-08-29T14:27:37Z",
       "tags": [
         "software",
         "programming",
@@ -578,29 +578,6 @@
       ]
     },
     {
-      "id": "033f368a01347d05",
-      "company": "ByteDance",
-      "title": "Software Engineer Graduate (AML-Engin...",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://joinbytedance.com/search/7671160649137588485",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-29",
-      "age": "0d",
-      "collected_at": "2026-08-29T09:01:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "b1f6a4e05d509c83",
       "company": "ByteDance",
       "title": "Software Engineer Intern, AI Platform 🛂",
@@ -681,11 +658,11 @@
       "location": "San Diego, California",
       "remote_type": "onsite",
       "url": "https://joinbytedance.com/search/7670354329765464373",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-08-29",
       "age": "0d",
-      "collected_at": "2026-08-29T09:01:33Z",
+      "collected_at": "2026-08-29T14:27:37Z",
       "tags": [
         "software",
         "programming",
@@ -1038,29 +1015,6 @@
       ]
     },
     {
-      "id": "2911b7bc748140f1",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-281530",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-29",
-      "age": "0d",
-      "collected_at": "2026-08-29T09:01:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "0763a5e01a513519",
       "company": "Metaphor",
       "title": "Software Engineer - Intern",
@@ -1077,52 +1031,6 @@
       "posted_at": "2026-08-14",
       "age": "1d",
       "collected_at": "2026-08-14T13:41:00Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "1fac28daacb78960",
-      "company": "Microsoft",
-      "title": "Site Reliability Engineer II - CTJ - ...",
-      "level": "mid_level",
-      "category": "microsoft_group",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "country": "Unknown",
-      "location": "Reston, Virginia, Unit...",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556978427",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-29",
-      "age": "0d",
-      "collected_at": "2026-08-29T09:01:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "54a31caefa3aff71",
-      "company": "Microsoft",
-      "title": "Site Reliability Engineer II - CTJ - ...",
-      "level": "mid_level",
-      "category": "microsoft_group",
-      "region": "us",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556981939",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-29",
-      "age": "0d",
-      "collected_at": "2026-08-29T09:01:33Z",
       "tags": [
         "software",
         "programming",
@@ -1307,6 +1215,52 @@
       "posted_at": "2026-08-21",
       "age": "0d",
       "collected_at": "2026-08-21T16:50:09Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a0ac6f46d6e94f5d",
+      "company": "Notion",
+      "title": "Software Engineer Intern (Summer 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, California",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-29",
+      "age": "0d",
+      "collected_at": "2026-08-29T14:27:37Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "50e8011ae0cbfd83",
+      "company": "Notion",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, California",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-08-29",
+      "age": "0d",
+      "collected_at": "2026-08-29T14:27:37Z",
       "tags": [
         "software",
         "programming",
@@ -2165,29 +2119,6 @@
       ]
     },
     {
-      "id": "35756d45d7e2426a",
-      "company": "Pinterest",
-      "title": "Machine Learning Engineer II, Respons...",
-      "level": "mid_level",
-      "category": "more_global_tech",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Francisco, CA, US",
-      "remote_type": "onsite",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8162046",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-29",
-      "age": "1d",
-      "collected_at": "2026-08-29T09:01:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "500831768dec6108",
       "company": "Tesla",
       "title": "Software Engineer Intern - Vehicle Software - Summer 2027",
@@ -2204,29 +2135,6 @@
       "posted_at": "2026-08-28",
       "age": "0d",
       "collected_at": "2026-08-28T05:22:49Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "24253735935d19bc",
-      "company": "Amazon.com Services LLC",
-      "title": "Security Engineer II, Customer Logist...",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "security",
-      "country": "Unknown",
-      "location": "Jersey City, NJ",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10516573/security-engineer-ii-customer-logistics-security",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-08-29",
-      "age": "2d",
-      "collected_at": "2026-08-29T09:01:33Z",
       "tags": [
         "software",
         "programming",
@@ -2556,29 +2464,6 @@
       ]
     },
     {
-      "id": "d2341865b609359c",
-      "company": "Amazon.com Services LLC - A57",
-      "title": "Data Engineer II - AMZ10414442",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "Unknown",
-      "location": "Dallas, TX",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10507174/data-engineer-ii-amz10414442",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-08-29",
-      "age": "1w",
-      "collected_at": "2026-08-29T09:01:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "4719395b49b03f05",
       "company": "Instacart",
       "title": "Machine Learning Engineer II, Ads - R...",
@@ -2602,52 +2487,6 @@
       ]
     },
     {
-      "id": "7f89e4195fb09be8",
-      "company": "Intel",
-      "title": "Software Engineer Graduate Intern",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "US, Oregon, Hillsboro",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-29",
-      "age": "1w",
-      "collected_at": "2026-08-29T09:01:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3dcfa4fa4c7c9171",
-      "company": "Intel",
-      "title": "Software Engineer Graduate Intern",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "US, Arizona, Phoenix",
-      "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-29",
-      "age": "1w",
-      "collected_at": "2026-08-29T09:01:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "73586fa3d025c6d6",
       "company": "Morgan Stanley",
       "title": "SRE Associate (Hybrid)",
@@ -2664,52 +2503,6 @@
       "posted_at": "2026-08-25",
       "age": "1w",
       "collected_at": "2026-08-25T11:42:17Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "41ceed3e98160877",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Spring 2027)",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "South San Francisco, C...",
-      "remote_type": "onsite",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-29",
-      "age": "1w",
-      "collected_at": "2026-08-29T09:01:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3ed6fdf9d821bcdd",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Summer 2027)",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "South San Francisco, C...",
-      "remote_type": "onsite",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7929236003",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-29",
-      "age": "1w",
-      "collected_at": "2026-08-29T09:01:33Z",
       "tags": [
         "software",
         "programming",
@@ -3614,6 +3407,29 @@
       ]
     },
     {
+      "id": "8ed25ec831823aa0",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-08-04",
+      "age": "6d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "37125469539dbe4d",
       "company": "ByteDance",
       "title": "Software Engineer Intern - AI Infra Compute 🎓",
@@ -3652,29 +3468,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-08-10",
       "age": "7d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8ed25ec831823aa0",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-04",
-      "age": "6d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",

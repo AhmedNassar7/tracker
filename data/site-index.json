@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T09:05:06Z",
-  "count": 2897,
-  "checksum": "sha256:859b343476a4b2abae9ab4b9d708fc6adbea697d98b5bda428f7d69d0eb11437",
+  "generated_at": "2026-08-29T14:30:43Z",
+  "count": 2879,
+  "checksum": "sha256:4e7bb63b0663dd533c75bdade1c340de4b05fdc7605949c4c207c6e651d0cdf0",
   "items": [
     {
       "id": "740a1e48b89d1e0d",
@@ -143,8 +143,8 @@
       "company": "ByteDance",
       "title": "Machine Learning Engineer Intern (E-C...",
       "location": "Seattle, Washington",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "url": "https://joinbytedance.com/search/7675477254269765941",
       "age": "0d",
       "posted_at": "2026-08-29",
@@ -479,25 +479,6 @@
       "country": "United States"
     },
     {
-      "id": "033f368a01347d05",
-      "kind": "job",
-      "origin": "curated",
-      "company": "ByteDance",
-      "title": "Software Engineer Graduate (AML-Engin...",
-      "location": "San Jose, California",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://joinbytedance.com/search/7671160649137588485",
-      "age": "0d",
-      "posted_at": "2026-08-29",
-      "level": "new_grad",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "b1f6a4e05d509c83",
       "kind": "job",
       "origin": "curated",
@@ -561,8 +542,8 @@
       "company": "ByteDance",
       "title": "Video/Image AI/ML Software Engineer I...",
       "location": "San Diego, California",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "url": "https://joinbytedance.com/search/7670354329765464373",
       "age": "0d",
       "posted_at": "2026-08-29",
@@ -859,25 +840,6 @@
       "country": "United States"
     },
     {
-      "id": "2911b7bc748140f1",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "location": "O'Fallon, Missouri",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-281530",
-      "age": "0d",
-      "posted_at": "2026-08-29",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "category": "fintech",
-      "remote_type": "onsite",
-      "country": "Unknown"
-    },
-    {
       "id": "0763a5e01a513519",
       "kind": "job",
       "origin": "curated",
@@ -893,44 +855,6 @@
       "region": "us",
       "role_type": "software_engineer",
       "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "1fac28daacb78960",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Microsoft",
-      "title": "Site Reliability Engineer II - CTJ - ...",
-      "location": "Reston, Virginia, Unit...",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556978427",
-      "age": "0d",
-      "posted_at": "2026-08-29",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "category": "microsoft_group",
-      "remote_type": "onsite",
-      "country": "Unknown"
-    },
-    {
-      "id": "54a31caefa3aff71",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Microsoft",
-      "title": "Site Reliability Engineer II - CTJ - ...",
-      "location": "United States",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556981939",
-      "age": "0d",
-      "posted_at": "2026-08-29",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "infrastructure",
-      "category": "microsoft_group",
       "remote_type": "onsite",
       "country": "United States"
     },
@@ -1079,6 +1003,44 @@
       "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c?utm_source=github-vansh-ouckah",
       "age": "0d",
       "posted_at": "2026-08-21",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "a0ac6f46d6e94f5d",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Notion",
+      "title": "Software Engineer Intern (Summer 2027)",
+      "location": "San Francisco, California",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "age": "0d",
+      "posted_at": "2026-08-29",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "50e8011ae0cbfd83",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Notion",
+      "title": "Software Engineer Intern (Winter 2027)",
+      "location": "San Francisco, California",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+      "age": "0d",
+      "posted_at": "2026-08-29",
       "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
@@ -1790,25 +1752,6 @@
       "country": "Unknown"
     },
     {
-      "id": "35756d45d7e2426a",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Pinterest",
-      "title": "Machine Learning Engineer II, Respons...",
-      "location": "San Francisco, CA, US",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8162046",
-      "age": "1d",
-      "posted_at": "2026-08-29",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "machine_learning",
-      "category": "more_global_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "500831768dec6108",
       "kind": "job",
       "origin": "curated",
@@ -1824,25 +1767,6 @@
       "region": "unknown",
       "role_type": "software_engineer",
       "category": "more_global_tech",
-      "remote_type": "onsite",
-      "country": "Unknown"
-    },
-    {
-      "id": "24253735935d19bc",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Amazon.com Services LLC",
-      "title": "Security Engineer II, Customer Logist...",
-      "location": "Jersey City, NJ",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "url": "https://www.amazon.jobs/en/jobs/10516573/security-engineer-ii-customer-logistics-security",
-      "age": "2d",
-      "posted_at": "2026-08-29",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "security",
-      "category": "faang",
       "remote_type": "onsite",
       "country": "Unknown"
     },
@@ -2113,25 +2037,6 @@
       "country": "United States"
     },
     {
-      "id": "d2341865b609359c",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Amazon.com Services LLC - A57",
-      "title": "Data Engineer II - AMZ10414442",
-      "location": "Dallas, TX",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "url": "https://www.amazon.jobs/en/jobs/10507174/data-engineer-ii-amz10414442",
-      "age": "1w",
-      "posted_at": "2026-08-29",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "Unknown"
-    },
-    {
       "id": "4719395b49b03f05",
       "kind": "job",
       "origin": "curated",
@@ -2151,44 +2056,6 @@
       "country": "Canada"
     },
     {
-      "id": "7f89e4195fb09be8",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Intel",
-      "title": "Software Engineer Graduate Intern",
-      "location": "US, Oregon, Hillsboro",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491",
-      "age": "1w",
-      "posted_at": "2026-08-29",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "category": "big_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "3dcfa4fa4c7c9171",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Intel",
-      "title": "Software Engineer Graduate Intern",
-      "location": "US, Arizona, Phoenix",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
-      "age": "1w",
-      "posted_at": "2026-08-29",
-      "level": "internship",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "category": "big_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
       "id": "73586fa3d025c6d6",
       "kind": "job",
       "origin": "curated",
@@ -2206,44 +2073,6 @@
       "category": "consulting_finance",
       "remote_type": "onsite",
       "country": "Canada"
-    },
-    {
-      "id": "41ceed3e98160877",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Spring 2027)",
-      "location": "South San Francisco, C...",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
-      "age": "1w",
-      "posted_at": "2026-08-29",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "3ed6fdf9d821bcdd",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Zipline",
-      "title": "Software Engineer Intern (Summer 2027)",
-      "location": "South San Francisco, C...",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "url": "https://www.zipline.com/open-roles?gh_jid=7929236003",
-      "age": "1w",
-      "posted_at": "2026-08-29",
-      "level": "internship",
-      "region": "us",
-      "role_type": "software_engineer",
-      "category": "apac_tech",
-      "remote_type": "onsite",
-      "country": "United States"
     },
     {
       "id": "9007d432b6682356",
@@ -2987,6 +2816,25 @@
       "country": "United States"
     },
     {
+      "id": "8ed25ec831823aa0",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "location": "Hyderabad, Telangana, IND",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
+      "age": "6d",
+      "posted_at": "2026-08-04",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "category": "faang",
+      "remote_type": "onsite",
+      "country": "Unknown"
+    },
+    {
       "id": "37125469539dbe4d",
       "kind": "job",
       "origin": "curated",
@@ -3023,25 +2871,6 @@
       "category": "apac_tech",
       "remote_type": "onsite",
       "country": "United States"
-    },
-    {
-      "id": "8ed25ec831823aa0",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "location": "Hyderabad, Telangana, IND",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
-      "age": "6d",
-      "posted_at": "2026-08-04",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "Unknown"
     },
     {
       "id": "5a9b57a990547181",
@@ -3842,6 +3671,22 @@
       "country": "United Kingdom"
     },
     {
+      "id": "2a4eebf1685438a2",
+      "kind": "job",
+      "origin": "public",
+      "company": "Cloudflare",
+      "title": "Software Engineer, Realtime",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7887609?gh_jid=7887609",
+      "age": "0d",
+      "posted_at": "2026-08-29",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer"
+    },
+    {
       "id": "8c6fdb6f1b06267f",
       "kind": "job",
       "origin": "public",
@@ -3920,6 +3765,38 @@
       "level": "other",
       "region": "unknown",
       "role_type": "software_engineer"
+    },
+    {
+      "id": "6b5d8a27f0918b8c",
+      "kind": "job",
+      "origin": "public",
+      "company": "Reddit",
+      "title": "Staff Android Engineer, Brand Ad Formats",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
+      "age": "0d",
+      "posted_at": "2026-08-29",
+      "level": "other",
+      "region": "remote",
+      "role_type": "mobile"
+    },
+    {
+      "id": "ec4980c5f304de46",
+      "kind": "job",
+      "origin": "public",
+      "company": "Reddit",
+      "title": "Staff Frontend Engineer, Ads Creative",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8082867",
+      "age": "0d",
+      "posted_at": "2026-08-29",
+      "level": "other",
+      "region": "remote",
+      "role_type": "frontend"
     },
     {
       "id": "617911f64b7d7750",
@@ -5728,38 +5605,6 @@
       "level": "other",
       "region": "remote",
       "role_type": "software_engineer"
-    },
-    {
-      "id": "6b5d8a27f0918b8c",
-      "kind": "job",
-      "origin": "public",
-      "company": "Reddit",
-      "title": "Staff Android Engineer, Brand Ad Formats",
-      "location": "Remote - United States",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
-      "age": "1d",
-      "posted_at": "2026-08-28",
-      "level": "other",
-      "region": "remote",
-      "role_type": "mobile"
-    },
-    {
-      "id": "ec4980c5f304de46",
-      "kind": "job",
-      "origin": "public",
-      "company": "Reddit",
-      "title": "Staff Frontend Engineer, Ads Creative",
-      "location": "Remote - United States",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8082867",
-      "age": "1d",
-      "posted_at": "2026-08-28",
-      "level": "other",
-      "region": "remote",
-      "role_type": "frontend"
     },
     {
       "id": "7b05c3b2ea5250c3",
@@ -11170,38 +11015,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "6fa966e8278336fc",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "Development Tools Software Engineer (f/m/d) (Fixed-Term Contract)",
-      "location": "Germany, Munich",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/Germany-Munich/Development-Tools-Software-Engineer--f-m-d---Fixed-Term-Contract-_JR0286637",
-      "age": "2d",
-      "posted_at": "",
-      "level": "other",
-      "region": "emea",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "98e4a8ce8749efb2",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "Pre-Si FPGA Platform Development Engineer (Temporary position)",
-      "location": "Mexico, Guadalajara",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/Mexico-Guadalajara/Pre-Si-FPGA-Platform-Development-Engineer--Temporary-position-_JR0286656",
-      "age": "2d",
-      "posted_at": "",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform"
-    },
-    {
       "id": "c6d44a7842ba4c41",
       "kind": "job",
       "origin": "public",
@@ -12994,70 +12807,6 @@
       "role_type": "mobile"
     },
     {
-      "id": "c89733afd3573b0b",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "Analog Design Flow and Infrastructure Design Automation Manager",
-      "location": "India, Bangalore",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Analog-Design-Flow-and-Infrastructure-Design-Automation-Manager_JR0286600-1",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "infrastructure"
-    },
-    {
-      "id": "5273ce8f82a5e97d",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "EDA Tools Software Engineer",
-      "location": "US, Oregon, Hillsboro",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/EDA-Tools-Software-Engineer_JR0286599",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "c84c1a88db660331",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "GPU Software Engineer",
-      "location": "PRC, Shanghai",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/GPU-Software-Engineer_JR0286635",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
-      "id": "a8aff1d1d6511ea1",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "Senior GPU Performance Software Engineer",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, Oregon, Hillsboro<br>US, California, Santa Clara</details>",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Senior-GPU-Performance-Software-Engineer_JR0286580",
-      "age": "3d",
-      "posted_at": "",
-      "level": "other",
-      "region": "us",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "deab1acd90648a4a",
       "kind": "job",
       "origin": "public",
@@ -14466,22 +14215,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "2a4eebf1685438a2",
-      "kind": "job",
-      "origin": "public",
-      "company": "Cloudflare",
-      "title": "Software Engineer, Realtime",
-      "location": "Hybrid",
-      "source": "greenhouse:cloudflare",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7887609?gh_jid=7887609",
-      "age": "4d",
-      "posted_at": "2026-08-25",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer"
-    },
-    {
       "id": "38773d2bffd975df",
       "kind": "job",
       "origin": "public",
@@ -14720,22 +14453,6 @@
       "level": "other",
       "region": "remote",
       "role_type": "software_engineer"
-    },
-    {
-      "id": "8169fdbea63ceecc",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "Back-End TD Reliability Lab Manager",
-      "location": "US, Arizona, Phoenix",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Back-End-TD-Reliability-Lab-Manager_JR0286596",
-      "age": "4d",
-      "posted_at": "",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "backend"
     },
     {
       "id": "f1563085c5eebe4d",
@@ -26898,22 +26615,6 @@
       "role_type": "full_stack"
     },
     {
-      "id": "e790697abce4dd5c",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "Senior CPU Front End Methodology Engineer",
-      "location": "<details><summary><strong>3 locations</strong></summary>US, Texas, Austin<br>US, Arizona, Phoenix<br>US, Oregon, Hillsboro</details>",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/Senior-CPU-Front-End-Methodology-Engineer_JR0286460-1",
-      "age": "16d",
-      "posted_at": "",
-      "level": "other",
-      "region": "us",
-      "role_type": "frontend"
-    },
-    {
       "id": "4474d5672d6e04e9",
       "kind": "job",
       "origin": "public",
@@ -30832,22 +30533,6 @@
       "level": "other",
       "region": "unknown",
       "role_type": "software_engineer"
-    },
-    {
-      "id": "eab2bb3f3ce58c85",
-      "kind": "job",
-      "origin": "public",
-      "company": "Intel",
-      "title": "Hardware Platform Applications Engineer - Military & Aerospace",
-      "location": "<details><summary><strong>4 locations</strong></summary>US, Arizona, Phoenix<br>US, Oregon, Hillsboro<br>US, California, Folsom<br>US, California, Santa Clara</details>",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700",
-      "age": "30d",
-      "posted_at": "",
-      "level": "other",
-      "region": "us",
-      "role_type": "platform"
     },
     {
       "id": "86ed577f2a7851ed",
@@ -43634,19 +43319,6 @@
       "role_type": "software_engineer"
     },
     {
-      "id": "2d6e1b58c1545996",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "AbhiyantiX",
-      "title": "Prompt Wars 2026",
-      "location": "Online",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://prompt-wars-2026.devpost.com/",
-      "age": "about 3 hours left",
-      "posted_at": "2026-08-29"
-    },
-    {
       "id": "7690f7ab49bf1c2f",
       "kind": "hackathon",
       "origin": "public",
@@ -43669,7 +43341,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://agentsforhumans.devpost.com/",
-      "age": "17 days left",
+      "age": "16 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -43803,6 +43475,19 @@
       "posted_at": "2026-08-29"
     },
     {
+      "id": "a83458d106532a8c",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Binnovative",
+      "title": "AnimalHack 2026",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://animalhack2026.devpost.com/",
+      "age": "14 days left",
+      "posted_at": "2026-08-29"
+    },
+    {
       "id": "ace15e808cec90aa",
       "kind": "hackathon",
       "origin": "public",
@@ -43855,19 +43540,6 @@
       "posted_at": "2026-08-29"
     },
     {
-      "id": "c5cafc784d4b8fc8",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Campus Hackers",
-      "title": "Hacks day Bhopal",
-      "location": "Online",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://hacks-day-bhopal.devpost.com/",
-      "age": "about 4 hours left",
-      "posted_at": "2026-08-29"
-    },
-    {
       "id": "791924b6306624cd",
       "kind": "hackathon",
       "origin": "public",
@@ -43890,7 +43562,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://smart-city-hackathon-lahore.devpost.com/",
-      "age": "1 day left",
+      "age": "about 22 hours left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44163,7 +43835,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://binary-hacks-4.devfolio.co",
-      "age": "24 days left",
+      "age": "23 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44189,7 +43861,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://builders-day-hackunion.devfolio.co",
-      "age": "28 days left",
+      "age": "27 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44228,7 +43900,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://codeutsava-x.devfolio.co",
-      "age": "36 days left",
+      "age": "35 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44254,7 +43926,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://convergence1.devfolio.co",
-      "age": "64 days left",
+      "age": "63 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44306,7 +43978,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://dsudevhack3.devfolio.co",
-      "age": "21 days left",
+      "age": "20 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44501,7 +44173,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hackspire26.devfolio.co",
-      "age": "35 days left",
+      "age": "34 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44514,7 +44186,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hacktopusgdg.devfolio.co",
-      "age": "48 days left",
+      "age": "47 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44566,7 +44238,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://innohacks-4.devfolio.co",
-      "age": "36 days left",
+      "age": "35 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44657,7 +44329,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://nexhack-2.devfolio.co",
-      "age": "28 days left",
+      "age": "27 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44761,7 +44433,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://tum.devfolio.co",
-      "age": "63 days left",
+      "age": "62 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44800,7 +44472,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://wth.devfolio.co",
-      "age": "1 days left",
+      "age": "last day",
       "posted_at": "2026-08-29"
     },
     {
@@ -44814,6 +44486,19 @@
       "source_url": "https://devpost.com/hackathons",
       "url": "https://agentic-hackathon.devpost.com/",
       "age": "8 days left",
+      "posted_at": "2026-08-29"
+    },
+    {
+      "id": "1c370eb06bf9c0ec",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "DreamHacks",
+      "title": "DreamHacks @ Georgia Institute of Technology",
+      "location": "Georgia Institute of Technology",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://dreamhacks-gt.devpost.com/",
+      "age": "about 7 hours left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44943,7 +44628,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://agentic-cinema.devpost.com/",
-      "age": "12 days left",
+      "age": "11 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44956,7 +44641,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://allthingsagentichackathon.devpost.com/",
-      "age": "3 days left",
+      "age": "2 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44982,7 +44667,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://graphiques-challenge.devpost.com/",
-      "age": "about 14 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-08-29"
     },
     {
@@ -44995,7 +44680,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hack-the-habitat-2026.devpost.com/",
-      "age": "2 days left",
+      "age": "1 day left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45008,7 +44693,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://nextstep2026.devpost.com/",
-      "age": "16 days left",
+      "age": "15 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45034,7 +44719,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hacksocial2026.devpost.com/",
-      "age": "3 days left",
+      "age": "2 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45060,7 +44745,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hack-the-limit-1.devpost.com/",
-      "age": "about 22 hours left",
+      "age": "about 16 hours left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45073,7 +44758,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://hyperbloom-september.devpost.com/",
-      "age": "17 days left",
+      "age": "16 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45086,7 +44771,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://techx-rwanda-hackathon.devpost.com/",
-      "age": "6 days left",
+      "age": "5 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45493,6 +45178,19 @@
       "posted_at": "2026-08-29"
     },
     {
+      "id": "e1d15d349498fdc7",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "International AI Youth Education Society",
+      "title": "AI YES :International Youth AI Competition",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://ai-yes-competition-30441.devpost.com/",
+      "age": "3 days left",
+      "posted_at": "2026-08-29"
+    },
+    {
       "id": "d6c1fefdc062072b",
       "kind": "hackathon",
       "origin": "public",
@@ -45610,19 +45308,6 @@
       "posted_at": "2026-08-29"
     },
     {
-      "id": "30dae97a433732c5",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Maestro",
-      "title": "Maestro Eldoret Hack Day",
-      "location": "Kikao 64 Hub Eldoret",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://maestro-eldoret-hack-day.devpost.com/",
-      "age": "about 6 hours left",
-      "posted_at": "2026-08-29"
-    },
-    {
       "id": "cef239b911e169e4",
       "kind": "hackathon",
       "origin": "public",
@@ -45727,6 +45412,19 @@
       "posted_at": "2026-08-29"
     },
     {
+      "id": "d544884232a5b17a",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "OSC",
+      "title": "AI Builders Hackathon",
+      "location": "Online",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://ai-builders-hackathon-2026.devpost.com/",
+      "age": "18 days left",
+      "posted_at": "2026-08-29"
+    },
+    {
       "id": "cfa5633ff65b26e6",
       "kind": "hackathon",
       "origin": "public",
@@ -45827,7 +45525,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://prometheus-sept-ai-classic.devpost.com/",
-      "age": "8 days left",
+      "age": "7 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45853,7 +45551,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://zero-origin.devpost.com/",
-      "age": "28 days left",
+      "age": "27 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45922,19 +45620,6 @@
       "posted_at": "2026-08-29"
     },
     {
-      "id": "7fa70c62be4626a3",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Signallabs.ai",
-      "title": "Signal Labs Hackathon",
-      "location": "Hyderabad",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://signal-labs-hackathon.devpost.com/",
-      "age": "about 8 hours left",
-      "posted_at": "2026-08-29"
-    },
-    {
       "id": "44210e6eaa9e52e9",
       "kind": "hackathon",
       "origin": "public",
@@ -45983,7 +45668,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://syntax-summit.devpost.com/",
-      "age": "8 days left",
+      "age": "7 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -45996,7 +45681,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://rescue-hacks-30680.devpost.com/",
-      "age": "about 15 hours left",
+      "age": "about 10 hours left",
       "posted_at": "2026-08-29"
     },
     {
@@ -46022,7 +45707,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://syncs-hack-2026.devpost.com/",
-      "age": "about 18 hours left",
+      "age": "about 12 hours left",
       "posted_at": "2026-08-29"
     },
     {
@@ -46035,7 +45720,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://3d-websites-hackathon.devpost.com/",
-      "age": "3 days left",
+      "age": "2 days left",
       "posted_at": "2026-08-29"
     },
     {
@@ -46087,7 +45772,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://mobile-ai-build-weekend.devpost.com/",
-      "age": "about 20 hours left",
+      "age": "about 15 hours left",
       "posted_at": "2026-08-29"
     },
     {
