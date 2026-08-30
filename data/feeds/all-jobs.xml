@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sun, 30 Aug 2026 17:31:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 21:07:26 GMT</lastBuildDate>
     <item>
       <title>Cohere — Software Engineer Intern (Winter 2027)</title>
       <link>https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254</link>
@@ -17,34 +17,6 @@
       <link>https://www.google.com/about/careers/applications/jobs/results/101300536594047686</link>
       <guid isPermaLink="false">1d7513e0b87b3185</guid>
       <description>United States · mid_level · 0d</description>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249</link>
-      <guid isPermaLink="false">66bbf1e553376c7c</guid>
-      <description>Denver, CO · internship · 0d</description>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d</link>
-      <guid isPermaLink="false">b3126ca0917b76be</guid>
-      <description>New York, NY · internship · 0d</description>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0</link>
-      <guid isPermaLink="false">162a14da3a107f9f</guid>
-      <description>Washington, D.C. · internship · 0d</description>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Software-Engineer-II_R-286506</link>
-      <guid isPermaLink="false">7ff24571ea46dc4b</guid>
-      <description>Toronto, Canada · mid_level · 5d</description>
       <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -748,6 +720,20 @@
       <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Snowflake — Senior Software Engineer - Dynamic Tables</title>
+      <link>https://jobs.ashbyhq.com/snowflake/0ddbb960-df61-4d19-82f1-e6cd5ab8dd64</link>
+      <guid isPermaLink="false">c0aee39f55d24cc7</guid>
+      <description>DE-Berlin-Trion Building · other · 0d</description>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Snowflake — Software Engineer - Dynamic Tables</title>
+      <link>https://jobs.ashbyhq.com/snowflake/99dfc810-9487-4ac1-91a8-50acefd05bae</link>
+      <guid isPermaLink="false">9d30bcce2d4afdbe</guid>
+      <description>DE-Berlin-Trion Building · other · 0d</description>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sony Interactive Entertainment — Software Engineer II, Client Platform</title>
       <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6174379004</link>
       <guid isPermaLink="false">56f874884165b397</guid>
@@ -802,13 +788,6 @@
       <guid isPermaLink="false">b58ddc9f21fbaf89</guid>
       <description>Singapore · other · 0d</description>
       <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Machine Learning Engineer Graduate (E...</title>
-      <link>https://joinbytedance.com/search/7675477254315428149</link>
-      <guid isPermaLink="false">ef3b2f19130d057d</guid>
-      <description>Seattle, Washington · new_grad · 0d</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Machine Learning Engineer Intern (AML...</title>
@@ -3688,17 +3667,17 @@
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sony Interactive Entertainment — Data Engineer II</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147069004</link>
-      <guid isPermaLink="false">b84f95acdcc2b1c8</guid>
-      <description>CA · mid_level · 0d</description>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft — Software Engineer II - Distributed Sy...</title>
       <link>https://apply.careers.microsoft.com/careers/job/1970393556928710</link>
       <guid isPermaLink="false">ac29a8e3d486ec1a</guid>
       <description>Vancouver, British Col... · mid_level · 0d</description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sony Interactive Entertainment — Data Engineer II</title>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147069004</link>
+      <guid isPermaLink="false">b84f95acdcc2b1c8</guid>
+      <description>CA · mid_level · 0d</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4248,13 +4227,6 @@
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Morgan Stanley — SRE Associate (Hybrid)</title>
-      <link>https://ms.wd5.myworkdayjobs.com/External/job/Montreal-Canada/SRE-Associate--Hybrid-_PT-JR040929</link>
-      <guid isPermaLink="false">73586fa3d025c6d6</guid>
-      <description>Montreal, Canada · entry_level · 1w</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic — Staff Software Engineer, Education</title>
       <link>https://job-boards.greenhouse.io/anthropic/jobs/5389305008</link>
       <guid isPermaLink="false">62bf3a0a41e6399d</guid>
@@ -4690,16 +4662,16 @@
     </item>
     <item>
       <title>Robinhood — Senior Android Engineer, Wallet</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8084381?t=gh_src=&amp;gh_jid=8084381</link>
-      <guid isPermaLink="false">3ab140d6aa5a8d29</guid>
-      <description>Toronto, Canada · other · 5d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8084379?t=gh_src=&amp;gh_jid=8084379</link>
+      <guid isPermaLink="false">826652056f3575bc</guid>
+      <description>Menlo Park, CA; New York, NY · other · 5d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Senior Android Engineer, Wallet</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8084379?t=gh_src=&amp;gh_jid=8084379</link>
-      <guid isPermaLink="false">826652056f3575bc</guid>
-      <description>Menlo Park, CA; New York, NY · other · 5d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8084381?t=gh_src=&amp;gh_jid=8084381</link>
+      <guid isPermaLink="false">3ab140d6aa5a8d29</guid>
+      <description>Toronto, Canada · other · 5d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4746,16 +4718,16 @@
     </item>
     <item>
       <title>Robinhood — Senior Software Engineer, Custody Services</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7648454?t=gh_src=&amp;gh_jid=7648454</link>
-      <guid isPermaLink="false">c09fe330e5510f69</guid>
-      <description>Ljubljana, Slovenia · other · 5d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/7648452?t=gh_src=&amp;gh_jid=7648452</link>
+      <guid isPermaLink="false">167ddd6659e93f29</guid>
+      <description>London, UK · other · 5d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Senior Software Engineer, Custody Services</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7648452?t=gh_src=&amp;gh_jid=7648452</link>
-      <guid isPermaLink="false">167ddd6659e93f29</guid>
-      <description>London, UK · other · 5d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/7648454?t=gh_src=&amp;gh_jid=7648454</link>
+      <guid isPermaLink="false">c09fe330e5510f69</guid>
+      <description>Ljubljana, Slovenia · other · 5d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4809,16 +4781,16 @@
     </item>
     <item>
       <title>Robinhood — Senior Software Engineer, Wallet</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8088455?t=gh_src=&amp;gh_jid=8088455</link>
-      <guid isPermaLink="false">25db436e0cdf0f13</guid>
-      <description>Toronto, Canada · other · 5d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8088453?t=gh_src=&amp;gh_jid=8088453</link>
+      <guid isPermaLink="false">a969d8a6ca7029b4</guid>
+      <description>Menlo Park, CA; New York, NY · other · 5d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Senior Software Engineer, Wallet</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8088453?t=gh_src=&amp;gh_jid=8088453</link>
-      <guid isPermaLink="false">a969d8a6ca7029b4</guid>
-      <description>Menlo Park, CA; New York, NY · other · 5d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8088455?t=gh_src=&amp;gh_jid=8088455</link>
+      <guid isPermaLink="false">25db436e0cdf0f13</guid>
+      <description>Toronto, Canada · other · 5d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4900,16 +4872,16 @@
     </item>
     <item>
       <title>Robinhood — Staff Software Engineer, Web3</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&amp;gh_jid=7489952</link>
-      <guid isPermaLink="false">13ee8aabcd984d51</guid>
-      <description>Toronto, Canada · other · 5d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&amp;gh_jid=7489950</link>
+      <guid isPermaLink="false">a268785f8fd1c15a</guid>
+      <description>Menlo Park, CA; New York, NY · other · 5d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Staff Software Engineer, Web3</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&amp;gh_jid=7489950</link>
-      <guid isPermaLink="false">a268785f8fd1c15a</guid>
-      <description>Menlo Park, CA; New York, NY · other · 5d</description>
+      <link>https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&amp;gh_jid=7489952</link>
+      <guid isPermaLink="false">13ee8aabcd984d51</guid>
+      <description>Toronto, Canada · other · 5d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7984,13 +7956,6 @@
       <guid isPermaLink="false">3fbb14213ff23342</guid>
       <description>San Francisco (HQ) · other · 11d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Backend Development Engineer Intern (...</title>
-      <link>https://joinbytedance.com/search/7668489218234157365</link>
-      <guid isPermaLink="false">0e4485df545670d3</guid>
-      <description>San Jose, California · internship · 0d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Product Security Engineer Graduate (S...</title>
@@ -12158,6 +12123,13 @@
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II (ADBL178)</title>
+      <link>https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178</link>
+      <guid isPermaLink="false">b79f5f772d067aaf</guid>
+      <description>Newark, New Jersey, USA · mid_level · 30d</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer II (ADBL183)</title>
       <link>https://www.amazon.jobs/en/jobs/10489696/software-development-engineer-ii-adbl183</link>
       <guid isPermaLink="false">3de94be518093ad5</guid>
@@ -14594,6 +14566,13 @@
       <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, AmazonMQ</title>
+      <link>https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq</link>
+      <guid isPermaLink="false">fd95b7ef37fe6f7c</guid>
+      <description>Vancouver, British Columbia, CAN · mid_level · 44d</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Airbnb — Staff Software Engineer, Unified Data Store</title>
       <link>https://careers.airbnb.com/positions/7867435?gh_jid=7867435</link>
       <guid isPermaLink="false">a8c843dff1c50c7b</guid>
@@ -16188,6 +16167,13 @@
       <guid isPermaLink="false">abdaee5be13479b3</guid>
       <description>New York, NY (HQ) · other · 125d</description>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, Amazon</title>
+      <link>https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon</link>
+      <guid isPermaLink="false">86c087a99d1f949a</guid>
+      <description>Hyderabad, Telangana, IND · mid_level · 127d</description>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Openai — Software Engineer, Inference - Performance Optimization</title>
@@ -18132,10 +18118,22 @@
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;3 locations&lt;/strong&gt;&lt;/summary&gt;US, SC, Remote&lt;br&gt;US, CA, Remote&lt;br&gt;US, Remote&lt;/details&gt; · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Software Engineer, NCCL</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186</link>
+      <guid isPermaLink="false">f893363966b390ca</guid>
+      <description>US, CA, Santa Clara · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Systems Software Engineer - GPU Performance at Scale</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987</link>
       <guid isPermaLink="false">bfb1141b80e4b771</guid>
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;5 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, NC, Remote&lt;br&gt;US, TX, Remote&lt;br&gt;US, Remote&lt;br&gt;US, CA, Remote&lt;/details&gt; · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Software Engineer, System Validation - EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880</link>
+      <guid isPermaLink="false">adcce799c7a9b52e</guid>
+      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;5 locations&lt;/strong&gt;&lt;/summary&gt;US, CA, Santa Clara&lt;br&gt;US, MA, Westford&lt;br&gt;US, TX, Austin&lt;br&gt;US, NC, Durham&lt;br&gt;US, CA, Remote&lt;/details&gt; · other · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Software Engineering Intern, Test Development - 2027</title>
@@ -18306,60 +18304,6 @@
       <description>US, CA, Santa Clara · other · 1d</description>
     </item>
     <item>
-      <title>Mastercard — Lead Site Reliability Engineer (AI/ML)</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Site-Reliability-Engineer--AI-ML-_R-278258-1</link>
-      <guid isPermaLink="false">c1d5e5cd49b91c96</guid>
-      <description>Dublin, Ireland · other · 2d</description>
-    </item>
-    <item>
-      <title>Mastercard — Manager, Software Engineering (Java, Cloud, Microservices, Architecture)</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering--Java--Cloud--Microservices--Architecture-_R-289128-1</link>
-      <guid isPermaLink="false">11f963a0f858fc14</guid>
-      <description>Pune, India · other · 2d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Platform Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Copenhagen-Denmark-Arne-Jacobsens/Senior-Platform-Engineer_R-280618</link>
-      <guid isPermaLink="false">fa5724873f5eff4f</guid>
-      <description>Copenhagen, Denmark (Arne Jacobsens) · other · 2d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-288843-1</link>
-      <guid isPermaLink="false">767bc53cd3d4243a</guid>
-      <description>O'Fallon, Missouri · other · 2d</description>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-281530</link>
-      <guid isPermaLink="false">e3447f658fe01adb</guid>
-      <description>O'Fallon, Missouri · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>Morgan Stanley — Lead Software Engineer(Java/AI)_Vice President_Software Engineering</title>
-      <link>https://ms.wd5.myworkdayjobs.com/External/job/Bengaluru-India/Lead-Software-Engineer-Java-AI--Vice-President-Software-Engineering_PT-JR042911-1</link>
-      <guid isPermaLink="false">97c058c2b628587c</guid>
-      <description>Bengaluru, India · other · 2d</description>
-    </item>
-    <item>
-      <title>Morgan Stanley — Linux Systems, Hardware and Infrastructure Services Engineer - Vice President</title>
-      <link>https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Linux-Systems--Hardware-and-Infrastructure-Services-Engineer---Vice-President_PT-JR042525</link>
-      <guid isPermaLink="false">262f2c89fa4b2938</guid>
-      <description>New York, New York, United States of America · other · 2d</description>
-    </item>
-    <item>
-      <title>Morgan Stanley — Principal Software Engineer (AI Platform) - Parametric</title>
-      <link>https://ms.wd5.myworkdayjobs.com/External/job/Minneapolis-Minnesota-United-States-of-America/Principal-Software-Engineer---AI-Platform----Parametric_PT-JR043021</link>
-      <guid isPermaLink="false">5129db79520cecce</guid>
-      <description>Minneapolis, Minnesota, United States of America · other · 2d</description>
-    </item>
-    <item>
-      <title>Morgan Stanley — Senior Software Engineer- Structured Credit &amp; Financing Technology</title>
-      <link>https://ms.wd5.myworkdayjobs.com/External/job/New-York-New-York-United-States-of-America/Senior-Software-Engineer--Structured-Credit---Financing-Technology_PT-JR042440</link>
-      <guid isPermaLink="false">199321b7985afd0a</guid>
-      <description>New York, New York, United States of America · other · 2d</description>
-    </item>
-    <item>
       <title>Netflix — Senior Software Engineer 4/5 - Client And Partner Technologies</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Senior-Software-Engineer-5---Client-And-Partner-Technologies_JR40929</link>
       <guid isPermaLink="false">7552b7e4734d1220</guid>
@@ -18376,114 +18320,6 @@
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/New-York/Software-Engineer--L5----Ads-Identity---Privacy_JR33623</link>
       <guid isPermaLink="false">56458b929c5ea529</guid>
       <description>New York · other · 2d</description>
-    </item>
-    <item>
-      <title>Mastercard — Director, Platform Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Director--Platform-Engineering_R-273321</link>
-      <guid isPermaLink="false">9e971a62e5fb3d0b</guid>
-      <description>O'Fallon, Missouri · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Site Reliability Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Site-Reliability-Engineer_R-284418</link>
-      <guid isPermaLink="false">807652091328297b</guid>
-      <description>Dublin, Ireland · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer_R-286479-1</link>
-      <guid isPermaLink="false">42dbbb86cdbfddd3</guid>
-      <description>Dublin, Ireland · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-289394</link>
-      <guid isPermaLink="false">8a74b0a3edcfc6eb</guid>
-      <description>Pune, India · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-287047-1</link>
-      <guid isPermaLink="false">bf66057a8c60b9aa</guid>
-      <description>Pune, India · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-289042</link>
-      <guid isPermaLink="false">f2f7d257ad2ebf1a</guid>
-      <description>Pune, India · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Manager Software Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager-Software-Engineering_R-281090</link>
-      <guid isPermaLink="false">eef38d37b1fc79d8</guid>
-      <description>O'Fallon, Missouri · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Manager, Business Development - Platform Partnerships</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Purchase-New-York/Manager--Business-Development---Platform-Partnerships_R-286511</link>
-      <guid isPermaLink="false">6cb8bbc39f82da78</guid>
-      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;6 locations&lt;/strong&gt;&lt;/summary&gt;Purchase, New York&lt;br&gt;Boston, Massachusetts&lt;br&gt;Arlington, Virginia&lt;br&gt;Atlanta, Georgia&lt;br&gt;Miami, Florida&lt;br&gt;Chicago, Illinois&lt;/details&gt; · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Navi-Mumbai-India-Finicity/Senior-Software-Engineer_R-287188</link>
-      <guid isPermaLink="false">d82ee373de1327c0</guid>
-      <description>Navi Mumbai, India (Finicity) · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Senior-Software-Engineer_R-281205</link>
-      <guid isPermaLink="false">2fb9fa64536723f8</guid>
-      <description>Mexico City, Mexico · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland-Mountain-View/Senior-Software-Engineer_R-287078</link>
-      <guid isPermaLink="false">a7526f7e056a2feb</guid>
-      <description>Dublin, Ireland (Mountain View) · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-288605</link>
-      <guid isPermaLink="false">ad22a40b2c02e1ce</guid>
-      <description>Pune, India · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-289027</link>
-      <guid isPermaLink="false">484360ef04a35a37</guid>
-      <description>Pune, India · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-289048</link>
-      <guid isPermaLink="false">6e28c696e145bf1a</guid>
-      <description>Pune, India · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-289008</link>
-      <guid isPermaLink="false">512fbf8c0da8b980</guid>
-      <description>Pune, India · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288941</link>
-      <guid isPermaLink="false">f88a40c8e3d0946f</guid>
-      <description>Pune, India · mid_level · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Vice President, Platform Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Tech-Hub---Technology-Lead_R-288835-1</link>
-      <guid isPermaLink="false">132a0d48a2bba9a0</guid>
-      <description>Pune, India · other · 3d</description>
-    </item>
-    <item>
-      <title>Morgan Stanley — Java Software Engineer</title>
-      <link>https://ms.wd5.myworkdayjobs.com/External/job/Budapest-Hungary/Java-Software-Engineer_PT-JR042313</link>
-      <guid isPermaLink="false">896a03f1e84ce2dc</guid>
-      <description>Budapest, Hungary · other · 3d</description>
     </item>
     <item>
       <title>Netflix — Distributed Systems Engineer (L4) - Data Platform</title>
@@ -18526,18 +18362,6 @@
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/New-York/Software-Engineering-6---Ads-Engineering_JR42289</link>
       <guid isPermaLink="false">e2fd2712378ddb8c</guid>
       <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;2 locations&lt;/strong&gt;&lt;/summary&gt;New York&lt;br&gt;Los Gatos&lt;/details&gt; · other · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer_R-287309</link>
-      <guid isPermaLink="false">c038a3c115cde6b9</guid>
-      <description>O'Fallon, Missouri · other · 4d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-279539</link>
-      <guid isPermaLink="false">9167ebbbc7009e2e</guid>
-      <description>O'Fallon, Missouri · other · 4d</description>
     </item>
     <item>
       <title>Netflix — Director, Cloud Gaming Infrastructure</title>
