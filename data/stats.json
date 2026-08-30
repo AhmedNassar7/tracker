@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-30T21:03:51Z",
-  "total": 217,
+  "generated_at": "2026-08-30T23:28:49Z",
+  "total": 216,
   "by_level": {
     "new_grad": 88,
     "entry_level": 10,
     "internship": 92,
-    "mid_level": 26,
+    "mid_level": 25,
     "junior": 1
   },
   "by_country": {
-    "United States": 138,
+    "United States": 137,
     "Unknown": 57,
     "Germany": 1,
     "Canada": 13,
@@ -23,7 +23,7 @@
     "lorenzolacorte_eu": 4,
     "zapplyjobs_datascience": 2,
     "zapplyjobs_internships": 6,
-    "zapplyjobs_all_newgrad": 2,
+    "zapplyjobs_all_newgrad": 1,
     "zapplyjobs_canada": 5,
     "zapplyjobs_canada_internships": 2,
     "zapplyjobs_newgrad": 1,
