@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T06:41:24Z",
+  "updated_at": "2026-08-30T12:55:53Z",
   "retention_days": 90,
   "snapshots": [
     {
@@ -2940,6 +2940,20 @@
         "internship": 121,
         "early_career": 97,
         "mid_level": 2221
+      }
+    },
+    {
+      "at": "2026-08-30T12:55:53Z",
+      "curated_roles": 196,
+      "public_opportunities": 2696,
+      "jobs_total": 2471,
+      "hackathons_total": 204,
+      "events_total": 3,
+      "total_items": 2678,
+      "level_counts": {
+        "internship": 121,
+        "early_career": 97,
+        "mid_level": 2253
       }
     }
   ]
