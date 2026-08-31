@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:32:13Z",
+  "generated_at": "2026-08-31T13:46:18Z",
   "total": 189,
   "jobs": [
     {
@@ -831,6 +831,75 @@
       ]
     },
     {
+      "id": "1d7513e0b87b3185",
+      "company": "Google",
+      "title": "Security Engineer II, Hybrid Cloud Gu...",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "security",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-08-31",
+      "age": "0d",
+      "collected_at": "2026-08-31T13:46:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e81da6a8c6af1748",
+      "company": "Google",
+      "title": "Software Developer Intern, BS, Summer...",
+      "level": "internship",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Canada",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/123510626377966278",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-08-31",
+      "age": "0d",
+      "collected_at": "2026-08-31T13:46:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fa65633a997d072b",
+      "company": "Google",
+      "title": "Software Developer Intern, MS, Summer...",
+      "level": "internship",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Canada",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/138960139137753798",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-08-31",
+      "age": "0d",
+      "collected_at": "2026-08-31T13:46:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "21f753f9775c0d41",
       "company": "Google",
       "title": "Software Developer Intern, PhD, Summe...",
@@ -847,29 +916,6 @@
       "posted_at": "2026-08-24",
       "age": "0d",
       "collected_at": "2026-08-24T09:03:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d0c6c5402c438c0d",
-      "company": "Google",
-      "title": "Software Developer, Early Career, Campus",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "canada",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Canada",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/120686451305128646",
-      "source": "zapplyjobs_canada_internships",
-      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-08-10",
-      "age": "0d",
-      "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
         "programming",
@@ -1468,75 +1514,6 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2157980cd28337aa",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Infrast...",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-31",
-      "age": "0d",
-      "collected_at": "2026-08-31T05:32:13Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8c0b6a275a676493",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Product...",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington, D.C.",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-31",
-      "age": "0d",
-      "collected_at": "2026-08-31T05:32:13Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "222260aec118fe33",
-      "company": "Palantir",
-      "title": "Software Engineer, New Grad - Product...",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-08-31",
-      "age": "0d",
-      "collected_at": "2026-08-31T05:32:13Z",
       "tags": [
         "software",
         "programming",
@@ -2533,29 +2510,6 @@
       ]
     },
     {
-      "id": "e0354b8d66861049",
-      "company": "AMD",
-      "title": "Software Engineer Intern/Co-op - Masters 🎓",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, CA Santa Clara, CA",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/91176?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-21",
-      "age": "0d",
-      "collected_at": "2026-08-21T07:06:27Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "354f59283322e830",
       "company": "Zipline",
       "title": "Software Engineer Intern - Spring 2027",
@@ -2602,22 +2556,22 @@
       ]
     },
     {
-      "id": "822623bc288d8af4",
-      "company": "ByteDance",
-      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
+      "id": "e0354b8d66861049",
+      "company": "AMD",
+      "title": "Software Engineer Intern/Co-op - Masters 🎓",
       "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "machine_learning",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
       "country": "United States",
-      "location": "Seattle, WA",
+      "location": "San Jose, CA Santa Clara, CA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://careers.amd.com/jobs/91176?icims=1&utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-19",
+      "posted_at": "2026-08-21",
       "age": "0d",
-      "collected_at": "2026-08-19T08:53:17Z",
+      "collected_at": "2026-08-21T07:06:27Z",
       "tags": [
         "software",
         "programming",
@@ -2641,6 +2595,29 @@
       "posted_at": "2026-08-19",
       "age": "0d",
       "collected_at": "2026-08-19T21:39:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "822623bc288d8af4",
+      "company": "ByteDance",
+      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-19",
+      "age": "0d",
+      "collected_at": "2026-08-19T08:53:17Z",
       "tags": [
         "software",
         "programming",
@@ -3177,29 +3154,6 @@
       ]
     },
     {
-      "id": "ba35424657a379e0",
-      "company": "ByteDance",
-      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "backend",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-10",
-      "age": "4d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "5720b9be285a1055",
       "company": "ByteDance",
       "title": "Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓",
@@ -3239,6 +3193,52 @@
       "posted_at": "2026-08-24",
       "age": "17d",
       "collected_at": "2026-08-24T14:02:08Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5319fc8fec65d19c",
+      "company": "ByteDance",
+      "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670009669494704437/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-31",
+      "age": "25d",
+      "collected_at": "2026-08-31T13:46:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ba35424657a379e0",
+      "company": "ByteDance",
+      "title": "Backend Inference Runtime Engineer New Grad - AML Inference",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "backend",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-10",
+      "age": "4d",
+      "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
         "programming",
@@ -3361,6 +3361,29 @@
       ]
     },
     {
+      "id": "8ed25ec831823aa0",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-08-04",
+      "age": "6d",
+      "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "37125469539dbe4d",
       "company": "ByteDance",
       "title": "Software Engineer Intern - AI Infra Compute 🎓",
@@ -3422,29 +3445,6 @@
       "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
       "posted_at": "2026-08-10",
       "age": "7d",
-      "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "8ed25ec831823aa0",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, FinTech",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "Unknown",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10491964/software-development-engineer-ii-fintech",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-04",
-      "age": "6d",
       "collected_at": "2026-08-10T09:39:03Z",
       "tags": [
         "software",
