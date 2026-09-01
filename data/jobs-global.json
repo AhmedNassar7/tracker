@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T10:04:52Z",
-  "total": 199,
+  "generated_at": "2026-09-01T14:52:22Z",
+  "total": 203,
   "jobs": [
     {
       "id": "740a1e48b89d1e0d",
@@ -1307,6 +1307,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "84d4583b4f599d07",
+      "company": "Microsoft",
+      "title": "Software Engineer: AI/ML & LLM Intern...",
+      "level": "internship",
+      "category": "microsoft_group",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Redmond, Washington, United States",
+      "remote_type": "onsite",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-01",
+      "age": "0d",
+      "collected_at": "2026-09-01T14:52:22Z",
       "tags": [
         "software",
         "programming",
@@ -2625,6 +2648,29 @@
       ]
     },
     {
+      "id": "b21d299265fbeb6b",
+      "company": "Google",
+      "title": "Software Developer Intern 🎓",
+      "level": "internship",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Montreal, QC, Canada Toronto, ON, Canada Waterloo, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-09-01",
+      "age": "7d",
+      "collected_at": "2026-09-01T14:52:22Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "5d5f25c8580f62e8",
       "company": "Google",
       "title": "Software Engineer Early Career - Multiple Teams 🎓",
@@ -3844,6 +3890,29 @@
       ]
     },
     {
+      "id": "b79f5f772d067aaf",
+      "company": "Amazon",
+      "title": "Software Development Engineer II (ADBL178)",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Newark, New Jersey, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10489653/software-development-engineer-ii-adbl178",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-31",
+      "age": "32d",
+      "collected_at": "2026-09-01T14:52:22Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "3de94be518093ad5",
       "company": "Amazon",
       "title": "Software Development Engineer II (ADBL183)",
@@ -3952,6 +4021,29 @@
       "posted_at": "2026-07-28",
       "age": "17d",
       "collected_at": "2026-08-14T18:05:15Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fd95b7ef37fe6f7c",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AmazonMQ",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "other_swe",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia, CAN",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10477762/software-development-engineer-ii-amazonmq",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-17",
+      "age": "46d",
+      "collected_at": "2026-09-01T14:52:22Z",
       "tags": [
         "software",
         "programming",
@@ -4113,29 +4205,6 @@
       "posted_at": "2026-08-10",
       "age": "26d",
       "collected_at": "2026-08-10T09:39:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "762e622973d6f9c1",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Amazon",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "Seattle, Washington, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10472832/software-development-engineer-ii-amazon",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-07-13",
-      "age": "50d",
-      "collected_at": "2026-09-01T10:04:52Z",
       "tags": [
         "software",
         "programming",
@@ -4320,6 +4389,29 @@
       "posted_at": "2026-08-10",
       "age": "1mo",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-09-01",
+      "age": "2mo",
+      "collected_at": "2026-09-01T14:52:22Z",
       "tags": [
         "software",
         "programming",
@@ -4534,22 +4626,22 @@
       ]
     },
     {
-      "id": "904bb9826d24d2ef",
+      "id": "86c087a99d1f949a",
       "company": "Amazon",
-      "title": "Software Development Engineer II, GIS",
+      "title": "Software Development Engineer II, Amazon",
       "level": "mid_level",
       "category": "faang",
       "region": "unknown",
       "role_type": "other_swe",
       "country": "Unknown",
-      "location": "Belo Horizonte, Minas Gerais, BRA",
+      "location": "Hyderabad, Telangana, IND",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10404562/software-development-engineer-ii-gis",
+      "url": "https://www.amazon.jobs/en/jobs/10403403/software-development-engineer-ii-amazon",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-04-27",
-      "age": "127d",
-      "collected_at": "2026-09-01T10:04:52Z",
+      "posted_at": "2026-04-25",
+      "age": "129d",
+      "collected_at": "2026-09-01T14:52:22Z",
       "tags": [
         "software",
         "programming",
