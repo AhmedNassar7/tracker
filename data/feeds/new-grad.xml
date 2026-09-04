@@ -4,7 +4,14 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Fri, 04 Sep 2026 04:34:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 09:41:55 GMT</lastBuildDate>
+    <item>
+      <title>Roblox — [2027] Software Engineer, Early Career</title>
+      <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
+      <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
+      <description>San Mateo, CA, United States · new_grad · 0d</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Palantir — Software Engineer – New Grad</title>
       <link>https://jobs.lever.co/palantir/d372c805-d0cd-4a10-9522-fbecc78d6f3e/apply?utm_source=Simplify&amp;ref=Simplify</link>
@@ -17,13 +24,6 @@
       <link>https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79/apply?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">42a29ac7dc47c068</guid>
       <description>Washington, DC · new_grad · 2mo</description>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Roblox — [2027] Software Engineer, Early Career</title>
-      <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
-      <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
-      <description>San Mateo, CA, United States · new_grad · 1d</description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -126,20 +126,6 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
-      <guid isPermaLink="false">485c7a19842acde7</guid>
-      <description>Toronto · new_grad · 4d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 4d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
       <description>London · new_grad · 4d</description>
@@ -147,9 +133,23 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
+      <guid isPermaLink="false">485c7a19842acde7</guid>
+      <description>Toronto · new_grad · 4d</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
       <guid isPermaLink="false">b836bebf63487343</guid>
       <description>Dublin · new_grad · 4d</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 4d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -559,13 +559,6 @@
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Citadel — Software Engineer – University Graduate</title>
-      <link>https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">a2074999bf3dbf58</guid>
-      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;4 locations&lt;/strong&gt;&lt;/summary&gt;Greenwich, CT&lt;br&gt;Houston, TX&lt;br&gt;Miami, FL&lt;br&gt;NYC&lt;/details&gt; · new_grad · 1mo</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Citadel Securities — Software Engineer – University Graduate</title>
       <link>https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">d530f67da5b76ff6</guid>
@@ -584,6 +577,13 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">979e29bf5b7e0276</guid>
       <description>Canada Santa Clara, CA · new_grad · 28d</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Citadel — Software Engineer – University Graduate</title>
+      <link>https://www.citadel.com/careers/details/software-engineer-university-graduate-us/?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">a2074999bf3dbf58</guid>
+      <description>&lt;details&gt;&lt;summary&gt;&lt;strong&gt;4 locations&lt;/strong&gt;&lt;/summary&gt;Greenwich, CT&lt;br&gt;Houston, TX&lt;br&gt;Miami, FL&lt;br&gt;NYC&lt;/details&gt; · new_grad · 1mo</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
