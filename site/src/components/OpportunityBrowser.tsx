@@ -4,6 +4,7 @@ import {
   applyFilters,
   DEFAULT_FILTERS,
   filtersFromSearchParams,
+  hasActiveFilters,
   searchParamsFromFilters,
   type FilterState,
 } from "../lib/filters";
@@ -347,7 +348,33 @@ export default function OpportunityBrowser() {
       />
 
       {filteredItems.length === 0 ? (
-        <p className="py-10 text-center text-slate-500 dark:text-slate-400">No results match these filters.</p>
+        <div className="py-12 text-center">
+          <p className="text-slate-600 dark:text-slate-300">
+            {showOnlyNew
+              ? "Nothing new since your last visit that matches these filters."
+              : "No opportunities match these filters right now."}
+          </p>
+          <div className="mt-3 flex flex-wrap justify-center gap-3 text-sm">
+            {hasActiveFilters(filters) && (
+              <button
+                type="button"
+                onClick={() => setFilters(DEFAULT_FILTERS)}
+                className="rounded-md border border-slate-300 px-3 py-1.5 font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-900"
+              >
+                Clear filters
+              </button>
+            )}
+            {showOnlyNew && (
+              <button
+                type="button"
+                onClick={() => setShowOnlyNew(false)}
+                className="rounded-md border border-slate-300 px-3 py-1.5 font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-900"
+              >
+                Show all, not just new
+              </button>
+            )}
+          </div>
+        </div>
       ) : (
         <>
           <OpportunityTable

@@ -47,6 +47,10 @@ flowchart LR
 
 **How it works:** For each URL, `check_url_alive` tries `HEAD` first; a `HEAD` 404/410/405 is *not* trusted on its own (observed live on Pinterest's careers site) — it retries with `GET` before declaring the link dead. Anything else (403 bot-block, timeout, DNS error) is treated as "can't tell, assume alive." Separately, a posting present in the previous run but missing from this run's fresh fetch (rolled off the source, not necessarily dead-linked) is also archived. A posting that reappears active later has its stale archive entry dropped automatically.
 
+**Soft-404 and bot-blocked exceptions (all hand-verified):** three sites can't be judged by status code alone, so `check_url_alive` special-cases them:
+- **`_SOFT_404_RULES`** — a URL-regex → dead/alive-marker table. `google.com/about/careers/.../results/*` is dead when its `og:title` is empty; `jobs.apple.com/*/details/*` and `joinbytedance.com/search/*` are dead when a server-rendered `og:title` is *absent* entirely (a live posting always has one, an expired one falls back to a generic shell). Add a rule only after confirming the marker by hand against real live-vs-expired pages.
+- **LinkedIn** — `linkedin.com/jobs/view/<id>` apply links (e.g. the whole `lorenzolacorte_eu` feed) are bot-blocked on the page itself, so `check_url_alive` fetches LinkedIn's unauthenticated guest fragment instead and treats "No longer accepting applications" / a 404 as dead.
+
 ```mermaid
 flowchart TD
     Row["candidate posting"] --> Head["HEAD request"]
@@ -145,6 +149,14 @@ flowchart TD
 
 **Purpose:** Let non-Python contributors change which companies/boards are tracked without touching code.
 
-**Where it lives:** `config/companies_allowlist.yml`, `config/extra_job_boards.yml`.
+**Where it lives:** `config/companies_allowlist.yml`, `config/extra_job_boards.yml`, `config/aggregate_links.yml`.
 
-**How it works:** Both are plain YAML lists read line-by-line (no dependency on a YAML parser library). Adding a company to the curated allowlist or an Ashby/SmartRecruiters board token to `extra_job_boards.yml` takes effect on the very next hourly run — see [CONTRIBUTING.md](../CONTRIBUTING.md) for the exact steps and the SmartRecruiters verification caveat (its API returns HTTP 200 for *any* slug, valid or not, so unverified additions silently do nothing).
+**How it works:** All three are plain lists read line-by-line (no dependency on a YAML parser library). Adding a company to the curated allowlist or an Ashby/SmartRecruiters board token to `extra_job_boards.yml` takes effect on the very next hourly run — see [CONTRIBUTING.md](../CONTRIBUTING.md) for the exact steps and the SmartRecruiters verification caveat (its API returns HTTP 200 for *any* slug, valid or not, so unverified additions silently do nothing). `config/aggregate_links.yml` (`Company | link text | URL` per line) is for companies with no enumerable public board (Google, Meta, Microsoft, Apple) — each becomes one hand-verified "browse all early-career roles" row in `data/README.md`'s **Browse Every Role** section, never a fake single posting.
+
+## Website
+
+**Purpose:** A fast, no-account frontend over `data/site-index.json` — the same data the READMEs render, but browsable, filterable, and personalised.
+
+**Where it lives:** `site/` (Astro + React islands, deployed separately, reads `site-index.json` / `stats-history.json` from jsDelivr at runtime so it's ≤1h stale without redeploying).
+
+**How it works:** `OpportunityBrowser.tsx` is the main island — a `SnapshotHero` (live count, freshness, four one-tap shortcut chips), a collapsible `PreferencesPanel` (level/region/work-type/keywords/hide-company, stored in `localStorage`, never uploaded), a **Newest / Best match** sort (Best match ranks by `scoreOpportunity()` in `lib/preferences.ts` and shows "why it matched" chips), the `FilterBar`, and `OpportunityTable` (per-kind columns; `CompanyAvatar` shows a real favicon only for companies whose domain is hand-verified in `lib/companyLogos.ts`, else generated initials — never a guessed logo). `<ClientRouter />` gives native cross-page view transitions.
