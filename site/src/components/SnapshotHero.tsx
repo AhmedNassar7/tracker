@@ -14,15 +14,27 @@ interface Props {
   onQuickFilter: (patch: Partial<FilterState>) => void;
 }
 
-function updatedAgo(iso: string): string {
+function hoursSince(iso: string): number | null {
   const then = new Date(iso).getTime();
-  if (Number.isNaN(then)) return "recently";
-  const mins = Math.max(0, Math.round((Date.now() - then) / 60000));
+  if (Number.isNaN(then)) return null;
+  return Math.max(0, (Date.now() - then) / 3_600_000);
+}
+
+function updatedAgo(iso: string): string {
+  const h = hoursSince(iso);
+  if (h === null) return "recently";
+  const mins = Math.round(h * 60);
   if (mins < 1) return "just now";
   if (mins < 60) return `${mins} min ago`;
-  const hours = Math.round(mins / 60);
+  const hours = Math.round(h);
   return hours < 24 ? `${hours}h ago` : `${Math.round(hours / 24)}d ago`;
 }
+
+// The pipeline refreshes hourly. Past ~6h without an update, something is
+// stuck (a broken deploy, a failed run) and the list is drifting out of
+// date — say so plainly, because that's exactly when "this link is closed"
+// starts happening.
+const STALE_AFTER_HOURS = 6;
 
 export default function SnapshotHero({ items, generatedAt, onQuickFilter }: Props) {
   const { total, postedToday, chips } = useMemo(() => {
@@ -39,8 +51,18 @@ export default function SnapshotHero({ items, generatedAt, onQuickFilter }: Prop
     };
   }, [items]);
 
+  const staleHours = hoursSince(generatedAt);
+  const isStale = staleHours !== null && staleHours > STALE_AFTER_HOURS;
+
   return (
     <section className="hero-enter mb-6 rounded-xl border border-slate-200 bg-gradient-to-b from-teal-50/50 to-transparent p-5 dark:border-slate-800 dark:from-teal-950/30">
+      {isStale && (
+        <div className="mb-4 rounded-md border border-amber-300 bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200">
+          ⚠️ This list was last refreshed <strong>{updatedAgo(generatedAt)}</strong> — the automatic
+          hourly update looks stuck, so some roles here may already be closed. Check the posting date on
+          each before applying.
+        </div>
+      )}
       <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2">
         <div>
           <p className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">

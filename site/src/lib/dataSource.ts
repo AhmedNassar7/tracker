@@ -4,15 +4,29 @@ import type { SiteIndex, StatsHistory } from "./types";
 // Runtime fetch, not a build-time import — the site must show data that's at
 // most ~1h stale without ever being redeployed itself (see the plan's
 // "decouple site deploy from hourly data refresh" architectural decision).
-// jsDelivr fronts GitHub's raw host with a real CDN (helps EMEA/APAC
-// latency); raw.githubusercontent.com is the fallback if jsDelivr is ever
-// slow to pick up a new commit.
+//
+// raw.githubusercontent.com is tried FIRST because it reflects the branch
+// head within seconds of a commit. jsDelivr (a real CDN, better EMEA/APAC
+// latency) is the fallback — but it caches an `@main` ref for up to 12h and
+// only revalidates on an explicit purge, so leading with it means a failed
+// or lagging purge leaves visitors staring at hours-old listings where many
+// roles have since closed (the #1 "this link is dead" complaint).
 const REPO_BASE = "AhmedNassar7/tracker@main/data";
 const JSDELIVR_BASE = `https://cdn.jsdelivr.net/gh/${REPO_BASE}`;
 const RAW_GITHUB_BASE = "https://raw.githubusercontent.com/AhmedNassar7/tracker/main/data";
 
+// Changes once per hour, so no browser/proxy/CDN can serve a copy older than
+// that even if it ignores `cache: "no-store"`.
+function hourlyCacheBuster(): string {
+  return `t=${Math.floor(Date.now() / 3_600_000)}`;
+}
+
 function prodSourcesFor(filename: string): string[] {
-  return [`${JSDELIVR_BASE}/${filename}`, `${RAW_GITHUB_BASE}/${filename}`];
+  const bust = hourlyCacheBuster();
+  return [
+    `${RAW_GITHUB_BASE}/${filename}?${bust}`,
+    `${JSDELIVR_BASE}/${filename}?${bust}`,
+  ];
 }
 
 // Dev-only same-origin fallback: a manually-copied snapshot
