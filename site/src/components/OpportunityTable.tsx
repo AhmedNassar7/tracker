@@ -7,7 +7,6 @@ const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
   job: "Job",
   hackathon: "Hackathon",
   event: "Event",
-  board: "Board",
 };
 
 // The curated layer renders multi-location postings as an HTML
@@ -31,9 +30,12 @@ interface Props {
   items: SiteIndexEntry[];
   trackedIds: Set<string>;
   onToggleTrack: (item: SiteIndexEntry) => void;
+  // id → human "why this ranked here" reasons, only passed when the
+  // "Best match" sort is active. Absent means don't render match chips.
+  matchReasons?: Map<string, string[]>;
 }
 
-export default function OpportunityTable({ items, trackedIds, onToggleTrack }: Props) {
+export default function OpportunityTable({ items, trackedIds, onToggleTrack, matchReasons }: Props) {
   // Columns adapt to what's actually in view: "Level" only means something
   // for jobs, so it's dropped entirely once the list is all hackathons/
   // events, and the last column is relabelled from "Age" (when a job was
@@ -99,6 +101,18 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack }: P
                     {item.source}
                   </a>
                 </div>
+                {matchReasons?.get(item.id) && (
+                  <div className="mt-1 flex flex-wrap gap-1">
+                    {matchReasons.get(item.id)!.map((reason) => (
+                      <span
+                        key={reason}
+                        className="rounded-full bg-teal-50 px-1.5 py-0.5 text-[10px] font-medium capitalize text-teal-700 dark:bg-teal-950 dark:text-teal-300"
+                      >
+                        {reason}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </td>
               <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{KIND_LABEL[item.kind]}</td>
               {hasJobs && (

@@ -15,7 +15,22 @@ const LEVEL_LABELS: Record<string, string> = {
   unknown: "Unknown",
 };
 
-export { LEVEL_LABELS };
+const REGION_LABELS: Record<string, string> = {
+  us: "United States",
+  canada: "Canada",
+  emea: "EMEA",
+  remote: "Remote",
+  unknown: "Unknown",
+};
+
+const REMOTE_LABELS: Record<string, string> = {
+  remote: "Remote",
+  hybrid: "Hybrid",
+  onsite: "Onsite",
+  unknown: "Unknown",
+};
+
+export { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS };
 
 /** "new_grad" -> "New grad". Falls back to a de-underscored, capitalized form
  *  for any value not in the table, so an unmapped level never shows raw. */

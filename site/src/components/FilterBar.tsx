@@ -7,7 +7,7 @@ import {
   REMOTE_VALUES,
   type FilterState,
 } from "../lib/filters";
-import { LEVEL_LABELS } from "../lib/labels";
+import { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS } from "../lib/labels";
 
 // Option lists are built off filters.ts's canonical value arrays (the same
 // ones that validate incoming URL query params) so this UI and that
@@ -17,7 +17,6 @@ const KIND_LABELS: Record<string, string> = {
   job: "Jobs",
   hackathon: "Hackathons",
   event: "Events",
-  board: "Company boards",
 };
 const KIND_TABS = KIND_VALUES.map((value) => ({ value, label: KIND_LABELS[value] }));
 
@@ -28,21 +27,7 @@ const KIND_TABS = KIND_VALUES.map((value) => ({ value, label: KIND_LABELS[value]
 // OpportunityTable via lib/labels.ts so the wording can't drift.
 const LEVEL_OPTIONS = LEVEL_VALUES.map((value) => ({ value, label: LEVEL_LABELS[value] }));
 
-const REGION_LABELS: Record<string, string> = {
-  us: "United States",
-  canada: "Canada",
-  emea: "EMEA",
-  remote: "Remote",
-  unknown: "Unknown",
-};
 const REGION_OPTIONS = REGION_VALUES.map((value) => ({ value, label: REGION_LABELS[value] }));
-
-const REMOTE_LABELS: Record<string, string> = {
-  remote: "Remote",
-  hybrid: "Hybrid",
-  onsite: "Onsite",
-  unknown: "Unknown",
-};
 const REMOTE_OPTIONS = REMOTE_VALUES.map((value) => ({ value, label: REMOTE_LABELS[value] }));
 
 interface Props {

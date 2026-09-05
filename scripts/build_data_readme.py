@@ -602,11 +602,9 @@ def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
     return entry
 
 
-def build_site_index(curated_payload: dict, public_payload: dict, boards: list[dict] | None = None) -> dict:
+def build_site_index(curated_payload: dict, public_payload: dict) -> dict:
     """Flatten both layers' raw records into one site-sized list, reusing the
     payloads main() already loaded rather than re-reading either data file.
-    `boards` are the hand-curated kind:"board" bulk-link entries from
-    load_aggregate_links() — already in site-index shape, appended verbatim.
     """
     items: list[dict] = []
     for row in curated_payload.get("jobs", []) or []:
@@ -617,8 +615,6 @@ def build_site_index(curated_payload: dict, public_payload: dict, boards: list[d
         items.append(_site_index_entry(row, kind="hackathon", origin="public"))
     for row in public_payload.get("events", []) or []:
         items.append(_site_index_entry(row, kind="event", origin="public"))
-    for board in boards or []:
-        items.append(dict(board))
 
     schema = load_schema(SITE_INDEX_SCHEMA)
     errors = validate_records(items, schema, label="site-index.json items")
@@ -744,7 +740,7 @@ def main() -> int:
     print(f"Wrote {DATA_README}")
     print(f"Wrote {ROOT_README}")
 
-    site_index = build_site_index(curated_payload, public_payload, boards)
+    site_index = build_site_index(curated_payload, public_payload)
     SITE_INDEX_JSON.write_text(json.dumps(site_index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
 

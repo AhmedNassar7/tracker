@@ -8,10 +8,23 @@ import {
   type FilterState,
 } from "../lib/filters";
 import { listApplications, STATUS_LABELS, trackApplication, untrackApplication, type TrackedApplication } from "../lib/tracker";
+import {
+  hasPreferences,
+  isExcluded,
+  matchReasons,
+  readPreferences,
+  readSortMode,
+  scoreOpportunity,
+  writePreferences,
+  writeSortMode,
+  type Preferences,
+  type SortMode,
+} from "../lib/preferences";
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
+import PreferencesPanel from "./PreferencesPanel";
 import SkeletonTable from "./SkeletonTable";
 import SnapshotHero from "./SnapshotHero";
 
@@ -56,6 +69,18 @@ export default function OpportunityBrowser() {
   const [lastVisitAt, setLastVisitAt] = useState<string | null>(null);
   const [showOnlyNew, setShowOnlyNew] = useState(false);
   const [bannerDismissed, setBannerDismissed] = useState(false);
+  const [prefs, setPrefs] = useState<Preferences>(() => readPreferences());
+  const [sortMode, setSortMode] = useState<SortMode>(() => readSortMode());
+
+  const updatePrefs = (next: Preferences) => {
+    setPrefs(next);
+    writePreferences(next);
+  };
+  const updateSortMode = (mode: SortMode) => {
+    setSortMode(mode);
+    writeSortMode(mode);
+  };
+  const matchActive = sortMode === "match" && hasPreferences(prefs);
 
   useEffect(() => {
     let cancelled = false;
@@ -181,9 +206,30 @@ export default function OpportunityBrowser() {
 
   const filteredItems = useMemo(() => {
     if (state.status !== "loaded") return [];
-    const filtered = applyFilters(state.data.items, filters);
-    return showOnlyNew ? filtered.filter((item) => newIds.has(item.id)) : filtered;
-  }, [state, filters, showOnlyNew, newIds]);
+    let items = applyFilters(state.data.items, filters);
+    if (showOnlyNew) items = items.filter((item) => newIds.has(item.id));
+    // "Companies to hide" is a hard preference — applied in either sort mode.
+    if (prefs.excludeCompanies.length > 0) items = items.filter((item) => !isExcluded(item, prefs));
+    if (matchActive) {
+      // Stable re-sort by fit score; applyFilters already returned them in
+      // the pipeline's newest-first order, which stays as the tiebreak.
+      items = items
+        .map((item, i) => ({ item, i, score: scoreOpportunity(item, prefs) }))
+        .sort((a, b) => b.score - a.score || a.i - b.i)
+        .map((entry) => entry.item);
+    }
+    return items;
+  }, [state, filters, showOnlyNew, newIds, prefs, matchActive]);
+
+  const reasonsById = useMemo(() => {
+    if (!matchActive) return undefined;
+    const map = new Map<string, string[]>();
+    for (const item of filteredItems.slice(0, visibleCount)) {
+      const r = matchReasons(item, prefs);
+      if (r.length > 0) map.set(item.id, r);
+    }
+    return map;
+  }, [matchActive, filteredItems, visibleCount, prefs]);
 
   // Country has no fixed enum (curated-layer only, free-form per
   // job-entry.schema.json) — the filter dropdown is populated from
@@ -261,6 +307,38 @@ export default function OpportunityBrowser() {
         </div>
       )}
 
+      <PreferencesPanel prefs={prefs} onChange={updatePrefs} />
+
+      <div className="mb-4 flex items-center gap-2">
+        <span className="text-xs font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">Sort</span>
+        <div className="inline-flex overflow-hidden rounded-md border border-slate-200 text-sm dark:border-slate-700">
+          {(["newest", "match"] as const).map((mode) => {
+            const disabled = mode === "match" && !hasPreferences(prefs);
+            const active = sortMode === mode;
+            return (
+              <button
+                key={mode}
+                type="button"
+                disabled={disabled}
+                onClick={() => updateSortMode(mode)}
+                aria-pressed={active}
+                title={disabled ? "Set at least one preference above to rank by fit" : undefined}
+                className={
+                  "px-3 py-1 font-medium transition-colors " +
+                  (active
+                    ? "bg-teal-700 text-white dark:bg-teal-600"
+                    : disabled
+                      ? "cursor-not-allowed text-slate-300 dark:text-slate-600"
+                      : "text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-900")
+                }
+              >
+                {mode === "newest" ? "Newest" : "Best match"}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       <FilterBar
         filters={filters}
         onChange={setFilters}
@@ -272,7 +350,12 @@ export default function OpportunityBrowser() {
         <p className="py-10 text-center text-slate-500 dark:text-slate-400">No results match these filters.</p>
       ) : (
         <>
-          <OpportunityTable items={visibleItems} trackedIds={trackedIds} onToggleTrack={handleToggleTrack} />
+          <OpportunityTable
+            items={visibleItems}
+            trackedIds={trackedIds}
+            onToggleTrack={handleToggleTrack}
+            matchReasons={reasonsById}
+          />
           {hasMore && (
             <div className="mt-4 flex justify-center">
               <button

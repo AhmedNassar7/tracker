@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T17:29:58Z",
-  "count": 3744,
-  "checksum": "sha256:54564a391dbfcee6d442df77e77a0f68f91055fbfe6ff490c9824bcdbc2e4e1d",
+  "generated_at": "2026-09-05T17:51:54Z",
+  "count": 3740,
+  "checksum": "sha256:f98a614e555c7c36bfd7d42e36d21127259aa87789d114309af063993825878a",
   "items": [
     {
       "id": "0f10b2b67f3e1744",
@@ -62743,58 +62743,6 @@
       "url": "https://lu.ma/deepmind?k=c",
       "age": "",
       "posted_at": "2026-09-05"
-    },
-    {
-      "id": "b5e1d54b946040fd",
-      "kind": "board",
-      "origin": "config",
-      "company": "Google",
-      "title": "Early-career & internship software roles",
-      "location": "",
-      "age": "",
-      "posted_at": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/?target_level=EARLY&target_level=INTERN_AND_APPRENTICE&q=Software%20Engineer",
-      "source": "company_board",
-      "source_url": "https://www.google.com/about/careers/applications/jobs/results/?target_level=EARLY&target_level=INTERN_AND_APPRENTICE&q=Software%20Engineer"
-    },
-    {
-      "id": "42213e9c40723331",
-      "kind": "board",
-      "origin": "config",
-      "company": "Meta",
-      "title": "Student & university-grad engineering roles",
-      "location": "",
-      "age": "",
-      "posted_at": "",
-      "url": "https://www.metacareers.com/jobs?roles[0]=Internship&roles[1]=University%20Grad&teams[0]=Software%20Engineering",
-      "source": "company_board",
-      "source_url": "https://www.metacareers.com/jobs?roles[0]=Internship&roles[1]=University%20Grad&teams[0]=Software%20Engineering"
-    },
-    {
-      "id": "33b1d9cf31f7703a",
-      "kind": "board",
-      "origin": "config",
-      "company": "Microsoft",
-      "title": "Intern & recent-graduate software roles",
-      "location": "",
-      "age": "",
-      "posted_at": "",
-      "url": "https://jobs.careers.microsoft.com/global/en/search?q=software%20engineer&exp=Students%20and%20graduates&l=en_us",
-      "source": "company_board",
-      "source_url": "https://jobs.careers.microsoft.com/global/en/search?q=software%20engineer&exp=Students%20and%20graduates&l=en_us"
-    },
-    {
-      "id": "107aeb85bc1dc005",
-      "kind": "board",
-      "origin": "config",
-      "company": "Apple",
-      "title": "Software internships & early-career roles",
-      "location": "",
-      "age": "",
-      "posted_at": "",
-      "url": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN&team=apps-and-frameworks-SFTWR-AF&team=cloud-and-infrastructure-SFTWR-CLD",
-      "source": "company_board",
-      "source_url": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN&team=apps-and-frameworks-SFTWR-AF&team=cloud-and-infrastructure-SFTWR-CLD"
     }
   ]
 }
