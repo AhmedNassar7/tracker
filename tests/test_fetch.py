@@ -91,12 +91,17 @@ def main():
             fetch.include_job({"level": "new_grad", "region": "unknown"}, "Google")
         ))
 
-    with patch.object(fetch, "ALLOWLIST", ["google", "microsoft"]):
-        run("allowlist matching", lambda: check(
+    with patch.object(fetch, "ALLOWLIST", ["google", "microsoft", "meta", "arm", "scale ai"]), \
+         patch.object(fetch, "ALLOWLIST_CATEGORY_BY_NAME", {"meta": "faang", "arm": "big_tech", "scale ai": "ai_research"}):
+        run("allowlist matching is whole-token, not raw substring", lambda: check(
             "allowlist matching",
             fetch.is_allowed_company("Google LLC")
             and fetch.is_allowed_company("Microsoft Corporation")
-            and not fetch.is_allowed_company("Small Startup Inc"),
+            and fetch.is_allowed_company("Meta Platforms")
+            and fetch.is_allowed_company("Amazon owns Scale AI")  # spaced multi-word entry
+            and not fetch.is_allowed_company("Small Startup Inc")
+            and not fetch.is_allowed_company("Metaphor")          # "meta" is not a token here
+            and not fetch.is_allowed_company("Pharmacy Systems"),  # "arm" is not a token here
         ))
 
     class _FakeResponse:

@@ -154,7 +154,10 @@ def sort_jobs(rows: list[dict]) -> list[dict]:
         else:
             age_days = 10**9
         tier = CATEGORY_RANK.get(row.get("category") or "", 50)
-        return (age_days, tier, (row.get("company") or "").lower(), (row.get("title") or "").lower())
+        # Company tier first (FAANG → big-tech → … → uncategorised public
+        # rows), then freshest within a tier — so the README job tables lead
+        # with the best-known names, matching the site's default sort.
+        return (tier, age_days, (row.get("company") or "").lower(), (row.get("title") or "").lower())
 
     return sorted(rows, key=key)
 

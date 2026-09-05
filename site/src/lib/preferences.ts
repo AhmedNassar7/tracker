@@ -24,7 +24,7 @@ export const EMPTY_PREFERENCES: Preferences = {
 const PREFERENCES_KEY = "tracker:preferences";
 const SORT_MODE_KEY = "tracker:sortMode";
 
-export type SortMode = "newest" | "match";
+export type SortMode = "tier" | "newest" | "match";
 
 function normalizeList(value: unknown): string[] {
   if (!Array.isArray(value)) return [];
@@ -60,11 +60,13 @@ export function writePreferences(prefs: Preferences): void {
 }
 
 export function readSortMode(): SortMode {
-  if (typeof window === "undefined") return "newest";
+  // "tier" (best-known companies first) is the default a new visitor sees.
+  if (typeof window === "undefined") return "tier";
   try {
-    return window.localStorage.getItem(SORT_MODE_KEY) === "match" ? "match" : "newest";
+    const stored = window.localStorage.getItem(SORT_MODE_KEY);
+    return stored === "match" || stored === "newest" || stored === "tier" ? stored : "tier";
   } catch {
-    return "newest";
+    return "tier";
   }
 }
 

@@ -22,7 +22,17 @@ import {
   type SortMode,
 } from "../lib/preferences";
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
+import { companyTier } from "../lib/companyTiers";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
+
+function ageToDays(age: string): number {
+  const a = (age || "").trim().toLowerCase();
+  let m: RegExpMatchArray | null;
+  if ((m = a.match(/^(\d+)d$/))) return +m[1];
+  if ((m = a.match(/^(\d+)mo$/))) return +m[1] * 30;
+  if ((m = a.match(/^(\d+)yrs?$/))) return +m[1] * 365;
+  return Number.MAX_SAFE_INTEGER;
+}
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
 import PreferencesPanel from "./PreferencesPanel";
@@ -219,9 +229,16 @@ export default function OpportunityBrowser() {
         .map((item, i) => ({ item, i, score: scoreOpportunity(item, prefs) }))
         .sort((a, b) => b.score - a.score || a.i - b.i)
         .map((entry) => entry.item);
+    } else if (sortMode === "tier") {
+      // Best-known companies first (FAANG → big-tech → …), then freshest
+      // within a tier. Stable on the pipeline order as the final tiebreak.
+      items = items
+        .map((item, i) => ({ item, i, tier: companyTier(item.company), age: ageToDays(item.age) }))
+        .sort((a, b) => a.tier - b.tier || a.age - b.age || a.i - b.i)
+        .map((entry) => entry.item);
     }
     return items;
-  }, [state, filters, showOnlyNew, newIds, prefs, matchActive]);
+  }, [state, filters, showOnlyNew, newIds, prefs, matchActive, sortMode]);
 
   const reasonsById = useMemo(() => {
     if (!matchActive) return undefined;
@@ -314,9 +331,10 @@ export default function OpportunityBrowser() {
       <div className="mb-4 flex items-center gap-2">
         <span className="text-xs font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">Sort</span>
         <div className="inline-flex overflow-hidden rounded-md border border-slate-200 text-sm dark:border-slate-700">
-          {(["newest", "match"] as const).map((mode) => {
+          {(["tier", "newest", "match"] as const).map((mode) => {
             const disabled = mode === "match" && !hasPreferences(prefs);
             const active = sortMode === mode;
+            const label = mode === "tier" ? "Top companies" : mode === "newest" ? "Newest" : "Best match";
             return (
               <button
                 key={mode}
@@ -334,7 +352,7 @@ export default function OpportunityBrowser() {
                       : "text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-900")
                 }
               >
-                {mode === "newest" ? "Newest" : "Best match"}
+                {label}
               </button>
             );
           })}

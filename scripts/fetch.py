@@ -256,10 +256,17 @@ def is_allowed_company(company):
     """Return the matched allowlist category (e.g. 'faang', 'big_tech') if
     company is on the allowlist, or None if it isn't. Still works anywhere
     that only checked this for truthiness before.
+
+    The match is on whole tokens, not a raw substring: an allowlist entry
+    matches when it appears in the company name bounded by a non-alphanumeric
+    on each side (start/end count). So "Amazon" matches "Amazon.com Services
+    LLC" and "Amazon Web Services" but NOT "Metaphor" (which a plain
+    `"meta" in c` wrongly accepted as Meta) — the false positive that put
+    random startups in the FAANG tier.
     """
     c = company.lower()
     for a in ALLOWLIST:
-        if a in c or c in a:
+        if c == a or re.search(rf"(?<![a-z0-9]){re.escape(a)}(?![a-z0-9])", c):
             return ALLOWLIST_CATEGORY_BY_NAME.get(a, "other")
     return None
 

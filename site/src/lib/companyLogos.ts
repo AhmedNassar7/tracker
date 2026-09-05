@@ -12,10 +12,15 @@
 // the deliberate trade for "provably correct + zero API keys". Swapping in
 // logo.dev/Brandfetch later is a one-line change here.
 
-const FAVICON_ENDPOINT = "https://www.google.com/s2/favicons";
-
-function favicon(domain: string, size: number): string {
-  return `${FAVICON_ENDPOINT}?domain=${encodeURIComponent(domain)}&sz=${size}`;
+// Two keyless favicon providers, tried in order — no single one covers every
+// domain (e.g. bytedance.com 404s on Google's, joinbytedance.com 404s on
+// DuckDuckGo's), so CompanyAvatar falls through the list, then to initials.
+function faviconSources(domain: string, size: number): string[] {
+  const d = encodeURIComponent(domain);
+  return [
+    `https://icons.duckduckgo.com/ip3/${domain}.ico`,
+    `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://${d}&size=${size}`,
+  ];
 }
 
 // Verified 2026-09-05. Keys are lower-cased company display names (post
@@ -82,20 +87,22 @@ const COMPANY_DOMAINS: Record<string, string> = {
   scaleai: "scale.com", "scale.com": "scale.com",
 };
 
-/** Google-favicon URL for a company whose domain is hand-verified, else null. */
-export function logoUrl(company: string, size = 64): string | null {
+/** Ordered favicon URLs for a company whose domain is hand-verified; [] if
+ *  the company has no verified domain (caller then shows initials). */
+export function logoCandidates(company: string, size = 64): string[] {
   const domain = COMPANY_DOMAINS[company.trim().toLowerCase()];
-  return domain ? favicon(domain, size) : null;
+  return domain ? faviconSources(domain, size) : [];
 }
 
-/** Favicon of an arbitrary URL's host — safe for hackathon/event rows, where
- *  the URL is the organiser's own page. Never use this for a job row: a job
- *  URL points at an ATS (greenhouse.io, lever.co), not the employer. */
-export function faviconForUrl(url: string, size = 64): string | null {
+/** Ordered favicon URLs for an arbitrary URL's host — safe for hackathon/
+ *  event rows, where the URL is the organiser's own page. Never use for a
+ *  job row: a job URL points at an ATS (greenhouse.io, lever.co), not the
+ *  employer. */
+export function faviconCandidatesForUrl(url: string, size = 64): string[] {
   try {
     const host = new URL(url).hostname.replace(/^www\./, "");
-    return host ? favicon(host, size) : null;
+    return host ? faviconSources(host, size) : [];
   } catch {
-    return null;
+    return [];
   }
 }
