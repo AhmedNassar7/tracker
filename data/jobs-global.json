@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T19:49:46Z",
-  "total": 1063,
+  "generated_at": "2026-09-05T19:56:38Z",
+  "total": 1064,
   "jobs": [
     {
       "id": "0f10b2b67f3e1744",
@@ -1376,6 +1376,29 @@
       "posted_at": "2026-08-10",
       "age": "0d",
       "collected_at": "2026-08-10T09:39:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "1cdb2b148d964895",
+      "company": "Uber Technologies, Inc.",
+      "title": "Software Engineer I, Masters",
+      "level": "entry_level",
+      "category": "ride_delivery",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://www.uber.com/global/en/careers/list/157785/?utm_source=vansh",
+      "source": "vanshb03_newgrad",
+      "source_url": "https://github.com/vanshb03/New-Grad-2027",
+      "posted_at": "2026-09-05",
+      "age": "0d",
+      "collected_at": "2026-09-05T19:56:38Z",
       "tags": [
         "software",
         "programming",
