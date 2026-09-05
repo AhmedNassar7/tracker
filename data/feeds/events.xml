@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 22:57:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 22:57:34 GMT</lastBuildDate>
     <item>
       <title>NEXT Summit — NEXT Summit</title>
       <link>https://nextsummit.io/</link>
@@ -69,9 +69,23 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Luma — Follow DC Data &amp; AI Events Washington · Washington D.C. Data &amp; AI Events! Managed by Data Community DC. www.dc2.org</title>
+      <link>https://lu.ma/DC2?k=c</link>
+      <guid isPermaLink="false">d307b71de4686f34</guid>
+      <description>Global</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Luma — Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team</title>
       <link>https://lu.ma/deepmind?k=c</link>
       <guid isPermaLink="false">a55b3bdcd72bf05f</guid>
+      <description>Global</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luma — Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.</title>
+      <link>https://lu.ma/stationdc?k=c</link>
+      <guid isPermaLink="false">d0a49f1be49b91d7</guid>
       <description>Global</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
