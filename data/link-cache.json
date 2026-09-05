@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T21:26:36Z",
+ "generated_at": "2026-09-05T21:14:02Z",
  "entries": {
   "/buildercommunityanz?k=c": {
    "alive": true,
@@ -8,6 +8,22 @@
   "/deepmind?k=c": {
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
+  },
+  "/frontiertower?k=c": {
+   "alive": true,
+   "at": "2026-09-05T21:14:02Z"
+  },
+  "/genai-sf?k=c": {
+   "alive": true,
+   "at": "2026-09-05T21:14:02Z"
+  },
+  "/sf-hackersquad?k=c": {
+   "alive": true,
+   "at": "2026-09-05T21:14:02Z"
+  },
+  "/sf-hardware-meetup?k=c": {
+   "alive": true,
+   "at": "2026-09-05T21:14:02Z"
   },
   "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008": {
    "alive": true,
@@ -3903,7 +3919,7 @@
   },
   "https://hack-the-weather.devpost.com/": {
    "alive": true,
-   "at": "2026-09-05T21:06:04Z"
+   "at": "2026-09-05T21:14:02Z"
   },
   "https://hack-with-gdg-s4.devfolio.co": {
    "alive": true,
@@ -11328,6 +11344,10 @@
   "https://www.amazon.jobs/en/jobs/10493864/software-development-engineer-early-career-2027-beijing": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10494842/software-development-engineer-amazon-device-observability-troubleshooting-team": {
+   "alive": true,
+   "at": "2026-09-05T21:13:48Z"
   },
   "https://www.amazon.jobs/en/jobs/10495033/software-development-engineer-ii-network-platform-development": {
    "alive": true,
