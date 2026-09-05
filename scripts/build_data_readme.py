@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime
 import hashlib
+import html
 import json
 import re
 import sys
@@ -37,7 +38,48 @@ FEEDS_DIR = DATA_OUT / "feeds"
 # Fields copied straight through when present; curated-only fields (category,
 # remote_type, country) and the level/region/role_type job fields are added
 # separately per-kind so we never fabricate a key an origin layer doesn't have.
-_SITE_INDEX_PASSTHROUGH = ("company", "title", "location", "source", "source_url")
+# `location` is NOT here — it's cleaned of the README-only <details>/<br> HTML
+# and split into a `locations[]` array by _clean_site_location().
+_SITE_INDEX_PASSTHROUGH = ("company", "title", "source", "source_url")
+
+# Matches the multi-location dropdown the curated layer bakes into `location`
+# for the markdown tables (see format_location_display in
+# scripts/simplify_jobs_parser.py). site-index.json is consumed by a real UI,
+# not a markdown renderer, so that HTML is unpacked back into plain data here.
+_LOC_DETAILS_RE = re.compile(
+    r"<details[^>]*>\s*<summary>\s*(?:<strong>)?\s*(\d+)\s+locations?\s*"
+    r"(?:</strong>)?\s*</summary>(.*?)</details>",
+    re.I | re.S,
+)
+
+
+def _clean_site_location(raw: str) -> tuple[str, list[str]]:
+    """(summary, locations[]) for site-index.json. A single-location string is
+    returned as-is with an empty list; a multi-location dropdown becomes a
+    short "First, Place +N more" summary plus the full list."""
+    raw = (raw or "").strip()
+    m = _LOC_DETAILS_RE.search(raw)
+    if not m:
+        # No dropdown — just make sure no stray tags leak through.
+        return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", raw)).strip(), []
+    body = m.group(2)
+    if re.search(r"<br\s*/?>", body, re.I):
+        parts = re.split(r"<br\s*/?>", body, flags=re.I)
+    else:
+        # Space-mashed "City, ST City, ST" — break before a capitalised word
+        # that follows a 2-letter state/country code.
+        parts = re.split(r"(?<=,\s[A-Z]{2})\s+(?=[A-Z])", body)
+    locs: list[str] = []
+    for part in parts:
+        part = html.unescape(re.sub(r"<[^>]+>", " ", part)).strip(" \t\r\n-•,")
+        part = re.sub(r"\s+", " ", part)
+        if part:
+            locs.append(part)
+    if not locs:
+        return f"{m.group(1)} locations", []
+    if len(locs) == 1:
+        return locs[0], []
+    return f"{locs[0]} +{len(locs) - 1} more", locs
 
 
 def load_json(path: Path) -> dict:
@@ -103,7 +145,11 @@ def normalize_rows(rows: list[dict], origin: str) -> list[dict]:
         # If age is still empty, calculate from posted_at
         if not age:
             age = calculate_age_from_date(row.get("posted_at") or "")
-        
+        # For a job, never let a frozen/placeholder age look fresher than
+        # first-seen; a hackathon/event 'age' is a deadline countdown, skip it.
+        if (row.get("kind") or "job") == "job":
+            age = reconcile_age(age, row.get("posted_at") or "")
+
         normalized.append(
             {
                 "origin": origin,
@@ -144,20 +190,73 @@ CATEGORY_RANK = {
 }
 
 
+def _age_to_days(age: str) -> int:
+    age = (age or "").strip().lower()
+    if age.endswith("d") and age[:-1].isdigit():
+        return int(age[:-1])
+    if age.endswith("mo") and age[:-2].isdigit():
+        return int(age[:-2]) * 30
+    return 10**9
+
+
+def reconcile_age(age: str, posted_at: str) -> str:
+    """Return a display age that can't claim a posting is fresher than the day
+    it was first recorded.
+
+    Two things make a stored ``age`` go stale: the curated feed deliberately
+    freezes ``age`` between runs to avoid hourly churn, and a few community
+    parsers seed ``"0d"`` when they can't read the source's date cell — both
+    leave weeks-old listings showing as brand new. ``posted_at`` is frozen at
+    first-seen, so days-since-``posted_at`` is a hard lower bound. Trust a
+    parseable source age that's within that bound; otherwise use the bound.
+    """
+    try:
+        seen = max(
+            (datetime.datetime.now(datetime.UTC).date()
+             - datetime.date.fromisoformat((posted_at or "")[:10])).days,
+            0,
+        )
+    except Exception:
+        seen = None
+    days = _age_to_days(age)
+    if days < 10**9:  # source gave a parseable age
+        if seen is not None and seen > days:
+            return f"{seen}d"
+        return age
+    if seen is not None:
+        return f"{seen}d"
+    return age or ""
+
+
 def sort_jobs(rows: list[dict]) -> list[dict]:
+    # Order: company tier (FAANG → big-tech → … → uncategorised public rows)
+    # first, then — within a tier — all of one company's roles stay together
+    # as a block, blocks ordered by the company's freshest posting, and each
+    # block sorted newest-first. So the reader sees "Google (5 roles), then
+    # Amazon (3 roles), …" instead of the two interleaved by age.
+    def company_of(row: dict) -> str:
+        return (row.get("company") or "").strip().lower()
+
+    def tier_of(row: dict) -> int:
+        return CATEGORY_RANK.get(row.get("category") or "", 50)
+
+    freshest_in_company: dict[tuple[int, str], int] = {}
+    for row in rows:
+        ck = (tier_of(row), company_of(row))
+        d = _age_to_days(row.get("age"))
+        if ck not in freshest_in_company or d < freshest_in_company[ck]:
+            freshest_in_company[ck] = d
+
     def key(row: dict) -> tuple:
-        age = (row.get("age") or "").strip().lower()
-        if age.endswith("d") and age[:-1].isdigit():
-            age_days = int(age[:-1])
-        elif age.endswith("mo") and age[:-2].isdigit():
-            age_days = int(age[:-2]) * 30
-        else:
-            age_days = 10**9
-        tier = CATEGORY_RANK.get(row.get("category") or "", 50)
-        # Company tier first (FAANG → big-tech → … → uncategorised public
-        # rows), then freshest within a tier — so the README job tables lead
-        # with the best-known names, matching the site's default sort.
-        return (tier, age_days, (row.get("company") or "").lower(), (row.get("title") or "").lower())
+        tier = tier_of(row)
+        company = company_of(row)
+        return (
+            tier,
+            freshest_in_company[(tier, company)],  # freshest company first
+            company,                                # cluster the company together
+            _age_to_days(row.get("age")),           # newest role first in the block
+            (row.get("title") or "").lower(),
+        )
 
     return sorted(rows, key=key)
 
@@ -599,8 +698,18 @@ def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
     # paths, same normalization fix_event_url() already applies for the
     # rendered README tables.
     entry["url"] = fix_event_url(row.get("url") or "")
-    entry["age"] = row.get("age") or row.get("date") or ""
     entry["posted_at"] = row.get("posted_at") or ""
+    raw_age = row.get("age") or row.get("date") or ""
+    # For a job, reconcile against posted_at so a frozen or placeholder "0d"
+    # from the curated feed doesn't render a weeks-old listing as brand new.
+    # A hackathon/event 'age' is a countdown to a deadline, not a job age —
+    # leave it untouched.
+    entry["age"] = reconcile_age(raw_age, entry["posted_at"]) if kind == "job" else raw_age
+
+    location_summary, location_list = _clean_site_location(row.get("location") or "")
+    entry["location"] = location_summary
+    if location_list:
+        entry["locations"] = location_list
 
     if kind == "job":
         if row.get("level"):

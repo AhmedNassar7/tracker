@@ -1,8 +1,14 @@
 import contextlib
+import datetime
 import importlib.util
 import io
 import json
 from pathlib import Path
+
+# A job fixture claiming age "0d" must carry a matching posted_at, or the
+# pipeline's reconcile_age() (correctly) rewrites the stale age to
+# days-since-posted_at.
+_TODAY_ISO = datetime.datetime.now(datetime.UTC).date().isoformat()
 
 
 GREEN = "\033[32m"
@@ -58,7 +64,7 @@ def main():
         "url": "https://example.com/job",
         "source": "remotive",
         "source_url": "https://remotive.com/",
-        "posted_at": "2026-01-01",
+        "posted_at": _TODAY_ISO,
         "age": "0d",
         "collected_at": "2026-01-01T00:00:00Z",
         "tags": ["software"],
@@ -73,7 +79,7 @@ def main():
         "role_type": "software_engineer",
         "region": "remote",
         "date": "0d",
-        "posted_at": "2026-01-01",
+        "posted_at": _TODAY_ISO,
         "url": "https://example.com/gh1",
         "source": "greenhouse:twilio",
         "source_url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true",
@@ -192,6 +198,30 @@ def main():
         "aggregate links parsed",
         len(boards) >= 1
         and all(b["company"] and b["title"] and b["url"].startswith("http") for b in boards),
+    ))
+
+    run("_clean_site_location unpacks the README <details> dropdown into a summary + list", lambda: check(
+        "clean location",
+        bdr._clean_site_location(
+            "<details><summary><strong>3 locations</strong></summary>Seattle, WA<br>Austin, TX<br>NYC</details>"
+        ) == ("Seattle, WA +2 more", ["Seattle, WA", "Austin, TX", "NYC"])
+        # space-mashed body (the count_match branch of format_location_display)
+        and bdr._clean_site_location(
+            "<details><summary><strong>2 locations</strong></summary>San Jose, CA Austin, TX</details>"
+        ) == ("San Jose, CA +1 more", ["San Jose, CA", "Austin, TX"])
+        # a plain single location is passed straight through, no list
+        and bdr._clean_site_location("London, UK") == ("London, UK", [])
+        # any stray markup is stripped even without a dropdown
+        and bdr._clean_site_location("Remote <br> US") == ("Remote US", []),
+    ))
+
+    ml_job = {**curated_job, "location": "<details><summary><strong>3 locations</strong></summary>Seattle, WA<br>Austin, TX<br>NYC</details>"}
+    ml_index = bdr.build_site_index({**curated_payload, "jobs": [ml_job]}, {"jobs": [], "hackathons": [], "events": []})
+    run("build_site_index emits a clean location summary + locations[] for a multi-location row", lambda: check(
+        "multi-location site entry",
+        ml_index["items"][0]["location"] == "Seattle, WA +2 more"
+        and ml_index["items"][0]["locations"] == ["Seattle, WA", "Austin, TX", "NYC"]
+        and "<" not in ml_index["items"][0]["location"],
     ))
 
     invalid_curated_job = {**curated_job, "level": "not_a_real_level"}

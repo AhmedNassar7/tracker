@@ -10,21 +10,41 @@ const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
   event: "Event",
 };
 
-// The curated layer renders multi-location postings as an HTML
-// <details>/<summary> dropdown for the markdown tables (see
-// format_location_display in scripts/fetch.py). This walking skeleton
-// doesn't have that dropdown UI yet, so strip the markup rather than
-// showing raw tags as visible text — a real expandable control is Tier 0
-// polish, tracked separately.
-function formatLocation(location: string): string {
+// The pipeline unpacks multi-location postings into `item.locations[]` and
+// leaves `item.location` as a plain "First, Place +N more" summary (see
+// _clean_site_location in scripts/build_data_readme.py) — so LocationCell
+// below can render a real <details> control. This fallback only has to cope
+// with a stray tag slipping through an un-regenerated site-index.json.
+function stripLocationMarkup(location: string): string {
   if (!location) return "—";
   return location
-    .replace(/<summary>/gi, "")
+    .replace(/<br\s*\/?>/gi, ", ")
     .replace(/<\/summary>/gi, ": ")
-    .replace(/<\/?details>/gi, "")
-    .replace(/<\/?strong>/gi, "")
+    .replace(/<[^>]+>/g, "")
     .replace(/\s+/g, " ")
-    .trim();
+    .trim() || "—";
+}
+
+function LocationCell({ item }: { item: SiteIndexEntry }) {
+  const locs = item.locations;
+  if (locs && locs.length > 1) {
+    return (
+      <details className="group">
+        <summary className="cursor-pointer list-none text-slate-600 marker:content-none hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-100">
+          <span className="underline decoration-dotted underline-offset-2">
+            {locs[0]}
+          </span>{" "}
+          <span className="text-xs text-slate-400">+{locs.length - 1} more</span>
+        </summary>
+        <ul className="mt-1 space-y-0.5 text-xs text-slate-500 dark:text-slate-400">
+          {locs.map((loc) => (
+            <li key={loc}>{loc}</li>
+          ))}
+        </ul>
+      </details>
+    );
+  }
+  return <>{stripLocationMarkup(item.location)}</>;
 }
 
 interface Props {
@@ -139,7 +159,7 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack, mat
                   {item.kind === "job" ? formatLevel(item.level) : "—"}
                 </td>
               )}
-              <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{formatLocation(item.location)}</td>
+              <td className="px-3 py-2 text-slate-500 dark:text-slate-400"><LocationCell item={item} /></td>
               <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{item.age || "—"}</td>
             </tr>
             );

@@ -98,8 +98,10 @@ Used by the `items` array in `data/site-index.json`, written by `build_site_inde
 | `id` | string | 16-char hex, carried over unchanged |
 | `kind` | enum | `job` \| `hackathon` \| `event` |
 | `origin` | enum | `curated` (from `jobs-global.json`) \| `public` (from `public-opportunities.json`) |
-| `company`, `title`, `location`, `url`, `source`, `source_url` | string | Copied straight through |
-| `age` | string | Unified from `JobEntry.age` / `PublicEntry.date` |
+| `company`, `title`, `url`, `source`, `source_url` | string | Copied straight through (`company` also brand-normalized — `Amazon.com Services LLC` → `Amazon`) |
+| `location` | string | Single-line display string, **never HTML**. A multi-location posting's curated `<details>` dropdown is unpacked into a `"First, Place +N more"` summary here |
+| `locations` | string[] | Present only for a multi-location posting (≥2 entries) — the individual locations, for a client to render its own control |
+| `age` | string | Unified from `JobEntry.age` / `PublicEntry.date`, then (jobs only) `reconcile_age`'d against `posted_at` so a frozen/placeholder `"0d"` can't show a weeks-old listing as new |
 | `posted_at` | string | `YYYY-MM-DD` or `""` |
 | `level`, `region`, `role_type` | enum | Job-only |
 | `category`, `remote_type`, `country` | string / enum | Job-only, **curated-origin only** — omitted entirely (not `""` or guessed) on public-origin job items, since the public layer never detects them |

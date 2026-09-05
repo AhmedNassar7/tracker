@@ -193,18 +193,34 @@ def format_location_display(location):
     return clean_location
 
 def format_job_age(row):
-    age = (row.get("age") or "").strip()
-    if age:
-        return age
+    """Human age string for a row, reconciled against ``posted_at``.
 
+    ``posted_at`` is frozen at first-seen (merge logic carries it across
+    runs), so days-since-``posted_at`` is a hard lower bound on how old a
+    posting is. Several community-README parsers emit ``age="0d"`` as a
+    fallback when they can't parse the source's date cell — which makes a
+    weeks-old listing look brand new. So: trust a parseable source age, but
+    never let it claim the posting is fresher than the day we first recorded
+    it; fall back to days-since-``posted_at`` when the source age is missing
+    or unparseable.
+    """
     posted_at = (row.get("posted_at") or "").strip()
     try:
-        posted_date = datetime.date.fromisoformat(posted_at[:10])
+        days_seen = max((datetime.datetime.now(datetime.UTC).date()
+                         - datetime.date.fromisoformat(posted_at[:10])).days, 0)
     except Exception:
-        return ""
+        days_seen = None
 
-    age_days = max((datetime.datetime.now(datetime.UTC).date() - posted_date).days, 0)
-    return f"{age_days}d"
+    age = (row.get("age") or "").strip()
+    age_days = _age_to_days(age)
+
+    if age_days is not None:
+        if days_seen is not None and days_seen > age_days:
+            return f"{days_seen}d"
+        return age
+    if days_seen is not None:
+        return f"{days_seen}d"
+    return ""
 
 def _age_to_days(age_value):
     age_value = (age_value or "").strip().lower()

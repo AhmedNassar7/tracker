@@ -3,6 +3,7 @@ import json
 import tempfile
 import io
 import contextlib
+import datetime
 from pathlib import Path
 from unittest.mock import patch
 
@@ -472,6 +473,35 @@ def main():
         and fetch.prettify_company_name("scaleai") == "Scale AI"
         and fetch.prettify_company_name("amazon web services (aws)") == "Amazon Web Services"
         and fetch.prettify_company_name("Stripe") == "Stripe",
+    ))
+
+    run("prettify_company_name collapses a legal-entity name to the parent brand", lambda: check(
+        "prettify_company_name legal-entity collapse",
+        fetch.prettify_company_name("Amazon.com Services LLC") == "Amazon"
+        and fetch.prettify_company_name("Amazon Kuiper Commercial Services LLC") == "Amazon"
+        and fetch.prettify_company_name("Amazon Development Centre Canada ULC") == "Amazon"
+        and fetch.prettify_company_name("Uber Technologies, Inc.") == "Uber"
+        and fetch.prettify_company_name("Google LLC") == "Google"
+        # a real sub-brand is NOT truncated
+        and fetch.prettify_company_name("Amazon Robotics") == "Amazon Robotics"
+        and fetch.prettify_company_name("Amazon Web Services") == "Amazon Web Services"
+        and fetch.prettify_company_name("Palo Alto Networks") == "Palo Alto Networks",
+    ))
+
+    run("format_job_age never lets a source age look fresher than first-seen", lambda: check(
+        "format_job_age reconcile",
+        # source said "0d" but we first recorded it (posted_at) 26 days ago
+        fetch.format_job_age({"age": "0d", "posted_at": "2026-08-10"})
+        == f"{(datetime.datetime.now(datetime.UTC).date() - datetime.date(2026, 8, 10)).days}d"
+        # a genuinely-fresh row is untouched
+        and fetch.format_job_age({"age": "0d", "posted_at": datetime.datetime.now(datetime.UTC).date().isoformat()}) == "0d"
+        # parseable source age within the first-seen bound is kept verbatim
+        and fetch.format_job_age({"age": "3d", "posted_at": datetime.datetime.now(datetime.UTC).date().isoformat()}) == "3d"
+        # no source age -> derive from posted_at
+        and fetch.format_job_age({"age": "", "posted_at": "2026-08-10"})
+        == f"{(datetime.datetime.now(datetime.UTC).date() - datetime.date(2026, 8, 10)).days}d"
+        # nothing to go on -> empty
+        and fetch.format_job_age({"age": "", "posted_at": ""}) == "",
     ))
 
     run("smart_title_case caps an all-lowercase title/location but leaves cased text alone", lambda: check(

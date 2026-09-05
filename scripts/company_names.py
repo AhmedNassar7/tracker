@@ -73,6 +73,46 @@ _ACRONYM_WORDS = {
 }
 
 
+# A short list of parent brands whose postings routinely arrive under a legal
+# entity or regional-subsidiary name — "Amazon.com Services LLC", "Amazon Dev
+# Center U.S., Inc.", "Uber Technologies, Inc." — that a reader just wants to
+# see as the brand. Collapse only fires when EVERY token after the brand is a
+# corporate/legal/geographic filler word (below), so a real sub-brand like
+# "Amazon Robotics", "Amazon Pharmacy", or "Google Fiber" is left intact.
+_PARENT_BRANDS = {
+    "amazon", "google", "microsoft", "apple", "meta", "netflix", "uber",
+    "oracle", "salesforce", "nvidia", "intel", "adobe", "cisco", "ibm",
+    "bytedance", "tiktok", "tencent", "alibaba", "samsung", "sony",
+    "paypal", "stripe", "bloomberg", "palantir", "walmart",
+}
+_CORP_FILLER = {
+    "com", "inc", "llc", "ulc", "ltd", "limited", "corp", "corporation",
+    "co", "company", "gmbh", "sarl", "plc", "llp", "ag", "bv", "nv", "sa",
+    "spa", "pte", "pty", "kk", "kg", "oy", "ab", "as",
+    "technologies", "technology", "services", "service", "solutions",
+    "development", "dev", "center", "centre", "commercial", "digital",
+    "labs", "lab", "operations", "platform", "platforms", "group", "holdings",
+    "holding", "international", "global", "worldwide", "systems", "software",
+    "commerce", "retail", "online", "kuiper", "web", "data",
+    "usa", "us", "canada", "india", "ireland", "germany", "uk", "emea",
+    "apac", "china", "japan", "korea", "singapore", "israel", "poland",
+    "&", "and",
+}
+
+
+def _collapse_to_parent(name: str) -> str | None:
+    tokens = [t for t in re.split(r"[\s,]+", name.strip()) if t]
+    if len(tokens) < 2:
+        return None
+    head = re.sub(r"\.com$", "", tokens[0].lower()).strip(".,")
+    if head not in _PARENT_BRANDS:
+        return None
+    rest = [re.sub(r"\.com$", "", t.lower()).strip(".,&") for t in tokens[1:]]
+    if all((not t) or t in _CORP_FILLER for t in rest):
+        return CANONICAL.get(head, head[:1].upper() + head[1:])
+    return None
+
+
 def _key(value: str) -> str:
     value = re.sub(r"\s+", " ", value or "").strip().lower()
     value = re.sub(r"[._/]+", " ", value)
@@ -121,6 +161,13 @@ def prettify_company_name(raw: str) -> str:
     key = _key(without_paren)
     if key in CANONICAL:
         return CANONICAL[key]
+
+    # "Amazon.com Services LLC" -> "Amazon", "Uber Technologies, Inc." -> "Uber".
+    # Checked after CANONICAL so "Amazon Web Services" (a real product brand,
+    # listed there) is never collapsed.
+    parent = _collapse_to_parent(without_paren)
+    if parent:
+        return parent
 
     # Only re-case a name that is clearly an unformatted machine token — i.e.
     # entirely lowercase ("openai", "amazon web services", the whole

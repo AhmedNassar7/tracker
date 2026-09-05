@@ -230,11 +230,34 @@ export default function OpportunityBrowser() {
         .sort((a, b) => b.score - a.score || a.i - b.i)
         .map((entry) => entry.item);
     } else if (sortMode === "tier") {
-      // Best-known companies first (FAANG → big-tech → …), then freshest
-      // within a tier. Stable on the pipeline order as the final tiebreak.
-      items = items
-        .map((item, i) => ({ item, i, tier: companyTier(item.company), age: ageToDays(item.age) }))
-        .sort((a, b) => a.tier - b.tier || a.age - b.age || a.i - b.i)
+      // Best-known companies first (FAANG → big-tech → …). Within a tier, all
+      // of one company's roles stay together as a block, blocks ordered by
+      // the company's freshest posting, each block newest-first — so the list
+      // reads "Google (5), then Amazon (3), …" instead of interleaving them.
+      const decorated = items.map((item, i) => ({
+        item,
+        i,
+        tier: companyTier(item.company),
+        company: (item.company || "").toLowerCase(),
+        age: ageToDays(item.age),
+      }));
+      const freshestByCompany = new Map<string, number>();
+      for (const d of decorated) {
+        const k = `${d.tier} ${d.company}`;
+        if (d.age < (freshestByCompany.get(k) ?? Infinity)) freshestByCompany.set(k, d.age);
+      }
+      items = decorated
+        .sort((a, b) => {
+          const ka = `${a.tier} ${a.company}`;
+          const kb = `${b.tier} ${b.company}`;
+          return (
+            a.tier - b.tier ||
+            (freshestByCompany.get(ka)! - freshestByCompany.get(kb)!) ||
+            a.company.localeCompare(b.company) ||
+            a.age - b.age ||
+            a.i - b.i
+          );
+        })
         .map((entry) => entry.item);
     }
     return items;

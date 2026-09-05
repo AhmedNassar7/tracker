@@ -37,6 +37,9 @@ export interface SiteIndexEntry {
   company: string;
   title: string;
   location: string;
+  // Present only for a multi-location posting (>=2 entries); `location` is
+  // then a short "First, Place +N more" summary of this list.
+  locations?: string[];
   age: string;
   posted_at: string;
   url: string;
