@@ -27,18 +27,18 @@ Every row links straight to the real application page. Click a title to apply â€
 
 | Section | Count |
 |---|---:|
-| Jobs | 3323 |
+| Jobs | 3326 |
 | Hackathons | 103 |
 | Events | 2 |
-| Total | 3428 |
+| Total | 3431 |
 
 ## Jobs
 
-[![Jobs 3323](https://img.shields.io/badge/Jobs-3323-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 163](https://img.shields.io/badge/Internship-163-22c55e.svg)](#internship) [![Early Career 116](https://img.shields.io/badge/Early%20Career-116-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3044](https://img.shields.io/badge/Mid--Level%20and%20Above-3044-dc2626.svg)](#mid-level-and-above)
+[![Jobs 3326](https://img.shields.io/badge/Jobs-3326-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 166](https://img.shields.io/badge/Internship-166-22c55e.svg)](#internship) [![Early Career 116](https://img.shields.io/badge/Early%20Career-116-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3044](https://img.shields.io/badge/Mid--Level%20and%20Above-3044-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 163
+Total roles: 166
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -91,6 +91,9 @@ Total roles: 163
 | Notion | [Software Engineer Intern (Winter 2027)](https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8) | San Francisco, California | 0d |
 | Notion | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) | San Francisco, CA +1 | 0d |
 | Notion | [Software Engineer Intern - Winter 2027](https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8) | San Francisco, CA +1 | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) | Denver, CO | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
+| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah) | Washington, D.C. | 0d |
 | Palantir Technologies | [Software Engineer Intern](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah) | Palo Alto, CA | 0d |
@@ -344,7 +347,6 @@ Total roles: 3044
 | Amazon Development Centre Canada ULC | [Software Development Engineer II, Ama...](https://www.amazon.jobs/en/jobs/10525910/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization) | Toronto, ON | 0d |
 | Amazon Kuiper Commercial Services LLC | [Data Engineer II, Amazon Leo](https://www.amazon.jobs/en/jobs/10528887/data-engineer-ii-amazon-leo) | Arlington, VA | 0d |
 | Amazon.com Services LLC | [Data Engineer II, Talent Development](https://www.amazon.jobs/en/jobs/10524593/data-engineer-ii-talent-development) | Seattle, WA | 0d |
-| Google | [Security Engineer II, Hybrid Cloud Gu...](https://www.google.com/about/careers/applications/jobs/results/101300536594047686) | United States | 0d |
 | Amazon | [Software Development Engineer](https://www.amazon.jobs/en/jobs/10529828/software-development-engineer) | Newark, New Jersey, USA | 1d |
 | Amazon | [Software Development Engineer , AFT-PES](https://www.amazon.jobs/en/jobs/10529944/software-development-engineer-aft-pes) | Bellevue, Washington, USA | 1d |
 | Amazon | [Software Development Engineer II, Agentic WorkSpaces Client](https://www.amazon.jobs/en/jobs/10529792/software-development-engineer-ii-agentic-workspaces-client) | Seattle, Washington, USA | 1d |
@@ -1509,6 +1511,7 @@ Total roles: 3044
 | Stripe | [Staff Software Engineer, Service Infrastructure](https://stripe.com/jobs/search?gh_jid=8090141) | AMER | 1d |
 | Stripe | [Staff Software Engineer, Storage Abstractions](https://stripe.com/jobs/search?gh_jid=8171539) | San Francisco, Seattle | 1d |
 | Stripe | [Staff Software Engineer, Stripe Dashboard](https://stripe.com/jobs/search?gh_jid=7746721) | Seattle | 1d |
+| Tamara | [Product Engineer II - Flutter](https://job-boards.eu.greenhouse.io/tamara/jobs/4743546101) | India | 1d |
 | Twilio | [DevOps Engineer (Observability)](https://job-boards.greenhouse.io/twilio/jobs/8108771) | Remote - Ireland | 1d |
 | Twilio | [Senior Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/8015771) | Remote - Ireland | 1d |
 | Twilio | [Senior/Staff Applied Research Software Engineer](https://job-boards.greenhouse.io/twilio/jobs/8007449) | Remote - India | 1d |
@@ -3409,6 +3412,7 @@ Total hackathons: 103
 | Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) |
 | Devfolio | [Metamorph 2.0](https://metamorph-2.devfolio.co) |
 | Dialogate | [VoltHacks](https://volthacks.devpost.com/) |
+| Enterprise Software Solutions | [RoadStar Hackathon](https://roadstarhackathon.devpost.com/) |
 | HackAlphaX | [NextStep Hacks 2026](https://nextstep2026.devpost.com/) |
 | PropNote AI | [VentureFix](https://venturefix.devpost.com/) |
 | Amazon | [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/) |
@@ -3416,8 +3420,8 @@ Total hackathons: 103
 | hyperbloom hacks | [Hyperbloom September - AI/ML](https://hyperbloom-september.devpost.com/) |
 | Devfolio | [Interledger Student Hackathon - ICESI](https://interledger-student-hackathon-icesi.devfolio.co) |
 | OSC | [AI Builders Hackathon](https://ai-builders-hackathon-2026.devpost.com/) |
-| GatewayGS | [GatewayGS Hackathon 2](https://gatewaygs-hackathon-2.devpost.com/) |
 | Devfolio | [Test Hackathon 02](https://test-hackathon-2.devfolio.co) |
+| GatewayGS | [GatewayGS Hackathon 2](https://gatewaygs-hackathon-2.devpost.com/) |
 | President University | [COMPSPHERE 12](https://compsphere12.devpost.com/) |
 | Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) |
 | Devfolio | [DSU DEVHACK 3.0](https://dsudevhack3.devfolio.co) |
@@ -3475,7 +3479,6 @@ Total hackathons: 103
 | BioCataalysis | [UnivaBio](https://univabio.devpost.com/) |
 | Devin | [Agentic Hackathon](https://agentic-hackathon.devpost.com/) |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
-| Galuxium | [Galuxium Nexus V2](https://galuxium-nexus-v2-29411.devpost.com/) |
 | Hack Club | [Graphiques Innovation Challenge](https://graphiques-challenge.devpost.com/) |
 | hacktheconcretejungle | [HTCJ Ã— PROOF Aviation Futures Challenge](https://htcj-aviation-futures.devpost.com/) |
 | Mafiq Foundation | [MYHack: ISNA 2026](https://myhack-isna.devpost.com/) |
@@ -3509,6 +3512,9 @@ Companies that run their own careers site with no public feed to pull role-by-ro
 | Meta | [Student & university-grad engineering roles](https://www.metacareers.com/jobs?roles[0]=Internship&roles[1]=University%20Grad&teams[0]=Software%20Engineering) |
 | Microsoft | [Intern & recent-graduate software roles](https://jobs.careers.microsoft.com/global/en/search?q=software%20engineer&exp=Students%20and%20graduates&l=en_us) |
 | Apple | [Software internships & early-career roles](https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN&team=apps-and-frameworks-SFTWR-AF&team=cloud-and-infrastructure-SFTWR-CLD) |
+| Talabat | [All engineering roles (MENA)](https://careers.talabat.com/search/?q=engineer) |
+| Noon | [All technology roles (MENA)](https://careers.noon.com/) |
+| Careem | [All engineering roles (Dubai & MENA)](https://careers.careem.com/) |
 
 ## Source Files
 

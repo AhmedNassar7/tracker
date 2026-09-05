@@ -14,7 +14,7 @@ export type Level =
   | "unknown"
   | "other";
 
-export type Region = "us" | "canada" | "emea" | "remote" | "unknown";
+export type Region = "us" | "canada" | "mena" | "emea" | "remote" | "unknown";
 
 export type RoleType =
   | "full_stack"

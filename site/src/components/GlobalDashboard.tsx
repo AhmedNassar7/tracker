@@ -17,6 +17,7 @@ type HistoryState = { status: "loading" | "error" } | { status: "loaded"; data: 
 const REGION_LABELS: Record<string, string> = {
   us: "United States",
   canada: "Canada",
+  mena: "Middle East & Africa",
   emea: "EMEA",
   remote: "Remote",
   unknown: "Unknown",

@@ -44,8 +44,8 @@
     },
     "region": {
       "type": "string",
-      "enum": ["us", "canada", "emea", "remote", "unknown"],
-      "description": "Coarse region detected from location, same taxonomy as the public layer's region field"
+      "enum": ["us", "canada", "mena", "emea", "remote", "unknown"],
+      "description": "Coarse region detected from location, same taxonomy as the public layer's region field ('mena' = Middle East & Africa, matched before 'emea')"
     },
     "role_type": {
       "type": "string",

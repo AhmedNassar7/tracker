@@ -31,7 +31,7 @@ export const LEVEL_VALUES: readonly Level[] = [
   "other",
   "unknown",
 ];
-export const REGION_VALUES: readonly Region[] = ["us", "canada", "emea", "remote", "unknown"];
+export const REGION_VALUES: readonly Region[] = ["us", "canada", "mena", "emea", "remote", "unknown"];
 export const REMOTE_VALUES: readonly RemoteType[] = ["remote", "hybrid", "onsite", "unknown"];
 
 // URL query param names — short, but distinct from likely-future params

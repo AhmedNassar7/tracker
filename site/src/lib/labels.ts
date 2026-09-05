@@ -18,6 +18,7 @@ const LEVEL_LABELS: Record<string, string> = {
 const REGION_LABELS: Record<string, string> = {
   us: "United States",
   canada: "Canada",
+  mena: "Middle East & Africa",
   emea: "EMEA",
   remote: "Remote",
   unknown: "Unknown",

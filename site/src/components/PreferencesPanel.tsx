@@ -6,7 +6,7 @@ import { EMPTY_PREFERENCES, hasPreferences, type Preferences } from "../lib/pref
 // network — everything here is written to localStorage by the parent.
 
 const LEVEL_CHOICES = ["internship", "new_grad", "junior", "entry_level", "mid_level"];
-const REGION_CHOICES = ["us", "canada", "emea", "remote"];
+const REGION_CHOICES = ["us", "canada", "mena", "emea", "remote"];
 const REMOTE_CHOICES = ["remote", "hybrid", "onsite"];
 
 interface Props {

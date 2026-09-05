@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T20:06:22Z",
-  "count": 3686,
-  "checksum": "sha256:1a10903cd4f814da7c4409953bd0f66c1e3fc5149d52390ee4efc3cf386177b7",
+  "generated_at": "2026-09-05T20:32:02Z",
+  "count": 3689,
+  "checksum": "sha256:d6ea4e8f5d7a991db1a46f7e2f53ac883fed30f74257be45ad3d6653d012275f",
   "items": [
     {
       "id": "0f10b2b67f3e1744",
@@ -56,25 +56,6 @@
       "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
-      "category": "faang",
-      "remote_type": "onsite",
-      "country": "United States"
-    },
-    {
-      "id": "1d7513e0b87b3185",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Google",
-      "title": "Security Engineer II, Hybrid Cloud Gu...",
-      "location": "United States",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/101300536594047686",
-      "age": "0d",
-      "posted_at": "2026-09-05",
-      "level": "mid_level",
-      "region": "us",
-      "role_type": "security",
       "category": "faang",
       "remote_type": "onsite",
       "country": "United States"
@@ -567,6 +548,63 @@
       "age": "0d",
       "posted_at": "2026-08-10",
       "level": "new_grad",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "66bbf1e553376c7c",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Denver, CO",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
+      "age": "0d",
+      "posted_at": "2026-09-05",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "b3126ca0917b76be",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "New York, NY",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "age": "0d",
+      "posted_at": "2026-09-05",
+      "level": "internship",
+      "region": "us",
+      "role_type": "software_engineer",
+      "category": "product_saas",
+      "remote_type": "onsite",
+      "country": "United States"
+    },
+    {
+      "id": "162a14da3a107f9f",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "location": "Washington, D.C.",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "age": "0d",
+      "posted_at": "2026-09-05",
+      "level": "internship",
       "region": "us",
       "role_type": "software_engineer",
       "category": "product_saas",
@@ -10390,7 +10428,7 @@
       "age": "31d",
       "posted_at": "2026-08-05",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
@@ -11644,11 +11682,11 @@
       "age": "37d",
       "posted_at": "2026-07-30",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
-      "country": "Unknown"
+      "country": "South Africa"
     },
     {
       "id": "f0d3c744150a3f49",
@@ -14589,11 +14627,11 @@
       "age": "60d",
       "posted_at": "2026-07-07",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
-      "country": "Unknown"
+      "country": "Jordan"
     },
     {
       "id": "447979526b0921ae",
@@ -16014,7 +16052,7 @@
       "age": "82d",
       "posted_at": "2026-06-15",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
@@ -16090,11 +16128,11 @@
       "age": "85d",
       "posted_at": "2026-06-12",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
-      "country": "Unknown"
+      "country": "South Africa"
     },
     {
       "id": "4bf65af55d20988a",
@@ -16128,11 +16166,11 @@
       "age": "85d",
       "posted_at": "2026-06-12",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
-      "country": "Unknown"
+      "country": "South Africa"
     },
     {
       "id": "36d5984fe90d5b40",
@@ -17059,11 +17097,11 @@
       "age": "99d",
       "posted_at": "2026-05-29",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
-      "country": "Unknown"
+      "country": "South Africa"
     },
     {
       "id": "3d21c0190119bea1",
@@ -17572,11 +17610,11 @@
       "age": "107d",
       "posted_at": "2026-05-21",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
-      "country": "Unknown"
+      "country": "South Africa"
     },
     {
       "id": "e3a073054d8ad83a",
@@ -19434,11 +19472,11 @@
       "age": "173d",
       "posted_at": "2026-03-16",
       "level": "unknown",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "other_swe",
       "category": "faang",
       "remote_type": "onsite",
-      "country": "Unknown"
+      "country": "South Africa"
     },
     {
       "id": "eda92808a6e1ff29",
@@ -26300,6 +26338,22 @@
       "role_type": "software_engineer"
     },
     {
+      "id": "a215aa491078dd46",
+      "kind": "job",
+      "origin": "public",
+      "company": "Tamara",
+      "title": "Product Engineer II - Flutter",
+      "location": "India",
+      "source": "greenhouse:tamara",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/tamara/jobs?content=true",
+      "url": "https://job-boards.eu.greenhouse.io/tamara/jobs/4743546101",
+      "age": "1d",
+      "posted_at": "2026-09-04",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "mobile"
+    },
+    {
       "id": "dd9a40fcc654393d",
       "kind": "job",
       "origin": "public",
@@ -32616,7 +32670,7 @@
       "age": "4d",
       "posted_at": "2026-09-01",
       "level": "other",
-      "region": "emea",
+      "region": "mena",
       "role_type": "full_stack"
     },
     {
@@ -37896,7 +37950,7 @@
       "age": "4d",
       "posted_at": "2026-09-01",
       "level": "other",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "backend"
     },
     {
@@ -42712,7 +42766,7 @@
       "age": "11d",
       "posted_at": "2026-08-25",
       "level": "other",
-      "region": "emea",
+      "region": "mena",
       "role_type": "full_stack"
     },
     {
@@ -42920,7 +42974,7 @@
       "age": "12d",
       "posted_at": "2026-08-24",
       "level": "other",
-      "region": "emea",
+      "region": "mena",
       "role_type": "mobile"
     },
     {
@@ -44168,7 +44222,7 @@
       "age": "12d",
       "posted_at": "2026-08-24",
       "level": "other",
-      "region": "emea",
+      "region": "mena",
       "role_type": "software_engineer"
     },
     {
@@ -52664,7 +52718,7 @@
       "age": "45d",
       "posted_at": "2026-07-22",
       "level": "other",
-      "region": "emea",
+      "region": "mena",
       "role_type": "software_engineer"
     },
     {
@@ -52696,7 +52750,7 @@
       "age": "45d",
       "posted_at": "2026-07-22",
       "level": "other",
-      "region": "emea",
+      "region": "mena",
       "role_type": "software_engineer"
     },
     {
@@ -52920,7 +52974,7 @@
       "age": "48d",
       "posted_at": "2026-07-19",
       "level": "other",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "infrastructure"
     },
     {
@@ -57048,7 +57102,7 @@
       "age": "185d",
       "posted_at": "2026-03-04",
       "level": "other",
-      "region": "emea",
+      "region": "mena",
       "role_type": "platform"
     },
     {
@@ -59592,7 +59646,7 @@
       "age": "857d",
       "posted_at": "2024-05-01",
       "level": "other",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "software_engineer"
     },
     {
@@ -59928,7 +59982,7 @@
       "age": "1431d",
       "posted_at": "2022-10-05",
       "level": "other",
-      "region": "unknown",
+      "region": "mena",
       "role_type": "software_engineer"
     },
     {
@@ -60472,7 +60526,7 @@
       "age": "5007d",
       "posted_at": "2012-12-20",
       "level": "other",
-      "region": "emea",
+      "region": "mena",
       "role_type": "software_engineer"
     },
     {
@@ -60791,6 +60845,19 @@
       "posted_at": "2026-09-05"
     },
     {
+      "id": "e63e3e22a55f8286",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Enterprise Software Solutions",
+      "title": "RoadStar Hackathon",
+      "location": "Waterloo, ON",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "url": "https://roadstarhackathon.devpost.com/",
+      "age": "8 days left",
+      "posted_at": "2026-09-05"
+    },
+    {
       "id": "fb2a456d13ba8a13",
       "kind": "hackathon",
       "origin": "public",
@@ -60882,6 +60949,19 @@
       "posted_at": "2026-09-05"
     },
     {
+      "id": "f3b190dce026f1c3",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Test Hackathon 02",
+      "location": "San Francisco, United States",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "url": "https://test-hackathon-2.devfolio.co",
+      "age": "11 days left",
+      "posted_at": "2026-09-05"
+    },
+    {
       "id": "0e04c12ae1956584",
       "kind": "hackathon",
       "origin": "public",
@@ -60892,19 +60972,6 @@
       "source_url": "https://devpost.com/hackathons",
       "url": "https://gatewaygs-hackathon-2.devpost.com/",
       "age": "11 days left",
-      "posted_at": "2026-09-05"
-    },
-    {
-      "id": "f3b190dce026f1c3",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Devfolio",
-      "title": "Test Hackathon 02",
-      "location": "San Francisco, United States",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons",
-      "url": "https://test-hackathon-2.devfolio.co",
-      "age": "12 days left",
       "posted_at": "2026-09-05"
     },
     {
@@ -61541,7 +61608,7 @@
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons",
       "url": "https://hackonhills8.devfolio.co",
-      "age": "57 days left",
+      "age": "56 days left",
       "posted_at": "2026-09-05"
     },
     {
@@ -61649,19 +61716,6 @@
       "posted_at": "2026-09-05"
     },
     {
-      "id": "e05011afa745f5ba",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Galuxium",
-      "title": "Galuxium Nexus V2",
-      "location": "Online",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "url": "https://galuxium-nexus-v2-29411.devpost.com/",
-      "age": "about 2 months left",
-      "posted_at": "2026-09-05"
-    },
-    {
       "id": "a1b0841eccae8d89",
       "kind": "hackathon",
       "origin": "public",
@@ -61762,7 +61816,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "url": "https://smu-lit-hackathon-2026.devpost.com/",
-      "age": "about 9 hours left",
+      "age": "about 8 hours left",
       "posted_at": "2026-09-05"
     },
     {

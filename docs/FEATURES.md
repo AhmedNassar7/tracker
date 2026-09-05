@@ -39,6 +39,8 @@ flowchart LR
 
 **How it works:** Each detector runs an ordered set of `re.compile(..., re.I)` patterns against the title or location string and returns the first match's category (e.g. `internship`, `new_grad`, `junior`), or a fallback (`"unknown"` for the curated layer, `"other"` for the public layer) if nothing matches.
 
+`detect_region` buckets a location into `us` / `canada` / `mena` / `emea` / `remote` / `unknown`. **`mena` (Middle East & Africa) is checked before `emea`** so a Gulf, Levant, North-Africa, or sub-Saharan-tech-hub location (Dubai, Riyadh, Cairo, Amman, Tel Aviv, Lagos, Nairobi, Cape Town, Istanbul, …) resolves to its own region instead of being folded into Europe. It's in `WANTED_REGIONS`, so the curated layer keeps these roles rather than filtering them out. The site exposes `mena` as a first-class facet everywhere `region` appears — `FilterBar`, `GlobalDashboard`'s "Jobs by region", the `PreferencesPanel` region chips, and "Best match" scoring — labelled **"Middle East & Africa"**. Region enums in `config/job-entry.schema.json`, `config/public-entry.schema.json`, and `config/site-index.schema.json` all carry `mena`.
+
 ## Dead-link detection and archiving
 
 **Purpose:** Keep the published list free of postings whose link is actually gone, without wrongly archiving/dropping live postings just because a server mishandled one HTTP verb.

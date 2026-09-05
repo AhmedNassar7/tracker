@@ -115,7 +115,7 @@ WANTED_LEVELS = {
     "entry_level",
     "mid_level",
 }
-WANTED_REGIONS = {"us", "canada", "emea", "remote"}
+WANTED_REGIONS = {"us", "canada", "mena", "emea", "remote"}
 RELAXED_MODE = False
 
 # Sources where a role whose title doesn't self-describe a level

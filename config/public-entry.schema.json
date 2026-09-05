@@ -41,8 +41,8 @@
     },
     "region": {
       "type": "string",
-      "enum": ["us", "canada", "emea", "remote", "unknown"],
-      "description": "Coarse region detected from location, same taxonomy as the curated layer's region field. Only present when kind is 'job'"
+      "enum": ["us", "canada", "mena", "emea", "remote", "unknown"],
+      "description": "Coarse region detected from location, same taxonomy as the curated layer's region field ('mena' = Middle East & Africa, matched before 'emea'). Only present when kind is 'job'"
     },
     "date": {
       "type": "string",

@@ -28,9 +28,28 @@ FETCH_REGION_MAP = {
         re.I,
     ),
     "canada": re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary)\b", re.I),
+    # MENA + wider Middle East / Africa. Checked BEFORE emea so a Gulf/North
+    # Africa location resolves to its own bucket instead of being folded into
+    # Europe. Kept deliberately broad (Gulf, Levant, North Africa, plus the
+    # main sub-Saharan tech hubs) because the region's employers — Careem,
+    # Tamara, Thndr, Jumia, Flutterwave, Paystack — span all of it.
+    "mena": re.compile(
+        r"\b(mena|menat|gcc|middle east|gulf|"
+        r"uae|united arab emirates|dubai|abu dhabi|sharjah|"
+        r"saudi|saudi arabia|riyadh|jeddah|dammam|khobar|"
+        r"qatar|doha|kuwait|bahrain|manama|oman|muscat|"
+        r"jordan|amman|lebanon|beirut|"
+        r"israel|tel aviv|jerusalem|herzliya|"
+        r"egypt|cairo|alexandria|giza|"
+        r"morocco|casablanca|rabat|tunisia|tunis|"
+        r"turkey|istanbul|ankara|"
+        r"nigeria|lagos|abuja|kenya|nairobi|ghana|accra|"
+        r"south africa|johannesburg|cape town|pretoria)\b",
+        re.I,
+    ),
     "emea": re.compile(
         r"\b(emea|europe|uk|united kingdom|germany|france|netherlands|spain|portugal|"
-        r"poland|sweden|ireland|italy|middle east|uae|egypt|saudi|qatar|israel|london|"
+        r"poland|sweden|ireland|italy|london|"
         r"berlin|paris|amsterdam|zurich)\b",
         re.I,
     ),
@@ -53,11 +72,21 @@ FETCH_COUNTRY_MARK_MAP = [
     (re.compile(r"\b(portugal|lisbon|porto)\b", re.I), "Portugal"),
     (re.compile(r"\b(switzerland|zurich|geneva)\b", re.I), "Switzerland"),
     (re.compile(r"\b(poland|warsaw|krakow)\b", re.I), "Poland"),
-    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi)\b", re.I), "United Arab Emirates"),
-    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah)\b", re.I), "Saudi Arabia"),
+    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi|sharjah)\b", re.I), "United Arab Emirates"),
+    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah|dammam|khobar)\b", re.I), "Saudi Arabia"),
     (re.compile(r"\b(qatar|doha)\b", re.I), "Qatar"),
-    (re.compile(r"\b(israel|tel aviv|jerusalem)\b", re.I), "Israel"),
+    (re.compile(r"\b(kuwait)\b", re.I), "Kuwait"),
+    (re.compile(r"\b(bahrain|manama)\b", re.I), "Bahrain"),
+    (re.compile(r"\b(oman|muscat)\b", re.I), "Oman"),
+    (re.compile(r"\b(jordan|amman)\b", re.I), "Jordan"),
+    (re.compile(r"\b(lebanon|beirut)\b", re.I), "Lebanon"),
+    (re.compile(r"\b(israel|tel aviv|jerusalem|herzliya)\b", re.I), "Israel"),
     (re.compile(r"\b(egypt|cairo|alexandria|giza)\b", re.I), "Egypt"),
+    (re.compile(r"\b(morocco|casablanca|rabat)\b", re.I), "Morocco"),
+    (re.compile(r"\b(turkey|istanbul|ankara)\b", re.I), "Turkey"),
+    (re.compile(r"\b(nigeria|lagos|abuja)\b", re.I), "Nigeria"),
+    (re.compile(r"\b(kenya|nairobi)\b", re.I), "Kenya"),
+    (re.compile(r"\b(south africa|johannesburg|cape town|pretoria)\b", re.I), "South Africa"),
 ]
 
 PUBLIC_LEVEL_PATTERNS = {
@@ -103,9 +132,11 @@ PUBLIC_NON_SOFTWARE_TITLE_PATTERNS = [
 
 
 def detect_region(location):
-    """Coarse region bucket ('us'/'canada'/'emea'/'remote'/'unknown') from a
-    free-text location string. Shared by both the curated and public layers
-    so 'region' means the same thing everywhere it's published.
+    """Coarse region bucket ('us'/'canada'/'mena'/'emea'/'remote'/'unknown')
+    from a free-text location string. Shared by both the curated and public
+    layers so 'region' means the same thing everywhere it's published. 'mena'
+    (Middle East & Africa) is matched before 'emea' so Gulf/North-Africa
+    locations get their own bucket instead of being counted as Europe.
     """
     if FETCH_REMOTE_RE.search(location):
         return "remote"

@@ -53,7 +53,7 @@ Used by `data/jobs-global.json` and `data/jobs-global-archive.json` (archive ent
 | `title` | string | |
 | `level` | enum | `internship` \| `new_grad` \| `junior` \| `entry_level` \| `mid_level` \| `unknown` |
 | `category` | string | Allowlist category the company matched (`faang`, `big_tech`, `cloud_infra`, ...), or `""` if only included via relaxed-mode fallback |
-| `region` | enum | `us` \| `canada` \| `emea` \| `remote` \| `unknown` — same taxonomy as `PublicEntry.region` |
+| `region` | enum | `us` \| `canada` \| `mena` \| `emea` \| `remote` \| `unknown` — same taxonomy as `PublicEntry.region`; `mena` (Middle East & Africa) is matched before `emea` |
 | `role_type` | enum | Same 10-value taxonomy as `PublicEntry.role_type` below |
 | `country` | string | Detected country name, or `Remote`/`Unknown` |
 | `location` | string | Raw location string from the source |
@@ -82,7 +82,7 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 | `location` | string | `Various`/`Global` when not a single place |
 | `level` | enum | Job-only: same 5 curated levels + `other` |
 | `role_type` | enum | Job-only: `full_stack` \| `backend` \| `frontend` \| `mobile` \| `platform` \| `infrastructure` \| `security` \| `machine_learning` \| `software_engineer` \| `other_swe` |
-| `region` | enum | Job-only: `us` \| `canada` \| `emea` \| `remote` \| `unknown` |
+| `region` | enum | Job-only: `us` \| `canada` \| `mena` \| `emea` \| `remote` \| `unknown` |
 | `date` | string | Free-form: age for jobs, submission deadline for hackathons, `""` for events |
 | `posted_at` | string | `YYYY-MM-DD`, or `""` when a source only exposes a fuzzy relative date instead of a real timestamp (Workday — the fuzzy value lives in `date` instead) |
 | `url` | string | Absolute URL, except Luma events which use a site-relative path |

@@ -42,8 +42,8 @@
     },
     "region": {
       "type": "string",
-      "enum": ["us", "canada", "emea", "remote", "unknown"],
-      "description": "Job-only"
+      "enum": ["us", "canada", "mena", "emea", "remote", "unknown"],
+      "description": "Job-only ('mena' = Middle East & Africa)"
     },
     "role_type": {
       "type": "string",
