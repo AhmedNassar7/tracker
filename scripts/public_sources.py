@@ -7,6 +7,7 @@ to widen coverage:
 - Unstop hackathons
 - Devfolio hackathons
 - Luma discovery pages
+- Curated tech/career events (hand-maintained in config/events.yml)
 - Greenhouse public job board API (auto-discovered from existing job URLs)
 - Lever public postings JSON (auto-discovered from existing job URLs)
 - Workday CXS jobs API (auto-discovered from existing job URLs)
@@ -813,6 +814,67 @@ def fetch_luma_discover():
     return parse_luma_discover(html_text)
 
 
+def _event_countdown(days_until: int) -> str:
+    """Human 'date' string for a curated event, in the same shape the
+    hackathon feeds use so _deadline_days() sorts them together."""
+    if days_until <= 0:
+        return "happening now"
+    if days_until == 1:
+        return "1 day left"
+    return f"{days_until} days left"
+
+
+def parse_curated_events(text: str, today: datetime.date):
+    """Parse config/events.yml lines ('Name | Organizer | City, Country |
+    YYYY-MM-DD | URL') into event rows, dropping anything already past."""
+    rows = []
+    for raw in text.splitlines():
+        line = raw.split("#", 1)[0].strip()
+        if not line or "|" not in line:
+            continue
+        parts = [p.strip() for p in line.split("|")]
+        if len(parts) != 5:
+            log_warn(f"events.yml: skipping malformed line: {raw!r}")
+            continue
+        name, organizer, location, date_str, url = parts
+        try:
+            start = datetime.date.fromisoformat(date_str)
+        except ValueError:
+            log_warn(f"events.yml: bad date {date_str!r} for {name!r}")
+            continue
+        days_until = (start - today).days
+        if days_until < -1:  # event is over — hide it until the row is bumped
+            continue
+        rows.append(
+            {
+                "id": make_id("curated_events", name, url),
+                "kind": "event",
+                "company": organizer or name,
+                "title": name,
+                "location": location or "Global",
+                "date": _event_countdown(days_until),
+                "posted_at": TODAY,
+                "url": url,
+                "source": "curated_events",
+                "source_url": "https://github.com/AhmedNassar7/tracker/blob/main/config/events.yml",
+            }
+        )
+    return rows
+
+
+def fetch_curated_events():
+    path = ROOT / "config" / "events.yml"
+    if not path.exists():
+        return []
+    try:
+        text = path.read_text(encoding="utf-8")
+    except Exception as exc:
+        log_warn(f"events.yml read failed: {exc}")
+        return []
+    today = datetime.datetime.now(datetime.UTC).date()
+    return parse_curated_events(text, today)
+
+
 def _run_concurrently(fn, arg_tuples, max_workers=10):
     """Call fn(*args) for each entry in arg_tuples concurrently and
     concatenate the returned lists, in the same order arg_tuples was given
@@ -832,7 +894,7 @@ def _deadline_days(row):
     hint = (row.get("date") or "").strip().lower()
     if hint in {"closed", "ended", "concluded"}:
         return -1
-    if hint in {"last day", "today"}:
+    if hint in {"last day", "today", "happening now"}:
         return 0
     match = re.match(r"^(\d+)\s*(d|days?)(\s+left)?$", hint)
     if match:
@@ -924,6 +986,7 @@ def main():
     rows.extend(fetch_unstop_hackathons())
     rows.extend(fetch_devfolio_hackathons())
     rows.extend(fetch_luma_discover())
+    rows.extend(fetch_curated_events())
 
     # Greenhouse/Lever/Ashby/SmartRecruiters each serve *every* company from
     # one shared API host, so a wide-open worker count risks tripping that

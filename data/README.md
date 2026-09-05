@@ -1,6 +1,6 @@
 # Software Engineering Opportunities
 
-**Last Updated:** 2026-09-05  ·  refreshed hourly  ·  [← back to project overview](../README.md)
+**Last Updated:** 2026-09-06  ·  refreshed hourly  ·  [← back to project overview](../README.md)
 
 Every row links straight to the real application page. Click a title to apply — no account on this repo needed. The **Age** column shows how long ago the listing was posted, so you can spot the newest roles at a glance.
 
@@ -27,21 +27,22 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 3324 |
+| Jobs | 3347 |
 | Hackathons | 103 |
-| Events | 2 |
-| Total | 3429 |
+| Events | 10 |
+| Total | 3460 |
 
 ## Jobs
 
-[![Jobs 3324](https://img.shields.io/badge/Jobs-3324-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 163](https://img.shields.io/badge/Internship-163-22c55e.svg)](#internship) [![Early Career 116](https://img.shields.io/badge/Early%20Career-116-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3045](https://img.shields.io/badge/Mid--Level%20and%20Above-3045-dc2626.svg)](#mid-level-and-above)
+[![Jobs 3347](https://img.shields.io/badge/Jobs-3347-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 164](https://img.shields.io/badge/Internship-164-22c55e.svg)](#internship) [![Early Career 138](https://img.shields.io/badge/Early%20Career-138-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3045](https://img.shields.io/badge/Mid--Level%20and%20Above-3045-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 163
+Total roles: 164
 
 | Company | Title | Location | Age |
 |---|---|---|---|
+| Amazon | [Robotics - Software Development Engineer Intern/Co-op](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1&utm_source=github-vansh-ouckah) | <details><summary>8 locations</summary>Sunnyvale<br>CA North Reading<br>MA Westboro<br>MA Nashville<br>TN Austin<br>TX Arlington<br>VA Bellevue<br>WA Seattle, WA</details> | 0d |
 | Amazon | [Software Development Engineer Internship - Vaga Para Mulheres, Ies- Latech](https://www.linkedin.com/jobs/view/4455914357) | Deventer, Overijssel, Netherlands | 0d |
 | Amazon | [Software Development Engineer Intern - Robotics](https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027?utm_source=Simplify&ref=Simplify) | <details><summary>7 locations</summary>Seattle, WA<br>Nashville, TN<br>Austin, TX<br>North Reading, MA<br>Arlington County<br>Arlington, VA<br>Bellevue, WA<br>Westborough, MA</details> | 1d |
 | Amazon | [Software Development Engineer Intern - ROBOTICS - 2027](https://www.amazon.jobs/jobs/10529525/apply) | North Reading, MA | 1d |
@@ -208,22 +209,37 @@ Total roles: 163
 
 ### Early Career
 
-Total roles: 116
+Total roles: 138
 
 | Company | Title | Location | Age |
 |---|---|---|---|
-| Google | [Software Engineer, Performance, Reliability, Observability, Phd, Early Career](https://www.linkedin.com/jobs/view/4321301694) | Warsaw, Mazowieckie, Poland | 0d |
-| Google | [Software Engineer Early Career - Multiple Teams 🎓](https://www.google.com/about/careers/applications/jobs/results/84680705375642310?utm_source=Simplify&ref=Simplify) | <details><summary>12 locations</summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details> | 12d |
-| Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 6mo |
+| Amazon | [Hardware Simulator SDE I, AWS Machine Learning Accelerators, Annapurna Labs](https://www.amazon.jobs/en/jobs/2940695/hardware-simulator-sde-i-aws-machine-learning-accelerators-annapurna-labs?utm_source=vansh) | Cupertino, CA | 0d |
+| Amazon | [Security Engineer I, Security Incident Response Team (SIRT)](https://www.amazon.jobs/en/jobs/3171130/security-engineer-i-security-incident-response-team-sirt-security-incident-response-team-sirt?utm_source=vansh) | Seattle, WA | 0d |
+| Amazon | [Software Engineer I](https://www.amazon.jobs/en/jobs/3126885/software-engineer-i?utm_source=vansh) | San Francisco, CA | 0d |
 | Amazon | [Software Development Engineer - Early Career](https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 21d |
 | Amazon | [Software Development Engineer, Early Career - 2026](https://www.amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026) | Vancouver, British Columbia, CAN | 22d |
 | Amazon | [Software Development Engineer, Early Career - 2027, Shanghai](https://www.amazon.jobs/en/jobs/10496564/software-development-engineer-early-career-2027-shanghai) | Shanghai, CHN | 26d |
 | Amazon | [Software Development Engineer, Early Career - 2027, Beijing](https://www.amazon.jobs/en/jobs/10493864/software-development-engineer-early-career-2027-beijing) | Beijing, CHN | 1mo |
 | Amazon | [Software Development Engineer I, FinOps FP&A](https://www.amazon.jobs/en/jobs/10432823/software-development-engineer-i-finops-fp-a) | Bengaluru, Karnataka, IND | 3mo |
+| Apple | [Software Engineer, IS&T Early Career](https://jobs.apple.com/en-us/details/200627852-3956/software-engineer-is-t-early-career?utm_source=vansh) | Sunnyvale, CA | 0d |
+| Google | [New Grad 2026: Software Engineer](https://www.google.com/about/careers/applications/jobs/results/79125737784648390?utm_source=vansh) | Mountain View, CA | 0d |
+| Google | [Software Engineer II, Early Career](https://www.google.com/about/careers/applications/jobs/results/143333237156913862-software-engineer-ii/?utm_source=vansh) | <details><summary>12 locations</summary>Mountain View<br>CA Kirkland<br>WA Los Angeles<br>CA Madison<br>WI New York<br>NY Palo Alto<br>CA Pittsburgh<br>PA Raleigh<br>NC Durham<br>NC San Bruno<br>CA Seattle<br>WA Sunnyvale, CA</details> | 0d |
+| Google | [Software Engineer II, Early Career, Google Cloud AI Catalyst Program](https://www.google.com/about/careers/applications/jobs/results/90452041138086598-software-engineer-ii-early-career-google-cloud-ai-catalyst-program?utm_source=vansh) | Sunnyvale, CA Kirkland, WA Seattle, WA | 0d |
+| Google | [Software Engineer, Performance, Reliability, Observability, Phd, Early Career](https://www.linkedin.com/jobs/view/4321301694) | Warsaw, Mazowieckie, Poland | 0d |
+| Google | [Software Engineer Early Career - Multiple Teams 🎓](https://www.google.com/about/careers/applications/jobs/results/84680705375642310?utm_source=Simplify&ref=Simplify) | <details><summary>12 locations</summary>Madison, WI<br>Seattle, WA<br>Austin, TX<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA<br>Atlanta, GA</details> | 12d |
+| Google | [Software Engineer – Early Career - AI/ML - PhD 🎓](https://www.google.com/about/careers/applications/jobs/results/92286686481785542?utm_source=Simplify&ref=Simplify) | London, UK | 6mo |
+| Meta | [New Grad 2026: Product Security Engineer](https://www.metacareers.com/jobs/609052015548260?utm_source=vansh) | Bellevue, WA Menlo Park, CA | 0d |
+| Adobe | [New Grad 2026: Application Security Engineer](https://careers.adobe.com/us/en/job/ADOBUSR159164EXTERNALENUS/2026-University-Graduate-Application-Security-Engineer?utm_source=vansh) | San Jose, CA San Francisco, CA | 0d |
+| Adobe | [New Grad 2026: Machine Learning Engineer](https://careers.adobe.com/us/en/job/ADOBUSR157573EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh) | San Jose, CA | 0d |
+| Adobe | [New Grad 2026: Machine Learning Engineer](https://careers.adobe.com/us/en/job/ADOBUSR158632EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer?utm_source=vansh) | San Jose, CA San Francisco, CA | 0d |
+| Adobe | [New Grad 2026: Software Engineer](https://careers.adobe.com/us/en/job/ADOBUSR159163EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh) | San Jose, CA Lehi, UT | 0d |
+| Adobe | [New Grad 2026: Software Engineer](https://careers.adobe.com/us/en/job/ADOBUSR159933EXTERNALENUS/2026-University-Graduate-Software-Engineer?utm_source=vansh) | San Jose, CA Lehi, UT | 0d |
 | Cisco | [Software Engineer - Graduate - Sweden](https://www.linkedin.com/jobs/view/4404059914) | Stockholm, Stockholm County, Sweden | 0d |
 | Qualcomm | [Graduate Software Engineer – Virtual Platforms - Qualcomm - Cambridge, Uk](https://www.linkedin.com/jobs/view/4384258608) | Cambridge, England, United Kingdom | 0d |
 | NVIDIA | [Backend Compiler Engineer New Grad](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242?utm_source=Simplify&ref=Simplify) | Canada Santa Clara, CA | 28d |
 | NVIDIA | [Software Engineer New Grad - Hardware Tools and Methodology 🎓](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659?utm_source=Simplify&ref=Simplify) | Santa Clara, CA | 2mo |
+| Atlassian | [New Grad 2026: Machine Learning Engineer](https://careers-americas.icims.com/jobs/20906/machine-learning-engineer%252c-2026-graduate-u.s./job?utm_source=vansh) | San Francisco, CA | 0d |
+| Atlassian | [New Grad 2026: Software Engineer](https://careers-americas.icims.com/jobs/20901/software-engineer%252c-2026-graduate-u.s./job?utm_source=vansh) | Seattle, WA | 0d |
 | Notion | [Software Engineer New Grad](https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&utm_source=Simplify&ref=Simplify) | SF | 21d |
 | Notion | [New Grad: Software Engineer](https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555?utm_source=vansh) | San Francisco, CA | 26d |
 | Notion | [Software Engineer, Fullstack, Early Career](https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b?utm_source=vansh) | San Francisco, CA New York, NY | 26d |
@@ -251,6 +267,8 @@ Total roles: 116
 | Revolut | [Graduate Programme 2027: Software Engineer (android)](https://www.linkedin.com/jobs/view/4418844091) | Spain | 0d |
 | Revolut | [Graduate Programme 2027: Software Engineer (iOS)](https://www.linkedin.com/jobs/view/4418822810) | Portugal | 0d |
 | Revolut | [Graduate Programme 2027: Software Engineer (java)](https://www.linkedin.com/jobs/view/4418834450) | Portugal | 0d |
+| Stripe | [New Grad: Security Engineer](https://stripe.com/jobs/listing/security-engineer-new-grad/7477571?utm_source=vansh) | Seattle, WA South San Francisco, CA | 0d |
+| Stripe | [New Grad: Software Engineer](https://stripe.com/jobs/listing/software-engineer-new-grad/7210112?utm_source=vansh) | South San Francisco, CA Seattle, WA | 0d |
 | Stripe | [Software Engineer New Grad](https://stripe.com/jobs/search?gh_jid=8157838&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 4d |
 | Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8157838) | Toronto | 5d |
 | Stripe | [Software Engineer - New Grad](https://stripe.com/jobs/search?gh_jid=7210112&utm_source=vansh&ref=vansh) | Seattle, WA SF | 26d |
@@ -263,6 +281,10 @@ Total roles: 116
 | Visa | [New Grad 2026: Software Engineer 🛂](https://jobs.smartrecruiters.com/visa/744000080905285-software-engineer-new-college-grad-2026?utm_source=vansh) | Highlands Ranch, CO | 26d |
 | Visa | [New Grad 2026: Software Engineer 🛂](https://jobs.smartrecruiters.com/visa/744000080905065-software-engineer-new-college-grad-2026?utm_source=vansh) | Foster City, CA | 26d |
 | Visa | [New Grad 2026: Software Engineer 🛂](https://jobs.smartrecruiters.com/visa/744000080904205-software-engineer-new-college-grad-2026?utm_source=vansh) | Bellevue, WA | 26d |
+| Uber | [New Grad 2025: Software Engineer I](https://university-uber.icims.com/jobs/149558/job?utm_source=vansh) | San Francisco, CA | 0d |
+| Uber | [New Grad 2026: Software Engineer I](https://university-uber.icims.com/jobs/152427/job?utm_source=vansh) | San Francisco, CA | 0d |
+| Uber | [New Grad 2026: Software Engineer I, Mobile](https://university-uber.icims.com/jobs/152559/job?mobile=false&width=1069&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240&utm_source=vansh&ref=vansh) | San Francisco, CA | 0d |
+| Uber | [Software Engineer I](https://jobs.uber.com/en/jobs/160017/?_csid=BOBcQVO6jwRuNsBKbjoAZA&effect=&sm_flow_id=92Yhskrz&state=xlA80FxvL-2272sFxrCsxXWLk7KQR60tJLE43FsTxHI%3D&utm_source=vansh&ref=vansh) | Seattle, Washington | 0d |
 | Uber | [Software Engineer I, Masters](https://www.uber.com/global/en/careers/list/157785/?utm_source=vansh) | San Francisco, CA | 0d |
 | DoorDash | [New Grad: Software Engineer I](https://careersatdoordash.com/jobs/software-engineer-i-entry-level-graduation-date-fall-2025-summer-2026/7263610/?utm_source=vansh) | <details><summary>5 locations</summary>New York<br>NY San Francisco<br>CA Los Angeles<br>CA Seattle<br>WA Sunnyvale, CA</details> | 26d |
 | JPMorgan Chase | [AI/ML Engineer - Senior Associate](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210780109) | Jersey City, NJ, United States | 2d |
@@ -288,6 +310,7 @@ Total roles: 116
 | ByteDance | [New Grad 2026: Software Engineer, Authorization-US](https://jobs.bytedance.com/en/position/7531126749275851026/detail?spread=BSPP2KS&utm_source=vansh&ref=vansh) | San Jose, CA | 26d |
 | ByteDance | [Site Reliability Engineer Graduate [Security Engineering-US]](https://jobs.bytedance.com/en/position/7534838755829696776/detail?spread=BSPP2KS&utm_source=vansh&ref=vansh) | San Jose, CA | 26d |
 | ByteDance | [Software Engineer New Grad - AI Infrastructure-Compute Efficiency & Scheduling](https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&ref=Simplify) | Seattle, WA | 26d |
+| Pinterest | [New Grad 2026: Software Engineer](https://www.pinterestcareers.com/job-form?gh_jid=7211012&utm_source=vansh&ref=vansh) | Palo Alto, CA Seattle, WA SF | 0d |
 | SpaceX | [Software Engineer New Grad - Software](https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&ref=Simplify) | Brownsville, TX | 17d |
 | SpaceX | [Software Engineer New Grad - Software - Application Software](https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&ref=Simplify) | Hawthorne, CA | 17d |
 | SpaceX | [Software Engineer New Grad - Software - Starlink](https://boards.greenhouse.io/spacex/jobs/8696097002?utm_source=Simplify&ref=Simplify) | Bastrop, TX | 22d |
@@ -3385,120 +3408,128 @@ Total roles: 3045
 
 Total hackathons: 103
 
-| Organizer | Hackathon |
-|---|---|
-| Devfolio | [.hack '26](https://dothack26.devfolio.co) |
-| Devfolio | [ETHKochi](https://ethkochi.devfolio.co) |
-| Devfolio | [MUBA Blockchain Hackathon](https://muba-hackathon.devfolio.co) |
-| Devfolio | [NexusTiQ 24 - CareerTiQ](https://nexustiq24-careertiq.devfolio.co) |
-| agent orchestrator | [Syndicate by Maximor](https://syndicate-by-maximor.devpost.com/) |
-| CodeBox | [CodeBox Hacks](https://codebox-hacks.devpost.com/) |
-| Emerald Parents | [EmP Hackfest Summer 2026](https://emp-hackfest-summer-2026.devpost.com/) |
-| shrimat koti | [Coppell hackathon 1](https://fintech-hackothon-1.devpost.com/) |
-| Prosocial Engineering | [Global Psyops Hackathon](https://global-psyops-hackathon.devpost.com/) |
-| CreateHER Fest | [DIALED IN Builder Challenge](https://dialedin.devpost.com/) |
-| Devfolio | [Girlathon 4.0](https://girlathon26.devfolio.co) |
-| NA | [AI Content Engine Hackathon](https://ai-content-engine-hacks.devpost.com/) |
-| Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) |
-| Devfolio | [VENTURE'26](https://venture-26.devfolio.co) |
-| Institute of Engineering & Management | [Hack2Heal 2.0 - Global Healthcare Innovation Hackathon](https://hack2heal.devpost.com/) |
-| CyberSyntax Hub | [CSH Social Impact Ideathon](https://csh-social-impact-ideathon.devpost.com/) |
-| Devfolio | [FusioniX2026](https://fusionix-1.devfolio.co) |
-| Devfolio | [Hackrit](https://hackrit2026.devfolio.co) |
-| Devfolio | [Interledger Student Hackathon - Tec de Software](https://interledger-student-hackathon-merida.devfolio.co) |
-| SPA Bhopal | [Music from BeatMind](https://music-from-beatmind.devpost.com/) |
-| Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) |
-| Devfolio | [Metamorph 2.0](https://metamorph-2.devfolio.co) |
-| Dialogate | [VoltHacks](https://volthacks.devpost.com/) |
-| Enterprise Software Solutions | [RoadStar Hackathon](https://roadstarhackathon.devpost.com/) |
-| HackAlphaX | [NextStep Hacks 2026](https://nextstep2026.devpost.com/) |
-| PropNote AI | [VentureFix](https://venturefix.devpost.com/) |
-| Amazon | [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/) |
-| CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) |
-| hyperbloom hacks | [Hyperbloom September - AI/ML](https://hyperbloom-september.devpost.com/) |
-| Devfolio | [Interledger Student Hackathon - ICESI](https://interledger-student-hackathon-icesi.devfolio.co) |
-| OSC | [AI Builders Hackathon](https://ai-builders-hackathon-2026.devpost.com/) |
-| Devfolio | [Test Hackathon 02](https://test-hackathon-2.devfolio.co) |
-| GatewayGS | [GatewayGS Hackathon 2](https://gatewaygs-hackathon-2.devpost.com/) |
-| President University | [COMPSPHERE 12](https://compsphere12.devpost.com/) |
-| Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) |
-| Devfolio | [DSU DEVHACK 3.0](https://dsudevhack3.devfolio.co) |
-| Devfolio | [Interledger Student Hackathon - CUC](https://interledger-student-hackathon-cuc.devfolio.co) |
-| Devfolio | [Avalon OpenHack](https://avalon-openhack.devfolio.co) |
-| CAST-GNY | [CAST-GNY Startup Pitch Competition 2026](https://castgnypitch2026.devpost.com/) |
-| Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) |
-| Devfolio | [Binary Hacks 4.0](https://binary-hacks-4.devfolio.co) |
-| Devfolio | [Test Hackathon 01](https://test-hackathon-1.devfolio.co) |
-| Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) |
-| TechieBunnies team | [BunnieX Hackathon](https://buuniex-hackathon.devpost.com/) |
-| Devfolio | [Test Flow Online](https://test-flow-online.devfolio.co) |
-| Devfolio | [Builders Day by HackUnion](https://builders-day-hackunion.devfolio.co) |
-| Devfolio | [Cognition - GameJam '26](https://cognition-gamejam-1.devfolio.co) |
-| Devfolio | [HackNex Season 2](https://hacknex-season-2.devfolio.co) |
-| Devfolio | [Meowathon 2025](https://meow.devfolio.co) |
-| Devfolio | [NexHack 2.0](https://nexhack-2.devfolio.co) |
-| Devfolio | [The Great Agent Hackathon](https://the-great-agent-hackathon.devfolio.co) |
-| Devfolio | [WebCraft24](https://webcraft24.devfolio.co) |
-| Jitjai Organization | [Practice to Create [Feedback To All Projects!]](https://practicetocreate.devpost.com/) |
-| Devfolio | [Hack4Brahma 2.0](https://hack4brahma2.devfolio.co) |
-| Pillai University, Navi Mumbai | [HackCelestial 3.0](https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808) |
-| RotaractClub of SNSCollege of Technology | [Zero Origin](https://zero-origin.devpost.com/) |
-| TechZap Club | [3rd-Web-Hack](https://3rd-web-hack.devpost.com/) |
-| LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) |
-| Devfolio | [CodeStorm 2026: FutureForge](https://codestorm-futureforge.devfolio.co) |
-| Devfolio | [EAG Global Buildathon](https://eag-global-buildathon.devfolio.co) |
-| FirstCommit | [Beginner's Paradise - FirstCommit](https://firstcommit.devpost.com/) |
-| Next Byte Hacks | [Next Byte Hacks: V4](https://next-byte-hacks-v4.devpost.com/) |
-| RevenueCat | [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/) |
-| GatewayGS | [GatewayHacks 2026 | Software & AI](https://gatewayhacks-2026.devpost.com/) |
-| Devfolio | [HackSpire'26](https://hackspire26.devfolio.co) |
-| Devfolio | [Codeutsava X.0](https://codeutsava-x.devfolio.co) |
-| Devfolio | [BOSS Battle](https://boss-battle.devfolio.co) |
-| The Webb Schools CSC | [CSC Back-to-School Hackathon](https://csc-back-to-school.devpost.com/) |
-| Devfolio | [HACKBIOS 2K26](https://hackbios2k26.devfolio.co) |
-| Devfolio | [DEFINE 4.0](https://define4.devfolio.co) |
-| Devfolio | [HACK WITH GDG S4](https://hack-with-gdg-s4.devfolio.co) |
-| Devfolio | [Realm Hack '26](https://realm-hack-1.devfolio.co) |
-| Devfolio | [Hackify 3.0](https://hackify-3.devfolio.co) |
-| Devfolio | [HackInverse 1.0](https://hackinverse-s1.devfolio.co) |
-| Devfolio | [Innohacks 4.0](https://innohacks-4.devfolio.co) |
-| Devfolio | [Innosprint2.0](https://innosprint-3.devfolio.co) |
-| Devfolio | [HackTopus'FE](https://hacktopusgdg.devfolio.co) |
-| Devfolio | [HACKER HOUSE GOA 2026](https://hacker-house-goa-2026.devfolio.co) |
-| Devfolio | [Hefty-Hacks](https://hefty-hacks.devfolio.co) |
-| Devfolio | [TUM Blockchain & AI Hackathon](https://tum.devfolio.co) |
-| Devfolio | [Convergence](https://convergence1.devfolio.co) |
-| Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) |
-| Devfolio | [Hacknauts 2.0](https://hacknauts26.devfolio.co) |
-| Devfolio | [CodeClash'24](https://codeclash24.devfolio.co) |
-| Devfolio | [haxfinity](https://haxfinity.devfolio.co) |
-| Amazon | [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) |
-| Binnovative | [InnovArt 2027: Art and Technology Hack Day](https://innovart2027.devpost.com/) |
-| BioCataalysis | [UnivaBio](https://univabio.devpost.com/) |
-| Devin | [Agentic Hackathon](https://agentic-hackathon.devpost.com/) |
-| dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) |
-| Hack Club | [Graphiques Innovation Challenge](https://graphiques-challenge.devpost.com/) |
-| hacktheconcretejungle | [HTCJ × PROOF Aviation Futures Challenge](https://htcj-aviation-futures.devpost.com/) |
-| Mafiq Foundation | [MYHack: ISNA 2026](https://myhack-isna.devpost.com/) |
-| nebius | [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) |
-| nill | [Code for Humanity](https://code-for-humanity.devpost.com/) |
-| OpenCV | [OpenCV AI Competition 2026, powered by AWS](https://opencv26.devpost.com/) |
-| RAAIF | [Next Gen Hackathon 2026 -Bengaluru](https://next-gen-hackathon.devpost.com/) |
-| SMU LIT | [SMU LIT Legal-Tech Hackathon 2026](https://smu-lit-hackathon-2026.devpost.com/) |
-| STEMise | [DSH Hacks V2](https://dsh-hacks-v2.devpost.com/) |
-| Student Organization | [Next Founders Hackathon](https://next-founders.devpost.com/) |
-| Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) |
-| Sydney University Experience Designers | [SUEDE Designathon 2026](https://suede-designathon-2026.devpost.com/) |
-| Women in Tech Unimelb | [Code to Connect: Women in Tech Hackathon 2026](https://code-to-connect-wit.devpost.com/) |
+| Organizer | Hackathon | Location | Closes |
+|---|---|---|---|
+| Devfolio | [.hack '26](https://dothack26.devfolio.co) | Kothamangalam, India | last day |
+| Devfolio | [ETHKochi](https://ethkochi.devfolio.co) | Kochi, India | last day |
+| Devfolio | [MUBA Blockchain Hackathon](https://muba-hackathon.devfolio.co) | Online | last day |
+| Devfolio | [NexusTiQ 24 - CareerTiQ](https://nexustiq24-careertiq.devfolio.co) | Online | last day |
+| agent orchestrator | [Syndicate by Maximor](https://syndicate-by-maximor.devpost.com/) | Online | 1 day left |
+| CodeBox | [CodeBox Hacks](https://codebox-hacks.devpost.com/) | Cal Poly Advanced Technology Lab | 1 day left |
+| Emerald Parents | [EmP Hackfest Summer 2026](https://emp-hackfest-summer-2026.devpost.com/) | DigiPen Institute of Technology | 1 day left |
+| shrimat koti | [Coppell hackathon 1](https://fintech-hackothon-1.devpost.com/) | Online | 1 day left |
+| Prosocial Engineering | [Global Psyops Hackathon](https://global-psyops-hackathon.devpost.com/) | Distribution Hall | 2 days left |
+| CreateHER Fest | [DIALED IN Builder Challenge](https://dialedin.devpost.com/) | The Hub @ Office Logic | 3 days left |
+| Devfolio | [Girlathon 4.0](https://girlathon26.devfolio.co) | Various | 3 days left |
+| NA | [AI Content Engine Hackathon](https://ai-content-engine-hacks.devpost.com/) | Online | 3 days left |
+| Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) | Online | 4 days left |
+| JHUB Africa | [Hack The Weather](https://hack-the-weather.devpost.com/) | Online | 4 days left |
+| Devfolio | [VENTURE'26](https://venture-26.devfolio.co) | Kothamangalam, India | 5 days left |
+| Institute of Engineering & Management | [Hack2Heal 2.0 - Global Healthcare Innovation Hackathon](https://hack2heal.devpost.com/) | Online | 5 days left |
+| CyberSyntax Hub | [CSH Social Impact Ideathon](https://csh-social-impact-ideathon.devpost.com/) | Online | 6 days left |
+| Devfolio | [FusioniX2026](https://fusionix-1.devfolio.co) | Various | 6 days left |
+| Devfolio | [Hackrit](https://hackrit2026.devfolio.co) | Kolkata, India | 6 days left |
+| Devfolio | [Interledger Student Hackathon - Tec de Software](https://interledger-student-hackathon-merida.devfolio.co) | Mérida, Mexico | 6 days left |
+| SPA Bhopal | [Music from BeatMind](https://music-from-beatmind.devpost.com/) | Online | 6 days left |
+| Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) | Online | 7 days left |
+| Devfolio | [Metamorph 2.0](https://metamorph-2.devfolio.co) | Panihati, India | 7 days left |
+| Dialogate | [VoltHacks](https://volthacks.devpost.com/) | Online | 8 days left |
+| Enterprise Software Solutions | [RoadStar Hackathon](https://roadstarhackathon.devpost.com/) | Waterloo, ON | 8 days left |
+| HackAlphaX | [NextStep Hacks 2026](https://nextstep2026.devpost.com/) | Online | 8 days left |
+| PropNote AI | [VentureFix](https://venturefix.devpost.com/) | Online | 8 days left |
+| Amazon | [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/) | Online | 9 days left |
+| CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) | Online | 9 days left |
+| hyperbloom hacks | [Hyperbloom September - AI/ML](https://hyperbloom-september.devpost.com/) | Online | 9 days left |
+| Devfolio | [Interledger Student Hackathon - ICESI](https://interledger-student-hackathon-icesi.devfolio.co) | Cali, Colombia | 10 days left |
+| OSC | [AI Builders Hackathon](https://ai-builders-hackathon-2026.devpost.com/) | Online | 10 days left |
+| Devfolio | [Test Hackathon 02](https://test-hackathon-2.devfolio.co) | San Francisco, United States | 11 days left |
+| GatewayGS | [GatewayGS Hackathon 2](https://gatewaygs-hackathon-2.devpost.com/) | Online | 11 days left |
+| President University | [COMPSPHERE 12](https://compsphere12.devpost.com/) | Online | 12 days left |
+| Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) | Online | 12 days left |
+| Devfolio | [DSU DEVHACK 3.0](https://dsudevhack3.devfolio.co) | Ramanagara, India | 13 days left |
+| Devfolio | [Interledger Student Hackathon - CUC](https://interledger-student-hackathon-cuc.devfolio.co) | Barranquilla, Colombia | 13 days left |
+| Devfolio | [Avalon OpenHack](https://avalon-openhack.devfolio.co) | Online | 14 days left |
+| CAST-GNY | [CAST-GNY Startup Pitch Competition 2026](https://castgnypitch2026.devpost.com/) | Fordham University School of Law | 15 days left |
+| Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) | Online | 15 days left |
+| Devfolio | [Binary Hacks 4.0](https://binary-hacks-4.devfolio.co) | Ghaziabad, India | 16 days left |
+| Devfolio | [Test Hackathon 01](https://test-hackathon-1.devfolio.co) | Online | 16 days left |
+| Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) | Online | 16 days left |
+| TechieBunnies team | [BunnieX Hackathon](https://buuniex-hackathon.devpost.com/) | Online | 17 days left |
+| Devfolio | [Test Flow Online](https://test-flow-online.devfolio.co) | Online | 19 days left |
+| Devfolio | [Builders Day by HackUnion](https://builders-day-hackunion.devfolio.co) | Hyderabad, India | 20 days left |
+| Devfolio | [Cognition - GameJam '26](https://cognition-gamejam-1.devfolio.co) | Navi Mumbai, India | 20 days left |
+| Devfolio | [HackNex Season 2](https://hacknex-season-2.devfolio.co) | Kalyani, India | 20 days left |
+| Devfolio | [Meowathon 2025](https://meow.devfolio.co) | Various | 20 days left |
+| Devfolio | [NexHack 2.0](https://nexhack-2.devfolio.co) | New Delhi, India | 20 days left |
+| Devfolio | [The Great Agent Hackathon](https://the-great-agent-hackathon.devfolio.co) | Online | 20 days left |
+| Devfolio | [WebCraft24](https://webcraft24.devfolio.co) | Greater Noida, India | 20 days left |
+| Jitjai Organization | [Practice to Create [Feedback To All Projects!]](https://practicetocreate.devpost.com/) | Online | 20 days left |
+| Devfolio | [Hack4Brahma 2.0](https://hack4brahma2.devfolio.co) | Guwahati, India | 21 days left |
+| Pillai University, Navi Mumbai | [HackCelestial 3.0](https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808) | Offline | 21 days left |
+| RotaractClub of SNSCollege of Technology | [Zero Origin](https://zero-origin.devpost.com/) | Online | 21 days left |
+| TechZap Club | [3rd-Web-Hack](https://3rd-web-hack.devpost.com/) | Online | 21 days left |
+| LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) | Online | 23 days left |
+| Devfolio | [CodeStorm 2026: FutureForge](https://codestorm-futureforge.devfolio.co) | Online | 24 days left |
+| Devfolio | [EAG Global Buildathon](https://eag-global-buildathon.devfolio.co) | Online | 25 days left |
+| FirstCommit | [Beginner's Paradise - FirstCommit](https://firstcommit.devpost.com/) | Online | 25 days left |
+| Next Byte Hacks | [Next Byte Hacks: V4](https://next-byte-hacks-v4.devpost.com/) | Online | 25 days left |
+| RevenueCat | [RevenueCat Shipaton 2026](https://revenuecat-shipaton-2026.devpost.com/) | Online | 25 days left |
+| GatewayGS | [GatewayHacks 2026 | Software & AI](https://gatewayhacks-2026.devpost.com/) | Online | 26 days left |
+| Devfolio | [HackSpire'26](https://hackspire26.devfolio.co) | Kolkata, India | 27 days left |
+| Devfolio | [Codeutsava X.0](https://codeutsava-x.devfolio.co) | Raipur, India | 28 days left |
+| Devfolio | [BOSS Battle](https://boss-battle.devfolio.co) | Online | 29 days left |
+| The Webb Schools CSC | [CSC Back-to-School Hackathon](https://csc-back-to-school.devpost.com/) | Online | 29 days left |
+| Devfolio | [HACKBIOS 2K26](https://hackbios2k26.devfolio.co) | Junwani, India | 33 days left |
+| Devfolio | [DEFINE 4.0](https://define4.devfolio.co) | Thiruvananthapuram, India | 34 days left |
+| Devfolio | [HACK WITH GDG S4](https://hack-with-gdg-s4.devfolio.co) | KSR Kalvi Nagar, India | 34 days left |
+| Devfolio | [Realm Hack '26](https://realm-hack-1.devfolio.co) | Thodiyoor, India | 34 days left |
+| Devfolio | [Hackify 3.0](https://hackify-3.devfolio.co) | Kothamangalam, India | 35 days left |
+| Devfolio | [HackInverse 1.0](https://hackinverse-s1.devfolio.co) | Kolkata, India | 35 days left |
+| Devfolio | [Innohacks 4.0](https://innohacks-4.devfolio.co) | Ghaziabad, India | 35 days left |
+| Devfolio | [Innosprint2.0](https://innosprint-3.devfolio.co) | India | 35 days left |
+| Devfolio | [HackTopus'FE](https://hacktopusgdg.devfolio.co) | Bharthia, India | 40 days left |
+| Devfolio | [HACKER HOUSE GOA 2026](https://hacker-house-goa-2026.devfolio.co) | India | 55 days left |
+| Devfolio | [Hefty-Hacks](https://hefty-hacks.devfolio.co) | Online | 55 days left |
+| Devfolio | [TUM Blockchain & AI Hackathon](https://tum.devfolio.co) | München, Germany | 55 days left |
+| Devfolio | [Convergence](https://convergence1.devfolio.co) | Kalyani, India | 56 days left |
+| Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) | Hamirpur, India | 56 days left |
+| Devfolio | [Hacknauts 2.0](https://hacknauts26.devfolio.co) | Ludhiana, India | 70 days left |
+| Devfolio | [CodeClash'24](https://codeclash24.devfolio.co) | Greater Noida, India | 85 days left |
+| Devfolio | [haxfinity](https://haxfinity.devfolio.co) | Myladi, India | 98 days left |
+| Amazon | [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) | Online | about 2 months left |
+| Binnovative | [InnovArt 2027: Art and Technology Hack Day](https://innovart2027.devpost.com/) | Online | 4 months left |
+| BioCataalysis | [UnivaBio](https://univabio.devpost.com/) | Online | about 1 month left |
+| Devin | [Agentic Hackathon](https://agentic-hackathon.devpost.com/) | BRAC University | about 22 hours left |
+| dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) | Corteva's Pioneer Shull Building | about 1 month left |
+| hacktheconcretejungle | [HTCJ × PROOF Aviation Futures Challenge](https://htcj-aviation-futures.devpost.com/) | Boston Venture Week | about 2 months left |
+| Mafiq Foundation | [MYHack: ISNA 2026](https://myhack-isna.devpost.com/) | Detroit, MI, USA | about 19 hours left |
+| nebius | [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) | Online | about 2 months left |
+| nill | [Code for Humanity](https://code-for-humanity.devpost.com/) | Online | 4 months left |
+| OpenCV | [OpenCV AI Competition 2026, powered by AWS](https://opencv26.devpost.com/) | Online | about 2 months left |
+| RAAIF | [Next Gen Hackathon 2026 -Bengaluru](https://next-gen-hackathon.devpost.com/) | Tripura Vasini Palace Grounds, Bengaluru | about 2 months left |
+| SMU LIT | [SMU LIT Legal-Tech Hackathon 2026](https://smu-lit-hackathon-2026.devpost.com/) | Singapore | about 7 hours left |
+| STEMise | [DSH Hacks V2](https://dsh-hacks-v2.devpost.com/) | Online | 2 months left |
+| Student Organization | [Next Founders Hackathon](https://next-founders.devpost.com/) | Online | about 1 month left |
+| Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) | Online | 4 months left |
+| Sydney University Experience Designers | [SUEDE Designathon 2026](https://suede-designathon-2026.devpost.com/) | Wilkinson Building | about 14 hours left |
+| Women in Tech Unimelb | [Code to Connect: Women in Tech Hackathon 2026](https://code-to-connect-wit.devpost.com/) | Online | about 17 hours left |
 
 ## Events
 
-Total events: 2
+Total events: 10
 
-| Organizer | Event |
-|---|---|
-| Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) |
-| Luma | [Follow Google](https://lu.ma/deepmind?k=c) |
+| Organizer | Event | Location | When |
+|---|---|---|---|
+| NEXT Summit | [NEXT Summit](https://nextsummit.io/) | Cairo, Egypt | 7 days left |
+| Techne | [Techne Summit Cairo](https://technesummit.com/2026) | Cairo, Egypt | 21 days left |
+| Techne | [Techne Summit Alexandria](https://technesummit.com/2026) | Alexandria, Egypt | 28 days left |
+| Web Summit | [Web Summit](https://websummit.com/) | Lisbon, Portugal | 65 days left |
+| KAOUN Int'l | [GITEX GLOBAL](https://www.gitex.com/) | Dubai, UAE | 93 days left |
+| STEP | [STEP Conference](https://stepconference.com/) | Dubai, UAE | 151 days left |
+| RiseUp | [RiseUp Summit](https://riseupsummit.com/) | Cairo, Egypt | 153 days left |
+| LEAP | [LEAP](https://onegiantleap.com/) | Riyadh, Saudi Arabia | 219 days left |
+| Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) | Global | — |
+| Luma | [Follow Google](https://lu.ma/deepmind?k=c) | Global | — |
 
 ## Browse Every Role
 

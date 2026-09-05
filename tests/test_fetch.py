@@ -853,6 +853,29 @@ def main():
 
     with tempfile.TemporaryDirectory() as tmp:
         data_out = Path(tmp)
+        (data_out / "jobs-global.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 1, "jobs": [existing_row]}, ensure_ascii=False, indent=2), encoding="utf-8")
+        (data_out / "jobs-global-archive.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 0, "jobs": []}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        # Same id (company+title+url unchanged) but a re-detected field →
+        # signature changes → row is rewritten, but posted_at must NOT jump
+        # forward to today, or the posting would forever re-report as new.
+        content_changed_row = dict(existing_row)
+        content_changed_row["region"] = "remote"
+        content_changed_row["posted_at"] = "2026-01-20"
+        content_changed_row["collected_at"] = "2026-01-20T00:00:00Z"
+        content_changed_row["age"] = "0d"
+        with patch.object(fetch, "DATA_OUT", data_out), patch.object(fetch, "NOW_ISO", "2026-01-20T00:00:00Z"), patch.object(fetch, "TODAY", "2026-01-20"), patch.object(fetch, "check_url_alive", return_value=True):
+            fetch.write_outputs([content_changed_row])
+        cc_payload = json.loads((data_out / "jobs-global.json").read_text(encoding="utf-8"))
+        run("write outputs keeps the earliest posted_at when a row's content changes", lambda: check(
+            "posted_at carried forward on content change",
+            cc_payload["jobs"][0]["region"] == "remote"
+            and cc_payload["jobs"][0]["posted_at"] == "2026-01-01"
+            and cc_payload["jobs"][0]["collected_at"] == "2026-01-01T00:00:00Z",
+        ))
+
+    with tempfile.TemporaryDirectory() as tmp:
+        data_out = Path(tmp)
         archived_copy = dict(existing_row)
         archived_copy["closed_at"] = "2026-01-01T00:00:00Z"
         (data_out / "jobs-global.json").write_text(json.dumps({"generated_at": "2026-01-01T00:00:00Z", "total": 0, "jobs": []}, ensure_ascii=False, indent=2), encoding="utf-8")

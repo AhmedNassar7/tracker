@@ -196,6 +196,28 @@ def main():
         and "Cursor" in luma_rows[0]["title"]
     ))
 
+    import datetime as _dt
+    events_yml = "\n".join([
+        "# a comment",
+        "Techne Summit Cairo | Techne | Cairo, Egypt | 2026-09-26 | https://technesummit.com/2026",
+        "Old Fair | Career 180 | Cairo, Egypt | 2026-01-01 | https://example.com/old",
+        "Bad Date Row | X | Y | not-a-date | https://example.com/x",
+        "malformed line without enough fields",
+    ])
+    ev_rows = mod.parse_curated_events(events_yml, _dt.date(2026, 9, 6))
+    run("parse_curated_events keeps upcoming events, drops past ones, tolerates junk", lambda: check(
+        "parse_curated_events",
+        len(ev_rows) == 1
+        and ev_rows[0]["kind"] == "event"
+        and ev_rows[0]["title"] == "Techne Summit Cairo"
+        and ev_rows[0]["company"] == "Techne"
+        and ev_rows[0]["location"] == "Cairo, Egypt"
+        and ev_rows[0]["date"] == "20 days left"
+        and ev_rows[0]["source"] == "curated_events"
+        and mod._deadline_days(ev_rows[0]) == 20,
+        details=str(ev_rows),
+    ))
+
     greenhouse_payload = {
         "jobs": [
             {

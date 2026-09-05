@@ -139,8 +139,35 @@ def main():
         "checksum changes",
         bdr.build_site_index(
             curated_payload,
-            {**public_payload, "jobs": public_payload["jobs"] + [{**public_job, "id": "eeeeeeeeeeeeeeee"}]},
+            {**public_payload, "jobs": public_payload["jobs"] + [
+                {**public_job, "id": "eeeeeeeeeeeeeeee", "url": "https://example.com/gh-distinct"}
+            ]},
         )["checksum"] != index["checksum"],
+    ))
+
+    run("build_site_index drops a cross-layer exact-duplicate job", lambda: check(
+        "cross-layer dedupe",
+        # public_job is the same company/title/url as curated_job? no — give it one.
+        len(bdr.build_site_index(
+            {**curated_payload, "jobs": [curated_job]},
+            {**public_payload, "jobs": [{
+                **public_job, "id": "ffffffffffffffff",
+                "company": curated_job["company"], "title": curated_job["title"],
+                "url": curated_job["url"],
+            }]},
+        )["items"]) == 3,  # 1 job (deduped) + hackathon + event
+    ))
+
+    run("build_site_index prunes a job older than 180 days", lambda: check(
+        "stale prune",
+        all(it["id"] != "0000000000000000" for it in bdr.build_site_index(
+            {**curated_payload, "jobs": [curated_job, {
+                **curated_job, "id": "0000000000000000",
+                "url": "https://example.com/old", "age": "210d",
+                "posted_at": "",
+            }]},
+            {"jobs": [], "hackathons": [], "events": []},
+        )["items"]),
     ))
 
     by_id = {item["id"]: item for item in index["items"]}

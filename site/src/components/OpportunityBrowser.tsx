@@ -24,6 +24,7 @@ import {
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import { companyTier } from "../lib/companyTiers";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
+import Pagination from "./Pagination";
 
 function ageToDays(age: string): number {
   const a = (age || "").trim().toLowerCase();
@@ -75,7 +76,7 @@ export default function OpportunityBrowser() {
   // race the URL-sync effect below into clobbering a real incoming query
   // string with an empty one for one commit before self-correcting.
   const [filters, setFilters] = useState<FilterState>(() => readFiltersFromLocation());
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [page, setPage] = useState(1);
   const [trackedApps, setTrackedApps] = useState<Map<string, TrackedApplication>>(new Map());
   const [newIds, setNewIds] = useState<Set<string>>(new Set());
   const [lastVisitAt, setLastVisitAt] = useState<string | null>(null);
@@ -212,9 +213,12 @@ export default function OpportunityBrowser() {
     window.history.replaceState(null, "", next);
   }, [filters]);
 
+  // Any change that reshuffles or refilters the list sends the reader back
+  // to page 1 — landing on "page 7 of 3" after tightening a filter is
+  // disorienting.
   useEffect(() => {
-    setVisibleCount(PAGE_SIZE);
-  }, [filters]);
+    setPage(1);
+  }, [filters, sortMode, showOnlyNew, prefs]);
 
   const filteredItems = useMemo(() => {
     if (state.status !== "loaded") return [];
@@ -263,15 +267,20 @@ export default function OpportunityBrowser() {
     return items;
   }, [state, filters, showOnlyNew, newIds, prefs, matchActive, sortMode]);
 
+  const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
+  const safePage = Math.min(page, totalPages);
+  const pageStart = (safePage - 1) * PAGE_SIZE;
+  const visibleItems = filteredItems.slice(pageStart, pageStart + PAGE_SIZE);
+
   const reasonsById = useMemo(() => {
     if (!matchActive) return undefined;
     const map = new Map<string, string[]>();
-    for (const item of filteredItems.slice(0, visibleCount)) {
+    for (const item of visibleItems) {
       const r = matchReasons(item, prefs);
       if (r.length > 0) map.set(item.id, r);
     }
     return map;
-  }, [matchActive, filteredItems, visibleCount, prefs]);
+  }, [matchActive, visibleItems, prefs]);
 
   // Country has no fixed enum (curated-layer only, free-form per
   // job-entry.schema.json) — the filter dropdown is populated from
@@ -306,8 +315,13 @@ export default function OpportunityBrowser() {
   }
 
   const { data } = state;
-  const visibleItems = filteredItems.slice(0, visibleCount);
-  const hasMore = visibleCount < filteredItems.length;
+  const rangeStart = filteredItems.length === 0 ? 0 : pageStart + 1;
+  const rangeEnd = pageStart + visibleItems.length;
+
+  const goToPage = (next: number) => {
+    setPage(Math.min(Math.max(1, next), totalPages));
+    if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div>
@@ -421,22 +435,23 @@ export default function OpportunityBrowser() {
         </div>
       ) : (
         <>
+          <div className="mb-2 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+            <span>
+              Showing <strong>{rangeStart.toLocaleString()}</strong>–<strong>{rangeEnd.toLocaleString()}</strong> of{" "}
+              <strong>{filteredItems.length.toLocaleString()}</strong>
+            </span>
+            <span>
+              Page {safePage.toLocaleString()} / {totalPages.toLocaleString()}
+            </span>
+          </div>
           <OpportunityTable
             items={visibleItems}
             trackedIds={trackedIds}
             onToggleTrack={handleToggleTrack}
             matchReasons={reasonsById}
           />
-          {hasMore && (
-            <div className="mt-4 flex justify-center">
-              <button
-                type="button"
-                onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
-                className="rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
-              >
-                Load more ({(filteredItems.length - visibleCount).toLocaleString()} remaining)
-              </button>
-            </div>
+          {totalPages > 1 && (
+            <Pagination page={safePage} totalPages={totalPages} onChange={goToPage} />
           )}
         </>
       )}

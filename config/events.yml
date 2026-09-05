@@ -1,0 +1,30 @@
+# Hand-curated tech / career events — conferences, summits, and career fairs
+# that don't show up in any pollable API the pipeline already has (the
+# hackathon feeds cover Devpost/Unstop/Devfolio; Luma's discover page is
+# scraped separately). This is the same idea as a community-maintained
+# "SWE events" list: a small file a human keeps current.
+#
+# Format (no YAML dependency — the same simple line parsing the other
+# configs use):
+#   Name | Organizer | City, Country | START_DATE | URL
+# START_DATE is ISO YYYY-MM-DD (the first day of the event).
+# Lines starting with '#' and blank lines are ignored.
+#
+# The pipeline shows each event with a countdown ("in 12 days") and, when
+# it can verify a link is dead, drops it. **A past-dated event is hidden
+# automatically** — so for an annual event, just bump its date to next
+# year's edition when it's announced (leave the row here as a reminder).
+# Verify the date and URL against the organizer's own site before editing.
+
+# --- Egypt / MENA ---
+NEXT Summit                | NEXT Summit   | Cairo, Egypt        | 2026-09-12 | https://nextsummit.io/
+Techne Summit Cairo        | Techne        | Cairo, Egypt        | 2026-09-26 | https://technesummit.com/2026
+Techne Summit Alexandria   | Techne        | Alexandria, Egypt   | 2026-10-03 | https://technesummit.com/2026
+GITEX GLOBAL               | KAOUN Int'l   | Dubai, UAE          | 2026-12-07 | https://www.gitex.com/
+RiseUp Summit              | RiseUp        | Cairo, Egypt        | 2027-02-05 | https://riseupsummit.com/
+STEP Conference            | STEP          | Dubai, UAE          | 2027-02-03 | https://stepconference.com/
+LEAP                       | LEAP          | Riyadh, Saudi Arabia| 2027-04-12 | https://onegiantleap.com/
+Egypt Career Summit        | Career 180    | Cairo, Egypt        | 2026-04-03 | https://egyptcareersummit.com/
+
+# --- Global ---
+Web Summit                 | Web Summit    | Lisbon, Portugal    | 2026-11-09 | https://websummit.com/

@@ -518,17 +518,29 @@ def render_data_readme(
     else:
         lines.append("| - | No roles matched this level today. | - | - |")
 
+    def _when(row: dict) -> str:
+        # hackathons/events reach here straight from public_payload (not via
+        # normalize_rows), so the countdown is still under "date".
+        v = (row.get("date") or row.get("age") or "").strip()
+        return v if v else "—"
+
+    def _where(row: dict) -> str:
+        v = clean_cell(row.get("location") or "")
+        return v if v else "—"
+
     lines.extend([
         "",
         "## Hackathons",
         "",
         f"Total hackathons: {len(hackathons)}",
         "",
-        "| Organizer | Hackathon |",
-        "|---|---|",
+        "| Organizer | Hackathon | Location | Closes |",
+        "|---|---|---|---|",
     ])
     for row in hackathons:
-        lines.append(f"| {row['company']} | [{row['title']}]({row['url']}) |")
+        lines.append(
+            f"| {row['company']} | [{row['title']}]({row['url']}) | {_where(row)} | {_when(row)} |"
+        )
 
     lines.extend([
         "",
@@ -536,13 +548,15 @@ def render_data_readme(
         "",
         f"Total events: {len(events)}",
         "",
-        "| Organizer | Event |",
-        "|---|---|",
+        "| Organizer | Event | Location | When |",
+        "|---|---|---|---|",
     ])
     for row in events:
         event_name = simplify_event_name(row.get("title") or "")
         event_url = fix_event_url(row.get("url") or "")
-        lines.append(f"| {row['company']} | [{event_name}]({event_url}) |")
+        lines.append(
+            f"| {row['company']} | [{event_name}]({event_url}) | {_where(row)} | {_when(row)} |"
+        )
 
     boards = boards or []
     if boards:
@@ -730,15 +744,44 @@ def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
     return entry
 
 
+def _dedupe_and_prune_site_jobs(job_items: list[dict]) -> list[dict]:
+    """Two cleanups the raw curated+public concat needs before it's a good
+    site feed:
+
+    1. **Drop cross-layer exact duplicates.** A handful of postings show up
+       identically in both feeds (same company, title, and url); keep the
+       first (curated, which carries category/region/remote_type).
+    2. **Prune stale jobs.** Match the README's own 180-day cut (see
+       filter_stale_jobs) so the site and the generated tables agree on
+       what's live. A job with an unparseable age is kept (can't tell).
+    """
+    seen: set[tuple] = set()
+    out: list[dict] = []
+    for item in job_items:
+        key = (item["company"].strip().lower(),
+               item["title"].strip().lower(),
+               item["url"].strip())
+        if key in seen:
+            continue
+        seen.add(key)
+        days = _age_to_days(item.get("age") or "")
+        if days != 10**9 and days > 180:
+            continue
+        out.append(item)
+    return out
+
+
 def build_site_index(curated_payload: dict, public_payload: dict) -> dict:
     """Flatten both layers' raw records into one site-sized list, reusing the
     payloads main() already loaded rather than re-reading either data file.
     """
-    items: list[dict] = []
+    job_items: list[dict] = []
     for row in curated_payload.get("jobs", []) or []:
-        items.append(_site_index_entry(row, kind="job", origin="curated"))
+        job_items.append(_site_index_entry(row, kind="job", origin="curated"))
     for row in public_payload.get("jobs", []) or []:
-        items.append(_site_index_entry(row, kind="job", origin="public"))
+        job_items.append(_site_index_entry(row, kind="job", origin="public"))
+
+    items: list[dict] = _dedupe_and_prune_site_jobs(job_items)
     for row in public_payload.get("hackathons", []) or []:
         items.append(_site_index_entry(row, kind="hackathon", origin="public"))
     for row in public_payload.get("events", []) or []:

@@ -43,6 +43,7 @@ Widens coverage beyond the allowlist-gated curated layer.
 | Unstop | [API](https://unstop.com/api/public/opportunity/search-result?opportunity=hackathons) · [site](https://unstop.com/hackathons) | Free, keyless, paginated JSON API — 6,000+ hackathons at time of adding, filtered to `oppstatus=recruiting` (still accepting registrations). Complements Devpost rather than duplicating it |
 | Devfolio | [API](https://api.devfolio.co/api/hackathons) · [site](https://devfolio.co/hackathons) | Free, keyless JSON API, strong for Web3/student hackathons Devpost under-covers. Filtered client-side to events whose `ends_at` hasn't passed yet, since the API has no separate "still open" flag |
 | Luma | [luma.com/discover](https://luma.com/discover) | Filtered for tech/software relevance — Luma's discover page is a general community directory, not tech-specific |
+| Curated events | [config/events.yml](config/events.yml) | Hand-maintained list of tech/career events (conferences, summits, career fairs — Techne Summit, RiseUp, GITEX, LEAP, STEP, Web Summit, …) that no pollable API covers. One line each: `Name \| Organizer \| City, Country \| YYYY-MM-DD \| URL`. Past-dated rows drop out automatically |
 
 ## Considered, not added
 

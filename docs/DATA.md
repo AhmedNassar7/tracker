@@ -35,6 +35,7 @@ There is no database. All state is JSON files committed to the repo under [data/
 | Unstop | `unstop.com/api/public/opportunity/search-result?opportunity=hackathons&oppstatus=recruiting&page=N` | Standalone; paginated, filtered to still-recruiting hackathons |
 | Devfolio | `api.devfolio.co/api/hackathons?page=N` | Standalone; filtered client-side to events whose `ends_at` hasn't passed |
 | Luma | `luma.com/discover` (HTML, regex-parsed) | Standalone; filtered by `LUMA_RELEVANT_RE` for tech relevance |
+| Curated events | `config/events.yml` (hand-maintained) | Standalone; `Name \| Organizer \| City, Country \| YYYY-MM-DD \| URL` per line — conferences/summits/career fairs with no pollable API. Past-dated rows are auto-hidden |
 
 All 18 are free-tier, keyless, public endpoints. Full descriptions with rationale live in [SOURCES.md](../SOURCES.md).
 
@@ -117,6 +118,10 @@ Plain YAML, hand-parsed (no PyYAML). Top-level keys are category labels (`faang`
 ### `config/extra_job_boards.yml`
 
 Two sections, `ashby:` and `smartrecruiters:`, each a flat list of board tokens/company slugs. Loaded by `load_extra_job_boards()` in `scripts/public_sources.py`. **Caveat documented in the file itself:** SmartRecruiters' API returns HTTP 200 with an empty result for *any* slug, valid or not — there is no way to verify a guessed token through the API, so entries must be confirmed out-of-band before adding. Ashby's API does 404 on an invalid token and can be verified directly: `curl https://api.ashbyhq.com/posting-api/job-board/<token>`.
+
+### `config/events.yml`
+
+Hand-maintained list of tech / career events (conferences, summits, career fairs) that no pollable API covers. One per line: `Name | Organizer | City, Country | START_DATE | URL`, `START_DATE` in ISO `YYYY-MM-DD`. Loaded by `parse_curated_events()` / `fetch_curated_events()` in `scripts/public_sources.py`, which renders each as a `kind:"event"` row with a live countdown ("in 12 days") and **drops any row whose date is already past** — so for an annual event you just bump the date to next year's edition when it's announced. Verify the date and URL against the organizer's own site before editing (same discipline as `aggregate_links.yml`).
 
 ### `config/job-entry.schema.json` / `config/public-entry.schema.json`
 

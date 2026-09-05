@@ -99,6 +99,18 @@ def write_fetch_outputs(
         else:
             candidate = dict(row)
             changed = True
+            # A content change (retitled, re-detected region, recomputed
+            # category, …) must NOT reset the posting's clock. row_id is
+            # stable while company+title+url are, so carry forward the
+            # earliest posted_at/collected_at we've ever recorded for it —
+            # otherwise a role tracked for weeks keeps re-reporting "0d"
+            # every time some unrelated field shifts, and it never ages.
+            if prev:
+                for date_field in ("posted_at", "collected_at"):
+                    prev_v = (prev.get(date_field) or "").strip()
+                    new_v = (candidate.get(date_field) or "").strip()
+                    if prev_v and (not new_v or prev_v < new_v):
+                        candidate[date_field] = prev_v
         candidates_by_id[row_id] = candidate
 
     # Dead-link checks are one or two HTTP requests each; run them
