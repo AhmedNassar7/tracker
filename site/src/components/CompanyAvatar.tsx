@@ -1,10 +1,15 @@
-// Deliberately not a fetched brand logo (see tracker-website-plan.html §2's
-// "Company logos" section — the obvious approach is guessing a domain via
-// Clearbit's logo API, but that's a guess: a wrong domain either 404s or,
-// worse, silently renders a *different* company's real logo, which breaks
-// the project's no-fabricated-data rule harder than showing nothing would.
-// A generated initials avatar never claims to be an official asset, so it
-// can't misattribute — same reasoning GitHub/Slack default avatars use.
+import { useState } from "react";
+import { logoUrl } from "../lib/companyLogos";
+
+// A company mark that is provably correct or absent — never a guess.
+//
+// If the company's domain is hand-verified (see companyLogos.ts), show its own
+// favicon; if that image fails to load, or there's no verified domain, fall
+// back to a generated initials avatar. The initials avatar never claims to be
+// an official asset, so it can't misattribute — same reasoning GitHub/Slack
+// default avatars use. Fetching a logo by a *guessed* domain is exactly what
+// this component refuses to do: a wrong domain either 404s or, worse, silently
+// renders a different company's real logo.
 
 // A handful of AA-contrast-safe background/text pairs (verified ~7:1+ in
 // both themes) to rotate through, purely for visual variety row-to-row.
@@ -41,6 +46,25 @@ interface Props {
 }
 
 export default function CompanyAvatar({ company }: Props) {
+  const [logoFailed, setLogoFailed] = useState(false);
+  const src = logoFailed ? null : logoUrl(company);
+
+  if (src) {
+    return (
+      <img
+        src={src}
+        alt=""
+        aria-hidden="true"
+        width={28}
+        height={28}
+        loading="lazy"
+        decoding="async"
+        onError={() => setLogoFailed(true)}
+        className="h-7 w-7 shrink-0 rounded-md bg-white object-contain p-0.5 ring-1 ring-slate-200 dark:bg-slate-800 dark:ring-slate-700"
+      />
+    );
+  }
+
   const paletteClass = PALETTE[hashString(company) % PALETTE.length];
   return (
     <span
