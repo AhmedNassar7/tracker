@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T21:14:02Z",
+ "generated_at": "2026-09-05T22:32:43Z",
  "entries": {
   "/buildercommunityanz?k=c": {
    "alive": true,
@@ -2200,6 +2200,10 @@
   "https://boards.greenhouse.io/spacex/jobs/8784865002?gh_jid=8784865002": {
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8784894002?gh_jid=8784894002": {
+   "alive": true,
+   "at": "2026-09-05T22:09:56Z"
   },
   "https://boss-battle.devfolio.co": {
    "alive": true,
@@ -8549,6 +8553,10 @@
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
   },
+  "https://ml-build-challenge-3.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
   "https://muba-hackathon.devfolio.co": {
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
@@ -9033,6 +9041,26 @@
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
   },
+  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Lead-Backend-Software-Engineer_JR356282": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Senior-Manager--Software-Engineering--REMOTE-_JR359006": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Salesforce-DevOps---Senior-Technical-Architect_JR358785": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Senior-Manager--Software-Engineering_JR349577": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Account-Executive---German-Speaking-Markets--Germany--Austria---Switzerland-_JR356720": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
   "https://smu-lit-hackathon-2026.devpost.com/": {
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
@@ -9513,6 +9541,34 @@
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
   },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/BR---Remote---Brazil/Staff-Site-Reliability-Engineer_REF087965W": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer--3---6-years-of-experience-as-a-Full-stack-Developer---Net---Python--React---Angular--GenAI-_REF088040W": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/SG---Singapore/Software-Engineer_REF083221W": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Lead-Software-Engineer---IBM-z-OS---Connex-Advantage-Clearing-and-Settlement_REF082365W": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Staff-Software-Engineer--AI-Solutions_REF087977W-1": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Senior-Director--Visa-Developer-Platform--VDP--Client---Developer-Experience_REF087990W-1": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer_REF069691W-1": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
   "https://volthacks.devpost.com/": {
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
@@ -9524,6 +9580,54 @@
   "https://websummit.com/": {
    "alive": true,
    "at": "2026-09-05T21:14:53Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Principal-Software-Development-Engineer---Senior-Software-Development-Engineer---Full-Stack_JR-0106537": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Senior-Software-Development-Engineer--Front-End----Evisort-AI_JR-0107776": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Software-Development-Engineer--Full-Stack----Evisort-AI--Evergreen-_JR-0109817": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Software-Development-Engineer---Data-Platform_JR-0108934": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Sr-Software-Engineer--Distributed-Systems-_JR-0108932": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/Israel-Tel-Aviv/Sr-Software-Development-Engineer_JR-0104334": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Engineer-Distributed-Systems-_JR-0109643": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer--Full-Stack----Evisort-AI_JR-0108840": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer--Product-Engineering---API-Platform---Agentic-AI_JR-0108225": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CO-Boulder/Software-Development-Engineer_JR-0107838": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Full-Stack-Software-Engineer---Agent-Platform_JR-0107451-1": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
+  },
+  "https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Software-Development-Engineer--SRE--US-Federal-_JR-0108467": {
+   "alive": true,
+   "at": "2026-09-05T22:32:43Z"
   },
   "https://www.amazon.jobs/en/jobs/10370894/software-development-engineer-amazon-devices": {
    "alive": true,

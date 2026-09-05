@@ -284,13 +284,39 @@ def format_age(age_str: str) -> str:
         return f"{years}yrs"
 
 
+# Sources that come from a hand-maintained GitHub README rather than a live
+# company/ATS API. A closed posting only leaves one of these lists when a
+# volunteer edits the file, which can lag by days or weeks — and `check_url_alive`
+# can't always tell (ATS "soft 404s" return HTTP 200). A live-API source is
+# self-cleaning: a closed job simply isn't in the next fetch. So we age these
+# out much sooner, per the user's "if not sure, drop it" preference.
+COMMUNITY_TRACKER_SOURCES = frozenset({
+    "simplify_internships", "simplify_newgrad",
+    "vanshb03_newgrad", "vanshb03_summer_internships",
+    "speedyapply_swe", "speedyapply_ai",
+    "zapplyjobs_internships", "zapplyjobs_newgrad", "zapplyjobs_all_newgrad",
+    "zapplyjobs_canada", "zapplyjobs_canada_internships", "zapplyjobs_datascience",
+    "lorenzolacorte_eu", "hanzili_canada", "ambicuity",
+})
+COMMUNITY_TRACKER_MAX_AGE_DAYS = 30
+LIVE_API_MAX_AGE_DAYS = 180
+
+
+def max_age_days_for_source(source: str) -> int:
+    return (
+        COMMUNITY_TRACKER_MAX_AGE_DAYS
+        if (source or "") in COMMUNITY_TRACKER_SOURCES
+        else LIVE_API_MAX_AGE_DAYS
+    )
+
+
 def filter_stale_jobs(rows: list[dict]) -> list[dict]:
-    """Remove jobs older than 6 months (180 days)."""
+    """Drop jobs past their source's freshness limit (30 days for a
+    hand-maintained community tracker, 180 for a live API). An unparseable
+    age is kept — we can't judge it."""
     filtered: list[dict] = []
     for row in rows:
         age = (row.get("age") or "").strip().lower()
-        
-        # Parse age into days
         if age.endswith("d") and age[:-1].isdigit():
             age_days = int(age[:-1])
         elif age.endswith("mo") and age[:-2].isdigit():
@@ -298,11 +324,10 @@ def filter_stale_jobs(rows: list[dict]) -> list[dict]:
         else:
             filtered.append(row)  # Keep if unparseable
             continue
-        
-        # Keep only jobs <= 180 days old
-        if age_days <= 180:
+
+        if age_days <= max_age_days_for_source(row.get("source")):
             filtered.append(row)
-    
+
     return filtered
 
 
@@ -751,9 +776,11 @@ def _dedupe_and_prune_site_jobs(job_items: list[dict]) -> list[dict]:
     1. **Drop cross-layer exact duplicates.** A handful of postings show up
        identically in both feeds (same company, title, and url); keep the
        first (curated, which carries category/region/remote_type).
-    2. **Prune stale jobs.** Match the README's own 180-day cut (see
-       filter_stale_jobs) so the site and the generated tables agree on
-       what's live. A job with an unparseable age is kept (can't tell).
+    2. **Prune stale jobs.** Same per-source freshness cut as the README
+       (see filter_stale_jobs / max_age_days_for_source) — 30 days for a
+       hand-maintained community tracker, 180 for a live API — so the site
+       and the generated tables agree on what's live. A job with an
+       unparseable age is kept (can't tell).
     """
     seen: set[tuple] = set()
     out: list[dict] = []
@@ -765,7 +792,7 @@ def _dedupe_and_prune_site_jobs(job_items: list[dict]) -> list[dict]:
             continue
         seen.add(key)
         days = _age_to_days(item.get("age") or "")
-        if days != 10**9 and days > 180:
+        if days != 10**9 and days > max_age_days_for_source(item.get("source")):
             continue
         out.append(item)
     return out

@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 21:14:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 22:41:43 GMT</lastBuildDate>
     <item>
       <title>Devfolio — .hack '26</title>
       <link>https://dothack26.devfolio.co</link>
@@ -31,34 +31,6 @@
       <link>https://nexustiq24-careertiq.devfolio.co</link>
       <guid isPermaLink="false">87c7ae7944614ba4</guid>
       <description>Online · last day</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Agent Orchestrator — Syndicate by Maximor</title>
-      <link>https://syndicate-by-maximor.devpost.com/</link>
-      <guid isPermaLink="false">cd94b21915749388</guid>
-      <description>Online · 1 day left</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>CodeBox — CodeBox Hacks</title>
-      <link>https://codebox-hacks.devpost.com/</link>
-      <guid isPermaLink="false">fb89b382f1e278a0</guid>
-      <description>Cal Poly Advanced Technology Lab · 1 day left</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Emerald Parents — EmP Hackfest Summer 2026</title>
-      <link>https://emp-hackfest-summer-2026.devpost.com/</link>
-      <guid isPermaLink="false">6a382bae9743a455</guid>
-      <description>DigiPen Institute of Technology · 1 day left</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Shrimat Koti — Coppell hackathon 1</title>
-      <link>https://fintech-hackothon-1.devpost.com/</link>
-      <guid isPermaLink="false">38c0c0ba6ef4f288</guid>
-      <description>Online · 1 day left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -447,13 +419,6 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>RevenueCat — RevenueCat Shipaton 2026</title>
-      <link>https://revenuecat-shipaton-2026.devpost.com/</link>
-      <guid isPermaLink="false">37b6bc24041cc8fd</guid>
-      <description>Online · 25 days left</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>GatewayGS — GatewayHacks 2026 | Software &amp; AI</title>
       <link>https://gatewayhacks-2026.devpost.com/</link>
       <guid isPermaLink="false">76e2b67237356f88</guid>
@@ -608,6 +573,13 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Agent Orchestrator — Syndicate by Maximor</title>
+      <link>https://syndicate-by-maximor.devpost.com/</link>
+      <guid isPermaLink="false">cd94b21915749388</guid>
+      <description>Online · about 24 hours left</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Build, Ship, Shape: Amazon Developer Hackathon</title>
       <link>https://amazonappdev2026.devpost.com/</link>
       <guid isPermaLink="false">570ae57fd3b08049</guid>
@@ -629,10 +601,17 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>CodeBox — CodeBox Hacks</title>
+      <link>https://codebox-hacks.devpost.com/</link>
+      <guid isPermaLink="false">fb89b382f1e278a0</guid>
+      <description>Cal Poly Advanced Technology Lab · about 22 hours left</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devin — Agentic Hackathon</title>
       <link>https://agentic-hackathon.devpost.com/</link>
       <guid isPermaLink="false">25f83e543aed0dfa</guid>
-      <description>BRAC University · about 22 hours left</description>
+      <description>BRAC University · about 20 hours left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -640,6 +619,13 @@
       <link>https://hack-away-hunger.devpost.com/</link>
       <guid isPermaLink="false">8ce674c48f25ad3e</guid>
       <description>Corteva's Pioneer Shull Building · about 1 month left</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Emerald Parents — EmP Hackfest Summer 2026</title>
+      <link>https://emp-hackfest-summer-2026.devpost.com/</link>
+      <guid isPermaLink="false">6a382bae9743a455</guid>
+      <description>DigiPen Institute of Technology · about 23 hours left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -654,6 +640,13 @@
       <link>https://myhack-isna.devpost.com/</link>
       <guid isPermaLink="false">0aacc6acdc849404</guid>
       <description>Detroit, MI, USA · about 19 hours left</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ML Empowerment Foundation — ML Empowerment Build Challenge</title>
+      <link>https://ml-build-challenge-3.devpost.com/</link>
+      <guid isPermaLink="false">5e6c7192eebc1e39</guid>
+      <description>Online · about 1 month left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -685,10 +678,17 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Shrimat Koti — Coppell hackathon 1</title>
+      <link>https://fintech-hackothon-1.devpost.com/</link>
+      <guid isPermaLink="false">38c0c0ba6ef4f288</guid>
+      <description>Online · about 23 hours left</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>SMU LIT — SMU LIT Legal-Tech Hackathon 2026</title>
       <link>https://smu-lit-hackathon-2026.devpost.com/</link>
       <guid isPermaLink="false">365fa806a5c509d2</guid>
-      <description>Singapore · about 7 hours left</description>
+      <description>Singapore · about 6 hours left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -716,14 +716,14 @@
       <title>Sydney University Experience Designers — SUEDE Designathon 2026</title>
       <link>https://suede-designathon-2026.devpost.com/</link>
       <guid isPermaLink="false">1bdb50e1c25a8963</guid>
-      <description>Wilkinson Building · about 14 hours left</description>
+      <description>Wilkinson Building · about 6 hours left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Women in Tech Unimelb — Code to Connect: Women in Tech Hackathon 2026</title>
       <link>https://code-to-connect-wit.devpost.com/</link>
       <guid isPermaLink="false">a22848c9c17f8c98</guid>
-      <description>Online · about 17 hours left</description>
+      <description>Online · about 16 hours left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>

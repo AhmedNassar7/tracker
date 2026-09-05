@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T21:14:59Z",
+  "updated_at": "2026-09-05T22:41:43Z",
   "retention_days": 90,
   "snapshots": [
     {
@@ -3570,6 +3570,62 @@
         "internship": 163,
         "early_career": 116,
         "mid_level": 3042
+      }
+    },
+    {
+      "at": "2026-09-05T22:35:27Z",
+      "curated_roles": 1084,
+      "public_opportunities": 2656,
+      "jobs_total": 3369,
+      "hackathons_total": 103,
+      "events_total": 10,
+      "total_items": 3482,
+      "level_counts": {
+        "internship": 164,
+        "early_career": 138,
+        "mid_level": 3067
+      }
+    },
+    {
+      "at": "2026-09-05T22:38:01Z",
+      "curated_roles": 1084,
+      "public_opportunities": 2656,
+      "jobs_total": 3355,
+      "hackathons_total": 103,
+      "events_total": 10,
+      "total_items": 3468,
+      "level_counts": {
+        "internship": 154,
+        "early_career": 134,
+        "mid_level": 3067
+      }
+    },
+    {
+      "at": "2026-09-05T22:39:38Z",
+      "curated_roles": 1084,
+      "public_opportunities": 2656,
+      "jobs_total": 3355,
+      "hackathons_total": 103,
+      "events_total": 10,
+      "total_items": 3468,
+      "level_counts": {
+        "internship": 154,
+        "early_career": 134,
+        "mid_level": 3067
+      }
+    },
+    {
+      "at": "2026-09-05T22:41:43Z",
+      "curated_roles": 1084,
+      "public_opportunities": 2656,
+      "jobs_total": 3355,
+      "hackathons_total": 103,
+      "events_total": 10,
+      "total_items": 3468,
+      "level_counts": {
+        "internship": 154,
+        "early_career": 134,
+        "mid_level": 3067
       }
     }
   ]

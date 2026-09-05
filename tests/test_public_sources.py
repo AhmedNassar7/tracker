@@ -405,7 +405,9 @@ def main():
             # comment into the token itself (e.g. "careem  # verified
             # live..."), which then broke the actual API URL at fetch time.
             # This is the regression test for that.
-            "greenhouse:\n  - careem  # Dubai, UAE — verified live 2026-08-18\n\nlever:\n  - somecompany\n",
+            "greenhouse:\n  - careem  # Dubai, UAE — verified live 2026-08-18\n\nlever:\n  - somecompany\n\n"
+            "workday:\n  - Salesforce | salesforce.wd12.myworkdayjobs.com | External_Career_Site  # 527 SWE results\n"
+            "  - bad workday line with no pipes\n",
             encoding="utf-8",
         )
         with patch.object(mod, "ROOT", Path(tmp)):
@@ -418,6 +420,11 @@ def main():
         run("load extra job boards config includes hand-seeded greenhouse/lever", lambda: check(
             "greenhouse/lever sections parsed",
             boards["greenhouse"] == ["careem"] and boards["lever"] == ["somecompany"],
+        ))
+        run("workday section parses 'Company | host | site' triples and skips malformed lines", lambda: check(
+            "workday triples parsed",
+            boards["workday"] == [("Salesforce", "salesforce.wd12.myworkdayjobs.com", "External_Career_Site")],
+            details=str(boards["workday"]),
         ))
         run("an inline '# comment' on a company line doesn't get folded into the token", lambda: check(
             "token is exactly 'careem', not 'careem  # Dubai, UAE — verified live 2026-08-18'",

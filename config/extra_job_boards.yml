@@ -92,3 +92,19 @@ lever:
   - palantir
   - paytm
   - dlocal
+
+workday:
+  # Big global employers whose careers site is Workday but who never get
+  # auto-discovered because no curated source links a *.myworkdayjobs.com URL
+  # for them (their community-tracker rows point at the company's own careers
+  # page instead). Format: "Company Name | host | site" — Workday has no bare
+  # token; each tenant is its own subdomain plus a site path. Verify with:
+  #   curl -s -XPOST -H 'Content-Type: application/json' -d '{"limit":5,"offset":0,"searchText":"software engineer"}' \
+  #     https://<host>/wday/cxs/<tenant>/<site>/jobs
+  # All confirmed live 2026-09-06 with real software-engineer results.
+  - Salesforce | salesforce.wd12.myworkdayjobs.com | External_Career_Site   # 527 SWE results
+  - NVIDIA | nvidia.wd5.myworkdayjobs.com | NVIDIAExternalCareerSite         # 1719 SWE results
+  - Adobe | adobe.wd5.myworkdayjobs.com | external_experienced              # 287 SWE results
+  - Visa | visa.wd5.myworkdayjobs.com | Visa                                # 180 SWE results
+  - Mastercard | mastercard.wd1.myworkdayjobs.com | CorporateCareers        # 325 SWE results
+  - Workday | workday.wd5.myworkdayjobs.com | Workday                       # 153 SWE results

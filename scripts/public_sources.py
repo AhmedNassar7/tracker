@@ -507,21 +507,29 @@ def load_extra_job_boards():
     company tokens from config/extra_job_boards.yml.
 
     Ashby and SmartRecruiters have no discovery mechanism at all, so they're
-    always curated by hand. Greenhouse/Lever normally auto-discover a
+    always curated by hand. Greenhouse/Lever/Workday normally auto-discover a
     company's board the first time one of its postings surfaces through an
     existing curated fetcher (see discover_job_board_sources) — but a
     company that never happens to appear that way (e.g. a MENA-region
     company none of the ~17 curated sources, mostly US/EU-focused, ever
-    mention) stays invisible indefinitely even when its board is sitting
-    right there, publicly pollable. These two sections are the manual
-    escape hatch for exactly that case — verified live before adding, same
-    discipline as Ashby tokens (curl the board URL and confirm real
-    postings, not just a 200).
+    mention; or a big Workday employer whose community-tracker rows link to
+    its own careers page, never a *.myworkdayjobs.com URL) stays invisible
+    indefinitely even when its board is sitting right there, publicly
+    pollable. These sections are the manual escape hatch for exactly that
+    case — verified live before adding, same discipline as Ashby tokens
+    (curl the board URL and confirm real postings, not just a 200). The
+    workday: section takes "Company Name | host | site" per line (Workday
+    has no bare token — each tenant is a subdomain plus a site path).
     Parsed with simple line matching (no YAML dependency), same approach as
     the company allowlist loader in fetch.py.
     """
     path = ROOT / "config" / "extra_job_boards.yml"
-    boards = {"ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": []}
+    # ashby/smartrecruiters/greenhouse/lever entries are a bare board token;
+    # workday needs three fields (Workday has no single "token" — each tenant
+    # gets its own subdomain *and* a site path), so those lines are
+    # "Company Name | host | site" and land in `boards["workday"]` as
+    # (company, host, site) tuples.
+    boards = {"ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [], "workday": []}
     if not path.exists():
         return boards
     section = None
@@ -542,7 +550,15 @@ def load_extra_job_boards():
                 continue
             if stripped.startswith("-") and section in boards:
                 token = stripped.lstrip("- ").strip()
-                if token:
+                if not token:
+                    continue
+                if section == "workday":
+                    parts = [p.strip() for p in token.split("|")]
+                    if len(parts) == 3 and all(parts):
+                        boards["workday"].append((parts[0], parts[1], parts[2]))
+                    else:
+                        log_warn(f"extra_job_boards.yml: bad workday line {token!r} (need 'Company | host | site')")
+                else:
                     boards[section].append(token)
     except Exception as exc:
         log_warn(f"Failed to load extra job boards config: {exc}")
@@ -976,6 +992,13 @@ def main():
         greenhouse.setdefault(token, prettify_company_name(token.replace("-", " ")))
     for token in extra_boards["lever"]:
         lever.setdefault(token, prettify_company_name(token.replace("-", " ")))
+    # Workday can't be auto-discovered for a company none of the curated
+    # sources link to a *myworkdayjobs.com* URL for (they link to the
+    # company's own careers page instead). Hand-seeded "Company | host | site"
+    # rows fill that gap — big global employers on Workday: Salesforce,
+    # NVIDIA, Adobe, Visa, Mastercard, Workday itself, …
+    for company, host, site in extra_boards["workday"]:
+        workday.setdefault((host, site), company)
 
     log_info(
         f"Discovered {len(greenhouse)} Greenhouse boards, {len(lever)} Lever boards, "
