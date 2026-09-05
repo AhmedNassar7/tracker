@@ -1,6 +1,10 @@
 {
- "generated_at": "2026-09-05T22:32:43Z",
+ "generated_at": "2026-09-05T22:56:39Z",
  "entries": {
+  "/DC2?k=c": {
+   "alive": true,
+   "at": "2026-09-05T22:56:39Z"
+  },
   "/buildercommunityanz?k=c": {
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
@@ -24,6 +28,10 @@
   "/sf-hardware-meetup?k=c": {
    "alive": true,
    "at": "2026-09-05T21:14:02Z"
+  },
+  "/stationdc?k=c": {
+   "alive": true,
+   "at": "2026-09-05T22:56:39Z"
   },
   "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008": {
    "alive": true,
@@ -8337,6 +8345,14 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://joinbytedance.com/search/7667685712993650997": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
+  "https://joinbytedance.com/search/7667726338627356933": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://joinbytedance.com/search/7668212952030841093?utm_source=github-vansh-ouckah": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
@@ -8353,9 +8369,21 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://joinbytedance.com/search/7668475133954197765": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://joinbytedance.com/search/7668636404159858997": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://joinbytedance.com/search/7670004502598060341": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
+  "https://joinbytedance.com/search/7670009669494704437": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://joinbytedance.com/search/7670009669494704437?utm_source=github-vansh-ouckah": {
    "alive": true,
@@ -8368,6 +8396,10 @@
   "https://joinbytedance.com/search/7672382828525832501": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://joinbytedance.com/search/7672392998231050549": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://joinbytedance.com/search/7672922352988342533": {
    "alive": true,
@@ -9709,6 +9741,10 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://www.amazon.jobs/en/jobs/10386314/software-development-engineer-ii-devices-sales-customer-experience": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://www.amazon.jobs/en/jobs/10386342/software-development-engineer-aws": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
@@ -9812,6 +9848,10 @@
   "https://www.amazon.jobs/en/jobs/10409008/software-development-engineer-silicon-development-infrastructure": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10409024/software-development-engineer-transactional-services-database-distributed-systems": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10410006/software-development-engineer-ii-onroad-transporter-experience": {
    "alive": true,
@@ -9924,6 +9964,10 @@
   "https://www.amazon.jobs/en/jobs/10419477/software-development-engineer-ii-sales-abuse-prevention": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10419792/software-development-engineer-shopping-personalization-ai-amazon-stores": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10420500/software-development-engineer-agentic-commerce-buy-for-me": {
    "alive": true,
@@ -10245,6 +10289,10 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://www.amazon.jobs/en/jobs/10441311/software-development-engineer-aws-iam-distributed-database-system": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://www.amazon.jobs/en/jobs/10441359/software-development-engineer-amazon-customer-service": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
@@ -10296,6 +10344,10 @@
   "https://www.amazon.jobs/en/jobs/10445231/software-development-engineer-aurora-dsql": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10445310/software-development-engineer-ii-aws-transform-aws-transform": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10445626/software-development-engineer-iii-selling-partner-identity-verification": {
    "alive": true,
@@ -10385,6 +10437,10 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://www.amazon.jobs/en/jobs/10452688/software-development-engineer-us-amazon-dedicated-cloud-security": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://www.amazon.jobs/en/jobs/10452825/software-development-engineer-amazon-robotics": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
@@ -10400,6 +10456,10 @@
   "https://www.amazon.jobs/en/jobs/10453199/software-development-engineer-ii-rds-telemetry-platform": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10453226/software-development-engineer-amazon-business-payments-and-lending": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10453308/software-development-engineer-glacier": {
    "alive": true,
@@ -10740,6 +10800,10 @@
   "https://www.amazon.jobs/en/jobs/10473738/software-development-engineer-aws-cloudwatch": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10474474/software-development-engineer-ii-ec2-infrastructure-foundational-services": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10474476/software-development-engineer-ii-ec2-infrastructure-foundational-services": {
    "alive": true,
@@ -11133,6 +11197,10 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://www.amazon.jobs/en/jobs/10487609/software-development-engineer-amazon-publisher-monetization-video-ads": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://www.amazon.jobs/en/jobs/10487617/software-development-engineer-fulfillment-planning-and-execution": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
@@ -11240,6 +11308,10 @@
   "https://www.amazon.jobs/en/jobs/10489794/software-development-engineer-iii-adbl192": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10489852/software-development-engineer-ii-amazon-music-automotive-team": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10489940/software-development-engineer-ii-customer-experience-infrastructure-cxi": {
    "alive": true,
@@ -11733,6 +11805,10 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://www.amazon.jobs/en/jobs/10500349/software-development-engineer-ii-selling-partner-identity-verification": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://www.amazon.jobs/en/jobs/10500379/software-development-engineer-network-fabric-engineering-mona": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
@@ -11809,6 +11885,14 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://www.amazon.jobs/en/jobs/10501875/software-development-engineer-early-career-2027-device-shenzhen": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10502055/software-development-engineer-ii-amazon-cross-border-tech": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://www.amazon.jobs/en/jobs/10502322/software-development-engineer-agentic-ai": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
@@ -11884,6 +11968,10 @@
   "https://www.amazon.jobs/en/jobs/10503862/software-development-engineer-security-automation-aws-security-epoxy": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10503864/software-development-engineer-security-automation-aws-security-epoxy": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10503889/software-development-engineer-security-automation-aws-security-epoxy": {
    "alive": true,
@@ -11992,6 +12080,10 @@
   "https://www.amazon.jobs/en/jobs/10506328/software-development-engineer-amazon-publisher-services": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10506985/software-development-engineer-ii-aws-eks-aws-eks": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10507067/software-development-engineer-ii-alexa-audio": {
    "alive": true,
@@ -12129,6 +12221,10 @@
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
   },
+  "https://www.amazon.jobs/en/jobs/10510500/software-development-engineer-aws-simple-queue-service-sqs": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
+  },
   "https://www.amazon.jobs/en/jobs/10510501/software-development-engineer-aws-simple-queue-service-sqs": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
@@ -12156,6 +12252,10 @@
   "https://www.amazon.jobs/en/jobs/10510890/software-development-engineer-amazon-autos": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10511019/software-development-engineer-ii-network-device-lifecycle-management": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10511479/software-development-engineer-amazon-optics": {
    "alive": true,
@@ -12244,6 +12344,10 @@
   "https://www.amazon.jobs/en/jobs/10513880/software-development-engineer-ec2-networking-vpc-core": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10514163/software-development-engineer-ii-amazon-leo-fulfillment-technology": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10514216/software-development-engineer-ii-aws-activate": {
    "alive": true,
@@ -12456,6 +12560,10 @@
   "https://www.amazon.jobs/en/jobs/10520510/software-development-engineer-cloudwatch-agent-observability": {
    "alive": true,
    "at": "2026-09-05T20:23:22Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10520555/software-development-engineer-unified-streaming-and-monitoring-service": {
+   "alive": true,
+   "at": "2026-09-05T22:56:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10521241/software-development-engineer-ii-aws-lambda": {
    "alive": true,
