@@ -116,6 +116,10 @@ def normalize_rows(rows: list[dict], origin: str) -> list[dict]:
                 "source": row.get("source") or "",
                 "posted_at": row.get("posted_at") or "",
                 "kind": row.get("kind") or "job",
+                # Allowlist tier (curated rows only) — drives the tier-first
+                # ordering in sort_jobs so FAANG/big-tech surface above a
+                # same-age role at a less-known company.
+                "category": row.get("category") or "",
             }
         )
     return normalized
@@ -129,6 +133,17 @@ def level_bucket(level: str) -> str:
     return "mid_level"
 
 
+# Company-tier order for the README tables — mirrors CATEGORY_RANK in
+# scripts/fetch.py (the allowlist section order). Uncategorised rows (all
+# public-layer jobs) sort after every tiered company.
+CATEGORY_RANK = {
+    "faang": 0, "microsoft_group": 1, "big_tech": 2, "cloud_infra": 3,
+    "product_saas": 4, "ai_research": 5, "fintech": 6, "ride_delivery": 7,
+    "consulting_finance": 8, "apac_tech": 9, "latam_tech": 10,
+    "mena_africa_tech": 11, "more_global_tech": 12,
+}
+
+
 def sort_jobs(rows: list[dict]) -> list[dict]:
     def key(row: dict) -> tuple:
         age = (row.get("age") or "").strip().lower()
@@ -138,7 +153,8 @@ def sort_jobs(rows: list[dict]) -> list[dict]:
             age_days = int(age[:-2]) * 30
         else:
             age_days = 10**9
-        return (age_days, (row.get("company") or "").lower(), (row.get("title") or "").lower())
+        tier = CATEGORY_RANK.get(row.get("category") or "", 50)
+        return (age_days, tier, (row.get("company") or "").lower(), (row.get("title") or "").lower())
 
     return sorted(rows, key=key)
 

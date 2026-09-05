@@ -37,7 +37,7 @@ from simplify_jobs_parser import (
     parse_simplify_entries,
 )
 from community_board_parser import parse_job_table
-from company_names import prettify_company_name
+from company_names import prettify_company_name, smart_title_case
 from fetch_outputs import write_fetch_outputs
 from net import check_url_alive, fetch_with_retry, find_dead_links, run_and_collect
 
@@ -136,6 +136,25 @@ SENIOR_TITLE_RE = re.compile(
 
 COUNTRY_MARK_MAP = FETCH_COUNTRY_MARK_MAP
 
+# Display/sort priority for the allowlist's own section order — lower ranks
+# first. Any category not listed (or an uncategorised public-layer row) sorts
+# after all of these.
+CATEGORY_RANK = {
+    "faang": 0,
+    "microsoft_group": 1,
+    "big_tech": 2,
+    "cloud_infra": 3,
+    "product_saas": 4,
+    "ai_research": 5,
+    "fintech": 6,
+    "ride_delivery": 7,
+    "consulting_finance": 8,
+    "apac_tech": 9,
+    "latam_tech": 10,
+    "mena_africa_tech": 11,
+    "more_global_tech": 12,
+}
+
 # Utility functions
 def make_id(company, title, url):
     raw = f"{company.lower()}|{title.lower()}|{url}"
@@ -225,7 +244,13 @@ def _job_sort_key(row):
     except Exception:
         posted_sort = 0
 
-    return (age_days, posted_sort, (row.get("company") or "").lower(), (row.get("title") or "").lower())
+    # Within the same freshness bucket, order by company tier (FAANG first,
+    # then big-tech, cloud, ...) rather than plain alphabetical, so the
+    # best-known names surface first. Tier comes from which section of
+    # config/companies_allowlist.yml matched (see ALLOWLIST_CATEGORY_BY_NAME).
+    tier = CATEGORY_RANK.get(row.get("category") or "", 50)
+
+    return (age_days, posted_sort, tier, (row.get("company") or "").lower(), (row.get("title") or "").lower())
 
 def is_allowed_company(company):
     """Return the matched allowlist category (e.g. 'faang', 'big_tech') if
@@ -273,15 +298,21 @@ def fetch_url(url, dest, timeout=25):
         return False
 
 def normalize(company, title, location, url, posted_at, source, source_url, age="", location_details=None):
+    # smart_title_case only fires on an all-lowercase string (a low-quality
+    # scraped value like LorenzoLaCorte's "berlin, germany"); a properly-cased
+    # title/location from any other source passes through untouched. Detection
+    # regexes below all run case-insensitively, so casing the display value
+    # doesn't change level/region/country/remote_type, and make_id lowercases
+    # its inputs so the row id is unchanged either.
     return {
         "id": make_id(company, title, url),
         "company": clean_company(company),
-        "title": title.strip(),
+        "title": smart_title_case(title.strip()),
         "level": detect_level(title),
         "region": detect_region(location),
         "role_type": detect_role_type(title),
         "country": detect_country(location),
-        "location": location.strip(),
+        "location": smart_title_case(location.strip()),
         "remote_type": detect_remote_type(location),
         "url": url.strip(),
         "source": source,

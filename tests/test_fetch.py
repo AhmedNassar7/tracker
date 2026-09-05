@@ -180,15 +180,22 @@ def main():
             fetch.check_url_alive(_li_url) is True,
         ))
 
-    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"   ")):
-        run("check_url_alive assumes alive when LinkedIn serves an empty fragment", lambda: check(
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"   ")), patch("time.sleep", return_value=None):
+        run("check_url_alive treats an unresolvable LinkedIn fragment as dead (low-trust source)", lambda: check(
             "check_url_alive empty LinkedIn fragment",
-            fetch.check_url_alive(_li_url) is True,
+            fetch.check_url_alive(_li_url) is False,
         ))
 
     with patch("urllib.request.urlopen", side_effect=urllib.error.HTTPError("u", 404, "Not Found", {}, None)):
         run("check_url_alive treats a 404 LinkedIn guest posting as dead", lambda: check(
             "check_url_alive 404 LinkedIn",
+            fetch.check_url_alive(_li_url) is False,
+        ))
+
+    # A bot-block (429) that never clears, then treated as dead after retries.
+    with patch("urllib.request.urlopen", side_effect=urllib.error.HTTPError("u", 429, "Too Many", {}, None)), patch("time.sleep", return_value=None):
+        run("check_url_alive treats a persistently rate-limited LinkedIn check as dead", lambda: check(
+            "check_url_alive 429 LinkedIn",
             fetch.check_url_alive(_li_url) is False,
         ))
 
@@ -456,6 +463,27 @@ def main():
         and fetch.prettify_company_name("scaleai") == "Scale AI"
         and fetch.prettify_company_name("amazon web services (aws)") == "Amazon Web Services"
         and fetch.prettify_company_name("Stripe") == "Stripe",
+    ))
+
+    run("smart_title_case caps an all-lowercase title/location but leaves cased text alone", lambda: check(
+        "smart_title_case",
+        fetch.smart_title_case("software dev engineer intern, amazon robotics")
+        == "Software Dev Engineer Intern, Amazon Robotics"
+        and fetch.smart_title_case("berlin, germany") == "Berlin, Germany"
+        and fetch.smart_title_case("Senior Software Engineer") == "Senior Software Engineer"
+        and fetch.smart_title_case("ios developer") == "iOS Developer",
+    ))
+
+    run("_job_sort_key orders same-age rows by company tier, not alphabetically", lambda: check(
+        "job sort tier",
+        [r["company"] for r in sorted(
+            [
+                {"company": "Zoom", "title": "SWE", "age": "0d", "category": "product_saas"},
+                {"company": "Acme", "title": "SWE", "age": "0d", "category": ""},
+                {"company": "Apple", "title": "SWE", "age": "0d", "category": "faang"},
+            ],
+            key=fetch._job_sort_key,
+        )] == ["Apple", "Zoom", "Acme"],
     ))
 
     # LorenzoLaCorte-style table: lowercase company/title, a trailing empty

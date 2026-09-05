@@ -77,7 +77,10 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack, mat
               </td>
               <td className="px-3 py-2 font-medium text-slate-900 dark:text-slate-100">
                 <div className="flex items-center gap-2">
-                  <CompanyAvatar company={company} />
+                  <CompanyAvatar
+                    company={company}
+                    fallbackUrl={item.kind === "job" ? undefined : item.url}
+                  />
                   <span>{company}</span>
                 </div>
               </td>

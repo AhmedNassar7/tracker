@@ -64,8 +64,13 @@ CANONICAL = {
 }
 
 # Sub-tokens that should be upper-cased wherever they appear as a whole word
-# ("... AI", "... ML", "... QA").
-_ACRONYM_WORDS = {"ai": "AI", "ml": "ML", "qa": "QA", "ui": "UI", "ux": "UX", "hr": "HR"}
+# ("... AI", "... ML", "... QA"). Kept small and unambiguous.
+_ACRONYM_WORDS = {
+    "ai": "AI", "ml": "ML", "qa": "QA", "ui": "UI", "ux": "UX", "hr": "HR",
+    "aws": "AWS", "gcp": "GCP", "api": "API", "sdk": "SDK", "sql": "SQL",
+    "ios": "iOS", "sre": "SRE", "nlp": "NLP", "llm": "LLM", "gpu": "GPU",
+    "ci": "CI", "cd": "CD", "it": "IT", "qa/qc": "QA/QC",
+}
 
 
 def _key(value: str) -> str:
@@ -85,6 +90,10 @@ def _title_token(token: str) -> str:
     low = token.lower()
     if low in _ACRONYM_WORDS:
         return _ACRONYM_WORDS[low]
+    # Same, but with surrounding punctuation kept ("ml," -> "ML,", "(ai)" -> "(AI)").
+    core = token.strip(".,:;!?()[]{}'\"")
+    if core and core.lower() in _ACRONYM_WORDS:
+        return token.replace(core, _ACRONYM_WORDS[core.lower()], 1)
     if any(ch.isdigit() for ch in token):
         return token
     if token.isupper() and len(token) <= 4:
@@ -123,3 +132,36 @@ def prettify_company_name(raw: str) -> str:
         return collapsed
 
     return " ".join(_title_token(tok) for tok in without_paren.split(" "))
+
+
+# Filler words that stay lower-case mid-phrase in a title-cased string
+# ("Software Engineer for the Ads Team"), but are still capitalized if they
+# lead the string.
+_TITLE_MINOR_WORDS = {
+    "a", "an", "and", "as", "at", "but", "by", "for", "in", "of", "on", "or",
+    "the", "to", "vs", "via", "with", "nor", "per",
+}
+
+
+def smart_title_case(text: str) -> str:
+    """Title-case `text` ONLY when it arrives entirely lower-case — a
+    low-quality scraped value like "software dev engineer intern, amazon
+    robotics" or "berlin, germany". A string with any existing capital is
+    left as-is (its source already cased it). Acronyms (_ACRONYM_WORDS) and
+    digit-bearing tokens are preserved; short filler words stay lower unless
+    they lead the string. Idempotent on already-cased input.
+    """
+    if not text or not text.strip():
+        return text
+    collapsed = re.sub(r"\s+", " ", text).strip()
+    if collapsed != collapsed.lower():
+        return collapsed
+    words = collapsed.split(" ")
+    out = []
+    for idx, tok in enumerate(words):
+        bare = tok.strip(".,:;()[]{}'\"").lower()
+        if idx > 0 and bare in _TITLE_MINOR_WORDS:
+            out.append(tok.lower())
+        else:
+            out.append(_title_token(tok))
+    return " ".join(out)

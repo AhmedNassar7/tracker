@@ -49,7 +49,7 @@ flowchart LR
 
 **Soft-404 and bot-blocked exceptions (all hand-verified):** three sites can't be judged by status code alone, so `check_url_alive` special-cases them:
 - **`_SOFT_404_RULES`** — a URL-regex → dead/alive-marker table. `google.com/about/careers/.../results/*` is dead when its `og:title` is empty; `jobs.apple.com/*/details/*` and `joinbytedance.com/search/*` are dead when a server-rendered `og:title` is *absent* entirely (a live posting always has one, an expired one falls back to a generic shell). Add a rule only after confirming the marker by hand against real live-vs-expired pages.
-- **LinkedIn** — `linkedin.com/jobs/view/<id>` apply links (e.g. the whole `lorenzolacorte_eu` feed) are bot-blocked on the page itself, so `check_url_alive` fetches LinkedIn's unauthenticated guest fragment instead and treats "No longer accepting applications" / a 404 as dead.
+- **LinkedIn** — `linkedin.com/jobs/view/<id>` apply links (e.g. the whole `lorenzolacorte_eu` feed) are bot-blocked on the page itself, so `check_url_alive` fetches LinkedIn's unauthenticated guest fragment instead. It treats "No longer accepting applications" / a 404 as dead — and, unlike every other case, an *inconclusive* read (bot-block, empty fragment, timeout) after 3 retries also resolves to **dead**, not alive. LinkedIn scraped links are the lowest-trust input and go stale within days; a curated-layer archive is reversible, so the row returns automatically once LinkedIn answers again.
 
 ```mermaid
 flowchart TD
@@ -130,7 +130,7 @@ flowchart LR
 
 **Where it lives:** [scripts/build_data_readme.py](../scripts/build_data_readme.py) — `render_root_readme()`, `render_data_readme()`, plus helpers `level_bucket`, `filter_stale_jobs`, `format_age`, `table_rows`, `badge`.
 
-**How it works:** Loads `jobs-global.json` + `public-opportunities.json`, normalizes both into one shared row shape (tagging origin as `curated` or `public`), buckets every job into `internship` / `early_career` / `mid_level` via `level_bucket()`, drops anything older than 180 days via `filter_stale_jobs()`, sorts by age, then renders two Markdown files: a lean root `README.md` (badges + snapshot counts + links) and the full `data/README.md` (every job table, hackathons, events, source-file index). Both files carry an explicit "generated — don't hand-edit" notice.
+**How it works:** Loads `jobs-global.json` + `public-opportunities.json`, normalizes both into one shared row shape (tagging origin as `curated` or `public`), buckets every job into `internship` / `early_career` / `mid_level` via `level_bucket()`, drops anything older than 180 days via `filter_stale_jobs()`, sorts by age **then company tier** (FAANG → big-tech → cloud → … from the allowlist section order — `CATEGORY_RANK`, mirrored in `scripts/fetch.py`; uncategorised public-layer rows sort last), then renders two Markdown files: a lean root `README.md` (badges + snapshot counts + links) and the full `data/README.md` (every job table, hackathons, events, plus a **Browse Every Role** section and the source-file index). Both files carry an explicit "generated — don't hand-edit" notice. Titles/locations that a source hands over in all-lowercase (e.g. LorenzoLaCorte's LinkedIn scrape) are title-cased by `smart_title_case()` in `scripts/company_names.py` — acronyms and already-cased strings are left alone.
 
 ```mermaid
 flowchart TD
@@ -138,7 +138,7 @@ flowchart TD
     PJ["public-opportunities.json\n(public jobs/hackathons/events)"] --> Merge
     Merge --> Bucket["level_bucket()\ninternship / early_career / mid_level"]
     Bucket --> Stale["filter_stale_jobs()\ndrop postings > 180d old"]
-    Stale --> Sort["sort_jobs()\nby age, then company, then title"]
+    Stale --> Sort["sort_jobs()\nby age, then company tier, then name"]
     Sort --> Render1["render_data_readme()"]
     Sort --> Render2["render_root_readme()"]
     Render1 --> DataReadme["data/README.md"]
@@ -159,4 +159,4 @@ flowchart TD
 
 **Where it lives:** `site/` (Astro + React islands, deployed separately, reads `site-index.json` / `stats-history.json` from jsDelivr at runtime so it's ≤1h stale without redeploying).
 
-**How it works:** `OpportunityBrowser.tsx` is the main island — a `SnapshotHero` (live count, freshness, four one-tap shortcut chips), a collapsible `PreferencesPanel` (level/region/work-type/keywords/hide-company, stored in `localStorage`, never uploaded), a **Newest / Best match** sort (Best match ranks by `scoreOpportunity()` in `lib/preferences.ts` and shows "why it matched" chips), the `FilterBar`, and `OpportunityTable` (per-kind columns; `CompanyAvatar` shows a real favicon only for companies whose domain is hand-verified in `lib/companyLogos.ts`, else generated initials — never a guessed logo). `<ClientRouter />` gives native cross-page view transitions.
+**How it works:** `OpportunityBrowser.tsx` is the main island — a `SnapshotHero` (live count, freshness, four one-tap shortcut chips), a collapsible `PreferencesPanel` (level/region/work-type/keywords/hide-company, stored in `localStorage`, never uploaded), a **Newest / Best match** sort (Best match ranks by `scoreOpportunity()` in `lib/preferences.ts` and shows "why it matched" chips), the `FilterBar`, and `OpportunityTable` (per-kind columns; `CompanyAvatar` shows a real favicon only for companies whose domain is hand-verified in `lib/companyLogos.ts` — for hackathon/event rows it instead derives the favicon from the row's own organiser URL, which can't be the wrong entity — else generated initials, never a guessed logo). Saved searches (`lib/savedSearches.ts`) persist named filter combos as chips. `<ClientRouter />` gives native cross-page view transitions.

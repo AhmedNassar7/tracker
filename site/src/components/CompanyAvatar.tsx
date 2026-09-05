@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { logoUrl } from "../lib/companyLogos";
+import { faviconForUrl, logoUrl } from "../lib/companyLogos";
 
 // A company mark that is provably correct or absent — never a guess.
 //
@@ -43,11 +43,17 @@ function initialsFor(name: string): string {
 
 interface Props {
   company: string;
+  // For hackathon/event rows only: the organiser's own page URL, used to
+  // derive a favicon when the company name has no verified domain. Never
+  // pass a job's URL here (it points at an ATS, not the employer).
+  fallbackUrl?: string;
 }
 
-export default function CompanyAvatar({ company }: Props) {
+export default function CompanyAvatar({ company, fallbackUrl }: Props) {
   const [logoFailed, setLogoFailed] = useState(false);
-  const src = logoFailed ? null : logoUrl(company);
+  const src = logoFailed
+    ? null
+    : logoUrl(company) ?? (fallbackUrl ? faviconForUrl(fallbackUrl) : null);
 
   if (src) {
     return (

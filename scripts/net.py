@@ -164,28 +164,45 @@ def _linkedin_job_id(url):
     return match.group(1) if match else None
 
 
-def _linkedin_posting_alive(job_id, timeout):
-    """Best-effort liveness for a linkedin.com/jobs/view/<id> apply link via
-    the unauthenticated guest fragment. Returns False only on a clear signal
-    (the closed marker, or a 404/410); anything else — a bot-block, an empty
-    body, a timeout — stays True, matching check_url_alive's "can't tell,
-    assume alive" contract.
+def _linkedin_posting_alive(job_id, timeout, attempts=3):
+    """Liveness for a linkedin.com/jobs/view/<id> apply link via the
+    unauthenticated guest fragment.
+
+    Unlike check_url_alive's global "can't tell -> assume alive" default,
+    an inconclusive read here (bot-block, empty fragment, timeout — even
+    after `attempts` retries) resolves to **dead**. Rationale: LinkedIn
+    scraped links (the entire lorenzolacorte_eu feed) are the lowest-trust
+    input in the pipeline and go stale within days, LinkedIn aggressively
+    rate-limits a burst of guest-API calls from one IP, and a curated-layer
+    archive is fully reversible — the row comes straight back on a later run
+    once LinkedIn answers. Publishing a "No longer accepting applications"
+    page one more time is the worse outcome. A clean fragment with no closed
+    marker is still trusted as live.
     """
-    req = urllib.request.Request(
-        _LINKEDIN_GUEST_JOB_URL.format(job_id=job_id),
-        headers={"User-Agent": _BROWSER_UA, "Accept": "text/html"},
-        method="GET",
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            body = response.read(_LINKEDIN_GUEST_BODY_CAP).decode("utf-8", errors="replace")
-    except urllib.error.HTTPError as e:
-        return e.code not in (404, 410)
-    except Exception:
-        return True
-    if not body.strip():
-        return True  # LinkedIn served an empty fragment — no signal either way
-    return _LINKEDIN_CLOSED_MARKER not in body.lower()
+    for attempt in range(attempts):
+        req = urllib.request.Request(
+            _LINKEDIN_GUEST_JOB_URL.format(job_id=job_id),
+            headers={"User-Agent": _BROWSER_UA, "Accept": "text/html"},
+            method="GET",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                body = response.read(_LINKEDIN_GUEST_BODY_CAP).decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):
+                return False
+            # 429 / 999 bot-block — back off and retry
+        except Exception:
+            pass  # timeout / connection reset — back off and retry
+        else:
+            if _LINKEDIN_CLOSED_MARKER in body.lower():
+                return False
+            if body.strip():
+                return True  # real fragment, no closed marker -> live
+            # empty fragment -> fall through to retry
+        if attempt < attempts - 1:
+            time.sleep(0.7 * (attempt + 1))
+    return False  # never got a conclusive "alive" read -> treat as dead
 
 
 def check_url_alive(url, timeout=8):
