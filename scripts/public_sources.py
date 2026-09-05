@@ -888,6 +888,9 @@ def write_outputs(rows):
         log_info=log_info,
         log_error=log_error,
         check_url_alive=check_url_alive,
+        # Shared with fetch.py's run — a URL it just confirmed alive doesn't
+        # need re-checking here a minute later.
+        link_cache_path=DATA_OUT / "link-cache.json",
     )
 
 def main():

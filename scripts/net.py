@@ -3,12 +3,15 @@
 """
 
 import concurrent.futures
+import datetime
+import json
 import math
 import re
 import time
 import traceback
 import urllib.error
 import urllib.request
+from pathlib import Path
 
 # 429 (rate limited) and 5xx (server-side) are worth a backoff-and-retry;
 # 4xx otherwise (404, 403, ...) are conclusive answers, not transient.
@@ -205,7 +208,7 @@ def _linkedin_posting_alive(job_id, timeout, attempts=3):
     return False  # never got a conclusive "alive" read -> treat as dead
 
 
-def check_url_alive(url, timeout=8):
+def check_url_alive(url, timeout=6):
     """Best-effort liveness check for a posting's apply link. Shared by both
     collector layers — originally curated-only (fetch.py), now also used by
     the public layer (public_outputs.py), since a Greenhouse/Lever/Workday/
@@ -261,6 +264,94 @@ def check_url_alive(url, timeout=8):
         except Exception:
             return True
     return True
+
+
+# ---------------------------------------------------------------------------
+# Persistent link-liveness cache
+#
+# The hourly run re-verifies every published apply URL, but the vast majority
+# were confirmed alive an hour ago and haven't changed. Caching a positive
+# result for a short window turns "check ~3000 URLs" into "check the few
+# hundred that are new or whose cache entry expired" — the single biggest
+# lever on wall-clock time. Only *alive* results are cached (a dead/unknown
+# link is always re-checked, so a fixed posting recovers on the next run and
+# a stale cache can never keep a dead link published).
+# ---------------------------------------------------------------------------
+
+LINK_CACHE_TTL_HOURS = 12
+LINK_CACHE_PRUNE_DAYS = 7
+_ISO_FMT = "%Y-%m-%dT%H:%M:%SZ"
+
+
+def _parse_iso(value):
+    return datetime.datetime.strptime(value, _ISO_FMT).replace(tzinfo=datetime.timezone.utc)
+
+
+def load_link_cache(path):
+    try:
+        data = json.loads(Path(path).read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    entries = data.get("entries") if isinstance(data, dict) else None
+    return entries if isinstance(entries, dict) else {}
+
+
+def save_link_cache(path, entries, now_iso):
+    try:
+        payload = {"generated_at": now_iso, "entries": dict(sorted(entries.items()))}
+        Path(path).write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception:
+        pass
+
+
+def resolve_link_liveness(urls, *, cache, now_iso, check_fn, max_workers=40, ttl_hours=LINK_CACHE_TTL_HOURS):
+    """Return {url: alive_bool} for every url in `urls`.
+
+    A url recorded alive in `cache` within `ttl_hours` is trusted without a
+    network call. Everything else is checked concurrently via `check_fn`
+    (which must never raise — a caught exception degrades to "assume alive",
+    matching check_url_alive's own contract). `cache` is mutated in place:
+    fresh alive results are written, dead results are removed, and entries
+    older than LINK_CACHE_PRUNE_DAYS (URLs long gone from every feed) are
+    pruned. Callers persist it with save_link_cache().
+    """
+    now = _parse_iso(now_iso)
+    result = {}
+    to_check = []
+    for url in urls:
+        if not url:
+            result[url] = True
+            continue
+        entry = cache.get(url)
+        if entry and entry.get("alive") is True:
+            try:
+                age_hours = (now - _parse_iso(entry["at"])).total_seconds() / 3600
+            except Exception:
+                age_hours = ttl_hours + 1
+            if 0 <= age_hours <= ttl_hours:
+                result[url] = True
+                continue
+        to_check.append(url)
+
+    if to_check:
+        checked = run_concurrently(check_fn, [(u,) for u in to_check], max_workers=max_workers)
+        for (url,), alive, exc in checked:
+            is_alive = True if exc is not None else bool(alive)
+            result[url] = is_alive
+            if is_alive:
+                cache[url] = {"alive": True, "at": now_iso}
+            else:
+                cache.pop(url, None)
+
+    cutoff = now - datetime.timedelta(days=LINK_CACHE_PRUNE_DAYS)
+    for url in list(cache):
+        try:
+            if _parse_iso(cache[url]["at"]) < cutoff:
+                del cache[url]
+        except Exception:
+            del cache[url]
+
+    return result
 
 
 def find_dead_links(rows, timeout=8):

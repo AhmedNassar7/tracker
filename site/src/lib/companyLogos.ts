@@ -72,7 +72,7 @@ const COMPANY_DOMAINS: Record<string, string> = {
   // MENA / Africa
   careem: "careem.com", talabat: "talabat.com", noon: "noon.com", jumia: "jumia.com",
   flutterwave: "flutterwave.com", paystack: "paystack.com", interswitch: "interswitchgroup.com",
-  fawry: "fawry.com", thndr: "thndr.app",
+  fawry: "fawry.com", thndr: "thndr.app", tamara: "tamara.co", tabby: "tabby.ai", swvl: "swvl.com",
   // More global tech
   tesla: "tesla.com", spacex: "spacex.com", "palo alto networks": "paloaltonetworks.com",
   crowdstrike: "crowdstrike.com", servicenow: "servicenow.com", workday: "workday.com",

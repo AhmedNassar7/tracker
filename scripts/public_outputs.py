@@ -3,13 +3,15 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from net import run_concurrently
+from net import load_link_cache, resolve_link_liveness, save_link_cache
 from schema_validator import load_schema, validate_records
 
 PUBLIC_ENTRY_SCHEMA = load_schema(Path(__file__).resolve().parent.parent / "config" / "public-entry.schema.json")
 
 
-def write_public_outputs(rows, *, data_out, now_iso, sort_key, log_info, log_error, check_url_alive=None):
+def write_public_outputs(
+    rows, *, data_out, now_iso, sort_key, log_info, log_error, check_url_alive=None, link_cache_path=None
+):
     rows = sorted(rows, key=sort_key)
     jobs = [row for row in rows if row.get("kind") == "job"]
     hackathons = [row for row in rows if row.get("kind") == "hackathon"]
@@ -41,19 +43,19 @@ def write_public_outputs(rows, *, data_out, now_iso, sort_key, log_info, log_err
     # call this without triggering real network calls; public_sources.py's
     # real run always passes it.
     if check_url_alive is not None and rows:
-        alive_calls = [(row.get("url") or "",) for row in rows]
-        checked = run_concurrently(check_url_alive, alive_calls, max_workers=20)
+        link_cache = load_link_cache(link_cache_path) if link_cache_path else {}
+        alive_by_url = resolve_link_liveness(
+            [row.get("url") or "" for row in rows],
+            cache=link_cache,
+            now_iso=now_iso,
+            check_fn=check_url_alive,
+        )
+        if link_cache_path:
+            save_link_cache(link_cache_path, link_cache, now_iso)
         live_rows = []
         dead_count = 0
-        for row, (_args, alive, exc) in zip(rows, checked):
-            if exc is not None:
-                # check_url_alive itself never raises (it has a catch-all
-                # "assume alive" fallback) — this only fires if that
-                # contract changes later. Same safe default it uses.
-                log_error(f"Dead-link check failed for {row.get('url')}: {exc}")
-                live_rows.append(row)
-                continue
-            if alive:
+        for row in rows:
+            if alive_by_url.get(row.get("url") or "", True):
                 live_rows.append(row)
             else:
                 dead_count += 1

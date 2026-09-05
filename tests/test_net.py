@@ -200,6 +200,38 @@ def main():
         details=str(labeled_errors),
     ))
 
+    # resolve_link_liveness: a fresh cached "alive" is trusted without a
+    # network call; a stale entry, an unknown url, and a previously-dead url
+    # are all re-checked; dead results are dropped from the cache.
+    calls_made = []
+
+    def fake_check(url):
+        calls_made.append(url)
+        return url != "https://dead.example"
+
+    now = "2026-09-05T12:00:00Z"
+    cache = {
+        "https://fresh.example": {"alive": True, "at": "2026-09-05T06:00:00Z"},   # 6h old -> trusted
+        "https://stale.example": {"alive": True, "at": "2026-09-04T00:00:00Z"},   # 36h old -> re-check
+        "https://ancient.example": {"alive": True, "at": "2026-08-01T00:00:00Z"}, # > prune window
+    }
+    result = net.resolve_link_liveness(
+        ["https://fresh.example", "https://stale.example", "https://new.example", "https://dead.example", ""],
+        cache=cache, now_iso=now, check_fn=fake_check,
+    )
+    run("resolve_link_liveness skips fresh-cached urls and re-checks the rest", lambda: check(
+        "resolve_link_liveness",
+        "https://fresh.example" not in calls_made
+        and set(calls_made) == {"https://stale.example", "https://new.example", "https://dead.example"}
+        and result["https://fresh.example"] is True
+        and result["https://dead.example"] is False
+        and result[""] is True
+        and "https://dead.example" not in cache            # dead result not cached
+        and "https://ancient.example" not in cache          # pruned
+        and cache["https://new.example"]["alive"] is True,  # new alive result stored
+        details=f"calls={calls_made} cache_keys={sorted(cache)}",
+    ))
+
     print(color(f"✅ ALL PASSED: {total} checks", GREEN))
     return 0
 

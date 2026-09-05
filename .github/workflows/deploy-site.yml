@@ -33,7 +33,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "24"
           cache: "npm"
           cache-dependency-path: site/package-lock.json
 
@@ -55,6 +55,19 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # actions/deploy-pages intermittently fails fetching its OIDC ID token
+      # ("Request timeout: /.../idtoken/...") — a transient GitHub infra issue,
+      # not a permissions one. Give it a longer token timeout and one retry so
+      # a blip doesn't leave the site on a stale build.
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
+          error_count: 15
+      - name: Retry deploy once on transient failure
+        if: failure()
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
+          error_count: 15

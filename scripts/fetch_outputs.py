@@ -4,7 +4,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-from net import run_concurrently
+from net import load_link_cache, resolve_link_liveness, save_link_cache
 from schema_validator import load_schema, validate_records
 
 JOB_ENTRY_SCHEMA = load_schema(Path(__file__).resolve().parent.parent / "config" / "job-entry.schema.json")
@@ -54,6 +54,7 @@ def write_fetch_outputs(
     log_info,
     log_error,
     check_url_alive=None,
+    link_cache_path=None,
 ):
     rows = sorted(rows, key=job_sort_key)
     public_rows = [public_job_record(row) for row in rows]
@@ -100,23 +101,24 @@ def write_fetch_outputs(
             changed = True
         candidates_by_id[row_id] = candidate
 
-    # Dead-link checks are one or two HTTP requests each; running them
-    # concurrently instead of one-by-one keeps this from scaling linearly
-    # with the number of published jobs.
+    # Dead-link checks are one or two HTTP requests each; run them
+    # concurrently, and skip any URL confirmed alive in the on-disk cache
+    # within the last few hours (see net.resolve_link_liveness) so the run
+    # doesn't re-verify ~1000 unchanged links every hour.
     alive_by_id = {}
     if check_url_alive is not None and candidates_by_id:
         items = list(candidates_by_id.items())
-        calls = [(candidate.get("url") or "",) for _row_id, candidate in items]
-        checked = run_concurrently(check_url_alive, calls, max_workers=20)
-        for (row_id, candidate), (_args, alive, exc) in zip(items, checked):
-            if exc is not None:
-                # check_url_alive itself never raises (it has a catch-all
-                # fallback) — this only fires if that contract changes later.
-                # Same safe default it uses: can't tell, assume alive.
-                log_error(f"Dead-link check failed for {candidate.get('url')}: {exc}")
-                alive_by_id[row_id] = True
-            else:
-                alive_by_id[row_id] = alive
+        link_cache = load_link_cache(link_cache_path) if link_cache_path else {}
+        alive_by_url = resolve_link_liveness(
+            [candidate.get("url") or "" for _row_id, candidate in items],
+            cache=link_cache,
+            now_iso=now_iso,
+            check_fn=check_url_alive,
+        )
+        for row_id, candidate in items:
+            alive_by_id[row_id] = alive_by_url.get(candidate.get("url") or "", True)
+        if link_cache_path:
+            save_link_cache(link_cache_path, link_cache, now_iso)
 
     for row in public_rows:
         row_id = row["id"]

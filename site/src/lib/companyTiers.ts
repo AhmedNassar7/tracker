@@ -21,7 +21,7 @@ const TIERS: string[][] = [
    "grab", "sea", "tokopedia", "rakuten", "line", "naver", "coupang", "tencent", "alibaba", "bytedance", "tiktok", "baidu", "xiaomi",
    "tsmc", "mediatek", "canva", "flipkart", "swiggy", "zomato", "phonepe", "razorpay", "freshworks", "zoho", "paytm",
    "mercadolibre", "nubank", "rappi", "ifood", "globant", "dlocal",
-   "careem", "talabat", "noon", "jumia", "flutterwave", "paystack", "interswitch", "fawry", "thndr"],
+   "careem", "talabat", "noon", "jumia", "flutterwave", "paystack", "interswitch", "fawry", "thndr", "tamara", "tabby", "swvl"],
   // 5 — more global tech
   ["tesla", "spacex", "palo alto networks", "crowdstrike", "servicenow", "workday", "block", "coinbase", "robinhood",
    "instacart", "pinterest", "reddit", "snap", "roblox", "unity", "epic games", "discord", "duolingo",

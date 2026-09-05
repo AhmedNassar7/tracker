@@ -1036,6 +1036,7 @@ def write_outputs(rows):
         log_info=log_info,
         log_error=log_error,
         check_url_alive=check_url_alive,
+        link_cache_path=DATA_OUT / "link-cache.json",
     )
 
 
