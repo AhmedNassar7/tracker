@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 22:41:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 22:57:51 GMT</lastBuildDate>
     <item>
       <title>Amazon — Hardware Simulator SDE I, AWS Machine Learning Accelerators, Annapurna Labs</title>
       <link>https://www.amazon.jobs/en/jobs/2940695/hardware-simulator-sde-i-aws-machine-learning-accelerators-annapurna-labs?utm_source=vansh</link>
@@ -62,10 +62,24 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google — Security Engineer II, Hybrid Cloud Gu...</title>
-      <link>https://www.google.com/about/careers/applications/jobs/results/101300536594047686</link>
-      <guid isPermaLink="false">1d7513e0b87b3185</guid>
-      <description>United States · mid_level · 0d</description>
+      <title>Google — Software Developer Intern, BS, Summer 2027</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/123510626377966278</link>
+      <guid isPermaLink="false">b2a9f77a87d1ad42</guid>
+      <description>Canada · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Software Developer Intern, MS, Summer 2027</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/138960139137753798</link>
+      <guid isPermaLink="false">0adb0031fb7a857c</guid>
+      <description>Canada · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Software Developer Intern, PhD, Summer 2027</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/112518690523488966</link>
+      <guid isPermaLink="false">324dd760bdcacf9f</guid>
+      <description>Canada · internship · 0d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -160,17 +174,38 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
+      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
+      <guid isPermaLink="false">a4f1485683352998</guid>
+      <description>Chicago, IL · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
+      <link>https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d</link>
+      <guid isPermaLink="false">c98875b5267332ed</guid>
+      <description>New York, NY · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
+      <link>https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019</link>
+      <guid isPermaLink="false">c7c44f1b5a9bef7c</guid>
+      <description>Washington, D.C. · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cohere — Machine Learning Intern/Co-op (Winter 2027)</title>
+      <link>https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b</link>
+      <guid isPermaLink="false">2e55df48525340f3</guid>
+      <description>Canada · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Scale AI — Software Engineer Intern - Summer 2027</title>
       <link>https://job-boards.greenhouse.io/scaleai/jobs/4730845005?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">a6a1189f9d05ec0f</guid>
       <description>SF · internship · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scale AI — Software Engineer New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730836005?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">74db64589d7f0cfd</guid>
-      <description>SF · new_grad · 0d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -279,10 +314,87 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>JPMorgan Chase — Software Engineer II - Platform Engin...</title>
+      <title>JPMorgan Chase — Software Engineer II - Platform Engineer Databricks</title>
       <link>https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210786726</link>
-      <guid isPermaLink="false">9571d3d31699cc8c</guid>
+      <guid isPermaLink="false">eb6f01b7aa614fc6</guid>
       <description>Jersey City, NJ, United States · mid_level · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Applied Machine Learning Production Engineer Graduate (AML-Production Engineer) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7670004502598060341</link>
+      <guid isPermaLink="false">b13a84f1e2940048</guid>
+      <description>San Jose, California · new_grad · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Applied Machine Learning Production Engineer Intern (AML-Production Engineer) - 2027 Summer</title>
+      <link>https://joinbytedance.com/search/7670009669494704437</link>
+      <guid isPermaLink="false">748352a52808a80c</guid>
+      <description>San Jose, California · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — GPU/AI Application Platform Engineer Intern (Server Platform) - 2027 Start (PhD)</title>
+      <link>https://joinbytedance.com/search/7668475133954197765</link>
+      <guid isPermaLink="false">a09857d20c75a4c2</guid>
+      <description>San Jose, California · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Large Language Model Inference System Engineer Graduate (Applied Machine Learning) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7667726338627356933</link>
+      <guid isPermaLink="false">bf1435a0179a02d3</guid>
+      <description>San Jose, California · new_grad · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Large Language Model Training System Engineer Graduate (Applied Machine Learning) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7667685712993650997</link>
+      <guid isPermaLink="false">ea631eb2c97c169b</guid>
+      <description>San Jose, California · new_grad · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Machine Learning Engineer Intern (AML-Engine-Orchestration) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7672382828525832501</link>
+      <guid isPermaLink="false">3e71f9436c889fb9</guid>
+      <description>Seattle, Washington · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Machine Learning Engineer Intern (E-Commerce Risk Control)- 2027 Start (PhD)</title>
+      <link>https://joinbytedance.com/search/7675477254269765941</link>
+      <guid isPermaLink="false">596fc9267f2e03ae</guid>
+      <description>Seattle, Washington · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Product Security Engineer Graduate (Security BP) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7668636404159858997</link>
+      <guid isPermaLink="false">b88405333f7a23e8</guid>
+      <description>San Jose, California · new_grad · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Site Reliability Engineer Intern (Data Infra) - 2027 Summer</title>
+      <link>https://joinbytedance.com/search/7672922352988342533</link>
+      <guid isPermaLink="false">c0509a588f33aee6</guid>
+      <description>Seattle, Washington · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Video/Image AI/ML Software Engineer Intern (Multimedia) - 2027 Start (PhD)</title>
+      <link>https://joinbytedance.com/search/7670354329765464373</link>
+      <guid isPermaLink="false">017e581a2d0f8cca</guid>
+      <description>San Diego, California · internship · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern (AML-Ark-US) - 2027 Su...</title>
+      <link>https://joinbytedance.com/search/7672392998231050549</link>
+      <guid isPermaLink="false">2d2fb5d48f285d58</guid>
+      <description>Seattle, Washington · internship · 0d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -293,10 +405,45 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>ServiceNow — Associate Software Engineer, Core Infrastructure - Moveworks</title>
+      <link>https://jobs.smartrecruiters.com/ServiceNow/744000107369741</link>
+      <guid isPermaLink="false">0950d82f330d0338</guid>
+      <description>Mountain View, CALIFORNIA · entry_level · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer Intern, ROBOTICS - 2027</title>
+      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027</link>
+      <guid isPermaLink="false">1a546b553208fbba</guid>
+      <description>North Reading, MA · internship · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scale AI — Software Engineer New Grad</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730836005?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">74db64589d7f0cfd</guid>
+      <description>SF · new_grad · 0d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>PayPal — Software Engineer Intern</title>
       <link>https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Software-Engineer-Intern_R0137285</link>
       <guid isPermaLink="false">8f0da41d602ede81</guid>
       <description>San Jose, CA +2 · internship · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, Amazon Fulfillment Technologies (AFT) - Workforce Optimization</title>
+      <link>https://www.amazon.jobs/en/jobs/10525910/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization</link>
+      <guid isPermaLink="false">cf92d92694103971</guid>
+      <description>Toronto, ON · mid_level · 3d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
+      <guid isPermaLink="false">f2e33430ba4bdf6f</guid>
+      <description>Toronto · internship · 4d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -307,10 +454,10 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — Software Engineer New Grad - Software</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">6ffffa2b5640e686</guid>
-      <description>Brownsville, TX · new_grad · 17d</description>
+      <title>Instacart — Machine Learning Engineer II, Ads - Response Prediction</title>
+      <link>https://instacart.careers/job/?gh_jid=8143263</link>
+      <guid isPermaLink="false">fb95085202a2229a</guid>
+      <description>Canada - Remote (ON, AB, BC, or ... · mid_level · 0d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1042,13 +1189,6 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ByteDance — Site Reliability Engineer Intern (Dat...</title>
-      <link>https://joinbytedance.com/search/7672922352988342533</link>
-      <guid isPermaLink="false">8092615f77fc62fa</guid>
-      <description>Seattle, Washington · internship · 1d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer Intern - Robotics</title>
       <link>https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">0fda83d79cf01519</guid>
@@ -1060,20 +1200,6 @@
       <link>https://www.amazon.jobs/jobs/10529525/apply</link>
       <guid isPermaLink="false">4340d3539a3f1d25</guid>
       <description>North Reading, MA · internship · 1d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer Intern,...</title>
-      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027</link>
-      <guid isPermaLink="false">f4dd16b5f34f4318</guid>
-      <description>North Reading, MA · internship · 1d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tesla — Embedded Software Engineer Intern - Optimus</title>
-      <link>https://www.tesla.com/careers/search/job/282340?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">754a5f93d648f64b</guid>
-      <description>Palo Alto, CA · internship · 1d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1112,10 +1238,10 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer Intern, ROBOTICS - 2027</title>
-      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027</link>
-      <guid isPermaLink="false">bea945b0a821b358</guid>
-      <description>North Reading, Massachusetts, USA · internship · 1d</description>
+      <title>Amazon — Software Development Engineer, Agent Platforms &amp; Services</title>
+      <link>https://www.amazon.jobs/en/jobs/10530139/software-development-engineer-agent-platforms-services</link>
+      <guid isPermaLink="false">a5c54507cf14f3b1</guid>
+      <description>New York, New York, USA · unknown · 1d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1123,13 +1249,6 @@
       <link>https://www.amazon.jobs/en/jobs/10530111/software-development-engineer-agent-platforms-services</link>
       <guid isPermaLink="false">719993901cb4d4bf</guid>
       <description>Seattle, Washington, USA · unknown · 1d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Agent Platforms &amp; Services</title>
-      <link>https://www.amazon.jobs/en/jobs/10530139/software-development-engineer-agent-platforms-services</link>
-      <guid isPermaLink="false">a5c54507cf14f3b1</guid>
-      <description>New York, New York, USA · unknown · 1d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1155,16 +1274,16 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Early Careers</title>
-      <link>https://www.amazon.jobs/en/jobs/10530257/software-development-engineer-early-careers</link>
-      <guid isPermaLink="false">d3e4a5e7debc970d</guid>
-      <description>Cambridge, Massachusetts, USA · unknown · 1d</description>
+      <link>https://www.amazon.jobs/en/jobs/10529830/software-development-engineer-early-careers</link>
+      <guid isPermaLink="false">5d84bfccbbb533f1</guid>
+      <description>Newark, New Jersey, USA · unknown · 1d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Early Careers</title>
-      <link>https://www.amazon.jobs/en/jobs/10529830/software-development-engineer-early-careers</link>
-      <guid isPermaLink="false">5d84bfccbbb533f1</guid>
-      <description>Newark, New Jersey, USA · unknown · 1d</description>
+      <link>https://www.amazon.jobs/en/jobs/10530257/software-development-engineer-early-careers</link>
+      <guid isPermaLink="false">d3e4a5e7debc970d</guid>
+      <description>Cambridge, Massachusetts, USA · unknown · 1d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1203,10 +1322,10 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Instacart — Machine Learning Engineer II, Ads - R...</title>
-      <link>https://instacart.careers/job/?gh_jid=8143263</link>
-      <guid isPermaLink="false">4719395b49b03f05</guid>
-      <description>Canada - Remote (ON, AB, BC, or ... · mid_level · 1d</description>
+      <title>Tesla — Embedded Software Engineer Intern - Optimus</title>
+      <link>https://www.tesla.com/careers/search/job/282340?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">754a5f93d648f64b</guid>
+      <description>Palo Alto, CA · internship · 1d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2667,13 +2786,6 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
-      <guid isPermaLink="false">c3b11892340bdad3</guid>
-      <description>Toronto · internship · 1d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
       <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
       <guid isPermaLink="false">bbe14083e01b613a</guid>
       <description>San Francisco, Seattle, New York City · internship · 1d</description>
@@ -3072,6 +3184,13 @@
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer III, AAIS Mosaic Data Platform</title>
+      <link>https://www.amazon.jobs/en/jobs/10529217/software-development-engineer-iii-aais-mosaic-data-platform</link>
+      <guid isPermaLink="false">4dfb455afcbc802b</guid>
+      <description>Seattle, Washington, USA · unknown · 2d</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer III, Annapurna Labs</title>
       <link>https://www.amazon.jobs/en/jobs/10528830/software-development-engineer-iii-annapurna-labs</link>
       <guid isPermaLink="false">9bef2adf0f3b6b80</guid>
@@ -3150,15 +3269,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Quick Governance Platform</title>
-      <link>https://www.amazon.jobs/en/jobs/10528718/software-development-engineer-quick-governance-platform</link>
-      <guid isPermaLink="false">5b88060d8f2866d3</guid>
+      <link>https://www.amazon.jobs/en/jobs/10528714/software-development-engineer-quick-governance-platform</link>
+      <guid isPermaLink="false">ece3cd7aa7193728</guid>
       <description>New York, New York, USA · unknown · 2d</description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Quick Governance Platform</title>
-      <link>https://www.amazon.jobs/en/jobs/10528714/software-development-engineer-quick-governance-platform</link>
-      <guid isPermaLink="false">ece3cd7aa7193728</guid>
+      <link>https://www.amazon.jobs/en/jobs/10528718/software-development-engineer-quick-governance-platform</link>
+      <guid isPermaLink="false">5b88060d8f2866d3</guid>
       <description>New York, New York, USA · unknown · 2d</description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3709,13 +3828,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer II, Ama...</title>
-      <link>https://www.amazon.jobs/en/jobs/10525910/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization</link>
-      <guid isPermaLink="false">3796520421e63a76</guid>
-      <description>Toronto, ON · mid_level · 3d</description>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer - AWS, Amazon GuardDuty</title>
       <link>https://www.amazon.jobs/en/jobs/10526566/software-development-engineer-aws-amazon-guardduty</link>
       <guid isPermaLink="false">c8c3138c2000aa9a</guid>
@@ -3895,6 +4007,13 @@
       <link>https://www.amazon.jobs/en/jobs/10526510/software-development-engineer-leo-software</link>
       <guid isPermaLink="false">c1551527af9bc163</guid>
       <description>Redmond, Washington, USA · unknown · 3d</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Measurement, AdTech, and Data Science</title>
+      <link>https://www.amazon.jobs/en/jobs/10526604/software-development-engineer-measurement-adtech-and-data-science</link>
+      <guid isPermaLink="false">a780a81a13654df3</guid>
+      <description>Seattle, Washington, USA · unknown · 3d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4977,15 +5096,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer , Service Resource Management</title>
-      <link>https://www.amazon.jobs/en/jobs/10524379/software-development-engineer-service-resource-management</link>
-      <guid isPermaLink="false">9bc24d6b1b30012d</guid>
+      <link>https://www.amazon.jobs/en/jobs/10524376/software-development-engineer-service-resource-management</link>
+      <guid isPermaLink="false">a209a79b67adc3d5</guid>
       <description>Seattle, Washington, USA · unknown · 4d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer , Service Resource Management</title>
-      <link>https://www.amazon.jobs/en/jobs/10524376/software-development-engineer-service-resource-management</link>
-      <guid isPermaLink="false">a209a79b67adc3d5</guid>
+      <link>https://www.amazon.jobs/en/jobs/10524379/software-development-engineer-service-resource-management</link>
+      <guid isPermaLink="false">9bc24d6b1b30012d</guid>
       <description>Seattle, Washington, USA · unknown · 4d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -5018,16 +5137,23 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Alexa Communications</title>
-      <link>https://www.amazon.jobs/en/jobs/10524137/software-development-engineer-alexa-communications</link>
-      <guid isPermaLink="false">4dd4c8e33a167fb1</guid>
-      <description>Toronto, Ontario, CAN · unknown · 4d</description>
+      <title>Amazon — Software Development Engineer III, Selling Partner Identity Verification</title>
+      <link>https://www.amazon.jobs/en/jobs/10523573/software-development-engineer-iii-selling-partner-identity-verification</link>
+      <guid isPermaLink="false">258dd24a1d9feb85</guid>
+      <description>Bengaluru, Karnataka, IND · unknown · 4d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Alexa Communications</title>
       <link>https://www.amazon.jobs/en/jobs/10524143/software-development-engineer-alexa-communications</link>
       <guid isPermaLink="false">6a861fe95f3931ce</guid>
+      <description>Toronto, Ontario, CAN · unknown · 4d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Alexa Communications</title>
+      <link>https://www.amazon.jobs/en/jobs/10524137/software-development-engineer-alexa-communications</link>
+      <guid isPermaLink="false">4dd4c8e33a167fb1</guid>
       <description>Toronto, Ontario, CAN · unknown · 4d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -8238,31 +8364,10 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google — Software Developer Intern, BS, Summer...</title>
-      <link>https://www.google.com/about/careers/applications/jobs/results/123510626377966278</link>
-      <guid isPermaLink="false">e81da6a8c6af1748</guid>
-      <description>Canada · internship · 5d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google — Software Developer Intern, MS, Summer...</title>
-      <link>https://www.google.com/about/careers/applications/jobs/results/138960139137753798</link>
-      <guid isPermaLink="false">fa65633a997d072b</guid>
-      <description>Canada · internship · 5d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google — Software Engineer Intern - Multiple Teams</title>
       <link>https://www.google.com/about/careers/applications/jobs/results/94172495052972742?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">55eed84dc0949670</guid>
       <description>Palo Alto, CA +29 more · internship · 5d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Intern (Summer or ...</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
-      <guid isPermaLink="false">a6ad31ff4d6a7bbe</guid>
-      <description>Toronto · internship · 5d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8273,17 +8378,17 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epic Games — Frontend Programmer Intern</title>
-      <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">0907d94cb3b1a0a3</guid>
-      <description>Cary, NC · internship · 5d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Mastercard — Data Scientist Intern</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">92cae59344d618fd</guid>
       <description>O'Fallon, MO · internship · 5d</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic Games — Frontend Programmer Intern</title>
+      <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">0907d94cb3b1a0a3</guid>
+      <description>Cary, NC · internship · 5d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8302,15 +8407,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer , Leo Commerce, Leo Commerce</title>
-      <link>https://www.amazon.jobs/en/jobs/10522076/software-development-engineer-leo-commerce-leo-commerce</link>
-      <guid isPermaLink="false">d79621d3e639075e</guid>
+      <link>https://www.amazon.jobs/en/jobs/10522077/software-development-engineer-leo-commerce-leo-commerce</link>
+      <guid isPermaLink="false">bbe07a79fe339d94</guid>
       <description>Redmond, Washington, USA · unknown · 5d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer , Leo Commerce, Leo Commerce</title>
-      <link>https://www.amazon.jobs/en/jobs/10522077/software-development-engineer-leo-commerce-leo-commerce</link>
-      <guid isPermaLink="false">bbe07a79fe339d94</guid>
+      <link>https://www.amazon.jobs/en/jobs/10522076/software-development-engineer-leo-commerce-leo-commerce</link>
+      <guid isPermaLink="false">d79621d3e639075e</guid>
       <description>Redmond, Washington, USA · unknown · 5d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -8372,6 +8477,13 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Payments Acceptance and Experience</title>
+      <link>https://www.amazon.jobs/en/jobs/10521439/software-development-engineer-payments-acceptance-and-experience</link>
+      <guid isPermaLink="false">9d77eee95463fd44</guid>
+      <description>Bengaluru, Karnataka, IND · unknown · 5d</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Payments Acceptance and Experience</title>
       <link>https://www.amazon.jobs/en/jobs/10521782/software-development-engineer-payments-acceptance-and-experience</link>
       <guid isPermaLink="false">debff4e4756268c7</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 5d</description>
@@ -8381,13 +8493,6 @@
       <title>Amazon — Software Development Engineer, Payments Acceptance and Experience</title>
       <link>https://www.amazon.jobs/en/jobs/10521435/software-development-engineer-payments-acceptance-and-experience</link>
       <guid isPermaLink="false">00b34403f4fcab99</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 5d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Payments Acceptance and Experience</title>
-      <link>https://www.amazon.jobs/en/jobs/10521439/software-development-engineer-payments-acceptance-and-experience</link>
-      <guid isPermaLink="false">9d77eee95463fd44</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 5d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -8672,30 +8777,9 @@
       <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ByteDance — Machine Learning Engineer Intern (AML...</title>
-      <link>https://joinbytedance.com/search/7672382828525832501</link>
-      <guid isPermaLink="false">e4849a7f2b9bc9ed</guid>
-      <description>Seattle, Washington · internship · 7d</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Machine Learning Engineer Intern (E-C...</title>
-      <link>https://joinbytedance.com/search/7675477254269765941</link>
-      <guid isPermaLink="false">38319d721679c2b8</guid>
-      <description>Seattle, Washington · internship · 7d</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Video/Image AI/ML Software Engineer I...</title>
-      <link>https://joinbytedance.com/search/7670354329765464373</link>
-      <guid isPermaLink="false">d9812d61e11a0802</guid>
-      <description>San Diego, California · entry_level · 7d</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II, AWS Lambda</title>
-      <link>https://www.amazon.jobs/en/jobs/10521245/software-development-engineer-ii-aws-lambda</link>
-      <guid isPermaLink="false">b1d81d3a206f3249</guid>
+      <link>https://www.amazon.jobs/en/jobs/10521244/software-development-engineer-ii-aws-lambda</link>
+      <guid isPermaLink="false">f058020b05d99713</guid>
       <description>Seattle, Washington, USA · mid_level · 7d</description>
       <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -8708,8 +8792,8 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, AWS Lambda</title>
-      <link>https://www.amazon.jobs/en/jobs/10521244/software-development-engineer-ii-aws-lambda</link>
-      <guid isPermaLink="false">f058020b05d99713</guid>
+      <link>https://www.amazon.jobs/en/jobs/10521245/software-development-engineer-ii-aws-lambda</link>
+      <guid isPermaLink="false">b1d81d3a206f3249</guid>
       <description>Seattle, Washington, USA · mid_level · 7d</description>
       <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -9236,6 +9320,13 @@
       <link>https://www.amazon.jobs/en/jobs/10517671/software-development-engineer-project-dawn</link>
       <guid isPermaLink="false">d312475dc1d57a07</guid>
       <description>Seattle, Washington, USA · unknown · 9d</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, Ring Quick Action Service</title>
+      <link>https://www.amazon.jobs/en/jobs/10517663/software-development-engineer-ii-ring-quick-action-service</link>
+      <guid isPermaLink="false">6c3a2df6565c07e2</guid>
+      <description>Hawthorne, California, USA · mid_level · 9d</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10975,13 +11066,6 @@
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google — Software Developer Intern, PhD, Summe...</title>
-      <link>https://www.google.com/about/careers/applications/jobs/results/112518690523488966</link>
-      <guid isPermaLink="false">21f753f9775c0d41</guid>
-      <description>Canada · internship · 12d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google — Software Engineer Early Career - Multiple Teams 🎓</title>
       <link>https://www.google.com/about/careers/applications/jobs/results/84680705375642310?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">5d5f25c8580f62e8</guid>
@@ -12089,20 +12173,6 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS AppSync</title>
-      <link>https://www.amazon.jobs/en/jobs/10509712/software-development-engineer-aws-appsync</link>
-      <guid isPermaLink="false">cef6a19e64baf5bb</guid>
-      <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS AppSync</title>
-      <link>https://www.amazon.jobs/en/jobs/10509713/software-development-engineer-aws-appsync</link>
-      <guid isPermaLink="false">2092e863b60efd7d</guid>
-      <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS AppSync</title>
       <link>https://www.amazon.jobs/en/jobs/10510056/software-development-engineer-aws-appsync</link>
       <guid isPermaLink="false">c6e419817001edc8</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
@@ -12112,6 +12182,20 @@
       <title>Amazon — Software Development Engineer, AWS AppSync</title>
       <link>https://www.amazon.jobs/en/jobs/10509717/software-development-engineer-aws-appsync</link>
       <guid isPermaLink="false">4d1e487cd26a7150</guid>
+      <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS AppSync</title>
+      <link>https://www.amazon.jobs/en/jobs/10509712/software-development-engineer-aws-appsync</link>
+      <guid isPermaLink="false">cef6a19e64baf5bb</guid>
+      <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS AppSync</title>
+      <link>https://www.amazon.jobs/en/jobs/10509713/software-development-engineer-aws-appsync</link>
+      <guid isPermaLink="false">2092e863b60efd7d</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -12131,6 +12215,13 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Simple Queue Service (SQS)</title>
+      <link>https://www.amazon.jobs/en/jobs/10510497/software-development-engineer-aws-simple-queue-service-sqs</link>
+      <guid isPermaLink="false">57a19a580a83c39b</guid>
+      <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS Simple Queue Service (SQS)</title>
       <link>https://www.amazon.jobs/en/jobs/10510495/software-development-engineer-aws-simple-queue-service-sqs</link>
       <guid isPermaLink="false">4eaac4abdef1549d</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
@@ -12140,13 +12231,6 @@
       <title>Amazon — Software Development Engineer, AWS Simple Queue Service (SQS)</title>
       <link>https://www.amazon.jobs/en/jobs/10510501/software-development-engineer-aws-simple-queue-service-sqs</link>
       <guid isPermaLink="false">d64fe1defd17fa1b</guid>
-      <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS Simple Queue Service (SQS)</title>
-      <link>https://www.amazon.jobs/en/jobs/10510497/software-development-engineer-aws-simple-queue-service-sqs</link>
-      <guid isPermaLink="false">57a19a580a83c39b</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 15d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -13005,10 +13089,10 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — Software Engineer New Grad - Software - Application Software</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">11e112c948252134</guid>
-      <description>Hawthorne, CA · new_grad · 17d</description>
+      <title>Netflix — Machine Learning/AI Scientist PhD Intern, Winter 2027</title>
+      <link>https://explore.jobs.netflix.net/careers/job/790317916733</link>
+      <guid isPermaLink="false">ea5b8610770926e7</guid>
+      <description>Los Gatos, California · internship · 17d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -13016,6 +13100,13 @@
       <link>https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">822623bc288d8af4</guid>
       <description>Seattle, WA · internship · 17d</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Software Engineer New Grad - Software - Application Software</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">11e112c948252134</guid>
+      <description>Hawthorne, CA · new_grad · 17d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -13079,13 +13170,6 @@
       <link>https://www.amazon.jobs/en/jobs/10507173/software-development-engineer-rds-platform</link>
       <guid isPermaLink="false">f4acbaa7d98c98bb</guid>
       <description>Austin, Texas, USA · unknown · 17d</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netflix — Machine Learning/AI Scientist PhD Intern, Winter 2027</title>
-      <link>https://explore.jobs.netflix.net/careers/job/790317916733</link>
-      <guid isPermaLink="false">ea5b8610770926e7</guid>
-      <description>Los Gatos,California,United States of America · internship · 17d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -13213,13 +13297,6 @@
       <guid isPermaLink="false">3fbb14213ff23342</guid>
       <description>San Francisco (HQ) · other · 17d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Product Security Engineer Graduate (S...</title>
-      <link>https://joinbytedance.com/search/7668636404159858997</link>
-      <guid isPermaLink="false">2c68cf26d804b8fa</guid>
-      <description>San Jose, California · new_grad · 18d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, AWS ECS</title>
@@ -14322,16 +14399,16 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer - Security Automation, AWS Security Epoxy</title>
-      <link>https://www.amazon.jobs/en/jobs/10503862/software-development-engineer-security-automation-aws-security-epoxy</link>
-      <guid isPermaLink="false">61186b1e6c7485ff</guid>
-      <description>London, England, GBR · unknown · 19d</description>
+      <link>https://www.amazon.jobs/en/jobs/10503889/software-development-engineer-security-automation-aws-security-epoxy</link>
+      <guid isPermaLink="false">0739eab30c4e54f4</guid>
+      <description>Courbevoie, Ile-de-France, FRA · unknown · 19d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer - Security Automation, AWS Security Epoxy</title>
-      <link>https://www.amazon.jobs/en/jobs/10503889/software-development-engineer-security-automation-aws-security-epoxy</link>
-      <guid isPermaLink="false">0739eab30c4e54f4</guid>
-      <description>Courbevoie, Ile-de-France, FRA · unknown · 19d</description>
+      <link>https://www.amazon.jobs/en/jobs/10503862/software-development-engineer-security-automation-aws-security-epoxy</link>
+      <guid isPermaLink="false">61186b1e6c7485ff</guid>
+      <description>London, England, GBR · unknown · 19d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14427,15 +14504,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Leo Autopilot</title>
-      <link>https://www.amazon.jobs/en/jobs/10504173/software-development-engineer-leo-autopilot</link>
-      <guid isPermaLink="false">91cf7c667e24d4bf</guid>
+      <link>https://www.amazon.jobs/en/jobs/10504175/software-development-engineer-leo-autopilot</link>
+      <guid isPermaLink="false">e294a3157c7281cd</guid>
       <description>Redmond, Washington, USA · unknown · 19d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Leo Autopilot</title>
-      <link>https://www.amazon.jobs/en/jobs/10504175/software-development-engineer-leo-autopilot</link>
-      <guid isPermaLink="false">e294a3157c7281cd</guid>
+      <link>https://www.amazon.jobs/en/jobs/10504173/software-development-engineer-leo-autopilot</link>
+      <guid isPermaLink="false">91cf7c667e24d4bf</guid>
       <description>Redmond, Washington, USA · unknown · 19d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -14496,17 +14573,17 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epic Games — Machine Learning Intern - Special Projects - Epic Research Group 🎓</title>
-      <link>https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">37234a7f51864d35</guid>
-      <description>London, UK · internship · 19d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ByteDance — Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓</title>
       <link>https://jobs.bytedance.com/en/position/7670855041951795509/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">5720b9be285a1055</guid>
       <description>Seattle, WA · internship · 19d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic Games — Machine Learning Intern - Special Projects - Epic Research Group 🎓</title>
+      <link>https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">37234a7f51864d35</guid>
+      <description>London, UK · internship · 19d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14721,15 +14798,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, STRADA</title>
-      <link>https://www.amazon.jobs/en/jobs/10502434/software-development-engineer-strada</link>
-      <guid isPermaLink="false">f3463b68165198ea</guid>
+      <link>https://www.amazon.jobs/en/jobs/10502407/software-development-engineer-strada</link>
+      <guid isPermaLink="false">6f7de9a1260e6e76</guid>
       <description>Minneapolis, Minnesota, USA · unknown · 22d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, STRADA</title>
-      <link>https://www.amazon.jobs/en/jobs/10502407/software-development-engineer-strada</link>
-      <guid isPermaLink="false">6f7de9a1260e6e76</guid>
+      <link>https://www.amazon.jobs/en/jobs/10502434/software-development-engineer-strada</link>
+      <guid isPermaLink="false">f3463b68165198ea</guid>
       <description>Minneapolis, Minnesota, USA · unknown · 22d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -14861,13 +14938,6 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Agentic Workspaces</title>
-      <link>https://www.amazon.jobs/en/jobs/10501321/software-development-engineer-agentic-workspaces</link>
-      <guid isPermaLink="false">1964344fa76dde45</guid>
-      <description>Seattle, Washington, USA · unknown · 23d</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Agentic Workspaces</title>
       <link>https://www.amazon.jobs/en/jobs/10501317/software-development-engineer-agentic-workspaces</link>
       <guid isPermaLink="false">ccac592afe4fd04c</guid>
       <description>Seattle, Washington, USA · unknown · 23d</description>
@@ -14877,6 +14947,13 @@
       <title>Amazon — Software Development Engineer, Agentic Workspaces</title>
       <link>https://www.amazon.jobs/en/jobs/10501331/software-development-engineer-agentic-workspaces</link>
       <guid isPermaLink="false">b741f63611b62951</guid>
+      <description>Seattle, Washington, USA · unknown · 23d</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Agentic Workspaces</title>
+      <link>https://www.amazon.jobs/en/jobs/10501321/software-development-engineer-agentic-workspaces</link>
+      <guid isPermaLink="false">1964344fa76dde45</guid>
       <description>Seattle, Washington, USA · unknown · 23d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -15064,8 +15141,8 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon 1P Credito</title>
-      <link>https://www.amazon.jobs/en/jobs/10499417/software-development-engineer-amazon-1p-credito</link>
-      <guid isPermaLink="false">0e75b261035994f9</guid>
+      <link>https://www.amazon.jobs/en/jobs/10499419/software-development-engineer-amazon-1p-credito</link>
+      <guid isPermaLink="false">f410993014b65e54</guid>
       <description>Sao Paulo, Sao Paulo, BRA · unknown · 24d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -15085,8 +15162,8 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon 1P Credito</title>
-      <link>https://www.amazon.jobs/en/jobs/10499419/software-development-engineer-amazon-1p-credito</link>
-      <guid isPermaLink="false">f410993014b65e54</guid>
+      <link>https://www.amazon.jobs/en/jobs/10499417/software-development-engineer-amazon-1p-credito</link>
+      <guid isPermaLink="false">0e75b261035994f9</guid>
       <description>Sao Paulo, Sao Paulo, BRA · unknown · 24d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -15194,13 +15271,6 @@
       <guid isPermaLink="false">83d099da01cbefcd</guid>
       <description>San Francisco HQ · other · 24d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ServiceNow — Associate Software Engineer, Core Inf...</title>
-      <link>https://jobs.smartrecruiters.com/ServiceNow/744000107369741</link>
-      <guid isPermaLink="false">e42f9cb3d2411b5a</guid>
-      <description>Mountain View, CALIFORNIA · entry_level · 25d</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Figma — Software Engineer Intern - Winter 2027</title>
@@ -16044,15 +16114,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon OpenSearch Service - Control Plane</title>
-      <link>https://www.amazon.jobs/en/jobs/10497206/software-development-engineer-amazon-opensearch-service-control-plane</link>
-      <guid isPermaLink="false">939b66f49bedcfd0</guid>
+      <link>https://www.amazon.jobs/en/jobs/10497203/software-development-engineer-amazon-opensearch-service-control-plane</link>
+      <guid isPermaLink="false">d03b3adfbfb379de</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 26d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon OpenSearch Service - Control Plane</title>
-      <link>https://www.amazon.jobs/en/jobs/10497203/software-development-engineer-amazon-opensearch-service-control-plane</link>
-      <guid isPermaLink="false">d03b3adfbfb379de</guid>
+      <link>https://www.amazon.jobs/en/jobs/10497206/software-development-engineer-amazon-opensearch-service-control-plane</link>
+      <guid isPermaLink="false">939b66f49bedcfd0</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 26d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -16414,13 +16484,6 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Amazon Device Observability &amp; Troubleshooting Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10494842/software-development-engineer-amazon-device-observability-troubleshooting-team</link>
-      <guid isPermaLink="false">445a902b565d5e7c</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 30d</description>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Billing Data Services</title>
       <link>https://www.amazon.jobs/en/jobs/10495378/software-development-engineer-billing-data-services</link>
       <guid isPermaLink="false">d37ba1e1b4ead5df</guid>
@@ -16534,15 +16597,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, AWS SageMaker AI</title>
-      <link>https://www.amazon.jobs/en/jobs/10492391/software-development-engineer-ii-aws-sagemaker-ai</link>
-      <guid isPermaLink="false">62fa6cf962bf2bd1</guid>
+      <link>https://www.amazon.jobs/en/jobs/10492392/software-development-engineer-ii-aws-sagemaker-ai</link>
+      <guid isPermaLink="false">ce9cc4bcc39f82dd</guid>
       <description>Bellevue, Washington, USA · mid_level · 31d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, AWS SageMaker AI</title>
-      <link>https://www.amazon.jobs/en/jobs/10492392/software-development-engineer-ii-aws-sagemaker-ai</link>
-      <guid isPermaLink="false">ce9cc4bcc39f82dd</guid>
+      <link>https://www.amazon.jobs/en/jobs/10492391/software-development-engineer-ii-aws-sagemaker-ai</link>
+      <guid isPermaLink="false">62fa6cf962bf2bd1</guid>
       <description>Bellevue, Washington, USA · mid_level · 31d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -16569,15 +16632,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Database Migration Service</title>
-      <link>https://www.amazon.jobs/en/jobs/10493182/software-development-engineer-aws-database-migration-service</link>
-      <guid isPermaLink="false">bac7dccf92f65cd9</guid>
+      <link>https://www.amazon.jobs/en/jobs/10493185/software-development-engineer-aws-database-migration-service</link>
+      <guid isPermaLink="false">fc7aa98e8184f2ce</guid>
       <description>Dublin, IRL · unknown · 31d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Database Migration Service</title>
-      <link>https://www.amazon.jobs/en/jobs/10493185/software-development-engineer-aws-database-migration-service</link>
-      <guid isPermaLink="false">fc7aa98e8184f2ce</guid>
+      <link>https://www.amazon.jobs/en/jobs/10493182/software-development-engineer-aws-database-migration-service</link>
+      <guid isPermaLink="false">bac7dccf92f65cd9</guid>
       <description>Dublin, IRL · unknown · 31d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -17794,15 +17857,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, SKG Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10485387/software-development-engineer-ii-skg-team</link>
-      <guid isPermaLink="false">39dd4dd48c248bb5</guid>
+      <link>https://www.amazon.jobs/en/jobs/10485388/software-development-engineer-ii-skg-team</link>
+      <guid isPermaLink="false">737ad6371939b856</guid>
       <description>Seattle, Washington, USA · mid_level · 40d</description>
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, SKG Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10485388/software-development-engineer-ii-skg-team</link>
-      <guid isPermaLink="false">737ad6371939b856</guid>
+      <link>https://www.amazon.jobs/en/jobs/10485387/software-development-engineer-ii-skg-team</link>
+      <guid isPermaLink="false">39dd4dd48c248bb5</guid>
       <description>Seattle, Washington, USA · mid_level · 40d</description>
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -18998,15 +19061,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Alexa Connections</title>
-      <link>https://www.amazon.jobs/en/jobs/10469632/software-development-engineer-alexa-connections</link>
-      <guid isPermaLink="false">6275a434817a548c</guid>
+      <link>https://www.amazon.jobs/en/jobs/10469634/software-development-engineer-alexa-connections</link>
+      <guid isPermaLink="false">5c3a6a2b02ef97bd</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 58d</description>
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Alexa Connections</title>
-      <link>https://www.amazon.jobs/en/jobs/10469634/software-development-engineer-alexa-connections</link>
-      <guid isPermaLink="false">5c3a6a2b02ef97bd</guid>
+      <link>https://www.amazon.jobs/en/jobs/10469632/software-development-engineer-alexa-connections</link>
+      <guid isPermaLink="false">6275a434817a548c</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 58d</description>
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -19117,15 +19180,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Payroll Tax &amp; Accounting Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10468614/software-development-engineer-payroll-tax-accounting-tech</link>
-      <guid isPermaLink="false">83ace50cbb333cd7</guid>
+      <link>https://www.amazon.jobs/en/jobs/10468622/software-development-engineer-payroll-tax-accounting-tech</link>
+      <guid isPermaLink="false">b93b1f055443ec14</guid>
       <description>Hyderabad, Telangana, IND · unknown · 59d</description>
       <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Payroll Tax &amp; Accounting Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10468622/software-development-engineer-payroll-tax-accounting-tech</link>
-      <guid isPermaLink="false">b93b1f055443ec14</guid>
+      <link>https://www.amazon.jobs/en/jobs/10468614/software-development-engineer-payroll-tax-accounting-tech</link>
+      <guid isPermaLink="false">83ace50cbb333cd7</guid>
       <description>Hyderabad, Telangana, IND · unknown · 59d</description>
       <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -19334,15 +19397,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Ads AI Core Infra</title>
-      <link>https://www.amazon.jobs/en/jobs/10465851/software-development-engineer-ads-ai-core-infra</link>
-      <guid isPermaLink="false">37b55a5792024afd</guid>
+      <link>https://www.amazon.jobs/en/jobs/10465850/software-development-engineer-ads-ai-core-infra</link>
+      <guid isPermaLink="false">f1609002499ba1f9</guid>
       <description>Seattle, Washington, USA · unknown · 63d</description>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Ads AI Core Infra</title>
-      <link>https://www.amazon.jobs/en/jobs/10465850/software-development-engineer-ads-ai-core-infra</link>
-      <guid isPermaLink="false">f1609002499ba1f9</guid>
+      <link>https://www.amazon.jobs/en/jobs/10465851/software-development-engineer-ads-ai-core-infra</link>
+      <guid isPermaLink="false">37b55a5792024afd</guid>
       <description>Seattle, Washington, USA · unknown · 63d</description>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -19502,15 +19565,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Devices Software &amp; Services</title>
-      <link>https://www.amazon.jobs/en/jobs/10463113/software-development-engineer-devices-software-services</link>
-      <guid isPermaLink="false">e3375bdb276bd634</guid>
+      <link>https://www.amazon.jobs/en/jobs/10463114/software-development-engineer-devices-software-services</link>
+      <guid isPermaLink="false">7774a63a9ffbd759</guid>
       <description>Irvine, California, USA · unknown · 67d</description>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Devices Software &amp; Services</title>
-      <link>https://www.amazon.jobs/en/jobs/10463114/software-development-engineer-devices-software-services</link>
-      <guid isPermaLink="false">7774a63a9ffbd759</guid>
+      <link>https://www.amazon.jobs/en/jobs/10463113/software-development-engineer-devices-software-services</link>
+      <guid isPermaLink="false">e3375bdb276bd634</guid>
       <description>Irvine, California, USA · unknown · 67d</description>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
     </item>
@@ -19767,13 +19830,6 @@
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
-      <guid isPermaLink="false">d0861b887ea3c5be</guid>
-      <description>Chicago, IL · internship · 73d</description>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Ramp — Applied AI Engineer, Fullstack</title>
       <link>https://jobs.ashbyhq.com/ramp/6a7e382f-240a-4952-b9e5-7fe2b3856bc9</link>
       <guid isPermaLink="false">5f3f3e0177dbbb29</guid>
@@ -19950,15 +20006,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS OpenSearch</title>
-      <link>https://www.amazon.jobs/en/jobs/10451609/software-development-engineer-aws-opensearch</link>
-      <guid isPermaLink="false">d3147246ad4e0a57</guid>
+      <link>https://www.amazon.jobs/en/jobs/10451602/software-development-engineer-aws-opensearch</link>
+      <guid isPermaLink="false">8f7f7ebb80991c1f</guid>
       <description>Austin, Texas, USA · unknown · 80d</description>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS OpenSearch</title>
-      <link>https://www.amazon.jobs/en/jobs/10451602/software-development-engineer-aws-opensearch</link>
-      <guid isPermaLink="false">8f7f7ebb80991c1f</guid>
+      <link>https://www.amazon.jobs/en/jobs/10451609/software-development-engineer-aws-opensearch</link>
+      <guid isPermaLink="false">d3147246ad4e0a57</guid>
       <description>Austin, Texas, USA · unknown · 80d</description>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
     </item>
@@ -20622,15 +20678,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Inventory Authority Platform (IAP)</title>
-      <link>https://www.amazon.jobs/en/jobs/10435267/software-development-engineer-inventory-authority-platform-iap</link>
-      <guid isPermaLink="false">e64d8905874889f7</guid>
+      <link>https://www.amazon.jobs/en/jobs/10435272/software-development-engineer-inventory-authority-platform-iap</link>
+      <guid isPermaLink="false">c2a3339d27472e50</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 96d</description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Inventory Authority Platform (IAP)</title>
-      <link>https://www.amazon.jobs/en/jobs/10435272/software-development-engineer-inventory-authority-platform-iap</link>
-      <guid isPermaLink="false">c2a3339d27472e50</guid>
+      <link>https://www.amazon.jobs/en/jobs/10435267/software-development-engineer-inventory-authority-platform-iap</link>
+      <guid isPermaLink="false">e64d8905874889f7</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 96d</description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
     </item>
@@ -21210,15 +21266,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer</title>
-      <link>https://www.amazon.jobs/en/jobs/10421793/software-development-engineer</link>
-      <guid isPermaLink="false">4a626f42745969fd</guid>
+      <link>https://www.amazon.jobs/en/jobs/10421792/software-development-engineer</link>
+      <guid isPermaLink="false">b37bf379c70528b8</guid>
       <description>East Palo Alto, California, USA · unknown · 113d</description>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer</title>
-      <link>https://www.amazon.jobs/en/jobs/10421792/software-development-engineer</link>
-      <guid isPermaLink="false">b37bf379c70528b8</guid>
+      <link>https://www.amazon.jobs/en/jobs/10421793/software-development-engineer</link>
+      <guid isPermaLink="false">4a626f42745969fd</guid>
       <description>East Palo Alto, California, USA · unknown · 113d</description>
       <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
     </item>
@@ -21266,15 +21322,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Central SDE Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10419385/software-development-engineer-aws-central-sde-team</link>
-      <guid isPermaLink="false">72cc904be5fc04b8</guid>
+      <link>https://www.amazon.jobs/en/jobs/10419384/software-development-engineer-aws-central-sde-team</link>
+      <guid isPermaLink="false">310549c018bf4520</guid>
       <description>Seattle, Washington, USA · unknown · 114d</description>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Central SDE Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10419384/software-development-engineer-aws-central-sde-team</link>
-      <guid isPermaLink="false">310549c018bf4520</guid>
+      <link>https://www.amazon.jobs/en/jobs/10419385/software-development-engineer-aws-central-sde-team</link>
+      <guid isPermaLink="false">72cc904be5fc04b8</guid>
       <description>Seattle, Washington, USA · unknown · 114d</description>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
     </item>
@@ -21308,13 +21364,6 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Software Defined Network Controller, Amazon LEO</title>
-      <link>https://www.amazon.jobs/en/jobs/10419335/software-development-engineer-software-defined-network-controller-amazon-leo</link>
-      <guid isPermaLink="false">e363faef81e39b8a</guid>
-      <description>Redmond, Washington, USA · unknown · 115d</description>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Software Defined Network Controller, Amazon LEO</title>
       <link>https://www.amazon.jobs/en/jobs/10419337/software-development-engineer-software-defined-network-controller-amazon-leo</link>
       <guid isPermaLink="false">c1805a84e604474a</guid>
       <description>Redmond, Washington, USA · unknown · 115d</description>
@@ -21324,6 +21373,13 @@
       <title>Amazon — Software Development Engineer, Software Defined Network Controller, Amazon LEO</title>
       <link>https://www.amazon.jobs/en/jobs/10419336/software-development-engineer-software-defined-network-controller-amazon-leo</link>
       <guid isPermaLink="false">d7b7945382d8fdea</guid>
+      <description>Redmond, Washington, USA · unknown · 115d</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Software Defined Network Controller, Amazon LEO</title>
+      <link>https://www.amazon.jobs/en/jobs/10419335/software-development-engineer-software-defined-network-controller-amazon-leo</link>
+      <guid isPermaLink="false">e363faef81e39b8a</guid>
       <description>Redmond, Washington, USA · unknown · 115d</description>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
     </item>
@@ -21888,13 +21944,6 @@
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
-      <link>https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019</link>
-      <guid isPermaLink="false">004dae8751efc263</guid>
-      <description>Washington, D.C. · internship · 135d</description>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Last Mile Delivery</title>
       <link>https://www.amazon.jobs/en/jobs/10399541/software-development-engineer-last-mile-delivery</link>
       <guid isPermaLink="false">b70873028e5c76bd</guid>
@@ -22277,13 +22326,6 @@
       <link>https://www.amazon.jobs/en/jobs/10372541/software-development-engineer-ring</link>
       <guid isPermaLink="false">a2f4dfb46da43bc1</guid>
       <description>Gdansk, Pomeranian Voivodeship, POL · unknown · 169d</description>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d</link>
-      <guid isPermaLink="false">a3658aa608ba2641</guid>
-      <description>New York, NY · internship · 169d</description>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
