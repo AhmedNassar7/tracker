@@ -26,6 +26,7 @@ import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
 import PreferencesPanel from "./PreferencesPanel";
+import SavedSearches from "./SavedSearches";
 import SkeletonTable from "./SkeletonTable";
 import SnapshotHero from "./SnapshotHero";
 
@@ -339,6 +340,8 @@ export default function OpportunityBrowser() {
           })}
         </div>
       </div>
+
+      <SavedSearches filters={filters} onApply={setFilters} />
 
       <FilterBar
         filters={filters}
