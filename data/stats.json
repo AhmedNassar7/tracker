@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T23:13:45Z",
+  "generated_at": "2026-09-05T23:29:15Z",
   "total": 1000,
   "by_level": {
     "internship": 104,
@@ -29,12 +29,12 @@
     "lorenzolacorte_eu": 11,
     "amazon": 858,
     "zapplyjobs_canada_internships": 3,
-    "zapplyjobs_internships": 12,
-    "zapplyjobs_newgrad": 3,
+    "zapplyjobs_internships": 14,
     "zapplyjobs_canada": 8,
     "simplify_newgrad": 20,
     "zapplyjobs_datascience": 8,
     "zapplyjobs_all_newgrad": 1,
+    "zapplyjobs_newgrad": 1,
     "simplify_internships": 40,
     "speedyapply_swe": 27,
     "speedyapply_ai": 9

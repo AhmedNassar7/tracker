@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 23:19:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 23:33:03 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer II , Amazon Cross Border Tech</title>
       <link>https://www.amazon.jobs/en/jobs/10530595/software-development-engineer-ii-amazon-cross-border-tech</link>
@@ -62,23 +62,23 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249</link>
-      <guid isPermaLink="false">66bbf1e553376c7c</guid>
-      <description>Denver, CO · internship · 0d</description>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
+      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
+      <guid isPermaLink="false">a4f1485683352998</guid>
+      <description>Chicago, IL · internship · 0d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d</link>
-      <guid isPermaLink="false">b3126ca0917b76be</guid>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
+      <link>https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d</link>
+      <guid isPermaLink="false">c98875b5267332ed</guid>
       <description>New York, NY · internship · 0d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0</link>
-      <guid isPermaLink="false">162a14da3a107f9f</guid>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
+      <link>https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019</link>
+      <guid isPermaLink="false">c7c44f1b5a9bef7c</guid>
       <description>Washington, D.C. · internship · 0d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -272,17 +272,17 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
-      <guid isPermaLink="false">f2e33430ba4bdf6f</guid>
-      <description>Toronto · internship · 4d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Mastercard — Data Engineer II</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Data-Engineer-II_R-289305</link>
       <guid isPermaLink="false">932385fd717b372c</guid>
       <description>O'Fallon, Missouri · mid_level · 4d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
+      <guid isPermaLink="false">f2e33430ba4bdf6f</guid>
+      <description>Toronto · internship · 4d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8196,13 +8196,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
-      <guid isPermaLink="false">c234252785500cdd</guid>
-      <description>Toronto · new_grad · 5d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google — Software Engineer Intern - Multiple Teams</title>
       <link>https://www.google.com/about/careers/applications/jobs/results/94172495052972742?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">55eed84dc0949670</guid>
@@ -8214,6 +8207,13 @@
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">92cae59344d618fd</guid>
       <description>O'Fallon, MO · internship · 5d</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
+      <guid isPermaLink="false">c234252785500cdd</guid>
+      <description>Toronto · new_grad · 5d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -15253,16 +15253,16 @@
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
-      <guid isPermaLink="false">e8aaee1125e832cc</guid>
-      <description>Mexico · other · 25d</description>
+      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
+      <guid isPermaLink="false">f8ef52a2739afce1</guid>
+      <description>Brazil · other · 25d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
-      <guid isPermaLink="false">f8ef52a2739afce1</guid>
-      <description>Brazil · other · 25d</description>
+      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
+      <guid isPermaLink="false">e8aaee1125e832cc</guid>
+      <description>Mexico · other · 25d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -19172,13 +19172,6 @@
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
-      <guid isPermaLink="false">d0861b887ea3c5be</guid>
-      <description>Chicago, IL · internship · 73d</description>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Ramp — Applied AI Engineer, Fullstack</title>
       <link>https://jobs.ashbyhq.com/ramp/6a7e382f-240a-4952-b9e5-7fe2b3856bc9</link>
       <guid isPermaLink="false">5f3f3e0177dbbb29</guid>
@@ -21293,13 +21286,6 @@
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
-      <link>https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019</link>
-      <guid isPermaLink="false">004dae8751efc263</guid>
-      <description>Washington, D.C. · internship · 135d</description>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Last Mile Delivery</title>
       <link>https://www.amazon.jobs/en/jobs/10399541/software-development-engineer-last-mile-delivery</link>
       <guid isPermaLink="false">b70873028e5c76bd</guid>
@@ -21685,13 +21671,6 @@
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d</link>
-      <guid isPermaLink="false">a3658aa608ba2641</guid>
-      <description>New York, NY · internship · 169d</description>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
       <link>https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333</link>
       <guid isPermaLink="false">3737f5282b5c7ed6</guid>
@@ -21834,6 +21813,12 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Infrastructure-Tool-Development-Intern---2027_JR2025040</link>
       <guid isPermaLink="false">a8688b1105af4ea0</guid>
       <description>China, Shanghai · internship · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Cloud Software Engineer, DGXC Data Services</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389</link>
+      <guid isPermaLink="false">bbd861cb95aad6e1</guid>
+      <description>US, CA, Santa Clara +1 more · other · 0d</description>
     </item>
     <item>
       <title>Adobe — Senior Software Engineer, Meta Factory Agent Harness</title>

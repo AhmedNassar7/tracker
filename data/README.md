@@ -27,14 +27,14 @@ Every row links straight to the real application page. Click a title to apply �
 
 | Section | Count |
 |---|---:|
-| Jobs | 3272 |
-| Hackathons | 103 |
-| Events | 10 |
-| Total | 3385 |
+| Jobs | 3273 |
+| Hackathons | 55 |
+| Events | 8 |
+| Total | 3336 |
 
 ## Jobs
 
-[![Jobs 3272](https://img.shields.io/badge/Jobs-3272-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 135](https://img.shields.io/badge/Internship-135-22c55e.svg)](#internship) [![Early Career 68](https://img.shields.io/badge/Early%20Career-68-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3069](https://img.shields.io/badge/Mid--Level%20and%20Above-3069-dc2626.svg)](#mid-level-and-above)
+[![Jobs 3273](https://img.shields.io/badge/Jobs-3273-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 135](https://img.shields.io/badge/Internship-135-22c55e.svg)](#internship) [![Early Career 68](https://img.shields.io/badge/Early%20Career-68-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3070](https://img.shields.io/badge/Mid--Level%20and%20Above-3070-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -75,9 +75,9 @@ Total roles: 135
 | AMD | [Machine Learning/Artificial Intelligence Intern/Co-op](https://careers.amd.com/jobs/91363?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 4d |
 | AMD | [Software Engineer Intern/Co-op - Masters 🎓](https://careers.amd.com/jobs/91176?icims=1&utm_source=Simplify&ref=Simplify) | San Jose, CA Santa Clara, CA | 15d |
 | Cloudflare | [Software Engineer Intern - Fall 2026 - Austin - TX](https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785) | Austin, TX | 26d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) | Denver, CO | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d) | New York, NY | 0d |
-| Palantir | [Software Engineer, Internship](https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0) | Washington, D.C. | 0d |
+| Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) | Chicago, IL | 0d |
+| Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial](https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d) | New York, NY | 0d |
+| Palantir | [Year at Palantir - Forward Deployed Software Engineer, Internship - USG](https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019) | Washington, D.C. | 0d |
 | Atlassian | [Software Engineer Intern](https://campus-globalcareers-atlassian.icims.com/jobs/26275/software-engineer-intern%2c-2027-canada/job?utm_source=Simplify&ref=Simplify) | Burnaby, BC, Canada Vancouver, BC, Canada Richmond, BC, Canada | 2d |
 | Atlassian | [Software Engineer Intern](https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&ref=Simplify) | Seattle, WA SF | 4d |
 | Notion | [Software Engineer Intern (Summer 2027)](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c) | San Francisco, California | 7d |
@@ -255,7 +255,7 @@ Total roles: 68
 
 ### Mid-Level and Above
 
-Total roles: 3069
+Total roles: 3070
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -1176,6 +1176,7 @@ Total roles: 3069
 | Coupang | [Staff, Back-end Engineer (Gateway Services)](https://www.coupang.jobs/en/jobs/?gh_jid=8027677) | Seoul, South Korea | 1mo |
 | Coupang | [Staff, Site Reliability Engineer (Tech Infra)](https://www.coupang.jobs/en/jobs/?gh_jid=8018258) | Seoul, South Korea | 1mo |
 | NVIDIA | [Engineering Manager - OpenBMC Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726) | US, CA, Santa Clara | 0d |
+| NVIDIA | [Senior Cloud Software Engineer, DGXC Data Services](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 0d |
 | NVIDIA | [Frontend Web Software Engineer, NGC](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Frontend-Web-Software-Engineer--NGC_JR2025149) | <details><summary>6 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>NC<br>Remote, US<br>VA<br>Remote, US<br>NY<br>New York, US<br>WA<br>Seattle</details> | 1d |
 | NVIDIA | [Senior DevOps Engineer, Cloud Simulation Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DevOps-Engineer--Cloud-Simulation-Infrastructure_JR2021039) | US, CA, Santa Clara | 1d |
 | NVIDIA | [Senior Site Reliability Engineer - HPC](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---HPC_JR2013271) | <details><summary>3 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>NC<br>Durham</details> | 1d |
@@ -2775,8 +2776,8 @@ Total roles: 3069
 | Airbnb | [Staff Platform Manager, Conversational Products](https://careers.airbnb.com/positions/8136554?gh_jid=8136554) | United States | 17d |
 | Airbnb | [Staff Software Engineer, Communication & Connectivity](https://careers.airbnb.com/positions/7421419?gh_jid=7421419) | United States | 18d |
 | Airbnb | [Staff Software Engineer, Passport & Commerce (Backend)](https://careers.airbnb.com/positions/8130817?gh_jid=8130817) | United States | 22d |
-| Airbnb | [Staff Platform Manager, Payments Regional Growth](https://careers.airbnb.com/positions/8120721?gh_jid=8120721) | Mexico | 25d |
 | Airbnb | [Staff Platform Manager, Payments Regional Growth](https://careers.airbnb.com/positions/8120611?gh_jid=8120611) | Brazil | 25d |
+| Airbnb | [Staff Platform Manager, Payments Regional Growth](https://careers.airbnb.com/positions/8120721?gh_jid=8120721) | Mexico | 25d |
 | Airbnb | [Staff Platform Manager, Loyalty Platform Lead (Product Management)](https://careers.airbnb.com/positions/8091831?gh_jid=8091831) | Bangalore, India | 1mo |
 | Airbnb | [Senior Web Automation Engineer, Quality Platform](https://careers.airbnb.com/positions/7863467?gh_jid=7863467) | Brazil | 1mo |
 | Airbnb | [Senior Staff Software Engineer, Marketing Technology](https://careers.airbnb.com/positions/8095365?gh_jid=8095365) | Remote, USA | 1mo |
@@ -3331,29 +3332,19 @@ Total roles: 3069
 
 ## Hackathons
 
-Total hackathons: 103
+Total hackathons: 55
 
 | Organizer | Hackathon | Location | Closes |
 |---|---|---|---|
-| Devfolio | [.hack '26](https://dothack26.devfolio.co) | Kothamangalam, India | last day |
-| Devfolio | [ETHKochi](https://ethkochi.devfolio.co) | Kochi, India | last day |
-| Devfolio | [MUBA Blockchain Hackathon](https://muba-hackathon.devfolio.co) | Online | last day |
-| Devfolio | [NexusTiQ 24 - CareerTiQ](https://nexustiq24-careertiq.devfolio.co) | Online | last day |
 | Prosocial Engineering | [Global Psyops Hackathon](https://global-psyops-hackathon.devpost.com/) | Distribution Hall | 2 days left |
 | CreateHER Fest | [DIALED IN Builder Challenge](https://dialedin.devpost.com/) | The Hub @ Office Logic | 3 days left |
-| Devfolio | [Girlathon 4.0](https://girlathon26.devfolio.co) | Various | 3 days left |
 | NA | [AI Content Engine Hackathon](https://ai-content-engine-hacks.devpost.com/) | Online | 3 days left |
 | Google | [Agentic Cinema: The Blockbuster Hackathon](https://agentic-cinema.devpost.com/) | Online | 4 days left |
 | JHUB Africa | [Hack The Weather](https://hack-the-weather.devpost.com/) | Online | 4 days left |
-| Devfolio | [VENTURE'26](https://venture-26.devfolio.co) | Kothamangalam, India | 5 days left |
 | Institute of Engineering & Management | [Hack2Heal 2.0 - Global Healthcare Innovation Hackathon](https://hack2heal.devpost.com/) | Online | 5 days left |
 | CyberSyntax Hub | [CSH Social Impact Ideathon](https://csh-social-impact-ideathon.devpost.com/) | Online | 6 days left |
-| Devfolio | [FusioniX2026](https://fusionix-1.devfolio.co) | Various | 6 days left |
-| Devfolio | [Hackrit](https://hackrit2026.devfolio.co) | Kolkata, India | 6 days left |
-| Devfolio | [Interledger Student Hackathon - Tec de Software](https://interledger-student-hackathon-merida.devfolio.co) | Mérida, Mexico | 6 days left |
 | SPA Bhopal | [Music from BeatMind](https://music-from-beatmind.devpost.com/) | Online | 6 days left |
 | Binnovative | [AnimalHack 2026](https://animalhack2026.devpost.com/) | Online | 7 days left |
-| Devfolio | [Metamorph 2.0](https://metamorph-2.devfolio.co) | Panihati, India | 7 days left |
 | Dialogate | [VoltHacks](https://volthacks.devpost.com/) | Online | 8 days left |
 | Enterprise Software Solutions | [RoadStar Hackathon](https://roadstarhackathon.devpost.com/) | Waterloo, ON | 8 days left |
 | HackAlphaX | [NextStep Hacks 2026](https://nextstep2026.devpost.com/) | Online | 8 days left |
@@ -3361,61 +3352,23 @@ Total hackathons: 103
 | Amazon | [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/) | Online | 9 days left |
 | CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) | Online | 9 days left |
 | hyperbloom hacks | [Hyperbloom September - AI/ML](https://hyperbloom-september.devpost.com/) | Online | 9 days left |
-| Devfolio | [Interledger Student Hackathon - ICESI](https://interledger-student-hackathon-icesi.devfolio.co) | Cali, Colombia | 10 days left |
 | OSC | [AI Builders Hackathon](https://ai-builders-hackathon-2026.devpost.com/) | Online | 10 days left |
-| Devfolio | [Test Hackathon 02](https://test-hackathon-2.devfolio.co) | San Francisco, United States | 11 days left |
 | GatewayGS | [GatewayGS Hackathon 2](https://gatewaygs-hackathon-2.devpost.com/) | Online | 11 days left |
 | President University | [COMPSPHERE 12](https://compsphere12.devpost.com/) | Online | 12 days left |
 | Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) | Online | 12 days left |
-| Devfolio | [DSU DEVHACK 3.0](https://dsudevhack3.devfolio.co) | Ramanagara, India | 13 days left |
-| Devfolio | [Interledger Student Hackathon - CUC](https://interledger-student-hackathon-cuc.devfolio.co) | Barranquilla, Colombia | 13 days left |
 | CAST-GNY | [CAST-GNY Startup Pitch Competition 2026](https://castgnypitch2026.devpost.com/) | Fordham University School of Law | 14 days left |
-| Devfolio | [Avalon OpenHack](https://avalon-openhack.devfolio.co) | Online | 14 days left |
 | Evorozen | [Evorozen Apex: NextGen AI Buildathon](https://evorozen-apex.devpost.com/) | Online | 15 days left |
-| Devfolio | [Binary Hacks 4.0](https://binary-hacks-4.devfolio.co) | Ghaziabad, India | 16 days left |
-| Devfolio | [Test Hackathon 01](https://test-hackathon-1.devfolio.co) | Online | 16 days left |
 | Kang Chiao International School Student | [Global Innovation Build Challenge V2](https://gibc-v2.devpost.com/) | Online | 16 days left |
 | TechieBunnies team | [BunnieX Hackathon](https://buuniex-hackathon.devpost.com/) | Online | 17 days left |
-| Devfolio | [Test Flow Online](https://test-flow-online.devfolio.co) | Online | 19 days left |
-| Devfolio | [Builders Day by HackUnion](https://builders-day-hackunion.devfolio.co) | Hyderabad, India | 20 days left |
-| Devfolio | [Cognition - GameJam '26](https://cognition-gamejam-1.devfolio.co) | Navi Mumbai, India | 20 days left |
-| Devfolio | [HackNex Season 2](https://hacknex-season-2.devfolio.co) | Kalyani, India | 20 days left |
-| Devfolio | [Meowathon 2025](https://meow.devfolio.co) | Various | 20 days left |
-| Devfolio | [NexHack 2.0](https://nexhack-2.devfolio.co) | New Delhi, India | 20 days left |
-| Devfolio | [The Great Agent Hackathon](https://the-great-agent-hackathon.devfolio.co) | Online | 20 days left |
-| Devfolio | [WebCraft24](https://webcraft24.devfolio.co) | Greater Noida, India | 20 days left |
 | Jitjai Organization | [Practice to Create [Feedback To All Projects!]](https://practicetocreate.devpost.com/) | Online | 20 days left |
-| Devfolio | [Hack4Brahma 2.0](https://hack4brahma2.devfolio.co) | Guwahati, India | 21 days left |
 | Pillai University, Navi Mumbai | [HackCelestial 3.0](https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808) | Offline | 21 days left |
 | RotaractClub of SNSCollege of Technology | [Zero Origin](https://zero-origin.devpost.com/) | Online | 21 days left |
 | TechZap Club | [3rd-Web-Hack](https://3rd-web-hack.devpost.com/) | Online | 21 days left |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) | Online | 23 days left |
-| Devfolio | [CodeStorm 2026: FutureForge](https://codestorm-futureforge.devfolio.co) | Online | 24 days left |
-| Devfolio | [EAG Global Buildathon](https://eag-global-buildathon.devfolio.co) | Online | 25 days left |
 | FirstCommit | [Beginner's Paradise - FirstCommit](https://firstcommit.devpost.com/) | Online | 25 days left |
 | Next Byte Hacks | [Next Byte Hacks: V4](https://next-byte-hacks-v4.devpost.com/) | Online | 25 days left |
 | GatewayGS | [GatewayHacks 2026 | Software & AI](https://gatewayhacks-2026.devpost.com/) | Online | 26 days left |
-| Devfolio | [HackSpire'26](https://hackspire26.devfolio.co) | Kolkata, India | 27 days left |
-| Devfolio | [Codeutsava X.0](https://codeutsava-x.devfolio.co) | Raipur, India | 28 days left |
-| Devfolio | [BOSS Battle](https://boss-battle.devfolio.co) | Online | 29 days left |
 | The Webb Schools CSC | [CSC Back-to-School Hackathon](https://csc-back-to-school.devpost.com/) | Online | 29 days left |
-| Devfolio | [HACKBIOS 2K26](https://hackbios2k26.devfolio.co) | Junwani, India | 33 days left |
-| Devfolio | [DEFINE 4.0](https://define4.devfolio.co) | Thiruvananthapuram, India | 34 days left |
-| Devfolio | [HACK WITH GDG S4](https://hack-with-gdg-s4.devfolio.co) | KSR Kalvi Nagar, India | 34 days left |
-| Devfolio | [Realm Hack '26](https://realm-hack-1.devfolio.co) | Thodiyoor, India | 34 days left |
-| Devfolio | [Hackify 3.0](https://hackify-3.devfolio.co) | Kothamangalam, India | 35 days left |
-| Devfolio | [HackInverse 1.0](https://hackinverse-s1.devfolio.co) | Kolkata, India | 35 days left |
-| Devfolio | [Innohacks 4.0](https://innohacks-4.devfolio.co) | Ghaziabad, India | 35 days left |
-| Devfolio | [Innosprint2.0](https://innosprint-3.devfolio.co) | India | 35 days left |
-| Devfolio | [HackTopus'FE](https://hacktopusgdg.devfolio.co) | Bharthia, India | 40 days left |
-| Devfolio | [HACKER HOUSE GOA 2026](https://hacker-house-goa-2026.devfolio.co) | India | 55 days left |
-| Devfolio | [Hefty-Hacks](https://hefty-hacks.devfolio.co) | Online | 55 days left |
-| Devfolio | [TUM Blockchain & AI Hackathon](https://tum.devfolio.co) | München, Germany | 55 days left |
-| Devfolio | [Convergence](https://convergence1.devfolio.co) | Kalyani, India | 56 days left |
-| Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) | Hamirpur, India | 56 days left |
-| Devfolio | [Hacknauts 2.0](https://hacknauts26.devfolio.co) | Ludhiana, India | 70 days left |
-| Devfolio | [CodeClash'24](https://codeclash24.devfolio.co) | Greater Noida, India | 85 days left |
-| Devfolio | [haxfinity](https://haxfinity.devfolio.co) | Myladi, India | 98 days left |
 | agent orchestrator | [Syndicate by Maximor](https://syndicate-by-maximor.devpost.com/) | Online | about 23 hours left |
 | Amazon | [Build, Ship, Shape: Amazon Developer Hackathon](https://amazonappdev2026.devpost.com/) | Online | about 2 months left |
 | Binnovative | [InnovArt 2027: Art and Technology Hack Day](https://innovart2027.devpost.com/) | Online | 4 months left |
@@ -3423,7 +3376,7 @@ Total hackathons: 103
 | CodeBox | [CodeBox Hacks](https://codebox-hacks.devpost.com/) | Cal Poly Advanced Technology Lab | about 22 hours left |
 | Devin | [Agentic Hackathon](https://agentic-hackathon.devpost.com/) | BRAC University | about 20 hours left |
 | dsmhack | [Hack Away Hunger: Food Insecurity Challenge](https://hack-away-hunger.devpost.com/) | Corteva's Pioneer Shull Building | about 1 month left |
-| Emerald Parents | [EmP Hackfest Summer 2026](https://emp-hackfest-summer-2026.devpost.com/) | DigiPen Institute of Technology | about 23 hours left |
+| Emerald Parents | [EmP Hackfest Summer 2026](https://emp-hackfest-summer-2026.devpost.com/) | DigiPen Institute of Technology | about 22 hours left |
 | hacktheconcretejungle | [HTCJ × PROOF Aviation Futures Challenge](https://htcj-aviation-futures.devpost.com/) | Boston Venture Week | about 2 months left |
 | Mafiq Foundation | [MYHack: ISNA 2026](https://myhack-isna.devpost.com/) | Detroit, MI, USA | about 19 hours left |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 3.0](https://ml-build-challenge-3.devpost.com/) | Online | about 1 month left |
@@ -3441,7 +3394,7 @@ Total hackathons: 103
 
 ## Events
 
-Total events: 10
+Total events: 8
 
 | Organizer | Event | Location | When |
 |---|---|---|---|
@@ -3453,8 +3406,6 @@ Total events: 10
 | STEP | [STEP Conference](https://stepconference.com/) | Dubai, UAE | 151 days left |
 | RiseUp | [RiseUp Summit](https://riseupsummit.com/) | Cairo, Egypt | 153 days left |
 | LEAP | [LEAP](https://onegiantleap.com/) | Riyadh, Saudi Arabia | 219 days left |
-| Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) | Global | — |
-| Luma | [Follow Google](https://lu.ma/deepmind?k=c) | Global | — |
 
 ## Browse Every Role
 

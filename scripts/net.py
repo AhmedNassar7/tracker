@@ -129,7 +129,14 @@ _SOFT_404_RULES = (
         ('property="og:title"',),
     ),
     (
-        re.compile(r"^https?://(?:www\.)?joinbytedance\.com/(?:search|jobs)/"),
+        # joinbytedance.com/{search,jobs}/<id> is the canonical host;
+        # jobs.bytedance.com/<locale>/position/<id> 302-redirects to it, so
+        # match both — otherwise a jobs.bytedance.com link (Simplify uses
+        # these) skips the body check and a removed posting reads as alive.
+        re.compile(
+            r"^https?://(?:www\.)?(?:joinbytedance\.com/(?:search|jobs)"
+            r"|jobs\.bytedance\.com/[a-z-]+/position)/"
+        ),
         (),
         ('property="og:title"',),
     ),
