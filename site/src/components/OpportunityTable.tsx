@@ -1,5 +1,6 @@
 import BookmarkButton from "./BookmarkButton";
 import CompanyAvatar from "./CompanyAvatar";
+import { BASE_URL } from "../lib/basePath";
 import { formatLevel, prettifyCompany } from "../lib/labels";
 import type { SiteIndexEntry } from "../lib/types";
 
@@ -28,14 +29,16 @@ function formatLocation(location: string): string {
 
 interface Props {
   items: SiteIndexEntry[];
-  trackedIds: Set<string>;
-  onToggleTrack: (item: SiteIndexEntry) => void;
+  // Omit both to render without the bookmark column (e.g. the company page).
+  trackedIds?: Set<string>;
+  onToggleTrack?: (item: SiteIndexEntry) => void;
   // id → human "why this ranked here" reasons, only passed when the
   // "Best match" sort is active. Absent means don't render match chips.
   matchReasons?: Map<string, string[]>;
 }
 
 export default function OpportunityTable({ items, trackedIds, onToggleTrack, matchReasons }: Props) {
+  const showBookmark = !!onToggleTrack;
   // Columns adapt to what's actually in view: "Level" only means something
   // for jobs, so it's dropped entirely once the list is all hackathons/
   // events, and the last column is relabelled from "Age" (when a job was
@@ -49,9 +52,11 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack, mat
       <table className="w-full min-w-[720px] border-collapse text-sm">
         <thead>
           <tr className="bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500 dark:bg-slate-900 dark:text-slate-400">
-            <th className="px-3 py-2">
-              <span className="sr-only">Track</span>
-            </th>
+            {showBookmark && (
+              <th className="px-3 py-2">
+                <span className="sr-only">Track</span>
+              </th>
+            )}
             <th className="px-3 py-2">Company</th>
             <th className="px-3 py-2">Title</th>
             <th className="px-3 py-2">Kind</th>
@@ -68,20 +73,31 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack, mat
               key={item.id}
               className="row-enter border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
             >
-              <td className="px-3 py-2">
-                <BookmarkButton
-                  tracked={trackedIds.has(item.id)}
-                  onToggle={() => onToggleTrack(item)}
-                  label={`${company} — ${item.title}`}
-                />
-              </td>
+              {showBookmark && (
+                <td className="px-3 py-2">
+                  <BookmarkButton
+                    tracked={!!trackedIds?.has(item.id)}
+                    onToggle={() => onToggleTrack?.(item)}
+                    label={`${company} — ${item.title}`}
+                  />
+                </td>
+              )}
               <td className="px-3 py-2 font-medium text-slate-900 dark:text-slate-100">
                 <div className="flex items-center gap-2">
                   <CompanyAvatar
                     company={company}
                     fallbackUrl={item.kind === "job" ? undefined : item.url}
                   />
-                  <span>{company}</span>
+                  {item.kind === "job" ? (
+                    <a
+                      href={`${BASE_URL}company?c=${encodeURIComponent(company)}`}
+                      className="hover:text-teal-700 hover:underline dark:hover:text-teal-400"
+                    >
+                      {company}
+                    </a>
+                  ) : (
+                    <span>{company}</span>
+                  )}
                 </div>
               </td>
               <td className="px-3 py-2">

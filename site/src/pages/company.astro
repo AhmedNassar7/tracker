@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CompanyPage from "../components/CompanyPage";
+---
+
+<Layout
+	title="Company — tracker"
+	description="Every open role at one company, with a level and region breakdown — built from the same hourly data as the main list."
+>
+	<CompanyPage client:load />
+</Layout>
