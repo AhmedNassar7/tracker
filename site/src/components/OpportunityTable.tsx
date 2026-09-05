@@ -7,6 +7,7 @@ const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
   job: "Job",
   hackathon: "Hackathon",
   event: "Event",
+  board: "Board",
 };
 
 // The curated layer renders multi-location postings as an HTML

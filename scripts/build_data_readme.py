@@ -22,6 +22,7 @@ from company_names import prettify_company_name
 
 CURATED_JSON = DATA_OUT / "jobs-global.json"
 PUBLIC_JSON = DATA_OUT / "public-opportunities.json"
+AGGREGATE_LINKS_CONFIG = ROOT / "config" / "aggregate_links.yml"
 ROOT_README = ROOT / "README.md"
 DATA_README = DATA_OUT / "README.md"
 SITE_INDEX_JSON = DATA_OUT / "site-index.json"
@@ -43,6 +44,43 @@ def load_json(path: Path) -> dict:
     if not path.exists():
         return {}
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_aggregate_links(path: Path = AGGREGATE_LINKS_CONFIG) -> list[dict]:
+    """Parse config/aggregate_links.yml — one "Company | Link text | URL" line
+    per company that has no enumerable public board. Same dependency-free line
+    parsing as the other config loaders. Returns kind:"board" entries ready
+    for both the rendered README and site-index.json.
+    """
+    if not path.exists():
+        return []
+    boards: list[dict] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        parts = [p.strip() for p in stripped.split("|")]
+        if len(parts) != 3 or not all(parts):
+            continue
+        company, title, url = parts
+        if not url.startswith(("http://", "https://")):
+            continue
+        boards.append(
+            {
+                "id": hashlib.sha256(f"board|{company.lower()}|{url}".encode("utf-8")).hexdigest()[:16],
+                "kind": "board",
+                "origin": "config",
+                "company": prettify_company_name(company),
+                "title": title,
+                "location": "",
+                "age": "",
+                "posted_at": "",
+                "url": url,
+                "source": "company_board",
+                "source_url": url,
+            }
+        )
+    return boards
 
 
 def calculate_age_from_date(posted_at: str) -> str:
@@ -261,7 +299,14 @@ def fix_event_url(url: str) -> str:
     return url
 
 
-def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackathons: list[dict], events: list[dict]) -> str:
+def render_data_readme(
+    now_text: str,
+    stats: dict,
+    all_jobs: list[dict],
+    hackathons: list[dict],
+    events: list[dict],
+    boards: list[dict] | None = None,
+) -> str:
     jobs_by_bucket = {"internship": [], "early_career": [], "mid_level": []}
     for row in all_jobs:
         jobs_by_bucket[level_bucket(row["level"])].append(row)
@@ -380,6 +425,22 @@ def render_data_readme(now_text: str, stats: dict, all_jobs: list[dict], hackath
         event_name = simplify_event_name(row.get("title") or "")
         event_url = fix_event_url(row.get("url") or "")
         lines.append(f"| {row['company']} | [{event_name}]({event_url}) |")
+
+    boards = boards or []
+    if boards:
+        lines.extend([
+            "",
+            "## Browse Every Role",
+            "",
+            "Companies that run their own careers site with no public feed to pull role-by-role."
+            " Each link is a pre-filtered search on the company's own site for early-career software roles —"
+            " not a single posting, so counts above don't include these.",
+            "",
+            "| Company | Open roles |",
+            "|---|---|",
+        ])
+        for row in boards:
+            lines.append(f"| {row['company']} | [{row['title']}]({row['url']}) |")
 
     lines.extend([
         "",
@@ -541,9 +602,11 @@ def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
     return entry
 
 
-def build_site_index(curated_payload: dict, public_payload: dict) -> dict:
+def build_site_index(curated_payload: dict, public_payload: dict, boards: list[dict] | None = None) -> dict:
     """Flatten both layers' raw records into one site-sized list, reusing the
     payloads main() already loaded rather than re-reading either data file.
+    `boards` are the hand-curated kind:"board" bulk-link entries from
+    load_aggregate_links() — already in site-index shape, appended verbatim.
     """
     items: list[dict] = []
     for row in curated_payload.get("jobs", []) or []:
@@ -554,6 +617,8 @@ def build_site_index(curated_payload: dict, public_payload: dict) -> dict:
         items.append(_site_index_entry(row, kind="hackathon", origin="public"))
     for row in public_payload.get("events", []) or []:
         items.append(_site_index_entry(row, kind="event", origin="public"))
+    for board in boards or []:
+        items.append(dict(board))
 
     schema = load_schema(SITE_INDEX_SCHEMA)
     errors = validate_records(items, schema, label="site-index.json items")
@@ -670,14 +735,16 @@ def main() -> int:
         "level_counts": level_counts,
     }
 
+    boards = load_aggregate_links()
+
     now_text = datetime.date.today().isoformat()
     DATA_OUT.mkdir(parents=True, exist_ok=True)
-    DATA_README.write_text(render_data_readme(now_text, stats, all_jobs, hackathons, events), encoding="utf-8")
+    DATA_README.write_text(render_data_readme(now_text, stats, all_jobs, hackathons, events, boards), encoding="utf-8")
     ROOT_README.write_text(render_root_readme(now_text, stats), encoding="utf-8")
     print(f"Wrote {DATA_README}")
     print(f"Wrote {ROOT_README}")
 
-    site_index = build_site_index(curated_payload, public_payload)
+    site_index = build_site_index(curated_payload, public_payload, boards)
     SITE_INDEX_JSON.write_text(json.dumps(site_index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
 

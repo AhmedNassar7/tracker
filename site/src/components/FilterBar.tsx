@@ -17,6 +17,7 @@ const KIND_LABELS: Record<string, string> = {
   job: "Jobs",
   hackathon: "Hackathons",
   event: "Events",
+  board: "Company boards",
 };
 const KIND_TABS = KIND_VALUES.map((value) => ({ value, label: KIND_LABELS[value] }));
 

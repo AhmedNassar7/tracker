@@ -1,0 +1,18 @@
+# Companies that run a bespoke careers site with no public, keyless JSON board
+# the pipeline can enumerate role-by-role (Google, Meta, Microsoft, Apple, ...).
+# Instead of leaving them looking empty, each gets ONE hand-verified row that
+# links to the company's own careers search, pre-filtered to early-career
+# software roles. These render as kind:"board" ("browse every matching role at
+# X") — never as a single posting, so nothing here inflates a job count or
+# claims a role exists.
+#
+# Format (no YAML dependency, same simple line parsing as the other configs):
+#   Company | Link text | Pre-filtered careers-search URL
+# Lines starting with '#' and blank lines are ignored. Verify a URL by opening
+# it in a browser and confirming it lands on a real, filtered results page
+# before adding it.
+
+Google    | Early-career & internship software roles | https://www.google.com/about/careers/applications/jobs/results/?target_level=EARLY&target_level=INTERN_AND_APPRENTICE&q=Software%20Engineer
+Meta      | Student & university-grad engineering roles | https://www.metacareers.com/jobs?roles[0]=Internship&roles[1]=University%20Grad&teams[0]=Software%20Engineering
+Microsoft | Intern & recent-graduate software roles | https://jobs.careers.microsoft.com/global/en/search?q=software%20engineer&exp=Students%20and%20graduates&l=en_us
+Apple     | Software internships & early-career roles | https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN&team=apps-and-frameworks-SFTWR-AF&team=cloud-and-infrastructure-SFTWR-CLD

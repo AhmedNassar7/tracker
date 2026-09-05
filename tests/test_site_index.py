@@ -187,6 +187,22 @@ def main():
         sv.validate_records(index["items"], site_index_schema, label="items") == [],
     ))
 
+    boards = bdr.load_aggregate_links()
+    run("load_aggregate_links parses the shipped config into kind:'board' entries", lambda: check(
+        "aggregate links parsed",
+        len(boards) >= 1
+        and all(b["kind"] == "board" and b["origin"] == "config" for b in boards)
+        and all(b["url"].startswith("http") and b["source"] == "company_board" for b in boards)
+        and all(len(b["id"]) == 16 for b in boards),
+    ))
+    index_with_boards = bdr.build_site_index(curated_payload, public_payload, boards)
+    run("board entries are appended to site-index and pass schema validation", lambda: check(
+        "boards in index",
+        index_with_boards["count"] == len(index["items"]) + len(boards)
+        and sv.validate_records(index_with_boards["items"], site_index_schema, label="items") == []
+        and [i for i in index_with_boards["items"] if i["kind"] == "board"],
+    ))
+
     invalid_curated_job = {**curated_job, "level": "not_a_real_level"}
 
     def build_with_invalid_row():

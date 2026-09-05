@@ -12,13 +12,13 @@
     },
     "kind": {
       "type": "string",
-      "enum": ["job", "hackathon", "event"],
-      "description": "'job' for every data/jobs-global.json entry and every kind:'job' public entry; 'hackathon'/'event' pass straight through from the public layer"
+      "enum": ["job", "hackathon", "event", "board"],
+      "description": "'job' for every data/jobs-global.json entry and every kind:'job' public entry; 'hackathon'/'event' pass straight through from the public layer; 'board' is a hand-curated bulk link to a company's own careers search (config/aggregate_links.yml) for companies with no enumerable public board — 'title' is link text, not a role, and it never counts toward a job total"
     },
     "origin": {
       "type": "string",
-      "enum": ["curated", "public"],
-      "description": "Which pipeline layer produced this entry — data/jobs-global.json ('curated') or data/public-opportunities.json ('public')"
+      "enum": ["curated", "public", "config"],
+      "description": "Which pipeline layer produced this entry — data/jobs-global.json ('curated'), data/public-opportunities.json ('public'), or a hand-maintained config file ('config', used only by kind:'board')"
     },
     "company": {
       "type": "string",

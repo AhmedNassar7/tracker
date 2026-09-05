@@ -21,7 +21,7 @@ export const DEFAULT_FILTERS: FilterState = {
 // Single source of truth for what each dropdown may legally hold — used both
 // to build FilterBar's option lists and to validate incoming URL query
 // params below, so the two can never drift apart.
-export const KIND_VALUES: readonly (SiteIndexKind | "all")[] = ["all", "job", "hackathon", "event"];
+export const KIND_VALUES: readonly (SiteIndexKind | "all")[] = ["all", "job", "hackathon", "event", "board"];
 export const LEVEL_VALUES: readonly Level[] = [
   "internship",
   "new_grad",
