@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 17:51:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 18:20:50 GMT</lastBuildDate>
     <item>
       <title>Devfolio — .hack '26</title>
       <link>https://dothack26.devfolio.co</link>
@@ -45,13 +45,6 @@
       <link>https://codebox-hacks.devpost.com/</link>
       <guid isPermaLink="false">fb89b382f1e278a0</guid>
       <description>Cal Poly Advanced Technology Lab · 1 day left</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devin — Agentic Hackathon</title>
-      <link>https://agentic-hackathon.devpost.com/</link>
-      <guid isPermaLink="false">25f83e543aed0dfa</guid>
-      <description>BRAC University · 1 day left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -622,6 +615,13 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devin — Agentic Hackathon</title>
+      <link>https://agentic-hackathon.devpost.com/</link>
+      <guid isPermaLink="false">25f83e543aed0dfa</guid>
+      <description>BRAC University · about 24 hours left</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Dsmhack — Hack Away Hunger: Food Insecurity Challenge</title>
       <link>https://hack-away-hunger.devpost.com/</link>
       <guid isPermaLink="false">8ce674c48f25ad3e</guid>
@@ -639,7 +639,7 @@
       <title>Hack Club — Graphiques Innovation Challenge</title>
       <link>https://graphiques-challenge.devpost.com/</link>
       <guid isPermaLink="false">a1b0841eccae8d89</guid>
-      <description>Online · about 9 hours left</description>
+      <description>Online · about 3 hours left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -723,7 +723,7 @@
       <title>Women in Tech Unimelb — Code to Connect: Women in Tech Hackathon 2026</title>
       <link>https://code-to-connect-wit.devpost.com/</link>
       <guid isPermaLink="false">a22848c9c17f8c98</guid>
-      <description>Online · about 21 hours left</description>
+      <description>Online · about 20 hours left</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
