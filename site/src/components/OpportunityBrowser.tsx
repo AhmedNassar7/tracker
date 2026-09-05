@@ -11,9 +11,9 @@ import { listApplications, STATUS_LABELS, trackApplication, untrackApplication, 
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import FilterBar from "./FilterBar";
-import FreshnessPulse from "./FreshnessPulse";
 import OpportunityTable from "./OpportunityTable";
 import SkeletonTable from "./SkeletonTable";
+import SnapshotHero from "./SnapshotHero";
 
 type LoadState =
   | { status: "loading" }
@@ -156,6 +156,16 @@ export default function OpportunityBrowser() {
     }
   }
 
+  // A hero stat-chip click replaces the filter set with just that facet
+  // (plus resets any "only new" narrowing), so the list jumps straight to
+  // what the chip counts. Merges onto DEFAULT_FILTERS, not the current
+  // filters, so it's a clean pivot rather than an additive narrowing.
+  function handleQuickFilter(patch: Partial<FilterState>) {
+    setShowOnlyNew(false);
+    setFilters({ ...DEFAULT_FILTERS, ...patch });
+    if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   // replaceState, not pushState — a filtered view is still a link someone
   // can copy and share, but adjusting a dropdown shouldn't spam the
   // browser's back-button history with every keystroke.
@@ -213,11 +223,7 @@ export default function OpportunityBrowser() {
 
   return (
     <div>
-      <p className="mb-4 flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
-        <FreshnessPulse />
-        {data.count.toLocaleString()} opportunities tracked · data as of{" "}
-        {formatGeneratedAt(data.generated_at)}
-      </p>
+      <SnapshotHero items={data.items} generatedAt={data.generated_at} onQuickFilter={handleQuickFilter} />
 
       {newIds.size > 0 && !bannerDismissed && (
         <div className="mb-4 flex flex-wrap items-center gap-3 rounded-md border border-teal-200 bg-teal-50 px-4 py-2.5 text-sm dark:border-teal-900 dark:bg-teal-950">

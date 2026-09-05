@@ -45,3 +45,23 @@
     animation: row-enter 0.25s ease-out;
   }
 }
+
+/* Snapshot hero entrance (SnapshotHero.tsx). Same guarded-plain-CSS approach
+   as .row-enter — a single gentle fade-up on first paint, never on reduced
+   motion. Deliberately subtle: the hero states real facts (open count,
+   last-updated, 30-day trend), the motion just settles it in. */
+@keyframes hero-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-enter {
+    animation: hero-enter 0.4s ease-out both;
+  }
+}
