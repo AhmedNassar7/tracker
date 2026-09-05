@@ -16,7 +16,6 @@ There is no database. All state is JSON files committed to the repo under [data/
 | SimplifyJobs New Grad | `raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/README.md` | Markdown (pipe table + HTML table) |
 | speedyapply SWE / AI | `raw.githubusercontent.com/speedyapply/2027-{SWE,AI}-College-Jobs/main/README.md` | Markdown pipe table |
 | zapplyjobs (6 boards: New Grad SWE, New Grad all-disciplines, Internships, Data Science, Canada Jobs, Canada Internships) | `raw.githubusercontent.com/zapplyjobs/<repo>/main/README.md` | Markdown pipe table |
-| vanshb03 Summer Internships / New Grad | `raw.githubusercontent.com/vanshb03/<repo>/main/README.md` | Markdown pipe table (uses "↳" ditto rows) |
 | LorenzoLaCorte European Tech | `raw.githubusercontent.com/LorenzoLaCorte/european-tech-internships-2026/main/README.md` | Markdown pipe table (all-lowercase company names, title-cased on ingest) |
 | hanzili Canada | `raw.githubusercontent.com/hanzili/canada_sde_junior_new_grad_position/main/README.md` | Markdown pipe table (reversed title/company column order) |
 | ambicuity New-Grad-Jobs | `https://jobs.riteshrana.engineer/jobs.json` | JSON API (live feed, refreshed every 5 min upstream — not a README scrape) |

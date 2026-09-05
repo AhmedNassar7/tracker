@@ -19,7 +19,7 @@ The "deployment target" is the repository itself: `data/*.json` and the two `REA
 flowchart TB
     subgraph External["External sources (15+)"]
         direction TB
-        Curated["Curated APIs & READMEs\nRemotive · ArbeitNow · SimplifyJobs\nspeedyapply · zapplyjobs · vanshb03\nLorenzoLaCorte · hanzili · ambicuity"]
+        Curated["Curated APIs & READMEs\nRemotive · ArbeitNow · SimplifyJobs\nspeedyapply · zapplyjobs\nLorenzoLaCorte · hanzili · ambicuity"]
         ATS["ATS APIs\nGreenhouse · Lever · Workday\nAshby · SmartRecruiters"]
         Events["Devpost · Luma"]
     end
@@ -83,7 +83,7 @@ flowchart TB
 | Classification patterns | [scripts/patterns.py](../scripts/patterns.py) | Central regexes for level/region/remote-type/country/role detection, shared by both fetch layers |
 | Networking | [scripts/net.py](../scripts/net.py) | `fetch_with_retry` (retries transient network errors and 429/5xx HTTP responses with backoff) and `run_concurrently` (thread-pool fan-out with deterministic, order-preserving results), shared by both fetch layers |
 | SimplifyJobs parser | [scripts/simplify_jobs_parser.py](../scripts/simplify_jobs_parser.py) | Parses SimplifyJobs' specific pipe-table + HTML-table README format, including multi-location `<details>` cells |
-| Generic community-board parser | [scripts/community_board_parser.py](../scripts/community_board_parser.py) | Shape-based parser (not fixed-column) for speedyapply/zapplyjobs/vanshb03/hanzili/LorenzoLaCorte README tables |
+| Generic community-board parser | [scripts/community_board_parser.py](../scripts/community_board_parser.py) | Shape-based parser (not fixed-column) for speedyapply/zapplyjobs/hanzili/LorenzoLaCorte README tables |
 | Public/auto-discovery layer | [scripts/public_sources.py](../scripts/public_sources.py) | Auto-discovers Greenhouse/Lever/Workday boards from curated job URLs, polls Ashby/SmartRecruiters from config, pulls Devpost hackathons and Luma events, writes `public-opportunities.json` |
 | Public output writer | [scripts/public_outputs.py](../scripts/public_outputs.py) | Splits rows by `kind` (job/hackathon/event) and writes the combined JSON payload |
 | README renderer | [scripts/build_data_readme.py](../scripts/build_data_readme.py) | Loads both JSON outputs, merges + buckets by level, filters stale (>180d) postings, renders `README.md` and `data/README.md` |
@@ -141,7 +141,6 @@ graph LR
         SimplifyN["SimplifyJobs\nNew-Grad repo"]
         Speedy["speedyapply\nSWE + AI repos"]
         Zapply["zapplyjobs\n6 repos"]
-        Vansh["vanshb03\n2 repos"]
         Lorenzo["LorenzoLaCorte\nEU repo"]
         Hanzili["hanzili\nCanada repo"]
         Ambicuity["ambicuity\nJSON feed"]
@@ -165,7 +164,6 @@ graph LR
     SimplifyN --> Tracker
     Speedy --> Tracker
     Zapply --> Tracker
-    Vansh --> Tracker
     Lorenzo --> Tracker
     Hanzili --> Tracker
     Ambicuity --> Tracker

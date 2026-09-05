@@ -715,31 +715,18 @@ def fetch_zapplyjobs_canada_internships():
         company_idx=0, title_idx=1, location_idx=2,
     )
 
-def fetch_vanshb03_summer_internships():
-    """Fetch vanshb03/Summer2027-Internships' README job table.
-
-    One of the most-starred internship trackers on GitHub. Consecutive roles
-    at the same company are grouped under a single header row with a "↳"
-    marker instead of repeating the company name — parse_job_table carries
-    the company forward for those rows.
-    """
-    return _fetch_community_board(
-        "vanshb03_summer_internships",
-        "https://github.com/vanshb03/Summer2027-Internships",
-        "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/README.md",
-        "vanshb03_summer_internships.md",
-        company_idx=0, title_idx=1, location_idx=2,
-    )
-
-def fetch_vanshb03_newgrad():
-    """Fetch vanshb03/New-Grad-2027's README job table."""
-    return _fetch_community_board(
-        "vanshb03_newgrad",
-        "https://github.com/vanshb03/New-Grad-2027",
-        "https://raw.githubusercontent.com/vanshb03/New-Grad-2027/main/README.md",
-        "vanshb03_newgrad.md",
-        company_idx=0, title_idx=1, location_idx=2,
-    )
+# vanshb03/{Summer2027-Internships,New-Grad-2027} were removed as sources on
+# 2026-09-06: in practice they were the largest single contributor of
+# dead/"job not found" links. Its rows point disproportionately at soft-404-
+# prone hosts (joinbytedance.com, jobs.apple.com, metacareers.com, iCIMS) and
+# at *stale* pages the link check can't flag — its Amazon links carried job
+# ids around 3,000,000 (current Amazon ids are ~10,500,000, i.e. years old)
+# and every Microsoft row pointed at one generic `apply.careers.microsoft.com
+# /careers?query=intern…` search URL, not an actual posting. Everything it
+# covered we already get, fresher, from a live source: Amazon via fetch_amazon,
+# Adobe/Roblox/Stripe/Duolingo/Pinterest via their Greenhouse/Ashby/Workday
+# boards, and Google/Meta/Apple/Microsoft via config/aggregate_links.yml +
+# SimplifyJobs. Don't re-add it without checking the link-rot rate first.
 
 def fetch_lorenzolacorte_eu():
     """Fetch LorenzoLaCorte/european-tech-internships-2026's README job table.
@@ -1069,8 +1056,6 @@ SOURCE_FETCHER_NAMES = [
     "fetch_zapplyjobs_datascience",
     "fetch_zapplyjobs_canada",
     "fetch_zapplyjobs_canada_internships",
-    "fetch_vanshb03_summer_internships",
-    "fetch_vanshb03_newgrad",
     "fetch_lorenzolacorte_eu",
     "fetch_hanzili_canada",
     "fetch_ambicuity_newgrad",
@@ -1083,7 +1068,7 @@ def _call_fetcher_by_name(name):
     # tests can still patch e.g. fetch.fetch_remotive on the module.
     return globals()[name]()
 
-# Most of these 17 sources (SimplifyJobs, speedyapply, zapplyjobs, vanshb03,
+# Most of these sources (SimplifyJobs, speedyapply, zapplyjobs,
 # LorenzoLaCorte, hanzili) are all README files on raw.githubusercontent.com
 # — one shared host, same "don't burst too hard against one API" reasoning
 # as SHARED_HOST_WORKERS in public_sources.py. Kept a bit higher than that

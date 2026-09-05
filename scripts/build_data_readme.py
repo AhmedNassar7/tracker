@@ -292,7 +292,6 @@ def format_age(age_str: str) -> str:
 # out much sooner, per the user's "if not sure, drop it" preference.
 COMMUNITY_TRACKER_SOURCES = frozenset({
     "simplify_internships", "simplify_newgrad",
-    "vanshb03_newgrad", "vanshb03_summer_internships",
     "speedyapply_swe", "speedyapply_ai",
     "zapplyjobs_internships", "zapplyjobs_newgrad", "zapplyjobs_all_newgrad",
     "zapplyjobs_canada", "zapplyjobs_canada_internships", "zapplyjobs_datascience",

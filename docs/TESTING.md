@@ -41,7 +41,7 @@ There is no test runner flag to select one test — to isolate a single check wh
 | `fetch_simplify_internships` / `fetch_simplify_newgrad` | `tests/test_fetch.py` | Pipe-table parsing, HTML-table parsing with `<details>` multi-location, inactive-roles section exclusion |
 | `fetch_speedyapply_swe` | `tests/test_fetch.py` | Generic community-board parser handling a missing trailing (salary) column |
 | `fetch_zapplyjobs_newgrad` | `tests/test_fetch.py` | Markdown-bold company names, fuzzy age text ("Recently") instead of a day count |
-| `fetch_vanshb03_summer_internships` | `tests/test_fetch.py` | "↳" ditto-row company carry-forward |
+| community-board parser (`fetch_speedyapply_swe`) | `tests/test_fetch.py` | "↳" ditto-row company carry-forward; drops rows the source marked closed (🔒 / strikethrough) |
 | `fetch_lorenzolacorte_eu` | `tests/test_fetch.py` | All-lowercase company title-casing, trailing empty cell, EMEA/country tagging |
 | `fetch_hanzili_canada` | `tests/test_fetch.py` | Reversed title/company column order, angle-bracket-wrapped URL |
 | `fetch_ambicuity_newgrad` | `tests/test_fetch.py` | JSON feed fetcher, `is_closed` postings skipped |

@@ -14,8 +14,6 @@ Every row from these sources is checked against [config/companies_allowlist.yml]
 | SimplifyJobs — New Grad | [repo](https://github.com/SimplifyJobs/New-Grad-Positions) | Its new-grad counterpart |
 | speedyapply — SWE | [repo](https://github.com/speedyapply/2027-SWE-College-Jobs) | Community new-grad/intern SWE tracker |
 | speedyapply — AI | [repo](https://github.com/speedyapply/2027-AI-College-Jobs) | Same tracker family, AI/ML-focused |
-| vanshb03 — Summer Internships | [repo](https://github.com/vanshb03/Summer2027-Internships) | One of the most-starred internship trackers on GitHub |
-| vanshb03 — New Grad | [repo](https://github.com/vanshb03/New-Grad-2027) | Its new-grad counterpart |
 | zapplyjobs — New Grad SWE | [repo](https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027) | Software-engineering-specific new-grad board |
 | zapplyjobs — New Grad (all disciplines) | [repo](https://github.com/zapplyjobs/New-Grad-Jobs-2027) | Broader new-grad board, not limited to SWE |
 | zapplyjobs — Internships | [repo](https://github.com/zapplyjobs/Internships-2027) | General internship board |
@@ -48,6 +46,8 @@ Widens coverage beyond the allowlist-gated curated layer.
 ## Considered, not added
 
 - **workopia/UK-Graduate-Jobs** and its sibling country repos (France, Germany, Spain, Netherlands, etc.) — a large, actively-updated family of graduate-job trackers. Skipped because their apply links point at Workopia's own site (an intermediary/lead-gen page), not the employer's original posting, which breaks this repo's "every row links straight to the real application page" rule — and the table is HTML, not a plain pipe-table, so it wouldn't reuse the existing generic parser.
+- **jobright-ai/2026-Software-Engineer-New-Grad** — actively maintained, but every apply link routes through `jobright.ai/jobs/info/<id>?utm_campaign=…` (its own tracking redirect), not the employer's page — same rule as workopia. Also caps its list to "the last 7 days" and pushes users to a paid Airtable link for the rest.
+- **vanshb03/{Summer2027-Internships, New-Grad-2027}** — *was* a source; **removed 2026-09-06**. In practice it was the single biggest contributor of dead / "job not found" links: its rows skew heavily toward soft-404-prone hosts (joinbytedance.com, jobs.apple.com, metacareers.com, iCIMS), its Amazon links carried job ids ~3,000,000 (years stale — current ids are ~10,500,000), and every Microsoft row pointed at one generic `apply.careers.microsoft.com/careers?query=intern…` search URL rather than a real posting. Everything it covered is already pulled fresher from a live source (Amazon via its own API; Adobe/Roblox/Stripe/Duolingo/Pinterest via their Greenhouse/Ashby/Workday boards; Google/Meta/Apple/Microsoft via `config/aggregate_links.yml` + SimplifyJobs).
 
 ## Notes
 

@@ -212,7 +212,7 @@ def main():
     # jobs.apple.com / joinbytedance.com detail pages always return 200 —
     # a live posting is server-rendered with an og:title tag, an expired one
     # falls back to a generic shell with none (confirmed by hand against
-    # stale vanshb03 Apple rows).
+    # stale community-tracker Apple rows).
     _apple_url = "https://jobs.apple.com/en-us/details/200646547-3956/software-engineer-is-t-early-career"
     with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b'<meta property="og:title" content="Software Engineer - Careers at Apple">')):
         run("check_url_alive treats an Apple details page with an og:title as alive", lambda: check(
@@ -411,10 +411,11 @@ def main():
         and zapplyjobs_rows[0]["age"] == "Recently"
     ))
 
-    # vanshb03-style table: raw `<a href>` apply link (no markdown/img
-    # wrapper), real "Mon DD" posted dates (not parsed as an age), and a "↳"
-    # marker on the second row that should carry the company from the row above.
-    vanshb03_md = "\n".join([
+    # Community-tracker table (parse_job_table, shared by speedyapply/zapplyjobs/
+    # hanzili): raw `<a href>` apply link, real "Mon DD" posted dates (not
+    # parsed as an age), and a "↳" ditto marker on the second row that should
+    # carry the company forward from the row above.
+    ditto_md = "\n".join([
         "| Company | Role | Location | Application/Link | Date Posted |",
         "| --- | --- | --- | --- | --- |",
         '| Google | Software Engineer Intern | Remote - USA | <a href="https://example.com/vb1">Apply</a> | Jul 28 |',
@@ -425,25 +426,25 @@ def main():
         data_raw = Path(tmp)
 
         def fake_fetch(_url, dest, timeout=25):
-            dest.write_text(vanshb03_md, encoding="utf-8")
+            dest.write_text(ditto_md, encoding="utf-8")
             return True
 
         with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["google"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
-            vanshb03_rows = fetch.fetch_vanshb03_summer_internships()
-    run("vanshb03 fetch carries the company forward across a ↓ ditto row", lambda: check(
-        "vanshb03 fetch carries the company forward across a ditto row",
-        len(vanshb03_rows) == 2
-        and vanshb03_rows[0]["company"] == "Google"
-        and vanshb03_rows[0]["url"] == "https://example.com/vb1"
-        and vanshb03_rows[1]["company"] == "Google"
-        and vanshb03_rows[1]["title"] == "Backend Engineer Intern"
-        and vanshb03_rows[1]["url"] == "https://example.com/vb2",
+            ditto_rows = fetch.fetch_speedyapply_swe()
+    run("community-board fetch carries the company forward across a ↓ ditto row", lambda: check(
+        "community-board fetch carries the company forward across a ditto row",
+        len(ditto_rows) == 2
+        and ditto_rows[0]["company"] == "Google"
+        and ditto_rows[0]["url"] == "https://example.com/vb1"
+        and ditto_rows[1]["company"] == "Google"
+        and ditto_rows[1]["title"] == "Backend Engineer Intern"
+        and ditto_rows[1]["url"] == "https://example.com/vb2",
     ))
 
-    # vanshb03 flags a closed posting with a bare 🔒 status cell ("🔒 - Job
-    # application is closed" in its legend). A struck-through title means the
-    # same. Both should be dropped so users stop hitting dead apply links.
-    vanshb03_closed_md = "\n".join([
+    # A community tracker flags a closed posting with a bare 🔒 status cell
+    # ("🔒 - Job application is closed" in its legend). A struck-through title
+    # means the same. Both should be dropped so users stop hitting dead links.
+    closed_md = "\n".join([
         "| Company | Role | Location | Application/Link | Status | Date Posted |",
         "| --- | --- | --- | --- | --- | --- |",
         '| Google | Software Engineer Intern | Remote - USA | <a href="https://example.com/open">Apply</a> | | Jul 28 |',
@@ -454,16 +455,16 @@ def main():
         data_raw = Path(tmp)
 
         def fake_fetch(_url, dest, timeout=25):
-            dest.write_text(vanshb03_closed_md, encoding="utf-8")
+            dest.write_text(closed_md, encoding="utf-8")
             return True
 
         with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["google"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
-            vanshb03_closed_rows = fetch.fetch_vanshb03_newgrad()
-    run("vanshb03 fetch drops rows the source marked closed (🔒 / strikethrough)", lambda: check(
-        "vanshb03 fetch drops rows the source marked closed",
-        len(vanshb03_closed_rows) == 1
-        and vanshb03_closed_rows[0]["url"] == "https://example.com/open",
-        details=str([(r["title"], r["url"]) for r in vanshb03_closed_rows]),
+            closed_rows = fetch.fetch_speedyapply_swe()
+    run("community-board fetch drops rows the source marked closed (🔒 / strikethrough)", lambda: check(
+        "community-board fetch drops rows the source marked closed",
+        len(closed_rows) == 1
+        and closed_rows[0]["url"] == "https://example.com/open",
+        details=str([(r["title"], r["url"]) for r in closed_rows]),
     ))
 
     run("prettify_company_name fixes token-cased and lowercase names", lambda: check(

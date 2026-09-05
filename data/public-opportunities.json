@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T22:56:39Z",
-  "total": 2658,
+  "generated_at": "2026-09-05T23:17:29Z",
+  "total": 2656,
   "jobs": [
     {
       "id": "0f363b1969352c1b",
@@ -38558,6 +38558,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "25ae2513702e4db3",
+      "kind": "hackathon",
+      "company": "CAST-GNY",
+      "title": "CAST-GNY Startup Pitch Competition 2026",
+      "location": "Fordham University School of Law",
+      "date": "14 days left",
+      "posted_at": "2026-09-05",
+      "url": "https://castgnypitch2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "8902011d35216ef4",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -38568,18 +38580,6 @@
       "url": "https://avalon-openhack.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "25ae2513702e4db3",
-      "kind": "hackathon",
-      "company": "CAST-GNY",
-      "title": "CAST-GNY Startup Pitch Competition 2026",
-      "location": "Fordham University School of Law",
-      "date": "15 days left",
-      "posted_at": "2026-09-05",
-      "url": "https://castgnypitch2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "84fd0eca7466b4a1",
@@ -39367,7 +39367,7 @@
       "company": "Sydney University Experience Designers",
       "title": "SUEDE Designathon 2026",
       "location": "Wilkinson Building",
-      "date": "about 6 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-09-05",
       "url": "https://suede-designathon-2026.devpost.com/",
       "source": "devpost",
@@ -39379,7 +39379,7 @@
       "company": "Women in Tech Unimelb",
       "title": "Code to Connect: Women in Tech Hackathon 2026",
       "location": "Online",
-      "date": "about 16 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-09-05",
       "url": "https://code-to-connect-wit.devpost.com/",
       "source": "devpost",
@@ -39496,18 +39496,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-05",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -39516,18 +39504,6 @@
       "date": "",
       "posted_at": "2026-09-05",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-05",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
