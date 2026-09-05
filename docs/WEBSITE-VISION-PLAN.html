@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>tracker — Website Vision &amp; Build Plan</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbfbfa;
+    --surface: #ffffff;
+    --surface-2: #f3f4f6;
+    --border: #e5e7eb;
+    --text: #1f2937;
+    --text-dim: #6b7280;
+    --accent: #0f766e;
+    --accent-soft: #ccfbf1;
+    --warn: #b45309;
+    --danger: #b91c1c;
+    --ok: #15803d;
+    --radius: 10px;
+    --maxw: 900px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0f14;
+      --surface: #121821;
+      --surface-2: #1b232e;
+      --border: #263241;
+      --text: #e5e9ee;
+      --text-dim: #9aa7b4;
+      --accent: #2dd4bf;
+      --accent-soft: #12312e;
+      --warn: #f59e0b;
+      --danger: #f87171;
+      --ok: #4ade80;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px 120px; }
+  header.hero {
+    padding: 56px 20px 40px;
+    background: radial-gradient(1200px 400px at 20% -10%, var(--accent-soft), transparent 70%);
+    border-bottom: 1px solid var(--border);
+  }
+  header.hero .wrap { padding-bottom: 0; }
+  .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: 12px; color: var(--accent); font-weight: 700; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 10px 0 8px; }
+  .sub { color: var(--text-dim); font-size: 16px; max-width: 62ch; }
+  .meta { margin-top: 18px; font-size: 13px; color: var(--text-dim); }
+  nav.toc {
+    position: sticky; top: 0; z-index: 5;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 0;
+  }
+  nav.toc .wrap { padding-bottom: 0; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  nav.toc a { font-size: 12.5px; color: var(--text-dim); }
+  nav.toc a:hover { color: var(--accent); }
+  h2 { font-size: 23px; margin: 52px 0 6px; padding-top: 8px; }
+  h2 .num { color: var(--text-dim); font-weight: 600; margin-right: 8px; }
+  h3 { font-size: 17px; margin: 28px 0 4px; }
+  h4 { font-size: 14px; margin: 18px 0 2px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-dim); }
+  p { margin: 8px 0; }
+  ul, ol { margin: 8px 0; padding-left: 22px; }
+  li { margin: 4px 0; }
+  code { background: var(--surface-2); border-radius: 5px; padding: 1px 5px; font: 12.5px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; margin: 14px 0; }
+  .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13.5px; display: block; overflow-x: auto; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { background: var(--surface-2); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--text-dim); }
+  .pill { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); }
+  .p-now { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .p-next { background: #1e293b1a; }
+  .p-later { background: transparent; color: var(--text-dim); }
+  .tag-done { color: var(--ok); font-weight: 700; }
+  .tag-partial { color: var(--warn); font-weight: 700; }
+  .callout { border-left: 3px solid var(--accent); background: var(--surface); padding: 10px 14px; border-radius: 0 8px 8px 0; margin: 14px 0; }
+  .callout.warn { border-left-color: var(--warn); }
+  .callout.danger { border-left-color: var(--danger); }
+  hr { border: none; border-top: 1px solid var(--border); margin: 44px 0; }
+  .foot { margin-top: 60px; font-size: 12.5px; color: var(--text-dim); }
+  .lede { font-size: 16px; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Product &amp; Engineering Plan</div>
+    <h1>tracker → a place people <em>want</em> to open every morning</h1>
+    <p class="sub">From a plain hourly list of software jobs to a fast, honest, beautifully-built career companion — data you can trust, a story worth reading, and enough personalisation that starring it and coming back daily feels natural. No sign-up, no paywall, no server, no fabricated data.</p>
+    <div class="meta">Prepared 2026-09-05 · Companion to <code>C:\Users\User\.claude\plans\immutable-napping-valley.md</code> (the closed-job / coverage / formatting work already in progress) · Nothing in sections 3–9 is built yet — this is for your review and prioritisation.</div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="wrap">
+    <a href="#state">0 · Where we are</a>
+    <a href="#north">1 · North star</a>
+    <a href="#principles">2 · Principles &amp; guardrails</a>
+    <a href="#competitive">3 · What the best platforms do</a>
+    <a href="#data">4 · Data quality &amp; trust</a>
+    <a href="#ux">5 · UX, motion &amp; storytelling</a>
+    <a href="#logos">6 · Company logos</a>
+    <a href="#personal">7 · Personalisation &amp; analytics</a>
+    <a href="#arch">8 · System design &amp; architecture</a>
+    <a href="#docs">9 · Docs, resources &amp; repo</a>
+    <a href="#roadmap">10 · Roadmap</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<h2 id="state"><span class="num">0</span>Where we are today</h2>
+<p class="lede">The project already works and is genuinely useful. This plan builds on it — it does not restart it.</p>
+<div class="grid">
+  <div class="card">
+    <h4>The pipeline</h4>
+    <p>Pure Python stdlib, no deps. Two collector layers — curated (<code>fetch.py</code>, ~17 allowlisted sources) and public (<code>public_sources.py</code>, Greenhouse/Lever/Workday/Ashby/SmartRecruiters + hackathons/events). Merged at render time by <code>build_data_readme.py</code> into <code>README.md</code>, <code>data/README.md</code>, <code>data/site-index.json</code>, RSS feeds, and a 90-day <code>stats-history.json</code>. Runs hourly on GitHub Actions, auto-merges.</p>
+  </div>
+  <div class="card">
+    <h4>The site</h4>
+    <p>Astro + React islands in <code>site/</code>, deployed separately, fetches <code>site-index.json</code> at runtime from jsDelivr (raw GitHub fallback) so data is ≤1h stale without redeploying. Pages: opportunities browser, global dashboard, personal application tracker (IndexedDB, local-first), resources. Tailwind, light/dark.</p>
+  </div>
+  <div class="card">
+    <h4>Just shipped <span class="tag-done">(this work stream)</span></h4>
+    <ul>
+      <li>Closed-job detection: LinkedIn guest-API marker check, Apple / ByteDance soft-404 rules, upstream <code>🔒</code>/strikethrough row skipping.</li>
+      <li>Coverage: Amazon pagination 3→10 pages; unknown-level Amazon roles kept (minus senior titles).</li>
+      <li>Formatting: <code>scripts/company_names.py</code> normaliser (<code>Openai→OpenAI</code>, <code>Mongodb→MongoDB</code>…); site shows <code>New grad</code> not <code>new_grad</code>.</li>
+      <li>Hackathons/events: closed ones dropped, soonest-deadline-first ordering, per-kind columns (no “Level” on non-jobs, “Deadline” column).</li>
+    </ul>
+  </div>
+</div>
+
+<h2 id="north"><span class="num">1</span>North star</h2>
+<p>Three sentences to measure every feature against:</p>
+<ol>
+  <li><strong>Trust:</strong> if a listing is on the site, the apply link works and the role is really open. If we’re not sure, we don’t show it.</li>
+  <li><strong>Speed &amp; clarity:</strong> a student on a slow connection finds a relevant, fresh role in under 30 seconds, on their phone, with no account.</li>
+  <li><strong>Habit:</strong> there’s a reason to come back tomorrow — new roles matched to me, a market story I want to follow, my own application funnel, a streak.</li>
+</ol>
+<p>Success signals: GitHub stars, returning visitors, RSS/digest subscribers, “tracked applications” created, low bounce on the dashboard.</p>
+
+<h2 id="principles"><span class="num">2</span>Principles &amp; guardrails <span class="pill p-now">non-negotiable</span></h2>
+<table>
+  <tr><th>Keep</th><th>Why</th></tr>
+  <tr><td>No server, no database, no paid APIs</td><td>The whole project’s durability and $0 cost depend on it. Everything stays static files + GitHub Actions + a CDN. Personalisation is client-side only (IndexedDB/localStorage), same as the current application tracker.</td></tr>
+  <tr><td>No fabricated data</td><td>Never guess a value to fill a column. A field only one layer detects stays absent on the other. This already governs <code>site-index.json</code> and <code>CompanyAvatar</code> (initials, not a guessed logo).</td></tr>
+  <tr><td>Respect source terms</td><td>Use official/JSON endpoints and public board APIs. No credentialed scraping, no circumventing bot protection at scale, no republishing content a source forbids. LinkedIn is used only via its own unauthenticated guest endpoint, read-only, low volume.</td></tr>
+  <tr><td>No PII collection</td><td>No login, no email capture on-site. Digests are opt-in via RSS or a user-pasted webhook, not a stored list.</td></tr>
+  <tr><td>Generated files stay generated</td><td>All human text lives in the generator. New site copy that must match the data goes through the same path.</td></tr>
+  <tr><td>Progressive enhancement</td><td>Core list must render and be usable with no JS and on a 3G phone. Motion/animation is additive and respects <code>prefers-reduced-motion</code>.</td></tr>
+</table>
+
+<h2 id="competitive"><span class="num">3</span>What the best platforms do — and what to borrow</h2>
+<p>Surveyed the platforms new-grad / early-career tech candidates actually use. Only ideas compatible with “static, no-account, no-fabrication” are marked <span class="tag-done">borrow</span>.</p>
+<table>
+  <tr><th>Platform</th><th>What it does well</th><th>Take-away</th></tr>
+  <tr>
+    <td><strong>Welcome to the Jungle</strong> (ex-Otta)</td>
+    <td>Preference-driven matching; “never show the same job twice”; rich company context (size, funding, salary); guided apply with Required vs Recommended progress.</td>
+    <td><span class="tag-done">borrow</span> client-side preference matching &amp; a “for you” ranked feed; a “seen / dismissed” memory in IndexedDB; company-context chips (region, remote, company-type, board platform) we already detect.</td>
+  </tr>
+  <tr>
+    <td><strong>Simplify</strong></td>
+    <td>One-click autofill Copilot; built-in application tracker with status pipeline; ATS keyword-gap hints; the community GitHub trackers we already ingest.</td>
+    <td><span class="tag-done">borrow</span> deepen the existing tracker into a real funnel (bookmarked → applied → OA → interview → offer/reject) with elapsed-time stats; “copy tailored answer” snippets from local notes. Autofill itself is out of scope (needs an extension).</td>
+  </tr>
+  <tr>
+    <td><strong>Levels.fyi</strong></td>
+    <td>Best-in-class compensation data; clean data-dense tables; charts people screenshot and share; company deep-dive pages.</td>
+    <td><span class="tag-done">borrow</span> shareable data storytelling (“State of New-Grad SWE Hiring — this week”); per-company mini-pages built entirely from our own data; screenshot-friendly stat cards.</td>
+  </tr>
+  <tr>
+    <td><strong>LinkedIn Jobs</strong></td>
+    <td>Freshness signal (“posted 2h ago”), easy filters, saved searches + alerts, “X applicants”.</td>
+    <td><span class="tag-done">borrow</span> prominent freshness, saved searches as shareable URLs (already half-built) + optional RSS-per-search, “new since your last visit” diffing (we already checksum the item set).</td>
+  </tr>
+  <tr>
+    <td><strong>Community GitHub trackers</strong> (Simplify, vanshb03, speedyapply, your 500★ SWE board)</td>
+    <td>Radical simplicity, trust through transparency, a Status column (✅/🔒), regional splits (Worldwide / Egypt), curated “one row per company” aggregate links, an Events section split into Conferences / Summits / Workshops.</td>
+    <td><span class="tag-done">borrow</span> a Status concept surfaced in the UI; optional region grouping (Worldwide + a MENA/Egypt view — we already detect country); an “Aggregate links” lane (company → its careers search URL) for companies we can’t enumerate role-by-role (Google, Meta, Microsoft); Events taxonomy with correct per-type columns.</td>
+  </tr>
+  <tr>
+    <td><strong>Devpost / Unstop / Devfolio</strong></td>
+    <td>Countdown to deadline, prize info, themes/tags, “register” urgency.</td>
+    <td><span class="tag-done">borrow</span> countdown component; sort by soonest deadline (done); tag chips; hide/де-emphasise past events (done).</td>
+  </tr>
+</table>
+
+<h2 id="data"><span class="num">4</span>Data quality &amp; trust</h2>
+
+<h3>4.1 Closed / 404 / “not found” — status: <span class="tag-partial">in progress</span></h3>
+<ul>
+  <li><span class="tag-done">done</span> LinkedIn <code>jobs/view/&lt;id&gt;</code> → guest job-posting fragment, “No longer accepting applications” marker + 404 ⇒ dead.</li>
+  <li><span class="tag-done">done</span> Soft-404 rule registry in <code>net.py</code> (was a single Google special-case): <code>jobs.apple.com/*/details/*</code> and <code>joinbytedance.com/search/*</code> are dead when the server-rendered <code>og:title</code> is absent. Hand-verified against real stale rows.</li>
+  <li><span class="tag-done">done</span> Community parsers skip rows the source flagged (<code>🔒</code> cell / strikethrough).</li>
+  <li><span class="pill p-next">next</span> Add verified rules for the next offenders as they’re confirmed by hand: Workday (<code>myworkdayjobs.com</code> CXS detail 404), Greenhouse expired-redirect, Lever (already hard-404s), SmartRecruiters <code>postingStatus</code>, Ashby <code>isListed/isActive</code>. One at a time, each with a hand-checked marker — never on suspicion.</li>
+  <li><span class="pill p-next">next</span> A tiny weekly audit job (<code>find_dead_links</code> already exists) that posts a summary to the run log so rule gaps surface.</li>
+  <li><span class="pill p-later">later</span> Surface a <strong>Status</strong> in the UI (“Verified open · checked 40 min ago”) — turns the invisible check into a trust signal, mirrors the community boards’ ✅ column.</li>
+</ul>
+
+<h3>4.2 Coverage — “list every open role” — status: <span class="tag-partial">partial</span></h3>
+<ul>
+  <li><span class="tag-done">done</span> Amazon pagination 3→10; unknown-level Amazon SWE roles kept (senior titles still excluded).</li>
+  <li><span class="pill p-next">next — needs live verification</span> Direct first-party fetchers, following the Amazon/Netflix precedent, committed only once confirmed live &amp; keyless by hand:
+    <ul>
+      <li><strong>Microsoft</strong> — <code>gcsservices.careers.microsoft.com/search/api/v1/search</code> (unreachable from the dev sandbox; verify from a normal network).</li>
+      <li><strong>Apple</strong> — <code>jobs.apple.com</code> search needs a CSRF token scraped from the search page first.</li>
+      <li><strong>Meta</strong> — <code>metacareers.com</code> GraphQL needs a scraped <code>lsd</code> + persisted-query <code>doc_id</code>.</li>
+      <li><strong>Google</strong> — old <code>careers.google.com/api/v3</code> is 404; stays community-sourced, plus an aggregate link (below).</li>
+    </ul>
+  </li>
+  <li><span class="pill p-next">next</span> <strong>Aggregate-links lane</strong> (from your 500★ board): for companies we can’t enumerate role-by-role, one hand-verified row = company → its own filtered careers-search URL, shown in a distinct “Browse all roles at…” section, clearly not a single posting. Zero fabrication risk, closes the “Google/Meta look empty” gap immediately.</li>
+  <li><span class="pill p-next">next</span> Seed more allowlisted companies’ Greenhouse/Lever/Ashby tokens in <code>config/extra_job_boards.yml</code> (curl-verified). Pure config.</li>
+  <li><span class="pill p-later">later</span> Regional depth: a MENA/Egypt view (country is already detected) seeded from your SWE board’s Egypt section — verified boards only.</li>
+</ul>
+
+<h3>4.3 Hackathons &amp; events — status: <span class="tag-done">done for v1</span></h3>
+<ul>
+  <li><span class="tag-done">done</span> Closed/ended dropped in <code>dedupe</code>; <code>sort_key</code> orders by soonest deadline; site table drops the “Level” column and shows a “Deadline” column when the view is non-jobs.</li>
+  <li><span class="pill p-next">next</span> Events taxonomy from your board — Company-Hosted / Conferences / Summits / Workshops — each with its own columns (Name + Description vs Company + Event + Location). Render as separate sub-sections in <code>build_data_readme.py</code> and as a filter facet on-site.</li>
+  <li><span class="pill p-later">later</span> Live countdown component; prize/theme tags where the source provides them.</li>
+</ul>
+
+<h2 id="ux"><span class="num">5</span>UX, motion &amp; storytelling</h2>
+<p class="callout">Principle: motion clarifies, it never blocks. Everything here degrades to a clean static page and honours <code>prefers-reduced-motion</code>. Target: Lighthouse ≥ 95, no CLS, &lt;100 KB JS on first view.</p>
+
+<h3>5.1 Structure — from “a table” to “a page with a spine”</h3>
+<ol>
+  <li><strong>Hero / pulse.</strong> One line of live truth: “<em>2,963 open roles · 189 added in the last 24h · updated 12 min ago</em>”, a sparkline of the last 30 days from <code>stats-history.json</code>, and one primary action (“Find roles for me”). A quiet animated gradient / dot-field, paused on reduced-motion.</li>
+  <li><strong>The list</strong> stays the core and stays fast. Above it: a compact filter bar with result count; a “New since your last visit” toggle.</li>
+  <li><strong>Story strip</strong> between list and dashboard: 3–4 auto-generated cards — “Internships up 22% this month”, “Top hiring companies this week”, “Most roles: United States, then Germany” — each links into a pre-filtered list. Built from our own stats, screenshot-friendly.</li>
+  <li><strong>Dashboard</strong> as its own page (exists) — deepened in §7.</li>
+  <li><strong>Company mini-pages</strong> (<code>/company/&lt;slug&gt;</code>, static-generated): logo, role count over time, level/region breakdown, current roles. Pure derived data.</li>
+</ol>
+
+<h3>5.2 Micro-interactions &amp; motion (the “feels alive” layer)</h3>
+<table>
+  <tr><th>Where</th><th>Interaction</th></tr>
+  <tr><td>Row enter</td><td>Staggered fade-up (already a <code>row-enter</code> class) — keep subtle, cap at ~12 rows animating, none on reduced-motion.</td></tr>
+  <tr><td>Filter change</td><td>Result count rolls (number tween); list cross-fades rather than hard-swaps; a “N roles hidden” toast with Undo.</td></tr>
+  <tr><td>Freshness</td><td>A soft pulse dot next to “updated Xm ago”; roles &lt; 24h old get a quiet “new” chip that fades after first view (remembered per-visit).</td></tr>
+  <tr><td>Bookmark</td><td>Spring/scale on the star + a one-line confirmation that links to the tracker.</td></tr>
+  <tr><td>Deadlines</td><td>Countdown chips that tick; turn amber &lt; 48h, red on last day.</td></tr>
+  <tr><td>Empty / loading</td><td>Real skeleton rows (exist) + a friendly empty state per filter (“No new-grad roles in Canada right now — here are 12 in the US”).</td></tr>
+  <tr><td>Scroll</td><td>Sticky filter bar condenses; a thin top progress bar; “back to top” after 2 screens.</td></tr>
+  <tr><td>Page transition</td><td>View-Transitions API (Astro built-in) for list ↔ company ↔ dashboard — instant, native, no library.</td></tr>
+  <tr><td>Delight, sparingly</td><td>Confetti burst only when the user marks an application “Offer” in their own tracker. Nowhere else.</td></tr>
+</table>
+
+<h3>5.3 Craft details</h3>
+<ul>
+  <li><strong>Command palette</strong> (<code>Cmd/Ctrl-K</code>): jump to a company, apply a filter, open the dashboard, copy a shareable link. Keyboard-first.</li>
+  <li><strong>Shareable state</strong>: every filter combination is already a URL — add “Copy link” + auto-generated OG image (static, per common filter) so shared links look good.</li>
+  <li><strong>Density toggle</strong>: comfortable / compact rows.</li>
+  <li><strong>Type &amp; rhythm</strong>: one display face for headers (self-hosted, subset), system stack for body; consistent 4px spacing scale; a real focus-visible ring everywhere.</li>
+  <li><strong>Iconography</strong>: one set (Lucide, tree-shaken), used consistently for kind/level/remote/region. Emoji only where the community boards’ vocabulary is the point (🔒 status, 🎓 PhD, 🛂 visa).</li>
+  <li><strong>Accessibility</strong>: full keyboard nav, semantic table, ARIA on filter groups, contrast ≥ 4.5, reduced-motion honoured, screen-reader labels on every icon-only control.</li>
+  <li><strong>PWA</strong>: it already ships a manifest + service worker — finish it: offline “last synced” view, installable, “add to home screen” nudge after the 3rd visit.</li>
+</ul>
+
+<h2 id="logos"><span class="num">6</span>Company logos <span class="pill p-next">next</span></h2>
+<p>The current <code>CompanyAvatar</code> deliberately renders initials because guessing a company’s domain for Clearbit-style logos risks showing the <em>wrong</em> company’s real logo — a fabrication. That reasoning still holds. The safe path:</p>
+<ol>
+  <li>Maintain a <strong>hand-verified domain map</strong> (<code>config/company_domains.yml</code>) — only for allowlisted companies, checked the same way board tokens are.</li>
+  <li>When a verified domain exists, render a logo from a stable provider; otherwise fall back to the initials avatar (never a guess).</li>
+  <li><strong>Provider</strong>: after Clearbit’s Logo API sunset (Dec 2025), the drop-in successor is <a href="https://logo.dev">Logo.dev</a> (500K free req/mo, <code>&lt;img&gt;</code> by domain, SVG + dark-mode); <a href="https://brandfetch.com">Brandfetch</a> is the quality alternative; Google’s <code>s2/favicons</code> is the zero-dependency last resort. Cache aggressively; lazy-load; fixed box to avoid CLS; <code>onerror</code> → initials.</li>
+  <li>Store the resolved logo URL in <code>site-index.json</code> only when domain-verified, so the client does no guessing at runtime.</li>
+</ol>
+<p class="callout warn">Licensing: these APIs serve third-party trademarks for identification (nominative use) — fine for a listing, but keep it to the verified allowlist and don’t restyle/recolour marks.</p>
+<p style="font-size:12.5px;color:var(--text-dim)">Refs: <a href="https://www.abstractapi.com/guides/company-enrichment/best-company-logo-apis">Post-Clearbit logo APIs (2026)</a> · <a href="https://nubela.co/blog/company-logo-api-guide-2026/">Logo API guide 2026</a> · <a href="https://www.context.dev/blog/company-logo-api-comparison">logo.dev vs Brandfetch</a></p>
+
+<h2 id="personal"><span class="num">7</span>Personalisation &amp; analytics</h2>
+<p>All client-side. No account, no server. Data lives in IndexedDB/localStorage (the tracker already does this) and is exportable (CSV/JSON, already implemented).</p>
+
+<h3>7.1 “For you” — the daily reason to return</h3>
+<ul>
+  <li><strong>Preferences</strong> (levels, regions, remote, company types, keywords, exclude-companies) stored locally; a one-screen setup, editable anytime.</li>
+  <li><strong>Ranked feed</strong>: score each role client-side by preference match + freshness + (optional) company-type weight. “Why this matched” chips.</li>
+  <li><strong>Seen / dismissed</strong> memory (Otta’s “never twice”): dismissed roles drop out; “new since last visit” uses the existing <code>site-index.json</code> checksum + a stored last-seen id set.</li>
+  <li><strong>Saved searches</strong>: name a filter combo → pinned chips → each gets its own RSS URL (feeds are already generated; add per-preset ones) so “alerts” need no email list.</li>
+  <li><strong>Weekly digest</strong>: a generated static “this week for &lt;your prefs&gt;” page + optional user-pasted Discord/Slack webhook the client posts to (their secret, never stored server-side).</li>
+</ul>
+
+<h3>7.2 Personal analytics — your own funnel</h3>
+<ul>
+  <li>Deepen the tracker: counts and <em>elapsed-time</em> stats from <code>statusHistory</code> (median days applied→OA→interview→offer), response-rate by company type/level, a funnel chart, a calendar heatmap of activity, a streak.</li>
+  <li>“Compare to the market”: your applied-role mix vs the current dataset’s mix (all local).</li>
+  <li>Reminders (local notifications via the SW): “3 roles you bookmarked close in 48h”.</li>
+</ul>
+
+<h3>7.3 Market analytics — the public story</h3>
+<ul>
+  <li>Expand <code>stats-history.json</code> dimensions: by level, region, country, company-type, source, remote-type — one snapshot/run, still bounded (90d).</li>
+  <li>Dashboard: trend lines, “fastest-growing companies this month”, “internship season curve”, region share, remote share over time, “time-to-fill proxy” (how long roles stay in the feed).</li>
+  <li>A monthly generated <strong>“State of Early-Career Tech Hiring”</strong> markdown post (in-repo, like the READMEs) — the kind of thing that gets shared and starred.</li>
+</ul>
+
+<h2 id="arch"><span class="num">8</span>System design &amp; architecture</h2>
+
+<h3>8.1 Keep the shape, tighten the seams</h3>
+<pre style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px;overflow-x:auto;font:12.5px/1.5 ui-monospace,Menlo,Consolas,monospace">
+sources/*  ──►  collect  ──►  normalize  ──►  merge  ──►  emit
+(fetchers)     (raw JSON)    (JobEntry/      (dedupe,   (README, data/README,
+                             PublicEntry,     archive)   site-index.json, feeds,
+                             patterns.py)                stats-history, OG images,
+                                                         company mini-pages)
+                                     │
+                              validate (JSON Schema, config/*.schema.json)
+</pre>
+<ul>
+  <li><strong>Collector = Strategy pattern.</strong> Each source is a function returning normalized rows. Make the implicit contract explicit: a small <code>Source</code> dataclass (<code>id</code>, <code>fetch()</code>, <code>kind</code>, <code>needs_verification</code>) and a registry list, so adding a source is one entry and tests can enumerate them. (<code>SOURCE_FETCHER_NAMES</code> is already 90% of this.)</li>
+  <li><strong>Liveness = Registry pattern.</strong> <code>_SOFT_404_RULES</code> (just generalised) is the model: URL-matcher → markers. LinkedIn handled by the same table shape. New sources add a rule, not a branch.</li>
+  <li><strong>Normalization stays central</strong> in <code>patterns.py</code> + <code>company_names.py</code> so “level”/“region”/“role_type”/“company” mean one thing everywhere.</li>
+  <li><strong>Emit = pure functions</strong> over the merged payload (<code>build_site_index</code>, <code>update_stats_history</code>, <code>write_feeds</code> already are). Add <code>build_company_pages</code>, <code>build_story_cards</code>, <code>build_og_images</code> the same way — each independently testable, each writing static files.</li>
+</ul>
+
+<h3>8.2 Data contracts &amp; versioning</h3>
+<ul>
+  <li>Every emitted file has a JSON Schema in <code>config/</code> and is schema-checked at build (pattern exists). Add <code>schema_version</code> to <code>site-index.json</code> and have the site tolerate a mismatch gracefully.</li>
+  <li>The site depends <em>only</em> on <code>site-index.json</code> + <code>stats-history.json</code> shapes — keep that the one integration boundary. New UI features that need new fields add them there (absent-not-guessed rule applies).</li>
+  <li>Types mirrored by hand in <code>site/src/lib/types.ts</code> (convention already documented) — add a CI check that diffs the schema against the TS types.</li>
+</ul>
+
+<h3>8.3 Deployment</h3>
+<ul>
+  <li>Two workflows stay decoupled: hourly data refresh (commits data) and site deploy (on <code>site/</code> change). Site reads data at runtime from the CDN — unchanged.</li>
+  <li>Static generation additions (company pages, OG images, digest) run in the <em>data</em> workflow and are committed as files, so the site build stays trivial and fast.</li>
+  <li>Optional, only if ever needed: a single edge function for on-demand OG images. Not required for v1 — pre-generate the common ones.</li>
+</ul>
+
+<h3>8.4 Performance budget</h3>
+<table>
+  <tr><th>Metric</th><th>Budget</th></tr>
+  <tr><td>JS on first view</td><td>&lt; 100 KB gz (islands only; table renders server-side)</td></tr>
+  <tr><td>LCP / CLS</td><td>&lt; 2.0s on 4G / 0</td></tr>
+  <tr><td><code>site-index.json</code></td><td>Watch size as coverage grows; if &gt; ~2 MB, split into <code>jobs</code> / <code>opportunities</code> shards + an index, or gzip-at-CDN + client cache. Add a lean <code>site-index.min.json</code> (drop long fields) for first paint, hydrate detail on demand.</td></tr>
+  <tr><td>Lighthouse</td><td>≥ 95 all categories, enforced in CI (Lighthouse CI on the built site)</td></tr>
+</table>
+
+<h2 id="docs"><span class="num">9</span>Docs, resources &amp; repo</h2>
+<ul>
+  <li>Follow the existing <code>docs/</code> pattern: update <code>ARCHITECTURE.md</code> (new emit steps, registries), <code>DATA.md</code> (new <code>site-index.json</code> fields, <code>company_domains.yml</code>), <code>FEATURES.md</code> (each shipped UX feature → code location), <code>DIAGRAMS.md</code> (updated data-flow + a site-architecture diagram), <code>TESTING.md</code> (new test files).</li>
+  <li><code>CONTRIBUTING.md</code> “How it works” source list kept in sync by hand (already the rule) as fetchers are added.</li>
+  <li><strong>Resources hub</strong> (<code>data/resources.md</code> + a real site page): curate the genuinely-best, globally-relevant material — interview prep (NeetCode, Blind 75, system-design primer), résumé tools, negotiation (Levels.fyi guides), open-source fellowships (GSoC, LFX, MLH), communities, visa/relocation basics, region-specific (MENA/EU/US) sections. Keep it hand-curated, link-checked by the same dead-link machinery.</li>
+  <li>A short <code>docs/DESIGN.md</code>: the motion principles, spacing scale, colour tokens, component inventory — so the “feels premium” bar is written down.</li>
+  <li>README badges: add “roles verified open”, “updated hourly”, “PWA”, contributor count.</li>
+</ul>
+
+<h2 id="roadmap"><span class="num">10</span>Roadmap</h2>
+<table>
+  <tr><th>Phase</th><th>Scope</th><th>Effort</th></tr>
+  <tr>
+    <td><span class="pill p-now">Phase 1 — trust &amp; correctness</span><br><em>largely done</em></td>
+    <td>Closed-job detection (LinkedIn + soft-404 registry + <code>🔒</code>), Amazon coverage, company-name normalisation, human level labels, hackathon/event closed-filtering + per-kind columns, tests. Next: 2–3 more verified soft-404 rules; aggregate-links lane for Google/Meta/Microsoft; seed more boards.</td>
+    <td>S (mostly complete)</td>
+  </tr>
+  <tr>
+    <td><span class="pill p-next">Phase 2 — the page gets a spine</span></td>
+    <td>Hero/pulse with sparkline; story strip from stats; “new since last visit”; per-kind columns polish + Events taxonomy; skeleton/empty-state pass; View Transitions; command palette; density toggle; reduced-motion audit; PWA finish.</td>
+    <td>M</td>
+  </tr>
+  <tr>
+    <td><span class="pill p-next">Phase 3 — personalisation</span></td>
+    <td>Local preferences + ranked “for you” feed + seen/dismissed; saved searches with per-preset RSS; deeper personal-funnel analytics; local reminders.</td>
+    <td>M</td>
+  </tr>
+  <tr>
+    <td><span class="pill p-later">Phase 4 — depth &amp; polish</span></td>
+    <td>Company mini-pages + verified logos; expanded market analytics + monthly “State of Hiring” post; OG images; regional (MENA/EU) views; Lighthouse-CI gate; <code>docs/DESIGN.md</code> + docs refresh.</td>
+    <td>L</td>
+  </tr>
+</table>
+
+<hr />
+<div class="foot">
+  <p><strong>How this maps to the in-flight work:</strong> the approved plan at <code>C:\Users\User\.claude\plans\immutable-napping-valley.md</code> is Phase 1. This document is the wider vision around it. Recommended next step: land Phase 1 (verify the Microsoft/Apple/Meta fetchers on a normal network, or ship the aggregate-links lane instead), then pick up Phase 2 §5.1 + §4.3 Events taxonomy as the first visible upgrade.</p>
+  <p><strong>Sources consulted:</strong>
+    <a href="https://www.betterteam.com/uk/welcome-to-the-jungle">Welcome to the Jungle (Otta)</a> ·
+    <a href="https://simplify.jobs/copilot">Simplify Copilot</a> ·
+    <a href="https://www.betterteam.com/levels-fyi">Levels.fyi</a> ·
+    <a href="https://www.abstractapi.com/guides/company-enrichment/best-company-logo-apis">Post-Clearbit logo APIs</a> ·
+    <a href="https://nubela.co/blog/company-logo-api-guide-2026/">Logo API guide 2026</a> ·
+    <a href="https://www.context.dev/blog/company-logo-api-comparison">logo.dev vs Brandfetch vs Context.dev</a> ·
+    your 500★ SWE-community <code>README.md</code> (aggregate-link &amp; Events-taxonomy patterns).
+  </p>
+</div>
+
+</div>
+</body>
+</html>

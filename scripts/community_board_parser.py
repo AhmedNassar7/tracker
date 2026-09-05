@@ -18,6 +18,16 @@ from simplify_jobs_parser import clean_html_text
 
 AGE_CELL_RE = re.compile(r"^\d+\s*(d|day|days|w|week|weeks|mo|month|months|y|year|years)$", re.I)
 
+# A cell that is *only* one of these means "this posting is closed" in the
+# trackers that carry a status column — vanshb03 documents "🔒 - Job
+# application is closed", and the others use a bare ❌/🔴 or the literal word
+# the same way. Matched against a cell's fully-cleaned text so a section
+# header that merely contains 🔒 (e.g. zapplyjobs' "🔒 Infrastructure &
+# Security" <summary>) is never mistaken for one — those aren't table rows and
+# never reach here anyway, but the exact-match keeps it safe if that changes.
+CLOSED_CELL_VALUES = {"🔒", "❌", "🔴", "closed", "🚫"}
+STRIKETHROUGH_RE = re.compile(r"^~~.*~~$")
+
 
 def clean_cell_text(cell: str) -> str:
     text = clean_html_text(cell)
@@ -73,6 +83,15 @@ def parse_job_table(content, *, company_idx, title_idx, location_idx):
 
         cells = [c.strip() for c in line.split("|")[1:-1]]
         if len(cells) < min_cells:
+            continue
+
+        # Skip rows the source itself has flagged closed — a standalone
+        # status cell (🔒 / ❌ / "Closed") or a struck-through title. Left in,
+        # these are exactly the "position is closed" links users keep hitting.
+        cleaned_cells = [clean_cell_text(c) for c in cells]
+        if any(c.lower() in CLOSED_CELL_VALUES for c in cleaned_cells):
+            continue
+        if STRIKETHROUGH_RE.match(cells[title_idx].strip()):
             continue
 
         company = clean_cell_text(cells[company_idx])

@@ -163,6 +163,24 @@ def main():
         and devfolio_rows[0]["source"] == "devfolio",
     ))
 
+    _opp = lambda kind, date: {"kind": kind, "company": "X", "title": "T", "url": "u", "date": date}
+    run("dedupe drops a closed hackathon/event and keeps dated ones", lambda: check(
+        "dedupe drops closed opportunities",
+        [r["date"] for r in mod.dedupe([
+            _opp("hackathon", "closed"),
+            _opp("event", "ended"),
+            _opp("hackathon", "3 days left"),
+            _opp("job", ""),
+        ])] == ["3 days left", ""],
+    ))
+    run("sort_key orders hackathons by soonest deadline", lambda: check(
+        "sort_key deadline ordering",
+        [r["date"] for r in sorted(
+            [_opp("hackathon", "10 days left"), _opp("hackathon", "last day"), _opp("hackathon", "2 days left")],
+            key=mod.sort_key,
+        )] == ["last day", "2 days left", "10 days left"],
+    ))
+
     luma_html = (
         '<a href="https://luma.com/cursorcommunity?k=c">Avatar for Cursor Community Subscribe Cursor Community'
         ' Discover community meetups, hackathons, workshops taking place around the world.</a>'

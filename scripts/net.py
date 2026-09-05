@@ -92,26 +92,100 @@ def run_and_collect(fn, arg_tuples, log_error, max_workers=10, label=None):
     return combined
 
 
-# Google Careers is a client-rendered SPA: an expired/removed job id still
-# returns HTTP 200 with the generic "Jobs search" shell instead of a 404, so
-# a status-code check alone can never catch it dead (unlike the Pinterest
-# case in check_url_alive's docstring, where the eventual GET at least
-# returns the right code). The one server-rendered difference is the
-# og:title meta tag — populated with the real job title on a live posting,
-# left empty on an expired one. Confirmed by hand against several live vs.
-# expired postings; only add another entry here once a new source's
-# soft-404 shape is confirmed the same way, not on suspicion.
-_GOOGLE_CAREERS_RESULT_RE = re.compile(
-    r"^https?://(?:www\.)?google\.com/about/careers/applications/jobs/results/"
+# Some career sites are client-rendered SPAs: an expired/removed job id still
+# returns HTTP 200 with a generic shell instead of a 404, so a status-code
+# check alone can never catch it dead (unlike the Pinterest case in
+# check_url_alive's docstring, where the eventual GET at least returns the
+# right code). The only tell is a server-rendered marker in the HTML. Each
+# entry below is (url_regex, dead_markers, alive_markers) and must be
+# confirmed by hand against real live vs. expired postings before being added
+# — never on suspicion, since a wrong guess here silently archives a live
+# posting. For a matching URL, check_url_alive skips the HEAD short-circuit,
+# GETs the body (capped), and calls it dead if any dead_marker is present, or
+# if alive_markers is non-empty and none of them are present.
+#
+# - Google Careers result pages: the og:title meta tag holds the real job
+#   title on a live posting and is emptied on an expired one. The marker
+#   sits ~980KB into a ~1.3MB document, hence the large cap.
+# - jobs.apple.com/*/details/* and joinbytedance.com/search/* are SPA
+#   detail pages: a live posting is server-rendered with a
+#   `<meta property="og:title">` tag, an expired/removed one falls back to a
+#   generic ~155KB / ~69KB shell with no og:title at all. Confirmed by hand
+#   2026-09-05 against several live vs. stale postings from the vanshb03
+#   tracker (which lists Apple roles months after they close). These are
+#   alive-marker rules: dead iff the og:title tag is absent.
+_SOFT_404_RULES = (
+    (
+        re.compile(r"^https?://(?:www\.)?google\.com/about/careers/applications/jobs/results/"),
+        ('<meta property="og:title" content="">',),
+        (),
+    ),
+    (
+        re.compile(r"^https?://(?:www\.)?jobs\.apple\.com/[^?#]*/details/"),
+        (),
+        ('property="og:title"',),
+    ),
+    (
+        re.compile(r"^https?://(?:www\.)?joinbytedance\.com/(?:search|jobs)/"),
+        (),
+        ('property="og:title"',),
+    ),
 )
-_GOOGLE_CAREERS_DEAD_MARKER = '<meta property="og:title" content="">'
-# The marker sits ~980KB into a ~1.3MB document; capped read keeps this
-# bounded instead of downloading the whole page every time.
 _SOFT_404_BODY_CAP = 1_200_000
 
+# LinkedIn bot-blocks the plain apply URL (a 999/429 that check_url_alive can
+# only read as "can't tell"), but its unauthenticated guest job-posting
+# fragment IS reachable with a browser UA and is small. A closed posting
+# renders "No longer accepting applications" in that fragment (confirmed by
+# hand); a removed id 404s or returns an empty body. Sources like
+# LorenzoLaCorte's tracker point every apply link at linkedin.com/jobs/view/<id>,
+# so without this the layer republishes closed LinkedIn postings indefinitely.
+_LINKEDIN_JOB_RE = re.compile(
+    r"^https?://(?:[\w-]+\.)?linkedin\.com/jobs/view/(?:[^/?#]*-)?(\d+)"
+)
+_LINKEDIN_GUEST_JOB_URL = "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{job_id}"
+_LINKEDIN_CLOSED_MARKER = "no longer accepting applications"
+_LINKEDIN_GUEST_BODY_CAP = 200_000
+_BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+)
 
-def _is_google_careers_result(url):
-    return bool(_GOOGLE_CAREERS_RESULT_RE.match(url))
+
+def _match_soft_404_rule(url):
+    for pattern, dead_markers, alive_markers in _SOFT_404_RULES:
+        if pattern.match(url):
+            return dead_markers, alive_markers
+    return None
+
+
+def _linkedin_job_id(url):
+    match = _LINKEDIN_JOB_RE.match(url or "")
+    return match.group(1) if match else None
+
+
+def _linkedin_posting_alive(job_id, timeout):
+    """Best-effort liveness for a linkedin.com/jobs/view/<id> apply link via
+    the unauthenticated guest fragment. Returns False only on a clear signal
+    (the closed marker, or a 404/410); anything else — a bot-block, an empty
+    body, a timeout — stays True, matching check_url_alive's "can't tell,
+    assume alive" contract.
+    """
+    req = urllib.request.Request(
+        _LINKEDIN_GUEST_JOB_URL.format(job_id=job_id),
+        headers={"User-Agent": _BROWSER_UA, "Accept": "text/html"},
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            body = response.read(_LINKEDIN_GUEST_BODY_CAP).decode("utf-8", errors="replace")
+    except urllib.error.HTTPError as e:
+        return e.code not in (404, 410)
+    except Exception:
+        return True
+    if not body.strip():
+        return True  # LinkedIn served an empty fragment — no signal either way
+    return _LINKEDIN_CLOSED_MARKER not in body.lower()
 
 
 def check_url_alive(url, timeout=8):
@@ -128,22 +202,36 @@ def check_url_alive(url, timeout=8):
     timeouts, DNS hiccups) is treated as "can't tell, assume alive" so a
     flaky check never wrongly archives a live posting.
 
-    Google Careers result pages are a separate case: they always return
-    200, live or expired, so this skips the HEAD short-circuit for them and
-    reads the GET body far enough to check the og:title marker described
-    above — still "can't tell, assume alive" if the marker isn't found.
+    Two source-specific exceptions to the status-code rule, each confirmed by
+    hand (see _SOFT_404_RULES and the LinkedIn helpers above):
+    - Soft-404 SPAs (Google Careers result pages, jobs.apple.com and
+      joinbytedance.com detail pages) always return 200 live or expired, so
+      this skips the HEAD short-circuit and reads the GET body far enough to
+      check a dead/alive marker — still "assume alive" if no marker matches.
+    - linkedin.com/jobs/view/<id> links are checked via LinkedIn's
+      unauthenticated guest fragment instead of the bot-blocked apply URL.
     """
     if not url:
         return True
-    needs_body_check = _is_google_careers_result(url)
-    methods = ("GET",) if needs_body_check else ("HEAD", "GET")
+
+    linkedin_id = _linkedin_job_id(url)
+    if linkedin_id:
+        return _linkedin_posting_alive(linkedin_id, timeout)
+
+    soft_404_rule = _match_soft_404_rule(url)
+    methods = ("GET",) if soft_404_rule else ("HEAD", "GET")
     for method in methods:
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"}, method=method)
             with urllib.request.urlopen(req, timeout=timeout) as response:
-                if needs_body_check:
+                if soft_404_rule:
+                    dead_markers, alive_markers = soft_404_rule
                     body = response.read(_SOFT_404_BODY_CAP).decode("utf-8", errors="replace")
-                    return _GOOGLE_CAREERS_DEAD_MARKER not in body
+                    if any(marker in body for marker in dead_markers):
+                        return False
+                    if alive_markers and not any(marker in body for marker in alive_markers):
+                        return False
+                    return True
                 return response.status < 400
         except urllib.error.HTTPError as e:
             if e.code in (404, 410):

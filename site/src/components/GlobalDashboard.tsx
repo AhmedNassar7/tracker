@@ -5,6 +5,7 @@ import type { SiteIndex, StatsHistory } from "../lib/types";
 import BarList from "./BarList";
 import StatTile from "./StatTile";
 import TrendLine from "./TrendLine";
+import { LEVEL_LABELS } from "../lib/labels";
 
 type LoadState = { status: "loading" } | { status: "error"; message: string } | { status: "loaded"; data: SiteIndex };
 
@@ -18,16 +19,6 @@ const REGION_LABELS: Record<string, string> = {
   canada: "Canada",
   emea: "EMEA",
   remote: "Remote",
-  unknown: "Unknown",
-};
-
-const LEVEL_LABELS: Record<string, string> = {
-  internship: "Internship",
-  new_grad: "New grad",
-  junior: "Junior",
-  entry_level: "Entry level",
-  mid_level: "Mid level",
-  other: "Other",
   unknown: "Unknown",
 };
 

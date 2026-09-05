@@ -39,6 +39,7 @@ from patterns import (
     detect_role_type,
 )
 from simplify_jobs_parser import format_location_display
+from company_names import prettify_company_name
 from public_outputs import write_public_outputs
 from net import check_url_alive, fetch_with_retry, run_and_collect
 
@@ -480,7 +481,7 @@ def fetch_workday_jobs(host, site, company_name, max_pages=5, max_location_looku
                 {
                     "id": make_id("workday", host, site, title, url),
                     "kind": "job",
-                    "company": company_name or tenant.title(),
+                    "company": company_name or prettify_company_name(tenant),
                     "title": title,
                     "location": display_location,
                     "level": detect_level(title),
@@ -822,21 +823,54 @@ def _run_concurrently(fn, arg_tuples, max_workers=10):
     return run_and_collect(fn, arg_tuples, log_error, max_workers=max_workers)
 
 
+def _deadline_days(row):
+    """Days until a hackathon/event closes, from its human `date` string
+    ("closed" / "last day" / "N days left" / "N days"). Returns a large
+    sentinel for anything undated so those sort last, and -1 for an
+    already-closed one (callers drop those before sorting).
+    """
+    hint = (row.get("date") or "").strip().lower()
+    if hint in {"closed", "ended", "concluded"}:
+        return -1
+    if hint in {"last day", "today"}:
+        return 0
+    match = re.match(r"^(\d+)\s*(d|days?)(\s+left)?$", hint)
+    if match:
+        return int(match.group(1))
+    match = re.search(r"(\d+)\s*days?\s+left", hint)
+    if match:
+        return int(match.group(1))
+    return 10**9
+
+
+def is_closed_opportunity(row):
+    """True for a hackathon/event whose submission window has already passed
+    — these should never be published (a user opening one can't enter)."""
+    return row.get("kind") in {"hackathon", "event"} and _deadline_days(row) == -1
+
+
 def sort_key(row):
     kind_rank = {"job": 0, "hackathon": 1, "event": 2}
-    date_hint = (row.get("date") or "").strip().lower()
-    days_match = re.match(r"^(\d+)d$", date_hint)
-    if days_match:
-        date_rank = int(days_match.group(1))
+    kind = row.get("kind") or ""
+    if kind == "job":
+        date_hint = (row.get("date") or "").strip().lower()
+        days_match = re.match(r"^(\d+)d$", date_hint)
+        date_rank = int(days_match.group(1)) if days_match else 10**9
     else:
-        date_rank = 10**9
-    return (kind_rank.get(row.get("kind") or "", 9), date_rank, (row.get("company") or "").lower(), (row.get("title") or "").lower())
+        # Hackathons/events: soonest deadline first so the ones a user can
+        # still act on lead the list, undated ones trail.
+        date_rank = _deadline_days(row)
+        if date_rank < 0:
+            date_rank = 10**9
+    return (kind_rank.get(kind, 9), date_rank, (row.get("company") or "").lower(), (row.get("title") or "").lower())
 
 
 def dedupe(rows):
     seen = set()
     out = []
     for row in rows:
+        if is_closed_opportunity(row):
+            continue
         key = (row.get("kind"), row.get("company"), row.get("title"), row.get("url"))
         if key in seen:
             continue
@@ -874,9 +908,9 @@ def main():
     # over the config fallback's title-cased guess at the same token.
     extra_boards = load_extra_job_boards()
     for token in extra_boards["greenhouse"]:
-        greenhouse.setdefault(token, token.replace("-", " ").title())
+        greenhouse.setdefault(token, prettify_company_name(token.replace("-", " ")))
     for token in extra_boards["lever"]:
-        lever.setdefault(token, token.replace("-", " ").title())
+        lever.setdefault(token, prettify_company_name(token.replace("-", " ")))
 
     log_info(
         f"Discovered {len(greenhouse)} Greenhouse boards, {len(lever)} Lever boards, "
@@ -909,12 +943,12 @@ def main():
     )
     rows.extend(_run_concurrently(
         fetch_ashby_board_jobs,
-        [(token, token.replace("-", " ").title()) for token in extra_boards["ashby"]],
+        [(token, prettify_company_name(token.replace("-", " "))) for token in extra_boards["ashby"]],
         max_workers=SHARED_HOST_WORKERS,
     ))
     rows.extend(_run_concurrently(
         fetch_smartrecruiters_jobs,
-        [(token, token.replace("-", " ").title()) for token in extra_boards["smartrecruiters"]],
+        [(token, prettify_company_name(token.replace("-", " "))) for token in extra_boards["smartrecruiters"]],
         max_workers=SHARED_HOST_WORKERS,
     ))
 

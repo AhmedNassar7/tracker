@@ -18,6 +18,7 @@ if str(SCRIPT_DIR) not in sys.path:
 
 from schema_validator import load_schema, validate_records
 from rss_feeds import write_feeds
+from company_names import prettify_company_name
 
 CURATED_JSON = DATA_OUT / "jobs-global.json"
 PUBLIC_JSON = DATA_OUT / "public-opportunities.json"
@@ -68,7 +69,7 @@ def normalize_rows(rows: list[dict], origin: str) -> list[dict]:
         normalized.append(
             {
                 "origin": origin,
-                "company": row.get("company") or "",
+                "company": prettify_company_name(row.get("company") or ""),
                 "title": row.get("title") or "",
                 "location": row.get("location") or "",
                 "age": age,
@@ -508,6 +509,10 @@ def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
     entry = {"id": row.get("id") or "", "kind": kind, "origin": origin}
     for field in _SITE_INDEX_PASSTHROUGH:
         entry[field] = row.get(field) or ""
+    # site-index.json is what the site actually fetches — normalize the
+    # company name here so "Openai"/"Mongodb" (from a board slug title-cased
+    # upstream) render as "OpenAI"/"MongoDB" without touching the raw feeds.
+    entry["company"] = prettify_company_name(entry["company"])
     # Resolve Luma's site-relative event paths here so every url in
     # site-index.json is always a ready-to-use absolute link — a consumer
     # (e.g. the site) shouldn't need to know which source emits relative

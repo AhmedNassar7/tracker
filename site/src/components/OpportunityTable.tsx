@@ -1,5 +1,6 @@
 import BookmarkButton from "./BookmarkButton";
 import CompanyAvatar from "./CompanyAvatar";
+import { formatLevel, prettifyCompany } from "../lib/labels";
 import type { SiteIndexEntry } from "../lib/types";
 
 const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
@@ -32,9 +33,17 @@ interface Props {
 }
 
 export default function OpportunityTable({ items, trackedIds, onToggleTrack }: Props) {
+  // Columns adapt to what's actually in view: "Level" only means something
+  // for jobs, so it's dropped entirely once the list is all hackathons/
+  // events, and the last column is relabelled from "Age" (when a job was
+  // posted) to "Deadline" (when a hackathon/event closes).
+  const hasJobs = items.some((item) => item.kind === "job");
+  const hasNonJobs = items.some((item) => item.kind !== "job");
+  const lastColLabel = hasJobs ? (hasNonJobs ? "Age / deadline" : "Age") : "Deadline";
+
   return (
     <div className="overflow-x-auto rounded-md border border-slate-200 dark:border-slate-800">
-      <table className="w-full min-w-[760px] border-collapse text-sm">
+      <table className="w-full min-w-[720px] border-collapse text-sm">
         <thead>
           <tr className="bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500 dark:bg-slate-900 dark:text-slate-400">
             <th className="px-3 py-2">
@@ -43,13 +52,15 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack }: P
             <th className="px-3 py-2">Company</th>
             <th className="px-3 py-2">Title</th>
             <th className="px-3 py-2">Kind</th>
-            <th className="px-3 py-2">Level</th>
+            {hasJobs && <th className="px-3 py-2">Level</th>}
             <th className="px-3 py-2">Location</th>
-            <th className="px-3 py-2">Age</th>
+            <th className="px-3 py-2">{lastColLabel}</th>
           </tr>
         </thead>
         <tbody>
-          {items.map((item) => (
+          {items.map((item) => {
+            const company = prettifyCompany(item.company);
+            return (
             <tr
               key={item.id}
               className="row-enter border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
@@ -58,13 +69,13 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack }: P
                 <BookmarkButton
                   tracked={trackedIds.has(item.id)}
                   onToggle={() => onToggleTrack(item)}
-                  label={`${item.company} — ${item.title}`}
+                  label={`${company} — ${item.title}`}
                 />
               </td>
               <td className="px-3 py-2 font-medium text-slate-900 dark:text-slate-100">
                 <div className="flex items-center gap-2">
-                  <CompanyAvatar company={item.company} />
-                  <span>{item.company}</span>
+                  <CompanyAvatar company={company} />
+                  <span>{company}</span>
                 </div>
               </td>
               <td className="px-3 py-2">
@@ -89,11 +100,16 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack }: P
                 </div>
               </td>
               <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{KIND_LABEL[item.kind]}</td>
-              <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{item.level ?? "—"}</td>
+              {hasJobs && (
+                <td className="px-3 py-2 text-slate-500 dark:text-slate-400">
+                  {item.kind === "job" ? formatLevel(item.level) : "—"}
+                </td>
+              )}
               <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{formatLocation(item.location)}</td>
               <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{item.age || "—"}</td>
             </tr>
-          ))}
+            );
+          })}
         </tbody>
       </table>
     </div>

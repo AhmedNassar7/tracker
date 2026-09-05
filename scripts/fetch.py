@@ -37,6 +37,7 @@ from simplify_jobs_parser import (
     parse_simplify_entries,
 )
 from community_board_parser import parse_job_table
+from company_names import prettify_company_name
 from fetch_outputs import write_fetch_outputs
 from net import check_url_alive, fetch_with_retry, find_dead_links, run_and_collect
 
@@ -116,6 +117,22 @@ WANTED_LEVELS = {
 }
 WANTED_REGIONS = {"us", "canada", "emea", "remote"}
 RELAXED_MODE = False
+
+# Sources where a role whose title doesn't self-describe a level
+# (detect_level -> "unknown") is KEPT rather than dropped in strict mode, as
+# long as it isn't clearly a senior/leadership posting. Scoped to Amazon on
+# purpose: its API serves thousands of "Software Development Engineer" roles
+# with no level word in the title (entry-to-mid in practice, "Senior"/
+# "Principal" spelled out when higher), and dropping all of them is the main
+# reason Amazon's curated count is a fraction of what's actually open. Other
+# first-party APIs use grade conventions ("Software Engineer 4/5") that this
+# can't safely bucket, so they stay strict.
+UNKNOWN_LEVEL_SOURCES = {"amazon"}
+SENIOR_TITLE_RE = re.compile(
+    r"\b(senior|sr\.?|staff|principal|lead|manager|director|head\s+of|vp|"
+    r"vice\s+president|distinguished|fellow|architect|executive)\b",
+    re.I,
+)
 
 COUNTRY_MARK_MAP = FETCH_COUNTRY_MARK_MAP
 
@@ -226,10 +243,12 @@ def include_job(row, company):
     row["category"] = category or ""
 
     if not RELAXED_MODE:
-        return (
-            row["level"] in WANTED_LEVELS
-            and category is not None
+        level_ok = row["level"] in WANTED_LEVELS or (
+            row["level"] == "unknown"
+            and row.get("source") in UNKNOWN_LEVEL_SOURCES
+            and not SENIOR_TITLE_RE.search(row.get("title") or "")
         )
+        return level_ok and category is not None
 
     level_ok = row["level"] in WANTED_LEVELS or row["level"] == "unknown"
     company_ok = category is not None or row["level"] in {"internship", "new_grad"}
@@ -684,10 +703,12 @@ def fetch_lorenzolacorte_eu():
         company_idx=0, title_idx=1, location_idx=2,
     )
     # Unlike every other source, this one lists every company name in
-    # all-lowercase ("google", "coca-cola hbc ag") — title-case it for
-    # display consistency with the rest of the site.
+    # all-lowercase ("google", "coca-cola hbc ag") — normalize it to the
+    # display form the rest of the site uses (prettify_company_name also
+    # fixes "openai" -> "OpenAI", which a plain .title() would leave as
+    # "Openai").
     for row in rows:
-        row["company"] = row["company"].title()
+        row["company"] = prettify_company_name(row["company"])
     return rows
 
 def fetch_hanzili_canada():
@@ -712,7 +733,7 @@ def _parse_amazon_posted_date(text):
     except Exception:
         return TODAY
 
-def fetch_amazon(max_pages=3, result_limit=100):
+def fetch_amazon(max_pages=10, result_limit=100):
     """Fetch directly from amazon.jobs' own search API — verified live,
     keyless, real JSON — rather than only through third-party trackers that
     can carry stale/removed Amazon listings with no reliable way to verify

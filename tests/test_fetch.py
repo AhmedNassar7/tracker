@@ -157,6 +157,63 @@ def main():
             fetch.check_url_alive(_google_url) is False,
         ))
 
+    # linkedin.com/jobs/view/<id> apply links (the whole LorenzoLaCorte feed)
+    # are checked via LinkedIn's unauthenticated guest fragment, which renders
+    # "No longer accepting applications" for a closed posting.
+    _li_url = "https://www.linkedin.com/jobs/view/software-dev-engineer-at-amazon-4455793689"
+    run("_linkedin_job_id pulls the numeric id out of a slugged jobs/view URL", lambda: check(
+        "_linkedin_job_id",
+        net._linkedin_job_id(_li_url) == "4455793689"
+        and net._linkedin_job_id("https://linkedin.com/jobs/view/123") == "123"
+        and net._linkedin_job_id("https://example.com/jobs/view/1") is None,
+    ))
+
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"<h2>No longer accepting applications</h2>")):
+        run("check_url_alive treats a closed LinkedIn guest posting as dead", lambda: check(
+            "check_url_alive closed LinkedIn",
+            fetch.check_url_alive(_li_url) is False,
+        ))
+
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"<button>Apply</button>")):
+        run("check_url_alive treats an open LinkedIn guest posting as alive", lambda: check(
+            "check_url_alive open LinkedIn",
+            fetch.check_url_alive(_li_url) is True,
+        ))
+
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"   ")):
+        run("check_url_alive assumes alive when LinkedIn serves an empty fragment", lambda: check(
+            "check_url_alive empty LinkedIn fragment",
+            fetch.check_url_alive(_li_url) is True,
+        ))
+
+    with patch("urllib.request.urlopen", side_effect=urllib.error.HTTPError("u", 404, "Not Found", {}, None)):
+        run("check_url_alive treats a 404 LinkedIn guest posting as dead", lambda: check(
+            "check_url_alive 404 LinkedIn",
+            fetch.check_url_alive(_li_url) is False,
+        ))
+
+    # jobs.apple.com / joinbytedance.com detail pages always return 200 —
+    # a live posting is server-rendered with an og:title tag, an expired one
+    # falls back to a generic shell with none (confirmed by hand against
+    # stale vanshb03 Apple rows).
+    _apple_url = "https://jobs.apple.com/en-us/details/200646547-3956/software-engineer-is-t-early-career"
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b'<meta property="og:title" content="Software Engineer - Careers at Apple">')):
+        run("check_url_alive treats an Apple details page with an og:title as alive", lambda: check(
+            "check_url_alive Apple live",
+            fetch.check_url_alive(_apple_url) is True,
+        ))
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"<html><head><title>Careers at Apple</title></head><body>generic shell</body></html>")):
+        run("check_url_alive treats an Apple details page with no og:title as dead", lambda: check(
+            "check_url_alive Apple expired",
+            fetch.check_url_alive(_apple_url) is False,
+        ))
+    _bd_url = "https://joinbytedance.com/search/7527678842316998919"
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"<html><head></head><body>shell</body></html>")):
+        run("check_url_alive treats a ByteDance search page with no og:title as dead", lambda: check(
+            "check_url_alive ByteDance expired",
+            fetch.check_url_alive(_bd_url) is False,
+        ))
+
     with patch.object(net, "check_url_alive", side_effect=[False, True]):
         run("find_dead_links flags only definitive 404/410 links", lambda: check(
             "find_dead_links flags only definitive 404/410 links",
@@ -364,6 +421,41 @@ def main():
         and vanshb03_rows[1]["company"] == "Google"
         and vanshb03_rows[1]["title"] == "Backend Engineer Intern"
         and vanshb03_rows[1]["url"] == "https://example.com/vb2",
+    ))
+
+    # vanshb03 flags a closed posting with a bare 🔒 status cell ("🔒 - Job
+    # application is closed" in its legend). A struck-through title means the
+    # same. Both should be dropped so users stop hitting dead apply links.
+    vanshb03_closed_md = "\n".join([
+        "| Company | Role | Location | Application/Link | Status | Date Posted |",
+        "| --- | --- | --- | --- | --- | --- |",
+        '| Google | Software Engineer Intern | Remote - USA | <a href="https://example.com/open">Apply</a> | | Jul 28 |',
+        '| Google | Backend Software Engineer | Remote - USA | <a href="https://example.com/closed">Apply</a> | 🔒 | Jul 27 |',
+        '| Google | ~~Frontend Software Engineer~~ | Remote - USA | <a href="https://example.com/struck">Apply</a> | | Jul 26 |',
+    ])
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25):
+            dest.write_text(vanshb03_closed_md, encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["google"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            vanshb03_closed_rows = fetch.fetch_vanshb03_newgrad()
+    run("vanshb03 fetch drops rows the source marked closed (🔒 / strikethrough)", lambda: check(
+        "vanshb03 fetch drops rows the source marked closed",
+        len(vanshb03_closed_rows) == 1
+        and vanshb03_closed_rows[0]["url"] == "https://example.com/open",
+        details=str([(r["title"], r["url"]) for r in vanshb03_closed_rows]),
+    ))
+
+    run("prettify_company_name fixes token-cased and lowercase names", lambda: check(
+        "prettify_company_name",
+        fetch.prettify_company_name("Openai") == "OpenAI"
+        and fetch.prettify_company_name("mongodb") == "MongoDB"
+        and fetch.prettify_company_name("scaleai") == "Scale AI"
+        and fetch.prettify_company_name("amazon web services (aws)") == "Amazon Web Services"
+        and fetch.prettify_company_name("Stripe") == "Stripe",
     ))
 
     # LorenzoLaCorte-style table: lowercase company/title, a trailing empty

@@ -7,6 +7,7 @@ import {
   REMOTE_VALUES,
   type FilterState,
 } from "../lib/filters";
+import { LEVEL_LABELS } from "../lib/labels";
 
 // Option lists are built off filters.ts's canonical value arrays (the same
 // ones that validate incoming URL query params) so this UI and that
@@ -22,16 +23,8 @@ const KIND_TABS = KIND_VALUES.map((value) => ({ value, label: KIND_LABELS[value]
 // Job-only facets — deliberately just the "available now" fields from the
 // plan's filter taxonomy (level/region/remote_type on every job row already).
 // Company, posted-age, and company-type filters are a fast-follow, not
-// missing by accident.
-const LEVEL_LABELS: Record<string, string> = {
-  internship: "Internship",
-  new_grad: "New grad",
-  junior: "Junior",
-  entry_level: "Entry level",
-  mid_level: "Mid level",
-  other: "Other",
-  unknown: "Unknown",
-};
+// missing by accident. LEVEL_LABELS is shared with GlobalDashboard and
+// OpportunityTable via lib/labels.ts so the wording can't drift.
 const LEVEL_OPTIONS = LEVEL_VALUES.map((value) => ({ value, label: LEVEL_LABELS[value] }));
 
 const REGION_LABELS: Record<string, string> = {
