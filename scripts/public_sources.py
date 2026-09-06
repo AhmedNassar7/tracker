@@ -36,6 +36,7 @@ from patterns import (
     PUBLIC_LEVEL_PATTERNS,
     PUBLIC_NON_SOFTWARE_TITLE_PATTERNS,
     PUBLIC_SOFTWARE_ROLE_TYPES,
+    detect_level as _detect_level,
     detect_region,
     detect_role_type,
     extract_job_facets,
@@ -125,10 +126,9 @@ def format_age_from_date(date_text):
 
 
 def detect_level(title):
-    for level, rx in LEVEL_PATTERNS.items():
-        if rx.search(title):
-            return level
-    return "other"
+    # Shared, senior-aware resolver (scripts/patterns.py). Public layer's
+    # unmatched default is "other" (not "unknown"), per PublicEntry's enum.
+    return _detect_level(title, LEVEL_PATTERNS, default="other")
 
 
 def is_software_job(title):

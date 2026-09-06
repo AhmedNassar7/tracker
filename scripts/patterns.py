@@ -129,9 +129,54 @@ PUBLIC_LEVEL_PATTERNS = {
     "internship": re.compile(r"\b(intern|internship|co.?op)\b", re.I),
     "new_grad": re.compile(r"\b(new.?grad|fresh.?grad|recent.?grad|graduate|campus|early.?career)\b", re.I),
     "junior": re.compile(r"\b(junior|jr\.?)\b", re.I),
-    "entry_level": re.compile(r"\b(entry.?level|associate|engineer i|sde ?i|sde ?1)\b", re.I),
+    "entry_level": re.compile(r"\b(entry.?level|associate|engineer i\b|sde ?i\b|sde ?1\b)\b", re.I),
     "mid_level": re.compile(r"\b(mid.?level|engineer ii|sde2|software engineer 2)\b", re.I),
 }
+
+# Senior / leadership / highly-experienced markers. A title carrying one of
+# these is above this project's internship–mid scope; detect_level() maps it
+# to "mid_level" (the "…and above" bucket) rather than letting a stray
+# "Engineer I" / "Associate" token elsewhere in the same title read as
+# entry-level — the exact bug behind "Senior Software Engineer I" being
+# classified entry_level.
+SENIOR_TITLE_RE = re.compile(
+    r"\b(senior|sr\.?|staff|principal|lead|manager|director|head\s+of|vp|"
+    r"vice\s+president|distinguished|fellow|architect|executive|"
+    r"experienced|expert|team\s+lead|tech\s+lead|group\s+lead)\b",
+    re.I,
+)
+
+# Unambiguous early-career words. If one of these is in the title it wins
+# outright, even over a "senior" token — "Senior" next to "Intern"/"New Grad"
+# is a contradiction that in practice means the early-career word.
+_EARLY_CAREER_LEVELS = ("internship", "new_grad", "junior")
+
+
+def detect_level(title, level_map=None, *, default="unknown"):
+    """Career level from a job title — **senior-aware**.
+
+    Resolution order:
+      1. an explicit intern / new-grad / junior word  → that level
+      2. a senior / lead / staff / principal / manager title  → "mid_level"
+      3. the remaining entry_level / mid_level title patterns
+      4. otherwise `default`
+
+    `level_map` defaults to FETCH_LEVEL_MAP (curated layer). The public layer
+    passes PUBLIC_LEVEL_PATTERNS and `default="other"`.
+    """
+    title = title or ""
+    level_map = level_map or FETCH_LEVEL_MAP
+    for lvl in _EARLY_CAREER_LEVELS:
+        rx = level_map.get(lvl)
+        if rx and rx.search(title):
+            return lvl
+    if SENIOR_TITLE_RE.search(title):
+        return "mid_level"
+    for lvl in ("entry_level", "mid_level"):
+        rx = level_map.get(lvl)
+        if rx and rx.search(title):
+            return lvl
+    return default
 
 PUBLIC_ROLE_PATTERNS = {
     "full_stack": re.compile(r"\bfull.?stack\b", re.I),

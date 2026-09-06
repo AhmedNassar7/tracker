@@ -175,6 +175,28 @@ def main():
         check("backend title yields no tech tag", "tech_tags" not in f, repr(f))
     run("extract_job_facets: nothing asserted from a bare title", _facets_minimal)
 
+    # ---- detect_level (senior-aware) -------------------------------------
+    def _level_senior():
+        L = p.PUBLIC_LEVEL_PATTERNS
+        check(
+            "'Senior Software Engineer I' is mid_level, not entry_level",
+            p.detect_level("Senior Software Engineer I - Global KYC and Onboarding", L, default="other") == "mid_level",
+        )
+        check("'Staff Software Engineer' -> mid_level", p.detect_level("Staff Software Engineer", L, default="other") == "mid_level")
+        check("'Lead Backend Developer' -> mid_level", p.detect_level("Lead Backend Developer", L, default="other") == "mid_level")
+        check("'Principal Engineer' -> mid_level", p.detect_level("Principal Engineer", L, default="other") == "mid_level")
+    run("detect_level: a senior/staff/lead title never reads as early-career", _level_senior)
+
+    def _level_early_career_wins():
+        L = p.PUBLIC_LEVEL_PATTERNS
+        check("plain 'Software Engineer I' still entry_level", p.detect_level("Software Engineer I", L, default="other") == "entry_level")
+        check("'New Grad Software Engineer' -> new_grad", p.detect_level("New Grad Software Engineer", L, default="other") == "new_grad")
+        check("'Junior Data Engineer' -> junior", p.detect_level("Junior Data Engineer", L, default="other") == "junior")
+        check("'Software Engineer Intern' -> internship", p.detect_level("Software Engineer Intern", L, default="other") == "internship")
+        check("unmatched -> the given default", p.detect_level("Software Development Engineer", L, default="other") == "other")
+        check("curated default is 'unknown'", p.detect_level("Software Development Engineer") == "unknown")
+    run("detect_level: explicit intern/new-grad/junior words win; default respected", _level_early_career_wins)
+
     # ---- detect_country / country_flag ------------------------------------
     def _country_basic():
         check("dubai -> UAE", p.detect_country("Dubai, United Arab Emirates") == "United Arab Emirates")

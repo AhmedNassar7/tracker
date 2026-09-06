@@ -28,7 +28,9 @@ from patterns import (
     FETCH_LEVEL_MAP,
     FETCH_REMOTE_RE,
     FETCH_ROLE_RE,
+    SENIOR_TITLE_RE,
     detect_country,
+    detect_level,
     detect_region,
     detect_role_type,
     extract_job_facets,
@@ -130,11 +132,7 @@ RELAXED_MODE = False
 # first-party APIs use grade conventions ("Software Engineer 4/5") that this
 # can't safely bucket, so they stay strict.
 UNKNOWN_LEVEL_SOURCES = {"amazon"}
-SENIOR_TITLE_RE = re.compile(
-    r"\b(senior|sr\.?|staff|principal|lead|manager|director|head\s+of|vp|"
-    r"vice\s+president|distinguished|fellow|architect|executive)\b",
-    re.I,
-)
+# SENIOR_TITLE_RE now lives in scripts/patterns.py (detect_level uses it too).
 
 COUNTRY_MARK_MAP = FETCH_COUNTRY_MARK_MAP
 
@@ -161,12 +159,6 @@ CATEGORY_RANK = {
 def make_id(company, title, url):
     raw = f"{company.lower()}|{title.lower()}|{url}"
     return hashlib.sha256(raw.encode()).hexdigest()[:16]
-
-def detect_level(title):
-    for level, rx in LEVEL_MAP.items():
-        if rx.search(title):
-            return level
-    return "unknown"
 
 def detect_remote_type(location):
     if REMOTE_RE.search(location):
@@ -284,11 +276,17 @@ def include_job(row, company):
     category = is_allowed_company(company)
     row["category"] = category or ""
 
+    # The curated feed is the strict, early-career one — a senior / staff /
+    # principal / lead title is out of scope here regardless of how
+    # detect_level bucketed it (it now maps such titles to "mid_level" for
+    # display correctness; this keeps them out of the *curated* list). The
+    # public layer still carries them in its "Mid-Level and Above" section.
+    if SENIOR_TITLE_RE.search(row.get("title") or ""):
+        return False
+
     if not RELAXED_MODE:
         level_ok = row["level"] in WANTED_LEVELS or (
-            row["level"] == "unknown"
-            and row.get("source") in UNKNOWN_LEVEL_SOURCES
-            and not SENIOR_TITLE_RE.search(row.get("title") or "")
+            row["level"] == "unknown" and row.get("source") in UNKNOWN_LEVEL_SOURCES
         )
         return level_ok and category is not None
 

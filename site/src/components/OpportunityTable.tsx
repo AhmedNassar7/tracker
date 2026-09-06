@@ -136,13 +136,6 @@ interface Props {
   // id → human "why this ranked here" reasons, only passed when the
   // "Best match" sort is active. Absent means don't render match chips.
   matchReasons?: Map<string, string[]>;
-  // C2 — "not interested" memory. `onDismiss` present ⇒ show a per-row
-  // dismiss control. `dismissedIds` marks which rows in `items` are
-  // currently-dismissed-but-shown (the "review dismissed" mode) so they can
-  // render muted with an Undo instead of a Dismiss.
-  onDismiss?: (item: SiteIndexEntry) => void;
-  onRestore?: (item: SiteIndexEntry) => void;
-  dismissedIds?: Set<string>;
 }
 
 export default function OpportunityTable({
@@ -150,9 +143,6 @@ export default function OpportunityTable({
   trackedIds,
   onToggleTrack,
   matchReasons,
-  onDismiss,
-  onRestore,
-  dismissedIds,
 }: Props) {
   const showBookmark = !!onToggleTrack;
   // Columns adapt to what's actually in view: "Level" only means something
@@ -184,14 +174,10 @@ export default function OpportunityTable({
         <tbody>
           {items.map((item) => {
             const company = prettifyCompany(item.company);
-            const isDismissed = !!dismissedIds?.has(item.id);
             return (
             <tr
               key={item.id}
-              className={
-                "row-enter border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900" +
-                (isDismissed ? " opacity-55" : "")
-              }
+              className="row-enter border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
             >
               {showBookmark && (
                 <td className="px-3 py-2">
@@ -242,26 +228,6 @@ export default function OpportunityTable({
                     </a>
                   </span>
                   <LivenessBadge item={item} />
-                  {onDismiss && (
-                    isDismissed ? (
-                      <button
-                        type="button"
-                        onClick={() => onRestore?.(item)}
-                        className="text-slate-400 underline-offset-2 hover:text-teal-700 hover:underline dark:hover:text-teal-300"
-                      >
-                        Dismissed · undo
-                      </button>
-                    ) : (
-                      <button
-                        type="button"
-                        onClick={() => onDismiss(item)}
-                        className="text-slate-400 underline-offset-2 hover:text-slate-700 hover:underline dark:hover:text-slate-200"
-                        title="Hide this and don't show it again"
-                      >
-                        Not interested
-                      </button>
-                    )
-                  )}
                 </div>
                 {matchReasons?.get(item.id) && (
                   <div className="mt-1 flex flex-wrap gap-1">
