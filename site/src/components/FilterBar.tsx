@@ -39,12 +39,23 @@ interface Props {
   // from the real dataset. This dropdown only ever offers values that
   // exist right now, so it can never invent a country with zero postings.
   availableCountries: string[];
+  // Same idea for B3 tech tags — the caller passes the tags that actually
+  // occur in the loaded data (most-common first), so the dropdown never
+  // lists a tag with zero matching rows.
+  availableTags: string[];
 }
 
-export default function FilterBar({ filters, onChange, resultCount, availableCountries }: Props) {
+export default function FilterBar({
+  filters,
+  onChange,
+  resultCount,
+  availableCountries,
+  availableTags,
+}: Props) {
   const set = <K extends keyof FilterState>(key: K, value: FilterState[K]) => {
     onChange({ ...filters, [key]: value });
   };
+  const toggleFlag = (key: "visa" | "nodegree") => set(key, filters[key] === "yes" ? "" : "yes");
 
   return (
     <div className="mb-6 space-y-3">
@@ -134,6 +145,54 @@ export default function FilterBar({ filters, onChange, resultCount, availableCou
             ))}
           </select>
         )}
+
+        {availableTags.length > 0 && (
+          <select
+            value={filters.tag}
+            onChange={(e) => set("tag", e.target.value)}
+            aria-label="Filter by tech / skill"
+            className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
+          >
+            <option value="">Any tech</option>
+            {availableTags.map((tag) => (
+              <option key={tag} value={tag}>
+                {tag}
+              </option>
+            ))}
+          </select>
+        )}
+
+        {/* B4 — explicit-only facet toggles. "on" ⇒ the posting text said so;
+            a silent posting is never a match, so there's deliberately no
+            "no visa" / "degree required" state to offer here. */}
+        <button
+          type="button"
+          onClick={() => toggleFlag("visa")}
+          aria-pressed={filters.visa === "yes"}
+          title="Only postings that explicitly offer visa sponsorship"
+          className={
+            "rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
+            (filters.visa === "yes"
+              ? "border-teal-700 bg-teal-700 text-white dark:border-teal-600 dark:bg-teal-600"
+              : "border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:bg-slate-900")
+          }
+        >
+          🛂 Visa sponsorship
+        </button>
+        <button
+          type="button"
+          onClick={() => toggleFlag("nodegree")}
+          aria-pressed={filters.nodegree === "yes"}
+          title="Only postings that explicitly say no degree is required"
+          className={
+            "rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
+            (filters.nodegree === "yes"
+              ? "border-teal-700 bg-teal-700 text-white dark:border-teal-600 dark:bg-teal-600"
+              : "border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:bg-slate-900")
+          }
+        >
+          No degree required
+        </button>
 
         {hasActiveFilters(filters) && (
           <button

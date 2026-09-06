@@ -42,6 +42,25 @@ export function formatLevel(level: string | undefined | null): string {
   return spaced ? spaced[0].toUpperCase() + spaced.slice(1) : "—";
 }
 
+const SALARY_SYMBOLS: Record<string, string> = { USD: "$", EUR: "€", GBP: "£", INR: "₹" };
+const SALARY_PERIOD_SUFFIX: Record<string, string> = { year: "/yr", month: "/mo", hour: "/hr" };
+
+/** "$120k–$150k/yr" from a site-index SalaryRange. Mirrors
+ *  format_salary_short() in scripts/build_data_readme.py so the site and the
+ *  generated README render a disclosed range the same way. */
+export function formatSalaryShort(salary: {
+  min: number;
+  max: number;
+  currency: string;
+  period: string;
+} | undefined | null): string {
+  if (!salary || typeof salary.min !== "number" || typeof salary.max !== "number") return "";
+  const sym = SALARY_SYMBOLS[salary.currency] ?? `${salary.currency} `;
+  const suffix = SALARY_PERIOD_SUFFIX[salary.period] ?? "";
+  const amount = (n: number) => (n >= 1000 ? `${Math.round(n / 1000)}k` : String(n));
+  return `${sym}${amount(salary.min)}–${sym}${amount(salary.max)}${suffix}`;
+}
+
 // The pipeline (scripts/company_names.py) already normalizes company names
 // into site-index.json; this is a thin client-side safety net for anything
 // that slips through (a brand-new board slug, a manually tracked entry).

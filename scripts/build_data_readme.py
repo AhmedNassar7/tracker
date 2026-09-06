@@ -150,24 +150,29 @@ def normalize_rows(rows: list[dict], origin: str) -> list[dict]:
         if (row.get("kind") or "job") == "job":
             age = reconcile_age(age, row.get("posted_at") or "")
 
-        normalized.append(
-            {
-                "origin": origin,
-                "company": prettify_company_name(row.get("company") or ""),
-                "title": row.get("title") or "",
-                "location": row.get("location") or "",
-                "age": age,
-                "level": row.get("level") or "other",
-                "url": row.get("url") or "",
-                "source": row.get("source") or "",
-                "posted_at": row.get("posted_at") or "",
-                "kind": row.get("kind") or "job",
-                # Allowlist tier (curated rows only) — drives the tier-first
-                # ordering in sort_jobs so FAANG/big-tech surface above a
-                # same-age role at a less-known company.
-                "category": row.get("category") or "",
-            }
-        )
+        entry = {
+            "origin": origin,
+            "company": prettify_company_name(row.get("company") or ""),
+            "title": row.get("title") or "",
+            "location": row.get("location") or "",
+            "age": age,
+            "level": row.get("level") or "other",
+            "url": row.get("url") or "",
+            "source": row.get("source") or "",
+            "posted_at": row.get("posted_at") or "",
+            "kind": row.get("kind") or "job",
+            # Allowlist tier (curated rows only) — drives the tier-first
+            # ordering in sort_jobs so FAANG/big-tech surface above a
+            # same-age role at a less-known company.
+            "category": row.get("category") or "",
+        }
+        # B3/B4/B5 facets — carried through so the rendered tables can show a
+        # 🛂 marker / an inline pay range. Only copied when the source row
+        # actually has the key (absent-not-guessed, same as everywhere else).
+        for facet in ("tech_tags", "visa_sponsorship", "degree_required", "relocation", "salary"):
+            if facet in row and row[facet] not in (None, "", []):
+                entry[facet] = row[facet]
+        normalized.append(entry)
     return normalized
 
 
@@ -335,6 +340,39 @@ def badge(label: str, value: int, color: str, link: str) -> str:
     return f"[![{label} {value}](https://img.shields.io/badge/{safe_label}-{value}-{color}.svg)]({link})"
 
 
+_SALARY_SYMBOLS = {"USD": "$", "EUR": "€", "GBP": "£", "INR": "₹"}
+_SALARY_PERIOD_SUFFIX = {"year": "/yr", "month": "/mo", "hour": "/hr"}
+
+
+def format_salary_short(salary: dict) -> str:
+    """'$120k–$150k/yr' from a parse_salary() dict, for the README title
+    cell. Returns '' for anything that doesn't have the four expected keys, so
+    a malformed value never lands in a table."""
+    try:
+        lo, hi = int(salary["min"]), int(salary["max"])
+        currency = str(salary["currency"])
+        period = str(salary["period"])
+    except (KeyError, TypeError, ValueError):
+        return ""
+
+    def amount(n: int) -> str:
+        return f"{round(n / 1000)}k" if n >= 1000 else str(n)
+
+    sym = _SALARY_SYMBOLS.get(currency, currency + " ")
+    suffix = _SALARY_PERIOD_SUFFIX.get(period, "")
+    return f"{sym}{amount(lo)}–{sym}{amount(hi)}{suffix}"
+
+
+def job_row_markers(row: dict) -> str:
+    """Leading emoji marker string for a job's title cell (currently just the
+    visa-sponsorship 🛂). Trailing space included when non-empty so callers
+    can prepend it unconditionally."""
+    markers = ""
+    if row.get("visa_sponsorship") is True:
+        markers += "\U0001f6c2 "
+    return markers
+
+
 def clean_cell(value: str) -> str:
     text = value or ""
     text = text.replace("\r", " ").replace("\n", " ")
@@ -387,8 +425,11 @@ def table_rows(rows: list[dict], enable_details: bool = True) -> list[str]:
         else:
             location_display = location_full
         
+        markers = job_row_markers(row)
+        salary_txt = format_salary_short(row["salary"]) if isinstance(row.get("salary"), dict) else ""
+        salary_suffix = f" _{salary_txt}_" if salary_txt else ""
         lines.append(
-            f"| {company} | [{title}]({row['url']}) | {location_display} | {age_formatted} |"
+            f"| {company} | {markers}[{title}]({row['url']}){salary_suffix} | {location_display} | {age_formatted} |"
         )
     return lines
 
@@ -470,13 +511,16 @@ def render_data_readme(
         "Every row links straight to the real application page. Click a title to apply — no account on this repo needed."
         " The **Age** column shows how long ago the listing was posted, so you can spot the newest roles at a glance.",
         "",
-        "## Emoji Guide",
+        "## Markers",
         "",
-        "| Emoji | Meaning |",
+        "Extra signals pulled straight from a posting's own text (only the ATS sources that publish a full"
+        " description — Greenhouse, Lever, Ashby, Remotive, ArbeitNow — so most rows won't carry one). Absent"
+        " means the posting didn't say, not \"no\".",
+        "",
+        "| Marker | Meaning |",
         "|---|---|",
-        "| 🎓 | PhD or advanced degree required |",
-        "| 🇺🇸 | US only |",
-        "| 🛂 | Visa sponsorship |",
+        "| 🛂 | The posting explicitly states visa sponsorship is available |",
+        "| _$120k–$150k/yr_ (after the title) | A pay range disclosed in the posting itself — never an estimate |",
         "",
         "## Quick Links",
         "",

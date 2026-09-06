@@ -1,8 +1,63 @@
 import BookmarkButton from "./BookmarkButton";
 import CompanyAvatar from "./CompanyAvatar";
 import { BASE_URL } from "../lib/basePath";
-import { formatLevel, prettifyCompany } from "../lib/labels";
+import { formatLevel, formatSalaryShort, prettifyCompany } from "../lib/labels";
 import type { SiteIndexEntry } from "../lib/types";
+
+const MAX_TECH_CHIPS = 4;
+
+// B3/B4/B5 — signals lifted from the posting's own text. Rendered only when
+// present (a silent posting shows nothing), so this quietly no-ops for the
+// many rows whose source carries no description.
+function FacetChips({ item }: { item: SiteIndexEntry }) {
+  const tags = item.tech_tags ?? [];
+  const salary = formatSalaryShort(item.salary);
+  const hasBenefit =
+    item.visa_sponsorship === true || item.degree_required === false || !!salary;
+  if (tags.length === 0 && !hasBenefit) return null;
+
+  const shownTags = tags.slice(0, MAX_TECH_CHIPS);
+  const restCount = tags.length - shownTags.length;
+
+  return (
+    <div className="mt-1 flex flex-wrap items-center gap-1">
+      {shownTags.map((tag) => (
+        <span
+          key={tag}
+          className="rounded bg-slate-100 px-1.5 py-0.5 text-[10px] font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-300"
+        >
+          {tag}
+        </span>
+      ))}
+      {restCount > 0 && (
+        <span className="text-[10px] text-slate-400" title={tags.join(", ")}>
+          +{restCount}
+        </span>
+      )}
+      {salary && (
+        <span className="rounded bg-emerald-50 px-1.5 py-0.5 text-[10px] font-semibold text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300">
+          {salary}
+        </span>
+      )}
+      {item.visa_sponsorship === true && (
+        <span
+          className="rounded bg-teal-50 px-1.5 py-0.5 text-[10px] font-medium text-teal-700 dark:bg-teal-950 dark:text-teal-300"
+          title="The posting explicitly offers visa sponsorship"
+        >
+          🛂 Visa
+        </span>
+      )}
+      {item.degree_required === false && (
+        <span
+          className="rounded bg-teal-50 px-1.5 py-0.5 text-[10px] font-medium text-teal-700 dark:bg-teal-950 dark:text-teal-300"
+          title="The posting explicitly says no degree is required"
+        >
+          No degree
+        </span>
+      )}
+    </div>
+  );
+}
 
 const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
   job: "Job",
@@ -152,6 +207,7 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack, mat
                     ))}
                   </div>
                 )}
+                <FacetChips item={item} />
               </td>
               <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{KIND_LABEL[item.kind]}</td>
               {hasJobs && (

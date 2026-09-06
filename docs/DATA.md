@@ -65,6 +65,7 @@ Used by `data/jobs-global.json` and `data/jobs-global-archive.json` (archive ent
 | `age` | string | Human-readable, e.g. `"0d"`, `"5d"`, `"Recently"` — sourced verbatim when the origin provides it, else computed from `posted_at` |
 | `collected_at` | string | ISO 8601 UTC timestamp |
 | `tags` | string[] | Always `["software", "programming", "global-tech-roles"]` currently |
+| `tech_tags`, `visa_sponsorship`, `degree_required`, `relocation`, `salary` | array / boolean / object | Optional B3/B4/B5 facets — same meaning and strict-positive rules as in `SiteIndexEntry` below. Curated layer populates them for Remotive and ArbeitNow (the two sources that carry a job description); the community-tracker README rows have none |
 | `closed_at` | string | ISO 8601 UTC timestamp. Only present in `jobs-global-archive.json`, never in `jobs-global.json` |
 
 `additionalProperties: false` — the schema is exhaustive; nothing else is ever written to this shape.
@@ -88,6 +89,7 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 | `url` | string | Absolute URL, except Luma events which use a site-relative path |
 | `source` | string | e.g. `greenhouse:stripe`, `lever:acme`, `devpost`, `luma` |
 | `source_url` | string (uri) | |
+| `tech_tags`, `visa_sponsorship`, `degree_required`, `relocation`, `salary` | array / boolean / object | Job-only, optional B3/B4/B5 facets — same strict-positive rules as `SiteIndexEntry` below. Populated for Greenhouse (`?content=true`), Lever (`descriptionPlain` + `lists`), and Ashby (`descriptionPlain`); other public sources omit them |
 
 ### `SiteIndexEntry` — [config/site-index.schema.json](../config/site-index.schema.json)
 
@@ -105,6 +107,9 @@ Used by the `items` array in `data/site-index.json`, written by `build_site_inde
 | `posted_at` | string | `YYYY-MM-DD` or `""` |
 | `level`, `region`, `role_type` | enum | Job-only |
 | `category`, `remote_type`, `country` | string / enum | Job-only, **curated-origin only** — omitted entirely (not `""` or guessed) on public-origin job items, since the public layer never detects them |
+| `tech_tags` | string[] | Job-only. Canonical skill/tech tags (`React`, `Go`, `Kubernetes`, …) detected from the posting's description text by `scripts/patterns.py` `detect_tech_tags`. Present only for sources that expose a full description (Greenhouse/Lever/Ashby, plus curated Remotive/ArbeitNow); omitted — never `[]` — otherwise |
+| `visa_sponsorship`, `degree_required`, `relocation` | boolean | Job-only, **explicit-only**. `true`/`false` only when the description says so in as many words (a negative statement wins over a positive one); a silent posting has no key at all, never a default `false`. From `detect_requirements` |
+| `salary` | object | Job-only. `{min, max, currency (3-letter), period: hour\|month\|year}` — a literal range lifted from the posting by `parse_salary` and sanity-checked; **never estimated**. Absent unless the posting itself discloses a currency-marked range |
 
 Top-level shape: `{generated_at, count, checksum, items}`. `checksum` is `"sha256:" + sha256(sorted item ids joined by "\n")` — cheap to compute and enough to answer "did the item set change since last visit," not a full-content hash. Not itself schema-validated (only `items[]` entries are); it's a plain wrapper this pipeline's own code constructs.
 

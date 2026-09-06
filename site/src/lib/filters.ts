@@ -7,6 +7,16 @@ export interface FilterState {
   region: string;
   remote: string;
   country: string;
+  // B3 — a single tech tag (e.g. "React"); free-form like `country`, its
+  // options come from what's actually in the data.
+  tag: string;
+  // B4 — "yes" means "only postings that explicitly offer visa sponsorship" /
+  // "only postings that explicitly say no degree is required". Empty = don't
+  // filter on it. There's no "no" option: a posting that's simply silent
+  // isn't a match either way, and offering "no" would wrongly imply we can
+  // tell the difference between "says no" and "doesn't say".
+  visa: string;
+  nodegree: string;
 }
 
 export const DEFAULT_FILTERS: FilterState = {
@@ -16,6 +26,9 @@ export const DEFAULT_FILTERS: FilterState = {
   region: "",
   remote: "",
   country: "",
+  tag: "",
+  visa: "",
+  nodegree: "",
 };
 
 // Single source of truth for what each dropdown may legally hold — used both
@@ -33,6 +46,8 @@ export const LEVEL_VALUES: readonly Level[] = [
 ];
 export const REGION_VALUES: readonly Region[] = ["us", "canada", "mena", "emea", "remote", "unknown"];
 export const REMOTE_VALUES: readonly RemoteType[] = ["remote", "hybrid", "onsite", "unknown"];
+// The only legal non-empty value for the two boolean-ish facet filters.
+export const FACET_FLAG_VALUES: readonly string[] = ["yes"];
 
 // URL query param names — short, but distinct from likely-future params
 // (e.g. a saved-view id) so shared links stay readable.
@@ -43,6 +58,9 @@ const PARAM_KEYS: Record<keyof FilterState, string> = {
   region: "region",
   remote: "remote",
   country: "country",
+  tag: "tag",
+  visa: "visa",
+  nodegree: "nodegree",
 };
 
 // A hand-edited or stale shared URL can carry any string in its query
@@ -63,6 +81,11 @@ export function filtersFromSearchParams(params: URLSearchParams): FilterState {
     level: pickValid(params.get(PARAM_KEYS.level), LEVEL_VALUES, DEFAULT_FILTERS.level),
     region: pickValid(params.get(PARAM_KEYS.region), REGION_VALUES, DEFAULT_FILTERS.region),
     remote: pickValid(params.get(PARAM_KEYS.remote), REMOTE_VALUES, DEFAULT_FILTERS.remote),
+    visa: pickValid(params.get(PARAM_KEYS.visa), FACET_FLAG_VALUES, DEFAULT_FILTERS.visa),
+    nodegree: pickValid(params.get(PARAM_KEYS.nodegree), FACET_FLAG_VALUES, DEFAULT_FILTERS.nodegree),
+    // tag, like country below, is free-form — FilterBar only offers tags that
+    // exist in the loaded data, so a stale ?tag= just matches zero rows.
+    tag: params.get(PARAM_KEYS.tag) ?? DEFAULT_FILTERS.tag,
     // country is free-form text (job-entry.schema.json has no fixed enum
     // for it — "Detected country name, or 'Remote'/'Unknown'"), unlike
     // level/region/remote, so there's no fixed set to validate against
@@ -95,6 +118,12 @@ export function applyFilters(items: SiteIndexEntry[], filters: FilterState): Sit
     if (filters.region && item.region !== filters.region) return false;
     if (filters.remote && item.remote_type !== filters.remote) return false;
     if (filters.country && item.country !== filters.country) return false;
+    if (filters.tag && !(item.tech_tags ?? []).includes(filters.tag)) return false;
+    // "yes" = require the posting to have said so explicitly. `=== true` /
+    // `=== false` (not truthy/falsy) so a silent posting with the key absent
+    // is correctly excluded rather than accidentally matched.
+    if (filters.visa === "yes" && item.visa_sponsorship !== true) return false;
+    if (filters.nodegree === "yes" && item.degree_required !== false) return false;
     // Company + title + location — widened from company/title only, since
     // someone searching "Cairo" or "Dubai" is asking a real, answerable
     // question this data already has, not one that needs a new source.
@@ -110,6 +139,9 @@ export function hasActiveFilters(filters: FilterState): boolean {
     filters.level !== "" ||
     filters.region !== "" ||
     filters.remote !== "" ||
-    filters.country !== ""
+    filters.country !== "" ||
+    filters.tag !== "" ||
+    filters.visa !== "" ||
+    filters.nodegree !== ""
   );
 }

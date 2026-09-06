@@ -295,6 +295,22 @@ export default function OpportunityBrowser() {
     return [...countries].sort((a, b) => a.localeCompare(b));
   }, [state]);
 
+  // B3 — tech tags that actually occur, most-common first so the dropdown
+  // leads with the useful ones; capped so a long tail of one-off tags
+  // doesn't bloat the control. Only a subset of sources carry a description,
+  // so this list can legitimately be short or empty.
+  const availableTags = useMemo(() => {
+    if (state.status !== "loaded") return [];
+    const counts = new Map<string, number>();
+    for (const item of state.data.items) {
+      for (const tag of item.tech_tags ?? []) counts.set(tag, (counts.get(tag) ?? 0) + 1);
+    }
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, 40)
+      .map(([tag]) => tag);
+  }, [state]);
+
   if (state.status === "loading") {
     return <SkeletonTable label="Loading opportunities…" />;
   }
@@ -403,6 +419,7 @@ export default function OpportunityBrowser() {
         onChange={setFilters}
         resultCount={filteredItems.length}
         availableCountries={availableCountries}
+        availableTags={availableTags}
       />
 
       {filteredItems.length === 0 ? (

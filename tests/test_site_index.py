@@ -261,6 +261,78 @@ def main():
         _raises(build_with_invalid_row, ValueError),
     ))
 
+    # B3/B4/B5 — facets carried from a public job record through to site-index.json
+    faceted_public_job = {
+        **public_job,
+        "id": "1111111111111111",
+        "url": "https://example.com/gh-faceted",
+        "tech_tags": ["Python", "Go"],
+        "visa_sponsorship": True,
+        "degree_required": False,
+        "salary": {"min": 120000, "max": 150000, "currency": "USD", "period": "year"},
+    }
+    faceted_index = bdr.build_site_index(
+        {"jobs": [], "hackathons": [], "events": []},
+        {"jobs": [faceted_public_job], "hackathons": [], "events": []},
+    )
+    run("build_site_index carries B3/B4/B5 facets through for a job", lambda: check(
+        "facets in site index",
+        faceted_index["items"][0].get("tech_tags") == ["Python", "Go"]
+        and faceted_index["items"][0].get("visa_sponsorship") is True
+        and faceted_index["items"][0].get("degree_required") is False
+        and faceted_index["items"][0].get("salary", {}).get("currency") == "USD",
+        details=str(faceted_index["items"][0]),
+    ))
+    run("faceted item still validates against site-index.schema.json", lambda: check(
+        "faceted schema valid",
+        sv.validate_records(faceted_index["items"], site_index_schema, label="items") == [],
+    ))
+    run("a job with no facets gets no facet keys", lambda: check(
+        "no phantom facet keys",
+        not any(k in by_id["bbbbbbbbbbbbbbbb"] for k in
+                ("tech_tags", "visa_sponsorship", "degree_required", "relocation", "salary")),
+    ))
+
+    run("normalize_rows carries facet keys through for the README path", lambda: check(
+        "normalize_rows facets",
+        (lambda r: r.get("visa_sponsorship") is True
+         and r.get("tech_tags") == ["Rust"]
+         and r.get("salary", {}).get("period") == "year"
+         and "relocation" not in r)(
+            bdr.normalize_rows([{
+                "company": "Acme", "title": "SWE", "url": "https://x/y", "source": "remotive",
+                "posted_at": "2026-01-01", "age": "2d", "level": "new_grad", "kind": "job",
+                "visa_sponsorship": True, "tech_tags": ["Rust"],
+                "salary": {"min": 90000, "max": 110000, "currency": "USD", "period": "year"},
+            }], "curated")[0]
+        ),
+    ))
+
+    # README render helpers
+    run("format_salary_short renders a compact range", lambda: check(
+        "salary short",
+        bdr.format_salary_short({"min": 120000, "max": 150000, "currency": "USD", "period": "year"}) == "$120k–$150k/yr"
+        and bdr.format_salary_short({"min": 22, "max": 28, "currency": "USD", "period": "hour"}) == "$22–$28/hr"
+        and bdr.format_salary_short({"min": 1, "currency": "USD"}) == "",
+    ))
+    run("job_row_markers emits 🛂 only for an explicit visa=true", lambda: check(
+        "row markers",
+        bdr.job_row_markers({"visa_sponsorship": True}).strip() == "\U0001f6c2"
+        and bdr.job_row_markers({"visa_sponsorship": False}) == ""
+        and bdr.job_row_markers({}) == "",
+    ))
+    run("table_rows prepends 🛂 and appends the pay range to the title cell", lambda: check(
+        "table_rows facet render",
+        (lambda line: "\U0001f6c2 [" in line and "_$120k–$150k/yr_" in line)(
+            bdr.table_rows([{
+                "company": "Acme", "title": "SWE Intern", "location": "Remote",
+                "age": "3d", "url": "https://example.com/j",
+                "visa_sponsorship": True,
+                "salary": {"min": 120000, "max": 150000, "currency": "USD", "period": "year"},
+            }])[0]
+        ),
+    ))
+
     print(color(f"✅ ALL PASSED: {total} checks", GREEN))
     return 0
 

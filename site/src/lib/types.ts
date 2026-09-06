@@ -53,6 +53,23 @@ export interface SiteIndexEntry {
   category?: string;
   remote_type?: RemoteType;
   country?: string;
+  // Job-only B3/B4/B5 facets, detected from the posting's own description
+  // text (scripts/patterns.py). Absent — never a default `false` or `[]` —
+  // when the posting didn't say. Only the ATS sources that expose a full
+  // description populate these (Greenhouse / Lever / Ashby / Remotive /
+  // ArbeitNow); every other layer omits them.
+  tech_tags?: string[];
+  visa_sponsorship?: boolean;
+  degree_required?: boolean;
+  relocation?: boolean;
+  salary?: SalaryRange;
+}
+
+export interface SalaryRange {
+  min: number;
+  max: number;
+  currency: string;
+  period: "hour" | "month" | "year";
 }
 
 export interface SiteIndex {
