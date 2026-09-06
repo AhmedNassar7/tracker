@@ -1,5 +1,5 @@
 import { countryForItem, regionForItem, REGION_ALIASES } from "./geo";
-import type { Level, Region, RemoteType, SiteIndexEntry, SiteIndexKind } from "./types";
+import type { Level, Region, RemoteType, RoleType, SiteIndexEntry, SiteIndexKind } from "./types";
 
 // The filter bar is the ONE place facets live (Lane H). Every multi-value
 // facet is a string[] — empty array = "don't filter on this". `kind` stays
@@ -9,6 +9,7 @@ export interface FilterState {
   q: string;
   kind: SiteIndexKind | "all";
   levels: string[];
+  roles: string[];
   regions: string[];
   remotes: string[];
   countries: string[];
@@ -25,6 +26,7 @@ export const DEFAULT_FILTERS: FilterState = {
   q: "",
   kind: "all",
   levels: [],
+  roles: [],
   regions: [],
   remotes: [],
   countries: [],
@@ -46,6 +48,9 @@ export const LEVEL_VALUES: readonly Level[] = [
   "other",
   "unknown",
 ];
+// The regions offered as filter options. 'unknown' is a valid stored value
+// (an unclassifiable location) but is intentionally not here — it's not a
+// useful thing to filter for, and the option list is data-driven anyway.
 export const REGION_VALUES: readonly Region[] = [
   "north_america",
   "latam",
@@ -53,14 +58,27 @@ export const REGION_VALUES: readonly Region[] = [
   "mena",
   "apac",
   "remote",
-  "unknown",
 ];
 export const REMOTE_VALUES: readonly RemoteType[] = ["remote", "hybrid", "onsite", "unknown"];
+// Engineering discipline (scripts/patterns.py detect_role_type). Ordered
+// most-common first for the picker.
+export const ROLE_VALUES: readonly RoleType[] = [
+  "software_engineer",
+  "full_stack",
+  "backend",
+  "frontend",
+  "mobile",
+  "platform",
+  "infrastructure",
+  "machine_learning",
+  "security",
+  "other_swe",
+];
 export const FACET_FLAG_VALUES: readonly string[] = ["yes"];
 
 // The FilterState keys that are string[] facets — iterated by the URL
 // (de)serializer and by hasActiveFilters so adding a facet is one line.
-export const ARRAY_FACET_KEYS = ["levels", "regions", "remotes", "countries", "companies", "tags"] as const;
+export const ARRAY_FACET_KEYS = ["levels", "roles", "regions", "remotes", "countries", "companies", "tags"] as const;
 type ArrayFacetKey = (typeof ARRAY_FACET_KEYS)[number];
 
 // URL param name per FilterState key. Arrays serialize as a comma-joined
@@ -69,6 +87,7 @@ const PARAM_KEYS: Record<keyof FilterState, string> = {
   q: "q",
   kind: "kind",
   levels: "levels",
+  roles: "role",
   regions: "regions",
   remotes: "remote",
   countries: "country",
@@ -84,6 +103,7 @@ const PARAM_KEYS: Record<keyof FilterState, string> = {
 // FilterBar only ever offers real values, so a bad one just matches zero.
 const ENUM_FOR_FACET: Partial<Record<ArrayFacetKey, readonly string[]>> = {
   levels: LEVEL_VALUES,
+  roles: ROLE_VALUES,
   regions: REGION_VALUES,
   remotes: REMOTE_VALUES,
 };
@@ -113,6 +133,7 @@ export function filtersFromSearchParams(params: URLSearchParams): FilterState {
   const next: FilterState = {
     ...DEFAULT_FILTERS,
     levels: [],
+    roles: [],
     regions: [],
     remotes: [],
     countries: [],
@@ -153,6 +174,7 @@ export function applyFilters(items: SiteIndexEntry[], filters: FilterState): Sit
   return items.filter((item) => {
     if (filters.kind !== "all" && item.kind !== filters.kind) return false;
     if (filters.levels.length > 0 && !(item.level && filters.levels.includes(item.level))) return false;
+    if (filters.roles.length > 0 && !(item.role_type && filters.roles.includes(item.role_type))) return false;
     if (filters.regions.length > 0 && !filters.regions.includes(regionForItem(item))) return false;
     if (filters.remotes.length > 0 && !(item.remote_type && filters.remotes.includes(item.remote_type))) return false;
     if (filters.countries.length > 0) {

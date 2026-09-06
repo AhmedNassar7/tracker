@@ -5,6 +5,7 @@ import {
   DEFAULT_FILTERS,
   filtersFromSearchParams,
   hasActiveFilters,
+  ROLE_VALUES,
   searchParamsFromFilters,
   type FilterState,
 } from "../lib/filters";
@@ -320,6 +321,15 @@ export default function OpportunityBrowser() {
     return map;
   }, [relevanceActive, prefFilter, rankTune, visibleItems]);
 
+  // Engineering disciplines present in the loaded data, in the canonical
+  // ROLE_VALUES order (most-common first) — data-driven so an absent
+  // discipline never shows as a dead option.
+  const availableRoles = useMemo(() => {
+    const present = new Set<string>();
+    for (const item of opportunityItems) if (item.role_type) present.add(item.role_type);
+    return ROLE_VALUES.filter((r) => present.has(r));
+  }, [opportunityItems]);
+
   // Macro-regions actually present in the loaded data, in canonical order —
   // so "unknown" only shows if something is genuinely unclassified, and a
   // bucket the deployed data doesn't carry yet (apac/latam) still appears
@@ -498,6 +508,7 @@ export default function OpportunityBrowser() {
         filters={filters}
         onChange={setFilters}
         resultCount={primary.length}
+        availableRoles={availableRoles}
         availableRegions={availableRegions}
         availableCountries={availableCountries}
         availableCompanies={availableCompanies}

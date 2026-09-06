@@ -14,7 +14,14 @@ export type Level =
   | "unknown"
   | "other";
 
-export type Region = "north_america" | "latam" | "europe" | "mena" | "apac" | "remote" | "unknown";
+export type Region =
+  | "north_america"
+  | "latam"
+  | "europe"
+  | "mena"
+  | "apac"
+  | "remote"
+  | "unknown";
 
 export type RoleType =
   | "full_stack"

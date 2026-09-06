@@ -50,7 +50,7 @@
     "region": {
       "type": "string",
       "enum": ["north_america", "latam", "europe", "mena", "apac", "remote", "unknown"],
-      "description": "Job-only. Macro-region tier ('mena' = Middle East & Africa, matched before 'europe'). Per-country granularity is the separate 'country' field — there's no 'us'/'canada' bucket. Snapshots/data written before 2026-09-06 may still carry the old 'us'/'canada'/'emea' values."
+      "description": "Job-only. Continental macro-region tier: 'mena' = Middle East & Africa (including sub-Saharan), matched before 'europe'. Per-country granularity is the separate 'country' field — there's no 'us'/'canada' bucket. Data written before 2026-09-06 may still carry the old 'us'/'canada'/'emea' values."
     },
     "role_type": {
       "type": "string",

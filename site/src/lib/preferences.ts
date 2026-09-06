@@ -43,6 +43,7 @@ export function readPrefFilter(): FilterState | null {
       ...DEFAULT_FILTERS,
       ...parsed,
       levels: normalizeList(parsed.levels),
+      roles: normalizeList(parsed.roles),
       regions: normalizeList(parsed.regions).map((r) => REGION_ALIASES[r] ?? r),
       remotes: normalizeList(parsed.remotes),
       countries: normalizeList(parsed.countries),
@@ -84,6 +85,7 @@ export function prefFilterIsMeaningful(f: FilterState | null): boolean {
     f.kind !== "all" ||
     f.visa === "yes" ||
     f.levels.length > 0 ||
+    f.roles.length > 0 ||
     f.regions.length > 0 ||
     f.remotes.length > 0 ||
     f.countries.length > 0 ||
@@ -101,6 +103,7 @@ export function filtersEqual(a: FilterState, b: FilterState): boolean {
     a.kind === b.kind &&
     a.visa === b.visa &&
     sameArr(a.levels, b.levels) &&
+    sameArr(a.roles, b.roles) &&
     sameArr(a.regions, b.regions) &&
     sameArr(a.remotes, b.remotes) &&
     sameArr(a.countries, b.countries) &&
@@ -184,6 +187,7 @@ export function contradictsPrefFilter(item: SiteIndexEntry, pref: FilterState): 
 export function scoreOpportunity(item: SiteIndexEntry, pref: FilterState, tune: RankTune): number {
   let score = 0;
   if (pref.levels.length > 0 && item.level && pref.levels.includes(item.level)) score += 3;
+  if (pref.roles.length > 0 && item.role_type && pref.roles.includes(item.role_type)) score += 2;
   if (pref.regions.length > 0 && pref.regions.includes(regionForItem(item))) score += 2;
   if (pref.remotes.length > 0 && item.remote_type && pref.remotes.includes(item.remote_type)) score += 2;
   if (pref.countries.length > 0) {
@@ -209,6 +213,9 @@ export function matchReasons(item: SiteIndexEntry, pref: FilterState, tune: Rank
   const reasons: string[] = [];
   if (pref.levels.length > 0 && item.level && pref.levels.includes(item.level)) {
     reasons.push(item.level.replace(/_/g, " "));
+  }
+  if (pref.roles.length > 0 && item.role_type && pref.roles.includes(item.role_type)) {
+    reasons.push(item.role_type.replace(/_/g, " "));
   }
   if (pref.regions.length > 0) {
     const r = regionForItem(item);

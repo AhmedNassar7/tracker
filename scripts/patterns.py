@@ -41,35 +41,38 @@ FETCH_REGION_MAP = {
     ),
     # Latin America — Mexico, Central & South America, the Caribbean.
     "latam": re.compile(
-        r"\b(latam|latin america|south america|central america|"
+        r"\b(latam|latin america|south america|central america|caribbean|"
         r"mexico|m[eé]xico|guadalajara|monterrey|"
         r"brazil|brasil|s[ãa]o paulo|rio de janeiro|belo horizonte|"
         r"argentina|buenos aires|c[oó]rdoba|"
         r"colombia|bogot[aá]|medell[ií]n|chile|santiago|"
-        r"peru|lima|uruguay|montevideo|costa rica)\b",
+        r"peru|lima|uruguay|montevideo|costa rica|"
+        r"ecuador|quito|guayaquil|panama|panam[aá]|dominican republic|santo domingo)\b",
         re.I,
     ),
-    # MENA + wider Middle East / Africa. Checked BEFORE 'europe' so a Gulf/North
-    # Africa location resolves to its own bucket instead of being folded into
+    # MENA + wider Middle East / Africa. Checked BEFORE 'europe' so a Gulf /
+    # North-Africa / sub-Saharan location resolves here instead of folding into
     # Europe. Kept deliberately broad (Gulf, Levant, North Africa, plus the
     # main sub-Saharan tech hubs) because the region's employers — Careem,
     # Tamara, Thndr, Jumia, Flutterwave, Paystack — span all of it.
     "mena": re.compile(
-        r"\b(mena|menat|gcc|middle east|gulf|north africa|"
+        r"\b(mena|menat|gcc|middle east|gulf|north africa|maghreb|africa|"
         r"uae|u\.a\.e\.?|united arab emirates|dubai|abu dhabi|sharjah|ajman|difc|"
         r"saudi|saudi arabia|ksa|riyadh|jeddah|jiddah|dammam|khobar|dhahran|neom|"
         r"qatar|doha|kuwait|bahrain|manama|oman|muscat|"
         r"jordan|amman|lebanon|beirut|palestine|ramallah|gaza|iraq|baghdad|erbil|"
         r"israel|tel aviv|jerusalem|herzliya|haifa|yokneam|"
         r"egypt|cairo|alexandria|giza|maadi|"
-        r"morocco|casablanca|rabat|marrakech|algeria|algiers|tunisia|tunis|"
+        r"morocco|casablanca|rabat|marrakech|algeria|algiers|tunisia|tunis|libya|tripoli|"
         r"turkey|t[üu]rkiye|istanbul|ankara|izmir|"
         r"nigeria|lagos|abuja|kenya|nairobi|ghana|accra|"
-        r"south africa|johannesburg|cape town|pretoria)\b",
+        r"south africa|johannesburg|cape town|pretoria|durban|"
+        r"rwanda|kigali|uganda|kampala|tanzania|dar es salaam|"
+        r"ethiopia|addis ababa|senegal|dakar|c[oô]te d.?ivoire|ivory coast|abidjan)\b",
         re.I,
     ),
-    # Europe — was 'emea'; the MENA bucket above already carries Middle East &
-    # Africa, so this is Europe proper (EU + UK + EFTA + the Balkans).
+    # Europe — was 'emea'; MENA has its own bucket above, so this is Europe
+    # proper (EU + UK + EFTA + the Balkans).
     "europe": re.compile(
         r"\b(emea|europe|european union|"
         r"uk|u\.k\.|united kingdom|england|scotland|wales|london|manchester|"
@@ -79,7 +82,11 @@ FETCH_REGION_MAP = {
         r"poland|warsaw|krakow|sweden|stockholm|norway|oslo|denmark|copenhagen|"
         r"finland|helsinki|belgium|brussels|switzerland|zurich|geneva|"
         r"austria|vienna|czechia|czech republic|prague|romania|bucharest|"
-        r"greece|athens|hungary|budapest|ukraine|kyiv|kiev|lviv)\b",
+        r"greece|athens|hungary|budapest|ukraine|kyiv|kiev|lviv|"
+        r"luxembourg|estonia|tallinn|lithuania|vilnius|latvia|riga|"
+        r"bulgaria|sofia|croatia|zagreb|serbia|belgrade|"
+        r"slovakia|bratislava|slovenia|ljubljana|cyprus|nicosia|malta|valletta|"
+        r"iceland|reykjav[ií]k)\b",
         re.I,
     ),
     # Asia-Pacific — South, East & South-East Asia plus Oceania. Checked last;
@@ -168,6 +175,35 @@ FETCH_COUNTRY_MARK_MAP = [
     (re.compile(r"\b(argentina|buenos aires|c[oó]rdoba)\b", re.I), "Argentina"),
     (re.compile(r"\b(colombia|bogot[aá]|medell[ií]n)\b", re.I), "Colombia"),
     (re.compile(r"\b(chile|santiago)\b", re.I), "Chile"),
+    (re.compile(r"\b(peru|lima)\b", re.I), "Peru"),
+    (re.compile(r"\b(uruguay|montevideo)\b", re.I), "Uruguay"),
+    (re.compile(r"\bcosta rica\b", re.I), "Costa Rica"),
+    (re.compile(r"\b(ecuador|quito|guayaquil)\b", re.I), "Ecuador"),
+    (re.compile(r"\b(panama|panam[aá])\b", re.I), "Panama"),
+    (re.compile(r"\b(dominican republic|santo domingo)\b", re.I), "Dominican Republic"),
+    # Wider Europe (EU-27 + EFTA + Balkans) not covered above
+    (re.compile(r"\b(luxembourg)\b", re.I), "Luxembourg"),
+    (re.compile(r"\b(estonia|tallinn)\b", re.I), "Estonia"),
+    (re.compile(r"\b(lithuania|vilnius|kaunas)\b", re.I), "Lithuania"),
+    (re.compile(r"\b(latvia|riga)\b", re.I), "Latvia"),
+    (re.compile(r"\b(bulgaria|sofia|plovdiv)\b", re.I), "Bulgaria"),
+    (re.compile(r"\b(croatia|zagreb|split)\b", re.I), "Croatia"),
+    (re.compile(r"\b(serbia|belgrade|novi sad)\b", re.I), "Serbia"),
+    (re.compile(r"\b(slovakia|bratislava)\b", re.I), "Slovakia"),
+    (re.compile(r"\b(slovenia|ljubljana)\b", re.I), "Slovenia"),
+    (re.compile(r"\b(cyprus|nicosia|limassol)\b", re.I), "Cyprus"),
+    (re.compile(r"\b(malta|valletta)\b", re.I), "Malta"),
+    (re.compile(r"\b(iceland|reykjav[ií]k)\b", re.I), "Iceland"),
+    # More Africa / MENA tech hubs
+    (re.compile(r"\b(rwanda|kigali)\b", re.I), "Rwanda"),
+    (re.compile(r"\b(uganda|kampala)\b", re.I), "Uganda"),
+    (re.compile(r"\b(tanzania|dar es salaam)\b", re.I), "Tanzania"),
+    (re.compile(r"\b(ethiopia|addis ababa)\b", re.I), "Ethiopia"),
+    (re.compile(r"\b(senegal|dakar)\b", re.I), "Senegal"),
+    (re.compile(r"\b(c[oô]te d.?ivoire|ivory coast|abidjan)\b", re.I), "Côte d'Ivoire"),
+    (re.compile(r"\b(libya|tripoli)\b", re.I), "Libya"),
+    # More APAC
+    (re.compile(r"\b(sri lanka|colombo)\b", re.I), "Sri Lanka"),
 ]
 
 PUBLIC_LEVEL_PATTERNS = {
@@ -263,10 +299,9 @@ def detect_region(location):
 
     Buckets: 'north_america' | 'latam' | 'europe' | 'mena' | 'apac' | 'remote'
     | 'unknown'. There is no 'us'/'canada' bucket (countries, not regions) and
-    no separate 'south america' (part of 'latam'). 'mena' (Middle East &
-    Africa) is matched before 'europe' so Gulf/North-Africa locations get
-    their own bucket. Shared by both collector layers so 'region' means the
-    same thing everywhere it's published.
+    no 'south america' (part of 'latam'). 'mena' (Middle East & Africa —
+    including sub-Saharan) is matched before 'europe'. Shared by both collector
+    layers so 'region' means the same thing everywhere it's published.
     """
     if FETCH_REMOTE_RE.search(location):
         return "remote"
@@ -295,7 +330,13 @@ _COUNTRY_ISO2 = {
     "Taiwan": "TW", "Indonesia": "ID", "Philippines": "PH", "Vietnam": "VN",
     "Thailand": "TH", "Malaysia": "MY", "Australia": "AU", "New Zealand": "NZ",
     "Brazil": "BR", "Mexico": "MX", "Argentina": "AR", "Colombia": "CO",
-    "Chile": "CL",
+    "Chile": "CL", "Peru": "PE", "Uruguay": "UY", "Costa Rica": "CR",
+    "Ecuador": "EC", "Panama": "PA", "Dominican Republic": "DO",
+    "Luxembourg": "LU", "Estonia": "EE", "Lithuania": "LT", "Latvia": "LV",
+    "Bulgaria": "BG", "Croatia": "HR", "Serbia": "RS", "Slovakia": "SK",
+    "Slovenia": "SI", "Cyprus": "CY", "Malta": "MT", "Iceland": "IS",
+    "Rwanda": "RW", "Uganda": "UG", "Tanzania": "TZ", "Ethiopia": "ET",
+    "Senegal": "SN", "Côte d'Ivoire": "CI", "Libya": "LY", "Sri Lanka": "LK",
 }
 
 

@@ -15,20 +15,21 @@ const LEVEL_LABELS: Record<string, string> = {
   unknown: "Unknown",
 };
 
-// Macro-region tier (scripts/patterns.py detect_region). `mena` is matched
-// before `europe`, so Middle-East / Africa locations never fall into Europe.
-// The US and Canada are `north_america`, not their own buckets — per-country
-// granularity is the separate Country filter. The three legacy keys
+// Continental macro-region tier (scripts/patterns.py detect_region). `mena`
+// (Middle East & Africa, incl. sub-Saharan) is matched before `europe`. The
+// US and Canada are `north_america`, not their own buckets — per-country
+// granularity is the separate Country filter. `unknown` ("Other") is a valid
+// stored value but isn't offered as a filter option. The three legacy keys
 // (us/canada/emea) are kept only so historical stats-history.json snapshots
 // still render a label.
 const REGION_LABELS: Record<string, string> = {
+  remote: "Remote",
   north_america: "North America",
   latam: "Latin America",
   europe: "Europe",
   mena: "Middle East & Africa",
   apac: "Asia-Pacific",
-  remote: "Remote",
-  unknown: "Unknown",
+  unknown: "Other",
   us: "United States",
   canada: "Canada",
   emea: "Europe",
@@ -41,7 +42,22 @@ const REMOTE_LABELS: Record<string, string> = {
   unknown: "Unknown",
 };
 
-export { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS };
+// Engineering discipline (scripts/patterns.py detect_role_type). `other_swe`
+// is the catch-all for a software role whose sub-discipline isn't in the title.
+const ROLE_LABELS: Record<string, string> = {
+  software_engineer: "Software Engineer",
+  full_stack: "Full-stack",
+  backend: "Backend",
+  frontend: "Frontend",
+  mobile: "Mobile",
+  platform: "Platform",
+  infrastructure: "Infrastructure / DevOps",
+  machine_learning: "ML / Data",
+  security: "Security",
+  other_swe: "Other software",
+};
+
+export { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS, ROLE_LABELS };
 
 /** "new_grad" -> "New grad". Falls back to a de-underscored, capitalized form
  *  for any value not in the table, so an unmapped level never shows raw. */

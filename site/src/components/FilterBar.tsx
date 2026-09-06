@@ -6,7 +6,7 @@ import {
   REMOTE_VALUES,
   type FilterState,
 } from "../lib/filters";
-import { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS } from "../lib/labels";
+import { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS, ROLE_LABELS } from "../lib/labels";
 import MultiSelect, { type MultiSelectOption } from "./MultiSelect";
 
 // The ONE facet surface (Lane H). Option lists come from filters.ts's
@@ -27,9 +27,10 @@ interface Props {
   filters: FilterState;
   onChange: (next: FilterState) => void;
   resultCount: number;
-  // Region / country / company / tech options are whatever the loaded data
-  // actually contains, computed by the caller — so an empty bucket (e.g.
+  // Role / region / country / company / tech options are whatever the loaded
+  // data actually contains, computed by the caller — so an empty bucket (e.g.
   // "unknown" once classification is good) never shows as a dead option.
+  availableRoles: string[];
   availableRegions: string[];
   availableCountries: string[];
   availableCompanies: string[];
@@ -45,6 +46,7 @@ export default function FilterBar({
   filters,
   onChange,
   resultCount,
+  availableRoles,
   availableRegions,
   availableCountries,
   availableCompanies,
@@ -60,6 +62,10 @@ export default function FilterBar({
   const toggleVisa = () => set("visa", filters.visa === "yes" ? "" : "yes");
   // Country options get a real flag image before the name (see <Flag> —
   // emoji flags render as bare letters on Windows).
+  const roleOptions: MultiSelectOption[] = availableRoles.map((r) => ({
+    value: r,
+    label: ROLE_LABELS[r] ?? r,
+  }));
   const regionOptions: MultiSelectOption[] = availableRegions.map((r) => ({
     value: r,
     label: REGION_LABELS[r] ?? r,
@@ -104,6 +110,9 @@ export default function FilterBar({
         />
 
         <MultiSelect label="Level" options={LEVEL_OPTIONS} selected={filters.levels} onChange={(v) => set("levels", v)} />
+        {roleOptions.length > 0 && (
+          <MultiSelect label="Role" options={roleOptions} selected={filters.roles} onChange={(v) => set("roles", v)} />
+        )}
         {regionOptions.length > 0 && (
           <MultiSelect label="Region" options={regionOptions} selected={filters.regions} onChange={(v) => set("regions", v)} />
         )}

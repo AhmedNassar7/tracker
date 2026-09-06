@@ -208,6 +208,11 @@ def main():
         check("bengaluru -> India", p.detect_country("Bengaluru, KA") == "India")
         check("sao paulo -> Brazil", p.detect_country("São Paulo, Brazil") == "Brazil")
         check("singapore -> Singapore", p.detect_country("Singapore") == "Singapore")
+        # wider coverage so the Country filter lists every region's countries
+        check("tallinn -> Estonia", p.detect_country("Tallinn, Estonia") == "Estonia")
+        check("lima -> Peru", p.detect_country("Lima, Peru") == "Peru")
+        check("kigali -> Rwanda", p.detect_country("Kigali, Rwanda") == "Rwanda")
+        check("colombo -> Sri Lanka", p.detect_country("Colombo, Sri Lanka") == "Sri Lanka")
         check("remote -> Remote", p.detect_country("Remote - Worldwide") == "Remote")
         check("nonsense -> Unknown", p.detect_country("The Moon") == "Unknown")
     run("detect_country: MENA / APAC / LATAM now covered", _country_basic)
@@ -219,6 +224,11 @@ def main():
         check("neom -> mena", p.detect_region("NEOM, Saudi Arabia") == "mena")
         check("berlin -> europe (not mena)", p.detect_region("Berlin, Germany") == "europe")
         check("london -> europe", p.detect_region("London, UK") == "europe")
+        check("tallinn -> europe", p.detect_region("Tallinn, Estonia") == "europe")
+        # 'mena' covers all of Africa, sub-Saharan included.
+        check("lagos -> mena", p.detect_region("Lagos, Nigeria") == "mena")
+        check("cape town -> mena", p.detect_region("Cape Town, South Africa") == "mena")
+        check("kigali -> mena", p.detect_region("Kigali, Rwanda") == "mena")
         # US and Canada are one macro-region, not their own buckets.
         check("nyc -> north_america", p.detect_region("New York, NY") == "north_america")
         check("toronto -> north_america", p.detect_region("Toronto, Canada") == "north_america")
@@ -228,6 +238,7 @@ def main():
         check("sydney -> apac", p.detect_region("Sydney, Australia") == "apac")
         check("sao paulo -> latam", p.detect_region("São Paulo, Brazil") == "latam")
         check("mexico city -> latam", p.detect_region("Mexico City, Mexico") == "latam")
+        check("lima -> latam", p.detect_region("Lima, Peru") == "latam")
         # 'remote' still wins over any city name.
         check("remote wins over city", p.detect_region("Remote - Berlin") == "remote")
         check("the moon -> unknown", p.detect_region("The Moon") == "unknown")
