@@ -1105,16 +1105,20 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
     §11) built from stats-history.json's own `dimensions`, for the strip
     between the hero and the list.
 
-    These are *narrative* cards — a trend or a ranking with a click-through —
-    NOT restatements of the hero's live counts. So there is deliberately no
-    "N roles open" card (the hero already says that), and the internships
-    card only appears when there's a real month-over-month move to report; a
-    bare "134 internships open" would just fight the hero's Internships chip.
+    These are *narrative* cards — a **trend** or a **ranking** with a
+    click-through — and carry **no raw counts at all**: every "how many"
+    number lives in the hero (total + the Internships / New-grad / Remote /
+    Hackathons chips), so nothing here can disagree with or repeat it. The
+    strip is the "what's the story", the hero is the "how many".
 
-    Pure. Each card is ``{id, title, detail, filter}`` where ``filter`` is a
-    partial site FilterState the client applies on click. Only cards with
-    real backing data are emitted; a comparison is dropped (not faked) when
-    there's no earlier dimensioned snapshot.
+      • level-trend cards ("Internships up 12% this month") — only when
+        there's an earlier dimensioned snapshot to compare against
+      • "Hiring most this week" — the top-3 companies, click filters to them
+      • "Where the roles are" — the top-2 regions by phrase
+
+    Pure. Each card is ``{id, title, detail, filter}``. A comparison is
+    dropped (not faked) with no earlier snapshot — so a fresh history yields
+    just the two ranking cards.
     """
     snapshots = list(history.get("snapshots", []) or [])
     latest = _dimensioned_snapshot_near(snapshots, now_iso)
@@ -1124,19 +1128,20 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
 
     dims = latest.get("dimensions", {})
     month_ago = _dimensioned_snapshot_near(snapshots, _shift_iso(latest["at"], days=-30), before_iso=latest["at"])
+    then_dims = (month_ago or {}).get("dimensions", {}) if month_ago else {}
 
-    # 1 — internships, ONLY as a month-over-month trend (no bare-count card —
-    #     that's the hero's job). Skipped entirely without an earlier snapshot.
-    now_int = (dims.get("by_level") or {}).get("internship", 0)
-    if now_int and month_ago is not None:
-        then_int = (month_ago.get("dimensions", {}).get("by_level") or {}).get("internship")
-        pct = _pct_change(now_int, then_int)
-        if pct is not None and abs(pct) >= 3:
+    # 1 — early-career level trends, month over month. Count-free: just the
+    #     direction and %. Skipped entirely without an earlier snapshot.
+    for level, label in (("internship", "Internships"), ("new_grad", "New-grad roles")):
+        now_n = (dims.get("by_level") or {}).get(level, 0)
+        then_n = (then_dims.get("by_level") or {}).get(level)
+        pct = _pct_change(now_n, then_n) if now_n else None
+        if pct is not None and abs(pct) >= 5:
             cards.append({
-                "id": "internships",
-                "title": "Internship trend",
-                "detail": f"{'Up' if pct > 0 else 'Down'} {abs(pct)}% this month · {now_int:,} open",
-                "filter": {"kind": "job", "levels": ["internship"]},
+                "id": f"{level}-trend",
+                "title": "This month",
+                "detail": f"{label} {'up' if pct > 0 else 'down'} {abs(pct)}%",
+                "filter": {"kind": "job", "levels": [level]},
             })
 
     # 2 — the companies posting the most right now (card click filters to them).
@@ -1147,7 +1152,7 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
             "detail": ", ".join(top), "filter": {"kind": "job", "companies": top},
         })
 
-    # 4 — where the roles are (by region, skipping remote/unknown).
+    # 3 — where the roles are (by region, skipping remote/unknown).
     regions = [r for r, _ in (dims.get("by_region") or {}).items() if r in _REGION_PHRASE]
     regions.sort(key=lambda r: -(dims.get("by_region") or {}).get(r, 0))
     if regions:
@@ -1158,18 +1163,6 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
         cards.append({
             "id": "geography", "title": "Where the roles are", "detail": detail,
             "filter": {"kind": "job", "regions": [regions[0]]},
-        })
-
-    # 5 — remote share. Uses by_region ("remote" is set by both layers), NOT
-    #     by_remote_type (curated-only — would badly understate it). A % is a
-    #     different framing from the hero's Remote *count*, so no dup.
-    region_by = dims.get("by_region") or {}
-    region_total = sum(region_by.values())
-    if region_total and region_by.get("remote"):
-        pct = round(region_by["remote"] / region_total * 100)
-        cards.append({
-            "id": "remote-share", "title": "Remote", "detail": f"{pct}% of roles are remote",
-            "filter": {"kind": "job", "regions": ["remote"]},
         })
 
     cards = cards[:4]

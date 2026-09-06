@@ -11,20 +11,34 @@ locations so you can eyeball that it's the *right* company.
 Nothing here touches the hourly pipeline — it's a standalone maintenance
 tool. Standard library only, same as the rest of the repo.
 
+The normal workflow for a new company:
+  1. Open its careers page. Find "Powered by <Greenhouse|Lever|Ashby|...>" in
+     the footer (a custom domain like mercor.com/careers or jobs.halan.com is
+     usually just a skin over one of these).
+  2. Copy the EXACT-CASE company slug from an apply URL.
+  3. Run this against it:
+       python scripts/verify_extra_boards.py ashby:mercor
+  4. If it says "✓ REAL", add that slug to the matching section of
+     config/extra_job_boards.yml. If the careers site is genuinely bespoke
+     (no ATS), add a one-liner to config/aggregate_links.yml instead.
+  LinkedIn is NOT a path here — scraping a company's LinkedIn job list is
+  against this repo's source-terms rule, and those listings are cross-posts
+  of the ATS board anyway.
+
 Usage
 -----
   # Re-check every token already in config/extra_job_boards.yml:
   python scripts/verify_extra_boards.py
 
   # Check specific candidates (platform:token, space-separated):
-  python scripts/verify_extra_boards.py greenhouse:swvl greenhouse:paymob \\
-      ashby:telda ashby:nawy lever:mnthalan
+  python scripts/verify_extra_boards.py ashby:mercor lever:Bosta greenhouse:stripe
 
   # Check the MENA candidate shortlist baked in below:
   python scripts/verify_extra_boards.py --mena
 
 Exit code is non-zero if any *config* token (not a candidate) came back dead
-or empty, so this can gate CI later if wanted.
+or empty, so this can gate CI later if wanted. A "couldn't reach" line
+(network/proxy blocked the request) is NOT counted as a failure.
 """
 from __future__ import annotations
 

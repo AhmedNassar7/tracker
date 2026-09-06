@@ -205,20 +205,27 @@ def main():
     out = bdr.build_story_cards(hist, "2026-03-01T00:05:00Z")
     by_id = {c["id"]: c for c in out["cards"]}
 
-    run("build_story_cards: emits at most 4 cards, each schema-valid, no bare-count 'roles-total'", lambda: check(
-        "cards shape",
+    run("build_story_cards: ≤4 cards, schema-valid, no raw-count cards (no 'roles-total', no 'N open' wording)", lambda: check(
+        "cards shape / count-free",
         1 <= len(out["cards"]) <= 4
         and all({"id", "title", "detail", "filter"} == set(c) for c in out["cards"])
-        and "roles-total" not in by_id,  # the hero already shows the total — no dup card
+        and "roles-total" not in by_id
+        and all("open" not in c["detail"].lower() and " roles" not in c["detail"].lower()
+                for c in out["cards"]
+                if c["id"] != "geography"),  # geography's "Most roles in …" is a phrase, not a count
         details=str(out),
     ))
-    run("build_story_cards: internships card is a month-over-month TREND, not a bare count", lambda: check(
-        "internships trend",
-        by_id["internships"]["title"] == "Internship trend"
-        and "Up 25% this month" in by_id["internships"]["detail"]
-        and "125 open" in by_id["internships"]["detail"]
-        and by_id["internships"]["filter"] == {"kind": "job", "levels": ["internship"]},
-        details=str(by_id.get("internships")),
+    run("build_story_cards: internship trend is count-free — just direction + %", lambda: check(
+        "internship trend",
+        by_id["internship-trend"]["title"] == "This month"
+        and by_id["internship-trend"]["detail"] == "Internships up 25%"
+        and "open" not in by_id["internship-trend"]["detail"]
+        and by_id["internship-trend"]["filter"] == {"kind": "job", "levels": ["internship"]},
+        details=str(by_id.get("internship-trend")),
+    ))
+    run("build_story_cards: a flat level (0% move) gets no trend card", lambda: check(
+        "no flat trend",
+        "new_grad-trend" not in by_id,  # fixture new_grad is 10 → 10
     ))
     run("build_story_cards: geography card uses region phrases and skips remote/unknown", lambda: check(
         "geography",
@@ -230,21 +237,14 @@ def main():
         by_id["top-companies"]["detail"] == "Amazon, Google, Meta"
         and by_id["top-companies"]["filter"] == {"kind": "job", "companies": ["Amazon", "Google", "Meta"]},
     ))
-    run("build_story_cards: remote-share is a % (from by_region), not a count", lambda: check(
-        "remote share",
-        by_id["remote-share"]["detail"].endswith("% of roles are remote")
-        and by_id["remote-share"]["filter"] == {"kind": "job", "regions": ["remote"]},
-    ))
     run("build_story_cards: no dimensioned snapshot → no cards, no crash", lambda: check(
         "empty history",
         bdr.build_story_cards({"snapshots": [{"at": "2026-01-01T00:00:00Z", **stats}]}, "2026-01-02T00:00:00Z")["cards"] == []
         and bdr.build_story_cards({}, "2026-01-02T00:00:00Z")["cards"] == [],
     ))
-    run("build_story_cards: a single dimensioned snapshot → ranking/% cards only, no internship trend", lambda: check(
+    run("build_story_cards: a single dimensioned snapshot → only the two ranking cards", lambda: check(
         "single snapshot",
-        (lambda o: len(o["cards"]) >= 1
-         and "internships" not in {c["id"] for c in o["cards"]}
-         and {c["id"] for c in o["cards"]} <= {"top-companies", "geography", "remote-share"})(
+        (lambda o: {c["id"] for c in o["cards"]} == {"top-companies", "geography"})(
             bdr.build_story_cards({"snapshots": [hist["snapshots"][2]]}, "2026-03-01T00:05:00Z")
         ),
     ))
