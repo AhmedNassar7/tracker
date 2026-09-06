@@ -309,9 +309,76 @@ def tokens_from_config() -> list[tuple[str, str]]:
     return out
 
 
+# Platforms the pipeline can actually poll today (public_sources.py has a
+# fetcher + load_extra_job_boards reads the section). A ✓ on any OTHER
+# platform is real, but adding it needs a new fetcher first (Lane M3).
+PIPELINE_SUPPORTED = {"greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint"}
+
+
+def _dump(plat: str, tok: str) -> int:
+    """Print the raw first posting for a token — so a fetcher can be built
+    against the actual field shapes, not a guess. Prints the full top-level
+    key list first (so nothing important is lost to truncation), then the
+    pretty JSON up to a generous cap."""
+    urls = {
+        "greenhouse": f"https://boards-api.greenhouse.io/v1/boards/{tok}/jobs?content=true",
+        "lever": f"https://api.lever.co/v0/postings/{tok}?mode=json",
+        "ashby": f"https://api.ashbyhq.com/posting-api/job-board/{tok}",
+        "smartrecruiters": f"https://api.smartrecruiters.com/v1/companies/{tok}/postings?limit=3",
+        "bamboohr": f"https://{tok}.bamboohr.com/careers/list",
+        "recruitee": f"https://{tok}.recruitee.com/api/offers/",
+        "pinpoint": (tok if "." in tok else f"{tok}.pinpointhq.com") + "/postings.json",
+    }
+    url = urls.get(plat)
+    if not url:
+        print(f"no dump URL for {plat}")
+        return 1
+    if not url.startswith("http"):
+        url = "https://" + url
+    status, body = _get(url)
+    print(f"# {url}  (HTTP {status})")
+
+    first = None
+    for key in ("jobs", "data", "postings", "offers", "result", "content"):
+        if isinstance(body, dict) and isinstance(body.get(key), list) and body[key]:
+            print(f"# list key: {key!r}  ({len(body[key])} items)")
+            first = body[key][0]
+            break
+    if first is None and isinstance(body, list) and body:
+        print(f"# top-level list  ({len(body)} items)")
+        first = body[0]
+    if first is None:
+        print(json.dumps(body, indent=2, ensure_ascii=False)[:2000] if body else "(empty / unreachable)")
+        return 0
+
+    if isinstance(first, dict):
+        print("# top-level keys: " + ", ".join(sorted(first)))
+        # Nested objects worth seeing in full (Pinpoint stashes a lot under 'job').
+        for k in ("job", "location", "locations", "structured_location", "position"):
+            if k in first:
+                print(f"# first[{k!r}] = " + json.dumps(first[k], ensure_ascii=False)[:1200])
+    # Trim only the big HTML-body fields, then pretty-print generously.
+    trimmed = {
+        k: (v[:120] + "…[trimmed]" if isinstance(v, str) and len(v) > 200 else v)
+        for k, v in (first.items() if isinstance(first, dict) else [])
+    } or first
+    print(json.dumps(trimmed, indent=2, ensure_ascii=False)[:12000])
+    return 0
+
+
 def main(argv: list[str]) -> int:
+    if argv and argv[0] == "--dump":
+        rest = argv[1:]
+        if not rest or ":" not in rest[0]:
+            print("usage: verify_extra_boards.py --dump platform:token")
+            return 1
+        plat, tok = rest[0].split(":", 1)
+        return _dump(plat, tok)
+
     if "--mena" in argv:
         pairs, from_config = MENA_CANDIDATES, False
+        print("Candidates surfaced during the MENA push. NB: not all are MENA —\n"
+              "e.g. Mercor is San Francisco. Check the sample locations below.\n")
     elif argv:
         pairs, from_config = [], False
         for a in argv:
@@ -330,18 +397,25 @@ def main(argv: list[str]) -> int:
     real, dead = [], []
     for plat, tok in pairs:
         verdict, ok = CHECKERS[plat](tok)
-        print(f"{plat:15} {tok:22} {verdict}")
+        print(f"{plat:15} {tok:24} {verdict}")
         (real if ok else dead).append((plat, tok))
 
-    if real:
-        print(f"\n{GREEN}Confirmed — safe to add to config/extra_job_boards.yml:{RESET}")
-        for plat, tok in real:
+    add_now = [(p, t) for p, t in real if p in PIPELINE_SUPPORTED]
+    need_fetcher = [(p, t) for p, t in real if p not in PIPELINE_SUPPORTED]
+    if add_now:
+        print(f"\n{GREEN}Confirmed — add to config/extra_job_boards.yml now"
+              f" (with a '# <city>' note from the samples above):{RESET}")
+        for plat, tok in add_now:
             print(f"  {plat}:  - {tok}")
+    if need_fetcher:
+        print(f"\n{YELLOW}Confirmed real, but the pipeline has no fetcher for these platforms yet"
+              f" — build one first (Lane M3), THEN add:{RESET}")
+        for plat, tok in need_fetcher:
+            print(f"  {plat}:{tok}   (run:  verify_extra_boards.py --dump {plat}:{tok}  to see its JSON shape)")
     if not from_config and dead:
-        print(f"\n{DIM}Not adding ({len(dead)}): "
+        print(f"\n{DIM}Not confirmed ({len(dead)}): "
               + ", ".join(f"{p}:{t}" for p, t in dead) + RESET)
 
-    # Only fail the process for tokens that are supposed to be live already.
     return 1 if (from_config and dead) else 0
 
 

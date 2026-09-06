@@ -375,6 +375,109 @@ def fetch_ashby_board_jobs(board_token, company_name):
     return jobs
 
 
+def _pinpoint_company_from_host(host):
+    """'tabby.pinpointhq.com' -> 'tabby';  'careers.moneyfellows.com' ->
+    'moneyfellows' (the registrable domain's second-level label)."""
+    parts = host.split(".")
+    if "pinpointhq" in parts:
+        return parts[0]
+    return parts[-2] if len(parts) >= 2 else parts[0]
+
+
+def _pinpoint_location(item):
+    """Location string from a PinpointHQ posting. Pinpoint doesn't put a
+    single flat 'location' on the posting — it's nested under `job` (an object
+    or a custom-group), and shapes vary between tenants — so try the paths
+    seen in the wild and take the first non-empty one. An empty result just
+    means region/country stay 'unknown' for that row, not that it's dropped.
+    """
+    job = item.get("job") or {}
+    candidates = [
+        item.get("location_name"), item.get("location"),
+        job.get("location_name"), job.get("location"),
+        (job.get("location") or {}).get("name") if isinstance(job.get("location"), dict) else None,
+        (item.get("location") or {}).get("name") if isinstance(item.get("location"), dict) else None,
+    ]
+    # Pinpoint tenants often stash the office in a "structure_custom_group_*"
+    # slot titled "Location" / "Office" / "City".
+    for grp in ("structure_custom_group_one", "structure_custom_group_two", "structure_custom_group_three"):
+        g = job.get(grp) or item.get(grp) or {}
+        if isinstance(g, dict) and (g.get("title") or "").lower() in ("location", "office", "city", "country"):
+            candidates.append(g.get("name"))
+    for locs_key in ("locations", "job_locations"):
+        arr = item.get(locs_key) or job.get(locs_key)
+        if isinstance(arr, list) and arr:
+            names = [x.get("name") if isinstance(x, dict) else x for x in arr]
+            candidates.append(", ".join(n for n in names if n))
+    for c in candidates:
+        if isinstance(c, str) and c.strip():
+            return clean_text(c)
+    return ""
+
+
+def fetch_pinpoint_jobs(host, company_name):
+    """PinpointHQ public postings — `https://<host>/postings.json` returns a
+    bare list of posting objects (confirmed 2026-09-06 against tabby.pinpointhq
+    .com / careers.moneyfellows.com). `host` is either `<company>.pinpointhq
+    .com` or a custom careers domain.
+
+    Known posting fields: id, title, url, employment_type[_text],
+    workplace_type[_text] (onsite|remote|hybrid), description / key_
+    responsibilities / skills_knowledge_expertise (HTML), compensation_* ,
+    job:{department:{name}, division:{name}}. Location + posted-date field
+    names still vary — see _pinpoint_location and the date fallbacks below.
+    """
+    api_url = f"https://{host}/postings.json"
+    try:
+        payload = fetch_json(api_url)
+    except Exception as exc:
+        log_warn(f"Pinpoint fetch failed for {host}: {exc}")
+        return []
+
+    postings = payload if isinstance(payload, list) else (payload.get("data") or payload.get("postings") or [])
+    jobs = []
+    for item in postings:
+        title = clean_text(item.get("title") or "")
+        url = item.get("url") or ""
+        if not (title and url) or not is_software_job(title):
+            continue
+        location = _pinpoint_location(item)
+        posted_at = ""
+        for date_key in ("first_published_at", "published_at", "created_at", "live_at", "updated_at"):
+            posted_at = parse_iso_date(item.get(date_key) or "")
+            if posted_at:
+                break
+        # Region from the office location itself (so a Dubai-based "remote"
+        # role still counts as MENA); the "(Remote)" tag is display-only.
+        region = detect_region(location)
+        wt = (item.get("workplace_type") or "").lower()
+        if wt == "remote" and "remote" not in location.lower():
+            location = (location + " (Remote)").strip() if location else "Remote"
+            if region == "unknown":
+                region = "remote"
+        description = clean_text(html.unescape(" ".join(filter(None, (
+            item.get("description"), item.get("key_responsibilities"), item.get("skills_knowledge_expertise"),
+        )))))
+        job = {
+            "id": make_id("pinpoint", host, title, url),
+            "kind": "job",
+            "company": company_name or _pinpoint_company_from_host(host),
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": region,
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"pinpoint:{host}",
+            "source_url": api_url,
+        }
+        job.update(job_facets(title, location, description))
+        jobs.append(job)
+    return jobs
+
+
 def fetch_smartrecruiters_jobs(company_slug, company_name):
     api_url = f"https://api.smartrecruiters.com/v1/companies/{company_slug}/postings?limit=100"
     try:
@@ -555,7 +658,7 @@ def load_extra_job_boards():
     # gets its own subdomain *and* a site path), so those lines are
     # "Company Name | host | site" and land in `boards["workday"]` as
     # (company, host, site) tuples.
-    boards = {"ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [], "workday": []}
+    boards = {"ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [], "workday": [], "pinpoint": []}
     if not path.exists():
         return boards
     section = None
@@ -584,6 +687,10 @@ def load_extra_job_boards():
                         boards["workday"].append((parts[0], parts[1], parts[2]))
                     else:
                         log_warn(f"extra_job_boards.yml: bad workday line {token!r} (need 'Company | host | site')")
+                elif section == "pinpoint":
+                    # A bare token is a *.pinpointhq.com subdomain; a token
+                    # with a dot is a full custom careers host.
+                    boards["pinpoint"].append(token if "." in token else f"{token}.pinpointhq.com")
                 else:
                     boards[section].append(token)
     except Exception as exc:
@@ -1073,6 +1180,15 @@ def main():
     ))
     if workday:
         log_info(f"Fetched Workday postings from {len(workday)} discovered host(s)")
+
+    # PinpointHQ (config only — no auto-discovery). Each company is its own
+    # host, so no shared-host worker cap needed (same as Workday).
+    if extra_boards["pinpoint"]:
+        log_info(f"Loaded {len(extra_boards['pinpoint'])} PinpointHQ boards from config")
+        rows.extend(_run_concurrently(
+            fetch_pinpoint_jobs,
+            [(host, prettify_company_name(_pinpoint_company_from_host(host))) for host in extra_boards["pinpoint"]],
+        ))
 
     rows = dedupe(rows)
     write_outputs(rows)

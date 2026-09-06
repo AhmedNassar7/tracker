@@ -102,9 +102,11 @@ flowchart TD
 
 **Purpose:** Widen coverage far beyond the curated allowlist by polling the actual ATS (applicant tracking system) APIs behind companies already seen in the curated feed — no manual company list needed for the three biggest ATS platforms.
 
-**Where it lives:** [scripts/public_sources.py](../scripts/public_sources.py) — `discover_job_board_sources()`, `fetch_greenhouse_board_jobs`, `fetch_lever_jobs`, `fetch_workday_jobs`, `fetch_ashby_board_jobs`, `fetch_smartrecruiters_jobs`.
+**Where it lives:** [scripts/public_sources.py](../scripts/public_sources.py) — `discover_job_board_sources()`, `fetch_greenhouse_board_jobs`, `fetch_lever_jobs`, `fetch_workday_jobs`, `fetch_ashby_board_jobs`, `fetch_smartrecruiters_jobs`, `fetch_pinpoint_jobs`.
 
-**How it works:** `discover_job_board_sources()` scans every URL already in `data/jobs-global.json` (the curated layer's output) for a Greenhouse board token, Lever company slug, or Workday `(host, site)` pair, using dedicated URL-shape extractors. Any company found this way gets its full board polled directly on the *next* run — no config file entry required. Ashby and SmartRecruiters can't be auto-discovered this way (no reliable URL signature), so their companies are curated by hand in `config/extra_job_boards.yml`.
+**How it works:** `discover_job_board_sources()` scans every URL already in `data/jobs-global.json` (the curated layer's output) for a Greenhouse board token, Lever company slug, or Workday `(host, site)` pair, using dedicated URL-shape extractors. Any company found this way gets its full board polled directly on the *next* run — no config file entry required. Ashby, SmartRecruiters, and PinpointHQ can't be auto-discovered this way (no reliable URL signature), so their companies are curated by hand in `config/extra_job_boards.yml`.
+
+**PinpointHQ (`fetch_pinpoint_jobs`):** `config/extra_job_boards.yml`'s `pinpoint:` section takes either a bare token (→ `<token>.pinpointhq.com`) or a full custom careers host (any token with a dot, e.g. `careers.moneyfellows.com`). Each host's `/postings.json` returns a bare list; `_pinpoint_location()` probes the many field names PinpointHQ tenants use for the location (`location_name`, nested `job.location`, `structure_custom_group_*` where the group title is location/office/city/country, `locations[]`), and `_pinpoint_company_from_host()` derives the display name from the host. `region` is computed from the resolved location *before* any `(Remote)` suffix is appended, so a Dubai role stays `mena` rather than collapsing to `remote`. Description is the concatenation of `description` + `key_responsibilities` + `skills_knowledge_expertise` (HTML-unescaped) so the B3/B4/B5 facet detectors have text to work with. Seeded with **Tabby** (Dubai/Riyadh) and **Money Fellows** (Cairo).
 
 ```mermaid
 flowchart LR
@@ -114,12 +116,14 @@ flowchart LR
     Discover --> WD["Workday\n(host, site) pairs"]
     Config["config/extra_job_boards.yml"] --> AB["Ashby tokens"]
     Config --> SR["SmartRecruiters tokens"]
+    Config --> PP["PinpointHQ hosts"]
 
     GH --> Poll["poll each board's\npublic API directly"]
     LV --> Poll
     WD --> Poll
     AB --> Poll
     SR --> Poll
+    PP --> Poll
     Poll --> Filter["is_software_job()\nfilter to engineering roles"]
     Filter --> Out["public-opportunities.json"]
 ```

@@ -60,12 +60,13 @@ There is no test runner flag to select one test — to isolate a single check wh
 | `fetch_greenhouse_board_jobs` | `tests/test_public_sources.py` | Job mapping + non-software-role filtering |
 | `fetch_ashby_board_jobs` | `tests/test_public_sources.py` | `isListed: false` postings excluded |
 | `fetch_smartrecruiters_jobs` | `tests/test_public_sources.py` | Location assembly, `remote` flag appended to location text |
+| `fetch_pinpoint_jobs` | `tests/test_public_sources.py` | `/postings.json` bare-list mapping; `_pinpoint_location` field probing; region resolved from location *before* the `(Remote)` suffix (a Dubai role stays `mena`, not `remote`); non-software-title filtering |
 | `fetch_workday_jobs` | `tests/test_public_sources.py` | Pagination (stops on a short page), non-software filtering, `postedOn` → age string |
 | `parse_workday_posted_on` | `tests/test_public_sources.py` | "Today"/"Yesterday"/"N Days Ago"/"30+ Days Ago" parsing |
 | `fetch_workday_job_locations` (via `fetch_workday_jobs`) | `tests/test_public_sources.py` | Bare "N Locations" count resolved into a real `<details>` dropdown via the per-job detail call |
-| `load_extra_job_boards` | `tests/test_public_sources.py` | YAML-by-hand parsing of `ashby:`/`smartrecruiters:` sections |
+| `load_extra_job_boards` | `tests/test_public_sources.py` | YAML-by-hand parsing of `ashby:`/`smartrecruiters:`/`pinpoint:` sections (bare token → `<token>.pinpointhq.com`; dotted token kept as-is) |
 | `write_outputs` (public) | `tests/test_public_sources.py` | Correct split into `jobs`/`hackathons`/`events` arrays; drops a confirmed-dead link before publishing (the public layer's own dead-link check, `check_url_alive` wired in via `scripts/public_outputs.py`) |
-| `load_extra_job_boards` (incl. hand-seeded `greenhouse:`/`lever:` sections) | `tests/test_public_sources.py` | Parses all four sections (`ashby`/`smartrecruiters`/`greenhouse`/`lever`) from config |
+| `load_extra_job_boards` (incl. hand-seeded `greenhouse:`/`lever:` sections) | `tests/test_public_sources.py` | Parses all sections (`ashby`/`smartrecruiters`/`greenhouse`/`lever`/`pinpoint`/`workday`) from config |
 | `validate_record`, `validate_records` (`scripts/schema_validator.py`) | `tests/test_schema_validation.py` | Type/enum/pattern/`additionalProperties` checks against both `JobEntry` and `PublicEntry`; integration tests proving `fetch.write_outputs` / `public_sources.write_outputs` refuse to publish an invalid row; a pre-existing legacy-shaped archive row doesn't block a run with valid fresh data |
 | `build_site_index` (`scripts/build_data_readme.py`) | `tests/test_site_index.py` | Curated-only fields (`category`/`remote_type`/`country`) kept on curated items and omitted (not fabricated) on public items; `date`→`age` unification; checksum stability/change detection; refuses to publish a schema-invalid row |
 

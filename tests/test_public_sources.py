@@ -331,6 +331,45 @@ def main():
         and ashby_rows[0]["url"] == "https://jobs.ashbyhq.com/example/1",
     ))
 
+    # PinpointHQ (M3) — bare list of postings; location nested in job.* (a
+    # custom group titled "Location"); HTML fields feed facet detection;
+    # non-software titles filtered out.
+    pinpoint_payload = [
+        {
+            "id": "223144",
+            "title": "Senior Fullstack Engineer",
+            "url": "https://tabby.pinpointhq.com/en/postings/abc",
+            "workplace_type": "remote",
+            "first_published_at": "2026-01-05T09:00:00.000Z",
+            "description": "<p>Build with Go and React. Visa sponsorship available.</p>",
+            "key_responsibilities": "<ul><li>PostgreSQL, Kubernetes</li></ul>",
+            "skills_knowledge_expertise": "",
+            "job": {"department": {"name": "Engineering"},
+                    "structure_custom_group_two": {"name": "Dubai", "title": "Location"}},
+        },
+        {"id": "2", "title": "Data Protection Officer", "url": "https://x/y", "job": {}},
+    ]
+    with patch.object(mod, "fetch_json", return_value=pinpoint_payload):
+        pin_rows = mod.fetch_pinpoint_jobs("tabby.pinpointhq.com", "Tabby")
+    run("pinpoint fetch: software filter, nested location → region, facets from HTML", lambda: check(
+        "pinpoint fetch",
+        len(pin_rows) == 1
+        and pin_rows[0]["company"] == "Tabby"
+        and pin_rows[0]["source"] == "pinpoint:tabby.pinpointhq.com"
+        and pin_rows[0]["role_type"] == "full_stack"
+        and pin_rows[0]["region"] == "mena"          # "Dubai" from job.structure_custom_group_two
+        and "Remote" in pin_rows[0]["location"]      # workplace_type == remote appended
+        and pin_rows[0]["posted_at"] == "2026-01-05"
+        and set(pin_rows[0].get("tech_tags", [])) >= {"Go", "React", "Kubernetes"}
+        and pin_rows[0].get("visa_sponsorship") is True,
+        details=str(pin_rows),
+    ))
+    run("pinpoint: custom careers domain → registrable company name", lambda: check(
+        "pinpoint host->company",
+        mod._pinpoint_company_from_host("careers.moneyfellows.com") == "moneyfellows"
+        and mod._pinpoint_company_from_host("tabby.pinpointhq.com") == "tabby",
+    ))
+
     smartrecruiters_payload = {
         "content": [
             {

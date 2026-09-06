@@ -30,13 +30,14 @@ There is no database. All state is JSON files committed to the repo under [data/
 | Workday | `https://<host>/wday/cxs/<tenant>/<site>/jobs` (POST, paginated, 20/page) | Auto — `(host, site)` extracted from any curated-layer job URL matching `workdayjobs.com`, skipping an optional locale segment (`en-US`) |
 | Ashby | `api.ashbyhq.com/posting-api/job-board/<token>` | Manual — `config/extra_job_boards.yml` |
 | SmartRecruiters | `api.smartrecruiters.com/v1/companies/<slug>/postings?limit=100` | Manual — `config/extra_job_boards.yml` |
+| PinpointHQ | `https://<host>/postings.json` — `<host>` is `<token>.pinpointhq.com` for a bare token, or a full custom careers host if the token contains a dot | Manual — `config/extra_job_boards.yml` `pinpoint:` section |
 | Devpost | `devpost.com/api/hackathons?status[]=open&order_by=recently-added&page=N` | Standalone (not company-driven) |
 | Unstop | `unstop.com/api/public/opportunity/search-result?opportunity=hackathons&oppstatus=recruiting&page=N` | Standalone; paginated, filtered to still-recruiting hackathons |
 | Devfolio | `api.devfolio.co/api/hackathons?page=N` | Standalone; filtered client-side to events whose `ends_at` hasn't passed |
 | Luma | `luma.com/discover` (HTML, regex-parsed) | Standalone; filtered by `LUMA_RELEVANT_RE` for tech relevance |
 | Curated events | `config/events.yml` (hand-maintained) | Standalone; `Name \| Organizer \| City, Country \| YYYY-MM-DD \| URL` per line — conferences/summits/career fairs with no pollable API. Past-dated rows are auto-hidden |
 
-All 18 are free-tier, keyless, public endpoints. Full descriptions with rationale live in [SOURCES.md](../SOURCES.md).
+All are free-tier, keyless, public endpoints. Full descriptions with rationale live in [SOURCES.md](../SOURCES.md).
 
 ## Data shapes and schemas
 
@@ -87,9 +88,9 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 | `date` | string | Free-form: age for jobs, submission deadline for hackathons, `""` for events |
 | `posted_at` | string | `YYYY-MM-DD`, or `""` when a source only exposes a fuzzy relative date instead of a real timestamp (Workday — the fuzzy value lives in `date` instead) |
 | `url` | string | Absolute URL, except Luma events which use a site-relative path |
-| `source` | string | e.g. `greenhouse:stripe`, `lever:acme`, `devpost`, `luma` |
+| `source` | string | e.g. `greenhouse:stripe`, `lever:acme`, `pinpoint:tabby.pinpointhq.com`, `pinpoint:careers.moneyfellows.com`, `devpost`, `luma` |
 | `source_url` | string (uri) | |
-| `tech_tags`, `visa_sponsorship`, `degree_required`, `relocation`, `salary` | array / boolean / object | Job-only, optional B3/B4/B5 facets — same strict-positive rules as `SiteIndexEntry` below. Populated for Greenhouse (`?content=true`), Lever (`descriptionPlain` + `lists`), and Ashby (`descriptionPlain`); other public sources omit them |
+| `tech_tags`, `visa_sponsorship`, `degree_required`, `relocation`, `salary` | array / boolean / object | Job-only, optional B3/B4/B5 facets — same strict-positive rules as `SiteIndexEntry` below. Populated for Greenhouse (`?content=true`), Lever (`descriptionPlain` + `lists`), Ashby (`descriptionPlain`), and PinpointHQ (`description` + `key_responsibilities` + `skills_knowledge_expertise`); other public sources omit them |
 
 ### `SiteIndexEntry` — [config/site-index.schema.json](../config/site-index.schema.json)
 
@@ -111,7 +112,7 @@ Used by the `items` array in `data/site-index.json`, written by `build_site_inde
 | `category`, `remote_type` | string / enum | Job-only, **curated-origin only** — omitted entirely (not `""` or guessed) on public-origin job items, since the public layer never detects them |
 | `country` | string | Job-only, **both origins** (G2). Curated detects it at fetch time; for a public row `build_site_index` runs the same `detect_country()` over `location`. `"Unknown"` / `"Remote"` are kept (not omitted) so country counts stay honest |
 | `country_flag` | string | Job-only. Flag emoji for `country` (Unicode regional-indicator symbols, `scripts/patterns.py` `country_flag()`). Absent for `Unknown` / `Remote` / a country not in the ISO-2 table |
-| `tech_tags` | string[] | Job-only. Canonical skill/tech tags (`React`, `Go`, `Kubernetes`, …) detected from the posting's description text by `scripts/patterns.py` `detect_tech_tags`. Present only for sources that expose a full description (Greenhouse/Lever/Ashby, plus curated Remotive/ArbeitNow); omitted — never `[]` — otherwise |
+| `tech_tags` | string[] | Job-only. Canonical skill/tech tags (`React`, `Go`, `Kubernetes`, …) detected from the posting's description text by `scripts/patterns.py` `detect_tech_tags`. Present only for sources that expose a full description (Greenhouse/Lever/Ashby/PinpointHQ, plus curated Remotive/ArbeitNow); omitted — never `[]` — otherwise |
 | `visa_sponsorship`, `degree_required`, `relocation` | boolean | Job-only, **explicit-only**. `true`/`false` only when the description says so in as many words (a negative statement wins over a positive one); a silent posting has no key at all, never a default `false`. From `detect_requirements` |
 | `salary` | object | Job-only. `{min, max, currency (3-letter), period: hour\|month\|year}` — a literal range lifted from the posting by `parse_salary` and sanity-checked; **never estimated**. Absent unless the posting itself discloses a currency-marked range |
 

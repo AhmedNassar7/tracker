@@ -35,7 +35,7 @@ ashby:
   - clickhouse
   - thndr  # Cairo, Egypt fintech — verified live 2026-08-18, real Cairo-office postings
   - snowflake  # verified live 2026-08-18, real non-empty board (4.8MB, genuine postings)
-  - mercor  # SF AI-data company (mercor.com/careers → "Powered by ashby") — verified 2026-09-06, 96 jobs incl. Infrastructure Engineer
+  - mercor  # San Francisco, USA (NOT MENA) — AI-data company, mercor.com/careers → "Powered by ashby". Verified 2026-09-06, 96 jobs incl. Infrastructure Engineer (SF/NYC)
 
 smartrecruiters:
   - Visa
@@ -98,28 +98,36 @@ lever:
   - Bosta  # Cairo, Egypt logistics — verified by hand 2026-09-06 (jobs.lever.co/Bosta, real Cairo eng roles). Case matters.
 
 # ---------------------------------------------------------------------------
-# MENA / Gulf / North Africa focus (Lane M) — three paths, in order of ease:
+# Adding an employer whose board isn't auto-discovered — three paths, easiest
+# first. (Regional focus is MENA / Gulf / North Africa, Lane M — but tag each
+# entry with its actual city; e.g. Mercor above is San Francisco, not MENA.)
 #
 # 1. Real Greenhouse/Lever/Ashby board  → add the EXACT-CASE token here
 #    (slugs are case-sensitive; verify_extra_boards.py auto-retries variants).
-#    Confirmed & added:  Bosta → jobs.lever.co/Bosta (Cairo, lever:) ·
-#    Mercor → ashby mercor (SF AI-data, "Powered by ashby", 96 jobs, ashby:).
+#    Verified & added so far:  Bosta (lever, Cairo) · Mercor (ashby, SF).
 #
-# 2. Bespoke careers site (no pollable board)  → one row in
+# 2. Bespoke careers site, no pollable board  → one row in
 #    config/aggregate_links.yml instead ("Browse every role at X"), never a
-#    fake posting. Added: Halan (jobs.halan.com). Same route once you've
-#    opened the URL: Swvl, Paymob, Vezeeta, Sylndr, …
+#    fake posting. Added: Halan (jobs.halan.com, Cairo).
 #
-# 3. Workable / PinpointHQ / BambooHR  → needs a fetcher (Lane M3 / backlog
-#    B2). The Egyptian startup scene is mostly Workable (Elmenus, Breadfast,
-#    Rabbit, …); Tabby is on PinpointHQ; **Instabug (now "Luciq")** is on
-#    BambooHR (instabug.bamboohr.com — check with `verify_extra_boards.py
-#    bamboohr:instabug`).
+# 3. On Workable / PinpointHQ / BambooHR / Recruitee  → the pipeline has NO
+#    fetcher for these yet (Lane M3 / backlog B2), so a token here does
+#    nothing until one is built. verify_extra_boards.py already CONFIRMS them
+#    (2026-09-06: Tabby ✓ 44 postings on pinpointhq, Money Fellows ✓ 8 on
+#    pinpointhq/Cairo, Instabug-"Luciq" ✓ on bamboohr, MoneyHash on recruitee
+#    but 0 open). Use `verify_extra_boards.py --dump pinpoint:tabby` to see
+#    the JSON shape a fetcher must parse.
 #
 # To check a token:  python scripts/verify_extra_boards.py lever:<Slug>
-# A "⚠ couldn't reach …" line means your network blocked it, NOT that the
-# board is missing — re-run or check from another network.
+# A "⚠ couldn't reach …" line = your network blocked it, NOT a missing board.
 # ---------------------------------------------------------------------------
+
+pinpoint:
+  # PinpointHQ boards. A bare token is a <token>.pinpointhq.com subdomain;
+  # a token with a dot is a full custom careers host. Verify with
+  #   python scripts/verify_extra_boards.py pinpoint:<token>
+  - tabby                      # Dubai/Riyadh BNPL fintech — verified 2026-09-06, 44 postings incl. Senior Fullstack Engineer
+  - careers.moneyfellows.com   # Cairo, Egypt fintech (ROSCA app) — verified 2026-09-06, 8 postings
 
 workday:
   # Big global employers whose careers site is Workday but who never get
