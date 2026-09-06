@@ -53,41 +53,25 @@ CONFIG = ROOT / "config" / "extra_job_boards.yml"
 UA = {"User-Agent": "tracker-bot/1.0 (board verification)"}
 TIMEOUT = 15
 
-# MENA / Gulf / North Africa shortlist — platform + token guesses.
-# `--mena` verifies these; move the confirmed ones into extra_job_boards.yml.
+# MENA / Gulf / North Africa re-check list. `--mena` runs these.
 #
-# 2026-09-06: a first pass 404'd on every Greenhouse/Lever guess — because
-# **Lever/Greenhouse tokens are case-sensitive** and the guesses were all
-# lowercase. Hand research then found real boards:
-#   Bosta   → jobs.lever.co/Bosta        (Cairo — VERIFIED, added to lever:)
-#   Tabby   → tabby.pinpointhq.com       (PinpointHQ — a 6th ATS, no fetcher)
-# The checker now auto-retries a few case variants, so a lowercase guess that
-# has a Title-case real board will still be found. Update tokens as you learn
-# the real ones from a company's "Powered by <ATS>" careers footer.
+# 2026-09-06 findings (checker now auto-retries case variants + knows
+# bamboohr):
+#   ✓ Bosta   → jobs.lever.co/Bosta       Cairo, 64 postings — ADDED to lever:
+#   ✓ Mercor  → api.ashbyhq.com/.../mercor 96 jobs — ADDED to ashby: (SF, not MENA)
+#   ? Instabug/**Luciq** → instabug.bamboohr.com  (BambooHR — check below)
+#   ⚠ MoneyHash → Ashby board exists, 0 open
+#   ✗ everything else guessed (Swvl, Paymob, MNT-Halan, Tabby, …) — not on
+#     Greenhouse/Lever/Ashby. They're on Workable / BambooHR / bespoke sites.
+# Keep editing the tokens as you learn real ones from "Powered by <ATS>"
+# footers; a bespoke careers site → an aggregate_links.yml row instead.
 MENA_CANDIDATES = [
     ("lever", "Bosta"),
-    ("lever", "MNT-Halan"),
-    ("lever", "mnt-halan"),
-    ("lever", "Halan"),
-    ("lever", "Trella"),
-    ("greenhouse", "swvl"),
-    ("greenhouse", "paymob"),
-    ("greenhouse", "instabug"),
-    ("greenhouse", "rasan"),
-    ("greenhouse", "foodics"),
-    ("greenhouse", "unifonic"),
-    ("greenhouse", "zid"),
-    ("greenhouse", "salla"),
-    ("greenhouse", "sary"),
-    ("greenhouse", "tabby"),
-    ("greenhouse", "huspy"),
-    ("greenhouse", "nawy"),
-    ("greenhouse", "sylndr"),
-    ("greenhouse", "telda"),
-    ("ashby", "telda"),
+    ("ashby", "mercor"),
     ("ashby", "moneyhash"),
-    ("ashby", "nawy"),
-    ("ashby", "sylndr"),
+    ("bamboohr", "instabug"),   # Luciq (ex-Instabug) — Cairo/SF
+    ("bamboohr", "swvl"),
+    ("bamboohr", "paymob"),
     ("smartrecruiters", "Talabat"),
     ("smartrecruiters", "Noon"),
 ]
@@ -231,11 +215,31 @@ def check_smartrecruiters(token: str) -> tuple[str, bool]:
     )
 
 
+def check_bamboohr(token: str) -> tuple[str, bool]:
+    """BambooHR careers subdomain (e.g. instabug.bamboohr.com). Public JSON
+    at /careers/list — keyless. `token` is the subdomain, NOT the brand name
+    (Instabug rebranded to Luciq but the board is still instabug.bamboohr.com)."""
+    status, body = _get(f"https://{token}.bamboohr.com/careers/list")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach {token}.bamboohr.com — network/proxy? not a verdict{RESET}", False
+    if status in (403, 404) or not isinstance(body, dict):
+        return f"{RED}✗ no BambooHR careers board at {token}.bamboohr.com ({status}){RESET}", False
+    rows = body.get("result") or []
+    if not rows:
+        return f"{YELLOW}⚠ valid BambooHR board but 0 openings — do NOT add{RESET}", False
+    return (
+        f"{GREEN}✓ REAL — {token}.bamboohr.com, {len(rows)} openings{RESET}\n"
+        + _sample(rows, "jobOpeningName", "locationLabel"),
+        True,
+    )
+
+
 CHECKERS = {
     "greenhouse": check_greenhouse,
     "lever": check_lever,
     "ashby": check_ashby,
     "smartrecruiters": check_smartrecruiters,
+    "bamboohr": check_bamboohr,
 }
 
 

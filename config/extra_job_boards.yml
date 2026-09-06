@@ -35,6 +35,7 @@ ashby:
   - clickhouse
   - thndr  # Cairo, Egypt fintech — verified live 2026-08-18, real Cairo-office postings
   - snowflake  # verified live 2026-08-18, real non-empty board (4.8MB, genuine postings)
+  - mercor  # SF AI-data company (mercor.com/careers → "Powered by ashby") — verified 2026-09-06, 96 jobs incl. Infrastructure Engineer
 
 smartrecruiters:
   - Visa
@@ -100,18 +101,20 @@ lever:
 # MENA / Gulf / North Africa focus (Lane M) — three paths, in order of ease:
 #
 # 1. Real Greenhouse/Lever/Ashby board  → add the EXACT-CASE token here
-#    (slugs are case-sensitive — the first shortlist only 404'd because it was
-#    lowercase; verify_extra_boards.py now auto-retries case variants).
-#    Confirmed so far:  Bosta → jobs.lever.co/Bosta  (Cairo — in lever: above)
+#    (slugs are case-sensitive; verify_extra_boards.py auto-retries variants).
+#    Confirmed & added:  Bosta → jobs.lever.co/Bosta (Cairo, lever:) ·
+#    Mercor → ashby mercor (SF AI-data, "Powered by ashby", 96 jobs, ashby:).
 #
 # 2. Bespoke careers site (no pollable board)  → one row in
 #    config/aggregate_links.yml instead ("Browse every role at X"), never a
-#    fake posting. Added: Halan (jobs.halan.com). Candidates to add the same
-#    way once you've opened the URL: Swvl, Paymob, MoneyHash, Vezeeta, Sylndr.
+#    fake posting. Added: Halan (jobs.halan.com). Same route once you've
+#    opened the URL: Swvl, Paymob, Vezeeta, Sylndr, …
 #
-# 3. Workable / PinpointHQ  → needs a fetcher (Lane M3). Most of the Egyptian
-#    startup scene (Elmenus, Breadfast, Rabbit, …) is on Workable; Tabby
-#    (tabby.pinpointhq.com) and other Gulf fintechs are on Pinpoint.
+# 3. Workable / PinpointHQ / BambooHR  → needs a fetcher (Lane M3 / backlog
+#    B2). The Egyptian startup scene is mostly Workable (Elmenus, Breadfast,
+#    Rabbit, …); Tabby is on PinpointHQ; **Instabug (now "Luciq")** is on
+#    BambooHR (instabug.bamboohr.com — check with `verify_extra_boards.py
+#    bamboohr:instabug`).
 #
 # To check a token:  python scripts/verify_extra_boards.py lever:<Slug>
 # A "⚠ couldn't reach …" line means your network blocked it, NOT that the
