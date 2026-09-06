@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-09-06T14:09:34Z",
-  "total": 644,
+  "generated_at": "2026-09-06T17:01:43Z",
+  "total": 642,
   "jobs": [
+    {
+      "id": "162a14da3a107f9f",
+      "company": "Palantir",
+      "title": "Software Engineer, Internship",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-06",
+      "age": "0d",
+      "collected_at": "2026-09-06T14:09:34Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-06T17:01:43Z"
+    },
     {
       "id": "d07a06c434c0a854",
       "company": "Amazon",
@@ -355,30 +379,6 @@
       "posted_at": "2026-04-08",
       "age": "151d",
       "collected_at": "2026-09-06T00:55:58Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-06T14:09:34Z"
-    },
-    {
-      "id": "e71d749f1b7c7786",
-      "company": "Palantir",
-      "title": "Year at Palantir - Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-06",
-      "age": "0d",
-      "collected_at": "2026-09-06T10:54:42Z",
       "tags": [
         "software",
         "programming",
@@ -3411,30 +3411,6 @@
       "closed_at": "2026-09-05T22:56:26Z"
     },
     {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-09-05",
-      "age": "2mo",
-      "collected_at": "2026-09-05T16:03:34Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-05T22:56:26Z"
-    },
-    {
       "id": "d9812d61e11a0802",
       "company": "ByteDance",
       "title": "Video/Image AI/ML Software Engineer I...",
@@ -3595,30 +3571,6 @@
       "posted_at": "2026-08-31",
       "age": "0d",
       "collected_at": "2026-08-31T20:03:22Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-05T19:49:46Z"
-    },
-    {
-      "id": "b84f95acdcc2b1c8",
-      "company": "Sony Interactive Entertainment",
-      "title": "Data Engineer II",
-      "level": "mid_level",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "Unknown",
-      "location": "CA",
-      "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147069004",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-05",
-      "age": "1w",
-      "collected_at": "2026-09-05T17:24:04Z",
       "tags": [
         "software",
         "programming",
