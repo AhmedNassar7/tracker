@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T17:02:04Z",
+ "generated_at": "2026-09-06T19:09:44Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -3275,7 +3275,7 @@
   },
   "https://databricks.com/company/careers/open-positions/job?gh_jid=7841778002": {
    "alive": true,
-   "at": "2026-09-06T05:56:43Z"
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://databricks.com/company/careers/open-positions/job?gh_jid=7841782002": {
    "alive": true,
@@ -3909,6 +3909,10 @@
    "alive": true,
    "at": "2026-09-06T10:55:12Z"
   },
+  "https://galuxium-nexus-v2-29411.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-06T19:09:44Z"
+  },
   "https://gatewaygs-hackathon-2.devpost.com/": {
    "alive": true,
    "at": "2026-09-06T10:55:12Z"
@@ -4128,6 +4132,10 @@
   "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-09-06T10:54:42Z"
+  },
+  "https://intel.wd1.myworkdayjobs.com/external/job/Israel-Haifa/Software-Engineer_JR0283723": {
+   "alive": true,
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700": {
    "alive": true,
@@ -8823,7 +8831,7 @@
   },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer---Java-Spring-Boot_R-289576": {
    "alive": true,
-   "at": "2026-09-05T20:28:36Z"
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I_R-289557": {
    "alive": true,
@@ -8848,6 +8856,10 @@
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Lead-Software-Engineer_R-289269": {
    "alive": true,
    "at": "2026-09-06T10:55:12Z"
+  },
+  "https://mca-2026-projects.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://meow.devfolio.co": {
    "alive": true,
@@ -9183,7 +9195,11 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---CSP-Engagements_JR1998405": {
    "alive": true,
-   "at": "2026-09-06T05:56:43Z"
+   "at": "2026-09-06T19:09:44Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966": {
+   "alive": true,
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-CAD-Infrastructure-Development-Engineer_JR2010334": {
    "alive": true,
@@ -9199,11 +9215,15 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214": {
    "alive": true,
-   "at": "2026-09-06T05:56:43Z"
+   "at": "2026-09-06T19:09:44Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287": {
+   "alive": true,
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987": {
    "alive": true,
-   "at": "2026-09-06T05:56:43Z"
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---HPC_JR2013271": {
    "alive": true,
@@ -9217,9 +9237,17 @@
    "alive": true,
    "at": "2026-09-06T10:55:12Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880": {
+   "alive": true,
+   "at": "2026-09-06T19:09:44Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer---Agentic-Automation_JR2024734": {
    "alive": true,
    "at": "2026-09-06T10:55:12Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870": {
+   "alive": true,
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-VLSI-CAD-Software-Engineer_JR2013348": {
    "alive": true,
@@ -9235,7 +9263,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730": {
    "alive": true,
-   "at": "2026-09-06T05:56:43Z"
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://onegiantleap.com/": {
    "alive": true,
@@ -14321,6 +14349,10 @@
    "alive": true,
    "at": "2026-09-06T10:54:42Z"
   },
+  "https://www.google.com/about/careers/applications/jobs/results/120686451305128646": {
+   "alive": true,
+   "at": "2026-09-06T19:09:34Z"
+  },
   "https://www.google.com/about/careers/applications/jobs/results/123510626377966278": {
    "alive": true,
    "at": "2026-09-06T10:54:42Z"
@@ -15395,7 +15427,7 @@
   },
   "https://yc-fall-2026-x-moss.devpost.com/": {
    "alive": true,
-   "at": "2026-09-06T05:56:43Z"
+   "at": "2026-09-06T19:09:44Z"
   },
   "https://zero-origin.devpost.com/": {
    "alive": true,
