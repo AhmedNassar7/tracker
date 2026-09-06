@@ -30,6 +30,7 @@ from patterns import (
     FETCH_ROLE_RE,
     detect_region,
     detect_role_type,
+    extract_job_facets,
 )
 from simplify_jobs_parser import (
     clean_html_text as _clean_html_text,
@@ -320,14 +321,14 @@ def fetch_url(url, dest, timeout=25):
         log_error(f"Unexpected error fetching {url}: {type(e).__name__}: {e}")
         return False
 
-def normalize(company, title, location, url, posted_at, source, source_url, age="", location_details=None):
+def normalize(company, title, location, url, posted_at, source, source_url, age="", location_details=None, description=""):
     # smart_title_case only fires on an all-lowercase string (a low-quality
     # scraped value like LorenzoLaCorte's "berlin, germany"); a properly-cased
     # title/location from any other source passes through untouched. Detection
     # regexes below all run case-insensitively, so casing the display value
     # doesn't change level/region/country/remote_type, and make_id lowercases
     # its inputs so the row id is unchanged either.
-    return {
+    row = {
         "id": make_id(company, title, url),
         "company": clean_company(company),
         "title": smart_title_case(title.strip()),
@@ -346,6 +347,13 @@ def normalize(company, title, location, url, posted_at, source, source_url, age=
         "collected_at": NOW_ISO,
         "tags": ["software", "programming", "global-tech-roles"],
     }
+    # B3/B4/B5 facets (tech_tags / visa_sponsorship / degree_required /
+    # relocation / salary). Only the sources that actually carry a job
+    # description pass one in — the community-tracker README rows don't have
+    # one, so their rows simply get no facet keys (never a guessed value).
+    if description:
+        row.update(extract_job_facets(title, location, description[:20000]))
+    return row
 
 # Source fetcher functions
 def fetch_remotive():
@@ -386,7 +394,8 @@ def fetch_remotive():
             skipped["role"] += 1
             continue
         
-        row = normalize(company, title, location, url, posted, "remotive", "https://remotive.com/")
+        row = normalize(company, title, location, url, posted, "remotive", "https://remotive.com/",
+                        description=_clean_html_text(j.get("description") or ""))
 
         if not include_job(row, company):
             if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:
@@ -445,7 +454,8 @@ def fetch_arbeitnow():
             skipped["role"] += 1
             continue
         
-        row = normalize(company, title, location, url, posted, "arbeitnow", "https://arbeitnow.com/")
+        row = normalize(company, title, location, url, posted, "arbeitnow", "https://arbeitnow.com/",
+                        description=_clean_html_text(j.get("description") or ""))
 
         if not include_job(row, company):
             if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:

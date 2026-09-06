@@ -101,6 +101,35 @@
       "default": [],
       "description": "Tags (e.g., 'software', 'programming', 'global-tech-roles')"
     },
+    "tech_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Canonical tech/skill tags explicitly named in the posting text (scripts/patterns.py detect_tech_tags). Present only for sources that carry a job description (Remotive, ArbeitNow); community-tracker rows have no description and so no key. Never guessed"
+    },
+    "visa_sponsorship": {
+      "type": "boolean",
+      "description": "Present only when the posting text is explicit: true if it offers visa sponsorship, false if it states none is available. Absent when unstated"
+    },
+    "degree_required": {
+      "type": "boolean",
+      "description": "Present only when the posting text is explicit: true if a degree is required, false if it explicitly says none is needed. Absent when unstated"
+    },
+    "relocation": {
+      "type": "boolean",
+      "description": "Present only when the posting text explicitly offers relocation assistance (true) or explicitly rules it out (false). Absent when unstated"
+    },
+    "salary": {
+      "type": "object",
+      "description": "A literal pay range lifted verbatim from the posting (scripts/patterns.py parse_salary). Absent unless the posting itself discloses a currency-marked two-ended range that passes sanity checks — never estimated",
+      "required": ["min", "max", "currency", "period"],
+      "properties": {
+        "min": { "type": "integer", "minimum": 0 },
+        "max": { "type": "integer", "minimum": 0 },
+        "currency": { "type": "string", "minLength": 3, "maxLength": 3 },
+        "period": { "type": "string", "enum": ["hour", "month", "year"] }
+      },
+      "additionalProperties": false
+    },
     "closed_at": {
       "type": "string",
       "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$",

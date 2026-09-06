@@ -13,12 +13,15 @@ Each check is registered with a local `run(name, fn)` helper that prints a green
 ```bash
 python tests/test_net.py
 python tests/test_fetch.py
+python tests/test_patterns.py
 python tests/test_public_sources.py
 python tests/test_schema_validation.py
 python tests/test_site_index.py
+python tests/test_stats_history.py
+python tests/test_rss_feeds.py
 ```
 
-All five must pass — this is exactly what [CI](DEPLOYMENT.md) runs on every push/PR. On Windows, if the ✅/❌ characters raise `UnicodeEncodeError`, set UTF-8 output first:
+All eight must pass — this is exactly what [CI](DEPLOYMENT.md) runs on every push/PR. On Windows, if the ✅/❌ characters raise `UnicodeEncodeError`, set UTF-8 output first:
 
 ```powershell
 $env:PYTHONIOENCODING = "utf-8"
@@ -33,6 +36,9 @@ There is no test runner flag to select one test — to isolate a single check wh
 | `fetch_with_retry` | `tests/test_net.py` | Succeeds first try; does not retry a non-retryable HTTP error (404); retries a transient `URLError` and recovers; raises after exhausting retries; retries a 429 and recovers; honors a `Retry-After` header |
 | `run_concurrently` | `tests/test_net.py` | Results come back in `arg_tuples` order, not completion order; a per-call exception is isolated without losing the other results; empty input returns `[]` |
 | `make_id`, `detect_level`, `detect_region`, `detect_remote_type` | `tests/test_fetch.py` | ID stability/uniqueness, level/region/remote-type classification against real-shaped title/location strings |
+| `detect_tech_tags`, `detect_requirements`, `parse_salary`, `extract_job_facets` (`scripts/patterns.py`) | `tests/test_patterns.py` | B3/B4/B5 job-facet detection: canonical tech tags from JD text (Java ≠ JavaScript, "React Native" not double-counted as "React"); **rejects ambiguous prose** — bare "go"/"spark"/"spring"/"rust" as ordinary words must not tag a language; visa-sponsorship / degree / relocation only when the text is explicit (negative statement wins over positive; silent text → key absent, never `False`); `parse_salary` needs a currency-marked two-ended range and rejects junk (single number, >10× spread, min>max, out-of-bounds), infers `period` from magnitude when unstated |
+| `normalize(..., description=...)` facet merge | `tests/test_fetch.py` | Adds no facet keys when no description is passed; extracts `tech_tags`/`visa_sponsorship`/`degree_required`/`salary` from a description string |
+| `fetch_greenhouse_board_jobs` facet attach | `tests/test_public_sources.py` | Lifts facets from the entity-encoded `?content=true` HTML body; a posting with no `content` gets no facet keys |
 | `include_job`, `is_allowed_company` | `tests/test_fetch.py` | Allowlist substring matching, relaxed-region inclusion rule |
 | `check_url_alive` | `tests/test_fetch.py` | 200 = alive, GET-confirmed 404 = dead, inconclusive errors (403) = assume alive, **HEAD 404 followed by GET 200 = alive** (the Pinterest-observed edge case) |
 | `normalize` | `tests/test_fetch.py` | Output schema shape and field derivation |

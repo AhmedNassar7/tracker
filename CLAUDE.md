@@ -25,6 +25,7 @@ python scripts/build_data_readme.py  # renders README.md and data/README.md from
 # Run tests (plain scripts with an assert-based runner, not pytest — no test framework is installed)
 python tests/test_net.py
 python tests/test_fetch.py
+python tests/test_patterns.py
 python tests/test_public_sources.py
 python tests/test_schema_validation.py
 python tests/test_site_index.py
@@ -35,7 +36,7 @@ set PYTHONIOENCODING=utf-8   # PowerShell: $env:PYTHONIOENCODING = "utf-8"
 
 There's no way to run "a single test" — each test file is one `main()` that runs every check in sequence and exits nonzero on the first failed assertion. To isolate one check while debugging, temporarily comment out the other `run(...)` calls in the relevant `tests/test_*.py`.
 
-CI (`.github/workflows/ci.yml`) runs all five test files on every push/PR. The hourly data-refresh workflow is `.github/workflows/hourly-global-roles.yml` — it runs the three pipeline commands above in order, commits whatever changed, and auto-merges via `peter-evans/create-pull-request`.
+CI (`.github/workflows/ci.yml`) runs all eight test files on every push/PR. The hourly data-refresh workflow is `.github/workflows/hourly-global-roles.yml` — it runs the three pipeline commands above in order, commits whatever changed, and auto-merges via `peter-evans/create-pull-request`.
 
 ## Architecture
 
@@ -48,6 +49,8 @@ CI (`.github/workflows/ci.yml`) runs all five test files on every push/PR. The h
 ### Job-record shape
 
 Both layers converge on the same normalized shape (documented as JSON Schema in `config/job-entry.schema.json`): `company`, `title`, `level` (`internship`/`new_grad`/`junior`/`entry_level`/`mid_level`), `country`, `location`, `remote_type`, `url`, `source`, `posted_at`, `age`. Classification regexes (level/region/role detection) live centrally in `scripts/patterns.py`, shared by both `fetch.py` and `public_sources.py`.
+
+`scripts/patterns.py` also holds the **job-facet detectors** (`extract_job_facets` → `detect_tech_tags` / `detect_requirements` / `parse_salary`), which add optional `tech_tags`, `visa_sponsorship`, `degree_required`, `relocation`, and `salary` keys **only when the posting's own description text says so** — the strict no-fabrication rule, so a silent posting simply has no key rather than a `False`/guessed default. They run only for the sources that actually carry a description: `fetch.py` threads it in for Remotive and ArbeitNow (via `normalize(..., description=...)`); `public_sources.py` does it for Greenhouse (`?content=true` HTML), Lever (`descriptionPlain` + `lists`), and Ashby (`descriptionPlain`). Community-tracker README rows have no description and get no facet keys. `tests/test_patterns.py` covers the detectors directly; the false-positive guards there (bare "go"/"spark"/"spring" in prose must **not** tag a language) are load-bearing — loosen a regex and re-run it.
 
 ### Dead-link handling (`scripts/net.py`, consumed by `fetch_outputs.py` and `public_outputs.py`)
 

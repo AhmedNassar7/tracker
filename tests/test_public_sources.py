@@ -257,6 +257,45 @@ def main():
         len(no_rows) == 0,
     ))
 
+    # B3/B4/B5 — facets lifted from the Greenhouse `?content=true` HTML body
+    # (entity-encoded), attached to the row; nothing invented when silent.
+    greenhouse_with_desc = {
+        "jobs": [
+            {
+                "title": "Software Engineer, New Grad",
+                "updated_at": "2026-01-02T10:00:00-05:00",
+                "location": {"name": "London, UK"},
+                "absolute_url": "https://example.com/gh-desc",
+                "content": (
+                    "&lt;p&gt;You'll work in &lt;strong&gt;TypeScript&lt;/strong&gt; and Go. "
+                    "Visa sponsorship is available. Bachelor's degree or equivalent practical "
+                    "experience. Base salary &#36;120,000 - &#36;150,000 per year.&lt;/p&gt;"
+                ),
+            }
+        ]
+    }
+    with patch.object(mod, "fetch_json", return_value=greenhouse_with_desc):
+        desc_rows = mod.fetch_greenhouse_board_jobs("twilio", "Twilio")
+    run("greenhouse attaches B3/B4/B5 facets from the description", lambda: check(
+        "greenhouse facets",
+        len(desc_rows) == 1
+        and set(desc_rows[0].get("tech_tags", [])) >= {"TypeScript", "Go"}
+        and desc_rows[0].get("visa_sponsorship") is True
+        and desc_rows[0].get("degree_required") is False
+        and desc_rows[0].get("salary") == {"min": 120000, "max": 150000, "currency": "USD", "period": "year"},
+        details=str(desc_rows),
+    ))
+
+    with patch.object(mod, "fetch_json", return_value=greenhouse_payload):
+        silent_rows = mod.fetch_greenhouse_board_jobs("twilio", "Twilio")
+    run("greenhouse adds no facet keys when the posting has no description", lambda: check(
+        "greenhouse no phantom facets",
+        len(silent_rows) == 1
+        and not any(k in silent_rows[0] for k in
+                    ("tech_tags", "visa_sponsorship", "degree_required", "relocation", "salary")),
+        details=str(silent_rows[0]),
+    ))
+
     ashby_payload = {
         "jobs": [
             {

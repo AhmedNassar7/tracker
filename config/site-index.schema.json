@@ -85,6 +85,35 @@
     "source_url": {
       "type": "string",
       "format": "uri"
+    },
+    "tech_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Job-only. Canonical tech/skill tags explicitly named in the posting text, from scripts/patterns.py detect_tech_tags. Absent when no description text was available or nothing matched — never guessed. Currently populated for public-origin jobs from ATS layers that expose a description (Greenhouse/Lever/Ashby); other layers simply omit it"
+    },
+    "visa_sponsorship": {
+      "type": "boolean",
+      "description": "Job-only. Present only when the posting text is explicit — true if it offers visa sponsorship, false if it states none is available. Absent when unstated"
+    },
+    "degree_required": {
+      "type": "boolean",
+      "description": "Job-only. Present only when the posting text is explicit — true if a degree is required, false if it explicitly says none is needed. Absent when unstated"
+    },
+    "relocation": {
+      "type": "boolean",
+      "description": "Job-only. Present only when the posting text explicitly offers relocation assistance (true) or explicitly rules it out (false). Absent when unstated"
+    },
+    "salary": {
+      "type": "object",
+      "description": "Job-only. A literal pay range lifted verbatim from the posting (scripts/patterns.py parse_salary). Absent unless the posting itself discloses a currency-marked two-ended range that passes sanity checks — never estimated",
+      "required": ["min", "max", "currency", "period"],
+      "properties": {
+        "min": { "type": "integer", "minimum": 0 },
+        "max": { "type": "integer", "minimum": 0 },
+        "currency": { "type": "string", "minLength": 3, "maxLength": 3 },
+        "period": { "type": "string", "enum": ["hour", "month", "year"] }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

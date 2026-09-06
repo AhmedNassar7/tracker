@@ -258,6 +258,35 @@ def main():
         and row["remote_type"] == "remote",
     ))
 
+    run("normalize adds no facet keys without a description", lambda: check(
+        "normalize no phantom facets",
+        not any(k in row for k in ("tech_tags", "visa_sponsorship", "degree_required", "relocation", "salary")),
+        details=str(row),
+    ))
+
+    with patch.object(fetch, "NOW_ISO", "2026-01-01T00:00:00Z"):
+        row_desc = fetch.normalize(
+            company="Google",
+            title="Software Engineer Intern",
+            location="Remote - USA",
+            url="https://example.com/job2",
+            posted_at="2026-01-02",
+            source="remotive",
+            source_url="https://remotive.com",
+            description=(
+                "Work with our team in Python and React. We offer visa sponsorship. "
+                "No degree required. Salary $90,000 - $120,000 per year."
+            ),
+        )
+    run("normalize extracts B3/B4/B5 facets from a description", lambda: check(
+        "normalize facets",
+        set(row_desc.get("tech_tags", [])) >= {"Python", "React"}
+        and row_desc.get("visa_sponsorship") is True
+        and row_desc.get("degree_required") is False
+        and row_desc.get("salary") == {"min": 90000, "max": 120000, "currency": "USD", "period": "year"},
+        details=str(row_desc),
+    ))
+
     run("dedupe", lambda: check(
         "dedupe",
         len(fetch.dedupe([

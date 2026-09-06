@@ -38,6 +38,7 @@ from patterns import (
     PUBLIC_SOFTWARE_ROLE_TYPES,
     detect_region,
     detect_role_type,
+    extract_job_facets,
 )
 from simplify_jobs_parser import format_location_display
 from company_names import prettify_company_name
@@ -86,6 +87,21 @@ def clean_text(value):
 def make_id(*parts):
     raw = "|".join((part or "").lower() for part in parts)
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
+
+
+# Cap the description text handed to the regex detectors — a few ATS
+# descriptions run to tens of KB and the facet regexes scan the whole blob
+# per job; the signals we look for (skills list, a "visa sponsorship" line, a
+# pay range) are always near the top of a posting anyway.
+_FACET_DESC_CAP = 20000
+
+
+def job_facets(title, location, description=""):
+    """Merge-ready dict of the B3/B4/B5 facets (tech_tags / visa_sponsorship /
+    degree_required / relocation / salary) from whatever posting text a source
+    exposes. Strict-positive — see scripts/patterns.py. ``record.update(...)``
+    is always safe: only keys the text is explicit about are returned."""
+    return extract_job_facets(title, location, (description or "")[:_FACET_DESC_CAP])
 
 
 def parse_iso_date(value):
@@ -250,23 +266,25 @@ def fetch_greenhouse_board_jobs(board_token, company_name):
         posted_at = parse_iso_date(item.get("updated_at") or "")
         if not (title and url) or not is_software_job(title):
             continue
-        jobs.append(
-            {
-                "id": make_id("greenhouse", board_token, title, url),
-                "kind": "job",
-                "company": company_name or board_token,
-                "title": title,
-                "location": location,
-                "level": detect_level(title),
-                "region": detect_region(location),
-                "role_type": detect_role_type(title),
-                "date": format_age_from_date(posted_at),
-                "posted_at": posted_at,
-                "url": url,
-                "source": f"greenhouse:{board_token}",
-                "source_url": api_url,
-            }
-        )
+        # `?content=true` gives HTML-entity-encoded HTML — unescape then strip.
+        description = clean_text(html.unescape(item.get("content") or ""))
+        job = {
+            "id": make_id("greenhouse", board_token, title, url),
+            "kind": "job",
+            "company": company_name or board_token,
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": detect_region(location),
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"greenhouse:{board_token}",
+            "source_url": api_url,
+        }
+        job.update(job_facets(title, location, description))
+        jobs.append(job)
     return jobs
 
 
@@ -291,23 +309,30 @@ def fetch_lever_jobs(company_slug, company_name):
             posted_at = ""
         if not (title and url) or not is_software_job(title):
             continue
-        jobs.append(
-            {
-                "id": make_id("lever", company_slug, title, url),
-                "kind": "job",
-                "company": company_name or company_slug,
-                "title": title,
-                "location": location,
-                "level": detect_level(title),
-                "region": detect_region(location),
-                "role_type": detect_role_type(title),
-                "date": format_age_from_date(posted_at),
-                "posted_at": posted_at,
-                "url": url,
-                "source": f"lever:{company_slug}",
-                "source_url": api_url,
-            }
-        )
+        # Lever gives plain-text `descriptionPlain` plus structured `lists`
+        # (requirements / responsibilities) with HTML `content`.
+        desc_parts = [item.get("descriptionPlain") or clean_text(item.get("description") or "")]
+        for lst in item.get("lists") or []:
+            desc_parts.append(clean_text(lst.get("text") or ""))
+            desc_parts.append(clean_text(lst.get("content") or ""))
+        description = " ".join(p for p in desc_parts if p)
+        job = {
+            "id": make_id("lever", company_slug, title, url),
+            "kind": "job",
+            "company": company_name or company_slug,
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": detect_region(location),
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"lever:{company_slug}",
+            "source_url": api_url,
+        }
+        job.update(job_facets(title, location, description))
+        jobs.append(job)
     return jobs
 
 
@@ -329,23 +354,24 @@ def fetch_ashby_board_jobs(board_token, company_name):
         posted_at = parse_iso_date(item.get("publishedAt") or "")
         if not (title and url) or not is_software_job(title):
             continue
-        jobs.append(
-            {
-                "id": make_id("ashby", board_token, title, url),
-                "kind": "job",
-                "company": company_name or board_token,
-                "title": title,
-                "location": location,
-                "level": detect_level(title),
-                "region": detect_region(location),
-                "role_type": detect_role_type(title),
-                "date": format_age_from_date(posted_at),
-                "posted_at": posted_at,
-                "url": url,
-                "source": f"ashby:{board_token}",
-                "source_url": api_url,
-            }
-        )
+        description = item.get("descriptionPlain") or clean_text(item.get("descriptionHtml") or "")
+        job = {
+            "id": make_id("ashby", board_token, title, url),
+            "kind": "job",
+            "company": company_name or board_token,
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": detect_region(location),
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"ashby:{board_token}",
+            "source_url": api_url,
+        }
+        job.update(job_facets(title, location, description))
+        jobs.append(job)
     return jobs
 
 

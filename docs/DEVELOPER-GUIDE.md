@@ -43,6 +43,7 @@ set PYTHONIOENCODING=utf-8
 | `python scripts/public_sources.py` | Runs the public/auto-discovery layer: seeds from `data/jobs-global.json`, polls Greenhouse/Lever/Workday/Ashby/SmartRecruiters/Devpost/Luma, writes `data/public-opportunities.json` |
 | `python scripts/build_data_readme.py` | Renders `README.md` and `data/README.md` from the two JSON files above — the only way those two files should ever be updated |
 | `python tests/test_fetch.py` | Runs all checks for `scripts/fetch.py` |
+| `python tests/test_patterns.py` | Runs all checks for `scripts/patterns.py` (level/region/role classification + the B3/B4/B5 tech-tag / visa-degree-relocation / salary detectors) |
 | `python tests/test_public_sources.py` | Runs all checks for `scripts/public_sources.py` |
 
 There's no build step, no linter configured, and no package manager — these five commands are the entire toolchain. Always run them in this order (`fetch.py` → `public_sources.py` → `build_data_readme.py`) since each stage reads the previous stage's output.

@@ -756,6 +756,17 @@ def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
             entry["region"] = row["region"]
         if row.get("role_type"):
             entry["role_type"] = row["role_type"]
+        # B3/B4/B5 facets — copied straight through, only when the source
+        # record carries them (a posting whose text never mentioned a skill /
+        # visa / salary has no key here, same absent-not-guessed rule as
+        # category/remote_type below).
+        if row.get("tech_tags"):
+            entry["tech_tags"] = list(row["tech_tags"])
+        for facet in ("visa_sponsorship", "degree_required", "relocation"):
+            if isinstance(row.get(facet), bool):
+                entry[facet] = row[facet]
+        if isinstance(row.get("salary"), dict):
+            entry["salary"] = row["salary"]
         if origin == "curated":
             # Only the curated layer detects these — leave them out entirely
             # for public-layer jobs rather than guessing a value.

@@ -95,7 +95,7 @@
     <div class="eyebrow">Product &amp; Engineering Plan</div>
     <h1>tracker → a place people <em>want</em> to open every morning</h1>
     <p class="sub">From a plain hourly list of software jobs to a fast, honest, beautifully-built career companion — data you can trust, a story worth reading, and enough personalisation that starring it and coming back daily feels natural. No sign-up, no paywall, no server, no fabricated data.</p>
-    <div class="meta">Prepared 2026-09-05 · Companion to <code>C:\Users\User\.claude\plans\immutable-napping-valley.md</code> (the closed-job / coverage / formatting work already in progress) · Nothing in sections 3–9 is built yet — this is for your review and prioritisation.</div>
+    <div class="meta">Prepared 2026-09-05 · Companion to <code>C:\Users\User\.claude\plans\immutable-napping-valley.md</code> (the closed-job / coverage / formatting work already in progress) · <strong>Revised 2026-09-06</strong> — added §3A (ATS &amp; board coverage matrix) and §11 (consolidated, prioritised feature backlog). Much of §4–§7 is now partly built; the status tags throughout are current as of this revision.</div>
   </div>
 </header>
 
@@ -105,6 +105,7 @@
     <a href="#north">1 · North star</a>
     <a href="#principles">2 · Principles &amp; guardrails</a>
     <a href="#competitive">3 · What the best platforms do</a>
+    <a href="#ats">3A · ATS &amp; board coverage</a>
     <a href="#data">4 · Data quality &amp; trust</a>
     <a href="#ux">5 · UX, motion &amp; storytelling</a>
     <a href="#logos">6 · Company logos</a>
@@ -112,6 +113,7 @@
     <a href="#arch">8 · System design &amp; architecture</a>
     <a href="#docs">9 · Docs, resources &amp; repo</a>
     <a href="#roadmap">10 · Roadmap</a>
+    <a href="#backlog">11 · Consolidated backlog</a>
   </div>
 </nav>
 
@@ -194,6 +196,25 @@
     <td><span class="tag-done">borrow</span> countdown component; sort by soonest deadline (done); tag chips; hide/де-emphasise past events (done).</td>
   </tr>
 </table>
+
+<h2 id="ats"><span class="num">3A</span>ATS &amp; job-board coverage</h2>
+<p>Almost every early-career listing ultimately originates in one of a handful of applicant-tracking systems. We poll five of them today. The rest are feasible as pure-stdlib JSON (or RSS) fetchers on the existing <code>public_sources.py</code> pattern — but <strong>no board is added without a hand <code>curl</code> verification that real postings exist</strong> (the <code>CLAUDE.md</code> rule), not merely a non-404 response.</p>
+<table>
+  <tr><th>Platform</th><th>Status</th><th>How it's wired</th><th>Endpoint / note</th></tr>
+  <tr><td><strong>Greenhouse</strong></td><td><span class="tag-done">live</span></td><td>auto-discover + 35 hand-seeded</td><td><code>boards-api.greenhouse.io/v1/boards/{token}/jobs</code></td></tr>
+  <tr><td><strong>Lever</strong></td><td><span class="tag-done">live</span></td><td>auto-discover + 4 hand-seeded</td><td><code>api.lever.co/v0/postings/{slug}?mode=json</code></td></tr>
+  <tr><td><strong>Workday</strong></td><td><span class="tag-done">live</span></td><td>auto-discover + 6 hand-seeded</td><td>per-tenant CXS <code>POST /wday/cxs/{tenant}/{site}/jobs</code></td></tr>
+  <tr><td><strong>Ashby</strong></td><td><span class="tag-done">live</span></td><td>hand-list (16 companies)</td><td><code>api.ashbyhq.com/posting-api/job-board/{token}</code></td></tr>
+  <tr><td><strong>SmartRecruiters</strong></td><td><span class="tag-done">live</span></td><td>hand-list (Visa, Wise)</td><td><code>api.smartrecruiters.com/v1/companies/{slug}/postings</code></td></tr>
+  <tr><td><strong>Workable</strong></td><td><span class="pill p-next">next</span></td><td>—</td><td><code>apply.workable.com/api/v3/accounts/{sub}/jobs</code> — keyless JSON, full JD, remote flag. <em>Recommended first.</em> Auto-discoverable from <code>apply.workable.com/{token}</code> URLs in curated rows.</td></tr>
+  <tr><td><strong>Rippling ATS</strong></td><td><span class="pill p-next">next</span></td><td>—</td><td><code>api.rippling.com/platform/api/ats/v1/board/{co}/jobs</code> — fast-growing funded-startup ATS; hand-list like Ashby.</td></tr>
+  <tr><td><strong>Teamtailor</strong></td><td><span class="pill p-later">later</span></td><td>—</td><td>No keyless JSON API. Per-site RSS at <code>{co}.teamtailor.com/jobs.rss</code>, parsed with stdlib <code>xml.etree</code>. Strong EU/Nordic coverage.</td></tr>
+  <tr><td><strong>Jobvite</strong></td><td><span class="pill p-later">later</span></td><td>—</td><td><code>jobs.jobvite.com/api/v2/jobs?companyId={id}</code> — public, but <code>companyId</code> isn't in the URL so hand-list only.</td></tr>
+  <tr><td><strong>JazzHR</strong></td><td><span class="pill p-later">later</span></td><td>—</td><td><code>{co}.applytojob.com/apply/jobs.json</code> — mostly small US companies; weak for global early-career, low priority.</td></tr>
+  <tr><td><strong>iCIMS</strong></td><td><span class="pill p-later">on demand</span></td><td>—</td><td>No clean public JSON; server-rendered <code>*.icims.com</code> portals with aggressive bot protection; already flagged a soft-404 offender in <code>fetch.py</code>. Add only per-company with a hand-verified endpoint, and only if a must-have company is iCIMS-exclusive.</td></tr>
+</table>
+<p><strong>Build order:</strong> Workable → Rippling → Teamtailor → Jobvite → (JazzHR / iCIMS only when a needed company is exclusive to one).</p>
+<p class="callout">Structural prerequisite (§8.1): promote each ATS fetcher to a <code>Source</code> registry entry and generalise <code>discover_job_board_sources()</code> from hard-coded Greenhouse/Lever/Workday branches to a <code>{host-pattern → extractor}</code> table — then Workable/Rippling auto-discover for free and adding an ATS is one registry line + one fixture test.</p>
 
 <h2 id="data"><span class="num">4</span>Data quality &amp; trust</h2>
 
@@ -380,9 +401,86 @@ sources/*  ──►  collect  ──►  normalize  ──►  merge  ──►
   </tr>
 </table>
 
+<h2 id="backlog"><span class="num">11</span>Consolidated feature backlog <span class="pill p-now">working list</span></h2>
+<p>Everything in §3–§9, plus the competitive ideas surfaced in the 2026-09-06 review, deduplicated into one prioritised list. <strong>Every item fits the guardrails</strong> (static / no account / no fabrication) — anything that didn't was cut. Status reflects the code as of 2026-09-06. We implement top-down within each lane; lanes A and B come first.</p>
+
+<h3>Lane A — Trust &amp; correctness <span class="tag-partial">the wedge</span></h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Why it wins</th><th>Status / where</th></tr>
+  <tr><td>A1</td><td>Verified-open status chip — “Verified open · checked 34m ago”</td><td>No large board can honestly claim every link works; makes the invisible check the headline trust signal</td><td><span class="tag-partial">partial</span> — <code>StatusDot.tsx</code> exists; needs <code>last_checked</code> + <code>liveness</code> emitted into <code>site-index.json</code> (<code>build_site_index()</code>) + schema + a real render in <code>OpportunityTable</code></td></tr>
+  <tr><td>A2</td><td>Grow the soft-404 registry: Workday CXS detail 404, Greenhouse expired-redirect, SmartRecruiters <code>postingStatus</code>, Ashby <code>isListed/isActive</code></td><td>Compounds A1 — fewer false “open” rows than any competitor</td><td><span class="pill p-next">next</span> — one rule at a time, each hand-verified against a real stale row · <code>scripts/net.py</code> <code>_SOFT_404_RULES</code></td></tr>
+  <tr><td>A3</td><td>Weekly dead-link audit posted to the run log</td><td>Surfaces registry gaps before users hit a dead link</td><td><span class="pill p-next">next</span> — <code>find_dead_links</code> already exists · new step in the hourly workflow</td></tr>
+  <tr><td>A4</td><td>Cross-post collapse — one row, first-party ATS link primary, “also listed on …” secondary</td><td>Cleaner than LinkedIn’s duplicate spam; signals we know which link is first-party</td><td><span class="pill p-next">next</span> — merge step in <code>build_data_readme.py</code></td></tr>
+</table>
+
+<h3>Lane B — Coverage &amp; discovery depth</h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Why it wins</th><th>Status / where</th></tr>
+  <tr><td>B1</td><td>Aggregate-links lane for un-enumerable companies (Google, Meta, Microsoft, Apple, MENA majors)</td><td>Closes the “Google looks empty” gap today with zero fabrication risk</td><td><span class="tag-done">done v1</span> — <code>config/aggregate_links.yml</code> + “Browse Every Role” render + <code>kind:"board"</code> in <code>site-index.json</code>. Next: surface it as a distinct on-site section; add more verified rows</td></tr>
+  <tr><td>B2</td><td>The 6 missing ATSes (§3A) — Workable + Rippling first</td><td>Breadth of companies the current five don’t reach (startups, EU/Nordic)</td><td><span class="pill p-next">next</span> — needs the <code>Source</code> registry refactor + per-board <code>curl</code> verification</td></tr>
+  <tr><td>B3</td><td>Skill / tech-stack chips + filter (React, Go, Rust, k8s…) parsed from the JD</td><td>LinkedIn’s skill tags are gamed; ours come straight from the posting text</td><td><span class="tag-partial">partial</span> — <code>patterns.py detect_tech_tags</code> + <code>tests/test_patterns.py</code> shipped; wired into <code>fetch.py</code> (Remotive/ArbeitNow), <code>public_sources.py</code> (Greenhouse/Lever/Ashby) and <code>site-index.json</code> (schema + <code>_site_index_entry</code>). <span class="pill p-next">next</span>: on-site filter facet + chips in <code>OpportunityTable</code></td></tr>
+  <tr><td>B4</td><td>Visa-sponsorship / relocation / no-degree-required detection → 🛂 / 🎓 chips + filters</td><td>The single most-wanted filter for a global early-career audience, and every big board buries it</td><td><span class="tag-partial">partial</span> — <code>patterns.py detect_requirements</code> shipped (strict-positive: negative statement wins, silent text → no key); same pipeline wiring as B3. <span class="pill p-next">next</span>: populate the README 🎓/🛂 emoji guide (currently unused) + a site filter</td></tr>
+  <tr><td>B5</td><td>Salary range — displayed only where the posting itself discloses one</td><td>A slice of Levels.fyi’s value from primary data, no crowdsourcing, no estimate</td><td><span class="tag-partial">partial</span> — <code>patterns.py parse_salary</code> shipped (currency-marked two-ended range, sanity-checked, rejects junk); <code>salary</code> object in all three schemas + <code>site-index.json</code>. <span class="pill p-next">next</span>: render it in the table / company pages</td></tr>
+  <tr><td>B6</td><td>Regional views — MENA / EU / “Worldwide” groupings + an Arabic-friendly MENA landing</td><td>Depth for a segment US-centric boards ignore; <code>country</code> is already detected</td><td><span class="pill p-later">later</span> — render + site routing; seed from verified MENA boards only</td></tr>
+  <tr><td>B7</td><td>First-party FAANG fetchers — Microsoft / Apple / Meta (Amazon + Netflix already done)</td><td>Removes third-party staleness risk on the highest-demand employers</td><td><span class="pill p-next">blocked</span> — dev sandbox can’t resolve/verify the endpoints; needs a normal network. Aggregate links (B1) is the interim</td></tr>
+</table>
+
+<h3>Lane C — Personalisation without an account <span class="tag-partial">started</span></h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Why it wins</th><th>Status / where</th></tr>
+  <tr><td>C1</td><td>“For you” ranked feed — preference match + freshness + company-type weight, with “why this matched” chips</td><td>Otta’s core loop, entirely client-side</td><td><span class="tag-partial">partial</span> — <code>PreferencesPanel.tsx</code> + <code>preferences.ts</code> + “Best match” sort done; finish the reason chips and make it the default sort for returning visitors</td></tr>
+  <tr><td>C2</td><td>Seen / dismissed memory (“never show me this twice”) + “new since your last visit”</td><td>Signature Otta feature; the <code>site-index.json</code> checksum plumbing already exists</td><td><span class="tag-partial">partial</span> — <code>visitHistory.ts</code> exists; wire a dismissed-id set + a diff toggle in <code>OpportunityBrowser</code></td></tr>
+  <tr><td>C3</td><td>Saved searches → shareable URL + per-search RSS/JSON</td><td>“Job alerts” with no email list and no server</td><td><span class="tag-partial">partial</span> — <code>SavedSearches.tsx</code> + <code>savedSearches.ts</code> exist; add per-preset static feeds in <code>build_data_readme.py</code></td></tr>
+  <tr><td>C4</td><td>Optional webhook push for a saved search (user pastes their own Discord/Slack/Telegram URL)</td><td>Push alerts, secret stays in the browser, nothing stored server-side</td><td><span class="pill p-next">next</span> — client only</td></tr>
+  <tr><td>C5</td><td>Deepen the personal funnel — median days per stage, response-rate by company-type, funnel chart, activity heatmap, streak, local SW reminders</td><td>Simplify’s paid hook, here free / local / offline / exportable</td><td><span class="tag-partial">partial</span> — <code>ApplicationsTracker.tsx</code> + <code>PersonalDashboard.tsx</code> exist; add the elapsed-time stats from <code>statusHistory</code></td></tr>
+</table>
+
+<h3>Lane D — Own the data story <span class="p-later">drives stars &amp; inbound links</span></h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Why it wins</th><th>Status / where</th></tr>
+  <tr><td>D1</td><td>Auto-generated “story strip” cards from our own stats (“Internships up 22% this month”, “Top hiring companies this week”)</td><td>Levels.fyi grows on shareable stat cards; we have 90 days of <code>stats-history.json</code> nobody else publishes</td><td><span class="pill p-next">next</span> — new <code>build_story_cards()</code> emit fn + a site strip between list and dashboard</td></tr>
+  <tr><td>D2</td><td>Expand <code>stats-history.json</code> dimensions — by level, region, country, company-type, source, remote-type</td><td>Unlocks D1, D3, and the dashboard trend lines</td><td><span class="pill p-next">next</span> — <code>update_stats_history()</code>; still one bounded snapshot/run (90 d)</td></tr>
+  <tr><td>D3</td><td>“Time in feed” = time-to-fill proxy (how long a role stays visible before it disappears)</td><td>No competitor can compute this — no one else publishes historical snapshots</td><td><span class="pill p-later">later</span> — needs first-seen tracking in the archive/stats layer</td></tr>
+  <tr><td>D4</td><td>Monthly generated “State of Early-Career Tech Hiring” markdown post (in-repo, like the READMEs)</td><td>The kind of artefact that gets shared on HN/Reddit and pulls stars</td><td><span class="pill p-later">later</span> — new emit fn</td></tr>
+  <tr><td>D5</td><td>Company mini-pages (<code>/company/&lt;slug&gt;</code>, static-generated): logo, role count over time, level/region breakdown, current roles</td><td>SEO long tail — every company name becomes a landing page</td><td><span class="tag-partial">partial</span> — <code>CompanyPage.tsx</code> + <code>company.astro</code> exist; wire derived time-series + verified logo</td></tr>
+</table>
+
+<h3>Lane E — UX &amp; craft</h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Status / where</th></tr>
+  <tr><td>E1</td><td>Snapshot hero / pulse (live count, freshness, one-tap shortcut chips)</td><td><span class="tag-done">done</span> — <code>SnapshotHero.tsx</code>, <code>FreshnessPulse.tsx</code>; keep iterating copy + sparkline</td></tr>
+  <tr><td>E2</td><td>Command palette (Cmd/Ctrl-K): jump to a company, apply a filter, open the dashboard, copy a link</td><td><span class="pill p-next">next</span> — new island, keyboard-first</td></tr>
+  <tr><td>E3</td><td>Freshness front-and-centre — “N added in last 24h”, fading “new” chip on &lt;24h roles</td><td><span class="tag-partial">partial</span> — hero has the count; add the per-row chip tied to <code>visitHistory</code></td></tr>
+  <tr><td>E4</td><td>Live countdown chips for hackathons/events (amber &lt;48h, red on last day)</td><td><span class="pill p-next">next</span> — soonest-deadline sort already done</td></tr>
+  <tr><td>E5</td><td>Shareable OG images per common filter (pre-generated static PNGs)</td><td><span class="pill p-later">later</span> — <code>build_og_images()</code> emit fn</td></tr>
+  <tr><td>E6</td><td>Density toggle, sticky condensing filter bar, back-to-top, context-aware empty states</td><td><span class="tag-partial">partial</span> — empty states done; rest small</td></tr>
+  <tr><td>E7</td><td>PWA finish — offline “last synced” view, installable, add-to-home nudge after 3rd visit</td><td><span class="pill p-next">next</span> — manifest + SW already ship</td></tr>
+  <tr><td>E8</td><td>Accessibility to WCAG AA as a stated feature (keyboard nav, semantic table, ARIA, contrast, reduced-motion)</td><td><span class="pill p-next">next</span> — genuine differentiator vs LinkedIn; ongoing</td></tr>
+  <tr><td>E9</td><td>Verified-domain-only company logos (<code>config/company_domains.yml</code> → Logo.dev/Brandfetch → initials fallback)</td><td><span class="tag-partial">partial</span> — <code>companyLogos.ts</code> + <code>CompanyAvatar.tsx</code> exist; add the verified domain map + bake resolved URL into <code>site-index.json</code></td></tr>
+</table>
+
+<h3>Lane F — Distribution / developer surface</h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Why it wins</th><th>Status / where</th></tr>
+  <tr><td>F1</td><td>Treat <code>site-index.json</code> as a documented public API — add <code>schema_version</code>, keep it the one integration boundary</td><td>No key, no rate limit → people build bots/newsletters on top of us = free reach</td><td><span class="pill p-next">next</span> — <code>docs/DATA.md</code> + schema</td></tr>
+  <tr><td>F2</td><td>RSS everywhere — global, per-region, per-saved-search, per-company</td><td>Alerts with no email list; power users wire it into their own tooling</td><td><span class="tag-partial">partial</span> — 5 preset feeds exist (<code>rss_feeds.py</code>); multiply them</td></tr>
+  <tr><td>F3</td><td>i18n of the UI (Arabic RTL first)</td><td>Matches the MENA coverage push; almost no competitor localises for that audience</td><td><span class="pill p-later">later</span></td></tr>
+</table>
+
+<h3>Execution order</h3>
+<ol>
+  <li><strong>A1 + B1 polish</strong> — verified-open chip end-to-end; make the aggregate-links lane a first-class on-site section. Small, and the two most visible “better than LinkedIn” wins.</li>
+  <li><strong>B3 + B4 + B5</strong> — the <code>patterns.py</code> enrichment trio (tech tags, visa/degree/relocation, salary). Highest-want filters for the real audience; pure Python, fully testable offline; feeds the unused README emoji guide.</li>
+  <li><strong>B2 + the <code>Source</code> registry refactor</strong> — Workable then Rippling, once endpoints are <code>curl</code>-verified.</li>
+  <li><strong>C2 + C3 + C4</strong> — seen/dismissed, saved-search RSS, webhook push. The return-tomorrow hook.</li>
+  <li><strong>D1 + D2 + D4</strong> — the data-story engine (story cards, richer history, monthly post).</li>
+  <li><strong>D5 + E9 + E2 + E7</strong> — company pages, verified logos, command palette, PWA finish.</li>
+  <li><strong>A2 + A3 + B7</strong> — as a normal network / hand-verification window allows.</li>
+</ol>
+
 <hr />
 <div class="foot">
-  <p><strong>How this maps to the in-flight work:</strong> the approved plan at <code>C:\Users\User\.claude\plans\immutable-napping-valley.md</code> is Phase 1. This document is the wider vision around it. Recommended next step: land Phase 1 (verify the Microsoft/Apple/Meta fetchers on a normal network, or ship the aggregate-links lane instead), then pick up Phase 2 §5.1 + §4.3 Events taxonomy as the first visible upgrade.</p>
+  <p><strong>How this maps to the in-flight work:</strong> the approved plan at <code>C:\Users\User\.claude\plans\immutable-napping-valley.md</code> is Phase 1. This document is the wider vision around it. <strong>§11 is the live working list</strong> — the roadmap table above is the strategic shape, §11 is what's actually being built and in what order. Current focus (2026-09-06): §11 lane B enrichment trio (B3 tech tags / B4 visa-degree-relocation / B5 salary) in <code>scripts/patterns.py</code>, then A1 verified-open end-to-end.</p>
   <p><strong>Sources consulted:</strong>
     <a href="https://www.betterteam.com/uk/welcome-to-the-jungle">Welcome to the Jungle (Otta)</a> ·
     <a href="https://simplify.jobs/copilot">Simplify Copilot</a> ·
