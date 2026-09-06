@@ -32,6 +32,8 @@ SITE_INDEX_JSON = DATA_OUT / "site-index.json"
 SITE_INDEX_SCHEMA = ROOT / "config" / "site-index.schema.json"
 STATS_HISTORY_JSON = DATA_OUT / "stats-history.json"
 STATS_HISTORY_SCHEMA = ROOT / "config" / "stats-history.schema.json"
+STORY_CARDS_JSON = DATA_OUT / "story-cards.json"
+STORY_CARDS_SCHEMA = ROOT / "config" / "story-cards.schema.json"
 # One point per hourly run; 90 days keeps the file bounded (~2,160 points at
 # worst) while covering enough history for a meaningful trend line.
 STATS_HISTORY_RETENTION_DAYS = 90
@@ -1044,6 +1046,135 @@ def update_stats_history(
     }
 
 
+# Region code -> the phrase a story card reads it as ("Most roles in the US,
+# then Europe"). Human-facing text, so it lives in the generator like every
+# other string in this repo. 'remote'/'unknown' are deliberately absent — a
+# "where are the roles" card is about places.
+_REGION_PHRASE = {
+    "us": "the US",
+    "canada": "Canada",
+    "emea": "Europe",
+    "mena": "the Middle East & Africa",
+}
+
+
+def _shift_iso(iso: str, *, days: int) -> str:
+    dt = datetime.datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ") + datetime.timedelta(days=days)
+    return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _dimensioned_snapshot_near(snapshots: list[dict], target_iso: str, *, before_iso: str | None = None) -> dict | None:
+    """The snapshot that actually carries a `dimensions` block whose timestamp
+    is closest to `target_iso`. None if none qualify.
+
+    `before_iso` restricts candidates to snapshots strictly older than that
+    timestamp — used for the "week/month ago" comparisons so a sparse history
+    (only one recent dimensioned snapshot) picks a genuinely earlier point or
+    nothing, never the latest snapshot itself.
+    """
+    dated = [s for s in snapshots if s.get("dimensions") and s.get("at")]
+    if before_iso is not None:
+        dated = [s for s in dated if s["at"] < before_iso]
+    if not dated:
+        return None
+    target = datetime.datetime.strptime(target_iso, "%Y-%m-%dT%H:%M:%SZ")
+    return min(
+        dated,
+        key=lambda s: abs(datetime.datetime.strptime(s["at"], "%Y-%m-%dT%H:%M:%SZ") - target),
+    )
+
+
+def _pct_change(now_val: int, then_val) -> int | None:
+    if not then_val:
+        return None
+    return round((now_val - then_val) / then_val * 100)
+
+
+def build_story_cards(history: dict, now_iso: str) -> dict:
+    """3–4 auto-generated "state of hiring" cards (D1, docs/WEBSITE-VISION-PLAN
+    §11) built from stats-history.json's own `dimensions` — the kind of
+    screenshot-friendly stat card the plan wants, with a click-through into a
+    pre-filtered list.
+
+    Pure. Each card is ``{id, title, detail, filter}`` where ``filter`` is a
+    partial site FilterState the client applies on click (``{}`` = just jump
+    to the list). Only cards with real backing data are emitted; a history
+    with no dimensioned snapshot yields an empty list, and any week-/month-
+    over comparison is simply dropped (not faked) when there's no earlier
+    dimensioned snapshot to compare against.
+    """
+    snapshots = list(history.get("snapshots", []) or [])
+    latest = _dimensioned_snapshot_near(snapshots, now_iso)
+    cards: list[dict] = []
+    if latest is None:
+        return {"generated_at": now_iso, "cards": cards}
+
+    dims = latest.get("dimensions", {})
+    week_ago = _dimensioned_snapshot_near(snapshots, _shift_iso(latest["at"], days=-7), before_iso=latest["at"])
+    month_ago = _dimensioned_snapshot_near(snapshots, _shift_iso(latest["at"], days=-30), before_iso=latest["at"])
+
+    # 1 — total open roles, with a week-over-week delta when we have one.
+    total = latest.get("jobs_total", 0)
+    detail = f"{total:,} open software roles"
+    if week_ago is not None:
+        delta = total - week_ago.get("jobs_total", 0)
+        if delta:
+            detail += f" · {'+' if delta > 0 else '−'}{abs(delta):,} since last week"
+    cards.append({"id": "roles-total", "title": "Roles right now", "detail": detail, "filter": {}})
+
+    # 2 — internships, with a month-over-month % move when available.
+    now_int = (dims.get("by_level") or {}).get("internship", 0)
+    if now_int:
+        detail = f"{now_int:,} internships open"
+        if month_ago is not None:
+            then_int = (month_ago.get("dimensions", {}).get("by_level") or {}).get("internship")
+            pct = _pct_change(now_int, then_int)
+            if pct is not None and abs(pct) >= 3:
+                detail += f" · {'up' if pct > 0 else 'down'} {abs(pct)}% this month"
+        cards.append({
+            "id": "internships", "title": "Internships", "detail": detail,
+            "filter": {"kind": "job", "level": "internship"},
+        })
+
+    # 3 — the companies posting the most right now.
+    top = list((dims.get("top_companies") or {}).items())[:3]
+    if top:
+        cards.append({
+            "id": "top-companies", "title": "Hiring most this week",
+            "detail": ", ".join(name for name, _ in top), "filter": {},
+        })
+
+    # 4 — where the roles are (by region, skipping remote/unknown).
+    regions = [r for r, _ in (dims.get("by_region") or {}).items() if r in _REGION_PHRASE]
+    regions.sort(key=lambda r: -(dims.get("by_region") or {}).get(r, 0))
+    if regions:
+        if len(regions) >= 2:
+            detail = f"Most roles in {_REGION_PHRASE[regions[0]]}, then {_REGION_PHRASE[regions[1]]}"
+        else:
+            detail = f"Most roles in {_REGION_PHRASE[regions[0]]}"
+        cards.append({
+            "id": "geography", "title": "Where the roles are", "detail": detail,
+            "filter": {"kind": "job", "region": regions[0]},
+        })
+
+    # 5 — remote share (only if there's room after the four above).
+    remote_by = dims.get("by_remote_type") or {}
+    remote_total = sum(remote_by.values())
+    if remote_total and remote_by.get("remote"):
+        pct = round(remote_by["remote"] / remote_total * 100)
+        cards.append({
+            "id": "remote-share", "title": "Remote", "detail": f"{pct}% of roles are fully remote",
+            "filter": {"kind": "job", "remote": "remote"},
+        })
+
+    cards = cards[:4]
+    schema = load_schema(STORY_CARDS_SCHEMA)
+    errors = validate_records(cards, schema, label="story-cards.json cards")
+    if errors:
+        raise ValueError("story-cards.json failed schema validation:\n" + "\n".join(errors))
+    return {"generated_at": now_iso, "cards": cards}
+
+
 def main() -> int:
     curated_payload = load_json(CURATED_JSON)
     public_payload = load_json(PUBLIC_JSON)
@@ -1101,6 +1232,10 @@ def main() -> int:
     stats_history = update_stats_history(load_json(STATS_HISTORY_JSON), stats, now_iso, dimensions)
     STATS_HISTORY_JSON.write_text(json.dumps(stats_history, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {STATS_HISTORY_JSON} ({len(stats_history['snapshots'])} snapshots)")
+
+    story_cards = build_story_cards(stats_history, now_iso)
+    STORY_CARDS_JSON.write_text(json.dumps(story_cards, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Wrote {STORY_CARDS_JSON} ({len(story_cards['cards'])} cards)")
 
     feed_paths = write_feeds(site_index["items"], site_index["generated_at"], FEEDS_DIR)
     print(f"Wrote {len(feed_paths)} RSS feeds to {FEEDS_DIR}")

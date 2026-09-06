@@ -125,3 +125,18 @@ export interface StatsHistory {
   retention_days: number;
   snapshots: StatsHistorySnapshot[];
 }
+
+// Mirrors config/story-cards.schema.json. `filter` is a partial FilterState
+// (kept as a loose string map here so this file needn't import filters.ts,
+// which imports this one) the client applies on click; {} = jump to the list.
+export interface StoryCard {
+  id: string;
+  title: string;
+  detail: string;
+  filter: Record<string, string>;
+}
+
+export interface StoryCards {
+  generated_at: string;
+  cards: StoryCard[];
+}

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { fetchSiteIndex } from "../lib/dataSource";
+import { fetchSiteIndex, fetchStoryCards } from "../lib/dataSource";
 import {
   applyFilters,
   DEFAULT_FILTERS,
@@ -21,7 +21,7 @@ import {
   type Preferences,
   type SortMode,
 } from "../lib/preferences";
-import type { SiteIndex, SiteIndexEntry } from "../lib/types";
+import type { SiteIndex, SiteIndexEntry, StoryCard } from "../lib/types";
 import { companyTier } from "../lib/companyTiers";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import { addDismissed, clearDismissed, readDismissed, removeDismissed } from "../lib/dismissed";
@@ -36,6 +36,7 @@ function ageToDays(age: string): number {
   return Number.MAX_SAFE_INTEGER;
 }
 import BrowseEveryRole from "./BrowseEveryRole";
+import StoryStrip from "./StoryStrip";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
 import PreferencesPanel from "./PreferencesPanel";
@@ -90,6 +91,9 @@ export default function OpportunityBrowser() {
   // to *only* those, so a viewer can review and undo.
   const [dismissedIds, setDismissedIds] = useState<Set<string>>(() => readDismissed());
   const [showDismissed, setShowDismissed] = useState(false);
+  // D1 — auto-generated story cards. Non-critical: a fetch failure (older
+  // deploy without the file) just leaves the strip unrendered.
+  const [storyCards, setStoryCards] = useState<StoryCard[]>([]);
 
   const handleDismiss = (item: SiteIndexEntry) => setDismissedIds(addDismissed(item.id));
   const handleRestore = (item: SiteIndexEntry) => {
@@ -156,6 +160,20 @@ export default function OpportunityBrowser() {
     listApplications().then((apps) => {
       if (!cancelled) setTrackedApps(new Map(apps.map((app) => [app.id, app])));
     });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetchStoryCards()
+      .then((data) => {
+        if (!cancelled) setStoryCards(Array.isArray(data.cards) ? data.cards : []);
+      })
+      .catch(() => {
+        /* no story-cards.json yet — the strip just stays hidden */
+      });
     return () => {
       cancelled = true;
     };
@@ -378,6 +396,8 @@ export default function OpportunityBrowser() {
   return (
     <div>
       <SnapshotHero items={opportunityItems} generatedAt={data.generated_at} onQuickFilter={handleQuickFilter} />
+
+      {!showDismissed && <StoryStrip cards={storyCards} onSelect={handleQuickFilter} />}
 
       {newIds.size > 0 && !bannerDismissed && (
         <div className="mb-4 flex flex-wrap items-center gap-3 rounded-md border border-teal-200 bg-teal-50 px-4 py-2.5 text-sm dark:border-teal-900 dark:bg-teal-950">

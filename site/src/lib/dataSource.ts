@@ -1,5 +1,5 @@
 import { BASE_URL } from "./basePath";
-import type { SiteIndex, StatsHistory } from "./types";
+import type { SiteIndex, StatsHistory, StoryCards } from "./types";
 
 // Runtime fetch, not a build-time import — the site must show data that's at
 // most ~1h stale without ever being redeployed itself (see the plan's
@@ -65,4 +65,12 @@ export function fetchSiteIndex(): Promise<SiteIndex> {
 // git history against GitHub's rate-limited API.
 export function fetchStatsHistory(): Promise<StatsHistory> {
   return fetchJsonWithFallback<StatsHistory>("stats-history.json");
+}
+
+// data/story-cards.json — 3-4 auto-generated "state of hiring" cards built by
+// build_story_cards() from stats-history.json's dimensions. A small, purely
+// derived file; the caller treats a fetch failure (e.g. an older deploy that
+// predates this file) as "no strip", not an error.
+export function fetchStoryCards(): Promise<StoryCards> {
+  return fetchJsonWithFallback<StoryCards>("story-cards.json");
 }

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StoryCard",
+  "description": "Shape of each entry in data/story-cards.json's 'cards' array — 3-4 auto-generated 'state of hiring' stat cards built by build_story_cards() in scripts/build_data_readme.py from data/stats-history.json's own 'dimensions'. Every string is generated, not hand-written; every number traces back to a real snapshot count, and any week/month comparison is dropped rather than faked when there's no earlier dimensioned snapshot. The wrapper is { generated_at, cards }; only the cards[] entries are schema-checked.",
+  "type": "object",
+  "required": ["id", "title", "detail", "filter"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable slug for this card slot (roles-total / internships / top-companies / geography / remote-share) — lets the client keep a stable React key and lets a test assert a specific card"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short card heading, e.g. 'Internships'"
+    },
+    "detail": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The one-line stat, e.g. '134 internships open · up 22% this month'"
+    },
+    "filter": {
+      "type": "object",
+      "description": "A partial site FilterState the client applies (via handleQuickFilter) when the card is clicked — e.g. {\"kind\":\"job\",\"level\":\"internship\"}. {} means 'just scroll to the list'. Values mirror config/site-index.json's enums; nested types aren't checked by the dependency-free validator"
+    }
+  },
+  "additionalProperties": false
+}
