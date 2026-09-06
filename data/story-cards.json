@@ -1,14 +1,25 @@
 {
-  "generated_at": "2026-09-06T19:11:04Z",
+  "generated_at": "2026-09-06T21:21:26Z",
   "cards": [
     {
       "id": "internship-trend",
       "title": "This month",
-      "detail": "Internships down 11%",
+      "detail": "Internships down 10%",
       "filter": {
         "kind": "job",
         "levels": [
           "internship"
+        ]
+      }
+    },
+    {
+      "id": "new_grad-trend",
+      "title": "This month",
+      "detail": "New-grad roles down 6%",
+      "filter": {
+        "kind": "job",
+        "levels": [
+          "new_grad"
         ]
       }
     },
@@ -28,7 +39,7 @@
     {
       "id": "geography",
       "title": "Where the roles are",
-      "detail": "Most roles in North America, then Europe",
+      "detail": "Most roles in North America, then Asia-Pacific",
       "filter": {
         "kind": "job",
         "regions": [

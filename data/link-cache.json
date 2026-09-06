@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T19:09:44Z",
+ "generated_at": "2026-09-06T21:20:00Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -8877,6 +8877,10 @@
    "alive": true,
    "at": "2026-09-05T20:28:36Z"
   },
+  "https://munichtech-expo.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-06T21:20:00Z"
+  },
   "https://music-from-beatmind.devpost.com/": {
    "alive": true,
    "at": "2026-09-06T10:55:12Z"
@@ -9396,6 +9400,10 @@
   "https://realm-hack-1.devfolio.co": {
    "alive": true,
    "at": "2026-09-06T10:55:12Z"
+  },
+  "https://recursiveacm.devfolio.co": {
+   "alive": true,
+   "at": "2026-09-06T21:20:00Z"
   },
   "https://revenuecat-shipaton-2026.devpost.com/": {
    "alive": true,
