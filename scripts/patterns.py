@@ -21,14 +21,35 @@ FETCH_ROLE_RE = re.compile(
     re.I,
 )
 
+# Coarse region *tier* — per-country granularity is the separate `country`
+# field. Macro-regions, the way global platforms and AMER/EMEA/APAC corporate
+# segmentation slice the world: North America, Latin America, Europe, MENA
+# (Middle East & Africa — kept separate because the project's focus is there),
+# APAC. There is deliberately NO 'us'/'canada' bucket — those are countries,
+# offered in the country facet; NO separate 'south america' — that's part of
+# LATAM, the global standard. First match wins, so order matters: NA and LATAM
+# are unambiguous and go first; MENA before Europe (Türkiye / Cyprus / the
+# Georgia name-clash all sit on the seam); APAC last.
 FETCH_REGION_MAP = {
-    "us": re.compile(
-        r"\b(usa|united states|new york|california|texas|washington|seattle|austin|boston|"
-        r"san francisco|los angeles|chicago|denver|atlanta|miami)\b",
+    "north_america": re.compile(
+        r"\b(usa|u\.s\.a\.?|united states|us[- ]remote|"
+        r"new york|nyc|california|texas|washington|seattle|austin|boston|"
+        r"san francisco|los angeles|chicago|denver|atlanta|miami|san jose|"
+        r"bay area|mountain view|palo alto|sunnyvale|bellevue|redmond|"
+        r"canada|toronto|vancouver|montreal|ottawa|calgary|waterloo)\b",
         re.I,
     ),
-    "canada": re.compile(r"\b(canada|toronto|vancouver|montreal|ottawa|calgary)\b", re.I),
-    # MENA + wider Middle East / Africa. Checked BEFORE emea so a Gulf/North
+    # Latin America — Mexico, Central & South America, the Caribbean.
+    "latam": re.compile(
+        r"\b(latam|latin america|south america|central america|"
+        r"mexico|m[eé]xico|guadalajara|monterrey|"
+        r"brazil|brasil|s[ãa]o paulo|rio de janeiro|belo horizonte|"
+        r"argentina|buenos aires|c[oó]rdoba|"
+        r"colombia|bogot[aá]|medell[ií]n|chile|santiago|"
+        r"peru|lima|uruguay|montevideo|costa rica)\b",
+        re.I,
+    ),
+    # MENA + wider Middle East / Africa. Checked BEFORE 'europe' so a Gulf/North
     # Africa location resolves to its own bucket instead of being folded into
     # Europe. Kept deliberately broad (Gulf, Levant, North Africa, plus the
     # main sub-Saharan tech hubs) because the region's employers — Careem,
@@ -47,10 +68,31 @@ FETCH_REGION_MAP = {
         r"south africa|johannesburg|cape town|pretoria)\b",
         re.I,
     ),
-    "emea": re.compile(
-        r"\b(emea|europe|uk|united kingdom|germany|france|netherlands|spain|portugal|"
-        r"poland|sweden|ireland|italy|london|"
-        r"berlin|paris|amsterdam|zurich)\b",
+    # Europe — was 'emea'; the MENA bucket above already carries Middle East &
+    # Africa, so this is Europe proper (EU + UK + EFTA + the Balkans).
+    "europe": re.compile(
+        r"\b(emea|europe|european union|"
+        r"uk|u\.k\.|united kingdom|england|scotland|wales|london|manchester|"
+        r"ireland|dublin|germany|deutschland|berlin|munich|m[üu]nchen|hamburg|frankfurt|"
+        r"france|paris|lyon|netherlands|amsterdam|rotterdam|"
+        r"spain|madrid|barcelona|portugal|lisbon|porto|italy|milan|rome|"
+        r"poland|warsaw|krakow|sweden|stockholm|norway|oslo|denmark|copenhagen|"
+        r"finland|helsinki|belgium|brussels|switzerland|zurich|geneva|"
+        r"austria|vienna|czechia|czech republic|prague|romania|bucharest|"
+        r"greece|athens|hungary|budapest|ukraine|kyiv|kiev|lviv)\b",
+        re.I,
+    ),
+    # Asia-Pacific — South, East & South-East Asia plus Oceania. Checked last;
+    # leans on country words over bare cities (Melbourne is also in Florida).
+    "apac": re.compile(
+        r"\b(apac|apj|asia.?pacific|asia|oceania|south.?east asia|"
+        r"india|bengaluru|bangalore|hyderabad|mumbai|pune|gurgaon|gurugram|noida|chennai|delhi|"
+        r"pakistan|karachi|lahore|islamabad|bangladesh|dhaka|sri lanka|colombo|"
+        r"singapore|japan|tokyo|osaka|kyoto|south korea|seoul|"
+        r"china|beijing|shanghai|shenzhen|guangzhou|hangzhou|hong kong|taiwan|taipei|"
+        r"indonesia|jakarta|philippines|manila|cebu|vietnam|hanoi|ho chi minh|"
+        r"thailand|bangkok|malaysia|kuala lumpur|"
+        r"australia|sydney|melbourne|brisbane|perth|canberra|new zealand|auckland|wellington)\b",
         re.I,
     ),
 }
@@ -216,11 +258,15 @@ PUBLIC_NON_SOFTWARE_TITLE_PATTERNS = [
 
 
 def detect_region(location):
-    """Coarse region bucket ('us'/'canada'/'mena'/'emea'/'remote'/'unknown')
-    from a free-text location string. Shared by both the curated and public
-    layers so 'region' means the same thing everywhere it's published. 'mena'
-    (Middle East & Africa) is matched before 'emea' so Gulf/North-Africa
-    locations get their own bucket instead of being counted as Europe.
+    """Coarse region *tier* from a free-text location string — the macro-region
+    the role sits in, not its country (that's the separate `country` field).
+
+    Buckets: 'north_america' | 'latam' | 'europe' | 'mena' | 'apac' | 'remote'
+    | 'unknown'. There is no 'us'/'canada' bucket (countries, not regions) and
+    no separate 'south america' (part of 'latam'). 'mena' (Middle East &
+    Africa) is matched before 'europe' so Gulf/North-Africa locations get
+    their own bucket. Shared by both collector layers so 'region' means the
+    same thing everywhere it's published.
     """
     if FETCH_REMOTE_RE.search(location):
         return "remote"

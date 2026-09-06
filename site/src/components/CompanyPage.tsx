@@ -3,6 +3,7 @@ import { BASE_URL } from "../lib/basePath";
 import { SINGLE_SERIES_COLOR } from "../lib/chartColors";
 import { companyTier } from "../lib/companyTiers";
 import { fetchSiteIndex } from "../lib/dataSource";
+import { regionForItem } from "../lib/geo";
 import { prettifyCompany, formatLevel, REGION_LABELS } from "../lib/labels";
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import BarList from "./BarList";
@@ -130,7 +131,7 @@ export default function CompanyPage() {
           </section>
           <section>
             <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">By region</h2>
-            <BarList items={topCounts(jobs, (i) => i.region, (k) => REGION_LABELS[k] ?? k)} />
+            <BarList items={topCounts(jobs, (i) => regionForItem(i), (k) => REGION_LABELS[k] ?? k)} />
           </section>
         </div>
       )}

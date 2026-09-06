@@ -28,7 +28,7 @@ import {
 } from "../lib/preferences";
 import type { SiteIndex, SiteIndexEntry, StoryCard } from "../lib/types";
 import { companyTier } from "../lib/companyTiers";
-import { countryForItem } from "../lib/geo";
+import { countryForItem, regionForItem, REGION_ORDER } from "../lib/geo";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import Pagination from "./Pagination";
 import BrowseEveryRole from "./BrowseEveryRole";
@@ -320,6 +320,16 @@ export default function OpportunityBrowser() {
     return map;
   }, [relevanceActive, prefFilter, rankTune, visibleItems]);
 
+  // Macro-regions actually present in the loaded data, in canonical order —
+  // so "unknown" only shows if something is genuinely unclassified, and a
+  // bucket the deployed data doesn't carry yet (apac/latam) still appears
+  // because regionForItem derives it from the location string.
+  const availableRegions = useMemo(() => {
+    const present = new Set<string>();
+    for (const item of opportunityItems) present.add(regionForItem(item));
+    return REGION_ORDER.filter((r) => present.has(r));
+  }, [opportunityItems]);
+
   const availableCountries = useMemo(() => {
     // countryForItem falls back to detecting from the location string, so
     // Gulf / North-Africa / APAC countries appear here even before the
@@ -488,6 +498,7 @@ export default function OpportunityBrowser() {
         filters={filters}
         onChange={setFilters}
         resultCount={primary.length}
+        availableRegions={availableRegions}
         availableCountries={availableCountries}
         availableCompanies={availableCompanies}
         availableTags={availableTags}

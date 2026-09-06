@@ -15,18 +15,23 @@ const LEVEL_LABELS: Record<string, string> = {
   unknown: "Unknown",
 };
 
-// "emea" is labelled "Europe" (not "EMEA"): scripts/patterns.py's
-// detect_region tests the `mena` bucket *before* `emea`, so Middle-East /
-// Africa locations never land in `emea` — calling it "EMEA" (which expands to
-// "Europe, Middle East, Africa") just reads as overlapping the separate
-// "Middle East & Africa" bucket. The enum value stays `emea`.
+// Macro-region tier (scripts/patterns.py detect_region). `mena` is matched
+// before `europe`, so Middle-East / Africa locations never fall into Europe.
+// The US and Canada are `north_america`, not their own buckets — per-country
+// granularity is the separate Country filter. The three legacy keys
+// (us/canada/emea) are kept only so historical stats-history.json snapshots
+// still render a label.
 const REGION_LABELS: Record<string, string> = {
-  us: "United States",
-  canada: "Canada",
+  north_america: "North America",
+  latam: "Latin America",
+  europe: "Europe",
   mena: "Middle East & Africa",
-  emea: "Europe",
+  apac: "Asia-Pacific",
   remote: "Remote",
   unknown: "Unknown",
+  us: "United States",
+  canada: "Canada",
+  emea: "Europe",
 };
 
 const REMOTE_LABELS: Record<string, string> = {

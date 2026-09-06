@@ -44,8 +44,8 @@
     },
     "region": {
       "type": "string",
-      "enum": ["us", "canada", "mena", "emea", "remote", "unknown"],
-      "description": "Coarse region detected from location, same taxonomy as the public layer's region field ('mena' = Middle East & Africa, matched before 'emea')"
+      "enum": ["north_america", "latam", "europe", "mena", "apac", "remote", "unknown"],
+      "description": "Coarse macro-region detected from location, same taxonomy as the public layer's region field ('mena' = Middle East & Africa, matched before 'europe'). Countries (incl. the US and Canada) are the separate 'country' field, not region buckets."
     },
     "role_type": {
       "type": "string",

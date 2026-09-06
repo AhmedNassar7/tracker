@@ -423,12 +423,12 @@ def main():
 
     run("normalize_rows copies region/role_type/remote_type/country for D2 bucketing", lambda: check(
         "normalize_rows classification passthrough",
-        (lambda r: r["region"] == "us" and r["role_type"] == "backend"
+        (lambda r: r["region"] == "north_america" and r["role_type"] == "backend"
          and r["remote_type"] == "remote" and r["country"] == "United States")(
             bdr.normalize_rows([{
                 "company": "Acme", "title": "SWE", "url": "https://x/z", "source": "greenhouse:acme",
                 "posted_at": "2026-01-01", "date": "2d", "level": "new_grad", "kind": "job",
-                "region": "us", "role_type": "backend", "remote_type": "remote", "country": "United States",
+                "region": "north_america", "role_type": "backend", "remote_type": "remote", "country": "United States",
             }], "curated")[0]
         ),
     ))

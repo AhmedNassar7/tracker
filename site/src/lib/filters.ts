@@ -1,4 +1,4 @@
-import { countryForItem } from "./geo";
+import { countryForItem, regionForItem, REGION_ALIASES } from "./geo";
 import type { Level, Region, RemoteType, SiteIndexEntry, SiteIndexKind } from "./types";
 
 // The filter bar is the ONE place facets live (Lane H). Every multi-value
@@ -46,7 +46,15 @@ export const LEVEL_VALUES: readonly Level[] = [
   "other",
   "unknown",
 ];
-export const REGION_VALUES: readonly Region[] = ["us", "canada", "mena", "emea", "remote", "unknown"];
+export const REGION_VALUES: readonly Region[] = [
+  "north_america",
+  "latam",
+  "europe",
+  "mena",
+  "apac",
+  "remote",
+  "unknown",
+];
 export const REMOTE_VALUES: readonly RemoteType[] = ["remote", "hybrid", "onsite", "unknown"];
 export const FACET_FLAG_VALUES: readonly string[] = ["yes"];
 
@@ -115,7 +123,15 @@ export function filtersFromSearchParams(params: URLSearchParams): FilterState {
   next.kind = pickValid(params.get(PARAM_KEYS.kind), KIND_VALUES, DEFAULT_FILTERS.kind) as FilterState["kind"];
   next.visa = pickValid(params.get(PARAM_KEYS.visa), FACET_FLAG_VALUES, "");
   for (const key of ARRAY_FACET_KEYS) {
-    next[key] = splitParam(params.get(PARAM_KEYS[key]), ENUM_FOR_FACET[key]);
+    if (key === "regions") {
+      // Remap pre-taxonomy values (?regions=us,emea) *before* the enum filter,
+      // else they'd be silently dropped as unknown.
+      next.regions = splitParam(params.get(PARAM_KEYS.regions))
+        .map((r) => REGION_ALIASES[r] ?? r)
+        .filter((r) => (REGION_VALUES as readonly string[]).includes(r));
+    } else {
+      next[key] = splitParam(params.get(PARAM_KEYS[key]), ENUM_FOR_FACET[key]);
+    }
   }
   return next;
 }
@@ -137,7 +153,7 @@ export function applyFilters(items: SiteIndexEntry[], filters: FilterState): Sit
   return items.filter((item) => {
     if (filters.kind !== "all" && item.kind !== filters.kind) return false;
     if (filters.levels.length > 0 && !(item.level && filters.levels.includes(item.level))) return false;
-    if (filters.regions.length > 0 && !(item.region && filters.regions.includes(item.region))) return false;
+    if (filters.regions.length > 0 && !filters.regions.includes(regionForItem(item))) return false;
     if (filters.remotes.length > 0 && !(item.remote_type && filters.remotes.includes(item.remote_type))) return false;
     if (filters.countries.length > 0) {
       const c = countryForItem(item);

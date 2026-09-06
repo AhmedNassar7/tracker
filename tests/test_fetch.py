@@ -72,8 +72,8 @@ def main():
         and fetch.detect_level("Junior Backend Engineer") == "junior"
         and fetch.detect_level("Software Development Engineer I") == "entry_level"
         and fetch.detect_level("Software Development Engineer II") == "mid_level"
-        and fetch.detect_region("Toronto, Canada") == "canada"
-        and fetch.detect_region("Berlin, Germany") == "emea"
+        and fetch.detect_region("Toronto, Canada") == "north_america"
+        and fetch.detect_region("Berlin, Germany") == "europe"
         and fetch.detect_region("Dubai, United Arab Emirates") == "mena"
         and fetch.detect_region("Cairo, Egypt") == "mena"
         and fetch.detect_region("Riyadh, Saudi Arabia") == "mena"
@@ -573,12 +573,12 @@ def main():
 
         with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["google"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
             lorenzolacorte_rows = fetch.fetch_lorenzolacorte_eu()
-    run("LorenzoLaCorte fetch title-cases the all-lowercase company name, handles a trailing empty cell, and tags EMEA/France", lambda: check(
-        "LorenzoLaCorte fetch title-cases the all-lowercase company name, handles a trailing empty cell, and tags EMEA/France",
+    run("LorenzoLaCorte fetch title-cases the all-lowercase company name, handles a trailing empty cell, and tags Europe/France", lambda: check(
+        "LorenzoLaCorte fetch title-cases the all-lowercase company name, handles a trailing empty cell, and tags Europe/France",
         len(lorenzolacorte_rows) == 1
         and lorenzolacorte_rows[0]["company"] == "Google"
         and lorenzolacorte_rows[0]["url"] == "https://example.com/eu1"
-        and lorenzolacorte_rows[0]["region"] == "emea"
+        and lorenzolacorte_rows[0]["region"] == "europe"
         and lorenzolacorte_rows[0]["country"] == "France",
     ))
 
@@ -808,7 +808,7 @@ def main():
         "title": "Software Engineer – Early Career",
         "level": "new_grad",
         "category": "",
-        "region": "us",
+        "region": "north_america",
         "role_type": "software_engineer",
         "country": "United States",
         "location": "Seattle, WA SF NYC Sunnyvale, CA",

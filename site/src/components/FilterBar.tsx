@@ -3,7 +3,6 @@ import {
   hasActiveFilters,
   KIND_VALUES,
   LEVEL_VALUES,
-  REGION_VALUES,
   REMOTE_VALUES,
   type FilterState,
 } from "../lib/filters";
@@ -22,15 +21,16 @@ const KIND_LABELS: Record<string, string> = {
 const KIND_TABS = KIND_VALUES.map((value) => ({ value, label: KIND_LABELS[value] }));
 
 const LEVEL_OPTIONS: MultiSelectOption[] = LEVEL_VALUES.map((value) => ({ value, label: LEVEL_LABELS[value] }));
-const REGION_OPTIONS: MultiSelectOption[] = REGION_VALUES.map((value) => ({ value, label: REGION_LABELS[value] }));
 const REMOTE_OPTIONS: MultiSelectOption[] = REMOTE_VALUES.map((value) => ({ value, label: REMOTE_LABELS[value] }));
 
 interface Props {
   filters: FilterState;
   onChange: (next: FilterState) => void;
   resultCount: number;
-  // Country / company / tech have no fixed enum — options are whatever the
-  // loaded data actually contains, computed by the caller.
+  // Region / country / company / tech options are whatever the loaded data
+  // actually contains, computed by the caller — so an empty bucket (e.g.
+  // "unknown" once classification is good) never shows as a dead option.
+  availableRegions: string[];
   availableCountries: string[];
   availableCompanies: string[];
   availableTags: string[];
@@ -45,6 +45,7 @@ export default function FilterBar({
   filters,
   onChange,
   resultCount,
+  availableRegions,
   availableCountries,
   availableCompanies,
   availableTags,
@@ -59,6 +60,10 @@ export default function FilterBar({
   const toggleVisa = () => set("visa", filters.visa === "yes" ? "" : "yes");
   // Country options get a real flag image before the name (see <Flag> —
   // emoji flags render as bare letters on Windows).
+  const regionOptions: MultiSelectOption[] = availableRegions.map((r) => ({
+    value: r,
+    label: REGION_LABELS[r] ?? r,
+  }));
   const countryOptions: MultiSelectOption[] = availableCountries.map((c) => ({
     value: c,
     label: c,
@@ -99,7 +104,9 @@ export default function FilterBar({
         />
 
         <MultiSelect label="Level" options={LEVEL_OPTIONS} selected={filters.levels} onChange={(v) => set("levels", v)} />
-        <MultiSelect label="Region" options={REGION_OPTIONS} selected={filters.regions} onChange={(v) => set("regions", v)} />
+        {regionOptions.length > 0 && (
+          <MultiSelect label="Region" options={regionOptions} selected={filters.regions} onChange={(v) => set("regions", v)} />
+        )}
         <MultiSelect label="Work type" options={REMOTE_OPTIONS} selected={filters.remotes} onChange={(v) => set("remotes", v)} />
         {countryOptions.length > 0 && (
           <MultiSelect label="Country" options={countryOptions} selected={filters.countries} onChange={(v) => set("countries", v)} searchable />

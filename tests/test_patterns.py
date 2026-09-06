@@ -212,12 +212,26 @@ def main():
         check("nonsense -> Unknown", p.detect_country("The Moon") == "Unknown")
     run("detect_country: MENA / APAC / LATAM now covered", _country_basic)
 
-    def _region_mena():
-        check("cairo -> mena region", p.detect_region("Cairo, Egypt") == "mena")
-        check("baghdad -> mena region", p.detect_region("Baghdad, Iraq") == "mena")
-        check("neom -> mena region", p.detect_region("NEOM, Saudi Arabia") == "mena")
-        check("berlin -> emea region (not mena)", p.detect_region("Berlin, Germany") == "emea")
-    run("detect_region: Gulf / North Africa resolve to 'mena', not 'emea'/'unknown'", _region_mena)
+    def _region_buckets():
+        # MENA is matched before Europe.
+        check("cairo -> mena", p.detect_region("Cairo, Egypt") == "mena")
+        check("baghdad -> mena", p.detect_region("Baghdad, Iraq") == "mena")
+        check("neom -> mena", p.detect_region("NEOM, Saudi Arabia") == "mena")
+        check("berlin -> europe (not mena)", p.detect_region("Berlin, Germany") == "europe")
+        check("london -> europe", p.detect_region("London, UK") == "europe")
+        # US and Canada are one macro-region, not their own buckets.
+        check("nyc -> north_america", p.detect_region("New York, NY") == "north_america")
+        check("toronto -> north_america", p.detect_region("Toronto, Canada") == "north_america")
+        # APAC + LATAM now have their own buckets instead of falling to unknown.
+        check("bengaluru -> apac", p.detect_region("Bengaluru, India") == "apac")
+        check("singapore -> apac", p.detect_region("Singapore") == "apac")
+        check("sydney -> apac", p.detect_region("Sydney, Australia") == "apac")
+        check("sao paulo -> latam", p.detect_region("São Paulo, Brazil") == "latam")
+        check("mexico city -> latam", p.detect_region("Mexico City, Mexico") == "latam")
+        # 'remote' still wins over any city name.
+        check("remote wins over city", p.detect_region("Remote - Berlin") == "remote")
+        check("the moon -> unknown", p.detect_region("The Moon") == "unknown")
+    run("detect_region: 5 macro-region buckets (NA/LATAM/Europe/MENA/APAC) + remote", _region_buckets)
 
     def _country_flag():
         check("UAE flag", p.country_flag("United Arab Emirates") == "\U0001F1E6\U0001F1EA")

@@ -118,11 +118,11 @@ def main():
 
     # D2 — per-run dimension breakdowns
     sample_jobs = [
-        {"level": "internship", "region": "us", "remote_type": "remote", "role_type": "backend",
+        {"level": "internship", "region": "north_america", "remote_type": "remote", "role_type": "backend",
          "category": "faang", "country": "United States", "company": "Google", "source": "greenhouse:google"},
-        {"level": "internship", "region": "us", "remote_type": "onsite", "role_type": "backend",
+        {"level": "internship", "region": "north_america", "remote_type": "onsite", "role_type": "backend",
          "category": "faang", "country": "United States", "company": "Google", "source": "greenhouse:google"},
-        {"level": "new_grad", "region": "emea", "remote_type": "", "role_type": "frontend",
+        {"level": "new_grad", "region": "europe", "remote_type": "", "role_type": "frontend",
          "category": "", "country": "", "company": "Spotify", "source": "lever:spotify"},
     ]
     dims = bdr.summarize_snapshot_dimensions(sample_jobs)
@@ -191,15 +191,15 @@ def main():
     hist = {"snapshots": [
         # ~28d before latest — the "this month" comparison point
         dim_snapshot("2026-02-01T00:00:00Z", jobs_total=1000, internships=100,
-                     companies={"Amazon": 50}, regions={"us": 600, "emea": 300, "remote": 100},
+                     companies={"Amazon": 50}, regions={"north_america": 600, "europe": 300, "remote": 100},
                      remote={"remote": 100, "onsite": 900}),
         # ~7d before latest — the "since last week" comparison point
         dim_snapshot("2026-02-22T00:00:00Z", jobs_total=1000, internships=110,
-                     companies={"Amazon": 60}, regions={"us": 650, "emea": 300, "remote": 100},
+                     companies={"Amazon": 60}, regions={"north_america": 650, "europe": 300, "remote": 100},
                      remote={"remote": 150, "onsite": 850}),
         dim_snapshot("2026-03-01T00:00:00Z", jobs_total=1120, internships=125,
                      companies={"Amazon": 80, "Google": 40, "Meta": 30},
-                     regions={"us": 700, "emea": 320, "remote": 100},
+                     regions={"north_america": 700, "europe": 320, "remote": 100},
                      remote={"remote": 224, "onsite": 896}),
     ]}
     out = bdr.build_story_cards(hist, "2026-03-01T00:05:00Z")
@@ -229,8 +229,8 @@ def main():
     ))
     run("build_story_cards: geography card uses region phrases and skips remote/unknown", lambda: check(
         "geography",
-        by_id["geography"]["detail"] == "Most roles in the US, then Europe"
-        and by_id["geography"]["filter"] == {"kind": "job", "regions": ["us"]},
+        by_id["geography"]["detail"] == "Most roles in North America, then Europe"
+        and by_id["geography"]["filter"] == {"kind": "job", "regions": ["north_america"]},
     ))
     run("build_story_cards: top-companies card lists the top 3 and filters to them", lambda: check(
         "top companies",

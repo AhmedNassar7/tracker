@@ -9,7 +9,7 @@
 //                       of the saved filter when ranking.
 
 import { DEFAULT_FILTERS, type FilterState } from "./filters";
-import { countryForItem } from "./geo";
+import { countryForItem, regionForItem, REGION_ALIASES } from "./geo";
 import type { SiteIndexEntry } from "./types";
 
 const PREF_FILTER_KEY = "tracker:prefFilter";
@@ -43,7 +43,7 @@ export function readPrefFilter(): FilterState | null {
       ...DEFAULT_FILTERS,
       ...parsed,
       levels: normalizeList(parsed.levels),
-      regions: normalizeList(parsed.regions),
+      regions: normalizeList(parsed.regions).map((r) => REGION_ALIASES[r] ?? r),
       remotes: normalizeList(parsed.remotes),
       countries: normalizeList(parsed.countries),
       companies: normalizeList(parsed.companies),
@@ -184,7 +184,7 @@ export function contradictsPrefFilter(item: SiteIndexEntry, pref: FilterState): 
 export function scoreOpportunity(item: SiteIndexEntry, pref: FilterState, tune: RankTune): number {
   let score = 0;
   if (pref.levels.length > 0 && item.level && pref.levels.includes(item.level)) score += 3;
-  if (pref.regions.length > 0 && item.region && pref.regions.includes(item.region)) score += 2;
+  if (pref.regions.length > 0 && pref.regions.includes(regionForItem(item))) score += 2;
   if (pref.remotes.length > 0 && item.remote_type && pref.remotes.includes(item.remote_type)) score += 2;
   if (pref.countries.length > 0) {
     const c = countryForItem(item);
@@ -210,7 +210,10 @@ export function matchReasons(item: SiteIndexEntry, pref: FilterState, tune: Rank
   if (pref.levels.length > 0 && item.level && pref.levels.includes(item.level)) {
     reasons.push(item.level.replace(/_/g, " "));
   }
-  if (pref.regions.length > 0 && item.region && pref.regions.includes(item.region)) reasons.push(item.region.toUpperCase());
+  if (pref.regions.length > 0) {
+    const r = regionForItem(item);
+    if (pref.regions.includes(r)) reasons.push(r.replace(/_/g, " "));
+  }
   if (pref.remotes.length > 0 && item.remote_type && pref.remotes.includes(item.remote_type)) reasons.push(item.remote_type);
   if (pref.countries.length > 0) {
     const c = countryForItem(item);

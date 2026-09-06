@@ -1061,10 +1061,16 @@ def update_stats_history(
 # other string in this repo. 'remote'/'unknown' are deliberately absent — a
 # "where are the roles" card is about places.
 _REGION_PHRASE = {
+    "north_america": "North America",
+    "latam": "Latin America",
+    "europe": "Europe",
+    "mena": "the Middle East & Africa",
+    "apac": "Asia-Pacific",
+    # legacy keys — still present in stats-history.json snapshots written
+    # before the region taxonomy changed, so old snapshots still render.
     "us": "the US",
     "canada": "Canada",
     "emea": "Europe",
-    "mena": "the Middle East & Africa",
 }
 
 

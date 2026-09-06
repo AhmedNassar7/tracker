@@ -124,3 +124,79 @@ export function countryForItem(item: { country?: string; location?: string }): s
 export function flagUrl(iso2: string, size: "20x15" | "40x30" = "20x15"): string {
   return `https://flagcdn.com/${size}/${iso2.toLowerCase()}.png`;
 }
+
+// ---- region tier ----------------------------------------------------------
+// The coarse macro-region shown in the Region filter and used for relevance
+// scoring. Mirrors scripts/patterns.py detect_region, but resolved in the
+// browser off countryForItem() so a bucket the deployed data doesn't carry
+// yet (apac, latam, north_america) still appears without a pipeline re-run.
+//
+// Taxonomy: north_america · latam · europe · mena · apac · remote · unknown.
+// US and Canada are NOT their own buckets — they're north_america, and the
+// Country filter already gives per-country granularity.
+
+export const REGION_ORDER = [
+  "north_america",
+  "latam",
+  "europe",
+  "mena",
+  "apac",
+  "remote",
+  "unknown",
+] as const;
+
+// Pre-2026-09-06 stored values (saved preferences, shared URLs) → current.
+export const REGION_ALIASES: Record<string, string> = {
+  us: "north_america",
+  canada: "north_america",
+  emea: "europe",
+};
+
+const REGION_BY_COUNTRY: Record<string, string> = {
+  "United States": "north_america", Canada: "north_america",
+  Mexico: "latam", Brazil: "latam", Argentina: "latam", Colombia: "latam", Chile: "latam",
+  "United Kingdom": "europe", Ireland: "europe", Germany: "europe", France: "europe",
+  Netherlands: "europe", Belgium: "europe", Sweden: "europe", Norway: "europe",
+  Denmark: "europe", Finland: "europe", Italy: "europe", Spain: "europe",
+  Portugal: "europe", Switzerland: "europe", Austria: "europe", Poland: "europe",
+  Czechia: "europe", Romania: "europe", Greece: "europe", Hungary: "europe", Ukraine: "europe",
+  "United Arab Emirates": "mena", "Saudi Arabia": "mena", Qatar: "mena", Kuwait: "mena",
+  Bahrain: "mena", Oman: "mena", Jordan: "mena", Lebanon: "mena", Palestine: "mena",
+  Iraq: "mena", Israel: "mena", Egypt: "mena", Morocco: "mena", Algeria: "mena",
+  Tunisia: "mena", Turkey: "mena", Nigeria: "mena", Kenya: "mena", Ghana: "mena",
+  "South Africa": "mena",
+  India: "apac", Pakistan: "apac", Bangladesh: "apac", Singapore: "apac", Japan: "apac",
+  "South Korea": "apac", China: "apac", "Hong Kong": "apac", Taiwan: "apac",
+  Indonesia: "apac", Philippines: "apac", Vietnam: "apac", Thailand: "apac",
+  Malaysia: "apac", Australia: "apac", "New Zealand": "apac",
+};
+
+const REGION_TEXT_PATTERNS: [RegExp, string][] = [
+  [/\b(north america|\bUSA?\b|canada|united states)\b/i, "north_america"],
+  [/\b(latam|latin america|south america|central america|caribbean)\b/i, "latam"],
+  [/\b(mena|menat|middle east|gulf|\bGCC\b|north africa)\b/i, "mena"],
+  [/\b(emea|europe|european union)\b/i, "europe"],
+  [/\b(apac|\bAPJ\b|asia.?pacific|\basia\b|oceania|south.?east asia)\b/i, "apac"],
+];
+
+const REMOTE_TEXT_RE = /\b(remote|worldwide|anywhere|fully remote|distributed)\b/i;
+
+export function detectRegionFromText(location: string | undefined | null): string | null {
+  const loc = (location || "").trim();
+  if (!loc) return null;
+  for (const [rx, region] of REGION_TEXT_PATTERNS) if (rx.test(loc)) return region;
+  return null;
+}
+
+/** The macro-region bucket for a listing. Order mirrors patterns.py
+ *  detect_region: the pipeline's own value (mapped through REGION_ALIASES for
+ *  pre-taxonomy data) → an explicit "remote" location → derived from the
+ *  resolved country → named in the location text → "unknown". */
+export function regionForItem(item: { region?: string; country?: string; location?: string }): string {
+  const raw = (item.region || "").trim();
+  if (raw && raw !== "unknown") return REGION_ALIASES[raw] ?? raw;
+  if (REMOTE_TEXT_RE.test(item.location || "")) return "remote";
+  const country = countryForItem(item);
+  if (country && REGION_BY_COUNTRY[country]) return REGION_BY_COUNTRY[country];
+  return detectRegionFromText(item.location) ?? "unknown";
+}

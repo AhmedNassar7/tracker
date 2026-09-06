@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { fetchSiteIndex, fetchStatsHistory } from "../lib/dataSource";
+import { regionForItem } from "../lib/geo";
 import { SINGLE_SERIES_COLOR } from "../lib/chartColors";
 import type { SiteIndex, StatsHistory } from "../lib/types";
 import BarList from "./BarList";
@@ -75,7 +76,10 @@ export default function GlobalDashboard() {
     for (const item of items) {
       kindCounts.set(item.kind, (kindCounts.get(item.kind) ?? 0) + 1);
       sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1);
-      if (item.region) regionCounts.set(item.region, (regionCounts.get(item.region) ?? 0) + 1);
+      if (item.kind === "job") {
+        const r = regionForItem(item);
+        regionCounts.set(r, (regionCounts.get(r) ?? 0) + 1);
+      }
       if (item.level) levelCounts.set(item.level, (levelCounts.get(item.level) ?? 0) + 1);
     }
 
