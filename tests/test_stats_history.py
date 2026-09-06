@@ -199,28 +199,24 @@ def main():
                      remote={"remote": 150, "onsite": 850}),
         dim_snapshot("2026-03-01T00:00:00Z", jobs_total=1120, internships=125,
                      companies={"Amazon": 80, "Google": 40, "Meta": 30},
-                     regions={"us": 700, "emea": 320, "unknown": 100},
+                     regions={"us": 700, "emea": 320, "remote": 100},
                      remote={"remote": 224, "onsite": 896}),
     ]}
     out = bdr.build_story_cards(hist, "2026-03-01T00:05:00Z")
     by_id = {c["id"]: c for c in out["cards"]}
 
-    run("build_story_cards: emits at most 4 cards, each schema-valid", lambda: check(
+    run("build_story_cards: emits at most 4 cards, each schema-valid, no bare-count 'roles-total'", lambda: check(
         "cards shape",
         1 <= len(out["cards"]) <= 4
-        and all({"id", "title", "detail", "filter"} == set(c) for c in out["cards"]),
+        and all({"id", "title", "detail", "filter"} == set(c) for c in out["cards"])
+        and "roles-total" not in by_id,  # the hero already shows the total — no dup card
         details=str(out),
     ))
-    run("build_story_cards: totals card shows the week-over-week delta", lambda: check(
-        "totals delta",
-        "1,120 open software roles" in by_id["roles-total"]["detail"]
-        and "+120 since last week" in by_id["roles-total"]["detail"],
-        details=str(by_id.get("roles-total")),
-    ))
-    run("build_story_cards: internships card shows the month-over-month %", lambda: check(
-        "internships pct",
-        "125 internships open" in by_id["internships"]["detail"]
-        and "up 25% this month" in by_id["internships"]["detail"]
+    run("build_story_cards: internships card is a month-over-month TREND, not a bare count", lambda: check(
+        "internships trend",
+        by_id["internships"]["title"] == "Internship trend"
+        and "Up 25% this month" in by_id["internships"]["detail"]
+        and "125 open" in by_id["internships"]["detail"]
         and by_id["internships"]["filter"] == {"kind": "job", "levels": ["internship"]},
         details=str(by_id.get("internships")),
     ))
@@ -234,17 +230,22 @@ def main():
         by_id["top-companies"]["detail"] == "Amazon, Google, Meta"
         and by_id["top-companies"]["filter"] == {"kind": "job", "companies": ["Amazon", "Google", "Meta"]},
     ))
+    run("build_story_cards: remote-share is a % (from by_region), not a count", lambda: check(
+        "remote share",
+        by_id["remote-share"]["detail"].endswith("% of roles are remote")
+        and by_id["remote-share"]["filter"] == {"kind": "job", "regions": ["remote"]},
+    ))
     run("build_story_cards: no dimensioned snapshot → no cards, no crash", lambda: check(
         "empty history",
         bdr.build_story_cards({"snapshots": [{"at": "2026-01-01T00:00:00Z", **stats}]}, "2026-01-02T00:00:00Z")["cards"] == []
         and bdr.build_story_cards({}, "2026-01-02T00:00:00Z")["cards"] == [],
     ))
-    run("build_story_cards: a single dimensioned snapshot drops the comparisons but still emits cards", lambda: check(
+    run("build_story_cards: a single dimensioned snapshot → ranking/% cards only, no internship trend", lambda: check(
         "single snapshot",
         (lambda o: len(o["cards"]) >= 1
-         and "since last week" not in {c["id"]: c for c in o["cards"]}["roles-total"]["detail"]
-         and "this month" not in {c["id"]: c for c in o["cards"]}.get("internships", {"detail": ""})["detail"])(
-            bdr.build_story_cards({"snapshots": [hist["snapshots"][1]]}, "2026-03-01T00:05:00Z")
+         and "internships" not in {c["id"] for c in o["cards"]}
+         and {c["id"] for c in o["cards"]} <= {"top-companies", "geography", "remote-share"})(
+            bdr.build_story_cards({"snapshots": [hist["snapshots"][2]]}, "2026-03-01T00:05:00Z")
         ),
     ))
 

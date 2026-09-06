@@ -1101,17 +1101,20 @@ def _pct_change(now_val: int, then_val) -> int | None:
 
 
 def build_story_cards(history: dict, now_iso: str) -> dict:
-    """3–4 auto-generated "state of hiring" cards (D1, docs/WEBSITE-VISION-PLAN
-    §11) built from stats-history.json's own `dimensions` — the kind of
-    screenshot-friendly stat card the plan wants, with a click-through into a
-    pre-filtered list.
+    """Auto-generated "state of hiring" cards (D1, docs/WEBSITE-VISION-PLAN
+    §11) built from stats-history.json's own `dimensions`, for the strip
+    between the hero and the list.
+
+    These are *narrative* cards — a trend or a ranking with a click-through —
+    NOT restatements of the hero's live counts. So there is deliberately no
+    "N roles open" card (the hero already says that), and the internships
+    card only appears when there's a real month-over-month move to report; a
+    bare "134 internships open" would just fight the hero's Internships chip.
 
     Pure. Each card is ``{id, title, detail, filter}`` where ``filter`` is a
-    partial site FilterState the client applies on click (``{}`` = just jump
-    to the list). Only cards with real backing data are emitted; a history
-    with no dimensioned snapshot yields an empty list, and any week-/month-
-    over comparison is simply dropped (not faked) when there's no earlier
-    dimensioned snapshot to compare against.
+    partial site FilterState the client applies on click. Only cards with
+    real backing data are emitted; a comparison is dropped (not faked) when
+    there's no earlier dimensioned snapshot.
     """
     snapshots = list(history.get("snapshots", []) or [])
     latest = _dimensioned_snapshot_near(snapshots, now_iso)
@@ -1120,33 +1123,23 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
         return {"generated_at": now_iso, "cards": cards}
 
     dims = latest.get("dimensions", {})
-    week_ago = _dimensioned_snapshot_near(snapshots, _shift_iso(latest["at"], days=-7), before_iso=latest["at"])
     month_ago = _dimensioned_snapshot_near(snapshots, _shift_iso(latest["at"], days=-30), before_iso=latest["at"])
 
-    # 1 — total open roles, with a week-over-week delta when we have one.
-    total = latest.get("jobs_total", 0)
-    detail = f"{total:,} open software roles"
-    if week_ago is not None:
-        delta = total - week_ago.get("jobs_total", 0)
-        if delta:
-            detail += f" · {'+' if delta > 0 else '−'}{abs(delta):,} since last week"
-    cards.append({"id": "roles-total", "title": "Roles right now", "detail": detail, "filter": {}})
-
-    # 2 — internships, with a month-over-month % move when available.
+    # 1 — internships, ONLY as a month-over-month trend (no bare-count card —
+    #     that's the hero's job). Skipped entirely without an earlier snapshot.
     now_int = (dims.get("by_level") or {}).get("internship", 0)
-    if now_int:
-        detail = f"{now_int:,} internships open"
-        if month_ago is not None:
-            then_int = (month_ago.get("dimensions", {}).get("by_level") or {}).get("internship")
-            pct = _pct_change(now_int, then_int)
-            if pct is not None and abs(pct) >= 3:
-                detail += f" · {'up' if pct > 0 else 'down'} {abs(pct)}% this month"
-        cards.append({
-            "id": "internships", "title": "Internships", "detail": detail,
-            "filter": {"kind": "job", "levels": ["internship"]},
-        })
+    if now_int and month_ago is not None:
+        then_int = (month_ago.get("dimensions", {}).get("by_level") or {}).get("internship")
+        pct = _pct_change(now_int, then_int)
+        if pct is not None and abs(pct) >= 3:
+            cards.append({
+                "id": "internships",
+                "title": "Internship trend",
+                "detail": f"{'Up' if pct > 0 else 'Down'} {abs(pct)}% this month · {now_int:,} open",
+                "filter": {"kind": "job", "levels": ["internship"]},
+            })
 
-    # 3 — the companies posting the most right now (card click filters to them).
+    # 2 — the companies posting the most right now (card click filters to them).
     top = [name for name, _ in list((dims.get("top_companies") or {}).items())[:3]]
     if top:
         cards.append({
@@ -1167,14 +1160,16 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
             "filter": {"kind": "job", "regions": [regions[0]]},
         })
 
-    # 5 — remote share (only if there's room after the four above).
-    remote_by = dims.get("by_remote_type") or {}
-    remote_total = sum(remote_by.values())
-    if remote_total and remote_by.get("remote"):
-        pct = round(remote_by["remote"] / remote_total * 100)
+    # 5 — remote share. Uses by_region ("remote" is set by both layers), NOT
+    #     by_remote_type (curated-only — would badly understate it). A % is a
+    #     different framing from the hero's Remote *count*, so no dup.
+    region_by = dims.get("by_region") or {}
+    region_total = sum(region_by.values())
+    if region_total and region_by.get("remote"):
+        pct = round(region_by["remote"] / region_total * 100)
         cards.append({
-            "id": "remote-share", "title": "Remote", "detail": f"{pct}% of roles are fully remote",
-            "filter": {"kind": "job", "remotes": ["remote"]},
+            "id": "remote-share", "title": "Remote", "detail": f"{pct}% of roles are remote",
+            "filter": {"kind": "job", "regions": ["remote"]},
         })
 
     cards = cards[:4]
@@ -1238,7 +1233,12 @@ def main() -> int:
     print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
 
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    dimensions = summarize_snapshot_dimensions(filtered_jobs)
+    # Dimensions off the *published* job set (site_index, post cross-layer
+    # dedupe) — not `filtered_jobs` — so a story-card count can't disagree
+    # with what the site actually shows (they were ~6 apart on internships
+    # because filtered_jobs still had a handful of cross-layer duplicates).
+    published_jobs = [i for i in site_index["items"] if i.get("kind") == "job"]
+    dimensions = summarize_snapshot_dimensions(published_jobs)
     stats_history = update_stats_history(load_json(STATS_HISTORY_JSON), stats, now_iso, dimensions)
     STATS_HISTORY_JSON.write_text(json.dumps(stats_history, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {STATS_HISTORY_JSON} ({len(stats_history['snapshots'])} snapshots)")

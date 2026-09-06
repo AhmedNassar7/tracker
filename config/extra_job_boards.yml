@@ -94,24 +94,22 @@ lever:
   - dlocal
 
 # ---------------------------------------------------------------------------
-# MENA / Gulf / North Africa focus (Lane M) — CANDIDATES, NOT YET VERIFIED.
+# MENA / Gulf / North Africa focus (Lane M).
 #
-# These are regional tech employers that plausibly run a public board on one
-# of the platforms above. DO NOT uncomment a line until you've confirmed a
-# real, non-empty jobs response by hand (the curl commands at the top of this
-# file). The board token guess is in parentheses. Move a verified one up into
-# the right section with a "# verified <date>, N postings incl. <city>" note.
+# A first pass of token guesses for ~25 regional employers (Swvl, Paymob,
+# Instabug, Telda, Nawy, Halan, Foodics, Tabby, …) was checked with
+# `python scripts/verify_extra_boards.py --mena` on 2026-09-06 — every
+# Greenhouse/Lever guess 404'd, and only MoneyHash turned up an Ashby board
+# (currently 0 open roles, so not added). Takeaway: these companies are NOT
+# on Greenhouse/Lever/Ashby under an obvious token — most of the Egyptian
+# startup scene runs on **Workable**, which the pipeline can't read yet.
 #
-#   greenhouse candidates: swvl (swvl) · paymob (paymob) · moneyhash (moneyhash)
-#     · instabug (instabug) · rasan (rasan) · foodics (foodics) · nana (nanadirect)
-#     · unifonic (unifonic) · zid (zid) · salla (salla) · lean (leantech)
-#     · sary (sary) · tabby (tabby) · mamo (mamopay) · huspy (huspy)
-#     · nawy (nawy) · sylndr (sylndr) · telda (telda) · bosta (bosta)
-#   lever candidates: halan / mnt-halan (mnthalan) · trella (trella)
-#   ashby candidates: telda · money-hash · nawy   (Ashby 404s an invalid token,
-#     so these are the safest to check: curl https://api.ashbyhq.com/posting-api/job-board/<token>)
-#   Workable is huge in the Egyptian startup scene (elmenus, breadfast, rabbit,
-#     …) but there's no Workable fetcher yet — see §3A / backlog B2.
+# The real MENA-coverage lever is a Workable fetcher (backlog B2 / Lane M3),
+# not more token guessing. If you find a real board for one of these by hand
+# (e.g. via the company's careers page → "Powered by Greenhouse/Lever/Ashby"),
+# run `python scripts/verify_extra_boards.py <platform>:<token>` and, if it
+# confirms, add it to the right section above with a
+# "# verified <date>, N postings incl. <city>" note.
 # ---------------------------------------------------------------------------
 
 workday:

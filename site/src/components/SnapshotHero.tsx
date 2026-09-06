@@ -45,7 +45,9 @@ export default function SnapshotHero({ items, generatedAt, onQuickFilter }: Prop
       chips: [
         { label: "Internships", value: count((i) => i.kind === "job" && i.level === "internship"), patch: { kind: "job", levels: ["internship"] } },
         { label: "New-grad", value: count((i) => i.kind === "job" && i.level === "new_grad"), patch: { kind: "job", levels: ["new_grad"] } },
-        { label: "Remote", value: count((i) => i.remote_type === "remote"), patch: { kind: "job", remotes: ["remote"] } },
+        // `region === "remote"` (set by both collector layers) — not
+        // `remote_type`, which is curated-only and would undercount badly.
+        { label: "Remote", value: count((i) => i.kind === "job" && i.region === "remote"), patch: { kind: "job", regions: ["remote"] } },
         { label: "Hackathons", value: count((i) => i.kind === "hackathon"), patch: { kind: "hackathon" } },
       ] as { label: string; value: number; patch: Partial<FilterState> }[],
     };
