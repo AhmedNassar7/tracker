@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T12:39:35Z",
+  "generated_at": "2026-09-06T14:11:33Z",
   "cards": [
     {
       "id": "roles-total",
       "title": "Roles right now",
-      "detail": "3,276 open software roles",
+      "detail": "3,271 open software roles",
       "filter": {}
     },
     {
@@ -13,14 +13,23 @@
       "detail": "134 internships open",
       "filter": {
         "kind": "job",
-        "level": "internship"
+        "levels": [
+          "internship"
+        ]
       }
     },
     {
       "id": "top-companies",
       "title": "Hiring most this week",
       "detail": "Amazon, SpaceX, Databricks",
-      "filter": {}
+      "filter": {
+        "kind": "job",
+        "companies": [
+          "Amazon",
+          "SpaceX",
+          "Databricks"
+        ]
+      }
     },
     {
       "id": "geography",
@@ -28,7 +37,9 @@
       "detail": "Most roles in the US, then Europe",
       "filter": {
         "kind": "job",
-        "region": "us"
+        "regions": [
+          "us"
+        ]
       }
     }
   ]
