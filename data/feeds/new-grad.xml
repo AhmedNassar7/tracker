@@ -4,166 +4,173 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 23:33:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 10:57:40 GMT</lastBuildDate>
     <item>
-      <title>Google — Software Engineer, Performance, Reliability, Observability, Phd, Early Career</title>
-      <link>https://www.linkedin.com/jobs/view/4321301694</link>
-      <guid isPermaLink="false">7e54160c1e5647ff</guid>
-      <description>Warsaw, Mazowieckie, Poland · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer - Graduate - Sweden</title>
-      <link>https://www.linkedin.com/jobs/view/4404059914</link>
-      <guid isPermaLink="false">c9dc7a83b85efd79</guid>
-      <description>Stockholm, Stockholm County, Sweden · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Qualcomm — Graduate Software Engineer – Virtual Platforms - Qualcomm - Cambridge, Uk</title>
-      <link>https://www.linkedin.com/jobs/view/4384258608</link>
-      <guid isPermaLink="false">5ae66dd2edc32716</guid>
-      <description>Cambridge, England, United Kingdom · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>PayPal — Software Engineer New Grad - Software Engineering</title>
-      <link>https://paypal.eightfold.ai/careers/job/274921995088?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">8a631fa50bb46ba7</guid>
-      <description>Austin, TX San Jose, CA Chicago, IL · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Revolut — Graduate Programme 2027: Software Engineer (android)</title>
-      <link>https://www.linkedin.com/jobs/view/4418824830</link>
-      <guid isPermaLink="false">07b8d354b32d62ec</guid>
-      <description>Poland · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Revolut — Graduate Programme 2027: Software Engineer (android)</title>
-      <link>https://www.linkedin.com/jobs/view/4418832558</link>
-      <guid isPermaLink="false">85cd1a9958cbb14d</guid>
-      <description>Porto, Porto, Portugal · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Revolut — Graduate Programme 2027: Software Engineer (android)</title>
-      <link>https://www.linkedin.com/jobs/view/4418832556</link>
-      <guid isPermaLink="false">355e84c88700e0a6</guid>
-      <description>Portugal · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Revolut — Graduate Programme 2027: Software Engineer (android)</title>
-      <link>https://www.linkedin.com/jobs/view/4418844091</link>
-      <guid isPermaLink="false">33d878885055e3d6</guid>
-      <description>Spain · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Revolut — Graduate Programme 2027: Software Engineer (iOS)</title>
-      <link>https://www.linkedin.com/jobs/view/4418822810</link>
-      <guid isPermaLink="false">e2aaedec89245798</guid>
-      <description>Portugal · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Revolut — Graduate Programme 2027: Software Engineer (java)</title>
-      <link>https://www.linkedin.com/jobs/view/4418834450</link>
-      <guid isPermaLink="false">4a081dbee465a891</guid>
-      <description>Portugal · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Applied Machine Learning Production Engineer Graduate (AML-Production Engineer) - 2027 Start</title>
-      <link>https://joinbytedance.com/search/7670004502598060341</link>
-      <guid isPermaLink="false">b13a84f1e2940048</guid>
-      <description>San Jose, California · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Large Language Model Inference System Engineer Graduate (Applied Machine Learning) - 2027 Start</title>
-      <link>https://joinbytedance.com/search/7667726338627356933</link>
-      <guid isPermaLink="false">bf1435a0179a02d3</guid>
-      <description>San Jose, California · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Large Language Model Training System Engineer Graduate (Applied Machine Learning) - 2027 Start</title>
-      <link>https://joinbytedance.com/search/7667685712993650997</link>
-      <guid isPermaLink="false">ea631eb2c97c169b</guid>
-      <description>San Jose, California · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Product Security Engineer Graduate (Security BP) - 2027 Start</title>
-      <link>https://joinbytedance.com/search/7668636404159858997</link>
-      <guid isPermaLink="false">b88405333f7a23e8</guid>
-      <description>San Jose, California · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scale AI — Software Engineer New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730836005?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">74db64589d7f0cfd</guid>
-      <description>SF · new_grad · 0d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <title>SpaceX — Software Engineer New Grad - Software</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">6ffffa2b5640e686</guid>
+      <description>Brownsville, TX · new_grad · 18d</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Roblox — [2027] Software Engineer, Early Career</title>
       <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
       <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
       <description>San Mateo, CA, United States · new_grad · 0d</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Software Engineer, Performance, Reliability, Observability, Phd, Early Career</title>
+      <link>https://www.linkedin.com/jobs/view/4321301694</link>
+      <guid isPermaLink="false">7e54160c1e5647ff</guid>
+      <description>Warsaw, Mazowieckie, Poland · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer - Graduate - Sweden</title>
+      <link>https://www.linkedin.com/jobs/view/4404059914</link>
+      <guid isPermaLink="false">c9dc7a83b85efd79</guid>
+      <description>Stockholm, Stockholm County, Sweden · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qualcomm — Graduate Software Engineer – Virtual Platforms - Qualcomm - Cambridge, Uk</title>
+      <link>https://www.linkedin.com/jobs/view/4384258608</link>
+      <guid isPermaLink="false">5ae66dd2edc32716</guid>
+      <description>Cambridge, England, United Kingdom · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Revolut — Graduate Programme 2027: Software Engineer (android)</title>
+      <link>https://www.linkedin.com/jobs/view/4418824830</link>
+      <guid isPermaLink="false">07b8d354b32d62ec</guid>
+      <description>Poland · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Revolut — Graduate Programme 2027: Software Engineer (android)</title>
+      <link>https://www.linkedin.com/jobs/view/4418832558</link>
+      <guid isPermaLink="false">85cd1a9958cbb14d</guid>
+      <description>Porto, Porto, Portugal · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Revolut — Graduate Programme 2027: Software Engineer (android)</title>
+      <link>https://www.linkedin.com/jobs/view/4418832556</link>
+      <guid isPermaLink="false">355e84c88700e0a6</guid>
+      <description>Portugal · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Revolut — Graduate Programme 2027: Software Engineer (android)</title>
+      <link>https://www.linkedin.com/jobs/view/4418844091</link>
+      <guid isPermaLink="false">33d878885055e3d6</guid>
+      <description>Spain · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Revolut — Graduate Programme 2027: Software Engineer (iOS)</title>
+      <link>https://www.linkedin.com/jobs/view/4418822810</link>
+      <guid isPermaLink="false">e2aaedec89245798</guid>
+      <description>Portugal · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Revolut — Graduate Programme 2027: Software Engineer (java)</title>
+      <link>https://www.linkedin.com/jobs/view/4418834450</link>
+      <guid isPermaLink="false">4a081dbee465a891</guid>
+      <description>Portugal · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Applied Machine Learning Production Engineer Graduate (AML-Production Engineer) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7670004502598060341</link>
+      <guid isPermaLink="false">b13a84f1e2940048</guid>
+      <description>San Jose, California · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Large Language Model Inference System Engineer Graduate (Applied Machine Learning) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7667726338627356933</link>
+      <guid isPermaLink="false">bf1435a0179a02d3</guid>
+      <description>San Jose, California · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Large Language Model Training System Engineer Graduate (Applied Machine Learning) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7667685712993650997</link>
+      <guid isPermaLink="false">ea631eb2c97c169b</guid>
+      <description>San Jose, California · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Product Security Engineer Graduate (Security BP) - 2027 Start</title>
+      <link>https://joinbytedance.com/search/7668636404159858997</link>
+      <guid isPermaLink="false">b88405333f7a23e8</guid>
+      <description>San Jose, California · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scale AI — Software Engineer New Grad</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730836005?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">74db64589d7f0cfd</guid>
+      <description>SF · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PayPal — Software Engineer New Grad - Software Engineering</title>
+      <link>https://paypal.eightfold.ai/careers/job/274921995088?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">8a631fa50bb46ba7</guid>
+      <description>Austin, TX San Jose, CA Chicago, IL · new_grad · 1d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Scale AI — Software Engineer - New Grad</title>
       <link>https://job-boards.greenhouse.io/scaleai/jobs/4730836005</link>
       <guid isPermaLink="false">aa7703399fd7c449</guid>
-      <description>San Francisco, CA · new_grad · 1d</description>
+      <description>San Francisco, CA · new_grad · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
       <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 1d</description>
+      <description>Singapore · new_grad · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 1d</description>
+      <description>London · new_grad · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
       <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
-      <description>San Francisco, Seattle, New York · new_grad · 1d</description>
+      <description>San Francisco, Seattle, New York · new_grad · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
       <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 1d</description>
+      <description>Bucharest · new_grad · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
       <guid isPermaLink="false">b836bebf63487343</guid>
-      <description>Dublin · new_grad · 1d</description>
+      <description>Dublin · new_grad · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad - Frontend</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130927</link>
       <guid isPermaLink="false">3f9f51d5ac7367a1</guid>
-      <description>Barcelona · new_grad · 1d</description>
+      <description>Barcelona · new_grad · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -177,91 +184,98 @@
       <title>Stripe — Software Engineer New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8157838&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">bae2b979c3f63eb0</guid>
-      <description>Toronto, ON, Canada · new_grad · 4d</description>
+      <description>Toronto, ON, Canada · new_grad · 5d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Campus Infrastructure Project Manager</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8488317002?gh_jid=8488317002</link>
       <guid isPermaLink="false">e8103c7698c5449a</guid>
-      <description>Bastrop, TX · new_grad · 4d</description>
+      <description>Bastrop, TX · new_grad · 5d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
       <guid isPermaLink="false">c234252785500cdd</guid>
-      <description>Toronto · new_grad · 5d</description>
+      <description>Toronto · new_grad · 6d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Forward Deployed Infrastructure Engineer, New Grad - UK Government</title>
       <link>https://jobs.lever.co/palantir/cadc0eb2-2703-43e4-8e4f-41edf5b071c6</link>
       <guid isPermaLink="false">310f99cb86e254b4</guid>
-      <description>London, United Kingdom · new_grad · 5d</description>
+      <description>London, United Kingdom · new_grad · 6d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Forward Deployed Infrastructure Engineer, New Grad - US Government</title>
       <link>https://jobs.lever.co/palantir/701a9307-0619-45d3-b077-cabe9897cd12</link>
       <guid isPermaLink="false">7c0bdfcac24739ee</guid>
-      <description>Honolulu, HI · new_grad · 5d</description>
+      <description>Honolulu, HI · new_grad · 6d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Google — Software Engineer Early Career - Multiple Teams 🎓</title>
       <link>https://www.google.com/about/careers/applications/jobs/results/84680705375642310?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">5d5f25c8580f62e8</guid>
-      <description>Madison, WI +11 more · new_grad · 12d</description>
+      <description>Madison, WI +11 more · new_grad · 13d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer New Grad - Software - Application Software</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">11e112c948252134</guid>
-      <description>Hawthorne, CA · new_grad · 17d</description>
+      <description>Hawthorne, CA · new_grad · 18d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer - Early Career</title>
       <link>https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">ee8897a5d093e9c4</guid>
-      <description>Vancouver, BC, Canada · new_grad · 21d</description>
+      <description>Vancouver, BC, Canada · new_grad · 22d</description>
       <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Notion — Software Engineer New Grad</title>
       <link>https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816/application?embed=true&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">6152e80b377e626e</guid>
-      <description>SF · new_grad · 21d</description>
+      <description>SF · new_grad · 22d</description>
       <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer New Grad - Software - Starlink</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8696097002?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">95b16b987868ffb2</guid>
-      <description>Bastrop, TX · new_grad · 22d</description>
+      <description>Bastrop, TX · new_grad · 23d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Early Career - 2026</title>
       <link>https://www.amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026</link>
       <guid isPermaLink="false">14cbba0728f5b532</guid>
-      <description>Vancouver, British Columbia, CAN · new_grad · 22d</description>
+      <description>Vancouver, British Columbia, CAN · new_grad · 23d</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Early Career - 2027, Device - Shenzhen</title>
+      <link>https://www.amazon.jobs/en/jobs/10501875/software-development-engineer-early-career-2027-device-shenzhen</link>
+      <guid isPermaLink="false">e5d1b6982e40a8d4</guid>
+      <description>Shenzhen, CHN · new_grad · 23d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Notion — Software Engineer, New Grad (Dec 2026)</title>
       <link>https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816</link>
       <guid isPermaLink="false">f0175b8fe3a4677f</guid>
-      <description>San Francisco, California · new_grad · 22d</description>
+      <description>San Francisco, California · new_grad · 23d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Early Career - 2027, Shanghai</title>
       <link>https://www.amazon.jobs/en/jobs/10496564/software-development-engineer-early-career-2027-shanghai</link>
       <guid isPermaLink="false">8df46c1f6400e8d3</guid>
-      <description>Shanghai, CHN · new_grad · 26d</description>
+      <description>Shanghai, CHN · new_grad · 27d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -275,28 +289,28 @@
       <title>Citadel Securities — Software Engineer – University Graduate</title>
       <link>https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">d530f67da5b76ff6</guid>
-      <description>London, UK · new_grad · 26d</description>
+      <description>London, UK · new_grad · 27d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Backend Inference Runtime Engineer New Grad - AML Inference</title>
       <link>https://jobs.bytedance.com/en/position/7669789046777940229/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">ba35424657a379e0</guid>
-      <description>San Jose, CA · new_grad · 26d</description>
+      <description>San Jose, CA · new_grad · 27d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Software Engineer New Grad - AI Infrastructure-Compute Efficiency &amp; Scheduling</title>
       <link>https://jobs.bytedance.com/en/position/7668799020705679669/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">c5e489e11daa11be</guid>
-      <description>Seattle, WA · new_grad · 26d</description>
+      <description>Seattle, WA · new_grad · 27d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Roblox — Software Engineer - Early Career</title>
       <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">5862cbc805a6aa6d</guid>
-      <description>San Mateo, CA · new_grad · 26d</description>
+      <description>San Mateo, CA · new_grad · 27d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -324,49 +338,49 @@
       <title>Palantir — Forward Deployed Software Engineer, New Grad - Commercial</title>
       <link>https://jobs.lever.co/palantir/341d5cae-a473-4813-9a6c-0f67fcc1b253</link>
       <guid isPermaLink="false">8e50cc8184911607</guid>
-      <description>Seoul, South Korea · new_grad · 26d</description>
+      <description>Seoul, South Korea · new_grad · 27d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Early Career - 2027, Beijing</title>
       <link>https://www.amazon.jobs/en/jobs/10493864/software-development-engineer-early-career-2027-beijing</link>
       <guid isPermaLink="false">237737c2b4f0530d</guid>
-      <description>Beijing, CHN · new_grad · 30d</description>
+      <description>Beijing, CHN · new_grad · 31d</description>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Notion — Software Engineer, Early Career</title>
       <link>https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f</link>
       <guid isPermaLink="false">6b243ba74dcae9ed</guid>
-      <description>San Francisco, California · new_grad · 61d</description>
+      <description>San Francisco, California · new_grad · 62d</description>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Notion — Software Engineer, Early Career (AI)</title>
       <link>https://jobs.ashbyhq.com/notion/85947779-6b87-466a-98bc-30a640448c28</link>
       <guid isPermaLink="false">4b6e2bce6482c557</guid>
-      <description>San Francisco, California · new_grad · 61d</description>
+      <description>San Francisco, California · new_grad · 62d</description>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Forward Deployed Software Engineer, New Grad - Commercial</title>
       <link>https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40</link>
       <guid isPermaLink="false">aae4d037c7c66dff</guid>
-      <description>Chicago, IL · new_grad · 68d</description>
+      <description>Chicago, IL · new_grad · 69d</description>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Forward Deployed Software Engineer, New Grad - Intel, US Government</title>
       <link>https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382</link>
       <guid isPermaLink="false">794a87038ea6fd0d</guid>
-      <description>Washington, D.C. · new_grad · 82d</description>
+      <description>Washington, D.C. · new_grad · 83d</description>
       <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>PayPal — Software Engineer - Recent Graduate</title>
       <link>https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Software-Engineer---Recent-Graduate_R0137237</link>
       <guid isPermaLink="false">30644a2915efeccd</guid>
-      <description>San Jose, California, United States of America +2 more · new_grad · 1d</description>
+      <description>San Jose, California, United States of America +2 more · new_grad · 2d</description>
     </item>
   </channel>
 </rss>
