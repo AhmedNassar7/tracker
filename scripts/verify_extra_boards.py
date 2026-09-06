@@ -66,12 +66,16 @@ TIMEOUT = 15
 # Keep editing the tokens as you learn real ones from "Powered by <ATS>"
 # footers; a bespoke careers site → an aggregate_links.yml row instead.
 MENA_CANDIDATES = [
-    ("lever", "Bosta"),
-    ("ashby", "mercor"),
-    ("ashby", "moneyhash"),
-    ("bamboohr", "instabug"),   # Luciq (ex-Instabug) — Cairo/SF
+    ("lever", "Bosta"),           # ✓ Cairo, added
+    ("lever", "telda"),
+    ("ashby", "mercor"),          # ✓ SF, added
+    ("bamboohr", "instabug"),     # Luciq (ex-Instabug) — Cairo/SF
     ("bamboohr", "swvl"),
     ("bamboohr", "paymob"),
+    ("recruitee", "moneyhash"),   # on Recruitee (0 open when checked)
+    ("pinpoint", "moneyfellows"),
+    ("pinpoint", "careers.moneyfellows.com"),
+    ("pinpoint", "tabby"),
     ("smartrecruiters", "Talabat"),
     ("smartrecruiters", "Noon"),
 ]
@@ -234,12 +238,55 @@ def check_bamboohr(token: str) -> tuple[str, bool]:
     )
 
 
+def check_recruitee(token: str) -> tuple[str, bool]:
+    """Recruitee careers subdomain (e.g. moneyhash.recruitee.com). Public
+    keyless JSON at /api/offers/ — {"offers": [...]}."""
+    status, body = _get(f"https://{token}.recruitee.com/api/offers/")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach {token}.recruitee.com — network/proxy? not a verdict{RESET}", False
+    if status in (403, 404) or not isinstance(body, dict):
+        return f"{RED}✗ no Recruitee board at {token}.recruitee.com ({status}){RESET}", False
+    rows = body.get("offers") or []
+    if not rows:
+        return f"{YELLOW}⚠ valid Recruitee board but 0 offers — do NOT add{RESET}", False
+    return (
+        f"{GREEN}✓ REAL — {token}.recruitee.com, {len(rows)} offers{RESET}\n"
+        + _sample(rows, "title", "location"),
+        True,
+    )
+
+
+def check_pinpoint(token: str) -> tuple[str, bool]:
+    """PinpointHQ. Tries the <token>.pinpointhq.com subdomain and, if the
+    token looks like a full host (has a dot), that host directly — Pinpoint
+    boards are often on a custom domain like careers.<company>.com.
+    JSON at /postings.json — {"data": [...]}."""
+    hosts = [f"{token}.pinpointhq.com"] if "." not in token else [token]
+    for host in hosts:
+        status, body = _get(f"https://{host}/postings.json")
+        if status == -1:
+            return f"{YELLOW}⚠ couldn't reach {host} — network/proxy? not a verdict{RESET}", False
+        if status in (403, 404) or not isinstance(body, dict):
+            continue
+        rows = body.get("data") or body.get("postings") or []
+        if not rows:
+            return f"{YELLOW}⚠ valid Pinpoint board at {host} but 0 postings — do NOT add{RESET}", False
+        return (
+            f"{GREEN}✓ REAL — {host}, {len(rows)} postings{RESET}\n"
+            + _sample(rows, "title", lambda r: (r.get("attributes") or r).get("location_name") or (r.get("attributes") or r).get("location")),
+            True,
+        )
+    return f"{RED}✗ no Pinpoint board for '{token}' (tried {', '.join(h + '/postings.json' for h in hosts)}){RESET}", False
+
+
 CHECKERS = {
     "greenhouse": check_greenhouse,
     "lever": check_lever,
     "ashby": check_ashby,
     "smartrecruiters": check_smartrecruiters,
     "bamboohr": check_bamboohr,
+    "recruitee": check_recruitee,
+    "pinpoint": check_pinpoint,
 }
 
 
