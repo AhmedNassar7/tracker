@@ -110,13 +110,19 @@ lever:
 #    config/aggregate_links.yml instead ("Browse every role at X"), never a
 #    fake posting. Added: Halan (jobs.halan.com, Cairo).
 #
-# 3. On Workable / PinpointHQ / BambooHR / Recruitee  → the pipeline has NO
+# 3. PinpointHQ  → SUPPORTED (fetch_pinpoint_jobs, added 2026-09-06). Add the
+#    board under the `pinpoint:` section below: a bare token becomes
+#    <token>.pinpointhq.com, a token with a dot is used as a full custom host
+#    (e.g. careers.moneyfellows.com). Live: Tabby (Dubai/Riyadh), Money Fellows
+#    (Cairo).
+#
+# 4. On Workable / BambooHR / Recruitee / Freshteam  → the pipeline has NO
 #    fetcher for these yet (Lane M3 / backlog B2), so a token here does
-#    nothing until one is built. verify_extra_boards.py already CONFIRMS them
-#    (2026-09-06: Tabby ✓ 44 postings on pinpointhq, Money Fellows ✓ 8 on
-#    pinpointhq/Cairo, Instabug-"Luciq" ✓ on bamboohr, MoneyHash on recruitee
-#    but 0 open). Use `verify_extra_boards.py --dump pinpoint:tabby` to see
-#    the JSON shape a fetcher must parse.
+#    nothing until one is built. verify_extra_boards.py already CONFIRMS the
+#    first three (2026-09-06: Instabug-"Luciq" ✓ on bamboohr, MoneyHash on
+#    recruitee but 0 open; Breadfast is on Freshteam). Use
+#    `verify_extra_boards.py --dump <platform>:<token>` to see the JSON shape
+#    a fetcher must parse.
 #
 # To check a token:  python scripts/verify_extra_boards.py lever:<Slug>
 # A "⚠ couldn't reach …" line = your network blocked it, NOT a missing board.
