@@ -8,10 +8,11 @@ import {
   type FilterState,
 } from "../lib/filters";
 import { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS } from "../lib/labels";
+import MultiSelect, { type MultiSelectOption } from "./MultiSelect";
 
-// Option lists are built off filters.ts's canonical value arrays (the same
-// ones that validate incoming URL query params) so this UI and that
-// validation can never drift apart — only the display label lives here.
+// The ONE facet surface (Lane H). Option lists come from filters.ts's
+// canonical value arrays (the same ones that validate URL params) so this UI
+// and that validation can't drift; only the display label lives here.
 const KIND_LABELS: Record<string, string> = {
   all: "All",
   job: "Jobs",
@@ -20,29 +21,23 @@ const KIND_LABELS: Record<string, string> = {
 };
 const KIND_TABS = KIND_VALUES.map((value) => ({ value, label: KIND_LABELS[value] }));
 
-// Job-only facets — deliberately just the "available now" fields from the
-// plan's filter taxonomy (level/region/remote_type on every job row already).
-// Company, posted-age, and company-type filters are a fast-follow, not
-// missing by accident. LEVEL_LABELS is shared with GlobalDashboard and
-// OpportunityTable via lib/labels.ts so the wording can't drift.
-const LEVEL_OPTIONS = LEVEL_VALUES.map((value) => ({ value, label: LEVEL_LABELS[value] }));
-
-const REGION_OPTIONS = REGION_VALUES.map((value) => ({ value, label: REGION_LABELS[value] }));
-const REMOTE_OPTIONS = REMOTE_VALUES.map((value) => ({ value, label: REMOTE_LABELS[value] }));
+const LEVEL_OPTIONS: MultiSelectOption[] = LEVEL_VALUES.map((value) => ({ value, label: LEVEL_LABELS[value] }));
+const REGION_OPTIONS: MultiSelectOption[] = REGION_VALUES.map((value) => ({ value, label: REGION_LABELS[value] }));
+const REMOTE_OPTIONS: MultiSelectOption[] = REMOTE_VALUES.map((value) => ({ value, label: REMOTE_LABELS[value] }));
 
 interface Props {
   filters: FilterState;
   onChange: (next: FilterState) => void;
   resultCount: number;
-  // Country has no fixed enum (unlike level/region/remote) — it's whatever
-  // countries actually appear in the loaded data, computed by the caller
-  // from the real dataset. This dropdown only ever offers values that
-  // exist right now, so it can never invent a country with zero postings.
+  // Country / tech have no fixed enum — options are whatever the loaded data
+  // actually contains, computed by the caller.
   availableCountries: string[];
-  // Same idea for B3 tech tags — the caller passes the tags that actually
-  // occur in the loaded data (most-common first), so the dropdown never
-  // lists a tag with zero matching rows.
   availableTags: string[];
+  // Lane H: "Save this filter as my preferences" lives here, next to Clear.
+  hasSavedPrefs: boolean;
+  currentIsSaved: boolean;
+  onSavePrefs: () => void;
+  onClearPrefs: () => void;
 }
 
 export default function FilterBar({
@@ -51,11 +46,17 @@ export default function FilterBar({
   resultCount,
   availableCountries,
   availableTags,
+  hasSavedPrefs,
+  currentIsSaved,
+  onSavePrefs,
+  onClearPrefs,
 }: Props) {
   const set = <K extends keyof FilterState>(key: K, value: FilterState[K]) => {
     onChange({ ...filters, [key]: value });
   };
   const toggleFlag = (key: "visa" | "nodegree") => set(key, filters[key] === "yes" ? "" : "yes");
+  const countryOptions: MultiSelectOption[] = availableCountries.map((c) => ({ value: c, label: c }));
+  const tagOptions: MultiSelectOption[] = availableTags.map((t) => ({ value: t, label: t }));
 
   return (
     <div className="mb-6 space-y-3">
@@ -78,93 +79,26 @@ export default function FilterBar({
         ))}
       </div>
 
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="flex flex-wrap items-center gap-2">
         <input
           type="search"
           value={filters.q}
           onChange={(e) => set("q", e.target.value)}
-          placeholder="Search company or title…"
-          aria-label="Search company or title"
-          className="w-full max-w-xs rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-900 focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 sm:w-64"
+          placeholder="Search company, title, or place…"
+          aria-label="Search company, title, or place"
+          className="w-full max-w-xs rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-900 focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 sm:w-56"
         />
 
-        <select
-          value={filters.level}
-          onChange={(e) => set("level", e.target.value)}
-          aria-label="Filter by level"
-          className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
-        >
-          <option value="">Any level</option>
-          {LEVEL_OPTIONS.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
-
-        <select
-          value={filters.region}
-          onChange={(e) => set("region", e.target.value)}
-          aria-label="Filter by region"
-          className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
-        >
-          <option value="">Any region</option>
-          {REGION_OPTIONS.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
-
-        <select
-          value={filters.remote}
-          onChange={(e) => set("remote", e.target.value)}
-          aria-label="Filter by work type"
-          className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
-        >
-          <option value="">Any work type</option>
-          {REMOTE_OPTIONS.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
-
-        {availableCountries.length > 0 && (
-          <select
-            value={filters.country}
-            onChange={(e) => set("country", e.target.value)}
-            aria-label="Filter by country"
-            className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
-          >
-            <option value="">Any country</option>
-            {availableCountries.map((country) => (
-              <option key={country} value={country}>
-                {country}
-              </option>
-            ))}
-          </select>
+        <MultiSelect label="Level" options={LEVEL_OPTIONS} selected={filters.levels} onChange={(v) => set("levels", v)} />
+        <MultiSelect label="Region" options={REGION_OPTIONS} selected={filters.regions} onChange={(v) => set("regions", v)} />
+        <MultiSelect label="Work type" options={REMOTE_OPTIONS} selected={filters.remotes} onChange={(v) => set("remotes", v)} />
+        {countryOptions.length > 0 && (
+          <MultiSelect label="Country" options={countryOptions} selected={filters.countries} onChange={(v) => set("countries", v)} searchable />
+        )}
+        {tagOptions.length > 0 && (
+          <MultiSelect label="Tech" options={tagOptions} selected={filters.tags} onChange={(v) => set("tags", v)} searchable />
         )}
 
-        {availableTags.length > 0 && (
-          <select
-            value={filters.tag}
-            onChange={(e) => set("tag", e.target.value)}
-            aria-label="Filter by tech / skill"
-            className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
-          >
-            <option value="">Any tech</option>
-            {availableTags.map((tag) => (
-              <option key={tag} value={tag}>
-                {tag}
-              </option>
-            ))}
-          </select>
-        )}
-
-        {/* B4 — explicit-only facet toggles. "on" ⇒ the posting text said so;
-            a silent posting is never a match, so there's deliberately no
-            "no visa" / "degree required" state to offer here. */}
         <button
           type="button"
           onClick={() => toggleFlag("visa")}
@@ -193,18 +127,44 @@ export default function FilterBar({
         >
           No degree required
         </button>
+      </div>
 
+      <div className="flex flex-wrap items-center gap-3 text-sm">
         {hasActiveFilters(filters) && (
+          <>
+            <button
+              type="button"
+              onClick={() => onChange(DEFAULT_FILTERS)}
+              className="text-slate-500 underline-offset-2 hover:text-slate-700 hover:underline dark:text-slate-400 dark:hover:text-slate-200"
+            >
+              Clear filters
+            </button>
+            <button
+              type="button"
+              onClick={onSavePrefs}
+              disabled={currentIsSaved}
+              title="Rank future visits to match this filter, and use it for alerts"
+              className={
+                "rounded-md border px-2.5 py-1 text-xs font-medium transition-colors " +
+                (currentIsSaved
+                  ? "cursor-default border-slate-200 text-slate-400 dark:border-slate-700 dark:text-slate-500"
+                  : "border-teal-600 text-teal-700 hover:bg-teal-50 dark:border-teal-500 dark:text-teal-300 dark:hover:bg-teal-950")
+              }
+            >
+              {currentIsSaved ? "★ Saved as your preferences" : hasSavedPrefs ? "★ Update your preferences" : "★ Save as my preferences"}
+            </button>
+          </>
+        )}
+        {hasSavedPrefs && (
           <button
             type="button"
-            onClick={() => onChange(DEFAULT_FILTERS)}
-            className="text-sm text-slate-500 underline-offset-2 hover:text-slate-700 hover:underline dark:text-slate-400 dark:hover:text-slate-200"
+            onClick={onClearPrefs}
+            className="text-slate-400 underline-offset-2 hover:text-slate-600 hover:underline dark:text-slate-500 dark:hover:text-slate-300"
           >
-            Clear filters
+            Forget my preferences
           </button>
         )}
-
-        <span className="ml-auto text-sm text-slate-500 dark:text-slate-400">
+        <span className="ml-auto text-slate-500 dark:text-slate-400">
           {resultCount.toLocaleString()} result{resultCount === 1 ? "" : "s"}
         </span>
       </div>

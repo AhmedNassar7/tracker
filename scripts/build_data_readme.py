@@ -1143,7 +1143,7 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
                 detail += f" · {'up' if pct > 0 else 'down'} {abs(pct)}% this month"
         cards.append({
             "id": "internships", "title": "Internships", "detail": detail,
-            "filter": {"kind": "job", "level": "internship"},
+            "filter": {"kind": "job", "levels": ["internship"]},
         })
 
     # 3 — the companies posting the most right now.
@@ -1164,7 +1164,7 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
             detail = f"Most roles in {_REGION_PHRASE[regions[0]]}"
         cards.append({
             "id": "geography", "title": "Where the roles are", "detail": detail,
-            "filter": {"kind": "job", "region": regions[0]},
+            "filter": {"kind": "job", "regions": [regions[0]]},
         })
 
     # 5 — remote share (only if there's room after the four above).
@@ -1174,7 +1174,7 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
         pct = round(remote_by["remote"] / remote_total * 100)
         cards.append({
             "id": "remote-share", "title": "Remote", "detail": f"{pct}% of roles are fully remote",
-            "filter": {"kind": "job", "remote": "remote"},
+            "filter": {"kind": "job", "remotes": ["remote"]},
         })
 
     cards = cards[:4]

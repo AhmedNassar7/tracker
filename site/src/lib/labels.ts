@@ -63,6 +63,20 @@ export function formatRelativeTime(iso: string | undefined | null): string {
   return `${Math.round(hours / 24)}d ago`;
 }
 
+/** "5d" / "3mo" / "2yrs" from a raw age like "5d" / "101d" — same magnitude
+ *  buckets as scripts/build_data_readme.py's format_age(), so the site and the
+ *  README show a listing's age the same way. Unparseable ⇒ returned as-is. */
+export function formatAge(age: string | undefined | null): string {
+  const a = (age || "").trim().toLowerCase();
+  let days: number;
+  if (/^\d+d$/.test(a)) days = parseInt(a, 10);
+  else if (/^\d+mo$/.test(a)) days = parseInt(a, 10) * 30;
+  else return a || "—";
+  if (days < 30) return `${days}d`;
+  if (days < 365) return `${Math.floor(days / 30)}mo`;
+  return `${Math.floor(days / 365)}yrs`;
+}
+
 const SALARY_SYMBOLS: Record<string, string> = { USD: "$", EUR: "€", GBP: "£", INR: "₹" };
 const SALARY_PERIOD_SUFFIX: Record<string, string> = { year: "/yr", month: "/mo", hour: "/hr" };
 

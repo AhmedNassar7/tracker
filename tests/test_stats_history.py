@@ -221,13 +221,13 @@ def main():
         "internships pct",
         "125 internships open" in by_id["internships"]["detail"]
         and "up 25% this month" in by_id["internships"]["detail"]
-        and by_id["internships"]["filter"] == {"kind": "job", "level": "internship"},
+        and by_id["internships"]["filter"] == {"kind": "job", "levels": ["internship"]},
         details=str(by_id.get("internships")),
     ))
     run("build_story_cards: geography card uses region phrases and skips remote/unknown", lambda: check(
         "geography",
         by_id["geography"]["detail"] == "Most roles in the US, then Europe"
-        and by_id["geography"]["filter"] == {"kind": "job", "region": "us"},
+        and by_id["geography"]["filter"] == {"kind": "job", "regions": ["us"]},
     ))
     run("build_story_cards: top-companies card lists the top 3 by count", lambda: check(
         "top companies",

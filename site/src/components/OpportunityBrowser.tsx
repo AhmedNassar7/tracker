@@ -10,21 +10,33 @@ import {
 } from "../lib/filters";
 import { listApplications, STATUS_LABELS, trackApplication, untrackApplication, type TrackedApplication } from "../lib/tracker";
 import {
-  hasPreferences,
+  clearPrefFilter,
+  contradictsPrefFilter,
+  filtersEqual,
   isExcluded,
   matchReasons,
-  readPreferences,
+  prefFilterIsMeaningful,
+  readPrefFilter,
+  readRankTune,
   readSortMode,
   scoreOpportunity,
-  writePreferences,
+  writePrefFilter,
+  writeRankTune,
   writeSortMode,
-  type Preferences,
+  type RankTune,
   type SortMode,
 } from "../lib/preferences";
 import type { SiteIndex, SiteIndexEntry, StoryCard } from "../lib/types";
 import { companyTier } from "../lib/companyTiers";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import Pagination from "./Pagination";
+import BrowseEveryRole from "./BrowseEveryRole";
+import StoryStrip from "./StoryStrip";
+import FilterBar from "./FilterBar";
+import OpportunityTable from "./OpportunityTable";
+import SavedSearches from "./SavedSearches";
+import SkeletonTable from "./SkeletonTable";
+import SnapshotHero from "./SnapshotHero";
 
 function ageToDays(age: string): number {
   const a = (age || "").trim().toLowerCase();
@@ -34,14 +46,6 @@ function ageToDays(age: string): number {
   if ((m = a.match(/^(\d+)yrs?$/))) return +m[1] * 365;
   return Number.MAX_SAFE_INTEGER;
 }
-import BrowseEveryRole from "./BrowseEveryRole";
-import StoryStrip from "./StoryStrip";
-import FilterBar from "./FilterBar";
-import OpportunityTable from "./OpportunityTable";
-import PreferencesPanel from "./PreferencesPanel";
-import SavedSearches from "./SavedSearches";
-import SkeletonTable from "./SkeletonTable";
-import SnapshotHero from "./SnapshotHero";
 
 type LoadState =
   | { status: "loading" }
@@ -50,20 +54,20 @@ type LoadState =
 
 const PAGE_SIZE = 50;
 
+const SORT_META: Record<SortMode, { label: string; hint: string }> = {
+  tier: { label: "Top companies", hint: "Best-known companies first (FAANG → big-tech → …)." },
+  newest: { label: "Newest", hint: "Most recently posted first." },
+  relevance: { label: "Relevance", hint: "Ranked to match the filter you saved as your preferences." },
+};
+
 function formatGeneratedAt(iso: string): string {
   try {
-    return new Date(iso).toLocaleString(undefined, {
-      dateStyle: "medium",
-      timeStyle: "short",
-    });
+    return new Date(iso).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
   } catch {
     return iso;
   }
 }
 
-// Astro renders this island with no server-side URL to read, so filters
-// start at the default and get replaced by whatever's in the address bar
-// on mount (client-only, matches how the data fetch itself already works).
 function readFiltersFromLocation(): FilterState {
   if (typeof window === "undefined") return DEFAULT_FILTERS;
   return filtersFromSearchParams(new URLSearchParams(window.location.search));
@@ -71,12 +75,6 @@ function readFiltersFromLocation(): FilterState {
 
 export default function OpportunityBrowser() {
   const [state, setState] = useState<LoadState>({ status: "loading" });
-  // Lazy initializer, not a post-mount effect: reading the URL synchronously
-  // on the first render (both the server-rendered pass, where the window
-  // guard falls back to defaults, and the client hydration pass) avoids a
-  // render where filters are briefly the defaults — which would otherwise
-  // race the URL-sync effect below into clobbering a real incoming query
-  // string with an empty one for one commit before self-correcting.
   const [filters, setFilters] = useState<FilterState>(() => readFiltersFromLocation());
   const [page, setPage] = useState(1);
   const [trackedApps, setTrackedApps] = useState<Map<string, TrackedApplication>>(new Map());
@@ -84,21 +82,43 @@ export default function OpportunityBrowser() {
   const [lastVisitAt, setLastVisitAt] = useState<string | null>(null);
   const [showOnlyNew, setShowOnlyNew] = useState(false);
   const [bannerDismissed, setBannerDismissed] = useState(false);
-  const [prefs, setPrefs] = useState<Preferences>(() => readPreferences());
-  const [sortMode, setSortMode] = useState<SortMode>(() => readSortMode());
-  // D1 — auto-generated story cards. Non-critical: a fetch failure (older
-  // deploy without the file) just leaves the strip unrendered.
   const [storyCards, setStoryCards] = useState<StoryCard[]>([]);
 
-  const updatePrefs = (next: Preferences) => {
-    setPrefs(next);
-    writePreferences(next);
-  };
+  // Lane H — "preferences" is a saved FilterState; `rankTune` are the two
+  // ranking-only knobs (keyword boost, exclude companies).
+  const [prefFilter, setPrefFilter] = useState<FilterState | null>(() => readPrefFilter());
+  const [rankTune, setRankTune] = useState<RankTune>(() => readRankTune());
+  const [sortMode, setSortMode] = useState<SortMode>(() => {
+    const chosen = readSortMode();
+    if (chosen) return chosen;
+    return prefFilterIsMeaningful(readPrefFilter()) ? "relevance" : "tier";
+  });
+  const [showLessRelevant, setShowLessRelevant] = useState(false);
+
+  const hasSavedPrefs = prefFilterIsMeaningful(prefFilter);
+  const relevanceActive = sortMode === "relevance" && hasSavedPrefs && !!prefFilter;
+  const currentIsSaved = !!prefFilter && filtersEqual(filters, prefFilter);
+
   const updateSortMode = (mode: SortMode) => {
     setSortMode(mode);
     writeSortMode(mode);
   };
-  const matchActive = sortMode === "match" && hasPreferences(prefs);
+  const handleSavePrefs = () => {
+    setPrefFilter(filters);
+    writePrefFilter(filters);
+    // First time you save preferences, show what they do — flip to Relevance
+    // unless you'd already deliberately picked another sort.
+    if (!readSortMode()) updateSortMode("relevance");
+  };
+  const handleClearPrefs = () => {
+    clearPrefFilter();
+    setPrefFilter(null);
+    if (sortMode === "relevance") updateSortMode("tier");
+  };
+  const updateRankTune = (next: RankTune) => {
+    setRankTune(next);
+    writeRankTune(next);
+  };
 
   useEffect(() => {
     let cancelled = false;
@@ -106,17 +126,6 @@ export default function OpportunityBrowser() {
       .then((data) => {
         if (cancelled) return;
         setState({ status: "loaded", data });
-
-        // A prior visit (`at !== null`) is what makes "new" a meaningful
-        // signal — on the very first-ever visit, everything is trivially
-        // "new" against an empty baseline, which isn't useful information
-        // and would just be noise. Compare, then immediately re-baseline
-        // to this visit's full id set, so a same-session reload correctly
-        // shows zero new (already seen) rather than re-flagging the same
-        // items — the same behavior an inbox's "unread" count has.
-        // "New since your last visit" is about opportunities, not the fixed
-        // set of aggregate-links board rows — exclude kind:"board" from both
-        // the diff and the stored baseline.
         const opps = data.items.filter((item) => item.kind !== "board");
         const lastVisit = readLastVisit();
         if (lastVisit.at !== null) {
@@ -128,10 +137,7 @@ export default function OpportunityBrowser() {
       })
       .catch((err: unknown) => {
         if (!cancelled) {
-          setState({
-            status: "error",
-            message: err instanceof Error ? err.message : "Unknown error",
-          });
+          setState({ status: "error", message: err instanceof Error ? err.message : "Unknown error" });
         }
       });
     return () => {
@@ -156,7 +162,7 @@ export default function OpportunityBrowser() {
         if (!cancelled) setStoryCards(Array.isArray(data.cards) ? data.cards : []);
       })
       .catch(() => {
-        /* no story-cards.json yet — the strip just stays hidden */
+        /* no story-cards.json yet — the strip stays hidden */
       });
     return () => {
       cancelled = true;
@@ -165,18 +171,6 @@ export default function OpportunityBrowser() {
 
   const trackedIds = useMemo(() => new Set(trackedApps.keys()), [trackedApps]);
 
-  // Optimistic: the toggle updates on-screen state immediately, then fires
-  // the IndexedDB write. A failure there is exceedingly unlikely at this
-  // data size (no realistic quota pressure) and not worth blocking a click
-  // on — this mirrors how the rest of the site treats local storage as
-  // reliable-by-default.
-  //
-  // Un-tracking here calls the same delete this table's star button always
-  // has — but by the time someone has moved a bookmark to "Interview" and
-  // added notes on the /applications page, clicking the same star back on
-  // this listings page would silently destroy that history with no warning
-  // otherwise. Confirm only in that case; a plain bookmark toggle (still
-  // "bookmarked" status, no notes) stays a single frictionless click.
   function handleToggleTrack(item: SiteIndexEntry) {
     const existing = trackedApps.get(item.id);
     if (existing) {
@@ -217,35 +211,22 @@ export default function OpportunityBrowser() {
     }
   }
 
-  // A hero stat-chip click replaces the filter set with just that facet
-  // (plus resets any "only new" narrowing), so the list jumps straight to
-  // what the chip counts. Merges onto DEFAULT_FILTERS, not the current
-  // filters, so it's a clean pivot rather than an additive narrowing.
   function handleQuickFilter(patch: Partial<FilterState>) {
     setShowOnlyNew(false);
     setFilters({ ...DEFAULT_FILTERS, ...patch });
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  // replaceState, not pushState — a filtered view is still a link someone
-  // can copy and share, but adjusting a dropdown shouldn't spam the
-  // browser's back-button history with every keystroke.
   useEffect(() => {
     const query = searchParamsFromFilters(filters).toString();
     const next = query ? `${window.location.pathname}?${query}` : window.location.pathname;
     window.history.replaceState(null, "", next);
   }, [filters]);
 
-  // Any change that reshuffles or refilters the list sends the reader back
-  // to page 1 — landing on "page 7 of 3" after tightening a filter is
-  // disorienting.
   useEffect(() => {
     setPage(1);
-  }, [filters, sortMode, showOnlyNew, prefs]);
+  }, [filters, sortMode, showOnlyNew, rankTune, showLessRelevant]);
 
-  // kind:"board" rows (config/aggregate_links.yml) are not opportunities —
-  // they're rendered by <BrowseEveryRole> and kept out of the list, the
-  // counts, the hero, and the filter facets entirely.
   const opportunityItems = useMemo(
     () => (state.status === "loaded" ? state.data.items.filter((i) => i.kind !== "board") : []),
     [state],
@@ -255,52 +236,73 @@ export default function OpportunityBrowser() {
     [state],
   );
 
-  const filteredItems = useMemo(() => {
-    if (state.status !== "loaded") return [];
+  // The list, before the Relevance "less relevant" partition. `lessRelevant`
+  // is only ever non-empty in Relevance sort.
+  const { primary, lessRelevant } = useMemo(() => {
+    if (state.status !== "loaded") return { primary: [] as SiteIndexEntry[], lessRelevant: [] as SiteIndexEntry[] };
     let items = applyFilters(opportunityItems, filters);
     if (showOnlyNew) items = items.filter((item) => newIds.has(item.id));
-    // "Companies to hide" is a hard preference — applied in either sort mode.
-    if (prefs.excludeCompanies.length > 0) items = items.filter((item) => !isExcluded(item, prefs));
-    if (matchActive) {
-      // Stable re-sort by fit score; applyFilters already returned them in
-      // the pipeline's newest-first order, which stays as the tiebreak.
-      items = items
-        .map((item, i) => ({ item, i, score: scoreOpportunity(item, prefs) }))
-        .sort((a, b) => b.score - a.score || a.i - b.i)
-        .map((entry) => entry.item);
-    } else if (sortMode === "tier") {
-      // Best-known companies first (FAANG → big-tech → …). Within a tier, all
-      // of one company's roles stay together as a block, blocks ordered by
-      // the company's freshest posting, each block newest-first — so the list
-      // reads "Google (5), then Amazon (3), …" instead of interleaving them.
+    if (rankTune.excludeCompanies.length > 0) items = items.filter((item) => !isExcluded(item, rankTune));
+
+    if (relevanceActive && prefFilter) {
       const decorated = items.map((item, i) => ({
         item,
         i,
-        tier: companyTier(item.company),
-        company: (item.company || "").toLowerCase(),
-        age: ageToDays(item.age),
+        score: scoreOpportunity(item, prefFilter, rankTune),
+        contradicts: contradictsPrefFilter(item, prefFilter),
       }));
-      const freshestByCompany = new Map<string, number>();
-      for (const d of decorated) {
-        const k = `${d.tier} ${d.company}`;
-        if (d.age < (freshestByCompany.get(k) ?? Infinity)) freshestByCompany.set(k, d.age);
-      }
-      items = decorated
-        .sort((a, b) => {
-          const ka = `${a.tier} ${a.company}`;
-          const kb = `${b.tier} ${b.company}`;
-          return (
-            a.tier - b.tier ||
-            (freshestByCompany.get(ka)! - freshestByCompany.get(kb)!) ||
-            a.company.localeCompare(b.company) ||
-            a.age - b.age ||
-            a.i - b.i
-          );
-        })
-        .map((entry) => entry.item);
+      const byScore = (a: (typeof decorated)[number], b: (typeof decorated)[number]) => b.score - a.score || a.i - b.i;
+      const matched = decorated.filter((d) => !d.contradicts).sort(byScore).map((d) => d.item);
+      const contra = decorated.filter((d) => d.contradicts).sort(byScore).map((d) => d.item);
+      return { primary: matched, lessRelevant: contra };
     }
-    return items;
-  }, [state, opportunityItems, filters, showOnlyNew, newIds, prefs, matchActive, sortMode]);
+
+    if (sortMode === "newest") {
+      items = items
+        .map((item, i) => ({ item, i, age: ageToDays(item.age) }))
+        .sort(
+          (a, b) =>
+            a.age - b.age ||
+            (a.item.company || "").localeCompare(b.item.company || "") ||
+            a.i - b.i,
+        )
+        .map((e) => e.item);
+      return { primary: items, lessRelevant: [] };
+    }
+
+    // "Top companies" (tier) — the neutral default.
+    const decorated = items.map((item, i) => ({
+      item,
+      i,
+      tier: companyTier(item.company),
+      company: (item.company || "").toLowerCase(),
+      age: ageToDays(item.age),
+    }));
+    const freshestByCompany = new Map<string, number>();
+    for (const d of decorated) {
+      const k = `${d.tier} ${d.company}`;
+      if (d.age < (freshestByCompany.get(k) ?? Infinity)) freshestByCompany.set(k, d.age);
+    }
+    items = decorated
+      .sort((a, b) => {
+        const ka = `${a.tier} ${a.company}`;
+        const kb = `${b.tier} ${b.company}`;
+        return (
+          a.tier - b.tier ||
+          freshestByCompany.get(ka)! - freshestByCompany.get(kb)! ||
+          a.company.localeCompare(b.company) ||
+          a.age - b.age ||
+          a.i - b.i
+        );
+      })
+      .map((e) => e.item);
+    return { primary: items, lessRelevant: [] };
+  }, [state, opportunityItems, filters, showOnlyNew, newIds, rankTune, relevanceActive, prefFilter, sortMode]);
+
+  const filteredItems = useMemo(
+    () => (showLessRelevant ? [...primary, ...lessRelevant] : primary),
+    [primary, lessRelevant, showLessRelevant],
+  );
 
   const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
@@ -308,36 +310,24 @@ export default function OpportunityBrowser() {
   const visibleItems = filteredItems.slice(pageStart, pageStart + PAGE_SIZE);
 
   const reasonsById = useMemo(() => {
-    if (!matchActive) return undefined;
+    if (!relevanceActive || !prefFilter) return undefined;
     const map = new Map<string, string[]>();
     for (const item of visibleItems) {
-      const r = matchReasons(item, prefs);
+      const r = matchReasons(item, prefFilter, rankTune);
       if (r.length > 0) map.set(item.id, r);
     }
     return map;
-  }, [matchActive, visibleItems, prefs]);
+  }, [relevanceActive, prefFilter, rankTune, visibleItems]);
 
-  // Country has no fixed enum (curated-layer only, free-form per
-  // job-entry.schema.json) — the filter dropdown is populated from
-  // whatever countries actually exist in the loaded data, so it always
-  // reflects real coverage and never lists a country with zero postings.
   const availableCountries = useMemo(() => {
     const countries = new Set<string>();
-    for (const item of opportunityItems) {
-      if (item.country) countries.add(item.country);
-    }
+    for (const item of opportunityItems) if (item.country) countries.add(item.country);
     return [...countries].sort((a, b) => a.localeCompare(b));
   }, [opportunityItems]);
 
-  // B3 — tech tags that actually occur, most-common first so the dropdown
-  // leads with the useful ones; capped so a long tail of one-off tags
-  // doesn't bloat the control. Only a subset of sources carry a description,
-  // so this list can legitimately be short or empty.
   const availableTags = useMemo(() => {
     const counts = new Map<string, number>();
-    for (const item of opportunityItems) {
-      for (const tag of item.tech_tags ?? []) counts.set(tag, (counts.get(tag) ?? 0) + 1);
-    }
+    for (const item of opportunityItems) for (const tag of item.tech_tags ?? []) counts.set(tag, (counts.get(tag) ?? 0) + 1);
     return [...counts.entries()]
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .slice(0, 40)
@@ -352,10 +342,7 @@ export default function OpportunityBrowser() {
     return (
       <p className="py-10 text-center text-red-600 dark:text-red-400">
         Couldn't load listings right now ({state.message}). Try refreshing, or browse{" "}
-        <a
-          className="underline"
-          href="https://github.com/AhmedNassar7/tracker/blob/main/data/README.md"
-        >
+        <a className="underline" href="https://github.com/AhmedNassar7/tracker/blob/main/data/README.md">
           data/README.md
         </a>{" "}
         directly.
@@ -401,9 +388,6 @@ export default function OpportunityBrowser() {
             type="button"
             onClick={() => {
               setBannerDismissed(true);
-              // Dismissing hides the "Show only new" toggle along with it —
-              // reset so dismissing never leaves the list silently stuck
-              // filtered to new-only with no visible way to undo it.
               setShowOnlyNew(false);
             }}
             className="ml-auto text-teal-700 hover:text-teal-900 dark:text-teal-300 dark:hover:text-teal-100"
@@ -414,15 +398,12 @@ export default function OpportunityBrowser() {
         </div>
       )}
 
-      <PreferencesPanel prefs={prefs} onChange={updatePrefs} />
-
-      <div className="mb-4 flex items-center gap-2">
+      <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-2">
         <span className="text-xs font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">Sort</span>
         <div className="inline-flex overflow-hidden rounded-md border border-slate-200 text-sm dark:border-slate-700">
-          {(["tier", "newest", "match"] as const).map((mode) => {
-            const disabled = mode === "match" && !hasPreferences(prefs);
+          {(["tier", "newest", "relevance"] as const).map((mode) => {
+            const disabled = mode === "relevance" && !hasSavedPrefs;
             const active = sortMode === mode;
-            const label = mode === "tier" ? "Top companies" : mode === "newest" ? "Newest" : "Best match";
             return (
               <button
                 key={mode}
@@ -430,7 +411,7 @@ export default function OpportunityBrowser() {
                 disabled={disabled}
                 onClick={() => updateSortMode(mode)}
                 aria-pressed={active}
-                title={disabled ? "Set at least one preference above to rank by fit" : undefined}
+                title={disabled ? "Save a filter as your preferences first" : SORT_META[mode].hint}
                 className={
                   "px-3 py-1 font-medium transition-colors " +
                   (active
@@ -440,11 +421,50 @@ export default function OpportunityBrowser() {
                       : "text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-900")
                 }
               >
-                {label}
+                {SORT_META[mode].label}
               </button>
             );
           })}
         </div>
+        <span className="text-xs text-slate-400 dark:text-slate-500">{SORT_META[sortMode].hint}</span>
+
+        {relevanceActive && (
+          <details className="relative ml-auto text-sm">
+            <summary className="cursor-pointer list-none rounded-md border border-slate-200 px-2.5 py-1 text-xs text-slate-500 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-900">
+              Tune ranking
+            </summary>
+            <div className="absolute right-0 z-20 mt-1 w-64 space-y-2 rounded-md border border-slate-200 bg-white p-3 shadow-lg dark:border-slate-700 dark:bg-slate-900">
+              <label className="block text-xs text-slate-500 dark:text-slate-400">
+                Boost keywords (comma-separated)
+                <input
+                  type="text"
+                  defaultValue={rankTune.keywords.join(", ")}
+                  onBlur={(e) =>
+                    updateRankTune({
+                      ...rankTune,
+                      keywords: e.target.value.split(",").map((s) => s.trim()).filter(Boolean),
+                    })
+                  }
+                  className="mt-1 w-full rounded border border-slate-300 bg-white px-2 py-1 text-sm text-slate-900 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                />
+              </label>
+              <label className="block text-xs text-slate-500 dark:text-slate-400">
+                Hide companies (comma-separated)
+                <input
+                  type="text"
+                  defaultValue={rankTune.excludeCompanies.join(", ")}
+                  onBlur={(e) =>
+                    updateRankTune({
+                      ...rankTune,
+                      excludeCompanies: e.target.value.split(",").map((s) => s.trim().toLowerCase()).filter(Boolean),
+                    })
+                  }
+                  className="mt-1 w-full rounded border border-slate-300 bg-white px-2 py-1 text-sm text-slate-900 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                />
+              </label>
+            </div>
+          </details>
+        )}
       </div>
 
       <SavedSearches filters={filters} onApply={setFilters} />
@@ -452,19 +472,20 @@ export default function OpportunityBrowser() {
       <FilterBar
         filters={filters}
         onChange={setFilters}
-        resultCount={filteredItems.length}
+        resultCount={primary.length}
         availableCountries={availableCountries}
         availableTags={availableTags}
+        hasSavedPrefs={hasSavedPrefs}
+        currentIsSaved={currentIsSaved}
+        onSavePrefs={handleSavePrefs}
+        onClearPrefs={handleClearPrefs}
       />
 
-      {/* Aggregate-links lane — only alongside jobs (a board isn't a
-          hackathon or an event), and it ignores every filter but the search
-          box since a board carries no level/region/etc. of its own. */}
       {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && (
         <BrowseEveryRole boards={boardItems} query={filters.q} />
       )}
 
-      {filteredItems.length === 0 ? (
+      {filteredItems.length === 0 && lessRelevant.length === 0 ? (
         <div className="py-12 text-center">
           <p className="text-slate-600 dark:text-slate-300">
             {showOnlyNew
@@ -509,9 +530,18 @@ export default function OpportunityBrowser() {
             onToggleTrack={handleToggleTrack}
             matchReasons={reasonsById}
           />
-          {totalPages > 1 && (
-            <Pagination page={safePage} totalPages={totalPages} onChange={goToPage} />
+          {relevanceActive && lessRelevant.length > 0 && (
+            <button
+              type="button"
+              onClick={() => setShowLessRelevant((v) => !v)}
+              className="mt-3 w-full rounded-md border border-dashed border-slate-300 py-2 text-center text-sm text-slate-500 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-900"
+            >
+              {showLessRelevant
+                ? `Hide ${lessRelevant.length.toLocaleString()} less-relevant role${lessRelevant.length === 1 ? "" : "s"}`
+                : `${lessRelevant.length.toLocaleString()} less-relevant role${lessRelevant.length === 1 ? "" : "s"} (don't match your saved level/kind) — show anyway`}
+            </button>
           )}
+          {totalPages > 1 && <Pagination page={safePage} totalPages={totalPages} onChange={goToPage} />}
         </>
       )}
     </div>

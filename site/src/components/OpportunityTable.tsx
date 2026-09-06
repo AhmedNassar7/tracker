@@ -1,7 +1,7 @@
 import BookmarkButton from "./BookmarkButton";
 import CompanyAvatar from "./CompanyAvatar";
 import { BASE_URL } from "../lib/basePath";
-import { formatLevel, formatRelativeTime, formatSalaryShort, prettifyCompany } from "../lib/labels";
+import { formatAge, formatLevel, formatRelativeTime, formatSalaryShort, prettifyCompany } from "../lib/labels";
 import type { SiteIndexEntry } from "../lib/types";
 
 const MAX_TECH_CHIPS = 4;
@@ -168,7 +168,16 @@ export default function OpportunityTable({
             <th className="px-3 py-2">Kind</th>
             {hasJobs && <th className="px-3 py-2">Level</th>}
             <th className="px-3 py-2">Location</th>
-            <th className="px-3 py-2">{lastColLabel}</th>
+            <th
+              className="px-3 py-2"
+              title={
+                hasJobs
+                  ? "How long ago this listing was first seen here (community-tracker rows can pre-date this — the original posting may be older)"
+                  : "Time until the deadline"
+              }
+            >
+              {lastColLabel}
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -250,7 +259,7 @@ export default function OpportunityTable({
                 </td>
               )}
               <td className="px-3 py-2 text-slate-500 dark:text-slate-400"><LocationCell item={item} /></td>
-              <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{item.age || "—"}</td>
+              <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{formatAge(item.age)}</td>
             </tr>
             );
           })}

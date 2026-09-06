@@ -22,7 +22,7 @@
     },
     "filter": {
       "type": "object",
-      "description": "A partial site FilterState the client applies (via handleQuickFilter) when the card is clicked — e.g. {\"kind\":\"job\",\"level\":\"internship\"}. {} means 'just scroll to the list'. Values mirror config/site-index.json's enums; nested types aren't checked by the dependency-free validator"
+      "description": "A partial site FilterState the client applies (via handleQuickFilter) when the card is clicked — e.g. {\"kind\":\"job\",\"levels\":[\"internship\"]}. {} means 'just scroll to the list'. `kind` is a string; the multi-value facets (levels/regions/remotes/countries/tags) are string[]. Values mirror config/site-index.json's enums; nested types aren't checked by the dependency-free validator"
     }
   },
   "additionalProperties": false

@@ -43,9 +43,9 @@ export default function SnapshotHero({ items, generatedAt, onQuickFilter }: Prop
       total: items.length,
       postedToday: count((i) => i.kind === "job" && i.age === "0d"),
       chips: [
-        { label: "Internships", value: count((i) => i.kind === "job" && i.level === "internship"), patch: { kind: "job", level: "internship" } },
-        { label: "New-grad", value: count((i) => i.kind === "job" && i.level === "new_grad"), patch: { kind: "job", level: "new_grad" } },
-        { label: "Remote", value: count((i) => i.remote_type === "remote"), patch: { kind: "job", remote: "remote" } },
+        { label: "Internships", value: count((i) => i.kind === "job" && i.level === "internship"), patch: { kind: "job", levels: ["internship"] } },
+        { label: "New-grad", value: count((i) => i.kind === "job" && i.level === "new_grad"), patch: { kind: "job", levels: ["new_grad"] } },
+        { label: "Remote", value: count((i) => i.remote_type === "remote"), patch: { kind: "job", remotes: ["remote"] } },
         { label: "Hackathons", value: count((i) => i.kind === "hackathon"), patch: { kind: "hackathon" } },
       ] as { label: string; value: number; patch: Partial<FilterState> }[],
     };

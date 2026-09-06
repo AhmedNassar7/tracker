@@ -132,13 +132,14 @@ export interface StatsHistory {
 }
 
 // Mirrors config/story-cards.schema.json. `filter` is a partial FilterState
-// (kept as a loose string map here so this file needn't import filters.ts,
-// which imports this one) the client applies on click; {} = jump to the list.
+// (a loose map here so this file needn't import filters.ts, which imports
+// this one) the client applies on click; {} = jump to the list. Values are a
+// string (kind) or a string[] (the array facets — levels/regions/…).
 export interface StoryCard {
   id: string;
   title: string;
   detail: string;
-  filter: Record<string, string>;
+  filter: Record<string, string | string[]>;
 }
 
 export interface StoryCards {
