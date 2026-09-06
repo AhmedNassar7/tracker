@@ -200,7 +200,11 @@ def main():
     # ---- detect_country / country_flag ------------------------------------
     def _country_basic():
         check("dubai -> UAE", p.detect_country("Dubai, United Arab Emirates") == "United Arab Emirates")
-        check("cairo -> Egypt", p.detect_country("Cairo, Egypt") == "Egypt")
+        check("new cairo -> Egypt", p.detect_country("New Cairo, Egypt") == "Egypt")
+        check("riyadh -> Saudi Arabia", p.detect_country("Riyadh") == "Saudi Arabia")
+        check("ramallah -> Palestine", p.detect_country("Ramallah, West Bank") == "Palestine")
+        check("baghdad -> Iraq", p.detect_country("Baghdad") == "Iraq")
+        check("algiers -> Algeria", p.detect_country("Algiers, Algeria") == "Algeria")
         check("bengaluru -> India", p.detect_country("Bengaluru, KA") == "India")
         check("sao paulo -> Brazil", p.detect_country("São Paulo, Brazil") == "Brazil")
         check("singapore -> Singapore", p.detect_country("Singapore") == "Singapore")
@@ -208,9 +212,18 @@ def main():
         check("nonsense -> Unknown", p.detect_country("The Moon") == "Unknown")
     run("detect_country: MENA / APAC / LATAM now covered", _country_basic)
 
+    def _region_mena():
+        check("cairo -> mena region", p.detect_region("Cairo, Egypt") == "mena")
+        check("baghdad -> mena region", p.detect_region("Baghdad, Iraq") == "mena")
+        check("neom -> mena region", p.detect_region("NEOM, Saudi Arabia") == "mena")
+        check("berlin -> emea region (not mena)", p.detect_region("Berlin, Germany") == "emea")
+    run("detect_region: Gulf / North Africa resolve to 'mena', not 'emea'/'unknown'", _region_mena)
+
     def _country_flag():
         check("UAE flag", p.country_flag("United Arab Emirates") == "\U0001F1E6\U0001F1EA")
         check("US flag", p.country_flag("United States") == "\U0001F1FA\U0001F1F8")
+        check("Egypt flag", p.country_flag("Egypt") == "\U0001F1EA\U0001F1EC")
+        check("Palestine flag", p.country_flag("Palestine") == "\U0001F1F5\U0001F1F8")
         check("Remote has no flag", p.country_flag("Remote") == "")
         check("Unknown has no flag", p.country_flag("Unknown") == "")
         check("unmapped has no flag", p.country_flag("Narnia") == "")

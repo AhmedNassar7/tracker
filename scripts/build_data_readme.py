@@ -1146,12 +1146,12 @@ def build_story_cards(history: dict, now_iso: str) -> dict:
             "filter": {"kind": "job", "levels": ["internship"]},
         })
 
-    # 3 — the companies posting the most right now.
-    top = list((dims.get("top_companies") or {}).items())[:3]
+    # 3 — the companies posting the most right now (card click filters to them).
+    top = [name for name, _ in list((dims.get("top_companies") or {}).items())[:3]]
     if top:
         cards.append({
             "id": "top-companies", "title": "Hiring most this week",
-            "detail": ", ".join(name for name, _ in top), "filter": {},
+            "detail": ", ".join(top), "filter": {"kind": "job", "companies": top},
         })
 
     # 4 — where the roles are (by region, skipping remote/unknown).

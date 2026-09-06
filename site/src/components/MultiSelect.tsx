@@ -40,11 +40,21 @@ export default function MultiSelect({ label, options, selected, onChange, search
     };
   }, [open]);
 
-  const visible = useMemo(() => {
+  // Cap what actually gets rendered — a company list can be 600+ entries;
+  // showing them all on open janks, and nobody scrolls a list that long.
+  // Selected values always show; otherwise the first RENDER_CAP matches.
+  const RENDER_CAP = 200;
+  const { visible, hiddenCount } = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return options;
-    return options.filter((o) => o.label.toLowerCase().includes(q) || o.value.toLowerCase().includes(q));
-  }, [options, query]);
+    const matches = q
+      ? options.filter((o) => o.label.toLowerCase().includes(q) || o.value.toLowerCase().includes(q))
+      : options;
+    const selectedSet = new Set(selected);
+    const picked = matches.filter((o) => selectedSet.has(o.value));
+    const rest = matches.filter((o) => !selectedSet.has(o.value));
+    const shownRest = rest.slice(0, Math.max(0, RENDER_CAP - picked.length));
+    return { visible: [...picked, ...shownRest], hiddenCount: rest.length - shownRest.length };
+  }, [options, query, selected]);
 
   const toggle = (value: string) => {
     onChange(selected.includes(value) ? selected.filter((v) => v !== value) : [...selected, value]);
@@ -104,7 +114,8 @@ export default function MultiSelect({ label, options, selected, onChange, search
           {visible.length === 0 ? (
             <p className="px-2 py-1 text-xs text-slate-400">No matches</p>
           ) : (
-            visible.map((opt) => (
+            <>
+            {visible.map((opt) => (
               <label
                 key={opt.value}
                 className="flex cursor-pointer items-center gap-2 rounded px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800"
@@ -117,7 +128,13 @@ export default function MultiSelect({ label, options, selected, onChange, search
                 />
                 {opt.label}
               </label>
-            ))
+            ))}
+            {hiddenCount > 0 && (
+              <p className="px-2 py-1 text-xs text-slate-400">
+                +{hiddenCount.toLocaleString()} more — keep typing to narrow
+              </p>
+            )}
+            </>
           )}
         </div>
       )}

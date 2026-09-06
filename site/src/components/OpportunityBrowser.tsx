@@ -325,6 +325,14 @@ export default function OpportunityBrowser() {
     return [...countries].sort((a, b) => a.localeCompare(b));
   }, [opportunityItems]);
 
+  // Every company in the loaded data, alphabetical — the MultiSelect caps its
+  // own render and has a search box, so a long list is fine.
+  const availableCompanies = useMemo(() => {
+    const companies = new Set<string>();
+    for (const item of opportunityItems) if (item.company) companies.add(item.company);
+    return [...companies].sort((a, b) => a.localeCompare(b));
+  }, [opportunityItems]);
+
   const availableTags = useMemo(() => {
     const counts = new Map<string, number>();
     for (const item of opportunityItems) for (const tag of item.tech_tags ?? []) counts.set(tag, (counts.get(tag) ?? 0) + 1);
@@ -474,6 +482,7 @@ export default function OpportunityBrowser() {
         onChange={setFilters}
         resultCount={primary.length}
         availableCountries={availableCountries}
+        availableCompanies={availableCompanies}
         availableTags={availableTags}
         hasSavedPrefs={hasSavedPrefs}
         currentIsSaved={currentIsSaved}

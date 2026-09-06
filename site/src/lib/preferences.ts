@@ -45,11 +45,11 @@ export function readPrefFilter(): FilterState | null {
       regions: normalizeList(parsed.regions),
       remotes: normalizeList(parsed.remotes),
       countries: normalizeList(parsed.countries),
+      companies: normalizeList(parsed.companies),
       tags: normalizeList(parsed.tags),
       q: typeof parsed.q === "string" ? parsed.q : "",
       kind: parsed.kind ?? "all",
       visa: parsed.visa === "yes" ? "yes" : "",
-      nodegree: parsed.nodegree === "yes" ? "yes" : "",
     };
   } catch {
     return null;
@@ -82,11 +82,11 @@ export function prefFilterIsMeaningful(f: FilterState | null): boolean {
     f.q.trim() !== "" ||
     f.kind !== "all" ||
     f.visa === "yes" ||
-    f.nodegree === "yes" ||
     f.levels.length > 0 ||
     f.regions.length > 0 ||
     f.remotes.length > 0 ||
     f.countries.length > 0 ||
+    f.companies.length > 0 ||
     f.tags.length > 0
   );
 }
@@ -99,11 +99,11 @@ export function filtersEqual(a: FilterState, b: FilterState): boolean {
     a.q.trim() === b.q.trim() &&
     a.kind === b.kind &&
     a.visa === b.visa &&
-    a.nodegree === b.nodegree &&
     sameArr(a.levels, b.levels) &&
     sameArr(a.regions, b.regions) &&
     sameArr(a.remotes, b.remotes) &&
     sameArr(a.countries, b.countries) &&
+    sameArr(a.companies, b.companies) &&
     sameArr(a.tags, b.tags)
   );
 }
@@ -186,6 +186,7 @@ export function scoreOpportunity(item: SiteIndexEntry, pref: FilterState, tune: 
   if (pref.regions.length > 0 && item.region && pref.regions.includes(item.region)) score += 2;
   if (pref.remotes.length > 0 && item.remote_type && pref.remotes.includes(item.remote_type)) score += 2;
   if (pref.countries.length > 0 && item.country && pref.countries.includes(item.country)) score += 2;
+  if (pref.companies.length > 0 && pref.companies.includes(item.company)) score += 3;
   if (pref.tags.length > 0) {
     const tags = item.tech_tags ?? [];
     for (const t of pref.tags) if (tags.includes(t)) score += 1;
@@ -208,6 +209,7 @@ export function matchReasons(item: SiteIndexEntry, pref: FilterState, tune: Rank
   if (pref.regions.length > 0 && item.region && pref.regions.includes(item.region)) reasons.push(item.region.toUpperCase());
   if (pref.remotes.length > 0 && item.remote_type && pref.remotes.includes(item.remote_type)) reasons.push(item.remote_type);
   if (pref.countries.length > 0 && item.country && pref.countries.includes(item.country)) reasons.push(item.country);
+  if (pref.companies.length > 0 && pref.companies.includes(item.company)) reasons.push(item.company);
   if (pref.tags.length > 0) {
     const tags = item.tech_tags ?? [];
     for (const t of pref.tags) if (tags.includes(t)) reasons.push(t);

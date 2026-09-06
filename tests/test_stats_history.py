@@ -229,9 +229,10 @@ def main():
         by_id["geography"]["detail"] == "Most roles in the US, then Europe"
         and by_id["geography"]["filter"] == {"kind": "job", "regions": ["us"]},
     ))
-    run("build_story_cards: top-companies card lists the top 3 by count", lambda: check(
+    run("build_story_cards: top-companies card lists the top 3 and filters to them", lambda: check(
         "top companies",
-        by_id["top-companies"]["detail"] == "Amazon, Google, Meta",
+        by_id["top-companies"]["detail"] == "Amazon, Google, Meta"
+        and by_id["top-companies"]["filter"] == {"kind": "job", "companies": ["Amazon", "Google", "Meta"]},
     ))
     run("build_story_cards: no dimensioned snapshot → no cards, no crash", lambda: check(
         "empty history",

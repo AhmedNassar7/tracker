@@ -34,15 +34,15 @@ FETCH_REGION_MAP = {
     # main sub-Saharan tech hubs) because the region's employers — Careem,
     # Tamara, Thndr, Jumia, Flutterwave, Paystack — span all of it.
     "mena": re.compile(
-        r"\b(mena|menat|gcc|middle east|gulf|"
-        r"uae|united arab emirates|dubai|abu dhabi|sharjah|"
-        r"saudi|saudi arabia|riyadh|jeddah|dammam|khobar|"
+        r"\b(mena|menat|gcc|middle east|gulf|north africa|"
+        r"uae|u\.a\.e\.?|united arab emirates|dubai|abu dhabi|sharjah|ajman|difc|"
+        r"saudi|saudi arabia|ksa|riyadh|jeddah|jiddah|dammam|khobar|dhahran|neom|"
         r"qatar|doha|kuwait|bahrain|manama|oman|muscat|"
-        r"jordan|amman|lebanon|beirut|"
-        r"israel|tel aviv|jerusalem|herzliya|"
-        r"egypt|cairo|alexandria|giza|"
-        r"morocco|casablanca|rabat|tunisia|tunis|"
-        r"turkey|istanbul|ankara|"
+        r"jordan|amman|lebanon|beirut|palestine|ramallah|gaza|iraq|baghdad|erbil|"
+        r"israel|tel aviv|jerusalem|herzliya|haifa|yokneam|"
+        r"egypt|cairo|alexandria|giza|maadi|"
+        r"morocco|casablanca|rabat|marrakech|algeria|algiers|tunisia|tunis|"
+        r"turkey|t[üu]rkiye|istanbul|ankara|izmir|"
         r"nigeria|lagos|abuja|kenya|nairobi|ghana|accra|"
         r"south africa|johannesburg|cape town|pretoria)\b",
         re.I,
@@ -72,18 +72,21 @@ FETCH_COUNTRY_MARK_MAP = [
     (re.compile(r"\b(portugal|lisbon|porto)\b", re.I), "Portugal"),
     (re.compile(r"\b(switzerland|zurich|geneva)\b", re.I), "Switzerland"),
     (re.compile(r"\b(poland|warsaw|krakow)\b", re.I), "Poland"),
-    (re.compile(r"\b(united arab emirates|uae|dubai|abu dhabi|sharjah)\b", re.I), "United Arab Emirates"),
-    (re.compile(r"\b(saudi|saudi arabia|riyadh|jeddah|dammam|khobar)\b", re.I), "Saudi Arabia"),
+    (re.compile(r"\b(united arab emirates|u\.a\.e\.?|uae|dubai|abu dhabi|sharjah|ajman|ras al khaimah|difc)\b", re.I), "United Arab Emirates"),
+    (re.compile(r"\b(saudi|saudi arabia|ksa|riyadh|jeddah|jiddah|dammam|khobar|dhahran|mecca|makkah|medina|madinah|neom)\b", re.I), "Saudi Arabia"),
     (re.compile(r"\b(qatar|doha)\b", re.I), "Qatar"),
     (re.compile(r"\b(kuwait)\b", re.I), "Kuwait"),
     (re.compile(r"\b(bahrain|manama)\b", re.I), "Bahrain"),
     (re.compile(r"\b(oman|muscat)\b", re.I), "Oman"),
     (re.compile(r"\b(jordan|amman)\b", re.I), "Jordan"),
     (re.compile(r"\b(lebanon|beirut)\b", re.I), "Lebanon"),
-    (re.compile(r"\b(israel|tel aviv|jerusalem|herzliya)\b", re.I), "Israel"),
-    (re.compile(r"\b(egypt|cairo|alexandria|giza)\b", re.I), "Egypt"),
-    (re.compile(r"\b(morocco|casablanca|rabat)\b", re.I), "Morocco"),
-    (re.compile(r"\b(turkey|istanbul|ankara)\b", re.I), "Turkey"),
+    (re.compile(r"\b(palestine|ramallah|gaza|nablus|west bank)\b", re.I), "Palestine"),
+    (re.compile(r"\b(iraq|baghdad|erbil|basra)\b", re.I), "Iraq"),
+    (re.compile(r"\b(israel|tel aviv|jerusalem|herzliya|haifa|yokneam)\b", re.I), "Israel"),
+    (re.compile(r"\b(egypt|cairo|new cairo|alexandria|giza|maadi|smart village|6th of october|sheikh zayed)\b", re.I), "Egypt"),
+    (re.compile(r"\b(morocco|casablanca|rabat|marrakech|marrakesh|tangier)\b", re.I), "Morocco"),
+    (re.compile(r"\b(algeria|algiers|oran)\b", re.I), "Algeria"),
+    (re.compile(r"\b(turkey|t[üu]rkiye|istanbul|ankara|izmir)\b", re.I), "Turkey"),
     (re.compile(r"\b(nigeria|lagos|abuja)\b", re.I), "Nigeria"),
     (re.compile(r"\b(kenya|nairobi|mombasa)\b", re.I), "Kenya"),
     (re.compile(r"\b(ghana|accra)\b", re.I), "Ghana"),
@@ -238,8 +241,8 @@ _COUNTRY_ISO2 = {
     "Greece": "GR", "Hungary": "HU", "Ukraine": "UA",
     "United Arab Emirates": "AE", "Saudi Arabia": "SA", "Qatar": "QA",
     "Kuwait": "KW", "Bahrain": "BH", "Oman": "OM", "Jordan": "JO",
-    "Lebanon": "LB", "Israel": "IL", "Egypt": "EG", "Morocco": "MA",
-    "Tunisia": "TN", "Turkey": "TR",
+    "Lebanon": "LB", "Palestine": "PS", "Iraq": "IQ", "Israel": "IL",
+    "Egypt": "EG", "Morocco": "MA", "Algeria": "DZ", "Tunisia": "TN", "Turkey": "TR",
     "Nigeria": "NG", "Kenya": "KE", "Ghana": "GH", "South Africa": "ZA",
     "India": "IN", "Pakistan": "PK", "Bangladesh": "BD", "Singapore": "SG",
     "Japan": "JP", "South Korea": "KR", "China": "CN", "Hong Kong": "HK",

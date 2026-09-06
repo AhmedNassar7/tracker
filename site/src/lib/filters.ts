@@ -2,8 +2,8 @@ import type { Level, Region, RemoteType, SiteIndexEntry, SiteIndexKind } from ".
 
 // The filter bar is the ONE place facets live (Lane H). Every multi-value
 // facet is a string[] — empty array = "don't filter on this". `kind` stays
-// single (it's the tab row); `q` is free text; `visa`/`nodegree` are
-// explicit-only flags ("" | "yes").
+// single (it's the tab row); `q` is free text; `visa` is an explicit-only
+// flag ("" | "yes").
 export interface FilterState {
   q: string;
   kind: SiteIndexKind | "all";
@@ -11,12 +11,13 @@ export interface FilterState {
   regions: string[];
   remotes: string[];
   countries: string[];
+  companies: string[];
   tags: string[];
-  // B4 — "yes" ⇒ only postings that *explicitly* offer visa sponsorship /
-  // *explicitly* say no degree is required. No "no" option: a silent posting
-  // isn't a match either way.
+  // B4 — "yes" ⇒ only postings that *explicitly* offer visa sponsorship. No
+  // "no" option: a silent posting isn't a match either way. (A "no degree
+  // required" filter existed here too and was removed as low-value clutter;
+  // the `degree_required` signal is still detected and shown as a chip.)
   visa: string;
-  nodegree: string;
 }
 
 export const DEFAULT_FILTERS: FilterState = {
@@ -26,9 +27,9 @@ export const DEFAULT_FILTERS: FilterState = {
   regions: [],
   remotes: [],
   countries: [],
+  companies: [],
   tags: [],
   visa: "",
-  nodegree: "",
 };
 
 // Single source of truth for what each facet may legally hold — used to
@@ -50,7 +51,7 @@ export const FACET_FLAG_VALUES: readonly string[] = ["yes"];
 
 // The FilterState keys that are string[] facets — iterated by the URL
 // (de)serializer and by hasActiveFilters so adding a facet is one line.
-export const ARRAY_FACET_KEYS = ["levels", "regions", "remotes", "countries", "tags"] as const;
+export const ARRAY_FACET_KEYS = ["levels", "regions", "remotes", "countries", "companies", "tags"] as const;
 type ArrayFacetKey = (typeof ARRAY_FACET_KEYS)[number];
 
 // URL param name per FilterState key. Arrays serialize as a comma-joined
@@ -62,9 +63,9 @@ const PARAM_KEYS: Record<keyof FilterState, string> = {
   regions: "regions",
   remotes: "remote",
   countries: "country",
+  companies: "company",
   tags: "tag",
   visa: "visa",
-  nodegree: "nodegree",
 };
 
 // Fixed-enum facets get their incoming values filtered to the known set, so
@@ -100,11 +101,18 @@ function pickValid(raw: string | null, valid: readonly string[], fallback: strin
 }
 
 export function filtersFromSearchParams(params: URLSearchParams): FilterState {
-  const next: FilterState = { ...DEFAULT_FILTERS, levels: [], regions: [], remotes: [], countries: [], tags: [] };
+  const next: FilterState = {
+    ...DEFAULT_FILTERS,
+    levels: [],
+    regions: [],
+    remotes: [],
+    countries: [],
+    companies: [],
+    tags: [],
+  };
   next.q = params.get(PARAM_KEYS.q) ?? "";
   next.kind = pickValid(params.get(PARAM_KEYS.kind), KIND_VALUES, DEFAULT_FILTERS.kind) as FilterState["kind"];
   next.visa = pickValid(params.get(PARAM_KEYS.visa), FACET_FLAG_VALUES, "");
-  next.nodegree = pickValid(params.get(PARAM_KEYS.nodegree), FACET_FLAG_VALUES, "");
   for (const key of ARRAY_FACET_KEYS) {
     next[key] = splitParam(params.get(PARAM_KEYS[key]), ENUM_FOR_FACET[key]);
   }
@@ -117,7 +125,6 @@ export function searchParamsFromFilters(filters: FilterState): URLSearchParams {
   if (filters.q) params.set(PARAM_KEYS.q, filters.q);
   if (filters.kind !== DEFAULT_FILTERS.kind) params.set(PARAM_KEYS.kind, filters.kind);
   if (filters.visa) params.set(PARAM_KEYS.visa, filters.visa);
-  if (filters.nodegree) params.set(PARAM_KEYS.nodegree, filters.nodegree);
   for (const key of ARRAY_FACET_KEYS) {
     if (filters[key].length > 0) params.set(PARAM_KEYS[key], filters[key].join(","));
   }
@@ -132,13 +139,13 @@ export function applyFilters(items: SiteIndexEntry[], filters: FilterState): Sit
     if (filters.regions.length > 0 && !(item.region && filters.regions.includes(item.region))) return false;
     if (filters.remotes.length > 0 && !(item.remote_type && filters.remotes.includes(item.remote_type))) return false;
     if (filters.countries.length > 0 && !(item.country && filters.countries.includes(item.country))) return false;
+    if (filters.companies.length > 0 && !filters.companies.includes(item.company)) return false;
     if (filters.tags.length > 0) {
       const tags = item.tech_tags ?? [];
       if (!filters.tags.some((t) => tags.includes(t))) return false;
     }
     // `=== true` / `=== false` (not truthy) so a silent posting is excluded.
     if (filters.visa === "yes" && item.visa_sponsorship !== true) return false;
-    if (filters.nodegree === "yes" && item.degree_required !== false) return false;
     if (q && !`${item.company} ${item.title} ${item.location}`.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -149,7 +156,6 @@ export function hasActiveFilters(filters: FilterState): boolean {
     filters.q !== "" ||
     filters.kind !== "all" ||
     filters.visa !== "" ||
-    filters.nodegree !== "" ||
     ARRAY_FACET_KEYS.some((k) => filters[k].length > 0)
   );
 }

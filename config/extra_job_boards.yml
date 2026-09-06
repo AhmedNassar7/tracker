@@ -93,6 +93,27 @@ lever:
   - paytm
   - dlocal
 
+# ---------------------------------------------------------------------------
+# MENA / Gulf / North Africa focus (Lane M) — CANDIDATES, NOT YET VERIFIED.
+#
+# These are regional tech employers that plausibly run a public board on one
+# of the platforms above. DO NOT uncomment a line until you've confirmed a
+# real, non-empty jobs response by hand (the curl commands at the top of this
+# file). The board token guess is in parentheses. Move a verified one up into
+# the right section with a "# verified <date>, N postings incl. <city>" note.
+#
+#   greenhouse candidates: swvl (swvl) · paymob (paymob) · moneyhash (moneyhash)
+#     · instabug (instabug) · rasan (rasan) · foodics (foodics) · nana (nanadirect)
+#     · unifonic (unifonic) · zid (zid) · salla (salla) · lean (leantech)
+#     · sary (sary) · tabby (tabby) · mamo (mamopay) · huspy (huspy)
+#     · nawy (nawy) · sylndr (sylndr) · telda (telda) · bosta (bosta)
+#   lever candidates: halan / mnt-halan (mnthalan) · trella (trella)
+#   ashby candidates: telda · money-hash · nawy   (Ashby 404s an invalid token,
+#     so these are the safest to check: curl https://api.ashbyhq.com/posting-api/job-board/<token>)
+#   Workable is huge in the Egyptian startup scene (elmenus, breadfast, rabbit,
+#     …) but there's no Workable fetcher yet — see §3A / backlog B2.
+# ---------------------------------------------------------------------------
+
 workday:
   # Big global employers whose careers site is Workday but who never get
   # auto-discovered because no curated source links a *.myworkdayjobs.com URL
