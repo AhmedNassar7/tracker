@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T21:20:00Z",
-  "total": 2687,
+  "generated_at": "2026-09-06T23:53:54Z",
+  "total": 2691,
   "jobs": [
     {
       "id": "fc12a85f892dc2bb",
@@ -110,6 +110,62 @@
       ]
     },
     {
+      "id": "492749abf319269f",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Specialist Solutions Architect - Cloud Infrastructure & Platform (AWS)",
+      "location": "United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-09-06",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "SQL"
+      ],
+      "salary": {
+        "min": 180000,
+        "max": 247500,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "8064e7a50a658583",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Specialist Solutions Architect - Cloud Infrastructure & Platform (Azure)",
+      "location": "United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-09-06",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "SQL"
+      ],
+      "salary": {
+        "min": 180000,
+        "max": 247500,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "6227199fd2d2f425",
       "kind": "job",
       "company": "Databricks",
@@ -187,6 +243,21 @@
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
     },
     {
+      "id": "254e6f6b9015e05f",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Principal Block and File Storage Software Engineer, Linux - DGX Cloud",
+      "location": "US, CA, Santa Clara",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Block-File-Storage-Software-Engineer--Linux---DGX-Cloud_JR2024421",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "c3713a1ca8334239",
       "kind": "job",
       "company": "NVIDIA",
@@ -202,6 +273,51 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "598cd19403111616",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Principal Software Engineer, E2E Performance and Goodput — CSP Engagements",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, OR, Remote<br>US, CA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--E2E-Performance-and-Goodput---CSP-Engagements_JR2020321",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "49e30c2abab1080f",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Principal Software Engineer, GPU Firmware and GPU System Software — CSP Engagements",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, OR, Remote<br>US, CA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--GPU-Firmware-and-GPU-System-Software---CSP-Engagements_JR2020319",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "19a883cd43918f82",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Principal Software Engineer, Rack-Scale System Software — CSP Engagements",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, OR, Remote<br>US, CA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "40918f8191b8b6d3",
       "kind": "job",
       "company": "NVIDIA",
@@ -213,6 +329,36 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "ce8f4252148fa9c3",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Platform Engineer, Network Infrastructure - DGX Cloud",
+      "location": "<details><summary><strong>6 locations</strong></summary>US, CA, Santa Clara<br>US, IL, Remote<br>US, WA, Remote<br>US, Remote<br>US, CA, Remote<br>US, MA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "89c12652afdf6d81",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer - Manufacturing and Factory",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, Remote<br>US, NC, Durham<br>US, WA, Redmond</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Manufacturing-and-Factory_JR2020348-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -243,6 +389,36 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "9fb930e8e8ad5fcf",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - Scientific Computing PaaS",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Scientific-Computing-PaaS_JR2024331",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "9245920daa8db653",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer, Compute Stack Acceleration",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Santa Clara<br>US, NC, Remote<br>US, TX, Remote<br>US, CA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -3068,21 +3244,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "a8688b1105af4ea0",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Infrastructure Tool Development Intern - 2027",
-      "location": "China, Shanghai",
-      "level": "internship",
-      "region": "apac",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Infrastructure-Tool-Development-Intern---2027_JR2025040",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -5954,36 +6115,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "5041b0a91be2ea71",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Staff Software Engineer - Agentic Automation",
-      "location": "US, CA, Santa Clara",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer---Agentic-Automation_JR2024734",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "91d400d3392cac3b",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior System Software Engineer, Software Defined Networking",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, CA, Remote</details>",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Engineer-System-Software--SDN-Operations_JR2023005",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -10518,6 +10649,21 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
+      "id": "068beb9c9acb53eb",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer",
+      "location": "Pune, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-289523",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
       "id": "a37641f25aff562b",
       "kind": "job",
       "company": "Mastercard",
@@ -12365,62 +12511,6 @@
       "salary": {
         "min": 136300,
         "max": 187450,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "492749abf319269f",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Specialist Solutions Architect - Cloud Infrastructure & Platform (AWS)",
-      "location": "United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "4d",
-      "posted_at": "2026-09-02",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Terraform",
-        "AWS",
-        "Azure",
-        "SQL"
-      ],
-      "salary": {
-        "min": 180000,
-        "max": 247500,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "8064e7a50a658583",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Specialist Solutions Architect - Cloud Infrastructure & Platform (Azure)",
-      "location": "United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "4d",
-      "posted_at": "2026-09-02",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Terraform",
-        "AWS",
-        "Azure",
-        "SQL"
-      ],
-      "salary": {
-        "min": 180000,
-        "max": 247500,
         "currency": "USD",
         "period": "year"
       }
@@ -59025,6 +59115,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "25ae2513702e4db3",
+      "kind": "hackathon",
+      "company": "CAST-GNY",
+      "title": "CAST-GNY Startup Pitch Competition 2026",
+      "location": "Fordham University School of Law",
+      "date": "13 days left",
+      "posted_at": "2026-09-06",
+      "url": "https://castgnypitch2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "8902011d35216ef4",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -59035,18 +59137,6 @@
       "url": "https://avalon-openhack.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "25ae2513702e4db3",
-      "kind": "hackathon",
-      "company": "CAST-GNY",
-      "title": "CAST-GNY Startup Pitch Competition 2026",
-      "location": "Fordham University School of Law",
-      "date": "14 days left",
-      "posted_at": "2026-09-06",
-      "url": "https://castgnypitch2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "84fd0eca7466b4a1",
@@ -59337,6 +59427,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "9129d48f2f05dc09",
+      "kind": "hackathon",
+      "company": "Next Byte Hacks",
+      "title": "Next Byte Hacks: V4",
+      "location": "Online",
+      "date": "24 days left",
+      "posted_at": "2026-09-06",
+      "url": "https://next-byte-hacks-v4.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "37b6bc24041cc8fd",
       "kind": "hackathon",
       "company": "RevenueCat",
@@ -59357,18 +59459,6 @@
       "date": "25 days left",
       "posted_at": "2026-09-06",
       "url": "https://gatewayhacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "9129d48f2f05dc09",
-      "kind": "hackathon",
-      "company": "Next Byte Hacks",
-      "title": "Next Byte Hacks: V4",
-      "location": "Online",
-      "date": "25 days left",
-      "posted_at": "2026-09-06",
-      "url": "https://next-byte-hacks-v4.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -59649,18 +59739,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "cd94b21915749388",
-      "kind": "hackathon",
-      "company": "agent orchestrator",
-      "title": "Syndicate by Maximor",
-      "location": "Online",
-      "date": "40 minutes left",
-      "posted_at": "2026-09-06",
-      "url": "https://syndicate-by-maximor.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "570ae57fd3b08049",
       "kind": "hackathon",
       "company": "Amazon",
@@ -59709,18 +59787,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "ab97437af1dd4509",
-      "kind": "hackathon",
-      "company": "Emerald Parents",
-      "title": "SafeHack",
-      "location": "DigiPen Institute of Technology",
-      "date": "11 minutes left",
-      "posted_at": "2026-09-06",
-      "url": "https://emp-hackfest-summer-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "e05011afa745f5ba",
       "kind": "hackathon",
       "company": "Galuxium",
@@ -59729,6 +59795,18 @@
       "date": "about 2 months left",
       "posted_at": "2026-09-06",
       "url": "https://galuxium-nexus-v2-29411.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "a1b0841eccae8d89",
+      "kind": "hackathon",
+      "company": "Hack Club",
+      "title": "Graphiques Innovation Challenge",
+      "location": "Online",
+      "date": "about 23 hours left",
+      "posted_at": "2026-09-06",
+      "url": "https://graphiques-challenge.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -59813,18 +59891,6 @@
       "date": "about 2 months left",
       "posted_at": "2026-09-06",
       "url": "https://next-gen-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "38c0c0ba6ef4f288",
-      "kind": "hackathon",
-      "company": "shrimat koti",
-      "title": "Coppell hackathon 1",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-09-06",
-      "url": "https://fintech-hackothon-1.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },

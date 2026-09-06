@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T21:21:26Z",
+  "updated_at": "2026-09-06T23:57:05Z",
   "retention_days": 90,
   "snapshots": [
     {
@@ -4187,6 +4187,130 @@
         "top_companies": {
           "Amazon": 828,
           "SpaceX": 342,
+          "Databricks": 185,
+          "Okta": 113,
+          "OpenAI": 109,
+          "Elastic": 108,
+          "Anthropic": 107,
+          "Roblox": 105,
+          "Coupang": 95,
+          "Stripe": 94,
+          "Snowflake": 68,
+          "Coinbase": 58,
+          "MongoDB": 58,
+          "Reddit": 48,
+          "ClickHouse": 46,
+          "Scale AI": 46,
+          "Robinhood": 45,
+          "Palantir": 41,
+          "Cloudflare": 40,
+          "Pinterest": 39
+        }
+      }
+    },
+    {
+      "at": "2026-09-06T23:57:05Z",
+      "curated_roles": 996,
+      "public_opportunities": 2691,
+      "jobs_total": 3302,
+      "hackathons_total": 96,
+      "events_total": 10,
+      "total_items": 3408,
+      "level_counts": {
+        "internship": 128,
+        "early_career": 60,
+        "mid_level": 3114
+      },
+      "dimensions": {
+        "by_level": {
+          "unknown": 668,
+          "internship": 119,
+          "mid_level": 1737,
+          "new_grad": 50,
+          "entry_level": 7,
+          "other": 709,
+          "junior": 2
+        },
+        "by_region": {
+          "apac": 388,
+          "europe": 384,
+          "north_america": 1804,
+          "unknown": 414,
+          "remote": 253,
+          "latam": 24,
+          "mena": 25
+        },
+        "by_remote_type": {
+          "onsite": 938,
+          "remote": 1,
+          "unknown": 2353
+        },
+        "by_role_type": {
+          "other_swe": 763,
+          "security": 25,
+          "software_engineer": 1240,
+          "machine_learning": 26,
+          "mobile": 120,
+          "platform": 339,
+          "infrastructure": 343,
+          "backend": 218,
+          "full_stack": 166,
+          "frontend": 52
+        },
+        "by_category": {
+          "faang": 840,
+          "big_tech": 9,
+          "product_saas": 14,
+          "ai_research": 4,
+          "fintech": 16,
+          "apac_tech": 26,
+          "more_global_tech": 13,
+          "consulting_finance": 7,
+          "microsoft_group": 10,
+          "uncategorized": 2353
+        },
+        "by_country": {
+          "United States": 1714,
+          "Unknown": 510,
+          "India": 295,
+          "Canada": 229,
+          "United Kingdom": 93,
+          "Ireland": 77,
+          "South Korea": 43,
+          "Spain": 33,
+          "Poland": 31,
+          "Germany": 29,
+          "Singapore": 20,
+          "Portugal": 19,
+          "Brazil": 16,
+          "France": 15,
+          "Greece": 13
+        },
+        "by_source": {
+          "amazon": 819,
+          "greenhouse:spacex": 339,
+          "greenhouse:databricks": 185,
+          "greenhouse:okta": 113,
+          "ashby:openai": 109,
+          "greenhouse:elastic": 108,
+          "greenhouse:anthropic": 107,
+          "greenhouse:roblox": 102,
+          "greenhouse:coupang": 95,
+          "greenhouse:stripe": 90,
+          "ashby:snowflake": 68,
+          "greenhouse:coinbase": 58,
+          "greenhouse:mongodb": 58,
+          "greenhouse:reddit": 48,
+          "ashby:clickhouse": 46,
+          "greenhouse:robinhood": 45,
+          "greenhouse:scaleai": 44,
+          "greenhouse:cloudflare": 40,
+          "simplify_internships": 40,
+          "greenhouse:pinterest": 39
+        },
+        "top_companies": {
+          "Amazon": 828,
+          "SpaceX": 341,
           "Databricks": 185,
           "Okta": 113,
           "OpenAI": 109,

@@ -4,7 +4,7 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Sun, 06 Sep 2026 21:21:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 23:57:04 GMT</lastBuildDate>
     <item>
       <title>Google — Software Developer Intern, BS, Summer 2027</title>
       <link>https://www.google.com/about/careers/applications/jobs/results/123510626377966278</link>
@@ -14,22 +14,22 @@
     </item>
     <item>
       <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
-      <guid isPermaLink="false">a4f1485683352998</guid>
-      <description>Chicago, IL · internship · 0d</description>
+      <link>https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d</link>
+      <guid isPermaLink="false">c98875b5267332ed</guid>
+      <description>New York, NY · internship · 0d</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
+      <link>https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019</link>
+      <guid isPermaLink="false">c7c44f1b5a9bef7c</guid>
+      <description>Washington, D.C. · internship · 0d</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
       <link>https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333</link>
       <guid isPermaLink="false">31badf886c62d8a0</guid>
-      <description>New York, NY · internship · 0d</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Year at Palantir - Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329</link>
-      <guid isPermaLink="false">e71d749f1b7c7786</guid>
       <description>New York, NY · internship · 0d</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -125,6 +125,13 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer Intern, ROBOTICS - 2027</title>
+      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027</link>
+      <guid isPermaLink="false">1a546b553208fbba</guid>
+      <description>North Reading, MA · internship · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Scale AI — Software Engineer Intern - Summer 2027</title>
       <link>https://job-boards.greenhouse.io/scaleai/jobs/4730845005?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">a6a1189f9d05ec0f</guid>
@@ -136,13 +143,6 @@
       <link>https://paypal.eightfold.ai/careers/job/274922260559?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">c0080504109574c8</guid>
       <description>Austin, TX San Jose, CA Chicago, IL · internship · 1d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer Intern, ROBOTICS - 2027</title>
-      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027</link>
-      <guid isPermaLink="false">1a546b553208fbba</guid>
-      <description>North Reading, MA · internship · 1d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -174,17 +174,17 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Tesla — Embedded Software Engineer Intern - Optimus</title>
-      <link>https://www.tesla.com/careers/search/job/282340?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">754a5f93d648f64b</guid>
-      <description>Palo Alto, CA · internship · 2d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Adobe — Software Engineer Intern</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">d3f8f33397849a10</guid>
       <description>Seattle, WA +6 more · internship · 3d</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tesla — Embedded Software Engineer Intern - Optimus</title>
+      <link>https://www.tesla.com/careers/search/job/282340?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">754a5f93d648f64b</guid>
+      <description>Palo Alto, CA · internship · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -356,13 +356,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Atlassian — Software Engineer Intern</title>
-      <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">d06c2e10472343c5</guid>
-      <description>Seattle, WA SF · internship · 5d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft — Software Engineer Intern - AI and ML</title>
       <link>https://apply.careers.microsoft.com/careers/job/1970393556972698?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">04f6ec640e9e6118</guid>
@@ -381,6 +374,13 @@
       <link>https://careers.amd.com/jobs/91363?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">4153e92bfc3965e8</guid>
       <description>Markham, ON, Canada · internship · 5d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Atlassian — Software Engineer Intern</title>
+      <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">d06c2e10472343c5</guid>
+      <description>Seattle, WA SF · internship · 5d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -447,17 +447,17 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epic Games — Frontend Programmer Intern</title>
-      <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">0907d94cb3b1a0a3</guid>
-      <description>Cary, NC · internship · 6d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Mastercard — Data Scientist Intern</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">92cae59344d618fd</guid>
       <description>O'Fallon, MO · internship · 6d</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic Games — Frontend Programmer Intern</title>
+      <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">0907d94cb3b1a0a3</guid>
+      <description>Cary, NC · internship · 6d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -601,13 +601,6 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epic Games — Machine Learning Intern - Special Projects - Epic Research Group 🎓</title>
-      <link>https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">37234a7f51864d35</guid>
-      <description>London, UK · internship · 29d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Hudson River Trading — Software Engineer Intern - C++ or Python</title>
       <link>https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">39170ffa9c9e83ca</guid>
@@ -647,6 +640,13 @@
       <link>https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004</link>
       <guid isPermaLink="false">b3aa804a2744134a</guid>
       <description>Montreal,Quebec,Canada · internship · 1mo</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic Games — Machine Learning Intern - Special Projects - Epic Research Group 🎓</title>
+      <link>https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">37234a7f51864d35</guid>
+      <description>London, UK · internship · 29d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -727,6 +727,13 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
+      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
+      <guid isPermaLink="false">d0861b887ea3c5be</guid>
+      <description>Chicago, IL · internship · 74d</description>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Snowflake — Software Engineer Intern - Berlin (2026)</title>
       <link>https://jobs.ashbyhq.com/snowflake/41e65c6c-a01e-4f40-af14-ae75d3b95e27</link>
       <guid isPermaLink="false">63222ef28653121b</guid>
@@ -748,16 +755,9 @@
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
-      <link>https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019</link>
-      <guid isPermaLink="false">004dae8751efc263</guid>
-      <description>Washington, D.C. · internship · 136d</description>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d</link>
-      <guid isPermaLink="false">a3658aa608ba2641</guid>
+      <title>Palantir — Year at Palantir - Software Engineer, Internship</title>
+      <link>https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329</link>
+      <guid isPermaLink="false">0ae3f01085d98120</guid>
       <description>New York, NY · internship · 170d</description>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
     </item>
@@ -772,12 +772,6 @@
       <title>NVIDIA — Compute System Arch AI Infra Intern - 2027</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Compute-System-Arch-AI-Infra-Intern---2027_JR2023889</link>
       <guid isPermaLink="false">80f9dd20e3aeb727</guid>
-      <description>China, Shanghai · internship · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Infrastructure Tool Development Intern - 2027</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Infrastructure-Tool-Development-Intern---2027_JR2025040</link>
-      <guid isPermaLink="false">a8688b1105af4ea0</guid>
       <description>China, Shanghai · internship · 1d</description>
     </item>
     <item>

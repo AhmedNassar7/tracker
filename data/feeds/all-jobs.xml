@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sun, 06 Sep 2026 21:21:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 23:57:04 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10530754/software-development-engineer</link>
@@ -20,6 +20,13 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google — Security Engineer II, Hybrid Cloud Guidelines</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/101300536594047686</link>
+      <guid isPermaLink="false">640262e5dfc180aa</guid>
+      <description>United States · mid_level · 0d</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google — Software Developer Intern, BS, Summer 2027</title>
       <link>https://www.google.com/about/careers/applications/jobs/results/123510626377966278</link>
       <guid isPermaLink="false">b2a9f77a87d1ad42</guid>
@@ -28,9 +35,16 @@
     </item>
     <item>
       <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
-      <guid isPermaLink="false">a4f1485683352998</guid>
-      <description>Chicago, IL · internship · 0d</description>
+      <link>https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d</link>
+      <guid isPermaLink="false">c98875b5267332ed</guid>
+      <description>New York, NY · internship · 0d</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
+      <link>https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019</link>
+      <guid isPermaLink="false">c7c44f1b5a9bef7c</guid>
+      <description>Washington, D.C. · internship · 0d</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -38,20 +52,6 @@
       <link>https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333</link>
       <guid isPermaLink="false">31badf886c62d8a0</guid>
       <description>New York, NY · internship · 0d</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Year at Palantir - Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329</link>
-      <guid isPermaLink="false">e71d749f1b7c7786</guid>
-      <description>New York, NY · internship · 0d</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Software Engineer New Grad - Software</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">6ffffa2b5640e686</guid>
-      <description>Brownsville, TX · new_grad · 18d</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -94,6 +94,20 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7934782002</link>
       <guid isPermaLink="false">7bfac0825198a5ce</guid>
       <description>Bengaluru, India · mid_level · 0d</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Specialist Solutions Architect - Cloud Infrastructure &amp; Platform (AWS)</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002</link>
+      <guid isPermaLink="false">492749abf319269f</guid>
+      <description>United States · mid_level · 0d</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Specialist Solutions Architect - Cloud Infrastructure &amp; Platform (Azure)</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002</link>
+      <guid isPermaLink="false">8064e7a50a658583</guid>
+      <description>United States · mid_level · 0d</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -979,34 +993,6 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Scale AI — Software Engineer Intern - Summer 2027</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730845005?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">a6a1189f9d05ec0f</guid>
-      <description>SF · internship · 1d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scale AI — Software Engineer New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730836005?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">74db64589d7f0cfd</guid>
-      <description>SF · new_grad · 1d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>PayPal — Software Engineer Intern</title>
-      <link>https://paypal.eightfold.ai/careers/job/274922260559?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">c0080504109574c8</guid>
-      <description>Austin, TX San Jose, CA Chicago, IL · internship · 1d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>PayPal — Software Engineer New Grad - Software Engineering</title>
-      <link>https://paypal.eightfold.ai/careers/job/274921995088?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">8a631fa50bb46ba7</guid>
-      <description>Austin, TX San Jose, CA Chicago, IL · new_grad · 1d</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>JPMorgan Chase — Software Engineer II - Platform Engineer Databricks</title>
       <link>https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210786726</link>
       <guid isPermaLink="false">eb6f01b7aa614fc6</guid>
@@ -1028,10 +1014,38 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Scale AI — Software Engineer Intern - Summer 2027</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730845005?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">a6a1189f9d05ec0f</guid>
+      <description>SF · internship · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scale AI — Software Engineer New Grad</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730836005?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">74db64589d7f0cfd</guid>
+      <description>SF · new_grad · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PayPal — Software Engineer Intern</title>
+      <link>https://paypal.eightfold.ai/careers/job/274922260559?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">c0080504109574c8</guid>
+      <description>Austin, TX San Jose, CA Chicago, IL · internship · 1d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>PayPal — Software Engineer Intern</title>
       <link>https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Software-Engineer-Intern_R0137285</link>
       <guid isPermaLink="false">8f0da41d602ede81</guid>
       <description>San Jose, CA +2 · internship · 2d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PayPal — Software Engineer New Grad - Software Engineering</title>
+      <link>https://paypal.eightfold.ai/careers/job/274921995088?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">8a631fa50bb46ba7</guid>
+      <description>Austin, TX San Jose, CA Chicago, IL · new_grad · 1d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1130,13 +1144,6 @@
       <link>https://www.amazon.jobs/jobs/10529525/apply</link>
       <guid isPermaLink="false">4340d3539a3f1d25</guid>
       <description>North Reading, MA · internship · 2d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tesla — Embedded Software Engineer Intern - Optimus</title>
-      <link>https://www.tesla.com/careers/search/job/282340?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">754a5f93d648f64b</guid>
-      <description>Palo Alto, CA · internship · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1256,6 +1263,13 @@
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">d3f8f33397849a10</guid>
       <description>Seattle, WA +6 more · internship · 3d</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tesla — Embedded Software Engineer Intern - Optimus</title>
+      <link>https://www.tesla.com/careers/search/job/282340?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">754a5f93d648f64b</guid>
+      <description>Palo Alto, CA · internship · 2d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4206,20 +4220,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Specialist Solutions Architect - Cloud Infrastructure &amp; Platform (AWS)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002</link>
-      <guid isPermaLink="false">492749abf319269f</guid>
-      <description>United States · mid_level · 4d</description>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Specialist Solutions Architect - Cloud Infrastructure &amp; Platform (Azure)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002</link>
-      <guid isPermaLink="false">8064e7a50a658583</guid>
-      <description>United States · mid_level · 4d</description>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Databricks — Sr Platform Monitoring Engineer</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8407913002</link>
       <guid isPermaLink="false">ce47f19bc9ad2c35</guid>
@@ -4941,13 +4941,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Atlassian — Software Engineer Intern</title>
-      <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">d06c2e10472343c5</guid>
-      <description>Seattle, WA SF · internship · 5d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Data Engineer II, Talent Development</title>
       <link>https://www.amazon.jobs/en/jobs/10524593/data-engineer-ii-talent-development</link>
       <guid isPermaLink="false">7227d6f2061a3360</guid>
@@ -4973,6 +4966,13 @@
       <link>https://careers.amd.com/jobs/91363?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">4153e92bfc3965e8</guid>
       <description>Markham, ON, Canada · internship · 5d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Atlassian — Software Engineer Intern</title>
+      <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">d06c2e10472343c5</guid>
+      <description>Seattle, WA SF · internship · 5d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8252,6 +8252,13 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Mastercard — Data Scientist Intern</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">92cae59344d618fd</guid>
+      <description>O'Fallon, MO · internship · 6d</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
       <guid isPermaLink="false">c234252785500cdd</guid>
@@ -8263,13 +8270,6 @@
       <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">0907d94cb3b1a0a3</guid>
       <description>Cary, NC · internship · 6d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Data Scientist Intern</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">92cae59344d618fd</guid>
-      <description>O'Fallon, MO · internship · 6d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8700,13 +8700,6 @@
       <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Tesla — Software Engineer Intern - Vehicle Software - Summer 2027</title>
-      <link>https://www.tesla.com/careers/search/job/281097?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">500831768dec6108</guid>
-      <description>Palo Alto, CA · internship · 9d</description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10518555/software-development-engineer</link>
       <guid isPermaLink="false">a1a78979b3ccee12</guid>
@@ -8802,6 +8795,13 @@
       <link>https://www.amazon.jobs/en/jobs/10520050/software-development-engineer-route-53</link>
       <guid isPermaLink="false">2c7e47bfde24b4e5</guid>
       <description>Herndon, Virginia, USA · unknown · 9d</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tesla — Software Engineer Intern - Vehicle Software - Summer 2027</title>
+      <link>https://www.tesla.com/careers/search/job/281097?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">500831768dec6108</guid>
+      <description>Palo Alto, CA · internship · 9d</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12935,17 +12935,17 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — Software Engineer New Grad - Software - Application Software</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">11e112c948252134</guid>
-      <description>Hawthorne, CA · new_grad · 18d</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ByteDance — Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓</title>
       <link>https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">822623bc288d8af4</guid>
       <description>Seattle, WA · internship · 18d</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Software Engineer New Grad - Software - Application Software</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">11e112c948252134</guid>
+      <description>Hawthorne, CA · new_grad · 18d</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14412,13 +14412,6 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epic Games — Machine Learning Intern - Special Projects - Epic Research Group 🎓</title>
-      <link>https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">37234a7f51864d35</guid>
-      <description>London, UK · internship · 29d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Hudson River Trading — Software Engineer Intern - C++ or Python</title>
       <link>https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">39170ffa9c9e83ca</guid>
@@ -14458,6 +14451,13 @@
       <link>https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004</link>
       <guid isPermaLink="false">b3aa804a2744134a</guid>
       <description>Montreal,Quebec,Canada · internship · 1mo</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic Games — Machine Learning Intern - Special Projects - Epic Research Group 🎓</title>
+      <link>https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">37234a7f51864d35</guid>
+      <description>London, UK · internship · 29d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -16408,15 +16408,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Secure Connection Services (SCS)</title>
-      <link>https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs</link>
-      <guid isPermaLink="false">4669b44e0d5e538d</guid>
+      <link>https://www.amazon.jobs/en/jobs/10490663/software-development-engineer-ii-secure-connection-services-scs</link>
+      <guid isPermaLink="false">7b4721e4e17412ea</guid>
       <description>Herndon, Virginia, USA · mid_level · 34d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Secure Connection Services (SCS)</title>
-      <link>https://www.amazon.jobs/en/jobs/10490663/software-development-engineer-ii-secure-connection-services-scs</link>
-      <guid isPermaLink="false">7b4721e4e17412ea</guid>
+      <link>https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs</link>
+      <guid isPermaLink="false">4669b44e0d5e538d</guid>
       <description>Herndon, Virginia, USA · mid_level · 34d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -19228,6 +19228,13 @@
       <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
+      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
+      <guid isPermaLink="false">d0861b887ea3c5be</guid>
+      <description>Chicago, IL · internship · 74d</description>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Ramp — Applied AI Engineer, Fullstack</title>
       <link>https://jobs.ashbyhq.com/ramp/6a7e382f-240a-4952-b9e5-7fe2b3856bc9</link>
       <guid isPermaLink="false">5f3f3e0177dbbb29</guid>
@@ -20769,15 +20776,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Software Defined Network Controller, Amazon LEO</title>
-      <link>https://www.amazon.jobs/en/jobs/10419337/software-development-engineer-software-defined-network-controller-amazon-leo</link>
-      <guid isPermaLink="false">c1805a84e604474a</guid>
+      <link>https://www.amazon.jobs/en/jobs/10419336/software-development-engineer-software-defined-network-controller-amazon-leo</link>
+      <guid isPermaLink="false">d7b7945382d8fdea</guid>
       <description>Redmond, Washington, USA · unknown · 116d</description>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Software Defined Network Controller, Amazon LEO</title>
-      <link>https://www.amazon.jobs/en/jobs/10419336/software-development-engineer-software-defined-network-controller-amazon-leo</link>
-      <guid isPermaLink="false">d7b7945382d8fdea</guid>
+      <link>https://www.amazon.jobs/en/jobs/10419337/software-development-engineer-software-defined-network-controller-amazon-leo</link>
+      <guid isPermaLink="false">c1805a84e604474a</guid>
       <description>Redmond, Washington, USA · unknown · 116d</description>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
     </item>
@@ -21349,13 +21356,6 @@
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
-      <link>https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019</link>
-      <guid isPermaLink="false">004dae8751efc263</guid>
-      <description>Washington, D.C. · internship · 136d</description>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Last Mile Delivery</title>
       <link>https://www.amazon.jobs/en/jobs/10399541/software-development-engineer-last-mile-delivery</link>
       <guid isPermaLink="false">b70873028e5c76bd</guid>
@@ -21748,9 +21748,9 @@
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d</link>
-      <guid isPermaLink="false">a3658aa608ba2641</guid>
+      <title>Palantir — Year at Palantir - Software Engineer, Internship</title>
+      <link>https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329</link>
+      <guid isPermaLink="false">0ae3f01085d98120</guid>
       <description>New York, NY · internship · 170d</description>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
     </item>
@@ -21873,16 +21873,52 @@
       <description>Israel, Haifa · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Principal Block and File Storage Software Engineer, Linux - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Block-File-Storage-Software-Engineer--Linux---DGX-Cloud_JR2024421</link>
+      <guid isPermaLink="false">254e6f6b9015e05f</guid>
+      <description>US, CA, Santa Clara · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Principal Software Engineer - Rack Scale Systems Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966</link>
       <guid isPermaLink="false">c3713a1ca8334239</guid>
       <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Principal Software Engineer, E2E Performance and Goodput — CSP Engagements</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--E2E-Performance-and-Goodput---CSP-Engagements_JR2020321</link>
+      <guid isPermaLink="false">598cd19403111616</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Principal Software Engineer, GPU Firmware and GPU System Software — CSP Engagements</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--GPU-Firmware-and-GPU-System-Software---CSP-Engagements_JR2020319</link>
+      <guid isPermaLink="false">49e30c2abab1080f</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Principal Software Engineer, Rack-Scale System Software — CSP Engagements</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316</link>
+      <guid isPermaLink="false">19a883cd43918f82</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Linux Kernel Systems Software Engineer – CSP Engagements</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287</link>
       <guid isPermaLink="false">40918f8191b8b6d3</guid>
       <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Platform Engineer, Network Infrastructure - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Platform-Engineer--Network-Infrastructure---DGX-Cloud_JR2021436</link>
+      <guid isPermaLink="false">ce8f4252148fa9c3</guid>
+      <description>US, CA, Santa Clara +5 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer - Manufacturing and Factory</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Manufacturing-and-Factory_JR2020348-1</link>
+      <guid isPermaLink="false">89c12652afdf6d81</guid>
+      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer - SONiC Design Group</title>
@@ -21895,6 +21931,18 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880</link>
       <guid isPermaLink="false">fd49b26ffed563cc</guid>
       <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior System Software Engineer - Scientific Computing PaaS</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Scientific-Computing-PaaS_JR2024331</link>
+      <guid isPermaLink="false">9fb930e8e8ad5fcf</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Systems Software Engineer, Compute Stack Acceleration</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549</link>
+      <guid isPermaLink="false">9245920daa8db653</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Systems Software Engineer, Data Center Platform Enablement</title>
@@ -21931,12 +21979,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726</link>
       <guid isPermaLink="false">7b57fb548163b49f</guid>
       <description>US, CA, Santa Clara · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Infrastructure Tool Development Intern - 2027</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Infrastructure-Tool-Development-Intern---2027_JR2025040</link>
-      <guid isPermaLink="false">a8688b1105af4ea0</guid>
-      <description>China, Shanghai · internship · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Principal Software Engineer – CSP Engagements</title>
@@ -22083,18 +22125,6 @@
       <description>US, CA, Santa Clara · mid_level · 2d</description>
     </item>
     <item>
-      <title>NVIDIA — Senior Staff Software Engineer - Agentic Automation</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer---Agentic-Automation_JR2024734</link>
-      <guid isPermaLink="false">5041b0a91be2ea71</guid>
-      <description>US, CA, Santa Clara · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior System Software Engineer, Software Defined Networking</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Engineer-System-Software--SDN-Operations_JR2023005</link>
-      <guid isPermaLink="false">91d400d3392cac3b</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 2d</description>
-    </item>
-    <item>
       <title>PayPal — Software Engineer - Recent Graduate</title>
       <link>https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Software-Engineer---Recent-Graduate_R0137237</link>
       <guid isPermaLink="false">30644a2915efeccd</guid>
@@ -22201,6 +22231,12 @@
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-280615</link>
       <guid isPermaLink="false">18a387551b23b743</guid>
       <description>O'Fallon, Missouri · mid_level · 3d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-289523</link>
+      <guid isPermaLink="false">068beb9c9acb53eb</guid>
+      <description>Pune, India · mid_level · 3d</description>
     </item>
     <item>
       <title>Mastercard — Site Reliability Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
