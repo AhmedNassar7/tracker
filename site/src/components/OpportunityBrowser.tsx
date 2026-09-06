@@ -24,6 +24,7 @@ import {
 import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import { companyTier } from "../lib/companyTiers";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
+import { addDismissed, clearDismissed, readDismissed, removeDismissed } from "../lib/dismissed";
 import Pagination from "./Pagination";
 
 function ageToDays(age: string): number {
@@ -85,6 +86,21 @@ export default function OpportunityBrowser() {
   const [bannerDismissed, setBannerDismissed] = useState(false);
   const [prefs, setPrefs] = useState<Preferences>(() => readPreferences());
   const [sortMode, setSortMode] = useState<SortMode>(() => readSortMode());
+  // C2 — "not interested" ids (localStorage). `showDismissed` flips the list
+  // to *only* those, so a viewer can review and undo.
+  const [dismissedIds, setDismissedIds] = useState<Set<string>>(() => readDismissed());
+  const [showDismissed, setShowDismissed] = useState(false);
+
+  const handleDismiss = (item: SiteIndexEntry) => setDismissedIds(addDismissed(item.id));
+  const handleRestore = (item: SiteIndexEntry) => {
+    const next = removeDismissed(item.id);
+    setDismissedIds(next);
+    if (next.size === 0) setShowDismissed(false);
+  };
+  const handleClearDismissed = () => {
+    setDismissedIds(clearDismissed());
+    setShowDismissed(false);
+  };
 
   const updatePrefs = (next: Preferences) => {
     setPrefs(next);
@@ -223,7 +239,7 @@ export default function OpportunityBrowser() {
   // disorienting.
   useEffect(() => {
     setPage(1);
-  }, [filters, sortMode, showOnlyNew, prefs]);
+  }, [filters, sortMode, showOnlyNew, prefs, showDismissed]);
 
   // kind:"board" rows (config/aggregate_links.yml) are not opportunities —
   // they're rendered by <BrowseEveryRole> and kept out of the list, the
@@ -240,6 +256,11 @@ export default function OpportunityBrowser() {
   const filteredItems = useMemo(() => {
     if (state.status !== "loaded") return [];
     let items = applyFilters(opportunityItems, filters);
+    // C2 — "not interested" rows are hidden by default; the review mode
+    // (`showDismissed`) inverts that to show *only* them.
+    items = showDismissed
+      ? items.filter((item) => dismissedIds.has(item.id))
+      : items.filter((item) => !dismissedIds.has(item.id));
     if (showOnlyNew) items = items.filter((item) => newIds.has(item.id));
     // "Companies to hide" is a hard preference — applied in either sort mode.
     if (prefs.excludeCompanies.length > 0) items = items.filter((item) => !isExcluded(item, prefs));
@@ -282,7 +303,7 @@ export default function OpportunityBrowser() {
         .map((entry) => entry.item);
     }
     return items;
-  }, [state, filters, showOnlyNew, newIds, prefs, matchActive, sortMode]);
+  }, [state, opportunityItems, filters, showOnlyNew, newIds, prefs, matchActive, sortMode, dismissedIds, showDismissed]);
 
   const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
@@ -440,16 +461,41 @@ export default function OpportunityBrowser() {
       {/* Aggregate-links lane — only alongside jobs (a board isn't a
           hackathon or an event), and it ignores every filter but the search
           box since a board carries no level/region/etc. of its own. */}
-      {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && (
+      {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && !showDismissed && (
         <BrowseEveryRole boards={boardItems} query={filters.q} />
+      )}
+
+      {dismissedIds.size > 0 && (
+        <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-500 dark:text-slate-400">
+          <span>
+            <strong>{dismissedIds.size.toLocaleString()}</strong> hidden as “not interested”
+          </span>
+          <button
+            type="button"
+            onClick={() => setShowDismissed((v) => !v)}
+            aria-pressed={showDismissed}
+            className="underline-offset-2 hover:text-slate-700 hover:underline dark:hover:text-slate-200"
+          >
+            {showDismissed ? "Back to the list" : "Review hidden"}
+          </button>
+          <button
+            type="button"
+            onClick={handleClearDismissed}
+            className="underline-offset-2 hover:text-slate-700 hover:underline dark:hover:text-slate-200"
+          >
+            Clear all
+          </button>
+        </div>
       )}
 
       {filteredItems.length === 0 ? (
         <div className="py-12 text-center">
           <p className="text-slate-600 dark:text-slate-300">
-            {showOnlyNew
-              ? "Nothing new since your last visit that matches these filters."
-              : "No opportunities match these filters right now."}
+            {showDismissed
+              ? "None of your hidden opportunities match these filters."
+              : showOnlyNew
+                ? "Nothing new since your last visit that matches these filters."
+                : "No opportunities match these filters right now."}
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-3 text-sm">
             {hasActiveFilters(filters) && (
@@ -488,6 +534,9 @@ export default function OpportunityBrowser() {
             trackedIds={trackedIds}
             onToggleTrack={handleToggleTrack}
             matchReasons={reasonsById}
+            onDismiss={handleDismiss}
+            onRestore={handleRestore}
+            dismissedIds={showDismissed ? dismissedIds : undefined}
           />
           {totalPages > 1 && (
             <Pagination page={safePage} totalPages={totalPages} onChange={goToPage} />
