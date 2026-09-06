@@ -15,11 +15,16 @@ const LEVEL_LABELS: Record<string, string> = {
   unknown: "Unknown",
 };
 
+// "emea" is labelled "Europe" (not "EMEA"): scripts/patterns.py's
+// detect_region tests the `mena` bucket *before* `emea`, so Middle-East /
+// Africa locations never land in `emea` — calling it "EMEA" (which expands to
+// "Europe, Middle East, Africa") just reads as overlapping the separate
+// "Middle East & Africa" bucket. The enum value stays `emea`.
 const REGION_LABELS: Record<string, string> = {
   us: "United States",
   canada: "Canada",
   mena: "Middle East & Africa",
-  emea: "EMEA",
+  emea: "Europe",
   remote: "Remote",
   unknown: "Unknown",
 };

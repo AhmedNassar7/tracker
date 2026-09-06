@@ -59,7 +59,12 @@ export interface SiteIndexEntry {
   // Job-only, curated-origin only.
   category?: string;
   remote_type?: RemoteType;
+  // Job-only, both origins (curated detects it; public rows get it from the
+  // same detector run over `location` in build_site_index). "Unknown" /
+  // "Remote" are real values here, not omissions.
   country?: string;
+  // Flag emoji for `country`; absent for Unknown / Remote / unmapped.
+  country_flag?: string;
   // Job-only B3/B4/B5 facets, detected from the posting's own description
   // text (scripts/patterns.py). Absent — never a default `false` or `[]` —
   // when the posting didn't say. Only the ATS sources that expose a full

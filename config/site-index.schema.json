@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "SiteIndexEntry",
-  "description": "Shape of each entry in data/site-index.json's 'items' array — a flattened, site-sized view merging data/jobs-global.json and data/public-opportunities.json into one list. This is a read projection for a future frontend, not a new source of truth: every field here is copied from a JobEntry or PublicEntry record (see config/job-entry.schema.json / config/public-entry.schema.json), never invented. Fields that only exist on one origin layer (e.g. 'category', 'country', 'remote_type' are curated-only) are omitted entirely rather than filled in with a guessed value when absent.",
+  "description": "Shape of each entry in data/site-index.json's 'items' array — a flattened, site-sized view merging data/jobs-global.json and data/public-opportunities.json into one list. This is a read projection for a future frontend, not a new source of truth: every field here is copied from a JobEntry or PublicEntry record (see config/job-entry.schema.json / config/public-entry.schema.json) or derived here from one (region/country/tech_tags/…), never fabricated. Fields that only exist on one origin layer (e.g. 'category' and 'remote_type' are curated-only) are omitted entirely rather than filled in with a guessed value when absent.",
   "type": "object",
   "required": ["id", "kind", "origin", "company", "title", "location", "age", "posted_at", "url", "source", "source_url"],
   "properties": {
@@ -64,7 +64,11 @@
     },
     "country": {
       "type": "string",
-      "description": "Job-only, curated-origin only"
+      "description": "Job-only, both origins (G2, 2026-09-06). The curated layer detects it during fetch; for a public-layer row build_site_index runs the same scripts/patterns.py detect_country() over the location string. 'Unknown' / 'Remote' are kept as-is rather than omitted, so country counts stay honest"
+    },
+    "country_flag": {
+      "type": "string",
+      "description": "Job-only. The flag emoji for `country` (Unicode regional-indicator symbols, from scripts/patterns.py country_flag()). Absent when there's no clean mapping — 'Unknown', 'Remote', or a country not in the ISO-2 table"
     },
     "age": {
       "type": "string",

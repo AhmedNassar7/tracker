@@ -432,8 +432,12 @@ sources/*  ──►  collect  ──►  normalize  ──►  merge  ──►
   <tr><td>C2</td><td>Seen / dismissed memory (“never show me this twice”) + “new since your last visit”</td><td>Signature Otta feature; the <code>site-index.json</code> checksum plumbing already exists</td><td><span class="tag-done">done</span> — “new since last visit” banner + toggle (<code>visitHistory.ts</code>) already shipped; now <code>dismissed.ts</code> (capped localStorage id list) + a per-row <em>Not interested</em> link + a “N hidden — Review hidden / Clear all” control in <code>OpportunityBrowser</code>. Opportunity-only; boards never participate. <span class="pill p-next">next</span>: an undo toast on dismiss; feed dismissals into “Best match” down-ranking</td></tr>
   <tr><td>C3</td><td>Saved searches → shareable URL + per-search RSS/JSON</td><td>“Job alerts” with no email list and no server</td><td><span class="tag-partial">partial</span> — <code>SavedSearches.tsx</code> + <code>savedSearches.ts</code> exist; add per-preset static feeds in <code>build_data_readme.py</code></td></tr>
   <tr><td>C4</td><td>Optional webhook push for a saved search (user pastes their own Discord/Slack/Telegram URL)</td><td>Push alerts, secret stays in the browser, nothing stored server-side</td><td><span class="pill p-next">next</span> — client only</td></tr>
-  <tr><td>C5</td><td>Deepen the personal funnel — median days per stage, response-rate by company-type, funnel chart, activity heatmap, streak, local SW reminders</td><td>Simplify’s paid hook, here free / local / offline / exportable</td><td><span class="tag-partial">partial</span> — <code>ApplicationsTracker.tsx</code> + <code>PersonalDashboard.tsx</code> exist; add the elapsed-time stats from <code>statusHistory</code></td></tr>
+  <tr><td>C5</td><td>Deepen the personal funnel — median days per stage, response-rate by company-type, funnel chart, elapsed-time stats from <code>statusHistory</code></td><td>Simplify’s paid hook, here free / local / offline / exportable</td><td><span class="tag-partial">partial</span> — <code>ApplicationsTracker.tsx</code> + <code>PersonalDashboard.tsx</code> exist. Stage tracking is <strong>manual</strong> (one tap: bookmarked→applied→OA→interview→offer/reject), each transition timestamped in <code>statusHistory</code> — no inbox scraping (needs a server) </td></tr>
+  <tr><td>C6</td><td><strong>Streak &amp; activity</strong> — days-visited / applications-logged streak, a calendar heatmap of activity, gentle “you haven’t applied in 3 days” nudges</td><td>The habit loop Simplify/Duolingo run on; makes it a daily open, not a monthly one</td><td><span class="pill p-now">now</span> — new <code>activity.ts</code> (localStorage day-stamps) + a heatmap + streak badge in the hero / personal dashboard</td></tr>
+  <tr><td>C7</td><td><strong>PWA smart notifications</strong> (opt-in) — “3 bookmarked roles close in 48h”, “8 new roles match your saved search ‘MENA new-grad’”</td><td>Push without a server or an email list</td><td><span class="pill p-now">now</span> — service-worker <code>periodicSync</code> (or a check on each visit as fallback) diffs <code>site-index.json</code> against the user’s saved searches + bookmark deadlines; <code>Notification</code> API, permission asked only on an explicit “turn on alerts” tap</td></tr>
+  <tr><td>C8</td><td><strong>“For you” as the real default</strong> + a daily-digest view — a returning visitor with preferences lands on preference-ranked + match-chips + “new since yesterday”, not the generic sort</td><td>Turns a general list into <em>your</em> list</td><td><span class="pill p-next">next</span> — flip the default <code>sortMode</code> when <code>hasPreferences</code> &amp;&amp; a prior visit exists; a <code>/today</code> route bundling new + matched + closing-soon</td></tr>
 </table>
+<p class="callout"><strong>Accounts?</strong> Deliberately still <em>no</em> email/password account (that needs a server + PII store — breaks the $0 / no-PII guarantees). Cross-device is covered by: export/import JSON (done), and — in the extension — <code>chrome.storage.sync</code> (free, built-in, no new login). An optional “connect GitHub, sync to a private gist you own” is the only account-shaped thing on the table, and only as a later power-user opt-in. See <a href="EXTENSION-PLAN.md">EXTENSION-PLAN.md §5</a>.</p>
 
 <h3>Lane D — Own the data story <span class="p-later">drives stars &amp; inbound links</span></h3>
 <table>
@@ -467,20 +471,55 @@ sources/*  ──►  collect  ──►  normalize  ──►  merge  ──►
   <tr><td>F3</td><td>i18n of the UI (Arabic RTL first)</td><td>Matches the MENA coverage push; almost no competitor localises for that audience</td><td><span class="pill p-later">later</span></td></tr>
 </table>
 
+<h3>Lane G — Filters &amp; search <span class="pill p-now">now</span></h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Why it wins</th><th>Status / where</th></tr>
+  <tr><td>G1</td><td><strong>Multi-select every facet</strong> — level, region, country, tech, work-type all accept &gt;1 value (checkbox dropdowns / chips, not single <code>&lt;select&gt;</code>)</td><td>How every real job board works; “internships <em>or</em> new-grad, in Germany <em>or</em> the Netherlands” is a normal query</td><td><span class="pill p-now">now</span> — <code>FilterState</code> fields become <code>string[]</code>; comma-joined URL params (validated per value); <code>applyFilters</code> uses <code>.some()</code>; new reusable <code>&lt;MultiSelect&gt;</code> control</td></tr>
+  <tr><td>G2</td><td><strong>Country coverage</strong> — run country detection on the public layer too, expand the country list well past EU/MENA (India, Singapore, Japan, Australia, Brazil, Mexico, …), + <strong>flag emoji</strong> next to the name</td><td>Right now the country dropdown only shows curated-layer countries, which skew EU — MENA/APAC/LATAM roles (most of the public layer) contribute none</td><td><span class="pill p-now">now</span> — move <code>detect_country</code> + a <code>country_flag()</code> helper into <code>patterns.py</code>; set <code>country</code> for every job row in <code>_site_index_entry</code> (not curated-only); expand <code>FETCH_COUNTRY_MARK_MAP</code></td></tr>
+  <tr><td>G3</td><td><strong>Searchable country picker</strong> — a typeahead once the list is long, not a 60-row dropdown</td><td>Best practice once options &gt; ~12</td><td><span class="pill p-next">next</span> — the <code>&lt;MultiSelect&gt;</code> from G1 gets an inline filter box; reused for tech tags too</td></tr>
+  <tr><td>G4</td><td><strong>“EMEA” → “Europe”</strong> everywhere (label only)</td><td>“EMEA” literally expands to “Europe, Middle East, Africa”, which reads as overlapping the separate <em>Middle East &amp; Africa</em> bucket — but <code>detect_region</code> tests <code>mena</code> first, so no row is ever in both. Relabelling removes the phantom overlap</td><td><span class="pill p-now">now</span> — <code>labels.ts</code> <code>REGION_LABELS</code>, <code>GlobalDashboard.tsx</code>; data/enum unchanged</td></tr>
+  <tr><td>G5</td><td><strong>Location display</strong> — show <code>🇦🇪 Dubai, UAE</code>: flag + city, country name only when that’s all we have</td><td>Scannable, and flags are Unicode (no images, theme-independent, zero CLS)</td><td><span class="pill p-next">next</span> — <code>OpportunityTable</code> <code>LocationCell</code> prefixes the <code>country_flag</code> for the row’s country</td></tr>
+  <tr><td>G6</td><td><strong>Clarify the RSS box</strong> — plain-language “what is this / how do I use it”, and (with C3) per-saved-search feeds, not just 5 fixed ones</td><td>Users don’t know what “preset feed” means; it’s a real no-account job-alert channel</td><td><span class="pill p-now">now</span> — rewrite <code>RssFeedLinks.astro</code> copy; C3 adds the per-search feeds</td></tr>
+</table>
+
+<h3>Lane R — Résumé / CV <span class="pill p-next">next</span></h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Why it wins</th><th>Status / where</th></tr>
+  <tr><td>R1</td><td><strong>Résumé vault</strong> — paste résumé text (or extract from an uploaded PDF client-side via <code>pdf.js</code>); stored in <code>localStorage</code>/IndexedDB, never uploaded, exportable, one-tap wipe</td><td>The source of truth for R2/R3 and the extension’s autofill (X3/X4)</td><td><span class="pill p-next">next</span> — new <code>/profile</code> page + <code>resume.ts</code></td></tr>
+  <tr><td>R2</td><td><strong>Keyword-gap check</strong> — paste/point at a JD, diff its skills (reuse <code>detect_tech_tags</code> ported to TS) against your résumé text → “in this JD, missing from your résumé: Kubernetes, gRPC”</td><td>Simplify charges for the ATS-keyword hint; this is a local text diff, no LLM, no upload</td><td><span class="pill p-next">next</span> — shares the tech-tag list with the pipeline</td></tr>
+  <tr><td>R3</td><td><strong>Master answers</strong> — save your answer to the common free-text questions (“why this company”, “work authorization”, …) once, copy-paste per application</td><td>The real time-sink in applying; autofill (X3) can’t do free-text well</td><td><span class="pill p-later">later</span></td></tr>
+  <tr><td>R4</td><td>Résumé checklist / linter — length, action verbs, quantified bullets, contact block, no photo (region-aware)</td><td>Cheap, genuinely useful, fully offline</td><td><span class="pill p-later">later</span></td></tr>
+</table>
+
+<h3>Lane X — Browser extension <span class="pill p-next">planned</span></h3>
+<p>Full plan: <a href="EXTENSION-PLAN.md">docs/EXTENSION-PLAN.md</a>. Manifest V3, pure client-side, same guardrails as the site (no server / DB / paid API / PII). Build after the site items above.</p>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Effort</th></tr>
+  <tr><td>X1</td><td>“On tracker / bookmarked / dismissed” badge injected on LinkedIn / Google / ATS postings</td><td>S</td></tr>
+  <tr><td>X2</td><td>One-click “track this application” from any recognised posting</td><td>S</td></tr>
+  <tr><td>X3</td><td>ATS form autofill (Greenhouse + Lever first, then Ashby + Workday) — fills, never auto-submits</td><td>M</td></tr>
+  <tr><td>X4</td><td>Résumé / profile vault in the extension Options page (shares R1)</td><td>M</td></tr>
+  <tr><td>X5</td><td>Keyword-gap hint on a posting page (shares R2)</td><td>M</td></tr>
+  <tr><td>X6</td><td>Toolbar popup — tracked applications by stage, “closing in 48h”, “+ add current page”</td><td>S</td></tr>
+</table>
+
 <h3>Execution order</h3>
+<p><em>Done: B3/B4/B5, A1, B1, C2, D2, D1.</em> Remaining, in order:</p>
 <ol>
-  <li><strong>A1 + B1 polish</strong> — verified-open chip end-to-end; make the aggregate-links lane a first-class on-site section. Small, and the two most visible “better than LinkedIn” wins.</li>
-  <li><strong>B3 + B4 + B5</strong> — the <code>patterns.py</code> enrichment trio (tech tags, visa/degree/relocation, salary). Highest-want filters for the real audience; pure Python, fully testable offline; feeds the unused README emoji guide.</li>
-  <li><strong>B2 + the <code>Source</code> registry refactor</strong> — Workable then Rippling, once endpoints are <code>curl</code>-verified.</li>
-  <li><strong>C2 + C3 + C4</strong> — seen/dismissed, saved-search RSS, webhook push. The return-tomorrow hook.</li>
-  <li><strong>D1 + D2 + D4</strong> — the data-story engine (story cards, richer history, monthly post).</li>
-  <li><strong>D5 + E9 + E2 + E7</strong> — company pages, verified logos, command palette, PWA finish.</li>
-  <li><strong>A2 + A3 + B7</strong> — as a normal network / hand-verification window allows.</li>
+  <li><strong>G4 + G6</strong> — “EMEA”→“Europe” relabel; rewrite the RSS box copy. Tiny, removes two live points of confusion.</li>
+  <li><strong>G2 + G5</strong> — country detection on the public layer + expanded list + flag emoji; flag in the location cell. Fixes the “only European countries” dropdown.</li>
+  <li><strong>G1 + G3</strong> — multi-select every facet via a reusable <code>&lt;MultiSelect&gt;</code>; searchable country/tech pickers.</li>
+  <li><strong>C6 + C7 + C8</strong> — streak &amp; activity heatmap; opt-in PWA notifications; “for you” as the default + a <code>/today</code> digest. The daily-habit layer.</li>
+  <li><strong>C3 + C4</strong> — saved-search RSS/JSON + optional webhook push.</li>
+  <li><strong>R1 + R2</strong> — résumé vault + keyword-gap check (shared with the extension).</li>
+  <li><strong>D4 + D5 + E9 + E2 + E7</strong> — monthly “State of Hiring” post, company mini-pages, verified logos, command palette, PWA finish.</li>
+  <li><strong>Lane X</strong> — the browser extension, per <a href="EXTENSION-PLAN.md">EXTENSION-PLAN.md</a>, after the site items above.</li>
+  <li><strong>A2 + A3 + B2 + B7</strong> — as a normal network / hand-verification window allows.</li>
 </ol>
 
 <hr />
 <div class="foot">
-  <p><strong>How this maps to the in-flight work:</strong> the approved plan at <code>C:\Users\User\.claude\plans\immutable-napping-valley.md</code> is Phase 1. This document is the wider vision around it. <strong>§11 is the live working list</strong> — the roadmap table above is the strategic shape, §11 is what's actually being built and in what order. Progress 2026-09-06: §11 B3/B4/B5, A1, B1, C2, D2, and D1 (story strip) all shipped. Next: C3 (saved-search per-preset RSS + a per-search JSON feed), then D4 (monthly “State of Hiring” markdown post) / D5 (company mini-pages).</p>
+  <p><strong>How this maps to the in-flight work:</strong> the approved plan at <code>C:\Users\User\.claude\plans\immutable-napping-valley.md</code> is Phase 1. This document is the wider vision around it. <strong>§11 is the live working list</strong> — the roadmap table above is the strategic shape, §11 is what's actually being built and in what order. Progress 2026-09-06: §11 B3/B4/B5, A1, B1, C2, D2, D1 all shipped. Then a user-driven batch — added Lane G (filters &amp; search: multi-select, country coverage + flags, “EMEA”→“Europe”, RSS clarity), Lane R (résumé/CV), Lane X (browser extension — planned in <a href="EXTENSION-PLAN.md">EXTENSION-PLAN.md</a>), and C6–C8 (streak, PWA notifications, “for you” default). Accounts: still no — see the Lane C callout. Next: G4+G6, then G2+G5.</p>
   <p><strong>Sources consulted:</strong>
     <a href="https://www.betterteam.com/uk/welcome-to-the-jungle">Welcome to the Jungle (Otta)</a> ·
     <a href="https://simplify.jobs/copilot">Simplify Copilot</a> ·

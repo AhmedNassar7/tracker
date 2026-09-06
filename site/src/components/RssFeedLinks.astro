@@ -14,10 +14,12 @@ const FEEDS = [
 ---
 
 <div class="rounded-md border border-slate-200 p-4 text-sm dark:border-slate-800">
-	<h2 class="font-semibold text-slate-700 dark:text-slate-300">Subscribe via RSS</h2>
+	<h2 class="font-semibold text-slate-700 dark:text-slate-300">Job alerts, no account needed</h2>
 	<p class="mt-1 text-slate-500 dark:text-slate-400">
-		Five preset feeds, refreshed hourly — fixed filters rather than arbitrary saved ones, since a
-		static site can't compute custom filtered feeds on demand.
+		Each link below is an <strong>RSS feed</strong> — a plain web address that updates every hour with
+		new matching roles. Paste one into a feed reader (Feedly, Inoreader, Thunderbird, or a Slack /
+		Discord RSS bot) and new jobs show up there automatically. No sign-up, no email, nothing to
+		install here.
 	</p>
 	<ul class="mt-3 flex flex-wrap gap-x-4 gap-y-1">
 		{
@@ -33,4 +35,7 @@ const FEEDS = [
 			))
 		}
 	</ul>
+	<p class="mt-2 text-xs text-slate-400 dark:text-slate-500">
+		These cover the common asks. Feeds for your own saved filter combinations are coming.
+	</p>
 </div>

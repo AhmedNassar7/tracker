@@ -28,6 +28,7 @@ from patterns import (
     FETCH_LEVEL_MAP,
     FETCH_REMOTE_RE,
     FETCH_ROLE_RE,
+    detect_country,
     detect_region,
     detect_role_type,
     extract_job_facets,
@@ -173,14 +174,6 @@ def detect_remote_type(location):
     if HYBRID_RE.search(location):
         return "hybrid"
     return "onsite" if location.strip() else "unknown"
-
-def detect_country(location):
-    for rx, country in COUNTRY_MARK_MAP:
-        if rx.search(location):
-            return country
-    if REMOTE_RE.search(location):
-        return "Remote"
-    return "Unknown"
 
 def clean_company(company):
     company = re.sub(r"^[\s🔥]+", "", company).strip()

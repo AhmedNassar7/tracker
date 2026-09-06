@@ -85,8 +85,44 @@ FETCH_COUNTRY_MARK_MAP = [
     (re.compile(r"\b(morocco|casablanca|rabat)\b", re.I), "Morocco"),
     (re.compile(r"\b(turkey|istanbul|ankara)\b", re.I), "Turkey"),
     (re.compile(r"\b(nigeria|lagos|abuja)\b", re.I), "Nigeria"),
-    (re.compile(r"\b(kenya|nairobi)\b", re.I), "Kenya"),
-    (re.compile(r"\b(south africa|johannesburg|cape town|pretoria)\b", re.I), "South Africa"),
+    (re.compile(r"\b(kenya|nairobi|mombasa)\b", re.I), "Kenya"),
+    (re.compile(r"\b(ghana|accra)\b", re.I), "Ghana"),
+    (re.compile(r"\b(south africa|johannesburg|cape town|pretoria|durban)\b", re.I), "South Africa"),
+    (re.compile(r"\b(tunisia|tunis)\b", re.I), "Tunisia"),
+    # Wider Europe
+    (re.compile(r"\b(belgium|brussels|antwerp)\b", re.I), "Belgium"),
+    (re.compile(r"\b(norway|oslo)\b", re.I), "Norway"),
+    (re.compile(r"\b(denmark|copenhagen)\b", re.I), "Denmark"),
+    (re.compile(r"\b(finland|helsinki)\b", re.I), "Finland"),
+    (re.compile(r"\b(austria|vienna)\b", re.I), "Austria"),
+    (re.compile(r"\b(czechia|czech republic|prague)\b", re.I), "Czechia"),
+    (re.compile(r"\b(romania|bucharest|cluj)\b", re.I), "Romania"),
+    (re.compile(r"\b(greece|athens)\b", re.I), "Greece"),
+    (re.compile(r"\b(hungary|budapest)\b", re.I), "Hungary"),
+    (re.compile(r"\b(ukraine|kyiv|kiev|lviv)\b", re.I), "Ukraine"),
+    # APAC
+    (re.compile(r"\b(india|bengaluru|bangalore|hyderabad|mumbai|pune|gurgaon|gurugram|noida|chennai|delhi|new delhi)\b", re.I), "India"),
+    (re.compile(r"\b(pakistan|karachi|lahore|islamabad)\b", re.I), "Pakistan"),
+    (re.compile(r"\b(bangladesh|dhaka)\b", re.I), "Bangladesh"),
+    (re.compile(r"\bsingapore\b", re.I), "Singapore"),
+    (re.compile(r"\b(japan|tokyo|osaka|kyoto)\b", re.I), "Japan"),
+    (re.compile(r"\b(south korea|seoul)\b", re.I), "South Korea"),
+    (re.compile(r"\b(china|beijing|shanghai|shenzhen|guangzhou|hangzhou)\b", re.I), "China"),
+    (re.compile(r"\bhong kong\b", re.I), "Hong Kong"),
+    (re.compile(r"\b(taiwan|taipei)\b", re.I), "Taiwan"),
+    (re.compile(r"\b(indonesia|jakarta)\b", re.I), "Indonesia"),
+    (re.compile(r"\b(philippines|manila|cebu)\b", re.I), "Philippines"),
+    (re.compile(r"\b(vietnam|hanoi|ho chi minh)\b", re.I), "Vietnam"),
+    (re.compile(r"\b(thailand|bangkok)\b", re.I), "Thailand"),
+    (re.compile(r"\b(malaysia|kuala lumpur)\b", re.I), "Malaysia"),
+    (re.compile(r"\b(australia|sydney|melbourne|brisbane|perth|canberra)\b", re.I), "Australia"),
+    (re.compile(r"\b(new zealand|auckland|wellington)\b", re.I), "New Zealand"),
+    # LATAM
+    (re.compile(r"\b(brazil|brasil|s[aã]o paulo|rio de janeiro|belo horizonte)\b", re.I), "Brazil"),
+    (re.compile(r"\b(mexico|méxico|mexico city|guadalajara|monterrey)\b", re.I), "Mexico"),
+    (re.compile(r"\b(argentina|buenos aires|c[oó]rdoba)\b", re.I), "Argentina"),
+    (re.compile(r"\b(colombia|bogot[aá]|medell[ií]n)\b", re.I), "Colombia"),
+    (re.compile(r"\b(chile|santiago)\b", re.I), "Chile"),
 ]
 
 PUBLIC_LEVEL_PATTERNS = {
@@ -144,6 +180,55 @@ def detect_region(location):
         if rx.search(location):
             return region
     return "unknown"
+
+
+# Name -> ISO-3166-1 alpha-2, for country_flag(). Only the countries
+# FETCH_COUNTRY_MARK_MAP can actually produce need an entry here.
+_COUNTRY_ISO2 = {
+    "United States": "US", "Canada": "CA", "United Kingdom": "GB", "Ireland": "IE",
+    "Germany": "DE", "France": "FR", "Netherlands": "NL", "Belgium": "BE",
+    "Sweden": "SE", "Norway": "NO", "Denmark": "DK", "Finland": "FI",
+    "Italy": "IT", "Spain": "ES", "Portugal": "PT", "Switzerland": "CH",
+    "Austria": "AT", "Poland": "PL", "Czechia": "CZ", "Romania": "RO",
+    "Greece": "GR", "Hungary": "HU", "Ukraine": "UA",
+    "United Arab Emirates": "AE", "Saudi Arabia": "SA", "Qatar": "QA",
+    "Kuwait": "KW", "Bahrain": "BH", "Oman": "OM", "Jordan": "JO",
+    "Lebanon": "LB", "Israel": "IL", "Egypt": "EG", "Morocco": "MA",
+    "Tunisia": "TN", "Turkey": "TR",
+    "Nigeria": "NG", "Kenya": "KE", "Ghana": "GH", "South Africa": "ZA",
+    "India": "IN", "Pakistan": "PK", "Bangladesh": "BD", "Singapore": "SG",
+    "Japan": "JP", "South Korea": "KR", "China": "CN", "Hong Kong": "HK",
+    "Taiwan": "TW", "Indonesia": "ID", "Philippines": "PH", "Vietnam": "VN",
+    "Thailand": "TH", "Malaysia": "MY", "Australia": "AU", "New Zealand": "NZ",
+    "Brazil": "BR", "Mexico": "MX", "Argentina": "AR", "Colombia": "CO",
+    "Chile": "CL",
+}
+
+
+def detect_country(location):
+    """Country name from a free-text location string, or 'Remote'/'Unknown'.
+    Shared by both layers (was curated-only in fetch.py) so the site's country
+    filter can offer MENA / APAC / LATAM countries, not just the EU-skewed
+    curated set. Same first-match-wins pass over FETCH_COUNTRY_MARK_MAP the
+    curated layer always used."""
+    location = location or ""
+    for rx, country in FETCH_COUNTRY_MARK_MAP:
+        if rx.search(location):
+            return country
+    if FETCH_REMOTE_RE.search(location):
+        return "Remote"
+    return "Unknown"
+
+
+def country_flag(country):
+    """The flag emoji for a country name from detect_country(), or '' when
+    there's no clean mapping ('Remote'/'Unknown'/anything unrecognised). Built
+    from Unicode regional-indicator symbols — no image, no network, renders
+    the same in light and dark."""
+    iso2 = _COUNTRY_ISO2.get((country or "").strip())
+    if not iso2:
+        return ""
+    return "".join(chr(0x1F1E6 + ord(c) - ord("A")) for c in iso2)
 
 
 def detect_role_type(title):

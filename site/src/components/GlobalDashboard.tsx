@@ -5,7 +5,7 @@ import type { SiteIndex, StatsHistory } from "../lib/types";
 import BarList from "./BarList";
 import StatTile from "./StatTile";
 import TrendLine from "./TrendLine";
-import { LEVEL_LABELS } from "../lib/labels";
+import { LEVEL_LABELS, REGION_LABELS } from "../lib/labels";
 
 type LoadState = { status: "loading" } | { status: "error"; message: string } | { status: "loaded"; data: SiteIndex };
 
@@ -13,15 +13,6 @@ type LoadState = { status: "loading" } | { status: "error"; message: string } | 
 // (e.g. before this feature's first hourly run) shouldn't block the rest
 // of the dashboard from rendering.
 type HistoryState = { status: "loading" | "error" } | { status: "loaded"; data: StatsHistory };
-
-const REGION_LABELS: Record<string, string> = {
-  us: "United States",
-  canada: "Canada",
-  mena: "Middle East & Africa",
-  emea: "EMEA",
-  remote: "Remote",
-  unknown: "Unknown",
-};
 
 function formatGeneratedAt(iso: string): string {
   try {

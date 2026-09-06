@@ -175,6 +175,25 @@ def main():
         check("backend title yields no tech tag", "tech_tags" not in f, repr(f))
     run("extract_job_facets: nothing asserted from a bare title", _facets_minimal)
 
+    # ---- detect_country / country_flag ------------------------------------
+    def _country_basic():
+        check("dubai -> UAE", p.detect_country("Dubai, United Arab Emirates") == "United Arab Emirates")
+        check("cairo -> Egypt", p.detect_country("Cairo, Egypt") == "Egypt")
+        check("bengaluru -> India", p.detect_country("Bengaluru, KA") == "India")
+        check("sao paulo -> Brazil", p.detect_country("São Paulo, Brazil") == "Brazil")
+        check("singapore -> Singapore", p.detect_country("Singapore") == "Singapore")
+        check("remote -> Remote", p.detect_country("Remote - Worldwide") == "Remote")
+        check("nonsense -> Unknown", p.detect_country("The Moon") == "Unknown")
+    run("detect_country: MENA / APAC / LATAM now covered", _country_basic)
+
+    def _country_flag():
+        check("UAE flag", p.country_flag("United Arab Emirates") == "\U0001F1E6\U0001F1EA")
+        check("US flag", p.country_flag("United States") == "\U0001F1FA\U0001F1F8")
+        check("Remote has no flag", p.country_flag("Remote") == "")
+        check("Unknown has no flag", p.country_flag("Unknown") == "")
+        check("unmapped has no flag", p.country_flag("Narnia") == "")
+    run("country_flag: emoji for real countries, '' otherwise", _country_flag)
+
     print(color(f"✅ ALL PASSED: {total} checks", GREEN))
     return 0
 

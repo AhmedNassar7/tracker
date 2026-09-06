@@ -21,6 +21,7 @@ from schema_validator import load_schema, validate_records
 from rss_feeds import write_feeds
 from company_names import prettify_company_name
 from net import load_link_cache
+from patterns import country_flag, detect_country
 
 CURATED_JSON = DATA_OUT / "jobs-global.json"
 PUBLIC_JSON = DATA_OUT / "public-opportunities.json"
@@ -842,14 +843,23 @@ def _site_index_entry(row: dict, *, kind: str, origin: str, link_cache: dict | N
                 entry[facet] = row[facet]
         if isinstance(row.get("salary"), dict):
             entry["salary"] = row["salary"]
+        # Country — for every job row now (G2). The curated layer already
+        # detected it; for a public-layer row, run the same detector over its
+        # location string here so the site's country filter isn't limited to
+        # the (EU-skewed) curated set. 'Unknown'/'Remote' are kept so counts
+        # stay honest; `country_flag` is '' for those.
+        country = row.get("country") or detect_country(row.get("location") or "")
+        entry["country"] = country
+        flag = country_flag(country)
+        if flag:
+            entry["country_flag"] = flag
+
         if origin == "curated":
             # Only the curated layer detects these — leave them out entirely
             # for public-layer jobs rather than guessing a value.
             entry["category"] = row.get("category") or ""
             if row.get("remote_type"):
                 entry["remote_type"] = row["remote_type"]
-            if row.get("country"):
-                entry["country"] = row["country"]
 
     return entry
 

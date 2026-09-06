@@ -180,11 +180,33 @@ def main():
         and by_id["aaaaaaaaaaaaaaaa"]["country"] == "Remote",
     ))
 
-    run("public job omits curated-only fields instead of fabricating them", lambda: check(
-        "public job has no category/remote_type/country keys",
+    run("public job omits curated-only fields (category/remote_type) but now gets a detected country", lambda: check(
+        "public job field policy",
         "category" not in by_id["bbbbbbbbbbbbbbbb"]
         and "remote_type" not in by_id["bbbbbbbbbbbbbbbb"]
-        and "country" not in by_id["bbbbbbbbbbbbbbbb"],
+        # G2: country is now derived for public rows too — "Remote - USA" -> "United States"
+        and by_id["bbbbbbbbbbbbbbbb"]["country"] == "United States"
+        and by_id["bbbbbbbbbbbbbbbb"]["country_flag"] == "\U0001F1FA\U0001F1F8",
+    ))
+
+    mena_public = {**public_job, "id": "1212121212121212", "url": "https://example.com/gh-dubai",
+                   "location": "Dubai, United Arab Emirates"}
+    mena_idx = bdr.build_site_index({"jobs": [], "hackathons": [], "events": []},
+                                    {"jobs": [mena_public], "hackathons": [], "events": []})
+    run("G2: a Dubai public-layer job resolves to United Arab Emirates + flag", lambda: check(
+        "mena country",
+        mena_idx["items"][0]["country"] == "United Arab Emirates"
+        and mena_idx["items"][0]["country_flag"] == "\U0001F1E6\U0001F1EA",
+        details=str(mena_idx["items"][0]),
+    ))
+    run("G2: an unrecognised location gets country 'Unknown' and no flag key", lambda: check(
+        "unknown country",
+        (lambda it: it["country"] == "Unknown" and "country_flag" not in it)(
+            bdr.build_site_index({"jobs": [], "hackathons": [], "events": []},
+                                 {"jobs": [{**public_job, "id": "3434343434343434",
+                                            "url": "https://example.com/gh-moon", "location": "The Moon"}],
+                                  "hackathons": [], "events": []})["items"][0]
+        ),
     ))
 
     run("public-layer 'date' is unified into 'age'", lambda: check(
