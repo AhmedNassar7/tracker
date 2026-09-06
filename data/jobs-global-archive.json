@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T05:56:33Z",
-  "total": 635,
+  "generated_at": "2026-09-06T10:54:42Z",
+  "total": 638,
   "jobs": [
     {
       "id": "1d1cce0e4a0295a9",
@@ -18,13 +18,157 @@
       "source_url": "https://github.com/LorenzoLaCorte/european-tech-internships-2026",
       "posted_at": "2026-09-06",
       "age": "0d",
+      "collected_at": "2026-09-06T10:54:42Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-06T10:54:42Z"
+    },
+    {
+      "id": "932385fd717b372c",
+      "company": "Mastercard",
+      "title": "Data Engineer II",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Data-Engineer-II_R-289305",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-05",
+      "age": "4d",
+      "collected_at": "2026-09-05T09:04:05Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-06T10:54:42Z"
+    },
+    {
+      "id": "a4f1485683352998",
+      "company": "Palantir",
+      "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Chicago, IL",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-06",
+      "age": "0d",
       "collected_at": "2026-09-06T05:56:33Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-06T05:56:33Z"
+      "closed_at": "2026-09-06T10:54:42Z"
+    },
+    {
+      "id": "c98875b5267332ed",
+      "company": "Palantir",
+      "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-06",
+      "age": "0d",
+      "collected_at": "2026-09-06T05:56:33Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-06T10:54:42Z"
+    },
+    {
+      "id": "c2a3339d27472e50",
+      "company": "Amazon",
+      "title": "Software Development Engineer, Inventory Authority Platform (IAP)",
+      "level": "unknown",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "platform",
+      "country": "Unknown",
+      "location": "Bengaluru, Karnataka, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10435272/software-development-engineer-inventory-authority-platform-iap",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-01",
+      "age": "96d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-06T10:54:42Z"
+    },
+    {
+      "id": "c7c44f1b5a9bef7c",
+      "company": "Palantir",
+      "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "us",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington, D.C.",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-06",
+      "age": "0d",
+      "collected_at": "2026-09-06T05:56:33Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-06T10:54:42Z"
+    },
+    {
+      "id": "9827be1b74b2a1ad",
+      "company": "Amazon",
+      "title": "Software Development Engineer, AFFS",
+      "level": "unknown",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "other_swe",
+      "country": "Unknown",
+      "location": "Pune, Maharashtra, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10486910/software-development-engineer-affs",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-29",
+      "age": "38d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-06T10:54:42Z"
     },
     {
       "id": "b3126ca0917b76be",
@@ -51,30 +195,6 @@
       "closed_at": "2026-09-06T05:56:33Z"
     },
     {
-      "id": "c6a653b0d2d7f311",
-      "company": "ByteDance",
-      "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern - CDN Platform 🎓",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "platform",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7673636205233490181/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-09-05",
-      "age": "22d",
-      "collected_at": "2026-09-05T12:41:34Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-06T05:56:33Z"
-    },
-    {
       "id": "162a14da3a107f9f",
       "company": "Palantir",
       "title": "Software Engineer, Internship",
@@ -88,30 +208,6 @@
       "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-06",
-      "age": "0d",
-      "collected_at": "2026-09-06T00:55:58Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-06T05:56:33Z"
-    },
-    {
-      "id": "66bbf1e553376c7c",
-      "company": "Palantir",
-      "title": "Software Engineer, Internship",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "us",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Denver, CO",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
       "posted_at": "2026-09-06",
       "age": "0d",
       "collected_at": "2026-09-06T00:55:58Z",
@@ -3139,30 +3235,6 @@
       "posted_at": "2026-09-04",
       "age": "2w",
       "collected_at": "2026-09-04T00:05:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-05T22:56:26Z"
-    },
-    {
-      "id": "6ffffa2b5640e686",
-      "company": "SpaceX",
-      "title": "Software Engineer New Grad - Software",
-      "level": "new_grad",
-      "category": "more_global_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Brownsville, TX",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-09-05",
-      "age": "17d",
-      "collected_at": "2026-09-05T09:04:05Z",
       "tags": [
         "software",
         "programming",
