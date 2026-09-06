@@ -399,6 +399,27 @@ def main():
         ),
     ))
 
+    run("normalize_rows copies region/role_type/remote_type/country for D2 bucketing", lambda: check(
+        "normalize_rows classification passthrough",
+        (lambda r: r["region"] == "us" and r["role_type"] == "backend"
+         and r["remote_type"] == "remote" and r["country"] == "United States")(
+            bdr.normalize_rows([{
+                "company": "Acme", "title": "SWE", "url": "https://x/z", "source": "greenhouse:acme",
+                "posted_at": "2026-01-01", "date": "2d", "level": "new_grad", "kind": "job",
+                "region": "us", "role_type": "backend", "remote_type": "remote", "country": "United States",
+            }], "curated")[0]
+        ),
+    ))
+    run("normalize_rows leaves classification fields blank (not guessed) when absent", lambda: check(
+        "normalize_rows classification absent",
+        (lambda r: r["region"] == "" and r["role_type"] == "" and r["country"] == "")(
+            bdr.normalize_rows([{
+                "company": "Acme", "title": "SWE", "url": "https://x/w", "source": "speedyapply_swe",
+                "posted_at": "2026-01-01", "age": "2d", "level": "new_grad", "kind": "job",
+            }], "curated")[0]
+        ),
+    ))
+
     # README render helpers
     run("format_salary_short renders a compact range", lambda: check(
         "salary short",

@@ -156,6 +156,8 @@ flowchart LR
 
 **Multi-location postings:** the curated layer bakes a `<details><summary>` dropdown into `location` for the Markdown tables (via `format_location_display`). `site-index.json` is consumed by a real UI, not a Markdown renderer, so `_clean_site_location()` unpacks that HTML back into a plain `"First, Place +N more"` summary string plus a `locations[]` array; the site's `OpportunityTable` renders its own `<details>` control from the array.
 
+**Trend history (`update_stats_history` + `summarize_snapshot_dimensions`):** the same run appends one `StatsHistorySnapshot` to `data/stats-history.json` (capped to 90 days) — the totals the README already computes, plus a `dimensions` object breaking the published job set down by level / region / remote-type / role-type / category (exhaustive, blank → `unknown`) and country / source / company (top ~15–20). It's a *forward-built* time series: one point per hourly run, so a site gets a real trend line from a plain fetch instead of scraping this repo's git history through GitHub's rate-limited API. `dimensions` is optional in the schema, so snapshots written before it existed still validate.
+
 ```mermaid
 flowchart TD
     CJ["jobs-global.json\n(curated)"] --> Merge["normalize_rows() x2\n+ concatenate"]

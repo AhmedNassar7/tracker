@@ -87,6 +87,23 @@ export interface SiteIndex {
 }
 
 // Mirrors config/stats-history.schema.json.
+export type CountMap = Record<string, number>;
+
+// D2 — per-run breakdowns of the published job set. Present on snapshots
+// written on/after 2026-09-06; absent on older ones (hence optional on the
+// snapshot). by_level/by_region/by_remote_type/by_role_type/by_category are
+// exhaustive; by_country/by_source/top_companies are top-N only.
+export interface SnapshotDimensions {
+  by_level?: CountMap;
+  by_region?: CountMap;
+  by_remote_type?: CountMap;
+  by_role_type?: CountMap;
+  by_category?: CountMap;
+  by_country?: CountMap;
+  by_source?: CountMap;
+  top_companies?: CountMap;
+}
+
 export interface StatsHistorySnapshot {
   at: string;
   curated_roles: number;
@@ -100,6 +117,7 @@ export interface StatsHistorySnapshot {
     early_career: number;
     mid_level: number;
   };
+  dimensions?: SnapshotDimensions;
 }
 
 export interface StatsHistory {

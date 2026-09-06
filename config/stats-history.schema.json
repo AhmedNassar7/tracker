@@ -44,6 +44,10 @@
     "level_counts": {
       "type": "object",
       "description": "Job counts bucketed into internship / early_career / mid_level, the same buckets data/README.md renders. Nested field types are documentation only — the dependency-free validator in scripts/schema_validator.py doesn't recurse into nested object properties."
+    },
+    "dimensions": {
+      "type": "object",
+      "description": "Optional (added 2026-09-06, D2). Per-run breakdowns of the published job set, from summarize_snapshot_dimensions() in build_data_readme.py. Each value is a { bucket: count } map: by_level / by_region / by_remote_type / by_role_type / by_category are exhaustive (a blank field is bucketed 'unknown', so they sum to jobs_total); by_country / by_source / top_companies are capped to their top ~15-20 by count (so they sum to at most jobs_total). Snapshots written before this field existed simply omit it — it's optional so those stay valid. Nested types are documentation only; the validator doesn't recurse."
     }
   },
   "additionalProperties": false

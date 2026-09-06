@@ -167,6 +167,15 @@ def normalize_rows(rows: list[dict], origin: str) -> list[dict]:
             # ordering in sort_jobs so FAANG/big-tech surface above a
             # same-age role at a less-known company.
             "category": row.get("category") or "",
+            # Already-detected classification fields, copied through (not
+            # re-derived) so summarize_snapshot_dimensions() can bucket the
+            # published set by them. region/role_type exist on both layers;
+            # country/remote_type are curated-only — absent on public rows,
+            # which then just fall into the "unknown" bucket, never a guess.
+            "region": row.get("region") or "",
+            "role_type": row.get("role_type") or "",
+            "remote_type": row.get("remote_type") or "",
+            "country": row.get("country") or "",
         }
         # B3/B4/B5 facets — carried through so the rendered tables can show a
         # 🛂 marker / an inline pay range. Only copied when the source row
@@ -926,12 +935,61 @@ def build_site_index(
     }
 
 
-def update_stats_history(existing_history: dict, stats: dict, now_iso: str) -> dict:
+# How many rows to keep for the open-ended dimensions. A single snapshot
+# stays small (~a few KB) and 90 days of them stays well under the size the
+# performance budget cares about, while still being enough for "top hiring
+# companies this week" / "most roles: US, then Germany" story cards.
+_SNAPSHOT_TOP_N = 20
+_SNAPSHOT_COUNTRY_N = 15
+
+
+def summarize_snapshot_dimensions(jobs: list[dict]) -> dict:
+    """Per-run counts of the published job set along the dimensions a trend
+    dashboard and the D1 story cards need — D2 in docs/WEBSITE-VISION-PLAN.html
+    §11.
+
+    Every bucket is a plain ``{value: count}`` map. A missing or blank field
+    goes to ``"unknown"`` (never a guessed value), so the closed dimensions
+    (level/region/remote_type/role_type/category) always sum to ``len(jobs)``.
+    The open-ended ones (country/company/source) are capped to their top N by
+    count so the 90-day file stays bounded; those therefore sum to *at most*
+    ``len(jobs)``. Pure: same input, same output, no clock or disk.
+    """
+    def tally(key_fn) -> dict:
+        counts: dict = {}
+        for job in jobs:
+            key = (key_fn(job) or "").strip() or "unknown"
+            counts[key] = counts.get(key, 0) + 1
+        return counts
+
+    def top_n(counts: dict, n: int) -> dict:
+        return dict(sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))[:n])
+
+    return {
+        "by_level": tally(lambda j: j.get("level")),
+        "by_region": tally(lambda j: j.get("region")),
+        "by_remote_type": tally(lambda j: j.get("remote_type")),
+        "by_role_type": tally(lambda j: j.get("role_type")),
+        "by_category": tally(lambda j: j.get("category") or "uncategorized"),
+        "by_country": top_n(tally(lambda j: j.get("country")), _SNAPSHOT_COUNTRY_N),
+        "by_source": top_n(tally(lambda j: j.get("source")), _SNAPSHOT_TOP_N),
+        "top_companies": top_n(tally(lambda j: j.get("company")), _SNAPSHOT_TOP_N),
+    }
+
+
+def update_stats_history(
+    existing_history: dict, stats: dict, now_iso: str, dimensions: dict | None = None
+) -> dict:
     """Append this run's snapshot to the rolling history, pruning anything
     older than STATS_HISTORY_RETENTION_DAYS. Pure — takes the previously
     written history dict (or {} if data/stats-history.json doesn't exist
     yet) rather than reading the file itself, so it's testable without disk
     I/O, matching build_site_index()'s shape.
+
+    ``dimensions`` (from summarize_snapshot_dimensions) is stored under the
+    snapshot's ``dimensions`` key when given. It's optional in the schema, so
+    the pre-D2 snapshots already on disk (which have no such key) still
+    validate on every subsequent run.
 
     This is the free time-series data the plan's website-build doc calls
     for ("a trend line built from stats.json's own git history"), built
@@ -942,18 +1000,19 @@ def update_stats_history(existing_history: dict, stats: dict, now_iso: str) -> d
     this file needs nothing beyond a normal fetch, same as site-index.json.
     """
     snapshots = list(existing_history.get("snapshots", []) or [])
-    snapshots.append(
-        {
-            "at": now_iso,
-            "curated_roles": stats["curated_roles"],
-            "public_opportunities": stats["public_opportunities"],
-            "jobs_total": stats["jobs_total"],
-            "hackathons_total": stats["hackathons_total"],
-            "events_total": stats["events_total"],
-            "total_items": stats["total_items"],
-            "level_counts": dict(stats["level_counts"]),
-        }
-    )
+    snapshot = {
+        "at": now_iso,
+        "curated_roles": stats["curated_roles"],
+        "public_opportunities": stats["public_opportunities"],
+        "jobs_total": stats["jobs_total"],
+        "hackathons_total": stats["hackathons_total"],
+        "events_total": stats["events_total"],
+        "total_items": stats["total_items"],
+        "level_counts": dict(stats["level_counts"]),
+    }
+    if dimensions:
+        snapshot["dimensions"] = dimensions
+    snapshots.append(snapshot)
 
     # Timestamps are all "YYYY-MM-DDTHH:MM:SSZ" (fixed-width, zero-padded,
     # UTC) — the same format already relied on for lexicographic ordering
@@ -1038,7 +1097,8 @@ def main() -> int:
     print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
 
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    stats_history = update_stats_history(load_json(STATS_HISTORY_JSON), stats, now_iso)
+    dimensions = summarize_snapshot_dimensions(filtered_jobs)
+    stats_history = update_stats_history(load_json(STATS_HISTORY_JSON), stats, now_iso, dimensions)
     STATS_HISTORY_JSON.write_text(json.dumps(stats_history, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {STATS_HISTORY_JSON} ({len(stats_history['snapshots'])} snapshots)")
 
