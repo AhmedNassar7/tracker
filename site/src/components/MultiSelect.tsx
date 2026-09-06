@@ -1,4 +1,5 @@
 import { useEffect, useId, useMemo, useRef, useState } from "react";
+import Flag from "./Flag";
 
 // A compact multi-select: a button showing the facet name (and a count when
 // values are picked) that opens a checkbox popover. `searchable` adds an
@@ -8,6 +9,9 @@ import { useEffect, useId, useMemo, useRef, useState } from "react";
 export interface MultiSelectOption {
   value: string;
   label: string;
+  // When set, a small country flag renders before the label (used by the
+  // Country facet — the value IS the country name).
+  flagCountry?: string;
 }
 
 interface Props {
@@ -126,6 +130,7 @@ export default function MultiSelect({ label, options, selected, onChange, search
                   onChange={() => toggle(opt.value)}
                   className="h-3.5 w-3.5 accent-teal-600"
                 />
+                {opt.flagCountry && <Flag country={opt.flagCountry} />}
                 {opt.label}
               </label>
             ))}

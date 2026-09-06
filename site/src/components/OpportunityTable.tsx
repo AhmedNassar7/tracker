@@ -1,7 +1,9 @@
 import BookmarkButton from "./BookmarkButton";
 import CompanyAvatar from "./CompanyAvatar";
+import Flag from "./Flag";
 import { BASE_URL } from "../lib/basePath";
 import { formatAge, formatLevel, formatRelativeTime, formatSalaryShort, prettifyCompany } from "../lib/labels";
+import { countryForItem } from "../lib/geo";
 import type { SiteIndexEntry } from "../lib/types";
 
 const MAX_TECH_CHIPS = 4;
@@ -103,17 +105,19 @@ function stripLocationMarkup(location: string): string {
 }
 
 function LocationCell({ item }: { item: SiteIndexEntry }) {
-  // A country flag in front of the location (G5) — small, Unicode, no image.
-  // Skipped for Remote/Unknown (country_flag is then absent) and for
-  // non-jobs.
-  const flag = item.kind === "job" && item.country_flag ? `${item.country_flag} ` : "";
+  // A real country flag image in front of the location — resolved from the
+  // item's country or, failing that, its location string (client-side), so
+  // it works before the pipeline re-runs country detection and on every OS.
+  const flag =
+    item.kind === "job" ? <Flag country={countryForItem(item)} className="mr-1.5 align-[-2px]" /> : null;
   const locs = item.locations;
   if (locs && locs.length > 1) {
     return (
       <details className="group">
         <summary className="cursor-pointer list-none text-slate-600 marker:content-none hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-100">
           <span className="underline decoration-dotted underline-offset-2">
-            {flag}{locs[0]}
+            {flag}
+            {locs[0]}
           </span>{" "}
           <span className="text-xs text-slate-400">+{locs.length - 1} more</span>
         </summary>
@@ -125,7 +129,12 @@ function LocationCell({ item }: { item: SiteIndexEntry }) {
       </details>
     );
   }
-  return <>{flag}{stripLocationMarkup(item.location)}</>;
+  return (
+    <>
+      {flag}
+      {stripLocationMarkup(item.location)}
+    </>
+  );
 }
 
 interface Props {

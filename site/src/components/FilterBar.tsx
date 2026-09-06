@@ -7,7 +7,7 @@ import {
   REMOTE_VALUES,
   type FilterState,
 } from "../lib/filters";
-import { countryFlag, LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS } from "../lib/labels";
+import { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS } from "../lib/labels";
 import MultiSelect, { type MultiSelectOption } from "./MultiSelect";
 
 // The ONE facet surface (Lane H). Option lists come from filters.ts's
@@ -57,12 +57,13 @@ export default function FilterBar({
     onChange({ ...filters, [key]: value });
   };
   const toggleVisa = () => set("visa", filters.visa === "yes" ? "" : "yes");
-  // Country options show the flag in front of the name — "🇪🇬 Egypt" — so the
-  // list is scannable but still identifiable (flag-only would fail a11y).
-  const countryOptions: MultiSelectOption[] = availableCountries.map((c) => {
-    const flag = countryFlag(c);
-    return { value: c, label: flag ? `${flag} ${c}` : c };
-  });
+  // Country options get a real flag image before the name (see <Flag> —
+  // emoji flags render as bare letters on Windows).
+  const countryOptions: MultiSelectOption[] = availableCountries.map((c) => ({
+    value: c,
+    label: c,
+    flagCountry: c,
+  }));
   const companyOptions: MultiSelectOption[] = availableCompanies.map((c) => ({ value: c, label: c }));
   const tagOptions: MultiSelectOption[] = availableTags.map((t) => ({ value: t, label: t }));
 

@@ -63,36 +63,9 @@ export function formatRelativeTime(iso: string | undefined | null): string {
   return `${Math.round(hours / 24)}d ago`;
 }
 
-// Country name → ISO-3166-1 alpha-2, mirrors _COUNTRY_ISO2 in
-// scripts/patterns.py. Only the names scripts/patterns.py's detect_country
-// can produce need an entry.
-const COUNTRY_ISO2: Record<string, string> = {
-  "United States": "US", Canada: "CA", "United Kingdom": "GB", Ireland: "IE",
-  Germany: "DE", France: "FR", Netherlands: "NL", Belgium: "BE",
-  Sweden: "SE", Norway: "NO", Denmark: "DK", Finland: "FI",
-  Italy: "IT", Spain: "ES", Portugal: "PT", Switzerland: "CH",
-  Austria: "AT", Poland: "PL", Czechia: "CZ", Romania: "RO",
-  Greece: "GR", Hungary: "HU", Ukraine: "UA",
-  "United Arab Emirates": "AE", "Saudi Arabia": "SA", Qatar: "QA",
-  Kuwait: "KW", Bahrain: "BH", Oman: "OM", Jordan: "JO",
-  Lebanon: "LB", Palestine: "PS", Iraq: "IQ", Israel: "IL",
-  Egypt: "EG", Morocco: "MA", Algeria: "DZ", Tunisia: "TN", Turkey: "TR",
-  Nigeria: "NG", Kenya: "KE", Ghana: "GH", "South Africa": "ZA",
-  India: "IN", Pakistan: "PK", Bangladesh: "BD", Singapore: "SG",
-  Japan: "JP", "South Korea": "KR", China: "CN", "Hong Kong": "HK",
-  Taiwan: "TW", Indonesia: "ID", Philippines: "PH", Vietnam: "VN",
-  Thailand: "TH", Malaysia: "MY", Australia: "AU", "New Zealand": "NZ",
-  Brazil: "BR", Mexico: "MX", Argentina: "AR", Colombia: "CO", Chile: "CL",
-};
-
-/** Flag emoji for a country name (Unicode regional-indicator symbols), or ""
- *  when there's no clean mapping ("Remote"/"Unknown"/unrecognised). Mirrors
- *  scripts/patterns.py country_flag(). */
-export function countryFlag(country: string | undefined | null): string {
-  const iso2 = COUNTRY_ISO2[(country || "").trim()];
-  if (!iso2) return "";
-  return [...iso2].map((c) => String.fromCodePoint(0x1f1e6 + c.charCodeAt(0) - 65)).join("");
-}
+// Country → ISO2 and flags live in ./geo (with client-side country
+// detection); flag *emoji* is avoided in the UI because Windows renders it as
+// bare letters — see components/Flag.tsx.
 
 /** "5d" / "3mo" / "2yrs" from a raw age like "5d" / "101d" — same magnitude
  *  buckets as scripts/build_data_readme.py's format_age(), so the site and the

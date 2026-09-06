@@ -9,6 +9,7 @@
 //                       of the saved filter when ranking.
 
 import { DEFAULT_FILTERS, type FilterState } from "./filters";
+import { countryForItem } from "./geo";
 import type { SiteIndexEntry } from "./types";
 
 const PREF_FILTER_KEY = "tracker:prefFilter";
@@ -185,7 +186,10 @@ export function scoreOpportunity(item: SiteIndexEntry, pref: FilterState, tune: 
   if (pref.levels.length > 0 && item.level && pref.levels.includes(item.level)) score += 3;
   if (pref.regions.length > 0 && item.region && pref.regions.includes(item.region)) score += 2;
   if (pref.remotes.length > 0 && item.remote_type && pref.remotes.includes(item.remote_type)) score += 2;
-  if (pref.countries.length > 0 && item.country && pref.countries.includes(item.country)) score += 2;
+  if (pref.countries.length > 0) {
+    const c = countryForItem(item);
+    if (c && pref.countries.includes(c)) score += 2;
+  }
   if (pref.companies.length > 0 && pref.companies.includes(item.company)) score += 3;
   if (pref.tags.length > 0) {
     const tags = item.tech_tags ?? [];
@@ -208,7 +212,10 @@ export function matchReasons(item: SiteIndexEntry, pref: FilterState, tune: Rank
   }
   if (pref.regions.length > 0 && item.region && pref.regions.includes(item.region)) reasons.push(item.region.toUpperCase());
   if (pref.remotes.length > 0 && item.remote_type && pref.remotes.includes(item.remote_type)) reasons.push(item.remote_type);
-  if (pref.countries.length > 0 && item.country && pref.countries.includes(item.country)) reasons.push(item.country);
+  if (pref.countries.length > 0) {
+    const c = countryForItem(item);
+    if (c && pref.countries.includes(c)) reasons.push(c);
+  }
   if (pref.companies.length > 0 && pref.companies.includes(item.company)) reasons.push(item.company);
   if (pref.tags.length > 0) {
     const tags = item.tech_tags ?? [];

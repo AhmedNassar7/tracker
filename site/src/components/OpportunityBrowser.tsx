@@ -28,6 +28,7 @@ import {
 } from "../lib/preferences";
 import type { SiteIndex, SiteIndexEntry, StoryCard } from "../lib/types";
 import { companyTier } from "../lib/companyTiers";
+import { countryForItem } from "../lib/geo";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import Pagination from "./Pagination";
 import BrowseEveryRole from "./BrowseEveryRole";
@@ -320,8 +321,14 @@ export default function OpportunityBrowser() {
   }, [relevanceActive, prefFilter, rankTune, visibleItems]);
 
   const availableCountries = useMemo(() => {
+    // countryForItem falls back to detecting from the location string, so
+    // Gulf / North-Africa / APAC countries appear here even before the
+    // pipeline re-runs detect_country over the public layer.
     const countries = new Set<string>();
-    for (const item of opportunityItems) if (item.country) countries.add(item.country);
+    for (const item of opportunityItems) {
+      const c = countryForItem(item);
+      if (c) countries.add(c);
+    }
     return [...countries].sort((a, b) => a.localeCompare(b));
   }, [opportunityItems]);
 

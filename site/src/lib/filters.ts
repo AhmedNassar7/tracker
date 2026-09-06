@@ -1,3 +1,4 @@
+import { countryForItem } from "./geo";
 import type { Level, Region, RemoteType, SiteIndexEntry, SiteIndexKind } from "./types";
 
 // The filter bar is the ONE place facets live (Lane H). Every multi-value
@@ -138,7 +139,10 @@ export function applyFilters(items: SiteIndexEntry[], filters: FilterState): Sit
     if (filters.levels.length > 0 && !(item.level && filters.levels.includes(item.level))) return false;
     if (filters.regions.length > 0 && !(item.region && filters.regions.includes(item.region))) return false;
     if (filters.remotes.length > 0 && !(item.remote_type && filters.remotes.includes(item.remote_type))) return false;
-    if (filters.countries.length > 0 && !(item.country && filters.countries.includes(item.country))) return false;
+    if (filters.countries.length > 0) {
+      const c = countryForItem(item);
+      if (!(c && filters.countries.includes(c))) return false;
+    }
     if (filters.companies.length > 0 && !filters.companies.includes(item.company)) return false;
     if (filters.tags.length > 0) {
       const tags = item.tech_tags ?? [];
