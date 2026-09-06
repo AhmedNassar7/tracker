@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Sun, 06 Sep 2026 14:11:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 17:03:31 GMT</lastBuildDate>
     <item>
       <title>Prosocial Engineering — Global Psyops Hackathon</title>
       <link>https://global-psyops-hackathon.devpost.com/</link>
@@ -13,17 +13,17 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>CreateHER Fest — DIALED IN Builder Challenge</title>
+      <link>https://dialedin.devpost.com/</link>
+      <guid isPermaLink="false">7dac94bfa21e1c68</guid>
+      <description>The Hub @ Office Logic · 2 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NA — AI Content Engine Hackathon</title>
       <link>https://ai-content-engine-hacks.devpost.com/</link>
       <guid isPermaLink="false">423732edc712d307</guid>
       <description>Online · 2 days left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>CreateHER Fest — DIALED IN Builder Challenge</title>
-      <link>https://dialedin.devpost.com/</link>
-      <guid isPermaLink="false">7dac94bfa21e1c68</guid>
-      <description>The Hub @ Office Logic · 3 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -55,6 +55,13 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>CyberSyntax Hub — CSH Social Impact Ideathon</title>
+      <link>https://csh-social-impact-ideathon.devpost.com/</link>
+      <guid isPermaLink="false">182ac96a57caaf22</guid>
+      <description>Online · 5 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — FusioniX2026</title>
       <link>https://fusionix-1.devfolio.co</link>
       <guid isPermaLink="false">24d8ae6614b71e3a</guid>
@@ -69,6 +76,20 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Interledger Student Hackathon - Tec de Software</title>
+      <link>https://interledger-student-hackathon-merida.devfolio.co</link>
+      <guid isPermaLink="false">9549cd7a0ba55710</guid>
+      <description>Mérida, Mexico · 5 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SPA Bhopal — Music from BeatMind</title>
+      <link>https://music-from-beatmind.devpost.com/</link>
+      <guid isPermaLink="false">44210e6eaa9e52e9</guid>
+      <description>Online · 5 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Binnovative — AnimalHack 2026</title>
       <link>https://animalhack2026.devpost.com/</link>
       <guid isPermaLink="false">a83458d106532a8c</guid>
@@ -76,31 +97,10 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>CyberSyntax Hub — CSH Social Impact Ideathon</title>
-      <link>https://csh-social-impact-ideathon.devpost.com/</link>
-      <guid isPermaLink="false">182ac96a57caaf22</guid>
-      <description>Online · 6 days left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Interledger Student Hackathon - Tec de Software</title>
-      <link>https://interledger-student-hackathon-merida.devfolio.co</link>
-      <guid isPermaLink="false">9549cd7a0ba55710</guid>
-      <description>Mérida, Mexico · 6 days left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — Metamorph 2.0</title>
       <link>https://metamorph-2.devfolio.co</link>
       <guid isPermaLink="false">8f93dca396fa5ba7</guid>
       <description>Panihati, India · 6 days left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SPA Bhopal — Music from BeatMind</title>
-      <link>https://music-from-beatmind.devpost.com/</link>
-      <guid isPermaLink="false">44210e6eaa9e52e9</guid>
-      <description>Online · 6 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -163,6 +163,13 @@
       <title>OSC — AI Builders Hackathon</title>
       <link>https://ai-builders-hackathon-2026.devpost.com/</link>
       <guid isPermaLink="false">d544884232a5b17a</guid>
+      <description>Online · 9 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GatewayGS — GatewayGS Hackathon 2</title>
+      <link>https://gatewaygs-hackathon-2.devpost.com/</link>
+      <guid isPermaLink="false">0e04c12ae1956584</guid>
       <description>Online · 10 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -174,16 +181,16 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>GatewayGS — GatewayGS Hackathon 2</title>
-      <link>https://gatewaygs-hackathon-2.devpost.com/</link>
-      <guid isPermaLink="false">0e04c12ae1956584</guid>
+      <title>President University — COMPSPHERE 12</title>
+      <link>https://compsphere12.devpost.com/</link>
+      <guid isPermaLink="false">88933e7fa3c15313</guid>
       <description>Online · 11 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>President University — COMPSPHERE 12</title>
-      <link>https://compsphere12.devpost.com/</link>
-      <guid isPermaLink="false">88933e7fa3c15313</guid>
+      <title>Rice University — The Rice University Urban Sustainability Hackathon</title>
+      <link>https://rice-urban-sustainability.devpost.com/</link>
+      <guid isPermaLink="false">8662a5bbc58a19f5</guid>
       <description>Online · 11 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -202,13 +209,6 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Rice University — The Rice University Urban Sustainability Hackathon</title>
-      <link>https://rice-urban-sustainability.devpost.com/</link>
-      <guid isPermaLink="false">8662a5bbc58a19f5</guid>
-      <description>Online · 12 days left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>CAST-GNY — CAST-GNY Startup Pitch Competition 2026</title>
       <link>https://castgnypitch2026.devpost.com/</link>
       <guid isPermaLink="false">25ae2513702e4db3</guid>
@@ -219,6 +219,13 @@
       <title>Devfolio — Avalon OpenHack</title>
       <link>https://avalon-openhack.devfolio.co</link>
       <guid isPermaLink="false">8902011d35216ef4</guid>
+      <description>Online · 14 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Evorozen — Evorozen Apex: NextGen AI Buildathon</title>
+      <link>https://evorozen-apex.devpost.com/</link>
+      <guid isPermaLink="false">84fd0eca7466b4a1</guid>
       <description>Online · 14 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -234,13 +241,6 @@
       <link>https://binary-hacks-4.devfolio.co</link>
       <guid isPermaLink="false">e678bc4e854576ce</guid>
       <description>Ghaziabad, India · 15 days left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Evorozen — Evorozen Apex: NextGen AI Buildathon</title>
-      <link>https://evorozen-apex.devpost.com/</link>
-      <guid isPermaLink="false">84fd0eca7466b4a1</guid>
-      <description>Online · 15 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -269,6 +269,13 @@
       <link>https://builders-day-hackunion.devfolio.co</link>
       <guid isPermaLink="false">285630e1134ad955</guid>
       <description>Hyderabad, India · 19 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — Cognition - GameJam '26</title>
+      <link>https://cognition-gamejam-1.devfolio.co</link>
+      <guid isPermaLink="false">30f4d87edfbdea96</guid>
+      <description>Navi Mumbai, India · 19 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -318,13 +325,6 @@
       <link>https://practicetocreate.devpost.com/</link>
       <guid isPermaLink="false">4ad97c14efe368d8</guid>
       <description>Online · 19 days left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Cognition - GameJam '26</title>
-      <link>https://cognition-gamejam-1.devfolio.co</link>
-      <guid isPermaLink="false">30f4d87edfbdea96</guid>
-      <description>Navi Mumbai, India · 20 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -384,9 +384,23 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>GatewayGS — GatewayHacks 2026 | Software &amp; AI</title>
+      <link>https://gatewayhacks-2026.devpost.com/</link>
+      <guid isPermaLink="false">76e2b67237356f88</guid>
+      <description>Online · 25 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Next Byte Hacks — Next Byte Hacks: V4</title>
       <link>https://next-byte-hacks-v4.devpost.com/</link>
       <guid isPermaLink="false">9129d48f2f05dc09</guid>
+      <description>Online · 25 days left</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>RevenueCat — RevenueCat Shipaton 2026</title>
+      <link>https://revenuecat-shipaton-2026.devpost.com/</link>
+      <guid isPermaLink="false">37b6bc24041cc8fd</guid>
       <description>Online · 25 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -395,13 +409,6 @@
       <link>https://hackspire26.devfolio.co</link>
       <guid isPermaLink="false">ee593f05757b682d</guid>
       <description>Kolkata, India · 26 days left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GatewayGS — GatewayHacks 2026 | Software &amp; AI</title>
-      <link>https://gatewayhacks-2026.devpost.com/</link>
-      <guid isPermaLink="false">76e2b67237356f88</guid>
-      <description>Online · 26 days left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -555,7 +562,7 @@
       <title>Agent Orchestrator — Syndicate by Maximor</title>
       <link>https://syndicate-by-maximor.devpost.com/</link>
       <guid isPermaLink="false">cd94b21915749388</guid>
-      <description>Online · about 8 hours left</description>
+      <description>Online · about 5 hours left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -583,14 +590,14 @@
       <title>Cerebral Valley — test-event</title>
       <link>https://cv-test-hackathon.devpost.com/</link>
       <guid isPermaLink="false">407bc6bbad6db75f</guid>
-      <description>San Francisco, CA, USA · about 8 hours left</description>
+      <description>San Francisco, CA, USA · about 4 hours left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>CodeBox — CodeBox Hacks</title>
       <link>https://codebox-hacks.devpost.com/</link>
       <guid isPermaLink="false">fb89b382f1e278a0</guid>
-      <description>Cal Poly Advanced Technology Lab · about 12 hours left</description>
+      <description>Cal Poly Advanced Technology Lab · about 4 hours left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -608,17 +615,17 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Emerald Parents — EmP Hackfest Summer 2026</title>
+      <title>Emerald Parents — SafeHack</title>
       <link>https://emp-hackfest-summer-2026.devpost.com/</link>
-      <guid isPermaLink="false">6a382bae9743a455</guid>
-      <description>DigiPen Institute of Technology · about 13 hours left</description>
+      <guid isPermaLink="false">ab97437af1dd4509</guid>
+      <description>DigiPen Institute of Technology · about 5 hours left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Hack Club — Graphiques Innovation Challenge</title>
       <link>https://graphiques-challenge.devpost.com/</link>
       <guid isPermaLink="false">a1b0841eccae8d89</guid>
-      <description>Online · about 7 hours left</description>
+      <description>Online · about 5 hours left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -629,17 +636,10 @@
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mafiq Foundation — MYHack: ISNA 2026</title>
-      <link>https://myhack-isna.devpost.com/</link>
-      <guid isPermaLink="false">0aacc6acdc849404</guid>
-      <description>Detroit, MI, USA · about 2 hours left</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>MuslimHacks — MuslimHacks</title>
       <link>https://muslimhacks.devpost.com/</link>
       <guid isPermaLink="false">8109d0f31a5e3d4f</guid>
-      <description>Concordia University — JMSB · about 2 hours left</description>
+      <description>Concordia University — JMSB · 28 minutes left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -674,7 +674,7 @@
       <title>Shrimat Koti — Coppell hackathon 1</title>
       <link>https://fintech-hackothon-1.devpost.com/</link>
       <guid isPermaLink="false">38c0c0ba6ef4f288</guid>
-      <description>Online · about 8 hours left</description>
+      <description>Online · about 6 hours left</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
