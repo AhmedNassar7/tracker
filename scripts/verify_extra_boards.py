@@ -39,41 +39,55 @@ CONFIG = ROOT / "config" / "extra_job_boards.yml"
 UA = {"User-Agent": "tracker-bot/1.0 (board verification)"}
 TIMEOUT = 15
 
-# MENA / Gulf / North Africa shortlist — platform guesses + token guesses.
+# MENA / Gulf / North Africa shortlist — platform + token guesses.
 # `--mena` verifies these; move the confirmed ones into extra_job_boards.yml.
-# NOTE: a 2026-09-06 pass found none of the Greenhouse/Lever guesses real and
-# only an (empty) MoneyHash Ashby board — most of these companies use Workable
-# (no fetcher yet). Kept here as a re-check list; edit tokens as you learn the
-# real ones from company careers pages.
+#
+# 2026-09-06: a first pass 404'd on every Greenhouse/Lever guess — because
+# **Lever/Greenhouse tokens are case-sensitive** and the guesses were all
+# lowercase. Hand research then found real boards:
+#   Bosta   → jobs.lever.co/Bosta        (Cairo — VERIFIED, added to lever:)
+#   Tabby   → tabby.pinpointhq.com       (PinpointHQ — a 6th ATS, no fetcher)
+# The checker now auto-retries a few case variants, so a lowercase guess that
+# has a Title-case real board will still be found. Update tokens as you learn
+# the real ones from a company's "Powered by <ATS>" careers footer.
 MENA_CANDIDATES = [
+    ("lever", "Bosta"),
+    ("lever", "MNT-Halan"),
+    ("lever", "mnt-halan"),
+    ("lever", "Halan"),
+    ("lever", "Trella"),
     ("greenhouse", "swvl"),
     ("greenhouse", "paymob"),
     ("greenhouse", "instabug"),
-    ("greenhouse", "moneyhash"),
     ("greenhouse", "rasan"),
     ("greenhouse", "foodics"),
-    ("greenhouse", "nanadirect"),
     ("greenhouse", "unifonic"),
     ("greenhouse", "zid"),
     ("greenhouse", "salla"),
-    ("greenhouse", "leantech"),
     ("greenhouse", "sary"),
     ("greenhouse", "tabby"),
-    ("greenhouse", "mamopay"),
     ("greenhouse", "huspy"),
     ("greenhouse", "nawy"),
     ("greenhouse", "sylndr"),
     ("greenhouse", "telda"),
-    ("greenhouse", "bosta"),
-    ("lever", "mnthalan"),
-    ("lever", "halan"),
-    ("lever", "trella"),
     ("ashby", "telda"),
     ("ashby", "moneyhash"),
-    ("ashby", "money-hash"),
     ("ashby", "nawy"),
     ("ashby", "sylndr"),
+    ("smartrecruiters", "Talabat"),
+    ("smartrecruiters", "Noon"),
 ]
+
+
+def _case_variants(token: str) -> list[str]:
+    """Casing forms to try for a case-sensitive Greenhouse/Lever token — the
+    lowercase guess, the company's likely real form, and Title-case."""
+    seen, out = set(), []
+    for v in (token, token.lower(), token.capitalize(), token.title(), token.upper()):
+        if v not in seen:
+            seen.add(v)
+            out.append(v)
+    return out
 
 GREEN, RED, YELLOW, DIM, RESET = "\033[32m", "\033[31m", "\033[33m", "\033[2m", "\033[0m"
 
@@ -103,38 +117,57 @@ def _sample(rows: list[dict], title_key: str, loc_key) -> str:
     return "\n".join(out)
 
 
-def check_greenhouse(token: str) -> tuple[str, bool]:
-    name_status, name_body = _get(f"https://boards-api.greenhouse.io/v1/boards/{token}")
+def _check_greenhouse_exact(token: str) -> tuple[str, bool] | None:
+    """None ⇒ 404 (try another casing); otherwise the final verdict."""
+    _, name_body = _get(f"https://boards-api.greenhouse.io/v1/boards/{token}")
     board_name = (name_body or {}).get("name") if isinstance(name_body, dict) else None
     status, body = _get(f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true")
     if status == 404:
-        return f"{RED}✗ 404 — no such Greenhouse board{RESET}", False
+        return None
     if not isinstance(body, dict):
         return f"{YELLOW}⚠ unexpected response ({status}){RESET}", False
     jobs = body.get("jobs") or []
     if not jobs:
-        return f"{YELLOW}⚠ valid board but 0 jobs — do NOT add{RESET}", False
+        return f"{YELLOW}⚠ valid board '{token}' but 0 jobs — do NOT add{RESET}", False
     label = f' {DIM}[board name: "{board_name}"]{RESET}' if board_name else ""
     return (
-        f"{GREEN}✓ REAL — {len(jobs)} jobs{RESET}{label}\n"
+        f"{GREEN}✓ REAL — token '{token}', {len(jobs)} jobs{RESET}{label}\n"
         + _sample(jobs, "title", lambda r: (r.get("location") or {}).get("name")),
         True,
     )
 
 
-def check_lever(token: str) -> tuple[str, bool]:
+def _check_lever_exact(token: str) -> tuple[str, bool] | None:
     status, body = _get(f"https://api.lever.co/v0/postings/{token}?mode=json")
     if status == 404:
-        return f"{RED}✗ 404 — no such Lever board{RESET}", False
+        return None
     if not isinstance(body, list):
         return f"{YELLOW}⚠ unexpected response ({status}){RESET}", False
     if not body:
-        return f"{YELLOW}⚠ valid board but 0 postings — do NOT add{RESET}", False
+        return f"{YELLOW}⚠ valid board '{token}' but 0 postings — do NOT add{RESET}", False
     return (
-        f"{GREEN}✓ REAL — {len(body)} postings{RESET}\n"
+        f"{GREEN}✓ REAL — token '{token}', {len(body)} postings{RESET}\n"
         + _sample(body, "text", lambda r: (r.get("categories") or {}).get("location")),
         True,
     )
+
+
+def _with_case_retry(token: str, exact) -> tuple[str, bool]:
+    """Try `exact(variant)` for each casing of `token`; first hit wins.
+    All-404 ⇒ a single 'no such board' verdict."""
+    for variant in _case_variants(token):
+        verdict = exact(variant)
+        if verdict is not None:
+            return verdict
+    return f"{RED}✗ 404 — no such board (tried: {', '.join(_case_variants(token))}){RESET}", False
+
+
+def check_greenhouse(token: str) -> tuple[str, bool]:
+    return _with_case_retry(token, _check_greenhouse_exact)
+
+
+def check_lever(token: str) -> tuple[str, bool]:
+    return _with_case_retry(token, _check_lever_exact)
 
 
 def check_ashby(token: str) -> tuple[str, bool]:

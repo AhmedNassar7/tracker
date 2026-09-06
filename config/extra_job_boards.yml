@@ -87,29 +87,34 @@ greenhouse:
 
 lever:
   # Same discipline: real Lever board confirmed live 2026-08-18 with actual
-  # postings, not just a non-404 response.
+  # postings, not just a non-404 response. NB: Lever slugs are CASE-SENSITIVE
+  # — the token here must match the exact casing in the jobs.lever.co/<slug>
+  # URL (e.g. "Bosta", not "bosta").
   - spotify
   - palantir
   - paytm
   - dlocal
+  - Bosta  # Cairo, Egypt logistics — verified by hand 2026-09-06 (jobs.lever.co/Bosta, real Cairo eng roles). Case matters.
 
 # ---------------------------------------------------------------------------
 # MENA / Gulf / North Africa focus (Lane M).
 #
-# A first pass of token guesses for ~25 regional employers (Swvl, Paymob,
-# Instabug, Telda, Nawy, Halan, Foodics, Tabby, …) was checked with
-# `python scripts/verify_extra_boards.py --mena` on 2026-09-06 — every
-# Greenhouse/Lever guess 404'd, and only MoneyHash turned up an Ashby board
-# (currently 0 open roles, so not added). Takeaway: these companies are NOT
-# on Greenhouse/Lever/Ashby under an obvious token — most of the Egyptian
-# startup scene runs on **Workable**, which the pipeline can't read yet.
+# Lesson from the 2026-09-06 pass: **Lever/Greenhouse slugs are
+# case-sensitive** — the first shortlist 404'd only because the guesses were
+# lowercase. `scripts/verify_extra_boards.py` now auto-retries case variants.
+# Confirmed by hand so far:
+#   Bosta  → jobs.lever.co/Bosta        Cairo logistics — ADDED to lever: above
+#   Tabby  → tabby.pinpointhq.com       PinpointHQ (a 6th ATS) — needs a fetcher
+#   MoneyHash → api.ashbyhq.com/.../moneyhash   valid Ashby board, 0 open now
 #
-# The real MENA-coverage lever is a Workable fetcher (backlog B2 / Lane M3),
-# not more token guessing. If you find a real board for one of these by hand
-# (e.g. via the company's careers page → "Powered by Greenhouse/Lever/Ashby"),
-# run `python scripts/verify_extra_boards.py <platform>:<token>` and, if it
-# confirms, add it to the right section above with a
-# "# verified <date>, N postings incl. <city>" note.
+# To add another: open the company's careers page, find "Powered by
+# <Greenhouse|Lever|Ashby|...>" in the footer, copy the EXACT-CASE slug from
+# an apply URL, then:  python scripts/verify_extra_boards.py lever:<Slug>
+# — and if it confirms, add the slug to the matching section above.
+#
+# Bigger lever than one-off slugs: a Workable fetcher (backlog B2 / Lane M3) —
+# most of the Egyptian startup scene (Swvl, Elmenus, Breadfast, Rabbit, …)
+# runs on Workable, and a Pinpoint fetcher would pick up Tabby + others.
 # ---------------------------------------------------------------------------
 
 workday:
