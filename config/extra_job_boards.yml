@@ -97,24 +97,25 @@ lever:
   - Bosta  # Cairo, Egypt logistics — verified by hand 2026-09-06 (jobs.lever.co/Bosta, real Cairo eng roles). Case matters.
 
 # ---------------------------------------------------------------------------
-# MENA / Gulf / North Africa focus (Lane M).
+# MENA / Gulf / North Africa focus (Lane M) — three paths, in order of ease:
 #
-# Lesson from the 2026-09-06 pass: **Lever/Greenhouse slugs are
-# case-sensitive** — the first shortlist 404'd only because the guesses were
-# lowercase. `scripts/verify_extra_boards.py` now auto-retries case variants.
-# Confirmed by hand so far:
-#   Bosta  → jobs.lever.co/Bosta        Cairo logistics — ADDED to lever: above
-#   Tabby  → tabby.pinpointhq.com       PinpointHQ (a 6th ATS) — needs a fetcher
-#   MoneyHash → api.ashbyhq.com/.../moneyhash   valid Ashby board, 0 open now
+# 1. Real Greenhouse/Lever/Ashby board  → add the EXACT-CASE token here
+#    (slugs are case-sensitive — the first shortlist only 404'd because it was
+#    lowercase; verify_extra_boards.py now auto-retries case variants).
+#    Confirmed so far:  Bosta → jobs.lever.co/Bosta  (Cairo — in lever: above)
 #
-# To add another: open the company's careers page, find "Powered by
-# <Greenhouse|Lever|Ashby|...>" in the footer, copy the EXACT-CASE slug from
-# an apply URL, then:  python scripts/verify_extra_boards.py lever:<Slug>
-# — and if it confirms, add the slug to the matching section above.
+# 2. Bespoke careers site (no pollable board)  → one row in
+#    config/aggregate_links.yml instead ("Browse every role at X"), never a
+#    fake posting. Added: Halan (jobs.halan.com). Candidates to add the same
+#    way once you've opened the URL: Swvl, Paymob, MoneyHash, Vezeeta, Sylndr.
 #
-# Bigger lever than one-off slugs: a Workable fetcher (backlog B2 / Lane M3) —
-# most of the Egyptian startup scene (Swvl, Elmenus, Breadfast, Rabbit, …)
-# runs on Workable, and a Pinpoint fetcher would pick up Tabby + others.
+# 3. Workable / PinpointHQ  → needs a fetcher (Lane M3). Most of the Egyptian
+#    startup scene (Elmenus, Breadfast, Rabbit, …) is on Workable; Tabby
+#    (tabby.pinpointhq.com) and other Gulf fintechs are on Pinpoint.
+#
+# To check a token:  python scripts/verify_extra_boards.py lever:<Slug>
+# A "⚠ couldn't reach …" line means your network blocked it, NOT that the
+# board is missing — re-run or check from another network.
 # ---------------------------------------------------------------------------
 
 workday:

@@ -17,7 +17,15 @@ Meta      | Student & university-grad engineering roles | https://www.metacareer
 Microsoft | Intern & recent-graduate software roles | https://jobs.careers.microsoft.com/global/en/search?q=software%20engineer&exp=Students%20and%20graduates&l=en_us
 Apple     | Software internships & early-career roles | https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN&team=apps-and-frameworks-SFTWR-AF&team=cloud-and-infrastructure-SFTWR-CLD
 
-# MENA — big regional employers with no public JSON board to enumerate.
+# MENA — regional employers whose careers site is bespoke (not a pollable
+# Greenhouse/Lever/Ashby/Workable board), so they get a "browse every role"
+# link instead of role-by-role rows. Confirmed by opening the URL and seeing
+# a real list of engineering roles.
 Talabat | All engineering roles (MENA) | https://careers.talabat.com/search/?q=engineer
 Noon    | All technology roles (MENA)  | https://careers.noon.com/
 Careem  | All engineering roles (Dubai & MENA) | https://careers.careem.com/
+Halan   | Engineering roles (Cairo) | https://jobs.halan.com/
+# Add more only after opening the URL and seeing a real engineering-roles
+# list — a dead "browse roles at X" link is worse than none. Good next
+# checks: Swvl, Paymob, MoneyHash, Sylndr, Vezeeta (find each company's real
+# careers URL from its site, don't guess the path).

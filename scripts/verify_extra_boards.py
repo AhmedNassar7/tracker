@@ -93,7 +93,13 @@ GREEN, RED, YELLOW, DIM, RESET = "\033[32m", "\033[31m", "\033[33m", "\033[2m", 
 
 
 def _get(url: str) -> tuple[int, object]:
-    """(status, parsed-json) — raises nothing; returns (code, None) on any error."""
+    """(status, parsed-json) — raises nothing.
+
+    status is the real HTTP code, or -1 for a connection-level failure
+    (timeout, reset, DNS, refused). -1 is important: on a locked-down /
+    proxied network the request may never reach the API, and that must NOT be
+    read as "board doesn't exist" — it's "can't tell from here".
+    """
     req = urllib.request.Request(url, headers=UA)
     try:
         with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
@@ -101,7 +107,7 @@ def _get(url: str) -> tuple[int, object]:
     except urllib.error.HTTPError as e:
         return e.code, None
     except Exception:
-        return 0, None
+        return -1, None
 
 
 def _sample(rows: list[dict], title_key: str, loc_key) -> str:
@@ -122,6 +128,8 @@ def _check_greenhouse_exact(token: str) -> tuple[str, bool] | None:
     _, name_body = _get(f"https://boards-api.greenhouse.io/v1/boards/{token}")
     board_name = (name_body or {}).get("name") if isinstance(name_body, dict) else None
     status, body = _get(f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach boards-api.greenhouse.io — network/proxy? not a verdict{RESET}", False
     if status == 404:
         return None
     if not isinstance(body, dict):
@@ -139,6 +147,8 @@ def _check_greenhouse_exact(token: str) -> tuple[str, bool] | None:
 
 def _check_lever_exact(token: str) -> tuple[str, bool] | None:
     status, body = _get(f"https://api.lever.co/v0/postings/{token}?mode=json")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach api.lever.co — network/proxy? not a verdict{RESET}", False
     if status == 404:
         return None
     if not isinstance(body, list):
@@ -172,6 +182,8 @@ def check_lever(token: str) -> tuple[str, bool]:
 
 def check_ashby(token: str) -> tuple[str, bool]:
     status, body = _get(f"https://api.ashbyhq.com/posting-api/job-board/{token}")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach api.ashbyhq.com — network/proxy? not a verdict{RESET}", False
     if status == 404:
         return f"{RED}✗ 404 — no such Ashby board{RESET}", False
     if not isinstance(body, dict):
