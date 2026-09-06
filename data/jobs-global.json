@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T00:55:58Z",
-  "total": 1000,
+  "generated_at": "2026-09-06T05:56:33Z",
+  "total": 999,
   "jobs": [
     {
       "id": "bed3868cd13905e9",
@@ -210,22 +210,22 @@
       ]
     },
     {
-      "id": "66bbf1e553376c7c",
+      "id": "a4f1485683352998",
       "company": "Palantir",
-      "title": "Software Engineer, Internship",
+      "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
       "level": "internship",
       "category": "product_saas",
       "region": "us",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "Denver, CO",
+      "location": "Chicago, IL",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-09-06",
       "age": "0d",
-      "collected_at": "2026-09-06T00:55:58Z",
+      "collected_at": "2026-09-06T05:56:33Z",
       "tags": [
         "software",
         "programming",
@@ -233,9 +233,9 @@
       ]
     },
     {
-      "id": "b3126ca0917b76be",
+      "id": "c98875b5267332ed",
       "company": "Palantir",
-      "title": "Software Engineer, Internship",
+      "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
       "level": "internship",
       "category": "product_saas",
       "region": "us",
@@ -243,12 +243,12 @@
       "country": "United States",
       "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "url": "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-09-06",
       "age": "0d",
-      "collected_at": "2026-09-06T00:55:58Z",
+      "collected_at": "2026-09-06T05:56:33Z",
       "tags": [
         "software",
         "programming",
@@ -256,9 +256,9 @@
       ]
     },
     {
-      "id": "162a14da3a107f9f",
+      "id": "c7c44f1b5a9bef7c",
       "company": "Palantir",
-      "title": "Software Engineer, Internship",
+      "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
       "level": "internship",
       "category": "product_saas",
       "region": "us",
@@ -266,12 +266,12 @@
       "country": "United States",
       "location": "Washington, D.C.",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+      "url": "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-09-06",
       "age": "0d",
-      "collected_at": "2026-09-06T00:55:58Z",
+      "collected_at": "2026-09-06T05:56:33Z",
       "tags": [
         "software",
         "programming",
@@ -739,29 +739,6 @@
       ]
     },
     {
-      "id": "0fda83d79cf01519",
-      "company": "Amazon",
-      "title": "Software Development Engineer Intern - Robotics",
-      "level": "internship",
-      "category": "faang",
-      "region": "us",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "<details><summary><strong>7 locations</strong></summary>Seattle, WA<br>Nashville, TN<br>Austin, TX<br>North Reading, MA<br>Arlington County, Arlington, VA<br>Bellevue, WA<br>Westborough, MA</details>",
-      "remote_type": "onsite",
-      "url": "https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-09-04",
-      "age": "0d",
-      "collected_at": "2026-09-04T04:30:33Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "4340d3539a3f1d25",
       "company": "Amazon",
       "title": "Software Development Engineer Intern - ROBOTICS - 2027",
@@ -946,6 +923,29 @@
       ]
     },
     {
+      "id": "0fda83d79cf01519",
+      "company": "Amazon",
+      "title": "Software Development Engineer Intern - Robotics",
+      "level": "internship",
+      "category": "faang",
+      "region": "us",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "<details><summary><strong>7 locations</strong></summary>Seattle, WA<br>Nashville, TN<br>Austin, TX<br>North Reading, MA<br>Arlington County, Arlington, VA<br>Bellevue, WA<br>Westborough, MA</details>",
+      "remote_type": "onsite",
+      "url": "https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-09-04",
+      "age": "0d",
+      "collected_at": "2026-09-04T04:30:33Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "1a546b553208fbba",
       "company": "Amazon.com Services LLC",
       "title": "Software Development Engineer Intern, ROBOTICS - 2027",
@@ -962,29 +962,6 @@
       "posted_at": "2026-09-05",
       "age": "1d",
       "collected_at": "2026-09-05T22:56:26Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0979af4fec521f36",
-      "company": "Atlassian",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "canada",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Burnaby, BC, Canada Vancouver, BC, Canada Richmond, BC, Canada",
-      "remote_type": "onsite",
-      "url": "https://campus-globalcareers-atlassian.icims.com/jobs/26275/software-engineer-intern%2c-2027-canada/job?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-09-03",
-      "age": "0d",
-      "collected_at": "2026-09-03T14:33:23Z",
       "tags": [
         "software",
         "programming",
@@ -1445,6 +1422,29 @@
       "posted_at": "2026-09-04",
       "age": "1d",
       "collected_at": "2026-09-04T04:30:33Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0979af4fec521f36",
+      "company": "Atlassian",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "canada",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Burnaby, BC, Canada Vancouver, BC, Canada Richmond, BC, Canada",
+      "remote_type": "onsite",
+      "url": "https://campus-globalcareers-atlassian.icims.com/jobs/26275/software-engineer-intern%2c-2027-canada/job?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-09-03",
+      "age": "0d",
+      "collected_at": "2026-09-03T14:33:23Z",
       "tags": [
         "software",
         "programming",
@@ -4672,7 +4672,7 @@
       ]
     },
     {
-      "id": "af343889ba180369",
+      "id": "48a5a9aa3fd29048",
       "company": "Amazon",
       "title": "Software Development Engineer , Leo Secure Communications Team",
       "level": "unknown",
@@ -4682,7 +4682,7 @@
       "country": "United States",
       "location": "Redmond, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10517076/software-development-engineer-leo-secure-communications-team",
+      "url": "https://www.amazon.jobs/en/jobs/10517077/software-development-engineer-leo-secure-communications-team",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-27",
@@ -4695,7 +4695,7 @@
       ]
     },
     {
-      "id": "48a5a9aa3fd29048",
+      "id": "af343889ba180369",
       "company": "Amazon",
       "title": "Software Development Engineer , Leo Secure Communications Team",
       "level": "unknown",
@@ -4705,7 +4705,7 @@
       "country": "United States",
       "location": "Redmond, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10517077/software-development-engineer-leo-secure-communications-team",
+      "url": "https://www.amazon.jobs/en/jobs/10517076/software-development-engineer-leo-secure-communications-team",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-27",
@@ -6098,29 +6098,6 @@
       ]
     },
     {
-      "id": "ea5b8610770926e7",
-      "company": "Netflix",
-      "title": "Machine Learning/AI Scientist PhD Intern, Winter 2027",
-      "level": "internship",
-      "category": "faang",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Los Gatos, California",
-      "remote_type": "onsite",
-      "url": "https://explore.jobs.netflix.net/careers/job/790317916733",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-08-19",
-      "age": "2w",
-      "collected_at": "2026-09-05T04:26:10Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "fb95085202a2229a",
       "company": "Instacart",
       "title": "Machine Learning Engineer II, Ads - Response Prediction",
@@ -7248,6 +7225,29 @@
       ]
     },
     {
+      "id": "ea5b8610770926e7",
+      "company": "Netflix",
+      "title": "Machine Learning/AI Scientist PhD Intern, Winter 2027",
+      "level": "internship",
+      "category": "faang",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Los Gatos,California,United States of America",
+      "remote_type": "onsite",
+      "url": "https://explore.jobs.netflix.net/careers/job/790317916733",
+      "source": "netflix",
+      "source_url": "https://explore.jobs.netflix.net/careers",
+      "posted_at": "2026-08-19",
+      "age": "18d",
+      "collected_at": "2026-09-05T04:26:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "199f388bf9543fd4",
       "company": "Google",
       "title": "Software Engineering or Site Reliability Engineering PhD Intern 🎓",
@@ -8145,52 +8145,6 @@
       ]
     },
     {
-      "id": "ee8897a5d093e9c4",
-      "company": "Amazon",
-      "title": "Software Development Engineer - Early Career",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "canada",
-      "role_type": "other_swe",
-      "country": "Canada",
-      "location": "Vancouver, BC, Canada",
-      "remote_type": "onsite",
-      "url": "https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-08-15",
-      "age": "0d",
-      "collected_at": "2026-08-15T04:46:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "542c662d8fe764e5",
-      "company": "Notion",
-      "title": "Software Engineer Intern - Summer 2027",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "SF NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-17",
-      "age": "2d",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e6139c97f0fc6319",
       "company": "Notion",
       "title": "Software Engineer Intern - Summer 2027",
@@ -8237,6 +8191,52 @@
       ]
     },
     {
+      "id": "ee8897a5d093e9c4",
+      "company": "Amazon",
+      "title": "Software Development Engineer - Early Career",
+      "level": "new_grad",
+      "category": "faang",
+      "region": "canada",
+      "role_type": "other_swe",
+      "country": "Canada",
+      "location": "Vancouver, BC, Canada",
+      "remote_type": "onsite",
+      "url": "https://amazon.jobs/en/jobs/10502743/software-development-engineer-early-career-2026?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-08-15",
+      "age": "0d",
+      "collected_at": "2026-08-15T04:46:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "542c662d8fe764e5",
+      "company": "Notion",
+      "title": "Software Engineer Intern - Summer 2027",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "SF NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-17",
+      "age": "2d",
+      "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "6152e80b377e626e",
       "company": "Notion",
       "title": "Software Engineer New Grad",
@@ -8276,29 +8276,6 @@
       "posted_at": "2026-08-17",
       "age": "2d",
       "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c6a653b0d2d7f311",
-      "company": "ByteDance",
-      "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern - CDN Platform 🎓",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "platform",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7673636205233490181/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-09-05",
-      "age": "22d",
-      "collected_at": "2026-09-05T12:41:34Z",
       "tags": [
         "software",
         "programming",
@@ -10399,29 +10376,6 @@
       ]
     },
     {
-      "id": "6b38567a8765fcea",
-      "company": "ByteDance",
-      "title": "Software Development Engineer Intern - Network Automation - 2027 Summer",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "unknown",
-      "role_type": "other_swe",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671147251943213317/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-17",
-      "age": "9d",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "b3aa804a2744134a",
       "company": "Epic Games",
       "title": "Machine Learning Intern",
@@ -10445,45 +10399,22 @@
       ]
     },
     {
-      "id": "5720b9be285a1055",
+      "id": "6b38567a8765fcea",
       "company": "ByteDance",
-      "title": "Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "us",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7670855041951795509/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-17",
-      "age": "10d",
-      "collected_at": "2026-08-17T15:38:02Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "16cf2b070fa13f44",
-      "company": "ByteDance",
-      "title": "Network Software Engineer Intern - Network Switch",
+      "title": "Software Development Engineer Intern - Network Automation - 2027 Summer",
       "level": "internship",
       "category": "apac_tech",
       "region": "unknown",
-      "role_type": "software_engineer",
+      "role_type": "other_swe",
       "country": "United States",
       "location": "San Jose, CA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7670778018960542005/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.bytedance.com/en/position/7671147251943213317/detail?utm_source=Simplify&ref=Simplify",
       "source": "simplify_internships",
       "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-08-24",
-      "age": "17d",
-      "collected_at": "2026-08-24T14:02:08Z",
+      "posted_at": "2026-08-17",
+      "age": "9d",
+      "collected_at": "2026-08-17T15:38:02Z",
       "tags": [
         "software",
         "programming",
@@ -10714,6 +10645,52 @@
       "posted_at": "2026-08-17",
       "age": "11d",
       "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5720b9be285a1055",
+      "company": "ByteDance",
+      "title": "Machine Learning Research Scientist Intern - Seed AI for Science - Atomistic AI 🎓",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "us",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670855041951795509/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-17",
+      "age": "10d",
+      "collected_at": "2026-08-17T15:38:02Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "16cf2b070fa13f44",
+      "company": "ByteDance",
+      "title": "Network Software Engineer Intern - Network Switch",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7670778018960542005/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-08-24",
+      "age": "17d",
+      "collected_at": "2026-08-24T14:02:08Z",
       "tags": [
         "software",
         "programming",
