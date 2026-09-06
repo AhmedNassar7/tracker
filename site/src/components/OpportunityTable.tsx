@@ -1,10 +1,29 @@
 import BookmarkButton from "./BookmarkButton";
 import CompanyAvatar from "./CompanyAvatar";
 import { BASE_URL } from "../lib/basePath";
-import { formatLevel, formatSalaryShort, prettifyCompany } from "../lib/labels";
+import { formatLevel, formatRelativeTime, formatSalaryShort, prettifyCompany } from "../lib/labels";
 import type { SiteIndexEntry } from "../lib/types";
 
 const MAX_TECH_CHIPS = 4;
+
+// A1 — a positive-only signal, like the community boards' ✅ column: shown
+// when the pipeline's own liveness check confirmed the apply URL reachable,
+// and nothing at all otherwise (an "unverified" row isn't a dead link, so
+// flagging every one of them would be alarming noise). Jobs only — "open" is
+// a job word.
+function LivenessBadge({ item }: { item: SiteIndexEntry }) {
+  if (item.kind !== "job" || item.liveness !== "verified") return null;
+  const checked = formatRelativeTime(item.last_checked);
+  return (
+    <span
+      className="inline-flex items-center gap-1 text-[11px] text-emerald-700 dark:text-emerald-400"
+      title={checked ? `Apply link confirmed reachable ${checked}` : "Apply link confirmed reachable"}
+    >
+      <span aria-hidden="true" className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400" />
+      Verified open{checked && <span className="text-slate-400 dark:text-slate-500"> · {checked}</span>}
+    </span>
+  );
+}
 
 // B3/B4/B5 — signals lifted from the posting's own text. Rendered only when
 // present (a silent posting shows nothing), so this quietly no-ops for the
@@ -184,16 +203,19 @@ export default function OpportunityTable({ items, trackedIds, onToggleTrack, mat
                 >
                   {item.title}
                 </a>
-                <div className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
-                  via{" "}
-                  <a
-                    href={item.source_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline"
-                  >
-                    {item.source}
-                  </a>
+                <div className="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-slate-500 dark:text-slate-400">
+                  <span>
+                    via{" "}
+                    <a
+                      href={item.source_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      {item.source}
+                    </a>
+                  </span>
+                  <LivenessBadge item={item} />
                 </div>
                 {matchReasons?.get(item.id) && (
                   <div className="mt-1 flex flex-wrap gap-1">

@@ -86,6 +86,16 @@
       "type": "string",
       "format": "uri"
     },
+    "liveness": {
+      "type": "string",
+      "enum": ["verified", "unverified"],
+      "description": "Whether this item's apply URL was confirmed reachable by the pipeline's own liveness check. 'verified' = present in data/link-cache.json as alive (see 'last_checked'). 'unverified' = not in the cache: never checked, checked inconclusively (403/timeout — 'assume alive'), or aged out of the 7-day cache. It is NOT a claim the link is dead — a confirmed-dead curated/public link is archived/dropped before this file is written, so it never appears here"
+    },
+    "last_checked": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$",
+      "description": "ISO-8601 UTC timestamp of the last successful liveness confirmation, from data/link-cache.json. Present only when 'liveness' is 'verified'"
+    },
     "tech_tags": {
       "type": "array",
       "items": { "type": "string" },

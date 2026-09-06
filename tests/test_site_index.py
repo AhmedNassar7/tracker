@@ -293,6 +293,51 @@ def main():
                 ("tech_tags", "visa_sponsorship", "degree_required", "relocation", "salary")),
     ))
 
+    # A1 — verified-open signal from data/link-cache.json
+    live_cache = {
+        public_job["url"]: {"alive": True, "at": "2026-01-01T09:30:00Z"},
+        event["url"]: {"alive": True, "at": "2026-01-01T08:00:00Z"},  # raw relative path, pre-fix_event_url
+    }
+    live_index = bdr.build_site_index(curated_payload, public_payload, live_cache)
+    live_by_id = {it["id"]: it for it in live_index["items"]}
+    run("build_site_index marks a cached url 'verified' with last_checked", lambda: check(
+        "liveness verified",
+        live_by_id["bbbbbbbbbbbbbbbb"]["liveness"] == "verified"
+        and live_by_id["bbbbbbbbbbbbbbbb"]["last_checked"] == "2026-01-01T09:30:00Z",
+        details=str(live_by_id["bbbbbbbbbbbbbbbb"]),
+    ))
+    run("build_site_index marks an uncached url 'unverified' with no last_checked", lambda: check(
+        "liveness unverified",
+        live_by_id["aaaaaaaaaaaaaaaa"]["liveness"] == "unverified"
+        and "last_checked" not in live_by_id["aaaaaaaaaaaaaaaa"],
+    ))
+    run("liveness cache is keyed on the RAW url, before Luma path resolution", lambda: check(
+        "liveness raw-url lookup",
+        live_by_id["dddddddddddddddd"]["liveness"] == "verified"
+        and live_by_id["dddddddddddddddd"]["url"] == "https://lu.ma/some-event?k=c",
+    ))
+    run("a dead/absent cache entry never yields 'verified'", lambda: check(
+        "liveness dead entry",
+        bdr.build_site_index(
+            curated_payload, public_payload,
+            {public_job["url"]: {"alive": False, "at": "2026-01-01T09:30:00Z"}},
+        )["items"] and all(
+            it["liveness"] == "unverified"
+            for it in bdr.build_site_index(
+                curated_payload, public_payload,
+                {public_job["url"]: {"alive": False, "at": "2026-01-01T09:30:00Z"}},
+            )["items"]
+        ),
+    ))
+    run("no cache arg → every item is 'unverified' (tests keep working)", lambda: check(
+        "liveness default",
+        all(it["liveness"] == "unverified" for it in index["items"]),
+    ))
+    run("liveness fields still validate against site-index.schema.json", lambda: check(
+        "liveness schema valid",
+        sv.validate_records(live_index["items"], site_index_schema, label="items") == [],
+    ))
+
     run("normalize_rows carries facet keys through for the README path", lambda: check(
         "normalize_rows facets",
         (lambda r: r.get("visa_sponsorship") is True

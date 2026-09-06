@@ -105,6 +105,8 @@ Used by the `items` array in `data/site-index.json`, written by `build_site_inde
 | `locations` | string[] | Present only for a multi-location posting (≥2 entries) — the individual locations, for a client to render its own control |
 | `age` | string | Unified from `JobEntry.age` / `PublicEntry.date`, then (jobs only) `reconcile_age`'d against `posted_at` so a frozen/placeholder `"0d"` can't show a weeks-old listing as new |
 | `posted_at` | string | `YYYY-MM-DD` or `""` |
+| `liveness` | enum | `verified` (this item's apply URL is in `data/link-cache.json` as alive — see `last_checked`) or `unverified` (not in the cache: never checked, checked inconclusively, or aged out). **Not** a "dead" flag — a confirmed-dead link is archived/dropped before this file is written |
+| `last_checked` | string | ISO-8601 UTC of the last successful liveness confirmation. Present only when `liveness` is `verified` |
 | `level`, `region`, `role_type` | enum | Job-only |
 | `category`, `remote_type`, `country` | string / enum | Job-only, **curated-origin only** — omitted entirely (not `""` or guessed) on public-origin job items, since the public layer never detects them |
 | `tech_tags` | string[] | Job-only. Canonical skill/tech tags (`React`, `Go`, `Kubernetes`, …) detected from the posting's description text by `scripts/patterns.py` `detect_tech_tags`. Present only for sources that expose a full description (Greenhouse/Lever/Ashby, plus curated Remotive/ArbeitNow); omitted — never `[]` — otherwise |

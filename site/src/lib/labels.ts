@@ -42,6 +42,22 @@ export function formatLevel(level: string | undefined | null): string {
   return spaced ? spaced[0].toUpperCase() + spaced.slice(1) : "—";
 }
 
+/** "34 min ago" / "5h ago" / "3d ago" from an ISO timestamp — a compact,
+ *  always-past relative time for freshness/liveness labels. Returns "" for an
+ *  unparseable value so callers can just skip rendering. Mirrors the wording
+ *  of SnapshotHero's own updatedAgo helper. */
+export function formatRelativeTime(iso: string | undefined | null): string {
+  if (!iso) return "";
+  const then = new Date(iso).getTime();
+  if (Number.isNaN(then)) return "";
+  const mins = Math.max(0, Math.round((Date.now() - then) / 60_000));
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins} min ago`;
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return `${hours}h ago`;
+  return `${Math.round(hours / 24)}d ago`;
+}
+
 const SALARY_SYMBOLS: Record<string, string> = { USD: "$", EUR: "€", GBP: "£", INR: "₹" };
 const SALARY_PERIOD_SUFFIX: Record<string, string> = { year: "/yr", month: "/mo", hour: "/hr" };
 

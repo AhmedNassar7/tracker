@@ -20,9 +20,11 @@ if str(SCRIPT_DIR) not in sys.path:
 from schema_validator import load_schema, validate_records
 from rss_feeds import write_feeds
 from company_names import prettify_company_name
+from net import load_link_cache
 
 CURATED_JSON = DATA_OUT / "jobs-global.json"
 PUBLIC_JSON = DATA_OUT / "public-opportunities.json"
+LINK_CACHE_JSON = DATA_OUT / "link-cache.json"
 AGGREGATE_LINKS_CONFIG = ROOT / "config" / "aggregate_links.yml"
 ROOT_README = ROOT / "README.md"
 DATA_README = DATA_OUT / "README.md"
@@ -766,7 +768,7 @@ def render_root_readme(now_text: str, stats: dict) -> str:
     ]) + "\n"
 
 
-def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
+def _site_index_entry(row: dict, *, kind: str, origin: str, link_cache: dict | None = None) -> dict:
     entry = {"id": row.get("id") or "", "kind": kind, "origin": origin}
     for field in _SITE_INDEX_PASSTHROUGH:
         entry[field] = row.get(field) or ""
@@ -774,12 +776,27 @@ def _site_index_entry(row: dict, *, kind: str, origin: str) -> dict:
     # company name here so "Openai"/"Mongodb" (from a board slug title-cased
     # upstream) render as "OpenAI"/"MongoDB" without touching the raw feeds.
     entry["company"] = prettify_company_name(entry["company"])
+    # A1 — verified-open signal. data/link-cache.json records every apply URL
+    # the pipeline confirmed alive and when (net.resolve_link_liveness; only
+    # positive results are cached, and a confirmed-dead curated/public link
+    # was already archived/dropped before this file was written). Look it up
+    # by the *raw* url, before fix_event_url() rewrites Luma's relative paths,
+    # since that's the key the cache was written under. Absent from the cache
+    # ⇒ "unverified" (never checked, aged out of the 7-day cache, or the last
+    # check was inconclusive) — not a claim that it's dead.
+    raw_url = row.get("url") or ""
+    cache_hit = (link_cache or {}).get(raw_url)
+    if isinstance(cache_hit, dict) and cache_hit.get("alive") is True and cache_hit.get("at"):
+        entry["liveness"] = "verified"
+        entry["last_checked"] = cache_hit["at"]
+    else:
+        entry["liveness"] = "unverified"
     # Resolve Luma's site-relative event paths here so every url in
     # site-index.json is always a ready-to-use absolute link — a consumer
     # (e.g. the site) shouldn't need to know which source emits relative
     # paths, same normalization fix_event_url() already applies for the
     # rendered README tables.
-    entry["url"] = fix_event_url(row.get("url") or "")
+    entry["url"] = fix_event_url(raw_url)
     entry["posted_at"] = row.get("posted_at") or ""
     raw_age = row.get("age") or row.get("date") or ""
     # For a job, reconcile against posted_at so a frozen or placeholder "0d"
@@ -852,21 +869,27 @@ def _dedupe_and_prune_site_jobs(job_items: list[dict]) -> list[dict]:
     return out
 
 
-def build_site_index(curated_payload: dict, public_payload: dict) -> dict:
+def build_site_index(curated_payload: dict, public_payload: dict, link_cache: dict | None = None) -> dict:
     """Flatten both layers' raw records into one site-sized list, reusing the
     payloads main() already loaded rather than re-reading either data file.
+
+    `link_cache` is data/link-cache.json's `entries` map ({url: {alive, at}});
+    when given, each item gets a `liveness` ("verified"/"unverified") and, for
+    a verified one, a `last_checked` timestamp. Defaults to {} so tests can
+    call this without the cache (every item is then "unverified").
     """
+    link_cache = link_cache or {}
     job_items: list[dict] = []
     for row in curated_payload.get("jobs", []) or []:
-        job_items.append(_site_index_entry(row, kind="job", origin="curated"))
+        job_items.append(_site_index_entry(row, kind="job", origin="curated", link_cache=link_cache))
     for row in public_payload.get("jobs", []) or []:
-        job_items.append(_site_index_entry(row, kind="job", origin="public"))
+        job_items.append(_site_index_entry(row, kind="job", origin="public", link_cache=link_cache))
 
     items: list[dict] = _dedupe_and_prune_site_jobs(job_items)
     for row in public_payload.get("hackathons", []) or []:
-        items.append(_site_index_entry(row, kind="hackathon", origin="public"))
+        items.append(_site_index_entry(row, kind="hackathon", origin="public", link_cache=link_cache))
     for row in public_payload.get("events", []) or []:
-        items.append(_site_index_entry(row, kind="event", origin="public"))
+        items.append(_site_index_entry(row, kind="event", origin="public", link_cache=link_cache))
 
     schema = load_schema(SITE_INDEX_SCHEMA)
     errors = validate_records(items, schema, label="site-index.json items")
@@ -992,7 +1015,7 @@ def main() -> int:
     print(f"Wrote {DATA_README}")
     print(f"Wrote {ROOT_README}")
 
-    site_index = build_site_index(curated_payload, public_payload)
+    site_index = build_site_index(curated_payload, public_payload, load_link_cache(LINK_CACHE_JSON))
     SITE_INDEX_JSON.write_text(json.dumps(site_index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
 

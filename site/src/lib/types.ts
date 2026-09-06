@@ -45,6 +45,13 @@ export interface SiteIndexEntry {
   url: string;
   source: string;
   source_url: string;
+  // A1 — verified-open signal. "verified" ⇒ the pipeline's liveness check
+  // confirmed this apply URL reachable (see `last_checked`); "unverified" ⇒
+  // not in the link cache (never checked, checked inconclusively, or aged
+  // out). Never a claim the link is dead — dead links are removed upstream.
+  liveness?: "verified" | "unverified";
+  // ISO-8601 UTC of that last confirmation; present only when verified.
+  last_checked?: string;
   // Job-only fields — absent (not "", not guessed) when not applicable.
   level?: Level;
   region?: Region;
