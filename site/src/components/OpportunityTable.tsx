@@ -82,6 +82,9 @@ const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
   job: "Job",
   hackathon: "Hackathon",
   event: "Event",
+  // Board items are rendered by BrowseEveryRole, not this table, but the
+  // Record has to be exhaustive over the kind union.
+  board: "Company board",
 };
 
 // The pipeline unpacks multi-location postings into `item.locations[]` and

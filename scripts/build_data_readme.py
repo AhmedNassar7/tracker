@@ -785,12 +785,15 @@ def _site_index_entry(row: dict, *, kind: str, origin: str, link_cache: dict | N
     # ⇒ "unverified" (never checked, aged out of the 7-day cache, or the last
     # check was inconclusive) — not a claim that it's dead.
     raw_url = row.get("url") or ""
-    cache_hit = (link_cache or {}).get(raw_url)
-    if isinstance(cache_hit, dict) and cache_hit.get("alive") is True and cache_hit.get("at"):
-        entry["liveness"] = "verified"
-        entry["last_checked"] = cache_hit["at"]
-    else:
-        entry["liveness"] = "unverified"
+    if kind != "board":
+        # A "board" is a careers-search page, not a posting — "verified open"
+        # doesn't apply, and its URL never goes through the liveness check.
+        cache_hit = (link_cache or {}).get(raw_url)
+        if isinstance(cache_hit, dict) and cache_hit.get("alive") is True and cache_hit.get("at"):
+            entry["liveness"] = "verified"
+            entry["last_checked"] = cache_hit["at"]
+        else:
+            entry["liveness"] = "unverified"
     # Resolve Luma's site-relative event paths here so every url in
     # site-index.json is always a ready-to-use absolute link — a consumer
     # (e.g. the site) shouldn't need to know which source emits relative
@@ -869,7 +872,12 @@ def _dedupe_and_prune_site_jobs(job_items: list[dict]) -> list[dict]:
     return out
 
 
-def build_site_index(curated_payload: dict, public_payload: dict, link_cache: dict | None = None) -> dict:
+def build_site_index(
+    curated_payload: dict,
+    public_payload: dict,
+    link_cache: dict | None = None,
+    aggregate_boards: list[dict] | None = None,
+) -> dict:
     """Flatten both layers' raw records into one site-sized list, reusing the
     payloads main() already loaded rather than re-reading either data file.
 
@@ -877,6 +885,12 @@ def build_site_index(curated_payload: dict, public_payload: dict, link_cache: di
     when given, each item gets a `liveness` ("verified"/"unverified") and, for
     a verified one, a `last_checked` timestamp. Defaults to {} so tests can
     call this without the cache (every item is then "unverified").
+
+    `aggregate_boards` is load_aggregate_links()'s output — the hand-curated
+    "browse every role at X" links (config/aggregate_links.yml). They ride
+    along in `items` as kind:"board" so the site can render its own "Browse
+    every role" section from the same one file, and are counted separately
+    from real opportunities everywhere downstream.
     """
     link_cache = link_cache or {}
     job_items: list[dict] = []
@@ -890,6 +904,8 @@ def build_site_index(curated_payload: dict, public_payload: dict, link_cache: di
         items.append(_site_index_entry(row, kind="hackathon", origin="public", link_cache=link_cache))
     for row in public_payload.get("events", []) or []:
         items.append(_site_index_entry(row, kind="event", origin="public", link_cache=link_cache))
+    for row in aggregate_boards or []:
+        items.append(_site_index_entry(row, kind="board", origin="config", link_cache=link_cache))
 
     schema = load_schema(SITE_INDEX_SCHEMA)
     errors = validate_records(items, schema, label="site-index.json items")
@@ -1015,7 +1031,9 @@ def main() -> int:
     print(f"Wrote {DATA_README}")
     print(f"Wrote {ROOT_README}")
 
-    site_index = build_site_index(curated_payload, public_payload, load_link_cache(LINK_CACHE_JSON))
+    site_index = build_site_index(
+        curated_payload, public_payload, load_link_cache(LINK_CACHE_JSON), boards
+    )
     SITE_INDEX_JSON.write_text(json.dumps(site_index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
 

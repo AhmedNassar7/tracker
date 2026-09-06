@@ -34,6 +34,7 @@ function ageToDays(age: string): number {
   if ((m = a.match(/^(\d+)yrs?$/))) return +m[1] * 365;
   return Number.MAX_SAFE_INTEGER;
 }
+import BrowseEveryRole from "./BrowseEveryRole";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
 import PreferencesPanel from "./PreferencesPanel";
@@ -109,13 +110,17 @@ export default function OpportunityBrowser() {
         // to this visit's full id set, so a same-session reload correctly
         // shows zero new (already seen) rather than re-flagging the same
         // items — the same behavior an inbox's "unread" count has.
+        // "New since your last visit" is about opportunities, not the fixed
+        // set of aggregate-links board rows — exclude kind:"board" from both
+        // the diff and the stored baseline.
+        const opps = data.items.filter((item) => item.kind !== "board");
         const lastVisit = readLastVisit();
         if (lastVisit.at !== null) {
-          const freshIds = new Set(data.items.filter((item) => !lastVisit.ids.has(item.id)).map((item) => item.id));
+          const freshIds = new Set(opps.filter((item) => !lastVisit.ids.has(item.id)).map((item) => item.id));
           setNewIds(freshIds);
           setLastVisitAt(lastVisit.at);
         }
-        writeLastVisit(data.items.map((item) => item.id), data.generated_at);
+        writeLastVisit(opps.map((item) => item.id), data.generated_at);
       })
       .catch((err: unknown) => {
         if (!cancelled) {
@@ -220,9 +225,21 @@ export default function OpportunityBrowser() {
     setPage(1);
   }, [filters, sortMode, showOnlyNew, prefs]);
 
+  // kind:"board" rows (config/aggregate_links.yml) are not opportunities —
+  // they're rendered by <BrowseEveryRole> and kept out of the list, the
+  // counts, the hero, and the filter facets entirely.
+  const opportunityItems = useMemo(
+    () => (state.status === "loaded" ? state.data.items.filter((i) => i.kind !== "board") : []),
+    [state],
+  );
+  const boardItems = useMemo(
+    () => (state.status === "loaded" ? state.data.items.filter((i) => i.kind === "board") : []),
+    [state],
+  );
+
   const filteredItems = useMemo(() => {
     if (state.status !== "loaded") return [];
-    let items = applyFilters(state.data.items, filters);
+    let items = applyFilters(opportunityItems, filters);
     if (showOnlyNew) items = items.filter((item) => newIds.has(item.id));
     // "Companies to hide" is a hard preference — applied in either sort mode.
     if (prefs.excludeCompanies.length > 0) items = items.filter((item) => !isExcluded(item, prefs));
@@ -287,29 +304,27 @@ export default function OpportunityBrowser() {
   // whatever countries actually exist in the loaded data, so it always
   // reflects real coverage and never lists a country with zero postings.
   const availableCountries = useMemo(() => {
-    if (state.status !== "loaded") return [];
     const countries = new Set<string>();
-    for (const item of state.data.items) {
+    for (const item of opportunityItems) {
       if (item.country) countries.add(item.country);
     }
     return [...countries].sort((a, b) => a.localeCompare(b));
-  }, [state]);
+  }, [opportunityItems]);
 
   // B3 — tech tags that actually occur, most-common first so the dropdown
   // leads with the useful ones; capped so a long tail of one-off tags
   // doesn't bloat the control. Only a subset of sources carry a description,
   // so this list can legitimately be short or empty.
   const availableTags = useMemo(() => {
-    if (state.status !== "loaded") return [];
     const counts = new Map<string, number>();
-    for (const item of state.data.items) {
+    for (const item of opportunityItems) {
       for (const tag of item.tech_tags ?? []) counts.set(tag, (counts.get(tag) ?? 0) + 1);
     }
     return [...counts.entries()]
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .slice(0, 40)
       .map(([tag]) => tag);
-  }, [state]);
+  }, [opportunityItems]);
 
   if (state.status === "loading") {
     return <SkeletonTable label="Loading opportunities…" />;
@@ -341,7 +356,7 @@ export default function OpportunityBrowser() {
 
   return (
     <div>
-      <SnapshotHero items={data.items} generatedAt={data.generated_at} onQuickFilter={handleQuickFilter} />
+      <SnapshotHero items={opportunityItems} generatedAt={data.generated_at} onQuickFilter={handleQuickFilter} />
 
       {newIds.size > 0 && !bannerDismissed && (
         <div className="mb-4 flex flex-wrap items-center gap-3 rounded-md border border-teal-200 bg-teal-50 px-4 py-2.5 text-sm dark:border-teal-900 dark:bg-teal-950">
@@ -421,6 +436,13 @@ export default function OpportunityBrowser() {
         availableCountries={availableCountries}
         availableTags={availableTags}
       />
+
+      {/* Aggregate-links lane — only alongside jobs (a board isn't a
+          hackathon or an event), and it ignores every filter but the search
+          box since a board carries no level/region/etc. of its own. */}
+      {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && (
+        <BrowseEveryRole boards={boardItems} query={filters.q} />
+      )}
 
       {filteredItems.length === 0 ? (
         <div className="py-12 text-center">

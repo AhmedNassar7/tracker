@@ -72,7 +72,9 @@ export default function GlobalDashboard() {
   }, []);
 
   const stats = useMemo(() => {
-    const items = state.status === "loaded" ? state.data.items : [];
+    // kind:"board" rows (aggregate_links.yml) aren't opportunities — keep
+    // them out of every count, region/level/source breakdown.
+    const items = state.status === "loaded" ? state.data.items.filter((i) => i.kind !== "board") : [];
 
     const kindCounts = new Map<string, number>();
     const regionCounts = new Map<string, number>();

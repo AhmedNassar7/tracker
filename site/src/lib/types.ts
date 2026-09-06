@@ -2,8 +2,8 @@
 // convention the Python side uses for config/*.schema.json vs. the code
 // that writes them.
 
-export type SiteIndexKind = "job" | "hackathon" | "event";
-export type SiteIndexOrigin = "curated" | "public";
+export type SiteIndexKind = "job" | "hackathon" | "event" | "board";
+export type SiteIndexOrigin = "curated" | "public" | "config";
 
 export type Level =
   | "internship"

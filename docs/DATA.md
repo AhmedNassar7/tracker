@@ -98,14 +98,14 @@ Used by the `items` array in `data/site-index.json`, written by `build_site_inde
 | Field | Type | Notes |
 |---|---|---|
 | `id` | string | 16-char hex, carried over unchanged |
-| `kind` | enum | `job` \| `hackathon` \| `event` |
-| `origin` | enum | `curated` (from `jobs-global.json`) \| `public` (from `public-opportunities.json`) |
+| `kind` | enum | `job` \| `hackathon` \| `event` \| `board` — `board` is a hand-curated "browse every role at X" link from `config/aggregate_links.yml`, a pre-filtered careers-search URL (never a single posting). The site renders these in a separate "Browse every role" section and excludes them from every count / facet |
+| `origin` | enum | `curated` (from `jobs-global.json`) \| `public` (from `public-opportunities.json`) \| `config` (from `config/aggregate_links.yml`, always `kind:"board"`) |
 | `company`, `title`, `url`, `source`, `source_url` | string | Copied straight through (`company` also brand-normalized — `Amazon.com Services LLC` → `Amazon`) |
 | `location` | string | Single-line display string, **never HTML**. A multi-location posting's curated `<details>` dropdown is unpacked into a `"First, Place +N more"` summary here |
 | `locations` | string[] | Present only for a multi-location posting (≥2 entries) — the individual locations, for a client to render its own control |
 | `age` | string | Unified from `JobEntry.age` / `PublicEntry.date`, then (jobs only) `reconcile_age`'d against `posted_at` so a frozen/placeholder `"0d"` can't show a weeks-old listing as new |
 | `posted_at` | string | `YYYY-MM-DD` or `""` |
-| `liveness` | enum | `verified` (this item's apply URL is in `data/link-cache.json` as alive — see `last_checked`) or `unverified` (not in the cache: never checked, checked inconclusively, or aged out). **Not** a "dead" flag — a confirmed-dead link is archived/dropped before this file is written |
+| `liveness` | enum | `verified` (this item's apply URL is in `data/link-cache.json` as alive — see `last_checked`) or `unverified` (not in the cache: never checked, checked inconclusively, or aged out). **Not** a "dead" flag — a confirmed-dead link is archived/dropped before this file is written. Absent entirely on `kind:"board"` rows (a careers-search page, never liveness-checked) |
 | `last_checked` | string | ISO-8601 UTC of the last successful liveness confirmation. Present only when `liveness` is `verified` |
 | `level`, `region`, `role_type` | enum | Job-only |
 | `category`, `remote_type`, `country` | string / enum | Job-only, **curated-origin only** — omitted entirely (not `""` or guessed) on public-origin job items, since the public layer never detects them |

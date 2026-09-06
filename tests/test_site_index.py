@@ -293,6 +293,52 @@ def main():
                 ("tech_tags", "visa_sponsorship", "degree_required", "relocation", "salary")),
     ))
 
+    # B1 — aggregate-links board rows ride along in site-index.json
+    board_row = {
+        "id": "9999999999999999",
+        "kind": "board",
+        "origin": "config",
+        "company": "Google",
+        "title": "Early-career & internship software roles",
+        "location": "",
+        "age": "",
+        "posted_at": "",
+        "url": "https://www.google.com/about/careers/applications/jobs/results/?q=Software%20Engineer",
+        "source": "company_board",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/?q=Software%20Engineer",
+    }
+    board_index = bdr.build_site_index(
+        curated_payload, public_payload, {}, [board_row]
+    )
+    board_items = [it for it in board_index["items"] if it["kind"] == "board"]
+    run("build_site_index appends aggregate-links boards as kind:'board'", lambda: check(
+        "board in index",
+        len(board_items) == 1
+        and board_items[0]["origin"] == "config"
+        and board_items[0]["company"] == "Google"
+        and board_items[0]["url"].startswith("https://www.google.com/about/careers/"),
+        details=str(board_items),
+    ))
+    run("a board row carries no liveness / opportunity fields", lambda: check(
+        "board has no liveness",
+        "liveness" not in board_items[0]
+        and "last_checked" not in board_items[0]
+        and "level" not in board_items[0]
+        and board_items[0]["age"] == "" and board_items[0]["posted_at"] == "",
+    ))
+    run("boards don't change the job/hackathon/event item count", lambda: check(
+        "board count isolation",
+        board_index["count"] == index["count"] + 1,
+    ))
+    run("board rows validate against site-index.schema.json", lambda: check(
+        "board schema valid",
+        sv.validate_records(board_index["items"], site_index_schema, label="items") == [],
+    ))
+    run("no boards passed → no board items (unchanged behaviour)", lambda: check(
+        "no boards default",
+        not any(it["kind"] == "board" for it in index["items"]),
+    ))
+
     # A1 — verified-open signal from data/link-cache.json
     live_cache = {
         public_job["url"]: {"alive": True, "at": "2026-01-01T09:30:00Z"},
