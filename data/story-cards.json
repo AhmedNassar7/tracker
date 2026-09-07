@@ -1,20 +1,25 @@
 {
-  "generated_at": "2026-09-06T14:11:33Z",
+  "generated_at": "2026-09-06T23:57:05Z",
   "cards": [
     {
-      "id": "roles-total",
-      "title": "Roles right now",
-      "detail": "3,271 open software roles",
-      "filter": {}
-    },
-    {
-      "id": "internships",
-      "title": "Internships",
-      "detail": "134 internships open",
+      "id": "internship-trend",
+      "title": "This month",
+      "detail": "Internships down 11%",
       "filter": {
         "kind": "job",
         "levels": [
           "internship"
+        ]
+      }
+    },
+    {
+      "id": "new_grad-trend",
+      "title": "This month",
+      "detail": "New-grad roles down 7%",
+      "filter": {
+        "kind": "job",
+        "levels": [
+          "new_grad"
         ]
       }
     },
@@ -34,11 +39,11 @@
     {
       "id": "geography",
       "title": "Where the roles are",
-      "detail": "Most roles in the US, then Europe",
+      "detail": "Most roles in North America, then Asia-Pacific",
       "filter": {
         "kind": "job",
         "regions": [
-          "us"
+          "north_america"
         ]
       }
     }
