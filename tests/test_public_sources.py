@@ -540,6 +540,7 @@ def main():
             # live..."), which then broke the actual API URL at fetch time.
             # This is the regression test for that.
             "greenhouse:\n  - careem  # Dubai, UAE — verified live 2026-08-18\n\nlever:\n  - somecompany\n\n"
+            "workable:\n  - foodics  # Riyadh\n\n"
             "workday:\n  - Salesforce | salesforce.wd12.myworkdayjobs.com | External_Career_Site  # 527 SWE results\n"
             "  - bad workday line with no pipes\n",
             encoding="utf-8",
@@ -554,6 +555,11 @@ def main():
         run("load extra job boards config includes hand-seeded greenhouse/lever", lambda: check(
             "greenhouse/lever sections parsed",
             boards["greenhouse"] == ["careem"] and boards["lever"] == ["somecompany"],
+        ))
+        run("load extra job boards config parses the workable section", lambda: check(
+            "workable section parsed",
+            boards["workable"] == ["foodics"],
+            details=str(boards["workable"]),
         ))
         run("workday section parses 'Company | host | site' triples and skips malformed lines", lambda: check(
             "workday triples parsed",

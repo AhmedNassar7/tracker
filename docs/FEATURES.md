@@ -106,11 +106,13 @@ flowchart TD
 
 **Purpose:** Widen coverage far beyond the curated allowlist by polling the actual ATS (applicant tracking system) APIs behind companies already seen in the curated feed — no manual company list needed for the three biggest ATS platforms.
 
-**Where it lives:** [scripts/public_sources.py](../scripts/public_sources.py) — `discover_job_board_sources()`, `fetch_greenhouse_board_jobs`, `fetch_lever_jobs`, `fetch_workday_jobs`, `fetch_ashby_board_jobs`, `fetch_smartrecruiters_jobs`, `fetch_pinpoint_jobs`.
+**Where it lives:** [scripts/public_sources.py](../scripts/public_sources.py) — `discover_job_board_sources()`, `fetch_greenhouse_board_jobs`, `fetch_lever_jobs`, `fetch_workday_jobs`, `fetch_ashby_board_jobs`, `fetch_smartrecruiters_jobs`, `fetch_pinpoint_jobs`, `fetch_workable_jobs`.
 
-**How it works:** `discover_job_board_sources()` scans every URL already in `data/jobs-global.json` (the curated layer's output) for a Greenhouse board token, Lever company slug, or Workday `(host, site)` pair, using dedicated URL-shape extractors. Any company found this way gets its full board polled directly on the *next* run — no config file entry required. Ashby, SmartRecruiters, and PinpointHQ can't be auto-discovered this way (no reliable URL signature), so their companies are curated by hand in `config/extra_job_boards.yml`.
+**How it works:** `discover_job_board_sources()` scans every URL already in `data/jobs-global.json` (the curated layer's output) for a Greenhouse board token, Lever company slug, or Workday `(host, site)` pair, using dedicated URL-shape extractors. Any company found this way gets its full board polled directly on the *next* run — no config file entry required. Ashby, SmartRecruiters, PinpointHQ, and Workable can't be auto-discovered this way (no reliable URL signature), so their companies are curated by hand in `config/extra_job_boards.yml`.
 
 **PinpointHQ (`fetch_pinpoint_jobs`):** `config/extra_job_boards.yml`'s `pinpoint:` section takes either a bare token (→ `<token>.pinpointhq.com`) or a full custom careers host (any token with a dot, e.g. `careers.moneyfellows.com`). Each host's `/postings.json` returns a bare list; `_pinpoint_location()` probes the many field names PinpointHQ tenants use for the location (`location_name`, nested `job.location`, `structure_custom_group_*` where the group title is location/office/city/country, `locations[]`), and `_pinpoint_company_from_host()` derives the display name from the host. `region` is computed from the resolved location *before* any `(Remote)` suffix is appended, so a Dubai role stays `mena` rather than collapsing to `remote`. Description is the concatenation of `description` + `key_responsibilities` + `skills_knowledge_expertise` (HTML-unescaped) so the B3/B4/B5 facet detectors have text to work with. Seeded with **Tabby** (Dubai/Riyadh) and **Money Fellows** (Cairo).
+
+**Workable (`fetch_workable_jobs`):** `config/extra_job_boards.yml`'s `workable:` section takes the `apply.workable.com/<slug>` account slug. One keyless GET on `apply.workable.com/api/v1/widget/accounts/<slug>?details=true` returns `{name, jobs:[…]}` with every posting's full HTML JD inline — no pagination for typical board sizes. `_workable_locations()` reads the `locations[]` array (authoritative for multi-site postings) or falls back to the flat `city`/`country` fields; two or more distinct locations render as a `<details>` dropdown via `format_location_display()` (same as Workday). `region` is resolved from the location(s) *before* the `(Remote)` suffix (the `telecommuting` flag drives that suffix), so a Cairo-based remote role stays `mena`. The HTML `description` feeds the B3/B4/B5 facet detectors. Seeded with **Foodics** (Riyadh), **Lucidya** (Riyadh), **Salla** (Jeddah) — the MENA push's biggest Workable accounts.
 
 ```mermaid
 flowchart LR
@@ -121,6 +123,7 @@ flowchart LR
     Config["config/extra_job_boards.yml"] --> AB["Ashby tokens"]
     Config --> SR["SmartRecruiters tokens"]
     Config --> PP["PinpointHQ hosts"]
+    Config --> WK["Workable account slugs"]
 
     GH --> Poll["poll each board's\npublic API directly"]
     LV --> Poll
@@ -128,6 +131,7 @@ flowchart LR
     AB --> Poll
     SR --> Poll
     PP --> Poll
+    WK --> Poll
     Poll --> Filter["is_software_job()\nfilter to engineering roles"]
     Filter --> Out["public-opportunities.json"]
 ```
@@ -189,7 +193,7 @@ flowchart TD
 
 **Where it lives:** `config/companies_allowlist.yml`, `config/extra_job_boards.yml`, `config/aggregate_links.yml`.
 
-**How it works:** All three are plain lists read line-by-line (no dependency on a YAML parser library). Adding a company to the curated allowlist or an Ashby/SmartRecruiters board token to `extra_job_boards.yml` takes effect on the very next hourly run — see [CONTRIBUTING.md](../CONTRIBUTING.md) for the exact steps and the SmartRecruiters verification caveat (its API returns HTTP 200 for *any* slug, valid or not, so unverified additions silently do nothing). `config/aggregate_links.yml` (`Company | link text | URL` per line) is for companies with no enumerable public board (Google, Meta, Microsoft, Apple, plus MENA majors like Talabat / Noon / Careem) — each becomes one hand-verified "browse all early-career roles" row. `load_aggregate_links()` renders it into `data/README.md`'s **Browse Every Role** section *and* passes it to `build_site_index()`, which appends it to `site-index.json` as a `kind:"board"` / `origin:"config"` item (no `liveness`, empty `age`/`posted_at`/`location`). On the site, `<BrowseEveryRole>` renders these as a distinct "Browse every role directly" chip strip — filtered only by the search box, shown only alongside jobs, and kept out of the list, the counts, the hero, the dashboard, and the RSS feeds. Never a fake single posting.
+**How it works:** All three are plain lists read line-by-line (no dependency on a YAML parser library). Adding a company to the curated allowlist or an Ashby/SmartRecruiters/PinpointHQ/Workable board token to `extra_job_boards.yml` takes effect on the very next hourly run — see [CONTRIBUTING.md](../CONTRIBUTING.md) for the exact steps and the SmartRecruiters verification caveat (its API returns HTTP 200 for *any* slug, valid or not, so unverified additions silently do nothing). `config/aggregate_links.yml` (`Company | link text | URL` per line) is for companies with no enumerable public board (Google, Meta, Microsoft, Apple, plus MENA majors like Talabat / Noon / Careem) — each becomes one hand-verified "browse all early-career roles" row. `load_aggregate_links()` renders it into `data/README.md`'s **Browse Every Role** section *and* passes it to `build_site_index()`, which appends it to `site-index.json` as a `kind:"board"` / `origin:"config"` item (no `liveness`, empty `age`/`posted_at`/`location`). On the site, `<BrowseEveryRole>` renders these as a distinct "Browse every role directly" chip strip — filtered only by the search box, shown only alongside jobs, and kept out of the list, the counts, the hero, the dashboard, and the RSS feeds. Never a fake single posting.
 
 ## Website
 
