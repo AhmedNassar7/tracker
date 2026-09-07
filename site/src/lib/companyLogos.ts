@@ -23,7 +23,7 @@ function faviconSources(domain: string, size: number): string[] {
   ];
 }
 
-// Verified 2026-09-05. Keys are lower-cased company display names (post
+// Verified 2026-09-05 (updated 2026-09-07). Keys are lower-cased company display names (post
 // prettifyCompany). Covers config/companies_allowlist.yml plus the
 // most-common public-layer employers. Add a row only after confirming the
 // domain is the company's real primary site.
@@ -35,7 +35,7 @@ const COMPANY_DOMAINS: Record<string, string> = {
   nvidia: "nvidia.com", amd: "amd.com", intel: "intel.com", qualcomm: "qualcomm.com",
   arm: "arm.com", ibm: "ibm.com", oracle: "oracle.com", salesforce: "salesforce.com",
   adobe: "adobe.com", cisco: "cisco.com", sap: "sap.com", samsung: "samsung.com",
-  sony: "sony.com", siemens: "siemens.com",
+  sony: "sony.com", siemens: "siemens.com", nokia: "nokia.com", vodafone: "vodafone.com",
   // Cloud / infra
   cloudflare: "cloudflare.com", datadog: "datadoghq.com", splunk: "splunk.com",
   snowflake: "snowflake.com", databricks: "databricks.com", mongodb: "mongodb.com",
@@ -48,6 +48,7 @@ const COMPANY_DOMAINS: Record<string, string> = {
   // AI research
   openai: "openai.com", anthropic: "anthropic.com", deepmind: "deepmind.com",
   cohere: "cohere.com", mistral: "mistral.ai", "scale ai": "scale.com", "hugging face": "huggingface.co",
+  mercor: "mercor.com", incorta: "incorta.com",
   // Fintech
   paypal: "paypal.com", revolut: "revolut.com", n26: "n26.com", wise: "wise.com",
   klarna: "klarna.com", visa: "visa.com", mastercard: "mastercard.com",
@@ -73,7 +74,9 @@ const COMPANY_DOMAINS: Record<string, string> = {
   careem: "careem.com", talabat: "talabat.com", noon: "noon.com", jumia: "jumia.com",
   flutterwave: "flutterwave.com", paystack: "paystack.com", interswitch: "interswitchgroup.com",
   fawry: "fawry.com", thndr: "thndr.app", tamara: "tamara.co", tabby: "tabby.ai", swvl: "swvl.com",
+  bosta: "bosta.co",
   // More global tech
+  valeo: "valeo.com",
   tesla: "tesla.com", spacex: "spacex.com", "palo alto networks": "paloaltonetworks.com",
   crowdstrike: "crowdstrike.com", servicenow: "servicenow.com", workday: "workday.com",
   block: "block.xyz", coinbase: "coinbase.com", robinhood: "robinhood.com",

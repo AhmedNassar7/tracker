@@ -96,6 +96,7 @@ lever:
   - paytm
   - dlocal
   - Bosta  # Cairo, Egypt logistics — verified by hand 2026-09-06 (jobs.lever.co/Bosta, real Cairo eng roles). Case matters.
+  - incorta  # Analytics/BI SaaS (San Mateo, US + Riyadh) — verified 2026-09-07 via api.lever.co/v0/postings/incorta, real postings incl. BI Solution Engineer - Riyadh
 
 # ---------------------------------------------------------------------------
 # Adding an employer whose board isn't auto-discovered — three paths, easiest
@@ -104,7 +105,8 @@ lever:
 #
 # 1. Real Greenhouse/Lever/Ashby board  → add the EXACT-CASE token here
 #    (slugs are case-sensitive; verify_extra_boards.py auto-retries variants).
-#    Verified & added so far:  Bosta (lever, Cairo) · Mercor (ashby, SF).
+#    Verified & added so far:  Bosta (lever, Cairo) · Mercor (ashby, SF) ·
+#    Incorta (lever, San Mateo/Riyadh).
 #
 # 2. Bespoke careers site, no pollable board  → one row in
 #    config/aggregate_links.yml instead ("Browse every role at X"), never a
@@ -150,3 +152,4 @@ workday:
   - Visa | visa.wd5.myworkdayjobs.com | Visa                                # 180 SWE results
   - Mastercard | mastercard.wd1.myworkdayjobs.com | CorporateCareers        # 325 SWE results
   - Workday | workday.wd5.myworkdayjobs.com | Workday                       # 153 SWE results
+  - Valeo | valeo.wd3.myworkdayjobs.com | valeo_jobs                        # verified 2026-09-07, 1020 total incl. real Cairo posting (AI Engineer, AI4ALL)

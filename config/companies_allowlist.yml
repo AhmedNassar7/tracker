@@ -28,6 +28,8 @@ big_tech:
   - Samsung
   - Sony
   - Siemens
+  - Nokia    # careers site is Oracle Recruiting Cloud — no supported-ATS board, curated-layer only
+  - Vodafone # careers site is Phenom People — no supported-ATS board, curated-layer only
 
 cloud_infra:
   - Cloudflare
