@@ -33,6 +33,7 @@ import { countryForItem, regionForItem, REGION_ORDER } from "../lib/geo";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import Pagination from "./Pagination";
 import BrowseEveryRole from "./BrowseEveryRole";
+import CompanyShowcase from "./CompanyShowcase";
 import StoryStrip from "./StoryStrip";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
@@ -397,6 +398,8 @@ export default function OpportunityBrowser() {
   return (
     <div>
       <SnapshotHero items={opportunityItems} generatedAt={data.generated_at} onQuickFilter={handleQuickFilter} />
+
+      <CompanyShowcase onSelect={handleQuickFilter} />
 
       <StoryStrip cards={storyCards} onSelect={handleQuickFilter} />
 
