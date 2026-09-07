@@ -734,6 +734,59 @@ def main():
         and netflix_rows[0]["company"] == "Netflix",
     ))
 
+    arbeitsagentur_payload = {
+        "ergebnisliste": [
+            {
+                "stellenangebotsTitel": "Junior Software Engineer (m/w/d)",
+                "firma": "SAP SE",
+                "referenznummer": "10000-1234567890-S",
+                "stellenlokationen": [{"adresse": {"ort": "Walldorf", "land": "DEUTSCHLAND"}}],
+                "datumErsteVeroeffentlichung": "2026-08-01",
+            },
+            {
+                # Non-software title -> filtered by ROLE_RE even though the
+                # company (SAP) is allowlisted.
+                "stellenangebotsTitel": "Bilanzbuchhalter (m/w/d)",
+                "firma": "SAP SE",
+                "referenznummer": "10000-9999999999-S",
+                "stellenlokationen": [{"adresse": {"ort": "Berlin", "land": "DEUTSCHLAND"}}],
+                "datumErsteVeroeffentlichung": "2026-08-01",
+            },
+            {
+                # Real software title with a real level word, but the
+                # employer isn't on the allowlist -> filtered by include_job's
+                # company check, same as any other source's non-allowlisted row.
+                "stellenangebotsTitel": "Junior Backend Engineer",
+                "firma": "Kleine Firma GmbH",
+                "referenznummer": "10000-8888888888-S",
+                "stellenlokationen": [{"adresse": {"ort": "Berlin", "land": "DEUTSCHLAND"}}],
+                "datumErsteVeroeffentlichung": "2026-08-01",
+            },
+        ],
+        "maxErgebnisse": 3,
+        "page": 1,
+        "size": 100,
+    }
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25, headers=None):
+            dest.write_text(json.dumps(arbeitsagentur_payload), encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["sap"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            arbeitsagentur_rows = fetch.fetch_arbeitsagentur(max_pages=1)
+    run("arbeitsagentur fetch hits Germany's Jobsuche API directly, builds a canonical jobdetail URL, and filters by role/company", lambda: check(
+        "arbeitsagentur fetch hits Germany's Jobsuche API directly, builds a canonical jobdetail URL, and filters by role/company",
+        len(arbeitsagentur_rows) == 1
+        and arbeitsagentur_rows[0]["title"] == "Junior Software Engineer (m/w/d)"
+        and arbeitsagentur_rows[0]["company"] == "SAP SE"
+        and arbeitsagentur_rows[0]["url"] == "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1234567890-S"
+        and arbeitsagentur_rows[0]["location"] == "Walldorf, Germany"
+        and arbeitsagentur_rows[0]["posted_at"] == "2026-08-01"
+        and arbeitsagentur_rows[0]["source"] == "arbeitsagentur",
+    ))
+
     rows = [{
         "id": "aaaaaaaaaaaaaaaa",
         "company": "Google",

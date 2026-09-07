@@ -4,7 +4,8 @@ Fetch global tech roles from multiple sources, normalize, dedupe, and export.
 Sources: Remotive, ArbeitNow, SimplifyJobs (internships & new grad), ambicuity/
 New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada), Amazon
 (direct from amazon.jobs' own API), Netflix (direct from its Eightfold-hosted
-careers API)
+careers API), Arbeitsagentur (direct from Germany's Bundesagentur für Arbeit
+Jobsuche API)
 Scope: US, Canada, EMEA + Remote | Levels: Internship/New Grad/Junior/Entry/Mid
 Companies: Top-tier allowlist only
 """
@@ -295,9 +296,12 @@ def include_job(row, company):
     return level_ok and company_ok
 
 
-def fetch_url(url, dest, timeout=25):
+def fetch_url(url, dest, timeout=25, headers=None):
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"})
+        req_headers = {"User-Agent": "tracker-bot/1.0"}
+        if headers:
+            req_headers.update(headers)
+        req = urllib.request.Request(url, headers=req_headers)
         _status, data = fetch_with_retry(req, timeout)
         dest.write_bytes(data)
         log_debug(f"Fetched {len(data)} bytes from {url}")
@@ -938,6 +942,105 @@ def fetch_netflix(max_pages=20, page_size=10):
     log_info(f"Netflix: {len(out)} matched (skipped role:{skipped['role']} level:{skipped['level']} region:{skipped['region']} company:{skipped['company']})")
     return out
 
+_ARBEITSAGENTUR_API_KEY = "jobboerse-jobsuche"
+_ARBEITSAGENTUR_COUNTRY_MAP = {"DEUTSCHLAND": "Germany", "OESTERREICH": "Austria", "SCHWEIZ": "Switzerland"}
+
+def _format_arbeitsagentur_location(locations):
+    """`stellenlokationen` is a list of address objects; use the first one
+    (the API never orders/labels them as primary, and every observed listing
+    so far carries exactly one) and translate the German country name to
+    English so detect_region/detect_country (which key off English/German
+    alternation, not this API's ALL-CAPS German spelling) match reliably.
+    """
+    if not locations:
+        return "Germany"
+    addr = (locations[0] or {}).get("adresse") or {}
+    city = (addr.get("ort") or "").strip()
+    country = _ARBEITSAGENTUR_COUNTRY_MAP.get((addr.get("land") or "").strip().upper(), "Germany")
+    return f"{city}, {country}" if city else country
+
+def fetch_arbeitsagentur(max_pages=10, page_size=100):
+    """Fetch directly from the German Federal Employment Agency's (Bundesagentur
+    für Arbeit) own Jobsuche API.
+
+    Not an officially published third-party API: access uses a shared client
+    key ("jobboerse-jobsuche") the agency's own consumer app/site uses
+    internally, reverse-engineered and documented by the open-source
+    bundesAPI/jobsuche-api project — not a personally registered credential.
+    Confirmed live 2026-09-07 against the real endpoint (the bundesAPI docs'
+    own schema is stale — this uses the actual field names observed:
+    `ergebnisliste`, `firma`, `stellenangebotsTitel`, `referenznummer`,
+    `stellenlokationen`, not the `stellenangebote`/`arbeitgeber`/`refnr` the
+    docs describe). Treat a fetch failure here as routine (skip, don't fail
+    the run) since Bundesagentur could change or drop this without notice.
+
+    Each row's `referenznummer` builds a canonical
+    arbeitsagentur.de/jobsuche/jobdetail/{referenznummer} URL (confirmed live)
+    which, for the small/mid German employers that dominate this feed, *is*
+    the actual, sole posting — first-party, same treatment as Amazon's/
+    Netflix's own direct APIs above, not a third-party mirror of someone
+    else's listing.
+    """
+    out = []
+    log_info("Fetching Arbeitsagentur (Germany, direct)...")
+    base_url = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs"
+    skipped = {"role": 0, "level": 0, "region": 0, "company": 0}
+
+    for page in range(1, max_pages + 1):
+        url = f"{base_url}?was=software+engineer&page={page}&size={page_size}"
+        path = DATA_RAW / f"arbeitsagentur_page{page}.json"
+
+        if not fetch_url(url, path, headers={"X-API-Key": _ARBEITSAGENTUR_API_KEY}):
+            log_warn(f"Arbeitsagentur fetch failed on page {page}, stopping pagination")
+            break
+
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            jobs = data.get("ergebnisliste", [])
+        except Exception as e:
+            log_error(f"Error parsing Arbeitsagentur page {page}: {e}")
+            break
+
+        if not jobs:
+            break
+
+        for j in jobs:
+            company = (j.get("firma") or "").strip()
+            title = (j.get("stellenangebotsTitel") or "").strip()
+            refnr = (j.get("referenznummer") or "").strip()
+            location = _format_arbeitsagentur_location(j.get("stellenlokationen"))
+            posted = (j.get("datumErsteVeroeffentlichung") or TODAY)[:10]
+
+            if not (company and title and refnr):
+                skipped["role"] += 1
+                continue
+
+            if not ROLE_RE.search(title):
+                skipped["role"] += 1
+                continue
+
+            url_full = f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{refnr}"
+            row = normalize(company, title, location, url_full, posted, "arbeitsagentur",
+                            "https://www.arbeitsagentur.de/jobsuche/")
+
+            if not include_job(row, company):
+                if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:
+                    skipped["level"] += 1
+                elif row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                    skipped["region"] += 1
+                else:
+                    skipped["company"] += 1
+                continue
+
+            out.append(row)
+
+        max_results = data.get("maxErgebnisse", 0)
+        if page * page_size >= max_results:
+            break
+
+    log_info(f"Arbeitsagentur: {len(out)} matched (skipped role:{skipped['role']} level:{skipped['level']} region:{skipped['region']} company:{skipped['company']})")
+    return out
+
 def fetch_ambicuity_newgrad():
     """Fetch ambicuity/New-Grad-Jobs' live JSON feed (refreshed every 5 min upstream)."""
     out = []
@@ -1062,6 +1165,7 @@ SOURCE_FETCHER_NAMES = [
     "fetch_ambicuity_newgrad",
     "fetch_amazon",
     "fetch_netflix",
+    "fetch_arbeitsagentur",
 ]
 
 def _call_fetcher_by_name(name):
