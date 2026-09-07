@@ -4,13 +4,20 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Mon, 07 Sep 2026 04:40:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 10:17:33 GMT</lastBuildDate>
+    <item>
+      <title>SpaceX — Software Engineer New Grad - Software</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">6ffffa2b5640e686</guid>
+      <description>Brownsville, TX · new_grad · 19d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Roblox — [2027] Software Engineer, Early Career</title>
       <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
       <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
-      <description>San Mateo, CA, United States · new_grad · 1d</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <description>San Mateo, CA, United States · new_grad · 0d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Google — Software Engineer, Performance, Reliability, Observability, Phd, Early Career</title>
@@ -126,13 +133,6 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 3d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
       <description>London · new_grad · 3d</description>
@@ -157,6 +157,13 @@
       <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
       <guid isPermaLink="false">334395993d3f3a1a</guid>
       <description>Singapore · new_grad · 3d</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 3d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -352,7 +359,7 @@
       <title>PayPal — Software Engineer - Recent Graduate</title>
       <link>https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Software-Engineer---Recent-Graduate_R0137237</link>
       <guid isPermaLink="false">30644a2915efeccd</guid>
-      <description>San Jose, California, United States of America +2 more · new_grad · 2d</description>
+      <description>San Jose, California, United States of America +2 more · new_grad · 3d</description>
     </item>
   </channel>
 </rss>
