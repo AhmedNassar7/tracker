@@ -399,7 +399,7 @@ export default function OpportunityBrowser() {
     <div>
       <SnapshotHero items={opportunityItems} generatedAt={data.generated_at} onQuickFilter={handleQuickFilter} />
 
-      <CompanyShowcase onSelect={handleQuickFilter} />
+      <CompanyShowcase onSelect={handleQuickFilter} activeQuery={filters.q} />
 
       <StoryStrip cards={storyCards} onSelect={handleQuickFilter} />
 
@@ -522,10 +522,6 @@ export default function OpportunityBrowser() {
         onClearPrefs={handleClearPrefs}
       />
 
-      {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && (
-        <BrowseEveryRole boards={boardItems} query={filters.q} />
-      )}
-
       {filteredItems.length === 0 && lessRelevant.length === 0 ? (
         <div className="py-12 text-center">
           <p className="text-slate-600 dark:text-slate-300">
@@ -584,6 +580,10 @@ export default function OpportunityBrowser() {
           )}
           {totalPages > 1 && <Pagination page={safePage} totalPages={totalPages} onChange={goToPage} />}
         </>
+      )}
+
+      {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && (
+        <BrowseEveryRole boards={boardItems} query={filters.q} />
       )}
     </div>
   );

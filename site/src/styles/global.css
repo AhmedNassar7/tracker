@@ -66,6 +66,27 @@
   }
 }
 
+/* Story-strip card entrance (StoryStrip.tsx). Same guarded-plain-CSS pattern
+   as .row-enter / .hero-enter — a staggered fade-up as the auto-generated
+   "state of hiring" cards settle in below the hero. The per-card delay is set
+   inline (animationDelay) from the card's index; the easing is a gentle
+   overshoot-free ease-out. Never plays under reduced motion. */
+@keyframes story-card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .story-card-enter {
+    animation: story-card-enter 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
 /* Company logo showcase marquee (CompanyShowcase.tsx). The scroll/drag
    itself is driven from JS (a rAF loop sets `transform` directly, and a
    pointer drag adds to the same offset) rather than a CSS @keyframes
