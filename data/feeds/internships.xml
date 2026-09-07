@@ -4,7 +4,14 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Mon, 07 Sep 2026 20:35:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 23:30:46 GMT</lastBuildDate>
+    <item>
+      <title>Google — Software Developer Intern, BS, Summer 2027</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/123510626377966278</link>
+      <guid isPermaLink="false">b2a9f77a87d1ad42</guid>
+      <description>Canada · internship · 0d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Dropbox — Software Engineer Intern - Summer 2027</title>
       <link>https://boards.greenhouse.io/embed/job_app?token=8106224&amp;utm_source=Simplify&amp;ref=Simplify</link>
@@ -13,17 +20,10 @@
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Software Engineer, Internship</title>
-      <link>https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249</link>
-      <guid isPermaLink="false">66bbf1e553376c7c</guid>
-      <description>Denver, CO · internship · 0d</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
-      <link>https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333</link>
-      <guid isPermaLink="false">31badf886c62d8a0</guid>
-      <description>New York, NY · internship · 0d</description>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
+      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
+      <guid isPermaLink="false">a4f1485683352998</guid>
+      <description>Chicago, IL · internship · 0d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -56,6 +56,13 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">0b30ae0ba59031b6</guid>
+      <description>Markham, ON, Canada · internship · 5d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Software Engineer Intern/Co-op</title>
       <link>https://careers.amd.com/jobs/91367?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">832a6a75550c48eb</guid>
       <description>Vancouver, BC, Canada · internship · 5d</description>
@@ -66,13 +73,6 @@
       <link>https://careers.amd.com/jobs/91366?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">fd0ede66dae41608</guid>
       <description>Calgary, AB, Canada · internship · 5d</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">0b30ae0ba59031b6</guid>
-      <description>Markham, ON, Canada · internship · 5d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -119,16 +119,16 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2c822e92c85d92c2</guid>
-      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 16d</description>
+      <link>https://careers.amd.com/jobs/90891?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">b5e1e562d656d53e</guid>
+      <description>San Jose, CA Santa Clara, CA · internship · 16d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90891?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">b5e1e562d656d53e</guid>
-      <description>San Jose, CA Santa Clara, CA · internship · 16d</description>
+      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2c822e92c85d92c2</guid>
+      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 16d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -136,6 +136,13 @@
       <link>https://careers.amd.com/jobs/91180?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">2bb8ad1724bcbbc6</guid>
       <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 16d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Notion — Software Engineer Intern</title>
+      <link>https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">6a49c8dec8df3117</guid>
+      <description>San Francisco, CA New York, NY · internship · 17d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -231,13 +238,6 @@
     </item>
     <item>
       <title>Palantir — Software Engineer Intern</title>
-      <link>https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">f3b1e283b7673d4d</guid>
-      <description>Palo Alto, CA · internship · 1mo</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer Intern</title>
       <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">2ee142b47bfc9198</guid>
       <description>New York, NY · internship · 1mo</description>
@@ -248,6 +248,13 @@
       <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">03f050ca86559a60</guid>
       <description>Washington, D.C. · internship · 1mo</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer Intern</title>
+      <link>https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">f3b1e283b7673d4d</guid>
+      <description>Palo Alto, CA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -269,13 +276,6 @@
       <link>https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/?gh_src=&amp;utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">cc7a168906373af1</guid>
       <description>Austin, TX Chicago, IL New York, NY · internship · 1mo</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hudson River Trading — Software Engineering Internship (C++ or Python) – Summer 2027</title>
-      <link>https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083</link>
-      <guid isPermaLink="false">9ed07db58d1d8e2d</guid>
-      <description>Austin +11 more · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -384,10 +384,10 @@
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Roblox — [[Summer 2027] Software Engineer Intern](https://careers.roblox.com/jobs/8072713?gh_jid=8072713)</title>
-      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713</link>
-      <guid isPermaLink="false">c1942937c52b53dc</guid>
-      <description>San Mateo, CA, United States · internship · 1mo</description>
+      <title>Roblox — Software Engineer Intern 🇺🇸</title>
+      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713&amp;gh_src=nnh32o631us&amp;utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">e5430b57e7623e0c</guid>
+      <description>San Mateo, CA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -517,6 +517,13 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer Intern, ROBOTICS - 2027</title>
+      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027</link>
+      <guid isPermaLink="false">1a546b553208fbba</guid>
+      <description>North Reading, MA · internship · 2d</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>PayPal — Software Engineer Intern</title>
       <link>https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Software-Engineer-Intern_R0137285</link>
       <guid isPermaLink="false">8f0da41d602ede81</guid>
@@ -545,10 +552,10 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer Intern, ROBOTICS - 2027</title>
-      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027</link>
-      <guid isPermaLink="false">bea945b0a821b358</guid>
-      <description>North Reading, Massachusetts, USA · internship · 3d</description>
+      <title>Adobe — Software Engineer Intern</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">d3f8f33397849a10</guid>
+      <description>Seattle, WA +6 more · internship · 3d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -556,13 +563,6 @@
       <link>https://www.tesla.com/careers/search/job/282340?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">754a5f93d648f64b</guid>
       <description>Palo Alto, CA · internship · 3d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe — Software Engineer Intern</title>
-      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">d3f8f33397849a10</guid>
-      <description>Seattle, WA +6 more · internship · 3d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -574,15 +574,15 @@
     </item>
     <item>
       <title>Cloudflare — Software Engineer Intern (Fall 2026)</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845</link>
-      <guid isPermaLink="false">338873061c4c56a9</guid>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855</link>
+      <guid isPermaLink="false">2ea5bd301ce19286</guid>
       <description>In-Office · internship · 3d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cloudflare — Software Engineer Intern (Fall 2026)</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8118855?gh_jid=8118855</link>
-      <guid isPermaLink="false">2ea5bd301ce19286</guid>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845</link>
+      <guid isPermaLink="false">338873061c4c56a9</guid>
       <description>In-Office · internship · 3d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -602,16 +602,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130867</link>
-      <guid isPermaLink="false">17d0966195e03cff</guid>
-      <description>London · internship · 3d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
+      <guid isPermaLink="false">123c0cae7b46bde0</guid>
+      <description>Bengaluru · internship · 3d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
-      <guid isPermaLink="false">123c0cae7b46bde0</guid>
-      <description>Bengaluru · internship · 3d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130867</link>
+      <guid isPermaLink="false">17d0966195e03cff</guid>
+      <description>London · internship · 3d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -818,17 +818,17 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epic Games — Frontend Programmer Intern</title>
-      <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">0907d94cb3b1a0a3</guid>
-      <description>Cary, NC · internship · 7d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Mastercard — Data Scientist Intern</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">92cae59344d618fd</guid>
       <description>O'Fallon, MO · internship · 7d</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic Games — Frontend Programmer Intern</title>
+      <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">0907d94cb3b1a0a3</guid>
+      <description>Cary, NC · internship · 7d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1098,13 +1098,6 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</title>
-      <link>https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</link>
-      <guid isPermaLink="false">d0861b887ea3c5be</guid>
-      <description>Chicago, IL · internship · 75d</description>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Snowflake — Software Engineer Intern - Berlin (2026)</title>
       <link>https://jobs.ashbyhq.com/snowflake/41e65c6c-a01e-4f40-af14-ae75d3b95e27</link>
       <guid isPermaLink="false">63222ef28653121b</guid>
@@ -1131,6 +1124,13 @@
       <guid isPermaLink="false">a36d52531f5e754e</guid>
       <description>Paris, France · internship · 124d</description>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Year at Palantir - Forward Deployed Software Engineer, Internship - USG</title>
+      <link>https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333</link>
+      <guid isPermaLink="false">3737f5282b5c7ed6</guid>
+      <description>New York, NY · internship · 171d</description>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Year at Palantir - Software Engineer, Internship</title>
