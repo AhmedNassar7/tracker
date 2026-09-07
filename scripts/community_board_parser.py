@@ -1,9 +1,11 @@
 """Generic markdown-table parser for community job-tracker READMEs that
 follow the same general shape as SimplifyJobs' lists (one row per job, one
 company/title/location column, one cell holding the apply link) but each
-with its own column order and link markup — speedyapply, zapplyjobs, and
-hanzili all differ here. A shared column-indexed parser avoids writing a
-near-identical regex per repo.
+with its own column order and link markup — speedyapply, zapplyjobs,
+hanzili, and DereC4 all differ here (the first three keep the apply link in
+its own column; DereC4 combines title + link in one cell, SimplifyJobs-
+style). A shared column-indexed parser avoids writing a near-identical
+regex per repo.
 
 scripts/simplify_jobs_parser.py is intentionally untouched and kept separate:
 its pipe-table + HTML-table dual parsing is specific to how SimplifyJobs'
@@ -31,7 +33,14 @@ STRIKETHROUGH_RE = re.compile(r"^~~.*~~$")
 
 def clean_cell_text(cell: str) -> str:
     text = clean_html_text(cell)
-    return re.sub(r"\*\*([^*]+)\*\*", r"\1", text).strip()
+    text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
+    # A cell that's a markdown link wrapping the display text (DereC4's
+    # aggregator combines title + apply link into one cell, unlike
+    # speedyapply/zapplyjobs/hanzili which keep the link in its own column)
+    # collapses to just the link text here — extract_cell_url below re-scans
+    # the *raw* cell separately, so the URL itself is never lost.
+    text = re.sub(r"\[([^\]]+)\]\(<?https?://[^()<>]+>?\)", r"\1", text)
+    return text.strip()
 
 
 def extract_cell_url(cell: str) -> str:

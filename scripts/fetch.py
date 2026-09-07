@@ -2,7 +2,8 @@
 """
 Fetch global tech roles from multiple sources, normalize, dedupe, and export.
 Sources: Remotive, ArbeitNow, SimplifyJobs (internships & new grad), ambicuity/
-New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada), Amazon
+New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada),
+DereC4/internships-and-newgrad, Amazon
 (direct from amazon.jobs' own API), Netflix (direct from its Eightfold-hosted
 careers API), Arbeitsagentur (direct from Germany's Bundesagentur für Arbeit
 Jobsuche API)
@@ -757,6 +758,35 @@ def fetch_lorenzolacorte_eu():
         row["company"] = prettify_company_name(row["company"])
     return rows
 
+def fetch_derec4_newgrad():
+    """Fetch DereC4/internships-and-newgrad's README job table — a personal,
+    actively-updated (80+ stars) deduplicated aggregation of internship/new-
+    grad postings. Same 4-column shape (Company | Role-link | Location | Age)
+    as the generic community-board parser.
+
+    Confirmed 2026-09-07: roughly half its rows are verbatim copies of
+    SimplifyJobs' own links (SimplifyJobs' own `utm_source=Simplify` params
+    already baked in) — those collapse into the exact same row as the
+    existing SimplifyJobs fetch via make_id()'s company+title+url hash, so no
+    duplicate pollution. The rest point directly at real ATS pages (Ashby,
+    Lever, Workday, Greenhouse, Oracle Cloud, amazon.jobs — never this repo's
+    own site) and cover companies none of the other curated sources do
+    (Marvell, Kroger, Zipline, Hadrian, Hermeus, IXL Learning, Xsolla, ...).
+
+    Known imperfection, accepted rather than fixed: the source itself
+    sometimes lists the identical role twice under two different Workday
+    career-site paths with different req-id suffixes (e.g. `MarvellCareers`
+    vs `MarvellCareers2`) — different URLs, so dedupe() can't catch it. Same
+    tier of noise as other community trackers already in the pipeline.
+    """
+    return _fetch_community_board(
+        "derec4_newgrad",
+        "https://github.com/DereC4/internships-and-newgrad",
+        "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
+        "derec4_newgrad.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
 def fetch_hanzili_canada():
     """Fetch hanzili/canada_sde_junior_new_grad_position's README job table."""
     return _fetch_community_board(
@@ -1161,6 +1191,7 @@ SOURCE_FETCHER_NAMES = [
     "fetch_zapplyjobs_canada",
     "fetch_zapplyjobs_canada_internships",
     "fetch_lorenzolacorte_eu",
+    "fetch_derec4_newgrad",
     "fetch_hanzili_canada",
     "fetch_ambicuity_newgrad",
     "fetch_amazon",

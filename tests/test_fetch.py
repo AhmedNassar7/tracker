@@ -608,6 +608,34 @@ def main():
         and hanzili_rows[0]["url"] == "https://example.com/ha1",
     ))
 
+    # DereC4-style table: same 4-column shape as SimplifyJobs' own rows
+    # (Company | [Role](url) | Location | Age) — one row is a verbatim
+    # SimplifyJobs re-export (same url SimplifyJobs itself would carry) and
+    # should parse identically to any other 4-column community board.
+    derec4_md = "\n".join([
+        "| Company | Role | Location | Age |",
+        "| --- | --- | --- | --- |",
+        "| Google | [Software Engineer Intern](https://jobs.ashbyhq.com/google-clone/abc123?utm_source=Simplify&ref=Simplify) | Mountain View, CA | 1d |",
+        "| UnknownCo | [Software Engineer Intern](https://example.com/dc2) | Mountain View, CA | 1d |",
+    ])
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25):
+            dest.write_text(derec4_md, encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["google"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            derec4_rows = fetch.fetch_derec4_newgrad()
+    run("DereC4 fetch parses the 4-column table and filters by the allowlist", lambda: check(
+        "DereC4 fetch parses the 4-column table and filters by the allowlist",
+        len(derec4_rows) == 1
+        and derec4_rows[0]["company"] == "Google"
+        and derec4_rows[0]["title"] == "Software Engineer Intern"
+        and derec4_rows[0]["url"] == "https://jobs.ashbyhq.com/google-clone/abc123?utm_source=Simplify&ref=Simplify"
+        and derec4_rows[0]["source"] == "derec4_newgrad",
+    ))
+
     ambicuity_payload = {
         "meta": {"total_jobs": 2},
         "jobs": [

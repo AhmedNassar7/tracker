@@ -314,7 +314,7 @@ COMMUNITY_TRACKER_SOURCES = frozenset({
     "speedyapply_swe", "speedyapply_ai",
     "zapplyjobs_internships", "zapplyjobs_newgrad", "zapplyjobs_all_newgrad",
     "zapplyjobs_canada", "zapplyjobs_canada_internships", "zapplyjobs_datascience",
-    "lorenzolacorte_eu", "hanzili_canada", "ambicuity",
+    "lorenzolacorte_eu", "hanzili_canada", "ambicuity", "derec4_newgrad",
 })
 COMMUNITY_TRACKER_MAX_AGE_DAYS = 30
 LIVE_API_MAX_AGE_DAYS = 180
