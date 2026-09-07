@@ -58,7 +58,7 @@ function CompanyShowcaseLogo({ company, onSelect, decorative = false }: LogoProp
           loading="lazy"
           decoding="async"
           onError={() => setSrcIndex((i) => i + 1)}
-          className="h-10 w-10 rounded-lg bg-white object-contain p-1.5 ring-1 ring-slate-200 grayscale transition-all duration-200 group-hover:grayscale-0 dark:bg-slate-800 dark:ring-slate-700"
+          className="h-10 w-10 rounded-lg bg-white object-contain p-1.5 ring-1 ring-slate-200 transition-all duration-200 dark:bg-slate-800 dark:ring-slate-700"
         />
       ) : (
         <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 text-xs font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">

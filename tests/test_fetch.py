@@ -636,6 +636,31 @@ def main():
         and derec4_rows[0]["source"] == "derec4_newgrad",
     ))
 
+    # Lamiiine-style table: same 4-column shape but no Age column, and the
+    # URL is a bare link (not markdown-wrapped) in the 4th cell.
+    lamiiine_md = "\n".join([
+        "| Company | Job Title | Location | Link |",
+        "|---------|-----------|---------|------|",
+        "| Monzo | Junior Backend Engineer | London, UK 🇬🇧 | https://boards.greenhouse.io/monzo/jobs/4978305 |",
+        "| UnknownCo | Junior Backend Engineer | London, UK 🇬🇧 | https://example.com/lam2 |",
+    ])
+    with tempfile.TemporaryDirectory() as tmp:
+        data_raw = Path(tmp)
+
+        def fake_fetch(_url, dest, timeout=25):
+            dest.write_text(lamiiine_md, encoding="utf-8")
+            return True
+
+        with patch.object(fetch, "DATA_RAW", data_raw), patch.object(fetch, "ALLOWLIST", ["monzo"]), patch.object(fetch, "fetch_url", side_effect=fake_fetch):
+            lamiiine_rows = fetch.fetch_lamiiine_visa()
+    run("Lamiiine fetch handles a bare (non-markdown) URL cell and a missing Age column", lambda: check(
+        "Lamiiine fetch handles a bare (non-markdown) URL cell and a missing Age column",
+        len(lamiiine_rows) == 1
+        and lamiiine_rows[0]["company"] == "Monzo"
+        and lamiiine_rows[0]["url"] == "https://boards.greenhouse.io/monzo/jobs/4978305"
+        and lamiiine_rows[0]["source"] == "lamiiine_visa",
+    ))
+
     ambicuity_payload = {
         "meta": {"total_jobs": 2},
         "jobs": [

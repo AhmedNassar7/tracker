@@ -787,6 +787,27 @@ def fetch_derec4_newgrad():
         company_idx=0, title_idx=1, location_idx=2,
     )
 
+def fetch_lamiiine_visa():
+    """Fetch Lamiiine/Awesome-daily-list-of-visa-sponsored-jobs' jobs_table.md
+    — an actively-updated (daily, 700+ stars) EU-focused list of roles at
+    companies known to sponsor visas/relocation. Same 4-column shape as the
+    generic community-board parser (Company | Job Title | Location | Link),
+    though this one has no separate Age column — every other fetcher already
+    tolerates a missing age (falls back to days-since-first-seen), so that's
+    not special-cased here.
+
+    Confirmed 2026-09-07: every link goes straight to a real ATS (Lever,
+    Greenhouse, Personio, or the company's own careers site) — never this
+    repo's own site — and no closed-posting markers needed handling.
+    """
+    return _fetch_community_board(
+        "lamiiine_visa",
+        "https://github.com/Lamiiine/Awesome-daily-list-of-visa-sponsored-jobs",
+        "https://raw.githubusercontent.com/Lamiiine/Awesome-daily-list-of-visa-sponsored-jobs/main/jobs_table.md",
+        "lamiiine_visa.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
 def fetch_hanzili_canada():
     """Fetch hanzili/canada_sde_junior_new_grad_position's README job table."""
     return _fetch_community_board(
@@ -1192,6 +1213,7 @@ SOURCE_FETCHER_NAMES = [
     "fetch_zapplyjobs_canada_internships",
     "fetch_lorenzolacorte_eu",
     "fetch_derec4_newgrad",
+    "fetch_lamiiine_visa",
     "fetch_hanzili_canada",
     "fetch_ambicuity_newgrad",
     "fetch_amazon",
