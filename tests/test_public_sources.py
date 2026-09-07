@@ -163,6 +163,38 @@ def main():
         and devfolio_rows[0]["source"] == "devfolio",
     ))
 
+    hackerearth_payload = {
+        "response": [
+            {
+                "title": "MENA Ignite Hackathon",
+                "url": "https://www.hackerearth.com/challenges/hackathon/mena-ignite-hackathon/",
+                "description": "About the Hackathon…",
+                "status": "ONGOING",
+                "end_utc_tz": "2099-09-13 18:29:00+00:00",
+            },
+            {
+                "title": "Long-Over Challenge",
+                "url": "https://www.hackerearth.com/challenges/competitive/long-over/",
+                "status": "ENDED",
+                "end_utc_tz": "2020-01-01 00:00:00+00:00",
+            },
+        ]
+    }
+    with patch.object(mod, "fetch_json", return_value=hackerearth_payload):
+        he_rows = mod.fetch_hackerearth_hackathons()
+    run("hackerearth hackathons fetch uses the JSON API and drops closed events", lambda: check(
+        "hackerearth hackathons fetch",
+        len(he_rows) == 1
+        and he_rows[0]["kind"] == "hackathon"
+        and he_rows[0]["company"] == "HackerEarth"
+        and he_rows[0]["title"] == "MENA Ignite Hackathon"
+        and he_rows[0]["url"] == "https://www.hackerearth.com/challenges/hackathon/mena-ignite-hackathon/"
+        and he_rows[0]["location"] == "Online"
+        and he_rows[0]["date"].endswith("days left")
+        and he_rows[0]["source"] == "hackerearth",
+        details=str(he_rows),
+    ))
+
     _opp = lambda kind, date: {"kind": kind, "company": "X", "title": "T", "url": "u", "date": date}
     run("dedupe drops a closed hackathon/event and keeps dated ones", lambda: check(
         "dedupe drops closed opportunities",

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { logoCandidates } from "../lib/companyLogos";
-import type { FilterState } from "../lib/filters";
+import { companyNameMatches, type FilterState } from "../lib/filters";
 
 // A moving "logo wall" of FAANG + big-tech names tracked on this site — pure
 // visual attractor between the hero and the list. Real hand-verified logos
@@ -66,7 +66,7 @@ function CompanyShowcaseLogo({ company, onSelect, active, decorative = false }: 
       tabIndex={decorative ? -1 : 0}
       aria-hidden={decorative}
       aria-pressed={active}
-      onClick={() => onSelect({ q: active ? "" : company })}
+      onClick={() => onSelect({ companies: active ? [] : [company] })}
       title={active ? `Showing ${company} roles — click to clear` : `Show ${company} roles`}
       className={
         "group mx-2 flex w-28 shrink-0 flex-col items-center gap-2 rounded-xl border p-3 transition-all duration-200 hover:-translate-y-0.5 hover:border-teal-300 hover:bg-white hover:shadow-md dark:hover:border-teal-700 dark:hover:bg-slate-900 " +
@@ -110,13 +110,15 @@ function CompanyShowcaseLogo({ company, onSelect, active, decorative = false }: 
 
 interface Props {
   onSelect: (patch: Partial<FilterState>) => void;
-  // The current search text (FilterState.q) — used only to detect when it
-  // exactly matches one of this strip's own companies, so the strip can
-  // confirm "yes, that click worked" right where the click happened.
-  activeQuery: string;
+  // The current company filter (FilterState.companies) — used only to detect
+  // when it names one of this strip's own companies, so the strip can
+  // confirm "yes, that click worked" right where the click happened. A
+  // word-boundary match (companyNameMatches), same as the filter itself, not
+  // a plain substring check.
+  activeCompanies: string[];
 }
 
-export default function CompanyShowcase({ onSelect, activeQuery }: Props) {
+export default function CompanyShowcase({ onSelect, activeCompanies }: Props) {
   const trackRef = useRef<HTMLDivElement>(null);
   const offsetRef = useRef(0);
   const pointerDownRef = useRef(false);
@@ -126,8 +128,8 @@ export default function CompanyShowcase({ onSelect, activeQuery }: Props) {
   const dragDistanceRef = useRef(0);
   const reducedMotionRef = useRef(false);
 
-  const activeCompany = SHOWCASE_COMPANIES.find(
-    (c) => c.toLowerCase() === activeQuery.trim().toLowerCase(),
+  const activeCompany = SHOWCASE_COMPANIES.find((c) =>
+    activeCompanies.some((ac) => companyNameMatches(c, ac) || companyNameMatches(ac, c)),
   );
 
   useEffect(() => {
@@ -282,7 +284,7 @@ export default function CompanyShowcase({ onSelect, activeQuery }: Props) {
           </span>
           <button
             type="button"
-            onClick={() => onSelect({ q: "" })}
+            onClick={() => onSelect({ companies: [] })}
             className="ml-auto text-teal-700 underline underline-offset-2 hover:text-teal-900 dark:text-teal-300 dark:hover:text-teal-100"
           >
             Clear

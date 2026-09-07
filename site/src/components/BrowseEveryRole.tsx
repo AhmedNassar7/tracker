@@ -1,3 +1,4 @@
+import { companyNameMatches } from "../lib/filters";
 import { prettifyCompany } from "../lib/labels";
 import type { SiteIndexEntry } from "../lib/types";
 
@@ -19,14 +20,25 @@ interface Props {
   // matches, so "google" surfaces the Google board even though there are no
   // Google postings to enumerate (that's the whole point).
   query: string;
+  // The Company facet (e.g. set by clicking a logo in CompanyShowcase) — a
+  // word-boundary match against the board's own company name, same rule
+  // applyFilters uses, so this stays in sync with what the click actually did.
+  companies: string[];
 }
 
-export default function BrowseEveryRole({ boards, query }: Props) {
+export default function BrowseEveryRole({ boards, query, companies }: Props) {
   if (boards.length === 0) return null;
   const q = query.trim().toLowerCase();
-  const shown = q
-    ? boards.filter((b) => `${b.company} ${b.title}`.toLowerCase().includes(q))
-    : boards;
+  const hasQuery = q.length > 0;
+  const hasCompanies = companies.length > 0;
+  const shown =
+    !hasQuery && !hasCompanies
+      ? boards
+      : boards.filter(
+          (b) =>
+            (hasQuery && `${b.company} ${b.title}`.toLowerCase().includes(q)) ||
+            (hasCompanies && companies.some((c) => companyNameMatches(b.company, c))),
+        );
   if (shown.length === 0) return null;
 
   return (

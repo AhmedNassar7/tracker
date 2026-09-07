@@ -56,6 +56,7 @@ There is no test runner flag to select one test — to isolate a single check wh
 | `discover_job_board_sources`, `extract_workday_site` | `tests/test_public_sources.py` | Greenhouse/Lever/Workday URL-shape extraction, Workday locale-segment skip (Intel/Sony-style URLs) |
 | `is_software_job`, `detect_level`, `detect_role_type` | `tests/test_public_sources.py` | Software-vs-non-software title filtering |
 | `fetch_devpost_hackathons` | `tests/test_public_sources.py` | JSON API mapping |
+| `fetch_hackerearth_hackathons` | `tests/test_public_sources.py` | `/chrome-extension/events/` JSON mapping; drops rows whose `end_utc_tz` is already past; deadline countdown from `end_utc_tz` |
 | `parse_luma_discover` | `tests/test_public_sources.py` | Tech-relevance filtering (keeps "Cursor Community", drops "Reading Rhythms") |
 | `fetch_greenhouse_board_jobs` | `tests/test_public_sources.py` | Job mapping + non-software-role filtering |
 | `fetch_ashby_board_jobs` | `tests/test_public_sources.py` | `isListed: false` postings excluded |

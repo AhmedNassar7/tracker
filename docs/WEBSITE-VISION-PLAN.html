@@ -124,7 +124,7 @@
 <div class="grid">
   <div class="card">
     <h4>The pipeline</h4>
-    <p>Pure Python stdlib, no deps. Two collector layers — curated (<code>fetch.py</code>, ~17 allowlisted sources) and public (<code>public_sources.py</code>, Greenhouse/Lever/Workday/Ashby/SmartRecruiters + hackathons/events). Merged at render time by <code>build_data_readme.py</code> into <code>README.md</code>, <code>data/README.md</code>, <code>data/site-index.json</code>, RSS feeds, and a 90-day <code>stats-history.json</code>. Runs hourly on GitHub Actions, auto-merges.</p>
+    <p>Pure Python stdlib, no deps. Two collector layers — curated (<code>fetch.py</code>, ~17 allowlisted sources) and public (<code>public_sources.py</code>, Greenhouse/Lever/Workday/Ashby/SmartRecruiters/Workable/PinpointHQ + Devpost/Unstop/Devfolio/HackerEarth hackathons + Luma/curated events). Merged at render time by <code>build_data_readme.py</code> into <code>README.md</code>, <code>data/README.md</code>, <code>data/site-index.json</code>, RSS feeds, and a 90-day <code>stats-history.json</code>. Runs hourly on GitHub Actions, auto-merges.</p>
   </div>
   <div class="card">
     <h4>The site</h4>
@@ -191,8 +191,8 @@
     <td><span class="tag-done">borrow</span> a Status concept surfaced in the UI; optional region grouping (Worldwide + a MENA/Egypt view — we already detect country); an “Aggregate links” lane (company → its careers search URL) for companies we can’t enumerate role-by-role (Google, Meta, Microsoft); Events taxonomy with correct per-type columns.</td>
   </tr>
   <tr>
-    <td><strong>Devpost / Unstop / Devfolio</strong></td>
-    <td>Countdown to deadline, prize info, themes/tags, “register” urgency.</td>
+    <td><strong>Devpost / Unstop / Devfolio / HackerEarth</strong></td>
+    <td>Countdown to deadline, prize info, themes/tags, “register” urgency. HackerEarth added 2026-09-07 (<code>/chrome-extension/events/</code> keyless JSON — small featured set, MENA/India-heavy).</td>
     <td><span class="tag-done">borrow</span> countdown component; sort by soonest deadline (done); tag chips; hide/де-emphasise past events (done).</td>
   </tr>
 </table>

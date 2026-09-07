@@ -169,6 +169,22 @@ export function searchParamsFromFilters(filters: FilterState): URLSearchParams {
   return params;
 }
 
+// Case-insensitive, word-boundary company-name match — mirrors the Python
+// pipeline's is_allowed_company() in scripts/fetch.py. A plain substring
+// check would let a company filter for "Meta" match "Metadata"/"Metamorph"
+// in some OTHER company's title text, or a filter for "Arm" match "Pharmacy
+// Systems" — the exact class of false positive that check was written to
+// avoid. Bounded so "Meta" still matches "Meta Platforms" (not just an exact
+// full-string equal), just not a word it's merely a substring of.
+export function companyNameMatches(company: string, target: string): boolean {
+  const c = company.toLowerCase();
+  const t = target.trim().toLowerCase();
+  if (!t) return false;
+  if (c === t) return true;
+  const escaped = t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`(?<![a-z0-9])${escaped}(?![a-z0-9])`, "i").test(c);
+}
+
 export function applyFilters(items: SiteIndexEntry[], filters: FilterState): SiteIndexEntry[] {
   const q = filters.q.trim().toLowerCase();
   return items.filter((item) => {
@@ -181,7 +197,7 @@ export function applyFilters(items: SiteIndexEntry[], filters: FilterState): Sit
       const c = countryForItem(item);
       if (!(c && filters.countries.includes(c))) return false;
     }
-    if (filters.companies.length > 0 && !filters.companies.includes(item.company)) return false;
+    if (filters.companies.length > 0 && !filters.companies.some((c) => companyNameMatches(item.company, c))) return false;
     if (filters.tags.length > 0) {
       const tags = item.tech_tags ?? [];
       if (!filters.tags.some((t) => tags.includes(t))) return false;

@@ -6,6 +6,7 @@ to widen coverage:
 - Devpost hackathons
 - Unstop hackathons
 - Devfolio hackathons
+- HackerEarth hackathons / hiring challenges
 - Luma discovery pages
 - Curated tech/career events (hand-maintained in config/events.yml)
 - Greenhouse public job board API (auto-discovered from existing job URLs)
@@ -987,6 +988,68 @@ def fetch_devfolio_hackathons(max_pages=2):
     return rows
 
 
+def fetch_hackerearth_hackathons():
+    """Fetch featured hackathons / hiring challenges from HackerEarth's own
+    public JSON endpoint (`/chrome-extension/events/`, keyless, the one its
+    browser extension calls — same category as the Devpost/Unstop/Devfolio
+    internal APIs above). Small, high-signal set (a handful of currently
+    featured events), and it's notably stronger on MENA/India events the
+    other three under-cover. `url` points at the real event page on
+    hackerearth.com, not a middleman. Not disallowed by robots.txt.
+
+    Per item: `title`, `url`, `description`, `end_utc_tz` (ISO, `+00:00`),
+    `status`, `challenge_type`. No org/location fields — like Devfolio's
+    `company` this is stamped "HackerEarth"; the platform is online-only, so
+    location is "Online". Rows whose window has already closed are dropped
+    (same `ends_at`-in-the-future rule as Devfolio).
+    """
+    api_url = "https://www.hackerearth.com/chrome-extension/events/"
+    try:
+        payload = fetch_json(api_url)
+    except Exception as exc:
+        log_warn(f"HackerEarth fetch failed: {exc}")
+        return []
+
+    rows = []
+    seen_urls = set()
+    now = datetime.datetime.now(datetime.UTC)
+    for item in payload.get("response", []) or []:
+        title = clean_text(item.get("title") or "")
+        url = item.get("url") or ""
+        if not (title and url) or url in seen_urls:
+            continue
+
+        end_dt = None
+        for key in ("end_utc_tz", "end_tz"):
+            try:
+                parsed = datetime.datetime.fromisoformat(item.get(key) or "")
+            except Exception:
+                continue
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=datetime.UTC)
+            end_dt = parsed
+            break
+        if end_dt is not None and end_dt < now:
+            continue  # submission window already closed — can't enter
+
+        seen_urls.add(url)
+        rows.append(
+            {
+                "id": make_id("hackerearth", title, url),
+                "kind": "hackathon",
+                "company": "HackerEarth",
+                "title": title,
+                "location": "Online",
+                "date": _format_deadline_from_end(end_dt, now),
+                "posted_at": TODAY,
+                "url": url,
+                "source": "hackerearth",
+                "source_url": "https://www.hackerearth.com/challenges/",
+            }
+        )
+    return rows
+
+
 # Luma's "discover" page is a general community directory, not tech-specific
 # — it mixes real dev/AI/startup communities with completely unrelated ones
 # (book clubs, walking tours, general design meetups). Keep only entries
@@ -1227,6 +1290,7 @@ def main():
     rows.extend(fetch_devpost_hackathons())
     rows.extend(fetch_unstop_hackathons())
     rows.extend(fetch_devfolio_hackathons())
+    rows.extend(fetch_hackerearth_hackathons())
     rows.extend(fetch_luma_discover())
     rows.extend(fetch_curated_events())
 

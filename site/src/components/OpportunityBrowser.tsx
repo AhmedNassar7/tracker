@@ -399,7 +399,7 @@ export default function OpportunityBrowser() {
     <div>
       <SnapshotHero items={opportunityItems} generatedAt={data.generated_at} onQuickFilter={handleQuickFilter} />
 
-      <CompanyShowcase onSelect={handleQuickFilter} activeQuery={filters.q} />
+      <CompanyShowcase onSelect={handleQuickFilter} activeCompanies={filters.companies} />
 
       <StoryStrip cards={storyCards} onSelect={handleQuickFilter} />
 
@@ -583,7 +583,7 @@ export default function OpportunityBrowser() {
       )}
 
       {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && (
-        <BrowseEveryRole boards={boardItems} query={filters.q} />
+        <BrowseEveryRole boards={boardItems} query={filters.q} companies={filters.companies} />
       )}
     </div>
   );

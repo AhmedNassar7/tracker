@@ -8,7 +8,7 @@
 //   RankTune         — { keywords, excludeCompanies }: nudges applied on top
 //                       of the saved filter when ranking.
 
-import { DEFAULT_FILTERS, type FilterState } from "./filters";
+import { companyNameMatches, DEFAULT_FILTERS, type FilterState } from "./filters";
 import { countryForItem, regionForItem, REGION_ALIASES } from "./geo";
 import type { SiteIndexEntry } from "./types";
 
@@ -194,7 +194,7 @@ export function scoreOpportunity(item: SiteIndexEntry, pref: FilterState, tune: 
     const c = countryForItem(item);
     if (c && pref.countries.includes(c)) score += 2;
   }
-  if (pref.companies.length > 0 && pref.companies.includes(item.company)) score += 3;
+  if (pref.companies.length > 0 && pref.companies.some((c) => companyNameMatches(item.company, c))) score += 3;
   if (pref.tags.length > 0) {
     const tags = item.tech_tags ?? [];
     for (const t of pref.tags) if (tags.includes(t)) score += 1;
@@ -226,7 +226,7 @@ export function matchReasons(item: SiteIndexEntry, pref: FilterState, tune: Rank
     const c = countryForItem(item);
     if (c && pref.countries.includes(c)) reasons.push(c);
   }
-  if (pref.companies.length > 0 && pref.companies.includes(item.company)) reasons.push(item.company);
+  if (pref.companies.length > 0 && pref.companies.some((c) => companyNameMatches(item.company, c))) reasons.push(item.company);
   if (pref.tags.length > 0) {
     const tags = item.tech_tags ?? [];
     for (const t of pref.tags) if (tags.includes(t)) reasons.push(t);
