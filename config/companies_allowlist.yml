@@ -30,6 +30,9 @@ big_tech:
   - Siemens
   - Nokia    # careers site is Oracle Recruiting Cloud — no supported-ATS board, curated-layer only
   - Vodafone # careers site is Phenom People — no supported-ATS board, curated-layer only
+  - Orange   # Orange Business careers site is Phenom People — no supported-ATS board, curated-layer only
+  - PwC      # also has a real Workday board (extra_job_boards.yml), added here too for curated-layer matches
+  - Capgemini # bespoke WordPress careers site — no supported-ATS board, curated-layer only (see aggregate_links.yml)
 
 cloud_infra:
   - Cloudflare
