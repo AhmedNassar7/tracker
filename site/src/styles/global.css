@@ -66,15 +66,20 @@
   }
 }
 
-/* Company logo showcase marquee (CompanyShowcase.tsx). Same plain-CSS
-   approach as the animations above — no dependency for what's just a
-   translateX loop. The track renders the logo set twice back-to-back
-   (a visible copy + an aria-hidden duplicate); animating exactly -50% of
-   the track's width lines the duplicate up perfectly with the original for
-   a seamless loop, with no JS measuring the content width. Paused on
-   hover/focus so a logo can actually be read/clicked. Under reduced motion,
-   the duplicate copy is hidden and the track wraps as a plain static grid
-   instead of scrolling — real content once, not an animation stand-in. */
+/* Company logo showcase marquee (CompanyShowcase.tsx). The scroll/drag
+   itself is driven from JS (a rAF loop sets `transform` directly, and a
+   pointer drag adds to the same offset) rather than a CSS @keyframes
+   animation — a drag needs to blend live with the auto-scroll and resume
+   from wherever it was released, which a CSS animation running alongside a
+   manual transform can't do without a visible jump back to the keyframe's
+   own position. CSS here only handles layout and the reduced-motion
+   fallback. The track renders the logo set twice back-to-back (a visible
+   copy + an aria-hidden duplicate); the JS wraps the offset at exactly half
+   the track's width, so the duplicate lines up perfectly for a seamless
+   loop with no visible seam. Under reduced motion, the JS auto-scroll/drag
+   never starts (see CompanyShowcase.tsx) and the duplicate copy is hidden
+   here so the track wraps as a plain static grid — real content once, not
+   an animation stand-in. */
 .logo-marquee-viewport {
   overflow: hidden;
   -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
@@ -87,23 +92,6 @@
 .logo-marquee-group {
   display: flex;
   flex-shrink: 0;
-}
-@keyframes logo-marquee-scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .logo-marquee-track {
-    animation: logo-marquee-scroll 32s linear infinite;
-  }
-  .logo-marquee-viewport:hover .logo-marquee-track,
-  .logo-marquee-viewport:focus-within .logo-marquee-track {
-    animation-play-state: paused;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   .logo-marquee-viewport {

@@ -13,6 +13,8 @@ to widen coverage:
 - Workday CXS jobs API (auto-discovered from existing job URLs)
 - Ashby public job board API (companies listed in config/extra_job_boards.yml)
 - SmartRecruiters public postings API (companies listed in config/extra_job_boards.yml)
+- PinpointHQ public postings (companies listed in config/extra_job_boards.yml)
+- Workable public job board widget API (companies listed in config/extra_job_boards.yml)
 """
 
 from __future__ import annotations
@@ -478,6 +480,90 @@ def fetch_pinpoint_jobs(host, company_name):
     return jobs
 
 
+def _workable_locations(item):
+    """De-duped 'City, Country' strings for a Workable posting. A job has flat
+    country/city/state fields plus a `locations` array (each {country, city,
+    region, countryCode}); the array is authoritative for multi-location
+    postings, the flat fields are the fallback. Returns the ordered list
+    (first = primary) — [] just means region/country stay 'unknown'."""
+    entries = item.get("locations") or []
+    if not entries:
+        entries = [{"city": item.get("city"), "country": item.get("country")}]
+    out = []
+    for loc in entries:
+        if not isinstance(loc, dict):
+            continue
+        text = clean_text(", ".join(p for p in (loc.get("city"), loc.get("country")) if p))
+        if text and text not in out:
+            out.append(text)
+    return out
+
+
+def fetch_workable_jobs(account_token, company_name):
+    """Workable public job board — `https://apply.workable.com/api/v1/widget/
+    accounts/<account>?details=true` returns {name, description, jobs:[...]}
+    with the full HTML job description inline (one keyless GET, no pagination
+    for typical board sizes; confirmed 2026-09-07 against foodics / lucidya /
+    salla). `account_token` is the apply.workable.com account slug, taken from
+    an `apply.workable.com/<account>` careers URL.
+
+    Job fields used: title, shortcode, url, published_on / created_at,
+    country/city/state + locations[], telecommuting (the remote flag),
+    description (HTML — feeds the B3/B4/B5 facet detectors).
+    """
+    api_url = f"https://apply.workable.com/api/v1/widget/accounts/{account_token}?details=true"
+    try:
+        payload = fetch_json(api_url)
+    except Exception as exc:
+        log_warn(f"Workable fetch failed for {account_token}: {exc}")
+        return []
+
+    board_name = payload.get("name") if isinstance(payload, dict) else None
+    jobs = []
+    for item in (payload.get("jobs") or []) if isinstance(payload, dict) else []:
+        title = clean_text(item.get("title") or "")
+        shortcode = item.get("shortcode") or ""
+        url = item.get("url") or item.get("shortlink") or (
+            f"https://apply.workable.com/{account_token}/j/{shortcode}/" if shortcode else ""
+        )
+        if not (title and url) or not is_software_job(title):
+            continue
+        locs = _workable_locations(item)
+        primary = locs[0] if locs else ""
+        location = format_location_display(primary, locs) if len(locs) > 1 else primary
+        # Region from the office location(s), before the "(Remote)" tag — a
+        # Cairo-based remote role is still MENA (same rule as PinpointHQ).
+        region = "unknown"
+        for loc in locs:
+            region = detect_region(loc)
+            if region != "unknown":
+                break
+        if item.get("telecommuting") and "remote" not in primary.lower():
+            location = (location + " (Remote)").strip() if location else "Remote"
+            if region == "unknown":
+                region = "remote"
+        posted_at = parse_iso_date(item.get("published_on") or item.get("created_at") or "")
+        description = clean_text(item.get("description") or "")
+        job = {
+            "id": make_id("workable", account_token, title, url),
+            "kind": "job",
+            "company": company_name or board_name or account_token,
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": region,
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"workable:{account_token}",
+            "source_url": api_url,
+        }
+        job.update(job_facets(title, primary, description))
+        jobs.append(job)
+    return jobs
+
+
 def fetch_smartrecruiters_jobs(company_slug, company_name):
     api_url = f"https://api.smartrecruiters.com/v1/companies/{company_slug}/postings?limit=100"
     try:
@@ -658,7 +744,7 @@ def load_extra_job_boards():
     # gets its own subdomain *and* a site path), so those lines are
     # "Company Name | host | site" and land in `boards["workday"]` as
     # (company, host, site) tuples.
-    boards = {"ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [], "workday": [], "pinpoint": []}
+    boards = {"ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [], "workday": [], "pinpoint": [], "workable": []}
     if not path.exists():
         return boards
     section = None
@@ -1188,6 +1274,16 @@ def main():
         rows.extend(_run_concurrently(
             fetch_pinpoint_jobs,
             [(host, prettify_company_name(_pinpoint_company_from_host(host))) for host in extra_boards["pinpoint"]],
+        ))
+
+    # Workable (config only — no auto-discovery yet). apply.workable.com is one
+    # shared host for every account, so cap the burst like Greenhouse/Lever/etc.
+    if extra_boards["workable"]:
+        log_info(f"Loaded {len(extra_boards['workable'])} Workable boards from config")
+        rows.extend(_run_concurrently(
+            fetch_workable_jobs,
+            [(token, prettify_company_name(token.replace("-", " "))) for token in extra_boards["workable"]],
+            max_workers=SHARED_HOST_WORKERS,
         ))
 
     rows = dedupe(rows)

@@ -16,6 +16,7 @@
 #   SmartRecruiters:   https://api.smartrecruiters.com/v1/companies/<token>/postings
 #   Greenhouse:        https://boards-api.greenhouse.io/v1/boards/<token>/jobs
 #   Lever:             https://api.lever.co/v0/postings/<token>?mode=json
+#   Workable:          https://apply.workable.com/api/v1/widget/accounts/<slug>?details=true
 # No Python changes are needed — scripts/public_sources.py reads this file automatically.
 
 ashby:
@@ -118,11 +119,15 @@ lever:
 #    (e.g. careers.moneyfellows.com). Live: Tabby (Dubai/Riyadh), Money Fellows
 #    (Cairo).
 #
-# 4. On Workable / BambooHR / Recruitee / Freshteam  → the pipeline has NO
-#    fetcher for these yet (Lane M3 / backlog B2), so a token here does
-#    nothing until one is built. verify_extra_boards.py already CONFIRMS the
-#    first three (2026-09-06: Instabug-"Luciq" ✓ on bamboohr, MoneyHash on
-#    recruitee but 0 open; Breadfast is on Freshteam). Use
+# 4. Workable  → SUPPORTED (fetch_workable_jobs, added 2026-09-07). Add the
+#    apply.workable.com account slug under the `workable:` section below.
+#    Live: Foodics, Lucidya, Salla (all Riyadh-HQ'd, regional eng offices).
+#
+# 5. On BambooHR / Recruitee / Freshteam  → the pipeline has NO fetcher for
+#    these yet (Lane M3 / backlog B2), so a token here does nothing until one
+#    is built. verify_extra_boards.py already CONFIRMS the first two
+#    (2026-09-06: Instabug-"Luciq" ✓ on bamboohr, MoneyHash on recruitee but
+#    0 open; Breadfast is on Freshteam). Use
 #    `verify_extra_boards.py --dump <platform>:<token>` to see the JSON shape
 #    a fetcher must parse.
 #
@@ -136,6 +141,18 @@ pinpoint:
   #   python scripts/verify_extra_boards.py pinpoint:<token>
   - tabby                      # Dubai/Riyadh BNPL fintech — verified 2026-09-06, 44 postings incl. Senior Fullstack Engineer
   - careers.moneyfellows.com   # Cairo, Egypt fintech (ROSCA app) — verified 2026-09-06, 8 postings
+
+workable:
+  # Workable public board — the value is the apply.workable.com account slug
+  # (from an apply.workable.com/<slug> careers URL). Verify with:
+  #   python scripts/verify_extra_boards.py workable:<slug>
+  - foodics                    # Riyadh restaurant-tech/fintech (offices in UAE/Egypt/Jordan/Kuwait) — verified 2026-09-07, 27 postings incl. Senior Backend/Full Stack Engineer
+  - lucidya                    # Riyadh AI/CX analytics (remote roles across Cairo/Amman/Istanbul) — verified 2026-09-07, 41 postings incl. Software Engineer
+  - salla                      # Jeddah/Makkah e-commerce platform — verified 2026-09-07, 30 postings incl. Senior Backend Engineer, Senior Data Scientist
+  # Accounts that exist but had 0 open roles on 2026-09-07 — recheck later:
+  #   - breadfast   (Cairo q-commerce)   - rabbit   (Cairo q-commerce)
+  #   - elmenus     (Cairo food-tech)    - trella   (Cairo trucking)
+  #   - maxab / capiter / nas / mrsool / instashop / yassir / unifonic / zid
 
 workday:
   # Big global employers whose careers site is Workday but who never get

@@ -370,6 +370,62 @@ def main():
         and mod._pinpoint_company_from_host("tabby.pinpointhq.com") == "tabby",
     ))
 
+    # Workable (M3) — widget endpoint returns {name, jobs:[...]} with the full
+    # HTML JD inline; multi-location postings carry a `locations` array;
+    # `telecommuting` is the remote flag; non-software titles filtered out.
+    workable_payload = {
+        "name": "Foodics",
+        "jobs": [
+            {
+                "title": "Senior Backend Engineer",
+                "shortcode": "ABC123",
+                "url": "https://apply.workable.com/j/ABC123",
+                "published_on": "2026-01-04",
+                "created_at": "2026-01-01",
+                "country": "Saudi Arabia",
+                "city": "Riyadh",
+                "telecommuting": True,
+                "locations": [
+                    {"city": "Riyadh", "country": "Saudi Arabia", "countryCode": "SA"},
+                    {"city": "Cairo", "country": "Egypt", "countryCode": "EG"},
+                ],
+                "description": "<p>Work with Python and Kubernetes. Visa sponsorship provided.</p>",
+            },
+            {
+                "title": "CEO Office Manager",
+                "shortcode": "DEF456",
+                "url": "https://apply.workable.com/j/DEF456",
+                "published_on": "2026-01-04",
+                "country": "Saudi Arabia",
+                "city": "Riyadh",
+                "telecommuting": False,
+                "locations": [],
+                "description": "<p>Manage the CEO calendar.</p>",
+            },
+        ],
+    }
+    with patch.object(mod, "fetch_json", return_value=workable_payload):
+        wk_rows = mod.fetch_workable_jobs("foodics", "Foodics")
+    run("workable fetch: software filter, multi-location, remote tag, facets from HTML", lambda: check(
+        "workable fetch",
+        len(wk_rows) == 1
+        and wk_rows[0]["company"] == "Foodics"
+        and wk_rows[0]["source"] == "workable:foodics"
+        and wk_rows[0]["role_type"] == "backend"
+        and wk_rows[0]["region"] == "mena"
+        and "2 locations" in wk_rows[0]["location"]
+        and "Remote" in wk_rows[0]["location"]
+        and wk_rows[0]["posted_at"] == "2026-01-04"
+        and set(wk_rows[0].get("tech_tags", [])) >= {"Python", "Kubernetes"}
+        and wk_rows[0].get("visa_sponsorship") is True,
+        details=str(wk_rows),
+    ))
+    with patch.object(mod, "fetch_json", return_value={"name": "Empty", "jobs": []}):
+        wk_empty = mod.fetch_workable_jobs("empty", "Empty Co")
+    run("workable: empty board → no rows, no raise", lambda: check(
+        "workable empty", wk_empty == [],
+    ))
+
     smartrecruiters_payload = {
         "content": [
             {

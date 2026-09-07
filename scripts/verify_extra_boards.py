@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Verify Greenhouse / Lever / Ashby / SmartRecruiters board tokens before
-they go into config/extra_job_boards.yml.
+"""Verify Greenhouse / Lever / Ashby / SmartRecruiters / PinpointHQ / Workable
+board tokens (plus BambooHR / Recruitee, which have no fetcher yet) before they
+go into config/extra_job_boards.yml.
 
 CLAUDE.md rule: never add a board token without confirming a real, non-empty
 postings response by hand — a bare "not a 404" is not enough. This is the
@@ -61,6 +62,7 @@ TIMEOUT = 15
 #   ✓ Mercor  → api.ashbyhq.com/.../mercor 96 jobs — ADDED to ashby: (SF, not MENA)
 #   ? Instabug/**Luciq** → instabug.bamboohr.com  (BambooHR — check below)
 #   ⚠ MoneyHash → Ashby board exists, 0 open
+#   ✓ Foodics / Lucidya / Salla → Workable (2026-09-07) — ADDED to workable:
 #   ✗ everything else guessed (Swvl, Paymob, MNT-Halan, Tabby, …) — not on
 #     Greenhouse/Lever/Ashby. They're on Workable / BambooHR / bespoke sites.
 # Keep editing the tokens as you learn real ones from "Powered by <ATS>"
@@ -78,6 +80,10 @@ MENA_CANDIDATES = [
     ("pinpoint", "tabby"),
     ("smartrecruiters", "Talabat"),
     ("smartrecruiters", "Noon"),
+    ("workable", "foodics"),      # ✓ Riyadh, added
+    ("workable", "lucidya"),      # ✓ Riyadh (remote MENA), added
+    ("workable", "salla"),        # ✓ Jeddah, added
+    ("workable", "breadfast"),    # account exists, 0 open on 2026-09-07
 ]
 
 
@@ -256,6 +262,27 @@ def check_recruitee(token: str) -> tuple[str, bool]:
     )
 
 
+def check_workable(token: str) -> tuple[str, bool]:
+    """Workable public board widget. `token` is the apply.workable.com account
+    slug. Keyless JSON at /api/v1/widget/accounts/<slug>?details=true —
+    {"name": ..., "jobs": [...]}. A wrong slug 404s ("Not Found"); a real
+    account with nothing open returns 200 + an empty jobs list."""
+    status, body = _get(f"https://apply.workable.com/api/v1/widget/accounts/{token}?details=true")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach apply.workable.com — network/proxy? not a verdict{RESET}", False
+    if status == 404 or not isinstance(body, dict):
+        return f"{RED}✗ 404 — no Workable account '{token}'{RESET}", False
+    rows = body.get("jobs") or []
+    if not rows:
+        return f"{YELLOW}⚠ valid account '{body.get('name') or token}' but 0 open roles — do NOT add{RESET}", False
+    return (
+        f"{GREEN}✓ REAL — account '{body.get('name') or token}', {len(rows)} postings{RESET}\n"
+        + _sample(rows, "title", lambda r: ", ".join(
+            p for p in ((r.get("city") or ""), (r.get("country") or "")) if p)),
+        True,
+    )
+
+
 def check_pinpoint(token: str) -> tuple[str, bool]:
     """PinpointHQ. Tries the <token>.pinpointhq.com subdomain and, if the
     token looks like a full host (has a dot), that host directly — Pinpoint
@@ -287,6 +314,7 @@ CHECKERS = {
     "bamboohr": check_bamboohr,
     "recruitee": check_recruitee,
     "pinpoint": check_pinpoint,
+    "workable": check_workable,
 }
 
 
@@ -312,7 +340,7 @@ def tokens_from_config() -> list[tuple[str, str]]:
 # Platforms the pipeline can actually poll today (public_sources.py has a
 # fetcher + load_extra_job_boards reads the section). A ✓ on any OTHER
 # platform is real, but adding it needs a new fetcher first (Lane M3).
-PIPELINE_SUPPORTED = {"greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint"}
+PIPELINE_SUPPORTED = {"greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint", "workable"}
 
 
 def _dump(plat: str, tok: str) -> int:
@@ -328,6 +356,7 @@ def _dump(plat: str, tok: str) -> int:
         "bamboohr": f"https://{tok}.bamboohr.com/careers/list",
         "recruitee": f"https://{tok}.recruitee.com/api/offers/",
         "pinpoint": (tok if "." in tok else f"{tok}.pinpointhq.com") + "/postings.json",
+        "workable": f"https://apply.workable.com/api/v1/widget/accounts/{tok}?details=true",
     }
     url = urls.get(plat)
     if not url:
