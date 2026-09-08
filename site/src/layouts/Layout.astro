@@ -18,6 +18,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const NAV_LINKS = [
 	{ href: base, label: "Jobs", match: (path: string) => path === base },
+	{ href: `${base}mena`, label: "MENA", match: (path: string) => path.startsWith(`${base}mena`) },
 	{ href: `${base}resources`, label: "Resources", match: (path: string) => path.startsWith(`${base}resources`) },
 	{ href: `${base}profile`, label: "My Profile", match: (path: string) => path.startsWith(`${base}profile`) },
 	{ href: `${base}applications`, label: "My Applications", match: (path: string) => path.startsWith(`${base}applications`) },
@@ -143,11 +144,24 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		</main>
 		<script is:inline>
 			(function () {
-				var btn = document.getElementById("theme-toggle");
-				btn.addEventListener("click", function () {
+				// ClientRouter swaps <body> on navigation, so a listener bound to
+				// the old #theme-toggle node is lost — clicking it on any page
+				// after the first did nothing. Delegate from `document` (it
+				// survives view transitions) and guard with a window flag so a
+				// re-run of this inline script can't stack duplicate handlers.
+				if (window.__trackerThemeBound) return;
+				window.__trackerThemeBound = true;
+				document.addEventListener("click", function (e) {
+					var t = e.target;
+					var btn = t && t.closest ? t.closest("#theme-toggle") : null;
+					if (!btn) return;
 					var next = !document.documentElement.classList.contains("dark");
 					document.documentElement.classList.toggle("dark", next);
-					localStorage.setItem("tracker:theme", next ? "dark" : "light");
+					try {
+						localStorage.setItem("tracker:theme", next ? "dark" : "light");
+					} catch (err) {
+						/* storage disabled — theme still applies for this session */
+					}
 				});
 			})();
 		</script>

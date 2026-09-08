@@ -209,6 +209,48 @@ export function applyFilters(items: SiteIndexEntry[], filters: FilterState): Sit
   });
 }
 
+export interface FacetCounts {
+  kind: Record<string, number>;
+  levels: Record<string, number>;
+  roles: Record<string, number>;
+  regions: Record<string, number>;
+  remotes: Record<string, number>;
+  countries: Record<string, number>;
+  companies: Record<string, number>;
+  tags: Record<string, number>;
+}
+
+// Faceted-search counts (Lane G8): for each facet, how many items match if
+// every OTHER active filter stays but this one facet is cleared — the "OR
+// within a facet, AND across facets" behaviour every real job board has. So
+// with Level=internship picked, the Region dropdown shows how many
+// internships sit in each region. O(items × facets), recomputed per change.
+export function computeFacetCounts(items: SiteIndexEntry[], filters: FilterState): FacetCounts {
+  const tally = (list: SiteIndexEntry[], pick: (i: SiteIndexEntry) => string | string[] | undefined) => {
+    const m: Record<string, number> = {};
+    for (const it of list) {
+      const v = pick(it);
+      if (v == null) continue;
+      for (const key of Array.isArray(v) ? v : [v]) {
+        if (key) m[key] = (m[key] ?? 0) + 1;
+      }
+    }
+    return m;
+  };
+  const without = (key: ArrayFacetKey) => applyFilters(items, { ...filters, [key]: [] });
+
+  return {
+    kind: tally(applyFilters(items, { ...filters, kind: "all" }), (i) => i.kind),
+    levels: tally(without("levels"), (i) => i.level),
+    roles: tally(without("roles"), (i) => i.role_type),
+    regions: tally(without("regions"), (i) => regionForItem(i)),
+    remotes: tally(without("remotes"), (i) => i.remote_type),
+    countries: tally(without("countries"), (i) => countryForItem(i) || undefined),
+    companies: tally(without("companies"), (i) => i.company || undefined),
+    tags: tally(without("tags"), (i) => i.tech_tags ?? []),
+  };
+}
+
 export function hasActiveFilters(filters: FilterState): boolean {
   return (
     filters.q !== "" ||

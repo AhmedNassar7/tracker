@@ -12,6 +12,9 @@ export interface MultiSelectOption {
   // When set, a small country flag renders before the label (used by the
   // Country facet — the value IS the country name).
   flagCountry?: string;
+  // Lane G8 — how many results this value would yield given the other active
+  // filters. Rendered muted on the right; the row dims at 0.
+  count?: number;
 }
 
 interface Props {
@@ -122,7 +125,10 @@ export default function MultiSelect({ label, options, selected, onChange, search
             {visible.map((opt) => (
               <label
                 key={opt.value}
-                className="flex cursor-pointer items-center gap-2 rounded px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800"
+                className={
+                  "flex cursor-pointer items-center gap-2 rounded px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800" +
+                  (opt.count === 0 && !selected.includes(opt.value) ? " opacity-45" : "")
+                }
               >
                 <input
                   type="checkbox"
@@ -131,7 +137,10 @@ export default function MultiSelect({ label, options, selected, onChange, search
                   className="h-3.5 w-3.5 accent-teal-600"
                 />
                 {opt.flagCountry && <Flag country={opt.flagCountry} />}
-                {opt.label}
+                <span className="truncate">{opt.label}</span>
+                {opt.count !== undefined && (
+                  <span className="ml-auto shrink-0 text-xs tabular-nums text-slate-400">{opt.count.toLocaleString()}</span>
+                )}
               </label>
             ))}
             {hiddenCount > 0 && (

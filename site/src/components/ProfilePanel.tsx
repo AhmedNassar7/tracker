@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { LEVEL_VALUES, REGION_VALUES, ROLE_VALUES } from "../lib/filters";
 import { fromJsonResumeString, toJsonResumeString } from "../lib/jsonResume";
+import { extractPdfText } from "../lib/pdfText";
+import { mergeParsedProfile, parseResume } from "../lib/resumeParse";
 import {
   clearProfile,
   emptyProfile,
@@ -10,6 +12,7 @@ import {
   newId,
   profileCompleteness,
   saveProfile,
+  type Completeness,
   type EducationEntry,
   type ExperienceEntry,
   type Profile,
@@ -20,6 +23,11 @@ import {
 // One <Profile> object in state; every edit debounce-saves to IndexedDB
 // (profile.ts). No account, no upload, no network. The whole object is
 // replaced on each save so there's no merge race to guard against.
+//
+// The fast path is "drop your résumé" at the top: a client-side PDF/text
+// parse pre-fills what it can read (contact, links, skills, a rough pass at
+// roles) and the full text is kept for the keyword tools. Manual entry —
+// chips, pill toggles, short fields — is the fallback, not the default.
 
 const SAVE_DEBOUNCE_MS = 700;
 
@@ -44,7 +52,7 @@ function titleCase(s: string): string {
 const inputClass =
   "w-full rounded-md border border-slate-300 bg-white px-2.5 py-1.5 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100";
 const btnClass =
-  "rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900";
+  "rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900";
 
 function Field({
   label,
@@ -149,7 +157,7 @@ function TagInput({
               type="button"
               onClick={() => onChange(values.filter((x) => x !== v))}
               aria-label={`Remove ${v}`}
-              className="text-slate-400 hover:text-red-600 dark:hover:text-red-400"
+              className="text-slate-400 transition-colors hover:text-red-600 dark:hover:text-red-400"
             >
               &times;
             </button>
@@ -212,9 +220,10 @@ function CheckGroup({
               aria-pressed={on}
               onClick={() => onChange(on ? values.filter((v) => v !== opt) : [...values, opt])}
               className={
-                on
-                  ? "rounded-full border border-teal-600 bg-teal-50 px-2.5 py-1 text-xs font-medium text-teal-800 dark:border-teal-500 dark:bg-teal-950 dark:text-teal-200"
-                  : "rounded-full border border-slate-300 px-2.5 py-1 text-xs text-slate-600 hover:border-slate-400 dark:border-slate-700 dark:text-slate-400"
+                "rounded-full border px-2.5 py-1 text-xs transition-colors " +
+                (on
+                  ? "border-teal-600 bg-teal-50 font-medium text-teal-800 dark:border-teal-500 dark:bg-teal-950 dark:text-teal-200"
+                  : "border-slate-300 text-slate-600 hover:border-slate-400 dark:border-slate-700 dark:text-slate-400")
               }
             >
               {titleCase(opt)}
@@ -226,12 +235,52 @@ function CheckGroup({
   );
 }
 
-function Section({ title, subtitle, children }: { title: string; subtitle?: string; children: React.ReactNode }) {
+/** Collapsible card. Closed by default (except where `defaultOpen`) so the
+ *  page reads as a short checklist, not a wall of inputs. A small tick shows
+ *  which sections the completeness meter already counts as done. */
+function Section({
+  title,
+  subtitle,
+  done,
+  defaultOpen = false,
+  children,
+}: {
+  title: string;
+  subtitle?: string;
+  done?: boolean;
+  defaultOpen?: boolean;
+  children: React.ReactNode;
+}) {
+  const [open, setOpen] = useState(defaultOpen);
+  const bodyId = useMemo(() => `sec-${title.replace(/\s+/g, "-").toLowerCase()}`, [title]);
   return (
-    <section className="rounded-lg border border-slate-200 p-4 dark:border-slate-800">
-      <h2 className="text-sm font-semibold text-slate-800 dark:text-slate-200">{title}</h2>
-      {subtitle ? <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">{subtitle}</p> : null}
-      <div className="mt-3 space-y-3">{children}</div>
+    <section className="rounded-lg border border-slate-200 dark:border-slate-800">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        aria-controls={bodyId}
+        className="flex w-full items-center gap-2 rounded-lg px-4 py-3 text-left transition-colors hover:bg-slate-50 dark:hover:bg-slate-900"
+      >
+        <span
+          aria-hidden="true"
+          className={
+            "text-xs text-slate-400 motion-safe:transition-transform motion-safe:duration-200 " + (open ? "rotate-90" : "")
+          }
+        >
+          ▶
+        </span>
+        <span className="text-sm font-semibold text-slate-800 dark:text-slate-200">{title}</span>
+        {done ? (
+          <span className="text-teal-600 dark:text-teal-400" title="Counted as complete" aria-label="complete">
+            ✓
+          </span>
+        ) : null}
+      </button>
+      <div id={bodyId} hidden={!open} className="border-t border-slate-200 px-4 py-3 dark:border-slate-800">
+        {subtitle ? <p className="-mt-1 mb-3 text-xs text-slate-500 dark:text-slate-400">{subtitle}</p> : null}
+        <div className="space-y-3">{children}</div>
+      </div>
     </section>
   );
 }
@@ -323,7 +372,7 @@ function Ring({ score }: { score: number }) {
         strokeDasharray={C}
         strokeDashoffset={C * (1 - score)}
         transform="rotate(-90 22 22)"
-        className="stroke-teal-600 transition-[stroke-dashoffset] duration-500 dark:stroke-teal-400"
+        className="stroke-teal-600 motion-safe:transition-[stroke-dashoffset] motion-safe:duration-500 dark:stroke-teal-400"
       />
       <text x="22" y="22" dominantBaseline="central" textAnchor="middle" className="fill-slate-700 text-[10px] font-semibold dark:fill-slate-200">
         {Math.round(score * 100)}
@@ -332,16 +381,72 @@ function Ring({ score }: { score: number }) {
   );
 }
 
+// ---- résumé import card ----------------------------------------------
+
+function ImportCard({
+  busy,
+  onFile,
+}: {
+  busy: boolean;
+  onFile: (file: File) => void;
+}) {
+  const ref = useRef<HTMLInputElement>(null);
+  const [drag, setDrag] = useState(false);
+  return (
+    <div
+      onDragOver={(e) => {
+        e.preventDefault();
+        setDrag(true);
+      }}
+      onDragLeave={() => setDrag(false)}
+      onDrop={(e) => {
+        e.preventDefault();
+        setDrag(false);
+        const f = e.dataTransfer.files?.[0];
+        if (f) onFile(f);
+      }}
+      className={
+        "rounded-lg border-2 border-dashed p-5 text-center transition-colors " +
+        (drag
+          ? "border-teal-500 bg-teal-50 dark:border-teal-400 dark:bg-teal-950"
+          : "border-slate-300 dark:border-slate-700")
+      }
+    >
+      <p className="text-sm font-medium text-slate-800 dark:text-slate-200">Start from your résumé</p>
+      <p className="mx-auto mt-1 max-w-md text-xs text-slate-500 dark:text-slate-400">
+        Drop a PDF or text file here (or a profile <code>.json</code>). It's read in your browser —
+        nothing is uploaded. We'll fill in what we can; you check and fix the rest.
+      </p>
+      <button type="button" onClick={() => ref.current?.click()} disabled={busy} className={`mt-3 ${btnClass}`}>
+        {busy ? "Reading…" : "Choose a file"}
+      </button>
+      <input
+        ref={ref}
+        type="file"
+        accept=".pdf,.txt,.md,.json,application/pdf,application/json,text/plain,text/markdown"
+        className="hidden"
+        onChange={(e) => {
+          const f = e.target.files?.[0];
+          if (f) onFile(f);
+          e.target.value = "";
+        }}
+      />
+    </div>
+  );
+}
+
 // ---- main --------------------------------------------------------------
 
 type SaveState = "idle" | "saving" | "saved" | "error";
+
+const SECTION_DONE = (c: Completeness, key: string) => c.sections.find((s) => s.key === key)?.done ?? false;
 
 export default function ProfilePanel() {
   const [profile, setProfile] = useState<Profile | null>(null);
   const [isNew, setIsNew] = useState(false);
   const [saveState, setSaveState] = useState<SaveState>("idle");
-  const [importError, setImportError] = useState("");
-  const fileRef = useRef<HTMLInputElement>(null);
+  const [notice, setNotice] = useState<{ kind: "ok" | "err"; text: string } | null>(null);
+  const [importBusy, setImportBusy] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pending = useRef<Profile | null>(null);
 
@@ -375,8 +480,6 @@ export default function ProfilePanel() {
     }
   }, []);
 
-  // Debounced autosave + a flush on tab-hide / unmount so a quick edit right
-  // before navigating away isn't lost.
   const queueSave = useCallback(
     (next: Profile) => {
       pending.current = next;
@@ -413,28 +516,62 @@ export default function ProfilePanel() {
 
   const completeness = useMemo(() => (profile ? profileCompleteness(profile) : null), [profile]);
 
+  const handleFile = useCallback(
+    async (file: File) => {
+      setNotice(null);
+      const name = file.name.toLowerCase();
+      try {
+        if (name.endsWith(".json")) {
+          const text = await file.text();
+          const parsed = importProfile(text) ?? fromJsonResumeString(text);
+          if (!parsed) {
+            setNotice({ kind: "err", text: "That .json isn't a profile or a JSON Resume export we can read." });
+            return;
+          }
+          setProfile(parsed);
+          queueSave(parsed);
+          setNotice({ kind: "ok", text: "Profile loaded from file." });
+          return;
+        }
+        setImportBusy(true);
+        let text: string;
+        if (name.endsWith(".pdf") || file.type === "application/pdf") {
+          text = await extractPdfText(file);
+        } else {
+          text = await file.text();
+        }
+        if (!text.trim()) {
+          setNotice({ kind: "err", text: "Couldn't get any text out of that file — if it's a scanned PDF, paste the text instead." });
+          return;
+        }
+        const { parsed, found } = parseResume(text);
+        setProfile((cur) => {
+          const base = cur ?? emptyProfile();
+          const merged = mergeParsedProfile(base, parsed);
+          queueSave(merged);
+          return merged;
+        });
+        setNotice({
+          kind: "ok",
+          text:
+            found.length > 0
+              ? `Imported from your résumé: ${found.join(", ")}. Full text saved. Check each section below and fix anything that's off.`
+              : "Résumé text saved. We couldn't confidently pull structured fields — fill the sections below.",
+        });
+      } catch (err) {
+        setNotice({ kind: "err", text: `Couldn't read that file${err instanceof Error ? ` (${err.message})` : ""}.` });
+      } finally {
+        setImportBusy(false);
+      }
+    },
+    [queueSave],
+  );
+
   if (!profile || !completeness) {
     return <p className="py-10 text-center text-slate-500 dark:text-slate-400">Loading your profile…</p>;
   }
 
   const id = profile.identity;
-
-  function handleImportFile(file: File) {
-    setImportError("");
-    const reader = new FileReader();
-    reader.onload = () => {
-      const text = String(reader.result ?? "");
-      const parsed = importProfile(text) ?? fromJsonResumeString(text);
-      if (!parsed) {
-        setImportError("That file isn't a profile or a JSON Resume export we can read.");
-        return;
-      }
-      setProfile(parsed);
-      queueSave(parsed);
-    };
-    reader.onerror = () => setImportError("Couldn't read that file.");
-    reader.readAsText(file);
-  }
 
   async function handleErase() {
     const typed = window.prompt('This permanently deletes your profile from this browser. Type "ERASE" to confirm.');
@@ -443,21 +580,35 @@ export default function ProfilePanel() {
     setProfile(emptyProfile());
     setIsNew(true);
     setSaveState("idle");
+    setNotice(null);
   }
 
   const saveLabel =
     saveState === "saving"
       ? "Saving…"
-      : saveState === "saved"
-        ? "All changes saved"
-        : saveState === "error"
-          ? "Save failed — storage may be disabled"
-          : isNew
-            ? "Not saved yet"
-            : "All changes saved";
+      : saveState === "error"
+        ? "Save failed — storage may be disabled"
+        : isNew
+          ? "Not saved yet"
+          : "All changes saved";
 
   return (
     <div className="space-y-4">
+      <ImportCard busy={importBusy} onFile={handleFile} />
+
+      {notice ? (
+        <p
+          className={
+            "rounded-md border px-3 py-2 text-xs " +
+            (notice.kind === "ok"
+              ? "border-teal-200 bg-teal-50 text-teal-800 dark:border-teal-900 dark:bg-teal-950 dark:text-teal-200"
+              : "border-red-200 bg-red-50 text-red-700 dark:border-red-900 dark:bg-red-950 dark:text-red-300")
+          }
+        >
+          {notice.text}
+        </p>
+      ) : null}
+
       {/* sticky status + completeness + data controls */}
       <div className="sticky top-0 z-10 -mx-1 rounded-lg border border-slate-200 bg-white/95 p-3 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95">
         <div className="flex flex-wrap items-center gap-3">
@@ -481,9 +632,6 @@ export default function ProfilePanel() {
             >
               Export JSON Resume
             </button>
-            <button type="button" className={btnClass} onClick={() => fileRef.current?.click()}>
-              Import
-            </button>
             <button
               type="button"
               onClick={handleErase}
@@ -491,17 +639,6 @@ export default function ProfilePanel() {
             >
               Erase
             </button>
-            <input
-              ref={fileRef}
-              type="file"
-              accept="application/json,.json"
-              className="hidden"
-              onChange={(e) => {
-                const f = e.target.files?.[0];
-                if (f) handleImportFile(f);
-                e.target.value = "";
-              }}
-            />
           </div>
         </div>
         {completeness.doneCount < completeness.total ? (
@@ -513,13 +650,12 @@ export default function ProfilePanel() {
               ))}
           </ul>
         ) : null}
-        {importError ? <p className="mt-2 text-xs text-red-600 dark:text-red-400">{importError}</p> : null}
         <p className="mt-2 text-xs text-slate-400">
           Stored only in this browser (IndexedDB). Nothing is uploaded. Export to move it to another device.
         </p>
       </div>
 
-      <Section title="Basics" subtitle="Your name and how to reach you.">
+      <Section title="Basics" subtitle="Your name and how to reach you." done={SECTION_DONE(completeness, "name") && SECTION_DONE(completeness, "contact")} defaultOpen>
         <div className="grid gap-3 sm:grid-cols-2">
           <Field label="Full name" value={id.fullName} onChange={(v) => patch((d) => ({ ...d, identity: { ...d.identity, fullName: v } }))} />
           <Field
@@ -539,7 +675,7 @@ export default function ProfilePanel() {
         </div>
       </Section>
 
-      <Section title="Links">
+      <Section title="Links" done={SECTION_DONE(completeness, "links")}>
         <div className="grid gap-3 sm:grid-cols-2">
           <Field
             label="LinkedIn"
@@ -610,7 +746,7 @@ export default function ProfilePanel() {
         </div>
       </Section>
 
-      <Section title="Experience">
+      <Section title="Experience" done={SECTION_DONE(completeness, "experience")}>
         <ListEditor<ExperienceEntry>
           items={profile.experience}
           onChange={(v) => patch((d) => ({ ...d, experience: v }))}
@@ -637,7 +773,7 @@ export default function ProfilePanel() {
         />
       </Section>
 
-      <Section title="Education">
+      <Section title="Education" done={SECTION_DONE(completeness, "education")}>
         <ListEditor<EducationEntry>
           items={profile.education}
           onChange={(v) => patch((d) => ({ ...d, education: v }))}
@@ -678,7 +814,7 @@ export default function ProfilePanel() {
         />
       </Section>
 
-      <Section title="Skills" subtitle="Used by the résumé keyword check to see what a job wants that you have.">
+      <Section title="Skills" subtitle="Used by the résumé keyword check to see what a job wants that you have." done={SECTION_DONE(completeness, "skills")}>
         <TagInput
           label="Languages"
           values={profile.skills.languages}
@@ -704,7 +840,7 @@ export default function ProfilePanel() {
         />
       </Section>
 
-      <Section title="What you're looking for" subtitle="Feeds the “for you” ranking and, later, your job alerts.">
+      <Section title="What you're looking for" subtitle="Feeds the “for you” ranking and, later, your job alerts." done={SECTION_DONE(completeness, "targets")}>
         <CheckGroup
           label="Target levels"
           options={LEVEL_VALUES.filter((l) => l !== "unknown" && l !== "other")}
@@ -757,7 +893,11 @@ export default function ProfilePanel() {
         />
       </Section>
 
-      <Section title="Résumé text" subtitle="Paste your résumé as plain text. PDF import comes next. Used by the keyword and linter tools; never uploaded.">
+      <Section
+        title="Résumé text"
+        subtitle="Filled automatically when you import a résumé above. Used by the keyword and linter tools; never uploaded."
+        done={SECTION_DONE(completeness, "resume")}
+      >
         <TextArea
           label="Résumé"
           value={profile.resumeText}

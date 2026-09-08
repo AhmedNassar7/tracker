@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { fetchSiteIndex, fetchStoryCards } from "../lib/dataSource";
 import {
   applyFilters,
+  computeFacetCounts,
   DEFAULT_FILTERS,
   filtersFromSearchParams,
   hasActiveFilters,
@@ -71,14 +72,20 @@ function formatGeneratedAt(iso: string): string {
   }
 }
 
-function readFiltersFromLocation(): FilterState {
-  if (typeof window === "undefined") return DEFAULT_FILTERS;
-  return filtersFromSearchParams(new URLSearchParams(window.location.search));
+// `preset` is a per-page starting filter (e.g. the /mena view seeds
+// regions=["mena"]). It applies ONLY when the URL carries no filter params of
+// its own — the moment the visitor touches a control, searchParamsFromFilters
+// writes the real query and that wins on any reload or shared link.
+function readFiltersFromLocation(preset?: Partial<FilterState>): FilterState {
+  if (typeof window === "undefined") return { ...DEFAULT_FILTERS, ...preset };
+  const params = new URLSearchParams(window.location.search);
+  if (preset && Array.from(params.keys()).length === 0) return { ...DEFAULT_FILTERS, ...preset };
+  return filtersFromSearchParams(params);
 }
 
-export default function OpportunityBrowser() {
+export default function OpportunityBrowser({ presetFilters }: { presetFilters?: Partial<FilterState> } = {}) {
   const [state, setState] = useState<LoadState>({ status: "loading" });
-  const [filters, setFilters] = useState<FilterState>(() => readFiltersFromLocation());
+  const [filters, setFilters] = useState<FilterState>(() => readFiltersFromLocation(presetFilters));
   const [page, setPage] = useState(1);
   const [trackedApps, setTrackedApps] = useState<Map<string, TrackedApplication>>(new Map());
   const [newIds, setNewIds] = useState<Set<string>>(new Set());
@@ -370,6 +377,12 @@ export default function OpportunityBrowser() {
       .map(([tag]) => tag);
   }, [opportunityItems]);
 
+  // Lane G8 — per-facet result counts shown in the dropdowns. Based on the
+  // filter state only (not showOnlyNew / excludeCompanies, which are nudges
+  // layered on afterwards), so "Region: mena 42" always matches what picking
+  // it would show.
+  const facetCounts = useMemo(() => computeFacetCounts(opportunityItems, filters), [opportunityItems, filters]);
+
   if (state.status === "loading") {
     return <SkeletonTable label="Loading opportunities…" />;
   }
@@ -516,6 +529,7 @@ export default function OpportunityBrowser() {
         availableCountries={availableCountries}
         availableCompanies={availableCompanies}
         availableTags={availableTags}
+        counts={facetCounts}
         hasSavedPrefs={hasSavedPrefs}
         currentIsSaved={currentIsSaved}
         onSavePrefs={handleSavePrefs}

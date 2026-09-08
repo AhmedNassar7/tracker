@@ -4,6 +4,7 @@ import {
   KIND_VALUES,
   LEVEL_VALUES,
   REMOTE_VALUES,
+  type FacetCounts,
   type FilterState,
 } from "../lib/filters";
 import { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS, ROLE_LABELS } from "../lib/labels";
@@ -23,6 +24,14 @@ const KIND_TABS = KIND_VALUES.map((value) => ({ value, label: KIND_LABELS[value]
 const LEVEL_OPTIONS: MultiSelectOption[] = LEVEL_VALUES.map((value) => ({ value, label: LEVEL_LABELS[value] }));
 const REMOTE_OPTIONS: MultiSelectOption[] = REMOTE_VALUES.map((value) => ({ value, label: REMOTE_LABELS[value] }));
 
+// Lane G8 — attach a per-value result count (from computeFacetCounts) to each
+// option so the dropdown reads "Backend  142". `undefined` counts prop ⇒ no
+// numbers rendered at all (unchanged look).
+function withCounts(options: MultiSelectOption[], map: Record<string, number> | undefined): MultiSelectOption[] {
+  if (!map) return options;
+  return options.map((o) => ({ ...o, count: map[o.value] ?? 0 }));
+}
+
 interface Props {
   filters: FilterState;
   onChange: (next: FilterState) => void;
@@ -35,6 +44,8 @@ interface Props {
   availableCountries: string[];
   availableCompanies: string[];
   availableTags: string[];
+  // Lane G8 — per-facet result counts. Optional: absent ⇒ no numbers shown.
+  counts?: FacetCounts;
   // Lane H: "Save this filter as my preferences" lives here, next to Clear.
   hasSavedPrefs: boolean;
   currentIsSaved: boolean;
@@ -51,6 +62,7 @@ export default function FilterBar({
   availableCountries,
   availableCompanies,
   availableTags,
+  counts,
   hasSavedPrefs,
   currentIsSaved,
   onSavePrefs,
@@ -62,41 +74,52 @@ export default function FilterBar({
   const toggleVisa = () => set("visa", filters.visa === "yes" ? "" : "yes");
   // Country options get a real flag image before the name (see <Flag> —
   // emoji flags render as bare letters on Windows).
-  const roleOptions: MultiSelectOption[] = availableRoles.map((r) => ({
-    value: r,
-    label: ROLE_LABELS[r] ?? r,
-  }));
-  const regionOptions: MultiSelectOption[] = availableRegions.map((r) => ({
-    value: r,
-    label: REGION_LABELS[r] ?? r,
-  }));
-  const countryOptions: MultiSelectOption[] = availableCountries.map((c) => ({
-    value: c,
-    label: c,
-    flagCountry: c,
-  }));
-  const companyOptions: MultiSelectOption[] = availableCompanies.map((c) => ({ value: c, label: c }));
-  const tagOptions: MultiSelectOption[] = availableTags.map((t) => ({ value: t, label: t }));
+  const roleOptions = withCounts(
+    availableRoles.map((r) => ({ value: r, label: ROLE_LABELS[r] ?? r })),
+    counts?.roles,
+  );
+  const regionOptions = withCounts(
+    availableRegions.map((r) => ({ value: r, label: REGION_LABELS[r] ?? r })),
+    counts?.regions,
+  );
+  const countryOptions = withCounts(
+    availableCountries.map((c) => ({ value: c, label: c, flagCountry: c })),
+    counts?.countries,
+  );
+  const companyOptions = withCounts(
+    availableCompanies.map((c) => ({ value: c, label: c })),
+    counts?.companies,
+  );
+  const tagOptions = withCounts(
+    availableTags.map((t) => ({ value: t, label: t })),
+    counts?.tags,
+  );
+  const levelOptions = withCounts(LEVEL_OPTIONS, counts?.levels);
+  const remoteOptions = withCounts(REMOTE_OPTIONS, counts?.remotes);
 
   return (
     <div className="mb-6 space-y-3">
       <div role="group" aria-label="Filter by kind" className="flex flex-wrap items-center gap-2">
-        {KIND_TABS.map((tab) => (
-          <button
-            key={tab.value}
-            type="button"
-            onClick={() => set("kind", tab.value)}
-            aria-pressed={filters.kind === tab.value}
-            className={
-              "rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
-              (filters.kind === tab.value
-                ? "border-teal-700 bg-teal-700 text-white dark:border-teal-600 dark:bg-teal-600"
-                : "border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:bg-slate-900")
-            }
-          >
-            {tab.label}
-          </button>
-        ))}
+        {KIND_TABS.map((tab) => {
+          const n = tab.value === "all" ? undefined : counts?.kind[tab.value];
+          return (
+            <button
+              key={tab.value}
+              type="button"
+              onClick={() => set("kind", tab.value)}
+              aria-pressed={filters.kind === tab.value}
+              className={
+                "rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
+                (filters.kind === tab.value
+                  ? "border-teal-700 bg-teal-700 text-white dark:border-teal-600 dark:bg-teal-600"
+                  : "border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:bg-slate-900")
+              }
+            >
+              {tab.label}
+              {n !== undefined && <span className="ml-1.5 text-xs tabular-nums opacity-70">{n.toLocaleString()}</span>}
+            </button>
+          );
+        })}
       </div>
 
       <div className="flex flex-wrap items-center gap-2">
@@ -109,14 +132,14 @@ export default function FilterBar({
           className="w-full max-w-xs rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-900 focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 sm:w-56"
         />
 
-        <MultiSelect label="Level" options={LEVEL_OPTIONS} selected={filters.levels} onChange={(v) => set("levels", v)} />
+        <MultiSelect label="Level" options={levelOptions} selected={filters.levels} onChange={(v) => set("levels", v)} />
         {roleOptions.length > 0 && (
           <MultiSelect label="Role" options={roleOptions} selected={filters.roles} onChange={(v) => set("roles", v)} />
         )}
         {regionOptions.length > 0 && (
           <MultiSelect label="Region" options={regionOptions} selected={filters.regions} onChange={(v) => set("regions", v)} />
         )}
-        <MultiSelect label="Work type" options={REMOTE_OPTIONS} selected={filters.remotes} onChange={(v) => set("remotes", v)} />
+        <MultiSelect label="Work type" options={remoteOptions} selected={filters.remotes} onChange={(v) => set("remotes", v)} />
         {countryOptions.length > 0 && (
           <MultiSelect label="Country" options={countryOptions} selected={filters.countries} onChange={(v) => set("countries", v)} searchable />
         )}
