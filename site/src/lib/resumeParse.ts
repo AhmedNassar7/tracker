@@ -1,172 +1,367 @@
-import { emptyProfile, newId, type EducationEntry, type ExperienceEntry, type Profile } from "./profile";
+import {
+  emptyProfile,
+  newId,
+  type EducationEntry,
+  type ExperienceEntry,
+  type Profile,
+  type ProfileSkills,
+  type ProjectEntry,
+} from "./profile";
 
 // Best-effort résumé-text -> Profile fields. Heuristic, and deliberately
-// conservative: it fills the things it can read reliably (contact details,
-// links, a skills line) and takes a rough pass at experience / education
-// blocks. Everything it produces is shown to the user to confirm or fix
-// before anything is saved — the parser never has the final word, matching
-// the project's no-fabrication rule. The full text is always kept verbatim
-// in `resumeText`, which is what the keyword and cover-letter tools actually
-// need; the structured parse is a convenience on top.
+// conservative: everything it produces is shown to the user to confirm or fix
+// before it's saved (no-fabrication rule). The full text is always kept in
+// `resumeText` — that's what the keyword and cover-letter tools need; the
+// structured parse is a convenience on top.
+//
+// Real résumés don't put blank lines between entries — a new entry begins at
+// a fresh header line (a company + a date range, or a "Name | tech" line for
+// projects). splitEntries() keys off that, not off blank lines.
 
 const EMAIL_RE = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i;
-const PHONE_RE = /(?:\+?\d[\d\s().-]{7,}\d)/;
-const LINKEDIN_RE = /(?:https?:\/\/)?(?:[a-z]{2,3}\.)?linkedin\.com\/(?:in|pub)\/[^\s)|]+/i;
-const GITHUB_RE = /(?:https?:\/\/)?(?:www\.)?github\.com\/[^\s)|]+/i;
-const URL_RE = /(?:https?:\/\/)[^\s)|]+/gi;
-const YEAR_RANGE_RE = /\b(19|20)\d{2}\b\s*(?:[-–—]|to)\s*(?:present|current|now|\b(19|20)\d{2}\b)/i;
+const PHONE_RE = /\+?\d[\d\s().\-]{7,}\d/;
+const LINKEDIN_RE = /(?:https?:\/\/)?(?:[a-z]{2,3}\.)?linkedin\.com\/[^\s)|,]+/i;
+const GITHUB_RE = /(?:https?:\/\/)?(?:www\.)?github\.com\/[^\s)|,]+/i;
+// Bare or absolute personal-site URL (common TLDs / hosts). Excludes the
+// linkedin / github / email domains at the call site.
+const SITE_RE =
+  /(?:https?:\/\/)?(?:[a-z0-9-]+\.)+(?:github\.io|vercel\.app|netlify\.app|pages\.dev|io|com|dev|me|app|net|org|co|ai|xyz|page|site|tech)(?:\/[^\s)|,]*)?/i;
 
-const HEADINGS: { key: "experience" | "education" | "skills" | "projects" | "summary"; re: RegExp }[] = [
-  { key: "experience", re: /^\s*(work\s+experience|professional\s+experience|experience|employment(?:\s+history)?)\s*:?\s*$/i },
-  { key: "education", re: /^\s*(education(?:\s+and\s+training)?|academic\s+background)\s*:?\s*$/i },
-  { key: "skills", re: /^\s*(technical\s+skills|core\s+skills|skills\s*(?:&|and)\s*(?:tools|technologies)|skills|technologies|tech\s+stack)\s*:?\s*$/i },
-  { key: "projects", re: /^\s*(projects|personal\s+projects|selected\s+projects|open\s+source)\s*:?\s*$/i },
-  { key: "summary", re: /^\s*(summary|profile|professional\s+summary|objective|about(?:\s+me)?)\s*:?\s*$/i },
-];
+const MONTHS =
+  "jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december";
+const DATE_TOKEN = `(?:(?:${MONTHS})\\.?\\s+)?(?:19|20)\\d{2}`;
+const DATE_RANGE_RE = new RegExp(
+  `(${DATE_TOKEN})\\s*(?:[–—-]|to)\\s*(${DATE_TOKEN}|present|current|now|ongoing)`,
+  "i",
+);
+const BULLET_RE = /^\s*[•‣◦▪●■·*]\s+/;
+// A trailing "City, Country" — city 1–3 capitalised words, country 1–2.
+const CITY_COUNTRY_RE = /([A-Z][A-Za-z.\-']+(?:[\s-][A-Z][A-Za-z.\-']+){0,2},\s*[A-Z][A-Za-z.\-']+(?:\s[A-Z][A-Za-z.\-']+)?)\s*$/;
+const WORKMODE_RE = /\b(remote|hybrid|on[- ]?site)\b/i;
+const EMP_TYPE_RE =
+  /\b(full[\s-]?time|part[\s-]?time|contractor|contract|internship|intern|freelance|volunteer|permanent|temporary|apprenticeship|co[\s-]?op|seasonal|trainee)\b/gi;
+const PRESENT_RE = /present|current|now|ongoing/i;
 
-// A compact skill vocabulary — enough to lift a free-form "Skills" line or
-// scattered mentions into chips. Superseded later by the detect_tech_tags
-// TS port (Lane R2) which will share the pipeline's canonical list.
-const SKILL_VOCAB: { name: string; bucket: "languages" | "frameworks" | "tools" }[] = [
-  ...["JavaScript", "TypeScript", "Python", "Java", "Kotlin", "Swift", "Go", "Rust", "C++", "C#", "C", "Ruby", "PHP", "Scala", "Dart", "R", "MATLAB", "Elixir", "Haskell", "SQL", "Bash", "Shell", "HTML", "CSS"].map((name) => ({ name, bucket: "languages" as const })),
-  ...["React", "React Native", "Next.js", "Vue", "Nuxt", "Angular", "Svelte", "Astro", "Node.js", "Express", "NestJS", "Django", "Flask", "FastAPI", "Spring", "Spring Boot", "Rails", "Laravel", ".NET", "Flutter", "TensorFlow", "PyTorch", "scikit-learn", "pandas", "NumPy", "GraphQL", "Redux", "Tailwind CSS", "jQuery"].map((name) => ({ name, bucket: "frameworks" as const })),
-  ...["Docker", "Kubernetes", "AWS", "GCP", "Azure", "Terraform", "Ansible", "Git", "GitHub Actions", "GitLab CI", "Jenkins", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "Kafka", "RabbitMQ", "Nginx", "Linux", "Jira", "Figma", "Postman", "gRPC", "REST", "CI/CD", "Prometheus", "Grafana", "Snowflake", "Spark", "Airflow"].map((name) => ({ name, bucket: "tools" as const })),
-];
-
-function firstMatch(text: string, re: RegExp): string {
-  const m = text.match(re);
-  return m ? m[0].trim().replace(/[|,;]+$/, "") : "";
+/** Pull the location out of a right-hand column: an explicit work mode, or a
+ *  "City, Country", after stripping any employment-type word. */
+function pickLocation(text: string): string {
+  const t = text.replace(EMP_TYPE_RE, "").replace(/\s{2,}/g, " ").trim();
+  const cc = t.match(CITY_COUNTRY_RE);
+  if (cc) return cc[1].replace(/\s+/g, " ").trim();
+  const wm = t.match(WORKMODE_RE);
+  if (wm) return wm[1][0].toUpperCase() + wm[1].slice(1).toLowerCase().replace(/\s/, "-");
+  return "";
 }
 
+type SectionKey = "summary" | "experience" | "education" | "projects" | "skills" | "other";
+
+const HEADINGS: { key: SectionKey; re: RegExp }[] = [
+  { key: "summary", re: /^(summary|profile|professional summary|objective|about(?:\s+me)?)\s*:?\s*$/i },
+  { key: "experience", re: /^(?:work|professional|relevant)?\s*experience\s*:?\s*$|^employment(?:\s+history)?\s*:?\s*$/i },
+  { key: "education", re: /^education(?:\s+and\s+training)?\s*:?\s*$|^academic\s+background\s*:?\s*$/i },
+  { key: "projects", re: /^(?:personal|selected|academic|open[- ]source|key)?\s*projects?\s*:?\s*$/i },
+  {
+    key: "skills",
+    re: /^(?:technical|core|key)?\s*skills(?:\s*(?:&|and)\s*(?:tools|technologies|interests))?\s*:?\s*$|^technologies\s*:?\s*$|^tech\s+stack\s*:?\s*$/i,
+  },
+  {
+    key: "other",
+    re: /^(?:achievements?|activities|awards?|honou?rs?|certifications?|licen[cs]es?|publications?|volunteering?|interests|references|leadership|languages)\s*:?\s*$/i,
+  },
+];
+
+const SKILL_VOCAB: { name: string; bucket: "languages" | "frameworks" | "tools" }[] = [
+  ...["JavaScript", "TypeScript", "Python", "Java", "Kotlin", "Swift", "Go", "Rust", "C++", "C#", "C", "Ruby", "PHP", "Scala", "Dart", "R", "MATLAB", "Elixir", "Haskell", "SQL", "Bash", "Shell", "HTML", "CSS", "SCSS"].map((name) => ({ name, bucket: "languages" as const })),
+  ...["React", "React Native", "Next.js", "Vue", "Nuxt", "Angular", "Svelte", "Astro", "Node.js", "Express", "NestJS", "Django", "Django REST Framework", "DRF", "Flask", "FastAPI", "Spring", "Spring Boot", "Rails", "Laravel", ".NET", "Flutter", "TensorFlow", "PyTorch", "scikit-learn", "Scikit-learn", "XGBoost", "pandas", "Pandas", "NumPy", "GraphQL", "Redux", "Zustand", "Zod", "TanStack Query", "Tailwind", "Tailwind CSS", "Bootstrap", "jQuery", "Vite", "Selenium", "Playwright", "Workbox", "EmailJS", "Firebase"].map((name) => ({ name, bucket: "frameworks" as const })),
+  ...["Docker", "Kubernetes", "AWS", "GCP", "Azure", "Terraform", "Ansible", "Git", "GitHub", "GitHub Actions", "GitLab CI", "Jenkins", "PostgreSQL", "MySQL", "SQLite", "MongoDB", "Redis", "Oracle DB", "MS SQL Server", "Elasticsearch", "Kafka", "RabbitMQ", "Nginx", "Linux", "Jira", "Figma", "Postman", "Swagger", "gRPC", "REST", "RESTful APIs", "CI/CD", "Prometheus", "Grafana", "Snowflake", "Spark", "Airflow"].map((name) => ({ name, bucket: "tools" as const })),
+];
+
+function escapeRe(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
 function normalizeUrl(u: string): string {
   return /^https?:\/\//i.test(u) ? u : `https://${u}`;
 }
+function firstMatch(text: string, re: RegExp): string {
+  const m = text.match(re);
+  return m ? m[0].trim().replace(/[|,;·]+$/, "").trim() : "";
+}
+/** Split a "A · B, C | D" list into clean tokens. Keeps "CI/CD" whole. */
+function splitTokens(s: string): string[] {
+  return s
+    .split(/\s*[·•|,]\s*|\s{2,}|\s+[–—]\s+/)
+    .map((t) => t.trim().replace(/\.$/, ""))
+    .filter(Boolean);
+}
 
-/** A plausible name is one of the first few non-empty lines: 2–4 words, mostly
- *  letters, not an email / URL / heading / all-caps section word. */
-function guessName(lines: string[]): string {
-  for (const line of lines.slice(0, 6)) {
-    const t = line.trim();
+// ---- header ---------------------------------------------------------------
+
+function guessName(lines: string[]): { name: string; index: number } {
+  for (let i = 0; i < Math.min(lines.length, 6); i++) {
+    const t = lines[i].trim();
     if (!t || t.length > 60) continue;
-    if (EMAIL_RE.test(t) || /https?:\/\//i.test(t) || /@/.test(t) || /\d/.test(t)) continue;
+    if (EMAIL_RE.test(t) || /https?:\/\/|@|\d/.test(t) || t.includes("|")) continue;
     if (HEADINGS.some((h) => h.re.test(t))) continue;
     const words = t.split(/\s+/).filter(Boolean);
     if (words.length < 2 || words.length > 4) continue;
-    if (!words.every((w) => /^[A-Za-z][A-Za-z'.-]*$/.test(w))) continue;
-    return t.replace(/\s+/g, " ");
+    if (!words.every((w) => /^[A-Za-z][A-Za-z'.\-]*$/.test(w))) continue;
+    return { name: t.replace(/\s+/g, " "), index: i };
+  }
+  return { name: "", index: -1 };
+}
+
+function guessHeadline(lines: string[], nameIndex: number): string {
+  for (let i = nameIndex + 1; i < Math.min(nameIndex + 3, lines.length); i++) {
+    const t = (lines[i] ?? "").trim();
+    if (!t || t.length > 55) continue;
+    if (EMAIL_RE.test(t) || /https?:\/\/|@|\d{3}|\|/.test(t)) continue;
+    if (HEADINGS.some((h) => h.re.test(t))) continue;
+    const wc = t.split(/\s+/).length;
+    if (wc >= 1 && wc <= 6 && /^[A-Za-z][A-Za-z /&,'\-.]+$/.test(t)) return t;
   }
   return "";
 }
 
-interface SectionMap {
-  experience?: string;
-  education?: string;
-  skills?: string;
-  projects?: string;
-  summary?: string;
+function guessLocation(headLines: string[]): string {
+  for (const line of headLines) {
+    for (const part of line.split(/\s*[|·•]\s*/)) {
+      const p = part.trim();
+      if (!p || EMAIL_RE.test(p) || /^\+?[\d\s().\-]{7,}$/.test(p) || /https?:\/\//i.test(p)) continue;
+      if (/^[A-Z][A-Za-z.\-' ]+,\s*[A-Z][A-Za-z.\-' ]+$/.test(p)) return p.replace(/\s+/g, " ");
+    }
+  }
+  for (const line of headLines) {
+    const m = line.match(CITY_COUNTRY_RE);
+    if (m && !EMAIL_RE.test(m[1])) return m[1].replace(/\s+/g, " ");
+  }
+  return "";
 }
 
-function splitSections(lines: string[]): SectionMap {
-  const marks: { key: keyof SectionMap; at: number }[] = [];
+// ---- entry splitter -----------------------------------------------------
+
+interface RawEntry {
+  header: string[];
+  bullets: string[];
+}
+
+function splitEntries(section: string): RawEntry[] {
+  const lines = section.split(/\n/).map((l) => l.trim()).filter(Boolean);
+  const entries: RawEntry[] = [];
+  let cur: RawEntry | null = null;
+  for (const line of lines) {
+    const isBullet = BULLET_RE.test(line);
+    const startsEntry = !isBullet && (DATE_RANGE_RE.test(line) || / \| /.test(line));
+    if (startsEntry && (!cur || cur.bullets.length > 0)) {
+      cur = { header: [line], bullets: [] };
+      entries.push(cur);
+    } else if (cur) {
+      if (isBullet) cur.bullets.push(line.replace(BULLET_RE, "").replace(/\s{2,}/g, " ").trim());
+      else if (cur.bullets.length === 0) cur.header.push(line);
+      else cur.bullets[cur.bullets.length - 1] += ` ${line.replace(/\s{2,}/g, " ")}`; // wrapped bullet
+    }
+  }
+  return entries;
+}
+
+/** Pull a "Tech: A · B · C" bullet out of the list and return the rest +
+ *  the extracted tokens. */
+function extractTechBullets(bullets: string[]): { kept: string[]; tech: string[] } {
+  const tech: string[] = [];
+  const kept = bullets.filter((b) => {
+    const m = b.match(/^(?:tech|technologies|tech\s+stack|stack|tools)\s*[:–—-]\s*(.+)$/i);
+    if (m) {
+      tech.push(...splitTokens(m[1]));
+      return false;
+    }
+    return true;
+  });
+  return { kept, tech };
+}
+
+// ---- sections ---------------------------------------------------------
+
+function splitSections(lines: string[]): Partial<Record<SectionKey, string>> {
+  const marks: { key: SectionKey; at: number }[] = [];
   lines.forEach((line, i) => {
-    const h = HEADINGS.find((x) => x.re.test(line));
+    const h = HEADINGS.find((x) => x.re.test(line.trim()));
     if (h) marks.push({ key: h.key, at: i });
   });
-  const out: SectionMap = {};
+  const out: Partial<Record<SectionKey, string>> = {};
   marks.forEach((mark, idx) => {
     const end = idx + 1 < marks.length ? marks[idx + 1].at : lines.length;
-    out[mark.key] = lines.slice(mark.at + 1, end).join("\n").trim();
+    // First occurrence wins (a résumé rarely repeats a section header).
+    if (!(mark.key in out)) out[mark.key] = lines.slice(mark.at + 1, end).join("\n").trim();
   });
   return out;
 }
 
-function parseSkills(section: string | undefined, wholeText: string): Profile["skills"] {
-  const skills = emptyProfile().skills;
-  const seen = new Set<string>();
-  const add = (bucket: keyof Profile["skills"], name: string) => {
-    const k = name.toLowerCase();
-    if (seen.has(k)) return;
-    seen.add(k);
-    skills[bucket].push(name);
-  };
-  // Vocabulary hits anywhere in the text (word-boundary, case-insensitive).
-  for (const { name, bucket } of SKILL_VOCAB) {
-    const re = new RegExp(`(?<![A-Za-z0-9+#.])${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![A-Za-z0-9+#])`, "i");
-    if (re.test(wholeText)) add(bucket, name);
-  }
-  // Anything else explicitly listed in the Skills section goes to "other".
-  if (section) {
-    for (const token of section.split(/[,•·|\/\n]+|\s{2,}/).map((s) => s.trim())) {
-      if (!token || token.length > 30 || /[.:;]$/.test(token)) continue;
-      if (!/^[A-Za-z0-9][A-Za-z0-9 +#.\-]*$/.test(token)) continue;
-      if (seen.has(token.toLowerCase())) continue;
-      seen.add(token.toLowerCase());
-      skills.other.push(token);
-    }
-  }
-  return skills;
+/** Break a header line into its left part and an optional right "column"
+ *  (a wide gap became a double space in pdfText.ts). */
+function cols(line: string): { left: string; right: string } {
+  const parts = line.split(/\s{2,}/).map((s) => s.trim()).filter(Boolean);
+  if (parts.length <= 1) return { left: line.trim(), right: "" };
+  return { left: parts[0], right: parts.slice(1).join(" ") };
 }
 
-/** Split a section into blank-line-separated blocks. */
-function blocks(section: string | undefined): string[] {
-  if (!section) return [];
-  return section
-    .split(/\n\s*\n/)
-    .map((b) => b.trim())
-    .filter((b) => b.length > 0);
-}
+function parseExperience(section: string | undefined): { entries: ExperienceEntry[]; tech: string[] } {
+  if (!section) return { entries: [], tech: [] };
+  const allTech: string[] = [];
+  const entries = splitEntries(section)
+    .slice(0, 15)
+    .map((raw): ExperienceEntry => {
+      const line0 = cols(raw.header[0]);
+      const line1 = raw.header[1] ? cols(raw.header[1]) : { left: "", right: "" };
 
-function parseExperience(section: string | undefined): ExperienceEntry[] {
-  return blocks(section)
-    .slice(0, 12)
-    .map((block): ExperienceEntry => {
-      const lines = block.split(/\n/).map((l) => l.trim()).filter(Boolean);
-      const header = lines[0] ?? "";
-      const dates = firstMatch(block, YEAR_RANGE_RE);
-      // "Title — Company" / "Title, Company" / "Company | Title" — take the two
-      // sides; the user corrects which is which.
-      const sides = header.split(/\s+[-–—|]\s+|,\s+/).map((s) => s.trim()).filter(Boolean);
-      const [start = "", end = ""] = dates.split(/\s*(?:[-–—]|to)\s*/i);
-      const bullets = lines.slice(1).map((l) => l.replace(/^[-•*·]\s*/, "")).filter(Boolean);
-      return {
-        id: newId(),
-        title: sides[0] ?? header,
-        org: sides[1] ?? "",
-        location: "",
-        start: start.trim(),
-        end: /present|current|now/i.test(end) ? "" : end.trim(),
-        current: /present|current|now/i.test(dates),
-        bullets: bullets.length > 0 ? bullets : lines.slice(1),
-      };
+      // dates: from either column of line 0, else anywhere in the header
+      const dm = (line0.right + " " + line0.left + " " + raw.header.join("  ")).match(DATE_RANGE_RE);
+      const start = dm ? dm[1].trim() : "";
+      const endRaw = dm ? dm[2].trim() : "";
+      const current = PRESENT_RE.test(endRaw);
+
+      let org = line0.left.replace(DATE_RANGE_RE, "").replace(/[|•·–—-]\s*$/, "").replace(/\s{2,}/g, " ").trim();
+      let location = pickLocation(line0.right) || (DATE_RANGE_RE.test(line0.right) ? "" : pickLocation(line0.left));
+
+      let title = "";
+      if (line1.left) {
+        title = line1.left.split(/\s+[–—-]\s+/)[0].replace(EMP_TYPE_RE, "").replace(/\s{2,}/g, " ").trim();
+        location = location || pickLocation(line1.right) || pickLocation(line1.left);
+      } else {
+        const bare = line0.left.replace(DATE_RANGE_RE, "").replace(CITY_COUNTRY_RE, "").trim();
+        const p = bare.split(/\s*[|,]\s*/);
+        title = (p[0] ?? "").trim();
+        if (!org && p[1]) org = p[1].trim();
+      }
+
+      const { kept, tech } = extractTechBullets(raw.bullets);
+      allTech.push(...tech);
+      return { id: newId(), org, title, location, start, end: current ? "" : endRaw, current, bullets: kept };
     })
-    .filter((e) => e.title || e.org || e.bullets.length > 0);
+    .filter((e) => e.org || e.title || e.bullets.length > 0);
+  return { entries, tech: allTech };
 }
 
 function parseEducation(section: string | undefined): EducationEntry[] {
-  return blocks(section)
+  if (!section) return [];
+  return splitEntries(section)
     .slice(0, 8)
-    .map((block): EducationEntry => {
-      const lines = block.split(/\n/).map((l) => l.trim()).filter(Boolean);
-      const dates = firstMatch(block, YEAR_RANGE_RE) || firstMatch(block, /\b(19|20)\d{2}\b/);
-      const [start = "", end = ""] = dates.split(/\s*(?:[-–—]|to)\s*/i);
-      const gpa = firstMatch(block, /\bGPA[:\s]*([0-4]\.\d{1,2})(?:\s*\/\s*[45](?:\.0)?)?/i).replace(/gpa[:\s]*/i, "");
+    .map((raw): EducationEntry => {
+      const dm = raw.header.join("  ").match(DATE_RANGE_RE);
+      const start = dm ? dm[1].trim() : "";
+      const endRaw = dm ? dm[2].trim() : "";
+
+      const l0 = cols(raw.header[0]);
+      const l1 = raw.header[1] ? cols(raw.header[1]) : { left: "", right: "" };
+
+      const school = l0.left.replace(DATE_RANGE_RE, "").replace(/[|•·–—-]\s*$/, "").replace(/\s{2,}/g, " ").trim();
+      let location = pickLocation(l0.right);
+
+      let degree = "";
+      let field = "";
+      if (l1.left) {
+        degree = l1.left.replace(DATE_RANGE_RE, "").replace(/\s{2,}/g, " ").trim();
+        location = location || pickLocation(l1.right);
+        const fm = degree.match(/\b(?:of|in)\s+(.+?)\s*$/i);
+        if (fm) field = fm[1].trim();
+      }
+
+      let gpa = "";
+      const notes: string[] = [];
+      const { kept } = extractTechBullets(raw.bullets);
+      for (const b of kept) {
+        const gm = b.match(
+          /\b(?:C?GPA|Grade|Score)\s*[:\-]?\s*([0-4](?:\.\d{1,2})?\s*\/\s*[0-9.]+|[0-4]\.\d{1,2}|[A-F][+\-]?)\b/i,
+        );
+        if (gm && !gpa) {
+          gpa = gm[1].replace(/\s+/g, "");
+          continue;
+        }
+        notes.push(b);
+      }
+      void location; // captured for future use; EducationEntry has no location field today
       return {
         id: newId(),
-        school: lines[0] ?? "",
-        degree: firstMatch(block, /\b(B\.?S\.?c?|B\.?A|M\.?S\.?c?|M\.?A|Ph\.?D|Bachelor|Master|Diploma)[^\n,]*/i),
-        field: "",
-        start: start.trim(),
-        end: /present|current|now/i.test(end) ? "" : end.trim(),
+        school,
+        degree,
+        field,
+        start,
+        end: PRESENT_RE.test(endRaw) ? "" : endRaw,
         gpa,
-        notes: lines.slice(1).join(" · "),
+        notes: notes.join(" · "),
       };
     })
     .filter((e) => e.school);
 }
 
+const LINK_WORD_RE = /^(github|gitlab|bitbucket|live|demo|source|code|website|link|paper|certificate|cert|slides|video)$/i;
+
+function parseProjects(section: string | undefined): { entries: ProjectEntry[]; tech: string[] } {
+  if (!section) return { entries: [], tech: [] };
+  const allTech: string[] = [];
+  const entries = splitEntries(section)
+    .slice(0, 15)
+    .map((raw): ProjectEntry => {
+      const line = raw.header.join(" ");
+      const segs = line.split(/\s*\|\s*/);
+      const name = (segs[0] ?? "").replace(/\s{2,}/g, " ").trim();
+      const techTokens = splitTokens(segs.slice(1).join(" | ")).filter((t) => !LINK_WORD_RE.test(t));
+      allTech.push(...techTokens);
+      const { kept } = extractTechBullets(raw.bullets);
+      return {
+        id: newId(),
+        name,
+        url: "",
+        blurb: kept[0] ?? "",
+        bullets: kept.slice(1),
+      };
+    })
+    .filter((p) => p.name && !LINK_WORD_RE.test(p.name));
+  return { entries, tech: allTech };
+}
+
+const SKILL_LABELS: { re: RegExp; bucket: keyof ProfileSkills }[] = [
+  { re: /programming\s+languages?|^languages?$/i, bucket: "languages" },
+  { re: /frameworks?|libraries|front[- ]?end|back[- ]?end/i, bucket: "frameworks" },
+  { re: /tools?|platforms?|databases?|dev\s?ops|cloud|infrastructure|technologies/i, bucket: "tools" },
+  { re: /concepts?|practices|methodolog|principles|paradigms|soft\s+skills|other/i, bucket: "other" },
+];
+
+function parseSkills(section: string | undefined, wholeText: string, extraTech: string[]): ProfileSkills {
+  const skills = emptyProfile().skills;
+  const seen = new Set<string>();
+  const push = (bucket: keyof ProfileSkills, name: string) => {
+    const clean = name.trim().replace(/\.$/, "");
+    const k = clean.toLowerCase();
+    if (!k || clean.length > 40 || seen.has(k)) return;
+    if (!/^[A-Za-z0-9][\w +#./&'\-]*$/.test(clean)) return;
+    seen.add(k);
+    skills[bucket].push(clean);
+  };
+
+  if (section) {
+    for (const raw of section.split(/\n/).map((l) => l.trim()).filter(Boolean)) {
+      const m = raw.match(/^([A-Za-z][A-Za-z /&+]{1,30}):\s*(.+)$/);
+      if (m) {
+        const bucket = SKILL_LABELS.find((l) => l.re.test(m[1].trim()))?.bucket ?? "other";
+        for (const tok of splitTokens(m[2])) push(bucket, tok);
+      } else {
+        for (const tok of splitTokens(raw)) push("other", tok);
+      }
+    }
+  }
+  for (const { name, bucket } of SKILL_VOCAB) {
+    if (new RegExp(`(?<![\\w+#.])${escapeRe(name)}(?![\\w+#])`, "i").test(wholeText)) push(bucket, name);
+  }
+  for (const t of extraTech) {
+    const v = SKILL_VOCAB.find((s) => s.name.toLowerCase() === t.toLowerCase());
+    push(v?.bucket ?? "other", v?.name ?? t);
+  }
+  return skills;
+}
+
+// ---- top level -------------------------------------------------------
+
 export interface ResumeParseResult {
   parsed: Partial<Profile>;
-  /** Human-readable list of what was picked up, for the review summary. */
   found: string[];
 }
 
@@ -175,62 +370,81 @@ export function parseResume(text: string): ResumeParseResult {
   const lines = clean.split(/\n/);
   const sections = splitSections(lines);
 
+  const firstHeadingAt = lines.findIndex((l) => HEADINGS.some((h) => h.re.test(l.trim())));
+  const headLines = lines.slice(0, firstHeadingAt > 0 ? firstHeadingAt : 8).map((l) => l.trim());
+
+  const { name, index: nameIdx } = guessName(headLines);
+  const headline = nameIdx >= 0 ? guessHeadline(headLines, nameIdx) : "";
   const email = firstMatch(clean, EMAIL_RE);
+  const phone = firstMatch(headLines.join("\n"), PHONE_RE).trim();
+  const location = guessLocation(headLines);
   const linkedin = firstMatch(clean, LINKEDIN_RE);
   const github = firstMatch(clean, GITHUB_RE);
-  // A portfolio link = any other URL that isn't the LinkedIn / GitHub one.
-  const otherUrl = (clean.match(URL_RE) ?? []).find(
-    (u) => !/linkedin\.com|github\.com/i.test(u) && !u.includes("@"),
+  const portfolio = (headLines.join(" ").match(new RegExp(SITE_RE, "gi")) ?? []).find(
+    (u) => !/linkedin\.com|github\.com|@|gmail\.|outlook\.|yahoo\.|hotmail\./i.test(u),
   );
-  // Phone: search the header area only, to avoid grabbing a random number
-  // out of a bullet point.
-  const phone = firstMatch(lines.slice(0, 12).join("\n"), PHONE_RE);
-  const name = guessName(lines);
-  const skills = parseSkills(sections.skills, clean);
-  const experience = parseExperience(sections.experience);
+
+  const exp = parseExperience(sections.experience);
+  const proj = parseProjects(sections.projects);
   const education = parseEducation(sections.education);
+  const skills = parseSkills(sections.skills, clean, [...exp.tech, ...proj.tech]);
 
   const parsed: Partial<Profile> = {
     identity: {
       ...emptyProfile().identity,
       fullName: name,
+      headline,
       email,
-      phone: phone.trim(),
-      links: { linkedin: linkedin ? normalizeUrl(linkedin) : "", github: github ? normalizeUrl(github) : "", portfolio: otherUrl ? normalizeUrl(otherUrl) : "", other: [] },
+      phone,
+      location,
+      links: {
+        linkedin: linkedin ? normalizeUrl(linkedin) : "",
+        github: github ? normalizeUrl(github) : "",
+        portfolio: portfolio ? normalizeUrl(portfolio) : "",
+        other: [],
+      },
     },
     skills,
-    experience,
+    experience: exp.entries,
     education,
-    resumeText: clean,
+    projects: proj.entries,
+    // The vault keeps the readable text; the double spaces were only a parsing
+    // aid for column detection.
+    resumeText: clean.replace(/ {2,}/g, " "),
   };
 
   const found: string[] = [];
   if (name) found.push("name");
+  if (headline) found.push("headline");
   if (email) found.push("email");
   if (phone) found.push("phone");
+  if (location) found.push("location");
   if (linkedin) found.push("LinkedIn");
   if (github) found.push("GitHub");
+  if (portfolio) found.push("portfolio");
   const skillCount = skills.languages.length + skills.frameworks.length + skills.tools.length + skills.other.length;
-  if (skillCount) found.push(`${skillCount} skill${skillCount === 1 ? "" : "s"}`);
-  if (experience.length) found.push(`${experience.length} role${experience.length === 1 ? "" : "s"}`);
+  if (skillCount) found.push(`${skillCount} skills`);
+  if (exp.entries.length) found.push(`${exp.entries.length} role${exp.entries.length === 1 ? "" : "s"}`);
   if (education.length) found.push(`${education.length} school${education.length === 1 ? "" : "s"}`);
+  if (proj.entries.length) found.push(`${proj.entries.length} project${proj.entries.length === 1 ? "" : "s"}`);
 
   return { parsed, found };
 }
 
 /** Merge a parse result onto the current profile without destroying manual
- *  work: empty scalar fields take the parsed value, arrays union, and the
- *  list sections (experience/education/projects) are only replaced when the
- *  user hasn't added any of their own yet. `resumeText` is always taken from
- *  the import — replacing it is the point of importing. */
+ *  work: empty scalar fields take the parsed value, arrays union, list
+ *  sections are only filled when the user has none of their own yet, and
+ *  `resumeText` is always taken from the import. */
 export function mergeParsedProfile(current: Profile, parsed: Partial<Profile>): Profile {
   const next: Profile = structuredClone(current);
   const pid = parsed.identity;
   if (pid) {
     const take = (cur: string, inc: string) => (cur.trim() === "" ? inc : cur);
     next.identity.fullName = take(next.identity.fullName, pid.fullName);
+    next.identity.headline = take(next.identity.headline, pid.headline);
     next.identity.email = take(next.identity.email, pid.email);
     next.identity.phone = take(next.identity.phone, pid.phone);
+    next.identity.location = take(next.identity.location, pid.location);
     next.identity.links.linkedin = take(next.identity.links.linkedin, pid.links.linkedin);
     next.identity.links.github = take(next.identity.links.github, pid.links.github);
     next.identity.links.portfolio = take(next.identity.links.portfolio, pid.links.portfolio);
@@ -245,14 +459,9 @@ export function mergeParsedProfile(current: Profile, parsed: Partial<Profile>): 
     next.skills.tools = u(next.skills.tools, parsed.skills.tools);
     next.skills.other = u(next.skills.other, parsed.skills.other);
   }
-  if (parsed.experience && parsed.experience.length > 0 && next.experience.length === 0) {
-    next.experience = parsed.experience;
-  }
-  if (parsed.education && parsed.education.length > 0 && next.education.length === 0) {
-    next.education = parsed.education;
-  }
-  if (typeof parsed.resumeText === "string" && parsed.resumeText.trim() !== "") {
-    next.resumeText = parsed.resumeText;
-  }
+  if (parsed.experience && parsed.experience.length > 0 && next.experience.length === 0) next.experience = parsed.experience;
+  if (parsed.education && parsed.education.length > 0 && next.education.length === 0) next.education = parsed.education;
+  if (parsed.projects && parsed.projects.length > 0 && next.projects.length === 0) next.projects = parsed.projects;
+  if (typeof parsed.resumeText === "string" && parsed.resumeText.trim() !== "") next.resumeText = parsed.resumeText;
   return next;
 }

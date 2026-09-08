@@ -11,6 +11,7 @@ interface PdfTextItem {
   str?: string;
   hasEOL?: boolean;
   transform?: number[];
+  width?: number;
 }
 
 let pdfjsReady: Promise<typeof import("pdfjs-dist")> | null = null;
@@ -42,17 +43,27 @@ export async function extractPdfText(file: File): Promise<string> {
       const content = await page.getTextContent();
       let text = "";
       let lastY: number | null = null;
+      let lastEndX: number | null = null;
       for (const raw of content.items as PdfTextItem[]) {
         const s = raw.str ?? "";
+        const x = raw.transform?.[4] ?? null;
         const y = raw.transform?.[5] ?? null;
         if (lastY !== null && y !== null && Math.abs(y - lastY) > 3 && !text.endsWith("\n")) {
           text += "\n";
-        } else if (text && !text.endsWith("\n") && !text.endsWith(" ") && !s.startsWith(" ")) {
-          text += " ";
+        } else if (text && !text.endsWith("\n")) {
+          // Same visual line. A wide horizontal gap means two columns
+          // (résumés right-align dates / locations) — emit a double space so
+          // the parser can split on it; a normal inter-word gap gets one.
+          if (lastEndX !== null && x !== null && x - lastEndX > 14 && !text.endsWith("  ")) {
+            text += text.endsWith(" ") ? " " : "  ";
+          } else if (!text.endsWith(" ") && !s.startsWith(" ")) {
+            text += " ";
+          }
         }
         text += s;
         if (raw.hasEOL && !text.endsWith("\n")) text += "\n";
         lastY = y;
+        if (x !== null) lastEndX = x + (raw.width ?? 0);
       }
       pages.push(text);
       page.cleanup();

@@ -61,6 +61,7 @@ function Field({
   type = "text",
   placeholder,
   hint,
+  suggestions,
 }: {
   label: string;
   value: string;
@@ -68,8 +69,12 @@ function Field({
   type?: string;
   placeholder?: string;
   hint?: string;
+  /** Renders a <datalist> — the field stays free text, but the browser
+   *  offers these as you type, nudging toward consistent values. */
+  suggestions?: string[];
 }) {
   const id = useMemo(() => `f-${label.replace(/\s+/g, "-").toLowerCase()}-${newId().slice(0, 4)}`, [label]);
+  const listId = suggestions ? `${id}-list` : undefined;
   return (
     <label htmlFor={id} className="block">
       <span className="text-xs font-medium text-slate-600 dark:text-slate-400">{label}</span>
@@ -78,11 +83,69 @@ function Field({
         type={type}
         value={value}
         placeholder={placeholder}
+        list={listId}
         onChange={(e) => onChange(e.target.value)}
         className={`mt-1 ${inputClass}`}
       />
+      {listId ? (
+        <datalist id={listId}>
+          {suggestions!.map((s) => (
+            <option key={s} value={s} />
+          ))}
+        </datalist>
+      ) : null}
       {hint ? <span className="mt-0.5 block text-xs text-slate-400">{hint}</span> : null}
     </label>
+  );
+}
+
+const DEGREE_SUGGESTIONS = [
+  "Bachelor of Science",
+  "Bachelor of Engineering",
+  "Bachelor of Computer Science",
+  "Master of Science",
+  "Master of Engineering",
+  "MBA",
+  "PhD",
+  "Diploma",
+  "Associate Degree",
+  "Bootcamp Certificate",
+];
+const FIELD_SUGGESTIONS = [
+  "Computer Science",
+  "Software Engineering",
+  "Computer Engineering",
+  "Information Technology",
+  "Data Science",
+  "Information Systems",
+  "Electrical Engineering",
+  "Mathematics",
+];
+const SKILL_POOL: Record<"languages" | "frameworks" | "tools", string[]> = {
+  languages: ["Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "Go", "Rust", "Kotlin", "Swift", "SQL", "PHP", "Ruby", "HTML", "CSS"],
+  frameworks: ["React", "Next.js", "Vue", "Angular", "Svelte", "Node.js", "Express", "Django", "Flask", "FastAPI", "Spring Boot", ".NET", "Rails", "Flutter", "React Native", "TensorFlow", "PyTorch"],
+  tools: ["Docker", "Kubernetes", "AWS", "GCP", "Azure", "Git", "GitHub Actions", "Terraform", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Kafka", "Linux", "Jira", "Postman", "GraphQL", "CI/CD"],
+};
+
+/** One-tap chips for the common values of a facet — click to add. Anything
+ *  not in the pool is still typeable in the field above. */
+function Suggest({ pool, values, onAdd }: { pool: string[]; values: string[]; onAdd: (v: string) => void }) {
+  const have = new Set(values.map((v) => v.toLowerCase()));
+  const rest = pool.filter((p) => !have.has(p.toLowerCase())).slice(0, 14);
+  if (rest.length === 0) return null;
+  return (
+    <div className="mt-1 flex flex-wrap gap-1">
+      {rest.map((p) => (
+        <button
+          key={p}
+          type="button"
+          onClick={() => onAdd(p)}
+          className="rounded-full border border-dashed border-slate-300 px-2 py-0.5 text-xs text-slate-500 transition-colors hover:border-teal-500 hover:text-teal-700 dark:border-slate-600 dark:text-slate-400 dark:hover:border-teal-500 dark:hover:text-teal-300"
+        >
+          + {p}
+        </button>
+      ))}
+    </div>
   );
 }
 
@@ -811,8 +874,20 @@ export default function ProfilePanel() {
           renderRow={(item, update) => (
             <div className="grid gap-3 sm:grid-cols-2">
               <Field label="School" value={item.school} onChange={(v) => update({ school: v })} />
-              <Field label="Degree" value={item.degree} placeholder="BSc" onChange={(v) => update({ degree: v })} />
-              <Field label="Field" value={item.field} placeholder="Computer Science" onChange={(v) => update({ field: v })} />
+              <Field
+                label="Degree"
+                value={item.degree}
+                placeholder="Bachelor of Science"
+                suggestions={DEGREE_SUGGESTIONS}
+                onChange={(v) => update({ degree: v })}
+              />
+              <Field
+                label="Field"
+                value={item.field}
+                placeholder="Computer Science"
+                suggestions={FIELD_SUGGESTIONS}
+                onChange={(v) => update({ field: v })}
+              />
               <Field label="GPA / grade" value={item.gpa} onChange={(v) => update({ gpa: v })} />
               <Field label="Start" value={item.start} onChange={(v) => update({ start: v })} />
               <Field label="End" value={item.end} onChange={(v) => update({ end: v })} />
@@ -843,25 +918,50 @@ export default function ProfilePanel() {
         />
       </Section>
 
-      <Section title="Skills" subtitle="Used by the résumé keyword check to see what a job wants that you have." done={SECTION_DONE(completeness, "skills")}>
-        <TagInput
-          label="Languages"
-          values={profile.skills.languages}
-          onChange={(v) => patch((d) => ({ ...d, skills: { ...d.skills, languages: v } }))}
-          placeholder="Python, TypeScript, Go, …"
-        />
-        <TagInput
-          label="Frameworks & libraries"
-          values={profile.skills.frameworks}
-          onChange={(v) => patch((d) => ({ ...d, skills: { ...d.skills, frameworks: v } }))}
-          placeholder="Django, React, …"
-        />
-        <TagInput
-          label="Tools & platforms"
-          values={profile.skills.tools}
-          onChange={(v) => patch((d) => ({ ...d, skills: { ...d.skills, tools: v } }))}
-          placeholder="Docker, AWS, Postgres, …"
-        />
+      <Section
+        title="Skills"
+        subtitle="Tap the common ones, type anything else. Used to match a job's stack to yours."
+        done={SECTION_DONE(completeness, "skills")}
+      >
+        <div>
+          <TagInput
+            label="Languages"
+            values={profile.skills.languages}
+            onChange={(v) => patch((d) => ({ ...d, skills: { ...d.skills, languages: v } }))}
+            placeholder="type to add…"
+          />
+          <Suggest
+            pool={SKILL_POOL.languages}
+            values={profile.skills.languages}
+            onAdd={(s) => patch((d) => ({ ...d, skills: { ...d.skills, languages: [...d.skills.languages, s] } }))}
+          />
+        </div>
+        <div>
+          <TagInput
+            label="Frameworks & libraries"
+            values={profile.skills.frameworks}
+            onChange={(v) => patch((d) => ({ ...d, skills: { ...d.skills, frameworks: v } }))}
+            placeholder="type to add…"
+          />
+          <Suggest
+            pool={SKILL_POOL.frameworks}
+            values={profile.skills.frameworks}
+            onAdd={(s) => patch((d) => ({ ...d, skills: { ...d.skills, frameworks: [...d.skills.frameworks, s] } }))}
+          />
+        </div>
+        <div>
+          <TagInput
+            label="Tools & platforms"
+            values={profile.skills.tools}
+            onChange={(v) => patch((d) => ({ ...d, skills: { ...d.skills, tools: v } }))}
+            placeholder="type to add…"
+          />
+          <Suggest
+            pool={SKILL_POOL.tools}
+            values={profile.skills.tools}
+            onAdd={(s) => patch((d) => ({ ...d, skills: { ...d.skills, tools: [...d.skills.tools, s] } }))}
+          />
+        </div>
         <TagInput
           label="Other"
           values={profile.skills.other}
