@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProfilePanel from "../components/ProfilePanel";
+---
+
+<Layout
+	title="My Profile — tracker"
+	description="Fill in your details once — experience, skills, links, and what you're looking for — then reuse them across the cover-letter and résumé tools. Stored only in this browser, exportable any time."
+>
+	<div class="mx-auto max-w-3xl">
+		<h1 class="text-2xl font-semibold">My Profile</h1>
+		<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
+			Fill this in once. The cover-letter builder, the résumé keyword check, and your tracked
+			applications all read from it. Nothing here is sent anywhere — it lives in this browser
+			only, and you can export or erase it at any time.
+		</p>
+
+		<div class="mt-6">
+			<ProfilePanel client:load />
+		</div>
+	</div>
+</Layout>

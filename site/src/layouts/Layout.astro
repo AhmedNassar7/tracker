@@ -19,6 +19,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const NAV_LINKS = [
 	{ href: base, label: "Jobs", match: (path: string) => path === base },
 	{ href: `${base}resources`, label: "Resources", match: (path: string) => path.startsWith(`${base}resources`) },
+	{ href: `${base}profile`, label: "My Profile", match: (path: string) => path.startsWith(`${base}profile`) },
 	{ href: `${base}applications`, label: "My Applications", match: (path: string) => path.startsWith(`${base}applications`) },
 	{ href: `${base}dashboard`, label: "Dashboard", match: (path: string) => path.startsWith(`${base}dashboard`) },
 ];
