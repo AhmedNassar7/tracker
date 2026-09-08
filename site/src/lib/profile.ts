@@ -44,10 +44,17 @@ export interface ProfileIdentity {
 export interface ProfileEligibility {
   /** Free-text tags, e.g. "EU citizen", "US F-1 OPT", "UAE golden visa". */
   workAuth: string[];
+  /** Countries you can work in WITHOUT sponsorship — structured, so a job's
+   *  `country` can be checked against it. Free-text `workAuth` stays for
+   *  anything that doesn't reduce to a country list. */
+  authorizedCountries: string[];
   /** `null` = unset / prefer not to say — not the same as an explicit `false`,
    *  the same "absent, not guessed" convention the site-index schema uses. */
   needsSponsorship: boolean | null;
   willRelocate: boolean | null;
+  /** `null` = unset. `false` = no degree / in progress — used to surface roles
+   *  whose posting does not require one (`degree_required !== true`). */
+  hasDegree: boolean | null;
   noticePeriod: string;
 }
 
@@ -90,16 +97,31 @@ export interface ProfileSkills {
   other: string[];
 }
 
-// Mirrors the array facets of filters.ts `FilterState` on purpose: "saving
-// your profile targets" and "saving a preference filter" should converge
-// (APPLICANT-TOOLKIT-PLAN §4 / Lane H5). Kept as bare string[] here so this
-// module doesn't depend on filters.ts; the reconciliation into
-// preferences.ts happens at the call site when that wiring lands.
+// Mirrors the scored dimensions of a job record (site-index.json /
+// SiteIndexEntry) one-for-one, so profileMatch.ts can score a posting against
+// the profile with the same weights the site's own relevance sort uses:
+//   levels   -> job.level        roles     -> job.role_type
+//   regions  -> job.region       countries -> job.country
+//   remotes  -> job.remote_type  companies -> job.company
+//   minSalary/salaryCurrency/salaryPeriod -> job.salary
+// Kept as bare arrays / primitives here so this module doesn't depend on
+// filters.ts; profileMatch.ts does the mapping to a FilterState.
 export interface ProfileTargets {
   levels: string[];
   roles: string[];
   regions: string[];
   countries: string[];
+  /** Work-type preference — mirrors the site's RemoteType facet
+   *  (remote / hybrid / onsite). */
+  remotes: string[];
+  /** Dream companies — a strong positive weight in match scoring. */
+  companies: string[];
+  /** Minimum acceptable pay, compared with a posting's disclosed range only
+   *  when the currency matches. `null` = no salary floor set. */
+  minSalary: number | null;
+  salaryCurrency: string;
+  salaryPeriod: "year" | "month" | "hour";
+  /** Free-text extras the structured fields don't capture. */
   mustHave: string[];
   avoid: string[];
 }
@@ -153,15 +175,29 @@ export function emptyProfile(): Profile {
     },
     eligibility: {
       workAuth: [],
+      authorizedCountries: [],
       needsSponsorship: null,
       willRelocate: null,
+      hasDegree: null,
       noticePeriod: "",
     },
     education: [],
     experience: [],
     projects: [],
     skills: { languages: [], frameworks: [], tools: [], other: [] },
-    targets: { levels: [], roles: [], regions: [], countries: [], mustHave: [], avoid: [] },
+    targets: {
+      levels: [],
+      roles: [],
+      regions: [],
+      countries: [],
+      remotes: [],
+      companies: [],
+      minSalary: null,
+      salaryCurrency: "USD",
+      salaryPeriod: "year",
+      mustHave: [],
+      avoid: [],
+    },
     answers: [],
     resumeText: "",
     updatedAt: "",
@@ -228,8 +264,10 @@ export function normalizeProfile(raw: unknown): Profile {
     },
     eligibility: {
       workAuth: asStringArray(eligibility.workAuth),
+      authorizedCountries: asStringArray(eligibility.authorizedCountries),
       needsSponsorship: asTriBool(eligibility.needsSponsorship),
       willRelocate: asTriBool(eligibility.willRelocate),
+      hasDegree: asTriBool(eligibility.hasDegree),
       noticePeriod: asString(eligibility.noticePeriod),
     },
     education: listRows<EducationEntry>(r.education, (o) => ({
@@ -267,6 +305,11 @@ export function normalizeProfile(raw: unknown): Profile {
       roles: asStringArray(targets.roles),
       regions: asStringArray(targets.regions),
       countries: asStringArray(targets.countries),
+      remotes: asStringArray(targets.remotes),
+      companies: asStringArray(targets.companies),
+      minSalary: typeof targets.minSalary === "number" && isFinite(targets.minSalary) && targets.minSalary > 0 ? targets.minSalary : null,
+      salaryCurrency: asString(targets.salaryCurrency) || "USD",
+      salaryPeriod: targets.salaryPeriod === "month" || targets.salaryPeriod === "hour" ? targets.salaryPeriod : "year",
       mustHave: asStringArray(targets.mustHave),
       avoid: asStringArray(targets.avoid),
     },
@@ -366,7 +409,17 @@ export function profileCompleteness(p: Profile): Completeness {
     p.skills.languages.length + p.skills.frameworks.length + p.skills.tools.length + p.skills.other.length;
   const experienceWithBullet = p.experience.some((e) => e.bullets.some((b) => b.trim() !== ""));
   const targetsSet =
-    p.targets.levels.length + p.targets.roles.length + p.targets.regions.length + p.targets.countries.length > 0;
+    p.targets.levels.length +
+      p.targets.roles.length +
+      p.targets.regions.length +
+      p.targets.countries.length +
+      p.targets.remotes.length >
+    0;
+  const eligibilitySet =
+    p.eligibility.needsSponsorship !== null ||
+    p.eligibility.hasDegree !== null ||
+    p.eligibility.workAuth.length > 0 ||
+    p.eligibility.authorizedCountries.length > 0;
 
   const sections: CompletenessSection[] = [
     { key: "name", label: "Name & headline", done: hasName, hint: "Add your name and a one-line headline." },
@@ -380,7 +433,8 @@ export function profileCompleteness(p: Profile): Completeness {
     },
     { key: "education", label: "Education", done: p.education.length > 0, hint: "Add a school or programme." },
     { key: "skills", label: "Skills", done: skillCount >= 3, hint: "List at least three skills." },
-    { key: "targets", label: "What you want", done: targetsSet, hint: "Pick target levels, roles, or regions." },
+    { key: "eligibility", label: "Eligibility", done: eligibilitySet, hint: "Set work authorisation, sponsorship, and degree — used in match scoring." },
+    { key: "targets", label: "What you want", done: targetsSet, hint: "Pick target levels, roles, regions, or work type." },
     { key: "resume", label: "Résumé text", done: p.resumeText.trim().length >= 200, hint: "Paste your résumé text or import a PDF." },
   ];
 

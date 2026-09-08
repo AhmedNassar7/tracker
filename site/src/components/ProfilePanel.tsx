@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { LEVEL_VALUES, REGION_VALUES, ROLE_VALUES } from "../lib/filters";
-import { fromJsonResumeString, toJsonResumeString } from "../lib/jsonResume";
+import { LEVEL_VALUES, REGION_VALUES, REMOTE_VALUES, ROLE_VALUES } from "../lib/filters";
+import { fromJsonResumeString } from "../lib/jsonResume";
 import { extractPdfText } from "../lib/pdfText";
 import { mergeParsedProfile, parseResume } from "../lib/resumeParse";
 import {
@@ -414,8 +414,9 @@ function ImportCard({
     >
       <p className="text-sm font-medium text-slate-800 dark:text-slate-200">Start from your résumé</p>
       <p className="mx-auto mt-1 max-w-md text-xs text-slate-500 dark:text-slate-400">
-        Drop a PDF or text file here (or a profile <code>.json</code>). It's read in your browser —
-        nothing is uploaded. We'll fill in what we can; you check and fix the rest.
+        Drop your résumé here — <strong>PDF</strong> or plain text. It's read in your browser;
+        nothing is uploaded. We fill in what we can and you fix the rest. You can also drop a
+        backup file to restore a saved profile.
       </p>
       <button type="button" onClick={() => ref.current?.click()} disabled={busy} className={`mt-3 ${btnClass}`}>
         {busy ? "Reading…" : "Choose a file"}
@@ -622,22 +623,21 @@ export default function ProfilePanel() {
             </p>
           </div>
           <div className="ml-auto flex flex-wrap gap-2">
-            <button type="button" className={btnClass} onClick={() => downloadFile("tracker-profile.json", exportProfile(profile), "application/json")}>
-              Export JSON
-            </button>
             <button
               type="button"
               className={btnClass}
-              onClick={() => downloadFile("resume.json", toJsonResumeString(profile), "application/json")}
+              title="Save a file with everything on this page. Keep it as a backup, or drop it on the box above to load your profile on another browser or device."
+              onClick={() => downloadFile("my-profile-backup.json", exportProfile(profile), "application/json")}
             >
-              Export JSON Resume
+              Download a copy
             </button>
             <button
               type="button"
               onClick={handleErase}
+              title="Permanently delete this profile from this browser."
               className={`${btnClass} hover:border-red-300 hover:text-red-600 dark:hover:border-red-800 dark:hover:text-red-400`}
             >
-              Erase
+              Delete
             </button>
           </div>
         </div>
@@ -651,7 +651,9 @@ export default function ProfilePanel() {
           </ul>
         ) : null}
         <p className="mt-2 text-xs text-slate-400">
-          Stored only in this browser (IndexedDB). Nothing is uploaded. Export to move it to another device.
+          Everything here is stored only in this browser — nothing is uploaded. Use{" "}
+          <span className="font-medium">Download a copy</span> to keep a backup or move your profile to
+          another browser (drop the file on the box above to load it back).
         </p>
       </div>
 
@@ -695,12 +697,22 @@ export default function ProfilePanel() {
         </div>
       </Section>
 
-      <Section title="Work eligibility" subtitle="Answers to the questions every application form asks.">
+      <Section
+        title="Work eligibility"
+        subtitle="Answers every application form asks — and used to score how well a job fits you."
+        done={SECTION_DONE(completeness, "eligibility")}
+      >
         <TagInput
           label="Work authorisation"
           values={profile.eligibility.workAuth}
           onChange={(v) => patch((d) => ({ ...d, eligibility: { ...d.eligibility, workAuth: v } }))}
           placeholder="EU citizen, US F-1 OPT, …"
+        />
+        <TagInput
+          label="Countries you can work in without sponsorship"
+          values={profile.eligibility.authorizedCountries}
+          onChange={(v) => patch((d) => ({ ...d, eligibility: { ...d.eligibility, authorizedCountries: v } }))}
+          placeholder="Egypt, Germany, …"
         />
         <div className="grid gap-3 sm:grid-cols-2">
           <label className="block">
@@ -718,6 +730,23 @@ export default function ProfilePanel() {
               <option value="">Prefer not to say</option>
               <option value="yes">Yes</option>
               <option value="no">No</option>
+            </select>
+          </label>
+          <label className="block">
+            <span className="text-xs font-medium text-slate-600 dark:text-slate-400">Have a degree?</span>
+            <select
+              className={`mt-1 ${inputClass}`}
+              value={profile.eligibility.hasDegree === null ? "" : profile.eligibility.hasDegree ? "yes" : "no"}
+              onChange={(e) =>
+                patch((d) => ({
+                  ...d,
+                  eligibility: { ...d.eligibility, hasDegree: e.target.value === "" ? null : e.target.value === "yes" },
+                }))
+              }
+            >
+              <option value="">Prefer not to say</option>
+              <option value="yes">Yes (or graduating soon)</option>
+              <option value="no">No / in progress</option>
             </select>
           </label>
           <label className="block">
@@ -865,11 +894,70 @@ export default function ProfilePanel() {
           onChange={(v) => patch((d) => ({ ...d, targets: { ...d.targets, countries: v } }))}
           placeholder="Egypt, Germany, …"
         />
+        <CheckGroup
+          label="Work type"
+          options={REMOTE_VALUES.filter((r) => r !== "unknown")}
+          values={profile.targets.remotes}
+          onChange={(v) => patch((d) => ({ ...d, targets: { ...d.targets, remotes: v } }))}
+        />
+        <TagInput
+          label="Dream companies"
+          values={profile.targets.companies}
+          onChange={(v) => patch((d) => ({ ...d, targets: { ...d.targets, companies: v } }))}
+          placeholder="Stripe, Careem, Vercel, …"
+        />
+        <div>
+          <span className="text-xs font-medium text-slate-600 dark:text-slate-400">Minimum pay (optional)</span>
+          <div className="mt-1 flex flex-wrap gap-2">
+            <input
+              type="number"
+              min={0}
+              step={1000}
+              value={profile.targets.minSalary ?? ""}
+              placeholder="e.g. 60000"
+              onChange={(e) =>
+                patch((d) => ({
+                  ...d,
+                  targets: { ...d.targets, minSalary: e.target.value === "" ? null : Math.max(0, Number(e.target.value)) },
+                }))
+              }
+              aria-label="Minimum pay amount"
+              className={`w-36 ${inputClass}`}
+            />
+            <select
+              value={profile.targets.salaryCurrency}
+              onChange={(e) => patch((d) => ({ ...d, targets: { ...d.targets, salaryCurrency: e.target.value } }))}
+              aria-label="Currency"
+              className={`w-24 ${inputClass}`}
+            >
+              {["USD", "EUR", "GBP", "AED", "SAR", "EGP", "INR", "CAD", "AUD"].map((c) => (
+                <option key={c} value={c}>
+                  {c}
+                </option>
+              ))}
+            </select>
+            <select
+              value={profile.targets.salaryPeriod}
+              onChange={(e) =>
+                patch((d) => ({ ...d, targets: { ...d.targets, salaryPeriod: e.target.value as "year" | "month" | "hour" } }))
+              }
+              aria-label="Per"
+              className={`w-28 ${inputClass}`}
+            >
+              <option value="year">per year</option>
+              <option value="month">per month</option>
+              <option value="hour">per hour</option>
+            </select>
+          </div>
+          <span className="mt-0.5 block text-xs text-slate-400">
+            Only compared against a posting when it discloses pay in the same currency.
+          </span>
+        </div>
         <TagInput
           label="Must have"
           values={profile.targets.mustHave}
           onChange={(v) => patch((d) => ({ ...d, targets: { ...d.targets, mustHave: v } }))}
-          placeholder="remote, visa sponsorship, …"
+          placeholder="4-day week, mentorship, …"
         />
         <TagInput
           label="Avoid"

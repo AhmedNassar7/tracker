@@ -141,7 +141,7 @@ Profile {
 - **Single scrolling page, sectioned**, with a sticky mini-nav and a **completeness ring** ("Profile 70% — add 2 work bullets to reach 85%"). No wizard, no forced order.
 - **Autosave on blur**, with a quiet "Saved · 2s ago" indicator and full **undo/redo** on every field. Draft recovery if the tab closes mid-edit.
 - **Import paths:** upload a résumé PDF → `pdf.js` extracts text client-side → a best-effort section split the user confirms/corrects (never silently trusted). Paste a LinkedIn "Save to PDF" export. Import a previously exported `tracker` JSON. **No upload ever leaves the browser** — say so, visibly, next to the file picker.
-- **Export:** one button → `profile.json` in **[JSON Resume](https://jsonresume.org) schema** (re-importable here, and importable by parts of the OSS résumé ecosystem) and `profile.md` (a readable plain résumé, see Phase 5c).
+- **Back up / restore:** one plain-language **"Download a copy"** button → a lossless `my-profile-backup.json`; dropping that file back on the import box loads it. That's the entire cross-device story — no account. The **[JSON Resume](https://jsonresume.org)-format** export and the `.md` / `.docx` résumé exports move to **Phase 5c**, grouped with the other "take your résumé elsewhere" outputs where the label can be contextual — a bare "Export JSON Resume" button on the profile page means nothing to a normal user. (`jsonResume.ts` still powers *import* of a JSON Resume file today.)
 - **Privacy line, persistent:** a small always-visible banner — *"Everything on this page is stored only in this browser. [Export] anytime · [Erase everything]."* One-tap wipe with a typed confirm.
 - **a11y:** every field labelled, visible focus ring, logical tab order, error text tied via `aria-describedby`, `prefers-reduced-motion` respected, works keyboard-only, light/dark, mobile single-column.
 - **Empty state:** three example profiles ("new-grad SWE", "career-switcher", "PhD → industry") that pre-fill the structure so the user edits rather than faces a blank form.
@@ -334,6 +334,49 @@ filter), and the browser extension's autofill (X3/X4, via the shared `lib/`). De
 none redefine it. Export/import round-trips the whole thing as one JSON file — that plus
 `chrome.storage.sync` in the extension is the entire cross-device story (no account, per
 [EXTENSION-PLAN.md §5](EXTENSION-PLAN.md)).
+
+### 4a. Profile ⇄ job-record alignment (the match engine)
+
+For the match score to mean anything, every scored dimension of a job record
+(`SiteIndexEntry` / `site-index.json`) must have a matching field in `Profile.targets` /
+`Profile.eligibility`. Current state:
+
+| Job field (`SiteIndexEntry`) | Profile field | Status | How it scores (`profileMatch.ts`) |
+|---|---|---|---|
+| `level` | `targets.levels` | ✅ same enum | +3 match · **hard contradiction** if off |
+| `role_type` | `targets.roles` | ✅ same enum | +2 |
+| `region` | `targets.regions` | ✅ same enum | +2 |
+| `country` | `targets.countries` | ✅ | +2 |
+| `remote_type` | `targets.remotes` | ✅ **added** (was a `mustHave:"remote"` hack) | +2 |
+| `company` | `targets.companies` ("dream companies") | ✅ **added** | +3 |
+| `salary {min,max,currency,period}` | `targets.minSalary` + `salaryCurrency` + `salaryPeriod` | ✅ **added** | +3 at/above · −5 + contradiction if the whole range is below · gap note if it straddles |
+| `visa_sponsorship` | `eligibility.needsSponsorship` + `eligibility.authorizedCountries` | ✅ **wired** | +4 when needed & offered · gap when needed, not offered, and not an authorised country |
+| `degree_required` | `eligibility.hasDegree` | ✅ **added** | +2 when you lack one & it's not required · −6 + contradiction when required |
+| `relocation` | `eligibility.willRelocate` | ✅ wired | +1 |
+| `tech_tags[]` | `skills.{languages,frameworks,tools,other}` | ⚠️ **name overlap only** until R2 | +1 per matched stack item (cap 5); missing ones surface as "stack to learn" |
+| `posted_at` / `age` | — | ✅ | freshness nudge (from `scoreOpportunity`) |
+
+`filterStateFromProfile()` projects the targets onto a `FilterState` so the site's existing
+relevance engine (`preferences.ts scoreOpportunity` / `matchReasons` / `contradictsPrefFilter`)
+does the shared-dimension weighting with no second set of weights to maintain — this is also the
+Lane H5 "your profile *is* your saved preference filter" bridge. `scoreJobForProfile()` adds the
+salary / visa / degree / relocation / skills layers and returns `{ score 0–100, reasons[],
+gaps[], contradicts }` — explainable, never a black-box number.
+
+**Still to sharpen the match (in priority order):**
+
+1. **R2 — port `detect_tech_tags` to TS.** Then `profile.skills` and `job.tech_tags` normalise
+   to the *same* canonical vocabulary and the overlap becomes exact instead of a case-insensitive
+   name compare. Highest-leverage single change. (Phase 5a.)
+2. **Pipeline: extend `detect_requirements`** (`scripts/patterns.py`) to also pull
+   `min_years_experience` ("3+ years…") and `languages_required` (German, Arabic…) from JD text
+   → new optional job fields. Then a `Profile` YoE derived from `experience[]` date ranges can be
+   matched ("this role wants 3+ yrs, you have ~1") and a spoken-language requirement can flag.
+   Strict-positive, same no-fabrication rule as the existing detectors.
+3. **Derived years-of-experience** on the profile (computed from `experience[]`, shown read-only,
+   overridable) — feeds #2 and the level sanity-check.
+4. **Wire the score into the UI** — a "Match" sort mode + a per-row score chip on the board
+   (Phase 3d), and freeze it onto `TrackedApplication.matchScore` at track time (Phase 2).
 
 ---
 
