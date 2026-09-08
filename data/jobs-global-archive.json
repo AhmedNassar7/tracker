@@ -1,7 +1,151 @@
 {
-  "generated_at": "2026-09-08T14:31:25Z",
-  "total": 662,
+  "generated_at": "2026-09-08T18:39:09Z",
+  "total": 664,
   "jobs": [
+    {
+      "id": "60f01bc2463184ef",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AWS Lambda",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Seattle, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10477458/software-development-engineer-ii-aws-lambda",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-17",
+      "age": "51d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-08T18:39:09Z"
+    },
+    {
+      "id": "e693c567ec80c2f0",
+      "company": "Amazon",
+      "title": "Software Development Engineer, EC2 UltraServer Delivery Team",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Seattle, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10529500/software-development-engineer-ec2-ultraserver-delivery-team",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-03",
+      "age": "3d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-08T18:39:09Z"
+    },
+    {
+      "id": "31badf886c62d8a0",
+      "company": "Palantir",
+      "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-08",
+      "age": "0d",
+      "collected_at": "2026-09-08T14:31:25Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-08T18:39:09Z"
+    },
+    {
+      "id": "b84f95acdcc2b1c8",
+      "company": "Sony Interactive Entertainment",
+      "title": "Data Engineer II",
+      "level": "mid_level",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "Unknown",
+      "location": "CA",
+      "remote_type": "onsite",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147069004",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-08",
+      "age": "1w",
+      "collected_at": "2026-09-08T14:31:25Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-08T18:39:09Z"
+    },
+    {
+      "id": "1d9923278dac10e7",
+      "company": "Amazon",
+      "title": "Software Development Engineer, Global Tax Services - Data",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "other_swe",
+      "country": "United States",
+      "location": "Seattle, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10464358/software-development-engineer-global-tax-services-data",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-01",
+      "age": "67d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-08T18:39:09Z"
+    },
+    {
+      "id": "ab72ba03c9051928",
+      "company": "Amazon",
+      "title": "Software Development Engineer, AFT External Fulfillment",
+      "level": "unknown",
+      "category": "faang",
+      "region": "europe",
+      "role_type": "other_swe",
+      "country": "Luxembourg",
+      "location": "Luxembourg, LUX",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10525651/software-development-engineer-aft-external-fulfillment",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-02",
+      "age": "4d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-08T18:39:09Z"
+    },
     {
       "id": "640262e5dfc180aa",
       "company": "Google",
@@ -387,30 +531,6 @@
       "closed_at": "2026-09-08T09:39:48Z"
     },
     {
-      "id": "2323a0b5bac88f2a",
-      "company": "Google",
-      "title": "Software Engineer Intern - Multiple Teams",
-      "level": "internship",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "31 locationsPalo Alto, CA Cambridge, MA Madison, WI Seattle, WA Houston, TX SF Austin, TX LA San Jose, CA Irvine, CA South SF Redwood City, CA Raleigh, NC San Bruno, CA Redmond, WA Durham, NC Santa Cruz, CA Chicago, IL Goleta, CA Pittsburgh, PA Kirkland, WA Reston, VA NYC Bellevue, WA Sunnyvale, CA Mountain View, CA Portland, OR Boulder, CO Atlanta, GA San Diego, CA Santa Barbara, CA",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382?utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-07",
-      "age": "6d",
-      "collected_at": "2026-09-07T20:33:41Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-08T09:39:48Z"
-    },
-    {
       "id": "456698a323e33ad4",
       "company": "Amazon",
       "title": "Software Development Engineer II, Devices Sales & Customer Experience",
@@ -603,30 +723,6 @@
       "closed_at": "2026-09-08T09:39:48Z"
     },
     {
-      "id": "932385fd717b372c",
-      "company": "Mastercard",
-      "title": "Data Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Data-Engineer-II_R-289305",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-07",
-      "age": "6d",
-      "collected_at": "2026-09-07T10:15:46Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-08T09:39:48Z"
-    },
-    {
       "id": "04f6ec640e9e6118",
       "company": "Microsoft",
       "title": "Software Engineer Intern - AI and ML",
@@ -811,30 +907,6 @@
       "posted_at": "2026-09-03",
       "age": "5d",
       "collected_at": "2026-09-08T04:33:19Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-08T09:39:48Z"
-    },
-    {
-      "id": "2b5e6dafb7364da8",
-      "company": "Google",
-      "title": "Software Engineer Intern - Multiple Teams",
-      "level": "internship",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "30 locationsPalo Alto, CA Cambridge, MA Madison, WI Seattle, WA Houston, TX SF Austin, TX LA San Jose, CA Irvine, CA South SF Redwood City, CA Raleigh, NC San Bruno, CA Redmond, WA Durham, NC Santa Cruz, CA Chicago, IL Goleta, CA Pittsburgh, PA Kirkland, WA Reston, VA NYC Bellevue, WA Sunnyvale, CA Mountain View, CA Portland, OR Boulder, CO Atlanta, GA San Diego, CA",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/94172495052972742?utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-07",
-      "age": "6d",
-      "collected_at": "2026-09-07T20:33:41Z",
       "tags": [
         "software",
         "programming",
@@ -1369,30 +1441,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-09-08T04:33:19Z"
-    },
-    {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-09-07",
-      "age": "2mo",
-      "collected_at": "2026-09-07T16:26:34Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-07T23:28:58Z"
     },
     {
       "id": "c1942937c52b53dc",
