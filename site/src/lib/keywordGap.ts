@@ -143,6 +143,17 @@ export function detectTechTags(text: string): string[] {
   return found;
 }
 
+/** Canonical tech tags from a list of skill entries the user has already
+ *  vouched for (their profile skills). Joined as a comma-and-period list so
+ *  the deliberately prose-strict detectors — bare "Go" / "Rust" / "Spark"
+ *  only tag a language next to list punctuation — still fire on a lone
+ *  "Go" skill chip. Used by both the résumé gap check and profileMatch. */
+export function detectSkillTags(skills: string[]): string[] {
+  const cleaned = skills.map((s) => s.trim()).filter(Boolean);
+  if (cleaned.length === 0) return [];
+  return detectTechTags(cleaned.join(", ") + ".");
+}
+
 const VISA_NEGATIVE_RE =
   /\b(?:no|not|unable|cannot|can['’]?t|will\s+not|won['’]?t|do(?:es)?\s+not|are\s+not\s+able)\b[^.\n]{0,40}\b(?:sponsor(?:ship)?|visa)\b|\bwithout\s+(?:visa\s+)?sponsorship\b|\bsponsorship\s+(?:is\s+)?not\s+(?:available|offered|provided)\b|\bnot\s+(?:able|eligible)\s+to\s+sponsor\b|\bmust\s+(?:be\s+)?(?:legally\s+)?authoriz|authoris\w*\s+to\s+work[^.\n]{0,40}\bwithout\b/i;
 const VISA_POSITIVE_RE =
@@ -231,7 +242,7 @@ export function analyzeKeywordGap(jdText: string, profile: Profile): KeywordGapR
   const tooShort = jd.length < 80;
 
   const jdTags = detectTechTags(jd);
-  const skillTags = detectTechTags(profileSkillList(profile).join(" · "));
+  const skillTags = detectSkillTags(profileSkillList(profile));
   const resumeTags = detectTechTags(profile.resumeText);
   const haveTags = new Set([...skillTags, ...resumeTags]);
   const resumeTagSet = new Set(resumeTags);

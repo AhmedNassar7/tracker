@@ -1,5 +1,6 @@
 import { DEFAULT_FILTERS, type FilterState } from "./filters";
 import { countryForItem } from "./geo";
+import { detectSkillTags } from "./keywordGap";
 import { contradictsPrefFilter, EMPTY_RANK_TUNE, matchReasons, scoreOpportunity } from "./preferences";
 import type { Profile } from "./profile";
 import type { SiteIndexEntry } from "./types";
@@ -51,9 +52,14 @@ const SCORE_CEIL = 20;
 const perYear = (n: number, period: string): number =>
   period === "hour" ? n * 2080 : period === "month" ? n * 12 : n;
 
-function skillSet(p: Profile): Set<string> {
+/** The profile's declared skills, normalised to the SAME canonical tech-tag
+ *  vocabulary the pipeline tags jobs with (`detect_tech_tags` in patterns.py,
+ *  mirrored in keywordGap.ts). So "reactjs" / "React.js" / "REACT" all collapse
+ *  to the "React" tag that `item.tech_tags` carries, and the overlap below is
+ *  an exact set intersection instead of a fuzzy name compare. */
+function canonicalSkillTags(p: Profile): Set<string> {
   return new Set(
-    [...p.skills.languages, ...p.skills.frameworks, ...p.skills.tools, ...p.skills.other].map((s) => s.toLowerCase().trim()),
+    detectSkillTags([...p.skills.languages, ...p.skills.frameworks, ...p.skills.tools, ...p.skills.other]),
   );
 }
 
@@ -64,12 +70,13 @@ export function scoreJobForProfile(item: SiteIndexEntry, p: Profile): JobMatch {
   const gaps: string[] = [];
   let contradicts = contradictsPrefFilter(item, pref);
 
-  // skills <-> tech_tags. Pre-R2 this is a case-insensitive name overlap;
-  // once detect_tech_tags is ported both sides normalise to the same
-  // canonical vocabulary and this gets sharper for free.
-  const tags = (item.tech_tags ?? []).map((t) => t.toLowerCase());
+  // skills <-> tech_tags, both on the canonical detect_tech_tags vocabulary
+  // (R2): `item.tech_tags` come straight from the pipeline's detector, and
+  // canonicalSkillTags() runs the profile's skills through the same one, so
+  // this is an exact intersection. Tags keep their display casing here.
+  const tags = item.tech_tags ?? [];
   if (tags.length > 0) {
-    const mine = skillSet(p);
+    const mine = canonicalSkillTags(p);
     const hit = tags.filter((t) => mine.has(t));
     const miss = tags.filter((t) => !mine.has(t));
     raw += Math.min(hit.length, 5);
