@@ -81,6 +81,10 @@ export interface SiteIndexEntry {
   visa_sponsorship?: boolean;
   degree_required?: boolean;
   relocation?: boolean;
+  /** Lower bound of the posting's stated years-of-experience requirement. */
+  min_years_experience?: number;
+  /** Spoken languages the posting requires (never programming languages, never English). */
+  languages_required?: string[];
   salary?: SalaryRange;
 }
 

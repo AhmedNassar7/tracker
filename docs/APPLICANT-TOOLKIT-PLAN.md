@@ -371,11 +371,16 @@ gaps[], contradicts }` — explainable, never a black-box number.
    keyword-gap diff against a pasted JD; and `profileMatch.ts` now canonicalises the profile's
    skills with `detectSkillTags()` (a comma-joined variant so a bare "Go"/"Rust" chip still tags),
    so the score's skills ↔ `tech_tags` overlap is an exact set intersection, not a name compare.
-2. **Pipeline: extend `detect_requirements`** (`scripts/patterns.py`) to also pull
-   `min_years_experience` ("3+ years…") and `languages_required` (German, Arabic…) from JD text
-   → new optional job fields. Then a `Profile` YoE derived from `experience[]` date ranges can be
-   matched ("this role wants 3+ yrs, you have ~1") and a spoken-language requirement can flag.
-   Strict-positive, same no-fabrication rule as the existing detectors.
+2. ~~**Pipeline: extend `detect_requirements`**~~ ✅ **Done** — `scripts/patterns.py`
+   `detect_requirements` now also returns `min_years_experience` (int, lower bound of a
+   "N+ years… experience" phrase, `\d{1,2}`-capped, requires an "experience" cue) and
+   `languages_required` (spoken languages next to a fluency cue, from a fixed vocab with no
+   English and nothing that collides with a programming-language name). Both optional, strict-
+   positive, mirrored in `keywordGap.ts` (parity test covers the key names + language vocab),
+   added to all three schemas + `types.ts` + `build_data_readme` propagation, surfaced as info
+   rows in the `/toolkit/resume` requirements list. Still to do: **#3** derived profile YoE so
+   `min_years_experience` can be *compared* (not just shown), and a language check against the
+   profile's own languages.
 3. **Derived years-of-experience** on the profile (computed from `experience[]`, shown read-only,
    overridable) — feeds #2 and the level sanity-check.
 4. **Wire the score into the UI** — a "Match" sort mode + a per-row score chip on the board

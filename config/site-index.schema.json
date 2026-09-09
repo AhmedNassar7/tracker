@@ -117,6 +117,17 @@
       "type": "boolean",
       "description": "Job-only. Present only when the posting text explicitly offers relocation assistance (true) or explicitly rules it out (false). Absent when unstated"
     },
+    "min_years_experience": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "Job-only. The minimum years-of-experience the posting explicitly asks for (scripts/patterns.py detect_requirements) — the lower bound of any range. Absent when the text states no such requirement"
+    },
+    "languages_required": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Job-only. Spoken/human languages the posting explicitly requires, with a fluency/proficiency cue (scripts/patterns.py detect_requirements). Never programming languages (see tech_tags), never English. Absent when unstated"
+    },
     "salary": {
       "type": "object",
       "description": "Job-only. A literal pay range lifted verbatim from the posting (scripts/patterns.py parse_salary). Absent unless the posting itself discloses a currency-marked two-ended range that passes sanity checks — never estimated",

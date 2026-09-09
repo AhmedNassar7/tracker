@@ -166,15 +166,73 @@ const RELOCATION_NEGATIVE_RE = /\bno\s+relocation\b|\brelocation\s+(?:is\s+)?not
 const RELOCATION_POSITIVE_RE =
   /\brelocation\s+(?:assistance|package|support|benefits?|bonus|allowance|stipend|provided|offered|available)\b|\b(?:assistance|help|support)\s+with\s+relocat|\bwe(?:['’]ll|\s+will)?\s+(?:help\s+you\s+)?relocat|\bwilling\s+to\s+relocate\s+you\b/i;
 
+// min_years_experience — a number + "year(s)" (lower end of a range), only when
+// an "experience" word follows close by. `\d{1,2}` caps below 100. Mirror of
+// _detect_min_years_experience in patterns.py.
+const YEARS_TOKEN_RE = /(\d{1,2})\s*\+?\s*(?:(?:to|-|–|—|or)\s*\d{1,2}\s*)?years?\b/gi;
+const YEARS_CUE_BEFORE_RE = /\b(?:minimum|min\.?|at\s+least|at\s+minimum|require[sd]?|requiring)\b/i;
+const YEARS_CUE_AFTER_RE = /\bexperience\b/i;
+
+// Spoken languages only — no English, nothing that collides with a
+// programming-language name. Mirror of _HUMAN_LANGUAGES in patterns.py.
+const HUMAN_LANGUAGES: Record<string, string> = {
+  german: "German", french: "French", spanish: "Spanish", italian: "Italian",
+  portuguese: "Portuguese", dutch: "Dutch", flemish: "Dutch", arabic: "Arabic",
+  mandarin: "Mandarin", cantonese: "Cantonese", japanese: "Japanese",
+  korean: "Korean", hindi: "Hindi", polish: "Polish", turkish: "Turkish",
+  hebrew: "Hebrew", russian: "Russian", ukrainian: "Ukrainian",
+  swedish: "Swedish", norwegian: "Norwegian", danish: "Danish",
+  finnish: "Finnish", greek: "Greek", czech: "Czech", slovak: "Slovak",
+  romanian: "Romanian", bulgarian: "Bulgarian", hungarian: "Hungarian",
+  croatian: "Croatian", serbian: "Serbian", vietnamese: "Vietnamese",
+  thai: "Thai", indonesian: "Indonesian", malay: "Malay", tagalog: "Tagalog",
+  urdu: "Urdu", bengali: "Bengali", farsi: "Farsi", persian: "Farsi",
+  afrikaans: "Afrikaans",
+};
+const LANGUAGE_CUE_RE =
+  /\b(?:fluen\w+|nativ\w+|proficien\w+|business[- ]level|professional\s+working|conversational|mother\s?tongue|bilingual|speak\w*|spoken|written|command\s+of|knowledge\s+of|language\s+skills?|skills?\s+in|verbal|communicat\w+(?:\s+skills?)?\s+in)\b/i;
+
+function detectMinYearsExperience(text: string): number | undefined {
+  let best: number | undefined;
+  for (const m of text.matchAll(YEARS_TOKEN_RE)) {
+    const idx = m.index ?? 0;
+    const before = text.slice(Math.max(0, idx - 45), idx);
+    const after = text.slice(idx + m[0].length, idx + m[0].length + 30);
+    if (!YEARS_CUE_BEFORE_RE.test(before) && !YEARS_CUE_AFTER_RE.test(after)) continue;
+    const val = parseInt(m[1], 10);
+    if (val >= 1 && val <= 20 && (best === undefined || val < best)) best = val;
+  }
+  return best;
+}
+
+function detectLanguagesRequired(text: string): string[] {
+  const found: string[] = [];
+  for (const [token, canonical] of Object.entries(HUMAN_LANGUAGES)) {
+    if (found.includes(canonical)) continue;
+    const rx = new RegExp(`\\b${token}\\b`, "gi");
+    for (const m of text.matchAll(rx)) {
+      const idx = m.index ?? 0;
+      const window = text.slice(Math.max(0, idx - 35), idx + token.length + 35);
+      if (LANGUAGE_CUE_RE.test(window)) {
+        found.push(canonical);
+        break;
+      }
+    }
+  }
+  return found.sort();
+}
+
 export interface JdRequirements {
   visaSponsorship?: boolean;
   degreeRequired?: boolean;
   relocation?: boolean;
+  minYearsExperience?: number;
+  languagesRequired?: string[];
 }
 
-/** Work-authorisation / education / relocation facets a JD is EXPLICIT about.
- *  Only present keys are returned; a silent JD yields `{}`. Mirror of
- *  patterns.detect_requirements. */
+/** Work-authorisation / education / relocation / experience / language facets a
+ *  JD is EXPLICIT about. Only present keys are returned; a silent JD yields
+ *  `{}`. Mirror of patterns.detect_requirements. */
 export function detectRequirements(text: string): JdRequirements {
   const out: JdRequirements = {};
   if (!text) return out;
@@ -184,6 +242,10 @@ export function detectRequirements(text: string): JdRequirements {
   else if (DEGREE_REQUIRED_RE.test(text)) out.degreeRequired = true;
   if (RELOCATION_NEGATIVE_RE.test(text)) out.relocation = false;
   else if (RELOCATION_POSITIVE_RE.test(text)) out.relocation = true;
+  const years = detectMinYearsExperience(text);
+  if (years !== undefined) out.minYearsExperience = years;
+  const langs = detectLanguagesRequired(text);
+  if (langs.length > 0) out.languagesRequired = langs;
   return out;
 }
 
@@ -299,6 +361,22 @@ export function analyzeKeywordGap(jdText: string, profile: Profile): KeywordGapR
       label: "Relocation",
       status: el.willRelocate === true ? "ok" : "info",
       detail: "Relocation support is offered.",
+    });
+  }
+
+  if (req.minYearsExperience !== undefined) {
+    requirements.push({
+      label: "Experience",
+      status: "info",
+      detail: `Asks for ${req.minYearsExperience}+ year${req.minYearsExperience === 1 ? "" : "s"} of experience.`,
+    });
+  }
+
+  if (req.languagesRequired && req.languagesRequired.length > 0) {
+    requirements.push({
+      label: "Languages",
+      status: "info",
+      detail: `Needs ${req.languagesRequired.join(", ")} — confirm you have the required fluency.`,
     });
   }
 

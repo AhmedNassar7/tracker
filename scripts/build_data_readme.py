@@ -183,7 +183,10 @@ def normalize_rows(rows: list[dict], origin: str) -> list[dict]:
         # B3/B4/B5 facets — carried through so the rendered tables can show a
         # 🛂 marker / an inline pay range. Only copied when the source row
         # actually has the key (absent-not-guessed, same as everywhere else).
-        for facet in ("tech_tags", "visa_sponsorship", "degree_required", "relocation", "salary"):
+        for facet in (
+            "tech_tags", "visa_sponsorship", "degree_required", "relocation",
+            "salary", "min_years_experience", "languages_required",
+        ):
             if facet in row and row[facet] not in (None, "", []):
                 entry[facet] = row[facet]
         normalized.append(entry)
@@ -843,6 +846,10 @@ def _site_index_entry(row: dict, *, kind: str, origin: str, link_cache: dict | N
                 entry[facet] = row[facet]
         if isinstance(row.get("salary"), dict):
             entry["salary"] = row["salary"]
+        if isinstance(row.get("min_years_experience"), int) and not isinstance(row.get("min_years_experience"), bool):
+            entry["min_years_experience"] = row["min_years_experience"]
+        if row.get("languages_required"):
+            entry["languages_required"] = list(row["languages_required"])
         # Country — for every job row now (G2). The curated layer already
         # detected it; for a public-layer row, run the same detector over its
         # location string here so the site's country filter isn't limited to

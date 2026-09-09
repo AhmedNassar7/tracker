@@ -526,6 +526,79 @@ _RELOCATION_POSITIVE_RE = re.compile(
     re.I,
 )
 
+# --- min_years_experience -------------------------------------------------
+# A number followed by "year(s)" (optionally the low end of a range: "3-5
+# years" -> 3, "3+ years" -> 3). Only counted as a *requirement* when an
+# "experience" word follows within a short window, or a "minimum / at least /
+# requires" cue precedes it — so "5 years ago" or "a 10-year partnership" in
+# prose don't register. `\d{1,2}` caps it below 100 so "our 150 year history"
+# can't match.
+_YEARS_TOKEN_RE = re.compile(
+    r"(?P<lo>\d{1,2})\s*\+?\s*(?:(?:to|-|–|—|or)\s*\d{1,2}\s*)?years?\b", re.I
+)
+_YEARS_CUE_BEFORE_RE = re.compile(
+    r"\b(?:minimum|min\.?|at\s+least|at\s+minimum|require[sd]?|requiring)\b", re.I
+)
+# "…years [of / relevant / hands-on / professional …] experience" — the word
+# "experience" close after the number is the signal this is a requirement and
+# not "5 years ago" / "a 3-year contract".
+_YEARS_CUE_AFTER_RE = re.compile(r"\bexperience\b", re.I)
+
+# Spoken/human languages a posting can require. Deliberately excludes English
+# (a near-universal default, not a differentiator) and anything that collides
+# with a programming-language name (Go, Rust, R, Swift…) — those are tech_tags.
+_HUMAN_LANGUAGES = {
+    "german": "German", "french": "French", "spanish": "Spanish", "italian": "Italian",
+    "portuguese": "Portuguese", "dutch": "Dutch", "flemish": "Dutch", "arabic": "Arabic",
+    "mandarin": "Mandarin", "cantonese": "Cantonese", "japanese": "Japanese",
+    "korean": "Korean", "hindi": "Hindi", "polish": "Polish", "turkish": "Turkish",
+    "hebrew": "Hebrew", "russian": "Russian", "ukrainian": "Ukrainian",
+    "swedish": "Swedish", "norwegian": "Norwegian", "danish": "Danish",
+    "finnish": "Finnish", "greek": "Greek", "czech": "Czech", "slovak": "Slovak",
+    "romanian": "Romanian", "bulgarian": "Bulgarian", "hungarian": "Hungarian",
+    "croatian": "Croatian", "serbian": "Serbian", "vietnamese": "Vietnamese",
+    "thai": "Thai", "indonesian": "Indonesian", "malay": "Malay", "tagalog": "Tagalog",
+    "urdu": "Urdu", "bengali": "Bengali", "farsi": "Farsi", "persian": "Farsi",
+    "afrikaans": "Afrikaans",
+}
+_LANGUAGE_CUE_RE = re.compile(
+    r"\b(?:fluen\w+|nativ\w+|proficien\w+|business[- ]level|professional\s+working|"
+    r"conversational|mother\s?tongue|bilingual|speak\w*|spoken|written|"
+    r"command\s+of|knowledge\s+of|language\s+skills?|skills?\s+in|verbal|"
+    r"communicat\w+(?:\s+skills?)?\s+in)\b",
+    re.I,
+)
+
+
+def _detect_min_years_experience(text):
+    best = None
+    for m in _YEARS_TOKEN_RE.finditer(text):
+        before = text[max(0, m.start() - 45): m.start()]
+        after = text[m.end(): m.end() + 30]
+        if not (_YEARS_CUE_BEFORE_RE.search(before) or _YEARS_CUE_AFTER_RE.search(after)):
+            continue
+        try:
+            val = int(m.group("lo"))
+        except (TypeError, ValueError):
+            continue
+        if 1 <= val <= 20 and (best is None or val < best):
+            best = val
+    return best
+
+
+def _detect_languages_required(text):
+    found = []
+    for token, canonical in _HUMAN_LANGUAGES.items():
+        if canonical in found:
+            continue
+        for m in re.finditer(r"\b" + token + r"\b", text, re.I):
+            window = text[max(0, m.start() - 35): m.end() + 35]
+            if _LANGUAGE_CUE_RE.search(window):
+                found.append(canonical)
+                break
+    return sorted(found)
+
+
 _CURRENCY_CODES = {
     "$": "USD", "US$": "USD", "USD": "USD",
     "€": "EUR", "EUR": "EUR",
@@ -569,12 +642,15 @@ def detect_tech_tags(text):
 
 
 def detect_requirements(text):
-    """Work-authorisation / education / relocation facets stated in ``text``.
+    """Work-authorisation / education / relocation / experience facets stated
+    in ``text``.
 
     Returns a dict containing only the keys the text is explicit about:
-      ``visa_sponsorship``  True | False   (False only on an explicit "no …")
-      ``degree_required``   True | False   (False only on an explicit "no degree")
-      ``relocation``        True | False   (False only on an explicit "no relocation")
+      ``visa_sponsorship``      True | False   (False only on an explicit "no …")
+      ``degree_required``       True | False   (False only on an explicit "no degree")
+      ``relocation``            True | False   (False only on an explicit "no relocation")
+      ``min_years_experience``  int            (lower bound; only with an "…experience" cue)
+      ``languages_required``    [str]          (spoken languages with a fluency cue; never English)
     A silent text yields ``{}``.
     """
     out = {}
@@ -594,6 +670,14 @@ def detect_requirements(text):
         out["relocation"] = False
     elif _RELOCATION_POSITIVE_RE.search(text):
         out["relocation"] = True
+
+    years = _detect_min_years_experience(text)
+    if years is not None:
+        out["min_years_experience"] = years
+
+    langs = _detect_languages_required(text)
+    if langs:
+        out["languages_required"] = langs
     return out
 
 

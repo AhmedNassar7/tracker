@@ -99,10 +99,16 @@ def main():
             ts_tags == py_tags,
             f"\n  py ({len(py_tags)}): {py_tags}\n  ts ({len(ts_tags)}): {ts_tags}",
         )
-        # detect_requirements' three facet keys must also line up (the TS side
+        # detect_requirements' facet keys must also line up (the TS side
         # camel-cases them: visa_sponsorship -> visaSponsorship, etc.).
-        for key in ("visaSponsorship", "degreeRequired", "relocation"):
+        for key in ("visaSponsorship", "degreeRequired", "relocation", "minYearsExperience", "languagesRequired"):
             check(f"keywordGap.ts checks {key}", key in ts, key)
+        # …and the human-language vocab must match Python's _HUMAN_LANGUAGES.
+        py_langs = {v for v in p._HUMAN_LANGUAGES.values()}
+        for lang in ("German", "Arabic", "Mandarin", "Farsi"):
+            check(f"keywordGap.ts knows {lang}", f'"{lang}"' in ts, lang)
+            check(f"patterns.py knows {lang}", lang in py_langs, lang)
+        check("English is not a required-language", "english" not in p._HUMAN_LANGUAGES)
     run("keywordGap.ts mirrors patterns.py TECH_TAG_PATTERNS (Lane R2 parity)", _ts_mirror_parity)
 
     # ---- detect_requirements -------------------------------------------------
@@ -150,6 +156,28 @@ def main():
         )
         check("relocation unstated -> absent", "relocation" not in p.detect_requirements("Remote-first company."))
     run("detect_requirements: relocation", _req_relocation)
+
+    def _req_years():
+        r = p.detect_requirements("You have 5+ years of experience building distributed systems.")
+        check("5+ years", r.get("min_years_experience") == 5, repr(r))
+        r2 = p.detect_requirements("Minimum 3 years experience with Python; 2-4 years hands-on experience preferred.")
+        check("lower bound of the ranges wins", r2.get("min_years_experience") == 2, repr(r2))
+        r3 = p.detect_requirements("We were founded 10 years ago and ship weekly.")
+        check("prose 'N years ago' is not a requirement", "min_years_experience" not in r3, repr(r3))
+        r4 = p.detect_requirements("Great for a new grad — no prior experience needed.")
+        check("no number-year token -> absent", "min_years_experience" not in r4, repr(r4))
+    run("detect_requirements: min_years_experience", _req_years)
+
+    def _req_languages():
+        r = p.detect_requirements("Fluent in German and English; conversational French a plus.")
+        check("German + French, English excluded", r.get("languages_required") == ["French", "German"], repr(r))
+        r2 = p.detect_requirements("You will use Go, Rust and Swift every day.")
+        check("programming languages are not spoken languages", "languages_required" not in r2, repr(r2))
+        r3 = p.detect_requirements("We have a lovely German office in Munich and a great culture.")
+        check("a country name with no fluency cue -> absent", "languages_required" not in r3, repr(r3))
+        r4 = p.detect_requirements("Native Arabic speaker required; business-level Japanese preferred.")
+        check("Arabic + Japanese", r4.get("languages_required") == ["Arabic", "Japanese"], repr(r4))
+    run("detect_requirements: languages_required", _req_languages)
 
     # ---- parse_salary ---------------------------------------------------------
     def _salary_usd_comma():
