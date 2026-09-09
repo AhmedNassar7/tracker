@@ -52,6 +52,7 @@ There is no test runner flag to select one test — to isolate a single check wh
 | `fetch_lorenzolacorte_eu` | `tests/test_fetch.py` | All-lowercase company title-casing, trailing empty cell, EMEA/country tagging |
 | `fetch_hanzili_canada` | `tests/test_fetch.py` | Reversed title/company column order, angle-bracket-wrapped URL |
 | `fetch_ambicuity_newgrad` | `tests/test_fetch.py` | JSON feed fetcher, `is_closed` postings skipped |
+| `fetch_amazon` / `fetch_netflix` / `fetch_apple` (first-party APIs) | `tests/test_fetch.py` | Direct-API fetchers with faked payloads: Amazon level filtering; Netflix non-engineering + numbered-grade filtering; Apple keyless `/api/v1/search` — unlabelled-level SWE roles kept (`apple` in `UNKNOWN_LEVEL_SOURCES`), `SENIOR_TITLE_RE` drops seniors, retail teams dropped, `/details/{positionId}/{slug}` URL + region built from `locations[]` |
 | `write_outputs` / `write_fetch_outputs` | `tests/test_fetch.py` | Fresh write, sort-by-age ordering, change-only skip (age-only diffs don't rewrite), dead-link archiving, vanished-posting archiving, archive revival on reappearance |
 | `main()` orchestration | `tests/test_fetch.py` | Every registered fetcher gets called exactly once per run (strict mode), consistent call counts, `write_outputs` invoked once |
 | `discover_job_board_sources`, `extract_workday_site` | `tests/test_public_sources.py` | Greenhouse/Lever/Workday URL-shape extraction, Workday locale-segment skip (Intel/Sony-style URLs) |

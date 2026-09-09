@@ -5,8 +5,8 @@ Sources: Remotive, ArbeitNow, SimplifyJobs (internships & new grad), ambicuity/
 New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada),
 DereC4/internships-and-newgrad, Amazon
 (direct from amazon.jobs' own API), Netflix (direct from its Eightfold-hosted
-careers API), Arbeitsagentur (direct from Germany's Bundesagentur für Arbeit
-Jobsuche API)
+careers API), Apple (direct from jobs.apple.com's own keyless search API),
+Arbeitsagentur (direct from Germany's Bundesagentur für Arbeit Jobsuche API)
 Scope: US, Canada, EMEA + Remote | Levels: Internship/New Grad/Junior/Entry/Mid
 Companies: Top-tier allowlist only
 """
@@ -126,14 +126,15 @@ RELAXED_MODE = False
 
 # Sources where a role whose title doesn't self-describe a level
 # (detect_level -> "unknown") is KEPT rather than dropped in strict mode, as
-# long as it isn't clearly a senior/leadership posting. Scoped to Amazon on
-# purpose: its API serves thousands of "Software Development Engineer" roles
-# with no level word in the title (entry-to-mid in practice, "Senior"/
-# "Principal" spelled out when higher), and dropping all of them is the main
-# reason Amazon's curated count is a fraction of what's actually open. Other
-# first-party APIs use grade conventions ("Software Engineer 4/5") that this
-# can't safely bucket, so they stay strict.
-UNKNOWN_LEVEL_SOURCES = {"amazon"}
+# long as it isn't clearly a senior/leadership posting. Scoped to the
+# first-party FAANG feeds on purpose: Amazon's API serves thousands of
+# "Software Development Engineer" roles and jobs.apple.com just as many plain
+# "Software Engineer" / "iOS Full-Stack Software Engineer" titles, both with
+# no level word (entry-to-mid in practice, "Senior"/"Staff"/"Principal"
+# spelled out when higher — SENIOR_TITLE_RE still drops those). Dropping every
+# unlabelled title is the main reason these companies' curated counts were a
+# fraction of what's actually open. Community-tracker sources stay strict.
+UNKNOWN_LEVEL_SOURCES = {"amazon", "apple"}
 # SENIOR_TITLE_RE now lives in scripts/patterns.py (detect_level uses it too).
 
 COUNTRY_MARK_MAP = FETCH_COUNTRY_MARK_MAP
@@ -993,6 +994,186 @@ def fetch_netflix(max_pages=20, page_size=10):
     log_info(f"Netflix: {len(out)} matched (skipped role:{skipped['role']} level:{skipped['level']} region:{skipped['region']} company:{skipped['company']})")
     return out
 
+
+# --- Apple (direct) --------------------------------------------------------
+
+_APPLE_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) tracker-bot/1.0"
+_APPLE_SEARCH_URL = "https://jobs.apple.com/api/v1/search"
+_APPLE_CSRF_URL = "https://jobs.apple.com/api/v1/csrfToken"
+# jobs.apple.com's own search API buckets every posting under a team; these
+# are the bulk retail / support / sales families that never contain a
+# software-engineering role. `filters.keywords` already narrows server-side,
+# but a few of these still slip through on a title like "Technical Specialist".
+_APPLE_NON_ENGINEERING_TEAMS = {
+    "Apple Retail", "Support and Service", "Sales and Business Development",
+    "Marketing", "Corporate Functions", "People",
+}
+
+
+def _apple_session():
+    """GET the CSRF token + session cookies jobs.apple.com's search API wants.
+
+    The token at ``/api/v1/csrfToken`` is handed to any client with no
+    authentication — this is a keyless API, the handshake is just Apple's
+    CSRF ergonomics (same "one verified direct integration" status as Amazon
+    and Netflix above; Apple runs a bespoke careers stack, so none of the
+    public layer's Greenhouse/Lever/Workday/Ashby auto-discovery can reach
+    it). Returns ``(token, cookie_header)``.
+    """
+    req = urllib.request.Request(
+        _APPLE_CSRF_URL, headers={"User-Agent": _APPLE_UA, "Accept": "application/json"}
+    )
+    with urllib.request.urlopen(req, timeout=25) as resp:
+        token = resp.headers.get("X-Apple-CSRF-Token") or ""
+        cookies = "; ".join(
+            c.split(";", 1)[0]
+            for c in (resp.headers.get_all("Set-Cookie") or [])
+            if "=" in c.split(";", 1)[0]
+        )
+    return token, cookies
+
+
+# jobs.apple.com's keyword filter is server-side; a "software engineer" pass
+# catches junior/entry roles as they post, an "internship" pass catches the
+# big early-career umbrella reqs Apple files separately (only ~100 of those,
+# vs ~2.4k for the first term). ROLE_RE + include_job still filter each pass.
+_APPLE_KEYWORD_PASSES = (["software engineer"], ["internship"])
+
+
+def _apple_search_page(token, cookies, keywords, page):
+    body = json.dumps({
+        "query": "",
+        "filters": {"keywords": keywords},
+        "page": page,
+        "locale": "en-us",
+        "sort": "newest",
+        "format": {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"},
+    }).encode("utf-8")
+    req = urllib.request.Request(_APPLE_SEARCH_URL, data=body, method="POST", headers={
+        "User-Agent": _APPLE_UA,
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "X-Apple-CSRF-Token": token,
+        "Cookie": cookies,
+        "Referer": "https://jobs.apple.com/en-us/search",
+        "Origin": "https://jobs.apple.com",
+    })
+    _status, data = fetch_with_retry(req, 25)
+    return json.loads(data)
+
+
+def _parse_apple_date(raw):
+    """Apple returns ``postingDate`` as e.g. "Sep 09, 2026"."""
+    try:
+        return datetime.datetime.strptime((raw or "").strip(), "%b %d, %Y").date().isoformat()
+    except (ValueError, TypeError):
+        return TODAY
+
+
+def _apple_locations(job):
+    """`locations` is a list of address objects; render each as "City, Country"
+    (or the bare region name when Apple gives no city), de-duplicated in order."""
+    out = []
+    for loc in job.get("locations") or []:
+        country = (loc.get("countryName") or "").strip()
+        disp = (loc.get("city") or loc.get("name") or "").strip()
+        if country and country.lower() not in disp.lower():
+            disp = f"{disp}, {country}" if disp else country
+        if disp and disp not in out:
+            out.append(disp)
+    return out
+
+
+def fetch_apple(max_pages=20, page_size=20):
+    """Fetch directly from jobs.apple.com's own search API — keyless, real
+    structured JSON — rather than only linking out to Apple's careers search
+    via config/aggregate_links.yml.
+
+    ``POST /api/v1/search`` with ``filters.keywords:["software engineer"]``
+    narrows server-side to the ~2.4k software subset (vs ~30k postings
+    including retail); ``include_job`` then applies the curated feed's
+    early-career + allowlist + region filters. Verified live 2026-09-09:
+    the CSRF handshake at ``/api/v1/csrfToken`` needs no auth, and the
+    search endpoint returns ``res.searchResults[]`` with ``positionId``,
+    ``postingTitle``, ``team``, ``postingDate`` and a ``locations[]`` array.
+
+    NB: Apple's API clamps an out-of-range ``page`` to the last page rather
+    than returning an empty list, so pagination stops on ``totalRecords`` or
+    on a page that adds no new ``positionId`` — not on an empty response.
+    """
+    out = []
+    log_info("Fetching Apple (direct)...")
+    skipped = {"role": 0, "level": 0, "region": 0, "company": 0}
+
+    try:
+        token, cookies = _apple_session()
+    except Exception as e:
+        log_warn(f"Apple: could not get a session token ({type(e).__name__}: {e}), skipping")
+        return out
+
+    seen_ids = set()
+    for keywords in _APPLE_KEYWORD_PASSES:
+        for page in range(1, max_pages + 1):
+            try:
+                data = _apple_search_page(token, cookies, keywords, page)
+            except urllib.error.HTTPError as e:
+                log_warn(f"Apple: HTTP {e.code} on {keywords} page {page}, stopping this pass")
+                break
+            except Exception as e:
+                log_error(f"Apple: error on {keywords} page {page}: {type(e).__name__}: {e}")
+                break
+
+            res = (data or {}).get("res") or {}
+            results = res.get("searchResults") or []
+            if not results:
+                break
+
+            new_this_page = 0
+            for job in results:
+                pid = str(job.get("positionId") or "").strip()
+                title = (job.get("postingTitle") or job.get("transformedPostingTitle") or "").strip()
+                if not (pid and title) or pid in seen_ids:
+                    continue
+                seen_ids.add(pid)
+                new_this_page += 1
+
+                team = ((job.get("team") or {}).get("teamName") or "").strip()
+                if team in _APPLE_NON_ENGINEERING_TEAMS or not ROLE_RE.search(title):
+                    skipped["role"] += 1
+                    continue
+
+                locations = _apple_locations(job)
+                slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-") or "role"
+                url_full = f"https://jobs.apple.com/en-us/details/{pid}/{slug}"
+                row = normalize(
+                    "Apple", title, locations[0] if locations else "", url_full,
+                    _parse_apple_date(job.get("postingDate")), "apple",
+                    "https://jobs.apple.com/en-us/search",
+                    location_details=locations if len(locations) > 1 else None,
+                )
+
+                if not include_job(row, "Apple"):
+                    if row["level"] not in WANTED_LEVELS and not RELAXED_MODE:
+                        skipped["level"] += 1
+                    elif row["region"] not in WANTED_REGIONS and not RELAXED_MODE:
+                        skipped["region"] += 1
+                    else:
+                        skipped["company"] += 1
+                    continue
+
+                out.append(row)
+
+            total = res.get("totalRecords") or 0
+            if new_this_page == 0 or (total and page * page_size >= total):
+                break
+
+    log_info(
+        f"Apple: {len(out)} matched (skipped role:{skipped['role']} "
+        f"level:{skipped['level']} region:{skipped['region']} company:{skipped['company']})"
+    )
+    return out
+
+
 _ARBEITSAGENTUR_API_KEY = "jobboerse-jobsuche"
 _ARBEITSAGENTUR_COUNTRY_MAP = {"DEUTSCHLAND": "Germany", "OESTERREICH": "Austria", "SCHWEIZ": "Switzerland"}
 
@@ -1218,6 +1399,7 @@ SOURCE_FETCHER_NAMES = [
     "fetch_ambicuity_newgrad",
     "fetch_amazon",
     "fetch_netflix",
+    "fetch_apple",
     "fetch_arbeitsagentur",
 ]
 

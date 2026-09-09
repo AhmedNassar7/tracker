@@ -787,6 +787,63 @@ def main():
         and netflix_rows[0]["company"] == "Netflix",
     ))
 
+    # --- Apple (direct, keyless jobs.apple.com/api/v1/search) ---
+    apple_pages = {
+        ("software engineer", 1): {"res": {"totalRecords": 4, "searchResults": [
+            {
+                # Apple titles carry no level word -> detect_level "unknown";
+                # kept because "apple" is in UNKNOWN_LEVEL_SOURCES (same as amazon).
+                "positionId": "200600001",
+                "postingTitle": "Software Engineer - Apple Pay",
+                "team": {"teamName": "Software and Services"},
+                "postingDate": "Sep 08, 2026",
+                "locations": [{"name": "London", "city": "London", "countryName": "United Kingdom"}],
+            },
+            {
+                # Senior spelled out -> dropped by SENIOR_TITLE_RE even though
+                # the source allows unknown-level passthrough.
+                "positionId": "200600002",
+                "postingTitle": "Senior Software Engineer, Security Frameworks",
+                "team": {"teamName": "Software and Services"},
+                "postingDate": "Sep 08, 2026",
+                "locations": [{"name": "Cupertino", "countryName": "United States of America"}],
+            },
+            {
+                # Non-engineering team -> dropped.
+                "positionId": "200600003",
+                "postingTitle": "IN-Technical Specialist",
+                "team": {"teamName": "Apple Retail"},
+                "postingDate": "Sep 08, 2026",
+                "locations": [{"name": "India", "countryName": "India"}],
+            },
+        ]}},
+        ("internship", 1): {"res": {"totalRecords": 1, "searchResults": [
+            {
+                "positionId": "200600010",
+                "postingTitle": "Machine Learning Engineer Internship - Cork",
+                "team": {"teamName": "Machine Learning and AI"},
+                "postingDate": "Sep 07, 2026",
+                "locations": [{"name": "Cork", "city": "Cork", "countryName": "Ireland"}],
+            },
+        ]}},
+    }
+
+    with patch.object(fetch, "_apple_session", return_value=("tok", "jobs=abc")), patch.object(
+        fetch, "_apple_search_page",
+        side_effect=lambda _t, _c, kw, page: apple_pages.get((kw[0], page), {"res": {"searchResults": []}}),
+    ), patch.object(fetch, "ALLOWLIST", ["apple"]):
+        apple_rows = fetch.fetch_apple(max_pages=2)
+    apple_by_title = {r["title"]: r for r in apple_rows}
+    run("apple fetch hits its own keyless API, keeps unlabelled-level SWE roles, drops senior/non-engineering", lambda: check(
+        "apple fetch hits its own keyless API, keeps unlabelled-level SWE roles, drops senior/non-engineering",
+        sorted(apple_by_title) == ["Machine Learning Engineer Internship - Cork", "Software Engineer - Apple Pay"]
+        and all(r["source"] == "apple" and r["company"] == "Apple" for r in apple_rows)
+        and apple_by_title["Software Engineer - Apple Pay"]["url"]
+            == "https://jobs.apple.com/en-us/details/200600001/software-engineer-apple-pay"
+        and apple_by_title["Software Engineer - Apple Pay"]["region"] == "europe"
+        and apple_by_title["Machine Learning Engineer Internship - Cork"]["posted_at"] == "2026-09-07",
+    ))
+
     arbeitsagentur_payload = {
         "ergebnisliste": [
             {
