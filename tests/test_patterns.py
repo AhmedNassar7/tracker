@@ -1,6 +1,7 @@
 import contextlib
 import importlib.util
 import io
+import re
 from pathlib import Path
 
 GREEN = "\033[32m"
@@ -78,6 +79,31 @@ def main():
         check("empty text -> []", p.detect_tech_tags("") == [])
         check("no tech -> []", p.detect_tech_tags("We value teamwork and communication") == [])
     run("detect_tech_tags: empty / none", _tags_empty)
+
+    # ---- Lane R2: the site's keywordGap.ts is a hand-kept mirror of this ----
+    # module. The résumé keyword-gap check and the pipeline must agree on what
+    # tech a JD "asks for", so the canonical tag list (names + order) has to
+    # stay identical on both sides. Same discipline as formatSalaryShort.
+    def _ts_mirror_parity():
+        ts_path = ROOT / "site" / "src" / "lib" / "keywordGap.ts"
+        ts = ts_path.read_text(encoding="utf-8")
+        start = ts.index("const TECH_TAG_PATTERNS")
+        end = ts.index("\n];", start)
+        block = ts[start:end]
+        # Inside the array literal the only double-quoted strings are the tag
+        # names (regexes are /.../ literals), so this is the ordered TS list.
+        ts_tags = re.findall(r'"([^"]+)"', block)
+        py_tags = [tag for tag, _ in p.TECH_TAG_PATTERNS]
+        check(
+            "keywordGap.ts TECH_TAG_PATTERNS == patterns.py, same order",
+            ts_tags == py_tags,
+            f"\n  py ({len(py_tags)}): {py_tags}\n  ts ({len(ts_tags)}): {ts_tags}",
+        )
+        # detect_requirements' three facet keys must also line up (the TS side
+        # camel-cases them: visa_sponsorship -> visaSponsorship, etc.).
+        for key in ("visaSponsorship", "degreeRequired", "relocation"):
+            check(f"keywordGap.ts checks {key}", key in ts, key)
+    run("keywordGap.ts mirrors patterns.py TECH_TAG_PATTERNS (Lane R2 parity)", _ts_mirror_parity)
 
     # ---- detect_requirements -------------------------------------------------
     def _req_visa_positive():

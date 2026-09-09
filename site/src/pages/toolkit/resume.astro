@@ -1,0 +1,23 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ResumeGapCheck from "../../components/ResumeGapCheck";
+---
+
+<Layout
+	title="Résumé keyword check — tracker"
+	description="Paste a job description and see which of the tech skills it names are already on your profile and which are missing — a plain text diff, run entirely in your browser, no upload and no AI."
+>
+	<div class="mx-auto max-w-3xl">
+		<h1 class="text-2xl font-semibold">Résumé keyword check</h1>
+		<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
+			Paste a job description below. This finds the technologies it names, compares them with
+			your saved profile, and shows the gap — <strong>Present</strong>, <strong>Missing</strong>,
+			and what you list that this role doesn't ask for. It's a literal text diff using the same
+			skill list the job pipeline uses. Nothing is sent anywhere; it all runs in this browser.
+		</p>
+
+		<div class="mt-6">
+			<ResumeGapCheck client:load />
+		</div>
+	</div>
+</Layout>

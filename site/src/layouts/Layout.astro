@@ -22,6 +22,7 @@ const NAV_LINKS = [
 	{ href: `${base}resources`, label: "Resources", match: (path: string) => path.startsWith(`${base}resources`) },
 	{ href: `${base}profile`, label: "My Profile", match: (path: string) => path.startsWith(`${base}profile`) },
 	{ href: `${base}applications`, label: "My Applications", match: (path: string) => path.startsWith(`${base}applications`) },
+	{ href: `${base}toolkit/resume`, label: "Résumé Check", match: (path: string) => path.startsWith(`${base}toolkit/resume`) },
 	{ href: `${base}dashboard`, label: "Dashboard", match: (path: string) => path.startsWith(`${base}dashboard`) },
 ];
 const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.href ?? base;

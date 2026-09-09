@@ -57,6 +57,16 @@ On the site, `geo.ts` `regionForItem()` resolves the bucket client-side — the 
 
 **Where it surfaces:** the generated `data/README.md` prepends a 🛂 marker and appends an italic pay range to a job's title cell (see the "Markers" section it renders). On the site, `OpportunityTable`'s `FacetChips` renders the tech tags + a 🛂 Visa / No degree / pay-range chip row under each job, and `FilterBar` adds an "Any tech" dropdown (options = tags present in the loaded data, most-common first) plus **🛂 Visa sponsorship** and **No degree required** toggle chips — both explicit-only, matching `applyFilters`'s `=== true` / `=== false` checks.
 
+## Résumé keyword-gap check (site, `/toolkit/resume`)
+
+**Purpose:** Paste a job description and see which of the technologies it names are already on your profile and which are missing — the free version of the "ATS keyword" hint other job platforms charge for. A literal text diff: no upload, no LLM, no network (APPLICANT-TOOLKIT-PLAN.md Phase 5a / Lane R2).
+
+**Where it lives:** [site/src/lib/keywordGap.ts](../site/src/lib/keywordGap.ts) — `detectTechTags` / `detectRequirements` are a hand-kept TypeScript **mirror** of `detect_tech_tags` / `detect_requirements` in [scripts/patterns.py](../scripts/patterns.py) (same canonical tag names, same first-match-wins order, same requirement wording), so the site and the pipeline agree on what a JD "asks for". `analyzeKeywordGap(jd, profile)` diffs the JD's tags against the profile's `skills` + `resumeText` (both run through `detectTechTags`) and returns `{ jdTags, present, missing, missingInResume, extra, requirements, score, rubric }`. UI: `site/src/components/ResumeGapCheck.tsx` on the `/toolkit/resume` page.
+
+**How it works:** `present` = JD tags found in your skills or résumé text; `missing` = JD tags in neither; `missingInResume` = the subset of `missing` that *is* in your résumé text (so the UI offers a one-tap "+ add" that files it into your structured skills via `bucketForTag`); `extra` = canonical tags you list that this JD never mentions. The headline `score` is a shown ratio — `present ÷ jdTags` as a percentage, `null` when the JD names no recognised tech — with its `rubric` (skill coverage, résumé text length, contact block, quantified-bullet count) rendered as a checklist, never a black-box number. `requirements` compares the JD's explicit degree / visa / relocation statements against `profile.eligibility` and flags a conflict (needs a degree you don't have; states it won't sponsor when you marked that you need it).
+
+**Parity:** [tests/test_patterns.py](../tests/test_patterns.py) parses `TECH_TAG_PATTERNS` out of `keywordGap.ts` and asserts the tag list (names + order) is identical to the Python one, and that the three requirement keys are still checked — the same drift guard `formatSalaryShort` has. Change the tech-tag list on one side and this test fails until the other side matches.
+
 ## Dead-link detection and archiving
 
 **Purpose:** Keep the published list free of postings whose link is actually gone, without wrongly archiving/dropping live postings just because a server mishandled one HTTP verb.

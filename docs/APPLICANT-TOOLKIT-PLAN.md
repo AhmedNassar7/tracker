@@ -353,7 +353,7 @@ For the match score to mean anything, every scored dimension of a job record
 | `visa_sponsorship` | `eligibility.needsSponsorship` + `eligibility.authorizedCountries` | ✅ **wired** | +4 when needed & offered · gap when needed, not offered, and not an authorised country |
 | `degree_required` | `eligibility.hasDegree` | ✅ **added** | +2 when you lack one & it's not required · −6 + contradiction when required |
 | `relocation` | `eligibility.willRelocate` | ✅ wired | +1 |
-| `tech_tags[]` | `skills.{languages,frameworks,tools,other}` | ⚠️ **name overlap only** until R2 | +1 per matched stack item (cap 5); missing ones surface as "stack to learn" |
+| `tech_tags[]` | `skills.{languages,frameworks,tools,other}` | ✅ **R2 shipped** — `keywordGap.ts` ports `detect_tech_tags`, so both sides normalise to the same canonical vocabulary | +1 per matched stack item (cap 5); missing ones surface as "stack to learn". The `/toolkit/resume` gap check does the full Present / Missing / Extra diff. |
 | `posted_at` / `age` | — | ✅ | freshness nudge (from `scoreOpportunity`) |
 
 `filterStateFromProfile()` projects the targets onto a `FilterState` so the site's existing
@@ -365,9 +365,12 @@ gaps[], contradicts }` — explainable, never a black-box number.
 
 **Still to sharpen the match (in priority order):**
 
-1. **R2 — port `detect_tech_tags` to TS.** Then `profile.skills` and `job.tech_tags` normalise
-   to the *same* canonical vocabulary and the overlap becomes exact instead of a case-insensitive
-   name compare. Highest-leverage single change. (Phase 5a.)
+1. ~~**R2 — port `detect_tech_tags` to TS.**~~ ✅ **Done** — `site/src/lib/keywordGap.ts` mirrors
+   `detect_tech_tags` + `detect_requirements` (parity test in `tests/test_patterns.py`).
+   `profile.skills` and `job.tech_tags` now normalise to the same canonical vocabulary, and the
+   `/toolkit/resume` page runs the full Present / Missing / Extra keyword-gap diff against a
+   pasted JD. Next: use the ported detector inside `profileMatch.ts` so the score's skill overlap
+   is canonical-tag based too (currently still a name compare there).
 2. **Pipeline: extend `detect_requirements`** (`scripts/patterns.py`) to also pull
    `min_years_experience` ("3+ years…") and `languages_required` (German, Arabic…) from JD text
    → new optional job fields. Then a `Profile` YoE derived from `experience[]` date ranges can be
