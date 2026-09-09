@@ -37,6 +37,17 @@ ashby:
   - thndr  # Cairo, Egypt fintech — verified live 2026-08-18, real Cairo-office postings
   - snowflake  # verified live 2026-08-18, real non-empty board (4.8MB, genuine postings)
   - mercor  # San Francisco, USA (NOT MENA) — AI-data company, mercor.com/careers → "Powered by ashby". Verified 2026-09-06, 96 jobs incl. Infrastructure Engineer (SF/NYC)
+  # --- Europe-HQ'd employers (added 2026-09-09) — verified live via verify_extra_boards.py.
+  - elevenlabs  # London, UK — voice/audio AI (252 jobs)
+  - synthesia   # London, UK — AI video (60; DE / US / NYC)
+  - poolside    # Paris, FR — code-generation AI (15; remote EMEA)
+  - n8n         # Berlin, DE — workflow automation (43; Berlin)
+  - lovable     # Stockholm, SE — AI app builder (84; Stockholm)
+  - photoroom   # Paris, FR — AI image editing (17; Paris)
+  - pennylane   # Paris, FR — accounting platform (143; Paris)
+  - alan        # Paris, FR — health insurance (116; France / Belgium)
+  - legora      # Stockholm, SE — legal AI (278; Stockholm / Milan)
+  - granola     # London, UK — AI meeting notes (16; London)
 
 smartrecruiters:
   - Visa
@@ -86,6 +97,23 @@ greenhouse:
   - cloudflare
   - spacex
   - coinbase
+  # --- Europe-HQ'd employers (added 2026-09-09) — widen EMEA / Europe coverage.
+  # Each verified live via scripts/verify_extra_boards.py (real non-empty board,
+  # sample titles eyeballed). is_software_job() drops the non-engineering rows
+  # these broad boards also carry, so only the SWE postings get published.
+  - monzo         # London, UK — digital bank (67 jobs on check)
+  - gocardless    # London, UK — bank-to-bank payments (Leeds / Lisbon / Riga)
+  - celonis       # Munich, DE — process mining (275)
+  - getyourguide  # Berlin, DE — travel experiences (53)
+  - sumup         # London / Berlin — payments (403)
+  - algolia       # Paris, FR / London — search API (32)
+  - wayve         # London, UK — autonomous driving (168; DE / UK / JP)
+  - raisin        # Berlin, DE — savings marketplace (Berlin / Manchester)
+  - bitpanda      # Vienna, AT — crypto brokerage (24)
+  - form3         # London, UK — cloud payments infra (remote Europe)
+  - hellofresh    # Berlin, DE — meal kits (large board; SWE rows only after filter)
+  - scout24       # Berlin, DE — online marketplaces (Berlin)
+  - doctolib      # Paris, FR — e-health (125; Paris / Berlin / Frankfurt)
 
 lever:
   # Same discipline: real Lever board confirmed live 2026-08-18 with actual
@@ -98,6 +126,12 @@ lever:
   - dlocal
   - Bosta  # Cairo, Egypt logistics — verified by hand 2026-09-06 (jobs.lever.co/Bosta, real Cairo eng roles). Case matters.
   - incorta  # Analytics/BI SaaS (San Mateo, US + Riyadh) — verified 2026-09-07 via api.lever.co/v0/postings/incorta, real postings incl. BI Solution Engineer - Riyadh
+  # --- Europe-HQ'd employers (added 2026-09-09) — verified live via verify_extra_boards.py.
+  - qonto          # Paris, FR — business banking (46 postings)
+  - swile          # Paris / Montpellier, FR — employee benefits (27; also Brazil ops)
+  - younited       # Paris, FR — consumer credit (Paris / Rome)
+  - blablacar      # Paris, FR — carpooling (real Paris backend-engineer roles on check)
+  - contentsquare  # Paris, FR — digital-experience analytics (26; Paris / Barcelona / Wrocław)
 
 # ---------------------------------------------------------------------------
 # Adding an employer whose board isn't auto-discovered — three paths, easiest

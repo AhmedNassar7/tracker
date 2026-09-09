@@ -34,8 +34,9 @@ Usage
   # Check specific candidates (platform:token, space-separated):
   python scripts/verify_extra_boards.py ashby:mercor lever:Bosta greenhouse:stripe
 
-  # Check the MENA candidate shortlist baked in below:
+  # Check a baked-in regional shortlist:
   python scripts/verify_extra_boards.py --mena
+  python scripts/verify_extra_boards.py --europe
 
 Exit code is non-zero if any *config* token (not a candidate) came back dead
 or empty, so this can gate CI later if wanted. A "couldn't reach" line
@@ -84,6 +85,51 @@ MENA_CANDIDATES = [
     ("workable", "lucidya"),      # ✓ Riyadh (remote MENA), added
     ("workable", "salla"),        # ✓ Jeddah, added
     ("workable", "breadfast"),    # account exists, 0 open on 2026-09-07
+]
+
+# Europe-HQ'd employers. `--europe` runs these.
+#
+# 2026-09-09: seeded from a verification sweep of well-known EU tech companies.
+# ✓ = confirmed real and ADDED to config/extra_job_boards.yml that day. The
+# unmarked rows are plausible names that 404'd on the obvious token (their
+# board is likely on a different ATS / a bespoke site) — kept here so a later
+# pass can retry with a better token or move them to aggregate_links.yml.
+EUROPE_CANDIDATES = [
+    ("greenhouse", "monzo"),         # ✓ London — digital bank
+    ("greenhouse", "gocardless"),    # ✓ London — payments
+    ("greenhouse", "celonis"),       # ✓ Munich — process mining
+    ("greenhouse", "getyourguide"),  # ✓ Berlin — travel
+    ("greenhouse", "sumup"),         # ✓ London/Berlin — payments
+    ("greenhouse", "algolia"),       # ✓ Paris — search API
+    ("greenhouse", "wayve"),         # ✓ London — autonomous driving
+    ("greenhouse", "raisin"),        # ✓ Berlin — savings marketplace
+    ("greenhouse", "bitpanda"),      # ✓ Vienna — crypto
+    ("greenhouse", "form3"),         # ✓ London — payments infra
+    ("greenhouse", "hellofresh"),    # ✓ Berlin — meal kits
+    ("greenhouse", "scout24"),       # ✓ Berlin — marketplaces
+    ("greenhouse", "doctolib"),      # ✓ Paris — e-health
+    ("greenhouse", "revolut"),       # 404 — likely bespoke / another ATS
+    ("greenhouse", "klarna"),        # 404
+    ("greenhouse", "personio"),      # 404
+    ("greenhouse", "deliveryhero"),  # 404
+    ("greenhouse", "zalando"),       # 404 — bespoke jobs.zalando.com
+    ("lever", "qonto"),              # ✓ Paris — business banking
+    ("lever", "swile"),              # ✓ Paris — employee benefits
+    ("lever", "younited"),           # ✓ Paris — consumer credit
+    ("lever", "blablacar"),          # ✓ Paris — carpooling
+    ("lever", "contentsquare"),      # ✓ Paris — analytics
+    ("ashby", "elevenlabs"),         # ✓ London — voice AI
+    ("ashby", "synthesia"),          # ✓ London — AI video
+    ("ashby", "poolside"),           # ✓ Paris — code AI
+    ("ashby", "n8n"),                # ✓ Berlin — workflow automation
+    ("ashby", "lovable"),            # ✓ Stockholm — AI app builder
+    ("ashby", "photoroom"),          # ✓ Paris — AI image editing
+    ("ashby", "pennylane"),          # ✓ Paris — accounting
+    ("ashby", "alan"),               # ✓ Paris — health insurance
+    ("ashby", "legora"),             # ✓ Stockholm — legal AI
+    ("ashby", "granola"),            # ✓ London — AI meeting notes
+    ("ashby", "mistral"),            # 404 — check a better token
+    ("ashby", "helsing"),            # 404 — Munich defence AI, likely bespoke
 ]
 
 
@@ -408,6 +454,11 @@ def main(argv: list[str]) -> int:
         pairs, from_config = MENA_CANDIDATES, False
         print("Candidates surfaced during the MENA push. NB: not all are MENA —\n"
               "e.g. Mercor is San Francisco. Check the sample locations below.\n")
+    elif "--europe" in argv:
+        pairs, from_config = EUROPE_CANDIDATES, False
+        print("Europe-HQ'd employer shortlist (--europe). Rows marked ✓ in the\n"
+              "list are already in config/extra_job_boards.yml; the rest 404'd on\n"
+              "the obvious token and need a better one or a bespoke-site row.\n")
     elif argv:
         pairs, from_config = [], False
         for a in argv:
