@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Wed, 09 Sep 2026 18:36:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 21:43:36 GMT</lastBuildDate>
     <item>
       <title>NEXT Summit — NEXT Summit</title>
       <link>https://nextsummit.io/</link>
@@ -20,6 +20,13 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Bits &amp; Pretzels — Bits &amp; Pretzels</title>
+      <link>https://www.bitsandpretzels.com/</link>
+      <guid isPermaLink="false">72afca5792438c97</guid>
+      <description>Munich, Germany · 19 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Techne — Techne Summit Alexandria</title>
       <link>https://technesummit.com/2026</link>
       <guid isPermaLink="false">7c458be7f16fcaa0</guid>
@@ -27,10 +34,31 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devoxx — Devoxx Belgium</title>
+      <link>https://devoxx.be/</link>
+      <guid isPermaLink="false">d81cbecf5b047c02</guid>
+      <description>Antwerp, Belgium · 26 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Web Summit — Web Summit</title>
       <link>https://websummit.com/</link>
       <guid isPermaLink="false">12130225ecface8e</guid>
       <description>Lisbon, Portugal · 61 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Junction — Junction</title>
+      <link>https://www.hackjunction.com/</link>
+      <guid isPermaLink="false">93abd0602a8ad6c5</guid>
+      <description>Helsinki, Finland · 65 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Slush — Slush</title>
+      <link>https://slush.org/</link>
+      <guid isPermaLink="false">3d1c46fabb99a279</guid>
+      <description>Helsinki, Finland · 69 days left</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -48,6 +76,13 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Web Summit — Web Summit Qatar</title>
+      <link>https://qatar.websummit.com/</link>
+      <guid isPermaLink="false">c3c8c14b5bfc67fe</guid>
+      <description>Doha, Qatar · 147 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>RiseUp — RiseUp Summit</title>
       <link>https://riseupsummit.com/</link>
       <guid isPermaLink="false">1bbdda7878084535</guid>
@@ -59,6 +94,34 @@
       <link>https://onegiantleap.com/</link>
       <guid isPermaLink="false">9befe49cac44d667</guid>
       <description>Riyadh, Saudi Arabia · 215 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>KAOUN Int'l — GITEX Europe</title>
+      <link>https://www.gitex-europe.com/</link>
+      <guid isPermaLink="false">9fde24ffcc90d233</guid>
+      <description>Berlin, Germany · 237 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>London Tech Week — London Tech Week</title>
+      <link>https://londontechweek.com/</link>
+      <guid isPermaLink="false">72584720918b1f8b</guid>
+      <description>London, UK · 278 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Viva Technology — VivaTech</title>
+      <link>https://vivatechnology.com/</link>
+      <guid isPermaLink="false">01cdd212b886d246</guid>
+      <description>Paris, France · 280 days left</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>WeAreDevelopers — WeAreDevelopers World Congress</title>
+      <link>https://www.wearedevelopers.com/world-congress</link>
+      <guid isPermaLink="false">81d209b0142a44dd</guid>
+      <description>Berlin, Germany · 308 days left</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
