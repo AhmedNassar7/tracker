@@ -55,6 +55,9 @@ export interface ProfileEligibility {
   /** `null` = unset. `false` = no degree / in progress — used to surface roles
    *  whose posting does not require one (`degree_required !== true`). */
   hasDegree: boolean | null;
+  /** Spoken/human languages you're fluent enough in to work in — checked
+   *  against a posting's `languages_required`. Canonical names ("German"). */
+  spokenLanguages: string[];
   noticePeriod: string;
 }
 
@@ -179,6 +182,7 @@ export function emptyProfile(): Profile {
       needsSponsorship: null,
       willRelocate: null,
       hasDegree: null,
+      spokenLanguages: [],
       noticePeriod: "",
     },
     education: [],
@@ -268,6 +272,7 @@ export function normalizeProfile(raw: unknown): Profile {
       needsSponsorship: asTriBool(eligibility.needsSponsorship),
       willRelocate: asTriBool(eligibility.willRelocate),
       hasDegree: asTriBool(eligibility.hasDegree),
+      spokenLanguages: asStringArray(eligibility.spokenLanguages),
       noticePeriod: asString(eligibility.noticePeriod),
     },
     education: listRows<EducationEntry>(r.education, (o) => ({

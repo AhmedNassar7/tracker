@@ -6,7 +6,7 @@ import { companyNameMatches, type FilterState } from "../lib/filters";
 // visual attractor between the hero and the list. Real hand-verified logos
 // (companyLogos.ts) via CompanyShowcaseLogo below, not guessed favicons.
 // Clicking a logo applies it as a quick search, same mechanic as the
-// SnapshotHero chips and StoryStrip cards it sits between.
+// SnapshotHero chips above it.
 //
 // The scroll itself is driven from a rAF loop (not CSS @keyframes) so a drag
 // can share the exact same position variable: grabbing the strip and moving

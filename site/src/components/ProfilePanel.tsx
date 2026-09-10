@@ -122,6 +122,11 @@ const FIELD_SUGGESTIONS = [
   "Electrical Engineering",
   "Mathematics",
 ];
+const LANGUAGE_POOL = [
+  "English", "Arabic", "French", "German", "Spanish", "Portuguese", "Italian", "Dutch",
+  "Mandarin", "Hindi", "Japanese", "Korean", "Russian", "Turkish", "Polish", "Hebrew",
+];
+
 const SKILL_POOL: Record<"languages" | "frameworks" | "tools", string[]> = {
   languages: ["Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "Go", "Rust", "Kotlin", "Swift", "SQL", "PHP", "Ruby", "HTML", "CSS"],
   frameworks: ["React", "Next.js", "Vue", "Angular", "Svelte", "Node.js", "Express", "Django", "Flask", "FastAPI", "Spring Boot", ".NET", "Rails", "Flutter", "React Native", "TensorFlow", "PyTorch"],
@@ -777,6 +782,19 @@ export default function ProfilePanel() {
           values={profile.eligibility.authorizedCountries}
           onChange={(v) => patch((d) => ({ ...d, eligibility: { ...d.eligibility, authorizedCountries: v } }))}
           placeholder="Egypt, Germany, …"
+        />
+        <TagInput
+          label="Languages you can work in"
+          values={profile.eligibility.spokenLanguages}
+          onChange={(v) => patch((d) => ({ ...d, eligibility: { ...d.eligibility, spokenLanguages: v } }))}
+          placeholder="English, Arabic, German, …"
+        />
+        <Suggest
+          pool={LANGUAGE_POOL}
+          values={profile.eligibility.spokenLanguages}
+          onAdd={(v) =>
+            patch((d) => ({ ...d, eligibility: { ...d.eligibility, spokenLanguages: [...d.eligibility.spokenLanguages, v] } }))
+          }
         />
         <div className="grid gap-3 sm:grid-cols-2">
           <label className="block">

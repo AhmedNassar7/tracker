@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { fetchSiteIndex, fetchStoryCards } from "../lib/dataSource";
+import { fetchSiteIndex } from "../lib/dataSource";
 import {
   applyFilters,
   computeFacetCounts,
@@ -28,7 +28,7 @@ import {
   type RankTune,
   type SortMode,
 } from "../lib/preferences";
-import type { SiteIndex, SiteIndexEntry, StoryCard } from "../lib/types";
+import type { SiteIndex, SiteIndexEntry } from "../lib/types";
 import { loadProfile, type Profile } from "../lib/profile";
 import { profileCanMatch, scoreJobForProfile, type JobMatch } from "../lib/profileMatch";
 import { companyTier } from "../lib/companyTiers";
@@ -36,7 +36,6 @@ import { countryForItem, regionForItem, REGION_ORDER } from "../lib/geo";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import Pagination from "./Pagination";
 import CompanyShowcase from "./CompanyShowcase";
-import StoryStrip from "./StoryStrip";
 import FilterBar from "./FilterBar";
 import OpportunityTable from "./OpportunityTable";
 import SavedSearches from "./SavedSearches";
@@ -62,8 +61,7 @@ const PAGE_SIZE = 50;
 const SORT_META: Record<SortMode, { label: string; hint: string }> = {
   tier: { label: "Top companies", hint: "Best-known companies first (FAANG → big-tech → …)." },
   newest: { label: "Newest", hint: "Most recently posted first." },
-  relevance: { label: "Relevance", hint: "Ranked to match the filter you saved as your preferences." },
-  match: { label: "Best for you", hint: "Ranked against your whole profile — skills, targets, and experience." },
+  match: { label: "Best match", hint: "Ranked for you — by your profile, or your saved filter if you have no profile." },
 };
 
 function formatGeneratedAt(iso: string): string {
@@ -95,7 +93,6 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   const [profile, setProfile] = useState<Profile | null>(null);
   const [showOnlyNew, setShowOnlyNew] = useState(false);
   const [bannerDismissed, setBannerDismissed] = useState(false);
-  const [storyCards, setStoryCards] = useState<StoryCard[]>([]);
 
   // Lane H — "preferences" is a saved FilterState; `rankTune` are the two
   // ranking-only knobs (keyword boost, exclude companies).
@@ -104,14 +101,17 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   const [sortMode, setSortMode] = useState<SortMode>(() => {
     const chosen = readSortMode();
     if (chosen) return chosen;
-    return prefFilterIsMeaningful(readPrefFilter()) ? "relevance" : "tier";
+    return prefFilterIsMeaningful(readPrefFilter()) ? "match" : "tier";
   });
   const [showLessRelevant, setShowLessRelevant] = useState(false);
 
   const hasSavedPrefs = prefFilterIsMeaningful(prefFilter);
-  const relevanceActive = sortMode === "relevance" && hasSavedPrefs && !!prefFilter;
   const canMatch = !!profile && profileCanMatch(profile);
-  const matchActive = sortMode === "match" && canMatch && !!profile;
+  // "Best match" scores against the profile when there is one, else against
+  // the saved filter — one mode, one chip.
+  const useProfileScoring = sortMode === "match" && canMatch && !!profile;
+  const useFilterScoring = sortMode === "match" && !useProfileScoring && hasSavedPrefs && !!prefFilter;
+  const matchActive = useProfileScoring || useFilterScoring;
   const currentIsSaved = !!prefFilter && filtersEqual(filters, prefFilter);
 
   const updateSortMode = (mode: SortMode) => {
@@ -121,14 +121,15 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   const handleSavePrefs = () => {
     setPrefFilter(filters);
     writePrefFilter(filters);
-    // First time you save preferences, show what they do — flip to Relevance
+    // First time you save preferences, show what they do — flip to Best match
     // unless you'd already deliberately picked another sort.
-    if (!readSortMode()) updateSortMode("relevance");
+    if (!readSortMode()) updateSortMode("match");
   };
   const handleClearPrefs = () => {
     clearPrefFilter();
     setPrefFilter(null);
-    if (sortMode === "relevance") updateSortMode("tier");
+    // "Best match" now has nothing to score against unless a profile is filled.
+    if (sortMode === "match" && !canMatch) updateSortMode("tier");
   };
   const updateRankTune = (next: RankTune) => {
     setRankTune(next);
@@ -187,20 +188,6 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   useEffect(() => {
     if (!readSortMode() && canMatch) setSortMode("match");
   }, [canMatch]);
-
-  useEffect(() => {
-    let cancelled = false;
-    fetchStoryCards()
-      .then((data) => {
-        if (!cancelled) setStoryCards(Array.isArray(data.cards) ? data.cards : []);
-      })
-      .catch(() => {
-        /* no story-cards.json yet — the strip stays hidden */
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   const trackedIds = useMemo(() => new Set(trackedApps.keys()), [trackedApps]);
 
@@ -274,15 +261,24 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     [state],
   );
 
-  // The list, before the Relevance "less relevant" partition. `lessRelevant`
-  // is only ever non-empty in Relevance sort.
+  // The list, before the "Best match" less-relevant partition. `lessRelevant`
+  // is only ever non-empty in "Best match" sort.
   const { primary, lessRelevant } = useMemo(() => {
     if (state.status !== "loaded") return { primary: [] as SiteIndexEntry[], lessRelevant: [] as SiteIndexEntry[] };
     let items = applyFilters(opportunityItems, filters);
     if (showOnlyNew) items = items.filter((item) => newIds.has(item.id));
     if (rankTune.excludeCompanies.length > 0) items = items.filter((item) => !isExcluded(item, rankTune));
 
-    if (relevanceActive && prefFilter) {
+    if (useProfileScoring && profile) {
+      const decorated = items.map((item, i) => ({ item, i, m: scoreJobForProfile(item, profile) }));
+      const byScore = (a: (typeof decorated)[number], b: (typeof decorated)[number]) =>
+        b.m.raw - a.m.raw || a.i - b.i;
+      const matched = decorated.filter((d) => !d.m.contradicts).sort(byScore).map((d) => d.item);
+      const contra = decorated.filter((d) => d.m.contradicts).sort(byScore).map((d) => d.item);
+      return { primary: matched, lessRelevant: contra };
+    }
+
+    if (useFilterScoring && prefFilter) {
       const decorated = items.map((item, i) => ({
         item,
         i,
@@ -292,15 +288,6 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       const byScore = (a: (typeof decorated)[number], b: (typeof decorated)[number]) => b.score - a.score || a.i - b.i;
       const matched = decorated.filter((d) => !d.contradicts).sort(byScore).map((d) => d.item);
       const contra = decorated.filter((d) => d.contradicts).sort(byScore).map((d) => d.item);
-      return { primary: matched, lessRelevant: contra };
-    }
-
-    if (matchActive && profile) {
-      const decorated = items.map((item, i) => ({ item, i, m: scoreJobForProfile(item, profile) }));
-      const byScore = (a: (typeof decorated)[number], b: (typeof decorated)[number]) =>
-        b.m.raw - a.m.raw || a.i - b.i;
-      const matched = decorated.filter((d) => !d.m.contradicts).sort(byScore).map((d) => d.item);
-      const contra = decorated.filter((d) => d.m.contradicts).sort(byScore).map((d) => d.item);
       return { primary: matched, lessRelevant: contra };
     }
 
@@ -344,7 +331,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       })
       .map((e) => e.item);
     return { primary: items, lessRelevant: [] };
-  }, [state, opportunityItems, filters, showOnlyNew, newIds, rankTune, relevanceActive, prefFilter, sortMode, matchActive, profile]);
+  }, [state, opportunityItems, filters, showOnlyNew, newIds, rankTune, prefFilter, sortMode, useProfileScoring, useFilterScoring, profile]);
 
   const filteredItems = useMemo(
     () => (showLessRelevant ? [...primary, ...lessRelevant] : primary),
@@ -357,21 +344,21 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   const visibleItems = filteredItems.slice(pageStart, pageStart + PAGE_SIZE);
 
   const reasonsById = useMemo(() => {
-    if (!relevanceActive || !prefFilter) return undefined;
+    if (!useFilterScoring || !prefFilter) return undefined;
     const map = new Map<string, string[]>();
     for (const item of visibleItems) {
       const r = matchReasons(item, prefFilter, rankTune);
       if (r.length > 0) map.set(item.id, r);
     }
     return map;
-  }, [relevanceActive, prefFilter, rankTune, visibleItems]);
+  }, [useFilterScoring, prefFilter, rankTune, visibleItems]);
 
   const matchById = useMemo(() => {
-    if (!matchActive || !profile) return undefined;
+    if (!useProfileScoring || !profile) return undefined;
     const map = new Map<string, JobMatch>();
     for (const item of visibleItems) map.set(item.id, scoreJobForProfile(item, profile));
     return map;
-  }, [matchActive, profile, visibleItems]);
+  }, [useProfileScoring, profile, visibleItems]);
 
   // Engineering disciplines present in the loaded data, in the canonical
   // ROLE_VALUES order (most-common first) — data-driven so an absent
@@ -494,13 +481,9 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-2">
         <span className="text-xs font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">Sort</span>
         <div className="inline-flex overflow-hidden rounded-md border border-slate-200 text-sm dark:border-slate-700">
-          {(["tier", "newest", "relevance", "match"] as const).map((mode) => {
-            const disabled = (mode === "relevance" && !hasSavedPrefs) || (mode === "match" && !canMatch);
+          {(["tier", "newest", "match"] as const).map((mode) => {
+            const disabled = mode === "match" && !canMatch && !hasSavedPrefs;
             const active = sortMode === mode;
-            const disabledTitle =
-              mode === "match"
-                ? "Fill in your profile (skills or what you're looking for) first"
-                : "Save a filter as your preferences first";
             return (
               <button
                 key={mode}
@@ -508,7 +491,11 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
                 disabled={disabled}
                 onClick={() => updateSortMode(mode)}
                 aria-pressed={active}
-                title={disabled ? disabledTitle : SORT_META[mode].hint}
+                title={
+                  disabled
+                    ? "Fill in your profile, or save a filter as your preferences, first"
+                    : SORT_META[mode].hint
+                }
                 className={
                   "px-3 py-1 font-medium transition-colors " +
                   (active
@@ -523,9 +510,15 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
             );
           })}
         </div>
-        <span className="text-xs text-slate-400 dark:text-slate-500">{SORT_META[sortMode].hint}</span>
+        <span className="text-xs text-slate-400 dark:text-slate-500">
+          {sortMode === "match"
+            ? useProfileScoring
+              ? "Ranked against your profile — skills, targets, experience."
+              : "Ranked to match your saved filter."
+            : SORT_META[sortMode].hint}
+        </span>
 
-        {relevanceActive && (
+        {useFilterScoring && (
           <details className="relative ml-auto text-sm">
             <summary className="cursor-pointer list-none rounded-md border border-slate-200 px-2.5 py-1 text-xs text-slate-500 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-900">
               Tune ranking
@@ -628,7 +621,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
             matchReasons={reasonsById}
             matchById={matchById}
           />
-          {(relevanceActive || matchActive) && lessRelevant.length > 0 && (
+          {matchActive && lessRelevant.length > 0 && (
             <button
               type="button"
               onClick={() => setShowLessRelevant((v) => !v)}
@@ -636,14 +629,13 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
             >
               {showLessRelevant
                 ? `Hide ${lessRelevant.length.toLocaleString()} less-relevant role${lessRelevant.length === 1 ? "" : "s"}`
-                : `${lessRelevant.length.toLocaleString()} less-relevant role${lessRelevant.length === 1 ? "" : "s"} (${matchActive ? "a hard mismatch with your profile" : "don't match your saved level/kind"}) — show anyway`}
+                : `${lessRelevant.length.toLocaleString()} less-relevant role${lessRelevant.length === 1 ? "" : "s"} (${useProfileScoring ? "a hard mismatch with your profile" : "don't match your saved level/kind"}) — show anyway`}
             </button>
           )}
           {totalPages > 1 && <Pagination page={safePage} totalPages={totalPages} onChange={goToPage} />}
         </>
       )}
 
-      {!showOnlyNew && <StoryStrip cards={storyCards} onSelect={handleQuickFilter} />}
     </div>
   );
 }

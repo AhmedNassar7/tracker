@@ -354,6 +354,8 @@ For the match score to mean anything, every scored dimension of a job record
 | `visa_sponsorship` | `eligibility.needsSponsorship` + `eligibility.authorizedCountries` | ✅ **wired** | +4 when needed & offered · gap when needed, not offered, and not an authorised country |
 | `degree_required` | `eligibility.hasDegree` | ✅ **added** | +2 when you lack one & it's not required · −6 + contradiction when required |
 | `relocation` | `eligibility.willRelocate` | ✅ wired | +1 |
+| `min_years_experience` | `deriveYearsOfExperience(experience)` | ✅ **wired** | +2 when met · gap when just under · −3 + contradiction when 2+ years short |
+| `languages_required[]` | `eligibility.spokenLanguages` | ✅ **added** | +2 when all covered · gap listing the missing ones |
 | `tech_tags[]` | `skills.{languages,frameworks,tools,other}` | ✅ **R2 shipped + wired into the score** — `keywordGap.ts` ports `detect_tech_tags`; `profileMatch.ts` now runs the profile skills through `detectSkillTags()` so the overlap with `item.tech_tags` is an exact canonical-vocabulary set intersection, not a name compare | +1 per matched stack item (cap 5); missing ones surface as "stack to learn". The `/toolkit/resume` gap check does the full Present / Missing / Extra diff. |
 | `posted_at` / `age` | — | ✅ | freshness nudge (from `scoreOpportunity`) |
 

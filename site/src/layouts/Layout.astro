@@ -162,54 +162,52 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		<main class="px-4 py-6 sm:px-8">
 			<slot />
 		</main>
-		<footer class="mt-4 border-t border-slate-200 px-4 py-8 text-sm dark:border-slate-800 sm:px-8">
-			<div class="flex flex-col gap-8 sm:flex-row sm:justify-between">
-				<div class="max-w-md">
-					<p class="font-semibold text-slate-700 dark:text-slate-200">tracker</p>
-					<p class="mt-1 text-slate-500 dark:text-slate-400">
-						Software jobs, internships, hackathons &amp; events, merged hourly from 15+ public
-						sources. No signup, no fabricated data — every link goes to the employer.
-					</p>
-					<div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
-						<a
-							href={repoUrl}
-							class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							Source &amp; docs ↗
-						</a>
-						<a
-							href={sponsorUrl}
-							class="inline-flex items-center gap-1.5 rounded-md border border-pink-300 px-2.5 py-1 font-medium text-pink-700 hover:bg-pink-50 dark:border-pink-500/40 dark:text-pink-300 dark:hover:bg-pink-500/10"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<span aria-hidden="true">♥</span> Sponsor
-						</a>
-					</div>
-				</div>
+		<footer class="mt-8 border-t border-slate-200 px-4 py-6 text-sm dark:border-slate-800 sm:px-8">
+			<div class="space-y-3">
+				<p class="text-slate-500 dark:text-slate-400">
+					<span class="font-semibold text-slate-700 dark:text-slate-200">tracker</span> — software
+					jobs, internships, hackathons &amp; events, refreshed hourly. No signup, no fabricated
+					data.
+				</p>
 
-				<div>
-					<p class="font-semibold text-slate-700 dark:text-slate-200">Job alerts (RSS)</p>
-					<p class="mt-1 text-slate-500 dark:text-slate-400">
-						Paste a feed into any reader — new matches show up hourly. No account, no email.
-					</p>
-					<ul class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
-						{
-							FEEDS.map((feed) => (
-								<li>
+				<dl class="space-y-1.5">
+					<div class="flex flex-wrap gap-x-2">
+						<dt class="w-16 shrink-0 font-medium text-slate-400 dark:text-slate-500">RSS</dt>
+						<dd class="flex flex-wrap gap-x-3 gap-y-1">
+							{
+								FEEDS.map((feed) => (
 									<a
 										href={`${FEEDS_BASE}/${feed.id}.xml`}
 										class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
 									>
 										{feed.label}
 									</a>
-								</li>
-							))
-						}
-					</ul>
-				</div>
+								))
+							}
+						</dd>
+					</div>
+					<div class="flex flex-wrap gap-x-2">
+						<dt class="w-16 shrink-0 font-medium text-slate-400 dark:text-slate-500">Project</dt>
+						<dd class="flex flex-wrap gap-x-3 gap-y-1">
+							<a
+								href={repoUrl}
+								class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Source &amp; docs ↗
+							</a>
+							<a
+								href={sponsorUrl}
+								class="text-pink-700 underline-offset-2 hover:underline dark:text-pink-300"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								♥ Sponsor ↗
+							</a>
+						</dd>
+					</div>
+				</dl>
 			</div>
 		</footer>
 		<script is:inline>

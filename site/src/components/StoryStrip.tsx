@@ -1,13 +1,13 @@
-import type { FilterState } from "../lib/filters";
+import { DEFAULT_FILTERS, searchParamsFromFilters, type FilterState } from "../lib/filters";
 import type { StoryCard } from "../lib/types";
 
 // D1 — the "story strip". A row of 3-4 auto-generated stat cards (built by
 // build_story_cards() in the pipeline, so every word of `title`/`detail` is
-// generated, not hand-written here). It renders as a quiet footer under the
-// list — not above it — so the roles are the first thing on the page.
-// Clicking a card applies its pre-baked filter and jumps to the results.
-// Purely additive: if data/story-cards.json is missing or empty, the strip
-// just doesn't render.
+// generated, not hand-written here). Lives on the Dashboard now (moved off
+// the main list 2026-09-10 — the roles come first there). Two call shapes:
+//   • onSelect  — apply the card's filter in place (unused today)
+//   • linkBase  — render each card as a link to the jobs page, filter in the URL
+// Purely additive: if data/story-cards.json is missing or empty, it doesn't render.
 //
 // Everything in *this* file is presentation only — the emoji, the trend
 // arrow/colour, the motion. None of it invents a fact: the emoji is chosen
@@ -17,7 +17,15 @@ import type { StoryCard } from "../lib/types";
 
 interface Props {
   cards: StoryCard[];
-  onSelect: (patch: Partial<FilterState>) => void;
+  /** In-place: apply the card's filter to the current list. */
+  onSelect?: (patch: Partial<FilterState>) => void;
+  /** Link mode: each card is a link to `${linkBase}?<filter params>`. */
+  linkBase?: string;
+}
+
+function cardHref(base: string, filter: StoryCard["filter"]): string {
+  const params = searchParamsFromFilters({ ...DEFAULT_FILTERS, ...(filter as Partial<FilterState>) }).toString();
+  return params ? `${base}?${params}` : base;
 }
 
 type Trend = "up" | "down" | "flat";
@@ -70,11 +78,11 @@ const TREND_TEXT: Record<Trend, string> = {
 };
 const TREND_ARROW: Record<Trend, string> = { up: "▲", down: "▼", flat: "" };
 
-export default function StoryStrip({ cards, onSelect }: Props) {
+export default function StoryStrip({ cards, onSelect, linkBase }: Props) {
   if (cards.length === 0) return null;
 
   return (
-    <section aria-label="This week's hiring snapshot" className="mt-10 border-t border-slate-200 pt-6 dark:border-slate-800">
+    <section aria-label="This week's hiring snapshot">
       <h2 className="mb-3 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
         <span aria-hidden="true">📊</span> This week&apos;s hiring trends
       </h2>
@@ -145,13 +153,26 @@ export default function StoryStrip({ cards, onSelect }: Props) {
               </div>
             );
           }
+          const interactiveCls = shared + " cursor-pointer active:translate-y-0 motion-safe:active:scale-[0.98]";
+          if (linkBase) {
+            return (
+              <a
+                key={card.id}
+                href={cardHref(linkBase, card.filter)}
+                style={{ animationDelay: `${i * 70}ms` }}
+                className={interactiveCls}
+              >
+                {inner}
+              </a>
+            );
+          }
           return (
             <button
               key={card.id}
               type="button"
-              onClick={() => onSelect(card.filter as Partial<FilterState>)}
+              onClick={() => onSelect?.(card.filter as Partial<FilterState>)}
               style={{ animationDelay: `${i * 70}ms` }}
-              className={shared + " cursor-pointer active:translate-y-0 motion-safe:active:scale-[0.98]"}
+              className={interactiveCls}
             >
               {inner}
             </button>

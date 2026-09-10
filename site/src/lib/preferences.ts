@@ -16,7 +16,10 @@ const PREF_FILTER_KEY = "tracker:prefFilter";
 const RANK_TUNE_KEY = "tracker:rankTune";
 const SORT_MODE_KEY = "tracker:sortMode";
 
-export type SortMode = "tier" | "newest" | "relevance" | "match";
+// "match" is the single personalised rank — it scores against the profile
+// when one is filled, else against the saved filter. ("relevance" was a
+// second, overlapping mode; folded into "match" and remapped on read.)
+export type SortMode = "tier" | "newest" | "match";
 
 export interface RankTune {
   keywords: string[]; // free text, matched against title + company + location
@@ -146,7 +149,8 @@ export function readSortMode(): SortMode | null {
   if (typeof window === "undefined") return null;
   try {
     const s = window.localStorage.getItem(SORT_MODE_KEY);
-    return s === "relevance" || s === "newest" || s === "tier" || s === "match" ? s : null;
+    if (s === "relevance" || s === "match") return "match"; // legacy "relevance" → "match"
+    return s === "newest" || s === "tier" ? s : null;
   } catch {
     return null;
   }

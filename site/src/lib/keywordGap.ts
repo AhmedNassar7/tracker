@@ -380,11 +380,16 @@ export function analyzeKeywordGap(jdText: string, profile: Profile): KeywordGapR
   }
 
   if (req.languagesRequired && req.languagesRequired.length > 0) {
-    requirements.push({
-      label: "Languages",
-      status: "info",
-      detail: `Needs ${req.languagesRequired.join(", ")} — confirm you have the required fluency.`,
-    });
+    const need = req.languagesRequired;
+    const mine = new Set(profile.eligibility.spokenLanguages.map((l) => l.toLowerCase().trim()));
+    const missing = mine.size > 0 ? need.filter((l) => !mine.has(l.toLowerCase().trim())) : need;
+    requirements.push(
+      mine.size === 0
+        ? { label: "Languages", status: "info", detail: `Needs ${need.join(", ")} — add your spoken languages to check.` }
+        : missing.length === 0
+          ? { label: "Languages", status: "ok", detail: `Needs ${need.join(", ")} — on your profile.` }
+          : { label: "Languages", status: "warn", detail: `Needs ${missing.join(", ")} — not on your profile.` },
+    );
   }
 
   const quantified = bulletsWithNumbers(profile);

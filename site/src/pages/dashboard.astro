@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import PersonalDashboard from "../components/PersonalDashboard";
 import GlobalDashboard from "../components/GlobalDashboard";
+import DashboardStory from "../components/DashboardStory";
 ---
 
 <Layout
@@ -10,9 +11,9 @@ import GlobalDashboard from "../components/GlobalDashboard";
 >
 	<div class="mx-auto max-w-3xl space-y-10">
 		<section>
-			<h1 class="text-2xl font-semibold">Your funnel</h1>
-			<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-				Built from the applications you've tracked — stored on this device only.
+			<h1 class="text-2xl font-semibold">📊 Your funnel</h1>
+			<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">
+				Built from your tracked applications · this device only
 			</p>
 			<div class="mt-4">
 				<PersonalDashboard client:load />
@@ -20,11 +21,12 @@ import GlobalDashboard from "../components/GlobalDashboard";
 		</section>
 
 		<section>
-			<h2 class="text-2xl font-semibold">tracker overview</h2>
-			<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-				A live snapshot of everything currently published, refreshed hourly.
+			<h2 class="text-2xl font-semibold">🌍 tracker overview</h2>
+			<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">
+				Everything currently published · refreshed hourly
 			</p>
-			<div class="mt-4">
+			<div class="mt-4 space-y-6">
+				<DashboardStory client:visible />
 				<GlobalDashboard client:load />
 			</div>
 		</section>

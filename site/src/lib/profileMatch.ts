@@ -150,6 +150,19 @@ export function scoreJobForProfile(item: SiteIndexEntry, p: Profile): JobMatch {
     reasons.push("relocation support");
   }
 
+  // required spoken languages vs the ones on your profile
+  const langNeeded = item.languages_required ?? [];
+  if (langNeeded.length > 0) {
+    const mine = new Set(p.eligibility.spokenLanguages.map((l) => l.toLowerCase().trim()));
+    const missing = langNeeded.filter((l) => !mine.has(l.toLowerCase().trim()));
+    if (missing.length === 0 && mine.size > 0) {
+      raw += 2;
+      reasons.push(`speaks the required language${langNeeded.length === 1 ? "" : "s"}`);
+    } else if (missing.length > 0) {
+      gaps.push(`needs ${missing.join(", ")} — not on your profile`);
+    }
+  }
+
   const score = Math.max(0, Math.min(100, Math.round((raw / SCORE_CEIL) * 100)));
   return { score, raw, reasons, gaps, contradicts };
 }
