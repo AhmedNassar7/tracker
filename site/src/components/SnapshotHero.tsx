@@ -77,11 +77,13 @@ export default function SnapshotHero({ items, generatedAt }: Props) {
         Refreshed hourly · no signup · no fabricated data
       </p>
 
-      <p className="mt-5 text-5xl font-bold tracking-tight text-slate-900 tabular-nums dark:text-slate-50 sm:text-6xl">
-        {total.toLocaleString()}
-      </p>
-      <p className="mt-1 text-xs font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">
-        open opportunities
+      <p className="mt-5 flex items-baseline justify-center gap-2 text-slate-900 dark:text-slate-50">
+        <span className="text-5xl font-bold tracking-tight tabular-nums sm:text-6xl">
+          {total.toLocaleString()}
+        </span>
+        <span className="text-base font-medium text-slate-500 dark:text-slate-400">
+          open opportunities
+        </span>
       </p>
 
       <p className="mt-3 flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5 text-xs text-slate-500 dark:text-slate-400">
