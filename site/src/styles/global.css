@@ -68,6 +68,75 @@
   }
 }
 
+/* Home hero rotating noun (SnapshotHero.tsx). Under the open-count, one word
+   cycles roles → internships → hackathons → events, each sliding up as the
+   last slides out. It sits at the end of the phrase, so the invisible
+   `.tagline-sizer` (the longest word) reserves the slot width as trailing
+   space on the centered line rather than a mid-sentence gap; the
+   `.tagline-word` spans are absolutely positioned over it and share one 16s
+   keyframe, each offset by a quarter. Under reduced motion only the first
+   word shows, static. */
+.tagline-rotate {
+  position: relative;
+  display: inline-flex;
+  overflow: hidden;
+  vertical-align: baseline;
+}
+.tagline-sizer {
+  visibility: hidden;
+  font-weight: 600;
+}
+.tagline-word {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #0f766e;
+  opacity: 0;
+}
+:root.dark .tagline-word {
+  color: #2dd4bf;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tagline-word:first-of-type {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .tagline-word {
+    animation: tagline-cycle 16s ease-in-out infinite;
+  }
+  .tagline-word:nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  .tagline-word:nth-of-type(2) {
+    animation-delay: 4s;
+  }
+  .tagline-word:nth-of-type(3) {
+    animation-delay: 8s;
+  }
+  .tagline-word:nth-of-type(4) {
+    animation-delay: 12s;
+  }
+}
+@keyframes tagline-cycle {
+  0% {
+    opacity: 0;
+    transform: translateY(90%);
+  }
+  4%,
+  21% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  25%,
+  100% {
+    opacity: 0;
+    transform: translateY(-90%);
+  }
+}
+
 /* Story-strip card entrance (StoryStrip.tsx). Same guarded-plain-CSS pattern
    as .row-enter / .hero-enter — a staggered fade-up as the auto-generated
    "state of hiring" cards settle in below the hero. The per-card delay is set

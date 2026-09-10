@@ -1,4 +1,3 @@
-import { BASE_URL } from "../lib/basePath";
 import type { SiteIndexEntry } from "../lib/types";
 import FreshnessPulse from "./FreshnessPulse";
 
@@ -50,7 +49,15 @@ export default function SnapshotHero({ items, generatedAt }: Props) {
         {total.toLocaleString()}
       </p>
       <p className="mt-1 text-base font-medium text-slate-600 dark:text-slate-300">
-        open software-engineering roles, internships, hackathons &amp; events
+        open software-engineering{" "}
+        <span className="tagline-rotate">
+          <span className="tagline-sizer" aria-hidden="true">internships</span>
+          <span className="tagline-word" aria-hidden="true">roles</span>
+          <span className="tagline-word" aria-hidden="true">internships</span>
+          <span className="tagline-word" aria-hidden="true">hackathons</span>
+          <span className="tagline-word" aria-hidden="true">events</span>
+          <span className="sr-only">roles, internships, hackathons and events</span>
+        </span>
       </p>
       <p className="mt-2 text-[13px] text-slate-500 dark:text-slate-400">
         Merged hourly from 15+ sources — no signup, no fabricated data.
@@ -59,12 +66,6 @@ export default function SnapshotHero({ items, generatedAt }: Props) {
         <FreshnessPulse />
         <span>Updated {updatedAgo(generatedAt)}</span>
         {postedToday > 0 && <span>· {postedToday.toLocaleString()} added today</span>}
-        <a
-          href={`${BASE_URL}dashboard`}
-          className="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
-        >
-          · charts &amp; trends →
-        </a>
       </p>
     </section>
   );
