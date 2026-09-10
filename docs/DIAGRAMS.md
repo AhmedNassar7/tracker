@@ -84,40 +84,6 @@ graph TD
     test_public["tests/test_public_sources.py"] -.imports.-> public_sources
 ```
 
-## Feature mind map
-
-```mermaid
-mindmap
-  root((tracker))
-    Curated layer
-      17 source fetchers
-      Company allowlist filter
-      Classification (level/region/country)
-      Dedup
-      Relaxed-mode retry
-    Public layer
-      Greenhouse auto-discovery
-      Lever auto-discovery
-      Workday auto-discovery
-        Multi-location resolution
-      Ashby (config)
-      SmartRecruiters (config)
-      Devpost hackathons
-      Luma events (relevance-filtered)
-    Output pipeline
-      Dead-link detection
-      Change-only writes
-      Archive with revival
-      README rendering
-        Root README (lean)
-        data/README (full tables)
-        Stale-job filtering (180d)
-    Automation
-      Hourly cron (GitHub Actions)
-      Auto-merging PR
-      CI test suite
-```
-
 ## CI/CD pipeline
 
 ```mermaid
@@ -141,22 +107,6 @@ flowchart TD
         H8 -- yes --> H9["gh pr merge --squash"]
         H8 -- no --> H10["no-op"]
     end
-```
-
-## Data pipeline (automation/scripts project)
-
-```mermaid
-flowchart LR
-    subgraph Stage1["Stage 1: Fetch"]
-        A1["Download raw\n(data/raw/*)"] --> A2["Parse per-source"] --> A3["Normalize"] --> A4["Filter + dedupe"]
-    end
-    subgraph Stage2["Stage 2: Widen"]
-        B1["Seed from Stage 1 output"] --> B2["Discover ATS boards"] --> B3["Poll + filter software roles"]
-    end
-    subgraph Stage3["Stage 3: Build"]
-        C1["Load both JSON outputs"] --> C2["Merge + bucket + filter stale"] --> C3["Render Markdown"]
-    end
-    Stage1 --> Stage2 --> Stage3
 ```
 
 ## Entity relationships (data model)
@@ -201,7 +151,7 @@ erDiagram
     ARCHIVE_ENTRY ||--o{ JOB_ENTRY : "moves back when it reappears active"
 ```
 
-*(`JOB_ENTRY` = `data/jobs-global.json`, also the shape stored in `data/jobs-global-archive.json` plus `closed_at`. `PUBLIC_ENTRY` = the shared shape for all three arrays in `data/public-opportunities.json`. There is no runtime database — this is the JSON record shape, not SQL tables.)*
+*(`JOB_ENTRY` = `data/jobs-global.json` (and the archive + `closed_at`). `PUBLIC_ENTRY` = all three arrays in `data/public-opportunities.json`. JSON record shapes, not SQL tables — no runtime database.)*
 
 ## Deployment flow
 
