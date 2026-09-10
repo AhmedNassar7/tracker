@@ -32,7 +32,6 @@ const sponsorUrl = "https://github.com/sponsors/AhmedNassar7";
 
 const NAV_LINKS = [
 	{ href: base, label: "Jobs", match: (path: string) => path === base },
-	{ href: `${base}today`, label: "Today", match: (path: string) => path.startsWith(`${base}today`) },
 	{ href: `${base}dashboard`, label: "Dashboard", match: (path: string) => path.startsWith(`${base}dashboard`) },
 	{
 		href: `${base}profile`,
@@ -96,35 +95,31 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 	</head>
 	<body class="min-h-screen bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
 		<header
-			class="flex items-start justify-between gap-4 border-b border-slate-200 px-4 py-4 dark:border-slate-800 sm:px-8"
+			class="flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-slate-200 px-4 py-3 dark:border-slate-800 sm:px-8"
 		>
-			<div>
-				<a href={base} class="text-lg font-semibold">tracker</a>
-				<p class="text-sm text-slate-500 dark:text-slate-400">
-					Software engineering jobs, internships, hackathons, and events — refreshed hourly.
-				</p>
-				<nav class="mt-2 flex flex-wrap gap-4 text-sm">
-					{
-						NAV_LINKS.map((link) => {
-							const isActive = link.href === activeHref;
-							return (
-								<a
-									href={link.href}
-									aria-current={isActive ? "page" : undefined}
-									data-astro-prefetch="viewport"
-									class={
-										isActive
-											? "font-medium text-teal-700 dark:text-teal-400"
-											: "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
-									}
-								>
-									{link.label}
-								</a>
-							);
-						})
-					}
-				</nav>
-			</div>
+			<a href={base} class="text-lg font-semibold tracking-tight">Tracker</a>
+			<nav class="flex flex-wrap gap-4 text-sm">
+				{
+					NAV_LINKS.map((link) => {
+						const isActive = link.href === activeHref;
+						return (
+							<a
+								href={link.href}
+								aria-current={isActive ? "page" : undefined}
+								data-astro-prefetch="viewport"
+								class={
+									isActive
+										? "font-medium text-teal-700 dark:text-teal-400"
+										: "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
+								}
+							>
+								{link.label}
+							</a>
+						);
+					})
+				}
+			</nav>
+			<div class="grow"></div>
 			<button
 				id="theme-toggle"
 				type="button"
@@ -162,52 +157,46 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		<main class="px-4 py-6 sm:px-8">
 			<slot />
 		</main>
-		<footer class="mt-8 border-t border-slate-200 px-4 py-6 text-sm dark:border-slate-800 sm:px-8">
-			<div class="space-y-3">
+		<footer class="mt-8 border-t border-slate-200 px-4 py-8 text-sm dark:border-slate-800 sm:px-8">
+			<div class="mx-auto max-w-xl space-y-4 text-center">
 				<p class="text-slate-500 dark:text-slate-400">
-					<span class="font-semibold text-slate-700 dark:text-slate-200">tracker</span> — software
-					jobs, internships, hackathons &amp; events, refreshed hourly. No signup, no fabricated
-					data.
+					<span class="font-semibold text-slate-700 dark:text-slate-200">Tracker</span> — software
+					engineering jobs, internships, hackathons &amp; events, refreshed hourly. No signup, no
+					fabricated data.
 				</p>
 
-				<dl class="space-y-1.5">
-					<div class="flex flex-wrap gap-x-2">
-						<dt class="w-16 shrink-0 font-medium text-slate-400 dark:text-slate-500">RSS</dt>
-						<dd class="flex flex-wrap gap-x-3 gap-y-1">
-							{
-								FEEDS.map((feed) => (
-									<a
-										href={`${FEEDS_BASE}/${feed.id}.xml`}
-										class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
-									>
-										{feed.label}
-									</a>
-								))
-							}
-						</dd>
-					</div>
-					<div class="flex flex-wrap gap-x-2">
-						<dt class="w-16 shrink-0 font-medium text-slate-400 dark:text-slate-500">Project</dt>
-						<dd class="flex flex-wrap gap-x-3 gap-y-1">
+				<div class="flex flex-wrap justify-center gap-x-3 gap-y-1">
+					<span class="text-slate-400 dark:text-slate-500">Alerts (RSS):</span>
+					{
+						FEEDS.map((feed) => (
 							<a
-								href={repoUrl}
+								href={`${FEEDS_BASE}/${feed.id}.xml`}
 								class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
-								target="_blank"
-								rel="noopener noreferrer"
 							>
-								Source &amp; docs ↗
+								{feed.label}
 							</a>
-							<a
-								href={sponsorUrl}
-								class="text-pink-700 underline-offset-2 hover:underline dark:text-pink-300"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								♥ Sponsor ↗
-							</a>
-						</dd>
-					</div>
-				</dl>
+						))
+					}
+				</div>
+
+				<div class="flex flex-wrap justify-center gap-x-4 gap-y-1">
+					<a
+						href={repoUrl}
+						class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Source &amp; docs ↗
+					</a>
+					<a
+						href={sponsorUrl}
+						class="text-pink-700 underline-offset-2 hover:underline dark:text-pink-300"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						♥ Sponsor ↗
+					</a>
+				</div>
 			</div>
 		</footer>
 		<script is:inline>

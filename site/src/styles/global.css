@@ -42,7 +42,9 @@
 }
 @media (prefers-reduced-motion: no-preference) {
   .row-enter {
-    animation: row-enter 0.25s ease-out;
+    /* `both` so a per-row animationDelay (set inline in OpportunityTable)
+       holds the row hidden until its turn — a gentle staggered cascade. */
+    animation: row-enter 0.25s ease-out both;
   }
 }
 

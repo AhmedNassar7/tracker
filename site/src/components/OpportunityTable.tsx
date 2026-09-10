@@ -229,12 +229,16 @@ export default function OpportunityTable({
           </tr>
         </thead>
         <tbody>
-          {items.map((item) => {
+          {items.map((item, rowIndex) => {
             const company = prettifyCompany(item.company);
             return (
             <tr
               key={item.id}
-              className="row-enter border-t border-slate-200 hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
+              // Staggered fade-up on a filter/sort change — capped at the
+              // first ~14 rows so a long list doesn't ripple for a second
+              // (WEBSITE-VISION-PLAN §5.2).
+              style={{ animationDelay: `${Math.min(rowIndex, 14) * 18}ms` }}
+              className="row-enter border-t border-slate-200 transition-colors hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-900"
             >
               {showBookmark && (
                 <td className="px-3 py-2">

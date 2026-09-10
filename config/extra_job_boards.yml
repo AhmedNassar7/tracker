@@ -120,6 +120,8 @@ greenhouse:
   # 2026-09-10 — allowlisted big-tech company whose careers site is bespoke but
   # is really a Greenhouse board under a non-obvious token.
   - doordashusa   # DoorDash (careersatdoordash.com is a skin over greenhouse:doordashusa) — verified 2026-09-10, 456 postings, board name "DoorDash USA"
+  - sonyinteractiveentertainmentglobal   # PlayStation (careers.playstation.com is a skin over this) — verified 2026-09-10, "PlayStation Global", 180 postings incl. AI/UX Software Engineer (US)
+  - siei                                 # Sony Interactive Entertainment Inc. — verified 2026-09-10, 62 postings (Tokyo-heavy)
 
 lever:
   # Same discipline: real Lever board confirmed live 2026-08-18 with actual
@@ -208,6 +210,7 @@ workday:
   - Adobe | adobe.wd5.myworkdayjobs.com | external_experienced              # 287 SWE results
   - Visa | visa.wd5.myworkdayjobs.com | Visa                                # 180 SWE results
   - Mastercard | mastercard.wd1.myworkdayjobs.com | CorporateCareers        # 325 SWE results
+  - Accenture | accenture.wd103.myworkdayjobs.com | accenturecareers        # verified 2026-09-10, 2000+ postings (IT-services consultancy — is_software_job() filters to the SWE rows)
   - Workday | workday.wd5.myworkdayjobs.com | Workday                       # 153 SWE results
   - Valeo | valeo.wd3.myworkdayjobs.com | valeo_jobs                        # verified 2026-09-07, 1020 total incl. real Cairo posting (AI Engineer, AI4ALL)
   - PwC | pwc.wd3.myworkdayjobs.com | Global_Campus_Careers                 # verified 2026-09-07, 83 total, real campus/early-career postings incl. Egypt (Cairo - ETIC)

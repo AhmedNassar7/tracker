@@ -441,7 +441,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
 
   return (
     <div>
-      <SnapshotHero items={opportunityItems} generatedAt={data.generated_at} onQuickFilter={handleQuickFilter} />
+      <SnapshotHero items={opportunityItems} generatedAt={data.generated_at} />
 
       <CompanyShowcase onSelect={handleQuickFilter} activeCompanies={filters.companies} />
 
