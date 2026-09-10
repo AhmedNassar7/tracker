@@ -71,65 +71,69 @@
 /* Home hero rotating word (SnapshotHero.tsx). The tagline that used to sit in
    the footer now lives above the open-count with one noun that cycles —
    jobs → internships → hackathons → events — each sliding up as the last
-   slides out. Pure CSS: four spans stacked in a fixed-height slot, one shared
-   keyframe, each offset by a quarter of the 16s loop. Under reduced motion the
-   slot just shows the first word, static. */
+   slides out. An invisible `.tagline-sizer` (the longest word) reserves the
+   slot's width so nothing around it reflows; the `.tagline-word` spans are
+   absolutely positioned over it and share one 16s keyframe, each offset by a
+   quarter. Under reduced motion only the first word shows, static. */
 .tagline-rotate {
   position: relative;
-  display: inline-block;
-  height: 1.2em;
-  min-width: 12ch;
+  display: inline-flex;
   overflow: hidden;
-  vertical-align: bottom;
-  text-align: left;
+  vertical-align: baseline;
 }
-.tagline-rotate > span {
+.tagline-sizer {
+  visibility: hidden;
+  font-weight: 600;
+}
+.tagline-word {
   position: absolute;
-  inset: 0;
-  font-weight: 700;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  white-space: nowrap;
   color: #0f766e;
   opacity: 0;
 }
-:root[data-theme="dark"] .tagline-rotate > span,
-:root:not([data-theme="light"]) .tagline-rotate > span {
-  color: #2dd4bf;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .tagline-rotate > span {
-    animation: tagline-cycle 16s linear infinite;
-  }
-  .tagline-rotate > span:nth-child(1) {
-    animation-delay: 0s;
-  }
-  .tagline-rotate > span:nth-child(2) {
-    animation-delay: 4s;
-  }
-  .tagline-rotate > span:nth-child(3) {
-    animation-delay: 8s;
-  }
-  .tagline-rotate > span:nth-child(4) {
-    animation-delay: 12s;
-  }
+:root[data-theme="dark"] .tagline-word,
+:root:not([data-theme="light"]) .tagline-word {
+  color: #14b8a6;
 }
 @media (prefers-reduced-motion: reduce) {
-  .tagline-rotate > span:nth-child(1) {
+  .tagline-word:first-of-type {
     opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .tagline-word {
+    animation: tagline-cycle 16s ease-in-out infinite;
+  }
+  .tagline-word:nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  .tagline-word:nth-of-type(2) {
+    animation-delay: 4s;
+  }
+  .tagline-word:nth-of-type(3) {
+    animation-delay: 8s;
+  }
+  .tagline-word:nth-of-type(4) {
+    animation-delay: 12s;
   }
 }
 @keyframes tagline-cycle {
   0% {
     opacity: 0;
-    transform: translateY(110%);
+    transform: translateY(90%);
   }
-  3%,
-  22% {
+  4%,
+  21% {
     opacity: 1;
     transform: translateY(0);
   }
   25%,
   100% {
     opacity: 0;
-    transform: translateY(-110%);
+    transform: translateY(-90%);
   }
 }
 

@@ -46,34 +46,33 @@ export default function SnapshotHero({ items, generatedAt }: Props) {
           before applying.
         </div>
       )}
-      <p className="mb-1 text-sm text-slate-500 dark:text-slate-400">
+      <p className="text-[13px] text-slate-500 dark:text-slate-400">
         Software engineering{" "}
-        <span className="tagline-rotate" aria-hidden="true">
-          <span>jobs</span>
-          <span>internships</span>
-          <span>hackathons</span>
-          <span>events</span>
-        </span>
-        <span className="sr-only">jobs, internships, hackathons and events</span> — refreshed hourly. No
-        signup, no fabricated data.
+        <span className="tagline-rotate">
+          <span className="tagline-sizer" aria-hidden="true">internships</span>
+          <span className="tagline-word" aria-hidden="true">jobs</span>
+          <span className="tagline-word" aria-hidden="true">internships</span>
+          <span className="tagline-word" aria-hidden="true">hackathons</span>
+          <span className="tagline-word" aria-hidden="true">events</span>
+          <span className="sr-only">jobs, internships, hackathons and events</span>
+        </span>{" "}
+        — refreshed hourly, no signup, no fabricated data.
       </p>
-      <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-        <p className="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
-          {total.toLocaleString()}{" "}
-          <span className="text-sm font-medium text-slate-500 dark:text-slate-400">open opportunities</span>
-        </p>
-        <p className="flex items-center gap-x-2 text-xs text-slate-500 dark:text-slate-400">
-          <FreshnessPulse />
-          <span>updated {updatedAgo(generatedAt)}</span>
-          {postedToday > 0 && <span>· {postedToday.toLocaleString()} added today</span>}
-          <a
-            href={`${BASE_URL}dashboard`}
-            className="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
-          >
-            · charts &amp; trends →
-          </a>
-        </p>
-      </div>
+      <p className="mt-1.5 text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
+        {total.toLocaleString()}{" "}
+        <span className="text-sm font-medium text-slate-500 dark:text-slate-400">open opportunities</span>
+      </p>
+      <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-slate-500 dark:text-slate-400">
+        <FreshnessPulse />
+        <span>updated {updatedAgo(generatedAt)}</span>
+        {postedToday > 0 && <span>· {postedToday.toLocaleString()} added today</span>}
+        <a
+          href={`${BASE_URL}dashboard`}
+          className="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
+        >
+          · charts &amp; trends →
+        </a>
+      </p>
     </section>
   );
 }
