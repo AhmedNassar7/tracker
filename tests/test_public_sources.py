@@ -458,6 +458,58 @@ def main():
         "workable empty", wk_empty == [],
     ))
 
+    # Recruitee — /api/offers/ returns {offers:[...]}; only status:"published";
+    # `remote` is the remote flag; region from the office before the "(Remote)"
+    # tag; non-software and unpublished rows filtered out. Also exercises the
+    # widened software_engineer pattern — "Software Development Engineer" now
+    # classifies as software (was falling through to other_swe and dropped).
+    recruitee_payload = {
+        "offers": [
+            {
+                "title": "Senior Software Development Engineer",
+                "status": "published",
+                "careers_url": "https://sahl.recruitee.com/o/senior-sde",
+                "published_at": "2026-02-03",
+                "created_at": "2026-02-01",
+                "remote": True,
+                "locations": [{"city": "Smart Village", "country": "Egypt", "country_code": "EG"}],
+                "description": "<p>Build services in Go and PostgreSQL.</p>",
+                "requirements": "<p>3+ years of experience.</p>",
+            },
+            {
+                "title": "Senior Content Creator",
+                "status": "published",
+                "careers_url": "https://sahl.recruitee.com/o/content",
+                "published_at": "2026-02-03",
+                "locations": [{"city": "Cairo", "country": "Egypt"}],
+                "description": "<p>Write things.</p>",
+            },
+            {
+                "title": "Backend Engineer",
+                "status": "draft",
+                "careers_url": "https://sahl.recruitee.com/o/backend-draft",
+                "locations": [{"city": "Cairo", "country": "Egypt"}],
+            },
+        ],
+    }
+    with patch.object(mod, "fetch_json", return_value=recruitee_payload):
+        rec_rows = mod.fetch_recruitee_jobs("sahl", "Sahl")
+    run("recruitee fetch: published software rows only, region before remote tag, facets", lambda: check(
+        "recruitee fetch",
+        len(rec_rows) == 1
+        and rec_rows[0]["source"] == "recruitee:sahl"
+        and rec_rows[0]["company"] == "Sahl"
+        and rec_rows[0]["region"] == "mena"
+        and "Remote" in rec_rows[0]["location"]
+        and rec_rows[0]["posted_at"] == "2026-02-03"
+        and set(rec_rows[0].get("tech_tags", [])) >= {"Go", "PostgreSQL"}
+        and rec_rows[0].get("min_years_experience") == 3,
+        details=str(rec_rows),
+    ))
+    with patch.object(mod, "fetch_json", return_value={"offers": []}):
+        rec_empty = mod.fetch_recruitee_jobs("empty", "Empty Co")
+    run("recruitee: empty board → no rows, no raise", lambda: check("recruitee empty", rec_empty == []))
+
     smartrecruiters_payload = {
         "content": [
             {

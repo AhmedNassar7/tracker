@@ -55,6 +55,7 @@ ashby:
 smartrecruiters:
   - Visa
   - Wise
+  - ValU1   # Cairo/Giza fintech (BNPL) — careers.smartrecruiters.com/ValU1; 9 postings incl. Senior Full Stack Developer, Senior Integration Engineer (Sheikh Zayed, EG + Jordan). Confirmed out-of-band 2026-09-10 (SR API can't verify a slug on its own)
 
 greenhouse:
   - careem  # Dubai, UAE super-app (Uber-owned) — verified live 2026-08-18, 231 real postings incl. Dubai/UAE
@@ -191,10 +192,19 @@ workable:
   - foodics                    # Riyadh restaurant-tech/fintech (offices in UAE/Egypt/Jordan/Kuwait) — verified 2026-09-07, 27 postings incl. Senior Backend/Full Stack Engineer
   - lucidya                    # Riyadh AI/CX analytics (remote roles across Cairo/Amman/Istanbul) — verified 2026-09-07, 41 postings incl. Software Engineer
   - salla                      # Jeddah/Makkah e-commerce platform — verified 2026-09-07, 30 postings incl. Senior Backend Engineer, Senior Data Scientist
+  - robusta                    # Cairo software studio — verified 2026-09-10, 102 postings
+  - blabs                      # (account "b_labs") — verified 2026-09-10, 7 postings
   # Accounts that exist but had 0 open roles on 2026-09-07 — recheck later:
   #   - breadfast   (Cairo q-commerce)   - rabbit   (Cairo q-commerce)
   #   - elmenus     (Cairo food-tech)    - trella   (Cairo trucking)
   #   - maxab / capiter / nas / mrsool / instashop / yassir / unifonic / zid
+
+recruitee:
+  # Recruitee public board — the value is the <slug>.recruitee.com subdomain,
+  # taken from a company's Recruitee careers URL. One keyless GET on
+  # https://<slug>.recruitee.com/api/offers/. Verify with:
+  #   python scripts/verify_extra_boards.py recruitee:<slug>
+  - sahl    # Cairo insurtech/payments (sahl.recruitee.com) — verified 2026-09-10, real EG software roles
 
 workday:
   # Big global employers whose careers site is Workday but who never get

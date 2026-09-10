@@ -56,7 +56,8 @@ There is no test runner flag to select one test — to isolate a single check wh
 | `write_outputs` / `write_fetch_outputs` | `tests/test_fetch.py` | Fresh write, sort-by-age ordering, change-only skip (age-only diffs don't rewrite), dead-link archiving, vanished-posting archiving, archive revival on reappearance |
 | `main()` orchestration | `tests/test_fetch.py` | Every registered fetcher gets called exactly once per run (strict mode), consistent call counts, `write_outputs` invoked once |
 | `discover_job_board_sources`, `extract_workday_site` | `tests/test_public_sources.py` | Greenhouse/Lever/Workday URL-shape extraction, Workday locale-segment skip (Intel/Sony-style URLs) |
-| `is_software_job`, `detect_level`, `detect_role_type` | `tests/test_public_sources.py` | Software-vs-non-software title filtering |
+| `is_software_job`, `detect_level`, `detect_role_type` | `tests/test_public_sources.py` | Software-vs-non-software title filtering — incl. "Software Development Engineer" / "SDE" / "Application Software Engineer" classifying as software (the `software_engineer` pattern was widened 2026-09-10 — they were falling through to `other_swe` and getting dropped by every public-layer board) |
+| `fetch_recruitee_jobs` | `tests/test_public_sources.py` | Recruitee `/api/offers/` mapping — `status:"published"` only, non-software titles filtered, region from the office before the `(Remote)` tag, `description`+`requirements` HTML → B3/B4/B5 facets; empty board → no rows, no raise |
 | `fetch_devpost_hackathons` | `tests/test_public_sources.py` | JSON API mapping |
 | `fetch_hackerearth_hackathons` | `tests/test_public_sources.py` | `/chrome-extension/events/` JSON mapping; drops rows whose `end_utc_tz` is already past; deadline countdown from `end_utc_tz` |
 | `parse_luma_discover` | `tests/test_public_sources.py` | Tech-relevance filtering (keeps "Cursor Community", drops "Reading Rhythms") |

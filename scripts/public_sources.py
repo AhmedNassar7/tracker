@@ -565,6 +565,85 @@ def fetch_workable_jobs(account_token, company_name):
     return jobs
 
 
+def _recruitee_locations(offer):
+    """Recruitee gives a `locations[]` of address objects plus flat
+    city/country fields — render each as "City, Country", de-duped in order."""
+    out = []
+    raw = offer.get("locations") or []
+    if not raw and (offer.get("city") or offer.get("country")):
+        raw = [{"city": offer.get("city"), "country": offer.get("country")}]
+    for loc in raw:
+        city = clean_text(loc.get("city") or loc.get("name") or "")
+        country = clean_text(loc.get("country") or "")
+        disp = f"{city}, {country}" if city and country and country.lower() not in city.lower() else (city or country)
+        if disp and disp not in out:
+            out.append(disp)
+    return out
+
+
+def fetch_recruitee_jobs(slug, company_name):
+    """Recruitee public job board — one keyless GET on
+    `https://<slug>.recruitee.com/api/offers/` returns `{offers:[...]}` with
+    every published posting (no pagination for normal board sizes). `slug` is
+    the `<slug>.recruitee.com` subdomain, taken from a company's Recruitee
+    careers URL. Verified 2026-09-10 against `sahl` (Cairo insurtech).
+
+    Fields used: title, careers_url, locations[] / city+country, remote /
+    hybrid flags, published_at / created_at, description + requirements (HTML —
+    feeds the B3/B4/B5 facet detectors). Only `status == "published"` rows.
+    """
+    api_url = f"https://{slug}.recruitee.com/api/offers/"
+    try:
+        payload = fetch_json(api_url)
+    except Exception as exc:
+        log_warn(f"Recruitee fetch failed for {slug}: {exc}")
+        return []
+
+    jobs = []
+    for offer in (payload.get("offers") or []) if isinstance(payload, dict) else []:
+        if (offer.get("status") or "published") != "published":
+            continue
+        title = clean_text(offer.get("title") or "")
+        url = offer.get("careers_url") or offer.get("careers_apply_url") or ""
+        if not (title and url) or not is_software_job(title):
+            continue
+        locs = _recruitee_locations(offer)
+        primary = locs[0] if locs else ""
+        location = format_location_display(primary, locs) if len(locs) > 1 else primary
+        # Region from the office location(s), before any "(Remote)" suffix.
+        region = "unknown"
+        for loc in locs:
+            region = detect_region(loc)
+            if region != "unknown":
+                break
+        if offer.get("remote") and "remote" not in primary.lower():
+            location = (location + " (Remote)").strip() if location else "Remote"
+            if region == "unknown":
+                region = "remote"
+        posted_at = parse_iso_date(offer.get("published_at") or offer.get("created_at") or "")
+        description = clean_text(
+            html.unescape(" ".join(filter(None, (offer.get("description"), offer.get("requirements")))))
+        )
+        job = {
+            "id": make_id("recruitee", slug, title, url),
+            "kind": "job",
+            "company": company_name or offer.get("company_name") or slug,
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": region,
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"recruitee:{slug}",
+            "source_url": f"https://{slug}.recruitee.com/",
+        }
+        job.update(job_facets(title, primary, description))
+        jobs.append(job)
+    return jobs
+
+
 def fetch_smartrecruiters_jobs(company_slug, company_name):
     api_url = f"https://api.smartrecruiters.com/v1/companies/{company_slug}/postings?limit=100"
     try:
@@ -745,7 +824,10 @@ def load_extra_job_boards():
     # gets its own subdomain *and* a site path), so those lines are
     # "Company Name | host | site" and land in `boards["workday"]` as
     # (company, host, site) tuples.
-    boards = {"ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [], "workday": [], "pinpoint": [], "workable": []}
+    boards = {
+        "ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [],
+        "workday": [], "pinpoint": [], "workable": [], "recruitee": [],
+    }
     if not path.exists():
         return boards
     section = None
@@ -1348,6 +1430,15 @@ def main():
             fetch_workable_jobs,
             [(token, prettify_company_name(token.replace("-", " "))) for token in extra_boards["workable"]],
             max_workers=SHARED_HOST_WORKERS,
+        ))
+
+    # Recruitee (config only). Each account is its own <slug>.recruitee.com
+    # subdomain, so no shared-host cap needed (same as Workday/PinpointHQ).
+    if extra_boards["recruitee"]:
+        log_info(f"Loaded {len(extra_boards['recruitee'])} Recruitee boards from config")
+        rows.extend(_run_concurrently(
+            fetch_recruitee_jobs,
+            [(slug, prettify_company_name(slug.replace("-", " "))) for slug in extra_boards["recruitee"]],
         ))
 
     rows = dedupe(rows)

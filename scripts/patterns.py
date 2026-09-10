@@ -268,7 +268,11 @@ PUBLIC_ROLE_PATTERNS = {
     "infrastructure": re.compile(r"\binfrastructure|infra|site reliability|sre|devops\b", re.I),
     "security": re.compile(r"\bsecurity\b", re.I),
     "machine_learning": re.compile(r"\bmachine learning|ml engineer|data engineer|data scientist\b", re.I),
-    "software_engineer": re.compile(r"\bsoftware engineer|software developer|sde\b", re.I),
+    "software_engineer": re.compile(
+        r"\bsoftware engineer|\bsoftware developer|\bsoftware (?:development|dev) engineer"
+        r"|\bsde\b|\bswe\b|\bapplication (?:software )?engineer|\bapplications engineer",
+        re.I,
+    ),
 }
 
 PUBLIC_SOFTWARE_ROLE_TYPES = {

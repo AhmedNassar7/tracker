@@ -386,7 +386,7 @@ def tokens_from_config() -> list[tuple[str, str]]:
 # Platforms the pipeline can actually poll today (public_sources.py has a
 # fetcher + load_extra_job_boards reads the section). A ✓ on any OTHER
 # platform is real, but adding it needs a new fetcher first (Lane M3).
-PIPELINE_SUPPORTED = {"greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint", "workable"}
+PIPELINE_SUPPORTED = {"greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint", "workable", "recruitee"}
 
 
 def _dump(plat: str, tok: str) -> int:
