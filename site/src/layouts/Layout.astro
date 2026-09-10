@@ -32,6 +32,7 @@ const sponsorUrl = "https://github.com/sponsors/AhmedNassar7";
 
 const NAV_LINKS = [
 	{ href: base, label: "Jobs", match: (path: string) => path === base },
+	{ href: `${base}today`, label: "Today", match: (path: string) => path.startsWith(`${base}today`) },
 	{ href: `${base}dashboard`, label: "Dashboard", match: (path: string) => path.startsWith(`${base}dashboard`) },
 	{
 		href: `${base}profile`,
