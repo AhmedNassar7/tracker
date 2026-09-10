@@ -71,7 +71,14 @@ On the site, `geo.ts` `regionForItem()` resolves the bucket client-side — the 
 
 **Purpose:** Turn your profile + one job description into a structured cover-letter *draft* — templated and editable, never a finished ghostwritten letter. Free, offline, no AI (APPLICANT-TOOLKIT-PLAN.md Phase 4a).
 
-**Where it lives:** [site/src/lib/coverLetter.ts](../site/src/lib/coverLetter.ts) — `buildCoverLetter(input, profile)` merges the role (company, title), the JD's tech tags that are *also* on your profile (`analyzeKeywordGap(jd, profile).present`), your latest experience entry + a bullet from it, your derived years-of-experience, and your own "why this company" text into a `{ greeting, paragraphs, signoff, signature, placeholders }` object; `coverLetterToText` / `coverLetterToMarkdown` serialise it. Four templates (concise / narrative / impact-led / referral) × three tones (warm / neutral / formal) × two lengths. UI: `CoverLetterBuilder.tsx` — split-pane, live preview, `[bracketed]` prompts highlighted with a "N placeholders to fill" line, Copy / .txt / .md / Print-to-PDF, and **Save to application** (writes `TrackedApplication.coverLetterUsed`).
+**Where it lives:** [site/src/lib/coverLetter.ts](../site/src/lib/coverLetter.ts) — `buildCoverLetter(input, profile)` merges the role (company, title), the JD's tech tags that are *also* on your profile (`analyzeKeywordGap(jd, profile).present`), your latest experience entry + a bullet from it, your derived years-of-experience, and your own "why this company" text into a `{ greeting, paragraphs, signoff, signature, placeholders }` object; `coverLetterToText` / `coverLetterToMarkdown` serialise it. Four templates (concise / narrative / impact-led / referral) × three tones (warm / neutral / formal) × two lengths. The "impact" opener and the fit paragraph deliberately draw *different* bullets so the letter never repeats a line.
+
+**Two modes (`CoverLetterBuilder.tsx`, split-pane, live preview):**
+
+- **Automatic** *(default)* — generate straight from the résumé-derived profile + the pasted JD, no knobs. `recommendCoverLetterOptions(profile, jd)` picks the template (impact if you have a quantified bullet, else narrative, else concise), a neutral tone, and length (full only when you have ≥2 roles *and* a long JD). A one-line note shows what it picked and how many JD-named skills you're aligned on.
+- **Manual** — you set template / tone / length yourself; switching over from Automatic seeds the selects with the recommended values.
+
+`[bracketed]` prompts are highlighted with a "N placeholders to fill" line. Export is exactly two actions plus one: **Copy text**, **Download PDF** (opens the browser print dialog → *Save as PDF*; `document.title` seeds the filename as `Cover letter — {company}`), and **Save to application** (writes `TrackedApplication.coverLetterUsed`).
 
 **No fabrication:** the engine only ever substitutes values the user typed (profile fields, the role, the "why" text). Anything it can't fill — a metric, a specific reason, a referrer's name — stays a visible `[bracket]` for the user to complete, counted in the "placeholders to fill" hint. Nothing is sent anywhere.
 
