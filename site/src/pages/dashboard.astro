@@ -1,34 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import PersonalDashboard from "../components/PersonalDashboard";
 import GlobalDashboard from "../components/GlobalDashboard";
 import DashboardStory from "../components/DashboardStory";
 ---
 
 <Layout
 	title="Dashboard — tracker"
-	description="Your application funnel, plus a live overview of every job, hackathon, and event tracker currently tracks — region mix, level mix, and top sources."
+	description="A live overview of every job, hackathon, and event tracker currently publishes — region mix, level mix, top sources, and this week's hiring trends."
 >
-	<div class="mx-auto max-w-3xl space-y-10">
-		<section>
-			<h1 class="text-2xl font-semibold">📊 Your funnel</h1>
-			<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">
-				Built from your tracked applications · this device only
-			</p>
-			<div class="mt-4">
-				<PersonalDashboard client:load />
-			</div>
-		</section>
-
-		<section>
-			<h2 class="text-2xl font-semibold">🌍 tracker overview</h2>
-			<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">
-				Everything currently published · refreshed hourly
-			</p>
-			<div class="mt-4 space-y-6">
-				<DashboardStory client:visible />
-				<GlobalDashboard client:load />
-			</div>
-		</section>
+	<div class="mx-auto max-w-3xl">
+		<h1 class="text-2xl font-semibold">🌍 Live overview</h1>
+		<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">
+			Everything currently published · refreshed hourly
+		</p>
+		<div class="mt-6 space-y-8">
+			<DashboardStory client:visible />
+			<GlobalDashboard client:load />
+		</div>
 	</div>
 </Layout>

@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ApplicationsTracker from "../components/ApplicationsTracker";
+import PersonalDashboard from "../components/PersonalDashboard";
 import WorkspaceNav from "../components/WorkspaceNav.astro";
 ---
 
@@ -18,5 +19,15 @@ import WorkspaceNav from "../components/WorkspaceNav.astro";
 		<div class="mt-6">
 			<ApplicationsTracker client:load />
 		</div>
+
+		<section class="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800">
+			<h2 class="text-lg font-semibold">Your funnel</h2>
+			<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">
+				Stage timings and match quality, from the applications above
+			</p>
+			<div class="mt-4">
+				<PersonalDashboard client:visible />
+			</div>
+		</section>
 	</div>
 </Layout>

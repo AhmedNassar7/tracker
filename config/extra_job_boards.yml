@@ -194,10 +194,10 @@ workable:
   - salla                      # Jeddah/Makkah e-commerce platform — verified 2026-09-07, 30 postings incl. Senior Backend Engineer, Senior Data Scientist
   - robusta                    # Cairo software studio — verified 2026-09-10, 102 postings
   - blabs                      # (account "b_labs") — verified 2026-09-10, 7 postings
-  # Accounts that exist but had 0 open roles on 2026-09-07 — recheck later:
-  #   - breadfast   (Cairo q-commerce)   - rabbit   (Cairo q-commerce)
-  #   - elmenus     (Cairo food-tech)    - trella   (Cairo trucking)
-  #   - maxab / capiter / nas / mrsool / instashop / yassir / unifonic / zid
+  # Accounts that exist but had 0 open roles — recheck later:
+  #   2026-09-07: breadfast · rabbit · elmenus · trella · maxab · capiter ·
+  #               nas · mrsool · instashop · yassir · unifonic · zid
+  #   2026-09-10: blink22  (Cairo app studio — Workable account exists, 0 open)
 
 recruitee:
   # Recruitee public board — the value is the <slug>.recruitee.com subdomain,

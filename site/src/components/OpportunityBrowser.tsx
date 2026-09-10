@@ -56,7 +56,7 @@ type LoadState =
   | { status: "error"; message: string }
   | { status: "loaded"; data: SiteIndex };
 
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 30;
 
 const SORT_META: Record<SortMode, { label: string; hint: string }> = {
   tier: { label: "Top companies", hint: "Best-known companies first (FAANG → big-tech → …)." },
