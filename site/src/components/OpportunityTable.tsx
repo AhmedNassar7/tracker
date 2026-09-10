@@ -19,11 +19,11 @@ function LivenessBadge({ item }: { item: SiteIndexEntry }) {
   const checked = formatRelativeTime(item.last_checked);
   return (
     <span
-      className="inline-flex items-center gap-1 text-[11px] text-emerald-700 dark:text-emerald-400"
+      className="inline-flex items-center gap-1 text-[11px] text-slate-400 dark:text-slate-500"
       title={checked ? `Apply link confirmed reachable ${checked}` : "Apply link confirmed reachable"}
     >
       <span aria-hidden="true" className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400" />
-      Verified open{checked && <span className="text-slate-400 dark:text-slate-500"> · {checked}</span>}
+      {checked || "verified"}
     </span>
   );
 }
@@ -82,7 +82,7 @@ function MatchChips({ m }: { m: JobMatch }) {
       : m.score >= 40
         ? "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200"
         : "bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300";
-  const headline = m.reasons[0] ?? m.gaps[0] ?? null;
+  const headline = m.contradicts ? (m.gaps[0] ?? m.reasons[0]) : (m.reasons[0] ?? m.gaps[0]) ?? null;
   const detail = [...m.reasons.map((r) => `+ ${r}`), ...m.gaps.map((g) => `− ${g}`)].join("\n");
   return (
     <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px] text-slate-500 dark:text-slate-400">

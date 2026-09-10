@@ -49,6 +49,15 @@ export interface JobMatch {
 const perYear = (n: number, period: string): number =>
   period === "hour" ? n * 2080 : period === "month" ? n * 12 : n;
 
+/** "3d" / "2w" / "1mo" / "0d" → days. Unknown/unparseable → far in the past. */
+function ageInDays(age?: string): number {
+  const m = /^(\d+)\s*(d|w|mo|m|y)?$/.exec((age ?? "").trim());
+  if (!m) return 999;
+  const n = Number(m[1]);
+  const u = m[2];
+  return u === "w" ? n * 7 : u === "mo" || u === "m" ? n * 30 : u === "y" ? n * 365 : n;
+}
+
 /** The profile's declared skills, normalised to the SAME canonical tech-tag
  *  vocabulary the pipeline tags jobs with (`detect_tech_tags` in patterns.py,
  *  mirrored in keywordGap.ts). So "reactjs" / "React.js" / "REACT" all collapse
@@ -176,12 +185,16 @@ export function scoreJobForProfile(item: SiteIndexEntry, p: Profile): JobMatch {
     const fromTags = item.tech_tags ?? [];
     const tags = fromTags.length > 0 ? fromTags : detectTechTags(item.title);
     if (tags.length > 0) {
-      const weight = fromTags.length > 0 ? 5 : 3; // title-only tags are noisier
+      const weight = fromTags.length > 0 ? 6 : 3; // title-only tags are noisier
       const hit = tags.filter((t) => mine.has(t));
       const miss = tags.filter((t) => !mine.has(t));
+      // Proportional, not a flat cap — knowing 12/15 of a stack must beat
+      // knowing 6/15. A tiny absolute-coverage term breaks ties between two
+      // postings at the same *rate* in favour of the one with more overlap.
+      const coverage = hit.length / tags.length;
       ceil += weight;
-      earned += Math.min(hit.length, weight);
-      if (hit.length > 0) reasons.push(`${hit.length}/${tags.length} of the stack (${hit.slice(0, 3).join(", ")})`);
+      earned += weight * Math.min(1, coverage * 0.85 + Math.min(hit.length, 8) / 8 * 0.15);
+      if (hit.length > 0) reasons.push(`${hit.length}/${tags.length} of the stack`);
       if (hit.length > 0 && miss.length > 0) gaps.push(`stack to learn: ${miss.slice(0, 4).join(", ")}`);
     }
   }
@@ -271,12 +284,22 @@ export function scoreJobForProfile(item: SiteIndexEntry, p: Profile): JobMatch {
     }
   }
 
+  // -- recency — a small always-on term so two otherwise-identical postings
+  // still get an order (a fresh listing edges out a week-old one). -----------
+  const days = ageInDays(item.age);
+  ceil += 1;
+  if (days <= 1) earned += 1;
+  else if (days <= 3) earned += 0.7;
+  else if (days <= 7) earned += 0.4;
+  else if (days <= 14) earned += 0.2;
+
   // The raw ratio, then pulled toward a neutral 50 by how little we could
   // actually assess — a posting where only the title told us anything
-  // shouldn't read as a confident 0% or 100%. ~12 pts of assessable signal
-  // (a full set of targets + tags + eligibility) counts as full confidence.
+  // shouldn't read as a confident 0% or 100%. ~9 pts of assessable signal
+  // (tags + seniority + a couple of eligibility facts, or a filled Targets
+  // section) counts as full confidence.
   const rawPct = ceil > 0 ? (Math.max(0, earned) / ceil) * 100 : 50;
-  const confidence = Math.min(1, ceil / 12);
+  const confidence = Math.min(1, ceil / 9);
   let score = Math.round(rawPct * confidence + 50 * (1 - confidence));
   score = Math.max(0, Math.min(100, score));
   if (contradicts) score = Math.min(score, 12);
