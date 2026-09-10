@@ -63,14 +63,14 @@ export default function SnapshotHero({ items, generatedAt }: Props) {
       </h1>
 
       <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
-        Software-engineering{" "}
+        Software-Engineering{" "}
         <span className="tagline-rotate">
-          <span className="tagline-sizer" aria-hidden="true">internships</span>
-          <span className="tagline-word" aria-hidden="true">roles</span>
-          <span className="tagline-word" aria-hidden="true">internships</span>
-          <span className="tagline-word" aria-hidden="true">hackathons</span>
-          <span className="tagline-word" aria-hidden="true">events</span>
-          <span className="sr-only">roles, internships, hackathons and events</span>
+          <span className="tagline-sizer" aria-hidden="true">Internships</span>
+          <span className="tagline-word" aria-hidden="true">Roles</span>
+          <span className="tagline-word" aria-hidden="true">Internships</span>
+          <span className="tagline-word" aria-hidden="true">Hackathons</span>
+          <span className="tagline-word" aria-hidden="true">Events</span>
+          <span className="sr-only">Roles, internships, hackathons and events</span>
         </span>
       </p>
       <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
