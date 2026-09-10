@@ -18,12 +18,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const NAV_LINKS = [
 	{ href: base, label: "Jobs", match: (path: string) => path === base },
-	{ href: `${base}mena`, label: "MENA", match: (path: string) => path.startsWith(`${base}mena`) },
-	{ href: `${base}resources`, label: "Resources", match: (path: string) => path.startsWith(`${base}resources`) },
-	{ href: `${base}profile`, label: "My Profile", match: (path: string) => path.startsWith(`${base}profile`) },
-	{ href: `${base}applications`, label: "My Applications", match: (path: string) => path.startsWith(`${base}applications`) },
-	{ href: `${base}toolkit/resume`, label: "Résumé Check", match: (path: string) => path.startsWith(`${base}toolkit/resume`) },
 	{ href: `${base}dashboard`, label: "Dashboard", match: (path: string) => path.startsWith(`${base}dashboard`) },
+	{
+		href: `${base}profile`,
+		label: "My Workspace",
+		match: (path: string) =>
+			path.startsWith(`${base}profile`) ||
+			path.startsWith(`${base}applications`) ||
+			path.startsWith(`${base}toolkit`),
+	},
 ];
 const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.href ?? base;
 ---

@@ -1,0 +1,39 @@
+---
+import { BASE_URL } from "../lib/basePath";
+
+// Sub-navigation shared by the three "your stuff" routes (all local-only,
+// same category): the unified profile, the application tracker, and the
+// résumé keyword check. Each keeps its own URL so it stays shareable and
+// bookmarkable — this bar just ties them together as one personal area.
+
+const base = BASE_URL;
+const path = Astro.url.pathname;
+
+const TABS = [
+	{ href: `${base}profile`, label: "Profile", match: (p: string) => p.startsWith(`${base}profile`) },
+	{ href: `${base}applications`, label: "Applications", match: (p: string) => p.startsWith(`${base}applications`) },
+	{ href: `${base}toolkit/resume`, label: "Résumé check", match: (p: string) => p.startsWith(`${base}toolkit`) },
+];
+---
+
+<nav aria-label="My Workspace" class="mb-6 flex gap-1 border-b border-slate-200 dark:border-slate-800">
+	{
+		TABS.map((tab) => {
+			const active = tab.match(path);
+			return (
+				<a
+					href={tab.href}
+					aria-current={active ? "page" : undefined}
+					class:list={[
+						"-mb-px border-b-2 px-3 py-2 text-sm font-medium transition-colors",
+						active
+							? "border-teal-600 text-teal-700 dark:border-teal-400 dark:text-teal-300"
+							: "border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200",
+					]}
+				>
+					{tab.label}
+				</a>
+			);
+		})
+	}
+</nav>

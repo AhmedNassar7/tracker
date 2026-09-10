@@ -414,8 +414,6 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
 
       <CompanyShowcase onSelect={handleQuickFilter} activeCompanies={filters.companies} />
 
-      <StoryStrip cards={storyCards} onSelect={handleQuickFilter} />
-
       {newIds.size > 0 && !bannerDismissed && (
         <div className="mb-4 flex flex-wrap items-center gap-3 rounded-md border border-teal-200 bg-teal-50 px-4 py-2.5 text-sm dark:border-teal-900 dark:bg-teal-950">
           <span className="text-teal-900 dark:text-teal-100">
@@ -599,6 +597,8 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && (
         <BrowseEveryRole boards={boardItems} query={filters.q} companies={filters.companies} />
       )}
+
+      {!showOnlyNew && <StoryStrip cards={storyCards} onSelect={handleQuickFilter} />}
     </div>
   );
 }

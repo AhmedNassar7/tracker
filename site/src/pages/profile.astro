@@ -1,19 +1,39 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ProfilePanel from "../components/ProfilePanel";
+import WorkspaceNav from "../components/WorkspaceNav.astro";
+
+const POINTS = [
+	{ icon: "📝", title: "Fill it in once", body: "Experience, skills, links, and what you're looking for." },
+	{ icon: "♻️", title: "Reused everywhere", body: "The résumé keyword check and your tracked applications both read from it." },
+	{ icon: "🔒", title: "This browser only", body: "Nothing is sent anywhere. Export a copy or erase it any time." },
+];
 ---
 
 <Layout
 	title="My Profile — tracker"
-	description="Fill in your details once — experience, skills, links, and what you're looking for — then reuse them across the cover-letter and résumé tools. Stored only in this browser, exportable any time."
+	description="Fill in your details once — experience, skills, links, and what you're looking for — then reuse them across the résumé keyword check and your tracked applications. Stored only in this browser, exportable any time."
 >
 	<div class="mx-auto max-w-3xl">
+		<WorkspaceNav />
 		<h1 class="text-2xl font-semibold">My Profile</h1>
-		<p class="mt-2 text-sm text-slate-600 dark:text-slate-400">
-			Fill this in once. The cover-letter builder, the résumé keyword check, and your tracked
-			applications all read from it. Nothing here is sent anywhere — it lives in this browser
-			only, and you can export or erase it at any time.
+		<p class="mt-2 max-w-2xl text-sm text-slate-600 dark:text-slate-400">
+			One place for your details, so the other tools have something to work with.
 		</p>
+
+		<ul class="mt-5 grid gap-3 sm:grid-cols-3">
+			{
+				POINTS.map((p) => (
+					<li class="rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+						<span aria-hidden="true" class="text-lg">
+							{p.icon}
+						</span>
+						<p class="mt-1.5 text-sm font-medium text-slate-800 dark:text-slate-100">{p.title}</p>
+						<p class="mt-1 text-xs leading-relaxed text-slate-500 dark:text-slate-400">{p.body}</p>
+					</li>
+				))
+			}
+		</ul>
 
 		<div class="mt-6">
 			<ProfilePanel client:load />

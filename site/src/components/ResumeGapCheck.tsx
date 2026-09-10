@@ -111,7 +111,8 @@ export default function ResumeGapCheck() {
           Paste a job description
         </label>
         <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-          Nothing is sent anywhere — this runs entirely in your browser.
+          The full posting works best — the requirements and "about the role" sections are where
+          the skills live.
         </p>
         <textarea
           id="jd"

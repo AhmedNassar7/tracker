@@ -3,7 +3,8 @@ import type { StoryCard } from "../lib/types";
 
 // D1 — the "story strip". A row of 3-4 auto-generated stat cards (built by
 // build_story_cards() in the pipeline, so every word of `title`/`detail` is
-// generated, not hand-written here) sitting between the hero and the list.
+// generated, not hand-written here). It renders as a quiet footer under the
+// list — not above it — so the roles are the first thing on the page.
 // Clicking a card applies its pre-baked filter and jumps to the results.
 // Purely additive: if data/story-cards.json is missing or empty, the strip
 // just doesn't render.
@@ -73,9 +74,9 @@ export default function StoryStrip({ cards, onSelect }: Props) {
   if (cards.length === 0) return null;
 
   return (
-    <section aria-label="This week's hiring snapshot" className="mb-6">
-      <h2 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
-        <span aria-hidden="true">📊</span> This week&apos;s story
+    <section aria-label="This week's hiring snapshot" className="mt-10 border-t border-slate-200 pt-6 dark:border-slate-800">
+      <h2 className="mb-3 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+        <span aria-hidden="true">📊</span> This week&apos;s hiring trends
       </h2>
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {cards.map((card, i) => {
