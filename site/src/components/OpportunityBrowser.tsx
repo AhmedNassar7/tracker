@@ -272,7 +272,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     if (useProfileScoring && profile) {
       const decorated = items.map((item, i) => ({ item, i, m: scoreJobForProfile(item, profile) }));
       const byScore = (a: (typeof decorated)[number], b: (typeof decorated)[number]) =>
-        b.m.raw - a.m.raw || a.i - b.i;
+        b.m.score - a.m.score || b.m.raw - a.m.raw || a.i - b.i;
       const matched = decorated.filter((d) => !d.m.contradicts).sort(byScore).map((d) => d.item);
       const contra = decorated.filter((d) => d.m.contradicts).sort(byScore).map((d) => d.item);
       return { primary: matched, lessRelevant: contra };

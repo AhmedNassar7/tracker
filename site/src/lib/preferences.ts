@@ -180,7 +180,10 @@ export function isExcluded(item: SiteIndexEntry, tune: RankTune): boolean {
  *  score, they don't banish. */
 export function contradictsPrefFilter(item: SiteIndexEntry, pref: FilterState): boolean {
   if (pref.kind !== "all" && item.kind !== pref.kind) return true;
-  if (pref.levels.length > 0 && !(item.level && pref.levels.includes(item.level))) return true;
+  // Only banish on a *known* level the user didn't ask for — a posting we
+  // couldn't classify (no level word in the title) stays in the main list
+  // rather than being partitioned out on a missing field.
+  if (pref.levels.length > 0 && item.level && !pref.levels.includes(item.level)) return true;
   return false;
 }
 

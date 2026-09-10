@@ -46,6 +46,17 @@ export default function SnapshotHero({ items, generatedAt }: Props) {
           before applying.
         </div>
       )}
+      <p className="mb-1 text-sm text-slate-500 dark:text-slate-400">
+        Software engineering{" "}
+        <span className="tagline-rotate" aria-hidden="true">
+          <span>jobs</span>
+          <span>internships</span>
+          <span>hackathons</span>
+          <span>events</span>
+        </span>
+        <span className="sr-only">jobs, internships, hackathons and events</span> — refreshed hourly. No
+        signup, no fabricated data.
+      </p>
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
         <p className="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
           {total.toLocaleString()}{" "}
