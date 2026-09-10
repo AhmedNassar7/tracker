@@ -16,7 +16,7 @@ const PREF_FILTER_KEY = "tracker:prefFilter";
 const RANK_TUNE_KEY = "tracker:rankTune";
 const SORT_MODE_KEY = "tracker:sortMode";
 
-export type SortMode = "tier" | "newest" | "relevance";
+export type SortMode = "tier" | "newest" | "relevance" | "match";
 
 export interface RankTune {
   keywords: string[]; // free text, matched against title + company + location
@@ -146,7 +146,7 @@ export function readSortMode(): SortMode | null {
   if (typeof window === "undefined") return null;
   try {
     const s = window.localStorage.getItem(SORT_MODE_KEY);
-    return s === "relevance" || s === "newest" || s === "tier" ? s : null;
+    return s === "relevance" || s === "newest" || s === "tier" || s === "match" ? s : null;
   } catch {
     return null;
   }

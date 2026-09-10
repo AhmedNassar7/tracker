@@ -29,6 +29,8 @@ import {
   type SortMode,
 } from "../lib/preferences";
 import type { SiteIndex, SiteIndexEntry, StoryCard } from "../lib/types";
+import { loadProfile, type Profile } from "../lib/profile";
+import { profileCanMatch, scoreJobForProfile, type JobMatch } from "../lib/profileMatch";
 import { companyTier } from "../lib/companyTiers";
 import { countryForItem, regionForItem, REGION_ORDER } from "../lib/geo";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
@@ -61,6 +63,7 @@ const SORT_META: Record<SortMode, { label: string; hint: string }> = {
   tier: { label: "Top companies", hint: "Best-known companies first (FAANG → big-tech → …)." },
   newest: { label: "Newest", hint: "Most recently posted first." },
   relevance: { label: "Relevance", hint: "Ranked to match the filter you saved as your preferences." },
+  match: { label: "Best for you", hint: "Ranked against your whole profile — skills, targets, and experience." },
 };
 
 function formatGeneratedAt(iso: string): string {
@@ -89,6 +92,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   const [trackedApps, setTrackedApps] = useState<Map<string, TrackedApplication>>(new Map());
   const [newIds, setNewIds] = useState<Set<string>>(new Set());
   const [lastVisitAt, setLastVisitAt] = useState<string | null>(null);
+  const [profile, setProfile] = useState<Profile | null>(null);
   const [showOnlyNew, setShowOnlyNew] = useState(false);
   const [bannerDismissed, setBannerDismissed] = useState(false);
   const [storyCards, setStoryCards] = useState<StoryCard[]>([]);
@@ -106,6 +110,8 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
 
   const hasSavedPrefs = prefFilterIsMeaningful(prefFilter);
   const relevanceActive = sortMode === "relevance" && hasSavedPrefs && !!prefFilter;
+  const canMatch = !!profile && profileCanMatch(profile);
+  const matchActive = sortMode === "match" && canMatch && !!profile;
   const currentIsSaved = !!prefFilter && filtersEqual(filters, prefFilter);
 
   const updateSortMode = (mode: SortMode) => {
@@ -164,6 +170,17 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     };
   }, []);
 
+  // The saved profile drives the "Best for you" sort + per-row match chips.
+  useEffect(() => {
+    let cancelled = false;
+    loadProfile().then((p) => {
+      if (!cancelled) setProfile(p);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   useEffect(() => {
     let cancelled = false;
     fetchStoryCards()
@@ -202,6 +219,12 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       void untrackApplication(item.id);
     } else {
       const now = new Date().toISOString();
+      // Freeze the profile-match score at track time (jobs only), so the
+      // personal dashboard stays meaningful even if the profile changes later.
+      const matchScore =
+        item.kind === "job" && profile && profileCanMatch(profile)
+          ? scoreJobForProfile(item, profile).score
+          : undefined;
       const optimistic: TrackedApplication = {
         id: item.id,
         kind: item.kind,
@@ -209,6 +232,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
         title: item.title,
         url: item.url,
         level: item.level,
+        ...(matchScore != null ? { matchScore } : {}),
         status: "bookmarked",
         notes: "",
         statusHistory: [{ status: "bookmarked", at: now }],
@@ -216,7 +240,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
         updatedAt: now,
       };
       setTrackedApps((prev) => new Map(prev).set(item.id, optimistic));
-      void trackApplication(item);
+      void trackApplication({ ...item, matchScore });
     }
   }
 
@@ -264,6 +288,15 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       return { primary: matched, lessRelevant: contra };
     }
 
+    if (matchActive && profile) {
+      const decorated = items.map((item, i) => ({ item, i, m: scoreJobForProfile(item, profile) }));
+      const byScore = (a: (typeof decorated)[number], b: (typeof decorated)[number]) =>
+        b.m.raw - a.m.raw || a.i - b.i;
+      const matched = decorated.filter((d) => !d.m.contradicts).sort(byScore).map((d) => d.item);
+      const contra = decorated.filter((d) => d.m.contradicts).sort(byScore).map((d) => d.item);
+      return { primary: matched, lessRelevant: contra };
+    }
+
     if (sortMode === "newest") {
       items = items
         .map((item, i) => ({ item, i, age: ageToDays(item.age) }))
@@ -304,7 +337,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       })
       .map((e) => e.item);
     return { primary: items, lessRelevant: [] };
-  }, [state, opportunityItems, filters, showOnlyNew, newIds, rankTune, relevanceActive, prefFilter, sortMode]);
+  }, [state, opportunityItems, filters, showOnlyNew, newIds, rankTune, relevanceActive, prefFilter, sortMode, matchActive, profile]);
 
   const filteredItems = useMemo(
     () => (showLessRelevant ? [...primary, ...lessRelevant] : primary),
@@ -325,6 +358,13 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     }
     return map;
   }, [relevanceActive, prefFilter, rankTune, visibleItems]);
+
+  const matchById = useMemo(() => {
+    if (!matchActive || !profile) return undefined;
+    const map = new Map<string, JobMatch>();
+    for (const item of visibleItems) map.set(item.id, scoreJobForProfile(item, profile));
+    return map;
+  }, [matchActive, profile, visibleItems]);
 
   // Engineering disciplines present in the loaded data, in the canonical
   // ROLE_VALUES order (most-common first) — data-driven so an absent
@@ -447,9 +487,13 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-2">
         <span className="text-xs font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">Sort</span>
         <div className="inline-flex overflow-hidden rounded-md border border-slate-200 text-sm dark:border-slate-700">
-          {(["tier", "newest", "relevance"] as const).map((mode) => {
-            const disabled = mode === "relevance" && !hasSavedPrefs;
+          {(["tier", "newest", "relevance", "match"] as const).map((mode) => {
+            const disabled = (mode === "relevance" && !hasSavedPrefs) || (mode === "match" && !canMatch);
             const active = sortMode === mode;
+            const disabledTitle =
+              mode === "match"
+                ? "Fill in your profile (skills or what you're looking for) first"
+                : "Save a filter as your preferences first";
             return (
               <button
                 key={mode}
@@ -457,7 +501,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
                 disabled={disabled}
                 onClick={() => updateSortMode(mode)}
                 aria-pressed={active}
-                title={disabled ? "Save a filter as your preferences first" : SORT_META[mode].hint}
+                title={disabled ? disabledTitle : SORT_META[mode].hint}
                 className={
                   "px-3 py-1 font-medium transition-colors " +
                   (active
@@ -575,8 +619,9 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
             trackedIds={trackedIds}
             onToggleTrack={handleToggleTrack}
             matchReasons={reasonsById}
+            matchById={matchById}
           />
-          {relevanceActive && lessRelevant.length > 0 && (
+          {(relevanceActive || matchActive) && lessRelevant.length > 0 && (
             <button
               type="button"
               onClick={() => setShowLessRelevant((v) => !v)}
@@ -584,7 +629,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
             >
               {showLessRelevant
                 ? `Hide ${lessRelevant.length.toLocaleString()} less-relevant role${lessRelevant.length === 1 ? "" : "s"}`
-                : `${lessRelevant.length.toLocaleString()} less-relevant role${lessRelevant.length === 1 ? "" : "s"} (don't match your saved level/kind) — show anyway`}
+                : `${lessRelevant.length.toLocaleString()} less-relevant role${lessRelevant.length === 1 ? "" : "s"} (${matchActive ? "a hard mismatch with your profile" : "don't match your saved level/kind"}) — show anyway`}
             </button>
           )}
           {totalPages > 1 && <Pagination page={safePage} totalPages={totalPages} onChange={goToPage} />}

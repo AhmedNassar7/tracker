@@ -4,6 +4,7 @@ import Flag from "./Flag";
 import { BASE_URL } from "../lib/basePath";
 import { formatAge, formatLevel, formatRelativeTime, formatSalaryShort, prettifyCompany } from "../lib/labels";
 import { countryForItem } from "../lib/geo";
+import type { JobMatch } from "../lib/profileMatch";
 import type { SiteIndexEntry } from "../lib/types";
 
 const MAX_TECH_CHIPS = 4;
@@ -80,6 +81,40 @@ function FacetChips({ item }: { item: SiteIndexEntry }) {
   );
 }
 
+// "Best for you" sort — the profile-match score plus its plain-language
+// reasons and gaps (profileMatch.ts). Only rendered when that sort is active.
+function MatchChips({ m }: { m: JobMatch }) {
+  const tone =
+    m.score >= 70
+      ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200"
+      : m.score >= 40
+        ? "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200"
+        : "bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300";
+  return (
+    <div className="mt-1 flex flex-wrap items-center gap-1">
+      <span className={`rounded-full px-1.5 py-0.5 text-[10px] font-semibold ${tone}`}>
+        <span aria-hidden="true">🎯</span> {m.score}% match
+      </span>
+      {m.reasons.slice(0, 3).map((reason) => (
+        <span
+          key={`r-${reason}`}
+          className="rounded-full bg-teal-50 px-1.5 py-0.5 text-[10px] font-medium capitalize text-teal-700 dark:bg-teal-950 dark:text-teal-300"
+        >
+          {reason}
+        </span>
+      ))}
+      {m.gaps.slice(0, 2).map((gap) => (
+        <span
+          key={`g-${gap}`}
+          className="rounded-full bg-rose-50 px-1.5 py-0.5 text-[10px] font-medium text-rose-700 dark:bg-rose-950 dark:text-rose-300"
+        >
+          {gap}
+        </span>
+      ))}
+    </div>
+  );
+}
+
 const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
   job: "Job",
   hackathon: "Hackathon",
@@ -143,8 +178,11 @@ interface Props {
   trackedIds?: Set<string>;
   onToggleTrack?: (item: SiteIndexEntry) => void;
   // id → human "why this ranked here" reasons, only passed when the
-  // "Best match" sort is active. Absent means don't render match chips.
+  // "Relevance" sort is active. Absent means don't render relevance chips.
   matchReasons?: Map<string, string[]>;
+  // id → full profile-match result, only passed when "Best for you" sort is
+  // active. Takes precedence over matchReasons for that row.
+  matchById?: Map<string, JobMatch>;
 }
 
 export default function OpportunityTable({
@@ -152,6 +190,7 @@ export default function OpportunityTable({
   trackedIds,
   onToggleTrack,
   matchReasons,
+  matchById,
 }: Props) {
   const showBookmark = !!onToggleTrack;
   // Columns adapt to what's actually in view: "Level" only means something
@@ -247,17 +286,21 @@ export default function OpportunityTable({
                   </span>
                   <LivenessBadge item={item} />
                 </div>
-                {matchReasons?.get(item.id) && (
-                  <div className="mt-1 flex flex-wrap gap-1">
-                    {matchReasons.get(item.id)!.map((reason) => (
-                      <span
-                        key={reason}
-                        className="rounded-full bg-teal-50 px-1.5 py-0.5 text-[10px] font-medium capitalize text-teal-700 dark:bg-teal-950 dark:text-teal-300"
-                      >
-                        {reason}
-                      </span>
-                    ))}
-                  </div>
+                {matchById?.get(item.id) ? (
+                  <MatchChips m={matchById.get(item.id)!} />
+                ) : (
+                  matchReasons?.get(item.id) && (
+                    <div className="mt-1 flex flex-wrap gap-1">
+                      {matchReasons.get(item.id)!.map((reason) => (
+                        <span
+                          key={reason}
+                          className="rounded-full bg-teal-50 px-1.5 py-0.5 text-[10px] font-medium capitalize text-teal-700 dark:bg-teal-950 dark:text-teal-300"
+                        >
+                          {reason}
+                        </span>
+                      ))}
+                    </div>
+                  )
                 )}
                 <FacetChips item={item} />
               </td>

@@ -44,6 +44,11 @@ export interface TrackedApplication {
   // expires, so the personal dashboard's breakdown stays meaningful for
   // applications whose original posting is long gone.
   level?: string;
+  // The profile-match score (0–100 from profileMatch.ts) frozen at track
+  // time, so the personal dashboard can show "you applied to a lot of
+  // weak-match roles" even after the profile or the listing changes. Absent
+  // when no usable profile existed at track time.
+  matchScore?: number;
   status: ApplicationStatus;
   notes: string;
   // Every status transition, oldest first — what makes real elapsed-time
@@ -97,7 +102,9 @@ export async function listApplications(): Promise<TrackedApplication[]> {
   return Object.values(map).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
-type TrackableEntry = Pick<SiteIndexEntry, "id" | "kind" | "company" | "title" | "url" | "level">;
+type TrackableEntry = Pick<SiteIndexEntry, "id" | "kind" | "company" | "title" | "url" | "level"> & {
+  matchScore?: number;
+};
 
 export function trackApplication(entry: TrackableEntry): Promise<TrackedApplication> {
   return enqueueMutation((map) => {
@@ -109,6 +116,7 @@ export function trackApplication(entry: TrackableEntry): Promise<TrackedApplicat
       title: entry.title,
       url: entry.url,
       level: entry.level,
+      ...(typeof entry.matchScore === "number" ? { matchScore: entry.matchScore } : {}),
       status: "bookmarked",
       notes: "",
       statusHistory: [{ status: "bookmarked", at: now }],

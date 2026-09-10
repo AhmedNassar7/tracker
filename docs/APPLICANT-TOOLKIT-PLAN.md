@@ -388,8 +388,14 @@ gaps[], contradicts }` — explainable, never a black-box number.
    the Experience section ("that's about ~N years"); `profileMatch.ts` compares it to a job's
    `min_years_experience` (+2 / gap / −3 + contradiction when 2+ short), and the `/toolkit/resume`
    Experience row upgrades from info → ok/warn against it. An explicit override field can come later.
-4. **Wire the score into the UI** — a "Match" sort mode + a per-row score chip on the board
-   (Phase 3d), and freeze it onto `TrackedApplication.matchScore` at track time (Phase 2).
+4. ~~**Wire the score into the UI**~~ ✅ **Done** — `OpportunityBrowser` loads the profile and
+   adds a **"Best for you"** sort mode (disabled until the profile has skills or targets), ranking
+   the list by `scoreJobForProfile().raw` and partitioning hard mismatches below a "show anyway"
+   line like Relevance does. `OpportunityTable` renders a **`MatchChips`** row per result — a
+   `🎯 N% match` pill (green/amber/grey by band) plus up to 3 reason chips and 2 gap chips. The
+   score is **frozen onto `TrackedApplication.matchScore`** at track time (`tracker.ts` +
+   `handleToggleTrack`), jobs only, only when a usable profile exists. Still open: surface the
+   frozen scores on the personal dashboard ("you're applying mostly to weak-match roles").
 
 ---
 
