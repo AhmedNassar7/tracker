@@ -49,6 +49,9 @@ export interface TrackedApplication {
   // weak-match roles" even after the profile or the listing changes. Absent
   // when no usable profile existed at track time.
   matchScore?: number;
+  // The cover-letter draft the user saved for this role (Phase 4a). Plain
+  // text, local-only, overwritten on each save. Absent until they save one.
+  coverLetterUsed?: string;
   status: ApplicationStatus;
   notes: string;
   // Every status transition, oldest first — what makes real elapsed-time
@@ -136,7 +139,7 @@ export function untrackApplication(id: string): Promise<void> {
 
 export function updateApplication(
   id: string,
-  patch: Partial<Pick<TrackedApplication, "status" | "notes">>,
+  patch: Partial<Pick<TrackedApplication, "status" | "notes" | "coverLetterUsed">>,
 ): Promise<TrackedApplication | undefined> {
   return enqueueMutation((map) => {
     const existing = map[id];

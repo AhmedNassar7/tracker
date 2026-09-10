@@ -1,0 +1,22 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import CoverLetterBuilder from "../../components/CoverLetterBuilder";
+import WorkspaceNav from "../../components/WorkspaceNav.astro";
+---
+
+<Layout
+	title="Cover letter builder — tracker"
+	description="Turn your profile plus one job description into a structured cover-letter draft — templated, editable, and generated entirely in your browser. No account, no AI."
+>
+	<div class="mx-auto max-w-4xl">
+		<WorkspaceNav />
+		<h1 class="text-2xl font-semibold">✍️ Cover letter</h1>
+		<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">
+			Built from your profile — only what you type. Nothing invented, nothing sent anywhere.
+		</p>
+
+		<div class="mt-6">
+			<CoverLetterBuilder client:load />
+		</div>
+	</div>
+</Layout>

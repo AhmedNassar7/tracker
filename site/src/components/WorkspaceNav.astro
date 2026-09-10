@@ -12,7 +12,8 @@ const path = Astro.url.pathname;
 const TABS = [
 	{ href: `${base}profile`, label: "Profile", match: (p: string) => p.startsWith(`${base}profile`) },
 	{ href: `${base}applications`, label: "Applications", match: (p: string) => p.startsWith(`${base}applications`) },
-	{ href: `${base}toolkit/resume`, label: "Résumé check", match: (p: string) => p.startsWith(`${base}toolkit`) },
+	{ href: `${base}toolkit/resume`, label: "Résumé check", match: (p: string) => p.startsWith(`${base}toolkit/resume`) },
+	{ href: `${base}toolkit/cover-letter`, label: "Cover letter", match: (p: string) => p.startsWith(`${base}toolkit/cover-letter`) },
 ];
 ---
 

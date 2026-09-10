@@ -234,6 +234,17 @@ keep. Ours: subscribe with an RSS reader (zero identity) or opt into on-device p
 
 ### Phase 4 — Cover Letter Builder · `/toolkit/cover-letter` {#phase-4}
 
+> **Status: 4a shipped 2026-09-10.** `site/src/lib/coverLetter.ts` (`buildCoverLetter` +
+> `coverLetterToText` / `coverLetterToMarkdown`) + `CoverLetterBuilder.tsx` on
+> `/toolkit/cover-letter` (a "Cover letter" tab in the Workspace sub-nav). Split-pane:
+> inputs left (start from a tracked application or type company/title; paste the JD — its
+> `detectTechTags` ∩ your profile skills become the "will mention" list; a "why this
+> company" box; template × tone × length selects), live preview right with `[bracketed]`
+> prompts highlighted and a "N placeholders to fill" line. Copy / .txt / .md / Print-to-PDF
+> (a clean serif print stylesheet in a popped window), and **"Save to application"**
+> (`TrackedApplication.coverLetterUsed`). Every merged value comes from the profile or the
+> user's own inputs — nothing invented. **4b (BYO-key AI polish) is still open.**
+
 **4a — Template engine (free, offline, the default).**
 Pick a tracked application or paste a JD URL → the tool pulls `company`, `title`, top
 `tech_tags`, `location`, `salary` from `site-index.json` (or parses a pasted JD), merges them
