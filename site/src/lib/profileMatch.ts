@@ -1,6 +1,6 @@
 import { companyNameMatches, DEFAULT_FILTERS, type FilterState } from "./filters";
 import { countryForItem, regionForItem } from "./geo";
-import { detectSkillTags, detectTechTags } from "./keywordGap";
+import { detectSkillTags } from "./keywordGap";
 import { matchReasons } from "./preferences";
 import { deriveYearsOfExperience, type Profile } from "./profile";
 import type { SiteIndexEntry } from "./types";
@@ -177,26 +177,27 @@ export function scoreJobForProfile(item: SiteIndexEntry, p: Profile): JobMatch {
   }
 
   // -- skills <-> tech tags (canonical detect_tech_tags vocabulary, R2) -----
-  // `item.tech_tags` come from the pipeline's description-based detector; only
-  // Greenhouse/Lever/Ashby carry them. For everything else, fall back to
-  // whatever the *title* names so the row still gets a skill signal.
+  // `item.tech_tags` come from the pipeline's description-based detector and
+  // are often sparse — ~40% of tagged postings surface ≤3 tags, and a JD that
+  // only yielded "Kubernetes" tells us almost nothing. So this engages only
+  // once the JD gave us at least MIN_TAGS_FOR_STACK to judge against, and the
+  // weight scales with how many tags there were (evidence), not just the hit
+  // rate — "1/1" must not read as a perfect-fit stack.
+  const MIN_TAGS_FOR_STACK = 3;
   const mine = canonicalSkillTags(p);
-  if (mine.size > 0) {
-    const fromTags = item.tech_tags ?? [];
-    const tags = fromTags.length > 0 ? fromTags : detectTechTags(item.title);
-    if (tags.length > 0) {
-      const weight = fromTags.length > 0 ? 6 : 3; // title-only tags are noisier
-      const hit = tags.filter((t) => mine.has(t));
-      const miss = tags.filter((t) => !mine.has(t));
-      // Proportional, not a flat cap — knowing 12/15 of a stack must beat
-      // knowing 6/15. A tiny absolute-coverage term breaks ties between two
-      // postings at the same *rate* in favour of the one with more overlap.
-      const coverage = hit.length / tags.length;
-      ceil += weight;
-      earned += weight * Math.min(1, coverage * 0.85 + Math.min(hit.length, 8) / 8 * 0.15);
-      if (hit.length > 0) reasons.push(`${hit.length}/${tags.length} of the stack`);
-      if (hit.length > 0 && miss.length > 0) gaps.push(`stack to learn: ${miss.slice(0, 4).join(", ")}`);
-    }
+  const tags = item.tech_tags ?? [];
+  if (mine.size > 0 && tags.length >= MIN_TAGS_FOR_STACK) {
+    const hit = tags.filter((t) => mine.has(t));
+    const miss = tags.filter((t) => !mine.has(t));
+    const coverage = hit.length / tags.length;
+    const evidence = Math.min(1, tags.length / 8); // full confidence at ~8 tags
+    const weight = 6 * evidence;
+    // Proportional, plus a small absolute-overlap nudge so two postings at the
+    // same rate order by who has more raw overlap.
+    ceil += weight;
+    earned += weight * Math.min(1, coverage * 0.85 + (Math.min(hit.length, 8) / 8) * 0.15);
+    if (hit.length > 0) reasons.push(`${hit.length}/${tags.length} of the stack`);
+    if (hit.length > 0 && miss.length > 0) gaps.push(`stack to learn: ${miss.slice(0, 4).join(", ")}`);
   }
 
   // -- disclosed salary vs your floor (only when currencies match) ----------
