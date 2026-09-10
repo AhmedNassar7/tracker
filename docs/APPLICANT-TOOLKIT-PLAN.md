@@ -394,8 +394,10 @@ gaps[], contradicts }` — explainable, never a black-box number.
    line like Relevance does. `OpportunityTable` renders a **`MatchChips`** row per result — a
    `🎯 N% match` pill (green/amber/grey by band) plus up to 3 reason chips and 2 gap chips. The
    score is **frozen onto `TrackedApplication.matchScore`** at track time (`tracker.ts` +
-   `handleToggleTrack`), jobs only, only when a usable profile exists. Still open: surface the
-   frozen scores on the personal dashboard ("you're applying mostly to weak-match roles").
+   `handleToggleTrack`), jobs only, only when a usable profile exists. The personal dashboard
+   shows the frozen-score distribution (Strong / Fair / Weak + average + a "more weak than
+   strong" nudge), and "Best for you" is the default sort for a returning visitor whose profile
+   is filled — leaving only a `/today` digest for full C8.
 
 ---
 

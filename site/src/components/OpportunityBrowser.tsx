@@ -181,6 +181,13 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     };
   }, []);
 
+  // A returning visitor whose profile is filled lands on "Best for you" — but
+  // only as a *smart default* (not written to storage), so an explicit sort
+  // choice always wins and this can quietly change if they clear their profile.
+  useEffect(() => {
+    if (!readSortMode() && canMatch) setSortMode("match");
+  }, [canMatch]);
+
   useEffect(() => {
     let cancelled = false;
     fetchStoryCards()

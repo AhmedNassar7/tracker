@@ -66,11 +66,27 @@ export default function PersonalDashboard() {
     for (const app of applications) companyCounts.set(app.company, (companyCounts.get(app.company) ?? 0) + 1);
     const topCompanies = [...companyCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
 
+    // Frozen profile-match scores captured when each role was tracked.
+    const scored = applications.filter((a) => typeof a.matchScore === "number");
+    const matchBands = { strong: 0, fair: 0, weak: 0 };
+    for (const a of scored) {
+      const s = a.matchScore as number;
+      if (s >= 70) matchBands.strong += 1;
+      else if (s >= 40) matchBands.fair += 1;
+      else matchBands.weak += 1;
+    }
+    const avgMatch = scored.length
+      ? Math.round(scored.reduce((n, a) => n + (a.matchScore as number), 0) / scored.length)
+      : null;
+
     return {
       funnelCounts,
       topCompanies,
       bookmarkedToApplied: medianDaysFrom(applications, "bookmarked"),
       appliedToNext: medianDaysFrom(applications, "applied"),
+      scoredCount: scored.length,
+      matchBands,
+      avgMatch,
     };
   }, [state]);
 
@@ -90,7 +106,7 @@ export default function PersonalDashboard() {
     );
   }
 
-  const { funnelCounts, topCompanies, bookmarkedToApplied, appliedToNext } = stats;
+  const { funnelCounts, topCompanies, bookmarkedToApplied, appliedToNext, scoredCount, matchBands, avgMatch } = stats;
   const total = state.applications.length;
 
   return (
@@ -130,6 +146,27 @@ export default function PersonalDashboard() {
           {appliedToNext !== null && (
             <StatTile label="Median days to next update" value={Math.round(appliedToNext)} suffix="d" />
           )}
+        </div>
+      )}
+
+      {scoredCount > 0 && (
+        <div>
+          <h3 className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-300">
+            Match quality <span className="font-normal text-slate-400">· at track time</span>
+          </h3>
+          <BarList
+            items={[
+              { key: "strong", label: "Strong (70+)", value: matchBands.strong, color: SINGLE_SERIES_COLOR },
+              { key: "fair", label: "Fair (40–69)", value: matchBands.fair, color: SINGLE_SERIES_COLOR },
+              { key: "weak", label: "Weak (<40)", value: matchBands.weak, color: SINGLE_SERIES_COLOR },
+            ]}
+          />
+          <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
+            Average {avgMatch}% across {scoredCount} scored application{scoredCount === 1 ? "" : "s"}
+            {matchBands.weak > matchBands.strong
+              ? " — you're tracking more weak matches than strong ones."
+              : "."}
+          </p>
         </div>
       )}
 

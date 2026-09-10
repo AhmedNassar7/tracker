@@ -16,6 +16,12 @@ export default defineConfig({
 
   integrations: [react(), sitemap()],
 
+  // Only links that opt in with `data-astro-prefetch` are prefetched (the top
+  // nav + the My-Workspace sub-tabs), so switching between Profile /
+  // Applications / Résumé check feels near-instant without prefetching every
+  // company link on the jobs page.
+  prefetch: { prefetchAll: false, defaultStrategy: 'hover' },
+
   vite: {
     plugins: [tailwindcss()]
   }
