@@ -2,7 +2,7 @@
 
 [← back to project overview](../README.md) · [docs index](../README.md#documentation)
 
-There is no database. All state is JSON files committed to the repo under [data/](../data/), regenerated hourly. This page documents every external data source and every file/field shape involved.
+No database. All state is JSON files committed under [data/](../data/), regenerated hourly. This page documents every source and every file/field shape.
 
 ## External data sources
 
@@ -39,11 +39,11 @@ There is no database. All state is JSON files committed to the repo under [data/
 | Luma | `luma.com/discover` (HTML, regex-parsed) | Standalone; filtered by `LUMA_RELEVANT_RE` for tech relevance |
 | Curated events | `config/events.yml` (hand-maintained) | Standalone; `Name \| Organizer \| City, Country \| YYYY-MM-DD \| URL` per line — conferences/summits/career fairs with no pollable API. Past-dated rows are auto-hidden |
 
-All are free-tier, keyless, public endpoints. Full descriptions with rationale live in [SOURCES.md](../SOURCES.md).
+All free-tier, keyless, public endpoints. Full descriptions in [SOURCES.md](../SOURCES.md).
 
 ## Data shapes and schemas
 
-Three JSON Schemas document the three output record shapes, and all three are actually enforced: `scripts/schema_validator.py` is a small, dependency-free validator (no `jsonschema` package — matches the repo's stdlib-only rule) that `fetch_outputs.py`, `public_outputs.py`, and `build_data_readme.py` (for `site-index.json`) each run against every row right before writing. A shape drift raises `ValueError` and aborts the run under `set -euo pipefail`, rather than silently publishing bad data — see `tests/test_schema_validation.py` (the two publish-layer schemas) and `tests/test_site_index.py` (the flattened index) for the validator's unit tests plus integration tests proving each write path actually refuses invalid rows.
+Three JSON Schemas document the three output shapes, all enforced: `scripts/schema_validator.py` (dependency-free, no `jsonschema` package) runs against every row before writing, in `fetch_outputs.py`, `public_outputs.py`, and `build_data_readme.py` (for `site-index.json`). A shape drift raises `ValueError` and aborts the run under `set -euo pipefail`. Tests: `tests/test_schema_validation.py`, `tests/test_site_index.py`.
 
 ### `JobEntry` — [config/job-entry.schema.json](../config/job-entry.schema.json)
 
@@ -96,7 +96,7 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 
 ### `SiteIndexEntry` — [config/site-index.schema.json](../config/site-index.schema.json)
 
-Used by the `items` array in `data/site-index.json`, written by `build_site_index()` in `scripts/build_data_readme.py`. This isn't a third source of truth — every item is copied straight from a `JobEntry` or `PublicEntry` record already validated against the two schemas above; the point of this file is giving a client (a future site, a script) one small flattened file instead of having to fetch and merge `jobs-global.json` and `public-opportunities.json` itself.
+Used by the `items` array in `data/site-index.json`, written by `build_site_index()` in `scripts/build_data_readme.py`. Not a third source of truth — every item is copied from an already-validated `JobEntry` / `PublicEntry`; this file just gives a client one flattened file instead of merging `jobs-global.json` + `public-opportunities.json` itself.
 
 | Field | Type | Notes |
 |---|---|---|
@@ -108,41 +108,41 @@ Used by the `items` array in `data/site-index.json`, written by `build_site_inde
 | `locations` | string[] | Present only for a multi-location posting (≥2 entries) — the individual locations, for a client to render its own control |
 | `age` | string | Unified from `JobEntry.age` / `PublicEntry.date`, then (jobs only) `reconcile_age`'d against `posted_at` so a frozen/placeholder `"0d"` can't show a weeks-old listing as new |
 | `posted_at` | string | `YYYY-MM-DD` or `""` |
-| `liveness` | enum | `verified` (this item's apply URL is in `data/link-cache.json` as alive — see `last_checked`) or `unverified` (not in the cache: never checked, checked inconclusively, or aged out). **Not** a "dead" flag — a confirmed-dead link is archived/dropped before this file is written. Absent entirely on `kind:"board"` rows (a careers-search page, never liveness-checked) |
-| `last_checked` | string | ISO-8601 UTC of the last successful liveness confirmation. Present only when `liveness` is `verified` |
-| `level`, `region`, `role_type` | enum | Job-only. `region` is the continental macro-region tier (`north_america` / `latam` / `europe` / `mena` / `apac` / `remote` / `unknown`) — US/Canada are `north_america`; `mena` (Middle East & Africa, sub-Saharan included) is tested before `europe`. The site derives it client-side via `geo.ts` `regionForItem()` (own value → remote → from country → from location text) so `apac`/`latam` appear without a pipeline re-run. The Region **and** Role `<MultiSelect>`s are data-driven (`availableRegions` / `availableRoles`) — only buckets present in the data show, and `remote` is listed first; `unknown` is never offered as a filter option. `role_type` is exposed as its own **Role** facet (`?role=backend,frontend`) |
-| `category`, `remote_type` | string / enum | Job-only, **curated-origin only** — omitted entirely (not `""` or guessed) on public-origin job items, since the public layer never detects them |
-| `country` | string | Job-only, **both origins** (G2). Curated detects it at fetch time; for a public row `build_site_index` runs the same `detect_country()` over `location`. `"Unknown"` / `"Remote"` are kept (not omitted) so country counts stay honest |
-| `country_flag` | string | Job-only. Flag emoji for `country` (Unicode regional-indicator symbols, `scripts/patterns.py` `country_flag()`). Absent for `Unknown` / `Remote` / a country not in the ISO-2 table |
-| `tech_tags` | string[] | Job-only. Canonical skill/tech tags (`React`, `Go`, `Kubernetes`, …) detected from the posting's description text by `scripts/patterns.py` `detect_tech_tags`. Present only for sources that expose a full description (Greenhouse/Lever/Ashby/PinpointHQ/Workable, plus curated Remotive/ArbeitNow); omitted — never `[]` — otherwise |
-| `visa_sponsorship`, `degree_required`, `relocation` | boolean | Job-only, **explicit-only**. `true`/`false` only when the description says so in as many words (a negative statement wins over a positive one); a silent posting has no key at all, never a default `false`. From `detect_requirements` |
-| `min_years_experience` | integer 1–20 | Job-only, **explicit-only**. The lower bound of a stated years-of-experience requirement ("3+ years… experience", "2–4 years… experience" → 2). Only when an "experience" word follows the number; prose like "founded 10 years ago" doesn't count. From `detect_requirements` |
-| `languages_required` | string[] | Job-only, **explicit-only**. Spoken/human languages the posting requires next to a fluency/proficiency cue ("fluent in German", "native Arabic speaker"). Never programming languages (see `tech_tags`), never English. From `detect_requirements` |
-| `salary` | object | Job-only. `{min, max, currency (3-letter), period: hour\|month\|year}` — a literal range lifted from the posting by `parse_salary` and sanity-checked; **never estimated**. Absent unless the posting itself discloses a currency-marked range |
+| `liveness` | enum | `verified` (apply URL in `data/link-cache.json` as alive) or `unverified` (not in cache: never checked, inconclusive, or aged out). **Not** a "dead" flag — dead links are archived/dropped before this file is written. Absent on `kind:"board"` rows |
+| `last_checked` | string | ISO-8601 UTC of the last liveness confirmation. Only when `liveness` is `verified` |
+| `level`, `region`, `role_type` | enum | Job-only. `region` = macro-region tier (`north_america` / `latam` / `europe` / `mena` / `apac` / `remote` / `unknown`); US/Canada are `north_america`; `mena` (incl. sub-Saharan Africa) tested before `europe`. Site derives it client-side via `geo.ts` `regionForItem()` so `apac`/`latam` appear without a pipeline re-run. Region + Role `<MultiSelect>`s are data-driven; `unknown` is never a filter option. `role_type` → **Role** facet (`?role=backend,frontend`) |
+| `category`, `remote_type` | string / enum | Job-only, **curated-origin only** — omitted (not `""`/guessed) on public items |
+| `country` | string | Job-only, **both origins**. Public rows get `detect_country()` over `location` in `build_site_index`. `"Unknown"` / `"Remote"` are kept so counts stay honest |
+| `country_flag` | string | Job-only. Flag emoji for `country` (`scripts/patterns.py` `country_flag()`). Absent for `Unknown` / `Remote` / country not in the ISO-2 table |
+| `tech_tags` | string[] | Job-only. Canonical tags (`React`, `Go`, `Kubernetes`, …) from `detect_tech_tags` over the description. Only for sources with a full description (Greenhouse/Lever/Ashby/PinpointHQ/Workable + curated Remotive/ArbeitNow); omitted — never `[]` — otherwise |
+| `visa_sponsorship`, `degree_required`, `relocation` | boolean | Job-only, **explicit-only**. `true`/`false` only when the description says so (negative wins over positive); a silent posting has no key, never a default `false`. From `detect_requirements` |
+| `min_years_experience` | integer 1–20 | Job-only, **explicit-only**. Lower bound of a stated YoE requirement ("3+ years… experience" → 3), only when an "experience" word follows the number. From `detect_requirements` |
+| `languages_required` | string[] | Job-only, **explicit-only**. Spoken languages next to a fluency cue ("fluent in German"). Never programming languages, never English. From `detect_requirements` |
+| `salary` | object | Job-only. `{min, max, currency, period: hour\|month\|year}` lifted by `parse_salary` and sanity-checked; **never estimated**. Absent unless the posting discloses a currency-marked range |
 
-Top-level shape: `{generated_at, count, checksum, items}`. `checksum` is `"sha256:" + sha256(sorted item ids joined by "\n")` — cheap to compute and enough to answer "did the item set change since last visit," not a full-content hash. Not itself schema-validated (only `items[]` entries are); it's a plain wrapper this pipeline's own code constructs.
+Top-level shape: `{generated_at, count, checksum, items}`. `checksum` = `"sha256:" + sha256(sorted item ids joined by "\n")` — enough to answer "did the item set change," not a content hash. Only `items[]` entries are schema-validated.
 
-## Config files and what each field does
+## Config files
 
 ### `config/companies_allowlist.yml`
 
-Plain YAML, hand-parsed (no PyYAML). Top-level keys are category labels (`faang`, `cloud_infra`, `ai_research`, `apac_tech`, etc.). `ALLOWLIST` itself stays a flat lowercase list of company names, but the loader also tracks each name's category in a parallel `ALLOWLIST_CATEGORY_BY_NAME` dict, so `is_allowed_company()` returns the matched category (e.g. `"faang"`) instead of a plain bool — every job row that passes the curated-layer filter via case-insensitive substring match carries that category through to `data/jobs-global.json` as its `category` field.
+Plain YAML, hand-parsed (no PyYAML). Top-level keys are category labels (`faang`, `cloud_infra`, `ai_research`, …). `ALLOWLIST` is a flat lowercase name list; the loader also tracks each name's category in `ALLOWLIST_CATEGORY_BY_NAME`, so `is_allowed_company()` returns the matched category (e.g. `"faang"`), which becomes the row's `category` in `data/jobs-global.json`.
 
 ### `config/extra_job_boards.yml`
 
-Two sections, `ashby:` and `smartrecruiters:`, each a flat list of board tokens/company slugs. Loaded by `load_extra_job_boards()` in `scripts/public_sources.py`. **Caveat documented in the file itself:** SmartRecruiters' API returns HTTP 200 with an empty result for *any* slug, valid or not — there is no way to verify a guessed token through the API, so entries must be confirmed out-of-band before adding. Ashby's API does 404 on an invalid token and can be verified directly: `curl https://api.ashbyhq.com/posting-api/job-board/<token>`.
+Sections `ashby:` / `smartrecruiters:` (and `greenhouse:`/`lever:`/`workday:`/`pinpoint:`/`workable:`/`recruitee:`), each a flat token/slug list. Loaded by `load_extra_job_boards()` in `scripts/public_sources.py`. **Caveat (in the file):** SmartRecruiters' API returns HTTP 200 + empty for *any* slug — confirm out-of-band before adding. Ashby 404s an invalid token: `curl https://api.ashbyhq.com/posting-api/job-board/<token>`.
 
 ### `config/events.yml`
 
-Hand-maintained list of tech / career events (conferences, summits, career fairs) that no pollable API covers. One per line: `Name | Organizer | City, Country | START_DATE | URL`, `START_DATE` in ISO `YYYY-MM-DD`. Loaded by `parse_curated_events()` / `fetch_curated_events()` in `scripts/public_sources.py`, which renders each as a `kind:"event"` row with a live countdown ("in 12 days") and **drops any row whose date is already past** — so for an annual event you just bump the date to next year's edition when it's announced. Verify the date and URL against the organizer's own site before editing (same discipline as `aggregate_links.yml`).
+Hand-maintained tech/career events with no pollable API. One per line: `Name | Organizer | City, Country | YYYY-MM-DD | URL`. Loaded by `parse_curated_events()` / `fetch_curated_events()`; rendered as `kind:"event"` with a live countdown, **any past-dated row dropped** — bump the date for next year's edition. Verify date + URL against the organizer's site first.
 
 ### `config/job-entry.schema.json` / `config/public-entry.schema.json`
 
-JSON Schema (draft-07), for external consumers of the data files — not read by the pipeline code itself. Update these by hand whenever a record's field shape changes in `scripts/fetch.py` / `scripts/public_sources.py`.
+JSON Schema (draft-07) for external consumers — not read by the pipeline. Update by hand when a record shape changes.
 
-## Storage — what is saved, where, in what format
+## Storage
 
-Everything is a flat JSON or Markdown file inside [data/](../data/), committed directly to the git repo — there is no external storage, cache, or database.
+Every file is flat JSON or Markdown inside [data/](../data/), committed to git. No external storage, cache, or database.
 
 | File | Format | Written by | Purpose |
 |---|---|---|---|
@@ -151,10 +151,10 @@ Everything is a flat JSON or Markdown file inside [data/](../data/), committed d
 | `data/public-opportunities.json` | JSON (`{jobs, hackathons, events}`) | `scripts/public_sources.py` via `public_outputs.py` | Public-board jobs + hackathons + events |
 | `data/stats.json` | JSON | `scripts/fetch.py` via `fetch_outputs.py` | Curated-feed counts by level/country/source |
 | `data/site-index.json` | JSON (`SiteIndexEntry[]` + wrapper) | `scripts/build_data_readme.py` | Both feeds flattened into one checksummed list |
-| `data/stats-history.json` | JSON (`{updated_at, retention_days, snapshots[]}`) | `scripts/build_data_readme.py` | One `StatsHistorySnapshot` appended per hourly run, capped to 90 days — a free trend series (see [config/stats-history.schema.json](../config/stats-history.schema.json)). Snapshots from 2026-09-06 on also carry a `dimensions` object: `by_level` / `by_region` / `by_remote_type` / `by_role_type` / `by_category` (exhaustive — a blank field → `unknown`, so they sum to `jobs_total`) and `by_country` / `by_source` / `top_companies` (top ~15–20 by count). Built by `summarize_snapshot_dimensions()` from the published job set; earlier snapshots simply omit the key |
-| `data/story-cards.json` | JSON (`{generated_at, cards[]}`) | `scripts/build_data_readme.py` | 3–4 auto-generated "state of hiring" stat cards (`build_story_cards()`) derived from `stats-history.json`'s `dimensions` — `{id, title, detail, filter}` per card, where `filter` is a partial site FilterState the frontend applies on click. All copy is generated; week/month deltas are dropped (not faked) when there's no earlier dimensioned snapshot. See [config/story-cards.schema.json](../config/story-cards.schema.json) |
-| `data/README.md` | Markdown | `scripts/build_data_readme.py` | The full human-readable job/hackathon/event tables |
+| `data/stats-history.json` | JSON (`{updated_at, retention_days, snapshots[]}`) | `scripts/build_data_readme.py` | One `StatsHistorySnapshot` per run, capped to 90 days. Snapshots also carry a `dimensions` object (`by_level`/`by_region`/`by_remote_type`/`by_role_type`/`by_category` — exhaustive, blank → `unknown`; plus `by_country`/`by_source`/`top_companies` top ~15–20) from `summarize_snapshot_dimensions()`; optional in the schema |
+| `data/story-cards.json` | JSON (`{generated_at, cards[]}`) | `scripts/build_data_readme.py` | 3–4 "state of hiring" cards (`build_story_cards()`) from `stats-history.json` `dimensions` — `{id, title, detail, filter}`, `filter` = a partial FilterState the frontend applies on click. Week/month deltas dropped (not faked) when there's no earlier dimensioned snapshot |
+| `data/README.md` | Markdown | `scripts/build_data_readme.py` | Full job/hackathon/event tables |
 | `README.md` (root) | Markdown | `scripts/build_data_readme.py` | Lean overview + badges + snapshot counts |
-| `data/raw/*.json` / `*.md` | Raw source payloads | each fetcher's `fetch_url()` call | Debugging aid — inspect a source's untouched pull before its parser runs |
+| `data/raw/*.json` / `*.md` | Raw source payloads | each fetcher's `fetch_url()` | Debugging aid — the untouched pull before its parser runs |
 
-`data/raw/` is overwritten on every run and is not meant to be diffed for history — only `jobs-global.json`, `jobs-global-archive.json`, and `public-opportunities.json` carry forward state between runs (via `id`-keyed diffing in `write_fetch_outputs`).
+`data/raw/` is overwritten every run. Only `jobs-global.json`, `jobs-global-archive.json`, and `public-opportunities.json` carry state between runs (via `id`-keyed diffing in `write_fetch_outputs`).

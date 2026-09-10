@@ -2,13 +2,11 @@
 
 [← back to project overview](../README.md) · [docs index](../README.md#documentation)
 
-## How this project actually deploys
+## Two independent deploys
 
-Two independent, decoupled deploys live in this repo — the data pipeline (unchanged from day one) and a real, live website (shipped since; see [site/](../site/)).
+**Data pipeline**: GitHub Actions runs the pipeline and commits output straight into `main`. The product — `README.md`, `data/README.md`, `data/*` — is the repo, browsable on GitHub. No API server.
 
-**The data pipeline**: "deployment" means GitHub Actions runs the pipeline and commits its output straight back into `main`. The published product — `README.md`, `data/README.md`, and the JSON/XML files under `data/` — is the repo itself, browsable directly on GitHub. Anyone who wants the raw data can `fetch()` it from `raw.githubusercontent.com`/jsDelivr or clone the repo; no API server is ever running for this half.
-
-**The website**: a real static site (Astro + React islands + Tailwind) lives in `site/`, live at **[ahmednassar7.github.io/tracker](https://ahmednassar7.github.io/tracker/)**. It deploys independently of the hourly data commits — its own `deploy-site.yml` workflow only triggers on a push to `site/**`, not on every hourly data refresh. The site never bundles data at build time; it `fetch()`s `data/site-index.json` (and `data/stats-history.json`, and the RSS feeds under `data/feeds/`) at runtime from jsDelivr, with `raw.githubusercontent.com` as a fallback — so a visitor always sees data that's at most ~1 hour stale without the site itself needing to redeploy every hour. `.nojekyll` at the repo root is what makes this possible at all: without it, GitHub runs the whole repo through Jekyll before serving, which would mangle the site's own `index.html`.
+**Website**: static site (Astro + React islands + Tailwind) in `site/`, live at **[ahmednassar7.github.io/tracker](https://ahmednassar7.github.io/tracker/)**. Its `deploy-site.yml` triggers only on a push to `site/**`, not on hourly data refreshes. It never bundles data — it `fetch()`s `data/site-index.json` (+ `stats-history.json`, `data/feeds/`) at runtime from jsDelivr, falling back to `raw.githubusercontent.com`, so a visitor sees data ≤1h stale with no redeploy. `.nojekyll` at the repo root is required — without it GitHub runs the repo through Jekyll and mangles the site's `index.html`.
 
 ## Every GitHub Actions workflow
 
@@ -49,11 +47,11 @@ Steps:
 4. `python3 scripts/public_sources.py`
 5. `python3 scripts/build_data_readme.py`
 6. Write `LAST_UPDATED` — `date -u` formatted as `YYYY-MM-DD HH:MM:SS UTC`
-7. `peter-evans/create-pull-request@v6` — stages any changed/untracked files, opens a PR from branch `frequent/global-roles-<run_id>` with a fixed title/body/author, labeled `automated`, only if something actually changed (the action itself is a no-op when the working tree is clean, which happens often thanks to the change-only write logic in `fetch_outputs.py`)
-8. If a PR was opened (`steps.cpr.outputs.pull-request-number != ''`): `gh pr merge <number> --squash --delete-branch`
-9. If a PR was opened: purge jsDelivr's CDN cache for `data/site-index.json`, `data/stats-history.json`, and all five `data/feeds/*.xml` files via `purge.jsdelivr.net/gh/AhmedNassar7/tracker@main/<path>`. Best-effort (`|| true` per call) — the site's own `dataSource.ts` tries jsDelivr first and only falls back to `raw.githubusercontent.com` on outright failure, not staleness, so without this a visitor could see up to jsDelivr's own cache TTL of stale data after a real merge (confirmed live: ~2.5 hours once, before this step existed)
+7. `peter-evans/create-pull-request@v6` — stages changed/untracked files, opens a PR from `frequent/global-roles-<run_id>` (fixed title/body/author, label `automated`), only if something changed (no-op on a clean tree)
+8. If a PR opened (`steps.cpr.outputs.pull-request-number != ''`): `gh pr merge <number> --squash --delete-branch`
+9. If a PR opened: purge jsDelivr's CDN cache for `data/site-index.json`, `data/stats-history.json`, and the five `data/feeds/*.xml` via `purge.jsdelivr.net/gh/AhmedNassar7/tracker@main/<path>`. Best-effort (`|| true`) — `dataSource.ts` falls back to `raw.githubusercontent.com` only on failure, not staleness, so without this a visitor sees stale data up to jsDelivr's TTL (~2.5h observed once)
 
-Every step that writes to the repo runs with `set -euo pipefail` — any command failure aborts the job rather than silently continuing with partial data.
+Every repo-writing step runs `set -euo pipefail` — a command failure aborts the job.
 
 ### `deploy-site.yml` — the website
 
@@ -71,7 +69,7 @@ Steps (`build` job, working directory `site/`):
 4. `npm run build` (Astro outputs to `site/dist`)
 5. `actions/upload-pages-artifact@v3` with `path: site/dist`
 
-Then the `deploy` job runs `actions/deploy-pages@v4` against that artifact. This workflow never touches the hourly data commits and vice versa — a `site/` code change redeploys the site without waiting for the next hourly tick, and an hourly data commit never triggers a site rebuild (the site fetches fresh data at runtime instead; see the section above).
+Then the `deploy` job runs `actions/deploy-pages@v4`. This workflow and the hourly data commits never trigger each other.
 
 ## Manual deploy steps
 
@@ -99,15 +97,15 @@ npm run build  # production build to site/dist
 
 | Name | Used by | Purpose |
 |---|---|---|
-| `secrets.PAT_TOKEN` | `hourly-global-roles.yml` (both the `create-pull-request` step and the `gh pr merge` step) | A personal access token with `contents: write` + `pull-requests: write` scope. Needed instead of the default `GITHUB_TOKEN` because a PR opened with the default token can't trigger downstream workflow runs / auto-merge reliably under branch protection in this repo's setup |
+| `secrets.PAT_TOKEN` | `hourly-global-roles.yml` (`create-pull-request` + `gh pr merge`) | PAT with `contents: write` + `pull-requests: write`. Needed instead of `GITHUB_TOKEN` because a PR opened with the default token can't trigger downstream runs / auto-merge under branch protection here |
 
-No other secrets, API keys, or environment variables exist — every external source in [DATA.md](DATA.md) is a keyless public API.
+No other secrets or env vars — every source in [DATA.md](DATA.md) is a keyless public API.
 
-## How to verify it worked
+## Verify it worked
 
-- **After a manual `workflow_dispatch` run**: check the [Actions tab](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) for the run's status; a green run either opened+merged a PR (data changed) or completed with no PR (nothing changed — also success).
-- **After a merge**: `LAST_UPDATED` at the repo root and the "Last updated" badge on `README.md` should show a recent UTC timestamp.
-- **Data sanity check**: `data/stats.json`'s `generated_at` timestamp should match the latest merged PR's merge time; `data/README.md`'s job counts should match the badges on the root `README.md` (both are rendered from the same `stats` dict in the same `build_data_readme.py` run, so a mismatch signals a partial/stale regeneration).
-- **PR history as changelog**: every merged `chore: global tech roles` PR in the repo's closed-PR list corresponds to one hourly run that changed something — a gap longer than ~2 hours in that history signals the cron stopped firing or a run has been failing.
-- **Site is live and current**: check [ahmednassar7.github.io/tracker](https://ahmednassar7.github.io/tracker/) directly — the "data as of" line near the top should be within the last hour or two. If it's noticeably older than that while the data pipeline itself looks healthy by the checks above, suspect jsDelivr CDN staleness (see the purge step in `hourly-global-roles.yml` above) before suspecting the site itself; confirm by comparing against `https://raw.githubusercontent.com/AhmedNassar7/tracker/main/data/site-index.json`'s `generated_at` directly, which is never cached.
-- **Site deploy succeeded**: check the [deploy-site.yml Actions tab](https://github.com/AhmedNassar7/tracker/actions/workflows/deploy-site.yml) — it only runs on a `site/**` push, so "no runs since your last site change" means the trigger didn't fire, not that it's still running.
+- **After a `workflow_dispatch` run**: [Actions tab](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) — a green run either merged a PR (data changed) or had no PR (nothing changed).
+- **After a merge**: `LAST_UPDATED` and the "Last updated" badge show a recent UTC timestamp.
+- **Data sanity**: `data/stats.json` `generated_at` matches the latest merge time; `data/README.md` counts match the root `README.md` badges (same `stats` dict, same run — a mismatch = partial regeneration).
+- **PR history**: a gap >~2h in the merged `chore: global tech roles` PRs = the cron stopped or a run is failing.
+- **Site current**: the "data as of" line on the live site should be within ~1–2h. If it's older while the pipeline looks healthy, suspect jsDelivr staleness (step 9 above); confirm against `raw.githubusercontent.com/AhmedNassar7/tracker/main/data/site-index.json` `generated_at` (never cached).
+- **Site deploy**: [deploy-site.yml Actions tab](https://github.com/AhmedNassar7/tracker/actions/workflows/deploy-site.yml) — runs only on a `site/**` push.

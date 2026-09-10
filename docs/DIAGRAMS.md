@@ -2,7 +2,7 @@
 
 [← back to project overview](../README.md) · [docs index](../README.md#documentation)
 
-Every diagram here reflects the actual code as of this writing — nothing speculative. See [ARCHITECTURE.md](ARCHITECTURE.md) for the same diagrams in narrative context, and [FEATURES.md](FEATURES.md) for per-feature flowcharts.
+Diagrams reflect the current code. Narrative context: [ARCHITECTURE.md](ARCHITECTURE.md). Per-feature flowcharts: [FEATURES.md](FEATURES.md).
 
 ## System overview
 

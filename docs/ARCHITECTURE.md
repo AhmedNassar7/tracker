@@ -2,16 +2,16 @@
 
 [← back to project overview](../README.md) · [docs index](../README.md#documentation)
 
-## In plain English
+## Overview
 
-`tracker` has no server and no database. It is a Python script pipeline that GitHub Actions runs once an hour:
+No server, no database. A Python script pipeline GitHub Actions runs hourly:
 
-1. **Fetch** — pull raw data from ~15 external sources (job-board APIs and community GitHub trackers), normalize every row into one shared shape, and filter it.
-2. **Widen** — take the companies discovered in step 1, and poll their underlying ATS (Greenhouse/Lever/Workday) APIs directly for more of their open roles, plus a couple of standalone sources (hackathons, events).
-3. **Build** — turn the resulting JSON into human-readable Markdown tables.
-4. **Publish** — commit the changed files straight back into this repo via a pull request that auto-merges.
+1. **Fetch** — pull ~15 external sources (job-board APIs + community GitHub trackers), normalize every row to one shape, filter.
+2. **Widen** — poll the ATS (Greenhouse/Lever/Workday) APIs of companies found in step 1, plus standalone sources (hackathons, events).
+3. **Build** — render the JSON into Markdown tables.
+4. **Publish** — commit changed files back via an auto-merging PR.
 
-The "deployment target" is the repository itself: `data/*.json` and the two `README.md` files *are* the product. Anyone can read them straight off GitHub, no server required.
+The deployment target is the repo itself: `data/*.json` and the two `README.md` files *are* the product.
 
 ## System overview
 
@@ -180,11 +180,11 @@ graph LR
     Workday --> Tracker
 ```
 
-All 15 integrations are free-tier public APIs or public GitHub content — no paid APIs, no API keys, no `requirements.txt`.
+All integrations are free-tier public APIs or public GitHub content — no keys, no `requirements.txt`.
 
 ## CI/CD pipeline
 
-Two independent GitHub Actions workflows:
+Two independent GitHub Actions workflows (full breakdown in [DEPLOYMENT.md](DEPLOYMENT.md)):
 
 ```mermaid
 flowchart TD
@@ -206,5 +206,3 @@ flowchart TD
         H8 -- no --> H10["nothing changed, workflow ends"]
     end
 ```
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for the full trigger/job/step breakdown of both workflows.
