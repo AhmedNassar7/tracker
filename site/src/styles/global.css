@@ -68,14 +68,14 @@
   }
 }
 
-/* Home hero rotating noun (SnapshotHero.tsx). Under the open-count, one word
-   cycles roles → internships → hackathons → events, each sliding up as the
-   last slides out. It sits at the end of the phrase, so the invisible
-   `.tagline-sizer` (the longest word) reserves the slot width as trailing
-   space on the centered line rather than a mid-sentence gap; the
-   `.tagline-word` spans are absolutely positioned over it and share one 16s
-   keyframe, each offset by a quarter. Under reduced motion only the first
-   word shows, static. */
+/* Home hero rotating noun (SnapshotHero.tsx). In the descriptor line under
+   the "Tracker" title, one word cycles roles → internships → hackathons →
+   events, each sliding up as the last slides out. The invisible
+   `.tagline-sizer` (the longest word) reserves the slot so the line never
+   reflows; the `.tagline-word` spans are absolutely positioned over it,
+   centered on the slot's midpoint (translateX(-50%)) so the phrase stays
+   balanced whichever word is showing, and share one 16s keyframe offset by a
+   quarter each. Under reduced motion only the first word shows, static. */
 .tagline-rotate {
   position: relative;
   display: inline-flex;
@@ -88,12 +88,13 @@
 }
 .tagline-word {
   position: absolute;
-  left: 0;
+  left: 50%;
   top: 0;
   font-weight: 600;
   white-space: nowrap;
   color: #0f766e;
   opacity: 0;
+  transform: translate(-50%, 0);
 }
 :root.dark .tagline-word {
   color: #2dd4bf;
@@ -123,17 +124,17 @@
 @keyframes tagline-cycle {
   0% {
     opacity: 0;
-    transform: translateY(90%);
+    transform: translate(-50%, 90%);
   }
   4%,
   21% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(-50%, 0);
   }
   25%,
   100% {
     opacity: 0;
-    transform: translateY(-90%);
+    transform: translate(-50%, -90%);
   }
 }
 
