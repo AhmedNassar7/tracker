@@ -234,21 +234,21 @@ keep. Ours: subscribe with an RSS reader (zero identity) or opt into on-device p
 
 ### Phase 4 — Cover Letter Builder · `/toolkit/cover-letter` {#phase-4}
 
-> **Status: 4a shipped 2026-09-10; Automatic/Manual modes + PDF export 2026-09-10 (cont.).**
-> `site/src/lib/coverLetter.ts` (`buildCoverLetter` + `recommendCoverLetterOptions` +
-> `coverLetterToText` / `coverLetterToMarkdown`) + `CoverLetterBuilder.tsx` on
-> `/toolkit/cover-letter` (a "Cover letter" tab in the Workspace sub-nav). Split-pane:
-> inputs left (start from a tracked application or type company/title; paste the JD — its
-> `detectTechTags` ∩ your profile skills become the "will mention" list; a "why this
-> company" box), live preview right with `[bracketed]` prompts highlighted and a
+> **Status: 4a shipped 2026-09-10; single-flow + auto-picked settings + PDF export
+> 2026-09-10 (cont.).** `site/src/lib/coverLetter.ts` (`buildCoverLetter` +
+> `recommendCoverLetterOptions` + `coverLetterToText` / `coverLetterToMarkdown`) +
+> `CoverLetterBuilder.tsx` on `/toolkit/cover-letter` (a "Cover letter" tab in the Workspace
+> sub-nav). Split-pane: inputs left (start from a tracked application or type company/title;
+> paste the JD — its `detectTechTags` ∩ your profile skills become the "will mention" list;
+> a "why this company" box), live preview right with `[bracketed]` prompts highlighted and a
 > "N placeholders to fill" line.
 >
-> **Two modes.** **Automatic** (default) generates from the résumé-derived profile + JD with
-> no knobs — `recommendCoverLetterOptions` picks template (impact → narrative → concise by
-> what the profile carries), neutral tone, and length; a note shows the pick + skill
-> alignment count. **Manual** exposes the template × tone × length selects (seeded from the
-> recommendation on switch). Export is **Copy text** + **Download PDF** (browser print dialog
-> → *Save as PDF*, filename seeded from `document.title`) + **Save to application**
+> **No mode switch.** The letter always generates from the résumé-derived profile + JD;
+> `recommendCoverLetterOptions` auto-picks template (impact → narrative → concise by what the
+> profile carries), neutral tone, and length. The template × tone × length selects are shown
+> and *follow that recommendation until the user changes one* (override then sticks; a "Reset
+> to auto" link clears them). Export is **Copy text** + **Download PDF** (browser print
+> dialog → *Save as PDF*, filename seeded from `document.title`) + **Save to application**
 > (`TrackedApplication.coverLetterUsed`). The "impact" opener and the fit paragraph pull
 > different bullets so no line repeats. Every merged value comes from the profile or the
 > user's own inputs — nothing invented. **4b (BYO-key AI polish) is still open.**
@@ -259,7 +259,7 @@ Pick a tracked application or paste a JD URL → the tool pulls `company`, `titl
 with the Profile (`experience` highlights, `skills`, relevant `answers`) and a short "why this
 company" free-text box into a structured letter:
 
-- **Automatic mode** (default): zero knobs — the profile + JD alone drive template/tone/length via `recommendCoverLetterOptions`. **Manual mode**: 3–4 templates (concise / narrative / impact-led / referral) × 3 tones (warm / neutral / formal) × length (½ / 1 page), user-set.
+- Profile + JD alone drive template/tone/length via `recommendCoverLetterOptions`; the 3–4 templates (concise / narrative / impact-led / referral) × 3 tones (warm / neutral / formal) × length (½ / 1 page) selects are shown and follow that auto pick until the user overrides one ("Reset to auto" clears it). No separate "manual mode".
 - Live **split-pane**: inputs left, formatted preview right, updating as you type.
 - Placeholder highlighting for anything unfilled ("`[a metric]`"), counted in a "N placeholders to fill" line.
 - Output: **Copy text**, **Download PDF** (browser print dialog → *Save as PDF*; no layout engine, no dependency), and **"save to this application"** (stored on the `TrackedApplication`).

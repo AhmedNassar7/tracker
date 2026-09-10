@@ -14,13 +14,11 @@ import { analyzeKeywordGap } from "../lib/keywordGap";
 import { emptyProfile, loadProfile, type Profile } from "../lib/profile";
 import { listApplications, updateApplication, type TrackedApplication } from "../lib/tracker";
 
-// Phase 4a — templated, offline cover-letter builder. Two modes:
-//   • Automatic — generate straight from your résumé (profile) + the JD, no knobs.
-//   • Manual    — pick template / tone / length yourself.
-// Either way it merges only what the user has typed; anything it can't fill from
-// the profile or the "why this company" box stays a visible [bracket]. No AI.
-
-type Mode = "auto" | "manual";
+// Phase 4a — templated, offline cover-letter builder. One flow: the letter is
+// generated from your résumé (profile) + the pasted JD, with template / tone /
+// length auto-picked from what the profile actually carries. Every control is
+// visible to override; anything the tool can't fill from your inputs stays a
+// visible [bracket]. No network, no AI.
 
 function printLetter(text: string, docTitle: string) {
   const w = window.open("", "_blank", "width=800,height=900");
@@ -60,15 +58,15 @@ export default function CoverLetterBuilder() {
   const [profile, setProfile] = useState<Profile | null>(null);
   const [apps, setApps] = useState<TrackedApplication[]>([]);
   const [appId, setAppId] = useState("");
-  const [mode, setMode] = useState<Mode>("auto");
   const [company, setCompany] = useState("");
   const [title, setTitle] = useState("");
   const [jd, setJd] = useState("");
   const [whyCompany, setWhyCompany] = useState("");
   const [referralName, setReferralName] = useState("");
-  const [template, setTemplate] = useState<Template>("concise");
-  const [tone, setTone] = useState<Tone>("neutral");
-  const [length, setLength] = useState<Length>("half");
+  // null = follow the auto recommendation; a value = user override that sticks.
+  const [tplOverride, setTplOverride] = useState<Template | null>(null);
+  const [toneOverride, setToneOverride] = useState<Tone | null>(null);
+  const [lenOverride, setLenOverride] = useState<Length | null>(null);
   const [flash, setFlash] = useState("");
 
   useEffect(() => {
@@ -94,38 +92,20 @@ export default function CoverLetterBuilder() {
   const gap = useMemo(() => (jd.trim() ? analyzeKeywordGap(jd, p) : null), [jd, p]);
   const matchedSkills = gap?.present ?? [];
 
-  // Automatic mode drives the knobs from the profile + JD; manual uses the selects.
+  // Auto-picked from the profile + JD; each control follows this until overridden.
   const rec = useMemo(() => recommendCoverLetterOptions(p, jd), [p, jd]);
-  const effTemplate = mode === "auto" ? rec.template : template;
-  const effTone = mode === "auto" ? rec.tone : tone;
-  const effLength = mode === "auto" ? rec.length : length;
-
-  function switchMode(m: Mode) {
-    // Hand the recommended settings to the manual selects so it's a smooth switch.
-    if (m === "manual" && mode === "auto") {
-      setTemplate(rec.template);
-      setTone(rec.tone);
-      setLength(rec.length);
-    }
-    setMode(m);
-  }
+  const template = tplOverride ?? rec.template;
+  const tone = toneOverride ?? rec.tone;
+  const length = lenOverride ?? rec.length;
+  const overridden = tplOverride !== null || toneOverride !== null || lenOverride !== null;
 
   const letter = useMemo(
     () =>
       buildCoverLetter(
-        {
-          company,
-          title,
-          matchedSkills,
-          whyCompany,
-          referralName,
-          template: effTemplate,
-          tone: effTone,
-          length: effLength,
-        },
+        { company, title, matchedSkills, whyCompany, referralName, template, tone, length },
         p,
       ),
-    [company, title, matchedSkills, whyCompany, referralName, effTemplate, effTone, effLength, p],
+    [company, title, matchedSkills, whyCompany, referralName, template, tone, length, p],
   );
 
   const text = coverLetterToText(letter);
@@ -141,28 +121,6 @@ export default function CoverLetterBuilder() {
     <div className="grid gap-6 lg:grid-cols-2">
       {/* ---- inputs ---- */}
       <div className="space-y-4">
-        <div className="inline-flex rounded-md border border-slate-300 p-0.5 text-sm dark:border-slate-700">
-          {(["auto", "manual"] as const).map((m) => (
-            <button
-              key={m}
-              type="button"
-              onClick={() => switchMode(m)}
-              className={
-                mode === m
-                  ? "rounded bg-teal-600 px-3 py-1 font-medium text-white"
-                  : "px-3 py-1 text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
-              }
-            >
-              {m === "auto" ? "Automatic" : "Manual"}
-            </button>
-          ))}
-        </div>
-        <p className="text-xs text-slate-500 dark:text-slate-400">
-          {mode === "auto"
-            ? "Generated from your résumé and the job description — no settings to touch."
-            : "You choose the template, tone, and length."}
-        </p>
-
         {!profile && (
           <div className="rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900 dark:border-amber-500/30 dark:bg-amber-500/10 dark:text-amber-200">
             No profile yet — the letter will be mostly brackets.{" "}
@@ -199,10 +157,7 @@ export default function CoverLetterBuilder() {
         </div>
 
         <label className="block text-sm font-medium">
-          Job description{" "}
-          <span className="font-normal text-slate-400">
-            {mode === "auto" ? "(this is what makes it a match — paste the full posting)" : "(optional — pulls the skills to mention)"}
-          </span>
+          Job description <span className="font-normal text-slate-400">(this is what makes it a match — paste the full posting)</span>
           <textarea
             className={inputCls}
             rows={5}
@@ -231,58 +186,72 @@ export default function CoverLetterBuilder() {
           </span>
         </label>
 
-        {mode === "auto" ? (
-          <p className="rounded-md bg-slate-100 px-3 py-2 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-300">
-            Auto-picked: <strong>{TEMPLATES.find((t) => t.id === effTemplate)?.label}</strong> ·{" "}
-            {TONES.find((t) => t.id === effTone)?.label} · {effLength === "half" ? "half page" : "full page"}.
-            {gap && ` Aligned on ${gap.present.length} skill${gap.present.length === 1 ? "" : "s"} the JD names.`}
-            {" "}Switch to <strong>Manual</strong> to change any of it.
-          </p>
-        ) : (
-          <>
-            <div className="grid gap-3 sm:grid-cols-3">
-              <label className="block text-sm font-medium">
-                Template
-                <select className={inputCls} value={template} onChange={(e) => setTemplate(e.target.value as Template)}>
-                  {TEMPLATES.map((t) => (
-                    <option key={t.id} value={t.id}>
-                      {t.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="block text-sm font-medium">
-                Tone
-                <select className={inputCls} value={tone} onChange={(e) => setTone(e.target.value as Tone)}>
-                  {TONES.map((t) => (
-                    <option key={t.id} value={t.id}>
-                      {t.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="block text-sm font-medium">
-                Length
-                <select className={inputCls} value={length} onChange={(e) => setLength(e.target.value as Length)}>
-                  <option value="half">Half page</option>
-                  <option value="full">Full page</option>
-                </select>
-              </label>
-            </div>
-            <p className="text-xs text-slate-500 dark:text-slate-400">{TEMPLATES.find((t) => t.id === template)?.blurb}</p>
+        <div className="grid gap-3 sm:grid-cols-3">
+          <label className="block text-sm font-medium">
+            Template
+            <select
+              className={inputCls}
+              value={template}
+              onChange={(e) => setTplOverride(e.target.value as Template)}
+            >
+              {TEMPLATES.map((t) => (
+                <option key={t.id} value={t.id}>
+                  {t.label}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="block text-sm font-medium">
+            Tone
+            <select className={inputCls} value={tone} onChange={(e) => setToneOverride(e.target.value as Tone)}>
+              {TONES.map((t) => (
+                <option key={t.id} value={t.id}>
+                  {t.label}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="block text-sm font-medium">
+            Length
+            <select className={inputCls} value={length} onChange={(e) => setLenOverride(e.target.value as Length)}>
+              <option value="half">Half page</option>
+              <option value="full">Full page</option>
+            </select>
+          </label>
+        </div>
+        <p className="text-xs text-slate-500 dark:text-slate-400">
+          {overridden ? (
+            <>
+              {TEMPLATES.find((t) => t.id === template)?.blurb}{" "}
+              <button
+                type="button"
+                onClick={() => {
+                  setTplOverride(null);
+                  setToneOverride(null);
+                  setLenOverride(null);
+                }}
+                className="font-medium text-teal-600 underline hover:text-teal-700 dark:text-teal-400"
+              >
+                Reset to auto
+              </button>
+            </>
+          ) : (
+            <>
+              Auto-picked from your résumé{gap ? ` · aligned on ${gap.present.length} skill${gap.present.length === 1 ? "" : "s"} the JD names` : ""}. Change any of these to override.
+            </>
+          )}
+        </p>
 
-            {template === "referral" && (
-              <label className="block text-sm font-medium">
-                Referral name
-                <input
-                  className={inputCls}
-                  value={referralName}
-                  onChange={(e) => setReferralName(e.target.value)}
-                  placeholder="Who pointed you here"
-                />
-              </label>
-            )}
-          </>
+        {template === "referral" && (
+          <label className="block text-sm font-medium">
+            Referral name
+            <input
+              className={inputCls}
+              value={referralName}
+              onChange={(e) => setReferralName(e.target.value)}
+              placeholder="Who pointed you here"
+            />
+          </label>
         )}
       </div>
 
