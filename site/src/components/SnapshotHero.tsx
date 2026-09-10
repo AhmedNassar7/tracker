@@ -38,33 +38,26 @@ export default function SnapshotHero({ items, generatedAt }: Props) {
   const isStale = staleHours !== null && staleHours > STALE_AFTER_HOURS;
 
   return (
-    <section className="hero-enter mb-5">
+    <section className="hero-enter mx-auto mb-6 max-w-2xl text-center">
       {isStale && (
-        <div className="mb-3 rounded-md border border-amber-300 bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200">
+        <div className="mb-4 rounded-md border border-amber-300 bg-amber-50 px-3 py-2 text-left text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200">
           ⚠️ This list was last refreshed <strong>{updatedAgo(generatedAt)}</strong> — the automatic
           hourly update looks stuck, so some roles here may already be closed. Check the posting date
           before applying.
         </div>
       )}
-      <p className="text-[13px] text-slate-500 dark:text-slate-400">
-        Software engineering{" "}
-        <span className="tagline-rotate">
-          <span className="tagline-sizer" aria-hidden="true">internships</span>
-          <span className="tagline-word" aria-hidden="true">jobs</span>
-          <span className="tagline-word" aria-hidden="true">internships</span>
-          <span className="tagline-word" aria-hidden="true">hackathons</span>
-          <span className="tagline-word" aria-hidden="true">events</span>
-          <span className="sr-only">jobs, internships, hackathons and events</span>
-        </span>{" "}
-        — refreshed hourly, no signup, no fabricated data.
+      <p className="text-4xl font-bold tracking-tight text-slate-900 tabular-nums dark:text-slate-50 sm:text-5xl">
+        {total.toLocaleString()}
       </p>
-      <p className="mt-1.5 text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
-        {total.toLocaleString()}{" "}
-        <span className="text-sm font-medium text-slate-500 dark:text-slate-400">open opportunities</span>
+      <p className="mt-1 text-base font-medium text-slate-600 dark:text-slate-300">
+        open software-engineering roles, internships, hackathons &amp; events
       </p>
-      <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-slate-500 dark:text-slate-400">
+      <p className="mt-2 text-[13px] text-slate-500 dark:text-slate-400">
+        Merged hourly from 15+ sources — no signup, no fabricated data.
+      </p>
+      <p className="mt-3 flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5 text-xs text-slate-500 dark:text-slate-400">
         <FreshnessPulse />
-        <span>updated {updatedAgo(generatedAt)}</span>
+        <span>Updated {updatedAgo(generatedAt)}</span>
         {postedToday > 0 && <span>· {postedToday.toLocaleString()} added today</span>}
         <a
           href={`${BASE_URL}dashboard`}

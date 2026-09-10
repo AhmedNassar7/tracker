@@ -97,7 +97,20 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		<header
 			class="flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-slate-200 px-4 py-3 dark:border-slate-800 sm:px-8"
 		>
-			<a href={base} class="text-lg font-semibold tracking-tight">Tracker</a>
+			<a href={base} class="flex shrink-0 items-center gap-2 text-lg font-semibold tracking-tight">
+				<svg aria-hidden="true" class="h-6 w-6" viewBox="0 0 128 128">
+					<rect width="128" height="128" rx="28" class="fill-teal-700 dark:fill-teal-500" />
+					<g fill="none" stroke="#fff" stroke-width="9">
+						<circle cx="64" cy="64" r="34" />
+						<circle cx="64" cy="64" r="15" />
+					</g>
+					<circle cx="64" cy="64" r="6" fill="#fff" />
+					<g stroke="#fff" stroke-width="9" stroke-linecap="round">
+						<path d="M64 18v14M64 96v14M18 64h14M96 64h14" />
+					</g>
+				</svg>
+				Tracker
+			</a>
 			<nav class="flex flex-wrap gap-4 text-sm">
 				{
 					NAV_LINKS.map((link) => {

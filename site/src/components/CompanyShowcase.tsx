@@ -227,7 +227,7 @@ export default function CompanyShowcase({ onSelect, activeCompanies }: Props) {
   return (
     <section aria-label="Companies tracked on this site" className="mb-6">
       <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
-        Tracking roles at FAANG &amp; big tech
+        Companies we track
       </p>
       <div
         className="logo-marquee-viewport touch-pan-y cursor-grab select-none rounded-xl border border-slate-200 bg-slate-50/60 py-3 active:cursor-grabbing dark:border-slate-800 dark:bg-slate-900/40"
