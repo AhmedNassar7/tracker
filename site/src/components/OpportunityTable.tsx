@@ -31,12 +31,10 @@ function LivenessBadge({ item }: { item: SiteIndexEntry }) {
 // B3/B4/B5 — signals lifted from the posting's own text. Rendered only when
 // present (a silent posting shows nothing), so this quietly no-ops for the
 // many rows whose source carries no description.
-function FacetChips({ item }: { item: SiteIndexEntry }) {
-  const tags = item.tech_tags ?? [];
+function FacetChips({ item, hideTags = false }: { item: SiteIndexEntry; hideTags?: boolean }) {
+  const tags = hideTags ? [] : item.tech_tags ?? [];
   const salary = formatSalaryShort(item.salary);
-  const hasBenefit =
-    item.visa_sponsorship === true || item.degree_required === false || !!salary;
-  if (tags.length === 0 && !hasBenefit) return null;
+  if (tags.length === 0 && !salary && item.visa_sponsorship !== true) return null;
 
   const shownTags = tags.slice(0, MAX_TECH_CHIPS);
   const restCount = tags.length - shownTags.length;
@@ -69,20 +67,14 @@ function FacetChips({ item }: { item: SiteIndexEntry }) {
           🛂 Visa
         </span>
       )}
-      {item.degree_required === false && (
-        <span
-          className="rounded bg-teal-50 px-1.5 py-0.5 text-[10px] font-medium text-teal-700 dark:bg-teal-950 dark:text-teal-300"
-          title="The posting explicitly says no degree is required"
-        >
-          No degree
-        </span>
-      )}
     </div>
   );
 }
 
-// "Best for you" sort — the profile-match score plus its plain-language
-// reasons and gaps (profileMatch.ts). Only rendered when that sort is active.
+// "Best match" sort — a compact pill plus one line of "why". The pill's
+// tooltip carries the full reason / gap breakdown for anyone who wants it;
+// the row itself stays to a single headline so the list reads cleanly
+// (profileMatch.ts computes the score).
 function MatchChips({ m }: { m: JobMatch }) {
   const tone =
     m.score >= 70
@@ -90,27 +82,17 @@ function MatchChips({ m }: { m: JobMatch }) {
       : m.score >= 40
         ? "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200"
         : "bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300";
+  const headline = m.reasons[0] ?? m.gaps[0] ?? null;
+  const detail = [...m.reasons.map((r) => `+ ${r}`), ...m.gaps.map((g) => `− ${g}`)].join("\n");
   return (
-    <div className="mt-1 flex flex-wrap items-center gap-1">
-      <span className={`rounded-full px-1.5 py-0.5 text-[10px] font-semibold ${tone}`}>
+    <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px] text-slate-500 dark:text-slate-400">
+      <span
+        className={`rounded-full px-1.5 py-0.5 text-[10px] font-semibold ${tone}`}
+        title={detail || undefined}
+      >
         <span aria-hidden="true">🎯</span> {m.score}% match
       </span>
-      {m.reasons.slice(0, 3).map((reason) => (
-        <span
-          key={`r-${reason}`}
-          className="rounded-full bg-teal-50 px-1.5 py-0.5 text-[10px] font-medium capitalize text-teal-700 dark:bg-teal-950 dark:text-teal-300"
-        >
-          {reason}
-        </span>
-      ))}
-      {m.gaps.slice(0, 2).map((gap) => (
-        <span
-          key={`g-${gap}`}
-          className="rounded-full bg-rose-50 px-1.5 py-0.5 text-[10px] font-medium text-rose-700 dark:bg-rose-950 dark:text-rose-300"
-        >
-          {gap}
-        </span>
-      ))}
+      {headline && <span className="capitalize">{headline}</span>}
     </div>
   );
 }
@@ -306,7 +288,7 @@ export default function OpportunityTable({
                     </div>
                   )
                 )}
-                <FacetChips item={item} />
+                <FacetChips item={item} hideTags={matchById?.has(item.id)} />
               </td>
               <td className="px-3 py-2 text-slate-500 dark:text-slate-400">{KIND_LABEL[item.kind]}</td>
               {hasJobs && (

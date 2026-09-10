@@ -270,11 +270,20 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     if (rankTune.excludeCompanies.length > 0) items = items.filter((item) => !isExcluded(item, rankTune));
 
     if (useProfileScoring && profile) {
-      const decorated = items.map((item, i) => ({ item, i, m: scoreJobForProfile(item, profile) }));
-      const byScore = (a: (typeof decorated)[number], b: (typeof decorated)[number]) =>
-        b.m.score - a.m.score || b.m.raw - a.m.raw || a.i - b.i;
-      const matched = decorated.filter((d) => !d.m.contradicts).sort(byScore).map((d) => d.item);
-      const contra = decorated.filter((d) => d.m.contradicts).sort(byScore).map((d) => d.item);
+      // Best match ranks *jobs*. Hackathons / events carry no profile signal,
+      // so they keep their natural order and sit after the scored jobs.
+      const decorated = items.map((item, i) => ({
+        item,
+        i,
+        m: item.kind === "job" ? scoreJobForProfile(item, profile) : null,
+      }));
+      const byScore = (a: (typeof decorated)[number], b: (typeof decorated)[number]) => {
+        if (!!a.m !== !!b.m) return a.m ? -1 : 1;
+        if (a.m && b.m) return b.m.score - a.m.score || b.m.raw - a.m.raw || a.i - b.i;
+        return a.i - b.i;
+      };
+      const matched = decorated.filter((d) => !d.m?.contradicts).sort(byScore).map((d) => d.item);
+      const contra = decorated.filter((d) => d.m?.contradicts).sort(byScore).map((d) => d.item);
       return { primary: matched, lessRelevant: contra };
     }
 
@@ -356,7 +365,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   const matchById = useMemo(() => {
     if (!useProfileScoring || !profile) return undefined;
     const map = new Map<string, JobMatch>();
-    for (const item of visibleItems) map.set(item.id, scoreJobForProfile(item, profile));
+    for (const item of visibleItems) if (item.kind === "job") map.set(item.id, scoreJobForProfile(item, profile));
     return map;
   }, [useProfileScoring, profile, visibleItems]);
 
