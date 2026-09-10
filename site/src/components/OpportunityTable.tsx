@@ -82,17 +82,32 @@ function MatchChips({ m }: { m: JobMatch }) {
       : m.score >= 40
         ? "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200"
         : "bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300";
-  const headline = m.contradicts ? (m.gaps[0] ?? m.reasons[0]) : (m.reasons[0] ?? m.gaps[0]) ?? null;
+  // Lead with the stack overlap ("9/15 of the stack") — the number that
+  // actually moves per posting; fall back to the first reason, or the gap on
+  // a contradiction. Full +reason / −gap breakdown is in the pill's tooltip.
+  const stackReason = m.reasons.find((r) => /of the stack/.test(r));
+  const headlineIsGap = m.contradicts && !!m.gaps[0];
+  const headline = headlineIsGap ? m.gaps[0] : stackReason ?? m.reasons[0] ?? m.gaps[0] ?? null;
   const detail = [...m.reasons.map((r) => `+ ${r}`), ...m.gaps.map((g) => `− ${g}`)].join("\n");
   return (
-    <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px] text-slate-500 dark:text-slate-400">
+    <div className="mt-1 flex flex-wrap items-center gap-1">
       <span
         className={`rounded-full px-1.5 py-0.5 text-[10px] font-semibold ${tone}`}
         title={detail || undefined}
       >
         <span aria-hidden="true">🎯</span> {m.score}% match
       </span>
-      {headline && <span className="capitalize">{headline}</span>}
+      {headline && (
+        <span
+          className={`rounded-full px-1.5 py-0.5 text-[10px] font-medium capitalize ${
+            headlineIsGap
+              ? "bg-rose-50 text-rose-700 dark:bg-rose-950 dark:text-rose-300"
+              : "bg-teal-50 text-teal-700 dark:bg-teal-950 dark:text-teal-300"
+          }`}
+        >
+          {headline}
+        </span>
+      )}
     </div>
   );
 }
