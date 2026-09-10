@@ -17,6 +17,16 @@ Meta      | Student & university-grad engineering roles | https://www.metacareer
 Microsoft | Intern & recent-graduate software roles | https://jobs.careers.microsoft.com/global/en/search?q=software%20engineer&exp=Students%20and%20graduates&l=en_us
 Apple     | Software internships & early-career roles | https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN&team=apps-and-frameworks-SFTWR-AF&team=cloud-and-infrastructure-SFTWR-CLD
 
+# Allowlisted big-tech companies whose careers site runs on an enterprise ATS
+# with no keyless JSON board (iCIMS / Radancy / Phenom) — the pipeline has no
+# fetcher for those, so each gets one hand-verified "browse every role" link
+# instead of role-by-role rows. Checked live 2026-09-10.
+GitHub    | Engineering roles | https://www.github.careers/careers-home/jobs?categories=Engineering
+Arm       | Graduate & early-career engineering roles | https://careers.arm.com/search-jobs?ascf=%5B%7B%22key%22%3A%22custom_fields.ExperienceLevel%22%2C%22value%22%3A%22Graduate%22%7D%5D
+Cisco     | Software engineering roles | https://careers.cisco.com/global/en/search-results?keywords=software%20engineer
+Splunk    | Software engineering roles (Cisco) | https://careers.cisco.com/global/en/splunk/search-page
+Shopify   | Engineering & data roles | https://www.shopify.com/careers/disciplines/engineering-data
+
 # MENA — regional employers whose careers site is bespoke (not a pollable
 # Greenhouse/Lever/Ashby/Workable board), so they get a "browse every role"
 # link instead of role-by-role rows. Confirmed by opening the URL and seeing

@@ -1,4 +1,4 @@
-import type { Profile } from "./profile";
+import { deriveYearsOfExperience, type Profile } from "./profile";
 
 // Résumé keyword-gap check (docs/APPLICANT-TOOLKIT-PLAN.md Phase 5a / Lane R2).
 //
@@ -62,6 +62,7 @@ const TECH_TAG_PATTERNS: [string, RegExp][] = [
   ["MySQL", /\bmysql\b/i],
   ["MongoDB", /\bmongo(?:db)?\b/i],
   ["Redis", /\bredis\b/i],
+  ["Elasticsearch", /\belastic\s?search\b|\bopensearch\b/i],
   ["Kafka", /\bkafka\b/i],
   ["Spark", /\bapache spark\b|\bpy ?spark\b/i],
   ["TensorFlow", /\btensor ?flow\b/i],
@@ -120,6 +121,7 @@ const TAG_BUCKET: Record<string, keyof Profile["skills"]> = {
   MySQL: "tools",
   MongoDB: "tools",
   Redis: "tools",
+  Elasticsearch: "tools",
   Kafka: "tools",
 };
 
@@ -365,11 +367,16 @@ export function analyzeKeywordGap(jdText: string, profile: Profile): KeywordGapR
   }
 
   if (req.minYearsExperience !== undefined) {
-    requirements.push({
-      label: "Experience",
-      status: "info",
-      detail: `Asks for ${req.minYearsExperience}+ year${req.minYearsExperience === 1 ? "" : "s"} of experience.`,
-    });
+    const need = req.minYearsExperience;
+    const have = deriveYearsOfExperience(profile.experience);
+    const plural = need === 1 ? "" : "s";
+    requirements.push(
+      have <= 0
+        ? { label: "Experience", status: "info", detail: `Asks for ${need}+ year${plural} of experience.` }
+        : have + 0.5 >= need
+          ? { label: "Experience", status: "ok", detail: `Asks for ${need}+ year${plural}; your history adds up to ~${have}.` }
+          : { label: "Experience", status: "warn", detail: `Asks for ${need}+ year${plural}; your history adds up to ~${have}.` },
+    );
   }
 
   if (req.languagesRequired && req.languagesRequired.length > 0) {

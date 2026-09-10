@@ -33,7 +33,6 @@ import { companyTier } from "../lib/companyTiers";
 import { countryForItem, regionForItem, REGION_ORDER } from "../lib/geo";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import Pagination from "./Pagination";
-import BrowseEveryRole from "./BrowseEveryRole";
 import CompanyShowcase from "./CompanyShowcase";
 import StoryStrip from "./StoryStrip";
 import FilterBar from "./FilterBar";
@@ -237,12 +236,10 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     setPage(1);
   }, [filters, sortMode, showOnlyNew, rankTune, showLessRelevant]);
 
+  // Drop kind:"board" (aggregate-links) rows — those companies are listed in
+  // the site footer now, never in the results.
   const opportunityItems = useMemo(
     () => (state.status === "loaded" ? state.data.items.filter((i) => i.kind !== "board") : []),
-    [state],
-  );
-  const boardItems = useMemo(
-    () => (state.status === "loaded" ? state.data.items.filter((i) => i.kind === "board") : []),
     [state],
   );
 
@@ -592,10 +589,6 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
           )}
           {totalPages > 1 && <Pagination page={safePage} totalPages={totalPages} onChange={goToPage} />}
         </>
-      )}
-
-      {(filters.kind === "all" || filters.kind === "job") && !showOnlyNew && (
-        <BrowseEveryRole boards={boardItems} query={filters.q} companies={filters.companies} />
       )}
 
       {!showOnlyNew && <StoryStrip cards={storyCards} onSelect={handleQuickFilter} />}

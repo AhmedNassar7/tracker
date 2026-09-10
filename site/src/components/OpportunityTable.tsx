@@ -84,8 +84,8 @@ const KIND_LABEL: Record<SiteIndexEntry["kind"], string> = {
   job: "Job",
   hackathon: "Hackathon",
   event: "Event",
-  // Board items are rendered by BrowseEveryRole, not this table, but the
-  // Record has to be exhaustive over the kind union.
+  // Board items (kind:"board") are filtered out before this table and shown
+  // in the site footer instead; this entry just keeps the Record exhaustive.
   board: "Company board",
 };
 

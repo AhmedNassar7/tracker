@@ -2,7 +2,7 @@ import { DEFAULT_FILTERS, type FilterState } from "./filters";
 import { countryForItem } from "./geo";
 import { detectSkillTags } from "./keywordGap";
 import { contradictsPrefFilter, EMPTY_RANK_TUNE, matchReasons, scoreOpportunity } from "./preferences";
-import type { Profile } from "./profile";
+import { deriveYearsOfExperience, type Profile } from "./profile";
 import type { SiteIndexEntry } from "./types";
 
 // Score a job posting against the unified profile, reusing the site's own
@@ -123,6 +123,24 @@ export function scoreJobForProfile(item: SiteIndexEntry, p: Profile): JobMatch {
     } else if (item.degree_required === false) {
       raw += 2;
       reasons.push("no degree required");
+    }
+  }
+
+  // years of experience vs the JD's stated minimum (derived from experience[])
+  if (typeof item.min_years_experience === "number") {
+    const have = deriveYearsOfExperience(p.experience);
+    const need = item.min_years_experience;
+    if (have > 0) {
+      if (have + 0.5 >= need) {
+        raw += 2;
+        reasons.push(`meets the ${need}+ yr experience bar (~${have} yr)`);
+      } else if (need - have >= 2) {
+        raw -= 3;
+        contradicts = true;
+        gaps.push(`wants ${need}+ yrs of experience, your history is ~${have}`);
+      } else {
+        gaps.push(`just under the ${need}+ yr experience bar (~${have})`);
+      }
     }
   }
 

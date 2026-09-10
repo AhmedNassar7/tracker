@@ -462,6 +462,7 @@ TECH_TAG_PATTERNS = [
     ("MySQL", re.compile(r"\bmysql\b", re.I)),
     ("MongoDB", re.compile(r"\bmongo(?:db)?\b", re.I)),
     ("Redis", re.compile(r"\bredis\b", re.I)),
+    ("Elasticsearch", re.compile(r"\belastic\s?search\b|\bopensearch\b", re.I)),
     ("Kafka", re.compile(r"\bkafka\b", re.I)),
     ("Spark", re.compile(r"\bapache spark\b|\bpy[ ]?spark\b", re.I)),
     ("TensorFlow", re.compile(r"\btensor[ ]?flow\b", re.I)),

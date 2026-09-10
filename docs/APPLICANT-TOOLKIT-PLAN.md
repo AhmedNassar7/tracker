@@ -381,8 +381,12 @@ gaps[], contradicts }` — explainable, never a black-box number.
    rows in the `/toolkit/resume` requirements list. Still to do: **#3** derived profile YoE so
    `min_years_experience` can be *compared* (not just shown), and a language check against the
    profile's own languages.
-3. **Derived years-of-experience** on the profile (computed from `experience[]`, shown read-only,
-   overridable) — feeds #2 and the level sanity-check.
+3. ~~**Derived years-of-experience** on the profile~~ ✅ **Done** — `deriveYearsOfExperience(experience)`
+   in `profile.ts` sums the `experience[]` date ranges (free-text "YYYY" / "YYYY-MM" / "Mar 2021"
+   parsed to a fractional year; a `current` role runs to now; capped at 40). Shown read-only under
+   the Experience section ("that's about ~N years"); `profileMatch.ts` compares it to a job's
+   `min_years_experience` (+2 / gap / −3 + contradiction when 2+ short), and the `/toolkit/resume`
+   Experience row upgrades from info → ok/warn against it. An explicit override field can come later.
 4. **Wire the score into the UI** — a "Match" sort mode + a per-row score chip on the board
    (Phase 3d), and freeze it onto `TrackedApplication.matchScore` at track time (Phase 2).
 

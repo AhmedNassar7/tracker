@@ -395,6 +395,41 @@ export interface Completeness {
   sections: CompletenessSection[];
 }
 
+// ---- derived years of experience -----------------------------------------
+
+const MONTH_INDEX: Record<string, number> = {
+  jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, sept: 8, oct: 9, nov: 10, dec: 11,
+};
+
+/** A free-text "YYYY" / "YYYY-MM" / "Mar 2021" / "March 2021" as a fractional
+ *  year (2021.17 = Feb 2021). `null` if no year is found. */
+function parseFractionalYear(raw: string): number | null {
+  const s = (raw || "").trim().toLowerCase();
+  if (!s) return null;
+  const ym = s.match(/(\d{4})[-/](\d{1,2})/);
+  if (ym) return Number(ym[1]) + (Math.min(12, Math.max(1, Number(ym[2]))) - 1) / 12;
+  const my = s.match(/([a-z]{3,9})\.?\s+(\d{4})/);
+  if (my && my[1].slice(0, 4) in MONTH_INDEX) return Number(my[2]) + MONTH_INDEX[my[1].slice(0, 4)] / 12;
+  const y = s.match(/(19|20)\d{2}/);
+  return y ? Number(y[0]) : null;
+}
+
+/** Rough total years of professional experience, summed from `experience[]`
+ *  date ranges (a "current" role runs to now). Overlaps are not de-duplicated
+ *  — a rare source of slight over-count the user can correct. Returns a number
+ *  rounded to one decimal, capped at 40; 0 when nothing is parseable. */
+export function deriveYearsOfExperience(experience: ExperienceEntry[], now: Date = new Date()): number {
+  const nowFrac = now.getFullYear() + now.getMonth() / 12;
+  let total = 0;
+  for (const e of experience) {
+    const start = parseFractionalYear(e.start);
+    if (start == null) continue;
+    const end = e.current ? nowFrac : (parseFractionalYear(e.end) ?? nowFrac);
+    if (end > start) total += end - start;
+  }
+  return Math.min(40, Math.round(total * 10) / 10);
+}
+
 /** A transparent checklist, not a black-box score (APPLICANT-TOOLKIT-PLAN §5).
  *  Each section is a plain boolean; the ring is just their ratio. */
 export function profileCompleteness(p: Profile): Completeness {

@@ -48,6 +48,9 @@ ashby:
   - alan        # Paris, FR — health insurance (116; France / Belgium)
   - legora      # Stockholm, SE — legal AI (278; Stockholm / Milan)
   - granola     # London, UK — AI meeting notes (16; London)
+  # 2026-09-10 — dev-tools companies confirmed on Ashby (Gemini ATS list, hand-verified).
+  - replit      # Foster City, US — browser IDE / AI coding agent (78 postings)
+  - posthog     # remote-first (strong EU/UK presence) — open-source product analytics (10 postings)
 
 smartrecruiters:
   - Visa
@@ -114,6 +117,9 @@ greenhouse:
   - hellofresh    # Berlin, DE — meal kits (large board; SWE rows only after filter)
   - scout24       # Berlin, DE — online marketplaces (Berlin)
   - doctolib      # Paris, FR — e-health (125; Paris / Berlin / Frankfurt)
+  # 2026-09-10 — allowlisted big-tech company whose careers site is bespoke but
+  # is really a Greenhouse board under a non-obvious token.
+  - doordashusa   # DoorDash (careersatdoordash.com is a skin over greenhouse:doordashusa) — verified 2026-09-10, 456 postings, board name "DoorDash USA"
 
 lever:
   # Same discipline: real Lever board confirmed live 2026-08-18 with actual

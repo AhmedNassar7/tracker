@@ -5,6 +5,7 @@ import { extractPdfText } from "../lib/pdfText";
 import { mergeParsedProfile, parseResume } from "../lib/resumeParse";
 import {
   clearProfile,
+  deriveYearsOfExperience,
   emptyProfile,
   exportProfile,
   importProfile,
@@ -839,6 +840,13 @@ export default function ProfilePanel() {
       </Section>
 
       <Section title="Experience" done={SECTION_DONE(completeness, "experience")}>
+        {profile.experience.length > 0 && deriveYearsOfExperience(profile.experience) > 0 && (
+          <p className="mb-3 text-xs text-slate-500 dark:text-slate-400">
+            From your dates below, that's about{" "}
+            <strong>{deriveYearsOfExperience(profile.experience)} year(s)</strong> of experience — used
+            to check roles that ask for a minimum. Overlapping dates can inflate it slightly.
+          </p>
+        )}
         <ListEditor<ExperienceEntry>
           items={profile.experience}
           onChange={(v) => patch((d) => ({ ...d, experience: v }))}
