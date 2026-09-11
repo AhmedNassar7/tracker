@@ -51,6 +51,30 @@ function ageToDays(age: string): number {
   return Number.MAX_SAFE_INTEGER;
 }
 
+// Mirrors scripts/public_sources.py's _deadline_days exactly (same unit
+// table, same "about N unit(s) left" shape) — a hackathon/event's `age`
+// field is a countdown to its own deadline, not a posting age, and Devpost's
+// own free-text duration (`time_left_to_submission`) isn't always in days
+// ("about 3 hours left", "about 1 month left"). Used to force hackathons/
+// events into soonest-deadline-first order regardless of the selected job
+// sort mode — "Newest" / "Top companies" don't mean anything for a
+// time-limited opportunity, and every organizer not on the tier list ties
+// at the same bucket there, which used to fall through to a plain
+// alphabetical-by-organizer sort instead of anything about urgency.
+const DEADLINE_UNIT_TO_DAYS: Record<string, number> = { hour: 1 / 24, day: 1, month: 30, year: 365 };
+function deadlineDays(item: SiteIndexEntry): number {
+  const hint = (item.age || "").trim().toLowerCase();
+  if (hint === "closed" || hint === "ended" || hint === "concluded") return -1;
+  if (hint === "last day" || hint === "today" || hint === "happening now") return 0;
+  let m = hint.match(/^(\d+)\s*(?:d|days?)(?:\s+left)?$/);
+  if (m) return +m[1];
+  m = hint.match(/^(?:about\s+)?(\d+)\s*(hour|day|month|year)s?(?:\s+left)?$/);
+  if (m) return +m[1] * DEADLINE_UNIT_TO_DAYS[m[2]];
+  m = hint.match(/(\d+)\s*days?\s+left/);
+  if (m) return +m[1];
+  return Number.MAX_SAFE_INTEGER;
+}
+
 type LoadState =
   | { status: "loading" }
   | { status: "error"; message: string }
@@ -255,9 +279,23 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   }, [filters, sortMode, showOnlyNew, rankTune, showLessRelevant]);
 
   // Drop kind:"board" (aggregate-links) rows — those companies are listed in
-  // the site footer now, never in the results.
+  // the site footer now, never in the results. Also drop a job with no
+  // location at all UNLESS it's from a tier-0 (FAANG/Microsoft) company —
+  // those come straight off the company's own careers API, so a blank
+  // location there just means "not tagged," not "untrustworthy." From
+  // anywhere else, no location is indistinguishable from a broken/junk
+  // listing (remote? onsite where?) and reads as low-quality in the table.
+  // This only hides the row here — it's still in the published JSON/RSS for
+  // anyone who wants every raw record, unfiltered.
   const opportunityItems = useMemo(
-    () => (state.status === "loaded" ? state.data.items.filter((i) => i.kind !== "board") : []),
+    () =>
+      state.status === "loaded"
+        ? state.data.items.filter((i) => {
+            if (i.kind === "board") return false;
+            if (i.kind === "job" && !i.location && companyTier(i.company) > 0) return false;
+            return true;
+          })
+        : [],
     [state],
   );
 
@@ -302,13 +340,20 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
 
     if (sortMode === "newest") {
       items = items
-        .map((item, i) => ({ item, i, age: ageToDays(item.age) }))
-        .sort(
-          (a, b) =>
+        .map((item, i) => ({ item, i, age: ageToDays(item.age), urgency: deadlineDays(item) }))
+        .sort((a, b) => {
+          // Jobs always lead (matches the pipeline's own kind_rank), and a
+          // hackathon/event orders by soonest deadline, never by "newest" —
+          // that field is a countdown to close, not a posting date.
+          const aJob = a.item.kind === "job", bJob = b.item.kind === "job";
+          if (aJob !== bJob) return aJob ? -1 : 1;
+          if (!aJob) return a.urgency - b.urgency || (a.item.company || "").localeCompare(b.item.company || "") || a.i - b.i;
+          return (
             a.age - b.age ||
             (a.item.company || "").localeCompare(b.item.company || "") ||
-            a.i - b.i,
-        )
+            a.i - b.i
+          );
+        })
         .map((e) => e.item);
       return { primary: items, lessRelevant: [] };
     }
@@ -320,6 +365,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       tier: companyTier(item.company),
       company: (item.company || "").toLowerCase(),
       age: ageToDays(item.age),
+      urgency: deadlineDays(item),
     }));
     const freshestByCompany = new Map<string, number>();
     for (const d of decorated) {
@@ -328,6 +374,13 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     }
     items = decorated
       .sort((a, b) => {
+        // Same kind-first, deadline-for-non-jobs override as "newest" above
+        // — company *tier* has no meaning for a hackathon organizer, and
+        // every one not on the tier list used to tie at the same bucket,
+        // falling through to a plain alphabetical-by-organizer sort.
+        const aJob = a.item.kind === "job", bJob = b.item.kind === "job";
+        if (aJob !== bJob) return aJob ? -1 : 1;
+        if (!aJob) return a.urgency - b.urgency || a.company.localeCompare(b.company) || a.i - b.i;
         const ka = `${a.tier} ${a.company}`;
         const kb = `${b.tier} ${b.company}`;
         return (

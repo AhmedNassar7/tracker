@@ -1375,11 +1375,25 @@ def _run_concurrently(fn, arg_tuples, max_workers=10):
     return run_and_collect(fn, arg_tuples, log_error, max_workers=max_workers)
 
 
+_DEADLINE_UNIT_TO_DAYS = {"hour": 1 / 24, "day": 1, "month": 30, "year": 365}
+
+
 def _deadline_days(row):
-    """Days until a hackathon/event closes, from its human `date` string
-    ("closed" / "last day" / "N days left" / "N days"). Returns a large
-    sentinel for anything undated so those sort last, and -1 for an
-    already-closed one (callers drop those before sorting).
+    """Days until a hackathon/event closes, from its human `date` string.
+
+    Handles both this pipeline's own phrasing ("closed" / "last day" /
+    "N days left") AND a source's own free-text duration passed through
+    verbatim — Devpost's `time_left_to_submission` uses whatever unit reads
+    naturally ("about 3 hours left", "about 1 month left", "4 months left"),
+    not always days. Every unit it uses (hour/day/month/year, singular or
+    plural, with an optional leading "about") is converted to a day-
+    equivalent float so urgency still ranks correctly across units — without
+    this, a mismatched string like "about 3 hours left" fell all the way
+    through to the "undated" sentinel below and sorted as if it had no
+    deadline at all, instead of the most urgent one on the page.
+
+    Returns a large sentinel for anything unparseable so those sort last,
+    and -1 for an already-closed one (callers drop those before sorting).
     """
     hint = (row.get("date") or "").strip().lower()
     if hint in {"closed", "ended", "concluded"}:
@@ -1389,6 +1403,9 @@ def _deadline_days(row):
     match = re.match(r"^(\d+)\s*(d|days?)(\s+left)?$", hint)
     if match:
         return int(match.group(1))
+    match = re.match(r"^(?:about\s+)?(\d+)\s*(hour|day|month|year)s?(\s+left)?$", hint)
+    if match:
+        return int(match.group(1)) * _DEADLINE_UNIT_TO_DAYS[match.group(2)]
     match = re.search(r"(\d+)\s*days?\s+left", hint)
     if match:
         return int(match.group(1))

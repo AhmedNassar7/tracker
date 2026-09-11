@@ -31,13 +31,17 @@ def check(name, condition, details=""):
 
 
 class _FakeResponse:
-    def __init__(self, status=200, body=b"ok", headers=None):
+    def __init__(self, status=200, body=b"ok", headers=None, url=None):
         self.status = status
         self._body = body
         self.headers = headers or {}
+        self._url = url
 
-    def read(self):
+    def read(self, *args):
         return self._body
+
+    def geturl(self):
+        return self._url or "https://example.com"
 
     def __enter__(self):
         return self
@@ -230,6 +234,27 @@ def main():
         and "https://ancient.example" not in cache          # pruned
         and cache["https://new.example"]["alive"] is True,  # new alive result stored
         details=f"calls={calls_made} cache_keys={sorted(cache)}",
+    ))
+
+    # zapply.jobs /l/... short-links: dead iff the redirect chain lands on
+    # zapply.jobs' own generic /jobs listing (confirmed live 2026-09-11 —
+    # every currently-published zapply.jobs link does exactly this), alive
+    # if it lands anywhere else.
+    zapply_dead_url = "https://zapply.jobs/l/d/bytedance-7670004502598060341?s=gh-new-grad-data-science-jobs-2027"
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"", url="https://zapply.jobs/jobs/")):
+        zapply_dead = net.check_url_alive(zapply_dead_url)
+    run("check_url_alive: a zapply.jobs short-link landing on /jobs is dead", lambda: check(
+        "zapply dead landing", zapply_dead is False,
+    ))
+    with patch("urllib.request.urlopen", return_value=_FakeResponse(200, b"", url="https://boards.greenhouse.io/coinbase/jobs/8175459")):
+        zapply_alive = net.check_url_alive(zapply_dead_url)
+    run("check_url_alive: a zapply.jobs short-link landing on the real ATS is alive", lambda: check(
+        "zapply alive landing", zapply_alive is True,
+    ))
+    with patch("urllib.request.urlopen", side_effect=urllib.error.HTTPError(zapply_dead_url, 404, "Not Found", None, None)):
+        zapply_404 = net.check_url_alive(zapply_dead_url)
+    run("check_url_alive: a zapply.jobs short-link that 404s outright is dead", lambda: check(
+        "zapply 404", zapply_404 is False,
     ))
 
     print(color(f"✅ ALL PASSED: {total} checks", GREEN))

@@ -1,5 +1,5 @@
 import { BASE_URL } from "./basePath";
-import type { SiteIndex, StatsHistory, StoryCards } from "./types";
+import type { Counts, SiteIndex, StatsHistory, StoryCards } from "./types";
 
 // Runtime fetch, not a build-time import — the site must show data that's at
 // most ~1h stale without ever being redeployed itself (see the plan's
@@ -73,4 +73,11 @@ export function fetchStatsHistory(): Promise<StatsHistory> {
 // predates this file) as "no strip", not an error.
 export function fetchStoryCards(): Promise<StoryCards> {
   return fetchJsonWithFallback<StoryCards>("story-cards.json");
+}
+
+// data/counts.json — see the Counts type doc. Used by the header's live
+// count chip, which renders on every page (not just the homepage, where
+// SnapshotHero already fetches the full site index anyway).
+export function fetchCounts(): Promise<Counts> {
+  return fetchJsonWithFallback<Counts>("counts.json");
 }

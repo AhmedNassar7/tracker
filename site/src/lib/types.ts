@@ -157,3 +157,15 @@ export interface StoryCards {
   generated_at: string;
   cards: StoryCard[];
 }
+
+// data/counts.json — a few-hundred-byte file with just the totals, so a
+// caller that only needs "how many, as of when" (the header's live count
+// chip) never has to download the multi-MB site-index.json a second time.
+// `total` mirrors site-index.json's own `count` exactly.
+export interface Counts {
+  generated_at: string;
+  total: number;
+  jobs_total: number;
+  hackathons_total: number;
+  events_total: number;
+}

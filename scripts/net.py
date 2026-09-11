@@ -162,6 +162,35 @@ _BROWSER_UA = (
 )
 
 
+# zapply.jobs (the speedyapply/zapplyjobs-family community trackers) never
+# links straight to the employer's ATS — every row points at zapply.jobs'
+# own `/l/d/<ats>-<id>` short-link, which is supposed to 30x-redirect to the
+# real posting. Confirmed by hand 2026-09-11: a link whose underlying job
+# has gone (or, observed live, the redirector itself misbehaving — every
+# `/l/d/...` URL sampled that day landed the same way, live employer job or
+# not) 302s to zapply.jobs' own generic `/jobs` listing instead of a
+# 404/410 — the same "always 200, no honest status code" shape as the SPA
+# soft-404s above, just via a redirect chain rather than a client-rendered
+# shell. `geturl()` after following redirects is the tell: a genuine
+# posting lands somewhere under `/l/d/...` (or wherever zapply.jobs
+# ultimately sends a live one), a dead one lands on `/jobs`.
+_ZAPPLY_REDIRECTOR_RE = re.compile(r"^https?://(?:www\.)?zapply\.jobs/l/")
+_ZAPPLY_DEAD_LANDING_RE = re.compile(r"^https?://(?:www\.)?zapply\.jobs/jobs/?(?:\?.*)?$")
+
+
+def _zapply_link_alive(url, timeout):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "tracker-bot/1.0"}, method="HEAD")
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            return not _ZAPPLY_DEAD_LANDING_RE.match(response.geturl() or "")
+    except urllib.error.HTTPError as e:
+        if e.code in (404, 410):
+            return False
+        return True  # can't tell -> assume alive, same default as check_url_alive
+    except Exception:
+        return True
+
+
 def _match_soft_404_rule(url):
     for pattern, dead_markers, alive_markers in _SOFT_404_RULES:
         if pattern.match(url):
@@ -237,6 +266,9 @@ def check_url_alive(url, timeout=6):
       check a dead/alive marker — still "assume alive" if no marker matches.
     - linkedin.com/jobs/view/<id> links are checked via LinkedIn's
       unauthenticated guest fragment instead of the bot-blocked apply URL.
+    - zapply.jobs/l/... short-links: dead iff the redirect chain lands on
+      zapply.jobs' own generic /jobs listing instead of a real posting (see
+      _zapply_link_alive above).
     """
     if not url:
         return True
@@ -244,6 +276,9 @@ def check_url_alive(url, timeout=6):
     linkedin_id = _linkedin_job_id(url)
     if linkedin_id:
         return _linkedin_posting_alive(linkedin_id, timeout)
+
+    if _ZAPPLY_REDIRECTOR_RE.match(url):
+        return _zapply_link_alive(url, timeout)
 
     soft_404_rule = _match_soft_404_rule(url)
     methods = ("GET",) if soft_404_rule else ("HEAD", "GET")

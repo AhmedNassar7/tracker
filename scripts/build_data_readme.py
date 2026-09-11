@@ -30,6 +30,7 @@ AGGREGATE_LINKS_CONFIG = ROOT / "config" / "aggregate_links.yml"
 ROOT_README = ROOT / "README.md"
 DATA_README = DATA_OUT / "README.md"
 SITE_INDEX_JSON = DATA_OUT / "site-index.json"
+COUNTS_JSON = DATA_OUT / "counts.json"
 SITE_INDEX_SCHEMA = ROOT / "config" / "site-index.schema.json"
 STATS_HISTORY_JSON = DATA_OUT / "stats-history.json"
 STATS_HISTORY_SCHEMA = ROOT / "config" / "stats-history.schema.json"
@@ -1237,6 +1238,23 @@ def main() -> int:
     )
     SITE_INDEX_JSON.write_text(json.dumps(site_index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {SITE_INDEX_JSON} ({site_index['count']} items)")
+
+    # A dedicated few-hundred-byte file just for "how many, as of when" —
+    # site-index.json carries the same numbers, but it's multi-MB (every
+    # item, full text and all), which is wasteful for a caller that only
+    # wants the header's live count chip and would otherwise have to
+    # download the whole thing a second time (the main item list is already
+    # fetched elsewhere on the page). `total` mirrors site_index['count']
+    # exactly so the header chip and the homepage hero never disagree.
+    counts = {
+        "generated_at": site_index["generated_at"],
+        "total": site_index["count"],
+        "jobs_total": stats["jobs_total"],
+        "hackathons_total": stats["hackathons_total"],
+        "events_total": stats["events_total"],
+    }
+    COUNTS_JSON.write_text(json.dumps(counts, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {COUNTS_JSON} (total={counts['total']})")
 
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     # Dimensions off the *published* job set (site_index, post cross-layer

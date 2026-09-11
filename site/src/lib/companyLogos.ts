@@ -75,6 +75,9 @@ const COMPANY_DOMAINS: Record<string, string> = {
   flutterwave: "flutterwave.com", paystack: "paystack.com", interswitch: "interswitchgroup.com",
   fawry: "fawry.com", thndr: "thndr.app", tamara: "tamara.co", tabby: "tabby.ai", swvl: "swvl.com",
   bosta: "bosta.co",
+  // Verified 2026-09-11 (content-confirmed, not just domain-resolves)
+  cequens: "cequens.com", mozn: "mozn.ai", yassir: "yassir.com", trendyol: "trendyol.com",
+  hala: "hala.com", accenture: "accenture.com", procore: "procore.com",
   // More global tech
   valeo: "valeo.com",
   tesla: "tesla.com", spacex: "spacex.com", "palo alto networks": "paloaltonetworks.com",
@@ -90,10 +93,34 @@ const COMPANY_DOMAINS: Record<string, string> = {
   scaleai: "scale.com", "scale.com": "scale.com",
 };
 
+/** Same word-boundary-ish substring match companyTiers.ts uses — an ATS
+ *  posting rarely carries a company's bare display name: "Amazon.com
+ *  Services LLC", "Amazon Advertising LLC - B11", "Amazon Kuiper Commercial
+ *  Services LLC" are all real `company` values for postings that are,
+ *  plainly, Amazon. An exact-match-only lookup missed every one of those —
+ *  showing initials for a company whose logo was already hand-verified and
+ *  sitting right there in the map. This never widens *which* companies get
+ *  a logo (still only the hand-verified list below), only how many of that
+ *  same company's real name variants resolve to it. Keys under 4 chars
+ *  ("sap", "arm") stay exact-only to avoid a short key matching inside an
+ *  unrelated word; among multiple substring hits, the longest (most
+ *  specific) key wins. */
+function resolveCompanyDomain(company: string): string | undefined {
+  const name = company.trim().toLowerCase();
+  if (!name) return undefined;
+  const exact = COMPANY_DOMAINS[name];
+  if (exact) return exact;
+  let bestKey = "";
+  for (const key of Object.keys(COMPANY_DOMAINS)) {
+    if (key.length >= 4 && key.length > bestKey.length && name.includes(key)) bestKey = key;
+  }
+  return bestKey ? COMPANY_DOMAINS[bestKey] : undefined;
+}
+
 /** Ordered favicon URLs for a company whose domain is hand-verified; [] if
  *  the company has no verified domain (caller then shows initials). */
 export function logoCandidates(company: string, size = 64): string[] {
-  const domain = COMPANY_DOMAINS[company.trim().toLowerCase()];
+  const domain = resolveCompanyDomain(company);
   return domain ? faviconSources(domain, size) : [];
 }
 

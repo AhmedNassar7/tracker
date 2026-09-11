@@ -159,6 +159,72 @@
   }
 }
 
+/* First-visit tour (TourModal.tsx). Same guarded-plain-CSS mount-triggered
+   pattern as row-enter/hero-enter/story-card-enter — a fresh DOM node
+   mounting (the modal opening, or `key={step}` forcing React to remount the
+   step body when Next/Back is clicked) just plays the animation once, no JS
+   driving it. Three distinct motions: the backdrop fades in fast (it's just
+   a dimming, not content), the dialog itself fades up with a gentle scale
+   (the "arriving" moment), and each step's icon+text crossfades in place
+   with a small rightward settle so Next reads as moving forward, not a
+   jarring content swap. */
+@keyframes tour-backdrop-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes tour-dialog-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes tour-step-enter {
+  from {
+    opacity: 0;
+    transform: translateX(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes tour-icon-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .tour-backdrop {
+    animation: tour-backdrop-enter 0.15s ease-out both;
+  }
+  .tour-dialog {
+    animation: tour-dialog-enter 0.25s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .tour-step-enter {
+    animation: tour-step-enter 0.2s ease-out both;
+  }
+  .tour-icon-pop {
+    animation: tour-icon-pop 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
 /* Company logo showcase marquee (CompanyShowcase.tsx). The scroll/drag
    itself is driven from JS (a rAF loop sets `transform` directly, and a
    pointer drag adds to the same offset) rather than a CSS @keyframes
