@@ -1,36 +1,21 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { logoCandidates } from "../lib/companyLogos";
 import { companyNameMatches, type FilterState } from "../lib/filters";
+import type { SiteIndexEntry } from "../lib/types";
 
-// A moving "logo wall" of FAANG + big-tech names tracked on this site — pure
-// visual attractor between the hero and the list. Real hand-verified logos
-// (companyLogos.ts) via CompanyShowcaseLogo below, not guessed favicons.
-// Clicking a logo applies it as a quick search, same mechanic as the
-// SnapshotHero chips above it.
+// A moving "logo wall" — pure visual attractor between the hero and the
+// list. Real hand-verified logos (companyLogos.ts) via CompanyShowcaseLogo
+// below, not guessed favicons. Clicking a logo applies it as a quick
+// search, same mechanic as the SnapshotHero chips above it.
 //
-// The scroll itself is driven from a rAF loop (not CSS @keyframes) so a drag
-// can share the exact same position variable: grabbing the strip and moving
-// the mouse scrolls it 1:1 in that direction, and releasing resumes the
-// automatic drift from wherever it was left — no jump back to a keyframe's
-// start position, which a CSS-animation-plus-manual-transform hybrid would
-// cause. Hovering (no drag needed) still just pauses it, same as before.
-
-const SHOWCASE_COMPANIES = [
-  "Google",
-  "Meta",
-  "Apple",
-  "Amazon",
-  "Netflix",
-  "Microsoft",
-  "Nvidia",
-  "IBM",
-  "Oracle",
-  "Salesforce",
-  "Adobe",
-  "Cisco",
-  "SAP",
-  "Samsung",
-] as const;
+// Deliberately just FAANG (+ Microsoft) — the names this site is actually
+// known for tracking well — and only the ones with a *currently open* job
+// on this site right now (checked against `items` below), never a static
+// "companies we like" wall. A big-tech name with zero current openings
+// would be a dead click (select it, see an empty list) and a company
+// outside this set (Samsung, SAP, Cisco, IBM, Oracle, Salesforce, …) is a
+// real employer here but not what this particular strip is for.
+const FAANG_COMPANIES = ["Google", "Meta", "Apple", "Amazon", "Netflix", "Microsoft"] as const;
 
 // Auto-scroll speed in px/second. A constant speed (rather than a fixed
 // duration for a loop of varying width) is the standard marquee approach.
@@ -116,9 +101,14 @@ interface Props {
   // word-boundary match (companyNameMatches), same as the filter itself, not
   // a plain substring check.
   activeCompanies: string[];
+  // The current (unfiltered-by-the-user) opportunity list — used only to
+  // check which FAANG company actually has an open *job* right now. Board
+  // rows are irrelevant here (already excluded upstream in
+  // OpportunityBrowser before this reaches the component).
+  items: SiteIndexEntry[];
 }
 
-export default function CompanyShowcase({ onSelect, activeCompanies }: Props) {
+export default function CompanyShowcase({ onSelect, activeCompanies, items }: Props) {
   const trackRef = useRef<HTMLDivElement>(null);
   const offsetRef = useRef(0);
   const pointerDownRef = useRef(false);
@@ -128,7 +118,12 @@ export default function CompanyShowcase({ onSelect, activeCompanies }: Props) {
   const dragDistanceRef = useRef(0);
   const reducedMotionRef = useRef(false);
 
-  const activeCompany = SHOWCASE_COMPANIES.find((c) =>
+  const showcaseCompanies = useMemo(
+    () => FAANG_COMPANIES.filter((c) => items.some((i) => i.kind === "job" && companyNameMatches(i.company, c))),
+    [items],
+  );
+
+  const activeCompany = showcaseCompanies.find((c) =>
     activeCompanies.some((ac) => companyNameMatches(c, ac) || companyNameMatches(ac, c)),
   );
 
@@ -224,6 +219,10 @@ export default function CompanyShowcase({ onSelect, activeCompanies }: Props) {
     }
   }
 
+  // Nothing to show yet (data still loading) or — in principle — every
+  // FAANG name is between postings right now: no strip, not an empty one.
+  if (showcaseCompanies.length === 0) return null;
+
   return (
     <section aria-label="Companies tracked on this site" className="mb-6">
       <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
@@ -252,7 +251,7 @@ export default function CompanyShowcase({ onSelect, activeCompanies }: Props) {
       >
         <div className="logo-marquee-track" ref={trackRef}>
           <div className="logo-marquee-group">
-            {SHOWCASE_COMPANIES.map((company) => (
+            {showcaseCompanies.map((company) => (
               <CompanyShowcaseLogo
                 key={company}
                 company={company}
@@ -262,7 +261,7 @@ export default function CompanyShowcase({ onSelect, activeCompanies }: Props) {
             ))}
           </div>
           <div className="logo-marquee-group" aria-hidden="true">
-            {SHOWCASE_COMPANIES.map((company) => (
+            {showcaseCompanies.map((company) => (
               <CompanyShowcaseLogo
                 key={`${company}-dup`}
                 company={company}

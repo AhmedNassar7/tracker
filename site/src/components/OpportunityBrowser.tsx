@@ -505,7 +505,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     <div>
       <SnapshotHero items={opportunityItems} generatedAt={data.generated_at} />
 
-      <CompanyShowcase onSelect={handleQuickFilter} activeCompanies={filters.companies} />
+      <CompanyShowcase onSelect={handleQuickFilter} activeCompanies={filters.companies} items={opportunityItems} />
 
       {newIds.size > 0 && !bannerDismissed && (
         <div className="mb-4 flex flex-wrap items-center gap-3 rounded-md border border-teal-200 bg-teal-50 px-4 py-2.5 text-sm dark:border-teal-900 dark:bg-teal-950">
