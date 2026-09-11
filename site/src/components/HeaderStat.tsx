@@ -35,6 +35,7 @@ export default function HeaderStat() {
   return (
     <a
       href={BASE_URL}
+      data-tour-target="header-stat"
       className="flex shrink-0 items-center gap-1.5 rounded-full border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 hover:border-teal-300 hover:bg-teal-50/60 dark:border-slate-700 dark:text-slate-300 dark:hover:border-teal-800 dark:hover:bg-teal-950/40"
       aria-label={state.status === "loaded" ? `${state.total.toLocaleString()} open opportunities — go to the jobs list` : "Loading open-opportunity count"}
     >

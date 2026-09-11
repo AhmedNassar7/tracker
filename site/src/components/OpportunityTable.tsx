@@ -231,6 +231,7 @@ export default function OpportunityTable({
             return (
             <tr
               key={item.id}
+              data-tour-target={rowIndex === 0 ? "job-row" : undefined}
               // Staggered fade-up on a filter/sort change — capped at the
               // first ~14 rows so a long list doesn't ripple for a second
               // (WEBSITE-VISION-PLAN §5.2).

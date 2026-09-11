@@ -159,15 +159,20 @@
   }
 }
 
-/* First-visit tour (TourModal.tsx). Same guarded-plain-CSS mount-triggered
-   pattern as row-enter/hero-enter/story-card-enter — a fresh DOM node
-   mounting (the modal opening, or `key={step}` forcing React to remount the
-   step body when Next/Back is clicked) just plays the animation once, no JS
-   driving it. Three distinct motions: the backdrop fades in fast (it's just
-   a dimming, not content), the dialog itself fades up with a gentle scale
-   (the "arriving" moment), and each step's icon+text crossfades in place
-   with a small rightward settle so Next reads as moving forward, not a
-   jarring content swap. */
+/* First-visit tour (TourModal.tsx) — a real spotlight tour, not a centered
+   dialog: each step finds its actual on-page element
+   (`[data-tour-target="…"]`), scrolls it into view, cuts a highlighted hole
+   for it in a dimming overlay, and anchors a small callout with an arrow
+   right next to it. Both the spotlight box and the callout are positioned
+   every animation frame from the live element's getBoundingClientRect() (see
+   the component), so `.tour-spotlight`/`.tour-callout`'s job here is only to
+   *animate* a change in those inline top/left/width/height values smoothly
+   from one step's position to the next, rather than snapping — `transition`,
+   not `@keyframes`, is the right tool for animating a value that changes
+   every frame. `.tour-callout-enter`/`.tour-icon-pop` still use the
+   mount-triggered @keyframes pattern from row-enter etc., replayed each step
+   via `key={step}` on the content, for the small crossfade/pop *within* the
+   callout as its text changes. */
 @keyframes tour-backdrop-enter {
   from {
     opacity: 0;
@@ -176,24 +181,14 @@
     opacity: 1;
   }
 }
-@keyframes tour-dialog-enter {
+@keyframes tour-callout-content-enter {
   from {
     opacity: 0;
-    transform: translateY(10px) scale(0.96);
+    transform: translateY(4px);
   }
   to {
     opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes tour-step-enter {
-  from {
-    opacity: 0;
-    transform: translateX(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 @keyframes tour-icon-pop {
@@ -210,18 +205,29 @@
     transform: scale(1);
   }
 }
+.tour-spotlight,
+.tour-callout {
+  transition:
+    top 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    left 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    width 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    height 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
 @media (prefers-reduced-motion: no-preference) {
   .tour-backdrop {
     animation: tour-backdrop-enter 0.15s ease-out both;
   }
-  .tour-dialog {
-    animation: tour-dialog-enter 0.25s cubic-bezier(0.22, 1, 0.36, 1) both;
-  }
-  .tour-step-enter {
-    animation: tour-step-enter 0.2s ease-out both;
+  .tour-callout-enter {
+    animation: tour-callout-content-enter 0.2s ease-out both;
   }
   .tour-icon-pop {
     animation: tour-icon-pop 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tour-spotlight,
+  .tour-callout {
+    transition: none;
   }
 }
 

@@ -542,7 +542,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
 
       <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-2">
         <span className="text-xs font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">Sort</span>
-        <div className="inline-flex overflow-hidden rounded-md border border-slate-200 text-sm dark:border-slate-700">
+        <div data-tour-target="sort-mode" className="inline-flex overflow-hidden rounded-md border border-slate-200 text-sm dark:border-slate-700">
           {(["tier", "newest", "match"] as const).map((mode) => {
             const disabled = mode === "match" && !canMatch && !hasSavedPrefs;
             const active = sortMode === mode;

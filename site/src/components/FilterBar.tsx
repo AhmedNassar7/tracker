@@ -98,7 +98,7 @@ export default function FilterBar({
   const remoteOptions = withCounts(REMOTE_OPTIONS, counts?.remotes);
 
   return (
-    <div className="mb-6 space-y-3">
+    <div data-tour-target="filters" className="mb-6 space-y-3">
       <div role="group" aria-label="Filter by kind" className="flex flex-wrap items-center gap-2">
         {KIND_TABS.map((tab) => {
           const n = tab.value === "all" ? undefined : counts?.kind[tab.value];

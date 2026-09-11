@@ -2,17 +2,22 @@ import { useEffect, useRef, useState, type ReactElement } from "react";
 import { BASE_URL } from "../lib/basePath";
 import { hasSeenTour, markTourSeen } from "../lib/tour";
 
-// A short, self-paced walkthrough of what's already here — filters, match
-// scores, the application tracker, and how the data stays fresh — for a
-// first-time visitor who lands on a dense job table with no explanation.
-// Deliberately a content-card carousel, not a spotlight-over-the-live-page
-// tour: spotlighting real elements needs per-breakpoint position tracking
-// that's easy to get subtly wrong (and hard to verify without a browser in
-// the loop), while a modal degrades to "just some text" if anything about
-// the page around it changes later. Every claim below describes a feature
-// that actually exists — this is a map of the site, not marketing copy.
-// Each step instead names its concrete on-page location in a "where" chip,
-// so a visitor who dismisses the tour still knows where to look.
+// A real spotlight tour: each step finds its actual on-page element via
+// `[data-tour-target="…"]` (set on the real DOM node in FilterBar.tsx,
+// HeaderStat.tsx, Layout.astro's nav/footer, and OpportunityTable.tsx's
+// first row — see those files), scrolls it into view, cuts a highlighted
+// hole for it in a dimming overlay, and anchors a small arrow-pointed
+// callout right next to it. Never a centered dialog describing a button by
+// name — the tour moves to the actual button, filter, or section and points
+// at it directly.
+//
+// Position tracking is a continuous requestAnimationFrame loop (not a mix
+// of scroll/resize/MutationObserver listeners) — it's one querySelector +
+// getBoundingClientRect() per frame, only while the tour is open, and it
+// correctly self-heals from every case that would break a listener-based
+// approach for free: the target not existing yet (data still loading — the
+// callout just shows a centered fallback until the element appears next
+// frame), the page reflowing, or the user scrolling manually mid-step.
 
 type StepIcon = (props: { className: string }) => ReactElement;
 
@@ -36,6 +41,15 @@ const FilterIcon: StepIcon = ({ className }) => (
   </svg>
 );
 
+const SortIcon: StepIcon = ({ className }) => (
+  <svg aria-hidden="true" className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M7 4v16" />
+    <path d="M3 8l4-4 4 4" />
+    <path d="M17 20V4" />
+    <path d="M13 16l4 4 4-4" />
+  </svg>
+);
+
 const TargetIcon: StepIcon = ({ className }) => (
   <svg aria-hidden="true" className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <circle cx="12" cy="12" r="8" />
@@ -44,11 +58,10 @@ const TargetIcon: StepIcon = ({ className }) => (
   </svg>
 );
 
-const ColumnsIcon: StepIcon = ({ className }) => (
+const UserIcon: StepIcon = ({ className }) => (
   <svg aria-hidden="true" className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <rect x="3" y="4" width="5" height="16" rx="1" />
-    <rect x="9.5" y="4" width="5" height="10" rx="1" />
-    <rect x="16" y="4" width="5" height="13" rx="1" />
+    <circle cx="12" cy="8" r="3.5" />
+    <path d="M4.5 20a7.5 7.5 0 0 1 15 0" />
   </svg>
 );
 
@@ -60,66 +73,89 @@ const RssIcon: StepIcon = ({ className }) => (
   </svg>
 );
 
-const PinIcon: StepIcon = ({ className }) => (
-  <svg aria-hidden="true" className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z" />
-    <circle cx="12" cy="10" r="2.2" />
-  </svg>
-);
-
 interface Step {
+  /** Matches a `data-tour-target="…"` attribute somewhere on the current
+   * page. If it can't be found (not rendered yet, or genuinely absent) the
+   * callout falls back to a plain centered card for that step instead of
+   * getting stuck. */
+  target: string;
   icon: StepIcon;
   title: string;
   body: string;
-  /** Where on the site this feature actually lives — a concrete pointer,
-   * not a vague "around here somewhere". */
-  where: string;
 }
 
 const STEPS: Step[] = [
   {
+    target: "header-stat",
     icon: RefreshIcon,
-    title: "Jobs, hackathons & events — merged hourly",
-    body: "Every row here comes straight from a company's own careers API, a hackathon platform, or a hand-checked event page — 20+ sources, no manual copy-pasting.",
-    where: "Live count + pulse, top-right of every page",
+    title: "Live, right now",
+    body: "This count updates as the pipeline refreshes hourly — no stale number, nothing to manually reload.",
   },
   {
+    target: "filters",
     icon: FilterIcon,
-    title: "Filter down to what's actually yours",
-    body: "Company, region, country, level, and role all narrow the list at once. Found a combination worth keeping? Save it as your default view so it's there next time.",
-    where: "Filter bar, just below the header",
+    title: "Filter it down",
+    body: "Company, region, country, level, and role all narrow the list at once. Save a combination as your default view.",
   },
   {
+    target: "sort-mode",
+    icon: SortIcon,
+    title: "Choose how it's ranked",
+    body: "Top companies, Newest, or Best match — match ranks against your profile (or a saved filter) once you've set one up.",
+  },
+  {
+    target: "job-row",
     icon: TargetIcon,
-    title: "Open a role to see the real posting",
-    body: "Every listing links straight to the company's own apply page — never a third-party reposting. Set up your profile once and matching listings show a plain-language match score.",
-    where: "Any row in the list → your Profile page",
+    title: "Every link is the real posting",
+    body: "Straight to the company's own apply page, never a third-party reposting. A dead link gets flagged automatically.",
   },
   {
-    icon: ColumnsIcon,
-    title: "Track applications, not tabs",
-    body: "Move anything from the list into Applications and step it through stages as you apply, hear back, and interview. A link that goes dead gets flagged automatically.",
-    where: "\"Applications\" in the top navigation",
+    target: "workspace-nav",
+    icon: UserIcon,
+    title: "Your workspace",
+    body: "Set up a profile for a match score on every listing, track applications through stages, or run the résumé check.",
   },
   {
+    target: "rss-feeds",
     icon: RssIcon,
-    title: "Prefer email or a feed reader?",
-    body: "There's no email-alert server here on purpose — instead, grab an RSS feed (all jobs, internships, new grad, hackathons, or events) and read new postings wherever you already read feeds.",
-    where: "RSS links, footer of every page",
+    title: "No email server here, on purpose",
+    body: "Grab an RSS feed instead and read new postings wherever you already read feeds.",
   },
 ];
+
+const SPOTLIGHT_PADDING = 8;
+const CALLOUT_GAP = 14;
+const VIEWPORT_MARGIN = 16;
+const DEFAULT_CALLOUT_SIZE = { width: 300, height: 180 };
+
+interface Rect {
+  top: number;
+  left: number;
+  width: number;
+  height: number;
+}
+
+function findTargetRect(target: string): Rect | null {
+  const el = document.querySelector(`[data-tour-target="${target}"]`);
+  if (!el) return null;
+  const r = el.getBoundingClientRect();
+  return { top: r.top, left: r.left, width: r.width, height: r.height };
+}
 
 export default function TourModal() {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(0);
-  const dialogRef = useRef<HTMLDivElement | null>(null);
+  const [targetRect, setTargetRect] = useState<Rect | null>(null);
+  const [calloutSize, setCalloutSize] = useState(DEFAULT_CALLOUT_SIZE);
+  const calloutRef = useRef<HTMLDivElement | null>(null);
+  const stepRef = useRef(0);
+  stepRef.current = step;
 
   // Exactly once, ever, per browser: mark it seen the moment the automatic
   // tour actually opens — not on close/Skip/complete. Marking only on close
   // meant abandoning the tour mid-way (a direct nav-link click, closing the
-  // tab) never set the flag, so it kept reopening on every later visit until
-  // someone explicitly dismissed it. The manual "Take the tour" button below
-  // is unaffected — it always works, on purpose.
+  // tab) never set the flag, so it kept reopening on every later visit. The
+  // manual "Take the tour" button below is unaffected — it always works.
   useEffect(() => {
     if (!hasSeenTour()) {
       setOpen(true);
@@ -127,9 +163,41 @@ export default function TourModal() {
     }
   }, []);
 
+  // Scroll the current step's real element into view whenever the step (or
+  // open state) changes.
   useEffect(() => {
     if (!open) return;
-    dialogRef.current?.focus();
+    const el = document.querySelector(`[data-tour-target="${STEPS[step].target}"]`);
+    if (!el) return;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    el.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center", inline: "nearest" });
+  }, [open, step]);
+
+  // Continuous position tracking — see the file-level comment for why a
+  // rAF loop instead of scroll/resize/MutationObserver listeners.
+  useEffect(() => {
+    if (!open) {
+      setTargetRect(null);
+      return;
+    }
+    let raf = 0;
+    function tick() {
+      setTargetRect(findTargetRect(STEPS[stepRef.current].target));
+      const calloutEl = calloutRef.current;
+      if (calloutEl) {
+        const r = calloutEl.getBoundingClientRect();
+        if (r.width > 0 && r.height > 0) {
+          setCalloutSize((prev) => (prev.width === r.width && prev.height === r.height ? prev : { width: r.width, height: r.height }));
+        }
+      }
+      raf = requestAnimationFrame(tick);
+    }
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [open]);
+
+  useEffect(() => {
+    if (!open) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") close();
       if (e.key === "ArrowRight") next();
@@ -143,31 +211,65 @@ export default function TourModal() {
   function close() {
     setOpen(false);
   }
-
   function next() {
     if (step < STEPS.length - 1) setStep(step + 1);
     else close();
   }
-
   function back() {
     if (step > 0) setStep(step - 1);
+  }
+  function start() {
+    setStep(0);
+    setCalloutSize(DEFAULT_CALLOUT_SIZE);
+    setOpen(true);
   }
 
   const current = STEPS[step];
   const Icon = current.icon;
   const isLast = step === STEPS.length - 1;
 
+  const spotlight = targetRect && {
+    top: targetRect.top - SPOTLIGHT_PADDING,
+    left: targetRect.left - SPOTLIGHT_PADDING,
+    width: targetRect.width + SPOTLIGHT_PADDING * 2,
+    height: targetRect.height + SPOTLIGHT_PADDING * 2,
+  };
+
+  let calloutStyle: { top: number | string; left: number | string; transform?: string };
+  let arrow: { side: "top" | "bottom"; left: number } | null = null;
+
+  if (spotlight && typeof window !== "undefined") {
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const spaceBelow = vh - (spotlight.top + spotlight.height);
+    const spaceAbove = spotlight.top;
+    const placeBelow = spaceBelow >= calloutSize.height + CALLOUT_GAP + VIEWPORT_MARGIN || spaceBelow >= spaceAbove;
+
+    let top = placeBelow
+      ? spotlight.top + spotlight.height + CALLOUT_GAP
+      : spotlight.top - CALLOUT_GAP - calloutSize.height;
+    top = Math.min(Math.max(top, VIEWPORT_MARGIN), Math.max(VIEWPORT_MARGIN, vh - calloutSize.height - VIEWPORT_MARGIN));
+
+    const targetCenterX = spotlight.left + spotlight.width / 2;
+    let left = targetCenterX - calloutSize.width / 2;
+    left = Math.min(Math.max(left, VIEWPORT_MARGIN), Math.max(VIEWPORT_MARGIN, vw - calloutSize.width - VIEWPORT_MARGIN));
+
+    calloutStyle = { top, left };
+    arrow = { side: placeBelow ? "top" : "bottom", left: Math.min(Math.max(targetCenterX - left, 20), calloutSize.width - 20) };
+  } else {
+    // Fallback while the target hasn't rendered yet (or genuinely isn't on
+    // this page) — a plain centered card instead of getting stuck.
+    calloutStyle = { top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
+  }
+
   return (
     <>
-      {/* Persistent re-open trigger — the modal only opens on its own once
-          per browser, but the tour stays reachable for anyone who skipped
-          it or wants a refresher. */}
+      {/* Persistent re-open trigger — the tour only opens on its own once
+          per browser, but it stays reachable for anyone who skipped it or
+          wants a refresher. */}
       <button
         type="button"
-        onClick={() => {
-          setStep(0);
-          setOpen(true);
-        }}
+        onClick={start}
         className="fixed bottom-4 right-4 z-40 flex items-center gap-1.5 rounded-full border border-slate-300 bg-white px-3 py-2 text-xs font-medium text-slate-600 shadow-sm hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:bg-slate-800"
         aria-label="Take the tour"
       >
@@ -180,91 +282,100 @@ export default function TourModal() {
       </button>
 
       {open && (
-        <div
-          className="tour-backdrop fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 px-4 py-6"
-          onClick={(e) => {
-            if (e.target === e.currentTarget) close();
-          }}
-        >
+        <>
+          <div className="tour-backdrop fixed inset-0 z-50 bg-slate-950/60" onClick={close} />
+
+          {spotlight && (
+            <div
+              aria-hidden="true"
+              className="tour-spotlight pointer-events-none fixed z-50 rounded-xl ring-2 ring-teal-400 dark:ring-teal-300"
+              style={{
+                top: spotlight.top,
+                left: spotlight.left,
+                width: spotlight.width,
+                height: spotlight.height,
+                boxShadow: "0 0 0 9999px rgba(2, 6, 23, 0.6)",
+              }}
+            />
+          )}
+
           <div
-            ref={dialogRef}
+            ref={calloutRef}
             role="dialog"
             aria-modal="true"
             aria-labelledby="tour-title"
-            tabIndex={-1}
-            className="tour-dialog w-full max-w-md rounded-xl border border-slate-200 bg-white p-6 shadow-xl outline-none dark:border-slate-800 dark:bg-slate-900"
+            className="tour-callout fixed z-[60] w-[min(300px,calc(100vw-32px))] rounded-xl border border-slate-200 bg-white p-4 shadow-xl dark:border-slate-800 dark:bg-slate-900"
+            style={calloutStyle}
+            onClick={(e) => e.stopPropagation()}
           >
-            <div className="mb-4 flex items-center justify-between text-xs font-medium text-slate-400 dark:text-slate-500">
-              <span>
-                {step + 1} / {STEPS.length}
-              </span>
-              <button
-                type="button"
-                onClick={close}
-                className="text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300"
-              >
-                Skip
-              </button>
-            </div>
+            {arrow && (
+              <span
+                aria-hidden="true"
+                className={
+                  "absolute h-3 w-3 rotate-45 border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900 " +
+                  (arrow.side === "top" ? "-top-1.5 border-b-0 border-r-0" : "-bottom-1.5 border-l-0 border-t-0")
+                }
+                style={{ left: arrow.left - 6 }}
+              />
+            )}
 
-            {/* key={step} forces React to remount this subtree on every
-                Next/Back — that's what re-triggers .tour-step-enter and
-                .tour-icon-pop (a fresh element mounting is what plays a
-                guarded-CSS animation; see global.css). */}
+            {/* key={step} replays .tour-callout-enter / .tour-icon-pop for
+                the new content each time Next/Back is clicked. */}
             <div key={step}>
-              <div className="tour-icon-pop mb-3 flex h-11 w-11 items-center justify-center rounded-lg bg-teal-50 text-teal-700 dark:bg-teal-900/40 dark:text-teal-300">
-                <Icon className="h-5 w-5" />
-              </div>
-              <div className="tour-step-enter">
-                <h2 id="tour-title" className="mb-2 text-base font-semibold text-slate-900 dark:text-slate-100">
-                  {current.title}
-                </h2>
-                <p className="mb-3 text-sm leading-relaxed text-slate-600 dark:text-slate-400">{current.body}</p>
-                <p className="mb-5 inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-500 dark:bg-slate-800 dark:text-slate-400">
-                  <PinIcon className="h-3.5 w-3.5 shrink-0" />
-                  {current.where}
-                </p>
-              </div>
-            </div>
-
-            <div className="mb-4 flex gap-1.5">
-              {STEPS.map((_, i) => (
-                <span
-                  key={i}
-                  className={`h-1.5 flex-1 rounded-full transition-colors duration-300 ${i <= step ? "bg-teal-600 dark:bg-teal-400" : "bg-slate-200 dark:bg-slate-700"}`}
-                />
-              ))}
-            </div>
-
-            <div className="flex items-center justify-between gap-3">
-              <button
-                type="button"
-                onClick={back}
-                disabled={step === 0}
-                className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-600 hover:bg-slate-50 disabled:opacity-0 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
-              >
-                Back
-              </button>
-              {isLast ? (
-                <a
-                  href={`${BASE_URL}profile`}
-                  onClick={close}
-                  className="rounded-md bg-teal-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-400"
-                >
-                  Set up your profile
-                </a>
-              ) : (
+              <div className="mb-2 flex items-start justify-between gap-2">
+                <div className="tour-icon-pop flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-teal-50 text-teal-700 dark:bg-teal-900/40 dark:text-teal-300">
+                  <Icon className="h-4 w-4" />
+                </div>
                 <button
                   type="button"
-                  onClick={next}
-                  className="rounded-md bg-teal-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-400"
+                  onClick={close}
+                  className="mt-1 shrink-0 text-xs text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300"
                 >
-                  Next
+                  Skip
                 </button>
-              )}
+              </div>
+              <div className="tour-callout-enter">
+                <h2 id="tour-title" className="mb-1 text-sm font-semibold text-slate-900 dark:text-slate-100">
+                  {current.title}
+                </h2>
+                <p className="mb-3 text-xs leading-relaxed text-slate-600 dark:text-slate-400">{current.body}</p>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between gap-2">
+              <span className="text-[11px] font-medium text-slate-400 dark:text-slate-500">
+                {step + 1} / {STEPS.length}
+              </span>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={back}
+                  disabled={step === 0}
+                  className="rounded-md border border-slate-300 px-2.5 py-1 text-xs font-medium text-slate-600 hover:bg-slate-50 disabled:opacity-0 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+                >
+                  Back
+                </button>
+                {isLast ? (
+                  <a
+                    href={`${BASE_URL}profile`}
+                    onClick={close}
+                    className="rounded-md bg-teal-600 px-3 py-1 text-xs font-medium text-white hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-400"
+                  >
+                    Set up your profile
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={next}
+                    className="rounded-md bg-teal-600 px-3 py-1 text-xs font-medium text-white hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-400"
+                  >
+                    Next
+                  </button>
+                )}
+              </div>
             </div>
           </div>
-        </div>
+        </>
       )}
     </>
   );

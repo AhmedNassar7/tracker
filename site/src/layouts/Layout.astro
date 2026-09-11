@@ -125,6 +125,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 									href={link.href}
 									aria-current={isActive ? "page" : undefined}
 									data-astro-prefetch="viewport"
+									data-tour-target={link.label === "My Workspace" ? "workspace-nav" : undefined}
 									class={
 										isActive
 											? "font-medium text-teal-700 dark:text-teal-400"
@@ -183,7 +184,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		</main>
 		<footer class="mt-8 border-t border-slate-200 px-4 py-8 text-sm dark:border-slate-800 sm:px-8">
 			<div class="mx-auto max-w-xl space-y-4 text-center">
-				<div class="flex flex-wrap justify-center gap-x-3 gap-y-1">
+				<div data-tour-target="rss-feeds" class="flex flex-wrap justify-center gap-x-3 gap-y-1">
 					<span class="text-slate-400 dark:text-slate-500">Alerts (RSS):</span>
 					{
 						FEEDS.map((feed) => (
