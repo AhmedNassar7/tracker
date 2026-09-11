@@ -91,6 +91,14 @@ const COMPANY_DOMAINS: Record<string, string> = {
   // Frequent public-layer employers
   ramp: "ramp.com", brex: "brex.com", deel: "deel.com", linear: "linear.app",
   scaleai: "scale.com", "scale.com": "scale.com",
+  // MENA/Egypt public-layer employers — verified 2026-09-11 (b_labs/"Blabs"
+  // deliberately excluded: no standalone corporate site exists — its own
+  // LinkedIn "Website" field just points back at its Workable careers page,
+  // so there's nothing to hand-verify a domain against).
+  robusta: "robustagroup.com", synapseanalytics: "synapse-analytics.io",
+  foodics: "foodics.com", lucidya: "lucidya.com", salla: "salla.com",
+  cognitev: "cognitev.com", dubizzle: "dubizzle.com", sahl: "sahlpay.app",
+  moneyfellows: "moneyfellows.com",
 };
 
 /** Same word-boundary-ish substring match companyTiers.ts uses — an ATS
