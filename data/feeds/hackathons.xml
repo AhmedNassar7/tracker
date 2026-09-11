@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Fri, 11 Sep 2026 18:34:59 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 21:44:40 GMT</lastBuildDate>
     <item>
       <title>Devfolio — FusioniX2026</title>
       <link>https://fusionix-1.devfolio.co</link>
@@ -27,17 +27,10 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI Student Association — AI 4 Infra Challenge – Beginner Track</title>
-      <link>https://ai-4-infra-challenge-begginer.devpost.com/</link>
-      <guid isPermaLink="false">67927d66d94719ac</guid>
-      <description>Student Commons 1600 · about 3 hours left</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>CyberSyntax Hub — CSH Social Impact Ideathon</title>
       <link>https://csh-social-impact-ideathon.devpost.com/</link>
       <guid isPermaLink="false">182ac96a57caaf22</guid>
-      <description>Online · about 9 hours left</description>
+      <description>Online · about 7 hours left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -51,7 +44,14 @@
       <title>MLH — UPAI-Hackdays</title>
       <link>https://upai-hackdays.devpost.com/</link>
       <guid isPermaLink="false">5f5dc94bbdc3a683</guid>
-      <description>Virtual · about 18 hours left</description>
+      <description>Virtual · about 16 hours left</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Binnovative — AnimalHack 2026</title>
+      <link>https://animalhack2026.devpost.com/</link>
+      <guid isPermaLink="false">a83458d106532a8c</guid>
+      <description>Online · about 18 hours left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -62,24 +62,31 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Binnovative — AnimalHack 2026</title>
-      <link>https://animalhack2026.devpost.com/</link>
-      <guid isPermaLink="false">a83458d106532a8c</guid>
-      <description>Online · about 22 hours left</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AI Student Association — AI 4 Infra Challenge – Advanced Track</title>
       <link>https://ai-4-infra-advanced-track.devpost.com/</link>
       <guid isPermaLink="false">33c9346dab506cad</guid>
-      <description>Student Commons 1600 · about 23 hours left</description>
+      <description>Student Commons 1600 · about 21 hours left</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kids for Kids Toronto Coding Club — GenZ Can Hack 2026</title>
+      <link>https://genz-can-hack-2026.devpost.com/</link>
+      <guid isPermaLink="false">9e14b8595f91ad68</guid>
+      <description>Toronto · about 21 hours left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Carnegie Mellon University — Hack CMU</title>
       <link>https://hack-cmu-2026.devpost.com/</link>
       <guid isPermaLink="false">46abcd00e2a3276c</guid>
-      <description>Carnegie Mellon University · 1 day left</description>
+      <description>Carnegie Mellon University · about 22 hours left</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>KYX — HackKentucky</title>
+      <link>https://hackkentucky.devpost.com/</link>
+      <guid isPermaLink="false">b38dd30cbd3d545e</guid>
+      <description>Genuine Works - IN PERSON ONLY · about 23 hours left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -104,10 +111,10 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Kids for Kids Toronto Coding Club — GenZ Can Hack 2026</title>
-      <link>https://genz-can-hack-2026.devpost.com/</link>
-      <guid isPermaLink="false">9e14b8595f91ad68</guid>
-      <description>Toronto · 1 day left</description>
+      <title>Systemind, Inc — Shared OS Hackathon</title>
+      <link>https://shared-os-hackathon.devpost.com/</link>
+      <guid isPermaLink="false">bd690c2f8f021b08</guid>
+      <description>Online · 1 day left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -135,13 +142,6 @@
       <title>PropNote AI — VentureFix</title>
       <link>https://venturefix.devpost.com/</link>
       <guid isPermaLink="false">249e1a17b11b0500</guid>
-      <description>Online · 2 days left</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Systemind, Inc — Shared OS Hackathon</title>
-      <link>https://shared-os-hackathon.devpost.com/</link>
-      <guid isPermaLink="false">bd690c2f8f021b08</guid>
       <description>Online · 2 days left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -195,6 +195,13 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Test Hackathon 02</title>
+      <link>https://test-hackathon-2.devfolio.co</link>
+      <guid isPermaLink="false">f3b190dce026f1c3</guid>
+      <description>San Francisco, United States · 5 days left</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GatewayGS — GatewayGS Hackathon 2</title>
       <link>https://gatewaygs-hackathon-2.devpost.com/</link>
       <guid isPermaLink="false">0e04c12ae1956584</guid>
@@ -202,10 +209,10 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devfolio — Test Hackathon 02</title>
-      <link>https://test-hackathon-2.devfolio.co</link>
-      <guid isPermaLink="false">f3b190dce026f1c3</guid>
-      <description>San Francisco, United States · 6 days left</description>
+      <title>TechCommons — TechCommons Hacks V2 - Hacks to Inspire</title>
+      <link>https://techcommons-hacks-v2.devpost.com/</link>
+      <guid isPermaLink="false">09e3b2da05cc448c</guid>
+      <description>Online · 5 days left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -226,13 +233,6 @@
       <title>Rice University — The Rice University Urban Sustainability Hackathon</title>
       <link>https://rice-urban-sustainability.devpost.com/</link>
       <guid isPermaLink="false">8662a5bbc58a19f5</guid>
-      <description>Online · 6 days left</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>TechCommons — TechCommons Hacks V2 - Hacks to Inspire</title>
-      <link>https://techcommons-hacks-v2.devpost.com/</link>
-      <guid isPermaLink="false">09e3b2da05cc448c</guid>
       <description>Online · 6 days left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -328,6 +328,13 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Test Flow Online</title>
+      <link>https://test-flow-online.devfolio.co</link>
+      <guid isPermaLink="false">70019e13f29409bf</guid>
+      <description>Online · 13 days left</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — Builders Day by HackUnion</title>
       <link>https://builders-day-hackunion.devfolio.co</link>
       <guid isPermaLink="false">285630e1134ad955</guid>
@@ -360,13 +367,6 @@
       <link>https://nexhack-2.devfolio.co</link>
       <guid isPermaLink="false">6e2ff6c9d17a126c</guid>
       <description>New Delhi, India · 14 days left</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Test Flow Online</title>
-      <link>https://test-flow-online.devfolio.co</link>
-      <guid isPermaLink="false">70019e13f29409bf</guid>
-      <description>Online · 14 days left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -461,16 +461,16 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Kang Chiao International School Student — Global Innovation Build Challenge V2</title>
-      <link>https://gibc-v2.devpost.com/</link>
-      <guid isPermaLink="false">d6c1fefdc062072b</guid>
-      <description>Online · 20 days left</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>RevenueCat — RevenueCat Shipaton 2026</title>
       <link>https://revenuecat-shipaton-2026.devpost.com/</link>
       <guid isPermaLink="false">37b6bc24041cc8fd</guid>
+      <description>Online · 19 days left</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kang Chiao International School Student — Global Innovation Build Challenge V2</title>
+      <link>https://gibc-v2.devpost.com/</link>
+      <guid isPermaLink="false">d6c1fefdc062072b</guid>
       <description>Online · 20 days left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -657,17 +657,17 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Hack On Hills 8.0</title>
+      <link>https://hackonhills8.devfolio.co</link>
+      <guid isPermaLink="false">03943543974f740e</guid>
+      <description>Hamirpur, India · 50 days left</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — hackodisha-6.0</title>
       <link>https://hackodisha-6a.devfolio.co</link>
       <guid isPermaLink="false">d553006f7fba567c</guid>
       <description>Online · 50 days left</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Hack On Hills 8.0</title>
-      <link>https://hackonhills8.devfolio.co</link>
-      <guid isPermaLink="false">03943543974f740e</guid>
-      <description>Hamirpur, India · 51 days left</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
