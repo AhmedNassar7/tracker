@@ -56,6 +56,7 @@ smartrecruiters:
   - Visa
   - Wise
   - ValU1   # Cairo/Giza fintech (BNPL) — careers.smartrecruiters.com/ValU1; 9 postings incl. Senior Full Stack Developer, Senior Integration Engineer (Sheikh Zayed, EG + Jordan). Confirmed out-of-band 2026-09-10 (SR API can't verify a slug on its own)
+  - NoonAcademy   # Riyadh/Dubai ed-tech (India eng hub) — verified 2026-09-11, 2 postings; company.name field in the API response itself confirms "Noon Academy" (not the same company as Noon the e-commerce marketplace), incl. Senior Backend Developer (Bangalore)
 
 greenhouse:
   - careem  # Dubai, UAE super-app (Uber-owned) — verified live 2026-08-18, 231 real postings incl. Dubai/UAE
@@ -200,6 +201,8 @@ workable:
   - robusta                    # Cairo software studio — verified 2026-09-10, 102 postings
   - blabs                      # (account "b_labs") — verified 2026-09-10, 7 postings
   - cequens                    # Cairo, Egypt CPaaS/messaging API (Dubai office too) — verified 2026-09-11, 13 postings incl. Cairo + Dubai roles
+  - mozn-ai                    # Riyadh, Saudi Arabia AI/data — verified 2026-09-11, 15 postings incl. AI Engineer (Riyadh), AI Infrastructure Engineer III (Cairo)
+  - dubizzlemena                # Dubai, UAE classifieds/property marketplace (Dubizzle Group) — verified 2026-09-11, 49 postings incl. Data Analyst (New Cairo)
   # Accounts that exist but had 0 open roles — recheck later:
   #   2026-09-07: breadfast · rabbit · elmenus · trella · maxab · capiter ·
   #               nas · mrsool · instashop · yassir · unifonic · zid
@@ -211,6 +214,8 @@ recruitee:
   # https://<slug>.recruitee.com/api/offers/. Verify with:
   #   python scripts/verify_extra_boards.py recruitee:<slug>
   - sahl    # Cairo insurtech/payments (sahl.recruitee.com) — verified 2026-09-10, real EG software roles
+  - synapseanalytics   # Cairo, Egypt AI/data consultancy — verified 2026-09-11, 12 offers incl. iOS Development Intern (Maadi)
+  - cognitev           # Cairo, Egypt adtech — verified 2026-09-11, 4 offers incl. Backend Engineer, Mobile Engineer (6th of October City)
 
 workday:
   # Big global employers whose careers site is Workday but who never get
