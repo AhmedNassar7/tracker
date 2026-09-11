@@ -123,6 +123,8 @@ greenhouse:
   - doordashusa   # DoorDash (careersatdoordash.com is a skin over greenhouse:doordashusa) — verified 2026-09-10, 456 postings, board name "DoorDash USA"
   - sonyinteractiveentertainmentglobal   # PlayStation (careers.playstation.com is a skin over this) — verified 2026-09-10, "PlayStation Global", 180 postings incl. AI/UX Software Engineer (US)
   - siei                                 # Sony Interactive Entertainment Inc. — verified 2026-09-10, 62 postings (Tokyo-heavy)
+  # 2026-09-11 — MENA/Gulf sweep sourced from yabnee.dev's Gulf & MENA company list.
+  - hala          # Riyadh, Saudi Arabia — fintech/payments — verified 2026-09-11, 14 jobs incl. AI & System Engineer (Riyadh)
 
 lever:
   # Same discipline: real Lever board confirmed live 2026-08-18 with actual
@@ -141,6 +143,9 @@ lever:
   - younited       # Paris, FR — consumer credit (Paris / Rome)
   - blablacar      # Paris, FR — carpooling (real Paris backend-engineer roles on check)
   - contentsquare  # Paris, FR — digital-experience analytics (26; Paris / Barcelona / Wrocław)
+  # 2026-09-11 — MENA/Gulf sweep sourced from yabnee.dev's Gulf & MENA company list.
+  - Yassir         # Algeria/Egypt/Morocco ride-hailing + delivery super-app — verified 2026-09-11, 159 postings incl. real Algiers/Algeria roles. Case matters (token "Yassir")
+  - Trendyol       # Istanbul, Turkey e-commerce (also hiring Riyadh, KSA) — verified 2026-09-11, 24 postings incl. AppSec Engineer (Istanbul)
 
 # ---------------------------------------------------------------------------
 # Adding an employer whose board isn't auto-discovered — three paths, easiest
@@ -194,6 +199,7 @@ workable:
   - salla                      # Jeddah/Makkah e-commerce platform — verified 2026-09-07, 30 postings incl. Senior Backend Engineer, Senior Data Scientist
   - robusta                    # Cairo software studio — verified 2026-09-10, 102 postings
   - blabs                      # (account "b_labs") — verified 2026-09-10, 7 postings
+  - cequens                    # Cairo, Egypt CPaaS/messaging API (Dubai office too) — verified 2026-09-11, 13 postings incl. Cairo + Dubai roles
   # Accounts that exist but had 0 open roles — recheck later:
   #   2026-09-07: breadfast · rabbit · elmenus · trella · maxab · capiter ·
   #               nas · mrsool · instashop · yassir · unifonic · zid
