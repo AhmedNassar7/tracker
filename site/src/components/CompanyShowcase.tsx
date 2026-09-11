@@ -123,6 +123,21 @@ export default function CompanyShowcase({ onSelect, activeCompanies, items }: Pr
     [items],
   );
 
+  // The seamless-loop trick below (two back-to-back copies, wrapping at
+  // exactly half the track's width) only reads as seamless if each copy is
+  // already wide enough to span the viewport — with 6 logos that's true,
+  // but the list can now be as short as 1-2 (Lane-something: FAANG-only,
+  // filtered to whoever currently has an open job). A single narrow copy
+  // leaves a visible gap of bare track before the duplicate catches up, so
+  // repeat the (short) list until one copy comfortably covers a wide
+  // desktop viewport on its own, same visual density either way.
+  const MIN_MARQUEE_ITEMS = 14;
+  const displayCompanies = useMemo(() => {
+    if (showcaseCompanies.length === 0) return [];
+    const repeat = Math.max(1, Math.ceil(MIN_MARQUEE_ITEMS / showcaseCompanies.length));
+    return Array.from({ length: repeat }, () => showcaseCompanies).flat();
+  }, [showcaseCompanies]);
+
   const activeCompany = showcaseCompanies.find((c) =>
     activeCompanies.some((ac) => companyNameMatches(c, ac) || companyNameMatches(ac, c)),
   );
@@ -251,19 +266,24 @@ export default function CompanyShowcase({ onSelect, activeCompanies, items }: Pr
       >
         <div className="logo-marquee-track" ref={trackRef}>
           <div className="logo-marquee-group">
-            {showcaseCompanies.map((company) => (
+            {displayCompanies.map((company, i) => (
               <CompanyShowcaseLogo
-                key={company}
+                key={`${company}-${i}`}
                 company={company}
                 onSelect={onSelect}
                 active={company === activeCompany}
+                // Only the first real occurrence of each company stays in
+                // tab order / screen-reader-visible — the repeats that pad
+                // the track out to marquee width are decorative, same as
+                // the whole duplicate loop-copy group below.
+                decorative={i >= showcaseCompanies.length}
               />
             ))}
           </div>
           <div className="logo-marquee-group" aria-hidden="true">
-            {showcaseCompanies.map((company) => (
+            {displayCompanies.map((company, i) => (
               <CompanyShowcaseLogo
-                key={`${company}-dup`}
+                key={`${company}-dup-${i}`}
                 company={company}
                 onSelect={onSelect}
                 active={company === activeCompany}
