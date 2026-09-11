@@ -250,6 +250,49 @@ def main():
         details=str(ev_rows),
     ))
 
+    import urllib.error as _urllib_error
+
+    this_year = _dt.datetime.now(_dt.UTC).year
+
+    def confs_tech_side_effect(url):
+        if url.endswith(f"/{this_year}/opensource.json"):
+            return [
+                {
+                    "name": "Future OSS Con", "url": "https://example.com/oss-future",
+                    "startDate": "2099-06-01", "city": "Berlin", "country": "Germany", "online": False,
+                },
+                {
+                    "name": "Past OSS Con", "url": "https://example.com/oss-past",
+                    "startDate": "2020-01-01", "city": "Paris", "country": "France",
+                },
+                {"name": "No URL Con", "url": "", "startDate": "2099-06-01"},
+                {"name": "Bad Date Con", "url": "https://example.com/bad", "startDate": "not-a-date"},
+                {
+                    "name": "Techne Summit Cairo", "url": "https://example.com/dup",
+                    "startDate": "2099-01-01", "city": "Cairo", "country": "Egypt",
+                },
+                {"name": "Online Only Con", "url": "https://example.com/online", "startDate": "2099-01-01", "online": True},
+                {"name": "Locationless Con", "url": "https://example.com/nowhere", "startDate": "2099-01-01"},
+            ]
+        if url.endswith(f"/{this_year}/python.json"):
+            raise _urllib_error.HTTPError(url, 404, "Not Found", None, None)
+        return []
+
+    with patch.object(mod, "fetch_json", side_effect=confs_tech_side_effect):
+        confs_rows = mod.fetch_confs_tech_events(existing_event_names=["Techne Summit Cairo"])
+    confs_titles = {row["title"] for row in confs_rows}
+    future_row = next(r for r in confs_rows if r["title"] == "Future OSS Con")
+    run("confs.tech events: filters past/malformed/dup rows, 404 topic handled quietly", lambda: check(
+        "fetch_confs_tech_events",
+        confs_titles == {"Future OSS Con", "Online Only Con", "Locationless Con"}
+        and future_row["kind"] == "event"
+        and future_row["location"] == "Berlin, Germany"
+        and future_row["source"] == "confs_tech"
+        and next(r for r in confs_rows if r["title"] == "Online Only Con")["location"] == "Virtual"
+        and next(r for r in confs_rows if r["title"] == "Locationless Con")["location"] == "Global",
+        details=str(confs_rows),
+    ))
+
     greenhouse_payload = {
         "jobs": [
             {

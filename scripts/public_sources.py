@@ -9,6 +9,8 @@ to widen coverage:
 - HackerEarth hackathons / hiring challenges
 - Luma discovery pages
 - Curated tech/career events (hand-maintained in config/events.yml)
+- confs.tech's open conference-data JSON (github.com/tech-conferences/conference-data) —
+  OSS/dev-community conferences across a curated set of topics
 - Greenhouse public job board API (auto-discovered from existing job URLs)
 - Lever public postings JSON (auto-discovered from existing job URLs)
 - Workday CXS jobs API (auto-discovered from existing job URLs)
@@ -27,6 +29,7 @@ import json
 import re
 import sys
 import traceback
+import urllib.error
 import urllib.request
 from pathlib import Path
 from urllib.parse import urlparse
@@ -1255,6 +1258,113 @@ def fetch_curated_events():
     return parse_curated_events(text, today)
 
 
+# confs.tech (confs.tech / github.com/tech-conferences/conference-data) is a
+# crowd-sourced, actively-maintained database of dev-community conferences —
+# one JSON array per topic per year, e.g.
+# conferences/2026/opensource.json = [{"name", "url", "startDate", "endDate",
+# "city", "country", "online", "cfpUrl", ...}, ...]. Served straight off
+# raw.githubusercontent.com (same CDN the curated-layer community trackers
+# already rely on), keyless, no scraping — exactly the "check for a JSON API
+# first" case this repo prefers. Topics below are the ones actually relevant
+# to a software-engineering audience; confs.tech also tracks non-engineering
+# topics (leadership, product, ux, accessibility, iot, css, …) that are a
+# worse fit for this site and are deliberately left out. A topic file that
+# doesn't exist yet for the given year (confs.tech hasn't backfilled every
+# topic that far out — 2027 currently only has ~14 of these) 404s; that's
+# expected and handled quietly rather than logged as a failure.
+CONFS_TECH_TOPICS = [
+    "android", "api", "clojure", "cpp", "data", "devops", "dotnet",
+    "general", "graphql", "groovy", "ios", "java", "javascript", "kotlin",
+    "networking", "opensource", "performance", "php", "python", "rust",
+    "security", "sre", "testing", "typescript",
+]
+CONFS_TECH_REPO_URL = "https://github.com/tech-conferences/conference-data"
+
+
+def _confs_tech_location(item):
+    city = (item.get("city") or "").strip()
+    country = (item.get("country") or "").strip()
+    if city and country:
+        return f"{city}, {country}"
+    if city:
+        return city
+    if item.get("online"):
+        return "Virtual"
+    return "Global"
+
+
+def _fetch_confs_tech_topic(year, topic):
+    """One (year, topic) JSON file -> event rows, dropping past ones."""
+    url = f"https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{year}/{topic}.json"
+    try:
+        payload = fetch_json(url)
+    except urllib.error.HTTPError as exc:
+        if exc.code == 404:
+            return []  # topic not yet backfilled for this year — not an error
+        raise
+
+    today = datetime.datetime.now(datetime.UTC).date()
+    rows = []
+    for item in payload or []:
+        name = (item.get("name") or "").strip()
+        conf_url = (item.get("url") or "").strip()
+        date_str = item.get("startDate") or ""
+        if not (name and conf_url and date_str):
+            continue
+        try:
+            start = datetime.date.fromisoformat(date_str)
+        except ValueError:
+            continue
+        days_until = (start - today).days
+        if days_until < -1:  # event is over
+            continue
+        rows.append(
+            {
+                "id": make_id("confs_tech", name, conf_url, date_str),
+                "kind": "event",
+                "company": name,
+                "title": name,
+                "location": _confs_tech_location(item),
+                "date": _event_countdown(days_until),
+                "posted_at": TODAY,
+                "url": conf_url,
+                "source": "confs_tech",
+                "source_url": CONFS_TECH_REPO_URL,
+            }
+        )
+    return rows
+
+
+def _normalize_event_name(name):
+    return re.sub(r"[^a-z0-9]+", "", (name or "").lower())
+
+
+def fetch_confs_tech_events(existing_event_names=()):
+    """Fetch this year + next year of CONFS_TECH_TOPICS from confs.tech's
+    data repo. `existing_event_names` are the titles already covered by
+    config/events.yml (hand-curated) — a confs.tech row whose normalized
+    name matches one is dropped so the same conference doesn't appear twice
+    (e.g. KubeCon, already hand-seeded for its MENA/EMEA relevance).
+    """
+    this_year = datetime.datetime.now(datetime.UTC).year
+    arg_tuples = [
+        (year, topic)
+        for year in (this_year, this_year + 1)
+        for topic in CONFS_TECH_TOPICS
+    ]
+    rows = run_and_collect(
+        _fetch_confs_tech_topic, arg_tuples, log_error, max_workers=10,
+        label=lambda args: f"{args[0]}/{args[1]}.json",
+    )
+    curated_keys = {_normalize_event_name(n) for n in existing_event_names}
+    if not curated_keys:
+        return rows
+    return [
+        row for row in rows
+        if _normalize_event_name(row["title"]) not in curated_keys
+    ]
+
+
 def _run_concurrently(fn, arg_tuples, max_workers=10):
     """Call fn(*args) for each entry in arg_tuples concurrently and
     concatenate the returned lists, in the same order arg_tuples was given
@@ -1374,7 +1484,11 @@ def main():
     rows.extend(fetch_devfolio_hackathons())
     rows.extend(fetch_hackerearth_hackathons())
     rows.extend(fetch_luma_discover())
-    rows.extend(fetch_curated_events())
+    curated_events = fetch_curated_events()
+    rows.extend(curated_events)
+    rows.extend(fetch_confs_tech_events(
+        existing_event_names=[row["title"] for row in curated_events]
+    ))
 
     # Greenhouse/Lever/Ashby/SmartRecruiters each serve *every* company from
     # one shared API host, so a wide-open worker count risks tripping that
