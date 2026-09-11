@@ -29,6 +29,15 @@ Shopify   | Engineering & data roles | https://www.shopify.com/careers/disciplin
 Bloomberg | Software engineering roles | https://bloomberg.avature.net/careers/SearchJobs
 Booking.com | Engineering roles | https://jobs.booking.com/booking/jobs?categories=Engineering
 Atos | Software engineering roles | https://jobs.atos.net/search/?q=software+engineer
+# Procore (NYSE: PCOR) — careers.procore.com is a bespoke, client-rendered
+# careers search (a custom Rails app, not Greenhouse despite "greenhouse"
+# turning up in its JS component paths — that's just a UI-component naming
+# coincidence; boards-api.greenhouse.io/v1/boards/procore 404s). Its old
+# SmartRecruiters account (careers.smartrecruiters.com/procoretechnologies)
+# now redirects to SmartRecruiters' generic landing page — dead, not
+# pollable either. Confirmed real via a live posting's schema.org JobPosting
+# data (2026-09-11): "Senior Software Engineer, Backend (Java)", Austin, TX.
+Procore | Software engineering roles | https://careers.procore.com/jobs/search
 
 # MENA — regional employers whose careers site is bespoke (not a pollable
 # Greenhouse/Lever/Ashby/Workable board), so they get a "browse every role"
