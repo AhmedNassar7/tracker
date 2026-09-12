@@ -4,7 +4,7 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Sat, 12 Sep 2026 05:48:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 10:47:36 GMT</lastBuildDate>
     <item>
       <title>Amazon — Machine Learning Systems Software Development Engineer Intern - Annapurna Labs</title>
       <link>https://amazon.jobs/en/jobs/10538066/ml-systems-software-development-engineer-intern-annapurna-labs-2027?utm_source=Simplify&amp;ref=Simplify</link>
@@ -76,17 +76,17 @@
       <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>ByteDance — Multi-Cloud CDN Scheduling Platform Engineer Intern - CDN Platform 🎓</title>
+      <link>https://jobs.bytedance.com/en/position/7673636205233490181/detail?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">c6a653b0d2d7f311</guid>
+      <description>San Jose, CA · internship · 29d</description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Lyft — Software Engineer Intern, Backend (Summer 2027)</title>
       <link>https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002</link>
       <guid isPermaLink="false">6e5eb1cb0b3cb154</guid>
       <description>San Francisco, CA · internship · 1d</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
-      <guid isPermaLink="false">ffc891a43c19c2d1</guid>
-      <description>San Francisco, Seattle, New York City · internship · 11d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -300,6 +300,13 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
+      <guid isPermaLink="false">bbe14083e01b613a</guid>
+      <description>San Francisco, Seattle, New York City · internship · 2d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Coinbase — Data Engineer Intern</title>
       <link>https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459</link>
       <guid isPermaLink="false">f8a23e86c434ead6</guid>
@@ -357,6 +364,13 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">0b30ae0ba59031b6</guid>
+      <description>Markham, ON, Canada · internship · 5d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Software Engineer Intern/Co-op</title>
       <link>https://careers.amd.com/jobs/91367?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">832a6a75550c48eb</guid>
       <description>Vancouver, BC, Canada · internship · 5d</description>
@@ -367,13 +381,6 @@
       <link>https://careers.amd.com/jobs/91366?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">fd0ede66dae41608</guid>
       <description>Calgary, AB, Canada · internship · 5d</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">0b30ae0ba59031b6</guid>
-      <description>Markham, ON, Canada · internship · 5d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -423,13 +430,6 @@
       <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491</link>
       <guid isPermaLink="false">d49bb502c575ea45</guid>
       <description>US, Oregon, Hillsboro · internship · 18d</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Multi-Cloud CDN Scheduling Platform Engineer Intern - CDN Platform 🎓</title>
-      <link>https://jobs.bytedance.com/en/position/7673636205233490181/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">62197281c0508f24</guid>
-      <description>San Jose, CA · internship · 23d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -699,20 +699,6 @@
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AMD — Graphics Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90305?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">09784159e6cf1962</guid>
-      <description>Markham, ON, Canada · internship · 11d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Machine Learning/Artificial Intelligence Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91363?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">4153e92bfc3965e8</guid>
-      <description>Markham, ON, Canada · internship · 11d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Atlassian — Software Engineer Intern</title>
       <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">d06c2e10472343c5</guid>
@@ -738,6 +724,20 @@
       <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004</link>
       <guid isPermaLink="false">9b79d5d287e68776</guid>
       <description>Cary, NC · internship · 11d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Graphics Software Engineer Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/90305?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">09784159e6cf1962</guid>
+      <description>Markham, ON, Canada · internship · 11d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Machine Learning/Artificial Intelligence Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/91363?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">4153e92bfc3965e8</guid>
+      <description>Markham, ON, Canada · internship · 11d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1101,49 +1101,49 @@
       <title>NVIDIA — System Application Engineer (RDSS Intern)</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Application-Engineer--RDSS-Intern-_JR2025314</link>
       <guid isPermaLink="false">1b4d9d088b2e6e20</guid>
-      <description>Taiwan, Taipei · internship · 0d</description>
+      <description>Taiwan, Taipei · internship · 1d</description>
     </item>
     <item>
       <title>Intel — AI Software Engineering PhD Intern</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-PhD-Intern_JR0286730</link>
       <guid isPermaLink="false">9518028b2205efae</guid>
-      <description>US, Arizona, Phoenix +1 more · internship · 1d</description>
+      <description>US, Arizona, Phoenix +1 more · internship · 2d</description>
     </item>
     <item>
       <title>NVIDIA — System Software Engineering Intern, GPU - 2027</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Remote/System-Software-Engineering-Intern--GPU---2027_JR2025334</link>
       <guid isPermaLink="false">193636cf5e06f5f6</guid>
-      <description>Poland, Remote +1 more · internship · 1d</description>
+      <description>Poland, Remote +1 more · internship · 2d</description>
     </item>
     <item>
       <title>Mastercard — Platform Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868</link>
       <guid isPermaLink="false">78c283f0206283d9</guid>
-      <description>O'Fallon, Missouri · internship · 3d</description>
+      <description>O'Fallon, Missouri · internship · 4d</description>
     </item>
     <item>
       <title>Mastercard — Platform Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875</link>
       <guid isPermaLink="false">5e9b9621887c1795</guid>
-      <description>O'Fallon, Missouri · internship · 3d</description>
+      <description>O'Fallon, Missouri · internship · 4d</description>
     </item>
     <item>
       <title>Mastercard — Platform Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873</link>
       <guid isPermaLink="false">03dc0503344e511b</guid>
-      <description>O'Fallon, Missouri · internship · 3d</description>
+      <description>O'Fallon, Missouri · internship · 4d</description>
     </item>
     <item>
       <title>Mastercard — Software Engineer Intern, Summer 2027 - Singapore</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Software-Engineer-Intern--Summer-2027---Singapore_R-287574</link>
       <guid isPermaLink="false">0efc50ea938feed8</guid>
-      <description>Singapore · internship · 7d</description>
+      <description>Singapore · internship · 8d</description>
     </item>
     <item>
       <title>Mastercard — Site Reliability Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654</link>
       <guid isPermaLink="false">a37641f25aff562b</guid>
-      <description>O'Fallon, Missouri · internship · 8d</description>
+      <description>O'Fallon, Missouri · internship · 9d</description>
     </item>
     <item>
       <title>Sony — Software Engineer Intern</title>
