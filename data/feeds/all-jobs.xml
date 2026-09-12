@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sat, 12 Sep 2026 19:21:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 22:18:30 GMT</lastBuildDate>
     <item>
       <title>Amazon — Machine Learning Systems Software Development Engineer Intern - Annapurna Labs</title>
       <link>https://amazon.jobs/en/jobs/10538066/ml-systems-software-development-engineer-intern-annapurna-labs-2027?utm_source=Simplify&amp;ref=Simplify</link>
@@ -111,6 +111,13 @@
       <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Lyft — Software Engineer Intern - Fullstack - Multiple Teams</title>
+      <link>https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">e51f2ff2d3e3ce37</guid>
+      <description>NYC · internship · 0d</description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Lyft — Software Engineer Intern - Fullstack - Summer 2027</title>
       <link>https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002</link>
       <guid isPermaLink="false">75d5112ffd6ffea8</guid>
@@ -178,6 +185,13 @@
       <link>https://zapply.jobs/l/d/greenhouse-instacart-8188987?s=gh-canada-jobs-2027</link>
       <guid isPermaLink="false">45048e4fd1b9664f</guid>
       <description>AB · mid_level · 3d</description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Software Engineer Intern - Multiple Teams</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/100648618540573382?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2323a0b5bac88f2a</guid>
+      <description>31 locationsPalo Alto, CA Cambridge, MA Madison, WI Seattle, WA Houston, TX SF Austin, TX LA San Jose, CA Irvine, CA South SF Redwood City, CA Raleigh, NC San Bruno, CA Redmond, WA Durham, NC Santa Cruz, CA Chicago, IL Goleta, CA Pittsburgh, PA Kirkland, WA Reston, VA NYC Bellevue, WA Sunnyvale, CA Mountain View, CA Portland, OR Boulder, CO Atlanta, GA San Diego, CA Santa Barbara, CA · internship · 11d</description>
       <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5327,9 +5341,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
-      <guid isPermaLink="false">123c0cae7b46bde0</guid>
-      <description>Bengaluru · internship · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
+      <guid isPermaLink="false">342b3f9493acb89a</guid>
+      <description>Singapore · internship · 2d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5341,9 +5355,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
-      <guid isPermaLink="false">342b3f9493acb89a</guid>
-      <description>Singapore · internship · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
+      <guid isPermaLink="false">123c0cae7b46bde0</guid>
+      <description>Bengaluru · internship · 2d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5355,16 +5369,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
-      <guid isPermaLink="false">c3b11892340bdad3</guid>
-      <description>Toronto · internship · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8097801</link>
+      <guid isPermaLink="false">c605f6dad3d2889c</guid>
+      <description>Dublin · internship · 2d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8097801</link>
-      <guid isPermaLink="false">c605f6dad3d2889c</guid>
-      <description>Dublin · internship · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
+      <guid isPermaLink="false">c3b11892340bdad3</guid>
+      <description>Toronto · internship · 2d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5390,23 +5404,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
-      <guid isPermaLink="false">b836bebf63487343</guid>
-      <description>Dublin · new_grad · 2d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
       <description>London · new_grad · 2d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 2d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5418,6 +5418,20 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
+      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
+      <description>San Francisco, Seattle, New York · new_grad · 2d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 2d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
       <guid isPermaLink="false">334395993d3f3a1a</guid>
       <description>Singapore · new_grad · 2d</description>
@@ -5425,9 +5439,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
-      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
-      <description>San Francisco, Seattle, New York · new_grad · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
+      <guid isPermaLink="false">b836bebf63487343</guid>
+      <description>Dublin · new_grad · 2d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7497,13 +7511,6 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">0b30ae0ba59031b6</guid>
-      <description>Markham, ON, Canada · internship · 5d</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Software Engineer Intern/Co-op</title>
       <link>https://careers.amd.com/jobs/91366?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">fd0ede66dae41608</guid>
       <description>Calgary, AB, Canada · internship · 5d</description>
@@ -7514,6 +7521,13 @@
       <link>https://careers.amd.com/jobs/91367?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">832a6a75550c48eb</guid>
       <description>Vancouver, BC, Canada · internship · 5d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Software Engineer Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">0b30ae0ba59031b6</guid>
+      <description>Markham, ON, Canada · internship · 5d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10324,13 +10338,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Atlassian — Software Engineer Intern</title>
-      <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">d06c2e10472343c5</guid>
-      <description>Seattle, WA SF · internship · 11d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AMD — Graphics Software Engineer Intern/Co-op</title>
       <link>https://careers.amd.com/jobs/90305?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">09784159e6cf1962</guid>
@@ -10342,6 +10349,13 @@
       <link>https://careers.amd.com/jobs/91363?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">4153e92bfc3965e8</guid>
       <description>Markham, ON, Canada · internship · 11d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Atlassian — Software Engineer Intern</title>
+      <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">d06c2e10472343c5</guid>
+      <description>Seattle, WA SF · internship · 11d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -25949,6 +25963,12 @@
       <description>Sydney · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1</link>
+      <guid isPermaLink="false">fcb34d6177e0786a</guid>
+      <description>US, WA, Remote +5 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Software Engineer, Lateral Planning – Autonomous Vehicles</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--Lateral-Planning---Autonomous-Vehicles_JR2022066</link>
       <guid isPermaLink="false">1fb02a92839162ac</guid>
@@ -25965,6 +25985,12 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186</link>
       <guid isPermaLink="false">f893363966b390ca</guid>
       <description>US, CA, Santa Clara · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer, System Validation - EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880</link>
+      <guid isPermaLink="false">fd49b26ffed563cc</guid>
+      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer, Software Defined Networking</title>
@@ -26387,12 +26413,6 @@
       <description>USA.VA.Reston · other · 1d</description>
     </item>
     <item>
-      <title>Accenture — Senior Infrastructure Engineer (GCP)</title>
-      <link>https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Warsaw/Technical-Training-Consultant_R00325055</link>
-      <guid isPermaLink="false">e479bccf2ed0a364</guid>
-      <description>mid_level · 2d</description>
-    </item>
-    <item>
       <title>Intel — AI Software Engineering PhD Intern</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-PhD-Intern_JR0286730</link>
       <guid isPermaLink="false">9518028b2205efae</guid>
@@ -26585,22 +26605,10 @@
       <description>Vancouver · mid_level · 2d</description>
     </item>
     <item>
-      <title>NVIDIA — Director, Agentic AI Platform, Enterprise ISV and Infrastructure GTM - EMEA</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/France-Courbevoie/Director--Agentic-AI-Platform--Enterprise-ISV-and-Infrastructure-GTM---EMEA_JR2024254</link>
-      <guid isPermaLink="false">11bd4f8811a1b5c2</guid>
-      <description>France, Courbevoie +2 more · mid_level · 2d</description>
-    </item>
-    <item>
       <title>NVIDIA — Quality Assurance Software Developer Engineer in Test, GeForce GPU</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quality-Assurance-Software-Developer-in-Test-Engineer_JR2011328</link>
       <guid isPermaLink="false">06a6c53c7b73f86d</guid>
       <description>US, CA, Santa Clara · other · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Account Manager, Agentic AI Platform - UK&amp;I</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/Senior-Account-Manager--Agentic-AI-Platform---UK-I_JR2024521</link>
-      <guid isPermaLink="false">a1c9ba9070943622</guid>
-      <description>UK, Remote +2 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Deep Learning Software Engineer, Inference</title>

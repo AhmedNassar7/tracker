@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T19:21:36Z",
-  "count": 4231,
-  "checksum": "sha256:77ec98248472c8cd8f5f741ee19d019a163da088394b1886963b6d6353228dcc",
+  "generated_at": "2026-09-12T22:18:30Z",
+  "count": 4232,
+  "checksum": "sha256:ca5b3cd9b397f11048e12f0a8ad59b3d04282cfcb3bee19cb24774726e6fce7b",
   "items": [
     {
       "id": "79d49f4f80f8d674",
@@ -545,6 +545,28 @@
       "role_type": "full_stack",
       "country": "Canada",
       "country_flag": "🇨🇦",
+      "category": "ride_delivery",
+      "remote_type": "onsite"
+    },
+    {
+      "id": "e51f2ff2d3e3ce37",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Lyft",
+      "title": "Software Engineer Intern - Fullstack - Multiple Teams",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T14:06:18Z",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002&utm_source=Simplify&ref=Simplify",
+      "posted_at": "2026-09-12",
+      "age": "0d",
+      "location": "NYC",
+      "level": "internship",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "country": "United States",
+      "country_flag": "🇺🇸",
       "category": "ride_delivery",
       "remote_type": "onsite"
     },
@@ -4636,28 +4658,6 @@
       "remote_type": "onsite"
     },
     {
-      "id": "d06c2e10472343c5",
-      "kind": "job",
-      "origin": "curated",
-      "company": "Atlassian",
-      "title": "Software Engineer Intern",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:01Z",
-      "url": "https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&ref=Simplify",
-      "posted_at": "2026-09-01",
-      "age": "11d",
-      "location": "Seattle, WA SF",
-      "level": "internship",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "country_flag": "🇺🇸",
-      "category": "product_saas",
-      "remote_type": "onsite"
-    },
-    {
       "id": "35095c0251bf145b",
       "kind": "job",
       "origin": "curated",
@@ -5547,6 +5547,28 @@
       "remote_type": "onsite"
     },
     {
+      "id": "2323a0b5bac88f2a",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Google",
+      "title": "Software Engineer Intern - Multiple Teams",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T22:16:35Z",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382?utm_source=Simplify&ref=Simplify",
+      "posted_at": "2026-09-12",
+      "age": "11d",
+      "location": "31 locationsPalo Alto, CA Cambridge, MA Madison, WI Seattle, WA Houston, TX SF Austin, TX LA San Jose, CA Irvine, CA South SF Redwood City, CA Raleigh, NC San Bruno, CA Redmond, WA Durham, NC Santa Cruz, CA Chicago, IL Goleta, CA Pittsburgh, PA Kirkland, WA Reston, VA NYC Bellevue, WA Sunnyvale, CA Mountain View, CA Portland, OR Boulder, CO Atlanta, GA San Diego, CA Santa Barbara, CA",
+      "level": "internship",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "category": "faang",
+      "remote_type": "onsite"
+    },
+    {
       "id": "09784159e6cf1962",
       "kind": "job",
       "origin": "curated",
@@ -5613,28 +5635,6 @@
       "remote_type": "onsite"
     },
     {
-      "id": "0b30ae0ba59031b6",
-      "kind": "job",
-      "origin": "curated",
-      "company": "AMD",
-      "title": "Software Engineer Intern/Co-op",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:01Z",
-      "url": "https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify",
-      "posted_at": "2026-09-07",
-      "age": "5d",
-      "location": "Markham, ON, Canada",
-      "level": "internship",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "country_flag": "🇨🇦",
-      "category": "big_tech",
-      "remote_type": "onsite"
-    },
-    {
       "id": "fd0ede66dae41608",
       "kind": "job",
       "origin": "curated",
@@ -5676,6 +5676,50 @@
       "country": "Canada",
       "country_flag": "🇨🇦",
       "category": "big_tech",
+      "remote_type": "onsite"
+    },
+    {
+      "id": "0b30ae0ba59031b6",
+      "kind": "job",
+      "origin": "curated",
+      "company": "AMD",
+      "title": "Software Engineer Intern/Co-op",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:01Z",
+      "url": "https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify",
+      "posted_at": "2026-09-07",
+      "age": "5d",
+      "location": "Markham, ON, Canada",
+      "level": "internship",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "category": "big_tech",
+      "remote_type": "onsite"
+    },
+    {
+      "id": "d06c2e10472343c5",
+      "kind": "job",
+      "origin": "curated",
+      "company": "Atlassian",
+      "title": "Software Engineer Intern",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:01Z",
+      "url": "https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&ref=Simplify",
+      "posted_at": "2026-09-01",
+      "age": "11d",
+      "location": "Seattle, WA SF",
+      "level": "internship",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "category": "product_saas",
       "remote_type": "onsite"
     },
     {
@@ -24360,6 +24404,34 @@
       "country_flag": "🇦🇺"
     },
     {
+      "id": "fcb34d6177e0786a",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T22:16:50Z",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1",
+      "posted_at": "",
+      "age": "0d",
+      "location": "US, WA, Remote +5 more",
+      "locations": [
+        "US, WA, Remote",
+        "US, MA, Westford",
+        "US, TX, Austin",
+        "US, Remote",
+        "US, NC, Durham",
+        "US, CA, Remote"
+      ],
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "country_flag": "🇺🇸"
+    },
+    {
       "id": "1fb02a92839162ac",
       "kind": "job",
       "origin": "public",
@@ -24424,6 +24496,33 @@
       "level": "mid_level",
       "region": "unknown",
       "role_type": "software_engineer",
+      "country": "United States",
+      "country_flag": "🇺🇸"
+    },
+    {
+      "id": "fd49b26ffed563cc",
+      "kind": "job",
+      "origin": "public",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, System Validation - EDA Infrastructure",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T22:16:50Z",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880",
+      "posted_at": "",
+      "age": "0d",
+      "location": "US, CA, Santa Clara +4 more",
+      "locations": [
+        "US, CA, Santa Clara",
+        "US, MA, Westford",
+        "US, TX, Austin",
+        "US, NC, Durham",
+        "US, CA, Remote"
+      ],
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "infrastructure",
       "country": "United States",
       "country_flag": "🇺🇸"
     },
@@ -37430,25 +37529,6 @@
       "country_flag": "🇺🇸"
     },
     {
-      "id": "e479bccf2ed0a364",
-      "kind": "job",
-      "origin": "public",
-      "company": "Accenture",
-      "title": "Senior Infrastructure Engineer (GCP)",
-      "source": "workday:accenture",
-      "source_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/accenturecareers/jobs",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Warsaw/Technical-Training-Consultant_R00325055",
-      "posted_at": "",
-      "age": "2d",
-      "location": "",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "country": "Unknown"
-    },
-    {
       "id": "f7f10f7ae89c830b",
       "kind": "job",
       "origin": "public",
@@ -43043,31 +43123,6 @@
       "country_flag": "🇨🇦"
     },
     {
-      "id": "11bd4f8811a1b5c2",
-      "kind": "job",
-      "origin": "public",
-      "company": "NVIDIA",
-      "title": "Director, Agentic AI Platform, Enterprise ISV and Infrastructure GTM - EMEA",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/France-Courbevoie/Director--Agentic-AI-Platform--Enterprise-ISV-and-Infrastructure-GTM---EMEA_JR2024254",
-      "posted_at": "",
-      "age": "2d",
-      "location": "France, Courbevoie +2 more",
-      "locations": [
-        "France, Courbevoie",
-        "UK, Remote",
-        "France, Remote"
-      ],
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "platform",
-      "country": "United Kingdom",
-      "country_flag": "🇬🇧"
-    },
-    {
       "id": "06a6c53c7b73f86d",
       "kind": "job",
       "origin": "public",
@@ -43086,31 +43141,6 @@
       "role_type": "software_engineer",
       "country": "United States",
       "country_flag": "🇺🇸"
-    },
-    {
-      "id": "a1c9ba9070943622",
-      "kind": "job",
-      "origin": "public",
-      "company": "NVIDIA",
-      "title": "Senior Account Manager, Agentic AI Platform - UK&I",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/Senior-Account-Manager--Agentic-AI-Platform---UK-I_JR2024521",
-      "posted_at": "",
-      "age": "2d",
-      "location": "UK, Remote +2 more",
-      "locations": [
-        "UK, Remote",
-        "France, Courbevoie",
-        "France, Remote"
-      ],
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "platform",
-      "country": "United Kingdom",
-      "country_flag": "🇬🇧"
     },
     {
       "id": "41ce0e9ea4db2780",
@@ -46835,7 +46865,7 @@
       "country": "Unknown"
     },
     {
-      "id": "123c0cae7b46bde0",
+      "id": "342b3f9493acb89a",
       "kind": "job",
       "origin": "public",
       "company": "Stripe",
@@ -46843,11 +46873,11 @@
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+      "last_checked": "2026-09-12T19:19:41Z",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130883",
       "posted_at": "2026-09-10",
       "age": "2d",
-      "location": "Bengaluru",
+      "location": "Singapore",
       "level": "internship",
       "region": "apac",
       "role_type": "software_engineer",
@@ -46859,8 +46889,8 @@
         "Scala"
       ],
       "min_years_experience": 1,
-      "country": "India",
-      "country_flag": "🇮🇳"
+      "country": "Singapore",
+      "country_flag": "🇸🇬"
     },
     {
       "id": "17d0966195e03cff",
@@ -46891,7 +46921,7 @@
       "country_flag": "🇬🇧"
     },
     {
-      "id": "342b3f9493acb89a",
+      "id": "123c0cae7b46bde0",
       "kind": "job",
       "origin": "public",
       "company": "Stripe",
@@ -46899,11 +46929,11 @@
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "liveness": "verified",
-      "last_checked": "2026-09-12T19:19:41Z",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130883",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
       "posted_at": "2026-09-10",
       "age": "2d",
-      "location": "Singapore",
+      "location": "Bengaluru",
       "level": "internship",
       "region": "apac",
       "role_type": "software_engineer",
@@ -46915,8 +46945,8 @@
         "Scala"
       ],
       "min_years_experience": 1,
-      "country": "Singapore",
-      "country_flag": "🇸🇬"
+      "country": "India",
+      "country_flag": "🇮🇳"
     },
     {
       "id": "9747c6e747e4eb88",
@@ -46947,34 +46977,6 @@
       "country_flag": "🇷🇴"
     },
     {
-      "id": "c3b11892340bdad3",
-      "kind": "job",
-      "origin": "public",
-      "company": "Stripe",
-      "title": "Software Engineer, Intern (Summer or Winter)",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130805",
-      "posted_at": "2026-09-10",
-      "age": "2d",
-      "location": "Toronto",
-      "level": "internship",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ],
-      "min_years_experience": 1,
-      "country": "Canada",
-      "country_flag": "🇨🇦"
-    },
-    {
       "id": "c605f6dad3d2889c",
       "kind": "job",
       "origin": "public",
@@ -47001,6 +47003,34 @@
       "min_years_experience": 1,
       "country": "Ireland",
       "country_flag": "🇮🇪"
+    },
+    {
+      "id": "c3b11892340bdad3",
+      "kind": "job",
+      "origin": "public",
+      "company": "Stripe",
+      "title": "Software Engineer, Intern (Summer or Winter)",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130805",
+      "posted_at": "2026-09-10",
+      "age": "2d",
+      "location": "Toronto",
+      "level": "internship",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ],
+      "min_years_experience": 1,
+      "country": "Canada",
+      "country_flag": "🇨🇦"
     },
     {
       "id": "855c0e51b78069fa",
@@ -47080,33 +47110,6 @@
       "country_flag": "🇬🇧"
     },
     {
-      "id": "b836bebf63487343",
-      "kind": "job",
-      "origin": "public",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130881",
-      "posted_at": "2026-09-10",
-      "age": "2d",
-      "location": "Dublin",
-      "level": "new_grad",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ],
-      "country": "Ireland",
-      "country_flag": "🇮🇪"
-    },
-    {
       "id": "3e53caa7727d62f6",
       "kind": "job",
       "origin": "public",
@@ -47132,33 +47135,6 @@
       ],
       "country": "United Kingdom",
       "country_flag": "🇬🇧"
-    },
-    {
-      "id": "c543a8c9860ed243",
-      "kind": "job",
-      "origin": "public",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130922",
-      "posted_at": "2026-09-10",
-      "age": "2d",
-      "location": "Bucharest",
-      "level": "new_grad",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ],
-      "country": "Romania",
-      "country_flag": "🇷🇴"
     },
     {
       "id": "485c7a19842acde7",
@@ -47188,6 +47164,60 @@
       "country_flag": "🇨🇦"
     },
     {
+      "id": "ceb9ea1fb24b1574",
+      "kind": "job",
+      "origin": "public",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://stripe.com/jobs/search?gh_jid=8128744",
+      "posted_at": "2026-09-10",
+      "age": "2d",
+      "location": "San Francisco, Seattle, New York",
+      "level": "new_grad",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ],
+      "country": "United States",
+      "country_flag": "🇺🇸"
+    },
+    {
+      "id": "c543a8c9860ed243",
+      "kind": "job",
+      "origin": "public",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130922",
+      "posted_at": "2026-09-10",
+      "age": "2d",
+      "location": "Bucharest",
+      "level": "new_grad",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ],
+      "country": "Romania",
+      "country_flag": "🇷🇴"
+    },
+    {
       "id": "334395993d3f3a1a",
       "kind": "job",
       "origin": "public",
@@ -47215,7 +47245,7 @@
       "country_flag": "🇸🇬"
     },
     {
-      "id": "ceb9ea1fb24b1574",
+      "id": "b836bebf63487343",
       "kind": "job",
       "origin": "public",
       "company": "Stripe",
@@ -47224,12 +47254,12 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "liveness": "verified",
       "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://stripe.com/jobs/search?gh_jid=8128744",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130881",
       "posted_at": "2026-09-10",
       "age": "2d",
-      "location": "San Francisco, Seattle, New York",
+      "location": "Dublin",
       "level": "new_grad",
-      "region": "north_america",
+      "region": "europe",
       "role_type": "software_engineer",
       "tech_tags": [
         "JavaScript",
@@ -47238,8 +47268,8 @@
         "Ruby",
         "Scala"
       ],
-      "country": "United States",
-      "country_flag": "🇺🇸"
+      "country": "Ireland",
+      "country_flag": "🇮🇪"
     },
     {
       "id": "3f9f51d5ac7367a1",
@@ -103028,51 +103058,6 @@
       "location": "Panihati, India"
     },
     {
-      "id": "b38dd30cbd3d545e",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "KYX",
-      "title": "HackKentucky",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://hackkentucky.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "about 2 hours left",
-      "location": "Genuine Works - IN PERSON ONLY"
-    },
-    {
-      "id": "a1b0841eccae8d89",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Hack Club",
-      "title": "Graphiques Innovation Challenge",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://graphiques-challenge.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "about 4 hours left",
-      "location": "Online"
-    },
-    {
-      "id": "dd172b89b82a12b9",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Uniplay",
-      "title": "internal hackathon | Elevate Ecosystem",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://internal-ee-hackathon.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "about 4 hours left",
-      "location": "Bengaluru, India"
-    },
-    {
       "id": "7e3bf4d195f2cee9",
       "kind": "hackathon",
       "origin": "public",
@@ -103084,23 +103069,8 @@
       "last_checked": "2026-09-12T17:08:51Z",
       "url": "https://frontier-cascadia-2026.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "about 5 hours left",
+      "age": "about 2 hours left",
       "location": "Online"
-    },
-    {
-      "id": "8802a201bf971d88",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Sauga Hacks",
-      "title": "SaugaHacks",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T14:06:37Z",
-      "url": "https://saugahacks-2026.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "about 5 hours left",
-      "location": "University Of Toronto Mississauga"
     },
     {
       "id": "429148999f3f7aa8",
@@ -103114,8 +103084,23 @@
       "last_checked": "2026-09-12T17:08:51Z",
       "url": "https://visionhackla.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "about 6 hours left",
+      "age": "about 2 hours left",
       "location": "The Beehive"
+    },
+    {
+      "id": "8802a201bf971d88",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Sauga Hacks",
+      "title": "SaugaHacks",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T14:06:37Z",
+      "url": "https://saugahacks-2026.devpost.com/",
+      "posted_at": "2026-09-12",
+      "age": "about 3 hours left",
+      "location": "University Of Toronto Mississauga"
     },
     {
       "id": "670455678d684ce8",
@@ -103133,19 +103118,19 @@
       "location": "Pittsburgh, PA, USA"
     },
     {
-      "id": "bd690c2f8f021b08",
+      "id": "351d4dd0c25edec9",
       "kind": "hackathon",
       "origin": "public",
-      "company": "Systemind, Inc",
-      "title": "Shared OS Hackathon",
+      "company": "TEC ACM",
+      "title": "HackMTY 2026",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://shared-os-hackathon.devpost.com/",
+      "last_checked": "2026-09-12T19:19:41Z",
+      "url": "https://hackmty-26.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "about 18 hours left",
-      "location": "Online"
+      "age": "about 15 hours left",
+      "location": "Tec de Monterrey - Arena Borregos"
     },
     {
       "id": "24e8dfe1181fb774",
@@ -103159,38 +103144,23 @@
       "last_checked": "2026-09-12T19:19:41Z",
       "url": "https://hackrice-16.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "about 19 hours left",
+      "age": "about 16 hours left",
       "location": "Rice Memorial Center"
     },
     {
-      "id": "351d4dd0c25edec9",
+      "id": "bd690c2f8f021b08",
       "kind": "hackathon",
       "origin": "public",
-      "company": "TEC ACM",
-      "title": "HackMTY 2026",
+      "company": "Systemind, Inc",
+      "title": "Shared OS Hackathon",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "liveness": "verified",
-      "last_checked": "2026-09-12T19:19:41Z",
-      "url": "https://hackmty-26.devpost.com/",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://shared-os-hackathon.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "about 19 hours left",
-      "location": "Tec de Monterrey - Arena Borregos"
-    },
-    {
-      "id": "504f7bdccfab5c6b",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Independant",
-      "title": "HackWesTX VII",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T17:08:51Z",
-      "url": "https://hackwestx-vii.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "about 20 hours left",
-      "location": "TTU Innovation Hub at Research Hub"
+      "age": "about 16 hours left",
+      "location": "Online"
     },
     {
       "id": "3026ed2ae80921cb",
@@ -103204,7 +103174,7 @@
       "last_checked": "2026-09-12T17:08:51Z",
       "url": "https://battle-of-the-schools.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "about 20 hours left",
+      "age": "about 17 hours left",
       "location": "Bahen Centre, University of Toronto"
     },
     {
@@ -103219,8 +103189,53 @@
       "last_checked": "2026-09-12T10:44:33Z",
       "url": "https://roadstarhackathon.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "about 23 hours left",
+      "age": "about 19 hours left",
       "location": "Waterloo, ON"
+    },
+    {
+      "id": "504f7bdccfab5c6b",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Independant",
+      "title": "HackWesTX VII",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T17:08:51Z",
+      "url": "https://hackwestx-vii.devpost.com/",
+      "posted_at": "2026-09-12",
+      "age": "about 19 hours left",
+      "location": "TTU Innovation Hub at Research Hub"
+    },
+    {
+      "id": "de624d5ac4eb8afd",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Dialogate",
+      "title": "VoltHacks",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://volthacks.devpost.com/",
+      "posted_at": "2026-09-12",
+      "age": "about 23 hours left",
+      "location": "Online"
+    },
+    {
+      "id": "ef90cf9199da5121",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "CALL-E",
+      "title": "CALL-E: Your Code Is Calling",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://call-e.devpost.com/",
+      "posted_at": "2026-09-12",
+      "age": "1 day left",
+      "location": "Online"
     },
     {
       "id": "3a152340882bbd14",
@@ -103238,6 +103253,21 @@
       "location": "University of Melbourne"
     },
     {
+      "id": "a1b0841eccae8d89",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Hack Club",
+      "title": "Graphiques Innovation Challenge",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://graphiques-challenge.devpost.com/",
+      "posted_at": "2026-09-12",
+      "age": "1 day left",
+      "location": "Online"
+    },
+    {
       "id": "249e1a17b11b0500",
       "kind": "hackathon",
       "origin": "public",
@@ -103249,7 +103279,7 @@
       "last_checked": "2026-09-12T10:44:33Z",
       "url": "https://venturefix.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "1 day left",
+      "age": "about 24 hours left",
       "location": "Online"
     },
     {
@@ -103278,21 +103308,6 @@
       "liveness": "verified",
       "last_checked": "2026-09-12T10:44:33Z",
       "url": "https://agentsforhumans.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "2 days left",
-      "location": "Online"
-    },
-    {
-      "id": "ef90cf9199da5121",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "CALL-E",
-      "title": "CALL-E: Your Code Is Calling",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://call-e.devpost.com/",
       "posted_at": "2026-09-12",
       "age": "2 days left",
       "location": "Online"
@@ -103328,6 +103343,21 @@
       "location": "Cali, Colombia"
     },
     {
+      "id": "d544884232a5b17a",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "OSC",
+      "title": "AI Builders Hackathon",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://ai-builders-hackathon-2026.devpost.com/",
+      "posted_at": "2026-09-12",
+      "age": "3 days left",
+      "location": "Online"
+    },
+    {
       "id": "73375ab80c2cac22",
       "kind": "hackathon",
       "origin": "public",
@@ -103358,6 +103388,21 @@
       "location": "Parsandan, India"
     },
     {
+      "id": "f3b190dce026f1c3",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Test Hackathon 02",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://test-hackathon-2.devfolio.co",
+      "posted_at": "2026-09-12",
+      "age": "4 days left",
+      "location": "San Francisco, United States"
+    },
+    {
       "id": "0e04c12ae1956584",
       "kind": "hackathon",
       "origin": "public",
@@ -103373,19 +103418,19 @@
       "location": "Online"
     },
     {
-      "id": "f3b190dce026f1c3",
+      "id": "09e3b2da05cc448c",
       "kind": "hackathon",
       "origin": "public",
-      "company": "Devfolio",
-      "title": "Test Hackathon 02",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons",
+      "company": "TechCommons",
+      "title": "TechCommons Hacks V2 - Hacks to Inspire",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
       "liveness": "verified",
       "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://test-hackathon-2.devfolio.co",
+      "url": "https://techcommons-hacks-v2.devpost.com/",
       "posted_at": "2026-09-12",
-      "age": "5 days left",
-      "location": "San Francisco, United States"
+      "age": "4 days left",
+      "location": "Online"
     },
     {
       "id": "4e6bf779ab32b518",
@@ -103418,16 +103463,16 @@
       "location": "Online"
     },
     {
-      "id": "09e3b2da05cc448c",
+      "id": "8662a5bbc58a19f5",
       "kind": "hackathon",
       "origin": "public",
-      "company": "TechCommons",
-      "title": "TechCommons Hacks V2 - Hacks to Inspire",
+      "company": "Rice University",
+      "title": "The Rice University Urban Sustainability Hackathon",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "liveness": "verified",
       "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://techcommons-hacks-v2.devpost.com/",
+      "url": "https://rice-urban-sustainability.devpost.com/",
       "posted_at": "2026-09-12",
       "age": "5 days left",
       "location": "Online"
@@ -103823,21 +103868,6 @@
       "location": "Online"
     },
     {
-      "id": "345b7b76d3475cca",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Lexhack",
-      "title": "LexHack 2026",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://lexhack-2026.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "15 days left",
-      "location": "Online"
-    },
-    {
       "id": "34c64aefad0e72ba",
       "kind": "hackathon",
       "origin": "public",
@@ -103848,6 +103878,21 @@
       "liveness": "verified",
       "last_checked": "2026-09-12T10:44:33Z",
       "url": "https://3rd-web-hack.devpost.com/",
+      "posted_at": "2026-09-12",
+      "age": "14 days left",
+      "location": "Online"
+    },
+    {
+      "id": "345b7b76d3475cca",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Lexhack",
+      "title": "LexHack 2026",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://lexhack-2026.devpost.com/",
       "posted_at": "2026-09-12",
       "age": "15 days left",
       "location": "Online"
@@ -104003,21 +104048,6 @@
       "location": "Online"
     },
     {
-      "id": "92e98d87bef87a11",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "ML Empowerment Foundation",
-      "title": "ML Empowerment Build Challenge 3.0",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://ml-build-challenge-3.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "23 days left",
-      "location": "Online"
-    },
-    {
       "id": "231bd74ad1c43615",
       "kind": "hackathon",
       "origin": "public",
@@ -104028,6 +104058,21 @@
       "liveness": "verified",
       "last_checked": "2026-09-12T10:44:33Z",
       "url": "https://csc-back-to-school.devpost.com/",
+      "posted_at": "2026-09-12",
+      "age": "22 days left",
+      "location": "Online"
+    },
+    {
+      "id": "92e98d87bef87a11",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "ML Empowerment Foundation",
+      "title": "ML Empowerment Build Challenge 3.0",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://ml-build-challenge-3.devpost.com/",
       "posted_at": "2026-09-12",
       "age": "23 days left",
       "location": "Online"
@@ -104348,6 +104393,21 @@
       "location": "Kalyani, India"
     },
     {
+      "id": "03943543974f740e",
+      "kind": "hackathon",
+      "origin": "public",
+      "company": "Devfolio",
+      "title": "Hack On Hills 8.0",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons",
+      "liveness": "verified",
+      "last_checked": "2026-09-12T10:44:33Z",
+      "url": "https://hackonhills8.devfolio.co",
+      "posted_at": "2026-09-12",
+      "age": "49 days left",
+      "location": "Hamirpur, India"
+    },
+    {
       "id": "d553006f7fba567c",
       "kind": "hackathon",
       "origin": "public",
@@ -104361,21 +104421,6 @@
       "posted_at": "2026-09-12",
       "age": "49 days left",
       "location": "Online"
-    },
-    {
-      "id": "03943543974f740e",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Devfolio",
-      "title": "Hack On Hills 8.0",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://hackonhills8.devfolio.co",
-      "posted_at": "2026-09-12",
-      "age": "50 days left",
-      "location": "Hamirpur, India"
     },
     {
       "id": "f1707d60709ea316",
@@ -104511,21 +104556,6 @@
       "posted_at": "2026-09-12",
       "age": "4 months left",
       "location": "Online"
-    },
-    {
-      "id": "46abcd00e2a3276c",
-      "kind": "hackathon",
-      "origin": "public",
-      "company": "Carnegie Mellon University",
-      "title": "Hack CMU",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "liveness": "verified",
-      "last_checked": "2026-09-12T10:44:33Z",
-      "url": "https://hack-cmu-2026.devpost.com/",
-      "posted_at": "2026-09-12",
-      "age": "40 minutes left",
-      "location": "Carnegie Mellon University"
     },
     {
       "id": "c979d1f41ca3ee14",

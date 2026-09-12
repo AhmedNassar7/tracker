@@ -28,18 +28,18 @@ Extra signals pulled straight from a posting's own text (only the ATS sources th
 
 | Section | Count |
 |---|---:|
-| Jobs | 3915 |
+| Jobs | 3917 |
 | Hackathons | 102 |
 | Events | 218 |
-| Total | 4235 |
+| Total | 4237 |
 
 ## Jobs
 
-[![Jobs 3915](https://img.shields.io/badge/Jobs-3915-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 201](https://img.shields.io/badge/Internship-201-22c55e.svg)](#internship) [![Early Career 69](https://img.shields.io/badge/Early%20Career-69-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3645](https://img.shields.io/badge/Mid--Level%20and%20Above-3645-dc2626.svg)](#mid-level-and-above)
+[![Jobs 3917](https://img.shields.io/badge/Jobs-3917-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 204](https://img.shields.io/badge/Internship-204-22c55e.svg)](#internship) [![Early Career 69](https://img.shields.io/badge/Early%20Career-69-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3644](https://img.shields.io/badge/Mid--Level%20and%20Above-3644-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 201
+Total roles: 204
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -56,6 +56,8 @@ Total roles: 201
 | Amazon | [Software Development Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027) | Cupertino, California, USA | 16d |
 | Amazon Development Centre Canada ULC - K03 | [ML Systems Software Development Engineer Intern, Annapurna Labs - 2027](https://zapply.jobs/l/d/amazon-3bf6731a-c458-4019-9705-b786a6cc8748?s=gh-canada-jobs-2027) | Toronto, ON | 1d |
 | Amazon Development Centre Canada ULC - K03 | [ML Systems Software Development Engineer Intern, Annapurna Labs - 2027](https://zapply.jobs/l/d/amazon-3bf6731a-c458-4019-9705-b786a6cc8748?s=gh-canada-internships-2027) | Toronto, ON | 1d |
+| Google | [Software Engineer Intern - Multiple Teams](https://www.google.com/about/careers/applications/jobs/results/94172495052972742?utm_source=Simplify&ref=Simplify) | 30 locationsPalo Alto, CA Cambridge, MA Madison, WI Seattle, WA Houston, TX SF Austin, TX LA San Jose, CA Irvine, CA South SF Redwood City, CA Raleigh, NC San Bruno, CA Redmond, WA Durham, NC Santa Cruz, CA Chicago, IL Goleta, CA Pittsburgh, PA Kirkland, WA Reston, VA NYC Bellevue, WA Sunnyvale, CA Mountain View, CA Portland, OR Boulder, CO Atlanta, GA San Diego, CA | 11d |
+| Google | [Software Engineer Intern - Multiple Teams](https://www.google.com/about/careers/applications/jobs/results/100648618540573382?utm_source=Simplify&ref=Simplify) | 31 locationsPalo Alto, CA Cambridge, MA Madison, WI Seattle, WA Houston, TX SF Austin, TX LA San Jose, CA Irvine, CA South SF Redwood City, CA Raleigh, NC San Bruno, CA Redmond, WA Durham, NC Santa Cruz, CA Chicago, IL Goleta, CA Pittsburgh, PA Kirkland, WA Reston, VA NYC Bellevue, WA Sunnyvale, CA Mountain View, CA Portland, OR Boulder, CO Atlanta, GA San Diego, CA Santa Barbara, CA | 11d |
 | Google | [Software Engineer Intern - Multiple Teams](https://www.google.com/about/careers/applications/jobs/results/94172495052972742?utm_source=Simplify&ref=Simplify) | <details><summary>30 locations</summary>Palo Alto, CA<br>Cambridge, MA<br>Madison, WI<br>Seattle, WA<br>Houston, TX<br>SF<br>Austin, TX<br>LA<br>San Jose, CA<br>Irvine, CA<br>South SF<br>Redwood City, CA<br>Raleigh, NC<br>San Bruno, CA<br>Redmond, WA<br>Durham, NC<br>Santa Cruz, CA<br>Chicago, IL<br>Goleta, CA<br>Pittsburgh, PA<br>Kirkland, WA<br>Reston, VA<br>NYC<br>Bellevue, WA<br>Sunnyvale, CA<br>Mountain View, CA<br>Portland, OR<br>Boulder, CO<br>Atlanta, GA<br>San Diego, CA</details> | 12d |
 | Google | [Software Developer Intern 🎓](https://www.google.com/about/careers/applications/jobs/results/112518690523488966?utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada Toronto, ON, Canada Waterloo, ON, Canada | 13d |
 | Google | [Software Developer Intern 🎓](https://www.google.com/about/careers/applications/jobs/results/112518690523488966?utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada Toronto, ON, Canada Waterloo, ON, Canada | 13d |
@@ -73,11 +75,11 @@ Total roles: 201
 | Microsoft | [Software Engineer Intern, Fullstack Product (Web + Services)](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922&utm_source=github-vansh-ouckah) | Multiple Locations, United States | 1mo |
 | Microsoft | [Software Engineer Intern, Security & Identity](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930&utm_source=github-vansh-ouckah) | Redmond, WA | 1mo |
 | AMD | [Machine Learning System Engineering Intern/Co-op 🎓](https://careers.amd.com/jobs/92342?icims=1&utm_source=Simplify&ref=Simplify) | San Jose, CA Santa Clara, CA | 0d |
-| AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91359?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 5d |
 | AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 5d |
-| AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 5d |
+| AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91359?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 5d |
 | AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91366?icims=1&utm_source=Simplify&ref=Simplify) | Calgary, AB, Canada | 5d |
 | AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91367?icims=1&utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 5d |
+| AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 5d |
 | AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 11d |
 | AMD | [Machine Learning/Artificial Intelligence Intern/Co-op](https://careers.amd.com/jobs/91363?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 11d |
 | AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90947?icims=1&utm_source=Simplify&ref=Simplify) | 6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA | 16d |
@@ -123,6 +125,7 @@ Total roles: 201
 | Lyft | [Software Engineer Intern - Backend](https://app.careerpuck.com/job-board/lyft/job/8796054002?gh_jid=8796054002&utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada | 0d |
 | Lyft | [Software Engineer Intern - Backend - Summer 2027](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002) | San Francisco, CA | 0d |
 | Lyft | [Software Engineer Intern - Fullstack](https://app.careerpuck.com/job-board/lyft/job/8797859002?gh_jid=8797859002&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 0d |
+| Lyft | [Software Engineer Intern - Fullstack - Multiple Teams](https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002&utm_source=Simplify&ref=Simplify) | NYC | 0d |
 | Lyft | [Software Engineer Intern - Fullstack - Summer 2027](https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002) | New York City, NY | 0d |
 | Lyft | [Software Engineer Intern - Machine Learning](https://app.careerpuck.com/job-board/lyft/job/8802332002?gh_jid=8802332002&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 0d |
 | Lyft | [Software Engineer Intern - Machine Learning](https://app.careerpuck.com/job-board/lyft/job/8802332002?gh_jid=8802332002&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 0d |
@@ -202,13 +205,13 @@ Total roles: 201
 | Datadog | [Software Engineering Intern](https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161) | Madrid, Spain | 2d |
 | Datadog | [Software Engineering Intern (Summer)](https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118) _$100k–$110k/yr_ | Boston, Massachusetts, USA; New York, New York, USA | 2d |
 | Intel | [AI Software Engineering PhD Intern](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-PhD-Intern_JR0286730) | <details><summary>2 locations</summary>US<br>Arizona<br>Phoenix, US<br>Oregon<br>Hillsboro</details> | 2d |
-| Stripe | [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8031833) | Bengaluru | 2d |
-| Stripe | [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8130867) | London | 2d |
 | Stripe | [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8130883) | Singapore | 2d |
+| Stripe | [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8130867) | London | 2d |
+| Stripe | [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8031833) | Bengaluru | 2d |
 | Stripe | [Software Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8130807) | Bucharest | 2d |
-| Stripe | [Software Engineer, Intern (Summer or Winter)](https://stripe.com/jobs/search?gh_jid=8130805) | Toronto | 2d |
 | Stripe | [Software Engineer, Intern (Summer or Winter)](https://stripe.com/jobs/search?gh_jid=8097801) | Dublin | 2d |
 | Stripe | [Software Engineer, Intern (Summer or Winter)](https://stripe.com/jobs/search?gh_jid=8128745) | San Francisco, Seattle, New York City | 2d |
+| Stripe | [Software Engineer, Intern (Summer or Winter)](https://stripe.com/jobs/search?gh_jid=8130805) | Toronto | 2d |
 | Epic Games | [Backend Services Programmer Intern](https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004) | Cary,North Carolina,United States | 3d |
 | Epic Games | [Frontend Programmer Intern](https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004) | Cary,North Carolina,United States | 12d |
 | Coinbase | [Software Engineer Intern](https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315) _$60–$60/hr_ | Hybrid - San Francisco, CA | 4d |
@@ -295,12 +298,12 @@ Total roles: 69
 | PwC | [Junior - Servicios Tributarios](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Montevideo/Junior---Servicios-Tributarios_751260WD) | Montevideo | 4d |
 | Sonyinteractiveentertainmentglobal | [Software Engineer I](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104600004) _$137k–$206k/yr_ | United States, San Mateo, CA | 2d |
 | Sonyinteractiveentertainmentglobal | [Software Engineer I SDK](https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6119793004) _$137k–$206k/yr_ | United States, San Mateo, CA | 2d |
-| Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8130881) | Dublin | 2d |
 | Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8130930) | London | 2d |
-| Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8130922) | Bucharest | 2d |
 | Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8157838) | Toronto | 2d |
-| Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8160776) | Singapore | 2d |
 | Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8128744) | San Francisco, Seattle, New York | 2d |
+| Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8130922) | Bucharest | 2d |
+| Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8160776) | Singapore | 2d |
+| Stripe | [Software Engineer, New Grad](https://stripe.com/jobs/search?gh_jid=8130881) | Dublin | 2d |
 | Stripe | [Software Engineer, New Grad - Frontend](https://stripe.com/jobs/search?gh_jid=8130927) | Barcelona | 2d |
 | Celonis | [Associate Software Engineer - Java](https://job-boards.greenhouse.io/celonis/jobs/7791267003?gh_jid=7791267003) | Bangalore, India | 3d |
 | Replit | [Software Engineer - New Grad (2027)](https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc) | Foster City, CA | 3d |
@@ -323,7 +326,7 @@ Total roles: 69
 
 ### Mid-Level and Above
 
-Total roles: 3645
+Total roles: 3644
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -1779,9 +1782,11 @@ Total roles: 3645
 | Netflix | [Software Engineer 5 - Content & Business Products](https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer--L5---Content-Engineering_JR28754) | <details><summary>4 locations</summary>USA - Remote<br>Los Angeles<br>New York<br>Los Gatos</details> | 18d |
 | Netflix | [Software Engineer 4/5 – Data and Feature Infrastructure, AI Platform](https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-L4-L5---Data-and-Feature-Infrastructure--Machine-Learning-Platform_JR31232) | USA - Remote | 1mo |
 | Netflix | [Software Engineer 5 – Training Platform, AI Platform](https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-L4-L5--Training-Platform--Machine-Learning-Platform_JR31231-1) | USA - Remote | 1mo |
+| NVIDIA | [Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1) | <details><summary>6 locations</summary>US, WA<br>Remote, US<br>MA<br>Westford, US<br>TX<br>Austin, US<br>Remote, US<br>NC<br>Durham, US<br>CA<br>Remote</details> | 0d |
 | NVIDIA | [Senior Software Engineer, Lateral Planning – Autonomous Vehicles](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--Lateral-Planning---Autonomous-Vehicles_JR2022066) | <details><summary>2 locations</summary>China<br>Shanghai<br>China<br>Beijing</details> | 0d |
 | NVIDIA | [Senior Software Engineer, Longitudinal Planning – Autonomous Vehicles](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Senior-Software-Engineer--Longitudinal-Planning---Autonomous-Vehicles_JR2022072) | <details><summary>2 locations</summary>China<br>Beijing<br>China<br>Shanghai</details> | 0d |
 | NVIDIA | [Senior Software Engineer, NCCL](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186) | US, CA, Santa Clara | 0d |
+| NVIDIA | [Senior Software Engineer, System Validation - EDA Infrastructure](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>MA<br>Westford, US<br>TX<br>Austin, US<br>NC<br>Durham, US<br>CA<br>Remote</details> | 0d |
 | NVIDIA | [Senior System Software Engineer, Software Defined Networking](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer--Software-Defined-Networking_JR2025441) | <details><summary>2 locations</summary>India<br>Bengaluru<br>India<br>Remote</details> | 0d |
 | NVIDIA | [DevOps and Automation Engineer – ICPE](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/DevOps-and-Automation-Engineer---ICPE_JR2025436-1) | Israel, Yokneam | 1d |
 | NVIDIA | [Senior AI and ML Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-AI-and-ML-Software-Engineer_JR2025455) | US, CA, Santa Clara | 1d |
@@ -1799,9 +1804,7 @@ Total roles: 3645
 | NVIDIA | [Senior Systems Software Engineer, Observability and Telemetry Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Observability-and-Telemetry-Platform_JR2024747) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 1d |
 | NVIDIA | [Software Engineer, LLM Inference](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineer--LLM-Inference_JR2024698) | China, Shanghai | 1d |
 | NVIDIA | [Software Manager, Robotics Platform Engineering](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Manager--Robotics-Platform-Engineering_JR2023987) | China, Shanghai | 1d |
-| NVIDIA | [Director, Agentic AI Platform, Enterprise ISV and Infrastructure GTM - EMEA](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/France-Courbevoie/Director--Agentic-AI-Platform--Enterprise-ISV-and-Infrastructure-GTM---EMEA_JR2024254) | <details><summary>3 locations</summary>France<br>Courbevoie, UK<br>Remote<br>France<br>Remote</details> | 2d |
 | NVIDIA | [Quality Assurance Software Developer Engineer in Test, GeForce GPU](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quality-Assurance-Software-Developer-in-Test-Engineer_JR2011328) | US, CA, Santa Clara | 2d |
-| NVIDIA | [Senior Account Manager, Agentic AI Platform - UK&I](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/Senior-Account-Manager--Agentic-AI-Platform---UK-I_JR2024521) | <details><summary>3 locations</summary>UK<br>Remote<br>France<br>Courbevoie<br>France<br>Remote</details> | 2d |
 | NVIDIA | [Senior Deep Learning Software Engineer, Inference](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Deep-Learning-Software-Engineer--Inference_JR2002670) | <details><summary>2 locations</summary>US, CA<br>Santa Clara, US<br>Remote</details> | 2d |
 | NVIDIA | [Senior Hardware Application Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Hardware-Application-Engineer_JR2025259) | US, CA, Santa Clara | 2d |
 | NVIDIA | [Senior Linux Kernel Systems Software Engineer – CSP Engagements](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287) | <details><summary>4 locations</summary>US, CA<br>Santa Clara, US<br>TX<br>Austin, US<br>WA<br>Redmond, US<br>WA<br>Seattle</details> | 2d |
@@ -2109,7 +2112,6 @@ Total roles: 3645
 | Roblox | 🛂 [Senior Software Engineer, Avatar Animation](https://careers.roblox.com/jobs/8024947?gh_jid=8024947) _$230k–$279k/yr_ | Vancouver, British Columbia, Canada | 1mo |
 | Roblox | 🛂 [Senior Software Engineer, Geometry](https://careers.roblox.com/jobs/8025023?gh_jid=8025023) _$230k–$279k/yr_ | Vancouver, British Columbia, Canada | 1mo |
 | Accenture | [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Newcastle/AI-Software-Engineering-Manager_R00346138) |  | 1d |
-| Accenture | [Senior Infrastructure Engineer (GCP)](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Warsaw/Technical-Training-Consultant_R00325055) |  | 2d |
 | Accenture | [Desenvolvedor(a) COBOL (Mainframe)   Pleno a Sênior](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/So-Paulo---Barueri/Analista-Jr-Pleno-Mainframe-Cobol_R00277940) |  | 5d |
 | Accenture | [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/London/AI-Native-Software-Engineer_R00344645-1) |  | 9d |
 | Airbnb | [Staff Software Engineer, Data Warehouse](https://careers.airbnb.com/positions/8197715?gh_jid=8197715) _$212k–$265k/yr_ | USA | 1d |
@@ -3981,33 +3983,34 @@ Total hackathons: 102
 |---|---|---|---|
 | Devfolio | [Ethereum Bolivia Buildathon 2026 Cochabamba](https://ethereum-bolivia-buildathon.devfolio.co) | Tiquipaya, Bolivia | last day |
 | Devfolio | [Metamorph 2.0](https://metamorph-2.devfolio.co) | Panihati, India | last day |
-| KYX | [HackKentucky](https://hackkentucky.devpost.com/) | Genuine Works - IN PERSON ONLY | about 2 hours left |
-| Hack Club | [Graphiques Innovation Challenge](https://graphiques-challenge.devpost.com/) | Online | about 4 hours left |
-| uniplay | [internal hackathon | Elevate Ecosystem](https://internal-ee-hackathon.devpost.com/) | Bengaluru, India | about 4 hours left |
-| frontiercascadia.org | [Frontier Cascadia](https://frontier-cascadia-2026.devpost.com/) | Online | about 5 hours left |
-| Sauga Hacks | [SaugaHacks](https://saugahacks-2026.devpost.com/) | University Of Toronto Mississauga | about 5 hours left |
-| Hacker Fund | [VISION HACK](https://visionhackla.devpost.com/) | The Beehive | about 6 hours left |
+| frontiercascadia.org | [Frontier Cascadia](https://frontier-cascadia-2026.devpost.com/) | Online | about 2 hours left |
+| Hacker Fund | [VISION HACK](https://visionhackla.devpost.com/) | The Beehive | about 2 hours left |
+| Sauga Hacks | [SaugaHacks](https://saugahacks-2026.devpost.com/) | University Of Toronto Mississauga | about 3 hours left |
 | Minority Association in Computing @ Pitt | [MAC-athon](https://pitt-macathon.devpost.com/) | Pittsburgh, PA, USA | about 12 hours left |
-| Systemind, Inc | [Shared OS Hackathon](https://shared-os-hackathon.devpost.com/) | Online | about 18 hours left |
-| Rice University | [HackRice 16](https://hackrice-16.devpost.com/) | Rice Memorial Center | about 19 hours left |
-| TEC ACM | [HackMTY 2026](https://hackmty-26.devpost.com/) | Tec de Monterrey - Arena Borregos | about 19 hours left |
-| independant | [HackWesTX VII](https://hackwestx-vii.devpost.com/) | TTU Innovation Hub at Research Hub | about 20 hours left |
-| WAT.ai | [Battle of the Schools](https://battle-of-the-schools.devpost.com/) | Bahen Centre, University of Toronto | about 20 hours left |
-| Enterprise Software Solutions | [RoadStar Hackathon](https://roadstarhackathon.devpost.com/) | Waterloo, ON | about 23 hours left |
+| TEC ACM | [HackMTY 2026](https://hackmty-26.devpost.com/) | Tec de Monterrey - Arena Borregos | about 15 hours left |
+| Rice University | [HackRice 16](https://hackrice-16.devpost.com/) | Rice Memorial Center | about 16 hours left |
+| Systemind, Inc | [Shared OS Hackathon](https://shared-os-hackathon.devpost.com/) | Online | about 16 hours left |
+| WAT.ai | [Battle of the Schools](https://battle-of-the-schools.devpost.com/) | Bahen Centre, University of Toronto | about 17 hours left |
+| Enterprise Software Solutions | [RoadStar Hackathon](https://roadstarhackathon.devpost.com/) | Waterloo, ON | about 19 hours left |
+| independant | [HackWesTX VII](https://hackwestx-vii.devpost.com/) | TTU Innovation Hub at Research Hub | about 19 hours left |
+| Dialogate | [VoltHacks](https://volthacks.devpost.com/) | Online | about 23 hours left |
+| CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) | Online | 1 day left |
 | Eleno | [Forward: AI in Business Hackathon](https://forward.devpost.com/) | University of Melbourne | 1 day left |
-| PropNote AI | [VentureFix](https://venturefix.devpost.com/) | Online | 1 day left |
+| Hack Club | [Graphiques Innovation Challenge](https://graphiques-challenge.devpost.com/) | Online | 1 day left |
+| PropNote AI | [VentureFix](https://venturefix.devpost.com/) | Online | about 24 hours left |
 | The CAD Challenge | [The CAD Challenge 2026](https://the-cad-challenge-2026.devpost.com/) | University of California, Berkeley | 1 day left |
 | Amazon | [Agents for Humans Hackathon](https://agentsforhumans.devpost.com/) | Online | 2 days left |
-| CALL-E | [CALL-E: Your Code Is Calling](https://call-e.devpost.com/) | Online | 2 days left |
 | hyperbloom hacks | [Hyperbloom September - AI/ML](https://hyperbloom-september.devpost.com/) | Online | 2 days left |
 | Devfolio | [Interledger Student Hackathon - ICESI](https://interledger-student-hackathon-icesi.devfolio.co) | Cali, Colombia | 3 days left |
+| OSC | [AI Builders Hackathon](https://ai-builders-hackathon-2026.devpost.com/) | Online | 3 days left |
 | Devfolio | [DEVHACK 2026](https://devhack2026.devfolio.co) | Various | 4 days left |
 | Devfolio | [HackOphobia](https://hackophobia.devfolio.co) | Parsandan, India | 4 days left |
+| Devfolio | [Test Hackathon 02](https://test-hackathon-2.devfolio.co) | San Francisco, United States | 4 days left |
 | GatewayGS | [GatewayGS Hackathon 2](https://gatewaygs-hackathon-2.devpost.com/) | Online | 4 days left |
-| Devfolio | [Test Hackathon 02](https://test-hackathon-2.devfolio.co) | San Francisco, United States | 5 days left |
+| TechCommons | [TechCommons Hacks V2 - Hacks to Inspire](https://techcommons-hacks-v2.devpost.com/) | Online | 4 days left |
 | None | [Poly.Tech mini hackathon](https://poly-tech-mini-hackathon-31322.devpost.com/) | Baltimore, MD, USA | 5 days left |
 | President University | [COMPSPHERE 12](https://compsphere12.devpost.com/) | Online | 5 days left |
-| TechCommons | [TechCommons Hacks V2 - Hacks to Inspire](https://techcommons-hacks-v2.devpost.com/) | Online | 5 days left |
+| Rice University | [The Rice University Urban Sustainability Hackathon](https://rice-urban-sustainability.devpost.com/) | Online | 5 days left |
 | Devfolio | [DSU DEVHACK 3.0](https://dsudevhack3.devfolio.co) | Ramanagara, India | 6 days left |
 | Devfolio | [Interledger Student Hackathon - CUC](https://interledger-student-hackathon-cuc.devfolio.co) | Barranquilla, Colombia | 6 days left |
 | DFA Yale | [DFA Design Sprint](https://dfa-kickoff.devpost.com/) | Online | 6 days left |
@@ -4034,8 +4037,8 @@ Total hackathons: 102
 | Devfolio | [Hack4Brahma 2.0](https://hack4brahma2.devfolio.co) | Guwahati, India | 14 days left |
 | Pillai University, Navi Mumbai | [HackCelestial 3.0](https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808) | Offline | 14 days left |
 | RotaractClub of SNSCollege of Technology | [Zero Origin](https://zero-origin.devpost.com/) | Online | 14 days left |
+| TechZap Club | [3rd-Web-Hack](https://3rd-web-hack.devpost.com/) | Online | 14 days left |
 | Lexhack | [LexHack 2026](https://lexhack-2026.devpost.com/) | Online | 15 days left |
-| TechZap Club | [3rd-Web-Hack](https://3rd-web-hack.devpost.com/) | Online | 15 days left |
 | LUMA | [LUMA Hackathon (September 20th - 28th)](https://luma-hackathon-fall.devpost.com/) | Online | 16 days left |
 | Devfolio | [CodeStorm 2026: FutureForge](https://codestorm-futureforge.devfolio.co) | Online | 17 days left |
 | Devfolio | [EAG Global Buildathon](https://eag-global-buildathon.devfolio.co) | Online | 18 days left |
@@ -4046,8 +4049,8 @@ Total hackathons: 102
 | Devfolio | [HackSpire'26](https://hackspire26.devfolio.co) | Kolkata, India | 20 days left |
 | Devfolio | [Codeutsava X.0](https://codeutsava-x.devfolio.co) | Raipur, India | 21 days left |
 | Devfolio | [BOSS Battle](https://boss-battle.devfolio.co) | Online | 22 days left |
+| The Webb Schools CSC | [CSC Back-to-School Hackathon](https://csc-back-to-school.devpost.com/) | Online | 22 days left |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 3.0](https://ml-build-challenge-3.devpost.com/) | Online | 23 days left |
-| The Webb Schools CSC | [CSC Back-to-School Hackathon](https://csc-back-to-school.devpost.com/) | Online | 23 days left |
 | BioCataalysis | [UnivaBio](https://univabio.devpost.com/) | Online | 24 days left |
 | Devfolio | [Recursive](https://recursiveacm.devfolio.co) | Panihati, India | 25 days left |
 | Devfolio | [HACKBIOS 2K26](https://hackbios2k26.devfolio.co) | Junwani, India | 26 days left |
@@ -4069,8 +4072,8 @@ Total hackathons: 102
 | Devfolio | [Hefty-Hacks](https://hefty-hacks.devfolio.co) | Online | 48 days left |
 | Devfolio | [TUM Blockchain & AI Hackathon](https://tum.devfolio.co) | München, Germany | 48 days left |
 | Devfolio | [Convergence](https://convergence1.devfolio.co) | Kalyani, India | 49 days left |
+| Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) | Hamirpur, India | 49 days left |
 | Devfolio | [hackodisha-6.0](https://hackodisha-6a.devfolio.co) | Online | 49 days left |
-| Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) | Hamirpur, India | 50 days left |
 | hacktheconcretejungle | [HTCJ × PROOF Aviation Futures Challenge](https://htcj-aviation-futures.devpost.com/) | Boston Venture Week | about 2 months left |
 | nebius | [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) | Online | about 2 months left |
 | STEMise | [DSH Hacks V2](https://dsh-hacks-v2.devpost.com/) | Online | about 2 months left |
@@ -4080,7 +4083,6 @@ Total hackathons: 102
 | Binnovative | [InnovArt 2027: Art and Technology Hack Day](https://innovart2027.devpost.com/) | Online | 4 months left |
 | nill | [Code for Humanity](https://code-for-humanity.devpost.com/) | Online | 4 months left |
 | Student Organization | [Syntax Summit](https://syntax-summit.devpost.com/) | Online | 4 months left |
-| Carnegie Mellon University | [Hack CMU](https://hack-cmu-2026.devpost.com/) | Carnegie Mellon University | 40 minutes left |
 
 ## Events
 
