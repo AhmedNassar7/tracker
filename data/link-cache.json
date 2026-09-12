@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T14:06:37Z",
+ "generated_at": "2026-09-12T17:08:51Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -768,6 +768,10 @@
   "https://basta.net/mainz": {
    "alive": true,
    "at": "2026-09-12T05:46:36Z"
+  },
+  "https://battle-of-the-schools.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-12T17:08:51Z"
   },
   "https://bic.devpost.com/": {
    "alive": true,
@@ -4841,6 +4845,10 @@
    "alive": true,
    "at": "2026-09-12T05:46:36Z"
   },
+  "https://frontier-cascadia-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-12T17:08:51Z"
+  },
   "https://fusionix-1.devfolio.co": {
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
@@ -5000,6 +5008,10 @@
   "https://hacktopusgdg.devfolio.co": {
    "alive": true,
    "at": "2026-09-12T10:44:33Z"
+  },
+  "https://hackwestx-vii.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-12T17:08:51Z"
   },
   "https://haxfinity.devfolio.co": {
    "alive": true,
@@ -11055,7 +11067,7 @@
   },
   "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-11T18:31:26Z"
+   "at": "2026-09-12T17:08:21Z"
   },
   "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e": {
    "alive": true,
@@ -12112,6 +12124,10 @@
   "https://live.symfony.com/2026-warsaw-con": {
    "alive": true,
    "at": "2026-09-12T05:46:36Z"
+  },
+  "https://localhost2.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-12T17:08:51Z"
   },
   "https://london.droidcon.com": {
    "alive": true,
@@ -13503,7 +13519,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186": {
    "alive": true,
-   "at": "2026-09-10T00:14:09Z"
+   "at": "2026-09-12T17:08:51Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--JAX_JR2004629": {
    "alive": true,
@@ -14933,6 +14949,10 @@
    "alive": true,
    "at": "2026-09-08T04:33:55Z"
   },
+  "https://visionhackla.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-12T17:08:51Z"
+  },
   "https://vivatechnology.com/": {
    "alive": true,
    "at": "2026-09-12T05:46:36Z"
@@ -15543,7 +15563,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10417402/embedded-software-development-engineer-ii-amazon-robotics-firmware": {
    "alive": true,
-   "at": "2026-09-12T00:17:13Z"
+   "at": "2026-09-12T17:08:21Z"
   },
   "https://www.amazon.jobs/en/jobs/10417622/software-development-engineer-ii-fintech-fintech": {
    "alive": true,
@@ -17855,7 +17875,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10508294/software-development-engineer-support-agent-intelligence-and-evaluation": {
    "alive": true,
-   "at": "2026-09-12T00:17:13Z"
+   "at": "2026-09-12T17:08:21Z"
   },
   "https://www.amazon.jobs/en/jobs/10508300/software-development-engineer-iii-aws-iam-identity": {
    "alive": true,
@@ -21557,13 +21577,61 @@
    "alive": true,
    "at": "2026-09-11T14:25:13Z"
   },
+  "https://zapply.jobs/l/d/amazon-3bf6731a-c458-4019-9705-b786a6cc8748?s=gh-canada-internships-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/amazon-3bf6731a-c458-4019-9705-b786a6cc8748?s=gh-canada-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
   "https://zapply.jobs/l/d/amazon-b6514125-a4c7-4628-ba05-e4ce995494fa?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
    "at": "2026-09-11T14:25:13Z"
   },
+  "https://zapply.jobs/l/d/ashby-cohere-36d1f52f-8270-4652-adf5-5303a0ff341b?s=gh-canada-internships-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/ashby-cohere-36d1f52f-8270-4652-adf5-5303a0ff341b?s=gh-canada-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/ashby-cohere-8c035d3d-081d-4c8a-914a-72f4efaad254?s=gh-canada-internships-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/ashby-cohere-8c035d3d-081d-4c8a-914a-72f4efaad254?s=gh-canada-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
   "https://zapply.jobs/l/d/bytedance-7668475133954197765?s=gh-internships-2027": {
    "alive": true,
    "at": "2026-09-11T14:25:13Z"
+  },
+  "https://zapply.jobs/l/d/greenhouse-coinbase-8175441?s=gh-internships-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/greenhouse-coinbase-8175459?s=gh-new-grad-data-science-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/greenhouse-instacart-8188987?s=gh-canada-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/greenhouse-lyft-8767726002?s=gh-internships-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/greenhouse-lyft-8797837002?s=gh-internships-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
+  },
+  "https://zapply.jobs/l/d/greenhouse-pinterest-7473497?s=gh-canada-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-12T17:08:21Z"
   },
   "https://zapply.jobs/l/d/lever-palantir-5c4c65c5-77da-4d36-856c-4ade87631019?s=gh-new-grad-jobs-2027": {
    "alive": true,
@@ -21586,10 +21654,6 @@
    "at": "2026-09-11T14:25:13Z"
   },
   "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024683?s=gh-internships-2027": {
-   "alive": true,
-   "at": "2026-09-11T14:25:13Z"
-  },
-  "https://zapply.jobs/l/d/workday-salesforce-external-career-site-JR358348?s=gh-canada-jobs-2027": {
    "alive": true,
    "at": "2026-09-11T14:25:13Z"
   },
