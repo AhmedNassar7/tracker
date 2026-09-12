@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T17:08:21Z",
-  "total": 1185,
+  "generated_at": "2026-09-12T19:19:15Z",
+  "total": 1187,
   "jobs": [
     {
       "id": "79d49f4f80f8d674",
@@ -732,6 +732,29 @@
       "posted_at": "2026-09-12",
       "age": "1d",
       "collected_at": "2026-09-12T17:08:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6e5eb1cb0b3cb154",
+      "company": "Lyft",
+      "title": "Software Engineer Intern, Backend (Summer 2027)",
+      "level": "internship",
+      "category": "ride_delivery",
+      "region": "north_america",
+      "role_type": "backend",
+      "country": "United States",
+      "location": "San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-12",
+      "age": "1d",
+      "collected_at": "2026-09-12T19:19:15Z",
       "tags": [
         "software",
         "programming",
@@ -4994,29 +5017,6 @@
       ]
     },
     {
-      "id": "d3c9866fc06e6c34",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern - Relational Database",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-07",
-      "age": "5d",
-      "collected_at": "2026-09-07T04:38:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "b8bc43a1d2d67ca3",
       "company": "Amazon",
       "title": "Software Development Engineer (SDE), SDN, Amazon LEO",
@@ -5914,7 +5914,7 @@
       ]
     },
     {
-      "id": "ccd3037c741d9043",
+      "id": "e577c5d24f91a6c3",
       "company": "AMD",
       "title": "Graphics Software Engineer Intern/Co-op",
       "level": "internship",
@@ -5924,7 +5924,7 @@
       "country": "Canada",
       "location": "Markham, ON, Canada",
       "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify",
+      "url": "https://careers.amd.com/jobs/91359?icims=1&utm_source=Simplify&ref=Simplify",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-07",
@@ -5937,7 +5937,7 @@
       ]
     },
     {
-      "id": "e577c5d24f91a6c3",
+      "id": "ccd3037c741d9043",
       "company": "AMD",
       "title": "Graphics Software Engineer Intern/Co-op",
       "level": "internship",
@@ -5947,7 +5947,7 @@
       "country": "Canada",
       "location": "Markham, ON, Canada",
       "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/91359?icims=1&utm_source=Simplify&ref=Simplify",
+      "url": "https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-07",
@@ -6114,6 +6114,29 @@
       "posted_at": "2026-09-01",
       "age": "5d",
       "collected_at": "2026-09-01T18:29:18Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d3c9866fc06e6c34",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern - Relational Database",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&ref=Simplify",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-07",
+      "age": "5d",
+      "collected_at": "2026-09-07T04:38:53Z",
       "tags": [
         "software",
         "programming",
@@ -6558,29 +6581,6 @@
       ]
     },
     {
-      "id": "6c574be0ba16cd6c",
-      "company": "Amazon",
-      "title": "Software Development Engineer, RBKS DSO EU",
-      "level": "unknown",
-      "category": "faang",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "country": "Spain",
-      "location": "Madrid, Community of Madrid, ESP",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10524602/software-development-engineer-rbks-dso-eu",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-09-01",
-      "age": "9d",
-      "collected_at": "2026-09-05T17:24:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f7538597d531d31b",
       "company": "Apple",
       "title": "Cellular Layer-1 Control Software Development Engineer, Wireless Technologies & Ecosystems",
@@ -6965,6 +6965,29 @@
       "posted_at": "2026-09-01",
       "age": "6d",
       "collected_at": "2026-09-01T05:05:52Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ffc891a43c19c2d1",
+      "company": "Stripe",
+      "title": "Software Engineer, Intern (Summer or Winter)",
+      "level": "internship",
+      "category": "fintech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Francisco, Seattle, New York City",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=8128745",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-12",
+      "age": "12d",
+      "collected_at": "2026-09-12T19:19:15Z",
       "tags": [
         "software",
         "programming",
@@ -10629,7 +10652,7 @@
       ]
     },
     {
-      "id": "cfda6cdad462aa74",
+      "id": "d49bb502c575ea45",
       "company": "Intel",
       "title": "Software Engineer Graduate Intern",
       "level": "internship",
@@ -10637,9 +10660,9 @@
       "region": "unknown",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "US, Arizona, Phoenix",
+      "location": "US, Oregon, Hillsboro",
       "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-07",
@@ -10652,7 +10675,7 @@
       ]
     },
     {
-      "id": "d49bb502c575ea45",
+      "id": "cfda6cdad462aa74",
       "company": "Intel",
       "title": "Software Engineer Graduate Intern",
       "level": "internship",
@@ -10660,9 +10683,9 @@
       "region": "unknown",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "US, Oregon, Hillsboro",
+      "location": "US, Arizona, Phoenix",
       "remote_type": "onsite",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-07",
@@ -12676,6 +12699,29 @@
       ]
     },
     {
+      "id": "2ee142b47bfc9198",
+      "company": "Palantir Technologies",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-07",
+      "age": "1mo",
+      "collected_at": "2026-09-07T04:38:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "03f050ca86559a60",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -12715,29 +12761,6 @@
       "posted_at": "2026-09-10",
       "age": "1mo",
       "collected_at": "2026-09-10T21:37:07Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2ee142b47bfc9198",
-      "company": "Palantir Technologies",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-07",
-      "age": "1mo",
-      "collected_at": "2026-09-07T04:38:53Z",
       "tags": [
         "software",
         "programming",
@@ -19753,6 +19776,29 @@
       "posted_at": "2026-09-10",
       "age": "2mo",
       "collected_at": "2026-09-10T00:13:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "9ed07db58d1d8e2d",
+      "company": "Hudson River Trading",
+      "title": "Software Engineering Internship (C++ or Python) – Summer 2027",
+      "level": "internship",
+      "category": "consulting_finance",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Austin +11 more",
+      "remote_type": "onsite",
+      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-12",
+      "age": "2mo",
+      "collected_at": "2026-09-12T19:19:15Z",
       "tags": [
         "software",
         "programming",
