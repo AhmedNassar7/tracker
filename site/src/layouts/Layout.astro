@@ -30,6 +30,7 @@ const FEEDS = [
 
 const repoUrl = "https://github.com/AhmedNassar7/tracker";
 const sponsorUrl = "https://github.com/sponsors/AhmedNassar7";
+const feedbackUrl = "https://github.com/AhmedNassar7/tracker/issues/new/choose";
 
 const NAV_LINKS = [
 	{ href: base, label: "Jobs", match: (path: string) => path === base },
@@ -214,6 +215,15 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 						rel="noopener noreferrer"
 					>
 						♥ Sponsor
+					</a>
+					<a
+						href={feedbackUrl}
+						title="Report a bug or request a feature"
+						class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Feedback
 					</a>
 				</div>
 			</div>

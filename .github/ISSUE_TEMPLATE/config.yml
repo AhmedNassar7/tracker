@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ways to contribute
+    url: https://github.com/AhmedNassar7/tracker/blob/main/CONTRIBUTING.md#ways-to-contribute
+    about: Add a company, job board, or event by hand — no code needed

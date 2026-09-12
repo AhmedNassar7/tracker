@@ -1,0 +1,43 @@
+name: Bug report
+description: Something on the site or in the data is broken or wrong
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this — the more specific, the faster it gets fixed.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where is the bug?
+      options:
+        - Jobs list / filters
+        - Dashboard
+        - Résumé check / cover letter toolkit
+        - A specific job/hackathon/event listing (wrong data, dead link, etc.)
+        - Data pipeline (fetch/build scripts)
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If it's a specific page, include the URL. If it's a specific listing, include the company/title.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and didn't find this already reported
+          required: true

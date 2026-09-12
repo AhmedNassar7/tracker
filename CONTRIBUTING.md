@@ -17,9 +17,11 @@ Curious about a specific run? Check the [workflow runs](https://github.com/Ahmed
 - **Change which companies are accepted** — edit `config/companies_allowlist.yml`. Both of these are plain YAML lists, no coding required.
 - **Add a brand-new job board/API** (like Remotive or SimplifyJobs) — this needs a short fetcher function in `scripts/fetch.py` or `scripts/public_sources.py`, since each API has its own shape. Check whether the source has a JSON API before writing an HTML scraper — several sources that look like plain GitHub READMEs actually have one (see `scripts/fetch.py`'s `ambicuity` fetcher for an example).
 
-Not comfortable writing YAML or Python? Open an issue with the company or board name and someone will add it.
+Not comfortable writing YAML or Python? [Open an issue](https://github.com/AhmedNassar7/tracker/issues/new/choose) with the company or board name and someone will add it. Found a bug, a dead link, or wrong data? Same place — pick "Bug report" — or use the "Feedback / report a bug" link in the site footer.
 
 ## Running it locally
+
+### The pipeline
 
 No dependencies to install — everything is Python standard library (3.11+).
 
@@ -36,6 +38,19 @@ python tests/test_site_index.py
 python tests/test_stats_history.py
 python tests/test_rss_feeds.py
 ```
+
+### The site
+
+The [site/](site/) folder is the Astro frontend deployed to GitHub Pages. It doesn't generate the job data, it fetches the JSON in `data/` at runtime straight from `main` on GitHub (see `src/lib/dataSource.ts`) — so `npm run dev` shows real, live data with no local pipeline run needed. Needs Node.js 22.12+.
+
+```bash
+cd site
+npm install       # first time only
+npm run dev       # dev server at localhost:4321
+npm run build     # production build to site/dist/
+```
+
+To work offline or against your own local pipeline output instead, copy the JSON files you want (e.g. `data/site-index.json`) into `site/public/` — `dataSource.ts` falls back to that same-origin copy in dev only.
 
 Pull requests run through [CI](.github/workflows/ci.yml) automatically — every test file needs to pass before merging.
 
