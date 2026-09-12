@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T21:42:50Z",
+ "generated_at": "2026-09-12T00:17:29Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -283,7 +283,7 @@
   },
   "https://ai-4-infra-challenge-begginer.devpost.com/": {
    "alive": true,
-   "at": "2026-09-11T09:40:28Z"
+   "at": "2026-09-12T00:17:29Z"
   },
   "https://ai-builders-hackathon-2026.devpost.com/": {
    "alive": true,
@@ -344,6 +344,10 @@
   "https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-09-11T18:31:26Z"
+  },
+  "https://amazon.jobs/en/jobs/10538066/ml-systems-software-development-engineer-intern-annapurna-labs-2027?utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
   },
   "https://amazonappdev2026.devpost.com/": {
    "alive": true,
@@ -489,6 +493,10 @@
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
   },
+  "https://app.careerpuck.com/job-board/lyft/job/8767710002?gh_jid=8767710002&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
+  },
   "https://app.careerpuck.com/job-board/lyft/job/8767715002?gh_jid=8767715002": {
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
@@ -496,6 +504,10 @@
   "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002": {
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
+  },
+  "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
   },
   "https://app.careerpuck.com/job-board/lyft/job/8772571002?gh_jid=8772571002": {
    "alive": true,
@@ -525,6 +537,14 @@
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
   },
+  "https://app.careerpuck.com/job-board/lyft/job/8796054002?gh_jid=8796054002&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
+  },
+  "https://app.careerpuck.com/job-board/lyft/job/8797376002?gh_jid=8797376002&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
+  },
   "https://app.careerpuck.com/job-board/lyft/job/8797819002?gh_jid=8797819002": {
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
@@ -533,9 +553,21 @@
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
   },
+  "https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
+  },
   "https://app.careerpuck.com/job-board/lyft/job/8797859002?gh_jid=8797859002": {
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
+  },
+  "https://app.careerpuck.com/job-board/lyft/job/8797859002?gh_jid=8797859002&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
+  },
+  "https://app.careerpuck.com/job-board/lyft/job/8802332002?gh_jid=8802332002&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
   },
   "https://apply.careers.microsoft.com/careers/job/1970393556922922": {
    "alive": true,
@@ -2952,6 +2984,10 @@
   "https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-09-11T21:42:30Z"
+  },
+  "https://careers.amd.com/jobs/92342?icims=1&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-12T00:17:13Z"
   },
   "https://careers.datadoghq.com/detail/3210217/?gh_jid=3210217": {
    "alive": true,
@@ -5745,6 +5781,10 @@
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
   },
+  "https://job-boards.greenhouse.io/anthropic/jobs/5422684008": {
+   "alive": true,
+   "at": "2026-09-12T00:17:29Z"
+  },
   "https://job-boards.greenhouse.io/baidu/jobs/3391016": {
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
@@ -6373,9 +6413,21 @@
    "alive": true,
    "at": "2026-09-11T21:42:50Z"
   },
+  "https://job-boards.greenhouse.io/reddit/jobs/8192057": {
+   "alive": true,
+   "at": "2026-09-12T00:17:29Z"
+  },
   "https://job-boards.greenhouse.io/reddit/jobs/8194576": {
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
+  },
+  "https://job-boards.greenhouse.io/reddit/jobs/8198102": {
+   "alive": true,
+   "at": "2026-09-12T00:17:29Z"
+  },
+  "https://job-boards.greenhouse.io/reddit/jobs/8198130": {
+   "alive": true,
+   "at": "2026-09-12T00:17:29Z"
   },
   "https://job-boards.greenhouse.io/scaleai/jobs/4302243005": {
    "alive": true,
@@ -6720,6 +6772,10 @@
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6116646004": {
    "alive": true,
    "at": "2026-09-11T21:42:50Z"
+  },
+  "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6118757004": {
+   "alive": true,
+   "at": "2026-09-12T00:17:29Z"
   },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6118761004": {
    "alive": true,
@@ -12533,6 +12589,10 @@
    "alive": true,
    "at": "2026-09-11T00:09:40Z"
   },
+  "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Senior-Software-Engineer_R-275499": {
+   "alive": true,
+   "at": "2026-09-12T00:17:29Z"
+  },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Senior-Software-Engineer_R-281300": {
    "alive": true,
    "at": "2026-09-11T00:09:40Z"
@@ -13223,7 +13283,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Production-Engineer---DGX-Cloud_JR2018101": {
    "alive": true,
-   "at": "2026-09-05T20:28:36Z"
+   "at": "2026-09-12T00:17:29Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--AI-Agent-Compute_JR2021516-1": {
    "alive": true,
@@ -13520,6 +13580,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-DC-Remote/Senior-Solution-Architect--AI-Infrastructure_JR2025235": {
    "alive": true,
    "at": "2026-09-11T21:42:50Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Senior-Software-Engineer--DPU---Networking_JR2017846": {
+   "alive": true,
+   "at": "2026-09-12T00:17:29Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Compute-Platform-Engineer--License-Scheduling_JR2023965": {
    "alive": true,
@@ -15419,7 +15483,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10417402/embedded-software-development-engineer-ii-amazon-robotics-firmware": {
    "alive": true,
-   "at": "2026-09-08T21:50:44Z"
+   "at": "2026-09-12T00:17:13Z"
   },
   "https://www.amazon.jobs/en/jobs/10417622/software-development-engineer-ii-fintech-fintech": {
    "alive": true,
@@ -17731,7 +17795,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10508294/software-development-engineer-support-agent-intelligence-and-evaluation": {
    "alive": true,
-   "at": "2026-09-08T21:50:44Z"
+   "at": "2026-09-12T00:17:13Z"
   },
   "https://www.amazon.jobs/en/jobs/10508300/software-development-engineer-iii-aws-iam-identity": {
    "alive": true,
