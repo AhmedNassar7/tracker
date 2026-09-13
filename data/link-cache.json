@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T18:49:15Z",
+ "generated_at": "2026-09-13T21:25:42Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -15,19 +15,19 @@
   },
   "/frontiertower?k=c": {
    "alive": true,
-   "at": "2026-09-13T06:08:19Z"
+   "at": "2026-09-13T21:25:42Z"
   },
   "/genai-sf?k=c": {
    "alive": true,
-   "at": "2026-09-13T06:08:19Z"
+   "at": "2026-09-13T21:25:42Z"
   },
   "/sf-hackersquad?k=c": {
    "alive": true,
-   "at": "2026-09-13T06:08:19Z"
+   "at": "2026-09-13T21:25:42Z"
   },
   "/sf-hardware-meetup?k=c": {
    "alive": true,
-   "at": "2026-09-13T06:08:19Z"
+   "at": "2026-09-13T21:25:42Z"
   },
   "/stationdc?k=c": {
    "alive": true,
@@ -12301,10 +12301,6 @@
    "alive": true,
    "at": "2026-09-06T23:53:54Z"
   },
-  "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer---Java-Spring-Boot_R-289576": {
-   "alive": true,
-   "at": "2026-09-06T19:09:44Z"
-  },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer---Java-Spring-Boot_R-289581": {
    "alive": true,
    "at": "2026-09-11T04:38:52Z"
@@ -18715,7 +18711,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10536204/software-development-engineer-ii-emerging-planning-solutions-tools": {
    "alive": true,
-   "at": "2026-09-13T06:08:00Z"
+   "at": "2026-09-13T21:25:24Z"
   },
   "https://www.amazon.jobs/en/jobs/10536442/software-development-engineer-software-automation-team": {
    "alive": true,
