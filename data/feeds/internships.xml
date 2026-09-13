@@ -4,7 +4,7 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Sun, 13 Sep 2026 16:18:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 18:50:58 GMT</lastBuildDate>
     <item>
       <title>Lyft — Software Engineer Intern - Fullstack - Multiple Teams</title>
       <link>https://app.careerpuck.com/job-board/lyft/job/8797837002?gh_jid=8797837002&amp;utm_source=Simplify&amp;ref=Simplify</link>
@@ -160,20 +160,6 @@
       <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Lyft — Software Engineer Intern, Backend (Summer 2027)</title>
-      <link>https://zapply.jobs/l/d/greenhouse-lyft-8767726002?s=gh-internships-2027</link>
-      <guid isPermaLink="false">81bbaba58aa64b30</guid>
-      <description>San Francisco, CA · internship · 1d</description>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lyft — Software Engineer Intern, Fullstack (Summer 2027)</title>
-      <link>https://zapply.jobs/l/d/greenhouse-lyft-8797837002?s=gh-internships-2027</link>
-      <guid isPermaLink="false">a3e63e94f6e06172</guid>
-      <description>New York, NY · internship · 1d</description>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon Development Centre Canada ULC - K03 — ML Systems Software Development Engineer Intern, Annapurna Labs - 2027</title>
       <link>https://zapply.jobs/l/d/amazon-3bf6731a-c458-4019-9705-b786a6cc8748?s=gh-canada-jobs-2027</link>
       <guid isPermaLink="false">37ac550ccd31d9ec</guid>
@@ -185,6 +171,20 @@
       <link>https://zapply.jobs/l/d/amazon-3bf6731a-c458-4019-9705-b786a6cc8748?s=gh-canada-internships-2027</link>
       <guid isPermaLink="false">721284a4bd211861</guid>
       <description>Toronto, ON · internship · 1d</description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lyft — Software Engineer Intern, Backend (Summer 2027)</title>
+      <link>https://zapply.jobs/l/d/greenhouse-lyft-8767726002?s=gh-internships-2027</link>
+      <guid isPermaLink="false">81bbaba58aa64b30</guid>
+      <description>San Francisco, CA · internship · 1d</description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lyft — Software Engineer Intern, Fullstack (Summer 2027)</title>
+      <link>https://zapply.jobs/l/d/greenhouse-lyft-8797837002?s=gh-internships-2027</link>
+      <guid isPermaLink="false">a3e63e94f6e06172</guid>
+      <description>New York, NY · internship · 1d</description>
       <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -462,6 +462,13 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">0b30ae0ba59031b6</guid>
+      <description>Markham, ON, Canada · internship · 6d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Software Engineer Intern/Co-op</title>
       <link>https://careers.amd.com/jobs/91366?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">fd0ede66dae41608</guid>
       <description>Calgary, AB, Canada · internship · 6d</description>
@@ -472,13 +479,6 @@
       <link>https://careers.amd.com/jobs/91367?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">832a6a75550c48eb</guid>
       <description>Vancouver, BC, Canada · internship · 6d</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">0b30ae0ba59031b6</guid>
-      <description>Markham, ON, Canada · internship · 6d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -518,16 +518,16 @@
     </item>
     <item>
       <title>Intel — Software Engineer Graduate Intern</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491</link>
-      <guid isPermaLink="false">d49bb502c575ea45</guid>
-      <description>US, Oregon, Hillsboro · internship · 18d</description>
+      <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489</link>
+      <guid isPermaLink="false">cfda6cdad462aa74</guid>
+      <description>US, Arizona, Phoenix · internship · 18d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Intel — Software Engineer Graduate Intern</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489</link>
-      <guid isPermaLink="false">cfda6cdad462aa74</guid>
-      <description>US, Arizona, Phoenix · internship · 18d</description>
+      <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491</link>
+      <guid isPermaLink="false">d49bb502c575ea45</guid>
+      <description>US, Oregon, Hillsboro · internship · 18d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -804,13 +804,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ByteDance — Software Engineer Intern - Relational Database</title>
-      <link>https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">c387506b6159207e</guid>
-      <description>San Jose, CA · internship · 12d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AMD — Graphics Software Engineer Intern/Co-op</title>
       <link>https://careers.amd.com/jobs/90305?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">09784159e6cf1962</guid>
@@ -829,6 +822,13 @@
       <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
       <guid isPermaLink="false">bccb0bf32885c521</guid>
       <description>San Francisco, CA · internship · 12d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Software Engineer Intern - Relational Database</title>
+      <link>https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">c387506b6159207e</guid>
+      <description>San Jose, CA · internship · 12d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T16:15:43Z",
-  "total": 3437,
+  "generated_at": "2026-09-13T18:49:15Z",
+  "total": 3435,
   "jobs": [
     {
       "id": "1a00da2fc7050da3",
@@ -366,6 +366,21 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "4457a0399eb95599",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Distributed Software Engineer, Golang - DGX Cloud",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Distributed-Software-Engineer--Golang---DGX-Cloud_JR2024570-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "c44c66f7fa554bf5",
       "kind": "job",
       "company": "NVIDIA",
@@ -377,6 +392,21 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "f0d04b6bc91d8a28",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Infrastructure Automation Engineer, Compute Platform - EDA Infrastructure",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, NC, Remote<br>US, TX, Austin<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -407,6 +437,36 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---HPC_JR2013271",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "4a0d62458f19b52f",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Storage Software Engineer, DGXC Data Services",
+      "location": "<details><summary><strong>6 locations</strong></summary>US, CA, Santa Clara<br>US, NC, Remote<br>US, TX, Remote<br>US, WA, Remote<br>US, Remote<br>US, CA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer--DGXC-Data-Services_JR2020844",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "bfb1141b80e4b771",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer - GPU Performance at Scale",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, NC, Remote<br>US, TX, Remote<br>US, Remote<br>US, CA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -5167,21 +5227,6 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
-      "id": "ad22a40b2c02e1ce",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Senior Software Engineer",
-      "location": "Pune, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-288605",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
       "id": "b854676d94e6de40",
       "kind": "job",
       "company": "Mastercard",
@@ -5283,21 +5328,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288000",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "fc272c7939b392e7",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "location": "Pune, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288539-1",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -7671,28 +7701,13 @@
       "kind": "job",
       "company": "NVIDIA",
       "title": "Senior Software Engineer, Context Fusion and Multi-Vehicle Adaptation - Autonomous Vehicles",
-      "location": "<details><summary><strong>2 locations</strong></summary>China, Shanghai<br>China, Beijing</details>",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--Context-Fusion-and-Multi-Vehicle-Adaptation----Autonomous-Vehicles_JR2022050",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "e3bb5d9761e9453b",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, DOCA SDK",
       "location": "2 Locations",
       "level": "mid_level",
       "region": "unknown",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--DOCA-SDK_JR2025266",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--Context-Fusion-and-Multi-Vehicle-Adaptation----Autonomous-Vehicles_JR2022050",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -7716,9 +7731,9 @@
       "kind": "job",
       "company": "NVIDIA",
       "title": "Senior Software Engineer, Planning and Control Integration – Autonomous Vehicles",
-      "location": "<details><summary><strong>2 locations</strong></summary>China, Beijing<br>China, Shanghai</details>",
+      "location": "2 Locations",
       "level": "mid_level",
-      "region": "apac",
+      "region": "unknown",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "",
@@ -7761,43 +7776,13 @@
       "kind": "job",
       "company": "NVIDIA",
       "title": "Senior Systems Software Engineer, Observability and Telemetry Platform",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "location": "2 Locations",
       "level": "mid_level",
-      "region": "remote",
+      "region": "unknown",
       "role_type": "platform",
       "date": "2d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Observability-and-Telemetry-Platform_JR2024747",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "7e45adf087721775",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineer, LLM Inference",
-      "location": "China, Shanghai",
-      "level": "other",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineer--LLM-Inference_JR2024698",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "24e11a9f1c3d2678",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Manager, Robotics Platform Engineering",
-      "location": "China, Shanghai",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Manager--Robotics-Platform-Engineering_JR2023987",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -11050,32 +11035,6 @@
       }
     },
     {
-      "id": "2c67582cd169b3a3",
-      "kind": "job",
-      "company": "Robinhood",
-      "title": "Software Engineer, Tokenization",
-      "location": "Toronto, Canada",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-09-11",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8189007?t=gh_src=&gh_jid=8189007",
-      "source": "greenhouse:robinhood",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java"
-      ],
-      "min_years_experience": 2,
-      "salary": {
-        "min": 136000,
-        "max": 160000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "c147eda04ca0eb9d",
       "kind": "job",
       "company": "Robinhood",
@@ -11097,6 +11056,32 @@
       "salary": {
         "min": 166000,
         "max": 195000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "2c67582cd169b3a3",
+      "kind": "job",
+      "company": "Robinhood",
+      "title": "Software Engineer, Tokenization",
+      "location": "Toronto, Canada",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-09-11",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8189007?t=gh_src=&gh_jid=8189007",
+      "source": "greenhouse:robinhood",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java"
+      ],
+      "min_years_experience": 2,
+      "salary": {
+        "min": 136000,
+        "max": 160000,
         "currency": "USD",
         "period": "year"
       }
@@ -15884,6 +15869,21 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
+      "id": "26cf71c430a53c06",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Manager, Software Engineering",
+      "location": "Pune, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering_R-288167",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
       "id": "a0603f2525baa311",
       "kind": "job",
       "company": "Mastercard",
@@ -16000,21 +16000,6 @@
       "date": "3d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer---Java_R-289291",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "6db47908ad8d2244",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Software Engineer II",
-      "location": "Pune, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-289841",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -16267,62 +16252,17 @@
       "source_url": "https://netflix.wd108.myworkdayjobs.com/wday/cxs/netflix/netflix/jobs"
     },
     {
-      "id": "06a6c53c7b73f86d",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Quality Assurance Software Developer Engineer in Test, GeForce GPU",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quality-Assurance-Software-Developer-in-Test-Engineer_JR2011328",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "59167f8f28cf14b6",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Hardware Application Engineer",
-      "location": "US, CA, Santa Clara",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Hardware-Application-Engineer_JR2025259",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "40918f8191b8b6d3",
       "kind": "job",
       "company": "NVIDIA",
       "title": "Senior Linux Kernel Systems Software Engineer – CSP Engagements",
-      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, WA, Redmond<br>US, WA, Seattle</details>",
+      "location": "4 Locations",
       "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "fdccc2ad7370b12c",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "System Software Engineer, Calibration - Autonomous Vehicles",
-      "location": "US, CA, Santa Clara",
-      "level": "other",
       "region": "unknown",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Calibration---Autonomous-Vehicles_JR2014856",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -25469,17 +25409,17 @@
       "relocation": true
     },
     {
-      "id": "d556c5bc2feaa8d4",
+      "id": "cd0124eb39b1d098",
       "kind": "job",
       "company": "Doctolib",
       "title": "Software Engineer - Java (x/f/m)",
-      "location": "Bologna, Metropolitan CityBologna, Italy",
+      "location": "Milano, Milan, Italy",
       "level": "other",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "6d",
       "posted_at": "2026-09-07",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7987835003",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7985189003",
       "source": "greenhouse:doctolib",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
       "tech_tags": [
@@ -25492,17 +25432,17 @@
       ]
     },
     {
-      "id": "cd0124eb39b1d098",
+      "id": "d556c5bc2feaa8d4",
       "kind": "job",
       "company": "Doctolib",
       "title": "Software Engineer - Java (x/f/m)",
-      "location": "Milano, Milan, Italy",
+      "location": "Bologna, Metropolitan CityBologna, Italy",
       "level": "other",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "6d",
       "posted_at": "2026-09-07",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7985189003",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7987835003",
       "source": "greenhouse:doctolib",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
       "tech_tags": [
@@ -29831,11 +29771,11 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/legora"
     },
     {
-      "id": "de55d133cb287142",
+      "id": "622371836fed4ad5",
       "kind": "job",
       "company": "Lucidya",
-      "title": "Site Reliability Engineer",
-      "location": "Riyadh, Saudi Arabia (Remote)",
+      "title": "Site Reliability Engineer - Saudi Only",
+      "location": "Riyadh, Saudi Arabia",
       "level": "other",
       "region": "mena",
       "role_type": "infrastructure",
@@ -72479,7 +72419,7 @@
       "company": "Dialogate",
       "title": "VoltHacks",
       "location": "Online",
-      "date": "about 5 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-09-13",
       "url": "https://volthacks.devpost.com/",
       "source": "devpost",
@@ -72491,7 +72431,7 @@
       "company": "Hack Club",
       "title": "Graphiques Innovation Challenge",
       "location": "Online",
-      "date": "about 5 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-09-13",
       "url": "https://graphiques-challenge.devpost.com/",
       "source": "devpost",
@@ -72503,9 +72443,21 @@
       "company": "PropNote AI",
       "title": "VentureFix",
       "location": "Online",
-      "date": "about 5 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-09-13",
       "url": "https://venturefix.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "006f4aeda5d8df41",
+      "kind": "hackathon",
+      "company": "MLH",
+      "title": "Pivot Hack",
+      "location": "Kitchener, Canada",
+      "date": "about 6 hours left",
+      "posted_at": "2026-09-13",
+      "url": "https://pivot-hack.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -72515,7 +72467,7 @@
       "company": "Eleno",
       "title": "Forward: AI in Business Hackathon",
       "location": "University of Melbourne",
-      "date": "about 10 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-09-13",
       "url": "https://forward.devpost.com/",
       "source": "devpost",
@@ -72527,7 +72479,7 @@
       "company": "The CAD Challenge",
       "title": "The CAD Challenge 2026",
       "location": "University of California, Berkeley",
-      "date": "about 12 hours left",
+      "date": "about 11 hours left",
       "posted_at": "2026-09-13",
       "url": "https://the-cad-challenge-2026.devpost.com/",
       "source": "devpost",
@@ -72539,7 +72491,7 @@
       "company": "CALL-E",
       "title": "CALL-E: Your Code Is Calling",
       "location": "Online",
-      "date": "about 23 hours left",
+      "date": "about 21 hours left",
       "posted_at": "2026-09-13",
       "url": "https://call-e.devpost.com/",
       "source": "devpost",
@@ -72594,6 +72546,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "73375ab80c2cac22",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "DEVHACK 2026",
+      "location": "Various",
+      "date": "3 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://devhack2026.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "59a6916ca8c408f2",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -72616,18 +72580,6 @@
       "url": "https://gatewaygs-hackathon-2.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "73375ab80c2cac22",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "DEVHACK 2026",
-      "location": "Various",
-      "date": "4 days left",
-      "posted_at": "2026-09-13",
-      "url": "https://devhack2026.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "f3b190dce026f1c3",
@@ -72662,6 +72614,18 @@
       "date": "4 days left",
       "posted_at": "2026-09-13",
       "url": "https://compsphere12.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "8662a5bbc58a19f5",
+      "kind": "hackathon",
+      "company": "Rice University",
+      "title": "The Rice University Urban Sustainability Hackathon",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://rice-urban-sustainability.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -72714,16 +72678,16 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "8662a5bbc58a19f5",
+      "id": "8902011d35216ef4",
       "kind": "hackathon",
-      "company": "Rice University",
-      "title": "The Rice University Urban Sustainability Hackathon",
+      "company": "Devfolio",
+      "title": "Avalon OpenHack",
       "location": "Online",
-      "date": "5 days left",
+      "date": "6 days left",
       "posted_at": "2026-09-13",
-      "url": "https://rice-urban-sustainability.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://avalon-openhack.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "83245392ba8aa7eb",
@@ -72748,18 +72712,6 @@
       "url": "https://castgnypitch2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "8902011d35216ef4",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Avalon OpenHack",
-      "location": "Online",
-      "date": "7 days left",
-      "posted_at": "2026-09-13",
-      "url": "https://avalon-openhack.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "84fd0eca7466b4a1",
@@ -72839,7 +72791,7 @@
       "company": "Devfolio",
       "title": "Test Hackathon 01",
       "location": "Online",
-      "date": "9 days left",
+      "date": "8 days left",
       "posted_at": "2026-09-13",
       "url": "https://test-hackathon-1.devfolio.co",
       "source": "devfolio",
@@ -72856,6 +72808,18 @@
       "url": "https://buuniex-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "1a9236bfe35ec2f0",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "GlitchFiesta",
+      "location": "Kanpur, India",
+      "date": "11 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://glitchfiesta2026.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "285630e1134ad955",
@@ -72878,18 +72842,6 @@
       "date": "12 days left",
       "posted_at": "2026-09-13",
       "url": "https://cognition-gamejam-1.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "1a9236bfe35ec2f0",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "GlitchFiesta",
-      "location": "Kanpur, India",
-      "date": "12 days left",
-      "posted_at": "2026-09-13",
-      "url": "https://glitchfiesta2026.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -72990,6 +72942,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "fd7a36b6e47ba282",
+      "kind": "hackathon",
+      "company": "Pillai University, Navi Mumbai",
+      "title": "HackCelestial 3.0",
+      "location": "Offline",
+      "date": "13 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
       "id": "ab3c8b2ee4f23a39",
       "kind": "hackathon",
       "company": "RotaractClub of SNSCollege of Technology",
@@ -73012,18 +72976,6 @@
       "url": "https://lexhack-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "fd7a36b6e47ba282",
-      "kind": "hackathon",
-      "company": "Pillai University, Navi Mumbai",
-      "title": "HackCelestial 3.0",
-      "location": "Offline",
-      "date": "14 days left",
-      "posted_at": "2026-09-13",
-      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "34c64aefad0e72ba",
@@ -73055,7 +73007,7 @@
       "company": "Devfolio",
       "title": "CodeStorm 2026: FutureForge",
       "location": "Online",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-09-13",
       "url": "https://codestorm-futureforge.devfolio.co",
       "source": "devfolio",
@@ -73086,24 +73038,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "d6c1fefdc062072b",
-      "kind": "hackathon",
-      "company": "Kang Chiao International School Student",
-      "title": "Global Innovation Build Challenge V2",
-      "location": "Online",
-      "date": "18 days left",
-      "posted_at": "2026-09-13",
-      "url": "https://gibc-v2.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "9129d48f2f05dc09",
       "kind": "hackathon",
       "company": "Next Byte Hacks",
       "title": "Next Byte Hacks: V4",
       "location": "Online",
-      "date": "18 days left",
+      "date": "17 days left",
       "posted_at": "2026-09-13",
       "url": "https://next-byte-hacks-v4.devpost.com/",
       "source": "devpost",
@@ -73115,9 +73055,21 @@
       "company": "RevenueCat",
       "title": "RevenueCat Shipaton 2026",
       "location": "Online",
-      "date": "18 days left",
+      "date": "17 days left",
       "posted_at": "2026-09-13",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "d6c1fefdc062072b",
+      "kind": "hackathon",
+      "company": "Kang Chiao International School Student",
+      "title": "Global Innovation Build Challenge V2",
+      "location": "Online",
+      "date": "18 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://gibc-v2.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -73163,11 +73115,23 @@
       "company": "Devfolio",
       "title": "BOSS Battle",
       "location": "Online",
-      "date": "22 days left",
+      "date": "21 days left",
       "posted_at": "2026-09-13",
       "url": "https://boss-battle.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "92e98d87bef87a11",
+      "kind": "hackathon",
+      "company": "ML Empowerment Foundation",
+      "title": "ML Empowerment Build Challenge 3.0",
+      "location": "Online",
+      "date": "22 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://ml-build-challenge-3.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "231bd74ad1c43615",
@@ -73194,18 +73158,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "92e98d87bef87a11",
-      "kind": "hackathon",
-      "company": "ML Empowerment Foundation",
-      "title": "ML Empowerment Build Challenge 3.0",
-      "location": "Online",
-      "date": "23 days left",
-      "posted_at": "2026-09-13",
-      "url": "https://ml-build-challenge-3.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "9f2f7c6bbe243e4d",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -73214,6 +73166,18 @@
       "date": "24 days left",
       "posted_at": "2026-09-13",
       "url": "https://recursiveacm.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "e000e6f0a8fb556f",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "HACKBIOS 2K26",
+      "location": "Junwani, India",
+      "date": "25 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://hackbios2k26.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -73238,18 +73202,6 @@
       "date": "26 days left",
       "posted_at": "2026-09-13",
       "url": "https://hack-with-gdg-s4.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "e000e6f0a8fb556f",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "HACKBIOS 2K26",
-      "location": "Junwani, India",
-      "date": "26 days left",
-      "posted_at": "2026-09-13",
-      "url": "https://hackbios2k26.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -73422,6 +73374,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "9c7128e61cb3dbdf",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hefty-Hacks",
+      "location": "Online",
+      "date": "47 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://hefty-hacks.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "84d48a0fc1e478b2",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -73454,18 +73418,6 @@
       "date": "48 days left",
       "posted_at": "2026-09-13",
       "url": "https://hackodisha-6a.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "9c7128e61cb3dbdf",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hefty-Hacks",
-      "location": "Online",
-      "date": "48 days left",
-      "posted_at": "2026-09-13",
-      "url": "https://hefty-hacks.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -73535,9 +73487,21 @@
       "company": "Devfolio",
       "title": "CodeClash'24",
       "location": "Greater Noida, India",
-      "date": "78 days left",
+      "date": "77 days left",
       "posted_at": "2026-09-13",
       "url": "https://codeclash24.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "a673e93753a8ae42",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Winter of Code 2026",
+      "location": "Online",
+      "date": "77 days left",
+      "posted_at": "2026-09-13",
+      "url": "https://winter-of-code-4.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
