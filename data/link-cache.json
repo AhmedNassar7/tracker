@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T00:59:58Z",
+ "generated_at": "2026-09-13T06:08:19Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -15,19 +15,19 @@
   },
   "/frontiertower?k=c": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "/genai-sf?k=c": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "/sf-hackersquad?k=c": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "/sf-hardware-meetup?k=c": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "/stationdc?k=c": {
    "alive": true,
@@ -347,7 +347,7 @@
   },
   "https://amazon.jobs/en/jobs/10538066/ml-systems-software-development-engineer-intern-annapurna-labs-2027?utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://amazonappdev2026.devpost.com/": {
    "alive": true,
@@ -495,7 +495,7 @@
   },
   "https://app.careerpuck.com/job-board/lyft/job/8767710002?gh_jid=8767710002&utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://app.careerpuck.com/job-board/lyft/job/8767715002?gh_jid=8767715002": {
    "alive": true,
@@ -507,7 +507,7 @@
   },
   "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002&utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://app.careerpuck.com/job-board/lyft/job/8772571002?gh_jid=8772571002": {
    "alive": true,
@@ -539,11 +539,11 @@
   },
   "https://app.careerpuck.com/job-board/lyft/job/8796054002?gh_jid=8796054002&utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://app.careerpuck.com/job-board/lyft/job/8797376002?gh_jid=8797376002&utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://app.careerpuck.com/job-board/lyft/job/8797819002?gh_jid=8797819002": {
    "alive": true,
@@ -563,11 +563,11 @@
   },
   "https://app.careerpuck.com/job-board/lyft/job/8797859002?gh_jid=8797859002&utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://app.careerpuck.com/job-board/lyft/job/8802332002?gh_jid=8802332002&utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://apply.careers.microsoft.com/careers/job/1970393556922922": {
    "alive": true,
@@ -771,7 +771,7 @@
   },
   "https://battle-of-the-schools.devpost.com/": {
    "alive": true,
-   "at": "2026-09-12T17:08:51Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://bic.devpost.com/": {
    "alive": true,
@@ -2963,7 +2963,7 @@
   },
   "https://careers.amd.com/jobs/92342?icims=1&utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://careers.datadoghq.com/detail/3210217/?gh_jid=3210217": {
    "alive": true,
@@ -4281,6 +4281,10 @@
    "alive": true,
    "at": "2026-09-13T00:59:58Z"
   },
+  "https://databricks.com/company/careers/open-positions/job?gh_jid=8320183002": {
+   "alive": true,
+   "at": "2026-09-13T06:08:19Z"
+  },
   "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002": {
    "alive": true,
    "at": "2026-09-13T00:59:58Z"
@@ -4799,7 +4803,7 @@
   },
   "https://galuxium-nexus-v2-29411.devpost.com/": {
    "alive": true,
-   "at": "2026-09-11T00:09:40Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://gatewaygs-hackathon-2.devpost.com/": {
    "alive": true,
@@ -4876,6 +4880,10 @@
   "https://hack-cmu-2026.devpost.com/": {
    "alive": true,
    "at": "2026-09-12T10:44:33Z"
+  },
+  "https://hack-knowvy-1.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://hack-with-gdg-s4.devfolio.co": {
    "alive": true,
@@ -4955,7 +4963,7 @@
   },
   "https://hackwestx-vii.devpost.com/": {
    "alive": true,
-   "at": "2026-09-12T17:08:51Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://haxfinity.devfolio.co": {
    "alive": true,
@@ -5747,7 +5755,7 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5422684008": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://job-boards.greenhouse.io/baidu/jobs/3391016": {
    "alive": true,
@@ -6379,7 +6387,7 @@
   },
   "https://job-boards.greenhouse.io/reddit/jobs/8192057": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://job-boards.greenhouse.io/reddit/jobs/8194576": {
    "alive": true,
@@ -6387,11 +6395,11 @@
   },
   "https://job-boards.greenhouse.io/reddit/jobs/8198102": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://job-boards.greenhouse.io/reddit/jobs/8198130": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://job-boards.greenhouse.io/scaleai/jobs/4302243005": {
    "alive": true,
@@ -6739,7 +6747,7 @@
   },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6118757004": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6118761004": {
    "alive": true,
@@ -12431,7 +12439,7 @@
   },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Senior-Software-Engineer_R-275499": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Senior-Software-Engineer_R-281300": {
    "alive": true,
@@ -12480,10 +12488,6 @@
   "https://music-from-beatmind.devpost.com/": {
    "alive": true,
    "at": "2026-09-11T18:31:53Z"
-  },
-  "https://muslimhacks.devpost.com/": {
-   "alive": true,
-   "at": "2026-09-06T05:56:43Z"
   },
   "https://myhack-isna.devpost.com/": {
    "alive": true,
@@ -13115,7 +13119,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Production-Engineer---DGX-Cloud_JR2018101": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--AI-Agent-Compute_JR2021516-1": {
    "alive": true,
@@ -13127,7 +13131,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1": {
    "alive": true,
-   "at": "2026-09-10T09:42:52Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Software-Engineer--CUDA-Q_JR2011649": {
    "alive": true,
@@ -13183,7 +13187,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--E2E-Performance-and-Goodput---CSP-Engagements_JR2020321": {
    "alive": true,
-   "at": "2026-09-09T09:44:46Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--GPU-Firmware-and-GPU-System-Software---CSP-Engagements_JR2020319": {
    "alive": true,
@@ -13191,7 +13195,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316": {
    "alive": true,
-   "at": "2026-09-09T09:44:46Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quality-Assurance-Software-Developer-in-Test-Engineer_JR2011328": {
    "alive": true,
@@ -13263,7 +13267,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Manufacturing-and-Factory_JR2020348-1": {
    "alive": true,
-   "at": "2026-09-09T09:44:46Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Traffic-and-Networking_JR2023061": {
    "alive": true,
@@ -13299,7 +13303,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186": {
    "alive": true,
-   "at": "2026-09-12T17:08:51Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--JAX_JR2004629": {
    "alive": true,
@@ -13363,11 +13367,11 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549": {
    "alive": true,
-   "at": "2026-09-08T18:39:38Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Data-Center-Platform-Enablement_JR2019870": {
    "alive": true,
-   "at": "2026-09-08T14:31:45Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Observability-and-Telemetry-Platform_JR2024747": {
    "alive": true,
@@ -13411,7 +13415,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Westford/Senior-Software-Engineer--DPU---Networking_JR2017846": {
    "alive": true,
-   "at": "2026-09-12T14:06:37Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Compute-Platform-Engineer--License-Scheduling_JR2023965": {
    "alive": true,
@@ -13427,7 +13431,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Networking-DGX-Cloud_JR2022482": {
    "alive": true,
-   "at": "2026-09-10T04:47:02Z"
+   "at": "2026-09-13T06:08:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1": {
    "alive": true,
@@ -18755,7 +18759,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10536204/software-development-engineer-ii-emerging-planning-solutions-tools": {
    "alive": true,
-   "at": "2026-09-12T14:06:18Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://www.amazon.jobs/en/jobs/10536442/software-development-engineer-software-automation-team": {
    "alive": true,
@@ -21275,11 +21279,11 @@
   },
   "https://zapply.jobs/l/d/amazon-3bf6731a-c458-4019-9705-b786a6cc8748?s=gh-canada-internships-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/amazon-3bf6731a-c458-4019-9705-b786a6cc8748?s=gh-canada-jobs-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/amazon-b6514125-a4c7-4628-ba05-e4ce995494fa?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
@@ -21287,19 +21291,19 @@
   },
   "https://zapply.jobs/l/d/ashby-cohere-36d1f52f-8270-4652-adf5-5303a0ff341b?s=gh-canada-internships-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/ashby-cohere-36d1f52f-8270-4652-adf5-5303a0ff341b?s=gh-canada-jobs-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/ashby-cohere-8c035d3d-081d-4c8a-914a-72f4efaad254?s=gh-canada-internships-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/ashby-cohere-8c035d3d-081d-4c8a-914a-72f4efaad254?s=gh-canada-jobs-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/bytedance-7668475133954197765?s=gh-internships-2027": {
    "alive": true,
@@ -21307,27 +21311,27 @@
   },
   "https://zapply.jobs/l/d/greenhouse-coinbase-8175441?s=gh-internships-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/greenhouse-coinbase-8175459?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/greenhouse-instacart-8188987?s=gh-canada-jobs-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/greenhouse-lyft-8767726002?s=gh-internships-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/greenhouse-lyft-8797837002?s=gh-internships-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/greenhouse-pinterest-7473497?s=gh-canada-jobs-2027": {
    "alive": true,
-   "at": "2026-09-12T17:08:21Z"
+   "at": "2026-09-13T06:08:00Z"
   },
   "https://zapply.jobs/l/d/lever-palantir-5c4c65c5-77da-4d36-856c-4ade87631019?s=gh-new-grad-jobs-2027": {
    "alive": true,
@@ -21346,10 +21350,6 @@
    "at": "2026-09-11T14:25:13Z"
   },
   "https://zapply.jobs/l/d/lever-palantir-ef725594-42dd-4f0d-ba8e-df8179dbc6cb?s=gh-new-grad-jobs-2027": {
-   "alive": true,
-   "at": "2026-09-11T14:25:13Z"
-  },
-  "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024683?s=gh-internships-2027": {
    "alive": true,
    "at": "2026-09-11T14:25:13Z"
   },
