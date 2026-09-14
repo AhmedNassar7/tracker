@@ -262,5 +262,9 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 				});
 			}
 		</script>
+		<!-- Cloudflare Web Analytics: cookieless, patches history.pushState
+		itself so it tracks Astro's view-transition navigations with no
+		extra wiring on our end. -->
+		<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "49da73aecb0244a2bdb19d17b209bf9a"}'></script>
 	</body>
 </html>
