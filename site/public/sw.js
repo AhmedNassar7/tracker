@@ -73,3 +73,35 @@ self.addEventListener("fetch", (event) => {
 
   event.respondWith(networkFirst(request, CACHE_VERSION));
 });
+
+// Lane C7 — best-effort background nudge. `periodicSync` only exists in
+// Chromium, only fires once the PWA is installed and the browser's own
+// "site engagement" score is high enough, and there is no guarantee it
+// ever runs at all — there's no push server behind this (this project has
+// no backend, see CLAUDE.md). A service worker also has no access to
+// localStorage, so it can't compute the real diff (new saved-search
+// matches, bookmarked deadlines) that `lib/notifications.ts` does in the
+// page itself — this only shows a generic, honest nudge to go check,
+// rather than fabricating a count it can't actually know.
+self.addEventListener("periodicsync", (event) => {
+  if (event.tag !== "tracker-digest-check") return;
+  event.waitUntil(
+    self.registration.showNotification("Tracker", {
+      body: "New roles or events may be waiting — open Tracker to check.",
+      tag: "tracker-digest",
+      icon: `${BASE}favicon.svg`,
+    }),
+  );
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  event.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((clients) => {
+      for (const client of clients) {
+        if (client.url.includes(BASE) && "focus" in client) return client.focus();
+      }
+      return self.clients.openWindow(BASE);
+    }),
+  );
+});
