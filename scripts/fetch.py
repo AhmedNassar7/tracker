@@ -408,6 +408,13 @@ def fetch_remotive():
     log_info(f"Remotive: {len(out)} matched (skipped role:{skipped['role']} level:{skipped['level']} region:{skipped['region']} company:{skipped['company']})")
     return out
 
+def _parse_arbeitnow_posted_date(unix_ts):
+    """ArbeitNow's job-board API returns created_at as a Unix timestamp (seconds)."""
+    try:
+        return datetime.datetime.fromtimestamp(int(unix_ts), tz=datetime.timezone.utc).date().isoformat()
+    except Exception:
+        return TODAY
+
 def fetch_arbeitnow():
     """Fetch from ArbeitNow API - remote work marketplace"""
     out = []
@@ -441,7 +448,7 @@ def fetch_arbeitnow():
                 location += " (Remote)"
         
         url = (j.get("url") or "").strip()
-        posted = str(j.get("created_at") or TODAY)[:10]
+        posted = _parse_arbeitnow_posted_date(j.get("created_at"))
         
         if not (company and title and url):
             skipped["role"] += 1
