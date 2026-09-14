@@ -35,3 +35,11 @@ export const REJECTED_COLOR = { light: "#d03b3b", dark: "#d03b3b" };
 // matching the site's existing teal accent so the dashboards read as part
 // of the same product rather than a bolted-on chart library's defaults.
 export const SINGLE_SERIES_COLOR = { light: "#0d9488", dark: "#2dd4bf" };
+
+// The activity heatmap's 4 non-empty intensity steps (day count 1..4+) —
+// reuses FUNNEL_RAMP's already-validated monotonic-lightness teal steps
+// (same hue family, same light/dark surfaces) rather than re-deriving a new
+// ramp for what's still just "one hue, light→dark, flips anchor in dark".
+// Index 0 (bookmarked) is skipped — it reads too close to the empty-cell
+// background — so this is 4 steps, not FUNNEL_RAMP's 5.
+export const ACTIVITY_RAMP: { light: string; dark: string }[] = FUNNEL_RAMP.slice(1);

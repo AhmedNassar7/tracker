@@ -8,6 +8,7 @@ import {
   type ApplicationStatus,
   type TrackedApplication,
 } from "../lib/tracker";
+import ActivityHeatmap from "./ActivityHeatmap";
 import BarList from "./BarList";
 import StatTile from "./StatTile";
 
@@ -90,98 +91,101 @@ export default function PersonalDashboard() {
     };
   }, [state]);
 
-  if (state.status === "loading") {
-    return <p className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">Loading your dashboard…</p>;
-  }
-
-  if (state.applications.length === 0) {
-    return (
-      <p className="py-6 text-sm text-slate-500 dark:text-slate-400">
-        No tracked applications yet. Bookmark a job from the{" "}
-        <a href={BASE_URL} className="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400">
-          listings
-        </a>{" "}
-        to see your funnel here.
-      </p>
-    );
-  }
-
   const { funnelCounts, topCompanies, bookmarkedToApplied, appliedToNext, scoredCount, matchBands, avgMatch } = stats;
-  const total = state.applications.length;
+  const total = state.status === "loaded" ? state.applications.length : 0;
 
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <StatTile label="Tracked" value={total} />
-        <StatTile label="Applied or further" value={total - (funnelCounts.get("bookmarked") ?? 0)} />
-        <StatTile label="Offers" value={funnelCounts.get("offer") ?? 0} />
-        <StatTile label="Rejected" value={funnelCounts.get("rejected") ?? 0} />
-      </div>
+      {/* Reads its own localStorage-backed activity log — shown regardless
+          of whether any application is tracked yet, since a visit alone
+          counts toward the streak. */}
+      <ActivityHeatmap />
 
-      <div>
-        <h3 className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-300">Funnel</h3>
-        <BarList
-          items={[
-            ...FUNNEL_STAGES.map((status, i) => ({
-              key: status,
-              label: STATUS_LABELS[status],
-              value: funnelCounts.get(status) ?? 0,
-              color: FUNNEL_RAMP[i],
-            })),
-            {
-              key: "rejected",
-              label: STATUS_LABELS.rejected,
-              value: funnelCounts.get("rejected") ?? 0,
-              color: REJECTED_COLOR,
-            },
-          ]}
-        />
-      </div>
+      {state.status === "loading" ? (
+        <p className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">Loading your dashboard…</p>
+      ) : total === 0 ? (
+        <p className="py-6 text-sm text-slate-500 dark:text-slate-400">
+          No tracked applications yet. Bookmark a job from the{" "}
+          <a href={BASE_URL} className="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400">
+            listings
+          </a>{" "}
+          to see your funnel here.
+        </p>
+      ) : (
+        <>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+            <StatTile label="Tracked" value={total} />
+            <StatTile label="Applied or further" value={total - (funnelCounts.get("bookmarked") ?? 0)} />
+            <StatTile label="Offers" value={funnelCounts.get("offer") ?? 0} />
+            <StatTile label="Rejected" value={funnelCounts.get("rejected") ?? 0} />
+          </div>
 
-      {(bookmarkedToApplied !== null || appliedToNext !== null) && (
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {bookmarkedToApplied !== null && (
-            <StatTile label="Median days to apply" value={Math.round(bookmarkedToApplied)} suffix="d" />
+          <div>
+            <h3 className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-300">Funnel</h3>
+            <BarList
+              items={[
+                ...FUNNEL_STAGES.map((status, i) => ({
+                  key: status,
+                  label: STATUS_LABELS[status],
+                  value: funnelCounts.get(status) ?? 0,
+                  color: FUNNEL_RAMP[i],
+                })),
+                {
+                  key: "rejected",
+                  label: STATUS_LABELS.rejected,
+                  value: funnelCounts.get("rejected") ?? 0,
+                  color: REJECTED_COLOR,
+                },
+              ]}
+            />
+          </div>
+
+          {(bookmarkedToApplied !== null || appliedToNext !== null) && (
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+              {bookmarkedToApplied !== null && (
+                <StatTile label="Median days to apply" value={Math.round(bookmarkedToApplied)} suffix="d" />
+              )}
+              {appliedToNext !== null && (
+                <StatTile label="Median days to next update" value={Math.round(appliedToNext)} suffix="d" />
+              )}
+            </div>
           )}
-          {appliedToNext !== null && (
-            <StatTile label="Median days to next update" value={Math.round(appliedToNext)} suffix="d" />
+
+          {scoredCount > 0 && (
+            <div>
+              <h3 className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-300">
+                Match quality <span className="font-normal text-slate-400">· at track time</span>
+              </h3>
+              <BarList
+                items={[
+                  { key: "strong", label: "Strong (70+)", value: matchBands.strong, color: SINGLE_SERIES_COLOR },
+                  { key: "fair", label: "Fair (40–69)", value: matchBands.fair, color: SINGLE_SERIES_COLOR },
+                  { key: "weak", label: "Weak (<40)", value: matchBands.weak, color: SINGLE_SERIES_COLOR },
+                ]}
+              />
+              <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
+                Average {avgMatch}% across {scoredCount} scored application{scoredCount === 1 ? "" : "s"}
+                {matchBands.weak > matchBands.strong
+                  ? " — you're tracking more weak matches than strong ones."
+                  : "."}
+              </p>
+            </div>
           )}
-        </div>
-      )}
 
-      {scoredCount > 0 && (
-        <div>
-          <h3 className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-300">
-            Match quality <span className="font-normal text-slate-400">· at track time</span>
-          </h3>
-          <BarList
-            items={[
-              { key: "strong", label: "Strong (70+)", value: matchBands.strong, color: SINGLE_SERIES_COLOR },
-              { key: "fair", label: "Fair (40–69)", value: matchBands.fair, color: SINGLE_SERIES_COLOR },
-              { key: "weak", label: "Weak (<40)", value: matchBands.weak, color: SINGLE_SERIES_COLOR },
-            ]}
-          />
-          <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
-            Average {avgMatch}% across {scoredCount} scored application{scoredCount === 1 ? "" : "s"}
-            {matchBands.weak > matchBands.strong
-              ? " — you're tracking more weak matches than strong ones."
-              : "."}
-          </p>
-        </div>
-      )}
-
-      {topCompanies.length > 0 && (
-        <div>
-          <h3 className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-300">By company</h3>
-          <BarList
-            items={topCompanies.map(([company, count]) => ({
-              key: company,
-              label: company,
-              value: count,
-              color: SINGLE_SERIES_COLOR,
-            }))}
-          />
-        </div>
+          {topCompanies.length > 0 && (
+            <div>
+              <h3 className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-300">By company</h3>
+              <BarList
+                items={topCompanies.map(([company, count]) => ({
+                  key: company,
+                  label: company,
+                  value: count,
+                  color: SINGLE_SERIES_COLOR,
+                }))}
+              />
+            </div>
+          )}
+        </>
       )}
     </div>
   );

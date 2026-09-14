@@ -1,5 +1,6 @@
 import { get, set } from "idb-keyval";
 import type { SiteIndexEntry, SiteIndexKind } from "./types";
+import { recordActivityToday } from "./activity";
 
 // IndexedDB, not localStorage — a year of tracked applications with notes
 // can outgrow localStorage's ~5MB-ish ceiling; IndexedDB doesn't have that
@@ -111,6 +112,7 @@ type TrackableEntry = Pick<SiteIndexEntry, "id" | "kind" | "company" | "title" |
 
 export function trackApplication(entry: TrackableEntry): Promise<TrackedApplication> {
   return enqueueMutation((map) => {
+    const isNew = !map[entry.id];
     const now = new Date().toISOString();
     const record: TrackedApplication = map[entry.id] ?? {
       id: entry.id,
@@ -127,6 +129,9 @@ export function trackApplication(entry: TrackableEntry): Promise<TrackedApplicat
       updatedAt: now,
     };
     map[entry.id] = record;
+    // Only a genuinely new bookmark counts as an activity day — re-tracking
+    // an already-tracked entry is a no-op above and shouldn't inflate the streak.
+    if (isNew) recordActivityToday();
     return record;
   });
 }
@@ -155,6 +160,9 @@ export function updateApplication(
       updatedAt: now,
     };
     map[id] = updated;
+    // A real status transition (bookmarked→applied→…) is the "applications
+    // logged" half of the activity streak; editing notes alone doesn't count.
+    if (statusChanged) recordActivityToday();
     return updated;
   });
 }

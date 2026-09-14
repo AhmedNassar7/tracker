@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchCounts } from "../lib/dataSource";
 import { BASE_URL } from "../lib/basePath";
+import { recordActivityToday } from "../lib/activity";
 import FreshnessPulse from "./FreshnessPulse";
 import Skeleton from "./Skeleton";
 
@@ -15,6 +16,13 @@ type State = { status: "loading" } | { status: "error" } | { status: "loaded"; t
 
 export default function HeaderStat() {
   const [state, setState] = useState<State>({ status: "loading" });
+
+  // Mounted in the header on every page (client:load), so this is the one
+  // place that reliably sees "the site was opened today" regardless of
+  // which page a visitor lands on — feeds the Applications-page streak.
+  useEffect(() => {
+    recordActivityToday();
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
