@@ -18,7 +18,7 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 from schema_validator import load_schema, validate_records
-from rss_feeds import write_feeds
+from rss_feeds import FEED_PRESETS, write_feeds
 from company_names import prettify_company_name
 from net import load_link_cache
 from patterns import country_flag, detect_country
@@ -679,15 +679,11 @@ def render_data_readme(
         "",
         "## RSS Feeds",
         "",
-        "Five preset feeds, refreshed hourly — fixed filters rather than arbitrary saved ones, since a static site can't compute custom filtered XML on demand:",
+        f"{len(FEED_PRESETS)} preset feeds, refreshed hourly — fixed filters rather than arbitrary saved ones, since a static site can't compute custom filtered XML on demand:",
         "",
         "| Feed | Filter |",
         "|---|---|",
-        "| [feeds/all-jobs.xml](feeds/all-jobs.xml) | Every job |",
-        "| [feeds/internships.xml](feeds/internships.xml) | Internships only |",
-        "| [feeds/new-grad.xml](feeds/new-grad.xml) | New-grad roles only |",
-        "| [feeds/hackathons.xml](feeds/hackathons.xml) | Hackathons |",
-        "| [feeds/events.xml](feeds/events.xml) | Events |",
+        *(f"| [feeds/{p['id']}.xml](feeds/{p['id']}.xml) | {p['short']} |" for p in FEED_PRESETS),
         "",
         "## Notes",
         "",

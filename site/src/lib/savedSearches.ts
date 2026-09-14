@@ -11,6 +11,10 @@ export interface SavedSearch {
   id: string;
   name: string;
   query: string; // e.g. "kind=job&level=internship&remote=remote"
+  // Lane C4 — the user's own Discord/Slack/Telegram webhook URL, pasted in
+  // and stored only in this browser. Absent unless they've explicitly set
+  // one; never sent anywhere except directly to that URL (see notifications.ts).
+  webhookUrl?: string;
 }
 
 const KEY = "tracker:savedSearches";
@@ -21,10 +25,12 @@ function read(): SavedSearch[] {
     const raw = window.localStorage.getItem(KEY);
     const parsed: unknown = raw ? JSON.parse(raw) : [];
     if (!Array.isArray(parsed)) return [];
-    return parsed.filter(
-      (s): s is SavedSearch =>
-        !!s && typeof s.id === "string" && typeof s.name === "string" && typeof s.query === "string",
-    );
+    return parsed
+      .filter(
+        (s): s is SavedSearch =>
+          !!s && typeof s.id === "string" && typeof s.name === "string" && typeof s.query === "string",
+      )
+      .map((s) => (typeof s.webhookUrl === "string" && s.webhookUrl ? s : { ...s, webhookUrl: undefined }));
   } catch {
     return [];
   }
@@ -55,6 +61,14 @@ export function saveSearch(name: string, filters: FilterState): SavedSearch[] {
 
 export function removeSavedSearch(id: string): SavedSearch[] {
   const list = read().filter((s) => s.id !== id);
+  write(list);
+  return list;
+}
+
+// `url: null` clears it — a deliberate three-state edit (set / clear /
+// leave unset), matching the prompt-based UI's "empty input = clear" convention.
+export function setSavedSearchWebhook(id: string, url: string | null): SavedSearch[] {
+  const list = read().map((s) => (s.id === id ? { ...s, webhookUrl: url ?? undefined } : s));
   write(list);
   return list;
 }

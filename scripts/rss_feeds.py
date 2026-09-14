@@ -18,38 +18,74 @@ from typing import Callable
 
 SITE_URL = "https://ahmednassar7.github.io/tracker/"
 
+# `short` is the concise label used in data/README.md's feed table — distinct
+# from `description` (the RSS channel's own <description>, meant to be read
+# in a feed reader, so it's a full sentence there).
 FEED_PRESETS: list[dict] = [
     {
         "id": "all-jobs",
         "title": "All Jobs",
+        "short": "Every job",
         "description": "Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.",
         "matches": lambda item: item.get("kind") == "job",
     },
     {
         "id": "internships",
         "title": "Internships",
+        "short": "Internships only",
         "description": "Software engineering internships tracker currently tracks.",
         "matches": lambda item: item.get("kind") == "job" and item.get("level") == "internship",
     },
     {
         "id": "new-grad",
         "title": "New Grad Roles",
+        "short": "New-grad roles only",
         "description": "New-grad software engineering roles tracker currently tracks.",
         "matches": lambda item: item.get("kind") == "job" and item.get("level") == "new_grad",
     },
     {
         "id": "hackathons",
         "title": "Hackathons",
+        "short": "Hackathons",
         "description": "Hackathons tracker is currently tracking.",
         "matches": lambda item: item.get("kind") == "hackathon",
     },
     {
         "id": "events",
         "title": "Events",
+        "short": "Events",
         "description": "Tech events tracker is currently tracking.",
         "matches": lambda item: item.get("kind") == "event",
     },
 ]
+
+# Per-region job feeds (Lane C3/F2 — "multiply the presets"). A true
+# per-user saved-filter feed isn't buildable without a server (see module
+# docstring), so this is the honest middle ground: a bounded, fixed set of
+# the region cuts people actually asked for in this project (the MENA and
+# Europe coverage pushes), not an unbounded region×level×role combinatorial
+# explosion. `region` is set on every job item at site-index build time
+# (see patterns.py detect_region / build_data_readme.py); "unknown" isn't
+# offered here for the same reason the site's own Region filter never lists
+# it — nobody subscribes to "jobs of unclear region".
+_REGION_FEEDS: list[tuple[str, str]] = [
+    ("mena", "Middle East & Africa"),
+    ("europe", "Europe"),
+    ("apac", "Asia-Pacific"),
+    ("latam", "Latin America"),
+    ("north_america", "North America"),
+    ("remote", "Remote"),
+]
+FEED_PRESETS.extend(
+    {
+        "id": f"region-{region}",
+        "title": f"{label} Jobs",
+        "short": f"{label} jobs only",
+        "description": f"Software engineering jobs in {label} tracker currently tracks.",
+        "matches": (lambda item, _region=region: item.get("kind") == "job" and item.get("region") == _region),
+    }
+    for region, label in _REGION_FEEDS
+)
 
 
 def _parse_generated_at(generated_at: str) -> datetime.datetime:

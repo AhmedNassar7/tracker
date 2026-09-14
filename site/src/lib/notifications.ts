@@ -17,7 +17,7 @@
 
 import { BASE_URL } from "./basePath";
 import { applyFilters } from "./filters";
-import { filtersForSavedSearch, listSavedSearches } from "./savedSearches";
+import { filtersForSavedSearch, listSavedSearches, type SavedSearch } from "./savedSearches";
 import type { TrackedApplication } from "./tracker";
 import type { SiteIndexEntry } from "./types";
 
@@ -114,22 +114,67 @@ export interface NotifyCheckResult {
   reasons: string[];
 }
 
+function browserChannelActive(): boolean {
+  return isNotifyEnabled() && notificationsSupported() && Notification.permission === "granted";
+}
+
+// Lane C4 — the user's own webhook, POSTed to directly from the browser
+// (no server of ours in the middle; the URL never leaves this device except
+// straight to the host it points at). `mode: "no-cors"` is deliberate, not
+// an oversight: a JSON POST with `Content-Type: application/json` is a
+// "non-simple" request that triggers a CORS preflight first, and most
+// incoming-webhook endpoints (Slack's, certainly) don't answer that
+// preflight — the browser would then abort the request and NEVER actually
+// deliver it. A `no-cors` request is restricted to "simple request" shape
+// (no preflight), which both Discord and Slack are known to accept a
+// JSON-encoded body under regardless of the resulting `text/plain`
+// Content-Type — Slack's own webhook docs even document `text/plain` as
+// the sanctioned workaround for exactly this browser limitation. The
+// tradeoff: the response is opaque, so delivery can never be confirmed
+// from here — this is a fire-and-forget, same as any local notification.
+function postWebhook(url: string, text: string): void {
+  let host: string;
+  try {
+    host = new URL(url).hostname;
+  } catch {
+    return; // a malformed saved URL — nothing sane to POST to
+  }
+
+  if (host.endsWith("api.telegram.org")) {
+    // Telegram has no generic "incoming webhook" the way Discord/Slack do —
+    // the pasted URL is expected to be a full bot `sendMessage` endpoint
+    // with the token + chat_id already embedded, so the message is just
+    // appended as a query param (a plain GET, no body/Content-Type at all).
+    const sep = url.includes("?") ? "&" : "?";
+    void fetch(`${url}${sep}text=${encodeURIComponent(text)}`, { mode: "no-cors" }).catch(() => undefined);
+    return;
+  }
+
+  const body = host.endsWith("hooks.slack.com") ? JSON.stringify({ text }) : JSON.stringify({ content: text });
+  void fetch(url, { method: "POST", mode: "no-cors", body }).catch(() => undefined);
+}
+
 export function checkAndNotify(
   items: SiteIndexEntry[],
   tracked: Map<string, TrackedApplication>,
   now: Date = new Date(),
 ): NotifyCheckResult {
-  if (!isNotifyEnabled() || !notificationsSupported() || Notification.permission !== "granted") {
-    return { fired: false, reasons: [] };
-  }
+  const searches = listSavedSearches();
+  const browserActive = browserChannelActive();
+  const anyWebhook = searches.some((s) => !!s.webhookUrl);
+  // Nothing is opted in on either channel — skip entirely rather than burn
+  // the shared rate-limit window computing a diff nobody will see.
+  if (!browserActive && !anyWebhook) return { fired: false, reasons: [] };
   if (now.getTime() - readLastCheck() < MIN_CHECK_INTERVAL_MS) return { fired: false, reasons: [] };
   writeLastCheck(now.getTime());
 
   const reasons: string[] = [];
+  const perSearchMatches: { search: SavedSearch; matches: SiteIndexEntry[] }[] = [];
 
-  for (const search of listSavedSearches()) {
+  for (const search of searches) {
     const filters = filtersForSavedSearch(search);
     const matches = applyFilters(items, filters).filter((item) => item.kind === "job" && isFreshEnough(item.age));
+    perSearchMatches.push({ search, matches });
     if (matches.length > 0) {
       reasons.push(`${matches.length} new match${matches.length === 1 ? "" : "es"} for "${search.name}"`);
     }
@@ -148,21 +193,35 @@ export function checkAndNotify(
     reasons.push(`${closingSoon} bookmarked ${closingSoon === 1 ? "deadline closes" : "deadlines close"} within 48h`);
   }
 
-  if (reasons.length === 0) return { fired: false, reasons: [] };
-
-  try {
-    new Notification("Tracker — new since your last visit", {
-      body: reasons.join(" · "),
-      tag: "tracker-digest",
-      icon: `${BASE_URL}favicon.svg`,
-    });
-  } catch {
-    // Some browsers/webviews throw constructing Notification directly
-    // outside a service worker — the toggle just has no visible effect
-    // there, not a crash.
+  if (browserActive && reasons.length > 0) {
+    try {
+      new Notification("Tracker — new since your last visit", {
+        body: reasons.join(" · "),
+        tag: "tracker-digest",
+        icon: `${BASE_URL}favicon.svg`,
+      });
+    } catch {
+      // Some browsers/webviews throw constructing Notification directly
+      // outside a service worker — the toggle just has no visible effect
+      // there, not a crash.
+    }
   }
 
-  return { fired: true, reasons };
+  // Webhooks are per-search and independent of the browser toggle — a
+  // saved search with a webhook set still posts even if the visitor never
+  // turned browser alerts on at all.
+  for (const { search, matches } of perSearchMatches) {
+    if (search.webhookUrl && matches.length > 0) {
+      const names = matches.slice(0, 5).map((m) => `${m.company} — ${m.title}`);
+      const more = matches.length > names.length ? ` (+${matches.length - names.length} more)` : "";
+      postWebhook(
+        search.webhookUrl,
+        `🔔 Tracker: ${matches.length} new match${matches.length === 1 ? "" : "es"} for "${search.name}"\n${names.join("\n")}${more}`,
+      );
+    }
+  }
+
+  return { fired: browserActive && reasons.length > 0, reasons };
 }
 
 type PeriodicSyncRegistration = ServiceWorkerRegistration & {

@@ -5,6 +5,7 @@ import {
   listSavedSearches,
   removeSavedSearch,
   saveSearch,
+  setSavedSearchWebhook,
   type SavedSearch,
 } from "../lib/savedSearches";
 
@@ -31,6 +32,20 @@ export default function SavedSearches({ filters, onApply }: Props) {
     if (name && name.trim()) setSaved(saveSearch(name, filters));
   };
 
+  // Lane C4 — one prompt, three outcomes: cancel (null, no change), empty
+  // string (clear), or a URL (set/replace). Kept to a plain prompt rather
+  // than a settings panel, matching this project's "no extra UI surface for
+  // a one-field, rarely-touched setting" convention.
+  const handleWebhook = (search: SavedSearch) => {
+    const input = window.prompt(
+      "Paste a Discord, Slack, or Telegram webhook URL to get pushed new matches for this search" +
+        " (stored only in this browser, sent only to that URL — leave blank to remove):",
+      search.webhookUrl ?? "",
+    );
+    if (input === null) return;
+    setSaved(setSavedSearchWebhook(search.id, input.trim() || null));
+  };
+
   return (
     <div className="mb-4 flex flex-wrap items-center gap-2 text-sm">
       {saved.length > 0 && (
@@ -50,6 +65,23 @@ export default function SavedSearches({ filters, onApply }: Props) {
           >
             <button type="button" onClick={() => onApply(filtersForSavedSearch(s))} className="font-medium">
               {s.name}
+            </button>
+            <button
+              type="button"
+              onClick={() => handleWebhook(s)}
+              title={
+                s.webhookUrl
+                  ? "Webhook alert set for this search — click to change or remove it"
+                  : "Push new matches for this search to your own Discord/Slack/Telegram webhook"
+              }
+              aria-label={`${s.webhookUrl ? "Edit" : "Set"} a webhook alert for ${s.name}`}
+              className={
+                "rounded-full px-1 text-xs leading-none " +
+                (active ? "hover:bg-teal-800/60" : "text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800") +
+                (s.webhookUrl ? " opacity-100" : " opacity-50")
+              }
+            >
+              🔗
             </button>
             <button
               type="button"

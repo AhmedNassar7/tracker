@@ -4,7 +4,7 @@
 
 A robot checks top companies and public job boards every hour, so you don't have to. Everything below is refreshed automatically.
 
-[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Total opportunities 4259](https://img.shields.io/badge/Total%20opportunities-4259-brightgreen.svg)](data/README.md) [![Jobs 3947](https://img.shields.io/badge/Jobs-3947-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-09-14](https://img.shields.io/badge/Last%20updated-2026--09--14-grey.svg)](LAST_UPDATED)
+[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Total opportunities 4259](https://img.shields.io/badge/Total%20opportunities-4259-brightgreen.svg)](data/README.md) [![Jobs 3947](https://img.shields.io/badge/Jobs-3947-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-09-15](https://img.shields.io/badge/Last%20updated-2026--09--15-grey.svg)](LAST_UPDATED)
 
 [![Internship 234](https://img.shields.io/badge/Internship-234-22c55e.svg)](data/README.md#internship) [![Early Career 81](https://img.shields.io/badge/Early%20Career-81-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 3632](https://img.shields.io/badge/Mid--Level%20and%20Above-3632-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 95](https://img.shields.io/badge/Hackathons-95-f59e0b.svg)](data/README.md#hackathons) [![Events 217](https://img.shields.io/badge/Events-217-8b5cf6.svg)](data/README.md#events)
 
@@ -14,7 +14,7 @@ That page has everything: jobs, internships, hackathons, and events, each with a
 
 ## Snapshot
 
-_As of 2026-09-14._
+_As of 2026-09-15._
 
 | Category | Count | Link |
 |---|---:|---|

@@ -1,6 +1,6 @@
 # Software Engineering Opportunities
 
-**Last Updated:** 2026-09-14  ·  refreshed hourly  ·  [← back to project overview](../README.md)
+**Last Updated:** 2026-09-15  ·  refreshed hourly  ·  [← back to project overview](../README.md)
 
 Every row links straight to the real application page. Click a title to apply — no account on this repo needed. The **Age** column shows how long ago the listing was posted, so you can spot the newest roles at a glance.
 
@@ -4374,7 +4374,7 @@ This page is the one formatted view — everyone who just wants to browse jobs s
 
 ## RSS Feeds
 
-Five preset feeds, refreshed hourly — fixed filters rather than arbitrary saved ones, since a static site can't compute custom filtered XML on demand:
+11 preset feeds, refreshed hourly — fixed filters rather than arbitrary saved ones, since a static site can't compute custom filtered XML on demand:
 
 | Feed | Filter |
 |---|---|
@@ -4383,6 +4383,12 @@ Five preset feeds, refreshed hourly — fixed filters rather than arbitrary save
 | [feeds/new-grad.xml](feeds/new-grad.xml) | New-grad roles only |
 | [feeds/hackathons.xml](feeds/hackathons.xml) | Hackathons |
 | [feeds/events.xml](feeds/events.xml) | Events |
+| [feeds/region-mena.xml](feeds/region-mena.xml) | Middle East & Africa jobs only |
+| [feeds/region-europe.xml](feeds/region-europe.xml) | Europe jobs only |
+| [feeds/region-apac.xml](feeds/region-apac.xml) | Asia-Pacific jobs only |
+| [feeds/region-latam.xml](feeds/region-latam.xml) | Latin America jobs only |
+| [feeds/region-north_america.xml](feeds/region-north_america.xml) | North America jobs only |
+| [feeds/region-remote.xml](feeds/region-remote.xml) | Remote jobs only |
 
 ## Notes
 

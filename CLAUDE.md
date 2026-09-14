@@ -36,6 +36,8 @@ python tests/test_patterns.py
 python tests/test_public_sources.py
 python tests/test_schema_validation.py
 python tests/test_site_index.py
+python tests/test_stats_history.py
+python tests/test_rss_feeds.py
 
 # On Windows, the emoji check marks in test output need UTF-8, or `print` raises UnicodeEncodeError:
 set PYTHONIOENCODING=utf-8   # PowerShell: $env:PYTHONIOENCODING = "utf-8"
