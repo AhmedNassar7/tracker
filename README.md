@@ -1,30 +1,60 @@
-# tracker
+<p align="center"><img src="site/public/favicon.svg" width="72" height="72" alt="tracker logo"></p>
 
-**A free, always-up-to-date list of software engineering jobs, internships, hackathons, and events — no sign-up, no paywall.**
+<h1 align="center">tracker</h1>
 
-A robot checks top companies and public job boards every hour, so you don't have to. Everything below is refreshed automatically.
+<p align="center"><i>Software engineering jobs, internships, hackathons, and events — free, updated hourly.</i></p>
 
-[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Total opportunities 4281](https://img.shields.io/badge/Total%20opportunities-4281-brightgreen.svg)](data/README.md) [![Jobs 3970](https://img.shields.io/badge/Jobs-3970-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-09-14](https://img.shields.io/badge/Last%20updated-2026--09--14-grey.svg)](LAST_UPDATED)
+[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) [![CI](https://github.com/AhmedNassar7/tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/ci.yml) [![Deploy site](https://github.com/AhmedNassar7/tracker/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/deploy-site.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Total opportunities 4276](https://img.shields.io/badge/Total%20opportunities-4276-brightgreen.svg)](data/README.md) [![Jobs 3965](https://img.shields.io/badge/Jobs-3965-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-09-15](https://img.shields.io/badge/Last%20updated-2026--09--15-grey.svg)](LAST_UPDATED)
 
-[![Internship 247](https://img.shields.io/badge/Internship-247-22c55e.svg)](data/README.md#internship) [![Early Career 81](https://img.shields.io/badge/Early%20Career-81-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 3642](https://img.shields.io/badge/Mid--Level%20and%20Above-3642-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 94](https://img.shields.io/badge/Hackathons-94-f59e0b.svg)](data/README.md#hackathons) [![Events 217](https://img.shields.io/badge/Events-217-8b5cf6.svg)](data/README.md#events)
+[![Internship 245](https://img.shields.io/badge/Internship-245-22c55e.svg)](data/README.md#internship) [![Early Career 79](https://img.shields.io/badge/Early%20Career-79-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 3641](https://img.shields.io/badge/Mid--Level%20and%20Above-3641-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 94](https://img.shields.io/badge/Hackathons-94-f59e0b.svg)](data/README.md#hackathons) [![Events 217](https://img.shields.io/badge/Events-217-8b5cf6.svg)](data/README.md#events)
 
-### 👉 [**Open the full list of 4281 opportunities**](data/README.md)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB.svg?logo=python&logoColor=white)](scripts/) [![stdlib only](https://img.shields.io/badge/dependencies-stdlib%20only-informational.svg)](CLAUDE.md) [![Astro site](https://img.shields.io/badge/site-Astro%20%2B%20React-ff5d01.svg?logo=astro&logoColor=white)](site/)
+
+### 👉 [**Open the full list of 4276 opportunities**](data/README.md)
 
 That page has everything: jobs, internships, hackathons, and events, each with a direct apply link. No account needed, just click and go.
 
 ## Snapshot
 
-_As of 2026-09-14._
+_As of 2026-09-15._
 
 | Category | Count | Link |
 |---|---:|---|
-| Internship | 247 | [View](data/README.md#internship) |
-| Early Career | 81 | [View](data/README.md#early-career) |
-| Mid-Level and Above | 3642 | [View](data/README.md#mid-level-and-above) |
-| **Jobs total** | **3970** | [View](data/README.md#jobs) |
+| Internship | 245 | [View](data/README.md#internship) |
+| Early Career | 79 | [View](data/README.md#early-career) |
+| Mid-Level and Above | 3641 | [View](data/README.md#mid-level-and-above) |
+| **Jobs total** | **3965** | [View](data/README.md#jobs) |
 | Hackathons | 94 | [View](data/README.md#hackathons) |
 | Events | 217 | [View](data/README.md#events) |
-| **Grand total** | **4281** | [View](data/README.md) |
+| **Grand total** | **4276** | [View](data/README.md) |
+
+## Features
+
+<table>
+<tr>
+<td align="center">⏰<br><b>Hourly</b><br><sub>auto-refresh</sub></td>
+<td align="center">🔗<br><b>15+ sources</b><br><sub>boards &amp; ATS APIs</sub></td>
+<td align="center">✅<br><b>Curated allowlist</b><br><sub>top-tier companies</sub></td>
+<td align="center">🩺<br><b>Dead-link checks</b><br><sub>GET-verified</sub></td>
+</tr>
+<tr>
+<td align="center">📡<br><b>11 RSS feeds</b><br><sub>region &amp; category</sub></td>
+<td align="center">📊<br><b>90-day trends</b><br><sub>stats-history.json</sub></td>
+<td align="center">🌐<br><b>Web app</b><br><sub>search &amp; bookmarks</sub></td>
+<td align="center">🆓<br><b>Zero cost</b><br><sub>stdlib + free APIs</sub></td>
+</tr>
+</table>
+
+## Why
+
+- **No database, no server** — the repo *is* the backend; JSON and Markdown are the product.
+- **No paid APIs** — every source is free-tier or a keyless public endpoint.
+- **Standard library only** — no `requirements.txt`, nothing to install.
+- **Self-auditing** — every hourly change ships as its own auto-merged pull request.
+
+The site's brand color, light/dark: [![0f766e](https://img.shields.io/badge/light-0f766e-0f766e.svg)](site/src/styles/global.css) [![2dd4bf](https://img.shields.io/badge/dark-2dd4bf-2dd4bf.svg)](site/src/styles/global.css) <img src="assets/bookmark-pop.svg" width="20" height="20" valign="middle" alt="Bookmark pop micro-interaction preview"> — every real animation in [docs/FEATURES.md#design-system--motion](docs/FEATURES.md#design-system--motion).
+
+Live site: **https://ahmednassar7.github.io/tracker/** — architecture, setup, and deployment details are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Also here
 
@@ -42,7 +72,7 @@ Deeper technical docs for contributors, in [docs/](docs/):
 | [docs/FEATURES.md](docs/FEATURES.md) | Every feature, where it lives in the code, and how it works |
 | [docs/DIAGRAMS.md](docs/DIAGRAMS.md) | All Mermaid diagrams in one place |
 | [docs/DATA.md](docs/DATA.md) | Every external source, JSON record shapes, config file fields |
-| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | The two GitHub Actions workflows, triggers, steps, secrets |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | The GitHub Actions workflows, triggers, steps, secrets |
 | [docs/TESTING.md](docs/TESTING.md) | Test framework, how to run tests, feature-to-test map |
 | [docs/DEMO.md](docs/DEMO.md) | A walkthrough script for showing this project to someone new |
 

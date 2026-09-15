@@ -19,9 +19,9 @@ The deployment target is the repo itself: `data/*.json` and the two `README.md` 
 flowchart TB
     subgraph External["External sources (15+)"]
         direction TB
-        Curated["Curated APIs & READMEs\nRemotive · ArbeitNow · SimplifyJobs\nspeedyapply · zapplyjobs\nLorenzoLaCorte · hanzili · ambicuity"]
-        ATS["ATS APIs\nGreenhouse · Lever · Workday\nAshby · SmartRecruiters"]
-        Events["Devpost · Luma"]
+        Curated["Curated APIs & READMEs\nRemotive · ArbeitNow · SimplifyJobs\nspeedyapply · zapplyjobs · hanzili\nambicuity · Amazon · Netflix · Apple\nArbeitsagentur"]
+        ATS["ATS APIs\nGreenhouse · Lever · Workday · Ashby\nSmartRecruiters · PinpointHQ · Workable\nRecruitee · BambooHR · Freshteam"]
+        Events["Devpost · Unstop · Devfolio\nHackerEarth · Luma · confs.tech"]
     end
 
     subgraph Pipeline["scripts/ (Python stdlib, no deps)"]
@@ -41,9 +41,11 @@ flowchart TB
         PublicJSON["public-opportunities.json"]
         Stats["stats.json"]
         DataReadme["data/README.md"]
+        Index["site-index.json"]
     end
 
     RootReadme["README.md (root)"]
+    Site["site/ (Astro + React,\nGitHub Pages)"]
 
     Curated --> Fetch
     Allow --> Fetch
@@ -61,6 +63,8 @@ flowchart TB
     PublicJSON --> Build
     Build --> DataReadme
     Build --> RootReadme
+    Build --> Index
+    Index --> Site
 
     GHA["GitHub Actions\n(hourly cron)"] --> Fetch
     GHA --> Public
@@ -72,6 +76,7 @@ flowchart TB
     Archive --> Repo
     PublicJSON --> Repo
     Stats --> Repo
+    Index --> Repo
 ```
 
 ## Every layer/component
@@ -83,52 +88,16 @@ flowchart TB
 | Classification patterns | [scripts/patterns.py](../scripts/patterns.py) | Central regexes for level/region/remote-type/country/role detection, shared by both fetch layers |
 | Networking | [scripts/net.py](../scripts/net.py) | `fetch_with_retry` (retries transient network errors and 429/5xx HTTP responses with backoff) and `run_concurrently` (thread-pool fan-out with deterministic, order-preserving results), shared by both fetch layers |
 | SimplifyJobs parser | [scripts/simplify_jobs_parser.py](../scripts/simplify_jobs_parser.py) | Parses SimplifyJobs' specific pipe-table + HTML-table README format, including multi-location `<details>` cells |
-| Generic community-board parser | [scripts/community_board_parser.py](../scripts/community_board_parser.py) | Shape-based parser (not fixed-column) for speedyapply/zapplyjobs/hanzili/LorenzoLaCorte README tables |
-| Public/auto-discovery layer | [scripts/public_sources.py](../scripts/public_sources.py) | Auto-discovers Greenhouse/Lever/Workday boards from curated job URLs, polls Ashby/SmartRecruiters from config, pulls Devpost hackathons and Luma events, writes `public-opportunities.json` |
+| Generic community-board parser | [scripts/community_board_parser.py](../scripts/community_board_parser.py) | Shape-based parser (not fixed-column) for speedyapply/zapplyjobs/hanzili README tables |
+| Public/auto-discovery layer | [scripts/public_sources.py](../scripts/public_sources.py) | Auto-discovers Greenhouse/Lever/Workday boards from curated job URLs, polls Ashby/SmartRecruiters/PinpointHQ/Workable/Recruitee/BambooHR/Freshteam from config, pulls hackathons and events, writes `public-opportunities.json` |
 | Public output writer | [scripts/public_outputs.py](../scripts/public_outputs.py) | Splits rows by `kind` (job/hackathon/event) and writes the combined JSON payload |
-| README renderer | [scripts/build_data_readme.py](../scripts/build_data_readme.py) | Loads both JSON outputs, merges + buckets by level, filters stale (>180d) postings, renders `README.md` and `data/README.md` |
-| Config | [config/](../config/) | `companies_allowlist.yml` (curated-layer gate), `extra_job_boards.yml` (Ashby/SmartRecruiters tokens), two JSON Schemas documenting the output shapes |
-| Tests | [tests/](../tests/) | Assert-based test scripts for `net.py`, `fetch.py`, and `public_sources.py`, run in CI |
-| Automation | [.github/workflows/](../.github/workflows/) | `ci.yml` (tests on PR/push), `hourly-global-roles.yml` (the hourly pipeline + auto-merge) |
+| README + site-index renderer | [scripts/build_data_readme.py](../scripts/build_data_readme.py) | Loads both JSON outputs, merges + buckets by level, filters stale postings, renders `README.md`, `data/README.md`, and `data/site-index.json` |
+| Config | [config/](../config/) | `companies_allowlist.yml` (curated-layer gate), `extra_job_boards.yml` (ATS board tokens), JSON Schemas documenting the output shapes |
+| Tests | [tests/](../tests/) | Assert-based test scripts for the pipeline modules, run in CI |
+| Automation | [.github/workflows/](../.github/workflows/) | `ci.yml` (tests on PR/push), `hourly-global-roles.yml` (the hourly pipeline + auto-merge), `deploy-site.yml` (builds and deploys `site/`) |
+| Website | [site/](../site/) | Astro + React frontend, deployed to GitHub Pages, fetches `data/site-index.json` at runtime — no build-time data dependency |
 
-## Data flow end to end
-
-```mermaid
-sequenceDiagram
-    participant Cron as GitHub Actions (hourly cron)
-    participant Fetch as fetch.py
-    participant Src as Curated sources
-    participant Out as fetch_outputs.py
-    participant Public as public_sources.py
-    participant ATS as Greenhouse/Lever/Workday/Ashby/SmartRecruiters
-    participant Build as build_data_readme.py
-    participant Repo as GitHub repo (main)
-
-    Cron->>Fetch: python scripts/fetch.py
-    Fetch->>Src: HTTP GET (17 sources, concurrently)
-    Src-->>Fetch: raw JSON / README markdown
-    Fetch->>Fetch: normalize, classify, filter by allowlist, dedupe
-    Fetch->>Out: write_outputs(rows)
-    Out->>Repo: read previous jobs-global.json (diff base)
-    Out->>Out: check_url_alive() per posting, concurrently (HEAD then GET each)
-    Out-->>Repo: jobs-global.json, jobs-global-archive.json, stats.json
-
-    Cron->>Public: python scripts/public_sources.py
-    Public->>Repo: read jobs-global.json (seed URLs)
-    Public->>Public: discover Greenhouse/Lever/Workday tokens from seed URLs
-    Public->>ATS: HTTP GET/POST (discovered + configured boards, concurrently per platform)
-    ATS-->>Public: job postings JSON
-    Public->>Public: filter to software roles, dedupe
-    Public-->>Repo: public-opportunities.json
-
-    Cron->>Build: python scripts/build_data_readme.py
-    Build->>Repo: read jobs-global.json + public-opportunities.json
-    Build->>Build: merge, bucket by level, filter stale (>180d), render tables
-    Build-->>Repo: README.md, data/README.md
-
-    Cron->>Repo: git commit + open PR (peter-evans/create-pull-request)
-    Cron->>Repo: gh pr merge --squash
-```
+Full data-flow sequence diagram, CI/CD flowchart, component dependency graph, and entity-relationship diagram: [DIAGRAMS.md](DIAGRAMS.md).
 
 ## External services and APIs
 
@@ -152,7 +121,8 @@ graph LR
         Workday["Workday\nper-tenant CXS API"]
         Ashby["Ashby\napi.ashbyhq.com"]
         SmartRec["SmartRecruiters\napi.smartrecruiters.com"]
-        Devpost["Devpost\ndevpost.com/api/hackathons"]
+        MoreATS["PinpointHQ · Workable\nRecruitee · BambooHR\nFreshteam"]
+        Devpost["Devpost · Unstop\nDevfolio · HackerEarth"]
         Luma["Luma\nluma.com/discover"]
     end
 
@@ -173,6 +143,7 @@ graph LR
     Tracker -. seeds .-> Workday
     Ashby --> Tracker
     SmartRec --> Tracker
+    MoreATS --> Tracker
     Devpost --> Tracker
     Luma --> Tracker
     Greenhouse --> Tracker
@@ -184,25 +155,4 @@ All integrations are free-tier public APIs or public GitHub content — no keys,
 
 ## CI/CD pipeline
 
-Two independent GitHub Actions workflows (full breakdown in [DEPLOYMENT.md](DEPLOYMENT.md)):
-
-```mermaid
-flowchart TD
-    subgraph CI["ci.yml — on pull_request, push to main"]
-        C1["Checkout"] --> C2["Set up Python 3.11"]
-        C2 --> C3["python3 tests/test_fetch.py"]
-        C3 --> C4["python3 tests/test_public_sources.py"]
-    end
-
-    subgraph Hourly["hourly-global-roles.yml — cron '15 * * * *' + workflow_dispatch"]
-        H1["Checkout"] --> H2["Set up Python 3.11"]
-        H2 --> H3["python3 scripts/fetch.py"]
-        H3 --> H4["python3 scripts/public_sources.py"]
-        H4 --> H5["python3 scripts/build_data_readme.py"]
-        H5 --> H6["Write LAST_UPDATED timestamp"]
-        H6 --> H7["peter-evans/create-pull-request\n(opens PR if anything changed)"]
-        H7 --> H8{"PR created?"}
-        H8 -- yes --> H9["gh pr merge --squash --delete-branch"]
-        H8 -- no --> H10["nothing changed, workflow ends"]
-    end
-```
+Three independent GitHub Actions workflows — full breakdown (steps, triggers, secrets) in [DEPLOYMENT.md](DEPLOYMENT.md), full flowchart in [DIAGRAMS.md](DIAGRAMS.md#cicd-pipeline).

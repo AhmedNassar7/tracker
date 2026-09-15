@@ -6,7 +6,8 @@ For showing `tracker` to a recruiter, a contributor, or a "why does this exist" 
 
 ## Show first
 
-Open the live [README.md](../README.md) on GitHub (not the code). The badges + "As of {date}" snapshot make the point: a live, self-updating feed. Then [data/README.md](../data/README.md) for the actual job table with working apply links.
+1. [README.md](../README.md) on GitHub (not the code) — badges + "As of {date}" snapshot: a live, self-updating feed.
+2. [data/README.md](../data/README.md) — the actual job table, working apply links.
 
 ## Step-by-step
 

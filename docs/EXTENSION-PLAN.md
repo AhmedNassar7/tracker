@@ -2,7 +2,7 @@
 
 **Status:** planned, not built. Prepared 2026-09-06. Companion to [WEBSITE-VISION-PLAN.html](WEBSITE-VISION-PLAN.html) §11 (the extension is item **X1–X6** there).
 
-A Manifest V3 browser extension that makes `tracker` a working companion *while you apply*, the way Simplify's Copilot does — but keeping every one of this project's guardrails: **no server, no database, no paid API, no PII collection, no fabricated data.** The extension is pure client-side code; its only "backend" is the same static `data/site-index.json` the website already fetches, plus the browser's own local storage.
+A Manifest V3 browser extension that makes `tracker` a working companion *while you apply*, the way Simplify's Copilot does — same guardrails as the site: **no server, no database, no paid API, no PII collection, no fabricated data.** Pure client-side code; its only "backend" is the same static `data/site-index.json` the website already fetches, plus the browser's own local storage.
 
 ---
 

@@ -46,7 +46,10 @@ All free-tier, keyless, public endpoints. Full descriptions in [SOURCES.md](../S
 
 ## Data shapes and schemas
 
-Three JSON Schemas document the three output shapes, all enforced: `scripts/schema_validator.py` (dependency-free, no `jsonschema` package) runs against every row before writing, in `fetch_outputs.py`, `public_outputs.py`, and `build_data_readme.py` (for `site-index.json`). A shape drift raises `ValueError` and aborts the run under `set -euo pipefail`. Tests: `tests/test_schema_validation.py`, `tests/test_site_index.py`.
+- Three JSON Schemas document the three output shapes, all enforced.
+- `scripts/schema_validator.py` (dependency-free, no `jsonschema` package) runs against every row before writing, in `fetch_outputs.py`, `public_outputs.py`, and `build_data_readme.py` (for `site-index.json`).
+- A shape drift raises `ValueError` and aborts the run under `set -euo pipefail`.
+- Tests: `tests/test_schema_validation.py`, `tests/test_site_index.py`.
 
 ### `JobEntry` — [config/job-entry.schema.json](../config/job-entry.schema.json)
 

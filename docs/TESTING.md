@@ -4,9 +4,12 @@
 
 ## Test framework used
 
-None of the standard ones — no pytest, no unittest test-discovery. Each test file is a single plain Python script with one `main()` function that runs a sequence of checks in order and raises `AssertionError` (or lets one propagate) on the first failure. The only stdlib pieces borrowed are `unittest.mock.patch` (for monkeypatching module-level state and functions) and `tempfile.TemporaryDirectory` (for isolating file writes). This is a deliberate consequence of the project having zero dependencies — pulling in pytest would break the "no `requirements.txt`" rule for a dev-only tool, so a small hand-rolled runner is used instead.
+No pytest, no unittest discovery — pulling in pytest would break the "no `requirements.txt`" rule, so each test file is a small hand-rolled runner instead:
 
-Each check is registered with a local `run(name, fn)` helper that prints a green `✅ <name>` on success; any assertion failure inside `fn` raises, `main()`'s top-level `try/except` catches it, prints a red `❌ TEST FAILED: ...`, and exits `1`.
+- One plain Python script per file, one `main()` that runs checks in order.
+- A local `run(name, fn)` helper prints green `✅ <name>` on success.
+- Any assertion failure raises; `main()`'s top-level `try/except` prints red `❌ TEST FAILED: ...` and exits `1` on the first failure.
+- Only stdlib borrowed: `unittest.mock.patch` (monkeypatching) and `tempfile.TemporaryDirectory` (isolating file writes).
 
 ## How to run tests
 
@@ -27,7 +30,7 @@ All eight must pass — this is exactly what [CI](DEPLOYMENT.md) runs on every p
 $env:PYTHONIOENCODING = "utf-8"
 ```
 
-There is no test runner flag to select one test — to isolate a single check while debugging, temporarily comment out the other `run(...)` calls in the relevant file, run it, then undo.
+No flag selects one test — to isolate a check, comment out the other `run(...)` calls in the file, run it, then undo.
 
 ## What is tested — feature to test file map
 
@@ -77,11 +80,17 @@ There is no test runner flag to select one test — to isolate a single check wh
 | `validate_record`, `validate_records` (`scripts/schema_validator.py`) | `tests/test_schema_validation.py` | Type/enum/pattern/`additionalProperties` checks against both `JobEntry` and `PublicEntry`; integration tests proving `fetch.write_outputs` / `public_sources.write_outputs` refuse to publish an invalid row; a pre-existing legacy-shaped archive row doesn't block a run with valid fresh data |
 | `build_site_index` (`scripts/build_data_readme.py`) | `tests/test_site_index.py` | Curated-only fields (`category`/`remote_type`/`country`) kept on curated items and omitted (not fabricated) on public items; `date`→`age` unification; checksum stability/change detection; refuses to publish a schema-invalid row |
 
-The README-rendering functions (`render_root_readme` / `render_data_readme` in `scripts/build_data_readme.py`) still have no automated test — verified manually by running the script and reading the output. If you change those, run it locally and diff the result before committing.
+`render_root_readme` / `render_data_readme` (`scripts/build_data_readme.py`) have no automated test — verify by running the script and reading the output/diff before committing.
 
-## How to write a new test — real example from this codebase
+## How to write a new test
 
-Every fetcher test follows the same shape: build a fake source payload, patch `fetch_url` (or `fetch_json`/`fetch_json_post` for the public-sources module) to hand it back instead of making a real HTTP call, call the function, and assert on the result. This is the actual `speedyapply` test from `tests/test_fetch.py`:
+Every fetcher test follows the same shape:
+
+1. Build a fake source payload.
+2. Patch `fetch_url` (or `fetch_json`/`fetch_json_post` in `public_sources.py`) to return it instead of making a real HTTP call.
+3. Call the function, assert on the result.
+
+Real example — the `speedyapply` test from `tests/test_fetch.py`:
 
 ```python
 # speedyapply-style table: an apply-button HTML link, and a row with no
@@ -112,6 +121,12 @@ run("speedyapply fetch handles missing salary column", lambda: check(
 ))
 ```
 
-The comment above the fixture explains *why* this specific input shape matters (a missing trailing column shifting indices) — follow that pattern: a new test's fixture should encode the real edge case you're guarding against, not a generic happy path, since the happy path is already covered by the `fetch_remotive`/`fetch_arbeitnow` tests.
+The comment above the fixture explains *why* the input shape matters (a missing column shifting indices) — a new fixture should encode the real edge case being guarded, not a generic happy path (already covered by `fetch_remotive`/`fetch_arbeitnow`).
 
-To add a check: pick the right test file, add a fixture + patched-fetch block following the pattern above, call it through `run("descriptive name", lambda: check(...))`, then run the file directly to confirm the green checkmark appears. If you added a brand-new fetcher, register it in `fetch.SOURCE_FETCHER_NAMES` (`scripts/fetch.py`) — the "main calls all sources consistently" check in `tests/test_fetch.py` reads that same list rather than keeping its own separate copy, so there's nothing to update on the test side (see [DEVELOPER-GUIDE.md](DEVELOPER-GUIDE.md#how-to-add-a-new-feature-for-this-codebase)).
+To add a check:
+
+1. Pick the right test file.
+2. Add a fixture + patched-fetch block, following the pattern above.
+3. Call it via `run("descriptive name", lambda: check(...))`.
+4. Run the file directly, confirm the green checkmark.
+5. New fetcher → register it in `fetch.SOURCE_FETCHER_NAMES` (`scripts/fetch.py`); the "main calls all sources consistently" check reads that same list, so nothing else needs updating (see [DEVELOPER-GUIDE.md](DEVELOPER-GUIDE.md#how-to-add-a-new-feature-for-this-codebase)).

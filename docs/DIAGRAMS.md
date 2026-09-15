@@ -2,35 +2,7 @@
 
 [← back to project overview](../README.md) · [docs index](../README.md#documentation)
 
-Diagrams reflect the current code. Narrative context: [ARCHITECTURE.md](ARCHITECTURE.md). Per-feature flowcharts: [FEATURES.md](FEATURES.md).
-
-## System overview
-
-```mermaid
-flowchart TB
-    subgraph External["External sources (15+)"]
-        Curated["Curated APIs & READMEs"]
-        ATS["ATS APIs (Greenhouse/Lever/Workday/Ashby/SmartRecruiters)"]
-        Events["Devpost + Luma"]
-    end
-
-    subgraph Pipeline["scripts/"]
-        Fetch["fetch.py"]
-        Public["public_sources.py"]
-        Build["build_data_readme.py"]
-    end
-
-    Config["config/*.yml"] --> Fetch
-    Curated --> Fetch
-    Fetch --> DataJSON["data/jobs-global*.json\ndata/stats.json"]
-    DataJSON -. seeds .-> Public
-    ATS --> Public
-    Events --> Public
-    Public --> PublicJSON["data/public-opportunities.json"]
-    DataJSON --> Build
-    PublicJSON --> Build
-    Build --> Readmes["README.md\ndata/README.md"]
-```
+Diagrams reflect the current code. Narrative context and system overview: [ARCHITECTURE.md](ARCHITECTURE.md). Per-feature flowcharts: [FEATURES.md](FEATURES.md).
 
 ## Data / request flow (sequence diagram)
 
@@ -40,7 +12,7 @@ sequenceDiagram
     participant Fetch as fetch.py
     participant Sources as 17 curated sources
     participant Public as public_sources.py
-    participant ATS as Greenhouse/Lever/Workday/Ashby/SmartRecruiters
+    participant ATS as Greenhouse/Lever/Workday/Ashby/SmartRecruiters/<br/>PinpointHQ/Workable/Recruitee/BambooHR/Freshteam
     participant Build as build_data_readme.py
     participant Repo as git repo (main)
 
@@ -58,7 +30,7 @@ sequenceDiagram
 
     Cron->>Build: run
     Build->>Repo: read both JSON files
-    Build->>Repo: README.md, data/README.md
+    Build->>Repo: README.md, data/README.md, data/site-index.json
 
     Cron->>Repo: open PR, auto-merge
 ```
@@ -91,8 +63,7 @@ flowchart TD
     subgraph CI["ci.yml"]
         direction LR
         T1["on: pull_request, push to main"] --> T2["checkout + setup-python 3.11"]
-        T2 --> T3["test_fetch.py"]
-        T3 --> T4["test_public_sources.py"]
+        T2 --> T3["8 test files:\ntest_net · test_fetch · test_patterns\ntest_public_sources · test_schema_validation\ntest_site_index · test_stats_history · test_rss_feeds"]
     end
 
     subgraph Hourly["hourly-global-roles.yml"]
@@ -106,6 +77,13 @@ flowchart TD
         H7 --> H8{changed?}
         H8 -- yes --> H9["gh pr merge --squash"]
         H8 -- no --> H10["no-op"]
+    end
+
+    subgraph Deploy["deploy-site.yml"]
+        direction LR
+        D1["on: push to site/**, workflow_dispatch"] --> D2["checkout + setup-node 24"]
+        D2 --> D3["npm ci && npm run build"]
+        D3 --> D4["deploy-pages action\n-> GitHub Pages"]
     end
 ```
 

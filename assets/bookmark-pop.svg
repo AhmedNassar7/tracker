@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Bookmark pop micro-interaction preview">
+  <g transform="translate(32,32)">
+    <path d="M-10,-16 H10 V16 L0,6 L-10,16 Z" fill="#0f766e">
+      <animateTransform attributeName="transform" type="scale" values="1;1.35;1;1" keyTimes="0;0.1;0.2;1" dur="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 0.58 1;0 0 0.58 1;0 0 1 1" />
+    </path>
+  </g>
+</svg>

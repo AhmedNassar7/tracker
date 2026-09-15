@@ -1,6 +1,11 @@
 # Applicant Toolkit — Plan
 
-**Status:** planned, not built. Prepared 2026-09-08. Companion to
+**Status:** Phases 1–6 shipped (profile, application tracker, alerts, cover-letter builder,
+résumé keyword-gap check, outreach deep-links — see [FEATURES.md](FEATURES.md) for what each
+looks like in the running site). Only **Phase 4b** (optional BYO-key AI polish on the cover
+letter) is still open. This document stays as the design contract/rationale for the toolkit
+(§4 profile↔job matching, §5 design/UX bar, §9 competitor comparison) — kept for that reference
+value, not as a live build-order checklist. Prepared 2026-09-08. Companion to
 [WEBSITE-VISION-PLAN.html](WEBSITE-VISION-PLAN.html) §11 (**Lane R** résumé/CV, **Lane C**
 personalisation) and [EXTENSION-PLAN.md](EXTENSION-PLAN.md) (X2/X4 share this data model).
 
@@ -347,13 +352,9 @@ vendor.
 
 ## 4. Cross-cutting: the unified-profile contract
 
-One `Profile` object, versioned, is read by: the tracker (autofill new rows), the cover-letter
-engine, the résumé tools, the "for you" default sort (C8 — `Profile.targets` *is* the saved
-filter), and the browser extension's autofill (X3/X4, via the shared `lib/`). Define it in
-`profile.ts` with a `schema_version` and a migrate-on-read step; every consumer imports the type,
-none redefine it. Export/import round-trips the whole thing as one JSON file — that plus
-`chrome.storage.sync` in the extension is the entire cross-device story (no account, per
-[EXTENSION-PLAN.md §5](EXTENSION-PLAN.md)).
+- One `Profile` object, versioned, read by: the tracker (autofill new rows), the cover-letter engine, the résumé tools, the "for you" default sort (C8 — `Profile.targets` *is* the saved filter), and the browser extension's autofill (X3/X4, via the shared `lib/`).
+- Defined in `profile.ts` with a `schema_version` and a migrate-on-read step; every consumer imports the type, none redefine it.
+- Export/import round-trips the whole thing as one JSON file — that plus `chrome.storage.sync` in the extension is the entire cross-device story (no account, per [EXTENSION-PLAN.md §5](EXTENSION-PLAN.md)).
 
 ### 4a. Profile ⇄ job-record alignment (the match engine)
 
@@ -378,12 +379,8 @@ For the match score to mean anything, every scored dimension of a job record
 | `tech_tags[]` | `skills.{languages,frameworks,tools,other}` | ✅ **R2 shipped + wired into the score** — `keywordGap.ts` ports `detect_tech_tags`; `profileMatch.ts` now runs the profile skills through `detectSkillTags()` so the overlap with `item.tech_tags` is an exact canonical-vocabulary set intersection, not a name compare | +1 per matched stack item (cap 5); missing ones surface as "stack to learn". The `/toolkit/resume` gap check does the full Present / Missing / Extra diff. |
 | `posted_at` / `age` | — | ✅ | freshness nudge (from `scoreOpportunity`) |
 
-`filterStateFromProfile()` projects the targets onto a `FilterState` so the site's existing
-relevance engine (`preferences.ts scoreOpportunity` / `matchReasons` / `contradictsPrefFilter`)
-does the shared-dimension weighting with no second set of weights to maintain — this is also the
-Lane H5 "your profile *is* your saved preference filter" bridge. `scoreJobForProfile()` adds the
-salary / visa / degree / relocation / skills layers and returns `{ score 0–100, reasons[],
-gaps[], contradicts }` — explainable, never a black-box number.
+- `filterStateFromProfile()` projects the targets onto a `FilterState`, so the site's existing relevance engine (`preferences.ts scoreOpportunity` / `matchReasons` / `contradictsPrefFilter`) does the shared-dimension weighting with no second set of weights to maintain — also the Lane H5 "your profile *is* your saved preference filter" bridge.
+- `scoreJobForProfile()` adds the salary / visa / degree / relocation / skills layers, returns `{ score 0–100, reasons[], gaps[], contradicts }` — explainable, never a black-box number.
 
 **Still to sharpen the match (in priority order):**
 

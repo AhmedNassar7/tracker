@@ -4,9 +4,13 @@
 
 ## Two independent deploys
 
-**Data pipeline**: GitHub Actions runs the pipeline and commits output straight into `main`. The product — `README.md`, `data/README.md`, `data/*` — is the repo, browsable on GitHub. No API server.
+**Data pipeline** — GitHub Actions runs the pipeline and commits output straight into `main`. The product (`README.md`, `data/README.md`, `data/*`) is the repo, browsable on GitHub. No API server.
 
-**Website**: static site (Astro + React islands + Tailwind) in `site/`, live at **[ahmednassar7.github.io/tracker](https://ahmednassar7.github.io/tracker/)**. Its `deploy-site.yml` triggers only on a push to `site/**`, not on hourly data refreshes. It never bundles data — it `fetch()`s `data/site-index.json` (+ `stats-history.json`, `data/feeds/`) at runtime from jsDelivr, falling back to `raw.githubusercontent.com`, so a visitor sees data ≤1h stale with no redeploy. `.nojekyll` at the repo root is required — without it GitHub runs the repo through Jekyll and mangles the site's `index.html`.
+**Website** — static site (Astro + React islands + Tailwind) in `site/`, live at **[ahmednassar7.github.io/tracker](https://ahmednassar7.github.io/tracker/)**:
+
+- `deploy-site.yml` triggers only on a push to `site/**`, not on hourly data refreshes.
+- Never bundles data — `fetch()`s `data/site-index.json` (+ `stats-history.json`, `data/feeds/`) at runtime from jsDelivr, falling back to `raw.githubusercontent.com`. A visitor sees data ≤1h stale with no redeploy.
+- `.nojekyll` at the repo root is required — without it GitHub runs the repo through Jekyll and mangles the site's `index.html`.
 
 ## Every GitHub Actions workflow
 
