@@ -4,20 +4,13 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Tue, 15 Sep 2026 08:49:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 09:14:11 GMT</lastBuildDate>
     <item>
-      <title>Amazon — Software Development Engineer, RBKS DSO EU</title>
-      <link>https://www.amazon.jobs/en/jobs/10538513/software-development-engineer-rbks-dso-eu</link>
-      <guid isPermaLink="false">1ce37ff172e10a35</guid>
-      <description>Madrid, Community of Madrid, ESP · unknown · 1d</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Machine Learning Engineer , AI and Data Platforms</title>
-      <link>https://jobs.apple.com/en-us/details/200681711/machine-learning-engineer-ai-and-data-platforms</link>
-      <guid isPermaLink="false">e4f5d3e3d41fd20a</guid>
-      <description>Cork, Ireland · unknown · 1d</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <title>Figma — Software Engineer Intern (London, United Kingdom) (Summer 2027)</title>
+      <link>https://www.arbeitnow.co.uk/jobs/companies/figma/software-engineer-intern-london-united-kingdom-summer-2027-65172</link>
+      <guid isPermaLink="false">d1c460c23c4f4a2f</guid>
+      <description>London · internship · 0d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cisco — Graduate Software Cloud Engineer</title>
@@ -38,13 +31,6 @@
       <link>https://boards.greenhouse.io/figma/jobs/6152695004?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">dd4858a7c2b51189</guid>
       <description>London, UK · internship · 1d</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mistral.ai — Applied AI, Forward Deployed Machine Learning Engineer - (Internship)</title>
-      <link>https://www.arbeitnow.fr/jobs/companies/mistralai/applied-ai-forward-deployed-machine-learning-engineer-internship-paris-422737</link>
-      <guid isPermaLink="false">7bc8ee7f7524a79e</guid>
-      <description>Paris · internship · 1d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -115,6 +101,27 @@
       <link>https://www.linkedin.com/jobs/view/4461536634</link>
       <guid isPermaLink="false">f4f45572628f3ebc</guid>
       <description>Barcelona, Catalonia, Spain · new_grad · 1d</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, RBKS DSO EU</title>
+      <link>https://www.amazon.jobs/en/jobs/10538513/software-development-engineer-rbks-dso-eu</link>
+      <guid isPermaLink="false">1ce37ff172e10a35</guid>
+      <description>Madrid, Community of Madrid, ESP · unknown · 1d</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple — Machine Learning Engineer , AI and Data Platforms</title>
+      <link>https://jobs.apple.com/en-us/details/200681711/machine-learning-engineer-ai-and-data-platforms</link>
+      <guid isPermaLink="false">e4f5d3e3d41fd20a</guid>
+      <description>Cork, Ireland · unknown · 1d</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mistral.ai — Applied AI, Forward Deployed Machine Learning Engineer - (Internship)</title>
+      <link>https://www.arbeitnow.fr/jobs/companies/mistralai/applied-ai-forward-deployed-machine-learning-engineer-internship-paris-422737</link>
+      <guid isPermaLink="false">7bc8ee7f7524a79e</guid>
+      <description>Paris · internship · 1d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -343,16 +350,16 @@
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer, Forward Deployed AI Engineer</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7590735</link>
-      <guid isPermaLink="false">1aaaee5d5a320b56</guid>
-      <description>Ireland · mid_level · 4d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7392902</link>
+      <guid isPermaLink="false">f21fb0111aa0c42d</guid>
+      <description>Cork, Ireland; Dublin, Ireland · mid_level · 4d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer, Forward Deployed AI Engineer</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7392902</link>
-      <guid isPermaLink="false">f21fb0111aa0c42d</guid>
-      <description>Cork, Ireland; Dublin, Ireland · mid_level · 4d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7590735</link>
+      <guid isPermaLink="false">1aaaee5d5a320b56</guid>
+      <description>Ireland · mid_level · 4d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1813,9 +1820,9 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002</link>
-      <guid isPermaLink="false">2b6658aa37bc7452</guid>
-      <description>London, United Kingdom · mid_level · 13d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002</link>
+      <guid isPermaLink="false">c4b010cb78dffcd6</guid>
+      <description>Zürich, Switzerland · mid_level · 13d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1827,9 +1834,9 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Unity Catalog Runtime Enforcement</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422483002</link>
-      <guid isPermaLink="false">c4b010cb78dffcd6</guid>
-      <description>Zürich, Switzerland · mid_level · 13d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002</link>
+      <guid isPermaLink="false">2b6658aa37bc7452</guid>
+      <description>London, United Kingdom · mid_level · 13d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2233,13 +2240,6 @@
     </item>
     <item>
       <title>Jane Street — Software Engineer</title>
-      <link>https://www.janestreet.com/join-jane-street/apply/4274814002?gh_jid=4274814002</link>
-      <guid isPermaLink="false">b80f75f3a3bac6c5</guid>
-      <description>London, England, United Kingdom · other · 19d</description>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jane Street — Software Engineer</title>
       <link>https://www.janestreet.com/join-jane-street/apply/8589868002?gh_jid=8589868002</link>
       <guid isPermaLink="false">94fbfcedcd8bbfeb</guid>
       <description>London, England, United Kingdom · other · 19d</description>
@@ -2249,6 +2249,13 @@
       <title>Jane Street — Software Engineer</title>
       <link>https://www.janestreet.com/join-jane-street/apply/8647260002?gh_jid=8647260002</link>
       <guid isPermaLink="false">0f8cd9a57726b423</guid>
+      <description>London, England, United Kingdom · other · 19d</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jane Street — Software Engineer</title>
+      <link>https://www.janestreet.com/join-jane-street/apply/4274814002?gh_jid=4274814002</link>
+      <guid isPermaLink="false">b80f75f3a3bac6c5</guid>
       <description>London, England, United Kingdom · other · 19d</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2541,6 +2548,13 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002</link>
+      <guid isPermaLink="false">d9be831edfe51857</guid>
+      <description>Berlin, Germany · mid_level · 28d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Staff Software Engineer - Delta</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002</link>
       <guid isPermaLink="false">893d8bdfdabf2b1c</guid>
       <description>London, United Kingdom · mid_level · 28d</description>
@@ -2565,13 +2579,6 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
       <guid isPermaLink="false">96334280637b268a</guid>
       <description>Zürich, Switzerland · mid_level · 28d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002</link>
-      <guid isPermaLink="false">d9be831edfe51857</guid>
-      <description>Berlin, Germany · mid_level · 28d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2618,16 +2625,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002</link>
-      <guid isPermaLink="false">ef6f23c47c8166fe</guid>
-      <description>Berlin, Germany · mid_level · 28d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002</link>
+      <guid isPermaLink="false">cee270926d3d303b</guid>
+      <description>Belgrade, Serbia · mid_level · 28d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002</link>
-      <guid isPermaLink="false">cee270926d3d303b</guid>
-      <description>Belgrade, Serbia · mid_level · 28d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002</link>
+      <guid isPermaLink="false">ef6f23c47c8166fe</guid>
+      <description>Berlin, Germany · mid_level · 28d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3960,6 +3967,12 @@
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Athens/Junior-Power-Platform-developer_760627WD</link>
       <guid isPermaLink="false">d1a2b652e83ecc0e</guid>
       <description>Athens · junior · 5d</description>
+    </item>
+    <item>
+      <title>Workday — Senior Manager , Software Development Engineering</title>
+      <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Senior-Manager---Software-Developing-Engineering_JR-0109399</link>
+      <guid isPermaLink="false">63dbe3a785414199</guid>
+      <description>Ireland, Dublin +1 more · mid_level · 6d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer 5 — Developer Platform</title>
