@@ -4,12 +4,19 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Tue, 15 Sep 2026 15:02:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 19:01:19 GMT</lastBuildDate>
     <item>
       <title>Blabs — Senior Backend Engineer</title>
       <link>https://apply.workable.com/j/FE45731FDD</link>
       <guid isPermaLink="false">3896df1b32b9903e</guid>
       <description>New Cairo City, Egypt · mid_level · 0d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Datadog — Senior Software Engineer - Distributed Systems</title>
+      <link>https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111</link>
+      <guid isPermaLink="false">bb9cffb6a247e3c6</guid>
+      <description>Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France; Tel Aviv, Israel · mid_level · 0d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -73,13 +80,6 @@
       <link>https://jobs.ashbyhq.com/cohere/291e5dee-dcda-49e6-a1b6-dae0d48f80af</link>
       <guid isPermaLink="false">b60419f4a79706d7</guid>
       <description>Middle East · other · 5d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Datadog — Senior Software Engineer - Distributed Systems</title>
-      <link>https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111</link>
-      <guid isPermaLink="false">bb9cffb6a247e3c6</guid>
-      <description>Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France; Tel Aviv, Israel · mid_level · 5d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -474,6 +474,12 @@
       <description>Israel, Haifa · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior AI Network Simulation Software Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Network-Simulation-Software-Engineer_JR2021495</link>
+      <guid isPermaLink="false">8709e8ae0b607c9c</guid>
+      <description>Israel, Tel Aviv · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — SONiC Software Engineer - Python</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/SONiC-Software-Engineer---Python_JR2017236</link>
       <guid isPermaLink="false">7c4dc81fd48fa20f</guid>
@@ -502,18 +508,6 @@
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Ramat-Gan-Israel/Senior-Software-Engineer---Infrastructure-Team_R-274423</link>
       <guid isPermaLink="false">77a86fc892d7f3fa</guid>
       <description>Ramat-Gan, Israel · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Engineer_JR1994007</link>
-      <guid isPermaLink="false">3462c23115353357</guid>
-      <description>Israel, Tel Aviv · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Software Developer - Networking</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Developer---Networking_JR2024804</link>
-      <guid isPermaLink="false">6a5513d27aea61b2</guid>
-      <description>Israel, Yokneam +1 more · other · 1d</description>
     </item>
   </channel>
 </rss>
