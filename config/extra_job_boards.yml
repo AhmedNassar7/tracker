@@ -126,6 +126,7 @@ greenhouse:
   - siei                                 # Sony Interactive Entertainment Inc. — verified 2026-09-10, 62 postings (Tokyo-heavy)
   # 2026-09-11 — MENA/Gulf sweep sourced from yabnee.dev's Gulf & MENA company list.
   - hala          # Riyadh, Saudi Arabia — fintech/payments — verified 2026-09-11, 14 jobs incl. AI & System Engineer (Riyadh)
+  - jetbrains     # Prague-HQ'd (careers page links job-boards.eu.greenhouse.io) — verified 2026-09-15 via boards-api.greenhouse.io, 68 jobs incl. Senior Compiler Developer (Kotlin Compiler), Founding ML Engineer (Amsterdam/Belgrade/Berlin/Prague/Warsaw/remote)
 
 lever:
   # Same discipline: real Lever board confirmed live 2026-08-18 with actual

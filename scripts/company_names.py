@@ -60,6 +60,7 @@ CANONICAL = {
     "palantir": "Palantir",
     "databricks": "Databricks",
     "snowflake": "Snowflake",
+    "jetbrains": "JetBrains",
     "amazon web services": "Amazon Web Services",
 }
 

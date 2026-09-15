@@ -4,13 +4,13 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Tue, 15 Sep 2026 09:14:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 14:12:55 GMT</lastBuildDate>
     <item>
       <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
       <guid isPermaLink="false">1ce62c63e37bc29e</guid>
-      <description>Mexico · mid_level · 1d</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Mexico · mid_level · 0d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Lyft — Software Engineer - Self Service Intelligence, SCC Eng</title>
@@ -140,16 +140,16 @@
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
-      <guid isPermaLink="false">e8aaee1125e832cc</guid>
-      <description>Mexico · mid_level · 35d</description>
+      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
+      <guid isPermaLink="false">f8ef52a2739afce1</guid>
+      <description>Brazil · mid_level · 35d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
-      <guid isPermaLink="false">f8ef52a2739afce1</guid>
-      <description>Brazil · mid_level · 35d</description>
+      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
+      <guid isPermaLink="false">e8aaee1125e832cc</guid>
+      <description>Mexico · mid_level · 35d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -233,13 +233,7 @@
       <title>Salesforce — ETL Software Engineer | Data</title>
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/ETL-Software-Engineer---Data_JR357458</link>
       <guid isPermaLink="false">be29d9cde12dd442</guid>
-      <description>Mexico - Mexico City · other · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Java Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Java-Software-Engineer_R-289283</link>
-      <guid isPermaLink="false">d8c549522cc4febc</guid>
-      <description>Mexico City, Mexico · other · 3d</description>
+      <description>Mexico - Mexico City · other · 1d</description>
     </item>
   </channel>
 </rss>
