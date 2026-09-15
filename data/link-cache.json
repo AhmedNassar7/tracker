@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-15T14:37:37Z",
+ "generated_at": "2026-09-15T15:00:09Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
-   "at": "2026-09-14T00:11:12Z"
+   "at": "2026-09-15T15:00:09Z"
   },
   "/buildercommunityanz?k=c": {
    "alive": true,
@@ -31,7 +31,7 @@
   },
   "/stationdc?k=c": {
    "alive": true,
-   "at": "2026-09-14T00:11:12Z"
+   "at": "2026-09-15T15:00:09Z"
   },
   "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008": {
    "alive": true,
@@ -4884,6 +4884,14 @@
   "https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004&utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-09-15T14:37:37Z"
+  },
+  "https://epicgames.com/careers/jobs/6186137004?gh_jid=6186137004": {
+   "alive": true,
+   "at": "2026-09-15T15:00:09Z"
+  },
+  "https://epicgames.com/careers/jobs/6186139004?gh_jid=6186139004": {
+   "alive": true,
+   "at": "2026-09-15T15:00:09Z"
   },
   "https://ethereum-bolivia-buildathon.devfolio.co": {
    "alive": true,
@@ -12275,11 +12283,11 @@
   },
   "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer--Launch-Program-2027---United-States_R-288578-1": {
    "alive": true,
-   "at": "2026-09-11T21:42:50Z"
+   "at": "2026-09-15T15:00:09Z"
   },
   "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1": {
    "alive": true,
-   "at": "2026-09-11T21:42:50Z"
+   "at": "2026-09-15T15:00:09Z"
   },
   "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1?utm_source=Simplify&ref=Simplify": {
    "alive": true,
@@ -15013,6 +15021,10 @@
    "alive": true,
    "at": "2026-09-15T14:05:46Z"
   },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/Staff-Software-Engineer_REF084832W-1": {
+   "alive": true,
+   "at": "2026-09-15T15:00:09Z"
+  },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Director--Backend-Product-Management_REF088359W": {
    "alive": true,
    "at": "2026-09-15T14:05:46Z"
@@ -15467,7 +15479,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10387371/software-development-engineer-ii-aws-networking-applications-sidr": {
    "alive": true,
-   "at": "2026-09-14T23:51:46Z"
+   "at": "2026-09-15T14:59:49Z"
   },
   "https://www.amazon.jobs/en/jobs/10387823/software-development-engineer-software-defined-network-control-plane-amazon-leo": {
    "alive": true,
@@ -16051,7 +16063,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10443835/software-development-engineer-digital-payments-and-emerging-markets": {
    "alive": true,
-   "at": "2026-09-14T23:51:46Z"
+   "at": "2026-09-15T14:59:49Z"
   },
   "https://www.amazon.jobs/en/jobs/10443980/software-development-engineer-ii-ww-prime-tech": {
    "alive": true,
@@ -16075,7 +16087,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10446946/software-development-engineer-ii-aws-firmware-builder-services": {
    "alive": true,
-   "at": "2026-09-14T23:51:46Z"
+   "at": "2026-09-15T14:59:49Z"
   },
   "https://www.amazon.jobs/en/jobs/10446957/software-development-engineer-ii-fintech-tfaw": {
    "alive": true,
@@ -16327,7 +16339,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10465260/software-development-engineer-ii-aws-iam-identity-center": {
    "alive": true,
-   "at": "2026-09-14T23:51:46Z"
+   "at": "2026-09-15T14:59:49Z"
   },
   "https://www.amazon.jobs/en/jobs/10465850/software-development-engineer-ads-ai-core-infra": {
    "alive": true,
@@ -16983,7 +16995,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10488870/software-development-engineer-ii-aws-catalog-sagemaker-lakehouse": {
    "alive": true,
-   "at": "2026-09-14T23:51:46Z"
+   "at": "2026-09-15T14:59:49Z"
   },
   "https://www.amazon.jobs/en/jobs/10488872/software-development-engineer-aws-catalog": {
    "alive": true,
@@ -17403,7 +17415,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10498176/software-development-engineer-2-amazon-kids-amazon-kids": {
    "alive": true,
-   "at": "2026-09-14T23:51:46Z"
+   "at": "2026-09-15T14:59:49Z"
   },
   "https://www.amazon.jobs/en/jobs/10498347/embedded-software-development-engineer-rbks-camera-asic": {
    "alive": true,
@@ -19197,6 +19209,10 @@
    "alive": true,
    "at": "2026-09-15T14:37:37Z"
   },
+  "https://www.amazon.jobs/en/jobs/10541733/software-development-engineer-ads-nova": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
   "https://www.amazon.jobs/en/jobs/3017401/software-development-engineer-amazon-redshift-query-processing": {
    "alive": true,
    "at": "2026-09-15T14:37:37Z"
@@ -20549,13 +20565,85 @@
    "alive": true,
    "at": "2026-09-15T14:05:46Z"
   },
+  "https://www.linkedin.com/jobs/view/4321301694": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
   "https://www.linkedin.com/jobs/view/4384258608": {
    "alive": true,
    "at": "2026-09-14T04:55:00Z"
   },
+  "https://www.linkedin.com/jobs/view/4404059914": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418822810": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418824785": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418824830": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418825676": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418832556": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418832558": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418834450": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418837401": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418843146": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4418844091": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4419097468": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4419301372": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
   "https://www.linkedin.com/jobs/view/4455914357": {
    "alive": true,
    "at": "2026-09-14T04:55:00Z"
+  },
+  "https://www.linkedin.com/jobs/view/4460031780": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4460115570": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4461530764": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
+  },
+  "https://www.linkedin.com/jobs/view/4461536634": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
   },
   "https://www.mitaiconference.org": {
    "alive": true,
@@ -21760,6 +21848,10 @@
   "https://zapply.jobs/l/d/greenhouse-lyft-8797837002?s=gh-internships-2027": {
    "alive": true,
    "at": "2026-09-15T04:52:33Z"
+  },
+  "https://zapply.jobs/l/d/greenhouse-pinterest-7473497?s=gh-canada-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-15T14:59:49Z"
   },
   "https://zapply.jobs/l/d/greenhouse-robinhood-8123225?s=gh-internships-2027": {
    "alive": true,
