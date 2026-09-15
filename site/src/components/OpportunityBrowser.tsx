@@ -34,11 +34,10 @@ import { profileCanMatch, scoreJobForProfile, type JobMatch } from "../lib/profi
 import { companyTier } from "../lib/companyTiers";
 import { countryForItem, regionForItem, REGION_ORDER } from "../lib/geo";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
-import { checkAndNotify } from "../lib/notifications";
+import { pushWebhookMatches } from "../lib/notifications";
 import Pagination from "./Pagination";
 import CompanyShowcase from "./CompanyShowcase";
 import FilterBar from "./FilterBar";
-import NotificationToggle from "./NotificationToggle";
 import OpportunityTable from "./OpportunityTable";
 import SavedSearches from "./SavedSearches";
 import SkeletonTable from "./SkeletonTable";
@@ -197,15 +196,13 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     };
   }, []);
 
-  // Lane C7 — the opt-in per-visit alert check (new saved-search matches,
-  // bookmarked deadlines within 48h). No-ops instantly unless the visitor
-  // has explicitly turned alerts on; internally rate-limited to roughly
-  // once per pipeline refresh, so this firing on every trackedApps change
-  // doesn't mean it re-notifies every time.
+  // Lane C4 — per-search webhook push. No-ops instantly unless a saved
+  // search has a webhook set; rate-limited to roughly once per pipeline
+  // refresh internally.
   useEffect(() => {
     if (state.status !== "loaded") return;
-    checkAndNotify(state.data.items, trackedApps);
-  }, [state, trackedApps]);
+    pushWebhookMatches(state.data.items);
+  }, [state]);
 
   // The saved profile drives the "Best for you" sort + per-row match chips.
   useEffect(() => {
@@ -631,10 +628,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
         )}
       </div>
 
-      <div className="flex flex-wrap items-start justify-between gap-2">
-        <SavedSearches filters={filters} onApply={setFilters} />
-        <NotificationToggle />
-      </div>
+      <SavedSearches filters={filters} onApply={setFilters} />
 
       <FilterBar
         filters={filters}
