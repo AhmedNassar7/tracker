@@ -18,6 +18,10 @@ to widen coverage:
 - SmartRecruiters public postings API (companies listed in config/extra_job_boards.yml)
 - PinpointHQ public postings (companies listed in config/extra_job_boards.yml)
 - Workable public job board widget API (companies listed in config/extra_job_boards.yml)
+- Recruitee public offers API (companies listed in config/extra_job_boards.yml)
+- BambooHR public careers board (companies listed in config/extra_job_boards.yml)
+- Freshteam public careers page — HTML scrape, no JSON API exists (companies listed in
+  config/extra_job_boards.yml)
 """
 
 from __future__ import annotations
@@ -647,6 +651,156 @@ def fetch_recruitee_jobs(slug, company_name):
     return jobs
 
 
+def _bamboohr_location(loc):
+    if not isinstance(loc, dict):
+        return ""
+    parts = [loc.get("city"), loc.get("state"), loc.get("addressCountry") or loc.get("country")]
+    return clean_text(", ".join(p for p in parts if p))
+
+
+def fetch_bamboohr_job_detail(token, job_id):
+    """BambooHR's list endpoint (see fetch_bamboohr_jobs) gives no
+    description, precise location, or posted date — a second per-job GET at
+    /careers/<id>/detail returns all three. Every posting needs this call
+    (unlike Workday's "only multi-location rows" case), but a BambooHR
+    board is typically a handful of postings, so the extra request per job
+    is cheap. Confirmed live 2026-09-15 against instabug.bamboohr.com."""
+    try:
+        payload = fetch_json(f"https://{token}.bamboohr.com/careers/{job_id}/detail")
+    except Exception as exc:
+        log_warn(f"BambooHR detail fetch failed for {token}/{job_id}: {exc}")
+        return {}
+    return (payload.get("result") or {}).get("jobOpening") or {}
+
+
+def fetch_bamboohr_jobs(token, company_name):
+    """BambooHR public careers board — https://<token>.bamboohr.com/careers/list
+    is a keyless GET returning {"result": [...]}, one bare {id, jobOpeningName,
+    location} per posting. `token` is the BambooHR subdomain, NOT necessarily
+    the company's current brand name (Instabug rebranded to Luciq but the
+    board is still instabug.bamboohr.com). Confirmed live 2026-09-15.
+    """
+    list_url = f"https://{token}.bamboohr.com/careers/list"
+    try:
+        payload = fetch_json(list_url)
+    except Exception as exc:
+        log_warn(f"BambooHR fetch failed for {token}: {exc}")
+        return []
+
+    jobs = []
+    for row in (payload.get("result") or []) if isinstance(payload, dict) else []:
+        title = clean_text(row.get("jobOpeningName") or "")
+        job_id = str(row.get("id") or "")
+        if not (title and job_id) or not is_software_job(title):
+            continue
+        url = f"https://{token}.bamboohr.com/careers/{job_id}"
+        detail = fetch_bamboohr_job_detail(token, job_id)
+        base_location = _bamboohr_location(detail.get("location")) or _bamboohr_location(row.get("location"))
+        # Region from the office location BEFORE any "(Remote)" suffix, same
+        # rule as PinpointHQ/Workable/Recruitee.
+        region = detect_region(base_location) if base_location else "unknown"
+        location = base_location
+        if detail.get("isRemote") and "remote" not in base_location.lower():
+            location = f"{base_location} (Remote)".strip() if base_location else "Remote"
+            if region == "unknown":
+                region = "remote"
+        posted_at = parse_iso_date(detail.get("datePosted") or "")
+        description = clean_text(detail.get("description") or "")
+        job = {
+            "id": make_id("bamboohr", token, title, url),
+            "kind": "job",
+            "company": company_name or prettify_company_name(token),
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": region,
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"bamboohr:{token}",
+            "source_url": list_url,
+        }
+        job.update(job_facets(title, location, description))
+        jobs.append(job)
+    return jobs
+
+
+FRESHTEAM_ANCHOR_RE = re.compile(r'<a\s+([^>]*class="heading"[^>]*)>(.*?)</a>', re.DOTALL)
+FRESHTEAM_ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
+FRESHTEAM_TITLE_RE = re.compile(r'<div\s+class="job-title">(.*?)</div>', re.DOTALL)
+FRESHTEAM_DESC_RE = re.compile(r'<div\s+class="job-desc text">(.*?)</div>', re.DOTALL)
+FRESHTEAM_REMOTE_RE = re.compile(r'data-portal-remote-location="?true"?')
+
+
+def fetch_freshteam_jobs(slug, company_name):
+    """Freshteam public careers page — https://<slug>.freshteam.com/jobs is
+    fully server-rendered HTML with no JSON API behind it (confirmed
+    2026-09-15: the page's own job_filter JS bundle only shows/hides the
+    already-rendered DOM by its data-portal-* attributes — no fetch call
+    anywhere in it). An HTML scrape, same category as
+    community_board_parser.py, is the only option here, not a shortcut
+    around a JSON API that doesn't exist.
+
+    Each posting is one `<a class="heading" href="/jobs/<id>/<slug>"
+    data-portal-location="..." data-portal-remote-location=true|false>`
+    wrapping a `.job-title` div and a short `.job-desc text` excerpt — that
+    excerpt is NOT the full JD (Freshteam doesn't render one on the list
+    page, and there's no separate per-job detail endpoint to fall back to
+    the way BambooHR has), so facet detection here has less text to work
+    with than a source with a real description; it still only reports what
+    that excerpt actually says, never fabricating the rest. `slug` is the
+    <slug>.freshteam.com subdomain. Confirmed live 2026-09-15 against
+    locus.freshteam.com, sequoiaat.freshteam.com, and pricelabs.freshteam.com
+    (the last one a real board with 0 open roles — the empty-state case).
+    """
+    list_url = f"https://{slug}.freshteam.com/jobs"
+    try:
+        page = fetch_url(list_url)
+    except Exception as exc:
+        log_warn(f"Freshteam fetch failed for {slug}: {exc}")
+        return []
+
+    jobs = []
+    for attrs_blob, body in FRESHTEAM_ANCHOR_RE.findall(page):
+        attrs = dict(FRESHTEAM_ATTR_RE.findall(attrs_blob))
+        href = attrs.get("href") or ""
+        if not href:
+            continue
+        url = href if href.startswith("http") else f"https://{slug}.freshteam.com{href}"
+        title_match = FRESHTEAM_TITLE_RE.search(body)
+        title = clean_text(title_match.group(1)) if title_match else ""
+        if not (title and url) or not is_software_job(title):
+            continue
+        base_location = clean_text(attrs.get("data-portal-location") or "")
+        region = detect_region(base_location) if base_location else "unknown"
+        location = base_location
+        if FRESHTEAM_REMOTE_RE.search(attrs_blob) and "remote" not in base_location.lower():
+            location = f"{base_location} (Remote)".strip() if base_location else "Remote"
+            if region == "unknown":
+                region = "remote"
+        desc_match = FRESHTEAM_DESC_RE.search(body)
+        description = clean_text(desc_match.group(1)) if desc_match else ""
+        job = {
+            "id": make_id("freshteam", slug, title, url),
+            "kind": "job",
+            "company": company_name or prettify_company_name(slug),
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": region,
+            "role_type": detect_role_type(title),
+            "date": "",
+            "posted_at": "",
+            "url": url,
+            "source": f"freshteam:{slug}",
+            "source_url": list_url,
+        }
+        job.update(job_facets(title, location, description))
+        jobs.append(job)
+    return jobs
+
+
 def fetch_smartrecruiters_jobs(company_slug, company_name):
     api_url = f"https://api.smartrecruiters.com/v1/companies/{company_slug}/postings?limit=100"
     try:
@@ -830,6 +984,7 @@ def load_extra_job_boards():
     boards = {
         "ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [],
         "workday": [], "pinpoint": [], "workable": [], "recruitee": [],
+        "bamboohr": [], "freshteam": [],
     }
     if not path.exists():
         return boards
@@ -1570,6 +1725,24 @@ def main():
         rows.extend(_run_concurrently(
             fetch_recruitee_jobs,
             [(slug, prettify_company_name(slug.replace("-", " "))) for slug in extra_boards["recruitee"]],
+        ))
+
+    # BambooHR (config only). Each account is its own <token>.bamboohr.com
+    # subdomain, so no shared-host cap needed — same as Workday/PinpointHQ/Recruitee.
+    if extra_boards["bamboohr"]:
+        log_info(f"Loaded {len(extra_boards['bamboohr'])} BambooHR boards from config")
+        rows.extend(_run_concurrently(
+            fetch_bamboohr_jobs,
+            [(token, prettify_company_name(token.replace("-", " "))) for token in extra_boards["bamboohr"]],
+        ))
+
+    # Freshteam (config only). Each account is its own <slug>.freshteam.com
+    # subdomain, so no shared-host cap needed — same as Workday/PinpointHQ/Recruitee.
+    if extra_boards["freshteam"]:
+        log_info(f"Loaded {len(extra_boards['freshteam'])} Freshteam boards from config")
+        rows.extend(_run_concurrently(
+            fetch_freshteam_jobs,
+            [(slug, prettify_company_name(slug.replace("-", " "))) for slug in extra_boards["freshteam"]],
         ))
 
     rows = dedupe(rows)

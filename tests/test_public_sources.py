@@ -553,6 +553,96 @@ def main():
         rec_empty = mod.fetch_recruitee_jobs("empty", "Empty Co")
     run("recruitee: empty board → no rows, no raise", lambda: check("recruitee empty", rec_empty == []))
 
+    # BambooHR — /careers/list gives a bare {id, jobOpeningName, location} per
+    # posting, no description/date; a second per-job /careers/<id>/detail GET
+    # fills those in. Only the software-filtered posting should ever trigger
+    # that second call — the test's fake fetch_json raises on anything else.
+    bamboohr_list_payload = {
+        "result": [
+            {"id": "10", "jobOpeningName": "Backend Engineer", "location": {"city": "Cairo", "state": None}},
+            {"id": "11", "jobOpeningName": "Sales Manager", "location": {"city": "Cairo", "state": None}},
+        ]
+    }
+    bamboohr_detail_payload = {
+        "result": {
+            "jobOpening": {
+                "location": {"city": "Cairo", "addressCountry": "Egypt"},
+                "isRemote": True,
+                "datePosted": "2026-03-01",
+                "description": "<p>Work with Python and Docker. Visa sponsorship provided.</p>",
+            }
+        }
+    }
+
+    def _fake_bamboohr_fetch_json(url):
+        if url.endswith("/careers/list"):
+            return bamboohr_list_payload
+        if url.endswith("/careers/10/detail"):
+            return bamboohr_detail_payload
+        raise AssertionError(f"unexpected BambooHR detail call for a non-software posting: {url}")
+
+    with patch.object(mod, "fetch_json", side_effect=_fake_bamboohr_fetch_json):
+        bhr_rows = mod.fetch_bamboohr_jobs("acme", "Acme")
+    run("bamboohr fetch: software filter (no detail call for the dropped row), region before remote tag, facets", lambda: check(
+        "bamboohr fetch",
+        len(bhr_rows) == 1
+        and bhr_rows[0]["company"] == "Acme"
+        and bhr_rows[0]["source"] == "bamboohr:acme"
+        and bhr_rows[0]["region"] == "mena"
+        and "Remote" in bhr_rows[0]["location"]
+        and bhr_rows[0]["posted_at"] == "2026-03-01"
+        and set(bhr_rows[0].get("tech_tags", [])) >= {"Python", "Docker"}
+        and bhr_rows[0].get("visa_sponsorship") is True,
+        details=str(bhr_rows),
+    ))
+    with patch.object(mod, "fetch_json", return_value={"result": []}):
+        bhr_empty = mod.fetch_bamboohr_jobs("empty", "Empty Co")
+    run("bamboohr: empty board → no rows, no raise", lambda: check("bamboohr empty", bhr_empty == []))
+
+    # Freshteam — no JSON API (confirmed 2026-09-15), so this is an HTML
+    # scrape of the server-rendered careers page. Each posting is one
+    # <a class="heading"> anchor carrying data-portal-location and an
+    # unquoted data-portal-remote-location=true|false attribute.
+    freshteam_html = """
+    <div class="job-list">
+      <a href="/jobs/AAA111/backend-engineer" class="heading" data-portal-title="backendengineer"
+         data-portal-location="Cairo, Egypt" data-portal-job-type="2" data-portal-remote-location=true>
+        <div class="row">
+          <div class="job-list-info">
+            <div class="job-title">Backend Engineer</div>
+            <div  class="job-desc text">Build APIs in Go and PostgreSQL. Visa sponsorship available.</div>
+          </div>
+        </div>
+      </a>
+      <a href="/jobs/BBB222/sales-manager" class="heading" data-portal-title="salesmanager"
+         data-portal-location="Cairo, Egypt" data-portal-job-type="2" data-portal-remote-location=false>
+        <div class="row">
+          <div class="job-list-info">
+            <div class="job-title">Sales Manager</div>
+            <div  class="job-desc text">Manage the sales team.</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    """
+    with patch.object(mod, "fetch_url", return_value=freshteam_html):
+        ft_rows = mod.fetch_freshteam_jobs("acme", "Acme")
+    run("freshteam fetch: HTML scrape, software filter, region before remote tag, facets", lambda: check(
+        "freshteam fetch",
+        len(ft_rows) == 1
+        and ft_rows[0]["company"] == "Acme"
+        and ft_rows[0]["source"] == "freshteam:acme"
+        and ft_rows[0]["url"] == "https://acme.freshteam.com/jobs/AAA111/backend-engineer"
+        and ft_rows[0]["region"] == "mena"
+        and "Remote" in ft_rows[0]["location"]
+        and set(ft_rows[0].get("tech_tags", [])) >= {"Go", "PostgreSQL"}
+        and ft_rows[0].get("visa_sponsorship") is True,
+        details=str(ft_rows),
+    ))
+    with patch.object(mod, "fetch_url", return_value="<div class=\"job-list\"></div>"):
+        ft_empty = mod.fetch_freshteam_jobs("empty", "Empty Co")
+    run("freshteam: empty board → no rows, no raise", lambda: check("freshteam empty", ft_empty == []))
+
     smartrecruiters_payload = {
         "content": [
             {
@@ -668,6 +758,8 @@ def main():
             # This is the regression test for that.
             "greenhouse:\n  - careem  # Dubai, UAE — verified live 2026-08-18\n\nlever:\n  - somecompany\n\n"
             "workable:\n  - foodics  # Riyadh\n\n"
+            "bamboohr:\n  - acme  # example\n\n"
+            "freshteam:\n  - locus  # Bengaluru\n\n"
             "workday:\n  - Salesforce | salesforce.wd12.myworkdayjobs.com | External_Career_Site  # 527 SWE results\n"
             "  - bad workday line with no pipes\n",
             encoding="utf-8",
@@ -687,6 +779,11 @@ def main():
             "workable section parsed",
             boards["workable"] == ["foodics"],
             details=str(boards["workable"]),
+        ))
+        run("load extra job boards config parses the bamboohr and freshteam sections", lambda: check(
+            "bamboohr/freshteam sections parsed",
+            boards["bamboohr"] == ["acme"] and boards["freshteam"] == ["locus"],
+            details=f"bamboohr={boards['bamboohr']!r} freshteam={boards['freshteam']!r}",
         ))
         run("workday section parses 'Company | host | site' triples and skips malformed lines", lambda: check(
             "workday triples parsed",

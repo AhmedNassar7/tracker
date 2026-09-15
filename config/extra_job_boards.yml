@@ -217,6 +217,26 @@ recruitee:
   - synapseanalytics   # Cairo, Egypt AI/data consultancy — verified 2026-09-11, 12 offers incl. iOS Development Intern (Maadi)
   - cognitev           # Cairo, Egypt adtech — verified 2026-09-11, 4 offers incl. Backend Engineer, Mobile Engineer (6th of October City)
 
+bamboohr:
+  # BambooHR public careers board — the value is the <token>.bamboohr.com
+  # subdomain (NOT necessarily the company's current brand name). Keyless GET
+  # on https://<token>.bamboohr.com/careers/list. Verify with:
+  #   python scripts/verify_extra_boards.py bamboohr:<token>
+  # Empty for now: instabug (real board, confirmed 2026-09-15) has exactly one
+  # opening and it isn't a software role; every MENA guess tried (swvl,
+  # paymob, vezeeta, trella, maxab, elmenus, capiter, breadfast) 302-redirects
+  # to bamboohr.com's marketing page — not a real subdomain, not a network
+  # issue. Fetcher is built and confirmed against instabug's real API shape;
+  # just needs a real company with open software roles to seed.
+
+freshteam:
+  # Freshteam public careers page — the value is the <slug>.freshteam.com
+  # subdomain. No JSON API exists (confirmed 2026-09-15 — it's a fully
+  # server-rendered page, scraped via fetch_freshteam_jobs). Verify a
+  # candidate by just opening https://<slug>.freshteam.com/jobs by hand.
+  - locus       # Locus.sh — Bengaluru logistics-tech (TMS) — verified 2026-09-15, real SWE/Staff Engineer roles
+  - sequoiaat   # Sequoia Applied Technologies — Chennai/Santa Clara — verified 2026-09-15, 15+ real software roles (Golang/Java/React/Vue/DevOps/Embedded)
+
 workday:
   # Big global employers whose careers site is Workday but who never get
   # auto-discovered because no curated source links a *.myworkdayjobs.com URL

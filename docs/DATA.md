@@ -32,6 +32,9 @@ No database. All state is JSON files committed under [data/](../data/), regenera
 | SmartRecruiters | `api.smartrecruiters.com/v1/companies/<slug>/postings?limit=100` | Manual — `config/extra_job_boards.yml` |
 | PinpointHQ | `https://<host>/postings.json` — `<host>` is `<token>.pinpointhq.com` for a bare token, or a full custom careers host if the token contains a dot | Manual — `config/extra_job_boards.yml` `pinpoint:` section |
 | Workable | `apply.workable.com/api/v1/widget/accounts/<slug>?details=true` (one keyless GET; `{name, jobs:[…]}` with full HTML JD inline) | Manual — `config/extra_job_boards.yml` `workable:` section |
+| Recruitee | `<slug>.recruitee.com/api/offers/` (one keyless GET; `{offers:[…]}`, `status=="published"` only) | Manual — `config/extra_job_boards.yml` `recruitee:` section |
+| BambooHR | `<token>.bamboohr.com/careers/list` (list) + `/careers/<id>/detail` (one extra GET per posting, for description/location/date) | Manual — `config/extra_job_boards.yml` `bamboohr:` section |
+| Freshteam | `<slug>.freshteam.com/jobs` — **HTML scrape, no JSON API exists** for this ATS | Manual — `config/extra_job_boards.yml` `freshteam:` section |
 | Devpost | `devpost.com/api/hackathons?status[]=open&order_by=recently-added&page=N` | Standalone (not company-driven) |
 | Unstop | `unstop.com/api/public/opportunity/search-result?opportunity=hackathons&oppstatus=recruiting&page=N` | Standalone; paginated, filtered to still-recruiting hackathons |
 | Devfolio | `api.devfolio.co/api/hackathons?page=N` | Standalone; filtered client-side to events whose `ends_at` hasn't passed |
@@ -92,7 +95,7 @@ Used by all three arrays (`jobs`, `hackathons`, `events`) in `data/public-opport
 | `url` | string | Absolute URL, except Luma events which use a site-relative path |
 | `source` | string | e.g. `greenhouse:stripe`, `lever:acme`, `pinpoint:tabby.pinpointhq.com`, `workable:foodics`, `devpost`, `luma` |
 | `source_url` | string (uri) | |
-| `tech_tags`, `visa_sponsorship`, `degree_required`, `relocation`, `salary` | array / boolean / object | Job-only, optional B3/B4/B5 facets — same strict-positive rules as `SiteIndexEntry` below. Populated for Greenhouse (`?content=true`), Lever (`descriptionPlain` + `lists`), Ashby (`descriptionPlain`), PinpointHQ (`description` + `key_responsibilities` + `skills_knowledge_expertise`), and Workable (`description` HTML); other public sources omit them |
+| `tech_tags`, `visa_sponsorship`, `degree_required`, `relocation`, `salary` | array / boolean / object | Job-only, optional B3/B4/B5 facets — same strict-positive rules as `SiteIndexEntry` below. Populated for Greenhouse (`?content=true`), Lever (`descriptionPlain` + `lists`), Ashby (`descriptionPlain`), PinpointHQ (`description` + `key_responsibilities` + `skills_knowledge_expertise`), Workable (`description` HTML), Recruitee (`description` + `requirements` HTML), and BambooHR (`description` HTML, from the per-job detail call); Freshteam feeds a short listing-page excerpt rather than a full JD (no fuller text is available), so its facet detection is correspondingly sparser. Other public sources omit these keys entirely |
 
 ### `SiteIndexEntry` — [config/site-index.schema.json](../config/site-index.schema.json)
 
@@ -114,7 +117,7 @@ Used by the `items` array in `data/site-index.json`, written by `build_site_inde
 | `category`, `remote_type` | string / enum | Job-only, **curated-origin only** — omitted (not `""`/guessed) on public items |
 | `country` | string | Job-only, **both origins**. Public rows get `detect_country()` over `location` in `build_site_index`. `"Unknown"` / `"Remote"` are kept so counts stay honest |
 | `country_flag` | string | Job-only. Flag emoji for `country` (`scripts/patterns.py` `country_flag()`). Absent for `Unknown` / `Remote` / country not in the ISO-2 table |
-| `tech_tags` | string[] | Job-only. Canonical tags (`React`, `Go`, `Kubernetes`, …) from `detect_tech_tags` over the description. Only for sources with a full description (Greenhouse/Lever/Ashby/PinpointHQ/Workable + curated Remotive/ArbeitNow); omitted — never `[]` — otherwise |
+| `tech_tags` | string[] | Job-only. Canonical tags (`React`, `Go`, `Kubernetes`, …) from `detect_tech_tags` over the description. Only for sources with description text (Greenhouse/Lever/Ashby/PinpointHQ/Workable/Recruitee/BambooHR + curated Remotive/ArbeitNow have a full JD; Freshteam only a short excerpt); omitted — never `[]` — otherwise |
 | `visa_sponsorship`, `degree_required`, `relocation` | boolean | Job-only, **explicit-only**. `true`/`false` only when the description says so (negative wins over positive); a silent posting has no key, never a default `false`. From `detect_requirements` |
 | `min_years_experience` | integer 1–20 | Job-only, **explicit-only**. Lower bound of a stated YoE requirement ("3+ years… experience" → 3), only when an "experience" word follows the number. From `detect_requirements` |
 | `languages_required` | string[] | Job-only, **explicit-only**. Spoken languages next to a fluency cue ("fluent in German"). Never programming languages, never English. From `detect_requirements` |

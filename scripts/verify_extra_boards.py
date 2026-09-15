@@ -44,7 +44,9 @@ or empty, so this can gate CI later if wanted. A "couldn't reach" line
 """
 from __future__ import annotations
 
+import html
 import json
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -162,6 +164,19 @@ def _get(url: str) -> tuple[int, object]:
         return e.code, None
     except Exception:
         return -1, None
+
+
+def _get_text(url: str) -> tuple[int, str]:
+    """Same contract as `_get`, but for a plain-HTML board (Freshteam has no
+    JSON API) — returns the raw decoded body instead of parsed JSON."""
+    req = urllib.request.Request(url, headers=UA)
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+            return resp.status, resp.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        return e.code, ""
+    except Exception:
+        return -1, ""
 
 
 def _sample(rows: list[dict], title_key: str, loc_key) -> str:
@@ -290,6 +305,26 @@ def check_bamboohr(token: str) -> tuple[str, bool]:
     )
 
 
+def check_freshteam(slug: str) -> tuple[str, bool]:
+    """Freshteam careers page (e.g. locus.freshteam.com/jobs). No JSON API
+    exists (confirmed 2026-09-15 — it's a fully server-rendered page,
+    scraped the same way fetch_freshteam_jobs does). An *unclaimed*
+    subdomain still serves an HTTP 200 "we couldn't find <domain>" page, so
+    status alone doesn't confirm a real board — check for that marker too."""
+    status, body = _get_text(f"https://{slug}.freshteam.com/jobs")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach {slug}.freshteam.com — network/proxy? not a verdict{RESET}", False
+    if status == 404 or not body:
+        return f"{RED}✗ no Freshteam board at {slug}.freshteam.com ({status}){RESET}", False
+    if "couldn't find" in body.lower():
+        return f"{RED}✗ '{slug}' isn't a claimed Freshteam subdomain{RESET}", False
+    titles = [html.unescape(t.strip()) for t in re.findall(r'<div\s+class="job-title">(.*?)</div>', body, re.DOTALL)]
+    if not titles:
+        return f"{YELLOW}⚠ valid Freshteam board but 0 open roles — do NOT add{RESET}", False
+    sample = "\n".join(f"      {DIM}· {t}{RESET}" for t in titles[:3])
+    return f"{GREEN}✓ REAL — {slug}.freshteam.com, {len(titles)} openings{RESET}\n{sample}", True
+
+
 def check_recruitee(token: str) -> tuple[str, bool]:
     """Recruitee careers subdomain (e.g. moneyhash.recruitee.com). Public
     keyless JSON at /api/offers/ — {"offers": [...]}."""
@@ -358,6 +393,7 @@ CHECKERS = {
     "ashby": check_ashby,
     "smartrecruiters": check_smartrecruiters,
     "bamboohr": check_bamboohr,
+    "freshteam": check_freshteam,
     "recruitee": check_recruitee,
     "pinpoint": check_pinpoint,
     "workable": check_workable,
@@ -386,7 +422,10 @@ def tokens_from_config() -> list[tuple[str, str]]:
 # Platforms the pipeline can actually poll today (public_sources.py has a
 # fetcher + load_extra_job_boards reads the section). A ✓ on any OTHER
 # platform is real, but adding it needs a new fetcher first (Lane M3).
-PIPELINE_SUPPORTED = {"greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint", "workable", "recruitee"}
+PIPELINE_SUPPORTED = {
+    "greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint", "workable", "recruitee",
+    "bamboohr", "freshteam",
+}
 
 
 def _dump(plat: str, tok: str) -> int:

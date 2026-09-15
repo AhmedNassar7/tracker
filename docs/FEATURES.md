@@ -128,15 +128,19 @@ flowchart TD
 
 **Purpose:** Widen coverage far beyond the curated allowlist by polling the actual ATS (applicant tracking system) APIs behind companies already seen in the curated feed — no manual company list needed for the three biggest ATS platforms.
 
-**Where it lives:** [scripts/public_sources.py](../scripts/public_sources.py) — `discover_job_board_sources()`, `fetch_greenhouse_board_jobs`, `fetch_lever_jobs`, `fetch_workday_jobs`, `fetch_ashby_board_jobs`, `fetch_smartrecruiters_jobs`, `fetch_pinpoint_jobs`, `fetch_workable_jobs`.
+**Where it lives:** [scripts/public_sources.py](../scripts/public_sources.py) — `discover_job_board_sources()`, `fetch_greenhouse_board_jobs`, `fetch_lever_jobs`, `fetch_workday_jobs`, `fetch_ashby_board_jobs`, `fetch_smartrecruiters_jobs`, `fetch_pinpoint_jobs`, `fetch_workable_jobs`, `fetch_recruitee_jobs`, `fetch_bamboohr_jobs`, `fetch_freshteam_jobs`.
 
-**How it works:** `discover_job_board_sources()` scans every URL already in `data/jobs-global.json` (the curated layer's output) for a Greenhouse board token, Lever company slug, or Workday `(host, site)` pair, using dedicated URL-shape extractors. Any company found this way gets its full board polled directly on the *next* run — no config file entry required. Ashby, SmartRecruiters, PinpointHQ, and Workable can't be auto-discovered this way (no reliable URL signature), so their companies are curated by hand in `config/extra_job_boards.yml`.
+**How it works:** `discover_job_board_sources()` scans every URL already in `data/jobs-global.json` (the curated layer's output) for a Greenhouse board token, Lever company slug, or Workday `(host, site)` pair, using dedicated URL-shape extractors. Any company found this way gets its full board polled directly on the *next* run — no config file entry required. Ashby, SmartRecruiters, PinpointHQ, Workable, Recruitee, BambooHR, and Freshteam can't be auto-discovered this way (no reliable URL signature), so their companies are curated by hand in `config/extra_job_boards.yml`.
 
 **PinpointHQ (`fetch_pinpoint_jobs`):** `config/extra_job_boards.yml`'s `pinpoint:` section takes either a bare token (→ `<token>.pinpointhq.com`) or a full custom careers host (any token with a dot, e.g. `careers.moneyfellows.com`). Each host's `/postings.json` returns a bare list; `_pinpoint_location()` probes the many field names PinpointHQ tenants use for the location (`location_name`, nested `job.location`, `structure_custom_group_*` where the group title is location/office/city/country, `locations[]`), and `_pinpoint_company_from_host()` derives the display name from the host. `region` is computed from the resolved location *before* any `(Remote)` suffix is appended, so a Dubai role stays `mena` rather than collapsing to `remote`. Description is the concatenation of `description` + `key_responsibilities` + `skills_knowledge_expertise` (HTML-unescaped) so the B3/B4/B5 facet detectors have text to work with. Seeded with **Tabby** (Dubai/Riyadh) and **Money Fellows** (Cairo).
 
 **Workable (`fetch_workable_jobs`):** `config/extra_job_boards.yml`'s `workable:` section takes the `apply.workable.com/<slug>` account slug. One keyless GET on `apply.workable.com/api/v1/widget/accounts/<slug>?details=true` returns `{name, jobs:[…]}` with every posting's full HTML JD inline — no pagination for typical board sizes. `_workable_locations()` reads the `locations[]` array (authoritative for multi-site postings) or falls back to the flat `city`/`country` fields; two or more distinct locations render as a `<details>` dropdown via `format_location_display()` (same as Workday). `region` is resolved from the location(s) *before* the `(Remote)` suffix (the `telecommuting` flag drives that suffix), so a Cairo-based remote role stays `mena`. The HTML `description` feeds the B3/B4/B5 facet detectors. Seeded with **Foodics** (Riyadh), **Lucidya** (Riyadh), **Salla** (Jeddah); 2026-09-10 added **robusta** (Cairo) and **b_labs**.
 
 **Recruitee (`fetch_recruitee_jobs`):** `config/extra_job_boards.yml`'s `recruitee:` section takes the `<slug>.recruitee.com` subdomain. One keyless GET on `<slug>.recruitee.com/api/offers/` returns `{offers:[…]}`; only `status == "published"` rows are kept. `_recruitee_locations()` reads `locations[]` (or the flat `city`/`country`), region resolved *before* any `(Remote)` suffix (the `remote` flag drives it). `description` + `requirements` (HTML-unescaped) feed the facet detectors. Added 2026-09-10 for **sahl** (Cairo insurtech). The verifier's `check_recruitee` was already there; `recruitee` is now in `PIPELINE_SUPPORTED`.
+
+**BambooHR (`fetch_bamboohr_jobs`):** `config/extra_job_boards.yml`'s `bamboohr:` section takes the `<token>.bamboohr.com` subdomain (not necessarily the company's current brand name — e.g. Instabug rebranded to Luciq but the board is still `instabug.bamboohr.com`). Unlike every other ATS here, the list endpoint (`/careers/list` → `{"result": […]}`) gives only a bare `{id, jobOpeningName, location}` — no description, precise location, or posting date — so `fetch_bamboohr_job_detail()` makes a **second GET per posting** at `/careers/<id>/detail` to fill all three in. Every row needs this call (unlike Workday's "only multi-location postings" case), but a BambooHR board is typically a handful of postings, so the extra request per job is cheap. Region resolved before any `(Remote)` suffix, same rule as the other ATSes. Confirmed live 2026-09-15 against `instabug.bamboohr.com`, but its one opening isn't a software role — no company is seeded yet.
+
+**Freshteam (`fetch_freshteam_jobs`):** `config/extra_job_boards.yml`'s `freshteam:` section takes the `<slug>.freshteam.com` subdomain. **This ATS has no JSON API at all** — confirmed 2026-09-15 by inspecting its own `job_filter` JS bundle, which only shows/hides the already-rendered DOM by `data-portal-*` attributes and never calls out to anything. The careers page is fully server-rendered, so `fetch_freshteam_jobs` is a regex-based HTML scrape (the same category of source as `community_board_parser.py`, not a shortcut around an API that exists) — each posting is one `<a class="heading" href="/jobs/<id>/<slug>" data-portal-location="…" data-portal-remote-location=true|false>` anchor wrapping a `.job-title` div and a short `.job-desc text` excerpt (not the full JD — there's no per-job detail page to fall back to the way BambooHR has, so facet detection here works with less text and reports correspondingly less, never fabricating the rest). Seeded with **Locus.sh** and **Sequoia Applied Technologies** — found via web search rather than a MENA guess (no MENA company has been confirmed on Freshteam yet).
 
 *Note (2026-09-10):* the `software_engineer` role-type pattern in `patterns.py` was widened — "Software Development Engineer", "Software Dev Engineer", "SDE", "SWE", "Application Software Engineer" now classify as `software_engineer` instead of falling through to `other_swe`, which `is_software_job()` doesn't accept. Those titles were being silently dropped by every public-layer board (Greenhouse/Lever/Ashby/Workable/Recruitee/…).
 
@@ -150,6 +154,9 @@ flowchart LR
     Config --> SR["SmartRecruiters tokens"]
     Config --> PP["PinpointHQ hosts"]
     Config --> WK["Workable account slugs"]
+    Config --> RC["Recruitee subdomains"]
+    Config --> BH["BambooHR subdomains"]
+    Config --> FT["Freshteam subdomains\n(HTML scrape)"]
 
     GH --> Poll["poll each board's\npublic API directly"]
     LV --> Poll
@@ -158,6 +165,9 @@ flowchart LR
     SR --> Poll
     PP --> Poll
     WK --> Poll
+    RC --> Poll
+    BH --> Poll
+    FT --> Poll
     Poll --> Filter["is_software_job()\nfilter to engineering roles"]
     Filter --> Out["public-opportunities.json"]
 ```
