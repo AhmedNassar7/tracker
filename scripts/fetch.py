@@ -3,7 +3,7 @@
 Fetch global tech roles from multiple sources, normalize, dedupe, and export.
 Sources: Remotive, ArbeitNow, SimplifyJobs (internships & new grad), ambicuity/
 New-Grad-Jobs, speedyapply (SWE + AI), zapplyjobs, hanzili (Canada),
-DereC4/internships-and-newgrad, Amazon
+negarprh/Canadian-Tech-Internships (Canada), DereC4/internships-and-newgrad, Amazon
 (direct from amazon.jobs' own API), Netflix (direct from its Eightfold-hosted
 careers API), Apple (direct from jobs.apple.com's own keyless search API),
 Arbeitsagentur (direct from Germany's Bundesagentur für Arbeit Jobsuche API)
@@ -826,6 +826,16 @@ def fetch_hanzili_canada():
         company_idx=1, title_idx=0, location_idx=5,
     )
 
+def fetch_negarprh_canada_internships():
+    """Fetch negarprh/Canadian-Tech-Internships-2027's README job table."""
+    return _fetch_community_board(
+        "negarprh_canada_internships",
+        "https://github.com/negarprh/Canadian-Tech-Internships-2027",
+        "https://raw.githubusercontent.com/negarprh/Canadian-Tech-Internships-2027/main/README.md",
+        "negarprh_canada_internships.md",
+        company_idx=0, title_idx=1, location_idx=2,
+    )
+
 _AMAZON_POSTED_DATE_RE = re.compile(r"^([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})$")
 
 def _parse_amazon_posted_date(text):
@@ -1403,6 +1413,7 @@ SOURCE_FETCHER_NAMES = [
     "fetch_derec4_newgrad",
     "fetch_lamiiine_visa",
     "fetch_hanzili_canada",
+    "fetch_negarprh_canada_internships",
     "fetch_ambicuity_newgrad",
     "fetch_amazon",
     "fetch_netflix",

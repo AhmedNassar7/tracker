@@ -206,7 +206,9 @@ workable:
   - dubizzlemena                # Dubai, UAE classifieds/property marketplace (Dubizzle Group) — verified 2026-09-11, 49 postings incl. Data Analyst (New Cairo)
   # Accounts that exist but had 0 open roles — recheck later:
   #   2026-09-07: breadfast · rabbit · elmenus · trella · maxab · capiter ·
-  #               nas · mrsool · instashop · yassir · unifonic · zid
+  #               nas · mrsool · instashop · yassir · zid
+  #   unifonic is NOT a Workable account — it's on Recruitee (see recruitee:
+  #   section above), added 2026-09-16.
   #   2026-09-10: blink22  (Cairo app studio — Workable account exists, 0 open)
 
 recruitee:
@@ -217,6 +219,7 @@ recruitee:
   - sahl    # Cairo insurtech/payments (sahl.recruitee.com) — verified 2026-09-10, real EG software roles
   - synapseanalytics   # Cairo, Egypt AI/data consultancy — verified 2026-09-11, 12 offers incl. iOS Development Intern (Maadi)
   - cognitev           # Cairo, Egypt adtech — verified 2026-09-11, 4 offers incl. Backend Engineer, Mobile Engineer (6th of October City)
+  - unifonic           # Riyadh/Amman/Cairo CX-AI platform (custom domain jobs.unifonic.com fronts unifonic.recruitee.com) — verified 2026-09-16, 30 offers incl. Senior DevOps/SRE/ML Engineer (Cairo), Tech Internship Program - Cairo 2026. Corrects the 2026-09-07 workable.yml note below, which checked the wrong ATS for this company.
 
 bamboohr:
   # BambooHR public careers board — the value is the <token>.bamboohr.com
@@ -256,3 +259,4 @@ workday:
   - Workday | workday.wd5.myworkdayjobs.com | Workday                       # 153 SWE results
   - Valeo | valeo.wd3.myworkdayjobs.com | valeo_jobs                        # verified 2026-09-07, 1020 total incl. real Cairo posting (AI Engineer, AI4ALL)
   - PwC | pwc.wd3.myworkdayjobs.com | Global_Campus_Careers                 # verified 2026-09-07, 83 total, real campus/early-career postings incl. Egypt (Cairo - ETIC)
+  - Warner Bros. Discovery | warnerbros.wd5.myworkdayjobs.com | global      # verified 2026-09-16, 86 SWE results incl. intern/early-career roles (Atlanta/Amsterdam/Stockholm/Bangalore/Warsaw); careers.wbd.com is a Phenom-CMS skin over this real Workday tenant

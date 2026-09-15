@@ -37,7 +37,7 @@ Full diagram set (sequence, component dependencies, CI/CD, data model): [docs/DI
 ## How it works
 
 1. **Fetch** — filtered by `config/companies_allowlist.yml`:
-   - `scripts/fetch.py` — Remotive, ArbeitNow, SimplifyJobs, speedyapply, zapplyjobs, hanzili, ambicuity, LorenzoLaCorte, DereC4, Lamiiine, plus first-party APIs for Amazon, Netflix, Apple, and Germany's Arbeitsagentur.
+   - `scripts/fetch.py` — Remotive, ArbeitNow, SimplifyJobs, speedyapply, zapplyjobs, hanzili, negarprh/Canadian-Tech-Internships, ambicuity, LorenzoLaCorte, DereC4, Lamiiine, plus first-party APIs for Amazon, Netflix, Apple, and Germany's Arbeitsagentur.
    - `scripts/public_sources.py` — Devpost, Unstop, Devfolio, HackerEarth, Luma; Greenhouse/Lever/Workday (auto-discovered); Ashby/SmartRecruiters/PinpointHQ/Workable/Recruitee/BambooHR/Freshteam (hand-seeded in `config/extra_job_boards.yml`, Freshteam via HTML scrape — no JSON API exists for it); a hand-maintained events list (`config/events.yml`) plus confs.tech's open conference-data JSON, deduplicated against it.
    - Every apply link is checked before publishing; dead ones move to the archive automatically.
    - Every published row is validated against `config/job-entry.schema.json` / `config/public-entry.schema.json` — a shape drift fails the run instead of shipping bad data.
