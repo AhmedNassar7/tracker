@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T14:28:10Z",
-  "total": 3475,
+  "generated_at": "2026-09-15T15:00:09Z",
+  "total": 3473,
   "jobs": [
     {
       "id": "95be9cf9f185f4e0",
@@ -385,6 +385,223 @@
       }
     },
     {
+      "id": "d2307b9bd7a92e14",
+      "kind": "job",
+      "company": "Doctolib",
+      "title": "Senior Site Reliability Engineer (x/f/m)",
+      "location": "Berlin, Berlin, Germany; Berlin, Berlin, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7819133003",
+      "source": "greenhouse:doctolib",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
+      "tech_tags": [
+        "React Native",
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go",
+        "Ruby on Rails",
+        "Ruby",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "9e82bec916f8f4df",
+      "kind": "job",
+      "company": "Doctolib",
+      "title": "Senior Site Reliability Engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7819134003",
+      "source": "greenhouse:doctolib",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
+      "tech_tags": [
+        "React Native",
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go",
+        "Ruby on Rails",
+        "Ruby",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "30c889483510560b",
+      "kind": "job",
+      "company": "Doctolib",
+      "title": "Senior Site Reliability Engineer - Database (x/f/m)",
+      "location": "Nantes",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7802707003",
+      "source": "greenhouse:doctolib",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "Go",
+        "Ruby",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "PostgreSQL",
+        "Kafka"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "8594bd7ce404603f",
+      "kind": "job",
+      "company": "Doctolib",
+      "title": "Senior Site Reliability Engineer - Observability (x/f/m)",
+      "location": "Paris, Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7481359003",
+      "source": "greenhouse:doctolib",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
+      "tech_tags": [
+        "React Native",
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go",
+        "Ruby on Rails",
+        "Ruby",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Elasticsearch"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "47b0c0581d896806",
+      "kind": "job",
+      "company": "Doctolib",
+      "title": "Senior Site Reliability Engineer - Observability (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7730606003",
+      "source": "greenhouse:doctolib",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
+      "tech_tags": [
+        "React Native",
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go",
+        "Ruby on Rails",
+        "Ruby",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Elasticsearch"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "d5033ba235bd122c",
+      "kind": "job",
+      "company": "Doctolib",
+      "title": "Staff Site Reliability Engineer (x/f/m)",
+      "location": "Berlin, Berlin, Germany; Berlin, Berlin, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7853980003",
+      "source": "greenhouse:doctolib",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
+      "tech_tags": [
+        "React Native",
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go",
+        "Ruby on Rails",
+        "Ruby",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "b9deac36a40276b2",
+      "kind": "job",
+      "company": "Doctolib",
+      "title": "Staff Site Reliability Engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7853982003",
+      "source": "greenhouse:doctolib",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
+      "tech_tags": [
+        "React Native",
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go",
+        "Ruby on Rails",
+        "Ruby",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "relocation": true
+    },
+    {
       "id": "df316ffa132c42db",
       "kind": "job",
       "company": "DoorDash",
@@ -401,6 +618,48 @@
       "salary": {
         "min": 159800,
         "max": 235000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6451d9d723ebc783",
+      "kind": "job",
+      "company": "Epic Games",
+      "title": "Senior Mobile Programmer",
+      "location": "Cary,North Carolina,United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://epicgames.com/careers/jobs/6186137004?gh_jid=6186137004",
+      "source": "greenhouse:epicgames",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ]
+    },
+    {
+      "id": "5011dcbdda39c266",
+      "kind": "job",
+      "company": "Epic Games",
+      "title": "Senior Mobile Programmer",
+      "location": "BLANK,BLANK,Multiple Locations",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://epicgames.com/careers/jobs/6186139004?gh_jid=6186139004",
+      "source": "greenhouse:epicgames",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "salary": {
+        "min": 190010,
+        "max": 278682,
         "currency": "USD",
         "period": "year"
       }
@@ -695,6 +954,36 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
+      "id": "3db2d704897baf3c",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer Intern, Summer 2027 – United States",
+      "location": "<details><summary><strong>2 locations</strong></summary>O&#x27;Fallon, Missouri<br>Arlington, Virginia</details>",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer-Intern--Summer-2027---United-States_R-287618-1",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
+      "id": "ea2226dfbd21611d",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer, Launch Program 2027 – United States",
+      "location": "<details><summary><strong>3 locations</strong></summary>O&#x27;Fallon, Missouri<br>Arlington, Virginia<br>Salt Lake City, Utah (Holladay)</details>",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Software-Engineer--Launch-Program-2027---United-States_R-288578-1",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
       "id": "ddb5d50e407e394c",
       "kind": "job",
       "company": "MongoDB",
@@ -772,6 +1061,30 @@
       "min_years_experience": 10
     },
     {
+      "id": "ef54ee31747a2588",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Manager, Site Reliability Engineering - Storage Layer Service",
+      "location": "Cork",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7957589",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MongoDB"
+      ],
+      "min_years_experience": 10
+    },
+    {
       "id": "80c15a7732300bfd",
       "kind": "job",
       "company": "MongoDB",
@@ -800,30 +1113,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "ef54ee31747a2588",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Manager, Site Reliability Engineering - Storage Layer Service",
-      "location": "Cork",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "date": "0d",
-      "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7957589",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB"
-      ],
-      "min_years_experience": 10
     },
     {
       "id": "d8d186c9180c986f",
@@ -1269,35 +1558,6 @@
       }
     },
     {
-      "id": "5119e9ad65c4ea86",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Senior Software Engineer, Observability",
-      "location": "Dublin",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7695616",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Node.js",
-        "TypeScript",
-        "Java",
-        "Go",
-        "C#",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB",
-        "Kafka"
-      ],
-      "min_years_experience": 5
-    },
-    {
       "id": "70566cd674e3e4cd",
       "kind": "job",
       "company": "MongoDB",
@@ -1473,37 +1733,6 @@
       }
     },
     {
-      "id": "8f9e9dcdcebacd94",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Site Reliability Engineer (Senior or Staff), Deployments",
-      "location": "Toronto",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "0d",
-      "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7727913",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB"
-      ],
-      "min_years_experience": 6,
-      "salary": {
-        "min": 144000,
-        "max": 200000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "c1a37ece67b27fd0",
       "kind": "job",
       "company": "MongoDB",
@@ -1535,17 +1764,17 @@
       }
     },
     {
-      "id": "c4a9a8b24349a0ec",
+      "id": "8f9e9dcdcebacd94",
       "kind": "job",
       "company": "MongoDB",
-      "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
-      "location": "Boston; Miami; New York City; Pittsburgh; Raleigh; United States",
+      "title": "Site Reliability Engineer (Senior or Staff), Deployments",
+      "location": "Toronto",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "0d",
       "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7743366",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7727913",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
       "tech_tags": [
@@ -1559,8 +1788,8 @@
       ],
       "min_years_experience": 6,
       "salary": {
-        "min": 126000,
-        "max": 248000,
+        "min": 144000,
+        "max": 200000,
         "currency": "USD",
         "period": "year"
       }
@@ -1592,6 +1821,37 @@
       "salary": {
         "min": 144000,
         "max": 200000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "c4a9a8b24349a0ec",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
+      "location": "Boston; Miami; New York City; Pittsburgh; Raleigh; United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7743366",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MongoDB"
+      ],
+      "min_years_experience": 6,
+      "salary": {
+        "min": 126000,
+        "max": 248000,
         "currency": "USD",
         "period": "year"
       }
@@ -1651,24 +1911,6 @@
       }
     },
     {
-      "id": "bd48ca64846eba17",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Software Engineer 2",
-      "location": "Gurugram",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7922676",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "MongoDB"
-      ]
-    },
-    {
       "id": "d2541ac61d0eaddd",
       "kind": "job",
       "company": "MongoDB",
@@ -1697,58 +1939,54 @@
       ]
     },
     {
-      "id": "78eeadc854cf3a24",
+      "id": "bd48ca64846eba17",
       "kind": "job",
       "company": "MongoDB",
-      "title": "Software Engineer 3",
+      "title": "Software Engineer 2",
       "location": "Gurugram",
-      "level": "other",
+      "level": "mid_level",
       "region": "apac",
       "role_type": "software_engineer",
       "date": "0d",
       "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8167389",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7922676",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
       "tech_tags": [
-        "Java",
-        "Spring",
-        "AWS",
-        "GCP",
-        "Azure",
-        "PostgreSQL",
-        "MySQL",
-        "MongoDB",
-        "SQL"
+        "MongoDB"
       ]
     },
     {
-      "id": "e4c7a324b57cb782",
+      "id": "afa153cf6c07094e",
       "kind": "job",
       "company": "MongoDB",
       "title": "Software Engineer 3",
-      "location": "Gurugram",
+      "location": "New York City",
       "level": "other",
-      "region": "apac",
+      "region": "north_america",
       "role_type": "software_engineer",
       "date": "0d",
       "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7993984",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8083761",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
       "tech_tags": [
         "React",
-        "Next.js",
-        "Python",
-        "FastAPI",
+        "TypeScript",
+        "Java",
         "Go",
-        "Rust",
-        "Kubernetes",
         "AWS",
         "GCP",
         "Azure",
         "MongoDB"
-      ]
+      ],
+      "min_years_experience": 3,
+      "salary": {
+        "min": 106000,
+        "max": 209000,
+        "currency": "USD",
+        "period": "year"
+      }
     },
     {
       "id": "5da37839012eee44",
@@ -1829,31 +2067,6 @@
       ]
     },
     {
-      "id": "a9d7654b33d6fa8f",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Software Engineer 3",
-      "location": "Gurugram",
-      "level": "other",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8161336",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "AWS",
-        "GCP",
-        "Azure",
-        "PostgreSQL",
-        "MySQL",
-        "MongoDB",
-        "SQL"
-      ]
-    },
-    {
       "id": "62ebf79b6fe470f0",
       "kind": "job",
       "company": "MongoDB",
@@ -1879,36 +2092,83 @@
       "min_years_experience": 3
     },
     {
-      "id": "afa153cf6c07094e",
+      "id": "a9d7654b33d6fa8f",
       "kind": "job",
       "company": "MongoDB",
       "title": "Software Engineer 3",
-      "location": "New York City",
+      "location": "Gurugram",
       "level": "other",
-      "region": "north_america",
+      "region": "apac",
       "role_type": "software_engineer",
       "date": "0d",
       "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8083761",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8161336",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "AWS",
+        "GCP",
+        "Azure",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "SQL"
+      ]
+    },
+    {
+      "id": "78eeadc854cf3a24",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Software Engineer 3",
+      "location": "Gurugram",
+      "level": "other",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8167389",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Spring",
+        "AWS",
+        "GCP",
+        "Azure",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "SQL"
+      ]
+    },
+    {
+      "id": "e4c7a324b57cb782",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Software Engineer 3",
+      "location": "Gurugram",
+      "level": "other",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7993984",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
       "tech_tags": [
         "React",
-        "TypeScript",
-        "Java",
+        "Next.js",
+        "Python",
+        "FastAPI",
         "Go",
+        "Rust",
+        "Kubernetes",
         "AWS",
         "GCP",
         "Azure",
         "MongoDB"
-      ],
-      "min_years_experience": 3,
-      "salary": {
-        "min": 106000,
-        "max": 209000,
-        "currency": "USD",
-        "period": "year"
-      }
+      ]
     },
     {
       "id": "f1563085c5eebe4d",
@@ -2064,35 +2324,6 @@
       }
     },
     {
-      "id": "c92c6c391e29a4bc",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Software Engineer 3, Atlas Search Systems",
-      "location": "Toronto",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7662950",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB"
-      ],
-      "min_years_experience": 2,
-      "salary": {
-        "min": 108000,
-        "max": 149000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "6865aed5c9bebef4",
       "kind": "job",
       "company": "MongoDB",
@@ -2117,6 +2348,35 @@
       "salary": {
         "min": 122000,
         "max": 209000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "c92c6c391e29a4bc",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Software Engineer 3, Atlas Search Systems",
+      "location": "Toronto",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7662950",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MongoDB"
+      ],
+      "min_years_experience": 2,
+      "salary": {
+        "min": 108000,
+        "max": 149000,
         "currency": "USD",
         "period": "year"
       }
@@ -2177,35 +2437,6 @@
       "min_years_experience": 3
     },
     {
-      "id": "6d5633b738e08a04",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Software Engineer 3, Networking & Observability",
-      "location": "Alberta; British Columbia; Ontario; Quebec",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "0d",
-      "posted_at": "2026-09-15",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8119843",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "C++",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB"
-      ],
-      "min_years_experience": 3,
-      "salary": {
-        "min": 122000,
-        "max": 170000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "a1e308cba437ef20",
       "kind": "job",
       "company": "MongoDB",
@@ -2230,6 +2461,35 @@
       "salary": {
         "min": 106000,
         "max": 209000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6d5633b738e08a04",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Software Engineer 3, Networking & Observability",
+      "location": "Alberta; British Columbia; Ontario; Quebec",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-09-15",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8119843",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "C++",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MongoDB"
+      ],
+      "min_years_experience": 3,
+      "salary": {
+        "min": 122000,
+        "max": 170000,
         "currency": "USD",
         "period": "year"
       }
@@ -5890,6 +6150,21 @@
       "source_url": "https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
     },
     {
+      "id": "c9078ab103a27c4d",
+      "kind": "job",
+      "company": "Visa",
+      "title": "Staff Software Engineer",
+      "location": "US - Bellevue, WA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/Staff-Software-Engineer_REF084832W-1",
+      "source": "workday:visa",
+      "source_url": "https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
+    },
+    {
       "id": "9d6b0ce9cf22f3ed",
       "kind": "job",
       "company": "Visa",
@@ -8249,21 +8524,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Budapest-Hungary/Senior-ML-Platform-Engineer_R-288698",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "e73326f061bfa228",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Senior Platform Architect",
-      "location": "Dublin, Ireland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Senior-Platform-Architect_R-270041-1",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -18203,30 +18463,6 @@
       }
     },
     {
-      "id": "bb9cffb6a247e3c6",
-      "kind": "job",
-      "company": "Datadog",
-      "title": "Senior Software Engineer - Distributed Systems",
-      "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France; Tel Aviv, Israel",
-      "level": "mid_level",
-      "region": "mena",
-      "role_type": "software_engineer",
-      "date": "5d",
-      "posted_at": "2026-09-10",
-      "url": "https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111",
-      "source": "greenhouse:datadog",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "Rust",
-        "C++",
-        "Redis",
-        "Elasticsearch",
-        "Kafka"
-      ]
-    },
-    {
       "id": "9711031fa3618ea0",
       "kind": "job",
       "company": "Datadog",
@@ -18256,6 +18492,30 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "bb9cffb6a247e3c6",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Distributed Systems",
+      "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France; Tel Aviv, Israel",
+      "level": "mid_level",
+      "region": "mena",
+      "role_type": "software_engineer",
+      "date": "5d",
+      "posted_at": "2026-09-10",
+      "url": "https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Rust",
+        "C++",
+        "Redis",
+        "Elasticsearch",
+        "Kafka"
+      ]
     },
     {
       "id": "9c64e4d90947e1aa",
@@ -18306,21 +18566,6 @@
       "min_years_experience": 5
     },
     {
-      "id": "135c87069a515ffa",
-      "kind": "job",
-      "company": "Datadog",
-      "title": "Senior Software Engineer - REDAPL Graph Engine",
-      "location": "France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "5d",
-      "posted_at": "2026-09-10",
-      "url": "https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966",
-      "source": "greenhouse:datadog",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
-    },
-    {
       "id": "7d6b20ec02fc100a",
       "kind": "job",
       "company": "Datadog",
@@ -18332,6 +18577,21 @@
       "date": "5d",
       "posted_at": "2026-09-10",
       "url": "https://careers.datadoghq.com/detail/7959967/?gh_jid=7959967",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "135c87069a515ffa",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "location": "France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "5d",
+      "posted_at": "2026-09-10",
+      "url": "https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966",
       "source": "greenhouse:datadog",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
     },
@@ -21792,6 +22052,37 @@
       }
     },
     {
+      "id": "c379a72e9e585297",
+      "kind": "job",
+      "company": "Sonyinteractiveentertainmentglobal",
+      "title": "Manager, Software Engineering",
+      "location": "United States, San Mateo, CA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "5d",
+      "posted_at": "2026-09-10",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018465004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
+      "tech_tags": [
+        "React Native",
+        "React",
+        "Angular",
+        "JavaScript",
+        "Java",
+        "Kotlin"
+      ],
+      "degree_required": false,
+      "min_years_experience": 7,
+      "salary": {
+        "min": 201400,
+        "max": 302000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "456d44bfee73a087",
       "kind": "job",
       "company": "Sonyinteractiveentertainmentglobal",
@@ -21829,37 +22120,6 @@
       "tech_tags": [
         "C++"
       ],
-      "salary": {
-        "min": 201400,
-        "max": 302000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "c379a72e9e585297",
-      "kind": "job",
-      "company": "Sonyinteractiveentertainmentglobal",
-      "title": "Manager, Software Engineering",
-      "location": "United States, San Mateo, CA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "5d",
-      "posted_at": "2026-09-10",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018465004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
-      "tech_tags": [
-        "React Native",
-        "React",
-        "Angular",
-        "JavaScript",
-        "Java",
-        "Kotlin"
-      ],
-      "degree_required": false,
-      "min_years_experience": 7,
       "salary": {
         "min": 201400,
         "max": 302000,
@@ -22927,17 +23187,17 @@
       }
     },
     {
-      "id": "0c7ed1fbecac3b9f",
+      "id": "bcab495a8bda256a",
       "kind": "job",
       "company": "Sonyinteractiveentertainmentglobal",
       "title": "Staff Software Engineer – Data",
-      "location": "United States, San Mateo, CA",
+      "location": "United States, San Diego, CA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "5d",
       "posted_at": "2026-09-10",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147288004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6141163004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
       "tech_tags": [
@@ -22957,17 +23217,17 @@
       }
     },
     {
-      "id": "bcab495a8bda256a",
+      "id": "0c7ed1fbecac3b9f",
       "kind": "job",
       "company": "Sonyinteractiveentertainmentglobal",
       "title": "Staff Software Engineer – Data",
-      "location": "United States, San Diego, CA",
+      "location": "United States, San Mateo, CA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "5d",
       "posted_at": "2026-09-10",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6141163004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147288004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
       "tech_tags": [
@@ -26748,21 +27008,6 @@
       "source_url": "https://valeo.wd3.myworkdayjobs.com/wday/cxs/valeo/valeo_jobs/jobs"
     },
     {
-      "id": "674dafad48a2a347",
-      "kind": "job",
-      "company": "Visa",
-      "title": "Sr. Manager - Data Platform Engineering",
-      "location": "IN - Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "platform",
-      "date": "6d",
-      "posted_at": "",
-      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Manager---Data-Platform-Engineering_REF088269W",
-      "source": "workday:visa",
-      "source_url": "https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
-    },
-    {
       "id": "a760190967239e1e",
       "kind": "job",
       "company": "Wayve",
@@ -28732,35 +28977,6 @@
       "tech_tags": [
         "Java"
       ]
-    },
-    {
-      "id": "30c889483510560b",
-      "kind": "job",
-      "company": "Doctolib",
-      "title": "Senior Site Reliability Engineer - Database (x/f/m)",
-      "location": "Nantes",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "date": "8d",
-      "posted_at": "2026-09-07",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7802707003",
-      "source": "greenhouse:doctolib",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "Go",
-        "Ruby",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Azure",
-        "PostgreSQL",
-        "Kafka"
-      ],
-      "relocation": true
     },
     {
       "id": "99e484432e7fab06",
@@ -32948,17 +33164,17 @@
       ]
     },
     {
-      "id": "abf2322b6aa2d80a",
+      "id": "a573c0e2bdb6e5d8",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Manager, Infrastructure Data Science",
-      "location": "Mountain View, California",
+      "location": "San Francisco, California",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "13d",
       "posted_at": "2026-09-02",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
@@ -32973,17 +33189,17 @@
       }
     },
     {
-      "id": "a573c0e2bdb6e5d8",
+      "id": "abf2322b6aa2d80a",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Manager, Infrastructure Data Science",
-      "location": "San Francisco, California",
+      "location": "Mountain View, California",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "13d",
       "posted_at": "2026-09-02",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
@@ -33031,17 +33247,17 @@
       }
     },
     {
-      "id": "6c39a915a5e7a3bb",
+      "id": "a85070203ae70ce3",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement",
-      "location": "Berlin, Germany",
+      "location": "Amsterdam, Netherlands",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "13d",
       "posted_at": "2026-09-02",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8407527002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422477002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 15
@@ -33063,22 +33279,6 @@
       "min_years_experience": 15
     },
     {
-      "id": "2b6658aa37bc7452",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement",
-      "location": "London, United Kingdom",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "13d",
-      "posted_at": "2026-09-02",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "min_years_experience": 15
-    },
-    {
       "id": "c4b010cb78dffcd6",
       "kind": "job",
       "company": "Databricks",
@@ -33095,17 +33295,33 @@
       "min_years_experience": 15
     },
     {
-      "id": "a85070203ae70ce3",
+      "id": "2b6658aa37bc7452",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement",
-      "location": "Amsterdam, Netherlands",
+      "location": "London, United Kingdom",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "13d",
       "posted_at": "2026-09-02",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422477002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8422481002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "min_years_experience": 15
+    },
+    {
+      "id": "6c39a915a5e7a3bb",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Staff Software Engineer - Unity Catalog Runtime Enforcement",
+      "location": "Berlin, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "13d",
+      "posted_at": "2026-09-02",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8407527002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 15
@@ -34660,17 +34876,17 @@
       ]
     },
     {
-      "id": "7d9a0225774ceb4a",
+      "id": "19915a2b3101f03e",
       "kind": "job",
       "company": "N26",
       "title": "Senior Site Reliability Engineer - Access Team",
-      "location": "Barcelona",
+      "location": "Berlin",
       "level": "mid_level",
       "region": "europe",
       "role_type": "infrastructure",
       "date": "14d",
       "posted_at": "2026-09-01",
-      "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
+      "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
       "source": "greenhouse:n26",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
       "tech_tags": [
@@ -34685,17 +34901,17 @@
       "relocation": true
     },
     {
-      "id": "19915a2b3101f03e",
+      "id": "7d9a0225774ceb4a",
       "kind": "job",
       "company": "N26",
       "title": "Senior Site Reliability Engineer - Access Team",
-      "location": "Berlin",
+      "location": "Barcelona",
       "level": "mid_level",
       "region": "europe",
       "role_type": "infrastructure",
       "date": "14d",
       "posted_at": "2026-09-01",
-      "url": "https://n26.com/en-eu/careers/positions/7768035?gh_jid=7768035",
+      "url": "https://n26.com/en-eu/careers/positions/7774526?gh_jid=7774526",
       "source": "greenhouse:n26",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
       "tech_tags": [
@@ -43744,6 +43960,21 @@
       ]
     },
     {
+      "id": "1f567c3c89a7d053",
+      "kind": "job",
+      "company": "Epic Games",
+      "title": "Director, Product Management (Social & Player Identity Platform)",
+      "location": "Cary,North Carolina,United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "18d",
+      "posted_at": "2026-08-28",
+      "url": "https://epicgames.com/careers/jobs/5993562004?gh_jid=5993562004",
+      "source": "greenhouse:epicgames",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true"
+    },
+    {
       "id": "31027d9b513f1d95",
       "kind": "job",
       "company": "Epic Games",
@@ -43763,21 +43994,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "1f567c3c89a7d053",
-      "kind": "job",
-      "company": "Epic Games",
-      "title": "Director, Product Management (Social & Player Identity Platform)",
-      "location": "Cary,North Carolina,United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "18d",
-      "posted_at": "2026-08-28",
-      "url": "https://epicgames.com/careers/jobs/5993562004?gh_jid=5993562004",
-      "source": "greenhouse:epicgames",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true"
     },
     {
       "id": "3c55bd1c91a93256",
@@ -44526,6 +44742,24 @@
       }
     },
     {
+      "id": "05e543f1dbe92f2e",
+      "kind": "job",
+      "company": "Epic Games",
+      "title": "Senior Desktop Applications Engineer",
+      "location": "Cary,North Carolina,United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "19d",
+      "posted_at": "2026-08-27",
+      "url": "https://epicgames.com/careers/jobs/6122983004?gh_jid=6122983004",
+      "source": "greenhouse:epicgames",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true",
+      "tech_tags": [
+        "Rust"
+      ]
+    },
+    {
       "id": "611a648fc097ebf3",
       "kind": "job",
       "company": "Epic Games",
@@ -44548,24 +44782,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "05e543f1dbe92f2e",
-      "kind": "job",
-      "company": "Epic Games",
-      "title": "Senior Desktop Applications Engineer",
-      "location": "Cary,North Carolina,United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "19d",
-      "posted_at": "2026-08-27",
-      "url": "https://epicgames.com/careers/jobs/6122983004?gh_jid=6122983004",
-      "source": "greenhouse:epicgames",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true",
-      "tech_tags": [
-        "Rust"
-      ]
     },
     {
       "id": "b38baedd0175b85a",
@@ -45699,24 +45915,6 @@
       }
     },
     {
-      "id": "2c50d762de383f60",
-      "kind": "job",
-      "company": "Epic Games",
-      "title": "Principal Engineer, AI Platform",
-      "location": "Cary,North Carolina,United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "21d",
-      "posted_at": "2026-08-25",
-      "url": "https://epicgames.com/careers/jobs/5996485004?gh_jid=5996485004",
-      "source": "greenhouse:epicgames",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes"
-      ]
-    },
-    {
       "id": "bfebaf631ea2d900",
       "kind": "job",
       "company": "Epic Games",
@@ -45739,6 +45937,24 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "2c50d762de383f60",
+      "kind": "job",
+      "company": "Epic Games",
+      "title": "Principal Engineer, AI Platform",
+      "location": "Cary,North Carolina,United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "21d",
+      "posted_at": "2026-08-25",
+      "url": "https://epicgames.com/careers/jobs/5996485004?gh_jid=5996485004",
+      "source": "greenhouse:epicgames",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes"
+      ]
     },
     {
       "id": "df7905c0a0096d28",
@@ -50587,50 +50803,49 @@
       }
     },
     {
-      "id": "b988dd06ebf8702f",
+      "id": "76e92a54692eda56",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Software Engineer - Backend",
-      "location": "Vancouver, Canada",
+      "location": "Bellevue, Washington",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "backend",
       "date": "28d",
       "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
         "Java",
+        "Go",
         "C++",
         "Scala",
         "Kubernetes",
-        "Docker",
         "AWS",
         "GCP",
         "Azure",
         "SQL"
       ],
-      "degree_required": false,
       "salary": {
-        "min": 146200,
-        "max": 201100,
+        "min": 157700,
+        "max": 213800,
         "currency": "USD",
         "period": "year"
       }
     },
     {
-      "id": "7b4e0f43956fbe01",
+      "id": "ded4910a9d51e04a",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Software Engineer - Backend",
-      "location": "San Francisco, California",
+      "location": "Mountain View, California",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "backend",
       "date": "28d",
       "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
@@ -50675,6 +50890,38 @@
       ]
     },
     {
+      "id": "7b4e0f43956fbe01",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Backend",
+      "location": "San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SQL"
+      ],
+      "salary": {
+        "min": 166000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "e1262f4b1afb16ec",
       "kind": "job",
       "company": "Databricks",
@@ -50698,17 +50945,17 @@
       ]
     },
     {
-      "id": "ded4910a9d51e04a",
+      "id": "b988dd06ebf8702f",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Software Engineer - Backend",
-      "location": "Mountain View, California",
+      "location": "Vancouver, Canada",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "backend",
       "date": "28d",
       "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
@@ -50722,41 +50969,10 @@
         "Azure",
         "SQL"
       ],
+      "degree_required": false,
       "salary": {
-        "min": 166000,
-        "max": 225000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "76e92a54692eda56",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Backend",
-      "location": "Bellevue, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Azure",
-        "SQL"
-      ],
-      "salary": {
-        "min": 157700,
-        "max": 213800,
+        "min": 146200,
+        "max": 201100,
         "currency": "USD",
         "period": "year"
       }
@@ -50805,28 +51021,6 @@
       "min_years_experience": 5
     },
     {
-      "id": "0ba312ee1a09ad16",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Database Engine Internals",
-      "location": "San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "min_years_experience": 5,
-      "salary": {
-        "min": 166000,
-        "max": 225000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "81794e09fa2922e5",
       "kind": "job",
       "company": "Databricks",
@@ -50843,6 +51037,28 @@
       "tech_tags": [
         "Spark"
       ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 166000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "0ba312ee1a09ad16",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Database Engine Internals",
+      "location": "San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 5,
       "salary": {
         "min": 166000,
@@ -50872,6 +51088,37 @@
         "Spark"
       ],
       "degree_required": false
+    },
+    {
+      "id": "72e912f039a6d6b9",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Distributed Data Systems",
+      "location": "San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "AWS",
+        "Azure",
+        "Spark",
+        "SQL"
+      ],
+      "degree_required": false,
+      "salary": {
+        "min": 166000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
     },
     {
       "id": "de8da72858c799ef",
@@ -50936,37 +51183,6 @@
       }
     },
     {
-      "id": "72e912f039a6d6b9",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Distributed Data Systems",
-      "location": "San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "Spark",
-        "SQL"
-      ],
-      "degree_required": false,
-      "salary": {
-        "min": 166000,
-        "max": 225000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "424176d286a5f099",
       "kind": "job",
       "company": "Databricks",
@@ -51003,6 +51219,46 @@
       "min_years_experience": 5
     },
     {
+      "id": "5d817d23d47b3929",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Fullstack",
+      "location": "Seattle, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Vue.js",
+        "Angular",
+        "Node.js",
+        "JavaScript",
+        "Python",
+        "Java",
+        "C++",
+        "C#",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SQL"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 157700,
+        "max": 213800,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "68c8979bffb454a6",
       "kind": "job",
       "company": "Databricks",
@@ -51024,6 +51280,46 @@
         "Python",
         "Java",
         "Go",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SQL"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 166000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "2e094679bca63e8b",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Fullstack",
+      "location": "Mountain View, California; San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Vue.js",
+        "Angular",
+        "Node.js",
+        "JavaScript",
+        "Python",
+        "Java",
+        "C++",
+        "C#",
         "Scala",
         "Kubernetes",
         "Docker",
@@ -51076,86 +51372,6 @@
       "salary": {
         "min": 146200,
         "max": 201100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "5d817d23d47b3929",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Fullstack",
-      "location": "Seattle, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "full_stack",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Vue.js",
-        "Angular",
-        "Node.js",
-        "JavaScript",
-        "Python",
-        "Java",
-        "C++",
-        "C#",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Azure",
-        "SQL"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 157700,
-        "max": 213800,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "2e094679bca63e8b",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Fullstack",
-      "location": "Mountain View, California; San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "full_stack",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Vue.js",
-        "Angular",
-        "Node.js",
-        "JavaScript",
-        "Python",
-        "Java",
-        "C++",
-        "C#",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Azure",
-        "SQL"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 166000,
-        "max": 225000,
         "currency": "USD",
         "period": "year"
       }
@@ -51354,6 +51570,22 @@
       "min_years_experience": 15
     },
     {
+      "id": "bcddd175f2cfb885",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Staff Software Engineer - Delta",
+      "location": "Amsterdam, Netherlands",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "min_years_experience": 15
+    },
+    {
       "id": "893d8bdfdabf2b1c",
       "kind": "job",
       "company": "Databricks",
@@ -51370,17 +51602,17 @@
       "min_years_experience": 15
     },
     {
-      "id": "d9be831edfe51857",
+      "id": "96334280637b268a",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Staff Software Engineer - Delta",
-      "location": "Berlin, Germany",
+      "location": "Zürich, Switzerland",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "28d",
       "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 15
@@ -51402,33 +51634,17 @@
       "min_years_experience": 15
     },
     {
-      "id": "bcddd175f2cfb885",
+      "id": "d9be831edfe51857",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Staff Software Engineer - Delta",
-      "location": "Amsterdam, Netherlands",
+      "location": "Berlin, Germany",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "28d",
       "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "min_years_experience": 15
-    },
-    {
-      "id": "96334280637b268a",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Staff Software Engineer - Delta",
-      "location": "Zürich, Switzerland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 15
@@ -51549,29 +51765,6 @@
       ]
     },
     {
-      "id": "08c6994d46264745",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Software Engineer - Backend",
-      "location": "Belgrade, Serbia",
-      "level": "other",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
-    },
-    {
       "id": "1ee773cbf2650d87",
       "kind": "job",
       "company": "Databricks",
@@ -51590,6 +51783,29 @@
         "C++",
         "Scala",
         "Kubernetes",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
+    },
+    {
+      "id": "08c6994d46264745",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Software Engineer - Backend",
+      "location": "Belgrade, Serbia",
+      "level": "other",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
         "AWS",
         "Azure",
         "SQL"
@@ -52071,27 +52287,6 @@
       }
     },
     {
-      "id": "69bde1e52cc505e2",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Fullstack Engineer, Agentic Applications",
-      "location": "Mountain View, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "full_stack",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "salary": {
-        "min": 192000,
-        "max": 260000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "f277a2bd22190cf1",
       "kind": "job",
       "company": "Databricks",
@@ -52110,6 +52305,27 @@
         "GraphQL"
       ],
       "min_years_experience": 2,
+      "salary": {
+        "min": 192000,
+        "max": 260000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "69bde1e52cc505e2",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Fullstack Engineer, Agentic Applications",
+      "location": "Mountain View, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "salary": {
         "min": 192000,
         "max": 260000,
@@ -52345,39 +52561,27 @@
       }
     },
     {
-      "id": "f51c9989663a679f",
+      "id": "cee270926d3d303b",
       "kind": "job",
       "company": "Databricks",
       "title": "Staff Software Engineer - Backend",
-      "location": "Seattle, Washington",
+      "location": "Belgrade, Serbia",
       "level": "mid_level",
-      "region": "north_america",
+      "region": "europe",
       "role_type": "backend",
       "date": "28d",
       "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
         "Java",
         "C++",
         "Scala",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
         "AWS",
-        "GCP",
         "Azure",
-        "Kafka",
-        "Spark",
         "SQL"
-      ],
-      "salary": {
-        "min": 182400,
-        "max": 247000,
-        "currency": "USD",
-        "period": "year"
-      }
+      ]
     },
     {
       "id": "495ed840808fffe2",
@@ -52410,64 +52614,6 @@
       "salary": {
         "min": 192000,
         "max": 260000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "cee270926d3d303b",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Belgrade, Serbia",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
-    },
-    {
-      "id": "8dfe1193df322fd7",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Bellevue, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure",
-        "Kafka",
-        "Spark",
-        "SQL"
-      ],
-      "salary": {
-        "min": 182400,
-        "max": 247000,
         "currency": "USD",
         "period": "year"
       }
@@ -52506,6 +52652,65 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "f51c9989663a679f",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Seattle, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Kafka",
+        "Spark",
+        "SQL"
+      ],
+      "salary": {
+        "min": 182400,
+        "max": 247000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "ef6f23c47c8166fe",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Berlin, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
     },
     {
       "id": "f416496950d6f1ec",
@@ -52557,17 +52762,17 @@
       ]
     },
     {
-      "id": "ef6f23c47c8166fe",
+      "id": "8dfe1193df322fd7",
       "kind": "job",
       "company": "Databricks",
       "title": "Staff Software Engineer - Backend",
-      "location": "Berlin, Germany",
+      "location": "Bellevue, Washington",
       "level": "mid_level",
-      "region": "europe",
+      "region": "north_america",
       "role_type": "backend",
       "date": "28d",
       "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
@@ -52575,8 +52780,43 @@
         "C++",
         "Scala",
         "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Kafka",
+        "Spark",
+        "SQL"
+      ],
+      "salary": {
+        "min": 182400,
+        "max": 247000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "2d6e3850e9fb5e88",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "London, United Kingdom",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
         "AWS",
         "Azure",
+        "PostgreSQL",
         "SQL"
       ]
     },
@@ -52612,30 +52852,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "2d6e3850e9fb5e88",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "London, United Kingdom",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "PostgreSQL",
-        "SQL"
-      ]
     },
     {
       "id": "f0b22982b37faeb4",
@@ -52754,17 +52970,17 @@
       }
     },
     {
-      "id": "bfaca1ec851dd8b4",
+      "id": "408b5364750c7afe",
       "kind": "job",
       "company": "Databricks",
       "title": "Staff Software Engineer - Distributed Data Systems",
-      "location": "Mountain View, California",
+      "location": "San Francisco, California",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "28d",
       "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
@@ -52816,6 +53032,37 @@
       }
     },
     {
+      "id": "bfaca1ec851dd8b4",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Distributed Data Systems",
+      "location": "Mountain View, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "AWS",
+        "Azure",
+        "Spark",
+        "SQL"
+      ],
+      "degree_required": false,
+      "salary": {
+        "min": 192000,
+        "max": 260000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "f88ed55e40ffc257",
       "kind": "job",
       "company": "Databricks",
@@ -52836,37 +53083,6 @@
         "Spark"
       ],
       "degree_required": false
-    },
-    {
-      "id": "408b5364750c7afe",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Distributed Data Systems",
-      "location": "San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "Spark",
-        "SQL"
-      ],
-      "degree_required": false,
-      "salary": {
-        "min": 192000,
-        "max": 260000,
-        "currency": "USD",
-        "period": "year"
-      }
     },
     {
       "id": "291b0d6d3fe26bc1",
@@ -53524,27 +53740,6 @@
       ]
     },
     {
-      "id": "0a3043963e425f5c",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Systems PhD - Software Engineer",
-      "location": "Mountain View, California; San Francisco, California",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "28d",
-      "posted_at": "2026-08-18",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "salary": {
-        "min": 150000,
-        "max": 190000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "47ef52b2be5e53d5",
       "kind": "job",
       "company": "Databricks",
@@ -53561,6 +53756,27 @@
       "salary": {
         "min": 140000,
         "max": 180000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "0a3043963e425f5c",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Systems PhD - Software Engineer",
+      "location": "Mountain View, California; San Francisco, California",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "28d",
+      "posted_at": "2026-08-18",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "salary": {
+        "min": 150000,
+        "max": 190000,
         "currency": "USD",
         "period": "year"
       }
@@ -55575,130 +55791,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
     },
     {
-      "id": "d2307b9bd7a92e14",
-      "kind": "job",
-      "company": "Doctolib",
-      "title": "Senior Site Reliability Engineer (x/f/m)",
-      "location": "Berlin, Berlin, Germany; Berlin, Berlin, Germany",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "35d",
-      "posted_at": "2026-08-11",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7819133003",
-      "source": "greenhouse:doctolib",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
-      "tech_tags": [
-        "React Native",
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kotlin",
-        "Go",
-        "Ruby on Rails",
-        "Ruby",
-        "Kubernetes",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "relocation": true
-    },
-    {
-      "id": "9e82bec916f8f4df",
-      "kind": "job",
-      "company": "Doctolib",
-      "title": "Senior Site Reliability Engineer (x/f/m)",
-      "location": "Paris, Paris, France",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "35d",
-      "posted_at": "2026-08-11",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7819134003",
-      "source": "greenhouse:doctolib",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
-      "tech_tags": [
-        "React Native",
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kotlin",
-        "Go",
-        "Ruby on Rails",
-        "Ruby",
-        "Kubernetes",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "relocation": true
-    },
-    {
-      "id": "d5033ba235bd122c",
-      "kind": "job",
-      "company": "Doctolib",
-      "title": "Staff Site Reliability Engineer (x/f/m)",
-      "location": "Berlin, Berlin, Germany; Berlin, Berlin, Germany",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "35d",
-      "posted_at": "2026-08-11",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7853980003",
-      "source": "greenhouse:doctolib",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
-      "tech_tags": [
-        "React Native",
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kotlin",
-        "Go",
-        "Ruby on Rails",
-        "Ruby",
-        "Kubernetes",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "relocation": true
-    },
-    {
-      "id": "b9deac36a40276b2",
-      "kind": "job",
-      "company": "Doctolib",
-      "title": "Staff Site Reliability Engineer (x/f/m)",
-      "location": "Paris, Paris, France",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "35d",
-      "posted_at": "2026-08-11",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7853982003",
-      "source": "greenhouse:doctolib",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
-      "tech_tags": [
-        "React Native",
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kotlin",
-        "Go",
-        "Ruby on Rails",
-        "Ruby",
-        "Kubernetes",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "relocation": true
-    },
-    {
       "id": "43fb5baf4ca15daf",
       "kind": "job",
       "company": "Figma",
@@ -56936,70 +57028,6 @@
         "Azure"
       ],
       "min_years_experience": 8
-    },
-    {
-      "id": "8594bd7ce404603f",
-      "kind": "job",
-      "company": "Doctolib",
-      "title": "Senior Site Reliability Engineer - Observability (x/f/m)",
-      "location": "Paris, Paris, France",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "41d",
-      "posted_at": "2026-08-05",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7481359003",
-      "source": "greenhouse:doctolib",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
-      "tech_tags": [
-        "React Native",
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kotlin",
-        "Go",
-        "Ruby on Rails",
-        "Ruby",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Azure",
-        "Elasticsearch"
-      ],
-      "relocation": true
-    },
-    {
-      "id": "47b0c0581d896806",
-      "kind": "job",
-      "company": "Doctolib",
-      "title": "Senior Site Reliability Engineer - Observability (x/f/m)",
-      "location": "Berlin, Berlin, Germany",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "41d",
-      "posted_at": "2026-08-05",
-      "url": "https://job-boards.greenhouse.io/doctolib/jobs/7730606003",
-      "source": "greenhouse:doctolib",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/doctolib/jobs?content=true",
-      "tech_tags": [
-        "React Native",
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kotlin",
-        "Go",
-        "Ruby on Rails",
-        "Ruby",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Azure",
-        "Elasticsearch"
-      ],
-      "relocation": true
     },
     {
       "id": "ec2ded62a6daae7e",
@@ -73336,24 +73364,12 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "b91edc53b712c99e",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "Code Kitchen",
-      "location": "Online",
-      "date": "last day",
-      "posted_at": "2026-09-15",
-      "url": "https://www.hackerearth.com/challenges/hackathon/code-kitchen/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
       "id": "d544884232a5b17a",
       "kind": "hackathon",
       "company": "OSC",
       "title": "AI Builders Hackathon",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-09-15",
       "url": "https://ai-builders-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -73574,30 +73590,6 @@
       "url": "https://nextstep2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "d4ece6d214dafb36",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "G2 AI Engineering Hackathon",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-09-15",
-      "url": "https://www.hackerearth.com/challenges/competitive/g2-ai-engineering-hiring-hackathon/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
-      "id": "f419e1b19af0e28c",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "GitHub Repo Value Check",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-09-15",
-      "url": "https://www.hackerearth.com/challenges/hackathon/github-repo-value-check/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "6da1d4bffa19370b",
@@ -74006,42 +73998,6 @@
       "url": "https://codeutsava-x.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "711037d4d631043d",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "HCLTech GCP Data Engineer Hiring Challenge",
-      "location": "Online",
-      "date": "19 days left",
-      "posted_at": "2026-09-15",
-      "url": "https://www.hackerearth.com/challenges/competitive/hcltech-gcp-data-engineer-hiring-challenge/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
-      "id": "41ea8baebacd1770",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "HCLTech Java Engineering Hiring Challenge",
-      "location": "Online",
-      "date": "19 days left",
-      "posted_at": "2026-09-15",
-      "url": "https://www.hackerearth.com/challenges/competitive/hcltech-java-challenge-2027/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
-      "id": "ca1b23b0b76fef00",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "Yuva Yodha Energy Tech Hackathon",
-      "location": "Online",
-      "date": "19 days left",
-      "posted_at": "2026-09-15",
-      "url": "https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "aae78163e63a89d8",
@@ -77130,6 +77086,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-09-15",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -77138,6 +77106,18 @@
       "date": "",
       "posted_at": "2026-09-15",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-09-15",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
