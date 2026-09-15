@@ -4,7 +4,7 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Tue, 15 Sep 2026 14:12:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 14:33:28 GMT</lastBuildDate>
     <item>
       <title>Figma — Software Engineer Intern (London, United Kingdom) (Summer 2027)</title>
       <link>https://www.arbeitnow.co.uk/jobs/companies/figma/software-engineer-intern-london-united-kingdom-summer-2027-65172</link>
@@ -546,16 +546,16 @@
     </item>
     <item>
       <title>Datadog — Staff Engineer - Data Platform Experience</title>
-      <link>https://careers.datadoghq.com/detail/8119493/?gh_jid=8119493</link>
-      <guid isPermaLink="false">079d0fd4d9fe7144</guid>
-      <description>Dublin, Ireland; Madrid, Spain; Paris, France · mid_level · 5d</description>
+      <link>https://careers.datadoghq.com/detail/8119496/?gh_jid=8119496</link>
+      <guid isPermaLink="false">aabe9286420d2b41</guid>
+      <description>Lisbon, Portugal · mid_level · 5d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Datadog — Staff Engineer - Data Platform Experience</title>
-      <link>https://careers.datadoghq.com/detail/8119496/?gh_jid=8119496</link>
-      <guid isPermaLink="false">aabe9286420d2b41</guid>
-      <description>Lisbon, Portugal · mid_level · 5d</description>
+      <link>https://careers.datadoghq.com/detail/8119493/?gh_jid=8119493</link>
+      <guid isPermaLink="false">079d0fd4d9fe7144</guid>
+      <description>Dublin, Ireland; Madrid, Spain; Paris, France · mid_level · 5d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1130,13 +1130,6 @@
       <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6176297004</link>
       <guid isPermaLink="false">e3e850687186805c</guid>
       <description>Ireland, Dublin · other · 5d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sonyinteractiveentertainmentglobal — Software Engineer - C#/Windows</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5969132004</link>
-      <guid isPermaLink="false">f868c4bd17b64160</guid>
-      <description>United Kingdom, London · other · 5d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1847,7 +1840,7 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Software Developer Java/ Node.JS (Web Development Team)</title>
+      <title>JetBrains — Software Developer Java/ Node.JS (Web Development Team)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4866608101</link>
       <guid isPermaLink="false">af19f0cbaaede1eb</guid>
       <description>Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Warsaw, Poland · other · 13d</description>
@@ -2421,28 +2414,28 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Senior Software Engineer (Qodana Core)</title>
+      <title>JetBrains — Senior Software Engineer (Qodana Core)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4932747101</link>
       <guid isPermaLink="false">f34b06f50f4becfd</guid>
       <description>Berlin, Germany; Limassol, Cyprus; Madrid, Spain; Munich, Germany; Prague, Czech Republic; Warsaw, Poland · mid_level · 26d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Staff Software Developer (IntelliJ Platform)</title>
+      <title>JetBrains — Staff Software Developer (IntelliJ Platform)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4828143101</link>
       <guid isPermaLink="false">da70e484b01b169b</guid>
       <description>Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Warsaw, Poland; Yerevan, Armenia · mid_level · 26d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Technical Lead (IntelliJ Platform)</title>
+      <title>JetBrains — Technical Lead (IntelliJ Platform)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4699241101</link>
       <guid isPermaLink="false">9c35207949b1ecb4</guid>
       <description>Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Warsaw, Poland; Yerevan, Armenia · mid_level · 26d</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Technical Project Manager (JetBrains Cloud Platform)</title>
+      <title>JetBrains — Technical Project Manager (JetBrains Cloud Platform)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4741520101</link>
       <guid isPermaLink="false">000014a8b96701ef</guid>
       <description>Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Warsaw, Poland; Yerevan, Armenia · mid_level · 26d</description>
@@ -3871,12 +3864,6 @@
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Software-Engineer-II_R-290831</link>
       <guid isPermaLink="false">4452bd1ab45bfd2c</guid>
       <description>Dublin, Ireland · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Agentic AI - Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Agentic-AI---Senior-Software-Engineer_R-286494</link>
-      <guid isPermaLink="false">982b8a14d218c484</guid>
-      <description>Dublin, Ireland · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Senior ML Platform Engineer</title>

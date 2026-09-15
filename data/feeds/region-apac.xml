@@ -4,7 +4,7 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Tue, 15 Sep 2026 14:12:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 14:33:28 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer II , Product &amp; Offers Experience</title>
       <link>https://www.amazon.jobs/en/jobs/10541244/software-development-engineer-ii-product-offers-experience</link>
@@ -212,6 +212,13 @@
       <title>Okta — Senior Software Engineer - Fullstack</title>
       <link>https://www.okta.com/company/careers/opportunity/8128435?gh_jid=8128435</link>
       <guid isPermaLink="false">8a4a48164c8ba58c</guid>
+      <description>Bengaluru, India · mid_level · 0d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer, Workflows (Fullstack Javascript Engineer)</title>
+      <link>https://www.okta.com/company/careers/opportunity/5772061?gh_jid=5772061</link>
+      <guid isPermaLink="false">cb4bb9ea1c1a8866</guid>
       <description>Bengaluru, India · mid_level · 0d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -735,8 +742,8 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046</link>
-      <guid isPermaLink="false">989b7ab2d0af515b</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016</link>
+      <guid isPermaLink="false">1b7920aa8efcc92e</guid>
       <description>Bengaluru, India · mid_level · 4d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -749,8 +756,8 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016</link>
-      <guid isPermaLink="false">1b7920aa8efcc92e</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046</link>
+      <guid isPermaLink="false">989b7ab2d0af515b</guid>
       <description>Bengaluru, India · mid_level · 4d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -819,15 +826,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer, Identity Administration</title>
-      <link>https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071</link>
-      <guid isPermaLink="false">fff7ebb730dfe841</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8147222?gh_jid=8147222</link>
+      <guid isPermaLink="false">163e96fc7656a213</guid>
       <description>Bengaluru, India · mid_level · 4d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer, Identity Administration</title>
-      <link>https://www.okta.com/company/careers/opportunity/8147222?gh_jid=8147222</link>
-      <guid isPermaLink="false">163e96fc7656a213</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071</link>
+      <guid isPermaLink="false">fff7ebb730dfe841</guid>
       <description>Bengaluru, India · mid_level · 4d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2955,6 +2962,12 @@
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-SMTS--Identity-and-Access-Management_JR358231-1</link>
       <guid isPermaLink="false">1490cc7184bf5968</guid>
       <description>India - Hyderabad · other · 0d</description>
+    </item>
+    <item>
+      <title>Tencent — Backend Development Intern (6 months)</title>
+      <link>https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Backend-Development-Intern--6-months-_R108169</link>
+      <guid isPermaLink="false">947c5adac492a8f0</guid>
+      <description>Singapore-CapitaSky · internship · 0d</description>
     </item>
     <item>
       <title>Visa — Director, Software Engineering (14+ years, Scala, Spark, Data Pipeline, GenAI) Spark,</title>

@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Tue, 15 Sep 2026 14:12:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 14:33:28 GMT</lastBuildDate>
     <item>
       <title>Alan — Fullstack Software Engineer (x/f/m) - Data Retention &amp; Privacy</title>
       <link>https://jobs.ashbyhq.com/alan/02473005-3115-45b2-97f1-3bc2474b721e</link>
@@ -41,7 +41,7 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Senior Software Engineer (AppGlass)</title>
+      <title>JetBrains — Senior Software Engineer (AppGlass)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4830653101</link>
       <guid isPermaLink="false">cca1d83166171384</guid>
       <description>Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; London, United Kingdom; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Remote, Germany; Warsaw, Poland; Yerevan, Armenia · mid_level · 0d</description>
@@ -73,6 +73,20 @@
       <link>https://job-boards.greenhouse.io/reddit/jobs/8127002</link>
       <guid isPermaLink="false">6b5d8a27f0918b8c</guid>
       <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Senior Application Engineer, Zuora Billing</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8048661</link>
+      <guid isPermaLink="false">6dda99c9655632ca</guid>
+      <description>Remote - India · mid_level · 0d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Senior/Staff Applied Research Software Engineer</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8007449</link>
+      <guid isPermaLink="false">d228d648c6e944e4</guid>
+      <description>Remote - India · mid_level · 0d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -440,24 +454,10 @@
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Twilio — Senior Application Engineer, Zuora Billing</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8048661</link>
-      <guid isPermaLink="false">6dda99c9655632ca</guid>
-      <description>Remote - India · mid_level · 1d</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Twilio — Senior Software Engineer</title>
       <link>https://job-boards.greenhouse.io/twilio/jobs/8015771</link>
       <guid isPermaLink="false">5de9aa503b387621</guid>
       <description>Remote - Ireland · mid_level · 1d</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Senior/Staff Applied Research Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8007449</link>
-      <guid isPermaLink="false">d228d648c6e944e4</guid>
-      <description>Remote - India · mid_level · 1d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -517,7 +517,7 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Software Developer for ThinkRail (Innovation Hub)</title>
+      <title>JetBrains — Software Developer for ThinkRail (Innovation Hub)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4757237101</link>
       <guid isPermaLink="false">06dc9c8935d0db0c</guid>
       <description>Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Remote, Germany; Warsaw, Poland; Yerevan, Armenia · other · 4d</description>
@@ -566,14 +566,14 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Senior Software Developer (JCP Core Foundation Licensing and Quotation)</title>
+      <title>JetBrains — Senior Software Developer (JCP Core Foundation Licensing and Quotation)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4963986101</link>
       <guid isPermaLink="false">f7d9e5e95092cd21</guid>
       <description>Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Remote, Germany; Warsaw, Poland; Yerevan, Armenia · mid_level · 5d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Staff Software Developer (IAM)</title>
+      <title>JetBrains — Staff Software Developer (IAM)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4963991101</link>
       <guid isPermaLink="false">1d1c9f87635ad867</guid>
       <description>Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; London, United Kingdom; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Remote, Germany; Warsaw, Poland; Yerevan, Armenia · mid_level · 5d</description>
@@ -619,20 +619,6 @@
       <link>https://stripe.com/jobs/search?gh_jid=8089353</link>
       <guid isPermaLink="false">e9111882b117eeb0</guid>
       <description>US - Remote · other · 5d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer (L4)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8103253</link>
-      <guid isPermaLink="false">ef6e4f4ec46647d6</guid>
-      <description>Remote - US · other · 5d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer (L4)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8098945</link>
-      <guid isPermaLink="false">7eeb8666e358e421</guid>
-      <description>Remote - US · other · 5d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -713,7 +699,7 @@
       <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Staff/Lead Software Developer (AI Agents &amp; Integrations)</title>
+      <title>JetBrains — Staff/Lead Software Developer (AI Agents &amp; Integrations)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4970937101</link>
       <guid isPermaLink="false">3f3d57950053cf25</guid>
       <description>Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; London, United Kingdom; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Remote, Germany; Warsaw, Poland; Yerevan, Armenia · mid_level · 7d</description>
@@ -1231,7 +1217,7 @@
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jetbrains — Senior Graphics/JVM Software Engineer (JVM Runtime)</title>
+      <title>JetBrains — Senior Graphics/JVM Software Engineer (JVM Runtime)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4873493101</link>
       <guid isPermaLink="false">00d82259636b7178</guid>
       <description>Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Madrid, Spain; Munich, Germany; Paphos, Cyprus; Prague, Czech Republic; Remote, Germany; Warsaw, Poland · mid_level · 26d</description>
