@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { LEVEL_VALUES, REGION_VALUES, REMOTE_VALUES, ROLE_VALUES } from "../lib/filters";
 import { fromJsonResumeString } from "../lib/jsonResume";
+import { trackEvent } from "../lib/analytics";
 import { extractPdfText } from "../lib/pdfText";
 import { mergeParsedProfile, parseResume } from "../lib/resumeParse";
 import {
@@ -598,6 +599,7 @@ export default function ProfilePanel() {
             setNotice({ kind: "err", text: "That .json isn't a profile or a JSON Resume export we can read." });
             return;
           }
+          trackEvent("profile_import", { source: "json" });
           setProfile(parsed);
           queueSave(parsed);
           setNotice({ kind: "ok", text: "Profile loaded from file." });
@@ -615,6 +617,10 @@ export default function ProfilePanel() {
           return;
         }
         const { parsed, found } = parseResume(text);
+        trackEvent("resume_import", {
+          source: name.endsWith(".pdf") || file.type === "application/pdf" ? "pdf" : "text",
+          fields_found: found.length,
+        });
         setProfile((cur) => {
           const base = cur ?? emptyProfile();
           const merged = mergeParsedProfile(base, parsed);
@@ -646,6 +652,7 @@ export default function ProfilePanel() {
   async function handleErase() {
     const typed = window.prompt('This permanently deletes your profile from this browser. Type "ERASE" to confirm.');
     if (typed !== "ERASE") return;
+    trackEvent("profile_erase");
     await clearProfile();
     setProfile(emptyProfile());
     setIsNew(true);
@@ -696,7 +703,10 @@ export default function ProfilePanel() {
               type="button"
               className={btnClass}
               title="Save a file with everything on this page. Keep it as a backup, or drop it on the box above to load your profile on another browser or device."
-              onClick={() => downloadFile("my-profile-backup.json", exportProfile(profile), "application/json")}
+              onClick={() => {
+                trackEvent("profile_export");
+                downloadFile("my-profile-backup.json", exportProfile(profile), "application/json");
+              }}
             >
               Download a copy
             </button>

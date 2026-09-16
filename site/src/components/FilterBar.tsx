@@ -8,6 +8,7 @@ import {
   type FilterState,
 } from "../lib/filters";
 import { LEVEL_LABELS, REGION_LABELS, REMOTE_LABELS, ROLE_LABELS } from "../lib/labels";
+import { trackEvent } from "../lib/analytics";
 import MultiSelect, { type MultiSelectOption } from "./MultiSelect";
 
 // The ONE facet surface (Lane H). Option lists come from filters.ts's
@@ -71,7 +72,18 @@ export default function FilterBar({
   const set = <K extends keyof FilterState>(key: K, value: FilterState[K]) => {
     onChange({ ...filters, [key]: value });
   };
-  const toggleVisa = () => set("visa", filters.visa === "yes" ? "" : "yes");
+  const toggleVisa = () => {
+    const next = filters.visa === "yes" ? "" : "yes";
+    trackEvent("filter_change", { facet: "visa", action: next ? "add" : "remove" });
+    set("visa", next);
+  };
+  const setKind = (kind: FilterState["kind"]) => {
+    trackEvent("filter_change", { facet: "kind", value: kind });
+    set("kind", kind);
+  };
+  const commitSearch = (value: string) => {
+    if (value.trim()) trackEvent("search", { search_term: value.trim().slice(0, 100) });
+  };
   // Country options get a real flag image before the name (see <Flag> —
   // emoji flags render as bare letters on Windows).
   const roleOptions = withCounts(
@@ -106,7 +118,7 @@ export default function FilterBar({
             <button
               key={tab.value}
               type="button"
-              onClick={() => set("kind", tab.value)}
+              onClick={() => setKind(tab.value)}
               aria-pressed={filters.kind === tab.value}
               className={
                 "rounded-full border px-3 py-1 text-sm font-medium transition-colors " +
@@ -127,6 +139,8 @@ export default function FilterBar({
           type="search"
           value={filters.q}
           onChange={(e) => set("q", e.target.value)}
+          onBlur={(e) => commitSearch(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && commitSearch(e.currentTarget.value)}
           placeholder="Search company, title, or place…"
           aria-label="Search company, title, or place"
           className="w-full max-w-xs rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-900 focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 sm:w-56"
@@ -171,7 +185,10 @@ export default function FilterBar({
           <>
             <button
               type="button"
-              onClick={() => onChange(DEFAULT_FILTERS)}
+              onClick={() => {
+                trackEvent("filter_clear");
+                onChange(DEFAULT_FILTERS);
+              }}
               className="text-slate-500 underline-offset-2 hover:text-slate-700 hover:underline dark:text-slate-400 dark:hover:text-slate-200"
             >
               Clear filters

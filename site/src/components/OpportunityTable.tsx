@@ -2,6 +2,7 @@ import BookmarkButton from "./BookmarkButton";
 import CompanyAvatar from "./CompanyAvatar";
 import Flag from "./Flag";
 import { BASE_URL } from "../lib/basePath";
+import { trackEvent } from "../lib/analytics";
 import { formatAge, formatLevel, formatRelativeTime, formatSalaryShort, prettifyCompany } from "../lib/labels";
 import { countryForItem } from "../lib/geo";
 import type { JobMatch } from "../lib/profileMatch";
@@ -256,6 +257,7 @@ export default function OpportunityTable({
                   {item.kind === "job" ? (
                     <a
                       href={`${BASE_URL}company?c=${encodeURIComponent(company)}`}
+                      onClick={() => trackEvent("select_content", { content_type: "company", item_id: company })}
                       className="hover:text-teal-700 hover:underline dark:hover:text-teal-400"
                     >
                       {company}
@@ -271,6 +273,15 @@ export default function OpportunityTable({
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() =>
+                    trackEvent("select_content", {
+                      content_type: item.kind,
+                      item_id: item.id,
+                      company,
+                      source: item.source,
+                      level: item.kind === "job" ? item.level : undefined,
+                    })
+                  }
                 >
                   {item.title}
                 </a>
@@ -282,6 +293,7 @@ export default function OpportunityTable({
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"
+                      onClick={() => trackEvent("source_link_click", { source: item.source, content_type: item.kind })}
                     >
                       {item.source}
                     </a>

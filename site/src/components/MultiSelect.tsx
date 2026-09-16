@@ -1,4 +1,5 @@
 import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { trackEvent } from "../lib/analytics";
 import Flag from "./Flag";
 
 // A compact multi-select: a button showing the facet name (and a count when
@@ -64,7 +65,9 @@ export default function MultiSelect({ label, options, selected, onChange, search
   }, [options, query, selected]);
 
   const toggle = (value: string) => {
-    onChange(selected.includes(value) ? selected.filter((v) => v !== value) : [...selected, value]);
+    const adding = !selected.includes(value);
+    trackEvent("filter_change", { facet: label, value, action: adding ? "add" : "remove" });
+    onChange(adding ? [...selected, value] : selected.filter((v) => v !== value));
   };
 
   const count = selected.length;

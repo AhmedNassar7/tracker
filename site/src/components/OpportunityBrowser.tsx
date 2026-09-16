@@ -35,6 +35,7 @@ import { companyTier } from "../lib/companyTiers";
 import { countryForItem, regionForItem, REGION_ORDER } from "../lib/geo";
 import { readLastVisit, writeLastVisit } from "../lib/visitHistory";
 import { pushWebhookMatches } from "../lib/notifications";
+import { trackEvent } from "../lib/analytics";
 import Pagination from "./Pagination";
 import CompanyShowcase from "./CompanyShowcase";
 import FilterBar from "./FilterBar";
@@ -140,10 +141,12 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   const currentIsSaved = !!prefFilter && filtersEqual(filters, prefFilter);
 
   const updateSortMode = (mode: SortMode) => {
+    trackEvent("sort_change", { sort_mode: mode });
     setSortMode(mode);
     writeSortMode(mode);
   };
   const handleSavePrefs = () => {
+    trackEvent("save_preferences");
     setPrefFilter(filters);
     writePrefFilter(filters);
     // First time you save preferences, show what they do — flip to Best match
@@ -151,6 +154,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
     if (!readSortMode()) updateSortMode("match");
   };
   const handleClearPrefs = () => {
+    trackEvent("clear_preferences");
     clearPrefFilter();
     setPrefFilter(null);
     // "Best match" now has nothing to score against unless a profile is filled.
@@ -238,6 +242,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       ) {
         return;
       }
+      trackEvent("job_bookmark", { action: "remove", content_type: item.kind, company: item.company, source: item.source });
       setTrackedApps((prev) => {
         const next = new Map(prev);
         next.delete(item.id);
@@ -245,6 +250,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
       });
       void untrackApplication(item.id);
     } else {
+      trackEvent("job_bookmark", { action: "add", content_type: item.kind, company: item.company, source: item.source });
       const now = new Date().toISOString();
       // Freeze the profile-match score at track time (jobs only), so the
       // personal dashboard stays meaningful even if the profile changes later.
@@ -272,6 +278,7 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
   }
 
   function handleQuickFilter(patch: Partial<FilterState>) {
+    trackEvent("quick_filter", { patch: Object.keys(patch).join(",") });
     setShowOnlyNew(false);
     setFilters({ ...DEFAULT_FILTERS, ...patch });
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
@@ -524,7 +531,10 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
           </span>
           <button
             type="button"
-            onClick={() => setShowOnlyNew((v) => !v)}
+            onClick={() => {
+              trackEvent("toggle_new_only", { value: !showOnlyNew });
+              setShowOnlyNew((v) => !v);
+            }}
             aria-pressed={showOnlyNew}
             className={
               "rounded-full border px-3 py-0.5 text-xs font-medium " +
@@ -695,7 +705,10 @@ export default function OpportunityBrowser({ presetFilters }: { presetFilters?: 
           {matchActive && lessRelevant.length > 0 && (
             <button
               type="button"
-              onClick={() => setShowLessRelevant((v) => !v)}
+              onClick={() => {
+                trackEvent("toggle_less_relevant", { value: !showLessRelevant });
+                setShowLessRelevant((v) => !v);
+              }}
               className="mt-3 w-full rounded-md border border-dashed border-slate-300 py-2 text-center text-sm text-slate-500 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-900"
             >
               {showLessRelevant

@@ -191,6 +191,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 						FEEDS.map((feed) => (
 							<a
 								href={`${FEEDS_BASE}/${feed.id}.xml`}
+								onclick={`window.gtag&&window.gtag('event','rss_subscribe_click',{feed_id:'${feed.id}'})`}
 								class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
 							>
 								{feed.label}
@@ -202,6 +203,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 				<div class="flex flex-wrap justify-center gap-x-4 gap-y-1">
 					<a
 						href={repoUrl}
+						onclick="window.gtag&&window.gtag('event','outbound_click',{link_type:'source'})"
 						class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -210,6 +212,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 					</a>
 					<a
 						href={sponsorUrl}
+						onclick="window.gtag&&window.gtag('event','outbound_click',{link_type:'sponsor'})"
 						class="text-pink-700 underline-offset-2 hover:underline dark:text-pink-300"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -218,6 +221,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 					</a>
 					<a
 						href={feedbackUrl}
+						onclick="window.gtag&&window.gtag('event','outbound_click',{link_type:'feedback'})"
 						title="Report a bug or request a feature"
 						class="text-teal-700 underline-offset-2 hover:underline dark:text-teal-400"
 						target="_blank"
@@ -243,6 +247,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 					if (!btn) return;
 					var next = !document.documentElement.classList.contains("dark");
 					document.documentElement.classList.toggle("dark", next);
+					if (window.gtag) window.gtag("event", "theme_toggle", { to_dark: next });
 					try {
 						localStorage.setItem("tracker:theme", next ? "dark" : "light");
 					} catch (err) {
@@ -265,6 +270,17 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		<!-- Cloudflare Web Analytics: cookieless, patches history.pushState
 		itself so it tracks Astro's view-transition navigations with no
 		extra wiring on our end. -->
-		<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "49da73aecb0244a2bdb19d17b209bf9a"}'></script>
+		<script is:inline type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "49da73aecb0244a2bdb19d17b209bf9a"}'></script>
+		<!-- Google Analytics (GA4). Enhanced Measurement's history-based page
+		view tracking picks up ClientRouter's pushState navigations on its
+		own, same as the Cloudflare beacon above — no astro:after-swap
+		wiring needed. -->
+		<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-8P1659E3XH"></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag("js", new Date());
+			gtag("config", "G-8P1659E3XH");
+		</script>
 	</body>
 </html>

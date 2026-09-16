@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { hasActiveFilters, searchParamsFromFilters, type FilterState } from "../lib/filters";
+import { trackEvent } from "../lib/analytics";
 import {
   filtersForSavedSearch,
   listSavedSearches,
@@ -29,7 +30,10 @@ export default function SavedSearches({ filters, onApply }: Props) {
 
   const handleSave = () => {
     const name = window.prompt("Name this search (e.g. “Remote new-grad”):");
-    if (name && name.trim()) setSaved(saveSearch(name, filters));
+    if (name && name.trim()) {
+      trackEvent("saved_search_create");
+      setSaved(saveSearch(name, filters));
+    }
   };
 
   // Lane C4 — one prompt, three outcomes: cancel (null, no change), empty
@@ -43,6 +47,7 @@ export default function SavedSearches({ filters, onApply }: Props) {
       search.webhookUrl ?? "",
     );
     if (input === null) return;
+    trackEvent("saved_search_webhook_set", { has_webhook: input.trim() !== "" });
     setSaved(setSavedSearchWebhook(search.id, input.trim() || null));
   };
 
@@ -63,7 +68,14 @@ export default function SavedSearches({ filters, onApply }: Props) {
                 : "border-slate-300 text-slate-600 dark:border-slate-700 dark:text-slate-300")
             }
           >
-            <button type="button" onClick={() => onApply(filtersForSavedSearch(s))} className="font-medium">
+            <button
+              type="button"
+              onClick={() => {
+                trackEvent("saved_search_apply");
+                onApply(filtersForSavedSearch(s));
+              }}
+              className="font-medium"
+            >
               {s.name}
             </button>
             <button
@@ -85,7 +97,10 @@ export default function SavedSearches({ filters, onApply }: Props) {
             </button>
             <button
               type="button"
-              onClick={() => setSaved(removeSavedSearch(s.id))}
+              onClick={() => {
+                trackEvent("saved_search_delete");
+                setSaved(removeSavedSearch(s.id));
+              }}
               aria-label={`Delete saved search ${s.name}`}
               className={
                 "rounded-full px-1 text-xs leading-none " +

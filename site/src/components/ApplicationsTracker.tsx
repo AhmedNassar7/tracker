@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { BASE_URL } from "../lib/basePath";
+import { trackEvent } from "../lib/analytics";
 import {
   APPLICATION_STATUSES,
   applicationsToCsv,
@@ -50,6 +51,7 @@ export default function ApplicationsTracker() {
 
   async function handleStatusChange(id: string, status: ApplicationStatus) {
     if (state.status !== "loaded") return;
+    trackEvent("application_status_change", { status });
     setState({
       status: "loaded",
       applications: state.applications.map((app) => (app.id === id ? { ...app, status } : app)),
@@ -80,6 +82,7 @@ export default function ApplicationsTracker() {
     if (!window.confirm(`Remove ${app.company} — ${app.title} from your tracked applications? This can't be undone.`)) {
       return;
     }
+    trackEvent("application_remove");
     setState({ status: "loaded", applications: state.applications.filter((a) => a.id !== id) });
     await untrackApplication(id);
   }
@@ -115,16 +118,20 @@ export default function ApplicationsTracker() {
         <div className="ml-auto flex gap-2">
           <button
             type="button"
-            onClick={() =>
-              downloadFile("tracker-applications.json", applicationsToJson(applications), "application/json")
-            }
+            onClick={() => {
+              trackEvent("export_applications", { format: "json", count: applications.length });
+              downloadFile("tracker-applications.json", applicationsToJson(applications), "application/json");
+            }}
             className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
           >
             Export JSON
           </button>
           <button
             type="button"
-            onClick={() => downloadFile("tracker-applications.csv", applicationsToCsv(applications), "text/csv")}
+            onClick={() => {
+              trackEvent("export_applications", { format: "csv", count: applications.length });
+              downloadFile("tracker-applications.csv", applicationsToCsv(applications), "text/csv");
+            }}
             className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
           >
             Export CSV

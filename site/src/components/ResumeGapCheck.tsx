@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { BASE_URL } from "../lib/basePath";
 import { analyzeKeywordGap, bucketForTag, type KeywordGapResult } from "../lib/keywordGap";
 import { emptyProfile, loadProfile, saveProfile, type Profile } from "../lib/profile";
+import { trackEvent } from "../lib/analytics";
 
 // Lane R2 / APPLICANT-TOOLKIT-PLAN Phase 5a — paste a job description, diff the
 // tech skills it names against your saved profile. Pure client-side text diff:
@@ -71,7 +72,9 @@ export default function ResumeGapCheck() {
   function handleAnalyze() {
     setAdded(new Set());
     setFlash("");
-    setAnalyzed(analyzeKeywordGap(jd, profile));
+    const r = analyzeKeywordGap(jd, profile);
+    trackEvent("resume_gap_check_run", { score: r.score ?? undefined, jd_tag_count: r.jdTags.length, missing_count: r.missing.length });
+    setAnalyzed(r);
   }
 
   async function handleAdd(tag: string) {
@@ -83,6 +86,7 @@ export default function ResumeGapCheck() {
       ...state.profile,
       skills: { ...state.profile.skills, [bucket]: [...current, tag] },
     };
+    trackEvent("resume_gap_add_skill", { bucket });
     setState({ status: "ready", profile: next, hasProfile: true });
     setAdded((prev) => new Set(prev).add(tag));
     setFlash(`Added ${tag} to your ${bucket}.`);
@@ -133,7 +137,10 @@ export default function ResumeGapCheck() {
           </button>
           <button
             type="button"
-            onClick={() => setJd(EXAMPLE_JD)}
+            onClick={() => {
+              trackEvent("resume_gap_load_example");
+              setJd(EXAMPLE_JD);
+            }}
             className="rounded-md border border-slate-300 px-3 py-1.5 text-sm hover:bg-slate-50 dark:border-slate-700 dark:hover:bg-slate-800"
           >
             Load an example

@@ -13,6 +13,7 @@ import {
 import { analyzeKeywordGap } from "../lib/keywordGap";
 import { emptyProfile, loadProfile, type Profile } from "../lib/profile";
 import { listApplications, updateApplication, type TrackedApplication } from "../lib/tracker";
+import { trackEvent } from "../lib/analytics";
 
 // Phase 4a — templated, offline cover-letter builder. One flow: the letter is
 // generated from your résumé (profile) + the pasted JD, with template / tone /
@@ -113,6 +114,7 @@ export default function CoverLetterBuilder() {
 
   async function saveToApp() {
     if (!appId) return;
+    trackEvent("cover_letter_save", { template, tone, length });
     await updateApplication(appId, { coverLetterUsed: text });
     setFlash("Saved to this application.");
   }
@@ -192,7 +194,10 @@ export default function CoverLetterBuilder() {
             <select
               className={inputCls}
               value={template}
-              onChange={(e) => setTplOverride(e.target.value as Template)}
+              onChange={(e) => {
+                trackEvent("cover_letter_customize", { field: "template", value: e.target.value });
+                setTplOverride(e.target.value as Template);
+              }}
             >
               {TEMPLATES.map((t) => (
                 <option key={t.id} value={t.id}>
@@ -203,7 +208,14 @@ export default function CoverLetterBuilder() {
           </label>
           <label className="block text-sm font-medium">
             Tone
-            <select className={inputCls} value={tone} onChange={(e) => setToneOverride(e.target.value as Tone)}>
+            <select
+              className={inputCls}
+              value={tone}
+              onChange={(e) => {
+                trackEvent("cover_letter_customize", { field: "tone", value: e.target.value });
+                setToneOverride(e.target.value as Tone);
+              }}
+            >
               {TONES.map((t) => (
                 <option key={t.id} value={t.id}>
                   {t.label}
@@ -213,7 +225,14 @@ export default function CoverLetterBuilder() {
           </label>
           <label className="block text-sm font-medium">
             Length
-            <select className={inputCls} value={length} onChange={(e) => setLenOverride(e.target.value as Length)}>
+            <select
+              className={inputCls}
+              value={length}
+              onChange={(e) => {
+                trackEvent("cover_letter_customize", { field: "length", value: e.target.value });
+                setLenOverride(e.target.value as Length);
+              }}
+            >
               <option value="half">Half page</option>
               <option value="full">Full page</option>
             </select>
@@ -261,6 +280,7 @@ export default function CoverLetterBuilder() {
           <button
             type="button"
             onClick={() => {
+              trackEvent("cover_letter_copy", { template, tone, length });
               navigator.clipboard?.writeText(text);
               setFlash("Copied.");
             }}
@@ -270,7 +290,10 @@ export default function CoverLetterBuilder() {
           </button>
           <button
             type="button"
-            onClick={() => printLetter(text, docTitle)}
+            onClick={() => {
+              trackEvent("cover_letter_download", { template, tone, length });
+              printLetter(text, docTitle);
+            }}
             className="rounded-md border border-slate-300 px-3 py-1.5 text-sm hover:bg-slate-50 dark:border-slate-700 dark:hover:bg-slate-800"
           >
             Download PDF

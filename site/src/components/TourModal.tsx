@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type ReactElement } from "react";
 import { BASE_URL } from "../lib/basePath";
 import { hasSeenTour, markTourSeen } from "../lib/tour";
+import { trackEvent } from "../lib/analytics";
 
 // A real spotlight tour: each step finds its actual on-page element via
 // `[data-tour-target="…"]` (set on the real DOM node in FilterBar.tsx,
@@ -158,6 +159,7 @@ export default function TourModal() {
   // manual "Take the tour" button below is unaffected — it always works.
   useEffect(() => {
     if (!hasSeenTour()) {
+      trackEvent("tour_start", { trigger: "auto" });
       setOpen(true);
       markTourSeen();
     }
@@ -208,17 +210,19 @@ export default function TourModal() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, step]);
 
-  function close() {
+  function close(reason: "skip" | "complete" = "skip") {
+    trackEvent(reason === "complete" ? "tour_complete" : "tour_skip", { step: step + 1, total: STEPS.length });
     setOpen(false);
   }
   function next() {
     if (step < STEPS.length - 1) setStep(step + 1);
-    else close();
+    else close("complete");
   }
   function back() {
     if (step > 0) setStep(step - 1);
   }
   function start() {
+    trackEvent("tour_start", { trigger: "manual" });
     setStep(0);
     setCalloutSize(DEFAULT_CALLOUT_SIZE);
     setOpen(true);
@@ -283,7 +287,7 @@ export default function TourModal() {
 
       {open && (
         <>
-          <div className="tour-backdrop fixed inset-0 z-50 bg-slate-950/60" onClick={close} />
+          <div className="tour-backdrop fixed inset-0 z-50 bg-slate-950/60" onClick={() => close()} />
 
           {spotlight && (
             <div
@@ -328,7 +332,7 @@ export default function TourModal() {
                 </div>
                 <button
                   type="button"
-                  onClick={close}
+                  onClick={() => close()}
                   className="mt-1 shrink-0 text-xs text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300"
                 >
                   Skip
@@ -358,7 +362,7 @@ export default function TourModal() {
                 {isLast ? (
                   <a
                     href={`${BASE_URL}profile`}
-                    onClick={close}
+                    onClick={() => close("complete")}
                     className="rounded-md bg-teal-600 px-3 py-1 text-xs font-medium text-white hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-400"
                   >
                     Set up your profile

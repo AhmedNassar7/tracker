@@ -1,3 +1,5 @@
+import { trackEvent } from "../lib/analytics";
+
 interface Props {
   page: number; // 1-indexed, already clamped to [1, totalPages]
   totalPages: number;
@@ -25,12 +27,16 @@ const btn =
   "dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900";
 
 export default function Pagination({ page, totalPages, onChange }: Props) {
+  const goTo = (next: number, method: "prev" | "next" | "jump") => {
+    trackEvent("pagination_change", { page: next, method });
+    onChange(next);
+  };
   return (
     <nav
       className="mt-4 flex flex-wrap items-center justify-center gap-1.5"
       aria-label="Pagination"
     >
-      <button type="button" className={btn} onClick={() => onChange(page - 1)} disabled={page <= 1}>
+      <button type="button" className={btn} onClick={() => goTo(page - 1, "prev")} disabled={page <= 1}>
         ‹ Prev
       </button>
 
@@ -43,7 +49,7 @@ export default function Pagination({ page, totalPages, onChange }: Props) {
           <button
             key={p}
             type="button"
-            onClick={() => onChange(p)}
+            onClick={() => goTo(p, "jump")}
             aria-current={p === page ? "page" : undefined}
             className={
               p === page
@@ -59,7 +65,7 @@ export default function Pagination({ page, totalPages, onChange }: Props) {
       <button
         type="button"
         className={btn}
-        onClick={() => onChange(page + 1)}
+        onClick={() => goTo(page + 1, "next")}
         disabled={page >= totalPages}
       >
         Next ›
