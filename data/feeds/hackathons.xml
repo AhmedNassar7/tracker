@@ -4,19 +4,26 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Wed, 16 Sep 2026 06:04:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 11:32:34 GMT</lastBuildDate>
+    <item>
+      <title>Devfolio — HackOphobia</title>
+      <link>https://hackophobia.devfolio.co</link>
+      <guid isPermaLink="false">59a6916ca8c408f2</guid>
+      <description>Parsandan, India · last day</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>GatewayGS — GatewayGS Hackathon 2</title>
       <link>https://gatewaygs-hackathon-2.devpost.com/</link>
       <guid isPermaLink="false">0e04c12ae1956584</guid>
-      <description>Online · about 15 hours left</description>
+      <description>Online · about 10 hours left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Hack Club — Graphiques Innovation Challenge</title>
       <link>https://graphiques-challenge.devpost.com/</link>
       <guid isPermaLink="false">a1b0841eccae8d89</guid>
-      <description>Online · about 16 hours left</description>
+      <description>Online · about 10 hours left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -24,13 +31,6 @@
       <link>https://devhack2026.devfolio.co</link>
       <guid isPermaLink="false">73375ab80c2cac22</guid>
       <description>Various · 1 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — HackOphobia</title>
-      <link>https://hackophobia.devfolio.co</link>
-      <guid isPermaLink="false">59a6916ca8c408f2</guid>
-      <description>Parsandan, India · 1 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -48,10 +48,31 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Rice University — The Rice University Urban Sustainability Hackathon</title>
+      <link>https://rice-urban-sustainability.devpost.com/</link>
+      <guid isPermaLink="false">8662a5bbc58a19f5</guid>
+      <description>Online · 1 day left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — DSU DEVHACK 3.0</title>
+      <link>https://dsudevhack3.devfolio.co</link>
+      <guid isPermaLink="false">16b268472c2232ef</guid>
+      <description>Ramanagara, India · 2 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — Interledger Student Hackathon - CUC</title>
       <link>https://interledger-student-hackathon-cuc.devfolio.co</link>
       <guid isPermaLink="false">f15bdec9139be07f</guid>
       <description>Barranquilla, Colombia · 2 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Institute of Engineering &amp; Management — Hack2Heal 2.0 - Global Healthcare Innovation Hackathon</title>
+      <link>https://hack2heal.devpost.com/</link>
+      <guid isPermaLink="false">9d04d4ad2e687283</guid>
+      <description>Online · 2 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -62,37 +83,23 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Rice University — The Rice University Urban Sustainability Hackathon</title>
-      <link>https://rice-urban-sustainability.devpost.com/</link>
-      <guid isPermaLink="false">8662a5bbc58a19f5</guid>
+      <title>TechCommons — TechCommons Hacks V2 - Hacks to Inspire</title>
+      <link>https://techcommons-hacks-v2.devpost.com/</link>
+      <guid isPermaLink="false">09e3b2da05cc448c</guid>
       <description>Online · 2 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devfolio — DSU DEVHACK 3.0</title>
-      <link>https://dsudevhack3.devfolio.co</link>
-      <guid isPermaLink="false">16b268472c2232ef</guid>
-      <description>Ramanagara, India · 3 days left</description>
+      <title>Code for Pakistan — Smart City Hackathon Lahore</title>
+      <link>https://smart-city-hackathon-lahore.devpost.com/</link>
+      <guid isPermaLink="false">3a93d86cea7ffef7</guid>
+      <description>Lahore Garrison University · 3 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DFA Yale — DFA Design Sprint</title>
       <link>https://dfa-kickoff.devpost.com/</link>
       <guid isPermaLink="false">83245392ba8aa7eb</guid>
-      <description>Online · 3 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Institute of Engineering &amp; Management — Hack2Heal 2.0 - Global Healthcare Innovation Hackathon</title>
-      <link>https://hack2heal.devpost.com/</link>
-      <guid isPermaLink="false">9d04d4ad2e687283</guid>
-      <description>Online · 3 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>TechCommons — TechCommons Hacks V2 - Hacks to Inspire</title>
-      <link>https://techcommons-hacks-v2.devpost.com/</link>
-      <guid isPermaLink="false">09e3b2da05cc448c</guid>
       <description>Online · 3 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -104,13 +111,6 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Code for Pakistan — Smart City Hackathon Lahore</title>
-      <link>https://smart-city-hackathon-lahore.devpost.com/</link>
-      <guid isPermaLink="false">3a93d86cea7ffef7</guid>
-      <description>Lahore Garrison University · 4 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — Avalon OpenHack</title>
       <link>https://avalon-openhack.devfolio.co</link>
       <guid isPermaLink="false">8902011d35216ef4</guid>
@@ -118,45 +118,31 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>HackerEarth — G2 AI Engineering Hackathon</title>
-      <link>https://www.hackerearth.com/challenges/competitive/g2-ai-engineering-hiring-hackathon/</link>
-      <guid isPermaLink="false">d4ece6d214dafb36</guid>
-      <description>Online · 4 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — GitHub Repo Value Check</title>
-      <link>https://www.hackerearth.com/challenges/hackathon/github-repo-value-check/</link>
-      <guid isPermaLink="false">f419e1b19af0e28c</guid>
-      <description>Online · 4 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Evorozen — Evorozen Apex: NextGen AI Buildathon</title>
       <link>https://evorozen-apex.devpost.com/</link>
       <guid isPermaLink="false">84fd0eca7466b4a1</guid>
-      <description>Online · 5 days left</description>
+      <description>Online · 4 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>HackAlphaX — NextStep Hacks 2026</title>
       <link>https://nextstep2026.devpost.com/</link>
       <guid isPermaLink="false">fb2a456d13ba8a13</guid>
-      <description>Online · 5 days left</description>
+      <description>Online · 4 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Hidevs — YC Fall 2026 x Moss: The Zero Latency Builder Sprint</title>
       <link>https://yc-fall-2026-x-moss.devpost.com/</link>
       <guid isPermaLink="false">6da1d4bffa19370b</guid>
-      <description>Bengaluru, India · 5 days left</description>
+      <description>Bengaluru, India · 4 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>MunichTecg EXPO — MunichTech EXPO</title>
       <link>https://munichtech-expo.devpost.com/</link>
       <guid isPermaLink="false">b5f86e50e53921e1</guid>
-      <description>Munich, Germany · 5 days left</description>
+      <description>Munich, Germany · 4 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -195,6 +181,13 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Cognition - GameJam '26</title>
+      <link>https://cognition-gamejam-1.devfolio.co</link>
+      <guid isPermaLink="false">30f4d87edfbdea96</guid>
+      <description>Navi Mumbai, India · 9 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — GlitchFiesta</title>
       <link>https://glitchfiesta2026.devfolio.co</link>
       <guid isPermaLink="false">1a9236bfe35ec2f0</guid>
@@ -209,9 +202,23 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Meowathon 2025</title>
+      <link>https://meow.devfolio.co</link>
+      <guid isPermaLink="false">c0b5a0677a593308</guid>
+      <description>Various · 9 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — Test Flow Online</title>
       <link>https://test-flow-online.devfolio.co</link>
       <guid isPermaLink="false">70019e13f29409bf</guid>
+      <description>Online · 9 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — The Great Agent Hackathon</title>
+      <link>https://the-great-agent-hackathon.devfolio.co</link>
+      <guid isPermaLink="false">8f75181549d8be40</guid>
       <description>Online · 9 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -223,17 +230,24 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Innovation Hacks — InfinityX Global Hackathon 2K26</title>
+      <link>https://infinityx-2k26.devpost.com/</link>
+      <guid isPermaLink="false">a71529c0da1ceab9</guid>
+      <description>Online · 9 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jitjai Organization — Practice to Create [Feedback To All Projects!]</title>
+      <link>https://practicetocreate.devpost.com/</link>
+      <guid isPermaLink="false">4ad97c14efe368d8</guid>
+      <description>Online · 9 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — Builders Day by HackUnion</title>
       <link>https://builders-day-hackunion.devfolio.co</link>
       <guid isPermaLink="false">285630e1134ad955</guid>
       <description>Hyderabad, India · 10 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Cognition - GameJam '26</title>
-      <link>https://cognition-gamejam-1.devfolio.co</link>
-      <guid isPermaLink="false">30f4d87edfbdea96</guid>
-      <description>Navi Mumbai, India · 10 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -244,38 +258,10 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devfolio — Meowathon 2025</title>
-      <link>https://meow.devfolio.co</link>
-      <guid isPermaLink="false">c0b5a0677a593308</guid>
-      <description>Various · 10 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — NexHack 2.0</title>
       <link>https://nexhack-2.devfolio.co</link>
       <guid isPermaLink="false">6e2ff6c9d17a126c</guid>
       <description>New Delhi, India · 10 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — The Great Agent Hackathon</title>
-      <link>https://the-great-agent-hackathon.devfolio.co</link>
-      <guid isPermaLink="false">8f75181549d8be40</guid>
-      <description>Online · 10 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Innovation Hacks — InfinityX Global Hackathon 2K26</title>
-      <link>https://infinityx-2k26.devpost.com/</link>
-      <guid isPermaLink="false">a71529c0da1ceab9</guid>
-      <description>Online · 10 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jitjai Organization — Practice to Create [Feedback To All Projects!]</title>
-      <link>https://practicetocreate.devpost.com/</link>
-      <guid isPermaLink="false">4ad97c14efe368d8</guid>
-      <description>Online · 10 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -286,9 +272,9 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>HackerEarth — ABB Accelerator 2026</title>
-      <link>https://www.hackerearth.com/challenges/hackathon/abb-accelerator-2026-2/</link>
-      <guid isPermaLink="false">583e7371ecfd83ad</guid>
+      <title>Lexhack — LexHack 2026</title>
+      <link>https://lexhack-2026.devpost.com/</link>
+      <guid isPermaLink="false">345b7b76d3475cca</guid>
       <description>Online · 11 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -304,13 +290,6 @@
       <link>https://3rd-web-hack.devpost.com/</link>
       <guid isPermaLink="false">34c64aefad0e72ba</guid>
       <description>Online · 11 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lexhack — LexHack 2026</title>
-      <link>https://lexhack-2026.devpost.com/</link>
-      <guid isPermaLink="false">345b7b76d3475cca</guid>
-      <description>Online · 12 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -338,7 +317,7 @@
       <title>FirstCommit — Beginner's Paradise - FirstCommit</title>
       <link>https://firstcommit.devpost.com/</link>
       <guid isPermaLink="false">1ce2a62df36c1b5c</guid>
-      <description>Online · 15 days left</description>
+      <description>Online · 14 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -380,42 +359,21 @@
       <title>Devfolio — Grand Innovation Challenge</title>
       <link>https://grand-innovation-challenge.devfolio.co</link>
       <guid isPermaLink="false">16f376ad99d85024</guid>
-      <description>Digdoh, India · 17 days left</description>
+      <description>Digdoh, India · 16 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devfolio — HackSpire'26</title>
       <link>https://hackspire26.devfolio.co</link>
       <guid isPermaLink="false">ee593f05757b682d</guid>
-      <description>Kolkata, India · 17 days left</description>
+      <description>Kolkata, India · 16 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devfolio — Codeutsava X.0</title>
       <link>https://codeutsava-x.devfolio.co</link>
       <guid isPermaLink="false">67489d16f2ffb8e2</guid>
-      <description>Raipur, India · 18 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — HCLTech GCP Data Engineer Hiring Challenge</title>
-      <link>https://www.hackerearth.com/challenges/competitive/hcltech-gcp-data-engineer-hiring-challenge/</link>
-      <guid isPermaLink="false">711037d4d631043d</guid>
-      <description>Online · 18 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — HCLTech Java Engineering Hiring Challenge</title>
-      <link>https://www.hackerearth.com/challenges/competitive/hcltech-java-challenge-2027/</link>
-      <guid isPermaLink="false">41ea8baebacd1770</guid>
-      <description>Online · 18 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — Yuva Yodha Energy Tech Hackathon</title>
-      <link>https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/</link>
-      <guid isPermaLink="false">ca1b23b0b76fef00</guid>
-      <description>Online · 18 days left</description>
+      <description>Raipur, India · 17 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -482,6 +440,13 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Realm Hack '26</title>
+      <link>https://realm-hack-1.devfolio.co</link>
+      <guid isPermaLink="false">4d198d7fa4844cf4</guid>
+      <description>Thodiyoor, India · 23 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — Hackify 3.0</title>
       <link>https://hackify-3.devfolio.co</link>
       <guid isPermaLink="false">7c4b6daf2e4e9ec2</guid>
@@ -489,10 +454,10 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devfolio — Realm Hack '26</title>
-      <link>https://realm-hack-1.devfolio.co</link>
-      <guid isPermaLink="false">4d198d7fa4844cf4</guid>
-      <description>Thodiyoor, India · 24 days left</description>
+      <title>Devfolio — HackInverse 1.0</title>
+      <link>https://hackinverse-s1.devfolio.co</link>
+      <guid isPermaLink="false">790dcd18a1b957d5</guid>
+      <description>Kolkata, India · 24 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -500,13 +465,6 @@
       <link>https://hack-away-hunger.devpost.com/</link>
       <guid isPermaLink="false">8ce674c48f25ad3e</guid>
       <description>Corteva's Pioneer Shull Building · 24 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — HackInverse 1.0</title>
-      <link>https://hackinverse-s1.devfolio.co</link>
-      <guid isPermaLink="false">790dcd18a1b957d5</guid>
-      <description>Kolkata, India · 25 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -524,9 +482,23 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — HackTopus'FE</title>
+      <link>https://hacktopusgdg.devfolio.co</link>
+      <guid isPermaLink="false">851cac0157a230c0</guid>
+      <description>Bharthia, India · 29 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Hack47 — HACK47: OFFGRID</title>
       <link>https://hack47-offgrid.devpost.com/</link>
       <guid isPermaLink="false">3b52801ce5cb8cb5</guid>
+      <description>Online · 29 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Student Organization — Next Founders Hackathon</title>
+      <link>https://next-founders.devpost.com/</link>
+      <guid isPermaLink="false">a590ba4acbf4fa0e</guid>
       <description>Online · 29 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -542,13 +514,6 @@
       <link>https://aws-cds-partner.devpost.com/</link>
       <guid isPermaLink="false">5d0ec40849dabae4</guid>
       <description>Online · about 1 month left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — HackTopus'FE</title>
-      <link>https://hacktopusgdg.devfolio.co</link>
-      <guid isPermaLink="false">851cac0157a230c0</guid>
-      <description>Bharthia, India · 30 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -587,13 +552,6 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Student Organization — Next Founders Hackathon</title>
-      <link>https://next-founders.devpost.com/</link>
-      <guid isPermaLink="false">a590ba4acbf4fa0e</guid>
-      <description>Online · 30 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — QuantHacks</title>
       <link>https://quanthacks2026.devfolio.co</link>
       <guid isPermaLink="false">1b328570a25716bd</guid>
@@ -604,7 +562,14 @@
       <title>Devfolio — HACKER HOUSE GOA 2026</title>
       <link>https://hacker-house-goa-2026.devfolio.co</link>
       <guid isPermaLink="false">d42dfc6016d1e10c</guid>
-      <description>India · 45 days left</description>
+      <description>India · 44 days left</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — hackodisha-6.0</title>
+      <link>https://hackodisha-6a.devfolio.co</link>
+      <guid isPermaLink="false">d553006f7fba567c</guid>
+      <description>Online · 45 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -636,17 +601,10 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devfolio — hackodisha-6.0</title>
-      <link>https://hackodisha-6a.devfolio.co</link>
-      <guid isPermaLink="false">d553006f7fba567c</guid>
-      <description>Online · 46 days left</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — Hacknauts 2.0</title>
       <link>https://hacknauts26.devfolio.co</link>
       <guid isPermaLink="false">fb5b6ca12b061467</guid>
-      <description>Ludhiana, India · 60 days left</description>
+      <description>Ludhiana, India · 59 days left</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
