@@ -13,6 +13,17 @@
       }
     },
     {
+      "id": "new_grad-trend",
+      "title": "This month",
+      "detail": "New-grad roles up 7%",
+      "filter": {
+        "kind": "job",
+        "levels": [
+          "new_grad"
+        ]
+      }
+    },
+    {
       "id": "top-companies",
       "title": "Hiring most this week",
       "detail": "Amazon, SpaceX, Databricks",

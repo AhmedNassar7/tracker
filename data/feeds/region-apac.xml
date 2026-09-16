@@ -195,13 +195,6 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Apple — DevOps Engineer, Retail Engineering</title>
-      <link>https://jobs.apple.com/en-us/details/200681116/devops-engineer-retail-engineering</link>
-      <guid isPermaLink="false">53b19cd682062a6f</guid>
-      <description>Hyderabad, India · unknown · 1d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Apple — Site Reliability Engineer, Enterprise Technology Services</title>
       <link>https://jobs.apple.com/en-us/details/200658070/site-reliability-engineer-enterprise-technology-services</link>
       <guid isPermaLink="false">ecb312eacfbfc933</guid>
@@ -231,16 +224,23 @@
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7953040</link>
+      <guid isPermaLink="false">bd730a14747e2be4</guid>
+      <description>Hyderabad · mid_level · 1d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8020098</link>
       <guid isPermaLink="false">bbd6f76370044da9</guid>
       <description>Hyderabad · mid_level · 1d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7953040</link>
-      <guid isPermaLink="false">bd730a14747e2be4</guid>
-      <description>Hyderabad · mid_level · 1d</description>
+      <title>Databricks — Senior Software Engineer (App-Framework)</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8210383002</link>
+      <guid isPermaLink="false">fc12a85f892dc2bb</guid>
+      <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -560,8 +560,8 @@
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8064188?gh_jid=8064188</link>
-      <guid isPermaLink="false">b1c53a7f97acfca4</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
+      <guid isPermaLink="false">d287749893376873</guid>
       <description>Bengaluru, India · mid_level · 5d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -632,6 +632,13 @@
       <title>Okta — Senior Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/8053679?gh_jid=8053679</link>
       <guid isPermaLink="false">149f6e3c65aca6ce</guid>
+      <description>Bengaluru, India · mid_level · 5d</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585</link>
+      <guid isPermaLink="false">d4a5d9b8b2c05a5a</guid>
       <description>Bengaluru, India · mid_level · 5d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -770,8 +777,8 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8018310?gh_jid=8018310</link>
-      <guid isPermaLink="false">d936584c98855dd2</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016</link>
+      <guid isPermaLink="false">1b7920aa8efcc92e</guid>
       <description>Bengaluru, India · mid_level · 5d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1546,34 +1553,6 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Apple — Site Reliability Engineer</title>
-      <link>https://jobs.apple.com/en-us/details/200656513/site-reliability-engineer</link>
-      <guid isPermaLink="false">cfc5cd423acd733a</guid>
-      <description>Hyderabad, India · unknown · 16d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Site Reliability Engineer, Enterprise Technology Services</title>
-      <link>https://jobs.apple.com/en-us/details/200679849/site-reliability-engineer-enterprise-technology-services</link>
-      <guid isPermaLink="false">5aa8b79d356abbda</guid>
-      <description>Shanghai, China · unknown · 16d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Site Reliability Engineer, Enterprise Technology Services</title>
-      <link>https://jobs.apple.com/en-us/details/200679850/site-reliability-engineer-enterprise-technology-services</link>
-      <guid isPermaLink="false">fafe9ded6f1311f8</guid>
-      <description>Shanghai, China · unknown · 16d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Site Reliability Engineer, Enterprise Technology Services</title>
-      <link>https://jobs.apple.com/en-us/details/200680296/site-reliability-engineer-enterprise-technology-services</link>
-      <guid isPermaLink="false">ff25d56184bdd1d0</guid>
-      <description>Shanghai, China · unknown · 16d</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coupang — Associate General Counsel, Cloud Infrastructure &amp; Technology (Coupang Intelligent Cloud)</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8166210</link>
       <guid isPermaLink="false">b63f0ab0157c8715</guid>
@@ -1689,6 +1668,13 @@
       <title>Jane Street — Infrastructure Automation Specialist</title>
       <link>https://www.janestreet.com/join-jane-street/apply/4760538002?gh_jid=4760538002</link>
       <guid isPermaLink="false">55c4d682643ef294</guid>
+      <description>Hong Kong, Hong Kong · other · 20d</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jane Street — Software Engineer</title>
+      <link>https://www.janestreet.com/join-jane-street/apply/4756741002?gh_jid=4756741002</link>
+      <guid isPermaLink="false">7271293dcb9d6a6c</guid>
       <description>Hong Kong, Hong Kong · other · 20d</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2008,13 +1994,6 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, ShipTech</title>
-      <link>https://www.amazon.jobs/en/jobs/10503681/software-development-engineer-shiptech</link>
-      <guid isPermaLink="false">c4adb6ae96f65e61</guid>
-      <description>Gurugram, Haryana, IND · unknown · 30d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coupang — Senior Back End Engineer (Global Mobility &amp; Business Travel)</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8129468</link>
       <guid isPermaLink="false">170798cd347d44b7</guid>
@@ -2090,20 +2069,6 @@
       <guid isPermaLink="false">09f74dc3e9f5c1ff</guid>
       <description>Hyderabad · mid_level · 35d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Embedded Software Development Engineer, RBKS Camera ASIC</title>
-      <link>https://www.amazon.jobs/en/jobs/10498347/embedded-software-development-engineer-rbks-camera-asic</link>
-      <guid isPermaLink="false">217a51626ecee431</guid>
-      <description>Taipei City, TWN · unknown · 36d</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer , Concessions Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10498614/software-development-engineer-concessions-tech</link>
-      <guid isPermaLink="false">631743d4fb4f1ba8</guid>
-      <description>Hyderabad, Telangana, IND · unknown · 36d</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Account Compliance Tech</title>
@@ -2296,15 +2261,15 @@
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
-      <guid isPermaLink="false">b09f34f6077eca0a</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
+      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
       <description>Hyderabad · mid_level · 47d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
-      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
+      <guid isPermaLink="false">b09f34f6077eca0a</guid>
       <description>Hyderabad · mid_level · 47d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2317,16 +2282,16 @@
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
-      <guid isPermaLink="false">71187b4892e1f07a</guid>
-      <description>Bengaluru · mid_level · 47d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
+      <guid isPermaLink="false">9e94f52205a3dcf4</guid>
+      <description>Hyderabad · mid_level · 47d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
-      <guid isPermaLink="false">9e94f52205a3dcf4</guid>
-      <description>Hyderabad · mid_level · 47d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
+      <guid isPermaLink="false">71187b4892e1f07a</guid>
+      <description>Bengaluru · mid_level · 47d</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2554,13 +2519,6 @@
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Embedded Software Development Engineer, RBKS Camera ASIC</title>
-      <link>https://www.amazon.jobs/en/jobs/10464510/embedded-software-development-engineer-rbks-camera-asic</link>
-      <guid isPermaLink="false">3231a91698bbb870</guid>
-      <description>Taipei City, TWN · unknown · 76d</description>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Appstore Commerce</title>
       <link>https://www.amazon.jobs/en/jobs/10465003/software-development-engineer-appstore-commerce</link>
       <guid isPermaLink="false">aada2c4c8a47aef5</guid>
@@ -2652,20 +2610,6 @@
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer-Test, Amazon Smart Vehicles</title>
-      <link>https://www.amazon.jobs/en/jobs/10442801/software-development-engineer-test-amazon-smart-vehicles</link>
-      <guid isPermaLink="false">171654fab6a0f87b</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 100d</description>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Prime Video - Linear Experience</title>
-      <link>https://www.amazon.jobs/en/jobs/10441175/software-development-engineer-prime-video-linear-experience</link>
-      <guid isPermaLink="false">0294985e96185e12</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 103d</description>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, FinTech - TFAW</title>
       <link>https://www.amazon.jobs/en/jobs/10439823/software-development-engineer-fintech-tfaw</link>
       <guid isPermaLink="false">a8465d808acabbc2</guid>
@@ -2688,15 +2632,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Inventory Authority Platform (IAP)</title>
-      <link>https://www.amazon.jobs/en/jobs/10435272/software-development-engineer-inventory-authority-platform-iap</link>
-      <guid isPermaLink="false">c2a3339d27472e50</guid>
+      <link>https://www.amazon.jobs/en/jobs/10435267/software-development-engineer-inventory-authority-platform-iap</link>
+      <guid isPermaLink="false">e64d8905874889f7</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 107d</description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Inventory Authority Platform (IAP)</title>
-      <link>https://www.amazon.jobs/en/jobs/10435267/software-development-engineer-inventory-authority-platform-iap</link>
-      <guid isPermaLink="false">e64d8905874889f7</guid>
+      <link>https://www.amazon.jobs/en/jobs/10435272/software-development-engineer-inventory-authority-platform-iap</link>
+      <guid isPermaLink="false">c2a3339d27472e50</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 107d</description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2741,20 +2685,6 @@
       <guid isPermaLink="false">f6da1fad5c3e1e75</guid>
       <description>Singapore · other · 112d</description>
       <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, CAM</title>
-      <link>https://www.amazon.jobs/en/jobs/10427943/software-development-engineer-cam</link>
-      <guid isPermaLink="false">82eecb6c9266eaad</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 117d</description>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II</title>
-      <link>https://www.amazon.jobs/en/jobs/10425938/software-development-engineer-ii</link>
-      <guid isPermaLink="false">5f19bf392c2cb0ea</guid>
-      <description>Bengaluru, Karnataka, IND · mid_level · 119d</description>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AFFS, Amazon</title>
