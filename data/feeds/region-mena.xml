@@ -4,7 +4,7 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Wed, 16 Sep 2026 00:24:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 21:44:45 GMT</lastBuildDate>
     <item>
       <title>Blabs — Senior Backend Engineer</title>
       <link>https://apply.workable.com/j/FE45731FDD</link>
@@ -153,13 +153,6 @@
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Robusta — Mobile Developer (React Native) - Octopus by RTG - 7 months - Remote</title>
-      <link>https://apply.workable.com/j/CCD9F3DCE1</link>
-      <guid isPermaLink="false">19923c9d37e01346</guid>
-      <description>Cairo, Egypt (Remote) · other · 14d</description>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Sahl — Software Development Engineer</title>
       <link>https://sahl.recruitee.com/o/software-development-engineer</link>
       <guid isPermaLink="false">d9b4d506a54be675</guid>
@@ -279,13 +272,6 @@
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Figma — Manager, Software Engineering - Figma Weave (Tel Aviv, Israel)</title>
-      <link>https://boards.greenhouse.io/figma/jobs/6105734004?gh_jid=6105734004</link>
-      <guid isPermaLink="false">bdf1fdf89b6367be</guid>
-      <description>Tel Aviv, Israel · mid_level · 56d</description>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Figma — Software Engineer - Figma Weave (Tel Aviv, Israel)</title>
       <link>https://boards.greenhouse.io/figma/jobs/6073106004?gh_jid=6073106004</link>
       <guid isPermaLink="false">0ba65bedba1e03e6</guid>
@@ -312,6 +298,27 @@
       <guid isPermaLink="false">50ac45bf364e88bc</guid>
       <description>Egypt (Remote) · mid_level · 70d</description>
       <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nawy Real Estate — Full Stack Developer</title>
+      <link>https://apply.workable.com/j/533F8DBE56</link>
+      <guid isPermaLink="false">d0ab786132526e21</guid>
+      <description>Maadi, Egypt · other · 71d</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nawy Real Estate — Senior DevOps Engineer</title>
+      <link>https://apply.workable.com/j/98B8E06A93</link>
+      <guid isPermaLink="false">d8c2f5b8528d378a</guid>
+      <description>Cairo, Egypt · mid_level · 71d</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nawy Real Estate — Senior Full Stack Developer</title>
+      <link>https://apply.workable.com/j/9804327148</link>
+      <guid isPermaLink="false">582c35c109e1f2b9</guid>
+      <description>Maadi, Egypt · mid_level · 71d</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Foodics — Senior Full Stack Engineer</title>
@@ -482,40 +489,22 @@
       <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Intel — AI Tools and Cloud Software Developer</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/Israel-Haifa/AI-Tools-and-Cloud-Software-Developer_JR0286561</link>
-      <guid isPermaLink="false">9c23ea360457a413</guid>
-      <description>Israel, Haifa · other · 0d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior AI Network Simulation Software Engineer</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Network-Simulation-Software-Engineer_JR2021495</link>
-      <guid isPermaLink="false">8709e8ae0b607c9c</guid>
-      <description>Israel, Tel Aviv · mid_level · 0d</description>
-    </item>
-    <item>
       <title>NVIDIA — Senior Software Engineer Tech Lead, Network System Validation</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer-Tech-Lead--Network-System-Validation_JR2025581</link>
       <guid isPermaLink="false">7b5ddc68f91c5343</guid>
-      <description>Israel, Yokneam · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>NVIDIA — SONiC Software Engineer - Python</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/SONiC-Software-Engineer---Python_JR2017236</link>
-      <guid isPermaLink="false">7c4dc81fd48fa20f</guid>
-      <description>Israel, Raanana · other · 0d</description>
+      <description>Israel, Yokneam · mid_level · 1d</description>
     </item>
     <item>
       <title>Workday — Senior Software Engineer - HiredScore</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Israel-Tel-Aviv/Software-Development-Engineer--Backend-_JR-0105162</link>
       <guid isPermaLink="false">4899e3da68583d92</guid>
-      <description>Israel, Tel Aviv · mid_level · 0d</description>
+      <description>Israel, Tel Aviv · mid_level · 1d</description>
     </item>
     <item>
       <title>Workday — Team Lead Software Engineering - HiredScore</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Israel-Tel-Aviv/Manager--Software-Development-Engineering_JR-0102237</link>
       <guid isPermaLink="false">f424eae4c716dc5e</guid>
-      <description>Israel, Tel Aviv · mid_level · 0d</description>
+      <description>Israel, Tel Aviv · mid_level · 1d</description>
     </item>
   </channel>
 </rss>

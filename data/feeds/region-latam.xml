@@ -4,19 +4,19 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Wed, 16 Sep 2026 00:24:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 21:44:45 GMT</lastBuildDate>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
+      <guid isPermaLink="false">1ce62c63e37bc29e</guid>
+      <description>Mexico · mid_level · 0d</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Epic Games — Senior Mobile Programmer</title>
       <link>https://epicgames.com/careers/jobs/6193433004?gh_jid=6193433004</link>
       <guid isPermaLink="false">d16153e2ab757b57</guid>
       <description>Porto Alegre,Rio Grande do Sul,Brazil · mid_level · 1d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
-      <guid isPermaLink="false">1ce62c63e37bc29e</guid>
-      <description>Mexico · mid_level · 1d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -251,22 +251,16 @@
       <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Salesforce — ETL Software Engineer | Data</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/ETL-Software-Engineer---Data_JR357458</link>
-      <guid isPermaLink="false">be29d9cde12dd442</guid>
-      <description>Mexico - Mexico City · other · 1d</description>
-    </item>
-    <item>
       <title>Warner Bros. Discovery — Senior Accountant, Studios</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City-Paseo-de-las-Palmas-No425-701/Senior-Accountant--Studios_R000106999</link>
       <guid isPermaLink="false">023269762395c87b</guid>
-      <description>Mexico City, Paseo de las Palmas No.425-701 · mid_level · 5d</description>
+      <description>Mexico City, Paseo de las Palmas No.425-701 · mid_level · 6d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior Software Engineer</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Buenos-Aires-Defensa/Senior-Software-Engineer_R000107938</link>
       <guid isPermaLink="false">b6d66b089cb7a132</guid>
-      <description>Buenos Aires, Defensa · mid_level · 5d</description>
+      <description>Buenos Aires, Defensa · mid_level · 6d</description>
     </item>
   </channel>
 </rss>
