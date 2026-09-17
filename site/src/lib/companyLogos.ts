@@ -31,6 +31,7 @@ const COMPANY_DOMAINS: Record<string, string> = {
   // FAANG + Microsoft group
   google: "google.com", meta: "meta.com", apple: "apple.com", amazon: "amazon.com",
   netflix: "netflix.com", microsoft: "microsoft.com", linkedin: "linkedin.com", github: "github.com",
+  kraken: "kraken.com", ericsson: "ericsson.com",
   // Big tech
   nvidia: "nvidia.com", amd: "amd.com", intel: "intel.com", qualcomm: "qualcomm.com",
   arm: "arm.com", ibm: "ibm.com", oracle: "oracle.com", salesforce: "salesforce.com",
@@ -39,7 +40,7 @@ const COMPANY_DOMAINS: Record<string, string> = {
   // Cloud / infra
   cloudflare: "cloudflare.com", datadog: "datadoghq.com", splunk: "splunk.com",
   snowflake: "snowflake.com", databricks: "databricks.com", mongodb: "mongodb.com",
-  elastic: "elastic.co", hashicorp: "hashicorp.com", twilio: "twilio.com",
+  elastic: "elastic.co", hashicorp: "hashicorp.com", twilio: "twilio.com", algolia: "algolia.com",
   stripe: "stripe.com", okta: "okta.com",
   // Product SaaS
   spotify: "spotify.com", shopify: "shopify.com", figma: "figma.com", notion: "notion.so",
@@ -92,13 +93,12 @@ const COMPANY_DOMAINS: Record<string, string> = {
   ramp: "ramp.com", brex: "brex.com", deel: "deel.com", linear: "linear.app",
   scaleai: "scale.com", "scale.com": "scale.com",
   // MENA/Egypt public-layer employers — verified 2026-09-11 (b_labs/"Blabs"
-  // deliberately excluded: no standalone corporate site exists — its own
-  // LinkedIn "Website" field just points back at its Workable careers page,
-  // so there's nothing to hand-verify a domain against).
+  // uses B.TECH's verified public domain because the Workable description
+  // identifies b_labs as B.TECH's transformation and digitization arm.
   robusta: "robustagroup.com", synapseanalytics: "synapse-analytics.io",
   foodics: "foodics.com", lucidya: "lucidya.com", salla: "salla.com",
   cognitev: "cognitev.com", dubizzle: "dubizzle.com", sahl: "sahlpay.app",
-  moneyfellows: "moneyfellows.com",
+  moneyfellows: "moneyfellows.com", "nawy real estate": "nawy.com", blabs: "btech.com",
 };
 
 /** Same word-boundary-ish substring match companyTiers.ts uses — an ATS

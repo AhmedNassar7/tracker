@@ -90,6 +90,10 @@ tracker already pulls directly from the open-source repos below (see [SOURCES.md
 | [vanshb03/New-Grad-2027](https://github.com/vanshb03/New-Grad-2027) | Another widely-used new-grad tracker |
 | [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships) | Its internship-focused counterpart |
 | [swelist.com](https://swelist.com/) | A hosted internship board with email alerts when new roles are posted |
+| [ApplyBolt 2027 software engineering internships](https://www.applybolt.app/jobs/2027-software-engineering-internships) | Aggregated 2027 software engineering internship listings |
+| [ApplyBolt jobs](https://www.applybolt.app/jobs) | Software engineering and technology job listings |
+| [PyLadiesCon 2026](https://2026.conference.pyladies.com/en/) | Python community conference and talks |
+| [PyBay tickets](https://pybay.org/get-tickets/) | Tickets for the Bay Area Python conference on October 3, 2026 |
 
 ## Open-Source Events & Hackathons
 
@@ -102,6 +106,19 @@ tracker already pulls directly from the open-source repos below (see [SOURCES.md
 | [Open Source Initiative events](https://opensource.org/blog/top-50-open-source-conferences-in-2026) | Annual open-source conference guide |
 | [AngelHack](https://angelhack.com/) | Global developer events and hackathons |
 | [lablab.ai](https://lablab.ai/) | Community AI and LLM hackathons |
+| [GitLab Hackathon](https://contributors.gitlab.com/hackathon) | Recurring virtual open-source contribution hackathons |
+| [Python events](https://www.python.org/events/) | Official Python Software Foundation events directory |
+| [Python community workshops](https://www.python.org/community/workshops/) | Official directory of Python community workshops |
+| [Python Summit](https://pythonsummit.org/) | Python community summit and conference information |
+| [CppCon](https://cppcon.org/) | C++ language, library, and tooling conference |
+| [LLVM Developers' Meetings](https://llvm.org/devmtg/) | LLVM, Clang, MLIR, and compiler engineering events |
+| [DjangoCon Europe](https://2027.djangocon.eu/) | Django and Python web ecosystem conference |
+| [Devoxx](https://www.devoxx.com/) | Java, JVM, and developer tooling conference network |
+| [JetBrains events](https://www.jetbrains.com/events/) | Kotlin, developer tools, and software engineering events |
+| [Git Merge](https://git-merge.com/) | Git maintainers and version-control engineering summit |
+| [GitLab events](https://about.gitlab.com/events/) | GitLab DevSecOps community events and webinars |
+| [openSUSE events](https://events.opensuse.org/) | openSUSE and open-source infrastructure conferences |
+| [MLH](https://mlh.io/) | Student hackathons, developer events, and open-source programs |
 
 ## Notes
 
