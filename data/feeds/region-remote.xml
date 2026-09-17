@@ -4,7 +4,35 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Thu, 17 Sep 2026 07:39:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 13:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Reddit — Frontend Engineer, Ads</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8194576</link>
+      <guid isPermaLink="false">10637ebcdaefe376</guid>
+      <description>Remote - United States · other · 0d</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Frontend Engineer, Ads Creative</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8175520</link>
+      <guid isPermaLink="false">f03ebb6c3a5bd0da</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Software Engineer, Agentic Ads Experience</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/7980795</link>
+      <guid isPermaLink="false">6ba729ce5ab63e69</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Staff Android Engineer, Brand Ad Formats</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8127002</link>
+      <guid isPermaLink="false">6b5d8a27f0918b8c</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Airbnb — Senior Staff Software Engineer, Trust</title>
       <link>https://careers.airbnb.com/positions/7818982?gh_jid=7818982</link>
@@ -160,30 +188,9 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Reddit — Frontend Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8194576</link>
-      <guid isPermaLink="false">10637ebcdaefe376</guid>
-      <description>Remote - United States · other · 1d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Reddit — Senior Android Engineer, Design System</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8055374</link>
       <guid isPermaLink="false">40d1a0b6ee2207fc</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Frontend Engineer, Ads Creative</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8175520</link>
-      <guid isPermaLink="false">f03ebb6c3a5bd0da</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Software Engineer, Agentic Ads Experience</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/7980795</link>
-      <guid isPermaLink="false">6ba729ce5ab63e69</guid>
       <description>Remote - United States · mid_level · 1d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -199,13 +206,6 @@
       <link>https://job-boards.greenhouse.io/reddit/jobs/8172457</link>
       <guid isPermaLink="false">39cfa7d64ed3ca01</guid>
       <description>Remote - United States · other · 1d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Staff Android Engineer, Brand Ad Formats</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8127002</link>
-      <guid isPermaLink="false">6b5d8a27f0918b8c</guid>
-      <description>Remote - United States · mid_level · 1d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -238,16 +238,16 @@
     </item>
     <item>
       <title>Twilio — Senior Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8065028</link>
-      <guid isPermaLink="false">9aa2cb48b9395b8b</guid>
-      <description>Remote - US · mid_level · 1d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8015771</link>
+      <guid isPermaLink="false">5de9aa503b387621</guid>
+      <description>Remote - Ireland · mid_level · 1d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Twilio — Senior Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8015771</link>
-      <guid isPermaLink="false">5de9aa503b387621</guid>
-      <description>Remote - Ireland · mid_level · 1d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8065028</link>
+      <guid isPermaLink="false">9aa2cb48b9395b8b</guid>
+      <description>Remote - US · mid_level · 1d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -350,9 +350,9 @@
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
-      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
-      <description>Remote - US · mid_level · 1d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
+      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
+      <description>Remote - Canada · mid_level · 1d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -364,9 +364,9 @@
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
-      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
-      <description>Remote - Canada · mid_level · 1d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
+      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
+      <description>Remote - US · mid_level · 1d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -609,16 +609,16 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
-      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
-      <description>Remote - Ontario, Canada · mid_level · 3d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
+      <guid isPermaLink="false">aac8e64367028cfe</guid>
+      <description>Remote - United States · mid_level · 3d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
-      <guid isPermaLink="false">aac8e64367028cfe</guid>
-      <description>Remote - United States · mid_level · 3d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
+      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
+      <description>Remote - Ontario, Canada · mid_level · 3d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -917,16 +917,16 @@
     </item>
     <item>
       <title>Instacart — Senior Software Engineer II, Marketing Enablement &amp; Technology</title>
-      <link>https://instacart.careers/job/?gh_jid=8141535</link>
-      <guid isPermaLink="false">06c2375b00c498c9</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 15d</description>
+      <link>https://instacart.careers/job/?gh_jid=8141533</link>
+      <guid isPermaLink="false">c3901b8afcb8ae0f</guid>
+      <description>United States - Remote · mid_level · 15d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Instacart — Senior Software Engineer II, Marketing Enablement &amp; Technology</title>
-      <link>https://instacart.careers/job/?gh_jid=8141533</link>
-      <guid isPermaLink="false">c3901b8afcb8ae0f</guid>
-      <description>United States - Remote · mid_level · 15d</description>
+      <link>https://instacart.careers/job/?gh_jid=8141535</link>
+      <guid isPermaLink="false">06c2375b00c498c9</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 15d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1113,16 +1113,16 @@
     </item>
     <item>
       <title>Instacart — Senior Android Engineer II, Digital Twin Platform</title>
-      <link>https://instacart.careers/job/?gh_jid=8147300</link>
-      <guid isPermaLink="false">bd64150127231d6c</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 24d</description>
+      <link>https://instacart.careers/job/?gh_jid=8147298</link>
+      <guid isPermaLink="false">8ada5326210080f1</guid>
+      <description>United States - Remote · mid_level · 24d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Instacart — Senior Android Engineer II, Digital Twin Platform</title>
-      <link>https://instacart.careers/job/?gh_jid=8147298</link>
-      <guid isPermaLink="false">8ada5326210080f1</guid>
-      <description>United States - Remote · mid_level · 24d</description>
+      <link>https://instacart.careers/job/?gh_jid=8147300</link>
+      <guid isPermaLink="false">bd64150127231d6c</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 24d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1476,13 +1476,6 @@
       <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Pennylane — Fullstack Software Engineer (Ruby on Rails / React) 🇪🇺</title>
-      <link>https://jobs.ashbyhq.com/pennylane/c7714959-a5a1-46a4-bede-a3c45accd1b8</link>
-      <guid isPermaLink="false">f1ec162c846f9574</guid>
-      <description>Remote · other · 64d</description>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Poolside — Member of Engineering (Inference Infrastructure)</title>
       <link>https://jobs.ashbyhq.com/poolside/1f2a733a-a3fe-48fe-bf61-1425eddb30f6</link>
       <guid isPermaLink="false">35157ab48d10c702</guid>
@@ -1630,6 +1623,24 @@
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Principal Software Engineer, Rack-Scale System Software — CSP Engagements</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316</link>
+      <guid isPermaLink="false">19a883cd43918f82</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944</link>
+      <guid isPermaLink="false">c44c66f7fa554bf5</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Systems Software Engineer- EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1</link>
+      <guid isPermaLink="false">89930bfb8d89aa0d</guid>
+      <description>US, CA, Remote +5 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>Netflix — Software Engineer 5 - Android</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-5---Android_JR42041-1</link>
       <guid isPermaLink="false">4420088a92794dca</guid>
@@ -1706,12 +1717,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud-Native-Stack---CSP-Engagements_JR2001098</link>
       <guid isPermaLink="false">0de9814edb00c6c5</guid>
       <description>US, CA, Santa Clara +4 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, GNN</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Senior-Software-Engineer--GNN_JR2023933</link>
-      <guid isPermaLink="false">900f480b803752bb</guid>
-      <description>US, TX, Austin +3 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Object Storage - DGX Cloud</title>
