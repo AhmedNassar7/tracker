@@ -91,6 +91,18 @@ tracker already pulls directly from the open-source repos below (see [SOURCES.md
 | [vanshb03/Summer2027-Internships](https://github.com/vanshb03/Summer2027-Internships) | Its internship-focused counterpart |
 | [swelist.com](https://swelist.com/) | A hosted internship board with email alerts when new roles are posted |
 
+## Open-Source Events & Hackathons
+
+| Resource | What it's for |
+|---|---|
+| [Open Hackathons](https://www.openhackathons.org/s/upcoming-events) | AI, HPC, and scientific-computing hackathons with regional and application-status filters |
+| [dev.events](https://dev.events/hackathons/oss) | Open-source, technology, and Web3 hackathon listings |
+| [EverythingOpenSource/open-source-events](https://github.com/EverythingOpenSource/open-source-events) | Community-maintained open-source events and hackathon collector |
+| [anubhavpulkit/Open-Source-Events](https://github.com/anubhavpulkit/Open-Source-Events) | Open-source event aggregation project and event list |
+| [Open Source Initiative events](https://opensource.org/blog/top-50-open-source-conferences-in-2026) | Annual open-source conference guide |
+| [AngelHack](https://angelhack.com/) | Global developer events and hackathons |
+| [lablab.ai](https://lablab.ai/) | Community AI and LLM hackathons |
+
 ## Notes
 
 - Curation for this page started from categories in [AhmedNassar7/Software-Engineering](https://github.com/AhmedNassar7/Software-Engineering), the maintainer's earlier hand-updated resource list — credit there for the original groupings. This page is a maintained, tracker-native continuation of the evergreen (non-time-sensitive) parts of that list.

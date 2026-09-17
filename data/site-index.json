@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T21:25:15Z",
-  "count": 4357,
-  "checksum": "sha256:5dae948d049d52c74df075e2c44e4bfb0585c3ab62c24510a35a2bb6b58632ec",
+  "generated_at": "2026-09-17T22:18:49Z",
+  "count": 4359,
+  "checksum": "sha256:815a1336ddca7c46babe1ace0da62fe2c69e100cb6122b6edbcd247f2b795f88",
   "items": [
     {
       "id": "fd906a2d5145d534",
@@ -111410,6 +111410,32 @@
       "source": "company_board",
       "source_url": "https://www.capgemini.com/eg-en/careers/join-us",
       "url": "https://www.capgemini.com/eg-en/careers/join-us",
+      "posted_at": "",
+      "age": "",
+      "location": ""
+    },
+    {
+      "id": "584c98de015b2790",
+      "kind": "board",
+      "origin": "config",
+      "company": "Ericsson",
+      "title": "Software engineering roles",
+      "source": "company_board",
+      "source_url": "https://jobs.ericsson.com/careers/search",
+      "url": "https://jobs.ericsson.com/careers/search",
+      "posted_at": "",
+      "age": "",
+      "location": ""
+    },
+    {
+      "id": "eb36328dfc0a0b5c",
+      "kind": "board",
+      "origin": "config",
+      "company": "Borders & Gates",
+      "title": "All careers (Cairo)",
+      "source": "company_board",
+      "source_url": "https://bordersngates.zohorecruit.com/jobs/Careers",
+      "url": "https://bordersngates.zohorecruit.com/jobs/Careers",
       "posted_at": "",
       "age": "",
       "location": ""

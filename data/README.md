@@ -1,6 +1,6 @@
 # Software Engineering Opportunities
 
-**Last Updated:** 2026-09-17  ·  refreshed hourly  ·  [← back to project overview](../README.md)
+**Last Updated:** 2026-09-18  ·  refreshed hourly  ·  [← back to project overview](../README.md)
 
 Every row links straight to the real application page. Click a title to apply — no account on this repo needed. The **Age** column shows how long ago the listing was posted, so you can spot the newest roles at a glance.
 
@@ -4462,6 +4462,8 @@ Companies that run their own careers site with no public feed to pull role-by-ro
 | eSpace | [Software engineering roles (Cairo)](https://espace-for-software-development.talentlyft.com/) |
 | Sumerge | [Software engineering roles (Cairo)](https://www.sumerge.com/job-openings) |
 | Capgemini | [All roles (Cairo)](https://www.capgemini.com/eg-en/careers/join-us) |
+| Ericsson | [Software engineering roles](https://jobs.ericsson.com/careers/search) |
+| Borders & Gates | [All careers (Cairo)](https://bordersngates.zohorecruit.com/jobs/Careers) |
 
 ## Source Files
 
