@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Verify Greenhouse / Lever / Ashby / SmartRecruiters / PinpointHQ / Workable
-board tokens (plus BambooHR / Recruitee, which have no fetcher yet) before they
-go into config/extra_job_boards.yml.
+"""Verify Greenhouse / Lever / Ashby / SmartRecruiters / PinpointHQ / Workable /
+Recruitee / BambooHR / Freshteam / Teamtailor board tokens before they go into
+config/extra_job_boards.yml.
 
 CLAUDE.md rule: never add a board token without confirming a real, non-empty
 postings response by hand — a bare "not a 404" is not enough. This is the
@@ -387,6 +387,29 @@ def check_pinpoint(token: str) -> tuple[str, bool]:
     return f"{RED}✗ no Pinpoint board for '{token}' (tried {', '.join(h + '/postings.json' for h in hosts)}){RESET}", False
 
 
+def check_teamtailor(token: str) -> tuple[str, bool]:
+    """Teamtailor. Tries the <token>.teamtailor.com subdomain and, if the
+    token looks like a full host (has a dot), that host directly — some
+    boards sit on a custom domain like careers.naseej.com. Public keyless
+    JSON Feed at /jobs.json — {"items": [...]}."""
+    host = token if "." in token else f"{token}.teamtailor.com"
+    status, body = _get(f"https://{host}/jobs.json")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach {host} — network/proxy? not a verdict{RESET}", False
+    if status in (403, 404) or not isinstance(body, dict):
+        return f"{RED}✗ no Teamtailor board at {host} ({status}){RESET}", False
+    rows = body.get("items") or []
+    if not rows:
+        return f"{YELLOW}⚠ valid Teamtailor board at {host} but 0 postings — do NOT add{RESET}", False
+    return (
+        f"{GREEN}✓ REAL — {host}, {len(rows)} postings{RESET}\n"
+        + _sample(rows, "title", lambda r: (
+            (((r.get("_jobposting") or {}).get("jobLocation") or [{}])[0].get("address") or {}).get("addressLocality")
+        )),
+        True,
+    )
+
+
 CHECKERS = {
     "greenhouse": check_greenhouse,
     "lever": check_lever,
@@ -397,6 +420,7 @@ CHECKERS = {
     "recruitee": check_recruitee,
     "pinpoint": check_pinpoint,
     "workable": check_workable,
+    "teamtailor": check_teamtailor,
 }
 
 
@@ -424,7 +448,7 @@ def tokens_from_config() -> list[tuple[str, str]]:
 # platform is real, but adding it needs a new fetcher first (Lane M3).
 PIPELINE_SUPPORTED = {
     "greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint", "workable", "recruitee",
-    "bamboohr", "freshteam",
+    "bamboohr", "freshteam", "teamtailor",
 }
 
 
@@ -442,6 +466,7 @@ def _dump(plat: str, tok: str) -> int:
         "recruitee": f"https://{tok}.recruitee.com/api/offers/",
         "pinpoint": (tok if "." in tok else f"{tok}.pinpointhq.com") + "/postings.json",
         "workable": f"https://apply.workable.com/api/v1/widget/accounts/{tok}?details=true",
+        "teamtailor": "https://" + (tok if "." in tok else f"{tok}.teamtailor.com") + "/jobs.json",
     }
     url = urls.get(plat)
     if not url:

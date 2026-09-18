@@ -643,6 +643,56 @@ def main():
         ft_empty = mod.fetch_freshteam_jobs("empty", "Empty Co")
     run("freshteam: empty board → no rows, no raise", lambda: check("freshteam empty", ft_empty == []))
 
+    # Teamtailor — /jobs.json is a JSON Feed ({"title", "items":[...]}); each
+    # item carries a schema.org JobPosting under `_jobposting`, whose
+    # jobLocation is a list of {address: {addressLocality, addressCountry}}
+    # Place objects — no explicit remote flag exists on this ATS.
+    teamtailor_payload = {
+        "title": "Acme",
+        "items": [
+            {
+                "title": "Backend Software Engineer",
+                "url": "https://acme.teamtailor.com/jobs/1-backend-software-engineer",
+                "date_published": "2026-04-01T10:00:00+03:00",
+                "content_html": "<p>Build services in Go and PostgreSQL. Visa sponsorship provided.</p>",
+                "_jobposting": {
+                    "description": "<p>Build services in Go and PostgreSQL. Visa sponsorship provided.</p>",
+                    "datePosted": "2026-04-01T10:00:00+03:00",
+                    "jobLocation": [
+                        {"address": {"addressLocality": "Cairo", "addressCountry": "EG", "addressRegion": "Egypt"}}
+                    ],
+                },
+            },
+            {
+                "title": "Sales Manager",
+                "url": "https://acme.teamtailor.com/jobs/2-sales-manager",
+                "date_published": "2026-04-01T10:00:00+03:00",
+                "content_html": "<p>Manage the sales team.</p>",
+                "_jobposting": {
+                    "description": "<p>Manage the sales team.</p>",
+                    "jobLocation": [{"address": {"addressLocality": "Cairo", "addressCountry": "EG", "addressRegion": "Egypt"}}],
+                },
+            },
+        ],
+    }
+    with patch.object(mod, "fetch_json", return_value=teamtailor_payload):
+        tt_rows = mod.fetch_teamtailor_jobs("acme.teamtailor.com", "Acme")
+    run("teamtailor fetch: software filter, jobLocation → region, facets", lambda: check(
+        "teamtailor fetch",
+        len(tt_rows) == 1
+        and tt_rows[0]["company"] == "Acme"
+        and tt_rows[0]["source"] == "teamtailor:acme.teamtailor.com"
+        and tt_rows[0]["location"] == "Cairo, Egypt"
+        and tt_rows[0]["region"] == "mena"
+        and tt_rows[0]["posted_at"] == "2026-04-01"
+        and set(tt_rows[0].get("tech_tags", [])) >= {"Go", "PostgreSQL"}
+        and tt_rows[0].get("visa_sponsorship") is True,
+        details=str(tt_rows),
+    ))
+    with patch.object(mod, "fetch_json", return_value={"title": "Empty", "items": []}):
+        tt_empty = mod.fetch_teamtailor_jobs("empty.teamtailor.com", "Empty Co")
+    run("teamtailor: empty board → no rows, no raise", lambda: check("teamtailor empty", tt_empty == []))
+
     smartrecruiters_payload = {
         "content": [
             {
@@ -760,6 +810,7 @@ def main():
             "workable:\n  - foodics  # Riyadh\n\n"
             "bamboohr:\n  - acme  # example\n\n"
             "freshteam:\n  - locus  # Bengaluru\n\n"
+            "teamtailor:\n  - axisapp  # Cairo\n  - careers.naseej.com  # custom domain\n\n"
             "workday:\n  - Salesforce | salesforce.wd12.myworkdayjobs.com | External_Career_Site  # 527 SWE results\n"
             "  - bad workday line with no pipes\n",
             encoding="utf-8",
@@ -784,6 +835,11 @@ def main():
             "bamboohr/freshteam sections parsed",
             boards["bamboohr"] == ["acme"] and boards["freshteam"] == ["locus"],
             details=f"bamboohr={boards['bamboohr']!r} freshteam={boards['freshteam']!r}",
+        ))
+        run("load extra job boards config parses teamtailor: bare token gets .teamtailor.com, dotted token kept as-is", lambda: check(
+            "teamtailor section parsed",
+            boards["teamtailor"] == ["axisapp.teamtailor.com", "careers.naseej.com"],
+            details=str(boards["teamtailor"]),
         ))
         run("workday section parses 'Company | host | site' triples and skips malformed lines", lambda: check(
             "workday triples parsed",

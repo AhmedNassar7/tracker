@@ -38,7 +38,7 @@ Full diagram set (sequence, component dependencies, CI/CD, data model): [docs/DI
 
 1. **Fetch** — filtered by `config/companies_allowlist.yml`:
    - `scripts/fetch.py` — Remotive, ArbeitNow, SimplifyJobs, speedyapply, zapplyjobs, hanzili, negarprh/Canadian-Tech-Internships, ambicuity, LorenzoLaCorte, DereC4, Lamiiine, plus first-party APIs for Amazon, Netflix, Apple, and Germany's Arbeitsagentur.
-   - `scripts/public_sources.py` — Devpost, Unstop, Devfolio, HackerEarth, Luma; Greenhouse/Lever/Workday (auto-discovered); Ashby/SmartRecruiters/PinpointHQ/Workable/Recruitee/BambooHR/Freshteam (hand-seeded in `config/extra_job_boards.yml`, Freshteam via HTML scrape — no JSON API exists for it); a hand-maintained events list (`config/events.yml`) plus confs.tech's open conference-data JSON, deduplicated against it.
+   - `scripts/public_sources.py` — Devpost, Unstop, Devfolio, HackerEarth, Luma; Greenhouse/Lever/Workday (auto-discovered); Ashby/SmartRecruiters/PinpointHQ/Workable/Recruitee/BambooHR/Freshteam/Teamtailor (hand-seeded in `config/extra_job_boards.yml`, Freshteam via HTML scrape — no JSON API exists for it); a hand-maintained events list (`config/events.yml`) plus confs.tech's open conference-data JSON, deduplicated against it.
    - Every apply link is checked before publishing; dead ones move to the archive automatically.
    - Every published row is validated against `config/job-entry.schema.json` / `config/public-entry.schema.json` — a shape drift fails the run instead of shipping bad data.
    - Full source list with links: [SOURCES.md](SOURCES.md).
@@ -53,7 +53,7 @@ Every [workflow run](https://github.com/AhmedNassar7/tracker/actions/workflows/h
 
 ## Ways to contribute
 
-- **Track one more company** on a platform we already support (Ashby, SmartRecruiters, PinpointHQ, Workable, Recruitee, BambooHR, or Freshteam) — add its board token to `config/extra_job_boards.yml`. Greenhouse, Lever, and Workday companies need no config at all; they're picked up automatically the first time one of their postings shows up from another source.
+- **Track one more company** on a platform we already support (Ashby, SmartRecruiters, PinpointHQ, Workable, Recruitee, BambooHR, Freshteam, or Teamtailor) — add its board token to `config/extra_job_boards.yml`. Greenhouse, Lever, and Workday companies need no config at all; they're picked up automatically the first time one of their postings shows up from another source.
 - **Add a tech/career event** (conference, summit, career fair) — add one line to `config/events.yml` (`Name | Organizer | City, Country | YYYY-MM-DD | URL`). Past-dated events are hidden automatically, so for an annual event just bump its date each year.
 - **Change which companies are accepted** — edit `config/companies_allowlist.yml`. Both of these are plain YAML lists, no coding required.
 - **Add a brand-new job board/API** (like Remotive or SimplifyJobs) — this needs a short fetcher function in `scripts/fetch.py` or `scripts/public_sources.py`, since each API has its own shape. Check whether the source has a JSON API before writing an HTML scraper — several sources that look like plain GitHub READMEs actually have one (see `scripts/fetch.py`'s `ambicuity` fetcher for an example).
@@ -117,7 +117,7 @@ Full breakdown (steps, secrets, how to verify a run, how to trigger one manually
 | [data/resources.md](data/resources.md) | Hand-curated career resources: coding practice, mock interviews, resume tools, and more |
 | [data/](data/) | Raw JSON the tables above are generated from — see [Source Files](data/README.md#source-files) |
 | [config/companies_allowlist.yml](config/companies_allowlist.yml) | Which companies' listings are accepted (edit this, no coding required) |
-| [config/extra_job_boards.yml](config/extra_job_boards.yml) | Ashby/SmartRecruiters/PinpointHQ/Workable/Recruitee/BambooHR/Freshteam companies to track (edit this, no coding required) |
+| [config/extra_job_boards.yml](config/extra_job_boards.yml) | Ashby/SmartRecruiters/PinpointHQ/Workable/Recruitee/BambooHR/Freshteam/Teamtailor companies to track (edit this, no coding required) |
 | [config/events.yml](config/events.yml) | Tech/career events — conferences, summits, career fairs (edit this, no coding required) |
 | [config/job-entry.schema.json](config/job-entry.schema.json) | JSON Schema for each record in `data/jobs-global.json` / `jobs-global-archive.json` |
 | [config/public-entry.schema.json](config/public-entry.schema.json) | JSON Schema for each record in `data/public-opportunities.json` (jobs/hackathons/events share one shape, disambiguated by `kind`) |

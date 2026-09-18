@@ -801,6 +801,101 @@ def fetch_freshteam_jobs(slug, company_name):
     return jobs
 
 
+def _teamtailor_company_from_host(host):
+    """'axisapp.teamtailor.com' -> 'axisapp'; a custom domain (e.g.
+    careers.naseej.com) has no reliable company-name segment, so it's
+    returned as-is and left for the caller's company_name to override."""
+    parts = host.split(".")
+    if "teamtailor" in parts:
+        return parts[0]
+    return host
+
+
+def _teamtailor_locations(jobposting):
+    """Teamtailor's JSON Feed embeds a full schema.org JobPosting per item
+    under `_jobposting` — `jobLocation` is a list of {address:
+    {addressLocality, addressCountry}} Place objects. Render each as
+    'City, Country', de-duped in order."""
+    out = []
+    for place in jobposting.get("jobLocation") or []:
+        if not isinstance(place, dict):
+            continue
+        address = place.get("address") or {}
+        city = clean_text(address.get("addressLocality") or "")
+        # Teamtailor's own JobPosting markup puts the human-readable country
+        # name in addressRegion and the ISO alpha-2 code in addressCountry
+        # (confirmed live on axisapp.teamtailor.com: addressRegion "Egypt" vs
+        # addressCountry "EG") — prefer the readable name, code as fallback.
+        country = clean_text(address.get("addressRegion") or address.get("addressCountry") or "")
+        disp = f"{city}, {country}" if city and country and country.lower() not in city.lower() else (city or country)
+        if disp and disp not in out:
+            out.append(disp)
+    return out
+
+
+def fetch_teamtailor_jobs(host, company_name):
+    """Teamtailor public careers site — every Teamtailor board (a
+    <company>.teamtailor.com subdomain, or a custom domain fronting one,
+    like Naseej's careers.naseej.com) publishes a keyless JSON Feed
+    (jsonfeed.org v1.1) at https://<host>/jobs.json, no auth, no pagination
+    observed. `host` is either the bare *.teamtailor.com subdomain or the
+    full custom host. Confirmed live 2026-09-19 against axisapp.teamtailor.com
+    (Cairo fintech) and careers.naseej.com (Cairo/Riyadh ed-tech).
+
+    Each feed item carries title/url/date_published plus a `_jobposting` key
+    — a full schema.org JobPosting object Teamtailor renders for SEO — with
+    a real `description` and a structured `jobLocation` array of {address:
+    {addressLocality, addressCountry}} Place objects, richer than the bare
+    JSON Feed fields alone. No jobLocationType/remote flag was observed on
+    either verified board, so unlike Recruitee/Workable/BambooHR this fetcher
+    has no explicit remote signal to key off — a job only reads "(Remote)"
+    if the office location text itself says so.
+    """
+    api_url = f"https://{host}/jobs.json"
+    try:
+        payload = fetch_json(api_url)
+    except Exception as exc:
+        log_warn(f"Teamtailor fetch failed for {host}: {exc}")
+        return []
+
+    board_name = clean_text(payload.get("title") or "") if isinstance(payload, dict) else ""
+    jobs = []
+    for item in (payload.get("items") or []) if isinstance(payload, dict) else []:
+        title = clean_text(item.get("title") or "")
+        url = item.get("url") or ""
+        if not (title and url) or not is_software_job(title):
+            continue
+        jobposting = item.get("_jobposting") or {}
+        locs = _teamtailor_locations(jobposting)
+        primary = locs[0] if locs else ""
+        location = format_location_display(primary, locs) if len(locs) > 1 else primary
+        region = "unknown"
+        for loc in locs:
+            region = detect_region(loc)
+            if region != "unknown":
+                break
+        posted_at = parse_iso_date(jobposting.get("datePosted") or item.get("date_published") or "")
+        description = clean_text(jobposting.get("description") or item.get("content_html") or "")
+        job = {
+            "id": make_id("teamtailor", host, title, url),
+            "kind": "job",
+            "company": company_name or board_name or _teamtailor_company_from_host(host),
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": region,
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"teamtailor:{host}",
+            "source_url": api_url,
+        }
+        job.update(job_facets(title, primary, description))
+        jobs.append(job)
+    return jobs
+
+
 def fetch_smartrecruiters_jobs(company_slug, company_name):
     api_url = f"https://api.smartrecruiters.com/v1/companies/{company_slug}/postings?limit=100"
     try:
@@ -984,7 +1079,7 @@ def load_extra_job_boards():
     boards = {
         "ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [],
         "workday": [], "pinpoint": [], "workable": [], "recruitee": [],
-        "bamboohr": [], "freshteam": [],
+        "bamboohr": [], "freshteam": [], "teamtailor": [],
     }
     if not path.exists():
         return boards
@@ -1018,6 +1113,11 @@ def load_extra_job_boards():
                     # A bare token is a *.pinpointhq.com subdomain; a token
                     # with a dot is a full custom careers host.
                     boards["pinpoint"].append(token if "." in token else f"{token}.pinpointhq.com")
+                elif section == "teamtailor":
+                    # A bare token is a *.teamtailor.com subdomain; a token
+                    # with a dot is a full custom careers host (e.g. Naseej's
+                    # careers.naseej.com, which fronts Teamtailor).
+                    boards["teamtailor"].append(token if "." in token else f"{token}.teamtailor.com")
                 else:
                     boards[section].append(token)
     except Exception as exc:
@@ -1743,6 +1843,15 @@ def main():
         rows.extend(_run_concurrently(
             fetch_freshteam_jobs,
             [(slug, prettify_company_name(slug.replace("-", " "))) for slug in extra_boards["freshteam"]],
+        ))
+
+    # Teamtailor (config only). Each account is its own host (subdomain or
+    # custom domain), so no shared-host cap needed — same as Workday/PinpointHQ.
+    if extra_boards["teamtailor"]:
+        log_info(f"Loaded {len(extra_boards['teamtailor'])} Teamtailor boards from config")
+        rows.extend(_run_concurrently(
+            fetch_teamtailor_jobs,
+            [(host, prettify_company_name(_teamtailor_company_from_host(host))) for host in extra_boards["teamtailor"]],
         ))
 
     rows = dedupe(rows)
