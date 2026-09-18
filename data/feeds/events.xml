@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Fri, 18 Sep 2026 18:31:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 21:42:25 GMT</lastBuildDate>
     <item>
       <title>Agent Conf — Agent Conf</title>
       <link>https://www.agent.sh</link>
@@ -332,6 +332,13 @@
       <link>https://technesummit.com/2026</link>
       <guid isPermaLink="false">7c458be7f16fcaa0</guid>
       <description>Alexandria, Egypt · 15 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>WordCamp Rajasthan — WordCamp Rajasthan</title>
+      <link>https://rajasthan.wordcamp.org/2026</link>
+      <guid isPermaLink="false">baf7ee31b7d4a02c</guid>
+      <description>Jaipur, India · 15 days left</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -671,6 +678,13 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>All Day AI — All Day AI</title>
+      <link>https://www.alldayai.com</link>
+      <guid isPermaLink="false">7203b6956feed744</guid>
+      <description>Virtual · 34 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Great Lakes Software Symposium — Great Lakes Software Symposium</title>
       <link>https://nofluffjuststuff.com/chicago</link>
       <guid isPermaLink="false">fd58d105de56a151</guid>
@@ -727,6 +741,13 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Vector in Databases — Vector in Databases</title>
+      <link>https://buildevcon.com/events/vector-in-databases</link>
+      <guid isPermaLink="false">ea2129a9d7ca2b82</guid>
+      <description>Virtual · 36 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>International JavaScript Conference Munich — International JavaScript Conference Munich</title>
       <link>https://javascript-conference.com/muenchen</link>
       <guid isPermaLink="false">d30ba155f0643247</guid>
@@ -776,6 +797,13 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>SEV0 — SEV0</title>
+      <link>https://sev0.com</link>
+      <guid isPermaLink="false">5206f91f3eb64f13</guid>
+      <description>San Francisco, CA, U.S.A. · 39 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Apidays Australia — Apidays Australia</title>
       <link>https://www.apidays.global/australia</link>
       <guid isPermaLink="false">5bbfa17cf531b113</guid>
@@ -815,6 +843,13 @@
       <link>https://www.lambda.world</link>
       <guid isPermaLink="false">9111f0a271d90466</guid>
       <description>Malaga, Spain · 41 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI DevCon NYC — AI DevCon NYC</title>
+      <link>https://tessl.io/devcon</link>
+      <guid isPermaLink="false">163d4fa5f3c72017</guid>
+      <description>Brooklyn, NY, U.S.A. · 45 days left</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1126,6 +1161,13 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Community Over Code Sydney — Community Over Code Sydney</title>
+      <link>https://communityovercode.apache.org/events/sydney-2026</link>
+      <guid isPermaLink="false">228148c29e1c0986</guid>
+      <description>Sydney, Australia · 61 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Snowflake — PostGIS Day</title>
       <link>https://www.snowflake.com/en/postgis-day/</link>
       <guid isPermaLink="false">959e82c388f1a98f</guid>
@@ -1189,6 +1231,13 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>AI World Congress — AI World Congress</title>
+      <link>https://aiconference.london</link>
+      <guid isPermaLink="false">3dee712ad855258d</guid>
+      <description>London, U.K. · 68 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>WeAreDevelopers Conference India — WeAreDevelopers Conference India</title>
       <link>https://www.wearedevelopers.com/conference-india</link>
       <guid isPermaLink="false">b88297d6e04f3d99</guid>
@@ -1200,6 +1249,13 @@
       <link>https://rust.bettercode.eu</link>
       <guid isPermaLink="false">81c6ce7daba95092</guid>
       <description>Virtual · 69 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>EdTech Conference — EdTech Conference</title>
+      <link>https://edtechconferences.london</link>
+      <guid isPermaLink="false">16477afb18928c38</guid>
+      <description>London, U.K. · 69 days left</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1270,6 +1326,13 @@
       <link>https://conf.researchr.org/home/aplas-atva-2026</link>
       <guid isPermaLink="false">b4e4f6598487435f</guid>
       <description>Hong Kong · 74 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Build It Summit — Build It Summit</title>
+      <link>https://builditsummit.com</link>
+      <guid isPermaLink="false">6fb3c42f61e4b41c</guid>
+      <description>Paris, France · 74 days left</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1392,6 +1455,13 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>JChampions Conference — JChampions Conference</title>
+      <link>https://jchampionsconf.com</link>
+      <guid isPermaLink="false">7f928c18a9ca2e38</guid>
+      <description>Virtual · 125 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>FOSDEM — FOSDEM</title>
       <link>https://fosdem.org/2027/</link>
       <guid isPermaLink="false">4f4014ba094e2c6e</guid>
@@ -1490,6 +1560,13 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Voxxed Days Zürich — Voxxed Days Zürich</title>
+      <link>https://vdz27.voxxeddays.ch</link>
+      <guid isPermaLink="false">1a463178016c16e4</guid>
+      <description>Zurich, Switzerland · 172 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Vuejs Amsterdam — Vuejs Amsterdam</title>
       <link>https://www.vuejs.amsterdam</link>
       <guid isPermaLink="false">2fe0b6c436c26095</guid>
@@ -1546,6 +1623,13 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>ParisTestConf — ParisTestConf</title>
+      <link>https://paristestconf.com</link>
+      <guid isPermaLink="false">3386928a58cdc5ad</guid>
+      <description>Paris, France · 186 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>SCaLE — SCaLE</title>
       <link>https://www.socallinuxexpo.org/scale/24x</link>
       <guid isPermaLink="false">25d6df4f23bd0a47</guid>
@@ -1564,6 +1648,13 @@
       <link>https://genaixworld.com</link>
       <guid isPermaLink="false">f280c09d9e465933</guid>
       <description>Singapore, Singapore · 209 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Digital Crafts Day — Digital Crafts Day</title>
+      <link>https://dc-nordoberpfalz.de/DigitalCraftsDay/2027</link>
+      <guid isPermaLink="false">977954e408111022</guid>
+      <description>Weiden, Germany · 210 days left</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1627,6 +1718,13 @@
       <link>https://aiconusa.techwell.com</link>
       <guid isPermaLink="false">931fbeaa6e6f4e82</guid>
       <description>Seattle, WA, U.S.A. · 261 days left</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>International Conference on Cybersecurity, AI &amp; Future Digital Infrastructure — International Conference on Cybersecurity, AI &amp; Future Digital Infrastructure</title>
+      <link>https://cyberfuture2027.com</link>
+      <guid isPermaLink="false">efbdd3829d44761d</guid>
+      <description>Singapore, Singapore · 264 days left</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1707,23 +1805,9 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Luma — Follow DC Data &amp; AI Events Washington · Washington D.C. Data &amp; AI Events! Managed by Data Community DC. www.dc2.org</title>
-      <link>https://lu.ma/DC2?k=c</link>
-      <guid isPermaLink="false">d307b71de4686f34</guid>
-      <description>Global</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Luma — Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team</title>
       <link>https://lu.ma/deepmind?k=c</link>
       <guid isPermaLink="false">a55b3bdcd72bf05f</guid>
-      <description>Global</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Luma — Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.</title>
-      <link>https://lu.ma/stationdc?k=c</link>
-      <guid isPermaLink="false">d0a49f1be49b91d7</guid>
       <description>Global</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
