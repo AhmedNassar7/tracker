@@ -591,12 +591,20 @@ export default function ProfilePanel() {
     async (file: File) => {
       setNotice(null);
       const name = file.name.toLowerCase();
+      const extMatch = name.match(/\.([a-z0-9]+)$/);
+      const ext = extMatch ? extMatch[1] : "unknown";
+      // Fires for every drop/pick regardless of outcome, so the funnel
+      // (attempt -> success/failure) is visible in GA — the two events below
+      // only fired on success before, so a bad or unreadable file left no
+      // signal at all. size_kb/ext aren't PII (see analytics.ts header rule).
+      trackEvent("resume_upload_attempt", { ext, size_kb: Math.round(file.size / 1024) });
       try {
         if (name.endsWith(".json")) {
           const text = await file.text();
           const parsed = importProfile(text) ?? fromJsonResumeString(text);
           if (!parsed) {
             setNotice({ kind: "err", text: "That .json isn't a profile or a JSON Resume export we can read." });
+            trackEvent("resume_upload_failed", { ext, reason: "invalid_json" });
             return;
           }
           trackEvent("profile_import", { source: "json" });
@@ -614,6 +622,7 @@ export default function ProfilePanel() {
         }
         if (!text.trim()) {
           setNotice({ kind: "err", text: "Couldn't get any text out of that file — if it's a scanned PDF, paste the text instead." });
+          trackEvent("resume_upload_failed", { ext, reason: "no_text" });
           return;
         }
         const { parsed, found } = parseResume(text);
@@ -636,6 +645,7 @@ export default function ProfilePanel() {
         });
       } catch (err) {
         setNotice({ kind: "err", text: `Couldn't read that file${err instanceof Error ? ` (${err.message})` : ""}.` });
+        trackEvent("resume_upload_failed", { ext, reason: "read_error" });
       } finally {
         setImportBusy(false);
       }

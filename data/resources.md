@@ -78,6 +78,18 @@ Real commits on your profile, often with mentorship and sometimes a stipend:
 | [Levels.fyi](https://www.levels.fyi/) | Crowdsourced compensation data to benchmark and negotiate offers |
 | [Blind](https://www.teamblind.com/) | Anonymous, verified-employee community for company and offer discussion |
 
+## Regional Job Boards (Egypt / MENA)
+
+General-purpose boards worth checking directly if you're job-hunting in Egypt or the wider MENA region — this tracker's curated allowlist and Ashby/Greenhouse/Lever/etc. sources cover a lot of tech employers there (see [SOURCES.md](../SOURCES.md)), but these sites cast a much wider net across all industries and seniority levels:
+
+| Platform | What it's for |
+|---|---|
+| [Wuzzuf](https://wuzzuf.net/) | Egypt's largest job board and CV database, spanning all industries |
+| [Bayt.com](https://www.bayt.com/) | MENA-wide job board and CV database, useful for Gulf-based and returnee roles too |
+| [LinkedIn Jobs](https://www.linkedin.com/jobs/) | Professional-network job search, strong for white-collar and tech roles |
+| [Indeed Egypt](https://eg.indeed.com/) | Aggregated listings across Egypt with easy email/job alerts |
+| [Forasna](https://forasna.com/) | Arabic-first job board, strong for entry-level roles outside Cairo |
+
 ## Other Job Trackers Worth Knowing
 
 tracker already pulls directly from the open-source repos below (see [SOURCES.md](../SOURCES.md) for the full source list) — you don't need to check them separately. They're listed here for transparency and credit, and because each has its own web app that goes beyond what a flat file can show:
@@ -114,7 +126,7 @@ tracker already pulls directly from the open-source repos below (see [SOURCES.md
 | [LLVM Developers' Meetings](https://llvm.org/devmtg/) | LLVM, Clang, MLIR, and compiler engineering events |
 | [DjangoCon Europe](https://2027.djangocon.eu/) | Django and Python web ecosystem conference |
 | [Devoxx](https://www.devoxx.com/) | Java, JVM, and developer tooling conference network |
-| [JetBrains events](https://www.jetbrains.com/events/) | Kotlin, developer tools, and software engineering events |
+| [JetBrains events](https://www.jetbrains.com/company/conferences/) | Kotlin, developer tools, and software engineering events |
 | [Git Merge](https://git-merge.com/) | Git maintainers and version-control engineering summit |
 | [GitLab events](https://about.gitlab.com/events/) | GitLab DevSecOps community events and webinars |
 | [openSUSE events](https://events.opensuse.org/) | openSUSE and open-source infrastructure conferences |
