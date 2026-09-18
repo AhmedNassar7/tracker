@@ -4,7 +4,28 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Fri, 18 Sep 2026 00:18:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 05:57:51 GMT</lastBuildDate>
+    <item>
+      <title>Replit — Senior Site Reliability Engineer</title>
+      <link>https://jobs.ashbyhq.com/replit/9936ea0d-071a-4b51-8154-fdde89ded616</link>
+      <guid isPermaLink="false">49dfe5edac4ff959</guid>
+      <description>Remote - US · mid_level · 0d</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Replit — Staff Site Reliability Engineer</title>
+      <link>https://jobs.ashbyhq.com/replit/f508992f-5b26-4ab1-816d-d17f121d208b</link>
+      <guid isPermaLink="false">eae5beadf015f0b4</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Billing Platform</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8127182</link>
+      <guid isPermaLink="false">d4ff13926bf865b9</guid>
+      <description>San Francisco, New York City, Seattle, Chicago, US-Remote · other · 0d</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Algolia — Senior Software Engineer, Enterprise Commerce (SFCC)</title>
       <link>https://job-boards.greenhouse.io/algolia/jobs/6149054004</link>
@@ -164,13 +185,6 @@
       <link>https://jobs.ashbyhq.com/alan/48c185af-22d2-4137-9d86-cd450175d297</link>
       <guid isPermaLink="false">1066c01d0d636657</guid>
       <description>Anywhere in France, Belgium, Spain · mid_level · 2d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic — Staff Software Engineer, GTM AI Engineering</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5390966008</link>
-      <guid isPermaLink="false">d197c249a53906d9</guid>
-      <description>Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA · mid_level · 2d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -623,16 +637,16 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
-      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
-      <description>Remote - Ontario, Canada · mid_level · 4d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
+      <guid isPermaLink="false">aac8e64367028cfe</guid>
+      <description>Remote - United States · mid_level · 4d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
-      <guid isPermaLink="false">aac8e64367028cfe</guid>
-      <description>Remote - United States · mid_level · 4d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
+      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
+      <description>Remote - Ontario, Canada · mid_level · 4d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -724,13 +738,6 @@
       <link>https://stripe.com/jobs/search?gh_jid=6042172</link>
       <guid isPermaLink="false">dd52b89c72f90d4c</guid>
       <description>US-Remote, Chicago, Seattle, San Francisco · other · 8d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Fullstack Engineer, Privy</title>
-      <link>https://stripe.com/jobs/search?gh_jid=7091959</link>
-      <guid isPermaLink="false">9a80af644dd34d77</guid>
-      <description>NYC-Privy, US-Remote · other · 8d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -938,16 +945,16 @@
     </item>
     <item>
       <title>Coinbase — Senior Staff Software Engineer, Finhub</title>
-      <link>https://www.coinbase.com/careers/positions/8162237?gh_jid=8162237</link>
-      <guid isPermaLink="false">2d7755a97ab8d17d</guid>
-      <description>Remote - USA · mid_level · 17d</description>
+      <link>https://www.coinbase.com/careers/positions/8162240?gh_jid=8162240</link>
+      <guid isPermaLink="false">d9c8c400a066d9f2</guid>
+      <description>Remote - Canada · mid_level · 17d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coinbase — Senior Staff Software Engineer, Finhub</title>
-      <link>https://www.coinbase.com/careers/positions/8162240?gh_jid=8162240</link>
-      <guid isPermaLink="false">d9c8c400a066d9f2</guid>
-      <description>Remote - Canada · mid_level · 17d</description>
+      <link>https://www.coinbase.com/careers/positions/8162237?gh_jid=8162237</link>
+      <guid isPermaLink="false">2d7755a97ab8d17d</guid>
+      <description>Remote - USA · mid_level · 17d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1621,10 +1628,22 @@
       <description>US, NC, Remote +4 more · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Infrastructure Solutions Architect - OEM</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Infrastructure-Solutions-Architect---OEM_JR2025080</link>
+      <guid isPermaLink="false">73a0391c51b8204f</guid>
+      <description>US, TX, Austin +2 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Principal Software Engineer, Rack-Scale System Software — CSP Engagements</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316</link>
       <guid isPermaLink="false">19a883cd43918f82</guid>
       <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior AI Infrastructure Engineer - EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-AI-infrastructure-engineer---Hardware-Infrastructure-Engineering_JR2024816</link>
+      <guid isPermaLink="false">c65504a20fa05e87</guid>
+      <description>US, CA, Remote +4 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Compute Platform Engineer, LSF - EDA Infrastructure</title>
@@ -1703,18 +1722,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-AI-Infrastructure-Software-Engineer---DGX-Cloud_JR2018042</link>
       <guid isPermaLink="false">fa5aeaa48149c2f4</guid>
       <description>US, CA, Santa Clara +3 more · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1</link>
-      <guid isPermaLink="false">fcb34d6177e0786a</guid>
-      <description>US, WA, Remote +5 more · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, At Scale Compute Analysis</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730</link>
-      <guid isPermaLink="false">39d7bb17f1df4dbe</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior VFX Artist - Lightspeed Studios</title>
