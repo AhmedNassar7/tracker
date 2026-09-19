@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T21:40:21Z",
-  "total": 1364,
+  "generated_at": "2026-09-19T00:19:39Z",
+  "total": 1369,
   "jobs": [
     {
       "id": "92664bd5b6ca5532",
@@ -16,15 +16,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-lyft-8767534002?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "5eaf26c7669c9c02",
@@ -40,15 +40,15 @@
       "url": "https://zapply.jobs/l/d/qualcomm-3096484?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
-      "age": "1d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "posted_at": "2026-09-19",
+      "age": "2d",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "a0db4bd9b2114f92",
@@ -64,15 +64,15 @@
       "url": "https://zapply.jobs/l/d/qualcomm-3096480?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
-      "age": "1d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "posted_at": "2026-09-19",
+      "age": "2d",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "f5b40715c78ee3f3",
@@ -88,39 +88,15 @@
       "url": "https://zapply.jobs/l/d/google-138960139137753798?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
-    },
-    {
-      "id": "5ebe959c04f241dc",
-      "company": "ByteDance",
-      "title": "Product Security Engineer Graduate (Security BP) - 2027 Start",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "security",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/bytedance-7668636404159858997?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "efe83c23e77359e6",
@@ -136,15 +112,15 @@
       "url": "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-289305?s=gh-new-grad-data-science-jobs-2027",
       "source": "zapplyjobs_datascience",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "95286dff5671bde1",
@@ -160,15 +136,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-stripe-8130805?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "2w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "0bc3c579cf70767c",
@@ -184,15 +160,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-stripe-8157838?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "2w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "c677b140f58ccc0f",
@@ -208,15 +184,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-epicgames-6138140004?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1mo",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "4e275873141d6320",
@@ -232,15 +208,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-epicgames-6138140004?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1mo",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "6f16f95caaaf77a8",
@@ -256,15 +232,15 @@
       "url": "https://zapply.jobs/l/d/google-123510626377966278?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "3d4f1a4e90253072",
@@ -280,15 +256,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-robinhood-8142930?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "4d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "593332d294dd8306",
@@ -304,15 +280,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-robinhood-8142930?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "4d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "b950a9603306ea78",
@@ -328,15 +304,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-robinhood-8199744?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "4d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "051330a019ee979a",
@@ -352,15 +328,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-robinhood-8199744?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "4d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "401195491565c4ad",
@@ -376,15 +352,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-robinhood-8194428?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "4d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "bdf1471a24643502",
@@ -400,15 +376,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-robinhood-8194428?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "4d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "5d861cd2dd9dc38d",
@@ -424,15 +400,15 @@
       "url": "https://zapply.jobs/l/d/google-120686451305128646?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "8401be805950520f",
@@ -448,15 +424,15 @@
       "url": "https://zapply.jobs/l/d/bytedance-7535171166420453639?s=gh-internships-2027",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "c310a4f937ac3f02",
@@ -472,15 +448,15 @@
       "url": "https://zapply.jobs/l/d/bytedance-7538942403488188680?s=gh-internships-2027",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "3b5cf85ccc764f95",
@@ -496,15 +472,15 @@
       "url": "https://zapply.jobs/l/d/bytedance-7535951608832657682?s=gh-internships-2027",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "a19145aa48b3dca4",
@@ -520,15 +496,15 @@
       "url": "https://zapply.jobs/l/d/bytedance-7533045355162044690?s=gh-new-grad-data-science-jobs-2027",
       "source": "zapplyjobs_datascience",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "c2e83e20ee586b84",
@@ -544,15 +520,15 @@
       "url": "https://zapply.jobs/l/d/microsoft-200054396?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "3d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "ecf618bd9df4f02f",
@@ -568,15 +544,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-coinbase-8175459?s=gh-new-grad-data-science-jobs-2027",
       "source": "zapplyjobs_datascience",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "8147b8e796ee0042",
@@ -592,15 +568,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-sonyinteractiveentertainmentglobal-6147069004?s=gh-new-grad-data-science-jobs-2027",
       "source": "zapplyjobs_datascience",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "3w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "a88aa043b146d9e4",
@@ -616,15 +592,15 @@
       "url": "https://zapply.jobs/l/d/workday-salesforce-external-career-site-JR358348?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "2d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "ed5fb8dbaf9ebfe9",
@@ -640,15 +616,15 @@
       "url": "https://zapply.jobs/l/d/microsoft-200037281?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "2d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "591ebbb57e9303d1",
@@ -664,15 +640,15 @@
       "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024111?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "2d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "885e7cb1768e066f",
@@ -688,15 +664,15 @@
       "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024111?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "2d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "ae19904308f4721f",
@@ -712,15 +688,15 @@
       "url": "https://zapply.jobs/l/d/qualcomm-3096801?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
-      "age": "1d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "posted_at": "2026-09-19",
+      "age": "2d",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "ea8890d0f0dbb2ea",
@@ -736,15 +712,15 @@
       "url": "https://zapply.jobs/l/d/qualcomm-3096484?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "1d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "posted_at": "2026-09-19",
+      "age": "2d",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "0cdd59cae72a90d2",
@@ -760,15 +736,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-stripe-8212517?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "posted_at": "2026-09-19",
+      "age": "1d",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "ededfc81d4a68496",
@@ -784,15 +760,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-stripe-8212517?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "posted_at": "2026-09-19",
+      "age": "1d",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "5dd1d097d7fca3e8",
@@ -808,15 +784,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-lyft-8796054002?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "49f78dcb22134de1",
@@ -832,15 +808,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-lyft-8796054002?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "a519b602dba4c3c0",
@@ -856,15 +832,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-lyft-8802332002?s=gh-canada-jobs-2027",
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "7aa0c7788cf3704f",
@@ -880,15 +856,15 @@
       "url": "https://zapply.jobs/l/d/greenhouse-lyft-8802332002?s=gh-canada-internships-2027",
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "1w",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "cade2fb35b3aca55",
@@ -904,15 +880,15 @@
       "url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R171519?s=gh-internships-2027",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-18",
+      "posted_at": "2026-09-19",
       "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
+      "collected_at": "2026-09-19T00:19:39Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-09-18T21:40:21Z"
+      "closed_at": "2026-09-19T00:19:39Z"
     },
     {
       "id": "ff13a22d216eb71f",
@@ -928,6 +904,654 @@
       "url": "https://zapply.jobs/l/d/google-123087196289671878?s=gh-new-grad-data-science-jobs-2027",
       "source": "zapplyjobs_datascience",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-19",
+      "age": "0d",
+      "collected_at": "2026-09-19T00:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "7084c506f96c7efb",
+      "company": "ByteDance",
+      "title": "Software Engineer Graduate (AI Compute) - 2027 Start (PhD)",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/bytedance-7686733097398290693?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-19",
+      "age": "0d",
+      "collected_at": "2026-09-19T00:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "70aa6bf66028bb4d",
+      "company": "ByteDance",
+      "title": "Software Engineer Graduate (AI Compute) - 2027 Start (PhD)",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/bytedance-7686732729746950405?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-19",
+      "age": "0d",
+      "collected_at": "2026-09-19T00:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "f9f2de425068cd00",
+      "company": "Qualcomm",
+      "title": "Machine Learning Engineer, AI Processors (New Grad to Engineer Level)",
+      "level": "new_grad",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "Unknown",
+      "location": "Markham",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/qualcomm-3096480?s=gh-canada-jobs-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-09-19",
+      "age": "2d",
+      "collected_at": "2026-09-19T00:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "ad0c922cec6891eb",
+      "company": "Palantir",
+      "title": "Software Engineer Intern, Infrastructure (Summer 2027, grad 2028)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "New York, NY (multiple US)",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-18",
+      "age": "2mo",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "2440788c2e705a23",
+      "company": "Microsoft",
+      "title": "Software Engineer II - CTJ- POLY",
+      "level": "mid_level",
+      "category": "microsoft_group",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Reston, Virginia, United States",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/microsoft-200055883?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-09-18",
+      "age": "0d",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "9be113d796b97b9a",
+      "company": "Hudson River Trading",
+      "title": "Software Engineering Intern (Summer 2027, C++ / Python)",
+      "level": "internship",
+      "category": "consulting_finance",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY (multiple)",
+      "remote_type": "onsite",
+      "url": "https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-18",
+      "age": "2mo",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "d17d1f11f5064c57",
+      "company": "Amazon.com Services LLC",
+      "title": "Software Development Engineer II, OrcaLabs",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/amazon-fa3e7d80-1185-4bb0-88f5-2c6fbb69a1d7?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-18",
+      "age": "0d",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "c7215dcf6ec47745",
+      "company": "Visa",
+      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn",
+      "level": "internship",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Ashburn, VA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088599W?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-18",
+      "age": "0d",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "938a0a8f21cdad4c",
+      "company": "Visa",
+      "title": "Software Engineer, Intern, Bellevue - 2027",
+      "level": "internship",
+      "category": "fintech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Bellevue, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088585W?s=gh-internships-2027",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-18",
+      "age": "1d",
+      "collected_at": "2026-09-18T11:11:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "30d5f66caf2dbd6a",
+      "company": "Amazon",
+      "title": "Software Development Engineer III, AWS Sagemaker Unified Studio",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Santa Clara, California, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10552752/software-development-engineer-iii-aws-sagemaker-unified-studio",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-17",
+      "age": "1d",
+      "collected_at": "2026-09-18T11:11:56Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "cc06fb1ed504f219",
+      "company": "Amazon Web Services, Inc.",
+      "title": "Software Development Engineer II, AWS WorkSpaces, AWS WorkSpaces Control Plane Backend",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "backend",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/amazon-d41baa8d-f2ec-4642-9973-1f2b44e1c34a?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-18",
+      "age": "0d",
+      "collected_at": "2026-09-18T18:27:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "7f3a852e3f0d14e0",
+      "company": "Amazon Development Center U.S., Inc.",
+      "title": "Embedded Software Development Engineer II (C/C++), AWS EC2 VPC NX",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/amazon-004ed1d0-632d-4862-9aa0-4bf85056cfae?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-18",
+      "age": "0d",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "e4453883abd62883",
+      "company": "Palantir",
+      "title": "Software Engineer Intern (Summer 2027, grad 2028)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY (multiple US)",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-18",
+      "age": "2mo",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "e929715d14dea45c",
+      "company": "Apple",
+      "title": "iOS Software Engineer, Customer Systems",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "mobile",
+      "country": "United States",
+      "location": "Sunnyvale, United States of America",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200681110/ios-software-engineer-customer-systems",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-02",
+      "age": "7d",
+      "collected_at": "2026-09-09T21:41:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "dc9169df72191c2b",
+      "company": "Palantir",
+      "title": "Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "New York, NY (multiple US)",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-18",
+      "age": "2mo",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "5812946c4ee9054d",
+      "company": "Apple",
+      "title": "Software Engineer - SWE Ops Infrastructure & Planning",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "Cupertino, United States of America",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200681519/software-engineer-swe-ops-infrastructure-planning",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-02",
+      "age": "7d",
+      "collected_at": "2026-09-09T21:41:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "5efab3aa90ac5b4a",
+      "company": "Amazon.com Services LLC",
+      "title": "Software Development Engineer II, AWS Fintech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/amazon-839d0e00-5671-4489-8ffc-05a2f4e9172b?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-18",
+      "age": "0d",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "6972503f81e707cc",
+      "company": "Apple",
+      "title": "On-Device ML Compiler Engineer, Model Compilation, Graphics, Games and Machine Learning",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Cupertino, United States of America",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200658150/on-device-ml-compiler-engineer-model-compilation-graphics-games-and-machine-learning",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-02",
+      "age": "7d",
+      "collected_at": "2026-09-09T21:41:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "2eb8a11eebe1ad5b",
+      "company": "Apple",
+      "title": "Software Engineer, Calls Security",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "security",
+      "country": "United States",
+      "location": "San Diego, United States of America",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200681266/software-engineer-calls-security",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-02",
+      "age": "7d",
+      "collected_at": "2026-09-09T21:41:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "41384ed42ca13d5e",
+      "company": "Amazon",
+      "title": "Software Development Engineer, AWS Glue",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Bellevue, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10459443/software-development-engineer-aws-glue",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-25",
+      "age": "77d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "8269e58cb81ae5b6",
+      "company": "Visa",
+      "title": "Software Engineer, Intern, Highlands Ranch, CO - 2027",
+      "level": "internship",
+      "category": "fintech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Denver, CO",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088583W?s=gh-internships-2027",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-18",
+      "age": "1d",
+      "collected_at": "2026-09-18T18:27:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "f5f8e5c05d167717",
+      "company": "Amazon Kuiper Manufacturing Enterprises LLC",
+      "title": "Software Development Engineer II, Amazon Leo",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Redmond, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/amazon-b98d09f2-01ff-4a2d-8d5c-e20ae6891240?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-18",
+      "age": "0d",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "6ff0947d753fa4ad",
+      "company": "Visa",
+      "title": "Software Engineer, Intern - Foster City 2027",
+      "level": "internship",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Foster City, CA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088587W?s=gh-internships-2027",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-18",
+      "age": "1d",
+      "collected_at": "2026-09-18T18:27:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "0c26aba2c537e470",
+      "company": "Amazon",
+      "title": "Software Development Engineer, Frontier Amazon Dedicated Cloud (ADC)",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Denver, Colorado, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10551906/software-development-engineer-frontier-amazon-dedicated-cloud-adc",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-17",
+      "age": "1d",
+      "collected_at": "2026-09-18T14:59:17Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "dcbd7874eb5972be",
+      "company": "Visa",
+      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn",
+      "level": "internship",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Ashburn, VA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088599W?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-09-18",
+      "age": "0d",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "1d189997c9218173",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer New Grad - Commercial",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "NYC",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-09-18",
+      "age": "2mo",
+      "collected_at": "2026-09-18T21:40:21Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-09-19T00:19:39Z"
+    },
+    {
+      "id": "5ebe959c04f241dc",
+      "company": "ByteDance",
+      "title": "Product Security Engineer Graduate (Security BP) - 2027 Start",
+      "level": "new_grad",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "security",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/bytedance-7668636404159858997?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
       "posted_at": "2026-09-18",
       "age": "0d",
       "collected_at": "2026-09-18T21:40:21Z",
@@ -987,54 +1611,6 @@
       "closed_at": "2026-09-18T21:40:21Z"
     },
     {
-      "id": "7084c506f96c7efb",
-      "company": "ByteDance",
-      "title": "Software Engineer Graduate (AI Compute) - 2027 Start (PhD)",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/bytedance-7686733097398290693?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T21:40:21Z"
-    },
-    {
-      "id": "70aa6bf66028bb4d",
-      "company": "ByteDance",
-      "title": "Software Engineer Graduate (AI Compute) - 2027 Start (PhD)",
-      "level": "new_grad",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Seattle, Washington",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/bytedance-7686732729746950405?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T21:40:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T21:40:21Z"
-    },
-    {
       "id": "c8b4294dc8d89b0a",
       "company": "ByteDance",
       "title": "Software Engineer Graduate (AI Compute) - 2027 Start (PhD)",
@@ -1075,30 +1651,6 @@
       "posted_at": "2026-09-18",
       "age": "0d",
       "collected_at": "2026-09-18T18:27:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T21:40:21Z"
-    },
-    {
-      "id": "4277e8edbab976e2",
-      "company": "Palantir Technologies",
-      "title": "Software Engineer Intern, Infrastructure",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-16",
-      "age": "1mo",
-      "collected_at": "2026-09-16T16:53:20Z",
       "tags": [
         "software",
         "programming",
@@ -1155,30 +1707,6 @@
       "closed_at": "2026-09-18T21:40:21Z"
     },
     {
-      "id": "538cd0eb0a574cdc",
-      "company": "Palantir Technologies",
-      "title": "Software Engineer Intern, Production Infrastructure",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "Seattle, WA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-16",
-      "age": "1mo",
-      "collected_at": "2026-09-16T16:53:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T21:40:21Z"
-    },
-    {
       "id": "7d4e003081c5140a",
       "company": "Microsoft",
       "title": "Software Engineer II",
@@ -1227,30 +1755,6 @@
       "closed_at": "2026-09-18T21:40:21Z"
     },
     {
-      "id": "f3b1e283b7673d4d",
-      "company": "Palantir Technologies",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-16",
-      "age": "1mo",
-      "collected_at": "2026-09-16T16:53:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T21:40:21Z"
-    },
-    {
       "id": "cc576083cdba6e89",
       "company": "Amazon",
       "title": "Software Development Engineer II, Delivery Choice",
@@ -1291,30 +1795,6 @@
       "posted_at": "2026-09-18",
       "age": "0d",
       "collected_at": "2026-09-18T18:27:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T21:40:21Z"
-    },
-    {
-      "id": "cc7a168906373af1",
-      "company": "Hudson River Trading",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "category": "consulting_finance",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Austin, TX Chicago, IL New York, NY",
-      "remote_type": "onsite",
-      "url": "https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/?gh_src=&utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-16",
-      "age": "1mo",
-      "collected_at": "2026-09-16T16:53:20Z",
       "tags": [
         "software",
         "programming",
@@ -1585,30 +2065,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-09-18T21:40:21Z"
-    },
-    {
-      "id": "f9f2de425068cd00",
-      "company": "Qualcomm",
-      "title": "Machine Learning Engineer, AI Processors (New Grad to Engineer Level)",
-      "level": "new_grad",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "Unknown",
-      "location": "Markham",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/qualcomm-3096480?s=gh-canada-jobs-2027",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "1d",
-      "collected_at": "2026-09-18T18:27:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T18:27:28Z"
     },
     {
       "id": "9b9277c1116fc469",
@@ -2859,30 +3315,6 @@
       "closed_at": "2026-09-18T11:11:56Z"
     },
     {
-      "id": "e5338d73063a4fe0",
-      "company": "Visa",
-      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Bellevue",
-      "level": "internship",
-      "category": "fintech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Bellevue, WA",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088594W?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T05:54:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T11:11:56Z"
-    },
-    {
       "id": "dab5d31dc32a4908",
       "company": "Amazon",
       "title": "Software Development Engineer II , Product & Offers Experience",
@@ -2931,78 +3363,6 @@
       "closed_at": "2026-09-18T11:11:56Z"
     },
     {
-      "id": "25e2221cc60f769a",
-      "company": "Visa",
-      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Austin",
-      "level": "internship",
-      "category": "fintech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Austin, TX",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088596W?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T05:54:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T11:11:56Z"
-    },
-    {
-      "id": "6522da5661ff582c",
-      "company": "Visa",
-      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Bellevue",
-      "level": "internship",
-      "category": "fintech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Bellevue, WA",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088594W?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T05:54:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T11:11:56Z"
-    },
-    {
-      "id": "58d34b0037c0c578",
-      "company": "Visa",
-      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Foster City",
-      "level": "internship",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Foster City, CA",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088591W?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T05:54:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T11:11:56Z"
-    },
-    {
       "id": "872936caf26137e3",
       "company": "Adobe",
       "title": "2027 University Graduate - People Data Scientist",
@@ -3019,30 +3379,6 @@
       "posted_at": "2026-09-16",
       "age": "0d",
       "collected_at": "2026-09-16T20:06:26Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-18T11:11:56Z"
-    },
-    {
-      "id": "5d44129d715c08fc",
-      "company": "Visa",
-      "title": "2027 Sophomore Internship Program - Software Engineer Intern, Bellevue",
-      "level": "internship",
-      "category": "fintech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Bellevue, WA",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-visa-visa-REF088594W?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-18",
-      "age": "0d",
-      "collected_at": "2026-09-18T05:54:03Z",
       "tags": [
         "software",
         "programming",
@@ -5403,30 +5739,6 @@
       "closed_at": "2026-09-17T13:25:49Z"
     },
     {
-      "id": "782b86a164cf3f77",
-      "company": "Datadog",
-      "title": "Software Engineer Intern - Summer",
-      "level": "internship",
-      "category": "cloud_infra",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Boston, MA NYC",
-      "remote_type": "onsite",
-      "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "8d",
-      "collected_at": "2026-09-17T01:24:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
       "id": "e8ef5a7338166b16",
       "company": "Amazon",
       "title": "Software Development Engineer II, Customer Experience Infrastructure (CXI)",
@@ -5499,30 +5811,6 @@
       "closed_at": "2026-09-17T13:25:49Z"
     },
     {
-      "id": "6d6f8ab72c5b1732",
-      "company": "Lyft",
-      "title": "Software Engineer Intern - Backend",
-      "level": "internship",
-      "category": "ride_delivery",
-      "region": "unknown",
-      "role_type": "backend",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "5d",
-      "collected_at": "2026-09-17T01:24:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
       "id": "c8151e2dc5e74ec8",
       "company": "Apple",
       "title": "Software Engineer, Applications, IS&T EMEA GSE",
@@ -5563,54 +5851,6 @@
       "posted_at": "2026-08-05",
       "age": "36d",
       "collected_at": "2026-09-05T17:24:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
-      "id": "2323a0b5bac88f2a",
-      "company": "Google",
-      "title": "Software Engineer Intern - Multiple Teams",
-      "level": "internship",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "31 locationsPalo Alto, CA Cambridge, MA Madison, WI Seattle, WA Houston, TX SF Austin, TX LA San Jose, CA Irvine, CA South SF Redwood City, CA Raleigh, NC San Bruno, CA Redmond, WA Durham, NC Santa Cruz, CA Chicago, IL Goleta, CA Pittsburgh, PA Kirkland, WA Reston, VA NYC Bellevue, WA Sunnyvale, CA Mountain View, CA Portland, OR Boulder, CO Atlanta, GA San Diego, CA Santa Barbara, CA",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382?utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "16d",
-      "collected_at": "2026-09-17T01:24:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
-      "id": "4c313db5f03b320e",
-      "company": "DoorDash",
-      "title": "Software Engineer Intern - Summer 2027",
-      "level": "internship",
-      "category": "ride_delivery",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "5 locationsSeattle, WA SF LA NYC Sunnyvale, CA",
-      "remote_type": "onsite",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8171041?utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "1d",
-      "collected_at": "2026-09-17T01:24:05Z",
       "tags": [
         "software",
         "programming",
@@ -5739,30 +5979,6 @@
       "closed_at": "2026-09-17T13:25:49Z"
     },
     {
-      "id": "a54120b423d69f2b",
-      "company": "Duolingo",
-      "title": "Software Engineer Intern - Thrive",
-      "level": "internship",
-      "category": "more_global_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Pittsburgh, PA",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "1d",
-      "collected_at": "2026-09-17T01:24:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
       "id": "a32153393f0e0f09",
       "company": "Amazon",
       "title": "Software Development Engineer III, AWS Sagemaker Lakehouse Catalog",
@@ -5859,30 +6075,6 @@
       "closed_at": "2026-09-17T13:25:49Z"
     },
     {
-      "id": "d074c49b4f427389",
-      "company": "Dropbox",
-      "title": "Software Engineer Intern - Summer 2027",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Remote in USA",
-      "remote_type": "remote",
-      "url": "https://boards.greenhouse.io/embed/job_app?token=8106224&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "9d",
-      "collected_at": "2026-09-17T01:24:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
       "id": "7123b4762c2987d7",
       "company": "Amazon",
       "title": "Amazon Fulfilment Tech - Software Development Engineer, AFT Inventory",
@@ -5899,30 +6091,6 @@
       "posted_at": "2026-06-18",
       "age": "90d",
       "collected_at": "2026-09-16T11:30:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
-      "id": "281bcf9e3c96604d",
-      "company": "Duolingo",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "category": "more_global_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Seattle, WA Pittsburgh, PA NYC",
-      "remote_type": "onsite",
-      "url": "https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "1d",
-      "collected_at": "2026-09-17T01:24:05Z",
       "tags": [
         "software",
         "programming",
@@ -6043,54 +6211,6 @@
       "posted_at": "2026-07-15",
       "age": "63d",
       "collected_at": "2026-09-16T11:30:12Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
-      "id": "2b5e6dafb7364da8",
-      "company": "Google",
-      "title": "Software Engineer Intern - Multiple Teams",
-      "level": "internship",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "30 locationsPalo Alto, CA Cambridge, MA Madison, WI Seattle, WA Houston, TX SF Austin, TX LA San Jose, CA Irvine, CA South SF Redwood City, CA Raleigh, NC San Bruno, CA Redmond, WA Durham, NC Santa Cruz, CA Chicago, IL Goleta, CA Pittsburgh, PA Kirkland, WA Reston, VA NYC Bellevue, WA Sunnyvale, CA Mountain View, CA Portland, OR Boulder, CO Atlanta, GA San Diego, CA",
-      "remote_type": "onsite",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/94172495052972742?utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "16d",
-      "collected_at": "2026-09-17T01:24:05Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-09-17T13:25:49Z"
-    },
-    {
-      "id": "885ec1d0386f8a70",
-      "company": "Coinbase",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "category": "more_global_tech",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "SF",
-      "remote_type": "onsite",
-      "url": "https://boards.greenhouse.io/embed/job_app?token=8168315&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-17",
-      "age": "7d",
-      "collected_at": "2026-09-17T01:24:05Z",
       "tags": [
         "software",
         "programming",
