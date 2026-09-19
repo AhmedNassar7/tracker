@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T10:57:26Z",
-  "total": 3576,
+  "generated_at": "2026-09-19T14:24:24Z",
+  "total": 3607,
   "jobs": [
     {
       "id": "753c082044bddbfa",
@@ -29,6 +29,174 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "957650f368ec733e",
+      "kind": "job",
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Solana Staking Protocol",
+      "location": "Remote - USA",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-09-19",
+      "url": "https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298",
+      "source": "greenhouse:coinbase",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Rust"
+      ],
+      "min_years_experience": 10,
+      "salary": {
+        "min": 218025,
+        "max": 256500,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "10637ebcdaefe376",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Frontend Engineer, Ads",
+      "location": "Remote - United States",
+      "level": "other",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-09-19",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "gRPC",
+        "Kubernetes",
+        "Docker"
+      ],
+      "min_years_experience": 3,
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f03ebb6c3a5bd0da",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Frontend Engineer, Ads Creative",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-09-19",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6ba729ce5ab63e69",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Software Engineer, Agentic Ads Experience",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-09-19",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "Go",
+        "Rust"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6b5d8a27f0918b8c",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Staff Android Engineer, Brand Ad Formats",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "2026-09-19",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "Kotlin"
+      ],
+      "degree_required": false,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 217000,
+        "max": 303900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "9f802dd8b8415c21",
+      "kind": "job",
+      "company": "Salesforce",
+      "title": "Software Engineering SMTS (Backend - Distributed Systems)",
+      "location": "<details><summary><strong>2 locations</strong></summary>India - Hyderabad<br>India - Bangalore</details>",
+      "level": "other",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-SMTS---MTS----Platform-Engineering--Backend--Kubernetes---Cloud-_JR347341",
+      "source": "workday:salesforce",
+      "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
+    },
+    {
+      "id": "4fda798cc4814d13",
+      "kind": "job",
+      "company": "Visa",
+      "title": "Staff SW Engineer- Java backend with GenAI experience",
+      "location": "IN - Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Staff-SW-Engineer_REF081656W",
+      "source": "workday:visa",
+      "source_url": "https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
     },
     {
       "id": "fe6449f0e9916ba9",
@@ -1620,6 +1788,679 @@
       "min_years_experience": 5
     },
     {
+      "id": "e0a2128c841c5081",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Manager I, Engineering - AI Platform - Evaluation & Annotation",
+      "location": "Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7965428/?gh_jid=7965428",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "0cd28327020e3091",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Manager I, Engineering - AI Platform - Training & Serving",
+      "location": "Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7529852/?gh_jid=7529852",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "8b0dd04ccbf2d734",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Manager I, Engineering - Change Experience Platform",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8031007/?gh_jid=8031007",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "PostgreSQL",
+        "Redis",
+        "Elasticsearch"
+      ],
+      "salary": {
+        "min": 192000,
+        "max": 240000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "d7d831a76cf0aecc",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Manager, Strategic Sourcing, AI Infrastructure & Services",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8024670/?gh_jid=8024670",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "salary": {
+        "min": 128000,
+        "max": 187000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f44c7062749a9cec",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Applied Scientist - AI Platform",
+      "location": "Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8172855/?gh_jid=8172855",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Python"
+      ]
+    },
+    {
+      "id": "d906fb0c1ef3633a",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/3851935/?gh_jid=3851935",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Redis",
+        "Kafka"
+      ],
+      "min_years_experience": 6,
+      "salary": {
+        "min": 192000,
+        "max": 240000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "96be0622b8ddf32b",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Action Platform",
+      "location": "Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8102624/?gh_jid=8102624",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "526160af1b3213ea",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Backend",
+      "location": "Bordeaux, France; Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/4599148/?gh_jid=4599148",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "9c6fce13344b2d58",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Bazel Tools",
+      "location": "Atlanta, Georgia, USA; Boston, Massachusetts, USA; New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8095166/?gh_jid=8095166",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "TypeScript",
+        "Python",
+        "Java",
+        "Rust"
+      ],
+      "salary": {
+        "min": 244000,
+        "max": 305000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "bb9cffb6a247e3c6",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Distributed Systems",
+      "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France; Tel Aviv, Israel",
+      "level": "mid_level",
+      "region": "mena",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Rust",
+        "C++",
+        "Redis",
+        "Elasticsearch",
+        "Kafka"
+      ]
+    },
+    {
+      "id": "9711031fa3618ea0",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Distributed Systems",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/3851927/?gh_jid=3851927",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Rust",
+        "C++",
+        "Redis",
+        "Elasticsearch",
+        "Kafka"
+      ],
+      "min_years_experience": 6,
+      "salary": {
+        "min": 192000,
+        "max": 240000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "9c64e4d90947e1aa",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Frontend",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "frontend",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/4732393/?gh_jid=4732393",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "salary": {
+        "min": 130000,
+        "max": 300000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "c695887863803363",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Incident Insights & Readiness",
+      "location": "Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8094111/?gh_jid=8094111",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "TypeScript",
+        "Python",
+        "Go",
+        "Kubernetes"
+      ],
+      "min_years_experience": 5
+    },
+    {
+      "id": "1fad5dedb1eb9efa",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "location": "Dublin, Ireland; Madrid, Spain; Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "135c87069a515ffa",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "location": "France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "7d6b20ec02fc100a",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "location": "Lisbon, Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7959967/?gh_jid=7959967",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "46e1a567f33b3912",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Streaming Platform",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7993551/?gh_jid=7993551",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "Go",
+        "Rust",
+        "Kafka"
+      ],
+      "salary": {
+        "min": 192000,
+        "max": 240000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "26ccd71ffb28b60e",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Streaming Platform Client",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8035492/?gh_jid=8035492",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "Go",
+        "Rust",
+        "Kafka"
+      ],
+      "salary": {
+        "min": 192000,
+        "max": 240000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6b700efdd53240e8",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Staff Software Engineer",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/5608424/?gh_jid=5608424",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "degree_required": false,
+      "min_years_experience": 4,
+      "salary": {
+        "min": 272000,
+        "max": 340000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "3bf6538464199907",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Software Engineering Intern",
+      "location": "Paris, France",
+      "level": "internship",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "8cf202608e9096d8",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Software Engineering Intern",
+      "location": "Madrid, Spain",
+      "level": "internship",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "5c41b4f90be57ec7",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Software Engineering Intern (Summer)",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "level": "internship",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes"
+      ],
+      "relocation": true,
+      "salary": {
+        "min": 100000,
+        "max": 110000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "079d0fd4d9fe7144",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Engineer - Data Platform Experience",
+      "location": "Dublin, Ireland; Madrid, Spain; Paris, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8119493/?gh_jid=8119493",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Kubernetes",
+        "Kafka"
+      ]
+    },
+    {
+      "id": "aabe9286420d2b41",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Engineer - Data Platform Experience",
+      "location": "Lisbon, Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8119496/?gh_jid=8119496",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Kubernetes",
+        "Kafka"
+      ]
+    },
+    {
+      "id": "fa7f644c47347c5a",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Software Engineer",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/3210217/?gh_jid=3210217",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "salary": {
+        "min": 244000,
+        "max": 305000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "ff4d3e8a63f3f3e0",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Corporate Development",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8105372/?gh_jid=8105372",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "salary": {
+        "min": 200000,
+        "max": 250000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "b241fff7033e0449",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Corporate Development",
+      "location": "San Francisco, California, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8094106/?gh_jid=8094106",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "salary": {
+        "min": 200000,
+        "max": 250000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "ee9bbc78441665e9",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Frontend",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "frontend",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8202699/?gh_jid=8202699",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "React"
+      ],
+      "salary": {
+        "min": 138000,
+        "max": 305000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "cba5bc807b02923a",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Logs Management",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7635298/?gh_jid=7635298",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "salary": {
+        "min": 244000,
+        "max": 305000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "33076d69043f9bf5",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Logs Observability Pipelines",
+      "location": "New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7743369/?gh_jid=7743369",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Rust",
+        "C++",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "salary": {
+        "min": 244000,
+        "max": 305000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6162f73dce2d0acc",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Software Engineer - ML Observability",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7107437/?gh_jid=7107437",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "salary": {
+        "min": 234000,
+        "max": 300000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "be7b2d142e949b97",
       "kind": "job",
       "company": "Discord",
@@ -3039,92 +3880,6 @@
       }
     },
     {
-      "id": "10637ebcdaefe376",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Frontend Engineer, Ads",
-      "location": "Remote - United States",
-      "level": "other",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-09-18",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "gRPC",
-        "Kubernetes",
-        "Docker"
-      ],
-      "min_years_experience": 3,
-      "salary": {
-        "min": 164200,
-        "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f03ebb6c3a5bd0da",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Frontend Engineer, Ads Creative",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-09-18",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6ba729ce5ab63e69",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Software Engineer, Agentic Ads Experience",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-09-18",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Python",
-        "Java",
-        "Go",
-        "Rust"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "a3ad93b4f9a51c4f",
       "kind": "job",
       "company": "Reddit",
@@ -3148,32 +3903,6 @@
       "salary": {
         "min": 164200,
         "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6b5d8a27f0918b8c",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Staff Android Engineer, Brand Ad Formats",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "mobile",
-      "date": "1d",
-      "posted_at": "2026-09-18",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "Kotlin"
-      ],
-      "degree_required": false,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 217000,
-        "max": 303900,
         "currency": "USD",
         "period": "year"
       }
@@ -6536,33 +7265,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true"
     },
     {
-      "id": "5de9aa503b387621",
-      "kind": "job",
-      "company": "Twilio",
-      "title": "Senior Software Engineer",
-      "location": "Remote - Ireland",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-09-18",
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8015771",
-      "source": "greenhouse:twilio",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "Python",
-        "Java",
-        "gRPC",
-        "Kubernetes",
-        "AWS",
-        "Kafka",
-        "SQL"
-      ],
-      "min_years_experience": 5
-    },
-    {
       "id": "9aa2cb48b9395b8b",
       "kind": "job",
       "company": "Twilio",
@@ -6590,6 +7292,33 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "5de9aa503b387621",
+      "kind": "job",
+      "company": "Twilio",
+      "title": "Senior Software Engineer",
+      "location": "Remote - Ireland",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8015771",
+      "source": "greenhouse:twilio",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Java",
+        "gRPC",
+        "Kubernetes",
+        "AWS",
+        "Kafka",
+        "SQL"
+      ],
+      "min_years_experience": 5
     },
     {
       "id": "e45f580e008d3e3c",
@@ -6974,6 +7703,32 @@
       }
     },
     {
+      "id": "38b9a99ed523ad4f",
+      "kind": "job",
+      "company": "Twilio",
+      "title": "Staff Software Engineer",
+      "location": "Remote - Canada",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "2026-09-18",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7944328",
+      "source": "greenhouse:twilio",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Redis",
+        "Kafka",
+        "SQL"
+      ],
+      "min_years_experience": 12
+    },
+    {
       "id": "0ae2ebb651b6c059",
       "kind": "job",
       "company": "Twilio",
@@ -7025,32 +7780,6 @@
         "SQL"
       ],
       "min_years_experience": 8
-    },
-    {
-      "id": "38b9a99ed523ad4f",
-      "kind": "job",
-      "company": "Twilio",
-      "title": "Staff Software Engineer",
-      "location": "Remote - Canada",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-09-18",
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/7944328",
-      "source": "greenhouse:twilio",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "Kubernetes",
-        "Terraform",
-        "AWS",
-        "Redis",
-        "Kafka",
-        "SQL"
-      ],
-      "min_years_experience": 12
     },
     {
       "id": "d55f01ef83636424",
@@ -16272,27 +17001,6 @@
         "AWS"
       ],
       "min_years_experience": 12
-    },
-    {
-      "id": "bbd6f76370044da9",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Hyderabad",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "4d",
-      "posted_at": "2026-09-15",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8020098",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "AWS"
-      ],
-      "min_years_experience": 10
     },
     {
       "id": "8d1978d293e41d54",
@@ -49585,25 +50293,6 @@
       "min_years_experience": 10
     },
     {
-      "id": "4c63e9a34c143091",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Sr. Director, Back-End Engineering",
-      "location": "Seoul, South Korea",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "27d",
-      "posted_at": "2026-08-23",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8118859",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes"
-      ],
-      "min_years_experience": 15
-    },
-    {
       "id": "dcedf4c9c8a0c807",
       "kind": "job",
       "company": "Coupang",
@@ -49621,6 +50310,25 @@
         "Kubernetes"
       ],
       "min_years_experience": 12
+    },
+    {
+      "id": "4c63e9a34c143091",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Sr. Director, Back-End Engineering",
+      "location": "Seoul, South Korea",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "27d",
+      "posted_at": "2026-08-23",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8118859",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes"
+      ],
+      "min_years_experience": 15
     },
     {
       "id": "873172d508aa6058",
@@ -59457,27 +60165,6 @@
       "min_years_experience": 12
     },
     {
-      "id": "b09f34f6077eca0a",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Back-end Engineer",
-      "location": "Hyderabad",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "50d",
-      "posted_at": "2026-07-31",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892762",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "AWS"
-      ],
-      "min_years_experience": 8
-    },
-    {
       "id": "2fe478ff8cc06e45",
       "kind": "job",
       "company": "Coupang",
@@ -59499,6 +60186,27 @@
       "min_years_experience": 10
     },
     {
+      "id": "b09f34f6077eca0a",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Staff Back-end Engineer",
+      "location": "Hyderabad",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "50d",
+      "posted_at": "2026-07-31",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892762",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "AWS"
+      ],
+      "min_years_experience": 8
+    },
+    {
       "id": "56ac177293055766",
       "kind": "job",
       "company": "Coupang",
@@ -59518,6 +60226,26 @@
         "Kafka"
       ],
       "min_years_experience": 5
+    },
+    {
+      "id": "9e94f52205a3dcf4",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer",
+      "location": "Hyderabad",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "50d",
+      "posted_at": "2026-07-31",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8051361",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Spring",
+        "AWS"
+      ]
     },
     {
       "id": "71187b4892e1f07a",
@@ -59542,26 +60270,6 @@
         "Redis",
         "Elasticsearch",
         "Kafka"
-      ]
-    },
-    {
-      "id": "9e94f52205a3dcf4",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Hyderabad",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "50d",
-      "posted_at": "2026-07-31",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8051361",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Spring",
-        "AWS"
       ]
     },
     {
@@ -62819,32 +63527,6 @@
         "Go"
       ],
       "min_years_experience": 8,
-      "salary": {
-        "min": 218025,
-        "max": 256500,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "957650f368ec733e",
-      "kind": "job",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Solana Staking Protocol",
-      "location": "Remote - USA",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "85d",
-      "posted_at": "2026-06-26",
-      "url": "https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298",
-      "source": "greenhouse:coinbase",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Rust"
-      ],
-      "min_years_experience": 10,
       "salary": {
         "min": 218025,
         "max": 256500,
@@ -74404,18 +75086,6 @@
   ],
   "hackathons": [
     {
-      "id": "16b268472c2232ef",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "DSU DEVHACK 3.0",
-      "location": "Ramanagara, India",
-      "date": "last day",
-      "posted_at": "2026-09-19",
-      "url": "https://dsudevhack3.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "ab2e06043e7deebc",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -74433,9 +75103,21 @@
       "company": "Code for Pakistan",
       "title": "Smart City Hackathon Lahore",
       "location": "Lahore Garrison University",
-      "date": "about 10 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-09-19",
       "url": "https://smart-city-hackathon-lahore.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "9acb4c328823a842",
+      "kind": "hackathon",
+      "company": "Major League Hacking",
+      "title": "Emberhacks 2026",
+      "location": "UTM - Instructional Centre",
+      "date": "about 6 hours left",
+      "posted_at": "2026-09-19",
+      "url": "https://emberhacks-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -74445,7 +75127,7 @@
       "company": "Girls Who Code Hackathon",
       "title": "HackHERS 2026",
       "location": "Georgia State University-College of Law",
-      "date": "about 11 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-09-19",
       "url": "https://gwc-hackhers-2026.devpost.com/",
       "source": "devpost",
@@ -74457,7 +75139,7 @@
       "company": "IFM x Michigan Data Science",
       "title": "Expand your Agents' Horizons - Build with K2 Horizon",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-09-19",
       "url": "https://mdshacks.devpost.com/",
       "source": "devpost",
@@ -74469,7 +75151,7 @@
       "company": "Tampa Bay Innovation",
       "title": "Bay Hacks",
       "location": "USF Hall of Flags",
-      "date": "about 14 hours left",
+      "date": "about 9 hours left",
       "posted_at": "2026-09-19",
       "url": "https://bayhacks-2026.devpost.com/",
       "source": "devpost",
@@ -74481,7 +75163,7 @@
       "company": "General Learning",
       "title": "General Learning Hacks",
       "location": "3/F Lee Garden 3, Causeway Bay",
-      "date": "about 15 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-09-19",
       "url": "https://general-learning-hacks.devpost.com/",
       "source": "devpost",
@@ -74493,9 +75175,45 @@
       "company": "CAST-GNY",
       "title": "CAST-GNY Startup Pitch Competition 2026",
       "location": "Fordham University School of Law",
-      "date": "about 23 hours left",
+      "date": "about 13 hours left",
       "posted_at": "2026-09-19",
       "url": "https://castgnypitch2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "be3f9bf42a542374",
+      "kind": "hackathon",
+      "company": "Self",
+      "title": "Databricks Hackathon @ Queens College 2026",
+      "location": "Online",
+      "date": "about 18 hours left",
+      "posted_at": "2026-09-19",
+      "url": "https://databricks-hackathon-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "dd2fa9606bf3c4f1",
+      "kind": "hackathon",
+      "company": "Hack the North",
+      "title": "Hack the North 2026",
+      "location": "University of Waterloo — E5/PSE",
+      "date": "about 22 hours left",
+      "posted_at": "2026-09-19",
+      "url": "https://hackthenorth2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e7594c604ed4cfae",
+      "kind": "hackathon",
+      "company": "Johns Hopkins",
+      "title": "HopHacks Fall 2026",
+      "location": "Johns Hopkins University",
+      "date": "about 23 hours left",
+      "posted_at": "2026-09-19",
+      "url": "https://hophacks-fall-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -74548,18 +75266,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "dd2fa9606bf3c4f1",
-      "kind": "hackathon",
-      "company": "Hack the North",
-      "title": "Hack the North 2026",
-      "location": "University of Waterloo — E5/PSE",
-      "date": "1 day left",
-      "posted_at": "2026-09-19",
-      "url": "https://hackthenorth2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "fb2a456d13ba8a13",
       "kind": "hackathon",
       "company": "HackAlphaX",
@@ -74596,18 +75302,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "e7594c604ed4cfae",
-      "kind": "hackathon",
-      "company": "Johns Hopkins",
-      "title": "HopHacks Fall 2026",
-      "location": "Johns Hopkins University",
-      "date": "1 day left",
-      "posted_at": "2026-09-19",
-      "url": "https://hophacks-fall-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "f2beb4af9d888458",
       "kind": "hackathon",
       "company": "R.V. College Of Engineering",
@@ -74620,14 +75314,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "be3f9bf42a542374",
+      "id": "9660d8689ded4a25",
       "kind": "hackathon",
-      "company": "Self",
-      "title": "Databricks Hackathon @ Queens College 2026",
+      "company": "SASE",
+      "title": "SASEhack 2026",
       "location": "Online",
       "date": "1 day left",
       "posted_at": "2026-09-19",
-      "url": "https://databricks-hackathon-2026.devpost.com/",
+      "url": "https://sasehack-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -74644,16 +75338,40 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "c4ddf6e6ad0c2c6a",
+      "kind": "hackathon",
+      "company": "Tech Literacy Network",
+      "title": "TLN Hackathon 2026",
+      "location": "Online",
+      "date": "about 24 hours left",
+      "posted_at": "2026-09-19",
+      "url": "https://tln-cybersecurity-challenge.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "f24bbc2c768ea2d9",
       "kind": "hackathon",
       "company": "TechHackers at VT",
       "title": "VTHacks 14",
       "location": "Blacksburg, VA",
-      "date": "1 day left",
+      "date": "about 24 hours left",
       "posted_at": "2026-09-19",
       "url": "https://vthacks-14.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e678bc4e854576ce",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Binary Hacks 4.0",
+      "location": "Ghaziabad, India",
+      "date": "2 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://binary-hacks-4.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "2f72f7cd55a8f270",
@@ -74666,30 +75384,6 @@
       "url": "https://bic.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "9660d8689ded4a25",
-      "kind": "hackathon",
-      "company": "SASE",
-      "title": "SASEhack 2026",
-      "location": "Online",
-      "date": "2 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://sasehack-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "e678bc4e854576ce",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Binary Hacks 4.0",
-      "location": "Ghaziabad, India",
-      "date": "3 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://binary-hacks-4.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "c9a7389db64f14ef",
@@ -74716,28 +75410,40 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "e34b525b04b527b4",
-      "kind": "hackathon",
-      "company": "TechieBunnies team",
-      "title": "BunnieX Hackathon",
-      "location": "Online",
-      "date": "3 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://buuniex-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "f1fe9c227e1daa45",
       "kind": "hackathon",
       "company": "hyperbloom hacks",
       "title": "Hyperbloom September - Beginer Freindly",
       "location": "Online",
-      "date": "5 days left",
+      "date": "4 days left",
       "posted_at": "2026-09-19",
       "url": "https://hyperbloom-september2.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "4e6bf779ab32b518",
+      "kind": "hackathon",
+      "company": "None",
+      "title": "Poly.Tech mini hackathon",
+      "location": "Baltimore, MD, USA",
+      "date": "5 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://poly-tech-mini-hackathon-31322.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "285630e1134ad955",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Builders Day by HackUnion",
+      "location": "Hyderabad, India",
+      "date": "6 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://builders-day-hackunion.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "30f4d87edfbdea96",
@@ -74784,6 +75490,18 @@
       "date": "6 days left",
       "posted_at": "2026-09-19",
       "url": "https://meow.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "6e2ff6c9d17a126c",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "NexHack 2.0",
+      "location": "New Delhi, India",
+      "date": "6 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://nexhack-2.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -74848,30 +75566,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "4e6bf779ab32b518",
-      "kind": "hackathon",
-      "company": "None",
-      "title": "Poly.Tech mini hackathon",
-      "location": "Baltimore, MD, USA",
-      "date": "6 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://poly-tech-mini-hackathon-31322.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "285630e1134ad955",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Builders Day by HackUnion",
-      "location": "Hyderabad, India",
-      "date": "7 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://builders-day-hackunion.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "040fd44c3beecae3",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -74884,18 +75578,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "6e2ff6c9d17a126c",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "NexHack 2.0",
-      "location": "New Delhi, India",
-      "date": "7 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://nexhack-2.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "ab3c8b2ee4f23a39",
       "kind": "hackathon",
       "company": "RotaractClub of SNSCollege of Technology",
@@ -74904,6 +75586,18 @@
       "date": "7 days left",
       "posted_at": "2026-09-19",
       "url": "https://zero-origin.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "252569c440384922",
+      "kind": "hackathon",
+      "company": "Hack Club",
+      "title": "Acodemic X G.I.R.L.S. Global SDG Hackathon",
+      "location": "Online",
+      "date": "8 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://acodemic-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75012,18 +75706,6 @@
       "date": "11 days left",
       "posted_at": "2026-09-19",
       "url": "https://hack2heal.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "d6c1fefdc062072b",
-      "kind": "hackathon",
-      "company": "Kang Chiao International School Student",
-      "title": "Global Innovation Build Challenge V2",
-      "location": "Online",
-      "date": "12 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://gibc-v2.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75141,7 +75823,7 @@
       "company": "Devfolio",
       "title": "Recursive",
       "location": "Panihati, India",
-      "date": "19 days left",
+      "date": "18 days left",
       "posted_at": "2026-09-19",
       "url": "https://recursiveacm.devfolio.co",
       "source": "devfolio",
@@ -75220,24 +75902,12 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "13a28d74695ef9f8",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Srijan Setu",
-      "location": "New Chandigarh, India",
-      "date": "21 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://srijan-setu.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "abb36eb72fb88192",
       "kind": "hackathon",
       "company": "Devfolio",
       "title": "Innohacks 4.0",
       "location": "Ghaziabad, India",
-      "date": "22 days left",
+      "date": "21 days left",
       "posted_at": "2026-09-19",
       "url": "https://innohacks-4.devfolio.co",
       "source": "devfolio",
@@ -75249,9 +75919,21 @@
       "company": "Devfolio",
       "title": "Innosprint2.0",
       "location": "India",
-      "date": "22 days left",
+      "date": "21 days left",
       "posted_at": "2026-09-19",
       "url": "https://innosprint-3.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "13a28d74695ef9f8",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Srijan Setu",
+      "location": "New Chandigarh, India",
+      "date": "21 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://srijan-setu.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75388,6 +76070,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "1b328570a25716bd",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "QuantHacks",
+      "location": "Online",
+      "date": "34 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://quanthacks2026.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "4d198d7fa4844cf4",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75400,18 +76094,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "1b328570a25716bd",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "QuantHacks",
-      "location": "Online",
-      "date": "35 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://quanthacks2026.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "d42dfc6016d1e10c",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75420,6 +76102,18 @@
       "date": "41 days left",
       "posted_at": "2026-09-19",
       "url": "https://hacker-house-goa-2026.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "84d48a0fc1e478b2",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "TUM Blockchain & AI Hackathon",
+      "location": "München, Germany",
+      "date": "41 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://tum.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75448,18 +76142,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "84d48a0fc1e478b2",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "TUM Blockchain & AI Hackathon",
-      "location": "München, Germany",
-      "date": "42 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://tum.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "03943543974f740e",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75482,18 +76164,6 @@
       "url": "https://hacknauts26.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "2974c38aaa981b66",
-      "kind": "hackathon",
-      "company": "STEMise",
-      "title": "DSH Hacks V2 ($100k+ in prizes!)",
-      "location": "Online",
-      "date": "about 2 months left",
-      "posted_at": "2026-09-19",
-      "url": "https://dsh-hacks-v2.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "c57932c10b5e2d58",
@@ -75532,6 +76202,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "3c58ff5709a2778b",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Convergence",
+      "location": "Kalyani, India",
+      "date": "119 days left",
+      "posted_at": "2026-09-19",
+      "url": "https://convergence1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "ace15e808cec90aa",
       "kind": "hackathon",
       "company": "Binnovative",
@@ -75542,18 +76224,6 @@
       "url": "https://innovart2027.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "3c58ff5709a2778b",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Convergence",
-      "location": "Kalyani, India",
-      "date": "120 days left",
-      "posted_at": "2026-09-19",
-      "url": "https://convergence1.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "892853bbb8014d31",
