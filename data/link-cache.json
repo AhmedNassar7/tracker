@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T18:00:23Z",
+ "generated_at": "2026-09-19T20:38:48Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -5175,7 +5175,7 @@
   },
   "https://general-learning-hacks.devpost.com/": {
    "alive": true,
-   "at": "2026-09-19T05:52:17Z"
+   "at": "2026-09-19T20:38:48Z"
   },
   "https://ghc.anitab.org/": {
    "alive": true,
@@ -5244,6 +5244,10 @@
   "https://hack4brahma2.devfolio.co": {
    "alive": true,
    "at": "2026-09-19T10:57:26Z"
+  },
+  "https://hackathon-mel-elevenlabs.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-19T20:38:48Z"
   },
   "https://hackbios2k26.devfolio.co": {
    "alive": true,
@@ -13793,10 +13797,6 @@
    "alive": true,
    "at": "2026-09-15T14:05:46Z"
   },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Remote/System-Software-Engineering-Intern--GPU---2027_JR2025334": {
-   "alive": true,
-   "at": "2026-09-12T19:19:41Z"
-  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Singapore-Singapore-Suntec-Tower/Senior-Cloud-Infrastructure-Automation-Solutions-Architect_JR2025277": {
    "alive": true,
    "at": "2026-09-19T14:24:24Z"
@@ -15431,7 +15431,7 @@
   },
   "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Troy-MI/Application-Engineering-Intern--Year-Round-_REQ2026080234": {
    "alive": true,
-   "at": "2026-09-18T18:28:08Z"
+   "at": "2026-09-19T20:38:48Z"
   },
   "https://vartusconferences.com/aibda": {
    "alive": true,
@@ -18804,6 +18804,10 @@
   "https://www.amazon.jobs/en/jobs/10517662/software-development-engineer-sagemaker-hyperpod-data-plane": {
    "alive": true,
    "at": "2026-09-19T10:56:46Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10517663/software-development-engineer-ii-ring-quick-action-service": {
+   "alive": true,
+   "at": "2026-09-19T20:38:29Z"
   },
   "https://www.amazon.jobs/en/jobs/10517668/software-development-engineer-rbks-platform-ops": {
    "alive": true,
@@ -23104,6 +23108,14 @@
   "https://zapply.jobs/l/d/oracle-jpmorgan-chase-210788250?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
    "at": "2026-09-15T14:37:37Z"
+  },
+  "https://zapply.jobs/l/d/oracle-jpmorgan-chase-210790857?s=gh-new-grad-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-19T20:38:29Z"
+  },
+  "https://zapply.jobs/l/d/oracle-jpmorgan-chase-210790857?s=gh-new-grad-software-engineering-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-19T20:38:29Z"
   },
   "https://zapply.jobs/l/d/oracle-jpmorgan-chase-210790885?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
