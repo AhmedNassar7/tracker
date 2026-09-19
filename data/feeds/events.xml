@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Sat, 19 Sep 2026 05:54:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 11:00:53 GMT</lastBuildDate>
     <item>
       <title>dotJS — dotJS</title>
       <link>https://www.dotjs.io</link>
@@ -619,6 +619,13 @@
       <link>https://jdd.org.pl</link>
       <guid isPermaLink="false">4229fa8a9936b8e9</guid>
       <description>Kraków, Poland · 31 days left</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PGconf.EU — PGconf.EU</title>
+      <link>https://2026.pgconf.eu</link>
+      <guid isPermaLink="false">c0a3ddacfb12c803</guid>
+      <description>Valencia, Spain · 31 days left</description>
       <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
