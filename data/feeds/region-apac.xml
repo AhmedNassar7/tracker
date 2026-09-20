@@ -4,7 +4,7 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Sun, 20 Sep 2026 18:49:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 21:34:08 GMT</lastBuildDate>
     <item>
       <title>Apple — PhD Intern, Apple Ads (Machine Learning)</title>
       <link>https://jobs.apple.com/en-us/details/200684719/phd-intern-apple-ads-machine-learning</link>
@@ -479,13 +479,6 @@
       <link>https://www.amazon.jobs/en/jobs/10541335/software-development-engineer-ii-tax-services</link>
       <guid isPermaLink="false">03f6fa6638b29663</guid>
       <description>Hyderabad, Telangana, IND · mid_level · 5d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Amazon OpenSearch Service - Control Plane</title>
-      <link>https://www.amazon.jobs/en/jobs/10543018/software-development-engineer-amazon-opensearch-service-control-plane</link>
-      <guid isPermaLink="false">b9d852bdd90f7e40</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 5d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1105,6 +1098,13 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, Recipient Experience, Recipient Experience</title>
+      <link>https://www.amazon.jobs/en/jobs/10536816/software-development-engineer-ii-recipient-experience-recipient-experience</link>
+      <guid isPermaLink="false">1f744f1a95180312</guid>
+      <description>Hyderabad, Telangana, IND · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Block — Staff Software Engineer, Financial Platform - Issuing</title>
       <link>http://block.xyz/careers/jobs/5414628008?gh_jid=5414628008</link>
       <guid isPermaLink="false">d5f17561fcaabe6a</guid>
@@ -1354,6 +1354,13 @@
       <link>https://www.amazon.jobs/en/jobs/10532279/software-development-engineer-ii</link>
       <guid isPermaLink="false">8b44e7fbb97ffb17</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 12d</description>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, Ads AI Core Infra</title>
+      <link>https://www.amazon.jobs/en/jobs/10533196/software-development-engineer-ii-ads-ai-core-infra</link>
+      <guid isPermaLink="false">a6da94327b095cb2</guid>
+      <description>Melbourne, Victoria, AUS · mid_level · 12d</description>
       <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2015,10 +2022,24 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II , Amazon Cross Border Tech</title>
+      <link>https://www.amazon.jobs/en/jobs/10502055/software-development-engineer-ii-amazon-cross-border-tech</link>
+      <guid isPermaLink="false">0d7b4f24ff23d4ce</guid>
+      <description>Bengaluru, Karnataka, IND · mid_level · 37d</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer II, Amazon</title>
       <link>https://www.amazon.jobs/en/jobs/10502808/software-development-engineer-ii-amazon</link>
       <guid isPermaLink="false">a94f56686c011fc3</guid>
       <description>Hyderabad, Telangana, IND · mid_level · 37d</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Early Career - 2027, Device - Shenzhen</title>
+      <link>https://www.amazon.jobs/en/jobs/10501875/software-development-engineer-early-career-2027-device-shenzhen</link>
+      <guid isPermaLink="false">e5d1b6982e40a8d4</guid>
+      <description>Shenzhen, CHN · new_grad · 37d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2086,15 +2107,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Account Compliance Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10498379/software-development-engineer-ii-account-compliance-tech</link>
-      <guid isPermaLink="false">a7159c22af3d01f0</guid>
+      <link>https://www.amazon.jobs/en/jobs/10498377/software-development-engineer-ii-account-compliance-tech</link>
+      <guid isPermaLink="false">72bd4be0500cffcf</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 40d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Account Compliance Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10498377/software-development-engineer-ii-account-compliance-tech</link>
-      <guid isPermaLink="false">72bd4be0500cffcf</guid>
+      <link>https://www.amazon.jobs/en/jobs/10498379/software-development-engineer-ii-account-compliance-tech</link>
+      <guid isPermaLink="false">a7159c22af3d01f0</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 40d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2121,15 +2142,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon OpenSearch Service - Control Plane</title>
-      <link>https://www.amazon.jobs/en/jobs/10497203/software-development-engineer-amazon-opensearch-service-control-plane</link>
-      <guid isPermaLink="false">d03b3adfbfb379de</guid>
+      <link>https://www.amazon.jobs/en/jobs/10497206/software-development-engineer-amazon-opensearch-service-control-plane</link>
+      <guid isPermaLink="false">939b66f49bedcfd0</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 41d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon OpenSearch Service - Control Plane</title>
-      <link>https://www.amazon.jobs/en/jobs/10497206/software-development-engineer-amazon-opensearch-service-control-plane</link>
-      <guid isPermaLink="false">939b66f49bedcfd0</guid>
+      <link>https://www.amazon.jobs/en/jobs/10497203/software-development-engineer-amazon-opensearch-service-control-plane</link>
+      <guid isPermaLink="false">d03b3adfbfb379de</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 41d</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2160,13 +2181,6 @@
       <guid isPermaLink="false">04227babe92f44a2</guid>
       <description>Noida, Uttar Pradesh · mid_level · 44d</description>
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Amazon Device Observability &amp; Troubleshooting Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10494842/software-development-engineer-amazon-device-observability-troubleshooting-team</link>
-      <guid isPermaLink="false">445a902b565d5e7c</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 45d</description>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Early Career - 2027, Beijing</title>
@@ -2450,15 +2464,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon Prime</title>
-      <link>https://www.amazon.jobs/en/jobs/10467060/software-development-engineer-amazon-prime</link>
-      <guid isPermaLink="false">447979526b0921ae</guid>
+      <link>https://www.amazon.jobs/en/jobs/10467200/software-development-engineer-amazon-prime</link>
+      <guid isPermaLink="false">5ffff63fd22c3783</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 75d</description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon Prime</title>
-      <link>https://www.amazon.jobs/en/jobs/10467200/software-development-engineer-amazon-prime</link>
-      <guid isPermaLink="false">5ffff63fd22c3783</guid>
+      <link>https://www.amazon.jobs/en/jobs/10467060/software-development-engineer-amazon-prime</link>
+      <guid isPermaLink="false">447979526b0921ae</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 75d</description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
     </item>
