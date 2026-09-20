@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Sun, 20 Sep 2026 01:09:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 06:16:52 GMT</lastBuildDate>
     <item>
       <title>Coinbase — Staff Software Engineer, Solana Staking Protocol</title>
       <link>https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298</link>
@@ -371,16 +371,16 @@
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8071710</link>
-      <guid isPermaLink="false">9554a1d2269243c3</guid>
-      <description>Remote - Ireland · mid_level · 2d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
+      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
+      <description>Remote - US · mid_level · 2d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
-      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
-      <description>Remote - US · mid_level · 2d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8071710</link>
+      <guid isPermaLink="false">9554a1d2269243c3</guid>
+      <description>Remote - Ireland · mid_level · 2d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1596,16 +1596,16 @@
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
-      <guid isPermaLink="false">c6e69af605bd2478</guid>
-      <description>Remote - United States · other · 125d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
+      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
+      <description>Remote - Ontario, Canada · other · 125d</description>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
-      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
-      <description>Remote - Ontario, Canada · other · 125d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
+      <guid isPermaLink="false">c6e69af605bd2478</guid>
+      <description>Remote - United States · other · 125d</description>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1665,6 +1665,12 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud-Native-Stack---CSP-Engagements_JR2001098</link>
       <guid isPermaLink="false">0de9814edb00c6c5</guid>
       <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer, Object Storage - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Object-Storage---DGX-Cloud_JR2025155</link>
+      <guid isPermaLink="false">a42bae4bfa463296</guid>
+      <description>US, CA, Santa Clara +5 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer - Scientific Computing PaaS</title>
@@ -1785,12 +1791,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019</link>
       <guid isPermaLink="false">e1026859489732b4</guid>
       <description>US, CA, Remote +4 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Systems Software Engineer - NV Cloud Functions</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Remote/Senior-Systems-Software-Engineer---NV-Cloud-Functions_JR2025225</link>
-      <guid isPermaLink="false">ad6d2ec0b2802d3d</guid>
-      <description>India, Remote +1 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Netflix — Software Engineer 5 - Android</title>
