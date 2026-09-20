@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T11:31:14Z",
+ "generated_at": "2026-09-20T16:04:17Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -800,6 +800,10 @@
   "https://axisapp.teamtailor.com/jobs/8378441-sdet-software-development-engineer-in-test": {
    "alive": true,
    "at": "2026-09-20T06:14:58Z"
+  },
+  "https://axisapp.teamtailor.com/jobs/8409164-staff-backend-software-engineer": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
   },
   "https://basta.net/mainz": {
    "alive": true,
@@ -3997,6 +4001,10 @@
    "alive": true,
    "at": "2026-09-19T23:03:34Z"
   },
+  "https://citycamp-hack-day.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
+  },
   "https://clc-conference.eu/index_en.php": {
    "alive": true,
    "at": "2026-09-20T11:31:14Z"
@@ -4028,6 +4036,10 @@
   "https://codeutsava-x.devfolio.co": {
    "alive": true,
    "at": "2026-09-20T11:31:14Z"
+  },
+  "https://coffee-and-code-agent.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
   },
   "https://cognitev.recruitee.com/o/backend-engineer-senior-junior": {
    "alive": true,
@@ -4124,6 +4136,10 @@
   "https://conviction-trading-hack.devpost.com/": {
    "alive": true,
    "at": "2026-09-20T06:14:58Z"
+  },
+  "https://creatorcolosseumshowdown.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
   },
   "https://csc-back-to-school.devpost.com/": {
    "alive": true,
@@ -5097,10 +5113,6 @@
    "alive": true,
    "at": "2026-09-20T11:31:14Z"
   },
-  "https://ethereum-bolivia-buildathon.devfolio.co": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
-  },
   "https://eurorust.eu": {
    "alive": true,
    "at": "2026-09-20T11:31:14Z"
@@ -5273,10 +5285,6 @@
    "alive": true,
    "at": "2026-09-20T06:14:58Z"
   },
-  "https://hackmty-26.devpost.com/": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
-  },
   "https://hacknauts26.devfolio.co": {
    "alive": true,
    "at": "2026-09-20T11:31:14Z"
@@ -5296,10 +5304,6 @@
   "https://hackophobia.devfolio.co": {
    "alive": true,
    "at": "2026-09-16T21:34:05Z"
-  },
-  "https://hackrice-16.devpost.com/": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
   },
   "https://hackspire26.devfolio.co": {
    "alive": true,
@@ -5531,7 +5535,7 @@
   },
   "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-GPU-Performance-Software-Engineer_JR0286580": {
    "alive": true,
-   "at": "2026-09-20T01:07:20Z"
+   "at": "2026-09-20T16:04:17Z"
   },
   "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-Middleware-Software-Development-Engineer_JR0286296": {
    "alive": true,
@@ -11683,7 +11687,7 @@
   },
   "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-19T17:59:58Z"
+   "at": "2026-09-20T16:03:58Z"
   },
   "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e": {
    "alive": true,
@@ -13689,6 +13693,10 @@
    "alive": true,
    "at": "2026-09-15T14:05:46Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Performance-Software-Engineer--Deep-Learning-Libraries_JR2023444": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-Software-Engineer--Context-Fusion-and-Multi-Vehicle-Adaptation----Autonomous-Vehicles_JR2022050": {
    "alive": true,
    "at": "2026-09-14T04:55:33Z"
@@ -13697,17 +13705,17 @@
    "alive": true,
    "at": "2026-09-14T04:55:33Z"
   },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineer--LLM-Inference_JR2024698": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
-  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineer--Robotics---Isaac-Lab_JR2013817-1": {
    "alive": true,
    "at": "2026-09-16T11:30:31Z"
   },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Manager--Robotics-Platform-Engineering_JR2023987": {
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--DLFW-Comms---2027_JR2025701": {
    "alive": true,
-   "at": "2026-09-13T11:50:18Z"
+   "at": "2026-09-20T16:04:17Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shenzhen/Senior-System-Software-Engineer--CPU_JR2025929": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/France-Courbevoie/Senior-Cloud-Infrastructure-and-DevOps-Solutions-Architect_JR2025837": {
    "alive": true,
@@ -13728,6 +13736,18 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Remote/Senior-Software-Engineer--AI-Inference-Systems_JR2017366": {
    "alive": true,
    "at": "2026-09-20T06:14:58Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Compute-System-Software-Engineer_JR2025832-1": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Site-Reliability-Engineer--Production-Engineering_JR2026070": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---NVEX_JR2025965": {
+   "alive": true,
+   "at": "2026-09-20T16:04:17Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Staff-Site-Reliability-Engineer---Compute-Platform_JR2025213-1": {
    "alive": true,
@@ -13780,10 +13800,6 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/DevOps-and-Automation-Engineer---ICPE_JR2025436-1": {
    "alive": true,
    "at": "2026-09-14T04:55:33Z"
-  },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--DOCA-SDK_JR2025266": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--NVLINK_JR2004601": {
    "alive": true,
@@ -13925,10 +13941,6 @@
    "alive": true,
    "at": "2026-09-18T05:54:41Z"
   },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quality-Assurance-Software-Developer-in-Test-Engineer_JR2011328": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
-  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-AI-Infrastructure-Software-Engineer---DGX-Cloud_JR2018042": {
    "alive": true,
    "at": "2026-09-18T05:54:41Z"
@@ -13964,10 +13976,6 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214": {
    "alive": true,
    "at": "2026-09-20T11:31:14Z"
-  },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Hardware-Application-Engineer_JR2025259": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287": {
    "alive": true,
@@ -14149,10 +14157,6 @@
    "alive": true,
    "at": "2026-09-16T21:34:05Z"
   },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Calibration---Autonomous-Vehicles_JR2014856": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
-  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371": {
    "alive": true,
    "at": "2026-09-17T13:26:35Z"
@@ -14239,7 +14243,7 @@
   },
   "https://oneaquahealth-ieee-hackathon.devpost.com/": {
    "alive": true,
-   "at": "2026-09-18T18:28:08Z"
+   "at": "2026-09-20T16:04:17Z"
   },
   "https://onegiantleap.com/": {
    "alive": true,
@@ -14379,7 +14383,7 @@
   },
   "https://revenuecat-shipaton-2026.devpost.com/": {
    "alive": true,
-   "at": "2026-09-18T18:28:08Z"
+   "at": "2026-09-20T16:04:17Z"
   },
   "https://rice-urban-sustainability.devpost.com/": {
    "alive": true,
@@ -14532,10 +14536,6 @@
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Senior-Manager--Software-Engineering---Authentication-Platform_JR359804": {
    "alive": true,
    "at": "2026-09-16T06:00:39Z"
-  },
-  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Senior-Platform-Trust-and-Safety-Engineer_JR358437": {
-   "alive": true,
-   "at": "2026-09-13T11:50:18Z"
   },
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Senior-Software-Engineer--Public-Cloud-Infrastructure_JR357822-1": {
    "alive": true,
@@ -16891,7 +16891,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10455628/software-development-engineer-ii-amazon-photos-artifact-generation": {
    "alive": true,
-   "at": "2026-09-19T14:24:02Z"
+   "at": "2026-09-20T16:03:58Z"
   },
   "https://www.amazon.jobs/en/jobs/10456775/software-development-engineer-amazon-connect-contact-lens": {
    "alive": true,
@@ -17731,7 +17731,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10490663/software-development-engineer-ii-secure-connection-services-scs": {
    "alive": true,
-   "at": "2026-09-19T14:24:02Z"
+   "at": "2026-09-20T16:03:58Z"
   },
   "https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs": {
    "alive": true,
@@ -18155,7 +18155,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10500192/software-development-engineer-aws-simple-notification-service-sns": {
    "alive": true,
-   "at": "2026-09-19T14:24:02Z"
+   "at": "2026-09-20T16:03:58Z"
   },
   "https://www.amazon.jobs/en/jobs/10500248/software-development-engineer-amazon-kids": {
    "alive": true,
@@ -18807,7 +18807,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10517663/software-development-engineer-ii-ring-quick-action-service": {
    "alive": true,
-   "at": "2026-09-19T20:38:29Z"
+   "at": "2026-09-20T16:03:58Z"
   },
   "https://www.amazon.jobs/en/jobs/10517668/software-development-engineer-rbks-platform-ops": {
    "alive": true,
@@ -19895,7 +19895,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10550363/software-development-engineer-tax-and-account-compliance-tech": {
    "alive": true,
-   "at": "2026-09-19T14:24:02Z"
+   "at": "2026-09-20T16:03:58Z"
   },
   "https://www.amazon.jobs/en/jobs/10550409/software-development-engineer": {
    "alive": true,
