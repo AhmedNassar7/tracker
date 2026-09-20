@@ -4,7 +4,7 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Sun, 20 Sep 2026 06:16:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 11:34:36 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer, AWS DMS</title>
       <link>https://www.amazon.jobs/en/jobs/10553713/software-development-engineer-aws-dms</link>
@@ -119,23 +119,16 @@
     </item>
     <item>
       <title>Datadog — Senior Software Engineer - REDAPL Graph Engine</title>
-      <link>https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962</link>
-      <guid isPermaLink="false">1fad5dedb1eb9efa</guid>
-      <description>Dublin, Ireland; Madrid, Spain; Paris, France · mid_level · 2d</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Datadog — Senior Software Engineer - REDAPL Graph Engine</title>
       <link>https://careers.datadoghq.com/detail/7959967/?gh_jid=7959967</link>
       <guid isPermaLink="false">7d6b20ec02fc100a</guid>
       <description>Lisbon, Portugal · mid_level · 2d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Datadog — Software Engineering Intern</title>
-      <link>https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186</link>
-      <guid isPermaLink="false">3bf6538464199907</guid>
-      <description>Paris, France · internship · 2d</description>
+      <title>Datadog — Senior Software Engineer - REDAPL Graph Engine</title>
+      <link>https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962</link>
+      <guid isPermaLink="false">1fad5dedb1eb9efa</guid>
+      <description>Dublin, Ireland; Madrid, Spain; Paris, France · mid_level · 2d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -143,6 +136,13 @@
       <link>https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161</link>
       <guid isPermaLink="false">8cf202608e9096d8</guid>
       <description>Madrid, Spain · internship · 2d</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Datadog — Software Engineering Intern</title>
+      <link>https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186</link>
+      <guid isPermaLink="false">3bf6538464199907</guid>
+      <description>Paris, France · internship · 2d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -168,13 +168,6 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer - Builder Experience - Platform Engineering Productivity</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8198519&amp;gh_jid=8198519</link>
-      <guid isPermaLink="false">7e34753dc5b21d15</guid>
-      <description>Poland · mid_level · 2d</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer - Builder Experience - Platform Engineering Productivity</title>
       <link>https://jobs.elastic.co/jobs?gh_jid=8174098&amp;gh_jid=8174098</link>
       <guid isPermaLink="false">17fef1b5a1c4c7e2</guid>
       <description>Greece · mid_level · 2d</description>
@@ -185,6 +178,13 @@
       <link>https://jobs.elastic.co/jobs?gh_jid=8198517&amp;gh_jid=8198517</link>
       <guid isPermaLink="false">98923de1b9c4b894</guid>
       <description>Spain · mid_level · 2d</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer - Builder Experience - Platform Engineering Productivity</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8198519&amp;gh_jid=8198519</link>
+      <guid isPermaLink="false">7e34753dc5b21d15</guid>
+      <description>Poland · mid_level · 2d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -308,9 +308,16 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer -Observability, Managed Inputs</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8207679&amp;gh_jid=8207679</link>
-      <guid isPermaLink="false">5a522984ab261baf</guid>
-      <description>Poland · mid_level · 3d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8207678&amp;gh_jid=8207678</link>
+      <guid isPermaLink="false">f2f14bc00d35b1d9</guid>
+      <description>Romania · mid_level · 3d</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer -Observability, Managed Inputs</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8207676&amp;gh_jid=8207676</link>
+      <guid isPermaLink="false">f8617a3bc63ba986</guid>
+      <description>Portugal · mid_level · 3d</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -322,9 +329,9 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer -Observability, Managed Inputs</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8207678&amp;gh_jid=8207678</link>
-      <guid isPermaLink="false">f2f14bc00d35b1d9</guid>
-      <description>Romania · mid_level · 3d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8207679&amp;gh_jid=8207679</link>
+      <guid isPermaLink="false">5a522984ab261baf</guid>
+      <description>Poland · mid_level · 3d</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -332,13 +339,6 @@
       <link>https://jobs.elastic.co/jobs?gh_jid=8167769&amp;gh_jid=8167769</link>
       <guid isPermaLink="false">b495b61130545ae7</guid>
       <description>Spain · mid_level · 3d</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer -Observability, Managed Inputs</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8207676&amp;gh_jid=8207676</link>
-      <guid isPermaLink="false">f8617a3bc63ba986</guid>
-      <description>Portugal · mid_level · 3d</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -357,6 +357,13 @@
     </item>
     <item>
       <title>Jane Street — Software Engineer</title>
+      <link>https://www.janestreet.com/join-jane-street/apply/8647260002?gh_jid=8647260002</link>
+      <guid isPermaLink="false">0f8cd9a57726b423</guid>
+      <description>London, England, United Kingdom · other · 3d</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jane Street — Software Engineer</title>
       <link>https://www.janestreet.com/join-jane-street/apply/8589868002?gh_jid=8589868002</link>
       <guid isPermaLink="false">94fbfcedcd8bbfeb</guid>
       <description>London, England, United Kingdom · other · 3d</description>
@@ -366,13 +373,6 @@
       <title>Jane Street — Software Engineer</title>
       <link>https://www.janestreet.com/join-jane-street/apply/4274814002?gh_jid=4274814002</link>
       <guid isPermaLink="false">b80f75f3a3bac6c5</guid>
-      <description>London, England, United Kingdom · other · 3d</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jane Street — Software Engineer</title>
-      <link>https://www.janestreet.com/join-jane-street/apply/8647260002?gh_jid=8647260002</link>
-      <guid isPermaLink="false">0f8cd9a57726b423</guid>
       <description>London, England, United Kingdom · other · 3d</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -959,16 +959,16 @@
     </item>
     <item>
       <title>Doctolib — Staff Site Reliability Engineer (x/f/m)</title>
-      <link>https://job-boards.greenhouse.io/doctolib/jobs/7853980003</link>
-      <guid isPermaLink="false">d5033ba235bd122c</guid>
-      <description>Berlin, Berlin, Germany; Berlin, Berlin, Germany · mid_level · 5d</description>
+      <link>https://job-boards.greenhouse.io/doctolib/jobs/7853982003</link>
+      <guid isPermaLink="false">b9deac36a40276b2</guid>
+      <description>Paris, Paris, France · mid_level · 5d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Doctolib — Staff Site Reliability Engineer (x/f/m)</title>
-      <link>https://job-boards.greenhouse.io/doctolib/jobs/7853982003</link>
-      <guid isPermaLink="false">b9deac36a40276b2</guid>
-      <description>Paris, Paris, France · mid_level · 5d</description>
+      <link>https://job-boards.greenhouse.io/doctolib/jobs/7853980003</link>
+      <guid isPermaLink="false">d5033ba235bd122c</guid>
+      <description>Berlin, Berlin, Germany; Berlin, Berlin, Germany · mid_level · 5d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1218,16 +1218,9 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer (Application Networking) - Platform Infrastructure</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8178850&amp;gh_jid=8178850</link>
-      <guid isPermaLink="false">3a8534aed68c7980</guid>
-      <description>Poland · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer (Application Networking) - Platform Infrastructure</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8178851&amp;gh_jid=8178851</link>
-      <guid isPermaLink="false">715d009b0472511c</guid>
-      <description>Greece · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8096579&amp;gh_jid=8096579</link>
+      <guid isPermaLink="false">e8476b5af6375fa0</guid>
+      <description>Spain · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1246,16 +1239,37 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer (Application Networking) - Platform Infrastructure</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8096579&amp;gh_jid=8096579</link>
-      <guid isPermaLink="false">e8476b5af6375fa0</guid>
-      <description>Spain · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8178848&amp;gh_jid=8178848</link>
+      <guid isPermaLink="false">8f0ee7ec95a5924e</guid>
+      <description>Norway · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Elastic — Principal Software Engineer (Application Networking) - Platform Infrastructure</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8178848&amp;gh_jid=8178848</link>
-      <guid isPermaLink="false">8f0ee7ec95a5924e</guid>
-      <description>Norway · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8178850&amp;gh_jid=8178850</link>
+      <guid isPermaLink="false">3a8534aed68c7980</guid>
+      <description>Poland · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer (Application Networking) - Platform Infrastructure</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8178851&amp;gh_jid=8178851</link>
+      <guid isPermaLink="false">715d009b0472511c</guid>
+      <description>Greece · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer - Performance Tuning - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8138694&amp;gh_jid=8138694</link>
+      <guid isPermaLink="false">d303727d02b4b2b0</guid>
+      <description>Romania · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer - Performance Tuning - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8138699&amp;gh_jid=8138699</link>
+      <guid isPermaLink="false">42347fdf8396bbe9</guid>
+      <description>Poland · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1274,23 +1288,9 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer - Performance Tuning - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8138694&amp;gh_jid=8138694</link>
-      <guid isPermaLink="false">d303727d02b4b2b0</guid>
-      <description>Romania · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer - Performance Tuning - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8138696&amp;gh_jid=8138696</link>
-      <guid isPermaLink="false">86d9100fb6159c11</guid>
-      <description>Spain · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer - Performance Tuning - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8138699&amp;gh_jid=8138699</link>
-      <guid isPermaLink="false">42347fdf8396bbe9</guid>
-      <description>Poland · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8138690&amp;gh_jid=8138690</link>
+      <guid isPermaLink="false">36aa3d109fd07394</guid>
+      <description>Norway · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1302,9 +1302,9 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer - Performance Tuning - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8138690&amp;gh_jid=8138690</link>
-      <guid isPermaLink="false">36aa3d109fd07394</guid>
-      <description>Norway · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8138696&amp;gh_jid=8138696</link>
+      <guid isPermaLink="false">86d9100fb6159c11</guid>
+      <description>Spain · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1312,6 +1312,13 @@
       <link>https://jobs.elastic.co/jobs?gh_jid=8162473&amp;gh_jid=8162473</link>
       <guid isPermaLink="false">6c1b9a87f6bd0adb</guid>
       <description>Romania · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer - Search Algorithms - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8162476&amp;gh_jid=8162476</link>
+      <guid isPermaLink="false">0c27eb960d8c6ce6</guid>
+      <description>Switzerland · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1330,6 +1337,13 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer - Search Algorithms - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8162466&amp;gh_jid=8162466</link>
+      <guid isPermaLink="false">5853ce8a80009836</guid>
+      <description>Norway · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer - Search Algorithms - Elasticsearch</title>
       <link>https://jobs.elastic.co/jobs?gh_jid=8162469&amp;gh_jid=8162469</link>
       <guid isPermaLink="false">f7510722160a1b11</guid>
       <description>Poland · mid_level · 10d</description>
@@ -1344,23 +1358,9 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer - Search Algorithms - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8162466&amp;gh_jid=8162466</link>
-      <guid isPermaLink="false">5853ce8a80009836</guid>
-      <description>Norway · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer - Search Algorithms - Elasticsearch</title>
       <link>https://jobs.elastic.co/jobs?gh_jid=8162474&amp;gh_jid=8162474</link>
       <guid isPermaLink="false">1cd84365ae232cd3</guid>
       <description>Spain · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer - Search Algorithms - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8162476&amp;gh_jid=8162476</link>
-      <guid isPermaLink="false">0c27eb960d8c6ce6</guid>
-      <description>Switzerland · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1372,30 +1372,9 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8162407&amp;gh_jid=8162407</link>
-      <guid isPermaLink="false">e106b27c948bab37</guid>
-      <description>Spain · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8162406&amp;gh_jid=8162406</link>
-      <guid isPermaLink="false">57a837860d32684d</guid>
-      <description>Romania · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8162405&amp;gh_jid=8162405</link>
-      <guid isPermaLink="false">fb01e543a3416f5c</guid>
-      <description>Poland · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Principal Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8162404&amp;gh_jid=8162404</link>
-      <guid isPermaLink="false">faa132f82b32bbac</guid>
-      <description>Norway · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8162400&amp;gh_jid=8162400</link>
+      <guid isPermaLink="false">ec3048a9541792c5</guid>
+      <description>Greece · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1407,9 +1386,30 @@
     </item>
     <item>
       <title>Elastic — Principal Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8162400&amp;gh_jid=8162400</link>
-      <guid isPermaLink="false">ec3048a9541792c5</guid>
-      <description>Greece · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8162404&amp;gh_jid=8162404</link>
+      <guid isPermaLink="false">faa132f82b32bbac</guid>
+      <description>Norway · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer - Vector Search - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8162405&amp;gh_jid=8162405</link>
+      <guid isPermaLink="false">fb01e543a3416f5c</guid>
+      <description>Poland · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer - Vector Search - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8162406&amp;gh_jid=8162406</link>
+      <guid isPermaLink="false">57a837860d32684d</guid>
+      <description>Romania · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Principal Software Engineer - Vector Search - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8162407&amp;gh_jid=8162407</link>
+      <guid isPermaLink="false">e106b27c948bab37</guid>
+      <description>Spain · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1421,23 +1421,9 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8131023&amp;gh_jid=8131023</link>
-      <guid isPermaLink="false">61dced4686c76895</guid>
-      <description>Greece · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8131024&amp;gh_jid=8131024</link>
-      <guid isPermaLink="false">408a78c71ba3283e</guid>
-      <description>Ireland · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8131025&amp;gh_jid=8131025</link>
-      <guid isPermaLink="false">588943220fea9ab4</guid>
-      <description>Portugal · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8173421&amp;gh_jid=8173421</link>
+      <guid isPermaLink="false">1c55731153122dc7</guid>
+      <description>United Kingdom · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1449,44 +1435,23 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8173421&amp;gh_jid=8173421</link>
-      <guid isPermaLink="false">1c55731153122dc7</guid>
-      <description>United Kingdom · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161432&amp;gh_jid=8161432</link>
-      <guid isPermaLink="false">d7937c0d5ff91176</guid>
-      <description>Poland · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161437&amp;gh_jid=8161437</link>
-      <guid isPermaLink="false">d77853dc9b5a57cf</guid>
-      <description>Switzerland · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161435&amp;gh_jid=8161435</link>
-      <guid isPermaLink="false">7920285e4895d785</guid>
-      <description>Romania · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161434&amp;gh_jid=8161434</link>
-      <guid isPermaLink="false">c3a262763c924c6e</guid>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8131025&amp;gh_jid=8131025</link>
+      <guid isPermaLink="false">588943220fea9ab4</guid>
       <description>Portugal · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161428&amp;gh_jid=8161428</link>
-      <guid isPermaLink="false">e97884155a5954b3</guid>
-      <description>Norway · mid_level · 10d</description>
+      <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8131024&amp;gh_jid=8131024</link>
+      <guid isPermaLink="false">408a78c71ba3283e</guid>
+      <description>Ireland · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Integrations 3P - Platform</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8131023&amp;gh_jid=8131023</link>
+      <guid isPermaLink="false">61dced4686c76895</guid>
+      <description>Greece · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1505,9 +1470,44 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161434&amp;gh_jid=8161434</link>
+      <guid isPermaLink="false">c3a262763c924c6e</guid>
+      <description>Portugal · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161435&amp;gh_jid=8161435</link>
+      <guid isPermaLink="false">7920285e4895d785</guid>
+      <description>Romania · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161437&amp;gh_jid=8161437</link>
+      <guid isPermaLink="false">d77853dc9b5a57cf</guid>
+      <description>Switzerland · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161428&amp;gh_jid=8161428</link>
+      <guid isPermaLink="false">e97884155a5954b3</guid>
+      <description>Norway · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
       <link>https://jobs.elastic.co/jobs?gh_jid=8161419&amp;gh_jid=8161419</link>
       <guid isPermaLink="false">f1422122c53febb2</guid>
       <description>Spain · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Search Algorithms - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161432&amp;gh_jid=8161432</link>
+      <guid isPermaLink="false">d7937c0d5ff91176</guid>
+      <description>Poland · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1540,9 +1540,9 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8074855&amp;gh_jid=8074855</link>
-      <guid isPermaLink="false">232dc59b5fa5cd9f</guid>
-      <description>Spain · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8074894&amp;gh_jid=8074894</link>
+      <guid isPermaLink="false">4a4c3ba026c5e1db</guid>
+      <description>Romania · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1554,9 +1554,9 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8074854&amp;gh_jid=8074854</link>
-      <guid isPermaLink="false">581ec900bd26f1c2</guid>
-      <description>Ireland · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8074889&amp;gh_jid=8074889</link>
+      <guid isPermaLink="false">c93ab004f0f593cf</guid>
+      <description>Portugal · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1568,30 +1568,16 @@
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8074889&amp;gh_jid=8074889</link>
-      <guid isPermaLink="false">c93ab004f0f593cf</guid>
-      <description>Portugal · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8074855&amp;gh_jid=8074855</link>
+      <guid isPermaLink="false">232dc59b5fa5cd9f</guid>
+      <description>Spain · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Elastic — Senior Software Engineer - Storage Engine - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8074894&amp;gh_jid=8074894</link>
-      <guid isPermaLink="false">4a4c3ba026c5e1db</guid>
-      <description>Romania · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161688&amp;gh_jid=8161688</link>
-      <guid isPermaLink="false">6be33e8a6fdd1cc1</guid>
-      <description>Portugal · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161686&amp;gh_jid=8161686</link>
-      <guid isPermaLink="false">514c895764234106</guid>
-      <description>Norway · mid_level · 10d</description>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8074854&amp;gh_jid=8074854</link>
+      <guid isPermaLink="false">581ec900bd26f1c2</guid>
+      <description>Ireland · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1599,20 +1585,6 @@
       <link>https://jobs.elastic.co/jobs?gh_jid=8161569&amp;gh_jid=8161569</link>
       <guid isPermaLink="false">10f1c7def6f8342d</guid>
       <description>Ireland · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161695&amp;gh_jid=8161695</link>
-      <guid isPermaLink="false">763e97b83713aa8e</guid>
-      <description>Romania · mid_level · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elastic — Senior Software Engineer - Vector Search - Elasticsearch</title>
-      <link>https://jobs.elastic.co/jobs?gh_jid=8161687&amp;gh_jid=8161687</link>
-      <guid isPermaLink="false">0791cd2485a94338</guid>
-      <description>Poland · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1634,6 +1606,34 @@
       <link>https://jobs.elastic.co/jobs?gh_jid=8161696&amp;gh_jid=8161696</link>
       <guid isPermaLink="false">b68fad438beb1498</guid>
       <description>Switzerland · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Vector Search - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161695&amp;gh_jid=8161695</link>
+      <guid isPermaLink="false">763e97b83713aa8e</guid>
+      <description>Romania · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Vector Search - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161688&amp;gh_jid=8161688</link>
+      <guid isPermaLink="false">6be33e8a6fdd1cc1</guid>
+      <description>Portugal · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Vector Search - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161687&amp;gh_jid=8161687</link>
+      <guid isPermaLink="false">0791cd2485a94338</guid>
+      <description>Poland · mid_level · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic — Senior Software Engineer - Vector Search - Elasticsearch</title>
+      <link>https://jobs.elastic.co/jobs?gh_jid=8161686&amp;gh_jid=8161686</link>
+      <guid isPermaLink="false">514c895764234106</guid>
+      <description>Norway · mid_level · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1785,6 +1785,13 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 10d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
       <guid isPermaLink="false">b836bebf63487343</guid>
       <description>Dublin · new_grad · 10d</description>
@@ -1795,13 +1802,6 @@
       <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
       <guid isPermaLink="false">c543a8c9860ed243</guid>
       <description>Bucharest · new_grad · 10d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 10d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2251,13 +2251,6 @@
       <guid isPermaLink="false">03f1357e2dff48d2</guid>
       <description>Sofia, Bulgaria · other · 18d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, IAM Stores Security</title>
-      <link>https://www.amazon.jobs/en/jobs/10524052/software-development-engineer-iam-stores-security</link>
-      <guid isPermaLink="false">477d37b2f19e75ba</guid>
-      <description>London, England, GBR · unknown · 19d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>N26 — Senior Site Reliability Engineer - Access Team</title>
@@ -2744,16 +2737,16 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002</link>
-      <guid isPermaLink="false">4c3fca2b744fa4a7</guid>
-      <description>Belgrade, Serbia · mid_level · 33d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002</link>
+      <guid isPermaLink="false">e1262f4b1afb16ec</guid>
+      <description>Berlin, Germany · mid_level · 33d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002</link>
-      <guid isPermaLink="false">e1262f4b1afb16ec</guid>
-      <description>Berlin, Germany · mid_level · 33d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002</link>
+      <guid isPermaLink="false">4c3fca2b744fa4a7</guid>
+      <description>Belgrade, Serbia · mid_level · 33d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2786,16 +2779,9 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002</link>
-      <guid isPermaLink="false">893d8bdfdabf2b1c</guid>
-      <description>London, United Kingdom · mid_level · 33d</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002</link>
-      <guid isPermaLink="false">d9be831edfe51857</guid>
-      <description>Berlin, Germany · mid_level · 33d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
+      <guid isPermaLink="false">96334280637b268a</guid>
+      <description>Zürich, Switzerland · mid_level · 33d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2814,16 +2800,16 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
-      <guid isPermaLink="false">96334280637b268a</guid>
-      <description>Zürich, Switzerland · mid_level · 33d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002</link>
+      <guid isPermaLink="false">893d8bdfdabf2b1c</guid>
+      <description>London, United Kingdom · mid_level · 33d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002</link>
-      <guid isPermaLink="false">08c6994d46264745</guid>
-      <description>Belgrade, Serbia · other · 33d</description>
+      <title>Databricks — Senior Staff Software Engineer - Delta</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002</link>
+      <guid isPermaLink="false">d9be831edfe51857</guid>
+      <description>Berlin, Germany · mid_level · 33d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2831,6 +2817,13 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002</link>
       <guid isPermaLink="false">1ee773cbf2650d87</guid>
       <description>Amsterdam, Netherlands · other · 33d</description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002</link>
+      <guid isPermaLink="false">08c6994d46264745</guid>
+      <description>Belgrade, Serbia · other · 33d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2856,9 +2849,9 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
-      <guid isPermaLink="false">fb40916992e1a363</guid>
-      <description>Amsterdam, Netherlands · mid_level · 33d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002</link>
+      <guid isPermaLink="false">cee270926d3d303b</guid>
+      <description>Belgrade, Serbia · mid_level · 33d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2870,9 +2863,9 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002</link>
-      <guid isPermaLink="false">cee270926d3d303b</guid>
-      <description>Belgrade, Serbia · mid_level · 33d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
+      <guid isPermaLink="false">fb40916992e1a363</guid>
+      <description>Amsterdam, Netherlands · mid_level · 33d</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3101,16 +3094,16 @@
     </item>
     <item>
       <title>Doctolib — Engineering Manager - Site Reliability &amp; Observability (x/f/m)</title>
-      <link>https://job-boards.greenhouse.io/doctolib/jobs/7832182003</link>
-      <guid isPermaLink="false">768a49c1653b7db8</guid>
-      <description>Paris, Paris, France · mid_level · 45d</description>
+      <link>https://job-boards.greenhouse.io/doctolib/jobs/7832191003</link>
+      <guid isPermaLink="false">4570eb39fe124464</guid>
+      <description>Berlin, Berlin, Germany; Berlin, Berlin, Germany · mid_level · 45d</description>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Doctolib — Engineering Manager - Site Reliability &amp; Observability (x/f/m)</title>
-      <link>https://job-boards.greenhouse.io/doctolib/jobs/7832191003</link>
-      <guid isPermaLink="false">4570eb39fe124464</guid>
-      <description>Berlin, Berlin, Germany; Berlin, Berlin, Germany · mid_level · 45d</description>
+      <link>https://job-boards.greenhouse.io/doctolib/jobs/7832182003</link>
+      <guid isPermaLink="false">768a49c1653b7db8</guid>
+      <description>Paris, Paris, France · mid_level · 45d</description>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3943,73 +3936,73 @@
       <title>Adobe — ML Services Software Development Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-ML-Engineer---Firefly_R166437</link>
       <guid isPermaLink="false">fe6449f0e9916ba9</guid>
-      <description>Bucharest · other · 1d</description>
+      <description>Bucharest · other · 2d</description>
     </item>
     <item>
       <title>Adobe — Senior Software Development Engineer-Adobe Express</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Software-Development-Engineer_R171033-1</link>
       <guid isPermaLink="false">716712e91ed61635</guid>
-      <description>Bucharest · mid_level · 1d</description>
+      <description>Bucharest · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Software Engineer I</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Software-Engineer-I_R-287168</link>
       <guid isPermaLink="false">fd0a927d059ca636</guid>
-      <description>Dublin, Ireland · entry_level · 1d</description>
+      <description>Dublin, Ireland · entry_level · 2d</description>
     </item>
     <item>
       <title>Tencent — PUBG Mobile Marketing Team Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1</link>
       <guid isPermaLink="false">d03d9fcbae5645b6</guid>
-      <description>United Kingdom-London +1 more · internship · 1d</description>
+      <description>United Kingdom-London +1 more · internship · 2d</description>
     </item>
     <item>
       <title>Visa — Software Engineer (Mid-Level)</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/GB---Reading-United-Kingdom/Senior-Software-Engineer_REF078607W</link>
       <guid isPermaLink="false">e029d0a9341eac88</guid>
-      <description>GB - Reading, United Kingdom · mid_level · 1d</description>
+      <description>GB - Reading, United Kingdom · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Manager, Site Reliability Engineering</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Harrogate-England-Vocalink/Manager--Site-Reliability-Engineering_R-284575-1</link>
       <guid isPermaLink="false">bd5a83515170e331</guid>
-      <description>Harrogate, England (Vocalink) · mid_level · 2d</description>
+      <description>Harrogate, England (Vocalink) · mid_level · 3d</description>
     </item>
     <item>
       <title>Mastercard — Manager, Software Engineering (Java)</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Warsaw-Poland/Lead-Software-Engineer---Java_R-273155</link>
       <guid isPermaLink="false">2fb9d81cf37d8023</guid>
-      <description>Warsaw, Poland · mid_level · 2d</description>
+      <description>Warsaw, Poland · mid_level · 3d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer (Full-stack Java+React)</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Lisbon-Portugal/Senior-Software-Engineer-foir-Dynamic-Yield-in-Lisbon_R-272932</link>
       <guid isPermaLink="false">e533097231802cd6</guid>
-      <description>Lisbon, Portugal · mid_level · 2d</description>
+      <description>Lisbon, Portugal · mid_level · 3d</description>
     </item>
     <item>
       <title>PwC — AI &amp; Full-Stack-Entwickler (w/m/d) im Bereich Angular und C#/.NET</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Vienna/Full-Stack-Entwickler--w-m-d--im-Bereich-Web-Development_662207WD-2</link>
       <guid isPermaLink="false">20c46d82ce361311</guid>
-      <description>Vienna · other · 2d</description>
+      <description>Vienna · other · 3d</description>
     </item>
     <item>
       <title>Workday — Senior Software Engineer - Distributed Systems</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Senior-Software-Engineer---Distributed-Systems_JR-0108915</link>
       <guid isPermaLink="false">bc5c6928698da2bb</guid>
-      <description>Ireland, Dublin · mid_level · 2d</description>
+      <description>Ireland, Dublin · mid_level · 3d</description>
     </item>
     <item>
       <title>PwC — Cloud Infrastructure Intern - Milano</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Cloud-Infrastructure-Intern---Milano_741403WD-1</link>
       <guid isPermaLink="false">531f5fbf58f06295</guid>
-      <description>Milan · internship · 3d</description>
+      <description>Milan · internship · 4d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer 5 — Developer Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Software-Engineer---Developer-Platform_JR32657</link>
       <guid isPermaLink="false">d967a96e7391dd2b</guid>
-      <description>Warsaw · mid_level · 23d</description>
+      <description>Warsaw · mid_level · 24d</description>
     </item>
   </channel>
 </rss>
