@@ -4,12 +4,26 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Sun, 20 Sep 2026 16:06:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 18:49:02 GMT</lastBuildDate>
+    <item>
+      <title>Amazon — Software Development Engineer Intern</title>
+      <link>https://img.shields.io/badge/-Apply-blue?style=for-the-badge</link>
+      <guid isPermaLink="false">357ab893a59c3b93</guid>
+      <description>Vancouver, BC · internship · 0d</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Apple — PhD Intern, Apple Ads (Machine Learning)</title>
       <link>https://jobs.apple.com/en-us/details/200684719/phd-intern-apple-ads-machine-learning</link>
       <guid isPermaLink="false">f691cc901ab4b640</guid>
       <description>Hyderabad, India · internship · 0d</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qualcomm — Firmware/Embedded Software Engineering Internship</title>
+      <link>https://img.shields.io/badge/-Apply-blue?style=for-the-badge</link>
+      <guid isPermaLink="false">5e1ba75e48a1530d</guid>
+      <description>Toronto, ON · internship · 0d</description>
       <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -27,17 +41,10 @@
       <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Duolingo — Software Engineer, Intern</title>
-      <link>https://zapply.jobs/l/d/greenhouse-duolingo-8805925002?s=gh-internships-2027</link>
-      <guid isPermaLink="false">2e5c5e5e49bbbfca</guid>
-      <description>New York, NY · internship · 4d</description>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Duolingo — Software Engineer, Thrive Intern</title>
-      <link>https://zapply.jobs/l/d/greenhouse-duolingo-8806114002?s=gh-internships-2027</link>
-      <guid isPermaLink="false">53a9be73bd09b46d</guid>
-      <description>Pittsburgh, PA · internship · 4d</description>
+      <title>Tencent — Cyber Security Engineer Intern</title>
+      <link>https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108141?s=gh-new-grad-jobs-2027</link>
+      <guid isPermaLink="false">4f689afdb31c0806</guid>
+      <description>California-Palo Alto · internship · 6d</description>
       <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -735,15 +742,15 @@
     </item>
     <item>
       <title>Robinhood — Software Developer Intern</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8142930?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">99a6a7db8c15bb15</guid>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8199744?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">70475065024e31a2</guid>
       <description>Toronto, ON, Canada · internship · 6d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Software Developer Intern</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8199744?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">70475065024e31a2</guid>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8142930?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">99a6a7db8c15bb15</guid>
       <description>Toronto, ON, Canada · internship · 6d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1071,16 +1078,16 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91366?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">fd0ede66dae41608</guid>
-      <description>Calgary, AB, Canada · internship · 13d</description>
+      <link>https://careers.amd.com/jobs/91367?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">832a6a75550c48eb</guid>
+      <description>Vancouver, BC, Canada · internship · 13d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91367?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">832a6a75550c48eb</guid>
-      <description>Vancouver, BC, Canada · internship · 13d</description>
+      <link>https://careers.amd.com/jobs/91366?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">fd0ede66dae41608</guid>
+      <description>Calgary, AB, Canada · internship · 13d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1246,16 +1253,16 @@
     </item>
     <item>
       <title>ByteDance — Software Engineer Intern, Distributed NoSQL Database Systems</title>
-      <link>https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">1d5df77d153bdd24</guid>
-      <description>Seattle, WA · internship · 1mo</description>
+      <link>https://joinbytedance.com/search/7668374190764050741?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">ec7d8cf033561c8d</guid>
+      <description>San Jose, CA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Software Engineer Intern, Distributed NoSQL Database Systems</title>
-      <link>https://joinbytedance.com/search/7668374190764050741?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">ec7d8cf033561c8d</guid>
-      <description>San Jose, CA · internship · 1mo</description>
+      <link>https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">1d5df77d153bdd24</guid>
+      <description>Seattle, WA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1298,13 +1305,6 @@
       <link>https://www.tesla.com/careers/search/job/282340?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">754a5f93d648f64b</guid>
       <description>Palo Alto, CA · internship · 16d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer Intern/Co-Op, ROBOTICS - 2027</title>
-      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-co-op-robotics-2027</link>
-      <guid isPermaLink="false">ad6924ac45f73acc</guid>
-      <description>North Reading, Massachusetts, USA · internship · 16d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
