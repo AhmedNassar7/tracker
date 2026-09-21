@@ -4,7 +4,42 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Mon, 21 Sep 2026 00:19:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 06:21:07 GMT</lastBuildDate>
+    <item>
+      <title>Airbnb — Senior Staff Software Engineer, Host Pricing &amp; Settings</title>
+      <link>https://careers.airbnb.com/positions/8039723?gh_jid=8039723</link>
+      <guid isPermaLink="false">142bdc260751946f</guid>
+      <description>Remote - USA · mid_level · 1d</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Senior Staff Software Engineer, Trust</title>
+      <link>https://careers.airbnb.com/positions/7818982?gh_jid=7818982</link>
+      <guid isPermaLink="false">797113e2ee5471b4</guid>
+      <description>Remote - US · mid_level · 1d</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Staff Backend Engineer - Ads Platform</title>
+      <link>https://careers.airbnb.com/positions/8074897?gh_jid=8074897</link>
+      <guid isPermaLink="false">1a8c9b1d17721adf</guid>
+      <description>Remote - USA · mid_level · 1d</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Staff Backend Engineer, Host Pricing &amp; Availability</title>
+      <link>https://careers.airbnb.com/positions/8078019?gh_jid=8078019</link>
+      <guid isPermaLink="false">83cde61fa4f8e03d</guid>
+      <description>Remote - USA · mid_level · 1d</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase — Senior Software Engineer, Stablecoins</title>
+      <link>https://www.coinbase.com/careers/positions/8104873?gh_jid=8104873</link>
+      <guid isPermaLink="false">da92ab66f354d52c</guid>
+      <description>Remote - USA · mid_level · 1d</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Reddit — Frontend Engineer, Ads</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8194576</link>
@@ -55,13 +90,6 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Airbnb — Senior Staff Software Engineer, Host Pricing &amp; Settings</title>
-      <link>https://careers.airbnb.com/positions/8039723?gh_jid=8039723</link>
-      <guid isPermaLink="false">142bdc260751946f</guid>
-      <description>Remote - USA · mid_level · 3d</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Staff Software Engineer, Payments</title>
       <link>https://careers.airbnb.com/positions/7525479?gh_jid=7525479</link>
       <guid isPermaLink="false">657854623823b0b0</guid>
@@ -73,27 +101,6 @@
       <link>https://careers.airbnb.com/positions/8187190?gh_jid=8187190</link>
       <guid isPermaLink="false">127f9652d3ce9d62</guid>
       <description>Remote · mid_level · 3d</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Software Engineer, Trust</title>
-      <link>https://careers.airbnb.com/positions/7818982?gh_jid=7818982</link>
-      <guid isPermaLink="false">797113e2ee5471b4</guid>
-      <description>Remote - US · mid_level · 3d</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Backend Engineer - Ads Platform</title>
-      <link>https://careers.airbnb.com/positions/8074897?gh_jid=8074897</link>
-      <guid isPermaLink="false">1a8c9b1d17721adf</guid>
-      <description>Remote - USA · mid_level · 3d</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Backend Engineer, Host Pricing &amp; Availability</title>
-      <link>https://careers.airbnb.com/positions/8078019?gh_jid=8078019</link>
-      <guid isPermaLink="false">83cde61fa4f8e03d</guid>
-      <description>Remote - USA · mid_level · 3d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1406,13 +1413,6 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Software Engineer, Stablecoins</title>
-      <link>https://www.coinbase.com/careers/positions/8104873?gh_jid=8104873</link>
-      <guid isPermaLink="false">da92ab66f354d52c</guid>
-      <description>Remote - USA · mid_level · 46d</description>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Reddit — Senior Backend Engineer, IAM</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8044767</link>
       <guid isPermaLink="false">5dccd2071a47e238</guid>
@@ -1655,6 +1655,12 @@
       <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Storage Software Engineer - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer---DGX-Cloud_JR2026042</link>
+      <guid isPermaLink="false">77144393e5b940c6</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Principal Software Engineer - Rack Scale Systems Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966</link>
       <guid isPermaLink="false">c3713a1ca8334239</guid>
@@ -1724,12 +1730,6 @@
       <title>NVIDIA — Senior Field Application Engineer - OEM</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Senior-Field-Application-Engineer---OEM_JR2025496</link>
       <guid isPermaLink="false">ab48846c73a06ffe</guid>
-      <description>US, TX, Austin +1 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Field Application Engineer - OEM</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Senior-Field-Application-Engineer---OEM_JR2025500</link>
-      <guid isPermaLink="false">2d68aefd138ddd01</guid>
       <description>US, TX, Austin +1 more · mid_level · 2d</description>
     </item>
     <item>
