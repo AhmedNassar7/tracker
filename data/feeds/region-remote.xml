@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Mon, 21 Sep 2026 19:29:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 23:18:23 GMT</lastBuildDate>
     <item>
       <title>Anthropic — Staff+ Software Engineer, Privacy</title>
       <link>https://job-boards.greenhouse.io/anthropic/jobs/5383114008</link>
@@ -17,6 +17,20 @@
       <link>https://www.coinbase.com/careers/positions/8192485?gh_jid=8192485</link>
       <guid isPermaLink="false">0d4be64a749a4860</guid>
       <description>Remote - USA · mid_level · 0d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Discord — Software Engineer, Safety Processing</title>
+      <link>https://job-boards.greenhouse.io/discord/jobs/8823881002</link>
+      <guid isPermaLink="false">619c93ac1175786d</guid>
+      <description>San Francisco Bay Area or Remote (U.S.) · other · 0d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Associate Manager, Restaurant Off Platform Measurement</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8056412</link>
+      <guid isPermaLink="false">d174c3b55928561f</guid>
+      <description>New York, NY; Washington, D.C.; Atlanta, GA; Miami, FL; Boston, MA; Philadelphia, PA; Chicago, IL; Houston, TX; Dallas, TX; Austin, TX; Phoenix, AZ; Denver, CO; Seattle, WA; Portland, OR; San Francisco, CA; Los Angeles, CA; United States - Remote · mid_level · 0d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -38,6 +52,13 @@
       <link>https://job-boards.greenhouse.io/reddit/jobs/8194576</link>
       <guid isPermaLink="false">10637ebcdaefe376</guid>
       <description>Remote - United States · other · 0d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Android Engineer, Design System</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8055374</link>
+      <guid isPermaLink="false">40d1a0b6ee2207fc</guid>
+      <description>Remote - United States · mid_level · 0d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -413,16 +434,16 @@
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
-      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
-      <description>Remote - US · mid_level · 3d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
+      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
+      <description>Remote - Canada · mid_level · 3d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
-      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
-      <description>Remote - Canada · mid_level · 3d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
+      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
+      <description>Remote - US · mid_level · 3d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -431,13 +452,6 @@
       <guid isPermaLink="false">76190ef4cdbad205</guid>
       <description>Remote - US · mid_level · 3d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Associate Manager, Restaurant Off Platform Measurement</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8056412</link>
-      <guid isPermaLink="false">d174c3b55928561f</guid>
-      <description>New York, NY; Washington, D.C.; Atlanta, GA; Miami, FL; Boston, MA; Philadelphia, PA; Chicago, IL; Houston, TX; Dallas, TX; Austin, TX; Phoenix, AZ; Denver, CO; Seattle, WA; Portland, OR; San Francisco, CA; Los Angeles, CA; United States - Remote · mid_level · 4d</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Front End Software Engineer, Consumer Engineering</title>
@@ -570,13 +584,6 @@
       <link>https://www.pinterestcareers.com/jobs/?gh_jid=7874931</link>
       <guid isPermaLink="false">d4fa89d0e7f6b5e0</guid>
       <description>San Francisco, CA, US; Remote, US · mid_level · 5d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Android Engineer, Design System</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8055374</link>
-      <guid isPermaLink="false">40d1a0b6ee2207fc</guid>
-      <description>Remote - United States · mid_level · 5d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -958,13 +965,6 @@
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic — Staff+ Site Reliability Engineer, Safeguards ML Infra</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5416709008</link>
-      <guid isPermaLink="false">c110cd1c5d55c697</guid>
-      <description>Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY · mid_level · 17d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Infrastructure Engineer, Trading</title>
       <link>https://www.coinbase.com/careers/positions/8179114?gh_jid=8179114</link>
       <guid isPermaLink="false">de3ae8748f4b30ff</guid>
@@ -1029,24 +1029,17 @@
     </item>
     <item>
       <title>Instacart — Senior Software Engineer II, Marketing Enablement &amp; Technology</title>
-      <link>https://instacart.careers/job/?gh_jid=8141535</link>
-      <guid isPermaLink="false">06c2375b00c498c9</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 19d</description>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Instacart — Senior Software Engineer II, Marketing Enablement &amp; Technology</title>
       <link>https://instacart.careers/job/?gh_jid=8141533</link>
       <guid isPermaLink="false">c3901b8afcb8ae0f</guid>
       <description>United States - Remote · mid_level · 19d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Staff Software Engineer, Finhub</title>
-      <link>https://www.coinbase.com/careers/positions/8162240?gh_jid=8162240</link>
-      <guid isPermaLink="false">d9c8c400a066d9f2</guid>
-      <description>Remote - Canada · mid_level · 20d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <title>Instacart — Senior Software Engineer II, Marketing Enablement &amp; Technology</title>
+      <link>https://instacart.careers/job/?gh_jid=8141535</link>
+      <guid isPermaLink="false">06c2375b00c498c9</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 19d</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coinbase — Senior Staff Software Engineer, Finhub</title>
@@ -1056,9 +1049,9 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Staff Software Engineer, Payments</title>
-      <link>https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842</link>
-      <guid isPermaLink="false">dd38bd165b590dd7</guid>
+      <title>Coinbase — Senior Staff Software Engineer, Finhub</title>
+      <link>https://www.coinbase.com/careers/positions/8162240?gh_jid=8162240</link>
+      <guid isPermaLink="false">d9c8c400a066d9f2</guid>
       <description>Remote - Canada · mid_level · 20d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1067,6 +1060,13 @@
       <link>https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068</link>
       <guid isPermaLink="false">e05c27b0368e39ae</guid>
       <description>Remote - USA · mid_level · 20d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase — Senior Staff Software Engineer, Payments</title>
+      <link>https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842</link>
+      <guid isPermaLink="false">dd38bd165b590dd7</guid>
+      <description>Remote - Canada · mid_level · 20d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1190,22 +1190,15 @@
     </item>
     <item>
       <title>Instacart — Engineering Manager, Service Platform</title>
-      <link>https://instacart.careers/job/?gh_jid=7960988</link>
-      <guid isPermaLink="false">6b0bbd13ae434a24</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 28d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Instacart — Engineering Manager, Service Platform</title>
       <link>https://instacart.careers/job/?gh_jid=7960958</link>
       <guid isPermaLink="false">d207f53e27e6b5e5</guid>
       <description>United States - Remote · mid_level · 28d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Instacart — Senior Android Engineer II, Digital Twin Platform</title>
-      <link>https://instacart.careers/job/?gh_jid=8147300</link>
-      <guid isPermaLink="false">bd64150127231d6c</guid>
+      <title>Instacart — Engineering Manager, Service Platform</title>
+      <link>https://instacart.careers/job/?gh_jid=7960988</link>
+      <guid isPermaLink="false">6b0bbd13ae434a24</guid>
       <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 28d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1214,6 +1207,13 @@
       <link>https://instacart.careers/job/?gh_jid=8147298</link>
       <guid isPermaLink="false">8ada5326210080f1</guid>
       <description>United States - Remote · mid_level · 28d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Instacart — Senior Android Engineer II, Digital Twin Platform</title>
+      <link>https://instacart.careers/job/?gh_jid=8147300</link>
+      <guid isPermaLink="false">bd64150127231d6c</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 28d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1361,13 +1361,6 @@
       <link>https://www.coinbase.com/careers/positions/8138031?gh_jid=8138031</link>
       <guid isPermaLink="false">8c15b24ba5dd7d73</guid>
       <description>Remote - USA · mid_level · 35d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Webflow — Senior Software Engineer, Convert (Backend/Infra)</title>
-      <link>https://job-boards.greenhouse.io/webflow/jobs/8102863</link>
-      <guid isPermaLink="false">20ab07262c001857</guid>
-      <description>Argentina Remote · mid_level · 35d</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1546,13 +1539,6 @@
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Staff Software Engineer, Backend (Consumer - Prediction Markets)</title>
-      <link>https://www.coinbase.com/careers/positions/7997840?gh_jid=7997840</link>
-      <guid isPermaLink="false">69b9ea45335f2738</guid>
-      <description>Remote - USA · mid_level · 87d</description>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Staff Software Engineer, Data Platform</title>
       <link>https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287</link>
       <guid isPermaLink="false">5227e488419cad8f</guid>
@@ -1596,16 +1582,16 @@
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
-      <guid isPermaLink="false">c6e69af605bd2478</guid>
-      <description>Remote - United States · other · 126d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
+      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
+      <description>Remote - Ontario, Canada · other · 126d</description>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
-      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
-      <description>Remote - Ontario, Canada · other · 126d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
+      <guid isPermaLink="false">c6e69af605bd2478</guid>
+      <description>Remote - United States · other · 126d</description>
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1635,6 +1621,24 @@
       <guid isPermaLink="false">a09e26fa217792b1</guid>
       <description>US - Remote · mid_level · 178d</description>
       <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Netflix — Software Engineer 5 – Agent Platform, AI Platform</title>
+      <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-5---Agent-Platform--AI-Platform_JR41100</link>
+      <guid isPermaLink="false">5a4dc04b19168310</guid>
+      <description>USA - Remote · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Data and Platform Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Data-and-Platform-Engineer_JR2025612</link>
+      <guid isPermaLink="false">ccf45f969226a2c6</guid>
+      <description>US, CA, Remote +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer, Attestation Services - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Attestation-Services---DGX-Cloud_JR2014097</link>
+      <guid isPermaLink="false">ef62aab0eef56e75</guid>
+      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Test - Autonomous Vehicles</title>
@@ -1719,18 +1723,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549</link>
       <guid isPermaLink="false">9245920daa8db653</guid>
       <description>US, CA, Santa Clara +3 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Data Backend Engineer</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Senior-Data-Backend-Engineer_JR2020354</link>
-      <guid isPermaLink="false">8158591f57fd9b27</guid>
-      <description>US, OR, Hillsboro +1 more · mid_level · 3d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior System Software Engineer - Dynamo-Triton Inference Server</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Dynamo-Triton-Inference-Server_JR2025165</link>
-      <guid isPermaLink="false">2864f9f5c646fc2a</guid>
-      <description>US, CA, Santa Clara +2 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Visa — Senior Software Engineer, Antifraud</title>
