@@ -4,26 +4,33 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Tue, 22 Sep 2026 18:57:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 22:09:44 GMT</lastBuildDate>
     <item>
       <title>CAST-GNY — CAST-GNY Startup Pitch Competition 2026</title>
       <link>https://castgnypitch2026.devpost.com/</link>
       <guid isPermaLink="false">25ae2513702e4db3</guid>
-      <description>Fordham University School of Law · about 9 hours left</description>
+      <description>Fordham University School of Law · about 6 hours left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Hidevs — YC Fall 2026 x Moss: The Zero Latency Builder Sprint</title>
       <link>https://yc-fall-2026-x-moss.devpost.com/</link>
       <guid isPermaLink="false">6da1d4bffa19370b</guid>
-      <description>Bengaluru, India · about 12 hours left</description>
+      <description>Bengaluru, India · about 9 hours left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TechieBunnies team — BunnieX Hackathon</title>
       <link>https://buuniex-hackathon.devpost.com/</link>
       <guid isPermaLink="false">e34b525b04b527b4</guid>
-      <description>Online · about 17 hours left</description>
+      <description>Online · about 16 hours left</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lovely Professional University — Bharat Innovation Challenge 2.0</title>
+      <link>https://bic.devpost.com/</link>
+      <guid isPermaLink="false">2f72f7cd55a8f270</guid>
+      <description>Lovely Professional University · about 22 hours left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -48,13 +55,6 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Lovely Professional University — Bharat Innovation Challenge 2.0</title>
-      <link>https://bic.devpost.com/</link>
-      <guid isPermaLink="false">2f72f7cd55a8f270</guid>
-      <description>Lovely Professional University · 1 day left</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — GlitchFiesta</title>
       <link>https://glitchfiesta2026.devfolio.co</link>
       <guid isPermaLink="false">1a9236bfe35ec2f0</guid>
@@ -62,10 +62,24 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Test Flow Online</title>
+      <link>https://test-flow-online.devfolio.co</link>
+      <guid isPermaLink="false">70019e13f29409bf</guid>
+      <description>Online · 2 days left</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>None — Poly.Tech mini hackathon</title>
       <link>https://poly-tech-mini-hackathon-31322.devpost.com/</link>
       <guid isPermaLink="false">4e6bf779ab32b518</guid>
       <description>Baltimore, MD, USA · 2 days left</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NOVA Cidade – Urban Analytics Lab — Hack The City 2026</title>
+      <link>https://hackthecity2026.devpost.com/</link>
+      <guid isPermaLink="false">c368d4a5f9af93b0</guid>
+      <description>NOVA IMS, Almeida Negreiros College · 2 days left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -104,13 +118,6 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devfolio — Test Flow Online</title>
-      <link>https://test-flow-online.devfolio.co</link>
-      <guid isPermaLink="false">70019e13f29409bf</guid>
-      <description>Online · 3 days left</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — The Great Agent Hackathon</title>
       <link>https://the-great-agent-hackathon.devfolio.co</link>
       <guid isPermaLink="false">8f75181549d8be40</guid>
@@ -146,17 +153,17 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>NOVA Cidade – Urban Analytics Lab — Hack The City 2026</title>
-      <link>https://hackthecity2026.devpost.com/</link>
-      <guid isPermaLink="false">c368d4a5f9af93b0</guid>
-      <description>NOVA IMS, Almeida Negreiros College · 3 days left</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — Hack4Brahma 2.0</title>
       <link>https://hack4brahma2.devfolio.co</link>
       <guid isPermaLink="false">040fd44c3beecae3</guid>
       <description>Guwahati, India · 4 days left</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hack Club — Acodemic X G.I.R.L.S. Global SDG Hackathon</title>
+      <link>https://acodemic-hackathon.devpost.com/</link>
+      <guid isPermaLink="false">252569c440384922</guid>
+      <description>Online · 4 days left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -174,23 +181,16 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hack Club — Acodemic X G.I.R.L.S. Global SDG Hackathon</title>
-      <link>https://acodemic-hackathon.devpost.com/</link>
-      <guid isPermaLink="false">252569c440384922</guid>
-      <description>Online · 5 days left</description>
+      <title>TechZap Club — 3rd-Web-Hack</title>
+      <link>https://3rd-web-hack.devpost.com/</link>
+      <guid isPermaLink="false">34c64aefad0e72ba</guid>
+      <description>Online · 4 days left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Lexhack — LexHack 2026</title>
       <link>https://lexhack-2026.devpost.com/</link>
       <guid isPermaLink="false">345b7b76d3475cca</guid>
-      <description>Online · 5 days left</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>TechZap Club — 3rd-Web-Hack</title>
-      <link>https://3rd-web-hack.devpost.com/</link>
-      <guid isPermaLink="false">34c64aefad0e72ba</guid>
       <description>Online · 5 days left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -314,6 +314,13 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>The Webb Schools CSC — CSC Back-to-School Hackathon</title>
+      <link>https://csc-back-to-school.devpost.com/</link>
+      <guid isPermaLink="false">231bd74ad1c43615</guid>
+      <description>Online · 12 days left</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ML Empowerment Foundation — ML Empowerment Build Challenge 3.0 - FREE Prizes for EVERYONE</title>
       <link>https://ml-build-challenge-3.devpost.com/</link>
       <guid isPermaLink="false">5f04279ddae12f67</guid>
@@ -321,10 +328,10 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>The Webb Schools CSC — CSC Back-to-School Hackathon</title>
-      <link>https://csc-back-to-school.devpost.com/</link>
-      <guid isPermaLink="false">231bd74ad1c43615</guid>
-      <description>Online · 13 days left</description>
+      <title>BioCataalysis — UnivaBio ($40,000 in prizes)</title>
+      <link>https://univabio.devpost.com/</link>
+      <guid isPermaLink="false">38062278a1525c27</guid>
+      <description>Online · 14 days left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -332,13 +339,6 @@
       <link>https://daisisg26.devpost.com/</link>
       <guid isPermaLink="false">5159338dbaa100f1</guid>
       <description>Databricks Singapore · 14 days left</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>BioCataalysis — UnivaBio ($40,000 in prizes)</title>
-      <link>https://univabio.devpost.com/</link>
-      <guid isPermaLink="false">38062278a1525c27</guid>
-      <description>Online · 15 days left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -457,7 +457,7 @@
       <title>Silicon Valley Youth Climate Action — SVYCA Youth for Earth (Y4E) Hackathon</title>
       <link>https://svycay4e.devpost.com/</link>
       <guid isPermaLink="false">648e2fdad87c0015</guid>
-      <description>Stanford University · 27 days left</description>
+      <description>Stanford University · 26 days left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -566,17 +566,17 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Hack On Hills 8.0</title>
+      <link>https://hackonhills8.devfolio.co</link>
+      <guid isPermaLink="false">03943543974f740e</guid>
+      <description>Hamirpur, India · 39 days left</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — hackodisha-6.0</title>
       <link>https://hackodisha-6a.devfolio.co</link>
       <guid isPermaLink="false">d553006f7fba567c</guid>
       <description>Online · 39 days left</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Hack On Hills 8.0</title>
-      <link>https://hackonhills8.devfolio.co</link>
-      <guid isPermaLink="false">03943543974f740e</guid>
-      <description>Hamirpur, India · 40 days left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -619,6 +619,13 @@
       <link>https://mca-2026-projects.devpost.com/</link>
       <guid isPermaLink="false">cff6e79009e23350</guid>
       <description>Online · 3 months left</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>University Of Pennsylvania — 2026-2027 Fall ESE Senior Design</title>
+      <link>https://ese4500f26.devpost.com/</link>
+      <guid isPermaLink="false">8805a72abff59431</guid>
+      <description>Amy Gutman Hall · 3 months left</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
