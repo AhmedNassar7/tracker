@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Wed, 23 Sep 2026 00:33:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 05:59:55 GMT</lastBuildDate>
     <item>
       <title>Coinbase — Senior Engineering Manager, Core AI Automation (Platform)</title>
       <link>https://www.coinbase.com/careers/positions/8124224?gh_jid=8124224</link>
@@ -562,13 +562,6 @@
       <title>Pinterest — Software Engineer II, Big Data, tvScientific</title>
       <link>https://www.pinterestcareers.com/jobs/?gh_jid=7782546</link>
       <guid isPermaLink="false">afa6ca26719bbddc</guid>
-      <description>San Francisco, CA, US; Remote, US · mid_level · 7d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Software Engineer II, Fullstack</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=4843547</link>
-      <guid isPermaLink="false">36c294c250ebdc56</guid>
       <description>San Francisco, CA, US; Remote, US · mid_level · 7d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1680,10 +1673,22 @@
       <description>US, WA, Redmond +4 more · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Distributed Software Engineer, Golang - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Distributed-Software-Engineer--Golang---DGX-Cloud_JR2024570-1</link>
+      <guid isPermaLink="false">4457a0399eb95599</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior HPC Cluster Administrator - Deep Learning Frameworks Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Warsaw/Senior-HPC-Cluster-Administrator---Deep-Learning-Frameworks-Infrastructure_JR2015529</link>
       <guid isPermaLink="false">db987cfad2ecefe5</guid>
       <description>Poland, Warsaw +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Infrastructure Automation Engineer, Compute Platform - EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962</link>
+      <guid isPermaLink="false">f0d04b6bc91d8a28</guid>
+      <description>US, NC, Remote +2 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior QA Automation Engineer, Network Simulation Platform</title>
@@ -1758,24 +1763,6 @@
       <description>USA - Remote · other · 1d</description>
     </item>
     <item>
-      <title>NVIDIA — Senior AI Infrastructure Engineer - EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-AI-infrastructure-engineer---Hardware-Infrastructure-Engineering_JR2024816</link>
-      <guid isPermaLink="false">c65504a20fa05e87</guid>
-      <description>US, CA, Remote +4 more · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, Attestation Services - DGX Cloud</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Attestation-Services---DGX-Cloud_JR2014097</link>
-      <guid isPermaLink="false">ef62aab0eef56e75</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior System Software Engineer - GPU Power Management</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---GPU-Power-Management_JR2026256</link>
-      <guid isPermaLink="false">5723d1107cca2087</guid>
-      <description>US, CA, Santa Clara +3 more · mid_level · 1d</description>
-    </item>
-    <item>
       <title>Workday — Services Executive Workday Go, Platform</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Services-Executive-Workday-Go--Platform_JR-0109008</link>
       <guid isPermaLink="false">943b53659ea902cc</guid>
@@ -1798,12 +1785,6 @@
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer--L5----JavaScript-Platform_JR42156</link>
       <guid isPermaLink="false">4aa46c99bb4d6cde</guid>
       <description>USA - Remote · other · 5d</description>
-    </item>
-    <item>
-      <title>Netflix — Software Engineer 5 - Android</title>
-      <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-5---Android_JR42041-1</link>
-      <guid isPermaLink="false">4420088a92794dca</guid>
-      <description>USA - Remote · other · 6d</description>
     </item>
     <item>
       <title>Netflix — Software Engineer 4/5 – Model Serving Systems, AI Platform</title>
