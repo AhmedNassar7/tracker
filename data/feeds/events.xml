@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Wed, 23 Sep 2026 20:22:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 23:44:43 GMT</lastBuildDate>
     <item>
       <title>AI X QA Leadership Summit - Autumn — AI X QA Leadership Summit - Autumn</title>
       <link>https://www.browserstack.com/events/qals-2026</link>
@@ -185,13 +185,6 @@
       <link>https://events.drupal.org/rotterdam2026</link>
       <guid isPermaLink="false">b0480c352198168c</guid>
       <description>Rotterdam, Netherlands · 5 days left</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>European Microsoft Fabric Community Conference — European Microsoft Fabric Community Conference</title>
-      <link>https://www.sharepointeurope.com/european-microsoft-fabric-community-conference</link>
-      <guid isPermaLink="false">4608293b7e9c4e98</guid>
-      <description>Barcelona, Spain · 5 days left</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1857,6 +1850,13 @@
       <title>Luma — Follow Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)</title>
       <link>https://lu.ma/buildercommunityanz?k=c</link>
       <guid isPermaLink="false">471efdb8c8e9c1eb</guid>
+      <description>Global</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luma — Follow Creative Coffee Club Unique experiences for creatives and builders in... 📍 NYC · Philly · Seattle · Toronto · Chicago · LA · Austin · Boston · SF · Nashville · Houston · Phoenix · Miami</title>
+      <link>https://lu.ma/coffeeclubworldwide?k=c</link>
+      <guid isPermaLink="false">107ab478b0ddd54e</guid>
       <description>Global</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
