@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Wed, 23 Sep 2026 16:58:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 20:22:50 GMT</lastBuildDate>
     <item>
       <title>Elastic — Software Engineer II - Full Stack - Web Engineering</title>
       <link>https://www.arbeitnow.co.uk/jobs/companies/elastic/software-engineer-ii-full-stack-web-engineering-365481</link>
@@ -17,6 +17,20 @@
       <link>https://job-boards.greenhouse.io/monzo/jobs/8092745</link>
       <guid isPermaLink="false">413db3b11f8c404c</guid>
       <description>London; Remote (UK) · mid_level · 0d</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Staff Software Engineer, Capacity Engineering</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=7494668</link>
+      <guid isPermaLink="false">08d707f9d38b334d</guid>
+      <description>San Francisco, CA, US; Remote, US · mid_level · 0d</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Staff Software Engineer, Programmatic Ads</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8226802</link>
+      <guid isPermaLink="false">7b57d3f1400256ba</guid>
+      <description>San Francisco, CA, US; Remote, US · mid_level · 0d</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -45,6 +59,13 @@
       <link>https://job-boards.greenhouse.io/reddit/jobs/7980795</link>
       <guid isPermaLink="false">6ba729ce5ab63e69</guid>
       <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Software Engineer, Ingestion Platform</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8214910</link>
+      <guid isPermaLink="false">a3ad93b4f9a51c4f</guid>
+      <description>Remote - United States · other · 0d</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -160,13 +181,6 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Reddit — Software Engineer, Ingestion Platform</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8214910</link>
-      <guid isPermaLink="false">a3ad93b4f9a51c4f</guid>
-      <description>Remote - United States · other · 1d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Twilio — Software Engineer (L3) Data Substrate</title>
       <link>https://job-boards.greenhouse.io/twilio/jobs/7954715</link>
       <guid isPermaLink="false">5e5c45540940f0e3</guid>
@@ -247,13 +261,6 @@
       <title>Airbnb — Staff Backend Engineer - Ads Platform</title>
       <link>https://careers.airbnb.com/positions/8074897?gh_jid=8074897</link>
       <guid isPermaLink="false">1a8c9b1d17721adf</guid>
-      <description>Remote - USA · mid_level · 3d</description>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Backend Engineer, Host Pricing &amp; Availability</title>
-      <link>https://careers.airbnb.com/positions/8078019?gh_jid=8078019</link>
-      <guid isPermaLink="false">83cde61fa4f8e03d</guid>
       <description>Remote - USA · mid_level · 3d</description>
       <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -384,13 +391,6 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Pinterest — Staff Software Engineer, AI Tools</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=7305880</link>
-      <guid isPermaLink="false">d9971414e04fa970</guid>
-      <description>San Francisco, CA, US; Remote, US · mid_level · 5d</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Reddit — Staff Software Engineer, Consumer Engineering</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8205702</link>
       <guid isPermaLink="false">c5b9a87a96ebb83d</guid>
@@ -490,16 +490,16 @@
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
-      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
-      <description>Remote - Canada · mid_level · 5d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
+      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
+      <description>Remote - US · mid_level · 5d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8065043</link>
-      <guid isPermaLink="false">0ae2ebb651b6c059</guid>
-      <description>Remote - US · mid_level · 5d</description>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
+      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
+      <description>Remote - Canada · mid_level · 5d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -570,13 +570,6 @@
       <link>https://www.pinterestcareers.com/jobs/?gh_jid=7782550</link>
       <guid isPermaLink="false">b0933817a2f06701</guid>
       <description>San Francisco, CA, US; Remote, US · mid_level · 7d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Sr. Staff Software Engineer, Big Data Platform</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=7494956</link>
-      <guid isPermaLink="false">7f583405237ae49a</guid>
-      <description>Palo Alto; Seattle, WA; New York, NY; San Francisco, CA, US; Remote, US · mid_level · 7d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -791,16 +784,16 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
-      <guid isPermaLink="false">aac8e64367028cfe</guid>
-      <description>Remote - United States · mid_level · 9d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
+      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
+      <description>Remote - Ontario, Canada · mid_level · 9d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
-      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
-      <description>Remote - Ontario, Canada · mid_level · 9d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
+      <guid isPermaLink="false">aac8e64367028cfe</guid>
+      <description>Remote - United States · mid_level · 9d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1036,16 +1029,16 @@
     </item>
     <item>
       <title>Instacart — Senior Software Engineer II, Marketing Enablement &amp; Technology</title>
-      <link>https://instacart.careers/job/?gh_jid=8141533</link>
-      <guid isPermaLink="false">c3901b8afcb8ae0f</guid>
-      <description>United States - Remote · mid_level · 21d</description>
+      <link>https://instacart.careers/job/?gh_jid=8141535</link>
+      <guid isPermaLink="false">06c2375b00c498c9</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 21d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Instacart — Senior Software Engineer II, Marketing Enablement &amp; Technology</title>
-      <link>https://instacart.careers/job/?gh_jid=8141535</link>
-      <guid isPermaLink="false">06c2375b00c498c9</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 21d</description>
+      <link>https://instacart.careers/job/?gh_jid=8141533</link>
+      <guid isPermaLink="false">c3901b8afcb8ae0f</guid>
+      <description>United States - Remote · mid_level · 21d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1197,16 +1190,16 @@
     </item>
     <item>
       <title>Instacart — Engineering Manager, Service Platform</title>
-      <link>https://instacart.careers/job/?gh_jid=7960958</link>
-      <guid isPermaLink="false">d207f53e27e6b5e5</guid>
-      <description>United States - Remote · mid_level · 30d</description>
+      <link>https://instacart.careers/job/?gh_jid=7960988</link>
+      <guid isPermaLink="false">6b0bbd13ae434a24</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 30d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Instacart — Engineering Manager, Service Platform</title>
-      <link>https://instacart.careers/job/?gh_jid=7960988</link>
-      <guid isPermaLink="false">6b0bbd13ae434a24</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 30d</description>
+      <link>https://instacart.careers/job/?gh_jid=7960958</link>
+      <guid isPermaLink="false">d207f53e27e6b5e5</guid>
+      <description>United States - Remote · mid_level · 30d</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1747,18 +1740,6 @@
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Services-Executive-Workday-Go--Platform_JR-0109008</link>
       <guid isPermaLink="false">943b53659ea902cc</guid>
       <description>USA, GA, Atlanta +34 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>Visa — Senior Software Engineer, Antifraud</title>
-      <link>https://visa.wd5.myworkdayjobs.com/Visa/job/BR---Remote---Brazil/Senior-Software-Engineer--Antifraud_REF088222W</link>
-      <guid isPermaLink="false">d3826ce4e28d6cd9</guid>
-      <description>BR - Remote - Brazil · mid_level · 5d</description>
-    </item>
-    <item>
-      <title>Visa — Software Engineer, Credit Cycle</title>
-      <link>https://visa.wd5.myworkdayjobs.com/Visa/job/BR---Remote---Brazil/Software-Engineer--Credit-Cycle_REF088371W-1</link>
-      <guid isPermaLink="false">dbfc87a22c6f07e2</guid>
-      <description>BR - Remote - Brazil · other · 5d</description>
     </item>
     <item>
       <title>Netflix — Software Engineer (L5) - JavaScript Platform</title>
