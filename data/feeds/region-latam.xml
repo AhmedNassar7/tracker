@@ -4,7 +4,7 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Wed, 23 Sep 2026 05:59:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 11:37:41 GMT</lastBuildDate>
     <item>
       <title>Sumup — (Senior) Backend Engineer</title>
       <link>https://sumup.com/careers/positions/8671401002?gh_jid=8671401002</link>
@@ -223,13 +223,6 @@
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Digital Payments and Emerging Markets</title>
-      <link>https://www.amazon.jobs/en/jobs/10443835/software-development-engineer-digital-payments-and-emerging-markets</link>
-      <guid isPermaLink="false">74cb26f262a5f72e</guid>
-      <description>Mexico City, Mexico City, MEX · unknown · 106d</description>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Swile — Senior Software Engineer, Backend (Payments)</title>
       <link>https://jobs.lever.co/swile/ba335751-9ae3-4d18-a5c8-b47596d577de</link>
       <guid isPermaLink="false">19c730acee6300f3</guid>
@@ -244,10 +237,17 @@
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, Devices Sales &amp; Customer Experience</title>
+      <link>https://www.amazon.jobs/en/jobs/10386314/software-development-engineer-ii-devices-sales-customer-experience</link>
+      <guid isPermaLink="false">456698a323e33ad4</guid>
+      <description>Mexico City, Mexico City, MEX · mid_level · 168d</description>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Warner Bros. Discovery — Manager, SAP BASIS Cloud Platform Architect</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City-Paseo-de-las-Palmas-No425-701/Manager--SAP-Cloud-Platform-Architect_R000105248</link>
       <guid isPermaLink="false">6c037980e5c38675</guid>
-      <description>Mexico City, Paseo de las Palmas No.425-701 · mid_level · 0d</description>
+      <description>Mexico City, Paseo de las Palmas No.425-701 · mid_level · 1d</description>
     </item>
   </channel>
 </rss>
