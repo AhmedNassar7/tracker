@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Wed, 23 Sep 2026 11:37:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 16:58:25 GMT</lastBuildDate>
     <item>
       <title>AI X QA Leadership Summit - Autumn — AI X QA Leadership Summit - Autumn</title>
       <link>https://www.browserstack.com/events/qals-2026</link>
@@ -1056,6 +1056,13 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>HalfStack Vienna — HalfStack Vienna</title>
+      <link>https://halfstackconf.com/vienna</link>
+      <guid isPermaLink="false">bdd9a4fb88d88b69</guid>
+      <description>Vienna, Austria · 54 days left</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>JSNation US — JSNation US</title>
       <link>https://jsnation.us</link>
       <guid isPermaLink="false">745de84817adf730</guid>
@@ -1497,6 +1504,13 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>HalfStack Phoenix — HalfStack Phoenix</title>
+      <link>https://halfstackconf.com/phoenix</link>
+      <guid isPermaLink="false">8b19372b0dad6267</guid>
+      <description>Phoenix, AZ, U.S.A. · 135 days left</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>RiseUp — RiseUp Summit</title>
       <link>https://riseupsummit.com/</link>
       <guid isPermaLink="false">1bbdda7878084535</guid>
@@ -1847,23 +1861,9 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Luma — Follow DC Data &amp; AI Events Washington · Washington D.C. Data &amp; AI Events! Managed by Data Community DC. www.dc2.org</title>
-      <link>https://lu.ma/DC2?k=c</link>
-      <guid isPermaLink="false">d307b71de4686f34</guid>
-      <description>Global</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Luma — Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team</title>
       <link>https://lu.ma/deepmind?k=c</link>
       <guid isPermaLink="false">a55b3bdcd72bf05f</guid>
-      <description>Global</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Luma — Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.</title>
-      <link>https://lu.ma/stationdc?k=c</link>
-      <guid isPermaLink="false">d0a49f1be49b91d7</guid>
       <description>Global</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
