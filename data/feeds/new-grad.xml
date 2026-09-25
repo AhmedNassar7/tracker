@@ -4,7 +4,14 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Fri, 25 Sep 2026 18:37:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 22:22:45 GMT</lastBuildDate>
+    <item>
+      <title>Atlassian — Machine Learning Engineer, 2027 Graduate U.S.</title>
+      <link>https://www.indeed.com/viewjob?jk=8234c1723251ec41</link>
+      <guid isPermaLink="false">1d5cff2c2c6457c0</guid>
+      <description>Seattle, WA, US · new_grad · 0d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Revolut — Graduate Programme 2027: Software Engineer (iOS)</title>
       <link>https://www.linkedin.com/jobs/view/4418822810</link>
@@ -27,10 +34,45 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — Software Engineer New Grad - Software</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">6ffffa2b5640e686</guid>
-      <description>Brownsville, TX · new_grad · 1mo</description>
+      <title>Visa — Software Engineer New Grad</title>
+      <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/Software-Engineer--New-College-Grad--Bellevue---2027_REF088530W-3?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">254c1dc13a0a1f14</guid>
+      <description>Bellevue, WA · new_grad · 8d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 0d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
+      <guid isPermaLink="false">334395993d3f3a1a</guid>
+      <description>Singapore · new_grad · 0d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 0d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
+      <guid isPermaLink="false">b836bebf63487343</guid>
+      <description>Dublin · new_grad · 0d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad - Frontend</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130927</link>
+      <guid isPermaLink="false">3f9f51d5ac7367a1</guid>
+      <description>Barcelona · new_grad · 0d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -45,13 +87,6 @@
       <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R172085?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">0735de4470071784</guid>
       <description>San Jose · new_grad · 1d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Atlassian — Machine Learning Engineer, 2027 Graduate U.S.</title>
-      <link>https://www.indeed.com/viewjob?jk=7b621aab20463a47</link>
-      <guid isPermaLink="false">750e4bb73fb0cdef</guid>
-      <description>Seattle, WA, US · new_grad · 1d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -144,13 +179,6 @@
       <guid isPermaLink="false">a5498b77049b02bc</guid>
       <description>San Jose, CA, US · new_grad · 7d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visa — Software Engineer New Grad - 2027</title>
-      <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">35bfb78ef1ff5c14</guid>
-      <description>Austin, TX · new_grad · 8d</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, Early Career — Immediate Start</title>
@@ -259,16 +287,16 @@
     </item>
     <item>
       <title>Scale AI — Software Engineer - New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730862005</link>
-      <guid isPermaLink="false">caa5a0ef81c89222</guid>
-      <description>London, UK · new_grad · 11d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730851005</link>
+      <guid isPermaLink="false">13659721b3995c0d</guid>
+      <description>Doha, Qatar · new_grad · 11d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Scale AI — Software Engineer - New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730851005</link>
-      <guid isPermaLink="false">13659721b3995c0d</guid>
-      <description>Doha, Qatar · new_grad · 11d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730862005</link>
+      <guid isPermaLink="false">caa5a0ef81c89222</guid>
+      <description>London, UK · new_grad · 11d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -276,41 +304,6 @@
       <link>https://campus-globalcareers-atlassian.icims.com/jobs/26070/software-engineer%2c-2027-graduate-canada/job?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">4a8d0dafa19c4ec1</guid>
       <description>Burnaby, BC, Canada Vancouver, BC, Canada Richmond, BC, Canada · new_grad · 15d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
-      <guid isPermaLink="false">b836bebf63487343</guid>
-      <description>Dublin · new_grad · 15d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
-      <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 15d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 15d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 15d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad - Frontend</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130927</link>
-      <guid isPermaLink="false">3f9f51d5ac7367a1</guid>
-      <description>Barcelona · new_grad · 15d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
