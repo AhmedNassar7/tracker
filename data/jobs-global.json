@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T07:46:31Z",
-  "total": 1323,
+  "generated_at": "2026-09-25T13:45:31Z",
+  "total": 1329,
   "jobs": [
     {
       "id": "fd906a2d5145d534",
@@ -42,6 +42,29 @@
       "posted_at": "2026-09-25",
       "age": "0d",
       "collected_at": "2026-09-25T07:46:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "2a145c585349713b",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Agentic WorkSpaces Client",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10560299/software-development-engineer-ii-agentic-workspaces-client",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-25",
+      "age": "0d",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -302,98 +325,6 @@
       ]
     },
     {
-      "id": "5c6679df8cbc51cf",
-      "company": "Adobe",
-      "title": "2027 University Graduate - Machine Learning Engineer",
-      "level": "new_grad",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R172085?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T19:08:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0735de4470071784",
-      "company": "Adobe",
-      "title": "2027 University Graduate - Machine Learning Engineer",
-      "level": "new_grad",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R172085?s=gh-new-grad-data-science-jobs-2027",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T19:08:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a62075944150bc86",
-      "company": "Adobe",
-      "title": "2027 University Graduate - Software Engineer",
-      "level": "new_grad",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R172083?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T19:08:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5cb75ab216a2db56",
-      "company": "Adobe",
-      "title": "2027 University Graduate - Software Engineer",
-      "level": "new_grad",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R172083?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-25",
-      "age": "0d",
-      "collected_at": "2026-09-25T01:28:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "bfd64b36f0951c47",
       "company": "AMD",
       "title": "Graphics Software Engineer Intern/Co-op",
@@ -486,144 +417,6 @@
       ]
     },
     {
-      "id": "f2d261e3a9baa204",
-      "company": "Cisco",
-      "title": "Machine Learning Engineer I (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026803?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a087251fd292cc3f",
-      "company": "Cisco",
-      "title": "Machine Learning Engineer I (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026803?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6260e39cf19bb75d",
-      "company": "Cisco",
-      "title": "Machine Learning Engineer I (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026803?s=gh-new-grad-data-science-jobs-2027",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a635f34f06ba08df",
-      "company": "Cisco",
-      "title": "Machine Learning Engineer II (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026802?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "03af98366b31cc7b",
-      "company": "Cisco",
-      "title": "Machine Learning Engineer II (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026802?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "fe85d141d1223859",
-      "company": "Cisco",
-      "title": "Machine Learning Engineer II (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026802?s=gh-new-grad-data-science-jobs-2027",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "e9763358c97cb0cd",
       "company": "Cisco",
       "title": "Software Engineer - Graduate - Lysaker, Norway",
@@ -663,121 +456,6 @@
       "posted_at": "2026-09-15",
       "age": "0d",
       "collected_at": "2026-09-15T14:59:49Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "4ed6efa835dedf18",
-      "company": "Cisco",
-      "title": "Software Engineer Data & AI II (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026798?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "a12a4d5d86ba093d",
-      "company": "Cisco",
-      "title": "Software Engineer Embedded Systems II (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026805?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "2c118615a83c8576",
-      "company": "Cisco",
-      "title": "Software Engineer Full Stack / Backend II (Intern) – United States",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "full_stack",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026800?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T15:04:38Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "808cc3a7ae003b97",
-      "company": "Cisco",
-      "title": "Software Engineer II (Full Time) - United States",
-      "level": "mid_level",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026694?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T22:22:52Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "430d4b266113d07c",
-      "company": "Cisco",
-      "title": "Software Engineer II (Full Time) - United States",
-      "level": "mid_level",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "San Jose California US",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026694?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-25",
-      "age": "0d",
-      "collected_at": "2026-09-25T01:28:59Z",
       "tags": [
         "software",
         "programming",
@@ -1314,6 +992,29 @@
       ]
     },
     {
+      "id": "e2aaedec89245798",
+      "company": "Revolut",
+      "title": "Graduate Programme 2027: Software Engineer (iOS)",
+      "level": "new_grad",
+      "category": "fintech",
+      "region": "europe",
+      "role_type": "mobile",
+      "country": "Portugal",
+      "location": "Portugal",
+      "remote_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4418822810",
+      "source": "lorenzolacorte_eu",
+      "source_url": "https://github.com/LorenzoLaCorte/european-tech-internships-2026",
+      "posted_at": "2026-09-25",
+      "age": "0d",
+      "collected_at": "2026-09-25T13:45:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "2c17cca2f1ab72bc",
       "company": "Revolut",
       "title": "Graduate Programme 2027: Software Engineer (iOS)",
@@ -1376,6 +1077,29 @@
       "posted_at": "2026-09-22",
       "age": "0d",
       "collected_at": "2026-09-22T09:56:06Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "4a081dbee465a891",
+      "company": "Revolut",
+      "title": "Graduate Programme 2027: Software Engineer (java)",
+      "level": "new_grad",
+      "category": "fintech",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "country": "Portugal",
+      "location": "Portugal",
+      "remote_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4418834450",
+      "source": "lorenzolacorte_eu",
+      "source_url": "https://github.com/LorenzoLaCorte/european-tech-internships-2026",
+      "posted_at": "2026-09-25",
+      "age": "0d",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -1468,52 +1192,6 @@
       "posted_at": "2026-09-16",
       "age": "0d",
       "collected_at": "2026-09-16T22:55:27Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "69f218f3f93d7191",
-      "company": "Expedia Group",
-      "title": "Software Development Engineer II - InsurTech",
-      "level": "mid_level",
-      "category": "ride_delivery",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington - Seattle",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-expedia-private-R-110027?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T19:08:43Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "3770b8447b83a561",
-      "company": "Expedia Group",
-      "title": "Software Development Engineer II - InsurTech",
-      "level": "mid_level",
-      "category": "ride_delivery",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Washington - Seattle",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-expedia-private-R-110027?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T19:08:43Z",
       "tags": [
         "software",
         "programming",
@@ -1652,52 +1330,6 @@
       "posted_at": "2026-09-16",
       "age": "0d",
       "collected_at": "2026-09-16T00:22:48Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "048b92077462b50e",
-      "company": "CrowdStrike",
-      "title": "Engineer II, Full Stack (Remote)",
-      "level": "mid_level",
-      "category": "more_global_tech",
-      "region": "remote",
-      "role_type": "full_stack",
-      "country": "United States",
-      "location": "USA - Remote",
-      "remote_type": "remote",
-      "url": "https://zapply.jobs/l/d/workday-crowdstrike-crowdstrikecareers-R30113?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T22:22:52Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6a24d6e5bc37036b",
-      "company": "CrowdStrike",
-      "title": "Engineer II, Full Stack (Remote)",
-      "level": "mid_level",
-      "category": "more_global_tech",
-      "region": "remote",
-      "role_type": "full_stack",
-      "country": "United States",
-      "location": "USA - Remote",
-      "remote_type": "remote",
-      "url": "https://zapply.jobs/l/d/workday-crowdstrike-crowdstrikecareers-R30113?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "0d",
-      "collected_at": "2026-09-24T22:22:52Z",
       "tags": [
         "software",
         "programming",
@@ -2004,6 +1636,75 @@
       ]
     },
     {
+      "id": "5c6679df8cbc51cf",
+      "company": "Adobe",
+      "title": "2027 University Graduate - Machine Learning Engineer",
+      "level": "new_grad",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R172085?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T19:08:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0735de4470071784",
+      "company": "Adobe",
+      "title": "2027 University Graduate - Machine Learning Engineer",
+      "level": "new_grad",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R172085?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T19:08:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a62075944150bc86",
+      "company": "Adobe",
+      "title": "2027 University Graduate - Software Engineer",
+      "level": "new_grad",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-adobe-external-experienced-R172083?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T19:08:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "30f8366de1150329",
       "company": "Adobe",
       "title": "Software Engineer New Grad",
@@ -2027,6 +1728,144 @@
       ]
     },
     {
+      "id": "f2d261e3a9baa204",
+      "company": "Cisco",
+      "title": "Machine Learning Engineer I (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026803?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a087251fd292cc3f",
+      "company": "Cisco",
+      "title": "Machine Learning Engineer I (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026803?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6260e39cf19bb75d",
+      "company": "Cisco",
+      "title": "Machine Learning Engineer I (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026803?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a635f34f06ba08df",
+      "company": "Cisco",
+      "title": "Machine Learning Engineer II (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026802?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "b03b9cadb273bee4",
+      "company": "Cisco",
+      "title": "Machine Learning Engineer II (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/phenom-cisco-2026802?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-09-25",
+      "age": "1d",
+      "collected_at": "2026-09-25T13:45:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "03af98366b31cc7b",
+      "company": "Cisco",
+      "title": "Machine Learning Engineer II (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026802?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "4c054803302b9618",
       "company": "Cisco",
       "title": "Machine Learning Engineer II (Intern) – United States",
@@ -2043,6 +1882,29 @@
       "posted_at": "2026-09-25",
       "age": "1d",
       "collected_at": "2026-09-25T01:28:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "fe85d141d1223859",
+      "company": "Cisco",
+      "title": "Machine Learning Engineer II (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026802?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
       "tags": [
         "software",
         "programming",
@@ -2112,6 +1974,121 @@
       "posted_at": "2026-09-24",
       "age": "0d",
       "collected_at": "2026-09-24T09:59:25Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "4ed6efa835dedf18",
+      "company": "Cisco",
+      "title": "Software Engineer Data & AI II (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026798?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "a12a4d5d86ba093d",
+      "company": "Cisco",
+      "title": "Software Engineer Embedded Systems II (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026805?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3ac7aebb6d7aa132",
+      "company": "Cisco",
+      "title": "Software Engineer Full Stack / Backend II (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026800?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-25",
+      "age": "1d",
+      "collected_at": "2026-09-25T13:45:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "2c118615a83c8576",
+      "company": "Cisco",
+      "title": "Software Engineer Full Stack / Backend II (Intern) – United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026800?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T15:04:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "808cc3a7ae003b97",
+      "company": "Cisco",
+      "title": "Software Engineer II (Full Time) - United States",
+      "level": "mid_level",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose California US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026694?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T22:22:52Z",
       "tags": [
         "software",
         "programming",
@@ -2234,6 +2211,52 @@
       ]
     },
     {
+      "id": "69f218f3f93d7191",
+      "company": "Expedia Group",
+      "title": "Software Development Engineer II - InsurTech",
+      "level": "mid_level",
+      "category": "ride_delivery",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington - Seattle",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-expedia-private-R-110027?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T19:08:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "3770b8447b83a561",
+      "company": "Expedia Group",
+      "title": "Software Development Engineer II - InsurTech",
+      "level": "mid_level",
+      "category": "ride_delivery",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Washington - Seattle",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-expedia-private-R-110027?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T19:08:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "8e3d42bf7d048bdb",
       "company": "Hudson River Trading",
       "title": "Data Scientist Intern - 2027",
@@ -2250,6 +2273,52 @@
       "posted_at": "2026-09-23",
       "age": "0d",
       "collected_at": "2026-09-23T16:56:10Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "048b92077462b50e",
+      "company": "CrowdStrike",
+      "title": "Engineer II, Full Stack (Remote)",
+      "level": "mid_level",
+      "category": "more_global_tech",
+      "region": "remote",
+      "role_type": "full_stack",
+      "country": "United States",
+      "location": "USA - Remote",
+      "remote_type": "remote",
+      "url": "https://zapply.jobs/l/d/workday-crowdstrike-crowdstrikecareers-R30113?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T22:22:52Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6a24d6e5bc37036b",
+      "company": "CrowdStrike",
+      "title": "Engineer II, Full Stack (Remote)",
+      "level": "mid_level",
+      "category": "more_global_tech",
+      "region": "remote",
+      "role_type": "full_stack",
+      "country": "United States",
+      "location": "USA - Remote",
+      "remote_type": "remote",
+      "url": "https://zapply.jobs/l/d/workday-crowdstrike-crowdstrikecareers-R30113?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-09-24",
+      "age": "0d",
+      "collected_at": "2026-09-24T22:22:52Z",
       "tags": [
         "software",
         "programming",
@@ -2595,6 +2664,29 @@
       "posted_at": "2026-09-24",
       "age": "0d",
       "collected_at": "2026-09-24T22:22:52Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "8d22a6f1575a6e4d",
+      "company": "Amazon.com",
+      "title": "Software Development Engineer II",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "KA, IN",
+      "remote_type": "onsite",
+      "url": "https://in.indeed.com/viewjob?jk=70d4a0771a4e1899",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-09-24",
+      "age": "1d",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -2970,6 +3062,52 @@
       ]
     },
     {
+      "id": "750e4bb73fb0cdef",
+      "company": "Atlassian",
+      "title": "Machine Learning Engineer, 2027 Graduate U.S.",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=7b621aab20463a47",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-09-24",
+      "age": "1d",
+      "collected_at": "2026-09-25T13:45:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "72846cebcc87b3b4",
+      "company": "Mastercard",
+      "title": "Site Reliability Engineer I, Launch Program 2027 – St. Louis, MO, US",
+      "level": "entry_level",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "O'Fallon, MO, US",
+      "remote_type": "onsite",
+      "url": "https://www.indeed.com/viewjob?jk=76ec21752c2c17e0",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-09-24",
+      "age": "1d",
+      "collected_at": "2026-09-25T13:45:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d2087bef43761ee3",
       "company": "Amazon.com Services LLC",
       "title": "Machine Learning Engineer II, Amazon Music - MusicIQ",
@@ -3032,52 +3170,6 @@
       "posted_at": "2026-09-23",
       "age": "0d",
       "collected_at": "2026-09-23T00:31:24Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "55edb494b2f3522b",
-      "company": "Tencent",
-      "title": "Site Reliability Engineer (SRE) Intern — AI Infrastructure",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "California-Palo Alto",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-09-22",
-      "age": "0d",
-      "collected_at": "2026-09-22T18:53:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "83eee509c94fcb41",
-      "company": "Tencent",
-      "title": "Site Reliability Engineer (SRE) Intern — AI Infrastructure",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "California-Palo Alto",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-09-22",
-      "age": "0d",
-      "collected_at": "2026-09-22T18:53:59Z",
       "tags": [
         "software",
         "programming",
@@ -3844,6 +3936,29 @@
       ]
     },
     {
+      "id": "83eee509c94fcb41",
+      "company": "Tencent",
+      "title": "Site Reliability Engineer (SRE) Intern — AI Infrastructure",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "California-Palo Alto",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-09-22",
+      "age": "0d",
+      "collected_at": "2026-09-22T18:53:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "560a7a66cea5d6fa",
       "company": "Amazon",
       "title": "Software Development Engineer",
@@ -3913,7 +4028,7 @@
       ]
     },
     {
-      "id": "610c3a8ced38e63b",
+      "id": "88156a8c73a5cab1",
       "company": "Amazon",
       "title": "Software Development Engineer II",
       "level": "mid_level",
@@ -3923,7 +4038,7 @@
       "country": "India",
       "location": "Bengaluru, Karnataka, IND",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10556606/software-development-engineer-ii",
+      "url": "https://www.amazon.jobs/en/jobs/10556600/software-development-engineer-ii",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-22",
@@ -3936,7 +4051,7 @@
       ]
     },
     {
-      "id": "338ca4c5e8185a92",
+      "id": "6fe40f6effd171e1",
       "company": "Amazon",
       "title": "Software Development Engineer II",
       "level": "mid_level",
@@ -3944,9 +4059,9 @@
       "region": "apac",
       "role_type": "software_engineer",
       "country": "India",
-      "location": "Hyderabad, Telangana, IND",
+      "location": "Bengaluru, Karnataka, IND",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10555781/software-development-engineer-ii",
+      "url": "https://www.amazon.jobs/en/jobs/10555786/software-development-engineer-ii",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-22",
@@ -3982,7 +4097,7 @@
       ]
     },
     {
-      "id": "88156a8c73a5cab1",
+      "id": "610c3a8ced38e63b",
       "company": "Amazon",
       "title": "Software Development Engineer II",
       "level": "mid_level",
@@ -3992,7 +4107,7 @@
       "country": "India",
       "location": "Bengaluru, Karnataka, IND",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10556600/software-development-engineer-ii",
+      "url": "https://www.amazon.jobs/en/jobs/10556606/software-development-engineer-ii",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-22",
@@ -4005,7 +4120,7 @@
       ]
     },
     {
-      "id": "6fe40f6effd171e1",
+      "id": "338ca4c5e8185a92",
       "company": "Amazon",
       "title": "Software Development Engineer II",
       "level": "mid_level",
@@ -4013,9 +4128,9 @@
       "region": "apac",
       "role_type": "software_engineer",
       "country": "India",
-      "location": "Bengaluru, Karnataka, IND",
+      "location": "Hyderabad, Telangana, IND",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10555786/software-development-engineer-ii",
+      "url": "https://www.amazon.jobs/en/jobs/10555781/software-development-engineer-ii",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-22",
@@ -4841,7 +4956,7 @@
       "region": "north_america",
       "role_type": "platform",
       "country": "United States",
-      "location": "Cupertino, United States of America",
+      "location": "Austin, United States of America",
       "remote_type": "onsite",
       "url": "https://jobs.apple.com/en-us/details/200684973/systems-software-engineer-platform-architecture",
       "source": "apple",
@@ -4987,29 +5102,6 @@
       "posted_at": "2026-09-21",
       "age": "0d",
       "collected_at": "2026-09-21T14:06:54Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6a2a73dedffe99c4",
-      "company": "Amazon",
-      "title": "Software Development Engineer II",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "country": "India",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10554632/software-development-engineer-ii",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-09-21",
-      "age": "3d",
-      "collected_at": "2026-09-24T09:59:25Z",
       "tags": [
         "software",
         "programming",
@@ -5539,29 +5631,6 @@
       "posted_at": "2026-09-18",
       "age": "0d",
       "collected_at": "2026-09-18T21:40:21Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0e8d1a0336a2df82",
-      "company": "Cisco",
-      "title": "Data Engineer I (Full-Time) - United States",
-      "level": "entry_level",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "Unknown",
-      "location": "Research Triangle Park, North...",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/phenom-cisco-2024459?s=gh-new-grad-data-science-jobs-2027",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-09-24",
-      "age": "1w",
-      "collected_at": "2026-09-24T09:59:25Z",
       "tags": [
         "software",
         "programming",
@@ -7432,29 +7501,6 @@
       ]
     },
     {
-      "id": "5e25f892379dfc77",
-      "company": "Amazon",
-      "title": "Software Development Engineer - II",
-      "level": "unknown",
-      "category": "faang",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "country": "India",
-      "location": "Hyderabad, Telangana, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10545155/software-development-engineer-ii",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-09-16",
-      "age": "0d",
-      "collected_at": "2026-09-16T16:53:20Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "83d13782ba118091",
       "company": "Amazon",
       "title": "Software Development Engineer I, IESP Merchant Tech",
@@ -7846,7 +7892,7 @@
       ]
     },
     {
-      "id": "6b4f639fbe9e995e",
+      "id": "e6a7469fbe18ff24",
       "company": "Amazon",
       "title": "Software Development Engineer, Ring Cloud Connectivity Org",
       "level": "unknown",
@@ -7856,7 +7902,7 @@
       "country": "Canada",
       "location": "Toronto, Ontario, CAN",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10547065/software-development-engineer-ring-cloud-connectivity-org",
+      "url": "https://www.amazon.jobs/en/jobs/10547064/software-development-engineer-ring-cloud-connectivity-org",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-16",
@@ -7869,7 +7915,7 @@
       ]
     },
     {
-      "id": "e6a7469fbe18ff24",
+      "id": "6b4f639fbe9e995e",
       "company": "Amazon",
       "title": "Software Development Engineer, Ring Cloud Connectivity Org",
       "level": "unknown",
@@ -7879,7 +7925,7 @@
       "country": "Canada",
       "location": "Toronto, Ontario, CAN",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10547064/software-development-engineer-ring-cloud-connectivity-org",
+      "url": "https://www.amazon.jobs/en/jobs/10547065/software-development-engineer-ring-cloud-connectivity-org",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-16",
@@ -9065,7 +9111,7 @@
       ]
     },
     {
-      "id": "5fe1e7432206f00a",
+      "id": "2c80c00928798426",
       "company": "Amazon",
       "title": "Software Development Engineer, AI Studios Engineering",
       "level": "unknown",
@@ -9075,7 +9121,7 @@
       "country": "United States",
       "location": "Culver City, California, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10541530/software-development-engineer-ai-studios-engineering",
+      "url": "https://www.amazon.jobs/en/jobs/10541540/software-development-engineer-ai-studios-engineering",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-15",
@@ -9088,7 +9134,7 @@
       ]
     },
     {
-      "id": "2c80c00928798426",
+      "id": "5fe1e7432206f00a",
       "company": "Amazon",
       "title": "Software Development Engineer, AI Studios Engineering",
       "level": "unknown",
@@ -9098,7 +9144,7 @@
       "country": "United States",
       "location": "Culver City, California, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10541540/software-development-engineer-ai-studios-engineering",
+      "url": "https://www.amazon.jobs/en/jobs/10541530/software-development-engineer-ai-studios-engineering",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-15",
@@ -9771,6 +9817,29 @@
       "posted_at": "2026-09-14",
       "age": "0d",
       "collected_at": "2026-09-14T04:55:00Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "96042406000a5874",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Amazon Vulnerability Management Services",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Austin, Texas, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10538780/software-development-engineer-ii-amazon-vulnerability-management-services",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-14",
+      "age": "11d",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -12745,7 +12814,7 @@
       ]
     },
     {
-      "id": "a5c54507cf14f3b1",
+      "id": "719993901cb4d4bf",
       "company": "Amazon",
       "title": "Software Development Engineer, Agent Platforms & Services",
       "level": "unknown",
@@ -12753,9 +12822,9 @@
       "region": "north_america",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "New York, New York, USA",
+      "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10530139/software-development-engineer-agent-platforms-services",
+      "url": "https://www.amazon.jobs/en/jobs/10530111/software-development-engineer-agent-platforms-services",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-04",
@@ -12768,7 +12837,7 @@
       ]
     },
     {
-      "id": "719993901cb4d4bf",
+      "id": "a5c54507cf14f3b1",
       "company": "Amazon",
       "title": "Software Development Engineer, Agent Platforms & Services",
       "level": "unknown",
@@ -12776,9 +12845,9 @@
       "region": "north_america",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "Seattle, Washington, USA",
+      "location": "New York, New York, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10530111/software-development-engineer-agent-platforms-services",
+      "url": "https://www.amazon.jobs/en/jobs/10530139/software-development-engineer-agent-platforms-services",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-04",
@@ -13090,29 +13159,6 @@
       ]
     },
     {
-      "id": "a64a57a4b5f7c8e0",
-      "company": "Amazon",
-      "title": "Software Development Engineer , Adaptive Search Relevance",
-      "level": "unknown",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Seattle, Washington, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10529253/software-development-engineer-adaptive-search-relevance",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-09-03",
-      "age": "7d",
-      "collected_at": "2026-09-05T17:24:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f30e0bbaf52910f2",
       "company": "Amazon",
       "title": "Software Development Engineer , Inventory Accounting",
@@ -13175,6 +13221,29 @@
       "posted_at": "2026-09-03",
       "age": "7d",
       "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "4dfb455afcbc802b",
+      "company": "Amazon",
+      "title": "Software Development Engineer III, AAIS Mosaic Data Platform",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "platform",
+      "country": "United States",
+      "location": "Seattle, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10529217/software-development-engineer-iii-aais-mosaic-data-platform",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-03",
+      "age": "22d",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -13366,190 +13435,6 @@
       ]
     },
     {
-      "id": "09784159e6cf1962",
-      "company": "AMD",
-      "title": "Graphics Software Engineer Intern/Co-op",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Markham, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-09-01",
-      "age": "5d",
-      "collected_at": "2026-09-01T10:04:52Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "e577c5d24f91a6c3",
-      "company": "AMD",
-      "title": "Graphics Software Engineer Intern/Co-op",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Markham, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/91359?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-07",
-      "age": "5d",
-      "collected_at": "2026-09-07T04:38:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ccd3037c741d9043",
-      "company": "AMD",
-      "title": "Graphics Software Engineer Intern/Co-op",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Markham, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-07",
-      "age": "5d",
-      "collected_at": "2026-09-07T04:38:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "4153e92bfc3965e8",
-      "company": "AMD",
-      "title": "Machine Learning/Artificial Intelligence Intern/Co-op",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Markham, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/91363?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-09-01",
-      "age": "5d",
-      "collected_at": "2026-09-01T10:04:52Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0cc8b2725909388b",
-      "company": "AMD",
-      "title": "Machine Learning/Artificial Intelligence Intern/Co-op",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Markham, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/91363?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-21",
-      "age": "20d",
-      "collected_at": "2026-09-21T23:16:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "27c1afd31727b185",
-      "company": "AMD",
-      "title": "Machine Learning/Artificial Intelligence Intern/Co-op",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Markham, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/90383?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-21",
-      "age": "20d",
-      "collected_at": "2026-09-21T23:16:03Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "0b30ae0ba59031b6",
-      "company": "AMD",
-      "title": "Software Engineer Intern/Co-op",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Markham, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-07",
-      "age": "5d",
-      "collected_at": "2026-09-07T04:38:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "832a6a75550c48eb",
-      "company": "AMD",
-      "title": "Software Engineer Intern/Co-op",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Vancouver, BC, Canada",
-      "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/91367?icims=1&utm_source=Simplify&ref=Simplify",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-07",
-      "age": "5d",
-      "collected_at": "2026-09-07T04:38:53Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "c50a1fd3baad00d5",
       "company": "Intel",
       "title": "Software Engineer Intern 🎓",
@@ -13665,29 +13550,6 @@
       ]
     },
     {
-      "id": "bae2b979c3f63eb0",
-      "company": "Stripe",
-      "title": "Software Engineer New Grad",
-      "level": "new_grad",
-      "category": "fintech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Toronto, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://stripe.com/jobs/search?gh_jid=8157838&utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-09-01",
-      "age": "5d",
-      "collected_at": "2026-09-01T10:04:52Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "c387506b6159207e",
       "company": "ByteDance",
       "title": "Software Engineer Intern - Relational Database",
@@ -13780,7 +13642,7 @@
       ]
     },
     {
-      "id": "c8c3138c2000aa9a",
+      "id": "c4b5026268f67da3",
       "company": "Amazon",
       "title": "Software Development Engineer - AWS, Amazon GuardDuty",
       "level": "unknown",
@@ -13790,7 +13652,7 @@
       "country": "United States",
       "location": "Santa Monica, California, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10526566/software-development-engineer-aws-amazon-guardduty",
+      "url": "https://www.amazon.jobs/en/jobs/10526567/software-development-engineer-aws-amazon-guardduty",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-02",
@@ -13803,7 +13665,7 @@
       ]
     },
     {
-      "id": "c4b5026268f67da3",
+      "id": "c8c3138c2000aa9a",
       "company": "Amazon",
       "title": "Software Development Engineer - AWS, Amazon GuardDuty",
       "level": "unknown",
@@ -13813,7 +13675,7 @@
       "country": "United States",
       "location": "Santa Monica, California, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10526567/software-development-engineer-aws-amazon-guardduty",
+      "url": "https://www.amazon.jobs/en/jobs/10526566/software-development-engineer-aws-amazon-guardduty",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-02",
@@ -14263,6 +14125,213 @@
       ]
     },
     {
+      "id": "09784159e6cf1962",
+      "company": "AMD",
+      "title": "Graphics Software Engineer Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Markham, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-09-01",
+      "age": "5d",
+      "collected_at": "2026-09-01T10:04:52Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "ccd3037c741d9043",
+      "company": "AMD",
+      "title": "Graphics Software Engineer Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Markham, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-07",
+      "age": "5d",
+      "collected_at": "2026-09-07T04:38:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e577c5d24f91a6c3",
+      "company": "AMD",
+      "title": "Graphics Software Engineer Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Markham, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/91359?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-07",
+      "age": "5d",
+      "collected_at": "2026-09-07T04:38:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "4153e92bfc3965e8",
+      "company": "AMD",
+      "title": "Machine Learning/Artificial Intelligence Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Markham, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/91363?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-09-01",
+      "age": "5d",
+      "collected_at": "2026-09-01T10:04:52Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0cc8b2725909388b",
+      "company": "AMD",
+      "title": "Machine Learning/Artificial Intelligence Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Markham, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/91363?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-21",
+      "age": "20d",
+      "collected_at": "2026-09-21T23:16:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "27c1afd31727b185",
+      "company": "AMD",
+      "title": "Machine Learning/Artificial Intelligence Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Markham, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/90383?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-21",
+      "age": "20d",
+      "collected_at": "2026-09-21T23:16:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "0b30ae0ba59031b6",
+      "company": "AMD",
+      "title": "Software Engineer Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Markham, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-07",
+      "age": "5d",
+      "collected_at": "2026-09-07T04:38:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "832a6a75550c48eb",
+      "company": "AMD",
+      "title": "Software Engineer Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Vancouver, BC, Canada",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/91367?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-07",
+      "age": "5d",
+      "collected_at": "2026-09-07T04:38:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "bae2b979c3f63eb0",
+      "company": "Stripe",
+      "title": "Software Engineer New Grad",
+      "level": "new_grad",
+      "category": "fintech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Toronto, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://stripe.com/jobs/search?gh_jid=8157838&utm_source=Simplify&ref=Simplify",
+      "source": "simplify_newgrad",
+      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+      "posted_at": "2026-09-01",
+      "age": "5d",
+      "collected_at": "2026-09-01T10:04:52Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "0907d94cb3b1a0a3",
       "company": "Epic Games",
       "title": "Frontend Programmer Intern",
@@ -14378,7 +14447,7 @@
       ]
     },
     {
-      "id": "6a861fe95f3931ce",
+      "id": "4dd4c8e33a167fb1",
       "company": "Amazon",
       "title": "Software Development Engineer, Alexa Communications",
       "level": "unknown",
@@ -14388,7 +14457,7 @@
       "country": "Canada",
       "location": "Toronto, Ontario, CAN",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10524143/software-development-engineer-alexa-communications",
+      "url": "https://www.amazon.jobs/en/jobs/10524137/software-development-engineer-alexa-communications",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-01",
@@ -14401,7 +14470,7 @@
       ]
     },
     {
-      "id": "4dd4c8e33a167fb1",
+      "id": "6a861fe95f3931ce",
       "company": "Amazon",
       "title": "Software Development Engineer, Alexa Communications",
       "level": "unknown",
@@ -14411,7 +14480,7 @@
       "country": "Canada",
       "location": "Toronto, Ontario, CAN",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10524137/software-development-engineer-alexa-communications",
+      "url": "https://www.amazon.jobs/en/jobs/10524143/software-development-engineer-alexa-communications",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-09-01",
@@ -15666,29 +15735,6 @@
       ]
     },
     {
-      "id": "dd2bbf4246dc76df",
-      "company": "Amazon",
-      "title": "Software Development Engineer, RBKS Platform Ops",
-      "level": "unknown",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "platform",
-      "country": "United States",
-      "location": "Hawthorne, California, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10517668/software-development-engineer-rbks-platform-ops",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-27",
-      "age": "10d",
-      "collected_at": "2026-09-05T17:24:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "2c6e8132dab2e127",
       "company": "Amazon",
       "title": "Software Development Engineer, SageMaker HyperPod Data Plane",
@@ -16149,7 +16195,7 @@
       ]
     },
     {
-      "id": "2c822e92c85d92c2",
+      "id": "b5e1e562d656d53e",
       "company": "AMD",
       "title": "Software Engineer Intern/Co-op",
       "level": "internship",
@@ -16157,9 +16203,9 @@
       "region": "north_america",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA",
+      "location": "San Jose, CA Santa Clara, CA",
       "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/90947?icims=1&utm_source=Simplify&ref=Simplify",
+      "url": "https://careers.amd.com/jobs/90891?icims=1&utm_source=Simplify&ref=Simplify",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-07",
@@ -16172,7 +16218,7 @@
       ]
     },
     {
-      "id": "b5e1e562d656d53e",
+      "id": "2c822e92c85d92c2",
       "company": "AMD",
       "title": "Software Engineer Intern/Co-op",
       "level": "internship",
@@ -16180,9 +16226,9 @@
       "region": "north_america",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "San Jose, CA Santa Clara, CA",
+      "location": "6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA",
       "remote_type": "onsite",
-      "url": "https://careers.amd.com/jobs/90891?icims=1&utm_source=Simplify&ref=Simplify",
+      "url": "https://careers.amd.com/jobs/90947?icims=1&utm_source=Simplify&ref=Simplify",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-07",
@@ -16379,7 +16425,7 @@
       ]
     },
     {
-      "id": "562b6bb608f7f526",
+      "id": "3b8c5508e808d1b1",
       "company": "ByteDance",
       "title": "Agent Evaluation & Evolution Machine Learning Engineer Intern - Applied Machine Learning Ark",
       "level": "internship",
@@ -16387,9 +16433,9 @@
       "region": "north_america",
       "role_type": "machine_learning",
       "country": "United States",
-      "location": "San Jose, CA",
+      "location": "Seattle, WA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7671096345243535669/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.bytedance.com/en/position/7672391300141877557/detail?utm_source=Simplify&ref=Simplify",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-21",
@@ -16402,7 +16448,7 @@
       ]
     },
     {
-      "id": "3b8c5508e808d1b1",
+      "id": "562b6bb608f7f526",
       "company": "ByteDance",
       "title": "Agent Evaluation & Evolution Machine Learning Engineer Intern - Applied Machine Learning Ark",
       "level": "internship",
@@ -16410,9 +16456,9 @@
       "region": "north_america",
       "role_type": "machine_learning",
       "country": "United States",
-      "location": "Seattle, WA",
+      "location": "San Jose, CA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7672391300141877557/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.bytedance.com/en/position/7671096345243535669/detail?utm_source=Simplify&ref=Simplify",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-21",
@@ -16678,7 +16724,7 @@
       ]
     },
     {
-      "id": "1f119ce05a9a0ce6",
+      "id": "74b4136a79c1be92",
       "company": "ByteDance",
       "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
       "level": "internship",
@@ -16686,9 +16732,9 @@
       "region": "north_america",
       "role_type": "machine_learning",
       "country": "United States",
-      "location": "San Jose, CA",
+      "location": "Seattle, WA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7675478684795881781/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-21",
@@ -16701,7 +16747,7 @@
       ]
     },
     {
-      "id": "74b4136a79c1be92",
+      "id": "1f119ce05a9a0ce6",
       "company": "ByteDance",
       "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD 🎓",
       "level": "internship",
@@ -16709,9 +16755,9 @@
       "region": "north_america",
       "role_type": "machine_learning",
       "country": "United States",
-      "location": "Seattle, WA",
+      "location": "San Jose, CA",
       "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7675477254269765941/detail?utm_source=Simplify&ref=Simplify",
+      "url": "https://jobs.bytedance.com/en/position/7675478684795881781/detail?utm_source=Simplify&ref=Simplify",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-09-21",
@@ -16763,6 +16809,29 @@
       "posted_at": "2026-09-21",
       "age": "1mo",
       "collected_at": "2026-09-21T23:16:03Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c6a653b0d2d7f311",
+      "company": "ByteDance",
+      "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern - CDN Platform 🎓",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "platform",
+      "country": "United States",
+      "location": "San Jose, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.bytedance.com/en/position/7673636205233490181/detail?utm_source=Simplify&ref=Simplify",
+      "source": "simplify_internships",
+      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "posted_at": "2026-09-25",
+      "age": "1mo",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -17851,29 +17920,6 @@
       ]
     },
     {
-      "id": "a14ab1192a402089",
-      "company": "Amazon",
-      "title": "Software Development Engineer II, Amazon Leo Fulfillment Technology",
-      "level": "mid_level",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Redmond, Washington, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10514163/software-development-engineer-ii-amazon-leo-fulfillment-technology",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-25",
-      "age": "29d",
-      "collected_at": "2026-09-23T23:40:39Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "d6ecd3259cc1c6d8",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS Hardware Engineering",
@@ -18012,7 +18058,7 @@
       ]
     },
     {
-      "id": "0a8e495edbb10997",
+      "id": "5e4fe7a7b883c1dc",
       "company": "Amazon",
       "title": "Software Development Engineer, WW Deals & Promotions",
       "level": "unknown",
@@ -18022,7 +18068,7 @@
       "country": "Canada",
       "location": "Vancouver, British Columbia, CAN",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10514555/software-development-engineer-ww-deals-promotions",
+      "url": "https://www.amazon.jobs/en/jobs/10514556/software-development-engineer-ww-deals-promotions",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-25",
@@ -18035,7 +18081,7 @@
       ]
     },
     {
-      "id": "5e4fe7a7b883c1dc",
+      "id": "0a8e495edbb10997",
       "company": "Amazon",
       "title": "Software Development Engineer, WW Deals & Promotions",
       "level": "unknown",
@@ -18045,7 +18091,7 @@
       "country": "Canada",
       "location": "Vancouver, British Columbia, CAN",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10514556/software-development-engineer-ww-deals-promotions",
+      "url": "https://www.amazon.jobs/en/jobs/10514555/software-development-engineer-ww-deals-promotions",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-25",
@@ -18334,29 +18380,6 @@
       ]
     },
     {
-      "id": "cef6a19e64baf5bb",
-      "company": "Amazon",
-      "title": "Software Development Engineer, AWS AppSync",
-      "level": "unknown",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Vancouver, British Columbia, CAN",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10509712/software-development-engineer-aws-appsync",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-08-21",
-      "age": "20d",
-      "collected_at": "2026-09-05T17:24:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "24fd06a868a333b8",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS AppSync",
@@ -18403,6 +18426,29 @@
       ]
     },
     {
+      "id": "cef6a19e64baf5bb",
+      "company": "Amazon",
+      "title": "Software Development Engineer, AWS AppSync",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia, CAN",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10509712/software-development-engineer-aws-appsync",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-08-21",
+      "age": "20d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "57a19a580a83c39b",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS Simple Queue Service (SQS)",
@@ -18419,6 +18465,29 @@
       "posted_at": "2026-08-21",
       "age": "20d",
       "collected_at": "2026-09-10T00:13:38Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e2dbd61a9da648a7",
+      "company": "Amazon",
+      "title": "Software Development Engineer, AWS Simple Queue Service (SQS)",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Vancouver, British Columbia, CAN",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10510500/software-development-engineer-aws-simple-queue-service-sqs",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-08-21",
+      "age": "35d",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -19323,7 +19392,7 @@
       ]
     },
     {
-      "id": "e294a3157c7281cd",
+      "id": "91cf7c667e24d4bf",
       "company": "Amazon",
       "title": "Software Development Engineer, Leo Autopilot",
       "level": "unknown",
@@ -19333,7 +19402,7 @@
       "country": "United States",
       "location": "Redmond, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10504175/software-development-engineer-leo-autopilot",
+      "url": "https://www.amazon.jobs/en/jobs/10504173/software-development-engineer-leo-autopilot",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-17",
@@ -19346,7 +19415,7 @@
       ]
     },
     {
-      "id": "91cf7c667e24d4bf",
+      "id": "e294a3157c7281cd",
       "company": "Amazon",
       "title": "Software Development Engineer, Leo Autopilot",
       "level": "unknown",
@@ -19356,7 +19425,7 @@
       "country": "United States",
       "location": "Redmond, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10504173/software-development-engineer-leo-autopilot",
+      "url": "https://www.amazon.jobs/en/jobs/10504175/software-development-engineer-leo-autopilot",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-17",
@@ -19783,7 +19852,7 @@
       ]
     },
     {
-      "id": "b741f63611b62951",
+      "id": "e6be67a4e7f75bdf",
       "company": "Amazon",
       "title": "Software Development Engineer, Agentic Workspaces",
       "level": "unknown",
@@ -19793,7 +19862,7 @@
       "country": "United States",
       "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10501331/software-development-engineer-agentic-workspaces",
+      "url": "https://www.amazon.jobs/en/jobs/10501323/software-development-engineer-agentic-workspaces",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-13",
@@ -19806,7 +19875,7 @@
       ]
     },
     {
-      "id": "ccac592afe4fd04c",
+      "id": "e93f1f84abc4bdf1",
       "company": "Amazon",
       "title": "Software Development Engineer, Agentic Workspaces",
       "level": "unknown",
@@ -19816,7 +19885,7 @@
       "country": "United States",
       "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10501317/software-development-engineer-agentic-workspaces",
+      "url": "https://www.amazon.jobs/en/jobs/10501320/software-development-engineer-agentic-workspaces",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-13",
@@ -19852,7 +19921,7 @@
       ]
     },
     {
-      "id": "e6be67a4e7f75bdf",
+      "id": "b741f63611b62951",
       "company": "Amazon",
       "title": "Software Development Engineer, Agentic Workspaces",
       "level": "unknown",
@@ -19862,7 +19931,7 @@
       "country": "United States",
       "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10501323/software-development-engineer-agentic-workspaces",
+      "url": "https://www.amazon.jobs/en/jobs/10501331/software-development-engineer-agentic-workspaces",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-13",
@@ -19875,7 +19944,7 @@
       ]
     },
     {
-      "id": "e93f1f84abc4bdf1",
+      "id": "ccac592afe4fd04c",
       "company": "Amazon",
       "title": "Software Development Engineer, Agentic Workspaces",
       "level": "unknown",
@@ -19885,7 +19954,7 @@
       "country": "United States",
       "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10501320/software-development-engineer-agentic-workspaces",
+      "url": "https://www.amazon.jobs/en/jobs/10501317/software-development-engineer-agentic-workspaces",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-13",
@@ -21439,7 +21508,7 @@
       ]
     },
     {
-      "id": "8027047006873a72",
+      "id": "bac7dccf92f65cd9",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS Database Migration Service",
       "level": "unknown",
@@ -21449,7 +21518,7 @@
       "country": "Ireland",
       "location": "Dublin, IRL",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10493189/software-development-engineer-aws-database-migration-service",
+      "url": "https://www.amazon.jobs/en/jobs/10493182/software-development-engineer-aws-database-migration-service",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-05",
@@ -21462,7 +21531,7 @@
       ]
     },
     {
-      "id": "bac7dccf92f65cd9",
+      "id": "8027047006873a72",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS Database Migration Service",
       "level": "unknown",
@@ -21472,7 +21541,7 @@
       "country": "Ireland",
       "location": "Dublin, IRL",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10493182/software-development-engineer-aws-database-migration-service",
+      "url": "https://www.amazon.jobs/en/jobs/10493189/software-development-engineer-aws-database-migration-service",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-05",
@@ -21646,7 +21715,7 @@
       ]
     },
     {
-      "id": "df7134caacfdf314",
+      "id": "2a6dcb24e0112c6b",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS Config",
       "level": "unknown",
@@ -21656,7 +21725,7 @@
       "country": "United States",
       "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10491139/software-development-engineer-aws-config",
+      "url": "https://www.amazon.jobs/en/jobs/10491136/software-development-engineer-aws-config",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-04",
@@ -21669,7 +21738,7 @@
       ]
     },
     {
-      "id": "2a6dcb24e0112c6b",
+      "id": "df7134caacfdf314",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS Config",
       "level": "unknown",
@@ -21679,7 +21748,7 @@
       "country": "United States",
       "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10491136/software-development-engineer-aws-config",
+      "url": "https://www.amazon.jobs/en/jobs/10491139/software-development-engineer-aws-config",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-08-04",
@@ -22957,6 +23026,29 @@
       ]
     },
     {
+      "id": "9812a3cee9f3372b",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer Intern, Commercial (Summer 2027, grad Dec 2027 / Spring 2028)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY (multiple US)",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-25",
+      "age": "2mo",
+      "collected_at": "2026-09-25T13:45:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "3b99b76b22adf489",
       "company": "Palantir",
       "title": "Software Engineer Intern, Defense Tech (Summer 2027, grad 2028)",
@@ -23003,22 +23095,22 @@
       ]
     },
     {
-      "id": "f3b1e283b7673d4d",
-      "company": "Palantir Technologies",
-      "title": "Software Engineer Intern",
+      "id": "e99cbdd80982fe77",
+      "company": "Palantir",
+      "title": "Year at Palantir, Forward Deployed Software Engineer Intern ⏳",
       "level": "internship",
       "category": "product_saas",
       "region": "north_america",
       "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
+      "country": "United States",
+      "location": "New York, NY (multiple US)",
       "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah",
+      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-09-19",
-      "age": "1mo",
-      "collected_at": "2026-09-19T20:38:29Z",
+      "posted_at": "2026-09-25",
+      "age": "2mo",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -23042,6 +23134,29 @@
       "posted_at": "2026-09-07",
       "age": "1mo",
       "collected_at": "2026-09-07T04:38:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "f3b1e283b7673d4d",
+      "company": "Palantir Technologies",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-19",
+      "age": "1mo",
+      "collected_at": "2026-09-19T20:38:29Z",
       "tags": [
         "software",
         "programming",
@@ -25073,7 +25188,7 @@
       ]
     },
     {
-      "id": "9904d1177a2f5d27",
+      "id": "76f1c6d56aac89ad",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS GuardDuty",
       "level": "unknown",
@@ -25083,7 +25198,7 @@
       "country": "United States",
       "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10471826/software-development-engineer-aws-guardduty",
+      "url": "https://www.amazon.jobs/en/jobs/10471823/software-development-engineer-aws-guardduty",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-07-11",
@@ -25096,7 +25211,7 @@
       ]
     },
     {
-      "id": "76f1c6d56aac89ad",
+      "id": "9904d1177a2f5d27",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS GuardDuty",
       "level": "unknown",
@@ -25106,7 +25221,7 @@
       "country": "United States",
       "location": "Seattle, Washington, USA",
       "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10471823/software-development-engineer-aws-guardduty",
+      "url": "https://www.amazon.jobs/en/jobs/10471826/software-development-engineer-aws-guardduty",
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-07-11",
@@ -26768,6 +26883,29 @@
       "posted_at": "2026-06-11",
       "age": "91d",
       "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "399a71a46e4c2943",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AWS Transform, AWS Transform",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10445310/software-development-engineer-ii-aws-transform-aws-transform",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-10",
+      "age": "107d",
+      "collected_at": "2026-09-25T13:45:31Z",
       "tags": [
         "software",
         "programming",
@@ -28615,6 +28753,29 @@
       ]
     },
     {
+      "id": "e0464f23be9587cb",
+      "company": "Amazon",
+      "title": "Software Development Engineer II - FinTech, FinTech",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "country": "India",
+      "location": "Hyderabad, Telangana, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10417622/software-development-engineer-ii-fintech-fintech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-05-12",
+      "age": "136d",
+      "collected_at": "2026-09-25T13:45:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "a49df94f7fa25eb2",
       "company": "Amazon",
       "title": "Software Development Engineer, AWS Transactional Services",
@@ -29351,6 +29512,29 @@
       ]
     },
     {
+      "id": "456698a323e33ad4",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, Devices Sales & Customer Experience",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "latam",
+      "role_type": "software_engineer",
+      "country": "Mexico",
+      "location": "Mexico City, Mexico City, MEX",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10386314/software-development-engineer-ii-devices-sales-customer-experience",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-04-08",
+      "age": "170d",
+      "collected_at": "2026-09-25T13:45:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "75c1e4d3e1f6910e",
       "company": "Amazon",
       "title": "Software Development Engineer, Aurora Control Plane",
@@ -29558,29 +29742,6 @@
       ]
     },
     {
-      "id": "9a0433a5237b2b96",
-      "company": "Amazon",
-      "title": "Software Development Engineer, Sidewalk Cloud, Sidewalk Cloud",
-      "level": "unknown",
-      "category": "faang",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "country": "India",
-      "location": "Bengaluru, Karnataka, IND",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10375342/software-development-engineer-sidewalk-cloud-sidewalk-cloud",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-03-25",
-      "age": "169d",
-      "collected_at": "2026-09-05T17:24:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "1fbe379ad3102bca",
       "company": "Amazon",
       "title": "Software Development Engineer, Ring",
@@ -29595,29 +29756,6 @@
       "source": "amazon",
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-03-24",
-      "age": "170d",
-      "collected_at": "2026-09-05T17:24:04Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "fd2f723065b20529",
-      "company": "Amazon",
-      "title": "Software Development Engineer, AWS Manufacturing Infrastructure Services",
-      "level": "unknown",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "Cupertino, California, USA",
-      "remote_type": "onsite",
-      "url": "https://www.amazon.jobs/en/jobs/10372460/software-development-engineer-aws-manufacturing-infrastructure-services",
-      "source": "amazon",
-      "source_url": "https://www.amazon.jobs/",
-      "posted_at": "2026-03-20",
       "age": "170d",
       "collected_at": "2026-09-05T17:24:04Z",
       "tags": [
