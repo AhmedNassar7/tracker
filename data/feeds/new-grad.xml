@@ -4,12 +4,19 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Fri, 25 Sep 2026 07:50:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 13:47:57 GMT</lastBuildDate>
     <item>
-      <title>Adobe — 2027 University Graduate - Software Engineer</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R172083?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">5cb75ab216a2db56</guid>
-      <description>San Jose · new_grad · 0d</description>
+      <title>Revolut — Graduate Programme 2027: Software Engineer (iOS)</title>
+      <link>https://www.linkedin.com/jobs/view/4418822810</link>
+      <guid isPermaLink="false">e2aaedec89245798</guid>
+      <description>Portugal · new_grad · 0d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Revolut — Graduate Programme 2027: Software Engineer (java)</title>
+      <link>https://www.linkedin.com/jobs/view/4418834450</link>
+      <guid isPermaLink="false">4a081dbee465a891</guid>
+      <description>Portugal · new_grad · 0d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -25,6 +32,13 @@
       <guid isPermaLink="false">6ffffa2b5640e686</guid>
       <description>Brownsville, TX · new_grad · 1mo</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon Development Centre Canada ULC - K03 — Data Engineer, Early Career - 2026 (CAN)</title>
+      <link>https://zapply.jobs/l/d/amazon-8f7e01ab-b743-4cb7-867f-cdd36bd00b86?s=gh-canada-jobs-2027</link>
+      <guid isPermaLink="false">ae5ee7184b7931a7</guid>
+      <description>Toronto, ON · new_grad · 1d</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Adobe — 2027 University Graduate - Machine Learning Engineer</title>
@@ -48,10 +62,10 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon Development Centre Canada ULC - K03 — Data Engineer, Early Career - 2026 (CAN)</title>
-      <link>https://zapply.jobs/l/d/amazon-8f7e01ab-b743-4cb7-867f-cdd36bd00b86?s=gh-canada-jobs-2027</link>
-      <guid isPermaLink="false">ae5ee7184b7931a7</guid>
-      <description>Toronto, ON · new_grad · 1d</description>
+      <title>Atlassian — Machine Learning Engineer, 2027 Graduate U.S.</title>
+      <link>https://www.indeed.com/viewjob?jk=7b621aab20463a47</link>
+      <guid isPermaLink="false">750e4bb73fb0cdef</guid>
+      <description>Seattle, WA, US · new_grad · 1d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -280,16 +294,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 15d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
-      <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 15d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 15d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -301,9 +308,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 15d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
+      <guid isPermaLink="false">334395993d3f3a1a</guid>
+      <description>Singapore · new_grad · 15d</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 15d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
