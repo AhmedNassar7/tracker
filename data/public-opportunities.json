@@ -1,7 +1,149 @@
 {
-  "generated_at": "2026-09-26T07:39:43Z",
-  "total": 3563,
+  "generated_at": "2026-09-26T13:04:37Z",
+  "total": 3606,
   "jobs": [
+    {
+      "id": "7b57fb548163b49f",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Engineering Manager - OpenBMC Platform",
+      "location": "US, CA, Santa Clara",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "bfb1141b80e4b771",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer - GPU Performance at Scale",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, NC, Remote<br>US, TX, Remote<br>US, Remote<br>US, CA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "10637ebcdaefe376",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Frontend Engineer, Ads",
+      "location": "Remote - United States",
+      "level": "other",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-09-26",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "gRPC",
+        "Kubernetes",
+        "Docker"
+      ],
+      "min_years_experience": 3,
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f03ebb6c3a5bd0da",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Frontend Engineer, Ads Creative",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-09-26",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6ba729ce5ab63e69",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Software Engineer, Agentic Ads Experience",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-09-26",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "Go",
+        "Rust"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6b5d8a27f0918b8c",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Staff Android Engineer, Brand Ad Formats",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "2026-09-26",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "Kotlin"
+      ],
+      "degree_required": false,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 217000,
+        "max": 303900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
     {
       "id": "69eda34002045878",
       "kind": "job",
@@ -2121,6 +2263,141 @@
       }
     },
     {
+      "id": "839d3ad49190d234",
+      "kind": "job",
+      "company": "Intel",
+      "title": "System Software Engineering - PhD Intern",
+      "location": "US, Oregon, Hillsboro",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/System-Software-Engineering---PhD-Intern_JR0287457",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "0f0c8e98ab68e2bd",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Lead Software Engineer",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer_R-280823",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "fb0e75827c36c0e5",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Lead Software Engineer",
+      "location": "Dublin, Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer_R-273436",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "973a466ab013926b",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Lead Software Engineer - Java",
+      "location": "Oslo, Norway (haavard martinsens vei)",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Oslo-Norway-haavard-martinsens-vei/Lead-Software-Engineer---Java_R-291323",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "5392a95c0cf91eaf",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-281539",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "75cf0d6a08333181",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer (Database Developer)",
+      "location": "Pune, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Database-Developer-_R-291989",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "00706a2d87645509",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Vice President, Software Engineering",
+      "location": "<details><summary><strong>4 locations</strong></summary>O&#x27;Fallon, Missouri<br>Arlington, Virginia<br>Purchase, New York<br>San Francisco, California</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Vice-President--Software-Engineering_R-290949-1",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "e3447f658fe01adb",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-281530",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "1893f5c77003b3f3",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Vice President, Software Engineering",
+      "location": "New York City, New York",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Vice-President--Software-Engineering_R-286632",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
       "id": "82110edb26a9ce1e",
       "kind": "job",
       "company": "MongoDB",
@@ -2702,118 +2979,6 @@
       "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/Capital-Projects---Economics-Intern---ambito-Infrastrutture--Trasporti-e-Logistica---Roma_721760WD-3",
       "source": "workday:pwc",
       "source_url": "https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Campus_Careers/jobs"
-    },
-    {
-      "id": "10637ebcdaefe376",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Frontend Engineer, Ads",
-      "location": "Remote - United States",
-      "level": "other",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-09-25",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "gRPC",
-        "Kubernetes",
-        "Docker"
-      ],
-      "min_years_experience": 3,
-      "salary": {
-        "min": 164200,
-        "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f03ebb6c3a5bd0da",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Frontend Engineer, Ads Creative",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-09-25",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6ba729ce5ab63e69",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Software Engineer, Agentic Ads Experience",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-09-25",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Python",
-        "Java",
-        "Go",
-        "Rust"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6b5d8a27f0918b8c",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Staff Android Engineer, Brand Ad Formats",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "mobile",
-      "date": "1d",
-      "posted_at": "2026-09-25",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "Kotlin"
-      ],
-      "degree_required": false,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 217000,
-        "max": 303900,
-        "currency": "USD",
-        "period": "year"
-      }
     },
     {
       "id": "76eb9e4df05c14f8",
@@ -11496,6 +11661,51 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs?content=true"
     },
     {
+      "id": "66852ed48eaa513d",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Manufacturing Equipment Technician (MTE) - Front End Nights Shift - Shift 4",
+      "location": "US, Arizona, Phoenix",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "frontend",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Manufacturing-Equipment-Technician--MTE----Front-End-Nights-Shift---Shift-4_JR0287420",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "a292176889573889",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Software Engineer",
+      "location": "Malaysia, Penang",
+      "level": "other",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/Malaysia-Penang/Software-Engineer_JR0287360",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "94ed32cfed1383a3",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Software Engineer",
+      "location": "Israel, Haifa",
+      "level": "other",
+      "region": "mena",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/Israel-Haifa/Software-Engineer_JR0283723",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
       "id": "8f7f8cb396a7cde4",
       "kind": "job",
       "company": "Legora",
@@ -11554,6 +11764,291 @@
       "url": "https://jobs.ashbyhq.com/legora/f016af8f-62c3-4dfc-9a33-f4b591d90aaa",
       "source": "ashby:legora",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/legora"
+    },
+    {
+      "id": "33a11898aeaa14cd",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Lead Mainframe Engineer",
+      "location": "Copenhagen, Denmark (Arne Jacobsens)",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Copenhagen-Denmark-Arne-Jacobsens/Lead-Java-Software-Development-Engineer_R-280016",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "44f6bf67634dffba",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Lead Software Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>Arlington, Virginia<br>Atlanta, Georgia (675 Ponce De Leon Ave NE)</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Lead-Software-Engineer_R-279701",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "8d0f1d3485ea3869",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Lead Software Engineer",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer_R-289668",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "a76328c45fd84aa1",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Manager, Software Engineering",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-282017",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "a1a6ce29d685c20b",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Manager, Software Engineering",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-273743",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "303ead7fce1f96fe",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Principal AI Platform Engineer - AI Center of Excellence",
+      "location": "<details><summary><strong>9 locations</strong></summary>Arlington, Virginia<br>Boston, Massachusetts<br>Atlanta, Georgia (675 Ponce De Leon Ave NE)<br>Austin, Texas<br>Miami, Florida<br>New York City, New York (150 5th Avenue)<br>Purchase, New York<br>O&#x27;Fallon, Missouri (Main Campus)<br>San Francisco, California (Suite 400)</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Principal-AI-Platform-Engineer---AI-Center-of-Excellence_R-282567",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "89b2b92ab491ac36",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Principal Software Engineer",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Principal-Software-Engineer_R-289407-1",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "20a0a0ff40f93d35",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Principal Software Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>Toronto, Canada<br>Vancouver, Canada</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada/Principal-Software-Engineer_R-287176",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "86db82a03de2fb78",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior AI Platform Engineer (DevOps)",
+      "location": "<details><summary><strong>3 locations</strong></summary>O&#x27;Fallon, Missouri<br>Atlanta, Georgia<br>Austin, Texas</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-AI-Platform-Engineer--DevOps-_R-287470-1",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "c85478d634fc8379",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer",
+      "location": "Arlington, Virginia",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Senior-Software-Engineer_R-291094-1",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "9167ebbbc7009e2e",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-279539",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "88396299ad8bc94b",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-291613",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "81ad72ebf32ff8bd",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer",
+      "location": "Arlington, Virginia",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Senior-Software-Engineer_R-288715",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "2eab37b85af082a5",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer (Java)",
+      "location": "Vancouver, Canada",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Senior-Software-Engineer--Java-_R-291383",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "978416a3944cc9bd",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Site Reliability Engineer I, Launch Program 2027 – St. Louis, MO, US",
+      "location": "O'Fallon, Missouri",
+      "level": "entry_level",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Site-Reliability-Engineer-I--Launch-Program-2027---St-Louis--MO--US_R-287642",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
+      "id": "c162e8e5bbc5bb32",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "location": "Pune, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290198",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "ec1c4ea0b5b8f85f",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer, Launch Program 2027 - Toronto, Canada",
+      "location": "Toronto, Canada",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Toronto-Canada/Software-Engineer--Launch-Program-2027---Toronto--Canada_R-287621",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
+      "id": "42c47735ec72f429",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer, Launch Program 2027 - Vancouver, Canada",
+      "location": "Vancouver, Canada",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Vancouver-Canada/Software-Engineer--Launch-Program-2027---Vancouver--Canada_R-287622",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
+      "id": "f0faeb1d63a9778f",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Vice President, Software Engineering",
+      "location": "<details><summary><strong>3 locations</strong></summary>San Francisco, California<br>Atlanta, Georgia (675 Ponce De Leon Ave NE)<br>New York City, New York (150 5th Avenue)</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Francisco-California/Vice-President--Software-Engineering_R-290779",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
       "id": "8196df4ec897e05f",
@@ -15729,6 +16224,21 @@
       ]
     },
     {
+      "id": "393a60b12a563dda",
+      "kind": "job",
+      "company": "Intel",
+      "title": "AI Software Development Engineer - Neuromorphic Computing",
+      "location": "US, California, Santa Clara",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Software-Development-Engineer---Neuromorphic-Computing_JR0287335",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
       "id": "fe9c3589c6c0fc5d",
       "kind": "job",
       "company": "Lyft",
@@ -18889,6 +19399,21 @@
         "Go",
         "Ruby"
       ]
+    },
+    {
+      "id": "b9d57e80420f8ae7",
+      "kind": "job",
+      "company": "Tencent",
+      "title": "Site Reliability Engineer (SRE) Intern — AI Infrastructure",
+      "location": "US-California-Palo Alto",
+      "level": "internship",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "4d",
+      "posted_at": "",
+      "url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1",
+      "source": "workday:tencent",
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/tencent_careers/jobs"
     },
     {
       "id": "e3df888c17fb0a1d",
@@ -28269,6 +28794,21 @@
       "min_years_experience": 2
     },
     {
+      "id": "af90eeb07354463d",
+      "kind": "job",
+      "company": "Tencent",
+      "title": "Site Reliability Engineer",
+      "location": "Singapore-CapitaSky",
+      "level": "other",
+      "region": "apac",
+      "role_type": "infrastructure",
+      "date": "5d",
+      "posted_at": "",
+      "url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Senior-Big-Data-Platform-SRE-Engineer_R107825",
+      "source": "workday:tencent",
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/tencent_careers/jobs"
+    },
+    {
       "id": "9e7289b22f972c50",
       "kind": "job",
       "company": "Warner Bros. Discovery",
@@ -29416,21 +29956,6 @@
       "min_years_experience": 5
     },
     {
-      "id": "7d6b20ec02fc100a",
-      "kind": "job",
-      "company": "Datadog",
-      "title": "Senior Software Engineer - REDAPL Graph Engine",
-      "location": "Lisbon, Portugal",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "8d",
-      "posted_at": "2026-09-18",
-      "url": "https://careers.datadoghq.com/detail/7959967/?gh_jid=7959967",
-      "source": "greenhouse:datadog",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
-    },
-    {
       "id": "1fad5dedb1eb9efa",
       "kind": "job",
       "company": "Datadog",
@@ -29442,6 +29967,21 @@
       "date": "8d",
       "posted_at": "2026-09-18",
       "url": "https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
+    },
+    {
+      "id": "7d6b20ec02fc100a",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "location": "Lisbon, Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "8d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/7959967/?gh_jid=7959967",
       "source": "greenhouse:datadog",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
     },
@@ -29578,27 +30118,6 @@
       "relocation": true
     },
     {
-      "id": "aabe9286420d2b41",
-      "kind": "job",
-      "company": "Datadog",
-      "title": "Staff Engineer - Data Platform Experience",
-      "location": "Lisbon, Portugal",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "8d",
-      "posted_at": "2026-09-18",
-      "url": "https://careers.datadoghq.com/detail/8119496/?gh_jid=8119496",
-      "source": "greenhouse:datadog",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "Kubernetes",
-        "Kafka"
-      ]
-    },
-    {
       "id": "079d0fd4d9fe7144",
       "kind": "job",
       "company": "Datadog",
@@ -29610,6 +30129,27 @@
       "date": "8d",
       "posted_at": "2026-09-18",
       "url": "https://careers.datadoghq.com/detail/8119493/?gh_jid=8119493",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Kubernetes",
+        "Kafka"
+      ]
+    },
+    {
+      "id": "aabe9286420d2b41",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Engineer - Data Platform Experience",
+      "location": "Lisbon, Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "8d",
+      "posted_at": "2026-09-18",
+      "url": "https://careers.datadoghq.com/detail/8119496/?gh_jid=8119496",
       "source": "greenhouse:datadog",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
       "tech_tags": [
@@ -30038,6 +30578,21 @@
       ]
     },
     {
+      "id": "738f942ae512bffb",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
+      "location": "O'Fallon, Missouri",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "8d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
       "id": "a57d1637effc6af4",
       "kind": "job",
       "company": "Netflix",
@@ -30289,6 +30844,21 @@
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "min_years_experience": 2
+    },
+    {
+      "id": "d03d9fcbae5645b6",
+      "kind": "job",
+      "company": "Tencent",
+      "title": "PUBG Mobile Marketing Team Intern",
+      "location": "<details><summary><strong>2 locations</strong></summary>United Kingdom-London<br>France-Paris</details>",
+      "level": "internship",
+      "region": "europe",
+      "role_type": "mobile",
+      "date": "8d",
+      "posted_at": "",
+      "url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1",
+      "source": "workday:tencent",
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/tencent_careers/jobs"
     },
     {
       "id": "3293da240e23f651",
@@ -31243,6 +31813,21 @@
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "min_years_experience": 3
+    },
+    {
+      "id": "b04914868a2d2774",
+      "kind": "job",
+      "company": "Tencent",
+      "title": "Tencent Cloud - Edge Platform Product Solutions Architecture Intern - Singapore",
+      "location": "Singapore-CapitaSky",
+      "level": "internship",
+      "region": "apac",
+      "role_type": "platform",
+      "date": "9d",
+      "posted_at": "",
+      "url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Tencent-Cloud---Edge-Platform-Product-Solutions-Architecture-Intern---Singapore_R107927",
+      "source": "workday:tencent",
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/tencent_careers/jobs"
     },
     {
       "id": "3396fe9790078797",
@@ -34371,6 +34956,21 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "947c5adac492a8f0",
+      "kind": "job",
+      "company": "Tencent",
+      "title": "Backend Development Intern (6 months)",
+      "location": "Singapore-CapitaSky",
+      "level": "internship",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "11d",
+      "posted_at": "",
+      "url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Backend-Development-Intern--6-months-_R108169",
+      "source": "workday:tencent",
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/tencent_careers/jobs"
     },
     {
       "id": "48bdd93848a8fe39",
@@ -41986,6 +42586,21 @@
       "relocation": true
     },
     {
+      "id": "5e9b9621887c1795",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
+      "location": "O'Fallon, Missouri",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "18d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
       "id": "e0b0199596270433",
       "kind": "job",
       "company": "OpenAI",
@@ -43466,6 +44081,36 @@
       }
     },
     {
+      "id": "0efc50ea938feed8",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer Intern, Summer 2027 - Singapore",
+      "location": "Singapore",
+      "level": "internship",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "22d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Software-Engineer-Intern--Summer-2027---Singapore_R-287574",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
+      "id": "de9498071a4ad4de",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Software Engineer, Launch Program 2027 - Singapore",
+      "location": "Singapore",
+      "level": "other",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "22d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Software-Engineer--Launch-Program-2027---Singapore_R-287565",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
+    },
+    {
       "id": "6ae005ac7c542e87",
       "kind": "job",
       "company": "Mercor",
@@ -44189,6 +44834,21 @@
         "Azure",
         "Redis"
       ]
+    },
+    {
+      "id": "a37641f25aff562b",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Site Reliability Engineering Intern, Summer 2027 – St. Louis, MO, US",
+      "location": "O'Fallon, Missouri",
+      "level": "internship",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "date": "23d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
     },
     {
       "id": "443fff9787395930",
@@ -54249,6 +54909,36 @@
       }
     },
     {
+      "id": "e790697abce4dd5c",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Senior CPU Front End Methodology Engineer",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, Texas, Austin<br>US, Arizona, Phoenix<br>US, Oregon, Hillsboro</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "frontend",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Texas-Austin/Senior-CPU-Front-End-Methodology-Engineer_JR0286460-1",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
+      "id": "66648eee2d6ba9fe",
+      "kind": "job",
+      "company": "Intel",
+      "title": "Senior Middleware Software Development Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, Oregon, Hillsboro<br>US, Texas, Austin</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-Middleware-Software-Development-Engineer_JR0286296",
+      "source": "workday:intel",
+      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
+    },
+    {
       "id": "dbb8f53fad68bfd1",
       "kind": "job",
       "company": "Mercor",
@@ -54436,6 +55126,21 @@
         "Python",
         "AWS"
       ]
+    },
+    {
+      "id": "46375f6dee439355",
+      "kind": "job",
+      "company": "Tencent",
+      "title": "Software Engineering Intern (Overseas AdTech Data Systems)",
+      "location": "Singapore-CapitaSky",
+      "level": "internship",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Software-Engineering-Intern--Overseas-AdTech-Data-Systems-_R108000",
+      "source": "workday:tencent",
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/tencent_careers/jobs"
     },
     {
       "id": "30c26939c4665293",
@@ -74805,18 +75510,6 @@
   ],
   "hackathons": [
     {
-      "id": "30f4d87edfbdea96",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Cognition - GameJam '26",
-      "location": "Navi Mumbai, India",
-      "date": "last day",
-      "posted_at": "2026-09-26",
-      "url": "https://cognition-gamejam-1.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "040fd44c3beecae3",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -74841,36 +75534,12 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "6e2ff6c9d17a126c",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "NexHack 2.0",
-      "location": "New Delhi, India",
-      "date": "last day",
-      "posted_at": "2026-09-26",
-      "url": "https://nexhack-2.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "a3e83758c0d075c6",
-      "kind": "hackathon",
-      "company": "KARE IEEE EDS",
-      "title": "Chipcraft 3.0 - 24 Hour VLSI Hackathon",
-      "location": "DSPSD Lab (321), Block III",
-      "date": "about 8 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://chipcraft-3-0.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "ab3c8b2ee4f23a39",
       "kind": "hackathon",
       "company": "RotaractClub of SNSCollege of Technology",
       "title": "Zero Origin",
       "location": "Online",
-      "date": "about 10 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-09-26",
       "url": "https://zero-origin.devpost.com/",
       "source": "devpost",
@@ -74894,9 +75563,21 @@
       "company": "Hack Club",
       "title": "Acodemic X G.I.R.L.S. Global SDG Hackathon",
       "location": "Online",
-      "date": "about 21 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-09-26",
       "url": "https://acodemic-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "34c64aefad0e72ba",
+      "kind": "hackathon",
+      "company": "TechZap Club",
+      "title": "3rd-Web-Hack",
+      "location": "Online",
+      "date": "about 18 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://3rd-web-hack.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -74923,6 +75604,18 @@
       "url": "https://csc-fucs.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "285630e1134ad955",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Builders Day by HackUnion",
+      "location": "Hyderabad, India",
+      "date": "1 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://builders-day-hackunion.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "309ecf9bf48a2f35",
@@ -74997,30 +75690,6 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "34c64aefad0e72ba",
-      "kind": "hackathon",
-      "company": "TechZap Club",
-      "title": "3rd-Web-Hack",
-      "location": "Online",
-      "date": "1 day left",
-      "posted_at": "2026-09-26",
-      "url": "https://3rd-web-hack.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "285630e1134ad955",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Builders Day by HackUnion",
-      "location": "Hyderabad, India",
-      "date": "2 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://builders-day-hackunion.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "94e9985d7316beff",
       "kind": "hackathon",
       "company": "Impact Hub Houston",
@@ -75057,6 +75726,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "802a50864a822d90",
+      "kind": "hackathon",
+      "company": "AITD EVENTS",
+      "title": "Hack Days Turbhe",
+      "location": "Navi Mumbai, India",
+      "date": "3 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://hack-days-turbhe.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "6c4371e78a523826",
       "kind": "hackathon",
       "company": "Jāgriti Technologies PVT LTD",
@@ -75079,30 +75760,6 @@
       "url": "https://luma-hackathon-fall.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "802a50864a822d90",
-      "kind": "hackathon",
-      "company": "AITD EVENTS",
-      "title": "Hack Days Turbhe",
-      "location": "Navi Mumbai, India",
-      "date": "4 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://hack-days-turbhe.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "213e99592eedec18",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "CodeStorm 2026: FutureForge",
-      "location": "Online",
-      "date": "4 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://codestorm-futureforge.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "6a6b6c9126875a3a",
@@ -75129,6 +75786,42 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "84fd0eca7466b4a1",
+      "kind": "hackathon",
+      "company": "Evorozen",
+      "title": "Evorozen Apex: NextGen AI Buildathon",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://evorozen-apex.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "1ce2a62df36c1b5c",
+      "kind": "hackathon",
+      "company": "FirstCommit",
+      "title": "Beginner's Paradise - FirstCommit",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://firstcommit.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "f1fe9c227e1daa45",
+      "kind": "hackathon",
+      "company": "hyperbloom hacks",
+      "title": "Hyperbloom September - Beginer Freindly",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://hyperbloom-september2.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "9d04d4ad2e687283",
       "kind": "hackathon",
       "company": "Institute of Engineering & Management",
@@ -75141,6 +75834,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "f7fa8ecda1e0386d",
+      "kind": "hackathon",
+      "company": "pimpri chinchwad college of engineering",
+      "title": "DecentraHack 2.0",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://decentrahack-2-0.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "88933e7fa3c15313",
       "kind": "hackathon",
       "company": "President University",
@@ -75149,42 +75854,6 @@
       "date": "4 days left",
       "posted_at": "2026-09-26",
       "url": "https://compsphere12.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "84fd0eca7466b4a1",
-      "kind": "hackathon",
-      "company": "Evorozen",
-      "title": "Evorozen Apex: NextGen AI Buildathon",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://evorozen-apex.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "1ce2a62df36c1b5c",
-      "kind": "hackathon",
-      "company": "FirstCommit",
-      "title": "Beginner's Paradise - FirstCommit",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://firstcommit.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "f1fe9c227e1daa45",
-      "kind": "hackathon",
-      "company": "hyperbloom hacks",
-      "title": "Hyperbloom September - Beginer Freindly",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://hyperbloom-september2.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75213,18 +75882,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "f7fa8ecda1e0386d",
-      "kind": "hackathon",
-      "company": "pimpri chinchwad college of engineering",
-      "title": "DecentraHack 2.0",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://decentrahack-2-0.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "86da6bc1fc64e474",
       "kind": "hackathon",
       "company": "Swift at FIU",
@@ -75242,7 +75899,7 @@
       "company": "Devfolio",
       "title": "Grand Innovation Challenge",
       "location": "Digdoh, India",
-      "date": "7 days left",
+      "date": "6 days left",
       "posted_at": "2026-09-26",
       "url": "https://grand-innovation-challenge.devfolio.co",
       "source": "devfolio",
@@ -75254,9 +75911,21 @@
       "company": "Devfolio",
       "title": "HackSpire'26",
       "location": "Kolkata, India",
-      "date": "7 days left",
+      "date": "6 days left",
       "posted_at": "2026-09-26",
       "url": "https://hackspire26.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "67489d16f2ffb8e2",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Codeutsava X.0",
+      "location": "Raipur, India",
+      "date": "7 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://codeutsava-x.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75273,18 +75942,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "67489d16f2ffb8e2",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Codeutsava X.0",
-      "location": "Raipur, India",
-      "date": "8 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://codeutsava-x.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "aae78163e63a89d8",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75295,6 +75952,18 @@
       "url": "https://boss-battle.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "6b9b278cb5a44e22",
+      "kind": "hackathon",
+      "company": "Lovhack",
+      "title": "LovHack Season 3",
+      "location": "Online",
+      "date": "9 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://lovhack-season-3.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "231bd74ad1c43615",
@@ -75350,7 +76019,7 @@
       "company": "Devfolio",
       "title": "Recursive",
       "location": "Panihati, India",
-      "date": "12 days left",
+      "date": "11 days left",
       "posted_at": "2026-09-26",
       "url": "https://recursiveacm.devfolio.co",
       "source": "devfolio",
@@ -75381,6 +76050,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "3788a163f72d0735",
+      "kind": "hackathon",
+      "company": "Creator Colosseum",
+      "title": "Creator Colosseum: The Startup Showdown",
+      "location": "Online",
+      "date": "14 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://creatorcolosseumshowdown.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "7c4b6daf2e4e9ec2",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75401,6 +76082,18 @@
       "date": "14 days left",
       "posted_at": "2026-09-26",
       "url": "https://hackinverse-s1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "abb36eb72fb88192",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Innohacks 4.0",
+      "location": "Ghaziabad, India",
+      "date": "14 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://innohacks-4.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75441,30 +76134,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "3788a163f72d0735",
-      "kind": "hackathon",
-      "company": "Creator Colosseum",
-      "title": "Creator Colosseum: The Startup Showdown",
-      "location": "Online",
-      "date": "15 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://creatorcolosseumshowdown.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "abb36eb72fb88192",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Innohacks 4.0",
-      "location": "Ghaziabad, India",
-      "date": "15 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://innohacks-4.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "7bee8c487ac45feb",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75473,6 +76142,30 @@
       "date": "15 days left",
       "posted_at": "2026-09-26",
       "url": "https://innosprint-3.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "213e99592eedec18",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "CodeStorm 2026: FutureForge",
+      "location": "Online",
+      "date": "19 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://codestorm-futureforge.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "851cac0157a230c0",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "HackTopus'FE",
+      "location": "Bharthia, India",
+      "date": "19 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://hacktopusgdg.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75501,6 +76194,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "a590ba4acbf4fa0e",
+      "kind": "hackathon",
+      "company": "Student Organization",
+      "title": "Next Founders Hackathon",
+      "location": "Online",
+      "date": "19 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://next-founders.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "d4d708aa4e9c3438",
       "kind": "hackathon",
       "company": "vikrant university, gwalior",
@@ -75511,18 +76216,6 @@
       "url": "https://indux-5-0-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "851cac0157a230c0",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "HackTopus'FE",
-      "location": "Bharthia, India",
-      "date": "20 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://hacktopusgdg.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "45edeb843b6bf56f",
@@ -75537,24 +76230,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "a590ba4acbf4fa0e",
-      "kind": "hackathon",
-      "company": "Student Organization",
-      "title": "Next Founders Hackathon",
-      "location": "Online",
-      "date": "20 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://next-founders.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "648e2fdad87c0015",
       "kind": "hackathon",
       "company": "Silicon Valley Youth Climate Action",
       "title": "SVYCA Youth for Earth (Y4E) Hackathon",
       "location": "Stanford University",
-      "date": "23 days left",
+      "date": "22 days left",
       "posted_at": "2026-09-26",
       "url": "https://svycay4e.devpost.com/",
       "source": "devpost",
@@ -75597,6 +76278,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "4d198d7fa4844cf4",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Realm Hack '26",
+      "location": "Thodiyoor, India",
+      "date": "27 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://realm-hack-1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "13a28d74695ef9f8",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75629,18 +76322,6 @@
       "date": "28 days left",
       "posted_at": "2026-09-26",
       "url": "https://quanthacks2026.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "4d198d7fa4844cf4",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Realm Hack '26",
-      "location": "Thodiyoor, India",
-      "date": "28 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://realm-hack-1.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75710,7 +76391,7 @@
       "company": "Devfolio",
       "title": "GeNarrative Clash",
       "location": "Kolkata, India",
-      "date": "35 days left",
+      "date": "34 days left",
       "posted_at": "2026-09-26",
       "url": "https://genarrative-clash.devfolio.co",
       "source": "devfolio",
@@ -75722,7 +76403,7 @@
       "company": "Devfolio",
       "title": "HACKER HOUSE GOA 2026",
       "location": "India",
-      "date": "35 days left",
+      "date": "34 days left",
       "posted_at": "2026-09-26",
       "url": "https://hacker-house-goa-2026.devfolio.co",
       "source": "devfolio",
@@ -75890,7 +76571,7 @@
       "company": "Devfolio",
       "title": "Convergence",
       "location": "Kalyani, India",
-      "date": "113 days left",
+      "date": "112 days left",
       "posted_at": "2026-09-26",
       "url": "https://convergence1.devfolio.co",
       "source": "devfolio",
@@ -78959,18 +79640,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-26",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -78979,18 +79648,6 @@
       "date": "",
       "posted_at": "2026-09-26",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-26",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
