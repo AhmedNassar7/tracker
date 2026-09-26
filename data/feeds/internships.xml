@@ -4,7 +4,7 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Sat, 26 Sep 2026 01:34:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 07:41:36 GMT</lastBuildDate>
     <item>
       <title>Atlassian — Data Scientist Intern 🎓</title>
       <link>https://campus-americas.icims.com/jobs/26271/data-scientist-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
@@ -294,6 +294,13 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
+      <guid isPermaLink="false">c3b11892340bdad3</guid>
+      <description>Toronto · internship · 1d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
       <link>https://stripe.com/jobs/search?gh_jid=8097801</link>
       <guid isPermaLink="false">c605f6dad3d2889c</guid>
       <description>Dublin · internship · 1d</description>
@@ -304,13 +311,6 @@
       <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
       <guid isPermaLink="false">bbe14083e01b613a</guid>
       <description>San Francisco, Seattle, New York City · internship · 1d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
-      <guid isPermaLink="false">c3b11892340bdad3</guid>
-      <description>Toronto · internship · 1d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -708,7 +708,7 @@
     <item>
       <title>Amazon — Software Development Engineer Intern - Summer</title>
       <link>https://amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">357aa1684c82bc0b</guid>
+      <guid isPermaLink="false">6d81493b6a0433b5</guid>
       <description>Seattle, WA Arlington County, Arlington, VA · internship · 8d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1042,13 +1042,6 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Software Engineer Intern</title>
-      <link>https://job-boards.greenhouse.io/doordashcanada/jobs/8170944?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">c74e55a6998a9f82</guid>
-      <description>Toronto, ON, Canada · internship · 11d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google — Business Data Scientist Intern - PhD - Summer 2027</title>
       <link>https://www.google.com/about/careers/applications/jobs/results/134577198026629830</link>
       <guid isPermaLink="false">fcdc2c3d01737e47</guid>
@@ -1060,6 +1053,13 @@
       <link>https://www.google.com/about/careers/applications/jobs/results/89965613241246406</link>
       <guid isPermaLink="false">d8f4209356207357</guid>
       <description>Mountain View, CA +30 · internship · 11d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineer Intern</title>
+      <link>https://job-boards.greenhouse.io/doordashcanada/jobs/8170944?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">937008f62fe29951</guid>
+      <description>Toronto, ON, Canada · internship · 11d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1273,13 +1273,6 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer Intern - Robotics</title>
-      <link>https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">3b17adec36fe97d5</guid>
-      <description>7 locationsSeattle, WA Nashville, TN Austin, TX North Reading, MA Arlington County, Arlington, VA Bellevue, WA Westborough, MA · internship · 16d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer Intern/Co-Op - ROBOTICS - 2027</title>
       <link>https://www.amazon.jobs/jobs/10529525/apply</link>
       <guid isPermaLink="false">fb998a5a8e7af35d</guid>
@@ -1421,16 +1414,16 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90891?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">b5e1e562d656d53e</guid>
-      <description>San Jose, CA Santa Clara, CA · internship · 19d</description>
+      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2c822e92c85d92c2</guid>
+      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 19d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2c822e92c85d92c2</guid>
-      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 19d</description>
+      <link>https://careers.amd.com/jobs/90891?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">b5e1e562d656d53e</guid>
+      <description>San Jose, CA Santa Clara, CA · internship · 19d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1579,6 +1572,13 @@
       <guid isPermaLink="false">a6a1189f9d05ec0f</guid>
       <description>SF · internship · 21d</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer Intern - Robotics</title>
+      <link>https://amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">0fda83d79cf01519</guid>
+      <description>Seattle, WA +6 more · internship · 22d</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Tesla — Embedded Software Engineer Intern - Optimus</title>
@@ -1903,70 +1903,10 @@
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Intel — System Software Engineering - PhD Intern</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/System-Software-Engineering---PhD-Intern_JR0287457</link>
-      <guid isPermaLink="false">839d3ad49190d234</guid>
-      <description>US, Oregon, Hillsboro · internship · 0d</description>
-    </item>
-    <item>
       <title>PwC — Capital Projects &amp; Economics Intern - ambito Infrastrutture, Trasporti e Logistica - Roma</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/Capital-Projects---Economics-Intern---ambito-Infrastrutture--Trasporti-e-Logistica---Roma_721760WD-3</link>
       <guid isPermaLink="false">bea75a67fc8c8375</guid>
-      <description>Rome · internship · 0d</description>
-    </item>
-    <item>
-      <title>Tencent — Site Reliability Engineer (SRE) Intern — AI Infrastructure</title>
-      <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1</link>
-      <guid isPermaLink="false">b9d57e80420f8ae7</guid>
-      <description>US-California-Palo Alto · internship · 3d</description>
-    </item>
-    <item>
-      <title>Mastercard — Platform Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876</link>
-      <guid isPermaLink="false">738f942ae512bffb</guid>
-      <description>O'Fallon, Missouri · internship · 7d</description>
-    </item>
-    <item>
-      <title>Tencent — PUBG Mobile Marketing Team Intern</title>
-      <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1</link>
-      <guid isPermaLink="false">d03d9fcbae5645b6</guid>
-      <description>United Kingdom-London +1 more · internship · 7d</description>
-    </item>
-    <item>
-      <title>Tencent — Tencent Cloud - Edge Platform Product Solutions Architecture Intern - Singapore</title>
-      <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Tencent-Cloud---Edge-Platform-Product-Solutions-Architecture-Intern---Singapore_R107927</link>
-      <guid isPermaLink="false">b04914868a2d2774</guid>
-      <description>Singapore-CapitaSky · internship · 8d</description>
-    </item>
-    <item>
-      <title>Tencent — Backend Development Intern (6 months)</title>
-      <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Backend-Development-Intern--6-months-_R108169</link>
-      <guid isPermaLink="false">947c5adac492a8f0</guid>
-      <description>Singapore-CapitaSky · internship · 10d</description>
-    </item>
-    <item>
-      <title>Mastercard — Platform Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875</link>
-      <guid isPermaLink="false">5e9b9621887c1795</guid>
-      <description>O'Fallon, Missouri · internship · 17d</description>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer Intern, Summer 2027 - Singapore</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Software-Engineer-Intern--Summer-2027---Singapore_R-287574</link>
-      <guid isPermaLink="false">0efc50ea938feed8</guid>
-      <description>Singapore · internship · 21d</description>
-    </item>
-    <item>
-      <title>Mastercard — Site Reliability Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654</link>
-      <guid isPermaLink="false">a37641f25aff562b</guid>
-      <description>O'Fallon, Missouri · internship · 22d</description>
-    </item>
-    <item>
-      <title>Tencent — Software Engineering Intern (Overseas AdTech Data Systems)</title>
-      <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Software-Engineering-Intern--Overseas-AdTech-Data-Systems-_R108000</link>
-      <guid isPermaLink="false">46375f6dee439355</guid>
-      <description>Singapore-CapitaSky · internship · 30d</description>
+      <description>Rome · internship · 1d</description>
     </item>
   </channel>
 </rss>
