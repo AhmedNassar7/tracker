@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Sat, 26 Sep 2026 19:53:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 22:50:34 GMT</lastBuildDate>
     <item>
       <title>Devfolio — Hack4Brahma 2.0</title>
       <link>https://hack4brahma2.devfolio.co</link>
@@ -20,27 +20,6 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Computing Org for Multicultural Students — The Tiger Games '26</title>
-      <link>https://the-tiger-games-26.devpost.com/</link>
-      <guid isPermaLink="false">d0f242cbedbc5239</guid>
-      <description>Golisano College of Computing @ RIT · about 2 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hack Club — Graphiques Innovation Challenge</title>
-      <link>https://graphiques-challenge.devpost.com/</link>
-      <guid isPermaLink="false">a1b0841eccae8d89</guid>
-      <description>Online · about 2 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bitrig — Bitrig Hacks iPhone Duo Edition</title>
-      <link>https://bitrig-hacks-duo-edition.devpost.com/</link>
-      <guid isPermaLink="false">4f15f630ebe2ecc9</guid>
-      <description>YC San Francisco · about 3 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Hacker Fund — Jewel City Hacks 5.0</title>
       <link>https://jewel-city-hacks-5-0.devpost.com/</link>
       <guid isPermaLink="false">0590934617c38219</guid>
@@ -51,112 +30,140 @@
       <title>Hack Club — Acodemic X G.I.R.L.S. Global SDG Hackathon</title>
       <link>https://acodemic-hackathon.devpost.com/</link>
       <guid isPermaLink="false">252569c440384922</guid>
-      <description>Online · about 9 hours left</description>
+      <description>Online · about 6 hours left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TechZap Club — 3rd-Web-Hack</title>
       <link>https://3rd-web-hack.devpost.com/</link>
       <guid isPermaLink="false">34c64aefad0e72ba</guid>
-      <description>Online · about 11 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Major League Hacking — OwlHacks 2026</title>
-      <link>https://owlhacks-2026.devpost.com/</link>
-      <guid isPermaLink="false">c3e674b9414a7bc1</guid>
-      <description>Temple University - SERC · about 18 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Capital Technology Network — Hack the Hill III</title>
-      <link>https://hack-the-hill-iii.devpost.com/</link>
-      <guid isPermaLink="false">27be7f2c92b84f60</guid>
-      <description>Learning Crossroads (CRX) - uOttawa · about 19 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Columbia University WiCS — DivHacks 2026</title>
-      <link>https://divhacks-2026.devpost.com/</link>
-      <guid isPermaLink="false">e02111f838ebf5ae</guid>
-      <description>Columbia University - Alfred Lerner Hall · about 19 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Init — ShellHacks 2026</title>
-      <link>https://shellhacks-2026.devpost.com/</link>
-      <guid isPermaLink="false">e4b3d72ecca0cde4</guid>
-      <description>Florida International University · about 19 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jaseci Labs — JacHacks a2Tech</title>
-      <link>https://jachacks-a2tech.devpost.com/</link>
-      <guid isPermaLink="false">8549a11ab236c9f8</guid>
-      <description>UMich - Leinweber CS Building · about 19 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Carolina Analytics and Data Science — Carolina Data Challenge 2026</title>
-      <link>https://carolina-data-challenge-2026.devpost.com/</link>
-      <guid isPermaLink="false">e72d5c29af147f86</guid>
-      <description>UNC Chapel Hill - Sitterson Hall · about 20 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Formulatech — FormulaTech Hacks</title>
-      <link>https://formulatech-hacks.devpost.com/</link>
-      <guid isPermaLink="false">c3594a6276cea8e6</guid>
-      <description>University of Waterloo PSE Building · about 20 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hack Atlantic — Hack Atlantic</title>
-      <link>https://hack-atlantic1.devpost.com/</link>
-      <guid isPermaLink="false">a6349a893ba813c0</guid>
-      <description>Online · about 20 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>hackUMBC — hackUMBC 2026</title>
-      <link>https://hackumbc-2026.devpost.com/</link>
-      <guid isPermaLink="false">a9b8824dfc696a43</guid>
-      <description>RAC (Retriever Activities Center) · about 20 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mizzou Computing Association — TigerHacks 2026</title>
-      <link>https://tigerhacks-2026.devpost.com/</link>
-      <guid isPermaLink="false">8776a19a253e941d</guid>
-      <description>Various · about 20 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tech Exploration Lab — Badger Build Fest 2026</title>
-      <link>https://badger-build-fest-2026.devpost.com/</link>
-      <guid isPermaLink="false">62380f17347b46a3</guid>
-      <description>Morgridge Hall - Hello World · about 20 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ascendence Foundry — Ascendance Foundry's Hackathon</title>
-      <link>https://ascendance-foundry-s-hackathon.devpost.com/</link>
-      <guid isPermaLink="false">407699a7951f59f1</guid>
-      <description>University of Waterloo · about 21 hours left</description>
+      <description>Online · about 8 hours left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>CSC x FUCS — 2026 CS Club Hackathon</title>
       <link>https://csc-fucs.devpost.com/</link>
       <guid isPermaLink="false">1c70d2c89a789e3a</guid>
-      <description>Adelaide University · about 21 hours left</description>
+      <description>Adelaide University · about 14 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Major League Hacking — OwlHacks 2026</title>
+      <link>https://owlhacks-2026.devpost.com/</link>
+      <guid isPermaLink="false">c3e674b9414a7bc1</guid>
+      <description>Temple University - SERC · about 15 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Capital Technology Network — Hack the Hill III</title>
+      <link>https://hack-the-hill-iii.devpost.com/</link>
+      <guid isPermaLink="false">27be7f2c92b84f60</guid>
+      <description>Learning Crossroads (CRX) - uOttawa · about 16 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Carolina Analytics and Data Science — Carolina Data Challenge 2026</title>
+      <link>https://carolina-data-challenge-2026.devpost.com/</link>
+      <guid isPermaLink="false">e72d5c29af147f86</guid>
+      <description>UNC Chapel Hill - Sitterson Hall · about 16 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Columbia University WiCS — DivHacks 2026</title>
+      <link>https://divhacks-2026.devpost.com/</link>
+      <guid isPermaLink="false">e02111f838ebf5ae</guid>
+      <description>Columbia University - Alfred Lerner Hall · about 16 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Init — ShellHacks 2026</title>
+      <link>https://shellhacks-2026.devpost.com/</link>
+      <guid isPermaLink="false">e4b3d72ecca0cde4</guid>
+      <description>Florida International University · about 16 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jaseci Labs — JacHacks a2Tech</title>
+      <link>https://jachacks-a2tech.devpost.com/</link>
+      <guid isPermaLink="false">8549a11ab236c9f8</guid>
+      <description>UMich - Leinweber CS Building · about 16 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mizzou Computing Association — TigerHacks 2026</title>
+      <link>https://tigerhacks-2026.devpost.com/</link>
+      <guid isPermaLink="false">8776a19a253e941d</guid>
+      <description>Various · about 16 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Formulatech — FormulaTech Hacks</title>
+      <link>https://formulatech-hacks.devpost.com/</link>
+      <guid isPermaLink="false">c3594a6276cea8e6</guid>
+      <description>University of Waterloo PSE Building · about 17 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>hackUMBC — hackUMBC 2026</title>
+      <link>https://hackumbc-2026.devpost.com/</link>
+      <guid isPermaLink="false">a9b8824dfc696a43</guid>
+      <description>RAC (Retriever Activities Center) · about 17 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ascendence Foundry — Ascendance Foundry's Hackathon</title>
+      <link>https://ascendance-foundry-s-hackathon.devpost.com/</link>
+      <guid isPermaLink="false">407699a7951f59f1</guid>
+      <description>University of Waterloo · about 18 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tech Exploration Lab — Badger Build Fest 2026</title>
+      <link>https://badger-build-fest-2026.devpost.com/</link>
+      <guid isPermaLink="false">62380f17347b46a3</guid>
+      <description>Morgridge Hall - Hello World · about 18 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hack Atlantic — Hack Atlantic</title>
+      <link>https://hack-atlantic1.devpost.com/</link>
+      <guid isPermaLink="false">a6349a893ba813c0</guid>
+      <description>Online · about 19 hours left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>HackWashU — HackWashU Fall AI Build Challenge</title>
       <link>https://hackwashu-fall-ai-2026.devpost.com/</link>
       <guid isPermaLink="false">309ecf9bf48a2f35</guid>
-      <description>Washington University in St. Louis · about 21 hours left</description>
+      <description>Washington University in St. Louis · about 19 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>UBC BizTech — HelloHacks</title>
+      <link>https://hellohacks-2026.devpost.com/</link>
+      <guid isPermaLink="false">8b25b53861a69a06</guid>
+      <description>University of British Columbia (UBC) · about 20 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lexhack — LexHack 2026</title>
+      <link>https://lexhack-2026.devpost.com/</link>
+      <guid isPermaLink="false">345b7b76d3475cca</guid>
+      <description>Online · about 22 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lovely Professional University — Bharat Innovation Challenge 2.0</title>
+      <link>https://bic.devpost.com/</link>
+      <guid isPermaLink="false">2f72f7cd55a8f270</guid>
+      <description>Lovely Professional University · about 22 hours left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hack Club — Graphiques Innovation Challenge</title>
+      <link>https://graphiques-challenge.devpost.com/</link>
+      <guid isPermaLink="false">a1b0841eccae8d89</guid>
+      <description>Online · about 23 hours left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -174,38 +181,10 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>HackerEarth — ABB Accelerator 2026</title>
-      <link>https://www.hackerearth.com/challenges/hackathon/abb-accelerator-2026-2/</link>
-      <guid isPermaLink="false">583e7371ecfd83ad</guid>
-      <description>Online · 1 days left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lexhack — LexHack 2026</title>
-      <link>https://lexhack-2026.devpost.com/</link>
-      <guid isPermaLink="false">345b7b76d3475cca</guid>
-      <description>Online · 1 day left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lovely Professional University — Bharat Innovation Challenge 2.0</title>
-      <link>https://bic.devpost.com/</link>
-      <guid isPermaLink="false">2f72f7cd55a8f270</guid>
-      <description>Lovely Professional University · 1 day left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>UBC BizTech — HelloHacks</title>
-      <link>https://hellohacks-2026.devpost.com/</link>
-      <guid isPermaLink="false">8b25b53861a69a06</guid>
-      <description>University of British Columbia (UBC) · about 24 hours left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Tiehub — Origin Weekend Fall 2026 (x Replit)</title>
       <link>https://origin-weekend-fall-2026.devpost.com/</link>
       <guid isPermaLink="false">471738abee269af5</guid>
-      <description>Los Angeles, CA, USA · 2 days left</description>
+      <description>Los Angeles, CA, USA · 1 day left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -300,37 +279,9 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>HackerEarth — HCLTech GCP Data Engineer Hiring Challenge</title>
-      <link>https://www.hackerearth.com/challenges/competitive/hcltech-gcp-data-engineer-hiring-challenge/</link>
-      <guid isPermaLink="false">711037d4d631043d</guid>
-      <description>Online · 7 days left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — HCLTech Java Engineering Hiring Challenge</title>
-      <link>https://www.hackerearth.com/challenges/competitive/hcltech-java-challenge-2027/</link>
-      <guid isPermaLink="false">41ea8baebacd1770</guid>
-      <description>Online · 7 days left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — Yuva Yodha Energy Tech Hackathon</title>
-      <link>https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/</link>
-      <guid isPermaLink="false">ca1b23b0b76fef00</guid>
-      <description>Online · 7 days left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — BOSS Battle</title>
       <link>https://boss-battle.devfolio.co</link>
       <guid isPermaLink="false">aae78163e63a89d8</guid>
-      <description>Online · 8 days left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — VibeCode Arena: AI Innovation Arena</title>
-      <link>https://www.hackerearth.com/challenges/hackathon/vibecode-arena-ai-innovation-arena/</link>
-      <guid isPermaLink="false">796720887e319f56</guid>
       <description>Online · 8 days left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -367,13 +318,6 @@
       <link>https://recursiveacm.devfolio.co</link>
       <guid isPermaLink="false">9f2f7c6bbe243e4d</guid>
       <description>Panihati, India · 11 days left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — HackCellence: The Embark Edition</title>
-      <link>https://www.hackerearth.com/challenges/hackathon/hackcellence-the-embark-edition/</link>
-      <guid isPermaLink="false">0681085f6b3a6dee</guid>
-      <description>Online · 11 days left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -489,13 +433,6 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>HackerEarth — Pride In Tech by Godrej Capital</title>
-      <link>https://www.hackerearth.com/challenges/competitive/pride-in-tech-by-godrej-capital/</link>
-      <guid isPermaLink="false">99d7f3613394dd3b</guid>
-      <description>Online · 21 days left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Silicon Valley Youth Climate Action — SVYCA Youth for Earth (Y4E) Hackathon</title>
       <link>https://svycay4e.devpost.com/</link>
       <guid isPermaLink="false">648e2fdad87c0015</guid>
@@ -562,13 +499,20 @@
       <title>Devpost — Build With AI: Basics</title>
       <link>https://learn-ai-basics.devpost.com/</link>
       <guid isPermaLink="false">e878e0f66a68e5d9</guid>
-      <description>Online · about 1 month left</description>
+      <description>Online · 30 days left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Nebius — Nebius x NVIDIA Global AI Hackathon</title>
       <link>https://nebiusglobalaihackathon.devpost.com/</link>
       <guid isPermaLink="false">824a8b781814bdae</guid>
+      <description>Online · about 1 month left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenCV — OpenCV AI Competition 2026, powered by AWS</title>
+      <link>https://opencv26.devpost.com/</link>
+      <guid isPermaLink="false">efb32028a7cadcd0</guid>
       <description>Online · about 1 month left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -608,17 +552,17 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Hack On Hills 8.0</title>
+      <link>https://hackonhills8.devfolio.co</link>
+      <guid isPermaLink="false">03943543974f740e</guid>
+      <description>Hamirpur, India · 35 days left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — hackodisha-6.0</title>
       <link>https://hackodisha-6a.devfolio.co</link>
       <guid isPermaLink="false">d553006f7fba567c</guid>
       <description>Online · 35 days left</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Hack On Hills 8.0</title>
-      <link>https://hackonhills8.devfolio.co</link>
-      <guid isPermaLink="false">03943543974f740e</guid>
-      <description>Hamirpur, India · 36 days left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -689,6 +633,13 @@
       <link>https://hack-with-gdg-s4.devfolio.co</link>
       <guid isPermaLink="false">4041fe9f08aba863</guid>
       <description>KSR Kalvi Nagar, India · 119 days left</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bitrig — Bitrig Hacks iPhone Duo Edition</title>
+      <link>https://bitrig-hacks-duo-edition.devpost.com/</link>
+      <guid isPermaLink="false">4f15f630ebe2ecc9</guid>
+      <description>YC San Francisco · 41 minutes left</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
