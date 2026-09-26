@@ -1,7 +1,65 @@
 {
-  "generated_at": "2026-09-26T19:51:06Z",
-  "total": 3612,
+  "generated_at": "2026-09-26T22:48:50Z",
+  "total": 3606,
   "jobs": [
+    {
+      "id": "97ec1834eb74c3e5",
+      "kind": "job",
+      "company": "Celonis",
+      "title": "(Senior) Backend Software Engineer (Java) - Metadata Platform DB",
+      "location": "Munich, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "2026-09-26",
+      "url": "https://job-boards.greenhouse.io/celonis/jobs/7997059003?gh_jid=7997059003",
+      "source": "greenhouse:celonis",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Rust",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "min_years_experience": 7
+    },
+    {
+      "id": "9e971a62e5fb3d0b",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Director, Platform Engineering",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Director--Platform-Engineering_R-273321",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
+    {
+      "id": "3836c70f10a396ac",
+      "kind": "job",
+      "company": "Mastercard",
+      "title": "Senior Software Engineer",
+      "location": "O'Fallon, Missouri",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-287829",
+      "source": "workday:mastercard",
+      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
+    },
     {
       "id": "7b57fb548163b49f",
       "kind": "job",
@@ -11290,30 +11348,6 @@
       }
     },
     {
-      "id": "8054ad082c5be7f7",
-      "kind": "job",
-      "company": "Celonis",
-      "title": "Senior Software Engineer",
-      "location": "New York, US, New York",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-09-24",
-      "url": "https://job-boards.greenhouse.io/celonis/jobs/7989845003?gh_jid=7989845003",
-      "source": "greenhouse:celonis",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "salary": {
-        "min": 161000,
-        "max": 218000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "ce06959c170b586d",
       "kind": "job",
       "company": "Celonis",
@@ -11333,6 +11367,30 @@
       "salary": {
         "min": 176000,
         "max": 238000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "8054ad082c5be7f7",
+      "kind": "job",
+      "company": "Celonis",
+      "title": "Senior Software Engineer",
+      "location": "New York, US, New York",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-09-24",
+      "url": "https://job-boards.greenhouse.io/celonis/jobs/7989845003?gh_jid=7989845003",
+      "source": "greenhouse:celonis",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "salary": {
+        "min": 161000,
+        "max": 218000,
         "currency": "USD",
         "period": "year"
       }
@@ -75515,42 +75573,6 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "d0f242cbedbc5239",
-      "kind": "hackathon",
-      "company": "Computing Org for Multicultural Students",
-      "title": "The Tiger Games '26",
-      "location": "Golisano College of Computing @ RIT",
-      "date": "about 2 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://the-tiger-games-26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "a1b0841eccae8d89",
-      "kind": "hackathon",
-      "company": "Hack Club",
-      "title": "Graphiques Innovation Challenge",
-      "location": "Online",
-      "date": "about 2 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://graphiques-challenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "4f15f630ebe2ecc9",
-      "kind": "hackathon",
-      "company": "Bitrig",
-      "title": "Bitrig Hacks iPhone Duo Edition",
-      "location": "YC San Francisco",
-      "date": "about 3 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://bitrig-hacks-duo-edition.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "0590934617c38219",
       "kind": "hackathon",
       "company": "Hacker Fund",
@@ -75568,7 +75590,7 @@
       "company": "Hack Club",
       "title": "Acodemic X G.I.R.L.S. Global SDG Hackathon",
       "location": "Online",
-      "date": "about 9 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-09-26",
       "url": "https://acodemic-hackathon.devpost.com/",
       "source": "devpost",
@@ -75580,9 +75602,21 @@
       "company": "TechZap Club",
       "title": "3rd-Web-Hack",
       "location": "Online",
-      "date": "about 11 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-09-26",
       "url": "https://3rd-web-hack.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "1c70d2c89a789e3a",
+      "kind": "hackathon",
+      "company": "CSC x FUCS",
+      "title": "2026 CS Club Hackathon",
+      "location": "Adelaide University",
+      "date": "about 14 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://csc-fucs.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75592,7 +75626,7 @@
       "company": "Major League Hacking",
       "title": "OwlHacks 2026",
       "location": "Temple University - SERC",
-      "date": "about 18 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-09-26",
       "url": "https://owlhacks-2026.devpost.com/",
       "source": "devpost",
@@ -75604,9 +75638,21 @@
       "company": "Capital Technology Network",
       "title": "Hack the Hill III",
       "location": "Learning Crossroads (CRX) - uOttawa",
-      "date": "about 19 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-09-26",
       "url": "https://hack-the-hill-iii.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e72d5c29af147f86",
+      "kind": "hackathon",
+      "company": "Carolina Analytics and Data Science",
+      "title": "Carolina Data Challenge 2026",
+      "location": "UNC Chapel Hill - Sitterson Hall",
+      "date": "about 16 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://carolina-data-challenge-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75616,7 +75662,7 @@
       "company": "Columbia University WiCS",
       "title": "DivHacks 2026",
       "location": "Columbia University - Alfred Lerner Hall",
-      "date": "about 19 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-09-26",
       "url": "https://divhacks-2026.devpost.com/",
       "source": "devpost",
@@ -75628,7 +75674,7 @@
       "company": "init",
       "title": "ShellHacks 2026",
       "location": "Florida International University",
-      "date": "about 19 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-09-26",
       "url": "https://shellhacks-2026.devpost.com/",
       "source": "devpost",
@@ -75640,57 +75686,9 @@
       "company": "Jaseci Labs",
       "title": "JacHacks a2Tech",
       "location": "UMich - Leinweber CS Building",
-      "date": "about 19 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-09-26",
       "url": "https://jachacks-a2tech.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "e72d5c29af147f86",
-      "kind": "hackathon",
-      "company": "Carolina Analytics and Data Science",
-      "title": "Carolina Data Challenge 2026",
-      "location": "UNC Chapel Hill - Sitterson Hall",
-      "date": "about 20 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://carolina-data-challenge-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "c3594a6276cea8e6",
-      "kind": "hackathon",
-      "company": "formulatech",
-      "title": "FormulaTech Hacks",
-      "location": "University of Waterloo PSE Building",
-      "date": "about 20 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://formulatech-hacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "a6349a893ba813c0",
-      "kind": "hackathon",
-      "company": "Hack Atlantic",
-      "title": "Hack Atlantic",
-      "location": "Online",
-      "date": "about 20 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://hack-atlantic1.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "a9b8824dfc696a43",
-      "kind": "hackathon",
-      "company": "hackUMBC",
-      "title": "hackUMBC 2026",
-      "location": "RAC (Retriever Activities Center)",
-      "date": "about 20 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://hackumbc-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75700,21 +75698,33 @@
       "company": "Mizzou Computing Association",
       "title": "TigerHacks 2026",
       "location": "Various",
-      "date": "about 20 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-09-26",
       "url": "https://tigerhacks-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "62380f17347b46a3",
+      "id": "c3594a6276cea8e6",
       "kind": "hackathon",
-      "company": "Tech Exploration Lab",
-      "title": "Badger Build Fest 2026",
-      "location": "Morgridge Hall - Hello World",
-      "date": "about 20 hours left",
+      "company": "formulatech",
+      "title": "FormulaTech Hacks",
+      "location": "University of Waterloo PSE Building",
+      "date": "about 17 hours left",
       "posted_at": "2026-09-26",
-      "url": "https://badger-build-fest-2026.devpost.com/",
+      "url": "https://formulatech-hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "a9b8824dfc696a43",
+      "kind": "hackathon",
+      "company": "hackUMBC",
+      "title": "hackUMBC 2026",
+      "location": "RAC (Retriever Activities Center)",
+      "date": "about 17 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://hackumbc-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75724,21 +75734,33 @@
       "company": "Ascendence Foundry",
       "title": "Ascendance Foundry's Hackathon",
       "location": "University of Waterloo",
-      "date": "about 21 hours left",
+      "date": "about 18 hours left",
       "posted_at": "2026-09-26",
       "url": "https://ascendance-foundry-s-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "1c70d2c89a789e3a",
+      "id": "62380f17347b46a3",
       "kind": "hackathon",
-      "company": "CSC x FUCS",
-      "title": "2026 CS Club Hackathon",
-      "location": "Adelaide University",
-      "date": "about 21 hours left",
+      "company": "Tech Exploration Lab",
+      "title": "Badger Build Fest 2026",
+      "location": "Morgridge Hall - Hello World",
+      "date": "about 18 hours left",
       "posted_at": "2026-09-26",
-      "url": "https://csc-fucs.devpost.com/",
+      "url": "https://badger-build-fest-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "a6349a893ba813c0",
+      "kind": "hackathon",
+      "company": "Hack Atlantic",
+      "title": "Hack Atlantic",
+      "location": "Online",
+      "date": "about 19 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://hack-atlantic1.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75748,9 +75770,57 @@
       "company": "HackWashU",
       "title": "HackWashU Fall AI Build Challenge",
       "location": "Washington University in St. Louis",
-      "date": "about 21 hours left",
+      "date": "about 19 hours left",
       "posted_at": "2026-09-26",
       "url": "https://hackwashu-fall-ai-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "8b25b53861a69a06",
+      "kind": "hackathon",
+      "company": "UBC BizTech",
+      "title": "HelloHacks",
+      "location": "University of British Columbia (UBC)",
+      "date": "about 20 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://hellohacks-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "345b7b76d3475cca",
+      "kind": "hackathon",
+      "company": "Lexhack",
+      "title": "LexHack 2026",
+      "location": "Online",
+      "date": "about 22 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://lexhack-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "2f72f7cd55a8f270",
+      "kind": "hackathon",
+      "company": "Lovely Professional University",
+      "title": "Bharat Innovation Challenge 2.0",
+      "location": "Lovely Professional University",
+      "date": "about 22 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://bic.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "a1b0841eccae8d89",
+      "kind": "hackathon",
+      "company": "Hack Club",
+      "title": "Graphiques Innovation Challenge",
+      "location": "Online",
+      "date": "about 23 hours left",
+      "posted_at": "2026-09-26",
+      "url": "https://graphiques-challenge.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75779,60 +75849,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "583e7371ecfd83ad",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "ABB Accelerator 2026",
-      "location": "Online",
-      "date": "1 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://www.hackerearth.com/challenges/hackathon/abb-accelerator-2026-2/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
-      "id": "345b7b76d3475cca",
-      "kind": "hackathon",
-      "company": "Lexhack",
-      "title": "LexHack 2026",
-      "location": "Online",
-      "date": "1 day left",
-      "posted_at": "2026-09-26",
-      "url": "https://lexhack-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "2f72f7cd55a8f270",
-      "kind": "hackathon",
-      "company": "Lovely Professional University",
-      "title": "Bharat Innovation Challenge 2.0",
-      "location": "Lovely Professional University",
-      "date": "1 day left",
-      "posted_at": "2026-09-26",
-      "url": "https://bic.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "8b25b53861a69a06",
-      "kind": "hackathon",
-      "company": "UBC BizTech",
-      "title": "HelloHacks",
-      "location": "University of British Columbia (UBC)",
-      "date": "about 24 hours left",
-      "posted_at": "2026-09-26",
-      "url": "https://hellohacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "471738abee269af5",
       "kind": "hackathon",
       "company": "Tiehub",
       "title": "Origin Weekend Fall 2026 (x Replit)",
       "location": "Los Angeles, CA, USA",
-      "date": "2 days left",
+      "date": "1 day left",
       "posted_at": "2026-09-26",
       "url": "https://origin-weekend-fall-2026.devpost.com/",
       "source": "devpost",
@@ -75995,42 +76017,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "711037d4d631043d",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "HCLTech GCP Data Engineer Hiring Challenge",
-      "location": "Online",
-      "date": "7 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://www.hackerearth.com/challenges/competitive/hcltech-gcp-data-engineer-hiring-challenge/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
-      "id": "41ea8baebacd1770",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "HCLTech Java Engineering Hiring Challenge",
-      "location": "Online",
-      "date": "7 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://www.hackerearth.com/challenges/competitive/hcltech-java-challenge-2027/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
-      "id": "ca1b23b0b76fef00",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "Yuva Yodha Energy Tech Hackathon",
-      "location": "Online",
-      "date": "7 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
       "id": "aae78163e63a89d8",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -76041,18 +76027,6 @@
       "url": "https://boss-battle.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "796720887e319f56",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "VibeCode Arena: AI Innovation Arena",
-      "location": "Online",
-      "date": "8 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://www.hackerearth.com/challenges/hackathon/vibecode-arena-ai-innovation-arena/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "6b9b278cb5a44e22",
@@ -76113,18 +76087,6 @@
       "url": "https://recursiveacm.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "0681085f6b3a6dee",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "HackCellence: The Embark Edition",
-      "location": "Online",
-      "date": "11 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://www.hackerearth.com/challenges/hackathon/hackcellence-the-embark-edition/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "e000e6f0a8fb556f",
@@ -76319,18 +76281,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "99d7f3613394dd3b",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "Pride In Tech by Godrej Capital",
-      "location": "Online",
-      "date": "21 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://www.hackerearth.com/challenges/competitive/pride-in-tech-by-godrej-capital/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
       "id": "648e2fdad87c0015",
       "kind": "hackathon",
       "company": "Silicon Valley Youth Climate Action",
@@ -76444,7 +76394,7 @@
       "company": "Devpost",
       "title": "Build With AI: Basics",
       "location": "Online",
-      "date": "about 1 month left",
+      "date": "30 days left",
       "posted_at": "2026-09-26",
       "url": "https://learn-ai-basics.devpost.com/",
       "source": "devpost",
@@ -76459,6 +76409,18 @@
       "date": "about 1 month left",
       "posted_at": "2026-09-26",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "efb32028a7cadcd0",
+      "kind": "hackathon",
+      "company": "OpenCV",
+      "title": "OpenCV AI Competition 2026, powered by AWS",
+      "location": "Online",
+      "date": "about 1 month left",
+      "posted_at": "2026-09-26",
+      "url": "https://opencv26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76523,6 +76485,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "03943543974f740e",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hack On Hills 8.0",
+      "location": "Hamirpur, India",
+      "date": "35 days left",
+      "posted_at": "2026-09-26",
+      "url": "https://hackonhills8.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "d553006f7fba567c",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -76531,18 +76505,6 @@
       "date": "35 days left",
       "posted_at": "2026-09-26",
       "url": "https://hackodisha-6a.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "03943543974f740e",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hack On Hills 8.0",
-      "location": "Hamirpur, India",
-      "date": "36 days left",
-      "posted_at": "2026-09-26",
-      "url": "https://hackonhills8.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -76665,6 +76627,18 @@
       "url": "https://hack-with-gdg-s4.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "4f15f630ebe2ecc9",
+      "kind": "hackathon",
+      "company": "Bitrig",
+      "title": "Bitrig Hacks iPhone Duo Edition",
+      "location": "YC San Francisco",
+      "date": "41 minutes left",
+      "posted_at": "2026-09-26",
+      "url": "https://bitrig-hacks-duo-edition.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
@@ -79693,18 +79667,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-26",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -79713,18 +79675,6 @@
       "date": "",
       "posted_at": "2026-09-26",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-26",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

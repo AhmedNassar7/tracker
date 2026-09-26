@@ -28,14 +28,14 @@ Extra signals pulled straight from a posting's own text (only the ATS sources th
 
 | Section | Count |
 |---|---:|
-| Jobs | 4175 |
-| Hackathons | 98 |
-| Events | 255 |
-| Total | 4528 |
+| Jobs | 4176 |
+| Hackathons | 91 |
+| Events | 253 |
+| Total | 4520 |
 
 ## Jobs
 
-[![Jobs 4175](https://img.shields.io/badge/Jobs-4175-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 321](https://img.shields.io/badge/Internship-321-22c55e.svg)](#internship) [![Early Career 88](https://img.shields.io/badge/Early%20Career-88-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3766](https://img.shields.io/badge/Mid--Level%20and%20Above-3766-dc2626.svg)](#mid-level-and-above)
+[![Jobs 4176](https://img.shields.io/badge/Jobs-4176-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 321](https://img.shields.io/badge/Internship-321-22c55e.svg)](#internship) [![Early Career 87](https://img.shields.io/badge/Early%20Career-87-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3768](https://img.shields.io/badge/Mid--Level%20and%20Above-3768-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -114,8 +114,8 @@ Total roles: 321
 | AMD | [Software Engineer Intern/Co-op](https://img.shields.io/badge/-Apply-blue?style=for-the-badge) | Vancouver, BC | 10d |
 | AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 19d |
 | AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91359?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 19d |
-| AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 19d |
 | AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91367?icims=1&utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 19d |
+| AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91368?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 19d |
 | AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90891?icims=1&utm_source=Simplify&ref=Simplify) | San Jose, CA Santa Clara, CA | 19d |
 | AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90947?icims=1&utm_source=Simplify&ref=Simplify) | 6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA | 19d |
 | AMD | [Software Engineer Intern/Co-op - Masters 🎓](https://careers.amd.com/jobs/91176?icims=1&utm_source=Simplify&ref=Simplify) | San Jose, CA Santa Clara, CA | 19d |
@@ -220,8 +220,8 @@ Total roles: 321
 | ByteDance | [Software Engineer Intern - Global Traffic Architecture](https://jobs.bytedance.com/en/position/7672557061679483189/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 23d |
 | ByteDance | [Software Engineer Intern - Relational Database](https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 25d |
 | ByteDance | [Data Lake Infrastructure and Data Analytics Research Engineer Intern - Applied Machine Learning Ark](https://jobs.bytedance.com/en/position/7671109787509213445/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 26d |
-| ByteDance | [Agent Evaluation & Evolution Machine Learning Engineer Intern - Applied Machine Learning Ark](https://jobs.bytedance.com/en/position/7672391300141877557/detail?utm_source=Simplify&ref=Simplify) | Seattle, WA | 1mo |
 | ByteDance | [Agent Evaluation & Evolution Machine Learning Engineer Intern - Applied Machine Learning Ark](https://jobs.bytedance.com/en/position/7671096345243535669/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
+| ByteDance | [Agent Evaluation & Evolution Machine Learning Engineer Intern - Applied Machine Learning Ark](https://jobs.bytedance.com/en/position/7672391300141877557/detail?utm_source=Simplify&ref=Simplify) | Seattle, WA | 1mo |
 | ByteDance | [Applied Machine Learning Production Engineer Intern](https://joinbytedance.com/search/7670009669494704437?utm_source=github-vansh-ouckah) | San Jose, CA | 1mo |
 | ByteDance | [Backend Developer Intern - Infrastructure Platform Delivery](https://jobs.bytedance.com/en/position/7668489218234157365/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
 | ByteDance | [Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied Machine Learning Ark](https://jobs.bytedance.com/en/position/7672394389001816325/detail?utm_source=Simplify&ref=Simplify) | Seattle, WA | 1mo |
@@ -241,11 +241,11 @@ Total roles: 321
 | ByteDance | [Software Engineer Intern - AI Platform](https://jobs.bytedance.com/en/position/7668212952030841093/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
 | ByteDance | [Software Engineer Intern - Distributed NoSQL Database Systems](https://jobs.bytedance.com/en/position/7668374190764050741/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
 | ByteDance | [Software Engineer Intern, AI Platform 🛂](https://joinbytedance.com/search/7668212952030841093?utm_source=github-vansh-ouckah) | San Jose, CA | 1mo |
-| ByteDance | [Software Engineer Intern, Distributed NoSQL Database Systems](https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah) | Seattle, WA | 1mo |
 | ByteDance | [Software Engineer Intern, Distributed NoSQL Database Systems](https://joinbytedance.com/search/7668374190764050741?utm_source=github-vansh-ouckah) | San Jose, CA | 1mo |
+| ByteDance | [Software Engineer Intern, Distributed NoSQL Database Systems](https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah) | Seattle, WA | 1mo |
 | ByteDance | [Video/Image AI/ML Software Engineer Intern - Multimedia 🎓](https://jobs.bytedance.com/en/position/7670354329765464373/detail?utm_source=Simplify&ref=Simplify) | San Diego, CA | 1mo |
-| ByteDance | [Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern - AML-ARK](https://jobs.bytedance.com/en/position/7672392998231050549/detail?utm_source=Simplify&ref=Simplify) | Seattle, WA | 1mo |
 | ByteDance | [Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern - Aml-Ark](https://jobs.bytedance.com/en/position/7671105026009925893/detail?utm_source=Simplify&ref=Simplify) | San Jose, CA | 1mo |
+| ByteDance | [Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern - AML-ARK](https://jobs.bytedance.com/en/position/7672392998231050549/detail?utm_source=Simplify&ref=Simplify) | Seattle, WA | 1mo |
 | Duolingo | [Software Engineer Intern - Thrive](https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806115002?utm_source=Simplify&ref=Simplify) | Pittsburgh, PA | 6d |
 | Duolingo | [Software Engineer - Intern](https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002) | New York City, NY +2 | 10d |
 | Duolingo | [Software Engineer - Thrive Intern](https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002) | Pittsburgh, PA | 10d |
@@ -367,7 +367,7 @@ Total roles: 321
 
 ### Early Career
 
-Total roles: 88
+Total roles: 87
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -421,7 +421,6 @@ Total roles: 88
 | DoorDash | [Software Engineer 1 - Entry-Level](https://job-boards.greenhouse.io/doordashusa/jobs/8163709?utm_source=Simplify&ref=Simplify) | <details><summary>5 locations</summary>Seattle, WA<br>SF, LA<br>NYC<br>Sunnyvale, CA</details> | 11d |
 | Roblox | [[2027] Software Engineer, Early Career](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) | San Mateo, CA, United States | 2d |
 | SpaceX | [Software Engineer New Grad - Software - Starship](https://boards.greenhouse.io/spacex/jobs/8743362002?utm_source=Simplify&ref=Simplify) | Hawthorne, CA | 17d |
-| SpaceX | [Software Engineer New Grad - Software](https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&ref=Simplify) | Brownsville, TX | 1mo |
 | Roblox | 🛂 [[2027] Software Engineer, Early Career](https://careers.roblox.com/jobs/8072244?gh_jid=8072244) _$153k–$153k/yr_ | San Mateo, CA, United States | 0d |
 | Accenture | [(Junior) AI Native Software Engineer (all genders)](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Kronberg/XMLNAME--Junior--AI-Native-Software-Engineer---all-genders-_R00359893-1) |  | 1d |
 | DoorDash | [Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US](https://job-boards.greenhouse.io/doordashusa/jobs/8163709) _$107k–$158k/yr_ | Los Angeles, CA; New York, NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA | 1d |
@@ -462,7 +461,7 @@ Total roles: 88
 
 ### Mid-Level and Above
 
-Total roles: 3766
+Total roles: 3768
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -501,7 +500,6 @@ Total roles: 3766
 | Apple | [Machine Learning Engineer, Wallet Intelligence and Machine Learning](https://jobs.apple.com/en-us/details/200680751/machine-learning-engineer-wallet-intelligence-and-machine-learning) | Cupertino, United States of America | 4d |
 | Apple | [Software Development Engineer in Test - Charging & Inductive Power](https://jobs.apple.com/en-us/details/200684820/software-development-engineer-in-test-charging-inductive-power) | San Diego, United States of America | 4d |
 | Apple | [Systems Software Engineer, Platform Architecture](https://jobs.apple.com/en-us/details/200684973/systems-software-engineer-platform-architecture) | Austin, United States of America | 4d |
-| Apple | [Software Engineer - Generative UI, Input Experience](https://jobs.apple.com/en-us/details/200684878/software-engineer-generative-ui-input-experience) | Cupertino, United States of America | 5d |
 | Apple | [Software Engineer, Employee Experience & Productivity](https://jobs.apple.com/en-us/details/200671481/software-engineer-employee-experience-productivity) | Culver City, United States of America | 5d |
 | Apple | [Software Engineer, Employee Experience & Productivity](https://jobs.apple.com/en-us/details/200652948/software-engineer-employee-experience-productivity) | Culver City, United States of America | 5d |
 | Apple | [Systems Software Engineer, Intelligence Orchestration, Proactive Intelligence](https://jobs.apple.com/en-us/details/200670440/systems-software-engineer-intelligence-orchestration-proactive-intelligence) | Cupertino, United States of America | 5d |
@@ -1409,6 +1407,50 @@ Total roles: 3766
 | Pinterest | [Software Engineer II, Data Analytics & Engineering](https://www.pinterestcareers.com/jobs/?gh_jid=8213988) | San Francisco, CA, US; Remote, US | 7d |
 | Pinterest | [Machine Learning Engineer II, Responsible AI](https://www.pinterestcareers.com/jobs/?gh_jid=8162046) | San Francisco, CA, US; Remote, US | 1mo |
 | Duolingo | [Platform Engineer II](https://careers.duolingo.com/jobs/8778700002?gh_jid=8778700002) | New York, NY | 8d |
+| Celonis | [(Senior) Backend Software Engineer (Java) - Metadata Platform DB](https://job-boards.greenhouse.io/celonis/jobs/7997059003?gh_jid=7997059003) | Munich, Germany | 0d |
+| Celonis | [Senior Software Engineer](https://job-boards.greenhouse.io/celonis/jobs/8004588003?gh_jid=8004588003) _$176k–$238k/yr_ | Redwood City, US, California | 2d |
+| Celonis | [Senior Software Engineer](https://job-boards.greenhouse.io/celonis/jobs/7989845003?gh_jid=7989845003) _$161k–$218k/yr_ | New York, US, New York | 2d |
+| Celonis | [Senior Software Engineer](https://job-boards.greenhouse.io/celonis/jobs/7989093003?gh_jid=7989093003) | Munich, Germany | 3d |
+| Celonis | [Senior Software Engineer - Engine Orchestration](https://job-boards.greenhouse.io/celonis/jobs/8000343003?gh_jid=8000343003) | Munich, Germany | 3d |
+| Celonis | [Senior Software Engineer - Query Engine & Database Systems](https://job-boards.greenhouse.io/celonis/jobs/7980155003?gh_jid=7980155003) | Munich, Germany | 3d |
+| Celonis | [Senior Software Engineer - SAP ABAP](https://job-boards.greenhouse.io/celonis/jobs/7559294003?gh_jid=7559294003) | Bangalore, India | 4d |
+| Celonis | [Software Engineer - SAP ABAP](https://job-boards.greenhouse.io/celonis/jobs/7559247003?gh_jid=7559247003) | Bangalore, India | 4d |
+| Celonis | [Senior Software Engineer - Java, Springboot, SAAS](https://job-boards.greenhouse.io/celonis/jobs/7791291003?gh_jid=7791291003) | Bangalore, India | 8d |
+| Celonis | [Software Engineer - Java, Springboot, SAAS](https://job-boards.greenhouse.io/celonis/jobs/7791275003?gh_jid=7791275003) | Bangalore, India | 8d |
+| Celonis | [Staff Software Engineer - Java, Springboot, SAAS](https://job-boards.greenhouse.io/celonis/jobs/7791427003?gh_jid=7791427003) | Bangalore, India | 8d |
+| Celonis | [Senior Software Engineer - Orchestration and Automation](https://job-boards.greenhouse.io/celonis/jobs/7805677003?gh_jid=7805677003) | Madrid, Spain | 17d |
+| Celonis | [Sr. Frontend Engineer - Process Modeling Team](https://job-boards.greenhouse.io/celonis/jobs/7884205003?gh_jid=7884205003) | Madrid, Spain | 17d |
+| Celonis | [Sr. Frontend Software Engineer - Orchestration and Automation](https://job-boards.greenhouse.io/celonis/jobs/7805685003?gh_jid=7805685003) | Madrid, Spain | 17d |
+| Celonis | [Sr. Full Stack Software Engineer - Orchestration and Automation](https://job-boards.greenhouse.io/celonis/jobs/7678804003?gh_jid=7678804003) | Madrid, Spain | 17d |
+| Celonis | [Staff Software Engineer - Context Model Core Team](https://job-boards.greenhouse.io/celonis/jobs/7820430003?gh_jid=7820430003) | Munich, Germany | 17d |
+| Mastercard | [Director, Platform Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Director--Platform-Engineering_R-273321) | O'Fallon, Missouri | 0d |
+| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-287829) | O'Fallon, Missouri | 0d |
+| Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer_R-280823) | O'Fallon, Missouri | 1d |
+| Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer_R-273436) | Dublin, Ireland | 1d |
+| Mastercard | [Lead Software Engineer - Java](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Oslo-Norway-haavard-martinsens-vei/Lead-Software-Engineer---Java_R-291323) | Oslo, Norway (haavard martinsens vei) | 1d |
+| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-281539) | O'Fallon, Missouri | 1d |
+| Mastercard | [Senior Software Engineer (Database Developer)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Database-Developer-_R-291989) | Pune, India | 1d |
+| Mastercard | [Senior Vice President, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Vice-President--Software-Engineering_R-290949-1) | <details><summary>4 locations</summary>O&#x27;Fallon<br>Missouri<br>Arlington<br>Virginia<br>Purchase<br>New York<br>San Francisco<br>California</details> | 1d |
+| Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-281530) | O'Fallon, Missouri | 1d |
+| Mastercard | [Vice President, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Vice-President--Software-Engineering_R-286632) | New York City, New York | 1d |
+| Mastercard | [Lead Mainframe Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Copenhagen-Denmark-Arne-Jacobsens/Lead-Java-Software-Development-Engineer_R-280016) | Copenhagen, Denmark (Arne Jacobsens) | 2d |
+| Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Lead-Software-Engineer_R-279701) | <details><summary>2 locations</summary>Arlington<br>Virginia<br>Atlanta<br>Georgia (675 Ponce De Leon Ave NE)</details> | 2d |
+| Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer_R-289668) | O'Fallon, Missouri | 2d |
+| Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-282017) | O'Fallon, Missouri | 2d |
+| Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-273743) | O'Fallon, Missouri | 2d |
+| Mastercard | [Principal AI Platform Engineer - AI Center of Excellence](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Principal-AI-Platform-Engineer---AI-Center-of-Excellence_R-282567) | <details><summary>9 locations</summary>Arlington<br>Virginia<br>Boston<br>Massachusetts<br>Atlanta<br>Georgia (675 Ponce De Leon Ave NE)<br>Austin<br>Texas<br>Miami<br>Florida<br>New York City<br>New York (150 5th Avenue)<br>Purchase<br>New York<br>O&#x27;Fallon<br>Missouri (Main Campus)<br>San Francisco<br>California (Suite 400)</details> | 2d |
+| Mastercard | [Principal Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Principal-Software-Engineer_R-289407-1) | O'Fallon, Missouri | 2d |
+| Mastercard | [Principal Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada/Principal-Software-Engineer_R-287176) | <details><summary>2 locations</summary>Toronto<br>Canada<br>Vancouver<br>Canada</details> | 2d |
+| Mastercard | [Senior AI Platform Engineer (DevOps)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-AI-Platform-Engineer--DevOps-_R-287470-1) | <details><summary>3 locations</summary>O&#x27;Fallon<br>Missouri<br>Atlanta<br>Georgia<br>Austin<br>Texas</details> | 2d |
+| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Senior-Software-Engineer_R-291094-1) | Arlington, Virginia | 2d |
+| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-279539) | O'Fallon, Missouri | 2d |
+| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-291613) | O'Fallon, Missouri | 2d |
+| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Senior-Software-Engineer_R-288715) | Arlington, Virginia | 2d |
+| Mastercard | [Senior Software Engineer (Java)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Senior-Software-Engineer--Java-_R-291383) | Vancouver, Canada | 2d |
+| Mastercard | [Software Engineer, Launch Program 2027 - Toronto, Canada](https://mastercard.wd1.myworkdayjobs.com/Campus/job/Toronto-Canada/Software-Engineer--Launch-Program-2027---Toronto--Canada_R-287621) | Toronto, Canada | 2d |
+| Mastercard | [Software Engineer, Launch Program 2027 - Vancouver, Canada](https://mastercard.wd1.myworkdayjobs.com/Campus/job/Vancouver-Canada/Software-Engineer--Launch-Program-2027---Vancouver--Canada_R-287622) | Vancouver, Canada | 2d |
+| Mastercard | [Vice President, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Francisco-California/Vice-President--Software-Engineering_R-290779) | <details><summary>3 locations</summary>San Francisco<br>California<br>Atlanta<br>Georgia (675 Ponce De Leon Ave NE)<br>New York City<br>New York (150 5th Avenue)</details> | 2d |
+| Mastercard | [Software Engineer, Launch Program 2027 - Singapore](https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Software-Engineer--Launch-Program-2027---Singapore_R-287565) | Singapore | 22d |
 | NVIDIA | [Engineering Manager - OpenBMC Platform](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726) | US, CA, Santa Clara | 0d |
 | NVIDIA | [Senior Systems Software Engineer - GPU Performance at Scale](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>NC<br>Remote, US<br>TX<br>Remote, US<br>Remote, US<br>CA<br>Remote</details> | 0d |
 | NVIDIA | [Senior System Architect, Infrastructure Reliability](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Architect--Infrastructure-Reliability_JR2013698) | <details><summary>5 locations</summary>US, CA<br>Santa Clara, US<br>MA<br>Westford, US<br>TX<br>Austin, US<br>NC<br>Durham, US<br>WA<br>Redmond</details> | 1d |
@@ -2607,32 +2649,6 @@ Total roles: 3766
 | Instacart | [Senior Software Engineer, Marketing Platform Tooling](https://instacart.careers/job/?gh_jid=8119683) _$168k–$178k/yr_ | Canada - Remote (ON, AB, BC, or NS Only) | 1mo |
 | Instacart | [Staff Software Engineer, Data Governance & Foundations](https://instacart.careers/job/?gh_jid=7778693) _$265k–$280k/yr_ | United States - Remote | 1mo |
 | Instacart | [Staff Software Engineer, Orders Platform](https://instacart.careers/job/?gh_jid=8110286) _$265k–$280k/yr_ | United States - Remote | 1mo |
-| Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer_R-280823) | O'Fallon, Missouri | 1d |
-| Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer_R-273436) | Dublin, Ireland | 1d |
-| Mastercard | [Lead Software Engineer - Java](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Oslo-Norway-haavard-martinsens-vei/Lead-Software-Engineer---Java_R-291323) | Oslo, Norway (haavard martinsens vei) | 1d |
-| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-281539) | O'Fallon, Missouri | 1d |
-| Mastercard | [Senior Software Engineer (Database Developer)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer--Database-Developer-_R-291989) | Pune, India | 1d |
-| Mastercard | [Senior Vice President, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Vice-President--Software-Engineering_R-290949-1) | <details><summary>4 locations</summary>O&#x27;Fallon<br>Missouri<br>Arlington<br>Virginia<br>Purchase<br>New York<br>San Francisco<br>California</details> | 1d |
-| Mastercard | [Software Engineer II](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-281530) | O'Fallon, Missouri | 1d |
-| Mastercard | [Vice President, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Vice-President--Software-Engineering_R-286632) | New York City, New York | 1d |
-| Mastercard | [Lead Mainframe Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Copenhagen-Denmark-Arne-Jacobsens/Lead-Java-Software-Development-Engineer_R-280016) | Copenhagen, Denmark (Arne Jacobsens) | 2d |
-| Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Lead-Software-Engineer_R-279701) | <details><summary>2 locations</summary>Arlington<br>Virginia<br>Atlanta<br>Georgia (675 Ponce De Leon Ave NE)</details> | 2d |
-| Mastercard | [Lead Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer_R-289668) | O'Fallon, Missouri | 2d |
-| Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-282017) | O'Fallon, Missouri | 2d |
-| Mastercard | [Manager, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager--Software-Engineering_R-273743) | O'Fallon, Missouri | 2d |
-| Mastercard | [Principal AI Platform Engineer - AI Center of Excellence](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Principal-AI-Platform-Engineer---AI-Center-of-Excellence_R-282567) | <details><summary>9 locations</summary>Arlington<br>Virginia<br>Boston<br>Massachusetts<br>Atlanta<br>Georgia (675 Ponce De Leon Ave NE)<br>Austin<br>Texas<br>Miami<br>Florida<br>New York City<br>New York (150 5th Avenue)<br>Purchase<br>New York<br>O&#x27;Fallon<br>Missouri (Main Campus)<br>San Francisco<br>California (Suite 400)</details> | 2d |
-| Mastercard | [Principal Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Principal-Software-Engineer_R-289407-1) | O'Fallon, Missouri | 2d |
-| Mastercard | [Principal Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada/Principal-Software-Engineer_R-287176) | <details><summary>2 locations</summary>Toronto<br>Canada<br>Vancouver<br>Canada</details> | 2d |
-| Mastercard | [Senior AI Platform Engineer (DevOps)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-AI-Platform-Engineer--DevOps-_R-287470-1) | <details><summary>3 locations</summary>O&#x27;Fallon<br>Missouri<br>Atlanta<br>Georgia<br>Austin<br>Texas</details> | 2d |
-| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Senior-Software-Engineer_R-291094-1) | Arlington, Virginia | 2d |
-| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-279539) | O'Fallon, Missouri | 2d |
-| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-Software-Engineer_R-291613) | O'Fallon, Missouri | 2d |
-| Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Arlington-Virginia/Senior-Software-Engineer_R-288715) | Arlington, Virginia | 2d |
-| Mastercard | [Senior Software Engineer (Java)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Senior-Software-Engineer--Java-_R-291383) | Vancouver, Canada | 2d |
-| Mastercard | [Software Engineer, Launch Program 2027 - Toronto, Canada](https://mastercard.wd1.myworkdayjobs.com/Campus/job/Toronto-Canada/Software-Engineer--Launch-Program-2027---Toronto--Canada_R-287621) | Toronto, Canada | 2d |
-| Mastercard | [Software Engineer, Launch Program 2027 - Vancouver, Canada](https://mastercard.wd1.myworkdayjobs.com/Campus/job/Vancouver-Canada/Software-Engineer--Launch-Program-2027---Vancouver--Canada_R-287622) | Vancouver, Canada | 2d |
-| Mastercard | [Vice President, Software Engineering](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Francisco-California/Vice-President--Software-Engineering_R-290779) | <details><summary>3 locations</summary>San Francisco<br>California<br>Atlanta<br>Georgia (675 Ponce De Leon Ave NE)<br>New York City<br>New York (150 5th Avenue)</details> | 2d |
-| Mastercard | [Software Engineer, Launch Program 2027 - Singapore](https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Software-Engineer--Launch-Program-2027---Singapore_R-287565) | Singapore | 22d |
 | MongoDB | [Software Engineer](https://www.mongodb.com/careers/job/?gh_jid=8065483) _$126k–$248k/yr_ | United States | 1d |
 | MongoDB | [Application Engineer](https://www.mongodb.com/careers/job/?gh_jid=8143980) | Bengaluru | 2d |
 | MongoDB | [Lead, Platform Engineering](https://www.mongodb.com/careers/job/?gh_jid=8071475) | Gurugram | 2d |
@@ -3329,21 +3345,6 @@ Total roles: 3766
 | Asana | [Software Engineer, Product](https://www.asana.com/jobs/apply/7961454?gh_jid=7961454) _$146k–$162k/yr_ | Vancouver, BC | 11d |
 | Asana | [Staff Software Engineer, AI](https://www.asana.com/jobs/apply/7978671?gh_jid=7978671) | Warsaw | 11d |
 | Asana | [Staff Software Engineer, AI Developer Experience](https://www.asana.com/jobs/apply/7964388?gh_jid=7964388) _$248k–$282k/yr_ | New York City | 11d |
-| Celonis | [Senior Software Engineer](https://job-boards.greenhouse.io/celonis/jobs/7989845003?gh_jid=7989845003) _$161k–$218k/yr_ | New York, US, New York | 2d |
-| Celonis | [Senior Software Engineer](https://job-boards.greenhouse.io/celonis/jobs/8004588003?gh_jid=8004588003) _$176k–$238k/yr_ | Redwood City, US, California | 2d |
-| Celonis | [Senior Software Engineer](https://job-boards.greenhouse.io/celonis/jobs/7989093003?gh_jid=7989093003) | Munich, Germany | 3d |
-| Celonis | [Senior Software Engineer - Engine Orchestration](https://job-boards.greenhouse.io/celonis/jobs/8000343003?gh_jid=8000343003) | Munich, Germany | 3d |
-| Celonis | [Senior Software Engineer - Query Engine & Database Systems](https://job-boards.greenhouse.io/celonis/jobs/7980155003?gh_jid=7980155003) | Munich, Germany | 3d |
-| Celonis | [Senior Software Engineer - SAP ABAP](https://job-boards.greenhouse.io/celonis/jobs/7559294003?gh_jid=7559294003) | Bangalore, India | 4d |
-| Celonis | [Software Engineer - SAP ABAP](https://job-boards.greenhouse.io/celonis/jobs/7559247003?gh_jid=7559247003) | Bangalore, India | 4d |
-| Celonis | [Senior Software Engineer - Java, Springboot, SAAS](https://job-boards.greenhouse.io/celonis/jobs/7791291003?gh_jid=7791291003) | Bangalore, India | 8d |
-| Celonis | [Software Engineer - Java, Springboot, SAAS](https://job-boards.greenhouse.io/celonis/jobs/7791275003?gh_jid=7791275003) | Bangalore, India | 8d |
-| Celonis | [Staff Software Engineer - Java, Springboot, SAAS](https://job-boards.greenhouse.io/celonis/jobs/7791427003?gh_jid=7791427003) | Bangalore, India | 8d |
-| Celonis | [Senior Software Engineer - Orchestration and Automation](https://job-boards.greenhouse.io/celonis/jobs/7805677003?gh_jid=7805677003) | Madrid, Spain | 17d |
-| Celonis | [Sr. Frontend Engineer - Process Modeling Team](https://job-boards.greenhouse.io/celonis/jobs/7884205003?gh_jid=7884205003) | Madrid, Spain | 17d |
-| Celonis | [Sr. Frontend Software Engineer - Orchestration and Automation](https://job-boards.greenhouse.io/celonis/jobs/7805685003?gh_jid=7805685003) | Madrid, Spain | 17d |
-| Celonis | [Sr. Full Stack Software Engineer - Orchestration and Automation](https://job-boards.greenhouse.io/celonis/jobs/7678804003?gh_jid=7678804003) | Madrid, Spain | 17d |
-| Celonis | [Staff Software Engineer - Context Model Core Team](https://job-boards.greenhouse.io/celonis/jobs/7820430003?gh_jid=7820430003) | Munich, Germany | 17d |
 | Databricks | [Staff Software Engineer, Agent Quality](https://databricks.com/company/careers/open-positions/job?gh_jid=8842963002) _$200k–$265k/yr_ | New York City, New York | 2d |
 | Databricks | [Specialist Solutions Architect - Cloud Infrastructure & AWS Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002) _$180k–$248k/yr_ | United States | 3d |
 | Databricks | [Specialist Solutions Architect - Cloud Infrastructure & Azure Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8739507002) _$180k–$248k/yr_ | United States | 3d |
@@ -4235,39 +4236,36 @@ Total roles: 3766
 
 ## Hackathons
 
-Total hackathons: 98
+Total hackathons: 91
 
 | Organizer | Hackathon | Location | Closes |
 |---|---|---|---|
 | Devfolio | [Hack4Brahma 2.0](https://hack4brahma2.devfolio.co) | Guwahati, India | last day |
 | Pillai University, Navi Mumbai | [HackCelestial 3.0](https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808) | Offline | last day |
-| Computing Org for Multicultural Students | [The Tiger Games '26](https://the-tiger-games-26.devpost.com/) | Golisano College of Computing @ RIT | about 2 hours left |
-| Hack Club | [Graphiques Innovation Challenge](https://graphiques-challenge.devpost.com/) | Online | about 2 hours left |
-| Bitrig | [Bitrig Hacks iPhone Duo Edition](https://bitrig-hacks-duo-edition.devpost.com/) | YC San Francisco | about 3 hours left |
 | Hacker Fund | [Jewel City Hacks 5.0](https://jewel-city-hacks-5-0.devpost.com/) | Glendate Community College | about 3 hours left |
-| Hack Club | [Acodemic X G.I.R.L.S. Global SDG Hackathon](https://acodemic-hackathon.devpost.com/) | Online | about 9 hours left |
-| TechZap Club | [3rd-Web-Hack](https://3rd-web-hack.devpost.com/) | Online | about 11 hours left |
-| Major League Hacking | [OwlHacks 2026](https://owlhacks-2026.devpost.com/) | Temple University - SERC | about 18 hours left |
-| Capital Technology Network | [Hack the Hill III](https://hack-the-hill-iii.devpost.com/) | Learning Crossroads (CRX) - uOttawa | about 19 hours left |
-| Columbia University WiCS | [DivHacks 2026](https://divhacks-2026.devpost.com/) | Columbia University - Alfred Lerner Hall | about 19 hours left |
-| init | [ShellHacks 2026](https://shellhacks-2026.devpost.com/) | Florida International University | about 19 hours left |
-| Jaseci Labs | [JacHacks a2Tech](https://jachacks-a2tech.devpost.com/) | UMich - Leinweber CS Building | about 19 hours left |
-| Carolina Analytics and Data Science | [Carolina Data Challenge 2026](https://carolina-data-challenge-2026.devpost.com/) | UNC Chapel Hill - Sitterson Hall | about 20 hours left |
-| formulatech | [FormulaTech Hacks](https://formulatech-hacks.devpost.com/) | University of Waterloo PSE Building | about 20 hours left |
-| Hack Atlantic | [Hack Atlantic](https://hack-atlantic1.devpost.com/) | Online | about 20 hours left |
-| hackUMBC | [hackUMBC 2026](https://hackumbc-2026.devpost.com/) | RAC (Retriever Activities Center) | about 20 hours left |
-| Mizzou Computing Association | [TigerHacks 2026](https://tigerhacks-2026.devpost.com/) | Various | about 20 hours left |
-| Tech Exploration Lab | [Badger Build Fest 2026](https://badger-build-fest-2026.devpost.com/) | Morgridge Hall - Hello World | about 20 hours left |
-| Ascendence Foundry | [Ascendance Foundry's Hackathon](https://ascendance-foundry-s-hackathon.devpost.com/) | University of Waterloo | about 21 hours left |
-| CSC x FUCS | [2026 CS Club Hackathon](https://csc-fucs.devpost.com/) | Adelaide University | about 21 hours left |
-| HackWashU | [HackWashU Fall AI Build Challenge](https://hackwashu-fall-ai-2026.devpost.com/) | Washington University in St. Louis | about 21 hours left |
+| Hack Club | [Acodemic X G.I.R.L.S. Global SDG Hackathon](https://acodemic-hackathon.devpost.com/) | Online | about 6 hours left |
+| TechZap Club | [3rd-Web-Hack](https://3rd-web-hack.devpost.com/) | Online | about 8 hours left |
+| CSC x FUCS | [2026 CS Club Hackathon](https://csc-fucs.devpost.com/) | Adelaide University | about 14 hours left |
+| Major League Hacking | [OwlHacks 2026](https://owlhacks-2026.devpost.com/) | Temple University - SERC | about 15 hours left |
+| Capital Technology Network | [Hack the Hill III](https://hack-the-hill-iii.devpost.com/) | Learning Crossroads (CRX) - uOttawa | about 16 hours left |
+| Carolina Analytics and Data Science | [Carolina Data Challenge 2026](https://carolina-data-challenge-2026.devpost.com/) | UNC Chapel Hill - Sitterson Hall | about 16 hours left |
+| Columbia University WiCS | [DivHacks 2026](https://divhacks-2026.devpost.com/) | Columbia University - Alfred Lerner Hall | about 16 hours left |
+| init | [ShellHacks 2026](https://shellhacks-2026.devpost.com/) | Florida International University | about 16 hours left |
+| Jaseci Labs | [JacHacks a2Tech](https://jachacks-a2tech.devpost.com/) | UMich - Leinweber CS Building | about 16 hours left |
+| Mizzou Computing Association | [TigerHacks 2026](https://tigerhacks-2026.devpost.com/) | Various | about 16 hours left |
+| formulatech | [FormulaTech Hacks](https://formulatech-hacks.devpost.com/) | University of Waterloo PSE Building | about 17 hours left |
+| hackUMBC | [hackUMBC 2026](https://hackumbc-2026.devpost.com/) | RAC (Retriever Activities Center) | about 17 hours left |
+| Ascendence Foundry | [Ascendance Foundry's Hackathon](https://ascendance-foundry-s-hackathon.devpost.com/) | University of Waterloo | about 18 hours left |
+| Tech Exploration Lab | [Badger Build Fest 2026](https://badger-build-fest-2026.devpost.com/) | Morgridge Hall - Hello World | about 18 hours left |
+| Hack Atlantic | [Hack Atlantic](https://hack-atlantic1.devpost.com/) | Online | about 19 hours left |
+| HackWashU | [HackWashU Fall AI Build Challenge](https://hackwashu-fall-ai-2026.devpost.com/) | Washington University in St. Louis | about 19 hours left |
+| UBC BizTech | [HelloHacks](https://hellohacks-2026.devpost.com/) | University of British Columbia (UBC) | about 20 hours left |
+| Lexhack | [LexHack 2026](https://lexhack-2026.devpost.com/) | Online | about 22 hours left |
+| Lovely Professional University | [Bharat Innovation Challenge 2.0](https://bic.devpost.com/) | Lovely Professional University | about 22 hours left |
+| Hack Club | [Graphiques Innovation Challenge](https://graphiques-challenge.devpost.com/) | Online | about 23 hours left |
 | Devfolio | [Builders Day by HackUnion](https://builders-day-hackunion.devfolio.co) | Hyderabad, India | 1 days left |
 | Glasswing Ventures | [Test Flight: Glasswing Ventures AI Hackathon](https://test-flight-glasswing.devpost.com/) | Glasswing Ventures | 1 day left |
-| HackerEarth | [ABB Accelerator 2026](https://www.hackerearth.com/challenges/hackathon/abb-accelerator-2026-2/) | Online | 1 days left |
-| Lexhack | [LexHack 2026](https://lexhack-2026.devpost.com/) | Online | 1 day left |
-| Lovely Professional University | [Bharat Innovation Challenge 2.0](https://bic.devpost.com/) | Lovely Professional University | 1 day left |
-| UBC BizTech | [HelloHacks](https://hellohacks-2026.devpost.com/) | University of British Columbia (UBC) | about 24 hours left |
-| Tiehub | [Origin Weekend Fall 2026 (x Replit)](https://origin-weekend-fall-2026.devpost.com/) | Los Angeles, CA, USA | 2 days left |
+| Tiehub | [Origin Weekend Fall 2026 (x Replit)](https://origin-weekend-fall-2026.devpost.com/) | Los Angeles, CA, USA | 1 day left |
 | AITD EVENTS | [Hack Days Turbhe](https://hack-days-turbhe.devpost.com/) | Navi Mumbai, India | 3 days left |
 | Jāgriti Technologies PVT LTD | [Jāgriti Hacks](https://jagriti-hacks1.devpost.com/) | Online | 3 days left |
 | Devfolio | [EAG Global Buildathon](https://eag-global-buildathon.devfolio.co) | Online | 4 days left |
@@ -4281,17 +4279,12 @@ Total hackathons: 98
 | Devfolio | [HackSpire'26](https://hackspire26.devfolio.co) | Kolkata, India | 6 days left |
 | Devfolio | [ALGOTHON'26](https://algothon.devfolio.co) | Online | 7 days left |
 | Devfolio | [Codeutsava X.0](https://codeutsava-x.devfolio.co) | Raipur, India | 7 days left |
-| HackerEarth | [HCLTech GCP Data Engineer Hiring Challenge](https://www.hackerearth.com/challenges/competitive/hcltech-gcp-data-engineer-hiring-challenge/) | Online | 7 days left |
-| HackerEarth | [HCLTech Java Engineering Hiring Challenge](https://www.hackerearth.com/challenges/competitive/hcltech-java-challenge-2027/) | Online | 7 days left |
-| HackerEarth | [Yuva Yodha Energy Tech Hackathon](https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/) | Online | 7 days left |
 | Devfolio | [BOSS Battle](https://boss-battle.devfolio.co) | Online | 8 days left |
-| HackerEarth | [VibeCode Arena: AI Innovation Arena](https://www.hackerearth.com/challenges/hackathon/vibecode-arena-ai-innovation-arena/) | Online | 8 days left |
 | Lovhack | [LovHack Season 3](https://lovhack-season-3.devpost.com/) | Online | 8 days left |
 | The Webb Schools CSC | [CSC Back-to-School Hackathon](https://csc-back-to-school.devpost.com/) | Online | 8 days left |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 3.0 - (67k in prizes!)](https://ml-build-challenge-3.devpost.com/) | Online | 9 days left |
 | Databricks | [Databricks AI Social Impact (DAISI) Challenge - Singapore](https://daisisg26.devpost.com/) | Databricks Singapore | 10 days left |
 | Devfolio | [Recursive](https://recursiveacm.devfolio.co) | Panihati, India | 11 days left |
-| HackerEarth | [HackCellence: The Embark Edition](https://www.hackerearth.com/challenges/hackathon/hackcellence-the-embark-edition/) | Online | 11 days left |
 | Devfolio | [HACKBIOS 2K26](https://hackbios2k26.devfolio.co) | Junwani, India | 12 days left |
 | Devfolio | [DEFINE 4.0](https://define4.devfolio.co) | Thiruvananthapuram, India | 13 days left |
 | Creator Colosseum | [Creator Colosseum: The Startup Showdown](https://creatorcolosseumshowdown.devpost.com/) | Online | 14 days left |
@@ -4308,7 +4301,6 @@ Total hackathons: 98
 | Student Organization | [Next Founders Hackathon](https://next-founders.devpost.com/) | Online | 19 days left |
 | vikrant university, gwalior | [INDUX 5.0-2026](https://indux-5-0-2026.devpost.com/) | Vikrant University , Gwalior | 19 days left |
 | Mạng Lưới AI | [MLAI Hackathon 2026](https://mlai-hackathon.devpost.com/) | Online | 20 days left |
-| HackerEarth | [Pride In Tech by Godrej Capital](https://www.hackerearth.com/challenges/competitive/pride-in-tech-by-godrej-capital/) | Online | 21 days left |
 | Silicon Valley Youth Climate Action | [SVYCA Youth for Earth (Y4E) Hackathon](https://svycay4e.devpost.com/) | Stanford University | 22 days left |
 | SMU Business Intelligence & Analytics | [AI Lodge Hackathon 2026](https://ai-lodge-hackathon-2026.devpost.com/) | Online | 23 days left |
 | NP Overflow | [HackIT 2026](https://hackit-2026.devpost.com/) | Ngee Ann Polytechnic School of ICT | 25 days left |
@@ -4318,15 +4310,16 @@ Total hackathons: 98
 | Devfolio | [Srijan Setu](https://srijan-setu.devfolio.co) | New Chandigarh, India | 27 days left |
 | RAAIF | [Next Gen Hackathon 2026 -Bengaluru](https://next-gen-hackathon.devpost.com/) | Tripura Vasini Palace Grounds, Bengaluru | 27 days left |
 | AWS | [AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon](https://aws-cds-partner.devpost.com/) | Online | about 1 month left |
-| Devpost | [Build With AI: Basics](https://learn-ai-basics.devpost.com/) | Online | about 1 month left |
+| Devpost | [Build With AI: Basics](https://learn-ai-basics.devpost.com/) | Online | 30 days left |
 | nebius | [Nebius x NVIDIA Global AI Hackathon](https://nebiusglobalaihackathon.devpost.com/) | Online | about 1 month left |
+| OpenCV | [OpenCV AI Competition 2026, powered by AWS](https://opencv26.devpost.com/) | Online | about 1 month left |
 | Devfolio | [GeNarrative Clash](https://genarrative-clash.devfolio.co) | Kolkata, India | 34 days left |
 | Devfolio | [HACKER HOUSE GOA 2026](https://hacker-house-goa-2026.devfolio.co) | India | 34 days left |
 | Devfolio | [Hefty-Hacks](https://hefty-hacks.devfolio.co) | Online | 34 days left |
 | Devfolio | [Q-HACK INDIA 2026](https://qhack-india.devfolio.co) | Bengaluru, India | 34 days left |
 | Devfolio | [TUM Blockchain & AI Hackathon](https://tum.devfolio.co) | München, Germany | 34 days left |
+| Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) | Hamirpur, India | 35 days left |
 | Devfolio | [hackodisha-6.0](https://hackodisha-6a.devfolio.co) | Online | 35 days left |
-| Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) | Hamirpur, India | 36 days left |
 | Devfolio | [Hacknauts 2.0](https://hacknauts26.devfolio.co) | Ludhiana, India | 49 days left |
 | Meta | [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) | Online | about 2 months left |
 | university of pennsylvania | [2026-2027 Fall ESE Senior Design](https://ese4500f26.devpost.com/) | Amy Gutman Hall | 2 months left |
@@ -4337,10 +4330,11 @@ Total hackathons: 98
 | Binnovative | [InnovArt 2027: Art and Technology Hack Day](https://innovart2027.devpost.com/) | Online | 3 months left |
 | Devfolio | [Convergence](https://convergence1.devfolio.co) | Kalyani, India | 112 days left |
 | Devfolio | [HACK WITH GDG S4](https://hack-with-gdg-s4.devfolio.co) | KSR Kalvi Nagar, India | 119 days left |
+| Bitrig | [Bitrig Hacks iPhone Duo Edition](https://bitrig-hacks-duo-edition.devpost.com/) | YC San Francisco | 41 minutes left |
 
 ## Events
 
-Total events: 255
+Total events: 253
 
 | Organizer | Event | Location | When |
 |---|---|---|---|
@@ -4596,9 +4590,7 @@ Total events: 255
 | Annual Global Summit on Robotics, AI and Machine Learning | [Annual](https://vividglobalsummits.com/2027/agsrobot) | Rome, Italy | 354 days left |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) | Global | — |
 | Luma | [Follow Creative](https://lu.ma/coffeeclubworldwide?k=c) | Global | — |
-| Luma | [Follow DC](https://lu.ma/DC2?k=c) | Global | — |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) | Global | — |
-| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) | Global | — |
 
 ## Browse Every Role
 
