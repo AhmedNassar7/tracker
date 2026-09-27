@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T13:57:50Z",
+ "generated_at": "2026-09-27T18:22:51Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -19,19 +19,19 @@
   },
   "/frontiertower?k=c": {
    "alive": true,
-   "at": "2026-09-27T01:26:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "/genai-sf?k=c": {
    "alive": true,
-   "at": "2026-09-27T01:26:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "/sf-hackersquad?k=c": {
    "alive": true,
-   "at": "2026-09-27T01:26:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "/sf-hardware-meetup?k=c": {
    "alive": true,
-   "at": "2026-09-27T01:26:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "/stationdc?k=c": {
    "alive": true,
@@ -4195,7 +4195,7 @@
   },
   "https://code-for-humanity.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T13:04:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://codeclash24.devfolio.co": {
    "alive": true,
@@ -4212,10 +4212,6 @@
   "https://codeutsava-x.devfolio.co": {
    "alive": true,
    "at": "2026-09-27T13:57:50Z"
-  },
-  "https://coffee-and-code-agent.devpost.com/": {
-   "alive": true,
-   "at": "2026-09-20T16:04:17Z"
   },
   "https://cognitev.recruitee.com/o/backend-engineer-senior-junior": {
    "alive": true,
@@ -5265,6 +5261,10 @@
    "alive": true,
    "at": "2026-09-27T13:57:50Z"
   },
+  "https://eurekadev.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-27T18:22:51Z"
+  },
   "https://eurorust.eu": {
    "alive": true,
    "at": "2026-09-27T13:57:50Z"
@@ -5295,7 +5295,7 @@
   },
   "https://evorozen-apex.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T13:04:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://explore.jobs.netflix.net/careers/job/790317916733": {
    "alive": true,
@@ -5319,7 +5319,7 @@
   },
   "https://galuxium-nexus-v2-29411.devpost.com/": {
    "alive": true,
-   "at": "2026-09-25T22:19:23Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://genaixworld.com": {
    "alive": true,
@@ -5335,7 +5335,7 @@
   },
   "https://gibc-v2.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T13:04:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://githubuniverse.com/": {
    "alive": true,
@@ -5369,6 +5369,10 @@
    "alive": true,
    "at": "2026-09-27T13:57:50Z"
   },
+  "https://hack-atlantic-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-09-27T18:22:51Z"
+  },
   "https://hack-atlantic-sep27.devpost.com/": {
    "alive": true,
    "at": "2026-09-27T08:08:17Z"
@@ -5379,7 +5383,7 @@
   },
   "https://hack-away-hunger.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T13:04:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://hack-days-turbhe.devpost.com/": {
    "alive": true,
@@ -5515,7 +5519,7 @@
   },
   "https://htcj-aviation-futures.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T13:04:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://hyperbloom-september2.devpost.com/": {
    "alive": true,
@@ -5579,7 +5583,7 @@
   },
   "https://innovation-cup2026.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T01:32:22Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://instacart.careers/job/?gh_jid=7778693": {
    "alive": true,
@@ -5736,10 +5740,6 @@
   "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Platform-Hardware-Design-Engineer_JR0287109": {
    "alive": true,
    "at": "2026-09-22T04:54:02Z"
-  },
-  "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-GPU-Performance-Software-Engineer_JR0286580": {
-   "alive": true,
-   "at": "2026-09-20T16:04:17Z"
   },
   "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-Middleware-Software-Development-Engineer_JR0286296": {
    "alive": true,
@@ -11991,7 +11991,7 @@
   },
   "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-09-26T17:09:56Z"
+   "at": "2026-09-27T18:22:32Z"
   },
   "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e": {
    "alive": true,
@@ -13067,7 +13067,7 @@
   },
   "https://luma-hackathon-fall.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T13:04:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://luma.com/ejgb2ksx": {
    "alive": true,
@@ -13527,7 +13527,7 @@
   },
   "https://mca-2026-projects.devpost.com/": {
    "alive": true,
-   "at": "2026-09-25T22:19:23Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://mdc.md": {
    "alive": true,
@@ -14387,7 +14387,7 @@
   },
   "https://oneaquahealth-ieee-hackathon.devpost.com/": {
    "alive": true,
-   "at": "2026-09-25T22:19:23Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://onegiantleap.com/": {
    "alive": true,
@@ -14515,7 +14515,7 @@
   },
   "https://revenuecat-shipaton-2026.devpost.com/": {
    "alive": true,
-   "at": "2026-09-25T22:19:23Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://riseupsummit.com/": {
    "alive": true,
@@ -15387,7 +15387,7 @@
   },
   "https://syntax-summit.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T13:04:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://tabby.pinpointhq.com/en/postings/89f2a76d-2271-44e3-b993-615fad3350a0": {
    "alive": true,
@@ -15523,7 +15523,7 @@
   },
   "https://univabio.devpost.com/": {
    "alive": true,
-   "at": "2026-09-26T13:04:37Z"
+   "at": "2026-09-27T18:22:51Z"
   },
   "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808": {
    "alive": true,
