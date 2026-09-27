@@ -4,7 +4,14 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Sun, 27 Sep 2026 01:30:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 08:10:11 GMT</lastBuildDate>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS Security</title>
+      <link>https://www.amazon.jobs/en/jobs/10561018/software-development-engineer-aws-security</link>
+      <guid isPermaLink="false">630ce17682c3617d</guid>
+      <description>London, England, GBR · unknown · 0d</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Celonis — (Senior) Backend Software Engineer (Java) - Metadata Platform DB</title>
       <link>https://job-boards.greenhouse.io/celonis/jobs/7997059003?gh_jid=7997059003</link>
@@ -812,16 +819,16 @@
     </item>
     <item>
       <title>Sumup — (Senior) Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8645259002?gh_jid=8645259002</link>
-      <guid isPermaLink="false">f823ced134f88db9</guid>
-      <description>Sofia, Bulgaria · mid_level · 5d</description>
+      <link>https://sumup.com/careers/positions/8745286002?gh_jid=8745286002</link>
+      <guid isPermaLink="false">c27d5a9f4080f89c</guid>
+      <description>Vilnius, Lithuania · mid_level · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — (Senior) Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8745286002?gh_jid=8745286002</link>
-      <guid isPermaLink="false">c27d5a9f4080f89c</guid>
-      <description>Vilnius, Lithuania · mid_level · 5d</description>
+      <link>https://sumup.com/careers/positions/8645259002?gh_jid=8645259002</link>
+      <guid isPermaLink="false">f823ced134f88db9</guid>
+      <description>Sofia, Bulgaria · mid_level · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -833,22 +840,15 @@
     </item>
     <item>
       <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
-      <link>https://sumup.com/careers/positions/8785333002?gh_jid=8785333002</link>
-      <guid isPermaLink="false">6fe3438893366e75</guid>
-      <description>Berlin, Germany · other · 5d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
       <link>https://sumup.com/careers/positions/8785611002?gh_jid=8785611002</link>
       <guid isPermaLink="false">6b8dccab5fc87171</guid>
       <description>Vilnius, Lithuania · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sumup — Backend Engineer (Golang) - Transfers Europe</title>
-      <link>https://sumup.com/careers/positions/8789067002?gh_jid=8789067002</link>
-      <guid isPermaLink="false">5d52e90c52e9c2b1</guid>
+      <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
+      <link>https://sumup.com/careers/positions/8785333002?gh_jid=8785333002</link>
+      <guid isPermaLink="false">6fe3438893366e75</guid>
       <description>Berlin, Germany · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -857,6 +857,13 @@
       <link>https://sumup.com/careers/positions/8785999002?gh_jid=8785999002</link>
       <guid isPermaLink="false">b719e317e27cff3c</guid>
       <description>Vilnius, Lithuania · other · 5d</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sumup — Backend Engineer (Golang) - Transfers Europe</title>
+      <link>https://sumup.com/careers/positions/8789067002?gh_jid=8789067002</link>
+      <guid isPermaLink="false">5d52e90c52e9c2b1</guid>
+      <description>Berlin, Germany · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3269,15 +3276,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Database Migration Service</title>
-      <link>https://www.amazon.jobs/en/jobs/10493182/software-development-engineer-aws-database-migration-service</link>
-      <guid isPermaLink="false">bac7dccf92f65cd9</guid>
+      <link>https://www.amazon.jobs/en/jobs/10493189/software-development-engineer-aws-database-migration-service</link>
+      <guid isPermaLink="false">8027047006873a72</guid>
       <description>Dublin, IRL · unknown · 53d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Database Migration Service</title>
-      <link>https://www.amazon.jobs/en/jobs/10493189/software-development-engineer-aws-database-migration-service</link>
-      <guid isPermaLink="false">8027047006873a72</guid>
+      <link>https://www.amazon.jobs/en/jobs/10493182/software-development-engineer-aws-database-migration-service</link>
+      <guid isPermaLink="false">bac7dccf92f65cd9</guid>
       <description>Dublin, IRL · unknown · 53d</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3978,121 +3985,121 @@
       <title>Mastercard — Lead Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer_R-273436</link>
       <guid isPermaLink="false">fb0e75827c36c0e5</guid>
-      <description>Dublin, Ireland · mid_level · 1d</description>
+      <description>Dublin, Ireland · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Lead Software Engineer - Java</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Oslo-Norway-haavard-martinsens-vei/Lead-Software-Engineer---Java_R-291323</link>
       <guid isPermaLink="false">973a466ab013926b</guid>
-      <description>Oslo, Norway (haavard martinsens vei) · mid_level · 1d</description>
+      <description>Oslo, Norway (haavard martinsens vei) · mid_level · 2d</description>
     </item>
     <item>
       <title>Netflix — Full Stack Software Engineer 4/5, Game Lifecycle Engineering</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Full-Stack-Software-Engineer-4-5--Game-Lifecycle-Engineering_JR42418</link>
       <guid isPermaLink="false">327c7fbe25ce5627</guid>
-      <description>Warsaw · other · 1d</description>
+      <description>Warsaw · other · 2d</description>
     </item>
     <item>
       <title>PwC — Capital Projects &amp; Economics Intern - ambito Infrastrutture, Trasporti e Logistica - Roma</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/Capital-Projects---Economics-Intern---ambito-Infrastrutture--Trasporti-e-Logistica---Roma_721760WD-3</link>
       <guid isPermaLink="false">bea75a67fc8c8375</guid>
-      <description>Rome · internship · 1d</description>
+      <description>Rome · internship · 2d</description>
     </item>
     <item>
       <title>Workday — Senior Software Development Engineer</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Senior-Software-Development-Engineer_JR-0109753</link>
       <guid isPermaLink="false">cf257f3d2c948778</guid>
-      <description>Ireland, Dublin · mid_level · 1d</description>
+      <description>Ireland, Dublin · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Lead Mainframe Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Copenhagen-Denmark-Arne-Jacobsens/Lead-Java-Software-Development-Engineer_R-280016</link>
       <guid isPermaLink="false">33a11898aeaa14cd</guid>
-      <description>Copenhagen, Denmark (Arne Jacobsens) · mid_level · 2d</description>
+      <description>Copenhagen, Denmark (Arne Jacobsens) · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior Software Engineer</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Stockholm-Tegeluddsvgen-80/Staff-Software-Engineer_R000099122</link>
       <guid isPermaLink="false">e8567bd5e083ecfd</guid>
-      <description>Stockholm, Tegeluddsvägen 80 · mid_level · 2d</description>
+      <description>Stockholm, Tegeluddsvägen 80 · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior Software Engineer - Roku</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Senior-Software-Engineer---Roku_R000105273</link>
       <guid isPermaLink="false">b0a6447c339680cb</guid>
-      <description>Amsterdam Piet Heinkade 173 · mid_level · 2d</description>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior Software Engineer - tvOS</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Senior-Software-Engineer---tvOS_R000105272-1</link>
       <guid isPermaLink="false">8853517f303b3810</guid>
-      <description>Amsterdam Piet Heinkade 173 · mid_level · 2d</description>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Software Engineer II</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Software-Engineer-II_R000107542</link>
       <guid isPermaLink="false">91a2dfdbf27a7fbb</guid>
-      <description>Amsterdam Piet Heinkade 173 · mid_level · 2d</description>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Software Engineer II (Site Reliability Engineer)</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Software-Engineer-II--Site-Reliability-Engineering_R000105665</link>
       <guid isPermaLink="false">ac9e3e685553bbb9</guid>
-      <description>Amsterdam Piet Heinkade 173 · mid_level · 2d</description>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Staff Software Engineer</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Software-Engineer-II_R000105431</link>
       <guid isPermaLink="false">bd236491011fb4b1</guid>
-      <description>Amsterdam Piet Heinkade 173 · mid_level · 2d</description>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 3d</description>
     </item>
     <item>
       <title>Workday — Senior AI Software Engineer – Deployment Technology</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Senior-AI-Software-Engineer---Deployment-Technology_JR-0110422</link>
       <guid isPermaLink="false">2fd5c2d7560085df</guid>
-      <description>Ireland, Dublin +1 more · mid_level · 2d</description>
+      <description>Ireland, Dublin +1 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer 5 — Developer Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Software-Engineer---Developer-Platform_JR32657</link>
       <guid isPermaLink="false">d967a96e7391dd2b</guid>
-      <description>Warsaw · mid_level · 3d</description>
+      <description>Warsaw · mid_level · 4d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer 5 — Validation &amp; Safety Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Senior-Software-Engineer-5----Validation---Safety-Platform_JR42708</link>
       <guid isPermaLink="false">0b790fd58258f721</guid>
-      <description>Warsaw · mid_level · 3d</description>
+      <description>Warsaw · mid_level · 4d</description>
     </item>
     <item>
       <title>Visa — Senior Software Engineer</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/GB---Basingstoke-United-Kingdom/Senior-Software-Engineer_REF088619W</link>
       <guid isPermaLink="false">b89cccc84dc52296</guid>
-      <description>GB - Basingstoke, United Kingdom · mid_level · 3d</description>
+      <description>GB - Basingstoke, United Kingdom · mid_level · 4d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior RTR Accountant, Studios (Fixed term contract)</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Warsaw-166-Wiertnicza-TVN/Senior-RTR-Accountant--Studios--Fixed-term-contract-_R000104547</link>
       <guid isPermaLink="false">9e7289b22f972c50</guid>
-      <description>Warsaw, 166 Wiertnicza (TVN) · mid_level · 5d</description>
+      <description>Warsaw, 166 Wiertnicza (TVN) · mid_level · 6d</description>
     </item>
     <item>
       <title>Adobe — ML Services Software Development Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-ML-Engineer---Firefly_R166437</link>
       <guid isPermaLink="false">fe6449f0e9916ba9</guid>
-      <description>Bucharest · other · 8d</description>
+      <description>Bucharest · other · 9d</description>
     </item>
     <item>
       <title>Adobe — Senior Software Development Engineer-Adobe Express</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Software-Development-Engineer_R171033-1</link>
       <guid isPermaLink="false">716712e91ed61635</guid>
-      <description>Bucharest · mid_level · 8d</description>
+      <description>Bucharest · mid_level · 9d</description>
     </item>
     <item>
       <title>Tencent — PUBG Mobile Marketing Team Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1</link>
       <guid isPermaLink="false">d03d9fcbae5645b6</guid>
-      <description>United Kingdom-London +1 more · internship · 8d</description>
+      <description>United Kingdom-London +1 more · internship · 9d</description>
     </item>
   </channel>
 </rss>
