@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T18:22:51Z",
-  "total": 3598,
+  "generated_at": "2026-09-27T22:09:36Z",
+  "total": 3589,
   "jobs": [
     {
       "id": "b838675bc0f37825",
@@ -22,6 +22,36 @@
         "currency": "USD",
         "period": "hour"
       }
+    },
+    {
+      "id": "042740e6ed9e1e45",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - GPU Power Management",
+      "location": "<details><summary><strong>2 locations</strong></summary>India, Pune<br>India, Bengaluru</details>",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---GPU-Power-Management_JR2026350",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "bc7c7b9957619719",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Engineering Manager - GPU Communications Libraries",
+      "location": "US, CA, Santa Clara",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Manager---GPU-Communications-Libraries_JR1980109",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
       "id": "10637ebcdaefe376",
@@ -2863,6 +2893,26 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "b39a810161ce0b25",
+      "kind": "job",
+      "company": "Robusta",
+      "title": "Infrastructure Architect - Remote - Octopus by RTG",
+      "location": "Cairo, Egypt (Remote)",
+      "level": "mid_level",
+      "region": "mena",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-09-27",
+      "url": "https://apply.workable.com/j/9A7FEAA155",
+      "source": "workable:robusta",
+      "source_url": "https://apply.workable.com/api/v1/widget/accounts/robusta?details=true",
+      "tech_tags": [
+        "AWS",
+        "Azure"
+      ],
+      "min_years_experience": 10
     },
     {
       "id": "97ec1834eb74c3e5",
@@ -12191,21 +12241,6 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/Campus/jobs"
     },
     {
-      "id": "f0faeb1d63a9778f",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Vice President, Software Engineering",
-      "location": "<details><summary><strong>3 locations</strong></summary>San Francisco, California<br>Atlanta, Georgia (675 Ponce De Leon Ave NE)<br>New York City, New York (150 5th Avenue)</details>",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Francisco-California/Vice-President--Software-Engineering_R-290779",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
       "id": "8196df4ec897e05f",
       "kind": "job",
       "company": "Mercor",
@@ -15033,27 +15068,6 @@
       ]
     },
     {
-      "id": "053b2731b07bdf3c",
-      "kind": "job",
-      "company": "Sumup",
-      "title": "Senior Backend Engineer - Golang",
-      "location": "Cologne, Germany",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "3d",
-      "posted_at": "2026-09-24",
-      "url": "https://sumup.com/careers/positions/8842258002?gh_jid=8842258002",
-      "source": "greenhouse:sumup",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "PostgreSQL",
-        "Kafka"
-      ],
-      "relocation": true
-    },
-    {
       "id": "01a3f303feb93e77",
       "kind": "job",
       "company": "Sumup",
@@ -15065,6 +15079,27 @@
       "date": "3d",
       "posted_at": "2026-09-24",
       "url": "https://sumup.com/careers/positions/8842256002?gh_jid=8842256002",
+      "source": "greenhouse:sumup",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "PostgreSQL",
+        "Kafka"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "053b2731b07bdf3c",
+      "kind": "job",
+      "company": "Sumup",
+      "title": "Senior Backend Engineer - Golang",
+      "location": "Cologne, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "3d",
+      "posted_at": "2026-09-24",
+      "url": "https://sumup.com/careers/positions/8842258002?gh_jid=8842258002",
       "source": "greenhouse:sumup",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
       "tech_tags": [
@@ -16364,21 +16399,6 @@
       ]
     },
     {
-      "id": "393a60b12a563dda",
-      "kind": "job",
-      "company": "Intel",
-      "title": "AI Software Development Engineer - Neuromorphic Computing",
-      "location": "US, California, Santa Clara",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "",
-      "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Software-Development-Engineer---Neuromorphic-Computing_JR0287335",
-      "source": "workday:intel",
-      "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/external/jobs"
-    },
-    {
       "id": "fe9c3589c6c0fc5d",
       "kind": "job",
       "company": "Lyft",
@@ -16544,21 +16564,6 @@
       "date": "4d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Data-Backend-Engineer_JR2020354",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "f6555c5b21ccd173",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Deep Learning Software Engineer, Inference",
-      "location": "<details><summary><strong>3 locations</strong></summary>Netherlands, Remote<br>UK, Remote<br>Poland, Remote</details>",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Netherlands-Remote/Senior-Deep-Learning-Software-Engineer--Inference_JR2023106-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -18952,27 +18957,6 @@
       ]
     },
     {
-      "id": "c27d5a9f4080f89c",
-      "kind": "job",
-      "company": "Sumup",
-      "title": "(Senior) Backend Engineer - Golang",
-      "location": "Vilnius, Lithuania",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "5d",
-      "posted_at": "2026-09-22",
-      "url": "https://sumup.com/careers/positions/8745286002?gh_jid=8745286002",
-      "source": "greenhouse:sumup",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Kubernetes",
-        "Kafka"
-      ]
-    },
-    {
       "id": "f823ced134f88db9",
       "kind": "job",
       "company": "Sumup",
@@ -18984,6 +18968,27 @@
       "date": "5d",
       "posted_at": "2026-09-22",
       "url": "https://sumup.com/careers/positions/8645259002?gh_jid=8645259002",
+      "source": "greenhouse:sumup",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Kubernetes",
+        "Kafka"
+      ]
+    },
+    {
+      "id": "c27d5a9f4080f89c",
+      "kind": "job",
+      "company": "Sumup",
+      "title": "(Senior) Backend Engineer - Golang",
+      "location": "Vilnius, Lithuania",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "5d",
+      "posted_at": "2026-09-22",
+      "url": "https://sumup.com/careers/positions/8745286002?gh_jid=8745286002",
       "source": "greenhouse:sumup",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
       "tech_tags": [
@@ -19038,31 +19043,6 @@
       ]
     },
     {
-      "id": "6b8dccab5fc87171",
-      "kind": "job",
-      "company": "Sumup",
-      "title": "Backend Engineer (Golang) - Bank Balance",
-      "location": "Vilnius, Lithuania",
-      "level": "other",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "5d",
-      "posted_at": "2026-09-22",
-      "url": "https://sumup.com/careers/positions/8785611002?gh_jid=8785611002",
-      "source": "greenhouse:sumup",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
-      "tech_tags": [
-        "Kotlin",
-        "Go",
-        "Elixir",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "PostgreSQL",
-        "Kafka"
-      ]
-    },
-    {
       "id": "6fe3438893366e75",
       "kind": "job",
       "company": "Sumup",
@@ -19088,25 +19068,27 @@
       ]
     },
     {
-      "id": "b719e317e27cff3c",
+      "id": "6b8dccab5fc87171",
       "kind": "job",
       "company": "Sumup",
-      "title": "Backend Engineer (Golang) - Transfers Europe",
+      "title": "Backend Engineer (Golang) - Bank Balance",
       "location": "Vilnius, Lithuania",
       "level": "other",
       "region": "europe",
       "role_type": "backend",
       "date": "5d",
       "posted_at": "2026-09-22",
-      "url": "https://sumup.com/careers/positions/8785999002?gh_jid=8785999002",
+      "url": "https://sumup.com/careers/positions/8785611002?gh_jid=8785611002",
       "source": "greenhouse:sumup",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
       "tech_tags": [
+        "Kotlin",
         "Go",
+        "Elixir",
         "Kubernetes",
+        "Docker",
         "AWS",
         "PostgreSQL",
-        "Redis",
         "Kafka"
       ]
     },
@@ -19122,6 +19104,29 @@
       "date": "5d",
       "posted_at": "2026-09-22",
       "url": "https://sumup.com/careers/positions/8789067002?gh_jid=8789067002",
+      "source": "greenhouse:sumup",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Kubernetes",
+        "AWS",
+        "PostgreSQL",
+        "Redis",
+        "Kafka"
+      ]
+    },
+    {
+      "id": "b719e317e27cff3c",
+      "kind": "job",
+      "company": "Sumup",
+      "title": "Backend Engineer (Golang) - Transfers Europe",
+      "location": "Vilnius, Lithuania",
+      "level": "other",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "5d",
+      "posted_at": "2026-09-22",
+      "url": "https://sumup.com/careers/positions/8785999002?gh_jid=8785999002",
       "source": "greenhouse:sumup",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
       "tech_tags": [
@@ -30970,36 +30975,6 @@
       "url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1",
       "source": "workday:tencent",
       "source_url": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/tencent_careers/jobs"
-    },
-    {
-      "id": "3293da240e23f651",
-      "kind": "job",
-      "company": "Warner Bros. Discovery",
-      "title": "Engineering Manager (Data & Distributed Systems) - Data Platform , Hyderabad",
-      "location": "Hyderabad - Phoenix Equinox Tower 2",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "platform",
-      "date": "9d",
-      "posted_at": "",
-      "url": "https://warnerbros.wd5.myworkdayjobs.com/global/job/Hyderabad---Phoenix-Equinox-Tower-2/Manager--Software-Engineering---Data-Platform---Hyderabad_R000106151",
-      "source": "workday:warnerbros",
-      "source_url": "https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs"
-    },
-    {
-      "id": "dfc2ca1117f4230f",
-      "kind": "job",
-      "company": "Warner Bros. Discovery",
-      "title": "Senior Software Engineer- Android Application Developer",
-      "location": "Bangalore - Embassy Tech Village",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "mobile",
-      "date": "9d",
-      "posted_at": "",
-      "url": "https://warnerbros.wd5.myworkdayjobs.com/global/job/Bangalore---Embassy-Tech-Village/Senior-Software-Engineer--Android-Application-Developer_R000107457",
-      "source": "workday:warnerbros",
-      "source_url": "https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs"
     },
     {
       "id": "b9ad13c9a2a58f2c",
@@ -75457,48 +75432,12 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "fd7a36b6e47ba282",
-      "kind": "hackathon",
-      "company": "Pillai University, Navi Mumbai",
-      "title": "HackCelestial 3.0",
-      "location": "Offline",
-      "date": "last day",
-      "posted_at": "2026-09-27",
-      "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "a3e193f9271a63aa",
-      "kind": "hackathon",
-      "company": "Hack Atlantic",
-      "title": "Hack Atlantic",
-      "location": "Fredericton, New Brunswick",
-      "date": "about 3 hours left",
-      "posted_at": "2026-09-27",
-      "url": "https://hack-atlantic-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "345b7b76d3475cca",
-      "kind": "hackathon",
-      "company": "Lexhack",
-      "title": "LexHack 2026",
-      "location": "Online",
-      "date": "about 3 hours left",
-      "posted_at": "2026-09-27",
-      "url": "https://lexhack-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "72b2150377323d8a",
       "kind": "hackathon",
       "company": "Lake Monsters Robotics (frc2635)",
       "title": "Lake Oswego Hacks",
       "location": "Online",
-      "date": "about 6 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-09-27",
       "url": "https://lake-oswego-hacks.devpost.com/",
       "source": "devpost",
@@ -75510,7 +75449,7 @@
       "company": "Recruit Holdings Co., Ltd.",
       "title": "Recruit Holdings Hackathon “Innovation Cup”",
       "location": "CA, USA",
-      "date": "about 10 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-09-27",
       "url": "https://innovation-cup2026.devpost.com/",
       "source": "devpost",
@@ -75522,7 +75461,7 @@
       "company": "Impact Hub Houston",
       "title": "Houston Hackathon 2026",
       "location": "Impact Hub Houston @ Ion District",
-      "date": "about 11 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-09-27",
       "url": "https://houstonhackathon2026.devpost.com/",
       "source": "devpost",
@@ -75534,9 +75473,33 @@
       "company": "Tiehub",
       "title": "Origin Weekend Fall 2026 (x Replit)",
       "location": "Los Angeles, CA, USA",
-      "date": "about 13 hours left",
+      "date": "about 9 hours left",
       "posted_at": "2026-09-27",
       "url": "https://origin-weekend-fall-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "2f72f7cd55a8f270",
+      "kind": "hackathon",
+      "company": "Lovely Professional University",
+      "title": "Bharat Innovation Challenge 2.0",
+      "location": "Lovely Professional University",
+      "date": "about 23 hours left",
+      "posted_at": "2026-09-27",
+      "url": "https://bic.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "9f8e54a0c04b55d4",
+      "kind": "hackathon",
+      "company": "LUMA",
+      "title": "LUMA Hackathon (September 20th - 28th)",
+      "location": "Online",
+      "date": "about 23 hours left",
+      "posted_at": "2026-09-27",
+      "url": "https://luma-hackathon-fall.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75549,30 +75512,6 @@
       "date": "1 day left",
       "posted_at": "2026-09-27",
       "url": "https://graphiques-challenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "2f72f7cd55a8f270",
-      "kind": "hackathon",
-      "company": "Lovely Professional University",
-      "title": "Bharat Innovation Challenge 2.0",
-      "location": "Lovely Professional University",
-      "date": "1 day left",
-      "posted_at": "2026-09-27",
-      "url": "https://bic.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "9f8e54a0c04b55d4",
-      "kind": "hackathon",
-      "company": "LUMA",
-      "title": "LUMA Hackathon (September 20th - 28th)",
-      "location": "Online",
-      "date": "1 day left",
-      "posted_at": "2026-09-27",
-      "url": "https://luma-hackathon-fall.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75709,6 +75648,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "37b6bc24041cc8fd",
+      "kind": "hackathon",
+      "company": "RevenueCat",
+      "title": "RevenueCat Shipaton 2026",
+      "location": "Online",
+      "date": "3 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://revenuecat-shipaton-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "86da6bc1fc64e474",
       "kind": "hackathon",
       "company": "Swift at FIU",
@@ -75729,18 +75680,6 @@
       "date": "4 days left",
       "posted_at": "2026-09-27",
       "url": "https://gibc-v2.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "37b6bc24041cc8fd",
-      "kind": "hackathon",
-      "company": "RevenueCat",
-      "title": "RevenueCat Shipaton 2026",
-      "location": "Online",
-      "date": "4 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://revenuecat-shipaton-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75793,6 +75732,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "aae78163e63a89d8",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "BOSS Battle",
+      "location": "Online",
+      "date": "7 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://boss-battle.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "6b9b278cb5a44e22",
       "kind": "hackathon",
       "company": "Lovhack",
@@ -75817,26 +75768,26 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "aae78163e63a89d8",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "BOSS Battle",
-      "location": "Online",
-      "date": "8 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://boss-battle.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "231bd74ad1c43615",
       "kind": "hackathon",
       "company": "The Webb Schools CSC",
       "title": "CSC Back-to-School Hackathon",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-09-27",
       "url": "https://csc-back-to-school.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "0ee2cf6846d789bd",
+      "kind": "hackathon",
+      "company": "ML Empowerment Foundation",
+      "title": "ML Empowerment Build Challenge 3.0 - ($80,000 in prizes!)",
+      "location": "Online",
+      "date": "8 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://ml-build-challenge-3.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75865,18 +75816,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "0ee2cf6846d789bd",
-      "kind": "hackathon",
-      "company": "ML Empowerment Foundation",
-      "title": "ML Empowerment Build Challenge 3.0 - ($80,000 in prizes!)",
-      "location": "Online",
-      "date": "9 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://ml-build-challenge-3.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "9f2f7c6bbe243e4d",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75889,6 +75828,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "e000e6f0a8fb556f",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "HACKBIOS 2K26",
+      "location": "Junwani, India",
+      "date": "11 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://hackbios2k26.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "3860f01de25b7203",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75897,18 +75848,6 @@
       "date": "12 days left",
       "posted_at": "2026-09-27",
       "url": "https://define4.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "e000e6f0a8fb556f",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "HACKBIOS 2K26",
-      "location": "Junwani, India",
-      "date": "12 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://hackbios2k26.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75985,6 +75924,30 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "213e99592eedec18",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "CodeStorm 2026: FutureForge",
+      "location": "Online",
+      "date": "17 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://codestorm-futureforge.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "4e5bc5244b4a3ad8",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Wild Bugs",
+      "location": "Online",
+      "date": "17 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://wild-bugs.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "3b52801ce5cb8cb5",
       "kind": "hackathon",
       "company": "Hack47",
@@ -75997,18 +75960,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "213e99592eedec18",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "CodeStorm 2026: FutureForge",
-      "location": "Online",
-      "date": "18 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://codestorm-futureforge.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "851cac0157a230c0",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -76017,18 +75968,6 @@
       "date": "18 days left",
       "posted_at": "2026-09-27",
       "url": "https://hacktopusgdg.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "4e5bc5244b4a3ad8",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Wild Bugs",
-      "location": "Online",
-      "date": "18 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://wild-bugs.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -76201,6 +76140,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "efb32028a7cadcd0",
+      "kind": "hackathon",
+      "company": "OpenCV",
+      "title": "OpenCV AI Competition 2026, powered by AWS",
+      "location": "Online",
+      "date": "29 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://opencv26.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "5d0ec40849dabae4",
       "kind": "hackathon",
       "company": "AWS",
@@ -76261,18 +76212,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "efb32028a7cadcd0",
-      "kind": "hackathon",
-      "company": "OpenCV",
-      "title": "OpenCV AI Competition 2026, powered by AWS",
-      "location": "Online",
-      "date": "30 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://opencv26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "454b57e48a2e28c5",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -76293,6 +76232,18 @@
       "date": "33 days left",
       "posted_at": "2026-09-27",
       "url": "https://hacker-house-goa-2026.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "9c7128e61cb3dbdf",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hefty-Hacks",
+      "location": "Online",
+      "date": "33 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://hefty-hacks.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -76321,6 +76272,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "03943543974f740e",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hack On Hills 8.0",
+      "location": "Hamirpur, India",
+      "date": "34 days left",
+      "posted_at": "2026-09-27",
+      "url": "https://hackonhills8.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "d553006f7fba567c",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -76329,30 +76292,6 @@
       "date": "34 days left",
       "posted_at": "2026-09-27",
       "url": "https://hackodisha-6a.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "9c7128e61cb3dbdf",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hefty-Hacks",
-      "location": "Online",
-      "date": "34 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://hefty-hacks.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "03943543974f740e",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hack On Hills 8.0",
-      "location": "Hamirpur, India",
-      "date": "35 days left",
-      "posted_at": "2026-09-27",
-      "url": "https://hackonhills8.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -76398,7 +76337,7 @@
       "company": "Devfolio",
       "title": "DevNexus 2.0",
       "location": "Kolkata, India",
-      "date": "62 days left",
+      "date": "61 days left",
       "posted_at": "2026-09-27",
       "url": "https://devnexus2.devfolio.co",
       "source": "devfolio",
@@ -76410,7 +76349,7 @@
       "company": "Devfolio",
       "title": "CodeClash'24",
       "location": "Greater Noida, India",
-      "date": "64 days left",
+      "date": "63 days left",
       "posted_at": "2026-09-27",
       "url": "https://codeclash24.devfolio.co",
       "source": "devfolio",
@@ -76422,7 +76361,7 @@
       "company": "Devfolio",
       "title": "Winter of Code 2026",
       "location": "Online",
-      "date": "64 days left",
+      "date": "63 days left",
       "posted_at": "2026-09-27",
       "url": "https://winter-of-code-4.devfolio.co",
       "source": "devfolio",
@@ -79467,30 +79406,6 @@
       "source_url": "https://github.com/tech-conferences/conference-data"
     },
     {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-27",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "ada91f97fe8d8971",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (150k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-27",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -79515,18 +79430,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-27",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -79535,18 +79438,6 @@
       "date": "",
       "posted_at": "2026-09-27",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-09-27",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

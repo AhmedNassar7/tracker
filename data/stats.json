@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-27T18:22:32Z",
+  "generated_at": "2026-09-27T22:09:13Z",
   "total": 1365,
   "by_level": {
     "internship": 303,
-    "unknown": 786,
-    "mid_level": 203,
+    "unknown": 785,
+    "mid_level": 204,
     "new_grad": 65,
     "entry_level": 7,
     "junior": 1
@@ -15,7 +15,7 @@
     "Unknown": 100,
     "Poland": 3,
     "United States": 855,
-    "Ireland": 30,
+    "Ireland": 29,
     "Norway": 1,
     "Sweden": 1,
     "Portugal": 6,
@@ -32,7 +32,7 @@
     "Brazil": 7,
     "Israel": 5,
     "South Africa": 6,
-    "Mexico": 2
+    "Mexico": 3
   },
   "by_source": {
     "negarprh_canada_internships": 21,

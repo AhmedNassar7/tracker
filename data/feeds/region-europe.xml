@@ -4,7 +4,7 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Sun, 27 Sep 2026 18:25:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 22:11:29 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer, AWS Security</title>
       <link>https://www.amazon.jobs/en/jobs/10561018/software-development-engineer-aws-security</link>
@@ -441,16 +441,16 @@
     </item>
     <item>
       <title>Sumup — Senior Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
-      <guid isPermaLink="false">053b2731b07bdf3c</guid>
-      <description>Cologne, Germany · mid_level · 3d</description>
+      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
+      <guid isPermaLink="false">01a3f303feb93e77</guid>
+      <description>Berlin, Germany · mid_level · 3d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — Senior Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
-      <guid isPermaLink="false">01a3f303feb93e77</guid>
-      <description>Berlin, Germany · mid_level · 3d</description>
+      <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
+      <guid isPermaLink="false">053b2731b07bdf3c</guid>
+      <description>Cologne, Germany · mid_level · 3d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -819,16 +819,16 @@
     </item>
     <item>
       <title>Sumup — (Senior) Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8745286002?gh_jid=8745286002</link>
-      <guid isPermaLink="false">c27d5a9f4080f89c</guid>
-      <description>Vilnius, Lithuania · mid_level · 5d</description>
+      <link>https://sumup.com/careers/positions/8645259002?gh_jid=8645259002</link>
+      <guid isPermaLink="false">f823ced134f88db9</guid>
+      <description>Sofia, Bulgaria · mid_level · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — (Senior) Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8645259002?gh_jid=8645259002</link>
-      <guid isPermaLink="false">f823ced134f88db9</guid>
-      <description>Sofia, Bulgaria · mid_level · 5d</description>
+      <link>https://sumup.com/careers/positions/8745286002?gh_jid=8745286002</link>
+      <guid isPermaLink="false">c27d5a9f4080f89c</guid>
+      <description>Vilnius, Lithuania · mid_level · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -840,22 +840,15 @@
     </item>
     <item>
       <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
-      <link>https://sumup.com/careers/positions/8785611002?gh_jid=8785611002</link>
-      <guid isPermaLink="false">6b8dccab5fc87171</guid>
-      <description>Vilnius, Lithuania · other · 5d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
       <link>https://sumup.com/careers/positions/8785333002?gh_jid=8785333002</link>
       <guid isPermaLink="false">6fe3438893366e75</guid>
       <description>Berlin, Germany · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sumup — Backend Engineer (Golang) - Transfers Europe</title>
-      <link>https://sumup.com/careers/positions/8785999002?gh_jid=8785999002</link>
-      <guid isPermaLink="false">b719e317e27cff3c</guid>
+      <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
+      <link>https://sumup.com/careers/positions/8785611002?gh_jid=8785611002</link>
+      <guid isPermaLink="false">6b8dccab5fc87171</guid>
       <description>Vilnius, Lithuania · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -864,6 +857,13 @@
       <link>https://sumup.com/careers/positions/8789067002?gh_jid=8789067002</link>
       <guid isPermaLink="false">5d52e90c52e9c2b1</guid>
       <description>Berlin, Germany · other · 5d</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sumup — Backend Engineer (Golang) - Transfers Europe</title>
+      <link>https://sumup.com/careers/positions/8785999002?gh_jid=8785999002</link>
+      <guid isPermaLink="false">b719e317e27cff3c</guid>
+      <description>Vilnius, Lithuania · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1859,13 +1859,6 @@
       <guid isPermaLink="false">a85369723e5d41e2</guid>
       <description>United Kingdom, Bristol · other · 13d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Shield (Anti-DDoS)</title>
-      <link>https://www.amazon.jobs/en/jobs/10537483/software-development-engineer-shield-anti-ddos</link>
-      <guid isPermaLink="false">5919aa0ede798459</guid>
-      <description>Dublin, IRL · unknown · 16d</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Doctolib — Senior Software Engineer - Node.js/TypeScript (x/f/m)</title>

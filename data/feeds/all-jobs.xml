@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sun, 27 Sep 2026 18:25:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 22:11:29 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer, AWS Security</title>
       <link>https://www.amazon.jobs/en/jobs/10561018/software-development-engineer-aws-security</link>
@@ -759,6 +759,13 @@
       <link>https://careers.roblox.com/jobs/7482015?gh_jid=7482015</link>
       <guid isPermaLink="false">406a93228e914f80</guid>
       <description>San Mateo, CA, United States · mid_level · 0d</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Robusta — Infrastructure Architect - Remote - Octopus by RTG</title>
+      <link>https://apply.workable.com/j/9A7FEAA155</link>
+      <guid isPermaLink="false">b39a810161ce0b25</guid>
+      <description>Cairo, Egypt (Remote) · mid_level · 0d</description>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4690,16 +4697,16 @@
     </item>
     <item>
       <title>Sumup — Senior Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
-      <guid isPermaLink="false">053b2731b07bdf3c</guid>
-      <description>Cologne, Germany · mid_level · 3d</description>
+      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
+      <guid isPermaLink="false">01a3f303feb93e77</guid>
+      <description>Berlin, Germany · mid_level · 3d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — Senior Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
-      <guid isPermaLink="false">01a3f303feb93e77</guid>
-      <description>Berlin, Germany · mid_level · 3d</description>
+      <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
+      <guid isPermaLink="false">053b2731b07bdf3c</guid>
+      <description>Cologne, Germany · mid_level · 3d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6188,16 +6195,16 @@
     </item>
     <item>
       <title>Sumup — (Senior) Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8745286002?gh_jid=8745286002</link>
-      <guid isPermaLink="false">c27d5a9f4080f89c</guid>
-      <description>Vilnius, Lithuania · mid_level · 5d</description>
+      <link>https://sumup.com/careers/positions/8645259002?gh_jid=8645259002</link>
+      <guid isPermaLink="false">f823ced134f88db9</guid>
+      <description>Sofia, Bulgaria · mid_level · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — (Senior) Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8645259002?gh_jid=8645259002</link>
-      <guid isPermaLink="false">f823ced134f88db9</guid>
-      <description>Sofia, Bulgaria · mid_level · 5d</description>
+      <link>https://sumup.com/careers/positions/8745286002?gh_jid=8745286002</link>
+      <guid isPermaLink="false">c27d5a9f4080f89c</guid>
+      <description>Vilnius, Lithuania · mid_level · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6216,22 +6223,15 @@
     </item>
     <item>
       <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
-      <link>https://sumup.com/careers/positions/8785611002?gh_jid=8785611002</link>
-      <guid isPermaLink="false">6b8dccab5fc87171</guid>
-      <description>Vilnius, Lithuania · other · 5d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
       <link>https://sumup.com/careers/positions/8785333002?gh_jid=8785333002</link>
       <guid isPermaLink="false">6fe3438893366e75</guid>
       <description>Berlin, Germany · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sumup — Backend Engineer (Golang) - Transfers Europe</title>
-      <link>https://sumup.com/careers/positions/8785999002?gh_jid=8785999002</link>
-      <guid isPermaLink="false">b719e317e27cff3c</guid>
+      <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
+      <link>https://sumup.com/careers/positions/8785611002?gh_jid=8785611002</link>
+      <guid isPermaLink="false">6b8dccab5fc87171</guid>
       <description>Vilnius, Lithuania · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -6240,6 +6240,13 @@
       <link>https://sumup.com/careers/positions/8789067002?gh_jid=8789067002</link>
       <guid isPermaLink="false">5d52e90c52e9c2b1</guid>
       <description>Berlin, Germany · other · 5d</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sumup — Backend Engineer (Golang) - Transfers Europe</title>
+      <link>https://sumup.com/careers/positions/8785999002?gh_jid=8785999002</link>
+      <guid isPermaLink="false">b719e317e27cff3c</guid>
+      <description>Vilnius, Lithuania · other · 5d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6621,17 +6628,17 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ByteDance — Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern - Aml-Ark</title>
-      <link>https://jobs.bytedance.com/en/position/7671105026009925893/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">1fb35e8923624ef3</guid>
-      <description>San Jose, CA · internship · 1mo</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ByteDance — Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern - AML-ARK</title>
       <link>https://jobs.bytedance.com/en/position/7672392998231050549/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">985eb8fb000dc9ef</guid>
       <description>Seattle, WA · internship · 1mo</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern - Aml-Ark</title>
+      <link>https://jobs.bytedance.com/en/position/7671105026009925893/detail?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">1fb35e8923624ef3</guid>
+      <description>San Jose, CA · internship · 1mo</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -13075,13 +13082,6 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Shield (Anti-DDoS)</title>
-      <link>https://www.amazon.jobs/en/jobs/10537483/software-development-engineer-shield-anti-ddos</link>
-      <guid isPermaLink="false">5919aa0ede798459</guid>
-      <description>Dublin, IRL · unknown · 16d</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Sponsored Products and Brands</title>
       <link>https://www.amazon.jobs/en/jobs/10537794/software-development-engineer-sponsored-products-and-brands</link>
       <guid isPermaLink="false">3adb0aafa6eaf90e</guid>
@@ -15512,16 +15512,16 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2c822e92c85d92c2</guid>
-      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 20d</description>
+      <link>https://careers.amd.com/jobs/90891?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">b5e1e562d656d53e</guid>
+      <description>San Jose, CA Santa Clara, CA · internship · 20d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90891?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">b5e1e562d656d53e</guid>
-      <description>San Jose, CA Santa Clara, CA · internship · 20d</description>
+      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2c822e92c85d92c2</guid>
+      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 20d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -15589,16 +15589,16 @@
     </item>
     <item>
       <title>ByteDance — Software Engineer Intern, Distributed NoSQL Database Systems</title>
-      <link>https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">1d5df77d153bdd24</guid>
-      <description>Seattle, WA · internship · 1mo</description>
+      <link>https://joinbytedance.com/search/7668374190764050741?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">ec7d8cf033561c8d</guid>
+      <description>San Jose, CA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Software Engineer Intern, Distributed NoSQL Database Systems</title>
-      <link>https://joinbytedance.com/search/7668374190764050741?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">ec7d8cf033561c8d</guid>
-      <description>San Jose, CA · internship · 1mo</description>
+      <link>https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">1d5df77d153bdd24</guid>
+      <description>Seattle, WA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -15617,16 +15617,16 @@
     </item>
     <item>
       <title>Palantir — Software Engineer Intern</title>
-      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">2ee142b47bfc9198</guid>
-      <description>New York, NY · internship · 1mo</description>
+      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">03f050ca86559a60</guid>
+      <description>Washington, D.C. · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Software Engineer Intern</title>
-      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">03f050ca86559a60</guid>
-      <description>Washington, D.C. · internship · 1mo</description>
+      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">2ee142b47bfc9198</guid>
+      <description>New York, NY · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -16953,20 +16953,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Atlassian — Software Engineer Intern</title>
-      <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">d06c2e10472343c5</guid>
-      <description>Seattle, WA SF · internship · 26d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Software Engineer Intern - Relational Database</title>
-      <link>https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">c387506b6159207e</guid>
-      <description>San Jose, CA · internship · 26d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AMD — Graphics Software Engineer Intern/Co-op</title>
       <link>https://careers.amd.com/jobs/90305?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">09784159e6cf1962</guid>
@@ -16981,6 +16967,13 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Atlassian — Software Engineer Intern</title>
+      <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">d06c2e10472343c5</guid>
+      <description>Seattle, WA SF · internship · 26d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Stripe — Software Engineer - Intern - Summer or Winter</title>
       <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
       <guid isPermaLink="false">bccb0bf32885c521</guid>
@@ -16992,6 +16985,13 @@
       <link>https://stripe.com/jobs/search?gh_jid=8157838&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">bae2b979c3f63eb0</guid>
       <description>Toronto, ON, Canada · new_grad · 26d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Software Engineer Intern - Relational Database</title>
+      <link>https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">c387506b6159207e</guid>
+      <description>San Jose, CA · internship · 26d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -27257,6 +27257,13 @@
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, Devices Sales &amp; Customer Experience</title>
+      <link>https://www.amazon.jobs/en/jobs/10386314/software-development-engineer-ii-devices-sales-customer-experience</link>
+      <guid isPermaLink="false">456698a323e33ad4</guid>
+      <description>Mexico City, Mexico City, MEX · mid_level · 172d</description>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, Aurora Control Plane</title>
       <link>https://www.amazon.jobs/en/jobs/10385944/software-development-engineer-aurora-control-plane</link>
       <guid isPermaLink="false">75c1e4d3e1f6910e</guid>
@@ -27402,6 +27409,18 @@
       <guid isPermaLink="false">f4453994df54aa28</guid>
       <description>Gdansk, Pomeranian Voivodeship, POL · unknown · 180d</description>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA — Senior System Software Engineer - GPU Power Management</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---GPU-Power-Management_JR2026350</link>
+      <guid isPermaLink="false">042740e6ed9e1e45</guid>
+      <description>India, Pune +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Software Engineering Manager - GPU Communications Libraries</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Manager---GPU-Communications-Libraries_JR1980109</link>
+      <guid isPermaLink="false">bc7c7b9957619719</guid>
+      <description>US, CA, Santa Clara · mid_level · 0d</description>
     </item>
     <item>
       <title>Mastercard — Director, Platform Engineering</title>
@@ -27728,12 +27747,6 @@
       <description>Vancouver, Canada · other · 3d</description>
     </item>
     <item>
-      <title>Mastercard — Vice President, Software Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Francisco-California/Vice-President--Software-Engineering_R-290779</link>
-      <guid isPermaLink="false">f0faeb1d63a9778f</guid>
-      <description>San Francisco, California +2 more · mid_level · 3d</description>
-    </item>
-    <item>
       <title>Netflix — Crowds Supervisor - Netflix Animation Studios</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Vancouver/Crowds-Supervisor---Netflix-Animation-Studios_JR42787</link>
       <guid isPermaLink="false">60072aaaf0421958</guid>
@@ -28058,12 +28071,6 @@
       <description>USA, CA, Santa Clara +2 more · mid_level · 3d</description>
     </item>
     <item>
-      <title>Intel — AI Software Development Engineer - Neuromorphic Computing</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Software-Development-Engineer---Neuromorphic-Computing_JR0287335</link>
-      <guid isPermaLink="false">393a60b12a563dda</guid>
-      <description>US, California, Santa Clara · other · 4d</description>
-    </item>
-    <item>
       <title>Netflix — Senior Software Engineer 5 — Developer Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Software-Engineer---Developer-Platform_JR32657</link>
       <guid isPermaLink="false">d967a96e7391dd2b</guid>
@@ -28092,12 +28099,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Data-Backend-Engineer_JR2020354</link>
       <guid isPermaLink="false">5c12667bcc76cb51</guid>
       <description>US, CA, Santa Clara +1 more · mid_level · 4d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Deep Learning Software Engineer, Inference</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Netherlands-Remote/Senior-Deep-Learning-Software-Engineer--Inference_JR2023106-1</link>
-      <guid isPermaLink="false">f6555c5b21ccd173</guid>
-      <description>Netherlands, Remote +2 more · mid_level · 4d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, DGX Cloud Production Engineering</title>
@@ -28440,18 +28441,6 @@
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1</link>
       <guid isPermaLink="false">d03d9fcbae5645b6</guid>
       <description>United Kingdom-London +1 more · internship · 9d</description>
-    </item>
-    <item>
-      <title>Warner Bros. Discovery — Engineering Manager (Data &amp; Distributed Systems) - Data Platform , Hyderabad</title>
-      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Hyderabad---Phoenix-Equinox-Tower-2/Manager--Software-Engineering---Data-Platform---Hyderabad_R000106151</link>
-      <guid isPermaLink="false">3293da240e23f651</guid>
-      <description>Hyderabad - Phoenix Equinox Tower 2 · mid_level · 9d</description>
-    </item>
-    <item>
-      <title>Warner Bros. Discovery — Senior Software Engineer- Android Application Developer</title>
-      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Bangalore---Embassy-Tech-Village/Senior-Software-Engineer--Android-Application-Developer_R000107457</link>
-      <guid isPermaLink="false">dfc2ca1117f4230f</guid>
-      <description>Bangalore - Embassy Tech Village · mid_level · 9d</description>
     </item>
     <item>
       <title>Tencent — Tencent Cloud - Edge Platform Product Solutions Architecture Intern - Singapore</title>
