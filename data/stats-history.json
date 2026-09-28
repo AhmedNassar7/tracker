@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T22:11:29Z",
+  "updated_at": "2026-09-28T00:46:21Z",
   "retention_days": 90,
   "snapshots": [
     {
@@ -19823,6 +19823,132 @@
           "Sonyinteractiveentertainmentglobal": 53,
           "Cloudflare": 49,
           "DoorDash": 49
+        }
+      }
+    },
+    {
+      "at": "2026-09-28T00:46:21Z",
+      "curated_roles": 1317,
+      "public_opportunities": 3588,
+      "jobs_total": 4155,
+      "hackathons_total": 85,
+      "events_total": 249,
+      "total_items": 4489,
+      "level_counts": {
+        "internship": 315,
+        "early_career": 86,
+        "mid_level": 3754
+      },
+      "dimensions": {
+        "by_level": {
+          "internship": 275,
+          "new_grad": 58,
+          "unknown": 762,
+          "mid_level": 2056,
+          "entry_level": 16,
+          "junior": 4,
+          "other": 930
+        },
+        "by_region": {
+          "north_america": 2224,
+          "europe": 586,
+          "unknown": 499,
+          "apac": 431,
+          "remote": 253,
+          "latam": 33,
+          "mena": 75
+        },
+        "by_remote_type": {
+          "onsite": 1178,
+          "remote": 4,
+          "unknown": 2919
+        },
+        "by_role_type": {
+          "machine_learning": 92,
+          "software_engineer": 2311,
+          "other_swe": 1,
+          "mobile": 182,
+          "frontend": 71,
+          "backend": 290,
+          "full_stack": 215,
+          "security": 26,
+          "infrastructure": 473,
+          "platform": 440
+        },
+        "by_category": {
+          "faang": 967,
+          "microsoft_group": 15,
+          "big_tech": 44,
+          "product_saas": 19,
+          "fintech": 25,
+          "ride_delivery": 27,
+          "more_global_tech": 39,
+          "cloud_infra": 9,
+          "ai_research": 7,
+          "consulting_finance": 8,
+          "apac_tech": 22,
+          "uncategorized": 2919
+        },
+        "by_country": {
+          "United States": 2026,
+          "Unknown": 610,
+          "India": 304,
+          "Canada": 296,
+          "United Kingdom": 147,
+          "Germany": 84,
+          "Ireland": 75,
+          "France": 53,
+          "Poland": 51,
+          "South Korea": 41,
+          "Spain": 40,
+          "Egypt": 29,
+          "Portugal": 26,
+          "Singapore": 26,
+          "China": 25
+        },
+        "by_source": {
+          "amazon": 833,
+          "greenhouse:spacex": 384,
+          "greenhouse:databricks": 185,
+          "greenhouse:elastic": 125,
+          "ashby:openai": 120,
+          "greenhouse:anthropic": 117,
+          "greenhouse:roblox": 111,
+          "greenhouse:okta": 109,
+          "apple": 103,
+          "greenhouse:stripe": 92,
+          "greenhouse:coupang": 88,
+          "derec4_newgrad": 62,
+          "ashby:snowflake": 60,
+          "greenhouse:mongodb": 60,
+          "greenhouse:coinbase": 59,
+          "greenhouse:sonyinteractiveentertainmentglobal": 53,
+          "greenhouse:robinhood": 51,
+          "greenhouse:cloudflare": 49,
+          "ashby:clickhouse": 46,
+          "greenhouse:reddit": 46
+        },
+        "top_companies": {
+          "Amazon": 850,
+          "SpaceX": 385,
+          "Databricks": 185,
+          "Elastic": 125,
+          "OpenAI": 120,
+          "Anthropic": 117,
+          "Roblox": 113,
+          "Okta": 111,
+          "Apple": 103,
+          "Stripe": 102,
+          "Coupang": 88,
+          "Snowflake": 66,
+          "Coinbase": 65,
+          "Robinhood": 65,
+          "MongoDB": 60,
+          "DoorDash": 54,
+          "Lyft": 53,
+          "Scale AI": 53,
+          "Sonyinteractiveentertainmentglobal": 53,
+          "Cloudflare": 49
         }
       }
     }
