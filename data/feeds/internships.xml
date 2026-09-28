@@ -4,12 +4,12 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Mon, 28 Sep 2026 15:28:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 22:03:54 GMT</lastBuildDate>
     <item>
-      <title>Microsoft — Software Engineer: Intern Opportunities for University Students, Atlanta</title>
-      <link>https://zapply.jobs/l/d/microsoft-200058358?s=gh-new-grad-software-engineering-jobs-2027</link>
-      <guid isPermaLink="false">a5a78535d88fae3d</guid>
-      <description>Atlanta, Georgia, United States · internship · 2d</description>
+      <title>Microsoft — Software Engineer: Intern Opportunities for University Students - Atlanta</title>
+      <link>https://apply.careers.microsoft.com/careers/job/1970393557008714</link>
+      <guid isPermaLink="false">39b2c8efd676dd84</guid>
+      <description>Atlanta, GA · internship · 2d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -17,20 +17,6 @@
       <link>https://zapply.jobs/l/d/microsoft-200058358?s=gh-internships-2027</link>
       <guid isPermaLink="false">5dff3ec305343f50</guid>
       <description>Atlanta, Georgia, United States · internship · 2d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft — Software Engineer: Intern Opportunity for University Students</title>
-      <link>https://zapply.jobs/l/d/microsoft-200057329?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">689d10e08b2c5f24</guid>
-      <description>Mountain View, California,... · internship · 1d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Machine Learning Intern (PhD) - Summer 2027</title>
-      <link>https://zapply.jobs/l/d/greenhouse-doordashusa-8233953?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">4711ecbd8a1b379f</guid>
-      <description>San Francisco, CA · internship · 2d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -48,6 +34,13 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>DoorDash — Machine Learning Intern - PhD - Summer 2027</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8233953</link>
+      <guid isPermaLink="false">b94e7315e3769c3c</guid>
+      <description>San Francisco, CA +3 · internship · 3d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>DoorDash — Machine Learning Intern (Masters) - Summer 2027</title>
       <link>https://zapply.jobs/l/d/greenhouse-doordashusa-8204111?s=gh-internships-2027</link>
       <guid isPermaLink="false">f57d182a54d1009f</guid>
@@ -59,6 +52,13 @@
       <link>https://zapply.jobs/l/d/greenhouse-doordashusa-8204111?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">fef98dd4e0523aa8</guid>
       <description>San Francisco, CA · internship · 4d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Machine Learning Intern - Masters - Summer 2027</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8204111</link>
+      <guid isPermaLink="false">d06f7a09306e4989</guid>
+      <description>San Francisco, CA +3 · internship · 4d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -87,6 +87,34 @@
       <link>https://job-boards.greenhouse.io/monzo/jobs/8156261</link>
       <guid isPermaLink="false">d203e53d9eb22f86</guid>
       <description>London · internship · 0d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Robinhood — Software Developer Intern, Backend (Summer 2027)</title>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8142930?t=gh_src=&amp;gh_jid=8142930</link>
+      <guid isPermaLink="false">53287a3e91a7dcc8</guid>
+      <description>Toronto, Canada · internship · 0d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Robinhood — Software Developer Intern, iOS (Summer 2027)</title>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8199729?t=gh_src=&amp;gh_jid=8199729</link>
+      <guid isPermaLink="false">bacc3525eff61e73</guid>
+      <description>Toronto, Canada · internship · 0d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Robinhood — Software Developer Intern, Web (Summer 2027)</title>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8199744?t=gh_src=&amp;gh_jid=8199744</link>
+      <guid isPermaLink="false">a86016e203ddf398</guid>
+      <description>Toronto, Canada · internship · 0d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Robinhood — Software Developer Intern/Co-op, Backend (Winter 2027)</title>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8194428?t=gh_src=&amp;gh_jid=8194428</link>
+      <guid isPermaLink="false">a2af000ab8d13a81</guid>
+      <description>Toronto, Canada · internship · 0d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -153,6 +181,27 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Snowflake — Software Engineer Intern (AI / ML) - Spring 2027</title>
+      <link>https://zapply.jobs/l/d/ashby-snowflake-4be290ae-dd9d-488c-9d90-56fcd69101ca?s=gh-internships-2027</link>
+      <guid isPermaLink="false">158f8886a83cdc4d</guid>
+      <description>CA-Menlo Park · internship · 3d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Snowflake — Software Engineer Intern (Core, Infrastructure &amp; Security) — Spring 2027</title>
+      <link>https://zapply.jobs/l/d/ashby-snowflake-5315b6f6-2c14-4cb9-a884-c2bae69f2c69?s=gh-internships-2027</link>
+      <guid isPermaLink="false">9352e6e31161afb1</guid>
+      <description>CA-Menlo Park · internship · 3d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Snowflake — Software Engineer Intern (Database Engineering) - Spring 2027</title>
+      <link>https://zapply.jobs/l/d/ashby-snowflake-7bd393df-67d7-4009-ba4f-1cd79a82b0be?s=gh-internships-2027</link>
+      <guid isPermaLink="false">aa33ff47737d7378</guid>
+      <description>CA-Menlo Park · internship · 3d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Snowflake — Software Engineer Intern - AI / ML - Spring 2027</title>
       <link>https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca</link>
       <guid isPermaLink="false">1492e814954a4f51</guid>
@@ -178,27 +227,6 @@
       <link>https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7</link>
       <guid isPermaLink="false">e7273a87ccf98e90</guid>
       <description>San Francisco, CA +1 · internship · 3d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Snowflake — Software Engineer Intern (AI / ML) - Spring 2027</title>
-      <link>https://zapply.jobs/l/d/ashby-snowflake-4be290ae-dd9d-488c-9d90-56fcd69101ca?s=gh-internships-2027</link>
-      <guid isPermaLink="false">158f8886a83cdc4d</guid>
-      <description>CA-Menlo Park · internship · 3d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Snowflake — Software Engineer Intern (Core, Infrastructure &amp; Security) — Spring 2027</title>
-      <link>https://zapply.jobs/l/d/ashby-snowflake-5315b6f6-2c14-4cb9-a884-c2bae69f2c69?s=gh-internships-2027</link>
-      <guid isPermaLink="false">9352e6e31161afb1</guid>
-      <description>CA-Menlo Park · internship · 3d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Snowflake — Software Engineer Intern (Database Engineering) - Spring 2027</title>
-      <link>https://zapply.jobs/l/d/ashby-snowflake-7bd393df-67d7-4009-ba4f-1cd79a82b0be?s=gh-internships-2027</link>
-      <guid isPermaLink="false">aa33ff47737d7378</guid>
-      <description>CA-Menlo Park · internship · 3d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -234,34 +262,6 @@
       <link>https://www.amazon.jobs/jobs/10559762/apply</link>
       <guid isPermaLink="false">9ea5f9935c0b08e9</guid>
       <description>Redmond, WA · internship · 6d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Software Developer Intern, Backend (Summer 2027)</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8142930?t=gh_src=&amp;gh_jid=8142930</link>
-      <guid isPermaLink="false">53287a3e91a7dcc8</guid>
-      <description>Toronto, Canada · internship · 3d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Software Developer Intern, iOS (Summer 2027)</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8199729?t=gh_src=&amp;gh_jid=8199729</link>
-      <guid isPermaLink="false">bacc3525eff61e73</guid>
-      <description>Toronto, Canada · internship · 3d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Software Developer Intern, Web (Summer 2027)</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8199744?t=gh_src=&amp;gh_jid=8199744</link>
-      <guid isPermaLink="false">a86016e203ddf398</guid>
-      <description>Toronto, Canada · internship · 3d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Robinhood — Software Developer Intern/Co-op, Backend (Winter 2027)</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8194428?t=gh_src=&amp;gh_jid=8194428</link>
-      <guid isPermaLink="false">a2af000ab8d13a81</guid>
-      <description>Toronto, Canada · internship · 3d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -308,9 +308,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130867</link>
-      <guid isPermaLink="false">17d0966195e03cff</guid>
-      <description>London · internship · 3d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
+      <guid isPermaLink="false">123c0cae7b46bde0</guid>
+      <description>Bengaluru · internship · 3d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -322,9 +322,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
-      <guid isPermaLink="false">123c0cae7b46bde0</guid>
-      <description>Bengaluru · internship · 3d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130867</link>
+      <guid isPermaLink="false">17d0966195e03cff</guid>
+      <description>London · internship · 3d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -332,6 +332,13 @@
       <link>https://stripe.com/jobs/search?gh_jid=8130807</link>
       <guid isPermaLink="false">9747c6e747e4eb88</guid>
       <description>Bucharest · internship · 3d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8097801</link>
+      <guid isPermaLink="false">c605f6dad3d2889c</guid>
+      <description>Dublin · internship · 3d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -347,27 +354,6 @@
       <guid isPermaLink="false">bbe14083e01b613a</guid>
       <description>San Francisco, Seattle, New York City · internship · 3d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8097801</link>
-      <guid isPermaLink="false">c605f6dad3d2889c</guid>
-      <description>Dublin · internship · 3d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Figma — Data Engineer Intern - 2027</title>
-      <link>https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004</link>
-      <guid isPermaLink="false">51c648b80dfa6c89</guid>
-      <description>San Francisco, CA +1 · internship · 4d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Notion — Software Engineer Intern, Mobile (Winter 2027)</title>
-      <link>https://zapply.jobs/l/d/ashby-notion-2b587e66-deac-421a-a824-9415ba78b5a7?s=gh-internships-2027</link>
-      <guid isPermaLink="false">b0388979d70c72eb</guid>
-      <description>San Francisco, California · internship · 4d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Microsoft — Software Engineer: Intern Opportunity for University Students</title>
@@ -423,6 +409,20 @@
       <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026800?s=gh-internships-2027</link>
       <guid isPermaLink="false">2c118615a83c8576</guid>
       <description>San Jose California US · internship · 4d</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Figma — Data Engineer Intern - 2027</title>
+      <link>https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004</link>
+      <guid isPermaLink="false">51c648b80dfa6c89</guid>
+      <description>San Francisco, CA +1 · internship · 4d</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Notion — Software Engineer Intern, Mobile (Winter 2027)</title>
+      <link>https://zapply.jobs/l/d/ashby-notion-2b587e66-deac-421a-a824-9415ba78b5a7?s=gh-internships-2027</link>
+      <guid isPermaLink="false">b0388979d70c72eb</guid>
+      <description>San Francisco, California · internship · 4d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -494,13 +494,6 @@
       <guid isPermaLink="false">5c41b4f90be57ec7</guid>
       <description>Boston, Massachusetts, USA; New York, New York, USA · internship · 5d</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tencent — Site Reliability Engineer (SRE) Intern — AI Infrastructure</title>
-      <link>https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-internships-2027</link>
-      <guid isPermaLink="false">83eee509c94fcb41</guid>
-      <description>California-Palo Alto · internship · 6d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Apple — Internship - Machine Learning (Foundation Models)</title>
@@ -937,20 +930,6 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Duolingo — Software Engineer - Intern</title>
-      <link>https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002</link>
-      <guid isPermaLink="false">d4f24cf82e622d51</guid>
-      <description>New York City, NY +2 · internship · 12d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Duolingo — Software Engineer - Thrive Intern</title>
-      <link>https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002</link>
-      <guid isPermaLink="false">5f3f0c6a7630295d</guid>
-      <description>Pittsburgh, PA · internship · 12d</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Duolingo — Software Engineer Intern</title>
       <link>https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806878002?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">2cb4c52db28f7464</guid>
@@ -972,6 +951,20 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Duolingo — Software Engineer - Intern</title>
+      <link>https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002</link>
+      <guid isPermaLink="false">d4f24cf82e622d51</guid>
+      <description>New York City, NY +2 · internship · 12d</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duolingo — Software Engineer - Thrive Intern</title>
+      <link>https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002</link>
+      <guid isPermaLink="false">5f3f0c6a7630295d</guid>
+      <description>Pittsburgh, PA · internship · 12d</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Duolingo — Software Engineer, Intern</title>
       <link>https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002</link>
       <guid isPermaLink="false">c6594ac7b51ae29a</guid>
@@ -986,17 +979,31 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Figma — Software Engineer Intern - Summer 2027</title>
-      <link>https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004</link>
-      <guid isPermaLink="false">851ee291607fe343</guid>
-      <description>San Francisco, CA +1 · internship · 13d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DoorDash — Software Engineer - Intern - Summer 2027 - US</title>
       <link>https://job-boards.greenhouse.io/doordashusa/jobs/8171041</link>
       <guid isPermaLink="false">b72aa10c93b554b6</guid>
       <description>San Francisco, CA +4 · internship · 13d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineer Intern</title>
+      <link>https://job-boards.greenhouse.io/doordashcanada/jobs/8170944?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">937008f62fe29951</guid>
+      <description>Toronto, ON, Canada · internship · 13d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineer Intern - Summer 2027</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8171041?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">6b0eefd2496f9547</guid>
+      <description>Seattle, WA +4 more · internship · 13d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple — Software Engineer Intern - Core OS</title>
+      <link>https://jobs.apple.com/en-us/details/200683709/software-engineer-intern-core-os</link>
+      <guid isPermaLink="false">e0438785c250a2ec</guid>
+      <description>Taipei, Taiwan · internship · 13d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1014,17 +1021,10 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Software Engineer Intern</title>
-      <link>https://job-boards.greenhouse.io/doordashcanada/jobs/8170944?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">937008f62fe29951</guid>
-      <description>Toronto, ON, Canada · internship · 13d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Software Engineer Intern - Summer 2027</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8171041?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">6b0eefd2496f9547</guid>
-      <description>Seattle, WA +4 more · internship · 13d</description>
+      <title>Figma — Software Engineer Intern - Summer 2027</title>
+      <link>https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004</link>
+      <guid isPermaLink="false">851ee291607fe343</guid>
+      <description>San Francisco, CA +1 · internship · 13d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1046,13 +1046,6 @@
       <link>https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&amp;gh_jid=8142959</link>
       <guid isPermaLink="false">5d578030266eb745</guid>
       <description>Menlo Park, CA +1 · internship · 13d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Software Engineer Intern - Core OS</title>
-      <link>https://jobs.apple.com/en-us/details/200683709/software-engineer-intern-core-os</link>
-      <guid isPermaLink="false">e0438785c250a2ec</guid>
-      <description>Taipei, Taiwan · internship · 13d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1092,15 +1085,15 @@
     </item>
     <item>
       <title>Robinhood — Software Developer Intern</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8199744?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">70475065024e31a2</guid>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8142930?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">99a6a7db8c15bb15</guid>
       <description>Toronto, ON, Canada · internship · 14d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Robinhood — Software Developer Intern</title>
-      <link>https://boards.greenhouse.io/robinhood/jobs/8142930?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">99a6a7db8c15bb15</guid>
+      <link>https://boards.greenhouse.io/robinhood/jobs/8199744?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">70475065024e31a2</guid>
       <description>Toronto, ON, Canada · internship · 14d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1252,6 +1245,13 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Datadog — Software Engineer Intern - Summer</title>
+      <link>https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">3d1cbdfc5905d956</guid>
+      <description>Boston, MA NYC · internship · 19d</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Coinbase — Data Engineer Intern</title>
       <link>https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459</link>
       <guid isPermaLink="false">f8a23e86c434ead6</guid>
@@ -1267,23 +1267,16 @@
     </item>
     <item>
       <title>Coinbase — Software Engineer Intern</title>
-      <link>https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315</link>
-      <guid isPermaLink="false">57e20f41dd1e37b4</guid>
-      <description>San Francisco, CA · internship · 19d</description>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Datadog — Software Engineer Intern - Summer</title>
-      <link>https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">3d1cbdfc5905d956</guid>
-      <description>Boston, MA NYC · internship · 19d</description>
+      <link>https://boards.greenhouse.io/embed/job_app?token=8168315&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">4261043a3727aeac</guid>
+      <description>SF · internship · 19d</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coinbase — Software Engineer Intern</title>
-      <link>https://boards.greenhouse.io/embed/job_app?token=8168315&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">4261043a3727aeac</guid>
-      <description>SF · internship · 19d</description>
+      <link>https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315</link>
+      <guid isPermaLink="false">57e20f41dd1e37b4</guid>
+      <description>San Francisco, CA · internship · 19d</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1365,16 +1358,16 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90891?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">b5e1e562d656d53e</guid>
-      <description>San Jose, CA Santa Clara, CA · internship · 21d</description>
+      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2c822e92c85d92c2</guid>
+      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 21d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2c822e92c85d92c2</guid>
-      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 21d</description>
+      <link>https://careers.amd.com/jobs/90891?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">b5e1e562d656d53e</guid>
+      <description>San Jose, CA Santa Clara, CA · internship · 21d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1581,6 +1574,20 @@
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>AMD — Graphics Software Engineer Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/90305?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">09784159e6cf1962</guid>
+      <description>Markham, ON, Canada · internship · 27d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Machine Learning/Artificial Intelligence Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/91363?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">4153e92bfc3965e8</guid>
+      <description>Markham, ON, Canada · internship · 27d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Atlassian — Software Engineer Intern</title>
       <link>https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">d06c2e10472343c5</guid>
@@ -1602,31 +1609,17 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Epic Games — Frontend Programmer Intern</title>
-      <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004</link>
-      <guid isPermaLink="false">9b79d5d287e68776</guid>
-      <description>Cary, NC · internship · 27d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Graphics Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90305?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">09784159e6cf1962</guid>
-      <description>Markham, ON, Canada · internship · 27d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Machine Learning/Artificial Intelligence Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91363?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">4153e92bfc3965e8</guid>
-      <description>Markham, ON, Canada · internship · 27d</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Adobe — Machine Learning Engineer Intern</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">31bde1302a301ac7</guid>
       <description>Seattle, WA +5 more · internship · 27d</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic Games — Frontend Programmer Intern</title>
+      <link>https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004</link>
+      <guid isPermaLink="false">9b79d5d287e68776</guid>
+      <description>Cary, NC · internship · 27d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1841,12 +1834,6 @@
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1</link>
       <guid isPermaLink="false">b9d57e80420f8ae7</guid>
       <description>US-California-Palo Alto · internship · 6d</description>
-    </item>
-    <item>
-      <title>Mastercard — Platform Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876</link>
-      <guid isPermaLink="false">738f942ae512bffb</guid>
-      <description>O'Fallon, Missouri · internship · 10d</description>
     </item>
     <item>
       <title>Tencent — PUBG Mobile Marketing Team Intern</title>
