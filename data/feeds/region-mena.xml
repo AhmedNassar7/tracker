@@ -4,7 +4,21 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Mon, 28 Sep 2026 06:56:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 15:28:22 GMT</lastBuildDate>
+    <item>
+      <title>Salla — Lead Backend Engineer - PayLink</title>
+      <link>https://apply.workable.com/j/2B4600D833</link>
+      <guid isPermaLink="false">341b21b70fa9cff1</guid>
+      <description>Jeddah, Saudi Arabia · mid_level · 0d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Salla — Senior Backend Engineer - PayLink</title>
+      <link>https://apply.workable.com/j/B1DB6B1A8A</link>
+      <guid isPermaLink="false">a4ef93e4168d130e</guid>
+      <description>Jeddah, Saudi Arabia · mid_level · 0d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Robusta — Infrastructure Architect - Remote - Octopus by RTG</title>
       <link>https://apply.workable.com/j/9A7FEAA155</link>
@@ -55,13 +69,6 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Datadog — Senior Software Engineer - Distributed Systems</title>
-      <link>https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111</link>
-      <guid isPermaLink="false">bb9cffb6a247e3c6</guid>
-      <description>Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France; Tel Aviv, Israel · mid_level · 10d</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Blabs — Senior Backend Engineer</title>
       <link>https://apply.workable.com/j/FE45731FDD</link>
       <guid isPermaLink="false">3896df1b32b9903e</guid>
@@ -81,6 +88,13 @@
       <guid isPermaLink="false">a063becda0aeebcf</guid>
       <description>Israel · other · 11d</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Axisapp — Flutter Mobile Engineer</title>
+      <link>https://axisapp.teamtailor.com/jobs/8380649-flutter-mobile-engineer</link>
+      <guid isPermaLink="false">433546faf08a7d48</guid>
+      <description>Cairo, Egypt · other · 13d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Axisapp — SDET (Software Development Engineer in Test)</title>
@@ -510,16 +524,28 @@
       <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Mastercard — Principal Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Nairobi-Kenya/Principal-Software-Engineer_R-290267</link>
+      <guid isPermaLink="false">bb957386ba36f7cf</guid>
+      <description>Nairobi, Kenya · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Automation Infrastructure Student</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Automation-Infrastructure-Student_JR2020544</link>
+      <guid isPermaLink="false">1f1bbf75cd3a4f65</guid>
+      <description>Israel, Yokneam · other · 0d</description>
+    </item>
+    <item>
+      <title>Valeo — Software engineer - Model Based Development, POWER</title>
+      <link>https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Model-Based-Development-Control-Law-Engineer--POWER_REQ2025066664</link>
+      <guid isPermaLink="false">1c0bde609cadd8c1</guid>
+      <description>Cairo · other · 0d</description>
+    </item>
+    <item>
       <title>Intel — Software Engineer</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Israel-Haifa/Software-Engineer_JR0283723</link>
       <guid isPermaLink="false">94ed32cfed1383a3</guid>
-      <description>Israel, Haifa · other · 3d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior C++ Software Engineer – AI Developer Tools</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-C---Software-Engineer---AI-Developer-Tools_JR2026075</link>
-      <guid isPermaLink="false">93f81c53461ed2c5</guid>
-      <description>Israel, Tel Aviv · mid_level · 4d</description>
+      <description>Israel, Haifa · other · 4d</description>
     </item>
     <item>
       <title>Tabby — Senior DevOps Engineer</title>
