@@ -4,7 +4,14 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Tue, 29 Sep 2026 01:58:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:30:44 GMT</lastBuildDate>
+    <item>
+      <title>SpaceX — Software Engineer New Grad - Software</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">6ffffa2b5640e686</guid>
+      <description>Brownsville, TX · new_grad · 1mo</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Airbnb — Early Career Software Engineer, Quality Engineering</title>
       <link>https://careers.airbnb.com/positions/8154749?gh_jid=8154749</link>
@@ -42,9 +49,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 4d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 4d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -56,9 +63,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 4d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 4d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -67,13 +74,6 @@
       <guid isPermaLink="false">3f9f51d5ac7367a1</guid>
       <description>Barcelona · new_grad · 4d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe — 2027 University Graduate - Machine Learning Engineer</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R172085?s=gh-new-grad-data-science-jobs-2027</link>
-      <guid isPermaLink="false">0735de4470071784</guid>
-      <description>San Jose · new_grad · 5d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Roblox — [2027] Software Engineer, Early Career</title>
@@ -422,13 +422,13 @@
       <title>Intel — Graduate Talent (ISCP SoC Front End Team)</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Malaysia-Penang/Graduate-Talent--ISCP-SoC-Front-End-Team-_JR0287596</link>
       <guid isPermaLink="false">e276b2f11b21cf41</guid>
-      <description>Malaysia, Penang · new_grad · 0d</description>
+      <description>Malaysia, Penang · new_grad · 1d</description>
     </item>
     <item>
       <title>Intel — Graduate Talent (ISCP SoC Front End Team)</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Malaysia-Penang/Graduate-Talent--ISCP-SoC-Front-End-Team-_JR0287594</link>
       <guid isPermaLink="false">7218c75a46843046</guid>
-      <description>Malaysia, Penang · new_grad · 0d</description>
+      <description>Malaysia, Penang · new_grad · 1d</description>
     </item>
   </channel>
 </rss>

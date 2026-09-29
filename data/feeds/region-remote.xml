@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Tue, 29 Sep 2026 01:58:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:30:44 GMT</lastBuildDate>
     <item>
       <title>Airbnb — Senior Fullstack Engineer, Quality Engineering</title>
       <link>https://careers.airbnb.com/positions/7380185?gh_jid=7380185</link>
@@ -20,6 +20,13 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic — Senior+ Software Engineer, Legal Tech</title>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5435665008</link>
+      <guid isPermaLink="false">3a973271af71320b</guid>
+      <description>Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY · mid_level · 1d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Coinbase — Senior Software Engineer</title>
       <link>https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647</link>
       <guid isPermaLink="false">a55a8f5b0a668cc3</guid>
@@ -27,24 +34,10 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Software Engineer - Trading</title>
-      <link>https://www.coinbase.com/careers/positions/7866674?gh_jid=7866674</link>
-      <guid isPermaLink="false">99a8b1d103cd2ef7</guid>
-      <description>Remote - Singapore · mid_level · 1d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Software Engineer, Backend (Consumer - Risk)</title>
       <link>https://www.coinbase.com/careers/positions/7930686?gh_jid=7930686</link>
       <guid isPermaLink="false">461e4201a64b7126</guid>
       <description>Remote - Canada · mid_level · 1d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Software Engineer, Backend - Overseer (Platform)</title>
-      <link>https://www.coinbase.com/careers/positions/8238630?gh_jid=8238630</link>
-      <guid isPermaLink="false">ad7563ea97c06851</guid>
-      <description>Remote - USA · mid_level · 1d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -629,13 +622,6 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Software Engineer, Backend - Platform (Core AI Automation)</title>
-      <link>https://www.coinbase.com/careers/positions/8211452?gh_jid=8211452</link>
-      <guid isPermaLink="false">ea369956dc904f85</guid>
-      <description>Remote - USA · mid_level · 7d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>JetBrains — Staff Software Developer (Kotlin Libraries)</title>
       <link>https://job-boards.eu.greenhouse.io/jetbrains/jobs/4979524101</link>
       <guid isPermaLink="false">96773f03b9e727fa</guid>
@@ -1134,16 +1120,16 @@
     </item>
     <item>
       <title>Coinbase — Senior Staff Software Engineer, Payments</title>
-      <link>https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842</link>
-      <guid isPermaLink="false">dd38bd165b590dd7</guid>
-      <description>Remote - Canada · mid_level · 28d</description>
+      <link>https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068</link>
+      <guid isPermaLink="false">e05c27b0368e39ae</guid>
+      <description>Remote - USA · mid_level · 28d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coinbase — Senior Staff Software Engineer, Payments</title>
-      <link>https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068</link>
-      <guid isPermaLink="false">e05c27b0368e39ae</guid>
-      <description>Remote - USA · mid_level · 28d</description>
+      <link>https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842</link>
+      <guid isPermaLink="false">dd38bd165b590dd7</guid>
+      <description>Remote - Canada · mid_level · 28d</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1584,181 +1570,187 @@
       <title>Netflix — Engineering Manager, Platform Systems — AIMS Engineering</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Tech-Lead-Manager--GenAI-Sandbox---Tooling--AI-Foundations-_JR38538</link>
       <guid isPermaLink="false">eeb12660429f919e</guid>
-      <description>USA - Remote · mid_level · 0d</description>
+      <description>USA - Remote · mid_level · 1d</description>
     </item>
     <item>
       <title>Netflix — Software Engineering L5, Open Connect Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineering-L5--Open-Connect-Platform_JR42807</link>
       <guid isPermaLink="false">39b9ed179e4a9cf7</guid>
-      <description>USA - Remote · other · 0d</description>
+      <description>USA - Remote · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — AI Software Engineer, Lightspeed Studios</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/AI-Software-Engineer--Lightspeed-Studios_JR2026538</link>
       <guid isPermaLink="false">919097c7601b9e3f</guid>
-      <description>US, CA, Remote +1 more · other · 0d</description>
+      <description>US, CA, Remote +1 more · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Engineering Manager, Math Libraries Platform Expansion and Readiness</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Engineering-Manager--Math-Libraries-Platform-Expansion-and-Readiness_JR2026005</link>
       <guid isPermaLink="false">4fed8d79c5ab9082</guid>
-      <description>US, CA, Santa Clara +5 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +5 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Principal Software Engineer, Rack-Scale System Software — CSP Engagements</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316</link>
       <guid isPermaLink="false">19a883cd43918f82</guid>
-      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +3 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior AI Infrastructure Engineer - EDA Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-AI-infrastructure-engineer---Hardware-Infrastructure-Engineering_JR2024816</link>
       <guid isPermaLink="false">c65504a20fa05e87</guid>
-      <description>US, CA, Remote +4 more · mid_level · 0d</description>
+      <description>US, CA, Remote +4 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Compute Platform Engineer, LSF - EDA Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Compute-Platform-Engineer--LSF-_JR2023960</link>
       <guid isPermaLink="false">0b2b7870116d0bf5</guid>
-      <description>US, CA, Remote +2 more · mid_level · 0d</description>
+      <description>US, CA, Remote +2 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior NPI Infrastructure Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Vietnam-Remote/Senior-NPI-Infrastructure-Engineer_JR2026438</link>
       <guid isPermaLink="false">c641f6fae3c2f854</guid>
-      <description>Vietnam, Remote · mid_level · 0d</description>
+      <description>Vietnam, Remote · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, AI Agent Compute</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--AI-Agent-Compute_JR2021516-1</link>
       <guid isPermaLink="false">1cd2f89db4841f18</guid>
-      <description>US, CA, Remote +1 more · mid_level · 0d</description>
+      <description>US, CA, Remote +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, At Scale Compute Analysis</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730</link>
       <guid isPermaLink="false">39d7bb17f1df4dbe</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +4 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Core Infrastructure Services - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552</link>
       <guid isPermaLink="false">3a2f4263c0b3d9f7</guid>
-      <description>US, Remote +4 more · mid_level · 0d</description>
+      <description>US, Remote +4 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Distributed Systems Engineer - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Distributed-Systems-Engineer---DGX-Cloud_JR2026619</link>
       <guid isPermaLink="false">1172acc2a3583c53</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Metrics and Evaluation - Autonomous Vehicles</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Metrics-and-Evaluation---Autonomous-Vehicles_JR2014651</link>
       <guid isPermaLink="false">f4ab6e151878678c</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +4 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, NeMo Core Platform</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Remote/Senior-Software-Engineer--NeMo-Core-Platform_JR2025753-1</link>
       <guid isPermaLink="false">baeef39c4e34c1e3</guid>
-      <description>Canada, Remote +1 more · mid_level · 0d</description>
+      <description>Canada, Remote +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Network Visibility Platform - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Network-Visibility-Platform---DGX-Cloud_JR2026403</link>
       <guid isPermaLink="false">990a00087370f10a</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Networking DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Networking-DGX-Cloud_JR2022482</link>
       <guid isPermaLink="false">9d517c1c8bde96c2</guid>
-      <description>US, Remote +5 more · mid_level · 0d</description>
+      <description>US, Remote +5 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Object Storage - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Object-Storage---DGX-Cloud_JR2025155</link>
       <guid isPermaLink="false">a42bae4bfa463296</guid>
-      <description>US, CA, Santa Clara +5 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +5 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Test - Autonomous Vehicles</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Test---Autonomous-Vehicles_JR2025892</link>
       <guid isPermaLink="false">0a1cd9fbbd99c24e</guid>
-      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +3 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer - GPU Performance</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214</link>
       <guid isPermaLink="false">1bc3f00a63ebf573</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Systems Software Engineer, Compute Stack Acceleration</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549</link>
       <guid isPermaLink="false">9245920daa8db653</guid>
-      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +3 more · mid_level · 1d</description>
     </item>
     <item>
       <title>Salesforce — Senior Staff Prototyping Engineer, iOS</title>
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/Senior-Staff-Prototyping-Engineer--iOS_JR360080-1</link>
       <guid isPermaLink="false">572e9ca71679e5de</guid>
-      <description>California - San Francisco Metro - Remote +4 more · mid_level · 0d</description>
+      <description>California - San Francisco Metro - Remote +4 more · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Salesforce — Staff Prototyping Engineer, Android</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/Staff-Prototyping-Engineer--Android_JR360079-1</link>
+      <guid isPermaLink="false">8b533ba9d79fa594</guid>
+      <description>California - San Francisco Metro - Remote +4 more · mid_level · 1d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer (L5) - Personalization Data</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Senior-Software-Engineer--L5----Personalization-Data_JR42004-1</link>
       <guid isPermaLink="false">62a3b758d194b971</guid>
-      <description>USA - Remote · mid_level · 3d</description>
+      <description>USA - Remote · mid_level · 4d</description>
     </item>
     <item>
       <title>Netflix — Software Engineer (L6) - Compute Runtime</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer--L6----Compute-Runtime_JR42215-1</link>
       <guid isPermaLink="false">d6223917331e2bb3</guid>
-      <description>USA - Remote · other · 3d</description>
+      <description>USA - Remote · other · 4d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer - Design Systems</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Senior-Software-Engineer---Design-Systems_JR41034</link>
       <guid isPermaLink="false">4f6c168134c7946c</guid>
-      <description>USA - Remote · mid_level · 4d</description>
+      <description>USA - Remote · mid_level · 5d</description>
     </item>
     <item>
       <title>Netflix — Software Engineer 4 - Revenue Infrastructure</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-4---Revenue-Infrastructure_JR42725</link>
       <guid isPermaLink="false">339a7d3491e2d253</guid>
-      <description>USA - Remote · other · 4d</description>
+      <description>USA - Remote · other · 5d</description>
     </item>
     <item>
       <title>Netflix — Engineering Manager, Privacy Infrastructure Engineering</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Engineering-Manager--Privacy-Infrastructure-Engineering_JR40096</link>
       <guid isPermaLink="false">25da41a061ca0044</guid>
-      <description>USA - Remote · mid_level · 6d</description>
+      <description>USA - Remote · mid_level · 7d</description>
     </item>
     <item>
       <title>Netflix — Staff ML Software Engineer (L6) — Platform Systems, AIMS Engineering</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Staff-ML-Software-Engineer--L6----Platform-Systems--AIMS-Engineering_JR41144</link>
       <guid isPermaLink="false">0cfd9f02a401b28f</guid>
-      <description>USA - Remote · mid_level · 6d</description>
+      <description>USA - Remote · mid_level · 7d</description>
     </item>
     <item>
       <title>Netflix — Software Engineer 5 – Agent Platform, AI Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-5---Agent-Platform--AI-Platform_JR41100</link>
       <guid isPermaLink="false">5a4dc04b19168310</guid>
-      <description>USA - Remote · other · 7d</description>
+      <description>USA - Remote · other · 8d</description>
     </item>
     <item>
       <title>Netflix — Software Engineer 4/5 – Model Serving Systems, AI Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-L4-L5--Model-Serving-Systems--Machine-Learning-Platform_JR31056</link>
       <guid isPermaLink="false">96d7f5f7beaea01f</guid>
-      <description>USA - Remote · other · 19d</description>
+      <description>USA - Remote · other · 20d</description>
     </item>
     <item>
       <title>Netflix — Distributed Systems Engineer (L5) - Data Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Distributed-Systems-Engineer--L5----Data-Platform_JR28718</link>
       <guid isPermaLink="false">86ed577f2a7851ed</guid>
-      <description>USA - Remote · other · 26d</description>
+      <description>USA - Remote · other · 27d</description>
     </item>
     <item>
       <title>Netflix — Distributed Systems Engineer (L4) - Data Platform</title>
