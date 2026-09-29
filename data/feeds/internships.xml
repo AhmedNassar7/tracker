@@ -4,12 +4,33 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Tue, 29 Sep 2026 01:58:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:30:44 GMT</lastBuildDate>
+    <item>
+      <title>Cloudflare — Software Engineer Intern</title>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8199958?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">9fc808a738d26dd3</guid>
+      <description>Austin, TX · internship · 0d</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>H&amp;R Block — Machine Learning Intern</title>
       <link>https://careers-hrblock.icims.com/jobs/76992/job?mobile=true&amp;needsRedirect=false&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">3b21bfa1905e3039</guid>
       <description>Kansas City, MO · internship · 0d</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Roblox — [Summer 2027] Software Engineer Intern</title>
+      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713</link>
+      <guid isPermaLink="false">878d4c84133197a9</guid>
+      <description>San Mateo, CA, United States · internship · 0d</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Snowflake — Software Engineer Intern - Berlin (2027)</title>
+      <link>https://jobs.ashbyhq.com/snowflake/ab028e3c-c1cf-4455-8915-8e4e6b0cc9e8</link>
+      <guid isPermaLink="false">8d60af424b7e9715</guid>
+      <description>DE-Berlin-Trion Building · internship · 0d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -125,31 +146,10 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Roblox — [Summer 2027] Software Engineer Intern</title>
-      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713</link>
-      <guid isPermaLink="false">878d4c84133197a9</guid>
-      <description>San Mateo, CA, United States · internship · 1d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Adobe — 2027 Intern - Machine Learning Engineer</title>
       <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R171519?s=gh-internships-2027</link>
       <guid isPermaLink="false">cade2fb35b3aca55</guid>
       <description>San Jose · internship · 2d</description>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Notion — Software Engineer Intern</title>
-      <link>https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">6a49c8dec8df3117</guid>
-      <description>San Francisco, CA New York, NY · internship · 1mo</description>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Roblox — Software Engineer Intern 🇺🇸</title>
-      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713&amp;gh_src=nnh32o631us&amp;utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">e5430b57e7623e0c</guid>
-      <description>San Mateo, CA · internship · 1mo</description>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -301,13 +301,6 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130867</link>
-      <guid isPermaLink="false">17d0966195e03cff</guid>
-      <description>London · internship · 4d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Intern</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
       <guid isPermaLink="false">342b3f9493acb89a</guid>
       <description>Singapore · internship · 4d</description>
@@ -318,6 +311,13 @@
       <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
       <guid isPermaLink="false">123c0cae7b46bde0</guid>
       <description>Bengaluru · internship · 4d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Intern</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130867</link>
+      <guid isPermaLink="false">17d0966195e03cff</guid>
+      <description>London · internship · 4d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -353,6 +353,20 @@
       <link>https://apply.careers.microsoft.com/careers/job/1970393557004819</link>
       <guid isPermaLink="false">a6202a72d51ae2ce</guid>
       <description>California, MD · internship · 5d</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Figma — Data Engineer Intern - 2027</title>
+      <link>https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004</link>
+      <guid isPermaLink="false">51c648b80dfa6c89</guid>
+      <description>San Francisco, CA +1 · internship · 5d</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Notion — Software Engineer Intern, Mobile (Winter 2027)</title>
+      <link>https://zapply.jobs/l/d/ashby-notion-2b587e66-deac-421a-a824-9415ba78b5a7?s=gh-internships-2027</link>
+      <guid isPermaLink="false">b0388979d70c72eb</guid>
+      <description>San Francisco, California · internship · 5d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -402,20 +416,6 @@
       <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026800?s=gh-internships-2027</link>
       <guid isPermaLink="false">2c118615a83c8576</guid>
       <description>San Jose California US · internship · 5d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Figma — Data Engineer Intern - 2027</title>
-      <link>https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004</link>
-      <guid isPermaLink="false">51c648b80dfa6c89</guid>
-      <description>San Francisco, CA +1 · internship · 5d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Notion — Software Engineer Intern, Mobile (Winter 2027)</title>
-      <link>https://zapply.jobs/l/d/ashby-notion-2b587e66-deac-421a-a824-9415ba78b5a7?s=gh-internships-2027</link>
-      <guid isPermaLink="false">b0388979d70c72eb</guid>
-      <description>San Francisco, California · internship · 5d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1274,16 +1274,16 @@
     </item>
     <item>
       <title>ByteDance — Software Engineer Intern, Distributed NoSQL Database Systems</title>
-      <link>https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">1d5df77d153bdd24</guid>
-      <description>Seattle, WA · internship · 1mo</description>
+      <link>https://joinbytedance.com/search/7668374190764050741?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">ec7d8cf033561c8d</guid>
+      <description>San Jose, CA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Software Engineer Intern, Distributed NoSQL Database Systems</title>
-      <link>https://joinbytedance.com/search/7668374190764050741?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">ec7d8cf033561c8d</guid>
-      <description>San Jose, CA · internship · 1mo</description>
+      <link>https://joinbytedance.com/search/7668373268886161669?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">1d5df77d153bdd24</guid>
+      <description>Seattle, WA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1302,16 +1302,16 @@
     </item>
     <item>
       <title>Palantir — Software Engineer Intern</title>
-      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">03f050ca86559a60</guid>
-      <description>Washington, D.C. · internship · 1mo</description>
+      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">2ee142b47bfc9198</guid>
+      <description>New York, NY · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Software Engineer Intern</title>
-      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">2ee142b47bfc9198</guid>
-      <description>New York, NY · internship · 1mo</description>
+      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">03f050ca86559a60</guid>
+      <description>Washington, D.C. · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1644,64 +1644,58 @@
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA — AI Infra Development Intern - 2027</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Infra-Development-Intern---2027_JR2026402</link>
-      <guid isPermaLink="false">5e147c16dc10c614</guid>
-      <description>China, Shanghai · internship · 0d</description>
-    </item>
-    <item>
       <title>Intel — System Software Engineering - PhD Intern</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/System-Software-Engineering---PhD-Intern_JR0287457</link>
       <guid isPermaLink="false">839d3ad49190d234</guid>
-      <description>US, Oregon, Hillsboro · internship · 3d</description>
+      <description>US, Oregon, Hillsboro · internship · 4d</description>
     </item>
     <item>
       <title>PwC — Capital Projects &amp; Economics Intern - ambito Infrastrutture, Trasporti e Logistica - Roma</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/Capital-Projects---Economics-Intern---ambito-Infrastrutture--Trasporti-e-Logistica---Roma_721760WD-3</link>
       <guid isPermaLink="false">bea75a67fc8c8375</guid>
-      <description>Rome · internship · 3d</description>
+      <description>Rome · internship · 4d</description>
     </item>
     <item>
       <title>Tencent — Site Reliability Engineer (SRE) Intern — AI Infrastructure</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1</link>
       <guid isPermaLink="false">b9d57e80420f8ae7</guid>
-      <description>US-California-Palo Alto · internship · 6d</description>
+      <description>US-California-Palo Alto · internship · 7d</description>
     </item>
     <item>
       <title>Tencent — PUBG Mobile Marketing Team Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1</link>
       <guid isPermaLink="false">d03d9fcbae5645b6</guid>
-      <description>United Kingdom-London +1 more · internship · 10d</description>
+      <description>United Kingdom-London +1 more · internship · 11d</description>
     </item>
     <item>
       <title>Tencent — Tencent Cloud - Edge Platform Product Solutions Architecture Intern - Singapore</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Tencent-Cloud---Edge-Platform-Product-Solutions-Architecture-Intern---Singapore_R107927</link>
       <guid isPermaLink="false">b04914868a2d2774</guid>
-      <description>Singapore-CapitaSky · internship · 11d</description>
+      <description>Singapore-CapitaSky · internship · 12d</description>
     </item>
     <item>
       <title>Tencent — Backend Development Intern (6 months)</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Backend-Development-Intern--6-months-_R108169</link>
       <guid isPermaLink="false">947c5adac492a8f0</guid>
-      <description>Singapore-CapitaSky · internship · 13d</description>
+      <description>Singapore-CapitaSky · internship · 14d</description>
     </item>
     <item>
       <title>Mastercard — Platform Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875</link>
       <guid isPermaLink="false">5e9b9621887c1795</guid>
-      <description>O'Fallon, Missouri · internship · 20d</description>
+      <description>O'Fallon, Missouri · internship · 21d</description>
     </item>
     <item>
       <title>Mastercard — Software Engineer Intern, Summer 2027 - Singapore</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Software-Engineer-Intern--Summer-2027---Singapore_R-287574</link>
       <guid isPermaLink="false">0efc50ea938feed8</guid>
-      <description>Singapore · internship · 24d</description>
+      <description>Singapore · internship · 25d</description>
     </item>
     <item>
       <title>Mastercard — Site Reliability Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654</link>
       <guid isPermaLink="false">a37641f25aff562b</guid>
-      <description>O'Fallon, Missouri · internship · 25d</description>
+      <description>O'Fallon, Missouri · internship · 26d</description>
     </item>
     <item>
       <title>Tencent — Software Engineering Intern (Overseas AdTech Data Systems)</title>
