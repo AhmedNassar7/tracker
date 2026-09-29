@@ -359,6 +359,15 @@ def detect_country(location):
     return "Unknown"
 
 
+_ISO2_COUNTRY = {code: name for name, code in _COUNTRY_ISO2.items()}
+
+
+def country_from_iso2(code):
+    """'EG' -> 'Egypt' — the inverse of _COUNTRY_ISO2, for ATS feeds that
+    only give an ISO alpha-2 country code (Recruitera). '' when unmapped."""
+    return _ISO2_COUNTRY.get((code or "").strip().upper(), "")
+
+
 def country_flag(country):
     """The flag emoji for a country name from detect_country(), or '' when
     there's no clean mapping ('Remote'/'Unknown'/anything unrecognised). Built

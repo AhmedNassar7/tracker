@@ -18,6 +18,7 @@
 #   Lever:             https://api.lever.co/v0/postings/<token>?mode=json
 #   Workable:          https://apply.workable.com/api/v1/widget/accounts/<slug>?details=true
 #   Teamtailor:        https://<host>/jobs.json
+#   Recruitera:        https://app.recruitera.ai/api/public/v1/<slug>/opportunities
 # No Python changes are needed — scripts/public_sources.py reads this file automatically.
 
 ashby:
@@ -187,6 +188,12 @@ lever:
 #    full custom host (e.g. careers.naseej.com). Live: Axis (Cairo fintech),
 #    Naseej (Riyadh/Cairo ed-tech).
 #
+# 7. Recruitera (app.recruitera.ai/careers/<slug>/)  → SUPPORTED
+#    (fetch_recruitera_jobs, added 2026-09-29). Keyless public API behind the
+#    careers SPA at https://app.recruitera.ai/api/public/v1/<slug>/opportunities
+#    (cursor-paged, 12/page); an unknown slug 404s. Add the <slug> under the
+#    `recruitera:` section below. Live: Paymob (Cairo fintech).
+#
 # To check a token:  python scripts/verify_extra_boards.py lever:<Slug>
 # A "⚠ couldn't reach …" line = your network blocked it, NOT a missing board.
 # ---------------------------------------------------------------------------
@@ -256,6 +263,13 @@ teamtailor:
   # custom host. Verify with: curl https://<host>/jobs.json
   - axisapp             # Axis — Cairo, Egypt mobile-money/fintech (Central Bank of Egypt licensed) — verified 2026-09-19, real Backend/SDET/Data Engineering roles
   - careers.naseej.com  # Naseej — Riyadh/Cairo ed-tech & digital-transformation (MENA, est. 1989) — verified 2026-09-19, real Full Stack/Senior Fullstack Developer roles
+
+recruitera:
+  # Recruitera careers site — the value is the <slug> in
+  # app.recruitera.ai/careers/<slug>/. Keyless public API (one shared host for
+  # every company); an unknown slug 404s. Verify with:
+  #   python scripts/verify_extra_boards.py recruitera:<slug>
+  - paymob   # Paymob — Cairo, Egypt payments fintech (also UAE/KSA/Oman) — verified 2026-09-29, 73 postings incl. Backend Engineer / Senior Backend Engineer - Python
 
 workday:
   # Big global employers whose careers site is Workday but who never get

@@ -22,6 +22,7 @@ to widen coverage:
 - BambooHR public careers board (companies listed in config/extra_job_boards.yml)
 - Freshteam public careers page — HTML scrape, no JSON API exists (companies listed in
   config/extra_job_boards.yml)
+- Recruitera public careers API (companies listed in config/extra_job_boards.yml)
 """
 
 from __future__ import annotations
@@ -36,7 +37,7 @@ import traceback
 import urllib.error
 import urllib.request
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
@@ -48,6 +49,7 @@ from patterns import (
     PUBLIC_SOFTWARE_ROLE_TYPES,
     detect_level as _detect_level,
     detect_region,
+    country_from_iso2,
     detect_role_type,
     extract_job_facets,
 )
@@ -896,6 +898,109 @@ def fetch_teamtailor_jobs(host, company_name):
     return jobs
 
 
+RECRUITERA_API = "https://app.recruitera.ai/api/public/v1"
+# Recruitera's own rich-text markup — [b]…[b], [ml][li indent=0 align=left]…[li]
+# — not HTML, so clean_text() leaves it in; strip the bracket tags first.
+RECRUITERA_MARKUP_RE = re.compile(r"\[/?[a-z]+(?:\s[^\]]*)?\]", re.I)
+# Hard stop on the cursor walk — a page is 12 rows, so 50 pages is 600
+# postings, far past any real board; guards a cursor that never ends.
+RECRUITERA_MAX_PAGES = 50
+
+
+def fetch_recruitera_job_detail(slug, job_slug):
+    """Recruitera's list rows carry only an excerpt, a free-text location
+    label ("Paymob Head Office") and a nullable days_since_posting — the
+    per-job GET at /{slug}/jobs/{job_slug} has the full description,
+    published_at, an ISO country code, and an `available` flag. Only called
+    for rows that already passed is_software_job. Confirmed live 2026-09-29."""
+    try:
+        payload = fetch_json(f"{RECRUITERA_API}/{slug}/jobs/{quote(job_slug)}")
+    except Exception as exc:
+        log_warn(f"Recruitera detail fetch failed for {slug}/{job_slug}: {exc}")
+        return {}
+    return (payload.get("data") or {}) if isinstance(payload, dict) else {}
+
+
+def _recruitera_location(detail, fallback):
+    """'City, Country' from the detail's location_details, else the country
+    alone, else the list row's own label (which may be just "UAE"/"KSA")."""
+    loc = detail.get("location_details") or {}
+    city = clean_text(loc.get("city") or "")
+    country = country_from_iso2(loc.get("country")) or clean_text(loc.get("country") or "")
+    if city and country and country.lower() not in city.lower():
+        return f"{city}, {country}"
+    return city or country or clean_text(fallback or "")
+
+
+def fetch_recruitera_jobs(slug, company_name):
+    """Recruitera (app.recruitera.ai) careers site — a Nuxt SPA backed by a
+    keyless public API: GET {RECRUITERA_API}/<slug>/opportunities returns
+    {data:[…], meta:{found, per_page:12, next_cursor}}, paged by passing
+    ?cursor=<next_cursor> until it comes back null. `slug` is the company
+    segment of app.recruitera.ai/careers/<slug>/. An unknown slug 404s, so
+    tokens are verifiable. Confirmed live 2026-09-29 against `paymob` (Cairo
+    fintech, 73 postings). One shared host for every company — main() caps
+    concurrency like Greenhouse/Lever.
+    """
+    list_url = f"{RECRUITERA_API}/{slug}/opportunities"
+    rows, cursor = [], None
+    for _ in range(RECRUITERA_MAX_PAGES):
+        try:
+            payload = fetch_json(list_url + (f"?cursor={quote(cursor)}" if cursor else ""))
+        except Exception as exc:
+            log_warn(f"Recruitera fetch failed for {slug}: {exc}")
+            break
+        if not isinstance(payload, dict):
+            break
+        rows.extend(payload.get("data") or [])
+        cursor = (payload.get("meta") or {}).get("next_cursor")
+        if not cursor:
+            break
+
+    jobs = []
+    for row in rows:
+        title = clean_text(row.get("title") or "")
+        job_slug = row.get("slug") or ""
+        if not (title and job_slug) or not is_software_job(title):
+            continue
+        detail = fetch_recruitera_job_detail(slug, job_slug)
+        if detail.get("available") is False:
+            continue
+        url = f"https://app.recruitera.ai/careers/{slug}/{quote(job_slug)}"
+        base_location = _recruitera_location(detail, row.get("location"))
+        # Region from the office location BEFORE any "(Remote)" suffix, same
+        # rule as PinpointHQ/Workable/Recruitee/BambooHR.
+        region = detect_region(base_location) if base_location else "unknown"
+        location = base_location
+        work_model = detail.get("work_model") or row.get("work_model") or ""
+        if work_model == "remote" and "remote" not in base_location.lower():
+            location = f"{base_location} (Remote)".strip() if base_location else "Remote"
+            if region == "unknown":
+                region = "remote"
+        posted_at = parse_iso_date(detail.get("published_at") or "")
+        description = clean_text(RECRUITERA_MARKUP_RE.sub(" ", " ".join(filter(None, (
+            detail.get("description"), detail.get("requirements"), detail.get("responsibilities"),
+        )))))
+        job = {
+            "id": make_id("recruitera", slug, title, url),
+            "kind": "job",
+            "company": company_name or prettify_company_name(slug),
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": region,
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"recruitera:{slug}",
+            "source_url": f"https://app.recruitera.ai/careers/{slug}/",
+        }
+        job.update(job_facets(title, base_location, description))
+        jobs.append(job)
+    return jobs
+
+
 def fetch_smartrecruiters_jobs(company_slug, company_name):
     api_url = f"https://api.smartrecruiters.com/v1/companies/{company_slug}/postings?limit=100"
     try:
@@ -1079,7 +1184,7 @@ def load_extra_job_boards():
     boards = {
         "ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [],
         "workday": [], "pinpoint": [], "workable": [], "recruitee": [],
-        "bamboohr": [], "freshteam": [], "teamtailor": [],
+        "bamboohr": [], "freshteam": [], "teamtailor": [], "recruitera": [],
     }
     if not path.exists():
         return boards
@@ -1852,6 +1957,16 @@ def main():
         rows.extend(_run_concurrently(
             fetch_teamtailor_jobs,
             [(host, prettify_company_name(_teamtailor_company_from_host(host))) for host in extra_boards["teamtailor"]],
+        ))
+
+    # Recruitera (config only). Every company is served from the one
+    # app.recruitera.ai API host, so cap the burst like Greenhouse/Lever/Workable.
+    if extra_boards["recruitera"]:
+        log_info(f"Loaded {len(extra_boards['recruitera'])} Recruitera boards from config")
+        rows.extend(_run_concurrently(
+            fetch_recruitera_jobs,
+            [(slug, prettify_company_name(slug.replace("-", " "))) for slug in extra_boards["recruitera"]],
+            max_workers=SHARED_HOST_WORKERS,
         ))
 
     rows = dedupe(rows)

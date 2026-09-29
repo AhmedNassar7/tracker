@@ -3,6 +3,7 @@ import importlib.util
 import io
 import json
 import tempfile
+import urllib.error
 from pathlib import Path
 from unittest.mock import patch
 
@@ -693,6 +694,67 @@ def main():
         tt_empty = mod.fetch_teamtailor_jobs("empty.teamtailor.com", "Empty Co")
     run("teamtailor: empty board → no rows, no raise", lambda: check("teamtailor empty", tt_empty == []))
 
+    # Recruitera — /opportunities is cursor-paged ({data, meta.next_cursor});
+    # software rows get a per-job /jobs/<slug> detail call for published_at,
+    # ISO country code, description (Recruitera's own [b]/[li] markup), and
+    # the `available` flag.
+    recruitera_pages = {
+        "https://app.recruitera.ai/api/public/v1/acme/opportunities": {
+            "data": [
+                {"title": "Backend Engineer", "slug": "backend-engineer-1", "location": "Acme Head Office", "work_model": "hybrid"},
+                {"title": "Telesales Specialist", "slug": "telesales-2", "location": "Acme Head Office", "work_model": "hybrid"},
+            ],
+            "meta": {"found": 4, "per_page": 2, "next_cursor": "MTI"},
+        },
+        "https://app.recruitera.ai/api/public/v1/acme/opportunities?cursor=MTI": {
+            "data": [
+                {"title": "Frontend Engineer", "slug": "frontend-engineer-3", "location": "UAE", "work_model": "remote"},
+                {"title": "Software Engineer", "slug": "closed-swe-4", "location": "KSA", "work_model": "on_site"},
+            ],
+            "meta": {"found": 4, "per_page": 2, "next_cursor": None},
+        },
+        "https://app.recruitera.ai/api/public/v1/acme/jobs/backend-engineer-1": {"data": {
+            "available": True, "published_at": "2026-04-01T08:20:03+00:00", "work_model": "hybrid",
+            "location_details": {"city": None, "country": "EG"},
+            "description": "[b]About[b]\nWe build payments.",
+            "requirements": "[ml][li indent=0 align=left]Python and PostgreSQL[li][/ml] Bachelor's degree in computer science required.",
+        }},
+        "https://app.recruitera.ai/api/public/v1/acme/jobs/frontend-engineer-3": {"data": {
+            "available": True, "published_at": "2026-04-02T08:20:03+00:00", "work_model": "remote",
+            "location_details": {"city": "Dubai", "country": "AE"}, "description": "React.",
+        }},
+        "https://app.recruitera.ai/api/public/v1/acme/jobs/closed-swe-4": {"data": {"available": False}},
+    }
+    with patch.object(mod, "fetch_json", side_effect=lambda url: recruitera_pages[url]):
+        rc_rows = mod.fetch_recruitera_jobs("acme", "Acme")
+    rc_by_title = {r["title"]: r for r in rc_rows}
+    run("recruitera fetch: follows cursor, software filter, skips unavailable", lambda: check(
+        "recruitera paging/filter",
+        sorted(rc_by_title) == ["Backend Engineer", "Frontend Engineer"],
+        details=str(rc_rows),
+    ))
+    run("recruitera fetch: ISO country → name, markup stripped for facets, detail date", lambda: check(
+        "recruitera backend row",
+        rc_by_title["Backend Engineer"]["location"] == "Egypt"
+        and rc_by_title["Backend Engineer"]["region"] == "mena"
+        and rc_by_title["Backend Engineer"]["posted_at"] == "2026-04-01"
+        and rc_by_title["Backend Engineer"]["source"] == "recruitera:acme"
+        and rc_by_title["Backend Engineer"]["url"] == "https://app.recruitera.ai/careers/acme/backend-engineer-1"
+        and set(rc_by_title["Backend Engineer"].get("tech_tags", [])) >= {"Python", "PostgreSQL"},
+        details=str(rc_by_title["Backend Engineer"]),
+    ))
+    run("recruitera fetch: remote work_model → '(Remote)' suffix, region from office", lambda: check(
+        "recruitera remote row",
+        rc_by_title["Frontend Engineer"]["location"] == "Dubai, United Arab Emirates (Remote)"
+        and rc_by_title["Frontend Engineer"]["region"] == "mena",
+        details=str(rc_by_title["Frontend Engineer"]),
+    ))
+    def _rc_404(url):
+        raise urllib.error.HTTPError(url, 404, "Not Found", None, None)
+    with patch.object(mod, "fetch_json", side_effect=_rc_404):
+        rc_empty = mod.fetch_recruitera_jobs("nope", "Nope")
+    run("recruitera: unknown slug (404) → no rows, no raise", lambda: check("recruitera 404", rc_empty == []))
+
     smartrecruiters_payload = {
         "content": [
             {
@@ -811,6 +873,7 @@ def main():
             "bamboohr:\n  - acme  # example\n\n"
             "freshteam:\n  - locus  # Bengaluru\n\n"
             "teamtailor:\n  - axisapp  # Cairo\n  - careers.naseej.com  # custom domain\n\n"
+            "recruitera:\n  - paymob  # Cairo\n\n"
             "workday:\n  - Salesforce | salesforce.wd12.myworkdayjobs.com | External_Career_Site  # 527 SWE results\n"
             "  - bad workday line with no pipes\n",
             encoding="utf-8",
@@ -840,6 +903,9 @@ def main():
             "teamtailor section parsed",
             boards["teamtailor"] == ["axisapp.teamtailor.com", "careers.naseej.com"],
             details=str(boards["teamtailor"]),
+        ))
+        run("load extra job boards config parses recruitera slugs", lambda: check(
+            "recruitera section parsed", boards["recruitera"] == ["paymob"], details=str(boards["recruitera"]),
         ))
         run("workday section parses 'Company | host | site' triples and skips malformed lines", lambda: check(
             "workday triples parsed",

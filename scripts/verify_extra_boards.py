@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Verify Greenhouse / Lever / Ashby / SmartRecruiters / PinpointHQ / Workable /
-Recruitee / BambooHR / Freshteam / Teamtailor board tokens before they go into
+Recruitee / BambooHR / Freshteam / Teamtailor / Recruitera board tokens before they go into
 config/extra_job_boards.yml.
 
 CLAUDE.md rule: never add a board token without confirming a real, non-empty
@@ -410,6 +410,21 @@ def check_teamtailor(token: str) -> tuple[str, bool]:
     )
 
 
+
+def check_recruitera(token: str) -> tuple[str, bool]:
+    """Recruitera. Keyless public API behind app.recruitera.ai/careers/<slug>/
+    — {"data": [...], "meta": {"found": N, ...}}; an unknown slug 404s."""
+    status, body = _get(f"https://app.recruitera.ai/api/public/v1/{token}/opportunities")
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach app.recruitera.ai — network/proxy? not a verdict{RESET}", False
+    if status in (403, 404) or not isinstance(body, dict):
+        return f"{RED}✗ no Recruitera board for '{token}' ({status}){RESET}", False
+    rows = body.get("data") or []
+    if not rows:
+        return f"{YELLOW}⚠ valid Recruitera board '{token}' but 0 postings — do NOT add{RESET}", False
+    found = (body.get("meta") or {}).get("found") or len(rows)
+    return f"{GREEN}✓ REAL — {token}, {found} postings{RESET}\n" + _sample(rows, "title", "location"), True
+
 CHECKERS = {
     "greenhouse": check_greenhouse,
     "lever": check_lever,
@@ -421,6 +436,7 @@ CHECKERS = {
     "pinpoint": check_pinpoint,
     "workable": check_workable,
     "teamtailor": check_teamtailor,
+    "recruitera": check_recruitera,
 }
 
 
@@ -448,7 +464,7 @@ def tokens_from_config() -> list[tuple[str, str]]:
 # platform is real, but adding it needs a new fetcher first (Lane M3).
 PIPELINE_SUPPORTED = {
     "greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint", "workable", "recruitee",
-    "bamboohr", "freshteam", "teamtailor",
+    "bamboohr", "freshteam", "teamtailor", "recruitera",
 }
 
 
@@ -467,6 +483,7 @@ def _dump(plat: str, tok: str) -> int:
         "pinpoint": (tok if "." in tok else f"{tok}.pinpointhq.com") + "/postings.json",
         "workable": f"https://apply.workable.com/api/v1/widget/accounts/{tok}?details=true",
         "teamtailor": "https://" + (tok if "." in tok else f"{tok}.teamtailor.com") + "/jobs.json",
+        "recruitera": f"https://app.recruitera.ai/api/public/v1/{tok}/opportunities",
     }
     url = urls.get(plat)
     if not url:
