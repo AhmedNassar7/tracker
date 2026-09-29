@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T22:00:10Z",
+ "generated_at": "2026-09-29T01:56:19Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -1064,6 +1064,10 @@
   "https://boards.greenhouse.io/cloudflare/jobs/8195746?gh_jid=8195746": {
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
+  },
+  "https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://boards.greenhouse.io/cloudflare/jobs/8201957?gh_jid=8201957": {
    "alive": true,
@@ -3105,6 +3109,10 @@
    "alive": true,
    "at": "2026-09-22T18:54:39Z"
   },
+  "https://ca.indeed.com/viewjob?jk=13756547c3367fd2": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
   "https://ca.indeed.com/viewjob?jk=3e71660b2fa5fc81": {
    "alive": true,
    "at": "2026-09-25T07:46:31Z"
@@ -3132,6 +3140,10 @@
   "https://careers-americas.icims.com/jobs/26266/software-engineer-intern%2c-2027-summer-u.s./job?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-09-28T21:59:28Z"
+  },
+  "https://careers-hrblock.icims.com/jobs/76992/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
   },
   "https://careers.airbnb.com/positions/7380185?gh_jid=7380185": {
    "alive": true,
@@ -4140,6 +4152,10 @@
   "https://careers.roblox.com/jobs/8224452?gh_jid=8224452": {
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
+  },
+  "https://careers.roblox.com/jobs/8227778?gh_jid=8227778": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://careers.roblox.com/jobs/8231343?gh_jid=8231343": {
    "alive": true,
@@ -5327,7 +5343,7 @@
   },
   "https://graphiques-challenge.devpost.com/": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://gus26.gerritforge.com": {
    "alive": true,
@@ -5689,6 +5705,10 @@
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
   },
+  "https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Development-Tools-Software-Engineer_JR0287446": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
+  },
   "https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0287413": {
    "alive": true,
    "at": "2026-09-25T13:45:55Z"
@@ -5831,15 +5851,15 @@
   },
   "https://job-boards.greenhouse.io/algolia/jobs/5256159004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/algolia/jobs/5422135004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/algolia/jobs/5601402004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/algolia/jobs/5988748004": {
    "alive": true,
@@ -5851,127 +5871,127 @@
   },
   "https://job-boards.greenhouse.io/algolia/jobs/6139133004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/algolia/jobs/6187901004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/algolia/jobs/6194397004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/algolia/jobs/6200275004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/algolia/jobs/6200281004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/algolia/jobs/6200292004": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4572744008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4899511008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4926242008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4942024008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4951844008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4970314008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4973067008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4980335008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/4981828008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5017202008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5026097008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5063007008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5065894008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5073998008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5074908008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5097186008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5097742008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5098025008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5101169008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5101173008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5110511008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5113224008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5114768008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5119468008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5123039008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5123851008": {
    "alive": true,
@@ -5979,71 +5999,71 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5134895008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5146298008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5150472008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5157847008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5174743008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5174747008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5186067008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5191226008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5195866008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5203868008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5205704008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5206978008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5211241008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5211297008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5211305008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5211498008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5229345008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5231496008": {
    "alive": true,
@@ -6059,51 +6079,51 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5245851008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5250091008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5257650008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5283063008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5285557008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5288742008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5289450008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5290360008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5290468008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5297059008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5301737008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5301750008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5305402008": {
    "alive": true,
@@ -6111,15 +6131,15 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5310731008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5311465008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5316593008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5318977008": {
    "alive": true,
@@ -6127,23 +6147,23 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5325909008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5342935008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5357949008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5357951008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5357961008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5358096008": {
    "alive": true,
@@ -6151,27 +6171,27 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5358108008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5358116008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5363469008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5364336008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5367026008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5367436008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5367585008": {
    "alive": true,
@@ -6179,95 +6199,99 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5368034008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5368166008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5370690008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5382744008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5383114008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5383610008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5385998008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5386971008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5387083008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5388612008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5389305008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5390966008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5392007008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5392335008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5392856008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5394943008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5394948008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5395767008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5396384008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5397005008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5397131008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
+  },
+  "https://job-boards.greenhouse.io/anthropic/jobs/5397654008": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5398218008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5398227008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5400012008": {
    "alive": true,
@@ -6275,47 +6299,47 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5400153008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5400160008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5404725008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5404730008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5411560008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5412272008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5412734008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5416059008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5416709008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5419868008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5419869008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5420115008": {
    "alive": true,
@@ -6323,35 +6347,35 @@
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5421263008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5422684008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5424078008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5424404008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5426135008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5427969008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5428950008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5432558008": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5433813008": {
    "alive": true,
@@ -6360,6 +6384,22 @@
   "https://job-boards.greenhouse.io/anthropic/jobs/5433814008": {
    "alive": true,
    "at": "2026-09-28T15:26:20Z"
+  },
+  "https://job-boards.greenhouse.io/anthropic/jobs/5435665008": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
+  },
+  "https://job-boards.greenhouse.io/anthropic/jobs/5436684008": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
+  },
+  "https://job-boards.greenhouse.io/anthropic/jobs/5436697008": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
+  },
+  "https://job-boards.greenhouse.io/anthropic/jobs/5436703008": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/baidu/jobs/3391016": {
    "alive": true,
@@ -6647,7 +6687,7 @@
   },
   "https://job-boards.greenhouse.io/coupang/jobs/8222609": {
    "alive": true,
-   "at": "2026-09-27T01:26:37Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://job-boards.greenhouse.io/coupang/jobs/8236155": {
    "alive": true,
@@ -8133,10 +8173,6 @@
    "alive": true,
    "at": "2026-09-28T21:59:28Z"
   },
-  "https://jobs.apple.com/en-us/details/200679707/aiml-software-engineer-on-device-audio-intelligence-sensing-connectivity": {
-   "alive": true,
-   "at": "2026-09-21T23:16:03Z"
-  },
   "https://jobs.apple.com/en-us/details/200679752/aiml-software-engineer-ai-evaluation": {
    "alive": true,
    "at": "2026-09-23T23:40:39Z"
@@ -8239,7 +8275,7 @@
   },
   "https://jobs.apple.com/en-us/details/200683048/software-engineer-infrastructure-services-data-plane": {
    "alive": true,
-   "at": "2026-09-28T06:51:55Z"
+   "at": "2026-09-29T01:56:01Z"
   },
   "https://jobs.apple.com/en-us/details/200683064/machine-learning-engineer-notifications-personalization": {
    "alive": true,
@@ -8516,6 +8552,10 @@
   "https://jobs.apple.com/en-us/details/200686212/software-engineer-location-spatial-awareness-sensing-connectivity": {
    "alive": true,
    "at": "2026-09-28T21:59:28Z"
+  },
+  "https://jobs.apple.com/en-us/details/200686238/machine-learning-engineer-apple-news": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
   },
   "https://jobs.ashbyhq.com/alan/0ff78ea3-64c0-4b4e-ad0f-72d54175b132": {
    "alive": true,
@@ -10108,6 +10148,10 @@
   "https://jobs.ashbyhq.com/openai/990397de-c00c-4577-b093-d8c82b4e9145": {
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
+  },
+  "https://jobs.ashbyhq.com/openai/9909555b-3dc4-4ba2-859e-43eae7c97a34": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://jobs.ashbyhq.com/openai/991948b7-0305-4125-bb9a-625f5bc24189": {
    "alive": true,
@@ -12625,13 +12669,9 @@
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
   },
-  "https://jobs.lever.co/qonto/1a2d308c-baef-4335-b6bd-f7f2bea82cd6": {
-   "alive": true,
-   "at": "2026-09-21T23:16:24Z"
-  },
   "https://jobs.lever.co/qonto/1fb7a10a-9377-47d4-99f6-e826880c3a6b": {
    "alive": true,
-   "at": "2026-09-25T07:47:10Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://jobs.lever.co/qonto/43534df4-1d0d-4a85-884d-b367342c06f3": {
    "alive": true,
@@ -12640,10 +12680,6 @@
   "https://jobs.lever.co/qonto/560f5d61-930e-4d27-ab4d-254119b2d920": {
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
-  },
-  "https://jobs.lever.co/qonto/59f3a654-8b1d-41be-885e-ba57a06ea9c0": {
-   "alive": true,
-   "at": "2026-09-21T23:16:24Z"
   },
   "https://jobs.lever.co/qonto/5b4f0997-36e9-46ed-a00e-b8473f57ee8c": {
    "alive": true,
@@ -12847,7 +12883,7 @@
   },
   "https://jobs.smartrecruiters.com/Wise/744000150420919": {
    "alive": true,
-   "at": "2026-09-28T06:52:34Z"
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://jobs.smartrecruiters.com/Wise/744000150585668": {
    "alive": true,
@@ -12956,6 +12992,10 @@
   "https://jobs.smartrecruiters.com/Wise/744000152184007": {
    "alive": true,
    "at": "2026-09-28T15:26:20Z"
+  },
+  "https://jobs.smartrecruiters.com/Wise/744000152315589": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://jobs.unifonic.com/o/senior-devops-engineer-8": {
    "alive": true,
@@ -13997,6 +14037,10 @@
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Remote/Senior-Software-Engineer--NeMo-Core-Platform_JR2025753-1": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Software-Engineering-Intern--Compiler-Verification---Spring-2027_JR2026177": {
    "alive": true,
    "at": "2026-09-23T20:20:54Z"
@@ -14109,6 +14153,10 @@
    "alive": true,
    "at": "2026-09-22T09:56:25Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Engineer---Networking-Platforms--Diagnostics-Tools-and-Performance_JR2015633": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Automation-Infrastructure-Student_JR2020544": {
    "alive": true,
    "at": "2026-09-28T15:26:20Z"
@@ -14136,6 +14184,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--DOCA-Verification_JR2021708": {
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2023247-1": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Netherlands-Remote/Senior-Deep-Learning-Software-Engineer--Inference_JR2023106-1": {
    "alive": true,
@@ -14228,6 +14280,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Data-Application-Engineer--Enterprise-Data-Management_JR2024551": {
    "alive": true,
    "at": "2026-09-22T18:54:39Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Engineering-Manager--Math-Libraries-Platform-Expansion-and-Readiness_JR2026005": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--Engineering---Data-Center-Management_JR1997726": {
    "alive": true,
@@ -14340,6 +14396,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Capacity-Management---DGX-Cloud_JR2025388": {
    "alive": true,
    "at": "2026-09-22T04:54:02Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Capacity-Management---DGX-Cloud_JR2025391": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Production-Engineering_JR2023609": {
    "alive": true,
@@ -14669,6 +14729,10 @@
    "alive": true,
    "at": "2026-09-24T09:59:54Z"
   },
+  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/Senior-Staff-Prototyping-Engineer--iOS_JR360080-1": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
+  },
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Architect--Data-Platform---AgentExchange_JR342027": {
    "alive": true,
    "at": "2026-09-22T04:54:02Z"
@@ -14708,6 +14772,10 @@
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineer--AI-Systems--PMTS-_JR361238": {
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
+  },
+  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineer--Infrastructure-Service-Mesh_JR358458": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineer-II--Machine-Learning---Slack_JR358348-1": {
    "alive": true,
@@ -20155,7 +20223,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10558223/software-development-engineer-zerotouch-gsg-at-amazon-leo": {
    "alive": true,
-   "at": "2026-09-28T06:51:55Z"
+   "at": "2026-09-29T01:56:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10558271/software-development-engineer-amazon-ads-geographic-targeting": {
    "alive": true,
@@ -20404,6 +20472,38 @@
   "https://www.amazon.jobs/en/jobs/10562604/software-development-engineer-ii-unified-auth-sdk": {
    "alive": true,
    "at": "2026-09-28T21:59:28Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10562856/software-development-engineer-personalization-amazon-personalization": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10562897/software-development-engineer-ii-timehub-pay-extract": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10562899/software-development-engineer-ii-timehub-pay-extract": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10562998/software-development-engineer-aws-ec2-nitro-team": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10563000/software-development-engineer-aws-ec2-nitro-team": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10563004/software-development-engineer-aws-ec2-nitro-team": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10563008/software-development-engineer-aws-ec2-nitro-team": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10563049/software-development-engineer-aws-opensearch": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
   },
   "https://www.amazon.jobs/en/jobs/3017401/software-development-engineer-amazon-redshift-query-processing": {
    "alive": true,
@@ -21008,6 +21108,10 @@
   "https://www.coinbase.com/careers/positions/8211452?gh_jid=8211452": {
    "alive": true,
    "at": "2026-09-28T22:00:10Z"
+  },
+  "https://www.coinbase.com/careers/positions/8238630?gh_jid=8238630": {
+   "alive": true,
+   "at": "2026-09-29T01:56:19Z"
   },
   "https://www.coupang.jobs/en/jobs/?gh_jid=7361248": {
    "alive": true,
@@ -23085,6 +23189,10 @@
    "alive": true,
    "at": "2026-09-28T21:59:28Z"
   },
+  "https://zapply.jobs/l/d/microsoft-200049090?s=gh-new-grad-software-engineering-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
   "https://zapply.jobs/l/d/microsoft-200055390?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
    "at": "2026-09-24T15:04:38Z"
@@ -23469,6 +23577,22 @@
    "alive": true,
    "at": "2026-09-27T22:09:13Z"
   },
+  "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-286580?s=gh-new-grad-data-science-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-286580?s=gh-new-grad-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-288575?s=gh-new-grad-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
+  "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-288575?s=gh-new-grad-software-engineering-jobs-2027": {
+   "alive": true,
+   "at": "2026-09-29T01:56:01Z"
+  },
   "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-289305?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
    "at": "2026-09-23T23:40:39Z"
@@ -23497,25 +23621,13 @@
    "alive": true,
    "at": "2026-09-25T18:35:14Z"
   },
-  "https://zapply.jobs/l/d/workday-salesforce-external-career-site-JR358348?s=gh-new-grad-jobs-2027": {
+  "https://zapply.jobs/l/d/workday-ms-external-JR038855?s=gh-new-grad-jobs-2027": {
    "alive": true,
-   "at": "2026-09-21T23:16:03Z"
+   "at": "2026-09-29T01:56:01Z"
   },
-  "https://zapply.jobs/l/d/workday-salesforce-external-career-site-JR358348?s=gh-new-grad-software-engineering-jobs-2027": {
+  "https://zapply.jobs/l/d/workday-ms-external-JR038855?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
-   "at": "2026-09-21T23:16:03Z"
-  },
-  "https://zapply.jobs/l/d/workday-sonyglobal-sonyglobalcareers-JR-119643?s=gh-internships-2027": {
-   "alive": true,
-   "at": "2026-09-21T23:16:03Z"
-  },
-  "https://zapply.jobs/l/d/workday-sonyglobal-sonyglobalcareers-JR-119643?s=gh-new-grad-data-science-jobs-2027": {
-   "alive": true,
-   "at": "2026-09-21T23:16:03Z"
-  },
-  "https://zapply.jobs/l/d/workday-sonyglobal-sonyglobalcareers-JR-119643?s=gh-new-grad-jobs-2027": {
-   "alive": true,
-   "at": "2026-09-21T23:16:03Z"
+   "at": "2026-09-29T01:56:01Z"
   },
   "https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-internships-2027": {
    "alive": true,
