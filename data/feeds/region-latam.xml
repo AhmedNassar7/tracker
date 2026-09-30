@@ -4,7 +4,7 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Wed, 30 Sep 2026 06:46:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 13:45:33 GMT</lastBuildDate>
     <item>
       <title>Airbnb — Early Career Software Engineer, Quality Engineering</title>
       <link>https://careers.airbnb.com/positions/8154749?gh_jid=8154749</link>
@@ -28,16 +28,16 @@
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
-      <guid isPermaLink="false">e8aaee1125e832cc</guid>
-      <description>Mexico · mid_level · 1d</description>
+      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
+      <guid isPermaLink="false">f8ef52a2739afce1</guid>
+      <description>Brazil · mid_level · 1d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Airbnb — Staff Platform Manager, Payments Regional Growth</title>
-      <link>https://careers.airbnb.com/positions/8120611?gh_jid=8120611</link>
-      <guid isPermaLink="false">f8ef52a2739afce1</guid>
-      <description>Brazil · mid_level · 1d</description>
+      <link>https://careers.airbnb.com/positions/8120721?gh_jid=8120721</link>
+      <guid isPermaLink="false">e8aaee1125e832cc</guid>
+      <description>Mexico · mid_level · 1d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -237,16 +237,23 @@
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, Devices Sales &amp; Customer Experience</title>
+      <link>https://www.amazon.jobs/en/jobs/10386314/software-development-engineer-ii-devices-sales-customer-experience</link>
+      <guid isPermaLink="false">456698a323e33ad4</guid>
+      <description>Mexico City, Mexico City, MEX · mid_level · 175d</description>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Intel — Development Tools Software Engineer</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Development-Tools-Software-Engineer_JR0287446</link>
       <guid isPermaLink="false">6cf75000bdeb4b99</guid>
-      <description>Mexico, Guadalajara · other · 1d</description>
+      <description>Mexico, Guadalajara · other · 2d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Manager, SAP BASIS Cloud Platform Architect</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City-Paseo-de-las-Palmas-No425-701/Manager--SAP-Cloud-Platform-Architect_R000105248</link>
       <guid isPermaLink="false">6c037980e5c38675</guid>
-      <description>Mexico City, Paseo de las Palmas No.425-701 · mid_level · 7d</description>
+      <description>Mexico City, Paseo de las Palmas No.425-701 · mid_level · 8d</description>
     </item>
   </channel>
 </rss>
