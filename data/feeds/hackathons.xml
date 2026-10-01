@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Thu, 01 Oct 2026 18:57:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 23:13:33 GMT</lastBuildDate>
     <item>
       <title>Devfolio — EAG Global Buildathon</title>
       <link>https://eag-global-buildathon.devfolio.co</link>
@@ -20,17 +20,17 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>FirstCommit — Beginner's Paradise - FirstCommit</title>
-      <link>https://firstcommit.devpost.com/</link>
-      <guid isPermaLink="false">1ce2a62df36c1b5c</guid>
-      <description>Online · about 21 hours left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Kang Chiao International School Student — Global Innovation Build Challenge V2</title>
       <link>https://gibc-v2.devpost.com/</link>
       <guid isPermaLink="false">d6c1fefdc062072b</guid>
-      <description>Online · about 21 hours left</description>
+      <description>Online · about 17 hours left</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>FirstCommit — Beginner's Paradise - FirstCommit</title>
+      <link>https://firstcommit.devpost.com/</link>
+      <guid isPermaLink="false">1ce2a62df36c1b5c</guid>
+      <description>Online · about 18 hours left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -69,10 +69,10 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Lovely Professional University — Bharat Innovation Challenge 2.0</title>
-      <link>https://bic.devpost.com/</link>
-      <guid isPermaLink="false">2f72f7cd55a8f270</guid>
-      <description>Lovely Professional University · 2 days left</description>
+      <title>Product Space UIUC — UIUC Product Hackathon - Hack to the Future</title>
+      <link>https://product-hackathon-uiuc.devpost.com/</link>
+      <guid isPermaLink="false">44b30b4577689454</guid>
+      <description>Campus Instructional Facility · 2 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -80,6 +80,13 @@
       <link>https://boss-battle.devfolio.co</link>
       <guid isPermaLink="false">aae78163e63a89d8</guid>
       <description>Online · 3 days left</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lovely Professional University — Bharat Innovation Challenge 2.0</title>
+      <link>https://bic.devpost.com/</link>
+      <guid isPermaLink="false">2f72f7cd55a8f270</guid>
+      <description>Lovely Professional University · 3 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -97,10 +104,10 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Product Space UIUC — UIUC Product Hackathon - Hack to the Future</title>
-      <link>https://product-hackathon-uiuc.devpost.com/</link>
-      <guid isPermaLink="false">44b30b4577689454</guid>
-      <description>Campus Instructional Facility · 3 days left</description>
+      <title>The Webb Schools CSC — CSC Back-to-School Hackathon</title>
+      <link>https://csc-back-to-school.devpost.com/</link>
+      <guid isPermaLink="false">231bd74ad1c43615</guid>
+      <description>Online · 3 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -118,13 +125,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>The Webb Schools CSC — CSC Back-to-School Hackathon</title>
-      <link>https://csc-back-to-school.devpost.com/</link>
-      <guid isPermaLink="false">231bd74ad1c43615</guid>
-      <description>Online · 4 days left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Databricks — Databricks AI Social Impact (DAISI) Challenge - Singapore</title>
       <link>https://daisisg26.devpost.com/</link>
       <guid isPermaLink="false">5159338dbaa100f1</guid>
@@ -139,17 +139,17 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>GIS Engineering Club — ImpactHack 2026</title>
+      <link>https://impacthack26.devpost.com/</link>
+      <guid isPermaLink="false">e8a53e1c35a26b6a</guid>
+      <description>Online · 6 days left</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — HACKBIOS 2K26</title>
       <link>https://hackbios2k26.devfolio.co</link>
       <guid isPermaLink="false">e000e6f0a8fb556f</guid>
       <description>Junwani, India · 7 days left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GIS Engineering Club — ImpactHack 2026</title>
-      <link>https://impacthack26.devpost.com/</link>
-      <guid isPermaLink="false">e8a53e1c35a26b6a</guid>
-      <description>Online · 7 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -164,6 +164,13 @@
       <link>https://hack-away-hunger.devpost.com/</link>
       <guid isPermaLink="false">8ce674c48f25ad3e</guid>
       <description>Corteva's Pioneer Shull Building · 8 days left</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ML Empowerment Foundation — ML Empowerment Build Challenge 3.0 - ($96,000 in prizes!)</title>
+      <link>https://ml-build-challenge-3.devpost.com/</link>
+      <guid isPermaLink="false">1b50875ca4dfa4d6</guid>
+      <description>Online · 8 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -202,13 +209,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ML Empowerment Foundation — ML Empowerment Build Challenge 3.0 - ($96,000 in prizes!)</title>
-      <link>https://ml-build-challenge-3.devpost.com/</link>
-      <guid isPermaLink="false">1b50875ca4dfa4d6</guid>
-      <description>Online · 9 days left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AI Community @ SBU — AIC Internal Competition -2026 (Agentic AI)</title>
       <link>https://aic-ic-2026.devpost.com/</link>
       <guid isPermaLink="false">4276ee1ed1b61c6c</guid>
@@ -244,10 +244,24 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Hack47 — HACK47: OFFGRID</title>
+      <link>https://hack47-offgrid.devpost.com/</link>
+      <guid isPermaLink="false">3b52801ce5cb8cb5</guid>
+      <description>Online · 13 days left</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Kamand Prompt, IIT Mandi — Multimodal AI Hackathon 2026</title>
       <link>https://multimodal-ai-hackathon-2026-7.devpost.com/</link>
       <guid isPermaLink="false">2c2975c91aa4dd65</guid>
       <description>Online · 13 days left</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>aiLights Association — Hack Apertus</title>
+      <link>https://hackapertus.devpost.com/</link>
+      <guid isPermaLink="false">6adfeeda2287ddaa</guid>
+      <description>Grand Finals 2027 · 14 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -265,13 +279,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hack47 — HACK47: OFFGRID</title>
-      <link>https://hack47-offgrid.devpost.com/</link>
-      <guid isPermaLink="false">3b52801ce5cb8cb5</guid>
-      <description>Online · 14 days left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Student Organization — Next Founders Hackathon</title>
       <link>https://next-founders.devpost.com/</link>
       <guid isPermaLink="false">a590ba4acbf4fa0e</guid>
@@ -283,13 +290,6 @@
       <link>https://indux-5-0-2026.devpost.com/</link>
       <guid isPermaLink="false">d4d708aa4e9c3438</guid>
       <description>Vikrant University , Gwalior · 14 days left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>aiLights Association — Hack Apertus</title>
-      <link>https://hackapertus.devpost.com/</link>
-      <guid isPermaLink="false">6adfeeda2287ddaa</guid>
-      <description>Grand Finals 2027 · 15 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -391,17 +391,17 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenCV — OpenCV AI Competition 2026, powered by AWS</title>
+      <link>https://opencv26.devpost.com/</link>
+      <guid isPermaLink="false">efb32028a7cadcd0</guid>
+      <description>Online · 25 days left</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Hacktheconcretejungle — HTCJ × PROOF Aviation Futures Challenge</title>
       <link>https://htcj-aviation-futures.devpost.com/</link>
       <guid isPermaLink="false">f1707d60709ea316</guid>
       <description>Boston Venture Week · 26 days left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenCV — OpenCV AI Competition 2026, powered by AWS</title>
-      <link>https://opencv26.devpost.com/</link>
-      <guid isPermaLink="false">efb32028a7cadcd0</guid>
-      <description>Online · 26 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -475,6 +475,13 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devfolio — Hack On Hills 8.0</title>
+      <link>https://hackonhills8.devfolio.co</link>
+      <guid isPermaLink="false">03943543974f740e</guid>
+      <description>Hamirpur, India · 30 days left</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — hackodisha-6.0</title>
       <link>https://hackodisha-6a.devfolio.co</link>
       <guid isPermaLink="false">d553006f7fba567c</guid>
@@ -507,13 +514,6 @@
       <link>https://dsh-hacks-v2.devpost.com/</link>
       <guid isPermaLink="false">2974c38aaa981b66</guid>
       <description>Online · about 1 month left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Hack On Hills 8.0</title>
-      <link>https://hackonhills8.devfolio.co</link>
-      <guid isPermaLink="false">03943543974f740e</guid>
-      <description>Hamirpur, India · 31 days left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -605,13 +605,6 @@
       <link>https://code-for-humanity.devpost.com/</link>
       <guid isPermaLink="false">892853bbb8014d31</guid>
       <description>Online · 4 months left</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>RevenueCat — RevenueCat Shipaton 2026</title>
-      <link>https://revenuecat-shipaton-2026.devpost.com/</link>
-      <guid isPermaLink="false">37b6bc24041cc8fd</guid>
-      <description>Online · 4 minutes left</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
