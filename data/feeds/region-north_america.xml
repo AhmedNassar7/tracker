@@ -4,12 +4,19 @@
     <title>tracker — North America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in North America tracker currently tracks.</description>
-    <lastBuildDate>Fri, 02 Oct 2026 09:46:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 16:20:14 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer , Leo Network Services - Network Orchestration</title>
       <link>https://www.amazon.jobs/en/jobs/10567585/software-development-engineer-leo-network-services-network-orchestration</link>
       <guid isPermaLink="false">44d21493727295da</guid>
       <description>Redmond, Washington, USA · unknown · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, AGI Security</title>
+      <link>https://www.amazon.jobs/en/jobs/10567888/software-development-engineer-ii-agi-security</link>
+      <guid isPermaLink="false">559de79c069e9a00</guid>
+      <description>New York, New York, USA · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -20,10 +27,31 @@
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, AGI Security</title>
+      <link>https://zapply.jobs/l/d/amazon-ac3deaed-b6dc-4b8d-b07e-e969c3652835?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">d45921e725a9a0ca</guid>
+      <description>New York, NY · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, AGI Security</title>
+      <link>https://zapply.jobs/l/d/amazon-ac3deaed-b6dc-4b8d-b07e-e969c3652835?s=gh-new-grad-jobs-2027</link>
+      <guid isPermaLink="false">55d6c8b1bfdb3751</guid>
+      <description>New York, NY · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Apple — Software Development Engineer - Cellular (Instrument Engineering)</title>
       <link>https://jobs.apple.com/en-us/details/200675258/software-development-engineer-cellular-instrument-engineering</link>
       <guid isPermaLink="false">9edfc847a1147981</guid>
       <description>Cupertino, United States of America · unknown · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple — Software Engineer - Compute Networking</title>
+      <link>https://jobs.apple.com/en-us/details/200686868/software-engineer-compute-networking</link>
+      <guid isPermaLink="false">57e56fee544560d2</guid>
+      <description>Seattle, United States of America · unknown · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -48,13 +76,6 @@
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft — Software Engineer II - CTJ - Poly</title>
-      <link>https://zapply.jobs/l/d/microsoft-200059301?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">b611df089d6e2318</guid>
-      <description>Reston, Virginia, United States · mid_level · 0d</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft — Software Engineer II - Remote Desktop Protocol &amp; Redirection</title>
       <link>https://zapply.jobs/l/d/microsoft-200055924?s=gh-new-grad-software-engineering-jobs-2027</link>
       <guid isPermaLink="false">4a3aff8dfeb0434a</guid>
@@ -69,16 +90,23 @@
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ByteDance — Applied Machine Learning Production Engineer Graduate (AML-Production Engineer) - 2027 Start</title>
-      <link>https://zapply.jobs/l/d/bytedance-7670004502598060341?s=gh-new-grad-data-science-jobs-2027</link>
-      <guid isPermaLink="false">bff4acb4d5419aed</guid>
-      <description>San Jose, California · new_grad · 0d</description>
+      <title>JPMorgan Chase — Software Engineer II Associate - React/UI/Python</title>
+      <link>https://zapply.jobs/l/d/oracle-jpmorgan-chase-210785092?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">f6e221ae5892cf21</guid>
+      <description>Plano, TX, United States · entry_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ByteDance — Machine Learning Backend Engineer Graduate (AML MLDev) - 2027 Start</title>
-      <link>https://zapply.jobs/l/d/bytedance-7669791940490168629?s=gh-new-grad-data-science-jobs-2027</link>
-      <guid isPermaLink="false">8251e1b380560745</guid>
+      <title>JPMorgan Chase — Software Engineer II Associate - React/UI/Python</title>
+      <link>https://zapply.jobs/l/d/oracle-jpmorgan-chase-210785092?s=gh-new-grad-jobs-2027</link>
+      <guid isPermaLink="false">edeebf452b05597c</guid>
+      <description>Plano, TX, United States · entry_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance — Applied Machine Learning Production Engineer Graduate (AML-Production Engineer) - 2027 Start</title>
+      <link>https://zapply.jobs/l/d/bytedance-7670004502598060341?s=gh-new-grad-data-science-jobs-2027</link>
+      <guid isPermaLink="false">bff4acb4d5419aed</guid>
       <description>San Jose, California · new_grad · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -91,29 +119,22 @@
     </item>
     <item>
       <title>Pinterest — Machine Learning Intern 🎓</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8138080&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">48e698ac1e7d4733</guid>
-      <description>Toronto, ON, Canada · internship · 0d</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Machine Learning Intern 🎓</title>
       <link>https://www.pinterestcareers.com/jobs/?gh_jid=8138090&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">5b07cc63628a18ae</guid>
       <description>4 locationsPalo Alto, CA Seattle, WA SF NYC · internship · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Pinterest — Software Engineer Intern 2027 (USA)</title>
-      <link>https://zapply.jobs/l/d/greenhouse-pinterest-7838577?s=gh-new-grad-software-engineering-jobs-2027</link>
-      <guid isPermaLink="false">c6e27532ccb0f836</guid>
-      <description>San Francisco, CA, US · internship · 0d</description>
+      <title>Pinterest — Machine Learning Intern 🎓</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8138080&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">48e698ac1e7d4733</guid>
+      <description>Toronto, ON, Canada · internship · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Pinterest — Software Engineer Intern 2027 (USA)</title>
-      <link>https://zapply.jobs/l/d/greenhouse-pinterest-7838577?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">2c696d62385c664c</guid>
+      <link>https://zapply.jobs/l/d/greenhouse-pinterest-7838577?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">c6e27532ccb0f836</guid>
       <description>San Francisco, CA, US · internship · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -125,10 +146,17 @@
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">929f602870139616</guid>
-      <description>Rochester, NY +5 more · internship · 1mo</description>
+      <title>Morgan Stanley — Associate, Software Engineer</title>
+      <link>https://zapply.jobs/l/d/workday-ms-external-JR042832?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">ca598aa16e5ecf47</guid>
+      <description>New York, New York, United... · entry_level · 1d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Software Engineer Intern/Co-op - Masters 🎓</title>
+      <link>https://careers.amd.com/jobs/91176?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">e0354b8d66861049</guid>
+      <description>San Jose, CA Santa Clara, CA · internship · 1mo</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -136,6 +164,62 @@
       <link>https://jobs.bytedance.com/en/position/7673636205233490181/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">c6a653b0d2d7f311</guid>
       <description>San Jose, CA · internship · 1mo</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic — Staff+ Software Engineer, Safeguards</title>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/4951844008</link>
+      <guid isPermaLink="false">6c79fede8d0e8a25</guid>
+      <description>San Francisco, CA | New York City, NY · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic — Staff+ Software Engineer, Safeguards Data</title>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5379140008</link>
+      <guid isPermaLink="false">efb8ece229b99c7f</guid>
+      <description>New York City, NY · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineer, Storage</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8024644</link>
+      <guid isPermaLink="false">ba30b9c06a7463eb</guid>
+      <description>San Francisco, CA; Seattle, WA; New York, NY · other · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Staff Software Engineer, Data Visualization</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8212984</link>
+      <guid isPermaLink="false">b2151cdd71885bc7</guid>
+      <description>San Francisco, CA; Seattle, WA; NYC, NY · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duolingo — Senior Android Engineer, Client Platform - Application Stability and Performance</title>
+      <link>https://careers.duolingo.com/jobs/8745752002?gh_jid=8745752002</link>
+      <guid isPermaLink="false">d88b81e0c12dfa94</guid>
+      <description>New York, NY; Pittsburgh, PA · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duolingo — Senior Engineering Manager, AI Platform</title>
+      <link>https://careers.duolingo.com/jobs/8764849002?gh_jid=8764849002</link>
+      <guid isPermaLink="false">6ca845985f2bfdd3</guid>
+      <description>New York, NY; Pittsburgh, PA · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duolingo — Senior iOS Engineer</title>
+      <link>https://careers.duolingo.com/jobs/8393272002?gh_jid=8393272002</link>
+      <guid isPermaLink="false">efab353265e5b960</guid>
+      <description>New York, NY; Pittsburgh, PA · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duolingo — Senior Site Reliability Engineer</title>
+      <link>https://careers.duolingo.com/jobs/8784381002?gh_jid=8784381002</link>
+      <guid isPermaLink="false">25a58854fc57f204</guid>
+      <description>New York, NY; Pittsburgh, PA · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -150,6 +234,104 @@
       <link>https://app.careerpuck.com/job-board/lyft/job/8860861002?gh_jid=8860861002</link>
       <guid isPermaLink="false">7ce14ddd51e56c0b</guid>
       <description>Toronto, Canada · other · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Director of Engineering, Core &amp; Ads Serving Platform</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8035163</link>
+      <guid isPermaLink="false">a81c650531ab7ad8</guid>
+      <description>San Francisco, CA, US; Palo Alto, CA, US · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Engineering Manager II, Android Modernization</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8015531</link>
+      <guid isPermaLink="false">84f4b68a95b8f627</guid>
+      <description>Toronto, ON, CA · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Engineering Manager II, iOS Modernization</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8015517</link>
+      <guid isPermaLink="false">465f6cdfccc8869e</guid>
+      <description>Toronto, ON, CA · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Principal Engineer, Indexing &amp; Retrieval Infrastructure</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8011719</link>
+      <guid isPermaLink="false">47b159969af25fcb</guid>
+      <description>San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA,US · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Software Engineer II, Full Stack</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=5459622</link>
+      <guid isPermaLink="false">8486cfb9e796bebb</guid>
+      <description>Toronto, ON, CA · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Software Engineer II, Web</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8024883</link>
+      <guid isPermaLink="false">64e94e969acce213</guid>
+      <description>Toronto, ON, CA · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Software Engineer, iOS</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=6922682</link>
+      <guid isPermaLink="false">aa5712cef789ed29</guid>
+      <description>Toronto, ON, CA · other · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Software Engineering Intern 2027 (Toronto)</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8138039</link>
+      <guid isPermaLink="false">8ce4129f855a5005</guid>
+      <description>Toronto, ON, CA · internship · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Sr. Manager, Engineering – Delivery Serving Infrastructure</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8241516</link>
+      <guid isPermaLink="false">e798c7077bc8616f</guid>
+      <description>Palo Alto, CA,US; San Francisco, CA, US · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Sr. Software Engineer - Full Stack</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=6510646</link>
+      <guid isPermaLink="false">9122637a4e7a6278</guid>
+      <description>Toronto, ON, CA · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Sr. Staff Software Engineer, Merchants</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=7770918</link>
+      <guid isPermaLink="false">24146da6bab50fcb</guid>
+      <description>San Francisco, CA, US; Palo Alto, CA, US · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Sr. Staff Software Engineer, Product ML Infrastructure</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8046860</link>
+      <guid isPermaLink="false">1be755e4dbad3e22</guid>
+      <description>Palo Alto, CA, US; San Francisco, CA, US · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Staff Software Engineer, Ads &amp; Core Serving Platform</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8055266</link>
+      <guid isPermaLink="false">5c4becff5b4b5a38</guid>
+      <description>Palo Alto, CA, US; San Francisco, CA, US · mid_level · 0d</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pinterest — Staff Software Engineer, Programmatic Ads</title>
+      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8226802</link>
+      <guid isPermaLink="false">7b57d3f1400256ba</guid>
+      <description>San Francisco, CA, US; Hybrid, US · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -238,15 +420,15 @@
     </item>
     <item>
       <title>Roblox — Principal Software Engineer - Roblox Database</title>
-      <link>https://careers.roblox.com/jobs/8129410?gh_jid=8129410</link>
-      <guid isPermaLink="false">ae8c7403b45790d9</guid>
+      <link>https://careers.roblox.com/jobs/8036892?gh_jid=8036892</link>
+      <guid isPermaLink="false">7febe4216dc0a546</guid>
       <description>San Mateo, CA, United States · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Roblox — Principal Software Engineer - Roblox Database</title>
-      <link>https://careers.roblox.com/jobs/8036892?gh_jid=8036892</link>
-      <guid isPermaLink="false">7febe4216dc0a546</guid>
+      <link>https://careers.roblox.com/jobs/8129410?gh_jid=8129410</link>
+      <guid isPermaLink="false">ae8c7403b45790d9</guid>
       <description>San Mateo, CA, United States · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -588,15 +770,15 @@
     </item>
     <item>
       <title>Roblox — Senior Software Engineer, Compute Cell Platform</title>
-      <link>https://careers.roblox.com/jobs/8056362?gh_jid=8056362</link>
-      <guid isPermaLink="false">eaaa5a104cb60ee0</guid>
+      <link>https://careers.roblox.com/jobs/8197586?gh_jid=8197586</link>
+      <guid isPermaLink="false">fa7f99f4b785e6d9</guid>
       <description>San Mateo, CA, United States · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Roblox — Senior Software Engineer, Compute Cell Platform</title>
-      <link>https://careers.roblox.com/jobs/8197586?gh_jid=8197586</link>
-      <guid isPermaLink="false">fa7f99f4b785e6d9</guid>
+      <link>https://careers.roblox.com/jobs/8056362?gh_jid=8056362</link>
+      <guid isPermaLink="false">eaaa5a104cb60ee0</guid>
       <description>San Mateo, CA, United States · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -735,15 +917,15 @@
     </item>
     <item>
       <title>Roblox — Senior Software Engineer, Service Mesh</title>
-      <link>https://careers.roblox.com/jobs/8148698?gh_jid=8148698</link>
-      <guid isPermaLink="false">2a0ee5ff3621fd7e</guid>
+      <link>https://careers.roblox.com/jobs/8015824?gh_jid=8015824</link>
+      <guid isPermaLink="false">61a4cd60acad75d5</guid>
       <description>San Mateo, CA, United States · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Roblox — Senior Software Engineer, Service Mesh</title>
-      <link>https://careers.roblox.com/jobs/8015824?gh_jid=8015824</link>
-      <guid isPermaLink="false">61a4cd60acad75d5</guid>
+      <link>https://careers.roblox.com/jobs/8148698?gh_jid=8148698</link>
+      <guid isPermaLink="false">2a0ee5ff3621fd7e</guid>
       <description>San Mateo, CA, United States · mid_level · 0d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -860,34 +1042,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft — Software Engineer: Security &amp; Identity Intern Opportunities for University Students, Redmond</title>
-      <link>https://zapply.jobs/l/d/microsoft-200042199?s=gh-internships-2027</link>
-      <guid isPermaLink="false">a3227fc6fc45f8d3</guid>
-      <description>Redmond, Washington, United States · internship · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — PhD Data Scientist, Intern</title>
-      <link>https://zapply.jobs/l/d/greenhouse-stripe-8194283?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">a0fb473bd28ce39c</guid>
-      <description>New York, Seattle, South San... · internship · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — PhD Data Scientist, Intern</title>
-      <link>https://zapply.jobs/l/d/greenhouse-stripe-8194283?s=gh-internships-2027</link>
-      <guid isPermaLink="false">30835a1e125e217b</guid>
-      <description>New York, Seattle, South San... · internship · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — PhD Data Scientist, Intern</title>
-      <link>https://zapply.jobs/l/d/greenhouse-stripe-8194283?s=gh-new-grad-data-science-jobs-2027</link>
-      <guid isPermaLink="false">2ac3773b58dde4b7</guid>
-      <description>New York, Seattle, South San... · internship · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Pinterest — Machine Learning Intern 2027 (Toronto)</title>
       <link>https://zapply.jobs/l/d/greenhouse-pinterest-8138080?s=gh-canada-jobs-2027</link>
       <guid isPermaLink="false">3e59fe9bd65a957d</guid>
@@ -965,10 +1119,10 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Adobe — 2027 Intern - Machine Learning Engineer</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R171519?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">aefd624af5d28142</guid>
-      <description>San Jose · internship · 1d</description>
+      <title>Microsoft — Software Engineer: Security &amp; Identity Intern Opportunities for University Students, Redmond</title>
+      <link>https://zapply.jobs/l/d/microsoft-200042199?s=gh-internships-2027</link>
+      <guid isPermaLink="false">a3227fc6fc45f8d3</guid>
+      <description>Redmond, Washington, United States · internship · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -976,6 +1130,20 @@
       <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R171519?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">a8d638737effe8ed</guid>
       <description>San Jose · internship · 1d</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — PhD Data Scientist, Intern</title>
+      <link>https://zapply.jobs/l/d/greenhouse-stripe-8194283?s=gh-internships-2027</link>
+      <guid isPermaLink="false">30835a1e125e217b</guid>
+      <description>New York, Seattle, South San... · internship · 1d</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — PhD Data Scientist, Intern</title>
+      <link>https://zapply.jobs/l/d/greenhouse-stripe-8194283?s=gh-new-grad-data-science-jobs-2027</link>
+      <guid isPermaLink="false">2ac3773b58dde4b7</guid>
+      <description>New York, Seattle, South San... · internship · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1057,15 +1225,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon Private Brands</title>
-      <link>https://www.amazon.jobs/en/jobs/10567381/software-development-engineer-amazon-private-brands</link>
-      <guid isPermaLink="false">9cd3ed073d72173d</guid>
+      <link>https://www.amazon.jobs/en/jobs/10567382/software-development-engineer-amazon-private-brands</link>
+      <guid isPermaLink="false">6d21e6b16b0c78d1</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon Private Brands</title>
-      <link>https://www.amazon.jobs/en/jobs/10567382/software-development-engineer-amazon-private-brands</link>
-      <guid isPermaLink="false">6d21e6b16b0c78d1</guid>
+      <link>https://www.amazon.jobs/en/jobs/10567381/software-development-engineer-amazon-private-brands</link>
+      <guid isPermaLink="false">9cd3ed073d72173d</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1189,13 +1357,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft — Software Engineer Intern - CoreAI</title>
-      <link>https://apply.careers.microsoft.com/careers/job/1970393556951950?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2f6107198b7464dc</guid>
-      <description>Redmond, WA · internship · 1mo</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Fullstack Engineer, Tech Foundations</title>
       <link>https://careers.airbnb.com/positions/8241882?gh_jid=8241882</link>
       <guid isPermaLink="false">c51cfe2f17ab81e2</guid>
@@ -1232,16 +1393,16 @@
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer - Cloud Infrastructure</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7962133</link>
-      <guid isPermaLink="false">f294a5abe28d09c8</guid>
-      <description>Mountain View, USA · mid_level · 1d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7438944</link>
+      <guid isPermaLink="false">9813148fc092fe7c</guid>
+      <description>Seattle, USA · mid_level · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer - Cloud Infrastructure</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7438944</link>
-      <guid isPermaLink="false">9813148fc092fe7c</guid>
-      <description>Seattle, USA · mid_level · 1d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7962133</link>
+      <guid isPermaLink="false">f294a5abe28d09c8</guid>
+      <description>Mountain View, USA · mid_level · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1686,31 +1847,17 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Pinterest — Software Engineering Intern 2027 (Toronto)</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8138039</link>
-      <guid isPermaLink="false">8ce4129f855a5005</guid>
-      <description>Toronto, ON, CA · internship · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Sr. Manager, Engineering – Delivery Serving Infrastructure</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8241516</link>
-      <guid isPermaLink="false">e798c7077bc8616f</guid>
-      <description>Palo Alto, CA,US; San Francisco, CA, US · mid_level · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — University Grad Software Engineer (Toronto)</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8138049</link>
-      <guid isPermaLink="false">c443359870fb2bd3</guid>
-      <description>Toronto, ON, CA · other · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Reddit — Senior Site Reliability Engineer, Ads</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8090680</link>
       <guid isPermaLink="false">acbafcf1eb6c1758</guid>
       <description>San Francisco, CA · mid_level · 1d</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Software Engineer, Core Platform</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8022449</link>
+      <guid isPermaLink="false">7e3e5d9445a8e52c</guid>
+      <description>New York City, NY · mid_level · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1722,13 +1869,6 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Core Platform</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8022446</link>
-      <guid isPermaLink="false">8a4effaca641fbe4</guid>
-      <description>San Francisco, CA · mid_level · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Software Engineer, Core Platform</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8022447</link>
       <guid isPermaLink="false">77132cce796551d8</guid>
       <description>Los Angeles, CA · mid_level · 1d</description>
@@ -1736,9 +1876,9 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Core Platform</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8022449</link>
-      <guid isPermaLink="false">7e3e5d9445a8e52c</guid>
-      <description>New York City, NY · mid_level · 1d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8022446</link>
+      <guid isPermaLink="false">8a4effaca641fbe4</guid>
+      <description>San Francisco, CA · mid_level · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1974,16 +2114,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer, AI Infrastructure (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8861901002?gh_jid=8861901002</link>
-      <guid isPermaLink="false">18fe24531577e1cb</guid>
-      <description>Washington, DC · other · 1d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8861903002?gh_jid=8861903002</link>
+      <guid isPermaLink="false">72ada76849ae9864</guid>
+      <description>Palo Alto, CA · other · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer, AI Infrastructure (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8861903002?gh_jid=8861903002</link>
-      <guid isPermaLink="false">72ada76849ae9864</guid>
-      <description>Palo Alto, CA · other · 1d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8861901002?gh_jid=8861901002</link>
+      <guid isPermaLink="false">18fe24531577e1cb</guid>
+      <description>Washington, DC · other · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2002,6 +2142,13 @@
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer, AI Infrastructure (Starshield)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8861768002?gh_jid=8861768002</link>
+      <guid isPermaLink="false">5d1771222bc0494d</guid>
+      <description>Palo Alto, CA · mid_level · 1d</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Sr. Software Engineer, AI Infrastructure (Starshield)</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8861751002?gh_jid=8861751002</link>
       <guid isPermaLink="false">c30760ac6d394021</guid>
       <description>Redmond, WA · mid_level · 1d</description>
@@ -2012,13 +2159,6 @@
       <link>https://boards.greenhouse.io/spacex/jobs/8861767002?gh_jid=8861767002</link>
       <guid isPermaLink="false">f94597b713c1e942</guid>
       <description>Washington, DC · mid_level · 1d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Sr. Software Engineer, AI Infrastructure (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8861768002?gh_jid=8861768002</link>
-      <guid isPermaLink="false">5d1771222bc0494d</guid>
-      <description>Palo Alto, CA · mid_level · 1d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2166,13 +2306,6 @@
       <link>https://jobs.apple.com/en-us/details/200678453/software-engineer-apple-services-engineering</link>
       <guid isPermaLink="false">b85274fe4d76ab9d</guid>
       <description>Seattle, United States of America · unknown · 2d</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Software Engineer, Applied AI</title>
-      <link>https://jobs.apple.com/en-us/details/200684521/software-engineer-applied-ai</link>
-      <guid isPermaLink="false">67a8886cc225ab78</guid>
-      <description>San Diego, United States of America · unknown · 2d</description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2331,16 +2464,16 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124</link>
-      <guid isPermaLink="false">7979c3539806a4c7</guid>
-      <description>San Francisco, California · mid_level · 2d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158</link>
+      <guid isPermaLink="false">0fb138624cf03c93</guid>
+      <description>Toronto, Ontario, Canada · mid_level · 2d</description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158</link>
-      <guid isPermaLink="false">0fb138624cf03c93</guid>
-      <description>Toronto, Ontario, Canada · mid_level · 2d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124</link>
+      <guid isPermaLink="false">7979c3539806a4c7</guid>
+      <description>San Francisco, California · mid_level · 2d</description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2369,20 +2502,6 @@
       <link>https://www.okta.com/company/careers/opportunity/8241309?gh_jid=8241309</link>
       <guid isPermaLink="false">3c70d5c80a5f57f7</guid>
       <description>Toronto, Ontario, Canada · mid_level · 2d</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Sr. Staff Software Engineer, Product ML Infrastructure</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8046860</link>
-      <guid isPermaLink="false">1be755e4dbad3e22</guid>
-      <description>Palo Alto, CA, US; San Francisco, CA, US · mid_level · 2d</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Staff Software Engineer, Programmatic Ads</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8226802</link>
-      <guid isPermaLink="false">7b57d3f1400256ba</guid>
-      <description>San Francisco, CA, US; Hybrid, US · mid_level · 2d</description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2449,13 +2568,6 @@
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer II , Amazon Fulfillment Technologies - Inbound</title>
-      <link>https://www.amazon.jobs/en/jobs/10564126/software-development-engineer-ii-amazon-fulfillment-technologies-inbound</link>
-      <guid isPermaLink="false">908dc42eba8b44e1</guid>
-      <description>Bellevue, Washington, USA · mid_level · 3d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II, Amazon WorkSpaces Applications</title>
       <link>https://www.amazon.jobs/en/jobs/10564327/software-development-engineer-ii-amazon-workspaces-applications</link>
       <guid isPermaLink="false">2b3c4a2cc6ff7aff</guid>
@@ -2478,20 +2590,6 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10562998/software-development-engineer-aws-ec2-nitro-team</link>
-      <guid isPermaLink="false">fa1cc1155cf5f5c5</guid>
-      <description>Santa Clara, California, USA · unknown · 3d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10563008/software-development-engineer-aws-ec2-nitro-team</link>
-      <guid isPermaLink="false">a561632a4fb683b6</guid>
-      <description>Santa Clara, California, USA · unknown · 3d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
       <link>https://www.amazon.jobs/en/jobs/10563004/software-development-engineer-aws-ec2-nitro-team</link>
       <guid isPermaLink="false">1246f2684101222d</guid>
       <description>Santa Clara, California, USA · unknown · 3d</description>
@@ -2501,6 +2599,20 @@
       <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
       <link>https://www.amazon.jobs/en/jobs/10563000/software-development-engineer-aws-ec2-nitro-team</link>
       <guid isPermaLink="false">0eef2a49dbf3317c</guid>
+      <description>Santa Clara, California, USA · unknown · 3d</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
+      <link>https://www.amazon.jobs/en/jobs/10562998/software-development-engineer-aws-ec2-nitro-team</link>
+      <guid isPermaLink="false">fa1cc1155cf5f5c5</guid>
+      <description>Santa Clara, California, USA · unknown · 3d</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
+      <link>https://www.amazon.jobs/en/jobs/10563008/software-development-engineer-aws-ec2-nitro-team</link>
+      <guid isPermaLink="false">a561632a4fb683b6</guid>
       <description>Santa Clara, California, USA · unknown · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2904,13 +3016,6 @@
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8212984</link>
-      <guid isPermaLink="false">21b1fd6b9a81b6e6</guid>
-      <description>San Francisco, CA; Seattle, WA; NYC, NY · other · 3d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DoorDash — Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US</title>
       <link>https://job-boards.greenhouse.io/doordashusa/jobs/8163709</link>
       <guid isPermaLink="false">09955f54760e9f41</guid>
@@ -3030,13 +3135,6 @@
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Software Engineer, Storage</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8024644</link>
-      <guid isPermaLink="false">ba30b9c06a7463eb</guid>
-      <description>San Francisco, CA; Seattle, WA; New York, NY · other · 3d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DoorDash — Software Engineer, Storage - Distributed Caching</title>
       <link>https://job-boards.greenhouse.io/doordashusa/jobs/8191134</link>
       <guid isPermaLink="false">8b60a26202c4b7e7</guid>
@@ -3111,13 +3209,6 @@
       <link>https://jobs.ashbyhq.com/openai/c7bcdaec-9714-44b0-8ba8-adc824594b54</link>
       <guid isPermaLink="false">439f19c8da677079</guid>
       <description>San Francisco · other · 3d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Principal Engineer, Indexing &amp; Retrieval Infrastructure</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8011719</link>
-      <guid isPermaLink="false">47b159969af25fcb</guid>
-      <description>San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA,US · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3297,16 +3388,16 @@
     </item>
     <item>
       <title>SpaceX — Embedded Software Engineer, Laser Mesh Routing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8578934002?gh_jid=8578934002</link>
-      <guid isPermaLink="false">edf4e298d22c6051</guid>
-      <description>Palo Alto, CA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8578936002?gh_jid=8578936002</link>
+      <guid isPermaLink="false">68c2a5200d804437</guid>
+      <description>Redmond, WA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Embedded Software Engineer, Laser Mesh Routing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8578936002?gh_jid=8578936002</link>
-      <guid isPermaLink="false">68c2a5200d804437</guid>
-      <description>Redmond, WA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8578934002?gh_jid=8578934002</link>
+      <guid isPermaLink="false">edf4e298d22c6051</guid>
+      <description>Palo Alto, CA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3339,16 +3430,16 @@
     </item>
     <item>
       <title>SpaceX — Full Stack Engineer (Application Software)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8701392002?gh_jid=8701392002</link>
-      <guid isPermaLink="false">79e27507b64b5ea4</guid>
-      <description>Redmond, WA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8675232002?gh_jid=8675232002</link>
+      <guid isPermaLink="false">5c27db5530d81a1c</guid>
+      <description>Palo Alto, CA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Full Stack Engineer (Application Software)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8675232002?gh_jid=8675232002</link>
-      <guid isPermaLink="false">5c27db5530d81a1c</guid>
-      <description>Palo Alto, CA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8701392002?gh_jid=8701392002</link>
+      <guid isPermaLink="false">79e27507b64b5ea4</guid>
+      <description>Redmond, WA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3409,16 +3500,16 @@
     </item>
     <item>
       <title>SpaceX — Manager, Supply Chain - Datacenter Compute Infrastructure (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8647973002?gh_jid=8647973002</link>
-      <guid isPermaLink="false">eb3fd12192ce6449</guid>
-      <description>Palo Alto, CA · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8648031002?gh_jid=8648031002</link>
+      <guid isPermaLink="false">0d518565ce105c81</guid>
+      <description>Austin, TX · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Manager, Supply Chain - Datacenter Compute Infrastructure (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8648031002?gh_jid=8648031002</link>
-      <guid isPermaLink="false">0d518565ce105c81</guid>
-      <description>Austin, TX · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8647973002?gh_jid=8647973002</link>
+      <guid isPermaLink="false">eb3fd12192ce6449</guid>
+      <description>Palo Alto, CA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3430,9 +3521,9 @@
     </item>
     <item>
       <title>SpaceX — Network Engineer, AI Infrastructure (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8808182002?gh_jid=8808182002</link>
-      <guid isPermaLink="false">38c91e7ce610a480</guid>
-      <description>Washington, DC · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8829675002?gh_jid=8829675002</link>
+      <guid isPermaLink="false">7ad7e8cb99782b4e</guid>
+      <description>Palo Alto, CA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3444,9 +3535,9 @@
     </item>
     <item>
       <title>SpaceX — Network Engineer, AI Infrastructure (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8829675002?gh_jid=8829675002</link>
-      <guid isPermaLink="false">7ad7e8cb99782b4e</guid>
-      <description>Palo Alto, CA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8808182002?gh_jid=8808182002</link>
+      <guid isPermaLink="false">38c91e7ce610a480</guid>
+      <description>Washington, DC · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3479,16 +3570,16 @@
     </item>
     <item>
       <title>SpaceX — Principal Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558817002?gh_jid=8558817002</link>
-      <guid isPermaLink="false">5d2ec47f084ce7b3</guid>
-      <description>Redmond, WA · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002</link>
+      <guid isPermaLink="false">e9753784a5dc0f53</guid>
+      <description>Sunnyvale, CA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Principal Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002</link>
-      <guid isPermaLink="false">e9753784a5dc0f53</guid>
-      <description>Sunnyvale, CA · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558817002?gh_jid=8558817002</link>
+      <guid isPermaLink="false">5d2ec47f084ce7b3</guid>
+      <description>Redmond, WA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3521,16 +3612,16 @@
     </item>
     <item>
       <title>SpaceX — RAN Validation Engineer (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8674890002?gh_jid=8674890002</link>
-      <guid isPermaLink="false">41409850f7394ae8</guid>
-      <description>Palo Alto, CA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8675026002?gh_jid=8675026002</link>
+      <guid isPermaLink="false">b891a783daed37ba</guid>
+      <description>Redmond, WA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — RAN Validation Engineer (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8675026002?gh_jid=8675026002</link>
-      <guid isPermaLink="false">b891a783daed37ba</guid>
-      <description>Redmond, WA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8674890002?gh_jid=8674890002</link>
+      <guid isPermaLink="false">41409850f7394ae8</guid>
+      <description>Palo Alto, CA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3598,16 +3689,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002</link>
-      <guid isPermaLink="false">4d1e0294f5d2f35e</guid>
-      <description>Palo Alto, CA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002</link>
+      <guid isPermaLink="false">d09504878dbe1a29</guid>
+      <description>Redmond, WA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer (Platform Team)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002</link>
-      <guid isPermaLink="false">d09504878dbe1a29</guid>
-      <description>Redmond, WA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002</link>
+      <guid isPermaLink="false">4d1e0294f5d2f35e</guid>
+      <description>Palo Alto, CA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3696,16 +3787,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer, C++ (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8477124002?gh_jid=8477124002</link>
-      <guid isPermaLink="false">8389a8c65a684928</guid>
-      <description>Redmond, WA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8451960002?gh_jid=8451960002</link>
+      <guid isPermaLink="false">d57bfdc9d81feafc</guid>
+      <description>Sunnyvale, CA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer, C++ (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8451960002?gh_jid=8451960002</link>
-      <guid isPermaLink="false">d57bfdc9d81feafc</guid>
-      <description>Sunnyvale, CA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8477124002?gh_jid=8477124002</link>
+      <guid isPermaLink="false">8389a8c65a684928</guid>
+      <description>Redmond, WA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3773,16 +3864,16 @@
     </item>
     <item>
       <title>SpaceX — Software Engineer, High Performance Computing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8578909002?gh_jid=8578909002</link>
-      <guid isPermaLink="false">dccae8fa2afc5caf</guid>
-      <description>Palo Alto, CA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8578931002?gh_jid=8578931002</link>
+      <guid isPermaLink="false">d6428e5978d3bdb1</guid>
+      <description>Redmond, WA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Engineer, High Performance Computing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8578931002?gh_jid=8578931002</link>
-      <guid isPermaLink="false">d6428e5978d3bdb1</guid>
-      <description>Redmond, WA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8578909002?gh_jid=8578909002</link>
+      <guid isPermaLink="false">dccae8fa2afc5caf</guid>
+      <description>Palo Alto, CA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3857,16 +3948,16 @@
     </item>
     <item>
       <title>SpaceX — Software Infrastructure Engineer (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8584920002?gh_jid=8584920002</link>
-      <guid isPermaLink="false">afeb0f395dab38c9</guid>
-      <description>Palo Alto, CA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8573279002?gh_jid=8573279002</link>
+      <guid isPermaLink="false">27440c8454c71796</guid>
+      <description>Redmond, WA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Software Infrastructure Engineer (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8573279002?gh_jid=8573279002</link>
-      <guid isPermaLink="false">27440c8454c71796</guid>
-      <description>Redmond, WA · other · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8584920002?gh_jid=8584920002</link>
+      <guid isPermaLink="false">afeb0f395dab38c9</guid>
+      <description>Palo Alto, CA · other · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3892,16 +3983,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. AI Engineer, Platform Infrastructure, Special Programs</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8557126002?gh_jid=8557126002</link>
-      <guid isPermaLink="false">7fee4f3bddc86456</guid>
-      <description>Palo Alto, CA · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8557262002?gh_jid=8557262002</link>
+      <guid isPermaLink="false">cf0b9e927c374957</guid>
+      <description>Washington, DC · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. AI Engineer, Platform Infrastructure, Special Programs</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8557262002?gh_jid=8557262002</link>
-      <guid isPermaLink="false">cf0b9e927c374957</guid>
-      <description>Washington, DC · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8557126002?gh_jid=8557126002</link>
+      <guid isPermaLink="false">7fee4f3bddc86456</guid>
+      <description>Palo Alto, CA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3955,9 +4046,9 @@
     </item>
     <item>
       <title>SpaceX — Sr. Network Engineer, AI Infrastructure (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8829677002?gh_jid=8829677002</link>
-      <guid isPermaLink="false">ca684ffe7c5f97e5</guid>
-      <description>Palo Alto, CA · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8808192002?gh_jid=8808192002</link>
+      <guid isPermaLink="false">b064e27921cb8f67</guid>
+      <description>Washington, DC · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3969,16 +4060,9 @@
     </item>
     <item>
       <title>SpaceX — Sr. Network Engineer, AI Infrastructure (Starshield)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8808192002?gh_jid=8808192002</link>
-      <guid isPermaLink="false">b064e27921cb8f67</guid>
-      <description>Washington, DC · mid_level · 3d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Sr. RAN Software Engineer (Starlink Mobile)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8673035002?gh_jid=8673035002</link>
-      <guid isPermaLink="false">a7a20a84a65ed227</guid>
-      <description>Redmond, WA · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8829677002?gh_jid=8829677002</link>
+      <guid isPermaLink="false">ca684ffe7c5f97e5</guid>
+      <description>Palo Alto, CA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3986,6 +4070,13 @@
       <link>https://boards.greenhouse.io/spacex/jobs/8672784002?gh_jid=8672784002</link>
       <guid isPermaLink="false">84b9cb83322a78c0</guid>
       <description>Palo Alto, CA · mid_level · 3d</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Sr. RAN Software Engineer (Starlink Mobile)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8673035002?gh_jid=8673035002</link>
+      <guid isPermaLink="false">a7a20a84a65ed227</guid>
+      <description>Redmond, WA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4088,22 +4179,15 @@
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer, Beam Planning (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8579125002?gh_jid=8579125002</link>
-      <guid isPermaLink="false">9bc8d0661bc0da70</guid>
-      <description>Palo Alto, CA · mid_level · 3d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX — Sr. Software Engineer, Beam Planning (Starlink)</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8579130002?gh_jid=8579130002</link>
       <guid isPermaLink="false">ce10748af22132ae</guid>
       <description>Redmond, WA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — Sr. Software Engineer, CDN (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8672206002?gh_jid=8672206002</link>
-      <guid isPermaLink="false">08107c55902ae07f</guid>
+      <title>SpaceX — Sr. Software Engineer, Beam Planning (Starlink)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8579125002?gh_jid=8579125002</link>
+      <guid isPermaLink="false">9bc8d0661bc0da70</guid>
       <description>Palo Alto, CA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -4112,6 +4196,13 @@
       <link>https://boards.greenhouse.io/spacex/jobs/8632177002?gh_jid=8632177002</link>
       <guid isPermaLink="false">20c46fe37198e34b</guid>
       <description>Redmond, WA · mid_level · 3d</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — Sr. Software Engineer, CDN (Starlink)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8672206002?gh_jid=8672206002</link>
+      <guid isPermaLink="false">08107c55902ae07f</guid>
+      <description>Palo Alto, CA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4144,16 +4235,16 @@
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer, Low Latency Computing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8579128002?gh_jid=8579128002</link>
-      <guid isPermaLink="false">d1f7fa8736672d45</guid>
-      <description>Redmond, WA · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8579127002?gh_jid=8579127002</link>
+      <guid isPermaLink="false">16d8d7afb412b577</guid>
+      <description>Palo Alto, CA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — Sr. Software Engineer, Low Latency Computing (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8579127002?gh_jid=8579127002</link>
-      <guid isPermaLink="false">16d8d7afb412b577</guid>
-      <description>Palo Alto, CA · mid_level · 3d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8579128002?gh_jid=8579128002</link>
+      <guid isPermaLink="false">d1f7fa8736672d45</guid>
+      <description>Redmond, WA · mid_level · 3d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4290,6 +4381,13 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer , DynamoDB Index, Search and Storage</title>
+      <link>https://www.amazon.jobs/en/jobs/10561388/software-development-engineer-dynamodb-index-search-and-storage</link>
+      <guid isPermaLink="false">e4804ba47f382927</guid>
+      <description>Seattle, Washington, USA · unknown · 4d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer - Distributed Services</title>
       <link>https://www.amazon.jobs/en/jobs/10562446/software-development-engineer-distributed-services</link>
       <guid isPermaLink="false">d2d8676ac2a6ce7a</guid>
@@ -4364,13 +4462,6 @@
       <link>https://www.amazon.jobs/en/jobs/10562537/software-development-engineer-cloudtrail</link>
       <guid isPermaLink="false">c87a54b65f8144be</guid>
       <description>Arlington, Virginia, USA · unknown · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Personalization, Amazon Personalization</title>
-      <link>https://www.amazon.jobs/en/jobs/10562856/software-development-engineer-personalization-amazon-personalization</link>
-      <guid isPermaLink="false">3be5128ac81165d0</guid>
-      <description>Seattle, Washington, USA · unknown · 4d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4521,13 +4612,6 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Duolingo — Senior Site Reliability Engineer</title>
-      <link>https://careers.duolingo.com/jobs/8784354002?gh_jid=8784354002</link>
-      <guid isPermaLink="false">cffdc07987852af8</guid>
-      <description>New York, NY · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Duolingo — Senior/Software Engineer II, Android</title>
       <link>https://careers.duolingo.com/jobs/8628670002?gh_jid=8628670002</link>
       <guid isPermaLink="false">68495f657648cecd</guid>
@@ -4542,23 +4626,9 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Jane Street — Compute &amp; Storage Infrastructure Sourcing Lead</title>
-      <link>https://www.janestreet.com/join-jane-street/apply/8599605002?gh_jid=8599605002</link>
-      <guid isPermaLink="false">c6d44a7842ba4c41</guid>
-      <description>New York, New York, United States · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Jane Street — Front End Software Engineer</title>
       <link>https://www.janestreet.com/join-jane-street/apply/6184529002?gh_jid=6184529002</link>
       <guid isPermaLink="false">366e947a3a0d17c5</guid>
-      <description>New York, New York, United States · other · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jane Street — Software Engineer</title>
-      <link>https://www.janestreet.com/join-jane-street/apply/8599644002?gh_jid=8599644002</link>
-      <guid isPermaLink="false">65298b9a02f49c21</guid>
       <description>New York, New York, United States · other · 4d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -4573,6 +4643,13 @@
       <title>Jane Street — Software Engineer</title>
       <link>https://www.janestreet.com/join-jane-street/apply/4274288002?gh_jid=4274288002</link>
       <guid isPermaLink="false">8f00b97226b28005</guid>
+      <description>New York, New York, United States · other · 4d</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jane Street — Software Engineer</title>
+      <link>https://www.janestreet.com/join-jane-street/apply/8599644002?gh_jid=8599644002</link>
+      <guid isPermaLink="false">65298b9a02f49c21</guid>
       <description>New York, New York, United States · other · 4d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -4644,69 +4721,6 @@
       <link>https://jobs.ashbyhq.com/openai/9909555b-3dc4-4ba2-859e-43eae7c97a34</link>
       <guid isPermaLink="false">d41d49fbea20c900</guid>
       <description>San Francisco · other · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Director of Engineering, Core &amp; Ads Serving Platform</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8035163</link>
-      <guid isPermaLink="false">a81c650531ab7ad8</guid>
-      <description>San Francisco, CA, US; Palo Alto, CA, US · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Engineering Manager II, Android Modernization</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8015531</link>
-      <guid isPermaLink="false">84f4b68a95b8f627</guid>
-      <description>Toronto, ON, CA · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Engineering Manager II, iOS Modernization</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8015517</link>
-      <guid isPermaLink="false">465f6cdfccc8869e</guid>
-      <description>Toronto, ON, CA · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Software Engineer II, Full Stack</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=5459622</link>
-      <guid isPermaLink="false">8486cfb9e796bebb</guid>
-      <description>Toronto, ON, CA · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Software Engineer II, Web</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8024883</link>
-      <guid isPermaLink="false">64e94e969acce213</guid>
-      <description>Toronto, ON, CA · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Software Engineer, iOS</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=6922682</link>
-      <guid isPermaLink="false">aa5712cef789ed29</guid>
-      <description>Toronto, ON, CA · other · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Sr. Software Engineer - Full Stack</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=6510646</link>
-      <guid isPermaLink="false">9122637a4e7a6278</guid>
-      <description>Toronto, ON, CA · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Sr. Staff Software Engineer, Merchants</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=7770918</link>
-      <guid isPermaLink="false">24146da6bab50fcb</guid>
-      <description>San Francisco, CA, US; Palo Alto, CA, US · mid_level · 4d</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Staff Software Engineer, Ads &amp; Core Serving Platform</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=8055266</link>
-      <guid isPermaLink="false">5c4becff5b4b5a38</guid>
-      <description>Palo Alto, CA, US; San Francisco, CA, US · mid_level · 4d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4970,9 +4984,9 @@
     </item>
     <item>
       <title>Block — Staff Software Engineer, Cash App Banking</title>
-      <link>http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008</link>
-      <guid isPermaLink="false">a930250a5d3f8c43</guid>
-      <description>Toronto, Ontario, Canada · mid_level · 7d</description>
+      <link>http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008</link>
+      <guid isPermaLink="false">74ed862a5f676a35</guid>
+      <description>New York, NY, United States of America · mid_level · 7d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4984,9 +4998,9 @@
     </item>
     <item>
       <title>Block — Staff Software Engineer, Cash App Banking</title>
-      <link>http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008</link>
-      <guid isPermaLink="false">74ed862a5f676a35</guid>
-      <description>New York, NY, United States of America · mid_level · 7d</description>
+      <link>http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008</link>
+      <guid isPermaLink="false">a930250a5d3f8c43</guid>
+      <description>Toronto, Ontario, Canada · mid_level · 7d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5005,6 +5019,13 @@
     </item>
     <item>
       <title>Block — Staff Software Engineer, Go-to-Market Systems &amp; AI</title>
+      <link>http://block.xyz/careers/jobs/5411025008?gh_jid=5411025008</link>
+      <guid isPermaLink="false">9f0f7f43a50b12f7</guid>
+      <description>New York, NY, United States of America · mid_level · 7d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Block — Staff Software Engineer, Go-to-Market Systems &amp; AI</title>
       <link>http://block.xyz/careers/jobs/5406251008?gh_jid=5406251008</link>
       <guid isPermaLink="false">4f61cdacbcf011c2</guid>
       <description>Toronto, Ontario, Canada · mid_level · 7d</description>
@@ -5015,13 +5036,6 @@
       <link>http://block.xyz/careers/jobs/5406249008?gh_jid=5406249008</link>
       <guid isPermaLink="false">239e3d8222a049aa</guid>
       <description>Bay Area, CA, United States of America · mid_level · 7d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Block — Staff Software Engineer, Go-to-Market Systems &amp; AI</title>
-      <link>http://block.xyz/careers/jobs/5411025008?gh_jid=5411025008</link>
-      <guid isPermaLink="false">9f0f7f43a50b12f7</guid>
-      <description>New York, NY, United States of America · mid_level · 7d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5369,16 +5383,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8174105</link>
-      <guid isPermaLink="false">b9bbfa7d2f731b89</guid>
-      <description>Seattle, WA · other · 7d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8137972</link>
+      <guid isPermaLink="false">306f56c6b83b2abd</guid>
+      <description>Chicago, IL · other · 7d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8137972</link>
-      <guid isPermaLink="false">306f56c6b83b2abd</guid>
-      <description>Chicago, IL · other · 7d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8174105</link>
+      <guid isPermaLink="false">b9bbfa7d2f731b89</guid>
+      <description>Seattle, WA · other · 7d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5550,6 +5564,13 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, Centre for Quantum Computing</title>
+      <link>https://www.amazon.jobs/en/jobs/10559485/software-development-engineer-ii-centre-for-quantum-computing</link>
+      <guid isPermaLink="false">e63cb4fbb90db164</guid>
+      <description>Pasadena, California, USA · mid_level · 8d</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer II, Prime Tech - RAPIDX</title>
       <link>https://www.amazon.jobs/en/jobs/10559502/software-development-engineer-ii-prime-tech-rapidx</link>
       <guid isPermaLink="false">fbc7f5f854a88288</guid>
@@ -5672,7 +5693,7 @@
       <title>Apple — Systems Software Engineer, Platform Architecture</title>
       <link>https://jobs.apple.com/en-us/details/200685673/systems-software-engineer-platform-architecture</link>
       <guid isPermaLink="false">5c2a876a814be8bd</guid>
-      <description>Austin, United States of America · unknown · 8d</description>
+      <description>Cupertino, United States of America · unknown · 8d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -5866,16 +5887,16 @@
     </item>
     <item>
       <title>MongoDB — Site Reliability Engineer (Senior or Staff), Deployments</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7727913</link>
-      <guid isPermaLink="false">8f9e9dcdcebacd94</guid>
-      <description>Toronto · mid_level · 8d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7727910</link>
+      <guid isPermaLink="false">c1a37ece67b27fd0</guid>
+      <description>Boston; Miami; New Jersey; New York City; Princeton; Raleigh; Washington DC · mid_level · 8d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>MongoDB — Site Reliability Engineer (Senior or Staff), Deployments</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7727910</link>
-      <guid isPermaLink="false">c1a37ece67b27fd0</guid>
-      <description>Boston; Miami; New Jersey; New York City; Princeton; Raleigh; Washington DC · mid_level · 8d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7727913</link>
+      <guid isPermaLink="false">8f9e9dcdcebacd94</guid>
+      <description>Toronto · mid_level · 8d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6131,13 +6152,6 @@
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, ZeroTouch GSG at Amazon Leo</title>
-      <link>https://www.amazon.jobs/en/jobs/10558223/software-development-engineer-zerotouch-gsg-at-amazon-leo</link>
-      <guid isPermaLink="false">d0dae857957eab7d</guid>
-      <description>Redmond, Washington, USA · unknown · 9d</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Apple — Software Engineer — Face ID</title>
       <link>https://jobs.apple.com/en-us/details/200685202/software-engineer-face-id</link>
       <guid isPermaLink="false">e8a4a6ed501d48e0</guid>
@@ -6250,6 +6264,20 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II , Amazon Web Services (AWS)</title>
+      <link>https://www.amazon.jobs/en/jobs/10556207/software-development-engineer-ii-amazon-web-services-aws</link>
+      <guid isPermaLink="false">80d113cbf3290676</guid>
+      <description>Seattle, Washington, USA · mid_level · 10d</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, Ads Marketing Effectiveness &amp; Intelligence</title>
+      <link>https://www.amazon.jobs/en/jobs/10556997/software-development-engineer-ii-ads-marketing-effectiveness-intelligence</link>
+      <guid isPermaLink="false">e7b684fc009ce2cd</guid>
+      <description>Toronto, Ontario, CAN · mid_level · 10d</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer II, AFX</title>
       <link>https://www.amazon.jobs/en/jobs/10556205/software-development-engineer-ii-afx</link>
       <guid isPermaLink="false">1fcc840d6e6e779f</guid>
@@ -6310,13 +6338,6 @@
       <link>https://www.amazon.jobs/en/jobs/10556208/software-development-engineer-amazon-web-services-aws</link>
       <guid isPermaLink="false">c4f1d800cc61df56</guid>
       <description>Seattle, Washington, USA · unknown · 10d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS Athena and Glue ETL</title>
-      <link>https://www.amazon.jobs/en/jobs/10557046/software-development-engineer-aws-athena-and-glue-etl</link>
-      <guid isPermaLink="false">ad2c7accc1055e96</guid>
-      <description>East Palo Alto, California, USA · unknown · 10d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6436,13 +6457,6 @@
       <link>https://job-boards.greenhouse.io/discord/jobs/8642213002</link>
       <guid isPermaLink="false">ed6072dea4d0b51e</guid>
       <description>San Francisco Bay Area · other · 10d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Duolingo — Senior Engineering Manager, AI Platform</title>
-      <link>https://careers.duolingo.com/jobs/8756745002?gh_jid=8756745002</link>
-      <guid isPermaLink="false">23c32b8fe2d3f4bf</guid>
-      <description>New York, NY · mid_level · 10d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6643,16 +6657,16 @@
     </item>
     <item>
       <title>Databricks — Senior Manager, Infrastructure Data Science</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002</link>
-      <guid isPermaLink="false">abf2322b6aa2d80a</guid>
-      <description>Mountain View, California · mid_level · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002</link>
+      <guid isPermaLink="false">a573c0e2bdb6e5d8</guid>
+      <description>San Francisco, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Manager, Infrastructure Data Science</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002</link>
-      <guid isPermaLink="false">a573c0e2bdb6e5d8</guid>
-      <description>San Francisco, California · mid_level · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002</link>
+      <guid isPermaLink="false">abf2322b6aa2d80a</guid>
+      <description>Mountain View, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6671,23 +6685,9 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002</link>
-      <guid isPermaLink="false">b988dd06ebf8702f</guid>
-      <description>Vancouver, Canada · mid_level · 11d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002</link>
       <guid isPermaLink="false">ded4910a9d51e04a</guid>
       <description>Mountain View, California · mid_level · 11d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002</link>
-      <guid isPermaLink="false">7b4e0f43956fbe01</guid>
-      <description>San Francisco, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6698,10 +6698,17 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Senior Software Engineer - Database Engine Internals</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002</link>
-      <guid isPermaLink="false">81794e09fa2922e5</guid>
-      <description>Mountain View, California · mid_level · 11d</description>
+      <title>Databricks — Senior Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002</link>
+      <guid isPermaLink="false">b988dd06ebf8702f</guid>
+      <description>Vancouver, Canada · mid_level · 11d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002</link>
+      <guid isPermaLink="false">7b4e0f43956fbe01</guid>
+      <description>San Francisco, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6712,10 +6719,10 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Senior Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002</link>
-      <guid isPermaLink="false">1ce87d2206ccfe41</guid>
-      <description>Bellevue, Washington · mid_level · 11d</description>
+      <title>Databricks — Senior Software Engineer - Database Engine Internals</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002</link>
+      <guid isPermaLink="false">81794e09fa2922e5</guid>
+      <description>Mountain View, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6730,6 +6737,13 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002</link>
       <guid isPermaLink="false">de8da72858c799ef</guid>
       <description>Mountain View, California · mid_level · 11d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Distributed Data Systems</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002</link>
+      <guid isPermaLink="false">1ce87d2206ccfe41</guid>
+      <description>Bellevue, Washington · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6846,15 +6860,15 @@
     </item>
     <item>
       <title>Databricks — Software Engineer, Web Products</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8635225002</link>
-      <guid isPermaLink="false">14b80f3a87059d2c</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8560779002</link>
+      <guid isPermaLink="false">1c4b0b2184912847</guid>
       <description>Mountain View, California · other · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Software Engineer, Web Products</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8560779002</link>
-      <guid isPermaLink="false">1c4b0b2184912847</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8635225002</link>
+      <guid isPermaLink="false">14b80f3a87059d2c</guid>
       <description>Mountain View, California · other · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -6895,16 +6909,16 @@
     </item>
     <item>
       <title>Databricks — Sr Software Engineer-Networking</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002</link>
-      <guid isPermaLink="false">c044f0292d42090e</guid>
-      <description>Bellevue, Washington · mid_level · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002</link>
+      <guid isPermaLink="false">33b528f6255cb962</guid>
+      <description>Mountain View, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Sr Software Engineer-Networking</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002</link>
-      <guid isPermaLink="false">33b528f6255cb962</guid>
-      <description>Mountain View, California · mid_level · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002</link>
+      <guid isPermaLink="false">c044f0292d42090e</guid>
+      <description>Bellevue, Washington · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7028,23 +7042,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - AI Research Infrastructure</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8532682002</link>
-      <guid isPermaLink="false">a5db16239036f538</guid>
-      <description>New York City, New York; San Francisco, California · mid_level · 11d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Staff Software Engineer - AI Research Infrastructure</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8552484002</link>
       <guid isPermaLink="false">95771d26aeb26329</guid>
       <description>New York City, New York; San Francisco, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002</link>
-      <guid isPermaLink="false">f51c9989663a679f</guid>
-      <description>Seattle, Washington · mid_level · 11d</description>
+      <title>Databricks — Staff Software Engineer - AI Research Infrastructure</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8532682002</link>
+      <guid isPermaLink="false">a5db16239036f538</guid>
+      <description>New York City, New York; San Francisco, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7056,6 +7063,13 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002</link>
+      <guid isPermaLink="false">495ed840808fffe2</guid>
+      <description>San Francisco, California · mid_level · 11d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Staff Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002</link>
       <guid isPermaLink="false">f5fd51870e015b24</guid>
       <description>Mountain View, California · mid_level · 11d</description>
@@ -7063,9 +7077,9 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002</link>
-      <guid isPermaLink="false">495ed840808fffe2</guid>
-      <description>San Francisco, California · mid_level · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002</link>
+      <guid isPermaLink="false">f51c9989663a679f</guid>
+      <description>Seattle, Washington · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7098,13 +7112,6 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002</link>
-      <guid isPermaLink="false">bfaca1ec851dd8b4</guid>
-      <description>Mountain View, California · mid_level · 11d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002</link>
       <guid isPermaLink="false">048418dc6e4fb67a</guid>
       <description>Bellevue, Washington · mid_level · 11d</description>
@@ -7115,6 +7122,13 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002</link>
       <guid isPermaLink="false">408b5364750c7afe</guid>
       <description>San Francisco, California · mid_level · 11d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Staff Software Engineer - Distributed Data Systems</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002</link>
+      <guid isPermaLink="false">bfaca1ec851dd8b4</guid>
+      <description>Mountain View, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7147,16 +7161,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002</link>
-      <guid isPermaLink="false">898148f0d1b020df</guid>
-      <description>Bellevue, Washington · mid_level · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002</link>
+      <guid isPermaLink="false">9ab4edc91423a494</guid>
+      <description>Mountain View, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - IAM</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002</link>
-      <guid isPermaLink="false">9ab4edc91423a494</guid>
-      <description>Mountain View, California · mid_level · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002</link>
+      <guid isPermaLink="false">898148f0d1b020df</guid>
+      <description>Bellevue, Washington · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7210,15 +7224,15 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer, AI Native Web Platform</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002</link>
-      <guid isPermaLink="false">348417584ac1e588</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002</link>
+      <guid isPermaLink="false">4437abb7a7294999</guid>
       <description>Mountain View, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer, AI Native Web Platform</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002</link>
-      <guid isPermaLink="false">4437abb7a7294999</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002</link>
+      <guid isPermaLink="false">348417584ac1e588</guid>
       <description>Mountain View, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -7294,16 +7308,16 @@
     </item>
     <item>
       <title>Databricks — Systems PhD - Software Engineer</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002</link>
-      <guid isPermaLink="false">0a3043963e425f5c</guid>
-      <description>Mountain View, California; San Francisco, California · other · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002</link>
+      <guid isPermaLink="false">47ef52b2be5e53d5</guid>
+      <description>Bellevue, Washington; Seattle, Washington · other · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Systems PhD - Software Engineer</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002</link>
-      <guid isPermaLink="false">47ef52b2be5e53d5</guid>
-      <description>Bellevue, Washington; Seattle, Washington · other · 11d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002</link>
+      <guid isPermaLink="false">0a3043963e425f5c</guid>
+      <description>Mountain View, California; San Francisco, California · other · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7378,16 +7392,16 @@
     </item>
     <item>
       <title>Okta — Senior Software Engineer, AI Agentic Experience (Auth0)</title>
-      <link>https://www.okta.com/company/careers/opportunity/8092242?gh_jid=8092242</link>
-      <guid isPermaLink="false">c9c0f5cf99aa1236</guid>
-      <description>Bellevue, Washington; Chicago, Illinois; New York, New York · mid_level · 11d</description>
+      <link>https://www.okta.com/company/careers/opportunity/7305744?gh_jid=7305744</link>
+      <guid isPermaLink="false">ceacf5055514fc62</guid>
+      <description>San Francisco, California · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Senior Software Engineer, AI Agentic Experience (Auth0)</title>
-      <link>https://www.okta.com/company/careers/opportunity/7305744?gh_jid=7305744</link>
-      <guid isPermaLink="false">ceacf5055514fc62</guid>
-      <description>San Francisco, California · mid_level · 11d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8092242?gh_jid=8092242</link>
+      <guid isPermaLink="false">c9c0f5cf99aa1236</guid>
+      <description>Bellevue, Washington; Chicago, Illinois; New York, New York · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7553,16 +7567,16 @@
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Full Stack Software Engineer II (Contract Role)</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6199059004</link>
-      <guid isPermaLink="false">cd385a36e92b89b8</guid>
-      <description>United States, Madison, WI · mid_level · 11d</description>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6204389004</link>
+      <guid isPermaLink="false">79b50d03ef71d893</guid>
+      <description>Canada, Waterloo, ON · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Full Stack Software Engineer II (Contract Role)</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6204389004</link>
-      <guid isPermaLink="false">79b50d03ef71d893</guid>
-      <description>Canada, Waterloo, ON · mid_level · 11d</description>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6199059004</link>
+      <guid isPermaLink="false">cd385a36e92b89b8</guid>
+      <description>United States, Madison, WI · mid_level · 11d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7941,20 +7955,6 @@
       <link>https://www.amazon.jobs/en/jobs/10551895/software-development-engineer-frontier-adc-team</link>
       <guid isPermaLink="false">a361f4b07f32b013</guid>
       <description>Herndon, Virginia, USA · unknown · 15d</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Frontier Amazon Dedicated Cloud (ADC)</title>
-      <link>https://www.amazon.jobs/en/jobs/10551896/software-development-engineer-frontier-amazon-dedicated-cloud-adc</link>
-      <guid isPermaLink="false">f4e8ec869a24187e</guid>
-      <description>Denver, Colorado, USA · unknown · 15d</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Tax and Account Compliance Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10552226/software-development-engineer-tax-and-account-compliance-tech</link>
-      <guid isPermaLink="false">20c82a6f8bb44b07</guid>
-      <description>Seattle, Washington, USA · unknown · 15d</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8582,15 +8582,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AI Studios Engineering</title>
-      <link>https://www.amazon.jobs/en/jobs/10541540/software-development-engineer-ai-studios-engineering</link>
-      <guid isPermaLink="false">2c80c00928798426</guid>
+      <link>https://www.amazon.jobs/en/jobs/10541530/software-development-engineer-ai-studios-engineering</link>
+      <guid isPermaLink="false">5fe1e7432206f00a</guid>
       <description>Culver City, California, USA · unknown · 17d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AI Studios Engineering</title>
-      <link>https://www.amazon.jobs/en/jobs/10541530/software-development-engineer-ai-studios-engineering</link>
-      <guid isPermaLink="false">5fe1e7432206f00a</guid>
+      <link>https://www.amazon.jobs/en/jobs/10541540/software-development-engineer-ai-studios-engineering</link>
+      <guid isPermaLink="false">2c80c00928798426</guid>
       <description>Culver City, California, USA · unknown · 17d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -8680,15 +8680,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Scaling Planner, CloudTune</title>
-      <link>https://www.amazon.jobs/en/jobs/10543931/software-development-engineer-scaling-planner-cloudtune</link>
-      <guid isPermaLink="false">4ec48c22e85b34e5</guid>
+      <link>https://www.amazon.jobs/en/jobs/10543934/software-development-engineer-scaling-planner-cloudtune</link>
+      <guid isPermaLink="false">5e3e524635178c50</guid>
       <description>Toronto, Ontario, CAN · unknown · 17d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Scaling Planner, CloudTune</title>
-      <link>https://www.amazon.jobs/en/jobs/10543934/software-development-engineer-scaling-planner-cloudtune</link>
-      <guid isPermaLink="false">5e3e524635178c50</guid>
+      <link>https://www.amazon.jobs/en/jobs/10543931/software-development-engineer-scaling-planner-cloudtune</link>
+      <guid isPermaLink="false">4ec48c22e85b34e5</guid>
       <description>Toronto, Ontario, CAN · unknown · 17d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -8840,13 +8840,6 @@
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Samsung — Engineer II, Machine Learning Software</title>
-      <link>https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Engineer-II--Machine-Learning-Software_R120631</link>
-      <guid isPermaLink="false">0d877fbcd029e7de</guid>
-      <description>645 Clyde Avenue, Mountain View, CA, USA · mid_level · 18d</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10539152/software-development-engineer</link>
       <guid isPermaLink="false">1737cec6b8a9a7ae</guid>
@@ -8858,13 +8851,6 @@
       <link>https://www.amazon.jobs/en/jobs/10538328/software-development-engineer-ads-nova</link>
       <guid isPermaLink="false">6f493f8896a34584</guid>
       <description>New York, New York, USA · unknown · 18d</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II, Amazon Vulnerability Management Services</title>
-      <link>https://www.amazon.jobs/en/jobs/10538780/software-development-engineer-ii-amazon-vulnerability-management-services</link>
-      <guid isPermaLink="false">96042406000a5874</guid>
-      <description>Austin, Texas, USA · mid_level · 18d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8904,15 +8890,22 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Inventory Genealogy</title>
+      <link>https://www.amazon.jobs/en/jobs/10538987/software-development-engineer-inventory-genealogy</link>
+      <guid isPermaLink="false">41aea6ea29921b7b</guid>
+      <description>Bellevue, Washington, USA · unknown · 18d</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Inventory Genealogy</title>
       <link>https://www.amazon.jobs/en/jobs/10538988/software-development-engineer-inventory-genealogy</link>
       <guid isPermaLink="false">f39a11ad734d8f30</guid>
       <description>Bellevue, Washington, USA · unknown · 18d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Inventory Genealogy</title>
-      <link>https://www.amazon.jobs/en/jobs/10538987/software-development-engineer-inventory-genealogy</link>
-      <guid isPermaLink="false">41aea6ea29921b7b</guid>
+      <title>Amazon — Software Development Engineer, Robotics Development and Packaging Innovation</title>
+      <link>https://www.amazon.jobs/en/jobs/10539807/software-development-engineer-robotics-development-and-packaging-innovation</link>
+      <guid isPermaLink="false">7e356afbfa6b8bf0</guid>
       <description>Bellevue, Washington, USA · unknown · 18d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -8928,6 +8921,13 @@
       <link>https://www.amazon.jobs/en/jobs/10539354/software-development-engineer-ww-deals-promotions</link>
       <guid isPermaLink="false">e375e1eaea5edac6</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 18d</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Samsung — Engineer II, Machine Learning Software</title>
+      <link>https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Engineer-II--Machine-Learning-Software_R120631</link>
+      <guid isPermaLink="false">0d877fbcd029e7de</guid>
+      <description>645 Clyde Avenue, Mountain View, CA, USA · mid_level · 18d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9225,24 +9225,10 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer , Amazon Leo , Amazon Leo Commerce</title>
-      <link>https://www.amazon.jobs/en/jobs/10536359/software-development-engineer-amazon-leo-amazon-leo-commerce</link>
-      <guid isPermaLink="false">228b2e52f86e5893</guid>
-      <description>Redmond, Washington, USA · unknown · 22d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer , Leo Commerce, Leo Commerce</title>
       <link>https://www.amazon.jobs/en/jobs/10536497/software-development-engineer-leo-commerce-leo-commerce</link>
       <guid isPermaLink="false">32d5efff3ececda4</guid>
       <description>Redmond, Washington, USA · unknown · 22d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer - Gen AI, Connect (AI Agent)</title>
-      <link>https://www.amazon.jobs/en/jobs/10536489/software-development-engineer-gen-ai-connect-ai-agent</link>
-      <guid isPermaLink="false">a3926d696fc6f7a0</guid>
-      <description>New York, New York, USA · unknown · 22d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9373,16 +9359,16 @@
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Manager, Software Engineering</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6127233004</link>
-      <guid isPermaLink="false">c8011c05f3dfda7b</guid>
-      <description>United States, San Mateo, CA · mid_level · 22d</description>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6181191004</link>
+      <guid isPermaLink="false">456d44bfee73a087</guid>
+      <description>United States, Madison, WI · mid_level · 22d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Manager, Software Engineering</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6181191004</link>
-      <guid isPermaLink="false">456d44bfee73a087</guid>
-      <description>United States, Madison, WI · mid_level · 22d</description>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6127233004</link>
+      <guid isPermaLink="false">c8011c05f3dfda7b</guid>
+      <description>United States, San Mateo, CA · mid_level · 22d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9513,16 +9499,16 @@
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Staff Software Engineer – Data</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147288004</link>
-      <guid isPermaLink="false">0c7ed1fbecac3b9f</guid>
-      <description>United States, San Mateo, CA · mid_level · 22d</description>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6141163004</link>
+      <guid isPermaLink="false">bcab495a8bda256a</guid>
+      <description>United States, San Diego, CA · mid_level · 22d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Staff Software Engineer – Data</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6141163004</link>
-      <guid isPermaLink="false">bcab495a8bda256a</guid>
-      <description>United States, San Diego, CA · mid_level · 22d</description>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147288004</link>
+      <guid isPermaLink="false">0c7ed1fbecac3b9f</guid>
+      <description>United States, San Mateo, CA · mid_level · 22d</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9610,6 +9596,13 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer, Frontier Amazon Dedicated Cloud (ADC)</title>
+      <link>https://www.amazon.jobs/en/jobs/10535302/software-development-engineer-frontier-amazon-dedicated-cloud-adc</link>
+      <guid isPermaLink="false">6a312ba3d97b86bc</guid>
+      <description>Denver, Colorado, USA · unknown · 23d</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, S3 Buckets</title>
       <link>https://www.amazon.jobs/en/jobs/10533654/software-development-engineer-s3-buckets</link>
       <guid isPermaLink="false">d2cbd8586d962c0d</guid>
@@ -9667,16 +9660,16 @@
     </item>
     <item>
       <title>Lyft — Software Engineer</title>
-      <link>https://app.careerpuck.com/job-board/lyft/job/8772594002?gh_jid=8772594002</link>
-      <guid isPermaLink="false">d25c296a3aecd20b</guid>
-      <description>Seattle, WA · other · 23d</description>
+      <link>https://app.careerpuck.com/job-board/lyft/job/8772571002?gh_jid=8772571002</link>
+      <guid isPermaLink="false">9560f250a6ce9159</guid>
+      <description>San Francisco, CA · other · 23d</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Lyft — Software Engineer</title>
-      <link>https://app.careerpuck.com/job-board/lyft/job/8772571002?gh_jid=8772571002</link>
-      <guid isPermaLink="false">9560f250a6ce9159</guid>
-      <description>San Francisco, CA · other · 23d</description>
+      <link>https://app.careerpuck.com/job-board/lyft/job/8772594002?gh_jid=8772594002</link>
+      <guid isPermaLink="false">d25c296a3aecd20b</guid>
+      <description>Seattle, WA · other · 23d</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9856,6 +9849,13 @@
     </item>
     <item>
       <title>AMD — Software Engineer Intern/Co-op</title>
+      <link>https://careers.amd.com/jobs/90947?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2c822e92c85d92c2</guid>
+      <description>6 locationsRochester, NY Austin, TX Longmont, CO Fishkill, NY Fort Collins, CO Boxborough, MA · internship · 25d</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Software Engineer Intern/Co-op</title>
       <link>https://careers.amd.com/jobs/91368?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">0b30ae0ba59031b6</guid>
       <description>Markham, ON, Canada · internship · 25d</description>
@@ -9866,13 +9866,6 @@
       <link>https://careers.amd.com/jobs/91367?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">832a6a75550c48eb</guid>
       <description>Vancouver, BC, Canada · internship · 25d</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Software Engineer Intern/Co-op - Masters 🎓</title>
-      <link>https://careers.amd.com/jobs/91176?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">5ad396471eddd6f0</guid>
-      <description>San Jose, CA Santa Clara, CA · internship · 25d</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9900,34 +9893,6 @@
       <title>ByteDance — Network Software Engineer Intern - Network Observation</title>
       <link>https://jobs.bytedance.com/en/position/7670772641439041797/detail?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">1d5b1aca88b13c9f</guid>
-      <description>San Jose, CA · internship · 1mo</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Software Engineer Intern</title>
-      <link>https://jobs.bytedance.com/en/position/7668373268886161669/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">7d64ae8ee6c726a4</guid>
-      <description>Seattle, WA · internship · 1mo</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Software Engineer Intern - AI Infra Compute 🎓</title>
-      <link>https://jobs.bytedance.com/en/position/7667378931599214853/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">befa387b36908b60</guid>
-      <description>Seattle, WA · internship · 1mo</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Software Engineer Intern - AI Infrastructure Compute 🎓</title>
-      <link>https://jobs.bytedance.com/en/position/7667377525182662965/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">1f28221af0d3f35c</guid>
-      <description>San Jose, CA · internship · 1mo</description>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Software Engineer Intern - Distributed NoSQL Database Systems</title>
-      <link>https://jobs.bytedance.com/en/position/7668374190764050741/detail?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">4f2de026c1e38030</guid>
       <description>San Jose, CA · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -9975,16 +9940,16 @@
     </item>
     <item>
       <title>Palantir — Software Engineer Intern</title>
-      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">2ee142b47bfc9198</guid>
-      <description>New York, NY · internship · 1mo</description>
+      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">03f050ca86559a60</guid>
+      <description>Washington, D.C. · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Software Engineer Intern</title>
-      <link>https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">03f050ca86559a60</guid>
-      <description>Washington, D.C. · internship · 1mo</description>
+      <link>https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">2ee142b47bfc9198</guid>
+      <description>New York, NY · internship · 1mo</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10055,13 +10020,6 @@
       <link>https://www.amazon.jobs/en/jobs/10530577/software-development-engineer-ii-amazon-msk</link>
       <guid isPermaLink="false">aa5c878087f5edc1</guid>
       <description>Santa Monica, California, USA · mid_level · 28d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer Intern/Co-Op, ROBOTICS - 2027</title>
-      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-co-op-robotics-2027</link>
-      <guid isPermaLink="false">ad6924ac45f73acc</guid>
-      <description>North Reading, Massachusetts, USA · internship · 28d</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10279,13 +10237,6 @@
       <link>https://www.amazon.jobs/en/jobs/10529483/software-development-engineer-ii-aws-vulnerability-management</link>
       <guid isPermaLink="false">3923ce72e8d6483d</guid>
       <description>Seattle, Washington, USA · mid_level · 29d</description>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer III, AAIS Mosaic Data Platform</title>
-      <link>https://www.amazon.jobs/en/jobs/10529217/software-development-engineer-iii-aais-mosaic-data-platform</link>
-      <guid isPermaLink="false">4dfb455afcbc802b</guid>
-      <description>Seattle, Washington, USA · unknown · 29d</description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10835,6 +10786,13 @@
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer III, Secure Foundations - Detective Tooling</title>
+      <link>https://www.amazon.jobs/en/jobs/10518426/software-development-engineer-iii-secure-foundations-detective-tooling</link>
+      <guid isPermaLink="false">b766a4da5d8e2568</guid>
+      <description>New York, New York, USA · unknown · 35d</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, Cloudwatch Agent Observability</title>
       <link>https://www.amazon.jobs/en/jobs/10520510/software-development-engineer-cloudwatch-agent-observability</link>
       <guid isPermaLink="false">8dbc40be9e94957a</guid>
@@ -10860,6 +10818,13 @@
       <link>https://www.amazon.jobs/en/jobs/10520050/software-development-engineer-route-53</link>
       <guid isPermaLink="false">2c7e47bfde24b4e5</guid>
       <description>Herndon, Virginia, USA · unknown · 35d</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Unified Streaming and Monitoring Service</title>
+      <link>https://www.amazon.jobs/en/jobs/10520555/software-development-engineer-unified-streaming-and-monitoring-service</link>
+      <guid isPermaLink="false">796dc88d350f16b9</guid>
+      <description>Redmond, Washington, USA · unknown · 35d</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10909,13 +10874,6 @@
       <link>https://www.amazon.jobs/en/jobs/10517671/software-development-engineer-project-dawn</link>
       <guid isPermaLink="false">d312475dc1d57a07</guid>
       <description>Seattle, Washington, USA · unknown · 36d</description>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II, Ring Quick Action Service</title>
-      <link>https://www.amazon.jobs/en/jobs/10517663/software-development-engineer-ii-ring-quick-action-service</link>
-      <guid isPermaLink="false">6c3a2df6565c07e2</guid>
-      <description>Hawthorne, California, USA · mid_level · 36d</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10979,13 +10937,6 @@
       <link>https://job-boards.greenhouse.io/anthropic/jobs/5404730008</link>
       <guid isPermaLink="false">e19c996a5099ddf8</guid>
       <description>San Francisco, CA | New York City, NY · mid_level · 36d</description>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Duolingo — Senior iOS Engineer</title>
-      <link>https://careers.duolingo.com/jobs/8318257002?gh_jid=8318257002</link>
-      <guid isPermaLink="false">b6e5f9cd9fc217a3</guid>
-      <description>New York, NY · mid_level · 36d</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11094,6 +11045,13 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer, Amazon Leo Ground Systems Engineering</title>
+      <link>https://www.amazon.jobs/en/jobs/10514331/software-development-engineer-amazon-leo-ground-systems-engineering</link>
+      <guid isPermaLink="false">2c390f5dac2ee716</guid>
+      <description>Redmond, Washington, USA · unknown · 38d</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, AWS Hardware Engineering</title>
       <link>https://www.amazon.jobs/en/jobs/10515096/software-development-engineer-aws-hardware-engineering</link>
       <guid isPermaLink="false">d6ecd3259cc1c6d8</guid>
@@ -11140,13 +11098,6 @@
       <link>https://www.amazon.jobs/en/jobs/10514556/software-development-engineer-ww-deals-promotions</link>
       <guid isPermaLink="false">5e4fe7a7b883c1dc</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 38d</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Duolingo — Senior Android Engineer, Client Platform - Application Stability and Performance</title>
-      <link>https://careers.duolingo.com/jobs/8745736002?gh_jid=8745736002</link>
-      <guid isPermaLink="false">2a2fee24084ed912</guid>
-      <description>New York, NY · mid_level · 38d</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11220,6 +11171,13 @@
       <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer (SDE), SDN Controller, Amazon LEO</title>
+      <link>https://www.amazon.jobs/en/jobs/10510860/software-development-engineer-sde-sdn-controller-amazon-leo</link>
+      <guid isPermaLink="false">bfef39199ee32032</guid>
+      <description>Redmond, Washington, USA · unknown · 42d</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, Amazon Security</title>
       <link>https://www.amazon.jobs/en/jobs/10510084/software-development-engineer-amazon-security</link>
       <guid isPermaLink="false">fc7c4163ba53026d</guid>
@@ -11235,22 +11193,22 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS AppSync</title>
-      <link>https://www.amazon.jobs/en/jobs/10509716/software-development-engineer-aws-appsync</link>
-      <guid isPermaLink="false">24fd06a868a333b8</guid>
-      <description>Vancouver, British Columbia, CAN · unknown · 42d</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS AppSync</title>
       <link>https://www.amazon.jobs/en/jobs/10509712/software-development-engineer-aws-appsync</link>
       <guid isPermaLink="false">cef6a19e64baf5bb</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 42d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer, AWS AppSync</title>
+      <link>https://www.amazon.jobs/en/jobs/10509716/software-development-engineer-aws-appsync</link>
+      <guid isPermaLink="false">24fd06a868a333b8</guid>
+      <description>Vancouver, British Columbia, CAN · unknown · 42d</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, AWS Simple Queue Service (SQS)</title>
-      <link>https://www.amazon.jobs/en/jobs/10510500/software-development-engineer-aws-simple-queue-service-sqs</link>
-      <guid isPermaLink="false">e2dbd61a9da648a7</guid>
+      <link>https://www.amazon.jobs/en/jobs/10510497/software-development-engineer-aws-simple-queue-service-sqs</link>
+      <guid isPermaLink="false">57a19a580a83c39b</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 42d</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -11619,13 +11577,6 @@
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic — Staff+ Software Engineer, Safeguards</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/4951844008</link>
-      <guid isPermaLink="false">6c79fede8d0e8a25</guid>
-      <description>San Francisco, CA | New York City, NY · mid_level · 42d</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic — Tech Lead Manager, Agent Runtime Platform</title>
       <link>https://job-boards.greenhouse.io/anthropic/jobs/5316593008</link>
       <guid isPermaLink="false">2adc1378ce8a4e17</guid>
@@ -11977,16 +11928,16 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Rufus Engineering</title>
-      <link>https://www.amazon.jobs/en/jobs/10502935/software-development-engineer-ii-rufus-engineering</link>
-      <guid isPermaLink="false">104bd0269f33ee5b</guid>
-      <description>Palo Alto, California, USA · mid_level · 49d</description>
+      <link>https://www.amazon.jobs/en/jobs/10502024/software-development-engineer-ii-rufus-engineering</link>
+      <guid isPermaLink="false">fbf8c53bda6ff567</guid>
+      <description>Seattle, Washington, USA · mid_level · 49d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Rufus Engineering</title>
-      <link>https://www.amazon.jobs/en/jobs/10502024/software-development-engineer-ii-rufus-engineering</link>
-      <guid isPermaLink="false">fbf8c53bda6ff567</guid>
-      <description>Seattle, Washington, USA · mid_level · 49d</description>
+      <link>https://www.amazon.jobs/en/jobs/10502935/software-development-engineer-ii-rufus-engineering</link>
+      <guid isPermaLink="false">104bd0269f33ee5b</guid>
+      <description>Palo Alto, California, USA · mid_level · 49d</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12197,6 +12148,13 @@
       <link>https://www.amazon.jobs/en/jobs/10499375/software-development-engineer-ads-campaign-management</link>
       <guid isPermaLink="false">416833d403744dfa</guid>
       <description>New York, New York, USA · unknown · 51d</description>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS Simple Notification Service (SNS)</title>
+      <link>https://www.amazon.jobs/en/jobs/10500192/software-development-engineer-aws-simple-notification-service-sns</link>
+      <guid isPermaLink="false">ed0ad1abf10be837</guid>
+      <description>Vancouver, British Columbia, CAN · unknown · 51d</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12683,6 +12641,13 @@
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, Secure Connection Services (SCS)</title>
+      <link>https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs</link>
+      <guid isPermaLink="false">4669b44e0d5e538d</guid>
+      <description>Herndon, Virginia, USA · mid_level · 60d</description>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer III, Selection Economics Tech</title>
       <link>https://www.amazon.jobs/en/jobs/10490900/software-development-engineer-iii-selection-economics-tech</link>
       <guid isPermaLink="false">b15f66e68d5d1ac9</guid>
@@ -12726,16 +12691,16 @@
     </item>
     <item>
       <title>Block — Senior Site Reliability Engineer</title>
-      <link>http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008</link>
-      <guid isPermaLink="false">4062282a4de36bb4</guid>
-      <description>New York, NY, United States of America · mid_level · 60d</description>
+      <link>http://block.xyz/careers/jobs/5181749008?gh_jid=5181749008</link>
+      <guid isPermaLink="false">05c31b5864f2b8b3</guid>
+      <description>Bay Area, CA, United States of America · mid_level · 60d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Block — Senior Site Reliability Engineer</title>
-      <link>http://block.xyz/careers/jobs/5181749008?gh_jid=5181749008</link>
-      <guid isPermaLink="false">05c31b5864f2b8b3</guid>
-      <description>Bay Area, CA, United States of America · mid_level · 60d</description>
+      <link>http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008</link>
+      <guid isPermaLink="false">4062282a4de36bb4</guid>
+      <description>New York, NY, United States of America · mid_level · 60d</description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12834,13 +12799,6 @@
       <link>https://www.amazon.jobs/en/jobs/10487545/software-development-engineer-amazon-msk</link>
       <guid isPermaLink="false">21e06c0fe5ebcc10</guid>
       <description>Santa Monica, California, USA · unknown · 65d</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Amazon Publisher Monetization - Video Ads</title>
-      <link>https://www.amazon.jobs/en/jobs/10487609/software-development-engineer-amazon-publisher-monetization-video-ads</link>
-      <guid isPermaLink="false">ebfcae2c2f2023cd</guid>
-      <description>Seattle, Washington, USA · unknown · 65d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -13167,13 +13125,6 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Identity</title>
-      <link>https://www.amazon.jobs/en/jobs/10479413/software-development-engineer-aws-identity</link>
-      <guid isPermaLink="false">1514d21bc308033e</guid>
-      <description>Seattle, Washington, USA · unknown · 74d</description>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS Identity</title>
       <link>https://www.amazon.jobs/en/jobs/10479416/software-development-engineer-aws-identity</link>
       <guid isPermaLink="false">49c49fe61d34f0ec</guid>
       <description>Seattle, Washington, USA · unknown · 74d</description>
@@ -13183,6 +13134,13 @@
       <title>Amazon — Software Development Engineer, AWS Identity</title>
       <link>https://www.amazon.jobs/en/jobs/10479425/software-development-engineer-aws-identity</link>
       <guid isPermaLink="false">301971594f1e8dcb</guid>
+      <description>Seattle, Washington, USA · unknown · 74d</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS Identity</title>
+      <link>https://www.amazon.jobs/en/jobs/10479413/software-development-engineer-aws-identity</link>
+      <guid isPermaLink="false">1514d21bc308033e</guid>
       <description>Seattle, Washington, USA · unknown · 74d</description>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -13369,23 +13327,16 @@
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer II, EC2 Infrastructure Foundational Services</title>
-      <link>https://www.amazon.jobs/en/jobs/10474474/software-development-engineer-ii-ec2-infrastructure-foundational-services</link>
-      <guid isPermaLink="false">738df5ae3fe04adf</guid>
-      <description>Seattle, Washington, USA · mid_level · 80d</description>
+      <title>Amazon — Software Development Engineer II, Leo AI Foundations</title>
+      <link>https://www.amazon.jobs/en/jobs/10474679/software-development-engineer-ii-leo-ai-foundations</link>
+      <guid isPermaLink="false">5148c77dfa34056a</guid>
+      <description>Redmond, Washington, USA · mid_level · 80d</description>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Leo AI Foundations</title>
       <link>https://www.amazon.jobs/en/jobs/10474677/software-development-engineer-ii-leo-ai-foundations</link>
       <guid isPermaLink="false">65aa56c944dcbe4a</guid>
-      <description>Redmond, Washington, USA · mid_level · 80d</description>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II, Leo AI Foundations</title>
-      <link>https://www.amazon.jobs/en/jobs/10474679/software-development-engineer-ii-leo-ai-foundations</link>
-      <guid isPermaLink="false">5148c77dfa34056a</guid>
       <description>Redmond, Washington, USA · mid_level · 80d</description>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -13461,15 +13412,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS GuardDuty</title>
-      <link>https://www.amazon.jobs/en/jobs/10471823/software-development-engineer-aws-guardduty</link>
-      <guid isPermaLink="false">76f1c6d56aac89ad</guid>
+      <link>https://www.amazon.jobs/en/jobs/10471826/software-development-engineer-aws-guardduty</link>
+      <guid isPermaLink="false">9904d1177a2f5d27</guid>
       <description>Seattle, Washington, USA · unknown · 83d</description>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS GuardDuty</title>
-      <link>https://www.amazon.jobs/en/jobs/10471826/software-development-engineer-aws-guardduty</link>
-      <guid isPermaLink="false">9904d1177a2f5d27</guid>
+      <link>https://www.amazon.jobs/en/jobs/10471823/software-development-engineer-aws-guardduty</link>
+      <guid isPermaLink="false">76f1c6d56aac89ad</guid>
       <description>Seattle, Washington, USA · unknown · 83d</description>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -13559,15 +13510,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Programming Foundations (ASBX)</title>
-      <link>https://www.amazon.jobs/en/jobs/10467931/software-development-engineer-ii-programming-foundations-asbx</link>
-      <guid isPermaLink="false">f88684be3e9dc5b0</guid>
+      <link>https://www.amazon.jobs/en/jobs/10467933/software-development-engineer-ii-programming-foundations-asbx</link>
+      <guid isPermaLink="false">17795c222a1115fe</guid>
       <description>Seattle, Washington, USA · mid_level · 87d</description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Programming Foundations (ASBX)</title>
-      <link>https://www.amazon.jobs/en/jobs/10467933/software-development-engineer-ii-programming-foundations-asbx</link>
-      <guid isPermaLink="false">17795c222a1115fe</guid>
+      <link>https://www.amazon.jobs/en/jobs/10467931/software-development-engineer-ii-programming-foundations-asbx</link>
+      <guid isPermaLink="false">f88684be3e9dc5b0</guid>
       <description>Seattle, Washington, USA · mid_level · 87d</description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -13640,6 +13591,13 @@
       <guid isPermaLink="false">363d3de51bc71cb0</guid>
       <description>New York, New York · mid_level · 92d</description>
       <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer III, Amazon Leo CT Anchor</title>
+      <link>https://www.amazon.jobs/en/jobs/10464318/software-development-engineer-iii-amazon-leo-ct-anchor</link>
+      <guid isPermaLink="false">bfb20d3167431848</guid>
+      <description>Redmond, Washington, USA · unknown · 93d</description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Mercor — Software Engineer, Identity</title>
@@ -13845,13 +13803,6 @@
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, US Amazon Dedicated Cloud Security</title>
-      <link>https://www.amazon.jobs/en/jobs/10452688/software-development-engineer-us-amazon-dedicated-cloud-security</link>
-      <guid isPermaLink="false">a5021c99238836c9</guid>
-      <description>Herndon, Virginia, USA · unknown · 106d</description>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Robotics - Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10452115/robotics-software-development-engineer</link>
       <guid isPermaLink="false">38d0c377668462a6</guid>
@@ -13964,13 +13915,6 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer II, AWS Transform, AWS Transform</title>
-      <link>https://www.amazon.jobs/en/jobs/10445310/software-development-engineer-ii-aws-transform-aws-transform</link>
-      <guid isPermaLink="false">399a71a46e4c2943</guid>
-      <description>Seattle, Washington, USA · mid_level · 114d</description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Aurora DSQL</title>
       <link>https://www.amazon.jobs/en/jobs/10445231/software-development-engineer-aurora-dsql</link>
       <guid isPermaLink="false">d82ff2932b232e61</guid>
@@ -14042,15 +13986,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS IAM Distributed Database System</title>
-      <link>https://www.amazon.jobs/en/jobs/10441311/software-development-engineer-aws-iam-distributed-database-system</link>
-      <guid isPermaLink="false">5ad25fdec237842a</guid>
+      <link>https://www.amazon.jobs/en/jobs/10441291/software-development-engineer-aws-iam-distributed-database-system</link>
+      <guid isPermaLink="false">d28953f0732c16ea</guid>
       <description>Seattle, Washington, USA · unknown · 119d</description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, DynamoDB Storage</title>
-      <link>https://www.amazon.jobs/en/jobs/10440556/software-development-engineer-dynamodb-storage</link>
-      <guid isPermaLink="false">ba443e588bace0bc</guid>
+      <title>Amazon — Software Development Engineer, AWS IAM Distributed Database System</title>
+      <link>https://www.amazon.jobs/en/jobs/10441292/software-development-engineer-aws-iam-distributed-database-system</link>
+      <guid isPermaLink="false">a1635b62adf79187</guid>
       <description>Seattle, Washington, USA · unknown · 119d</description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
@@ -14058,6 +14002,13 @@
       <title>Amazon — Software Development Engineer, DynamoDB Storage</title>
       <link>https://www.amazon.jobs/en/jobs/10440557/software-development-engineer-dynamodb-storage</link>
       <guid isPermaLink="false">0a4be52d659afc47</guid>
+      <description>Seattle, Washington, USA · unknown · 119d</description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, DynamoDB Storage</title>
+      <link>https://www.amazon.jobs/en/jobs/10440556/software-development-engineer-dynamodb-storage</link>
+      <guid isPermaLink="false">ba443e588bace0bc</guid>
       <description>Seattle, Washington, USA · unknown · 119d</description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
@@ -14517,6 +14468,13 @@
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Embedded Software Development Engineer II, Amazon Robotics Firmware</title>
+      <link>https://www.amazon.jobs/en/jobs/10417402/embedded-software-development-engineer-ii-amazon-robotics-firmware</link>
+      <guid isPermaLink="false">43134f739e67c7ee</guid>
+      <description>North Reading, Massachusetts, USA · mid_level · 143d</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10417375/software-development-engineer</link>
       <guid isPermaLink="false">7ba86a3f6c3d6fd9</guid>
@@ -14570,6 +14528,13 @@
       <link>https://www.amazon.jobs/en/jobs/10414336/software-development-engineer-aws-connect-markov</link>
       <guid isPermaLink="false">4d94ffaf65c4188a</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 148d</description>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS Data Services - 2026 (US)</title>
+      <link>https://www.amazon.jobs/en/jobs/10414316/software-development-engineer-aws-data-services-2026-us</link>
+      <guid isPermaLink="false">ee21a185bd363750</guid>
+      <description>Seattle, Washington, USA · unknown · 148d</description>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14703,13 +14668,6 @@
       <link>https://www.amazon.jobs/en/jobs/10409008/software-development-engineer-silicon-development-infrastructure</link>
       <guid isPermaLink="false">199307b44fd78f05</guid>
       <description>Austin, Texas, USA · unknown · 154d</description>
-      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Transactional Services (Database &amp; Distributed Systems)</title>
-      <link>https://www.amazon.jobs/en/jobs/10409024/software-development-engineer-transactional-services-database-distributed-systems</link>
-      <guid isPermaLink="false">97191a5f60fffe76</guid>
-      <description>Seattle, Washington, USA · unknown · 154d</description>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14916,13 +14874,6 @@
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Kraken.com — Mobile Design Engineer</title>
-      <link>https://jobs.ashbyhq.com/kraken.com/3e769962-edad-47c1-898a-662208902b1c</link>
-      <guid isPermaLink="false">b8c05d9d3df81f88</guid>
-      <description>United States · other · 170d</description>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, AWS Marketplace</title>
       <link>https://www.amazon.jobs/en/jobs/10392164/software-development-engineer-aws-marketplace</link>
       <guid isPermaLink="false">0da67b1e9852739b</guid>
@@ -14986,6 +14937,18 @@
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Salesforce — Senior Engineering Manager - Client Infrastructure (Slack)</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Atlanta/Senior-Engineering-Manager--Design-Systems---Accessibility_JR357962-1</link>
+      <guid isPermaLink="false">69db58737a3cbaa2</guid>
+      <description>Georgia - Atlanta +4 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>Workday — Senior Full Stack Software Engineer - Agent Platform</title>
+      <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Full-Stack-Software-Engineer---Agent-Platform_JR-0107451-1</link>
+      <guid isPermaLink="false">81d6c3758756309e</guid>
+      <description>USA, GA, Atlanta +1 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>Intel — Software Engineer – Datacenter</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/Software-Engineer---Datacenter_JR0287686</link>
       <guid isPermaLink="false">a1bd0d041132e69f</guid>
@@ -14995,12 +14958,6 @@
       <title>Mastercard — Lead Platform Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland-Mountain-View/Lead-Software-Engineer--DevOps-_R-287887</link>
       <guid isPermaLink="false">ebd0d42cfcef6b12</guid>
-      <description>Dublin, Ireland (Mountain View) · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Software Engineer, Lead Architect - Open Finance</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland-Mountain-View/Lead-Software-Engineer--Lead-Architect---Open-Finance_R-289287</link>
-      <guid isPermaLink="false">ace8cdefc3f1af52</guid>
       <description>Dublin, Ireland (Mountain View) · mid_level · 1d</description>
     </item>
     <item>
@@ -15094,12 +15051,6 @@
       <description>Costa Rica, San Jose · internship · 2d</description>
     </item>
     <item>
-      <title>Salesforce — Director of Software Engineering (Data)</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Director-of-Software-Engineering--Data-_JR359867</link>
-      <guid isPermaLink="false">2a04caf4bc421647</guid>
-      <description>California - San Francisco · mid_level · 2d</description>
-    </item>
-    <item>
       <title>Visa — Senior Software Engineer</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/Senior-Software-Engineer_REF082667W-1</link>
       <guid isPermaLink="false">974d43a1016d5564</guid>
@@ -15128,12 +15079,6 @@
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Sr-Software-Development-Engineer--SRE--US-Federal-_JR-0110489</link>
       <guid isPermaLink="false">117e6500126605e5</guid>
       <description>USA.VA.Reston · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>Visa — Sr. Manager, Software Engineering</title>
-      <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Sr-Manager--Software-Engineering_REF088807W</link>
-      <guid isPermaLink="false">80120b897d52dd1e</guid>
-      <description>US - Austin, TX · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Staff Software Engineer</title>
@@ -15176,18 +15121,6 @@
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Senior-Software-Development-Engineer--Agent-Factory-_JR-0109218</link>
       <guid isPermaLink="false">d4a72afe89adfc4b</guid>
       <description>Canada, BC, Vancouver · mid_level · 4d</description>
-    </item>
-    <item>
-      <title>Samsung — Taylor Infrastructure Cost Manager</title>
-      <link>https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/1530-FM-973-Taylor-TX-USA/Tool-Hookup-Cost-Leader_R119762</link>
-      <guid isPermaLink="false">e6673cc96c742598</guid>
-      <description>1530 FM 973 Taylor, TX, USA · mid_level · 7d</description>
-    </item>
-    <item>
-      <title>Workday — Software Development Engineer, SRE (US Federal)</title>
-      <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Software-Development-Engineer--SRE--US-Federal-_JR-0110178</link>
-      <guid isPermaLink="false">5e0912b7545eb83a</guid>
-      <description>USA.VA.Reston · other · 7d</description>
     </item>
     <item>
       <title>Netflix — Crowds Supervisor - Netflix Animation Studios</title>
