@@ -4,12 +4,19 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Sat, 03 Oct 2026 12:34:50 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 17:17:53 GMT</lastBuildDate>
     <item>
       <title>Databricks — Software Engineer Intern</title>
       <link>https://boards.greenhouse.io/embed/job_app?token=8847738002&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">f40137e5379cbf84</guid>
       <description>London, UK · internship · 0d</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Payments and Risk</title>
+      <link>https://stripe.com/jobs/search?gh_jid=6717520</link>
+      <guid isPermaLink="false">ee1e334b33d8808c</guid>
+      <description>Dublin, Ireland · other · 0d</description>
       <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1203,13 +1210,6 @@
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Stripe — Fullstack Engineer, Payments and Risk</title>
-      <link>https://stripe.com/jobs/search?gh_jid=6717520</link>
-      <guid isPermaLink="false">224b0aa38d6af0cd</guid>
-      <description>Dublin, Ireland · other · 3d</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Stripe — Mobile Engineer, Treasury</title>
       <link>https://stripe.com/jobs/search?gh_jid=7978915</link>
       <guid isPermaLink="false">fd747a28d997dae1</guid>
@@ -1729,6 +1729,13 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 8d</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
       <guid isPermaLink="false">b836bebf63487343</guid>
       <description>Dublin · new_grad · 8d</description>
@@ -1739,13 +1746,6 @@
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
       <description>London · new_grad · 8d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 8d</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1918,16 +1918,16 @@
     </item>
     <item>
       <title>Sumup — Senior Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
-      <guid isPermaLink="false">01a3f303feb93e77</guid>
-      <description>Berlin, Germany · mid_level · 9d</description>
+      <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
+      <guid isPermaLink="false">053b2731b07bdf3c</guid>
+      <description>Cologne, Germany · mid_level · 9d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — Senior Backend Engineer - Golang</title>
-      <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
-      <guid isPermaLink="false">053b2731b07bdf3c</guid>
-      <description>Cologne, Germany · mid_level · 9d</description>
+      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
+      <guid isPermaLink="false">01a3f303feb93e77</guid>
+      <description>Berlin, Germany · mid_level · 9d</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2058,16 +2058,16 @@
     </item>
     <item>
       <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
-      <link>https://sumup.com/careers/positions/8785611002?gh_jid=8785611002</link>
-      <guid isPermaLink="false">6b8dccab5fc87171</guid>
-      <description>Vilnius, Lithuania · other · 11d</description>
+      <link>https://sumup.com/careers/positions/8785333002?gh_jid=8785333002</link>
+      <guid isPermaLink="false">6fe3438893366e75</guid>
+      <description>Berlin, Germany · other · 11d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — Backend Engineer (Golang) - Bank Balance</title>
-      <link>https://sumup.com/careers/positions/8785333002?gh_jid=8785333002</link>
-      <guid isPermaLink="false">6fe3438893366e75</guid>
-      <description>Berlin, Germany · other · 11d</description>
+      <link>https://sumup.com/careers/positions/8785611002?gh_jid=8785611002</link>
+      <guid isPermaLink="false">6b8dccab5fc87171</guid>
+      <description>Vilnius, Lithuania · other · 11d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3233,13 +3233,6 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer - Security Automation, AWS Security Epoxy</title>
-      <link>https://www.amazon.jobs/en/jobs/10503864/software-development-engineer-security-automation-aws-security-epoxy</link>
-      <guid isPermaLink="false">087b421211cbb242</guid>
-      <description>London, England, GBR · unknown · 47d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI — Software Engineer, Model Deployment- ChatGPT Engineering</title>
       <link>https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b</link>
       <guid isPermaLink="false">600f228738dda3d3</guid>
@@ -3273,13 +3266,6 @@
       <guid isPermaLink="false">cc61e9297ad85d28</guid>
       <description>Berlin Office · mid_level · 53d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer - Security Automation, AWS Security Epoxy</title>
-      <link>https://www.amazon.jobs/en/jobs/10496976/software-development-engineer-security-automation-aws-security-epoxy</link>
-      <guid isPermaLink="false">7fd8ccb9c95aa6a7</guid>
-      <description>Courbevoie, Ile-de-France, FRA · unknown · 54d</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>dLocal — Platform Architect</title>
@@ -3670,13 +3656,6 @@
       <title>Amazon — Software Development Engineer (open-source)</title>
       <link>https://www.amazon.jobs/en/jobs/10442033/software-development-engineer-open-source</link>
       <guid isPermaLink="false">71cf7f5e84e32760</guid>
-      <description>Dublin, IRL · unknown · 117d</description>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer - Lambda, AWS Lambda Control Plane</title>
-      <link>https://www.amazon.jobs/en/jobs/10442119/software-development-engineer-lambda-aws-lambda-control-plane</link>
-      <guid isPermaLink="false">b0cd9fa654272ddb</guid>
       <description>Dublin, IRL · unknown · 117d</description>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
     </item>
