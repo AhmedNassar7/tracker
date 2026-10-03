@@ -1,7 +1,63 @@
 {
-  "generated_at": "2026-10-03T21:13:41Z",
-  "total": 3562,
+  "generated_at": "2026-10-03T23:47:25Z",
+  "total": 3568,
   "jobs": [
+    {
+      "id": "eb2b61cd37c7e358",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Engineering Manager - Backend",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "2026-10-03",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7439442002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "min_years_experience": 10
+    },
+    {
+      "id": "1a00da2fc7050da3",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer (App-Framework)",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-03",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Rust",
+        "Scala"
+      ],
+      "min_years_experience": 7
+    },
+    {
+      "id": "5c4d0b343d41a16a",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer (Data Platform)",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-10-03",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7647369002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Kafka"
+      ],
+      "min_years_experience": 4
+    },
     {
       "id": "bbbeb0da99364f4b",
       "kind": "job",
@@ -11600,28 +11656,6 @@
       ]
     },
     {
-      "id": "1ba58692134d180d",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer (Networking) - Platform Infra",
-      "location": "Portugal",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8125987&gh_jid=8125987",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Azure",
-        "Elasticsearch"
-      ]
-    },
-    {
       "id": "8143bef96419b083",
       "kind": "job",
       "company": "Elastic",
@@ -11633,6 +11667,28 @@
       "date": "2d",
       "posted_at": "2026-10-01",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8125975&gh_jid=8125975",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "1ba58692134d180d",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer (Networking) - Platform Infra",
+      "location": "Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8125987&gh_jid=8125987",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -11703,27 +11759,6 @@
       "date": "2d",
       "posted_at": "2026-10-01",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8138690&gh_jid=8138690",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Rust",
-        "C++",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "d2e82d4b8efc84c3",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
-      "location": "Greece",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8138683&gh_jid=8138683",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -11818,6 +11853,27 @@
       ]
     },
     {
+      "id": "d2e82d4b8efc84c3",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Performance Tuning - Elasticsearch",
+      "location": "Greece",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8138683&gh_jid=8138683",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Rust",
+        "C++",
+        "Elasticsearch"
+      ]
+    },
+    {
       "id": "7cf074179f5c1e4c",
       "kind": "job",
       "company": "Elastic",
@@ -11829,159 +11885,6 @@
       "date": "2d",
       "posted_at": "2026-10-01",
       "url": "https://jobs.elastic.co/jobs?gh_jid=7784606&gh_jid=7784606",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ],
-      "salary": {
-        "min": 159800,
-        "max": 252800,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "679fe8ae4bec9591",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Ireland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162465&gh_jid=8162465",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "5853ce8a80009836",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Norway",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162466&gh_jid=8162466",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "1cd84365ae232cd3",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Spain",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162474&gh_jid=8162474",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "f7510722160a1b11",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Poland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162469&gh_jid=8162469",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "902903b030c271e3",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Portugal",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162470&gh_jid=8162470",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "6c1b9a87f6bd0adb",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Romania",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162473&gh_jid=8162473",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "0531865beece6e85",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162445&gh_jid=8162445",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -12019,6 +11922,27 @@
       ]
     },
     {
+      "id": "679fe8ae4bec9591",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162465&gh_jid=8162465",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
       "id": "8ff7ee2d2f331606",
       "kind": "job",
       "company": "Elastic",
@@ -12030,6 +11954,138 @@
       "date": "2d",
       "posted_at": "2026-10-01",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8162462&gh_jid=8162462",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "0531865beece6e85",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162445&gh_jid=8162445",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ],
+      "salary": {
+        "min": 159800,
+        "max": 252800,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "1cd84365ae232cd3",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Spain",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162474&gh_jid=8162474",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "6c1b9a87f6bd0adb",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Romania",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162473&gh_jid=8162473",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "902903b030c271e3",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162470&gh_jid=8162470",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "5853ce8a80009836",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Norway",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162466&gh_jid=8162466",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "f7510722160a1b11",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Poland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162469&gh_jid=8162469",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -12263,17 +12319,17 @@
       }
     },
     {
-      "id": "57a837860d32684d",
+      "id": "faa132f82b32bbac",
       "kind": "job",
       "company": "Elastic",
       "title": "Principal Software Engineer - Vector Search - Elasticsearch",
-      "location": "Romania",
+      "location": "Norway",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162406&gh_jid=8162406",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162404&gh_jid=8162404",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -12284,38 +12340,17 @@
       ]
     },
     {
-      "id": "ec3048a9541792c5",
+      "id": "74e0cfc4754cee3e",
       "kind": "job",
       "company": "Elastic",
       "title": "Principal Software Engineer - Vector Search - Elasticsearch",
-      "location": "Greece",
+      "location": "Portugal",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162400&gh_jid=8162400",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "a9f0919661e65fc8",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
-      "location": "Ireland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162401&gh_jid=8162401",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162650&gh_jid=8162650",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -12347,17 +12382,38 @@
       ]
     },
     {
-      "id": "faa132f82b32bbac",
+      "id": "e106b27c948bab37",
       "kind": "job",
       "company": "Elastic",
       "title": "Principal Software Engineer - Vector Search - Elasticsearch",
-      "location": "Norway",
+      "location": "Spain",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162404&gh_jid=8162404",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162407&gh_jid=8162407",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "57a837860d32684d",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
+      "location": "Romania",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162406&gh_jid=8162406",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -12389,38 +12445,17 @@
       ]
     },
     {
-      "id": "e106b27c948bab37",
+      "id": "ec3048a9541792c5",
       "kind": "job",
       "company": "Elastic",
       "title": "Principal Software Engineer - Vector Search - Elasticsearch",
-      "location": "Spain",
+      "location": "Greece",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162407&gh_jid=8162407",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "74e0cfc4754cee3e",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
-      "location": "Portugal",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8162650&gh_jid=8162650",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162400&gh_jid=8162400",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -12456,6 +12491,27 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "a9f0919661e65fc8",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
+      "location": "Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8162401&gh_jid=8162401",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
     },
     {
       "id": "c7939d0419b7177b",
@@ -12559,26 +12615,6 @@
       ]
     },
     {
-      "id": "210df061d45a2541",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Java Engineer - Core / Infra - Elasticsearch",
-      "location": "Poland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8232596&gh_jid=8232596",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Kubernetes",
-        "Elasticsearch"
-      ]
-    },
-    {
       "id": "f6c69102ed0cfbcc",
       "kind": "job",
       "company": "Elastic",
@@ -12590,6 +12626,26 @@
       "date": "2d",
       "posted_at": "2026-10-01",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8232557&gh_jid=8232557",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Kubernetes",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "210df061d45a2541",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Core / Infra - Elasticsearch",
+      "location": "Poland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8232596&gh_jid=8232596",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -12735,72 +12791,6 @@
       }
     },
     {
-      "id": "7523a946b0c449d1",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Site Reliability Engineer - Platform Reliability (Resilience)",
-      "location": "United Kingdom",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8232039&gh_jid=8232039",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "1ad97fdc637f07d3",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Site Reliability Engineer - Platform Reliability (Resilience)",
-      "location": "Poland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8232131&gh_jid=8232131",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "ad162c1dc8acc433",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Site Reliability Engineer - Platform Reliability (Resilience)",
-      "location": "Spain",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8176967&gh_jid=8176967",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "Elasticsearch"
-      ]
-    },
-    {
       "id": "4489d4a2649f7471",
       "kind": "job",
       "company": "Elastic",
@@ -12856,6 +12846,72 @@
       "date": "2d",
       "posted_at": "2026-10-01",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8232037&gh_jid=8232037",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "7523a946b0c449d1",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Site Reliability Engineer - Platform Reliability (Resilience)",
+      "location": "United Kingdom",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8232039&gh_jid=8232039",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "1ad97fdc637f07d3",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Site Reliability Engineer - Platform Reliability (Resilience)",
+      "location": "Poland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8232131&gh_jid=8232131",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "ad162c1dc8acc433",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Site Reliability Engineer - Platform Reliability (Resilience)",
+      "location": "Spain",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8176967&gh_jid=8176967",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13002,6 +13058,46 @@
       }
     },
     {
+      "id": "61dced4686c76895",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Integrations 3P - Platform",
+      "location": "Greece",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8131023&gh_jid=8131023",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Rust",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "588943220fea9ab4",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Integrations 3P - Platform",
+      "location": "Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8131025&gh_jid=8131025",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Rust",
+        "Elasticsearch"
+      ]
+    },
+    {
       "id": "8980ea8a1f923f30",
       "kind": "job",
       "company": "Elastic",
@@ -13042,37 +13138,17 @@
       ]
     },
     {
-      "id": "588943220fea9ab4",
+      "id": "1c55731153122dc7",
       "kind": "job",
       "company": "Elastic",
       "title": "Senior Software Engineer - Integrations 3P - Platform",
-      "location": "Portugal",
+      "location": "United Kingdom",
       "level": "mid_level",
       "region": "europe",
       "role_type": "platform",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8131025&gh_jid=8131025",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Rust",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "61dced4686c76895",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Integrations 3P - Platform",
-      "location": "Greece",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8131023&gh_jid=8131023",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8173421&gh_jid=8173421",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13093,26 +13169,6 @@
       "date": "2d",
       "posted_at": "2026-10-01",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8131024&gh_jid=8131024",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Rust",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "1c55731153122dc7",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Integrations 3P - Platform",
-      "location": "United Kingdom",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8173421&gh_jid=8173421",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13176,6 +13232,27 @@
       }
     },
     {
+      "id": "d7937c0d5ff91176",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Poland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161432&gh_jid=8161432",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
       "id": "d77853dc9b5a57cf",
       "kind": "job",
       "company": "Elastic",
@@ -13218,101 +13295,17 @@
       ]
     },
     {
-      "id": "c3a262763c924c6e",
+      "id": "f1422122c53febb2",
       "kind": "job",
       "company": "Elastic",
       "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Portugal",
+      "location": "Spain",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161434&gh_jid=8161434",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "d7937c0d5ff91176",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Poland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161432&gh_jid=8161432",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "e97884155a5954b3",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Norway",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161428&gh_jid=8161428",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "2f6ffee6d540184e",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Ireland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161427&gh_jid=8161427",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "975916b8b6da6f47",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Greece",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161426&gh_jid=8161426",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161419&gh_jid=8161419",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13350,17 +13343,17 @@
       }
     },
     {
-      "id": "f1422122c53febb2",
+      "id": "975916b8b6da6f47",
       "kind": "job",
       "company": "Elastic",
       "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
-      "location": "Spain",
+      "location": "Greece",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161419&gh_jid=8161419",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161426&gh_jid=8161426",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13371,27 +13364,65 @@
       ]
     },
     {
-      "id": "6bfb7630ca522bc7",
+      "id": "c3a262763c924c6e",
       "kind": "job",
       "company": "Elastic",
-      "title": "Senior Software Engineer - SSC",
+      "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161434&gh_jid=8161434",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "2f6ffee6d540184e",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
       "location": "Ireland",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8111965&gh_jid=8111965",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161427&gh_jid=8161427",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
-        "React",
-        "Next.js",
-        "Node.js",
-        "TypeScript",
-        "JavaScript",
         "Java",
-        "Kubernetes",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "e97884155a5954b3",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Algorithms - Elasticsearch",
+      "location": "Norway",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161428&gh_jid=8161428",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
         "Elasticsearch"
       ]
     },
@@ -13446,6 +13477,31 @@
       ]
     },
     {
+      "id": "6bfb7630ca522bc7",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - SSC",
+      "location": "Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8111965&gh_jid=8111965",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "JavaScript",
+        "Java",
+        "Kubernetes",
+        "Elasticsearch"
+      ]
+    },
+    {
       "id": "47bc29fc4375b988",
       "kind": "job",
       "company": "Elastic",
@@ -13471,27 +13527,6 @@
       ]
     },
     {
-      "id": "c93ab004f0f593cf",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
-      "location": "Portugal",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8074889&gh_jid=8074889",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
       "id": "d0297c10d266ca3f",
       "kind": "job",
       "company": "Elastic",
@@ -13513,17 +13548,17 @@
       ]
     },
     {
-      "id": "2fa98c70bb058611",
+      "id": "c93ab004f0f593cf",
       "kind": "job",
       "company": "Elastic",
       "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
-      "location": "Norway",
+      "location": "Portugal",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8074895&gh_jid=8074895",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074889&gh_jid=8074889",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13534,17 +13569,17 @@
       ]
     },
     {
-      "id": "4a4c3ba026c5e1db",
+      "id": "232dc59b5fa5cd9f",
       "kind": "job",
       "company": "Elastic",
       "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
-      "location": "Romania",
+      "location": "Spain",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8074894&gh_jid=8074894",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074855&gh_jid=8074855",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13582,6 +13617,27 @@
       }
     },
     {
+      "id": "4a4c3ba026c5e1db",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
+      "location": "Romania",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074894&gh_jid=8074894",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
       "id": "581ec900bd26f1c2",
       "kind": "job",
       "company": "Elastic",
@@ -13603,17 +13659,38 @@
       ]
     },
     {
-      "id": "232dc59b5fa5cd9f",
+      "id": "2fa98c70bb058611",
       "kind": "job",
       "company": "Elastic",
       "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
-      "location": "Spain",
+      "location": "Norway",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8074855&gh_jid=8074855",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074895&gh_jid=8074895",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "763e97b83713aa8e",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Vector Search - Elasticsearch",
+      "location": "Romania",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161695&gh_jid=8161695",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13651,38 +13728,17 @@
       }
     },
     {
-      "id": "514c895764234106",
+      "id": "901e7f8ff2285278",
       "kind": "job",
       "company": "Elastic",
       "title": "Senior Software Engineer - Vector Search - Elasticsearch",
-      "location": "Norway",
+      "location": "Spain",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161686&gh_jid=8161686",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
-      "id": "10f1c7def6f8342d",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Vector Search - Elasticsearch",
-      "location": "Ireland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161569&gh_jid=8161569",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161519&gh_jid=8161519",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13714,17 +13770,59 @@
       ]
     },
     {
-      "id": "901e7f8ff2285278",
+      "id": "10f1c7def6f8342d",
       "kind": "job",
       "company": "Elastic",
       "title": "Senior Software Engineer - Vector Search - Elasticsearch",
-      "location": "Spain",
+      "location": "Ireland",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161519&gh_jid=8161519",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161569&gh_jid=8161569",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "514c895764234106",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Vector Search - Elasticsearch",
+      "location": "Norway",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161686&gh_jid=8161686",
+      "source": "greenhouse:elastic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "id": "0791cd2485a94338",
+      "kind": "job",
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Vector Search - Elasticsearch",
+      "location": "Poland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-01",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8161687&gh_jid=8161687",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -13756,27 +13854,6 @@
       ]
     },
     {
-      "id": "763e97b83713aa8e",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer - Vector Search - Elasticsearch",
-      "location": "Romania",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161695&gh_jid=8161695",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
-      ]
-    },
-    {
       "id": "b68fad438beb1498",
       "kind": "job",
       "company": "Elastic",
@@ -13798,24 +13875,24 @@
       ]
     },
     {
-      "id": "0791cd2485a94338",
+      "id": "b495b61130545ae7",
       "kind": "job",
       "company": "Elastic",
-      "title": "Senior Software Engineer - Vector Search - Elasticsearch",
-      "location": "Poland",
+      "title": "Senior Software Engineer -Observability, Managed Inputs",
+      "location": "Spain",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8161687&gh_jid=8161687",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8167769&gh_jid=8167769",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
-        "Java",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch"
+        "Kubernetes",
+        "Terraform",
+        "Elasticsearch",
+        "Kafka"
       ]
     },
     {
@@ -13893,27 +13970,6 @@
       "date": "2d",
       "posted_at": "2026-10-01",
       "url": "https://jobs.elastic.co/jobs?gh_jid=8207679&gh_jid=8207679",
-      "source": "greenhouse:elastic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes",
-        "Terraform",
-        "Elasticsearch",
-        "Kafka"
-      ]
-    },
-    {
-      "id": "b495b61130545ae7",
-      "kind": "job",
-      "company": "Elastic",
-      "title": "Senior Software Engineer -Observability, Managed Inputs",
-      "location": "Spain",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-01",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8167769&gh_jid=8167769",
       "source": "greenhouse:elastic",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "tech_tags": [
@@ -20910,6 +20966,30 @@
       }
     },
     {
+      "id": "bb9cffb6a247e3c6",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Distributed Systems",
+      "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "2026-09-29",
+      "url": "https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Rust",
+        "C++",
+        "Redis",
+        "Elasticsearch",
+        "Kafka"
+      ]
+    },
+    {
       "id": "9711031fa3618ea0",
       "kind": "job",
       "company": "Datadog",
@@ -20941,30 +21021,6 @@
       }
     },
     {
-      "id": "bb9cffb6a247e3c6",
-      "kind": "job",
-      "company": "Datadog",
-      "title": "Senior Software Engineer - Distributed Systems",
-      "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "2026-09-29",
-      "url": "https://careers.datadoghq.com/detail/4599111/?gh_jid=4599111",
-      "source": "greenhouse:datadog",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "Rust",
-        "C++",
-        "Redis",
-        "Elasticsearch",
-        "Kafka"
-      ]
-    },
-    {
       "id": "c695887863803363",
       "kind": "job",
       "company": "Datadog",
@@ -20985,6 +21041,21 @@
         "Kubernetes"
       ],
       "min_years_experience": 5
+    },
+    {
+      "id": "135c87069a515ffa",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "location": "France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "2026-09-29",
+      "url": "https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
     },
     {
       "id": "7d6b20ec02fc100a",
@@ -21013,21 +21084,6 @@
       "date": "4d",
       "posted_at": "2026-09-29",
       "url": "https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962",
-      "source": "greenhouse:datadog",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
-    },
-    {
-      "id": "135c87069a515ffa",
-      "kind": "job",
-      "company": "Datadog",
-      "title": "Senior Software Engineer - REDAPL Graph Engine",
-      "location": "France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "2026-09-29",
-      "url": "https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966",
       "source": "greenhouse:datadog",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true"
     },
@@ -21141,25 +21197,6 @@
       }
     },
     {
-      "id": "8cf202608e9096d8",
-      "kind": "job",
-      "company": "Datadog",
-      "title": "Software Engineering Intern",
-      "location": "Madrid, Spain",
-      "level": "internship",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "4d",
-      "posted_at": "2026-09-29",
-      "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161",
-      "source": "greenhouse:datadog",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes"
-      ],
-      "relocation": true
-    },
-    {
       "id": "3bf6538464199907",
       "kind": "job",
       "company": "Datadog",
@@ -21179,25 +21216,23 @@
       "relocation": true
     },
     {
-      "id": "aabe9286420d2b41",
+      "id": "8cf202608e9096d8",
       "kind": "job",
       "company": "Datadog",
-      "title": "Staff Engineer - Data Platform Experience",
-      "location": "Lisbon, Portugal",
-      "level": "mid_level",
+      "title": "Software Engineering Intern",
+      "location": "Madrid, Spain",
+      "level": "internship",
       "region": "europe",
-      "role_type": "platform",
+      "role_type": "software_engineer",
       "date": "4d",
       "posted_at": "2026-09-29",
-      "url": "https://careers.datadoghq.com/detail/8119496/?gh_jid=8119496",
+      "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161",
       "source": "greenhouse:datadog",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
       "tech_tags": [
-        "Java",
-        "Go",
-        "Kubernetes",
-        "Kafka"
-      ]
+        "Kubernetes"
+      ],
+      "relocation": true
     },
     {
       "id": "079d0fd4d9fe7144",
@@ -21211,6 +21246,27 @@
       "date": "4d",
       "posted_at": "2026-09-29",
       "url": "https://careers.datadoghq.com/detail/8119493/?gh_jid=8119493",
+      "source": "greenhouse:datadog",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Kubernetes",
+        "Kafka"
+      ]
+    },
+    {
+      "id": "aabe9286420d2b41",
+      "kind": "job",
+      "company": "Datadog",
+      "title": "Staff Engineer - Data Platform Experience",
+      "location": "Lisbon, Portugal",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "platform",
+      "date": "4d",
+      "posted_at": "2026-09-29",
+      "url": "https://careers.datadoghq.com/detail/8119496/?gh_jid=8119496",
       "source": "greenhouse:datadog",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
       "tech_tags": [
@@ -41986,22 +42042,6 @@
       "min_years_experience": 5
     },
     {
-      "id": "eb2b61cd37c7e358",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Engineering Manager - Backend",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "12d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7439442002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "min_years_experience": 10
-    },
-    {
       "id": "412dfde2bcba4484",
       "kind": "job",
       "company": "Databricks",
@@ -42225,27 +42265,6 @@
       }
     },
     {
-      "id": "1a00da2fc7050da3",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer (App-Framework)",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "12d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Rust",
-        "Scala"
-      ],
-      "min_years_experience": 7
-    },
-    {
       "id": "fc12a85f892dc2bb",
       "kind": "job",
       "company": "Databricks",
@@ -42315,25 +42334,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "5c4d0b343d41a16a",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer (Data Platform)",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "platform",
-      "date": "12d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7647369002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Kafka"
-      ],
-      "min_years_experience": 4
     },
     {
       "id": "652e33cc2035b70d",
@@ -75322,16 +75322,40 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "44b30b4577689454",
+      "id": "711037d4d631043d",
       "kind": "hackathon",
-      "company": "Product Space UIUC",
-      "title": "UIUC Product Hackathon - Hack to the Future",
-      "location": "Campus Instructional Facility",
-      "date": "about 1 hour left",
+      "company": "HackerEarth",
+      "title": "HCLTech GCP Data Engineer Hiring Challenge",
+      "location": "Online",
+      "date": "last day",
       "posted_at": "2026-10-03",
-      "url": "https://product-hackathon-uiuc.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://www.hackerearth.com/challenges/competitive/hcltech-gcp-data-engineer-hiring-challenge/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
+    },
+    {
+      "id": "41ea8baebacd1770",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "HCLTech Java Engineering Hiring Challenge",
+      "location": "Online",
+      "date": "last day",
+      "posted_at": "2026-10-03",
+      "url": "https://www.hackerearth.com/challenges/competitive/hcltech-java-challenge-2027/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
+    },
+    {
+      "id": "ca1b23b0b76fef00",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "Yuva Yodha Energy Tech Hackathon",
+      "location": "Online",
+      "date": "last day",
+      "posted_at": "2026-10-03",
+      "url": "https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "7fda82dd7d9d3e70",
@@ -75339,21 +75363,9 @@
       "company": "CSIT Society",
       "title": "CSIT RE:Uni Hackathon 2026",
       "location": "80.04.011, RMIT University",
-      "date": "about 6 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-10-03",
       "url": "https://csit-re-uni-hackathon-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "243bca7b1eaaafeb",
-      "kind": "hackathon",
-      "company": "NovaForge",
-      "title": "Build for Canada: An AI Hackathon for Economic Resilience",
-      "location": "ForgeVenue",
-      "date": "about 8 hours left",
-      "posted_at": "2026-10-03",
-      "url": "https://build-for-canada.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75363,7 +75375,7 @@
       "company": "BigRed//Hacks",
       "title": "BigRed//Hacks 2026",
       "location": "Phys Sci Building [Check-in @ Klarman]",
-      "date": "about 15 hours left",
+      "date": "about 13 hours left",
       "posted_at": "2026-10-03",
       "url": "https://bigredhacks2026.devpost.com/",
       "source": "devpost",
@@ -75375,7 +75387,7 @@
       "company": "ACM",
       "title": "WolfHacks 2026 by ACM NCSU",
       "location": "Duke Energy Hall, James Hunt Jr. Library",
-      "date": "about 18 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-10-03",
       "url": "https://wolfhacks-2026.devpost.com/",
       "source": "devpost",
@@ -75387,7 +75399,7 @@
       "company": "New Jersey Institute of Technology",
       "title": "GirlHacks 2026",
       "location": "NJIT - Campus Center",
-      "date": "about 18 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-10-03",
       "url": "https://girlhacks2026.devpost.com/",
       "source": "devpost",
@@ -75399,7 +75411,7 @@
       "company": "PolyAI",
       "title": "CodeML",
       "location": "Polytechnique Montreal",
-      "date": "about 18 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-10-03",
       "url": "https://codeml-31598.devpost.com/",
       "source": "devpost",
@@ -75411,7 +75423,7 @@
       "company": "University of Florida",
       "title": "Gator Quant Hacks",
       "location": "Gainesville, Florida",
-      "date": "about 18 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-10-03",
       "url": "https://gqhacks.devpost.com/",
       "source": "devpost",
@@ -75423,7 +75435,7 @@
       "company": "ACM UTSA",
       "title": "Rowdy Hacks XII",
       "location": "San Pedro II",
-      "date": "about 19 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-10-03",
       "url": "https://rowdy-hacks-xii.devpost.com/",
       "source": "devpost",
@@ -75435,21 +75447,9 @@
       "company": "Dream Team Engineering",
       "title": "Dream Team Engineering Designathon 2026",
       "location": "University of Florida - Newell Hall",
-      "date": "about 19 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-10-03",
       "url": "https://dte-designathon-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "61a18aa3559f47cd",
-      "kind": "hackathon",
-      "company": "MHacks",
-      "title": "MHacks 2026",
-      "location": "University of Michigan Duderstadt Center",
-      "date": "about 19 hours left",
-      "posted_at": "2026-10-03",
-      "url": "https://mhacks-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75459,9 +75459,57 @@
       "company": "Major League Hacking",
       "title": "Hack Dearborn: Conjure Reality",
       "location": "University of Michigan-Dearborn",
-      "date": "about 20 hours left",
+      "date": "about 17 hours left",
       "posted_at": "2026-10-03",
       "url": "https://hack-dearborn-5.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "61a18aa3559f47cd",
+      "kind": "hackathon",
+      "company": "MHacks",
+      "title": "MHacks 2026",
+      "location": "University of Michigan Duderstadt Center",
+      "date": "about 17 hours left",
+      "posted_at": "2026-10-03",
+      "url": "https://mhacks-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "d67a3396d915459f",
+      "kind": "hackathon",
+      "company": "SFU Surge",
+      "title": "StormHacks 2026",
+      "location": "Simon Fraser University",
+      "date": "about 19 hours left",
+      "posted_at": "2026-10-03",
+      "url": "https://stormhacks2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "202a24de3724bf77",
+      "kind": "hackathon",
+      "company": "UPN \"Veteran\" Jakarta",
+      "title": "FIK FAIR 2026",
+      "location": "Online",
+      "date": "about 19 hours left",
+      "posted_at": "2026-10-03",
+      "url": "https://fik-fair-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e1f6f7a1bb1d6f35",
+      "kind": "hackathon",
+      "company": "EconExplorers",
+      "title": "Financial Cybersecurity Challenge 2026",
+      "location": "Online",
+      "date": "about 21 hours left",
+      "posted_at": "2026-10-03",
+      "url": "https://finance-cybersecurity2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75478,26 +75526,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "202a24de3724bf77",
+      "id": "bdc97d91be4fbdb8",
       "kind": "hackathon",
-      "company": "UPN \"Veteran\" Jakarta",
-      "title": "FIK FAIR 2026",
+      "company": "shrimat koti",
+      "title": "Future innovators hackothon",
       "location": "Online",
-      "date": "about 21 hours left",
-      "posted_at": "2026-10-03",
-      "url": "https://fik-fair-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "d67a3396d915459f",
-      "kind": "hackathon",
-      "company": "SFU Surge",
-      "title": "StormHacks 2026",
-      "location": "Simon Fraser University",
       "date": "about 22 hours left",
       "posted_at": "2026-10-03",
-      "url": "https://stormhacks2026.devpost.com/",
+      "url": "https://future-innovators-hackothon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75514,16 +75550,16 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "e1f6f7a1bb1d6f35",
+      "id": "796720887e319f56",
       "kind": "hackathon",
-      "company": "EconExplorers",
-      "title": "Financial Cybersecurity Challenge 2026",
+      "company": "HackerEarth",
+      "title": "VibeCode Arena: AI Innovation Arena",
       "location": "Online",
-      "date": "1 day left",
+      "date": "1 days left",
       "posted_at": "2026-10-03",
-      "url": "https://finance-cybersecurity2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://www.hackerearth.com/challenges/hackathon/vibecode-arena-ai-innovation-arena/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "6b9b278cb5a44e22",
@@ -75534,18 +75570,6 @@
       "date": "1 day left",
       "posted_at": "2026-10-03",
       "url": "https://lovhack-season-3.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "bdc97d91be4fbdb8",
-      "kind": "hackathon",
-      "company": "shrimat koti",
-      "title": "Future innovators hackothon",
-      "location": "Online",
-      "date": "1 day left",
-      "posted_at": "2026-10-03",
-      "url": "https://future-innovators-hackothon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75620,6 +75644,18 @@
       "url": "https://impacthack26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "0681085f6b3a6dee",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "HackCellence: The Embark Edition",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-10-03",
+      "url": "https://www.hackerearth.com/challenges/hackathon/hackcellence-the-embark-edition/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "e000e6f0a8fb556f",
@@ -75826,6 +75862,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "6adfeeda2287ddaa",
+      "kind": "hackathon",
+      "company": "aiLights Association",
+      "title": "Hack Apertus",
+      "location": "Grand Finals 2027",
+      "date": "12 days left",
+      "posted_at": "2026-10-03",
+      "url": "https://hackapertus.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "851cac0157a230c0",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -75874,18 +75922,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "6adfeeda2287ddaa",
-      "kind": "hackathon",
-      "company": "aiLights Association",
-      "title": "Hack Apertus",
-      "location": "Grand Finals 2027",
-      "date": "13 days left",
-      "posted_at": "2026-10-03",
-      "url": "https://hackapertus.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "45edeb843b6bf56f",
       "kind": "hackathon",
       "company": "Mạng Lưới AI",
@@ -75896,6 +75932,18 @@
       "url": "https://mlai-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "99d7f3613394dd3b",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "Pride In Tech by Godrej Capital",
+      "location": "Online",
+      "date": "14 days left",
+      "posted_at": "2026-10-03",
+      "url": "https://www.hackerearth.com/challenges/competitive/pride-in-tech-by-godrej-capital/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "6ecabc1accea962a",
@@ -76350,6 +76398,30 @@
       "date": "3 months left",
       "posted_at": "2026-10-03",
       "url": "https://innovart2027.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "892853bbb8014d31",
+      "kind": "hackathon",
+      "company": "nill",
+      "title": "Code for Humanity",
+      "location": "Online",
+      "date": "3 months left",
+      "posted_at": "2026-10-03",
+      "url": "https://code-for-humanity.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "76585d3dc3653b3d",
+      "kind": "hackathon",
+      "company": "Student Organization",
+      "title": "Syntax Summit",
+      "location": "Online",
+      "date": "3 months left",
+      "posted_at": "2026-10-03",
+      "url": "https://syntax-summit.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
