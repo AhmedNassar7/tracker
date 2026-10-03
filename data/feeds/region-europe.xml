@@ -4,7 +4,7 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Sat, 03 Oct 2026 06:36:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 12:34:50 GMT</lastBuildDate>
     <item>
       <title>Databricks — Software Engineer Intern</title>
       <link>https://boards.greenhouse.io/embed/job_app?token=8847738002&amp;utm_source=Simplify&amp;ref=Simplify</link>
@@ -1519,15 +1519,15 @@
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Senior Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6187755004</link>
-      <guid isPermaLink="false">6206168aea0f6a1d</guid>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6176301004</link>
+      <guid isPermaLink="false">b1fad2eb38ef47de</guid>
       <description>Ireland, Dublin · mid_level · 5d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Senior Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6176301004</link>
-      <guid isPermaLink="false">b1fad2eb38ef47de</guid>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6187755004</link>
+      <guid isPermaLink="false">6206168aea0f6a1d</guid>
       <description>Ireland, Dublin · mid_level · 5d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2184,13 +2184,6 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002</link>
-      <guid isPermaLink="false">e1262f4b1afb16ec</guid>
-      <description>Berlin, Germany · mid_level · 12d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002</link>
       <guid isPermaLink="false">4c3fca2b744fa4a7</guid>
       <description>Belgrade, Serbia · mid_level · 12d</description>
@@ -2201,6 +2194,13 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002</link>
       <guid isPermaLink="false">1bf877368f091a05</guid>
       <description>Amsterdam, Netherlands · mid_level · 12d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002</link>
+      <guid isPermaLink="false">e1262f4b1afb16ec</guid>
+      <description>Berlin, Germany · mid_level · 12d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2233,9 +2233,9 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
-      <guid isPermaLink="false">96334280637b268a</guid>
-      <description>Zürich, Switzerland · mid_level · 12d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002</link>
+      <guid isPermaLink="false">11ccc4a3fa96e3bd</guid>
+      <description>Aarhus, Denmark · mid_level · 12d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2247,23 +2247,16 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002</link>
-      <guid isPermaLink="false">11ccc4a3fa96e3bd</guid>
-      <description>Aarhus, Denmark · mid_level · 12d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Staff Software Engineer - Delta</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002</link>
       <guid isPermaLink="false">bcddd175f2cfb885</guid>
       <description>Amsterdam, Netherlands · mid_level · 12d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002</link>
-      <guid isPermaLink="false">1ee773cbf2650d87</guid>
-      <description>Amsterdam, Netherlands · other · 12d</description>
+      <title>Databricks — Senior Staff Software Engineer - Delta</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
+      <guid isPermaLink="false">96334280637b268a</guid>
+      <description>Zürich, Switzerland · mid_level · 12d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2271,6 +2264,13 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002</link>
       <guid isPermaLink="false">08c6994d46264745</guid>
       <description>Belgrade, Serbia · other · 12d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002</link>
+      <guid isPermaLink="false">1ee773cbf2650d87</guid>
+      <description>Amsterdam, Netherlands · other · 12d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2310,6 +2310,13 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
+      <guid isPermaLink="false">fb40916992e1a363</guid>
+      <description>Amsterdam, Netherlands · mid_level · 12d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Staff Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002</link>
       <guid isPermaLink="false">ef6f23c47c8166fe</guid>
       <description>Berlin, Germany · mid_level · 12d</description>
@@ -2320,13 +2327,6 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002</link>
       <guid isPermaLink="false">cee270926d3d303b</guid>
       <description>Belgrade, Serbia · mid_level · 12d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
-      <guid isPermaLink="false">fb40916992e1a363</guid>
-      <description>Amsterdam, Netherlands · mid_level · 12d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2586,13 +2586,6 @@
       <link>https://www.linkedin.com/jobs/view/4418824785</link>
       <guid isPermaLink="false">14cf794ffa58b1f0</guid>
       <description>Porto, Porto, Portugal · new_grad · 18d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II, CloudWatch Collectors</title>
-      <link>https://www.amazon.jobs/en/jobs/10544005/software-development-engineer-ii-cloudwatch-collectors</link>
-      <guid isPermaLink="false">b41f5ddb23c989ed</guid>
-      <description>Dublin, IRL · mid_level · 18d</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2982,16 +2975,16 @@
     </item>
     <item>
       <title>Anthropic — Staff Software Engineer, AI Reliability Engineering</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101169008</link>
-      <guid isPermaLink="false">69e056bd28f26982</guid>
-      <description>Dublin, IE · mid_level · 36d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101173008</link>
+      <guid isPermaLink="false">6ed05561613aeec1</guid>
+      <description>London, UK · mid_level · 36d</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic — Staff Software Engineer, AI Reliability Engineering</title>
-      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101173008</link>
-      <guid isPermaLink="false">6ed05561613aeec1</guid>
-      <description>London, UK · mid_level · 36d</description>
+      <link>https://job-boards.greenhouse.io/anthropic/jobs/5101169008</link>
+      <guid isPermaLink="false">69e056bd28f26982</guid>
+      <description>Dublin, IE · mid_level · 36d</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3240,6 +3233,13 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer - Security Automation, AWS Security Epoxy</title>
+      <link>https://www.amazon.jobs/en/jobs/10503864/software-development-engineer-security-automation-aws-security-epoxy</link>
+      <guid isPermaLink="false">087b421211cbb242</guid>
+      <description>London, England, GBR · unknown · 47d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI — Software Engineer, Model Deployment- ChatGPT Engineering</title>
       <link>https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b</link>
       <guid isPermaLink="false">600f228738dda3d3</guid>
@@ -3273,6 +3273,13 @@
       <guid isPermaLink="false">cc61e9297ad85d28</guid>
       <description>Berlin Office · mid_level · 53d</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer - Security Automation, AWS Security Epoxy</title>
+      <link>https://www.amazon.jobs/en/jobs/10496976/software-development-engineer-security-automation-aws-security-epoxy</link>
+      <guid isPermaLink="false">7fd8ccb9c95aa6a7</guid>
+      <description>Courbevoie, Ile-de-France, FRA · unknown · 54d</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>dLocal — Platform Architect</title>
@@ -3667,6 +3674,13 @@
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer - Lambda, AWS Lambda Control Plane</title>
+      <link>https://www.amazon.jobs/en/jobs/10442119/software-development-engineer-lambda-aws-lambda-control-plane</link>
+      <guid isPermaLink="false">b0cd9fa654272ddb</guid>
+      <description>Dublin, IRL · unknown · 117d</description>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Blablacar — Site Reliability Engineer</title>
       <link>https://jobs.lever.co/blablacar/98a28ba7-f5de-4501-93a8-7eac774b5aa6</link>
       <guid isPermaLink="false">d1fe643345025a6a</guid>
@@ -3898,28 +3912,190 @@
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Mastercard — Site Reliability Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Site-Reliability-Engineer-II_R-291626</link>
+      <guid isPermaLink="false">bbbeb0da99364f4b</guid>
+      <description>Dublin, Ireland · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>Adobe — Full Stack Engineer (Front-end), Agentic Governance</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Full-Stack-Engineer--Front-end---Agentic-Governance_R172296</link>
+      <guid isPermaLink="false">8abf8956acfe4f46</guid>
+      <description>Bucharest · other · 1d</description>
+    </item>
+    <item>
+      <title>Adobe — Sr. Full Stack Engineer (Back-end), Agentic Governance</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Sr-Full-Stack-Engineer--Back-end---Agentic-Governance_R172297</link>
+      <guid isPermaLink="false">da2a3dc317c0055a</guid>
+      <description>Bucharest · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Lead Software Engineer - Commercial Connect API Team</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer_R-277250</link>
+      <guid isPermaLink="false">9c27f47690a7a265</guid>
+      <description>Dublin, Ireland · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Lead Software Engineer, Lead Architect - Open Finance</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer--Lead-Architect---Open-Finance_R-289287</link>
+      <guid isPermaLink="false">6454cea7f0928658</guid>
+      <description>Dublin, Ireland · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Principal, Software Engineering</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Senior-Principal--Software-Engineering_R-288921</link>
+      <guid isPermaLink="false">b08d26f3820a96c2</guid>
+      <description>Dublin, Ireland · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Senior-Software-Engineer_R-291765</link>
+      <guid isPermaLink="false">bb23b33f816bc7da</guid>
+      <description>Dublin, Ireland · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer - Java</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Senior-Software-Engineer---Java_R-288444</link>
+      <guid isPermaLink="false">748d1769b7a4af52</guid>
+      <description>Dublin, Ireland · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Software-Engineer-II_R-290831</link>
+      <guid isPermaLink="false">4452bd1ab45bfd2c</guid>
+      <description>Dublin, Ireland · mid_level · 1d</description>
+    </item>
+    <item>
       <title>Netflix — Software Engineer 4/5 - Content, Business Products and Games Engineering</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Software-Engineer-5---Production-Operations_JR41475</link>
       <guid isPermaLink="false">69aca768e7060d27</guid>
-      <description>Warsaw · other · 0d</description>
+      <description>Warsaw · other · 1d</description>
+    </item>
+    <item>
+      <title>PwC — Abogado Senior servicios internos</title>
+      <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Madrid/Abogado-Senior-servicios-internos_765837WD-1</link>
+      <guid isPermaLink="false">68aa2c52a776fd8e</guid>
+      <description>Madrid · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>PwC — Software Engineer Intern - Milano [DIG]</title>
+      <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Software-Engineer-Intern---Milano--DIG-_765582WD</link>
+      <guid isPermaLink="false">6039b92ce50df4c0</guid>
+      <description>Milan · internship · 1d</description>
+    </item>
+    <item>
+      <title>Adobe — Lead Software Development Engineer — Growth Tools</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Lead-Software-Development-Engineer---Growth-Tools_R171728</link>
+      <guid isPermaLink="false">f000a62e8c16e254</guid>
+      <description>Bucharest · mid_level · 2d</description>
+    </item>
+    <item>
+      <title>Mastercard — Lead Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer_R-292074</link>
+      <guid isPermaLink="false">b2e258a6d791b743</guid>
+      <description>Dublin, Ireland · mid_level · 2d</description>
+    </item>
+    <item>
+      <title>Mastercard — Lead, Site Reliability Engineering</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead--Site-Reliability-Engineering_R-288199</link>
+      <guid isPermaLink="false">cf6fe26e6c316019</guid>
+      <description>Dublin, Ireland · mid_level · 2d</description>
+    </item>
+    <item>
+      <title>PwC — Capital Projects &amp; Economics - ambito Infrastrutture, Trasporti e Logistica - Intern | Milano [ADV]</title>
+      <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Capital-Projects---Economics----ambito-Infrastrutture--Trasporti-e-Logistica---Intern----Milano--ADV-_765299WD</link>
+      <guid isPermaLink="false">d55a664b3b5972e6</guid>
+      <description>Milan · internship · 2d</description>
+    </item>
+    <item>
+      <title>Workday — Senior Software Developer - Authentication Team</title>
+      <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Senior-Software-Developer---Authentication-Team_JR-0105355-2</link>
+      <guid isPermaLink="false">447b36bb8c4c7673</guid>
+      <description>Ireland, Dublin · mid_level · 2d</description>
+    </item>
+    <item>
+      <title>Valeo — IT &amp; DevOps Trainee</title>
+      <link>https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Prague/IT---DevOps-Trainee_REQ2026081382</link>
+      <guid isPermaLink="false">3d26e66caf9c2408</guid>
+      <description>Prague · other · 4d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer 5 - Consumer Lifecycle Experiences Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Senior-Software-Engineer-5---Commerce-Experiences-Testing-Infrastructure_JR38556</link>
       <guid isPermaLink="false">c05ef2825257d2d8</guid>
-      <description>Warsaw · mid_level · 4d</description>
+      <description>Warsaw · mid_level · 5d</description>
+    </item>
+    <item>
+      <title>Warner Bros. Discovery — Senior RTR Accountant, Studios (Fixed term contract)</title>
+      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Warsaw-166-Wiertnicza-TVN/Senior-RTR-Accountant--Studios--Fixed-term-contract-_R000104547</link>
+      <guid isPermaLink="false">9e7289b22f972c50</guid>
+      <description>Warsaw, 166 Wiertnicza (TVN) · mid_level · 5d</description>
     </item>
     <item>
       <title>Netflix — Full Stack Software Engineer 4/5, Game Lifecycle Engineering</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Full-Stack-Software-Engineer-4-5--Game-Lifecycle-Engineering_JR42418</link>
       <guid isPermaLink="false">327c7fbe25ce5627</guid>
-      <description>Warsaw · other · 7d</description>
+      <description>Warsaw · other · 8d</description>
+    </item>
+    <item>
+      <title>Warner Bros. Discovery — Senior Software Engineer</title>
+      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Stockholm-Tegeluddsvgen-80/Staff-Software-Engineer_R000099122</link>
+      <guid isPermaLink="false">e8567bd5e083ecfd</guid>
+      <description>Stockholm, Tegeluddsvägen 80 · mid_level · 9d</description>
+    </item>
+    <item>
+      <title>Warner Bros. Discovery — Senior Software Engineer - Roku</title>
+      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Senior-Software-Engineer---Roku_R000105273</link>
+      <guid isPermaLink="false">b0a6447c339680cb</guid>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 9d</description>
+    </item>
+    <item>
+      <title>Warner Bros. Discovery — Senior Software Engineer - tvOS</title>
+      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Senior-Software-Engineer---tvOS_R000105272-1</link>
+      <guid isPermaLink="false">8853517f303b3810</guid>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 9d</description>
+    </item>
+    <item>
+      <title>Warner Bros. Discovery — Software Engineer II</title>
+      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Software-Engineer-II_R000107542</link>
+      <guid isPermaLink="false">91a2dfdbf27a7fbb</guid>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 9d</description>
+    </item>
+    <item>
+      <title>Warner Bros. Discovery — Software Engineer II (Site Reliability Engineer)</title>
+      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Software-Engineer-II--Site-Reliability-Engineering_R000105665</link>
+      <guid isPermaLink="false">ac9e3e685553bbb9</guid>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 9d</description>
+    </item>
+    <item>
+      <title>Warner Bros. Discovery — Staff Software Engineer</title>
+      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Amsterdam-Piet-Heinkade-173/Software-Engineer-II_R000105431</link>
+      <guid isPermaLink="false">bd236491011fb4b1</guid>
+      <description>Amsterdam Piet Heinkade 173 · mid_level · 9d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer 5 — Developer Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Software-Engineer---Developer-Platform_JR32657</link>
       <guid isPermaLink="false">d967a96e7391dd2b</guid>
-      <description>Warsaw · mid_level · 9d</description>
+      <description>Warsaw · mid_level · 10d</description>
+    </item>
+    <item>
+      <title>Adobe — ML Services Software Development Engineer</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-ML-Engineer---Firefly_R166437</link>
+      <guid isPermaLink="false">fe6449f0e9916ba9</guid>
+      <description>Bucharest · other · 15d</description>
+    </item>
+    <item>
+      <title>Adobe — Senior Software Development Engineer-Adobe Express</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Software-Development-Engineer_R171033-1</link>
+      <guid isPermaLink="false">716712e91ed61635</guid>
+      <description>Bucharest · mid_level · 15d</description>
+    </item>
+    <item>
+      <title>Tencent — PUBG Mobile Marketing Team Intern</title>
+      <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1</link>
+      <guid isPermaLink="false">d03d9fcbae5645b6</guid>
+      <description>United Kingdom-London +1 more · internship · 15d</description>
     </item>
   </channel>
 </rss>
