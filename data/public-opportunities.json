@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T12:21:19Z",
-  "total": 3559,
+  "generated_at": "2026-10-04T17:34:10Z",
+  "total": 3560,
   "jobs": [
     {
       "id": "462732ee036ad588",
@@ -120,19 +120,137 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "0f4ef336440579c6",
+      "id": "10637ebcdaefe376",
       "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineer, NVLink",
-      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Raanana<br>Israel, Tel Aviv</details>",
+      "company": "Reddit",
+      "title": "Frontend Engineer, Ads",
+      "location": "Remote - United States",
       "level": "other",
-      "region": "mena",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-04",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "gRPC",
+        "Kubernetes",
+        "Docker"
+      ],
+      "min_years_experience": 3,
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "239e9d023b99fc23",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Frontend Engineer, Ads Campaign Manager",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-04",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8240716",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f03ebb6c3a5bd0da",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Frontend Engineer, Ads Creative",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-04",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6ba729ce5ab63e69",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Software Engineer, Agentic Ads Experience",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
       "role_type": "software_engineer",
       "date": "0d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Engineer--NVLink_JR2025935",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+      "posted_at": "2026-10-04",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "Go",
+        "Rust"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6b5d8a27f0918b8c",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Staff Android Engineer, Brand Ad Formats",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "2026-10-04",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "Kotlin"
+      ],
+      "degree_required": false,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 217000,
+        "max": 303900,
+        "currency": "USD",
+        "period": "year"
+      }
     },
     {
       "id": "9fbdc2bd14b3b9d4",
@@ -2910,6 +3028,21 @@
       }
     },
     {
+      "id": "e7f579d550aa0fe3",
+      "kind": "job",
+      "company": "Samsung",
+      "title": "Senior Engineer, Infra Innovation",
+      "location": "1530 FM 973 Taylor, TX, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/1530-FM-973-Taylor-TX-USA/Senior-Engineer--Infra-Innovation_R121004",
+      "source": "workday:sec",
+      "source_url": "https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs"
+    },
+    {
       "id": "ed9e18dd602772c9",
       "kind": "job",
       "company": "Coupang",
@@ -3102,139 +3235,6 @@
       "url": "https://jobs.ashbyhq.com/openai/b94099f6-8418-48b0-82b5-5953a27d636f",
       "source": "ashby:openai",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
-    },
-    {
-      "id": "10637ebcdaefe376",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Frontend Engineer, Ads",
-      "location": "Remote - United States",
-      "level": "other",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-03",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "gRPC",
-        "Kubernetes",
-        "Docker"
-      ],
-      "min_years_experience": 3,
-      "salary": {
-        "min": 164200,
-        "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "239e9d023b99fc23",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Frontend Engineer, Ads Campaign Manager",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-03",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8240716",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "salary": {
-        "min": 164200,
-        "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f03ebb6c3a5bd0da",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Frontend Engineer, Ads Creative",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-03",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6ba729ce5ab63e69",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Software Engineer, Agentic Ads Experience",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-03",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Python",
-        "Java",
-        "Go",
-        "Rust"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6b5d8a27f0918b8c",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Staff Android Engineer, Brand Ad Formats",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "mobile",
-      "date": "1d",
-      "posted_at": "2026-10-03",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "Kotlin"
-      ],
-      "degree_required": false,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 217000,
-        "max": 303900,
-        "currency": "USD",
-        "period": "year"
-      }
     },
     {
       "id": "1297d563b6f2327a",
@@ -22483,6 +22483,32 @@
       "min_years_experience": 5
     },
     {
+      "id": "3bf220ec63e43dcb",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Software Engineer 3",
+      "location": "Gurugram",
+      "level": "other",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "5d",
+      "posted_at": "2026-09-29",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Spring",
+        "AWS",
+        "GCP",
+        "Azure",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "SQL"
+      ]
+    },
+    {
       "id": "0a708a9719d4c30f",
       "kind": "job",
       "company": "MongoDB",
@@ -22507,32 +22533,6 @@
         "GCP",
         "Azure",
         "MongoDB"
-      ]
-    },
-    {
-      "id": "3bf220ec63e43dcb",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Software Engineer 3",
-      "location": "Gurugram",
-      "level": "other",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "5d",
-      "posted_at": "2026-09-29",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Spring",
-        "AWS",
-        "GCP",
-        "Azure",
-        "PostgreSQL",
-        "MySQL",
-        "MongoDB",
-        "SQL"
       ]
     },
     {
@@ -38215,17 +38215,17 @@
       "min_years_experience": 2
     },
     {
-      "id": "8add1a4c4b135ed1",
+      "id": "ef54ee31747a2588",
       "kind": "job",
       "company": "MongoDB",
       "title": "Manager, Site Reliability Engineering - Storage Layer Service",
-      "location": "Dublin",
+      "location": "Cork",
       "level": "mid_level",
-      "region": "europe",
+      "region": "unknown",
       "role_type": "infrastructure",
       "date": "10d",
       "posted_at": "2026-09-24",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7818635",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7957589",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
       "tech_tags": [
@@ -38239,17 +38239,17 @@
       "min_years_experience": 10
     },
     {
-      "id": "ef54ee31747a2588",
+      "id": "8add1a4c4b135ed1",
       "kind": "job",
       "company": "MongoDB",
       "title": "Manager, Site Reliability Engineering - Storage Layer Service",
-      "location": "Cork",
+      "location": "Dublin",
       "level": "mid_level",
-      "region": "unknown",
+      "region": "europe",
       "role_type": "infrastructure",
       "date": "10d",
       "posted_at": "2026-09-24",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7957589",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7818635",
       "source": "greenhouse:mongodb",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
       "tech_tags": [
@@ -38596,36 +38596,6 @@
       }
     },
     {
-      "id": "f411efabc0e5b537",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Senior Software Engineer, Cluster Scalability",
-      "location": "United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "10d",
-      "posted_at": "2026-09-24",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8221182",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "C++",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB"
-      ],
-      "degree_required": false,
-      "min_years_experience": 5,
-      "salary": {
-        "min": 126000,
-        "max": 248000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "82926621923ec31b",
       "kind": "job",
       "company": "MongoDB",
@@ -38651,6 +38621,36 @@
       "salary": {
         "min": 158000,
         "max": 220000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f411efabc0e5b537",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Senior Software Engineer, Cluster Scalability",
+      "location": "United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "10d",
+      "posted_at": "2026-09-24",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8221182",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "C++",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MongoDB"
+      ],
+      "degree_required": false,
+      "min_years_experience": 5,
+      "salary": {
+        "min": 126000,
+        "max": 248000,
         "currency": "USD",
         "period": "year"
       }
@@ -38982,37 +38982,6 @@
       }
     },
     {
-      "id": "9fada16bfaa5408b",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
-      "location": "Montreal; Toronto",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "10d",
-      "posted_at": "2026-09-24",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7793634",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB"
-      ],
-      "min_years_experience": 6,
-      "salary": {
-        "min": 144000,
-        "max": 200000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "c4a9a8b24349a0ec",
       "kind": "job",
       "company": "MongoDB",
@@ -39039,6 +39008,37 @@
       "salary": {
         "min": 126000,
         "max": 248000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "9fada16bfaa5408b",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
+      "location": "Montreal; Toronto",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "10d",
+      "posted_at": "2026-09-24",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7793634",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MongoDB"
+      ],
+      "min_years_experience": 6,
+      "salary": {
+        "min": 144000,
+        "max": 200000,
         "currency": "USD",
         "period": "year"
       }
@@ -39126,30 +39126,6 @@
       ]
     },
     {
-      "id": "86cc509ce14125f1",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Software Engineer 3",
-      "location": "Gurugram",
-      "level": "other",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "10d",
-      "posted_at": "2026-09-24",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8083366",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Python",
-        "Go",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB"
-      ]
-    },
-    {
       "id": "afa153cf6c07094e",
       "kind": "job",
       "company": "MongoDB",
@@ -39182,34 +39158,6 @@
       }
     },
     {
-      "id": "e4c7a324b57cb782",
-      "kind": "job",
-      "company": "MongoDB",
-      "title": "Software Engineer 3",
-      "location": "Gurugram",
-      "level": "other",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "10d",
-      "posted_at": "2026-09-24",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7993984",
-      "source": "greenhouse:mongodb",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Next.js",
-        "Python",
-        "FastAPI",
-        "Go",
-        "Rust",
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Azure",
-        "MongoDB"
-      ]
-    },
-    {
       "id": "62ebf79b6fe470f0",
       "kind": "job",
       "company": "MongoDB",
@@ -39233,6 +39181,30 @@
         "MongoDB"
       ],
       "min_years_experience": 3
+    },
+    {
+      "id": "86cc509ce14125f1",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Software Engineer 3",
+      "location": "Gurugram",
+      "level": "other",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "10d",
+      "posted_at": "2026-09-24",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8083366",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Python",
+        "Go",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MongoDB"
+      ]
     },
     {
       "id": "c64ab765bd23d6d4",
@@ -39262,6 +39234,34 @@
         "MongoDB"
       ],
       "min_years_experience": 4
+    },
+    {
+      "id": "e4c7a324b57cb782",
+      "kind": "job",
+      "company": "MongoDB",
+      "title": "Software Engineer 3",
+      "location": "Gurugram",
+      "level": "other",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "10d",
+      "posted_at": "2026-09-24",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7993984",
+      "source": "greenhouse:mongodb",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "Go",
+        "Rust",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MongoDB"
+      ]
     },
     {
       "id": "f1563085c5eebe4d",
@@ -75309,148 +75309,52 @@
   ],
   "hackathons": [
     {
-      "id": "3c0965bb11fa49b0",
+      "id": "711037d4d631043d",
       "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "ALGOTHON'26",
+      "company": "HackerEarth",
+      "title": "HCLTech GCP Data Engineer Hiring Challenge",
       "location": "Online",
       "date": "last day",
       "posted_at": "2026-10-04",
-      "url": "https://algothon.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
+      "url": "https://www.hackerearth.com/challenges/competitive/hcltech-gcp-data-engineer-hiring-challenge/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
-      "id": "ca4083775706833c",
+      "id": "41ea8baebacd1770",
       "kind": "hackathon",
-      "company": "New Jersey Institute of Technology",
-      "title": "GirlHacks 2026",
-      "location": "NJIT - Campus Center",
-      "date": "about 2 hours left",
-      "posted_at": "2026-10-04",
-      "url": "https://girlhacks2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "b7967b155ab7b15b",
-      "kind": "hackathon",
-      "company": "ACM",
-      "title": "WolfHacks 2026 by ACM NCSU",
-      "location": "Duke Energy Hall, James Hunt Jr. Library",
-      "date": "about 3 hours left",
-      "posted_at": "2026-10-04",
-      "url": "https://wolfhacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "35782721519afd54",
-      "kind": "hackathon",
-      "company": "PolyAI",
-      "title": "CodeML",
-      "location": "Polytechnique Montreal",
-      "date": "about 3 hours left",
-      "posted_at": "2026-10-04",
-      "url": "https://codeml-31598.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "4903bc2dd4ddc1d6",
-      "kind": "hackathon",
-      "company": "University of Florida",
-      "title": "Gator Quant Hacks",
-      "location": "Gainesville, Florida",
-      "date": "about 3 hours left",
-      "posted_at": "2026-10-04",
-      "url": "https://gqhacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "70868cccd70dc20b",
-      "kind": "hackathon",
-      "company": "ACM UTSA",
-      "title": "Rowdy Hacks XII",
-      "location": "San Pedro II",
-      "date": "about 4 hours left",
-      "posted_at": "2026-10-04",
-      "url": "https://rowdy-hacks-xii.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "ca329466dfb7ea3a",
-      "kind": "hackathon",
-      "company": "Dream Team Engineering",
-      "title": "Dream Team Engineering Designathon 2026",
-      "location": "University of Florida - Newell Hall",
-      "date": "about 4 hours left",
-      "posted_at": "2026-10-04",
-      "url": "https://dte-designathon-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "15b7ec2bb2a8daf0",
-      "kind": "hackathon",
-      "company": "Major League Hacking",
-      "title": "Hack Dearborn: Conjure Reality",
-      "location": "University of Michigan-Dearborn",
-      "date": "about 4 hours left",
-      "posted_at": "2026-10-04",
-      "url": "https://hack-dearborn-5.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "61a18aa3559f47cd",
-      "kind": "hackathon",
-      "company": "MHacks",
-      "title": "MHacks 2026",
-      "location": "University of Michigan Duderstadt Center",
-      "date": "about 4 hours left",
-      "posted_at": "2026-10-04",
-      "url": "https://mhacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "202a24de3724bf77",
-      "kind": "hackathon",
-      "company": "UPN \"Veteran\" Jakarta",
-      "title": "FIK FAIR 2026",
+      "company": "HackerEarth",
+      "title": "HCLTech Java Engineering Hiring Challenge",
       "location": "Online",
-      "date": "about 4 hours left",
+      "date": "last day",
       "posted_at": "2026-10-04",
-      "url": "https://fik-fair-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://www.hackerearth.com/challenges/competitive/hcltech-java-challenge-2027/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
-      "id": "e1f6f7a1bb1d6f35",
+      "id": "796720887e319f56",
       "kind": "hackathon",
-      "company": "EconExplorers",
-      "title": "Financial Cybersecurity Challenge 2026",
+      "company": "HackerEarth",
+      "title": "VibeCode Arena: AI Innovation Arena",
       "location": "Online",
-      "date": "about 5 hours left",
+      "date": "last day",
       "posted_at": "2026-10-04",
-      "url": "https://finance-cybersecurity2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://www.hackerearth.com/challenges/hackathon/vibecode-arena-ai-innovation-arena/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
-      "id": "72c32c82739b9b20",
+      "id": "ca1b23b0b76fef00",
       "kind": "hackathon",
-      "company": "HealthLink",
-      "title": "HealthLink Life Sciences Hackathon 2026",
-      "location": "The Basement",
-      "date": "about 5 hours left",
+      "company": "HackerEarth",
+      "title": "Yuva Yodha Energy Tech Hackathon",
+      "location": "Online",
+      "date": "last day",
       "posted_at": "2026-10-04",
-      "url": "https://healthlink-hackathon-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "0e9c353b8e9b66d9",
@@ -75458,7 +75362,7 @@
       "company": "MuleHacks Organizing Committee",
       "title": "MuleHacks2026",
       "location": "University of Central Missouri",
-      "date": "about 7 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-10-04",
       "url": "https://mulehacks.devpost.com/",
       "source": "devpost",
@@ -75470,9 +75374,21 @@
       "company": "SFU Surge",
       "title": "StormHacks 2026",
       "location": "Simon Fraser University",
-      "date": "about 7 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-10-04",
       "url": "https://stormhacks2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "ea192730e686ce29",
+      "kind": "hackathon",
+      "company": "GDG on Campus Sheridan College",
+      "title": "Case Closed",
+      "location": "Location TBA",
+      "date": "about 5 hours left",
+      "posted_at": "2026-10-04",
+      "url": "https://caseclosed.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75482,7 +75398,7 @@
       "company": "shrimat koti",
       "title": "Future innovators hackothon",
       "location": "Online",
-      "date": "about 11 hours left",
+      "date": "about 5 hours left",
       "posted_at": "2026-10-04",
       "url": "https://future-innovators-hackothon.devpost.com/",
       "source": "devpost",
@@ -75494,9 +75410,21 @@
       "company": "Lovhack",
       "title": "LovHack Season 3",
       "location": "Online",
-      "date": "about 16 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-10-04",
       "url": "https://lovhack-season-3.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "fb1d07bf7ad7fd6c",
+      "kind": "hackathon",
+      "company": "OneAquaHealth",
+      "title": "OneAquaHealth IEEE Global Hackathon",
+      "location": "Online",
+      "date": "about 10 hours left",
+      "posted_at": "2026-10-04",
+      "url": "https://oneaquahealth-ieee-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75506,7 +75434,7 @@
       "company": "The Webb Schools CSC",
       "title": "CSC Back-to-School Hackathon",
       "location": "Online",
-      "date": "about 19 hours left",
+      "date": "about 14 hours left",
       "posted_at": "2026-10-04",
       "url": "https://csc-back-to-school.devpost.com/",
       "source": "devpost",
@@ -75521,6 +75449,18 @@
       "date": "1 days left",
       "posted_at": "2026-10-04",
       "url": "https://boss-battle.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "8093d5c1b57e7e06",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hackverse.2026",
+      "location": "Navi Mumbai, India",
+      "date": "1 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://hackverse-19.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75561,28 +75501,28 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "8093d5c1b57e7e06",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hackverse.2026",
-      "location": "Navi Mumbai, India",
-      "date": "2 days left",
-      "posted_at": "2026-10-04",
-      "url": "https://hackverse-19.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "9f2f7c6bbe243e4d",
       "kind": "hackathon",
       "company": "Devfolio",
       "title": "Recursive",
       "location": "Panihati, India",
-      "date": "4 days left",
+      "date": "3 days left",
       "posted_at": "2026-10-04",
       "url": "https://recursiveacm.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "0681085f6b3a6dee",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "HackCellence: The Embark Edition",
+      "location": "Online",
+      "date": "3 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://www.hackerearth.com/challenges/hackathon/hackcellence-the-embark-edition/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "e8a53e1c35a26b6a",
@@ -75629,6 +75569,30 @@
       "date": "6 days left",
       "posted_at": "2026-10-04",
       "url": "https://hackify-3.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "790dcd18a1b957d5",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "HackInverse 1.0",
+      "location": "Kolkata, India",
+      "date": "6 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://hackinverse-s1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "abb36eb72fb88192",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Innohacks 4.0",
+      "location": "Ghaziabad, India",
+      "date": "6 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://innohacks-4.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -75693,36 +75657,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "790dcd18a1b957d5",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "HackInverse 1.0",
-      "location": "Kolkata, India",
-      "date": "7 days left",
-      "posted_at": "2026-10-04",
-      "url": "https://hackinverse-s1.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "abb36eb72fb88192",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Innohacks 4.0",
-      "location": "Ghaziabad, India",
-      "date": "7 days left",
-      "posted_at": "2026-10-04",
-      "url": "https://innohacks-4.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "4276ee1ed1b61c6c",
       "kind": "hackathon",
       "company": "AI Community @ SBU",
       "title": "AIC Internal Competition -2026 (Agentic AI)",
       "location": "Online",
-      "date": "8 days left",
+      "date": "7 days left",
       "posted_at": "2026-10-04",
       "url": "https://aic-ic-2026.devpost.com/",
       "source": "devpost",
@@ -75734,9 +75674,33 @@
       "company": "BioCataalysis",
       "title": "UnivaBio ($40,000 in prizes)",
       "location": "Online",
-      "date": "10 days left",
+      "date": "9 days left",
       "posted_at": "2026-10-04",
       "url": "https://univabio.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "19cf342527bcbcdb",
+      "kind": "hackathon",
+      "company": "Westwood Computer Science Club",
+      "title": "WarriorHacks 2.0",
+      "location": "Online",
+      "date": "9 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://warriorhacks-2-0.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "3b52801ce5cb8cb5",
+      "kind": "hackathon",
+      "company": "Hack47",
+      "title": "HACK47: OFFGRID",
+      "location": "Online",
+      "date": "10 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://hack47-offgrid.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75749,18 +75713,6 @@
       "date": "10 days left",
       "posted_at": "2026-10-04",
       "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "19cf342527bcbcdb",
-      "kind": "hackathon",
-      "company": "Westwood Computer Science Club",
-      "title": "WarriorHacks 2.0",
-      "location": "Online",
-      "date": "10 days left",
-      "posted_at": "2026-10-04",
-      "url": "https://warriorhacks-2-0.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75813,18 +75765,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "3b52801ce5cb8cb5",
-      "kind": "hackathon",
-      "company": "Hack47",
-      "title": "HACK47: OFFGRID",
-      "location": "Online",
-      "date": "11 days left",
-      "posted_at": "2026-10-04",
-      "url": "https://hack47-offgrid.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "a590ba4acbf4fa0e",
       "kind": "hackathon",
       "company": "Student Organization",
@@ -75871,6 +75811,18 @@
       "url": "https://mlai-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "99d7f3613394dd3b",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "Pride In Tech by Godrej Capital",
+      "location": "Online",
+      "date": "14 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://www.hackerearth.com/challenges/competitive/pride-in-tech-by-godrej-capital/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "28bf028a55804f63",
@@ -75921,14 +75873,14 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "e26e21ced1093f86",
+      "id": "a0fe4593fc360094",
       "kind": "hackathon",
-      "company": "SMU Business Intelligence & Analytics",
-      "title": "AI Lodge Hackathon 2026",
+      "company": "Eureka Institute and UnivaDev",
+      "title": "EurekaDev 2026",
       "location": "Online",
       "date": "16 days left",
       "posted_at": "2026-10-04",
-      "url": "https://ai-lodge-hackathon-2026.devpost.com/",
+      "url": "https://eurekadev.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75938,9 +75890,21 @@
       "company": "NP Overflow",
       "title": "HackIT 2026",
       "location": "Ngee Ann Polytechnic School of ICT",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-10-04",
       "url": "https://hackit-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e26e21ced1093f86",
+      "kind": "hackathon",
+      "company": "SMU Business Intelligence & Analytics",
+      "title": "AI Lodge Hackathon 2026",
+      "location": "Online",
+      "date": "16 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://ai-lodge-hackathon-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -75981,6 +75945,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "1b328570a25716bd",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "QuantHacks",
+      "location": "Various",
+      "date": "19 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://quanthacks2026.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "4d198d7fa4844cf4",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -76015,18 +75991,6 @@
       "url": "https://next-gen-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "1b328570a25716bd",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "QuantHacks",
-      "location": "Various",
-      "date": "20 days left",
-      "posted_at": "2026-10-04",
-      "url": "https://quanthacks2026.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "e878e0f66a68e5d9",
@@ -76065,6 +76029,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "f1707d60709ea316",
+      "kind": "hackathon",
+      "company": "hacktheconcretejungle",
+      "title": "HTCJ × PROOF Aviation Futures Challenge",
+      "location": "Boston Venture Week",
+      "date": "24 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://htcj-aviation-futures.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "d42dfc6016d1e10c",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -76073,6 +76049,30 @@
       "date": "26 days left",
       "posted_at": "2026-10-04",
       "url": "https://hacker-house-goa-2026.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "38e4d172fc0d4dda",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Q-HACK INDIA 2026",
+      "location": "Bengaluru, India",
+      "date": "26 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://qhack-india.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "84d48a0fc1e478b2",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "TUM Blockchain & AI Hackathon",
+      "location": "München, Germany",
+      "date": "26 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://tum.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -76097,6 +76097,18 @@
       "date": "26 days left",
       "posted_at": "2026-10-04",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "c65eb4fa0f121565",
+      "kind": "hackathon",
+      "company": "Qloo",
+      "title": "Qloo Agentic Hackathon",
+      "location": "Online",
+      "date": "26 days left",
+      "posted_at": "2026-10-04",
+      "url": "https://qloo.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76137,28 +76149,16 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "38e4d172fc0d4dda",
+      "id": "e05011afa745f5ba",
       "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Q-HACK INDIA 2026",
-      "location": "Bengaluru, India",
+      "company": "Galuxium",
+      "title": "Galuxium Nexus V2",
+      "location": "Online",
       "date": "27 days left",
       "posted_at": "2026-10-04",
-      "url": "https://qhack-india.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "84d48a0fc1e478b2",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "TUM Blockchain & AI Hackathon",
-      "location": "München, Germany",
-      "date": "27 days left",
-      "posted_at": "2026-10-04",
-      "url": "https://tum.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
+      "url": "https://galuxium-nexus-v2-29411.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "537012b5aafada0b",
@@ -76169,18 +76169,6 @@
       "date": "27 days left",
       "posted_at": "2026-10-04",
       "url": "https://interwell-hack2-0.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "c65eb4fa0f121565",
-      "kind": "hackathon",
-      "company": "Qloo",
-      "title": "Qloo Agentic Hackathon",
-      "location": "Online",
-      "date": "27 days left",
-      "posted_at": "2026-10-04",
-      "url": "https://qloo.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76217,6 +76205,18 @@
       "date": "about 1 month left",
       "posted_at": "2026-10-04",
       "url": "https://paypalaihackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "2974c38aaa981b66",
+      "kind": "hackathon",
+      "company": "STEMise",
+      "title": "DSH Hacks V2 ($100k+ in prizes!)",
+      "location": "Online",
+      "date": "about 1 month left",
+      "posted_at": "2026-10-04",
+      "url": "https://dsh-hacks-v2.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76329,6 +76329,30 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "cff6e79009e23350",
+      "kind": "hackathon",
+      "company": "Mizzou Computing Association",
+      "title": "MCA 2026 projects",
+      "location": "Online",
+      "date": "3 months left",
+      "posted_at": "2026-10-04",
+      "url": "https://mca-2026-projects.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "892853bbb8014d31",
+      "kind": "hackathon",
+      "company": "nill",
+      "title": "Code for Humanity",
+      "location": "Online",
+      "date": "3 months left",
+      "posted_at": "2026-10-04",
+      "url": "https://code-for-humanity.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "76585d3dc3653b3d",
       "kind": "hackathon",
       "company": "Student Organization",
@@ -76346,7 +76370,7 @@
       "company": "Devfolio",
       "title": "Convergence",
       "location": "Kalyani, India",
-      "date": "105 days left",
+      "date": "104 days left",
       "posted_at": "2026-10-04",
       "url": "https://convergence1.devfolio.co",
       "source": "devfolio",
@@ -76363,18 +76387,6 @@
       "url": "https://hack-with-gdg-s4.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "455c583422c5f065",
-      "kind": "hackathon",
-      "company": "BigRed//Hacks",
-      "title": "BigRed//Hacks 2026",
-      "location": "Phys Sci Building [Check-in @ Klarman]",
-      "date": "9 minutes left",
-      "posted_at": "2026-10-04",
-      "url": "https://bigredhacks2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
