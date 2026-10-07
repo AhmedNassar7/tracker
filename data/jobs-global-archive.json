@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T08:37:28Z",
-  "total": 2292,
+  "generated_at": "2026-10-07T16:26:59Z",
+  "total": 2315,
   "jobs": [
     {
       "id": "079cfbe8810b4f3c",
@@ -18,13 +18,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "cf33249cb26bd6aa",
@@ -42,37 +42,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "1w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
-    },
-    {
-      "id": "0212821216b85869",
-      "company": "Cisco",
-      "title": "Software Developer Embedded Systems II (Co-op) – Canada",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Canada",
-      "location": "Kanata Ontario Canada +6 more",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024136?s=gh-canada-jobs-2027",
-      "source": "zapplyjobs_canada",
-      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
-      "posted_at": "2026-10-07",
-      "age": "1w",
-      "collected_at": "2026-10-07T08:37:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "e5f832cb2e8177e1",
@@ -90,13 +66,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "1w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "5eaf26c7669c9c02",
@@ -114,13 +90,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "2w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "ededfc81d4a68496",
@@ -138,13 +114,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "2w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "49f78dcb22134de1",
@@ -162,13 +138,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "3w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "7aa0c7788cf3704f",
@@ -186,13 +162,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "3w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "593332d294dd8306",
@@ -210,13 +186,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "3w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "051330a019ee979a",
@@ -234,13 +210,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "3w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "bdf1471a24643502",
@@ -258,13 +234,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "3w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "95286dff5671bde1",
@@ -282,13 +258,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "1mo",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "0bc3c579cf70767c",
@@ -306,13 +282,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "1mo",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "ea8890d0f0dbb2ea",
@@ -330,13 +306,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "2w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "91ae85ff35b36ec2",
@@ -354,13 +330,13 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "1w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "935241fc3779dfbb",
@@ -378,13 +354,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "5d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "dab175a99d8b9315",
@@ -402,13 +378,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "5d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "ceb824217fad3a58",
@@ -426,13 +402,13 @@
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "17ccaa407480fe8d",
@@ -450,13 +426,13 @@
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "a206a941c2541337",
@@ -474,13 +450,13 @@
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "5ebe959c04f241dc",
@@ -498,13 +474,13 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "da6fa0ddba0bec36",
@@ -522,13 +498,13 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "64b735abbcce3895",
@@ -546,13 +522,13 @@
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "7bd94adb1b3c9c40",
@@ -570,13 +546,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "3dd815d48c283bc2",
@@ -594,13 +570,13 @@
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "1f1ac0d7623f5879",
@@ -617,14 +593,14 @@
       "source": "zapplyjobs_canada",
       "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-10-07",
-      "age": "5d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "age": "6d",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "ae24767bc6a35c7c",
@@ -641,14 +617,14 @@
       "source": "zapplyjobs_canada_internships",
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
-      "age": "5d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "age": "6d",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "ae19904308f4721f",
@@ -666,13 +642,13 @@
       "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
       "posted_at": "2026-10-07",
       "age": "2w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "8251e1b380560745",
@@ -690,13 +666,13 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "bff4acb4d5419aed",
@@ -714,13 +690,13 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "0d",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "90d63fa0e6d48fda",
@@ -738,13 +714,13 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "1w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "bb71bb8585250309",
@@ -762,13 +738,13 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "1w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "0598dd4778b574e2",
@@ -786,13 +762,13 @@
       "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "1w",
-      "collected_at": "2026-10-07T08:37:28Z",
+      "collected_at": "2026-10-07T16:26:59Z",
       "tags": [
         "software",
         "programming",
         "global-tech-roles"
       ],
-      "closed_at": "2026-10-07T08:37:28Z"
+      "closed_at": "2026-10-07T16:26:59Z"
     },
     {
       "id": "362d63569836083a",
@@ -808,6 +784,774 @@
       "url": "https://zapply.jobs/l/d/greenhouse-doordashusa-8233953?s=gh-internships-2027",
       "source": "zapplyjobs_internships",
       "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-10-07",
+      "age": "1w",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "48ee8669de04b69f",
+      "company": "Google",
+      "title": "Business Data Scientist Intern, PhD, Summer 2027",
+      "level": "internship",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/google-134577198026629830?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-10-07",
+      "age": "0d",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "b31b36ecb6ccd384",
+      "company": "Google",
+      "title": "Data Scientist, Research Intern, PhD, Summer 2027",
+      "level": "internship",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "United States",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/google-89965613241246406?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-10-07",
+      "age": "0d",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "31530f084ae12f1f",
+      "company": "ByteDance",
+      "title": "Site Reliability Engineer Intern (Data Infra) - 2027 Summer",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "Seattle, Washington",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/bytedance-7672922352988342533?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-10-07",
+      "age": "0d",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "5ca7148813bc9603",
+      "company": "ByteDance",
+      "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern (CDN Platform) - 2027 Summer",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "platform",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/bytedance-7673636205233490181?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-10-07",
+      "age": "0d",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "26bfba9fc2f1382c",
+      "company": "ByteDance",
+      "title": "Software Engineer Intern (Traffic Infrastructure) - 2027 Summer",
+      "level": "internship",
+      "category": "apac_tech",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "San Jose, California",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/bytedance-7672626707586746629?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-10-07",
+      "age": "0d",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "34f29c0022aad3e9",
+      "company": "Mastercard",
+      "title": "Data Engineer II",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "machine_learning",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-286580?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-10-07",
+      "age": "1w",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "081c275538cae3e9",
+      "company": "Cisco",
+      "title": "Software Developer Full Stack / Backend I (Co-op) - Canada",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "full_stack",
+      "country": "Unknown",
+      "location": "Kanata",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/phenom-cisco-2024208?s=gh-canada-jobs-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
+      "posted_at": "2026-10-07",
+      "age": "6d",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "a4942e7f8e8df239",
+      "company": "Cisco",
+      "title": "Software Developer Full Stack / Backend I (Co-op) - Canada",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "full_stack",
+      "country": "Unknown",
+      "location": "Kanata",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/phenom-cisco-2024208?s=gh-canada-internships-2027",
+      "source": "zapplyjobs_canada_internships",
+      "source_url": "https://github.com/zapplyjobs/Canada-Internships-2027",
+      "posted_at": "2026-10-07",
+      "age": "6d",
+      "collected_at": "2026-10-07T16:26:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "ac843fc6439af666",
+      "company": "Amazon.com Services LLC",
+      "title": "2027 Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning)...",
+      "level": "internship",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/amazon-85268e35-b1d2-47a1-b804-f7d1bd353eb0?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-30",
+      "age": "0d",
+      "collected_at": "2026-09-30T06:41:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "5f97ccfa9a605111",
+      "company": "Amazon.com Services LLC",
+      "title": "2027 Applied Science Internship - Reinforcement Learning & Optimization (Machine Learning) -...",
+      "level": "internship",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/amazon-de9fd61c-eb9b-488f-aac1-e0675b4e88fc?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-30",
+      "age": "0d",
+      "collected_at": "2026-09-30T06:41:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "da64fc50d5b08215",
+      "company": "Amazon.com Services LLC",
+      "title": "2027 Summer Applied Science Internship - Information & Knowledge Management (Machine Learning)-...",
+      "level": "internship",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Seattle, WA",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/amazon-d420ccc4-503a-49ae-ac98-291cd216272b?s=gh-new-grad-data-science-jobs-2027",
+      "source": "zapplyjobs_datascience",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+      "posted_at": "2026-09-30",
+      "age": "0d",
+      "collected_at": "2026-09-30T06:41:43Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "b2f71726d119aa25",
+      "company": "Cisco",
+      "title": "Software Engineer I (Co-op) - United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Maynard, Massachusetts, US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026920?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-10-01",
+      "age": "5d",
+      "collected_at": "2026-10-01T18:52:49Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "ccd78c1d9fd986bc",
+      "company": "Mastercard",
+      "title": "Software Engineer II - Decision Management Program",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II---Decision-Management-Program_R-286598",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-09-18",
+      "age": "18d",
+      "collected_at": "2026-10-06T02:57:19Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "b5e1e562d656d53e",
+      "company": "AMD",
+      "title": "Software Engineer Intern/Co-op",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "San Jose, CA Santa Clara, CA",
+      "remote_type": "onsite",
+      "url": "https://careers.amd.com/jobs/90891?icims=1&utm_source=Simplify&ref=Simplify",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-09-07",
+      "age": "16d",
+      "collected_at": "2026-09-07T04:38:53Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "15ffce2b11c82419",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, AWS Kumo Wolfpack",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Bellevue, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10539091/software-development-engineer-ii-aws-kumo-wolfpack",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-14",
+      "age": "20d",
+      "collected_at": "2026-10-04T05:50:19Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "e99cbdd80982fe77",
+      "company": "Palantir",
+      "title": "Year at Palantir, Forward Deployed Software Engineer Intern ⏳",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY (multiple US)",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-07",
+      "age": "3mo",
+      "collected_at": "2026-10-07T08:37:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "1798866d37e023bf",
+      "company": "Apple",
+      "title": "Site Reliability Engineer, Enterprise Technology Services",
+      "level": "unknown",
+      "category": "faang",
+      "region": "apac",
+      "role_type": "infrastructure",
+      "country": "China",
+      "location": "Shanghai, China",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200684365/site-reliability-engineer-enterprise-technology-services",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-18",
+      "age": "1d",
+      "collected_at": "2026-09-19T00:19:39Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "f691cc901ab4b640",
+      "company": "Apple",
+      "title": "PhD Intern, Apple Ads (Machine Learning)",
+      "level": "internship",
+      "category": "faang",
+      "region": "apac",
+      "role_type": "machine_learning",
+      "country": "India",
+      "location": "Hyderabad, India",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200684719/phd-intern-apple-ads-machine-learning",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-20",
+      "age": "0d",
+      "collected_at": "2026-09-20T11:30:33Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "2c80c00928798426",
+      "company": "Amazon",
+      "title": "Software Development Engineer, AI Studios Engineering",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "mobile",
+      "country": "United States",
+      "location": "Culver City, California, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10541540/software-development-engineer-ai-studios-engineering",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-15",
+      "age": "0d",
+      "collected_at": "2026-09-15T14:37:37Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "28721958975be04d",
+      "company": "Amazon",
+      "title": "Software Development Engineer II, E Reader Software",
+      "level": "mid_level",
+      "category": "faang",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "country": "India",
+      "location": "Bengaluru, Karnataka, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10530361/software-development-engineer-ii-e-reader-software",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-09-04",
+      "age": "6d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "ab7f176d028ae7c6",
+      "company": "Cisco",
+      "title": "Software Engineer II (Co-op) - United States",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Maynard, Massachusetts, US",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026923?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-10-01",
+      "age": "5d",
+      "collected_at": "2026-10-01T18:52:49Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "defdab2f6a00fd1b",
+      "company": "Microsoft",
+      "title": "Software Engineer II-SIRE",
+      "level": "mid_level",
+      "category": "microsoft_group",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Redmond, Washington, United States",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/microsoft-200052299?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-10-07",
+      "age": "0d",
+      "collected_at": "2026-10-07T08:37:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "9812a3cee9f3372b",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer Intern, Commercial (Summer 2027, grad Dec 2027 / Spring 2028)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY (multiple US)",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-07",
+      "age": "3mo",
+      "collected_at": "2026-10-07T08:37:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "bc9dff7270aa0cb7",
+      "company": "Apple",
+      "title": "Security Tooling - Software Engineer, SEAR",
+      "level": "unknown",
+      "category": "faang",
+      "region": "europe",
+      "role_type": "security",
+      "country": "France",
+      "location": "Paris, France",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200671122/security-tooling-software-engineer-sear",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-30",
+      "age": "0d",
+      "collected_at": "2026-09-30T23:47:24Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "bb6a3ba8e89f991e",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "country": "India",
+      "location": "Pune, India",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-291535",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-09-24",
+      "age": "12d",
+      "collected_at": "2026-10-06T02:57:19Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "f990d1725b37b8cf",
+      "company": "Mastercard",
+      "title": "Software Engineer II",
+      "level": "mid_level",
+      "category": "fintech",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "O'Fallon, Missouri",
+      "remote_type": "onsite",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-289342",
+      "source": "ambicuity",
+      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
+      "posted_at": "2026-09-17",
+      "age": "19d",
+      "collected_at": "2026-10-06T02:57:19Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "96f1292f252fee19",
+      "company": "Apple",
+      "title": "Data Engineer, Apple Ads",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "Cupertino, United States of America",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200684964/data-engineer-apple-ads",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-22",
+      "age": "0d",
+      "collected_at": "2026-09-22T04:53:20Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "4a076f6c605f389d",
+      "company": "Microsoft",
+      "title": "Software Engineer II-SIRE",
+      "level": "mid_level",
+      "category": "microsoft_group",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Redmond, Washington, United States",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/microsoft-200052299?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-10-06",
+      "age": "0d",
+      "collected_at": "2026-10-06T21:36:59Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "b2e52090e0b073f4",
+      "company": "Amazon",
+      "title": "Software Development Engineer - Test II, EDGE Tech",
+      "level": "unknown",
+      "category": "faang",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "country": "India",
+      "location": "Bengaluru, Karnataka, IND",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10469056/software-development-engineer-test-ii-edge-tech",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-07-08",
+      "age": "64d",
+      "collected_at": "2026-09-05T17:24:04Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "a1635b62adf79187",
+      "company": "Amazon",
+      "title": "Software Development Engineer, AWS IAM Distributed Database System",
+      "level": "unknown",
+      "category": "faang",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "Seattle, Washington, USA",
+      "remote_type": "onsite",
+      "url": "https://www.amazon.jobs/en/jobs/10441292/software-development-engineer-aws-iam-distributed-database-system",
+      "source": "amazon",
+      "source_url": "https://www.amazon.jobs/",
+      "posted_at": "2026-06-05",
+      "age": "120d",
+      "collected_at": "2026-10-03T06:32:23Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "5ed8aa51067989c4",
+      "company": "Apple",
+      "title": "Site Reliability Engineer, Enterprise Technology Services",
+      "level": "unknown",
+      "category": "faang",
+      "region": "apac",
+      "role_type": "infrastructure",
+      "country": "China",
+      "location": "Shanghai, China",
+      "remote_type": "onsite",
+      "url": "https://jobs.apple.com/en-us/details/200684364/site-reliability-engineer-enterprise-technology-services",
+      "source": "apple",
+      "source_url": "https://jobs.apple.com/en-us/search",
+      "posted_at": "2026-09-18",
+      "age": "19d",
+      "collected_at": "2026-10-07T08:37:28Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ],
+      "closed_at": "2026-10-07T16:26:59Z"
+    },
+    {
+      "id": "0212821216b85869",
+      "company": "Cisco",
+      "title": "Software Developer Embedded Systems II (Co-op) – Canada",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Canada",
+      "location": "Kanata Ontario Canada +6 more",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024136?s=gh-canada-jobs-2027",
+      "source": "zapplyjobs_canada",
+      "source_url": "https://github.com/zapplyjobs/Canada-Jobs-2027",
       "posted_at": "2026-10-07",
       "age": "1w",
       "collected_at": "2026-10-07T08:37:28Z",
@@ -906,30 +1650,6 @@
       "source_url": "https://www.amazon.jobs/",
       "posted_at": "2026-07-14",
       "age": "84d",
-      "collected_at": "2026-10-06T10:15:16Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-07T08:37:28Z"
-    },
-    {
-      "id": "c6a653b0d2d7f311",
-      "company": "ByteDance",
-      "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern - CDN Platform 🎓",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "platform",
-      "country": "United States",
-      "location": "San Jose, CA",
-      "remote_type": "onsite",
-      "url": "https://jobs.bytedance.com/en/position/7673636205233490181/detail?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_internships",
-      "source_url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-      "posted_at": "2026-10-06",
-      "age": "1mo",
       "collected_at": "2026-10-06T10:15:16Z",
       "tags": [
         "software",
@@ -1275,30 +1995,6 @@
       "closed_at": "2026-10-07T01:31:21Z"
     },
     {
-      "id": "1d189997c9218173",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer New Grad - Commercial",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "NYC",
-      "remote_type": "onsite",
-      "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728/apply?utm_source=Simplify&ref=Simplify",
-      "source": "simplify_newgrad",
-      "source_url": "https://github.com/SimplifyJobs/New-Grad-Positions",
-      "posted_at": "2026-10-06",
-      "age": "3mo",
-      "collected_at": "2026-10-06T17:10:28Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-07T01:31:21Z"
-    },
-    {
       "id": "977b132fcfb3e725",
       "company": "Epic Games",
       "title": "Machine Learning Intern 🎓",
@@ -1369,150 +2065,6 @@
         "global-tech-roles"
       ],
       "closed_at": "2026-10-07T01:31:21Z"
-    },
-    {
-      "id": "48ee8669de04b69f",
-      "company": "Google",
-      "title": "Business Data Scientist Intern, PhD, Summer 2027",
-      "level": "internship",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/google-134577198026629830?s=gh-new-grad-data-science-jobs-2027",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-10-06",
-      "age": "0d",
-      "collected_at": "2026-10-06T21:36:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-06T21:36:59Z"
-    },
-    {
-      "id": "b31b36ecb6ccd384",
-      "company": "Google",
-      "title": "Data Scientist, Research Intern, PhD, Summer 2027",
-      "level": "internship",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "United States",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/google-89965613241246406?s=gh-new-grad-data-science-jobs-2027",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-10-06",
-      "age": "0d",
-      "collected_at": "2026-10-06T21:36:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-06T21:36:59Z"
-    },
-    {
-      "id": "31530f084ae12f1f",
-      "company": "ByteDance",
-      "title": "Site Reliability Engineer Intern (Data Infra) - 2027 Summer",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "Seattle, Washington",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/bytedance-7672922352988342533?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-10-06",
-      "age": "0d",
-      "collected_at": "2026-10-06T21:36:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-06T21:36:59Z"
-    },
-    {
-      "id": "5ca7148813bc9603",
-      "company": "ByteDance",
-      "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern (CDN Platform) - 2027 Summer",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "platform",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/bytedance-7673636205233490181?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-10-06",
-      "age": "0d",
-      "collected_at": "2026-10-06T21:36:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-06T21:36:59Z"
-    },
-    {
-      "id": "26bfba9fc2f1382c",
-      "company": "ByteDance",
-      "title": "Software Engineer Intern (Traffic Infrastructure) - 2027 Summer",
-      "level": "internship",
-      "category": "apac_tech",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "San Jose, California",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/bytedance-7672626707586746629?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-10-06",
-      "age": "0d",
-      "collected_at": "2026-10-06T21:36:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-06T21:36:59Z"
-    },
-    {
-      "id": "34f29c0022aad3e9",
-      "company": "Mastercard",
-      "title": "Data Engineer II",
-      "level": "mid_level",
-      "category": "fintech",
-      "region": "unknown",
-      "role_type": "machine_learning",
-      "country": "Unknown",
-      "location": "O'Fallon, Missouri",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-286580?s=gh-new-grad-data-science-jobs-2027",
-      "source": "zapplyjobs_datascience",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
-      "posted_at": "2026-10-06",
-      "age": "1w",
-      "collected_at": "2026-10-06T21:36:59Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ],
-      "closed_at": "2026-10-06T21:36:59Z"
     },
     {
       "id": "908dc42eba8b44e1",
