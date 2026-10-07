@@ -19,6 +19,7 @@
 #   Workable:          https://apply.workable.com/api/v1/widget/accounts/<slug>?details=true
 #   Teamtailor:        https://<host>/jobs.json
 #   Recruitera:        https://app.recruitera.ai/api/public/v1/<slug>/opportunities
+#   Jibe:              https://<host>/api/jobs?limit=5   (needs a browser User-Agent)
 # No Python changes are needed — scripts/public_sources.py reads this file automatically.
 
 ashby:
@@ -194,6 +195,16 @@ lever:
 #    (cursor-paged, 12/page); an unknown slug 404s. Add the <slug> under the
 #    `recruitera:` section below. Live: Paymob (Cairo fintech).
 #
+# 8. iCIMS Jibe (careers.<company>.com, `ng-app="jibeapply"`)  → SUPPORTED
+#    (fetch_jibe_jobs, added 2026-10-07). Keyless JSON API on the company's own
+#    domain: https://<host>/api/jobs?limit=100&page=N (100 is the max page
+#    size; an empty page ends the walk). Add the full <host> under the `jibe:`
+#    section below — a bare token is rejected since there is no shared
+#    subdomain to infer. The host sits behind Akamai: it 403s the tracker-bot
+#    User-Agent but serves a browser one (the fetcher sends one). To tell a
+#    site is Jibe: `curl -A "Mozilla/5.0" https://<host>/jobs/<id>` and look
+#    for `jibeapply`. Live: Schneider Electric (careers.se.com).
+#
 # To check a token:  python scripts/verify_extra_boards.py lever:<Slug>
 # A "⚠ couldn't reach …" line = your network blocked it, NOT a missing board.
 # ---------------------------------------------------------------------------
@@ -270,6 +281,13 @@ recruitera:
   # every company); an unknown slug 404s. Verify with:
   #   python scripts/verify_extra_boards.py recruitera:<slug>
   - paymob   # Paymob — Cairo, Egypt payments fintech (also UAE/KSA/Oman) — verified 2026-09-29, 73 postings incl. Backend Engineer / Senior Backend Engineer - Python
+
+jibe:
+  # iCIMS Jibe career sites — the value is the full careers host (the site is
+  # always on the company's own domain). One keyless GET per 100 rows on
+  # https://<host>/api/jobs. Verify with:
+  #   python scripts/verify_extra_boards.py jibe:<host>
+  - careers.se.com   # Schneider Electric — global industrial/energy-tech — verified 2026-10-07, 3,582 rows (6 languages) incl. embedded/firmware/software engineer roles across India/France/US/China
 
 workday:
   # Big global employers whose careers site is Workday but who never get

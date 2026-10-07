@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Verify Greenhouse / Lever / Ashby / SmartRecruiters / PinpointHQ / Workable /
-Recruitee / BambooHR / Freshteam / Teamtailor / Recruitera board tokens before they go into
+Recruitee / BambooHR / Freshteam / Teamtailor / Recruitera / Jibe board tokens before they go into
 config/extra_job_boards.yml.
 
 CLAUDE.md rule: never add a board token without confirming a real, non-empty
@@ -55,6 +55,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config" / "extra_job_boards.yml"
 UA = {"User-Agent": "tracker-bot/1.0 (board verification)"}
+# Jibe career sites sit behind Akamai, which 403s the bot UA above.
+BROWSER_UA = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+}
 TIMEOUT = 15
 
 # MENA / Gulf / North Africa re-check list. `--mena` runs these.
@@ -148,7 +153,7 @@ def _case_variants(token: str) -> list[str]:
 GREEN, RED, YELLOW, DIM, RESET = "\033[32m", "\033[31m", "\033[33m", "\033[2m", "\033[0m"
 
 
-def _get(url: str) -> tuple[int, object]:
+def _get(url: str, headers: dict | None = None) -> tuple[int, object]:
     """(status, parsed-json) — raises nothing.
 
     status is the real HTTP code, or -1 for a connection-level failure
@@ -156,7 +161,7 @@ def _get(url: str) -> tuple[int, object]:
     proxied network the request may never reach the API, and that must NOT be
     read as "board doesn't exist" — it's "can't tell from here".
     """
-    req = urllib.request.Request(url, headers=UA)
+    req = urllib.request.Request(url, headers=headers or UA)
     try:
         with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
             return resp.status, json.loads(resp.read().decode("utf-8", "replace"))
@@ -425,6 +430,23 @@ def check_recruitera(token: str) -> tuple[str, bool]:
     found = (body.get("meta") or {}).get("found") or len(rows)
     return f"{GREEN}✓ REAL — {token}, {found} postings{RESET}\n" + _sample(rows, "title", "location"), True
 
+
+def check_jibe(token: str) -> tuple[str, bool]:
+    """iCIMS Jibe career site. The token is the full careers host (e.g.
+    careers.se.com); keyless GET on /api/jobs returns {"jobs": [{"data": {…}}],
+    "totalCount": N}. Needs a browser User-Agent (Akamai 403s the bot one)."""
+    status, body = _get(f"https://{token}/api/jobs?limit=5", BROWSER_UA)
+    if status == -1:
+        return f"{YELLOW}⚠ couldn't reach {token} — network/proxy? not a verdict{RESET}", False
+    if status in (403, 404) or not isinstance(body, dict) or "jobs" not in body:
+        return f"{RED}✗ no Jibe board at {token} ({status}){RESET}", False
+    rows = [(r or {}).get("data") or {} for r in body.get("jobs") or []]
+    if not rows:
+        return f"{YELLOW}⚠ valid Jibe board at {token} but 0 postings — do NOT add{RESET}", False
+    total = body.get("totalCount") or len(rows)
+    return f"{GREEN}✓ REAL — {token}, {total} postings{RESET}\n" + _sample(rows, "title", "full_location"), True
+
+
 CHECKERS = {
     "greenhouse": check_greenhouse,
     "lever": check_lever,
@@ -437,6 +459,7 @@ CHECKERS = {
     "workable": check_workable,
     "teamtailor": check_teamtailor,
     "recruitera": check_recruitera,
+    "jibe": check_jibe,
 }
 
 
@@ -464,7 +487,7 @@ def tokens_from_config() -> list[tuple[str, str]]:
 # platform is real, but adding it needs a new fetcher first (Lane M3).
 PIPELINE_SUPPORTED = {
     "greenhouse", "lever", "ashby", "smartrecruiters", "pinpoint", "workable", "recruitee",
-    "bamboohr", "freshteam", "teamtailor", "recruitera",
+    "bamboohr", "freshteam", "teamtailor", "recruitera", "jibe",
 }
 
 
@@ -484,6 +507,7 @@ def _dump(plat: str, tok: str) -> int:
         "workable": f"https://apply.workable.com/api/v1/widget/accounts/{tok}?details=true",
         "teamtailor": "https://" + (tok if "." in tok else f"{tok}.teamtailor.com") + "/jobs.json",
         "recruitera": f"https://app.recruitera.ai/api/public/v1/{tok}/opportunities",
+        "jibe": f"https://{tok}/api/jobs?limit=3",
     }
     url = urls.get(plat)
     if not url:
@@ -491,7 +515,7 @@ def _dump(plat: str, tok: str) -> int:
         return 1
     if not url.startswith("http"):
         url = "https://" + url
-    status, body = _get(url)
+    status, body = _get(url, BROWSER_UA if plat == "jibe" else None)
     print(f"# {url}  (HTTP {status})")
 
     first = None

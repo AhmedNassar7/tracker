@@ -694,6 +694,96 @@ def main():
         tt_empty = mod.fetch_teamtailor_jobs("empty.teamtailor.com", "Empty Co")
     run("teamtailor: empty board → no rows, no raise", lambda: check("teamtailor empty", tt_empty == []))
 
+    # Jibe — /api/jobs is page-numbered ({jobs:[{data:{…}}], totalCount}); an
+    # empty page ends the walk. Translations are separate rows (own slug), the
+    # work-mode tag is `tags7`, `posted_date` is display text ("October 6, 2026").
+    def jibe_row(slug, title, **extra):
+        data = {
+            "slug": slug, "req_id": slug, "title": title, "language": "en-us",
+            "full_location": "Pune, India", "country_code": "IN",
+            "posted_date": "October 6, 2026", "create_date": "2026-10-06T14:21:20+0000",
+            "tags7": ["Hybrid"], "hiring_organization": "Acme Corp",
+            "description": "Build services in Go and PostgreSQL.",
+        }
+        data.update(extra)
+        return {"data": data}
+
+    jibe_pages = {
+        1: {"jobs": [
+            jibe_row("101", "Backend Software Engineer"),
+            jibe_row("102", "Regional Sales Manager"),
+            jibe_row("103", "Software Engineer (Remote)", tags7=["Remote"], full_location="Lyon, France"),
+        ]},
+        2: {"jobs": [
+            jibe_row("101", "Backend Software Engineer"),  # same slug repeated across pages
+            jibe_row("104", "Senior Backend Engineer", posted_date="", create_date="2026-09-01T00:00:00+0000"),
+        ]},
+        3: {"jobs": []},
+    }
+
+    def jibe_fake_fetch(failing_pages=()):
+        def fake(req, timeout):
+            page = int(req.full_url.rsplit("page=", 1)[1])
+            if page in failing_pages:
+                raise OSError(f"IncompleteRead on page {page}")
+            ua = req.get_header("User-agent") or ""
+            assert "Mozilla" in ua, f"Jibe must send a browser UA (Akamai 403s the bot one), got {ua!r}"
+            return 200, json.dumps(jibe_pages.get(page, {"jobs": []})).encode("utf-8")
+        return fake
+
+    with patch.object(mod, "fetch_with_retry", jibe_fake_fetch()):
+        jibe_rows = mod.fetch_jibe_jobs("careers.acme.com")
+    jibe_by_url = {r["url"]: r for r in jibe_rows}
+    run("jibe fetch: software filter, cross-page slug dedupe, url/company/source", lambda: check(
+        "jibe fetch",
+        sorted(jibe_by_url) == [
+            "https://careers.acme.com/jobs/101",
+            "https://careers.acme.com/jobs/103",
+            "https://careers.acme.com/jobs/104",
+        ]
+        and all(r["company"] == "Acme Corp" and r["source"] == "jibe:careers.acme.com" for r in jibe_rows),
+        details=str(sorted(jibe_by_url)),
+    ))
+    jibe_backend = jibe_by_url.get("https://careers.acme.com/jobs/101", {})
+    run("jibe fetch: location → region, posted_date text parsed, facets from description", lambda: check(
+        "jibe fields",
+        jibe_backend.get("location") == "Pune, India"
+        and jibe_backend.get("region") == "apac"
+        and jibe_backend.get("posted_at") == "2026-10-06"
+        and set(jibe_backend.get("tech_tags", [])) >= {"Go", "PostgreSQL"},
+        details=str(jibe_backend),
+    ))
+    run("jibe fetch: tags7 'Remote' appends (Remote) without clobbering the office region", lambda: check(
+        "jibe remote",
+        jibe_by_url["https://careers.acme.com/jobs/103"]["location"] == "Lyon, France (Remote)"
+        and jibe_by_url["https://careers.acme.com/jobs/103"]["region"] == "europe",
+        details=str(jibe_by_url["https://careers.acme.com/jobs/103"]),
+    ))
+    run("jibe fetch: empty posted_date falls back to ISO create_date", lambda: check(
+        "jibe date fallback", jibe_by_url["https://careers.acme.com/jobs/104"]["posted_at"] == "2026-09-01",
+    ))
+    # A page that fails (seen live: IncompleteRead mid-download) is skipped —
+    # the later pages must still be walked, not abandoned.
+    with patch.object(mod, "fetch_with_retry", jibe_fake_fetch(failing_pages={1})):
+        jibe_partial = mod.fetch_jibe_jobs("careers.acme.com")
+    run("jibe fetch: one failed page is skipped, later pages still contribute", lambda: check(
+        "jibe partial",
+        sorted(r["url"] for r in jibe_partial) == [
+            "https://careers.acme.com/jobs/101", "https://careers.acme.com/jobs/104",
+        ],
+        details=str([r["url"] for r in jibe_partial]),
+    ))
+    jibe_calls = []
+    def jibe_always_fail(req, timeout):
+        jibe_calls.append(req.full_url)
+        raise OSError("down")
+    with patch.object(mod, "fetch_with_retry", jibe_always_fail):
+        jibe_down = mod.fetch_jibe_jobs("careers.acme.com")
+    run("jibe fetch: host down → gives up after 3 consecutive failures, no raise", lambda: check(
+        "jibe down", jibe_down == [] and len(jibe_calls) == mod.JIBE_MAX_CONSECUTIVE_FAILURES,
+        details=f"calls={len(jibe_calls)}",
+    ))
+
     # Recruitera — /opportunities is cursor-paged ({data, meta.next_cursor});
     # software rows get a per-job /jobs/<slug> detail call for published_at,
     # ISO country code, description (Recruitera's own [b]/[li] markup), and
@@ -874,6 +964,7 @@ def main():
             "freshteam:\n  - locus  # Bengaluru\n\n"
             "teamtailor:\n  - axisapp  # Cairo\n  - careers.naseej.com  # custom domain\n\n"
             "recruitera:\n  - paymob  # Cairo\n\n"
+            "jibe:\n  - careers.se.com  # Schneider\n  - bareword  # no dot → rejected\n\n"
             "workday:\n  - Salesforce | salesforce.wd12.myworkdayjobs.com | External_Career_Site  # 527 SWE results\n"
             "  - bad workday line with no pipes\n",
             encoding="utf-8",
@@ -906,6 +997,9 @@ def main():
         ))
         run("load extra job boards config parses recruitera slugs", lambda: check(
             "recruitera section parsed", boards["recruitera"] == ["paymob"], details=str(boards["recruitera"]),
+        ))
+        run("load extra job boards config parses jibe hosts and rejects a bare token", lambda: check(
+            "jibe section parsed", boards["jibe"] == ["careers.se.com"], details=str(boards["jibe"]),
         ))
         run("workday section parses 'Company | host | site' triples and skips malformed lines", lambda: check(
             "workday triples parsed",

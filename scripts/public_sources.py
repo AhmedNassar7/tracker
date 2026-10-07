@@ -23,6 +23,7 @@ to widen coverage:
 - Freshteam public careers page — HTML scrape, no JSON API exists (companies listed in
   config/extra_job_boards.yml)
 - Recruitera public careers API (companies listed in config/extra_job_boards.yml)
+- iCIMS Jibe career-site API (hosts listed in config/extra_job_boards.yml)
 """
 
 from __future__ import annotations
@@ -1001,6 +1002,120 @@ def fetch_recruitera_jobs(slug, company_name):
     return jobs
 
 
+# iCIMS "Jibe" career sites (careers.se.com, …) sit behind Akamai, which 403s
+# the shared tracker-bot User-Agent but serves a browser one.
+JIBE_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+)
+# The API caps a page at 100 rows (limit=200 returns an error body) and
+# answers an out-of-range page with an empty `jobs` list. Schneider's board is
+# ~3.6k rows across six languages = 36 pages, so 60 is a runaway guard only.
+JIBE_PAGE_SIZE = 100
+JIBE_MAX_PAGES = 60
+JIBE_MAX_CONSECUTIVE_FAILURES = 3
+
+
+def _jibe_posted_date(data):
+    """Jibe's `posted_date` is display text ("October 6, 2026"); `create_date`
+    is ISO. Prefer the former (what the careers page shows), fall back."""
+    text = (data.get("posted_date") or "").strip()
+    if text:
+        try:
+            return datetime.datetime.strptime(text, "%B %d, %Y").date().isoformat()
+        except ValueError:
+            pass
+    return parse_iso_date(data.get("create_date") or "")
+
+
+def fetch_jibe_jobs(host):
+    """iCIMS Jibe career site — a custom-domain SPA (`ng-app="jibeapply"`)
+    backed by a keyless JSON API: GET https://<host>/api/jobs?limit=100&page=N
+    returns {jobs:[{data:{…}}], totalCount, count}; walk pages until one comes
+    back empty. `host` is the full careers host, e.g. careers.se.com. Confirmed
+    live 2026-10-07 against careers.se.com (Schneider Electric, 3,582 rows).
+
+    Each row carries slug/req_id, title, a full HTML-free `description`,
+    `full_location`/`country_code`, `posted_date`, and a work-mode tag in
+    `tags7` ("Onsite"/"Hybrid"/"Remote", localized on non-English rows). The
+    feed mixes every language the company posts in; translations are separate
+    postings with their own slug, so none are dropped here — the software
+    title filter alone decides. The public job page is https://<host>/jobs/<slug>.
+    """
+    api_url = f"https://{host}/api/jobs"
+    headers = {"User-Agent": JIBE_USER_AGENT, "Accept": "application/json"}
+    rows, seen = [], set()
+    failed_pages, consecutive_failures = [], 0
+    for page in range(1, JIBE_MAX_PAGES + 1):
+        try:
+            req = urllib.request.Request(f"{api_url}?limit={JIBE_PAGE_SIZE}&page={page}", headers=headers)
+            _status, body = fetch_with_retry(req, 25)
+            payload = json.loads(body.decode("utf-8", errors="replace"))
+        except Exception as exc:
+            # A page is ~1.8MB on a big board and one can drop mid-download
+            # even after retries (seen live: IncompleteRead on page 20 of 36).
+            # Skip it rather than abandon every later page; only a run of
+            # consecutive failures means the host is really down.
+            log_warn(f"Jibe fetch failed for {host} (page {page}): {exc}")
+            failed_pages.append(page)
+            consecutive_failures += 1
+            if consecutive_failures >= JIBE_MAX_CONSECUTIVE_FAILURES:
+                break
+            continue
+        consecutive_failures = 0
+        page_rows = (payload.get("jobs") or []) if isinstance(payload, dict) else []
+        if not page_rows:
+            break
+        for item in page_rows:
+            data = item.get("data") or {}
+            slug = str(data.get("slug") or data.get("req_id") or "")
+            if slug and slug not in seen:
+                seen.add(slug)
+                rows.append(data)
+    if failed_pages:
+        log_warn(f"Jibe {host}: skipped {len(failed_pages)} failed page(s) {failed_pages} — those rows are missing this run")
+
+    jobs = []
+    for data in rows:
+        title = clean_text(data.get("title") or "")
+        slug = str(data.get("slug") or data.get("req_id") or "")
+        if not (title and slug) or not is_software_job(title):
+            continue
+        url = f"https://{host}/jobs/{quote(slug)}"
+        base_location = clean_text(data.get("full_location") or data.get("location_name") or "")
+        # Region from the office location BEFORE any "(Remote)" suffix, same
+        # rule as PinpointHQ/Workable/Recruitee/BambooHR/Recruitera.
+        region = detect_region(base_location) if base_location else "unknown"
+        location = base_location
+        work_mode = " ".join(data.get("tags7") or []).lower()
+        if "remote" in work_mode and "remote" not in base_location.lower():
+            location = f"{base_location} (Remote)".strip() if base_location else "Remote"
+            if region == "unknown":
+                region = "remote"
+        posted_at = _jibe_posted_date(data)
+        description = clean_text(" ".join(filter(None, (
+            data.get("description"), data.get("responsibilities"), data.get("qualifications"),
+        ))))
+        job = {
+            "id": make_id("jibe", host, title, url),
+            "kind": "job",
+            "company": clean_text(data.get("hiring_organization") or "") or prettify_company_name(host.split(".")[-2]),
+            "title": title,
+            "location": location,
+            "level": detect_level(title),
+            "region": region,
+            "role_type": detect_role_type(title),
+            "date": format_age_from_date(posted_at),
+            "posted_at": posted_at,
+            "url": url,
+            "source": f"jibe:{host}",
+            "source_url": f"https://{host}/jobs",
+        }
+        job.update(job_facets(title, base_location, description))
+        jobs.append(job)
+    return jobs
+
+
 def fetch_smartrecruiters_jobs(company_slug, company_name):
     api_url = f"https://api.smartrecruiters.com/v1/companies/{company_slug}/postings?limit=100"
     try:
@@ -1185,6 +1300,7 @@ def load_extra_job_boards():
         "ashby": [], "smartrecruiters": [], "greenhouse": [], "lever": [],
         "workday": [], "pinpoint": [], "workable": [], "recruitee": [],
         "bamboohr": [], "freshteam": [], "teamtailor": [], "recruitera": [],
+        "jibe": [],
     }
     if not path.exists():
         return boards
@@ -1223,6 +1339,13 @@ def load_extra_job_boards():
                     # with a dot is a full custom careers host (e.g. Naseej's
                     # careers.naseej.com, which fronts Teamtailor).
                     boards["teamtailor"].append(token if "." in token else f"{token}.teamtailor.com")
+                elif section == "jibe":
+                    # Jibe sites live on the company's own domain — there is
+                    # no shared subdomain to infer from a bare token.
+                    if "." in token:
+                        boards["jibe"].append(token)
+                    else:
+                        log_warn(f"extra_job_boards.yml: jibe entry {token!r} needs a full host (e.g. careers.se.com)")
                 else:
                     boards[section].append(token)
     except Exception as exc:
@@ -1968,6 +2091,13 @@ def main():
             [(slug, prettify_company_name(slug.replace("-", " "))) for slug in extra_boards["recruitera"]],
             max_workers=SHARED_HOST_WORKERS,
         ))
+
+    # Jibe (config only). Each board is its own company-owned host, so no
+    # shared-host cap — but one board is ~36 sequential pages, so the
+    # parallelism is across boards, not within one.
+    if extra_boards["jibe"]:
+        log_info(f"Loaded {len(extra_boards['jibe'])} Jibe boards from config")
+        rows.extend(_run_concurrently(fetch_jibe_jobs, [(host,) for host in extra_boards["jibe"]]))
 
     rows = dedupe(rows)
     write_outputs(rows)
