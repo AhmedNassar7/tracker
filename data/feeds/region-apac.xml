@@ -4,12 +4,47 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Fri, 09 Oct 2026 02:10:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 09:04:05 GMT</lastBuildDate>
+    <item>
+      <title>Apple — SAP Security Engineer - SAP Cybersecurity</title>
+      <link>https://jobs.apple.com/en-us/details/200685831/sap-security-engineer-sap-cybersecurity</link>
+      <guid isPermaLink="false">9206c6f722c72b5f</guid>
+      <description>Shanghai, China · unknown · 0d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple — Security Software Engineer - Platform and Frameworks</title>
+      <link>https://jobs.apple.com/en-us/details/200658703/security-software-engineer-platform-and-frameworks</link>
+      <guid isPermaLink="false">6d77b7c059bf4ee5</guid>
+      <description>Minato, Japan · unknown · 0d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple — Software Development Engineer in Test, Retail Engineering</title>
+      <link>https://jobs.apple.com/en-us/details/200686536/software-development-engineer-in-test-retail-engineering</link>
+      <guid isPermaLink="false">138473ce400af4c4</guid>
+      <description>Hyderabad, India · unknown · 0d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Back-end Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8187819</link>
+      <guid isPermaLink="false">76396ae3b7979db4</guid>
+      <description>Hyderabad · mid_level · 0d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Schneider Electric — Digital Platform Champion</title>
       <link>https://careers.se.com/jobs/137656</link>
       <guid isPermaLink="false">92811e26298975a1</guid>
       <description>Cavite, Philippines · other · 0d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tamara — Senior Product Engineer - Backend</title>
+      <link>https://job-boards.eu.greenhouse.io/tamara/jobs/4709605101</link>
+      <guid isPermaLink="false">953162380dd65892</guid>
+      <description>India · mid_level · 0d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -119,16 +154,16 @@
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8178900</link>
-      <guid isPermaLink="false">2e381c31aad91b15</guid>
-      <description>Bengaluru · mid_level · 1d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8020377</link>
+      <guid isPermaLink="false">518b5aa3f7de9d68</guid>
+      <description>Sydney · mid_level · 1d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8020377</link>
-      <guid isPermaLink="false">518b5aa3f7de9d68</guid>
-      <description>Sydney · mid_level · 1d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8178900</link>
+      <guid isPermaLink="false">2e381c31aad91b15</guid>
+      <description>Bengaluru · mid_level · 1d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -154,15 +189,8 @@
     </item>
     <item>
       <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8083366</link>
-      <guid isPermaLink="false">86cc509ce14125f1</guid>
-      <description>Gurugram · other · 1d</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7993984</link>
-      <guid isPermaLink="false">e4c7a324b57cb782</guid>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8208074</link>
+      <guid isPermaLink="false">c64ab765bd23d6d4</guid>
       <description>Gurugram · other · 1d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -182,8 +210,15 @@
     </item>
     <item>
       <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8208074</link>
-      <guid isPermaLink="false">c64ab765bd23d6d4</guid>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8083366</link>
+      <guid isPermaLink="false">86cc509ce14125f1</guid>
+      <description>Gurugram · other · 1d</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7993984</link>
+      <guid isPermaLink="false">e4c7a324b57cb782</guid>
       <description>Gurugram · other · 1d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -227,13 +262,6 @@
       <link>https://www.mongodb.com/careers/job/?gh_jid=8194603</link>
       <guid isPermaLink="false">96d70e2b466533b6</guid>
       <description>Sydney · other · 1d</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Backend Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8212853?gh_jid=8212853</link>
-      <guid isPermaLink="false">139488115c623083</guid>
-      <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -615,13 +643,6 @@
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8187819</link>
-      <guid isPermaLink="false">76396ae3b7979db4</guid>
-      <description>Hyderabad · mid_level · 4d</description>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coupang — Staff Backend Engineer (Orchestration Platform)</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8168878</link>
       <guid isPermaLink="false">c28d91a5d951cb31</guid>
@@ -840,16 +861,16 @@
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7953042</link>
-      <guid isPermaLink="false">64d5cc2532e89965</guid>
-      <description>Hyderabad · mid_level · 8d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8059287</link>
+      <guid isPermaLink="false">6e8fbe8a0d9f2e5d</guid>
+      <description>Bengaluru; Hyderabad · mid_level · 8d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8059287</link>
-      <guid isPermaLink="false">6e8fbe8a0d9f2e5d</guid>
-      <description>Bengaluru; Hyderabad · mid_level · 8d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7953042</link>
+      <guid isPermaLink="false">64d5cc2532e89965</guid>
+      <description>Hyderabad · mid_level · 8d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -903,15 +924,15 @@
     </item>
     <item>
       <title>Coupang — Sr. Director, Back-End Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118859</link>
-      <guid isPermaLink="false">4c63e9a34c143091</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118861</link>
+      <guid isPermaLink="false">dcedf4c9c8a0c807</guid>
       <description>Seoul, South Korea · mid_level · 8d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Sr. Director, Back-End Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118861</link>
-      <guid isPermaLink="false">dcedf4c9c8a0c807</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118859</link>
+      <guid isPermaLink="false">4c63e9a34c143091</guid>
       <description>Seoul, South Korea · mid_level · 8d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -931,22 +952,15 @@
     </item>
     <item>
       <title>Coupang — Sr.Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7948499</link>
-      <guid isPermaLink="false">08663e102caa2726</guid>
-      <description>Hyderabad · mid_level · 8d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Sr.Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=7925105</link>
       <guid isPermaLink="false">51983b44cc6d9e55</guid>
       <description>Hyderabad · mid_level · 8d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
-      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
+      <title>Coupang — Sr.Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7948499</link>
+      <guid isPermaLink="false">08663e102caa2726</guid>
       <description>Hyderabad · mid_level · 8d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -954,6 +968,13 @@
       <title>Coupang — Staff Back-end Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
       <guid isPermaLink="false">b09f34f6077eca0a</guid>
+      <description>Hyderabad · mid_level · 8d</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Back-end Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
+      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
       <description>Hyderabad · mid_level · 8d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1483,20 +1504,6 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Apple — Full Stack Developer, Enterprise Systems</title>
-      <link>https://jobs.apple.com/en-us/details/200685355/full-stack-developer-enterprise-systems</link>
-      <guid isPermaLink="false">73b7a5188a3cfb43</guid>
-      <description>Shanghai, China · unknown · 15d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Site Reliability Engineer, Enterprise Technology Services</title>
-      <link>https://jobs.apple.com/en-us/details/200685594/site-reliability-engineer-enterprise-technology-services</link>
-      <guid isPermaLink="false">ec138c605eac1ac5</guid>
-      <description>Singapore · unknown · 15d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Apple — Software Engineer - Cloud Services Engineering</title>
       <link>https://jobs.apple.com/en-us/details/200685583/software-engineer-cloud-services-engineering</link>
       <guid isPermaLink="false">f42e4b89cc8aaf17</guid>
@@ -1939,15 +1946,15 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Ingestion</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002</link>
-      <guid isPermaLink="false">804d4ef9c1560c7d</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002</link>
+      <guid isPermaLink="false">6ea1b1d0cdebc630</guid>
       <description>Bengaluru, India · mid_level · 18d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Ingestion</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002</link>
-      <guid isPermaLink="false">6ea1b1d0cdebc630</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002</link>
+      <guid isPermaLink="false">804d4ef9c1560c7d</guid>
       <description>Bengaluru, India · mid_level · 18d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2016,8 +2023,8 @@
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955</link>
-      <guid isPermaLink="false">cb9266ad97c9c850</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
+      <guid isPermaLink="false">d287749893376873</guid>
       <description>Bengaluru, India · mid_level · 18d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2030,8 +2037,8 @@
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
-      <guid isPermaLink="false">d287749893376873</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955</link>
+      <guid isPermaLink="false">cb9266ad97c9c850</guid>
       <description>Bengaluru, India · mid_level · 18d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2177,15 +2184,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016</link>
-      <guid isPermaLink="false">1b7920aa8efcc92e</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046</link>
+      <guid isPermaLink="false">989b7ab2d0af515b</guid>
       <description>Bengaluru, India · mid_level · 18d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046</link>
-      <guid isPermaLink="false">989b7ab2d0af515b</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016</link>
+      <guid isPermaLink="false">1b7920aa8efcc92e</guid>
       <description>Bengaluru, India · mid_level · 18d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2645,13 +2652,6 @@
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Amazon Fulfilment Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10499857/software-development-engineer-amazon-fulfilment-tech</link>
-      <guid isPermaLink="false">54fffe0d99f30d36</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 58d</description>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Cohere — Forward Deployed Engineer, Infrastructure Specialist (Singapore)</title>
       <link>https://jobs.ashbyhq.com/cohere/e88931c0-d3fa-4e81-accc-45db823ea616</link>
       <guid isPermaLink="false">603b0b84a350dd67</guid>
@@ -3086,87 +3086,21 @@
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Expedia Group — Principal Software Development Engineer</title>
-      <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Bangalore/Principal-Software-Development-Engineer_R-108259-2</link>
-      <guid isPermaLink="false">8bc16b59d8c37ce8</guid>
-      <description>India - Bangalore · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Intel — AI Framework Software Engineer - vLLM</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Framework-Software-Engineer---vLLM_JR0286412</link>
-      <guid isPermaLink="false">951243bd59fd0fd2</guid>
-      <description>PRC, Shanghai · other · 0d</description>
-    </item>
-    <item>
-      <title>Intel — AI Framework Software Engineer – SGlang &amp; Kernels</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Framework-Software-Engineer---SGlang---Kernels_JR0286405</link>
-      <guid isPermaLink="false">c964e8d4e86a12c6</guid>
-      <description>PRC, Shanghai · other · 0d</description>
-    </item>
-    <item>
       <title>Intel — AI Software Engineering Graduate Intern</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Software-Engineering-Graduate-Intern_JR0287917</link>
       <guid isPermaLink="false">c30fc8ceebfd96e4</guid>
       <description>PRC, Shanghai +1 more · internship · 0d</description>
     </item>
     <item>
-      <title>Intel — GPU Software Development Engineer</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/India-Bangalore/GPU-Software-Development-Engineer_JR0287724</link>
-      <guid isPermaLink="false">36b536320c7ffffb</guid>
-      <description>India, Bangalore · other · 0d</description>
+      <title>Intel — Foundry New Deal Ops Integration Lead (Backend Logistics)</title>
+      <link>https://intel.wd1.myworkdayjobs.com/external/job/Malaysia-Penang/Foundry-New-Deal-Ops-Integration-Lead--Backend-Logistics-_JR0287746</link>
+      <guid isPermaLink="false">77531a3af598b730</guid>
+      <description>Malaysia, Penang · mid_level · 0d</description>
     </item>
     <item>
-      <title>Intel — Software Development Engineer</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/PRC-Chengdu/Software-Development-Engineer_JR0285592</link>
-      <guid isPermaLink="false">e7061f847ef1ae41</guid>
-      <description>PRC, Chengdu +1 more · other · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vadodara-India/Lead-Software-Engineer_R-293059</link>
-      <guid isPermaLink="false">c824ef31aafde101</guid>
-      <description>Vadodara, India · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Lead Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-291665</link>
-      <guid isPermaLink="false">2aba7a5b907d00bb</guid>
-      <description>Pune, India · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Manager, Software Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering_R-292142</link>
-      <guid isPermaLink="false">e0b9ca570b80f524</guid>
-      <description>Pune, India · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-286291</link>
-      <guid isPermaLink="false">f4953e7cfa777307</guid>
-      <description>Pune, India · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292939-1</link>
-      <guid isPermaLink="false">00c0fd92c8a6c147</guid>
-      <description>Pune, India · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292799</link>
-      <guid isPermaLink="false">37dc145dea174cc4</guid>
-      <description>Pune, India · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292501</link>
-      <guid isPermaLink="false">90466c1dd3db332a</guid>
-      <description>Pune, India · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior software engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-software-engineer_R-290601</link>
-      <guid isPermaLink="false">1e72b2fae6dc87ed</guid>
+      <title>Mastercard — Lead Cloud Infrastructure Architect / Engineer (Azure, DevOps, Kubernetes, Terraform)</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Cloud-Infrastructure-Architect---Engineer--Azure--DevOps--Kubernetes--Terraform-_R-292934</link>
+      <guid isPermaLink="false">46fc8173b3bc199f</guid>
       <description>Pune, India · mid_level · 0d</description>
     </item>
     <item>
@@ -3182,148 +3116,214 @@
       <description>Sydney · other · 0d</description>
     </item>
     <item>
+      <title>Tencent — Software Engineer II</title>
+      <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Software-Engineer-II_R108225</link>
+      <guid isPermaLink="false">f34ca55ae3cc5d86</guid>
+      <description>Singapore-CapitaSky · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>Tencent — Sr. AI infra engineer</title>
+      <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Sr-AI-infra-engineer_R108222</link>
+      <guid isPermaLink="false">5e838086c84ad7e6</guid>
+      <description>Singapore-CapitaSky · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>Visa — Staff Data Platform Engineer (AWS, Databricks, Azure, IaC, Solution Architect, Devops, Java/Python, 6 - 10 Years)</title>
+      <link>https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Staff-Data-Platform-Engineer--AWS--Databricks--Azure--IaC--Solution-Architect--Java-Python--6---10-Years-_REF087358W-1</link>
+      <guid isPermaLink="false">3be29f5e82b48946</guid>
+      <description>IN - Bengaluru, India · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>Expedia Group — Principal Software Development Engineer</title>
+      <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Bangalore/Principal-Software-Development-Engineer_R-108259-2</link>
+      <guid isPermaLink="false">8bc16b59d8c37ce8</guid>
+      <description>India - Bangalore · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Intel — AI Framework Software Engineer – SGlang &amp; Kernels</title>
+      <link>https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Framework-Software-Engineer---SGlang---Kernels_JR0286405</link>
+      <guid isPermaLink="false">c964e8d4e86a12c6</guid>
+      <description>PRC, Shanghai · other · 1d</description>
+    </item>
+    <item>
+      <title>Intel — GPU Software Development Engineer</title>
+      <link>https://intel.wd1.myworkdayjobs.com/external/job/India-Bangalore/GPU-Software-Development-Engineer_JR0287724</link>
+      <guid isPermaLink="false">36b536320c7ffffb</guid>
+      <description>India, Bangalore · other · 1d</description>
+    </item>
+    <item>
+      <title>Intel — Software Development Engineer</title>
+      <link>https://intel.wd1.myworkdayjobs.com/external/job/PRC-Chengdu/Software-Development-Engineer_JR0285592</link>
+      <guid isPermaLink="false">e7061f847ef1ae41</guid>
+      <description>PRC, Chengdu +1 more · other · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Lead Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vadodara-India/Lead-Software-Engineer_R-293059</link>
+      <guid isPermaLink="false">c824ef31aafde101</guid>
+      <description>Vadodara, India · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Lead Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-291665</link>
+      <guid isPermaLink="false">2aba7a5b907d00bb</guid>
+      <description>Pune, India · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Manager, Software Engineering</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering_R-292142</link>
+      <guid isPermaLink="false">e0b9ca570b80f524</guid>
+      <description>Pune, India · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-286291</link>
+      <guid isPermaLink="false">f4953e7cfa777307</guid>
+      <description>Pune, India · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292939-1</link>
+      <guid isPermaLink="false">00c0fd92c8a6c147</guid>
+      <description>Pune, India · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292799</link>
+      <guid isPermaLink="false">37dc145dea174cc4</guid>
+      <description>Pune, India · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292501</link>
+      <guid isPermaLink="false">90466c1dd3db332a</guid>
+      <description>Pune, India · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior software engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-software-engineer_R-290601</link>
+      <guid isPermaLink="false">1e72b2fae6dc87ed</guid>
+      <description>Pune, India · mid_level · 1d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior CUDA Test Development Software Engineer, SDET</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-CUDA-Test-Development-Software-Engineer--SDET_JR2019136</link>
       <guid isPermaLink="false">7c9336779cfc7866</guid>
-      <description>China, Shanghai · mid_level · 0d</description>
+      <description>China, Shanghai · mid_level · 1d</description>
     </item>
     <item>
       <title>PwC — Tax - Digital Tax (Infrastructure) Off-Cycle Internship (Jan - Jun 27)</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Tax---Digital-Tax--Business-Data-Analytics--Off-Cycle-Internship--Jan---Jun-27-_743507WD</link>
       <guid isPermaLink="false">63d0aec7de90af36</guid>
-      <description>Singapore · internship · 0d</description>
-    </item>
-    <item>
-      <title>Salesforce — Software Engineer SMTS</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineer-SMTS_JR338173</link>
-      <guid isPermaLink="false">b0ae87f934d219d1</guid>
-      <description>India - Hyderabad · other · 0d</description>
-    </item>
-    <item>
-      <title>Salesforce — Software Engineering LMTS - Backend Distributed Systems</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS_JR338174</link>
-      <guid isPermaLink="false">6aac2aa1147c2989</guid>
-      <description>India - Bangalore +1 more · other · 0d</description>
+      <description>Singapore · internship · 1d</description>
     </item>
     <item>
       <title>Visa — Sr. Software Engineer – Full Stack &amp; ServiceNow (React, Node.js, Python, ITSM, 4-6 years)</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer---Full-Stack---ServiceNow--React--Nodejs--Python--ITSM--4-6-years-_REF089018W-1</link>
       <guid isPermaLink="false">924d81f07f0ec3eb</guid>
-      <description>IN - Bengaluru, India · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Mastercard — Manager, Software Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering_R-292287-1</link>
-      <guid isPermaLink="false">57e66090f10bda55</guid>
-      <description>Pune, India · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>Mastercard — Principal Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Principal-Software-Engineer_R-292828</link>
-      <guid isPermaLink="false">731274d8e44831b9</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>IN - Bengaluru, India · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292290</link>
       <guid isPermaLink="false">b376e7839c23f1d2</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>Pune, India · mid_level · 2d</description>
     </item>
     <item>
       <title>Visa — Staff SW Engineer (10-12 years' exp - .NET Core / Backend Engineer with AI-First Development Approach)</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Staff-SW-Engineer--10-12-years--exp---Net-Core---Java---Python--RAG--MCP-_REF087081W-1</link>
       <guid isPermaLink="false">d1c98ef9fa8e7ff0</guid>
-      <description>IN - Bengaluru, India · mid_level · 1d</description>
+      <description>IN - Bengaluru, India · mid_level · 2d</description>
     </item>
     <item>
       <title>Expedia Group — Principal Mobile Engineer (iOS)</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Gurgaon/Principal-Mobile-Engineer--iOS-_R-100866</link>
       <guid isPermaLink="false">36c494d13e1f3ccd</guid>
-      <description>India - Gurgaon · mid_level · 2d</description>
+      <description>India - Gurgaon · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior Software Engineer</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Hyderabad---Phoenix-Equinox-Tower-2/Senior-Software-Engineer---Java---Consumer-Team---Hyderabad_R000106023</link>
       <guid isPermaLink="false">89edbf7728a45108</guid>
-      <description>Hyderabad - Phoenix Equinox Tower 2 · mid_level · 2d</description>
+      <description>Hyderabad - Phoenix Equinox Tower 2 · mid_level · 3d</description>
     </item>
     <item>
       <title>Workday — Associate Site Reliability Engineer (SRE) - Multicloud Platform</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Associate-Site-Reliability-Engineer--SRE----Multicloud-Platform_JR-0110615</link>
       <guid isPermaLink="false">b592ddd09ac9d08e</guid>
-      <description>New Zealand, Auckland · entry_level · 2d</description>
+      <description>New Zealand, Auckland · entry_level · 3d</description>
     </item>
     <item>
       <title>Workday — Senior Site Reliability Engineer</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Senior-Site-Reliability-Engineer_JR-0109951-1</link>
       <guid isPermaLink="false">e2f258f0cffe51df</guid>
-      <description>New Zealand, Auckland · mid_level · 2d</description>
+      <description>New Zealand, Auckland · mid_level · 3d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/INDChennai/Software-Development-Engineer_JR-0110318</link>
       <guid isPermaLink="false">501ba39cf52bc63e</guid>
-      <description>IND.Chennai · other · 2d</description>
+      <description>IND.Chennai · other · 3d</description>
     </item>
     <item>
       <title>Tencent — Backend Engineer Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Backend-Engineer-Intern_R108219</link>
       <guid isPermaLink="false">a849e499f13a9b0d</guid>
-      <description>Singapore-CapitaSky · internship · 3d</description>
+      <description>Singapore-CapitaSky · internship · 4d</description>
     </item>
     <item>
       <title>Tencent — Site Reliability Engineer Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Site-Reliability-Engineer-Intern_R108220</link>
       <guid isPermaLink="false">533c1e2eaeef2260</guid>
-      <description>Singapore-CapitaSky · internship · 3d</description>
+      <description>Singapore-CapitaSky · internship · 4d</description>
     </item>
     <item>
       <title>Expedia Group — Principal Software Development Engineer, GenAI Platform</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Gurgaon/Principal-Software-Development-Engineer--GenAI-Platform_R-109400-2</link>
       <guid isPermaLink="false">184f4effb3a2c3d7</guid>
-      <description>India - Gurgaon · mid_level · 9d</description>
+      <description>India - Gurgaon · mid_level · 10d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Manager, Software Development Engineering</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Bangalore/Senior-Manager--Software-Development-Engineering_R-108526-2</link>
       <guid isPermaLink="false">b3de06038cb8e9d9</guid>
-      <description>India - Bangalore · mid_level · 9d</description>
+      <description>India - Bangalore · mid_level · 10d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II - (Front End)</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Gurgaon/Software-Development-Engineer-II----Front-End-_R-107079</link>
       <guid isPermaLink="false">2abf855c4dc645c8</guid>
-      <description>India - Gurgaon · mid_level · 14d</description>
+      <description>India - Gurgaon · mid_level · 15d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Manager, Software Development Engineering</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Bangalore/Senior-Manager--Software-Development-Engineering_R-108573-2</link>
       <guid isPermaLink="false">db60a2040e5f80d9</guid>
-      <description>India - Bangalore · mid_level · 16d</description>
+      <description>India - Bangalore · mid_level · 17d</description>
     </item>
     <item>
       <title>Expedia Group — Principal Software Development Engineer</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Gurgaon/Principal-Software-Development-Engineer_R-108883-2</link>
       <guid isPermaLink="false">cd1ec477ebf977ec</guid>
-      <description>India - Gurgaon · mid_level · 21d</description>
+      <description>India - Gurgaon · mid_level · 22d</description>
     </item>
     <item>
       <title>Tencent — Tencent Cloud - Edge Platform Product Solutions Architecture Intern - Singapore</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Tencent-Cloud---Edge-Platform-Product-Solutions-Architecture-Intern---Singapore_R107927</link>
       <guid isPermaLink="false">b04914868a2d2774</guid>
-      <description>Singapore-CapitaSky · internship · 21d</description>
+      <description>Singapore-CapitaSky · internship · 22d</description>
     </item>
     <item>
       <title>Tencent — Backend Development Intern (6 months)</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Backend-Development-Intern--6-months-_R108169</link>
       <guid isPermaLink="false">947c5adac492a8f0</guid>
-      <description>Singapore-CapitaSky · internship · 23d</description>
+      <description>Singapore-CapitaSky · internship · 24d</description>
     </item>
     <item>
       <title>Netflix — Head of Character Effects (CFX) - Netflix Animation Studios</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Sydney/Head-of-Character-Effects--CFX-_JR41810</link>
       <guid isPermaLink="false">09aa1c395ea42295</guid>
-      <description>Sydney · mid_level · 26d</description>
+      <description>Sydney · mid_level · 27d</description>
     </item>
     <item>
       <title>Mastercard — Software Engineer Intern, Summer 2027 - Singapore</title>
