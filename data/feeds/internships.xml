@@ -4,12 +4,26 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Fri, 09 Oct 2026 02:10:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 09:04:05 GMT</lastBuildDate>
     <item>
       <title>Roblox — Data Scientist PhD Intern 🎓</title>
       <link>https://careers.roblox.com/jobs/8242619?gh_jid=8242619&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">9df3c783d8dc0b7d</guid>
       <description>San Mateo, CA · internship · 0d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase — Data Engineer Intern</title>
+      <link>https://zapply.jobs/l/d/greenhouse-coinbase-8175459?s=gh-new-grad-data-science-jobs-2027</link>
+      <guid isPermaLink="false">ecf618bd9df4f02f</guid>
+      <description>Hybrid - San Francisco, CA · internship · 1mo</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Roblox — [Summer 2027] Software Engineer Intern</title>
+      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713</link>
+      <guid isPermaLink="false">878d4c84133197a9</guid>
+      <description>San Mateo, CA, United States · internship · 0d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -76,20 +90,6 @@
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Roblox — [Summer 2027] Software Engineer Intern</title>
-      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713</link>
-      <guid isPermaLink="false">878d4c84133197a9</guid>
-      <description>San Mateo, CA, United States · internship · 1d</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta — Data Scientist Intern - Product Analytics</title>
-      <link>https://www.metacareers.com/jobs/929757023499411?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">c6f8211cc190b9bf</guid>
-      <description>Menlo Park, CA · internship · 2d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Lyft — PhD Machine Learning Software Engineer Intern - Summer 2027</title>
       <link>https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002</link>
       <guid isPermaLink="false">83afe64295a927dd</guid>
@@ -122,6 +122,13 @@
       <link>https://zapply.jobs/l/d/amazon-5a060689-3583-45e9-89b8-8786e6a2f16f?s=gh-internships-2027</link>
       <guid isPermaLink="false">03371dafc977700d</guid>
       <description>Redmond, WA · internship · 2d</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta — Data Scientist Intern - Product Analytics</title>
+      <link>https://www.metacareers.com/jobs/929757023499411?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">c6f8211cc190b9bf</guid>
+      <description>Menlo Park, CA · internship · 2d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -203,6 +210,13 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
+      <guid isPermaLink="false">c3b11892340bdad3</guid>
+      <description>Toronto · internship · 2d</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
       <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
       <guid isPermaLink="false">bbe14083e01b613a</guid>
       <description>San Francisco, Seattle, New York City · internship · 2d</description>
@@ -214,20 +228,6 @@
       <guid isPermaLink="false">c605f6dad3d2889c</guid>
       <description>Dublin · internship · 2d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
-      <guid isPermaLink="false">c3b11892340bdad3</guid>
-      <description>Toronto · internship · 2d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare — Software Engineer Intern</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2d2e075fb38293ea</guid>
-      <description>London, UK · internship · 3d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Lyft — PhD Machine Learning Software Engineer Intern (Summer 2027)</title>
@@ -255,6 +255,13 @@
       <link>https://zapply.jobs/l/d/amazon-e0dbf672-4d05-463a-9cc2-2ba2478f3480?s=gh-internships-2027</link>
       <guid isPermaLink="false">e5671152ade25e1c</guid>
       <description>Seattle, WA · internship · 3d</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare — Software Engineer Intern</title>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2d2e075fb38293ea</guid>
+      <description>London, UK · internship · 3d</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -321,17 +328,17 @@
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Expedia Group — Mobile Engineering Intern - 2027 - Austin, San Jose, Seattle</title>
-      <link>https://zapply.jobs/l/d/workday-expedia-private-R-110306?s=gh-internships-2027</link>
-      <guid isPermaLink="false">c596bdd1289d877d</guid>
-      <description>Austin Domain 11 HomeAway · internship · 4d</description>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>NVIDIA — Software Engineer Intern</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">3248d18dcd00bf5c</guid>
       <description>Santa Clara, CA · internship · 4d</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Expedia Group — Mobile Engineering Intern - 2027 - Austin, San Jose, Seattle</title>
+      <link>https://zapply.jobs/l/d/workday-expedia-private-R-110306?s=gh-internships-2027</link>
+      <guid isPermaLink="false">c596bdd1289d877d</guid>
+      <description>Austin Domain 11 HomeAway · internship · 4d</description>
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -343,15 +350,15 @@
     </item>
     <item>
       <title>Cloudflare — Software Engineer Intern (2027)</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197</link>
-      <guid isPermaLink="false">3581bd898f906553</guid>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?gh_jid=8245211</link>
+      <guid isPermaLink="false">935e638a3629e158</guid>
       <description>In-Office · internship · 4d</description>
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cloudflare — Software Engineer Intern (2027)</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?gh_jid=8245211</link>
-      <guid isPermaLink="false">935e638a3629e158</guid>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197</link>
+      <guid isPermaLink="false">3581bd898f906553</guid>
       <description>In-Office · internship · 4d</description>
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -701,7 +708,7 @@
     <item>
       <title>Cloudflare — Software Engineer Intern</title>
       <link>https://boards.greenhouse.io/cloudflare/jobs/8199958?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">a86e1a7a7f69c721</guid>
+      <guid isPermaLink="false">9fc808a738d26dd3</guid>
       <description>Austin, TX · internship · 10d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -749,16 +756,16 @@
     </item>
     <item>
       <title>Datadog — Software Engineering Intern</title>
-      <link>https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186</link>
-      <guid isPermaLink="false">3bf6538464199907</guid>
-      <description>Paris, France · internship · 10d</description>
+      <link>https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161</link>
+      <guid isPermaLink="false">8cf202608e9096d8</guid>
+      <description>Madrid, Spain · internship · 10d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Datadog — Software Engineering Intern</title>
-      <link>https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161</link>
-      <guid isPermaLink="false">8cf202608e9096d8</guid>
-      <description>Madrid, Spain · internship · 10d</description>
+      <link>https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186</link>
+      <guid isPermaLink="false">3bf6538464199907</guid>
+      <description>Paris, France · internship · 10d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1308,13 +1315,6 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Schneider Electric — Application Engineer Intern (Apodaca, N.L.)</title>
-      <link>https://careers.se.com/jobs/133142</link>
-      <guid isPermaLink="false">c15dadc47378b650</guid>
-      <description>Apodaca, Mexico · internship · 28d</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Epic Games — Backend Services Programmer Intern</title>
       <link>https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004</link>
       <guid isPermaLink="false">48398804cbeb44d8</guid>
@@ -1525,82 +1525,82 @@
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Intel — AI Software Engineering - Workloads Validation Intern</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/Poland-Gdansk/AI-Software-Engineering---Workloads-Validation-Intern_JR0287890</link>
-      <guid isPermaLink="false">4afe77e78f3eb2e4</guid>
-      <description>Poland, Gdansk · internship · 0d</description>
-    </item>
-    <item>
       <title>Intel — AI Software Engineering Graduate Intern</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Software-Engineering-Graduate-Intern_JR0287917</link>
       <guid isPermaLink="false">c30fc8ceebfd96e4</guid>
       <description>PRC, Shanghai +1 more · internship · 0d</description>
     </item>
     <item>
+      <title>Intel — AI Software Engineering - Workloads Validation Intern</title>
+      <link>https://intel.wd1.myworkdayjobs.com/external/job/Poland-Gdansk/AI-Software-Engineering---Workloads-Validation-Intern_JR0287890</link>
+      <guid isPermaLink="false">4afe77e78f3eb2e4</guid>
+      <description>Poland, Gdansk · internship · 1d</description>
+    </item>
+    <item>
       <title>Intel — Software Engineering Undergraduate Intern (f/m/d)</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Germany-Munich/Software-Engineering-Undergraduate-Intern--f-m-d-_JR0287923</link>
       <guid isPermaLink="false">1d56c8ae68f1ffa6</guid>
-      <description>Germany, Munich · internship · 0d</description>
+      <description>Germany, Munich · internship · 1d</description>
     </item>
     <item>
       <title>PwC — Tax - Digital Tax (Infrastructure) Off-Cycle Internship (Jan - Jun 27)</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Tax---Digital-Tax--Business-Data-Analytics--Off-Cycle-Internship--Jan---Jun-27-_743507WD</link>
       <guid isPermaLink="false">63d0aec7de90af36</guid>
-      <description>Singapore · internship · 0d</description>
+      <description>Singapore · internship · 1d</description>
     </item>
     <item>
       <title>PwC — Software Engineer Intern - Milano [DIG]</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Software-Engineer-Intern---Milano--DIG-_765582WD</link>
       <guid isPermaLink="false">6039b92ce50df4c0</guid>
-      <description>Milan · internship · 2d</description>
+      <description>Milan · internship · 3d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineering Intern - 2027 - Austin, San Jose, Seattle</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Mobile-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110306</link>
       <guid isPermaLink="false">917bf149012cbcb1</guid>
-      <description>Austin Domain 11 - HomeAway +2 more · internship · 3d</description>
+      <description>Austin Domain 11 - HomeAway +2 more · internship · 4d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineering Intern - 2027 - Austin, San Jose, Seattle</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311</link>
       <guid isPermaLink="false">f2d707cbfbc6f4aa</guid>
-      <description>Washington - Seattle Campus +2 more · internship · 3d</description>
+      <description>Washington - Seattle Campus +2 more · internship · 4d</description>
     </item>
     <item>
       <title>Tencent — Backend Engineer Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Backend-Engineer-Intern_R108219</link>
       <guid isPermaLink="false">a849e499f13a9b0d</guid>
-      <description>Singapore-CapitaSky · internship · 3d</description>
+      <description>Singapore-CapitaSky · internship · 4d</description>
     </item>
     <item>
       <title>Tencent — Site Reliability Engineer Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Site-Reliability-Engineer-Intern_R108220</link>
       <guid isPermaLink="false">533c1e2eaeef2260</guid>
-      <description>Singapore-CapitaSky · internship · 3d</description>
+      <description>Singapore-CapitaSky · internship · 4d</description>
     </item>
     <item>
       <title>Tencent — Site Reliability Engineer (SRE) Intern — AI Infrastructure</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1</link>
       <guid isPermaLink="false">b9d57e80420f8ae7</guid>
-      <description>US-California-Palo Alto · internship · 16d</description>
+      <description>US-California-Palo Alto · internship · 17d</description>
     </item>
     <item>
       <title>Tencent — PUBG Mobile Marketing Team Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1</link>
       <guid isPermaLink="false">d03d9fcbae5645b6</guid>
-      <description>United Kingdom-London +1 more · internship · 20d</description>
+      <description>United Kingdom-London +1 more · internship · 21d</description>
     </item>
     <item>
       <title>Tencent — Tencent Cloud - Edge Platform Product Solutions Architecture Intern - Singapore</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Tencent-Cloud---Edge-Platform-Product-Solutions-Architecture-Intern---Singapore_R107927</link>
       <guid isPermaLink="false">b04914868a2d2774</guid>
-      <description>Singapore-CapitaSky · internship · 21d</description>
+      <description>Singapore-CapitaSky · internship · 22d</description>
     </item>
     <item>
       <title>Tencent — Backend Development Intern (6 months)</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Backend-Development-Intern--6-months-_R108169</link>
       <guid isPermaLink="false">947c5adac492a8f0</guid>
-      <description>Singapore-CapitaSky · internship · 23d</description>
+      <description>Singapore-CapitaSky · internship · 24d</description>
     </item>
     <item>
       <title>Mastercard — Site Reliability Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
