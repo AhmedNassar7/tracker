@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Sat, 10 Oct 2026 07:09:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 13:42:16 GMT</lastBuildDate>
     <item>
       <title>unKonf — unKonf</title>
       <link>https://www.unKonf.de</link>
@@ -633,6 +633,13 @@
       <link>https://www.sfscon.it/</link>
       <guid isPermaLink="false">e2352c28e5b01c16</guid>
       <description>Bolzano, Italy · 34 days left</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>VIC AI Boom — VIC AI Boom</title>
+      <link>https://vicaiboom.com</link>
+      <guid isPermaLink="false">2f5b1a76edf744c5</guid>
+      <description>Melbourne, Australia · 34 days left</description>
       <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1378,10 +1385,24 @@
       <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Devworld Conference — Devworld Conference</title>
+      <link>https://www.devworldconference.com</link>
+      <guid isPermaLink="false">661df100c04c62d2</guid>
+      <description>Amsterdam, Netherlands · 236 days left</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI Con USA — AI Con USA</title>
       <link>https://aiconusa.techwell.com</link>
       <guid isPermaLink="false">931fbeaa6e6f4e82</guid>
       <description>Seattle, WA, U.S.A. · 239 days left</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>enterJS — enterJS</title>
+      <link>https://enterjs.de</link>
+      <guid isPermaLink="false">aed7292b137b0a04</guid>
+      <description>Cologne, Germany · 242 days left</description>
       <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
