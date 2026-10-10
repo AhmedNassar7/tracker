@@ -4,7 +4,7 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Sat, 10 Oct 2026 00:51:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 07:09:19 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer II, LATech FBA</title>
       <link>https://www.amazon.jobs/en/jobs/10575131/software-development-engineer-ii-latech-fba</link>
@@ -230,20 +230,6 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Schneider Electric — Ingeniero Comercial Servicios AMBA</title>
-      <link>https://careers.se.com/jobs/133827</link>
-      <guid isPermaLink="false">b0be0b8292eff604</guid>
-      <description>Argentina · other · 30d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Schneider Electric — Ingeniero(a) Comercial Servicios Bahía Blanca</title>
-      <link>https://careers.se.com/jobs/133822</link>
-      <guid isPermaLink="false">78be8a9a32c05fca</guid>
-      <description>Buenos Aires, Argentina · other · 30d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Epic Games — Senior Mobile Game Designer</title>
       <link>https://epicgames.com/careers/jobs/6000061004?gh_jid=6000061004</link>
       <guid isPermaLink="false">81a57ddee15d9312</guid>
@@ -328,28 +314,16 @@
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Director, Infrastructure &amp; Site Reliability Engineering</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Director--Infrastructure---Site-Reliability-Engineering_R-292940</link>
-      <guid isPermaLink="false">be5038046a9f6108</guid>
-      <description>Mexico City, Mexico · mid_level · 0d</description>
-    </item>
-    <item>
       <title>Salesforce — Software Engineer AMTS (Junior) - Keynote Demo</title>
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Technical-Architect---Keynote-Demos-AMTS_JR362623</link>
       <guid isPermaLink="false">c512c462550ba1b3</guid>
-      <description>Mexico - Mexico City · junior · 0d</description>
+      <description>Mexico - Mexico City · junior · 1d</description>
     </item>
     <item>
       <title>Salesforce — Software Engineer MTS - Keynote Demo</title>
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Technical-Architect---Keynote-Demos_JR362620</link>
       <guid isPermaLink="false">8116fd5dfb77588b</guid>
-      <description>Mexico - Mexico City · other · 0d</description>
-    </item>
-    <item>
-      <title>Warner Bros. Discovery — Senior Accountant, Global Studios Content Accounting</title>
-      <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City-Paseo-de-las-Palmas-No425-701/Senior-Accountant--Global-Studios-Content-Accounting_R000108974</link>
-      <guid isPermaLink="false">6f70b576236c7eb5</guid>
-      <description>Mexico City, Paseo de las Palmas No.425-701 · mid_level · 0d</description>
+      <description>Mexico - Mexico City · other · 1d</description>
     </item>
   </channel>
 </rss>
