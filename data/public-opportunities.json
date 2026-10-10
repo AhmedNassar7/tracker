@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T18:34:24Z",
-  "total": 3679,
+  "generated_at": "2026-10-10T22:31:02Z",
+  "total": 3686,
   "jobs": [
     {
       "id": "767980835c49bc51",
@@ -23,6 +23,21 @@
       "min_years_experience": 7
     },
     {
+      "id": "f0d04b6bc91d8a28",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Infrastructure Automation Engineer, Compute Platform - EDA Infrastructure",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, NC, Remote<br>US, TX, Austin<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "64dc3251636765d7",
       "kind": "job",
       "company": "NVIDIA",
@@ -34,6 +49,21 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---HPC_JR2013271",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "31fd9263c9edc702",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Storage Infrastructure Software Engineer",
+      "location": "US, CA, Santa Clara",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -269,6 +299,354 @@
       }
     },
     {
+      "id": "9fbdc2bd14b3b9d4",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "[2027] Software Engineer, Early Career",
+      "location": "San Mateo, CA, United States",
+      "level": "new_grad",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Node.js",
+        "Python",
+        "Java",
+        "Go",
+        "C++",
+        "C#",
+        "Ruby"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 153000,
+        "max": 153000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "878d4c84133197a9",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "[Summer 2027] Software Engineer Intern",
+      "location": "San Mateo, CA, United States",
+      "level": "internship",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Node.js",
+        "Python",
+        "Java",
+        "C++",
+        "C#",
+        "Ruby"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 62,
+        "max": 62,
+        "currency": "USD",
+        "period": "hour"
+      }
+    },
+    {
+      "id": "2528cbe722a61b48",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Director, Product Management, Consumer Frontend",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7913665?gh_jid=7913665",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 383120,
+        "max": 439280,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "91a7fc7658e45ce9",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Distinguished Engineer, Content Platform",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7754152?gh_jid=7754152",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "visa_sponsorship": true,
+      "min_years_experience": 12,
+      "salary": {
+        "min": 399420,
+        "max": 457970,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "b54296cbe314a0d6",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Engineering Manager, Home Infrastructure (Recommendation Systems)",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7905464?gh_jid=7905464",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "dee9b1dd7cae17e4",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Engineering Manager, Observability Infrastructure",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7901793?gh_jid=7901793",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "9488cc660ccec93c",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Frontend Software Engineer - Discovery",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8052466?gh_jid=8052466",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "3895f30c1e915028",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Fullstack/Backend Software Engineer, User Connections",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7752066?gh_jid=7752066",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "C#"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "9137e2b0f54449d4",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7744272?gh_jid=7744272",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "degree_required": false,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "61f4ca10d0cdd856",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8017415?gh_jid=8017415",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Go"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 10,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "5ddf95928cf815d6",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer - Compute (Kubernetes)",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8024627?gh_jid=8024627",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 10,
+      "salary": {
+        "min": 345040,
+        "max": 399420,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "719ab75a4d7000aa",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer - Content Lifecycle",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7650307?gh_jid=7650307",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "degree_required": false,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "627cf8125ccb2d00",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer - Content Understanding",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8094470?gh_jid=8094470",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Angular",
+        "Python",
+        "Java",
+        "C++",
+        "C#",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "f3326d6c3409d77f",
       "kind": "job",
       "company": "Roblox",
@@ -354,6 +732,89 @@
       }
     },
     {
+      "id": "ae8c7403b45790d9",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer - Roblox Database",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8129410?gh_jid=8129410",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Rust",
+        "C++",
+        "Kubernetes",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 12,
+      "salary": {
+        "min": 345040,
+        "max": 399420,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "7febe4216dc0a546",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer - Roblox Database",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8036892?gh_jid=8036892",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Rust",
+        "C++",
+        "Kubernetes",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 293800,
+        "max": 343340,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "3f39b9a4fc219449",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer - Roblox Economy Platform",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7545955?gh_jid=7545955",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 293800,
+        "max": 343340,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "ad171cd9f84e4d48",
       "kind": "job",
       "company": "Roblox",
@@ -433,6 +894,35 @@
       }
     },
     {
+      "id": "309b5d25a9a812ff",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer, Backend - Sharing",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8013437?gh_jid=8013437",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "C#"
+      ],
+      "visa_sponsorship": true,
+      "degree_required": false,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "e030fcbd10d38d80",
       "kind": "job",
       "company": "Roblox",
@@ -489,6 +979,64 @@
       }
     },
     {
+      "id": "8bce4ed381b54e08",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer, Creator Collaboration",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8154393?gh_jid=8154393",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "54df3cb3612847d8",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer, Data Infrastructure",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8029695?gh_jid=8029695",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Scala",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Kafka"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "8a66e93d08a3ef32",
       "kind": "job",
       "company": "Roblox",
@@ -506,6 +1054,65 @@
         "C++"
       ],
       "visa_sponsorship": true,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "720529283bdceb67",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer, Engineering Acceleration",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7991993?gh_jid=7991993",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "Go",
+        "C#",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 295250,
+        "max": 345040,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f7625cdeb546cdc7",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Principal Software Engineer- Account Authentication",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8092905?gh_jid=8092905",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Rust",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "degree_required": false,
       "salary": {
         "min": 295250,
         "max": 345040,
@@ -620,6 +1227,139 @@
       }
     },
     {
+      "id": "16a5817cf7430bdf",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Frontend/Fullstack Software Engineer, Social Graph",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7760129?gh_jid=7760129",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "visa_sponsorship": true,
+      "min_years_experience": 5,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "fb39204a0cfa8360",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Hardware Engineer - GPU & AI Infrastructure",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7463674?gh_jid=7463674",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "482147ecf32659d1",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Hardware Engineer - Infrastructure",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7947153?gh_jid=7947153",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go"
+      ],
+      "visa_sponsorship": true,
+      "degree_required": false,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "fd13ddc7cbfd3db8",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Site Reliability Engineer, Compute",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8148679?gh_jid=8148679",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C#",
+        "Kubernetes"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "afab0a9d7eaf11bf",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Site Reliability Engineer, Compute",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8042554?gh_jid=8042554",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C#",
+        "Kubernetes"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 6,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "e289160a8f1e1eca",
       "kind": "job",
       "company": "Roblox",
@@ -677,6 +1417,34 @@
       }
     },
     {
+      "id": "2293a2ed913d87d9",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer (Full Stack), Global Actions",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8036757?gh_jid=8036757",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "f4bd28647372e090",
       "kind": "job",
       "company": "Roblox",
@@ -710,6 +1478,169 @@
       }
     },
     {
+      "id": "9a5cfa5a0df6ae09",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Avatar Personalization",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7545202?gh_jid=7545202",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 5,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "dfedcc508ff722e1",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Consoles",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8089039?gh_jid=8089039",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 5,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "4e6eac258473d1dc",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Consumer Apps Desktop",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8127056?gh_jid=8127056",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "1dc14227a1e2142c",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Core Platform and Systems",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8079797?gh_jid=8079797",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Swift",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 2,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "76594318f251480a",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Core UX Studio",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8079799?gh_jid=8079799",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 1,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "d17ffddd17b579c5",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Data Access",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7437922?gh_jid=7437922",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Rust",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 6,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "6f4602de68e30d2b",
       "kind": "job",
       "company": "Roblox",
@@ -732,6 +1663,72 @@
       ],
       "visa_sponsorship": true,
       "min_years_experience": 5,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "08b848977b094f5e",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Data Infrastructure, Safety",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7852258?gh_jid=7852258",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Rust",
+        "C++",
+        "C#"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 4,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "09993efb06b2851c",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Economy Platform",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8142712?gh_jid=8142712",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "Go",
+        "Rust",
+        "C++",
+        "C#",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "MongoDB",
+        "Kafka"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 4,
       "salary": {
         "min": 196750,
         "max": 243290,
@@ -771,6 +1768,32 @@
       }
     },
     {
+      "id": "36668a8f6c0940d7",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Game Engine Systems (C++)",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7449585?gh_jid=7449585",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 7,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "b262fe19700a4b86",
       "kind": "job",
       "company": "Roblox",
@@ -794,6 +1817,148 @@
       "salary": {
         "min": 196750,
         "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "d84e63410e202ba9",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Network Transport (C++)",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7561743?gh_jid=7561743",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 7,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "ef1ff501522d907a",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Roblox Database",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8129408?gh_jid=8129408",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Rust",
+        "C++",
+        "Kubernetes",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 6,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "e997624da0fd7541",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Safety Experience",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7985997?gh_jid=7985997",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Python",
+        "Go"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 7,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "78395754bbca0816",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Storage",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8148394?gh_jid=8148394",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Kubernetes"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 5,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6ab9492a5184a4b3",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer - Storage Cache",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7862605?gh_jid=7862605",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Rust",
+        "C++",
+        "Kubernetes",
+        "Redis"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 6,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
         "currency": "USD",
         "period": "year"
       }
@@ -825,6 +1990,83 @@
       }
     },
     {
+      "id": "b7a53c61aa30b5b7",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, 3D Engine Scalability",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8131354?gh_jid=8131354",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "aafcf966bbc1f1df",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, 3D Systems",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8204801?gh_jid=8204801",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f2b1835f22444287",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Ads Experience (C++)",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7655780?gh_jid=7655780",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "875e4bd0a51e7fbc",
       "kind": "job",
       "company": "Roblox",
@@ -844,6 +2086,113 @@
         "C++"
       ],
       "visa_sponsorship": true,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6f978a607c26ab8a",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Avatar Animation",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7540219?gh_jid=7540219",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 242100,
+        "max": 293800,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "c74978df696f3cb5",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Build",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8047823?gh_jid=8047823",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "e693d5bb4e6a615d",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Client Systems (C++)",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8036535?gh_jid=8036535",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 4,
+      "salary": {
+        "min": 195780,
+        "max": 242100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "eaaa5a104cb60ee0",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Compute Cell Platform",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8056362?gh_jid=8056362",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Kubernetes"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
       "salary": {
         "min": 196750,
         "max": 243290,
@@ -905,6 +2254,31 @@
       }
     },
     {
+      "id": "0af4b060a4051c5e",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Core Engine",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8160843?gh_jid=8160843",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "f0f56f11ce36b0a5",
       "kind": "job",
       "company": "Roblox",
@@ -934,6 +2308,65 @@
       }
     },
     {
+      "id": "79faf1b9666482b1",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Creator Core Systems",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8159886?gh_jid=8159886",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "Go",
+        "C++",
+        "C#"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 7,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "ab5905ebecb98d2d",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Creator Experience",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8120054?gh_jid=8120054",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "C#",
+        ".NET",
+        "Kafka"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "2565404634a2fca7",
       "kind": "job",
       "company": "Roblox",
@@ -955,6 +2388,38 @@
       ],
       "visa_sponsorship": true,
       "min_years_experience": 7,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6805dbcd91bc6b42",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Data Infrastructure",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8014486?gh_jid=8014486",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "Scala",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Kafka"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 5,
       "salary": {
         "min": 243290,
         "max": 295250,
@@ -990,6 +2455,146 @@
       }
     },
     {
+      "id": "a6c310c601c580aa",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Engineering Acceleration Foundations",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7998339?gh_jid=7998339",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "C#",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "a754731fce5bf785",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Frontend (App Foundations)",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8036943?gh_jid=8036943",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Kotlin",
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "degree_required": false,
+      "salary": {
+        "min": 242100,
+        "max": 312970,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f83f1e035c0c7216",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Game Engine",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8204799?gh_jid=8204799",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "dfdece0e4ea6f7d7",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Geometry Systems",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8205219?gh_jid=8205219",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 8,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "223fbe9370e91025",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, iOS",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8140563?gh_jid=8140563",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Swift",
+        "Objective-C"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "b41f7114d654f2f1",
       "kind": "job",
       "company": "Roblox",
@@ -1010,6 +2615,33 @@
       "salary": {
         "min": 278530,
         "max": 328610,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "bcb1bf22963da2a8",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Privacy Infrastructure",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8127033?gh_jid=8127033",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 7,
+      "salary": {
+        "min": 287840,
+        "max": 345620,
         "currency": "USD",
         "period": "year"
       }
@@ -1045,6 +2677,115 @@
       }
     },
     {
+      "id": "dbe94ae442524345",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Runtime",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8097810?gh_jid=8097810",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f97f3e53497f3e24",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Safety Foundation",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8017352?gh_jid=8017352",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Go"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 5,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "2a0ee5ff3621fd7e",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Service Mesh",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8148698?gh_jid=8148698",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Rust",
+        "C++",
+        "Kubernetes"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "61a4cd60acad75d5",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, Service Mesh",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8015824?gh_jid=8015824",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Rust",
+        "C++",
+        "Kubernetes"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 6,
+      "salary": {
+        "min": 243290,
+        "max": 295250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "e08e8d2b0874f8dc",
       "kind": "job",
       "company": "Roblox",
@@ -1067,6 +2808,32 @@
       ],
       "visa_sponsorship": true,
       "degree_required": false,
+      "salary": {
+        "min": 196750,
+        "max": 243290,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f81c27d36c7c1843",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior Software Engineer, UGC Validation",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7997637?gh_jid=7997637",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "C++"
+      ],
+      "visa_sponsorship": true,
       "salary": {
         "min": 196750,
         "max": 243290,
@@ -1102,6 +2869,115 @@
       }
     },
     {
+      "id": "de8aca72f933b423",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Senior/Principal Software Engineer - Creator Data",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7740153?gh_jid=7740153",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++",
+        "C#",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 345040,
+        "max": 399420,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "d2c122e7fbeaf5e3",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineer, Account Authentication",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8097701?gh_jid=8097701",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Rust",
+        "C++",
+        "C#"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 1,
+      "salary": {
+        "min": 153120,
+        "max": 196750,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "30d05371e626405d",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineer, Creator",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8115917?gh_jid=8115917",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 1,
+      "salary": {
+        "min": 153120,
+        "max": 196750,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "104cf25acf6d2aba",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineer, Creator Business",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8113334?gh_jid=8113334",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "visa_sponsorship": true,
+      "min_years_experience": 1,
+      "salary": {
+        "min": 153120,
+        "max": 196750,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "7a1a516ebda985f3",
       "kind": "job",
       "company": "Roblox",
@@ -1131,6 +3007,86 @@
       }
     },
     {
+      "id": "653d255c5913358d",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineer, Data Model",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8159857?gh_jid=8159857",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "C++",
+        "C#"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 168680,
+        "max": 212490,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "37629fa359b1cdec",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineer, Economy Platform",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8060254?gh_jid=8060254",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "visa_sponsorship": true,
+      "min_years_experience": 1,
+      "salary": {
+        "min": 153120,
+        "max": 196750,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "b993439249e59430",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineer, Engine Infrastructure",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8171506?gh_jid=8171506",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "C++",
+        "C#"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 182170,
+        "max": 227370,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "46b93a1240703b5f",
       "kind": "job",
       "company": "Roblox",
@@ -1149,6 +3105,62 @@
       ],
       "visa_sponsorship": true,
       "min_years_experience": 3,
+      "salary": {
+        "min": 153120,
+        "max": 196750,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "5c0cb15b7b4b4c3d",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineer, Engine Systems",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8159854?gh_jid=8159854",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Objective-C",
+        "Rust",
+        "C++",
+        "C#"
+      ],
+      "visa_sponsorship": true,
+      "salary": {
+        "min": 168680,
+        "max": 212490,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "e9dfdbb2982afd0b",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineer, Foundation AI",
+      "location": "San Mateo, CA, United States",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/8123004?gh_jid=8123004",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Rust"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 1,
       "salary": {
         "min": 153120,
         "max": 196750,
@@ -1257,6 +3269,32 @@
         "C++"
       ],
       "visa_sponsorship": true,
+      "salary": {
+        "min": 293800,
+        "max": 343340,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "406a93228e914f80",
+      "kind": "job",
+      "company": "Roblox",
+      "title": "Software Engineering Manager, Engine UI",
+      "location": "San Mateo, CA, United States",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-10",
+      "url": "https://careers.roblox.com/jobs/7482015?gh_jid=7482015",
+      "source": "greenhouse:roblox",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "visa_sponsorship": true,
+      "min_years_experience": 5,
       "salary": {
         "min": 293800,
         "max": 343340,
@@ -5066,556 +7104,6 @@
       }
     },
     {
-      "id": "9fbdc2bd14b3b9d4",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "[2027] Software Engineer, Early Career",
-      "location": "San Mateo, CA, United States",
-      "level": "new_grad",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Node.js",
-        "Python",
-        "Java",
-        "Go",
-        "C++",
-        "C#",
-        "Ruby"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 153000,
-        "max": 153000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "878d4c84133197a9",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "[Summer 2027] Software Engineer Intern",
-      "location": "San Mateo, CA, United States",
-      "level": "internship",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Node.js",
-        "Python",
-        "Java",
-        "C++",
-        "C#",
-        "Ruby"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 62,
-        "max": 62,
-        "currency": "USD",
-        "period": "hour"
-      }
-    },
-    {
-      "id": "2528cbe722a61b48",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Director, Product Management, Consumer Frontend",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7913665?gh_jid=7913665",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 383120,
-        "max": 439280,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "91a7fc7658e45ce9",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Distinguished Engineer, Content Platform",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7754152?gh_jid=7754152",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "visa_sponsorship": true,
-      "min_years_experience": 12,
-      "salary": {
-        "min": 399420,
-        "max": 457970,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "b54296cbe314a0d6",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Engineering Manager, Home Infrastructure (Recommendation Systems)",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7905464?gh_jid=7905464",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "dee9b1dd7cae17e4",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Engineering Manager, Observability Infrastructure",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7901793?gh_jid=7901793",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "9488cc660ccec93c",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Frontend Software Engineer - Discovery",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8052466?gh_jid=8052466",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "3895f30c1e915028",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Fullstack/Backend Software Engineer, User Connections",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "full_stack",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7752066?gh_jid=7752066",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "C#"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "9137e2b0f54449d4",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7744272?gh_jid=7744272",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "degree_required": false,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "61f4ca10d0cdd856",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8017415?gh_jid=8017415",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Go"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 10,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "5ddf95928cf815d6",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer - Compute (Kubernetes)",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8024627?gh_jid=8024627",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 10,
-      "salary": {
-        "min": 345040,
-        "max": 399420,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "719ab75a4d7000aa",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer - Content Lifecycle",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7650307?gh_jid=7650307",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "degree_required": false,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "627cf8125ccb2d00",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer - Content Understanding",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8094470?gh_jid=8094470",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Angular",
-        "Python",
-        "Java",
-        "C++",
-        "C#",
-        "TensorFlow",
-        "PyTorch"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "ae8c7403b45790d9",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer - Roblox Database",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8129410?gh_jid=8129410",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Rust",
-        "C++",
-        "Kubernetes",
-        "PostgreSQL",
-        "MySQL"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 12,
-      "salary": {
-        "min": 345040,
-        "max": 399420,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "7febe4216dc0a546",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer - Roblox Database",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8036892?gh_jid=8036892",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Rust",
-        "C++",
-        "Kubernetes",
-        "PostgreSQL",
-        "MySQL"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 293800,
-        "max": 343340,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "3f39b9a4fc219449",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer - Roblox Economy Platform",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7545955?gh_jid=7545955",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 293800,
-        "max": 343340,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "309b5d25a9a812ff",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer, Backend - Sharing",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8013437?gh_jid=8013437",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "C#"
-      ],
-      "visa_sponsorship": true,
-      "degree_required": false,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "8bce4ed381b54e08",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer, Creator Collaboration",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8154393?gh_jid=8154393",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "54df3cb3612847d8",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer, Data Infrastructure",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8029695?gh_jid=8029695",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Kafka"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "720529283bdceb67",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer, Engineering Acceleration",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7991993?gh_jid=7991993",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "Go",
-        "C#",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "AWS"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "ab137662b4403498",
       "kind": "job",
       "company": "Roblox",
@@ -5638,668 +7126,6 @@
       "salary": {
         "min": 345040,
         "max": 399420,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f7625cdeb546cdc7",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Principal Software Engineer- Account Authentication",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8092905?gh_jid=8092905",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Rust",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "degree_required": false,
-      "salary": {
-        "min": 295250,
-        "max": 345040,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "16a5817cf7430bdf",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Frontend/Fullstack Software Engineer, Social Graph",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "full_stack",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7760129?gh_jid=7760129",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "visa_sponsorship": true,
-      "min_years_experience": 5,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "fb39204a0cfa8360",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Hardware Engineer - GPU & AI Infrastructure",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7463674?gh_jid=7463674",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "482147ecf32659d1",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Hardware Engineer - Infrastructure",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7947153?gh_jid=7947153",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go"
-      ],
-      "visa_sponsorship": true,
-      "degree_required": false,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "fd13ddc7cbfd3db8",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Site Reliability Engineer, Compute",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8148679?gh_jid=8148679",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C#",
-        "Kubernetes"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "afab0a9d7eaf11bf",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Site Reliability Engineer, Compute",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8042554?gh_jid=8042554",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C#",
-        "Kubernetes"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 6,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "2293a2ed913d87d9",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer (Full Stack), Global Actions",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "full_stack",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8036757?gh_jid=8036757",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "9a5cfa5a0df6ae09",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Avatar Personalization",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7545202?gh_jid=7545202",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 5,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "dfedcc508ff722e1",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Consoles",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8089039?gh_jid=8089039",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 5,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "4e6eac258473d1dc",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Consumer Apps Desktop",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8127056?gh_jid=8127056",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "1dc14227a1e2142c",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Core Platform and Systems",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8079797?gh_jid=8079797",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Swift",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 2,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "76594318f251480a",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Core UX Studio",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8079799?gh_jid=8079799",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 1,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "d17ffddd17b579c5",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Data Access",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7437922?gh_jid=7437922",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "Rust",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 6,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "08b848977b094f5e",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Data Infrastructure, Safety",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7852258?gh_jid=7852258",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Rust",
-        "C++",
-        "C#"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 4,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "09993efb06b2851c",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Economy Platform",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8142712?gh_jid=8142712",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "Go",
-        "Rust",
-        "C++",
-        "C#",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "MongoDB",
-        "Kafka"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 4,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "36668a8f6c0940d7",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Game Engine Systems (C++)",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7449585?gh_jid=7449585",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 7,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "d84e63410e202ba9",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Network Transport (C++)",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7561743?gh_jid=7561743",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 7,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "ef1ff501522d907a",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Roblox Database",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8129408?gh_jid=8129408",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Rust",
-        "C++",
-        "Kubernetes",
-        "PostgreSQL",
-        "MySQL"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 6,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "e997624da0fd7541",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Safety Experience",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7985997?gh_jid=7985997",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Python",
-        "Go"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 7,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "78395754bbca0816",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Storage",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8148394?gh_jid=8148394",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Kubernetes"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 5,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6ab9492a5184a4b3",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer - Storage Cache",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7862605?gh_jid=7862605",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Rust",
-        "C++",
-        "Kubernetes",
-        "Redis"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 6,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "b7a53c61aa30b5b7",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, 3D Engine Scalability",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8131354?gh_jid=8131354",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "aafcf966bbc1f1df",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, 3D Systems",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8204801?gh_jid=8204801",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f2b1835f22444287",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Ads Experience (C++)",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7655780?gh_jid=7655780",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
         "currency": "USD",
         "period": "year"
       }
@@ -6329,802 +7155,6 @@
       "salary": {
         "min": 196750,
         "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6f978a607c26ab8a",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Avatar Animation",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7540219?gh_jid=7540219",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 242100,
-        "max": 293800,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "c74978df696f3cb5",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Build",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8047823?gh_jid=8047823",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "e693d5bb4e6a615d",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Client Systems (C++)",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8036535?gh_jid=8036535",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 4,
-      "salary": {
-        "min": 195780,
-        "max": 242100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "eaaa5a104cb60ee0",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Compute Cell Platform",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8056362?gh_jid=8056362",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Kubernetes"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "0af4b060a4051c5e",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Core Engine",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8160843?gh_jid=8160843",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "79faf1b9666482b1",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Creator Core Systems",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8159886?gh_jid=8159886",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "Go",
-        "C++",
-        "C#"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 7,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "ab5905ebecb98d2d",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Creator Experience",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8120054?gh_jid=8120054",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "C#",
-        ".NET",
-        "Kafka"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6805dbcd91bc6b42",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Data Infrastructure",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8014486?gh_jid=8014486",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Kafka"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 5,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "a6c310c601c580aa",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Engineering Acceleration Foundations",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7998339?gh_jid=7998339",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "C#",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "AWS"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "a754731fce5bf785",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Frontend (App Foundations)",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8036943?gh_jid=8036943",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "Kotlin",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "degree_required": false,
-      "salary": {
-        "min": 242100,
-        "max": 312970,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f83f1e035c0c7216",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Game Engine",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8204799?gh_jid=8204799",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "dfdece0e4ea6f7d7",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Geometry Systems",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8205219?gh_jid=8205219",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 8,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "223fbe9370e91025",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, iOS",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "mobile",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8140563?gh_jid=8140563",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Swift",
-        "Objective-C"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "bcb1bf22963da2a8",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Privacy Infrastructure",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8127033?gh_jid=8127033",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 7,
-      "salary": {
-        "min": 287840,
-        "max": 345620,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "dbe94ae442524345",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Runtime",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8097810?gh_jid=8097810",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f97f3e53497f3e24",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Safety Foundation",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8017352?gh_jid=8017352",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Go"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 5,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "2a0ee5ff3621fd7e",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Service Mesh",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8148698?gh_jid=8148698",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Rust",
-        "C++",
-        "Kubernetes"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "61a4cd60acad75d5",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, Service Mesh",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8015824?gh_jid=8015824",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Rust",
-        "C++",
-        "Kubernetes"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 6,
-      "salary": {
-        "min": 243290,
-        "max": 295250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f81c27d36c7c1843",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior Software Engineer, UGC Validation",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7997637?gh_jid=7997637",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 196750,
-        "max": 243290,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "de8aca72f933b423",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Senior/Principal Software Engineer - Creator Data",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7740153?gh_jid=7740153",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++",
-        "C#",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 345040,
-        "max": 399420,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "d2c122e7fbeaf5e3",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineer, Account Authentication",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8097701?gh_jid=8097701",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Rust",
-        "C++",
-        "C#"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 1,
-      "salary": {
-        "min": 153120,
-        "max": 196750,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "30d05371e626405d",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineer, Creator",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8115917?gh_jid=8115917",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 1,
-      "salary": {
-        "min": 153120,
-        "max": 196750,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "104cf25acf6d2aba",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineer, Creator Business",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8113334?gh_jid=8113334",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "visa_sponsorship": true,
-      "min_years_experience": 1,
-      "salary": {
-        "min": 153120,
-        "max": 196750,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "653d255c5913358d",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineer, Data Model",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8159857?gh_jid=8159857",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "C++",
-        "C#"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 168680,
-        "max": 212490,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "37629fa359b1cdec",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineer, Economy Platform",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8060254?gh_jid=8060254",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "visa_sponsorship": true,
-      "min_years_experience": 1,
-      "salary": {
-        "min": 153120,
-        "max": 196750,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "b993439249e59430",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineer, Engine Infrastructure",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8171506?gh_jid=8171506",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "C++",
-        "C#"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 3,
-      "salary": {
-        "min": 182170,
-        "max": 227370,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "5c0cb15b7b4b4c3d",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineer, Engine Systems",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8159854?gh_jid=8159854",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Objective-C",
-        "Rust",
-        "C++",
-        "C#"
-      ],
-      "visa_sponsorship": true,
-      "salary": {
-        "min": 168680,
-        "max": 212490,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "e9dfdbb2982afd0b",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineer, Foundation AI",
-      "location": "San Mateo, CA, United States",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/8123004?gh_jid=8123004",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Rust"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 1,
-      "salary": {
-        "min": 153120,
-        "max": 196750,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "406a93228e914f80",
-      "kind": "job",
-      "company": "Roblox",
-      "title": "Software Engineering Manager, Engine UI",
-      "location": "San Mateo, CA, United States",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-09",
-      "url": "https://careers.roblox.com/jobs/7482015?gh_jid=7482015",
-      "source": "greenhouse:roblox",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "visa_sponsorship": true,
-      "min_years_experience": 5,
-      "salary": {
-        "min": 293800,
-        "max": 343340,
         "currency": "USD",
         "period": "year"
       }
@@ -10100,21 +10130,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "c4208a5741a45b41",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, DOCA Verification",
-      "location": "2 Locations",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--DOCA-Verification_JR2026270",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "765eed95182a68ce",
       "kind": "job",
       "company": "NVIDIA",
@@ -10149,9 +10164,9 @@
       "kind": "job",
       "company": "NVIDIA",
       "title": "Senior Software Engineer, NeMo Helix Core Platform",
-      "location": "<details><summary><strong>2 locations</strong></summary>Canada, Remote<br>Canada, Toronto</details>",
+      "location": "2 Locations",
       "level": "mid_level",
-      "region": "remote",
+      "region": "unknown",
       "role_type": "platform",
       "date": "2d",
       "posted_at": "",
@@ -77608,48 +77623,12 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "b4a928d6a3911a3c",
-      "kind": "hackathon",
-      "company": "I.T.S Engineering College",
-      "title": "Hackathon TecNM Campus Saltillo Road To Tech",
-      "location": "Instituto Tecnológico de Saltillo",
-      "date": "about 1 hour left",
-      "posted_at": "2026-10-10",
-      "url": "https://hackathon-tecnm-saltillo.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "cf47859945ca5f39",
-      "kind": "hackathon",
-      "company": "la familia",
-      "title": "Latinos x AI Hackathon - NYC",
-      "location": "Columbia Business School",
-      "date": "about 1 hour left",
-      "posted_at": "2026-10-10",
-      "url": "https://latinos-x-ai-hackathon-nyc.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "70fdcd3da5b39b0c",
-      "kind": "hackathon",
-      "company": "localhost-nyc",
-      "title": "Get Hired Hack @ Columbia Startup Lab",
-      "location": "Columbia Startup Lab",
-      "date": "about 2 hours left",
-      "posted_at": "2026-10-10",
-      "url": "https://get-hired-hack-nyc.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "700b0298180f44b2",
       "kind": "hackathon",
       "company": "Lick-Wilmerding High School",
       "title": "Hyphen-Hacks",
       "location": "Lick-Wilmerding High School",
-      "date": "about 8 hours left",
+      "date": "about 3 hours left",
       "posted_at": "2026-10-10",
       "url": "https://hyphen-hacks26.devpost.com/",
       "source": "devpost",
@@ -77661,7 +77640,7 @@
       "company": "AIRS",
       "title": "Vortexa 3.0",
       "location": "Dr DY Patil Institute Of Technology",
-      "date": "about 9 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-10-10",
       "url": "https://vortexa-3-0.devpost.com/",
       "source": "devpost",
@@ -77673,33 +77652,9 @@
       "company": "progsu",
       "title": "Hacklanta",
       "location": "Student Center East Ballroom GSU",
-      "date": "about 18 hours left",
+      "date": "about 14 hours left",
       "posted_at": "2026-10-10",
       "url": "https://hacklanta.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "46197fa25068e998",
-      "kind": "hackathon",
-      "company": "HackNC",
-      "title": "HackNC 2026",
-      "location": "Fetzer Gym, UNC-Chapel Hill",
-      "date": "about 19 hours left",
-      "posted_at": "2026-10-10",
-      "url": "https://hacknc-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "36a8d2c1c63f89b6",
-      "kind": "hackathon",
-      "company": "Princeton High School",
-      "title": "hackPHS 2026",
-      "location": "Princeton High School",
-      "date": "about 19 hours left",
-      "posted_at": "2026-10-10",
-      "url": "https://hackphs2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77709,21 +77664,33 @@
       "company": "Kappa Theta Pi South Carolina",
       "title": "PalmettoHacks 2026",
       "location": "Swearingen Engineering Center",
-      "date": "about 20 hours left",
+      "date": "about 15 hours left",
       "posted_at": "2026-10-10",
       "url": "https://palmettohacks-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "a13ed6dec4bc1420",
+      "id": "36a8d2c1c63f89b6",
       "kind": "hackathon",
-      "company": "Code for All QC",
-      "title": "Hack Knight Fall 2026",
-      "location": "Queens College - Dining Hall",
-      "date": "about 21 hours left",
+      "company": "Princeton High School",
+      "title": "hackPHS 2026",
+      "location": "Princeton High School",
+      "date": "about 15 hours left",
       "posted_at": "2026-10-10",
-      "url": "https://hack-knight-fall-2026.devpost.com/",
+      "url": "https://hackphs2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "46197fa25068e998",
+      "kind": "hackathon",
+      "company": "HackNC",
+      "title": "HackNC 2026",
+      "location": "Fetzer Gym, UNC-Chapel Hill",
+      "date": "about 16 hours left",
+      "posted_at": "2026-10-10",
+      "url": "https://hacknc-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77733,9 +77700,33 @@
       "company": "HackRU",
       "title": "HackRU Fall 2026",
       "location": "Busch Student Center",
-      "date": "about 21 hours left",
+      "date": "about 17 hours left",
       "posted_at": "2026-10-10",
       "url": "https://hackru-fall-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "a13ed6dec4bc1420",
+      "kind": "hackathon",
+      "company": "Code for All QC",
+      "title": "Hack Knight Fall 2026",
+      "location": "Queens College - Dining Hall",
+      "date": "about 18 hours left",
+      "posted_at": "2026-10-10",
+      "url": "https://hack-knight-fall-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "526d3073dba9ccca",
+      "kind": "hackathon",
+      "company": "RecT Solutions",
+      "title": "RecT Solutions Hackathon: Beyond the CV 2026",
+      "location": "IDEA Spaces Saldanha",
+      "date": "about 19 hours left",
+      "posted_at": "2026-10-10",
+      "url": "https://rect-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77745,9 +77736,21 @@
       "company": "CougarCS",
       "title": "CodeRED: Orion",
       "location": "Online",
-      "date": "about 23 hours left",
+      "date": "about 20 hours left",
       "posted_at": "2026-10-10",
       "url": "https://codered-orion-ccs.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "a221aaafc006f506",
+      "kind": "hackathon",
+      "company": "EvoHacks",
+      "title": "EvoHacks2026",
+      "location": "Online",
+      "date": "about 21 hours left",
+      "posted_at": "2026-10-10",
+      "url": "https://evohackathon2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77764,14 +77767,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "a221aaafc006f506",
+      "id": "94b43ca676bf157f",
       "kind": "hackathon",
-      "company": "EvoHacks",
-      "title": "EvoHacks2026",
-      "location": "Online",
-      "date": "1 day left",
+      "company": "BoxLang",
+      "title": "BoxLang-AI-ANIA-2026",
+      "location": "ANIA - El Salvador",
+      "date": "about 24 hours left",
       "posted_at": "2026-10-10",
-      "url": "https://evohackathon2026.devpost.com/",
+      "url": "https://boxlang-ai-ania-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78004,6 +78007,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "6ecabc1accea962a",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "https://evil.com",
+      "location": "Bengaluru, India",
+      "date": "9 days left",
+      "posted_at": "2026-10-10",
+      "url": "https://test-hackathon-for-grants.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "28bf028a55804f63",
       "kind": "hackathon",
       "company": "hyperbloom hacks",
@@ -78040,18 +78055,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "6ecabc1accea962a",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "https://evil.com",
-      "location": "Bengaluru, India",
-      "date": "10 days left",
-      "posted_at": "2026-10-10",
-      "url": "https://test-hackathon-for-grants.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "c0b5a0677a593308",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78062,6 +78065,18 @@
       "url": "https://meow.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "a0fe4593fc360094",
+      "kind": "hackathon",
+      "company": "Eureka Institute and UnivaDev",
+      "title": "EurekaDev 2026",
+      "location": "Online",
+      "date": "10 days left",
+      "posted_at": "2026-10-10",
+      "url": "https://eurekadev.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "da13631d5593f15a",
@@ -78172,6 +78187,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "6fb6ea617ce9a70a",
+      "kind": "hackathon",
+      "company": "IEEE Turkey",
+      "title": "IEEE ClimateChain Global Hackathon",
+      "location": "Online",
+      "date": "15 days left",
+      "posted_at": "2026-10-10",
+      "url": "https://ieee-climatechain-hack.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "6cea2153ea58ce55",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78196,6 +78223,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "efb32028a7cadcd0",
+      "kind": "hackathon",
+      "company": "OpenCV",
+      "title": "OpenCV AI Competition 2026, powered by AWS",
+      "location": "Online",
+      "date": "16 days left",
+      "posted_at": "2026-10-10",
+      "url": "https://opencv26.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "a032032ace9f3bc0",
       "kind": "hackathon",
       "company": "GitLab",
@@ -78204,18 +78243,6 @@
       "date": "17 days left",
       "posted_at": "2026-10-10",
       "url": "https://gitlab-transcend.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "efb32028a7cadcd0",
-      "kind": "hackathon",
-      "company": "OpenCV",
-      "title": "OpenCV AI Competition 2026, powered by AWS",
-      "location": "Online",
-      "date": "17 days left",
-      "posted_at": "2026-10-10",
-      "url": "https://opencv26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78340,6 +78367,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "03943543974f740e",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hack On Hills 8.0",
+      "location": "Hamirpur, India",
+      "date": "21 days left",
+      "posted_at": "2026-10-10",
+      "url": "https://hackonhills8.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "d553006f7fba567c",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78374,18 +78413,6 @@
       "url": "https://next-byte-hacks-v5.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "03943543974f740e",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hack On Hills 8.0",
-      "location": "Hamirpur, India",
-      "date": "22 days left",
-      "posted_at": "2026-10-10",
-      "url": "https://hackonhills8.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "b8075437fa20e350",
@@ -78602,18 +78629,6 @@
       "url": "https://hack-nexus.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "576ed7fd3b1a05e3",
-      "kind": "hackathon",
-      "company": "ezio",
-      "title": "#SFTechWeek - Decision-Grade AI @ Stanford ⚡️ A Buildathon on LLM Trust",
-      "location": "Industrious Palo Alto Page Mil",
-      "date": "31 minutes left",
-      "posted_at": "2026-10-10",
-      "url": "https://ai-trust.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
@@ -81162,6 +81177,30 @@
       "source_url": "https://github.com/tech-conferences/conference-data"
     },
     {
+      "id": "aed6d9da6026198f",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-10-10",
+      "url": "/sf-hackersquad?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "ada91f97fe8d8971",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (150k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-10-10",
+      "url": "/genai-sf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -81174,6 +81213,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "190d2fdcd350a5e9",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-10-10",
+      "url": "/frontiertower?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -81182,6 +81233,42 @@
       "date": "",
       "posted_at": "2026-10-10",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "c471298fc93884e0",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow PyTorch Conference San Jose · Explore side events at PyTorch Conference, where researchers, developers and AI builders gather around open source deep learning and the PyTorch ecosystem. October 20–21, 2026, San Jose.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-10-10",
+      "url": "/pytorchconf?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "e62e8da82d967bd3",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-10-10",
+      "url": "/sf-hardware-meetup?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "516d3d094f9486de",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow TechCrunch Disrupt San Francisco · Explore side events at TechCrunch Disrupt, where startup founders, investors and operators connect around emerging technology, fundraising and scaling companies. October 13–15, 2026, San Francisco. Unofficial calendar, not affiliated with TechCrunch.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-10-10",
+      "url": "/tc-disrupt?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
