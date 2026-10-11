@@ -4,12 +4,47 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Sun, 11 Oct 2026 08:50:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 15:44:03 GMT</lastBuildDate>
     <item>
       <title>Coupang — Sr.Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=7948499</link>
       <guid isPermaLink="false">08663e102caa2726</guid>
       <description>Hyderabad · mid_level · 0d</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Engineering Manager - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7439442002</link>
+      <guid isPermaLink="false">eb2b61cd37c7e358</guid>
+      <description>Bengaluru, India · mid_level · 0d</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer (App-Framework)</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002</link>
+      <guid isPermaLink="false">1a00da2fc7050da3</guid>
+      <description>Bengaluru, India · mid_level · 0d</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer (Backend)</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6709301002</link>
+      <guid isPermaLink="false">cf84401f654dcb59</guid>
+      <description>Bengaluru, India · mid_level · 0d</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer (Infra)</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7619810002</link>
+      <guid isPermaLink="false">652e33cc2035b70d</guid>
+      <description>Bengaluru, India · mid_level · 0d</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Data + AI Observability</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7897431002</link>
+      <guid isPermaLink="false">905fa0edbe0c0c68</guid>
+      <description>Bengaluru, India · mid_level · 0d</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -161,22 +196,15 @@
     </item>
     <item>
       <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8208074</link>
-      <guid isPermaLink="false">c64ab765bd23d6d4</guid>
-      <description>Gurugram · other · 2d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8239047</link>
-      <guid isPermaLink="false">3bf220ec63e43dcb</guid>
-      <description>Gurugram · other · 2d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Software Engineer 3</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=7993984</link>
       <guid isPermaLink="false">e4c7a324b57cb782</guid>
+      <description>Gurugram · other · 2d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8208074</link>
+      <guid isPermaLink="false">c64ab765bd23d6d4</guid>
       <description>Gurugram · other · 2d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -192,6 +220,13 @@
       <link>https://www.mongodb.com/careers/job/?gh_jid=8092317</link>
       <guid isPermaLink="false">5da37839012eee44</guid>
       <description>Sydney · other · 2d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8239047</link>
+      <guid isPermaLink="false">3bf220ec63e43dcb</guid>
+      <description>Gurugram · other · 2d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -678,13 +713,6 @@
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer II, FinTech General Ledger</title>
-      <link>https://www.amazon.jobs/en/jobs/10568815/software-development-engineer-ii-fintech-general-ledger</link>
-      <guid isPermaLink="false">8458f5b67d7d60d7</guid>
-      <description>Hyderabad, Telangana, IND · mid_level · 6d</description>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coupang — Senior Back-end Engineer (Cloud Infrastructure Automation)</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8107804</link>
       <guid isPermaLink="false">4b52222caf957503</guid>
@@ -718,20 +746,6 @@
       <guid isPermaLink="false">22bc335692f9dc11</guid>
       <description>Bengaluru, India · mid_level · 7d</description>
       <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Engineering Manager - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7439442002</link>
-      <guid isPermaLink="false">eb2b61cd37c7e358</guid>
-      <description>Bengaluru, India · mid_level · 8d</description>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer (App-Framework)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002</link>
-      <guid isPermaLink="false">1a00da2fc7050da3</guid>
-      <description>Bengaluru, India · mid_level · 8d</description>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Software Engineer (Data Platform)</title>
@@ -910,13 +924,6 @@
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7953042</link>
-      <guid isPermaLink="false">64d5cc2532e89965</guid>
-      <description>Hyderabad · mid_level · 10d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Senior Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8059287</link>
       <guid isPermaLink="false">6e8fbe8a0d9f2e5d</guid>
       <description>Bengaluru; Hyderabad · mid_level · 10d</description>
@@ -924,9 +931,9 @@
     </item>
     <item>
       <title>Coupang — Senior Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8067672</link>
-      <guid isPermaLink="false">d16ab6dc8dca44a0</guid>
-      <description>Bengaluru · mid_level · 10d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7953042</link>
+      <guid isPermaLink="false">64d5cc2532e89965</guid>
+      <description>Hyderabad · mid_level · 10d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -973,15 +980,15 @@
     </item>
     <item>
       <title>Coupang — Sr. Director, Back-End Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118861</link>
-      <guid isPermaLink="false">dcedf4c9c8a0c807</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118859</link>
+      <guid isPermaLink="false">4c63e9a34c143091</guid>
       <description>Seoul, South Korea · mid_level · 10d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Sr. Director, Back-End Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118859</link>
-      <guid isPermaLink="false">4c63e9a34c143091</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118861</link>
+      <guid isPermaLink="false">dcedf4c9c8a0c807</guid>
       <description>Seoul, South Korea · mid_level · 10d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1001,15 +1008,15 @@
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
-      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
+      <guid isPermaLink="false">b09f34f6077eca0a</guid>
       <description>Hyderabad · mid_level · 10d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
-      <guid isPermaLink="false">b09f34f6077eca0a</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
+      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
       <description>Hyderabad · mid_level · 10d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1735,20 +1742,6 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Senior Software Engineer (Backend)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=6709301002</link>
-      <guid isPermaLink="false">cf84401f654dcb59</guid>
-      <description>Bengaluru, India · mid_level · 20d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer (Infra)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7619810002</link>
-      <guid isPermaLink="false">652e33cc2035b70d</guid>
-      <description>Bengaluru, India · mid_level · 20d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Databricks — Senior Software Engineer (Money)</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7654347002</link>
       <guid isPermaLink="false">567d205fb1100637</guid>
@@ -1759,13 +1752,6 @@
       <title>Databricks — Senior Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8320183002</link>
       <guid isPermaLink="false">60f10178c20535cd</guid>
-      <description>Bengaluru, India · mid_level · 20d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Data + AI Observability</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7897431002</link>
-      <guid isPermaLink="false">905fa0edbe0c0c68</guid>
       <description>Bengaluru, India · mid_level · 20d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
