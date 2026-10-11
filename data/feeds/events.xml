@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Sun, 11 Oct 2026 15:44:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 20:18:01 GMT</lastBuildDate>
     <item>
       <title>Apache Software Foundation — Community over Code</title>
       <link>https://communityovercode.org/</link>
@@ -80,6 +80,13 @@
       <link>https://techcrunch.com/events/techcrunch-disrupt/</link>
       <guid isPermaLink="false">91b2b61bd495ecd7</guid>
       <description>San Francisco, USA · 2 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI Builders Global Conference — AI Builders Global Conference</title>
+      <link>https://aibuildersnetwork.org/conference</link>
+      <guid isPermaLink="false">674f0b8b7ea649a5</guid>
+      <description>Virtual · 3 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -248,6 +255,13 @@
       <link>https://testcon.lt</link>
       <guid isPermaLink="false">53f3ff5275217289</guid>
       <description>Vilnius, Lithuania · 9 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Matrix Conference — The Matrix Conference</title>
+      <link>https://conference.matrix.org</link>
+      <guid isPermaLink="false">9c90e84ae2bafaf9</guid>
+      <description>Malmö, Sweden · 9 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -437,6 +451,20 @@
       <link>https://www.lambda.world</link>
       <guid isPermaLink="false">9111f0a271d90466</guid>
       <description>Malaga, Spain · 18 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quality Forge — Quality Forge</title>
+      <link>https://qualityforge.io</link>
+      <guid isPermaLink="false">6cd8b9668e07122d</guid>
+      <description>Virtual · 18 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Web AI Summit — Web AI Summit</title>
+      <link>https://goo.gle/WebAISummit26</link>
+      <guid isPermaLink="false">0ac225c15609840a</guid>
+      <description>Sunnyvale, CA, U.S.A. · 19 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -979,10 +1007,24 @@
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>PyConf — PyConf</title>
+      <link>https://pyconf.org</link>
+      <guid isPermaLink="false">804c24d50b45be4d</guid>
+      <description>San Francisco, CA, U.S.A. · 54 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>React Day Berlin — React Day Berlin</title>
       <link>https://reactday.berlin</link>
       <guid isPermaLink="false">895c17e7af3281b2</guid>
       <description>Berlin, Germany · 54 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DevFestMN — DevFestMN</title>
+      <link>https://devfest.mn</link>
+      <guid isPermaLink="false">ac2bb5b378ca7b52</guid>
+      <description>Minneapolis, MN, U.S.A. · 55 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1091,6 +1133,13 @@
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>FUN OCaml — FUN OCaml</title>
+      <link>https://fun-ocaml.com</link>
+      <guid isPermaLink="false">e97498603cbf51a1</guid>
+      <description>Bangalore, India · 106 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>FOSDEM — FOSDEM</title>
       <link>https://fosdem.org/2027/</link>
       <guid isPermaLink="false">4f4014ba094e2c6e</guid>
@@ -1102,6 +1151,13 @@
       <link>https://datascience.averconferences.com</link>
       <guid isPermaLink="false">f4cf66404c3e6ca5</guid>
       <description>Dubai, United Arab Emirates · 113 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ARCtic Conference — ARCtic Conference</title>
+      <link>https://arcticonference.com</link>
+      <guid isPermaLink="false">86f52049a2e5af9b</guid>
+      <description>Oulu, Finland · 114 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1182,6 +1238,13 @@
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>BASTA! Spring — BASTA! Spring</title>
+      <link>https://basta.net/frankfurt</link>
+      <guid isPermaLink="false">8f39cd13bbfc4d05</guid>
+      <description>Frankfurt am Main, Germany · 141 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GSMA — MWC Barcelona</title>
       <link>https://www.mwcbarcelona.com/</link>
       <guid isPermaLink="false">ad564004fd7293e1</guid>
@@ -1252,10 +1315,38 @@
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Appdevcon — Appdevcon</title>
+      <link>https://appdevcon.nl</link>
+      <guid isPermaLink="false">05019d6dcf65bb54</guid>
+      <description>Amsterdam, Netherlands · 156 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dutch AI Conference — Dutch AI Conference</title>
+      <link>https://aiconference.nl</link>
+      <guid isPermaLink="false">b36bd2f079026b3d</guid>
+      <description>Amsterdam, Netherlands · 156 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dutch PHP Conference — Dutch PHP Conference</title>
+      <link>https://phpconference.nl</link>
+      <guid isPermaLink="false">292a213ca5bd4684</guid>
+      <description>Amsterdam, Netherlands · 156 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GITEX AI LATAM — GITEX AI LATAM</title>
       <link>https://www.gitexlatam.com</link>
       <guid isPermaLink="false">fe822c7618815460</guid>
       <description>São Paulo, Brazil · 156 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Webdevcon — Webdevcon</title>
+      <link>https://webdevcon.nl</link>
+      <guid isPermaLink="false">5258736760284ba8</guid>
+      <description>Amsterdam, Netherlands · 156 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1270,6 +1361,13 @@
       <link>https://aiml.scientificmeditech.com</link>
       <guid isPermaLink="false">a95351301b9728e6</guid>
       <description>Barcelona, Spain · 160 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PyCascades — PyCascades</title>
+      <link>https://2027.pycascades.com</link>
+      <guid isPermaLink="false">c86c413b7fa06e6c</guid>
+      <description>Seattle, WA, U.S.A. · 160 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1311,6 +1409,13 @@
       <title>GENAIX: Global Generative &amp; Agentic AI Summit — GENAIX: Global Generative &amp; Agentic AI Summit</title>
       <link>https://genaixworld.com</link>
       <guid isPermaLink="false">f280c09d9e465933</guid>
+      <description>Singapore, Singapore · 186 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>React Summit Asia — React Summit Asia</title>
+      <link>https://reactsummit.asia</link>
+      <guid isPermaLink="false">bf3680c8422136b9</guid>
       <description>Singapore, Singapore · 186 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1357,10 +1462,24 @@
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Mobile Makers — Mobile Makers</title>
+      <link>https://mobilemakers.fr/en/#cfp</link>
+      <guid isPermaLink="false">2ee23f54b205b4a4</guid>
+      <description>Paris, France · 201 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>KAOUN Int'l — GITEX Europe</title>
       <link>https://www.gitex-europe.com/</link>
       <guid isPermaLink="false">9fde24ffcc90d233</guid>
       <description>Berlin, Germany · 205 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Re:Build — Re:Build</title>
+      <link>https://rebuildcon.uk</link>
+      <guid isPermaLink="false">29dc7f4e3df53266</guid>
+      <description>London, U.K. · 206 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1399,6 +1518,13 @@
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>API Conference London — API Conference London</title>
+      <link>https://apiconference.net/london</link>
+      <guid isPermaLink="false">fab476bad8e465cf</guid>
+      <description>London, U.K. · 239 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>enterJS — enterJS</title>
       <link>https://enterjs.de</link>
       <guid isPermaLink="false">aed7292b137b0a04</guid>
@@ -1417,6 +1543,20 @@
       <link>https://icraias2027.com</link>
       <guid isPermaLink="false">33621317ca99b993</guid>
       <description>Singapore, Singapore · 241 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI in Production — AI in Production</title>
+      <link>https://ai-in-production.jumpingrivers.com</link>
+      <guid isPermaLink="false">23e8b20731fb72eb</guid>
+      <description>Newcastle-Upon-Tyne, U.K. · 242 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DevOpsCon Berlin — DevOpsCon Berlin</title>
+      <link>https://devopscon.io/berlin</link>
+      <guid isPermaLink="false">f3a5492889d14ec6</guid>
+      <description>Berlin, Germany · 246 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1487,6 +1627,13 @@
       <link>https://vividglobalsummits.com/2027/agsrobot</link>
       <guid isPermaLink="false">13965724245edcd0</guid>
       <description>Rome, Italy · 339 days left</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BASTA! Fall — BASTA! Fall</title>
+      <link>https://basta.net/mainz</link>
+      <guid isPermaLink="false">873f3e97e2d7c148</guid>
+      <description>Mainz, Germany · 351 days left</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T15:39:51Z",
+ "generated_at": "2026-10-11T20:15:24Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -201,6 +201,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://2027.pycascades.com": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Amsterdam/AGBG-Full-Stack-Engineer---Google-Deployed-Engineer_R00359168": {
    "alive": true,
    "at": "2026-10-07T01:32:03Z"
@@ -325,6 +329,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://ai-in-production.jumpingrivers.com": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://ai-lodge-hackathon-2026.devpost.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -332,6 +340,10 @@
   "https://ai-trust.devpost.com/": {
    "alive": true,
    "at": "2026-10-10T18:34:24Z"
+  },
+  "https://aibuildersnetwork.org/conference": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://aic-ic-2026.devpost.com/": {
    "alive": true,
@@ -360,6 +372,10 @@
   "https://aiconference.london": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://aiconference.nl": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://aiconusa.techwell.com": {
    "alive": true,
@@ -432,6 +448,10 @@
   "https://apiconference.net/berlin": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://apiconference.net/london": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://app.careerpuck.com/job-board/lyft/job/8396751002?gh_jid=8396751002": {
    "alive": true,
@@ -637,6 +657,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://appdevcon.nl": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://apply.careers.microsoft.com/careers/job/1970393556922922": {
    "alive": true,
    "at": "2026-10-09T16:10:43Z"
@@ -817,6 +841,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://arcticonference.com": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://arkiv.devfolio.co": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -860,6 +888,14 @@
   "https://banana-hacks-1111.devpost.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://basta.net/frankfurt": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
+  "https://basta.net/mainz": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://bic.devpost.com/": {
    "alive": true,
@@ -4601,10 +4637,6 @@
    "alive": true,
    "at": "2026-10-10T07:05:36Z"
   },
-  "https://caseclosed.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-04T17:34:10Z"
-  },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Boston-Massachusetts-US/Lead-Site-Reliability-Engineer--Engineering-Enablement--Remote-_2018189": {
    "alive": true,
    "at": "2026-10-08T08:57:04Z"
@@ -4836,6 +4868,10 @@
   "https://conference.joomla.org": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://conference.matrix.org": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://conference.opensource.lu/": {
    "alive": true,
@@ -5681,6 +5717,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://devfest.mn": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://devnexus2.devfolio.co": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -5688,6 +5728,10 @@
   "https://devonomicsv1.devpost.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://devopscon.io/berlin": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://devopscon.io/muenchen": {
    "alive": true,
@@ -6033,6 +6077,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://fun-ocaml.com": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://future-innovators-hackothon.devpost.com/": {
    "alive": true,
    "at": "2026-10-04T21:23:03Z"
@@ -6064,6 +6112,10 @@
   "https://gitlab-transcend.devpost.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://goo.gle/WebAISummit26": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://graphiques-challenge.devpost.com/": {
    "alive": true,
@@ -6233,6 +6285,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://ieee-ai-hack-for-humanity.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://ieee-climatechain-hack.devpost.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -6251,7 +6307,7 @@
   },
   "https://in.indeed.com/viewjob?jk=38ac30d87056f5a8": {
    "alive": true,
-   "at": "2026-10-10T18:34:05Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://in.indeed.com/viewjob?jk=f629b7f96aa9df00": {
    "alive": true,
@@ -9096,6 +9152,10 @@
   "https://jobs.apple.com/en-us/details/200688303/graphics-software-engineer": {
    "alive": true,
    "at": "2026-10-11T15:39:03Z"
+  },
+  "https://jobs.apple.com/en-us/details/200688305/graphics-software-engineer": {
+   "alive": true,
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://jobs.ashbyhq.com/alan/0ff78ea3-64c0-4b4e-ad0f-72d54175b132": {
    "alive": true,
@@ -14081,6 +14141,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://mobilemakers.fr/en/#cfp": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://momentera.org/conference/unhacked-360-germany-futuresec-world-summit": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -14393,6 +14457,10 @@
    "alive": true,
    "at": "2026-10-08T16:27:39Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Systems-Software-Engineer--CUDA-Driver_JR2027290": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer---Graphics_JR2026780": {
    "alive": true,
    "at": "2026-10-04T21:23:03Z"
@@ -14555,7 +14623,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1": {
    "alive": true,
-   "at": "2026-10-07T16:27:38Z"
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Software-Engineering-Manager---Cloud-Streaming_JR2026422": {
    "alive": true,
@@ -14623,7 +14691,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316": {
    "alive": true,
-   "at": "2026-10-05T22:36:53Z"
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Engineer--Developer-Platform_JR2026158": {
    "alive": true,
@@ -14651,7 +14719,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Distributed-Software-Engineer--Golang---DGX-Cloud_JR2024570-1": {
    "alive": true,
-   "at": "2026-10-07T08:37:51Z"
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214": {
    "alive": true,
@@ -14759,7 +14827,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Object-Storage---DGX-Cloud_JR2025155": {
    "alive": true,
-   "at": "2026-10-05T15:59:44Z"
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Platform-Engineering_JR2015832": {
    "alive": true,
@@ -14775,7 +14843,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer---DGX-Cloud_JR2026042": {
    "alive": true,
-   "at": "2026-10-07T08:37:51Z"
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer--DGXC-Data-Services_JR2020844": {
    "alive": true,
@@ -14909,10 +14977,6 @@
    "alive": true,
    "at": "2026-10-11T08:48:21Z"
   },
-  "https://oneaquahealth-ieee-hackathon.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-04T17:34:10Z"
-  },
   "https://onegiantleap.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -14956,6 +15020,10 @@
   "https://phpconference.com/munich": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://phpconference.nl": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://popl27.sigplan.org/": {
    "alive": true,
@@ -15005,6 +15073,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://pyconf.org": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://qatar.websummit.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -15029,6 +15101,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:03Z"
   },
+  "https://qualityforge.io": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://quanthacks2026.devfolio.co": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -15041,6 +15117,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://reactsummit.asia": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://reactsummit.us": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -15052,6 +15132,10 @@
   "https://realm-hack-1.devfolio.co": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://rebuildcon.uk": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://rect-hackathon.devpost.com/": {
    "alive": true,
@@ -16121,6 +16205,10 @@
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
   },
+  "https://ucsc-ai-hackathon.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
+  },
   "https://univabio.devpost.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
@@ -16243,7 +16331,7 @@
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Staff-Software-Engineer_REF087726W": {
    "alive": true,
-   "at": "2026-10-08T08:57:04Z"
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/PL---Warsaw-Poland/Director--Software-Engineering_REF089193W": {
    "alive": true,
@@ -16412,6 +16500,10 @@
   "https://warriorhacks-2-0.devpost.com/": {
    "alive": true,
    "at": "2026-10-11T15:39:51Z"
+  },
+  "https://webdevcon.nl": {
+   "alive": true,
+   "at": "2026-10-11T20:15:24Z"
   },
   "https://webinale.com/munich": {
    "alive": true,
@@ -17047,7 +17139,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10441292/software-development-engineer-aws-iam-distributed-database-system": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10441311/software-development-engineer-aws-iam-distributed-database-system": {
    "alive": true,
@@ -17559,7 +17651,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10485450/software-development-engineer-ads-ai-core-infra-aci": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10486573/software-development-engineer-ii-amazon-security": {
    "alive": true,
@@ -17675,7 +17767,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10490681/software-development-engineer-ii-prime-air": {
    "alive": true,
@@ -18235,7 +18327,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10510497/software-development-engineer-aws-simple-queue-service-sqs": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10510500/software-development-engineer-aws-simple-queue-service-sqs": {
    "alive": true,
@@ -18599,7 +18691,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10526828/software-development-engineer-ii-prime-video-ads-channels": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10526906/software-development-engineer-amazon-music": {
    "alive": true,
@@ -18979,7 +19071,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10539807/software-development-engineer-robotics-development-and-packaging-innovation": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10541244/software-development-engineer-ii-product-offers-experience": {
    "alive": true,
@@ -19151,7 +19243,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10547074/software-development-engineer-amazon-dsp-amazon-ad-exchange": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10547103/software-development-engineer-humorphic-labs": {
    "alive": true,
@@ -19347,7 +19439,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10554118/software-development-engineer-ii-alexa-smart-home-cameras": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10554323/software-development-engineer-amazon": {
    "alive": true,
@@ -19783,7 +19875,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10561438/software-development-engineer-test-device-partnerships-prime-video": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10561581/software-development-engineer": {
    "alive": true,
@@ -19951,7 +20043,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10565718/software-development-engineer-ii-amazon-finauto-travel-events": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10565727/software-development-engineer-embedded-umac": {
    "alive": true,
@@ -20059,7 +20151,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10567585/software-development-engineer-leo-network-services-network-orchestration": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10567888/software-development-engineer-ii-agi-security": {
    "alive": true,
@@ -20307,7 +20399,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10571464/software-development-engineer-linux-kernel-aws-hardware-engineering": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10571633/software-development-engineer-cam": {
    "alive": true,
@@ -20483,7 +20575,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10574336/software-development-engineer-ii-recipient-experience-recipient-experience": {
    "alive": true,
-   "at": "2026-10-10T22:30:23Z"
+   "at": "2026-10-11T20:15:06Z"
   },
   "https://www.amazon.jobs/en/jobs/10574622/software-development-engineer-ii-elastic-load-balancing-elb": {
    "alive": true,
@@ -21652,30 +21744,6 @@
   "https://www.google.com/about/careers/applications/jobs/results/89965613241246406": {
    "alive": true,
    "at": "2026-10-11T15:39:03Z"
-  },
-  "https://www.hackerearth.com/challenges/competitive/hcltech-gcp-data-engineer-hiring-challenge/": {
-   "alive": true,
-   "at": "2026-10-04T17:34:10Z"
-  },
-  "https://www.hackerearth.com/challenges/competitive/hcltech-java-challenge-2027/": {
-   "alive": true,
-   "at": "2026-10-04T17:34:10Z"
-  },
-  "https://www.hackerearth.com/challenges/competitive/pride-in-tech-by-godrej-capital/": {
-   "alive": true,
-   "at": "2026-10-04T17:34:10Z"
-  },
-  "https://www.hackerearth.com/challenges/hackathon/hackcellence-the-embark-edition/": {
-   "alive": true,
-   "at": "2026-10-04T17:34:10Z"
-  },
-  "https://www.hackerearth.com/challenges/hackathon/vibecode-arena-ai-innovation-arena/": {
-   "alive": true,
-   "at": "2026-10-04T17:34:10Z"
-  },
-  "https://www.hackerearth.com/challenges/hackathon/yuva-yodha-energy-tech-hackathon/": {
-   "alive": true,
-   "at": "2026-10-04T17:34:10Z"
   },
   "https://www.hackjunction.com/": {
    "alive": true,
