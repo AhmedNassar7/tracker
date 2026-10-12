@@ -4,12 +4,47 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Mon, 12 Oct 2026 15:23:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 23:01:57 GMT</lastBuildDate>
     <item>
       <title>Scale AI — Senior Full-Stack Software Engineer, (Forward deployed), GPS</title>
       <link>https://job-boards.greenhouse.io/scaleai/jobs/4732394005</link>
       <guid isPermaLink="false">12eaf3fb30a8a438</guid>
       <description>Riyadh, Saudi Arabia · mid_level · 0d</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scale AI — Senior Full-Stack Software Engineer, (Forward Deployed), GPS</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4676606005</link>
+      <guid isPermaLink="false">f42e4938742fd232</guid>
+      <description>Doha, Qatar · mid_level · 0d</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scale AI — Software Engineer - New Grad</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730851005</link>
+      <guid isPermaLink="false">13659721b3995c0d</guid>
+      <description>Doha, Qatar · new_grad · 0d</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scale AI — Software Engineering Intern (Summer 2027)</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730834005</link>
+      <guid isPermaLink="false">3b0ec2c3687d7d2e</guid>
+      <description>Doha, Qatar · internship · 0d</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scale AI — Staff Full-Stack Software Engineer, (Forward Deployed), GPS</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4732430005</link>
+      <guid isPermaLink="false">3bc2adc75152ae08</guid>
+      <description>Riyadh, Saudi Arabia · mid_level · 0d</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scale AI — Staff FullStack Software Engineer, (Forward Deployed), GPS</title>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4673314005</link>
+      <guid isPermaLink="false">ba0c50f25cee5bf9</guid>
+      <description>Doha, Qatar · mid_level · 0d</description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -25,41 +60,6 @@
       <guid isPermaLink="false">94bd9b2c166acf96</guid>
       <description>Cairo Office · mid_level · 4d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scale AI — Senior Full-Stack Software Engineer, (Forward Deployed), GPS</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4676606005</link>
-      <guid isPermaLink="false">f42e4938742fd232</guid>
-      <description>Doha, Qatar · mid_level · 6d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scale AI — Software Engineer - New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730851005</link>
-      <guid isPermaLink="false">13659721b3995c0d</guid>
-      <description>Doha, Qatar · new_grad · 6d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scale AI — Software Engineering Intern (Summer 2027)</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730834005</link>
-      <guid isPermaLink="false">3b0ec2c3687d7d2e</guid>
-      <description>Doha, Qatar · internship · 6d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scale AI — Staff Full-Stack Software Engineer, (Forward Deployed), GPS</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4732430005</link>
-      <guid isPermaLink="false">3bc2adc75152ae08</guid>
-      <description>Riyadh, Saudi Arabia · mid_level · 6d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scale AI — Staff FullStack Software Engineer, (Forward Deployed), GPS</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4673314005</link>
-      <guid isPermaLink="false">ba0c50f25cee5bf9</guid>
-      <description>Doha, Qatar · mid_level · 6d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Yassir — Senior Mobile Android Engineer</title>
@@ -580,16 +580,22 @@
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Senior Software Engineer - Tools and Production Pipelines</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-Software-Engineer---Tools-and-Production-Pipelines_JR2027027</link>
+      <guid isPermaLink="false">184e4c6adef31d15</guid>
+      <description>Israel, Tel Aviv +2 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer, DOCA SDK</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--DOCA-SDK_JR2013546</link>
+      <guid isPermaLink="false">fd4d38d8f045382c</guid>
+      <description>Israel, Yokneam · mid_level · 0d</description>
+    </item>
+    <item>
       <title>Salesforce — Lead Backend Software Engineer</title>
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Israel---Tel-Aviv/Mid-Level-Senior-Backend-Software-Engineer_JR341307</link>
       <guid isPermaLink="false">e08a57ce7229447b</guid>
       <description>Israel - Tel Aviv · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Software-Engineer_JR2016506</link>
-      <guid isPermaLink="false">fda7d2e39f43b856</guid>
-      <description>Israel, Raanana +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>Salesforce — Mid- Level Backend Engineer</title>
