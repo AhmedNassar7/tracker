@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Tue, 13 Oct 2026 11:50:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:18:14 GMT</lastBuildDate>
     <item>
       <title>betterCode() Java — betterCode() Java</title>
       <link>https://java.bettercode.eu</link>
@@ -1619,6 +1619,13 @@
       <title>DevOpsCon Berlin — DevOpsCon Berlin</title>
       <link>https://devopscon.io/berlin</link>
       <guid isPermaLink="false">f3a5492889d14ec6</guid>
+      <description>Berlin, Germany · 244 days left</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GopherCon Europe — GopherCon Europe</title>
+      <link>https://www.gophercon.eu</link>
+      <guid isPermaLink="false">7158a94167620c7a</guid>
       <description>Berlin, Germany · 244 days left</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>

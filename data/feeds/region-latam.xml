@@ -4,19 +4,40 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Tue, 13 Oct 2026 11:50:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:18:14 GMT</lastBuildDate>
     <item>
-      <title>Lyft — Software Engineer, Supply Platform</title>
-      <link>https://app.careerpuck.com/job-board/lyft/job/8883515002?gh_jid=8883515002</link>
-      <guid isPermaLink="false">4765cdee356eeedf</guid>
-      <description>Mexico City, Mexico · other · 1d</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <title>Airbnb — Senior Software Engineer, Analytics Infrastructure</title>
+      <link>https://careers.airbnb.com/positions/8263282?gh_jid=8263282</link>
+      <guid isPermaLink="false">bfbb8fce7e758989</guid>
+      <description>Brazil · mid_level · 0d</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Software Engineer, Analytics Infrastructure</title>
+      <link>https://careers.airbnb.com/positions/8263303?gh_jid=8263303</link>
+      <guid isPermaLink="false">378ee75255b43b52</guid>
+      <description>Brazil · other · 0d</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
       <guid isPermaLink="false">1ce62c63e37bc29e</guid>
-      <description>Mexico · mid_level · 1d</description>
+      <description>Mexico · mid_level · 0d</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sumup — Senior Software Engineer (Lending Team)</title>
+      <link>https://sumup.com/careers/positions/8769169002?gh_jid=8769169002</link>
+      <guid isPermaLink="false">3ee0d9e70044c025</guid>
+      <description>São Paulo, São Paulo, Brazil · mid_level · 0d</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lyft — Software Engineer, Supply Platform</title>
+      <link>https://app.careerpuck.com/job-board/lyft/job/8883515002?gh_jid=8883515002</link>
+      <guid isPermaLink="false">4765cdee356eeedf</guid>
+      <description>Mexico City, Mexico · other · 1d</description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -188,13 +209,6 @@
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sumup — Senior Software Engineer (Lending Team)</title>
-      <link>https://sumup.com/careers/positions/8769169002?gh_jid=8769169002</link>
-      <guid isPermaLink="false">3ee0d9e70044c025</guid>
-      <description>São Paulo, São Paulo, Brazil · mid_level · 21d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Schneider Electric — Becario, Aprendiz o Trainee en Proyectos de Cliente, Soluciones y Servicios</title>
       <link>https://careers.se.com/jobs/133835</link>
       <guid isPermaLink="false">4f4fc636cbf4b529</guid>
@@ -298,13 +312,6 @@
       <guid isPermaLink="false">034db14fad46d348</guid>
       <description>Mexico City, Mexico City, MEX · unknown · 76d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Schneider Electric — ASSISTENTE INFRAESTRUTURA</title>
-      <link>https://careers.se.com/jobs/121143</link>
-      <guid isPermaLink="false">6e048b110368f49b</guid>
-      <description>Blumenau, Brazil · other · 88d</description>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Digital Payments and Emerging Markets</title>
