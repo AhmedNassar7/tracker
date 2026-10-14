@@ -4,12 +4,40 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Wed, 14 Oct 2026 15:10:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 19:25:32 GMT</lastBuildDate>
+    <item>
+      <title>Coinbase — Senior Product Designer, Platform</title>
+      <link>https://www.coinbase.com/careers/positions/8280149?gh_jid=8280149</link>
+      <guid isPermaLink="false">13d8cd37d94d48fc</guid>
+      <description>Remote - USA · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase — Senior Software Engineer</title>
+      <link>https://www.coinbase.com/careers/positions/7961318?gh_jid=7961318</link>
+      <guid isPermaLink="false">65e0e2a69b174710</guid>
+      <description>Remote - USA · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Coinbase — Senior Software Engineer - Access &amp; Authorization (Platform)</title>
       <link>https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039</link>
       <guid isPermaLink="false">6c629310f55efb48</guid>
       <description>Remote - USA · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase — Software Engineer, CDP - Stablecoin</title>
+      <link>https://www.coinbase.com/careers/positions/8234278?gh_jid=8234278</link>
+      <guid isPermaLink="false">a794f84a26e96c50</guid>
+      <description>Remote - USA · other · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase — Software Engineer, Enterprise Apps</title>
+      <link>https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479</link>
+      <guid isPermaLink="false">d1906c58670ecc64</guid>
+      <description>Remote - Brazil · other · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -27,10 +55,10 @@
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Reddit — Backend Engineer, IAM</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8189317</link>
-      <guid isPermaLink="false">0028ef621c4c16eb</guid>
-      <description>Remote - United States · other · 0d</description>
+      <title>Instacart — Senior Software Engineer II, Ads Data Solutions Engineering</title>
+      <link>https://instacart.careers/job/?gh_jid=8281965</link>
+      <guid isPermaLink="false">5b64a40107d94707</guid>
+      <description>United States - Remote · mid_level · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -126,16 +154,16 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
-      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
-      <description>Remote - Ontario, Canada · mid_level · 0d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
+      <guid isPermaLink="false">aac8e64367028cfe</guid>
+      <description>Remote - United States · mid_level · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
-      <guid isPermaLink="false">aac8e64367028cfe</guid>
-      <description>Remote - United States · mid_level · 0d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
+      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
+      <description>Remote - Ontario, Canada · mid_level · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -321,6 +349,20 @@
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Twilio — Principal Software Engineer</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8081530</link>
+      <guid isPermaLink="false">bca3137a83d4c3bd</guid>
+      <description>Remote - US · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Senior Manager, Software Engineering (L5)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8267554</link>
+      <guid isPermaLink="false">6d6e5eaeee318bca</guid>
+      <description>Remote - India · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Twilio — Senior Software Engineer</title>
       <link>https://job-boards.greenhouse.io/twilio/jobs/8015771</link>
       <guid isPermaLink="false">5de9aa503b387621</guid>
@@ -328,10 +370,87 @@
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Twilio — Senior Software Engineer</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8065028</link>
+      <guid isPermaLink="false">9aa2cb48b9395b8b</guid>
+      <description>Remote - US · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Senior Software Engineer (L3)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8099162</link>
+      <guid isPermaLink="false">2f5498f3e8458c17</guid>
+      <description>Remote - Canada; Remote - US · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Software Engineer (L2) Messaging Channels Team</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8247182</link>
+      <guid isPermaLink="false">1ba7810dc64e4d67</guid>
+      <description>Remote - US · other · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Software Engineer - Video</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7661919</link>
+      <guid isPermaLink="false">61c941f9a9fcda84</guid>
+      <description>Remote - US · other · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Software Engineer L2 - Cloud Infrastructure</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7434770</link>
+      <guid isPermaLink="false">d1c81c41cd751192</guid>
+      <description>Remote - US · other · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Software Engineer L3</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8009057</link>
+      <guid isPermaLink="false">8428a30f069fde08</guid>
+      <description>Remote - US · other · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Software Engineer, Platform Access (L2)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8026211</link>
+      <guid isPermaLink="false">47772e8c994e031c</guid>
+      <description>Remote - US · other · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Software Engineer, Platform Engineering (L2)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8026207</link>
+      <guid isPermaLink="false">54b402b06887f792</guid>
+      <description>Remote - US · other · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Staff Mobile Software Engineer (P4)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8067027</link>
+      <guid isPermaLink="false">7f9c89d4d75d3367</guid>
+      <description>Remote - US · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Twilio — Staff Software Engineer</title>
       <link>https://job-boards.greenhouse.io/twilio/jobs/8071710</link>
       <guid isPermaLink="false">9554a1d2269243c3</guid>
       <description>Remote - Ireland · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Staff Software Engineer</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
+      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
+      <description>Remote - Canada · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Staff Software Engineer (L4)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7716279</link>
+      <guid isPermaLink="false">d55f01ef83636424</guid>
+      <description>Remote - Canada · mid_level · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -346,6 +465,13 @@
       <link>https://job-boards.greenhouse.io/twilio/jobs/8236865</link>
       <guid isPermaLink="false">c63b8d280915799c</guid>
       <description>Remote - India · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Staff Software Engineer, Fraud</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/7595407</link>
+      <guid isPermaLink="false">b408fc6f1fe918c1</guid>
+      <description>Remote - US · mid_level · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -377,23 +503,9 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Infrastructure Engineer, Trading</title>
-      <link>https://www.coinbase.com/careers/positions/8179114?gh_jid=8179114</link>
-      <guid isPermaLink="false">de3ae8748f4b30ff</guid>
-      <description>Remote - USA · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Senior Performance Marketing Manager, Global Paid Social &amp; Mobile UA</title>
       <link>https://www.coinbase.com/careers/positions/8192485?gh_jid=8192485</link>
       <guid isPermaLink="false">0d4be64a749a4860</guid>
-      <description>Remote - USA · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Senior Software Engineer</title>
-      <link>https://www.coinbase.com/careers/positions/7961318?gh_jid=7961318</link>
-      <guid isPermaLink="false">65e0e2a69b174710</guid>
       <description>Remote - USA · mid_level · 1d</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -671,31 +783,10 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Software Engineer, CDP - Stablecoin</title>
-      <link>https://www.coinbase.com/careers/positions/8234278?gh_jid=8234278</link>
-      <guid isPermaLink="false">a794f84a26e96c50</guid>
-      <description>Remote - USA · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Software Engineer, EAA</title>
       <link>https://www.coinbase.com/careers/positions/8100066?gh_jid=8100066</link>
       <guid isPermaLink="false">e25dfe5b1e9525e7</guid>
       <description>Remote - Brazil · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Software Engineer, Enterprise Apps</title>
-      <link>https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479</link>
-      <guid isPermaLink="false">d1906c58670ecc64</guid>
-      <description>Remote - Brazil · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Infrastructure Engineer, Trading</title>
-      <link>https://www.coinbase.com/careers/positions/8144769?gh_jid=8144769</link>
-      <guid isPermaLink="false">f2a79c054c767834</guid>
-      <description>Remote - USA · mid_level · 1d</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -860,107 +951,9 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Twilio — Principal Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8081530</link>
-      <guid isPermaLink="false">bca3137a83d4c3bd</guid>
-      <description>Remote - US · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Senior Manager, Software Engineering (L5)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8267554</link>
-      <guid isPermaLink="false">6d6e5eaeee318bca</guid>
-      <description>Remote - India · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Senior Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8065028</link>
-      <guid isPermaLink="false">9aa2cb48b9395b8b</guid>
-      <description>Remote - US · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Senior Software Engineer (L3)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8099162</link>
-      <guid isPermaLink="false">2f5498f3e8458c17</guid>
-      <description>Remote - Canada; Remote - US · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer (L2) Messaging Channels Team</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8247182</link>
-      <guid isPermaLink="false">1ba7810dc64e4d67</guid>
-      <description>Remote - US · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer - Video</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7661919</link>
-      <guid isPermaLink="false">61c941f9a9fcda84</guid>
-      <description>Remote - US · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer L2 - Cloud Infrastructure</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7434770</link>
-      <guid isPermaLink="false">d1c81c41cd751192</guid>
-      <description>Remote - US · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer L3</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8009057</link>
-      <guid isPermaLink="false">8428a30f069fde08</guid>
-      <description>Remote - US · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer, Platform Access (L2)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8026211</link>
-      <guid isPermaLink="false">47772e8c994e031c</guid>
-      <description>Remote - US · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer, Platform Engineering (L2)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8026207</link>
-      <guid isPermaLink="false">54b402b06887f792</guid>
-      <description>Remote - US · other · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Staff Mobile Software Engineer (P4)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8067027</link>
-      <guid isPermaLink="false">7f9c89d4d75d3367</guid>
-      <description>Remote - US · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7944328</link>
-      <guid isPermaLink="false">38b9a99ed523ad4f</guid>
-      <description>Remote - Canada · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Staff Software Engineer (L4)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7716279</link>
-      <guid isPermaLink="false">d55f01ef83636424</guid>
-      <description>Remote - Canada · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Twilio — Staff Software Engineer (L4) Data Platform</title>
       <link>https://job-boards.greenhouse.io/twilio/jobs/7782805</link>
       <guid isPermaLink="false">76190ef4cdbad205</guid>
-      <description>Remote - US · mid_level · 1d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Staff Software Engineer, Fraud</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/7595407</link>
-      <guid isPermaLink="false">b408fc6f1fe918c1</guid>
       <description>Remote - US · mid_level · 1d</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -972,6 +965,20 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Elevenlabs — Full-Stack Engineer (Backend Leaning) - Studio</title>
+      <link>https://jobs.ashbyhq.com/elevenlabs/a1c86d02-e9df-4580-87e4-1333f2b83e94</link>
+      <guid isPermaLink="false">c31854974f58d27d</guid>
+      <description>Remote · other · 5d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elevenlabs — Full-Stack Engineer (Frontend Leaning) - Studio</title>
+      <link>https://jobs.ashbyhq.com/elevenlabs/e6924f60-c8cc-42b3-9d05-2442ec30e12d</link>
+      <guid isPermaLink="false">20708432677d5112</guid>
+      <description>Remote · other · 5d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Instacart — Senior Software Engineer II - Ads Quality</title>
       <link>https://instacart.careers/job/?gh_jid=8234282</link>
       <guid isPermaLink="false">82f008b8ffa6ff08</guid>
@@ -980,16 +987,16 @@
     </item>
     <item>
       <title>Instacart — Senior Software Engineer II, Ads Data Solutions Engineering</title>
-      <link>https://instacart.careers/job/?gh_jid=7951938</link>
-      <guid isPermaLink="false">9a2262e959bce677</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 5d</description>
+      <link>https://instacart.careers/job/?gh_jid=8246054</link>
+      <guid isPermaLink="false">b325baf67fa2d5a8</guid>
+      <description>United States - Remote · mid_level · 5d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Instacart — Senior Software Engineer II, Ads Data Solutions Engineering</title>
-      <link>https://instacart.careers/job/?gh_jid=8246054</link>
-      <guid isPermaLink="false">b325baf67fa2d5a8</guid>
-      <description>United States - Remote · mid_level · 5d</description>
+      <link>https://instacart.careers/job/?gh_jid=7951938</link>
+      <guid isPermaLink="false">9a2262e959bce677</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 5d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1269,13 +1276,6 @@
       <title>Pinterest — Sr. Site Reliability Engineer, tvScientific</title>
       <link>https://www.pinterestcareers.com/jobs/?gh_jid=7782550</link>
       <guid isPermaLink="false">b0933817a2f06701</guid>
-      <description>San Francisco, CA, US; Remote, US · mid_level · 12d</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pinterest — Sr. Software Engineer, Web</title>
-      <link>https://www.pinterestcareers.com/jobs/?gh_jid=5412514</link>
-      <guid isPermaLink="false">73daf816f9629bbc</guid>
       <description>San Francisco, CA, US; Remote, US · mid_level · 12d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1706,6 +1706,12 @@
       <description>India, Remote · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Field Applications Engineer, AI Infrastructure Build - Execution</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Remote/Senior-Field-Applications-Engineer--AI-Infrastructure-Build---Execution_JR2027591</link>
+      <guid isPermaLink="false">27615002cc37f2ad</guid>
+      <description>US, TX, Remote +1 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Software Developer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Remote/Senior-Software-Developer_JR2022425</link>
       <guid isPermaLink="false">778a44ab12fa7f6a</guid>
@@ -1724,10 +1730,46 @@
       <description>Poland, Remote +1 more · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Software Engineer - Cluster Networking</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Cluster-Networking_JR2025464</link>
+      <guid isPermaLink="false">b48c3bb0e8062420</guid>
+      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer - Storage</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Storage_JR2013608</link>
+      <guid isPermaLink="false">50fa1fca0579a15d</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer, AI Agent Compute</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--AI-Agent-Compute_JR2021516-1</link>
+      <guid isPermaLink="false">1cd2f89db4841f18</guid>
+      <description>US, CA, Remote +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Systems Software Engineer, Compute Stack Acceleration</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549</link>
+      <guid isPermaLink="false">9245920daa8db653</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Systems Software Engineer, Kubernetes Scale - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Spain-Remote/Senior-Systems-Software-Engineer--Kubernetes-Scale---DGX-Cloud_JR2020234-1</link>
+      <guid isPermaLink="false">17598759d3afcdd9</guid>
+      <description>Spain, Remote +2 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — System Software Engineering Intern, GPU - 2027</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Remote/System-Software-Engineering-Intern--GPU---2027_JR2025334</link>
       <guid isPermaLink="false">193636cf5e06f5f6</guid>
       <description>Poland, Remote +1 more · internship · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Systems Software Engineer, Kubernetes Scale - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Remote/Systems-Software-Engineer--Kubernetes-Scale---DGX-Cloud_JR2020236</link>
+      <guid isPermaLink="false">41b17c524ce55bf6</guid>
+      <description>Germany, Remote +2 more · other · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Principal Software Engineer - Rack Scale Systems Infrastructure</title>
@@ -1742,18 +1784,6 @@
       <description>US, CA, Santa Clara +1 more · other · 1d</description>
     </item>
     <item>
-      <title>NVIDIA — Senior Compute Platform Engineer, LSF - EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Compute-Platform-Engineer--LSF-_JR2023960</link>
-      <guid isPermaLink="false">0b2b7870116d0bf5</guid>
-      <description>US, CA, Remote +2 more · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944</link>
-      <guid isPermaLink="false">c44c66f7fa554bf5</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
-    </item>
-    <item>
       <title>NVIDIA — Senior Software Engineer, At Scale Compute Analysis</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730</link>
       <guid isPermaLink="false">39d7bb17f1df4dbe</guid>
@@ -1764,12 +1794,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGX-Cloud-Production-Engineering_JR2018817</link>
       <guid isPermaLink="false">fd309ecd01b9d42f</guid>
       <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, Metrics and Evaluation - Autonomous Vehicles</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Metrics-and-Evaluation---Autonomous-Vehicles_JR2014651</link>
-      <guid isPermaLink="false">f4ab6e151878678c</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Network Visibility Platform - DGX Cloud</title>
@@ -1854,6 +1878,12 @@
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-L4-L5--Training-Platform--Machine-Learning-Platform_JR31231-1</link>
       <guid isPermaLink="false">a259bbdba55005e5</guid>
       <description>USA - Remote · other · 30d</description>
+    </item>
+    <item>
+      <title>Tabby — Senior Backend Engineer</title>
+      <link>https://tabby.pinpointhq.com/en/postings/cdab253e-3ad0-4eb8-922e-b0650775b77d</link>
+      <guid isPermaLink="false">3870f02ff4df08fc</guid>
+      <description>Remote · mid_level</description>
     </item>
   </channel>
 </rss>
