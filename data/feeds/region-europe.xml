@@ -4,7 +4,7 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Wed, 14 Oct 2026 19:25:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 23:15:18 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer, Books</title>
       <link>https://www.amazon.jobs/en/jobs/10578489/software-development-engineer-books</link>
@@ -105,27 +105,6 @@
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer, Query Execution</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8281679</link>
-      <guid isPermaLink="false">137b84425973bddd</guid>
-      <description>London · mid_level · 0d</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Senior Software Engineer, Query Execution</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8281458</link>
-      <guid isPermaLink="false">0ca78a9fa9e74b89</guid>
-      <description>Bulgaria · mid_level · 0d</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Senior Software Engineer, Query Execution</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8281577</link>
-      <guid isPermaLink="false">f2df59d15468e2b5</guid>
-      <description>Belgium · mid_level · 0d</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Senior Software Engineer, Query Execution</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8281626</link>
       <guid isPermaLink="false">dcc1bc90b1ab2fc1</guid>
       <description>Denmark · mid_level · 0d</description>
@@ -133,30 +112,16 @@
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer, Query Execution</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8281631</link>
-      <guid isPermaLink="false">049a2bb5be0263cd</guid>
-      <description>Finland · mid_level · 0d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8281679</link>
+      <guid isPermaLink="false">137b84425973bddd</guid>
+      <description>London · mid_level · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer, Query Execution</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8281639</link>
-      <guid isPermaLink="false">3bf80f02c0c70aa4</guid>
-      <description>France · mid_level · 0d</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Senior Software Engineer, Query Execution</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8281657</link>
-      <guid isPermaLink="false">417fc509b8548c29</guid>
-      <description>Germany · mid_level · 0d</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Senior Software Engineer, Query Execution</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8281662</link>
-      <guid isPermaLink="false">f7f4ad89d2a15e57</guid>
-      <description>Netherlands · mid_level · 0d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8281673</link>
+      <guid isPermaLink="false">3b2e9f7a38c07a75</guid>
+      <description>Sweden · mid_level · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -168,9 +133,44 @@
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer, Query Execution</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8281673</link>
-      <guid isPermaLink="false">3b2e9f7a38c07a75</guid>
-      <description>Sweden · mid_level · 0d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8281662</link>
+      <guid isPermaLink="false">f7f4ad89d2a15e57</guid>
+      <description>Netherlands · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Query Execution</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8281657</link>
+      <guid isPermaLink="false">417fc509b8548c29</guid>
+      <description>Germany · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Query Execution</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8281639</link>
+      <guid isPermaLink="false">3bf80f02c0c70aa4</guid>
+      <description>France · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Query Execution</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8281631</link>
+      <guid isPermaLink="false">049a2bb5be0263cd</guid>
+      <description>Finland · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Query Execution</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8281577</link>
+      <guid isPermaLink="false">f2df59d15468e2b5</guid>
+      <description>Belgium · mid_level · 0d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Query Execution</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8281458</link>
+      <guid isPermaLink="false">0ca78a9fa9e74b89</guid>
+      <description>Bulgaria · mid_level · 0d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -699,17 +699,17 @@
       <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Two Sigma — Software Engineer New Grad</title>
-      <link>https://twosigma.avature.net/careers/JobDetail/14020?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">6ab1737e59dcdf4c</guid>
-      <description>London, UK · new_grad · 5d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Apple — HID Algorithms Software Engineer</title>
       <link>https://jobs.apple.com/en-us/details/200687930/hid-algorithms-software-engineer</link>
       <guid isPermaLink="false">40c494b6fbc463b3</guid>
       <description>Zurich, Switzerland · unknown · 5d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Two Sigma — Software Engineer New Grad</title>
+      <link>https://twosigma.avature.net/careers/JobDetail/14020?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">6ab1737e59dcdf4c</guid>
+      <description>London, UK · new_grad · 5d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1155,13 +1155,6 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 7d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
       <guid isPermaLink="false">c543a8c9860ed243</guid>
       <description>Bucharest · new_grad · 7d</description>
@@ -1172,6 +1165,13 @@
       <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
       <guid isPermaLink="false">b836bebf63487343</guid>
       <description>Dublin · new_grad · 7d</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 7d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1225,16 +1225,16 @@
     </item>
     <item>
       <title>Sumup — Senior Backend Engineer - Run &amp; Grow</title>
-      <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
-      <guid isPermaLink="false">6b49240809a5a800</guid>
-      <description>Cologne, Germany · mid_level · 7d</description>
+      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
+      <guid isPermaLink="false">08ef15c78c1feb1b</guid>
+      <description>Berlin, Germany · mid_level · 7d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — Senior Backend Engineer - Run &amp; Grow</title>
-      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
-      <guid isPermaLink="false">08ef15c78c1feb1b</guid>
-      <description>Berlin, Germany · mid_level · 7d</description>
+      <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
+      <guid isPermaLink="false">6b49240809a5a800</guid>
+      <description>Cologne, Germany · mid_level · 7d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1245,24 +1245,10 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Wise — Senior Software Engineer</title>
-      <link>https://jobs.smartrecruiters.com/Wise/744000154076077</link>
-      <guid isPermaLink="false">3f530d2e0a9169c4</guid>
-      <description>London, United Kingdom · mid_level · 7d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Wise — Senior Software Engineer I - Account Integrity</title>
       <link>https://jobs.smartrecruiters.com/Wise/744000154167640</link>
       <guid isPermaLink="false">8e145d4985a5c955</guid>
       <description>London, England, United Kingdom · mid_level · 7d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wise — Senior Software Engineer II - Fraud Squad - Account Integrity (Java)</title>
-      <link>https://jobs.smartrecruiters.com/Wise/744000154064478</link>
-      <guid isPermaLink="false">db10e0eb2271585a</guid>
-      <description>London, United Kingdom · mid_level · 7d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1323,16 +1309,16 @@
     </item>
     <item>
       <title>Databricks — Sr. Forward Deployed Engineer - FDE (Fullstack)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8782216002</link>
-      <guid isPermaLink="false">2bad9c790850bb18</guid>
-      <description>Zürich, Switzerland · mid_level · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8645052002</link>
+      <guid isPermaLink="false">bb5e439d04596516</guid>
+      <description>Berlin, Germany; Munich, Germany · mid_level · 8d</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Sr. Forward Deployed Engineer - FDE (Fullstack)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8645052002</link>
-      <guid isPermaLink="false">bb5e439d04596516</guid>
-      <description>Berlin, Germany; Munich, Germany · mid_level · 8d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8782216002</link>
+      <guid isPermaLink="false">2bad9c790850bb18</guid>
+      <description>Zürich, Switzerland · mid_level · 8d</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1499,7 +1485,7 @@
     <item>
       <title>Databricks — Software Engineer Intern</title>
       <link>https://boards.greenhouse.io/embed/job_app?token=8847738002&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">f40137e5379cbf84</guid>
+      <guid isPermaLink="false">f039f63421407dd8</guid>
       <description>London, UK · internship · 11d</description>
       <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2555,15 +2541,15 @@
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Senior Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6176301004</link>
-      <guid isPermaLink="false">b1fad2eb38ef47de</guid>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6187755004</link>
+      <guid isPermaLink="false">6206168aea0f6a1d</guid>
       <description>Ireland, Dublin · mid_level · 16d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sonyinteractiveentertainmentglobal — Senior Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6187755004</link>
-      <guid isPermaLink="false">6206168aea0f6a1d</guid>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6176301004</link>
+      <guid isPermaLink="false">b1fad2eb38ef47de</guid>
       <description>Ireland, Dublin · mid_level · 16d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2870,6 +2856,13 @@
     </item>
     <item>
       <title>Databricks — Senior Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002</link>
+      <guid isPermaLink="false">4c3fca2b744fa4a7</guid>
+      <description>Belgrade, Serbia · mid_level · 23d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Senior Software Engineer - Backend</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002</link>
       <guid isPermaLink="false">e1262f4b1afb16ec</guid>
       <description>Berlin, Germany · mid_level · 23d</description>
@@ -2880,13 +2873,6 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002</link>
       <guid isPermaLink="false">1bf877368f091a05</guid>
       <description>Amsterdam, Netherlands · mid_level · 23d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Senior Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002</link>
-      <guid isPermaLink="false">4c3fca2b744fa4a7</guid>
-      <description>Belgrade, Serbia · mid_level · 23d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2905,16 +2891,16 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
-      <guid isPermaLink="false">96334280637b268a</guid>
-      <description>Zürich, Switzerland · mid_level · 23d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002</link>
+      <guid isPermaLink="false">d9be831edfe51857</guid>
+      <description>Berlin, Germany · mid_level · 23d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002</link>
-      <guid isPermaLink="false">d9be831edfe51857</guid>
-      <description>Berlin, Germany · mid_level · 23d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002</link>
+      <guid isPermaLink="false">bcddd175f2cfb885</guid>
+      <description>Amsterdam, Netherlands · mid_level · 23d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2933,16 +2919,9 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer - Delta</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002</link>
-      <guid isPermaLink="false">bcddd175f2cfb885</guid>
-      <description>Amsterdam, Netherlands · mid_level · 23d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002</link>
-      <guid isPermaLink="false">08c6994d46264745</guid>
-      <description>Belgrade, Serbia · other · 23d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002</link>
+      <guid isPermaLink="false">96334280637b268a</guid>
+      <description>Zürich, Switzerland · mid_level · 23d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2950,6 +2929,13 @@
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002</link>
       <guid isPermaLink="false">1ee773cbf2650d87</guid>
       <description>Amsterdam, Netherlands · other · 23d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Software Engineer - Backend</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002</link>
+      <guid isPermaLink="false">08c6994d46264745</guid>
+      <description>Belgrade, Serbia · other · 23d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2975,16 +2961,16 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
-      <guid isPermaLink="false">fb40916992e1a363</guid>
-      <description>Amsterdam, Netherlands · mid_level · 23d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002</link>
+      <guid isPermaLink="false">ef6f23c47c8166fe</guid>
+      <description>Berlin, Germany · mid_level · 23d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Backend</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002</link>
-      <guid isPermaLink="false">ef6f23c47c8166fe</guid>
-      <description>Berlin, Germany · mid_level · 23d</description>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002</link>
+      <guid isPermaLink="false">fb40916992e1a363</guid>
+      <description>Amsterdam, Netherlands · mid_level · 23d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4403,6 +4389,30 @@
       <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
+      <title>Cisco — AI Software Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/AI-Software-Engineer_2025798</link>
+      <guid isPermaLink="false">1960366ef664a0dc</guid>
+      <description>Krakow, Poland +1 more · other · 1d</description>
+    </item>
+    <item>
+      <title>Cisco — Embedded Software Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Embedded-Software-Engineer_2027896</link>
+      <guid isPermaLink="false">cf675ab92892f2f8</guid>
+      <description>Lysaker, Norway · other · 1d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineer_2025797</link>
+      <guid isPermaLink="false">dfdd0a548435b0ef</guid>
+      <description>Krakow, Poland +1 more · other · 1d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineering Technical Leader</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineering-Technical-Leader_2025809</link>
+      <guid isPermaLink="false">9158470baab1bd63</guid>
+      <description>Krakow, Poland +1 more · other · 1d</description>
+    </item>
+    <item>
       <title>Expedia Group — Mobile Engineer III - iOS</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Mobile-Engineer-III---iOS_R-109576</link>
       <guid isPermaLink="false">8ef753610862ebbc</guid>
@@ -4463,6 +4473,12 @@
       <description>Ireland, Dublin · mid_level · 1d</description>
     </item>
     <item>
+      <title>Cisco — Software Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Software-Engineer_2027413</link>
+      <guid isPermaLink="false">3d76d3a754e241b6</guid>
+      <description>Lysaker, Norway · other · 2d</description>
+    </item>
+    <item>
       <title>Expedia Group — Mobile Engineer II, Android</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Mobile-Engineer-II--Android_R-106059-1</link>
       <guid isPermaLink="false">d4a202f0803d897e</guid>
@@ -4485,6 +4501,18 @@
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Site-Reliability-Engineer---Observability_R171485</link>
       <guid isPermaLink="false">662e23d79f8444ba</guid>
       <description>Bucharest · mid_level · 6d</description>
+    </item>
+    <item>
+      <title>Cisco — Embedded Software Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Embedded-Software-Engineer_2027546</link>
+      <guid isPermaLink="false">0499275a82c796cc</guid>
+      <description>Lysaker, Norway · other · 6d</description>
+    </item>
+    <item>
+      <title>Cisco — Senior Software Engineer (Shared Components)</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer--Shared-Components-_2023864</link>
+      <guid isPermaLink="false">59e121713757493f</guid>
+      <description>Galway, Ireland · mid_level · 6d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III</title>
@@ -4541,10 +4569,22 @@
       <description>Warsaw · other · 8d</description>
     </item>
     <item>
-      <title>Expedia Group — Software Development Engineer III</title>
-      <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineer-III_R-108552</link>
-      <guid isPermaLink="false">f5e16191971408bc</guid>
-      <description>UK - London · other · 9d</description>
+      <title>Cisco — Software Engineer (Shared Components)</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer--Shared-Components-_2018628</link>
+      <guid isPermaLink="false">f0a7993bc143b55f</guid>
+      <description>Galway, Ireland · other · 12d</description>
+    </item>
+    <item>
+      <title>Cisco — Senior Site Reliability Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Site-Reliability-Engineer_2018630-1</link>
+      <guid isPermaLink="false">b991d8a70332e387</guid>
+      <description>Galway, Ireland · mid_level · 13d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer_2026256</link>
+      <guid isPermaLink="false">6aa5c1b31a99d9f4</guid>
+      <description>Galway, Ireland · other · 13d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
@@ -4557,6 +4597,72 @@
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kingdom-London/PUBG-Mobile-Marketing-Team-Intern_R107793-1</link>
       <guid isPermaLink="false">d03d9fcbae5645b6</guid>
       <description>United Kingdom-London +1 more · internship · 26d</description>
+    </item>
+    <item>
+      <title>Cisco — Frontend Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Frontend-Engineer_2025794</link>
+      <guid isPermaLink="false">976d76e52b925369</guid>
+      <description>Krakow, Poland +1 more · other · 28d</description>
+    </item>
+    <item>
+      <title>Cisco — Full Stack Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Full-Stack-Engineer_2025805</link>
+      <guid isPermaLink="false">24bfe8116361456e</guid>
+      <description>Krakow, Poland +1 more · other · 28d</description>
+    </item>
+    <item>
+      <title>Cisco — Senior Software Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Senior-Software-Engineer_2025808</link>
+      <guid isPermaLink="false">08d727c778caf39b</guid>
+      <description>Krakow, Poland +1 more · mid_level · 28d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineer_2025802</link>
+      <guid isPermaLink="false">49ddc204f8ea0651</guid>
+      <description>Krakow, Poland +1 more · other · 28d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineering Technical Leader</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineering-Technical-Leader_2025803</link>
+      <guid isPermaLink="false">102b2af7c33dfb34</guid>
+      <description>Krakow, Poland +1 more · other · 28d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer - Application Development</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---Application-Development_2023947-1</link>
+      <guid isPermaLink="false">6d157276b035b05e</guid>
+      <description>Galway, Ireland · other · 29d</description>
+    </item>
+    <item>
+      <title>Cisco — Senior Software Engineer - App Development</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer---App-Development_2023957</link>
+      <guid isPermaLink="false">1bee814b56023624</guid>
+      <description>Galway, Ireland · mid_level · 30d</description>
+    </item>
+    <item>
+      <title>Cisco — Senior Software Engineer - Mobile</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Senior-Software-Engineer---Mobile_2023877</link>
+      <guid isPermaLink="false">c2bdbe19e9d234a5</guid>
+      <description>Bratislava, Slovakia · mid_level · 30d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer - App Development</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---App-Development_2023950</link>
+      <guid isPermaLink="false">acd21f840c13c9b6</guid>
+      <description>Galway, Ireland · other · 30d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer - App Development</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---App-Development_2023952</link>
+      <guid isPermaLink="false">6f120f40b9b00c0f</guid>
+      <description>Galway, Ireland · other · 30d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineering Technical Leader - Applications</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineering-Technical-Leader---Applications_2024020</link>
+      <guid isPermaLink="false">5138a01e47c9e54b</guid>
+      <description>Galway, Ireland · other · 30d</description>
     </item>
   </channel>
 </rss>
