@@ -1,28 +1,6 @@
 {
-  "generated_at": "2026-10-15T13:26:55Z",
+  "generated_at": "2026-10-15T18:18:58Z",
   "cards": [
-    {
-      "id": "internship-trend",
-      "title": "This month",
-      "detail": "Internships up 12%",
-      "filter": {
-        "kind": "job",
-        "levels": [
-          "internship"
-        ]
-      }
-    },
-    {
-      "id": "new_grad-trend",
-      "title": "This month",
-      "detail": "New-grad roles up 6%",
-      "filter": {
-        "kind": "job",
-        "levels": [
-          "new_grad"
-        ]
-      }
-    },
     {
       "id": "top-companies",
       "title": "Hiring most this week",
