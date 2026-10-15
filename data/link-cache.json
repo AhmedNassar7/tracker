@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T23:12:57Z",
+ "generated_at": "2026-10-15T01:29:42Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -19,23 +19,23 @@
   },
   "/frontiertower?k=c": {
    "alive": true,
-   "at": "2026-10-12T05:55:18Z"
+   "at": "2026-10-15T01:29:42Z"
   },
   "/genai-sf?k=c": {
    "alive": true,
-   "at": "2026-10-12T05:55:18Z"
+   "at": "2026-10-15T01:29:42Z"
   },
   "/pytorchconf?k=c": {
    "alive": true,
-   "at": "2026-10-12T05:55:18Z"
+   "at": "2026-10-15T01:29:42Z"
   },
   "/sf-hackersquad?k=c": {
    "alive": true,
-   "at": "2026-10-12T05:55:18Z"
+   "at": "2026-10-15T01:29:42Z"
   },
   "/sf-hardware-meetup?k=c": {
    "alive": true,
-   "at": "2026-10-12T05:55:18Z"
+   "at": "2026-10-15T01:29:42Z"
   },
   "/stationdc?k=c": {
    "alive": true,
@@ -43,7 +43,7 @@
   },
   "/tc-disrupt?k=c": {
    "alive": true,
-   "at": "2026-10-12T05:55:18Z"
+   "at": "2026-10-15T01:29:42Z"
   },
   "http://block.xyz/careers/jobs/4901418008?gh_jid=4901418008": {
    "alive": true,
@@ -4809,6 +4809,10 @@
    "alive": true,
    "at": "2026-10-08T22:03:22Z"
   },
+  "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Site-Reliability-Engineer-I--Full-Time----United-States_2028788": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-II--Full-Time----United-States_2026694": {
    "alive": true,
    "at": "2026-10-14T23:12:34Z"
@@ -6285,6 +6289,10 @@
    "alive": true,
    "at": "2026-10-14T23:12:57Z"
   },
+  "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Software-Development-Engineer-III_R-109776": {
+   "alive": true,
+   "at": "2026-10-15T01:29:42Z"
+  },
   "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Software-Development-Engineer-II_R-107932-1": {
    "alive": true,
    "at": "2026-10-14T10:10:50Z"
@@ -7489,6 +7497,10 @@
    "alive": true,
    "at": "2026-10-14T19:22:13Z"
   },
+  "https://job-boards.greenhouse.io/anthropic/jobs/5441867008": {
+   "alive": true,
+   "at": "2026-10-15T01:29:42Z"
+  },
   "https://job-boards.greenhouse.io/anthropic/jobs/5444583008": {
    "alive": true,
    "at": "2026-10-14T19:22:13Z"
@@ -8005,6 +8017,10 @@
    "alive": true,
    "at": "2026-10-14T23:12:57Z"
   },
+  "https://job-boards.greenhouse.io/doordashusa/jobs/8283735": {
+   "alive": true,
+   "at": "2026-10-15T01:29:42Z"
+  },
   "https://job-boards.greenhouse.io/getyourguide/jobs/7422312": {
    "alive": true,
    "at": "2026-10-14T23:12:57Z"
@@ -8304,6 +8320,10 @@
   "https://job-boards.greenhouse.io/reddit/jobs/8275143": {
    "alive": true,
    "at": "2026-10-14T19:22:13Z"
+  },
+  "https://job-boards.greenhouse.io/reddit/jobs/8283770": {
+   "alive": true,
+   "at": "2026-10-15T01:29:42Z"
   },
   "https://job-boards.greenhouse.io/scaleai/jobs/4302243005": {
    "alive": true,
@@ -9500,6 +9520,14 @@
   "https://jobs.apple.com/en-us/details/200689259/ios-software-engineer-shortcuts-actions-proactive": {
    "alive": true,
    "at": "2026-10-14T23:12:34Z"
+  },
+  "https://jobs.apple.com/en-us/details/200689295/software-engineer-webkit-accessibility": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
+  "https://jobs.apple.com/en-us/details/200689298/software-engineer-apple-services-engineering": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://jobs.apple.com/en-us/details/200689325/software-engineer-apple-services-engineering-icloud-platform": {
    "alive": true,
@@ -10732,6 +10760,10 @@
   "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae": {
    "alive": true,
    "at": "2026-10-14T19:22:13Z"
+  },
+  "https://jobs.ashbyhq.com/openai/329fe50f-7701-4f07-982d-a4e10cbec236": {
+   "alive": true,
+   "at": "2026-10-15T01:29:42Z"
   },
   "https://jobs.ashbyhq.com/openai/32a314f3-17d6-4f94-ba1b-88076d9ac4f4": {
    "alive": true,
@@ -15113,6 +15145,10 @@
    "alive": true,
    "at": "2026-10-12T15:21:08Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-System-Software-Engineer---CUDA-Driver_JR2027584": {
+   "alive": true,
+   "at": "2026-10-15T01:29:42Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Engineer--Developer-Platform_JR2026158": {
    "alive": true,
    "at": "2026-10-14T15:08:16Z"
@@ -15528,6 +15564,10 @@
   "https://portotechhub.com/conference-2026": {
    "alive": true,
    "at": "2026-10-14T19:22:13Z"
+  },
+  "https://programmatic-rendering-contest.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-15T01:29:42Z"
   },
   "https://prompt2product.devpost.com/": {
    "alive": true,
@@ -17193,6 +17233,10 @@
    "alive": true,
    "at": "2026-10-12T22:57:36Z"
   },
+  "https://www.amazon.jobs/en/jobs/10374503/software-development-engineer-ii-amazon-cross-border-tech": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
   "https://www.amazon.jobs/en/jobs/10375504/software-development-engineer-buyer-safety-experience": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
@@ -17671,7 +17715,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10455628/software-development-engineer-ii-amazon-photos-artifact-generation": {
    "alive": true,
-   "at": "2026-10-12T05:54:40Z"
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10456775/software-development-engineer-amazon-connect-contact-lens": {
    "alive": true,
@@ -17680,6 +17724,10 @@
   "https://www.amazon.jobs/en/jobs/10458163/software-development-engineer-vendor-experience": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10458867/software-development-engineer-last-mile-delivery-edge-intelligence": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10460377/software-development-engineer-aurora-dsql": {
    "alive": true,
@@ -17856,6 +17904,10 @@
   "https://www.amazon.jobs/en/jobs/10475814/software-development-engineer-ii-aws-eventbridge": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10476343/software-development-engineer-amazon-university-talent-aquisition-auta": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10476533/software-development-engineer-ii-aws-eventbridge": {
    "alive": true,
@@ -18717,6 +18769,10 @@
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
   },
+  "https://www.amazon.jobs/en/jobs/10514331/software-development-engineer-amazon-leo-ground-systems-engineering": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
   "https://www.amazon.jobs/en/jobs/10514555/software-development-engineer-ww-deals-promotions": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
@@ -19203,7 +19259,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10535302/software-development-engineer-frontier-amazon-dedicated-cloud-adc": {
    "alive": true,
-   "at": "2026-10-12T05:54:40Z"
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10535504/software-development-engineer-aws-security-communications": {
    "alive": true,
@@ -19220,6 +19276,10 @@
   "https://www.amazon.jobs/en/jobs/10535706/software-development-engineer-ii-post-silicon-validation": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10535856/software-development-engineer-ii-amazon-cross-border-tech": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10536442/software-development-engineer-software-automation-team": {
    "alive": true,
@@ -19513,6 +19573,10 @@
    "alive": true,
    "at": "2026-10-14T04:51:00Z"
   },
+  "https://www.amazon.jobs/en/jobs/10550363/software-development-engineer-tax-and-account-compliance-tech": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
   "https://www.amazon.jobs/en/jobs/10551480/software-development-engineer-ground-control-console-gc2": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
@@ -19552,6 +19616,10 @@
   "https://www.amazon.jobs/en/jobs/10552602/software-development-engineer-amazon-connect-telecom-engineering": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10552647/software-development-engineer-platform-engineering-and-emerging-technologies": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10552664/software-development-engineer-digital-acceleration": {
    "alive": true,
@@ -19969,6 +20037,10 @@
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
   },
+  "https://www.amazon.jobs/en/jobs/10559485/software-development-engineer-ii-centre-for-quantum-computing": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
   "https://www.amazon.jobs/en/jobs/10559502/software-development-engineer-ii-prime-tech-rapidx": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
@@ -20059,7 +20131,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10561388/software-development-engineer-dynamodb-index-search-and-storage": {
    "alive": true,
-   "at": "2026-10-12T05:54:40Z"
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10561408/software-development-engineer-ii-shiptech-analytics": {
    "alive": true,
@@ -20347,7 +20419,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10568098/software-development-engineer-ii-core-selling-partner-experience": {
    "alive": true,
-   "at": "2026-10-12T05:54:40Z"
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10568115/security-software-development-engineer-corporate-services-security": {
    "alive": true,
@@ -20533,6 +20605,10 @@
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
   },
+  "https://www.amazon.jobs/en/jobs/10571078/software-development-engineer-ii-aws-kms": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
   "https://www.amazon.jobs/en/jobs/10571091/aws-marketplace-software-development-engineer-marketplace": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
@@ -20639,7 +20715,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10572202/software-development-engineer-last-mile-platform-services-sde": {
    "alive": true,
-   "at": "2026-10-12T15:20:50Z"
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10572334/software-development-engineer-amazon": {
    "alive": true,
@@ -20707,11 +20783,15 @@
   },
   "https://www.amazon.jobs/en/jobs/10573555/software-development-engineer-device-privacy-and-data-handling": {
    "alive": true,
-   "at": "2026-10-12T15:20:50Z"
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10573558/software-development-engineer-cloudwatch-agent-observability": {
    "alive": true,
    "at": "2026-10-13T11:45:40Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10573735/software-development-engineer-ii-kms": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10573738/software-development-engineer-ii-umbrella-training": {
    "alive": true,
@@ -20893,6 +20973,10 @@
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
   },
+  "https://www.amazon.jobs/en/jobs/10575876/software-development-engineer-selling-partner-experience-core-services": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
   "https://www.amazon.jobs/en/jobs/10575929/software-development-engineer-connectivity-emerging-device-software": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
@@ -20932,6 +21016,10 @@
   "https://www.amazon.jobs/en/jobs/10576171/software-development-engineer-ii": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10576179/software-development-engineer-customer-experience-and-business-trends": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10576198/software-development-engineer-ii-cloudwatch-collectors": {
    "alive": true,
@@ -20980,6 +21068,10 @@
   "https://www.amazon.jobs/en/jobs/10576928/software-development-engineer-special-projects": {
    "alive": true,
    "at": "2026-10-14T23:12:34Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10577133/software-development-engineer-ii-fintech-entity-data-service": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/10577134/software-development-engineer-fintech": {
    "alive": true,
@@ -21149,6 +21241,10 @@
    "alive": true,
    "at": "2026-10-14T23:12:34Z"
   },
+  "https://www.amazon.jobs/en/jobs/10579435/software-development-engineer": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
+  },
   "https://www.amazon.jobs/en/jobs/3062273/software-development-engineer-ml-systems-annapurna-labs": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
@@ -21216,6 +21312,10 @@
   "https://www.amazon.jobs/en/jobs/3172711/software-development-engineer-ii-amazon": {
    "alive": true,
    "at": "2026-10-14T19:21:37Z"
+  },
+  "https://www.amazon.jobs/en/jobs/3173413/software-development-engineer-ii-ww-returns-and-recommerce": {
+   "alive": true,
+   "at": "2026-10-15T01:29:23Z"
   },
   "https://www.amazon.jobs/en/jobs/3175845/software-development-engineer-2026": {
    "alive": true,
@@ -21943,7 +22043,7 @@
   },
   "https://www.coupang.jobs/en/jobs/?gh_jid=8127146": {
    "alive": true,
-   "at": "2026-10-08T01:54:55Z"
+   "at": "2026-10-15T01:29:42Z"
   },
   "https://www.coupang.jobs/en/jobs/?gh_jid=8127212": {
    "alive": true,
