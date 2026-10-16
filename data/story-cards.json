@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-10-16T21:08:33Z",
+  "generated_at": "2026-10-16T23:36:29Z",
   "cards": [
+    {
+      "id": "new_grad-trend",
+      "title": "This month",
+      "detail": "New-grad roles down 7%",
+      "filter": {
+        "kind": "job",
+        "levels": [
+          "new_grad"
+        ]
+      }
+    },
     {
       "id": "top-companies",
       "title": "Hiring most this week",
