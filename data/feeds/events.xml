@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Fri, 16 Oct 2026 12:27:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 17:25:47 GMT</lastBuildDate>
     <item>
       <title>2nd International Conference on Artificial Intelligence and Big Data Analytics — 2nd International Conference on Artificial Intelligence and Big Data Analytics</title>
       <link>https://vartusconferences.com/aibda</link>
@@ -1161,6 +1161,13 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Test Automation Days — Test Automation Days</title>
+      <link>https://www.testautomationdays.com</link>
+      <guid isPermaLink="false">3b152fdc65136290</guid>
+      <description>Hilversum, Netherlands · 138 days left</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Annual Global Summit on Artificial Intelligence and Machine Learning — Annual Global Summit on Artificial Intelligence and Machine Learning</title>
       <link>https://vividglobalsummits.com/2027/artificial-intelligence</link>
       <guid isPermaLink="false">3d2be3e8c88e6627</guid>
@@ -1644,9 +1651,23 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Luma — Follow DC Data &amp; AI Events Washington · Washington D.C. Data &amp; AI Events! Managed by Data Community DC. www.dc2.org</title>
+      <link>https://lu.ma/DC2?k=c</link>
+      <guid isPermaLink="false">d307b71de4686f34</guid>
+      <description>Global</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Luma — Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team</title>
       <link>https://lu.ma/deepmind?k=c</link>
       <guid isPermaLink="false">a55b3bdcd72bf05f</guid>
+      <description>Global</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luma — Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.</title>
+      <link>https://lu.ma/stationdc?k=c</link>
+      <guid isPermaLink="false">d0a49f1be49b91d7</guid>
       <description>Global</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
