@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Fri, 16 Oct 2026 21:08:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 23:36:29 GMT</lastBuildDate>
     <item>
       <title>Unity — Machine Learning Engineer-Internship</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/en-US/unity/job/Mountain-View-CA-USA/XMLNAME--Req-6087--Software-Developer_JOBREQ-2615965</link>
@@ -20,6 +20,13 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Coinbase — Senior Software Engineer, Compute Platform</title>
+      <link>https://www.coinbase.com/careers/positions/7701645?gh_jid=7701645</link>
+      <guid isPermaLink="false">0d12d1dd69c3f186</guid>
+      <description>Remote - USA · mid_level · 0d</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Coinbase — Senior Software Engineer, Core AI Infrastructure</title>
       <link>https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431</link>
       <guid isPermaLink="false">dd5de718e73afcc7</guid>
@@ -30,7 +37,7 @@
       <title>Coinbase — Senior Software Engineer, Core Reliability</title>
       <link>https://www.coinbase.com/careers/positions/8097944?gh_jid=8097944</link>
       <guid isPermaLink="false">1fb8d8e35afbcd2c</guid>
-      <description>Remote - Canada · mid_level · 0d</description>
+      <description>Remote - USA · mid_level · 0d</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -258,13 +265,6 @@
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Reddit — Senior Backend Engineer, Safety</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8093006</link>
-      <guid isPermaLink="false">95badca15c35592d</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Reddit — Senior Frontend Software Engineer, Consumer Engineering</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8147617</link>
       <guid isPermaLink="false">fd260dbf4c90575a</guid>
@@ -287,16 +287,16 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
-      <guid isPermaLink="false">aac8e64367028cfe</guid>
-      <description>Remote - United States · mid_level · 1d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
+      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
+      <description>Remote - Ontario, Canada · mid_level · 1d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
-      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
-      <description>Remote - Ontario, Canada · mid_level · 1d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
+      <guid isPermaLink="false">aac8e64367028cfe</guid>
+      <description>Remote - United States · mid_level · 1d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1330,16 +1330,16 @@
     </item>
     <item>
       <title>Instacart — Engineering Manager, Site Reliability</title>
-      <link>https://instacart.careers/job/?gh_jid=8246075</link>
-      <guid isPermaLink="false">7f3d2d800bc79a8e</guid>
-      <description>United States - Remote · mid_level · 15d</description>
+      <link>https://instacart.careers/job/?gh_jid=8246076</link>
+      <guid isPermaLink="false">af0eec349a83cb88</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 15d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Instacart — Engineering Manager, Site Reliability</title>
-      <link>https://instacart.careers/job/?gh_jid=8246076</link>
-      <guid isPermaLink="false">af0eec349a83cb88</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 15d</description>
+      <link>https://instacart.careers/job/?gh_jid=8246075</link>
+      <guid isPermaLink="false">7f3d2d800bc79a8e</guid>
+      <description>United States - Remote · mid_level · 15d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1397,13 +1397,6 @@
       <guid isPermaLink="false">a5fc1148985a7bb4</guid>
       <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 18d</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Instacart — Software Engineer II, Advertiser Optimization</title>
-      <link>https://instacart.careers/job/?gh_jid=8233716</link>
-      <guid isPermaLink="false">4900246e7c9e24d3</guid>
-      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 21d</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Monzo — Backend Engineer III</title>
