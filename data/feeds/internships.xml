@@ -4,7 +4,7 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Sat, 17 Oct 2026 09:22:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 13:44:47 GMT</lastBuildDate>
     <item>
       <title>Cisco — Software Engineer Data &amp; AI PhD (Intern) - United States</title>
       <link>https://zapply.jobs/l/d/phenom-cisco-2025611?s=gh-new-grad-software-engineering-jobs-2027</link>
@@ -69,6 +69,20 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Duolingo — Data Scientist - Intern</title>
+      <link>https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002</link>
+      <guid isPermaLink="false">79096f406ab96bbe</guid>
+      <description>New York City, NY +1 · internship · 1d</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duolingo — Data Scientist - Intern - PhD</title>
+      <link>https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002</link>
+      <guid isPermaLink="false">f29145aa5c9ea44c</guid>
+      <description>New York City, NY +1 · internship · 1d</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Cisco — Software Engineer Data &amp; AI PhD (Intern) - United States</title>
       <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2025611?s=gh-new-grad-software-engineering-jobs-2027</link>
       <guid isPermaLink="false">94be6f348987c177</guid>
@@ -87,20 +101,6 @@
       <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2025611?s=gh-internships-2027</link>
       <guid isPermaLink="false">f14288b72075cee7</guid>
       <description>San Jose California US · internship · 1d</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Duolingo — Data Scientist - Intern</title>
-      <link>https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002</link>
-      <guid isPermaLink="false">79096f406ab96bbe</guid>
-      <description>New York City, NY +1 · internship · 1d</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Duolingo — Data Scientist - Intern - PhD</title>
-      <link>https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002</link>
-      <guid isPermaLink="false">f29145aa5c9ea44c</guid>
-      <description>New York City, NY +1 · internship · 1d</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -503,13 +503,6 @@
       <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Software Engineer Intern</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8263774?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">fe6b0a6687ddb721</guid>
-      <description>SF Sunnyvale, CA · internship · 7d</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Workday — Machine Learning Engineer Intern</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Machine-Learning-Engineer-Intern_JR-0110806?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">5032d6d76c02f594</guid>
@@ -521,6 +514,13 @@
       <link>https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">906467769ac67762</guid>
       <description>Pleasanton, CA · internship · 7d</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineer Intern</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8263774?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">fe6b0a6687ddb721</guid>
+      <description>SF Sunnyvale, CA · internship · 7d</description>
       <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -665,16 +665,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
-      <guid isPermaLink="false">123c0cae7b46bde0</guid>
-      <description>Bengaluru · internship · 10d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
+      <guid isPermaLink="false">342b3f9493acb89a</guid>
+      <description>Singapore · internship · 10d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
-      <guid isPermaLink="false">342b3f9493acb89a</guid>
-      <description>Singapore · internship · 10d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
+      <guid isPermaLink="false">123c0cae7b46bde0</guid>
+      <description>Bengaluru · internship · 10d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -686,16 +686,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
-      <guid isPermaLink="false">bbe14083e01b613a</guid>
-      <description>San Francisco, Seattle, New York City · internship · 10d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
+      <guid isPermaLink="false">c3b11892340bdad3</guid>
+      <description>Toronto · internship · 10d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
-      <guid isPermaLink="false">c3b11892340bdad3</guid>
-      <description>Toronto · internship · 10d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
+      <guid isPermaLink="false">bbe14083e01b613a</guid>
+      <description>San Francisco, Seattle, New York City · internship · 10d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1050,16 +1050,16 @@
     </item>
     <item>
       <title>Datadog — Software Engineering Intern</title>
-      <link>https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186</link>
-      <guid isPermaLink="false">3bf6538464199907</guid>
-      <description>Paris, France · internship · 18d</description>
+      <link>https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161</link>
+      <guid isPermaLink="false">8cf202608e9096d8</guid>
+      <description>Madrid, Spain · internship · 18d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Datadog — Software Engineering Intern</title>
-      <link>https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161</link>
-      <guid isPermaLink="false">8cf202608e9096d8</guid>
-      <description>Madrid, Spain · internship · 18d</description>
+      <link>https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186</link>
+      <guid isPermaLink="false">3bf6538464199907</guid>
+      <description>Paris, France · internship · 18d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1503,6 +1503,12 @@
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551</link>
       <guid isPermaLink="false">c50e91a1c499811b</guid>
       <description>UK - London · internship · 2d</description>
+    </item>
+    <item>
+      <title>PwC — Cloud Infrastructure Intern - Milano</title>
+      <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Cloud-Infrastructure-Intern---Milano_767954WD</link>
+      <guid isPermaLink="false">a8e58f1768bdeaf4</guid>
+      <description>Milan · internship · 3d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer Intern (Canada)</title>
