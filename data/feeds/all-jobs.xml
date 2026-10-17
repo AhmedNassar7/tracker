@@ -4,12 +4,19 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sat, 17 Oct 2026 19:25:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 22:19:06 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer II, Data Nexus</title>
       <link>https://www.amazon.jobs/en/jobs/10582044/software-development-engineer-ii-data-nexus</link>
       <guid isPermaLink="false">62578cc389ce30b7</guid>
       <description>Seattle, Washington, USA · mid_level · 0d</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS Security Epoxy</title>
+      <link>https://www.amazon.jobs/en/jobs/10582071/software-development-engineer-aws-security-epoxy</link>
+      <guid isPermaLink="false">6bd300a9f88484cd</guid>
+      <description>London, England, GBR · unknown · 0d</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -42,16 +49,23 @@
     </item>
     <item>
       <title>Duolingo — Data Scientist Intern</title>
+      <link>https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002&amp;utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">5d105c65a499d5e6</guid>
+      <description>New York, NY Pittsburgh, PA · internship · 2d</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duolingo — Data Scientist Intern</title>
       <link>https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8888785002?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">28f743f8e0784273</guid>
       <description>Pittsburgh, PA New York, NY · internship · 2d</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Duolingo — Data Scientist Intern</title>
-      <link>https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002&amp;utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">5d105c65a499d5e6</guid>
-      <description>New York, NY Pittsburgh, PA · internship · 2d</description>
+      <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
+      <link>https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2027552?s=gh-new-grad-jobs-2027</link>
+      <guid isPermaLink="false">af6112c3fe44b961</guid>
+      <description>US, CA, Santa Clara · new_grad · 4d</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -59,13 +73,6 @@
       <link>https://jobs.smartrecruiters.com/ServiceNow/744000155345889?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">608ebfd74bd1252e</guid>
       <description>Santa Clara, CA · internship · 4d</description>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Software Engineer Intern - Summer 2027</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8171041?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">4c313db5f03b320e</guid>
-      <description>5 locationsSeattle, WA SF LA NYC Sunnyvale, CA · internship · 1mo</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2330,6 +2337,13 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Expedia Group — Software Development Engineer Intern</title>
+      <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">7c396886c51ba2e0</guid>
+      <description>London, UK · internship · 2d</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Duolingo — Data Scientist, Intern</title>
       <link>https://zapply.jobs/l/d/greenhouse-duolingo-8888721002?s=gh-new-grad-jobs-2027</link>
       <guid isPermaLink="false">e84ca334585fb973</guid>
@@ -2369,13 +2383,6 @@
       <link>https://zapply.jobs/l/d/greenhouse-duolingo-8888848002?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">665941048a858e62</guid>
       <description>New York, NY · internship · 2d</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Expedia Group — Software Development Engineer Intern</title>
-      <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">7c396886c51ba2e0</guid>
-      <description>London, UK · internship · 2d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3724,6 +3731,13 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Ordering</title>
+      <link>https://www.amazon.jobs/en/jobs/10579332/software-development-engineer-ordering</link>
+      <guid isPermaLink="false">84504861a00b8efd</guid>
+      <description>Vancouver, British Columbia, CAN · unknown · 3d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Ordering</title>
       <link>https://www.amazon.jobs/en/jobs/10579333/software-development-engineer-ordering</link>
       <guid isPermaLink="false">c6212f70bda6b619</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 3d</description>
@@ -3733,13 +3747,6 @@
       <title>Amazon — Software Development Engineer, Ordering</title>
       <link>https://www.amazon.jobs/en/jobs/10579330/software-development-engineer-ordering</link>
       <guid isPermaLink="false">3e22aee6ace8a0b5</guid>
-      <description>Vancouver, British Columbia, CAN · unknown · 3d</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Ordering</title>
-      <link>https://www.amazon.jobs/en/jobs/10579332/software-development-engineer-ordering</link>
-      <guid isPermaLink="false">84504861a00b8efd</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 3d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -17500,16 +17507,16 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II</title>
-      <link>https://www.amazon.jobs/en/jobs/10556606/software-development-engineer-ii</link>
-      <guid isPermaLink="false">610c3a8ced38e63b</guid>
-      <description>Bengaluru, Karnataka, IND · mid_level · 25d</description>
+      <link>https://www.amazon.jobs/en/jobs/10555781/software-development-engineer-ii</link>
+      <guid isPermaLink="false">338ca4c5e8185a92</guid>
+      <description>Hyderabad, Telangana, IND · mid_level · 25d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II</title>
-      <link>https://www.amazon.jobs/en/jobs/10555781/software-development-engineer-ii</link>
-      <guid isPermaLink="false">338ca4c5e8185a92</guid>
-      <description>Hyderabad, Telangana, IND · mid_level · 25d</description>
+      <link>https://www.amazon.jobs/en/jobs/10556606/software-development-engineer-ii</link>
+      <guid isPermaLink="false">610c3a8ced38e63b</guid>
+      <description>Bengaluru, Karnataka, IND · mid_level · 25d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -23449,13 +23456,6 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer - Security Automation, AWS Security Epoxy</title>
-      <link>https://www.amazon.jobs/en/jobs/10503864/software-development-engineer-security-automation-aws-security-epoxy</link>
-      <guid isPermaLink="false">087b421211cbb242</guid>
-      <description>London, England, GBR · unknown · 61d</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II, AWS WorkSpaces</title>
       <link>https://www.amazon.jobs/en/jobs/10503842/software-development-engineer-ii-aws-workspaces</link>
       <guid isPermaLink="false">c47c7545636464d9</guid>
@@ -27488,6 +27488,42 @@
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Principal Software Engineer - Rack Scale Systems Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966</link>
+      <guid isPermaLink="false">c3713a1ca8334239</guid>
+      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Principal Software Engineer, GPU Firmware and GPU System Software — CSP Engagements</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--GPU-Firmware-and-GPU-System-Software---CSP-Engagements_JR2020319</link>
+      <guid isPermaLink="false">49e30c2abab1080f</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Compute Platform Engineer, LSF - EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Compute-Platform-Engineer--LSF-_JR2023960</link>
+      <guid isPermaLink="false">0b2b7870116d0bf5</guid>
+      <description>US, CA, Remote +2 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944</link>
+      <guid isPermaLink="false">c44c66f7fa554bf5</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior System Software Engineer - Scientific Computing PaaS</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Scientific-Computing-PaaS_JR2024331</link>
+      <guid isPermaLink="false">9fb930e8e8ad5fcf</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Systems Software Engineer - GPU Performance at Scale</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987</link>
+      <guid isPermaLink="false">bfb1141b80e4b771</guid>
+      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>Tencent — Tencent Cloud-Senior Site Reliability Engineer (IaaS), Singapore</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Tencent-Cloud-Senior-Site-Reliability-Engineer--IaaS---Singapore_R108271-1</link>
       <guid isPermaLink="false">cd0b09c6953d2d6a</guid>
@@ -28172,12 +28208,6 @@
       <description>US, CA, Santa Clara · mid_level · 2d</description>
     </item>
     <item>
-      <title>NVIDIA — Principal Software Engineer – Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Infrastructure_JR2024352-1</link>
-      <guid isPermaLink="false">5ce1d001aa954fde</guid>
-      <description>US, CA, Santa Clara · mid_level · 2d</description>
-    </item>
-    <item>
       <title>NVIDIA — Principal Software Engineer, Rack-Scale System Software — CSP Engagements</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316</link>
       <guid isPermaLink="false">19a883cd43918f82</guid>
@@ -28194,24 +28224,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Engineer---Enterprise-Data-Governance_JR2024554</link>
       <guid isPermaLink="false">7cf52c49f02eace7</guid>
       <description>US, CA, Santa Clara · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Storage Infrastructure Software Engineer - EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658</link>
-      <guid isPermaLink="false">042fe41a15c8c201</guid>
-      <description>US, CA, Santa Clara +3 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Systems Software Engineer - Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---Infrastructure_JR2024492</link>
-      <guid isPermaLink="false">b3847a49b9ab5c05</guid>
-      <description>US, CA, Santa Clara · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Systems Software Engineer- EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1</link>
-      <guid isPermaLink="false">89930bfb8d89aa0d</guid>
-      <description>US, CA, Remote +5 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Software Engineer, DGX Cloud AI Infrastructure</title>
