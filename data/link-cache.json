@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T17:09:46Z",
+ "generated_at": "2026-10-17T19:23:11Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -340,10 +340,6 @@
   "https://ai-lodge-hackathon-2026.devpost.com/": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
-  },
-  "https://ai-trust.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-10T18:34:24Z"
   },
   "https://aibuildersnetwork.org/conference": {
    "alive": true,
@@ -3181,6 +3177,10 @@
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
   },
+  "https://c0mpiled-14.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-17T19:23:11Z"
+  },
   "https://ca.indeed.com/viewjob?jk=8bd0129c0fd6be4b": {
    "alive": true,
    "at": "2026-10-15T22:15:18Z"
@@ -3592,6 +3592,10 @@
   "https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002": {
    "alive": true,
    "at": "2026-10-17T09:19:23Z"
+  },
+  "https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002&utm_source=github-vansh-ouckah": {
+   "alive": true,
+   "at": "2026-10-17T19:22:54Z"
   },
   "https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002": {
    "alive": true,
@@ -6341,10 +6345,6 @@
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
   },
-  "https://get-hired-hack-nyc.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-10T18:34:24Z"
-  },
   "https://ghc.anitab.org/": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
@@ -6412,10 +6412,6 @@
   "https://hackathon-agentico-2026b.devpost.com/": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
-  },
-  "https://hackathon-tecnm-saltillo.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-10T18:34:24Z"
   },
   "https://hacker-house-goa-2026.devfolio.co": {
    "alive": true,
@@ -6552,10 +6548,6 @@
   "https://hyperbloom-october.devpost.com/": {
    "alive": true,
    "at": "2026-10-16T12:24:04Z"
-  },
-  "https://hyphen-hacks26.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-10T18:34:24Z"
   },
   "https://iated.org/inted": {
    "alive": true,
@@ -7943,7 +7935,7 @@
   },
   "https://job-boards.greenhouse.io/doordashusa/jobs/8171041?utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-10-16T17:22:49Z"
+   "at": "2026-10-17T19:22:54Z"
   },
   "https://job-boards.greenhouse.io/doordashusa/jobs/8171620": {
    "alive": true,
@@ -8048,6 +8040,10 @@
   "https://job-boards.greenhouse.io/doordashusa/jobs/8294468": {
    "alive": true,
    "at": "2026-10-17T09:19:49Z"
+  },
+  "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8888785002?utm_source=github-vansh-ouckah": {
+   "alive": true,
+   "at": "2026-10-17T19:22:54Z"
   },
   "https://job-boards.greenhouse.io/getyourguide/jobs/7422312": {
    "alive": true,
@@ -13861,6 +13857,10 @@
    "alive": true,
    "at": "2026-10-17T17:08:57Z"
   },
+  "https://jobs.smartrecruiters.com/ServiceNow/744000155345889?utm_source=github-vansh-ouckah": {
+   "alive": true,
+   "at": "2026-10-17T19:22:54Z"
+  },
   "https://jobs.smartrecruiters.com/ValU1/743999960658213": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
@@ -14093,9 +14093,9 @@
    "alive": true,
    "at": "2026-10-16T12:24:04Z"
   },
-  "https://latinos-x-ai-hackathon-nyc.devpost.com/": {
+  "https://la-tech-acm-trojanhacks-2026.devpost.com/": {
    "alive": true,
-   "at": "2026-10-10T18:34:24Z"
+   "at": "2026-10-17T19:23:11Z"
   },
   "https://latinoware.org/": {
    "alive": true,
@@ -18387,7 +18387,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs": {
    "alive": true,
-   "at": "2026-10-11T20:15:06Z"
+   "at": "2026-10-17T19:22:54Z"
   },
   "https://www.amazon.jobs/en/jobs/10490681/software-development-engineer-ii-prime-air": {
    "alive": true,
