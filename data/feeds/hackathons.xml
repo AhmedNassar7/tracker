@@ -4,12 +4,12 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Sun, 18 Oct 2026 20:43:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 23:13:19 GMT</lastBuildDate>
     <item>
-      <title>Devfolio — Arkiv: Global Tour Stop 🌍</title>
-      <link>https://arkiv.devfolio.co</link>
-      <guid isPermaLink="false">ded1c152488da419</guid>
-      <description>Online · last day</description>
+      <title>Arm — Arm + ExecuTorch: Edge AI Challenge</title>
+      <link>https://arm-executorch.devpost.com/</link>
+      <guid isPermaLink="false">4fe7881a86111c63</guid>
+      <description>San Francisco State University · about 1 hour left</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -20,17 +20,24 @@
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Arm — Arm + ExecuTorch: Edge AI Challenge</title>
-      <link>https://arm-executorch.devpost.com/</link>
-      <guid isPermaLink="false">4fe7881a86111c63</guid>
-      <description>San Francisco State University · about 6 hours left</description>
+      <title>IEEE TAMU — IEEE Technothon 2026</title>
+      <link>https://ieee-hackathon.devpost.com/</link>
+      <guid isPermaLink="false">dc460ba9e97c5942</guid>
+      <description>Bryan, TX, USA · about 5 hours left</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>HealthHack — HEALTHHACK 48</title>
       <link>https://healthhack-48.devpost.com/</link>
       <guid isPermaLink="false">845bd06bc3987c15</guid>
-      <description>Online · about 10 hours left</description>
+      <description>Online · about 8 hours left</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hyperbloom Hacks — Hyperbloom October- UI/UX and Web Design</title>
+      <link>https://hyperbloom-october.devpost.com/</link>
+      <guid isPermaLink="false">28bf028a55804f63</guid>
+      <description>Online · about 22 hours left</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -41,10 +48,10 @@
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hyperbloom Hacks — Hyperbloom October- UI/UX and Web Design</title>
-      <link>https://hyperbloom-october.devpost.com/</link>
-      <guid isPermaLink="false">28bf028a55804f63</guid>
-      <description>Online · 1 day left</description>
+      <title>BioCataalysis — UnivaBio ($40,000 in prizes)</title>
+      <link>https://univabio.devpost.com/</link>
+      <guid isPermaLink="false">38062278a1525c27</guid>
+      <description>Online · 2 days left</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -307,6 +314,20 @@
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Fort Worth DAO — HackFW: MADE Challenge</title>
+      <link>https://hackfw.devpost.com/</link>
+      <guid isPermaLink="false">3aa36b4ce5ae28e0</guid>
+      <description>Fort Worth · 12 days left</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hacker's Unity — AI Build India</title>
+      <link>https://sphinx-26.devpost.com/</link>
+      <guid isPermaLink="false">bf832b5637e89328</guid>
+      <description>jaipur · 12 days left</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Nebius — Nebius x NVIDIA Global AI Hackathon</title>
       <link>https://nebiusglobalaihackathon.devpost.com/</link>
       <guid isPermaLink="false">824a8b781814bdae</guid>
@@ -370,24 +391,10 @@
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hacker's Unity — AI Build India</title>
-      <link>https://sphinx-26.devpost.com/</link>
-      <guid isPermaLink="false">bf832b5637e89328</guid>
-      <description>jaipur · 13 days left</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Hacker's Unity — CreateAThon</title>
       <link>https://graph-hacks.devpost.com/</link>
       <guid isPermaLink="false">634f3948ab33fa75</guid>
       <description>Online, from anywhere · 13 days left</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — GoDaddy Inclusive Innovation Hackathon 2026</title>
-      <link>https://www.hackerearth.com/challenges/competitive/godaddy-inclusive-innovation-challenge-2026/</link>
-      <guid isPermaLink="false">21d5dcf89cee59a2</guid>
-      <description>Online · 13 days left</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -458,13 +465,6 @@
       <link>https://herhack.devpost.com/</link>
       <guid isPermaLink="false">67cb02173d978b7c</guid>
       <description>Online · 23 days left</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackerEarth — Agentic Banking Hackathon</title>
-      <link>https://www.hackerearth.com/challenges/hackathon/agentic-banking-hackathon-2/</link>
-      <guid isPermaLink="false">cf4ddf4144f108ab</guid>
-      <description>Online · 25 days left</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -598,27 +598,6 @@
       <link>https://hack-nexus.devfolio.co</link>
       <guid isPermaLink="false">8511b89e52526ebd</guid>
       <description>Nagpur, India · 104 days left</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>BCSSA — BCS Hacks 2026</title>
-      <link>https://bcs-hacks-2026.devpost.com/</link>
-      <guid isPermaLink="false">f2c3b28748a44f14</guid>
-      <description>UBC Vancouver Campus · 5 minutes left</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Girls Who Code UVA — Girls Hoo Hack 2026</title>
-      <link>https://girls-hoo-hack-2026.devpost.com/</link>
-      <guid isPermaLink="false">563f88ba4110602c</guid>
-      <description>University of Virginia - Rice Hall · 20 minutes left</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>UW Blockchain Society — 804 Hacks</title>
-      <link>https://804hacks.devpost.com/</link>
-      <guid isPermaLink="false">0e941286066f502c</guid>
-      <description>Randolph-Macon College - Birdsong Hall · 19 minutes left</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
