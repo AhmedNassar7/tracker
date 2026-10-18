@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T22:16:56Z",
+ "generated_at": "2026-10-18T01:01:04Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -244,6 +244,10 @@
   "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/So-Paulo---Barueri/Analista-Jr-Pleno-Mainframe-Cobol_R00277940": {
    "alive": true,
    "at": "2026-10-14T04:51:43Z"
+  },
+  "https://accessed-hacks.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-18T01:01:04Z"
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Full-Stack-Engineer--Front-end---Agentic-Governance_R172296": {
    "alive": true,
@@ -884,10 +888,6 @@
   "https://axisapp.teamtailor.com/jobs/8378441-sdet-software-development-engineer-in-test": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
-  },
-  "https://axisapp.teamtailor.com/jobs/8409164-staff-backend-software-engineer": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
   },
   "https://banana-hacks-1111.devpost.com/": {
    "alive": true,
@@ -6445,14 +6445,6 @@
    "alive": true,
    "at": "2026-10-17T13:42:34Z"
   },
-  "https://hackify-3.devfolio.co": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
-  },
-  "https://hackinverse-s1.devfolio.co": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
-  },
   "https://hackit-2026.devpost.com/": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
@@ -6488,10 +6480,6 @@
   "https://hackonhills8.devfolio.co": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
-  },
-  "https://hackphs2026.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
   },
   "https://hackru-fall-2026.devpost.com/": {
    "alive": true,
@@ -6680,10 +6668,6 @@
   "https://indux-5-0-2026.devpost.com/": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
-  },
-  "https://innohacks-4.devfolio.co": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
   },
   "https://innosprint-3.devfolio.co": {
    "alive": true,
@@ -8943,7 +8927,7 @@
   },
   "https://jobs.apple.com/en-us/details/200656819/software-engineer-framework-solutions-ai-data-platforms-aidp": {
    "alive": true,
-   "at": "2026-10-17T04:23:03Z"
+   "at": "2026-10-18T01:00:46Z"
   },
   "https://jobs.apple.com/en-us/details/200657911/machine-learning-engineer-visual-agents-special-projects": {
    "alive": true,
@@ -9255,7 +9239,7 @@
   },
   "https://jobs.apple.com/en-us/details/200686879/system-software-engineer-headphone-accessories-sensing-connectivity": {
    "alive": true,
-   "at": "2026-10-17T04:23:03Z"
+   "at": "2026-10-18T01:00:46Z"
   },
   "https://jobs.apple.com/en-us/details/200686880/software-engineer-linux-driver-and-kernel-developer": {
    "alive": true,
@@ -15415,7 +15399,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Network-Visibility-Platform---DGX-Cloud_JR2026403": {
    "alive": true,
-   "at": "2026-10-15T07:25:36Z"
+   "at": "2026-10-18T01:01:04Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880": {
    "alive": true,
@@ -15793,6 +15777,10 @@
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
   },
+  "https://safespace-hacks.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-18T01:01:04Z"
+  },
   "https://sahl.recruitee.com/o/senior-software-development-engineer": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
@@ -15800,10 +15788,6 @@
   "https://sahl.recruitee.com/o/software-development-engineer": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
-  },
-  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---Palo-Alto/Senior-Software-Engineer_JR360316": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
   },
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/Senior-Staff-Prototyping-Engineer--iOS_JR360080-1": {
    "alive": true,
@@ -16012,10 +15996,6 @@
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Principal-Software-Engineer----PMTS_JR363531": {
    "alive": true,
    "at": "2026-10-17T13:42:34Z"
-  },
-  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Software-Engineer--MTS---Frontier-Strike--EntSecTech-_JR361861": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
   },
   "https://scipy.in/2026/": {
    "alive": true,
@@ -16565,10 +16545,6 @@
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
   },
-  "https://sudo-hacktober.devfolio.co": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
-  },
   "https://sumup.com/careers/positions/6651430002?gh_jid=6651430002": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
@@ -16760,6 +16736,10 @@
   "https://tabby.pinpointhq.com/en/postings/cdab253e-3ad0-4eb8-922e-b0650775b77d": {
    "alive": true,
    "at": "2026-10-15T07:25:36Z"
+  },
+  "https://taskforge.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-18T01:01:04Z"
   },
   "https://techaiconf.com": {
    "alive": true,
@@ -18355,7 +18335,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10488199/software-development-engineer-ii-amazon-cross-border-tech": {
    "alive": true,
-   "at": "2026-10-17T09:19:23Z"
+   "at": "2026-10-18T01:00:46Z"
   },
   "https://www.amazon.jobs/en/jobs/10488221/software-development-engineer": {
    "alive": true,
@@ -18543,7 +18523,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10496976/software-development-engineer-security-automation-aws-security-epoxy": {
    "alive": true,
-   "at": "2026-10-17T09:19:23Z"
+   "at": "2026-10-18T01:00:46Z"
   },
   "https://www.amazon.jobs/en/jobs/10496986/software-development-engineer-aws-security-hawkeye": {
    "alive": true,
@@ -18763,7 +18743,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10503864/software-development-engineer-security-automation-aws-security-epoxy": {
    "alive": true,
-   "at": "2026-10-17T09:19:23Z"
+   "at": "2026-10-18T01:00:46Z"
   },
   "https://www.amazon.jobs/en/jobs/10503889/software-development-engineer-security-automation-aws-security-epoxy": {
    "alive": true,
@@ -20581,10 +20561,6 @@
    "alive": true,
    "at": "2026-10-17T22:16:34Z"
   },
-  "https://www.amazon.jobs/en/jobs/10568815/software-development-engineer-ii-fintech-general-ledger": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
   "https://www.amazon.jobs/en/jobs/10569159/software-development-engineer-ii": {
    "alive": true,
    "at": "2026-10-17T17:08:57Z"
@@ -22189,10 +22165,6 @@
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
   },
-  "https://www.coupang.jobs/en/jobs/?gh_jid=8067672": {
-   "alive": true,
-   "at": "2026-10-10T22:31:02Z"
-  },
   "https://www.coupang.jobs/en/jobs/?gh_jid=8068982": {
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
@@ -22681,10 +22653,6 @@
    "alive": true,
    "at": "2026-10-17T17:09:46Z"
   },
-  "https://www.linkedin.com/jobs/view/4321301694": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
   "https://www.linkedin.com/jobs/view/4404059914": {
    "alive": true,
    "at": "2026-10-17T17:08:57Z"
@@ -22705,10 +22673,6 @@
    "alive": true,
    "at": "2026-10-17T17:08:57Z"
   },
-  "https://www.linkedin.com/jobs/view/4418825676": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
   "https://www.linkedin.com/jobs/view/4418832556": {
    "alive": true,
    "at": "2026-10-17T22:16:34Z"
@@ -22721,41 +22685,13 @@
    "alive": true,
    "at": "2026-10-17T17:08:57Z"
   },
-  "https://www.linkedin.com/jobs/view/4418837401": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
-  "https://www.linkedin.com/jobs/view/4418843146": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
   "https://www.linkedin.com/jobs/view/4418844091": {
    "alive": true,
    "at": "2026-10-17T17:08:57Z"
   },
-  "https://www.linkedin.com/jobs/view/4419097468": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
-  "https://www.linkedin.com/jobs/view/4419301372": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
   "https://www.linkedin.com/jobs/view/4460031780": {
    "alive": true,
    "at": "2026-10-17T17:08:57Z"
-  },
-  "https://www.linkedin.com/jobs/view/4460115570": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
-  "https://www.linkedin.com/jobs/view/4461530764": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
-  },
-  "https://www.linkedin.com/jobs/view/4461536634": {
-   "alive": true,
-   "at": "2026-10-10T22:30:23Z"
   },
   "https://www.linkedin.com/jobs/view/4472552295": {
    "alive": true,
