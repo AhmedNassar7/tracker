@@ -4,7 +4,7 @@
     <title>tracker — North America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in North America tracker currently tracks.</description>
-    <lastBuildDate>Sun, 18 Oct 2026 18:08:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 20:43:18 GMT</lastBuildDate>
     <item>
       <title>Cisco — Software Engineer Data &amp; AI PhD (Intern) - United States</title>
       <link>https://zapply.jobs/l/d/phenom-cisco-2025611?s=gh-new-grad-jobs-2027</link>
@@ -2065,6 +2065,13 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Ordering</title>
+      <link>https://www.amazon.jobs/en/jobs/10579329/software-development-engineer-ordering</link>
+      <guid isPermaLink="false">c6442d3ac5dda3c5</guid>
+      <description>Vancouver, British Columbia, CAN · unknown · 4d</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Ordering</title>
       <link>https://www.amazon.jobs/en/jobs/10579333/software-development-engineer-ordering</link>
       <guid isPermaLink="false">c6212f70bda6b619</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 4d</description>
@@ -2074,13 +2081,6 @@
       <title>Amazon — Software Development Engineer, Ordering</title>
       <link>https://www.amazon.jobs/en/jobs/10579330/software-development-engineer-ordering</link>
       <guid isPermaLink="false">3e22aee6ace8a0b5</guid>
-      <description>Vancouver, British Columbia, CAN · unknown · 4d</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Ordering</title>
-      <link>https://www.amazon.jobs/en/jobs/10579329/software-development-engineer-ordering</link>
-      <guid isPermaLink="false">c6442d3ac5dda3c5</guid>
       <description>Vancouver, British Columbia, CAN · unknown · 4d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3906,15 +3906,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Finance Technology</title>
-      <link>https://www.amazon.jobs/en/jobs/10574139/software-development-engineer-finance-technology</link>
-      <guid isPermaLink="false">81b526710170b2ee</guid>
+      <link>https://www.amazon.jobs/en/jobs/10574138/software-development-engineer-finance-technology</link>
+      <guid isPermaLink="false">0a0f310388172ebc</guid>
       <description>Bellevue, Washington, USA · unknown · 10d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Finance Technology</title>
-      <link>https://www.amazon.jobs/en/jobs/10574138/software-development-engineer-finance-technology</link>
-      <guid isPermaLink="false">0a0f310388172ebc</guid>
+      <link>https://www.amazon.jobs/en/jobs/10574139/software-development-engineer-finance-technology</link>
+      <guid isPermaLink="false">81b526710170b2ee</guid>
       <description>Bellevue, Washington, USA · unknown · 10d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -5537,15 +5537,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, EC2 Nitro Networking</title>
-      <link>https://www.amazon.jobs/en/jobs/10568398/software-development-engineer-ec2-nitro-networking</link>
-      <guid isPermaLink="false">2c584596d2a45d4b</guid>
+      <link>https://www.amazon.jobs/en/jobs/10568419/software-development-engineer-ec2-nitro-networking</link>
+      <guid isPermaLink="false">28aed443a7191446</guid>
       <description>San Diego, California, USA · unknown · 16d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, EC2 Nitro Networking</title>
-      <link>https://www.amazon.jobs/en/jobs/10568419/software-development-engineer-ec2-nitro-networking</link>
-      <guid isPermaLink="false">28aed443a7191446</guid>
+      <link>https://www.amazon.jobs/en/jobs/10568398/software-development-engineer-ec2-nitro-networking</link>
+      <guid isPermaLink="false">2c584596d2a45d4b</guid>
       <description>San Diego, California, USA · unknown · 16d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -5908,15 +5908,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Service Quotas</title>
-      <link>https://www.amazon.jobs/en/jobs/10567391/software-development-engineer-aws-service-quotas</link>
-      <guid isPermaLink="false">12875ea7fc0096c9</guid>
+      <link>https://www.amazon.jobs/en/jobs/10567394/software-development-engineer-aws-service-quotas</link>
+      <guid isPermaLink="false">1e30e409a1bcee7e</guid>
       <description>Seattle, Washington, USA · unknown · 17d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS Service Quotas</title>
-      <link>https://www.amazon.jobs/en/jobs/10567394/software-development-engineer-aws-service-quotas</link>
-      <guid isPermaLink="false">1e30e409a1bcee7e</guid>
+      <link>https://www.amazon.jobs/en/jobs/10567391/software-development-engineer-aws-service-quotas</link>
+      <guid isPermaLink="false">12875ea7fc0096c9</guid>
       <description>Seattle, Washington, USA · unknown · 17d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -6510,6 +6510,13 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
+      <link>https://www.amazon.jobs/en/jobs/10562998/software-development-engineer-aws-ec2-nitro-team</link>
+      <guid isPermaLink="false">fa1cc1155cf5f5c5</guid>
+      <description>Santa Clara, California, USA · unknown · 19d</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
       <link>https://www.amazon.jobs/en/jobs/10563000/software-development-engineer-aws-ec2-nitro-team</link>
       <guid isPermaLink="false">0eef2a49dbf3317c</guid>
       <description>Santa Clara, California, USA · unknown · 19d</description>
@@ -6519,13 +6526,6 @@
       <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
       <link>https://www.amazon.jobs/en/jobs/10563004/software-development-engineer-aws-ec2-nitro-team</link>
       <guid isPermaLink="false">1246f2684101222d</guid>
-      <description>Santa Clara, California, USA · unknown · 19d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AWS EC2 Nitro Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10562998/software-development-engineer-aws-ec2-nitro-team</link>
-      <guid isPermaLink="false">fa1cc1155cf5f5c5</guid>
       <description>Santa Clara, California, USA · unknown · 19d</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -9394,15 +9394,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Leo Flight Software Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10553001/software-development-engineer-leo-flight-software-team</link>
-      <guid isPermaLink="false">42e5b8ff4d3f8791</guid>
+      <link>https://www.amazon.jobs/en/jobs/10553002/software-development-engineer-leo-flight-software-team</link>
+      <guid isPermaLink="false">0b42a64ff64ef189</guid>
       <description>Redmond, Washington, USA · unknown · 30d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Leo Flight Software Team</title>
-      <link>https://www.amazon.jobs/en/jobs/10553002/software-development-engineer-leo-flight-software-team</link>
-      <guid isPermaLink="false">0b42a64ff64ef189</guid>
+      <link>https://www.amazon.jobs/en/jobs/10553001/software-development-engineer-leo-flight-software-team</link>
+      <guid isPermaLink="false">42e5b8ff4d3f8791</guid>
       <description>Redmond, Washington, USA · unknown · 30d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -9634,6 +9634,13 @@
       <title>Amazon — Software Development Engineer, Special Projects</title>
       <link>https://www.amazon.jobs/en/jobs/10547105/software-development-engineer-special-projects</link>
       <guid isPermaLink="false">531bb062b32ad6df</guid>
+      <description>Seattle, Washington, USA · unknown · 32d</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Tax and Account Compliance Tech</title>
+      <link>https://www.amazon.jobs/en/jobs/10550363/software-development-engineer-tax-and-account-compliance-tech</link>
+      <guid isPermaLink="false">24fc4565538f57b3</guid>
       <description>Seattle, Washington, USA · unknown · 32d</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -10006,13 +10013,6 @@
       <link>https://www.amazon.jobs/en/jobs/10537579/software-development-engineer-neuron-explorer</link>
       <guid isPermaLink="false">f260a6e9f9f98e6c</guid>
       <description>Toronto, Ontario, CAN · unknown · 37d</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Sponsored Products and Brands</title>
-      <link>https://www.amazon.jobs/en/jobs/10537085/software-development-engineer-sponsored-products-and-brands</link>
-      <guid isPermaLink="false">7ece524ba03428f6</guid>
-      <description>Palo Alto, California, USA · unknown · 37d</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12166,15 +12166,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, STRADA</title>
-      <link>https://www.amazon.jobs/en/jobs/10500766/software-development-engineer-strada</link>
-      <guid isPermaLink="false">b96f2e4110592968</guid>
+      <link>https://www.amazon.jobs/en/jobs/10500767/software-development-engineer-strada</link>
+      <guid isPermaLink="false">ed75cc8d2e115a3f</guid>
       <description>Minneapolis, Minnesota, USA · unknown · 66d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, STRADA</title>
-      <link>https://www.amazon.jobs/en/jobs/10500767/software-development-engineer-strada</link>
-      <guid isPermaLink="false">ed75cc8d2e115a3f</guid>
+      <link>https://www.amazon.jobs/en/jobs/10500766/software-development-engineer-strada</link>
+      <guid isPermaLink="false">b96f2e4110592968</guid>
       <description>Minneapolis, Minnesota, USA · unknown · 66d</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -12747,15 +12747,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon MSK</title>
-      <link>https://www.amazon.jobs/en/jobs/10487545/software-development-engineer-amazon-msk</link>
-      <guid isPermaLink="false">21e06c0fe5ebcc10</guid>
+      <link>https://www.amazon.jobs/en/jobs/10487568/software-development-engineer-amazon-msk</link>
+      <guid isPermaLink="false">3053015deea1d5f2</guid>
       <description>Santa Monica, California, USA · unknown · 81d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Amazon MSK</title>
-      <link>https://www.amazon.jobs/en/jobs/10487568/software-development-engineer-amazon-msk</link>
-      <guid isPermaLink="false">3053015deea1d5f2</guid>
+      <link>https://www.amazon.jobs/en/jobs/10487545/software-development-engineer-amazon-msk</link>
+      <guid isPermaLink="false">21e06c0fe5ebcc10</guid>
       <description>Santa Monica, California, USA · unknown · 81d</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -13237,15 +13237,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS GuardDuty</title>
-      <link>https://www.amazon.jobs/en/jobs/10471826/software-development-engineer-aws-guardduty</link>
-      <guid isPermaLink="false">9904d1177a2f5d27</guid>
+      <link>https://www.amazon.jobs/en/jobs/10471823/software-development-engineer-aws-guardduty</link>
+      <guid isPermaLink="false">76f1c6d56aac89ad</guid>
       <description>Seattle, Washington, USA · unknown · 99d</description>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS GuardDuty</title>
-      <link>https://www.amazon.jobs/en/jobs/10471823/software-development-engineer-aws-guardduty</link>
-      <guid isPermaLink="false">76f1c6d56aac89ad</guid>
+      <link>https://www.amazon.jobs/en/jobs/10471826/software-development-engineer-aws-guardduty</link>
+      <guid isPermaLink="false">9904d1177a2f5d27</guid>
       <description>Seattle, Washington, USA · unknown · 99d</description>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
     </item>
@@ -13755,15 +13755,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS IAM Distributed Database System</title>
-      <link>https://www.amazon.jobs/en/jobs/10441291/software-development-engineer-aws-iam-distributed-database-system</link>
-      <guid isPermaLink="false">d28953f0732c16ea</guid>
+      <link>https://www.amazon.jobs/en/jobs/10441292/software-development-engineer-aws-iam-distributed-database-system</link>
+      <guid isPermaLink="false">a1635b62adf79187</guid>
       <description>Seattle, Washington, USA · unknown · 135d</description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AWS IAM Distributed Database System</title>
-      <link>https://www.amazon.jobs/en/jobs/10441292/software-development-engineer-aws-iam-distributed-database-system</link>
-      <guid isPermaLink="false">a1635b62adf79187</guid>
+      <link>https://www.amazon.jobs/en/jobs/10441291/software-development-engineer-aws-iam-distributed-database-system</link>
+      <guid isPermaLink="false">d28953f0732c16ea</guid>
       <description>Seattle, Washington, USA · unknown · 135d</description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
@@ -14922,10 +14922,28 @@
       <description>USA, CA, Pleasanton · internship · 9d</description>
     </item>
     <item>
+      <title>Expedia Group — Mobile Engineer III, iOS</title>
+      <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Mobile-Engineer-III--iOS_R-105347-1</link>
+      <guid isPermaLink="false">5407da4f1806f4e6</guid>
+      <description>Washington - Seattle Campus · other · 10d</description>
+    </item>
+    <item>
       <title>Expedia Group — Principal Software Development Engineer, ML-Powered Flight Search</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Principal-Software-Development-Engineer--ML-Powered-Flight-Search_R-110299</link>
       <guid isPermaLink="false">be3828ab0539aa94</guid>
       <description>Washington - Seattle Campus · mid_level · 10d</description>
+    </item>
+    <item>
+      <title>Expedia Group — Principal Software Development Engineer, ML-Powered Flight Search</title>
+      <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Principal-Software-Development-Engineer--ML-Powered-Flight-Search_R-110299-1</link>
+      <guid isPermaLink="false">10233a2260c1328e</guid>
+      <description>Washington - Seattle Campus · mid_level · 10d</description>
+    </item>
+    <item>
+      <title>Expedia Group — Software Development Engineer II</title>
+      <link>https://expedia.wd108.myworkdayjobs.com/search/job/Austin-Domain-11---HomeAway/Software-Development-Engineer-II_R-110294</link>
+      <guid isPermaLink="false">30e0777bb47d409d</guid>
+      <description>Austin Domain 11 - HomeAway · mid_level · 10d</description>
     </item>
     <item>
       <title>Netflix — Post Engineer - Netflix Animation Studios</title>

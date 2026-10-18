@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T18:05:03Z",
-  "total": 3757,
+  "generated_at": "2026-10-18T20:40:48Z",
+  "total": 3753,
   "jobs": [
     {
       "id": "075963a62c92763f",
@@ -3255,36 +3255,6 @@
       }
     },
     {
-      "id": "9f802dd8b8415c21",
-      "kind": "job",
-      "company": "Salesforce",
-      "title": "Software Engineering SMTS (Backend - Distributed Systems)",
-      "location": "<details><summary><strong>2 locations</strong></summary>India - Hyderabad<br>India - Bangalore</details>",
-      "level": "other",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-SMTS---MTS----Platform-Engineering--Backend--Kubernetes---Cloud-_JR347341",
-      "source": "workday:salesforce",
-      "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
-    },
-    {
-      "id": "6349c143a1b1f546",
-      "kind": "job",
-      "company": "Salesforce",
-      "title": "Software Engineering, SMTS/MTS (Backend + Kubernetes/Docker/Helm)",
-      "location": "<details><summary><strong>2 locations</strong></summary>India - Hyderabad<br>India - Bangalore</details>",
-      "level": "other",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "0d",
-      "posted_at": "",
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR338172-1",
-      "source": "workday:salesforce",
-      "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
-    },
-    {
       "id": "e1c3a63a5e125c4c",
       "kind": "job",
       "company": "SpaceX",
@@ -5017,21 +4987,6 @@
       "source_url": "https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
     },
     {
-      "id": "a411adc6ed4d22b3",
-      "kind": "job",
-      "company": "Expedia Group",
-      "title": "Software Development Engineer II",
-      "location": "India - Bangalore",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://expedia.wd108.myworkdayjobs.com/search/job/India---Bangalore/Software-Development-Engineer-II_R-110356",
-      "source": "workday:expedia",
-      "source_url": "https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
-    },
-    {
       "id": "358e5260a25a9623",
       "kind": "job",
       "company": "Expedia Group",
@@ -5493,21 +5448,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-291731",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "9ef32f0a2a3fa758",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Software Engineer I-1",
-      "location": "Pune, India",
-      "level": "entry_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I-1_R-293576-1",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -12497,21 +12437,6 @@
       "source_url": "https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
     },
     {
-      "id": "d99f2e0fb0f94aef",
-      "kind": "job",
-      "company": "Visa",
-      "title": "Staff Software Engineer (Dot Net )",
-      "location": "IN - Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "",
-      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Staff-Software-Engineer_REF087726W",
-      "source": "workday:visa",
-      "source_url": "https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
-    },
-    {
       "id": "1f5d7beb17a6f3de",
       "kind": "job",
       "company": "Wise",
@@ -18751,31 +18676,6 @@
       ]
     },
     {
-      "id": "283b23c7a080d196",
-      "kind": "job",
-      "company": "Pennylane",
-      "title": "Fullstack Software Engineer RoR/JS W/M",
-      "location": "All France (remote)",
-      "level": "other",
-      "region": "remote",
-      "role_type": "full_stack",
-      "date": "5d",
-      "posted_at": "2026-10-13",
-      "url": "https://jobs.ashbyhq.com/pennylane/18f252a7-7b19-44b6-b175-6dfcaea8b2e8",
-      "source": "ashby:pennylane",
-      "source_url": "https://api.ashbyhq.com/posting-api/job-board/pennylane",
-      "tech_tags": [
-        "Vue.js",
-        "JavaScript",
-        "Ruby on Rails",
-        "PostgreSQL"
-      ],
-      "min_years_experience": 2,
-      "languages_required": [
-        "French"
-      ]
-    },
-    {
       "id": "1297d563b6f2327a",
       "kind": "job",
       "company": "Robinhood",
@@ -20682,21 +20582,6 @@
       "url": "https://jobs.ashbyhq.com/elevenlabs/34dbe44c-9815-40b2-81f4-91c607fd84b2",
       "source": "ashby:elevenlabs",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs"
-    },
-    {
-      "id": "4fc8050f4ec3bb67",
-      "kind": "job",
-      "company": "Expedia Group",
-      "title": "Infrastructure and Enterprise Engineer III",
-      "location": "India - Gurgaon",
-      "level": "other",
-      "region": "apac",
-      "role_type": "infrastructure",
-      "date": "6d",
-      "posted_at": "",
-      "url": "https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Infrastructure-and-Enterprise-Engineer-III_R-109473",
-      "source": "workday:expedia",
-      "source_url": "https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
     },
     {
       "id": "d4a202f0803d897e",
@@ -24985,6 +24870,21 @@
       }
     },
     {
+      "id": "5407da4f1806f4e6",
+      "kind": "job",
+      "company": "Expedia Group",
+      "title": "Mobile Engineer III, iOS",
+      "location": "Washington - Seattle Campus",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "mobile",
+      "date": "10d",
+      "posted_at": "",
+      "url": "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Mobile-Engineer-III--iOS_R-105347-1",
+      "source": "workday:expedia",
+      "source_url": "https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
+    },
+    {
       "id": "be3828ab0539aa94",
       "kind": "job",
       "company": "Expedia Group",
@@ -24998,6 +24898,36 @@
       "url": "https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Principal-Software-Development-Engineer--ML-Powered-Flight-Search_R-110299",
       "source": "workday:expedia",
       "source_url": "https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/private/jobs"
+    },
+    {
+      "id": "10233a2260c1328e",
+      "kind": "job",
+      "company": "Expedia Group",
+      "title": "Principal Software Development Engineer, ML-Powered Flight Search",
+      "location": "Washington - Seattle Campus",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "10d",
+      "posted_at": "",
+      "url": "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Principal-Software-Development-Engineer--ML-Powered-Flight-Search_R-110299-1",
+      "source": "workday:expedia",
+      "source_url": "https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
+    },
+    {
+      "id": "30e0777bb47d409d",
+      "kind": "job",
+      "company": "Expedia Group",
+      "title": "Software Development Engineer II",
+      "location": "Austin Domain 11 - HomeAway",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "10d",
+      "posted_at": "",
+      "url": "https://expedia.wd108.myworkdayjobs.com/search/job/Austin-Domain-11---HomeAway/Software-Development-Engineer-II_R-110294",
+      "source": "workday:expedia",
+      "source_url": "https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
     },
     {
       "id": "bcb3b6d9c69ccc00",
@@ -78245,96 +78175,12 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "8259ce7db1c66f38",
-      "kind": "hackathon",
-      "company": "ACM at USC",
-      "title": "[LA Tech Week] ACM TrojanHacks 2026",
-      "location": "USC — Franklin Suites",
-      "date": "about 1 hour left",
-      "posted_at": "2026-10-18",
-      "url": "https://la-tech-acm-trojanhacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "f7d1c37a60a62540",
-      "kind": "hackathon",
-      "company": "Hack The Skies",
-      "title": "Hack the Skies 2026",
-      "location": "Humber College - North Campus",
-      "date": "about 1 hour left",
-      "posted_at": "2026-10-18",
-      "url": "https://hack-the-skies-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "11c6969c4df369c1",
-      "kind": "hackathon",
-      "company": "Texas Christian University",
-      "title": "Neeley AI Forward: AI Innovation Competition",
-      "location": "Online",
-      "date": "about 1 hour left",
-      "posted_at": "2026-10-18",
-      "url": "https://neeley-ai-forward.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "a2076dfbe2bb0dfd",
-      "kind": "hackathon",
-      "company": "SoundCreditUnion and UW Tacoma",
-      "title": "HuskyHack 2026: Phase 2",
-      "location": "University of Washington Tacoma",
-      "date": "about 2 hours left",
-      "posted_at": "2026-10-18",
-      "url": "https://huskyhack2026phase2.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "563f88ba4110602c",
-      "kind": "hackathon",
-      "company": "Girls Who Code UVA",
-      "title": "Girls Hoo Hack 2026",
-      "location": "University of Virginia - Rice Hall",
-      "date": "about 3 hours left",
-      "posted_at": "2026-10-18",
-      "url": "https://girls-hoo-hack-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "f2c3b28748a44f14",
-      "kind": "hackathon",
-      "company": "BCSSA",
-      "title": "BCS Hacks 2026",
-      "location": "UBC Vancouver Campus",
-      "date": "about 4 hours left",
-      "posted_at": "2026-10-18",
-      "url": "https://bcs-hacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "aff9d41d19bcb790",
-      "kind": "hackathon",
-      "company": "Seattle GiveCamp",
-      "title": "Seattle GiveCamp 2026",
-      "location": "Microsoft Building 122",
-      "date": "about 4 hours left",
-      "posted_at": "2026-10-18",
-      "url": "https://seattle-givecamp-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "e26e21ced1093f86",
       "kind": "hackathon",
       "company": "SMU Business Intelligence & Analytics",
       "title": "AI Lodge Hackathon 2026",
       "location": "Online",
-      "date": "about 6 hours left",
+      "date": "about 4 hours left",
       "posted_at": "2026-10-18",
       "url": "https://ai-lodge-hackathon-2026.devpost.com/",
       "source": "devpost",
@@ -78346,7 +78192,7 @@
       "company": "arm",
       "title": "Arm + ExecuTorch: Edge AI Challenge",
       "location": "San Francisco State University",
-      "date": "about 7 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-10-18",
       "url": "https://arm-executorch.devpost.com/",
       "source": "devpost",
@@ -78358,9 +78204,33 @@
       "company": "HealthHack",
       "title": "HEALTHHACK 48",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-10-18",
       "url": "https://healthhack-48.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e5d11871a2edb7f1",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Test Hackathon II",
+      "location": "Bengaluru, India",
+      "date": "1 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://test-hackathon-for-grants.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "28bf028a55804f63",
+      "kind": "hackathon",
+      "company": "hyperbloom hacks",
+      "title": "Hyperbloom October- UI/UX and Web Design",
+      "location": "Online",
+      "date": "1 day left",
+      "posted_at": "2026-10-18",
+      "url": "https://hyperbloom-october.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78373,18 +78243,6 @@
       "date": "2 days left",
       "posted_at": "2026-10-18",
       "url": "https://meow.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "e5d11871a2edb7f1",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Test Hackathon II",
-      "location": "Bengaluru, India",
-      "date": "2 days left",
-      "posted_at": "2026-10-18",
-      "url": "https://test-hackathon-for-grants.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78425,6 +78283,30 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "f41f2b2358a8d1bf",
+      "kind": "hackathon",
+      "company": "NED",
+      "title": "HACK INSIGHT",
+      "location": "Online",
+      "date": "3 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://hack-insight.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "1632066aab5b9daf",
+      "kind": "hackathon",
+      "company": "MLH",
+      "title": "HackOctober MLH X Tech4hack",
+      "location": "Microsoft",
+      "date": "4 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://hackoctober-mlh-x-tech4hack.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "570ae57fd3b08049",
       "kind": "hackathon",
       "company": "Amazon",
@@ -78433,6 +78315,18 @@
       "date": "5 days left",
       "posted_at": "2026-10-18",
       "url": "https://amazonappdev2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "55d0425f268a8c3d",
+      "kind": "hackathon",
+      "company": "Black Code Collective",
+      "title": "Black Code Collective Hacktoberfest",
+      "location": "Washington DC",
+      "date": "5 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://bcc-hacktoberfest.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78457,6 +78351,18 @@
       "date": "5 days left",
       "posted_at": "2026-10-18",
       "url": "https://innosprint-3.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "4576e1ba52a1e294",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Internwell Hack2.0",
+      "location": "Various",
+      "date": "5 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://internwell-hack.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78509,6 +78415,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "648e2fdad87c0015",
+      "kind": "hackathon",
+      "company": "Silicon Valley Youth Climate Action",
+      "title": "SVYCA Youth for Earth (Y4E) Hackathon",
+      "location": "Stanford University",
+      "date": "5 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://svycay4e.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "e0409c95029ba121",
       "kind": "hackathon",
       "company": "Student Organization",
@@ -78517,18 +78435,6 @@
       "date": "5 days left",
       "posted_at": "2026-10-18",
       "url": "https://neighborhood-hacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "55d0425f268a8c3d",
-      "kind": "hackathon",
-      "company": "Black Code Collective",
-      "title": "Black Code Collective Hacktoberfest",
-      "location": "Washington DC",
-      "date": "6 days left",
-      "posted_at": "2026-10-18",
-      "url": "https://bcc-hacktoberfest.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78557,18 +78463,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "4576e1ba52a1e294",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Internwell Hack2.0",
-      "location": "Various",
-      "date": "6 days left",
-      "posted_at": "2026-10-18",
-      "url": "https://internwell-hack.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "fbeea37153cbc3b5",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78589,18 +78483,6 @@
       "date": "6 days left",
       "posted_at": "2026-10-18",
       "url": "https://taskforge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "648e2fdad87c0015",
-      "kind": "hackathon",
-      "company": "Silicon Valley Youth Climate Action",
-      "title": "SVYCA Youth for Earth (Y4E) Hackathon",
-      "location": "Stanford University",
-      "date": "6 days left",
-      "posted_at": "2026-10-18",
-      "url": "https://svycay4e.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78661,6 +78543,18 @@
       "date": "8 days left",
       "posted_at": "2026-10-18",
       "url": "https://learn-ai-basics.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "efb32028a7cadcd0",
+      "kind": "hackathon",
+      "company": "OpenCV",
+      "title": "OpenCV AI Competition 2026, powered by AWS",
+      "location": "Online",
+      "date": "8 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://opencv26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78749,6 +78643,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "9c7128e61cb3dbdf",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hefty-Hacks",
+      "location": "Online",
+      "date": "12 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://hefty-hacks.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "38e4d172fc0d4dda",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78833,6 +78739,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "03943543974f740e",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hack On Hills 8.0",
+      "location": "Hamirpur, India",
+      "date": "13 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://hackonhills8.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "d553006f7fba567c",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78841,18 +78759,6 @@
       "date": "13 days left",
       "posted_at": "2026-10-18",
       "url": "https://hackodisha-6a.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "9c7128e61cb3dbdf",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hefty-Hacks",
-      "location": "Online",
-      "date": "13 days left",
-      "posted_at": "2026-10-18",
-      "url": "https://hefty-hacks.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78867,6 +78773,18 @@
       "url": "https://version-beta-9.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "14570249062d0ff5",
+      "kind": "hackathon",
+      "company": "Devpost",
+      "title": "AQX Sports Analytics Data Bowl 4.0",
+      "location": "Online",
+      "date": "13 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://aqxanalyticsfour.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "bf832b5637e89328",
@@ -78891,6 +78809,18 @@
       "url": "https://graph-hacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "21d5dcf89cee59a2",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "GoDaddy Inclusive Innovation Hackathon 2026",
+      "location": "Online",
+      "date": "13 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://www.hackerearth.com/challenges/competitive/godaddy-inclusive-innovation-challenge-2026/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "c1d04a5f697276a0",
@@ -78929,18 +78859,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "03943543974f740e",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hack On Hills 8.0",
-      "location": "Hamirpur, India",
-      "date": "14 days left",
-      "posted_at": "2026-10-18",
-      "url": "https://hackonhills8.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "b8075437fa20e350",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78951,18 +78869,6 @@
       "url": "https://lean-in-hacks-8.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "14570249062d0ff5",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "AQX Sports Analytics Data Bowl 4.0",
-      "location": "Online",
-      "date": "14 days left",
-      "posted_at": "2026-10-18",
-      "url": "https://aqxanalyticsfour.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "a278312f9434729c",
@@ -79030,11 +78936,23 @@
       "company": "Echelon institute of technology",
       "title": "Herhack",
       "location": "Online",
-      "date": "24 days left",
+      "date": "23 days left",
       "posted_at": "2026-10-18",
       "url": "https://herhack.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "cf4ddf4144f108ab",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "Agentic Banking Hackathon",
+      "location": "Online",
+      "date": "25 days left",
+      "posted_at": "2026-10-18",
+      "url": "https://www.hackerearth.com/challenges/hackathon/agentic-banking-hackathon-2/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "cf9b87a2024f5960",
@@ -79150,7 +79068,7 @@
       "company": "Devfolio",
       "title": "DevNexus 2.0",
       "location": "Kolkata, India",
-      "date": "41 days left",
+      "date": "40 days left",
       "posted_at": "2026-10-18",
       "url": "https://devnexus2.devfolio.co",
       "source": "devfolio",
@@ -79162,7 +79080,7 @@
       "company": "Devfolio",
       "title": "CodeClash'24",
       "location": "Greater Noida, India",
-      "date": "43 days left",
+      "date": "42 days left",
       "posted_at": "2026-10-18",
       "url": "https://codeclash24.devfolio.co",
       "source": "devfolio",
@@ -79174,7 +79092,7 @@
       "company": "Devfolio",
       "title": "Winter of Code 2026",
       "location": "Online",
-      "date": "43 days left",
+      "date": "42 days left",
       "posted_at": "2026-10-18",
       "url": "https://winter-of-code-4.devfolio.co",
       "source": "devfolio",
@@ -79263,6 +79181,42 @@
       "url": "https://hack-nexus.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "f2c3b28748a44f14",
+      "kind": "hackathon",
+      "company": "BCSSA",
+      "title": "BCS Hacks 2026",
+      "location": "UBC Vancouver Campus",
+      "date": "5 minutes left",
+      "posted_at": "2026-10-18",
+      "url": "https://bcs-hacks-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "563f88ba4110602c",
+      "kind": "hackathon",
+      "company": "Girls Who Code UVA",
+      "title": "Girls Hoo Hack 2026",
+      "location": "University of Virginia - Rice Hall",
+      "date": "20 minutes left",
+      "posted_at": "2026-10-18",
+      "url": "https://girls-hoo-hack-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "0e941286066f502c",
+      "kind": "hackathon",
+      "company": "UW Blockchain Society",
+      "title": "804 Hacks",
+      "location": "Randolph-Macon College - Birdsong Hall",
+      "date": "19 minutes left",
+      "posted_at": "2026-10-18",
+      "url": "https://804hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
@@ -82003,18 +81957,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-10-18",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -82023,18 +81965,6 @@
       "date": "",
       "posted_at": "2026-10-18",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-10-18",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
