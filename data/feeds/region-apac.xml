@@ -4,7 +4,14 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Mon, 19 Oct 2026 15:37:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 21:06:42 GMT</lastBuildDate>
+    <item>
+      <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
+      <link>https://www.amazon.jobs/en/jobs/10582690/software-development-engineer-aft-external-fulfillment</link>
+      <guid isPermaLink="false">d769904bfd102bbf</guid>
+      <description>Bengaluru, Karnataka, IND · unknown · 0d</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Amazon — Software Development Engineer, CAM</title>
       <link>https://www.amazon.jobs/en/jobs/10582579/software-development-engineer-cam</link>
@@ -38,6 +45,20 @@
       <link>https://jobs.apple.com/en-us/details/200677513/software-development-engineer-in-test-retail-engineering</link>
       <guid isPermaLink="false">2044da1ecc8cccfe</guid>
       <description>Shanghai, China · unknown · 0d</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Data Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Data-Engineer-II_R-292972</link>
+      <guid isPermaLink="false">82506abc9cfb3b19</guid>
+      <description>Pune, India · mid_level · 0d</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Data Engineer II (Data Warehouse, Big Data, Spark with Scala/Python/Java on Hadoop, Oracle/SQL)</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Data-Engineer-II--Data-Warehouse--Big-Data--Spark-with-Scala-Python-Java-on-Hadoop--Oracle-SQL-_R-292591-1</link>
+      <guid isPermaLink="false">6183b78340492f5e</guid>
+      <description>Pune, India · mid_level · 0d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -102,13 +123,6 @@
       <guid isPermaLink="false">ca9336c1abf029de</guid>
       <description>Singapore · other · 0d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Customer Experience and Business Trends</title>
-      <link>https://www.amazon.jobs/en/jobs/10582077/software-development-engineer-customer-experience-and-business-trends</link>
-      <guid isPermaLink="false">b3af95b2666e9ea5</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 1d</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Engineering Manager - Backend</title>
@@ -350,6 +364,13 @@
     </item>
     <item>
       <title>MongoDB — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=7993984</link>
+      <guid isPermaLink="false">e4c7a324b57cb782</guid>
+      <description>Gurugram · other · 3d</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Software Engineer 3</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8208074</link>
       <guid isPermaLink="false">c64ab765bd23d6d4</guid>
       <description>Gurugram · other · 3d</description>
@@ -359,13 +380,6 @@
       <title>MongoDB — Software Engineer 3</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8239047</link>
       <guid isPermaLink="false">3bf220ec63e43dcb</guid>
-      <description>Gurugram · other · 3d</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=7993984</link>
-      <guid isPermaLink="false">e4c7a324b57cb782</guid>
       <description>Gurugram · other · 3d</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1007,6 +1021,13 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer, Last Mile Platform Services, SDE</title>
+      <link>https://www.amazon.jobs/en/jobs/10572202/software-development-engineer-last-mile-platform-services-sde</link>
+      <guid isPermaLink="false">48b6c182457cd3f7</guid>
+      <description>Gurugram, Haryana, IND · unknown · 12d</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, Returns and Recommerce</title>
       <link>https://www.amazon.jobs/en/jobs/10571940/software-development-engineer-returns-and-recommerce</link>
       <guid isPermaLink="false">b7205834386e3af9</guid>
@@ -1057,16 +1078,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
-      <guid isPermaLink="false">123c0cae7b46bde0</guid>
-      <description>Bengaluru · internship · 12d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
+      <guid isPermaLink="false">342b3f9493acb89a</guid>
+      <description>Singapore · internship · 12d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
-      <guid isPermaLink="false">342b3f9493acb89a</guid>
-      <description>Singapore · internship · 12d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
+      <guid isPermaLink="false">123c0cae7b46bde0</guid>
+      <description>Bengaluru · internship · 12d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1270,13 +1291,6 @@
       <link>https://www.amazon.jobs/en/jobs/10568413/software-development-engineer-amazon-flex</link>
       <guid isPermaLink="false">cb84c7936a6a65c3</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 17d</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Cloud Engineer, Health Software</title>
-      <link>https://jobs.apple.com/en-us/details/200686555/cloud-engineer-health-software</link>
-      <guid isPermaLink="false">6e4587b35409fb44</guid>
-      <description>Beijing, China · unknown · 17d</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1616,13 +1630,6 @@
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer II, Amazon FinAuto - Travel &amp; Events</title>
-      <link>https://www.amazon.jobs/en/jobs/10565718/software-development-engineer-ii-amazon-finauto-travel-events</link>
-      <guid isPermaLink="false">eb642fc08882be3a</guid>
-      <description>Hyderabad, Telangana, IND · mid_level · 19d</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II, SP Support</title>
       <link>https://www.amazon.jobs/en/jobs/10565475/software-development-engineer-ii-sp-support</link>
       <guid isPermaLink="false">fb14ac0dc2efe994</guid>
@@ -1897,6 +1904,13 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II</title>
+      <link>https://www.amazon.jobs/en/jobs/10555781/software-development-engineer-ii</link>
+      <guid isPermaLink="false">338ca4c5e8185a92</guid>
+      <description>Hyderabad, Telangana, IND · mid_level · 27d</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II</title>
       <link>https://www.amazon.jobs/en/jobs/10555786/software-development-engineer-ii</link>
       <guid isPermaLink="false">6fe40f6effd171e1</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 27d</description>
@@ -1907,13 +1921,6 @@
       <link>https://www.amazon.jobs/en/jobs/10556600/software-development-engineer-ii</link>
       <guid isPermaLink="false">88156a8c73a5cab1</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 27d</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II</title>
-      <link>https://www.amazon.jobs/en/jobs/10555781/software-development-engineer-ii</link>
-      <guid isPermaLink="false">338ca4c5e8185a92</guid>
-      <description>Hyderabad, Telangana, IND · mid_level · 27d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2163,6 +2170,13 @@
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
+      <guid isPermaLink="false">d287749893376873</guid>
+      <description>Bengaluru, India · mid_level · 28d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663</link>
       <guid isPermaLink="false">20d89117016c3b11</guid>
       <description>Bengaluru, India · mid_level · 28d</description>
@@ -2172,13 +2186,6 @@
       <title>Okta — Principal Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955</link>
       <guid isPermaLink="false">cb9266ad97c9c850</guid>
-      <description>Bengaluru, India · mid_level · 28d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
-      <guid isPermaLink="false">d287749893376873</guid>
       <description>Bengaluru, India · mid_level · 28d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2335,13 +2342,6 @@
       <guid isPermaLink="false">e00fb39ca8f9a543</guid>
       <description>Shanghai, China · mid_level · 29d</description>
       <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II, Alexa Smart Home Cameras</title>
-      <link>https://www.amazon.jobs/en/jobs/10554118/software-development-engineer-ii-alexa-smart-home-cameras</link>
-      <guid isPermaLink="false">9c547ecd859d8d92</guid>
-      <description>Bengaluru, Karnataka, IND · mid_level · 30d</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II</title>
@@ -3149,6 +3149,12 @@
       <description>Empire Tower, Bangkok, Thailand · mid_level · 0d</description>
     </item>
     <item>
+      <title>Visa — Staff Software Engineer (Dot Net )</title>
+      <link>https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Staff-Software-Engineer_REF087726W</link>
+      <guid isPermaLink="false">d99f2e0fb0f94aef</guid>
+      <description>IN - Bengaluru, India · mid_level · 0d</description>
+    </item>
+    <item>
       <title>Visa — Staff SW Engineer (8-11 years' exp - .NET Core / Backend Engineer with AI-First Development Approach)</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Staff-SW-Engineer--10-12-years--exp---Net-Core---Java---Python--RAG--MCP-_REF087081W-1</link>
       <guid isPermaLink="false">ff8bcb8298673ff5</guid>
@@ -3191,12 +3197,6 @@
       <description>Pune, India · mid_level · 3d</description>
     </item>
     <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-291731</link>
-      <guid isPermaLink="false">e10848413ae180cd</guid>
-      <description>Pune, India · mid_level · 3d</description>
-    </item>
-    <item>
       <title>Visa — Sr. Software Engineer (3 - 6 years of experience in Oracle EBS, R12 development)</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Software-Engineer--3---6-years-of-experience-in-Oracle-EBS--R12-development-_REF083128W</link>
       <guid isPermaLink="false">7fbf25a5962ee22e</guid>
@@ -3221,12 +3221,6 @@
       <description>Singapore-CapitaSky · mid_level · 4d</description>
     </item>
     <item>
-      <title>Visa — Senior SW Engineer (3 - 5 years of exp in Full stack development with .Net, React / Angular and GenAI)</title>
-      <link>https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Senior-SW-Engineer--3---5-years-of-exp-in-Full-stack-development-with-Net--React---Angular-and-GenAI-_REF089285W</link>
-      <guid isPermaLink="false">439c1a39cc8b13fb</guid>
-      <description>IN - Bengaluru, India · mid_level · 4d</description>
-    </item>
-    <item>
       <title>Workday — Senior Site Reliability Engineer</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Senior-Site-Reliability-Engineer_JR-0109951-1</link>
       <guid isPermaLink="false">e2f258f0cffe51df</guid>
@@ -3249,12 +3243,6 @@
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/INDPune/Sr-Software-Application-Engineer_JR-0109519-1</link>
       <guid isPermaLink="false">00a16da50ecddf73</guid>
       <description>IND.Pune · mid_level · 5d</description>
-    </item>
-    <item>
-      <title>Expedia Group — Mobile Engineer III, iOS</title>
-      <link>https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Mobile-Engineer-III--iOS_R-108296</link>
-      <guid isPermaLink="false">e5cebb9546f79b13</guid>
-      <description>India - Gurgaon · other · 6d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
