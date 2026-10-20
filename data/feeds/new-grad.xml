@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Tue, 20 Oct 2026 06:02:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 11:38:03 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Engineer – Early Career</title>
       <link>https://amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
@@ -59,6 +59,13 @@
       <link>https://zapply.jobs/l/d/amazon-00e8eb3b-60f1-45bb-a196-5829de6bf8af?s=gh-new-grad-jobs-2027</link>
       <guid isPermaLink="false">01ddd389a31eca32</guid>
       <description>Seattle, WA · new_grad · 1d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Roblox — [2027] Software Engineer, Early Career</title>
+      <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
+      <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
+      <description>San Mateo, CA, United States · new_grad · 0d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -139,13 +146,6 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Roblox — [2027] Software Engineer, Early Career</title>
-      <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
-      <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
-      <description>San Mateo, CA, United States · new_grad · 1d</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Wise — Graduate Software Engineer</title>
       <link>https://jobs.smartrecruiters.com/Wise/744000156354869</link>
       <guid isPermaLink="false">b42f5585a69e43f5</guid>
@@ -175,15 +175,15 @@
     </item>
     <item>
       <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
-      <link>https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2027552?s=gh-new-grad-software-engineering-jobs-2027</link>
-      <guid isPermaLink="false">e43b481ff653d420</guid>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
+      <guid isPermaLink="false">c623d077adb61061</guid>
       <description>US, CA, Santa Clara · new_grad · 7d</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
-      <guid isPermaLink="false">c623d077adb61061</guid>
+      <link>https://zapply.jobs/l/d/workday-nvidia-nvidiaexternalcareersite-JR2027552?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">e43b481ff653d420</guid>
       <description>US, CA, Santa Clara · new_grad · 7d</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -231,9 +231,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 13d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
+      <guid isPermaLink="false">334395993d3f3a1a</guid>
+      <description>Singapore · new_grad · 13d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -245,9 +245,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
-      <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 13d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 13d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
