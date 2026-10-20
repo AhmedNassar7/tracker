@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Tue, 20 Oct 2026 00:21:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 06:02:53 GMT</lastBuildDate>
     <item>
       <title>Airbnb — Senior Software Engineer, Guest &amp; Host</title>
       <link>https://careers.airbnb.com/positions/8250093?gh_jid=8250093</link>
@@ -136,6 +136,13 @@
       <link>https://job-boards.greenhouse.io/reddit/jobs/7980795</link>
       <guid isPermaLink="false">6ba729ce5ab63e69</guid>
       <description>Remote - United States · mid_level · 1d</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Software Engineer, Ingestion Platform</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8214910</link>
+      <guid isPermaLink="false">a3ad93b4f9a51c4f</guid>
+      <description>Remote - United States · other · 1d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -420,16 +427,16 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
-      <guid isPermaLink="false">aac8e64367028cfe</guid>
-      <description>Remote - United States · mid_level · 5d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
+      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
+      <description>Remote - Ontario, Canada · mid_level · 5d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
-      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
-      <description>Remote - Ontario, Canada · mid_level · 5d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
+      <guid isPermaLink="false">aac8e64367028cfe</guid>
+      <description>Remote - United States · mid_level · 5d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -469,16 +476,16 @@
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
-      <guid isPermaLink="false">c6e69af605bd2478</guid>
-      <description>Remote - United States · other · 5d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
+      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
+      <description>Remote - Ontario, Canada · other · 5d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
-      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
-      <description>Remote - Ontario, Canada · other · 5d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
+      <guid isPermaLink="false">c6e69af605bd2478</guid>
+      <description>Remote - United States · other · 5d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1686,16 +1693,34 @@
       <description>Switzerland, Remote +1 more · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Storage Infrastructure Software Engineer - EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658</link>
+      <guid isPermaLink="false">042fe41a15c8c201</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Systems Software Engineer - Accelerated Spark Applications</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-IL-Champaign/Senior-Systems-Software-Engineer---Accelerated-Spark-Applications_JR2028114</link>
       <guid isPermaLink="false">9e007d7f2514624f</guid>
       <description>US, IL, Champaign +2 more · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Systems Software Engineer, CUDA and AI HW Profiler</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Senior-Systems-Software-Engineer--CUDA-and-AI-HW-Profiler_JR2027860</link>
+      <guid isPermaLink="false">854ae33de02c39c1</guid>
+      <description>US, TX, Austin +1 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Systems Software Engineer, GPU Fleet Telemetry</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Fleet-Intelligence-Agent-Systems_JR2023940</link>
       <guid isPermaLink="false">df114c9fd5b60268</guid>
       <description>US, CA, Santa Clara +2 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Systems Software Engineer- EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1</link>
+      <guid isPermaLink="false">89930bfb8d89aa0d</guid>
+      <description>US, CA, Remote +5 more · mid_level · 0d</description>
     </item>
     <item>
       <title>Salesforce — Technical Architect / Senior Technical Architect- DevOps (Missionforce)</title>

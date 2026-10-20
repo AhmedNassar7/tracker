@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Tue, 20 Oct 2026 00:21:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 06:02:53 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Engineer – Early Career</title>
       <link>https://amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
@@ -24,6 +24,27 @@
       <link>https://zapply.jobs/l/d/apple-200689349?s=gh-new-grad-jobs-2027</link>
       <guid isPermaLink="false">4bc194f5f58cf41e</guid>
       <description>Cupertino · new_grad · 0d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer New Grad - Query Engines</title>
+      <link>https://jobs.lever.co/palantir/0f7d1e01-1f74-4786-944d-910208d390fa/apply?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">679490206c556957</guid>
+      <description>London, UK · new_grad · 0d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, New Grad - Query Engines</title>
+      <link>https://zapply.jobs/l/d/lever-palantir-90329118-d9b7-4b96-acdf-13377e3196ac?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">2e2d7ca6bb0c3e81</guid>
+      <description>New York, NY · new_grad · 0d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, New Grad - Query Engines</title>
+      <link>https://zapply.jobs/l/d/lever-palantir-90329118-d9b7-4b96-acdf-13377e3196ac?s=gh-new-grad-jobs-2027</link>
+      <guid isPermaLink="false">c48e5b28fc6ad1a9</guid>
+      <description>New York, NY · new_grad · 0d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -105,16 +126,16 @@
     </item>
     <item>
       <title>Palantir — Software Engineer, New Grad - Query Engines</title>
-      <link>https://jobs.lever.co/palantir/0f7d1e01-1f74-4786-944d-910208d390fa</link>
-      <guid isPermaLink="false">5f1e04a796e9065c</guid>
-      <description>London, United Kingdom · new_grad · 1d</description>
+      <link>https://jobs.lever.co/palantir/90329118-d9b7-4b96-acdf-13377e3196ac</link>
+      <guid isPermaLink="false">aa7c68a26d8717d2</guid>
+      <description>New York, NY · new_grad · 1d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Palantir — Software Engineer, New Grad - Query Engines</title>
-      <link>https://jobs.lever.co/palantir/90329118-d9b7-4b96-acdf-13377e3196ac</link>
-      <guid isPermaLink="false">e599df37352fa169</guid>
-      <description>New York, NY · new_grad · 1d</description>
+      <link>https://jobs.lever.co/palantir/0f7d1e01-1f74-4786-944d-910208d390fa</link>
+      <guid isPermaLink="false">5f1e04a796e9065c</guid>
+      <description>London, United Kingdom · new_grad · 1d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -130,6 +151,13 @@
       <guid isPermaLink="false">b42f5585a69e43f5</guid>
       <description>London, United Kingdom · new_grad · 1d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon.com — Software Development Engineer, Early Career - 2027 (CAN)</title>
+      <link>https://ca.indeed.com/viewjob?jk=d2254d2e1464b022</link>
+      <guid isPermaLink="false">8661b09651fd682a</guid>
+      <description>Vancouver, BC, CA · new_grad · 4d</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — New Graduate Engineer, Infrastructure</title>
@@ -168,16 +196,16 @@
     </item>
     <item>
       <title>Scale AI — Software Engineer - New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730862005</link>
-      <guid isPermaLink="false">caa5a0ef81c89222</guid>
-      <description>London, UK · new_grad · 8d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730851005</link>
+      <guid isPermaLink="false">13659721b3995c0d</guid>
+      <description>Doha, Qatar · new_grad · 8d</description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Scale AI — Software Engineer - New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730851005</link>
-      <guid isPermaLink="false">13659721b3995c0d</guid>
-      <description>Doha, Qatar · new_grad · 8d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730862005</link>
+      <guid isPermaLink="false">caa5a0ef81c89222</guid>
+      <description>London, UK · new_grad · 8d</description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -196,9 +224,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
-      <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 13d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 13d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -217,9 +245,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 13d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
+      <guid isPermaLink="false">334395993d3f3a1a</guid>
+      <description>Singapore · new_grad · 13d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
