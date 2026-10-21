@@ -4,12 +4,19 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Wed, 21 Oct 2026 04:45:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 10:09:37 GMT</lastBuildDate>
     <item>
       <title>NVIDIA — Software Engineer New Grad - Agent Performance Modeling 🎓</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">fe71787e4aed7971</guid>
       <description>Santa Clara, CA · new_grad · 1d</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Roblox — [2027] Software Engineer, Early Career</title>
+      <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
+      <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
+      <description>San Mateo, CA, United States · new_grad · 0d</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -69,27 +76,6 @@
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Roblox — [2027] Software Engineer, Early Career</title>
-      <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
-      <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
-      <description>San Mateo, CA, United States · new_grad · 1d</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 1d</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
-      <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 1d</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
@@ -101,6 +87,20 @@
       <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
       <guid isPermaLink="false">b836bebf63487343</guid>
       <description>Dublin · new_grad · 1d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
+      <guid isPermaLink="false">334395993d3f3a1a</guid>
+      <description>Singapore · new_grad · 1d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 1d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -188,13 +188,6 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon.com — Software Development Engineer, Early Career - 2027 (CAN)</title>
-      <link>https://ca.indeed.com/viewjob?jk=d2254d2e1464b022</link>
-      <guid isPermaLink="false">8661b09651fd682a</guid>
-      <description>Vancouver, BC, CA · new_grad · 5d</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>SpaceX — New Graduate Engineer, Infrastructure</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8893406002?gh_jid=8893406002</link>
       <guid isPermaLink="false">2818ed6515d35d80</guid>
@@ -217,16 +210,16 @@
     </item>
     <item>
       <title>Scale AI — Software Engineer - New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730862005</link>
-      <guid isPermaLink="false">caa5a0ef81c89222</guid>
-      <description>London, UK · new_grad · 9d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730851005</link>
+      <guid isPermaLink="false">13659721b3995c0d</guid>
+      <description>Doha, Qatar · new_grad · 9d</description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Scale AI — Software Engineer - New Grad</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730851005</link>
-      <guid isPermaLink="false">13659721b3995c0d</guid>
-      <description>Doha, Qatar · new_grad · 9d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730862005</link>
+      <guid isPermaLink="false">caa5a0ef81c89222</guid>
+      <description>London, UK · new_grad · 9d</description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -242,13 +235,6 @@
       <guid isPermaLink="false">6ab1737e59dcdf4c</guid>
       <description>London, UK · new_grad · 12d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Early Career Analog Mixed-Signal Modeling Software Engineer (m/f/d)</title>
-      <link>https://jobs.apple.com/en-us/details/200687414/early-career-analog-mixed-signal-modeling-software-engineer-m-f-d</link>
-      <guid isPermaLink="false">c6f2a3f60803f588</guid>
-      <description>Munich, Germany · new_grad · 15d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer – Early Career - Amazon Dedicated Cloud - ADC</title>
