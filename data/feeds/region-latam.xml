@@ -4,7 +4,14 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Wed, 21 Oct 2026 15:17:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 19:21:24 GMT</lastBuildDate>
+    <item>
+      <title>Lyft — Backend Software Engineer, Airports</title>
+      <link>https://app.careerpuck.com/job-board/lyft/job/8806560002?gh_jid=8806560002</link>
+      <guid isPermaLink="false">f7728aeffd06bef4</guid>
+      <description>Mexico City, Mexico · other · 0d</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Sumup — Senior Backend Engineer</title>
       <link>https://sumup.com/careers/positions/8586092002?gh_jid=8586092002</link>
@@ -45,13 +52,6 @@
       <link>https://jobs.ashbyhq.com/kraken.com/f340fc2f-c2b3-48a0-9df3-757830237d0e</link>
       <guid isPermaLink="false">ce15f1189e3fc9a1</guid>
       <description>Brazil · mid_level · 2d</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lyft — Backend Software Engineer, Airports</title>
-      <link>https://app.careerpuck.com/job-board/lyft/job/8806560002?gh_jid=8806560002</link>
-      <guid isPermaLink="false">f7728aeffd06bef4</guid>
-      <description>Mexico City, Mexico · other · 2d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -186,13 +186,6 @@
       <guid isPermaLink="false">0016755eae88bf17</guid>
       <description>Costa Rica · mid_level · 15d</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kraken.com — Infrastructure Engineer - Core Platform</title>
-      <link>https://jobs.ashbyhq.com/kraken.com/ed60fdf0-f4b2-4657-864d-b09ea5903423</link>
-      <guid isPermaLink="false">975900fcdb260646</guid>
-      <description>LATAM · other · 16d</description>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Elevenlabs — Forward Deployed Engineer - Software Engineer - Argentina</title>
@@ -333,6 +326,12 @@
       <guid isPermaLink="false">904bb9826d24d2ef</guid>
       <description>Belo Horizonte, Minas Gerais, BRA · mid_level · 177d</description>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Senior Cloud Platform Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Senior-Cloud-Platform-Engineer_R-287260</link>
+      <guid isPermaLink="false">8a90d2ac2d3cac37</guid>
+      <description>Mexico City, Mexico · mid_level · 0d</description>
     </item>
   </channel>
 </rss>
