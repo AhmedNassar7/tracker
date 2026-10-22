@@ -4,7 +4,7 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Thu, 22 Oct 2026 04:46:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 10:12:35 GMT</lastBuildDate>
     <item>
       <title>Schneider Electric — Senior Software Application Engineer Turbomachinery Controls</title>
       <link>https://careers.se.com/jobs/132451</link>
@@ -88,6 +88,13 @@
       <guid isPermaLink="false">ba0c50f25cee5bf9</guid>
       <description>Doha, Qatar · mid_level · 10d</description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple — CAD Software Developer Engineer</title>
+      <link>https://jobs.apple.com/en-us/details/200687900/cad-software-developer-engineer</link>
+      <guid isPermaLink="false">4ab0d096c5aad763</guid>
+      <description>Israel · unknown · 14d</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Thndr — Senior DevOps/Infrastructure Engineer</title>
@@ -503,28 +510,46 @@
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — DevOps Engineer, DOCA</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/DevOps-Engineer--DOCA_JR2023758</link>
+      <guid isPermaLink="false">217a8880aa6f1809</guid>
+      <description>Israel, Yokneam +1 more · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior DevOps Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-DevOps-Engineer_JR2017130</link>
+      <guid isPermaLink="false">52d0b5ab2d7628ab</guid>
+      <description>Israel, Raanana +2 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior DevOps Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-DevOps-Engineer_JR2021329</link>
+      <guid isPermaLink="false">a1d11a1cba6476e2</guid>
+      <description>Israel, Yokneam · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior HPC Site Reliability Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-HPC-Site-Reliability-Engineer_JR2014015</link>
       <guid isPermaLink="false">cdec37c17b3adc31</guid>
-      <description>Israel, Yokneam +1 more · mid_level · 0d</description>
+      <description>Israel, Yokneam +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Software Developer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Developer_JR2028112</link>
       <guid isPermaLink="false">b4b789e413f76790</guid>
-      <description>Israel, Tel Aviv +2 more · other · 0d</description>
+      <description>Israel, Tel Aviv +2 more · other · 1d</description>
     </item>
     <item>
       <title>Valeo — DevOps Engineer, Valeo Service</title>
       <link>https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/DevOps-Engineer--Valeo-Service_REQ2026082498</link>
       <guid isPermaLink="false">df9b0eb777a4c8c9</guid>
-      <description>Cairo · other · 3d</description>
+      <description>Cairo · other · 4d</description>
     </item>
     <item>
       <title>Unity — Senior Backend Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Tel-Aviv-Israel/Senior-Backend-Engineer_JOBREQ-2616345</link>
       <guid isPermaLink="false">119c0cece0b64223</guid>
-      <description>Tel Aviv, Israel · mid_level · 29d</description>
+      <description>Tel Aviv, Israel · mid_level · 30d</description>
     </item>
   </channel>
 </rss>
