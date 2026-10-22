@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T20:10:24Z",
+  "generated_at": "2026-10-22T23:24:35Z",
   "cards": [
     {
       "id": "internship-trend",
@@ -15,7 +15,7 @@
     {
       "id": "new_grad-trend",
       "title": "This month",
-      "detail": "New-grad roles down 8%",
+      "detail": "New-grad roles down 5%",
       "filter": {
         "kind": "job",
         "levels": [
