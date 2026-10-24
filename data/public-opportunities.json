@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T10:57:21Z",
-  "total": 3745,
+  "generated_at": "2026-10-24T14:31:12Z",
+  "total": 3772,
   "jobs": [
     {
       "id": "770a23fe74d5c750",
@@ -531,6 +531,161 @@
       "min_years_experience": 12
     },
     {
+      "id": "5950726e44ce6fc3",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Engineering Manager, Knowledge Graph Platform",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-10-24",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8256326",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "degree_required": false,
+      "salary": {
+        "min": 217000,
+        "max": 303900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "10637ebcdaefe376",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Frontend Engineer, Ads",
+      "location": "Remote - United States",
+      "level": "other",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-24",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "gRPC",
+        "Kubernetes",
+        "Docker"
+      ],
+      "min_years_experience": 3,
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "239e9d023b99fc23",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Frontend Engineer, Ads Campaign Manager",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-24",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8240716",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f03ebb6c3a5bd0da",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Frontend Engineer, Ads Creative",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-10-24",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6ba729ce5ab63e69",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Software Engineer, Agentic Ads Experience",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-10-24",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "Go",
+        "Rust"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6b5d8a27f0918b8c",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Staff Android Engineer, Brand Ad Formats",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "2026-10-24",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "Kotlin"
+      ],
+      "degree_required": false,
+      "min_years_experience": 3,
+      "salary": {
+        "min": 217000,
+        "max": 303900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "7340c3a4fed47b24",
       "kind": "job",
       "company": "Adobe",
@@ -801,6 +956,21 @@
       "source": "greenhouse:celonis",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs?content=true",
       "min_years_experience": 5
+    },
+    {
+      "id": "0650ed5e07edb7e1",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer",
+      "location": "San Francisco, California, US",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Francisco-California-US/Software-Engineer_2027875",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "d27ec5ce99b0c962",
@@ -4992,28 +5162,6 @@
       ]
     },
     {
-      "id": "5950726e44ce6fc3",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Engineering Manager, Knowledge Graph Platform",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "2026-10-23",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8256326",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "degree_required": false,
-      "salary": {
-        "min": 217000,
-        "max": 303900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "a02aeebc8c4dd1ea",
       "kind": "job",
       "company": "Reddit",
@@ -5099,57 +5247,6 @@
       }
     },
     {
-      "id": "10637ebcdaefe376",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Frontend Engineer, Ads",
-      "location": "Remote - United States",
-      "level": "other",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-23",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "gRPC",
-        "Kubernetes",
-        "Docker"
-      ],
-      "min_years_experience": 3,
-      "salary": {
-        "min": 164200,
-        "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "239e9d023b99fc23",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Frontend Engineer, Ads Campaign Manager",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-23",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8240716",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "salary": {
-        "min": 164200,
-        "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "b938472a354c224b",
       "kind": "job",
       "company": "Reddit",
@@ -5193,33 +5290,6 @@
         "GCP"
       ],
       "min_years_experience": 2,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f03ebb6c3a5bd0da",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Frontend Engineer, Ads Creative",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "1d",
-      "posted_at": "2026-10-23",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "min_years_experience": 5,
       "salary": {
         "min": 190800,
         "max": 267100,
@@ -5434,35 +5504,6 @@
         "PostgreSQL",
         "Redis",
         "Kafka"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6ba729ce5ab63e69",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Software Engineer, Agentic Ads Experience",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "2026-10-23",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Python",
-        "Java",
-        "Go",
-        "Rust"
       ],
       "min_years_experience": 5,
       "salary": {
@@ -5948,32 +5989,6 @@
       "tech_tags": [
         "Kotlin"
       ],
-      "salary": {
-        "min": 217000,
-        "max": 303900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6b5d8a27f0918b8c",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Staff Android Engineer, Brand Ad Formats",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "mobile",
-      "date": "1d",
-      "posted_at": "2026-10-23",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8127002",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "Kotlin"
-      ],
-      "degree_required": false,
-      "min_years_experience": 3,
       "salary": {
         "min": 217000,
         "max": 303900,
@@ -9950,6 +9965,21 @@
       "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
     },
     {
+      "id": "ef6f8ecabfcd5f1a",
+      "kind": "job",
+      "company": "Samsung",
+      "title": "Project Engineer, Infra Electrical",
+      "location": "12100 Samsung Blvd, Austin, TX, USA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "1d",
+      "posted_at": "",
+      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/12100-Samsung-Blvd-Austin-TX-USA/Project-Engineer--Infra-Electrical_R119359-1",
+      "source": "workday:sec",
+      "source_url": "https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs"
+    },
+    {
       "id": "e3a0df98cba1a0f7",
       "kind": "job",
       "company": "Schneider Electric",
@@ -11988,6 +12018,21 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "95cdc09b66fc77b8",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer - Mobile",
+      "location": "Bratislava, Slovakia",
+      "level": "other",
+      "region": "europe",
+      "role_type": "mobile",
+      "date": "2d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Mobile_2028669",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "ac4e9247fdcb776b",
@@ -16013,30 +16058,6 @@
       "min_years_experience": 10
     },
     {
-      "id": "c2240f679c219b7f",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer",
-      "location": "Seattle, WA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8267736",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Ruby",
-        "Terraform",
-        "AWS"
-      ],
-      "degree_required": true,
-      "min_years_experience": 1
-    },
-    {
       "id": "c160bce269b98c02",
       "kind": "job",
       "company": "Stripe",
@@ -16093,6 +16114,30 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "c2240f679c219b7f",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer",
+      "location": "Seattle, WA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-22",
+      "url": "https://stripe.com/jobs/search?gh_jid=8267736",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Ruby",
+        "Terraform",
+        "AWS"
+      ],
+      "degree_required": true,
+      "min_years_experience": 1
     },
     {
       "id": "452f6293b9573e1e",
@@ -16286,17 +16331,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "c3b11892340bdad3",
+      "id": "bbe14083e01b613a",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, Intern (Summer or Winter)",
-      "location": "Toronto",
+      "location": "San Francisco, Seattle, New York City",
       "level": "internship",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130805",
+      "url": "https://stripe.com/jobs/search?gh_jid=8128745",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -16309,17 +16354,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "bbe14083e01b613a",
+      "id": "c3b11892340bdad3",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, Intern (Summer or Winter)",
-      "location": "San Francisco, Seattle, New York City",
+      "location": "Toronto",
       "level": "internship",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8128745",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130805",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -16389,83 +16434,17 @@
       "min_years_experience": 12
     },
     {
-      "id": "ceb9ea1fb24b1574",
+      "id": "334395993d3f3a1a",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, New Grad",
-      "location": "San Francisco, Seattle, New York",
+      "location": "Singapore",
       "level": "new_grad",
-      "region": "north_america",
+      "region": "apac",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8128744",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ]
-    },
-    {
-      "id": "c543a8c9860ed243",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "location": "Bucharest",
-      "level": "new_grad",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130922",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ]
-    },
-    {
-      "id": "485c7a19842acde7",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "location": "Toronto",
-      "level": "new_grad",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8157838",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ]
-    },
-    {
-      "id": "b836bebf63487343",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "location": "Dublin",
-      "level": "new_grad",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130881",
+      "url": "https://stripe.com/jobs/search?gh_jid=8160776",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -16499,17 +16478,83 @@
       ]
     },
     {
-      "id": "334395993d3f3a1a",
+      "id": "c543a8c9860ed243",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, New Grad",
-      "location": "Singapore",
+      "location": "Bucharest",
       "level": "new_grad",
-      "region": "apac",
+      "region": "europe",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8160776",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130922",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ]
+    },
+    {
+      "id": "b836bebf63487343",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "location": "Dublin",
+      "level": "new_grad",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-22",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130881",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ]
+    },
+    {
+      "id": "485c7a19842acde7",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "location": "Toronto",
+      "level": "new_grad",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-22",
+      "url": "https://stripe.com/jobs/search?gh_jid=8157838",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ]
+    },
+    {
+      "id": "ceb9ea1fb24b1574",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "location": "San Francisco, Seattle, New York",
+      "level": "new_grad",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-22",
+      "url": "https://stripe.com/jobs/search?gh_jid=8128744",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -17003,7 +17048,7 @@
       "min_years_experience": 10
     },
     {
-      "id": "051b9e6347eb4401",
+      "id": "ab98b6b8d966c486",
       "kind": "job",
       "company": "Stripe",
       "title": "Staff Software Engineer, Payments Intelligence",
@@ -17013,7 +17058,7 @@
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8260980",
+      "url": "https://stripe.com/jobs/search?gh_jid=7986004",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -17027,7 +17072,7 @@
       "min_years_experience": 5
     },
     {
-      "id": "ab98b6b8d966c486",
+      "id": "051b9e6347eb4401",
       "kind": "job",
       "company": "Stripe",
       "title": "Staff Software Engineer, Payments Intelligence",
@@ -17037,7 +17082,7 @@
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=7986004",
+      "url": "https://stripe.com/jobs/search?gh_jid=8260980",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -17605,6 +17650,66 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "78f38c8c6de9e170",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Lead Product Designer - AI and Platform Experience",
+      "location": "<details><summary><strong>51 locations</strong></summary>San Jose, California, US<br>Remote - North Dakota, USA<br>Remote - Montana, USA<br>Remote - Maine, USA<br>Remote - Ohio, USA<br>Remote - Nebraska, USA<br>Remote - Louisiana, USA<br>Remote - Texas, USA<br>Remote - Nevada, USA<br>Remote - Hawaii, USA<br>Remote - Georgia, USA<br>Remote - Mississippi, USA<br>Remote - Connecticut, USA<br>Remote - Colorado, USA<br>Remote - Wyoming, USA<br>Remote - Wisconsin, USA<br>Remote - West Virginia, USA<br>Remote - Maryland, USA<br>Remote - California, USA<br>Remote - Vermont, USA<br>Remote - New York, USA<br>Remote - New Jersey, USA<br>Remote - Arkansas, USA<br>Remote - South Dakota, USA<br>Remote - Pennsylvania, USA<br>Remote - Michigan, USA<br>Remote - Indiana, USA<br>Remote - Idaho, USA<br>Remote - Arizona, USA<br>Remote - New Mexico, USA<br>Remote - New Hampshire, USA<br>Remote - Kentucky, USA<br>Remote - Alabama, USA<br>Remote - South Carolina, USA<br>Remote - Illinois, USA<br>Remote - Missouri, USA<br>Remote - Massachusetts, USA<br>Remote - Iowa, USA<br>Remote - Tennessee, USA<br>Remote - North Carolina, USA<br>Remote - Minnesota, USA<br>Remote - Kansas, USA<br>Remote - Alaska, USA<br>Remote - Rhode Island, USA<br>Remote - Delaware, USA<br>Remote - Washington, USA<br>Remote - Virginia, USA<br>Remote - Utah, USA<br>Remote - Oregon, USA<br>Remote - Florida, USA<br>Remote - Oklahoma, USA</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "platform",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Lead-Product-Designer---AI-and-Platform-Experience_2028609",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "238d62452a123827",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Senior AI Software Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>Krakow, Poland<br>Warsaw, Poland</details>",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/AI-Software-Engineer_2025798",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "990f612914ac9e8b",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer - App Development",
+      "location": "Galway, Ireland",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---App-Development_2028928",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "9d3bf0eb7fef77ce",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer - Webex Web Clients",
+      "location": "Bratislava, Slovakia",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Webex-Web-Clients_2028671",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "7bc1b21db1618b04",
@@ -19760,6 +19865,21 @@
       }
     },
     {
+      "id": "fa31d796914e954e",
+      "kind": "job",
+      "company": "Samsung",
+      "title": "Samsung Experience Stores (SES) Lead, Mobile Experience",
+      "location": "Mapletree Business City, Singapore, Singapore",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "mobile",
+      "date": "3d",
+      "posted_at": "",
+      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Mapletree-Business-City-Singapore-Singapore/Samsung-Experience-Stores--SES--Lead--Mobile-Experience_R121467",
+      "source": "workday:sec",
+      "source_url": "https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs"
+    },
+    {
       "id": "f6b93b95dc0a6616",
       "kind": "job",
       "company": "Schneider Electric",
@@ -20067,17 +20187,17 @@
       "min_years_experience": 8
     },
     {
-      "id": "342b3f9493acb89a",
+      "id": "123c0cae7b46bde0",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, Intern",
-      "location": "Singapore",
+      "location": "Bengaluru",
       "level": "internship",
       "region": "apac",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-21",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130883",
+      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -20090,17 +20210,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "123c0cae7b46bde0",
+      "id": "342b3f9493acb89a",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, Intern",
-      "location": "Bengaluru",
+      "location": "Singapore",
       "level": "internship",
       "region": "apac",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-21",
-      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130883",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -21038,6 +21158,51 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "2541ec76ccc2c8a5",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Leader, Software Engineering",
+      "location": "Milpitas, California, US",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Leader--Software-Engineering_2023202",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "f614f85a02558801",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Senior Software Engineer - App Development",
+      "location": "Galway, Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer---App-Development_2028929",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "791b100a448669f6",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Senior Software Engineer - Application Development",
+      "location": "Galway, Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "4d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer---Application-Development_2028922-1",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "38fe5303873f3371",
@@ -21988,6 +22153,21 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "1e3337c4b8925acb",
+      "kind": "job",
+      "company": "Samsung",
+      "title": "Infra Cost Team Leader",
+      "location": "12100 Samsung Blvd, Austin, TX, USA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "4d",
+      "posted_at": "",
+      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/12100-Samsung-Blvd-Austin-TX-USA/Infra-Cost-Team-Leader_R121463",
+      "source": "workday:sec",
+      "source_url": "https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs"
     },
     {
       "id": "c15dadc47378b650",
@@ -25181,6 +25361,51 @@
       }
     },
     {
+      "id": "21fa8d64fca417ea",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Full-stack Software Engineer",
+      "location": "Lysaker, Norway",
+      "level": "other",
+      "region": "europe",
+      "role_type": "full_stack",
+      "date": "8d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Full-stack-Software-Engineer_2027662",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "79fcb96d028c0a26",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Senior Software Engineer - Webex Web Client",
+      "location": "Bratislava, Slovakia",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "8d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Senior-Software-Engineer---Webex-Web-Client_2028673",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "6e521a97a2b35c09",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer",
+      "location": "Stockholm, Sweden",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "8d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Stockholm-Sweden/Software-Engineer_2020686",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
       "id": "f8f5defdddf752d0",
       "kind": "job",
       "company": "ClickHouse",
@@ -27448,6 +27673,21 @@
       }
     },
     {
+      "id": "c9d97a01756c75fe",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Senior Software Engineer (Identity Engineering - SSO)",
+      "location": "Ann Arbor, Michigan, US",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "10d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Ann-Arbor-Michigan-US/Senior-Software-Engineer--Identity-Engineering---SSO-_2023296",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
       "id": "2fe6baf68a2e84c8",
       "kind": "job",
       "company": "Cohere",
@@ -28538,6 +28778,66 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "cf675ab92892f2f8",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Embedded Software Engineer",
+      "location": "Lysaker, Norway",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "11d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Embedded-Software-Engineer_2027896",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "dfdd0a548435b0ef",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>Krakow, Poland<br>Warsaw, Poland</details>",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "11d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineer_2025797",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "679cc9f30f0135f3",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineering Technical Leader",
+      "location": "<details><summary><strong>2 locations</strong></summary>Boulder, Colorado, US<br>RTP, North Carolina, US</details>",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "11d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Boulder-Colorado-US/Software-Engineering-Technical-Leader_2024745",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "9158470baab1bd63",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineering Technical Leader",
+      "location": "<details><summary><strong>2 locations</strong></summary>Krakow, Poland<br>Warsaw, Poland</details>",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "11d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineering-Technical-Leader_2025809",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "2a7f29229f06412f",
@@ -31057,6 +31357,36 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "3d76d3a754e241b6",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer",
+      "location": "Lysaker, Norway",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "12d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Software-Engineer_2027413",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "b032b9f3d8a471e0",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer Technical Leader – Network Data Plane – Hypershield",
+      "location": "<details><summary><strong>52 locations</strong></summary>San Jose, California, US<br>Remote - North Dakota, USA<br>Remote - Montana, USA<br>Remote - Maine, USA<br>Remote - Ohio, USA<br>Remote - Nebraska, USA<br>Remote - Louisiana, USA<br>Remote - Texas, USA<br>Remote - Nevada, USA<br>Remote - Hawaii, USA<br>Remote - Georgia, USA<br>Remote - Mississippi, USA<br>Remote - Connecticut, USA<br>Remote - Colorado, USA<br>Remote - Wyoming, USA<br>Remote - Wisconsin, USA<br>Remote - West Virginia, USA<br>Remote - Maryland, USA<br>Remote - California, USA<br>Remote - Vermont, USA<br>Remote - New York, USA<br>Remote - New Jersey, USA<br>Remote - Arkansas, USA<br>Remote - South Dakota, USA<br>Remote - Pennsylvania, USA<br>Remote - Michigan, USA<br>Remote - Indiana, USA<br>Remote - Idaho, USA<br>Remote - Arizona, USA<br>Remote - New Mexico, USA<br>Remote - New Hampshire, USA<br>Remote - Kentucky, USA<br>Remote - Alabama, USA<br>Remote - South Carolina, USA<br>Remote - Illinois, USA<br>Remote - Missouri, USA<br>Remote - Massachusetts, USA<br>Remote - Iowa, USA<br>Remote - Tennessee, USA<br>Remote - North Carolina, USA<br>Remote - Minnesota, USA<br>Remote - Kansas, USA<br>Remote - Alaska, USA<br>Remote - Rhode Island, USA<br>Remote - Delaware, USA<br>RTP, North Carolina, US<br>Remote - Washington, USA<br>Remote - Virginia, USA<br>Remote - Utah, USA<br>Remote - Oregon, USA<br>Remote - Florida, USA<br>Remote - Oklahoma, USA</details>",
+      "level": "other",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "12d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Technical-Leader---Network-Data-Plane---Hypershield_2025874",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "6cc9126e1520f266",
@@ -34131,6 +34461,36 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "0499275a82c796cc",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Embedded Software Engineer",
+      "location": "Lysaker, Norway",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "16d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Embedded-Software-Engineer_2027546",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "59e121713757493f",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Senior Software Engineer (Shared Components)",
+      "location": "Galway, Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "16d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer--Shared-Components-_2023864",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "a7443f4cdb8cd7a5",
@@ -38135,6 +38495,36 @@
       }
     },
     {
+      "id": "f0a7993bc143b55f",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer (Shared Components)",
+      "location": "Galway, Ireland",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "22d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer--Shared-Components-_2018628",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "4f8618f96bbac8d4",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Sr Software Engineer--Routing Platform & Infrastructure",
+      "location": "Milpitas, California, US",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "platform",
+      "date": "22d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Sr-Software-Engineer--Routing-Platform---Infrastructure_2022971-1",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
       "id": "580c5241654f3f25",
       "kind": "job",
       "company": "Coupang",
@@ -39492,6 +39882,36 @@
       "languages_required": [
         "German"
       ]
+    },
+    {
+      "id": "b991d8a70332e387",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Senior Site Reliability Engineer",
+      "location": "Galway, Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "23d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Site-Reliability-Engineer_2018630-1",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "6aa5c1b31a99d9f4",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer",
+      "location": "Galway, Ireland",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "23d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer_2026256",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "226e44a552690b79",
@@ -43079,6 +43499,21 @@
         "Spark"
       ],
       "min_years_experience": 7
+    },
+    {
+      "id": "0915dd5f97dc9c87",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineering Technical Leader",
+      "location": "Boxborough, Massachusetts, US",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "24d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Boxborough-Massachusetts-US/Software-Engineering-Technical-Leader_2021705",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "5c41b4f90be57ec7",
@@ -54018,6 +54453,66 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "976d76e52b925369",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Frontend Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>Krakow, Poland<br>Warsaw, Poland</details>",
+      "level": "other",
+      "region": "europe",
+      "role_type": "frontend",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Frontend-Engineer_2025794",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "24bfe8116361456e",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Full Stack Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>Krakow, Poland<br>Warsaw, Poland</details>",
+      "level": "other",
+      "region": "europe",
+      "role_type": "full_stack",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Full-Stack-Engineer_2025805",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "800bd845dc88467f",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Principal Software Engineer",
+      "location": "Milpitas, California, US",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Principal-Software-Engineer_2004135",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
+    },
+    {
+      "id": "49ddc204f8ea0651",
+      "kind": "job",
+      "company": "Cisco",
+      "title": "Software Engineer",
+      "location": "<details><summary><strong>2 locations</strong></summary>Krakow, Poland<br>Warsaw, Poland</details>",
+      "level": "other",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "30d",
+      "posted_at": "",
+      "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineer_2025802",
+      "source": "workday:cisco",
+      "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs"
     },
     {
       "id": "f3fb54f078da722e",
@@ -78364,18 +78859,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "7bee8c487ac45feb",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Innosprint2.0",
-      "location": "Chandigarh State, India",
-      "date": "last day",
-      "posted_at": "2026-10-24",
-      "url": "https://innosprint-3.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "4576e1ba52a1e294",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78384,18 +78867,6 @@
       "date": "last day",
       "posted_at": "2026-10-24",
       "url": "https://internwell-hack.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "1b328570a25716bd",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "QuantHacks",
-      "location": "Various",
-      "date": "last day",
-      "posted_at": "2026-10-24",
-      "url": "https://quanthacks2026.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78417,21 +78888,9 @@
       "company": "Software Engineering Club",
       "title": "REPLIT UG Hackathon",
       "location": "Accra",
-      "date": "about 5 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-10-24",
       "url": "https://replit-ug-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "ab282bdb5ecc1ef5",
-      "kind": "hackathon",
-      "company": "IBM",
-      "title": "SpartHill Hacks 2026: IBM AI Challenge",
-      "location": "SJSU - Spartan Complex",
-      "date": "about 6 hours left",
-      "posted_at": "2026-10-24",
-      "url": "https://sparthill-ibm-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78441,9 +78900,33 @@
       "company": "Stratford School of Interaction Design",
       "title": "uXperience Design Jam sponsored by Sunlife",
       "location": "DMS - Stratford Campus",
-      "date": "about 9 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-10-24",
       "url": "https://uxperience-f26.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "ab282bdb5ecc1ef5",
+      "kind": "hackathon",
+      "company": "IBM",
+      "title": "SpartHill Hacks 2026: IBM AI Challenge",
+      "location": "SJSU - Spartan Complex",
+      "date": "about 3 hours left",
+      "posted_at": "2026-10-24",
+      "url": "https://sparthill-ibm-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "41d7c3565e984bf7",
+      "kind": "hackathon",
+      "company": "localhost-nyc",
+      "title": "Deal Flow: NYC's First VC Hackathon @ Betaworks",
+      "location": "Betaworks NYC",
+      "date": "about 5 hours left",
+      "posted_at": "2026-10-24",
+      "url": "https://nyc-vc-hack.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78453,7 +78936,7 @@
       "company": "HackathonForEveryone",
       "title": "Taskforge",
       "location": "Online",
-      "date": "about 10 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-10-24",
       "url": "https://taskforge.devpost.com/",
       "source": "devpost",
@@ -78465,9 +78948,33 @@
       "company": "Terac",
       "title": "Zero Human Company Hackathon at Whop HQ by Terac",
       "location": "Whop Headquarters",
-      "date": "about 13 hours left",
+      "date": "about 9 hours left",
       "posted_at": "2026-10-24",
       "url": "https://zhch-nyc.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "0376604fee4d7391",
+      "kind": "hackathon",
+      "company": "MassAI",
+      "title": "AI Builder Competition (Hackachusetts)",
+      "location": "Meehan Student Center (MSC) 490",
+      "date": "about 10 hours left",
+      "posted_at": "2026-10-24",
+      "url": "https://a-hackachusetts.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "c2854885f1faee53",
+      "kind": "hackathon",
+      "company": "UF Google Developer Group",
+      "title": "UF GDG DevFest 2026",
+      "location": "Turlington Hall - University of Florida",
+      "date": "about 11 hours left",
+      "posted_at": "2026-10-24",
+      "url": "https://ufgdg-devfest-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78477,9 +78984,57 @@
       "company": "The App Blueprint",
       "title": "Sydney Mobile AI Hackathon",
       "location": "20 Martin Place",
-      "date": "about 16 hours left",
+      "date": "about 13 hours left",
       "posted_at": "2026-10-24",
       "url": "https://sydney-mobile-ai-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "f0eb97c507ec052c",
+      "kind": "hackathon",
+      "company": "Leeds AI Society",
+      "title": "AI in Healthcare Hackathon",
+      "location": "University of Leeds - Helix",
+      "date": "about 21 hours left",
+      "posted_at": "2026-10-24",
+      "url": "https://leeds-ai-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "b21073be1533490d",
+      "kind": "hackathon",
+      "company": "sir padampat singhania university",
+      "title": "GLITCHATHON",
+      "location": "Online",
+      "date": "about 21 hours left",
+      "posted_at": "2026-10-24",
+      "url": "https://glitchathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "867da64bbd72adf5",
+      "kind": "hackathon",
+      "company": "Stony Brook Computing Society",
+      "title": "SBUHacks 2026",
+      "location": "Frank Melville Jr. Memorial Library",
+      "date": "about 23 hours left",
+      "posted_at": "2026-10-24",
+      "url": "https://sbuhacks-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "20c779e6ff3f3bfd",
+      "kind": "hackathon",
+      "company": "Boston University Spark!",
+      "title": "DS+X Hackathon 2026",
+      "location": "Boston University- CDS",
+      "date": "about 24 hours left",
+      "posted_at": "2026-10-24",
+      "url": "https://ds-x-hackathon-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78496,18 +79051,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "d4658e0a26ccd268",
-      "kind": "hackathon",
-      "company": "Florida Data Science for Social Good",
-      "title": "2026 AI for Good Hackathon",
-      "location": "The Link",
-      "date": "1 day left",
-      "posted_at": "2026-10-24",
-      "url": "https://2026ai4goodhackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "b8717f0ee2b19bbc",
       "kind": "hackathon",
       "company": "Georgian",
@@ -78516,18 +79059,6 @@
       "date": "1 day left",
       "posted_at": "2026-10-24",
       "url": "https://build-north.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "f0eb97c507ec052c",
-      "kind": "hackathon",
-      "company": "Leeds AI Society",
-      "title": "AI in Healthcare Hackathon",
-      "location": "University of Leeds - Helix",
-      "date": "1 day left",
-      "posted_at": "2026-10-24",
-      "url": "https://leeds-ai-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78544,50 +79075,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "b21073be1533490d",
+      "id": "4c68c406e2c88b9f",
       "kind": "hackathon",
-      "company": "sir padampat singhania university",
-      "title": "GLITCHATHON",
-      "location": "Online",
-      "date": "1 day left",
+      "company": "OHI/O",
+      "title": "HackOHI/O 2026",
+      "location": "The Ohio State University - Ohio Union",
+      "date": "about 24 hours left",
       "posted_at": "2026-10-24",
-      "url": "https://glitchathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "867da64bbd72adf5",
-      "kind": "hackathon",
-      "company": "Stony Brook Computing Society",
-      "title": "SBUHacks 2026",
-      "location": "Frank Melville Jr. Memorial Library",
-      "date": "1 day left",
-      "posted_at": "2026-10-24",
-      "url": "https://sbuhacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "964088a79f6d2c5c",
-      "kind": "hackathon",
-      "company": "UGAHacks",
-      "title": "UGAHacks CADathon",
-      "location": "UGA - Driftmier Engineering Center",
-      "date": "1 day left",
-      "posted_at": "2026-10-24",
-      "url": "https://ugahacks-cadathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "c0f24a37161c8cd0",
-      "kind": "hackathon",
-      "company": "University of Florida",
-      "title": "Gator Hack V - AI Days 2026",
-      "location": "Newell Hall, University of Florida",
-      "date": "1 day left",
-      "posted_at": "2026-10-24",
-      "url": "https://gatorhack2026.devpost.com/",
+      "url": "https://hackohio2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78602,18 +79097,6 @@
       "url": "https://hackman-x.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "e878e0f66a68e5d9",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Build With AI: Basics",
-      "location": "Online",
-      "date": "2 days left",
-      "posted_at": "2026-10-24",
-      "url": "https://learn-ai-basics.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "a032032ace9f3bc0",
@@ -78664,14 +79147,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "5d0ec40849dabae4",
+      "id": "1a0ea367f617f988",
       "kind": "hackathon",
-      "company": "AWS",
-      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
+      "company": "CodeTheCure",
+      "title": "2026 International CodeTheCure Hackathon",
       "location": "Online",
       "date": "4 days left",
       "posted_at": "2026-10-24",
-      "url": "https://aws-cds-partner.devpost.com/",
+      "url": "https://codethecure-hackathon-26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78684,18 +79167,6 @@
       "date": "5 days left",
       "posted_at": "2026-10-24",
       "url": "https://hybrid-micro-mouse-challenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "1a0ea367f617f988",
-      "kind": "hackathon",
-      "company": "CodeTheCure",
-      "title": "2026 International CodeTheCure Hackathon",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-10-24",
-      "url": "https://codethecure-hackathon-26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78744,6 +79215,30 @@
       "date": "6 days left",
       "posted_at": "2026-10-24",
       "url": "https://hacker-house-goa-2026.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "38e4d172fc0d4dda",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Q-HACK INDIA 2026",
+      "location": "Bengaluru, India",
+      "date": "6 days left",
+      "posted_at": "2026-10-24",
+      "url": "https://qhack-india.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "84d48a0fc1e478b2",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "TUM Blockchain & AI Hackathon",
+      "location": "München, Germany",
+      "date": "6 days left",
+      "posted_at": "2026-10-24",
+      "url": "https://tum.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78808,30 +79303,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "38e4d172fc0d4dda",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Q-HACK INDIA 2026",
-      "location": "Bengaluru, India",
-      "date": "7 days left",
-      "posted_at": "2026-10-24",
-      "url": "https://qhack-india.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "84d48a0fc1e478b2",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "TUM Blockchain & AI Hackathon",
-      "location": "München, Germany",
-      "date": "7 days left",
-      "posted_at": "2026-10-24",
-      "url": "https://tum.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "d546a977569f6b25",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -78852,6 +79323,18 @@
       "date": "7 days left",
       "posted_at": "2026-10-24",
       "url": "https://fuse-society-blueprint-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "bf832b5637e89328",
+      "kind": "hackathon",
+      "company": "Hacker's Unity",
+      "title": "AI Build India",
+      "location": "jaipur",
+      "date": "7 days left",
+      "posted_at": "2026-10-24",
+      "url": "https://sphinx-26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78904,6 +79387,30 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "d7a5ca787711fed9",
+      "kind": "hackathon",
+      "company": "RenderJuice",
+      "title": "RenderJuice Blender Animation & Programmatic Rendering Contest",
+      "location": "New York, NY",
+      "date": "7 days left",
+      "posted_at": "2026-10-24",
+      "url": "https://programmatic-rendering-contest.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "89d6e13c6fe9cf7a",
+      "kind": "hackathon",
+      "company": "VIT Bhopal University",
+      "title": "Health Hackathon 3.0",
+      "location": "VIT Bhopal University",
+      "date": "7 days left",
+      "posted_at": "2026-10-24",
+      "url": "https://health-hackathon-3-0.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "76f7247203fb8fbf",
       "kind": "hackathon",
       "company": "CODE CRUNCH",
@@ -78936,30 +79443,6 @@
       "date": "8 days left",
       "posted_at": "2026-10-24",
       "url": "https://aqxanalyticsfour.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "bf832b5637e89328",
-      "kind": "hackathon",
-      "company": "Hacker's Unity",
-      "title": "AI Build India",
-      "location": "jaipur",
-      "date": "8 days left",
-      "posted_at": "2026-10-24",
-      "url": "https://sphinx-26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "d7a5ca787711fed9",
-      "kind": "hackathon",
-      "company": "RenderJuice",
-      "title": "RenderJuice Blender Animation & Programmatic Rendering Contest",
-      "location": "New York, NY",
-      "date": "8 days left",
-      "posted_at": "2026-10-24",
-      "url": "https://programmatic-rendering-contest.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79041,7 +79524,7 @@
       "company": "Devfolio",
       "title": "AgentVerse",
       "location": "United Kingdom",
-      "date": "15 days left",
+      "date": "14 days left",
       "posted_at": "2026-10-24",
       "url": "https://agentverse.devfolio.co",
       "source": "devfolio",
@@ -79125,7 +79608,7 @@
       "company": "HackathonForEveryone",
       "title": "Green Shift Hacks",
       "location": "Online",
-      "date": "25 days left",
+      "date": "24 days left",
       "posted_at": "2026-10-24",
       "url": "https://green-shift-hacks.devpost.com/",
       "source": "devpost",
@@ -79142,6 +79625,30 @@
       "url": "https://start-developer-competition-26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "d760e011a67f0bb6",
+      "kind": "hackathon",
+      "company": "AccessEDnpo",
+      "title": "AccessED Hacks",
+      "location": "Online",
+      "date": "27 days left",
+      "posted_at": "2026-10-24",
+      "url": "https://accessed-hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "454b57e48a2e28c5",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "GeNarrative Clash",
+      "location": "Kolkata, India",
+      "date": "27 days left",
+      "posted_at": "2026-10-24",
+      "url": "https://genarrative-clash.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "e4e1713169e5c098",
@@ -79166,30 +79673,6 @@
       "url": "https://launchpad-hacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "d760e011a67f0bb6",
-      "kind": "hackathon",
-      "company": "AccessEDnpo",
-      "title": "AccessED Hacks",
-      "location": "Online",
-      "date": "28 days left",
-      "posted_at": "2026-10-24",
-      "url": "https://accessed-hacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "454b57e48a2e28c5",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "GeNarrative Clash",
-      "location": "Kolkata, India",
-      "date": "28 days left",
-      "posted_at": "2026-10-24",
-      "url": "https://genarrative-clash.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "11a58c6cfa7cddb1",
@@ -79300,18 +79783,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "8805a72abff59431",
-      "kind": "hackathon",
-      "company": "university of pennsylvania",
-      "title": "2026-2027 Fall ESE Senior Design",
-      "location": "Amy Gutman Hall",
-      "date": "about 2 months left",
-      "posted_at": "2026-10-24",
-      "url": "https://ese4500f26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "3844f52b4de3e742",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -79341,7 +79812,7 @@
       "company": "Devfolio",
       "title": "Convergence",
       "location": "Kalyani, India",
-      "date": "85 days left",
+      "date": "84 days left",
       "posted_at": "2026-10-24",
       "url": "https://convergence1.devfolio.co",
       "source": "devfolio",
@@ -79365,7 +79836,7 @@
       "company": "Devfolio",
       "title": "Hack Nexus 2027",
       "location": "Nagpur, India",
-      "date": "99 days left",
+      "date": "98 days left",
       "posted_at": "2026-10-24",
       "url": "https://hack-nexus.devfolio.co",
       "source": "devfolio",
@@ -79377,7 +79848,7 @@
       "company": "Devfolio",
       "title": "CODERAVE 2.0",
       "location": "Various",
-      "date": "113 days left",
+      "date": "112 days left",
       "posted_at": "2026-10-24",
       "url": "https://coderave-2.devfolio.co",
       "source": "devfolio",
@@ -81882,30 +82353,6 @@
       "source_url": "https://github.com/tech-conferences/conference-data"
     },
     {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-10-24",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "ada91f97fe8d8971",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (150k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-10-24",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -81930,18 +82377,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-10-24",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -81950,18 +82385,6 @@
       "date": "",
       "posted_at": "2026-10-24",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-10-24",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
