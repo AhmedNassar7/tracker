@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Sat, 24 Oct 2026 20:49:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 23:16:44 GMT</lastBuildDate>
     <item>
       <title>Devfolio — Cognition 2026</title>
       <link>https://cognition-2026.devfolio.co</link>
@@ -27,24 +27,31 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SASE — OU SASEHacks</title>
-      <link>https://ou-sasehacks.devpost.com/</link>
-      <guid isPermaLink="false">d51933989ce0e754</guid>
-      <description>University of Oklahoma, Gallogly Hall · about 1 hour left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ACM@UCSD — Five Nights with AI</title>
-      <link>https://five-nights-with-ai.devpost.com/</link>
-      <guid isPermaLink="false">feca24a585919890</guid>
-      <description>Online · about 2 hours left</description>
+      <title>Omnara — Agent Builders Hackathon</title>
+      <link>https://agent-builders-hackathon.devpost.com/</link>
+      <guid isPermaLink="false">046d36ceabaa2d7f</guid>
+      <description>Primitive Office · about 1 hour left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stanford Climate Week — Cleantech Hackathon</title>
       <link>https://stanford-cleantech-hackathon.devpost.com/</link>
       <guid isPermaLink="false">56df8b378f7d0aca</guid>
-      <description>Stanford, CA, USA · about 3 hours left</description>
+      <description>Stanford, CA, USA · about 1 hour left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tecnologico de Monterrey — ClaudeTec Hackathon</title>
+      <link>https://claudetec-hack26.devpost.com/</link>
+      <guid isPermaLink="false">8ed34a70c4873488</guid>
+      <description>Expedition FEMSA · about 3 hours left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>UF Google Developer Group — UF GDG DevFest 2026</title>
+      <link>https://ufgdg-devfest-2026.devpost.com/</link>
+      <guid isPermaLink="false">c2854885f1faee53</guid>
+      <description>Turlington Hall - University of Florida · about 3 hours left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -55,38 +62,31 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Omnara — Agent Builders Hackathon</title>
-      <link>https://agent-builders-hackathon.devpost.com/</link>
-      <guid isPermaLink="false">046d36ceabaa2d7f</guid>
-      <description>Primitive Office · about 4 hours left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Software Engineering Club — REPLIT UG Hackathon</title>
-      <link>https://replit-ug-hackathon.devpost.com/</link>
-      <guid isPermaLink="false">adf27fd8bbbfce28</guid>
-      <description>Accra · about 4 hours left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tecnologico de Monterrey — ClaudeTec Hackathon</title>
-      <link>https://claudetec-hack26.devpost.com/</link>
-      <guid isPermaLink="false">8ed34a70c4873488</guid>
-      <description>Expedition FEMSA · about 4 hours left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>UF Google Developer Group — UF GDG DevFest 2026</title>
-      <link>https://ufgdg-devfest-2026.devpost.com/</link>
-      <guid isPermaLink="false">c2854885f1faee53</guid>
-      <description>Turlington Hall - University of Florida · about 6 hours left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>The App Blueprint — Sydney Mobile AI Hackathon</title>
       <link>https://sydney-mobile-ai-hackathon.devpost.com/</link>
       <guid isPermaLink="false">f547c5195fd22836</guid>
-      <description>20 Martin Place · about 9 hours left</description>
+      <description>20 Martin Place · about 4 hours left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sir Padampat Singhania University — GLITCHATHON</title>
+      <link>https://glitchathon.devpost.com/</link>
+      <guid isPermaLink="false">b21073be1533490d</guid>
+      <description>Online · about 13 hours left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stony Brook Computing Society — SBUHacks 2026</title>
+      <link>https://sbuhacks-2026.devpost.com/</link>
+      <guid isPermaLink="false">867da64bbd72adf5</guid>
+      <description>Frank Melville Jr. Memorial Library · about 14 hours left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Boston University Spark! — DS+X Hackathon 2026</title>
+      <link>https://ds-x-hackathon-2026.devpost.com/</link>
+      <guid isPermaLink="false">20c779e6ff3f3bfd</guid>
+      <description>Boston University- CDS · about 15 hours left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -97,66 +97,59 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sir Padampat Singhania University — GLITCHATHON</title>
-      <link>https://glitchathon.devpost.com/</link>
-      <guid isPermaLink="false">b21073be1533490d</guid>
-      <description>Online · about 15 hours left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stony Brook Computing Society — SBUHacks 2026</title>
-      <link>https://sbuhacks-2026.devpost.com/</link>
-      <guid isPermaLink="false">867da64bbd72adf5</guid>
-      <description>Frank Melville Jr. Memorial Library · about 17 hours left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Boston University Spark! — DS+X Hackathon 2026</title>
-      <link>https://ds-x-hackathon-2026.devpost.com/</link>
-      <guid isPermaLink="false">20c779e6ff3f3bfd</guid>
-      <description>Boston University- CDS · about 18 hours left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Cal Hacks — Cal Hacks 13.0</title>
       <link>https://cal-hacks-13-0.devpost.com/</link>
       <guid isPermaLink="false">e99adf00a6b5d5aa</guid>
-      <description>Palace of Fine Arts · about 19 hours left</description>
+      <description>Palace of Fine Arts · about 17 hours left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Freetail Hackers — HackTX 2026</title>
       <link>https://hacktx26.devpost.com/</link>
       <guid isPermaLink="false">344fc3e2f47863a4</guid>
-      <description>The University of Texas at Austin · about 20 hours left</description>
+      <description>The University of Texas at Austin · about 17 hours left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>CSULB Women in Computing — Marina Hacks 6.0</title>
-      <link>https://marina-hacks-6-0.devpost.com/</link>
-      <guid isPermaLink="false">23c815b505e30dde</guid>
-      <description>The Pointe Conference Center · about 21 hours left</description>
+      <title>OHI/O — HackOHI/O 2026</title>
+      <link>https://hackohio2026.devpost.com/</link>
+      <guid isPermaLink="false">4c68c406e2c88b9f</guid>
+      <description>The Ohio State University - Ohio Union · about 17 hours left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Oxford University — OxHack 2026</title>
       <link>https://oxhack-2026.devpost.com/</link>
       <guid isPermaLink="false">b04fcdfdc5e240b1</guid>
-      <description>Mathematical Institute · about 21 hours left</description>
+      <description>Mathematical Institute · about 17 hours left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>User Experience Club — UXperience: Waves of Becoming</title>
       <link>https://uxperience-waves-of-becoming.devpost.com/</link>
       <guid isPermaLink="false">321656bdab54b2e8</guid>
-      <description>ECSW @ UT Dallas · about 21 hours left</description>
+      <description>ECSW @ UT Dallas · about 18 hours left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSULB Women in Computing — Marina Hacks 6.0</title>
+      <link>https://marina-hacks-6-0.devpost.com/</link>
+      <guid isPermaLink="false">23c815b505e30dde</guid>
+      <description>The Pointe Conference Center · about 19 hours left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TAMUhack — HowdyHack 2026</title>
       <link>https://hh26.devpost.com/</link>
       <guid isPermaLink="false">35aa0654d7db5816</guid>
-      <description>Texas A＆M - Memorial Student Center · about 22 hours left</description>
+      <description>Texas A＆M - Memorial Student Center · about 19 hours left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hack for Social Impact — Hack for Social Impact SF 2026</title>
+      <link>https://hack-for-social-impact-sf-2026.devpost.com/</link>
+      <guid isPermaLink="false">97d7d12edff0eec5</guid>
+      <description>Wefunder · about 23 hours left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -171,13 +164,6 @@
       <link>https://build-north.devpost.com/</link>
       <guid isPermaLink="false">b8717f0ee2b19bbc</guid>
       <description>Toronto · 1 day left</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hack for Social Impact — Hack for Social Impact SF 2026</title>
-      <link>https://hack-for-social-impact-sf-2026.devpost.com/</link>
-      <guid isPermaLink="false">97d7d12edff0eec5</guid>
-      <description>Wefunder · 1 day left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -213,6 +199,13 @@
       <link>https://engage6.devpost.com/</link>
       <guid isPermaLink="false">8429dcd3ca9e26da</guid>
       <description>The NorthCap University · 3 days left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CodeTheCure — 2026 International CodeTheCure Hackathon</title>
+      <link>https://codethecure-hackathon-26.devpost.com/</link>
+      <guid isPermaLink="false">1a0ea367f617f988</guid>
+      <description>Online · 4 days left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -275,6 +268,13 @@
       <title>Fuse Society — FUSE Society Blueprint 2026</title>
       <link>https://fuse-society-blueprint-2026.devpost.com/</link>
       <guid isPermaLink="false">f385a911a1a700fe</guid>
+      <description>Online · 6 days left</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qloo — Qloo Agentic Hackathon</title>
+      <link>https://qloo.devpost.com/</link>
+      <guid isPermaLink="false">c65eb4fa0f121565</guid>
       <description>Online · 6 days left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -594,17 +594,17 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>HackathonForEveryone — Taskforge</title>
-      <link>https://taskforge.devpost.com/</link>
-      <guid isPermaLink="false">354f3db0f497f59a</guid>
-      <description>Online · 13 minutes left</description>
+      <title>ACM@UCSD — Five Nights with AI</title>
+      <link>https://five-nights-with-ai.devpost.com/</link>
+      <guid isPermaLink="false">feca24a585919890</guid>
+      <description>Online · 2 minutes left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Terac — Zero Human Company Hackathon at Whop HQ by Terac</title>
-      <link>https://zhch-nyc.devpost.com/</link>
-      <guid isPermaLink="false">f2645e45bb6db458</guid>
-      <description>Whop Headquarters · 21 minutes left</description>
+      <title>Software Engineering Club — REPLIT UG Hackathon</title>
+      <link>https://replit-ug-hackathon.devpost.com/</link>
+      <guid isPermaLink="false">adf27fd8bbbfce28</guid>
+      <description>Accra · 32 minutes left</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>

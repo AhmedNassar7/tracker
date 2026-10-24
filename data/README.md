@@ -28,14 +28,14 @@ Extra signals pulled straight from a posting's own text (only the ATS sources th
 
 | Section | Count |
 |---|---:|
-| Jobs | 4400 |
+| Jobs | 4402 |
 | Hackathons | 86 |
 | Events | 211 |
-| Total | 4697 |
+| Total | 4699 |
 
 ## Jobs
 
-[![Jobs 4400](https://img.shields.io/badge/Jobs-4400-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 307](https://img.shields.io/badge/Internship-307-22c55e.svg)](#internship) [![Early Career 94](https://img.shields.io/badge/Early%20Career-94-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3999](https://img.shields.io/badge/Mid--Level%20and%20Above-3999-dc2626.svg)](#mid-level-and-above)
+[![Jobs 4402](https://img.shields.io/badge/Jobs-4402-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 307](https://img.shields.io/badge/Internship-307-22c55e.svg)](#internship) [![Early Career 93](https://img.shields.io/badge/Early%20Career-93-0ea5e9.svg)](#early-career) [![Mid-Level and Above 4002](https://img.shields.io/badge/Mid--Level%20and%20Above-4002-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -109,7 +109,6 @@ Total roles: 307
 | Microsoft | [Research Intern - Machine Learning for Biology and Healthcare](https://apply.careers.microsoft.com/careers/job/1970393557040333) | Cambridge, MA | 10d |
 | LinkedIn | [Software Engineer Intern](https://jobs.smartrecruiters.com/LinkedIn3/744000156616169?utm_source=Simplify&ref=Simplify) | Mountain View, CA | 3d |
 | LinkedIn | [Software Engineer Intern, Undergraduate - Summer 2027 (Mountain View, CA)](https://zapply.jobs/l/d/sr-LinkedIn3-744000156616169?s=gh-new-grad-software-engineering-jobs-2027) | Mountain View, CA | 3d |
-| LinkedIn | [Software Engineer Intern, Undergraduate - Summer 2027 (Mountain View, CA)](https://zapply.jobs/l/d/sr-LinkedIn3-744000156616169?s=gh-internships-2027) | Mountain View, CA | 3d |
 | LinkedIn | [Software Engineer Intern](https://jobs.smartrecruiters.com/LinkedIn3/744000156616169?utm_source=github-vansh-ouckah) | Mountain View, CA | 4d |
 | Cisco | [Software Engineer Data & AI II (Intern) – United States](https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026798?s=gh-new-grad-software-engineering-jobs-2027) | San Jose California US | 1d |
 | Cisco | [Software Engineer Data & AI II (Intern) – United States](https://zapply.jobs/l/d/workday-cisco-cisco-careers-2026798?s=gh-new-grad-jobs-2027) | San Jose California US | 1d |
@@ -149,8 +148,8 @@ Total roles: 307
 | Salesforce | [Software Engineer Intern](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer--Security-Government-_JR364911-1?utm_source=Simplify&ref=Simplify) | SF Bellevue, WA | 4d |
 | AMD | [AI Model Optimization & Software Engineer Intern/Co-op 🎓](https://careers.amd.com/jobs/92526?icims=1&utm_source=Simplify&ref=Simplify) | Austin, TX | 1mo |
 | AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 1mo |
-| AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 1mo |
 | AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91359?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 1mo |
+| AMD | [Graphics Software Engineer Intern/Co-op](https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify) | Markham, ON, Canada | 1mo |
 | AMD | [Software Engineer Intern/Co-op](https://careers.amd.com/jobs/91367?icims=1&utm_source=Simplify&ref=Simplify) | Vancouver, BC, Canada | 1mo |
 | MongoDB | [Software Engineer Intern](https://www.mongodb.com/careers/job/?gh_jid=8209134&utm_source=Simplify&ref=Simplify) | <details><summary>5 locations</summary>Palo Alto, CA<br>Seattle, WA<br>SF<br>Austin, TX<br>NYC</details> | 1d |
 | MongoDB | [Software Engineer Intern](https://www.mongodb.com/careers/job/?gh_jid=8209134&utm_source=github-vansh-ouckah) | Palo Alto, CA, Seattle, WA, San Francisco, CA, Austin, TX, New York, NY | 1d |
@@ -170,6 +169,7 @@ Total roles: 307
 | Palantir | [Forward Deployed Software Engineer, Internship - Warp Speed](https://zapply.jobs/l/d/lever-palantir-b3d81928-6c26-432f-8a0a-36602c2eefcb?s=gh-internships-2027) | New York, NY | 2d |
 | Palantir | [Software Engineer - Internship - Query Engines](https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13) | New York City, NY | 4d |
 | Palantir | [Software Engineer Intern, Query Engines](https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13?utm_source=github-vansh-ouckah) | New York, NY | 4d |
+| Palantir | [Software Engineer, Internship - Query Engines](https://zapply.jobs/l/d/lever-palantir-da774f81-c98c-4dcf-9b9c-949fd7d90a13?s=gh-new-grad-software-engineering-jobs-2027) | New York, NY | 4d |
 | Figma | [Data Engineer Intern (2027)](https://zapply.jobs/l/d/greenhouse-figma-6178851004?s=gh-new-grad-data-science-jobs-2027) | San Francisco, CA • New York, NY | 6d |
 | Figma | [PhD Intern - Software Engineer - Graphics 🎓](https://boards.greenhouse.io/figma/jobs/6219995004?utm_source=Simplify&ref=Simplify) | SF NYC | 9d |
 | Figma | [PhD Intern - Software Engineer - Graphics 🎓](https://boards.greenhouse.io/figma/jobs/6219995004?utm_source=Simplify&ref=Simplify) | SF NYC | 9d |
@@ -226,8 +226,8 @@ Total roles: 307
 | Pinterest | [Machine Learning Intern 2027 (Toronto)](https://zapply.jobs/l/d/greenhouse-pinterest-8138080?s=gh-canada-internships-2027) | Toronto, ON | 23d |
 | Duolingo | [Data Scientist - Intern](https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002) | New York City, NY +1 | 8d |
 | Duolingo | [Data Scientist - Intern - PhD](https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002) | New York City, NY +1 | 8d |
-| Duolingo | [Data Scientist Intern](https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002&utm_source=github-vansh-ouckah) | New York, NY, Pittsburgh, PA | 9d |
 | Duolingo | [Data Scientist Intern](https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8888785002?utm_source=github-vansh-ouckah) | Pittsburgh, PA, New York, NY | 9d |
+| Duolingo | [Data Scientist Intern](https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002&utm_source=github-vansh-ouckah) | New York, NY, Pittsburgh, PA | 9d |
 | Duolingo | [Data Scientist, Intern](https://zapply.jobs/l/d/greenhouse-duolingo-8888721002?s=gh-new-grad-jobs-2027) | New York, NY | 9d |
 | Duolingo | [Data Scientist, Intern](https://zapply.jobs/l/d/greenhouse-duolingo-8888721002?s=gh-internships-2027) | New York, NY | 9d |
 | Duolingo | [Data Scientist, Intern](https://zapply.jobs/l/d/greenhouse-duolingo-8888721002?s=gh-new-grad-data-science-jobs-2027) | New York, NY | 9d |
@@ -353,7 +353,7 @@ Total roles: 307
 
 ### Early Career
 
-Total roles: 94
+Total roles: 93
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -405,7 +405,6 @@ Total roles: 94
 | Stripe | [Software Engineer, New Grad](https://www.linkedin.com/jobs/view/4461530764) | Bucharest, Bucharest, Romania | 0d |
 | Mastercard | [Software Engineer I - Java Full Stack React/Angular](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I---Java-Full-Stack-React-Angular_R-294544) | Pune, India | 1d |
 | Mastercard | [Software Engineer I](https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-291661?s=gh-new-grad-software-engineering-jobs-2027) | O'Fallon, Missouri | 3d |
-| Mastercard | [Software Engineer I](https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-291661?s=gh-new-grad-jobs-2027) | O'Fallon, Missouri | 3d |
 | Mastercard | [Software Engineer I](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-I_R-291661) | O'Fallon, Missouri | 3d |
 | Mastercard | [Software Engineer I](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-I_R-292618-1) | O'Fallon, Missouri | 3d |
 | Uber | [PhD 2026 Graduate Software Engineer II (AV Labs), United States](https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/301355) | Sunnyvale, CA, United States | 1mo |
@@ -454,7 +453,7 @@ Total roles: 94
 
 ### Mid-Level and Above
 
-Total roles: 3999
+Total roles: 4002
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -935,6 +934,7 @@ Total roles: 3999
 | Amazon | [Software Development Engineer, Amazon Marketing Cloud Assistant](https://www.amazon.jobs/en/jobs/10555497/software-development-engineer-amazon-marketing-cloud-assistant) | Boulder, Colorado, USA | 1mo |
 | Amazon | [Software Development Engineer, Kiro](https://www.amazon.jobs/en/jobs/10554903/software-development-engineer-kiro) | Seattle, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer, Seller and AM GenAI Tools](https://www.amazon.jobs/en/jobs/10554458/software-development-engineer-seller-and-am-genai-tools) | Hyderabad, Telangana, IND | 1mo |
+| Amazon | [Software Development Engineer II, Alexa Smart Home Cameras](https://www.amazon.jobs/en/jobs/10554118/software-development-engineer-ii-alexa-smart-home-cameras) | Bengaluru, Karnataka, IND | 1mo |
 | Amazon | [Software Development Engineer II](https://www.amazon.jobs/en/jobs/10553121/software-development-engineer-ii) | Bengaluru, Karnataka, IND | 1mo |
 | Amazon | [Software Development Engineer II, Amazon S3 Metadata](https://www.amazon.jobs/en/jobs/10553087/software-development-engineer-ii-amazon-s3-metadata) | Vancouver, British Columbia, CAN | 1mo |
 | Amazon | [Software Development Engineer II, PACMAN](https://www.amazon.jobs/en/jobs/10554069/software-development-engineer-ii-pacman) | Bellevue, Washington, USA | 1mo |
@@ -955,7 +955,6 @@ Total roles: 3999
 | Amazon | [Software Development Engineer, Digital Acceleration](https://www.amazon.jobs/en/jobs/10552664/software-development-engineer-digital-acceleration) | Vancouver, British Columbia, CAN | 1mo |
 | Amazon | [Software Development Engineer, Distributed Systems, Annapurna Labs](https://www.amazon.jobs/en/jobs/10552584/software-development-engineer-distributed-systems-annapurna-labs) | Seattle, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer, Frontier ADC Team](https://www.amazon.jobs/en/jobs/10551895/software-development-engineer-frontier-adc-team) | Herndon, Virginia, USA | 1mo |
-| Amazon | [Software Development Engineer, Platform Engineering and Emerging Technologies](https://www.amazon.jobs/en/jobs/10552647/software-development-engineer-platform-engineering-and-emerging-technologies) | Seattle, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer - II](https://www.amazon.jobs/en/jobs/10545175/software-development-engineer-ii) | Hyderabad, Telangana, IND | 1mo |
 | Amazon | [Software Development Engineer II, Hosted Execution (HEX)](https://www.amazon.jobs/en/jobs/10544701/software-development-engineer-ii-hosted-execution-hex) | Seattle, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer II, India HealthCare](https://www.amazon.jobs/en/jobs/10544324/software-development-engineer-ii-india-healthcare) | Bengaluru, Karnataka, IND | 1mo |
@@ -993,6 +992,7 @@ Total roles: 3999
 | Amazon | [Software Development Engineer, Agentic Workspaces - Watchtower](https://www.amazon.jobs/en/jobs/10539269/software-development-engineer-agentic-workspaces-watchtower) | Seattle, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer, Catalog System Services - SPCL](https://www.amazon.jobs/en/jobs/10539357/software-development-engineer-catalog-system-services-spcl) | Seattle, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer, Inventory Genealogy](https://www.amazon.jobs/en/jobs/10538987/software-development-engineer-inventory-genealogy) | Bellevue, Washington, USA | 1mo |
+| Amazon | [Software Development Engineer, Robotics Development and Packaging Innovation](https://www.amazon.jobs/en/jobs/10539807/software-development-engineer-robotics-development-and-packaging-innovation) | Bellevue, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer, Vendor Agentic Experience](https://www.amazon.jobs/en/jobs/10539160/software-development-engineer-vendor-agentic-experience) | Seattle, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer II, Amazon Now](https://www.amazon.jobs/en/jobs/10538207/software-development-engineer-ii-amazon-now) | Bengaluru, Karnataka, IND | 1mo |
 | Amazon | [Software Development Engineer , Amazon Customer Service](https://www.amazon.jobs/en/jobs/10537511/software-development-engineer-amazon-customer-service) | Seattle, Washington, USA | 1mo |
@@ -1002,7 +1002,6 @@ Total roles: 3999
 | Amazon | [Software Development Engineer, Neuron Explorer](https://www.amazon.jobs/en/jobs/10537579/software-development-engineer-neuron-explorer) | Toronto, Ontario, CAN | 1mo |
 | Amazon | [Software Development Engineer , Amazon Leo](https://www.amazon.jobs/en/jobs/10536815/software-development-engineer-amazon-leo) | Redmond, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer , Leo Commerce, Leo Commerce](https://www.amazon.jobs/en/jobs/10536497/software-development-engineer-leo-commerce-leo-commerce) | Redmond, Washington, USA | 1mo |
-| Amazon | [Software Development Engineer II , Amazon Cross Border Tech](https://www.amazon.jobs/en/jobs/10535856/software-development-engineer-ii-amazon-cross-border-tech) | Bengaluru, Karnataka, IND | 1mo |
 | Amazon | [Software Development Engineer II, Advertiser Growth Engine](https://www.amazon.jobs/en/jobs/10535659/software-development-engineer-ii-advertiser-growth-engine) | Toronto, Ontario, CAN | 1mo |
 | Amazon | [Software Development Engineer II, Post Silicon Validation](https://www.amazon.jobs/en/jobs/10535706/software-development-engineer-ii-post-silicon-validation) | Austin, Texas, USA | 1mo |
 | Amazon | [Software Development Engineer, 3PX Analytics & Insights](https://www.amazon.jobs/en/jobs/10536714/software-development-engineer-3px-analytics-insights) | Seattle, Washington, USA | 1mo |
@@ -1040,6 +1039,7 @@ Total roles: 3999
 | Amazon | [Software Development Engineer - AWS, Amazon GuardDuty](https://www.amazon.jobs/en/jobs/10526566/software-development-engineer-aws-amazon-guardduty) | Santa Monica, California, USA | 1mo |
 | Amazon | [Software Development Engineer - AWS, Amazon GuardDuty](https://www.amazon.jobs/en/jobs/10526567/software-development-engineer-aws-amazon-guardduty) | Santa Monica, California, USA | 1mo |
 | Amazon | [Software Development Engineer II, Building Connectivity Engineering](https://www.amazon.jobs/en/jobs/10526762/software-development-engineer-ii-building-connectivity-engineering) | Seattle, Washington, USA | 1mo |
+| Amazon | [Software Development Engineer II, Prime Video Ads Channels](https://www.amazon.jobs/en/jobs/10526828/software-development-engineer-ii-prime-video-ads-channels) | Seattle, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer, AFT External Fulfillment](https://www.amazon.jobs/en/jobs/10525651/software-development-engineer-aft-external-fulfillment) | Luxembourg, LUX | 1mo |
 | Amazon | [Software Development Engineer, AI Studios Engineering](https://www.amazon.jobs/en/jobs/10526436/software-development-engineer-ai-studios-engineering) | Culver City, California, USA | 1mo |
 | Amazon | [Software Development Engineer, AWS Vulnerability Management](https://www.amazon.jobs/en/jobs/10525157/software-development-engineer-aws-vulnerability-management) | Seattle, Washington, USA | 1mo |
@@ -1183,8 +1183,8 @@ Total roles: 3999
 | Amazon | [Software Development Engineer II, AWS SageMaker AI](https://www.amazon.jobs/en/jobs/10492392/software-development-engineer-ii-aws-sagemaker-ai) | Bellevue, Washington, USA | 2mo |
 | Amazon | [Software Development Engineer II, AWS SageMaker AI](https://www.amazon.jobs/en/jobs/10492391/software-development-engineer-ii-aws-sagemaker-ai) | Bellevue, Washington, USA | 2mo |
 | Amazon | [Software Development Engineer, AWS Database Migration Service](https://www.amazon.jobs/en/jobs/10493189/software-development-engineer-aws-database-migration-service) | Dublin, IRL | 2mo |
-| Amazon | [Software Development Engineer, AWS Database Migration Service](https://www.amazon.jobs/en/jobs/10493182/software-development-engineer-aws-database-migration-service) | Dublin, IRL | 2mo |
 | Amazon | [Software Development Engineer, AWS Database Migration Service](https://www.amazon.jobs/en/jobs/10493183/software-development-engineer-aws-database-migration-service) | Dublin, IRL | 2mo |
+| Amazon | [Software Development Engineer, AWS Database Migration Service](https://www.amazon.jobs/en/jobs/10493182/software-development-engineer-aws-database-migration-service) | Dublin, IRL | 2mo |
 | Amazon | [Software Development Engineer, Open Data Analytics - Engines](https://www.amazon.jobs/en/jobs/10492728/software-development-engineer-open-data-analytics-engines) | Redmond, Washington, USA | 2mo |
 | Amazon | [Software Development Engineer, AWS Config](https://www.amazon.jobs/en/jobs/10491139/software-development-engineer-aws-config) | Seattle, Washington, USA | 2mo |
 | Amazon | [Software Development Engineer, Bottlerocket](https://www.amazon.jobs/en/jobs/10492049/software-development-engineer-bottlerocket) | Seattle, Washington, USA | 2mo |
@@ -1193,6 +1193,7 @@ Total roles: 3999
 | Amazon | [Software Development Engineer - AWS OpenSearch, OpenSearch Dashboards](https://www.amazon.jobs/en/jobs/10491037/software-development-engineer-aws-opensearch-opensearch-dashboards) | Bellevue, Washington, USA | 2mo |
 | Amazon | [Software Development Engineer II, AWS Healthcare AI](https://www.amazon.jobs/en/jobs/10490705/software-development-engineer-ii-aws-healthcare-ai) | Seattle, Washington, USA | 2mo |
 | Amazon | [Software Development Engineer II, Prime Air](https://www.amazon.jobs/en/jobs/10490681/software-development-engineer-ii-prime-air) | Seattle, Washington, USA | 2mo |
+| Amazon | [Software Development Engineer II, Secure Connection Services (SCS)](https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs) | Herndon, Virginia, USA | 2mo |
 | Amazon | [Software Development Engineer III, Selection Economics Tech](https://www.amazon.jobs/en/jobs/10490900/software-development-engineer-iii-selection-economics-tech) | Seattle, Washington, USA | 2mo |
 | Amazon | [Software Development Engineer, Kuiper Sim Foundations Team](https://www.amazon.jobs/en/jobs/10490640/software-development-engineer-kuiper-sim-foundations-team) | Redmond, Washington, USA | 2mo |
 | Amazon | [Software Development Engineer, Ads Core Services](https://www.amazon.jobs/en/jobs/10488930/software-development-engineer-ads-core-services) | New York, New York, USA | 2mo |
@@ -1276,7 +1277,6 @@ Total roles: 3999
 | Amazon | [Software Development Engineer – Embedded Systems 2026 (US)](https://www.amazon.jobs/en/jobs/3183020/software-development-engineer-embedded-systems-2026-us) | Seattle, Washington, USA | 4mo |
 | Amazon | [Software Development Engineer, Aurora DSQL](https://www.amazon.jobs/en/jobs/10460377/software-development-engineer-aurora-dsql) | Seattle, Washington, USA | 4mo |
 | Amazon | [Software Development Engineer, Relationships Identity Systems](https://www.amazon.jobs/en/jobs/10460426/software-development-engineer-relationships-identity-systems) | New York, New York, USA | 4mo |
-| Amazon | [Software Development Engineer, Last Mile Delivery, Edge Intelligence](https://www.amazon.jobs/en/jobs/10458867/software-development-engineer-last-mile-delivery-edge-intelligence) | Santa Cruz, California, USA | 4mo |
 | Amazon | [Software Development Engineer, Vendor Experience](https://www.amazon.jobs/en/jobs/10458163/software-development-engineer-vendor-experience) | Seattle, Washington, USA | 4mo |
 | Amazon | [Software Development Engineer, Amazon Connect Contact Lens](https://www.amazon.jobs/en/jobs/10456775/software-development-engineer-amazon-connect-contact-lens) | Vancouver, British Columbia, CAN | 4mo |
 | Amazon | [Software Development Engineer II, Amazon Photos Artifact Generation](https://www.amazon.jobs/en/jobs/10455628/software-development-engineer-ii-amazon-photos-artifact-generation) | Seattle, Washington, USA | 4mo |
@@ -1344,8 +1344,8 @@ Total roles: 3999
 | Amazon | [Software Development Engineer - Shopping Personalization AI, Amazon Stores](https://www.amazon.jobs/en/jobs/10419792/software-development-engineer-shopping-personalization-ai-amazon-stores) | Tel Aviv-Yafo, Tel Aviv, ISR | 5mo |
 | Amazon | [Software Development Engineer II](https://www.amazon.jobs/en/jobs/10419476/software-development-engineer-ii) | Bengaluru, Karnataka, IND | 5mo |
 | Amazon | [Software Development Engineer II, Delivery Choice](https://www.amazon.jobs/en/jobs/10419255/software-development-engineer-ii-delivery-choice) | Bellevue, Washington, USA | 5mo |
-| Amazon | [Software Development Engineer, Software Defined Network Controller, Amazon LEO](https://www.amazon.jobs/en/jobs/10419336/software-development-engineer-software-defined-network-controller-amazon-leo) | Redmond, Washington, USA | 5mo |
 | Amazon | [Software Development Engineer, Software Defined Network Controller, Amazon LEO](https://www.amazon.jobs/en/jobs/10419337/software-development-engineer-software-defined-network-controller-amazon-leo) | Redmond, Washington, USA | 5mo |
+| Amazon | [Software Development Engineer, Software Defined Network Controller, Amazon LEO](https://www.amazon.jobs/en/jobs/10419336/software-development-engineer-software-defined-network-controller-amazon-leo) | Redmond, Washington, USA | 5mo |
 | Amazon | [Software Development Engineer, Software Defined Network Controller, Amazon LEO](https://www.amazon.jobs/en/jobs/10419335/software-development-engineer-software-defined-network-controller-amazon-leo) | Redmond, Washington, USA | 5mo |
 | Amazon | [Software Development Engineer, AWS Transactional Services](https://www.amazon.jobs/en/jobs/10416198/software-development-engineer-aws-transactional-services) | Seattle, Washington, USA | 5mo |
 | Amazon | [Software Development Engineer, AWS](https://www.amazon.jobs/en/jobs/10414382/software-development-engineer-aws) | Seattle, Washington, USA | 5mo |
@@ -2709,6 +2709,7 @@ Total roles: 3999
 | Expedia Group | [Software Development Engineer II](https://expedia.wd108.myworkdayjobs.com/search/job/Spain---Madrid/Software-Development-Engineer-II_R-109913) | Spain - Madrid | 11d |
 | Expedia Group | [Software Development Engineer III](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Development-Engineer-III_R-110564) | USA - Missouri - Springfield | 11d |
 | Expedia Group | [Software Development Engineer III](https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineer-III_R-104573-1) | UK - London | 11d |
+| Expedia Group | [Software Development Engineer II](https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Software-Development-Engineer-II_R-110488) | Washington - Seattle Campus | 12d |
 | Expedia Group | [Software Development Engineer III - Full Stack](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineer-III---Full-Stack_R-103094) | Washington - Seattle Campus | 12d |
 | Expedia Group | [Principal Software Development Engineer, ML-Powered Flight Search](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Principal-Software-Development-Engineer--ML-Powered-Flight-Search_R-110299) | Washington - Seattle Campus | 16d |
 | Expedia Group | [Software Development Engineer III](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-III_R-109846) | UK - London | 16d |
@@ -2853,6 +2854,7 @@ Total roles: 3999
 | Mastercard | [Lead Software Engineer (Java/Spring)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer--Java-Spring-_R-291080) | Dublin, Ireland | 2d |
 | Mastercard | [Principal Software Engineer - Applications Architect](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Principal-Software-Engineer---Applications-Architect_R-292945) | Pune, India | 2d |
 | Mastercard | [Senior Software Engineer](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-294272-1) | Pune, India | 2d |
+| Mastercard | [Senior Software Engineer - Java Full stack with AI](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Full-stack-with-AI_R-294119) | Pune, India | 2d |
 | Mastercard | [Software Engineer II (Backend - Java)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291922) | Vancouver, Canada | 2d |
 | Mastercard | [Software Engineer II (Backend _ Java)](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291663) | Vancouver, Canada | 2d |
 | Mastercard | [Software Engineer II - Java Full Stack React](https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613) | Pune, India | 2d |
@@ -4467,33 +4469,32 @@ Total hackathons: 86
 | Devfolio | [Cognition 2026](https://cognition-2026.devfolio.co) | Vellore, India | last day |
 | Devfolio | [Realm Hack '26](https://realm-hack-1.devfolio.co) | Thodiyoor, India | last day |
 | Devfolio | [Syntax Error 2026](https://syntax-error-6.devfolio.co) | Various | last day |
-| SASE | [OU SASEHacks](https://ou-sasehacks.devpost.com/) | University of Oklahoma, Gallogly Hall | about 1 hour left |
-| ACM@UCSD | [Five Nights with AI](https://five-nights-with-ai.devpost.com/) | Online | about 2 hours left |
-| Stanford Climate Week | [Cleantech Hackathon](https://stanford-cleantech-hackathon.devpost.com/) | Stanford, CA, USA | about 3 hours left |
+| Omnara | [Agent Builders Hackathon](https://agent-builders-hackathon.devpost.com/) | Primitive Office | about 1 hour left |
+| Stanford Climate Week | [Cleantech Hackathon](https://stanford-cleantech-hackathon.devpost.com/) | Stanford, CA, USA | about 1 hour left |
+| Tecnologico de Monterrey | [ClaudeTec Hackathon](https://claudetec-hack26.devpost.com/) | Expedition FEMSA | about 3 hours left |
+| UF Google Developer Group | [UF GDG DevFest 2026](https://ufgdg-devfest-2026.devpost.com/) | Turlington Hall - University of Florida | about 3 hours left |
 | MassAI | [AI Builder Competition (Hackachusetts)](https://a-hackachusetts.devpost.com/) | Meehan Student Center (MSC) 490 | about 4 hours left |
-| Omnara | [Agent Builders Hackathon](https://agent-builders-hackathon.devpost.com/) | Primitive Office | about 4 hours left |
-| Software Engineering Club | [REPLIT UG Hackathon](https://replit-ug-hackathon.devpost.com/) | Accra | about 4 hours left |
-| Tecnologico de Monterrey | [ClaudeTec Hackathon](https://claudetec-hack26.devpost.com/) | Expedition FEMSA | about 4 hours left |
-| UF Google Developer Group | [UF GDG DevFest 2026](https://ufgdg-devfest-2026.devpost.com/) | Turlington Hall - University of Florida | about 6 hours left |
-| The App Blueprint | [Sydney Mobile AI Hackathon](https://sydney-mobile-ai-hackathon.devpost.com/) | 20 Martin Place | about 9 hours left |
+| The App Blueprint | [Sydney Mobile AI Hackathon](https://sydney-mobile-ai-hackathon.devpost.com/) | 20 Martin Place | about 4 hours left |
+| sir padampat singhania university | [GLITCHATHON](https://glitchathon.devpost.com/) | Online | about 13 hours left |
+| Stony Brook Computing Society | [SBUHacks 2026](https://sbuhacks-2026.devpost.com/) | Frank Melville Jr. Memorial Library | about 14 hours left |
+| Boston University Spark! | [DS+X Hackathon 2026](https://ds-x-hackathon-2026.devpost.com/) | Boston University- CDS | about 15 hours left |
 | Leeds AI Society | [AI in Healthcare Hackathon](https://leeds-ai-hackathon.devpost.com/) | University of Leeds - Helix | about 15 hours left |
-| sir padampat singhania university | [GLITCHATHON](https://glitchathon.devpost.com/) | Online | about 15 hours left |
-| Stony Brook Computing Society | [SBUHacks 2026](https://sbuhacks-2026.devpost.com/) | Frank Melville Jr. Memorial Library | about 17 hours left |
-| Boston University Spark! | [DS+X Hackathon 2026](https://ds-x-hackathon-2026.devpost.com/) | Boston University- CDS | about 18 hours left |
-| Cal Hacks | [Cal Hacks 13.0](https://cal-hacks-13-0.devpost.com/) | Palace of Fine Arts | about 19 hours left |
-| Freetail Hackers | [HackTX 2026](https://hacktx26.devpost.com/) | The University of Texas at Austin | about 20 hours left |
-| CSULB Women in Computing | [Marina Hacks 6.0](https://marina-hacks-6-0.devpost.com/) | The Pointe Conference Center | about 21 hours left |
-| Oxford University | [OxHack 2026](https://oxhack-2026.devpost.com/) | Mathematical Institute | about 21 hours left |
-| User Experience Club | [UXperience: Waves of Becoming](https://uxperience-waves-of-becoming.devpost.com/) | ECSW @ UT Dallas | about 21 hours left |
-| TAMUhack | [HowdyHack 2026](https://hh26.devpost.com/) | Texas A＆M - Memorial Student Center | about 22 hours left |
+| Cal Hacks | [Cal Hacks 13.0](https://cal-hacks-13-0.devpost.com/) | Palace of Fine Arts | about 17 hours left |
+| Freetail Hackers | [HackTX 2026](https://hacktx26.devpost.com/) | The University of Texas at Austin | about 17 hours left |
+| OHI/O | [HackOHI/O 2026](https://hackohio2026.devpost.com/) | The Ohio State University - Ohio Union | about 17 hours left |
+| Oxford University | [OxHack 2026](https://oxhack-2026.devpost.com/) | Mathematical Institute | about 17 hours left |
+| User Experience Club | [UXperience: Waves of Becoming](https://uxperience-waves-of-becoming.devpost.com/) | ECSW @ UT Dallas | about 18 hours left |
+| CSULB Women in Computing | [Marina Hacks 6.0](https://marina-hacks-6-0.devpost.com/) | The Pointe Conference Center | about 19 hours left |
+| TAMUhack | [HowdyHack 2026](https://hh26.devpost.com/) | Texas A＆M - Memorial Student Center | about 19 hours left |
+| Hack for Social Impact | [Hack for Social Impact SF 2026](https://hack-for-social-impact-sf-2026.devpost.com/) | Wefunder | about 23 hours left |
 | ColorStackBU | [CodeFest 2026 by ColorStackBU](https://codefest-2026-colorstackbu.devpost.com/) | Binghamton University Classroom Wing | 1 day left |
 | Georgian | [Build North: Ship Something Real](https://build-north.devpost.com/) | Toronto | 1 day left |
-| Hack for Social Impact | [Hack for Social Impact SF 2026](https://hack-for-social-impact-sf-2026.devpost.com/) | Wefunder | 1 day left |
 | noclue | [The Top 500 (UH v2)](https://the-top-500-uh-v2.devpost.com/) | Online | 1 day left |
 | Devfolio | [Hackman X](https://hackman-x.devfolio.co) | Bengaluru, India | 2 days left |
 | Independent Student Organizer | [NextSpark Hacks](https://nextspark-hacks.devpost.com/) | Online | 2 days left |
 | HackathonForEveryone | [Hack to the Future](https://hack-to-the-missing-future-ai.devpost.com/) | Online | 3 days left |
 | The Northcap University | [Engage 6.0 – Code with AI Hackathon](https://engage6.devpost.com/) | The NorthCap University | 3 days left |
+| CodeTheCure | [2026 International CodeTheCure Hackathon](https://codethecure-hackathon-26.devpost.com/) | Online | 4 days left |
 | Girls Who Code HHS | [Girls Who Code HHS Hackathon 2026](https://gwchhs-hackathon-2026.devpost.com/) | Online | 4 days left |
 | ACM Long Beach | [Pumpkin Playground](https://pumpkin-playground.devpost.com/) | Online | 5 days left |
 | Alliance University | [Hybrid Micro Mouse Challenge](https://hybrid-micro-mouse-challenge.devpost.com/) | Online | 5 days left |
@@ -4503,6 +4504,7 @@ Total hackathons: 86
 | Devfolio | [Q-HACK INDIA 2026](https://qhack-india.devfolio.co) | Bengaluru, India | 6 days left |
 | Devfolio | [TUM Blockchain & AI Hackathon](https://tum.devfolio.co) | München, Germany | 6 days left |
 | Fuse Society | [FUSE Society Blueprint 2026](https://fuse-society-blueprint-2026.devpost.com/) | Online | 6 days left |
+| Qloo | [Qloo Agentic Hackathon](https://qloo.devpost.com/) | Online | 6 days left |
 | VIT Bhopal University | [Health Hackathon 3.0](https://health-hackathon-3-0.devpost.com/) | VIT Bhopal University | 6 days left |
 | Code commit | [MineArena 1.0](https://minearena-1-0.devpost.com/) | SSM cultural centre | 7 days left |
 | CODE CRUNCH | [305 EmpowHER Edition October 2026 — 305Hackathons.vercel.app](https://305empowheroct2026.devpost.com/) | Online | 7 days left |
@@ -4548,8 +4550,8 @@ Total hackathons: 86
 | Devfolio | [HACK WITH GDG S4](https://hack-with-gdg-s4.devfolio.co) | KSR Kalvi Nagar, India | 91 days left |
 | Devfolio | [Hack Nexus 2027](https://hack-nexus.devfolio.co) | Nagpur, India | 98 days left |
 | Devfolio | [CODERAVE 2.0](https://coderave-2.devfolio.co) | Various | 112 days left |
-| HackathonForEveryone | [Taskforge](https://taskforge.devpost.com/) | Online | 13 minutes left |
-| Terac | [Zero Human Company Hackathon at Whop HQ by Terac](https://zhch-nyc.devpost.com/) | Whop Headquarters | 21 minutes left |
+| ACM@UCSD | [Five Nights with AI](https://five-nights-with-ai.devpost.com/) | Online | 2 minutes left |
+| Software Engineering Club | [REPLIT UG Hackathon](https://replit-ug-hackathon.devpost.com/) | Accra | 32 minutes left |
 
 ## Events
 
