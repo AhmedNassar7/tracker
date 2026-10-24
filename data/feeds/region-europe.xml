@@ -4,7 +4,7 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Sat, 24 Oct 2026 05:53:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 11:01:18 GMT</lastBuildDate>
     <item>
       <title>Apple — Site Reliability Engineer, London</title>
       <link>https://jobs.apple.com/en-us/details/200673585/site-reliability-engineer-london</link>
@@ -595,13 +595,6 @@
     </item>
     <item>
       <title>Apple — Internship Computer Vision &amp; Machine Learning Research - LLM Efficiency</title>
-      <link>https://www.linkedin.com/jobs/view/4472370802</link>
-      <guid isPermaLink="false">b83278032ed14474</guid>
-      <description>Munich, Bavaria, Germany · internship · 2d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Internship Computer Vision &amp; Machine Learning Research - LLM Efficiency</title>
       <link>https://www.linkedin.com/jobs/view/4472368917</link>
       <guid isPermaLink="false">da03e01ade7675ee</guid>
       <description>Zurich, Zurich, Switzerland · internship · 2d</description>
@@ -612,13 +605,6 @@
       <link>https://www.linkedin.com/jobs/view/4479429314</link>
       <guid isPermaLink="false">a41862f4ebf64e38</guid>
       <description>Zurich, Zurich, Switzerland · internship · 2d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cohere — Machine Learning Intern/co-Op (winter 2027)</title>
-      <link>https://www.linkedin.com/jobs/view/4414175997</link>
-      <guid isPermaLink="false">7aa8f5e0366281d3</guid>
-      <description>United Kingdom · internship · 2d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1285,20 +1271,6 @@
       <guid isPermaLink="false">0e60ec8ececb3d91</guid>
       <description>London, United Kingdom · mid_level · 4d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google — Software Engineer, Performance, Reliability, Observability, Phd, Early Career</title>
-      <link>https://www.linkedin.com/jobs/view/4321301694</link>
-      <guid isPermaLink="false">7e54160c1e5647ff</guid>
-      <description>Warsaw, Mazowieckie, Poland · new_grad · 5d</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://www.linkedin.com/jobs/view/4461530764</link>
-      <guid isPermaLink="false">a99afa9811696910</guid>
-      <description>Bucharest, Bucharest, Romania · new_grad · 5d</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Wise — Software Engineer Intern</title>
@@ -2162,17 +2134,17 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Cloudflare — Software Engineer Intern</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2d2e075fb38293ea</guid>
-      <description>London, UK · internship · 18d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Hudson River Trading — Data Scientist Intern - 2027</title>
       <link>https://www.hudsonrivertrading.com/careers/job/?gh_jid=8257369</link>
       <guid isPermaLink="false">490f3da4ab850303</guid>
       <description>London, United Kingdom +1 · internship · 18d</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare — Software Engineer Intern</title>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2d2e075fb38293ea</guid>
+      <description>London, UK · internship · 18d</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4440,379 +4412,253 @@
       <title>Adobe — Senior DevOps Engineer - Observability</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-DevOps-Engineer---Observability_R171486</link>
       <guid isPermaLink="false">57d91582c9c3d47a</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Adobe — Senior Site Reliability Engineer - Observability</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Site-Reliability-Engineer---Observability_R171485</link>
       <guid isPermaLink="false">662e23d79f8444ba</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineer-II_R-110369</link>
       <guid isPermaLink="false">aebc3f2779714d49</guid>
-      <description>UK - London · mid_level · 0d</description>
+      <description>UK - London · mid_level · 1d</description>
     </item>
     <item>
       <title>Intel — DevOps Engineering Intern</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Poland-Gdansk/DevOps-Engineering-Intern_JR0288221-1</link>
       <guid isPermaLink="false">242fd70aadb45c33</guid>
-      <description>Poland, Gdansk · internship · 0d</description>
+      <description>Poland, Gdansk · internship · 1d</description>
     </item>
     <item>
       <title>Mastercard — Lead Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer_R-273436</link>
       <guid isPermaLink="false">fb0e75827c36c0e5</guid>
-      <description>Dublin, Ireland · mid_level · 0d</description>
+      <description>Dublin, Ireland · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Senior Platform Architect</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Senior-Platform-Architect_R-291894</link>
       <guid isPermaLink="false">6b7cb6fb4a00dfa3</guid>
-      <description>Dublin, Ireland · mid_level · 0d</description>
+      <description>Dublin, Ireland · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Software Engineer II</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Software-Engineer-II_R-294512-1</link>
       <guid isPermaLink="false">39151901a7ec7e84</guid>
-      <description>Dublin, Ireland · mid_level · 0d</description>
+      <description>Dublin, Ireland · mid_level · 1d</description>
     </item>
     <item>
       <title>Netflix — Distributed Systems Engineer 4 - Data Platform Poland</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Distributed-Systems-Engineer-4---Data-Platform-Poland_JR42050</link>
       <guid isPermaLink="false">073b18bc0ed56c21</guid>
-      <description>Warsaw · other · 0d</description>
+      <description>Warsaw · other · 1d</description>
     </item>
     <item>
       <title>Netflix — Distributed Systems Engineer 5 - Data Platform Poland</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Distributed-Systems-Engineer-5---Data-Platform-Poland_JR42046</link>
       <guid isPermaLink="false">117d9e16e440dc8d</guid>
-      <description>Warsaw · other · 0d</description>
+      <description>Warsaw · other · 1d</description>
     </item>
     <item>
       <title>Tencent — SRE Intern</title>
       <link>https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Netherlands-Amsterdam/SRE-Intern_R108291</link>
       <guid isPermaLink="false">bcfb935bd111adba</guid>
-      <description>Netherlands-Amsterdam · internship · 0d</description>
+      <description>Netherlands-Amsterdam · internship · 1d</description>
     </item>
     <item>
       <title>Visa — Software Engineer - DevSecOps</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/GB---Reading-United-Kingdom/Software-Engineer---DevSecOps_REF089692W</link>
       <guid isPermaLink="false">d4fc5c84d12a2b60</guid>
-      <description>GB - Reading, United Kingdom · other · 0d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer - Mobile</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Mobile_2028669</link>
-      <guid isPermaLink="false">95cdc09b66fc77b8</guid>
-      <description>Bratislava, Slovakia · other · 1d</description>
+      <description>GB - Reading, United Kingdom · other · 1d</description>
     </item>
     <item>
       <title>Intel — DevOps Engineering Intern</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Poland-Gdansk/DevOps-Engineering-Intern_JR0288209</link>
       <guid isPermaLink="false">6554f8b7e87f8ac0</guid>
-      <description>Poland, Gdansk · internship · 1d</description>
+      <description>Poland, Gdansk · internship · 2d</description>
     </item>
     <item>
       <title>Mastercard — Lead Software Engineer (Java/Spring)</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Lead-Software-Engineer--Java-Spring-_R-291080</link>
       <guid isPermaLink="false">da68831fbf75db32</guid>
-      <description>Dublin, Ireland · mid_level · 1d</description>
+      <description>Dublin, Ireland · mid_level · 2d</description>
     </item>
     <item>
       <title>Workday — Data Platform Engineer - Cybersecurity</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Data-Platform-Engineer---Cybersecurity_JR-0108816</link>
       <guid isPermaLink="false">d14d8f675373c859</guid>
-      <description>Ireland, Dublin · other · 1d</description>
+      <description>Ireland, Dublin · other · 2d</description>
     </item>
     <item>
       <title>Adobe — Senior Product Designer, AI-powered Experiences (Adobe Experience Platform)</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Product-Designer--AI-powered-Experiences--Adobe-Experience-Platform-_R173026-1</link>
       <guid isPermaLink="false">48367e82b472e5df</guid>
-      <description>Bucharest · mid_level · 2d</description>
+      <description>Bucharest · mid_level · 3d</description>
     </item>
     <item>
       <title>Adobe — Software Engineer - Adobe Experience Platform (RTCDP)</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Software-Engineer---Adobe-Experience-Platform--RTCDP-_R171550</link>
       <guid isPermaLink="false">9959baa347538620</guid>
-      <description>Bucharest · other · 2d</description>
-    </item>
-    <item>
-      <title>Cisco — Senior AI Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/AI-Software-Engineer_2025798</link>
-      <guid isPermaLink="false">238d62452a123827</guid>
-      <description>Krakow, Poland +1 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer - App Development</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---App-Development_2028928</link>
-      <guid isPermaLink="false">990f612914ac9e8b</guid>
-      <description>Galway, Ireland · other · 2d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer - Webex Web Clients</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Webex-Web-Clients_2028671</link>
-      <guid isPermaLink="false">9d3bf0eb7fef77ce</guid>
-      <description>Bratislava, Slovakia · other · 2d</description>
+      <description>Bucharest · other · 3d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545-1</link>
       <guid isPermaLink="false">9c12775e828ad60d</guid>
-      <description>UK - London · internship · 2d</description>
+      <description>UK - London · internship · 3d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineering-Intern---2027---London_R-110551</link>
       <guid isPermaLink="false">007dc6305507ec7f</guid>
-      <description>UK - London · internship · 2d</description>
+      <description>UK - London · internship · 3d</description>
     </item>
     <item>
       <title>Netflix — Senior Software Engineer 5 — Developer Platform</title>
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Warsaw/Software-Engineer---Developer-Platform_JR32657</link>
       <guid isPermaLink="false">d967a96e7391dd2b</guid>
-      <description>Warsaw · mid_level · 2d</description>
+      <description>Warsaw · mid_level · 3d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior RTR Accountant, Studios (Fixed term contract)</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Warsaw-166-Wiertnicza-TVN/Senior-RTR-Accountant--Studios--Fixed-term-contract-_R000104547</link>
       <guid isPermaLink="false">9e7289b22f972c50</guid>
-      <description>Warsaw, 166 Wiertnicza (TVN) · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>Cisco — Senior Software Engineer - App Development</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer---App-Development_2028929</link>
-      <guid isPermaLink="false">f614f85a02558801</guid>
-      <description>Galway, Ireland · mid_level · 3d</description>
-    </item>
-    <item>
-      <title>Cisco — Senior Software Engineer - Application Development</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer---Application-Development_2028922-1</link>
-      <guid isPermaLink="false">791b100a448669f6</guid>
-      <description>Galway, Ireland · mid_level · 3d</description>
+      <description>Warsaw, 166 Wiertnicza (TVN) · mid_level · 3d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Senior-Software-Development-Engineer_R-107083-1</link>
       <guid isPermaLink="false">c54b210bdcf6d813</guid>
-      <description>UK - London · mid_level · 3d</description>
+      <description>UK - London · mid_level · 4d</description>
     </item>
     <item>
       <title>Visa — Senior Site Reliability Engineer (DevTools)</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/GB---Basingstoke-United-Kingdom/Sr-Site-Reliability-Engineer--SWE_REF088254W</link>
       <guid isPermaLink="false">858dbd3cff334b85</guid>
-      <description>GB - Basingstoke, United Kingdom · mid_level · 3d</description>
+      <description>GB - Basingstoke, United Kingdom · mid_level · 4d</description>
     </item>
     <item>
       <title>Visa — Software Engineer - Developer Platform &amp; SRE</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/GB---Basingstoke-United-Kingdom/Software-Engineer_REF076350W</link>
       <guid isPermaLink="false">9568d6c39e1855ff</guid>
-      <description>GB - Basingstoke, United Kingdom · other · 3d</description>
+      <description>GB - Basingstoke, United Kingdom · other · 4d</description>
     </item>
     <item>
       <title>Adobe — 2027 Intern- Software Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/XMLNAME-2027-Intern--Software-Engineer_R173018</link>
       <guid isPermaLink="false">9dc33766daa4506b</guid>
-      <description>Bucharest · internship · 4d</description>
-    </item>
-    <item>
-      <title>Cisco — Full-stack Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Full-stack-Software-Engineer_2027662</link>
-      <guid isPermaLink="false">21fa8d64fca417ea</guid>
-      <description>Lysaker, Norway · other · 7d</description>
-    </item>
-    <item>
-      <title>Cisco — Senior Software Engineer - Webex Web Client</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Senior-Software-Engineer---Webex-Web-Client_2028673</link>
-      <guid isPermaLink="false">79fcb96d028c0a26</guid>
-      <description>Bratislava, Slovakia · mid_level · 7d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Stockholm-Sweden/Software-Engineer_2020686</link>
-      <guid isPermaLink="false">6e521a97a2b35c09</guid>
-      <description>Stockholm, Sweden · other · 7d</description>
+      <description>Bucharest · internship · 5d</description>
     </item>
     <item>
       <title>Adobe — Software Engineer - Big Data (Compute/Data Distiller), Adobe Experience Platform</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Software-Engineer---Big-Data--Compute-Data-Distiller---Adobe-Experience-Platform_R172780</link>
       <guid isPermaLink="false">309378935840b1c6</guid>
-      <description>Bucharest · other · 8d</description>
+      <description>Bucharest · other · 9d</description>
     </item>
     <item>
       <title>Adobe — Sr. Full Stack Engineer (Back-end), Agentic Governance</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Sr-Full-Stack-Engineer--Back-end---Agentic-Governance_R172297</link>
       <guid isPermaLink="false">da2a3dc317c0055a</guid>
-      <description>Bucharest · mid_level · 8d</description>
+      <description>Bucharest · mid_level · 9d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545</link>
       <guid isPermaLink="false">b542d77ddb4b6b73</guid>
-      <description>UK - London · internship · 8d</description>
+      <description>UK - London · internship · 9d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551</link>
       <guid isPermaLink="false">c50e91a1c499811b</guid>
-      <description>UK - London · internship · 8d</description>
+      <description>UK - London · internship · 9d</description>
     </item>
     <item>
       <title>Adobe — Full Stack Engineer (Front-end), Agentic Governance</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Full-Stack-Engineer--Front-end---Agentic-Governance_R172296</link>
       <guid isPermaLink="false">8abf8956acfe4f46</guid>
-      <description>Bucharest · other · 9d</description>
+      <description>Bucharest · other · 10d</description>
     </item>
     <item>
       <title>Unity — Software Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Vilnius-Lithuania/Software-Engineer_JOBREQ-2616601</link>
       <guid isPermaLink="false">a77558bbce99ba43</guid>
-      <description>Vilnius, Lithuania · other · 9d</description>
-    </item>
-    <item>
-      <title>Cisco — Embedded Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Embedded-Software-Engineer_2027896</link>
-      <guid isPermaLink="false">cf675ab92892f2f8</guid>
-      <description>Lysaker, Norway · other · 10d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineer_2025797</link>
-      <guid isPermaLink="false">dfdd0a548435b0ef</guid>
-      <description>Krakow, Poland +1 more · other · 10d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineering Technical Leader</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineering-Technical-Leader_2025809</link>
-      <guid isPermaLink="false">9158470baab1bd63</guid>
-      <description>Krakow, Poland +1 more · other · 10d</description>
+      <description>Vilnius, Lithuania · other · 10d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Senior-Software-Development-Engineer_R-101702</link>
       <guid isPermaLink="false">561a5e0cdbac9c56</guid>
-      <description>UK - London · mid_level · 10d</description>
+      <description>UK - London · mid_level · 11d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Spain---Madrid/Software-Development-Engineer-II_R-109913</link>
       <guid isPermaLink="false">23a4d4e68ebad2d4</guid>
-      <description>Spain - Madrid · mid_level · 10d</description>
+      <description>Spain - Madrid · mid_level · 11d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineer-III_R-104573-1</link>
       <guid isPermaLink="false">8581d0648bc65ffa</guid>
-      <description>UK - London · other · 10d</description>
+      <description>UK - London · other · 11d</description>
     </item>
     <item>
       <title>Unity — Software Engineering Manager, Web Platform</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Brighton-United-Kingdom/Software-Engineering-Manager--Android-Platform_JOBREQ-2616447-1</link>
       <guid isPermaLink="false">e1e368d523f0f03f</guid>
-      <description>Brighton, United Kingdom +1 more · mid_level · 10d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Software-Engineer_2027413</link>
-      <guid isPermaLink="false">3d76d3a754e241b6</guid>
-      <description>Lysaker, Norway · other · 11d</description>
+      <description>Brighton, United Kingdom +1 more · mid_level · 11d</description>
     </item>
     <item>
       <title>Unity — Senior Embedded Software Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Brighton-United-Kingdom/Senior-Software-Engineer--Embedded-Android_JOBREQ-2615986</link>
       <guid isPermaLink="false">327649ea6ccf9108</guid>
-      <description>Brighton, United Kingdom +2 more · mid_level · 11d</description>
+      <description>Brighton, United Kingdom +2 more · mid_level · 12d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer, Quality</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Vilnius-Lithuania/Senior-Software-Engineer--Quality_JOBREQ-2616613</link>
       <guid isPermaLink="false">435d0a8f80a0fb0e</guid>
-      <description>Vilnius, Lithuania · mid_level · 11d</description>
+      <description>Vilnius, Lithuania · mid_level · 12d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer, Embedded Android</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Brighton-United-Kingdom/Senior-Software-Engineer--Embedded-Android_JOBREQ-2616244</link>
       <guid isPermaLink="false">4f42c4abda9239ae</guid>
-      <description>Brighton, United Kingdom +2 more · mid_level · 14d</description>
-    </item>
-    <item>
-      <title>Cisco — Embedded Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Embedded-Software-Engineer_2027546</link>
-      <guid isPermaLink="false">0499275a82c796cc</guid>
-      <description>Lysaker, Norway · other · 15d</description>
-    </item>
-    <item>
-      <title>Cisco — Senior Software Engineer (Shared Components)</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer--Shared-Components-_2023864</link>
-      <guid isPermaLink="false">59e121713757493f</guid>
-      <description>Galway, Ireland · mid_level · 15d</description>
+      <description>Brighton, United Kingdom +2 more · mid_level · 15d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-III_R-109846</link>
       <guid isPermaLink="false">bcb3b6d9c69ccc00</guid>
-      <description>UK - London · other · 15d</description>
+      <description>UK - London · other · 16d</description>
     </item>
     <item>
       <title>Unity — Staff Infrastructure Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Copenhagen-Denmark/Staff-Infrastructure-Engineer_JOBREQ-2616198</link>
       <guid isPermaLink="false">ed1b3a514ea556c1</guid>
-      <description>Copenhagen, Denmark · mid_level · 16d</description>
+      <description>Copenhagen, Denmark · mid_level · 17d</description>
     </item>
     <item>
       <title>Unity — Senior DevOps Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Copenhagen-Denmark/Senior-DevOps-Engineer_JOBREQ-2615888</link>
       <guid isPermaLink="false">fa8ebff249c65b81</guid>
-      <description>Copenhagen, Denmark · mid_level · 17d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer (Shared Components)</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer--Shared-Components-_2018628</link>
-      <guid isPermaLink="false">f0a7993bc143b55f</guid>
-      <description>Galway, Ireland · other · 21d</description>
+      <description>Copenhagen, Denmark · mid_level · 18d</description>
     </item>
     <item>
       <title>Unity — Software Engineer, Quality (Web)</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Vilnius-Lithuania/Software-Engineer--Quality--Web-_JOBREQ-2616414</link>
       <guid isPermaLink="false">504cbd4170a572ae</guid>
-      <description>Vilnius, Lithuania · other · 21d</description>
-    </item>
-    <item>
-      <title>Cisco — Senior Site Reliability Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Site-Reliability-Engineer_2018630-1</link>
-      <guid isPermaLink="false">b991d8a70332e387</guid>
-      <description>Galway, Ireland · mid_level · 22d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer_2026256</link>
-      <guid isPermaLink="false">6aa5c1b31a99d9f4</guid>
-      <description>Galway, Ireland · other · 22d</description>
+      <description>Vilnius, Lithuania · other · 22d</description>
     </item>
     <item>
       <title>Unity — Senior Backend Engineer, Enterprise Applications</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Copenhagen-Denmark/Senior-Backend-Engineer--Enterprise-Applications_JOBREQ-2616529</link>
       <guid isPermaLink="false">681bed546a3e8577</guid>
-      <description>Copenhagen, Denmark · mid_level · 23d</description>
-    </item>
-    <item>
-      <title>Cisco — Frontend Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Frontend-Engineer_2025794</link>
-      <guid isPermaLink="false">976d76e52b925369</guid>
-      <description>Krakow, Poland +1 more · other · 30d</description>
-    </item>
-    <item>
-      <title>Cisco — Full Stack Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Full-Stack-Engineer_2025805</link>
-      <guid isPermaLink="false">24bfe8116361456e</guid>
-      <description>Krakow, Poland +1 more · other · 30d</description>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer</title>
-      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineer_2025802</link>
-      <guid isPermaLink="false">49ddc204f8ea0651</guid>
-      <description>Krakow, Poland +1 more · other · 30d</description>
+      <description>Copenhagen, Denmark · mid_level · 24d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
