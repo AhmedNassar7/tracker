@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T18:07:50Z",
+ "generated_at": "2026-10-24T20:46:59Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -3261,10 +3261,6 @@
    "alive": true,
    "at": "2026-10-24T10:57:21Z"
   },
-  "https://c0mpiled-14.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-17T19:23:11Z"
-  },
   "https://ca.indeed.com/viewjob?jk=7ae46d31d8db2f26": {
    "alive": true,
    "at": "2026-10-24T10:56:37Z"
@@ -6211,7 +6207,7 @@
   },
   "https://expedia.wd108.myworkdayjobs.com/search/job/Czech-Republic---Prague/Infrastructure-and-Enterprise-Engineer-II_R-105042": {
    "alive": true,
-   "at": "2026-10-23T19:11:58Z"
+   "at": "2026-10-24T20:46:59Z"
   },
   "https://expedia.wd108.myworkdayjobs.com/search/job/India---Bangalore/Senior-Software-Development-Engineer_R-110243": {
    "alive": true,
@@ -6464,6 +6460,10 @@
   "https://hack-1736.devfolio.co": {
    "alive": true,
    "at": "2026-10-24T18:07:50Z"
+  },
+  "https://hack-for-social-impact-sf-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-24T20:46:59Z"
   },
   "https://hack-insight.devpost.com/": {
    "alive": true,
@@ -15375,7 +15375,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Compute-Platform-Engineer--LSF-_JR2023960": {
    "alive": true,
-   "at": "2026-10-19T15:35:07Z"
+   "at": "2026-10-24T20:46:59Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019": {
    "alive": true,
@@ -15479,7 +15479,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Distributed-Software-Engineer--Golang---DGX-Cloud_JR2024570-1": {
    "alive": true,
-   "at": "2026-10-22T10:09:50Z"
+   "at": "2026-10-24T20:46:59Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Engineer---Enterprise-Data-Governance_JR2024554": {
    "alive": true,
@@ -15788,6 +15788,10 @@
   "https://osoday.com": {
    "alive": true,
    "at": "2026-10-24T10:57:21Z"
+  },
+  "https://ou-sasehacks.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-24T20:46:59Z"
   },
   "https://oxhack-2026.devpost.com/": {
    "alive": true,
@@ -24679,7 +24683,7 @@
   },
   "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-291661?s=gh-new-grad-jobs-2027": {
    "alive": true,
-   "at": "2026-10-24T05:50:52Z"
+   "at": "2026-10-24T20:46:44Z"
   },
   "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-291661?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
