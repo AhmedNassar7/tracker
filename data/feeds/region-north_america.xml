@@ -4,26 +4,12 @@
     <title>tracker — North America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in North America tracker currently tracks.</description>
-    <lastBuildDate>Sat, 24 Oct 2026 20:49:03 GMT</lastBuildDate>
-    <item>
-      <title>Amazon — Software Engineer Intern</title>
-      <link>https://amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">f7856adc7cff9846</guid>
-      <description>Redmond, WA · internship · 0d</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
+    <lastBuildDate>Sat, 24 Oct 2026 23:16:44 GMT</lastBuildDate>
     <item>
       <title>Apple — Security Site Reliability Engineer - Apple Service Engineering</title>
       <link>https://jobs.apple.com/en-us/details/200690706/security-site-reliability-engineer-apple-service-engineering</link>
       <guid isPermaLink="false">d13f5be57e5db11e</guid>
       <description>Seattle, United States of America · unknown · 0d</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft — Software Engineer Intern, Security &amp; Identity</title>
-      <link>https://apply.careers.microsoft.com/careers/job/1970393557044771?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">d47e9f89017379cd</guid>
-      <description>United States · internship · 1d</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -34,10 +20,24 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Engineer Intern</title>
+      <link>https://amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">f7856adc7cff9846</guid>
+      <description>Redmond, WA · internship · 0d</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Engineer Intern, AWS Database</title>
       <link>https://amazon.jobs/en/jobs/10565667/software-development-engineer-intern-aws-database-2027-us?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">04a4862c263aabd6</guid>
       <description>United States · internship · 2d</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft — Software Engineer Intern, Security &amp; Identity</title>
+      <link>https://apply.careers.microsoft.com/careers/job/1970393557044771?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">d47e9f89017379cd</guid>
+      <description>United States · internship · 1d</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -69,16 +69,16 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>LinkedIn — Software Engineer Intern, Undergraduate - Summer 2027 (Mountain View, CA)</title>
-      <link>https://zapply.jobs/l/d/sr-LinkedIn3-744000156616169?s=gh-internships-2027</link>
-      <guid isPermaLink="false">0684fe7e9b9a28fb</guid>
-      <description>Mountain View, CA · internship · 3d</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Palantir — Software Engineer Intern, Query Engines</title>
       <link>https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">5dc7102ff5709b42</guid>
+      <description>New York, NY · internship · 4d</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, Internship - Query Engines</title>
+      <link>https://zapply.jobs/l/d/lever-palantir-da774f81-c98c-4dcf-9b9c-949fd7d90a13?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">a8dae73a09b6a079</guid>
       <description>New York, NY · internship · 4d</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1224,17 +1224,17 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Qualcomm — Machine Learning AISW Intern</title>
-      <link>https://qualcomm.eightfold.ai/careers/job/446721636765?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">803d46449f4a65f3</guid>
-      <description>Markham, ON, Canada · internship · 3d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Scale AI — Machine Learning Research Intern</title>
       <link>https://job-boards.greenhouse.io/scaleai/jobs/4735665005?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">542615de052b1af2</guid>
       <description>SF NYC · internship · 3d</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qualcomm — Machine Learning AISW Intern</title>
+      <link>https://qualcomm.eightfold.ai/careers/job/446721636765?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">803d46449f4a65f3</guid>
+      <description>Markham, ON, Canada · internship · 3d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2015,6 +2015,27 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft — Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,</title>
+      <link>https://zapply.jobs/l/d/microsoft-200042195?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">93d482c66ebd0209</guid>
+      <description>Redmond, Washington, United States · internship · 2d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft — Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,</title>
+      <link>https://zapply.jobs/l/d/microsoft-200042195?s=gh-new-grad-jobs-2027</link>
+      <guid isPermaLink="false">9d1453af9a1d2091</guid>
+      <description>Redmond, Washington, United States · internship · 2d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft — Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,</title>
+      <link>https://zapply.jobs/l/d/microsoft-200042195?s=gh-internships-2027</link>
+      <guid isPermaLink="false">03ccc9bcae7219ab</guid>
+      <description>Redmond, Washington, United States · internship · 2d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Palantir — Forward Deployed Software Engineer, Internship - Warp Speed</title>
       <link>https://zapply.jobs/l/d/lever-palantir-b3d81928-6c26-432f-8a0a-36602c2eefcb?s=gh-new-grad-software-engineering-jobs-2027</link>
       <guid isPermaLink="false">367a0bc443073f26</guid>
@@ -2047,27 +2068,6 @@
       <link>https://zapply.jobs/l/d/lever-palantir-66b495eb-aaf9-4bf9-a759-41854534add7?s=gh-new-grad-jobs-2027</link>
       <guid isPermaLink="false">dfb471b68174d9fc</guid>
       <description>New York, NY · new_grad · 2d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft — Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,</title>
-      <link>https://zapply.jobs/l/d/microsoft-200042195?s=gh-new-grad-software-engineering-jobs-2027</link>
-      <guid isPermaLink="false">93d482c66ebd0209</guid>
-      <description>Redmond, Washington, United States · internship · 2d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft — Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,</title>
-      <link>https://zapply.jobs/l/d/microsoft-200042195?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">9d1453af9a1d2091</guid>
-      <description>Redmond, Washington, United States · internship · 2d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft — Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,</title>
-      <link>https://zapply.jobs/l/d/microsoft-200042195?s=gh-internships-2027</link>
-      <guid isPermaLink="false">03ccc9bcae7219ab</guid>
-      <description>Redmond, Washington, United States · internship · 2d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3387,13 +3387,6 @@
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Qualcomm — Machine Learning AISW Intern</title>
-      <link>https://qualcomm.eightfold.ai/careers/job/446721636765?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">c834797938658d06</guid>
-      <description>Markham, ON, Canada · internship · 4d</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Palantir — Software Engineer - Internship - Query Engines</title>
       <link>https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13</link>
       <guid isPermaLink="false">e510819f7f00546f</guid>
@@ -3566,6 +3559,13 @@
       <link>https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/303601</link>
       <guid isPermaLink="false">331cbe15fdc3112d</guid>
       <description>San Francisco, CA, United States · mid_level · 4d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qualcomm — Machine Learning AISW Intern</title>
+      <link>https://qualcomm.eightfold.ai/careers/job/446721636765?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">c834797938658d06</guid>
+      <description>Markham, ON, Canada · internship · 4d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -4277,16 +4277,16 @@
     </item>
     <item>
       <title>Duolingo — Data Scientist Intern</title>
-      <link>https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002&amp;utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">5d105c65a499d5e6</guid>
-      <description>New York, NY, Pittsburgh, PA · internship · 9d</description>
+      <link>https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8888785002?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">28f743f8e0784273</guid>
+      <description>Pittsburgh, PA, New York, NY · internship · 9d</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Duolingo — Data Scientist Intern</title>
-      <link>https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8888785002?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">28f743f8e0784273</guid>
-      <description>Pittsburgh, PA, New York, NY · internship · 9d</description>
+      <link>https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002&amp;utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">5d105c65a499d5e6</guid>
+      <description>New York, NY, Pittsburgh, PA · internship · 9d</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -6544,13 +6544,6 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta — Data Scientist Intern - Product Analytics</title>
-      <link>https://www.metacareers.com/jobs/1633096478817942?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">6e29b8e015391f5e</guid>
-      <description>Menlo Park, CA NYC · internship · 17d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Lyft — PhD Machine Learning Software Engineer Intern - Summer 2027</title>
       <link>https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002</link>
       <guid isPermaLink="false">83afe64295a927dd</guid>
@@ -6604,6 +6597,13 @@
       <link>https://jobs.apple.com/en-us/details/200687151/core-os-software-engineer-usb4-thunderbolt</link>
       <guid isPermaLink="false">bf8bad900d8b671f</guid>
       <description>Cupertino, United States of America · unknown · 17d</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta — Data Scientist Intern - Product Analytics</title>
+      <link>https://www.metacareers.com/jobs/1633096478817942?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">6e29b8e015391f5e</guid>
+      <description>Menlo Park, CA NYC · internship · 17d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7496,17 +7496,17 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Engineer Intern</title>
-      <link>https://amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">ab9d03551274fa7d</guid>
-      <description>Seattle, WA +3 more · internship · 23d</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer Intern - AWS Database - 2027 - US</title>
       <link>https://www.amazon.jobs/jobs/10565667/apply</link>
       <guid isPermaLink="false">8a3ec14bef16fde9</guid>
       <description>Seattle, WA · internship · 23d</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Engineer Intern</title>
+      <link>https://amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">ab9d03551274fa7d</guid>
+      <description>Seattle, WA +3 more · internship · 23d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10800,13 +10800,6 @@
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Platform Engineering and Emerging Technologies</title>
-      <link>https://www.amazon.jobs/en/jobs/10552647/software-development-engineer-platform-engineering-and-emerging-technologies</link>
-      <guid isPermaLink="false">36ba754ebe786b5a</guid>
-      <description>Seattle, Washington, USA · unknown · 37d</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic — Pre-training Data Infrastructure Engineer</title>
       <link>https://job-boards.greenhouse.io/anthropic/jobs/4973067008</link>
       <guid isPermaLink="false">80b20d43aac2f528</guid>
@@ -11160,6 +11153,13 @@
       <title>Amazon — Software Development Engineer, Inventory Genealogy</title>
       <link>https://www.amazon.jobs/en/jobs/10538987/software-development-engineer-inventory-genealogy</link>
       <guid isPermaLink="false">41aea6ea29921b7b</guid>
+      <description>Bellevue, Washington, USA · unknown · 40d</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Robotics Development and Packaging Innovation</title>
+      <link>https://www.amazon.jobs/en/jobs/10539807/software-development-engineer-robotics-development-and-packaging-innovation</link>
+      <guid isPermaLink="false">7e356afbfa6b8bf0</guid>
       <description>Bellevue, Washington, USA · unknown · 40d</description>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -11748,6 +11748,13 @@
       <title>Amazon — Software Development Engineer II, Building Connectivity Engineering</title>
       <link>https://www.amazon.jobs/en/jobs/10526762/software-development-engineer-ii-building-connectivity-engineering</link>
       <guid isPermaLink="false">a96c16944b2869f0</guid>
+      <description>Seattle, Washington, USA · mid_level · 52d</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, Prime Video Ads Channels</title>
+      <link>https://www.amazon.jobs/en/jobs/10526828/software-development-engineer-ii-prime-video-ads-channels</link>
+      <guid isPermaLink="false">02741674f658424c</guid>
       <description>Seattle, Washington, USA · mid_level · 52d</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -13376,6 +13383,13 @@
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, Secure Connection Services (SCS)</title>
+      <link>https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs</link>
+      <guid isPermaLink="false">4669b44e0d5e538d</guid>
+      <description>Herndon, Virginia, USA · mid_level · 82d</description>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer III, Selection Economics Tech</title>
       <link>https://www.amazon.jobs/en/jobs/10490900/software-development-engineer-iii-selection-economics-tech</link>
       <guid isPermaLink="false">b15f66e68d5d1ac9</guid>
@@ -14160,13 +14174,6 @@
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Last Mile Delivery, Edge Intelligence</title>
-      <link>https://www.amazon.jobs/en/jobs/10458867/software-development-engineer-last-mile-delivery-edge-intelligence</link>
-      <guid isPermaLink="false">b42e569b1bba42d3</guid>
-      <description>Santa Cruz, California, USA · unknown · 121d</description>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI — Full Stack Software Engineer, API Experience</title>
       <link>https://jobs.ashbyhq.com/openai/66288824-8b77-4774-bc57-6825d3e6221e</link>
       <guid isPermaLink="false">bf7b443c0c83a1b0</guid>
@@ -14742,15 +14749,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Software Defined Network Controller, Amazon LEO</title>
-      <link>https://www.amazon.jobs/en/jobs/10419336/software-development-engineer-software-defined-network-controller-amazon-leo</link>
-      <guid isPermaLink="false">d7b7945382d8fdea</guid>
+      <link>https://www.amazon.jobs/en/jobs/10419337/software-development-engineer-software-defined-network-controller-amazon-leo</link>
+      <guid isPermaLink="false">c1805a84e604474a</guid>
       <description>Redmond, Washington, USA · unknown · 164d</description>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Software Defined Network Controller, Amazon LEO</title>
-      <link>https://www.amazon.jobs/en/jobs/10419337/software-development-engineer-software-defined-network-controller-amazon-leo</link>
-      <guid isPermaLink="false">c1805a84e604474a</guid>
+      <link>https://www.amazon.jobs/en/jobs/10419336/software-development-engineer-software-defined-network-controller-amazon-leo</link>
+      <guid isPermaLink="false">d7b7945382d8fdea</guid>
       <description>Redmond, Washington, USA · unknown · 164d</description>
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
     </item>
@@ -15501,6 +15508,12 @@
       <link>https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Software-Development-Engineer-Intern_JR-0110807</link>
       <guid isPermaLink="false">c62ffa3ab9507bae</guid>
       <description>Canada, BC, Vancouver · internship · 11d</description>
+    </item>
+    <item>
+      <title>Expedia Group — Software Development Engineer II</title>
+      <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Software-Development-Engineer-II_R-110488</link>
+      <guid isPermaLink="false">9bbde2452c21ef2c</guid>
+      <description>Washington - Seattle Campus · mid_level · 12d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III - Full Stack</title>
