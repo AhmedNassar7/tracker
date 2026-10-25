@@ -4,7 +4,7 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Sun, 25 Oct 2026 16:17:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 19:38:42 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA</title>
       <link>https://www.amazon.jobs/jobs/10587999/apply</link>
@@ -100,13 +100,6 @@
       <title>LinkedIn — Software Engineer Intern</title>
       <link>https://go.vansh.nyc/dh?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">21f44cee5cad9030</guid>
-      <description>Mountain View, CA · internship · 4d</description>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LinkedIn — Software Engineer Intern, Undergraduate - Summer 2027 (Mountain View, CA)</title>
-      <link>https://zapply.jobs/l/d/sr-LinkedIn3-744000156616169?s=gh-internships-2027</link>
-      <guid isPermaLink="false">0684fe7e9b9a28fb</guid>
       <description>Mountain View, CA · internship · 4d</description>
       <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -258,17 +251,17 @@
       <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Machine Learning Intern (PhD) - Summer 2027</title>
-      <link>https://zapply.jobs/l/d/greenhouse-doordashusa-8233953?s=gh-new-grad-data-science-jobs-2027</link>
-      <guid isPermaLink="false">90d63fa0e6d48fda</guid>
-      <description>San Francisco, CA · internship · 0d</description>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DoorDash — Machine Learning Intern (Masters) - Summer 2027</title>
       <link>https://zapply.jobs/l/d/greenhouse-doordashusa-8204111?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">fef98dd4e0523aa8</guid>
       <description>San Francisco, CA · internship · 1mo</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Machine Learning Intern (PhD) - Summer 2027</title>
+      <link>https://zapply.jobs/l/d/greenhouse-doordashusa-8233953?s=gh-new-grad-data-science-jobs-2027</link>
+      <guid isPermaLink="false">90d63fa0e6d48fda</guid>
+      <description>San Francisco, CA · internship · 0d</description>
       <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -749,16 +742,16 @@
     </item>
     <item>
       <title>Scale AI — Software Engineering Intern (Summer 2027)</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730834005</link>
-      <guid isPermaLink="false">3b0ec2c3687d7d2e</guid>
-      <description>Doha, Qatar · internship · 3d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730845005</link>
+      <guid isPermaLink="false">07c1cdd21ef3b93c</guid>
+      <description>San Francisco, CA · internship · 3d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Scale AI — Software Engineering Intern (Summer 2027)</title>
-      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730845005</link>
-      <guid isPermaLink="false">07c1cdd21ef3b93c</guid>
-      <description>San Francisco, CA · internship · 3d</description>
+      <link>https://job-boards.greenhouse.io/scaleai/jobs/4730834005</link>
+      <guid isPermaLink="false">3b0ec2c3687d7d2e</guid>
+      <description>Doha, Qatar · internship · 3d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -791,6 +784,13 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
+      <guid isPermaLink="false">c3b11892340bdad3</guid>
+      <description>Toronto · internship · 3d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
       <link>https://stripe.com/jobs/search?gh_jid=8097801</link>
       <guid isPermaLink="false">c605f6dad3d2889c</guid>
       <description>Dublin · internship · 3d</description>
@@ -801,13 +801,6 @@
       <link>https://stripe.com/jobs/search?gh_jid=8128745</link>
       <guid isPermaLink="false">bbe14083e01b613a</guid>
       <description>San Francisco, Seattle, New York City · internship · 3d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Intern (Summer or Winter)</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130805</link>
-      <guid isPermaLink="false">c3b11892340bdad3</guid>
-      <description>Toronto · internship · 3d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -881,13 +874,6 @@
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Adobe — 2027 Intern - Security Engineer</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173001?s=gh-internships-2027</link>
-      <guid isPermaLink="false">831e959e13711ba9</guid>
-      <description>San Jose · internship · 5d</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Palantir — Software Engineer - Internship - Query Engines</title>
       <link>https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13</link>
       <guid isPermaLink="false">e510819f7f00546f</guid>
@@ -923,6 +909,20 @@
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Adobe — 2027 Intern - Security Engineer</title>
+      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173000?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">a8a2d5816da02b86</guid>
+      <description>Lehi · internship · 6d</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Adobe — 2027 Intern - Security Engineer</title>
+      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173000?s=gh-new-grad-jobs-2027</link>
+      <guid isPermaLink="false">03734a6babe38b3c</guid>
+      <description>Lehi · internship · 6d</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Scale AI — Machine Learning Research Intern (Summer 2027)</title>
       <link>https://zapply.jobs/l/d/greenhouse-scaleai-4735665005?s=gh-new-grad-jobs-2027</link>
       <guid isPermaLink="false">59428263e6659572</guid>
@@ -941,20 +941,6 @@
       <link>https://zapply.jobs/l/d/greenhouse-scaleai-4735665005?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">875fb5bb3b32daf3</guid>
       <description>New York, NY · internship · 6d</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe — 2027 Intern - Security Engineer</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173000?s=gh-new-grad-software-engineering-jobs-2027</link>
-      <guid isPermaLink="false">a8a2d5816da02b86</guid>
-      <description>Lehi · internship · 6d</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe — 2027 Intern - Security Engineer</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173000?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">03734a6babe38b3c</guid>
-      <description>Lehi · internship · 6d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1312,13 +1298,6 @@
       <link>https://www.amazon.jobs/en/jobs/10574925/software-development-engineer-intern-amazon-university-talent-acquisition</link>
       <guid isPermaLink="false">e5e5538e3591c000</guid>
       <description>Mexico City, Mexico City, MEX · internship · 16d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer Intern, Amazon University Talent Acquisition</title>
-      <link>https://www.amazon.jobs/en/jobs/10574927/software-development-engineer-intern-amazon-university-talent-acquisition</link>
-      <guid isPermaLink="false">6e48f27ae0833f26</guid>
-      <description>Zapopan, Jalisco, MEX · internship · 16d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1796,13 +1775,6 @@
       <guid isPermaLink="false">c5a970ea62c81a8b</guid>
       <description>Toronto, Ontario, CAN · internship · 46d</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer Intern/Co-Op, ROBOTICS - 2027</title>
-      <link>https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-co-op-robotics-2027</link>
-      <guid isPermaLink="false">ad6924ac45f73acc</guid>
-      <description>North Reading, Massachusetts, USA · internship · 51d</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer Intern, Annapurna Labs - 2027</title>
