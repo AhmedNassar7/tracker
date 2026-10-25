@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-25T01:11:14Z",
-  "total": 3780,
+  "generated_at": "2026-10-25T06:07:55Z",
+  "total": 3781,
   "jobs": [
+    {
+      "id": "0781f449312d835a",
+      "kind": "job",
+      "company": "Netflix",
+      "title": "Production Coordinator - Netflix Animation Studios",
+      "location": "Sydney",
+      "level": "other",
+      "region": "apac",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://netflix.wd108.myworkdayjobs.com/netflix/job/Sydney/Production-Coordinator---Netflix-Animation-Studios_JR43194",
+      "source": "workday:netflix",
+      "source_url": "https://netflix.wd108.myworkdayjobs.com/wday/cxs/netflix/netflix/jobs"
+    },
+    {
+      "id": "c65504a20fa05e87",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior AI Infrastructure Engineer - EDA Infrastructure",
+      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Remote<br>US, MA, Westford<br>US, TX, Austin<br>US, WA, Remote<br>US, NC, Durham</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-AI-infrastructure-engineer---Hardware-Infrastructure-Engineering_JR2024816",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
     {
       "id": "0b2b7870116d0bf5",
       "kind": "job",
@@ -33,6 +63,51 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "0247cf70b68f749a",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior HPC Storage Engineer - EDA Infrastructure",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Storage-Engineer_JR2014997",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "40918f8191b8b6d3",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Linux Kernel Systems Software Engineer – CSP Engagements",
+      "location": "<details><summary><strong>4 locations</strong></summary>US, CA, Santa Clara<br>US, TX, Austin<br>US, WA, Redmond<br>US, WA, Seattle</details>",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Linux-Kernel-Systems-Software-Engineer---CSP-Engagements_JR2015287",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "e1026859489732b4",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Linux Systems Engineer - EDA Infrastructure",
+      "location": "<details><summary><strong>6 locations</strong></summary>US, CA, Remote<br>US, MA, Westford<br>US, TX, Austin<br>US, WA, Remote<br>US, Remote<br>US, NC, Durham</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "f83c4166fe0f7d34",
       "kind": "job",
       "company": "NVIDIA",
@@ -48,6 +123,81 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
+      "id": "fcb34d6177e0786a",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure",
+      "location": "<details><summary><strong>6 locations</strong></summary>US, WA, Remote<br>US, MA, Westford<br>US, TX, Austin<br>US, Remote<br>US, NC, Durham<br>US, CA, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "f893363966b390ca",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, NCCL",
+      "location": "US, CA, Santa Clara",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--GPU-Communications-and-Networking_JR1997186",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "77144393e5b940c6",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Storage Software Engineer - DGX Cloud",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer---DGX-Cloud_JR2026042",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "1bc3f00a63ebf573",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - GPU Performance",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "9fb930e8e8ad5fcf",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer - Scientific Computing PaaS",
+      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Scientific-Computing-PaaS_JR2024331",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
       "id": "bfb1141b80e4b771",
       "kind": "job",
       "company": "NVIDIA",
@@ -59,6 +209,21 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "89930bfb8d89aa0d",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Systems Software Engineer- EDA Infrastructure",
+      "location": "<details><summary><strong>6 locations</strong></summary>US, CA, Remote<br>US, MA, Westford<br>US, TX, Austin<br>US, WA, Remote<br>US, Remote<br>US, NC, Durham</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -1439,21 +1604,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "f1dfef6e5c3eb72d",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, Real-Time Data Platform",
-      "location": "<details><summary><strong>4 locations</strong></summary>Germany, Munich<br>Germany, Remote<br>Germany, Wuerselen<br>Germany, Berlin</details>",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "platform",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/Senior-Software-Engineer--Real-Time-Data-Platform_JR2027710",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "fd49b26ffed563cc",
       "kind": "job",
       "company": "NVIDIA",
@@ -1529,21 +1679,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "f08383cb4c1338ed",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineer Intern - NVEX, 2027",
-      "location": "China, Beijing",
-      "level": "internship",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Software-Engineer-Intern---NVEX--2027_JR2028186",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "b1f3e162b9f07e5b",
       "kind": "job",
       "company": "NVIDIA",
@@ -1559,21 +1694,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "200dc6bcb8a94496",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Software Engineering Intern, AI Automation Infra - 2027",
-      "location": "China, Shanghai",
-      "level": "internship",
-      "region": "apac",
-      "role_type": "infrastructure",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--AI-Automation-Infra---2027_JR2028205",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "6c2aaed637b029d3",
       "kind": "job",
       "company": "NVIDIA",
@@ -1585,21 +1705,6 @@
       "date": "1d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Robotics-Simulation_JR2026819",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "57ef82aa84698ae7",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "System Software Engineer Intern, Embedded - 2027",
-      "location": "China, Shanghai",
-      "level": "internship",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "1d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/System-Software-Engineer-Intern--Embedded---2027_JR2028298",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -6732,21 +6837,6 @@
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
     {
-      "id": "4c61fc2b3e7105b1",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Senior Software Engineer - Java Full stack with AI",
-      "location": "Pune, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "full_stack",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Full-stack-with-AI_R-294119",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
       "id": "5892fbca0fbec2df",
       "kind": "job",
       "company": "Mastercard",
@@ -6773,21 +6863,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291663",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
-      "id": "8424ac9dc78c1dd8",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Software Engineer II - Java Full Stack React",
-      "location": "Pune, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "full_stack",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613",
       "source": "workday:mastercard",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
     },
@@ -8883,51 +8958,6 @@
       "url": "https://netflix.wd108.myworkdayjobs.com/netflix/job/Vancouver/Matte-Painting-Supervisor---Netflix-Animation-Studios_JR43129",
       "source": "workday:netflix",
       "source_url": "https://netflix.wd108.myworkdayjobs.com/wday/cxs/netflix/netflix/jobs"
-    },
-    {
-      "id": "c3713a1ca8334239",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Principal Software Engineer - Rack Scale Systems Infrastructure",
-      "location": "<details><summary><strong>5 locations</strong></summary>US, CA, Santa Clara<br>US, NC, Remote<br>US, TX, Remote<br>US, Remote<br>US, MA, Remote</details>",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "infrastructure",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---Rack-Scale-Systems-Infrastructure_JR2017966",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "e29fb9e20878f61f",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Developer, Test and Automation",
-      "location": "US, CA, Santa Clara",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Developer--Test-and-Automation_JR2026347",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
-      "id": "6e2474fc0d3b8489",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Software Engineer, AV Analysis Platform",
-      "location": "<details><summary><strong>2 locations</strong></summary>US, CA, Santa Clara<br>US, Remote</details>",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "platform",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AV-Analysis-Platform_JR2028334-1",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
       "id": "eafdd29261f99201",
@@ -36901,31 +36931,6 @@
       }
     },
     {
-      "id": "706161d42d11bf58",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Sr. Staff Software Engineer — Observability, Insights & Governance",
-      "location": "Mountain View, California; San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "19d",
-      "posted_at": "2026-10-06",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "SQL"
-      ],
-      "degree_required": false,
-      "salary": {
-        "min": 228600,
-        "max": 314250,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "105be2d3dfcc1298",
       "kind": "job",
       "company": "Databricks",
@@ -36946,6 +36951,31 @@
       "salary": {
         "min": 217100,
         "max": 298550,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "706161d42d11bf58",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Sr. Staff Software Engineer — Observability, Insights & Governance",
+      "location": "Mountain View, California; San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "19d",
+      "posted_at": "2026-10-06",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "SQL"
+      ],
+      "degree_required": false,
+      "salary": {
+        "min": 228600,
+        "max": 314250,
         "currency": "USD",
         "period": "year"
       }
@@ -56775,38 +56805,6 @@
       }
     },
     {
-      "id": "ded4910a9d51e04a",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Backend",
-      "location": "Mountain View, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Azure",
-        "SQL"
-      ],
-      "salary": {
-        "min": 166000,
-        "max": 225000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "76e92a54692eda56",
       "kind": "job",
       "company": "Databricks",
@@ -56839,17 +56837,17 @@
       }
     },
     {
-      "id": "b988dd06ebf8702f",
+      "id": "ded4910a9d51e04a",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Software Engineer - Backend",
-      "location": "Vancouver, Canada",
+      "location": "Mountain View, California",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "backend",
       "date": "34d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
@@ -56863,60 +56861,12 @@
         "Azure",
         "SQL"
       ],
-      "degree_required": false,
       "salary": {
-        "min": 146200,
-        "max": 201100,
+        "min": 166000,
+        "max": 225000,
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "1bf877368f091a05",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Backend",
-      "location": "Amsterdam, Netherlands",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
-    },
-    {
-      "id": "e1262f4b1afb16ec",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Backend",
-      "location": "Berlin, Germany",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
     },
     {
       "id": "4c3fca2b744fa4a7",
@@ -56974,6 +56924,108 @@
       }
     },
     {
+      "id": "e1262f4b1afb16ec",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Backend",
+      "location": "Berlin, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
+    },
+    {
+      "id": "1bf877368f091a05",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Backend",
+      "location": "Amsterdam, Netherlands",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
+    },
+    {
+      "id": "b988dd06ebf8702f",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Backend",
+      "location": "Vancouver, Canada",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SQL"
+      ],
+      "degree_required": false,
+      "salary": {
+        "min": 146200,
+        "max": 201100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "0ba312ee1a09ad16",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Database Engine Internals",
+      "location": "San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "min_years_experience": 5,
+      "salary": {
+        "min": 166000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "e7d2a03de44f6faa",
       "kind": "job",
       "company": "Databricks",
@@ -57018,59 +57070,6 @@
       }
     },
     {
-      "id": "0ba312ee1a09ad16",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Database Engine Internals",
-      "location": "San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "min_years_experience": 5,
-      "salary": {
-        "min": 166000,
-        "max": 225000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "72e912f039a6d6b9",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Distributed Data Systems",
-      "location": "San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "Spark",
-        "SQL"
-      ],
-      "degree_required": false,
-      "salary": {
-        "min": 166000,
-        "max": 225000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "de8da72858c799ef",
       "kind": "job",
       "company": "Databricks",
@@ -57100,28 +57099,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "70ceaf862c9a606b",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Distributed Data Systems",
-      "location": "Belgrade, Serbia",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Spark"
-      ],
-      "degree_required": false
     },
     {
       "id": "1ce87d2206ccfe41",
@@ -57155,78 +57132,51 @@
       }
     },
     {
-      "id": "5d817d23d47b3929",
+      "id": "70ceaf862c9a606b",
       "kind": "job",
       "company": "Databricks",
-      "title": "Senior Software Engineer - Fullstack",
-      "location": "Seattle, Washington",
+      "title": "Senior Software Engineer - Distributed Data Systems",
+      "location": "Belgrade, Serbia",
       "level": "mid_level",
-      "region": "north_america",
-      "role_type": "full_stack",
+      "region": "europe",
+      "role_type": "software_engineer",
       "date": "34d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
-        "React",
-        "Vue.js",
-        "Angular",
-        "Node.js",
-        "JavaScript",
-        "Python",
         "Java",
         "C++",
-        "C#",
         "Scala",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Azure",
-        "SQL"
+        "Spark"
       ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 157700,
-        "max": 213800,
-        "currency": "USD",
-        "period": "year"
-      }
+      "degree_required": false
     },
     {
-      "id": "2e094679bca63e8b",
+      "id": "72e912f039a6d6b9",
       "kind": "job",
       "company": "Databricks",
-      "title": "Senior Software Engineer - Fullstack",
-      "location": "Mountain View, California; San Francisco, California",
+      "title": "Senior Software Engineer - Distributed Data Systems",
+      "location": "San Francisco, California",
       "level": "mid_level",
       "region": "north_america",
-      "role_type": "full_stack",
+      "role_type": "software_engineer",
       "date": "34d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
-        "React",
-        "Vue.js",
-        "Angular",
-        "Node.js",
-        "JavaScript",
-        "Python",
         "Java",
         "C++",
-        "C#",
         "Scala",
-        "Kubernetes",
-        "Docker",
         "AWS",
-        "GCP",
         "Azure",
+        "Spark",
         "SQL"
       ],
-      "min_years_experience": 5,
+      "degree_required": false,
       "salary": {
         "min": 166000,
         "max": 225000,
@@ -57275,6 +57225,46 @@
       }
     },
     {
+      "id": "2e094679bca63e8b",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Fullstack",
+      "location": "Mountain View, California; San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Vue.js",
+        "Angular",
+        "Node.js",
+        "JavaScript",
+        "Python",
+        "Java",
+        "C++",
+        "C#",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SQL"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 166000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "68c8979bffb454a6",
       "kind": "job",
       "company": "Databricks",
@@ -57308,6 +57298,46 @@
       "salary": {
         "min": 166000,
         "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "5d817d23d47b3929",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Fullstack",
+      "location": "Seattle, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Vue.js",
+        "Angular",
+        "Node.js",
+        "JavaScript",
+        "Python",
+        "Java",
+        "C++",
+        "C#",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SQL"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 157700,
+        "max": 213800,
         "currency": "USD",
         "period": "year"
       }
@@ -57486,17 +57516,17 @@
       "min_years_experience": 15
     },
     {
-      "id": "d9be831edfe51857",
+      "id": "bcddd175f2cfb885",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Staff Software Engineer - Delta",
-      "location": "Berlin, Germany",
+      "location": "Amsterdam, Netherlands",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "34d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 15
@@ -57518,17 +57548,17 @@
       "min_years_experience": 15
     },
     {
-      "id": "bcddd175f2cfb885",
+      "id": "d9be831edfe51857",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Staff Software Engineer - Delta",
-      "location": "Amsterdam, Netherlands",
+      "location": "Berlin, Germany",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "34d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 15
@@ -57572,31 +57602,6 @@
       }
     },
     {
-      "id": "90e32f90d2b5d9e0",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Staff Software Engineer - IAM",
-      "location": "Mountain View, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes"
-      ],
-      "min_years_experience": 9,
-      "salary": {
-        "min": 232000,
-        "max": 313000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "a7e80bc154ad4ddc",
       "kind": "job",
       "company": "Databricks",
@@ -57617,6 +57622,31 @@
       "salary": {
         "min": 220400,
         "max": 297400,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "90e32f90d2b5d9e0",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Staff Software Engineer - IAM",
+      "location": "Mountain View, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes"
+      ],
+      "min_years_experience": 9,
+      "salary": {
+        "min": 232000,
+        "max": 313000,
         "currency": "USD",
         "period": "year"
       }
@@ -57876,34 +57906,6 @@
       }
     },
     {
-      "id": "33b528f6255cb962",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Sr Software Engineer-Networking",
-      "location": "Mountain View, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "C++",
-        "Scala"
-      ],
-      "min_years_experience": 4,
-      "salary": {
-        "min": 166000,
-        "max": 225000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "c044f0292d42090e",
       "kind": "job",
       "company": "Databricks",
@@ -57927,6 +57929,34 @@
       "salary": {
         "min": 157000,
         "max": 213800,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "33b528f6255cb962",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Sr Software Engineer-Networking",
+      "location": "Mountain View, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "C++",
+        "Scala"
+      ],
+      "min_years_experience": 4,
+      "salary": {
+        "min": 166000,
+        "max": 225000,
         "currency": "USD",
         "period": "year"
       }
@@ -58417,29 +58447,6 @@
       }
     },
     {
-      "id": "cee270926d3d303b",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Belgrade, Serbia",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
-    },
-    {
       "id": "ef6f23c47c8166fe",
       "kind": "job",
       "company": "Databricks",
@@ -58458,6 +58465,29 @@
         "C++",
         "Scala",
         "Kubernetes",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
+    },
+    {
+      "id": "cee270926d3d303b",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Belgrade, Serbia",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
         "AWS",
         "Azure",
         "SQL"
@@ -58487,100 +58517,6 @@
         "Azure",
         "Spark"
       ]
-    },
-    {
-      "id": "fb40916992e1a363",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Amsterdam, Netherlands",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
-    },
-    {
-      "id": "f51c9989663a679f",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Seattle, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure",
-        "Kafka",
-        "Spark",
-        "SQL"
-      ],
-      "salary": {
-        "min": 182400,
-        "max": 247000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "8dfe1193df322fd7",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Bellevue, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure",
-        "Kafka",
-        "Spark",
-        "SQL"
-      ],
-      "salary": {
-        "min": 182400,
-        "max": 247000,
-        "currency": "USD",
-        "period": "year"
-      }
     },
     {
       "id": "f5fd51870e015b24",
@@ -58618,6 +58554,124 @@
       }
     },
     {
+      "id": "fb40916992e1a363",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Amsterdam, Netherlands",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
+    },
+    {
+      "id": "8dfe1193df322fd7",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Bellevue, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Kafka",
+        "Spark",
+        "SQL"
+      ],
+      "salary": {
+        "min": 182400,
+        "max": 247000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f51c9989663a679f",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Seattle, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Kafka",
+        "Spark",
+        "SQL"
+      ],
+      "salary": {
+        "min": 182400,
+        "max": 247000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "2d6e3850e9fb5e88",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "London, United Kingdom",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "AWS",
+        "Azure",
+        "PostgreSQL",
+        "SQL"
+      ]
+    },
+    {
       "id": "dad1876d57a8f252",
       "kind": "job",
       "company": "Databricks",
@@ -58649,30 +58703,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "2d6e3850e9fb5e88",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "London, United Kingdom",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "PostgreSQL",
-        "SQL"
-      ]
     },
     {
       "id": "f0b22982b37faeb4",
@@ -58791,6 +58821,28 @@
       }
     },
     {
+      "id": "f88ed55e40ffc257",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Distributed Data Systems",
+      "location": "Belgrade, Serbia",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "34d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Spark"
+      ],
+      "degree_required": false
+    },
+    {
       "id": "bfaca1ec851dd8b4",
       "kind": "job",
       "company": "Databricks",
@@ -58882,28 +58934,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "f88ed55e40ffc257",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Distributed Data Systems",
-      "location": "Belgrade, Serbia",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "34d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Spark"
-      ],
-      "degree_required": false
     },
     {
       "id": "291b0d6d3fe26bc1",
@@ -79059,86 +79089,14 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "fbeea37153cbc3b5",
+      "id": "f87a9f1a414c44c5",
       "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Syntax Error 2026",
-      "location": "Various",
-      "date": "last day",
-      "posted_at": "2026-10-25",
-      "url": "https://syntax-error-6.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "c2854885f1faee53",
-      "kind": "hackathon",
-      "company": "UF Google Developer Group",
-      "title": "UF GDG DevFest 2026",
-      "location": "Turlington Hall - University of Florida",
+      "company": "HackMerced",
+      "title": "Hacktually Hacktoberfest @HackMerced",
+      "location": "COB2 110",
       "date": "about 1 hour left",
       "posted_at": "2026-10-25",
-      "url": "https://ufgdg-devfest-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "f547c5195fd22836",
-      "kind": "hackathon",
-      "company": "The App Blueprint",
-      "title": "Sydney Mobile AI Hackathon",
-      "location": "20 Martin Place",
-      "date": "about 2 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://sydney-mobile-ai-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "f0eb97c507ec052c",
-      "kind": "hackathon",
-      "company": "Leeds AI Society",
-      "title": "AI in Healthcare Hackathon",
-      "location": "University of Leeds - Helix",
-      "date": "about 10 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://leeds-ai-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "867da64bbd72adf5",
-      "kind": "hackathon",
-      "company": "Stony Brook Computing Society",
-      "title": "SBUHacks 2026",
-      "location": "Frank Melville Jr. Memorial Library",
-      "date": "about 12 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://sbuhacks-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "20c779e6ff3f3bfd",
-      "kind": "hackathon",
-      "company": "Boston University Spark!",
-      "title": "DS+X Hackathon 2026",
-      "location": "Boston University- CDS",
-      "date": "about 13 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://ds-x-hackathon-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "4c68c406e2c88b9f",
-      "kind": "hackathon",
-      "company": "OHI/O",
-      "title": "HackOHI/O 2026",
-      "location": "The Ohio State University - Ohio Union",
-      "date": "about 13 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://hackohio2026.devpost.com/",
+      "url": "https://hacktually-hack-day-hackmerced.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79148,9 +79106,45 @@
       "company": "sir padampat singhania university",
       "title": "GLITCHATHON",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-10-25",
       "url": "https://glitchathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "867da64bbd72adf5",
+      "kind": "hackathon",
+      "company": "Stony Brook Computing Society",
+      "title": "SBUHacks 2026",
+      "location": "Frank Melville Jr. Memorial Library",
+      "date": "about 7 hours left",
+      "posted_at": "2026-10-25",
+      "url": "https://sbuhacks-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "f0eb97c507ec052c",
+      "kind": "hackathon",
+      "company": "Leeds AI Society",
+      "title": "AI in Healthcare Hackathon",
+      "location": "University of Leeds - Helix",
+      "date": "about 8 hours left",
+      "posted_at": "2026-10-25",
+      "url": "https://leeds-ai-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "20c779e6ff3f3bfd",
+      "kind": "hackathon",
+      "company": "Boston University Spark!",
+      "title": "DS+X Hackathon 2026",
+      "location": "Boston University- CDS",
+      "date": "about 9 hours left",
+      "posted_at": "2026-10-25",
+      "url": "https://ds-x-hackathon-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79160,7 +79154,7 @@
       "company": "Cal Hacks",
       "title": "Cal Hacks 13.0",
       "location": "Palace of Fine Arts",
-      "date": "about 15 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-10-25",
       "url": "https://cal-hacks-13-0.devpost.com/",
       "source": "devpost",
@@ -79172,9 +79166,21 @@
       "company": "Freetail Hackers",
       "title": "HackTX 2026",
       "location": "The University of Texas at Austin",
-      "date": "about 15 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-10-25",
       "url": "https://hacktx26.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "d745f3f64daf32fb",
+      "kind": "hackathon",
+      "company": "HackDuke",
+      "title": "DuQuantum 2026",
+      "location": "Duke University - Wilkinson Building",
+      "date": "about 10 hours left",
+      "posted_at": "2026-10-25",
+      "url": "https://duquantum-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79184,7 +79190,7 @@
       "company": "Oxford University",
       "title": "OxHack 2026",
       "location": "Mathematical Institute",
-      "date": "about 15 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-10-25",
       "url": "https://oxhack-2026.devpost.com/",
       "source": "devpost",
@@ -79196,9 +79202,21 @@
       "company": "SOON",
       "title": "SOON Hackathon Fall 2026",
       "location": "Toronto, Canada",
-      "date": "about 15 hours left",
+      "date": "about 10 hours left",
       "posted_at": "2026-10-25",
       "url": "https://soon-hackathon-f26.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "4c68c406e2c88b9f",
+      "kind": "hackathon",
+      "company": "OHI/O",
+      "title": "HackOHI/O 2026",
+      "location": "The Ohio State University - Ohio Union",
+      "date": "about 11 hours left",
+      "posted_at": "2026-10-25",
+      "url": "https://hackohio2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79208,7 +79226,7 @@
       "company": "TAMUhack",
       "title": "HowdyHack 2026",
       "location": "Texas A＆M - Memorial Student Center",
-      "date": "about 16 hours left",
+      "date": "about 11 hours left",
       "posted_at": "2026-10-25",
       "url": "https://hh26.devpost.com/",
       "source": "devpost",
@@ -79220,7 +79238,7 @@
       "company": "User Experience Club",
       "title": "UXperience: Waves of Becoming",
       "location": "ECSW @ UT Dallas",
-      "date": "about 16 hours left",
+      "date": "about 11 hours left",
       "posted_at": "2026-10-25",
       "url": "https://uxperience-waves-of-becoming.devpost.com/",
       "source": "devpost",
@@ -79232,7 +79250,7 @@
       "company": "CSULB Women in Computing",
       "title": "Marina Hacks 6.0",
       "location": "The Pointe Conference Center",
-      "date": "about 18 hours left",
+      "date": "about 12 hours left",
       "posted_at": "2026-10-25",
       "url": "https://marina-hacks-6-0.devpost.com/",
       "source": "devpost",
@@ -79244,7 +79262,7 @@
       "company": "ColorStackBU",
       "title": "CodeFest 2026 by ColorStackBU",
       "location": "Binghamton University Classroom Wing",
-      "date": "about 21 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-10-25",
       "url": "https://codefest-2026-colorstackbu.devpost.com/",
       "source": "devpost",
@@ -79256,7 +79274,7 @@
       "company": "Hack for Social Impact",
       "title": "Hack for Social Impact SF 2026",
       "location": "Wefunder",
-      "date": "about 21 hours left",
+      "date": "about 16 hours left",
       "posted_at": "2026-10-25",
       "url": "https://hack-for-social-impact-sf-2026.devpost.com/",
       "source": "devpost",
@@ -79268,11 +79286,23 @@
       "company": "Georgian",
       "title": "Build North: Ship Something Real",
       "location": "Toronto",
-      "date": "1 day left",
+      "date": "about 23 hours left",
       "posted_at": "2026-10-25",
       "url": "https://build-north.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "6cea2153ea58ce55",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hackman X",
+      "location": "Bengaluru, India",
+      "date": "1 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://hackman-x.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "fd1afdb97ea2b185",
@@ -79285,18 +79315,6 @@
       "url": "https://the-top-500-uh-v2.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "6cea2153ea58ce55",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hackman X",
-      "location": "Bengaluru, India",
-      "date": "2 days left",
-      "posted_at": "2026-10-25",
-      "url": "https://hackman-x.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "a032032ace9f3bc0",
@@ -79347,6 +79365,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "08da4ef0aeb6e465",
+      "kind": "hackathon",
+      "company": "Alliance University",
+      "title": "Hybrid Micro Mouse Challenge",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://hybrid-micro-mouse-challenge.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "1a0ea367f617f988",
       "kind": "hackathon",
       "company": "CodeTheCure",
@@ -79383,14 +79413,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "08da4ef0aeb6e465",
+      "id": "d005499569a3ec39",
       "kind": "hackathon",
-      "company": "Alliance University",
-      "title": "Hybrid Micro Mouse Challenge",
+      "company": "elite coders",
+      "title": "CodeSprint by Elite Coders",
       "location": "Online",
       "date": "5 days left",
       "posted_at": "2026-10-25",
-      "url": "https://hybrid-micro-mouse-challenge.devpost.com/",
+      "url": "https://codesprint-by-elitecoders.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79451,6 +79481,18 @@
       "date": "6 days left",
       "posted_at": "2026-10-25",
       "url": "https://tum.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "d546a977569f6b25",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Version Beta 9.0",
+      "location": "Bhopal, India",
+      "date": "6 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://version-beta-9.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -79563,18 +79605,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "d546a977569f6b25",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Version Beta 9.0",
-      "location": "Bhopal, India",
-      "date": "7 days left",
-      "posted_at": "2026-10-25",
-      "url": "https://version-beta-9.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "14570249062d0ff5",
       "kind": "hackathon",
       "company": "Devpost",
@@ -79635,6 +79665,30 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "d7a5ca787711fed9",
+      "kind": "hackathon",
+      "company": "RenderJuice",
+      "title": "RenderJuice Blender Animation & Programmatic Rendering Contest",
+      "location": "New York, NY",
+      "date": "7 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://programmatic-rendering-contest.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "a278312f9434729c",
+      "kind": "hackathon",
+      "company": "Software Engineering Club (DEV)",
+      "title": "Mathematics for systems security",
+      "location": "Online",
+      "date": "7 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://mathematics-systems-security.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "b8075437fa20e350",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -79647,14 +79701,26 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "a278312f9434729c",
+      "id": "b53f4c511373a435",
       "kind": "hackathon",
-      "company": "Software Engineering Club (DEV)",
-      "title": "Mathematics for systems security",
-      "location": "Online",
-      "date": "8 days left",
+      "company": "CETYS",
+      "title": "ICC - Proyecto Destacado 2026",
+      "location": "Centro de enseñanza técnica y superior",
+      "date": "9 days left",
       "posted_at": "2026-10-25",
-      "url": "https://mathematics-systems-security.devpost.com/",
+      "url": "https://icc-proyecto-destacado-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "1f10aa4e0cbea169",
+      "kind": "hackathon",
+      "company": "Perfect Corp",
+      "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
+      "location": "Online",
+      "date": "9 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79681,18 +79747,6 @@
       "url": "https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/",
       "source": "hackerearth",
       "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
-      "id": "b53f4c511373a435",
-      "kind": "hackathon",
-      "company": "CETYS",
-      "title": "ICC - Proyecto Destacado 2026",
-      "location": "Centro de enseñanza técnica y superior",
-      "date": "11 days left",
-      "posted_at": "2026-10-25",
-      "url": "https://icc-proyecto-destacado-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "a5fd66cc7a7fe0b8",
@@ -79940,7 +79994,7 @@
       "company": "Devfolio",
       "title": "haxfinity",
       "location": "Myladi, India",
-      "date": "49 days left",
+      "date": "48 days left",
       "posted_at": "2026-10-25",
       "url": "https://haxfinity.devfolio.co",
       "source": "devfolio",
@@ -79964,7 +80018,7 @@
       "company": "Devfolio",
       "title": "Hack For Tomorrow 2026",
       "location": "Various",
-      "date": "70 days left",
+      "date": "69 days left",
       "posted_at": "2026-10-25",
       "url": "https://hft2026.devfolio.co",
       "source": "devfolio",
@@ -80029,42 +80083,6 @@
       "url": "https://coderave-2.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "cb45747ab5cc5d76",
-      "kind": "hackathon",
-      "company": "Antigravity Capital",
-      "title": "Personal Agents Hackathon in SF",
-      "location": "San Francisco, California, USA",
-      "date": "19 minutes left",
-      "posted_at": "2026-10-25",
-      "url": "https://personal-agents-sf.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "8ed34a70c4873488",
-      "kind": "hackathon",
-      "company": "Tecnologico de Monterrey",
-      "title": "ClaudeTec Hackathon",
-      "location": "Expedition FEMSA",
-      "date": "4 minutes left",
-      "posted_at": "2026-10-25",
-      "url": "https://claudetec-hack26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "18b8349e4dfc06a2",
-      "kind": "hackathon",
-      "company": "Women in Engineering SFU",
-      "title": "ProtoHacks",
-      "location": "Simon Fraser University - SUB Ballroom",
-      "date": "4 minutes left",
-      "posted_at": "2026-10-25",
-      "url": "https://sfuprotohacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
