@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-25T19:36:07Z",
+ "generated_at": "2026-10-25T22:32:07Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
-   "at": "2026-10-23T22:11:23Z"
+   "at": "2026-10-25T22:32:07Z"
   },
   "/buildercommunityanz?k=c": {
    "alive": true,
@@ -39,7 +39,7 @@
   },
   "/stationdc?k=c": {
    "alive": true,
-   "at": "2026-10-23T22:11:23Z"
+   "at": "2026-10-25T22:32:07Z"
   },
   "http://block.xyz/careers/jobs/4901418008?gh_jid=4901418008": {
    "alive": true,
@@ -216,10 +216,6 @@
   "https://305empowheroct2026.devpost.com/": {
    "alive": true,
    "at": "2026-10-25T11:25:16Z"
-  },
-  "https://804hacks.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-18T20:40:48Z"
   },
   "https://a-hackachusetts.devpost.com/": {
    "alive": true,
@@ -915,7 +911,7 @@
   },
   "https://arbiter-hacks-v1.devpost.com/": {
    "alive": true,
-   "at": "2026-10-23T19:11:58Z"
+   "at": "2026-10-25T22:32:07Z"
   },
   "https://archconf.com": {
    "alive": true,
@@ -3263,7 +3259,7 @@
   },
   "https://ca.indeed.com/viewjob?jk=b2f712246f893b5d": {
    "alive": true,
-   "at": "2026-10-25T06:07:14Z"
+   "at": "2026-10-25T22:31:51Z"
   },
   "https://ca.indeed.com/viewjob?jk=c9662eaaded456ee": {
    "alive": true,
@@ -4979,7 +4975,7 @@
   },
   "https://code-for-humanity.devpost.com/": {
    "alive": true,
-   "at": "2026-10-23T19:11:58Z"
+   "at": "2026-10-25T22:32:07Z"
   },
   "https://codearambh.devfolio.co": {
    "alive": true,
@@ -5865,6 +5861,10 @@
    "alive": true,
    "at": "2026-10-25T06:07:55Z"
   },
+  "https://dsh-hacks-v2.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-25T22:32:07Z"
+  },
   "https://dublintechsummit.tech/": {
    "alive": true,
    "at": "2026-10-25T11:25:16Z"
@@ -6161,10 +6161,6 @@
    "alive": true,
    "at": "2026-10-25T11:25:16Z"
   },
-  "https://expedia.wd108.myworkdayjobs.com/search/job/Austin-Domain-11---HomeAway/Software-Development-Engineer-II_R-110294": {
-   "alive": true,
-   "at": "2026-10-18T20:40:48Z"
-  },
   "https://expedia.wd108.myworkdayjobs.com/search/job/Austin-Domain-11---HomeAway/Software-Development-Engineer-II_R-110642": {
    "alive": true,
    "at": "2026-10-25T11:25:16Z"
@@ -6277,17 +6273,9 @@
    "alive": true,
    "at": "2026-10-23T04:46:58Z"
   },
-  "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Mobile-Engineer-III--iOS_R-105347-1": {
-   "alive": true,
-   "at": "2026-10-18T20:40:48Z"
-  },
   "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Mobile-Engineer-III_R-110446-1": {
    "alive": true,
    "at": "2026-10-25T11:25:16Z"
-  },
-  "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Principal-Software-Development-Engineer--ML-Powered-Flight-Search_R-110299-1": {
-   "alive": true,
-   "at": "2026-10-18T20:40:48Z"
   },
   "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Senior-Mobile-Engineer--Flutter--iOS---Android----Layla-AI_R-109189-1": {
    "alive": true,
@@ -6832,6 +6820,10 @@
   "https://hh26.devpost.com/": {
    "alive": true,
    "at": "2026-10-25T06:07:55Z"
+  },
+  "https://htcj-aviation-futures.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-25T22:32:07Z"
   },
   "https://hybrid-micro-mouse-challenge.devpost.com/": {
    "alive": true,
@@ -15065,6 +15057,10 @@
    "alive": true,
    "at": "2026-10-24T23:12:50Z"
   },
+  "https://mca-2026-projects.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-25T22:32:07Z"
+  },
   "https://mdc.md": {
    "alive": true,
    "at": "2026-10-25T11:25:16Z"
@@ -15499,7 +15495,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Engineer--NVLink_JR2025935": {
    "alive": true,
-   "at": "2026-10-19T21:02:47Z"
+   "at": "2026-10-25T22:32:07Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/SDK-Eth-Software-Engineer--Networking_JR2013956": {
    "alive": true,
@@ -15817,6 +15813,10 @@
    "alive": true,
    "at": "2026-10-21T10:07:22Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Platform-and-Performance---GeForce-Now_JR2028680-1": {
+   "alive": true,
+   "at": "2026-10-25T22:32:07Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer_JR2011624": {
    "alive": true,
    "at": "2026-10-20T06:00:21Z"
@@ -15907,7 +15907,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962": {
    "alive": true,
-   "at": "2026-10-22T10:09:50Z"
+   "at": "2026-10-25T22:32:07Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Core-Infrastructure-Services---DGX-Cloud_JR2022552": {
    "alive": true,
@@ -17075,7 +17075,7 @@
   },
   "https://syntax-summit.devpost.com/": {
    "alive": true,
-   "at": "2026-10-23T10:02:48Z"
+   "at": "2026-10-25T22:32:07Z"
   },
   "https://tabby.pinpointhq.com/en/postings/47d2a56b-9be9-42c0-bc51-8a94294ff1b8": {
    "alive": true,
@@ -24600,14 +24600,6 @@
   "https://zapply.jobs/l/d/microsoft-200042195?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
-  },
-  "https://zapply.jobs/l/d/microsoft-200061780?s=gh-new-grad-data-science-jobs-2027": {
-   "alive": true,
-   "at": "2026-10-18T20:40:27Z"
-  },
-  "https://zapply.jobs/l/d/microsoft-200061780?s=gh-new-grad-jobs-2027": {
-   "alive": true,
-   "at": "2026-10-18T20:40:27Z"
   },
   "https://zapply.jobs/l/d/microsoft-200062418?s=gh-internships-2027": {
    "alive": true,
