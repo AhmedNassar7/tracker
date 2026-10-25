@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T11:25:16Z",
+ "generated_at": "2026-10-25T16:15:30Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -195,7 +195,7 @@
   },
   "https://2026ai4goodhackathon.devpost.com/": {
    "alive": true,
-   "at": "2026-10-24T10:57:21Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://2027.djangocon.eu/": {
    "alive": true,
@@ -260,6 +260,10 @@
   "https://accessed-hacks.devpost.com/": {
    "alive": true,
    "at": "2026-10-25T11:25:16Z"
+  },
+  "https://action-space-hacks.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Basel/XMLNAME-2027-Intern--Software-Engineer_R173015": {
    "alive": true,
@@ -729,6 +733,10 @@
    "alive": true,
    "at": "2026-10-25T11:25:16Z"
   },
+  "https://apply.careers.microsoft.com/careers/job/1970393556922922": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
   "https://apply.careers.microsoft.com/careers/job/1970393557040333": {
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
@@ -740,6 +748,10 @@
   "https://apply.careers.microsoft.com/careers/job/1970393557042145": {
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
+  },
+  "https://apply.careers.microsoft.com/careers/job/1970393557044765": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
   },
   "https://apply.careers.microsoft.com/careers/job/1970393557044765?utm_source=github-vansh-ouckah": {
    "alive": true,
@@ -943,7 +955,7 @@
   },
   "https://aws-cds-partner.devpost.com/": {
    "alive": true,
-   "at": "2026-10-24T10:57:21Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://aws.amazon.com/events/reinvent/": {
    "alive": true,
@@ -4975,7 +4987,7 @@
   },
   "https://code-for-dfw.devpost.com/": {
    "alive": true,
-   "at": "2026-10-25T01:11:14Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://code-for-humanity.devpost.com/": {
    "alive": true,
@@ -5971,7 +5983,7 @@
   },
   "https://ese4500f26.devpost.com/": {
    "alive": true,
-   "at": "2026-10-24T10:57:21Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/": {
    "alive": true,
@@ -6387,7 +6399,7 @@
   },
   "https://gatorhack2026.devpost.com/": {
    "alive": true,
-   "at": "2026-10-24T10:57:21Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://genaixworld.com": {
    "alive": true,
@@ -6411,7 +6423,7 @@
   },
   "https://gitlab-transcend.devpost.com/": {
    "alive": true,
-   "at": "2026-10-25T01:11:14Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://glitchathon.devpost.com/": {
    "alive": true,
@@ -13815,7 +13827,7 @@
   },
   "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92/apply?utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-10-24T18:07:26Z"
+   "at": "2026-10-25T16:15:11Z"
   },
   "https://jobs.lever.co/palantir/98b81271-9e15-40b7-8dce-0c62f24702f9": {
    "alive": true,
@@ -14647,7 +14659,7 @@
   },
   "https://learn-ai-basics.devpost.com/": {
    "alive": true,
-   "at": "2026-10-24T10:57:21Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://learn-specs.devpost.com/": {
    "alive": true,
@@ -15735,11 +15747,11 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Software-Engineering---Rack-Scale-Systems-Infrastructure_JR2027577": {
    "alive": true,
-   "at": "2026-10-25T01:11:14Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987": {
    "alive": true,
-   "at": "2026-10-25T01:11:14Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-QA-Software-Engineer---Networking_JR2020567": {
    "alive": true,
@@ -16131,7 +16143,7 @@
   },
   "https://replit-ug-hackathon.devpost.com/": {
    "alive": true,
-   "at": "2026-10-24T23:12:50Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://riseupsummit.com/": {
    "alive": true,
@@ -16401,10 +16413,6 @@
    "alive": true,
    "at": "2026-10-24T23:12:50Z"
   },
-  "https://seattle-givecamp-2026.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-18T14:33:30Z"
-  },
   "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/12100-Samsung-Blvd-Austin-TX-USA/Infra-Cost-Team-Leader_R121463": {
    "alive": true,
    "at": "2026-10-25T06:07:55Z"
@@ -16499,7 +16507,7 @@
   },
   "https://start-developer-competition-26.devpost.com/": {
    "alive": true,
-   "at": "2026-10-24T10:57:21Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://stem2connect-online-hackathon.devpost.com/": {
    "alive": true,
@@ -17319,7 +17327,7 @@
   },
   "https://ugahacks-cadathon.devpost.com/": {
    "alive": true,
-   "at": "2026-10-24T05:51:19Z"
+   "at": "2026-10-25T16:15:30Z"
   },
   "https://ugreenhackathon.devpost.com/": {
    "alive": true,
@@ -22049,6 +22057,10 @@
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
   },
+  "https://www.amazon.jobs/jobs/10587999/apply": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
   "https://www.amtso.org/special-events/amtso-cyber-research-conference-2026": {
    "alive": true,
    "at": "2026-10-21T15:14:09Z"
@@ -22985,6 +22997,14 @@
    "alive": true,
    "at": "2026-10-24T23:12:09Z"
   },
+  "https://www.indeed.com/viewjob?jk=4e99357beb56c5b8": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
+  "https://www.indeed.com/viewjob?jk=7fcef11e9efac316": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
   "https://www.indeed.com/viewjob?jk=802b2ffebb879b4b": {
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
@@ -23220,6 +23240,10 @@
   "https://www.metacareers.com/jobs/1633096478817942?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
+  },
+  "https://www.metacareers.com/jobs/1648122343381284": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
   },
   "https://www.metacareers.com/jobs/2180490782513668": {
    "alive": true,
@@ -24561,6 +24585,14 @@
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
   },
+  "https://zapply.jobs/l/d/amd-91170?s=gh-new-grad-data-science-jobs-2027": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
+  "https://zapply.jobs/l/d/amd-91181?s=gh-new-grad-data-science-jobs-2027": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
   "https://zapply.jobs/l/d/apple-200688599?s=gh-new-grad-jobs-2027": {
    "alive": true,
    "at": "2026-10-21T15:13:28Z"
@@ -24749,6 +24781,14 @@
    "alive": true,
    "at": "2026-10-23T10:02:14Z"
   },
+  "https://zapply.jobs/l/d/netflix-790317917022?s=gh-new-grad-data-science-jobs-2027": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
+  "https://zapply.jobs/l/d/netflix-790317917022?s=gh-new-grad-software-engineering-jobs-2027": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
   "https://zapply.jobs/l/d/netflix-790318904468?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
    "at": "2026-10-20T17:01:12Z"
@@ -24763,11 +24803,11 @@
   },
   "https://zapply.jobs/l/d/oracle-jpmorgan-chase-210801790?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
-   "at": "2026-10-24T23:12:09Z"
+   "at": "2026-10-25T16:15:11Z"
   },
   "https://zapply.jobs/l/d/oracle-jpmorgan-chase-210801790?s=gh-new-grad-jobs-2027": {
    "alive": true,
-   "at": "2026-10-24T23:12:09Z"
+   "at": "2026-10-25T16:15:11Z"
   },
   "https://zapply.jobs/l/d/phenom-cisco-2025611?s=gh-internships-2027": {
    "alive": true,
@@ -24937,17 +24977,25 @@
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
   },
+  "https://zapply.jobs/l/d/workday-expedia-private-R-76833?s=gh-new-grad-data-science-jobs-2027": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
+  "https://zapply.jobs/l/d/workday-expedia-private-R-98585?s=gh-new-grad-data-science-jobs-2027": {
+   "alive": true,
+   "at": "2026-10-25T16:15:11Z"
+  },
   "https://zapply.jobs/l/d/workday-intel-external-JR0287588?s=gh-internships-2027": {
    "alive": true,
-   "at": "2026-10-24T23:12:09Z"
+   "at": "2026-10-25T16:15:11Z"
   },
   "https://zapply.jobs/l/d/workday-intel-external-JR0287588?s=gh-new-grad-jobs-2027": {
    "alive": true,
-   "at": "2026-10-24T23:12:09Z"
+   "at": "2026-10-25T16:15:11Z"
   },
   "https://zapply.jobs/l/d/workday-intel-external-JR0287588?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
-   "at": "2026-10-24T23:12:09Z"
+   "at": "2026-10-25T16:15:11Z"
   },
   "https://zapply.jobs/l/d/workday-mastercard-corporatecareers-R-291661?s=gh-new-grad-jobs-2027": {
    "alive": true,
