@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T19:36:07Z",
-  "total": 3770,
+  "generated_at": "2026-10-25T22:32:07Z",
+  "total": 3774,
   "jobs": [
     {
       "id": "0781f449312d835a",
@@ -16,6 +16,21 @@
       "url": "https://netflix.wd108.myworkdayjobs.com/netflix/job/Sydney/Production-Coordinator---Netflix-Animation-Studios_JR43194",
       "source": "workday:netflix",
       "source_url": "https://netflix.wd108.myworkdayjobs.com/wday/cxs/netflix/netflix/jobs"
+    },
+    {
+      "id": "f0d04b6bc91d8a28",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior Infrastructure Automation Engineer, Compute Platform - EDA Infrastructure",
+      "location": "<details><summary><strong>3 locations</strong></summary>US, NC, Remote<br>US, TX, Austin<br>US, Remote</details>",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
       "id": "3462c23115353357",
@@ -44,6 +59,36 @@
       "date": "0d",
       "posted_at": "",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR2028521",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "733068d4895de3a6",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior System Software Engineer, Platform and Performance - GeForce Now",
+      "location": "US, CA, Santa Clara",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Platform-and-Performance---GeForce-Now_JR2028680-1",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "0f4ef336440579c6",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Software Engineer, NVLink",
+      "location": "<details><summary><strong>2 locations</strong></summary>Israel, Raanana<br>Israel, Tel Aviv</details>",
+      "level": "other",
+      "region": "mena",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Engineer--NVLink_JR2025935",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
@@ -8209,9 +8254,9 @@
       "kind": "job",
       "company": "NVIDIA",
       "title": "Senior Software Engineer, Object Storage - DGX Cloud",
-      "location": "<details><summary><strong>6 locations</strong></summary>US, CA, Santa Clara<br>US, NC, Remote<br>US, TX, Remote<br>US, IL, Remote<br>US, Remote<br>US, CA, Remote</details>",
+      "location": "6 Locations",
       "level": "mid_level",
-      "region": "remote",
+      "region": "unknown",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "",
@@ -15163,17 +15208,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "68b91020e57fa7f7",
+      "id": "6026aaeb1d2a8fe1",
       "kind": "job",
       "company": "SpaceX",
       "title": "Embedded Software Engineer, Laser Mesh Routing (Starlink)",
-      "location": "Palo Alto, CA",
+      "location": "Redmond, WA",
       "level": "other",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-22",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8852117002?gh_jid=8852117002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8849599002?gh_jid=8849599002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -15203,17 +15248,17 @@
       "min_years_experience": 2
     },
     {
-      "id": "6026aaeb1d2a8fe1",
+      "id": "68b91020e57fa7f7",
       "kind": "job",
       "company": "SpaceX",
       "title": "Embedded Software Engineer, Laser Mesh Routing (Starlink)",
-      "location": "Redmond, WA",
+      "location": "Palo Alto, CA",
       "level": "other",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-22",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8849599002?gh_jid=8849599002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8852117002?gh_jid=8852117002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -15820,22 +15865,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "599995c8c4eee042",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Full Stack Engineer, Enterprise Engineering",
-      "location": "N/A",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "full_stack",
-      "date": "3d",
-      "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8214618",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "min_years_experience": 2
-    },
-    {
       "id": "60501a523655000e",
       "kind": "job",
       "company": "Stripe",
@@ -15847,6 +15876,22 @@
       "date": "3d",
       "posted_at": "2026-10-22",
       "url": "https://stripe.com/jobs/search?gh_jid=8214616",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "min_years_experience": 2
+    },
+    {
+      "id": "599995c8c4eee042",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Full Stack Engineer, Enterprise Engineering",
+      "location": "N/A",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "full_stack",
+      "date": "3d",
+      "posted_at": "2026-10-22",
+      "url": "https://stripe.com/jobs/search?gh_jid=8214618",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "min_years_experience": 2
@@ -16197,6 +16242,30 @@
       }
     },
     {
+      "id": "c2240f679c219b7f",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer",
+      "location": "Seattle, WA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "2026-10-22",
+      "url": "https://stripe.com/jobs/search?gh_jid=8267736",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Ruby",
+        "Terraform",
+        "AWS"
+      ],
+      "degree_required": true,
+      "min_years_experience": 1
+    },
+    {
       "id": "a28a4a5912491f2e",
       "kind": "job",
       "company": "Stripe",
@@ -16223,30 +16292,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "c2240f679c219b7f",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer",
-      "location": "Seattle, WA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8267736",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Ruby",
-        "Terraform",
-        "AWS"
-      ],
-      "degree_required": true,
-      "min_years_experience": 1
     },
     {
       "id": "452f6293b9573e1e",
@@ -16565,61 +16610,17 @@
       ]
     },
     {
-      "id": "334395993d3f3a1a",
+      "id": "ceb9ea1fb24b1574",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, New Grad",
-      "location": "Singapore",
-      "level": "new_grad",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8160776",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ]
-    },
-    {
-      "id": "b836bebf63487343",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "location": "Dublin",
-      "level": "new_grad",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130881",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ]
-    },
-    {
-      "id": "485c7a19842acde7",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "location": "Toronto",
+      "location": "San Francisco, Seattle, New York",
       "level": "new_grad",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8157838",
+      "url": "https://stripe.com/jobs/search?gh_jid=8128744",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -16653,17 +16654,61 @@
       ]
     },
     {
-      "id": "ceb9ea1fb24b1574",
+      "id": "485c7a19842acde7",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, New Grad",
-      "location": "San Francisco, Seattle, New York",
+      "location": "Toronto",
       "level": "new_grad",
       "region": "north_america",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8128744",
+      "url": "https://stripe.com/jobs/search?gh_jid=8157838",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ]
+    },
+    {
+      "id": "b836bebf63487343",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "location": "Dublin",
+      "level": "new_grad",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "2026-10-22",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130881",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ]
+    },
+    {
+      "id": "334395993d3f3a1a",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "location": "Singapore",
+      "level": "new_grad",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "2026-10-22",
+      "url": "https://stripe.com/jobs/search?gh_jid=8160776",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -17157,7 +17202,7 @@
       "min_years_experience": 10
     },
     {
-      "id": "051b9e6347eb4401",
+      "id": "ab98b6b8d966c486",
       "kind": "job",
       "company": "Stripe",
       "title": "Staff Software Engineer, Payments Intelligence",
@@ -17167,7 +17212,7 @@
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=8260980",
+      "url": "https://stripe.com/jobs/search?gh_jid=7986004",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -17181,7 +17226,7 @@
       "min_years_experience": 5
     },
     {
-      "id": "ab98b6b8d966c486",
+      "id": "051b9e6347eb4401",
       "kind": "job",
       "company": "Stripe",
       "title": "Staff Software Engineer, Payments Intelligence",
@@ -17191,7 +17236,7 @@
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-22",
-      "url": "https://stripe.com/jobs/search?gh_jid=7986004",
+      "url": "https://stripe.com/jobs/search?gh_jid=8260980",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -43127,40 +43172,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "18fe24531577e1cb",
+      "id": "2692db58523c2a84",
       "kind": "job",
       "company": "SpaceX",
       "title": "Software Engineer, AI Infrastructure (Starshield)",
-      "location": "Washington, DC",
+      "location": "Redmond, WA",
       "level": "other",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "24d",
       "posted_at": "2026-10-01",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8861901002?gh_jid=8861901002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "C++",
-        "Kubernetes",
-        "Terraform"
-      ],
-      "degree_required": false,
-      "min_years_experience": 1
-    },
-    {
-      "id": "72ada76849ae9864",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer, AI Infrastructure (Starshield)",
-      "location": "Palo Alto, CA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "24d",
-      "posted_at": "2026-10-01",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8861903002?gh_jid=8861903002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8861902002?gh_jid=8861902002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -43196,17 +43218,40 @@
       "min_years_experience": 1
     },
     {
-      "id": "2692db58523c2a84",
+      "id": "18fe24531577e1cb",
       "kind": "job",
       "company": "SpaceX",
       "title": "Software Engineer, AI Infrastructure (Starshield)",
-      "location": "Redmond, WA",
+      "location": "Washington, DC",
       "level": "other",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "24d",
       "posted_at": "2026-10-01",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8861902002?gh_jid=8861902002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8861901002?gh_jid=8861901002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "C++",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "degree_required": false,
+      "min_years_experience": 1
+    },
+    {
+      "id": "72ada76849ae9864",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer, AI Infrastructure (Starshield)",
+      "location": "Palo Alto, CA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "24d",
+      "posted_at": "2026-10-01",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8861903002?gh_jid=8861903002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -43261,29 +43306,6 @@
       "min_years_experience": 5
     },
     {
-      "id": "5d1771222bc0494d",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Software Engineer, AI Infrastructure (Starshield)",
-      "location": "Palo Alto, CA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "24d",
-      "posted_at": "2026-10-01",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8861768002?gh_jid=8861768002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "C++",
-        "Kubernetes",
-        "Terraform"
-      ],
-      "degree_required": false,
-      "min_years_experience": 5
-    },
-    {
       "id": "f94597b713c1e942",
       "kind": "job",
       "company": "SpaceX",
@@ -43318,6 +43340,29 @@
       "date": "24d",
       "posted_at": "2026-10-01",
       "url": "https://boards.greenhouse.io/spacex/jobs/8861751002?gh_jid=8861751002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "C++",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "degree_required": false,
+      "min_years_experience": 5
+    },
+    {
+      "id": "5d1771222bc0494d",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Software Engineer, AI Infrastructure (Starshield)",
+      "location": "Palo Alto, CA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "24d",
+      "posted_at": "2026-10-01",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8861768002?gh_jid=8861768002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -45245,17 +45290,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "3363db4a4a3a09b2",
+      "id": "031c599dbe53cb78",
       "kind": "job",
       "company": "SpaceX",
       "title": "Application Software Engineer",
-      "location": "Starbase, TX",
+      "location": "Cape Canaveral, FL",
       "level": "other",
       "region": "unknown",
       "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8643772002?gh_jid=8643772002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -45279,17 +45324,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "031c599dbe53cb78",
+      "id": "3363db4a4a3a09b2",
       "kind": "job",
       "company": "SpaceX",
       "title": "Application Software Engineer",
-      "location": "Cape Canaveral, FL",
+      "location": "Starbase, TX",
       "level": "other",
       "region": "unknown",
       "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8643772002?gh_jid=8643772002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8611118002?gh_jid=8611118002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -45381,6 +45426,38 @@
       "min_years_experience": 1
     },
     {
+      "id": "cffb4c98b19c5fa1",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Application Software Engineer, Applied AI",
+      "location": "Bastrop, TX",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Angular",
+        "Python",
+        "Java",
+        "Go",
+        "C#",
+        ".NET",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "PostgreSQL",
+        "Kafka",
+        "SQL"
+      ],
+      "degree_required": false,
+      "min_years_experience": 1
+    },
+    {
       "id": "f9bedbc650d6d245",
       "kind": "job",
       "company": "SpaceX",
@@ -45445,38 +45522,6 @@
       "min_years_experience": 1
     },
     {
-      "id": "46b259820cf2bed4",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Application Software Engineer, Applied AI",
-      "location": "McGregor, TX",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Angular",
-        "Python",
-        "Java",
-        "Go",
-        "C#",
-        ".NET",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "PostgreSQL",
-        "Kafka",
-        "SQL"
-      ],
-      "degree_required": false,
-      "min_years_experience": 1
-    },
-    {
       "id": "5b0429c11b9bea04",
       "kind": "job",
       "company": "SpaceX",
@@ -45488,38 +45533,6 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Angular",
-        "Python",
-        "Java",
-        "Go",
-        "C#",
-        ".NET",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "PostgreSQL",
-        "Kafka",
-        "SQL"
-      ],
-      "degree_required": false,
-      "min_years_experience": 1
-    },
-    {
-      "id": "cffb4c98b19c5fa1",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Application Software Engineer, Applied AI",
-      "location": "Bastrop, TX",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -45584,6 +45597,38 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Angular",
+        "Python",
+        "Java",
+        "Go",
+        "C#",
+        ".NET",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "PostgreSQL",
+        "Kafka",
+        "SQL"
+      ],
+      "degree_required": false,
+      "min_years_experience": 1
+    },
+    {
+      "id": "46b259820cf2bed4",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Application Software Engineer, Applied AI",
+      "location": "McGregor, TX",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -45977,17 +46022,17 @@
       "min_years_experience": 2
     },
     {
-      "id": "b9fa9bea0f892042",
+      "id": "79e27507b64b5ea4",
       "kind": "job",
       "company": "SpaceX",
       "title": "Full Stack Engineer (Application Software)",
-      "location": "Hawthorne, CA",
+      "location": "Redmond, WA",
       "level": "other",
-      "region": "unknown",
+      "region": "north_america",
       "role_type": "full_stack",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8681166002?gh_jid=8681166002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8701392002?gh_jid=8701392002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -46045,17 +46090,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "79e27507b64b5ea4",
+      "id": "b9fa9bea0f892042",
       "kind": "job",
       "company": "SpaceX",
       "title": "Full Stack Engineer (Application Software)",
-      "location": "Redmond, WA",
+      "location": "Hawthorne, CA",
       "level": "other",
-      "region": "north_america",
+      "region": "unknown",
       "role_type": "full_stack",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8701392002?gh_jid=8701392002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8681166002?gh_jid=8681166002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -46621,17 +46666,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "88eb572da872e5d8",
+      "id": "85628b4f90a14fb0",
       "kind": "job",
       "company": "SpaceX",
       "title": "Full Stack Software Engineer, Internal Systems",
-      "location": "Cape Canaveral, FL",
+      "location": "Hawthorne, CA",
       "level": "other",
       "region": "unknown",
       "role_type": "full_stack",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8741940002?gh_jid=8741940002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8785502002?gh_jid=8785502002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -46655,17 +46700,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "85628b4f90a14fb0",
+      "id": "88eb572da872e5d8",
       "kind": "job",
       "company": "SpaceX",
       "title": "Full Stack Software Engineer, Internal Systems",
-      "location": "Hawthorne, CA",
+      "location": "Cape Canaveral, FL",
       "level": "other",
       "region": "unknown",
       "role_type": "full_stack",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8785502002?gh_jid=8785502002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8741940002?gh_jid=8741940002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -47233,22 +47278,6 @@
       "min_years_experience": 5
     },
     {
-      "id": "0d518565ce105c81",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Manager, Supply Chain - Datacenter Compute Infrastructure (Starlink)",
-      "location": "Austin, TX",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8648031002?gh_jid=8648031002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "min_years_experience": 3
-    },
-    {
       "id": "eb3fd12192ce6449",
       "kind": "job",
       "company": "SpaceX",
@@ -47260,6 +47289,22 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8647973002?gh_jid=8647973002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "min_years_experience": 3
+    },
+    {
+      "id": "0d518565ce105c81",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Manager, Supply Chain - Datacenter Compute Infrastructure (Starlink)",
+      "location": "Austin, TX",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8648031002?gh_jid=8648031002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "min_years_experience": 3
@@ -47317,17 +47362,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "38c91e7ce610a480",
+      "id": "b528614659014776",
       "kind": "job",
       "company": "SpaceX",
       "title": "Network Engineer, AI Infrastructure (Starshield)",
-      "location": "Washington, DC",
+      "location": "Hawthorne, CA",
       "level": "other",
-      "region": "north_america",
+      "region": "unknown",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8808182002?gh_jid=8808182002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8808150002?gh_jid=8808150002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "degree_required": false,
@@ -47351,17 +47396,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "b528614659014776",
+      "id": "38c91e7ce610a480",
       "kind": "job",
       "company": "SpaceX",
       "title": "Network Engineer, AI Infrastructure (Starshield)",
-      "location": "Hawthorne, CA",
+      "location": "Washington, DC",
       "level": "other",
-      "region": "unknown",
+      "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8808150002?gh_jid=8808150002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8808182002?gh_jid=8808182002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "degree_required": false,
@@ -47410,27 +47455,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "8bd1975b902d16a9",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Platform Integrity Manager (Starlink)",
-      "location": "Bastrop, TX",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8622988002?gh_jid=8622988002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "SQL"
-      ],
-      "degree_required": false,
-      "min_years_experience": 6
-    },
-    {
       "id": "840a70548b28873a",
       "kind": "job",
       "company": "SpaceX",
@@ -47442,6 +47466,27 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8656715002?gh_jid=8656715002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "SQL"
+      ],
+      "degree_required": false,
+      "min_years_experience": 6
+    },
+    {
+      "id": "8bd1975b902d16a9",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Platform Integrity Manager (Starlink)",
+      "location": "Bastrop, TX",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8622988002?gh_jid=8622988002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -47492,61 +47537,17 @@
       ]
     },
     {
-      "id": "92f797e21a782c69",
+      "id": "e9753784a5dc0f53",
       "kind": "job",
       "company": "SpaceX",
       "title": "Principal Software Engineer (Platform Team)",
-      "location": "Starbase, TX",
+      "location": "Sunnyvale, CA",
       "level": "mid_level",
-      "region": "unknown",
+      "region": "north_america",
       "role_type": "platform",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8560575002?gh_jid=8560575002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Kubernetes",
-        "Docker"
-      ],
-      "degree_required": false,
-      "min_years_experience": 7
-    },
-    {
-      "id": "03e99d40fc40b81c",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Principal Software Engineer (Platform Team)",
-      "location": "Bastrop, TX",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8560572002?gh_jid=8560572002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Kubernetes",
-        "Docker"
-      ],
-      "degree_required": false,
-      "min_years_experience": 7
-    },
-    {
-      "id": "1f6fcc3107601f72",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Principal Software Engineer (Platform Team)",
-      "location": "Hawthorne, CA",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8494978002?gh_jid=8494978002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -47580,17 +47581,17 @@
       "min_years_experience": 7
     },
     {
-      "id": "e9753784a5dc0f53",
+      "id": "03e99d40fc40b81c",
       "kind": "job",
       "company": "SpaceX",
       "title": "Principal Software Engineer (Platform Team)",
-      "location": "Sunnyvale, CA",
+      "location": "Bastrop, TX",
       "level": "mid_level",
-      "region": "north_america",
+      "region": "unknown",
       "role_type": "platform",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8558835002?gh_jid=8558835002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8560572002?gh_jid=8560572002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -47624,17 +47625,61 @@
       "min_years_experience": 7
     },
     {
-      "id": "8046a74161dd08b4",
+      "id": "92f797e21a782c69",
       "kind": "job",
       "company": "SpaceX",
-      "title": "Principal Software Engineer, CDN (Starlink)",
+      "title": "Principal Software Engineer (Platform Team)",
+      "location": "Starbase, TX",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8560575002?gh_jid=8560575002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Kubernetes",
+        "Docker"
+      ],
+      "degree_required": false,
+      "min_years_experience": 7
+    },
+    {
+      "id": "1f6fcc3107601f72",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Principal Software Engineer (Platform Team)",
       "location": "Hawthorne, CA",
       "level": "mid_level",
       "region": "unknown",
+      "role_type": "platform",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8494978002?gh_jid=8494978002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Kubernetes",
+        "Docker"
+      ],
+      "degree_required": false,
+      "min_years_experience": 7
+    },
+    {
+      "id": "a35b43a01faf3ec9",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Principal Software Engineer, CDN (Starlink)",
+      "location": "Palo Alto, CA",
+      "level": "mid_level",
+      "region": "north_america",
       "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8756079002?gh_jid=8756079002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8562265002?gh_jid=8562265002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -47666,17 +47711,17 @@
       "min_years_experience": 10
     },
     {
-      "id": "a35b43a01faf3ec9",
+      "id": "8046a74161dd08b4",
       "kind": "job",
       "company": "SpaceX",
       "title": "Principal Software Engineer, CDN (Starlink)",
-      "location": "Palo Alto, CA",
+      "location": "Hawthorne, CA",
       "level": "mid_level",
-      "region": "north_america",
+      "region": "unknown",
       "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8562265002?gh_jid=8562265002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8756079002?gh_jid=8756079002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -47820,25 +47865,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "b891a783daed37ba",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "RAN Validation Engineer (Starlink Mobile)",
-      "location": "Redmond, WA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "mobile",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8675026002?gh_jid=8675026002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python"
-      ],
-      "min_years_experience": 2
-    },
-    {
       "id": "41409850f7394ae8",
       "kind": "job",
       "company": "SpaceX",
@@ -47850,6 +47876,25 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8674890002?gh_jid=8674890002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python"
+      ],
+      "min_years_experience": 2
+    },
+    {
+      "id": "b891a783daed37ba",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "RAN Validation Engineer (Starlink Mobile)",
+      "location": "Redmond, WA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "mobile",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8675026002?gh_jid=8675026002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -47898,27 +47943,6 @@
       "min_years_experience": 1
     },
     {
-      "id": "1acb4243b8ccb982",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Satellite Policy Manager (Starlink Mobile)",
-      "location": "Redmond, WA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "mobile",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8691166002?gh_jid=8691166002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "min_years_experience": 3,
-      "languages_required": [
-        "French",
-        "Portuguese",
-        "Spanish"
-      ]
-    },
-    {
       "id": "41371ed4dbb9755a",
       "kind": "job",
       "company": "SpaceX",
@@ -47930,6 +47954,27 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8691128002?gh_jid=8691128002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "min_years_experience": 3,
+      "languages_required": [
+        "French",
+        "Portuguese",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "1acb4243b8ccb982",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Satellite Policy Manager (Starlink Mobile)",
+      "location": "Redmond, WA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "mobile",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8691166002?gh_jid=8691166002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "min_years_experience": 3,
@@ -48104,17 +48149,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "509567bf22f745e5",
+      "id": "8325c1f1c0eb94b3",
       "kind": "job",
       "company": "SpaceX",
       "title": "Site Reliability Engineer, AI Infrastructure (Starshield)",
-      "location": "Palo Alto, CA",
+      "location": "Washington, DC",
       "level": "other",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8829681002?gh_jid=8829681002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8807783002?gh_jid=8807783002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -48150,17 +48195,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "8325c1f1c0eb94b3",
+      "id": "8d246669d62c7a2d",
       "kind": "job",
       "company": "SpaceX",
       "title": "Site Reliability Engineer, AI Infrastructure (Starshield)",
-      "location": "Washington, DC",
+      "location": "Redmond, WA",
       "level": "other",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8807783002?gh_jid=8807783002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8807795002?gh_jid=8807795002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -48173,17 +48218,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "8d246669d62c7a2d",
+      "id": "509567bf22f745e5",
       "kind": "job",
       "company": "SpaceX",
       "title": "Site Reliability Engineer, AI Infrastructure (Starshield)",
-      "location": "Redmond, WA",
+      "location": "Palo Alto, CA",
       "level": "other",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8807795002?gh_jid=8807795002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8829681002?gh_jid=8829681002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -48286,17 +48331,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "405fc811f3511cf4",
+      "id": "efb60e5b002ff08a",
       "kind": "job",
       "company": "SpaceX",
       "title": "Software Engineer",
-      "location": "Cape Canaveral, FL",
+      "location": "Starbase, TX",
       "level": "other",
       "region": "unknown",
       "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8763487002?gh_jid=8763487002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8726545002?gh_jid=8726545002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -48340,17 +48385,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "efb60e5b002ff08a",
+      "id": "405fc811f3511cf4",
       "kind": "job",
       "company": "SpaceX",
       "title": "Software Engineer",
-      "location": "Starbase, TX",
+      "location": "Cape Canaveral, FL",
       "level": "other",
       "region": "unknown",
       "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8726545002?gh_jid=8726545002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8763487002?gh_jid=8763487002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -48446,37 +48491,6 @@
       "min_years_experience": 1
     },
     {
-      "id": "9a7a1dac9add9413",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer (Flight Reliability)",
-      "location": "Redmond, WA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8783281002?gh_jid=8783281002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Angular",
-        "JavaScript",
-        "Python",
-        "Java",
-        "Go",
-        "C#",
-        ".NET",
-        "Scala",
-        "Docker",
-        "PostgreSQL",
-        "SQL"
-      ],
-      "degree_required": false,
-      "min_years_experience": 1
-    },
-    {
       "id": "5f22d48f8b199a23",
       "kind": "job",
       "company": "SpaceX",
@@ -48539,6 +48553,109 @@
       "min_years_experience": 1
     },
     {
+      "id": "9a7a1dac9add9413",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer (Flight Reliability)",
+      "location": "Redmond, WA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8783281002?gh_jid=8783281002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Angular",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Go",
+        "C#",
+        ".NET",
+        "Scala",
+        "Docker",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "degree_required": false,
+      "min_years_experience": 1
+    },
+    {
+      "id": "33cc234c10067f1b",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer (Platform Team)",
+      "location": "Starbase, TX",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kubernetes",
+        "Docker"
+      ],
+      "degree_required": false,
+      "min_years_experience": 2
+    },
+    {
+      "id": "d58e9b5f449ab8df",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer (Platform Team)",
+      "location": "Hawthorne, CA",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kubernetes",
+        "Docker"
+      ],
+      "degree_required": false,
+      "min_years_experience": 2
+    },
+    {
+      "id": "9a1571f21251bf04",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer (Platform Team)",
+      "location": "Bastrop, TX",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8560546002?gh_jid=8560546002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kubernetes",
+        "Docker"
+      ],
+      "degree_required": false,
+      "min_years_experience": 2
+    },
+    {
       "id": "4d1e0294f5d2f35e",
       "kind": "job",
       "company": "SpaceX",
@@ -48587,30 +48704,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "d58e9b5f449ab8df",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer (Platform Team)",
-      "location": "Hawthorne, CA",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kubernetes",
-        "Docker"
-      ],
-      "degree_required": false,
-      "min_years_experience": 2
-    },
-    {
       "id": "fe7912460adc4b7b",
       "kind": "job",
       "company": "SpaceX",
@@ -48622,54 +48715,6 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kubernetes",
-        "Docker"
-      ],
-      "degree_required": false,
-      "min_years_experience": 2
-    },
-    {
-      "id": "9a1571f21251bf04",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer (Platform Team)",
-      "location": "Bastrop, TX",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8560546002?gh_jid=8560546002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "TypeScript",
-        "Python",
-        "Java",
-        "Kubernetes",
-        "Docker"
-      ],
-      "degree_required": false,
-      "min_years_experience": 2
-    },
-    {
-      "id": "33cc234c10067f1b",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer (Platform Team)",
-      "location": "Starbase, TX",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -48834,22 +48879,24 @@
       "min_years_experience": 2
     },
     {
-      "id": "93a3ff06f0813900",
+      "id": "cad64eb58cfdb4ed",
       "kind": "job",
       "company": "SpaceX",
       "title": "Software Engineer (Starlink)",
-      "location": "Redmond, WA",
+      "location": "Hawthorne, CA",
       "level": "other",
-      "region": "north_america",
+      "region": "unknown",
       "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8525359002?gh_jid=8525359002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8706510002?gh_jid=8706510002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
-        "C++"
-      ]
+        "Python",
+        "SQL"
+      ],
+      "min_years_experience": 1
     },
     {
       "id": "8d36559fdcd75f6c",
@@ -48883,24 +48930,22 @@
       "min_years_experience": 1
     },
     {
-      "id": "cad64eb58cfdb4ed",
+      "id": "93a3ff06f0813900",
       "kind": "job",
       "company": "SpaceX",
       "title": "Software Engineer (Starlink)",
-      "location": "Hawthorne, CA",
+      "location": "Redmond, WA",
       "level": "other",
-      "region": "unknown",
+      "region": "north_america",
       "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8706510002?gh_jid=8706510002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8525359002?gh_jid=8525359002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
-        "Python",
-        "SQL"
-      ],
-      "min_years_experience": 1
+        "C++"
+      ]
     },
     {
       "id": "c7af74cf2d4bf17f",
@@ -49032,6 +49077,29 @@
       "min_years_experience": 2
     },
     {
+      "id": "c49873d527bb05ba",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer (Starship)",
+      "location": "Starbase, TX",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8569125002?gh_jid=8569125002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "C#",
+        "PyTorch",
+        "SQL"
+      ],
+      "degree_required": false,
+      "min_years_experience": 1
+    },
+    {
       "id": "df0efea8b026be36",
       "kind": "job",
       "company": "SpaceX",
@@ -49059,29 +49127,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "c49873d527bb05ba",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer (Starship)",
-      "location": "Starbase, TX",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8569125002?gh_jid=8569125002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "C#",
-        "PyTorch",
-        "SQL"
-      ],
-      "degree_required": false,
-      "min_years_experience": 1
     },
     {
       "id": "91e913fed5f46d23",
@@ -49278,26 +49323,6 @@
       "min_years_experience": 1
     },
     {
-      "id": "e3ff0dbd78264061",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer, Beam Planning (Starlink)",
-      "location": "Redmond, WA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8578929002?gh_jid=8578929002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 2
-    },
-    {
       "id": "18abdb9a2f8c2b15",
       "kind": "job",
       "company": "SpaceX",
@@ -49309,6 +49334,26 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8578907002?gh_jid=8578907002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 2
+    },
+    {
+      "id": "e3ff0dbd78264061",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer, Beam Planning (Starlink)",
+      "location": "Redmond, WA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8578929002?gh_jid=8578929002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -49376,26 +49421,6 @@
       "min_years_experience": 1
     },
     {
-      "id": "8389a8c65a684928",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer, C++ (Starlink)",
-      "location": "Redmond, WA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8477124002?gh_jid=8477124002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 2
-    },
-    {
       "id": "d57bfdc9d81feafc",
       "kind": "job",
       "company": "SpaceX",
@@ -49407,6 +49432,26 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8451960002?gh_jid=8451960002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 2
+    },
+    {
+      "id": "8389a8c65a684928",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer, C++ (Starlink)",
+      "location": "Redmond, WA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8477124002?gh_jid=8477124002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -49460,6 +49505,27 @@
       ]
     },
     {
+      "id": "c50bedaa6ca92218",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer, CDN (Starlink)",
+      "location": "Redmond, WA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8632172002?gh_jid=8632172002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Rust",
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 2
+    },
+    {
       "id": "916d234ace4c8090",
       "kind": "job",
       "company": "SpaceX",
@@ -49492,27 +49558,6 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8756159002?gh_jid=8756159002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Rust",
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 2
-    },
-    {
-      "id": "c50bedaa6ca92218",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer, CDN (Starlink)",
-      "location": "Redmond, WA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8632172002?gh_jid=8632172002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -49854,26 +49899,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "7c516585e4de12fd",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer, Flight Software (Starship)",
-      "location": "Hawthorne, CA",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Rust",
-        "C++"
-      ],
-      "degree_required": false
-    },
-    {
       "id": "9cb6513634d6d55e",
       "kind": "job",
       "company": "SpaceX",
@@ -49885,6 +49910,26 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8562284002?gh_jid=8562284002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Rust",
+        "C++"
+      ],
+      "degree_required": false
+    },
+    {
+      "id": "7c516585e4de12fd",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer, Flight Software (Starship)",
+      "location": "Hawthorne, CA",
+      "level": "other",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -49990,26 +50035,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "dccae8fa2afc5caf",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer, High Performance Computing (Starlink)",
-      "location": "Palo Alto, CA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8578909002?gh_jid=8578909002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 2
-    },
-    {
       "id": "d6428e5978d3bdb1",
       "kind": "job",
       "company": "SpaceX",
@@ -50021,6 +50046,26 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8578931002?gh_jid=8578931002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 2
+    },
+    {
+      "id": "dccae8fa2afc5caf",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer, High Performance Computing (Starlink)",
+      "location": "Palo Alto, CA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8578909002?gh_jid=8578909002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -50092,26 +50137,6 @@
       "min_years_experience": 1
     },
     {
-      "id": "39aa85b60295b85e",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Software Engineer, Low Latency Computing (Starlink)",
-      "location": "Palo Alto, CA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8578910002?gh_jid=8578910002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 2
-    },
-    {
       "id": "d57f7c6cd6828de7",
       "kind": "job",
       "company": "SpaceX",
@@ -50123,6 +50148,26 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8578923002?gh_jid=8578923002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 2
+    },
+    {
+      "id": "39aa85b60295b85e",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Software Engineer, Low Latency Computing (Starlink)",
+      "location": "Palo Alto, CA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8578910002?gh_jid=8578910002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -50648,17 +50693,17 @@
       ]
     },
     {
-      "id": "afeb0f395dab38c9",
+      "id": "27440c8454c71796",
       "kind": "job",
       "company": "SpaceX",
       "title": "Software Infrastructure Engineer (Starlink)",
-      "location": "Palo Alto, CA",
+      "location": "Redmond, WA",
       "level": "other",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8584920002?gh_jid=8584920002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8573279002?gh_jid=8573279002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -50672,17 +50717,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "27440c8454c71796",
+      "id": "afeb0f395dab38c9",
       "kind": "job",
       "company": "SpaceX",
       "title": "Software Infrastructure Engineer (Starlink)",
-      "location": "Redmond, WA",
+      "location": "Palo Alto, CA",
       "level": "other",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8573279002?gh_jid=8573279002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8584920002?gh_jid=8584920002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -50935,6 +50980,26 @@
       "min_years_experience": 5
     },
     {
+      "id": "eb534e6a4ce819f0",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)",
+      "location": "Redmond, WA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8579133002?gh_jid=8579133002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 5
+    },
+    {
       "id": "a496ef0dbdc020b2",
       "kind": "job",
       "company": "SpaceX",
@@ -50959,26 +51024,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "eb534e6a4ce819f0",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)",
-      "location": "Redmond, WA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8579133002?gh_jid=8579133002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 5
     },
     {
       "id": "d4b03b37b7e749eb",
@@ -51477,23 +51522,6 @@
       "min_years_experience": 4
     },
     {
-      "id": "b064e27921cb8f67",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Network Engineer, AI Infrastructure (Starshield)",
-      "location": "Washington, DC",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8808192002?gh_jid=8808192002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "degree_required": false,
-      "min_years_experience": 5
-    },
-    {
       "id": "ca684ffe7c5f97e5",
       "kind": "job",
       "company": "SpaceX",
@@ -51505,23 +51533,6 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8829677002?gh_jid=8829677002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "degree_required": false,
-      "min_years_experience": 5
-    },
-    {
-      "id": "901670cd938fa08f",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Network Engineer, AI Infrastructure (Starshield)",
-      "location": "Hawthorne, CA",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "infrastructure",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8808186002?gh_jid=8808186002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "degree_required": false,
@@ -51545,23 +51556,37 @@
       "min_years_experience": 5
     },
     {
-      "id": "a7a20a84a65ed227",
+      "id": "901670cd938fa08f",
       "kind": "job",
       "company": "SpaceX",
-      "title": "Sr. RAN Software Engineer (Starlink Mobile)",
-      "location": "Redmond, WA",
+      "title": "Sr. Network Engineer, AI Infrastructure (Starshield)",
+      "location": "Hawthorne, CA",
       "level": "mid_level",
-      "region": "north_america",
-      "role_type": "mobile",
+      "region": "unknown",
+      "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8673035002?gh_jid=8673035002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8808186002?gh_jid=8808186002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "C++"
-      ],
+      "degree_required": false,
+      "min_years_experience": 5
+    },
+    {
+      "id": "b064e27921cb8f67",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Network Engineer, AI Infrastructure (Starshield)",
+      "location": "Washington, DC",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8808192002?gh_jid=8808192002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "degree_required": false,
       "min_years_experience": 5
     },
     {
@@ -51585,17 +51610,37 @@
       "min_years_experience": 5
     },
     {
-      "id": "8d8f5b87220eea5d",
+      "id": "a7a20a84a65ed227",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. RAN Software Engineer (Starlink Mobile)",
+      "location": "Redmond, WA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "mobile",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8673035002?gh_jid=8673035002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "C++"
+      ],
+      "min_years_experience": 5
+    },
+    {
+      "id": "843040d32e7dd58a",
       "kind": "job",
       "company": "SpaceX",
       "title": "Sr. RF Front-End Module Design Engineer (RFIC Engineering)",
-      "location": "Sunnyvale, CA",
+      "location": "Redmond, WA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "frontend",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8562302002?gh_jid=8562302002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8499101002?gh_jid=8499101002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -51621,17 +51666,17 @@
       ]
     },
     {
-      "id": "843040d32e7dd58a",
+      "id": "8d8f5b87220eea5d",
       "kind": "job",
       "company": "SpaceX",
       "title": "Sr. RF Front-End Module Design Engineer (RFIC Engineering)",
-      "location": "Redmond, WA",
+      "location": "Sunnyvale, CA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "frontend",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8499101002?gh_jid=8499101002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8562302002?gh_jid=8562302002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -51746,17 +51791,17 @@
       "min_years_experience": 3
     },
     {
-      "id": "04227580136711b9",
+      "id": "25976c0d6b8b0484",
       "kind": "job",
       "company": "SpaceX",
       "title": "Sr. Site Reliability Engineer (Starlink)",
-      "location": "Palo Alto, CA",
+      "location": "Redmond, WA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8654199002?gh_jid=8654199002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8654200002?gh_jid=8654200002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -51771,17 +51816,17 @@
       "min_years_experience": 5
     },
     {
-      "id": "25976c0d6b8b0484",
+      "id": "04227580136711b9",
       "kind": "job",
       "company": "SpaceX",
       "title": "Sr. Site Reliability Engineer (Starlink)",
-      "location": "Redmond, WA",
+      "location": "Palo Alto, CA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8654200002?gh_jid=8654200002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8654199002?gh_jid=8654199002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -51821,17 +51866,17 @@
       "min_years_experience": 5
     },
     {
-      "id": "01ddbb7819c3af28",
+      "id": "3b8d12065bdd0ec4",
       "kind": "job",
       "company": "SpaceX",
       "title": "Sr. Site Reliability Engineer (Starshield)",
-      "location": "Redmond, WA",
+      "location": "Washington, DC",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8597547002?gh_jid=8597547002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -51865,17 +51910,17 @@
       "min_years_experience": 5
     },
     {
-      "id": "3b8d12065bdd0ec4",
+      "id": "01ddbb7819c3af28",
       "kind": "job",
       "company": "SpaceX",
       "title": "Sr. Site Reliability Engineer (Starshield)",
-      "location": "Washington, DC",
+      "location": "Redmond, WA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "infrastructure",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8597547002?gh_jid=8597547002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8597536002?gh_jid=8597536002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -52061,67 +52106,17 @@
       "min_years_experience": 4
     },
     {
-      "id": "a142dce1b473598c",
+      "id": "96ea9cf4906aea50",
       "kind": "job",
       "company": "SpaceX",
       "title": "Sr. Software Engineer (Platform Team)",
-      "location": "Bastrop, TX",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8560570002?gh_jid=8560570002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "TypeScript",
-        "Python",
-        "Java",
-        "Rust",
-        "Kubernetes",
-        "Docker"
-      ],
-      "degree_required": false,
-      "min_years_experience": 5
-    },
-    {
-      "id": "a86c3810554ebb5c",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Software Engineer (Platform Team)",
-      "location": "Redmond, WA",
+      "location": "Sunnyvale, CA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "platform",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8558869002?gh_jid=8558869002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "TypeScript",
-        "Python",
-        "Java",
-        "Rust",
-        "Kubernetes",
-        "Docker"
-      ],
-      "degree_required": false,
-      "min_years_experience": 5
-    },
-    {
-      "id": "469c28668ac8658c",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Software Engineer (Platform Team)",
-      "location": "Hawthorne, CA",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "platform",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8495853002?gh_jid=8495853002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8558870002?gh_jid=8558870002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -52161,6 +52156,31 @@
       "min_years_experience": 5
     },
     {
+      "id": "469c28668ac8658c",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Software Engineer (Platform Team)",
+      "location": "Hawthorne, CA",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8495853002?gh_jid=8495853002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "TypeScript",
+        "Python",
+        "Java",
+        "Rust",
+        "Kubernetes",
+        "Docker"
+      ],
+      "degree_required": false,
+      "min_years_experience": 5
+    },
+    {
       "id": "42e9273c3311e7f7",
       "kind": "job",
       "company": "SpaceX",
@@ -52186,17 +52206,42 @@
       "min_years_experience": 5
     },
     {
-      "id": "96ea9cf4906aea50",
+      "id": "a142dce1b473598c",
       "kind": "job",
       "company": "SpaceX",
       "title": "Sr. Software Engineer (Platform Team)",
-      "location": "Sunnyvale, CA",
+      "location": "Bastrop, TX",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "platform",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8560570002?gh_jid=8560570002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "TypeScript",
+        "Python",
+        "Java",
+        "Rust",
+        "Kubernetes",
+        "Docker"
+      ],
+      "degree_required": false,
+      "min_years_experience": 5
+    },
+    {
+      "id": "a86c3810554ebb5c",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Software Engineer (Platform Team)",
+      "location": "Redmond, WA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "platform",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8558870002?gh_jid=8558870002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8558869002?gh_jid=8558869002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -52377,27 +52422,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "20c46fe37198e34b",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Software Engineer, CDN (Starlink)",
-      "location": "Redmond, WA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8632177002?gh_jid=8632177002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Rust",
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 5
-    },
-    {
       "id": "08107c55902ae07f",
       "kind": "job",
       "company": "SpaceX",
@@ -52409,6 +52433,27 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8672206002?gh_jid=8672206002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Rust",
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 5
+    },
+    {
+      "id": "20c46fe37198e34b",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Software Engineer, CDN (Starlink)",
+      "location": "Redmond, WA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8632177002?gh_jid=8632177002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -52611,28 +52656,6 @@
       "min_years_experience": 7
     },
     {
-      "id": "acbe3829d49dc1ba",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Software Engineer, Flight Software (Starship)",
-      "location": "Starbase, TX",
-      "level": "mid_level",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8562073002?gh_jid=8562073002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Rust",
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 4
-    },
-    {
       "id": "5c1b32e3203e7687",
       "kind": "job",
       "company": "SpaceX",
@@ -52644,6 +52667,28 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8562412002?gh_jid=8562412002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Rust",
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 4
+    },
+    {
+      "id": "acbe3829d49dc1ba",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Software Engineer, Flight Software (Starship)",
+      "location": "Starbase, TX",
+      "level": "mid_level",
+      "region": "unknown",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8562073002?gh_jid=8562073002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -52750,26 +52795,6 @@
       "min_years_experience": 3
     },
     {
-      "id": "d1f7fa8736672d45",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Software Engineer, Low Latency Computing (Starlink)",
-      "location": "Redmond, WA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8579128002?gh_jid=8579128002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "C++"
-      ],
-      "degree_required": false,
-      "min_years_experience": 5
-    },
-    {
       "id": "16d8d7afb412b577",
       "kind": "job",
       "company": "SpaceX",
@@ -52794,6 +52819,26 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "d1f7fa8736672d45",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Software Engineer, Low Latency Computing (Starlink)",
+      "location": "Redmond, WA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8579128002?gh_jid=8579128002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "degree_required": false,
+      "min_years_experience": 5
     },
     {
       "id": "50d1cf6991f9f698",
@@ -52946,27 +52991,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "c9988000db7d7290",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Sr. Wi-Fi Software Engineer (Starlink)",
-      "location": "Palo Alto, CA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8716131002?gh_jid=8716131002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "C++"
-      ],
-      "min_years_experience": 3
-    },
-    {
       "id": "a830887b7dd88f40",
       "kind": "job",
       "company": "SpaceX",
@@ -52988,24 +53012,25 @@
       "min_years_experience": 3
     },
     {
-      "id": "77d8c32adca3a721",
+      "id": "c9988000db7d7290",
       "kind": "job",
       "company": "SpaceX",
-      "title": "Sr. Wireless Firmware Engineer (Starlink Mobile)",
-      "location": "Redmond, WA",
+      "title": "Sr. Wi-Fi Software Engineer (Starlink)",
+      "location": "Palo Alto, CA",
       "level": "mid_level",
       "region": "north_america",
-      "role_type": "mobile",
+      "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8546720002?gh_jid=8546720002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8716131002?gh_jid=8716131002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
         "Python",
+        "Go",
         "C++"
       ],
-      "min_years_experience": 5
+      "min_years_experience": 3
     },
     {
       "id": "662f1575ca09393a",
@@ -53028,23 +53053,24 @@
       "min_years_experience": 5
     },
     {
-      "id": "4fc3ac2c14554df6",
+      "id": "77d8c32adca3a721",
       "kind": "job",
       "company": "SpaceX",
-      "title": "Sr. Wireless Software Engineer (Starlink)",
-      "location": "Palo Alto, CA",
+      "title": "Sr. Wireless Firmware Engineer (Starlink Mobile)",
+      "location": "Redmond, WA",
       "level": "mid_level",
       "region": "north_america",
-      "role_type": "software_engineer",
+      "role_type": "mobile",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8546720002?gh_jid=8546720002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
+        "Python",
         "C++"
       ],
-      "degree_required": false
+      "min_years_experience": 5
     },
     {
       "id": "be2e5021286106dc",
@@ -53058,6 +53084,25 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8637824002?gh_jid=8637824002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "degree_required": false
+    },
+    {
+      "id": "4fc3ac2c14554df6",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Sr. Wireless Software Engineer (Starlink)",
+      "location": "Palo Alto, CA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -53168,27 +53213,6 @@
       "min_years_experience": 2
     },
     {
-      "id": "7b7dfead06d61f7e",
-      "kind": "job",
-      "company": "SpaceX",
-      "title": "Wi-Fi Software Engineer (Starlink)",
-      "location": "Bastrop, TX",
-      "level": "other",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8715500002?gh_jid=8715500002",
-      "source": "greenhouse:spacex",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "C++"
-      ],
-      "min_years_experience": 1
-    },
-    {
       "id": "504e2af2a08454b4",
       "kind": "job",
       "company": "SpaceX",
@@ -53210,21 +53234,22 @@
       "min_years_experience": 1
     },
     {
-      "id": "b1a0225dc99a6f2f",
+      "id": "7b7dfead06d61f7e",
       "kind": "job",
       "company": "SpaceX",
-      "title": "Wireless Firmware Engineer (Starlink Mobile)",
-      "location": "Palo Alto, CA",
+      "title": "Wi-Fi Software Engineer (Starlink)",
+      "location": "Bastrop, TX",
       "level": "other",
-      "region": "north_america",
-      "role_type": "mobile",
+      "region": "unknown",
+      "role_type": "software_engineer",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8715500002?gh_jid=8715500002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
         "Python",
+        "Go",
         "C++"
       ],
       "min_years_experience": 1
@@ -53250,23 +53275,24 @@
       "min_years_experience": 1
     },
     {
-      "id": "a38606a7e82b7a5a",
+      "id": "b1a0225dc99a6f2f",
       "kind": "job",
       "company": "SpaceX",
-      "title": "Wireless Software Engineer (Starlink)",
-      "location": "Redmond, WA",
+      "title": "Wireless Firmware Engineer (Starlink Mobile)",
+      "location": "Palo Alto, CA",
       "level": "other",
       "region": "north_america",
-      "role_type": "software_engineer",
+      "role_type": "mobile",
       "date": "26d",
       "posted_at": "2026-09-29",
-      "url": "https://boards.greenhouse.io/spacex/jobs/8637826002?gh_jid=8637826002",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
+        "Python",
         "C++"
       ],
-      "degree_required": false
+      "min_years_experience": 1
     },
     {
       "id": "9e5036daae81b8f2",
@@ -53280,6 +53306,25 @@
       "date": "26d",
       "posted_at": "2026-09-29",
       "url": "https://boards.greenhouse.io/spacex/jobs/8637814002?gh_jid=8637814002",
+      "source": "greenhouse:spacex",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
+      "tech_tags": [
+        "C++"
+      ],
+      "degree_required": false
+    },
+    {
+      "id": "a38606a7e82b7a5a",
+      "kind": "job",
+      "company": "SpaceX",
+      "title": "Wireless Software Engineer (Starlink)",
+      "location": "Redmond, WA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-09-29",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8637826002?gh_jid=8637826002",
       "source": "greenhouse:spacex",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs?content=true",
       "tech_tags": [
@@ -64240,22 +64285,6 @@
       }
     },
     {
-      "id": "69e056bd28f26982",
-      "kind": "job",
-      "company": "Anthropic",
-      "title": "Staff Software Engineer, AI Reliability Engineering",
-      "location": "Dublin, IE",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "58d",
-      "posted_at": "2026-08-28",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008",
-      "source": "greenhouse:anthropic",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
-      "visa_sponsorship": true
-    },
-    {
       "id": "6ed05561613aeec1",
       "kind": "job",
       "company": "Anthropic",
@@ -64276,6 +64305,22 @@
         "currency": "GBP",
         "period": "year"
       }
+    },
+    {
+      "id": "69e056bd28f26982",
+      "kind": "job",
+      "company": "Anthropic",
+      "title": "Staff Software Engineer, AI Reliability Engineering",
+      "location": "Dublin, IE",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "58d",
+      "posted_at": "2026-08-28",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008",
+      "source": "greenhouse:anthropic",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+      "visa_sponsorship": true
     },
     {
       "id": "21ab818ccb7e2b86",
@@ -78891,74 +78936,14 @@
   ],
   "hackathons": [
     {
-      "id": "964088a79f6d2c5c",
+      "id": "adf27fd8bbbfce28",
       "kind": "hackathon",
-      "company": "UGAHacks",
-      "title": "UGAHacks CADathon",
-      "location": "UGA - Driftmier Engineering Center",
-      "date": "about 1 hour left",
-      "posted_at": "2026-10-25",
-      "url": "https://ugahacks-cadathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "c0f24a37161c8cd0",
-      "kind": "hackathon",
-      "company": "University of Florida",
-      "title": "Gator Hack V - AI Days 2026",
-      "location": "Newell Hall, University of Florida",
-      "date": "about 1 hour left",
-      "posted_at": "2026-10-25",
-      "url": "https://gatorhack2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "9b9c4d8e87d7f978",
-      "kind": "hackathon",
-      "company": "ColorStackBU",
-      "title": "CodeFest 2026 by ColorStackBU",
-      "location": "Binghamton University Classroom Wing",
+      "company": "Software Engineering Club",
+      "title": "REPLIT UG Hackathon",
+      "location": "Accra",
       "date": "about 2 hours left",
       "posted_at": "2026-10-25",
-      "url": "https://codefest-2026-colorstackbu.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "97d7d12edff0eec5",
-      "kind": "hackathon",
-      "company": "Hack for Social Impact",
-      "title": "Hack for Social Impact SF 2026",
-      "location": "Wefunder",
-      "date": "about 2 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://hack-for-social-impact-sf-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "d4658e0a26ccd268",
-      "kind": "hackathon",
-      "company": "Florida Data Science for Social Good",
-      "title": "2026 AI for Good Hackathon",
-      "location": "The Link",
-      "date": "about 3 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://2026ai4goodhackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "629bf7263de3dddb",
-      "kind": "hackathon",
-      "company": "university of pennsylvania",
-      "title": "Action Space",
-      "location": "Fab Lab",
-      "date": "about 6 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://action-space-hacks.devpost.com/",
+      "url": "https://replit-ug-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78968,21 +78953,9 @@
       "company": "Georgian",
       "title": "Build North: Ship Something Real",
       "location": "Toronto",
-      "date": "about 9 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-10-25",
       "url": "https://build-north.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "adf27fd8bbbfce28",
-      "kind": "hackathon",
-      "company": "Software Engineering Club",
-      "title": "REPLIT UG Hackathon",
-      "location": "Accra",
-      "date": "about 10 hours left",
-      "posted_at": "2026-10-25",
-      "url": "https://replit-ug-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78992,9 +78965,21 @@
       "company": "noclue",
       "title": "The Top 500 (UH v2)",
       "location": "Online",
-      "date": "about 13 hours left",
+      "date": "about 8 hours left",
       "posted_at": "2026-10-25",
       "url": "https://the-top-500-uh-v2.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e878e0f66a68e5d9",
+      "kind": "hackathon",
+      "company": "Devpost",
+      "title": "Build With AI: Basics",
+      "location": "Online",
+      "date": "about 22 hours left",
+      "posted_at": "2026-10-25",
+      "url": "https://learn-ai-basics.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79021,18 +79006,6 @@
       "url": "https://realm-hack-1.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "e878e0f66a68e5d9",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Build With AI: Basics",
-      "location": "Online",
-      "date": "1 day left",
-      "posted_at": "2026-10-25",
-      "url": "https://learn-ai-basics.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "a032032ace9f3bc0",
@@ -79071,6 +79044,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "8429dcd3ca9e26da",
+      "kind": "hackathon",
+      "company": "The Northcap University",
+      "title": "Engage 6.0 – Code with AI Hackathon",
+      "location": "The NorthCap University",
+      "date": "1 day left",
+      "posted_at": "2026-10-25",
+      "url": "https://engage6.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "801f9d7dcf55bca9",
       "kind": "hackathon",
       "company": "HackathonForEveryone",
@@ -79083,14 +79068,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "8429dcd3ca9e26da",
+      "id": "f1707d60709ea316",
       "kind": "hackathon",
-      "company": "The Northcap University",
-      "title": "Engage 6.0 – Code with AI Hackathon",
-      "location": "The NorthCap University",
+      "company": "hacktheconcretejungle",
+      "title": "HTCJ × PROOF Aviation Futures Challenge",
+      "location": "Boston Venture Week",
       "date": "2 days left",
       "posted_at": "2026-10-25",
-      "url": "https://engage6.devpost.com/",
+      "url": "https://htcj-aviation-futures.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79299,6 +79284,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "76f7247203fb8fbf",
+      "kind": "hackathon",
+      "company": "CODE CRUNCH",
+      "title": "305 EmpowHER Edition October 2026 — 305Hackathons.vercel.app",
+      "location": "Online",
+      "date": "6 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://305empowheroct2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "6a88c78c799511f7",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -79307,6 +79304,18 @@
       "date": "6 days left",
       "posted_at": "2026-10-25",
       "url": "https://biosv2.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "03943543974f740e",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Hack On Hills 8.0",
+      "location": "Hamirpur, India",
+      "date": "6 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://hackonhills8.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -79405,30 +79414,6 @@
       "url": "https://programmatic-rendering-contest.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "76f7247203fb8fbf",
-      "kind": "hackathon",
-      "company": "CODE CRUNCH",
-      "title": "305 EmpowHER Edition October 2026 — 305Hackathons.vercel.app",
-      "location": "Online",
-      "date": "7 days left",
-      "posted_at": "2026-10-25",
-      "url": "https://305empowheroct2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "03943543974f740e",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hack On Hills 8.0",
-      "location": "Hamirpur, India",
-      "date": "7 days left",
-      "posted_at": "2026-10-25",
-      "url": "https://hackonhills8.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "b8075437fa20e350",
@@ -79544,7 +79529,7 @@
       "company": "Echelon institute of technology",
       "title": "Herhack",
       "location": "Online",
-      "date": "17 days left",
+      "date": "16 days left",
       "posted_at": "2026-10-25",
       "url": "https://herhack.devpost.com/",
       "source": "devpost",
@@ -79587,12 +79572,24 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "2974c38aaa981b66",
+      "kind": "hackathon",
+      "company": "STEMise",
+      "title": "DSH Hacks V2 ($100k+ in prizes!)",
+      "location": "Online",
+      "date": "20 days left",
+      "posted_at": "2026-10-25",
+      "url": "https://dsh-hacks-v2.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "889fd7cdf08624f6",
       "kind": "hackathon",
       "company": "UGREEN",
       "title": "UGREEN Hackathon 2026 on AI NAS",
       "location": "Online",
-      "date": "22 days left",
+      "date": "21 days left",
       "posted_at": "2026-10-25",
       "url": "https://ugreenhackathon.devpost.com/",
       "source": "devpost",
@@ -79791,6 +79788,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "80893ecc57ce416d",
+      "kind": "hackathon",
+      "company": "Arbiter",
+      "title": "Arbiter Hacks V1",
+      "location": "Online",
+      "date": "about 2 months left",
+      "posted_at": "2026-10-25",
+      "url": "https://arbiter-hacks-v1.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "ace15e808cec90aa",
       "kind": "hackathon",
       "company": "Binnovative",
@@ -79799,6 +79808,18 @@
       "date": "2 months left",
       "posted_at": "2026-10-25",
       "url": "https://innovart2027.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "cff6e79009e23350",
+      "kind": "hackathon",
+      "company": "Mizzou Computing Association",
+      "title": "MCA 2026 projects",
+      "location": "Online",
+      "date": "2 months left",
+      "posted_at": "2026-10-25",
+      "url": "https://mca-2026-projects.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -79863,6 +79884,30 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "892853bbb8014d31",
+      "kind": "hackathon",
+      "company": "nill",
+      "title": "Code for Humanity",
+      "location": "Online",
+      "date": "3 months left",
+      "posted_at": "2026-10-25",
+      "url": "https://code-for-humanity.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "76585d3dc3653b3d",
+      "kind": "hackathon",
+      "company": "Student Organization",
+      "title": "Syntax Summit",
+      "location": "Online",
+      "date": "3 months left",
+      "posted_at": "2026-10-25",
+      "url": "https://syntax-summit.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "8fc6a055eee7c960",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -79897,18 +79942,6 @@
       "url": "https://coderave-2.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "d291430c668a7528",
-      "kind": "hackathon",
-      "company": "Charlestonhacks",
-      "title": "HarborHack 2026 - Agent In The Loop",
-      "location": "College of Charleston, Harbor Walk",
-      "date": "27 minutes left",
-      "posted_at": "2026-10-25",
-      "url": "https://harborhack-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
@@ -82361,6 +82394,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-10-25",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -82369,6 +82414,18 @@
       "date": "",
       "posted_at": "2026-10-25",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-10-25",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

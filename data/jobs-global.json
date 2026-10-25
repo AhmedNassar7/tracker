@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T19:35:49Z",
-  "total": 1412,
+  "generated_at": "2026-10-25T22:31:51Z",
+  "total": 1411,
   "jobs": [
     {
       "id": "fd906a2d5145d534",
@@ -1590,121 +1590,6 @@
       ]
     },
     {
-      "id": "367a0bc443073f26",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, Internship - Warp Speed",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/lever-palantir-b3d81928-6c26-432f-8a0a-36602c2eefcb?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-10-22",
-      "age": "0d",
-      "collected_at": "2026-10-22T23:21:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "e91c204831d93ca9",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, Internship - Warp Speed",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/lever-palantir-b3d81928-6c26-432f-8a0a-36602c2eefcb?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-10-22",
-      "age": "0d",
-      "collected_at": "2026-10-22T23:21:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "5b7297c9e9a8290a",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, Internship - Warp Speed",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/lever-palantir-b3d81928-6c26-432f-8a0a-36602c2eefcb?s=gh-internships-2027",
-      "source": "zapplyjobs_internships",
-      "source_url": "https://github.com/zapplyjobs/Internships-2027",
-      "posted_at": "2026-10-22",
-      "age": "0d",
-      "collected_at": "2026-10-22T23:21:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d97f3c3fca9a41d7",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, New Grad - Warp Speed",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/lever-palantir-66b495eb-aaf9-4bf9-a759-41854534add7?s=gh-new-grad-software-engineering-jobs-2027",
-      "source": "zapplyjobs_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
-      "posted_at": "2026-10-22",
-      "age": "0d",
-      "collected_at": "2026-10-22T23:21:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "dfb471b68174d9fc",
-      "company": "Palantir",
-      "title": "Forward Deployed Software Engineer, New Grad - Warp Speed",
-      "level": "new_grad",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://zapply.jobs/l/d/lever-palantir-66b495eb-aaf9-4bf9-a759-41854534add7?s=gh-new-grad-jobs-2027",
-      "source": "zapplyjobs_all_newgrad",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "posted_at": "2026-10-22",
-      "age": "0d",
-      "collected_at": "2026-10-22T23:21:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "f9be44821edaf653",
       "company": "Amazon",
       "title": "Software Development Engineer , ADC2S",
@@ -2947,6 +2832,121 @@
       ]
     },
     {
+      "id": "367a0bc443073f26",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - Warp Speed",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/lever-palantir-b3d81928-6c26-432f-8a0a-36602c2eefcb?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-10-22",
+      "age": "0d",
+      "collected_at": "2026-10-22T23:21:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "e91c204831d93ca9",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - Warp Speed",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/lever-palantir-b3d81928-6c26-432f-8a0a-36602c2eefcb?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-10-22",
+      "age": "0d",
+      "collected_at": "2026-10-22T23:21:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5b7297c9e9a8290a",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, Internship - Warp Speed",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/lever-palantir-b3d81928-6c26-432f-8a0a-36602c2eefcb?s=gh-internships-2027",
+      "source": "zapplyjobs_internships",
+      "source_url": "https://github.com/zapplyjobs/Internships-2027",
+      "posted_at": "2026-10-22",
+      "age": "0d",
+      "collected_at": "2026-10-22T23:21:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d97f3c3fca9a41d7",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, New Grad - Warp Speed",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/lever-palantir-66b495eb-aaf9-4bf9-a759-41854534add7?s=gh-new-grad-software-engineering-jobs-2027",
+      "source": "zapplyjobs_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Software-Engineering-Jobs-2027",
+      "posted_at": "2026-10-22",
+      "age": "0d",
+      "collected_at": "2026-10-22T23:21:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "dfb471b68174d9fc",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer, New Grad - Warp Speed",
+      "level": "new_grad",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://zapply.jobs/l/d/lever-palantir-66b495eb-aaf9-4bf9-a759-41854534add7?s=gh-new-grad-jobs-2027",
+      "source": "zapplyjobs_all_newgrad",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "posted_at": "2026-10-22",
+      "age": "0d",
+      "collected_at": "2026-10-22T23:21:35Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "ced3b0d2f08b7de7",
       "company": "Coinbase",
       "title": "Software Engineer Intern",
@@ -3354,29 +3354,6 @@
       "posted_at": "2026-10-22",
       "age": "0d",
       "collected_at": "2026-10-22T23:21:35Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d174c9dc41e237f5",
-      "company": "Amazon.com",
-      "title": "Jr. Software Development Engineer - Detroit, MI, Jr. Developer Program",
-      "level": "junior",
-      "category": "faang",
-      "region": "unknown",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Detroit, MI, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=4e99357beb56c5b8",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-10-22",
-      "age": "3d",
-      "collected_at": "2026-10-25T16:15:11Z",
       "tags": [
         "software",
         "programming",
@@ -4672,29 +4649,6 @@
       ]
     },
     {
-      "id": "98a167489d9fcde3",
-      "company": "Adobe",
-      "title": "Security Engineer Intern",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "unknown",
-      "role_type": "security",
-      "country": "United States",
-      "location": "Lehi, UT",
-      "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/bk?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-10-25",
-      "age": "5d",
-      "collected_at": "2026-10-25T11:24:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "fe71787e4aed7971",
       "company": "NVIDIA",
       "title": "Software Engineer New Grad - Agent Performance Modeling 🎓",
@@ -4734,52 +4688,6 @@
       "posted_at": "2026-10-23",
       "age": "3d",
       "collected_at": "2026-10-23T19:11:31Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "d96770e47f0a32b2",
-      "company": "Qualcomm",
-      "title": "Machine Learning AISW Intern",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "Canada",
-      "location": "Markham, ON, Canada",
-      "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/c8?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-10-25",
-      "age": "5d",
-      "collected_at": "2026-10-25T11:24:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "6658dac1745e13d2",
-      "company": "Salesforce",
-      "title": "Software Engineer Intern, Security/Government 🇺🇸",
-      "level": "internship",
-      "category": "big_tech",
-      "region": "north_america",
-      "role_type": "security",
-      "country": "United States",
-      "location": "San Francisco, CA, Bellevue, WA",
-      "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/bA?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-10-25",
-      "age": "5d",
-      "collected_at": "2026-10-25T11:24:36Z",
       "tags": [
         "software",
         "programming",
@@ -4872,29 +4780,6 @@
       "posted_at": "2026-10-23",
       "age": "3d",
       "collected_at": "2026-10-23T19:11:31Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "c4a2a80cb7ff4068",
-      "company": "Scale AI",
-      "title": "Machine Learning Research Intern",
-      "level": "internship",
-      "category": "ai_research",
-      "region": "north_america",
-      "role_type": "machine_learning",
-      "country": "United States",
-      "location": "New York, NY, San Francisco, CA",
-      "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/br?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-10-25",
-      "age": "5d",
-      "collected_at": "2026-10-25T11:24:36Z",
       "tags": [
         "software",
         "programming",
@@ -5799,6 +5684,52 @@
       ]
     },
     {
+      "id": "98a167489d9fcde3",
+      "company": "Adobe",
+      "title": "Security Engineer Intern",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "unknown",
+      "role_type": "security",
+      "country": "United States",
+      "location": "Lehi, UT",
+      "remote_type": "onsite",
+      "url": "https://go.vansh.nyc/bk?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-25",
+      "age": "5d",
+      "collected_at": "2026-10-25T11:24:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "d96770e47f0a32b2",
+      "company": "Qualcomm",
+      "title": "Machine Learning AISW Intern",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "Canada",
+      "location": "Markham, ON, Canada",
+      "remote_type": "onsite",
+      "url": "https://go.vansh.nyc/c8?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-25",
+      "age": "5d",
+      "collected_at": "2026-10-25T11:24:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "d7c98680c6d287c4",
       "company": "Salesforce",
       "title": "Software Engineer Intern",
@@ -5815,6 +5746,52 @@
       "posted_at": "2026-10-23",
       "age": "4d",
       "collected_at": "2026-10-23T19:11:31Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "6658dac1745e13d2",
+      "company": "Salesforce",
+      "title": "Software Engineer Intern, Security/Government 🇺🇸",
+      "level": "internship",
+      "category": "big_tech",
+      "region": "north_america",
+      "role_type": "security",
+      "country": "United States",
+      "location": "San Francisco, CA, Bellevue, WA",
+      "remote_type": "onsite",
+      "url": "https://go.vansh.nyc/bA?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-25",
+      "age": "5d",
+      "collected_at": "2026-10-25T11:24:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "c4a2a80cb7ff4068",
+      "company": "Scale AI",
+      "title": "Machine Learning Research Intern",
+      "level": "internship",
+      "category": "ai_research",
+      "region": "north_america",
+      "role_type": "machine_learning",
+      "country": "United States",
+      "location": "New York, NY, San Francisco, CA",
+      "remote_type": "onsite",
+      "url": "https://go.vansh.nyc/br?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-25",
+      "age": "5d",
+      "collected_at": "2026-10-25T11:24:36Z",
       "tags": [
         "software",
         "programming",
@@ -6535,7 +6512,7 @@
       ]
     },
     {
-      "id": "262c81ec0b8d6ca3",
+      "id": "aa023b169884df4c",
       "company": "Microsoft",
       "title": "Software Engineer II",
       "level": "mid_level",
@@ -6545,12 +6522,12 @@
       "country": "Canada",
       "location": "Vancouver, BC, CA",
       "remote_type": "onsite",
-      "url": "https://ca.indeed.com/viewjob?jk=7ae46d31d8db2f26",
+      "url": "https://ca.indeed.com/viewjob?jk=b2f712246f893b5d",
       "source": "ambicuity",
       "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
       "posted_at": "2026-10-19",
       "age": "6d",
-      "collected_at": "2026-10-25T19:35:49Z",
+      "collected_at": "2026-10-25T22:31:51Z",
       "tags": [
         "software",
         "programming",
@@ -8023,29 +8000,6 @@
       "posted_at": "2026-10-15",
       "age": "10d",
       "collected_at": "2026-10-25T11:24:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "ea80184f1317b674",
-      "company": "Amazon.com",
-      "title": "Software Development Engineer, Early Career - 2027 (US)",
-      "level": "new_grad",
-      "category": "faang",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "Boston, MA, US",
-      "remote_type": "onsite",
-      "url": "https://www.indeed.com/viewjob?jk=7fcef11e9efac316",
-      "source": "ambicuity",
-      "source_url": "https://github.com/ambicuity/New-Grad-Jobs",
-      "posted_at": "2026-10-15",
-      "age": "10d",
-      "collected_at": "2026-10-25T16:15:11Z",
       "tags": [
         "software",
         "programming",
@@ -26913,6 +26867,29 @@
       ]
     },
     {
+      "id": "9812a3cee9f3372b",
+      "company": "Palantir",
+      "title": "Forward Deployed Software Engineer Intern, Commercial (Summer 2027, grad Dec 2027 / Spring 2028)",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY (multiple US)",
+      "remote_type": "onsite",
+      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-25",
+      "age": "3mo",
+      "collected_at": "2026-10-25T22:31:51Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "e4453883abd62883",
       "company": "Palantir",
       "title": "Software Engineer Intern (Summer 2027, grad 2028)",
@@ -27074,29 +27051,6 @@
       ]
     },
     {
-      "id": "702b632b86998b3b",
-      "company": "Palantir Technologies",
-      "title": "Forward Deployed Software Engineer Intern",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/4g?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-10-25",
-      "age": "3mo",
-      "collected_at": "2026-10-25T11:24:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
       "id": "a2427566d19d33e4",
       "company": "Palantir Technologies",
       "title": "Forward Deployed Software Engineer Intern",
@@ -27120,6 +27074,29 @@
       ]
     },
     {
+      "id": "702b632b86998b3b",
+      "company": "Palantir Technologies",
+      "title": "Forward Deployed Software Engineer Intern",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://go.vansh.nyc/4g?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-25",
+      "age": "3mo",
+      "collected_at": "2026-10-25T11:24:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
       "id": "0f1249eea8abab23",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern",
@@ -27131,6 +27108,29 @@
       "location": "Denver, CO",
       "remote_type": "onsite",
       "url": "https://go.vansh.nyc/4m?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-25",
+      "age": "3mo",
+      "collected_at": "2026-10-25T11:24:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "5fa7a92d9a220dce",
+      "company": "Palantir Technologies",
+      "title": "Software Engineer Intern",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "country": "Unknown",
+      "location": "Palo Alto, CA",
+      "remote_type": "onsite",
+      "url": "https://go.vansh.nyc/4j?utm_source=github-vansh-ouckah",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-10-25",
@@ -27189,30 +27189,7 @@
       ]
     },
     {
-      "id": "5fa7a92d9a220dce",
-      "company": "Palantir Technologies",
-      "title": "Software Engineer Intern",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "country": "Unknown",
-      "location": "Palo Alto, CA",
-      "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/4j?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-10-25",
-      "age": "3mo",
-      "collected_at": "2026-10-25T11:24:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "28fbd01d7b610910",
+      "id": "c8b265d79d057137",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern, Defense Tech",
       "level": "internship",
@@ -27220,9 +27197,9 @@
       "region": "north_america",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "Washington, D.C.",
+      "location": "New York, NY",
       "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/4n?utm_source=github-vansh-ouckah",
+      "url": "https://go.vansh.nyc/4p?utm_source=github-vansh-ouckah",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-10-25",
@@ -27258,7 +27235,7 @@
       ]
     },
     {
-      "id": "c8b265d79d057137",
+      "id": "28fbd01d7b610910",
       "company": "Palantir Technologies",
       "title": "Software Engineer Intern, Defense Tech",
       "level": "internship",
@@ -27266,32 +27243,9 @@
       "region": "north_america",
       "role_type": "software_engineer",
       "country": "United States",
-      "location": "New York, NY",
+      "location": "Washington, D.C.",
       "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/4p?utm_source=github-vansh-ouckah",
-      "source": "derec4_newgrad",
-      "source_url": "https://github.com/DereC4/internships-and-newgrad",
-      "posted_at": "2026-10-25",
-      "age": "3mo",
-      "collected_at": "2026-10-25T11:24:36Z",
-      "tags": [
-        "software",
-        "programming",
-        "global-tech-roles"
-      ]
-    },
-    {
-      "id": "63eccbc2ff472412",
-      "company": "Palantir Technologies",
-      "title": "Software Engineer Intern, Infrastructure",
-      "level": "internship",
-      "category": "product_saas",
-      "region": "north_america",
-      "role_type": "infrastructure",
-      "country": "United States",
-      "location": "New York, NY",
-      "remote_type": "onsite",
-      "url": "https://go.vansh.nyc/4q?utm_source=github-vansh-ouckah",
+      "url": "https://go.vansh.nyc/4n?utm_source=github-vansh-ouckah",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-10-25",
@@ -27315,6 +27269,29 @@
       "location": "Palo Alto, CA",
       "remote_type": "onsite",
       "url": "https://go.vansh.nyc/4r?utm_source=github-vansh-ouckah",
+      "source": "derec4_newgrad",
+      "source_url": "https://github.com/DereC4/internships-and-newgrad",
+      "posted_at": "2026-10-25",
+      "age": "3mo",
+      "collected_at": "2026-10-25T11:24:36Z",
+      "tags": [
+        "software",
+        "programming",
+        "global-tech-roles"
+      ]
+    },
+    {
+      "id": "63eccbc2ff472412",
+      "company": "Palantir Technologies",
+      "title": "Software Engineer Intern, Infrastructure",
+      "level": "internship",
+      "category": "product_saas",
+      "region": "north_america",
+      "role_type": "infrastructure",
+      "country": "United States",
+      "location": "New York, NY",
+      "remote_type": "onsite",
+      "url": "https://go.vansh.nyc/4q?utm_source=github-vansh-ouckah",
       "source": "derec4_newgrad",
       "source_url": "https://github.com/DereC4/internships-and-newgrad",
       "posted_at": "2026-10-25",
