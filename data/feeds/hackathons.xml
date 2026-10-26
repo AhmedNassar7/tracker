@@ -4,7 +4,7 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Mon, 26 Oct 2026 19:22:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 23:54:11 GMT</lastBuildDate>
     <item>
       <title>Devfolio — Hackman X</title>
       <link>https://hackman-x.devfolio.co</link>
@@ -20,17 +20,17 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devpost — Build With AI: Basics</title>
-      <link>https://learn-ai-basics.devpost.com/</link>
-      <guid isPermaLink="false">e878e0f66a68e5d9</guid>
-      <description>Online · about 2 hours left</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Independent Student Organizer — NextSpark Hacks</title>
       <link>https://nextspark-hacks.devpost.com/</link>
       <guid isPermaLink="false">046072de1a68e4a4</guid>
-      <description>Online · about 8 hours left</description>
+      <description>Online · about 3 hours left</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenCV — OpenCV AI Competition 2026, powered by AWS</title>
+      <link>https://opencv26.devpost.com/</link>
+      <guid isPermaLink="false">efb32028a7cadcd0</guid>
+      <description>Online · about 7 hours left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -41,31 +41,24 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenCV — OpenCV AI Competition 2026, powered by AWS</title>
-      <link>https://opencv26.devpost.com/</link>
-      <guid isPermaLink="false">efb32028a7cadcd0</guid>
-      <description>Online · about 12 hours left</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>GitLab — Life After Code</title>
       <link>https://gitlab-transcend.devpost.com/</link>
       <guid isPermaLink="false">a032032ace9f3bc0</guid>
-      <description>Online · about 18 hours left</description>
+      <description>Online · about 13 hours left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>The Northcap University — Engage 6.0 – Code with AI Hackathon</title>
       <link>https://engage6.devpost.com/</link>
       <guid isPermaLink="false">8429dcd3ca9e26da</guid>
-      <description>The NorthCap University · about 19 hours left</description>
+      <description>The NorthCap University · about 14 hours left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>HackathonForEveryone — Hack to the Future</title>
       <link>https://hack-to-the-missing-future-ai.devpost.com/</link>
       <guid isPermaLink="false">801f9d7dcf55bca9</guid>
-      <description>Online · 1 day left</description>
+      <description>Online · about 22 hours left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -90,6 +83,13 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Girls Who Code HHS — Girls Who Code HHS Hackathon 2026</title>
+      <link>https://gwchhs-hackathon-2026.devpost.com/</link>
+      <guid isPermaLink="false">6963369e3dce7316</guid>
+      <description>Online · 2 days left</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ACM Long Beach — Pumpkin Playground</title>
       <link>https://pumpkin-playground.devpost.com/</link>
       <guid isPermaLink="false">05439848b8438786</guid>
@@ -100,13 +100,6 @@
       <title>Alliance University — Hybrid Micro Mouse Challenge</title>
       <link>https://hybrid-micro-mouse-challenge.devpost.com/</link>
       <guid isPermaLink="false">08da4ef0aeb6e465</guid>
-      <description>Online · 3 days left</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Girls Who Code HHS — Girls Who Code HHS Hackathon 2026</title>
-      <link>https://gwchhs-hackathon-2026.devpost.com/</link>
-      <guid isPermaLink="false">6963369e3dce7316</guid>
       <description>Online · 3 days left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -174,6 +167,13 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>VIT Bhopal University — Health Hackathon 3.0</title>
+      <link>https://health-hackathon-3-0.devpost.com/</link>
+      <guid isPermaLink="false">89d6e13c6fe9cf7a</guid>
+      <description>VIT Bhopal University · 4 days left</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Bukit Sion School — Buksi SITE (STEM Innovation &amp; Talent Expo) 2026 - ONLY FOR BUKIT SION STUDENTS</title>
       <link>https://buksi-site-2026.devpost.com/</link>
       <guid isPermaLink="false">43c165a8f28e9a85</guid>
@@ -199,6 +199,13 @@
       <link>https://biosv2.devfolio.co</link>
       <guid isPermaLink="false">6a88c78c799511f7</guid>
       <description>Patiala, India · 5 days left</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — Hack On Hills 8.0</title>
+      <link>https://hackonhills8.devfolio.co</link>
+      <guid isPermaLink="false">03943543974f740e</guid>
+      <description>Hamirpur, India · 5 days left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -262,20 +269,6 @@
       <link>https://programmatic-rendering-contest.devpost.com/</link>
       <guid isPermaLink="false">d7a5ca787711fed9</guid>
       <description>New York, NY · 5 days left</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>VIT Bhopal University — Health Hackathon 3.0</title>
-      <link>https://health-hackathon-3-0.devpost.com/</link>
-      <guid isPermaLink="false">89d6e13c6fe9cf7a</guid>
-      <description>VIT Bhopal University · 5 days left</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Hack On Hills 8.0</title>
-      <link>https://hackonhills8.devfolio.co</link>
-      <guid isPermaLink="false">03943543974f740e</guid>
-      <description>Hamirpur, India · 6 days left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -356,6 +349,13 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>STEMise — DSH Hacks V2 ($100k+ in prizes!)</title>
+      <link>https://dsh-hacks-v2.devpost.com/</link>
+      <guid isPermaLink="false">2974c38aaa981b66</guid>
+      <description>Online · 19 days left</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Software Engineering Club (DEV) — Mathematics for systems security</title>
       <link>https://mathematics-systems-security.devpost.com/</link>
       <guid isPermaLink="false">a278312f9434729c</guid>
@@ -363,17 +363,10 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>STEMise — DSH Hacks V2 ($100k+ in prizes!)</title>
-      <link>https://dsh-hacks-v2.devpost.com/</link>
-      <guid isPermaLink="false">2974c38aaa981b66</guid>
-      <description>Online · 20 days left</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>UGREEN — UGREEN Hackathon 2026 on AI NAS</title>
       <link>https://ugreenhackathon.devpost.com/</link>
       <guid isPermaLink="false">889fd7cdf08624f6</guid>
-      <description>Online · 21 days left</description>
+      <description>Online · 20 days left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -426,16 +419,16 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SafeSpace — SafeSpace Hacks</title>
-      <link>https://safespace-hacks.devpost.com/</link>
-      <guid isPermaLink="false">11a58c6cfa7cddb1</guid>
-      <description>Online · 27 days left</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>STEM2Connect — STEM2Connect AI Hackathon</title>
       <link>https://stem2connect-online-hackathon.devpost.com/</link>
       <guid isPermaLink="false">809ccf7819417013</guid>
+      <description>Online · 26 days left</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SafeSpace — SafeSpace Hacks</title>
+      <link>https://safespace-hacks.devpost.com/</link>
+      <guid isPermaLink="false">11a58c6cfa7cddb1</guid>
       <description>Online · 27 days left</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>

@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Mon, 26 Oct 2026 19:22:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 23:54:11 GMT</lastBuildDate>
     <item>
       <title>ByteDance — Machine Learning Backend Engineer Graduate (AML MLDev) - 2027 Start</title>
       <link>https://zapply.jobs/l/d/bytedance-7669791940490168629?s=gh-new-grad-data-science-jobs-2027</link>
@@ -13,17 +13,24 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>ServiceNow — Software Engineer Graduate (AI/ML) - Moveworks</title>
+      <link>https://www.indeed.com/viewjob?jk=d11681ea4349334b</link>
+      <guid isPermaLink="false">2d3cfbbb5abc7020</guid>
+      <description>Mountain View, CA, US · new_grad · 0d</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Early Career Software Engineer, Tech Foundations</title>
+      <link>https://careers.airbnb.com/positions/8154749?gh_jid=8154749</link>
+      <guid isPermaLink="false">11579df9faef161c</guid>
+      <description>Sao Paulo - Brazil · new_grad · 0d</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Roblox — [2027] Software Engineer, Early Career</title>
       <link>https://careers.roblox.com/jobs/8072244?gh_jid=8072244</link>
       <guid isPermaLink="false">9fbdc2bd14b3b9d4</guid>
       <description>San Mateo, CA, United States · new_grad · 0d</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wise — Graduate Software Engineer</title>
-      <link>https://jobs.smartrecruiters.com/Wise/744000157817639</link>
-      <guid isPermaLink="false">75d0b8f75bbe6ab3</guid>
-      <description>London, United Kingdom · new_grad · 0d</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -140,20 +147,6 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 4d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
-      <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 4d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
       <guid isPermaLink="false">b836bebf63487343</guid>
       <description>Dublin · new_grad · 4d</description>
@@ -164,6 +157,20 @@
       <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
       <guid isPermaLink="false">c543a8c9860ed243</guid>
       <description>Bucharest · new_grad · 4d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 4d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
+      <guid isPermaLink="false">334395993d3f3a1a</guid>
+      <description>Singapore · new_grad · 4d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -181,17 +188,17 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Engineer – Early Career</title>
-      <link>https://amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">eca72aa32d52ed24</guid>
-      <description>Madison, WI +8 more · new_grad · 6d</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Palantir — Software Engineer New Grad - Query Engines</title>
       <link>https://jobs.lever.co/palantir/0f7d1e01-1f74-4786-944d-910208d390fa/apply?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">679490206c556957</guid>
       <description>London, UK · new_grad · 6d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Engineer – Early Career</title>
+      <link>https://amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">eca72aa32d52ed24</guid>
+      <description>Madison, WI +8 more · new_grad · 6d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -228,13 +235,6 @@
       <guid isPermaLink="false">5f1e04a796e9065c</guid>
       <description>London, United Kingdom · new_grad · 7d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon.com — Software Development Engineer, Early Career - 2027 (CAN)</title>
-      <link>https://ca.indeed.com/viewjob?jk=d2254d2e1464b022</link>
-      <guid isPermaLink="false">8661b09651fd682a</guid>
-      <description>Vancouver, BC, CA · new_grad · 10d</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — New Graduate Engineer, Infrastructure</title>

@@ -4,7 +4,21 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Mon, 26 Oct 2026 19:22:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 23:54:11 GMT</lastBuildDate>
+    <item>
+      <title>Airbnb — Early Career Software Engineer, Tech Foundations</title>
+      <link>https://careers.airbnb.com/positions/8154749?gh_jid=8154749</link>
+      <guid isPermaLink="false">11579df9faef161c</guid>
+      <description>Sao Paulo - Brazil · new_grad · 0d</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Senior Software Engineer, Experimentation Interfaces</title>
+      <link>https://careers.airbnb.com/positions/8325603?gh_jid=8325603</link>
+      <guid isPermaLink="false">72ac8d3c4ca806ad</guid>
+      <description>Brazil · mid_level · 0d</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Lyft — Software Engineer, Supply Platform</title>
       <link>https://app.careerpuck.com/job-board/lyft/job/8883515002?gh_jid=8883515002</link>
@@ -17,13 +31,6 @@
       <link>https://www.amazon.jobs/en/jobs/10587859/software-development-engineer-sao-paulo</link>
       <guid isPermaLink="false">f82a008130ff6d6f</guid>
       <description>Sao Paulo, Sao Paulo, BRA · unknown · 3d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Software Engineer, Tech Foundations</title>
-      <link>https://careers.airbnb.com/positions/8154749?gh_jid=8154749</link>
-      <guid isPermaLink="false">ef7478efe19690c0</guid>
-      <description>Sao Paulo - Brazil · other · 3d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -118,16 +125,16 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sumup — Android Engineer</title>
-      <link>https://sumup.com/careers/positions/8348937002?gh_jid=8348937002</link>
-      <guid isPermaLink="false">c45e139aadd48b12</guid>
-      <description>São Paulo, São Paulo, Brazil · other · 7d</description>
+      <title>Schneider Electric — Application Engineer</title>
+      <link>https://careers.se.com/jobs/136370</link>
+      <guid isPermaLink="false">ea289e368410cc1a</guid>
+      <description>Oxford, Ohio; Apodaca, Mexico · other · 7d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sumup — iOS Engineer</title>
-      <link>https://sumup.com/careers/positions/8348936002?gh_jid=8348936002</link>
-      <guid isPermaLink="false">5f006a599c3979c9</guid>
+      <title>Sumup — Android Engineer</title>
+      <link>https://sumup.com/careers/positions/8348937002?gh_jid=8348937002</link>
+      <guid isPermaLink="false">c45e139aadd48b12</guid>
       <description>São Paulo, São Paulo, Brazil · other · 7d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -381,12 +388,6 @@
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Senior-Software-Engineer--Java-_R-294285</link>
       <guid isPermaLink="false">5febc2561059439f</guid>
       <description>Mexico City, Mexico · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>Salesforce — Software Engineer Junior - Master Data Management (MDM)</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Software-Engineer-Junior---MDM_JR364122</link>
-      <guid isPermaLink="false">0696e80773031bf7</guid>
-      <description>Mexico - Mexico City · junior · 3d</description>
     </item>
   </channel>
 </rss>
