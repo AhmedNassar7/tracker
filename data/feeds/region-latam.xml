@@ -4,7 +4,14 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Mon, 26 Oct 2026 06:14:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 13:04:48 GMT</lastBuildDate>
+    <item>
+      <title>Lyft — Software Engineer, Supply Platform</title>
+      <link>https://app.careerpuck.com/job-board/lyft/job/8883515002?gh_jid=8883515002</link>
+      <guid isPermaLink="false">4765cdee356eeedf</guid>
+      <description>Mexico City, Mexico · other · 0d</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Amazon — Software Development Engineer, São Paulo</title>
       <link>https://www.amazon.jobs/en/jobs/10587859/software-development-engineer-sao-paulo</link>
@@ -108,13 +115,6 @@
       <link>https://app.careerpuck.com/job-board/lyft/job/8797819002?gh_jid=8797819002</link>
       <guid isPermaLink="false">a22af01f37a8a4a5</guid>
       <description>Mexico City, Mexico · internship · 7d</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lyft — Software Engineer, Supply Platform</title>
-      <link>https://app.careerpuck.com/job-board/lyft/job/8883515002?gh_jid=8883515002</link>
-      <guid isPermaLink="false">4765cdee356eeedf</guid>
-      <description>Mexico City, Mexico · other · 7d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -349,6 +349,13 @@
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer, Digital Payments and Emerging Markets</title>
+      <link>https://www.amazon.jobs/en/jobs/10453123/software-development-engineer-digital-payments-and-emerging-markets</link>
+      <guid isPermaLink="false">8169803b04a94b14</guid>
+      <description>Mexico City, Mexico City, MEX · unknown · 130d</description>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Swile — Senior Software Engineer, Backend (Payments)</title>
       <link>https://jobs.lever.co/swile/ba335751-9ae3-4d18-a5c8-b47596d577de</link>
       <guid isPermaLink="false">19c730acee6300f3</guid>
@@ -380,7 +387,7 @@
       <title>Salesforce — Software Engineer Junior - Master Data Management (MDM)</title>
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Software-Engineer-Junior---MDM_JR364122</link>
       <guid isPermaLink="false">0696e80773031bf7</guid>
-      <description>Mexico - Mexico City · junior · 2d</description>
+      <description>Mexico - Mexico City · junior · 3d</description>
     </item>
   </channel>
 </rss>
