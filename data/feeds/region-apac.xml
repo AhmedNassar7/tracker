@@ -4,7 +4,7 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Tue, 27 Oct 2026 10:36:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 16:38:59 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer - Connectivity, Emerging Device Software</title>
       <link>https://www.amazon.jobs/en/jobs/10589519/software-development-engineer-connectivity-emerging-device-software</link>
@@ -48,6 +48,13 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>MongoDB — Senior Software Engineer</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8323897</link>
+      <guid isPermaLink="false">98935599874b407c</guid>
+      <description>Gurugram · mid_level · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Okta — Principal Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955</link>
       <guid isPermaLink="false">cb9266ad97c9c850</guid>
@@ -59,6 +66,48 @@
       <link>https://careers.se.com/jobs/124882</link>
       <guid isPermaLink="false">df9ca01f5c4a4515</guid>
       <description>Bangalore, India · mid_level · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Siei — Legal Director, Hardware Engineering, Procurement, Software Development Engineering and R&amp;D</title>
+      <link>https://job-boards.greenhouse.io/siei/jobs/5718632004</link>
+      <guid isPermaLink="false">bc462cf1b814aab0</guid>
+      <description>Japan, Tokyo · mid_level · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Siei — PlayStation Studios QA ゲームテスター(時短・アルバイト)</title>
+      <link>https://job-boards.greenhouse.io/siei/jobs/5199856004</link>
+      <guid isPermaLink="false">91e6ed2151454c00</guid>
+      <description>Japan, Tokyo · other · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Siei — PlayStation Studios QAゲームテスター（アルバイト）</title>
+      <link>https://job-boards.greenhouse.io/siei/jobs/5071554004</link>
+      <guid isPermaLink="false">b022d2bba3938903</guid>
+      <description>Japan, Tokyo · other · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Siei — PlayStation Studios テストリードサポート（アルバイト）</title>
+      <link>https://job-boards.greenhouse.io/siei/jobs/5071560004</link>
+      <guid isPermaLink="false">72c55a975f23de29</guid>
+      <description>Japan, Tokyo · other · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Siei — Senior Software Engineer</title>
+      <link>https://job-boards.greenhouse.io/siei/jobs/6110443004</link>
+      <guid isPermaLink="false">dc57fc3562476f3a</guid>
+      <description>Japan, Tokyo · mid_level · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sonyinteractiveentertainmentglobal — Staff Software Engineer</title>
+      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6218037004</link>
+      <guid isPermaLink="false">1c771710aa7597c5</guid>
+      <description>Australia, Adelaide · mid_level · 0d</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -293,20 +342,6 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II - Java Full stack and AI (with Python)</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-stack-and-AI--with-Python-_R-294262</link>
-      <guid isPermaLink="false">06a198f3b0075294</guid>
-      <description>Pune, India · mid_level · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II - Java Full stack with AI</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-stack-with-AI_R-294118</link>
-      <guid isPermaLink="false">1f9ea727b14b954e</guid>
-      <description>Pune, India · mid_level · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Celonis — Senior Software Engineer - SAP ABAP</title>
       <link>https://job-boards.greenhouse.io/celonis/jobs/7559294003?gh_jid=7559294003</link>
       <guid isPermaLink="false">45bf3a20eefd99ce</guid>
@@ -357,16 +392,16 @@
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8178900</link>
-      <guid isPermaLink="false">2e381c31aad91b15</guid>
-      <description>Bengaluru · mid_level · 4d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8020377</link>
+      <guid isPermaLink="false">518b5aa3f7de9d68</guid>
+      <description>Sydney · mid_level · 4d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>MongoDB — Senior Software Engineer</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8020377</link>
-      <guid isPermaLink="false">518b5aa3f7de9d68</guid>
-      <description>Sydney · mid_level · 4d</description>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8178900</link>
+      <guid isPermaLink="false">2e381c31aad91b15</guid>
+      <description>Bengaluru · mid_level · 4d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -399,6 +434,13 @@
     </item>
     <item>
       <title>MongoDB — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8083366</link>
+      <guid isPermaLink="false">86cc509ce14125f1</guid>
+      <description>Gurugram · other · 4d</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Software Engineer 3</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8239047</link>
       <guid isPermaLink="false">3bf220ec63e43dcb</guid>
       <description>Gurugram · other · 4d</description>
@@ -409,13 +451,6 @@
       <link>https://www.mongodb.com/careers/job/?gh_jid=8092317</link>
       <guid isPermaLink="false">5da37839012eee44</guid>
       <description>Sydney · other · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8083366</link>
-      <guid isPermaLink="false">86cc509ce14125f1</guid>
-      <description>Gurugram · other · 4d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -500,48 +535,6 @@
       <link>https://careers.se.com/jobs/136457</link>
       <guid isPermaLink="false">e3a0df98cba1a0f7</guid>
       <description>Australia · mid_level · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Siei — Legal Director, Hardware Engineering, Procurement, Software Development Engineering and R&amp;D</title>
-      <link>https://job-boards.greenhouse.io/siei/jobs/5718632004</link>
-      <guid isPermaLink="false">bc462cf1b814aab0</guid>
-      <description>Japan, Tokyo · mid_level · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Siei — PlayStation Studios QA ゲームテスター(時短・アルバイト)</title>
-      <link>https://job-boards.greenhouse.io/siei/jobs/5199856004</link>
-      <guid isPermaLink="false">91e6ed2151454c00</guid>
-      <description>Japan, Tokyo · other · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Siei — PlayStation Studios QAゲームテスター（アルバイト）</title>
-      <link>https://job-boards.greenhouse.io/siei/jobs/5071554004</link>
-      <guid isPermaLink="false">b022d2bba3938903</guid>
-      <description>Japan, Tokyo · other · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Siei — PlayStation Studios テストリードサポート（アルバイト）</title>
-      <link>https://job-boards.greenhouse.io/siei/jobs/5071560004</link>
-      <guid isPermaLink="false">72c55a975f23de29</guid>
-      <description>Japan, Tokyo · other · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Siei — Senior Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/siei/jobs/6110443004</link>
-      <guid isPermaLink="false">dc57fc3562476f3a</guid>
-      <description>Japan, Tokyo · mid_level · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sonyinteractiveentertainmentglobal — Staff Software Engineer</title>
-      <link>https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6218037004</link>
-      <guid isPermaLink="false">1c771710aa7597c5</guid>
-      <description>Australia, Adelaide · mid_level · 4d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -728,16 +721,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
-      <guid isPermaLink="false">342b3f9493acb89a</guid>
-      <description>Singapore · internship · 6d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
+      <guid isPermaLink="false">123c0cae7b46bde0</guid>
+      <description>Bengaluru · internship · 6d</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
-      <guid isPermaLink="false">123c0cae7b46bde0</guid>
-      <description>Bengaluru · internship · 6d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
+      <guid isPermaLink="false">342b3f9493acb89a</guid>
+      <description>Singapore · internship · 6d</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1428,6 +1421,13 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer</title>
+      <link>https://www.amazon.jobs/en/jobs/10571784/software-development-engineer</link>
+      <guid isPermaLink="false">729493073a1a9973</guid>
+      <description>Bengaluru, Karnataka, IND · unknown · 20d</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10571791/software-development-engineer</link>
       <guid isPermaLink="false">27b0e7d08c9a1904</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 20d</description>
@@ -1437,13 +1437,6 @@
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10571786/software-development-engineer</link>
       <guid isPermaLink="false">73ef365f6121a8a3</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 20d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer</title>
-      <link>https://www.amazon.jobs/en/jobs/10571784/software-development-engineer</link>
-      <guid isPermaLink="false">729493073a1a9973</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 20d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1880,6 +1873,13 @@
       <guid isPermaLink="false">2d4265a8aa959fdc</guid>
       <description>Bangalore, India · mid_level · 26d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II, Amazon FinAuto - Travel &amp; Events</title>
+      <link>https://www.amazon.jobs/en/jobs/10565718/software-development-engineer-ii-amazon-finauto-travel-events</link>
+      <guid isPermaLink="false">eb642fc08882be3a</guid>
+      <description>Hyderabad, Telangana, IND · mid_level · 27d</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AI Trust &amp; Innovation</title>
@@ -2477,6 +2477,13 @@
       <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer II, Alexa Smart Home Cameras</title>
+      <link>https://www.amazon.jobs/en/jobs/10554118/software-development-engineer-ii-alexa-smart-home-cameras</link>
+      <guid isPermaLink="false">9c547ecd859d8d92</guid>
+      <description>Bengaluru, Karnataka, IND · mid_level · 38d</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer II</title>
       <link>https://www.amazon.jobs/en/jobs/10553121/software-development-engineer-ii</link>
       <guid isPermaLink="false">3a37de1b714a2b6f</guid>
@@ -2566,13 +2573,6 @@
       <guid isPermaLink="false">24a075e6f8e4daa3</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 45d</description>
       <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II , Amazon Cross Border Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10535856/software-development-engineer-ii-amazon-cross-border-tech</link>
-      <guid isPermaLink="false">a8266d3ef3a09903</guid>
-      <description>Bengaluru, Karnataka, IND · mid_level · 47d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Everyday Essentials Experiences</title>
@@ -3120,9 +3120,21 @@
       <description>Malaysia, Penang · mid_level · 0d</description>
     </item>
     <item>
+      <title>Mastercard — Director, Software Engineering</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Director--Software-Engineering_R-294138-1</link>
+      <guid isPermaLink="false">9c8902348b9644d0</guid>
+      <description>Pune, India · mid_level · 0d</description>
+    </item>
+    <item>
       <title>Mastercard — Lead Software Engineer (Architect)</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer--Architect-_R-292058</link>
       <guid isPermaLink="false">9f1425588980fdc7</guid>
+      <description>Pune, India · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-290391</link>
+      <guid isPermaLink="false">28a88dc528fb991f</guid>
       <description>Pune, India · mid_level · 0d</description>
     </item>
     <item>
@@ -3144,6 +3156,12 @@
       <description>Pune, India · mid_level · 0d</description>
     </item>
     <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-291169-1</link>
+      <guid isPermaLink="false">462aee110183fe74</guid>
+      <description>Pune, India · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Enterprise, Production Application Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Enterprise--Production-Application-Engineer_JR2027808</link>
       <guid isPermaLink="false">dc7ba62a19b16fd8</guid>
@@ -3156,16 +3174,16 @@
       <description>Taiwan, Hsinchu +1 more · other · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Software Engineer - Traffic and Networking</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-Software-Engineer---Traffic-and-Networking_JR2023060</link>
+      <guid isPermaLink="false">d200e408497a216b</guid>
+      <description>Taiwan, Taipei · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior System Software Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Vietnam-Ho-Chi-Minh-City/Senior-System-Software-Engineer_JR2028594-1</link>
       <guid isPermaLink="false">5094e6d826f6b0f5</guid>
       <description>Vietnam, Ho Chi Minh City +1 more · mid_level · 0d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Software QA Test and Tools Developer – Automotive Platform</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Software-QA-Test-and-Tools-Developer---Automotive-Platform_JR2028816</link>
-      <guid isPermaLink="false">8f0a45f3c183d9d0</guid>
-      <description>India, Pune · other · 0d</description>
     </item>
     <item>
       <title>Salesforce — Senior Manager, Software Engineering -Workday HCM/Financials &amp; Integrations</title>
@@ -3174,16 +3192,10 @@
       <description>India - Hyderabad +1 more · mid_level · 0d</description>
     </item>
     <item>
-      <title>Salesforce — Software Engineering MTS (Backend - Distributed Systems)</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-SMTS---MTS----Platform-Engineering--Backend--Kubernetes---Cloud-_JR347341</link>
-      <guid isPermaLink="false">6ce31fa9f2f70bcb</guid>
-      <description>India - Hyderabad +1 more · other · 0d</description>
-    </item>
-    <item>
-      <title>Salesforce — Software Engineering, MTS (Backend)</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering--MTS--Backend---Infra-_JR350272</link>
-      <guid isPermaLink="false">ef12607b78b57a39</guid>
-      <description>India - Hyderabad · other · 0d</description>
+      <title>Salesforce — Software Engineering LMTS - Backend Distributed Systems</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS_JR338174</link>
+      <guid isPermaLink="false">6aac2aa1147c2989</guid>
+      <description>India - Bangalore +1 more · other · 0d</description>
     </item>
     <item>
       <title>Samsung — Retail Training Manager (Mobile Experiences)</title>
@@ -3258,34 +3270,10 @@
       <description>Pune, India · mid_level · 1d</description>
     </item>
     <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-294414</link>
-      <guid isPermaLink="false">6243179df4d9ffbc</guid>
-      <description>Pune, India · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-294358</link>
-      <guid isPermaLink="false">73ba0b3e60b313ba</guid>
-      <description>Pune, India · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>Mastercard — Vice President, Site Reliability Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Vice-President--Site-Reliability-Engineer_R-293568</link>
-      <guid isPermaLink="false">62fb905abcf2a2fa</guid>
-      <description>Pune, India · mid_level · 1d</description>
-    </item>
-    <item>
       <title>NVIDIA — Senior Staff Site Reliability Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-Staff-Site-Reliability-Engineer_JR2024618</link>
       <guid isPermaLink="false">0318c4a0f7d8f6e8</guid>
       <description>India, Pune · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior System Software Engineer</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-System-Software-Engineer_JR2028521</link>
-      <guid isPermaLink="false">290fa266ddb8d6e3</guid>
-      <description>India, Pune +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>Tencent — Site Reliability Engineer Intern</title>
@@ -3298,18 +3286,6 @@
       <link>https://netflix.wd108.myworkdayjobs.com/netflix/job/Sydney/Production-Coordinator---Netflix-Animation-Studios_JR43194</link>
       <guid isPermaLink="false">0781f449312d835a</guid>
       <description>Sydney · other · 2d</description>
-    </item>
-    <item>
-      <title>Intel — Low-Level Software Engineer</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/India-Bangalore/Low-Level-Software-Engineer_JR0288298</link>
-      <guid isPermaLink="false">a37be3d6b20bfdbb</guid>
-      <description>India, Bangalore · other · 4d</description>
-    </item>
-    <item>
-      <title>Intel — Senior Low-Level Software Engineer</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/India-Bangalore/Senior-Low-Level-Software-Engineer_JR0288297</link>
-      <guid isPermaLink="false">d5b012d841df87c1</guid>
-      <description>India, Bangalore · mid_level · 4d</description>
     </item>
     <item>
       <title>Netflix — Character Effects (CFX) Supervisor - Netflix Animation Studios</title>
@@ -3412,12 +3388,6 @@
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Gurgaon/Principal-Software-Development-Engineer_R-108883-2</link>
       <guid isPermaLink="false">cd1ec477ebf977ec</guid>
       <description>India - Gurgaon · mid_level · 30d</description>
-    </item>
-    <item>
-      <title>Expedia Group — Senior Manager, Software Development Engineering</title>
-      <link>https://expedia.wd108.myworkdayjobs.com/private/job/India---Bangalore/Senior-Manager--Software-Development-Engineering_R-108573-2</link>
-      <guid isPermaLink="false">db60a2040e5f80d9</guid>
-      <description>India - Bangalore · mid_level · 30d</description>
     </item>
     <item>
       <title>Netflix — Head of Character Effects (CFX) - Netflix Animation Studios</title>
