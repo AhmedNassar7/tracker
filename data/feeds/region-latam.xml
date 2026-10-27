@@ -4,12 +4,26 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Tue, 27 Oct 2026 16:38:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 21:20:37 GMT</lastBuildDate>
     <item>
       <title>Epic Games — Senior Mobile Programmer</title>
       <link>https://epicgames.com/careers/jobs/6193433004?gh_jid=6193433004</link>
       <guid isPermaLink="false">d16153e2ab757b57</guid>
       <description>Porto Alegre,Rio Grande do Sul,Brazil · mid_level · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
+      <guid isPermaLink="false">1ce62c63e37bc29e</guid>
+      <description>Mexico · mid_level · 0d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sumup — Backend Engineer (Global Bank Tribe)</title>
+      <link>https://sumup.com/careers/positions/7475989002?gh_jid=7475989002</link>
+      <guid isPermaLink="false">5b8901c871c03abb</guid>
+      <description>Florianópolis, Santa Catarina, Brazil; São Paulo, Brazil · other · 0d</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -41,13 +55,6 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
-      <guid isPermaLink="false">1ce62c63e37bc29e</guid>
-      <description>Mexico · mid_level · 4d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Stripe — Backend Engineer, Payments Experiences</title>
       <link>https://stripe.com/jobs/search?gh_jid=7895287</link>
       <guid isPermaLink="false">515b62c14e8ab285</guid>
@@ -73,13 +80,6 @@
       <link>https://app.careerpuck.com/job-board/lyft/job/8900188002?gh_jid=8900188002</link>
       <guid isPermaLink="false">3a311f5b0b755e15</guid>
       <description>Mexico City, Mexico · other · 5d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sumup — Backend Engineer (Global Bank Tribe)</title>
-      <link>https://sumup.com/careers/positions/7475989002?gh_jid=7475989002</link>
-      <guid isPermaLink="false">5b8901c871c03abb</guid>
-      <description>Florianópolis, Santa Catarina, Brazil; São Paulo, Brazil · other · 5d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -279,13 +279,6 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Schneider Electric — Product Applications Engineer II</title>
-      <link>https://careers.se.com/jobs/133384</link>
-      <guid isPermaLink="false">b626bc6405e9fd2e</guid>
-      <description>Chile; Antofagasta, Chile · mid_level · 42d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Epic Games — Senior Mobile Game Designer</title>
       <link>https://epicgames.com/careers/jobs/6000061004?gh_jid=6000061004</link>
       <guid isPermaLink="false">81a57ddee15d9312</guid>
@@ -375,12 +368,6 @@
       <guid isPermaLink="false">00bc85d0a94facdc</guid>
       <description>NAMER and LatAm · mid_level · 159d</description>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer (Java)</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Senior-Software-Engineer--Java-_R-294285</link>
-      <guid isPermaLink="false">5febc2561059439f</guid>
-      <description>Mexico City, Mexico · mid_level · 1d</description>
     </item>
   </channel>
 </rss>
