@@ -4,7 +4,21 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Wed, 28 Oct 2026 08:30:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 16:04:37 GMT</lastBuildDate>
+    <item>
+      <title>Kraken.com — Senior Software Engineer - Dev Platform</title>
+      <link>https://jobs.ashbyhq.com/kraken.com/11c70bea-e807-4f35-bde7-7422e639290b</link>
+      <guid isPermaLink="false">57bed5ecea5a1b23</guid>
+      <description>Brazil · mid_level · 0d</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kraken.com — Staff Site Reliability Engineer - Dev Platform</title>
+      <link>https://jobs.ashbyhq.com/kraken.com/e24e55c7-a5dc-40c5-ac58-bd09284ca87e</link>
+      <guid isPermaLink="false">70277495e1e3af8d</guid>
+      <description>Brazil · mid_level · 0d</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Epic Games — Senior Mobile Programmer</title>
       <link>https://epicgames.com/careers/jobs/6193433004?gh_jid=6193433004</link>
@@ -349,13 +363,6 @@
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Digital Payments and Emerging Markets</title>
-      <link>https://www.amazon.jobs/en/jobs/10443835/software-development-engineer-digital-payments-and-emerging-markets</link>
-      <guid isPermaLink="false">74cb26f262a5f72e</guid>
-      <description>Mexico City, Mexico City, MEX · unknown · 141d</description>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Swile — Senior Software Engineer, Backend (Payments)</title>
       <link>https://jobs.lever.co/swile/ba335751-9ae3-4d18-a5c8-b47596d577de</link>
       <guid isPermaLink="false">19c730acee6300f3</guid>
@@ -382,6 +389,12 @@
       <guid isPermaLink="false">00bc85d0a94facdc</guid>
       <description>NAMER and LatAm · mid_level · 160d</description>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Senior Software Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Senior-Software-Engineer_R-281205</link>
+      <guid isPermaLink="false">2fb9fa64536723f8</guid>
+      <description>Mexico City, Mexico · mid_level · 0d</description>
     </item>
   </channel>
 </rss>
