@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T01:20:08Z",
+ "generated_at": "2026-10-28T08:27:37Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -19,19 +19,19 @@
   },
   "/frontiertower?k=c": {
    "alive": true,
-   "at": "2026-10-26T23:51:45Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "/genai-sf?k=c": {
    "alive": true,
-   "at": "2026-10-26T23:51:45Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "/sf-hackersquad?k=c": {
    "alive": true,
-   "at": "2026-10-26T23:51:45Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "/sf-hardware-meetup?k=c": {
    "alive": true,
-   "at": "2026-10-26T23:51:45Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "/stationdc?k=c": {
    "alive": true,
@@ -247,7 +247,7 @@
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/DevOps-Engineer---Observability_R169502": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Full-Stack-Engineer--Front-end---Agentic-Governance_R172296": {
    "alive": true,
@@ -255,7 +255,7 @@
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Platform-Engineer---Observability_R169504": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-DevOps-Engineer---Observability_R171486": {
    "alive": true,
@@ -263,7 +263,7 @@
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Forward-Deployed-Engineer--Adobe-Experience-Platform_R172075": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Product-Designer--AI-powered-Experiences--Adobe-Experience-Platform-_R173026-1": {
    "alive": true,
@@ -307,7 +307,7 @@
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Mobile-Engineering-Manager---Adobe-Scan_R173239": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Software-Development-Engineer-4_R171262": {
    "alive": true,
@@ -340,10 +340,6 @@
   "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Yerevan/XMLNAME-2027-Intern--Software-Engineer_R173019": {
    "alive": true,
    "at": "2026-10-28T01:20:08Z"
-  },
-  "https://aevsfr.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-21T04:43:44Z"
   },
   "https://aevsge.devpost.com/": {
    "alive": true,
@@ -2591,7 +2587,7 @@
   },
   "https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-10-27T10:31:35Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://boards.greenhouse.io/spacex/jobs/8730117002?gh_jid=8730117002": {
    "alive": true,
@@ -3181,6 +3177,10 @@
    "alive": true,
    "at": "2026-10-27T21:18:07Z"
   },
+  "https://boards.greenhouse.io/spacex/jobs/8920839002?gh_jid=8920839002": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
+  },
   "https://bsidesprg.cz": {
    "alive": true,
    "at": "2026-10-28T01:20:08Z"
@@ -3199,7 +3199,7 @@
   },
   "https://build-your-first-ai-app.devpost.com/": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://buildevcon.com/events/vector-in-databases": {
    "alive": true,
@@ -3415,11 +3415,11 @@
   },
   "https://careers.airbnb.com/positions/8325603?gh_jid=8325603": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://careers.airbnb.com/positions/8325753?gh_jid=8325753": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://careers.airbnb.com/positions/8325813?gh_jid=8325813": {
    "alive": true,
@@ -4219,7 +4219,7 @@
   },
   "https://careers.roblox.com/jobs/8238465?gh_jid=8238465": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://careers.roblox.com/jobs/8238467?gh_jid=8238467": {
    "alive": true,
@@ -4288,6 +4288,10 @@
   "https://careers.roblox.com/jobs/8283707?gh_jid=8283707": {
    "alive": true,
    "at": "2026-10-28T01:20:08Z"
+  },
+  "https://careers.roblox.com/jobs/8287614?gh_jid=8287614": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://careers.roblox.com/jobs/8287853?gh_jid=8287853": {
    "alive": true,
@@ -4747,51 +4751,51 @@
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Ann-Arbor-Michigan-US/Senior-Software-Engineer--Identity-Engineering---SSO-_2023296": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Boulder-Colorado-US/Software-Engineering-Technical-Leader_2024745": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Boxborough-Massachusetts-US/Software-Engineer-II--Full-Time----United-States_2027364": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Boxborough-Massachusetts-US/Software-Engineering-Technical-Leader_2021705": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Senior-Software-Engineer---Webex-Web-Client_2028673": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Mobile_2028669": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Webex-Web-Clients_2028671": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Site-Reliability-Engineer_2018630-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer---App-Development_2028929": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer---Application-Development_2028922-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Senior-Software-Engineer--Shared-Components-_2023864": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---App-Development_2028928": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---Application-Development_2023947-1": {
    "alive": true,
@@ -4799,35 +4803,35 @@
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---Application-Development_2028919": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---Application-Development_2028921": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer---Application-Engineer_2028918": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer--Shared-Components-_2018628": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Galway-Ireland/Software-Engineer_2026256": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/AI-Software-Engineer_2025798": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Frontend-Engineer_2025794": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Full-Stack-Engineer_2025805": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Senior-Software-Engineer_2025808": {
    "alive": true,
@@ -4835,11 +4839,11 @@
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineer_2025797": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineer_2025802": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineering-Technical-Leader_2025803": {
    "alive": true,
@@ -4847,23 +4851,27 @@
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Krakow-Poland/Software-Engineering-Technical-Leader_2025809": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
+  },
+  "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Backend-Software-Engineer_2029288": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Embedded-Software-Engineer_2027546": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Embedded-Software-Engineer_2027896": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Full-stack-Software-Engineer_2027662": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Lysaker-Norway/Software-Engineer_2027413": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Distinguished-Software-Engineer--AI-Software---Platform--Hybrid-_2022586": {
    "alive": true,
@@ -4871,7 +4879,7 @@
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Lead-Backend-Engineer---Studio--Hybrid-_2029193-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Leader--Software-Engineering_2023202": {
    "alive": true,
@@ -4879,7 +4887,7 @@
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Principal-Software-Engineer_2004135": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Senior-Software-Engineer_2021200-1": {
    "alive": true,
@@ -4887,7 +4895,7 @@
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Milpitas-California-US/Sr-Software-Engineer--Routing-Platform---Infrastructure_2022971-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Attack-Surface-Management-Security-Engineer-I--Full-Time----United-States_2029031": {
    "alive": true,
@@ -4907,11 +4915,11 @@
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Technical-Leader---Network-Data-Plane---Hypershield_2025874": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Stockholm-Sweden/Software-Engineer_2020686": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://claudetec-hack26.devpost.com/": {
    "alive": true,
@@ -4924,6 +4932,10 @@
   "https://cmsconf.com": {
    "alive": true,
    "at": "2026-10-28T01:20:08Z"
+  },
+  "https://code-con.devpost.com/": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://code-for-dfw.devpost.com/": {
    "alive": true,
@@ -4947,7 +4959,7 @@
   },
   "https://codegeist2026.devpost.com/": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://coderave-2.devfolio.co": {
    "alive": true,
@@ -5827,7 +5839,7 @@
   },
   "https://diversion2k27.devfolio.co": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://drupalmountaincamp.ch": {
    "alive": true,
@@ -6079,7 +6091,7 @@
   },
   "https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer---AI-Foundations_R-105310": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer---ML-Platform_R-110741": {
    "alive": true,
@@ -6533,6 +6545,10 @@
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
   },
+  "https://go.vansh.nyc/Gq?utm_source=github-vansh-ouckah": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
   "https://go.vansh.nyc/II?utm_source=github-vansh-ouckah": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
@@ -6629,21 +6645,29 @@
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
   },
+  "https://go.vansh.nyc/VB?utm_source=github-vansh-ouckah": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
+  "https://go.vansh.nyc/VC?utm_source=github-vansh-ouckah": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
   "https://go.vansh.nyc/VE?utm_source=github-vansh-ouckah": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://go.vansh.nyc/Vx?utm_source=github-vansh-ouckah": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://go.vansh.nyc/Vy?utm_source=github-vansh-ouckah": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://go.vansh.nyc/Vz?utm_source=github-vansh-ouckah": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://go.vansh.nyc/W1?utm_source=github-vansh-ouckah": {
    "alive": true,
@@ -6843,7 +6867,7 @@
   },
   "https://hacksprint-3.devfolio.co": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://hacktoberfest-hack-day-feni.devpost.com/": {
    "alive": true,
@@ -7111,7 +7135,7 @@
   },
   "https://instacart.careers/job/?gh_jid=8233716": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://instacart.careers/job/?gh_jid=8234282": {
    "alive": true,
@@ -7248,6 +7272,10 @@
   "https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261": {
    "alive": true,
    "at": "2026-10-21T15:14:09Z"
+  },
+  "https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288692": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://intel.wd1.myworkdayjobs.com/external/job/PRC-Shanghai/Platform-Hardware-Design-Engineer_JR0288262": {
    "alive": true,
@@ -8171,7 +8199,7 @@
   },
   "https://job-boards.greenhouse.io/doctolib/jobs/7985189003": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://job-boards.greenhouse.io/doctolib/jobs/7990890003": {
    "alive": true,
@@ -9179,7 +9207,7 @@
   },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6232157004": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6232183004": {
    "alive": true,
@@ -9347,7 +9375,7 @@
   },
   "https://jobs.apple.com/en-us/details/200672733/sre-london": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://jobs.apple.com/en-us/details/200672753/software-engineer-journal-team": {
    "alive": true,
@@ -9379,7 +9407,7 @@
   },
   "https://jobs.apple.com/en-us/details/200677065/software-development-engineer-in-test": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://jobs.apple.com/en-us/details/200677513/software-development-engineer-in-test-retail-engineering": {
    "alive": true,
@@ -9591,7 +9619,7 @@
   },
   "https://jobs.apple.com/en-us/details/200688305/graphics-software-engineer": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://jobs.apple.com/en-us/details/200688346/wireless-software-ai-ml-engineer-intern-beijing": {
    "alive": true,
@@ -9891,7 +9919,7 @@
   },
   "https://jobs.apple.com/en-us/details/200691740/software-engineer-developer-productivity-engineering": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://jobs.apple.com/en-us/details/200691968/systems-software-engineer-performance-agentic-tools": {
    "alive": true,
@@ -9900,6 +9928,10 @@
   "https://jobs.apple.com/en-us/details/200692096/ios-application-developer-health-software": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
+  },
+  "https://jobs.apple.com/en-us/details/200692172/machine-learning-engineer-agentic-ai": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://jobs.ashbyhq.com/alan/0ff78ea3-64c0-4b4e-ad0f-72d54175b132": {
    "alive": true,
@@ -10415,7 +10447,7 @@
   },
   "https://jobs.ashbyhq.com/elevenlabs/1b90a2b2-1352-458d-b2b7-3900f6e02df5": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/elevenlabs/1f7a2786-46d3-46c9-81f3-c3849b412988": {
    "alive": true,
@@ -10459,7 +10491,7 @@
   },
   "https://jobs.ashbyhq.com/elevenlabs/815547bf-0ade-482d-84b0-4163ab1161e5": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/elevenlabs/8a573932-b1fb-4df7-9023-e13a6cecbbbb": {
    "alive": true,
@@ -10803,7 +10835,7 @@
   },
   "https://jobs.ashbyhq.com/mercor/799ecfcc-4258-4075-8b11-12fc64fb2868": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/mercor/8492ebff-ed8e-4472-b729-3a49f4b52fc0": {
    "alive": true,
@@ -10835,7 +10867,7 @@
   },
   "https://jobs.ashbyhq.com/mercor/ae344099-3fde-4027-bfde-f953db8b4728": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/mercor/c6f9c6bd-68b8-49c5-aecb-b586616d7102": {
    "alive": true,
@@ -11095,7 +11127,7 @@
   },
   "https://jobs.ashbyhq.com/openai/2c646ef9-6f93-4124-9d51-964d2c5aa783": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/openai/2cba0d45-7a4f-4f38-ac73-3f8633bf0349": {
    "alive": true,
@@ -11328,6 +11360,10 @@
   "https://jobs.ashbyhq.com/openai/6b47238e-025a-4350-b270-2f3564002fcc": {
    "alive": true,
    "at": "2026-10-28T01:20:08Z"
+  },
+  "https://jobs.ashbyhq.com/openai/6c1d86d0-e89d-475b-a324-6c57fa30b345": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/openai/6fbb72e6-1d69-4863-aaf3-3c5830e49e8a": {
    "alive": true,
@@ -11719,7 +11755,7 @@
   },
   "https://jobs.ashbyhq.com/openai/ed9255f0-981f-49e9-8b01-9fd203141929": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1": {
    "alive": true,
@@ -12139,7 +12175,7 @@
   },
   "https://jobs.ashbyhq.com/snowflake/418a8f32-1658-47d9-9450-ed3a6e947215": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/snowflake/41e65c6c-a01e-4f40-af14-ae75d3b95e27": {
    "alive": true,
@@ -12263,7 +12299,7 @@
   },
   "https://jobs.ashbyhq.com/snowflake/95b87897-68dc-47c0-a4c0-2320d36dafac": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.ashbyhq.com/snowflake/9792736b-382f-4c2d-90eb-f53134ea5d37": {
    "alive": true,
@@ -12467,11 +12503,11 @@
   },
   "https://jobs.dropbox.com/listing/8261911?gh_jid=8261911": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.dropbox.com/listing/8280093?gh_jid=8280093": {
    "alive": true,
@@ -13979,35 +14015,35 @@
   },
   "https://jobs.lever.co/paytm/09bf75ae-2f97-424e-8d75-4c15eff218b7": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.lever.co/paytm/105a0d9e-94e9-4026-9105-5bea558ab3d9": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.lever.co/paytm/23534d2b-3e2e-4759-b498-0bb15b2fb995": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.lever.co/paytm/46c10c59-437c-4a31-ae4c-c4e41f31d9f7": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.lever.co/paytm/7c317d05-b1ff-443f-975a-5b96e2728ac5": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.lever.co/paytm/c298cc86-560a-4b3b-87fb-40fb0b9c8ee5": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.lever.co/paytm/cf8e7e47-2871-405f-8e19-aa95fa5e6996": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.lever.co/paytm/fffdcfb1-fd6e-4401-b059-500838a6db0e": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.lever.co/qonto/0c9f8b02-398c-4128-bbd1-b1b0acf3956e": {
    "alive": true,
@@ -14383,7 +14419,7 @@
   },
   "https://jobs.smartrecruiters.com/Wise/744000158046304": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://jobs.smartrecruiters.com/Wise/744000158047109": {
    "alive": true,
@@ -14741,6 +14777,10 @@
    "alive": true,
    "at": "2026-10-27T05:01:00Z"
   },
+  "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-293377": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
+  },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-293589": {
    "alive": true,
    "at": "2026-10-27T05:01:00Z"
@@ -14796,6 +14836,10 @@
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer--Architect-_R-292058": {
    "alive": true,
    "at": "2026-10-27T10:32:24Z"
+  },
+  "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer-2_R-290020": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-engineer_R-292341": {
    "alive": true,
@@ -15071,7 +15115,7 @@
   },
   "https://netflix.wd108.myworkdayjobs.com/netflix/job/Burbank/Manager--Casting_JR43206": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://netflix.wd108.myworkdayjobs.com/netflix/job/Los-Gatos/Head-of-Cloud-Infrastructure-Finance---Strategy_JR42789-1": {
    "alive": true,
@@ -15095,7 +15139,7 @@
   },
   "https://netflix.wd108.myworkdayjobs.com/netflix/job/Los-Gatos/Software-Engineer-5---Device-Certification-Infrastructure_JR43214": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://netflix.wd108.myworkdayjobs.com/netflix/job/Los-Gatos/Software-Engineer-6---Ads-Platform-Engineering_AJRT30201": {
    "alive": true,
@@ -15251,7 +15295,7 @@
   },
   "https://netflix.wd108.myworkdayjobs.com/netflix/job/Vancouver/Digital-Producer_JR43109": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://netflix.wd108.myworkdayjobs.com/netflix/job/Vancouver/Effects-Supervisor---Netflix-Animation-Studios_JR43160": {
    "alive": true,
@@ -15499,7 +15543,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-Software-Engineer---Traffic-and-Networking_JR2023060": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineer---Base-OS--RDSS-Intern-_JR2025948": {
    "alive": true,
@@ -15651,11 +15695,15 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Site-Reliability-Engineer---HPC_JR2013271": {
    "alive": true,
-   "at": "2026-10-26T13:02:03Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Developer--Test-and-Automation_JR2026347": {
    "alive": true,
    "at": "2026-10-24T23:12:50Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Development-Engineer-in-Test--Confidential-Computing---SDET_JR2020429-1": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---AI-Inference-Performance_JR2024262": {
    "alive": true,
@@ -15697,6 +15745,10 @@
    "alive": true,
    "at": "2026-10-22T23:21:57Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Bare-Metal-Infrastructure---DGX-Cloud_JR2028557": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--CUDA-Core-Libraries_JR2021170": {
    "alive": true,
    "at": "2026-10-27T16:36:37Z"
@@ -15712,6 +15764,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389": {
    "alive": true,
    "at": "2026-10-27T16:36:37Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Datacenter-Modeling_JR2028188-1": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Fleet-Intelligence-Backend_JR2023946": {
    "alive": true,
@@ -15735,7 +15791,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Object-Storage---DGX-Cloud_JR2025155": {
    "alive": true,
@@ -15755,11 +15811,11 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect---Data-Center-Infrastructure_JR2017762": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect---Data-Center-Infrastructure_JR2017766": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect--AI-Infrastructure_JR2028553-1": {
    "alive": true,
@@ -15851,7 +15907,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Solutions-Architect--AI-Factory-Infrastructure_JR2016645": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Robotics-Simulation_JR2026819": {
    "alive": true,
@@ -15887,7 +15943,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-Software-Engineer--Networking-DGX-Cloud_JR2022482": {
    "alive": true,
-   "at": "2026-10-23T10:02:48Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Senior-Solutions-Architect--AI-Infrastructure_JR2019011": {
    "alive": true,
@@ -16152,10 +16208,6 @@
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS_JR364718": {
    "alive": true,
    "at": "2026-10-23T10:02:48Z"
-  },
-  "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-SMTS_JR349290": {
-   "alive": true,
-   "at": "2026-10-21T04:43:44Z"
   },
   "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-SMTS_JR359585": {
    "alive": true,
@@ -16913,6 +16965,10 @@
    "alive": true,
    "at": "2026-10-28T01:20:08Z"
   },
+  "https://stripe.com/jobs/search?gh_jid=8329718": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
+  },
   "https://sumup.com/careers/positions/6651430002?gh_jid=6651430002": {
    "alive": true,
    "at": "2026-10-28T01:20:08Z"
@@ -17507,19 +17563,19 @@
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF089879W-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF089878W-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Cybersecurity-Engineer_REF087764W-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Sr-Director--Director-Software-Engineering_REF083479W": {
    "alive": true,
@@ -17535,11 +17591,11 @@
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-2": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Development-Engineer--Product-Reliability-Engineering_REF089580W": {
    "alive": true,
@@ -17547,11 +17603,11 @@
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1?utm_source=Simplify&ref=Simplify": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Director--Payment-Platform-Strategy_REF088676W-1": {
    "alive": true,
@@ -17559,11 +17615,11 @@
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF089875W-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://vivatechnology.com/": {
    "alive": true,
@@ -17671,7 +17727,7 @@
   },
   "https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Principal-Software-Development-Engineer_JR-0111124": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Software-Development-Engineer---Agent-Factory_JR-0110488": {
    "alive": true,
@@ -17731,7 +17787,7 @@
   },
   "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Principal-Architect--AI-Platform_JR-0110530": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Development-Engineer_JR-0111155": {
    "alive": true,
@@ -17831,7 +17887,7 @@
   },
   "https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Software-Development-Engineer---US-Federal_JR-0109614": {
    "alive": true,
-   "at": "2026-10-27T05:01:23Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Software-Development-Engineer--SRE---US-Federal-_JR-0105392": {
    "alive": true,
@@ -18221,6 +18277,10 @@
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
   },
+  "https://www.amazon.jobs/en/jobs/10443835/software-development-engineer-digital-payments-and-emerging-markets": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
   "https://www.amazon.jobs/en/jobs/10445310/software-development-engineer-ii-aws-transform-aws-transform": {
    "alive": true,
    "at": "2026-10-26T01:08:08Z"
@@ -18348,6 +18408,10 @@
   "https://www.amazon.jobs/en/jobs/10465174/software-development-engineer-aws-database-services": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10465260/software-development-engineer-ii-aws-iam-identity-center": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10465850/software-development-engineer-ads-ai-core-infra": {
    "alive": true,
@@ -18683,7 +18747,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10490666/software-development-engineer-ii-secure-connection-services-scs": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10490681/software-development-engineer-ii-prime-air": {
    "alive": true,
@@ -19419,7 +19483,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10526828/software-development-engineer-ii-prime-video-ads-channels": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10526942/software-development-engineer-amazon-mq": {
    "alive": true,
@@ -19675,7 +19739,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10539807/software-development-engineer-robotics-development-and-packaging-innovation": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10541282/software-development-engineer-eva-development-team": {
    "alive": true,
@@ -19741,6 +19805,10 @@
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
   },
+  "https://www.amazon.jobs/en/jobs/10544200/software-development-engineer-aws-kubernetes-k8s-aws-kubernetes": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
   "https://www.amazon.jobs/en/jobs/10544324/software-development-engineer-ii-india-healthcare": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
@@ -19779,7 +19847,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10547074/software-development-engineer-amazon-dsp-amazon-ad-exchange": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10547103/software-development-engineer-humorphic-labs": {
    "alive": true,
@@ -19849,6 +19917,10 @@
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
   },
+  "https://www.amazon.jobs/en/jobs/10552947/software-development-engineer-customer-experience-and-business-trends": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
   "https://www.amazon.jobs/en/jobs/10552997/software-development-engineer-ecs": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
@@ -19911,7 +19983,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10554118/software-development-engineer-ii-alexa-smart-home-cameras": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10554266/software-development-engineer-ii-aws-sagemaker": {
    "alive": true,
@@ -20748,6 +20820,10 @@
   "https://www.amazon.jobs/en/jobs/10572862/software-development-engineer-fees-tech": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10572918/software-development-engineer-robotics-development-and-packaging-innovation": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10573003/software-development-engineer-amazon": {
    "alive": true,
@@ -21635,7 +21711,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10586756/software-development-engineer-leo-autopilot": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10586770/software-development-engineer": {
    "alive": true,
@@ -21688,6 +21764,10 @@
   "https://www.amazon.jobs/en/jobs/10587056/software-development-engineer-dynamodb": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10587131/software-development-engineer-ii-leo-space-engineering-applications": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10587264/software-development-engineer-neuron-collectives-annapurna-labs": {
    "alive": true,
@@ -21761,6 +21841,18 @@
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
   },
+  "https://www.amazon.jobs/en/jobs/10588649/software-development-engineer-security-automation-aws-security-epoxy": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10588652/software-development-engineer-3-tax-and-account-compliance": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
+  "https://www.amazon.jobs/en/jobs/10588672/software-development-engineer-aws-cloudwatch-aws-observability-analytics": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
   "https://www.amazon.jobs/en/jobs/10588676/software-development-engineer-amazon-quick": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
@@ -21779,7 +21871,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10588960/software-development-engineer-ii-aws-iam-authruntimeclient": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10588993/software-development-engineer-amazon-foundation-security-services": {
    "alive": true,
@@ -21791,35 +21883,35 @@
   },
   "https://www.amazon.jobs/en/jobs/10589197/software-development-engineer-aft-external-fulfillment": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589203/software-development-engineer-aft-external-fulfillment": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589205/software-development-engineer-aft-external-fulfillment": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589212/software-development-engineer-aft-external-fulfillment": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589217/software-development-engineer-aft-external-fulfillment": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589233/software-development-engineer-region-flexibility-engineering": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589259/software-development-engineer-aws-field-experience": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589426/software-development-engineer-leo-secure-communications-team": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589519/software-development-engineer-connectivity-emerging-device-software": {
    "alive": true,
@@ -21835,23 +21927,23 @@
   },
   "https://www.amazon.jobs/en/jobs/10589688/software-development-engineer-aws-security-epoxy": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589832/software-development-engineer-us-adc-security": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589836/software-development-engineer-us-adc-security": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589857/software-development-engineer-aws-security-communications": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10589937/software-development-engineer-advanced-analytics-lld": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.amazon.jobs/en/jobs/10590145/software-development-engineer-2027": {
    "alive": true,
@@ -21969,6 +22061,10 @@
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
   },
+  "https://www.amazon.jobs/en/jobs/3203393/software-development-engineer-test-ii-alexa-endpoint-experiences": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
   "https://www.amazon.jobs/en/jobs/3203694/software-development-engineer-alexa-endpoint-experiences": {
    "alive": true,
    "at": "2026-10-28T01:19:26Z"
@@ -22028,6 +22124,10 @@
   "https://www.arbeitnow.co.uk/jobs/companies/elastic/software-engineer-ii-edr-workflows-security-246169": {
    "alive": true,
    "at": "2026-10-22T20:05:43Z"
+  },
+  "https://www.arbeitnow.fr/jobs/companies/palantir/forward-deployed-software-engineer-internship-paris-france-405810": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003901051-S": {
    "alive": true,
@@ -22479,7 +22579,7 @@
   },
   "https://www.coinbase.com/careers/positions/8326127?gh_jid=8326127": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://www.coupang.jobs/en/jobs/?gh_jid=7227610": {
    "alive": true,
@@ -22915,7 +23015,7 @@
   },
   "https://www.indeed.com/viewjob?jk=4e99357beb56c5b8": {
    "alive": true,
-   "at": "2026-10-26T19:17:21Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.indeed.com/viewjob?jk=7fcef11e9efac316": {
    "alive": true,
@@ -22932,6 +23032,10 @@
   "https://www.indeed.com/viewjob?jk=d11681ea4349334b": {
    "alive": true,
    "at": "2026-10-27T16:36:20Z"
+  },
+  "https://www.indeed.com/viewjob?jk=d7c65f29503af513": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.indeed.com/viewjob?jk=dab43eeb438af62c": {
    "alive": true,
@@ -23095,7 +23199,7 @@
   },
   "https://www.linkedin.com/jobs/view/4472552295": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://www.linkedin.com/jobs/view/4475832754": {
    "alive": true,
@@ -23459,7 +23563,7 @@
   },
   "https://www.mongodb.com/careers/job/?gh_jid=8323897": {
    "alive": true,
-   "at": "2026-10-27T16:36:37Z"
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://www.mozillafestival.org/": {
    "alive": true,
@@ -23956,6 +24060,10 @@
   "https://www.okta.com/company/careers/opportunity/8262963?gh_jid=8262963": {
    "alive": true,
    "at": "2026-10-28T01:20:08Z"
+  },
+  "https://www.okta.com/company/careers/opportunity/8263827?gh_jid=8263827": {
+   "alive": true,
+   "at": "2026-10-28T08:27:37Z"
   },
   "https://www.okta.com/company/careers/opportunity/8263916?gh_jid=8263916": {
    "alive": true,
@@ -24461,6 +24569,10 @@
    "alive": true,
    "at": "2026-10-25T11:24:36Z"
   },
+  "https://zapply.jobs/l/d/bytedance-7670004502598060341?s=gh-new-grad-data-science-jobs-2027": {
+   "alive": true,
+   "at": "2026-10-28T08:27:14Z"
+  },
   "https://zapply.jobs/l/d/bytedance-7672557061679483189?s=gh-internships-2027": {
    "alive": true,
    "at": "2026-10-27T21:17:43Z"
@@ -24627,7 +24739,7 @@
   },
   "https://zapply.jobs/l/d/oracle-jpmorgan-chase-210803936?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/oracle-jpmorgan-chase-210803936?s=gh-new-grad-jobs-2027": {
    "alive": true,
@@ -24815,39 +24927,39 @@
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089878W?s=gh-internships-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089878W?s=gh-new-grad-jobs-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089878W?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089880W?s=gh-internships-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089880W?s=gh-new-grad-jobs-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089880W?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089882W?s=gh-internships-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089882W?s=gh-new-grad-jobs-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zapply.jobs/l/d/workday-visa-visa-REF089882W?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
-   "at": "2026-10-27T16:36:20Z"
+   "at": "2026-10-28T08:27:14Z"
   },
   "https://zhch-nyc.devpost.com/": {
    "alive": true,
