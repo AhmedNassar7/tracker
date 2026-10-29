@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Thu, 29 Oct 2026 07:07:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 14:19:19 GMT</lastBuildDate>
     <item>
       <title>Apidays Australia — Apidays Australia</title>
       <link>https://www.apidays.global/australia</link>
@@ -1021,6 +1021,13 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>SunSecCon — SunSecCon</title>
+      <link>https://www.sunseccon.org/2027</link>
+      <guid isPermaLink="false">54bcb36971827b24</guid>
+      <description>Pasadena, CA, U.S.A. · 154 days left</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>RSAC — RSA Conference 2027</title>
       <link>https://www.rsaconference.com/usa</link>
       <guid isPermaLink="false">69afbe5f6c8f6889</guid>
@@ -1144,6 +1151,20 @@
       <link>https://conference.eurostarsoftwaretesting.com</link>
       <guid isPermaLink="false">68fdd517a6a7cfdd</guid>
       <description>Copenhagen, Denmark · 194 days left</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>JSNation — JSNation</title>
+      <link>https://jsnation.com</link>
+      <guid isPermaLink="false">e2edb5b3383f1d69</guid>
+      <description>Amsterdam, Netherlands · 204 days left</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>React Summit — React Summit</title>
+      <link>https://reactsummit.com</link>
+      <guid isPermaLink="false">92ef9c0c846f312d</guid>
+      <description>Amsterdam, Netherlands · 204 days left</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1378,6 +1399,20 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Luma — Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!</title>
+      <link>https://lu.ma/sf-hackersquad?k=c</link>
+      <guid isPermaLink="false">aed6d9da6026198f</guid>
+      <description>Global</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luma — Follow Bond AI - San Francisco and Bay Area San Francisco · Bond AI - the largest in-person AI events community (150k+ members) 📢 Add your event submit.bondcommunity.ai 📤 to the weekly events email 🌎 Explore other cities bondcommunity.ai/#join</title>
+      <link>https://lu.ma/genai-sf?k=c</link>
+      <guid isPermaLink="false">ada91f97fe8d8971</guid>
+      <description>Global</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Luma — Follow Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)</title>
       <link>https://lu.ma/buildercommunityanz?k=c</link>
       <guid isPermaLink="false">471efdb8c8e9c1eb</guid>
@@ -1392,9 +1427,23 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Luma — Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply</title>
+      <link>https://lu.ma/frontiertower?k=c</link>
+      <guid isPermaLink="false">190d2fdcd350a5e9</guid>
+      <description>Global</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Luma — Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team</title>
       <link>https://lu.ma/deepmind?k=c</link>
       <guid isPermaLink="false">a55b3bdcd72bf05f</guid>
+      <description>Global</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luma — Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!</title>
+      <link>https://lu.ma/sf-hardware-meetup?k=c</link>
+      <guid isPermaLink="false">e62e8da82d967bd3</guid>
       <description>Global</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
