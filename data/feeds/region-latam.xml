@@ -4,7 +4,7 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Thu, 29 Oct 2026 00:56:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 07:07:34 GMT</lastBuildDate>
     <item>
       <title>Kraken.com — Senior Software Engineer - Dev Platform</title>
       <link>https://jobs.ashbyhq.com/kraken.com/11c70bea-e807-4f35-bde7-7422e639290b</link>
@@ -153,13 +153,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Schneider Electric — Ingeniero Comercial Servicios AMBA</title>
-      <link>https://careers.se.com/jobs/133827</link>
-      <guid isPermaLink="false">b0be0b8292eff604</guid>
-      <description>Argentina · other · 14d</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Airbnb — Senior Software Engineer, Analytics Infrastructure</title>
       <link>https://careers.airbnb.com/positions/8263282?gh_jid=8263282</link>
       <guid isPermaLink="false">bfbb8fce7e758989</guid>
@@ -192,13 +185,6 @@
       <link>https://www.amazon.jobs/en/jobs/10575131/software-development-engineer-ii-latech-fba</link>
       <guid isPermaLink="false">8b09d8fbebf39c98</guid>
       <description>Sao Paulo, Sao Paulo, BRA · mid_level · 20d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer Intern, Amazon University Talent Acquisition</title>
-      <link>https://www.amazon.jobs/en/jobs/10574925/software-development-engineer-intern-amazon-university-talent-acquisition</link>
-      <guid isPermaLink="false">e5e5538e3591c000</guid>
-      <description>Mexico City, Mexico City, MEX · internship · 20d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -286,6 +272,13 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Schneider Electric — Product Applications Engineer II</title>
+      <link>https://careers.se.com/jobs/133384</link>
+      <guid isPermaLink="false">b626bc6405e9fd2e</guid>
+      <description>Chile; Antofagasta, Chile · mid_level · 44d</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Epic Games — Senior Mobile Game Designer</title>
       <link>https://epicgames.com/careers/jobs/6000061004?gh_jid=6000061004</link>
       <guid isPermaLink="false">81a57ddee15d9312</guid>
@@ -349,6 +342,13 @@
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer, Digital Payments and Emerging Markets</title>
+      <link>https://www.amazon.jobs/en/jobs/10443835/software-development-engineer-digital-payments-and-emerging-markets</link>
+      <guid isPermaLink="false">74cb26f262a5f72e</guid>
+      <description>Mexico City, Mexico City, MEX · unknown · 142d</description>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Swile — Senior Software Engineer, Backend (Payments)</title>
       <link>https://jobs.lever.co/swile/ba335751-9ae3-4d18-a5c8-b47596d577de</link>
       <guid isPermaLink="false">19c730acee6300f3</guid>
@@ -380,7 +380,7 @@
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Senior-Software-Engineer_R-281205</link>
       <guid isPermaLink="false">2fb9fa64536723f8</guid>
-      <description>Mexico City, Mexico · mid_level · 0d</description>
+      <description>Mexico City, Mexico · mid_level · 1d</description>
     </item>
   </channel>
 </rss>
