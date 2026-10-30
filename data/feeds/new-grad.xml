@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Fri, 30 Oct 2026 19:23:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 23:47:07 GMT</lastBuildDate>
     <item>
       <title>ByteDance — Large Language Model Inference System Engineer Graduate (Applied Machine Learning) - 2027 Start</title>
       <link>https://zapply.jobs/l/d/bytedance-7667726338627356933?s=gh-new-grad-data-science-jobs-2027</link>
@@ -27,6 +27,13 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>SpaceX — New Graduate Engineer, Infrastructure</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8893406002?gh_jid=8893406002</link>
+      <guid isPermaLink="false">2818ed6515d35d80</guid>
+      <description>Starbase, TX · new_grad · 0d</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8202299</link>
       <guid isPermaLink="false">96c447bc3e584e46</guid>
@@ -41,10 +48,17 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — New Graduate Engineer, Infrastructure</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8893406002?gh_jid=8893406002</link>
-      <guid isPermaLink="false">2818ed6515d35d80</guid>
-      <description>Starbase, TX · new_grad · 1d</description>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 1d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
+      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
+      <description>San Francisco, Seattle, New York · new_grad · 1d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -63,13 +77,6 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 1d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
       <description>London · new_grad · 1d</description>
@@ -83,17 +90,17 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Databricks — Software Engineer New Grad</title>
-      <link>https://boards.greenhouse.io/embed/job_app?token=6865698002&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">a3b20375b3279c3f</guid>
-      <description>Mountain View, CA · new_grad · 2d</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130876</link>
       <guid isPermaLink="false">1f1413972e1eb8ce</guid>
       <description>Bangalore · new_grad · 2d</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks — Software Engineer New Grad</title>
+      <link>https://boards.greenhouse.io/embed/job_app?token=6865698002&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">a3b20375b3279c3f</guid>
+      <description>Mountain View, CA · new_grad · 2d</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -188,17 +195,17 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Engineer – Early Career</title>
-      <link>https://amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">eca72aa32d52ed24</guid>
-      <description>Madison, WI +8 more · new_grad · 10d</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Palantir — Software Engineer New Grad - Query Engines</title>
       <link>https://jobs.lever.co/palantir/0f7d1e01-1f74-4786-944d-910208d390fa/apply?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">679490206c556957</guid>
       <description>London, UK · new_grad · 10d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Engineer – Early Career</title>
+      <link>https://amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">eca72aa32d52ed24</guid>
+      <description>Madison, WI +8 more · new_grad · 10d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -228,13 +235,6 @@
       <guid isPermaLink="false">5f1e04a796e9065c</guid>
       <description>London, United Kingdom · new_grad · 11d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
-      <guid isPermaLink="false">c623d077adb61061</guid>
-      <description>US, CA, Santa Clara · new_grad · 17d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Two Sigma — Software Engineer New Grad</title>
