@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-31T17:43:15Z",
+ "generated_at": "2026-10-31T21:31:09Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
-   "at": "2026-10-28T01:20:08Z"
+   "at": "2026-10-31T21:31:09Z"
   },
   "/buildercommunityanz?k=c": {
    "alive": true,
@@ -35,7 +35,7 @@
   },
   "/stationdc?k=c": {
    "alive": true,
-   "at": "2026-10-28T01:20:08Z"
+   "at": "2026-10-31T21:31:09Z"
   },
   "http://block.xyz/careers/jobs/4901418008?gh_jid=4901418008": {
    "alive": true,
@@ -325,10 +325,6 @@
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
   },
-  "https://agent-builders-hackathon.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
-  },
   "https://agentverse.devfolio.co": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
@@ -452,10 +448,6 @@
   "https://amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-10-31T17:42:23Z"
-  },
-  "https://amazon.jobs/en/jobs/10586548/jr-software-development-engineer-detroit-mi-jr-developer-program?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa?utm_source=Simplify&ref=Simplify": {
    "alive": true,
@@ -692,10 +684,6 @@
   "https://apply.careers.microsoft.com/careers/job/1970393557044765?utm_source=github-vansh-ouckah": {
    "alive": true,
    "at": "2026-10-24T23:12:09Z"
-  },
-  "https://apply.careers.microsoft.com/careers/job/1970393557044771?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://apply.careers.microsoft.com/careers/job/1970393557049981": {
    "alive": true,
@@ -3369,22 +3357,6 @@
    "alive": true,
    "at": "2026-10-29T20:16:40Z"
   },
-  "https://careers.amd.com/careers-home/jobs/90891?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://careers.amd.com/careers-home/jobs/90947?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://careers.amd.com/careers-home/jobs/91176?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://careers.amd.com/careers-home/jobs/91180?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://careers.amd.com/jobs/90305?icims=1&utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-10-31T05:37:35Z"
@@ -4825,10 +4797,6 @@
    "alive": true,
    "at": "2026-10-29T00:54:21Z"
   },
-  "https://claudetec-hack26.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
-  },
   "https://clc-conference.eu/index_en.php": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
@@ -6193,10 +6161,6 @@
    "alive": true,
    "at": "2026-10-31T17:42:23Z"
   },
-  "https://five-nights-with-ai.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
-  },
   "https://fosdem.org/2027/": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
@@ -7120,10 +7084,6 @@
   "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Sr-Back-End-Facilities-Development-Engineer_JR0288416": {
    "alive": true,
    "at": "2026-10-25T06:07:55Z"
-  },
-  "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Information-Security-Engineer-Undergraduate-Intern_JR0287588?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Senior-Middleware-Software-Development-Engineer_JR0286296": {
    "alive": true,
@@ -9081,10 +9041,6 @@
    "alive": true,
    "at": "2026-10-31T12:24:45Z"
   },
-  "https://job-boards.greenhouse.io/spacex/jobs/8621756002?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://job-boards.greenhouse.io/twilio/jobs/7595407": {
    "alive": true,
    "at": "2026-10-27T10:32:24Z"
@@ -10813,14 +10769,6 @@
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
   },
-  "https://jobs.ashbyhq.com/notion/39d70209-37f6-4623-949b-18fbd8889933?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://jobs.ashbyhq.com/notion/3e56e35b-f35b-4b1a-ba2b-0ccdc6f60421?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c": {
    "alive": true,
    "at": "2026-10-31T17:42:23Z"
@@ -10832,10 +10780,6 @@
   "https://jobs.ashbyhq.com/notion/49bdf081-6e20-4323-8c73-6d6b19544ff5": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
-  },
-  "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://jobs.ashbyhq.com/notion/5d8c1ec6-e9ea-416b-9715-880bf5037abc": {
    "alive": true,
@@ -10892,10 +10836,6 @@
   "https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
-  },
-  "https://jobs.ashbyhq.com/notion/fc762b58-24c9-4f34-bf5f-2af6e8adc644?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047": {
    "alive": true,
@@ -11080,10 +11020,6 @@
   "https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2": {
    "alive": true,
    "at": "2026-10-30T14:06:55Z"
-  },
-  "https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2/application?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://jobs.ashbyhq.com/openai/4070d52e-0263-4cd5-9107-052b4ecc1209": {
    "alive": true,
@@ -13297,17 +13233,9 @@
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
   },
-  "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
-  },
-  "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976": {
    "alive": true,
@@ -13364,10 +13292,6 @@
   "https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
-  },
-  "https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af": {
    "alive": true,
@@ -13529,10 +13453,6 @@
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
   },
-  "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://jobs.lever.co/palantir/8f308f3e-43d2-49c9-accd-cc7af0f1565c": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
@@ -13580,10 +13500,6 @@
   "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
-  },
-  "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://jobs.lever.co/palantir/a576c5ef-2a51-4522-9c98-bca5ac2abbb3": {
    "alive": true,
@@ -13753,10 +13669,6 @@
    "alive": true,
    "at": "2026-10-31T17:42:23Z"
   },
-  "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://jobs.lever.co/palantir/d5d83a8f-cb96-41cc-9612-c7224fbb2fbc": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
@@ -13833,17 +13745,9 @@
    "alive": true,
    "at": "2026-10-31T17:42:23Z"
   },
-  "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
-  },
-  "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3": {
    "alive": true,
@@ -14773,10 +14677,6 @@
    "alive": true,
    "at": "2026-10-26T01:08:51Z"
   },
-  "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-277806": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
-  },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-288518": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
@@ -15221,21 +15121,9 @@
    "alive": true,
    "at": "2026-10-27T05:01:23Z"
   },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Software-Engineer-Intern---NVEX--2027_JR2028186": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
-  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Compute-System-Arch-Engineer--AI-Infra---New-College-Grad-2027_JR2028578": {
    "alive": true,
    "at": "2026-10-29T14:16:32Z"
-  },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--AI-Automation-Infra---2027_JR2028205": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
-  },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/System-Software-Engineer-Intern--Embedded---2027_JR2028298": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shenzhen/Deep-Learning-Compiler-CI-Infrastructure-Engineer_JR2020326": {
    "alive": true,
@@ -15248,10 +15136,6 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/France-Courbevoie/Software-Engineering-Intern--Developer-Tools---2027_JR2028209": {
    "alive": true,
    "at": "2026-10-27T05:01:23Z"
-  },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/Senior-Software-Engineer--Real-Time-Data-Platform_JR2027710": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Remote/Senior-Software-Engineer---Active-Safety-for-Autonomous-Vehicles_JR2028382": {
    "alive": true,
@@ -15593,10 +15477,6 @@
    "alive": true,
    "at": "2026-10-30T19:20:27Z"
   },
-  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---WebRTC-Streaming_JR2028519": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
-  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Frameworks_JR2015296": {
    "alive": true,
    "at": "2026-10-30T19:20:27Z"
@@ -15920,10 +15800,6 @@
   "https://osoday.com": {
    "alive": true,
    "at": "2026-10-24T23:12:50Z"
-  },
-  "https://ou-sasehacks.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-24T20:46:59Z"
   },
   "https://oxhack-2026.devpost.com/": {
    "alive": true,
@@ -16497,10 +16373,6 @@
    "alive": true,
    "at": "2026-10-25T01:11:14Z"
   },
-  "https://siemens.avature.net/en_US/externaljobs/JobDetail/526984?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://slush.org/": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
@@ -16516,10 +16388,6 @@
   "https://sphinx-26.devpost.com/": {
    "alive": true,
    "at": "2026-10-31T05:38:22Z"
-  },
-  "https://stanford-cleantech-hackathon.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
   },
   "https://stareast.techwell.com": {
    "alive": true,
@@ -17576,6 +17444,10 @@
   "https://unstop.com/hackathons/cobot-ex-2026-inter-college-hackathon-b-s-abdur-rahman-crescent-institute-of-science-and-technology-chennai-t-1783202": {
    "alive": true,
    "at": "2026-10-31T17:43:15Z"
+  },
+  "https://unstop.com/hackathons/code-shift-2026-infotechiezz-1786387": {
+   "alive": true,
+   "at": "2026-10-31T21:31:09Z"
   },
   "https://unstop.com/hackathons/codehive-community-duel-night-code-hive-1782942": {
    "alive": true,
@@ -19043,7 +18915,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10493715/software-development-engineer-software-defined-network-control-plane-amazon-leo": {
    "alive": true,
-   "at": "2026-10-30T14:06:11Z"
+   "at": "2026-10-31T21:30:54Z"
   },
   "https://www.amazon.jobs/en/jobs/10493846/software-development-engineer-adsp": {
    "alive": true,
@@ -20632,10 +20504,6 @@
   "https://www.amazon.jobs/en/jobs/10567585/software-development-engineer-leo-network-services-network-orchestration": {
    "alive": true,
    "at": "2026-10-31T17:42:23Z"
-  },
-  "https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://www.amazon.jobs/en/jobs/10568098/software-development-engineer-ii-core-selling-partner-experience": {
    "alive": true,
@@ -24641,66 +24509,6 @@
    "alive": true,
    "at": "2026-10-31T12:24:45Z"
   },
-  "https://www.tesla.com/careers/search/job/244786?source=Indeed&source=Indeed&tags=organicjob&utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/247862?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248001?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248019?source=Indeed&source=Indeed&tags=organicjob&utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248062?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248064?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248070?source=Indeed&source=Indeed&tags=organicjob&utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248104?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248358?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248805?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/248920?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/251798?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/254590?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/254611?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/267767?jr_id=69dd6930bc6f6622c9912106&utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
   "https://www.tesla.com/careers/search/job/281097?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-10-26T19:17:21Z"
@@ -24712,30 +24520,6 @@
   "https://www.tesla.com/careers/search/job/287982?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-10-31T12:24:21Z"
-  },
-  "https://www.tesla.com/careers/search/job/internship-embedded-software-engineer-keys-authentication-fall-2026-270067?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/internship-software-developer-integration-platforms-fall-2026-270037?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/internship-software-engineer-maps-navigation-validation-fall-2026--270186?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/internship-software-engineer-service-engineering-fall-2026-266119?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/internship-software-engineer-update-systems-fall-2026-267002?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
-  },
-  "https://www.tesla.com/careers/search/job/internship-software-engineer-vehicle-ui-development-fall-2026-270063?utm_source=github-vansh-ouckah": {
-   "alive": true,
-   "at": "2026-10-24T18:07:26Z"
   },
   "https://www.testautomationdays.com": {
    "alive": true,
@@ -25119,7 +24903,7 @@
   },
   "https://zapply.jobs/l/d/workday-adobe-external-experienced-R171519?s=gh-new-grad-data-science-jobs-2027": {
    "alive": true,
-   "at": "2026-10-31T05:37:35Z"
+   "at": "2026-10-31T21:30:54Z"
   },
   "https://zapply.jobs/l/d/workday-adobe-external-experienced-R173000?s=gh-internships-2027": {
    "alive": true,
@@ -25228,10 +25012,6 @@
   "https://zapply.jobs/l/d/workday-visa-visa-REF089882W?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
    "at": "2026-10-31T12:24:21Z"
-  },
-  "https://zhch-nyc.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-24T18:07:50Z"
   },
   "https://zoftware-agenthack.devpost.com/": {
    "alive": true,
