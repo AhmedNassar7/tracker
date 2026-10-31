@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sat, 31 Oct 2026 05:42:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 12:26:41 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10593929/software-development-engineer</link>
@@ -13,10 +13,10 @@
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
-      <guid isPermaLink="false">c623d077adb61061</guid>
-      <description>US, CA, Santa Clara · new_grad · 0d</description>
+      <title>Amazon — Software Development Engineer II, Lightsail</title>
+      <link>https://www.amazon.jobs/en/jobs/10591799/software-development-engineer-ii-lightsail</link>
+      <guid isPermaLink="false">5cba80948f387503</guid>
+      <description>Seattle, Washington, USA · mid_level · 0d</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -34,10 +34,59 @@
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Software Engineer Intern - Summer 2027</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8171041?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">4c313db5f03b320e</guid>
-      <description>5 locationsSeattle, WA SF LA NYC Sunnyvale, CA · internship · 1mo</description>
+      <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
+      <guid isPermaLink="false">c623d077adb61061</guid>
+      <description>US, CA, Santa Clara · new_grad · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — PhD Data Scientist, Intern</title>
+      <link>https://zapply.jobs/l/d/greenhouse-stripe-8194283?s=gh-new-grad-data-science-jobs-2027</link>
+      <guid isPermaLink="false">2ac3773b58dde4b7</guid>
+      <description>New York, Seattle, South San... · internship · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Senior Software Engineer, iOS</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8139094</link>
+      <guid isPermaLink="false">4a41890bb71f014b</guid>
+      <description>San Francisco, CA ; Sunnyvale, CA · mid_level · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Senior Software Engineer, iOS (All Teams)</title>
+      <link>https://job-boards.greenhouse.io/doordashcanada/jobs/8148451</link>
+      <guid isPermaLink="false">874ea8b7761196b8</guid>
+      <description>Toronto, ON, Canada · mid_level · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineer, iOS</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8141072</link>
+      <guid isPermaLink="false">4f2875b8cb4a44c4</guid>
+      <description>Sunnyvale, CA; San Francisco, CA; Seattle, WA; New York, NY · other · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineer, ML Infrastructure (MDX)</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8283735</link>
+      <guid isPermaLink="false">81174c3cd34e7a90</guid>
+      <description>San Francisco, CA; Sunnyvale, CA; Seattle, WA · other · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineer, ML Serving Platform</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8263726</link>
+      <guid isPermaLink="false">138e9c49756f5838</guid>
+      <description>San Francisco, CA; Sunnyvale, CA; • Seattle, WA · other · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoorDash — Software Engineering, Android (All Teams)</title>
+      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8161616</link>
+      <guid isPermaLink="false">c5e8030d785b5b75</guid>
+      <description>San Francisco, CA; New York City, NY; Sunnyvale, CA; Seattle, WA · other · 0d</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -59,6 +108,62 @@
       <link>https://www.mongodb.com/careers/job/?gh_jid=7821316</link>
       <guid isPermaLink="false">26982c1f6215e74a</guid>
       <description>New York City · other · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Engineering Manager, Knowledge Graph Platform</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8256326</link>
+      <guid isPermaLink="false">5950726e44ce6fc3</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Frontend Engineer, Ads</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8194576</link>
+      <guid isPermaLink="false">10637ebcdaefe376</guid>
+      <description>Remote - United States · other · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Frontend Engineer, Ads Campaign Manager</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8240716</link>
+      <guid isPermaLink="false">239e9d023b99fc23</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Frontend Engineer, Ads Creative</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8175520</link>
+      <guid isPermaLink="false">f03ebb6c3a5bd0da</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Frontend Engineer, Ads Formats</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8287466</link>
+      <guid isPermaLink="false">ae63e62a90867717</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Software Engineer, Agentic Ads Experience</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/7980795</link>
+      <guid isPermaLink="false">6ba729ce5ab63e69</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Software Engineer, Ad Signals</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8319655</link>
+      <guid isPermaLink="false">0c516bcbe90c5f1d</guid>
+      <description>Remote - United States · other · 0d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Staff Android Engineer, Brand Ad Formats</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8127002</link>
+      <guid isPermaLink="false">6b5d8a27f0918b8c</guid>
+      <description>Remote - United States · mid_level · 0d</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -150,20 +255,6 @@
       <link>https://img.shields.io/badge/-Apply-blue?style=for-the-badge</link>
       <guid isPermaLink="false">4bda7230d6baf3cb</guid>
       <description>Toronto, ON · internship · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Large Language Model Inference System Engineer Graduate (Applied Machine Learning) - 2027 Start</title>
-      <link>https://zapply.jobs/l/d/bytedance-7667726338627356933?s=gh-new-grad-data-science-jobs-2027</link>
-      <guid isPermaLink="false">7214592d4db21049</guid>
-      <description>San Jose, California · new_grad · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance — Machine Learning Engineer Intern (E-Commerce Risk Control)- 2027 Start (PhD)</title>
-      <link>https://zapply.jobs/l/d/bytedance-7675477254269765941?s=gh-internships-2027</link>
-      <guid isPermaLink="false">ea995683eb522927</guid>
-      <description>Seattle, Washington · internship · 1d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -269,6 +360,13 @@
       <link>https://www.amazon.jobs/en/jobs/10593694/software-development-engineer-iam-stores-security</link>
       <guid isPermaLink="false">1a829b2731308d93</guid>
       <description>London, England, GBR · unknown · 1d</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, PXT Central Science</title>
+      <link>https://www.amazon.jobs/en/jobs/10593778/software-development-engineer-pxt-central-science</link>
+      <guid isPermaLink="false">26f3a9740b827cc7</guid>
+      <description>Bellevue, Washington, USA · unknown · 1d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2064,20 +2162,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Senior Software Engineer, iOS</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8139094</link>
-      <guid isPermaLink="false">4a41890bb71f014b</guid>
-      <description>San Francisco, CA ; Sunnyvale, CA · mid_level · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Senior Software Engineer, iOS (All Teams)</title>
-      <link>https://job-boards.greenhouse.io/doordashcanada/jobs/8148451</link>
-      <guid isPermaLink="false">874ea8b7761196b8</guid>
-      <description>Toronto, ON, Canada · mid_level · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DoorDash — Senior Software Engineer, Spark Platform</title>
       <link>https://job-boards.greenhouse.io/doordashusa/jobs/8193574</link>
       <guid isPermaLink="false">465bb54a02936750</guid>
@@ -2183,27 +2267,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DoorDash — Software Engineer, iOS</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8141072</link>
-      <guid isPermaLink="false">4f2875b8cb4a44c4</guid>
-      <description>Sunnyvale, CA; San Francisco, CA; Seattle, WA; New York, NY · other · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Software Engineer, ML Infrastructure (MDX)</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8283735</link>
-      <guid isPermaLink="false">81174c3cd34e7a90</guid>
-      <description>San Francisco, CA; Sunnyvale, CA; Seattle, WA · other · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Software Engineer, ML Serving Platform</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8263726</link>
-      <guid isPermaLink="false">138e9c49756f5838</guid>
-      <description>San Francisco, CA; Sunnyvale, CA; • Seattle, WA · other · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DoorDash — Software Engineer, Planning &amp; Controls - Autonomy &amp; Robotics, DoorDash Air</title>
       <link>https://job-boards.greenhouse.io/doordashusa/jobs/8046982</link>
       <guid isPermaLink="false">415ed4643c3b47aa</guid>
@@ -2243,13 +2306,6 @@
       <link>https://job-boards.greenhouse.io/doordashusa/jobs/8212984</link>
       <guid isPermaLink="false">7869488b3d7e45f1</guid>
       <description>San Francisco, CA; Seattle, WA; New York, NY · other · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Software Engineering, Android (All Teams)</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8161616</link>
-      <guid isPermaLink="false">c5e8030d785b5b75</guid>
-      <description>San Francisco, CA; New York City, NY; Sunnyvale, CA; Seattle, WA · other · 1d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2771,65 +2827,9 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Reddit — Engineering Manager, Knowledge Graph Platform</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8256326</link>
-      <guid isPermaLink="false">5950726e44ce6fc3</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Frontend Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8194576</link>
-      <guid isPermaLink="false">10637ebcdaefe376</guid>
-      <description>Remote - United States · other · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Frontend Engineer, Ads Campaign Manager</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8240716</link>
-      <guid isPermaLink="false">239e9d023b99fc23</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Frontend Engineer, Ads Creative</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8175520</link>
-      <guid isPermaLink="false">f03ebb6c3a5bd0da</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Frontend Engineer, Ads Formats</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8287466</link>
-      <guid isPermaLink="false">ae63e62a90867717</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Software Engineer, Agentic Ads Experience</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/7980795</link>
-      <guid isPermaLink="false">6ba729ce5ab63e69</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Reddit — Senior Software Engineer, Infrastructure Engineering</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8331341</link>
       <guid isPermaLink="false">a890ec9965b5c7d1</guid>
-      <description>Remote - United States · mid_level · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Software Engineer, Ad Signals</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8319655</link>
-      <guid isPermaLink="false">0c516bcbe90c5f1d</guid>
-      <description>Remote - United States · other · 1d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Staff Android Engineer, Brand Ad Formats</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8127002</link>
-      <guid isPermaLink="false">6b5d8a27f0918b8c</guid>
       <description>Remote - United States · mid_level · 1d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -7223,34 +7223,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Cisco — Software QA Engineer I (Full Time) - United States</title>
-      <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2030253?s=gh-new-grad-software-engineering-jobs-2027</link>
-      <guid isPermaLink="false">f81d28b8553cef1f</guid>
-      <description>Richardson, Texas, US · entry_level · 2d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tesla — Data Engineer Intern - Energy</title>
-      <link>https://www.tesla.com/careers/search/job/287982?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">3fefc2696cff347a</guid>
-      <description>Palo Alto, CA · internship · 2d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Product-Manager---Technical-II_R-293237</link>
-      <guid isPermaLink="false">7f8ae791f2a5e597</guid>
-      <description>Pune, India · mid_level · 2d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-293708</link>
-      <guid isPermaLink="false">0acb640b69de19b6</guid>
-      <description>Pune, India · mid_level · 2d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>LinkedIn — Software Engineer Intern (First Play) - Summer 2027 (Mountain View, CA)</title>
       <link>https://zapply.jobs/l/d/sr-LinkedIn3-744000158394370?s=gh-new-grad-software-engineering-jobs-2027</link>
       <guid isPermaLink="false">1bf19c4cb6109ddc</guid>
@@ -7286,6 +7258,13 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Cisco — Software QA Engineer I (Full Time) - United States</title>
+      <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2030253?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">f81d28b8553cef1f</guid>
+      <description>Richardson, Texas, US · entry_level · 2d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Figma — PhD Intern, Security Engineer (2027)</title>
       <link>https://zapply.jobs/l/d/greenhouse-figma-6238015004?s=gh-new-grad-software-engineering-jobs-2027</link>
       <guid isPermaLink="false">566ed51c8bb8f230</guid>
@@ -7304,6 +7283,13 @@
       <link>https://zapply.jobs/l/d/greenhouse-figma-6238015004?s=gh-internships-2027</link>
       <guid isPermaLink="false">55db640bb74ea2b1</guid>
       <description>San Francisco, CA • New York, NY · internship · 2d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tesla — Data Engineer Intern - Energy</title>
+      <link>https://www.tesla.com/careers/search/job/287982?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">3fefc2696cff347a</guid>
+      <description>Palo Alto, CA · internship · 2d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7602,9 +7588,16 @@
     </item>
     <item>
       <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-294519</link>
-      <guid isPermaLink="false">15e3c96aa6a65760</guid>
-      <description>O'Fallon, Missouri · mid_level · 2d</description>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Product-Manager---Technical-II_R-293237</link>
+      <guid isPermaLink="false">7f8ae791f2a5e597</guid>
+      <description>Pune, India · mid_level · 2d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-293708</link>
+      <guid isPermaLink="false">0acb640b69de19b6</guid>
+      <description>Pune, India · mid_level · 2d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7612,6 +7605,13 @@
       <link>https://go.vansh.nyc/Y5?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">02b1e974a03ad64d</guid>
       <description>Mountain View, CA · internship · 2d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-294519</link>
+      <guid isPermaLink="false">15e3c96aa6a65760</guid>
+      <description>O'Fallon, Missouri · mid_level · 2d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7717,6 +7717,13 @@
       <link>https://jobs.ashbyhq.com/clickhouse/cf36e6db-3939-4ff0-8bcf-a3bb200d9e46</link>
       <guid isPermaLink="false">20eb247af8dd297d</guid>
       <description>Germany · mid_level · 2d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Sr. Staff ML Infra Engineer - Offline Infra &amp; Training</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8081184</link>
+      <guid isPermaLink="false">94bcd900a123d817</guid>
+      <description>Mountain View, USA · mid_level · 2d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8813,20 +8820,6 @@
     </item>
     <item>
       <title>Visa — Sophomore Program Software Engineer Intern 🛂</title>
-      <link>https://go.vansh.nyc/VC?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">03d70fa9433952da</guid>
-      <description>Austin, TX · internship · 3d</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visa — Sophomore Program Software Engineer Intern 🛂</title>
-      <link>https://go.vansh.nyc/Vx?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">a57f5891f0771861</guid>
-      <description>Bellevue, WA · internship · 3d</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visa — Sophomore Program Software Engineer Intern 🛂</title>
       <link>https://go.vansh.nyc/Vy?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">722c647e47ed7b0d</guid>
       <description>Foster City, CA · internship · 3d</description>
@@ -8837,6 +8830,20 @@
       <link>https://go.vansh.nyc/VB?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">ffcdd03cc5aa5586</guid>
       <description>Denver, CO · internship · 3d</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Visa — Sophomore Program Software Engineer Intern 🛂</title>
+      <link>https://go.vansh.nyc/VC?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">03d70fa9433952da</guid>
+      <description>Austin, TX · internship · 3d</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Visa — Sophomore Program Software Engineer Intern 🛂</title>
+      <link>https://go.vansh.nyc/Vx?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">a57f5891f0771861</guid>
+      <description>Bellevue, WA · internship · 3d</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9051,16 +9058,16 @@
     </item>
     <item>
       <title>Visa — Software Engineer Intern 🛂</title>
-      <link>https://go.vansh.nyc/Xf?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">fa8921ef5b384b35</guid>
-      <description>Austin, TX · internship · 3d</description>
+      <link>https://go.vansh.nyc/Xe?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">cbd310be850990fe</guid>
+      <description>Foster City, CA · internship · 3d</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Visa — Software Engineer Intern 🛂</title>
-      <link>https://go.vansh.nyc/Xe?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">cbd310be850990fe</guid>
-      <description>Foster City, CA · internship · 3d</description>
+      <link>https://go.vansh.nyc/Xf?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">fa8921ef5b384b35</guid>
+      <description>Austin, TX · internship · 3d</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9701,6 +9708,13 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Visa — Software Engineer Intern 🛂</title>
+      <link>https://go.vansh.nyc/Vz?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">8ed6df0234d0012e</guid>
+      <description>Ashburn, VA · internship · 4d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Ashburn</title>
       <link>https://zapply.jobs/l/d/workday-visa-visa-REF089878W?s=gh-new-grad-software-engineering-jobs-2027</link>
       <guid isPermaLink="false">2d61b230f2d901a4</guid>
@@ -9740,34 +9754,6 @@
       <link>https://zapply.jobs/l/d/workday-visa-visa-REF089880W?s=gh-internships-2027</link>
       <guid isPermaLink="false">00c774b61101ed1d</guid>
       <description>Denver, CO · internship · 4d</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visa — Software Engineer Intern 🛂</title>
-      <link>https://go.vansh.nyc/Vz?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">8ed6df0234d0012e</guid>
-      <description>Ashburn, VA · internship · 4d</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-294517</link>
-      <guid isPermaLink="false">4cad116eb56811d3</guid>
-      <description>O'Fallon, Missouri · mid_level · 4d</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-289342</link>
-      <guid isPermaLink="false">f990d1725b37b8cf</guid>
-      <description>O'Fallon, Missouri · mid_level · 4d</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II - Decision Management Program</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II---Decision-Management-Program_R-286598</link>
-      <guid isPermaLink="false">ccd78c1d9fd986bc</guid>
-      <description>O'Fallon, Missouri · mid_level · 4d</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -9964,6 +9950,27 @@
       <link>https://jobs.apple.com/en-us/details/200691968/systems-software-engineer-performance-agentic-tools</link>
       <guid isPermaLink="false">a37d1d97eddaa6f2</guid>
       <description>Cupertino, United States of America · unknown · 4d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-294517</link>
+      <guid isPermaLink="false">4cad116eb56811d3</guid>
+      <description>O'Fallon, Missouri · mid_level · 4d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-289342</link>
+      <guid isPermaLink="false">f990d1725b37b8cf</guid>
+      <description>O'Fallon, Missouri · mid_level · 4d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II - Decision Management Program</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II---Decision-Management-Program_R-286598</link>
+      <guid isPermaLink="false">ccd78c1d9fd986bc</guid>
+      <description>O'Fallon, Missouri · mid_level · 4d</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -10709,34 +10716,6 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AMD — Graphics Software Engineer Co-op</title>
-      <link>https://go.vansh.nyc/LH?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">ff442f3418a26779</guid>
-      <description>Markham, Canada · internship · 1mo</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Machine Learning/Artificial Intelligence Co-op</title>
-      <link>https://go.vansh.nyc/LF?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">5903975f352d3765</guid>
-      <description>Markham, Canada · internship · 1mo</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Machine Learning/Artificial Intelligence Co-op</title>
-      <link>https://go.vansh.nyc/LG?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">edfe95469e2bd76a</guid>
-      <description>Markham, Canada · internship · 1mo</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Software Engineer Co-op</title>
-      <link>https://go.vansh.nyc/LK?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">1a25fc5fe140ecf2</guid>
-      <description>Vancouver, Canada · internship · 1mo</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Qualcomm — Firmware Engineer Intern, Embedded Software Engineering, Embedded Firmware and SDK Development</title>
       <link>https://go.vansh.nyc/II?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">31f1da1027e04cd5</guid>
@@ -10804,6 +10783,34 @@
       <link>https://go.vansh.nyc/Mw?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">4693dfdae0939eea</guid>
       <description>San Francisco, CA · internship · 1mo</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Graphics Software Engineer Co-op</title>
+      <link>https://go.vansh.nyc/LH?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">ff442f3418a26779</guid>
+      <description>Markham, Canada · internship · 1mo</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Machine Learning/Artificial Intelligence Co-op</title>
+      <link>https://go.vansh.nyc/LG?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">edfe95469e2bd76a</guid>
+      <description>Markham, Canada · internship · 1mo</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Machine Learning/Artificial Intelligence Co-op</title>
+      <link>https://go.vansh.nyc/LF?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">5903975f352d3765</guid>
+      <description>Markham, Canada · internship · 1mo</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD — Software Engineer Co-op</title>
+      <link>https://go.vansh.nyc/LK?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">1a25fc5fe140ecf2</guid>
+      <description>Vancouver, Canada · internship · 1mo</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11175,13 +11182,6 @@
       <link>https://go.vansh.nyc/g6?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">065eec670236405b</guid>
       <description>Redmond, WA · internship · 18d</description>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe — 2027 Intern - Machine Learning Engineer</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R171519?s=gh-new-grad-data-science-jobs-2027</link>
-      <guid isPermaLink="false">a8d638737effe8ed</guid>
-      <description>San Jose · internship · 6d</description>
       <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11693,20 +11693,6 @@
       <link>https://amazon.jobs/en/jobs/10538066/ml-systems-software-development-engineer-intern-annapurna-labs-2027?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">79d49f4f80f8d674</guid>
       <description>Toronto, ON, Canada · internship · 1mo</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Graphics Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/90305?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">09784159e6cf1962</guid>
-      <description>Markham, ON, Canada · internship · 1mo</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD — Graphics Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91359?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">e577c5d24f91a6c3</guid>
-      <description>Markham, ON, Canada · internship · 1mo</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12319,27 +12305,6 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II (Backend - Java)</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291922</link>
-      <guid isPermaLink="false">280fe37a545c6d24</guid>
-      <description>Vancouver, Canada · mid_level · 9d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II (Backend _ Java)</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291663</link>
-      <guid isPermaLink="false">4ccf0972410b4189</guid>
-      <description>Vancouver, Canada · mid_level · 9d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II - Java Full Stack React</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613</link>
-      <guid isPermaLink="false">3e889ecfaef7e817</guid>
-      <description>Pune, India · mid_level · 9d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10586859/software-development-engineer</link>
       <guid isPermaLink="false">ed0c128dc3483e09</guid>
@@ -12526,6 +12491,27 @@
       <link>https://jobs.lever.co/palantir/66b495eb-aaf9-4bf9-a759-41854534add7</link>
       <guid isPermaLink="false">ef6e953d8a68e35b</guid>
       <description>New York, NY · new_grad · 9d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II (Backend - Java)</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291922</link>
+      <guid isPermaLink="false">280fe37a545c6d24</guid>
+      <description>Vancouver, Canada · mid_level · 9d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II (Backend _ Java)</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291663</link>
+      <guid isPermaLink="false">4ccf0972410b4189</guid>
+      <description>Vancouver, Canada · mid_level · 9d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II - Java Full Stack React</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613</link>
+      <guid isPermaLink="false">3e889ecfaef7e817</guid>
+      <description>Pune, India · mid_level · 9d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14104,6 +14090,13 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft — Software Engineer II</title>
+      <link>https://ca.indeed.com/viewjob?jk=dc13d8d7f6d4bba6</link>
+      <guid isPermaLink="false">cf3788c5431ded55</guid>
+      <description>Vancouver, BC, CA · mid_level · 12d</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Palantir — Software Engineer, New Grad - Query Engines</title>
       <link>https://jobs.lever.co/palantir/90329118-d9b7-4b96-acdf-13377e3196ac</link>
       <guid isPermaLink="false">aa7c68a26d8717d2</guid>
@@ -14888,13 +14881,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290039</link>
-      <guid isPermaLink="false">69a4da45cbc0a5cd</guid>
-      <description>Pune, India · mid_level · 16d</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10579435/software-development-engineer</link>
       <guid isPermaLink="false">d6dda51a07f436fb</guid>
@@ -15004,6 +14990,13 @@
       <link>https://www.amazon.jobs/en/jobs/10580456/software-development-engineer-aws-fraud-prevention</link>
       <guid isPermaLink="false">37f77b3288c89d92</guid>
       <description>Arlington, Virginia, USA · unknown · 16d</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290039</link>
+      <guid isPermaLink="false">69a4da45cbc0a5cd</guid>
+      <description>Pune, India · mid_level · 16d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -16288,13 +16281,6 @@
       <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AMD — Software Engineer Intern/Co-op</title>
-      <link>https://careers.amd.com/jobs/91367?icims=1&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">832a6a75550c48eb</guid>
-      <description>Vancouver, BC, Canada · internship · 1mo</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Two Sigma — Software Engineer New Grad</title>
       <link>https://twosigma.avature.net/careers/JobDetail/14020?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">6ab1737e59dcdf4c</guid>
@@ -16925,13 +16911,6 @@
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta — Data Scientist Intern - Product Analytics</title>
-      <link>https://www.metacareers.com/jobs/929757023499411?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">c6f8211cc190b9bf</guid>
-      <description>Menlo Park, CA · internship · 24d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Lyft — PhD Machine Learning Software Engineer Intern - Summer 2027</title>
       <link>https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002</link>
       <guid isPermaLink="false">83afe64295a927dd</guid>
@@ -16950,6 +16929,13 @@
       <link>https://amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">0a6360dde4b3c23e</guid>
       <description>Redmond, WA Northridge, LA · internship · 24d</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta — Data Scientist Intern - Product Analytics</title>
+      <link>https://www.metacareers.com/jobs/929757023499411?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">c6f8211cc190b9bf</guid>
+      <description>Menlo Park, CA · internship · 24d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -17191,17 +17177,17 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Cloudflare — Software Engineer Intern</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2d2e075fb38293ea</guid>
-      <description>London, UK · internship · 25d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Hudson River Trading — Data Scientist Intern - 2027</title>
       <link>https://www.hudsonrivertrading.com/careers/job/?gh_jid=8257369</link>
       <guid isPermaLink="false">490f3da4ab850303</guid>
       <description>London, United Kingdom +1 · internship · 25d</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare — Software Engineer Intern</title>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2d2e075fb38293ea</guid>
+      <description>London, UK · internship · 25d</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -24233,13 +24219,6 @@
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
-      <link>https://www.amazon.jobs/en/jobs/10511703/software-development-engineer-aft-external-fulfillment</link>
-      <guid isPermaLink="false">b6ded5b9797e3b48</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 68d</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Demand Tech</title>
       <link>https://www.amazon.jobs/en/jobs/10512710/software-development-engineer-demand-tech</link>
       <guid isPermaLink="false">6be0710cbe392fa1</guid>
@@ -28065,1177 +28044,1201 @@
       <title>Accenture — Fullstack (Next.js) Developer (CEE)</title>
       <link>https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Warsaw-Sienna-39/Fullstack--Nextjs--Developer--CEE-_R00359994</link>
       <guid isPermaLink="false">36e16a95584d4111</guid>
-      <description>other · 0d</description>
+      <description>other · 1d</description>
     </item>
     <item>
       <title>Adobe — 2027 Intern- Software Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Basel/XMLNAME-2027-Intern--Software-Engineer_R173015</link>
       <guid isPermaLink="false">2ead68dcb92793e5</guid>
-      <description>Basel · internship · 0d</description>
+      <description>Basel · internship · 1d</description>
     </item>
     <item>
       <title>Adobe — 2027 Intern- Software Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/XMLNAME-2027-Intern--Software-Engineer_R173018</link>
       <guid isPermaLink="false">9dc33766daa4506b</guid>
-      <description>Bucharest · internship · 0d</description>
+      <description>Bucharest · internship · 1d</description>
     </item>
     <item>
       <title>Adobe — 2027 Intern- Software Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Yerevan/XMLNAME-2027-Intern--Software-Engineer_R173019</link>
       <guid isPermaLink="false">7340c3a4fed47b24</guid>
-      <description>Yerevan · internship · 0d</description>
+      <description>Yerevan · internship · 1d</description>
     </item>
     <item>
       <title>Adobe — Full Stack Engineer (Front-end), Agentic Governance</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Full-Stack-Engineer--Front-end---Agentic-Governance_R172296</link>
       <guid isPermaLink="false">8abf8956acfe4f46</guid>
-      <description>Bucharest · other · 0d</description>
+      <description>Bucharest · other · 1d</description>
     </item>
     <item>
       <title>Adobe — Senior DevOps Engineer - Observability</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/DevOps-Engineer---Observability_R169502</link>
       <guid isPermaLink="false">d192e9bb3e89b406</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Adobe — Senior DevOps Engineer - Observability</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-DevOps-Engineer---Observability_R171486</link>
       <guid isPermaLink="false">57d91582c9c3d47a</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Adobe — Senior Forward Deployed Engineer, Adobe Experience Platform</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Forward-Deployed-Engineer--Adobe-Experience-Platform_R172075</link>
       <guid isPermaLink="false">027be3a945581266</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Adobe — Senior Product Designer, AI-powered Experiences (Adobe Experience Platform)</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Product-Designer--AI-powered-Experiences--Adobe-Experience-Platform-_R173026-1</link>
       <guid isPermaLink="false">48367e82b472e5df</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Adobe — Senior Site Reliability Engineer - Observability</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Platform-Engineer---Observability_R169504</link>
       <guid isPermaLink="false">5c2ad44ebb861f85</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Adobe — Senior Site Reliability Engineer - Observability</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Senior-Site-Reliability-Engineer---Observability_R171485</link>
       <guid isPermaLink="false">662e23d79f8444ba</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Adobe — Software Engineer - Adobe Experience Platform (RTCDP)</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Software-Engineer---Adobe-Experience-Platform--RTCDP-_R171550</link>
       <guid isPermaLink="false">9959baa347538620</guid>
-      <description>Bucharest · other · 0d</description>
+      <description>Bucharest · other · 1d</description>
     </item>
     <item>
       <title>Adobe — Software Engineer - Big Data (Compute/Data Distiller), Adobe Experience Platform</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Software-Engineer---Big-Data--Compute-Data-Distiller---Adobe-Experience-Platform_R172780</link>
       <guid isPermaLink="false">309378935840b1c6</guid>
-      <description>Bucharest · other · 0d</description>
+      <description>Bucharest · other · 1d</description>
     </item>
     <item>
       <title>Adobe — Sr. Full Stack Engineer (Back-end), Agentic Governance</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/Sr-Full-Stack-Engineer--Back-end---Agentic-Governance_R172297</link>
       <guid isPermaLink="false">da2a3dc317c0055a</guid>
-      <description>Bucharest · mid_level · 0d</description>
+      <description>Bucharest · mid_level · 1d</description>
     </item>
     <item>
       <title>Expedia Group — Director, Software Development Engineering</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Director--Software-Development-Engineering_R-108882</link>
       <guid isPermaLink="false">a087ebd8902a497a</guid>
-      <description>India - Gurgaon · mid_level · 0d</description>
+      <description>India - Gurgaon · mid_level · 1d</description>
     </item>
     <item>
       <title>Intel — Platform Validation Engineer (Temporary position)</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Platform-Validation-Engineer--Temporary-position-_JR0288522</link>
       <guid isPermaLink="false">24d6fb25c69fc5f7</guid>
-      <description>Mexico, Guadalajara · other · 0d</description>
+      <description>Mexico, Guadalajara · other · 1d</description>
     </item>
     <item>
       <title>Mastercard — Lead Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-289394</link>
       <guid isPermaLink="false">8a74b0a3edcfc6eb</guid>
-      <description>Pune, India · mid_level · 0d</description>
+      <description>Pune, India · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Lead, Software Engineer (Agentic workflows/APIs)</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead--Software-Engineer--Agentic-workflows-APIs-_R-292798-1</link>
       <guid isPermaLink="false">1938c1cd3250a978</guid>
-      <description>Pune, India · mid_level · 0d</description>
+      <description>Pune, India · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Manager, Software Engineering</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering_R-281599</link>
       <guid isPermaLink="false">423c3c65c78170b9</guid>
-      <description>Pune, India · mid_level · 0d</description>
+      <description>Pune, India · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Senior Platform Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dublin-Ireland/Senior-Site-Reliability-Engineer_R-289950</link>
       <guid isPermaLink="false">5fb4353d51128295</guid>
-      <description>Dublin, Ireland · mid_level · 0d</description>
+      <description>Dublin, Ireland · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Lisbon-Portugal/Lead-Software-Engineer_R-291288</link>
       <guid isPermaLink="false">f69e0e04e416592e</guid>
-      <description>Lisbon, Portugal · mid_level · 0d</description>
+      <description>Lisbon, Portugal · mid_level · 1d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-288518</link>
       <guid isPermaLink="false">9a1c69262511b713</guid>
-      <description>Pune, India · mid_level · 0d</description>
+      <description>Pune, India · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Compiler Software Engineering Intern - Summer 2027</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607</link>
       <guid isPermaLink="false">11bd923bdfdd5301</guid>
-      <description>US, WA, Redmond · internship · 0d</description>
+      <description>US, WA, Redmond · internship · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Hardware Systems Engineer - LPU Platform Pathfinding</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Hardware-Systems-Engineer---LPU-Platform-Pathfinding_JR2021499</link>
       <guid isPermaLink="false">3f8cedd60ca22720</guid>
-      <description>US, CA, Santa Clara · other · 0d</description>
+      <description>US, CA, Santa Clara · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Manager, DSX Software Engineering and Controls</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Manager--DSX-Software-Engineering-and-Controls_JR2028850</link>
       <guid isPermaLink="false">34d8625d0494b8a7</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Network Software Engineer, Automation and Intelligence</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Network-Software-Engineer--Automation-and-Intelligence_JR2028694</link>
       <guid isPermaLink="false">a22931688f8d9d5e</guid>
-      <description>US, CA, Santa Clara · other · 0d</description>
+      <description>US, CA, Santa Clara · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — NVIDIA 2027 Internships: Software Engineering</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495</link>
       <guid isPermaLink="false">422a1e8aae27a818</guid>
-      <description>US, CA, Santa Clara · other · 0d</description>
+      <description>US, CA, Santa Clara · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — NVIDIA 2027 Internships: Systems Software Engineering</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492</link>
       <guid isPermaLink="false">28b2f34cf630e1f8</guid>
-      <description>US, CA, Santa Clara · other · 0d</description>
+      <description>US, CA, Santa Clara · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Principal Software Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer_JR2028458</link>
       <guid isPermaLink="false">b714e835e44a5425</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Principal Software Engineer - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer---DGX-Cloud_JR2028363</link>
       <guid isPermaLink="false">933511427b3bc569</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Release Infrastructure Architect</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Release-Infrastructure-Architect_JR2028878</link>
       <guid isPermaLink="false">272b2d5e90568de9</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Developer Test and Automation</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Developer-Test-and-Automation_JR2028576</link>
       <guid isPermaLink="false">14d1fe39997a21aa</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Developer, NVIDIA Mission Control - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Developer--NVIDIA-Mission-Control---DGX-Cloud_JR2028682</link>
       <guid isPermaLink="false">80ff196ddc2a914e</guid>
-      <description>US, CA, Remote +5 more · mid_level · 0d</description>
+      <description>US, CA, Remote +5 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer - AI System</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---AI-System_JR2028657</link>
       <guid isPermaLink="false">502a9eaf686dc724</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---DGX-Cloud_JR2028688-1</link>
       <guid isPermaLink="false">150936e26c166de8</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer - Embedded Platform</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer---Embedded-Platform_JR2028739</link>
       <guid isPermaLink="false">b7fa0e68dec42cbe</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer Aerial Platform</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer-Aerial-Platform_JR2028821</link>
       <guid isPermaLink="false">88da0904679c08de</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +4 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Cloud Platform</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--Cloud-Platform_JR2027453</link>
       <guid isPermaLink="false">ac3f28036dc89a10</guid>
-      <description>US, CA, Remote +1 more · mid_level · 0d</description>
+      <description>US, CA, Remote +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Datacenter Modeling</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Datacenter-Modeling_JR2028188-1</link>
       <guid isPermaLink="false">b59f16ab8822b726</guid>
-      <description>US, CA, Santa Clara +2 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +2 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, NVIDIA Kubernetes</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--NVIDIA-Kubernetes_JR2028745-1</link>
       <guid isPermaLink="false">12b4e8674c8d5681</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Solutions Architect, AI Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect--AI-Infrastructure_JR2028553-1</link>
       <guid isPermaLink="false">1eefa9f9f336d3b1</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Solutions Architect, NVIDIA AI Factory Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect--NVIDIA-AI-Factory-Infrastructure_JR2028523</link>
       <guid isPermaLink="false">d85f35949a8f657b</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer - Slurm</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-UT-Remote/Senior-System-Software-Engineer---Slurm_JR2028324</link>
       <guid isPermaLink="false">fabb96fa582c81ae</guid>
-      <description>US, UT, Remote · mid_level · 0d</description>
+      <description>US, UT, Remote · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer - Slurm</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-UT-Remote/Senior-System-Software-Engineer---Slurm_JR2027990</link>
       <guid isPermaLink="false">b3962ff962f95698</guid>
-      <description>US, UT, Remote · mid_level · 0d</description>
+      <description>US, UT, Remote · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer, Platform - Server Embedded Firmware</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Platform---Server-Embedded-Firmware_JR2028401</link>
       <guid isPermaLink="false">b49b2990be99c826</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Systems Firmware Engineer - SBIOS, Bringup</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Firmware-Engineer---SBIOS--Bringup_JR2028412</link>
       <guid isPermaLink="false">a1930ff75111d05c</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Software Engineer, Data Systems</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Data-Systems_JR2028978</link>
       <guid isPermaLink="false">5716e58b663263c1</guid>
-      <description>US, CA, Santa Clara +1 more · other · 0d</description>
+      <description>US, CA, Santa Clara +1 more · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Software Engineer, ML Performance</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--ML-Performance_JR2028979</link>
       <guid isPermaLink="false">6028125c2759bee5</guid>
-      <description>US, CA, Santa Clara +1 more · other · 0d</description>
+      <description>US, CA, Santa Clara +1 more · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Software Engineer, Performance Instrumentation</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Performance-Instrumentation_JR2028980-1</link>
       <guid isPermaLink="false">07114da9d03e76eb</guid>
-      <description>US, CA, Santa Clara +1 more · other · 0d</description>
+      <description>US, CA, Santa Clara +1 more · other · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Software Engineer, Technical Lead – Performance Data Platform</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Technical-Lead---Performance-Data-Platform_JR2029009</link>
       <guid isPermaLink="false">ab19fd2fc85b1e1c</guid>
-      <description>US, CA, Santa Clara · mid_level · 0d</description>
+      <description>US, CA, Santa Clara · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Salesforce — Lead Software Engineer – Identity Platform Services</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Lead-Software-Engineer---Platform-Services_JR342897</link>
+      <guid isPermaLink="false">bcd1928ad9f86281</guid>
+      <description>California - San Francisco +5 more · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Salesforce — Move to our European HQ in Dublin : SMB Account Executive - Core Platform - Central Market</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Germany---Munich/Move-to-our-European-HQ-in-Dublin---Account-Executive---SMB--German-Speaking-_JR362249</link>
+      <guid isPermaLink="false">2d4ec94ddfb797bc</guid>
+      <description>Germany - Munich +7 more · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Salesforce — Senior SMB Account Executive - Core Platform - Central Market</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Senior-Account-Executive---SMB--German-Speaking-_JR349588</link>
+      <guid isPermaLink="false">e056dbb40156186c</guid>
+      <description>Ireland - Dublin · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Salesforce — SMB Account Executive - Core Platform - Central Market (German speaking)</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Ireland---Dublin/Account-Executive---SMB--German-Speaking-_JR343418</link>
+      <guid isPermaLink="false">4f85e8b0f4c871c6</guid>
+      <description>Ireland - Dublin · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>Salesforce — Software Engineer, Full Stack &amp; AI-Native Development (MTS)</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Texas---Dallas/Software-Engineer--Full-Stack---AI-Native-Development--MTS-_JR365146</link>
+      <guid isPermaLink="false">248b96939366bf4a</guid>
+      <description>Texas - Dallas · other · 1d</description>
+    </item>
+    <item>
+      <title>Salesforce — Software Engineering Architect — Digital Marketing Technology</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Seattle/Software-Engineering-Architect---Digital-Marketing-Technology_JR365295</link>
+      <guid isPermaLink="false">4c61f62259f93e02</guid>
+      <description>Washington - Seattle +5 more · mid_level · 1d</description>
     </item>
     <item>
       <title>Unity — Développeur(euse) de logiciels principal(e) / Principal Software Engineer, Core Engine</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Canonsburg-PA-USA/Principal-Software-Engineer--Core-Engine_JOBREQ-2616684</link>
       <guid isPermaLink="false">858791843b7e1421</guid>
-      <description>Canonsburg, PA, USA +3 more · mid_level · 0d</description>
+      <description>Canonsburg, PA, USA +3 more · mid_level · 1d</description>
     </item>
     <item>
       <title>Visa — Software Development Engineer- Product Reliability Engineering</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Development-Engineer--Product-Reliability-Engineering_REF089580W</link>
       <guid isPermaLink="false">ddf339ed25a98c92</guid>
-      <description>US - Denver, CO · other · 0d</description>
+      <description>US - Denver, CO · other · 1d</description>
     </item>
     <item>
       <title>Visa — Software Development Engineer- Product Reliability Engineering</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Development-Engineer--Product-Reliability-Engineering_REF081637W</link>
       <guid isPermaLink="false">1b6c640a21a1405c</guid>
-      <description>US - Austin, TX · other · 0d</description>
+      <description>US - Austin, TX · other · 1d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Manager, Software Engineering (Full Stack), Java&amp;Angular -Bangalore</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Bangalore---Embassy-Tech-Village/Manager--Software-Engineering--Full-Stack---Java-Angular--Bangalore_R000107659</link>
       <guid isPermaLink="false">674d206875b78877</guid>
-      <description>Bangalore - Embassy Tech Village · mid_level · 0d</description>
+      <description>Bangalore - Embassy Tech Village · mid_level · 1d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior Software Engineer- IOS Developer</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Bangalore---Embassy-Tech-Village/Senior-Software-Engineer--IOS-Developer_R000107456</link>
       <guid isPermaLink="false">3acca0df18412429</guid>
-      <description>Bangalore - Embassy Tech Village · mid_level · 0d</description>
+      <description>Bangalore - Embassy Tech Village · mid_level · 1d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior Staff Software Engineer - Golang (Consumer Team),Hyderabad</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Hyderabad---Phoenix-Equinox-Tower-2/Staff-Software-Engineer---Golang--Consumer-Team--Hyderabad_R000106137</link>
       <guid isPermaLink="false">1ab8b09f814495a6</guid>
-      <description>Hyderabad - Phoenix Equinox Tower 2 · mid_level · 0d</description>
+      <description>Hyderabad - Phoenix Equinox Tower 2 · mid_level · 1d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Staff Software Engineer - Data Platform Team, Hyderabad</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Hyderabad---Phoenix-Equinox-Tower-2/Staff-Software-Engineer---Data---Audience-Platform-Team--Hyderabad_R000106140-1</link>
       <guid isPermaLink="false">9801d1d447c2fdd5</guid>
-      <description>Hyderabad - Phoenix Equinox Tower 2 · mid_level · 0d</description>
+      <description>Hyderabad - Phoenix Equinox Tower 2 · mid_level · 1d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Staff Software Engineer - iOS</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Bangalore---Embassy-Tech-Village/Staff-Software-Engineer---iOS_R000106184</link>
       <guid isPermaLink="false">bad3d1ef893117c8</guid>
-      <description>Bangalore - Embassy Tech Village · mid_level · 0d</description>
+      <description>Bangalore - Embassy Tech Village · mid_level · 1d</description>
     </item>
     <item>
       <title>Workday — Principal DataOps Engineer (DevOps for Data)</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-DataOps-Engineer--DevOps-for-Data-_JR-0111033</link>
       <guid isPermaLink="false">389a2a51f69960d6</guid>
-      <description>USA, CA, Pleasanton +1 more · mid_level · 0d</description>
+      <description>USA, CA, Pleasanton +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>Workday — Senior Software Development Engineer - AI Tools</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Development-Engineer---AI-Tools_JR-0110691-1</link>
       <guid isPermaLink="false">10860feb79481252</guid>
-      <description>USA, CA, Pleasanton · mid_level · 0d</description>
+      <description>USA, CA, Pleasanton · mid_level · 1d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer - UI and Tooling - Java, Go or Kotlin</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer_JR-0109889</link>
       <guid isPermaLink="false">faf2540b8d4b3166</guid>
-      <description>USA, CA, Pleasanton · other · 0d</description>
+      <description>USA, CA, Pleasanton · other · 1d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer in Test, Evisort AI</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Software-Development-Engineer-in-Test--Evisort-AI_JR-0111106</link>
       <guid isPermaLink="false">bf174180a01e9ba3</guid>
-      <description>Canada, BC, Vancouver · other · 0d</description>
-    </item>
-    <item>
-      <title>Workday — Software Development Engineer, Admin Central</title>
-      <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer--Admin-Central_JR-0111194</link>
-      <guid isPermaLink="false">10306ae6a3aa8d22</guid>
-      <description>USA, CA, Pleasanton · other · 0d</description>
+      <description>Canada, BC, Vancouver · other · 1d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer, Payroll Development</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Software-Development-Engineer--Payroll-Development_JR-0110886-1</link>
       <guid isPermaLink="false">d96bd5c51ea1a7a8</guid>
-      <description>New Zealand, Auckland · other · 0d</description>
+      <description>New Zealand, Auckland · other · 1d</description>
     </item>
     <item>
       <title>Accenture — AI Native Software Engineer – Data &amp; AI</title>
       <link>https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Kronberg/XMLNAME--Junior--AI-Native-Software-Engineer---all-genders-_R00359893-1</link>
       <guid isPermaLink="false">1d91128a0254bcde</guid>
-      <description>other · 1d</description>
+      <description>other · 2d</description>
     </item>
     <item>
       <title>Accenture — AI Native Software Engineering Specialist</title>
       <link>https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Roma/AI-Native-Software-Engineering-Specialist_R00344641</link>
       <guid isPermaLink="false">1e13fe25450b9a7a</guid>
-      <description>other · 1d</description>
+      <description>other · 2d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineer II - iOS</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Mobile-Engineer-II---iOS_R-99623-2</link>
       <guid isPermaLink="false">4be5291cae135539</guid>
-      <description>Washington - Seattle Campus · mid_level · 1d</description>
+      <description>Washington - Seattle Campus · mid_level · 2d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineer II - iOS</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Mobile-Engineer-II---iOS_R-99623</link>
       <guid isPermaLink="false">fb1f891a7f9db054</guid>
-      <description>Washington - Seattle Campus · mid_level · 1d</description>
+      <description>Washington - Seattle Campus · mid_level · 2d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-II_R-110950</link>
       <guid isPermaLink="false">9fffec2112a61c10</guid>
-      <description>UK - London · mid_level · 1d</description>
+      <description>UK - London · mid_level · 2d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineer-II_R-110950-1</link>
       <guid isPermaLink="false">77df4b705527572e</guid>
-      <description>UK - London · mid_level · 1d</description>
+      <description>UK - London · mid_level · 2d</description>
     </item>
     <item>
       <title>Intel — Software Engineer (Contract)</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/Malaysia-Penang/Software-Engineer_JR0287360</link>
       <guid isPermaLink="false">a439ce8568afeaa0</guid>
-      <description>Malaysia, Penang · other · 1d</description>
+      <description>Malaysia, Penang · other · 2d</description>
     </item>
     <item>
       <title>Mastercard — Lead Software Engineer (Full stack)</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Lead-Software-Engineer_R-280100-1</link>
       <guid isPermaLink="false">9003d9ad9a54b844</guid>
-      <description>Mexico City, Mexico · mid_level · 1d</description>
+      <description>Mexico City, Mexico · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Manager Software Engineering</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager-Software-Engineering_R-293614</link>
       <guid isPermaLink="false">9a470cb6b0428061</guid>
-      <description>O'Fallon, Missouri · mid_level · 1d</description>
+      <description>O'Fallon, Missouri · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Manager, Software Engineering</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Manager--Software-Engineering_R-288167</link>
       <guid isPermaLink="false">26cf71c430a53c06</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>Pune, India · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Manager, Software Engineering</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Director--Software-Engineering_R-289050</link>
       <guid isPermaLink="false">f93c0764cd6025d6</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>Pune, India · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/London-England-Angel-Lane/Senior-Software-Engineer_R-294610</link>
       <guid isPermaLink="false">300ae23641676a84</guid>
-      <description>London, England (Angel Lane) · mid_level · 1d</description>
+      <description>London, England (Angel Lane) · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-291756</link>
       <guid isPermaLink="false">035e9434497ce1ef</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>Pune, India · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-294542</link>
       <guid isPermaLink="false">d09ddfc906a717e7</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>Pune, India · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Oslo-Norway-haavard-martinsens-vei/Senior-Software-Engineer_R-290480</link>
       <guid isPermaLink="false">f9c29635bfe8d59a</guid>
-      <description>Oslo, Norway (haavard martinsens vei) · mid_level · 1d</description>
+      <description>Oslo, Norway (haavard martinsens vei) · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292501</link>
       <guid isPermaLink="false">90466c1dd3db332a</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>Pune, India · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Software Engineer II</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-291169-1</link>
       <guid isPermaLink="false">462aee110183fe74</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>Pune, India · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Vice President, Software Engineering</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Vice-President--Software-Engineering_R-276668</link>
       <guid isPermaLink="false">012ef83e5ea1b139</guid>
-      <description>Pune, India · mid_level · 1d</description>
+      <description>Pune, India · mid_level · 2d</description>
     </item>
     <item>
       <title>PwC — Abogado junior servicios internos</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Madrid/Abogado-Senior-servicios-internos_765837WD-1</link>
       <guid isPermaLink="false">75a0916626c91e12</guid>
-      <description>Madrid · junior · 1d</description>
+      <description>Madrid · junior · 2d</description>
     </item>
     <item>
       <title>PwC — Asistente - Servicios Tributarios</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Montevideo/Asistente---Servicios-Tributarios_771121WD-1</link>
       <guid isPermaLink="false">817711c376042b45</guid>
-      <description>Montevideo · other · 1d</description>
+      <description>Montevideo · other · 2d</description>
     </item>
     <item>
       <title>PwC — Senior - Servicios Tributarios</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Montevideo/Senior---Servicios-Tributarios_771031WD</link>
       <guid isPermaLink="false">e31ac9f8c98500e0</guid>
-      <description>Montevideo · mid_level · 1d</description>
+      <description>Montevideo · mid_level · 2d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Bellevue-WA-USA/Senior-Software-Engineer_JOBREQ-2616424</link>
       <guid isPermaLink="false">cd1dd9fa3d7fd91f</guid>
-      <description>Bellevue, WA, USA · mid_level · 1d</description>
+      <description>Bellevue, WA, USA · mid_level · 2d</description>
     </item>
     <item>
       <title>Unity — Software Engineer, XR</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Bellevue-WA-USA/Software-Engineer--XR_JOBREQ-2616415</link>
       <guid isPermaLink="false">c4700c215d49e8b9</guid>
-      <description>Bellevue, WA, USA · other · 1d</description>
+      <description>Bellevue, WA, USA · other · 2d</description>
     </item>
     <item>
       <title>Unity — Sr. Full Stack Engineer, Unified Ads Platform</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/New-York-NY-USA/Senior-Software-Engineer_JOBREQ-2616733</link>
       <guid isPermaLink="false">f97f815a6bfeedb1</guid>
-      <description>New York, NY, USA +2 more · mid_level · 1d</description>
+      <description>New York, NY, USA +2 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Valeo — Senior SRE Engineer/ Sys Ops, GISACC</title>
       <link>https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Senior-SysOps-SRE-Engineer_REQ2025059081</link>
       <guid isPermaLink="false">93e3e47e8aee18ea</guid>
-      <description>Cairo · mid_level · 1d</description>
+      <description>Cairo · mid_level · 2d</description>
     </item>
     <item>
       <title>Visa — Software Engineer</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/GB---London-United-Kingdom/Software-Engineer_REF089813W</link>
       <guid isPermaLink="false">7792664036e84e96</guid>
-      <description>GB - London, United Kingdom +1 more · other · 1d</description>
+      <description>GB - London, United Kingdom +1 more · other · 2d</description>
     </item>
     <item>
       <title>Workday — Account Executive, Platform</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Account-Executive--Platform_JR-0111008</link>
       <guid isPermaLink="false">3826f13e46d1fa20</guid>
-      <description>Canada, BC, Vancouver +1 more · mid_level · 1d</description>
+      <description>Canada, BC, Vancouver +1 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Workday — Account Executive, Platform - FSI</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-NY-New-York-City/Account-Executive--Platform---FSI_JR-0111001</link>
       <guid isPermaLink="false">03f037c2862e0730</guid>
-      <description>USA, NY, New York City +9 more · mid_level · 1d</description>
+      <description>USA, NY, New York City +9 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Workday — Account Executive, Platform - Healthcare</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Account-Executive--Platform---Healthcare_JR-0111004</link>
       <guid isPermaLink="false">b46144087558e86d</guid>
-      <description>USA, CA, Pleasanton +5 more · mid_level · 1d</description>
+      <description>USA, CA, Pleasanton +5 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Workday — Account Executive, Platform - Large Enterprise Diversified Industries</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Account-Executive--Platform---Large-Enterprise-Diversified-Industries_JR-0111005</link>
       <guid isPermaLink="false">434d1f17e5523ce5</guid>
-      <description>USA, CA, Pleasanton +10 more · mid_level · 1d</description>
+      <description>USA, CA, Pleasanton +10 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Workday — Account Executive, Platform - Medium Enterprise Diversified Industries</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Account-Executive--Platform---Medium-Enterprise-Diversified-Industries_JR-0111006</link>
       <guid isPermaLink="false">b92efafd267b25cd</guid>
-      <description>USA, GA, Atlanta +8 more · mid_level · 1d</description>
+      <description>USA, GA, Atlanta +8 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Workday — Account Executive, Platform - SLED, Higher Ed, NFP</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Account-Executive--Platform---SLED--Higher-Ed--NFP_JR-0111003</link>
       <guid isPermaLink="false">7f837cf8420a4cc8</guid>
-      <description>USA, GA, Atlanta +2 more · mid_level · 1d</description>
+      <description>USA, GA, Atlanta +2 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Adobe — Sr. iOS Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/Sr-iOS-Engineer_R170605</link>
       <guid isPermaLink="false">4d2d5164c94b7770</guid>
-      <description>Seattle +3 more · mid_level · 2d</description>
+      <description>Seattle +3 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Data Platform Engineer (Data Lake and Catalog)</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Senior-Data-Platform-Engineer--Data-Lake-and-Catalog-_R-107322-1</link>
       <guid isPermaLink="false">3ce20269c28748e6</guid>
-      <description>UK - London · mid_level · 2d</description>
+      <description>UK - London · mid_level · 3d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Full Stack Agentic AI Engineer — Layla AI</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Full-Stack-Agentic-AI-Engineer---Layla-AI_R-110976</link>
       <guid isPermaLink="false">ba167b126f02b350</guid>
-      <description>Washington - Seattle Campus +1 more · mid_level · 2d</description>
+      <description>Washington - Seattle Campus +1 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Full Stack Agentic AI Engineer — Layla AI</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Senior-Full-Stack-Agentic-AI-Engineer---Layla-AI_R-110976-1</link>
       <guid isPermaLink="false">466c2c1d0ee1df3c</guid>
-      <description>Washington - Seattle Campus +1 more · mid_level · 2d</description>
+      <description>Washington - Seattle Campus +1 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Intel — EDA Tools Software Engineer</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/EDA-Tools-Software-Engineer_JR0287371</link>
       <guid isPermaLink="false">e8f40aabee61f0ef</guid>
-      <description>US, Oregon, Hillsboro · other · 2d</description>
-    </item>
-    <item>
-      <title>Intel — EDA Tools Software Engineer</title>
-      <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/EDA-Tools-Software-Engineer_JR0288250</link>
-      <guid isPermaLink="false">1c7f681eab2fb11e</guid>
-      <description>US, Oregon, Hillsboro · other · 2d</description>
+      <description>US, Oregon, Hillsboro · other · 3d</description>
     </item>
     <item>
       <title>Mastercard — Lead AI Platform Engineer</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Lead-AI-Platform-Engineer_R-279063-1</link>
       <guid isPermaLink="false">10a456b19c06c4db</guid>
-      <description>New York City, New York +5 more · mid_level · 2d</description>
+      <description>New York City, New York +5 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Mastercard — Lead Software Engineer (Architect)</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Lead-Software-Engineer--Architect-_R-293394-1</link>
       <guid isPermaLink="false">562f4e881154fd06</guid>
-      <description>O'Fallon, Missouri · mid_level · 2d</description>
+      <description>O'Fallon, Missouri · mid_level · 3d</description>
     </item>
     <item>
       <title>Mastercard — Manager, Platform Engineering</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Manager---Platform-Engineering_R-293009</link>
       <guid isPermaLink="false">573efcd8c9f4dee3</guid>
-      <description>O'Fallon, Missouri · mid_level · 2d</description>
+      <description>O'Fallon, Missouri · mid_level · 3d</description>
     </item>
     <item>
       <title>Samsung — Assistant Manager, Mobile Experiences Retail Marketing (Laos Branch)</title>
       <link>https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Kolao-Tower-Vientiane-Laos/Senior-Officer--MX-Retail-Marketing--Laos-Branch-_R119818</link>
       <guid isPermaLink="false">39387d7b017a5f1c</guid>
-      <description>Kolao Tower, Vientiane, Laos · mid_level · 2d</description>
+      <description>Kolao Tower, Vientiane, Laos · mid_level · 3d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Senior-Software-Engineer_JOBREQ-2616433</link>
       <guid isPermaLink="false">dfe869a91fe5d4c5</guid>
-      <description>Montreal, Canada +4 more · mid_level · 2d</description>
+      <description>Montreal, Canada +4 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer, Native Editor Platform</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Remote-Washington-USA/Senior-Software-Engineer--Native-Editor-Platform_JOBREQ-2616692</link>
       <guid isPermaLink="false">199560df718a5a6a</guid>
-      <description>Remote, Washington, USA · mid_level · 2d</description>
+      <description>Remote, Washington, USA · mid_level · 3d</description>
     </item>
     <item>
       <title>Visa — Senior Software Engineer, Antifraud</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/BR---Remote---Brazil/Senior-Software-Engineer--Antifraud_REF089776W</link>
       <guid isPermaLink="false">87e10d08bce01ddb</guid>
-      <description>BR - Remote - Brazil · mid_level · 2d</description>
+      <description>BR - Remote - Brazil · mid_level · 3d</description>
     </item>
     <item>
       <title>Workday — Manager, Software Development Engineering</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/INDChennai/Manager--Software-Development-Engineering_JR-0111052</link>
       <guid isPermaLink="false">817897ed5bc53593</guid>
-      <description>IND.Chennai · mid_level · 2d</description>
+      <description>IND.Chennai · mid_level · 3d</description>
     </item>
     <item>
       <title>Workday — Managing Partner - Platform EMEA</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Germany-Munich/Managing-Partner---Platform-EMEA_JR-0111107</link>
       <guid isPermaLink="false">5ae7b0eaa33a4161</guid>
-      <description>Germany, Munich +1 more · other · 2d</description>
+      <description>Germany, Munich +1 more · other · 3d</description>
     </item>
     <item>
       <title>Workday — Managing Partner - Platform EMEA</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/France-Paris/Managing-Partner---Platform-EMEA_JR-0111108</link>
       <guid isPermaLink="false">3bc2a21b90bbd139</guid>
-      <description>France, Paris +1 more · other · 2d</description>
+      <description>France, Paris +1 more · other · 3d</description>
     </item>
     <item>
       <title>Workday — Principal Full Stack Engineer - Agent Platform</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Principal-Full-Stack-Engineer---Agent-Platform_JR-0109720-1</link>
       <guid isPermaLink="false">3801cd69d7e51082</guid>
-      <description>USA, GA, Atlanta +1 more · mid_level · 2d</description>
+      <description>USA, GA, Atlanta +1 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Workday — Senior Software Engineer(Distributed Systems)</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Engineer-Distributed-Systems-_JR-0110618</link>
       <guid isPermaLink="false">cdf564b9506b5f5b</guid>
-      <description>USA, CA, Pleasanton · mid_level · 2d</description>
+      <description>USA, CA, Pleasanton · mid_level · 3d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer - US Federal</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Software-Development-Engineer---US-Federal_JR-0109614</link>
       <guid isPermaLink="false">7ca7d51f3c7c2274</guid>
-      <description>USA.VA.Reston · other · 2d</description>
+      <description>USA.VA.Reston · other · 3d</description>
     </item>
     <item>
       <title>Workday — Sr Associate Software Development Engineer (US Federal)</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Sr-Associate-Software-Development-Engineer--US-Federal-_JR-0108519</link>
       <guid isPermaLink="false">1c2c72c30da52509</guid>
-      <description>USA, GA, Atlanta · mid_level · 2d</description>
+      <description>USA, GA, Atlanta · mid_level · 3d</description>
     </item>
     <item>
       <title>Workday — Sr Software Development Engineer, Business Process Optimization</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer--Business-Process-Optimization_JR-0110819</link>
       <guid isPermaLink="false">a2096608a144f979</guid>
-      <description>USA, CA, Pleasanton · mid_level · 2d</description>
+      <description>USA, CA, Pleasanton · mid_level · 3d</description>
     </item>
     <item>
       <title>Adobe — Mobile Engineering Manager - Adobe Scan</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Mobile-Engineering-Manager---Adobe-Scan_R173239</link>
       <guid isPermaLink="false">6f9f3359befa3649</guid>
-      <description>San Jose · mid_level · 3d</description>
+      <description>San Jose · mid_level · 4d</description>
     </item>
     <item>
       <title>Expedia Group — Sr Director, Product Management - Content Platform</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Sr-Director--Product-Management---Content-Platform_R-110838</link>
       <guid isPermaLink="false">b68e648d6df8db2a</guid>
-      <description>Washington - Seattle Campus · mid_level · 3d</description>
+      <description>Washington - Seattle Campus · mid_level · 4d</description>
     </item>
     <item>
       <title>Samsung — Retail Training Manager (Mobile Experiences)</title>
       <link>https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Empire-Tower-Bangkok-Thailand/Manager--MX-Master-Trainer_R120791</link>
       <guid isPermaLink="false">ed31f7ffa0bea615</guid>
-      <description>Empire Tower, Bangkok, Thailand · mid_level · 3d</description>
+      <description>Empire Tower, Bangkok, Thailand · mid_level · 4d</description>
     </item>
     <item>
       <title>Unity — Software Engineer, Quality</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Vilnius-Lithuania/Software-Engineer--Quality_JOBREQ-2616652</link>
       <guid isPermaLink="false">9a1ebfcd2a425ec2</guid>
-      <description>Vilnius, Lithuania · other · 3d</description>
+      <description>Vilnius, Lithuania · other · 4d</description>
     </item>
     <item>
       <title>Unity — Staff Backend Engineer, Ads Recommendation System</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Mountain-View-CA-USA/Staff-Backend-Engineer--Offerwall_JOBREQ-2616311</link>
       <guid isPermaLink="false">6d2aea77d8112b13</guid>
-      <description>Mountain View, CA, USA +1 more · mid_level · 3d</description>
+      <description>Mountain View, CA, USA +1 more · mid_level · 4d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Ashburn</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF089878W-1</link>
       <guid isPermaLink="false">eff107673fb26e70</guid>
-      <description>US - Ashburn, VA · internship · 3d</description>
+      <description>US - Ashburn, VA · internship · 4d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Austin, TX - 2027</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W-1</link>
       <guid isPermaLink="false">cd3cccf711a82a2e</guid>
-      <description>US - Austin, TX · internship · 3d</description>
+      <description>US - Austin, TX · internship · 4d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Bellevue</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-2</link>
       <guid isPermaLink="false">33682e61633324d7</guid>
-      <description>US - Bellevue, WA · internship · 3d</description>
+      <description>US - Bellevue, WA · internship · 4d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Foster City</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1</link>
       <guid isPermaLink="false">b9a2656bf8d85fb4</guid>
-      <description>US - Foster City, CA · internship · 3d</description>
+      <description>US - Foster City, CA · internship · 4d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1</link>
       <guid isPermaLink="false">51b7dd37bdf0251f</guid>
-      <description>US - Denver, CO · internship · 3d</description>
+      <description>US - Denver, CO · internship · 4d</description>
     </item>
     <item>
       <title>Visa — Cybersecurity Engineer, Mobile &amp; AI Application</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Cybersecurity-Engineer_REF087764W-1</link>
       <guid isPermaLink="false">b98530e6d10d3b59</guid>
-      <description>US - Austin, TX · other · 3d</description>
+      <description>US - Austin, TX · other · 4d</description>
     </item>
     <item>
       <title>Visa — Software Engineer, Intern - 2027 Ashburn, VA</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF089879W-1</link>
       <guid isPermaLink="false">3448037b7a1b3943</guid>
-      <description>US - Ashburn, VA · internship · 3d</description>
+      <description>US - Ashburn, VA · internship · 4d</description>
     </item>
     <item>
       <title>Visa — Software Engineer, Intern - 2027 Austin, TX</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W-1</link>
       <guid isPermaLink="false">3b2879d79df0c0ac</guid>
-      <description>US - Austin, TX · internship · 3d</description>
+      <description>US - Austin, TX · internship · 4d</description>
     </item>
     <item>
       <title>Visa — Software Engineer, Intern - Foster City 2027</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF089875W-1</link>
       <guid isPermaLink="false">b596569798b7d9e3</guid>
-      <description>US - Foster City, CA · internship · 3d</description>
+      <description>US - Foster City, CA · internship · 4d</description>
     </item>
     <item>
       <title>Workday — Principal Software Development Engineer - Data Cloud</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-Software-Development-Engineer_JR-0111151-1</link>
       <guid isPermaLink="false">56579e881864ed9f</guid>
-      <description>USA, CA, Pleasanton · mid_level · 3d</description>
+      <description>USA, CA, Pleasanton · mid_level · 4d</description>
     </item>
     <item>
       <title>Workday — Senior Software Development Engineer - Distributed Systems</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Senior-Software-Engineer---Distributed-Systems_JR-0108915</link>
       <guid isPermaLink="false">53971eb1af5fcdf3</guid>
-      <description>Ireland, Dublin · mid_level · 3d</description>
+      <description>Ireland, Dublin · mid_level · 4d</description>
     </item>
     <item>
       <title>Workday — Senior Software Development Engineer, Payroll Development</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Senior-Software-Development-Engineer--Payroll-Development_JR-0110887-1</link>
       <guid isPermaLink="false">2bf20fce07285dae</guid>
-      <description>New Zealand, Auckland · mid_level · 3d</description>
+      <description>New Zealand, Auckland · mid_level · 4d</description>
     </item>
     <item>
       <title>Expedia Group — Principal Software Development Engineer, GenAI Platform</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Principal-Software-Development-Engineer--GenAI-Platform_R-109400</link>
       <guid isPermaLink="false">bacd7114d2711055</guid>
-      <description>India - Gurgaon · mid_level · 4d</description>
+      <description>India - Gurgaon · mid_level · 5d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Senior-Software-Development-Engineer_R-109559</link>
       <guid isPermaLink="false">d3ab9957de448a8d</guid>
-      <description>India - Gurgaon · mid_level · 4d</description>
+      <description>India - Gurgaon · mid_level · 5d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Senior-Software-Development-Engineer_R-109716</link>
       <guid isPermaLink="false">40cfbaba71f5384f</guid>
-      <description>India - Gurgaon · mid_level · 4d</description>
+      <description>India - Gurgaon · mid_level · 5d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineer-III_R-108552</link>
       <guid isPermaLink="false">f5e16191971408bc</guid>
-      <description>UK - London · other · 4d</description>
+      <description>UK - London · other · 5d</description>
     </item>
     <item>
       <title>Intel — Hardware Platform Applications Engineer - Military &amp; Aerospace</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700</link>
       <guid isPermaLink="false">eab2bb3f3ce58c85</guid>
-      <description>US, Arizona, Phoenix +3 more · other · 4d</description>
+      <description>US, Arizona, Phoenix +3 more · other · 5d</description>
     </item>
     <item>
       <title>Unity — Staff Engineer, Data Platform</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Mountain-View-CA-USA/Staff-Engineer--Data-Platform_JOBREQ-2616349</link>
       <guid isPermaLink="false">715cabb0974de011</guid>
-      <description>Mountain View, CA, USA +1 more · mid_level · 4d</description>
+      <description>Mountain View, CA, USA +1 more · mid_level · 5d</description>
     </item>
     <item>
       <title>Valeo — Software Engineer</title>
       <link>https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Nanjing/Software-Engineer_REQ2026068868</link>
       <guid isPermaLink="false">43aed6a4ed84f0e8</guid>
-      <description>Nanjing · other · 4d</description>
+      <description>Nanjing · other · 5d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineer-II_R-110369</link>
       <guid isPermaLink="false">aebc3f2779714d49</guid>
-      <description>UK - London · mid_level · 7d</description>
+      <description>UK - London · mid_level · 8d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineer-II_R-110595</link>
       <guid isPermaLink="false">a8ea42cc75894cbe</guid>
-      <description>Washington - Seattle Campus · mid_level · 8d</description>
+      <description>Washington - Seattle Campus · mid_level · 9d</description>
     </item>
     <item>
       <title>Unity — Sr. Software Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Mountain-View-CA-USA/Sr-Software-Engineer_JOBREQ-2616677</link>
       <guid isPermaLink="false">54b13c6f1fcb047f</guid>
-      <description>Mountain View, CA, USA +2 more · mid_level · 8d</description>
+      <description>Mountain View, CA, USA +2 more · mid_level · 9d</description>
     </item>
     <item>
       <title>Intel — Senior Software Development Engineer (Contract Position)</title>
       <link>https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Senior-Software-Development-Engineer--Contract-Position-_JR0287775</link>
       <guid isPermaLink="false">9522ea15494dcc04</guid>
-      <description>US, Arizona, Phoenix · mid_level · 9d</description>
+      <description>US, Arizona, Phoenix · mid_level · 10d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Principal Architect, Consumer Data Platform, Measurement &amp; Attribution</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/GA-Atlanta-1050-Techwood-Drive-NW/Principal-Architect--Consumer-Data-Platform--Measurement---Attribution_R000106268</link>
       <guid isPermaLink="false">f8d9303fc55b95d7</guid>
-      <description>GA Atlanta 1050 Techwood Drive NW · mid_level · 9d</description>
+      <description>GA Atlanta 1050 Techwood Drive NW · mid_level · 10d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Senior RTR Accountant, Studios (Fixed term contract)</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/Warsaw-166-Wiertnicza-TVN/Senior-RTR-Accountant--Studios--Fixed-term-contract-_R000104547</link>
       <guid isPermaLink="false">9e7289b22f972c50</guid>
-      <description>Warsaw, 166 Wiertnicza (TVN) · mid_level · 9d</description>
+      <description>Warsaw, 166 Wiertnicza (TVN) · mid_level · 10d</description>
     </item>
     <item>
       <title>Warner Bros. Discovery — Staff Software Engineer</title>
       <link>https://warnerbros.wd5.myworkdayjobs.com/global/job/GA-Atlanta-1050-Techwood-Drive-NW/Manager--Software-Engineering_R000105667</link>
       <guid isPermaLink="false">5f87f0e5966ed62b</guid>
-      <description>GA Atlanta 1050 Techwood Drive NW · mid_level · 9d</description>
+      <description>GA Atlanta 1050 Techwood Drive NW · mid_level · 10d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Senior-Software-Development-Engineer_R-107083-1</link>
       <guid isPermaLink="false">c54b210bdcf6d813</guid>
-      <description>UK - London · mid_level · 10d</description>
+      <description>UK - London · mid_level · 11d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer - ML Platform</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer---ML-Platform_R-110741</link>
       <guid isPermaLink="false">0bd4d916e5c13055</guid>
-      <description>Washington - Seattle Campus +1 more · mid_level · 11d</description>
+      <description>Washington - Seattle Campus +1 more · mid_level · 12d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer - ML Platform</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer---ML-Platform_R-110741-1</link>
       <guid isPermaLink="false">576868e412e1b2fb</guid>
-      <description>Washington - Seattle Campus +1 more · mid_level · 11d</description>
+      <description>Washington - Seattle Campus +1 more · mid_level · 12d</description>
     </item>
     <item>
       <title>Unity — Développeur(se) logiciel sénior, écosystème Android | Senior Software Developer, Android Ecosystem</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Dveloppeur-se--logiciel-principal-e---cosystme-Android---Senior-Software-Engineer--Android-Ecosystem_JOBREQ-2616440</link>
       <guid isPermaLink="false">71e384a5da1f1e4e</guid>
-      <description>Montreal, Canada +4 more · mid_level · 11d</description>
+      <description>Montreal, Canada +4 more · mid_level · 12d</description>
     </item>
     <item>
       <title>Unity — Développeur(euse) de logiciels sénior | Senior Software Developer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Senior-Software-Developer_JOBREQ-2616452</link>
       <guid isPermaLink="false">d0f3cb961782c970</guid>
-      <description>Montreal, Canada · mid_level · 14d</description>
+      <description>Montreal, Canada · mid_level · 15d</description>
     </item>
     <item>
       <title>Unity — Développeur(euse) DevOps senior(e) | Senior DevOps Developer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Operations-Developer---Dveloppeur-oprationnel_JOBREQ-2615824</link>
       <guid isPermaLink="false">aa2bc5f8f0f63087</guid>
-      <description>Montreal, Canada · mid_level · 14d</description>
+      <description>Montreal, Canada · mid_level · 15d</description>
     </item>
     <item>
       <title>Unity — Développeur(se) de logiciels | Software Developer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Dveloppeur-se--de-logiciels---Software-Developer_JOBREQ-2616392-1</link>
       <guid isPermaLink="false">feb60a578de3a7a2</guid>
-      <description>Montreal, Canada +4 more · other · 14d</description>
+      <description>Montreal, Canada +4 more · other · 15d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer | Développeur(euse) de logiciels sénior</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Senior-Software-Engineer_JOBREQ-2616457-1</link>
       <guid isPermaLink="false">6905e379ae027a95</guid>
-      <description>Montreal, Canada · mid_level · 14d</description>
+      <description>Montreal, Canada · mid_level · 15d</description>
     </item>
     <item>
       <title>Unity — Sr. Full Stack Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Sr-Full-Stack-Engineer_JOBREQ-2616029</link>
       <guid isPermaLink="false">7b431455fc8146df</guid>
-      <description>Montreal, Canada +1 more · mid_level · 14d</description>
+      <description>Montreal, Canada +1 more · mid_level · 15d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545</link>
       <guid isPermaLink="false">b542d77ddb4b6b73</guid>
-      <description>UK - London · internship · 15d</description>
+      <description>UK - London · internship · 16d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Software-Development-Engineer-II_R-109774</link>
       <guid isPermaLink="false">143c6b0443c47211</guid>
-      <description>Washington - Seattle Campus · mid_level · 15d</description>
+      <description>Washington - Seattle Campus · mid_level · 16d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551</link>
       <guid isPermaLink="false">c50e91a1c499811b</guid>
-      <description>UK - London · internship · 15d</description>
+      <description>UK - London · internship · 16d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer, Offerwall</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/San-Francisco-CA-USA/Senior-Software-Engineer--Offerwall_JOBREQ-2616547</link>
       <guid isPermaLink="false">b5e1b429b14be0b6</guid>
-      <description>San Francisco, CA, USA · mid_level · 15d</description>
+      <description>San Francisco, CA, USA · mid_level · 16d</description>
     </item>
     <item>
       <title>Expedia Group — R-106556 Développeur logiciel III (généraliste – Contenu) - Software Developer III (Full Stack - Content)</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Canada---Quebec---Montreal/R-106556-Dveloppeur-logiciel-III--gnraliste---Contenu----Software-Developer-III--Full-Stack---Content-_R-110417</link>
       <guid isPermaLink="false">b2caa56aad41c6a9</guid>
-      <description>Canada - Quebec - Montreal · other · 16d</description>
+      <description>Canada - Quebec - Montreal · other · 17d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer_R-110316</link>
       <guid isPermaLink="false">bd4bf807d948a582</guid>
-      <description>Washington - Seattle Campus · mid_level · 16d</description>
+      <description>Washington - Seattle Campus · mid_level · 17d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Software-Development-Engineer-III_R-109776</link>
       <guid isPermaLink="false">d66b397953bb7854</guid>
-      <description>Washington - Seattle Campus · other · 16d</description>
+      <description>Washington - Seattle Campus · other · 17d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer- Full Stack, Unified Ads Platform</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Staff-Software-Engineer--Data---ML-_JOBREQ-2616003</link>
       <guid isPermaLink="false">299b5bdde7966cc5</guid>
-      <description>Montreal, Canada +1 more · mid_level · 16d</description>
+      <description>Montreal, Canada +1 more · mid_level · 17d</description>
     </item>
     <item>
       <title>Unity — Software Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Vilnius-Lithuania/Software-Engineer_JOBREQ-2616601</link>
       <guid isPermaLink="false">a77558bbce99ba43</guid>
-      <description>Vilnius, Lithuania · other · 16d</description>
+      <description>Vilnius, Lithuania · other · 17d</description>
     </item>
     <item>
       <title>Expedia Group — Android Mobile Engineer III</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Mobile-Engineer-III_R-110446</link>
       <guid isPermaLink="false">37b5d472b5b6df76</guid>
-      <description>Washington - Seattle Campus · other · 17d</description>
+      <description>Washington - Seattle Campus · other · 18d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Senior-Software-Development-Engineer_R-101702</link>
       <guid isPermaLink="false">561a5e0cdbac9c56</guid>
-      <description>UK - London · mid_level · 17d</description>
+      <description>UK - London · mid_level · 18d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/Spain---Madrid/Software-Development-Engineer-II_R-109913</link>
       <guid isPermaLink="false">23a4d4e68ebad2d4</guid>
-      <description>Spain - Madrid · mid_level · 17d</description>
+      <description>Spain - Madrid · mid_level · 18d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Development-Engineer-III_R-110564</link>
       <guid isPermaLink="false">4f71885018f31748</guid>
-      <description>USA - Missouri - Springfield · other · 17d</description>
+      <description>USA - Missouri - Springfield · other · 18d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III</title>
       <link>https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Software-Development-Engineer-III_R-104573-1</link>
       <guid isPermaLink="false">8581d0648bc65ffa</guid>
-      <description>UK - London · other · 17d</description>
+      <description>UK - London · other · 18d</description>
     </item>
     <item>
       <title>Unity — Développeur(se) logiciel expert(e), écosystème Android | Staff Software Engineer, Android Ecosystem</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Dveloppeur-se--logiciel-expert-e---cosystme-Android---Staff-Software-Engineer--Android-Ecosystem_JOBREQ-2616442</link>
       <guid isPermaLink="false">78fc51289f44c23e</guid>
-      <description>Montreal, Canada +4 more · mid_level · 17d</description>
+      <description>Montreal, Canada +4 more · mid_level · 18d</description>
     </item>
     <item>
       <title>Unity — Software Engineering Manager, Web Platform</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Brighton-United-Kingdom/Software-Engineering-Manager--Android-Platform_JOBREQ-2616447-1</link>
       <guid isPermaLink="false">e1e368d523f0f03f</guid>
-      <description>Brighton, United Kingdom +1 more · mid_level · 17d</description>
+      <description>Brighton, United Kingdom +1 more · mid_level · 18d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer Intern (Canada)</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Software-Development-Engineer-Intern_JR-0110807</link>
       <guid isPermaLink="false">c62ffa3ab9507bae</guid>
-      <description>Canada, BC, Vancouver · internship · 17d</description>
+      <description>Canada, BC, Vancouver · internship · 18d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III - Full Stack</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineer-III---Full-Stack_R-103094</link>
       <guid isPermaLink="false">bafe184ce1fcf74e</guid>
-      <description>Washington - Seattle Campus · other · 18d</description>
+      <description>Washington - Seattle Campus · other · 19d</description>
     </item>
     <item>
       <title>Unity — Senior Embedded Software Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Brighton-United-Kingdom/Senior-Software-Engineer--Embedded-Android_JOBREQ-2615986</link>
       <guid isPermaLink="false">327649ea6ccf9108</guid>
-      <description>Brighton, United Kingdom +2 more · mid_level · 18d</description>
+      <description>Brighton, United Kingdom +2 more · mid_level · 19d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer, Quality</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Vilnius-Lithuania/Senior-Software-Engineer--Quality_JOBREQ-2616613</link>
       <guid isPermaLink="false">435d0a8f80a0fb0e</guid>
-      <description>Vilnius, Lithuania · mid_level · 18d</description>
+      <description>Vilnius, Lithuania · mid_level · 19d</description>
     </item>
     <item>
       <title>Unity — Software Engineer, 2D</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Singapore/Software-Engineer--2D_JOBREQ-2616623</link>
       <guid isPermaLink="false">e2fa932e484a4bef</guid>
-      <description>Singapore · other · 18d</description>
+      <description>Singapore · other · 19d</description>
     </item>
     <item>
       <title>Unity — Développeur(euse) de logiciels sénior, qualité / Senior Software Engineer, QA</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Senior-Software-Engineer--QA_JOBREQ-2616438</link>
       <guid isPermaLink="false">8a2854a5950918c2</guid>
-      <description>Montreal, Canada · mid_level · 21d</description>
+      <description>Montreal, Canada · mid_level · 22d</description>
     </item>
     <item>
       <title>Unity — Senior Backend Engineer, Vector AI</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Mountain-View-CA-USA/Senior-Backend-Engineer--Vector-AI_JOBREQ-2616647</link>
       <guid isPermaLink="false">7689f3ff7e64079c</guid>
-      <description>Mountain View, CA, USA +1 more · mid_level · 21d</description>
+      <description>Mountain View, CA, USA +1 more · mid_level · 22d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer, Embedded Android</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Brighton-United-Kingdom/Senior-Software-Engineer--Embedded-Android_JOBREQ-2616244</link>
       <guid isPermaLink="false">4f42c4abda9239ae</guid>
-      <description>Brighton, United Kingdom +2 more · mid_level · 21d</description>
+      <description>Brighton, United Kingdom +2 more · mid_level · 22d</description>
     </item>
     <item>
       <title>Unity — Staff iOS SDK Engineer, Unity Ads</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/New-York-NY-USA/Staff-iOS-SDK-Engineer--Unity-Ads-SDK_JOBREQ-2616091</link>
       <guid isPermaLink="false">23726d981969b88a</guid>
-      <description>New York, NY, USA +2 more · mid_level · 21d</description>
+      <description>New York, NY, USA +2 more · mid_level · 22d</description>
     </item>
     <item>
       <title>Unity — Staff Software Engineer, Gaming AI</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Staff-Software-Engineer--Gaming-AI_JOBREQ-2616327-1</link>
       <guid isPermaLink="false">e3f3aa7b263510cb</guid>
-      <description>Montreal, Canada · mid_level · 21d</description>
+      <description>Montreal, Canada · mid_level · 22d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer Intern</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810</link>
       <guid isPermaLink="false">312b4f789cc29cd2</guid>
-      <description>USA, CA, Pleasanton · internship · 21d</description>
+      <description>USA, CA, Pleasanton · internship · 22d</description>
     </item>
     <item>
       <title>Expedia Group — Principal Software Development Engineer, ML-Powered Flight Search</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Principal-Software-Development-Engineer--ML-Powered-Flight-Search_R-110299</link>
       <guid isPermaLink="false">be3828ab0539aa94</guid>
-      <description>Washington - Seattle Campus · mid_level · 22d</description>
+      <description>Washington - Seattle Campus · mid_level · 23d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-III_R-109846</link>
       <guid isPermaLink="false">bcb3b6d9c69ccc00</guid>
-      <description>UK - London · other · 22d</description>
+      <description>UK - London · other · 23d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Manager, Software Development Engineering: BEX Engineering Home</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Manager--Software-Development-Engineering--BEX-Engineering-Home_R-110010-1</link>
       <guid isPermaLink="false">e7f7dd691db5a9ac</guid>
-      <description>USA - Illinois - Chicago · mid_level · 23d</description>
+      <description>USA - Illinois - Chicago · mid_level · 24d</description>
     </item>
     <item>
       <title>Unity — Staff Infrastructure Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Copenhagen-Denmark/Staff-Infrastructure-Engineer_JOBREQ-2616198</link>
       <guid isPermaLink="false">ed1b3a514ea556c1</guid>
-      <description>Copenhagen, Denmark · mid_level · 23d</description>
+      <description>Copenhagen, Denmark · mid_level · 24d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II - InsurTech</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineer-II---InsurTech_R-110027</link>
       <guid isPermaLink="false">46c3b66e5613f41b</guid>
-      <description>Washington - Seattle Campus · mid_level · 24d</description>
+      <description>Washington - Seattle Campus · mid_level · 25d</description>
     </item>
     <item>
       <title>Unity — Senior DevOps Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Copenhagen-Denmark/Senior-DevOps-Engineer_JOBREQ-2615888</link>
       <guid isPermaLink="false">fa8ebff249c65b81</guid>
-      <description>Copenhagen, Denmark · mid_level · 24d</description>
+      <description>Copenhagen, Denmark · mid_level · 25d</description>
     </item>
     <item>
       <title>Expedia Group — iOS Engineer II - Search Entry</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/iOS-Engineer-II---Search-Entry_R-109973</link>
       <guid isPermaLink="false">11b08d0601f1452b</guid>
-      <description>Washington - Seattle Campus · mid_level · 25d</description>
+      <description>Washington - Seattle Campus · mid_level · 26d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineering Intern - 2027 - Austin, San Jose, Seattle</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Mobile-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110306</link>
       <guid isPermaLink="false">917bf149012cbcb1</guid>
-      <description>Austin Domain 11 - HomeAway +2 more · internship · 25d</description>
+      <description>Austin Domain 11 - HomeAway +2 more · internship · 26d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineering Intern - 2027 - Austin, San Jose, Seattle</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311</link>
       <guid isPermaLink="false">f2d707cbfbc6f4aa</guid>
-      <description>Washington - Seattle Campus +2 more · internship · 25d</description>
+      <description>Washington - Seattle Campus +2 more · internship · 26d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer, AI Authoring</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Mountain-View-CA-USA/Staff-Software-Engineer--AI-Authoring_JOBREQ-2615997</link>
       <guid isPermaLink="false">2a0884d15d62c963</guid>
-      <description>Mountain View, CA, USA · mid_level · 25d</description>
+      <description>Mountain View, CA, USA · mid_level · 26d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer III, Media Solutions</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineer-III--Media-Solutions_R-109666-1</link>
       <guid isPermaLink="false">d5fa2329f902374d</guid>
-      <description>Washington - Seattle Campus · other · 27d</description>
+      <description>Washington - Seattle Campus · other · 28d</description>
     </item>
     <item>
       <title>Unity — Software Engineer, Quality (Web)</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Vilnius-Lithuania/Software-Engineer--Quality--Web-_JOBREQ-2616414</link>
       <guid isPermaLink="false">504cbd4170a572ae</guid>
-      <description>Vilnius, Lithuania · other · 28d</description>
+      <description>Vilnius, Lithuania · other · 29d</description>
     </item>
     <item>
       <title>Adobe — Software Development Engineer 4</title>
