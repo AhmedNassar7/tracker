@@ -4,7 +4,7 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Sun, 01 Nov 2026 19:42:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 23:36:48 GMT</lastBuildDate>
     <item>
       <title>Siei — Senior Software Engineer</title>
       <link>https://job-boards.greenhouse.io/siei/jobs/6110443004</link>
@@ -329,6 +329,13 @@
     </item>
     <item>
       <title>Coupang — Staff Back-end Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
+      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
+      <description>Hyderabad · mid_level · 2d</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Back-end Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892762</link>
       <guid isPermaLink="false">b09f34f6077eca0a</guid>
       <description>Hyderabad · mid_level · 2d</description>
@@ -338,13 +345,6 @@
       <title>Coupang — Staff Back-end Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8187819</link>
       <guid isPermaLink="false">76396ae3b7979db4</guid>
-      <description>Hyderabad · mid_level · 2d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Back-end Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7892757</link>
-      <guid isPermaLink="false">2fe478ff8cc06e45</guid>
       <description>Hyderabad · mid_level · 2d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -378,13 +378,6 @@
     </item>
     <item>
       <title>Coupang — Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8129527</link>
-      <guid isPermaLink="false">5632b163cbe0555f</guid>
-      <description>Bengaluru · mid_level · 2d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coupang — Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8051361</link>
       <guid isPermaLink="false">9e94f52205a3dcf4</guid>
       <description>Hyderabad · mid_level · 2d</description>
@@ -394,6 +387,13 @@
       <title>Coupang — Staff Backend Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8098140</link>
       <guid isPermaLink="false">71187b4892e1f07a</guid>
+      <description>Bengaluru · mid_level · 2d</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coupang — Staff Backend Engineer</title>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8129527</link>
+      <guid isPermaLink="false">5632b163cbe0555f</guid>
       <description>Bengaluru · mid_level · 2d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -420,15 +420,15 @@
     </item>
     <item>
       <title>Coupang — Staff, Back-end Engineer (Advertiser Platform)</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7902369</link>
-      <guid isPermaLink="false">bed7339085f37ef3</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8175959</link>
+      <guid isPermaLink="false">b4a556b039e3e19c</guid>
       <description>Seoul, South Korea · mid_level · 2d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff, Back-end Engineer (Advertiser Platform)</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8175959</link>
-      <guid isPermaLink="false">b4a556b039e3e19c</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7902369</link>
+      <guid isPermaLink="false">bed7339085f37ef3</guid>
       <description>Seoul, South Korea · mid_level · 2d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -553,15 +553,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Alexa Connections</title>
-      <link>https://www.amazon.jobs/en/jobs/10592247/software-development-engineer-alexa-connections</link>
-      <guid isPermaLink="false">907538e5d40af42c</guid>
+      <link>https://www.amazon.jobs/en/jobs/10592055/software-development-engineer-alexa-connections</link>
+      <guid isPermaLink="false">b7dda5f8d74d95f9</guid>
       <description>Chennai, Tamil Nadu, IND · unknown · 3d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, Alexa Connections</title>
-      <link>https://www.amazon.jobs/en/jobs/10592055/software-development-engineer-alexa-connections</link>
-      <guid isPermaLink="false">b7dda5f8d74d95f9</guid>
+      <link>https://www.amazon.jobs/en/jobs/10592247/software-development-engineer-alexa-connections</link>
+      <guid isPermaLink="false">907538e5d40af42c</guid>
       <description>Chennai, Tamil Nadu, IND · unknown · 3d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -686,16 +686,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
-      <guid isPermaLink="false">342b3f9493acb89a</guid>
-      <description>Singapore · internship · 3d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
+      <guid isPermaLink="false">123c0cae7b46bde0</guid>
+      <description>Bengaluru · internship · 3d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, Intern</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8031833</link>
-      <guid isPermaLink="false">123c0cae7b46bde0</guid>
-      <description>Bengaluru · internship · 3d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130883</link>
+      <guid isPermaLink="false">342b3f9493acb89a</guid>
+      <description>Singapore · internship · 3d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -937,23 +937,9 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer - 3, Tax and Account Compliance</title>
-      <link>https://www.amazon.jobs/en/jobs/10588652/software-development-engineer-3-tax-and-account-compliance</link>
-      <guid isPermaLink="false">fa8b35415ad5b2f5</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 6d</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
       <link>https://www.amazon.jobs/en/jobs/10589197/software-development-engineer-aft-external-fulfillment</link>
       <guid isPermaLink="false">0e7eaf7213be1a68</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 6d</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
-      <link>https://www.amazon.jobs/en/jobs/10589205/software-development-engineer-aft-external-fulfillment</link>
-      <guid isPermaLink="false">2bf961bf217185ff</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 6d</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -968,6 +954,13 @@
       <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
       <link>https://www.amazon.jobs/en/jobs/10589203/software-development-engineer-aft-external-fulfillment</link>
       <guid isPermaLink="false">c77fabb7b2fe93b7</guid>
+      <description>Bengaluru, Karnataka, IND · unknown · 6d</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
+      <link>https://www.amazon.jobs/en/jobs/10589205/software-development-engineer-aft-external-fulfillment</link>
+      <guid isPermaLink="false">2bf961bf217185ff</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 6d</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1169,15 +1162,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Prime Benefits</title>
-      <link>https://www.amazon.jobs/en/jobs/10585995/software-development-engineer-ii-prime-benefits</link>
-      <guid isPermaLink="false">a908833c1031f4d2</guid>
+      <link>https://www.amazon.jobs/en/jobs/10585996/software-development-engineer-ii-prime-benefits</link>
+      <guid isPermaLink="false">df8f2035563a519b</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 10d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Prime Benefits</title>
-      <link>https://www.amazon.jobs/en/jobs/10585996/software-development-engineer-ii-prime-benefits</link>
-      <guid isPermaLink="false">df8f2035563a519b</guid>
+      <link>https://www.amazon.jobs/en/jobs/10585995/software-development-engineer-ii-prime-benefits</link>
+      <guid isPermaLink="false">a908833c1031f4d2</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 10d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2099,6 +2092,13 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer, Seller and AM GenAI Tools</title>
+      <link>https://www.amazon.jobs/en/jobs/10558939/software-development-engineer-seller-and-am-genai-tools</link>
+      <guid isPermaLink="false">4292c8376892263f</guid>
+      <description>Hyderabad, Telangana, IND · unknown · 38d</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Okta — Principal UI Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/8229910?gh_jid=8229910</link>
       <guid isPermaLink="false">40636db104f57ea3</guid>
@@ -2149,8 +2149,8 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II</title>
-      <link>https://www.amazon.jobs/en/jobs/10556603/software-development-engineer-ii</link>
-      <guid isPermaLink="false">4bfb6eed0e1de083</guid>
+      <link>https://www.amazon.jobs/en/jobs/10556606/software-development-engineer-ii</link>
+      <guid isPermaLink="false">610c3a8ced38e63b</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 40d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2163,8 +2163,8 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II</title>
-      <link>https://www.amazon.jobs/en/jobs/10556606/software-development-engineer-ii</link>
-      <guid isPermaLink="false">610c3a8ced38e63b</guid>
+      <link>https://www.amazon.jobs/en/jobs/10556603/software-development-engineer-ii</link>
+      <guid isPermaLink="false">4bfb6eed0e1de083</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 40d</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2208,6 +2208,13 @@
       <link>https://www.amazon.jobs/en/jobs/10554323/software-development-engineer-amazon</link>
       <guid isPermaLink="false">b8e4f3caa9318e6d</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 41d</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer, Seller and AM GenAI Tools</title>
+      <link>https://www.amazon.jobs/en/jobs/10554458/software-development-engineer-seller-and-am-genai-tools</link>
+      <guid isPermaLink="false">9baad6f053630df9</guid>
+      <description>Hyderabad, Telangana, IND · unknown · 41d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2846,6 +2853,13 @@
       <guid isPermaLink="false">4aa173a1d295e3bd</guid>
       <description>Hyderabad, Telangana, IND · unknown · 89d</description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer II , Amazon Cross Border Tech</title>
+      <link>https://www.amazon.jobs/en/jobs/10488199/software-development-engineer-ii-amazon-cross-border-tech</link>
+      <guid isPermaLink="false">4fc9404981141509</guid>
+      <description>Bengaluru, Karnataka, IND · mid_level · 94d</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, FBA</title>
