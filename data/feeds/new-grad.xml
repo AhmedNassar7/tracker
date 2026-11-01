@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Sun, 01 Nov 2026 07:34:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 15:08:05 GMT</lastBuildDate>
     <item>
       <title>Roblox — [2027] Senior Software Engineer - Data Acquisition PhD Early Career</title>
       <link>https://careers.roblox.com/jobs/8315883?gh_jid=8315883</link>
@@ -20,13 +20,6 @@
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
-      <guid isPermaLink="false">c623d077adb61061</guid>
-      <description>US, CA, Santa Clara · new_grad · 1d</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer (Database) Early Career- 2027 (US)</title>
       <link>https://zapply.jobs/l/d/amazon-5ff0199f-83f5-4139-be12-3dc4f8b52bf8?s=gh-new-grad-software-engineering-jobs-2027</link>
       <guid isPermaLink="false">6e3e6bbc13c12859</guid>
@@ -38,6 +31,13 @@
       <link>https://zapply.jobs/l/d/amazon-5ff0199f-83f5-4139-be12-3dc4f8b52bf8?s=gh-new-grad-jobs-2027</link>
       <guid isPermaLink="false">4ff72c9b94fa0b15</guid>
       <description>Seattle, WA · new_grad · 1d</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
+      <guid isPermaLink="false">c623d077adb61061</guid>
+      <description>US, CA, Santa Clara · new_grad · 1d</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -63,30 +63,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
-      <guid isPermaLink="false">b836bebf63487343</guid>
-      <description>Dublin · new_grad · 3d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
-      <guid isPermaLink="false">485c7a19842acde7</guid>
-      <description>Toronto · new_grad · 3d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 3d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
       <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
       <description>San Francisco, Seattle, New York · new_grad · 3d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
+      <guid isPermaLink="false">b836bebf63487343</guid>
+      <description>Dublin · new_grad · 3d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -98,9 +84,23 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 3d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
       <description>London · new_grad · 3d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
+      <guid isPermaLink="false">485c7a19842acde7</guid>
+      <description>Toronto · new_grad · 3d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -151,6 +151,13 @@
       <guid isPermaLink="false">5a64295e3470ae40</guid>
       <description>Bellevue, Washington; Mountain View, California · new_grad · 5d</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Atlassian — Security Engineer, 2027 Graduate U.S.</title>
+      <link>https://www.indeed.com/viewjob?jk=dab43eeb438af62c</link>
+      <guid isPermaLink="false">a3cb8cba0b8bb123</guid>
+      <description>Seattle, WA, US · new_grad · 6d</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Google — Software Engineer, AI/Machine Learning, PhD, Early Career, 2027 Start</title>
