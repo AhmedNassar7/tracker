@@ -28,18 +28,18 @@ Extra signals pulled straight from a posting's own text (only the ATS sources th
 
 | Section | Count |
 |---|---:|
-| Jobs | 4289 |
-| Hackathons | 89 |
-| Events | 192 |
-| Total | 4570 |
+| Jobs | 4281 |
+| Hackathons | 85 |
+| Events | 194 |
+| Total | 4560 |
 
 ## Jobs
 
-[![Jobs 4289](https://img.shields.io/badge/Jobs-4289-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 359](https://img.shields.io/badge/Internship-359-22c55e.svg)](#internship) [![Early Career 79](https://img.shields.io/badge/Early%20Career-79-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3851](https://img.shields.io/badge/Mid--Level%20and%20Above-3851-dc2626.svg)](#mid-level-and-above)
+[![Jobs 4281](https://img.shields.io/badge/Jobs-4281-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 353](https://img.shields.io/badge/Internship-353-22c55e.svg)](#internship) [![Early Career 78](https://img.shields.io/badge/Early%20Career-78-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3850](https://img.shields.io/badge/Mid--Level%20and%20Above-3850-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
-Total roles: 359
+Total roles: 353
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -50,8 +50,6 @@ Total roles: 359
 | Amazon | [Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027](https://zapply.jobs/l/d/amazon-04fba0c4-1a5d-46d5-a69a-04bc82fec77e?s=gh-new-grad-data-science-jobs-2027) | Seattle, WA | 2d |
 | Amazon | [Software Engineer Intern - Machine Learning/Automated Reasoning](https://amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027?utm_source=Simplify&ref=Simplify) | <details><summary>9 locations</summary>Boston, MA<br>Seattle, WA<br>Austin, TX<br>Irvine, CA<br>Arlington County<br>Arlington, VA<br>NYC<br>Bellevue, WA<br>Sunnyvale, CA<br>San Diego, CA</details> | 2d |
 | Amazon | [Software Engineer Intern - Machine Learning/Automated Reasoning](https://amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027?utm_source=Simplify&ref=Simplify) | 9 locationsBoston, MA Seattle, WA Austin, TX Irvine, CA Arlington County, Arlington, VA NYC Bellevue, WA Sunnyvale, CA San Diego, CA | 2d |
-| Amazon | [2027 Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning)...](https://zapply.jobs/l/d/amazon-85268e35-b1d2-47a1-b804-f7d1bd353eb0?s=gh-new-grad-data-science-jobs-2027) | Seattle, WA | 7d |
-| Amazon | [2027 Applied Science Internship - Reinforcement Learning & Optimization (Machine Learning) -...](https://zapply.jobs/l/d/amazon-de9fd61c-eb9b-488f-aac1-e0675b4e88fc?s=gh-new-grad-data-science-jobs-2027) | Seattle, WA | 7d |
 | Amazon | [Junior Software Development Engineer Intern](https://go.vansh.nyc/gC?utm_source=github-vansh-ouckah) | Detroit, MI | 7d |
 | Amazon | [Software Development Engineer Intern - Amazon Leo - Summer 2027 - USA](https://www.amazon.jobs/jobs/10587999/apply) | Redmond, WA | 7d |
 | Amazon | [Software Engineer Intern](https://amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa?utm_source=Simplify&ref=Simplify) | Redmond, WA | 7d |
@@ -183,8 +181,8 @@ Total roles: 359
 | Stripe | [Master's Machine Learning Engineer - Intern](https://stripe.com/jobs/search?gh_jid=8333074) | San Francisco, CA | 1d |
 | Stripe | [PhD Machine Learning Engineer - Intern](https://stripe.com/jobs/search?gh_jid=8328662) | San Francisco, CA | 1d |
 | Stripe | [Machine Learning Engineer Intern 🎓](https://stripe.com/jobs/search?gh_jid=8328662&utm_source=Simplify&ref=Simplify) | Seattle, WA SF NYC | 2d |
-| Stripe | [Machine Learning Engineer Intern 🎓](https://stripe.com/jobs/search?gh_jid=8333122&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 2d |
 | Stripe | [Machine Learning Engineer Intern 🎓](https://stripe.com/jobs/search?gh_jid=8328662&utm_source=Simplify&ref=Simplify) | Seattle, WA SF NYC | 2d |
+| Stripe | [Machine Learning Engineer Intern 🎓](https://stripe.com/jobs/search?gh_jid=8333122&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 2d |
 | Stripe | [Machine Learning Engineer Intern 🎓](https://stripe.com/jobs/search?gh_jid=8333074&utm_source=Simplify&ref=Simplify) | Seattle, WA SF NYC | 2d |
 | Stripe | [Master's Machine Learning Engineer, Intern](https://zapply.jobs/l/d/greenhouse-stripe-8333074?s=gh-new-grad-jobs-2027) | San Francisco, New York City,... | 2d |
 | Stripe | [Master's Machine Learning Engineer, Intern](https://zapply.jobs/l/d/greenhouse-stripe-8333074?s=gh-internships-2027) | San Francisco, New York City,... | 2d |
@@ -196,15 +194,18 @@ Total roles: 359
 | Stripe | [Software Engineer Intern](https://stripe.com/jobs/search?gh_jid=8241260&utm_source=Simplify&ref=Simplify) | Seattle, WA SF | 22d |
 | Stripe | [PhD Data Scientist - Intern](https://stripe.com/jobs/search?gh_jid=8194283) | New York City, NY | 1mo |
 | Stripe | [Software Engineer Intern](https://stripe.com/jobs/search?gh_jid=8241260&utm_source=Simplify&ref=Simplify) | Seattle, WA SF | 1mo |
-| Visa | [Software Engineer Intern 🛂](https://go.vansh.nyc/Xe?utm_source=github-vansh-ouckah) | Foster City, CA | 4d |
 | Visa | [Software Engineer Intern 🛂](https://go.vansh.nyc/Xf?utm_source=github-vansh-ouckah) | Austin, TX | 4d |
+| Visa | [Software Engineer Intern 🛂](https://go.vansh.nyc/Xe?utm_source=github-vansh-ouckah) | Foster City, CA | 4d |
 | Visa | [Sophomore Program Software Engineer Intern 🛂](https://go.vansh.nyc/VC?utm_source=github-vansh-ouckah) | Austin, TX | 4d |
 | Visa | [Sophomore Program Software Engineer Intern 🛂](https://go.vansh.nyc/VB?utm_source=github-vansh-ouckah) | Denver, CO | 4d |
 | Visa | [Sophomore Program Software Engineer Intern 🛂](https://go.vansh.nyc/Vy?utm_source=github-vansh-ouckah) | Foster City, CA | 4d |
 | Visa | [Sophomore Program Software Engineer Intern 🛂](https://go.vansh.nyc/Vx?utm_source=github-vansh-ouckah) | Bellevue, WA | 4d |
 | Visa | [2027 Sophomore Internship Program - Software Engineer Intern, Ashburn](https://zapply.jobs/l/d/workday-visa-visa-REF089878W?s=gh-new-grad-software-engineering-jobs-2027) | Ashburn, VA | 5d |
+| Visa | [2027 Sophomore Internship Program - Software Engineer Intern, Ashburn](https://zapply.jobs/l/d/workday-visa-visa-REF089878W?s=gh-internships-2027) | Ashburn, VA | 5d |
 | Visa | [2027 Sophomore Internship Program - Software Engineer Intern, Austin, TX - 2027](https://zapply.jobs/l/d/workday-visa-visa-REF089882W?s=gh-new-grad-software-engineering-jobs-2027) | Austin, TX | 5d |
+| Visa | [2027 Sophomore Internship Program - Software Engineer Intern, Austin, TX - 2027](https://zapply.jobs/l/d/workday-visa-visa-REF089882W?s=gh-internships-2027) | Austin, TX | 5d |
 | Visa | [2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch](https://zapply.jobs/l/d/workday-visa-visa-REF089880W?s=gh-new-grad-software-engineering-jobs-2027) | Denver, CO | 5d |
+| Visa | [2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch](https://zapply.jobs/l/d/workday-visa-visa-REF089880W?s=gh-internships-2027) | Denver, CO | 5d |
 | Visa | [Software Engineer Intern](https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1?utm_source=Simplify&ref=Simplify) | Denver, CO | 5d |
 | Visa | [Software Engineer Intern 🛂](https://go.vansh.nyc/Vz?utm_source=github-vansh-ouckah) | Ashburn, VA | 5d |
 | Visa | [Sophomore Program Software Engineer Intern](https://go.vansh.nyc/VE?utm_source=github-vansh-ouckah) | Ashburn, VA | 5d |
@@ -217,32 +218,28 @@ Total roles: 359
 | Lyft | [Software Engineer Intern - Machine Learning](https://app.careerpuck.com/job-board/lyft/job/8802332002?gh_jid=8802332002&utm_source=Simplify&ref=Simplify) | Toronto, ON, Canada | 28d |
 | Lyft | [Data Engineer Intern](https://go.vansh.nyc/Ql?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
 | Lyft | [Software Engineer Intern - Backend](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002&utm_source=Simplify&ref=Simplify) | SF | 1mo |
-| Lyft | [Software Engineer Intern, Backend](https://go.vansh.nyc/Qp?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
 | Lyft | [Software Engineer Intern, Backend](https://go.vansh.nyc/Qn?utm_source=github-vansh-ouckah) | Montreal, Canada | 1mo |
 | Lyft | [Software Engineer Intern, Backend](https://go.vansh.nyc/Qm?utm_source=github-vansh-ouckah) | San Francisco, CA | 1mo |
+| Lyft | [Software Engineer Intern, Backend](https://go.vansh.nyc/Qp?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
 | Lyft | [Software Engineer Intern, Fullstack](https://go.vansh.nyc/Qq?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
 | Lyft | [Software Engineer Intern, Machine Learning](https://go.vansh.nyc/Qo?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
 | Uber | [Software Engineer Intern](https://img.shields.io/badge/-Apply-blue?style=for-the-badge) | Toronto, ON | 2d |
 | Uber | [Software Engineer Intern](https://go.vansh.nyc/dg?utm_source=github-vansh-ouckah) | Seattle, WA, SF, Sunnyvale, CA | 7d |
-| DoorDash | [Machine Learning Intern (PhD) - Summer 2027](https://zapply.jobs/l/d/greenhouse-doordashusa-8233953?s=gh-new-grad-data-science-jobs-2027) | San Francisco, CA | 7d |
+| Expedia Group | [Machine Learning Science Intern 🎓](https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Applied-Science-Intern---PhD---2027---London_R-110737?utm_source=Simplify&ref=Simplify) | London, UK | 9d |
+| Expedia Group | [Software Development Engineer Intern](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551?utm_source=Simplify&ref=Simplify) | London, UK | 9d |
+| Expedia Group | [Software Development Engineer Intern](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311?utm_source=Simplify&ref=Simplify) | Seattle, WA Austin, TX San Jose, CA | 27d |
 | DoorDash | [Software Engineer - Intern - Labs - Summer 2027](https://job-boards.greenhouse.io/doordashusa/jobs/8263774) | San Francisco, CA +1 | 22d |
 | DoorDash | [Software Engineer Intern](https://job-boards.greenhouse.io/doordashusa/jobs/8263774?utm_source=Simplify&ref=Simplify) | SF Sunnyvale, CA | 22d |
 | DoorDash | [Software Engineer Intern](https://job-boards.greenhouse.io/doordashusa/jobs/8263774?utm_source=Simplify&ref=Simplify) | SF Sunnyvale, CA | 23d |
 | DoorDash | [Machine Learning Engineer Intern - Masters 🎓](https://job-boards.greenhouse.io/doordashusa/jobs/8204111?utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details> | 27d |
-| DoorDash | [Machine Learning Intern (Masters) - Summer 2027](https://zapply.jobs/l/d/greenhouse-doordashusa-8204111?s=gh-new-grad-data-science-jobs-2027) | San Francisco, CA | 1mo |
 | DoorDash | [Software Engineer Intern - Summer 2027](https://job-boards.greenhouse.io/doordashusa/jobs/8171041?utm_source=Simplify&ref=Simplify) | 5 locationsSeattle, WA SF LA NYC Sunnyvale, CA | 1mo |
-| Expedia Group | [Machine Learning Science Intern 🎓](https://expedia.wd108.myworkdayjobs.com/search/job/UK---London/Applied-Science-Intern---PhD---2027---London_R-110737?utm_source=Simplify&ref=Simplify) | London, UK | 9d |
-| Expedia Group | [Software Development Engineer Intern](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551?utm_source=Simplify&ref=Simplify) | London, UK | 9d |
-| Expedia Group | [Software Development Engineer Intern](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311?utm_source=Simplify&ref=Simplify) | Seattle, WA Austin, TX San Jose, CA | 27d |
-| Expedia Group | [2023 PhD Intern - Machine Learning Science](https://zapply.jobs/l/d/workday-expedia-private-R-76833?s=gh-new-grad-data-science-jobs-2027) | Austin Domain 11 HomeAway | 1mo |
-| Expedia Group | [Machine Learning Science Intern - PhD - 2026 - Austin, San Jose](https://zapply.jobs/l/d/workday-expedia-private-R-98585?s=gh-new-grad-data-science-jobs-2027) | Austin Domain 11 HomeAway | 1mo |
 | Hudson River Trading | [Data Scientist Intern](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8257369&utm_source=Simplify&ref=Simplify) | London, UK NYC | 26d |
 | Hudson River Trading | [Data Scientist Intern - 2027](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8257369) | London, United Kingdom +1 | 26d |
 | ByteDance | [Agent Evaluation & Evolution Machine Learning Engineer Intern, AML-Ark-US](https://go.vansh.nyc/149?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
 | ByteDance | [Agent Evaluation & Evolution Machine Learning Engineer Intern, AML-Ark-US](https://go.vansh.nyc/14f?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Backend Development Engineer Intern, Infrastructure Platform Delivery](https://go.vansh.nyc/17L?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
-| ByteDance | [Machine Learning Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/144?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Machine Learning Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/17K?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
+| ByteDance | [Machine Learning Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/144?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Multi-Cloud CDN Data Platform Engineer Intern, Global Engineering CDN](https://go.vansh.nyc/14b?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform](https://go.vansh.nyc/15G?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform](https://go.vansh.nyc/14q?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
@@ -252,11 +249,11 @@ Total roles: 359
 | ByteDance | [Production System Engineer Project Intern, Server DevOps](https://go.vansh.nyc/14e?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Production System Engineer Project Intern, Server DevOps](https://go.vansh.nyc/14j?utm_source=github-vansh-ouckah) | New York, NY | 0d |
 | ByteDance | [Site Reliability Engineer Intern, Data Infra](https://go.vansh.nyc/145?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
-| ByteDance | [Site Reliability Engineer Intern, Data Infra](https://go.vansh.nyc/14p?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
 | ByteDance | [Site Reliability Engineer Intern, Data Infra](https://go.vansh.nyc/14t?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
+| ByteDance | [Site Reliability Engineer Intern, Data Infra](https://go.vansh.nyc/14p?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
 | ByteDance | [Software Development Engineer Intern, Network Automation](https://go.vansh.nyc/17M?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
-| ByteDance | [Software Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/14g?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Software Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/14i?utm_source=github-vansh-ouckah) | Seattle, WA | 0d |
+| ByteDance | [Software Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/14g?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Software Engineer Intern, CIS Knowledge Bank](https://go.vansh.nyc/14l?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Software Engineer Intern, Global Payment](https://go.vansh.nyc/14n?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
 | ByteDance | [Software Engineer Intern, Global Payment - Risk & Compliance](https://go.vansh.nyc/14k?utm_source=github-vansh-ouckah) | San Jose, CA | 0d |
@@ -272,8 +269,12 @@ Total roles: 359
 | Roblox | [2027 Data Scientist - PhD Intern](https://careers.roblox.com/jobs/8242619?gh_jid=8242619) | San Mateo, CA | 23d |
 | Tesla | [Data Engineer Intern - Energy](https://www.tesla.com/careers/search/job/287982?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 3d |
 | Tesla | [Data Engineer Intern - Energy](https://www.tesla.com/careers/search/job/287982?utm_source=Simplify&ref=Simplify) | Palo Alto, CA | 3d |
-| Pinterest | [Master's Machine Learning Internship 2027 (USA)](https://zapply.jobs/l/d/greenhouse-pinterest-8138090?s=gh-new-grad-data-science-jobs-2027) | San Francisco, CA, US | 7d |
-| Pinterest | [PhD Machine Learning Internship 2027 (USA)](https://zapply.jobs/l/d/greenhouse-pinterest-8140140?s=gh-new-grad-data-science-jobs-2027) | San Francisco, CA, US | 7d |
+| Coinbase | [Software Engineer Intern](https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873) | USA +1 | 10d |
+| Coinbase | [Data Engineer Intern](https://zapply.jobs/l/d/greenhouse-coinbase-8175459?s=gh-new-grad-data-science-jobs-2027) | Hybrid - San Francisco, CA | 1mo |
+| Coinbase | [Data Engineer Intern](https://go.vansh.nyc/Mv?utm_source=github-vansh-ouckah) | San Francisco, CA | 1mo |
+| Coinbase | [Software Engineer Intern](https://boards.greenhouse.io/embed/job_app?token=8168315&utm_source=Simplify&ref=Simplify) | SF | 1mo |
+| Coinbase | [Software Engineer Intern](https://go.vansh.nyc/Mw?utm_source=github-vansh-ouckah) | San Francisco, CA | 1mo |
+| Epic Games | [Machine Learning Intern](https://www.linkedin.com/jobs/view/4450376410) | Greater London, England, United Kingdom | 10d |
 | Pinterest | [Machine Learning Intern 2027 (dublin)](https://www.linkedin.com/jobs/view/4475832754) | Dublin, County Dublin, Ireland | 10d |
 | Pinterest | [Machine Learning Intern 🎓](https://www.pinterestcareers.com/jobs/?gh_jid=8140140&utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Palo Alto, CA<br>Seattle, WA<br>SF<br>NYC</details> | 23d |
 | Pinterest | [Software Engineer Intern](https://www.pinterestcareers.com/jobs/?gh_jid=7838577&utm_source=Simplify&ref=Simplify) | SF Remote in USA | 26d |
@@ -282,12 +283,6 @@ Total roles: 359
 | Pinterest | [PhD Machine Learning Internship 2027 - USA](https://www.pinterestcareers.com/jobs/?gh_jid=8140140) | San Francisco, CA +3 | 1mo |
 | Pinterest | [Software Engineer Intern](https://www.pinterestcareers.com/jobs/?gh_jid=7838577&utm_source=Simplify&ref=Simplify) | SF Remote in USA | 1mo |
 | Pinterest | [Software Engineer Intern 2027 - USA](https://www.pinterestcareers.com/jobs/?gh_jid=7838577) | Remote - San Francisco, CA | 1mo |
-| Coinbase | [Software Engineer Intern](https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873) | USA +1 | 10d |
-| Coinbase | [Data Engineer Intern](https://zapply.jobs/l/d/greenhouse-coinbase-8175459?s=gh-new-grad-data-science-jobs-2027) | Hybrid - San Francisco, CA | 1mo |
-| Coinbase | [Data Engineer Intern](https://go.vansh.nyc/Mv?utm_source=github-vansh-ouckah) | San Francisco, CA | 1mo |
-| Coinbase | [Software Engineer Intern](https://go.vansh.nyc/Mw?utm_source=github-vansh-ouckah) | San Francisco, CA | 1mo |
-| Coinbase | [Software Engineer Intern](https://boards.greenhouse.io/embed/job_app?token=8168315&utm_source=Simplify&ref=Simplify) | SF | 1mo |
-| Epic Games | [Machine Learning Intern](https://www.linkedin.com/jobs/view/4450376410) | Greater London, England, United Kingdom | 10d |
 | ServiceNow | [AI Engineering Associate Software Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000155345889?utm_source=Simplify&ref=Simplify) | 4 locationsSanta Clara, CA West Palm Beach, FL Kirkland, WA San Diego, CA | 11d |
 | ServiceNow | [AI Engineering Associate Software Engineer Intern](https://jobs.smartrecruiters.com/ServiceNow/744000155345889?utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Santa Clara, CA<br>West Palm Beach, FL<br>Kirkland, WA<br>San Diego, CA</details> | 19d |
 | ServiceNow | [Software Engineer Intern 🎓](https://jobs.smartrecruiters.com/ServiceNow/744000155345689?utm_source=Simplify&ref=Simplify) | 4 locationsSanta Clara, CA West Palm Beach, FL Kirkland, WA San Diego, CA | 19d |
@@ -313,7 +308,6 @@ Total roles: 359
 | DoorDash | [Software Engineer, Intern (Summer 2027) - US](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) _$107k–$158k/yr_ | New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA | 2d |
 | DoorDash | [Software Engineer, Intern - Labs (Summer 2027)](https://job-boards.greenhouse.io/doordashusa/jobs/8263774) _$107k–$158k/yr_ | San Francisco, CA; Sunnyvale, CA | 2d |
 | Epic Games | [Frontend Programmer Intern](https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004) | Cary,North Carolina,United States | 2d |
-| NVIDIA | [Compiler Software Engineering Intern - Summer 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607) | US, WA, Redmond | 2d |
 | SpaceX | [Spring 2027 Software Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002) | Flexible - Any SpaceX Site | 2d |
 | SpaceX | [Summer 2027 Software Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002) | Flexible - Any SpaceX Site | 2d |
 | Doctolib | [Software Engineer Intern - Fullstack (x/f/m) - Amsterdam](https://job-boards.greenhouse.io/doctolib/jobs/8006520003) | Amsterdam, North Holland, Netherlands | 3d |
@@ -405,7 +399,7 @@ Total roles: 359
 
 ### Early Career
 
-Total roles: 79
+Total roles: 78
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -428,7 +422,7 @@ Total roles: 79
 | Amazon | [Software Development Engineer, Early Career - 2027, Shanghai](https://www.amazon.jobs/en/jobs/10496564/software-development-engineer-early-career-2027-shanghai) | Shanghai, CHN | 2mo |
 | Amazon | [Software Development Engineer, Early Career - 2027, Beijing](https://www.amazon.jobs/en/jobs/10493864/software-development-engineer-early-career-2027-beijing) | Beijing, CHN | 2mo |
 | Amazon | [Software Development Engineer I, FinOps FP&A](https://www.amazon.jobs/en/jobs/10432823/software-development-engineer-i-finops-fp-a) | Bengaluru, Karnataka, IND | 5mo |
-| Google | [Software Engineer, AI/Machine Learning, PhD, Early Career, 2027 Start](https://zapply.jobs/l/d/google-123087196289671878?s=gh-new-grad-data-science-jobs-2027) | United States | 7d |
+| Amazon.com | [Software Development Engineer (Database) Early Career- 2027 (US)](https://www.indeed.com/viewjob?jk=0b5c8dbd6f69f583) | East Palo Alto, CA, US | 5d |
 | Google | [Software Engineer, Performance, Reliability, Observability, Phd, Early Career](https://www.linkedin.com/jobs/view/4321301694) | Warsaw, Mazowieckie, Poland | 8d |
 | Apple | [Software Engineer - AiDP Reliability Engineering, IS&T, Early Career Opportunities](https://jobs.apple.com/en-us/details/200677645/software-engineer-aidp-reliability-engineering-is-t-early-career-opportunities) | Austin, United States of America | 2mo |
 | Apple | [Frontend Engineer, EE&P - IS&T Early Career](https://jobs.apple.com/en-us/details/200676168/frontend-engineer-ee-p-is-t-early-career) | Austin, United States of America | 2mo |
@@ -440,7 +434,6 @@ Total roles: 79
 | Salesforce | [Software Engineer New Grad](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Software-Engineering-MTS_JR363598?utm_source=Simplify&ref=Simplify) | Indianapolis, IN Dallas, TX | 3d |
 | Arm | [Graduate Software Engineer](https://www.linkedin.com/jobs/view/4472552295) | Budapest, Budapest, Hungary | 5d |
 | Databricks | [Software Engineer New Grad](https://boards.greenhouse.io/embed/job_app?token=6865698002&utm_source=Simplify&ref=Simplify) | Mountain View, CA | 4d |
-| Atlassian | [Security Engineer, 2027 Graduate U.S.](https://www.indeed.com/viewjob?jk=dab43eeb438af62c) | Seattle, WA, US | 6d |
 | Palantir | [Forward Deployed Software Engineer New Grad](https://jobs.lever.co/palantir/66b495eb-aaf9-4bf9-a759-41854534add7/apply?utm_source=Simplify&ref=Simplify) | NYC | 10d |
 | Palantir | [Forward Deployed Software Engineer, New Grad - Warp Speed](https://jobs.lever.co/palantir/66b495eb-aaf9-4bf9-a759-41854534add7) | New York, NY | 10d |
 | Palantir | [Software Engineer New Grad - Query Engines](https://jobs.lever.co/palantir/0f7d1e01-1f74-4786-944d-910208d390fa/apply?utm_source=Simplify&ref=Simplify) | London, UK | 12d |
@@ -491,99 +484,10 @@ Total roles: 79
 
 ### Mid-Level and Above
 
-Total roles: 3851
+Total roles: 3850
 
 | Company | Title | Location | Age |
 |---|---|---|---|
-| Apple | [Physics & Optical Simulation Software Engineer - Q](https://jobs.apple.com/en-us/details/200692526/physics-optical-simulation-software-engineer-q) | Herzliya, Israel | 0d |
-| Apple | [AIML - Machine Learning Engineer, Evaluation - Responsible AI and Safety](https://jobs.apple.com/en-us/details/200692587/aiml-machine-learning-engineer-evaluation-responsible-ai-and-safety) | Cupertino, United States of America | 2d |
-| Apple | [Backend Engineer (Python)](https://jobs.apple.com/en-us/details/200692393/backend-engineer-python) | Bengaluru, India | 2d |
-| Apple | [iOS Engineer - Wallet](https://jobs.apple.com/en-us/details/200662761/ios-engineer-wallet) | New York City, United States of America | 2d |
-| Apple | [Machine Learning Research Engineer](https://jobs.apple.com/en-us/details/200692644/machine-learning-research-engineer) | Seattle, United States of America | 2d |
-| Apple | [Software Development Engineer in Test — Retail Engineering](https://jobs.apple.com/en-us/details/200677505/software-development-engineer-in-test-retail-engineering) | Shanghai, China | 2d |
-| Apple | [Software Engineer - Traffic, Envoy](https://jobs.apple.com/en-us/details/200692658/software-engineer-traffic-envoy) | Seattle, United States of America | 2d |
-| Apple | [Software Engineer, Safari Extensions](https://jobs.apple.com/en-us/details/200676418/software-engineer-safari-extensions) | San Diego, United States of America | 2d |
-| Apple | [Software Engineer, Xcode Cloud](https://jobs.apple.com/en-us/details/200692697/software-engineer-xcode-cloud) | Vancouver, Canada | 2d |
-| Apple | [Wireless Bluetooth Software Engineer, Wireless Technologies & Ecosystems](https://jobs.apple.com/en-us/details/200692525/wireless-bluetooth-software-engineer-wireless-technologies-ecosystems) | San Diego, United States of America | 2d |
-| Apple | [AI Software Engineer, App Intelligence](https://jobs.apple.com/en-us/details/200692473/ai-software-engineer-app-intelligence) | San Francisco Bay Area, United States of America | 3d |
-| Apple | [AIML - Machine Learning Engineer, Evaluation - Responsible AI and Safety](https://jobs.apple.com/en-us/details/200692531/aiml-machine-learning-engineer-evaluation-responsible-ai-and-safety) | Cambridge, United States of America | 3d |
-| Apple | [Battery Algorithm ML Engineer](https://jobs.apple.com/en-us/details/200692363/battery-algorithm-ml-engineer) | Cupertino, United States of America | 3d |
-| Apple | [DevOps Engineer - Retail Engineering Apps & Services](https://jobs.apple.com/en-us/details/200690998/devops-engineer-retail-engineering-apps-services) | Austin, United States of America | 3d |
-| Apple | [Java Backend Engineer - Retail](https://jobs.apple.com/en-us/details/200686517/java-backend-engineer-retail) | Shanghai, China | 3d |
-| Apple | [Software Developer in Test - Core I/O](https://jobs.apple.com/en-us/details/200692119/software-developer-in-test-core-i-o) | Cupertino, United States of America | 3d |
-| Apple | [Software Development Engineer - Tools](https://jobs.apple.com/en-us/details/200692365/software-development-engineer-tools) | San Diego, United States of America | 3d |
-| Apple | [Software Development Engineer-Health](https://jobs.apple.com/en-us/details/200692377/software-development-engineer-health) | Sunnyvale, United States of America | 3d |
-| Apple | [Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)](https://jobs.apple.com/en-us/details/200660661/software-engineer-framework-solutions-ai-data-platforms-aidp) | Austin, United States of America | 3d |
-| Apple | [Software Engineer - Traffic (ASE)](https://jobs.apple.com/en-us/details/200685623/software-engineer-traffic-ase) | Shanghai, China | 3d |
-| Apple | [Software Engineer, Employee Experience & Productivity](https://jobs.apple.com/en-us/details/200678553/software-engineer-employee-experience-productivity) | Culver City, United States of America | 3d |
-| Apple | [Software Engineer, Information Systems & Technology](https://jobs.apple.com/en-us/details/200685188/software-engineer-information-systems-technology) | Austin, United States of America | 3d |
-| Apple | [Software Engineer, Information Systems & Technology](https://jobs.apple.com/en-us/details/200685186/software-engineer-information-systems-technology) | Sunnyvale, United States of America | 3d |
-| Apple | [Data Engineer, Apple Ads](https://jobs.apple.com/en-us/details/200692322/data-engineer-apple-ads) | Austin, United States of America | 4d |
-| Apple | [iOS Software Engineer](https://jobs.apple.com/en-us/details/200692106/ios-software-engineer) | Cupertino, United States of America | 4d |
-| Apple | [Machine Learning Engineer - Agentic AI](https://jobs.apple.com/en-us/details/200692172/machine-learning-engineer-agentic-ai) | Herzliya, Israel | 4d |
-| Apple | [Machine Learning Ph.D Student - Agentic AI](https://jobs.apple.com/en-us/details/200691529/machine-learning-ph-d-student-agentic-ai) | Herzliya, Israel | 4d |
-| Apple | [Machine Learning Systems Engineer – Video Computer Vision](https://jobs.apple.com/en-us/details/200692165/machine-learning-systems-engineer-video-computer-vision) | Sunnyvale, United States of America | 4d |
-| Apple | [Site Reliability Engineer, Enterprise Technology Services](https://jobs.apple.com/en-us/details/200686672/site-reliability-engineer-enterprise-technology-services) | Austin, United States of America | 4d |
-| Apple | [Software Development Engineer - Test](https://jobs.apple.com/en-us/details/200680221/software-development-engineer-test) | Sunnyvale, United States of America | 4d |
-| Apple | [Software Development Engineer in Test (SDET), Creative Apps](https://jobs.apple.com/en-us/details/200692290/software-development-engineer-in-test-sdet-creative-apps) | Cupertino, United States of America | 4d |
-| Apple | [Software Development Engineer in Test – Apps, Identity Management Services](https://jobs.apple.com/en-us/details/200692315/software-development-engineer-in-test-apps-identity-management-services) | Sunnyvale, United States of America | 4d |
-| Apple | [Software Site Reliability Engineer - AI & Data Platforms](https://jobs.apple.com/en-us/details/200691522/software-site-reliability-engineer-ai-data-platforms) | Hyderabad, India | 4d |
-| Apple | [Software Site Reliability Engineer - AI & Data Platforms](https://jobs.apple.com/en-us/details/200691519/software-site-reliability-engineer-ai-data-platforms) | Hyderabad, India | 4d |
-| Apple | [Camera Embedded Software Engineer](https://jobs.apple.com/en-us/details/200690234/camera-embedded-software-engineer) | Cupertino, United States of America | 5d |
-| Apple | [Graphics Software Engineer](https://jobs.apple.com/en-us/details/200688305/graphics-software-engineer) | Austin, United States of America | 5d |
-| Apple | [iOS Application Developer - Health Software](https://jobs.apple.com/en-us/details/200692096/ios-application-developer-health-software) | Sunnyvale, United States of America | 5d |
-| Apple | [Machine Learning Engineer, Evaluation and Quality, Creativity Apps](https://jobs.apple.com/en-us/details/200691707/machine-learning-engineer-evaluation-and-quality-creativity-apps) | San Diego Metro Area, United States of America | 5d |
-| Apple | [Software Development Engineer in Test - Retail & Marcom](https://jobs.apple.com/en-us/details/200687965/software-development-engineer-in-test-retail-marcom) | Austin, United States of America | 5d |
-| Apple | [Systems Software Engineer - Performance & Agentic Tools](https://jobs.apple.com/en-us/details/200691968/systems-software-engineer-performance-agentic-tools) | Cupertino, United States of America | 5d |
-| Apple | [Integration Engineering - Software Engineer](https://jobs.apple.com/en-us/details/200691504/integration-engineering-software-engineer) | Hyderabad, India | 6d |
-| Apple | [iOS Analytics Software Engineer - Video Applications](https://jobs.apple.com/en-us/details/200662789/ios-analytics-software-engineer-video-applications) | Boulder, United States of America | 6d |
-| Apple | [Software Development Engineer in Test](https://jobs.apple.com/en-us/details/200677065/software-development-engineer-in-test) | Seattle, United States of America | 6d |
-| Apple | [Software Development Engineer – Systems](https://jobs.apple.com/en-us/details/200689480/software-development-engineer-systems) | Cupertino, United States of America | 6d |
-| Apple | [Software Engineer - Developer Productivity Engineering](https://jobs.apple.com/en-us/details/200691740/software-engineer-developer-productivity-engineering) | Seattle, United States of America | 6d |
-| Apple | [Software Engineer - Power and Performance Analytics Platform](https://jobs.apple.com/en-us/details/200691225/software-engineer-power-and-performance-analytics-platform) | Cupertino, United States of America | 6d |
-| Apple | [Software Engineer - Private Cloud Compute, On-Device Client Frameworks](https://jobs.apple.com/en-us/details/200670286/software-engineer-private-cloud-compute-on-device-client-frameworks) | London, United Kingdom | 6d |
-| Apple | [Software Engineer, Generative Experiences](https://jobs.apple.com/en-us/details/200691655/software-engineer-generative-experiences) | Seattle, United States of America | 6d |
-| Apple | [Software Engineer, System Services & Daemons, Core OS](https://jobs.apple.com/en-us/details/200691490/software-engineer-system-services-daemons-core-os) | Beaverton, United States of America | 6d |
-| Apple | [Software Engineer, System Services & Daemons, Core OS](https://jobs.apple.com/en-us/details/200690212/software-engineer-system-services-daemons-core-os) | Beaverton, United States of America | 6d |
-| Apple | [SRE, London](https://jobs.apple.com/en-us/details/200672733/sre-london) | London, United Kingdom | 6d |
-| Apple | [Security Site Reliability Engineer - Apple Service Engineering](https://jobs.apple.com/en-us/details/200690706/security-site-reliability-engineer-apple-service-engineering) | Seattle, United States of America | 8d |
-| Apple | [AI Security Engineer - Red Team](https://jobs.apple.com/en-us/details/200690601/ai-security-engineer-red-team) | Seattle, United States of America | 9d |
-| Apple | [AI/ML Engineer: System RF Data Ecosystem](https://jobs.apple.com/en-us/details/200682498/ai-ml-engineer-system-rf-data-ecosystem) | Cupertino, United States of America | 9d |
-| Apple | [AI/ML Engineer: System RF Data Ecosystem](https://jobs.apple.com/en-us/details/200690744/ai-ml-engineer-system-rf-data-ecosystem) | Cupertino, United States of America | 9d |
-| Apple | [Location Software Engineer](https://jobs.apple.com/en-us/details/200690587/location-software-engineer) | Cupertino, United States of America | 9d |
-| Apple | [Site Reliability Engineer, London](https://jobs.apple.com/en-us/details/200673585/site-reliability-engineer-london) | London, United Kingdom | 9d |
-| Apple | [Software Development Engineer in Test, Systems & Algorithms Evaluation, Sensing & Connectivity](https://jobs.apple.com/en-us/details/200686221/software-development-engineer-in-test-systems-algorithms-evaluation-sensing-connectivity) | Cupertino, United States of America | 9d |
-| Apple | [Software Engineer - Camera](https://jobs.apple.com/en-us/details/200691084/software-engineer-camera) | Cupertino, United States of America | 9d |
-| Apple | [Software Engineer - Generative UI, Input Experience](https://jobs.apple.com/en-us/details/200689588/software-engineer-generative-ui-input-experience) | Cupertino, United States of America | 9d |
-| Apple | [Battery Algorithm ML Engineer](https://jobs.apple.com/en-us/details/200691000/battery-algorithm-ml-engineer) | Cupertino, United States of America | 10d |
-| Apple | [ML Software Engineer, London](https://jobs.apple.com/en-us/details/200626867/ml-software-engineer-london) | London, United Kingdom | 10d |
-| Apple | [Software Engineer - Journal Team](https://jobs.apple.com/en-us/details/200689757/software-engineer-journal-team) | San Diego, United States of America | 10d |
-| Apple | [Software Engineer - SoC Level Validation Engineer](https://jobs.apple.com/en-us/details/200690747/software-engineer-soc-level-validation-engineer) | Austin, United States of America | 10d |
-| Apple | [Software Engineer - SoC Level Validation Engineer](https://jobs.apple.com/en-us/details/200690787/software-engineer-soc-level-validation-engineer) | Beaverton, United States of America | 10d |
-| Apple | [Software Engineer, Find My](https://jobs.apple.com/en-us/details/200691025/software-engineer-find-my) | Cupertino, United States of America | 10d |
-| Apple | [Software QA Engineer, Fitness Watch Software, Sensing & Connectivity](https://jobs.apple.com/en-us/details/200690788/software-qa-engineer-fitness-watch-software-sensing-connectivity) | San Diego, United States of America | 10d |
-| Apple | [ASE Observability SRE - Seattle](https://jobs.apple.com/en-us/details/200690657/ase-observability-sre-seattle) | Seattle, United States of America | 11d |
-| Apple | [Database Systems SRE, ASE Coordination SRE](https://jobs.apple.com/en-us/details/200690343/database-systems-sre-ase-coordination-sre) | Cupertino, United States of America | 11d |
-| Apple | [Site Reliability Engineer](https://jobs.apple.com/en-us/details/200681759/site-reliability-engineer) | London, United Kingdom | 11d |
-| Apple | [Site Reliability Engineer - Apple Data Platform (ADP)](https://jobs.apple.com/en-us/details/200690733/site-reliability-engineer-apple-data-platform-adp) | Austin, United States of America | 11d |
-| Apple | [Software Development Engineer (Developer Experience and Platform Tools)](https://jobs.apple.com/en-us/details/200674593/software-development-engineer-developer-experience-and-platform-tools) | Cupertino, United States of America | 11d |
-| Apple | [Software Engineer - Agent Development](https://jobs.apple.com/en-us/details/200690641/software-engineer-agent-development) | Hyderabad, India | 11d |
-| Apple | [Software Engineer - Generative AI & ML, Customer Systems](https://jobs.apple.com/en-us/details/200643421/software-engineer-generative-ai-ml-customer-systems) | Austin, United States of America | 11d |
-| Apple | [Software Engineer - SoC Level Validation Engineer](https://jobs.apple.com/en-us/details/200690790/software-engineer-soc-level-validation-engineer) | San Diego, United States of America | 11d |
-| Apple | [DevOps Engineer, Retail and Marcom Engineering](https://jobs.apple.com/en-us/details/200689607/devops-engineer-retail-and-marcom-engineering) | Sunnyvale, United States of America | 12d |
-| Apple | [iOS Software Engineer (Security)](https://jobs.apple.com/en-us/details/200682975/ios-software-engineer-security) | London, United Kingdom | 12d |
-| Apple | [Kubernetes Security Engineer](https://jobs.apple.com/en-us/details/200688257/kubernetes-security-engineer) | Austin, United States of America | 12d |
-| Apple | [Machine Learning Engineer](https://jobs.apple.com/en-us/details/200690288/machine-learning-engineer) | Cupertino, United States of America | 12d |
-| Apple | [Software Application Support Engineer (Java)](https://jobs.apple.com/en-us/details/200689656/software-application-support-engineer-java) | Hyderabad, India | 12d |
-| Apple | [UI Software Engineer, Cocoa](https://jobs.apple.com/en-us/details/200690376/ui-software-engineer-cocoa) | London, United Kingdom | 12d |
-| Apple | [Visual Generation Framework Software Engineer - Proactive](https://jobs.apple.com/en-us/details/200680492/visual-generation-framework-software-engineer-proactive) | Seattle, United States of America | 12d |
-| Apple | [Machine Learning Engineer, System Experience - Proactive](https://jobs.apple.com/en-us/details/200689638/machine-learning-engineer-system-experience-proactive) | Cupertino, United States of America | 16d |
-| Apple | [OS Software Engineer, Evaluation](https://jobs.apple.com/en-us/details/200688625/os-software-engineer-evaluation) | Cupertino, United States of America | 20d |
-| Apple | [Core OS Software Engineer - USB4/Thunderbolt](https://jobs.apple.com/en-us/details/200687151/core-os-software-engineer-usb4-thunderbolt) | Cupertino, United States of America | 25d |
-| Apple | [Machine Learning and Artificial Intelligence Masters Internships](https://jobs.apple.com/en-us/details/200664221/machine-learning-and-artificial-intelligence-masters-internships) | United States, United States of America | 5mo |
-| Apple | [Machine Learning and Artificial Intelligence PhD Internships](https://jobs.apple.com/en-us/details/200664223/machine-learning-and-artificial-intelligence-phd-internships) | United States, United States of America | 5mo |
-| Apple | [Machine Learning and Artificial Intelligence Undergrad Internships](https://jobs.apple.com/en-us/details/200664780/machine-learning-and-artificial-intelligence-undergrad-internships) | United States, United States of America | 5mo |
-| Apple | [Software Engineer- Silicon Engineering Documentation Tools](https://jobs.apple.com/en-us/details/200661584/software-engineer-silicon-engineering-documentation-tools) | Cambridge, United Kingdom | 6mo |
 | Amazon | [Software Development Engineer](https://www.amazon.jobs/en/jobs/10593929/software-development-engineer) | Seattle, Washington, USA | 1d |
 | Amazon | [Software Development Engineer II, Lightsail](https://www.amazon.jobs/en/jobs/10591799/software-development-engineer-ii-lightsail) | Seattle, Washington, USA | 1d |
 | Amazon | [Software Development Engineer](https://www.amazon.jobs/en/jobs/10593872/software-development-engineer) | Cupertino, California, USA | 2d |
@@ -1056,7 +960,6 @@ Total roles: 3851
 | Amazon | [Software Development Engineer, Amazon](https://www.amazon.jobs/en/jobs/10546640/software-development-engineer-amazon) | Bengaluru, Karnataka, IND | 1mo |
 | Amazon | [Software Development Engineer, Amazon DSP, Amazon Ad Exchange](https://www.amazon.jobs/en/jobs/10547074/software-development-engineer-amazon-dsp-amazon-ad-exchange) | Arlington, Virginia, USA | 1mo |
 | Amazon | [Software Development Engineer, FSx for Lustre](https://www.amazon.jobs/en/jobs/10547306/software-development-engineer-fsx-for-lustre) | Boston, Massachusetts, USA | 1mo |
-| Amazon | [Software Development Engineer, GNC Software, Amazon Leo](https://www.amazon.jobs/en/jobs/10547155/software-development-engineer-gnc-software-amazon-leo) | Redmond, Washington, USA | 1mo |
 | Amazon | [Software Development Engineer, Ring Cloud Connectivity Org](https://www.amazon.jobs/en/jobs/10547064/software-development-engineer-ring-cloud-connectivity-org) | Toronto, Ontario, CAN | 1mo |
 | Amazon | [Software Development Engineer, Ring Cloud Connectivity Org](https://www.amazon.jobs/en/jobs/10547065/software-development-engineer-ring-cloud-connectivity-org) | Toronto, Ontario, CAN | 1mo |
 | Amazon | [Software Development Engineer, Special Projects](https://www.amazon.jobs/en/jobs/10547105/software-development-engineer-special-projects) | Seattle, Washington, USA | 1mo |
@@ -1398,6 +1301,95 @@ Total roles: 3851
 | Amazon | [Embedded Software Development Engineer, Flight Computer Software](https://www.amazon.jobs/en/jobs/10413111/embedded-software-development-engineer-flight-computer-software) | Redmond, Washington, USA | 5mo |
 | Amazon | [Software Development Engineer, AWS Connect-Markov](https://www.amazon.jobs/en/jobs/10414336/software-development-engineer-aws-connect-markov) | Vancouver, British Columbia, CAN | 5mo |
 | Amazon | [Software Development Engineer II, FGBS](https://www.amazon.jobs/en/jobs/10411242/software-development-engineer-ii-fgbs) | Hyderabad, Telangana, IND | 6mo |
+| Apple | [AIML - Machine Learning Engineer, Evaluation - Responsible AI and Safety](https://jobs.apple.com/en-us/details/200692587/aiml-machine-learning-engineer-evaluation-responsible-ai-and-safety) | Cupertino, United States of America | 2d |
+| Apple | [Backend Engineer (Python)](https://jobs.apple.com/en-us/details/200692393/backend-engineer-python) | Bengaluru, India | 2d |
+| Apple | [iOS Engineer - Wallet](https://jobs.apple.com/en-us/details/200662761/ios-engineer-wallet) | New York City, United States of America | 2d |
+| Apple | [Machine Learning Research Engineer](https://jobs.apple.com/en-us/details/200692644/machine-learning-research-engineer) | Seattle, United States of America | 2d |
+| Apple | [Software Development Engineer in Test — Retail Engineering](https://jobs.apple.com/en-us/details/200677505/software-development-engineer-in-test-retail-engineering) | Shanghai, China | 2d |
+| Apple | [Software Engineer - Traffic, Envoy](https://jobs.apple.com/en-us/details/200692658/software-engineer-traffic-envoy) | Seattle, United States of America | 2d |
+| Apple | [Software Engineer, Safari Extensions](https://jobs.apple.com/en-us/details/200676418/software-engineer-safari-extensions) | San Diego, United States of America | 2d |
+| Apple | [Software Engineer, Xcode Cloud](https://jobs.apple.com/en-us/details/200692697/software-engineer-xcode-cloud) | Vancouver, Canada | 2d |
+| Apple | [Wireless Bluetooth Software Engineer, Wireless Technologies & Ecosystems](https://jobs.apple.com/en-us/details/200692525/wireless-bluetooth-software-engineer-wireless-technologies-ecosystems) | San Diego, United States of America | 2d |
+| Apple | [AI Software Engineer, App Intelligence](https://jobs.apple.com/en-us/details/200692473/ai-software-engineer-app-intelligence) | San Francisco Bay Area, United States of America | 3d |
+| Apple | [AIML - Machine Learning Engineer, Evaluation - Responsible AI and Safety](https://jobs.apple.com/en-us/details/200692531/aiml-machine-learning-engineer-evaluation-responsible-ai-and-safety) | Cambridge, United States of America | 3d |
+| Apple | [Battery Algorithm ML Engineer](https://jobs.apple.com/en-us/details/200692363/battery-algorithm-ml-engineer) | Cupertino, United States of America | 3d |
+| Apple | [DevOps Engineer - Retail Engineering Apps & Services](https://jobs.apple.com/en-us/details/200690998/devops-engineer-retail-engineering-apps-services) | Austin, United States of America | 3d |
+| Apple | [Java Backend Engineer - Retail](https://jobs.apple.com/en-us/details/200686517/java-backend-engineer-retail) | Shanghai, China | 3d |
+| Apple | [Software Developer in Test - Core I/O](https://jobs.apple.com/en-us/details/200692119/software-developer-in-test-core-i-o) | Cupertino, United States of America | 3d |
+| Apple | [Software Development Engineer - Tools](https://jobs.apple.com/en-us/details/200692365/software-development-engineer-tools) | San Diego, United States of America | 3d |
+| Apple | [Software Development Engineer-Health](https://jobs.apple.com/en-us/details/200692377/software-development-engineer-health) | Sunnyvale, United States of America | 3d |
+| Apple | [Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)](https://jobs.apple.com/en-us/details/200660661/software-engineer-framework-solutions-ai-data-platforms-aidp) | Austin, United States of America | 3d |
+| Apple | [Software Engineer - Traffic (ASE)](https://jobs.apple.com/en-us/details/200685623/software-engineer-traffic-ase) | Shanghai, China | 3d |
+| Apple | [Software Engineer, Employee Experience & Productivity](https://jobs.apple.com/en-us/details/200678553/software-engineer-employee-experience-productivity) | Culver City, United States of America | 3d |
+| Apple | [Software Engineer, Information Systems & Technology](https://jobs.apple.com/en-us/details/200685188/software-engineer-information-systems-technology) | Austin, United States of America | 3d |
+| Apple | [Software Engineer, Information Systems & Technology](https://jobs.apple.com/en-us/details/200685186/software-engineer-information-systems-technology) | Sunnyvale, United States of America | 3d |
+| Apple | [Data Engineer, Apple Ads](https://jobs.apple.com/en-us/details/200692322/data-engineer-apple-ads) | Austin, United States of America | 4d |
+| Apple | [iOS Software Engineer](https://jobs.apple.com/en-us/details/200692106/ios-software-engineer) | Cupertino, United States of America | 4d |
+| Apple | [Machine Learning Engineer - Agentic AI](https://jobs.apple.com/en-us/details/200692172/machine-learning-engineer-agentic-ai) | Herzliya, Israel | 4d |
+| Apple | [Machine Learning Ph.D Student - Agentic AI](https://jobs.apple.com/en-us/details/200691529/machine-learning-ph-d-student-agentic-ai) | Herzliya, Israel | 4d |
+| Apple | [Machine Learning Systems Engineer – Video Computer Vision](https://jobs.apple.com/en-us/details/200692165/machine-learning-systems-engineer-video-computer-vision) | Sunnyvale, United States of America | 4d |
+| Apple | [Site Reliability Engineer, Enterprise Technology Services](https://jobs.apple.com/en-us/details/200686672/site-reliability-engineer-enterprise-technology-services) | Austin, United States of America | 4d |
+| Apple | [Software Development Engineer - Test](https://jobs.apple.com/en-us/details/200680221/software-development-engineer-test) | Sunnyvale, United States of America | 4d |
+| Apple | [Software Development Engineer in Test (SDET), Creative Apps](https://jobs.apple.com/en-us/details/200692290/software-development-engineer-in-test-sdet-creative-apps) | Cupertino, United States of America | 4d |
+| Apple | [Software Development Engineer in Test – Apps, Identity Management Services](https://jobs.apple.com/en-us/details/200692315/software-development-engineer-in-test-apps-identity-management-services) | Sunnyvale, United States of America | 4d |
+| Apple | [Software Site Reliability Engineer - AI & Data Platforms](https://jobs.apple.com/en-us/details/200691522/software-site-reliability-engineer-ai-data-platforms) | Hyderabad, India | 4d |
+| Apple | [Software Site Reliability Engineer - AI & Data Platforms](https://jobs.apple.com/en-us/details/200691519/software-site-reliability-engineer-ai-data-platforms) | Hyderabad, India | 4d |
+| Apple | [Camera Embedded Software Engineer](https://jobs.apple.com/en-us/details/200690234/camera-embedded-software-engineer) | Cupertino, United States of America | 5d |
+| Apple | [Graphics Software Engineer](https://jobs.apple.com/en-us/details/200688305/graphics-software-engineer) | Austin, United States of America | 5d |
+| Apple | [iOS Application Developer - Health Software](https://jobs.apple.com/en-us/details/200692096/ios-application-developer-health-software) | Sunnyvale, United States of America | 5d |
+| Apple | [Machine Learning Engineer, Evaluation and Quality, Creativity Apps](https://jobs.apple.com/en-us/details/200691707/machine-learning-engineer-evaluation-and-quality-creativity-apps) | San Diego Metro Area, United States of America | 5d |
+| Apple | [Software Development Engineer in Test - Retail & Marcom](https://jobs.apple.com/en-us/details/200687965/software-development-engineer-in-test-retail-marcom) | Austin, United States of America | 5d |
+| Apple | [Systems Software Engineer - Performance & Agentic Tools](https://jobs.apple.com/en-us/details/200691968/systems-software-engineer-performance-agentic-tools) | Cupertino, United States of America | 5d |
+| Apple | [Integration Engineering - Software Engineer](https://jobs.apple.com/en-us/details/200691504/integration-engineering-software-engineer) | Hyderabad, India | 6d |
+| Apple | [iOS Analytics Software Engineer - Video Applications](https://jobs.apple.com/en-us/details/200662789/ios-analytics-software-engineer-video-applications) | Boulder, United States of America | 6d |
+| Apple | [Software Development Engineer in Test](https://jobs.apple.com/en-us/details/200677065/software-development-engineer-in-test) | Seattle, United States of America | 6d |
+| Apple | [Software Development Engineer – Systems](https://jobs.apple.com/en-us/details/200689480/software-development-engineer-systems) | Cupertino, United States of America | 6d |
+| Apple | [Software Engineer - Developer Productivity Engineering](https://jobs.apple.com/en-us/details/200691740/software-engineer-developer-productivity-engineering) | Seattle, United States of America | 6d |
+| Apple | [Software Engineer - Power and Performance Analytics Platform](https://jobs.apple.com/en-us/details/200691225/software-engineer-power-and-performance-analytics-platform) | Cupertino, United States of America | 6d |
+| Apple | [Software Engineer - Private Cloud Compute, On-Device Client Frameworks](https://jobs.apple.com/en-us/details/200670286/software-engineer-private-cloud-compute-on-device-client-frameworks) | London, United Kingdom | 6d |
+| Apple | [Software Engineer, Generative Experiences](https://jobs.apple.com/en-us/details/200691655/software-engineer-generative-experiences) | Seattle, United States of America | 6d |
+| Apple | [Software Engineer, System Services & Daemons, Core OS](https://jobs.apple.com/en-us/details/200691490/software-engineer-system-services-daemons-core-os) | Beaverton, United States of America | 6d |
+| Apple | [Software Engineer, System Services & Daemons, Core OS](https://jobs.apple.com/en-us/details/200690212/software-engineer-system-services-daemons-core-os) | Beaverton, United States of America | 6d |
+| Apple | [SRE, London](https://jobs.apple.com/en-us/details/200672733/sre-london) | London, United Kingdom | 6d |
+| Apple | [Security Site Reliability Engineer - Apple Service Engineering](https://jobs.apple.com/en-us/details/200690706/security-site-reliability-engineer-apple-service-engineering) | Seattle, United States of America | 8d |
+| Apple | [AI Security Engineer - Red Team](https://jobs.apple.com/en-us/details/200690601/ai-security-engineer-red-team) | Seattle, United States of America | 9d |
+| Apple | [AI/ML Engineer: System RF Data Ecosystem](https://jobs.apple.com/en-us/details/200682498/ai-ml-engineer-system-rf-data-ecosystem) | Cupertino, United States of America | 9d |
+| Apple | [AI/ML Engineer: System RF Data Ecosystem](https://jobs.apple.com/en-us/details/200690744/ai-ml-engineer-system-rf-data-ecosystem) | Cupertino, United States of America | 9d |
+| Apple | [Location Software Engineer](https://jobs.apple.com/en-us/details/200690587/location-software-engineer) | Cupertino, United States of America | 9d |
+| Apple | [Site Reliability Engineer, London](https://jobs.apple.com/en-us/details/200673585/site-reliability-engineer-london) | London, United Kingdom | 9d |
+| Apple | [Software Development Engineer in Test, Systems & Algorithms Evaluation, Sensing & Connectivity](https://jobs.apple.com/en-us/details/200686221/software-development-engineer-in-test-systems-algorithms-evaluation-sensing-connectivity) | Cupertino, United States of America | 9d |
+| Apple | [Software Engineer - Camera](https://jobs.apple.com/en-us/details/200691084/software-engineer-camera) | Cupertino, United States of America | 9d |
+| Apple | [Software Engineer - Generative UI, Input Experience](https://jobs.apple.com/en-us/details/200689588/software-engineer-generative-ui-input-experience) | Cupertino, United States of America | 9d |
+| Apple | [Battery Algorithm ML Engineer](https://jobs.apple.com/en-us/details/200691000/battery-algorithm-ml-engineer) | Cupertino, United States of America | 10d |
+| Apple | [ML Software Engineer, London](https://jobs.apple.com/en-us/details/200626867/ml-software-engineer-london) | London, United Kingdom | 10d |
+| Apple | [Software Engineer - Journal Team](https://jobs.apple.com/en-us/details/200689757/software-engineer-journal-team) | San Diego, United States of America | 10d |
+| Apple | [Software Engineer - SoC Level Validation Engineer](https://jobs.apple.com/en-us/details/200690747/software-engineer-soc-level-validation-engineer) | Austin, United States of America | 10d |
+| Apple | [Software Engineer - SoC Level Validation Engineer](https://jobs.apple.com/en-us/details/200690787/software-engineer-soc-level-validation-engineer) | Beaverton, United States of America | 10d |
+| Apple | [Software Engineer, Find My](https://jobs.apple.com/en-us/details/200691025/software-engineer-find-my) | Cupertino, United States of America | 10d |
+| Apple | [Software QA Engineer, Fitness Watch Software, Sensing & Connectivity](https://jobs.apple.com/en-us/details/200690788/software-qa-engineer-fitness-watch-software-sensing-connectivity) | San Diego, United States of America | 10d |
+| Apple | [ASE Observability SRE - Seattle](https://jobs.apple.com/en-us/details/200690657/ase-observability-sre-seattle) | Seattle, United States of America | 11d |
+| Apple | [Database Systems SRE, ASE Coordination SRE](https://jobs.apple.com/en-us/details/200690343/database-systems-sre-ase-coordination-sre) | Cupertino, United States of America | 11d |
+| Apple | [Site Reliability Engineer](https://jobs.apple.com/en-us/details/200681759/site-reliability-engineer) | London, United Kingdom | 11d |
+| Apple | [Site Reliability Engineer - Apple Data Platform (ADP)](https://jobs.apple.com/en-us/details/200690733/site-reliability-engineer-apple-data-platform-adp) | Austin, United States of America | 11d |
+| Apple | [Software Development Engineer (Developer Experience and Platform Tools)](https://jobs.apple.com/en-us/details/200674593/software-development-engineer-developer-experience-and-platform-tools) | Cupertino, United States of America | 11d |
+| Apple | [Software Engineer - Agent Development](https://jobs.apple.com/en-us/details/200690641/software-engineer-agent-development) | Hyderabad, India | 11d |
+| Apple | [Software Engineer - Generative AI & ML, Customer Systems](https://jobs.apple.com/en-us/details/200643421/software-engineer-generative-ai-ml-customer-systems) | Austin, United States of America | 11d |
+| Apple | [Software Engineer - SoC Level Validation Engineer](https://jobs.apple.com/en-us/details/200690790/software-engineer-soc-level-validation-engineer) | San Diego, United States of America | 11d |
+| Apple | [DevOps Engineer, Retail and Marcom Engineering](https://jobs.apple.com/en-us/details/200689607/devops-engineer-retail-and-marcom-engineering) | Sunnyvale, United States of America | 12d |
+| Apple | [iOS Software Engineer (Security)](https://jobs.apple.com/en-us/details/200682975/ios-software-engineer-security) | London, United Kingdom | 12d |
+| Apple | [Kubernetes Security Engineer](https://jobs.apple.com/en-us/details/200688257/kubernetes-security-engineer) | Austin, United States of America | 12d |
+| Apple | [Machine Learning Engineer](https://jobs.apple.com/en-us/details/200690288/machine-learning-engineer) | Cupertino, United States of America | 12d |
+| Apple | [Software Application Support Engineer (Java)](https://jobs.apple.com/en-us/details/200689656/software-application-support-engineer-java) | Hyderabad, India | 12d |
+| Apple | [Software Development Engineer - Core OS](https://jobs.apple.com/en-us/details/200689475/software-development-engineer-core-os) | Prague, Czechia | 12d |
+| Apple | [UI Software Engineer, Cocoa](https://jobs.apple.com/en-us/details/200690376/ui-software-engineer-cocoa) | London, United Kingdom | 12d |
+| Apple | [Visual Generation Framework Software Engineer - Proactive](https://jobs.apple.com/en-us/details/200680492/visual-generation-framework-software-engineer-proactive) | Seattle, United States of America | 12d |
+| Apple | [Machine Learning Engineer, System Experience - Proactive](https://jobs.apple.com/en-us/details/200689638/machine-learning-engineer-system-experience-proactive) | Cupertino, United States of America | 16d |
+| Apple | [OS Software Engineer, Evaluation](https://jobs.apple.com/en-us/details/200688625/os-software-engineer-evaluation) | Cupertino, United States of America | 20d |
+| Apple | [Core OS Software Engineer - USB4/Thunderbolt](https://jobs.apple.com/en-us/details/200687151/core-os-software-engineer-usb4-thunderbolt) | Cupertino, United States of America | 25d |
+| Apple | [Machine Learning and Artificial Intelligence Masters Internships](https://jobs.apple.com/en-us/details/200664221/machine-learning-and-artificial-intelligence-masters-internships) | United States, United States of America | 5mo |
+| Apple | [Machine Learning and Artificial Intelligence PhD Internships](https://jobs.apple.com/en-us/details/200664223/machine-learning-and-artificial-intelligence-phd-internships) | United States, United States of America | 5mo |
+| Apple | [Machine Learning and Artificial Intelligence Undergrad Internships](https://jobs.apple.com/en-us/details/200664780/machine-learning-and-artificial-intelligence-undergrad-internships) | United States, United States of America | 5mo |
+| Apple | [Software Engineer- Silicon Engineering Documentation Tools](https://jobs.apple.com/en-us/details/200661584/software-engineer-silicon-engineering-documentation-tools) | Cambridge, United Kingdom | 6mo |
 | Amazon Web Services | [Software Development Engineer II, Amazon MQ](https://ca.indeed.com/viewjob?jk=15c98020fb731025) | Vancouver, BC, CA | 4d |
 | Amazon Web Services Developmen t Center Germany GmbH | [Software Development Engineer II, AWS Config](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003901051-S) | Berlin, Germany | 10d |
 | Elastic | [Software Engineer II - Control Plane (Hosted Foundations / Applications)](https://jobs.elastic.co/jobs?gh_jid=8274383&gh_jid=8274383) | United States | 10d |
@@ -1703,86 +1695,30 @@ Total roles: 3851
 | Siei | [PlayStation Studios QA ゲームテスター(時短・アルバイト)](https://job-boards.greenhouse.io/siei/jobs/5199856004) | Japan, Tokyo | 2d |
 | Siei | [PlayStation Studios QAゲームテスター（アルバイト）](https://job-boards.greenhouse.io/siei/jobs/5071554004) | Japan, Tokyo | 2d |
 | Siei | [PlayStation Studios テストリードサポート（アルバイト）](https://job-boards.greenhouse.io/siei/jobs/5071560004) | Japan, Tokyo | 2d |
-| Coupang | [Sr. Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8275829) | Seattle, USA | 1d |
-| Coupang | [[CFN] Staff Back-end Engineer (Lending Engineering)](https://www.coupang.jobs/en/jobs/?gh_jid=8102540) | Seoul, South Korea | 2d |
-| Coupang | [[Coupang Ads] Senior Back-end Engineer (ACI Intelligence)](https://www.coupang.jobs/en/jobs/?gh_jid=8239019) | Seoul, South Korea | 2d |
-| Coupang | [[Coupang Pay Tech] Staff Mobile Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8194393) | Seoul, South Korea | 2d |
-| Coupang | [[Coupang Pay] Sr. Back-end Engineer (Fintech Developer Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8222501) | Seoul, South Korea | 2d |
-| Coupang | [[Coupang Pay] Staff Back-end Engineer (Fintech Developer Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8212664) | Seoul, South Korea | 2d |
-| Coupang | [[Coupang Pay] Staff Back-end Engineer (Global Payments)](https://www.coupang.jobs/en/jobs/?gh_jid=8287908) | Seoul, South Korea | 2d |
-| Coupang | [[Coupang Pay] Staff Front-end Engineer (New Fintech Product)](https://www.coupang.jobs/en/jobs/?gh_jid=8054705) | Seoul, South Korea | 2d |
-| Coupang | [[Growth Marketing] Sr. Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8221841) | Shanghai, China | 2d |
-| Coupang | [[Instant Commerce] Senior Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8143668) | Beijing, China | 2d |
-| Coupang | [[쿠팡] Rocket Mobile 상담 지원 (계약직/재택병행/전환가능)](https://www.coupang.jobs/en/jobs/?gh_jid=8118772) | Seoul, South Korea | 2d |
-| Coupang | [[쿠팡] 로켓배송 셀렉션 플래닝 운영기획 (Platform Biz Intelligence)](https://www.coupang.jobs/en/jobs/?gh_jid=8168529) | Seoul, South Korea | 2d |
-| Coupang | [[쿠팡페이] Senior Back-end Engineer (계약직)](https://www.coupang.jobs/en/jobs/?gh_jid=8127212) | Seoul, South Korea | 2d |
-| Coupang | [[쿠팡페이] Staff Front-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8152191) | Seoul, South Korea | 2d |
-| Coupang | [[쿠팡페이] Staff iOS Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8146512) | Seoul, South Korea | 2d |
-| Coupang | [Director - Backend Engineering - AI Infra](https://www.coupang.jobs/en/jobs/?gh_jid=7984671) | Bengaluru | 2d |
-| Coupang | [Director, Back-end Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8179229) | Shanghai, China | 2d |
-| Coupang | [Manager, Back-end Engineering (Eats Merchant)](https://www.coupang.jobs/en/jobs/?gh_jid=8175617) | Seoul, South Korea | 2d |
-| Coupang | [Manager, Back-end Engineering (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8078891) | Seoul, South Korea | 2d |
-| Coupang | [Manager, iOS Engineer (CoupangEats)](https://www.coupang.jobs/en/jobs/?gh_jid=8333651) | Seoul, South Korea | 2d |
-| Coupang | [Principal, Back-End Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7721023) | Bengaluru; Seoul, South Korea | 2d |
-| Coupang | [Senior Android Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8275812) | Bengaluru | 2d |
-| Coupang | [Senior DevOps Engineer (SPIR/OC)](https://www.coupang.jobs/en/jobs/?gh_jid=8078331) | Seoul, South Korea | 2d |
-| Coupang | [Senior Manager - Backend Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8076295) | Bengaluru | 2d |
-| Coupang | [Senior Software Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8275808) | Bengaluru | 2d |
-| Coupang | [Senior Software Engineer [L5]](https://www.coupang.jobs/en/jobs/?gh_jid=8255590) | Bengaluru | 2d |
-| Coupang | [Senior Staff Back-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8155846) | Seoul, South Korea | 2d |
-| Coupang | [Senior Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8059287) | Bengaluru; Hyderabad | 2d |
-| Coupang | [Senior Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7953042) | Hyderabad | 2d |
-| Coupang | [Senior Staff Backend Engineer (IAM)](https://www.coupang.jobs/en/jobs/?gh_jid=8068982) | Bengaluru | 2d |
-| Coupang | [Senior Staff Backend Engineer - (K8)](https://www.coupang.jobs/en/jobs/?gh_jid=7912287) | Bengaluru | 2d |
-| Coupang | [Senior Staff Backend Engineer - Fraud Detection](https://www.coupang.jobs/en/jobs/?gh_jid=8064140) | Bengaluru | 2d |
-| Coupang | [Senior Staff Cloud Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8205728) | Seattle, USA | 2d |
-| Coupang | [Senior, Back-end Engineer(CX) - Coupang Play](https://www.coupang.jobs/en/jobs/?gh_jid=8186132) | Seoul, South Korea | 2d |
-| Coupang | [Sr. Director, Back-End Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8118861) | Seoul, South Korea | 2d |
-| Coupang | [Sr. Director, Back-End Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8118859) | Seoul, South Korea | 2d |
-| Coupang | [Sr. Software Engineer - Rocket Growth Inbound & Global Logistics](https://www.coupang.jobs/en/jobs/?gh_jid=8210358) | Shanghai, China | 2d |
-| Coupang | [Sr. Staff Back-End Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7999712) | Bengaluru | 2d |
-| Coupang | [Sr. Staff Back-end Engineer (Coupang Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=7936538) | Seoul, South Korea | 2d |
-| Coupang | [Sr. Staff Back-end engineer [Promise Platform]](https://www.coupang.jobs/en/jobs/?gh_jid=8187816) | Seattle, USA | 2d |
-| Coupang | [Sr. Staff Software Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8070738) | Mountain View, USA; Seattle, USA | 2d |
-| Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7925105) | Hyderabad | 2d |
-| Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7948499) | Hyderabad | 2d |
-| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892762) | Hyderabad | 2d |
-| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8187819) | Hyderabad | 2d |
-| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8204944) | Seattle, USA | 2d |
-| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892757) | Hyderabad | 2d |
-| Coupang | [Staff Back-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8236155) | Seoul, South Korea | 2d |
-| Coupang | [Staff Back-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8288680) | Seoul, South Korea | 2d |
-| Coupang | [Staff Back-end Engineer [L6-1] (GenAI Creative)](https://www.coupang.jobs/en/jobs/?gh_jid=8242187) | Shanghai, China | 2d |
-| Coupang | [Staff Back-end Engineer [L6-1] (NCA Services)](https://www.coupang.jobs/en/jobs/?gh_jid=8302512) | Shanghai, China | 2d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8129527) | Bengaluru | 2d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 2d |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8098140) | Bengaluru | 2d |
-| Coupang | [Staff Backend Engineer (Fintech Data Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8073876) | Seoul, South Korea | 2d |
-| Coupang | [Staff Backend Engineer - Intelligent Cloud](https://www.coupang.jobs/en/jobs/?gh_jid=7916740) | Bengaluru | 2d |
-| Coupang | [Staff Backend Engineer - K8 (Envoy)](https://www.coupang.jobs/en/jobs/?gh_jid=8222609) | Bengaluru | 2d |
-| Coupang | [Staff Backend Engineer – Search and Discovery Product Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8140987) | Mountain View, USA | 2d |
-| Coupang | [Staff, Back-end engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8076182) | Seattle, USA | 2d |
-| Coupang | [Staff, Back-end engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7919191) | Seattle, USA | 2d |
-| Coupang | [Staff, Back-end Engineer (Advertiser Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=7902369) | Seoul, South Korea | 2d |
-| Coupang | [Staff, Back-end Engineer (Advertiser Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8175959) | Seoul, South Korea | 2d |
-| Coupang | [Staff, Back-end engineer (Inventory Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8263841) | Seattle, USA | 2d |
-| Coupang | [Staff, Full-Stack Engineer [Rocket Growth Engineering]](https://www.coupang.jobs/en/jobs/?gh_jid=8200007) | Seattle, USA | 2d |
-| Coupang | [Sr. Staff ML Infra Engineer - Offline Infra & Training](https://www.coupang.jobs/en/jobs/?gh_jid=8081184) | Mountain View, USA | 3d |
-| Coupang | [Manager iOS Engineer (CoupangEats)](https://www.coupang.jobs/en/jobs/?gh_jid=8318669) | Seoul, South Korea | 9d |
-| Coupang | [Senior Back-end Engineer (Operational Intelligence)](https://www.coupang.jobs/en/jobs/?gh_jid=8317653) | Seoul, South Korea | 9d |
-| Coupang | [Senior, Back-end Engineer(CX) - Coupang Play](https://www.coupang.jobs/en/jobs/?gh_jid=8210828) | Singapore, Singapore | 12d |
-| Coupang | [Senior Staff Back-end Engineer (eCommerce Engineering;Interstellar)](https://www.coupang.jobs/en/jobs/?gh_jid=8078707) | Seoul, South Korea | 18d |
-| Coupang | [Staff Back-end Engineer (eCommerce Engineering; Interstellar)](https://www.coupang.jobs/en/jobs/?gh_jid=8076371) | Seoul, South Korea | 18d |
-| Coupang | [Staff Backend Engineer (ECommerce Engineering; Core Member)](https://www.coupang.jobs/en/jobs/?gh_jid=8127146) | Seoul, South Korea | 18d |
-| Coupang | [Staff Backend Engineer (Application Infra)](https://www.coupang.jobs/en/jobs/?gh_jid=7849021) | Mountain View, USA; Seattle, USA | 19d |
-| Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7962133) | Mountain View, USA | 26d |
-| Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7438944) | Seattle, USA | 26d |
-| Coupang | [Director - Backend Engineering (Infrastructure)](https://www.coupang.jobs/en/jobs/?gh_jid=8040140) | Singapore; Singapore, Singapore | 1mo |
-| Coupang | [Senior Staff / Staff Back-End Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7981493) | Singapore; Singapore, Singapore | 1mo |
-| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8194727) | Singapore; Singapore, Singapore | 1mo |
-| Coupang | [Staff Backend Engineer(Infrastructure)](https://www.coupang.jobs/en/jobs/?gh_jid=8047677) | Singapore; Singapore, Singapore | 1mo |
-| Coupang | [Director, Back-end Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=7227610) | z-Test & Templates Only | 1mo |
-| Coupang | [Senior Staff Backend Engineer (Service Mesh)](https://www.coupang.jobs/en/jobs/?gh_jid=7496873) | India | 1mo |
+| Workday | [Sr. Software Development Engineer](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer_JR-IC-000063) | USA, CA, Pleasanton | 0d |
+| Workday | [Principal DataOps Engineer (DevOps for Data)](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-DataOps-Engineer--DevOps-for-Data-_JR-0111033) | <details><summary>2 locations</summary>USA, CA<br>Pleasanton<br>USA, GA<br>Atlanta</details> | 2d |
+| Workday | [Senior Software Development Engineer - AI Tools](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Development-Engineer---AI-Tools_JR-0110691-1) | USA, CA, Pleasanton | 2d |
+| Workday | [Software Development Engineer - UI and Tooling - Java, Go or Kotlin](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer_JR-0109889) | USA, CA, Pleasanton | 2d |
+| Workday | [Software Development Engineer in Test, Evisort AI](https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Software-Development-Engineer-in-Test--Evisort-AI_JR-0111106) | Canada, BC, Vancouver | 2d |
+| Workday | [Software Development Engineer, Payroll Development](https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Software-Development-Engineer--Payroll-Development_JR-0110886-1) | New Zealand, Auckland | 2d |
+| Workday | [Account Executive, Platform](https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Account-Executive--Platform_JR-0111008) | <details><summary>2 locations</summary>Canada, BC<br>Vancouver<br>Canada, ON<br>Toronto</details> | 3d |
+| Workday | [Account Executive, Platform - FSI](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-NY-New-York-City/Account-Executive--Platform---FSI_JR-0111001) | <details><summary>10 locations</summary>USA, NY<br>New York City<br>USA, MA<br>Boston<br>USA, CA<br>Remote<br>USA, WA<br>Seattle<br>USA, GA<br>Atlanta<br>USA, CA<br>Santa Clara<br>USA, CO<br>Boulder<br>USA, CA<br>San Francisco<br>USA, CO<br>Denver<br>USA, CA<br>Pleasanton</details> | 3d |
+| Workday | [Account Executive, Platform - Healthcare](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Account-Executive--Platform---Healthcare_JR-0111004) | <details><summary>6 locations</summary>USA, CA<br>Pleasanton<br>USA, TX<br>Frisco<br>USA, NY<br>New York City<br>USA, MA<br>Boston<br>USA, GA<br>Atlanta<br>USA, CA<br>San Francisco</details> | 3d |
+| Workday | [Account Executive, Platform - Large Enterprise Diversified Industries](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Account-Executive--Platform---Large-Enterprise-Diversified-Industries_JR-0111005) | <details><summary>11 locations</summary>USA, CA<br>Pleasanton<br>USA, TX<br>Frisco<br>USA, MA<br>Boston<br>USA, GA<br>Atlanta<br>USA, MN<br>Minneapolis<br>USA, CA<br>Santa Clara<br>USA, CA<br>San Francisco<br>USA, IL<br>Chicago<br>USA, NY<br>New York City<br>USA, CO<br>Denver<br>USA, TX<br>Austin</details> | 3d |
+| Workday | [Account Executive, Platform - Medium Enterprise Diversified Industries](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Account-Executive--Platform---Medium-Enterprise-Diversified-Industries_JR-0111006) | <details><summary>9 locations</summary>USA, GA<br>Atlanta<br>USA, TX<br>Frisco<br>USA, CA<br>Remote<br>USA, MA<br>Boston<br>USA, CA<br>Santa Clara<br>USA, CA<br>San Francisco<br>USA, IL<br>Chicago<br>USA, NY<br>New York City<br>USA, CA<br>Pleasanton</details> | 3d |
+| Workday | [Account Executive, Platform - SLED, Higher Ed, NFP](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Account-Executive--Platform---SLED--Higher-Ed--NFP_JR-0111003) | <details><summary>3 locations</summary>USA, GA<br>Atlanta<br>USA, TX<br>Frisco<br>USA, TX<br>Austin</details> | 3d |
+| Workday | [Manager, Software Development Engineering](https://workday.wd5.myworkdayjobs.com/Workday/job/INDChennai/Manager--Software-Development-Engineering_JR-0111052) | IND.Chennai | 4d |
+| Workday | [Managing Partner - Platform EMEA](https://workday.wd5.myworkdayjobs.com/Workday/job/Germany-Munich/Managing-Partner---Platform-EMEA_JR-0111107) | <details><summary>2 locations</summary>Germany<br>Munich<br>Germany<br>Berlin</details> | 4d |
+| Workday | [Managing Partner - Platform EMEA](https://workday.wd5.myworkdayjobs.com/Workday/job/France-Paris/Managing-Partner---Platform-EMEA_JR-0111108) | <details><summary>2 locations</summary>France<br>Paris<br>Netherlands<br>Amsterdam</details> | 4d |
+| Workday | [Principal Full Stack Engineer - Agent Platform](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Principal-Full-Stack-Engineer---Agent-Platform_JR-0109720-1) | <details><summary>2 locations</summary>USA, GA<br>Atlanta<br>USA, CO<br>Boulder</details> | 4d |
+| Workday | [Senior Software Engineer(Distributed Systems)](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Engineer-Distributed-Systems-_JR-0110618) | USA, CA, Pleasanton | 4d |
+| Workday | [Software Development Engineer - US Federal](https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Software-Development-Engineer---US-Federal_JR-0109614) | USA.VA.Reston | 4d |
+| Workday | [Sr Associate Software Development Engineer (US Federal)](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Sr-Associate-Software-Development-Engineer--US-Federal-_JR-0108519) | USA, GA, Atlanta | 4d |
+| Workday | [Sr Software Development Engineer, Business Process Optimization](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer--Business-Process-Optimization_JR-0110819) | USA, CA, Pleasanton | 4d |
+| Workday | [Principal Software Development Engineer - Data Cloud](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-Software-Development-Engineer_JR-0111151-1) | USA, CA, Pleasanton | 5d |
+| Workday | [Senior Software Development Engineer - Distributed Systems](https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Senior-Software-Engineer---Distributed-Systems_JR-0108915) | Ireland, Dublin | 5d |
+| Workday | [Senior Software Development Engineer, Payroll Development](https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Senior-Software-Development-Engineer--Payroll-Development_JR-0110887-1) | New Zealand, Auckland | 5d |
+| Workday | [Software Development Engineer(Distributed Systems)](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer-Distributed-Systems-_JR-0109641) | USA, CA, Pleasanton | 8d |
 | DoorDash | [Senior Software Engineer, iOS](https://job-boards.greenhouse.io/doordashusa/jobs/8139094) _$160k–$235k/yr_ | San Francisco, CA ; Sunnyvale, CA | 1d |
 | DoorDash | [Senior Software Engineer, iOS (All Teams)](https://job-boards.greenhouse.io/doordashcanada/jobs/8148451) _$150k–$187k/yr_ | Toronto, ON, Canada | 1d |
 | DoorDash | [Software Engineer, iOS](https://job-boards.greenhouse.io/doordashusa/jobs/8141072) _$131k–$192k/yr_ | Sunnyvale, CA; San Francisco, CA; Seattle, WA; New York, NY | 1d |
@@ -2366,6 +2302,85 @@ Total roles: 3851
 | Coinbase | [Senior Software Engineer - Access & Authorization (Platform)](https://www.coinbase.com/careers/positions/8146039?gh_jid=8146039) _$186k–$219k/yr_ | Remote - USA | 12d |
 | Coinbase | [Software Engineer, CDP - Stablecoin](https://www.coinbase.com/careers/positions/8234278?gh_jid=8234278) _$152k–$179k/yr_ | Remote - USA | 18d |
 | Coinbase | [Software Engineer- Money Movement](https://www.coinbase.com/careers/positions/8177946?gh_jid=8177946) | Remote - USA | 1mo |
+| Coupang | [[CFN] Staff Back-end Engineer (Lending Engineering)](https://www.coupang.jobs/en/jobs/?gh_jid=8102540) | Seoul, South Korea | 2d |
+| Coupang | [[Coupang Ads] Senior Back-end Engineer (ACI Intelligence)](https://www.coupang.jobs/en/jobs/?gh_jid=8239019) | Seoul, South Korea | 2d |
+| Coupang | [[Coupang Pay Tech] Staff Mobile Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8194393) | Seoul, South Korea | 2d |
+| Coupang | [[Coupang Pay] Sr. Back-end Engineer (Fintech Developer Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8222501) | Seoul, South Korea | 2d |
+| Coupang | [[Coupang Pay] Staff Back-end Engineer (Fintech Developer Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8212664) | Seoul, South Korea | 2d |
+| Coupang | [[Coupang Pay] Staff Back-end Engineer (Global Payments)](https://www.coupang.jobs/en/jobs/?gh_jid=8287908) | Seoul, South Korea | 2d |
+| Coupang | [[Coupang Pay] Staff Front-end Engineer (New Fintech Product)](https://www.coupang.jobs/en/jobs/?gh_jid=8054705) | Seoul, South Korea | 2d |
+| Coupang | [[Growth Marketing] Sr. Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8221841) | Shanghai, China | 2d |
+| Coupang | [[Instant Commerce] Senior Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8143668) | Beijing, China | 2d |
+| Coupang | [[쿠팡] Rocket Mobile 상담 지원 (계약직/재택병행/전환가능)](https://www.coupang.jobs/en/jobs/?gh_jid=8118772) | Seoul, South Korea | 2d |
+| Coupang | [[쿠팡] 로켓배송 셀렉션 플래닝 운영기획 (Platform Biz Intelligence)](https://www.coupang.jobs/en/jobs/?gh_jid=8168529) | Seoul, South Korea | 2d |
+| Coupang | [[쿠팡페이] Senior Back-end Engineer (계약직)](https://www.coupang.jobs/en/jobs/?gh_jid=8127212) | Seoul, South Korea | 2d |
+| Coupang | [[쿠팡페이] Staff Front-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8152191) | Seoul, South Korea | 2d |
+| Coupang | [[쿠팡페이] Staff iOS Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8146512) | Seoul, South Korea | 2d |
+| Coupang | [Director - Backend Engineering - AI Infra](https://www.coupang.jobs/en/jobs/?gh_jid=7984671) | Bengaluru | 2d |
+| Coupang | [Director, Back-end Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8179229) | Shanghai, China | 2d |
+| Coupang | [Manager, Back-end Engineering (Eats Merchant)](https://www.coupang.jobs/en/jobs/?gh_jid=8175617) | Seoul, South Korea | 2d |
+| Coupang | [Manager, Back-end Engineering (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8078891) | Seoul, South Korea | 2d |
+| Coupang | [Manager, iOS Engineer (CoupangEats)](https://www.coupang.jobs/en/jobs/?gh_jid=8333651) | Seoul, South Korea | 2d |
+| Coupang | [Principal, Back-End Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7721023) | Bengaluru; Seoul, South Korea | 2d |
+| Coupang | [Senior Android Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8275812) | Bengaluru | 2d |
+| Coupang | [Senior DevOps Engineer (SPIR/OC)](https://www.coupang.jobs/en/jobs/?gh_jid=8078331) | Seoul, South Korea | 2d |
+| Coupang | [Senior Manager - Backend Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8076295) | Bengaluru | 2d |
+| Coupang | [Senior Software Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8275808) | Bengaluru | 2d |
+| Coupang | [Senior Software Engineer [L5]](https://www.coupang.jobs/en/jobs/?gh_jid=8255590) | Bengaluru | 2d |
+| Coupang | [Senior Staff Back-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8155846) | Seoul, South Korea | 2d |
+| Coupang | [Senior Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8059287) | Bengaluru; Hyderabad | 2d |
+| Coupang | [Senior Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7953042) | Hyderabad | 2d |
+| Coupang | [Senior Staff Backend Engineer (IAM)](https://www.coupang.jobs/en/jobs/?gh_jid=8068982) | Bengaluru | 2d |
+| Coupang | [Senior Staff Backend Engineer - (K8)](https://www.coupang.jobs/en/jobs/?gh_jid=7912287) | Bengaluru | 2d |
+| Coupang | [Senior Staff Backend Engineer - Fraud Detection](https://www.coupang.jobs/en/jobs/?gh_jid=8064140) | Bengaluru | 2d |
+| Coupang | [Senior Staff Cloud Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8205728) | Seattle, USA | 2d |
+| Coupang | [Senior, Back-end Engineer(CX) - Coupang Play](https://www.coupang.jobs/en/jobs/?gh_jid=8186132) | Seoul, South Korea | 2d |
+| Coupang | [Sr. Director, Back-End Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8118861) | Seoul, South Korea | 2d |
+| Coupang | [Sr. Director, Back-End Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8118859) | Seoul, South Korea | 2d |
+| Coupang | [Sr. Software Engineer - Rocket Growth Inbound & Global Logistics](https://www.coupang.jobs/en/jobs/?gh_jid=8210358) | Shanghai, China | 2d |
+| Coupang | [Sr. Staff Back-End Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7999712) | Bengaluru | 2d |
+| Coupang | [Sr. Staff Back-end Engineer (Coupang Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=7936538) | Seoul, South Korea | 2d |
+| Coupang | [Sr. Staff Back-end engineer [Promise Platform]](https://www.coupang.jobs/en/jobs/?gh_jid=8187816) | Seattle, USA | 2d |
+| Coupang | [Sr. Staff Software Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8070738) | Mountain View, USA; Seattle, USA | 2d |
+| Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7925105) | Hyderabad | 2d |
+| Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7948499) | Hyderabad | 2d |
+| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892762) | Hyderabad | 2d |
+| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8187819) | Hyderabad | 2d |
+| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8204944) | Seattle, USA | 2d |
+| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892757) | Hyderabad | 2d |
+| Coupang | [Staff Back-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8236155) | Seoul, South Korea | 2d |
+| Coupang | [Staff Back-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8288680) | Seoul, South Korea | 2d |
+| Coupang | [Staff Back-end Engineer [L6-1] (GenAI Creative)](https://www.coupang.jobs/en/jobs/?gh_jid=8242187) | Shanghai, China | 2d |
+| Coupang | [Staff Back-end Engineer [L6-1] (NCA Services)](https://www.coupang.jobs/en/jobs/?gh_jid=8302512) | Shanghai, China | 2d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8129527) | Bengaluru | 2d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 2d |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8098140) | Bengaluru | 2d |
+| Coupang | [Staff Backend Engineer (Fintech Data Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8073876) | Seoul, South Korea | 2d |
+| Coupang | [Staff Backend Engineer - Intelligent Cloud](https://www.coupang.jobs/en/jobs/?gh_jid=7916740) | Bengaluru | 2d |
+| Coupang | [Staff Backend Engineer - K8 (Envoy)](https://www.coupang.jobs/en/jobs/?gh_jid=8222609) | Bengaluru | 2d |
+| Coupang | [Staff Backend Engineer – Search and Discovery Product Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8140987) | Mountain View, USA | 2d |
+| Coupang | [Staff, Back-end engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8076182) | Seattle, USA | 2d |
+| Coupang | [Staff, Back-end engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7919191) | Seattle, USA | 2d |
+| Coupang | [Staff, Back-end Engineer (Advertiser Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=7902369) | Seoul, South Korea | 2d |
+| Coupang | [Staff, Back-end Engineer (Advertiser Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8175959) | Seoul, South Korea | 2d |
+| Coupang | [Staff, Back-end engineer (Inventory Platform)](https://www.coupang.jobs/en/jobs/?gh_jid=8263841) | Seattle, USA | 2d |
+| Coupang | [Staff, Full-Stack Engineer [Rocket Growth Engineering]](https://www.coupang.jobs/en/jobs/?gh_jid=8200007) | Seattle, USA | 2d |
+| Coupang | [Sr. Staff ML Infra Engineer - Offline Infra & Training](https://www.coupang.jobs/en/jobs/?gh_jid=8081184) | Mountain View, USA | 3d |
+| Coupang | [Manager iOS Engineer (CoupangEats)](https://www.coupang.jobs/en/jobs/?gh_jid=8318669) | Seoul, South Korea | 9d |
+| Coupang | [Senior Back-end Engineer (Operational Intelligence)](https://www.coupang.jobs/en/jobs/?gh_jid=8317653) | Seoul, South Korea | 9d |
+| Coupang | [Senior, Back-end Engineer(CX) - Coupang Play](https://www.coupang.jobs/en/jobs/?gh_jid=8210828) | Singapore, Singapore | 12d |
+| Coupang | [Senior Staff Back-end Engineer (eCommerce Engineering;Interstellar)](https://www.coupang.jobs/en/jobs/?gh_jid=8078707) | Seoul, South Korea | 18d |
+| Coupang | [Staff Back-end Engineer (eCommerce Engineering; Interstellar)](https://www.coupang.jobs/en/jobs/?gh_jid=8076371) | Seoul, South Korea | 18d |
+| Coupang | [Staff Backend Engineer (ECommerce Engineering; Core Member)](https://www.coupang.jobs/en/jobs/?gh_jid=8127146) | Seoul, South Korea | 18d |
+| Coupang | [Staff Backend Engineer (Application Infra)](https://www.coupang.jobs/en/jobs/?gh_jid=7849021) | Mountain View, USA; Seattle, USA | 19d |
+| Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7962133) | Mountain View, USA | 26d |
+| Coupang | [Senior Staff Backend Engineer - Cloud Infrastructure](https://www.coupang.jobs/en/jobs/?gh_jid=7438944) | Seattle, USA | 26d |
+| Coupang | [Director - Backend Engineering (Infrastructure)](https://www.coupang.jobs/en/jobs/?gh_jid=8040140) | Singapore; Singapore, Singapore | 1mo |
+| Coupang | [Senior Staff / Staff Back-End Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7981493) | Singapore; Singapore, Singapore | 1mo |
+| Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8194727) | Singapore; Singapore, Singapore | 1mo |
+| Coupang | [Staff Backend Engineer(Infrastructure)](https://www.coupang.jobs/en/jobs/?gh_jid=8047677) | Singapore; Singapore, Singapore | 1mo |
+| Coupang | [Director, Back-end Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=7227610) | z-Test & Templates Only | 1mo |
+| Coupang | [Senior Staff Backend Engineer (Service Mesh)](https://www.coupang.jobs/en/jobs/?gh_jid=7496873) | India | 1mo |
 | Databricks | [Sr. IT Site Reliability Software Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8493168002) | Costa Rica | 2d |
 | Databricks | [Team Lead - Platform Monitoring Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8788176002) | Bengaluru, India | 2d |
 | Databricks | [Software Engineer, Infrastructure](https://databricks.com/company/careers/open-positions/job?gh_jid=8829039002) _$136k–$187k/yr_ | United States | 4d |
@@ -2419,8 +2434,8 @@ Total roles: 3851
 | Databricks | [Sr. Forward Deployed Engineer - FDE (Fullstack)](https://databricks.com/company/careers/open-positions/job?gh_jid=8782216002) | Zürich, Switzerland | 26d |
 | Databricks | [Sr. Manager, Engineering Configuration Platform Team](https://databricks.com/company/careers/open-positions/job?gh_jid=8567602002) _$222k–$300k/yr_ | Bellevue, Washington | 26d |
 | Databricks | [Sr. Staff Software Engineer - Money Team](https://databricks.com/company/careers/open-positions/job?gh_jid=8285949002) _$217k–$299k/yr_ | Bellevue, Washington | 26d |
-| Databricks | [Sr. Staff Software Engineer — Observability, Insights & Governance](https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002) _$217k–$299k/yr_ | Bellevue, Washington; Seattle, Washington | 26d |
 | Databricks | [Sr. Staff Software Engineer — Observability, Insights & Governance](https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002) _$229k–$314k/yr_ | Mountain View, California; San Francisco, California | 26d |
+| Databricks | [Sr. Staff Software Engineer — Observability, Insights & Governance](https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002) _$217k–$299k/yr_ | Bellevue, Washington; Seattle, Washington | 26d |
 | Databricks | [Staff Backend Software Engineer- (Databricks AI)](https://databricks.com/company/careers/open-positions/job?gh_jid=8367019002) _$166k–$225k/yr_ | San Francisco, California | 26d |
 | Databricks | [Staff Software Engineer – Genie One Mobile & Desktop](https://databricks.com/company/careers/open-positions/job?gh_jid=8692516002) _$190k–$261k/yr_ | Mountain View, California; San Francisco, California | 26d |
 | Databricks | [Senior Software Engineer (Data Platform)](https://databricks.com/company/careers/open-positions/job?gh_jid=7647369002) | Bengaluru, India | 29d |
@@ -2436,23 +2451,23 @@ Total roles: 3851
 | Databricks | [Senior Software Engineer (Backend) - AI/ML Environments](https://databricks.com/company/careers/open-positions/job?gh_jid=8233899002) _$166k–$220k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Senior Software Engineer (Money)](https://databricks.com/company/careers/open-positions/job?gh_jid=7654347002) | Bengaluru, India | 1mo |
 | Databricks | [Senior Software Engineer - Application Traffic team](https://databricks.com/company/careers/open-positions/job?gh_jid=8183195002) _$166k–$225k/yr_ | Mountain View, California | 1mo |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002) _$166k–$225k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002) _$166k–$225k/yr_ | San Francisco, California | 1mo |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002) _$158k–$214k/yr_ | Bellevue, Washington | 1mo |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002) | Amsterdam, Netherlands | 1mo |
 | Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8093295002) _$146k–$201k/yr_ | Vancouver, Canada | 1mo |
-| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002) | Berlin, Germany | 1mo |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002) | Amsterdam, Netherlands | 1mo |
 | Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8012803002) | Belgrade, Serbia | 1mo |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002) | Berlin, Germany | 1mo |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002) _$158k–$214k/yr_ | Bellevue, Washington | 1mo |
+| Databricks | [Senior Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002) _$166k–$225k/yr_ | Mountain View, California | 1mo |
+| Databricks | [Senior Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=8012809002) | Belgrade, Serbia | 1mo |
 | Databricks | [Senior Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002) _$166k–$225k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Senior Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=5048461002) _$166k–$225k/yr_ | San Francisco, California | 1mo |
-| Databricks | [Senior Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=8012809002) | Belgrade, Serbia | 1mo |
 | Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=4513122002) _$166k–$225k/yr_ | San Francisco, California | 1mo |
 | Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002) _$166k–$225k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002) _$158k–$214k/yr_ | Bellevue, Washington | 1mo |
 | Databricks | [Senior Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=8012800002) | Belgrade, Serbia | 1mo |
-| Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002) _$166k–$225k/yr_ | Mountain View, California; San Francisco, California | 1mo |
-| Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=8099342002) _$146k–$201k/yr_ | Vancouver, Canada | 1mo |
 | Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002) _$166k–$225k/yr_ | Mountain View, California; San Francisco, California | 1mo |
+| Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=8099342002) _$146k–$201k/yr_ | Vancouver, Canada | 1mo |
+| Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002) _$166k–$225k/yr_ | Mountain View, California; San Francisco, California | 1mo |
 | Databricks | [Senior Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=6544403002) _$158k–$214k/yr_ | Seattle, Washington | 1mo |
 | Databricks | [Senior Software Engineer - Infrastructure and Tools](https://databricks.com/company/careers/open-positions/job?gh_jid=6318503002) _$166k–$225k/yr_ | San Francisco, California | 1mo |
 | Databricks | [Senior Software Engineer - Money Team](https://databricks.com/company/careers/open-positions/job?gh_jid=8027404002) _$157k–$226k/yr_ | Bellevue, Washington | 1mo |
@@ -2460,18 +2475,18 @@ Total roles: 3851
 | Databricks | [Senior Software Engineer, AI Native Web Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8635216002) _$160k–$220k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Senior Software Engineer- Networking](https://databricks.com/company/careers/open-positions/job?gh_jid=7647353002) | Bengaluru, India | 1mo |
 | Databricks | [Senior Software Frontend Engineer – Dashboards](https://databricks.com/company/careers/open-positions/job?gh_jid=8230883002) _$146k–$201k/yr_ | Vancouver, Canada | 1mo |
-| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002) | London, United Kingdom | 1mo |
+| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002) | Zürich, Switzerland | 1mo |
 | Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303014002) | Aarhus, Denmark | 1mo |
 | Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303015002) | Amsterdam, Netherlands | 1mo |
-| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002) | Zürich, Switzerland | 1mo |
+| Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002) | London, United Kingdom | 1mo |
 | Databricks | [Senior Staff Software Engineer - Delta](https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002) | Berlin, Germany | 1mo |
 | Databricks | [Senior Staff Software Engineer - Enzyme](https://databricks.com/company/careers/open-positions/job?gh_jid=7934466002) _$235k–$295k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Senior Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002) _$232k–$313k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Senior Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7274557002) _$220k–$297k/yr_ | Seattle, Washington | 1mo |
 | Databricks | [Senior Staff Software Engineer - Lakeflow Pipelines Datasets](https://databricks.com/company/careers/open-positions/job?gh_jid=8493002002) _$229k–$314k/yr_ | Mountain View, California; San Francisco, California | 1mo |
 | Databricks | [Senior Staff Software Engineer- Search Quality](https://databricks.com/company/careers/open-positions/job?gh_jid=8439350002) | Bengaluru, India | 1mo |
-| Databricks | [Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002) | Amsterdam, Netherlands | 1mo |
 | Databricks | [Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002) | Belgrade, Serbia | 1mo |
+| Databricks | [Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002) | Amsterdam, Netherlands | 1mo |
 | Databricks | [Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=8012658002) | Belgrade, Serbia | 1mo |
 | Databricks | [Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=8012691002) | Belgrade, Serbia | 1mo |
 | Databricks | [Software Engineer, Web Products](https://databricks.com/company/careers/open-positions/job?gh_jid=8635225002) _$136k–$187k/yr_ | Mountain View, California | 1mo |
@@ -2479,8 +2494,8 @@ Total roles: 3851
 | Databricks | [Sr Software Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8220814002) _$192k–$260k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Sr Software Engineer- Customer Experience Intelligence (CXI)](https://databricks.com/company/careers/open-positions/job?gh_jid=8416951002) _$164k–$226k/yr_ | Mountain View, California; San Francisco, California | 1mo |
 | Databricks | [Sr Software Engineer- CXI](https://databricks.com/company/careers/open-positions/job?gh_jid=8617901002) _$164k–$226k/yr_ | Mountain View, California; San Francisco, California | 1mo |
-| Databricks | [Sr Software Engineer-Networking](https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002) _$157k–$214k/yr_ | Bellevue, Washington | 1mo |
 | Databricks | [Sr Software Engineer-Networking](https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002) _$166k–$225k/yr_ | Mountain View, California | 1mo |
+| Databricks | [Sr Software Engineer-Networking](https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002) _$157k–$214k/yr_ | Bellevue, Washington | 1mo |
 | Databricks | [Sr Staff Software Engineer (Backend)](https://databricks.com/company/careers/open-positions/job?gh_jid=7630152002) | Bengaluru, India | 1mo |
 | Databricks | [Sr. Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7643201002) | Aarhus, Denmark | 1mo |
 | Databricks | [Sr. Software Engineer - Ingestion Core team](https://databricks.com/company/careers/open-positions/job?gh_jid=8815669002) _$166k–$225k/yr_ | San Francisco, California | 1mo |
@@ -2492,8 +2507,8 @@ Total roles: 3851
 | Databricks | [Sr.Staff Software Engineer- Network Platform](https://databricks.com/company/careers/open-positions/job?gh_jid=8462811002) | Bengaluru, India | 1mo |
 | Databricks | [Staff Backend Software Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8468436002) _$190k–$261k/yr_ | New York | 1mo |
 | Databricks | [Staff Fullstack Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=6704975002) _$192k–$260k/yr_ | San Francisco, California | 1mo |
-| Databricks | [Staff Fullstack Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8220840002) _$192k–$260k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Staff Fullstack Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002) _$192k–$260k/yr_ | Mountain View, California | 1mo |
+| Databricks | [Staff Fullstack Engineer, Agentic Applications](https://databricks.com/company/careers/open-positions/job?gh_jid=8220840002) _$192k–$260k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Staff Software Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=7651346002) | Bengaluru, India | 1mo |
 | Databricks | [Staff Software Engineer (Infrastructure)](https://databricks.com/company/careers/open-positions/job?gh_jid=7648674002) | Bengaluru, India | 1mo |
 | Databricks | [Staff Software Engineer (Money)](https://databricks.com/company/careers/open-positions/job?gh_jid=7654349002) | Bengaluru, India | 1mo |
@@ -2504,10 +2519,10 @@ Total roles: 3851
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002) _$192k–$260k/yr_ | San Francisco, California | 1mo |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002) | Berlin, Germany | 1mo |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8012814002) | Belgrade, Serbia | 1mo |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002) | Amsterdam, Netherlands | 1mo |
-| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002) | Bengaluru, India | 1mo |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002) _$182k–$247k/yr_ | Seattle, Washington | 1mo |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002) | Bengaluru, India | 1mo |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002) _$182k–$247k/yr_ | Bellevue, Washington | 1mo |
+| Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002) | Amsterdam, Netherlands | 1mo |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8093293002) _$173k–$238k/yr_ | Vancouver, Canada | 1mo |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=8374611002) | London, United Kingdom | 1mo |
 | Databricks | [Staff Software Engineer - Backend](https://databricks.com/company/careers/open-positions/job?gh_jid=7642799002) | Aarhus, Denmark | 1mo |
@@ -2515,15 +2530,15 @@ Total roles: 3851
 | Databricks | [Staff Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=6544386002) _$192k–$260k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Staff Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002) _$192k–$260k/yr_ | San Francisco, California | 1mo |
 | Databricks | [Staff Software Engineer - Database Engine Internals](https://databricks.com/company/careers/open-positions/job?gh_jid=8012818002) | Belgrade, Serbia | 1mo |
-| Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002) _$192k–$260k/yr_ | San Francisco, California | 1mo |
 | Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=8012831002) | Belgrade, Serbia | 1mo |
 | Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002) _$192k–$260k/yr_ | Mountain View, California | 1mo |
 | Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002) _$182k–$247k/yr_ | Bellevue, Washington | 1mo |
+| Databricks | [Staff Software Engineer - Distributed Data Systems](https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002) _$192k–$260k/yr_ | San Francisco, California | 1mo |
 | Databricks | [Staff Software Engineer - Frontend (NYC)](https://databricks.com/company/careers/open-positions/job?gh_jid=8384595002) _$191k–$254k/yr_ | New York City, New York | 1mo |
 | Databricks | [Staff Software Engineer - Fullstack](https://databricks.com/company/careers/open-positions/job?gh_jid=8099343002) _$173k–$238k/yr_ | Vancouver, Canada | 1mo |
 | Databricks | [Staff Software Engineer - GenAI inference](https://databricks.com/company/careers/open-positions/job?gh_jid=8202698002) _$191k–$233k/yr_ | San Francisco, California | 1mo |
-| Databricks | [Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002) _$181k–$261k/yr_ | Bellevue, Washington | 1mo |
 | Databricks | [Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002) _$191k–$275k/yr_ | Mountain View, California | 1mo |
+| Databricks | [Staff Software Engineer - IAM](https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002) _$181k–$261k/yr_ | Bellevue, Washington | 1mo |
 | Databricks | [Staff Software Engineer - Ingestion](https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002) | Bengaluru, India | 1mo |
 | Databricks | [Staff Software Engineer - Money Team](https://databricks.com/company/careers/open-positions/job?gh_jid=7111068002) _$182k–$247k/yr_ | Bellevue, Washington | 1mo |
 | Databricks | [Staff Software Engineer - Multi Cloud Efficiency](https://databricks.com/company/careers/open-positions/job?gh_jid=8593107002) | Bengaluru, India | 1mo |
@@ -3855,29 +3870,6 @@ Total roles: 3851
 | Wise | [Senior Software Developer - Wise Platform](https://jobs.smartrecruiters.com/Wise/744000158044949) | London, United Kingdom | 5d |
 | Wise | [Senior Software Engineer I - Account Integrity](https://jobs.smartrecruiters.com/Wise/744000158101614) | London, England, United Kingdom | 5d |
 | Wise | [Principal Implementation Manager - Wise Platform Verification](https://jobs.smartrecruiters.com/Wise/744000157516450) | London, United Kingdom | 9d |
-| Workday | [Principal DataOps Engineer (DevOps for Data)](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-DataOps-Engineer--DevOps-for-Data-_JR-0111033) | <details><summary>2 locations</summary>USA, CA<br>Pleasanton<br>USA, GA<br>Atlanta</details> | 2d |
-| Workday | [Senior Software Development Engineer - AI Tools](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Development-Engineer---AI-Tools_JR-0110691-1) | USA, CA, Pleasanton | 2d |
-| Workday | [Software Development Engineer - UI and Tooling - Java, Go or Kotlin](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer_JR-0109889) | USA, CA, Pleasanton | 2d |
-| Workday | [Software Development Engineer in Test, Evisort AI](https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Software-Development-Engineer-in-Test--Evisort-AI_JR-0111106) | Canada, BC, Vancouver | 2d |
-| Workday | [Software Development Engineer, Payroll Development](https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Software-Development-Engineer--Payroll-Development_JR-0110886-1) | New Zealand, Auckland | 2d |
-| Workday | [Account Executive, Platform](https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-BC-Vancouver/Account-Executive--Platform_JR-0111008) | <details><summary>2 locations</summary>Canada, BC<br>Vancouver<br>Canada, ON<br>Toronto</details> | 3d |
-| Workday | [Account Executive, Platform - FSI](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-NY-New-York-City/Account-Executive--Platform---FSI_JR-0111001) | <details><summary>10 locations</summary>USA, NY<br>New York City<br>USA, MA<br>Boston<br>USA, CA<br>Remote<br>USA, WA<br>Seattle<br>USA, GA<br>Atlanta<br>USA, CA<br>Santa Clara<br>USA, CO<br>Boulder<br>USA, CA<br>San Francisco<br>USA, CO<br>Denver<br>USA, CA<br>Pleasanton</details> | 3d |
-| Workday | [Account Executive, Platform - Healthcare](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Account-Executive--Platform---Healthcare_JR-0111004) | <details><summary>6 locations</summary>USA, CA<br>Pleasanton<br>USA, TX<br>Frisco<br>USA, NY<br>New York City<br>USA, MA<br>Boston<br>USA, GA<br>Atlanta<br>USA, CA<br>San Francisco</details> | 3d |
-| Workday | [Account Executive, Platform - Large Enterprise Diversified Industries](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Account-Executive--Platform---Large-Enterprise-Diversified-Industries_JR-0111005) | <details><summary>11 locations</summary>USA, CA<br>Pleasanton<br>USA, TX<br>Frisco<br>USA, MA<br>Boston<br>USA, GA<br>Atlanta<br>USA, MN<br>Minneapolis<br>USA, CA<br>Santa Clara<br>USA, CA<br>San Francisco<br>USA, IL<br>Chicago<br>USA, NY<br>New York City<br>USA, CO<br>Denver<br>USA, TX<br>Austin</details> | 3d |
-| Workday | [Account Executive, Platform - Medium Enterprise Diversified Industries](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Account-Executive--Platform---Medium-Enterprise-Diversified-Industries_JR-0111006) | <details><summary>9 locations</summary>USA, GA<br>Atlanta<br>USA, TX<br>Frisco<br>USA, CA<br>Remote<br>USA, MA<br>Boston<br>USA, CA<br>Santa Clara<br>USA, CA<br>San Francisco<br>USA, IL<br>Chicago<br>USA, NY<br>New York City<br>USA, CA<br>Pleasanton</details> | 3d |
-| Workday | [Account Executive, Platform - SLED, Higher Ed, NFP](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Account-Executive--Platform---SLED--Higher-Ed--NFP_JR-0111003) | <details><summary>3 locations</summary>USA, GA<br>Atlanta<br>USA, TX<br>Frisco<br>USA, TX<br>Austin</details> | 3d |
-| Workday | [Manager, Software Development Engineering](https://workday.wd5.myworkdayjobs.com/Workday/job/INDChennai/Manager--Software-Development-Engineering_JR-0111052) | IND.Chennai | 4d |
-| Workday | [Managing Partner - Platform EMEA](https://workday.wd5.myworkdayjobs.com/Workday/job/Germany-Munich/Managing-Partner---Platform-EMEA_JR-0111107) | <details><summary>2 locations</summary>Germany<br>Munich<br>Germany<br>Berlin</details> | 4d |
-| Workday | [Managing Partner - Platform EMEA](https://workday.wd5.myworkdayjobs.com/Workday/job/France-Paris/Managing-Partner---Platform-EMEA_JR-0111108) | <details><summary>2 locations</summary>France<br>Paris<br>Netherlands<br>Amsterdam</details> | 4d |
-| Workday | [Principal Full Stack Engineer - Agent Platform](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Principal-Full-Stack-Engineer---Agent-Platform_JR-0109720-1) | <details><summary>2 locations</summary>USA, GA<br>Atlanta<br>USA, CO<br>Boulder</details> | 4d |
-| Workday | [Senior Software Engineer(Distributed Systems)](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Engineer-Distributed-Systems-_JR-0110618) | USA, CA, Pleasanton | 4d |
-| Workday | [Software Development Engineer - US Federal](https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Software-Development-Engineer---US-Federal_JR-0109614) | USA.VA.Reston | 4d |
-| Workday | [Sr Associate Software Development Engineer (US Federal)](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Sr-Associate-Software-Development-Engineer--US-Federal-_JR-0108519) | USA, GA, Atlanta | 4d |
-| Workday | [Sr Software Development Engineer, Business Process Optimization](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer--Business-Process-Optimization_JR-0110819) | USA, CA, Pleasanton | 4d |
-| Workday | [Principal Software Development Engineer - Data Cloud](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-Software-Development-Engineer_JR-0111151-1) | USA, CA, Pleasanton | 5d |
-| Workday | [Senior Software Development Engineer - Distributed Systems](https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Senior-Software-Engineer---Distributed-Systems_JR-0108915) | Ireland, Dublin | 5d |
-| Workday | [Senior Software Development Engineer, Payroll Development](https://workday.wd5.myworkdayjobs.com/Workday/job/New-Zealand-Auckland/Senior-Software-Development-Engineer--Payroll-Development_JR-0110887-1) | New Zealand, Auckland | 5d |
-| Workday | [Software Development Engineer(Distributed Systems)](https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer-Distributed-Systems-_JR-0109641) | USA, CA, Pleasanton | 8d |
 | Airbnb | [Senior Software Engineer, Experimentation Platform](https://careers.airbnb.com/positions/8334880?gh_jid=8334880) | Brazil | 3d |
 | Airbnb | [Staff Software Engineer AI, Platform](https://careers.airbnb.com/positions/8307226?gh_jid=8307226) _$212k–$265k/yr_ | United States | 3d |
 | Airbnb | [Software Engineer, Payments](https://careers.airbnb.com/positions/8332157?gh_jid=8332157) _$160k–$180k/yr_ | Remote, USA | 4d |
@@ -4349,71 +4341,66 @@ Total roles: 3851
 
 ## Hackathons
 
-Total hackathons: 89
+Total hackathons: 85
 
 | Organizer | Hackathon | Location | Closes |
 |---|---|---|---|
 | Devfolio | [Hack On Hills 8.0](https://hackonhills8.devfolio.co) | Hamirpur, India | last day |
-| Devfolio | [Surat Hack 2026](https://surat-hack-2026.devfolio.co) | Surat, India | last day |
-| HIMATIFA UPN "Veteran" Jawa Timur | [INCEPTION 2026](https://inception2026.devpost.com/) | Online | about 2 hours left |
-| Lovhack | [TRMI X Lovhack : Multiplayer Everything Hackathon](https://lovhack-trmi-2026.devpost.com/) | Online | about 5 hours left |
-| Agentic Day (co-hosted with Mel) | [Global AI Hackathon - Devcon 2026 By Mel](https://trick-or-build.devpost.com/) | Online | about 7 hours left |
-| Perfect Corp | [YouCam API Skin AI & eCommerce VTO Hackathon](https://youcam-api-skin-ai-ecommerce.devpost.com/) | Online | 1 day left |
+| Agentic Day (co-hosted with Mel) | [Global AI Hackathon - Devcon 2026 By Mel](https://trick-or-build.devpost.com/) | Online | about 2 hours left |
+| larphacks | [LarpHacks](https://larphacks.devpost.com/) | Toronto | about 5 hours left |
+| Perfect Corp | [YouCam API Skin AI & eCommerce VTO Hackathon](https://youcam-api-skin-ai-ecommerce.devpost.com/) | Online | about 21 hours left |
+| CETYS | [ICC - Proyecto Destacado 2026](https://icc-proyecto-destacado-2026.devpost.com/) | Centro de enseñanza técnica y superior | 1 day left |
 | Twitch | [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/) | Online | 1 day left |
-| CETYS | [ICC - Proyecto Destacado 2026](https://icc-proyecto-destacado-2026.devpost.com/) | Centro de enseñanza técnica y superior | 4 days left |
-| Girls Who Code HHS | [Girls Who Code HHS Hackathon 2026](https://gwchhs-hackathon-2026.devpost.com/) | Online | 4 days left |
-| Manav Rachna University (MRU), Faridabad | [Noor 2k26](https://unstop.com/hackathons/noor-2k26-manav-rachna-university-faridabad-1774268) | Offline | 4 days left |
-| Masters' Union School of Business | [Fetch-A-Thon 3.0](https://unstop.com/hackathons/fetch-a-thon-30-masters-union-school-of-business-1778044) | Offline | 4 days left |
+| Girls Who Code HHS | [Girls Who Code HHS Hackathon 2026](https://gwchhs-hackathon-2026.devpost.com/) | Online | 3 days left |
+| Masters' Union School of Business | [Fetch-A-Thon 3.0](https://unstop.com/hackathons/fetch-a-thon-30-masters-union-school-of-business-1778044) | Offline | 3 days left |
+| avacado | [Remote Control AI](https://remote-control-ai.devpost.com/) | Online | 4 days left |
 | Youth Upskill Network - YUNet | [Ostad Presents YUNet AIgnite Buildathon 2026](https://yunet-aignite26.devpost.com/) | Online | 4 days left |
 | ACM Long Beach | [Pumpkin Playground](https://pumpkin-playground.devpost.com/) | Online | 5 days left |
-| avacado | [Remote Control AI](https://remote-control-ai.devpost.com/) | Online | 5 days left |
 | B. S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, Tamil Nadu | [COBOT-EX 2026 | Inter-College Hackathon](https://unstop.com/hackathons/cobot-ex-2026-inter-college-hackathon-b-s-abdur-rahman-crescent-institute-of-science-and-technology-chennai-t-1783202) | Offline | 5 days left |
+| EduLinkUp | [ELUCode - 7](https://unstop.com/hackathons/elucode-7-edulinkup-1783260) | Online | 5 days left |
 | Devfolio | [AgentVerse](https://agentverse.devfolio.co) | United Kingdom | 6 days left |
-| EduLinkUp | [ELUCode - 7](https://unstop.com/hackathons/elucode-7-edulinkup-1783260) | Online | 6 days left |
+| InfoTechiezz | [CODE SHIFT 2026](https://unstop.com/hackathons/code-shift-2026-infotechiezz-1786387) | Online | 6 days left |
 | Next Byte Hacks | [Next Byte Hacks V5](https://next-byte-hacks-v5.devpost.com/) | Online | 6 days left |
-| InfoTechiezz | [CODE SHIFT 2026](https://unstop.com/hackathons/code-shift-2026-infotechiezz-1786387) | Online | 7 days left |
+| HackQube | [AGENTX 2.0](https://unstop.com/hackathons/agentx-20-hackqube-1783256) | Hybrid | 7 days left |
 | Devpost | [Learn AR with SPECS](https://learn-specs.devpost.com/) | Online | 8 days left |
-| HackQube | [AGENTX 2.0](https://unstop.com/hackathons/agentx-20-hackqube-1783256) | Hybrid | 8 days left |
 | DataNova | [DATANOVA 2026 GLOBAL DATA-THON](https://datanova-2026-global-data-thon.devpost.com/) | Online | 9 days left |
 | Devin | [Agentic Hackathon](https://agentic-hackathon.devpost.com/) | Online | 9 days left |
-| Echelon institute of technology | [Herhack](https://herhack.devpost.com/) | Online | 10 days left |
+| Echelon institute of technology | [Herhack](https://herhack.devpost.com/) | Online | 9 days left |
 | Kalindi College (KC), University of Delhi (DU), Delhi | [Synapase 3.0](https://unstop.com/hackathons/synapase-30-kalindi-college-kc-university-of-delhi-du-delhi-1787967) | Offline | 11 days left |
 | PayPal | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) | Online | 11 days left |
 | Aveeranex (OPC) Private Limited | [Innovate - Online Hackathon](https://unstop.com/hackathons/innovate-online-hackathon-aveeranex-opc-private-limited-1783838) | Online | 12 days left |
 | Thakur College of Engineering and Technology (TCET), Mumbai | [Tatusta](https://unstop.com/hackathons/tatusta-thakur-college-of-engineering-and-technology-tcet-mumbai-1785430) | Online | 12 days left |
 | Devfolio | [Hacknauts 2.0](https://hacknauts26.devfolio.co) | Ludhiana, India | 13 days left |
+| HackerEarth | [MKS AI/ML Hackathon](https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/) | Online | 13 days left |
 | mcgill university | [Scope-AI-Thon 2026 - AI for Detection of Acute Patient Deterioration](https://scope-ai-thon-2026.devpost.com/) | Online | 13 days left |
 | TrishulX | [Hackday](https://unstop.com/hackathons/hackday-trishulx-1784666) | Online | 13 days left |
-| Acadable | [One Who Codes 2026 - A Portfolio Challenge](https://unstop.com/hackathons/one-who-codes-2026-a-portfolio-challenge-acadable-1784554) | Online | 14 days left |
-| HackerEarth | [MKS AI/ML Hackathon](https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/) | Online | 14 days left |
 | International Institute of Information Technology (IIIT), Naya Raipur | [Hack-a-Sol 5.0](https://unstop.com/hackathons/hack-a-sol-50-international-institute-of-information-technology-iiit-naya-raipur-1786809) | Offline | 14 days left |
 | Software Engineering Club (DEV) | [Mathematics for systems security](https://mathematics-systems-security.devpost.com/) | Online | 14 days left |
+| STEMergent | [STEMergent Hacks 2026](https://stemergent-hacks.devpost.com/) | Online | 14 days left |
 | STEMise | [DSH Hacks V2 ($100k+ in prizes!)](https://dsh-hacks-v2.devpost.com/) | Online | 14 days left |
-| STEMergent | [STEMergent Hacks 2026](https://stemergent-hacks.devpost.com/) | Online | 15 days left |
+| Xavier School of Management (XLRI) | [Project Last Mile: Analytics Case Challenge](https://unstop.com/hackathons/project-lastmile-analytics-case-challenge-xavier-school-of-management-xlri-1789982) | Online | 14 days left |
 | UGREEN | [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/) | Online | 15 days left |
 | HackathonForEveryone | [Green Shift Hacks](https://green-shift-hacks.devpost.com/) | Online | 16 days left |
+| HackerEarth | [IBM Z Day](https://www.hackerearth.com/challenges/hackathon/ibm-z-day/) | Online | 16 days left |
 | Shri Chinai College of Commerce & Economics | [Madlab - The Ultimate Innovation Hackathon](https://unstop.com/hackathons/madlab-the-ultimate-innovation-hackathon-shri-chinai-college-of-commerce-economics-1785416) | Online | 16 days left |
-| HackerEarth | [IBM Z Day](https://www.hackerearth.com/challenges/hackathon/ibm-z-day/) | Online | 17 days left |
 | Meta | [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/) | Online | 17 days left |
+| Devfolio | [THE BIG HACK 2.0](https://the-big-hack-2.devfolio.co) | Soladevanahalli, India | 18 days left |
 | AccessEDnpo | [AccessED Hacks](https://accessed-hacks.devpost.com/) | Online | 19 days left |
 | Dakar Bitcoin Days | [Dakar Bitcoin Hack by BTrust](https://dakar-bitcoin-hack-2026.devpost.com/) | Online | 19 days left |
 | Devfolio | [GeNarrative Clash](https://genarrative-clash.devfolio.co) | Kolkata, India | 19 days left |
-| Devfolio | [THE BIG HACK 2.0](https://the-big-hack-2.devfolio.co) | Soladevanahalli, India | 19 days left |
 | Hack4TodayOrg | [LaunchPad Hacks](https://launchpad-hacks.devpost.com/) | Online | 19 days left |
-| Devfolio | [Lean In Hacks 8.0](https://lean-in-hacks-8.devfolio.co) | Various | 21 days left |
+| Devfolio | [Lean In Hacks 8.0](https://lean-in-hacks-8.devfolio.co) | Various | 20 days left |
+| STEM2Connect | [STEM2Connect AI Hackathon](https://stem2connect-online-hackathon.devpost.com/) | Online | 20 days left |
 | SafeSpace | [SafeSpace Hacks](https://safespace-hacks.devpost.com/) | Online | 21 days left |
-| STEM2Connect | [STEM2Connect AI Hackathon](https://stem2connect-online-hackathon.devpost.com/) | Online | 21 days left |
 | Aditya University | [HackWithAditya](https://hackwithaditya.devpost.com/) | Online | 24 days left |
+| n/a | [Code For DFW](https://code-for-dfw.devpost.com/) | Online | 24 days left |
 | ITESO | [Hackathon Agéntico SoftwareChido 2026B](https://hackathon-agentico-2026b.devpost.com/) | Online | 25 days left |
-| Maya devi university | [Algonex 1.0](https://unstop.com/hackathons/algonex-10-maya-devi-university-1781078) | Offline | 26 days left |
-| n/a | [Code For DFW](https://code-for-dfw.devpost.com/) | Online | 26 days left |
+| Devfolio | [DevNexus 2.0](https://devnexus2.devfolio.co) | Kolkata, India | 26 days left |
 | Studentchakra | [Agents that act. Systems that answer. | Free Virtual Agentic-AI Hackathon](https://unstop.com/hackathons/agents-that-act-systems-that-answer-studentchakra-1777504) | Online | 26 days left |
 | Yasir Insights | [Build Your First AI App](https://build-your-first-ai-app.devpost.com/) | Online | 26 days left |
-| Devfolio | [DevNexus 2.0](https://devnexus2.devfolio.co) | Kolkata, India | 27 days left |
-| Devfolio | [CodeClash'24](https://codeclash24.devfolio.co) | Greater Noida, India | 29 days left |
-| Devfolio | [Winter of Code 2026](https://winter-of-code-4.devfolio.co) | Online | 29 days left |
+| Devfolio | [CodeClash'24](https://codeclash24.devfolio.co) | Greater Noida, India | 28 days left |
+| Devfolio | [Winter of Code 2026](https://winter-of-code-4.devfolio.co) | Online | 28 days left |
 | The Webb Schools CSC | [CSC Winter Sparkathon](https://csc-winter-sparkathon.devpost.com/) | Online | 29 days left |
-| VIT Bhopal University | [Health Hackathon 3.0](https://unstop.com/hackathons/health-hackathon-30-vit-bhopal-university-1784631) | Offline | 29 days left |
 | GOOGLE DEVELOPER GROUP AT FIU | [305 Veterans Hackathon Edition November 2026 — 305Hackathons.vercel.app](https://305veteransnov2026.devpost.com/) | Online | 30 days left |
 | Kiro | [Kiroween 2026](https://kiroween.devpost.com/) | Online | about 1 month left |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 4.0](https://ml-build-challenge-4.devpost.com/) | Online | about 1 month left |
@@ -4433,7 +4420,7 @@ Total hackathons: 89
 | Indian Institute of Technology (IIT), Madras | [CTF - Capture The Flag](https://unstop.com/hackathons/ctf-capture-the-flag-iit-madras-1782683) | Online | 64 days left |
 | Indian Institute of Technology (IIT), Madras | [SHAASTRA 2027](https://unstop.com/hackathons/shaastra-2027-iit-madras-1784543) | Hybrid | 64 days left |
 | Devfolio | [Convergence](https://convergence1.devfolio.co) | Kalyani, India | 76 days left |
-| Burhani College, Mumbai | [Technova 2027](https://unstop.com/hackathons/technova-2027-burhani-college-mumbai-1786992) | Offline | 82 days left |
+| Burhani College, Mumbai | [Technova 2027](https://unstop.com/hackathons/technova-2027-burhani-college-mumbai-1786992) | Offline | 81 days left |
 | Devfolio | [HACK 6.0](https://hack-1736.devfolio.co) | Hamirpur, India | 83 days left |
 | Devfolio | [HACK WITH GDG S4](https://hack-with-gdg-s4.devfolio.co) | KSR Kalvi Nagar, India | 83 days left |
 | Devfolio | [Hacksprint 3.0](https://hacksprint-3.devfolio.co) | Various | 89 days left |
@@ -4441,11 +4428,12 @@ Total hackathons: 89
 | Devfolio | [Hack Nexus 2027](https://hack-nexus.devfolio.co) | Nagpur, India | 90 days left |
 | Devfolio | [CODERAVE 2.0](https://coderave-2.devfolio.co) | Various | 104 days left |
 | Devfolio | [Diversion 2k27](https://diversion2k27.devfolio.co) | Bidhannagar, India | 125 days left |
-| Devfolio | [ECLIPSE 7.0](https://eclipse.devfolio.co) | Patiala, India | 154 days left |
+| Devfolio | [ECLIPSE 7.0](https://eclipse.devfolio.co) | Patiala, India | 153 days left |
+| Lovhack | [TRMI X Lovhack : Multiplayer Everything Hackathon](https://lovhack-trmi-2026.devpost.com/) | Online | 22 minutes left |
 
 ## Events
 
-Total events: 192
+Total events: 194
 
 | Organizer | Event | Location | When |
 |---|---|---|---|
@@ -4640,7 +4628,9 @@ Total events: 192
 | webinale Munich | [webinale Munich](https://webinale.com/munich) | Munich, Germany | 379 days left |
 | Luma | [Follow Build](https://lu.ma/buildercommunityanz?k=c) | Global | — |
 | Luma | [Follow Creative](https://lu.ma/coffeeclubworldwide?k=c) | Global | — |
+| Luma | [Follow DC](https://lu.ma/DC2?k=c) | Global | — |
 | Luma | [Follow Google](https://lu.ma/deepmind?k=c) | Global | — |
+| Luma | [Follow STATION](https://lu.ma/stationdc?k=c) | Global | — |
 
 ## Browse Every Role
 
