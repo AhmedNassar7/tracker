@@ -4,7 +4,7 @@
     <title>tracker — Internships</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering internships tracker currently tracks.</description>
-    <lastBuildDate>Sun, 01 Nov 2026 01:10:27 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 07:34:12 GMT</lastBuildDate>
     <item>
       <title>Stripe — Machine Learning Engineer Intern (Summer 2027)</title>
       <link>https://img.shields.io/badge/-Apply-blue?style=for-the-badge</link>
@@ -62,6 +62,13 @@
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Roblox — [Summer 2027] Software Engineer Intern</title>
+      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713</link>
+      <guid isPermaLink="false">878d4c84133197a9</guid>
+      <description>San Mateo, CA, United States · internship · 0d</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Stripe — Master's Machine Learning Engineer - Intern</title>
       <link>https://stripe.com/jobs/search?gh_jid=8333074</link>
       <guid isPermaLink="false">2089f51f8968c142</guid>
@@ -90,13 +97,6 @@
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Roblox — [Summer 2027] Software Engineer Intern</title>
-      <link>https://careers.roblox.com/jobs/8072713?gh_jid=8072713</link>
-      <guid isPermaLink="false">878d4c84133197a9</guid>
-      <description>San Mateo, CA, United States · internship · 1d</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Uber — Software Engineer Intern</title>
       <link>https://img.shields.io/badge/-Apply-blue?style=for-the-badge</link>
       <guid isPermaLink="false">4bda7230d6baf3cb</guid>
@@ -119,16 +119,16 @@
     </item>
     <item>
       <title>Stripe — Machine Learning Engineer Intern 🎓</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8333074&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">a66af15c1fc604ef</guid>
-      <description>Seattle, WA SF NYC · internship · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8333122&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">dfe0bbdf817dfe67</guid>
+      <description>Toronto, ON, Canada · internship · 2d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Machine Learning Engineer Intern 🎓</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8333122&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">dfe0bbdf817dfe67</guid>
-      <description>Toronto, ON, Canada · internship · 2d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8333074&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">a66af15c1fc604ef</guid>
+      <description>Seattle, WA SF NYC · internship · 2d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -496,24 +496,10 @@
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Samsung Semiconductor — Intern, Power-Thermal Simulation Software Engineer</title>
-      <link>https://zapply.jobs/l/d/greenhouse-samsungsemiconductor-8046795003?s=gh-internships-2027</link>
-      <guid isPermaLink="false">654ad20aa7581a36</guid>
-      <description>San Jose, California, United States · internship · 4d</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Visa — Sophomore Program Software Engineer Intern 🛂</title>
       <link>https://go.vansh.nyc/Vy?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">722c647e47ed7b0d</guid>
       <description>Foster City, CA · internship · 4d</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visa — Sophomore Program Software Engineer Intern 🛂</title>
-      <link>https://go.vansh.nyc/VC?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">03d70fa9433952da</guid>
-      <description>Austin, TX · internship · 4d</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -528,6 +514,13 @@
       <link>https://go.vansh.nyc/VB?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">ffcdd03cc5aa5586</guid>
       <description>Denver, CO · internship · 4d</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Visa — Sophomore Program Software Engineer Intern 🛂</title>
+      <link>https://go.vansh.nyc/VC?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">03d70fa9433952da</guid>
+      <description>Austin, TX · internship · 4d</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -805,15 +798,15 @@
     </item>
     <item>
       <title>AMD — Machine Learning/Artificial Intelligence Co-op</title>
-      <link>https://go.vansh.nyc/LF?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">5903975f352d3765</guid>
+      <link>https://go.vansh.nyc/LG?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">edfe95469e2bd76a</guid>
       <description>Markham, Canada · internship · 1mo</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AMD — Machine Learning/Artificial Intelligence Co-op</title>
-      <link>https://go.vansh.nyc/LG?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">edfe95469e2bd76a</guid>
+      <link>https://go.vansh.nyc/LF?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">5903975f352d3765</guid>
       <description>Markham, Canada · internship · 1mo</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -874,17 +867,17 @@
       <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>LinkedIn — Software Engineer Intern</title>
-      <link>https://go.vansh.nyc/dh?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">21f44cee5cad9030</guid>
-      <description>Mountain View, CA · internship · 7d</description>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft — Software Engineer Intern, Security &amp; Identity</title>
       <link>https://go.vansh.nyc/e6?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">7efeace595ad607c</guid>
       <description>Cambridge, MA · internship · 7d</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LinkedIn — Software Engineer Intern</title>
+      <link>https://go.vansh.nyc/dh?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">21f44cee5cad9030</guid>
+      <description>Mountain View, CA · internship · 7d</description>
       <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1014,13 +1007,6 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Engineer Intern - AWS Database</title>
-      <link>https://amazon.jobs/en/jobs/10565667/software-development-engineer-intern-aws-database-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">f56ec0d44ef09e67</guid>
-      <description>United States · internship · 9d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>MongoDB — Software Engineer Intern</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8209134&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">84a15c0be7012ba4</guid>
@@ -1032,6 +1018,13 @@
       <link>https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb</link>
       <guid isPermaLink="false">5b1fb419a0498d0f</guid>
       <description>New York City, NY · internship · 9d</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Engineer Intern - AWS Database</title>
+      <link>https://amazon.jobs/en/jobs/10565667/software-development-engineer-intern-aws-database-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">f56ec0d44ef09e67</guid>
+      <description>United States · internship · 9d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1588,13 +1581,6 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer Intern, Amazon University Talent Acquisition</title>
-      <link>https://www.amazon.jobs/en/jobs/10574925/software-development-engineer-intern-amazon-university-talent-acquisition</link>
-      <guid isPermaLink="false">e5e5538e3591c000</guid>
-      <description>Mexico City, Mexico City, MEX · internship · 23d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Pinterest — Machine Learning Intern 🎓</title>
       <link>https://www.pinterestcareers.com/jobs/?gh_jid=8140140&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">2565f18d3ebfb00a</guid>
@@ -1616,6 +1602,13 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Lyft — PhD Machine Learning Software Engineer Intern - Summer 2027</title>
+      <link>https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002</link>
+      <guid isPermaLink="false">83afe64295a927dd</guid>
+      <description>San Francisco, CA · internship · 25d</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Engineer Intern - Embedded Systems</title>
       <link>https://amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">0a6360dde4b3c23e</guid>
@@ -1627,13 +1620,6 @@
       <link>https://www.metacareers.com/jobs/929757023499411?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">c6f8211cc190b9bf</guid>
       <description>Menlo Park, CA · internship · 25d</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lyft — PhD Machine Learning Software Engineer Intern - Summer 2027</title>
-      <link>https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002</link>
-      <guid isPermaLink="false">83afe64295a927dd</guid>
-      <description>San Francisco, CA · internship · 25d</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1651,17 +1637,17 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Cloudflare — Software Engineer Intern</title>
-      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">2d2e075fb38293ea</guid>
-      <description>London, UK · internship · 26d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Hudson River Trading — Data Scientist Intern - 2027</title>
       <link>https://www.hudsonrivertrading.com/careers/job/?gh_jid=8257369</link>
       <guid isPermaLink="false">490f3da4ab850303</guid>
       <description>London, United Kingdom +1 · internship · 26d</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare — Software Engineer Intern</title>
+      <link>https://boards.greenhouse.io/cloudflare/jobs/8245211?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">2d2e075fb38293ea</guid>
+      <description>London, UK · internship · 26d</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2018,109 +2004,109 @@
       <title>Adobe — 2027 Intern- Software Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Basel/XMLNAME-2027-Intern--Software-Engineer_R173015</link>
       <guid isPermaLink="false">2ead68dcb92793e5</guid>
-      <description>Basel · internship · 1d</description>
+      <description>Basel · internship · 2d</description>
     </item>
     <item>
       <title>Adobe — 2027 Intern- Software Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bucharest/XMLNAME-2027-Intern--Software-Engineer_R173018</link>
       <guid isPermaLink="false">9dc33766daa4506b</guid>
-      <description>Bucharest · internship · 1d</description>
+      <description>Bucharest · internship · 2d</description>
     </item>
     <item>
       <title>Adobe — 2027 Intern- Software Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Yerevan/XMLNAME-2027-Intern--Software-Engineer_R173019</link>
       <guid isPermaLink="false">7340c3a4fed47b24</guid>
-      <description>Yerevan · internship · 1d</description>
+      <description>Yerevan · internship · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Compiler Software Engineering Intern - Summer 2027</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607</link>
       <guid isPermaLink="false">11bd923bdfdd5301</guid>
-      <description>US, WA, Redmond · internship · 1d</description>
+      <description>US, WA, Redmond · internship · 2d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Ashburn</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF089878W-1</link>
       <guid isPermaLink="false">eff107673fb26e70</guid>
-      <description>US - Ashburn, VA · internship · 4d</description>
+      <description>US - Ashburn, VA · internship · 5d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Austin, TX - 2027</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W-1</link>
       <guid isPermaLink="false">cd3cccf711a82a2e</guid>
-      <description>US - Austin, TX · internship · 4d</description>
+      <description>US - Austin, TX · internship · 5d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Bellevue</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-2</link>
       <guid isPermaLink="false">33682e61633324d7</guid>
-      <description>US - Bellevue, WA · internship · 4d</description>
+      <description>US - Bellevue, WA · internship · 5d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Foster City</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1</link>
       <guid isPermaLink="false">b9a2656bf8d85fb4</guid>
-      <description>US - Foster City, CA · internship · 4d</description>
+      <description>US - Foster City, CA · internship · 5d</description>
     </item>
     <item>
       <title>Visa — 2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1</link>
       <guid isPermaLink="false">51b7dd37bdf0251f</guid>
-      <description>US - Denver, CO · internship · 4d</description>
+      <description>US - Denver, CO · internship · 5d</description>
     </item>
     <item>
       <title>Visa — Software Engineer, Intern - 2027 Ashburn, VA</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF089879W-1</link>
       <guid isPermaLink="false">3448037b7a1b3943</guid>
-      <description>US - Ashburn, VA · internship · 4d</description>
+      <description>US - Ashburn, VA · internship · 5d</description>
     </item>
     <item>
       <title>Visa — Software Engineer, Intern - 2027 Austin, TX</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W-1</link>
       <guid isPermaLink="false">3b2879d79df0c0ac</guid>
-      <description>US - Austin, TX · internship · 4d</description>
+      <description>US - Austin, TX · internship · 5d</description>
     </item>
     <item>
       <title>Visa — Software Engineer, Intern - Foster City 2027</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF089875W-1</link>
       <guid isPermaLink="false">b596569798b7d9e3</guid>
-      <description>US - Foster City, CA · internship · 4d</description>
+      <description>US - Foster City, CA · internship · 5d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545</link>
       <guid isPermaLink="false">b542d77ddb4b6b73</guid>
-      <description>UK - London · internship · 16d</description>
+      <description>UK - London · internship · 17d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551</link>
       <guid isPermaLink="false">c50e91a1c499811b</guid>
-      <description>UK - London · internship · 16d</description>
+      <description>UK - London · internship · 17d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer Intern (Canada)</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Software-Development-Engineer-Intern_JR-0110807</link>
       <guid isPermaLink="false">c62ffa3ab9507bae</guid>
-      <description>Canada, BC, Vancouver · internship · 18d</description>
+      <description>Canada, BC, Vancouver · internship · 19d</description>
     </item>
     <item>
       <title>Workday — Software Development Engineer Intern</title>
       <link>https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810</link>
       <guid isPermaLink="false">312b4f789cc29cd2</guid>
-      <description>USA, CA, Pleasanton · internship · 22d</description>
+      <description>USA, CA, Pleasanton · internship · 23d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineering Intern - 2027 - Austin, San Jose, Seattle</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Mobile-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110306</link>
       <guid isPermaLink="false">917bf149012cbcb1</guid>
-      <description>Austin Domain 11 - HomeAway +2 more · internship · 26d</description>
+      <description>Austin Domain 11 - HomeAway +2 more · internship · 27d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineering Intern - 2027 - Austin, San Jose, Seattle</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311</link>
       <guid isPermaLink="false">f2d707cbfbc6f4aa</guid>
-      <description>Washington - Seattle Campus +2 more · internship · 26d</description>
+      <description>Washington - Seattle Campus +2 more · internship · 27d</description>
     </item>
   </channel>
 </rss>
