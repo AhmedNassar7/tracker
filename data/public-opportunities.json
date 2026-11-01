@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T19:38:59Z",
-  "total": 3644,
+  "generated_at": "2026-11-01T23:34:22Z",
+  "total": 3640,
   "jobs": [
     {
       "id": "5950726e44ce6fc3",
@@ -3416,6 +3416,21 @@
       "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
     },
     {
+      "id": "ef5753d0f17628fb",
+      "kind": "job",
+      "company": "Samsung",
+      "title": "Director, Senior Legal Counsel - Mobile Commercial Contracts",
+      "location": "6625 Excellence Way, Plano, TX, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "mobile",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Director--Senior-Legal-Counsel---Mobile-Commercial-Contracts_R119521",
+      "source": "workday:sec",
+      "source_url": "https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs"
+    },
+    {
       "id": "cce2b51cd90903a0",
       "kind": "job",
       "company": "Schneider Electric",
@@ -3491,6 +3506,29 @@
       "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer_JR-IC-000063",
       "source": "workday:workday",
       "source_url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs"
+    },
+    {
+      "id": "9131f20b1d4dd3f3",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Sr. Staff Backend Engineer",
+      "location": "Seattle, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "1d",
+      "posted_at": "2026-10-31",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8275829",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Spring",
+        "AWS",
+        "Elasticsearch",
+        "Kafka"
+      ],
+      "min_years_experience": 5
     },
     {
       "id": "4a41890bb71f014b",
@@ -8975,6 +9013,59 @@
       "min_years_experience": 12
     },
     {
+      "id": "2fe478ff8cc06e45",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Staff Back-end Engineer",
+      "location": "Hyderabad",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "2d",
+      "posted_at": "2026-10-30",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892757",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "AWS"
+      ],
+      "min_years_experience": 10
+    },
+    {
+      "id": "005ee910d4a3f060",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Staff Back-end Engineer",
+      "location": "Seattle, USA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "2d",
+      "posted_at": "2026-10-30",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8204944",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "Go",
+        "Rust",
+        "C++",
+        "GraphQL",
+        "gRPC",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Azure",
+        "PostgreSQL",
+        "MySQL",
+        "Redis",
+        "Kafka"
+      ]
+    },
+    {
       "id": "b09f34f6077eca0a",
       "kind": "job",
       "company": "Coupang",
@@ -9015,59 +9106,6 @@
         "AWS"
       ],
       "min_years_experience": 8
-    },
-    {
-      "id": "005ee910d4a3f060",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Back-end Engineer",
-      "location": "Seattle, USA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "2d",
-      "posted_at": "2026-10-30",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8204944",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "Go",
-        "Rust",
-        "C++",
-        "GraphQL",
-        "gRPC",
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Azure",
-        "PostgreSQL",
-        "MySQL",
-        "Redis",
-        "Kafka"
-      ]
-    },
-    {
-      "id": "2fe478ff8cc06e45",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Back-end Engineer",
-      "location": "Hyderabad",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "2d",
-      "posted_at": "2026-10-30",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7892757",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "AWS"
-      ],
-      "min_years_experience": 10
     },
     {
       "id": "1dec286f162f86c6",
@@ -9148,27 +9186,6 @@
       ]
     },
     {
-      "id": "5632b163cbe0555f",
-      "kind": "job",
-      "company": "Coupang",
-      "title": "Staff Backend Engineer",
-      "location": "Bengaluru",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "2d",
-      "posted_at": "2026-10-30",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8129527",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "gRPC",
-        "Kafka"
-      ],
-      "min_years_experience": 8
-    },
-    {
       "id": "9e94f52205a3dcf4",
       "kind": "job",
       "company": "Coupang",
@@ -9212,6 +9229,27 @@
         "Elasticsearch",
         "Kafka"
       ]
+    },
+    {
+      "id": "5632b163cbe0555f",
+      "kind": "job",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer",
+      "location": "Bengaluru",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "2d",
+      "posted_at": "2026-10-30",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8129527",
+      "source": "greenhouse:coupang",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "gRPC",
+        "Kafka"
+      ],
+      "min_years_experience": 8
     },
     {
       "id": "8d720689ef13560c",
@@ -9353,7 +9391,7 @@
       "min_years_experience": 7
     },
     {
-      "id": "bed7339085f37ef3",
+      "id": "b4a556b039e3e19c",
       "kind": "job",
       "company": "Coupang",
       "title": "Staff, Back-end Engineer (Advertiser Platform)",
@@ -9363,7 +9401,7 @@
       "role_type": "backend",
       "date": "2d",
       "posted_at": "2026-10-30",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7902369",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8175959",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "tech_tags": [
@@ -9383,7 +9421,7 @@
       ]
     },
     {
-      "id": "b4a556b039e3e19c",
+      "id": "bed7339085f37ef3",
       "kind": "job",
       "company": "Coupang",
       "title": "Staff, Back-end Engineer (Advertiser Platform)",
@@ -9393,7 +9431,7 @@
       "role_type": "backend",
       "date": "2d",
       "posted_at": "2026-10-30",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8175959",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7902369",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "tech_tags": [
@@ -14172,39 +14210,6 @@
       }
     },
     {
-      "id": "c08883e623d61862",
-      "kind": "job",
-      "company": "Sonyinteractiveentertainmentglobal",
-      "title": "Senior Software Engineer",
-      "location": "United States, San Mateo, CA",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-30",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6226474004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Node.js",
-        "TypeScript",
-        "JavaScript",
-        "Python",
-        "Java",
-        "Terraform",
-        "AWS",
-        "SQL"
-      ],
-      "degree_required": false,
-      "salary": {
-        "min": 193300,
-        "max": 289900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "b1fad2eb38ef47de",
       "kind": "job",
       "company": "Sonyinteractiveentertainmentglobal",
@@ -14253,6 +14258,39 @@
       ],
       "degree_required": false,
       "min_years_experience": 5,
+      "salary": {
+        "min": 193300,
+        "max": 289900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "c08883e623d61862",
+      "kind": "job",
+      "company": "Sonyinteractiveentertainmentglobal",
+      "title": "Senior Software Engineer",
+      "location": "United States, San Mateo, CA",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-30",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6226474004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Terraform",
+        "AWS",
+        "SQL"
+      ],
+      "degree_required": false,
       "salary": {
         "min": 193300,
         "max": 289900,
@@ -14616,29 +14654,6 @@
       }
     },
     {
-      "id": "ddef987979ac0e9a",
-      "kind": "job",
-      "company": "Sonyinteractiveentertainmentglobal",
-      "title": "Software Development Engineer in Test II",
-      "location": "United States, San Mateo, CA",
-      "level": "other",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-30",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6206005004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
-      "tech_tags": [
-        "React Native",
-        "React",
-        "Angular",
-        "Node.js",
-        "Python"
-      ],
-      "min_years_experience": 3
-    },
-    {
       "id": "1a3899e6bfe0bbc3",
       "kind": "job",
       "company": "Sonyinteractiveentertainmentglobal",
@@ -14666,6 +14681,29 @@
         "currency": "USD",
         "period": "hour"
       }
+    },
+    {
+      "id": "ddef987979ac0e9a",
+      "kind": "job",
+      "company": "Sonyinteractiveentertainmentglobal",
+      "title": "Software Development Engineer in Test II",
+      "location": "United States, San Mateo, CA",
+      "level": "other",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-30",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6206005004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
+      "tech_tags": [
+        "React Native",
+        "React",
+        "Angular",
+        "Node.js",
+        "Python"
+      ],
+      "min_years_experience": 3
     },
     {
       "id": "03aee1305e332f13",
@@ -14969,38 +15007,6 @@
       "min_years_experience": 5
     },
     {
-      "id": "3eee3b5a884421b2",
-      "kind": "job",
-      "company": "Sonyinteractiveentertainmentglobal",
-      "title": "Sr. Software Development Engineer in Test, AI/ML",
-      "location": "United States, Madison, WI",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-10-30",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6009124004",
-      "source": "greenhouse:sonyinteractiveentertainmentglobal",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Node.js",
-        "Python",
-        "Java",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 152500,
-        "max": 228700,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "65a8d250039a9f9e",
       "kind": "job",
       "company": "Sonyinteractiveentertainmentglobal",
@@ -15028,6 +15034,38 @@
       "salary": {
         "min": 114900,
         "max": 172300,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "3eee3b5a884421b2",
+      "kind": "job",
+      "company": "Sonyinteractiveentertainmentglobal",
+      "title": "Sr. Software Development Engineer in Test, AI/ML",
+      "location": "United States, Madison, WI",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-10-30",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6009124004",
+      "source": "greenhouse:sonyinteractiveentertainmentglobal",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Node.js",
+        "Python",
+        "Java",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 152500,
+        "max": 228700,
         "currency": "USD",
         "period": "year"
       }
@@ -15161,17 +15199,17 @@
       }
     },
     {
-      "id": "b194894ecd62f9cc",
+      "id": "bcab495a8bda256a",
       "kind": "job",
       "company": "Sonyinteractiveentertainmentglobal",
       "title": "Staff Software Engineer – Data",
-      "location": "United States, Remote",
+      "location": "United States, San Diego, CA",
       "level": "mid_level",
-      "region": "remote",
+      "region": "north_america",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-30",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6225845004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6141163004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
       "tech_tags": [
@@ -15191,17 +15229,17 @@
       }
     },
     {
-      "id": "bcab495a8bda256a",
+      "id": "b194894ecd62f9cc",
       "kind": "job",
       "company": "Sonyinteractiveentertainmentglobal",
       "title": "Staff Software Engineer – Data",
-      "location": "United States, San Diego, CA",
+      "location": "United States, Remote",
       "level": "mid_level",
-      "region": "north_america",
+      "region": "remote",
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-10-30",
-      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6141163004",
+      "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6225845004",
       "source": "greenhouse:sonyinteractiveentertainmentglobal",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
       "tech_tags": [
@@ -27828,19 +27866,28 @@
       }
     },
     {
-      "id": "0a8e8cddbc843bbb",
+      "id": "c2240f679c219b7f",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer",
-      "location": "Taiwan",
+      "location": "Seattle, WA",
       "level": "other",
-      "region": "apac",
+      "region": "north_america",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8318509",
+      "url": "https://stripe.com/jobs/search?gh_jid=8267736",
       "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Ruby",
+        "Terraform",
+        "AWS"
+      ],
+      "degree_required": true,
+      "min_years_experience": 1
     },
     {
       "id": "a28a4a5912491f2e",
@@ -27871,28 +27918,19 @@
       }
     },
     {
-      "id": "c2240f679c219b7f",
+      "id": "0a8e8cddbc843bbb",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer",
-      "location": "Seattle, WA",
+      "location": "Taiwan",
       "level": "other",
-      "region": "north_america",
+      "region": "apac",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8267736",
+      "url": "https://stripe.com/jobs/search?gh_jid=8318509",
       "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Ruby",
-        "Terraform",
-        "AWS"
-      ],
-      "degree_required": true,
-      "min_years_experience": 1
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true"
     },
     {
       "id": "16463f1f3d8b34c8",
@@ -28033,28 +28071,6 @@
       "min_years_experience": 8
     },
     {
-      "id": "89a30e6770df7c84",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer, Early Career — Immediate Start",
-      "location": "San Francisco, Seattle, New York",
-      "level": "new_grad",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8212508",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ]
-    },
-    {
       "id": "b7486ef9d6bfaec7",
       "kind": "job",
       "company": "Stripe",
@@ -28066,6 +28082,28 @@
       "date": "3d",
       "posted_at": "2026-10-29",
       "url": "https://stripe.com/jobs/search?gh_jid=8212517",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ]
+    },
+    {
+      "id": "89a30e6770df7c84",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer, Early Career — Immediate Start",
+      "location": "San Francisco, Seattle, New York",
+      "level": "new_grad",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "2026-10-29",
+      "url": "https://stripe.com/jobs/search?gh_jid=8212508",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -28161,17 +28199,17 @@
       }
     },
     {
-      "id": "342b3f9493acb89a",
+      "id": "123c0cae7b46bde0",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, Intern",
-      "location": "Singapore",
+      "location": "Bengaluru",
       "level": "internship",
       "region": "apac",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130883",
+      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -28184,17 +28222,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "123c0cae7b46bde0",
+      "id": "342b3f9493acb89a",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, Intern",
-      "location": "Bengaluru",
+      "location": "Singapore",
       "level": "internship",
       "region": "apac",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130883",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -28276,17 +28314,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "bbe14083e01b613a",
+      "id": "c605f6dad3d2889c",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, Intern (Summer or Winter)",
-      "location": "San Francisco, Seattle, New York City",
+      "location": "Dublin",
       "level": "internship",
-      "region": "north_america",
+      "region": "europe",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8128745",
+      "url": "https://stripe.com/jobs/search?gh_jid=8097801",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -28299,17 +28337,17 @@
       "min_years_experience": 1
     },
     {
-      "id": "c605f6dad3d2889c",
+      "id": "bbe14083e01b613a",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, Intern (Summer or Winter)",
-      "location": "Dublin",
+      "location": "San Francisco, Seattle, New York City",
       "level": "internship",
-      "region": "europe",
+      "region": "north_america",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8097801",
+      "url": "https://stripe.com/jobs/search?gh_jid=8128745",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -28379,28 +28417,6 @@
       "min_years_experience": 12
     },
     {
-      "id": "ceb9ea1fb24b1574",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "location": "San Francisco, Seattle, New York",
-      "level": "new_grad",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8128744",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ]
-    },
-    {
       "id": "b836bebf63487343",
       "kind": "job",
       "company": "Stripe",
@@ -28423,39 +28439,17 @@
       ]
     },
     {
-      "id": "334395993d3f3a1a",
+      "id": "ceb9ea1fb24b1574",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, New Grad",
-      "location": "Singapore",
+      "location": "San Francisco, Seattle, New York",
       "level": "new_grad",
-      "region": "apac",
+      "region": "north_america",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8160776",
-      "source": "greenhouse:stripe",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Java",
-        "Go",
-        "Ruby",
-        "Scala"
-      ]
-    },
-    {
-      "id": "c543a8c9860ed243",
-      "kind": "job",
-      "company": "Stripe",
-      "title": "Software Engineer, New Grad",
-      "location": "Bucharest",
-      "level": "new_grad",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "3d",
-      "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8130922",
+      "url": "https://stripe.com/jobs/search?gh_jid=8128744",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -28489,6 +28483,50 @@
       ]
     },
     {
+      "id": "485c7a19842acde7",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "location": "Toronto",
+      "level": "new_grad",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "2026-10-29",
+      "url": "https://stripe.com/jobs/search?gh_jid=8157838",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ]
+    },
+    {
+      "id": "c543a8c9860ed243",
+      "kind": "job",
+      "company": "Stripe",
+      "title": "Software Engineer, New Grad",
+      "location": "Bucharest",
+      "level": "new_grad",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "3d",
+      "posted_at": "2026-10-29",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130922",
+      "source": "greenhouse:stripe",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "Scala"
+      ]
+    },
+    {
       "id": "377bfdcb9220a340",
       "kind": "job",
       "company": "Stripe",
@@ -28511,17 +28549,17 @@
       ]
     },
     {
-      "id": "485c7a19842acde7",
+      "id": "334395993d3f3a1a",
       "kind": "job",
       "company": "Stripe",
       "title": "Software Engineer, New Grad",
-      "location": "Toronto",
+      "location": "Singapore",
       "level": "new_grad",
-      "region": "north_america",
+      "region": "apac",
       "role_type": "software_engineer",
       "date": "3d",
       "posted_at": "2026-10-29",
-      "url": "https://stripe.com/jobs/search?gh_jid=8157838",
+      "url": "https://stripe.com/jobs/search?gh_jid=8160776",
       "source": "greenhouse:stripe",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "tech_tags": [
@@ -39076,26 +39114,6 @@
       }
     },
     {
-      "id": "9c3bf7f69655e6ef",
-      "kind": "job",
-      "company": "Elevenlabs",
-      "title": "Site Reliability Engineer",
-      "location": "London",
-      "level": "other",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "11d",
-      "posted_at": "2026-10-21",
-      "url": "https://jobs.ashbyhq.com/elevenlabs/2a99d0a0-adae-41b5-a7ef-f1d3faee60a7",
-      "source": "ashby:elevenlabs",
-      "source_url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
-      "tech_tags": [
-        "Kubernetes",
-        "AWS",
-        "GCP"
-      ]
-    },
-    {
       "id": "af452b6bd8142a4d",
       "kind": "job",
       "company": "Gocardless",
@@ -45931,28 +45949,6 @@
       ]
     },
     {
-      "id": "2ffb282b047fb45a",
-      "kind": "job",
-      "company": "Elevenlabs",
-      "title": "Infrastructure Engineer",
-      "location": "London",
-      "level": "other",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "23d",
-      "posted_at": "2026-10-09",
-      "url": "https://jobs.ashbyhq.com/elevenlabs/31a6f0f4-8e1d-4d77-9d00-026ed12213f2",
-      "source": "ashby:elevenlabs",
-      "source_url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Kubernetes",
-        "Terraform",
-        "GCP"
-      ]
-    },
-    {
       "id": "773b65ef5fadb11c",
       "kind": "job",
       "company": "Getyourguide",
@@ -45997,35 +45993,6 @@
       }
     },
     {
-      "id": "b325baf67fa2d5a8",
-      "kind": "job",
-      "company": "Instacart",
-      "title": "Senior Software Engineer II, Ads Data Solutions Engineering",
-      "location": "United States - Remote",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "23d",
-      "posted_at": "2026-10-09",
-      "url": "https://instacart.careers/job/?gh_jid=8246054",
-      "source": "greenhouse:instacart",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/instacart/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Go",
-        "Ruby",
-        "gRPC",
-        "AWS",
-        "SQL"
-      ],
-      "salary": {
-        "min": 230000,
-        "max": 242500,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "9a2262e959bce677",
       "kind": "job",
       "company": "Instacart",
@@ -46050,6 +46017,35 @@
       "salary": {
         "min": 196000,
         "max": 207000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "b325baf67fa2d5a8",
+      "kind": "job",
+      "company": "Instacart",
+      "title": "Senior Software Engineer II, Ads Data Solutions Engineering",
+      "location": "United States - Remote",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "23d",
+      "posted_at": "2026-10-09",
+      "url": "https://instacart.careers/job/?gh_jid=8246054",
+      "source": "greenhouse:instacart",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/instacart/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Go",
+        "Ruby",
+        "gRPC",
+        "AWS",
+        "SQL"
+      ],
+      "salary": {
+        "min": 230000,
+        "max": 242500,
         "currency": "USD",
         "period": "year"
       }
@@ -47470,17 +47466,17 @@
       ]
     },
     {
-      "id": "f294a5abe28d09c8",
+      "id": "9813148fc092fe7c",
       "kind": "job",
       "company": "Coupang",
       "title": "Senior Staff Backend Engineer - Cloud Infrastructure",
-      "location": "Mountain View, USA",
+      "location": "Seattle, USA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "backend",
       "date": "26d",
       "posted_at": "2026-10-06",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7962133",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7438944",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "tech_tags": [
@@ -47496,17 +47492,17 @@
       "min_years_experience": 7
     },
     {
-      "id": "9813148fc092fe7c",
+      "id": "f294a5abe28d09c8",
       "kind": "job",
       "company": "Coupang",
       "title": "Senior Staff Backend Engineer - Cloud Infrastructure",
-      "location": "Seattle, USA",
+      "location": "Mountain View, USA",
       "level": "mid_level",
       "region": "north_america",
       "role_type": "backend",
       "date": "26d",
       "posted_at": "2026-10-06",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7438944",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7962133",
       "source": "greenhouse:coupang",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
       "tech_tags": [
@@ -77143,50 +77139,26 @@
   ],
   "hackathons": [
     {
-      "id": "03943543974f740e",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hack On Hills 8.0",
-      "location": "Hamirpur, India",
-      "date": "last day",
-      "posted_at": "2026-11-01",
-      "url": "https://hackonhills8.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "2a81d7cd68ddd7b3",
-      "kind": "hackathon",
-      "company": "Agentic Day (co-hosted with Mel)",
-      "title": "Global AI Hackathon - Devcon 2026 By Mel",
-      "location": "Online",
-      "date": "about 2 hours left",
-      "posted_at": "2026-11-01",
-      "url": "https://trick-or-build.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "96a874f8b39b0a0b",
-      "kind": "hackathon",
-      "company": "larphacks",
-      "title": "LarpHacks",
-      "location": "Toronto",
-      "date": "about 5 hours left",
-      "posted_at": "2026-11-01",
-      "url": "https://larphacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "1f10aa4e0cbea169",
       "kind": "hackathon",
       "company": "Perfect Corp",
       "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
       "location": "Online",
-      "date": "about 21 hours left",
+      "date": "about 17 hours left",
       "posted_at": "2026-11-01",
       "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "7ac9f6a87df99456",
+      "kind": "hackathon",
+      "company": "Twitch",
+      "title": "Codex x TwitchCon Hackathon",
+      "location": "Online",
+      "date": "about 22 hours left",
+      "posted_at": "2026-11-01",
+      "url": "https://twitchcon-codex.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77203,14 +77175,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "7ac9f6a87df99456",
+      "id": "fb46f04d9a0d1fc9",
       "kind": "hackathon",
-      "company": "Twitch",
-      "title": "Codex x TwitchCon Hackathon",
-      "location": "Online",
-      "date": "1 day left",
+      "company": "Farmer School of Business, Miami Univers",
+      "title": "FSB AI Build-a-thon Event 02",
+      "location": "Farmer School of Business",
+      "date": "2 days left",
       "posted_at": "2026-11-01",
-      "url": "https://twitchcon-codex.devpost.com/",
+      "url": "https://fsb-ai-buildathon-02.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77347,6 +77319,18 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
+      "id": "58ef72e67a139884",
+      "kind": "hackathon",
+      "company": "Miami",
+      "title": "Redhawk Builds 2026",
+      "location": "McVey Data Science Building",
+      "date": "7 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://redhawk-builds-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "dbbb32e7cbd92a38",
       "kind": "hackathon",
       "company": "Devpost",
@@ -77467,6 +77451,18 @@
       "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
+      "id": "18aa3cae6f42976d",
+      "kind": "hackathon",
+      "company": "International Institute of Information Technology (IIIT), Naya Raipur",
+      "title": "Hack-a-Sol 5.0",
+      "location": "Offline",
+      "date": "13 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://unstop.com/hackathons/hack-a-sol-50-international-institute-of-information-technology-iiit-naya-raipur-1786809",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
       "id": "fef16e5e30b14185",
       "kind": "hackathon",
       "company": "mcgill university",
@@ -77479,6 +77475,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "2974c38aaa981b66",
+      "kind": "hackathon",
+      "company": "STEMise",
+      "title": "DSH Hacks V2 ($100k+ in prizes!)",
+      "location": "Online",
+      "date": "13 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://dsh-hacks-v2.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "be0f48b28834e705",
       "kind": "hackathon",
       "company": "TrishulX",
@@ -77487,18 +77495,6 @@
       "date": "13 days left",
       "posted_at": "2026-11-01",
       "url": "https://unstop.com/hackathons/hackday-trishulx-1784666",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "18aa3cae6f42976d",
-      "kind": "hackathon",
-      "company": "International Institute of Information Technology (IIIT), Naya Raipur",
-      "title": "Hack-a-Sol 5.0",
-      "location": "Offline",
-      "date": "14 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://unstop.com/hackathons/hack-a-sol-50-international-institute-of-information-technology-iiit-naya-raipur-1786809",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
     },
@@ -77527,14 +77523,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "2974c38aaa981b66",
+      "id": "889fd7cdf08624f6",
       "kind": "hackathon",
-      "company": "STEMise",
-      "title": "DSH Hacks V2 ($100k+ in prizes!)",
+      "company": "UGREEN",
+      "title": "UGREEN Hackathon 2026 on AI NAS",
       "location": "Online",
       "date": "14 days left",
       "posted_at": "2026-11-01",
-      "url": "https://dsh-hacks-v2.devpost.com/",
+      "url": "https://ugreenhackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77549,18 +77545,6 @@
       "url": "https://unstop.com/hackathons/project-lastmile-analytics-case-challenge-xavier-school-of-management-xlri-1789982",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "889fd7cdf08624f6",
-      "kind": "hackathon",
-      "company": "UGREEN",
-      "title": "UGREEN Hackathon 2026 on AI NAS",
-      "location": "Online",
-      "date": "15 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://ugreenhackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "c4d41b39d589cdf3",
@@ -77707,6 +77691,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "64fd0a700ba09b64",
+      "kind": "hackathon",
+      "company": "ITESO",
+      "title": "Hackathon Agéntico SoftwareChido 2026B",
+      "location": "Online",
+      "date": "23 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://hackathon-agentico-2026b.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "6f5e93e93cc4f05d",
       "kind": "hackathon",
       "company": "Aditya University",
@@ -77727,18 +77723,6 @@
       "date": "24 days left",
       "posted_at": "2026-11-01",
       "url": "https://code-for-dfw.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "64fd0a700ba09b64",
-      "kind": "hackathon",
-      "company": "ITESO",
-      "title": "Hackathon Agéntico SoftwareChido 2026B",
-      "location": "Online",
-      "date": "25 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://hackathon-agentico-2026b.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77803,6 +77787,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "686eee2df1c4c512",
+      "kind": "hackathon",
+      "company": "GOOGLE DEVELOPER GROUP AT FIU",
+      "title": "305 Veterans Hackathon Edition November 2026 — 305Hackathons.vercel.app",
+      "location": "Online",
+      "date": "29 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://305veteransnov2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "be9895adde2c2bb6",
       "kind": "hackathon",
       "company": "The Webb Schools CSC",
@@ -77811,18 +77807,6 @@
       "date": "29 days left",
       "posted_at": "2026-11-01",
       "url": "https://csc-winter-sparkathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "686eee2df1c4c512",
-      "kind": "hackathon",
-      "company": "GOOGLE DEVELOPER GROUP AT FIU",
-      "title": "305 Veterans Hackathon Edition November 2026 — 305Hackathons.vercel.app",
-      "location": "Online",
-      "date": "30 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://305veteransnov2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -78149,18 +78133,6 @@
       "url": "https://eclipse.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "f97ce159a3dbb8d7",
-      "kind": "hackathon",
-      "company": "Lovhack",
-      "title": "TRMI X Lovhack : Multiplayer Everything Hackathon",
-      "location": "Online",
-      "date": "22 minutes left",
-      "posted_at": "2026-11-01",
-      "url": "https://lovhack-trmi-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
@@ -80457,18 +80429,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "d307b71de4686f34",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-11-01",
-      "url": "/DC2?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -80477,18 +80437,6 @@
       "date": "",
       "posted_at": "2026-11-01",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d0a49f1be49b91d7",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-11-01",
-      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }

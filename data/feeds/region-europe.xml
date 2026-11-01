@@ -4,7 +4,7 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Sun, 01 Nov 2026 19:42:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 23:36:48 GMT</lastBuildDate>
     <item>
       <title>Sumup — Senior Software Engineer (Golang) - Card Acquiring</title>
       <link>https://sumup.com/careers/positions/8926303002?gh_jid=8926303002</link>
@@ -532,16 +532,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 3d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 3d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 3d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 3d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1483,13 +1483,6 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Elevenlabs — Site Reliability Engineer</title>
-      <link>https://jobs.ashbyhq.com/elevenlabs/2a99d0a0-adae-41b5-a7ef-f1d3faee60a7</link>
-      <guid isPermaLink="false">9c3bf7f69655e6ef</guid>
-      <description>London · other · 11d</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Gocardless — Site Reliability Engineer II</title>
       <link>https://job-boards.greenhouse.io/gocardless/jobs/7996584</link>
       <guid isPermaLink="false">af452b6bd8142a4d</guid>
@@ -2089,13 +2082,6 @@
       <link>https://jobs.elastic.co/jobs?gh_jid=8245819&amp;gh_jid=8245819</link>
       <guid isPermaLink="false">c3d212e939726330</guid>
       <description>Greece · mid_level · 23d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elevenlabs — Infrastructure Engineer</title>
-      <link>https://jobs.ashbyhq.com/elevenlabs/31a6f0f4-8e1d-4d77-9d00-026ed12213f2</link>
-      <guid isPermaLink="false">2ffb282b047fb45a</guid>
-      <description>London · other · 23d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3877,6 +3863,13 @@
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer - Security Automation, AWS Security Epoxy</title>
+      <link>https://www.amazon.jobs/en/jobs/10503864/software-development-engineer-security-automation-aws-security-epoxy</link>
+      <guid isPermaLink="false">087b421211cbb242</guid>
+      <description>London, England, GBR · unknown · 76d</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI — Software Engineer, Model Deployment- ChatGPT Engineering</title>
       <link>https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b</link>
       <guid isPermaLink="false">600f228738dda3d3</guid>
@@ -4160,6 +4153,13 @@
       <title>Amazon — Software Development Engineer (open-source)</title>
       <link>https://www.amazon.jobs/en/jobs/10442033/software-development-engineer-open-source</link>
       <guid isPermaLink="false">71cf7f5e84e32760</guid>
+      <description>Dublin, IRL · unknown · 146d</description>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer - Lambda, AWS Lambda Control Plane</title>
+      <link>https://www.amazon.jobs/en/jobs/10442119/software-development-engineer-lambda-aws-lambda-control-plane</link>
+      <guid isPermaLink="false">b0cd9fa654272ddb</guid>
       <description>Dublin, IRL · unknown · 146d</description>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
     </item>

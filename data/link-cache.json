@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T19:38:59Z",
+ "generated_at": "2026-11-01T23:34:22Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -6092,6 +6092,10 @@
   "https://fosdem.org/2027/": {
    "alive": true,
    "at": "2026-11-01T19:38:59Z"
+  },
+  "https://fsb-ai-buildathon-02.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-01T23:34:22Z"
   },
   "https://fun-ocaml.com": {
    "alive": true,
@@ -15749,6 +15753,10 @@
    "alive": true,
    "at": "2026-11-01T19:38:59Z"
   },
+  "https://redhawk-builds-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-01T23:34:22Z"
+  },
   "https://remote-control-ai.devpost.com/": {
    "alive": true,
    "at": "2026-11-01T19:38:59Z"
@@ -16148,6 +16156,10 @@
   "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Engineer-II--Machine-Learning-Software_R120631": {
    "alive": true,
    "at": "2026-11-01T19:38:20Z"
+  },
+  "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Director--Senior-Legal-Counsel---Mobile-Commercial-Contracts_R119521": {
+   "alive": true,
+   "at": "2026-11-01T23:34:22Z"
   },
   "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Empire-Tower-Bangkok-Thailand/Manager--MX-Master-Trainer_R120791": {
    "alive": true,
@@ -17963,7 +17975,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10414316/software-development-engineer-aws-data-services-2026-us": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10414336/software-development-engineer-aws-connect-markov": {
    "alive": true,
@@ -17999,7 +18011,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10419792/software-development-engineer-shopping-personalization-ai-amazon-stores": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10421261/robotics-software-development-engineer": {
    "alive": true,
@@ -18191,7 +18203,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10442119/software-development-engineer-lambda-aws-lambda-control-plane": {
    "alive": true,
-   "at": "2026-10-31T12:24:21Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10442581/software-development-engineer-amazon-timestream": {
    "alive": true,
@@ -18595,7 +18607,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10488199/software-development-engineer-ii-amazon-cross-border-tech": {
    "alive": true,
-   "at": "2026-10-31T12:24:21Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10488415/software-development-engineer-fsx-for-lustre": {
    "alive": true,
@@ -18935,7 +18947,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10503864/software-development-engineer-security-automation-aws-security-epoxy": {
    "alive": true,
-   "at": "2026-10-31T12:24:21Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10503911/software-development-engineer-aws-amazon-eks": {
    "alive": true,
@@ -19075,7 +19087,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10510860/software-development-engineer-sde-sdn-controller-amazon-leo": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10511509/software-development-engineer-ii-amazon-leo": {
    "alive": true,
@@ -19223,7 +19235,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10520555/software-development-engineer-unified-streaming-and-monitoring-service": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10522077/software-development-engineer-leo-commerce-leo-commerce": {
    "alive": true,
@@ -19787,7 +19799,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10554458/software-development-engineer-seller-and-am-genai-tools": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10554903/software-development-engineer-kiro": {
    "alive": true,
@@ -19991,7 +20003,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10558939/software-development-engineer-seller-and-am-genai-tools": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10559049/software-development-engineer-amazon-shopping-videos-ads": {
    "alive": true,
@@ -20523,7 +20535,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10572571/software-development-engineer-ii-amazon-leo-fulfillment-technology": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10572842/software-development-engineer-amazon-quick": {
    "alive": true,
@@ -20615,7 +20627,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10574622/software-development-engineer-ii-elastic-load-balancing-elb": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10574713/software-development-engineer-dynamodb-index-and-search": {
    "alive": true,
@@ -20635,7 +20647,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10574925/software-development-engineer-intern-amazon-university-talent-acquisition": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10574927/software-development-engineer-intern-amazon-university-talent-acquisition": {
    "alive": true,
@@ -21107,7 +21119,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10582786/software-development-engineer-ii-amazon-leo-fulfillment-technology": {
    "alive": true,
-   "at": "2026-10-31T17:42:23Z"
+   "at": "2026-11-01T23:34:01Z"
   },
   "https://www.amazon.jobs/en/jobs/10582830/software-development-engineer-open-source-runtimes": {
    "alive": true,
@@ -22772,6 +22784,10 @@
   "https://www.coupang.jobs/en/jobs/?gh_jid=8275812": {
    "alive": true,
    "at": "2026-11-01T19:38:59Z"
+  },
+  "https://www.coupang.jobs/en/jobs/?gh_jid=8275829": {
+   "alive": true,
+   "at": "2026-11-01T23:34:22Z"
   },
   "https://www.coupang.jobs/en/jobs/?gh_jid=8287908": {
    "alive": true,
