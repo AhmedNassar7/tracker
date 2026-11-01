@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T15:05:44Z",
-  "total": 3647,
+  "generated_at": "2026-11-01T19:38:59Z",
+  "total": 3644,
   "jobs": [
     {
       "id": "5950726e44ce6fc3",
@@ -3478,27 +3478,19 @@
       ]
     },
     {
-      "id": "9131f20b1d4dd3f3",
+      "id": "d1f72c57019d86f1",
       "kind": "job",
-      "company": "Coupang",
-      "title": "Sr. Staff Backend Engineer",
-      "location": "Seattle, USA",
+      "company": "Workday",
+      "title": "Sr. Software Development Engineer",
+      "location": "USA, CA, Pleasanton",
       "level": "mid_level",
       "region": "north_america",
-      "role_type": "backend",
-      "date": "1d",
-      "posted_at": "2026-10-31",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8275829",
-      "source": "greenhouse:coupang",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Spring",
-        "AWS",
-        "Elasticsearch",
-        "Kafka"
-      ],
-      "min_years_experience": 5
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer_JR-IC-000063",
+      "source": "workday:workday",
+      "source_url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs"
     },
     {
       "id": "4a41890bb71f014b",
@@ -11653,21 +11645,6 @@
       ],
       "degree_required": false,
       "min_years_experience": 3
-    },
-    {
-      "id": "11bd923bdfdd5301",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Compiler Software Engineering Intern - Summer 2027",
-      "location": "US, WA, Redmond",
-      "level": "internship",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
       "id": "3f8cedd60ca22720",
@@ -47902,31 +47879,6 @@
       }
     },
     {
-      "id": "105be2d3dfcc1298",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Sr. Staff Software Engineer — Observability, Insights & Governance",
-      "location": "Bellevue, Washington; Seattle, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "26d",
-      "posted_at": "2026-10-06",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "SQL"
-      ],
-      "degree_required": false,
-      "salary": {
-        "min": 217100,
-        "max": 298550,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "706161d42d11bf58",
       "kind": "job",
       "company": "Databricks",
@@ -47947,6 +47899,31 @@
       "salary": {
         "min": 228600,
         "max": 314250,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "105be2d3dfcc1298",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Sr. Staff Software Engineer — Observability, Insights & Governance",
+      "location": "Bellevue, Washington; Seattle, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "26d",
+      "posted_at": "2026-10-06",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "SQL"
+      ],
+      "degree_required": false,
+      "salary": {
+        "min": 217100,
+        "max": 298550,
         "currency": "USD",
         "period": "year"
       }
@@ -56394,38 +56371,6 @@
       }
     },
     {
-      "id": "ded4910a9d51e04a",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Backend",
-      "location": "Mountain View, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "Docker",
-        "AWS",
-        "GCP",
-        "Azure",
-        "SQL"
-      ],
-      "salary": {
-        "min": 166000,
-        "max": 225000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "7b4e0f43956fbe01",
       "kind": "job",
       "company": "Databricks",
@@ -56456,62 +56401,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "76e92a54692eda56",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Backend",
-      "location": "Bellevue, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "backend",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Go",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "GCP",
-        "Azure",
-        "SQL"
-      ],
-      "salary": {
-        "min": 157700,
-        "max": 213800,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "1bf877368f091a05",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Backend",
-      "location": "Amsterdam, Netherlands",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
     },
     {
       "id": "b988dd06ebf8702f",
@@ -56547,23 +56436,24 @@
       }
     },
     {
-      "id": "e1262f4b1afb16ec",
+      "id": "1bf877368f091a05",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Software Engineer - Backend",
-      "location": "Berlin, Germany",
+      "location": "Amsterdam, Netherlands",
       "level": "mid_level",
       "region": "europe",
       "role_type": "backend",
       "date": "41d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029671002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
         "Java",
         "C++",
         "Scala",
+        "Kubernetes",
         "AWS",
         "Azure",
         "SQL"
@@ -56591,6 +56481,112 @@
         "Azure",
         "SQL"
       ]
+    },
+    {
+      "id": "e1262f4b1afb16ec",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Backend",
+      "location": "Berlin, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
+    },
+    {
+      "id": "76e92a54692eda56",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Backend",
+      "location": "Bellevue, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779084002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Go",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SQL"
+      ],
+      "salary": {
+        "min": 157700,
+        "max": 213800,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "ded4910a9d51e04a",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Backend",
+      "location": "Mountain View, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "backend",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "SQL"
+      ],
+      "salary": {
+        "min": 166000,
+        "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "e7d2a03de44f6faa",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Database Engine Internals",
+      "location": "Belgrade, Serbia",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "software_engineer",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012809002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Spark"
+      ],
+      "min_years_experience": 5
     },
     {
       "id": "81794e09fa2922e5",
@@ -56638,25 +56634,6 @@
         "currency": "USD",
         "period": "year"
       }
-    },
-    {
-      "id": "e7d2a03de44f6faa",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Senior Software Engineer - Database Engine Internals",
-      "location": "Belgrade, Serbia",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012809002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Spark"
-      ],
-      "min_years_experience": 5
     },
     {
       "id": "72e912f039a6d6b9",
@@ -56774,7 +56751,7 @@
       "degree_required": false
     },
     {
-      "id": "68c8979bffb454a6",
+      "id": "2e094679bca63e8b",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Software Engineer - Fullstack",
@@ -56784,17 +56761,19 @@
       "role_type": "full_stack",
       "date": "41d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
         "React",
         "Vue.js",
         "Angular",
+        "Node.js",
         "JavaScript",
         "Python",
         "Java",
-        "Go",
+        "C++",
+        "C#",
         "Scala",
         "Kubernetes",
         "Docker",
@@ -56852,7 +56831,7 @@
       }
     },
     {
-      "id": "2e094679bca63e8b",
+      "id": "68c8979bffb454a6",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Software Engineer - Fullstack",
@@ -56862,19 +56841,17 @@
       "role_type": "full_stack",
       "date": "41d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5445641002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7898766002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "tech_tags": [
         "React",
         "Vue.js",
         "Angular",
-        "Node.js",
         "JavaScript",
         "Python",
         "Java",
-        "C++",
-        "C#",
+        "Go",
         "Scala",
         "Kubernetes",
         "Docker",
@@ -57089,17 +57066,17 @@
       }
     },
     {
-      "id": "893d8bdfdabf2b1c",
+      "id": "96334280637b268a",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Staff Software Engineer - Delta",
-      "location": "London, United Kingdom",
+      "location": "Zürich, Switzerland",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "41d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 15
@@ -57137,17 +57114,17 @@
       "min_years_experience": 15
     },
     {
-      "id": "96334280637b268a",
+      "id": "893d8bdfdabf2b1c",
       "kind": "job",
       "company": "Databricks",
       "title": "Senior Staff Software Engineer - Delta",
-      "location": "Zürich, Switzerland",
+      "location": "London, United Kingdom",
       "level": "mid_level",
       "region": "europe",
       "role_type": "software_engineer",
       "date": "41d",
       "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303017002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8303020002",
       "source": "greenhouse:databricks",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "min_years_experience": 15
@@ -57282,6 +57259,29 @@
       ]
     },
     {
+      "id": "08c6994d46264745",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Software Engineer - Backend",
+      "location": "Belgrade, Serbia",
+      "level": "other",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
+    },
+    {
       "id": "1ee773cbf2650d87",
       "kind": "job",
       "company": "Databricks",
@@ -57300,29 +57300,6 @@
         "C++",
         "Scala",
         "Kubernetes",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
-    },
-    {
-      "id": "08c6994d46264745",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Software Engineer - Backend",
-      "location": "Belgrade, Serbia",
-      "level": "other",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
         "AWS",
         "Azure",
         "SQL"
@@ -57495,34 +57472,6 @@
       }
     },
     {
-      "id": "c044f0292d42090e",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Sr Software Engineer-Networking",
-      "location": "Bellevue, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "C++",
-        "Scala"
-      ],
-      "min_years_experience": 4,
-      "salary": {
-        "min": 157000,
-        "max": 213800,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "33b528f6255cb962",
       "kind": "job",
       "company": "Databricks",
@@ -57546,6 +57495,34 @@
       "salary": {
         "min": 166000,
         "max": 225000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "c044f0292d42090e",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Sr Software Engineer-Networking",
+      "location": "Bellevue, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "C++",
+        "Scala"
+      ],
+      "min_years_experience": 4,
+      "salary": {
+        "min": 157000,
+        "max": 213800,
         "currency": "USD",
         "period": "year"
       }
@@ -57818,6 +57795,27 @@
       }
     },
     {
+      "id": "69bde1e52cc505e2",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Fullstack Engineer, Agentic Applications",
+      "location": "Mountain View, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "full_stack",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "salary": {
+        "min": 192000,
+        "max": 260000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
       "id": "f277a2bd22190cf1",
       "kind": "job",
       "company": "Databricks",
@@ -57836,27 +57834,6 @@
         "GraphQL"
       ],
       "min_years_experience": 2,
-      "salary": {
-        "min": 192000,
-        "max": 260000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "69bde1e52cc505e2",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Fullstack Engineer, Agentic Applications",
-      "location": "Mountain View, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "full_stack",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8220836002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "salary": {
         "min": 192000,
         "max": 260000,
@@ -58118,55 +58095,6 @@
       ]
     },
     {
-      "id": "fb40916992e1a363",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Amsterdam, Netherlands",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "Azure",
-        "SQL"
-      ]
-    },
-    {
-      "id": "f416496950d6f1ec",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Backend",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "backend",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "C++",
-        "Scala",
-        "Kubernetes",
-        "AWS",
-        "Azure",
-        "Spark"
-      ]
-    },
-    {
       "id": "f51c9989663a679f",
       "kind": "job",
       "company": "Databricks",
@@ -58202,6 +58130,31 @@
       }
     },
     {
+      "id": "f416496950d6f1ec",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "backend",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "Spark"
+      ]
+    },
+    {
       "id": "8dfe1193df322fd7",
       "kind": "job",
       "company": "Databricks",
@@ -58235,6 +58188,30 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "fb40916992e1a363",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Backend",
+      "location": "Amsterdam, Netherlands",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029674002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "SQL"
+      ]
     },
     {
       "id": "dad1876d57a8f252",
@@ -58410,37 +58387,6 @@
       "min_years_experience": 7
     },
     {
-      "id": "408b5364750c7afe",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - Distributed Data Systems",
-      "location": "San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C++",
-        "Scala",
-        "AWS",
-        "Azure",
-        "Spark",
-        "SQL"
-      ],
-      "degree_required": false,
-      "salary": {
-        "min": 192000,
-        "max": 260000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "f88ed55e40ffc257",
       "kind": "job",
       "company": "Databricks",
@@ -58520,6 +58466,37 @@
       "salary": {
         "min": 182400,
         "max": 247000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "408b5364750c7afe",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - Distributed Data Systems",
+      "location": "San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "C++",
+        "Scala",
+        "AWS",
+        "Azure",
+        "Spark",
+        "SQL"
+      ],
+      "degree_required": false,
+      "salary": {
+        "min": 192000,
+        "max": 260000,
         "currency": "USD",
         "period": "year"
       }
@@ -58616,31 +58593,6 @@
       }
     },
     {
-      "id": "898148f0d1b020df",
-      "kind": "job",
-      "company": "Databricks",
-      "title": "Staff Software Engineer - IAM",
-      "location": "Bellevue, Washington",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "41d",
-      "posted_at": "2026-09-21",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002",
-      "source": "greenhouse:databricks",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
-      "tech_tags": [
-        "Kubernetes"
-      ],
-      "min_years_experience": 7,
-      "salary": {
-        "min": 181300,
-        "max": 261000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "9ab4edc91423a494",
       "kind": "job",
       "company": "Databricks",
@@ -58661,6 +58613,31 @@
       "salary": {
         "min": 190900,
         "max": 274700,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "898148f0d1b020df",
+      "kind": "job",
+      "company": "Databricks",
+      "title": "Staff Software Engineer - IAM",
+      "location": "Bellevue, Washington",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "41d",
+      "posted_at": "2026-09-21",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002",
+      "source": "greenhouse:databricks",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes"
+      ],
+      "min_years_experience": 7,
+      "salary": {
+        "min": 181300,
+        "max": 261000,
         "currency": "USD",
         "period": "year"
       }
@@ -77178,50 +77155,26 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "d96b48862eb6e67e",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Surat Hack 2026",
-      "location": "Surat, India",
-      "date": "last day",
-      "posted_at": "2026-11-01",
-      "url": "https://surat-hack-2026.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "c9fec4799ff533e0",
-      "kind": "hackathon",
-      "company": "HIMATIFA UPN \"Veteran\" Jawa Timur",
-      "title": "INCEPTION 2026",
-      "location": "Online",
-      "date": "about 2 hours left",
-      "posted_at": "2026-11-01",
-      "url": "https://inception2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "f97ce159a3dbb8d7",
-      "kind": "hackathon",
-      "company": "Lovhack",
-      "title": "TRMI X Lovhack : Multiplayer Everything Hackathon",
-      "location": "Online",
-      "date": "about 5 hours left",
-      "posted_at": "2026-11-01",
-      "url": "https://lovhack-trmi-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "2a81d7cd68ddd7b3",
       "kind": "hackathon",
       "company": "Agentic Day (co-hosted with Mel)",
       "title": "Global AI Hackathon - Devcon 2026 By Mel",
       "location": "Online",
-      "date": "about 7 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-11-01",
       "url": "https://trick-or-build.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "96a874f8b39b0a0b",
+      "kind": "hackathon",
+      "company": "larphacks",
+      "title": "LarpHacks",
+      "location": "Toronto",
+      "date": "about 5 hours left",
+      "posted_at": "2026-11-01",
+      "url": "https://larphacks.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77231,9 +77184,21 @@
       "company": "Perfect Corp",
       "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
       "location": "Online",
-      "date": "1 day left",
+      "date": "about 21 hours left",
       "posted_at": "2026-11-01",
       "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "b53f4c511373a435",
+      "kind": "hackathon",
+      "company": "CETYS",
+      "title": "ICC - Proyecto Destacado 2026",
+      "location": "Centro de enseñanza técnica y superior",
+      "date": "1 day left",
+      "posted_at": "2026-11-01",
+      "url": "https://icc-proyecto-destacado-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77250,40 +77215,16 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "b53f4c511373a435",
-      "kind": "hackathon",
-      "company": "CETYS",
-      "title": "ICC - Proyecto Destacado 2026",
-      "location": "Centro de enseñanza técnica y superior",
-      "date": "4 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://icc-proyecto-destacado-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "6963369e3dce7316",
       "kind": "hackathon",
       "company": "Girls Who Code HHS",
       "title": "Girls Who Code HHS Hackathon 2026",
       "location": "Online",
-      "date": "4 days left",
+      "date": "3 days left",
       "posted_at": "2026-11-01",
       "url": "https://gwchhs-hackathon-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "389cac5786091ae2",
-      "kind": "hackathon",
-      "company": "Manav Rachna University (MRU), Faridabad",
-      "title": "Noor 2k26",
-      "location": "Offline",
-      "date": "4 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://unstop.com/hackathons/noor-2k26-manav-rachna-university-faridabad-1774268",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "c9bc851c83131f5b",
@@ -77291,11 +77232,23 @@
       "company": "Masters' Union School of Business",
       "title": "Fetch-A-Thon 3.0",
       "location": "Offline",
-      "date": "4 days left",
+      "date": "3 days left",
       "posted_at": "2026-11-01",
       "url": "https://unstop.com/hackathons/fetch-a-thon-30-masters-union-school-of-business-1778044",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "3b4657948c77d9d9",
+      "kind": "hackathon",
+      "company": "avacado",
+      "title": "Remote Control AI",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://remote-control-ai.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "ec301aba4fa240ee",
@@ -77322,18 +77275,6 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "3b4657948c77d9d9",
-      "kind": "hackathon",
-      "company": "avacado",
-      "title": "Remote Control AI",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://remote-control-ai.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "7fcc39577ca6ce8a",
       "kind": "hackathon",
       "company": "B. S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, Tamil Nadu",
@@ -77342,6 +77283,18 @@
       "date": "5 days left",
       "posted_at": "2026-11-01",
       "url": "https://unstop.com/hackathons/cobot-ex-2026-inter-college-hackathon-b-s-abdur-rahman-crescent-institute-of-science-and-technology-chennai-t-1783202",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "71fd5a465eb1099b",
+      "kind": "hackathon",
+      "company": "EduLinkUp",
+      "title": "ELUCode - 7",
+      "location": "Online",
+      "date": "5 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://unstop.com/hackathons/elucode-7-edulinkup-1783260",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
     },
@@ -77358,14 +77311,14 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "71fd5a465eb1099b",
+      "id": "d05ba9a93eae2f4d",
       "kind": "hackathon",
-      "company": "EduLinkUp",
-      "title": "ELUCode - 7",
+      "company": "InfoTechiezz",
+      "title": "CODE SHIFT 2026",
       "location": "Online",
       "date": "6 days left",
       "posted_at": "2026-11-01",
-      "url": "https://unstop.com/hackathons/elucode-7-edulinkup-1783260",
+      "url": "https://unstop.com/hackathons/code-shift-2026-infotechiezz-1786387",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
     },
@@ -77382,14 +77335,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "d05ba9a93eae2f4d",
+      "id": "539eb61dd33f0cc9",
       "kind": "hackathon",
-      "company": "InfoTechiezz",
-      "title": "CODE SHIFT 2026",
-      "location": "Online",
+      "company": "HackQube",
+      "title": "AGENTX 2.0",
+      "location": "Hybrid",
       "date": "7 days left",
       "posted_at": "2026-11-01",
-      "url": "https://unstop.com/hackathons/code-shift-2026-infotechiezz-1786387",
+      "url": "https://unstop.com/hackathons/agentx-20-hackqube-1783256",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
     },
@@ -77404,18 +77357,6 @@
       "url": "https://learn-specs.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "539eb61dd33f0cc9",
-      "kind": "hackathon",
-      "company": "HackQube",
-      "title": "AGENTX 2.0",
-      "location": "Hybrid",
-      "date": "8 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://unstop.com/hackathons/agentx-20-hackqube-1783256",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "6a1526ceae06d3f3",
@@ -77447,7 +77388,7 @@
       "company": "Echelon institute of technology",
       "title": "Herhack",
       "location": "Online",
-      "date": "10 days left",
+      "date": "9 days left",
       "posted_at": "2026-11-01",
       "url": "https://herhack.devpost.com/",
       "source": "devpost",
@@ -77514,6 +77455,18 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
+      "id": "cd69086863015f3d",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "MKS AI/ML Hackathon",
+      "location": "Online",
+      "date": "13 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
+    },
+    {
       "id": "fef16e5e30b14185",
       "kind": "hackathon",
       "company": "mcgill university",
@@ -77536,30 +77489,6 @@
       "url": "https://unstop.com/hackathons/hackday-trishulx-1784666",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "250047eaa473e78f",
-      "kind": "hackathon",
-      "company": "Acadable",
-      "title": "One Who Codes 2026 - A Portfolio Challenge",
-      "location": "Online",
-      "date": "14 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://unstop.com/hackathons/one-who-codes-2026-a-portfolio-challenge-acadable-1784554",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "cd69086863015f3d",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "MKS AI/ML Hackathon",
-      "location": "Online",
-      "date": "14 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
       "id": "18aa3cae6f42976d",
@@ -77586,6 +77515,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "11296db53c7a2267",
+      "kind": "hackathon",
+      "company": "STEMergent",
+      "title": "STEMergent Hacks 2026",
+      "location": "Online",
+      "date": "14 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://stemergent-hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "2974c38aaa981b66",
       "kind": "hackathon",
       "company": "STEMise",
@@ -77598,16 +77539,16 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "11296db53c7a2267",
+      "id": "9ddb577486f83e04",
       "kind": "hackathon",
-      "company": "STEMergent",
-      "title": "STEMergent Hacks 2026",
+      "company": "Xavier School of Management (XLRI)",
+      "title": "Project Last Mile: Analytics Case Challenge",
       "location": "Online",
-      "date": "15 days left",
+      "date": "14 days left",
       "posted_at": "2026-11-01",
-      "url": "https://stemergent-hacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://unstop.com/hackathons/project-lastmile-analytics-case-challenge-xavier-school-of-management-xlri-1789982",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "889fd7cdf08624f6",
@@ -77634,6 +77575,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "76178a6ffb191ecd",
+      "kind": "hackathon",
+      "company": "HackerEarth",
+      "title": "IBM Z Day",
+      "location": "Online",
+      "date": "16 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://www.hackerearth.com/challenges/hackathon/ibm-z-day/",
+      "source": "hackerearth",
+      "source_url": "https://www.hackerearth.com/challenges/"
+    },
+    {
       "id": "4f7fdf555a9204a0",
       "kind": "hackathon",
       "company": "Shri Chinai College of Commerce & Economics",
@@ -77646,18 +77599,6 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "76178a6ffb191ecd",
-      "kind": "hackathon",
-      "company": "HackerEarth",
-      "title": "IBM Z Day",
-      "location": "Online",
-      "date": "17 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://www.hackerearth.com/challenges/hackathon/ibm-z-day/",
-      "source": "hackerearth",
-      "source_url": "https://www.hackerearth.com/challenges/"
-    },
-    {
       "id": "3c05bb0551b6c102",
       "kind": "hackathon",
       "company": "Meta",
@@ -77668,6 +77609,18 @@
       "url": "https://start-developer-competition-26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "e4e1713169e5c098",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "THE BIG HACK 2.0",
+      "location": "Soladevanahalli, India",
+      "date": "18 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://the-big-hack-2.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "d760e011a67f0bb6",
@@ -77706,18 +77659,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "e4e1713169e5c098",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "THE BIG HACK 2.0",
-      "location": "Soladevanahalli, India",
-      "date": "19 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://the-big-hack-2.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "fb93c398e14b7b6c",
       "kind": "hackathon",
       "company": "Hack4TodayOrg",
@@ -77735,11 +77676,23 @@
       "company": "Devfolio",
       "title": "Lean In Hacks 8.0",
       "location": "Various",
-      "date": "21 days left",
+      "date": "20 days left",
       "posted_at": "2026-11-01",
       "url": "https://lean-in-hacks-8.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "809ccf7819417013",
+      "kind": "hackathon",
+      "company": "STEM2Connect",
+      "title": "STEM2Connect AI Hackathon",
+      "location": "Online",
+      "date": "20 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://stem2connect-online-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "11a58c6cfa7cddb1",
@@ -77750,18 +77703,6 @@
       "date": "21 days left",
       "posted_at": "2026-11-01",
       "url": "https://safespace-hacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "809ccf7819417013",
-      "kind": "hackathon",
-      "company": "STEM2Connect",
-      "title": "STEM2Connect AI Hackathon",
-      "location": "Online",
-      "date": "21 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://stem2connect-online-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77778,6 +77719,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "113a378f4c849a25",
+      "kind": "hackathon",
+      "company": "n/a",
+      "title": "Code For DFW",
+      "location": "Online",
+      "date": "24 days left",
+      "posted_at": "2026-11-01",
+      "url": "https://code-for-dfw.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "64fd0a700ba09b64",
       "kind": "hackathon",
       "company": "ITESO",
@@ -77790,28 +77743,16 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "0e11d36a7eae8d60",
+      "id": "55e3becd4d76b1e9",
       "kind": "hackathon",
-      "company": "Maya devi university",
-      "title": "Algonex 1.0",
-      "location": "Offline",
+      "company": "Devfolio",
+      "title": "DevNexus 2.0",
+      "location": "Kolkata, India",
       "date": "26 days left",
       "posted_at": "2026-11-01",
-      "url": "https://unstop.com/hackathons/algonex-10-maya-devi-university-1781078",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "113a378f4c849a25",
-      "kind": "hackathon",
-      "company": "n/a",
-      "title": "Code For DFW",
-      "location": "Online",
-      "date": "26 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://code-for-dfw.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://devnexus2.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "1299718b60ae0884",
@@ -77838,24 +77779,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "55e3becd4d76b1e9",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "DevNexus 2.0",
-      "location": "Kolkata, India",
-      "date": "27 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://devnexus2.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "c57932c10b5e2d58",
       "kind": "hackathon",
       "company": "Devfolio",
       "title": "CodeClash'24",
       "location": "Greater Noida, India",
-      "date": "29 days left",
+      "date": "28 days left",
       "posted_at": "2026-11-01",
       "url": "https://codeclash24.devfolio.co",
       "source": "devfolio",
@@ -77867,7 +77796,7 @@
       "company": "Devfolio",
       "title": "Winter of Code 2026",
       "location": "Online",
-      "date": "29 days left",
+      "date": "28 days left",
       "posted_at": "2026-11-01",
       "url": "https://winter-of-code-4.devfolio.co",
       "source": "devfolio",
@@ -77884,18 +77813,6 @@
       "url": "https://csc-winter-sparkathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "91407ebfe3ca2fd9",
-      "kind": "hackathon",
-      "company": "VIT Bhopal University",
-      "title": "Health Hackathon 3.0",
-      "location": "Offline",
-      "date": "29 days left",
-      "posted_at": "2026-11-01",
-      "url": "https://unstop.com/hackathons/health-hackathon-30-vit-bhopal-university-1784631",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "686eee2df1c4c512",
@@ -78131,7 +78048,7 @@
       "company": "Burhani College, Mumbai",
       "title": "Technova 2027",
       "location": "Offline",
-      "date": "82 days left",
+      "date": "81 days left",
       "posted_at": "2026-11-01",
       "url": "https://unstop.com/hackathons/technova-2027-burhani-college-mumbai-1786992",
       "source": "unstop",
@@ -78227,11 +78144,23 @@
       "company": "Devfolio",
       "title": "ECLIPSE 7.0",
       "location": "Patiala, India",
-      "date": "154 days left",
+      "date": "153 days left",
       "posted_at": "2026-11-01",
       "url": "https://eclipse.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "f97ce159a3dbb8d7",
+      "kind": "hackathon",
+      "company": "Lovhack",
+      "title": "TRMI X Lovhack : Multiplayer Everything Hackathon",
+      "location": "Online",
+      "date": "22 minutes left",
+      "posted_at": "2026-11-01",
+      "url": "https://lovhack-trmi-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     }
   ],
   "events": [
@@ -80528,6 +80457,18 @@
       "source_url": "https://luma.com/discover"
     },
     {
+      "id": "d307b71de4686f34",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow DC Data & AI Events Washington · Washington D.C. Data & AI Events! Managed by Data Community DC. www.dc2.org",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-11-01",
+      "url": "/DC2?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -80536,6 +80477,18 @@
       "date": "",
       "posted_at": "2026-11-01",
       "url": "/deepmind?k=c",
+      "source": "luma",
+      "source_url": "https://luma.com/discover"
+    },
+    {
+      "id": "d0a49f1be49b91d7",
+      "kind": "event",
+      "company": "Luma",
+      "title": "Follow STATION DC Washington · DC's newest tech hub - breaking down the barriers between government and tech.",
+      "location": "Global",
+      "date": "",
+      "posted_at": "2026-11-01",
+      "url": "/stationdc?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     }
