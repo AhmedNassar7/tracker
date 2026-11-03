@@ -4,7 +4,7 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Tue, 03 Nov 2026 15:09:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 21:01:54 GMT</lastBuildDate>
     <item>
       <title>Alan — Fullstack Software Engineer (x/f/m) - Backend Platform</title>
       <link>https://jobs.ashbyhq.com/alan/cb1d045d-6b64-4864-96f1-d28d753b7132</link>
@@ -118,6 +118,13 @@
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Reddit — Senior Software Engineer, GRC</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8350749</link>
+      <guid isPermaLink="false">66ab76168ea8bb91</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Reddit — Senior Staff Applied Scientist, Science Platform</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8282748</link>
       <guid isPermaLink="false">99bb0f25a946ff56</guid>
@@ -136,6 +143,20 @@
       <link>https://job-boards.greenhouse.io/reddit/jobs/8127002</link>
       <guid isPermaLink="false">6b5d8a27f0918b8c</guid>
       <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Software Engineer (L3) Email</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8026199</link>
+      <guid isPermaLink="false">a29dfad3353c94e6</guid>
+      <description>Remote - US · other · 0d</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Staff, Software Engineer (L4)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8319434</link>
+      <guid isPermaLink="false">0cc1e47684cfa46b</guid>
+      <description>Remote - India · mid_level · 0d</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -251,13 +272,6 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Twilio — Staff, Software Engineer (L4)</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8319434</link>
-      <guid isPermaLink="false">0cc1e47684cfa46b</guid>
-      <description>Remote - India · mid_level · 1d</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Twilio — Applications Engineer 2</title>
       <link>https://job-boards.greenhouse.io/twilio/jobs/7781659</link>
       <guid isPermaLink="false">43a70b52df3162f0</guid>
@@ -282,13 +296,6 @@
       <title>Twilio — Software Engineer L2-Messaging API</title>
       <link>https://job-boards.greenhouse.io/twilio/jobs/7816159</link>
       <guid isPermaLink="false">23b740293b1df4da</guid>
-      <description>Remote - US · other · 2d</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio — Software Engineer L3</title>
-      <link>https://job-boards.greenhouse.io/twilio/jobs/8009057</link>
-      <guid isPermaLink="false">8428a30f069fde08</guid>
       <description>Remote - US · other · 2d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -742,22 +749,15 @@
     </item>
     <item>
       <title>Dropbox — Backend Product Software Engineer</title>
-      <link>https://jobs.dropbox.com/listing/7172701?gh_jid=7172701</link>
-      <guid isPermaLink="false">e11f43ff8cd04529</guid>
-      <description>Remote - Mexico · other · 4d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dropbox — Backend Product Software Engineer</title>
       <link>https://jobs.dropbox.com/listing/7752226?gh_jid=7752226</link>
       <guid isPermaLink="false">67ddaec5fc3e5675</guid>
       <description>Remote - Mexico · other · 4d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Dropbox — Full Stack Product Software Engineer</title>
-      <link>https://jobs.dropbox.com/listing/7172839?gh_jid=7172839</link>
-      <guid isPermaLink="false">8b884d400f63110a</guid>
+      <title>Dropbox — Backend Product Software Engineer</title>
+      <link>https://jobs.dropbox.com/listing/7172701?gh_jid=7172701</link>
+      <guid isPermaLink="false">e11f43ff8cd04529</guid>
       <description>Remote - Mexico · other · 4d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -766,6 +766,13 @@
       <link>https://jobs.dropbox.com/listing/6449729?gh_jid=6449729</link>
       <guid isPermaLink="false">645dd75dc67a2bc9</guid>
       <description>Remote - Poland · other · 4d</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dropbox — Full Stack Product Software Engineer</title>
+      <link>https://jobs.dropbox.com/listing/7172839?gh_jid=7172839</link>
+      <guid isPermaLink="false">8b884d400f63110a</guid>
+      <description>Remote - Mexico · other · 4d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1120,16 +1127,16 @@
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
-      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
-      <description>Remote - Ontario, Canada · mid_level · 11d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
+      <guid isPermaLink="false">aac8e64367028cfe</guid>
+      <description>Remote - United States · mid_level · 11d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Senior Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6909091</link>
-      <guid isPermaLink="false">aac8e64367028cfe</guid>
-      <description>Remote - United States · mid_level · 11d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6909093</link>
+      <guid isPermaLink="false">9dcb09ec5aaaaed3</guid>
+      <description>Remote - Ontario, Canada · mid_level · 11d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1169,16 +1176,16 @@
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
-      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
-      <description>Remote - Ontario, Canada · other · 11d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
+      <guid isPermaLink="false">c6e69af605bd2478</guid>
+      <description>Remote - United States · other · 11d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
-      <guid isPermaLink="false">c6e69af605bd2478</guid>
-      <description>Remote - United States · other · 11d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
+      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
+      <description>Remote - Ontario, Canada · other · 11d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1616,10 +1623,40 @@
       <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Senior C++ Software Engineer – AI Developer Tools</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/Senior-C---Software-Engineer---AI-Developer-Tools_JR2026662</link>
+      <guid isPermaLink="false">5178197d46d50ab7</guid>
+      <description>UK, Remote +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944</link>
+      <guid isPermaLink="false">c44c66f7fa554bf5</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Software Engineer, AI Developer Tools</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--AI-Developer-Tools_JR2029074</link>
       <guid isPermaLink="false">402ebcfe455aa384</guid>
       <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Storage Infrastructure Software Engineer - EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658</link>
+      <guid isPermaLink="false">042fe41a15c8c201</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior System Software Engineer - Dynamo-Triton Inference Server</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Dynamo-Triton-Inference-Server_JR2025165</link>
+      <guid isPermaLink="false">2864f9f5c646fc2a</guid>
+      <description>US, CA, Santa Clara +2 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>Salesforce — Senior/Lead Full Stack Engineer - MeshMesh</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Full-Stack-Engineer--Senior-Lead----MeshMesh_JR366800</link>
+      <guid isPermaLink="false">f97764e022457c26</guid>
+      <description>California - San Francisco +10 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Deep Learning Frameworks CUDA Software Engineer</title>
@@ -1658,22 +1695,10 @@
       <description>Canada, Remote · mid_level · 1d</description>
     </item>
     <item>
-      <title>NVIDIA — Senior Software Engineer, System Validation - EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880</link>
-      <guid isPermaLink="false">fd49b26ffed563cc</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 1d</description>
-    </item>
-    <item>
       <title>NVIDIA — Senior System Software Engineer, CUDA Driver for Windows</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--CUDA-Driver-for-Windows_JR2022474</link>
       <guid isPermaLink="false">2c6e051265efb035</guid>
       <description>US, CA, Santa Clara +2 more · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>Salesforce — Full Stack Engineer (Senior/Lead) - MeshMesh</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Full-Stack-Engineer--Senior-Lead----MeshMesh_JR366800</link>
-      <guid isPermaLink="false">f33ef61cbc2a5103</guid>
-      <description>California - San Francisco +10 more · mid_level · 1d</description>
     </item>
     <item>
       <title>Workday — Account Executive, Platform - FSI</title>
@@ -1788,6 +1813,12 @@
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Dveloppeur-se--logiciel-expert-e---cosystme-Android---Staff-Software-Engineer--Android-Ecosystem_JOBREQ-2616442</link>
       <guid isPermaLink="false">78fc51289f44c23e</guid>
       <description>Montreal, Canada +4 more · mid_level · 21d</description>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer Technical Leader – Network Data Plane – Hypershield</title>
+      <link>https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Technical-Leader---Network-Data-Plane---Hypershield_2025874</link>
+      <guid isPermaLink="false">b032b9f3d8a471e0</guid>
+      <description>San Jose, California, US +51 more · other · 22d</description>
     </item>
   </channel>
 </rss>
