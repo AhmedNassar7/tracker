@@ -4,7 +4,7 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Wed, 04 Nov 2026 09:13:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 17:16:28 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer II, Amazon 1P Lending</title>
       <link>https://www.amazon.jobs/en/jobs/10596123/software-development-engineer-ii-amazon-1p-lending</link>
@@ -30,8 +30,8 @@
       <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
       <guid isPermaLink="false">1ce62c63e37bc29e</guid>
-      <description>Mexico · mid_level · 1d</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Mexico · mid_level · 0d</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Sumup — Backend Engineer (Global Bank Tribe)</title>
@@ -39,13 +39,6 @@
       <guid isPermaLink="false">827cd515842e0f9f</guid>
       <description>Florianópolis, Santa Catarina, Brazil; São Paulo, Brazil · other · 1d</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Schneider Electric — Ingeniero Comercial Servicios AMBA</title>
-      <link>https://careers.se.com/jobs/133827</link>
-      <guid isPermaLink="false">b0be0b8292eff604</guid>
-      <description>Argentina · other · 2d</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Schneider Electric — Representante Senior de Ventas de Servicios en Campo</title>
@@ -251,6 +244,13 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer Intern, Amazon University Talent Acquisition</title>
+      <link>https://www.amazon.jobs/en/jobs/10574925/software-development-engineer-intern-amazon-university-talent-acquisition</link>
+      <guid isPermaLink="false">e5e5538e3591c000</guid>
+      <description>Mexico City, Mexico City, MEX · internship · 26d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, Finance Technology</title>
       <link>https://www.amazon.jobs/en/jobs/10575292/software-development-engineer-finance-technology</link>
       <guid isPermaLink="false">33af45bd880042fd</guid>
@@ -370,13 +370,6 @@
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Digital Payments and Emerging Markets</title>
-      <link>https://www.amazon.jobs/en/jobs/10443835/software-development-engineer-digital-payments-and-emerging-markets</link>
-      <guid isPermaLink="false">74cb26f262a5f72e</guid>
-      <description>Mexico City, Mexico City, MEX · unknown · 148d</description>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Swile — Senior Software Engineer, Backend (Payments)</title>
       <link>https://jobs.lever.co/swile/ba335751-9ae3-4d18-a5c8-b47596d577de</link>
       <guid isPermaLink="false">19c730acee6300f3</guid>
@@ -405,10 +398,10 @@
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>PwC — Senior - Servicios Tributarios</title>
-      <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Montevideo/Senior---Servicios-Tributarios_771031WD</link>
-      <guid isPermaLink="false">e31ac9f8c98500e0</guid>
-      <description>Montevideo · mid_level · 6d</description>
+      <title>Salesforce — Software Engineer SSR - Automation &amp; Reliability</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Software-Engineer---Junior---SSR---Automation---Reliability_JR364275</link>
+      <guid isPermaLink="false">590afab7c54aab46</guid>
+      <description>Mexico - Mexico City · other · 0d</description>
     </item>
   </channel>
 </rss>
