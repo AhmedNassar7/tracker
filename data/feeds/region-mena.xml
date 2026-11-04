@@ -4,19 +4,19 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Wed, 04 Nov 2026 09:13:24 GMT</lastBuildDate>
-    <item>
-      <title>Amazon — Software Development Engineer - 2027</title>
-      <link>https://www.amazon.jobs/en/jobs/10595319/software-development-engineer-2027</link>
-      <guid isPermaLink="false">0d31f9c811e33a75</guid>
-      <description>Haifa, Haifa, ISR · unknown · 1d</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
+    <lastBuildDate>Wed, 04 Nov 2026 17:16:28 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer - 2027</title>
       <link>https://www.amazon.jobs/en/jobs/10595320/software-development-engineer-2027</link>
       <guid isPermaLink="false">479b76141d53ea3a</guid>
       <description>Tel Aviv-Yafo, Tel Aviv, ISR · unknown · 1d</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer - 2027</title>
+      <link>https://www.amazon.jobs/en/jobs/10595319/software-development-engineer-2027</link>
+      <guid isPermaLink="false">0d31f9c811e33a75</guid>
+      <description>Haifa, Haifa, ISR · unknown · 1d</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -111,10 +111,10 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mozn AI — Senior Cloud Platform Engineer</title>
+      <title>Mozn AI — Cloud Platform Engineer</title>
       <link>https://apply.workable.com/j/05591481EB</link>
-      <guid isPermaLink="false">1a7545f59cf62c84</guid>
-      <description>Riyadh, Saudi Arabia · mid_level · 8d</description>
+      <guid isPermaLink="false">3c8ce162a7999570</guid>
+      <description>Riyadh, Saudi Arabia · other · 8d</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -242,6 +242,13 @@
       <guid isPermaLink="false">8b9a7f8e3641a273</guid>
       <description>New Cairo, Egypt · other · 30d</description>
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer - Shopping Personalization AI, Amazon Stores</title>
+      <link>https://www.amazon.jobs/en/jobs/10568490/software-development-engineer-shopping-personalization-ai-amazon-stores</link>
+      <guid isPermaLink="false">6d5cfbbe89b89e60</guid>
+      <description>Tel Aviv-Yafo, Tel Aviv, ISR · unknown · 31d</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Blabs — Senior Backend Engineer (Python)</title>
@@ -524,6 +531,13 @@
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer - Shopping Personalization AI, Amazon Stores</title>
+      <link>https://www.amazon.jobs/en/jobs/10419792/software-development-engineer-shopping-personalization-ai-amazon-stores</link>
+      <guid isPermaLink="false">ac086af8763e4719</guid>
+      <description>Tel Aviv-Yafo, Tel Aviv, ISR · unknown · 174d</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NVIDIA — Principal Storage Software Engineer - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Principal-Storage-Software-Engineer---DGX-Cloud_JR2019275</link>
       <guid isPermaLink="false">a389779805029bdb</guid>
@@ -534,12 +548,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Network-Site-Reliability-Engineer_JR2027828</link>
       <guid isPermaLink="false">51d52b7ab19046ff</guid>
       <description>Israel, Yokneam · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Software Engineer, AI Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Infrastructure_JR2028826</link>
-      <guid isPermaLink="false">df3453bdebd357e2</guid>
-      <description>Israel, Tel Aviv · other · 1d</description>
     </item>
     <item>
       <title>Valeo — Senior SRE Engineer/ Sys Ops, GISACC</title>
