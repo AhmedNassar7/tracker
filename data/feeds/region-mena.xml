@@ -4,7 +4,21 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Thu, 05 Nov 2026 03:31:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:21:45 GMT</lastBuildDate>
+    <item>
+      <title>Incorta — Principle Software Engineer</title>
+      <link>https://jobs.lever.co/incorta/7637ea82-5651-4400-9b87-6da61f913e95</link>
+      <guid isPermaLink="false">dc375b500d411618</guid>
+      <description>Cairo · other · 0d</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Incorta — Senior Software Engineer</title>
+      <link>https://jobs.lever.co/incorta/dc034adb-5dab-48cc-9c75-3433ddf5b2d6</link>
+      <guid isPermaLink="false">52f42f46f28758ef</guid>
+      <description>Cairo · mid_level · 0d</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Amazon — Software Development Engineer - 2027</title>
       <link>https://www.amazon.jobs/en/jobs/10595319/software-development-engineer-2027</link>
@@ -524,28 +538,22 @@
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Software Engineer, AI Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Infrastructure_JR2028826</link>
+      <guid isPermaLink="false">df3453bdebd357e2</guid>
+      <description>Israel, Tel Aviv · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Network Site Reliability Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Network-Site-Reliability-Engineer_JR2027828</link>
       <guid isPermaLink="false">51d52b7ab19046ff</guid>
-      <description>Israel, Yokneam · mid_level · 1d</description>
+      <description>Israel, Yokneam · mid_level · 2d</description>
     </item>
     <item>
       <title>Valeo — Senior SRE Engineer/ Sys Ops, GISACC</title>
       <link>https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Senior-SysOps-SRE-Engineer_REQ2025059081</link>
       <guid isPermaLink="false">93e3e47e8aee18ea</guid>
-      <description>Cairo · mid_level · 6d</description>
-    </item>
-    <item>
-      <title>Unity — Senior Backend Engineer</title>
-      <link>https://unitytech.wd1.myworkdayjobs.com/Unity/job/Tel-Aviv-Israel/Senior-Backend-Engineer_JOBREQ-2616345</link>
-      <guid isPermaLink="false">119c0cece0b64223</guid>
-      <description>Tel Aviv, Israel · mid_level · 30d</description>
-    </item>
-    <item>
-      <title>Unity — Senior Backend Engineer</title>
-      <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Tel-Aviv-Israel/Senior-Backend-Engineer_JOBREQ-2616345</link>
-      <guid isPermaLink="false">119c0cece0b64223</guid>
-      <description>Tel Aviv, Israel · mid_level · 30d</description>
+      <description>Cairo · mid_level · 7d</description>
     </item>
   </channel>
 </rss>
