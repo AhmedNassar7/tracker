@@ -4,7 +4,14 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Thu, 05 Nov 2026 03:31:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:21:45 GMT</lastBuildDate>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
+      <guid isPermaLink="false">1ce62c63e37bc29e</guid>
+      <description>Mexico · mid_level · 0d</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Amazon — Software Development Engineer II, Amazon 1P Lending</title>
       <link>https://www.amazon.jobs/en/jobs/10596123/software-development-engineer-ii-amazon-1p-lending</link>
@@ -24,13 +31,6 @@
       <link>https://www.amazon.jobs/en/jobs/10596122/software-development-engineer-ii-amazon-1p-lending</link>
       <guid isPermaLink="false">09d9e3d6abe4ee4f</guid>
       <description>Sao Paulo, Sao Paulo, BRA · mid_level · 1d</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
-      <guid isPermaLink="false">1ce62c63e37bc29e</guid>
-      <description>Mexico · mid_level · 1d</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -401,7 +401,7 @@
       <title>Salesforce — Software Engineer SSR - Automation &amp; Reliability</title>
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Mexico---Mexico-City/Software-Engineer---Junior---SSR---Automation---Reliability_JR364275</link>
       <guid isPermaLink="false">590afab7c54aab46</guid>
-      <description>Mexico - Mexico City · other · 0d</description>
+      <description>Mexico - Mexico City · other · 1d</description>
     </item>
   </channel>
 </rss>
