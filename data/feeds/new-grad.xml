@@ -4,12 +4,19 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Fri, 06 Nov 2026 01:34:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 09:24:06 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer – Early Career</title>
       <link>https://amazon.jobs/en/jobs/10597803/software-development-engineer-amazon-leo-early-career-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">13856c5f8293e03b</guid>
       <description>Redmond, WA · new_grad · 0d</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Software Engineer 2 – Early Career</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/109116638069957318?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">340a4587902b0143</guid>
+      <description>Palo Alto, CA +11 more · new_grad · 4d</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -38,6 +45,13 @@
       <link>https://zapply.jobs/l/d/amazon-2181784b-5d82-4e40-8cc5-496b0dbeb222?s=gh-new-grad-jobs-2027</link>
       <guid isPermaLink="false">5135f3c36296f9bc</guid>
       <description>Redmond, WA · new_grad · 1d</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Software Developer II, Early Career</title>
+      <link>https://ca.indeed.com/viewjob?jk=88a3c13f26e91fd6</link>
+      <guid isPermaLink="false">fcb726914078dfc8</guid>
+      <description>Montréal, QC, CA · new_grad · 1d</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -139,13 +153,6 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google — Software Developer II, Early Career</title>
-      <link>https://ca.indeed.com/viewjob?jk=32a27b9c8fa306c5</link>
-      <guid isPermaLink="false">093f3433155d815f</guid>
-      <description>Waterloo, ON, CA · new_grad · 4d</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Unity Technologies — U-Accelerate : Développeur(euse) de logiciels, nouveau(elle) diplômé(e) // U-Accelerate: Software Developer, New Grad</title>
       <link>https://ca.indeed.com/viewjob?jk=83df96f818b005aa</link>
       <guid isPermaLink="false">562f450255e6d9a9</guid>
@@ -196,9 +203,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
-      <guid isPermaLink="false">3e53caa7727d62f6</guid>
-      <description>London · new_grad · 8d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
+      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
+      <description>San Francisco, Seattle, New York · new_grad · 8d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -210,16 +217,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
-      <guid isPermaLink="false">485c7a19842acde7</guid>
-      <description>Toronto · new_grad · 8d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 8d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
-      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
-      <description>San Francisco, Seattle, New York · new_grad · 8d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
+      <guid isPermaLink="false">3e53caa7727d62f6</guid>
+      <description>London · new_grad · 8d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -231,9 +238,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 8d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
+      <guid isPermaLink="false">485c7a19842acde7</guid>
+      <description>Toronto · new_grad · 8d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -335,17 +342,17 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Software Engineer New Grad - Query Engines</title>
-      <link>https://jobs.lever.co/palantir/0f7d1e01-1f74-4786-944d-910208d390fa/apply?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">679490206c556957</guid>
-      <description>London, UK · new_grad · 17d</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Engineer – Early Career</title>
       <link>https://amazon.jobs/en/jobs/10583340/software-development-engineer-early-career-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">eca72aa32d52ed24</guid>
       <description>Madison, WI +8 more · new_grad · 17d</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer New Grad - Query Engines</title>
+      <link>https://jobs.lever.co/palantir/0f7d1e01-1f74-4786-944d-910208d390fa/apply?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">679490206c556957</guid>
+      <description>London, UK · new_grad · 17d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -485,13 +492,13 @@
       <title>Unity — U-Accelerate : Développeur(euse) de logiciels, nouveau(elle) diplômé(e) // U-Accelerate: Software Developer, New Grad</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/U-Accelerate---Dveloppeur-euse--de-logiciels--nouveau-elle--diplm-e-----U-Accelerate--Software-Developer--New-Grad_JOBREQ-2616768</link>
       <guid isPermaLink="false">6c4523fd462f5e71</guid>
-      <description>Montreal, Canada · new_grad · 3d</description>
+      <description>Montreal, Canada · new_grad · 4d</description>
     </item>
     <item>
       <title>Unity — U-Accelerate : Développeur(euse) de logiciels, nouveau(elle) diplômé(e) // U-Accelerate: Software Developer, New Grad</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/U-Accelerate---Dveloppeur-euse--de-logiciels--nouveau-elle--diplm-e-----U-Accelerate--Software-Developer--New-Grad_JOBREQ-2616768</link>
       <guid isPermaLink="false">6c4523fd462f5e71</guid>
-      <description>Montreal, Canada · new_grad · 3d</description>
+      <description>Montreal, Canada · new_grad · 4d</description>
     </item>
   </channel>
 </rss>
