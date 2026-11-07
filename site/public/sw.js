@@ -80,7 +80,8 @@ async function dataNetworkFirst(event, request, url) {
   const key = keyFor(url);
   try {
     const response = await fetch(request);
-    if (response.ok) {
+    // status === 200, not just .ok: cache.put() throws on a 206 partial response.
+    if (response.status === 200) {
       const copy = response.clone();
       event.waitUntil(cache.put(key, stamp(copy)));
     }
@@ -118,7 +119,7 @@ async function runtimeNetworkFirst(event, request, url) {
     const response = await fetch(request);
     // Never store a redirect or an error page: a redirected response can't be
     // served back to a navigation, and a 404/500 shouldn't replace a good copy.
-    if (response.ok && !response.redirected && response.type === "basic") {
+    if (response.status === 200 && !response.redirected && response.type === "basic") {
       const copy = response.clone();
       event.waitUntil(cache.put(keyFor(url), copy).then(() => trim(cache)));
     }

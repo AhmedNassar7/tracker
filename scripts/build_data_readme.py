@@ -20,6 +20,7 @@ if str(SCRIPT_DIR) not in sys.path:
 from schema_validator import load_schema, validate_record, validate_records
 from rss_feeds import FEED_PRESETS, write_feeds
 from company_names import prettify_company_name
+from state_of_hiring import write_state_of_hiring_reports
 from net import load_link_cache
 from patterns import country_flag, detect_country
 
@@ -42,6 +43,7 @@ STORY_CARDS_SCHEMA = ROOT / "config" / "story-cards.schema.json"
 # worst) while covering enough history for a meaningful trend line.
 STATS_HISTORY_RETENTION_DAYS = 90
 FEEDS_DIR = DATA_OUT / "feeds"
+REPORTS_DIR = DATA_OUT / "reports"
 
 # Fields copied straight through when present; curated-only fields (category,
 # remote_type, country) and the level/region/role_type job fields are added
@@ -680,6 +682,7 @@ def render_data_readme(
         "| [site-index.json](site-index.json) | Both feeds above, flattened into one list with a content checksum — meant for a future site to fetch as a single lightweight file |",
         "| [stats-history.json](stats-history.json) | One snapshot of the totals above per hourly run, last 90 days — a free trend line with no extra fetching (see [config/stats-history.schema.json](../config/stats-history.schema.json)) |",
         "| [company-history.json](company-history.json) | Open published jobs per company per day, last 90 days, for **every** company (not just the top 20) — powers the trend line on each company page (see [config/company-history.schema.json](../config/company-history.schema.json)) |",
+        "| [reports/](reports/README.md) | Monthly \"State of Early-Career Tech Hiring\" write-ups, generated from the history above — one per completed month, frozen once published |",
         "",
         "## RSS Feeds",
         "",
@@ -1387,6 +1390,14 @@ def main() -> int:
     story_cards = build_story_cards(stats_history, now_iso)
     STORY_CARDS_JSON.write_text(json.dumps(story_cards, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {STORY_CARDS_JSON} ({len(story_cards['cards'])} cards)")
+
+    # D4 — monthly "State of Early-Career Tech Hiring". Only completed months with
+    # a real baseline; an existing month is frozen unless --regen-reports is passed
+    # (e.g. after changing the generator). Usually writes nothing.
+    for path in write_state_of_hiring_reports(
+        stats_history, REPORTS_DIR, now_iso, force="--regen-reports" in sys.argv
+    ):
+        print(f"Wrote {path}")
 
     feed_paths = write_feeds(site_index["items"], site_index["generated_at"], FEEDS_DIR)
     print(f"Wrote {len(feed_paths)} RSS feeds to {FEEDS_DIR}")

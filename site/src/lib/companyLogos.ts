@@ -108,7 +108,10 @@ const COMPANY_DOMAINS: Record<string, string> = {
   // mark), so the careers host — "Careers at Warner Bros. Discovery" — is used.
   "warner bros. discovery": "careers.wbd.com",
   // "Siei" = Sony Interactive Entertainment (Greenhouse board token).
-  siei: "sie.com",
+  siei: "sie.com", "sony interactive entertainment": "sie.com",
+  // The pipeline now displays these board-token names as the proper brand, and
+  // logos are looked up by display name (lower-cased), so each needs its key.
+  axis: "axisapp.com", "sequoia applied technologies": "sequoiaat.com",
   // Europe / AI-native employers
   sumup: "sumup.com", legora: "legora.com", hellofresh: "hellofresh.com",
   elevenlabs: "elevenlabs.io", monzo: "monzo.com", celonis: "celonis.com",
@@ -122,7 +125,7 @@ const COMPANY_DOMAINS: Record<string, string> = {
 
 // Short/common-word keys that must match the whole company name only —
 // substring matching "alan" would hit "Balance …", "siei" is a token, not a word.
-const EXACT_ONLY = new Set(["alan", "siei"]);
+const EXACT_ONLY = new Set(["alan", "siei", "axis"]);
 
 /** Same word-boundary-ish substring match companyTiers.ts uses — an ATS
  *  posting rarely carries a company's bare display name: "Amazon.com

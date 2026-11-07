@@ -226,6 +226,109 @@ def main():
         and h1["companies"]["Acme"] == [3],
     ))
 
+    # D4 — monthly "State of Early-Career Tech Hiring" post
+    import datetime as _dt
+    import sys as _sys
+    import tempfile as _tempfile
+    from pathlib import Path as _Path
+
+    _sys.path.insert(0, str(ROOT / "scripts"))
+    soh = load_module("scripts/state_of_hiring.py", "state_of_hiring_module_for_test")
+
+    def snap(day, dims, hour="12:00:00"):
+        return {"at": f"{day}T{hour}Z", "curated_roles": 0, "public_opportunities": 0, "jobs_total": 0,
+                "hackathons_total": 0, "events_total": 0, "total_items": 0,
+                "level_counts": {"internship": 0, "early_career": 0, "mid_level": 0}, "dimensions": dims}
+
+    START_DIMS = {  # 100 roles
+        "by_level": {"internship": 10, "new_grad": 5, "junior": 0, "entry_level": 5, "mid_level": 60, "other": 10, "unknown": 10},
+        "by_region": {"north_america": 60, "europe": 20, "apac": 10, "unknown": 10},
+        "by_country": {"United States": 50, "Unknown": 25, "Germany": 5},
+        "by_role_type": {"software_engineer": 60, "backend": 40},
+        "top_companies": {"Acme": 20, "Beta": 10},
+    }
+    END_DIMS = {  # 200 roles; early-career 20% -> 25%
+        "by_level": {"internship": 25, "new_grad": 10, "junior": 5, "entry_level": 10, "mid_level": 100, "other": 25, "unknown": 25},
+        "by_region": {"north_america": 120, "europe": 40, "apac": 20, "unknown": 20},
+        "by_country": {"United States": 100, "Unknown": 50, "Germany": 10},
+        "by_role_type": {"software_engineer": 120, "backend": 80},
+        "top_companies": {"Acme": 40, "Beta": 20},
+    }
+
+    def month_history(*, with_baseline=True, first_day=1, last_day=31, baseline_day="2026-09-30"):
+        snaps = []
+        if with_baseline:
+            snaps.append(snap(baseline_day, START_DIMS))
+        for d in range(first_day, last_day + 1):
+            snaps.append(snap(f"2026-10-{d:02d}", END_DIMS if d == last_day else START_DIMS))
+        return {"updated_at": "2026-11-02T00:00:00Z", "retention_days": 90, "snapshots": snaps}
+
+    full = month_history()
+    post = soh.build_state_of_hiring(full, 2026, 10, "2026-11-02")
+    run("D4: a full month with a baseline yields a post with the right numbers", lambda: check(
+        "post numbers", post is not None and "# State of Early-Career Tech Hiring — October 2026" in post
+        and "**200 published software roles**" in post and "against 100 on Sep 30" in post
+        and "**25.0% were early-career**" in post and "+5.0 pt since Sep 30" in post
+        and "| Internship | 25 |" in post and "| Acme | 40 |" in post,
+        details=(post or "")[:600],
+    ))
+    run("D4: 'other' and 'unknown' levels are one 'Level not stated' row; senior is labelled", lambda: check(
+        "level merge", "| Level not stated | 50 |" in post and "Other |" not in post and "Mid level & senior" in post,
+    ))
+    run("D4: the unknown-country bucket is labelled, never a bare 'Unknown'", lambda: check(
+        "country label", "Country not stated" in post and "| Unknown |" not in post,
+    ))
+    run("D4: the post carries the coverage-is-not-the-market caveat", lambda: check(
+        "caveat", "Coverage is not the market" in post and "never guessed" in post,
+    ))
+    run("D4: no baseline before the month -> no post (never an invented comparison)", lambda: check(
+        "no baseline", soh.build_state_of_hiring(month_history(with_baseline=False), 2026, 10, "2026-11-02") is None,
+    ))
+    run("D4: a stale baseline (20 days before the month) -> no post", lambda: check(
+        "stale baseline",
+        soh.build_state_of_hiring(month_history(baseline_day="2026-09-11"), 2026, 10, "2026-11-02") is None,
+    ))
+    run("D4: thin coverage (< 20 days in the month) -> no post", lambda: check(
+        "thin coverage", soh.build_state_of_hiring(month_history(first_day=15), 2026, 10, "2026-11-02") is None,
+    ))
+    run("D4: history that stops before month end -> no post", lambda: check(
+        "ends early", soh.build_state_of_hiring(month_history(last_day=24), 2026, 10, "2026-11-02") is None,
+    ))
+    run("D4: snapshots without dimensions are ignored for coverage", lambda: check(
+        "ignores bare snapshots",
+        soh.reportable_months({"snapshots": [{**s, "dimensions": None} for s in full["snapshots"]]},
+                              _dt.date(2026, 11, 2)) == [],
+    ))
+    run("D4: the current month is never reportable; a completed one is", lambda: check(
+        "completed only",
+        soh.reportable_months(full, _dt.date(2026, 10, 31)) == []
+        and soh.reportable_months(full, _dt.date(2026, 11, 1)) == [(2026, 10)],
+    ))
+    with _tempfile.TemporaryDirectory() as _tmp:
+        rdir = _Path(_tmp) / "reports"
+        w1 = soh.write_state_of_hiring_reports(full, rdir, "2026-11-02T08:00:00Z")
+        report = rdir / "state-of-hiring-2026-10.md"
+        run("D4: first run writes the month's file and an index linking to it", lambda: check(
+            "first write", report.exists() and (rdir / "README.md").exists()
+            and "state-of-hiring-2026-10.md" in (rdir / "README.md").read_text(encoding="utf-8")
+            and report in w1, details=str(w1),
+        ))
+        first_text = report.read_text(encoding="utf-8")
+        changed = {**full, "snapshots": [*full["snapshots"][:-1], snap("2026-10-31", {**END_DIMS, "top_companies": {"Zed": 99}})]}
+        w2 = soh.write_state_of_hiring_reports(changed, rdir, "2026-11-03T08:00:00Z")
+        run("D4: an existing month is frozen — the hourly run never rewrites it", lambda: check(
+            "frozen", w2 == [] and report.read_text(encoding="utf-8") == first_text, details=str(w2),
+        ))
+        w3 = soh.write_state_of_hiring_reports(changed, rdir, "2026-11-03T08:00:00Z", force=True)
+        run("D4: --regen-reports (force) rebuilds it from the current generator", lambda: check(
+            "force", report in w3 and "| Zed | 99 |" in report.read_text(encoding="utf-8"),
+        ))
+        empty = _Path(_tmp) / "none"
+        soh.write_state_of_hiring_reports({"snapshots": []}, empty, "2026-11-02T08:00:00Z")
+        run("D4: no reportable month -> no reports directory is created", lambda: check(
+            "no dir", not empty.exists(),
+        ))
+
     # D1 — story cards from stats-history dimensions
     def dim_snapshot(at, *, jobs_total, internships, companies, regions, remote):
         return {

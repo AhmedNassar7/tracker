@@ -518,6 +518,37 @@ def main():
         and fetch.prettify_company_name("Palo Alto Networks") == "Palo Alto Networks",
     ))
 
+    # Board slugs that surfaced as machine tokens on every row ("Sumup",
+    # "Sonyinteractiveentertainmentglobal"); the brand forms below were
+    # confirmed against each company's own site title.
+    run("prettify_company_name maps board-token slugs to the real brand", lambda: check(
+        "prettify_company_name board tokens",
+        all(fetch.prettify_company_name(raw) == want for raw, want in {
+            "Sumup": "SumUp", "Hellofresh": "HelloFresh", "Elevenlabs": "ElevenLabs",
+            "Blablacar": "BlaBlaCar", "Gocardless": "GoCardless", "Posthog": "PostHog",
+            "scout24": "Scout24", "Kraken.com": "Kraken", "Axisapp": "Axis",
+            "Sequoiaat": "Sequoia Applied Technologies",
+        }.items()),
+        details=str({k: fetch.prettify_company_name(k) for k in ("Sumup", "scout24", "Axisapp")}),
+    ))
+    run("prettify_company_name merges the two Sony Interactive boards into one company", lambda: check(
+        "prettify_company_name sony",
+        fetch.prettify_company_name("Sonyinteractiveentertainmentglobal") == "Sony Interactive Entertainment"
+        and fetch.prettify_company_name("Siei") == "Sony Interactive Entertainment"
+        and fetch.prettify_company_name("Sony Interactive Entertainment") == "Sony Interactive Entertainment",
+    ))
+    run("prettify_company_name: a bare 'Brand.com' collapses; look-alikes and sub-brands do not", lambda: check(
+        "prettify_company_name bare .com",
+        fetch.prettify_company_name("Amazon.com") == "Amazon"
+        and fetch.prettify_company_name("Unity Technologies") == "Unity"
+        and fetch.prettify_company_name("Amazon Web Services Developmen t Center Germany GmbH") == "Amazon"
+        and fetch.prettify_company_name("Amazon") == "Amazon"
+        and fetch.prettify_company_name("Axis Bank") == "Axis Bank"
+        and fetch.prettify_company_name("Samsung Semiconductor") == "Samsung Semiconductor"
+        # a non-parent .com name is left alone
+        and fetch.prettify_company_name("Example.com") == "Example.com",
+    ))
+
     run("format_job_age never lets a source age look fresher than first-seen", lambda: check(
         "format_job_age reconcile",
         # source said "0d" but we first recorded it (posted_at) 26 days ago

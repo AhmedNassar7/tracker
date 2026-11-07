@@ -150,6 +150,19 @@ const COMPANY_CANONICAL: Record<string, string> = {
   amd: "AMD",
   sap: "SAP",
   aws: "AWS",
+  // Mirror of the board-token entries in scripts/company_names.py CANONICAL.
+  sumup: "SumUp",
+  hellofresh: "HelloFresh",
+  elevenlabs: "ElevenLabs",
+  blablacar: "BlaBlaCar",
+  gocardless: "GoCardless",
+  posthog: "PostHog",
+  scout24: "Scout24",
+  "kraken com": "Kraken",
+  axisapp: "Axis",
+  sequoiaat: "Sequoia Applied Technologies",
+  sonyinteractiveentertainmentglobal: "Sony Interactive Entertainment",
+  siei: "Sony Interactive Entertainment",
 };
 
 function titleCaseToken(token: string): string {

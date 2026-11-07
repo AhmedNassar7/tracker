@@ -62,6 +62,26 @@ CANONICAL = {
     "snowflake": "Snowflake",
     "jetbrains": "JetBrains",
     "amazon web services": "Amazon Web Services",
+    # Board tokens that reach the pipeline as a bare machine slug (Greenhouse /
+    # Ashby / Freshteam / Teamtailor tokens, run through .title()). Display
+    # forms confirmed against each company's own site title (2026-11-07).
+    "sumup": "SumUp",
+    "hellofresh": "HelloFresh",
+    "elevenlabs": "ElevenLabs",
+    "blablacar": "BlaBlaCar",
+    "gocardless": "GoCardless",
+    "posthog": "PostHog",
+    "scout24": "Scout24",
+    "kraken com": "Kraken",
+    "axisapp": "Axis",
+    "sequoiaat": "Sequoia Applied Technologies",
+    # Two Greenhouse boards (a regional one and the global one) for the same
+    # employer — one display name so it is one company page, one logo, one count.
+    "sonyinteractiveentertainmentglobal": "Sony Interactive Entertainment",
+    "siei": "Sony Interactive Entertainment",
+    # The Bundesagentur feed's own typo ("Developmen t"): the intended name is the
+    # Amazon family, which the filler-word collapse below already maps to "Amazon".
+    "amazon web services developmen t center germany gmbh": "Amazon",
 }
 
 # Sub-tokens that should be upper-cased wherever they appear as a whole word
@@ -84,7 +104,7 @@ _PARENT_BRANDS = {
     "amazon", "google", "microsoft", "apple", "meta", "netflix", "uber",
     "oracle", "salesforce", "nvidia", "intel", "adobe", "cisco", "ibm",
     "bytedance", "tiktok", "tencent", "alibaba", "samsung", "sony",
-    "paypal", "stripe", "bloomberg", "palantir", "walmart",
+    "paypal", "stripe", "bloomberg", "palantir", "walmart", "unity",
 }
 _CORP_FILLER = {
     "com", "inc", "llc", "ulc", "ltd", "limited", "corp", "corporation",
@@ -103,9 +123,15 @@ _CORP_FILLER = {
 
 def _collapse_to_parent(name: str) -> str | None:
     tokens = [t for t in re.split(r"[\s,]+", name.strip()) if t]
-    if len(tokens) < 2:
+    if not tokens:
         return None
     head = re.sub(r"\.com$", "", tokens[0].lower()).strip(".,")
+    if len(tokens) < 2:
+        # A bare "Amazon.com" is the brand written as its domain; a bare
+        # "Amazon" is already clean and falls through untouched.
+        if head in _PARENT_BRANDS and tokens[0].lower().endswith(".com"):
+            return CANONICAL.get(head, head[:1].upper() + head[1:])
+        return None
     if head not in _PARENT_BRANDS:
         return None
     rest = [re.sub(r"\.com$", "", t.lower()).strip(".,&") for t in tokens[1:]]

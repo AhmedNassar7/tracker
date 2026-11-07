@@ -138,6 +138,11 @@ export default function CommandPalette() {
         e.preventDefault();
         if (open) closePalette(true);
         else openPalette();
+      } else if (open && e.key === "Escape") {
+        // Document-level so it still works if focus left the field (e.g. a
+        // click on the results scrollbar), not only while the input has it.
+        e.preventDefault();
+        closePalette(true);
       }
     }
     document.addEventListener("keydown", onKey);
@@ -238,10 +243,6 @@ export default function CommandPalette() {
         if (chosen) void run(chosen);
         break;
       }
-      case "Escape":
-        e.preventDefault();
-        closePalette(true);
-        break;
       case "Tab":
         // A single-field dialog: keep focus inside it.
         e.preventDefault();
@@ -343,7 +344,8 @@ export default function CommandPalette() {
                           // mousedown (not click) so the input never loses focus.
                           onMouseDown={(e) => {
                             e.preventDefault();
-                            void run(command);
+                            // Primary button only — a right/middle click must not run it.
+                            if (e.button === 0) void run(command);
                           }}
                           onMouseMove={() => !isActive && setActive(index)}
                           className={
