@@ -99,7 +99,30 @@ const COMPANY_DOMAINS: Record<string, string> = {
   foodics: "foodics.com", lucidya: "lucidya.com", salla: "salla.com",
   cognitev: "cognitev.com", dubizzle: "dubizzle.com", sahl: "sahlpay.app",
   moneyfellows: "moneyfellows.com", "nawy real estate": "nawy.com", blabs: "btech.com",
+  // Verified 2026-11-07 (homepage title / careers-site match; Cloudflare/Akamai-
+  // blocked ones — se.com, hellofresh, lovable, pwc, pennylane — confirmed by
+  // their own careers/ATS host + the icon rendering the right mark).
+  "schneider electric": "se.com", axisapp: "axisapp.com", sequoiaat: "sequoiaat.com",
+  unifonic: "unifonic.com",
+  // wbd.com now redirects to skydance.com (would show the WRONG company's
+  // mark), so the careers host — "Careers at Warner Bros. Discovery" — is used.
+  "warner bros. discovery": "careers.wbd.com",
+  // "Siei" = Sony Interactive Entertainment (Greenhouse board token).
+  siei: "sie.com",
+  // Europe / AI-native employers
+  sumup: "sumup.com", legora: "legora.com", hellofresh: "hellofresh.com",
+  elevenlabs: "elevenlabs.io", monzo: "monzo.com", celonis: "celonis.com",
+  alan: "alan.com", lovable: "lovable.dev", replit: "replit.com",
+  jetbrains: "jetbrains.com", pennylane: "pennylane.com", pwc: "pwc.com",
+  scout24: "scout24.com", swile: "swile.co", synthesia: "synthesia.io",
+  n8n: "n8n.io", photoroom: "photoroom.com", blablacar: "blablacar.com",
+  granola: "granola.ai", poolside: "poolside.ai", gocardless: "gocardless.com",
+  posthog: "posthog.com",
 };
+
+// Short/common-word keys that must match the whole company name only —
+// substring matching "alan" would hit "Balance …", "siei" is a token, not a word.
+const EXACT_ONLY = new Set(["alan", "siei"]);
 
 /** Same word-boundary-ish substring match companyTiers.ts uses — an ATS
  *  posting rarely carries a company's bare display name: "Amazon.com
@@ -120,7 +143,7 @@ function resolveCompanyDomain(company: string): string | undefined {
   if (exact) return exact;
   let bestKey = "";
   for (const key of Object.keys(COMPANY_DOMAINS)) {
-    if (key.length >= 4 && key.length > bestKey.length && name.includes(key)) bestKey = key;
+    if (key.length >= 4 && !EXACT_ONLY.has(key) && key.length > bestKey.length && name.includes(key)) bestKey = key;
   }
   return bestKey ? COMPANY_DOMAINS[bestKey] : undefined;
 }
