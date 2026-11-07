@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T16:25:13Z",
+ "generated_at": "2026-11-07T20:51:58Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -177,10 +177,6 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
-  "https://305empowheroct2026.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
   "https://305veteransnov2026.devpost.com/": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -200,6 +196,10 @@
   "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/London/Infra-Transformation-Manager_R00347111": {
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
+  },
+  "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Oslo/DevOps-Engineer_13889118-1": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Roma/AI-Native-Software-Engineering-Specialist_R00344641": {
    "alive": true,
@@ -653,6 +653,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://app.recruitera.ai/careers/paymob/cloud-engineer-paymob-cairo-egypt-3400": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://appdevcon.nl": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -701,6 +705,18 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://apply.workable.com/j/0E78822067": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://apply.workable.com/j/149E07A5D8": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://apply.workable.com/j/193E0F3D71": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://apply.workable.com/j/1A49B1E6C2": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -721,9 +737,17 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://apply.workable.com/j/520166649F": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://apply.workable.com/j/5294DA8CF4": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://apply.workable.com/j/5A2660229F": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://apply.workable.com/j/61FBC238D5": {
    "alive": true,
@@ -748,6 +772,18 @@
   "https://apply.workable.com/j/891691547B": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://apply.workable.com/j/89EEB60A03": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://apply.workable.com/j/8D967D1E03": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://apply.workable.com/j/8F3E842B19": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://apply.workable.com/j/972E263571": {
    "alive": true,
@@ -777,9 +813,17 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://apply.workable.com/j/B431E1A886": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://apply.workable.com/j/B519978733": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://apply.workable.com/j/C7BE3271AB": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://apply.workable.com/j/C81C07CEB9": {
    "alive": true,
@@ -813,9 +857,9 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
-  "https://aqxanalyticsfour.devpost.com/": {
+  "https://apply.workable.com/j/FE83763ED3": {
    "alive": true,
-   "at": "2026-10-31T17:43:15Z"
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://arbiter-hacks-v1.devpost.com/": {
    "alive": true,
@@ -853,6 +897,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://axisapp.teamtailor.com/jobs/8326179-senior-sdet": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://axisapp.teamtailor.com/jobs/8326182-senior-backend-software-engineer": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -884,10 +932,6 @@
   "https://bigdataconference.eu": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
-  },
-  "https://biosv2.devfolio.co": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
   },
   "https://blackhat.com/": {
    "alive": true,
@@ -1345,6 +1389,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://boards.greenhouse.io/robinhood/jobs/7543003?t=gh_src=&gh_jid=7543003": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://boards.greenhouse.io/robinhood/jobs/7648452?t=gh_src=&gh_jid=7648452": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -1473,6 +1521,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://boards.greenhouse.io/robinhood/jobs/8248320?t=gh_src=&gh_jid=8248320": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://boards.greenhouse.io/robinhood/jobs/8255840?t=gh_src=&gh_jid=8255840": {
    "alive": true,
    "at": "2026-11-03T06:45:19Z"
@@ -1517,6 +1569,10 @@
    "alive": true,
    "at": "2026-11-06T17:29:24Z"
   },
+  "https://boards.greenhouse.io/robinhood/jobs/8302244?t=gh_src=&gh_jid=8302244": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://boards.greenhouse.io/robinhood/jobs/8319701?t=gh_src=&gh_jid=8319701": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -1536,6 +1592,10 @@
   "https://boards.greenhouse.io/robinhood/jobs/8346036?t=gh_src=&gh_jid=8346036": {
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
+  },
+  "https://boards.greenhouse.io/robinhood/jobs/8348035?t=gh_src=&gh_jid=8348035": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://boards.greenhouse.io/spacex/jobs/8377056002?gh_jid=8377056002": {
    "alive": true,
@@ -1580,6 +1640,10 @@
   "https://boards.greenhouse.io/spacex/jobs/8477137002?gh_jid=8477137002": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8493079002?gh_jid=8493079002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://boards.greenhouse.io/spacex/jobs/8494978002?gh_jid=8494978002": {
    "alive": true,
@@ -2017,6 +2081,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://boards.greenhouse.io/spacex/jobs/8599648002?gh_jid=8599648002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://boards.greenhouse.io/spacex/jobs/8601223002?gh_jid=8601223002": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -2401,6 +2469,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://boards.greenhouse.io/spacex/jobs/8675233002?gh_jid=8675233002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://boards.greenhouse.io/spacex/jobs/8675900002?gh_jid=8675900002": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -2460,6 +2532,18 @@
   "https://boards.greenhouse.io/spacex/jobs/8695142002?gh_jid=8695142002": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8696097002?gh_jid=8696097002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://boards.greenhouse.io/spacex/jobs/8696097002?utm_source=Simplify&ref=Simplify": {
    "alive": true,
@@ -2537,6 +2621,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://boards.greenhouse.io/spacex/jobs/8729121002?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-11-07T10:03:28Z"
@@ -2544,6 +2632,10 @@
   "https://boards.greenhouse.io/spacex/jobs/8730117002?gh_jid=8730117002": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://boards.greenhouse.io/spacex/jobs/8730567002?utm_source=Simplify&ref=Simplify": {
    "alive": true,
@@ -2576,6 +2668,10 @@
   "https://boards.greenhouse.io/spacex/jobs/8741940002?gh_jid=8741940002": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8743362002?gh_jid=8743362002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://boards.greenhouse.io/spacex/jobs/8743362002?utm_source=Simplify&ref=Simplify": {
    "alive": true,
@@ -2964,6 +3060,10 @@
   "https://boards.greenhouse.io/spacex/jobs/8853324002?gh_jid=8853324002": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8854394002?gh_jid=8854394002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://boards.greenhouse.io/spacex/jobs/8856971002?gh_jid=8856971002": {
    "alive": true,
@@ -3661,6 +3761,14 @@
    "alive": true,
    "at": "2026-11-05T12:17:27Z"
   },
+  "https://careers.moneyfellows.com/en/postings/96413789-e222-4070-88f1-ad3a2b771b8d": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.moneyfellows.com/en/postings/9d87c1f3-b338-4dfb-ada5-5381c89403e0": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.moneyfellows.com/en/postings/e48778fc-15da-47e6-bfbb-382f4848229d": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4021,6 +4129,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.roblox.com/jobs/8204785?gh_jid=8204785": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.roblox.com/jobs/8204799?gh_jid=8204799": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4237,9 +4349,17 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/112234": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/112725": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/114162": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/115248": {
    "alive": true,
@@ -4257,9 +4377,21 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/123154": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/123828": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/123873": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/123937": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/124572": {
    "alive": true,
@@ -4268,6 +4400,14 @@
   "https://careers.se.com/jobs/124794": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/124908": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/125610": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/125757": {
    "alive": true,
@@ -4301,6 +4441,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/127833": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/128176": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4308,6 +4452,18 @@
   "https://careers.se.com/jobs/128454": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/128846": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/128957": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/129009": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/129114": {
    "alive": true,
@@ -4324,6 +4480,10 @@
   "https://careers.se.com/jobs/129300": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/130018": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/130060": {
    "alive": true,
@@ -4353,9 +4513,21 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/130516": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/130544": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/130717": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/130933": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/130965": {
    "alive": true,
@@ -4385,6 +4557,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/131980": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/132451": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4397,6 +4573,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/132842": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/132903": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4404,6 +4584,14 @@
   "https://careers.se.com/jobs/132915": {
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
+  },
+  "https://careers.se.com/jobs/132962": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/133043": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/133132": {
    "alive": true,
@@ -4429,6 +4617,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/133819": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/133824": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4445,6 +4637,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/134118": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/134206": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4457,6 +4653,14 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/134314": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/134442": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/134455": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4464,6 +4668,10 @@
   "https://careers.se.com/jobs/134532": {
    "alive": true,
    "at": "2026-11-03T06:45:19Z"
+  },
+  "https://careers.se.com/jobs/134859": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/134962": {
    "alive": true,
@@ -4481,6 +4689,14 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/135173": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135204": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/135209": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4488,6 +4704,46 @@
   "https://careers.se.com/jobs/135257": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/135295": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135346": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135347": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135406": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135407": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135409": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135410": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135423": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135445": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135541": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/135656": {
    "alive": true,
@@ -4497,9 +4753,25 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/135803": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/135818": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/135889": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135937": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/135940": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/135941": {
    "alive": true,
@@ -4508,6 +4780,14 @@
   "https://careers.se.com/jobs/135960": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/136196": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/136240": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/136292": {
    "alive": true,
@@ -4557,9 +4837,21 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/137609": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/137656": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/137774": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/137797": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/137889": {
    "alive": true,
@@ -4581,6 +4873,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/138498": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/138584": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4589,9 +4885,17 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/139059": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/139063": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/139067": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/139165": {
    "alive": true,
@@ -4625,6 +4929,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://careers.se.com/jobs/139845": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://careers.se.com/jobs/140035": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -4636,6 +4944,14 @@
   "https://careers.se.com/jobs/140047": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://careers.se.com/jobs/140183": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://careers.se.com/jobs/140344": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://careers.se.com/jobs/140477": {
    "alive": true,
@@ -5761,6 +6077,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://epicgames.com/careers/jobs/5658563004?gh_jid=5658563004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://epicgames.com/careers/jobs/5674509004?gh_jid=5674509004": {
    "alive": true,
    "at": "2026-11-04T09:09:20Z"
@@ -5769,6 +6089,10 @@
    "alive": true,
    "at": "2026-11-04T09:09:20Z"
   },
+  "https://epicgames.com/careers/jobs/5838212004?gh_jid=5838212004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://epicgames.com/careers/jobs/5990685004?gh_jid=5990685004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -5776,6 +6100,14 @@
   "https://epicgames.com/careers/jobs/6000061004?gh_jid=6000061004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://epicgames.com/careers/jobs/6006101004?gh_jid=6006101004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6021022004?gh_jid=6021022004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://epicgames.com/careers/jobs/6122975004?gh_jid=6122975004": {
    "alive": true,
@@ -5793,9 +6125,29 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://epicgames.com/careers/jobs/6147167004?gh_jid=6147167004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6147283004?gh_jid=6147283004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6163851004?gh_jid=6163851004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004": {
    "alive": true,
    "at": "2026-11-07T10:03:28Z"
+  },
+  "https://epicgames.com/careers/jobs/6174265004?gh_jid=6174265004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6183401004?gh_jid=6183401004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://epicgames.com/careers/jobs/6186137004?gh_jid=6186137004": {
    "alive": true,
@@ -5812,6 +6164,58 @@
   "https://epicgames.com/careers/jobs/6193455004?gh_jid=6193455004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://epicgames.com/careers/jobs/6200691004?gh_jid=6200691004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6202659004?gh_jid=6202659004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6206041004?gh_jid=6206041004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6206043004?gh_jid=6206043004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6208072004?gh_jid=6208072004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6208074004?gh_jid=6208074004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6208110004?gh_jid=6208110004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6219626004?gh_jid=6219626004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6226621004?gh_jid=6226621004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6226623004?gh_jid=6226623004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6229255004?gh_jid=6229255004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6229262004?gh_jid=6229262004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://epicgames.com/careers/jobs/6231373004?gh_jid=6231373004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://ese4500f26.devpost.com/": {
    "alive": true,
@@ -6119,11 +6523,15 @@
   },
   "https://explore.jobs.netflix.net/careers/job/790318904468": {
    "alive": true,
-   "at": "2026-11-06T23:05:55Z"
+   "at": "2026-11-07T20:51:41Z"
   },
   "https://explore.jobs.netflix.net/careers/job/790318904468?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-11-07T10:03:28Z"
+  },
+  "https://fall-hacks-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://fosdem.org/2027/": {
    "alive": true,
@@ -6833,14 +7241,6 @@
    "alive": true,
    "at": "2026-11-02T15:46:59Z"
   },
-  "https://goo.gle/WebAISummit26": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
-  "https://graph-hacks.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
   "https://greatunihack-2026.devpost.com/": {
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
@@ -6848,6 +7248,10 @@
   "https://green-shift-hacks.devpost.com/": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://gullhacks2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://gus26.gerritforge.com": {
    "alive": true,
@@ -6861,13 +7265,17 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://hack-coms-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://hack-ggc-vii.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://hack-nexus.devfolio.co": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
-  },
-  "https://hack-or-treat-2026.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
   },
   "https://hack-with-gdg-s4.devfolio.co": {
    "alive": true,
@@ -6885,9 +7293,9 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
-  "https://hackgwinnett-6-0.devpost.com/": {
+  "https://hackcessability.devpost.com/": {
    "alive": true,
-   "at": "2026-10-31T17:43:15Z"
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://hacklytics.io/": {
    "alive": true,
@@ -6925,6 +7333,10 @@
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
   },
+  "https://hackutd-zeroday.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://hackwithaditya.devpost.com/": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -6948,10 +7360,6 @@
   "https://heapcon.io/2026": {
    "alive": true,
    "at": "2026-11-06T17:29:24Z"
-  },
-  "https://hefty-hacks.devfolio.co": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
   },
   "https://herhack.devpost.com/": {
    "alive": true,
@@ -7153,30 +7561,6 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
-  "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836?utm_source=Simplify&ref=Simplify": {
-   "alive": true,
-   "at": "2026-10-31T17:42:23Z"
-  },
-  "https://intel.wd1.myworkdayjobs.com/external/job/Mexico-Guadalajara/Platform-Validation-Engineer--Temporary-position-_JR0288522": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
-  "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Hardware-Platform-Applications-Engineer---Military---Aerospace_JR0284700": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
-  "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Senior-Software-Development-Engineer--Contract-Position-_JR0287775": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
-  "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Senior-Middleware-Software-Development-Engineer_JR0286296": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
-  "https://intel.wd1.myworkdayjobs.com/external/job/US-Texas-Austin/Senior-CPU-Front-End-Methodology-Engineer_JR0286460-1": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
   "https://iqc.devpost.com/": {
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
@@ -7216,6 +7600,10 @@
   "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4940716101": {
    "alive": true,
    "at": "2026-11-04T09:09:20Z"
+  },
+  "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4987398101": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://job-boards.eu.greenhouse.io/jetbrains/jobs/4795218101": {
    "alive": true,
@@ -7644,6 +8032,10 @@
   "https://job-boards.greenhouse.io/anthropic/jobs/5412734008": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://job-boards.greenhouse.io/anthropic/jobs/5413374008": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://job-boards.greenhouse.io/anthropic/jobs/5416059008": {
    "alive": true,
@@ -8797,6 +9189,14 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://job-boards.greenhouse.io/siei/jobs/6127311004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://job-boards.greenhouse.io/siei/jobs/6138365004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5831551004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -8857,6 +9257,10 @@
    "alive": true,
    "at": "2026-11-05T12:18:16Z"
   },
+  "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6120141004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6121689004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -8880,6 +9284,10 @@
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6141163004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6143015004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6145023004": {
    "alive": true,
@@ -8908,6 +9316,10 @@
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6173052004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6173877004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6176297004": {
    "alive": true,
@@ -8997,6 +9409,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6232171004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6232183004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -9008,6 +9424,10 @@
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6233950004": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6234944004": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6235923004": {
    "alive": true,
@@ -9985,6 +10405,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.ashbyhq.com/clickhouse/3bdf2378-11ae-4406-aa8a-60c18bd2a386": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.ashbyhq.com/clickhouse/447d74c7-22bd-47e4-ae67-db5035ca6592": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -10004,6 +10428,10 @@
   "https://jobs.ashbyhq.com/clickhouse/56e89edd-e189-4afa-9b63-c3f339762ef0": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.ashbyhq.com/clickhouse/57c9aa0c-ffca-4759-9bfd-878ce7a7ea8e": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.ashbyhq.com/clickhouse/5822f2c8-a00c-4499-b595-85e8796db3cd": {
    "alive": true,
@@ -10085,6 +10513,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.ashbyhq.com/clickhouse/9d3e1529-5164-4fb1-b73a-b1b772bb890c": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.ashbyhq.com/clickhouse/9e205698-0e50-42e5-8783-a79a7ff7efaa": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -10116,6 +10548,10 @@
   "https://jobs.ashbyhq.com/clickhouse/b196cca6-6cb3-4019-8d0f-1eaa7850bc07": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.ashbyhq.com/clickhouse/b2ac526a-4dd3-4a32-83cb-9bfe41189632": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.ashbyhq.com/clickhouse/b66b5501-17ca-4887-878b-c3c5a7273142": {
    "alive": true,
@@ -10165,6 +10601,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.ashbyhq.com/clickhouse/cbbb4347-341f-4100-8241-2d317ae7effe": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.ashbyhq.com/clickhouse/cf36e6db-3939-4ff0-8bcf-a3bb200d9e46": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -10177,6 +10617,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.ashbyhq.com/clickhouse/d4f2f359-428b-40bf-9eba-46a2ff4b267c": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.ashbyhq.com/clickhouse/d750c2f9-5141-4a2b-8a67-66eac58a5710": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -10185,6 +10629,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.ashbyhq.com/clickhouse/dabecba2-7464-4fee-ac62-ead8df2c49d4": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.ashbyhq.com/clickhouse/db498a8c-c8d8-405b-b86a-0943a5122e7d": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -10192,6 +10640,10 @@
   "https://jobs.ashbyhq.com/clickhouse/dd1eb66c-b6ab-4afa-9aff-7c6c254a6554": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.ashbyhq.com/clickhouse/de617ed2-7ce7-4e2c-bfad-bb4d811e5e8b": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.ashbyhq.com/clickhouse/e6ea501b-70dc-4d50-8e53-68ec87139b6d": {
    "alive": true,
@@ -10244,6 +10696,10 @@
   "https://jobs.ashbyhq.com/cohere/41f23dad-9da2-451a-bd1e-a1800437cb64": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.ashbyhq.com/cohere/4232d337-fbc7-4e8c-81d5-2903ab0eb6e8": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.ashbyhq.com/cohere/529b2dd6-4be3-49db-97cd-781f4897540b": {
    "alive": true,
@@ -10992,6 +11448,10 @@
   "https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.ashbyhq.com/openai/1e68e5f6-6bda-4d11-89fd-4be731077031": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.ashbyhq.com/openai/1f99d5d3-4512-4247-aaba-3133a3dabf5a": {
    "alive": true,
@@ -12353,10 +12813,6 @@
    "alive": true,
    "at": "2026-11-07T10:03:28Z"
   },
-  "https://jobs.bytedance.com/en/position/7678449088065997109/detail?utm_source=Simplify&ref=Simplify": {
-   "alive": true,
-   "at": "2026-10-31T17:42:23Z"
-  },
   "https://jobs.dropbox.com/listing/6330377?gh_jid=6330377": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -12413,6 +12869,14 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.elastic.co/jobs?gh_jid=7734567&gh_jid=7734567": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=7734579&gh_jid=7734579": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.elastic.co/jobs?gh_jid=7784606&gh_jid=7784606": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -12420,6 +12884,62 @@
   "https://jobs.elastic.co/jobs?gh_jid=7843348&gh_jid=7843348": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=7982100&gh_jid=7982100": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=7982102&gh_jid=7982102": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8001166&gh_jid=8001166": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8001186&gh_jid=8001186": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8001189&gh_jid=8001189": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8001190&gh_jid=8001190": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8001191&gh_jid=8001191": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8001192&gh_jid=8001192": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8002555&gh_jid=8002555": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8002558&gh_jid=8002558": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8002559&gh_jid=8002559": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8002560&gh_jid=8002560": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8002561&gh_jid=8002561": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8002562&gh_jid=8002562": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.elastic.co/jobs?gh_jid=8053886&gh_jid=8053886": {
    "alive": true,
@@ -12540,6 +13060,10 @@
   "https://jobs.elastic.co/jobs?gh_jid=8138062&gh_jid=8138062": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8138528&gh_jid=8138528": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.elastic.co/jobs?gh_jid=8138559&gh_jid=8138559": {
    "alive": true,
@@ -13013,6 +13537,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.elastic.co/jobs?gh_jid=8315564&gh_jid=8315564": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.elastic.co/jobs?gh_jid=8317778&gh_jid=8317778": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -13089,6 +13617,22 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.elastic.co/jobs?gh_jid=8352578&gh_jid=8352578": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8352581&gh_jid=8352581": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.elastic.co/jobs?gh_jid=8352585&gh_jid=8352585": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.lever.co/Yassir/0d9433ce-c1eb-4a3b-89f2-217a0348b7bc": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.lever.co/Yassir/138469dc-2188-4d75-aecb-e0a7ec95b604": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -13117,9 +13661,21 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.lever.co/Yassir/49929f25-c49b-4dc5-9483-9ffdb2076bd3": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.lever.co/Yassir/50bf33d6-2993-42ed-9eeb-204356fc5b9c": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.lever.co/Yassir/6078250e-0252-42f6-9cda-e8d2a10a845c": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.lever.co/Yassir/64d34dd2-54ad-4787-aaa3-0f0836b8e1e9": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.lever.co/Yassir/67b1c1e3-cacd-4fba-aa7f-5ec6c48ef8d5": {
    "alive": true,
@@ -13413,6 +13969,10 @@
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
   },
+  "https://jobs.lever.co/palantir/4255e21c-d0f2-4f57-b5db-1f65830d6425": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.lever.co/palantir/491a0133-b580-45c3-9fd4-2314faf82fb9": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -13484,6 +14044,10 @@
   "https://jobs.lever.co/palantir/68d690cf-fc8a-4755-9b69-abe13f93d262": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.lever.co/palantir/6a82fd06-5754-46c2-8214-9ca4cd89fb9d": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.lever.co/palantir/6b4b087c-4fc6-476d-9e72-e1bc6ac6c62a": {
    "alive": true,
@@ -13604,6 +14168,10 @@
   "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92/apply?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-11-07T16:24:51Z"
+  },
+  "https://jobs.lever.co/palantir/96e4295f-3af7-48e5-a2c8-74622eaf5587": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.lever.co/palantir/98b81271-9e15-40b7-8dce-0c62f24702f9": {
    "alive": true,
@@ -13929,6 +14497,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.lever.co/spotify/1e8c984e-fa8e-4dbb-8f74-6f608ae3bfa1": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.lever.co/spotify/4c0aa107-bdb7-4061-b2c7-be616e059340": {
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
@@ -14009,6 +14581,14 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://jobs.lever.co/swile/4a9c8a10-226f-4d35-a4bb-d52c3082599b": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.lever.co/swile/59f04e65-bc11-457a-ba12-85d97ba5be22": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://jobs.lever.co/swile/6d983bef-f1d3-48c3-b666-fa47d905c13f": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -14072,6 +14652,14 @@
   "https://jobs.smartrecruiters.com/ValU1/743999973391393": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://jobs.smartrecruiters.com/ValU1/743999993458810": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://jobs.smartrecruiters.com/ValU1/743999993459635": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://jobs.smartrecruiters.com/Wise/744000157516450": {
    "alive": true,
@@ -14389,6 +14977,10 @@
    "alive": true,
    "at": "2026-11-03T20:58:23Z"
   },
+  "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Software-Integration-Engineer_R-277533": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Lead-AI-Platform-Engineer_R-279063-1": {
    "alive": true,
    "at": "2026-11-01T15:05:44Z"
@@ -14455,7 +15047,7 @@
   },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer---Java-Spring-Boot--Kafka-and-Event-Driven-Architecture_R-294147": {
    "alive": true,
-   "at": "2026-11-06T17:29:24Z"
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-289394": {
    "alive": true,
@@ -14496,10 +15088,6 @@
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-291756": {
    "alive": true,
    "at": "2026-11-02T23:29:31Z"
-  },
-  "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-292501": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
   },
   "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-294542": {
    "alive": true,
@@ -14564,10 +15152,6 @@
   "https://mergetober.devpost.com/": {
    "alive": true,
    "at": "2026-11-01T01:08:12Z"
-  },
-  "https://minearena-1-0.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
   },
   "https://mini-vikinghacks.devpost.com/": {
    "alive": true,
@@ -14685,6 +15269,10 @@
    "alive": true,
    "at": "2026-11-06T17:29:24Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Compiler-Engineer---Rust-GPU_JR2029577": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer---Tegra-MODS_JR2028565": {
    "alive": true,
    "at": "2026-11-06T17:29:24Z"
@@ -14756,6 +15344,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-and-DevOps-Development-Engineer_JR2029244-1": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-QA-Engineer---AI-Data-Centers_JR2028396": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Korea-Seoul/Senior-System-Software-Engineer--Autonomous-Vehicles_JR2028549": {
    "alive": true,
@@ -14909,6 +15501,10 @@
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
   },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Architect---Data-Center-Systems_JR1973150": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Developer--AI-Networking_JR2029449": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -14983,7 +15579,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880": {
    "alive": true,
-   "at": "2026-11-03T15:05:52Z"
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Object-Storage---DGX-Cloud_JR2025155": {
    "alive": true,
@@ -14996,6 +15592,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer-Aerial-Platform_JR2028821": {
    "alive": true,
    "at": "2026-11-01T19:38:59Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-and-System-Architect_JR2029424": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect--AI-Infrastructure_JR2028553-1": {
    "alive": true,
@@ -15111,7 +15711,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962": {
    "alive": true,
-   "at": "2026-11-04T22:39:34Z"
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-OR-Hillsboro/Senior-Systems-Software-Engineer---Advanced-Technology-Group_JR2014995": {
    "alive": true,
@@ -15156,6 +15756,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Ukraine-Kyiv/Senior-C-C---Software-Engineer_JR2028804": {
    "alive": true,
    "at": "2026-11-02T15:47:40Z"
+  },
+  "https://nycairrhackbu2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://onegiantleap.com/": {
    "alive": true,
@@ -15233,10 +15837,6 @@
    "alive": true,
    "at": "2026-11-06T17:29:24Z"
   },
-  "https://programmatic-rendering-contest.devpost.com/": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
   "https://pumpkin-playground.devpost.com/": {
    "alive": true,
    "at": "2026-11-06T01:31:21Z"
@@ -15272,6 +15872,10 @@
   "https://qatar.websummit.com/": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://qiskitatvt.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://qnx.devpost.com/": {
    "alive": true,
@@ -15312,10 +15916,6 @@
   "https://reactsummit.us": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
-  },
-  "https://realm-hack-1.devfolio.co": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
   },
   "https://rebuildcon.uk": {
    "alive": true,
@@ -15613,6 +16213,14 @@
    "alive": true,
    "at": "2026-11-01T19:38:59Z"
   },
+  "https://sequoiaat.freshteam.com/jobs/EuM8tWM8tWPB/react-js-developer": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://sequoiaat.freshteam.com/jobs/F3_Y9Nm6WlNE/senior-qa-engineer": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://sequoiaat.freshteam.com/jobs/Ngjzk43ISe40/vue-js-front-end-developer": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -15629,9 +16237,17 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://sequoiaat.freshteam.com/jobs/d-QMraWxF2kA/golang-developer": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://sequoiaat.freshteam.com/jobs/kCP03vHayUbb/senior-software-engineer-c-net": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://sequoiaat.freshteam.com/jobs/z8__BE-ajNqa/javascript-developer": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://sharkbyte2026.devpost.com/": {
    "alive": true,
@@ -15896,6 +16512,10 @@
   "https://stripe.com/jobs/search?gh_jid=8146271": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://stripe.com/jobs/search?gh_jid=8153331": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://stripe.com/jobs/search?gh_jid=8155381": {
    "alive": true,
@@ -16381,6 +17001,14 @@
    "alive": true,
    "at": "2026-11-04T22:39:34Z"
   },
+  "https://tka-hacks-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://tka-hacks.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://tokyotestfest.com": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -16404,6 +17032,10 @@
   "https://uaevsusa.devpost.com/": {
    "alive": true,
    "at": "2026-11-03T06:45:19Z"
+  },
+  "https://ubhacking2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://ubuntu.com/summit": {
    "alive": true,
@@ -16468,6 +17100,10 @@
   "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Dveloppeur-se--logiciel-snior--optimisation-d-actifs-3D--C------Senior-Software-Developer--3D-Asset-Optimization--C---_JOBREQ-2616530": {
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
+  },
+  "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Dveloppeuse-ou-dveloppeur-SDK-snior--Montisation---Senior-SDK-Developer--Monetization_JOBREQ-2515475-1": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Operations-Developer---Dveloppeur-oprationnel_JOBREQ-2615824": {
    "alive": true,
@@ -16652,6 +17288,10 @@
   "https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Dveloppeur-se--logiciel-snior--optimisation-d-actifs-3D--C------Senior-Software-Developer--3D-Asset-Optimization--C---_JOBREQ-2616530": {
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
+  },
+  "https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Dveloppeuse-ou-dveloppeur-SDK-snior--Montisation---Senior-SDK-Developer--Monetization_JOBREQ-2515475-1": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Operations-Developer---Dveloppeur-oprationnel_JOBREQ-2615824": {
    "alive": true,
@@ -17017,6 +17657,10 @@
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
   },
+  "https://unstop.com/hackathons/game-of-codes-national-institute-of-technology-nit-agartala-1797379": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://unstop.com/hackathons/gen-ai-product-hackathon-product-space-1799510": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -17053,6 +17697,10 @@
    "alive": true,
    "at": "2026-11-07T16:25:13Z"
   },
+  "https://unstop.com/hackathons/hacksphere-build-and-learn-aayam-xi-national-institute-of-technology-nit-agartala-1800147": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://unstop.com/hackathons/haven-ahmedabad-hackclub-1769964": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -17060,10 +17708,6 @@
   "https://unstop.com/hackathons/health-hackathon-30-vit-bhopal-university-1784631": {
    "alive": true,
    "at": "2026-11-05T12:18:16Z"
-  },
-  "https://unstop.com/hackathons/hexwartz-sharda-university-agra-1778042": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
   },
   "https://unstop.com/hackathons/hierroctf-2026-capture-the-flag-ctf-competition-hierroshield-pvt-ltd-1800358": {
    "alive": true,
@@ -17289,6 +17933,10 @@
    "alive": true,
    "at": "2026-11-06T17:29:24Z"
   },
+  "https://uxdc-designathon-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Senior-SysOps-SRE-Engineer_REQ2025059081": {
    "alive": true,
    "at": "2026-11-05T12:18:16Z"
@@ -17312,10 +17960,6 @@
   "https://vdz27.voxxeddays.ch": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
-  },
-  "https://version-beta-9.devfolio.co": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
   },
   "https://vibekode.it/berlin": {
    "alive": true,
@@ -17344,6 +17988,22 @@
   "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Director---Software-Engineering--Java--GenAI--Payment-Risk--Cloud--NoSQL---18--years--exp-_REF088645W-1": {
    "alive": true,
    "at": "2026-11-06T01:31:21Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer---Agentic-Developer--Java-Python--3-5-yrs-of-experience-_REF083019W": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer_REF089562W": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Staff-SW-Engineer--10-12-years--exp---Net-Core---Java---Python--RAG--MCP-_REF087081W-1": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://visa.wd5.myworkdayjobs.com/Visa/job/SG---Singapore/SW-Engineer--Peformance-Engineering--Testing-_REF089989W": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF089879W-1": {
    "alive": true,
@@ -17441,6 +18101,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://warnerbros.wd5.myworkdayjobs.com/global/job/GA-Atlanta-1050-Techwood-Drive-NW/Cybersecurity-Engineer_R000096304": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://warnerbros.wd5.myworkdayjobs.com/global/job/GA-Atlanta-1050-Techwood-Drive-NW/Manager--Software-Engineering_R000105667": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -17456,6 +18120,10 @@
   "https://warnerbros.wd5.myworkdayjobs.com/global/job/GA-Atlanta-1050-Techwood-Drive-NW/Senior-Staff-Software-Engineer_R000105681": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://warnerbros.wd5.myworkdayjobs.com/global/job/Hyderabad---Phoenix-Equinox-Tower-2/App-Developer---AI-ML_R000107288": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://warnerbros.wd5.myworkdayjobs.com/global/job/Hyderabad---Phoenix-Equinox-Tower-2/Staff-Software-Engineer---Data---Audience-Platform-Team--Hyderabad_R000106140-1": {
    "alive": true,
@@ -17729,6 +18397,10 @@
    "alive": true,
    "at": "2026-11-07T10:03:28Z"
   },
+  "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -17736,6 +18408,10 @@
   "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-11-07T10:03:28Z"
+  },
+  "https://wqcc-qiskit-fall-fest-2026.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://wwc-hackathon.devpost.com/": {
    "alive": true,
@@ -22657,10 +23333,6 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
-  "https://www.hackerearth.com/challenges/competitive/godaddy-inclusive-innovation-challenge-2026/": {
-   "alive": true,
-   "at": "2026-10-31T17:43:15Z"
-  },
   "https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -22721,10 +23393,6 @@
    "alive": true,
    "at": "2026-11-07T10:03:28Z"
   },
-  "https://www.indeed.com/viewjob?jk=d7c65f29503af513": {
-   "alive": true,
-   "at": "2026-10-31T17:42:23Z"
-  },
   "https://www.indeed.com/viewjob?jk=dab43eeb438af62c": {
    "alive": true,
    "at": "2026-11-01T15:05:18Z"
@@ -22777,9 +23445,17 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://www.janestreet.com/join-jane-street/apply/8594336002?gh_jid=8594336002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://www.janestreet.com/join-jane-street/apply/8594541002?gh_jid=8594541002": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://www.janestreet.com/join-jane-street/apply/8596349002?gh_jid=8596349002": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://www.janestreet.com/join-jane-street/apply/8599644002?gh_jid=8599644002": {
    "alive": true,
@@ -22981,6 +23657,10 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://www.mongodb.com/careers/job/?gh_jid=7779016": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://www.mongodb.com/careers/job/?gh_jid=7793634": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
@@ -23005,9 +23685,21 @@
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
   },
+  "https://www.mongodb.com/careers/job/?gh_jid=7948530": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
   "https://www.mongodb.com/careers/job/?gh_jid=7957589": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://www.mongodb.com/careers/job/?gh_jid=7991447": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
+  },
+  "https://www.mongodb.com/careers/job/?gh_jid=8018420": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://www.mongodb.com/careers/job/?gh_jid=8020377": {
    "alive": true,
@@ -23472,6 +24164,10 @@
   "https://www.okta.com/company/careers/opportunity/8186804?gh_jid=8186804": {
    "alive": true,
    "at": "2026-11-07T10:04:08Z"
+  },
+  "https://www.okta.com/company/careers/opportunity/8190028?gh_jid=8190028": {
+   "alive": true,
+   "at": "2026-11-07T20:51:58Z"
   },
   "https://www.okta.com/company/careers/opportunity/8203481?gh_jid=8203481": {
    "alive": true,
@@ -24132,10 +24828,6 @@
   "https://zapply.jobs/l/d/ashby-notion-43ffba97-b64a-4c6a-ac13-c803253c9413?s=gh-new-grad-software-engineering-jobs-2027": {
    "alive": true,
    "at": "2026-11-07T16:24:51Z"
-  },
-  "https://zapply.jobs/l/d/bytedance-7667685712993650997?s=gh-new-grad-data-science-jobs-2027": {
-   "alive": true,
-   "at": "2026-11-06T17:28:27Z"
   },
   "https://zapply.jobs/l/d/bytedance-7704089625815468293?s=gh-new-grad-jobs-2027": {
    "alive": true,
