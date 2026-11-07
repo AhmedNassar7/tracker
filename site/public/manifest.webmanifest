@@ -1,11 +1,24 @@
 {
+  "id": "/tracker/",
   "name": "tracker — job, hackathon & event tracker",
   "short_name": "tracker",
   "description": "Software engineering jobs, internships, hackathons, and events, merged hourly from 15+ sources with no signup.",
+  "lang": "en",
   "start_url": "/tracker/",
   "scope": "/tracker/",
   "display": "standalone",
   "theme_color": "#0f766e",
   "background_color": "#ffffff",
-  "icons": [{ "src": "/tracker/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+  "categories": ["productivity", "business"],
+  "icons": [
+    { "src": "/tracker/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/tracker/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/tracker/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/tracker/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Internships", "short_name": "Internships", "url": "/tracker/?levels=internship" },
+    { "name": "Dashboard", "short_name": "Dashboard", "url": "/tracker/dashboard" },
+    { "name": "My applications", "short_name": "Applications", "url": "/tracker/applications" }
+  ]
 }

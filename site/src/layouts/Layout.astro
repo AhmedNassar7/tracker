@@ -4,6 +4,8 @@ import '../styles/global.css';
 import { BASE_URL } from '../lib/basePath';
 import HeaderStat from '../components/HeaderStat';
 import CommandPalette from '../components/CommandPalette';
+import OfflineBanner from '../components/OfflineBanner';
+import InstallNudge from '../components/InstallNudge';
 
 interface Props {
   title?: string;
@@ -55,6 +57,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="manifest" href={`${base}manifest.webmanifest`} />
+		<link rel="apple-touch-icon" href={`${base}icons/apple-touch-icon.png`} />
 		<meta name="theme-color" content="#0f766e" />
 		{/* robots.txt here would have no effect — crawlers only ever check
 		it at the true host root, which this GitHub Pages project sub-path
@@ -97,6 +100,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 		</script>
 	</head>
 	<body class="min-h-screen bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+		<OfflineBanner client:load />
 		<header
 			class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-slate-200 px-4 py-3 dark:border-slate-800 sm:px-8"
 		>
@@ -234,6 +238,32 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 				</div>
 			</div>
 		</footer>
+		<InstallNudge client:idle />
+		<script is:inline>
+			// Chromium fires `beforeinstallprompt` once, early — likely before any
+			// React island has hydrated — so it's captured here and stashed on
+			// window for InstallNudge / the command palette to use later. We
+			// preventDefault() to suppress the browser's own mini-infobar: the
+			// install offer is ours to time (after a few visits), not Chrome's.
+			(function () {
+				if (window.__trackerInstallBound) return;
+				window.__trackerInstallBound = true;
+				window.addEventListener("beforeinstallprompt", function (e) {
+					e.preventDefault();
+					window.__trackerInstallEvent = e;
+					window.dispatchEvent(new Event("tracker:installable"));
+				});
+				window.addEventListener("appinstalled", function () {
+					window.__trackerInstallEvent = null;
+					try {
+						localStorage.setItem("tracker:installed", "1");
+					} catch (err) {
+						/* storage disabled — nudge just won't remember it */
+					}
+					window.dispatchEvent(new Event("tracker:installed"));
+				});
+			})();
+		</script>
 		<script is:inline>
 			(function () {
 				// ClientRouter swaps <body> on navigation, so a listener bound to

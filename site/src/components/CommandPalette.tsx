@@ -4,6 +4,7 @@ import { trackEvent } from "../lib/analytics";
 import { BASE_URL } from "../lib/basePath";
 import {
   GROUP_ORDER,
+  INSTALL_COMMAND,
   buildCompanyCommands,
   buildSearchCommand,
   buildStaticCommands,
@@ -12,6 +13,7 @@ import {
   type CommandGroup,
 } from "../lib/commandPalette";
 import { fetchSiteIndex } from "../lib/dataSource";
+import { promptInstall } from "../lib/pwa";
 import CompanyAvatar from "./CompanyAvatar";
 
 // E2 — Cmd/Ctrl-K command palette. Jump to a page or company, apply a common
@@ -89,11 +91,16 @@ export default function CommandPalette() {
 
   const staticCommands = useMemo(() => buildStaticCommands(BASE_URL), []);
 
+  // Offered only while the browser is actually holding an install prompt for
+  // us (see Layout.astro / lib/pwa.ts); re-checked each time the palette opens.
+  const [canInstall, setCanInstall] = useState(false);
+
   const results = useMemo(() => {
-    const ranked = rankCommands([...staticCommands, ...(companies ?? [])], query);
+    const pool = [...staticCommands, ...(canInstall ? [INSTALL_COMMAND] : []), ...(companies ?? [])];
+    const ranked = rankCommands(pool, query);
     const search = buildSearchCommand(query, BASE_URL);
     return search ? [...ranked, search] : ranked;
-  }, [staticCommands, companies, query]);
+  }, [staticCommands, canInstall, companies, query]);
   const sections = useMemo(() => toSections(results), [results]);
 
   // Platform label only after hydration, so server and client markup match.
@@ -109,6 +116,7 @@ export default function CommandPalette() {
     returnFocusTo.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     setQuery("");
     setActive(0);
+    setCanInstall(!!window.__trackerInstallEvent);
     setOpen(true);
   }, []);
 
@@ -186,6 +194,10 @@ export default function CommandPalette() {
     closePalette(true);
     if (command.run.action === "toggle-theme") {
       document.getElementById("theme-toggle")?.click();
+    } else if (command.run.action === "install-app") {
+      const outcome = await promptInstall();
+      trackEvent("pwa_install_prompt", { outcome, via: "palette" });
+      if (outcome === "unavailable") setToast("Install isn't available in this browser right now");
     } else {
       try {
         await navigator.clipboard.writeText(window.location.href);

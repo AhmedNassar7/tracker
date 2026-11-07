@@ -17,7 +17,7 @@ export type CommandGroup = "Go to" | "Filter jobs" | "Actions" | "Companies" | "
 
 export type CommandRun =
   | { type: "navigate"; href: string }
-  | { type: "action"; action: "toggle-theme" | "copy-link" };
+  | { type: "action"; action: "toggle-theme" | "copy-link" | "install-app" };
 
 export interface Command {
   id: string;
@@ -113,6 +113,16 @@ export function buildStaticCommands(base: string): Command[] {
     },
   ];
 }
+
+/** Only offered when the browser has actually handed us an install prompt
+ *  (Chromium, not yet installed) — the component adds it conditionally. */
+export const INSTALL_COMMAND: Command = {
+  id: "a-install",
+  group: "Actions",
+  label: "Install tracker as an app",
+  keywords: "pwa home screen add desktop app",
+  run: { type: "action", action: "install-app" },
+};
 
 /** One command per company that has at least one open *job* right now, grouped
  *  by display name (an ATS posts one employer as "Amazon.com Services LLC",

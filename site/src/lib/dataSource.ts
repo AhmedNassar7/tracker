@@ -1,4 +1,5 @@
 import { BASE_URL } from "./basePath";
+import { reportCachedData } from "./offlineState";
 import type { CompanyHistory, Counts, SiteIndex, StatsHistory, StoryCards } from "./types";
 
 // Runtime fetch, not a build-time import — the site must show data that's at
@@ -46,6 +47,9 @@ async function fetchJsonWithFallback<T>(filename: string): Promise<T> {
         lastError = new Error(`${url} responded ${res.status}`);
         continue;
       }
+      // The service worker answered from its saved copy (network unreachable) —
+      // tell the offline banner so stale data is never shown as if it were live.
+      if (res.headers.get("x-tracker-from-cache")) reportCachedData(res.headers.get("x-tracker-saved-at"));
       return (await res.json()) as T;
     } catch (err) {
       lastError = err;
