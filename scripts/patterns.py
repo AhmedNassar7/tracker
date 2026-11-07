@@ -263,9 +263,12 @@ PUBLIC_ROLE_PATTERNS = {
     "full_stack": re.compile(r"\bfull.?stack\b", re.I),
     "backend": re.compile(r"\bback.?end\b", re.I),
     "frontend": re.compile(r"\bfront.?end\b", re.I),
-    "mobile": re.compile(r"\bmobile|android|ios|react native|flutter\b", re.I),
+    # Whole-word groups: the old `\bmobile|android|ios|…\b` only anchored the
+    # first/last alternative, so "ios" matched inside "PlayStation Studios" and
+    # "Scenarios", and "sre"/"infra" inside longer words.
+    "mobile": re.compile(r"\b(?:mobile|android|ios|react native|flutter)\b", re.I),
     "platform": re.compile(r"\bplatform engineer|platform\b", re.I),
-    "infrastructure": re.compile(r"\binfrastructure|infra|site reliability|sre|devops\b", re.I),
+    "infrastructure": re.compile(r"\b(?:infrastructure|infra|site reliability|sre|devops)\b", re.I),
     "security": re.compile(r"\bsecurity\b", re.I),
     "machine_learning": re.compile(r"\bmachine learning|ml engineer|data engineer|data scientist\b", re.I),
     "software_engineer": re.compile(
@@ -274,6 +277,57 @@ PUBLIC_ROLE_PATTERNS = {
         re.I,
     ),
 }
+
+# Titles that are unambiguously software work but carry none of the words
+# above — "Java Developer", "QA Engineer", "Cloud Engineer", "Engineer II,
+# Software". Before this they fell through to `other_swe` and were dropped by
+# the public layer. Deliberately narrow: a bare "Engineer"/"Programmer" is NOT
+# enough (SpaceX/Schneider-style boards are full of CNC Programmers, Build
+# Engineers, Test Engineers that are manufacturing/hardware). Each pattern
+# names a software signal; PUBLIC_EXTRA_SOFTWARE_EXCLUDE then vetoes hardware
+# / manufacturing context so "Hardware Test Automation Engineer" stays out.
+_STACK = (
+    r"java|python|golang|javascript|typescript|node\.?js|react|angular|vue(?:\.js)?|\.net|dotnet|c#|c\+\+|"
+    r"php|ruby|rails|scala|kotlin|rust|django|laravel|abap|wordpress|drupal|salesforce|unity|unreal"
+)
+PUBLIC_EXTRA_SOFTWARE_PATTERNS = [
+    # "<stack> [<word>] Developer/Engineer/Programmer"  (Java Developer, Python Backend…)
+    re.compile(rf"(?<![\w.])(?:{_STACK})(?![\w#+])(?:\W+\w+){{0,2}}?\W+(?:developer|engineer|programmer)\b", re.I),
+    re.compile(r"\bgo(?:lang)?\s+(?:developer|engineer)\b", re.I),
+    # Game/graphics programmers (but never CNC/CMM/EDM — they have no software word).
+    re.compile(r"\b(?:game|gameplay|engine|graphics|rendering|tools|animation|ui)\s+programmer\b", re.I),
+    re.compile(r"\bweb\s+(?:developer|engineer)\b|\bapps?\s+developer\b|\bapplications?\s+developer\b", re.I),
+    re.compile(r"\bsdk\s+(?:developer|engineer)\b|\bsdet\b|\bcompiler\s+engineer\b", re.I),
+    # "Software Test Engineer", "Embedded Software Design Engineer", "Software Architect"
+    re.compile(r"\b(?:software|sw)\b(?:\W+\w+){0,3}?\W+(?:engineer|developer|architect|tester)\b", re.I),
+    # "Engineer II, Software" / "New Graduate Engineer, Embedded Software Design"
+    re.compile(r"\bengineer\b[^,()]*,\s*(?:\w+\s+){0,2}software\b", re.I),
+    re.compile(r"\bqa\s+(?:automation\s+)?engineer\b|\bautomation\s+(?:qa|test)\s+engineer\b|\bquality assurance\s+(?:automation\s+)?engineer\b", re.I),
+    re.compile(r"\bcloud\s+(?:devsecops\s+)?engineer\b|\bdevsecops\b", re.I),
+    # A bare "Developer" / "Senior Developer" (not Business/Developer Advocate/Relations…).
+    re.compile(
+        r"^(?:(?:senior|junior|lead|staff|principal|sr\.?|jr\.?|associate|intern)\s+)*developer\b"
+        r"(?!\s+(?:advocate|relations?|engagement|experience|success|gtm|technology|marketing))",
+        re.I,
+    ),
+]
+
+PUBLIC_EXTRA_SOFTWARE_EXCLUDE = re.compile(
+    r"\bhardware\b|\bmanufacturing\b|\bmechanical\b|\belectrical\b|\bcivil\b|\bchemical\b|\bstructural\b"
+    r"|\bpropulsion\b|\bavionics\b|\bfacilit|\bproduction\b|\btechnician\b|\bcnc\b|\bcmm\b|\bedm\b"
+    r"|\bbusiness developer\b|\bdeveloper (?:advocate|relations?)\b|\bfood\b|\bmanager\b|\bdirector\b"
+    r"|\bcustomer\b|\bfield\b|\bcommissioning\b",
+    re.I,
+)
+
+
+def is_extra_software_title(title):
+    """True for a title that's plainly software work but missed by every
+    PUBLIC_ROLE_PATTERNS discipline (see PUBLIC_EXTRA_SOFTWARE_PATTERNS)."""
+    if PUBLIC_EXTRA_SOFTWARE_EXCLUDE.search(title):
+        return False
+    return any(p.search(title) for p in PUBLIC_EXTRA_SOFTWARE_PATTERNS)
+
 
 PUBLIC_SOFTWARE_ROLE_TYPES = {
     "software_engineer",
@@ -401,6 +455,8 @@ def detect_role_type(title):
     if PUBLIC_ROLE_PATTERNS["machine_learning"].search(title):
         return "machine_learning"
     if PUBLIC_ROLE_PATTERNS["software_engineer"].search(title):
+        return "software_engineer"
+    if is_extra_software_title(title):
         return "software_engineer"
     return "other_swe"
 

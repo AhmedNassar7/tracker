@@ -82,6 +82,46 @@ def main():
         and mod.detect_role_type("Software Engineer Intern") == "software_engineer",
     ))
 
+    # Plain "<stack> Developer" / QA / Cloud titles used to fall through to
+    # other_swe and were dropped; the narrow extra-software rules accept them
+    # while hardware/manufacturing "Engineer"/"Programmer" titles stay out.
+    run("software role detection: plain developer/QA/cloud titles accepted", lambda: check(
+        "plain developer titles accepted",
+        all(mod.is_software_job(t) for t in [
+            "Golang Developer", "Senior Java Engineer", "JavaScript Developer", "REACT JS DEVELOPER",
+            "Senior .NET Developer", "Salesforce Developer", "Web Developer", "QA Engineer",
+            "Senior QA Engineer (Manual & Automation)", "SDET", "Cloud Engineer", "DevSecOps Engineer",
+            "Compiler Engineer", "Senior Graphics Programmer", "Engineer II, Software",
+            "New Graduate Engineer, Software", "Software Test Engineer", "Sr. SW Engineer", "Developer",
+            "Senior C++ Engineer, Real-time Engine",
+        ]),
+        details=str([t for t in ["Golang Developer", "QA Engineer", "Cloud Engineer", "Engineer II, Software"]
+                     if not mod.is_software_job(t)]),
+    ))
+    run("software role detection: hardware/manufacturing/non-dev titles stay out", lambda: check(
+        "non-software titles rejected",
+        not any(mod.is_software_job(t) for t in [
+            "CNC Programmer (Starlink)", "CMM Programmer (Starship)", "Build Engineer (Starship)",
+            "Hardware Test Automation Engineer", "Manufacturing Quality Assurance Engineer",
+            "Developer Advocate", "Developer Relations Manager", "Business Developer",
+            "QA Manager", "Mechanical Design Engineer", "Test Engineer, Avionics",
+            "Production Electrical Tester Technician", "Sales Engineer", "Account Executive",
+        ]),
+        details=str([t for t in ["CNC Programmer (Starlink)", "Build Engineer (Starship)", "Developer Advocate",
+                                  "Hardware Test Automation Engineer"] if mod.is_software_job(t)]),
+    ))
+    # `ios`/`sre`/`infra` were un-anchored substrings: "Studios" → mobile,
+    # "Rechtsreferendar" → infrastructure. Whole-word now.
+    run("role patterns are whole-word (Studios ≠ iOS, Rechtsreferendar ≠ SRE)", lambda: check(
+        "whole-word role patterns",
+        mod.detect_role_type("Senior RTR Accountant, Studios") == "other_swe"
+        and mod.detect_role_type("Rechtsreferendare im Bereich Corporate und M&A") == "other_swe"
+        and mod.detect_role_type("iOS Engineer") == "mobile"
+        and mod.detect_role_type("Site Reliability Engineer") == "infrastructure"
+        and mod.detect_role_type("SRE") == "infrastructure"
+        and not mod.is_software_job("Senior RTR Accountant, Studios"),
+    ))
+
     devpost_payload = {
         "hackathons": [
             {
