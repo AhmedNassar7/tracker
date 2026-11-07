@@ -122,6 +122,7 @@ jobs:
           for path in \
             "data/site-index.json" \
             "data/stats-history.json" \
+            "data/company-history.json" \
             "data/feeds/all-jobs.xml" \
             "data/feeds/internships.xml" \
             "data/feeds/new-grad.xml" \

@@ -17,7 +17,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from schema_validator import load_schema, validate_records
+from schema_validator import load_schema, validate_record, validate_records
 from rss_feeds import FEED_PRESETS, write_feeds
 from company_names import prettify_company_name
 from net import load_link_cache
@@ -34,6 +34,8 @@ COUNTS_JSON = DATA_OUT / "counts.json"
 SITE_INDEX_SCHEMA = ROOT / "config" / "site-index.schema.json"
 STATS_HISTORY_JSON = DATA_OUT / "stats-history.json"
 STATS_HISTORY_SCHEMA = ROOT / "config" / "stats-history.schema.json"
+COMPANY_HISTORY_JSON = DATA_OUT / "company-history.json"
+COMPANY_HISTORY_SCHEMA = ROOT / "config" / "company-history.schema.json"
 STORY_CARDS_JSON = DATA_OUT / "story-cards.json"
 STORY_CARDS_SCHEMA = ROOT / "config" / "story-cards.schema.json"
 # One point per hourly run; 90 days keeps the file bounded (~2,160 points at
@@ -677,6 +679,7 @@ def render_data_readme(
         "| [stats.json](stats.json) | Counts of the curated feed broken down by level, country, and source |",
         "| [site-index.json](site-index.json) | Both feeds above, flattened into one list with a content checksum — meant for a future site to fetch as a single lightweight file |",
         "| [stats-history.json](stats-history.json) | One snapshot of the totals above per hourly run, last 90 days — a free trend line with no extra fetching (see [config/stats-history.schema.json](../config/stats-history.schema.json)) |",
+        "| [company-history.json](company-history.json) | Open published jobs per company per day, last 90 days, for **every** company (not just the top 20) — powers the trend line on each company page (see [config/company-history.schema.json](../config/company-history.schema.json)) |",
         "",
         "## RSS Feeds",
         "",
@@ -1103,6 +1106,75 @@ def update_stats_history(
     }
 
 
+def update_company_history(existing_history: dict, jobs: list[dict], now_iso: str) -> dict:
+    """Fold today's per-company open-job counts into the rolling per-day
+    history behind the /company pages' trend line (D5 in
+    docs/WEBSITE-VISION-PLAN.html §11).
+
+    stats-history.json can't serve this: it keeps only the top 20 companies
+    per snapshot, so a company slipping out of the top 20 would read as a drop
+    to zero. This file counts EVERY company in the published job set, once per
+    UTC day (the last run of a day overwrites that day), as arrays aligned to
+    a shared ``days`` list — ~3 bytes per company-day, so ~400 companies x 90
+    days stays around 100KB.
+
+    Pure like update_stats_history: takes the previous dict, no disk or clock.
+    ``jobs`` must be the complete published job set (site-index job items), so
+    a company missing from a recorded day is a true zero. No backfill — history
+    starts when this first runs.
+    """
+    today = now_iso[:10]
+    days = list(existing_history.get("days", []) or [])
+    companies = {
+        name: list(counts)
+        for name, counts in (existing_history.get("companies", {}) or {}).items()
+        if isinstance(counts, list) and len(counts) == len(days)
+    }
+
+    if not days or days[-1] != today:
+        days.append(today)
+        for counts in companies.values():
+            counts.append(0)
+    today_idx = len(days) - 1
+
+    tally: dict[str, int] = {}
+    for job in jobs:
+        name = (job.get("company") or "").strip()
+        if name:
+            tally[name] = tally.get(name, 0) + 1
+
+    # Overwrite today's slot for everyone: companies present get their count,
+    # companies we already track but that are gone today get 0.
+    for name in companies:
+        companies[name][today_idx] = tally.get(name, 0)
+    for name, n in tally.items():
+        if name not in companies:
+            companies[name] = [0] * today_idx + [n]
+
+    cutoff = (
+        datetime.datetime.strptime(today, "%Y-%m-%d") - datetime.timedelta(days=STATS_HISTORY_RETENTION_DAYS)
+    ).strftime("%Y-%m-%d")
+    keep_from = next((i for i, d in enumerate(days) if d >= cutoff), len(days))
+    days = days[keep_from:]
+    companies = {name: counts[keep_from:] for name, counts in companies.items()}
+    companies = {name: counts for name, counts in companies.items() if any(counts)}
+
+    history = {
+        "updated_at": now_iso,
+        "retention_days": STATS_HISTORY_RETENTION_DAYS,
+        "days": days,
+        # Sorted so the committed file diffs cleanly run to run.
+        "companies": dict(sorted(companies.items())),
+    }
+    errors = validate_record(history, load_schema(COMPANY_HISTORY_SCHEMA), path="company-history.json")
+    for name, counts in history["companies"].items():
+        if len(counts) != len(days) or any(not isinstance(c, int) or isinstance(c, bool) or c < 0 for c in counts):
+            errors.append(f"company-history.json.companies[{name!r}]: not {len(days)} non-negative integers")
+    if errors:
+        raise ValueError("company-history.json failed schema validation:\n" + "\n".join(errors))
+    return history
+
+
 # Region code -> the phrase a story card reads it as ("Most roles in the US,
 # then Europe"). Human-facing text, so it lives in the generator like every
 # other string in this repo. 'remote'/'unknown' are deliberately absent — a
@@ -1305,6 +1377,12 @@ def main() -> int:
     stats_history = update_stats_history(load_json(STATS_HISTORY_JSON), stats, now_iso, dimensions)
     STATS_HISTORY_JSON.write_text(json.dumps(stats_history, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {STATS_HISTORY_JSON} ({len(stats_history['snapshots'])} snapshots)")
+
+    company_history = update_company_history(load_json(COMPANY_HISTORY_JSON), published_jobs, now_iso)
+    # Compact separators: ~400 companies x 90 days of integers, pretty-printing
+    # every array element on its own line would balloon the file ~5x.
+    COMPANY_HISTORY_JSON.write_text(json.dumps(company_history, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    print(f"Wrote {COMPANY_HISTORY_JSON} ({len(company_history['companies'])} companies, {len(company_history['days'])} days)")
 
     story_cards = build_story_cards(stats_history, now_iso)
     STORY_CARDS_JSON.write_text(json.dumps(story_cards, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

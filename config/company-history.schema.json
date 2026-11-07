@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CompanyHistory",
+  "description": "Shape of data/company-history.json — one count of open published jobs per company per UTC day, written by scripts/build_data_readme.py (update_company_history) so a /company page can draw a real 'open roles over time' line for EVERY company, not just the 20 that fit stats-history.json's top_companies. 'days' is the ascending list of UTC dates a snapshot was taken (the last run of a day wins); 'companies' maps the company name exactly as it appears in site-index.json to an array of integer counts aligned index-for-index with 'days'. A company absent from a recorded day has count 0 (site-index.json is the complete published set, so absence is a real zero, never a gap). History starts the day this file was first written — there is deliberately NO backfill from stats-history.json, whose top-20 cap would turn 'fell out of the top 20' into a fake zero. A company whose every count is 0 is dropped. Capped to the last retention_days days.",
+  "type": "object",
+  "required": ["updated_at", "retention_days", "days", "companies"],
+  "additionalProperties": false,
+  "properties": {
+    "updated_at": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$",
+      "description": "UTC timestamp of the run that last wrote this file"
+    },
+    "retention_days": {
+      "type": "integer",
+      "description": "How many days of history are kept (same as stats-history.json: 90)"
+    },
+    "days": {
+      "type": "array",
+      "description": "Ascending UTC dates (YYYY-MM-DD) with a recorded snapshot",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      }
+    },
+    "companies": {
+      "type": "object",
+      "description": "company name -> array of non-negative integer counts, one per entry in 'days'"
+    }
+  }
+}

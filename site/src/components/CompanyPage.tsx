@@ -2,14 +2,16 @@ import { useEffect, useMemo, useState } from "react";
 import { BASE_URL } from "../lib/basePath";
 import { SINGLE_SERIES_COLOR } from "../lib/chartColors";
 import { companyTier } from "../lib/companyTiers";
-import { fetchSiteIndex } from "../lib/dataSource";
+import { companyTrendPoints } from "../lib/companyTrend";
+import { fetchCompanyHistory, fetchSiteIndex } from "../lib/dataSource";
 import { regionForItem } from "../lib/geo";
 import { prettifyCompany, formatLevel, REGION_LABELS } from "../lib/labels";
-import type { SiteIndex, SiteIndexEntry } from "../lib/types";
+import type { CompanyHistory, SiteIndex, SiteIndexEntry } from "../lib/types";
 import BarList from "./BarList";
 import CompanyAvatar from "./CompanyAvatar";
 import OpportunityTable from "./OpportunityTable";
 import SkeletonTable from "./SkeletonTable";
+import TrendLine from "./TrendLine";
 
 // One company, every open role, plus a level/region breakdown — the
 // "storyteller" view the plain list can't give. Reads the same runtime
@@ -47,6 +49,9 @@ export default function CompanyPage() {
     status: "loading",
   });
   const [companyParam] = useState(readCompanyParam);
+  // Optional enhancement: a failed/missing company-history.json (day zero, or
+  // an older deploy) just means no trend section — never an error state.
+  const [history, setHistory] = useState<CompanyHistory | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -55,6 +60,9 @@ export default function CompanyPage() {
       .catch((err: unknown) =>
         !cancelled && setState({ status: "error", message: err instanceof Error ? err.message : "Unknown error" }),
       );
+    fetchCompanyHistory()
+      .then((h) => !cancelled && setHistory(h))
+      .catch(() => {});
     return () => {
       cancelled = true;
     };
@@ -74,6 +82,10 @@ export default function CompanyPage() {
 
   const tier = companyTier(name);
   const jobs = items.filter((i) => i.kind === "job");
+  const trend = useMemo(() => {
+    const rawNames = new Set(items.filter((i) => i.kind === "job" && i.company).map((i) => i.company));
+    return companyTrendPoints(history, [...rawNames]);
+  }, [history, items]);
 
   const backLink = (
     <a href={BASE_URL} className="text-sm text-teal-700 hover:underline dark:text-teal-400">
@@ -134,6 +146,20 @@ export default function CompanyPage() {
             <BarList items={topCounts(jobs, (i) => regionForItem(i), (k) => REGION_LABELS[k] ?? k)} />
           </section>
         </div>
+      )}
+
+      {trend.length > 0 && (
+        <section>
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+            Open roles over time
+          </h2>
+          <TrendLine points={trend} label="Open roles" />
+          {trend.length === 1 && (
+            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+              We started recording per-company history today — the line fills in one point a day.
+            </p>
+          )}
+        </section>
       )}
 
       <OpportunityTable items={items} />

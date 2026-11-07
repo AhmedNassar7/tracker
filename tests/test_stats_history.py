@@ -172,6 +172,60 @@ def main():
         )["snapshots"]) == 2,
     ))
 
+    # D5 — per-company daily history (every company, not just the top 20)
+    def jobs_of(**counts):
+        return [{"company": c} for c, n in counts.items() for _ in range(n)]
+
+    h1 = bdr.update_company_history({}, jobs_of(Acme=3, Beta=1), "2026-01-01T08:00:00Z")
+    run("company history: first run seeds one day, every company counted", lambda: check(
+        "seed", h1["days"] == ["2026-01-01"] and h1["companies"] == {"Acme": [3], "Beta": [1]},
+        details=str(h1),
+    ))
+    h1b = bdr.update_company_history(h1, jobs_of(Acme=5, Beta=1), "2026-01-01T20:00:00Z")
+    run("company history: a second run the same UTC day overwrites that day", lambda: check(
+        "same day overwrite", h1b["days"] == ["2026-01-01"] and h1b["companies"]["Acme"] == [5],
+        details=str(h1b),
+    ))
+    h2 = bdr.update_company_history(h1b, jobs_of(Acme=4, Gamma=2), "2026-01-02T08:00:00Z")
+    run("company history: next day appends; a vanished company is a real 0, a new one is 0-padded", lambda: check(
+        "next day", h2["days"] == ["2026-01-01", "2026-01-02"]
+        and h2["companies"]["Acme"] == [5, 4]
+        and h2["companies"]["Beta"] == [1, 0]
+        and h2["companies"]["Gamma"] == [0, 2],
+        details=str(h2),
+    ))
+    run("company history: whitespace/blank company names are normalised or skipped, never a key", lambda: check(
+        "blank names",
+        bdr.update_company_history({}, [{"company": "  Acme "}, {"company": ""}, {}], "2026-01-01T00:00:00Z")["companies"]
+        == {"Acme": [1]},
+    ))
+    run("company history: a company all-zero across the window is dropped", lambda: check(
+        "all-zero dropped",
+        bdr.update_company_history(
+            {"updated_at": "2026-01-01T00:00:00Z", "retention_days": 90, "days": ["2026-01-01"], "companies": {"Old": [0]}},
+            jobs_of(Acme=1), "2026-01-02T00:00:00Z",
+        )["companies"].keys() == {"Acme"},
+    ))
+    long_ago = {"updated_at": "2026-01-01T00:00:00Z", "retention_days": 90,
+                "days": ["2026-01-01", "2026-01-02"], "companies": {"Acme": [3, 2], "OnlyOld": [4, 0]}}
+    pruned = bdr.update_company_history(long_ago, jobs_of(Acme=1), "2026-04-05T00:00:00Z")
+    run("company history: days older than the 90-day cutoff are pruned, arrays stay aligned", lambda: check(
+        "prune", pruned["days"] == ["2026-04-05"] and pruned["companies"] == {"Acme": [1]},
+        details=str(pruned),
+    ))
+    run("company history: a corrupt existing entry (wrong length) is discarded, not propagated", lambda: check(
+        "corrupt entry",
+        bdr.update_company_history(
+            {"updated_at": "2026-01-01T00:00:00Z", "retention_days": 90, "days": ["2026-01-01"],
+             "companies": {"Bad": [1, 2, 3], "Ok": [2]}},
+            jobs_of(Ok=1), "2026-01-02T00:00:00Z",
+        )["companies"] == {"Ok": [2, 1]},
+    ))
+    run("company history: is pure — the input dict is never mutated", lambda: check(
+        "pure", h2["companies"]["Acme"] == [5, 4] and h1b["companies"]["Acme"] == [5]
+        and h1["companies"]["Acme"] == [3],
+    ))
+
     # D1 — story cards from stats-history dimensions
     def dim_snapshot(at, *, jobs_total, internships, companies, regions, remote):
         return {

@@ -142,6 +142,18 @@ export interface StatsHistory {
   snapshots: StatsHistorySnapshot[];
 }
 
+// Mirrors config/company-history.schema.json — open published jobs per
+// company per UTC day, for EVERY company (stats-history.json only keeps the
+// top 20). `companies[name][i]` is the count on `days[i]`; a company absent
+// from a recorded day is a real 0. History starts the day the file was first
+// written (no backfill), so a young file has a single day.
+export interface CompanyHistory {
+  updated_at: string;
+  retention_days: number;
+  days: string[];
+  companies: Record<string, number[]>;
+}
+
 // Mirrors config/story-cards.schema.json. `filter` is a partial FilterState
 // (a loose map here so this file needn't import filters.ts, which imports
 // this one) the client applies on click; {} = jump to the list. Values are a

@@ -1,5 +1,5 @@
 import { BASE_URL } from "./basePath";
-import type { Counts, SiteIndex, StatsHistory, StoryCards } from "./types";
+import type { CompanyHistory, Counts, SiteIndex, StatsHistory, StoryCards } from "./types";
 
 // Runtime fetch, not a build-time import — the site must show data that's at
 // most ~1h stale without ever being redeployed itself (see the plan's
@@ -65,6 +65,13 @@ export function fetchSiteIndex(): Promise<SiteIndex> {
 // git history against GitHub's rate-limited API.
 export function fetchStatsHistory(): Promise<StatsHistory> {
   return fetchJsonWithFallback<StatsHistory>("stats-history.json");
+}
+
+// data/company-history.json — per-company daily open-job counts (every
+// company, 90 days) behind the /company page's trend line. The caller treats a
+// failure (a deploy that predates the file, or day zero) as "no chart".
+export function fetchCompanyHistory(): Promise<CompanyHistory> {
+  return fetchJsonWithFallback<CompanyHistory>("company-history.json");
 }
 
 // data/story-cards.json — 3-4 auto-generated "state of hiring" cards built by
