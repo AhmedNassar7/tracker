@@ -48,7 +48,12 @@ export default function CompanyPage() {
   const [state, setState] = useState<{ status: "loading" } | { status: "error"; message: string } | { status: "loaded"; data: SiteIndex }>({
     status: "loading",
   });
-  const [companyParam] = useState(readCompanyParam);
+  // null until read on the client. The server has no URL query, so reading it
+  // during the first render made server HTML ("Loading company…") differ from
+  // the client's ("Loading Schneider Electric…") → React hydration error #418
+  // and the whole tree re-rendered.
+  const [companyParam, setCompanyParam] = useState<string | null>(null);
+  useEffect(() => setCompanyParam(readCompanyParam()), []);
   // Optional enhancement: a failed/missing company-history.json (day zero, or
   // an older deploy) just means no trend section — never an error state.
   const [history, setHistory] = useState<CompanyHistory | null>(null);
@@ -68,7 +73,7 @@ export default function CompanyPage() {
     };
   }, []);
 
-  const name = prettifyCompany(companyParam);
+  const name = prettifyCompany(companyParam ?? "");
 
   const items = useMemo(() => {
     if (state.status !== "loaded" || !companyParam) return [];
@@ -93,7 +98,7 @@ export default function CompanyPage() {
     </a>
   );
 
-  if (state.status === "loading") return <SkeletonTable label={`Loading ${name || "company"}…`} />;
+  if (state.status === "loading" || companyParam === null) return <SkeletonTable label={`Loading ${name || "company"}…`} />;
   if (state.status === "error")
     return (
       <div className="space-y-3">

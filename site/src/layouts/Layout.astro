@@ -3,6 +3,7 @@ import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import { BASE_URL } from '../lib/basePath';
 import HeaderStat from '../components/HeaderStat';
+import CommandPalette from '../components/CommandPalette';
 
 interface Props {
   title?: string;
@@ -145,6 +146,7 @@ const activeHref = NAV_LINKS.find((link) => link.match(Astro.url.pathname))?.hre
 			just the homepage hero) and the theme toggle. */}
 			<div class="flex shrink-0 items-center gap-3">
 				<HeaderStat client:load />
+				<CommandPalette client:load />
 				<button
 					id="theme-toggle"
 					type="button"
