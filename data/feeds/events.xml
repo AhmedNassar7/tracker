@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Sun, 08 Nov 2026 15:14:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 19:43:04 GMT</lastBuildDate>
     <item>
       <title>Cisco — Cisco Live APJC</title>
       <link>https://www.ciscolive.com/apjc.html</link>
@@ -1255,6 +1255,13 @@
       <title>Luma — Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team</title>
       <link>https://lu.ma/deepmind?k=c</link>
       <guid isPermaLink="false">a55b3bdcd72bf05f</guid>
+      <description>Global</description>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luma — Follow NeurIPS Atlanta Atlanta · Explore side events at NeurIPS Atlanta, where leading researchers and engineers share breakthroughs in AI and machine learning. December 8–13, 2026, Atlanta.</title>
+      <link>https://lu.ma/NeurIPS?k=c</link>
+      <guid isPermaLink="false">9292aa3cf88c3010</guid>
       <description>Global</description>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
     </item>
