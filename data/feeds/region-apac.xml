@@ -4,7 +4,7 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Sun, 08 Nov 2026 15:14:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 19:43:04 GMT</lastBuildDate>
     <item>
       <title>Databricks — Senior Software Engineer (App-Framework)</title>
       <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8210383002</link>
@@ -1168,13 +1168,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Product-Manager---Technical-II_R-293237</link>
-      <guid isPermaLink="false">7f8ae791f2a5e597</guid>
-      <description>Pune, India · mid_level · 10d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II, AFT Sortation, AFT Mansort</title>
       <link>https://www.amazon.jobs/en/jobs/10592289/software-development-engineer-ii-aft-sortation-aft-mansort</link>
       <guid isPermaLink="false">7cd5123c80a619bc</guid>
@@ -1221,6 +1214,13 @@
       <link>https://jobs.apple.com/en-us/details/200685623/software-engineer-traffic-ase</link>
       <guid isPermaLink="false">0a0f50c130c8235d</guid>
       <description>Shanghai, China · unknown · 10d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Product-Manager---Technical-II_R-293237</link>
+      <guid isPermaLink="false">7f8ae791f2a5e597</guid>
+      <description>Pune, India · mid_level · 10d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1421,15 +1421,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
-      <link>https://www.amazon.jobs/en/jobs/10589217/software-development-engineer-aft-external-fulfillment</link>
-      <guid isPermaLink="false">725be74960cd95f9</guid>
+      <link>https://www.amazon.jobs/en/jobs/10589205/software-development-engineer-aft-external-fulfillment</link>
+      <guid isPermaLink="false">2bf961bf217185ff</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 13d</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
-      <link>https://www.amazon.jobs/en/jobs/10589205/software-development-engineer-aft-external-fulfillment</link>
-      <guid isPermaLink="false">2bf961bf217185ff</guid>
+      <link>https://www.amazon.jobs/en/jobs/10589217/software-development-engineer-aft-external-fulfillment</link>
+      <guid isPermaLink="false">725be74960cd95f9</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 13d</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1560,10 +1560,10 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II - Java Full Stack React</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613</link>
-      <guid isPermaLink="false">3e889ecfaef7e817</guid>
-      <description>Pune, India · mid_level · 17d</description>
+      <title>Amazon — Software Development Engineer II, Prime Benefits</title>
+      <link>https://www.amazon.jobs/en/jobs/10585995/software-development-engineer-ii-prime-benefits</link>
+      <guid isPermaLink="false">a908833c1031f4d2</guid>
+      <description>Bengaluru, Karnataka, IND · mid_level · 17d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1574,17 +1574,17 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer II, Prime Benefits</title>
-      <link>https://www.amazon.jobs/en/jobs/10585995/software-development-engineer-ii-prime-benefits</link>
-      <guid isPermaLink="false">a908833c1031f4d2</guid>
-      <description>Bengaluru, Karnataka, IND · mid_level · 17d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, Ship With Amazon</title>
       <link>https://www.amazon.jobs/en/jobs/10586124/software-development-engineer-ship-with-amazon</link>
       <guid isPermaLink="false">095782a6b5b774b3</guid>
       <description>Hyderabad, Telangana, IND · unknown · 17d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II - Java Full Stack React</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613</link>
+      <guid isPermaLink="false">3e889ecfaef7e817</guid>
+      <description>Pune, India · mid_level · 17d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1749,13 +1749,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290039</link>
-      <guid isPermaLink="false">69a4da45cbc0a5cd</guid>
-      <description>Pune, India · mid_level · 24d</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer I</title>
       <link>https://www.amazon.jobs/en/jobs/10580014/software-development-engineer-i</link>
       <guid isPermaLink="false">1c339611b40fdad6</guid>
@@ -1788,6 +1781,13 @@
       <link>https://www.amazon.jobs/en/jobs/10580010/software-development-engineer-i-ftc</link>
       <guid isPermaLink="false">a95b14b174e33f8b</guid>
       <description>Hyderabad, Telangana, IND · entry_level · 24d</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290039</link>
+      <guid isPermaLink="false">69a4da45cbc0a5cd</guid>
+      <description>Pune, India · mid_level · 24d</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2400,13 +2400,6 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer, Seller and AM GenAI Tools</title>
-      <link>https://www.amazon.jobs/en/jobs/10558939/software-development-engineer-seller-and-am-genai-tools</link>
-      <guid isPermaLink="false">4292c8376892263f</guid>
-      <description>Hyderabad, Telangana, IND · unknown · 45d</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Okta — Principal UI Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/8229910?gh_jid=8229910</link>
       <guid isPermaLink="false">40636db104f57ea3</guid>
@@ -2558,13 +2551,6 @@
       <link>https://www.amazon.jobs/en/jobs/10554323/software-development-engineer-amazon</link>
       <guid isPermaLink="false">b8e4f3caa9318e6d</guid>
       <description>Bengaluru, Karnataka, IND · unknown · 48d</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer, Seller and AM GenAI Tools</title>
-      <link>https://www.amazon.jobs/en/jobs/10554458/software-development-engineer-seller-and-am-genai-tools</link>
-      <guid isPermaLink="false">9baad6f053630df9</guid>
-      <description>Hyderabad, Telangana, IND · unknown · 48d</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2995,6 +2981,13 @@
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer -I, IESP Merchant Tech</title>
+      <link>https://www.amazon.jobs/en/jobs/10511883/software-development-engineer-i-iesp-merchant-tech</link>
+      <guid isPermaLink="false">90d0aa0d7f4b613d</guid>
+      <description>Bengaluru, Karnataka, IND · unknown · 76d</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon — Software Development Engineer, Vendor Experience</title>
       <link>https://www.amazon.jobs/en/jobs/10512590/software-development-engineer-vendor-experience</link>
       <guid isPermaLink="false">8f812e964ded5e55</guid>
@@ -3105,13 +3098,6 @@
       <guid isPermaLink="false">4aa173a1d295e3bd</guid>
       <description>Hyderabad, Telangana, IND · unknown · 96d</description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon — Software Development Engineer II , Amazon Cross Border Tech</title>
-      <link>https://www.amazon.jobs/en/jobs/10488199/software-development-engineer-ii-amazon-cross-border-tech</link>
-      <guid isPermaLink="false">4fc9404981141509</guid>
-      <description>Bengaluru, Karnataka, IND · mid_level · 101d</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, FBA</title>
@@ -3336,6 +3322,12 @@
       <guid isPermaLink="false">285b5a3b735c47d0</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 178d</description>
       <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Firmware Application Engineer - System Software</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Senior-Firmware-Application-Engineer---System-Software_JR2029386</link>
+      <guid isPermaLink="false">950e5347232b224f</guid>
+      <description>Taiwan, Taipei +1 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027</title>
