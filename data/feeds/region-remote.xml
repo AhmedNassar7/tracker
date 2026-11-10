@@ -4,7 +4,49 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Tue, 10 Nov 2026 17:52:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 23:20:09 GMT</lastBuildDate>
+    <item>
+      <title>Airbnb — Senior Staff Software Engineer, Marketing Technology</title>
+      <link>https://careers.airbnb.com/positions/8095365?gh_jid=8095365</link>
+      <guid isPermaLink="false">950db58c68598882</guid>
+      <description>Remote, USA · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Senior Staff Software Engineer, Payments</title>
+      <link>https://careers.airbnb.com/positions/7525479?gh_jid=7525479</link>
+      <guid isPermaLink="false">657854623823b0b0</guid>
+      <description>Remote - Bengaluru, India · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Senior Staff Software Engineer, Trust</title>
+      <link>https://careers.airbnb.com/positions/7818982?gh_jid=7818982</link>
+      <guid isPermaLink="false">797113e2ee5471b4</guid>
+      <description>Remote - US · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Staff Backend Engineer - Ads Platform</title>
+      <link>https://careers.airbnb.com/positions/8074897?gh_jid=8074897</link>
+      <guid isPermaLink="false">1a8c9b1d17721adf</guid>
+      <description>Remote - USA · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Staff Software Engineer, Cloud Infrastructure</title>
+      <link>https://careers.airbnb.com/positions/8257909?gh_jid=8257909</link>
+      <guid isPermaLink="false">8e059d38d13ce991</guid>
+      <description>Remote, USA · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Airbnb — Staff Software Engineer, Payments (AirCover Insurance Platform)</title>
+      <link>https://careers.airbnb.com/positions/8259526?gh_jid=8259526</link>
+      <guid isPermaLink="false">35f1421ae3a213b5</guid>
+      <description>Remote - USA · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Celonis — Software Engineer</title>
       <link>https://job-boards.greenhouse.io/celonis/jobs/8190822003?gh_jid=8190822003</link>
@@ -20,10 +62,24 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Dropbox — Backend Product Software Engineer</title>
-      <link>https://jobs.dropbox.com/listing/7752226?gh_jid=7752226</link>
-      <guid isPermaLink="false">67ddaec5fc3e5675</guid>
-      <description>Remote - Mexico · other · 0d</description>
+      <title>Coinbase — Senior Software Engineer</title>
+      <link>https://www.coinbase.com/careers/positions/8368072?gh_jid=8368072</link>
+      <guid isPermaLink="false">3479955fa4658a79</guid>
+      <description>Remote - Brazil · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase — Software Engineer, Enterprise Apps</title>
+      <link>https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479</link>
+      <guid isPermaLink="false">d1906c58670ecc64</guid>
+      <description>Remote - Brazil · other · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase — Software Engineer-1, Money Movement</title>
+      <link>https://www.coinbase.com/careers/positions/8278991?gh_jid=8278991</link>
+      <guid isPermaLink="false">dfca1810cb28ea84</guid>
+      <description>Remote - USA · other · 0d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -34,10 +90,10 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Dropbox — Full Stack Product Software Engineer</title>
-      <link>https://jobs.dropbox.com/listing/6449729?gh_jid=6449729</link>
-      <guid isPermaLink="false">645dd75dc67a2bc9</guid>
-      <description>Remote - Poland · other · 0d</description>
+      <title>Dropbox — Backend Product Software Engineer</title>
+      <link>https://jobs.dropbox.com/listing/7752226?gh_jid=7752226</link>
+      <guid isPermaLink="false">67ddaec5fc3e5675</guid>
+      <description>Remote - Mexico · other · 0d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -45,6 +101,13 @@
       <link>https://jobs.dropbox.com/listing/7172839?gh_jid=7172839</link>
       <guid isPermaLink="false">8b884d400f63110a</guid>
       <description>Remote - Mexico · other · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dropbox — Full Stack Product Software Engineer</title>
+      <link>https://jobs.dropbox.com/listing/6449729?gh_jid=6449729</link>
+      <guid isPermaLink="false">645dd75dc67a2bc9</guid>
+      <description>Remote - Poland · other · 0d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -70,16 +133,23 @@
     </item>
     <item>
       <title>Dropbox — Principal Software Engineer, Product Engineering</title>
+      <link>https://jobs.dropbox.com/listing/8261916?gh_jid=8261916</link>
+      <guid isPermaLink="false">c3f8908d46e9e442</guid>
+      <description>Remote - Canada: Select locations · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dropbox — Principal Software Engineer, Product Engineering</title>
       <link>https://jobs.dropbox.com/listing/8261911?gh_jid=8261911</link>
       <guid isPermaLink="false">7ba5bc514c5f5430</guid>
       <description>Remote - US: All locations · mid_level · 0d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Dropbox — Principal Software Engineer, Product Engineering</title>
-      <link>https://jobs.dropbox.com/listing/8261916?gh_jid=8261916</link>
-      <guid isPermaLink="false">c3f8908d46e9e442</guid>
-      <description>Remote - Canada: Select locations · mid_level · 0d</description>
+      <title>Dropbox — Senior Corporate Enterprise Platform Engineer, Windows</title>
+      <link>https://jobs.dropbox.com/listing/8280093?gh_jid=8280093</link>
+      <guid isPermaLink="false">0614581a6343d1ab</guid>
+      <description>Remote - US: Select locations · mid_level · 0d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -90,10 +160,17 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Dropbox — Senior Corporate Enterprise Platform Engineer, Windows</title>
-      <link>https://jobs.dropbox.com/listing/8280093?gh_jid=8280093</link>
-      <guid isPermaLink="false">0614581a6343d1ab</guid>
-      <description>Remote - US: Select locations · mid_level · 0d</description>
+      <title>Instacart — Staff Software Engineer, Ads Data Platform</title>
+      <link>https://instacart.careers/job/?gh_jid=8372848</link>
+      <guid isPermaLink="false">ad22e3ed04a28b28</guid>
+      <description>Canada - Remote (ON, AB, BC, or NS Only) · mid_level · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Instacart — Staff Software Engineer, Ads Data Platform</title>
+      <link>https://instacart.careers/job/?gh_jid=8372846</link>
+      <guid isPermaLink="false">f5203acdaca9ad4b</guid>
+      <description>United States - Remote · mid_level · 0d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -108,6 +185,13 @@
       <link>https://job-boards.greenhouse.io/twilio/jobs/8319386</link>
       <guid isPermaLink="false">e0af39b071ccae1a</guid>
       <description>Remote - India · other · 0d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twilio — Staff Software Engineer (L4)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8240288</link>
+      <guid isPermaLink="false">f779bf46f629ed16</guid>
+      <description>Remote - Ireland · mid_level · 0d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -132,10 +216,10 @@
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Software Engineer</title>
-      <link>https://www.coinbase.com/careers/positions/8368072?gh_jid=8368072</link>
-      <guid isPermaLink="false">3479955fa4658a79</guid>
-      <description>Remote - Brazil · mid_level · 1d</description>
+      <title>Coinbase — Senior Software Engineer, Backend (Consumer - Risk)</title>
+      <link>https://www.coinbase.com/careers/positions/8351163?gh_jid=8351163</link>
+      <guid isPermaLink="false">11ad768d648c16e1</guid>
+      <description>Remote - USA · mid_level · 1d</description>
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -146,23 +230,9 @@
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Senior Software Engineer, Backend (Consumer - Risk)</title>
-      <link>https://www.coinbase.com/careers/positions/8351163?gh_jid=8351163</link>
-      <guid isPermaLink="false">11ad768d648c16e1</guid>
-      <description>Remote - USA · mid_level · 1d</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coinbase — Software Engineer, Wallets, Liquidity and Bridging Team</title>
       <link>https://www.coinbase.com/careers/positions/8139750?gh_jid=8139750</link>
       <guid isPermaLink="false">e11d7b0ed1a4ef37</guid>
-      <description>Remote - USA · other · 1d</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Software Engineer-1</title>
-      <link>https://www.coinbase.com/careers/positions/8278991?gh_jid=8278991</link>
-      <guid isPermaLink="false">8463438d4a464323</guid>
       <description>Remote - USA · other · 1d</description>
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -178,13 +248,6 @@
       <link>https://job-boards.greenhouse.io/discord/jobs/8703614002</link>
       <guid isPermaLink="false">874ff842e5aa8f89</guid>
       <description>San Francisco Bay Area or Remote (U.S.) · other · 1d</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Discord — Staff Software Engineer - Consumer Revenue</title>
-      <link>https://job-boards.greenhouse.io/discord/jobs/8464570002</link>
-      <guid isPermaLink="false">604b495a930ee9f5</guid>
-      <description>Remote · mid_level · 1d</description>
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -266,16 +329,16 @@
     </item>
     <item>
       <title>Coinbase — Staff Software Engineer - Backend (Consumer - Agentic Trading)</title>
-      <link>https://www.coinbase.com/careers/positions/8356846?gh_jid=8356846</link>
-      <guid isPermaLink="false">f6d1dc4f9b6afea9</guid>
-      <description>Remote - USA · mid_level · 4d</description>
+      <link>https://www.coinbase.com/careers/positions/8359515?gh_jid=8359515</link>
+      <guid isPermaLink="false">b0eb67ffdc63904a</guid>
+      <description>Remote - Canada · mid_level · 4d</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coinbase — Staff Software Engineer - Backend (Consumer - Agentic Trading)</title>
-      <link>https://www.coinbase.com/careers/positions/8359515?gh_jid=8359515</link>
-      <guid isPermaLink="false">b0eb67ffdc63904a</guid>
-      <description>Remote - Canada · mid_level · 4d</description>
+      <link>https://www.coinbase.com/careers/positions/8356846?gh_jid=8356846</link>
+      <guid isPermaLink="false">f6d1dc4f9b6afea9</guid>
+      <description>Remote - USA · mid_level · 4d</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -287,16 +350,16 @@
     </item>
     <item>
       <title>Coinbase — Staff Software Engineer, Frontend/Mobile (Consumer - Agentic Trading)</title>
-      <link>https://www.coinbase.com/careers/positions/8356850?gh_jid=8356850</link>
-      <guid isPermaLink="false">b605bb428af3db4b</guid>
-      <description>Remote - USA · mid_level · 4d</description>
+      <link>https://www.coinbase.com/careers/positions/8359446?gh_jid=8359446</link>
+      <guid isPermaLink="false">05cae25bb499ff25</guid>
+      <description>Remote - Canada · mid_level · 4d</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coinbase — Staff Software Engineer, Frontend/Mobile (Consumer - Agentic Trading)</title>
-      <link>https://www.coinbase.com/careers/positions/8359446?gh_jid=8359446</link>
-      <guid isPermaLink="false">05cae25bb499ff25</guid>
-      <description>Remote - Canada · mid_level · 4d</description>
+      <link>https://www.coinbase.com/careers/positions/8356850?gh_jid=8356850</link>
+      <guid isPermaLink="false">b605bb428af3db4b</guid>
+      <description>Remote - USA · mid_level · 4d</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -749,16 +812,16 @@
     </item>
     <item>
       <title>Coinbase — Senior Software Engineer, Backend (Retail DEX)</title>
-      <link>https://www.coinbase.com/careers/positions/8243517?gh_jid=8243517</link>
-      <guid isPermaLink="false">e873abfefc59ba53</guid>
-      <description>Remote - Canada · mid_level · 11d</description>
+      <link>https://www.coinbase.com/careers/positions/8243520?gh_jid=8243520</link>
+      <guid isPermaLink="false">b32950d876674547</guid>
+      <description>Remote - USA · mid_level · 11d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coinbase — Senior Software Engineer, Backend (Retail DEX)</title>
-      <link>https://www.coinbase.com/careers/positions/8243520?gh_jid=8243520</link>
-      <guid isPermaLink="false">b32950d876674547</guid>
-      <description>Remote - USA · mid_level · 11d</description>
+      <link>https://www.coinbase.com/careers/positions/8243517?gh_jid=8243517</link>
+      <guid isPermaLink="false">e873abfefc59ba53</guid>
+      <description>Remote - Canada · mid_level · 11d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -909,10 +972,10 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Coinbase — Software Engineer, Enterprise Apps</title>
-      <link>https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479</link>
-      <guid isPermaLink="false">d1906c58670ecc64</guid>
-      <description>Remote - Brazil · other · 11d</description>
+      <title>Coinbase — Staff Software Engineer</title>
+      <link>https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618</link>
+      <guid isPermaLink="false">b565a6552456eae5</guid>
+      <description>Remote - USA · mid_level · 11d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -920,13 +983,6 @@
       <link>https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650</link>
       <guid isPermaLink="false">317a89746e5d9034</guid>
       <description>Remote - Israel · mid_level · 11d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coinbase — Staff Software Engineer</title>
-      <link>https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618</link>
-      <guid isPermaLink="false">b565a6552456eae5</guid>
-      <description>Remote - USA · mid_level · 11d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1302,16 +1358,16 @@
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
-      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
-      <description>Remote - Ontario, Canada · other · 18d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
+      <guid isPermaLink="false">c6e69af605bd2478</guid>
+      <description>Remote - United States · other · 18d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Reddit — Software Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/6469397</link>
-      <guid isPermaLink="false">c6e69af605bd2478</guid>
-      <description>Remote - United States · other · 18d</description>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/6512458</link>
+      <guid isPermaLink="false">26cbf983a2f6c72d</guid>
+      <description>Remote - Ontario, Canada · other · 18d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1378,13 +1434,6 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Airbnb — Senior Staff Software Engineer, Payments</title>
-      <link>https://careers.airbnb.com/positions/7525479?gh_jid=7525479</link>
-      <guid isPermaLink="false">657854623823b0b0</guid>
-      <description>Remote - Bengaluru, India · mid_level · 19d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic — IT Systems Engineer, Client Platform Engineer, ChromeOS</title>
       <link>https://job-boards.greenhouse.io/anthropic/jobs/5456018008</link>
       <guid isPermaLink="false">ba18b2b06be10efd</guid>
@@ -1411,13 +1460,6 @@
       <guid isPermaLink="false">f64780661f6511fd</guid>
       <description>United States - Remote · mid_level · 21d</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Cloud Infrastructure</title>
-      <link>https://careers.airbnb.com/positions/8257909?gh_jid=8257909</link>
-      <guid isPermaLink="false">8e059d38d13ce991</guid>
-      <description>Remote, USA · mid_level · 22d</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Alan — Fullstack Software Engineer (x/f/m) - Alan Shop</title>
@@ -1469,13 +1511,6 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Airbnb — Senior Staff Software Engineer, Marketing Technology</title>
-      <link>https://careers.airbnb.com/positions/8095365?gh_jid=8095365</link>
-      <guid isPermaLink="false">950db58c68598882</guid>
-      <description>Remote, USA · mid_level · 29d</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Instacart — Senior Software Engineer II - Ads Quality</title>
       <link>https://instacart.careers/job/?gh_jid=8234282</link>
       <guid isPermaLink="false">82f008b8ffa6ff08</guid>
@@ -1511,13 +1546,6 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Airbnb — Staff Software Engineer, Payments (AirCover Insurance Platform)</title>
-      <link>https://careers.airbnb.com/positions/8259526?gh_jid=8259526</link>
-      <guid isPermaLink="false">35f1421ae3a213b5</guid>
-      <description>Remote - USA · mid_level · 35d</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Instacart — Senior Software Engineer II, Marketing Enablement &amp; Technology</title>
       <link>https://instacart.careers/job/?gh_jid=8141535</link>
       <guid isPermaLink="false">06c2375b00c498c9</guid>
@@ -1537,20 +1565,6 @@
       <guid isPermaLink="false">7ba16dc810731269</guid>
       <description>Remote-Friendly (Travel Required) | San Francisco, CA · mid_level · 40d</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Senior Staff Software Engineer, Trust</title>
-      <link>https://careers.airbnb.com/positions/7818982?gh_jid=7818982</link>
-      <guid isPermaLink="false">797113e2ee5471b4</guid>
-      <description>Remote - US · mid_level · 42d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Backend Engineer - Ads Platform</title>
-      <link>https://careers.airbnb.com/positions/8074897?gh_jid=8074897</link>
-      <guid isPermaLink="false">1a8c9b1d17721adf</guid>
-      <description>Remote - USA · mid_level · 42d</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic — Senior+ Software Engineer, Legal Tech</title>
@@ -1686,10 +1700,34 @@
       <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1</link>
+      <guid isPermaLink="false">fcb34d6177e0786a</guid>
+      <description>US, WA, Remote +5 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Storage Infrastructure Software Engineer - EDA Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658</link>
+      <guid isPermaLink="false">042fe41a15c8c201</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior System Software Engineer - Scientific Computing PaaS</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Scientific-Computing-PaaS_JR2024331</link>
+      <guid isPermaLink="false">9fb930e8e8ad5fcf</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Systems Software Engineer, Kubernetes Scale - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Spain-Remote/Senior-Systems-Software-Engineer--Kubernetes-Scale---DGX-Cloud_JR2020234-1</link>
       <guid isPermaLink="false">17598759d3afcdd9</guid>
       <description>Spain, Remote +2 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>Salesforce — Senior Staff Prototyping Engineer, iOS</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/Senior-Staff-Prototyping-Engineer--iOS_JR360080-1</link>
+      <guid isPermaLink="false">572e9ca71679e5de</guid>
+      <description>California - San Francisco Metro - Remote +4 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Logistics Manager, Data Center Infrastructure</title>
@@ -1798,18 +1836,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214</link>
       <guid isPermaLink="false">1bc3f00a63ebf573</guid>
       <description>US, CA, Santa Clara +1 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Architect - Deep Learning and HPC Communications</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Architect---Deep-Learning-and-HPC-Communications_JR2001099-1</link>
-      <guid isPermaLink="false">02c391e25ef9c3de</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 3d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, Cloud-Native Stack – CSP Engagements</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Cloud-Native-Stack---CSP-Engagements_JR2001098</link>
-      <guid isPermaLink="false">0de9814edb00c6c5</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 3d</description>
     </item>
     <item>
       <title>Adobe — Sr. iOS Engineer</title>
