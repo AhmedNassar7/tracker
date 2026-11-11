@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Wed, 11 Nov 2026 06:16:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 14:29:01 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer Early Career - Amazon Dedicated Cloud</title>
       <link>https://amazon.jobs/en/jobs/10601956/software-development-engineer-amazon-dedicated-cloud-early-career-2027-amazon-dedicated-cloud-adc?utm_source=Simplify&amp;ref=Simplify</link>
@@ -167,13 +167,6 @@
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ByteDance — Video/Image AI/ML Software Engineer - Graduate (Video and Edge, Multimedia Lab) - 2027 Start (PhD)</title>
-      <link>https://www.indeed.com/viewjob?jk=d20842772380c57d</link>
-      <guid isPermaLink="false">f0cac30d053512e3</guid>
-      <description>San Jose, CA, US · new_grad · 8d</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Unity — Software Developer New Grad - U-Accelerate: Software Developer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/U-Accelerate---Dveloppeur-euse--de-logiciels--nouveau-elle--diplm-e-----U-Accelerate--Software-Developer--New-Grad_JOBREQ-2616768?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">d324471902cb3359</guid>
@@ -231,20 +224,6 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
-      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
-      <description>San Francisco, Seattle, New York · new_grad · 13d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 13d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
       <description>London · new_grad · 13d</description>
@@ -255,6 +234,20 @@
       <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
       <guid isPermaLink="false">485c7a19842acde7</guid>
       <description>Toronto · new_grad · 13d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
+      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
+      <description>San Francisco, Seattle, New York · new_grad · 13d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 13d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -499,19 +492,19 @@
       <title>NVIDIA — AI Computing Software Developer - New College Graduate 2027</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/AI-Computing-Software-Developer---New-College-Graduate-2027_JR2029372</link>
       <guid isPermaLink="false">e36fe5a0a0a8dce5</guid>
-      <description>Taiwan, Taipei · new_grad · 0d</description>
+      <description>Taiwan, Taipei · new_grad · 1d</description>
     </item>
     <item>
       <title>Unity — U-Accelerate : Développeur(euse) de logiciels, nouveau(elle) diplômé(e) // U-Accelerate: Software Developer, New Grad</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/U-Accelerate---Dveloppeur-euse--de-logiciels--nouveau-elle--diplm-e-----U-Accelerate--Software-Developer--New-Grad_JOBREQ-2616768</link>
       <guid isPermaLink="false">6c4523fd462f5e71</guid>
-      <description>Montreal, Canada · new_grad · 8d</description>
+      <description>Montreal, Canada · new_grad · 9d</description>
     </item>
     <item>
       <title>Unity — U-Accelerate : Développeur(euse) de logiciels, nouveau(elle) diplômé(e) // U-Accelerate: Software Developer, New Grad</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/U-Accelerate---Dveloppeur-euse--de-logiciels--nouveau-elle--diplm-e-----U-Accelerate--Software-Developer--New-Grad_JOBREQ-2616768</link>
       <guid isPermaLink="false">6c4523fd462f5e71</guid>
-      <description>Montreal, Canada · new_grad · 8d</description>
+      <description>Montreal, Canada · new_grad · 9d</description>
     </item>
   </channel>
 </rss>

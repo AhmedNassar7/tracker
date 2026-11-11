@@ -4,19 +4,12 @@
     <title>tracker — Hackathons</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Hackathons tracker is currently tracking.</description>
-    <lastBuildDate>Wed, 11 Nov 2026 06:16:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 14:29:01 GMT</lastBuildDate>
     <item>
       <title>Army Institute of Technology (AIT), Pune — Logic Bumble – Coding &amp; Debugging Challenge</title>
       <link>https://unstop.com/hackathons/logic-bumble-coding-debugging-challenge-army-institute-of-technology-ait-pune-1798516</link>
       <guid isPermaLink="false">790030d91bd46b75</guid>
       <description>Online · last day</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Banasthali Vidyapith (BU), Jaipur — HackCelestia — International Hackathon</title>
-      <link>https://unstop.com/hackathons/hackcelestia-international-hackathon-banasthali-vidyapith-bu-jaipur-1775961</link>
-      <guid isPermaLink="false">e1b1e86118e37e68</guid>
-      <description>Offline · last day</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -27,13 +20,6 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>National Institute of Technology (NIT), Silchar — Coding Track - NITS Hacks 9.0</title>
-      <link>https://unstop.com/hackathons/coding-track-nits-hacks-90-national-institute-of-technology-nit-silchar-1795122</link>
-      <guid isPermaLink="false">b9065477ca004e40</guid>
-      <description>Online · last day</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>National Institute of Technology (NIT), Silchar — Software Track – NITS Hacks 9.0</title>
       <link>https://unstop.com/hackathons/software-track-nits-hacks-90-national-institute-of-technology-nit-silchar-1794955</link>
       <guid isPermaLink="false">ac7c7fab4f0b7a65</guid>
@@ -41,31 +27,31 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>IBM — IBM Db2Hack 2026</title>
-      <link>https://ibm-db2hack-2026.devpost.com/</link>
-      <guid isPermaLink="false">9e502b76ef463618</guid>
-      <description>Online · about 2 hours left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Institute of Engineering &amp; Management — The Atomiq Hackathon | Qiskit Fall Fest 2026 at IEM</title>
       <link>https://atomiq-hackathon-qff-26-iem.devpost.com/</link>
       <guid isPermaLink="false">7586b91c891f247a</guid>
-      <description>Online · about 10 hours left</description>
+      <description>Online · about 2 hours left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devin — Agentic Hackathon</title>
       <link>https://agentic-hackathon.devpost.com/</link>
       <guid isPermaLink="false">25f83e543aed0dfa</guid>
-      <description>Online · about 13 hours left</description>
+      <description>Online · about 3 hours left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>VIT Bhopal University — Health Hackathon 3.0</title>
       <link>https://health-hack-3.devpost.com/</link>
       <guid isPermaLink="false">7caf4c74278e0240</guid>
-      <description>VIT Bhopal University · about 14 hours left</description>
+      <description>VIT Bhopal University · about 5 hours left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Egain — Build, Demo, and Take Home a Working AI Support Bot</title>
+      <link>https://build-a-working-ai-support-bot.devpost.com/</link>
+      <guid isPermaLink="false">36932a81d276ec45</guid>
+      <description>eGain Corp. · 1 day left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -83,10 +69,10 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Egain — Build, Demo, and Take Home a Working AI Support Bot</title>
-      <link>https://build-a-working-ai-support-bot.devpost.com/</link>
-      <guid isPermaLink="false">36932a81d276ec45</guid>
-      <description>eGain Corp. · 2 days left</description>
+      <title>National Institute of Technology (NIT), Agartala — Technothon</title>
+      <link>https://unstop.com/hackathons/technothon-national-institute-of-technology-nit-agartala-1797032</link>
+      <guid isPermaLink="false">eee424057c0f529d</guid>
+      <description>Online · 2 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -188,10 +174,24 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>National Institute of Technology (NIT), Agartala — Technothon</title>
-      <link>https://unstop.com/hackathons/technothon-national-institute-of-technology-nit-agartala-1797032</link>
-      <guid isPermaLink="false">eee424057c0f529d</guid>
+      <title>Devfolio — Hacknauts 2.0</title>
+      <link>https://hacknauts26.devfolio.co</link>
+      <guid isPermaLink="false">fb5b6ca12b061467</guid>
+      <description>Ludhiana, India · 3 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mcgill University — Scope-AI-Thon 2026 - AI for Detection of Acute Patient Deterioration</title>
+      <link>https://scope-ai-thon-2026.devpost.com/</link>
+      <guid isPermaLink="false">fef16e5e30b14185</guid>
       <description>Online · 3 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>National Institute of Technology (NIT), Agartala — Game of Codes</title>
+      <link>https://unstop.com/hackathons/game-of-codes-national-institute-of-technology-nit-agartala-1797379</link>
+      <guid isPermaLink="false">9def366bc223f9bb</guid>
+      <description>Offline · 3 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -202,24 +202,10 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Techkriti — IARC | TECHKRITI | IIT KANPUR</title>
-      <link>https://unstop.com/hackathons/iarc-techkriti27-techkriti-1764468</link>
-      <guid isPermaLink="false">93801d7f9316864a</guid>
-      <description>Offline · 3 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Techkriti — Techkriti Grand Prix | TECHKRITI | IIT KANPUR</title>
-      <link>https://unstop.com/hackathons/techkriti-grand-prix-techkriti27-techkriti-1764465</link>
-      <guid isPermaLink="false">d47fe8c5aacd8ec7</guid>
-      <description>Offline · 3 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Hacknauts 2.0</title>
-      <link>https://hacknauts26.devfolio.co</link>
-      <guid isPermaLink="false">fb5b6ca12b061467</guid>
-      <description>Ludhiana, India · 4 days left</description>
+      <title>CodeStarters — IceHacks</title>
+      <link>https://icehacks.devpost.com/</link>
+      <guid isPermaLink="false">62e2f1e275cdec91</guid>
+      <description>Online · 4 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -237,23 +223,9 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Masters Union School of Business — Rewired (Tech Hackathon)</title>
-      <link>https://unstop.com/hackathons/rewired-tech-hackathon-road-to-milky-way-bangalore-masters-union-school-of-business-1802400</link>
-      <guid isPermaLink="false">a129b8840c019a89</guid>
-      <description>Hybrid · 4 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mcgill University — Scope-AI-Thon 2026 - AI for Detection of Acute Patient Deterioration</title>
-      <link>https://scope-ai-thon-2026.devpost.com/</link>
-      <guid isPermaLink="false">fef16e5e30b14185</guid>
-      <description>Online · 4 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>National Institute of Technology (NIT), Agartala — Game of Codes</title>
-      <link>https://unstop.com/hackathons/game-of-codes-national-institute-of-technology-nit-agartala-1797379</link>
-      <guid isPermaLink="false">9def366bc223f9bb</guid>
+      <title>Maharaja Surajmal Institute of Technology (MSIT), New Delhi — Roboforge</title>
+      <link>https://unstop.com/hackathons/roboforge-maharaja-surajmal-institute-of-technology-msit-new-delhi-1778710</link>
+      <guid isPermaLink="false">f1b87485090ce4de</guid>
       <description>Offline · 4 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -279,17 +251,10 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>CodeStarters — IceHacks</title>
-      <link>https://icehacks.devpost.com/</link>
-      <guid isPermaLink="false">62e2f1e275cdec91</guid>
+      <title>Amador Valley Girls Who Code — Technology x Health: Amador Valley Girls Who Code Hackathon</title>
+      <link>https://ai-x-health-hackathon-avgwc.devpost.com/</link>
+      <guid isPermaLink="false">d870b8a76207ad40</guid>
       <description>Online · 5 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Maharaja Surajmal Institute of Technology (MSIT), New Delhi — Roboforge</title>
-      <link>https://unstop.com/hackathons/roboforge-maharaja-surajmal-institute-of-technology-msit-new-delhi-1778710</link>
-      <guid isPermaLink="false">f1b87485090ce4de</guid>
-      <description>Offline · 5 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -307,10 +272,10 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amador Valley Girls Who Code — Technology x Health: Amador Valley Girls Who Code Hackathon</title>
-      <link>https://ai-x-health-hackathon-avgwc.devpost.com/</link>
-      <guid isPermaLink="false">d870b8a76207ad40</guid>
-      <description>Online · 6 days left</description>
+      <title>Workelate — BuildSprint</title>
+      <link>https://unstop.com/hackathons/buildsprint-workelate-1794884</link>
+      <guid isPermaLink="false">a5ac34b80e48e63d</guid>
+      <description>Hybrid · 5 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -318,6 +283,27 @@
       <link>https://unstop.com/hackathons/goblet-of-codes-kaushalya-20-chhattisgarh-swami-vivekanand-technical-university-csvtu-bhilai-chhattisgarh-1798470</link>
       <guid isPermaLink="false">ab205e709a2e9472</guid>
       <description>Offline · 6 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — Code N Mod</title>
+      <link>https://codenmod.devfolio.co</link>
+      <guid isPermaLink="false">62c79b6fa25fb311</guid>
+      <description>Tumakur, India · 6 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HackathonForEveryone — Green Shift Hacks</title>
+      <link>https://green-shift-hacks.devpost.com/</link>
+      <guid isPermaLink="false">c4d41b39d589cdf3</guid>
+      <description>Online · 6 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hierroshield Pvt Ltd — HierroCTF 2026 – Capture The Flag (CTF) Competition</title>
+      <link>https://unstop.com/hackathons/hierroctf-2026-capture-the-flag-ctf-competition-hierroshield-pvt-ltd-1800358</link>
+      <guid isPermaLink="false">1d3771a77a0b380b</guid>
+      <description>Hybrid · 6 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -335,27 +321,6 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Workelate — BuildSprint</title>
-      <link>https://unstop.com/hackathons/buildsprint-workelate-1794884</link>
-      <guid isPermaLink="false">a5ac34b80e48e63d</guid>
-      <description>Hybrid · 6 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — Code N Mod</title>
-      <link>https://codenmod.devfolio.co</link>
-      <guid isPermaLink="false">62c79b6fa25fb311</guid>
-      <description>Tumakur, India · 7 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HackathonForEveryone — Green Shift Hacks</title>
-      <link>https://green-shift-hacks.devpost.com/</link>
-      <guid isPermaLink="false">c4d41b39d589cdf3</guid>
-      <description>Online · 7 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>HackerEarth — IBM Z Day</title>
       <link>https://www.hackerearth.com/challenges/hackathon/ibm-z-day/</link>
       <guid isPermaLink="false">76178a6ffb191ecd</guid>
@@ -363,10 +328,17 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hierroshield Pvt Ltd — HierroCTF 2026 – Capture The Flag (CTF) Competition</title>
-      <link>https://unstop.com/hackathons/hierroctf-2026-capture-the-flag-ctf-competition-hierroshield-pvt-ltd-1800358</link>
-      <guid isPermaLink="false">1d3771a77a0b380b</guid>
+      <title>Masters Union School of Business — Rewired (Tech Hackathon)</title>
+      <link>https://unstop.com/hackathons/rewired-tech-hackathon-road-to-milky-way-bangalore-masters-union-school-of-business-1802400</link>
+      <guid isPermaLink="false">a129b8840c019a89</guid>
       <description>Hybrid · 7 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta — Meta VR Start Developer Competition 2026</title>
+      <link>https://start-developer-competition-26.devpost.com/</link>
+      <guid isPermaLink="false">3c05bb0551b6c102</guid>
+      <description>Online · 7 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -377,6 +349,13 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Acharya Institute of Technology — Competitive Programming</title>
+      <link>https://unstop.com/hackathons/competitive-programming-acharya-institute-of-technology-1771951</link>
+      <guid isPermaLink="false">ac5ac6d9f500678e</guid>
+      <description>Offline · 8 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Girls Who Code UCF — GWC Projects Program Fall 2026</title>
       <link>https://projects-program-fall-2026.devpost.com/</link>
       <guid isPermaLink="false">2ce5a875eff079b4</guid>
@@ -384,17 +363,38 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta — Meta VR Start Developer Competition 2026</title>
-      <link>https://start-developer-competition-26.devpost.com/</link>
-      <guid isPermaLink="false">3c05bb0551b6c102</guid>
+      <title>Wisconsin Quantum Computing Club — WQCC Qiskit Fall Fest 2026</title>
+      <link>https://wqcc-qiskit-fall-fest-2026.devpost.com/</link>
+      <guid isPermaLink="false">5d6985f6733e58dd</guid>
       <description>Online · 8 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Acharya Institute of Technology — Competitive Programming</title>
-      <link>https://unstop.com/hackathons/competitive-programming-acharya-institute-of-technology-1771951</link>
-      <guid isPermaLink="false">ac5ac6d9f500678e</guid>
+      <title>AccessEDnpo — AccessED Hacks</title>
+      <link>https://accessed-hacks.devpost.com/</link>
+      <guid isPermaLink="false">d760e011a67f0bb6</guid>
+      <description>Online · 9 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>College Of Engineering And Management,Kolaghat — Inter-College Coding Competition 2026 | Java &amp; Python | ₹10,000 in Cash Prizes+ Free Lunch</title>
+      <link>https://unstop.com/hackathons/inter-college-coding-competition-2026-college-of-engineering-and-managementkolaghat-1801814</link>
+      <guid isPermaLink="false">a2597e472c075e36</guid>
       <description>Offline · 9 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dakar Bitcoin Days — Dakar Bitcoin Hack by BTrust</title>
+      <link>https://dakar-bitcoin-hack-2026.devpost.com/</link>
+      <guid isPermaLink="false">23c113f291420c9f</guid>
+      <description>Online · 9 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — GeNarrative Clash</title>
+      <link>https://genarrative-clash.devfolio.co</link>
+      <guid isPermaLink="false">454b57e48a2e28c5</guid>
+      <description>Kolkata, India · 9 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -426,41 +426,6 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Wisconsin Quantum Computing Club — WQCC Qiskit Fall Fest 2026</title>
-      <link>https://wqcc-qiskit-fall-fest-2026.devpost.com/</link>
-      <guid isPermaLink="false">5d6985f6733e58dd</guid>
-      <description>Online · 9 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AccessEDnpo — AccessED Hacks</title>
-      <link>https://accessed-hacks.devpost.com/</link>
-      <guid isPermaLink="false">d760e011a67f0bb6</guid>
-      <description>Online · 10 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>College Of Engineering And Management,Kolaghat — Inter-College Coding Competition 2026 | Java &amp; Python | ₹10,000 in Cash Prizes+ Free Lunch</title>
-      <link>https://unstop.com/hackathons/inter-college-coding-competition-2026-college-of-engineering-and-managementkolaghat-1801814</link>
-      <guid isPermaLink="false">a2597e472c075e36</guid>
-      <description>Offline · 10 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dakar Bitcoin Days — Dakar Bitcoin Hack by BTrust</title>
-      <link>https://dakar-bitcoin-hack-2026.devpost.com/</link>
-      <guid isPermaLink="false">23c113f291420c9f</guid>
-      <description>Online · 10 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — GeNarrative Clash</title>
-      <link>https://genarrative-clash.devfolio.co</link>
-      <guid isPermaLink="false">454b57e48a2e28c5</guid>
-      <description>Kolkata, India · 10 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>EduLinkUp — ELUCode - 8</title>
       <link>https://unstop.com/hackathons/elucode-8-edulinkup-1800924</link>
       <guid isPermaLink="false">df44de5cadef1b78</guid>
@@ -479,13 +444,6 @@
       <link>https://unstop.com/hackathons/expanding-horizons-80-ee-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799780</link>
       <guid isPermaLink="false">9249fd444d90355e</guid>
       <description>Online · 10 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Next Bharat Ventures — Build Your Bharat Hackathon (BYB)</title>
-      <link>https://unstop.com/hackathons/build-your-bharat-hackathon-byb-build-your-bharatbyb-hackathon-next-bharat-ventures-1770621</link>
-      <guid isPermaLink="false">c283a08dbfeb9530</guid>
-      <description>Offline · 10 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -552,6 +510,13 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>SafeSpace — SafeSpace Hacks</title>
+      <link>https://safespace-hacks.devpost.com/</link>
+      <guid isPermaLink="false">11a58c6cfa7cddb1</guid>
+      <description>Online · 11 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>STEM2Connect — STEM2Connect AI Hackathon</title>
       <link>https://stem2connect-online-hackathon.devpost.com/</link>
       <guid isPermaLink="false">809ccf7819417013</guid>
@@ -580,13 +545,6 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SafeSpace — SafeSpace Hacks</title>
-      <link>https://safespace-hacks.devpost.com/</link>
-      <guid isPermaLink="false">11a58c6cfa7cddb1</guid>
-      <description>Online · 12 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — Founders' House Kolkata</title>
       <link>https://founders-house-kolkata.devfolio.co</link>
       <guid isPermaLink="false">c2818115b7ab61b1</guid>
@@ -597,6 +555,13 @@
       <title>Droidecks — VYTRON'26 (Hackathon)</title>
       <link>https://unstop.com/hackathons/vytron26-droidecks-1786652</link>
       <guid isPermaLink="false">59fd46a1f56fe2ec</guid>
+      <description>Online · 13 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HackathonForEveryone — Taskforge</title>
+      <link>https://taskforge.devpost.com/</link>
+      <guid isPermaLink="false">354f3db0f497f59a</guid>
       <description>Online · 13 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -615,16 +580,9 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>HackathonForEveryone — Taskforge</title>
-      <link>https://taskforge.devpost.com/</link>
-      <guid isPermaLink="false">354f3db0f497f59a</guid>
-      <description>Online · 14 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Indira Gandhi Delhi Technical University for Women (IGDTUW), Delhi — HACKRUSH 2026</title>
-      <link>https://unstop.com/hackathons/hackrush-2026-igdtuw-delhi-1799179</link>
-      <guid isPermaLink="false">e9b34fbc581ab91e</guid>
+      <title>Aditya University — HackWithAditya</title>
+      <link>https://hackwithaditya.devpost.com/</link>
+      <guid isPermaLink="false">6f5e93e93cc4f05d</guid>
       <description>Online · 14 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -633,13 +591,6 @@
       <link>https://hackathon-agentico-2026b.devpost.com/</link>
       <guid isPermaLink="false">64fd0a700ba09b64</guid>
       <description>Online · 14 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Aditya University — HackWithAditya</title>
-      <link>https://hackwithaditya.devpost.com/</link>
-      <guid isPermaLink="false">6f5e93e93cc4f05d</guid>
-      <description>Online · 15 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -664,6 +615,13 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Yasir Insights — Build Your First AI App</title>
+      <link>https://build-your-first-ai-app.devpost.com/</link>
+      <guid isPermaLink="false">c65901b21fb7e1f5</guid>
+      <description>Online · 16 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ABES Engineering College — Exora 2.0 : Unveil The Build</title>
       <link>https://unstop.com/hackathons/exora-20-unveil-the-build-abes-engineering-college-1799143</link>
       <guid isPermaLink="false">2fe652bb530ff3bc</guid>
@@ -675,13 +633,6 @@
       <link>https://devnexus2.devfolio.co</link>
       <guid isPermaLink="false">55e3becd4d76b1e9</guid>
       <description>Kolkata, India · 17 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Yasir Insights — Build Your First AI App</title>
-      <link>https://build-your-first-ai-app.devpost.com/</link>
-      <guid isPermaLink="false">c65901b21fb7e1f5</guid>
-      <description>Online · 17 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -727,6 +678,13 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Indira Gandhi Delhi Technical University for Women (IGDTUW), Delhi — HACKRUSH 2026</title>
+      <link>https://unstop.com/hackathons/hackrush-2026-igdtuw-delhi-1799179</link>
+      <guid isPermaLink="false">e9b34fbc581ab91e</guid>
+      <description>Online · 19 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>The Webb Schools CSC — CSC Winter Sparkathon</title>
       <link>https://csc-winter-sparkathon.devpost.com/</link>
       <guid isPermaLink="false">be9895adde2c2bb6</guid>
@@ -748,17 +706,17 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>IdeaLab — IdeaLab Hacks</title>
-      <link>https://idealab-hacks.devpost.com/</link>
-      <guid isPermaLink="false">47dcb10a689c0c61</guid>
+      <title>HackathonForEveryone — Code for Change</title>
+      <link>https://code-for-change-global.devpost.com/</link>
+      <guid isPermaLink="false">4a557aafd6ea9af5</guid>
       <description>Online · 20 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>HackathonForEveryone — Code for Change</title>
-      <link>https://code-for-change-global.devpost.com/</link>
-      <guid isPermaLink="false">4a557aafd6ea9af5</guid>
-      <description>Online · 21 days left</description>
+      <title>IdeaLab — IdeaLab Hacks</title>
+      <link>https://idealab-hacks.devpost.com/</link>
+      <guid isPermaLink="false">47dcb10a689c0c61</guid>
+      <description>Online · 20 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -772,28 +730,28 @@
       <title>MLR Institute Of Technology (MLRIT), Hyderabad — Zenith'26</title>
       <link>https://unstop.com/hackathons/zenith26-mlr-institute-of-technology-mlrit-hyderabad-1790028</link>
       <guid isPermaLink="false">9c36331fd67572a7</guid>
-      <description>Offline · 23 days left</description>
+      <description>Offline · 22 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devfolio — Clash of Commits</title>
       <link>https://clash-of-commits.devfolio.co</link>
       <guid isPermaLink="false">627d2c9f1d2c91f3</guid>
-      <description>Chennai, India · 24 days left</description>
+      <description>Chennai, India · 23 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Hack4TodayOrg — LaunchPad Hacks (Judges + Sponsors Needed)</title>
       <link>https://launchpad-hacks.devpost.com/</link>
       <guid isPermaLink="false">6919843d4711c167</guid>
-      <description>Online · 24 days left</description>
+      <description>Online · 23 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Kiro — Kiroween 2026</title>
       <link>https://kiroween.devpost.com/</link>
       <guid isPermaLink="false">d4e4db7bf8efd75f</guid>
-      <description>Online · 24 days left</description>
+      <description>Online · 23 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -821,34 +779,41 @@
       <title>Cite &amp; Slayy — SLAY HACKS</title>
       <link>https://slayy-hacks.devpost.com/</link>
       <guid isPermaLink="false">bda3cae90ed8652a</guid>
-      <description>Online · 27 days left</description>
+      <description>Online · 26 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devpost — Learn AR with SPECS</title>
       <link>https://learn-specs.devpost.com/</link>
       <guid isPermaLink="false">dbbb32e7cbd92a38</guid>
-      <description>Online · 27 days left</description>
+      <description>Online · 26 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Google — Deck the Pixels</title>
       <link>https://deckthepixels.devpost.com/</link>
       <guid isPermaLink="false">61171171a9387d0b</guid>
-      <description>Online · 27 days left</description>
+      <description>Online · 26 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>University Of Pennsylvania — 2026-2027 Fall ESE Senior Design</title>
       <link>https://ese4500f26.devpost.com/</link>
       <guid isPermaLink="false">8805a72abff59431</guid>
-      <description>Amy Gutman Hall · 27 days left</description>
+      <description>Amy Gutman Hall · 26 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AI OpenBuild — AI OpenBuild</title>
       <link>https://ai-openbuild.devpost.com/</link>
       <guid isPermaLink="false">fcdfcf2122988f7d</guid>
+      <description>Online · 30 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Arbiter — Arbiter Hacks V1</title>
+      <link>https://arbiter-hacks-v1.devpost.com/</link>
+      <guid isPermaLink="false">80893ecc57ce416d</guid>
       <description>Online · about 1 month left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -895,6 +860,13 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Shail &amp; Sharaf — GenHacks</title>
+      <link>https://genhacks-open.devpost.com/</link>
+      <guid isPermaLink="false">7799ce5599957e92</guid>
+      <description>Online · about 1 month left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Silicon Hacks Team — Silicon Valley Buildathon</title>
       <link>https://silicon-valley-buildathon.devpost.com/</link>
       <guid isPermaLink="false">6a1bf6ec91501f8e</guid>
@@ -912,7 +884,7 @@
       <title>Devfolio — hackodisha-6.0</title>
       <link>https://hackodisha-6a.devfolio.co</link>
       <guid isPermaLink="false">d553006f7fba567c</guid>
-      <description>Online · 32 days left</description>
+      <description>Online · 31 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -937,24 +909,24 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Yeshwantrao Chavan College of Engineering (YCCE), Nagpur — HackKumbh 2026 : Tech For Humanity</title>
-      <link>https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629</link>
-      <guid isPermaLink="false">fc8596267ce06655</guid>
-      <description>Offline · 37 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ECHO ENGINEERS — AI Vibeathon 1.0</title>
       <link>https://unstop.com/hackathons/ai-vibeathon-2026-promptwars-echo-engineers-echo-engineers-1799092</link>
       <guid isPermaLink="false">23ed62c6082c1d55</guid>
-      <description>Hybrid · 38 days left</description>
+      <description>Hybrid · 37 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Skill2Career — IDEATHON- FutureX: Innovating for Global Challenges</title>
       <link>https://unstop.com/hackathons/ideathon-futurex-innovating-for-global-challenges-skill2career-1803074</link>
       <guid isPermaLink="false">6b40dcb3d6bf775c</guid>
-      <description>Online · 38 days left</description>
+      <description>Online · 37 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Yeshwantrao Chavan College of Engineering (YCCE), Nagpur — HackKumbh 2026 : Tech For Humanity</title>
+      <link>https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629</link>
+      <guid isPermaLink="false">fc8596267ce06655</guid>
+      <description>Offline · 37 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -986,6 +958,20 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Techkriti — IARC | TECHKRITI | IIT KANPUR</title>
+      <link>https://unstop.com/hackathons/iarc-techkriti27-techkriti-1764468</link>
+      <guid isPermaLink="false">93801d7f9316864a</guid>
+      <description>Offline · 49 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Techkriti — Techkriti Grand Prix | TECHKRITI | IIT KANPUR</title>
+      <link>https://unstop.com/hackathons/techkriti-grand-prix-techkriti27-techkriti-1764465</link>
+      <guid isPermaLink="false">d47fe8c5aacd8ec7</guid>
+      <description>Offline · 49 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — Hack For Tomorrow 2026</title>
       <link>https://hft2026.devfolio.co</link>
       <guid isPermaLink="false">bafea36a215be592</guid>
@@ -1003,7 +989,7 @@
       <title>THE CODE VIBES — The Code Vibes Hackathon 2.0</title>
       <link>https://unstop.com/hackathons/the-code-vibes-hackathon-20-the-code-vibes-1794889</link>
       <guid isPermaLink="false">c84af2d033030533</guid>
-      <description>Online · 56 days left</description>
+      <description>Online · 55 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1021,31 +1007,24 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Shail &amp; Sharaf — GenHacks</title>
-      <link>https://genhacks-open.devpost.com/</link>
-      <guid isPermaLink="false">7799ce5599957e92</guid>
-      <description>Online · about 2 months left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — Techacks 5.0</title>
       <link>https://techacks05.devfolio.co</link>
       <guid isPermaLink="false">1796d74e92b38fcc</guid>
-      <description>Rajpura, India · 66 days left</description>
+      <description>Rajpura, India · 65 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devfolio — Convergence</title>
       <link>https://convergence1.devfolio.co</link>
       <guid isPermaLink="false">3c58ff5709a2778b</guid>
-      <description>Kalyani, India · 67 days left</description>
+      <description>Kalyani, India · 66 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devfolio — GOA BUILDATHON 27</title>
       <link>https://goa-buildathon.devfolio.co</link>
       <guid isPermaLink="false">87aaa3365df9c9e6</guid>
-      <description>India · 67 days left</description>
+      <description>India · 66 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1056,6 +1035,27 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Suryodaya College of Engineering &amp; Technology, Nagpur — Central India Hackathon 4.0</title>
+      <link>https://unstop.com/hackathons/central-india-hackathon-40-suryodaya-college-of-engineering-technology-nagpur-1788753</link>
+      <guid isPermaLink="false">91898dbdb92a707d</guid>
+      <description>Offline · 72 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — DevNexus Vidisha</title>
+      <link>https://devnexus-3.devfolio.co</link>
+      <guid isPermaLink="false">6b71f6fd35eadfb7</guid>
+      <description>Vidisha, India · 73 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — HACK 6.0</title>
+      <link>https://hack-1736.devfolio.co</link>
+      <guid isPermaLink="false">a0f0df6af384d7a0</guid>
+      <description>Hamirpur, India · 73 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Devfolio — HACK WITH GDG S4</title>
       <link>https://hack-with-gdg-s4.devfolio.co</link>
       <guid isPermaLink="false">4041fe9f08aba863</guid>
@@ -1063,24 +1063,10 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Suryodaya College of Engineering &amp; Technology, Nagpur — Central India Hackathon 4.0</title>
-      <link>https://unstop.com/hackathons/central-india-hackathon-40-suryodaya-college-of-engineering-technology-nagpur-1788753</link>
-      <guid isPermaLink="false">91898dbdb92a707d</guid>
-      <description>Offline · 73 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — DevNexus Vidisha</title>
-      <link>https://devnexus-3.devfolio.co</link>
-      <guid isPermaLink="false">6b71f6fd35eadfb7</guid>
-      <description>Vidisha, India · 74 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devfolio — HACK 6.0</title>
-      <link>https://hack-1736.devfolio.co</link>
-      <guid isPermaLink="false">a0f0df6af384d7a0</guid>
-      <description>Hamirpur, India · 74 days left</description>
+      <title>Devfolio — Health Hackathon 3.0</title>
+      <link>https://health-hackathon.devfolio.co</link>
+      <guid isPermaLink="false">2448b189643701f6</guid>
+      <description>Kothri Kalan, India · 78 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1091,17 +1077,17 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devfolio — Health Hackathon 3.0</title>
-      <link>https://health-hackathon.devfolio.co</link>
-      <guid isPermaLink="false">2448b189643701f6</guid>
-      <description>Kothri Kalan, India · 79 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Devfolio — Innerve 11.0</title>
       <link>https://innerve-11.devfolio.co</link>
       <guid isPermaLink="false">8fc6a055eee7c960</guid>
       <description>Pune, India · 79 days left</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Devfolio — Hack Nexus 2027</title>
+      <link>https://hack-nexus.devfolio.co</link>
+      <guid isPermaLink="false">8511b89e52526ebd</guid>
+      <description>Nagpur, India · 80 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1119,45 +1105,38 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Devfolio — Hack Nexus 2027</title>
-      <link>https://hack-nexus.devfolio.co</link>
-      <guid isPermaLink="false">8511b89e52526ebd</guid>
-      <description>Nagpur, India · 81 days left</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>International Institute of Information Technology (IIIT), Bhubaneswar — Craft N Code Delhi</title>
       <link>https://unstop.com/hackathons/craft-n-code-delhi-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iiit--1746233</link>
       <guid isPermaLink="false">292cdc4ca598af62</guid>
-      <description>Online · 87 days left</description>
+      <description>Online · 86 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International Institute of Information Technology (IIIT), Bhubaneswar — Craft N Code Haryana</title>
       <link>https://unstop.com/hackathons/craft-n-code-haryana-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iii-1746142</link>
       <guid isPermaLink="false">35ef3013df9d119e</guid>
-      <description>Online · 87 days left</description>
+      <description>Online · 86 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International Institute of Information Technology (IIIT), Bhubaneswar — Craft N Code Odisha</title>
       <link>https://unstop.com/hackathons/craft-n-code-odisha-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iiit-1773246</link>
       <guid isPermaLink="false">5310f294cc64528c</guid>
-      <description>Offline · 87 days left</description>
+      <description>Offline · 86 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International Institute of Information Technology (IIIT), Bhubaneswar — Craft N Code Tamil Nadu</title>
       <link>https://unstop.com/hackathons/craft-n-code-tamil-nadu-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology--1746234</link>
       <guid isPermaLink="false">5bef40475a69884e</guid>
-      <description>Online · 87 days left</description>
+      <description>Online · 86 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International Institute of Information Technology (IIIT), Bhubaneswar — Craft N Code Telangana</title>
       <link>https://unstop.com/hackathons/craft-n-code-telangana-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-i-1746232</link>
       <guid isPermaLink="false">72ba0f2e6c5318ec</guid>
-      <description>Online · 87 days left</description>
+      <description>Online · 86 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1171,7 +1150,7 @@
       <title>Devfolio — CODERAVE 2.0</title>
       <link>https://coderave-2.devfolio.co</link>
       <guid isPermaLink="false">12a4a4599626679c</guid>
-      <description>Various · 95 days left</description>
+      <description>Various · 94 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1192,56 +1171,56 @@
       <title>Army Institute of technology, Pune — Solidworks</title>
       <link>https://unstop.com/hackathons/solidworks-solutions-2k27-army-institute-of-technology-pune-1799800</link>
       <guid isPermaLink="false">896b1ff65a8e077c</guid>
-      <description>Online · 113 days left</description>
+      <description>Online · 112 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Army Institute of technology, Pune — Crackhunt</title>
       <link>https://unstop.com/hackathons/crackhunt-solutions-2k27-army-institute-of-technology-pune-1799765</link>
       <guid isPermaLink="false">427ec05724596072</guid>
-      <description>Online · 114 days left</description>
+      <description>Online · 113 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Army Institute of technology, Pune — Ethon</title>
       <link>https://unstop.com/hackathons/ethon-solutions-2k27-army-institute-of-technology-pune-1799758</link>
       <guid isPermaLink="false">c5b02abc3303fb9c</guid>
-      <description>Offline · 114 days left</description>
+      <description>Offline · 113 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Army Institute of technology, Pune — SQL Mania</title>
       <link>https://unstop.com/hackathons/sql-mania-solutions-2k27-army-institute-of-technology-pune-1799761</link>
       <guid isPermaLink="false">8ab0691232ec3e40</guid>
-      <description>Offline · 114 days left</description>
+      <description>Offline · 113 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Army Institute of Technology (AIT), Pune — Code Red</title>
       <link>https://unstop.com/hackathons/code-red-solutions-2k27-army-institute-of-technology-ait-pune-1801200</link>
       <guid isPermaLink="false">69c63ca758ed1383</guid>
-      <description>Hybrid · 115 days left</description>
+      <description>Hybrid · 114 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Army Institute of technology, Pune — SHE CODE</title>
       <link>https://unstop.com/hackathons/she-code-solutions-2k27-army-institute-of-technology-pune-1802089</link>
       <guid isPermaLink="false">bf1961d7cc2eaf42</guid>
-      <description>Hybrid · 115 days left</description>
+      <description>Hybrid · 114 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devfolio — Diversion 2k27</title>
       <link>https://diversion2k27.devfolio.co</link>
       <guid isPermaLink="false">7e3aa421ef710631</guid>
-      <description>Bidhannagar, India · 116 days left</description>
+      <description>Bidhannagar, India · 115 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Army Institute of technology, Pune — Project Jupyter</title>
       <link>https://unstop.com/hackathons/project-jupyter-solutions-2k27-army-institute-of-technology-pune-1799762</link>
       <guid isPermaLink="false">c0d5872ed77ef090</guid>
-      <description>Online · 119 days left</description>
+      <description>Online · 118 days left</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
