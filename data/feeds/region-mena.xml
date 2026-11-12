@@ -4,7 +4,7 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Thu, 12 Nov 2026 11:07:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 18:56:58 GMT</lastBuildDate>
     <item>
       <title>Synapseanalytics — Senior DevOps Engineer</title>
       <link>https://synapseanalytics.recruitee.com/o/senior-devops-engineer-3</link>
@@ -262,13 +262,6 @@
       <link>https://www.amazon.jobs/en/jobs/10578357/software-development-engineer</link>
       <guid isPermaLink="false">85fe3d042ddb3b39</guid>
       <description>Cape Town, Western Cape, ZAF · unknown · 29d</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Salla — Senior ML Backend Engineer - Search &amp; Recommendations</title>
-      <link>https://apply.workable.com/j/D29678F002</link>
-      <guid isPermaLink="false">b33a9aecd1df285d</guid>
-      <description>Makkah, Saudi Arabia (Remote) · mid_level · 29d</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -545,10 +538,10 @@
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Paymob — Mid-Level Cloud Engineer</title>
+      <title>Paymob — Cloud Engineer</title>
       <link>https://app.recruitera.ai/careers/paymob/cloud-engineer-paymob-cairo-egypt-3400</link>
-      <guid isPermaLink="false">fbab485c76b135aa</guid>
-      <description>Cairo, Egypt · mid_level · 128d</description>
+      <guid isPermaLink="false">9df0986869f223ba</guid>
+      <description>Cairo, Egypt · other · 128d</description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -650,6 +643,18 @@
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Software Engineer, AI Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Infrastructure_JR2028826</link>
+      <guid isPermaLink="false">df3453bdebd357e2</guid>
+      <description>Israel, Tel Aviv · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Software Verification Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Verification-Engineer_JR2027793</link>
+      <guid isPermaLink="false">bcb3195e7f2b923a</guid>
+      <description>Israel, Raanana · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior System Software Architect, AI and GPU Networking</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Senior-System-Software-Architect--AI-and-GPU-Networking_JR2029853</link>
       <guid isPermaLink="false">d3e4e071e4627477</guid>
@@ -666,18 +671,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Chip-Design_JR2025270</link>
       <guid isPermaLink="false">0be097d319cb81b7</guid>
       <description>Israel, Yokneam +1 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>Unity — Senior Backend Engineer</title>
-      <link>https://unitytech.wd1.myworkdayjobs.com/Unity/job/Tel-Aviv-Israel/Senior-Backend-Engineer_JOBREQ-2616345</link>
-      <guid isPermaLink="false">119c0cece0b64223</guid>
-      <description>Tel Aviv, Israel · mid_level · 30d</description>
-    </item>
-    <item>
-      <title>Unity — Senior Backend Engineer</title>
-      <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Tel-Aviv-Israel/Senior-Backend-Engineer_JOBREQ-2616345</link>
-      <guid isPermaLink="false">119c0cece0b64223</guid>
-      <description>Tel Aviv, Israel · mid_level · 30d</description>
     </item>
   </channel>
 </rss>
