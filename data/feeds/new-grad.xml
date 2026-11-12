@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Thu, 12 Nov 2026 02:59:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 11:07:06 GMT</lastBuildDate>
     <item>
       <title>Adobe — 2027 University Graduate - Data Scientist</title>
       <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173462?s=gh-new-grad-jobs-2027</link>
@@ -17,6 +17,13 @@
       <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173462?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">016bbfe69ce615e3</guid>
       <description>San Jose · new_grad · 0d</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google — Software Engineer 2 – Early Career</title>
+      <link>https://www.google.com/about/careers/applications/jobs/results/109116638069957318?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">340a4587902b0143</guid>
+      <description>Palo Alto, CA +11 more · new_grad · 10d</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -53,13 +60,6 @@
       <guid isPermaLink="false">6a71bd6e521835d3</guid>
       <description>Seattle, WA · new_grad · 1d</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wise Australia Investments — Graduate Data Scientist</title>
-      <link>https://www.indeed.com/viewjob?jk=3d40f8f3bcf5748c</link>
-      <guid isPermaLink="false">e3b3334471410e65</guid>
-      <description>Austin, TX, US · new_grad · 2d</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Scale AI — Software Engineer - New Grad</title>
@@ -137,13 +137,6 @@
       <guid isPermaLink="false">fabdb8f412e86cee</guid>
       <description>Palo Alto, CA · new_grad · 6d</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google — Software Developer II, Early Career</title>
-      <link>https://ca.indeed.com/viewjob?jk=88a3c13f26e91fd6</link>
-      <guid isPermaLink="false">fcb726914078dfc8</guid>
-      <description>Montréal, QC, CA · new_grad · 7d</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Google — Software Developer 2 – Early Career</title>
@@ -237,10 +230,10 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 14d</description>
+      <title>Amazon — Software Development Engineer, Amazon Leo, Early Career - 2027 (US)</title>
+      <link>https://www.indeed.com/viewjob?jk=f94e6bd8549f42c3</link>
+      <guid isPermaLink="false">f65409b9da9c9698</guid>
+      <description>Redmond, WA, US · new_grad · 14d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -259,9 +252,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
-      <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 14d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 14d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
+      <guid isPermaLink="false">b836bebf63487343</guid>
+      <description>Dublin · new_grad · 14d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -273,9 +273,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
-      <guid isPermaLink="false">b836bebf63487343</guid>
-      <description>Dublin · new_grad · 14d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
+      <guid isPermaLink="false">334395993d3f3a1a</guid>
+      <description>Singapore · new_grad · 14d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -513,19 +513,19 @@
       <title>NVIDIA — AI Computing Software Developer - New College Graduate 2027</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/AI-Computing-Software-Developer---New-College-Graduate-2027_JR2029372</link>
       <guid isPermaLink="false">e36fe5a0a0a8dce5</guid>
-      <description>Taiwan, Taipei · new_grad · 1d</description>
+      <description>Taiwan, Taipei · new_grad · 2d</description>
     </item>
     <item>
       <title>Unity — U-Accelerate : Développeur(euse) de logiciels, nouveau(elle) diplômé(e) // U-Accelerate: Software Developer, New Grad</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/U-Accelerate---Dveloppeur-euse--de-logiciels--nouveau-elle--diplm-e-----U-Accelerate--Software-Developer--New-Grad_JOBREQ-2616768</link>
       <guid isPermaLink="false">6c4523fd462f5e71</guid>
-      <description>Montreal, Canada · new_grad · 9d</description>
+      <description>Montreal, Canada · new_grad · 10d</description>
     </item>
     <item>
       <title>Unity — U-Accelerate : Développeur(euse) de logiciels, nouveau(elle) diplômé(e) // U-Accelerate: Software Developer, New Grad</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/U-Accelerate---Dveloppeur-euse--de-logiciels--nouveau-elle--diplm-e-----U-Accelerate--Software-Developer--New-Grad_JOBREQ-2616768</link>
       <guid isPermaLink="false">6c4523fd462f5e71</guid>
-      <description>Montreal, Canada · new_grad · 9d</description>
+      <description>Montreal, Canada · new_grad · 10d</description>
     </item>
   </channel>
 </rss>
