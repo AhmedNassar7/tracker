@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T16:23:12Z",
+  "updated_at": "2026-11-13T22:38:26Z",
   "retention_days": 90,
   "snapshots": [
     {
@@ -46017,6 +46017,131 @@
           "Cloudflare": 60,
           "ClickHouse": 54,
           "Palantir": 52
+        }
+      }
+    },
+    {
+      "at": "2026-11-13T22:38:26Z",
+      "curated_roles": 1429,
+      "public_opportunities": 3640,
+      "jobs_total": 4219,
+      "hackathons_total": 159,
+      "events_total": 171,
+      "total_items": 4549,
+      "level_counts": {
+        "internship": 336,
+        "early_career": 96,
+        "mid_level": 3787
+      },
+      "dimensions": {
+        "by_level": {
+          "unknown": 753,
+          "mid_level": 2115,
+          "internship": 318,
+          "new_grad": 69,
+          "entry_level": 21,
+          "other": 913,
+          "junior": 1
+        },
+        "by_region": {
+          "north_america": 2224,
+          "apac": 490,
+          "europe": 603,
+          "unknown": 463,
+          "mena": 92,
+          "latam": 58,
+          "remote": 260
+        },
+        "by_remote_type": {
+          "onsite": 1202,
+          "remote": 1,
+          "unknown": 2987
+        },
+        "by_role_type": {
+          "software_engineer": 2435,
+          "security": 44,
+          "machine_learning": 121,
+          "infrastructure": 426,
+          "backend": 289,
+          "platform": 413,
+          "mobile": 176,
+          "full_stack": 220,
+          "frontend": 66
+        },
+        "by_category": {
+          "faang": 971,
+          "microsoft_group": 19,
+          "big_tech": 32,
+          "product_saas": 26,
+          "ai_research": 4,
+          "fintech": 36,
+          "ride_delivery": 25,
+          "consulting_finance": 2,
+          "more_global_tech": 50,
+          "apac_tech": 31,
+          "cloud_infra": 7,
+          "uncategorized": 2987
+        },
+        "by_country": {
+          "United States": 2032,
+          "Unknown": 609,
+          "India": 318,
+          "Canada": 274,
+          "United Kingdom": 147,
+          "Ireland": 87,
+          "China": 57,
+          "Germany": 56,
+          "Poland": 46,
+          "Spain": 45,
+          "Egypt": 41,
+          "South Korea": 41,
+          "Brazil": 36,
+          "France": 36,
+          "Sweden": 30
+        },
+        "by_source": {
+          "amazon": 827,
+          "greenhouse:spacex": 384,
+          "greenhouse:databricks": 184,
+          "greenhouse:elastic": 152,
+          "jibe:careers.se.com": 137,
+          "greenhouse:roblox": 134,
+          "greenhouse:okta": 123,
+          "ashby:openai": 122,
+          "greenhouse:anthropic": 115,
+          "derec4_newgrad": 112,
+          "greenhouse:stripe": 108,
+          "apple": 107,
+          "greenhouse:coupang": 81,
+          "ashby:snowflake": 79,
+          "workday:unitytech": 78,
+          "greenhouse:coinbase": 74,
+          "greenhouse:mongodb": 66,
+          "greenhouse:sonyinteractiveentertainmentglobal": 64,
+          "greenhouse:cloudflare": 61,
+          "ashby:clickhouse": 56
+        },
+        "top_companies": {
+          "Amazon": 848,
+          "SpaceX": 384,
+          "Databricks": 186,
+          "Elastic": 154,
+          "Schneider Electric": 137,
+          "Roblox": 135,
+          "Okta": 124,
+          "OpenAI": 122,
+          "Stripe": 118,
+          "Anthropic": 115,
+          "Apple": 114,
+          "Coupang": 81,
+          "Unity": 80,
+          "Snowflake": 79,
+          "Coinbase": 75,
+          "Sony Interactive Entertainment": 68,
+          "MongoDB": 67,
+          "Cloudflare": 61,
+          "ClickHouse": 56,
+          "Robinhood": 52
         }
       }
     }

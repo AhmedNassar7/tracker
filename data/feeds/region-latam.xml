@@ -4,7 +4,14 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Fri, 13 Nov 2026 16:23:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 22:38:26 GMT</lastBuildDate>
+    <item>
+      <title>Databricks — Sr. IT Site Reliability Software Engineer</title>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8493168002</link>
+      <guid isPermaLink="false">0016755eae88bf17</guid>
+      <description>Costa Rica · mid_level · 0d</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>SumUp — Software Engineer II - LatAm</title>
       <link>https://sumup.com/careers/positions/8940482002?gh_jid=8940482002</link>
@@ -18,13 +25,6 @@
       <guid isPermaLink="false">1ce62c63e37bc29e</guid>
       <description>Mexico · mid_level · 1d</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airbnb — Staff Software Engineer, Tech Foundations</title>
-      <link>https://careers.airbnb.com/positions/7867435?gh_jid=7867435</link>
-      <guid isPermaLink="false">f74d834608158595</guid>
-      <description>Brazil · mid_level · 2d</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Airbnb — Senior Fullstack Software Engineer, Quality Platform</title>
@@ -137,13 +137,6 @@
       <guid isPermaLink="false">827cd515842e0f9f</guid>
       <description>Florianópolis, Santa Catarina, Brazil; São Paulo, Brazil · other · 10d</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Databricks — Sr. IT Site Reliability Software Engineer</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8493168002</link>
-      <guid isPermaLink="false">0016755eae88bf17</guid>
-      <description>Costa Rica · mid_level · 14d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Epic Games — Senior Mobile Game Designer</title>
@@ -276,6 +269,13 @@
       <link>https://www.amazon.jobs/en/jobs/10575131/software-development-engineer-ii-latech-fba</link>
       <guid isPermaLink="false">8b09d8fbebf39c98</guid>
       <description>Sao Paulo, Sao Paulo, BRA · mid_level · 35d</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer Intern, Amazon University Talent Acquisition</title>
+      <link>https://www.amazon.jobs/en/jobs/10574925/software-development-engineer-intern-amazon-university-talent-acquisition</link>
+      <guid isPermaLink="false">e5e5538e3591c000</guid>
+      <description>Mexico City, Mexico City, MEX · internship · 35d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
