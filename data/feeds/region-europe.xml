@@ -4,7 +4,7 @@
     <title>tracker — Europe Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Europe tracker currently tracks.</description>
-    <lastBuildDate>Sat, 14 Nov 2026 03:15:17 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 10:33:03 GMT</lastBuildDate>
     <item>
       <title>ClickHouse — Data Platform Engineer</title>
       <link>https://jobs.ashbyhq.com/clickhouse/6d2d05da-c1f4-4ff6-9d02-a30306940857</link>
@@ -3751,13 +3751,6 @@
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer II, AWS Config</title>
-      <link>https://www.amazon.jobs/en/jobs/10487482/software-development-engineer-ii-aws-config</link>
-      <guid isPermaLink="false">aaa6532e3a57ffc4</guid>
-      <description>Berlin, Berlin, DEU · mid_level · 108d</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II, PartyRock</title>
       <link>https://www.amazon.jobs/en/jobs/10471492/software-development-engineer-ii-partyrock</link>
       <guid isPermaLink="false">cb9753620532145b</guid>
@@ -3985,37 +3978,31 @@
       <title>PwC — Junior QA Engineer</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Budapest/Junior-QA-Engineer_774029WD</link>
       <guid isPermaLink="false">8934a3f44ded745a</guid>
-      <description>Budapest · junior · 0d</description>
+      <description>Budapest · junior · 1d</description>
     </item>
     <item>
       <title>PwC — Medior QA Engineer</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Budapest/Medior-QA-Engineer_774014WD</link>
       <guid isPermaLink="false">412627fca7f0a8ed</guid>
-      <description>Budapest · other · 0d</description>
+      <description>Budapest · other · 1d</description>
     </item>
     <item>
       <title>PwC — Advisory - Associate - M&amp;A Infrastructure - Roma</title>
       <link>https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Advisory---Associate---M-A-Infrastructure---Roma_768909WD-1</link>
       <guid isPermaLink="false">1a1d3596e2fa0716</guid>
-      <description>Milan · entry_level · 3d</description>
+      <description>Milan · entry_level · 4d</description>
     </item>
     <item>
       <title>Expedia Group — Software Development Engineer II - Analytics Products</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-II_R-110950</link>
       <guid isPermaLink="false">1545fa819f7005a5</guid>
-      <description>UK - London · mid_level · 11d</description>
+      <description>UK - London · mid_level · 12d</description>
     </item>
     <item>
       <title>Expedia Group — Mobile Engineering Intern - 2027 - London</title>
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545</link>
       <guid isPermaLink="false">b542d77ddb4b6b73</guid>
-      <description>UK - London · internship · 29d</description>
-    </item>
-    <item>
-      <title>Expedia Group — Software Development Engineering Intern - 2027 - London</title>
-      <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551</link>
-      <guid isPermaLink="false">c50e91a1c499811b</guid>
-      <description>UK - London · internship · 29d</description>
+      <description>UK - London · internship · 30d</description>
     </item>
     <item>
       <title>Expedia Group — Senior Software Development Engineer</title>
@@ -4034,6 +4021,12 @@
       <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-III_R-109846</link>
       <guid isPermaLink="false">bcb3b6d9c69ccc00</guid>
       <description>UK - London · other · 30d</description>
+    </item>
+    <item>
+      <title>Expedia Group — Software Development Engineering Intern - 2027 - London</title>
+      <link>https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551</link>
+      <guid isPermaLink="false">c50e91a1c499811b</guid>
+      <description>UK - London · internship · 30d</description>
     </item>
   </channel>
 </rss>

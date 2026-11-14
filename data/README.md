@@ -28,14 +28,14 @@ Extra signals pulled straight from a posting's own text (only the ATS sources th
 
 | Section | Count |
 |---|---:|
-| Jobs | 4089 |
-| Hackathons | 159 |
+| Jobs | 4090 |
+| Hackathons | 139 |
 | Events | 167 |
-| Total | 4415 |
+| Total | 4396 |
 
 ## Jobs
 
-[![Jobs 4089](https://img.shields.io/badge/Jobs-4089-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 331](https://img.shields.io/badge/Internship-331-22c55e.svg)](#internship) [![Early Career 88](https://img.shields.io/badge/Early%20Career-88-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3670](https://img.shields.io/badge/Mid--Level%20and%20Above-3670-dc2626.svg)](#mid-level-and-above)
+[![Jobs 4090](https://img.shields.io/badge/Jobs-4090-brightgreen.svg)](#jobs) [![Levels 3](https://img.shields.io/badge/Levels-3-blue.svg)](#jobs) [![Internship 331](https://img.shields.io/badge/Internship-331-22c55e.svg)](#internship) [![Early Career 90](https://img.shields.io/badge/Early%20Career-90-0ea5e9.svg)](#early-career) [![Mid-Level and Above 3669](https://img.shields.io/badge/Mid--Level%20and%20Above-3669-dc2626.svg)](#mid-level-and-above)
 
 ### Internship
 
@@ -165,17 +165,17 @@ Total roles: 331
 | Scale AI | [Machine Learning Research Intern - Summer 2027](https://job-boards.greenhouse.io/scaleai/jobs/4735665005) | San Francisco, CA +1 | 25d |
 | Cohere | [Machine Learning Intern/co-Op (winter 2027)](https://www.linkedin.com/jobs/view/4414175997) | United Kingdom | 21d |
 | Visa | [Software Engineer Intern](https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/GB---London-United-Kingdom/Software-Engineer-Intern_REF090469W?utm_source=Simplify&ref=Simplify) | London, UK | 2d |
-| PayPal | [Data Scientist Intern](https://go.vansh.nyc/1hy?utm_source=github-vansh-ouckah) | San Jose, CA | 9d |
 | PayPal | [Data Scientist Intern](https://paypal.eightfold.ai/careers/job/274922982821?utm_source=Simplify&ref=Simplify) | San Jose, CA | 9d |
+| PayPal | [Data Scientist Intern](https://go.vansh.nyc/1hy?utm_source=github-vansh-ouckah) | San Jose, CA | 9d |
+| PayPal | [Machine Learning Engineer Intern](https://paypal.eightfold.ai/careers/job/274922983149?utm_source=Simplify&ref=Simplify) | San Jose, CA | 9d |
 | PayPal | [Machine Learning Engineer Intern](https://paypal.eightfold.ai/careers/job/274922983149?utm_source=Simplify&ref=Simplify) | San Jose, CA | 9d |
 | PayPal | [Machine Learning Engineer Intern](https://go.vansh.nyc/1hz?utm_source=github-vansh-ouckah) | San Jose, CA | 9d |
-| PayPal | [Machine Learning Engineer Intern](https://paypal.eightfold.ai/careers/job/274922983149?utm_source=Simplify&ref=Simplify) | San Jose, CA | 9d |
 | PayPal | [Machine Learning Engineer PhD Intern 🎓](https://paypal.eightfold.ai/careers/job/274922983152?utm_source=Simplify&ref=Simplify) | San Jose, CA | 9d |
-| PayPal | [Mobile Engineer Intern](https://go.vansh.nyc/1hx?utm_source=github-vansh-ouckah) | Austin, TX, San Jose, CA, Chicago, IL, Omaha, NE, Scottsdale, AZ | 9d |
 | PayPal | [Mobile Engineer Intern](https://paypal.eightfold.ai/careers/job/274922982818?utm_source=Simplify&ref=Simplify) | 5 locationsAustin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ | 9d |
+| PayPal | [Mobile Engineer Intern](https://go.vansh.nyc/1hx?utm_source=github-vansh-ouckah) | Austin, TX, San Jose, CA, Chicago, IL, Omaha, NE, Scottsdale, AZ | 9d |
 | PayPal | [Software Engineer Intern](https://paypal.eightfold.ai/careers/job/274922982814?utm_source=Simplify&ref=Simplify) | <details><summary>5 locations</summary>Austin, TX<br>San Jose, CA<br>Chicago, IL<br>Omaha, NE<br>Scottsdale, AZ</details> | 9d |
-| PayPal | [Software Engineer Intern](https://go.vansh.nyc/1hw?utm_source=github-vansh-ouckah) | Austin, TX, San Jose, CA, Chicago, IL, Omaha, NE, Scottsdale, AZ | 9d |
 | PayPal | [Software Engineer Intern](https://paypal.eightfold.ai/careers/job/274922982814?utm_source=Simplify&ref=Simplify) | 5 locationsAustin, TX San Jose, CA Chicago, IL Omaha, NE Scottsdale, AZ | 9d |
+| PayPal | [Software Engineer Intern](https://go.vansh.nyc/1hw?utm_source=github-vansh-ouckah) | Austin, TX, San Jose, CA, Chicago, IL, Omaha, NE, Scottsdale, AZ | 9d |
 | Stripe | [Machine Learning Engineer Intern (Summer 2027)](https://img.shields.io/badge/-Apply-blue?style=for-the-badge) | Toronto, ON | 13d |
 | Stripe | [PhD Machine Learning Engineer Intern (Summer 2027)](https://img.shields.io/badge/-Apply-blue?style=for-the-badge) | Toronto, ON | 13d |
 | Stripe | [Master's Machine Learning Engineer - Intern](https://stripe.com/jobs/search?gh_jid=8333074) | San Francisco, CA | 14d |
@@ -193,9 +193,9 @@ Total roles: 331
 | Uber | [Software Engineer Intern](https://go.vansh.nyc/dg?utm_source=github-vansh-ouckah) | Seattle, WA, SF, Sunnyvale, CA | 20d |
 | DoorDash | [Machine Learning Engineer Intern - Masters 🎓](https://job-boards.greenhouse.io/doordashusa/jobs/8204111?utm_source=Simplify&ref=Simplify) | <details><summary>4 locations</summary>Seattle, WA<br>SF<br>NYC<br>Sunnyvale, CA</details> | 27d |
 | Lyft | [Data Engineer Intern](https://go.vansh.nyc/Ql?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
+| Lyft | [Software Engineer Intern, Backend](https://go.vansh.nyc/Qn?utm_source=github-vansh-ouckah) | Montreal, Canada | 1mo |
 | Lyft | [Software Engineer Intern, Backend](https://go.vansh.nyc/Qp?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
 | Lyft | [Software Engineer Intern, Backend](https://go.vansh.nyc/Qm?utm_source=github-vansh-ouckah) | San Francisco, CA | 1mo |
-| Lyft | [Software Engineer Intern, Backend](https://go.vansh.nyc/Qn?utm_source=github-vansh-ouckah) | Montreal, Canada | 1mo |
 | Lyft | [Software Engineer Intern, Fullstack](https://go.vansh.nyc/Qq?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
 | Lyft | [Software Engineer Intern, Machine Learning](https://go.vansh.nyc/Qo?utm_source=github-vansh-ouckah) | Toronto, Canada | 1mo |
 | Morgan Stanley | [Software Engineer Co-op, Parametric](https://go.vansh.nyc/1q1?utm_source=github-vansh-ouckah) | New York, NY, Alpharetta, GA | 4d |
@@ -203,22 +203,22 @@ Total roles: 331
 | ByteDance | [Agent Evaluation & Evolution Machine Learning Engineer Intern, AML-Ark-US](https://go.vansh.nyc/149?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
 | ByteDance | [Agent Evaluation & Evolution Machine Learning Engineer Intern, AML-Ark-US](https://go.vansh.nyc/14f?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Backend Development Engineer Intern, Infrastructure Platform Delivery](https://go.vansh.nyc/17L?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
-| ByteDance | [Machine Learning Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/144?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Machine Learning Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/17K?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
+| ByteDance | [Machine Learning Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/144?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Multi-Cloud CDN Data Platform Engineer Intern, Global Engineering CDN](https://go.vansh.nyc/14b?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform](https://go.vansh.nyc/14q?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
 | ByteDance | [Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform](https://go.vansh.nyc/15G?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Network Security Software Engineer Intern, Security Engineering](https://go.vansh.nyc/14v?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Network Software Development Engineer Intern, Network Observation](https://go.vansh.nyc/14x?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Network Software Development Engineer Intern, Network Switch](https://go.vansh.nyc/14y?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
-| ByteDance | [Production System Engineer Project Intern, Server DevOps](https://go.vansh.nyc/14e?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Production System Engineer Project Intern, Server DevOps](https://go.vansh.nyc/14j?utm_source=github-vansh-ouckah) | New York, NY | 13d |
-| ByteDance | [Site Reliability Engineer Intern, Data Infra](https://go.vansh.nyc/145?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
+| ByteDance | [Production System Engineer Project Intern, Server DevOps](https://go.vansh.nyc/14e?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Site Reliability Engineer Intern, Data Infra](https://go.vansh.nyc/14p?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
 | ByteDance | [Site Reliability Engineer Intern, Data Infra](https://go.vansh.nyc/14t?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
+| ByteDance | [Site Reliability Engineer Intern, Data Infra](https://go.vansh.nyc/145?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
 | ByteDance | [Software Development Engineer Intern, Network Automation](https://go.vansh.nyc/17M?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
-| ByteDance | [Software Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/14g?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Software Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/14i?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
+| ByteDance | [Software Engineer Intern, AML-Engine-Orchestration](https://go.vansh.nyc/14g?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Software Engineer Intern, CIS Knowledge Bank](https://go.vansh.nyc/14l?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Software Engineer Intern, Global Payment](https://go.vansh.nyc/14n?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Software Engineer Intern, Global Payment - Risk & Compliance](https://go.vansh.nyc/14k?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
@@ -227,8 +227,8 @@ Total roles: 331
 | ByteDance | [Software Engineer Intern, Relational Database](https://go.vansh.nyc/14d?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Software Engineer Intern, Traffic Infrastructure](https://go.vansh.nyc/146?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
 | ByteDance | [Software Engineer Project Intern, Developer Infrastructure](https://go.vansh.nyc/14a?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
-| ByteDance | [Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US](https://go.vansh.nyc/147?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
 | ByteDance | [Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US](https://go.vansh.nyc/14m?utm_source=github-vansh-ouckah) | San Jose, CA | 13d |
+| ByteDance | [Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US](https://go.vansh.nyc/147?utm_source=github-vansh-ouckah) | Seattle, WA | 13d |
 | ServiceNow | [Security Engineer Intern](https://zapply.jobs/l/d/sr-ServiceNow-744000161592679?s=gh-new-grad-software-engineering-jobs-2027) | Kirkland, Washington | 0d |
 | ServiceNow | [Security Engineer Intern](https://zapply.jobs/l/d/sr-ServiceNow-744000161592679?s=gh-new-grad-jobs-2027) | Kirkland, Washington | 0d |
 | ServiceNow | [Security Engineer Intern](https://zapply.jobs/l/d/sr-ServiceNow-744000161592679?s=gh-internships-2027) | Kirkland, Washington | 0d |
@@ -280,7 +280,6 @@ Total roles: 331
 | Pinterest | [Machine Learning Intern 2027 (dublin)](https://www.linkedin.com/jobs/view/4475832754) | Dublin, County Dublin, Ireland | 23d |
 | Unity | [Machine Learning Engineer-Internship](https://unitytech.wd1.myworkdayjobs.com/en-US/unity/job/Mountain-View-CA-USA/XMLNAME--Req-6087--Software-Developer_JOBREQ-2615965) | Remote - Mountain View, CA +1 | 29d |
 | Coinbase | [Software Engineer Intern](https://go.vansh.nyc/Mw?utm_source=github-vansh-ouckah) | San Francisco, CA | 1mo |
-| Valeo | [Software Engineer Intern (Year-Round)](https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Troy-MI/Software-Engineer-Intern--Year-Round-_REQ2026081794) | Troy, MI | 0d |
 | Cloudflare | [People Team: Software Engineer Intern (Winter 2027)](https://boards.greenhouse.io/cloudflare/jobs/7774167?gh_jid=7774167) | Hybrid | 1d |
 | Cloudflare | [Software Engineer Intern (2027)](https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197) | In-Office | 5d |
 | Cloudflare | [Software Engineer Intern (2027) - Austin, TX](https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958) | In-Office | 5d |
@@ -312,6 +311,7 @@ Total roles: 331
 | Snowflake | [Software Engineer Intern - Berlin (2027)](https://jobs.ashbyhq.com/snowflake/ab028e3c-c1cf-4455-8915-8e4e6b0cc9e8) | DE-Berlin-Trion Building | 1mo |
 | SpaceX | [Spring 2027 Software Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002) | Flexible - Any SpaceX Site | 1d |
 | SpaceX | [Summer 2027 Software Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002) | Flexible - Any SpaceX Site | 1d |
+| Valeo | [Software Engineer Intern (Year-Round)](https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Troy-MI/Software-Engineer-Intern--Year-Round-_REQ2026081794) | Troy, MI | 1d |
 | MongoDB | [2027 - Software Engineer Intern, Dublin - 6 Month Internship](https://www.mongodb.com/careers/job/?gh_jid=8258279) | Dublin | 2d |
 | MongoDB | [2027 - Software Engineering Intern, AMER](https://www.mongodb.com/careers/job/?gh_jid=8209134) _$87k–$124k/yr_ | Austin; New York City; San Francisco | 2d |
 | MongoDB | [2027 - Summer Software Engineer Intern, Dublin](https://www.mongodb.com/careers/job/?gh_jid=8267099) | Dublin | 2d |
@@ -366,10 +366,10 @@ Total roles: 331
 | Schneider Electric | [Application Engineer Intern](https://careers.se.com/jobs/139449) | Horsham, Pennsylvania | 23d |
 | Schneider Electric | [Product Application Engineer Intern, Digital Energy](https://careers.se.com/jobs/138025) | Singapore | 1mo |
 | Bitpanda | [Intern, Java Engineer](https://job-boards.eu.greenhouse.io/bitpanda/jobs/4987398101) | Vienna, Vienna, Austria | 18d |
-| Expedia Group | [Mobile Engineering Intern - 2027 - London](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545) | UK - London | 29d |
-| Expedia Group | [Software Development Engineering Intern - 2027 - London](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551) | UK - London | 29d |
 | Expedia Group | [Mobile Engineering Intern - 2027 - Austin, San Jose, Seattle](https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Mobile-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110306) | <details><summary>3 locations</summary>Austin Domain 11 - HomeAway<br>USA - California - San Jose<br>Washington - Seattle Campus</details> | 1mo |
+| Expedia Group | [Mobile Engineering Intern - 2027 - London](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Mobile-Engineering-Intern---2027---London_R-110545) | UK - London | 1mo |
 | Expedia Group | [Software Development Engineering Intern - 2027 - Austin, San Jose, Seattle](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineering-Intern---2027---Austin--San-Jose--Seattle_R-110311) | <details><summary>3 locations</summary>Washington - Seattle Campus<br>Austin Domain 11 - HomeAway<br>USA - California - San Jose</details> | 1mo |
+| Expedia Group | [Software Development Engineering Intern - 2027 - London](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineering-Intern---June-2027---London_R-110551) | UK - London | 1mo |
 | Ramp | [Software Engineering Intern, Android](https://jobs.ashbyhq.com/ramp/fcf118cc-521a-4a62-9d13-945e5b6e3cb8) | New York, NY (HQ) | 1mo |
 | Ramp | [Software Engineering Intern, Frontend](https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74) | New York, NY (HQ) | 1mo |
 | Ramp | [Software Engineering Intern, iOS](https://jobs.ashbyhq.com/ramp/b66be397-240b-41a6-9b05-493299b270a9) | New York, NY (HQ) | 1mo |
@@ -377,7 +377,7 @@ Total roles: 331
 
 ### Early Career
 
-Total roles: 88
+Total roles: 90
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -398,8 +398,10 @@ Total roles: 88
 | Amazon | [Software Development Engineer, Early Career - 2027, Beijing](https://www.amazon.jobs/en/jobs/10493864/software-development-engineer-early-career-2027-beijing) | Beijing, CHN | 3mo |
 | Amazon | [Software Development Engineer I, FinOps FP&A](https://www.amazon.jobs/en/jobs/10432823/software-development-engineer-i-finops-fp-a) | Bengaluru, Karnataka, IND | 5mo |
 | Google | [Software Developer 2 – Early Career](https://www.google.com/about/careers/applications/jobs/results/93868335938052806?utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada Waterloo, ON, Canada | 9d |
+| Google | [Software Engineer 2 – Early Career](https://www.google.com/about/careers/applications/jobs/results/109116638069957318?utm_source=Simplify&ref=Simplify) | <details><summary>12 locations</summary>Palo Alto, CA<br>Madison, WI<br>Seattle, WA<br>LA<br>Raleigh, NC<br>San Bruno, CA<br>Durham, NC<br>Pittsburgh, PA<br>Kirkland, WA<br>NYC<br>Sunnyvale, CA<br>Mountain View, CA</details> | 12d |
 | Google | [Software Engineer, Performance, Reliability, Observability, Phd, Early Career](https://www.linkedin.com/jobs/view/4321301694) | Warsaw, Mazowieckie, Poland | 21d |
 | Apple | [Frontend Engineer, EE&P - IS&T Early Career](https://jobs.apple.com/en-us/details/200676168/frontend-engineer-ee-p-is-t-early-career) | Austin, United States of America | 3mo |
+| Adobe | [2027 University Graduate - Data Scientist](https://www.indeed.com/viewjob?jk=fd8e8b79e6500c09) | San Jose, CA, US | 3d |
 | Salesforce | [Software Engineer New Grad](https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR368047?utm_source=Simplify&ref=Simplify) | <details><summary>7 locations</summary>Palo Alto, CA<br>Seattle, WA<br>Indianapolis, IN<br>SF<br>Dallas, TX<br>NYC<br>Bellevue, WA</details> | 3d |
 | NVIDIA | [SoC Software Engineer New Grad](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1?utm_source=Simplify&ref=Simplify) | Santa Clara, CA | 17d |
 | Arm | [Graduate Software Engineer](https://www.linkedin.com/jobs/view/4472552295) | Budapest, Budapest, Hungary | 18d |
@@ -415,14 +417,14 @@ Total roles: 88
 | JPMorgan Chase | [AI Associate Engineer for Sales Assistant Platform Technology - Software Engineer III](https://zapply.jobs/l/d/oracle-jpmorgan-chase-210788723?s=gh-new-grad-jobs-2027) | Jersey City, NJ, United States | 1d |
 | Unity | [Software Developer New Grad - U-Accelerate: Software Developer](https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/U-Accelerate---Dveloppeur-euse--de-logiciels--nouveau-elle--diplm-e-----U-Accelerate--Software-Developer--New-Grad_JOBREQ-2616768?utm_source=Simplify&ref=Simplify) | Montreal, QC, Canada | 11d |
 | ServiceNow | [Associate Software Engineer](https://jobs.smartrecruiters.com/ServiceNow/744000157571919) | Santa Clara, CALIFORNIA, United States | 22d |
-| PwC | [Junior QA Engineer](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Budapest/Junior-QA-Engineer_774029WD) | Budapest | 0d |
-| PwC | [Advisory - Associate - M&A Infrastructure - Roma](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Advisory---Associate---M-A-Infrastructure---Roma_768909WD-1) | Milan | 3d |
 | Databricks | [Software Engineer - New Grad (2027 Start)](https://databricks.com/company/careers/open-positions/job?gh_jid=6865698002) _$145k–$155k/yr_ | Bellevue, Washington; Mountain View, California; San Francisco, California; Vancouver, Canada | 1d |
 | Databricks | [Software Engineer - New Grad (2027 Start) - Aarhus](https://databricks.com/company/careers/open-positions/job?gh_jid=8133691002) | Aarhus, Denmark | 1d |
 | Databricks | [Software Engineer - New Grad (2027 Start) - Amsterdam](https://databricks.com/company/careers/open-positions/job?gh_jid=6866549002) | Amsterdam, Netherlands | 1d |
 | Databricks | [Software Engineer - New Grad (2027 Start) - Berlin](https://databricks.com/company/careers/open-positions/job?gh_jid=6886281002) | Berlin, Germany | 1d |
 | Databricks | [Software Engineer - New Grad (2027 Start) - London](https://databricks.com/company/careers/open-positions/job?gh_jid=8847747002) | London, United Kingdom | 1d |
 | Databricks | [Software Engineer - New Grad, Distributed Data Systems (2027 Start)](https://databricks.com/company/careers/open-positions/job?gh_jid=6865704002) _$145k–$155k/yr_ | Bellevue, Washington; Mountain View, California | 1d |
+| PwC | [Junior QA Engineer](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Budapest/Junior-QA-Engineer_774029WD) | Budapest | 1d |
+| PwC | [Advisory - Associate - M&A Infrastructure - Roma](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Advisory---Associate---M-A-Infrastructure---Roma_768909WD-1) | Milan | 4d |
 | SpaceX | [New Graduate Engineer, Aerospace Software (Starfall)](https://boards.greenhouse.io/spacex/jobs/8939697002?gh_jid=8939697002) | Hawthorne, CA | 1d |
 | SpaceX | [New Graduate Engineer, Infrastructure](https://boards.greenhouse.io/spacex/jobs/8893406002?gh_jid=8893406002) | Starbase, TX | 1d |
 | SpaceX | [New Graduate Engineer, Software](https://boards.greenhouse.io/spacex/jobs/8493079002?gh_jid=8493079002) | Hawthorne, CA | 1d |
@@ -472,7 +474,7 @@ Total roles: 88
 
 ### Mid-Level and Above
 
-Total roles: 3670
+Total roles: 3669
 
 | Company | Title | Location | Age |
 |---|---|---|---|
@@ -499,6 +501,7 @@ Total roles: 3670
 | Amazon | [Software Development Engineer, SW-Device OS](https://www.amazon.jobs/en/jobs/10605092/software-development-engineer-sw-device-os) | Bengaluru, Karnataka, IND | 1d |
 | Amazon | [Software Development Engineer , Software Defined Network Control Plane, Amazon LEO](https://www.amazon.jobs/en/jobs/10603822/software-development-engineer-software-defined-network-control-plane-amazon-leo) | Sunnyvale, California, USA | 2d |
 | Amazon | [Software Development Engineer - Embedded, Flight Computer Software](https://www.amazon.jobs/en/jobs/10603660/software-development-engineer-embedded-flight-computer-software) | Redmond, Washington, USA | 2d |
+| Amazon | [Software Development Engineer II, Ads AI Core Infra](https://www.amazon.jobs/en/jobs/10599948/software-development-engineer-ii-ads-ai-core-infra) | Melbourne, Victoria, AUS | 2d |
 | Amazon | [Software Development Engineer II, Amazon Music International Tech](https://www.amazon.jobs/en/jobs/10603674/software-development-engineer-ii-amazon-music-international-tech) | Bengaluru, Karnataka, IND | 2d |
 | Amazon | [Software Development Engineer II, SDN Controller, Amazon LEO](https://www.amazon.jobs/en/jobs/10603866/software-development-engineer-ii-sdn-controller-amazon-leo) | Redmond, Washington, USA | 2d |
 | Amazon | [Software Development Engineer III, Programming Foundations](https://www.amazon.jobs/en/jobs/10603770/software-development-engineer-iii-programming-foundations) | Dublin, IRL | 2d |
@@ -530,6 +533,7 @@ Total roles: 3670
 | Amazon | [Software Development Engineer, Provisioning - Amazon Leo](https://www.amazon.jobs/en/jobs/10601959/software-development-engineer-provisioning-amazon-leo) | Redmond, Washington, USA | 3d |
 | Amazon | [Software Development Engineer, Simple Email Service](https://www.amazon.jobs/en/jobs/10598974/software-development-engineer-simple-email-service) | Dublin, IRL | 3d |
 | Amazon | [Software Development Engineer, Special Projects](https://www.amazon.jobs/en/jobs/10602674/software-development-engineer-special-projects) | Seattle, Washington, USA | 3d |
+| Amazon | [Software Development Engineer, US Amazon Dedicated Cloud Security](https://www.amazon.jobs/en/jobs/10601978/software-development-engineer-us-amazon-dedicated-cloud-security) | Herndon, Virginia, USA | 3d |
 | Amazon | [Software Development Engineer](https://www.amazon.jobs/en/jobs/10601102/software-development-engineer) | Newark, New Jersey, USA | 4d |
 | Amazon | [Software Development Engineer](https://www.amazon.jobs/en/jobs/10601162/software-development-engineer) | Bellevue, Washington, USA | 4d |
 | Amazon | [Software Development Engineer](https://www.amazon.jobs/en/jobs/10598928/software-development-engineer) | New York, New York, USA | 4d |
@@ -558,7 +562,6 @@ Total roles: 3670
 | Amazon | [Software Development Engineer, AIO Visualization and Reporting](https://www.amazon.jobs/en/jobs/10600530/software-development-engineer-aio-visualization-and-reporting) | Seattle, Washington, USA | 5d |
 | Amazon | [Software Development Engineer, Amazon Customer Service](https://www.amazon.jobs/en/jobs/10600458/software-development-engineer-amazon-customer-service) | Seattle, Washington, USA | 5d |
 | Amazon | [Software Development Engineer, Amazon Marketing Cloud Assistant](https://www.amazon.jobs/en/jobs/10600648/software-development-engineer-amazon-marketing-cloud-assistant) | Boulder, Colorado, USA | 5d |
-| Amazon | [Software Development Engineer, Audible AI Voice Production](https://www.amazon.jobs/en/jobs/10599972/software-development-engineer-audible-ai-voice-production) | Cambridge, Massachusetts, USA | 5d |
 | Amazon | [Software Development Engineer, AWS Direct Connect](https://www.amazon.jobs/en/jobs/10599700/software-development-engineer-aws-direct-connect) | Dublin, IRL | 5d |
 | Amazon | [Software Development Engineer, Creator Marketplace](https://www.amazon.jobs/en/jobs/10599971/software-development-engineer-creator-marketplace) | Culver City, California, USA | 5d |
 | Amazon | [Software Development Engineer II, Intelligent Cloud Hosting (ICON)](https://zapply.jobs/l/d/amazon-c02f8554-7d43-43a0-b693-596eefa6e053?s=gh-canada-jobs-2027) | Vancouver, BC | 7d |
@@ -569,6 +572,8 @@ Total roles: 3670
 | Amazon | [Software Development Engineer II, AWS Inspector](https://www.amazon.jobs/en/jobs/10598776/software-development-engineer-ii-aws-inspector) | Herndon, Virginia, USA | 8d |
 | Amazon | [Software Development Engineer II, AWS Inspector](https://www.amazon.jobs/en/jobs/10598774/software-development-engineer-ii-aws-inspector) | Arlington, Virginia, USA | 8d |
 | Amazon | [Software Development Engineer II, Client Engineering](https://www.amazon.jobs/en/jobs/10598845/software-development-engineer-ii-client-engineering) | Seattle, Washington, USA | 8d |
+| Amazon | [Software Development Engineer II, Intelligent Cloud Hosting (ICON)](https://www.amazon.jobs/en/jobs/10598837/software-development-engineer-ii-intelligent-cloud-hosting-icon) | Vancouver, British Columbia, CAN | 8d |
+| Amazon | [Software Development Engineer II, Intelligent Cloud Hosting (ICON)](https://www.amazon.jobs/en/jobs/10598838/software-development-engineer-ii-intelligent-cloud-hosting-icon) | Vancouver, British Columbia, CAN | 8d |
 | Amazon | [Software Development Engineer II, KMS](https://www.amazon.jobs/en/jobs/10598421/software-development-engineer-ii-kms) | Seattle, Washington, USA | 8d |
 | Amazon | [Software Development Engineer II, Last Mile](https://www.amazon.jobs/en/jobs/10598377/software-development-engineer-ii-last-mile) | Bengaluru, Karnataka, IND | 8d |
 | Amazon | [Software Development Engineer, DynamoDB](https://www.amazon.jobs/en/jobs/10599071/software-development-engineer-dynamodb) | Seattle, Washington, USA | 8d |
@@ -683,7 +688,6 @@ Total roles: 3670
 | Amazon | [Software Development Engineer II, Alexa Excellence](https://www.amazon.jobs/en/jobs/10591315/software-development-engineer-ii-alexa-excellence) | Chennai, Tamil Nadu, IND | 17d |
 | Amazon | [Software Development Engineer II, Connections CODEX Team](https://www.amazon.jobs/en/jobs/10591801/software-development-engineer-ii-connections-codex-team) | Seattle, Washington, USA | 17d |
 | Amazon | [Software Development Engineer – 2027](https://www.amazon.jobs/en/jobs/10591094/software-development-engineer-2027) | Cape Town, Western Cape, ZAF | 17d |
-| Amazon | [Software Development Engineer, Alexa Excellence](https://www.amazon.jobs/en/jobs/10591316/software-development-engineer-alexa-excellence) | Chennai, Tamil Nadu, IND | 17d |
 | Amazon | [Software Development Engineer, Amazon Cloud Management Foundations](https://www.amazon.jobs/en/jobs/10591860/software-development-engineer-amazon-cloud-management-foundations) | Seattle, Washington, USA | 17d |
 | Amazon | [Software Development Engineer, Amazon Leo Live](https://www.amazon.jobs/en/jobs/10591365/software-development-engineer-amazon-leo-live) | Redmond, Washington, USA | 17d |
 | Amazon | [Software Development Engineer, Amazon Quick](https://www.amazon.jobs/en/jobs/10588976/software-development-engineer-amazon-quick) | Seattle, Washington, USA | 17d |
@@ -700,7 +704,6 @@ Total roles: 3670
 | Amazon | [Software Development Engineer - 2027](https://www.amazon.jobs/en/jobs/10590147/software-development-engineer-2027) | London, England, GBR | 18d |
 | Amazon | [Software Development Engineer - Connectivity, Emerging Device Software](https://www.amazon.jobs/en/jobs/10589519/software-development-engineer-connectivity-emerging-device-software) | Bengaluru, Karnataka, IND | 18d |
 | Amazon | [Software Development Engineer II, AWS IAM AuthRuntimeClient](https://www.amazon.jobs/en/jobs/10588960/software-development-engineer-ii-aws-iam-authruntimeclient) | Arlington, Virginia, USA | 18d |
-| Amazon | [Software Development Engineer II, Frontier AI - Data Tranformation](https://www.amazon.jobs/en/jobs/10586775/software-development-engineer-ii-frontier-ai-data-tranformation) | Bellevue, Washington, USA | 18d |
 | Amazon | [Software Development Engineer, Amazon Customer Service](https://www.amazon.jobs/en/jobs/10590246/software-development-engineer-amazon-customer-service) | Seattle, Washington, USA | 18d |
 | Amazon | [Software Development Engineer, AWS Agentic AI](https://www.amazon.jobs/en/jobs/10584176/software-development-engineer-aws-agentic-ai) | Bellevue, Washington, USA | 18d |
 | Amazon | [Software Development Engineer, AWS Security Communications](https://www.amazon.jobs/en/jobs/10589857/software-development-engineer-aws-security-communications) | Seattle, Washington, USA | 18d |
@@ -1189,7 +1192,6 @@ Total roles: 3670
 | Amazon | [Software Development Engineer, Amazon S3 Index](https://www.amazon.jobs/en/jobs/10488746/software-development-engineer-amazon-s3-index) | Seattle, Washington, USA | 3mo |
 | Amazon | [Software Development Engineer, ML Systems, Annapurna Labs](https://www.amazon.jobs/en/jobs/10488707/software-development-engineer-ml-systems-annapurna-labs) | New York, New York, USA | 3mo |
 | Amazon | [Embedded Software Development Engineer, Ring](https://www.amazon.jobs/en/jobs/10487368/embedded-software-development-engineer-ring) | Cambridge, England, GBR | 3mo |
-| Amazon | [Software Development Engineer II, AWS Config](https://www.amazon.jobs/en/jobs/10487482/software-development-engineer-ii-aws-config) | Berlin, Berlin, DEU | 3mo |
 | Amazon | [Software Development Engineer II, PartyRock](https://www.amazon.jobs/en/jobs/10471492/software-development-engineer-ii-partyrock) | Berlin, Berlin, DEU | 3mo |
 | Amazon | [Software Development Engineer, AWS Config, AWS Config](https://www.amazon.jobs/en/jobs/10487481/software-development-engineer-aws-config-aws-config) | Seattle, Washington, USA | 3mo |
 | Amazon | [Software Development Engineer, FBA](https://www.amazon.jobs/en/jobs/10486982/software-development-engineer-fba) | Bengaluru, Karnataka, IND | 3mo |
@@ -1455,40 +1457,77 @@ Total roles: 3670
 | ClickHouse | [Principal Software Engineer - Postgres](https://jobs.ashbyhq.com/clickhouse/c9c55913-563f-432d-9d9b-722e71f57b53) | NAMER and LatAm | 5mo |
 | ClickHouse | [Senior Software Engineer (Typescript / FrontEnd) - AI/ML](https://jobs.ashbyhq.com/clickhouse/33313f14-1a98-4cd1-8baa-edb818316e2b) | The Netherlands | 5mo |
 | ClickHouse | [Senior Software Engineer (Typescript / FrontEnd) - AI/ML](https://jobs.ashbyhq.com/clickhouse/999e3811-e002-49f8-88b0-2d418b16cc80) | Germany | 6mo |
-| Expedia Group | [Senior Manager, Software Development Engineering](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Manager--Software-Development-Engineering_R-111119) | USA - Illinois - Chicago | 0d |
-| Expedia Group | [Software Development Engineer III](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Development-Engineer-III_R-110424) | USA - Missouri - Springfield | 7d |
-| Expedia Group | [Senior Software Development Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer_R-111084) | Washington - Seattle Campus | 11d |
-| Expedia Group | [Software Development Engineer II - Analytics Products](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-II_R-110950) | UK - London | 11d |
-| Expedia Group | [Senior Full Stack Agentic AI Engineer — Layla AI](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Full-Stack-Agentic-AI-Engineer---Layla-AI_R-110976) | <details><summary>2 locations</summary>Washington - Seattle Campus<br>Austin Domain 11 - HomeAway</details> | 16d |
-| Expedia Group | [Senior Software Development Engineer - ML Platform](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer---ML-Platform_R-110741) | <details><summary>2 locations</summary>Washington - Seattle Campus<br>USA - California - San Jose</details> | 25d |
-| Expedia Group | [Android Engineer III](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Mobile-Engineer-III_R-107935) | Washington - Seattle Campus | 1mo |
-| Expedia Group | [Cloud Infrastructure Development Engineer III - Kubernetes](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Cloud-Infrastructure-Development-Engineer-III---Kubernetes_R-107548-1) | <details><summary>2 locations</summary>USA - Illinois - Chicago<br>Austin Domain 11 - HomeAway</details> | 1mo |
-| Expedia Group | [Développeur(-euse) principal(e) de logiciels (contenu) /Principal Software Development Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/Canada---Quebec---Montreal/Dveloppeur--euse--principal-e--de-logiciels--contenu---Principal-Software-Development-Engineer_R-107278) | Canada - Quebec - Montreal | 1mo |
-| Expedia Group | [iOS Engineer II - Search Entry](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/iOS-Engineer-II---Search-Entry_R-109973) | Washington - Seattle Campus | 1mo |
-| Expedia Group | [Principal Software Development Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Principal-Software-Development-Engineer_R-101767-2) | Austin Domain 11 - HomeAway | 1mo |
-| Expedia Group | [Senior Cloud Infrastructure Development Engineer - Kubernetes](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Cloud-Infrastructure-Development-Engineer---Kubernetes_R-106658) | USA - Illinois - Chicago | 1mo |
-| Expedia Group | [Senior Frontend Engineer - Layla AI](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Frontend-Engineer---Layla-AI_R-109191) | <details><summary>2 locations</summary>Washington - Seattle Campus<br>Austin Domain 11 - HomeAway</details> | 1mo |
-| Expedia Group | [Senior Manager, Software Development Engineering: BEX Engineering Home](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Manager--Software-Development-Engineering--BEX-Engineering-Home_R-110010-1) | USA - Illinois - Chicago | 1mo |
-| Expedia Group | [Senior Mobile Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Senior-Mobile-Engineer_R-108720) | Austin Domain 11 - HomeAway | 1mo |
-| Expedia Group | [Senior Mobile Engineer, Flutter (iOS & Android) - Layla AI](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Mobile-Engineer--Flutter--iOS---Android----Layla-AI_R-109189) | <details><summary>2 locations</summary>Washington - Seattle Campus<br>Austin Domain 11 - HomeAway</details> | 1mo |
-| Expedia Group | [Senior Software Development Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Senior-Software-Development-Engineer_R-101702-2) | UK - London | 1mo |
-| Expedia Group | [Senior Software Development Engineer - AI Foundations](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer---AI-Foundations_R-105310) | Washington - Seattle Campus | 1mo |
-| Expedia Group | [Senior Software Development Engineer - GenAI](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Software-Development-Engineer---GenAI_R-109437) | USA - Illinois - Chicago | 1mo |
-| Expedia Group | [Senior Software Development Engineer, Loyalty - Full Stack](https://expedia.wd108.myworkdayjobs.com/private/job/USA---California---San-Jose/Sr-Software-Development-Engineer--Loyalty---Full-Stack_R-103344) | USA - California - San Jose | 1mo |
-| Expedia Group | [Software Development Engineer II](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-II_R-109579) | UK - London | 1mo |
-| Expedia Group | [Software Development Engineer III](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-III_R-109846) | UK - London | 1mo |
-| Expedia Group | [Software Development Engineer III - Loyalty](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineer-III---Loyalty_R-109614-1) | Washington - Seattle Campus | 1mo |
-| PwC | [Medior QA Engineer](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Budapest/Medior-QA-Engineer_774014WD) | Budapest | 0d |
-| Salesforce | [Assurance Engineering Platform Developer SMTS / LMTS](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Assurance-Engineering-Platform-Developer-SMTS---LMTS_JR366292) | <details><summary>2 locations</summary>India - Hyderabad<br>India - Bangalore</details> | 0d |
-| Salesforce | [Director, Software Engineering – Availability Engineering](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Director--Software-Engineering---Availability-Engineering_JR366828-1) | <details><summary>2 locations</summary>California - San Francisco<br>Washington - Bellevue</details> | 0d |
-| Salesforce | [Lead Software Engineer, AI Labs (Product and Customer Facing)](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Lead-Software-Engineer--AI-Labs--Product-and-Customer-Facing-_JR364943) | <details><summary>4 locations</summary>California - San Francisco<br>District of Columbia - Washington<br>New York - New York<br>Washington - Bellevue</details> | 0d |
-| Salesforce | [Senior Manager of Software Engineering, DNS Engineering](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Director-of-Software-Engineering--DNS-Engineering_JR365150) | Washington - Bellevue | 0d |
-| Salesforce | [Senior Software Engineering Manager - Full Stack (Slack)](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Atlanta/Senior-Engineering-Manager--Design-Systems---Accessibility_JR357962-1) | <details><summary>5 locations</summary>Georgia - Atlanta<br>New York - New York<br>Washington - Seattle<br>Washington - Bellevue<br>California - San Francisco</details> | 0d |
-| Salesforce | [Senior/Lead Software Engineer - AgentExchange Buyer Experience](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering---AgentExchange-Buyer-Experience---LMTS_JR368156) | <details><summary>2 locations</summary>California - San Francisco<br>Washington - Bellevue</details> | 0d |
-| Salesforce | [Software Engineering LMTS - Backend Distributed Systems](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS_JR338174) | <details><summary>2 locations</summary>India - Bangalore<br>India - Hyderabad</details> | 0d |
-| Salesforce | [Technical Architect- Salesforce Devops](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Technical-Architect--Salesforce-Devops_JR365354) | <details><summary>2 locations</summary>India - Bangalore<br>India - Hyderabad</details> | 0d |
-| Salesforce | [Senior Staff Prototyping Engineer, iOS](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/Senior-Staff-Prototyping-Engineer--iOS_JR360080-1) | <details><summary>5 locations</summary>California - San Francisco Metro - Remote<br>New York - Remote<br>New York - New York<br>California - Remote<br>California - San Francisco</details> | 1d |
-| Salesforce | [Software Engineering AMTS (College Grad)](https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR368047) | <details><summary>7 locations</summary>California - San Francisco<br>California - Palo Alto<br>New York - New York<br>Washington - Seattle<br>Washington - Bellevue<br>Texas - Dallas<br>Indiana - Indianapolis</details> | 2d |
+| Cloudflare | [Principal Solutions Architect, APJC (Developer Platform) - Mandarin Speaking](https://boards.greenhouse.io/cloudflare/jobs/8179387?gh_jid=8179387) | Hybrid | 0d |
+| Cloudflare | [Senior Solutions Architect, APJC (Developer Platform) - India Market](https://boards.greenhouse.io/cloudflare/jobs/8169689?gh_jid=8169689) | Hybrid | 0d |
+| Cloudflare | [Executive Assistant - Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/8360491?gh_jid=8360491) _$114k–$157k/yr_ | Hybrid | 1d |
+| Cloudflare | [Principal Software Engineer, Enterprise Integrations](https://boards.greenhouse.io/cloudflare/jobs/8155495?gh_jid=8155495) _€79k–€109k/yr_ | Hybrid | 1d |
+| Cloudflare | [Principal, Developer Platform Positioning](https://boards.greenhouse.io/cloudflare/jobs/8381749?gh_jid=8381749) _$164k–$200k/yr_ | Hybrid | 1d |
+| Cloudflare | [Senior Software Engineer - Quicksilver - Distributed Key Value](https://boards.greenhouse.io/cloudflare/jobs/8140310?gh_jid=8140310) _$168k–$231k/yr_ | Hybrid | 1d |
+| Cloudflare | [Senior Software Engineer, Cloudflare Queues](https://boards.greenhouse.io/cloudflare/jobs/8080780?gh_jid=8080780) _$194k–$266k/yr_ | In-Office | 1d |
+| Cloudflare | [Senior Software Engineer, Deploy at Scale](https://boards.greenhouse.io/cloudflare/jobs/8178593?gh_jid=8178593) _$194k–$266k/yr_ | Hybrid | 1d |
+| Cloudflare | [Software Engineer, Deploy at Scale](https://boards.greenhouse.io/cloudflare/jobs/7302931?gh_jid=7302931) _$157k–$216k/yr_ | Hybrid | 1d |
+| Cloudflare | [Systems Engineer - Database Platform](https://boards.greenhouse.io/cloudflare/jobs/8158016?gh_jid=8158016) _$157k–$196k/yr_ | Hybrid | 1d |
+| Cloudflare | [Senior Infrastructure Engineer, Storage Platform](https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805) _$194k–$266k/yr_ | In-Office | 2d |
+| Cloudflare | [Senior Software Engineer - ZTC](https://boards.greenhouse.io/cloudflare/jobs/8346149?gh_jid=8346149) _€66k–€83k/yr_ | In-Office | 2d |
+| Cloudflare | [Senior Software Engineer, R2 Gateway](https://boards.greenhouse.io/cloudflare/jobs/8174207?gh_jid=8174207) _$194k–$266k/yr_ | In-Office | 2d |
+| Cloudflare | [Software Engineer, R2 Gateway](https://boards.greenhouse.io/cloudflare/jobs/8155463?gh_jid=8155463) | In-Office | 2d |
+| Cloudflare | [Senior Software Engineer - Egress (Go/Rust)](https://boards.greenhouse.io/cloudflare/jobs/7463793?gh_jid=7463793) _€66k–€91k/yr_ | Hybrid | 3d |
+| Cloudflare | [Senior Software Engineer - Network Connectivity (Go/Rust)](https://boards.greenhouse.io/cloudflare/jobs/7793013?gh_jid=7793013) _€66k–€91k/yr_ | Hybrid | 3d |
+| Cloudflare | [Software Engineer - Egress (Go/Rust)](https://boards.greenhouse.io/cloudflare/jobs/8195746?gh_jid=8195746) _€54k–€75k/yr_ | Hybrid | 3d |
+| Cloudflare | [Systems Engineer, Product Platform Tools](https://boards.greenhouse.io/cloudflare/jobs/8089031?gh_jid=8089031) | Hybrid | 3d |
+| Cloudflare | [Global Vendor Manager, Data Center Infrastructure](https://boards.greenhouse.io/cloudflare/jobs/8328089?gh_jid=8328089) | Hybrid | 5d |
+| Cloudflare | [Infrastructure Network & Supply Engineer](https://boards.greenhouse.io/cloudflare/jobs/8188468?gh_jid=8188468) _€36k–€50k/yr_ | Hybrid | 5d |
+| Cloudflare | [Principal Engineer - GTM Data Platform](https://boards.greenhouse.io/cloudflare/jobs/8054669?gh_jid=8054669) | Hybrid | 5d |
+| Cloudflare | [Principal Software Engineer - Fintech](https://boards.greenhouse.io/cloudflare/jobs/8105716?gh_jid=8105716) | Hybrid | 5d |
+| Cloudflare | [Principal Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320) _$194k–$266k/yr_ | In-Office | 5d |
+| Cloudflare | [Principal Software Engineer: Distributed Systems (Config, Test, & Deployment)](https://boards.greenhouse.io/cloudflare/jobs/8038898?gh_jid=8038898) _$230k–$288k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Director of Engineering, Billing Platform](https://boards.greenhouse.io/cloudflare/jobs/8152825?gh_jid=8152825) _$273k–$341k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Forward Deployed Infrastructure Engineer](https://boards.greenhouse.io/cloudflare/jobs/8256332?gh_jid=8256332) _$194k–$266k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Practice Leader, Developer Platform for Professional Services, APAC](https://boards.greenhouse.io/cloudflare/jobs/8260743?gh_jid=8260743) | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer - Addressing Team](https://boards.greenhouse.io/cloudflare/jobs/8164694?gh_jid=8164694) | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer - Kubernetes platform](https://boards.greenhouse.io/cloudflare/jobs/8263016?gh_jid=8263016) _$194k–$266k/yr_ | Distributed; Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer - Load Balancing](https://boards.greenhouse.io/cloudflare/jobs/8212352?gh_jid=8212352) _$194k–$266k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) _€68k–€91k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer, Agentic Commerce](https://boards.greenhouse.io/cloudflare/jobs/8312254?gh_jid=8312254) _€66k–€91k/yr_ | In-Office | 5d |
+| Cloudflare | [Senior Software Engineer, Agentic Discovery](https://boards.greenhouse.io/cloudflare/jobs/8262000?gh_jid=8262000) _€66k–€91k/yr_ | In-Office | 5d |
+| Cloudflare | [Senior Software Engineer, AI & Infrastructure Planning](https://boards.greenhouse.io/cloudflare/jobs/8328562?gh_jid=8328562) _€66k–€91k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer, Cloudflare for SaaS](https://boards.greenhouse.io/cloudflare/jobs/8250155?gh_jid=8250155) | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer, Cloudflare Hyperdrive](https://boards.greenhouse.io/cloudflare/jobs/8016162?gh_jid=8016162) _$194k–$266k/yr_ | In-Office | 5d |
+| Cloudflare | [Senior Software Engineer, Distributed Databases](https://boards.greenhouse.io/cloudflare/jobs/8269100?gh_jid=8269100) _$194k–$266k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer, Durable Objects (DO)](https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243) _$194k–$266k/yr_ | In-Office | 5d |
+| Cloudflare | [Senior Software Engineer, Network On-Ramps](https://boards.greenhouse.io/cloudflare/jobs/8164724?gh_jid=8164724) _$168k–$210k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer, R2 Metadata](https://boards.greenhouse.io/cloudflare/jobs/7276690?gh_jid=7276690) _$194k–$266k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Software Engineer, Workers Runtime](https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726) _$194k–$266k/yr_ | In-Office | 5d |
+| Cloudflare | [Senior Software Engineer, Zero Trust Client](https://boards.greenhouse.io/cloudflare/jobs/8204256?gh_jid=8204256) _$185k–$254k/yr_ | Hybrid | 5d |
+| Cloudflare | [Senior Systems Engineer, Basin Platform](https://boards.greenhouse.io/cloudflare/jobs/8030240?gh_jid=8030240) _$194k–$266k/yr_ | In-Office | 5d |
+| Cloudflare | [Software Engineer](https://boards.greenhouse.io/cloudflare/jobs/8212060?gh_jid=8212060) | Hybrid | 5d |
+| Cloudflare | [Software Engineer (Threat Intelligence), Cloudforce One](https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174) _$157k–$216k/yr_ | Hybrid | 5d |
+| Cloudflare | [Software Engineer - Load Balancing](https://boards.greenhouse.io/cloudflare/jobs/8360609?gh_jid=8360609) | Hybrid | 5d |
+| Cloudflare | [Software Engineer - Platforms & Productivity](https://boards.greenhouse.io/cloudflare/jobs/6972536?gh_jid=6972536) | In-Office | 5d |
+| Cloudflare | [Software Engineer, Agentic Commerce](https://boards.greenhouse.io/cloudflare/jobs/8312256?gh_jid=8312256) _€54k–€75k/yr_ | In-Office | 5d |
+| Cloudflare | [Software Engineer, Agentic Discovery](https://boards.greenhouse.io/cloudflare/jobs/8264687?gh_jid=8264687) _€54k–€75k/yr_ | In-Office | 5d |
+| Cloudflare | [Software Engineer, CDN Configuration Group](https://boards.greenhouse.io/cloudflare/jobs/8188899?gh_jid=8188899) | Hybrid | 5d |
+| Cloudflare | [Software Engineer, Cloudflare Network Interconnect](https://boards.greenhouse.io/cloudflare/jobs/8088751?gh_jid=8088751) _€54k–€75k/yr_ | Hybrid | 5d |
+| Cloudflare | [Software Engineer, FL](https://boards.greenhouse.io/cloudflare/jobs/8158920?gh_jid=8158920) | Hybrid | 5d |
+| Cloudflare | [Software Engineer, Network Performance & Reliability (Argo)](https://boards.greenhouse.io/cloudflare/jobs/7446310?gh_jid=7446310) | Hybrid | 5d |
+| Cloudflare | [Software Engineer, Rulesets](https://boards.greenhouse.io/cloudflare/jobs/8159348?gh_jid=8159348) | Hybrid | 5d |
+| Cloudflare | [Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424) _€54k–€75k/yr_ | In-Office | 5d |
+| Cloudflare | [Staff Software Engineer - Integrated Network Strategy](https://boards.greenhouse.io/cloudflare/jobs/8157281?gh_jid=8157281) | Hybrid | 5d |
+| Cloudflare | [Vulnerability Defense Software Engineer, Cloudforce One](https://boards.greenhouse.io/cloudflare/jobs/8245503?gh_jid=8245503) _$150k–$206k/yr_ | Hybrid | 5d |
+| Mercor | [Software Engineer, Frontier Data Products](https://jobs.ashbyhq.com/mercor/ae344099-3fde-4027-bfde-f953db8b4728) | San Francisco | 0d |
+| Mercor | [Software Engineer, Applied AI - Systems](https://jobs.ashbyhq.com/mercor/6d1de461-c08d-419c-96cf-ed38083e0976) | San Francisco | 5d |
+| Mercor | [Software Engineer, Applied AI- Evals](https://jobs.ashbyhq.com/mercor/4b0920c5-49f9-4851-a8ca-26825ff570f8) | San Francisco | 5d |
+| Mercor | [Partnerships Lead, AI Infrastructure & Post-Training](https://jobs.ashbyhq.com/mercor/a0c11121-8ffd-4c1d-9faf-bcdb9e8ca481) | Mercor HQ, 181 Fremont Street | 8d |
+| Mercor | [AI Infrastructure Engineer](https://jobs.ashbyhq.com/mercor/799ecfcc-4258-4075-8b11-12fc64fb2868) | San Francisco | 18d |
+| Mercor | [Software Engineer, Applied AI - Environments Platform](https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae) | San Francisco | 1mo |
+| Mercor | [Software Engineer - Data Infrastructure](https://jobs.ashbyhq.com/mercor/415d2ee3-44b9-40e5-ab4b-04340faa3872) | San Francisco | 2mo |
+| Mercor | [Infrastructure Software Engineer](https://jobs.ashbyhq.com/mercor/296c4031-5e98-4772-95f5-a9eb5bd7746d) | San Francisco | 2mo |
+| Mercor | [Software Engineer, Applied AI - Frontier Engineering (NYC)](https://jobs.ashbyhq.com/mercor/4bb1232c-3f1e-4fd7-8894-fcd68f96e3db) | New York City | 2mo |
+| Mercor | [Member of Technical Staff, Mercor Enterprise Platform](https://jobs.ashbyhq.com/mercor/c6f9c6bd-68b8-49c5-aecb-b586616d7102) | San Francisco | 2mo |
+| Mercor | [Agentic Product Engineer, Studio Platform](https://jobs.ashbyhq.com/mercor/fa580f7f-8752-428c-bb6b-439fa72c76e7) | San Francisco | 2mo |
+| Mercor | [Member of Technical Staff, Enterprise Evals Platform](https://jobs.ashbyhq.com/mercor/35e1923b-3c1c-4bb4-94d6-ef3a529ef871) | San Francisco | 3mo |
+| Mercor | [Member of Technical Staff, iOS](https://jobs.ashbyhq.com/mercor/9022be86-9c4c-40d3-ab03-85dbfe7db560) | San Francisco | 4mo |
+| Mercor | [Software Engineer, Enterprise Applied AI](https://jobs.ashbyhq.com/mercor/e106399e-d85e-4af2-9bc8-6a0e144f318f) | San Francisco | 5mo |
 | Airbnb | [Senior Mobile Software Engineer, Quality Engineering](https://careers.airbnb.com/positions/7453190?gh_jid=7453190) | Brazil - Remote | 1d |
 | Airbnb | [Software Engineer, Profile & Community, Android](https://careers.airbnb.com/positions/8386083?gh_jid=8386083) _$162k–$186k/yr_ | Remote, USA | 1d |
 | Airbnb | [Software Engineer, Profile & Community, Web](https://careers.airbnb.com/positions/8386065?gh_jid=8386065) _$162k–$186k/yr_ | Remote, USA | 1d |
@@ -1665,63 +1704,6 @@ Total roles: 3670
 | Celonis | [Software Engineer](https://job-boards.greenhouse.io/celonis/jobs/8190822003?gh_jid=8190822003) _$134k–$158k/yr_ | Remote, US, Massachusetts | 1d |
 | Celonis | [Software Engineer - Infrastructure](https://job-boards.greenhouse.io/celonis/jobs/8190831003?gh_jid=8190831003) _$134k–$158k/yr_ | Remote, US, Massachusetts | 1d |
 | Celonis | [Sr. Frontend Engineer - Process Modeling Team](https://job-boards.greenhouse.io/celonis/jobs/7884206003?gh_jid=7884206003) | Madrid, Spain | 1d |
-| Cloudflare | [Executive Assistant - Developer Platform](https://boards.greenhouse.io/cloudflare/jobs/8360491?gh_jid=8360491) _$114k–$157k/yr_ | Hybrid | 1d |
-| Cloudflare | [Principal Software Engineer, Enterprise Integrations](https://boards.greenhouse.io/cloudflare/jobs/8155495?gh_jid=8155495) _€79k–€109k/yr_ | Hybrid | 1d |
-| Cloudflare | [Principal, Developer Platform Positioning](https://boards.greenhouse.io/cloudflare/jobs/8381749?gh_jid=8381749) _$164k–$200k/yr_ | Hybrid | 1d |
-| Cloudflare | [Senior Software Engineer - Quicksilver - Distributed Key Value](https://boards.greenhouse.io/cloudflare/jobs/8140310?gh_jid=8140310) _$168k–$231k/yr_ | Hybrid | 1d |
-| Cloudflare | [Senior Software Engineer, Cloudflare Queues](https://boards.greenhouse.io/cloudflare/jobs/8080780?gh_jid=8080780) _$194k–$266k/yr_ | In-Office | 1d |
-| Cloudflare | [Senior Software Engineer, Deploy at Scale](https://boards.greenhouse.io/cloudflare/jobs/8178593?gh_jid=8178593) _$194k–$266k/yr_ | Hybrid | 1d |
-| Cloudflare | [Software Engineer, Deploy at Scale](https://boards.greenhouse.io/cloudflare/jobs/7302931?gh_jid=7302931) _$157k–$216k/yr_ | Hybrid | 1d |
-| Cloudflare | [Systems Engineer - Database Platform](https://boards.greenhouse.io/cloudflare/jobs/8158016?gh_jid=8158016) _$157k–$196k/yr_ | Hybrid | 1d |
-| Cloudflare | [Senior Infrastructure Engineer, Storage Platform](https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805) _$194k–$266k/yr_ | In-Office | 2d |
-| Cloudflare | [Senior Software Engineer - ZTC](https://boards.greenhouse.io/cloudflare/jobs/8346149?gh_jid=8346149) _€66k–€83k/yr_ | In-Office | 2d |
-| Cloudflare | [Senior Software Engineer, R2 Gateway](https://boards.greenhouse.io/cloudflare/jobs/8174207?gh_jid=8174207) _$194k–$266k/yr_ | In-Office | 2d |
-| Cloudflare | [Software Engineer, R2 Gateway](https://boards.greenhouse.io/cloudflare/jobs/8155463?gh_jid=8155463) | In-Office | 2d |
-| Cloudflare | [Senior Software Engineer - Egress (Go/Rust)](https://boards.greenhouse.io/cloudflare/jobs/7463793?gh_jid=7463793) _€66k–€91k/yr_ | Hybrid | 3d |
-| Cloudflare | [Senior Software Engineer - Network Connectivity (Go/Rust)](https://boards.greenhouse.io/cloudflare/jobs/7793013?gh_jid=7793013) _€66k–€91k/yr_ | Hybrid | 3d |
-| Cloudflare | [Software Engineer - Egress (Go/Rust)](https://boards.greenhouse.io/cloudflare/jobs/8195746?gh_jid=8195746) _€54k–€75k/yr_ | Hybrid | 3d |
-| Cloudflare | [Systems Engineer, Product Platform Tools](https://boards.greenhouse.io/cloudflare/jobs/8089031?gh_jid=8089031) | Hybrid | 3d |
-| Cloudflare | [Global Vendor Manager, Data Center Infrastructure](https://boards.greenhouse.io/cloudflare/jobs/8328089?gh_jid=8328089) | Hybrid | 5d |
-| Cloudflare | [Infrastructure Network & Supply Engineer](https://boards.greenhouse.io/cloudflare/jobs/8188468?gh_jid=8188468) _€36k–€50k/yr_ | Hybrid | 5d |
-| Cloudflare | [Principal Engineer - GTM Data Platform](https://boards.greenhouse.io/cloudflare/jobs/8054669?gh_jid=8054669) | Hybrid | 5d |
-| Cloudflare | [Principal Software Engineer - Fintech](https://boards.greenhouse.io/cloudflare/jobs/8105716?gh_jid=8105716) | Hybrid | 5d |
-| Cloudflare | [Principal Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320) _$194k–$266k/yr_ | In-Office | 5d |
-| Cloudflare | [Principal Software Engineer: Distributed Systems (Config, Test, & Deployment)](https://boards.greenhouse.io/cloudflare/jobs/8038898?gh_jid=8038898) _$230k–$288k/yr_ | Hybrid | 5d |
-| Cloudflare | [Principal Solutions Architect, APJC (Developer Platform) - Mandarin Speaking](https://boards.greenhouse.io/cloudflare/jobs/8179387?gh_jid=8179387) | Hybrid | 5d |
-| Cloudflare | [Senior Director of Engineering, Billing Platform](https://boards.greenhouse.io/cloudflare/jobs/8152825?gh_jid=8152825) _$273k–$341k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Forward Deployed Infrastructure Engineer](https://boards.greenhouse.io/cloudflare/jobs/8256332?gh_jid=8256332) _$194k–$266k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Practice Leader, Developer Platform for Professional Services, APAC](https://boards.greenhouse.io/cloudflare/jobs/8260743?gh_jid=8260743) | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer - Addressing Team](https://boards.greenhouse.io/cloudflare/jobs/8164694?gh_jid=8164694) | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer - Kubernetes platform](https://boards.greenhouse.io/cloudflare/jobs/8263016?gh_jid=8263016) _$194k–$266k/yr_ | Distributed; Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer - Load Balancing](https://boards.greenhouse.io/cloudflare/jobs/8212352?gh_jid=8212352) _$194k–$266k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer - Network Platforms](https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032) _€68k–€91k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer, Agentic Commerce](https://boards.greenhouse.io/cloudflare/jobs/8312254?gh_jid=8312254) _€66k–€91k/yr_ | In-Office | 5d |
-| Cloudflare | [Senior Software Engineer, Agentic Discovery](https://boards.greenhouse.io/cloudflare/jobs/8262000?gh_jid=8262000) _€66k–€91k/yr_ | In-Office | 5d |
-| Cloudflare | [Senior Software Engineer, AI & Infrastructure Planning](https://boards.greenhouse.io/cloudflare/jobs/8328562?gh_jid=8328562) _€66k–€91k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer, Cloudflare for SaaS](https://boards.greenhouse.io/cloudflare/jobs/8250155?gh_jid=8250155) | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer, Cloudflare Hyperdrive](https://boards.greenhouse.io/cloudflare/jobs/8016162?gh_jid=8016162) _$194k–$266k/yr_ | In-Office | 5d |
-| Cloudflare | [Senior Software Engineer, Distributed Databases](https://boards.greenhouse.io/cloudflare/jobs/8269100?gh_jid=8269100) _$194k–$266k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer, Durable Objects (DO)](https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243) _$194k–$266k/yr_ | In-Office | 5d |
-| Cloudflare | [Senior Software Engineer, Network On-Ramps](https://boards.greenhouse.io/cloudflare/jobs/8164724?gh_jid=8164724) _$168k–$210k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer, R2 Metadata](https://boards.greenhouse.io/cloudflare/jobs/7276690?gh_jid=7276690) _$194k–$266k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Software Engineer, Workers Runtime](https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726) _$194k–$266k/yr_ | In-Office | 5d |
-| Cloudflare | [Senior Software Engineer, Zero Trust Client](https://boards.greenhouse.io/cloudflare/jobs/8204256?gh_jid=8204256) _$185k–$254k/yr_ | Hybrid | 5d |
-| Cloudflare | [Senior Solutions Architect, APJC (Developer Platform) - India Market](https://boards.greenhouse.io/cloudflare/jobs/8169689?gh_jid=8169689) | Hybrid | 5d |
-| Cloudflare | [Senior Systems Engineer, Basin Platform](https://boards.greenhouse.io/cloudflare/jobs/8030240?gh_jid=8030240) _$194k–$266k/yr_ | In-Office | 5d |
-| Cloudflare | [Software Engineer](https://boards.greenhouse.io/cloudflare/jobs/8212060?gh_jid=8212060) | Hybrid | 5d |
-| Cloudflare | [Software Engineer (Threat Intelligence), Cloudforce One](https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174) _$157k–$216k/yr_ | Hybrid | 5d |
-| Cloudflare | [Software Engineer - Load Balancing](https://boards.greenhouse.io/cloudflare/jobs/8360609?gh_jid=8360609) | Hybrid | 5d |
-| Cloudflare | [Software Engineer - Platforms & Productivity](https://boards.greenhouse.io/cloudflare/jobs/6972536?gh_jid=6972536) | In-Office | 5d |
-| Cloudflare | [Software Engineer, Agentic Commerce](https://boards.greenhouse.io/cloudflare/jobs/8312256?gh_jid=8312256) _€54k–€75k/yr_ | In-Office | 5d |
-| Cloudflare | [Software Engineer, Agentic Discovery](https://boards.greenhouse.io/cloudflare/jobs/8264687?gh_jid=8264687) _€54k–€75k/yr_ | In-Office | 5d |
-| Cloudflare | [Software Engineer, CDN Configuration Group](https://boards.greenhouse.io/cloudflare/jobs/8188899?gh_jid=8188899) | Hybrid | 5d |
-| Cloudflare | [Software Engineer, Cloudflare Network Interconnect](https://boards.greenhouse.io/cloudflare/jobs/8088751?gh_jid=8088751) _€54k–€75k/yr_ | Hybrid | 5d |
-| Cloudflare | [Software Engineer, FL](https://boards.greenhouse.io/cloudflare/jobs/8158920?gh_jid=8158920) | Hybrid | 5d |
-| Cloudflare | [Software Engineer, Network Performance & Reliability (Argo)](https://boards.greenhouse.io/cloudflare/jobs/7446310?gh_jid=7446310) | Hybrid | 5d |
-| Cloudflare | [Software Engineer, Rulesets](https://boards.greenhouse.io/cloudflare/jobs/8159348?gh_jid=8159348) | Hybrid | 5d |
-| Cloudflare | [Software Engineer, Workers Deploy & Config](https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424) _€54k–€75k/yr_ | In-Office | 5d |
-| Cloudflare | [Staff Software Engineer - Integrated Network Strategy](https://boards.greenhouse.io/cloudflare/jobs/8157281?gh_jid=8157281) | Hybrid | 5d |
-| Cloudflare | [Vulnerability Defense Software Engineer, Cloudforce One](https://boards.greenhouse.io/cloudflare/jobs/8245503?gh_jid=8245503) _$150k–$206k/yr_ | Hybrid | 5d |
 | Cohere | [Senior/Staff Software Engineer, Developer Experience](https://jobs.ashbyhq.com/cohere/5831a16f-745b-4d49-bc7a-a371b4686ab4) | London | 1d |
 | Cohere | [Adoption Specialist - Infrastructure & Agentic](https://jobs.ashbyhq.com/cohere/dc881634-ca66-46e5-90ff-43ad83080de2) | Toronto | 5d |
 | Cohere | [Staff Software Engineer, Agentic Analytics](https://jobs.ashbyhq.com/cohere/39cab400-c976-41d9-9002-880ac6985b64) | United States | 5d |
@@ -1830,7 +1812,6 @@ Total roles: 3670
 | Coupang | [Staff, Backend Engineer (Monetization) - Coupang Play](https://www.coupang.jobs/en/jobs/?gh_jid=8384816) | Seoul, South Korea | 2d |
 | Coupang | [Staff, Mobile Engineer (CoupangEats)](https://www.coupang.jobs/en/jobs/?gh_jid=8384903) | Seoul, South Korea | 2d |
 | Coupang | [[Coupang Pay]Senior Back-end Engineer (Gift Card, Cash & Assets)](https://www.coupang.jobs/en/jobs/?gh_jid=8316795) | Seoul, South Korea | 3d |
-| Coupang | [Staff Backend Engineer - K8 (Envoy)](https://www.coupang.jobs/en/jobs/?gh_jid=8222609) | Bengaluru | 3d |
 | Coupang | [Director, Back-end Engineering](https://www.coupang.jobs/en/jobs/?gh_jid=8364554) | Mountain View, USA; Seattle, USA | 4d |
 | Coupang | [Senior Staff Backend Engineer - Fraud Detection](https://www.coupang.jobs/en/jobs/?gh_jid=8064140) | Bengaluru | 5d |
 | Coupang | [Staff Back-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8345259) | Seoul, South Korea | 5d |
@@ -1873,11 +1854,11 @@ Total roles: 3670
 | Coupang | [Sr. Staff Back-end Engineer (Coupang Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=7936538) | Seoul, South Korea | 15d |
 | Coupang | [Sr. Staff Back-end engineer [Promise Platform]](https://www.coupang.jobs/en/jobs/?gh_jid=8187816) | Seattle, USA | 15d |
 | Coupang | [Sr. Staff Software Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8070738) | Mountain View, USA; Seattle, USA | 15d |
-| Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7925105) | Hyderabad | 15d |
 | Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7948499) | Hyderabad | 15d |
-| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8187819) | Hyderabad | 15d |
+| Coupang | [Sr.Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7925105) | Hyderabad | 15d |
 | Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8204944) | Seattle, USA | 15d |
 | Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=7892757) | Hyderabad | 15d |
+| Coupang | [Staff Back-end Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8187819) | Hyderabad | 15d |
 | Coupang | [Staff Back-end Engineer (Rocket Pay)](https://www.coupang.jobs/en/jobs/?gh_jid=8236155) | Seoul, South Korea | 15d |
 | Coupang | [Staff Back-end Engineer [L6-1] (NCA Services)](https://www.coupang.jobs/en/jobs/?gh_jid=8302512) | Shanghai, China | 15d |
 | Coupang | [Staff Backend Engineer](https://www.coupang.jobs/en/jobs/?gh_jid=8051361) | Hyderabad | 15d |
@@ -2146,6 +2127,29 @@ Total roles: 3670
 | Duolingo | [Senior Software Engineer, iOS, Monetization](https://careers.duolingo.com/jobs/8701378002?gh_jid=8701378002) | Beijing, China | 12d |
 | Duolingo | [Senior/Software Engineer II, Android](https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002) _$153k–$207k/yr_ | New York, NY; Pittsburgh, PA | 12d |
 | Duolingo | [Software Engineer II, iOS, Growth](https://careers.duolingo.com/jobs/8612120002?gh_jid=8612120002) | Beijing, China | 12d |
+| Expedia Group | [Senior Manager, Software Development Engineering](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Manager--Software-Development-Engineering_R-111119) | USA - Illinois - Chicago | 1d |
+| Expedia Group | [Software Development Engineer III](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Development-Engineer-III_R-110424) | USA - Missouri - Springfield | 8d |
+| Expedia Group | [Senior Software Development Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer_R-111084) | Washington - Seattle Campus | 12d |
+| Expedia Group | [Software Development Engineer II - Analytics Products](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-II_R-110950) | UK - London | 12d |
+| Expedia Group | [Senior Full Stack Agentic AI Engineer — Layla AI](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Full-Stack-Agentic-AI-Engineer---Layla-AI_R-110976) | <details><summary>2 locations</summary>Washington - Seattle Campus<br>Austin Domain 11 - HomeAway</details> | 17d |
+| Expedia Group | [Senior Software Development Engineer - ML Platform](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer---ML-Platform_R-110741) | <details><summary>2 locations</summary>Washington - Seattle Campus<br>USA - California - San Jose</details> | 26d |
+| Expedia Group | [Android Engineer III](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Mobile-Engineer-III_R-107935) | Washington - Seattle Campus | 1mo |
+| Expedia Group | [Cloud Infrastructure Development Engineer III - Kubernetes](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Cloud-Infrastructure-Development-Engineer-III---Kubernetes_R-107548-1) | <details><summary>2 locations</summary>USA - Illinois - Chicago<br>Austin Domain 11 - HomeAway</details> | 1mo |
+| Expedia Group | [Développeur(-euse) principal(e) de logiciels (contenu) /Principal Software Development Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/Canada---Quebec---Montreal/Dveloppeur--euse--principal-e--de-logiciels--contenu---Principal-Software-Development-Engineer_R-107278) | Canada - Quebec - Montreal | 1mo |
+| Expedia Group | [iOS Engineer II - Search Entry](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/iOS-Engineer-II---Search-Entry_R-109973) | Washington - Seattle Campus | 1mo |
+| Expedia Group | [Principal Software Development Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Principal-Software-Development-Engineer_R-101767-2) | Austin Domain 11 - HomeAway | 1mo |
+| Expedia Group | [Senior Cloud Infrastructure Development Engineer - Kubernetes](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Cloud-Infrastructure-Development-Engineer---Kubernetes_R-106658) | USA - Illinois - Chicago | 1mo |
+| Expedia Group | [Senior Frontend Engineer - Layla AI](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Frontend-Engineer---Layla-AI_R-109191) | <details><summary>2 locations</summary>Washington - Seattle Campus<br>Austin Domain 11 - HomeAway</details> | 1mo |
+| Expedia Group | [Senior Manager, Software Development Engineering: BEX Engineering Home](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Manager--Software-Development-Engineering--BEX-Engineering-Home_R-110010-1) | USA - Illinois - Chicago | 1mo |
+| Expedia Group | [Senior Mobile Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Senior-Mobile-Engineer_R-108720) | Austin Domain 11 - HomeAway | 1mo |
+| Expedia Group | [Senior Mobile Engineer, Flutter (iOS & Android) - Layla AI](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Mobile-Engineer--Flutter--iOS---Android----Layla-AI_R-109189) | <details><summary>2 locations</summary>Washington - Seattle Campus<br>Austin Domain 11 - HomeAway</details> | 1mo |
+| Expedia Group | [Senior Software Development Engineer](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Senior-Software-Development-Engineer_R-101702-2) | UK - London | 1mo |
+| Expedia Group | [Senior Software Development Engineer - AI Foundations](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer---AI-Foundations_R-105310) | Washington - Seattle Campus | 1mo |
+| Expedia Group | [Senior Software Development Engineer - GenAI](https://expedia.wd108.myworkdayjobs.com/private/job/USA---Illinois---Chicago/Senior-Software-Development-Engineer---GenAI_R-109437) | USA - Illinois - Chicago | 1mo |
+| Expedia Group | [Senior Software Development Engineer, Loyalty - Full Stack](https://expedia.wd108.myworkdayjobs.com/private/job/USA---California---San-Jose/Sr-Software-Development-Engineer--Loyalty---Full-Stack_R-103344) | USA - California - San Jose | 1mo |
+| Expedia Group | [Software Development Engineer II](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-II_R-109579) | UK - London | 1mo |
+| Expedia Group | [Software Development Engineer III](https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Software-Development-Engineer-III_R-109846) | UK - London | 1mo |
+| Expedia Group | [Software Development Engineer III - Loyalty](https://expedia.wd108.myworkdayjobs.com/private/job/Washington---Seattle-Campus/Software-Development-Engineer-III---Loyalty_R-109614-1) | Washington - Seattle Campus | 1mo |
 | GoCardless | [Senior Site Reliability Engineer (Database Focus)](https://job-boards.greenhouse.io/gocardless/jobs/8385166) _€71k–€106k/yr_ | Riga, Latvia | 1d |
 | Instacart | [Senior iOS Engineer](https://instacart.careers/job/?gh_jid=8386574) _$168k–$178k/yr_ | Canada - Remote (ON, AB, BC, or NS Only) | 1d |
 | Instacart | [Sr Software Engineer II - Ads Manager (Front End)](https://instacart.careers/job/?gh_jid=8383513) _$230k–$242k/yr_ | United States - Remote | 2d |
@@ -2227,9 +2231,9 @@ Total roles: 3670
 | Okta | [Manager, Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/7247309?gh_jid=7247309) | Bengaluru, India | 1d |
 | Okta | [Manager, Site Reliability Engineering](https://www.okta.com/company/careers/opportunity/7977080?gh_jid=7977080) _$204k–$306k/yr_ | Bellevue, Washington; Chicago, Illinois; San Francisco, California; Washington, DC | 1d |
 | Okta | [Manager, Site Reliability Engineering (Auth0)](https://www.okta.com/company/careers/opportunity/8160475?gh_jid=8160475) _$187k–$257k/yr_ | New York, New York; Washington, DC | 1d |
-| Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674) | Bengaluru, India | 1d |
-| Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663) | Bengaluru, India | 1d |
+| Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955) | Bengaluru, India | 1d |
+| Okta | [Principal Software Engineer](https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer - macOS](https://www.okta.com/company/careers/opportunity/8007078?gh_jid=8007078) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer - PAM](https://www.okta.com/company/careers/opportunity/8127234?gh_jid=8127234) | Bengaluru, India | 1d |
 | Okta | [Principal Software Engineer in Test](https://www.okta.com/company/careers/opportunity/8045905?gh_jid=8045905) | Bengaluru, India | 1d |
@@ -2239,17 +2243,17 @@ Total roles: 3670
 | Okta | [Senior Full-Stack Engineer, Builder Platform](https://www.okta.com/company/careers/opportunity/8359853?gh_jid=8359853) _$165k–$225k/yr_ | Toronto, Ontario, Canada | 1d |
 | Okta | [Senior Manager, Site Reliability Engineering](https://www.okta.com/company/careers/opportunity/8353207?gh_jid=8353207) | Dublin, Ireland | 1d |
 | Okta | [Senior Platform Engineer (Auth0)](https://www.okta.com/company/careers/opportunity/8286405?gh_jid=8286405) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
+| Okta | [Senior Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8260950?gh_jid=8260950) | Bengaluru, India | 1d |
 | Okta | [Senior Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8184826?gh_jid=8184826) | Dublin, Ireland | 1d |
 | Okta | [Senior Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984) | Bengaluru, India | 1d |
-| Okta | [Senior Site Reliability Engineer](https://www.okta.com/company/careers/opportunity/8260950?gh_jid=8260950) | Bengaluru, India | 1d |
 | Okta | [Senior Site Reliability Engineer (Auth0)](https://www.okta.com/company/careers/opportunity/7418982?gh_jid=7418982) | Barcelona, Spain | 1d |
 | Okta | [Senior Site Reliability Engineer (K8s, Terraform, Python)](https://www.okta.com/company/careers/opportunity/8255904?gh_jid=8255904) | Bengaluru, India | 1d |
 | Okta | [Senior Site Reliability Engineer - EPG](https://www.okta.com/company/careers/opportunity/8268917?gh_jid=8268917) _$165k–$227k/yr_ | Bellevue, Washington; San Francisco, California | 1d |
 | Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8345577?gh_jid=8345577) | Bengaluru, India | 1d |
-| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8237695?gh_jid=8237695) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
+| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823) | Bengaluru, India | 1d |
-| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085) | Bengaluru, India | 1d |
+| Okta | [Senior Software Engineer](https://www.okta.com/company/careers/opportunity/8237695?gh_jid=8237695) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
 | Okta | [Senior Software Engineer (Core Frontier)](https://www.okta.com/company/careers/opportunity/8305423?gh_jid=8305423) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer (NetSuite Developer)](https://www.okta.com/company/careers/opportunity/8154916?gh_jid=8154916) | Bengaluru, India | 1d |
 | Okta | [Senior Software Engineer (TS/SCI)](https://www.okta.com/company/careers/opportunity/8210915?gh_jid=8210915) _$152k–$209k/yr_ | Virginia | 1d |
@@ -2276,9 +2280,9 @@ Total roles: 3670
 | Okta | [Senior Software Engineer, Datastores (Auth0)](https://www.okta.com/company/careers/opportunity/8112913?gh_jid=8112913) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
 | Okta | [Senior Software Engineer, Fullstack](https://www.okta.com/company/careers/opportunity/8186804?gh_jid=8186804) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
 | Okta | [Senior Software Engineer, Observability (Auth0)](https://www.okta.com/company/careers/opportunity/8281409?gh_jid=8281409) _$140k–$192k/yr_ | Toronto, Ontario, Canada | 1d |
-| Okta | [Senior Software Engineer, OIG](https://www.okta.com/company/careers/opportunity/8264443?gh_jid=8264443) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
-| Okta | [Senior Software Engineer, OIG](https://www.okta.com/company/careers/opportunity/8243128?gh_jid=8243128) _$165k–$227k/yr_ | Bellevue, Washington; San Francisco, California | 1d |
 | Okta | [Senior Software Engineer, OIG](https://www.okta.com/company/careers/opportunity/8243981?gh_jid=8243981) _$165k–$227k/yr_ | Bellevue, Washington | 1d |
+| Okta | [Senior Software Engineer, OIG](https://www.okta.com/company/careers/opportunity/8243128?gh_jid=8243128) _$165k–$227k/yr_ | Bellevue, Washington; San Francisco, California | 1d |
+| Okta | [Senior Software Engineer, OIG](https://www.okta.com/company/careers/opportunity/8264443?gh_jid=8264443) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
 | Okta | [Senior Software Engineer, PAM](https://www.okta.com/company/careers/opportunity/8186789?gh_jid=8186789) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
 | Okta | [Senior Software Engineer, Performance ( Toronto)](https://www.okta.com/company/careers/opportunity/8329646?gh_jid=8329646) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
 | Okta | [Senior Software Engineer, Platform Network (Auth0)](https://www.okta.com/company/careers/opportunity/8041376?gh_jid=8041376) _$136k–$187k/yr_ | Toronto, Ontario, Canada | 1d |
@@ -2304,27 +2308,27 @@ Total roles: 3670
 | Okta | [Staff Site Reliability Engineer - (Kubernetes, Terraform, AWS & Python)](https://www.okta.com/company/careers/opportunity/7307866?gh_jid=7307866) | Bengaluru, India | 1d |
 | Okta | [Staff Site Reliability Engineer, Federal (TS/SCI)](https://www.okta.com/company/careers/opportunity/8097489?gh_jid=8097489) _$184k–$253k/yr_ | Maryland; Washington, DC | 1d |
 | Okta | [Staff Site Reliability Engineer, Networking w/ active TS/SCI](https://www.okta.com/company/careers/opportunity/7575679?gh_jid=7575679) _$184k–$253k/yr_ | Maryland; Washington, DC | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8263825?gh_jid=8263825) | Bengaluru, India | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8243997?gh_jid=8243997) _$194k–$267k/yr_ | San Francisco, California | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634) | Bengaluru, India | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124) _$194k–$267k/yr_ | San Francisco, California | 1d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8236504?gh_jid=8236504) | Bengaluru, India | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8345801?gh_jid=8345801) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158) _$160k–$220k/yr_ | Toronto, Ontario, Canada | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016) | Bengaluru, India | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046) | Bengaluru, India | 1d |
-| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8071502?gh_jid=8071502) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124) _$194k–$267k/yr_ | San Francisco, California | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8263825?gh_jid=8263825) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8345801?gh_jid=8345801) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8220655?gh_jid=8220655) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857) | Tel Aviv, Israel | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8071502?gh_jid=8071502) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer](https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer (TS/SCI)](https://www.okta.com/company/careers/opportunity/8210784?gh_jid=8210784) _$152k–$209k/yr_ | Maryland | 1d |
 | Okta | [Staff Software Engineer - Advanced Threat Protection](https://www.okta.com/company/careers/opportunity/8242386?gh_jid=8242386) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer - Backend](https://www.okta.com/company/careers/opportunity/8242317?gh_jid=8242317) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer - Backend, Identity Threat Protection](https://www.okta.com/company/careers/opportunity/8358096?gh_jid=8358096) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer - Core Identity](https://www.okta.com/company/careers/opportunity/8262963?gh_jid=8262963) _$160k–$220k/yr_ | Toronto, Ontario, Canada | 1d |
-| Okta | [Staff Software Engineer - Full Stack](https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer - Full Stack](https://www.okta.com/company/careers/opportunity/8203628?gh_jid=8203628) | Tel Aviv, Israel | 1d |
 | Okta | [Staff Software Engineer - Full Stack](https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301) | Bengaluru, India | 1d |
+| Okta | [Staff Software Engineer - Full Stack](https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer - Okta Identity Governance](https://www.okta.com/company/careers/opportunity/8373834?gh_jid=8373834) _$194k–$267k/yr_ | San Francisco, California | 1d |
 | Okta | [Staff Software Engineer - Privileged Access Management (PAM)](https://www.okta.com/company/careers/opportunity/8384384?gh_jid=8384384) _$180k–$247k/yr_ | Bellevue, Washington | 1d |
 | Okta | [Staff Software Engineer - UI Platform](https://www.okta.com/company/careers/opportunity/8211380?gh_jid=8211380) _$194k–$267k/yr_ | San Francisco, California; Toronto, Ontario, Canada | 1d |
@@ -2345,8 +2349,8 @@ Total roles: 3670
 | Okta | [Staff Software Engineer, SDKs & Open Source](https://www.okta.com/company/careers/opportunity/7703330?gh_jid=7703330) | Bengaluru, India | 1d |
 | Okta | [Staff Software Engineer-Salesforce](https://www.okta.com/company/careers/opportunity/8053763?gh_jid=8053763) | Bengaluru, India | 1d |
 | Okta | [Staff SRE for K8s Platform Team (AWS, Kubernetes, Platform Creation, Helm, Karpenter, Istio)](https://www.okta.com/company/careers/opportunity/8102369?gh_jid=8102369) | Bengaluru, India | 1d |
-| Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062) _$174k–$239k/yr_ | Washington, DC | 1d |
 | Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073066?gh_jid=8073066) _$174k–$239k/yr_ | Washington, DC | 1d |
+| Okta | [Staff TDI Site Reliability Engineer, Okta Federal](https://www.okta.com/company/careers/opportunity/8073062?gh_jid=8073062) _$174k–$239k/yr_ | Washington, DC | 1d |
 | Okta | [Technical Platform Administrator, Enablement Systems](https://www.okta.com/company/careers/opportunity/8328599?gh_jid=8328599) _$117k–$161k/yr_ | Chicago, Illinois; New York, New York; San Francisco, California; Seattle, Washington | 1d |
 | OpenAI | [Full Stack Software Engineer, ChatGPT Finances](https://jobs.ashbyhq.com/openai/26cfb873-f30a-4a13-b7b6-52833ea48ec9) | San Francisco | 1d |
 | OpenAI | [Full Stack Software Engineer, Consumer Health](https://jobs.ashbyhq.com/openai/cc1ea124-47ad-4b81-9e4e-0c69e525b62a) | San Francisco | 1d |
@@ -2498,6 +2502,7 @@ Total roles: 3670
 | Pinterest | [Staff Software Engineer, Service Configuration Deployments](https://www.pinterestcareers.com/jobs/?gh_jid=8046838) _$177k–$365k/yr_ | San Francisco, CA, US; Remote, US | 8d |
 | Pinterest | [Staff Software Engineer, Web Product Enablement](https://www.pinterestcareers.com/jobs/?gh_jid=8075888) _$177k–$365k/yr_ | San Francisco, CA, US; Remote, CA, US | 8d |
 | Pinterest | [University Grad Software Engineer 2027 (USA)](https://www.pinterestcareers.com/jobs/?gh_jid=7838591) _$129k–$174k/yr_ | San Francisco, CA, US; Remote, US | 8d |
+| PwC | [Medior QA Engineer](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Budapest/Medior-QA-Engineer_774014WD) | Budapest | 1d |
 | Ramp | [Software Engineer, Fullstack, Spend Controls](https://jobs.ashbyhq.com/ramp/6e717b06-6613-42ad-a1ee-f852a305fa37) | New York, NY (HQ) | 1d |
 | Ramp | [Senior Engineer, Backend, Vendor Management](https://jobs.ashbyhq.com/ramp/415997bf-a1c2-472d-ad54-04bd0d95259b) | New York, NY (HQ) | 2d |
 | Ramp | [Senior Engineer, Backend, Bill Pay](https://jobs.ashbyhq.com/ramp/26855617-1697-4fd2-8c33-a5fb11fc4c77) | New York, NY (HQ) | 4d |
@@ -2696,12 +2701,16 @@ Total roles: 3670
 | Roblox | 🛂 [Senior Software Engineer (C++)](https://careers.roblox.com/jobs/8025510?gh_jid=8025510) _$196k–$242k/yr_ | San Mateo, CA, United States | 1mo |
 | Roblox | 🛂 [Senior Software Engineer, App Performance](https://careers.roblox.com/jobs/7360413?gh_jid=7360413) _$196k–$242k/yr_ | San Mateo, CA, United States | 1mo |
 | Roblox | 🛂 [Senior Software Engineer, Engineering Acceleration](https://careers.roblox.com/jobs/8047829?gh_jid=8047829) _$243k–$295k/yr_ | San Mateo, CA, United States | 1mo |
-| Samsung | [Austin Infrastructure Cost Manager](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/12100-Samsung-Blvd-Austin-TX-USA/Infra-Cost-Team-Leader_R121463) | 12100 Samsung Blvd, Austin, TX, USA | 1d |
-| Samsung | [EHS Software Engineer](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/12100-Samsung-Blvd-Austin-TX-USA/EHS-Software-Engineer_R122175) | 12100 Samsung Blvd, Austin, TX, USA | 1d |
-| Samsung | [Infra Cost Engineer](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/1530-FM-973-Taylor-TX-USA/Infra-Cost-Engineer_R122210-1) | 1530 FM 973 Taylor, TX, USA | 1d |
-| Samsung | [Head of Retail Development, Mobile Experience (MX)](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Mapletree-Business-City-Singapore-Singapore/Head-of-Retail-Development--Mobile-Experience--MX-_R119967) | Mapletree Business City, Singapore, Singapore | 2d |
-| Samsung | [Samsung Experience Stores (SES) Lead, Mobile Experience](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Mapletree-Business-City-Singapore-Singapore/Samsung-Experience-Stores--SES--Lead--Mobile-Experience_R121467) | Mapletree Business City, Singapore, Singapore | 2d |
-| Samsung | [Experienced Infra Technology Project Controls Engineer](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/1530-FM-973-Taylor-TX-USA/Experienced-Infra-Technology-Project-Controls-Engineer_R120536-1) | 1530 FM 973 Taylor, TX, USA | 3d |
+| Salesforce | [Assurance Engineering Platform Developer SMTS / LMTS](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Assurance-Engineering-Platform-Developer-SMTS---LMTS_JR366292) | <details><summary>2 locations</summary>India - Hyderabad<br>India - Bangalore</details> | 1d |
+| Salesforce | [Director, Software Engineering – Availability Engineering](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Director--Software-Engineering---Availability-Engineering_JR366828-1) | <details><summary>2 locations</summary>California - San Francisco<br>Washington - Bellevue</details> | 1d |
+| Salesforce | [Lead Software Engineer, AI Labs (Product and Customer Facing)](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Lead-Software-Engineer--AI-Labs--Product-and-Customer-Facing-_JR364943) | <details><summary>4 locations</summary>California - San Francisco<br>District of Columbia - Washington<br>New York - New York<br>Washington - Bellevue</details> | 1d |
+| Salesforce | [Senior Manager of Software Engineering, DNS Engineering](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Director-of-Software-Engineering--DNS-Engineering_JR365150) | Washington - Bellevue | 1d |
+| Salesforce | [Senior Software Engineering Manager - Full Stack (Slack)](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Atlanta/Senior-Engineering-Manager--Design-Systems---Accessibility_JR357962-1) | <details><summary>5 locations</summary>Georgia - Atlanta<br>New York - New York<br>Washington - Seattle<br>Washington - Bellevue<br>California - San Francisco</details> | 1d |
+| Salesforce | [Senior/Lead Software Engineer - AgentExchange Buyer Experience](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering---AgentExchange-Buyer-Experience---LMTS_JR368156) | <details><summary>2 locations</summary>California - San Francisco<br>Washington - Bellevue</details> | 1d |
+| Salesforce | [Software Engineering LMTS - Backend Distributed Systems](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS_JR338174) | <details><summary>2 locations</summary>India - Bangalore<br>India - Hyderabad</details> | 1d |
+| Salesforce | [Technical Architect- Salesforce Devops](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Technical-Architect--Salesforce-Devops_JR365354) | <details><summary>2 locations</summary>India - Bangalore<br>India - Hyderabad</details> | 1d |
+| Salesforce | [Senior Staff Prototyping Engineer, iOS](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/Senior-Staff-Prototyping-Engineer--iOS_JR360080-1) | <details><summary>5 locations</summary>California - San Francisco Metro - Remote<br>New York - Remote<br>New York - New York<br>California - Remote<br>California - San Francisco</details> | 2d |
+| Salesforce | [Software Engineering AMTS (College Grad)](https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR368047) | <details><summary>7 locations</summary>California - San Francisco<br>California - Palo Alto<br>New York - New York<br>Washington - Seattle<br>Washington - Bellevue<br>Texas - Dallas<br>Indiana - Indianapolis</details> | 3d |
 | Scale AI | [Senior Infrastructure Software Engineer, Enterprise AI](https://job-boards.greenhouse.io/scaleai/jobs/4599700005) _$216k–$270k/yr_ | New York, NY; San Francisco, CA | 1d |
 | Scale AI | [Senior Software Engineer, Agent Oversight](https://job-boards.greenhouse.io/scaleai/jobs/4714509005) _$216k–$270k/yr_ | San Francisco, CA; New York, NY | 2d |
 | Scale AI | [Full-Stack Software Engineer, (Forward Deployed), GPS](https://job-boards.greenhouse.io/scaleai/jobs/4751645005) | Kuwait City, Kuwait | 5d |
@@ -2787,7 +2796,6 @@ Total roles: 3670
 | Schneider Electric | [Senior Software Engineer](https://careers.se.com/jobs/138010) | Beijing, China | 1mo |
 | Schneider Electric | [Product Applications Engineer II](https://careers.se.com/jobs/137889) | Taipei, Taiwan | 1mo |
 | Schneider Electric | [Digital Platform Champion](https://careers.se.com/jobs/137656) | Cavite, Philippines | 1mo |
-| Schneider Electric | [Engineer II, EAE Software Design](https://careers.se.com/jobs/137609) | Shanghai, China | 1mo |
 | Schneider Electric | [Senior Engineer I, Embedded Software Design](https://careers.se.com/jobs/135410) | Wuxi, China | 1mo |
 | Schneider Electric | [Senior Engineer I, Embedded Software Design](https://careers.se.com/jobs/137797) | Shanghai, China | 1mo |
 | Schneider Electric | [Senior Engineer I, Embedded Software Test](https://careers.se.com/jobs/135409) | Wuxi, China | 1mo |
@@ -3525,10 +3533,6 @@ Total roles: 3670
 | Wise | [Software Engineer - Risk Control & Governance](https://jobs.smartrecruiters.com/Wise/744000160549671) | London, United Kingdom | 5d |
 | Wise | [Network Engineer - Platform Integrations EMEA](https://jobs.smartrecruiters.com/Wise/744000160196549) | Tallinn, Estonia | 8d |
 | Wise | [Senior Backend Engineer - Personal and Business Pricing](https://jobs.smartrecruiters.com/Wise/744000160151269) | London, United Kingdom | 8d |
-| Accenture | [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/London/AI-Native-Software-Engineer_R00344645-1) |  | 2d |
-| Accenture | [Senior Java Developer & Solution Architect (all genders)](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Innsbruck/Senior-Java-Developer---Solution-Architect--all-genders-_R00368442) |  | 3d |
-| Accenture | [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Saint-Herblain-Liberty-A/AI-Native-Engineer_R00346086-1) |  | 4d |
-| Accenture | [Senior Infrastructure Service Delivery Lead](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Brussels/Senior-Infrastructure-Service-Delivery-Lead_R00346207) |  | 9d |
 | Block | [Senior Software Engineer, Cash App Taxes](http://block.xyz/careers/jobs/5207134008?gh_jid=5207134008) _$218k–$327k/yr_ | New York, NY, United States of America | 2d |
 | Block | [Senior Software Engineer, Cash App Taxes](http://block.xyz/careers/jobs/5196187008?gh_jid=5196187008) _$218k–$327k/yr_ | Bay Area, CA, United States of America | 2d |
 | Block | [Senior Software Engineer, Product Platform](http://block.xyz/careers/jobs/5438117008?gh_jid=5438117008) _$218k–$327k/yr_ | Bay Area, CA, United States of America | 2d |
@@ -3804,8 +3808,18 @@ Total roles: 3670
 | Legora | [Fullstack Engineer - Product Engineering](https://jobs.ashbyhq.com/legora/a80e0ca9-85cb-4173-9b2b-cb5644eba18f) | Stockholm HQ | 4mo |
 | Legora | [Software Engineer](https://jobs.ashbyhq.com/legora/94ba8580-636d-4fe7-becd-fbfe44bb367d) | London | 5mo |
 | Legora | [Software Engineer - Product Engineering](https://jobs.ashbyhq.com/legora/3ecb346f-1903-4d06-99ca-e28ef3806bbb) | Stockholm HQ | 5mo |
+| Samsung | [Austin Infrastructure Cost Manager](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/12100-Samsung-Blvd-Austin-TX-USA/Infra-Cost-Team-Leader_R121463) | 12100 Samsung Blvd, Austin, TX, USA | 2d |
+| Samsung | [EHS Software Engineer](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/12100-Samsung-Blvd-Austin-TX-USA/EHS-Software-Engineer_R122175) | 12100 Samsung Blvd, Austin, TX, USA | 2d |
+| Samsung | [Infra Cost Engineer](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/1530-FM-973-Taylor-TX-USA/Infra-Cost-Engineer_R122210-1) | 1530 FM 973 Taylor, TX, USA | 2d |
+| Samsung | [Head of Retail Development, Mobile Experience (MX)](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Mapletree-Business-City-Singapore-Singapore/Head-of-Retail-Development--Mobile-Experience--MX-_R119967) | Mapletree Business City, Singapore, Singapore | 3d |
+| Samsung | [Samsung Experience Stores (SES) Lead, Mobile Experience](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Mapletree-Business-City-Singapore-Singapore/Samsung-Experience-Stores--SES--Lead--Mobile-Experience_R121467) | Mapletree Business City, Singapore, Singapore | 3d |
+| Samsung | [Experienced Infra Technology Project Controls Engineer](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/1530-FM-973-Taylor-TX-USA/Experienced-Infra-Technology-Project-Controls-Engineer_R120536-1) | 1530 FM 973 Taylor, TX, USA | 4d |
 | Synapseanalytics | [Senior DevOps Engineer](https://synapseanalytics.recruitee.com/o/senior-devops-engineer-3) | Maadi, Egypt | 2d |
 | Synapseanalytics | [DevOps Engineer II](https://synapseanalytics.recruitee.com/o/devops-engineer-ii) | Maadi, Egypt | 4d |
+| Accenture | [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/London/AI-Native-Software-Engineer_R00344645-1) |  | 3d |
+| Accenture | [Senior Java Developer & Solution Architect (all genders)](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Innsbruck/Senior-Java-Developer---Solution-Architect--all-genders-_R00368442) |  | 4d |
+| Accenture | [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Saint-Herblain-Liberty-A/AI-Native-Engineer_R00346086-1) |  | 5d |
+| Accenture | [Senior Infrastructure Service Delivery Lead](https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Brussels/Senior-Infrastructure-Service-Delivery-Lead_R00346207) |  | 10d |
 | Careem | [Senior IT Infrastructure Engineer II](https://boards.greenhouse.io/careem/jobs/8620488002?gh_jid=8620488002) | Karachi, Pakistan | 3d |
 | Careem | [Software Engineer II - Backend   NextGen Engineering](https://boards.greenhouse.io/careem/jobs/7004825002?gh_jid=7004825002) | Lahore, Pakistan | 3d |
 | N26 | 🛂 [Engineering Manager - Data Platform](https://n26.com/en-eu/careers/positions/7841923?gh_jid=7841923) | Barcelona | 3d |
@@ -3911,19 +3925,6 @@ Total roles: 3670
 | ElevenLabs | [Forward Deployed Engineer - Software Engineer - Argentina](https://jobs.ashbyhq.com/ElevenLabs/1f7a2786-46d3-46c9-81f3-c3849b412988) | Argentina | 1mo |
 | ElevenLabs | [Forward Deployed Engineer - Software Engineer - Mexico](https://jobs.ashbyhq.com/ElevenLabs/8a573932-b1fb-4df7-9023-e13a6cecbbbb) | Mexico | 1mo |
 | ElevenLabs | [Forward Deployed Engineer - Software Engineer - United Kingdom](https://jobs.ashbyhq.com/ElevenLabs/2d0016e0-3cc2-4ec7-b164-bc2b83990fb6) | London | 1mo |
-| Mercor | [Software Engineer, Applied AI - Systems](https://jobs.ashbyhq.com/mercor/6d1de461-c08d-419c-96cf-ed38083e0976) | San Francisco | 5d |
-| Mercor | [Software Engineer, Applied AI- Evals](https://jobs.ashbyhq.com/mercor/4b0920c5-49f9-4851-a8ca-26825ff570f8) | San Francisco | 5d |
-| Mercor | [Partnerships Lead, AI Infrastructure & Post-Training](https://jobs.ashbyhq.com/mercor/a0c11121-8ffd-4c1d-9faf-bcdb9e8ca481) | Mercor HQ, 181 Fremont Street | 8d |
-| Mercor | [AI Infrastructure Engineer](https://jobs.ashbyhq.com/mercor/799ecfcc-4258-4075-8b11-12fc64fb2868) | San Francisco | 18d |
-| Mercor | [Software Engineer, Applied AI - Environments Platform](https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae) | San Francisco | 1mo |
-| Mercor | [Software Engineer - Data Infrastructure](https://jobs.ashbyhq.com/mercor/415d2ee3-44b9-40e5-ab4b-04340faa3872) | San Francisco | 2mo |
-| Mercor | [Infrastructure Software Engineer](https://jobs.ashbyhq.com/mercor/296c4031-5e98-4772-95f5-a9eb5bd7746d) | San Francisco | 2mo |
-| Mercor | [Software Engineer, Applied AI - Frontier Engineering (NYC)](https://jobs.ashbyhq.com/mercor/4bb1232c-3f1e-4fd7-8894-fcd68f96e3db) | New York City | 2mo |
-| Mercor | [Member of Technical Staff, Mercor Enterprise Platform](https://jobs.ashbyhq.com/mercor/c6f9c6bd-68b8-49c5-aecb-b586616d7102) | San Francisco | 2mo |
-| Mercor | [Agentic Product Engineer, Studio Platform](https://jobs.ashbyhq.com/mercor/fa580f7f-8752-428c-bb6b-439fa72c76e7) | San Francisco | 2mo |
-| Mercor | [Member of Technical Staff, Enterprise Evals Platform](https://jobs.ashbyhq.com/mercor/35e1923b-3c1c-4bb4-94d6-ef3a529ef871) | San Francisco | 3mo |
-| Mercor | [Member of Technical Staff, iOS](https://jobs.ashbyhq.com/mercor/9022be86-9c4c-40d3-ab03-85dbfe7db560) | San Francisco | 4mo |
-| Mercor | [Software Engineer, Enterprise Applied AI](https://jobs.ashbyhq.com/mercor/e106399e-d85e-4af2-9bc8-6a0e144f318f) | San Francisco | 5mo |
 | Notion | [Software Engineer, Web Infrastructure](https://jobs.ashbyhq.com/notion/06c2599d-4dd5-4f97-843f-7194b546f042) _$150k–$168k/yr_ | San Francisco, California | 5d |
 | Notion | [Software Engineer, Growth](https://jobs.ashbyhq.com/notion/f524ef6b-6a8a-4d73-b7ff-eac85bd6c887) _$272k–$320k/yr_ | San Francisco, California | 10d |
 | Notion | [Software Engineer, Developer Platform](https://jobs.ashbyhq.com/notion/8c0bf773-e536-45c9-9a6c-8ee478148cc8) _$150k–$200k/yr_ | San Francisco, California | 26d |
@@ -4149,112 +4150,99 @@ Total roles: 3670
 
 ## Hackathons
 
-Total hackathons: 159
+Total hackathons: 139
 
 | Organizer | Hackathon | Location | Closes |
 |---|---|---|---|
+| Devfolio | [Hacknauts 2.0](https://hacknauts26.devfolio.co) | Ludhiana, India | last day |
+| National Institute of Technology (NIT), Agartala | [Game of Codes](https://unstop.com/hackathons/game-of-codes-national-institute-of-technology-nit-agartala-1797379) | Offline | last day |
 | National Institute of Technology (NIT), Agartala | [Technothon](https://unstop.com/hackathons/technothon-national-institute-of-technology-nit-agartala-1797032) | Online | last day |
 | National Institute of Technology (NIT), Agartala | [TechNovus AAYAM XI](https://unstop.com/hackathons/technovus-aayam-xi-national-institute-of-technology-nit-agartala-1797015) | Offline | last day |
-| WISE | [WiseStart 2026 Hackathon: Tallinn](https://wisestart-2026-tll.devpost.com/) | Wise Tallinn | about 11 hours left |
-| Future Cities Institute | [CIVIC Hack 2026](https://civic-hack-2026.devpost.com/) | Online | about 12 hours left |
-| Computer Engineering Club, Ualberta | [HackED Beta 2026](https://hacked-beta-2026.devpost.com/) | University of Alberta - UComms | about 14 hours left |
-| Chi Tech Collective | [Black CS Summit 2026 Hackathon](https://black-cs-summit-2026-hackathon.devpost.com/) | Chicago, Illinois, USA | about 18 hours left |
-| ISM University | [Unfair Weekend 2026](https://unfair-weekend.devpost.com/) | ISM University, Vilnius | about 19 hours left |
-| mcgill university | [Scope-AI-Thon 2026 - AI for Detection of Acute Patient Deterioration](https://scope-ai-thon-2026.devpost.com/) | Online | about 19 hours left |
-| 8090 | [EVOLVE: 8090 AI Hackathon](https://evolve-8090.devpost.com/) | 8090 office | about 20 hours left |
-| Brigham Young University - Idaho CSE Dep | [BYU-Idaho: i-Hack 2026: Reinventing the Past](https://ihack-2026.devpost.com/) | Science & Technology Building (STC) | about 20 hours left |
-| System, Inc. | [System Public Challenge](https://system-public-challenge.devpost.com/) | System HQ | about 20 hours left |
+| Workelate | [BuildSprint](https://unstop.com/hackathons/buildsprint-workelate-1794884) | Hybrid | last day |
+| Future Cities Institute | [CIVIC Hack 2026](https://civic-hack-2026.devpost.com/) | Online | about 5 hours left |
+| Computer Engineering Club, Ualberta | [HackED Beta 2026](https://hacked-beta-2026.devpost.com/) | University of Alberta - UComms | about 7 hours left |
+| ISM University | [Unfair Weekend 2026](https://unfair-weekend.devpost.com/) | ISM University, Vilnius | about 8 hours left |
+| Brigham Young University - Idaho CSE Dep | [BYU-Idaho: i-Hack 2026: Reinventing the Past](https://ihack-2026.devpost.com/) | Science & Technology Building (STC) | about 14 hours left |
+| 8090 | [EVOLVE: 8090 AI Hackathon](https://evolve-8090.devpost.com/) | 8090 office | about 15 hours left |
+| Chi Tech Collective | [Black CS Summit 2026 Hackathon](https://black-cs-summit-2026-hackathon.devpost.com/) | Chicago, Illinois, USA | about 15 hours left |
+| HKBU Coding Club | [BUHACK 2.0](https://buhack-2.devpost.com/) | Online | about 16 hours left |
+| Hack Club | [Haven Philly](https://haven-philly.devpost.com/) | Drexel University CCI Building | about 20 hours left |
+| SFU Data Science Student Society | [DataJam 2026](https://datajam-2026.devpost.com/) | Online | about 22 hours left |
 | Design at UT | [2026 DESIGN at UT Design-A-Thon: Panopticon](https://design-at-ut-designathon-2026.devpost.com/) | Austin, TX, USA | 1 day left |
-| Devfolio | [Hacknauts 2.0](https://hacknauts26.devfolio.co) | Ludhiana, India | 1 days left |
 | Engage Group | [Engage Test](https://engage-test.devpost.com/) | Dubai | 1 day left |
 | Georgia Tech Student Government | [Georgia Tech SGA x CoLL - Campus Solutions Challenge 2026](https://gt-campus-solutions-f26.devpost.com/) | Georgia Tech - Global Learning Center | 1 day left |
-| Gradient Learnings | [Data Analytics Hackathon](https://unstop.com/hackathons/data-analytics-hackathon-gradient-learnings-1799543) | Online | 1 days left |
-| GTransformer Foundation | [GTransformer AI Buildathon 2026 — AI for Global Good](https://gtransformer-buildathon-2026.devpost.com/) | Milpitas, Bay Area + Online | 1 day left |
+| Hack Club | [Hack Club Haven (Hong Kong)](https://hack-club-haven-hong-kong.devpost.com/) | Canadian International School Hong Kong | 1 day left |
 | HackerEarth | [MKS AI/ML Hackathon](https://www.hackerearth.com/challenges/competitive/mks-inc-hackathon/) | Online | 1 days left |
 | HackUMass | [HackUMass XIV](https://hackumass-xiv.devpost.com/) | Integrative Learning Center | 1 day left |
-| HKBU Coding Club | [BUHACK 2.0](https://buhack-2.devpost.com/) | Online | 1 day left |
 | IBM | [USCxIBM Qiskit Fall Fest 2026](https://uscibm-qff26.devpost.com/) | Darla Moore School of Business, USC | 1 day left |
+| Imperial AI Society | [Imperial AI Hackathon](https://imperial-ai-hackathon.devpost.com/) | Online | 1 day left |
 | kearney | [Kearney PERLab x Velocity AI Hackathon](https://kearney-x-velocity-ai.devpost.com/) | Online | 1 day left |
 | Lynbrook Engineering Club | [NorCal Hacks 27](https://norcal-hacks-27.devpost.com/) | Online | 1 day left |
-| National Institute of Technology (NIT), Agartala | [Game of Codes](https://unstop.com/hackathons/game-of-codes-national-institute-of-technology-nit-agartala-1797379) | Offline | 1 days left |
+| n8n | [UBC eProjects x n8n LOOP Hackathon](https://loop.devpost.com/) | University of British Columbia | 1 day left |
 | Princeton University | [HackPrinceton Fall '26](https://hackprinceton-fall-26.devpost.com/) | JRR, LAS, Robertson, Friend | 1 day left |
 | PROJECT Emory | [Emory Hacks 2026](https://emory-hacks-202.devpost.com/) | Emory Univ. - Goizueta Business School | 1 day left |
-| SFU Data Science Student Society | [DataJam 2026](https://datajam-2026.devpost.com/) | Online | 1 day left |
-| Workelate | [BuildSprint](https://unstop.com/hackathons/buildsprint-workelate-1794884) | Hybrid | 1 days left |
+| Stanford XR | [Immerse the Bay 2026](https://immerse-the-bay-2026.devpost.com/) | Stanford University | 1 day left |
+| AI Collective | [The Next Frontier 2026: A Space Innovation Hackathon](https://aichr-space.devpost.com/) | ECPI Virginia Beach Campus | 2 days left |
 | Amador Valley Girls Who Code | [Technology x Health: Amador Valley Girls Who Code Hackathon](https://ai-x-health-hackathon-avgwc.devpost.com/) | Online | 2 days left |
-| UGREEN | [UGREEN Hackathon 2026 on AI NAS](https://ugreenhackathon.devpost.com/) | Online | 2 days left |
-| Chhattisgarh Swami Vivekanand Technical University (CSVTU), Bhilai, Chhattisgarh | [Goblet of Codes](https://unstop.com/hackathons/goblet-of-codes-kaushalya-20-chhattisgarh-swami-vivekanand-technical-university-csvtu-bhilai-chhattisgarh-1798470) | Offline | 3 days left |
-| HackathonForEveryone | [Green Shift Hacks](https://green-shift-hacks.devpost.com/) | Online | 4 days left |
 | HackerEarth | [IBM Z Day](https://www.hackerearth.com/challenges/hackathon/ibm-z-day/) | Online | 4 days left |
 | Hierroshield Pvt Ltd | [HierroCTF 2026 – Capture The Flag (CTF) Competition](https://unstop.com/hackathons/hierroctf-2026-capture-the-flag-ctf-competition-hierroshield-pvt-ltd-1800358) | Hybrid | 4 days left |
-| Maharaja Surajmal Institute of Technology (MSIT), New Delhi | [Roboforge](https://unstop.com/hackathons/roboforge-maharaja-surajmal-institute-of-technology-msit-new-delhi-1778710) | Offline | 4 days left |
 | Masters Union School of Business | [Rewired (Tech Hackathon)](https://unstop.com/hackathons/rewired-tech-hackathon-road-to-milky-way-bangalore-masters-union-school-of-business-1802400) | Hybrid | 4 days left |
 | Programming and Coders Club | [CRC Hacks](https://crc-student-hackathon.devpost.com/) | Online | 4 days left |
-| Dr. Ambedkar Institute of Technology for Divyangjan | [PromptWars X AITH Kanpur](https://unstop.com/hackathons/promptwars-x-aith-dr-ambedkar-institute-of-technology-for-divyangjan-1807596) | Offline | 5 days left |
 | Girls Who Code UCF | [GWC Projects Program Fall 2026](https://projects-program-fall-2026.devpost.com/) | Online | 5 days left |
 | Acharya Institute of Technology | [Competitive Programming](https://unstop.com/hackathons/competitive-programming-acharya-institute-of-technology-1771951) | Offline | 6 days left |
+| college.xyz | [University Blockchain Conference Hackathon 2026](https://ubc-hackathon-2026.devpost.com/) | University of Texas at Austin | 6 days left |
 | Devfolio | [THE BIG HACK 2.0](https://the-big-hack-2.devfolio.co) | Soladevanahalli, India | 6 days left |
-| Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 Consultancy](https://unstop.com/hackathons/expanding-horizons-80-consultancy-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799776) | Online | 6 days left |
-| Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 Software](https://unstop.com/hackathons/expanding-horizons-80-software-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799767) | Online | 6 days left |
 | NAIT | [Sandbox test 2](https://sandbox-test-2.devpost.com/) | Edmonton, Canada | 6 days left |
 | UPenn ESE | [ESE1110 Fall 2026](https://ese1110f26.devpost.com/) | virtual | 6 days left |
+| Wisconsin Quantum Computing Club | [WQCC Qiskit Fall Fest 2026](https://wqcc-qiskit-fall-fest-2026.devpost.com/) | Online | 6 days left |
 | College Of Engineering And Management,Kolaghat | [Inter-College Coding Competition 2026 | Java & Python](https://unstop.com/hackathons/inter-college-coding-competition-2026-college-of-engineering-and-managementkolaghat-1801814) | Offline | 7 days left |
-| college.xyz | [University Blockchain Conference Hackathon 2026](https://ubc-hackathon-2026.devpost.com/) | University of Texas at Austin | 7 days left |
-| Dakar Bitcoin Days | [Dakar Bitcoin Hack by BTrust](https://dakar-bitcoin-hack-2026.devpost.com/) | Online | 7 days left |
 | Devfolio | [GeNarrative Clash](https://genarrative-clash.devfolio.co) | Kolkata, India | 7 days left |
 | EduLinkUp | [ELUCode - 8](https://unstop.com/hackathons/elucode-8-edulinkup-1800924) | Online | 7 days left |
-| Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 ECE](https://unstop.com/hackathons/expanding-horizons-80-ece-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799778) | Online | 7 days left |
-| Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 EE](https://unstop.com/hackathons/expanding-horizons-80-ee-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799780) | Online | 7 days left |
-| Product Space | [AI Builder Hackathon](https://unstop.com/hackathons/ai-builder-hackathon-product-space-1799509) | Online | 7 days left |
-| Product Space | [AI Product Buildathon](https://unstop.com/hackathons/ai-product-buildathon-product-space-1799475) | Online | 7 days left |
-| Product Space | [Gen-AI Product Hackathon](https://unstop.com/hackathons/gen-ai-product-hackathon-product-space-1799510) | Online | 7 days left |
 | Product Space | [NextGen AI Hackathon](https://unstop.com/hackathons/nextgen-ai-hackathon-product-space-1800891) | Online | 7 days left |
 | The National Institute of Engineering, Karnataka | [Data Sprint 2.0](https://unstop.com/hackathons/data-sprint-20-anveshan-nie-1807080) | Online | 7 days left |
-| Wisconsin Quantum Computing Club | [WQCC Qiskit Fall Fest 2026](https://wqcc-qiskit-fall-fest-2026.devpost.com/) | Online | 7 days left |
 | Devfolio | [CODEFESTTHON 2026](https://codefestthon.devfolio.co) | Online | 8 days left |
 | Devfolio | [Lean In Hacks 8.0](https://lean-in-hacks-8.devfolio.co) | Various | 8 days left |
 | Indian Institute of Technology (IIT), Bombay | [Housing Fintech Challenge](https://unstop.com/hackathons/hero-housing-fintech-challenge-iit-bombay-1802169) | Online | 8 days left |
-| Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 CIVIL](https://unstop.com/hackathons/expanding-horizons-80-civil-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799782) | Online | 8 days left |
-| Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 Mechanical](https://unstop.com/hackathons/expanding-horizons-80-mechanical-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799788) | Online | 8 days left |
+| Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 BIOTECH](https://unstop.com/hackathons/expanding-horizons-80-biotech-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799790) | Online | 8 days left |
 | Writers Haven | [WH Versehack](https://unstop.com/hackathons/wh-versehack-writers-haven-1770609) | Online | 8 days left |
 | Devfolio | [Code N Mod](https://codenmod.devfolio.co) | Tumakur, India | 9 days left |
 | Devfolio | [Hack-a-Sol 2026](https://hackasol-iiit-nr-2026.devfolio.co) | Atal Nagar-Nava Raipur, India | 9 days left |
-| Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 BIOTECH](https://unstop.com/hackathons/expanding-horizons-80-biotech-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799790) | Online | 9 days left |
+| Dr. Ambedkar Institute of Technology for Divyangjan | [PromptWars X AITH Kanpur](https://unstop.com/hackathons/promptwars-x-aith-dr-ambedkar-institute-of-technology-for-divyangjan-1807596) | Offline | 9 days left |
 | Motilal Nehru National Institute of Technology | [Expanding Horizons 8.0 Chemical](https://unstop.com/hackathons/expanding-horizons-80-chemical-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799791) | Online | 9 days left |
 | Devfolio | [Founders' House Kolkata](https://founders-house-kolkata.devfolio.co) | Various | 10 days left |
 | Indian Institute of Technology (IIT), Bombay | [Agentic AI in BFSI Hackathon](https://unstop.com/hackathons/agentic-ai-in-bfsi-hackathon-iit-bombay-1800857) | Offline | 10 days left |
+| HackerEarth | [Groww Next ‘26](https://www.hackerearth.com/challenges/hackathon/groww-next-2026/) | Online | 12 days left |
 | Hackathon Raptors | [Agentware | 72-Hour Hackathon](https://unstop.com/hackathons/agentware-72-hour-hackathon-hackathon-raptors-1800324) | Online | 13 days left |
-| HackerEarth | [Groww Next ‘26](https://www.hackerearth.com/challenges/hackathon/groww-next-2026/) | Online | 13 days left |
+| Jain College of Engineering & Technology, Hubballi | [Hackignite 1.0 – 24 Hours National Level Hackathon](https://unstop.com/hackathons/hackignite-10-24-hours-national-level-hackathon-jain-college-of-engineering-technology-hubballi-1801378) | Offline | 13 days left |
 | Quik CPQ Solutions LLP | [QuikCPQ AI Innovation Challenge 2027](https://unstop.com/hackathons/quikcpq-ai-innovation-challenge-2027-quik-cpq-solutions-llp-1806984) | Online | 13 days left |
-| BMS Institute of Technology and Management (BMSITM), Bangalore | [DecodeX '26 - Enter the Mission. Decode the Unknown](https://unstop.com/hackathons/decodex-26-enter-the-mission-decode-the-unknown-bms-institute-of-technology-and-management-bmsitm-bangalore-1794529) | Hybrid | 14 days left |
+| Yasir Insights | [Build Your First AI App](https://build-your-first-ai-app.devpost.com/) | Online | 13 days left |
 | Devfolio | [DevNexus 2.0](https://devnexus2.devfolio.co) | Kolkata, India | 14 days left |
-| Yasir Insights | [Build Your First AI App](https://build-your-first-ai-app.devpost.com/) | Online | 14 days left |
 | KartAI | [Code to Cart: AI x E-commerce Hackathon | KartAI X CodeXcelerate](https://unstop.com/hackathons/code-to-cart-ai-x-e-commerce-hackathon-kartai-x-codexcelerate-kartai-1803912) | Online | 15 days left |
 | Devfolio | [CodeClash'24](https://codeclash24.devfolio.co) | Greater Noida, India | 16 days left |
 | Devfolio | [Winter of Code 2026](https://winter-of-code-4.devfolio.co) | Online | 16 days left |
 | GM University Davanagere | [Code Rush – 24 Hours Hackathon](https://unstop.com/hackathons/code-rush-24-hours-hackathon-ignitron-2k26-gm-university-davanagere-1791410) | Offline | 16 days left |
+| Google | [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/) | Online | 16 days left |
 | Hoollow | [Bad Ideas Only](https://unstop.com/hackathons/bad-ideas-only-hoollow-1805107) | Online | 16 days left |
 | VIT BHOPAL | [VIT Bhopal University to Host Health Hackathon 3.0 in January 2027](https://unstop.com/hackathons/vit-bhopal-university-to-host-health-hackathon-30-in-january-2027-vit-bhopal-1781454) | Offline | 16 days left |
-| Google | [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com/) | Online | 17 days left |
 | IdeaLab | [IdeaLab Hacks](https://idealab-hacks.devpost.com/) | Online | 17 days left |
 | HackathonForEveryone | [Code for Change](https://code-for-change-global.devpost.com/) | Online | 18 days left |
 | ML Empowerment Foundation | [ML Empowerment Build Challenge 4.0](https://ml-build-challenge-4.devpost.com/) | Online | 18 days left |
 | GM University Davanagere | [Capture The Flag (CTF)](https://unstop.com/hackathons/capture-the-flag-ctf-ignitron-2k26-gm-university-davanagere-1791574) | Offline | 19 days left |
-| MLR Institute Of Technology (MLRIT), Hyderabad | [Zenith'26](https://unstop.com/hackathons/zenith26-mlr-institute-of-technology-mlrit-hyderabad-1790028) | Offline | 20 days left |
+| MLR Institute Of Technology (MLRIT), Hyderabad | [Zenith'26](https://unstop.com/hackathons/zenith26-mlr-institute-of-technology-mlrit-hyderabad-1790028) | Offline | 19 days left |
 | Devfolio | [Clash of Commits](https://clash-of-commits.devfolio.co) | Chennai, India | 21 days left |
 | Open Health AI Collective | [AI for Medicine: A Global Student Hackathon on the Future of Care](https://ai-for-medicine.devpost.com/) | Online | 21 days left |
 | Ganeshi Lal Bajaj Institute Of Technology And Management (GLBITM), Greater Noida | [Android Ignition](https://unstop.com/hackathons/android-ignition-ganeshi-lal-bajaj-institute-of-technology-and-management-glbitm-greater-noida-1805946) | Online | 22 days left |
 | Hackyard Technologies Pvt limited | [Adaption Dataset Challenge](https://unstop.com/hackathons/adaption-dataset-challenge-hackyard-technologies-pvt-limited-1799281) | Online | 22 days left |
+| Google | [Deck the Pixels](https://deckthepixels.devpost.com/) | Online | 23 days left |
 | HackKro | [HackKro CodeByte 2026](https://unstop.com/hackathons/hackkro-codebyte-2026-hackkro-1807297) | Online | 23 days left |
 | cite & slayy | [SLAY HACKS](https://slayy-hacks.devpost.com/) | Online | 24 days left |
 | Devpost | [Learn AR with SPECS](https://learn-specs.devpost.com/) | Online | 24 days left |
-| Google | [Deck the Pixels](https://deckthepixels.devpost.com/) | Online | 24 days left |
 | reddit | [Reddit’s Game of the Day Hackathon](https://redditgameofday2026.devpost.com/) | Online | 25 days left |
 | AI OpenBuild | [AI OpenBuild](https://ai-openbuild.devpost.com/) | Online | 27 days left |
+| AWS | [AWS MSP AI Hackathon](https://aws-agentic-msp.devpost.com/) | Online | 27 days left |
 | bayhacks | [Peninsula Innovation Hackathon](https://peninsula-innovation-hackathon.devpost.com/) | Online | 27 days left |
-| AWS | [AWS MSP AI Hackathon](https://aws-agentic-msp.devpost.com/) | Online | 28 days left |
+| Devfolio | [hackodisha-6.0](https://hackodisha-6a.devfolio.co) | Online | 28 days left |
 | Neo4j | [Relate by Neo4j Hackathon](https://relate.devpost.com/) | Online | 28 days left |
-| Devfolio | [hackodisha-6.0](https://hackodisha-6a.devfolio.co) | Online | 29 days left |
 | Atlassian | [Codegeist 2026: Build with context. Ship with confidence.](https://codegeist2026.devpost.com/) | Online | about 1 month left |
 | Girls Who Code | [InnovateHER Hackathon: Girls Who Code](https://hackathon-girls-who-code.devpost.com/) | Online | 30 days left |
 | QNX | [QNX Global Hackathon](https://qnx.devpost.com/) | Online | about 1 month left |
@@ -4264,33 +4252,30 @@ Total hackathons: 159
 | Geek Room | [Hacksmart 2.0](https://unstop.com/hackathons/hacksmart-20-geek-room-1799091) | Hybrid | 31 days left |
 | Vellore Institute of Technology (VIT), Chennai | [Defy'27](https://unstop.com/hackathons/defy27-vellore-institute-of-technology-vit-chennai-1806122) | Hybrid | 31 days left |
 | HackWithPune | [CodeElitePune - Hack With Pune](https://unstop.com/hackathons/codeelitepune-hack-with-pune-hackwithpune-1794522) | Online | 32 days left |
-| ECHO ENGINEERS | [AI Vibeathon 1.0](https://unstop.com/hackathons/ai-vibeathon-2026-promptwars-echo-engineers-echo-engineers-1799092) | Hybrid | 35 days left |
+| Yeshwantrao Chavan College of Engineering (YCCE), Nagpur | [HackKumbh 2026 : Tech For Humanity](https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629) | Offline | 34 days left |
 | Skill2Career | [IDEATHON- FutureX: Innovating for Global Challenges](https://unstop.com/hackathons/ideathon-futurex-innovating-for-global-challenges-skill2career-1803074) | Online | 35 days left |
-| Yeshwantrao Chavan College of Engineering (YCCE), Nagpur | [HackKumbh 2026 : Tech For Humanity](https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629) | Offline | 35 days left |
 | DotRepo | [AI Vibeathon 2026: 24-Hour AI Hackathon](https://unstop.com/hackathons/ai-vibeathon-2026-24-hour-ai-hackathon-dotrepo-1789431) | Online | 36 days left |
+| SEED Global Education Services Private Limited | [Seed Hackathon 2026](https://unstop.com/hackathons/crp-seed-hackathon-2026-seed-global-education-services-private-limited-1798287) | Online | 38 days left |
 | Devfolio | [ETHChiangmai & Longevity Hackathon 2026](https://chiangmai.devfolio.co) | Thailand | 42 days left |
-| navutkarsh | [NavUtkarsh x Leo Hackathon 2026 | Innovate, Build & Solve Real-World Problems](https://unstop.com/hackathons/navutkarsh-x-leo-hackathon-2026-innovate-build-solve-real-world-problems-navutkarsh-1771952) | Hybrid | 42 days left |
-| Techkriti | [IARC | TECHKRITI | IIT KANPUR](https://unstop.com/hackathons/iarc-techkriti27-techkriti-1764468) | Offline | 47 days left |
-| Techkriti | [Techkriti Grand Prix | TECHKRITI | IIT KANPUR](https://unstop.com/hackathons/techkriti-grand-prix-techkriti27-techkriti-1764465) | Offline | 47 days left |
-| Devfolio | [Hack For Tomorrow 2026](https://hft2026.devfolio.co) | Various | 50 days left |
-| Devfolio | [haxfinity](https://haxfinity.devfolio.co) | Myladi, India | 51 days left |
+| Techkriti | [Techkriti Grand Prix | TECHKRITI | IIT KANPUR](https://unstop.com/hackathons/techkriti-grand-prix-techkriti27-techkriti-1764465) | Offline | 46 days left |
+| Devfolio | [Hack For Tomorrow 2026](https://hft2026.devfolio.co) | Various | 49 days left |
+| Devfolio | [haxfinity](https://haxfinity.devfolio.co) | Myladi, India | 50 days left |
 | Chandigarh University (CU), Ajitgarh, Punjab | [LightHouse - Hackathon](https://unstop.com/hackathons/lighthouse-hackathon-chandigarh-university-cu-ajitgarh-punjab-1809486) | Online | 57 days left |
 | Hoollow | [The Forge](https://unstop.com/hackathons/the-forge-hoollow-1787722) | Offline | 58 days left |
 | Cognizant | [Open Agentic Web Challenge](https://cognizant-agenticweb.devpost.com/) | Online | about 2 months left |
-| Devfolio | [Techacks 5.0](https://techacks05.devfolio.co) | Rajpura, India | 63 days left |
+| Devfolio | [Techacks 5.0](https://techacks05.devfolio.co) | Rajpura, India | 62 days left |
+| Devfolio | [GOA BUILDATHON 27](https://goa-buildathon.devfolio.co) | India | 63 days left |
 | Devfolio | [Convergence](https://convergence1.devfolio.co) | Kalyani, India | 64 days left |
-| Devfolio | [GOA BUILDATHON 27](https://goa-buildathon.devfolio.co) | India | 64 days left |
 | HackerEarth | [ContextCon: Remember Everything](https://www.hackerearth.com/challenges/hackathon/contextcon-remember-everything/) | Online | 64 days left |
+| Devfolio | [HACK 6.0](https://hack-1736.devfolio.co) | Hamirpur, India | 70 days left |
 | Devfolio | [HACK WITH GDG S4](https://hack-with-gdg-s4.devfolio.co) | KSR Kalvi Nagar, India | 70 days left |
 | Devfolio | [DevNexus Vidisha](https://devnexus-3.devfolio.co) | Vidisha, India | 71 days left |
-| Devfolio | [HACK 6.0](https://hack-1736.devfolio.co) | Hamirpur, India | 71 days left |
-| Agnel Charities Fr. C. Rodrigues Institute of Technology, Vashi, Navi Mumbai | [Overclock](https://unstop.com/hackathons/overclock-agnel-charities-fr-c-rodrigues-institute-of-technology-vashi-navi-mumbai-1798677) | Offline | 76 days left |
+| College of Engineering (CEG), Guindy, Anna University | [HackZ'26](https://unstop.com/hackathons/hackz26-computer-science-and-engineering-association-csea-ceg-anna-university-1776729) | Online | 76 days left |
 | Devfolio | [Health Hackathon 3.0](https://health-hackathon.devfolio.co) | Kothri Kalan, India | 76 days left |
-| College of Engineering (CEG), Guindy, Anna University | [HackZ'26](https://unstop.com/hackathons/hackz26-computer-science-and-engineering-association-csea-ceg-anna-university-1776729) | Online | 77 days left |
+| Devfolio | [Innerve 11.0](https://innerve-11.devfolio.co) | Pune, India | 76 days left |
 | Devfolio | [Hacksprint 3.0](https://hacksprint-3.devfolio.co) | Various | 77 days left |
-| Devfolio | [Innerve 11.0](https://innerve-11.devfolio.co) | Pune, India | 77 days left |
+| Devfolio | [Makeathon 9.0](https://makeathon-9.devfolio.co) | Patiala, India | 77 days left |
 | Devfolio | [Hack Nexus 2027](https://hack-nexus.devfolio.co) | Nagpur, India | 78 days left |
-| Devfolio | [Makeathon 9.0](https://makeathon-9.devfolio.co) | Patiala, India | 78 days left |
 | Rabinja Squad | [Rabinjathon: Prime 1](https://unstop.com/hackathons/rabinjathon-prime-1-rabinja-squad-1761846) | Online | 82 days left |
 | International Institute of Information Technology (IIIT), Bhubaneswar | [Craft N Code Delhi](https://unstop.com/hackathons/craft-n-code-delhi-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iiit--1746233) | Online | 84 days left |
 | International Institute of Information Technology (IIIT), Bhubaneswar | [Craft N Code Haryana](https://unstop.com/hackathons/craft-n-code-haryana-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iii-1746142) | Online | 84 days left |
@@ -4301,17 +4286,13 @@ Total hackathons: 159
 | Devfolio | [CODERAVE 2.0](https://coderave-2.devfolio.co) | Various | 92 days left |
 | Faculty of Engineering and Technology, Jain Deemed to be University | [Inceptrix 3.0](https://unstop.com/hackathons/incpetrix-30-faculty-of-engineering-and-technology-jain-deemed-to-be-university-1794479) | Hybrid | 98 days left |
 | Army Institute of Technology (AIT), Pune | [CSS Battle](https://unstop.com/hackathons/css-battle-solutions-2k27-army-institute-of-technology-ait-pune-1802090) | Online | 107 days left |
-| Army Institute of technology, Pune | [Solidworks](https://unstop.com/hackathons/solidworks-solutions-2k27-army-institute-of-technology-pune-1799800) | Online | 110 days left |
-| Army Institute of technology, Pune | [Crackhunt](https://unstop.com/hackathons/crackhunt-solutions-2k27-army-institute-of-technology-pune-1799765) | Online | 111 days left |
-| Army Institute of technology, Pune | [Ethon](https://unstop.com/hackathons/ethon-solutions-2k27-army-institute-of-technology-pune-1799758) | Offline | 111 days left |
-| Army Institute of technology, Pune | [SQL Mania](https://unstop.com/hackathons/sql-mania-solutions-2k27-army-institute-of-technology-pune-1799761) | Offline | 111 days left |
-| Army Institute of Technology (AIT), Pune | [Code Red](https://unstop.com/hackathons/code-red-solutions-2k27-army-institute-of-technology-ait-pune-1801200) | Hybrid | 112 days left |
-| Army Institute of technology, Pune | [SHE CODE](https://unstop.com/hackathons/she-code-solutions-2k27-army-institute-of-technology-pune-1802089) | Hybrid | 112 days left |
-| Devfolio | [Diversion 2k27](https://diversion2k27.devfolio.co) | Bidhannagar, India | 113 days left |
-| Army Institute of technology, Pune | [Project Jupyter](https://unstop.com/hackathons/project-jupyter-solutions-2k27-army-institute-of-technology-pune-1799762) | Online | 116 days left |
+| Army Institute of Technology (AIT), Pune | [Code Red](https://unstop.com/hackathons/code-red-solutions-2k27-army-institute-of-technology-ait-pune-1801200) | Hybrid | 111 days left |
+| Army Institute of technology, Pune | [SHE CODE](https://unstop.com/hackathons/she-code-solutions-2k27-army-institute-of-technology-pune-1802089) | Hybrid | 111 days left |
+| Devfolio | [Diversion 2k27](https://diversion2k27.devfolio.co) | Bidhannagar, India | 112 days left |
 | Devfolio | [ECLIPSE 7.0](https://eclipse.devfolio.co) | Patiala, India | 141 days left |
 | Binnovative | [PhysTech 2027: Physical Activity and Technology Hack Day](https://phystech2027.devpost.com/) | Online | 7 months left |
 | Galuxium | [Galuxium Nexus V3: The Global AI, Autonomous Systems & Venture SaaS Championship](https://unstop.com/hackathons/galuxium-nexus-v3-the-global-ai-autonomous-systems-venture-saas-championship-galuxium-1800395) | Online | 258 days left |
+| WISE | [WiseStart 2026 Hackathon: Tallinn](https://wisestart-2026-tll.devpost.com/) | Wise Tallinn | 33 minutes left |
 
 ## Events
 
