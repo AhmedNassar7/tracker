@@ -4,7 +4,21 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Sun, 15 Nov 2026 01:57:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 09:25:00 GMT</lastBuildDate>
+    <item>
+      <title>Robusta — Mid-Level FullStack Developer - Octopus by RTG - Remote - 4 Months</title>
+      <link>https://apply.workable.com/j/30D5C4E60A</link>
+      <guid isPermaLink="false">2471f2da4763f494</guid>
+      <description>Cairo, Egypt (Remote) · mid_level · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Robusta — Senior QA Engineer - (6 months) - Remote - Immediate Hiring</title>
+      <link>https://apply.workable.com/j/0ECF5D8E1B</link>
+      <guid isPermaLink="false">ff6715fc9c7556bb</guid>
+      <description>Egypt (Remote) · mid_level · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857</link>
@@ -18,13 +32,6 @@
       <guid isPermaLink="false">9073447cc2f0e1ec</guid>
       <description>Tel Aviv, Israel · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple — Silicon Validation Software Engineer: CPU and Memory Hierarchy</title>
-      <link>https://jobs.apple.com/en-us/details/200694733/silicon-validation-software-engineer-cpu-and-memory-hierarchy</link>
-      <guid isPermaLink="false">ccd2d03deebd554b</guid>
-      <description>Herzliya, Israel · unknown · 3d</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Synapseanalytics — Senior DevOps Engineer</title>
@@ -622,16 +629,22 @@
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Software Engineer, AI Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Infrastructure_JR2028826</link>
+      <guid isPermaLink="false">df3453bdebd357e2</guid>
+      <description>Israel, Tel Aviv · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Software Solutions Architect, NVIS</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Software-Solutions-Architect--NVIS_JR2029973</link>
       <guid isPermaLink="false">9074f5cfcf0e24ae</guid>
-      <description>Israel, Raanana +2 more · mid_level · 1d</description>
+      <description>Israel, Raanana +2 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Test Platform Technical Leader, CPO</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Test-Platform-Technical-Leader--CPO_JR2027946</link>
       <guid isPermaLink="false">a7f3443dfe5affcd</guid>
-      <description>Israel, Yokneam · mid_level · 1d</description>
+      <description>Israel, Yokneam · mid_level · 2d</description>
     </item>
   </channel>
 </rss>
