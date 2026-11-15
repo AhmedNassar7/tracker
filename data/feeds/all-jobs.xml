@@ -4,7 +4,7 @@
     <title>tracker — All Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Every open software engineering job tracker currently tracks, merged hourly from 15+ sources.</description>
-    <lastBuildDate>Sun, 15 Nov 2026 09:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 17:11:08 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer, Live and Linear Catalog</title>
       <link>https://www.amazon.jobs/en/jobs/10605448/software-development-engineer-live-and-linear-catalog</link>
@@ -24,20 +24,6 @@
       <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173462?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">016bbfe69ce615e3</guid>
       <description>San Jose · new_grad · 2d</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Notion — Software Engineer Intern - Frontend</title>
-      <link>https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413/application?embed=true&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">e2d0865099dff5b5</guid>
-      <description>NYC · internship · 9d</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google — Software Engineer 2 – Early Career</title>
-      <link>https://www.google.com/about/careers/applications/jobs/results/109116638069957318?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">340a4587902b0143</guid>
-      <description>Palo Alto, CA +11 more · new_grad · 13d</description>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -104,9 +90,9 @@
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Tencent — Cyber Security Engineer Intern</title>
-      <link>https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108141?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">4f689afdb31c0806</guid>
+      <title>Tencent — Site Reliability Engineer (SRE) Intern — AI Infrastructure</title>
+      <link>https://zapply.jobs/l/d/workday-tencent-tencent-careers-R108158?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">55edb494b2f3522b</guid>
       <description>California-Palo Alto · internship · 1mo</description>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -115,6 +101,62 @@
       <link>https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Machine-Learning-Engineer-Intern_JR-0110806?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">5032d6d76c02f594</guid>
       <description>Toronto, ON, Canada Vancouver, BC, Canada · internship · 1mo</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Engineering Manager, Knowledge Graph Platform</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8256326</link>
+      <guid isPermaLink="false">5950726e44ce6fc3</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Frontend Engineer, Ads</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8194576</link>
+      <guid isPermaLink="false">10637ebcdaefe376</guid>
+      <description>Remote - United States · other · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Frontend Engineer, Ads Campaign Manager</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8240716</link>
+      <guid isPermaLink="false">239e9d023b99fc23</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Frontend Engineer, Ads Creative</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8175520</link>
+      <guid isPermaLink="false">f03ebb6c3a5bd0da</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Frontend Engineer, Ads Formats</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8287466</link>
+      <guid isPermaLink="false">ae63e62a90867717</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Software Engineer, Agentic Ads Experience</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/7980795</link>
+      <guid isPermaLink="false">6ba729ce5ab63e69</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Senior Staff Applied Scientist, Science Platform</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8282748</link>
+      <guid isPermaLink="false">99bb0f25a946ff56</guid>
+      <description>Remote - United States · mid_level · 0d</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit — Software Engineer, Ad Signals</title>
+      <link>https://job-boards.greenhouse.io/reddit/jobs/8319655</link>
+      <guid isPermaLink="false">0c516bcbe90c5f1d</guid>
+      <description>Remote - United States · other · 0d</description>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3059,13 +3101,6 @@
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663</link>
-      <guid isPermaLink="false">20d89117016c3b11</guid>
-      <description>Bengaluru, India · mid_level · 2d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Principal Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955</link>
       <guid isPermaLink="false">cb9266ad97c9c850</guid>
       <description>Bengaluru, India · mid_level · 2d</description>
@@ -3075,6 +3110,13 @@
       <title>Okta — Principal Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
       <guid isPermaLink="false">d287749893376873</guid>
+      <description>Bengaluru, India · mid_level · 2d</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Principal Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663</link>
+      <guid isPermaLink="false">20d89117016c3b11</guid>
       <description>Bengaluru, India · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3143,16 +3185,16 @@
     </item>
     <item>
       <title>Okta — Senior Site Reliability Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8260950?gh_jid=8260950</link>
-      <guid isPermaLink="false">6da5ca6a48d38cdf</guid>
-      <description>Bengaluru, India · mid_level · 2d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8184826?gh_jid=8184826</link>
+      <guid isPermaLink="false">eaa331d33176368b</guid>
+      <description>Dublin, Ireland · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Senior Site Reliability Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8184826?gh_jid=8184826</link>
-      <guid isPermaLink="false">eaa331d33176368b</guid>
-      <description>Dublin, Ireland · mid_level · 2d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8260950?gh_jid=8260950</link>
+      <guid isPermaLink="false">6da5ca6a48d38cdf</guid>
+      <description>Bengaluru, India · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3192,15 +3234,15 @@
     </item>
     <item>
       <title>Okta — Senior Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085</link>
-      <guid isPermaLink="false">c9d6280c915f6dc9</guid>
-      <description>Bengaluru, India · mid_level · 2d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8237695?gh_jid=8237695</link>
+      <guid isPermaLink="false">f45fa3630c2800f8</guid>
+      <description>Toronto, Ontario, Canada · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Senior Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312</link>
-      <guid isPermaLink="false">2b6544e7f3a7ca2b</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085</link>
+      <guid isPermaLink="false">c9d6280c915f6dc9</guid>
       <description>Bengaluru, India · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3213,9 +3255,9 @@
     </item>
     <item>
       <title>Okta — Senior Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8237695?gh_jid=8237695</link>
-      <guid isPermaLink="false">f45fa3630c2800f8</guid>
-      <description>Toronto, Ontario, Canada · mid_level · 2d</description>
+      <link>https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312</link>
+      <guid isPermaLink="false">2b6544e7f3a7ca2b</guid>
+      <description>Bengaluru, India · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3535,15 +3577,15 @@
     </item>
     <item>
       <title>Okta — Staff FullStack Engineer, Secures AI</title>
-      <link>https://www.okta.com/company/careers/opportunity/8120329?gh_jid=8120329</link>
-      <guid isPermaLink="false">9fb3bf08ae74c812</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8314936?gh_jid=8314936</link>
+      <guid isPermaLink="false">a199083283ee3d53</guid>
       <description>Toronto, Ontario, Canada · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff FullStack Engineer, Secures AI</title>
-      <link>https://www.okta.com/company/careers/opportunity/8314936?gh_jid=8314936</link>
-      <guid isPermaLink="false">a199083283ee3d53</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8120329?gh_jid=8120329</link>
+      <guid isPermaLink="false">9fb3bf08ae74c812</guid>
       <description>Toronto, Ontario, Canada · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3591,44 +3633,9 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8243997?gh_jid=8243997</link>
-      <guid isPermaLink="false">878d5ed19162e01f</guid>
-      <description>San Francisco, California · mid_level · 2d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/8236504?gh_jid=8236504</link>
       <guid isPermaLink="false">eb5acd91786c5490</guid>
       <description>Bengaluru, India · mid_level · 2d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158</link>
-      <guid isPermaLink="false">0fb138624cf03c93</guid>
-      <description>Toronto, Ontario, Canada · mid_level · 2d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634</link>
-      <guid isPermaLink="false">1efca24879682190</guid>
-      <description>Bengaluru, India · mid_level · 2d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783</link>
-      <guid isPermaLink="false">afbb3c9392629c3e</guid>
-      <description>Bengaluru, India · mid_level · 2d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124</link>
-      <guid isPermaLink="false">7979c3539806a4c7</guid>
-      <description>San Francisco, California · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3647,9 +3654,37 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8220655?gh_jid=8220655</link>
-      <guid isPermaLink="false">3373cca001b43183</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158</link>
+      <guid isPermaLink="false">0fb138624cf03c93</guid>
+      <description>Toronto, Ontario, Canada · mid_level · 2d</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124</link>
+      <guid isPermaLink="false">7979c3539806a4c7</guid>
+      <description>San Francisco, California · mid_level · 2d</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783</link>
+      <guid isPermaLink="false">afbb3c9392629c3e</guid>
       <description>Bengaluru, India · mid_level · 2d</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634</link>
+      <guid isPermaLink="false">1efca24879682190</guid>
+      <description>Bengaluru, India · mid_level · 2d</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8243997?gh_jid=8243997</link>
+      <guid isPermaLink="false">878d5ed19162e01f</guid>
+      <description>San Francisco, California · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3661,9 +3696,16 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857</link>
-      <guid isPermaLink="false">2068ff8f2fccaae5</guid>
-      <description>Tel Aviv, Israel · mid_level · 2d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8220655?gh_jid=8220655</link>
+      <guid isPermaLink="false">3373cca001b43183</guid>
+      <description>Bengaluru, India · mid_level · 2d</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016</link>
+      <guid isPermaLink="false">1b7920aa8efcc92e</guid>
+      <description>Bengaluru, India · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3675,9 +3717,9 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016</link>
-      <guid isPermaLink="false">1b7920aa8efcc92e</guid>
-      <description>Bengaluru, India · mid_level · 2d</description>
+      <link>https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857</link>
+      <guid isPermaLink="false">2068ff8f2fccaae5</guid>
+      <description>Tel Aviv, Israel · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -3724,15 +3766,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer - Full Stack</title>
-      <link>https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301</link>
-      <guid isPermaLink="false">2ffb6cc6730a477d</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508</link>
+      <guid isPermaLink="false">45c660725ad6be5e</guid>
       <description>Bengaluru, India · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer - Full Stack</title>
-      <link>https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508</link>
-      <guid isPermaLink="false">45c660725ad6be5e</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301</link>
+      <guid isPermaLink="false">2ffb6cc6730a477d</guid>
       <description>Bengaluru, India · mid_level · 2d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -6782,13 +6824,6 @@
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Adobe — 2027 University Graduate - Data Scientist</title>
-      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462</link>
-      <guid isPermaLink="false">cd975b13c43ac336</guid>
-      <description>San Jose · new_grad · 3d</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Visa — Software Engineer Intern</title>
       <link>https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/GB---London-United-Kingdom/Software-Engineer-Intern_REF090469W?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">e8886d3378213047</guid>
@@ -6975,6 +7010,13 @@
       <link>https://jobs.apple.com/en-us/details/200694832/ui-software-engineer-apple-tv</link>
       <guid isPermaLink="false">1d051660422547c8</guid>
       <description>San Diego, United States of America · unknown · 3d</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Adobe — 2027 University Graduate - Data Scientist</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462</link>
+      <guid isPermaLink="false">cd975b13c43ac336</guid>
+      <description>San Jose · new_grad · 3d</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -7902,27 +7944,6 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Cisco — Software Engineer Embedded Systems I (Intern) - United States</title>
-      <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024641?s=gh-new-grad-software-engineering-jobs-2027</link>
-      <guid isPermaLink="false">2f38e6591edafe09</guid>
-      <description>San Jose California US · internship · 4d</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer Embedded Systems I (Intern) - United States</title>
-      <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024641?s=gh-internships-2027</link>
-      <guid isPermaLink="false">f46fba9b965fc922</guid>
-      <description>San Jose California US · internship · 4d</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cisco — Software Engineer Intern, Embedded Systems I</title>
-      <link>https://go.vansh.nyc/1uy?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">2f66e2642c7f872f</guid>
-      <description>San Jose, CA · internship · 4d</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Salesforce — Software Engineer New Grad</title>
       <link>https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR368047?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">1d57044f974c2e67</guid>
@@ -8186,6 +8207,20 @@
       <link>https://zapply.jobs/l/d/amazon-b6791f16-ba72-4484-9317-c4de08163146?s=gh-new-grad-software-engineering-jobs-2027</link>
       <guid isPermaLink="false">4108495bb39bb0a8</guid>
       <description>Seattle, WA · new_grad · 4d</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer Embedded Systems I (Intern) - United States</title>
+      <link>https://zapply.jobs/l/d/workday-cisco-cisco-careers-2024641?s=gh-internships-2027</link>
+      <guid isPermaLink="false">f46fba9b965fc922</guid>
+      <description>San Jose California US · internship · 4d</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cisco — Software Engineer Intern, Embedded Systems I</title>
+      <link>https://go.vansh.nyc/1uy?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">2f66e2642c7f872f</guid>
+      <description>San Jose, CA · internship · 4d</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8693,20 +8728,6 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir — Software Engineer, Intern - Connectivity Platform and Product</title>
-      <link>https://zapply.jobs/l/d/lever-palantir-eb496d6a-a960-43d3-a09b-e3843052f54e?s=gh-new-grad-software-engineering-jobs-2027</link>
-      <guid isPermaLink="false">a1f3736d0f81d977</guid>
-      <description>Denver, CO · internship · 5d</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir — Software Engineer, Intern - Connectivity Platform and Product</title>
-      <link>https://zapply.jobs/l/d/lever-palantir-eb496d6a-a960-43d3-a09b-e3843052f54e?s=gh-internships-2027</link>
-      <guid isPermaLink="false">18a64716e047bdc5</guid>
-      <description>Denver, CO · internship · 5d</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Palantir — Software Engineer Intern, Connectivity Platform and Product</title>
       <link>https://go.vansh.nyc/1rs?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">ab999734655a023f</guid>
@@ -8721,17 +8742,24 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-292582-1</link>
-      <guid isPermaLink="false">1b179ed673a7f8e8</guid>
-      <description>O'Fallon, Missouri · mid_level · 5d</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II, Campaign Management</title>
       <link>https://zapply.jobs/l/d/amazon-aa782ab9-b008-4227-9935-8b996f16a97b?s=gh-canada-jobs-2027</link>
       <guid isPermaLink="false">5eef66ba4c4cdcae</guid>
       <description>Toronto, ON · mid_level · 5d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, Intern - Connectivity Platform and Product</title>
+      <link>https://zapply.jobs/l/d/lever-palantir-eb496d6a-a960-43d3-a09b-e3843052f54e?s=gh-new-grad-software-engineering-jobs-2027</link>
+      <guid isPermaLink="false">a1f3736d0f81d977</guid>
+      <description>Denver, CO · internship · 5d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir — Software Engineer, Intern - Connectivity Platform and Product</title>
+      <link>https://zapply.jobs/l/d/lever-palantir-eb496d6a-a960-43d3-a09b-e3843052f54e?s=gh-internships-2027</link>
+      <guid isPermaLink="false">18a64716e047bdc5</guid>
+      <description>Denver, CO · internship · 5d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -8998,6 +9026,13 @@
       <link>https://www.okta.com/company/careers/opportunity/8333990?gh_jid=8333990</link>
       <guid isPermaLink="false">e07bc925ce4bfd0f</guid>
       <description>Toronto, Ontario, Canada · mid_level · 5d</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-292582-1</link>
+      <guid isPermaLink="false">1b179ed673a7f8e8</guid>
+      <description>O'Fallon, Missouri · mid_level · 5d</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11122,62 +11157,6 @@
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Reddit — Engineering Manager, Knowledge Graph Platform</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8256326</link>
-      <guid isPermaLink="false">5950726e44ce6fc3</guid>
-      <description>Remote - United States · mid_level · 9d</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Frontend Engineer, Ads</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8194576</link>
-      <guid isPermaLink="false">10637ebcdaefe376</guid>
-      <description>Remote - United States · other · 9d</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Frontend Engineer, Ads Campaign Manager</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8240716</link>
-      <guid isPermaLink="false">239e9d023b99fc23</guid>
-      <description>Remote - United States · mid_level · 9d</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Frontend Engineer, Ads Creative</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8175520</link>
-      <guid isPermaLink="false">f03ebb6c3a5bd0da</guid>
-      <description>Remote - United States · mid_level · 9d</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Frontend Engineer, Ads Formats</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8287466</link>
-      <guid isPermaLink="false">ae63e62a90867717</guid>
-      <description>Remote - United States · mid_level · 9d</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Software Engineer, Agentic Ads Experience</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/7980795</link>
-      <guid isPermaLink="false">6ba729ce5ab63e69</guid>
-      <description>Remote - United States · mid_level · 9d</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Senior Staff Applied Scientist, Science Platform</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8282748</link>
-      <guid isPermaLink="false">99bb0f25a946ff56</guid>
-      <description>Remote - United States · mid_level · 9d</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reddit — Software Engineer, Ad Signals</title>
-      <link>https://job-boards.greenhouse.io/reddit/jobs/8319655</link>
-      <guid isPermaLink="false">0c516bcbe90c5f1d</guid>
-      <description>Remote - United States · other · 9d</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Reddit — Staff Software Engineer, Identity &amp; Access Management</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8031491</link>
       <guid isPermaLink="false">297a4308f707c890</guid>
@@ -11287,20 +11266,6 @@
       <link>https://go.vansh.nyc/1j0?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">b867d850e1972c80</guid>
       <description>New York, NY · internship · 10d</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Site Reliability Engineer I</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Site-Reliability-Engineer-I_R-294460</link>
-      <guid isPermaLink="false">66a0d2d186153556</guid>
-      <description>O'Fallon, Missouri · entry_level · 10d</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Site Reliability Engineer I</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Site-Reliability-Engineer-I_R-292697-1</link>
-      <guid isPermaLink="false">0ddee7e1fe150035</guid>
-      <description>O'Fallon, Missouri · entry_level · 10d</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -11546,6 +11511,20 @@
       <link>https://jobs.apple.com/en-us/details/200693720/software-engineer-watch-software</link>
       <guid isPermaLink="false">d77256f3365fa2dd</guid>
       <description>Cupertino, United States of America · unknown · 10d</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Site Reliability Engineer I</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Site-Reliability-Engineer-I_R-294460</link>
+      <guid isPermaLink="false">66a0d2d186153556</guid>
+      <description>O'Fallon, Missouri · entry_level · 10d</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Site Reliability Engineer I</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Site-Reliability-Engineer-I_R-292697-1</link>
+      <guid isPermaLink="false">0ddee7e1fe150035</guid>
+      <description>O'Fallon, Missouri · entry_level · 10d</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12144,20 +12123,6 @@
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II - AI Platforms</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Atlanta-Georgia/Software-Engineer-II---AI-Platforms_R-294616</link>
-      <guid isPermaLink="false">e23a601422bec040</guid>
-      <description>Atlanta, Georgia · mid_level · 11d</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II - AI Platforms</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Atlanta-Georgia/Software-Engineer-II---AI-Platforms-1_R-294615</link>
-      <guid isPermaLink="false">6fa1ff8c5c84ebb4</guid>
-      <description>Atlanta, Georgia · mid_level · 11d</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft — Software Engineer Intern</title>
       <link>https://apply.careers.microsoft.com/careers/job/1970393557037859?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">bc58927ea067cb08</guid>
@@ -12414,6 +12379,20 @@
       <link>https://jobs.apple.com/en-us/details/200693333/traffic-and-secure-services-network-sre-engineer</link>
       <guid isPermaLink="false">af7a0670ae2d004c</guid>
       <description>Cupertino, United States of America · unknown · 11d</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II - AI Platforms</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Atlanta-Georgia/Software-Engineer-II---AI-Platforms_R-294616</link>
+      <guid isPermaLink="false">e23a601422bec040</guid>
+      <description>Atlanta, Georgia · mid_level · 11d</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II - AI Platforms</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Atlanta-Georgia/Software-Engineer-II---AI-Platforms-1_R-294615</link>
+      <guid isPermaLink="false">6fa1ff8c5c84ebb4</guid>
+      <description>Atlanta, Georgia · mid_level · 11d</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -12929,24 +12908,17 @@
     </item>
     <item>
       <title>SumUp — Senior Backend Engineer - Run &amp; Grow</title>
-      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
-      <guid isPermaLink="false">08ef15c78c1feb1b</guid>
-      <description>Berlin, Germany · mid_level · 11d</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SumUp — Senior Backend Engineer - Run &amp; Grow</title>
       <link>https://sumup.com/careers/positions/8842258002?gh_jid=8842258002</link>
       <guid isPermaLink="false">6b49240809a5a800</guid>
       <description>Cologne, Germany · mid_level · 11d</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II_R-294449</link>
-      <guid isPermaLink="false">d513ee1a47f036a9</guid>
-      <description>Vancouver, Canada · mid_level · 12d</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <title>SumUp — Senior Backend Engineer - Run &amp; Grow</title>
+      <link>https://sumup.com/careers/positions/8842256002?gh_jid=8842256002</link>
+      <guid isPermaLink="false">08ef15c78c1feb1b</guid>
+      <description>Berlin, Germany · mid_level · 11d</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Software Engineer New Grad</title>
@@ -13313,10 +13285,24 @@
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Apple — Battery Algorithm ML Engineer</title>
+      <link>https://jobs.apple.com/en-us/details/200692554/battery-algorithm-ml-engineer</link>
+      <guid isPermaLink="false">08481a612ab093e2</guid>
+      <description>Cupertino, United States of America · unknown · 12d</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Apple — Software Development Engineer, Wireless Technologies &amp; Ecosystems</title>
       <link>https://jobs.apple.com/en-us/details/200658689/software-development-engineer-wireless-technologies-ecosystems</link>
       <guid isPermaLink="false">0f2f3c9e83c922d9</guid>
       <description>Cupertino, United States of America · unknown · 12d</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II_R-294449</link>
+      <guid isPermaLink="false">d513ee1a47f036a9</guid>
+      <description>Vancouver, Canada · mid_level · 12d</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14581,16 +14567,16 @@
     </item>
     <item>
       <title>ByteDance — Agent Evaluation &amp; Evolution Machine Learning Engineer Intern, AML-Ark-US</title>
-      <link>https://go.vansh.nyc/14f?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">75f73ac885d4158b</guid>
-      <description>San Jose, CA · internship · 14d</description>
+      <link>https://go.vansh.nyc/149?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">5e0235fa7b7dfe89</guid>
+      <description>Seattle, WA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Agent Evaluation &amp; Evolution Machine Learning Engineer Intern, AML-Ark-US</title>
-      <link>https://go.vansh.nyc/149?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">5e0235fa7b7dfe89</guid>
-      <description>Seattle, WA · internship · 14d</description>
+      <link>https://go.vansh.nyc/14f?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">75f73ac885d4158b</guid>
+      <description>San Jose, CA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14602,16 +14588,16 @@
     </item>
     <item>
       <title>ByteDance — Machine Learning Engineer Intern, AML-Engine-Orchestration</title>
-      <link>https://go.vansh.nyc/144?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">e244ae46b1c76fff</guid>
-      <description>San Jose, CA · internship · 14d</description>
+      <link>https://go.vansh.nyc/17K?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">1b417833dfc0b423</guid>
+      <description>Seattle, WA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Machine Learning Engineer Intern, AML-Engine-Orchestration</title>
-      <link>https://go.vansh.nyc/17K?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">1b417833dfc0b423</guid>
-      <description>Seattle, WA · internship · 14d</description>
+      <link>https://go.vansh.nyc/144?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">e244ae46b1c76fff</guid>
+      <description>San Jose, CA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14623,16 +14609,16 @@
     </item>
     <item>
       <title>ByteDance — Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform</title>
-      <link>https://go.vansh.nyc/15G?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">beef285d5eab307c</guid>
-      <description>San Jose, CA · internship · 14d</description>
+      <link>https://go.vansh.nyc/14q?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">2549203da1f588e3</guid>
+      <description>Seattle, WA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform</title>
-      <link>https://go.vansh.nyc/14q?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">2549203da1f588e3</guid>
-      <description>Seattle, WA · internship · 14d</description>
+      <link>https://go.vansh.nyc/15G?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">beef285d5eab307c</guid>
+      <description>San Jose, CA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14672,9 +14658,9 @@
     </item>
     <item>
       <title>ByteDance — Site Reliability Engineer Intern, Data Infra</title>
-      <link>https://go.vansh.nyc/145?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">8151b2bf5a6aaff9</guid>
-      <description>Seattle, WA · internship · 14d</description>
+      <link>https://go.vansh.nyc/14t?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">c37a4e94823672c8</guid>
+      <description>San Jose, CA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14686,9 +14672,9 @@
     </item>
     <item>
       <title>ByteDance — Site Reliability Engineer Intern, Data Infra</title>
-      <link>https://go.vansh.nyc/14t?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">c37a4e94823672c8</guid>
-      <description>San Jose, CA · internship · 14d</description>
+      <link>https://go.vansh.nyc/145?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">8151b2bf5a6aaff9</guid>
+      <description>Seattle, WA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14770,16 +14756,16 @@
     </item>
     <item>
       <title>ByteDance — Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US</title>
-      <link>https://go.vansh.nyc/14m?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">f4b3d877ed9ae7ee</guid>
-      <description>San Jose, CA · internship · 14d</description>
+      <link>https://go.vansh.nyc/147?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">b8a53a4a40e10bb2</guid>
+      <description>Seattle, WA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance — Visual Generation &amp; Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US</title>
-      <link>https://go.vansh.nyc/147?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">b8a53a4a40e10bb2</guid>
-      <description>Seattle, WA · internship · 14d</description>
+      <link>https://go.vansh.nyc/14m?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">f4b3d877ed9ae7ee</guid>
+      <description>San Jose, CA · internship · 14d</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14861,16 +14847,16 @@
     </item>
     <item>
       <title>Stripe — Machine Learning Engineer Intern 🎓</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8333074&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">a66af15c1fc604ef</guid>
-      <description>Seattle, WA SF NYC · internship · 16d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8333122&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">dfe0bbdf817dfe67</guid>
+      <description>Toronto, ON, Canada · internship · 16d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Stripe — Machine Learning Engineer Intern 🎓</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8333122&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">dfe0bbdf817dfe67</guid>
-      <description>Toronto, ON, Canada · internship · 16d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8333074&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">a66af15c1fc604ef</guid>
+      <description>Seattle, WA SF NYC · internship · 16d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14878,13 +14864,6 @@
       <link>https://stripe.com/jobs/search?gh_jid=8328664&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">10344b750b8f6734</guid>
       <description>Toronto, ON, Canada · internship · 16d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
-      <guid isPermaLink="false">c623d077adb61061</guid>
-      <description>US, CA, Santa Clara · new_grad · 16d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -14941,6 +14920,13 @@
       <link>https://www.amazon.jobs/en/jobs/10593526/software-development-engineer-selling-partner-trust</link>
       <guid isPermaLink="false">97695460c7357b7c</guid>
       <description>Tempe, Arizona, USA · unknown · 16d</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA — SoC Software Engineer – New College Graduate 2026</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1</link>
+      <guid isPermaLink="false">c623d077adb61061</guid>
+      <description>US, CA, Santa Clara · new_grad · 16d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -16099,20 +16085,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Tesla — Data Engineer Intern - Energy</title>
-      <link>https://www.tesla.com/careers/search/job/287982?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">3fefc2696cff347a</guid>
-      <description>Palo Alto, CA · internship · 17d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Product-Manager---Technical-II_R-293237</link>
-      <guid isPermaLink="false">7f8ae791f2a5e597</guid>
-      <description>Pune, India · mid_level · 17d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>LinkedIn — Software Engineer Intern - First Play</title>
       <link>https://jobs.smartrecruiters.com/LinkedIn3/744000158394370?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">e7b4b6fec636b881</guid>
@@ -16124,6 +16096,13 @@
       <link>https://apply.careers.microsoft.com/careers/job/1970393557049981</link>
       <guid isPermaLink="false">888dc98a5dd388db</guid>
       <description>Redmond, WA · internship · 17d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tesla — Data Engineer Intern - Energy</title>
+      <link>https://www.tesla.com/careers/search/job/287982?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">3fefc2696cff347a</guid>
+      <description>Palo Alto, CA · internship · 17d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -16292,6 +16271,13 @@
       <link>https://jobs.apple.com/en-us/details/200690125/internship-machine-learning-research-speech-to-speech-translation</link>
       <guid isPermaLink="false">839aed42509292de</guid>
       <description>Cambridge, United Kingdom · internship · 17d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Product-Manager---Technical-II_R-293237</link>
+      <guid isPermaLink="false">7f8ae791f2a5e597</guid>
+      <description>Pune, India · mid_level · 17d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -16890,13 +16876,6 @@
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-294519</link>
-      <guid isPermaLink="false">15e3c96aa6a65760</guid>
-      <description>O'Fallon, Missouri · mid_level · 18d</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Databricks — Software Engineer New Grad</title>
       <link>https://boards.greenhouse.io/embed/job_app?token=6865698002&amp;utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">a3b20375b3279c3f</guid>
@@ -17010,6 +16989,13 @@
     </item>
     <item>
       <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-294519</link>
+      <guid isPermaLink="false">15e3c96aa6a65760</guid>
+      <description>O'Fallon, Missouri · mid_level · 18d</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
       <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-294517</link>
       <guid isPermaLink="false">4cad116eb56811d3</guid>
       <description>O'Fallon, Missouri · mid_level · 18d</description>
@@ -17114,20 +17100,6 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer II</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-289342</link>
-      <guid isPermaLink="false">f990d1725b37b8cf</guid>
-      <description>O'Fallon, Missouri · mid_level · 19d</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II - Decision Management Program</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II---Decision-Management-Program_R-286598</link>
-      <guid isPermaLink="false">ccd78c1d9fd986bc</guid>
-      <description>O'Fallon, Missouri · mid_level · 19d</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer</title>
       <link>https://www.amazon.jobs/en/jobs/10586770/software-development-engineer</link>
       <guid isPermaLink="false">dce2794850915bd0</guid>
@@ -17216,6 +17188,20 @@
       <link>https://www.amazon.jobs/en/jobs/10589832/software-development-engineer-us-adc-security</link>
       <guid isPermaLink="false">0ca625a6278383b5</guid>
       <description>Herndon, Virginia, USA · unknown · 19d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II_R-289342</link>
+      <guid isPermaLink="false">f990d1725b37b8cf</guid>
+      <description>O'Fallon, Missouri · mid_level · 19d</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II - Decision Management Program</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Software-Engineer-II---Decision-Management-Program_R-286598</link>
+      <guid isPermaLink="false">ccd78c1d9fd986bc</guid>
+      <description>O'Fallon, Missouri · mid_level · 19d</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -17647,6 +17633,13 @@
     </item>
     <item>
       <title>Lyft — Software Engineer Intern, Backend</title>
+      <link>https://go.vansh.nyc/Qn?utm_source=github-vansh-ouckah</link>
+      <guid isPermaLink="false">662e79542446b8bd</guid>
+      <description>Montreal, Canada · internship · 1mo</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lyft — Software Engineer Intern, Backend</title>
       <link>https://go.vansh.nyc/Qm?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">3a4cc80bb8bdeefb</guid>
       <description>San Francisco, CA · internship · 1mo</description>
@@ -17657,13 +17650,6 @@
       <link>https://go.vansh.nyc/Qp?utm_source=github-vansh-ouckah</link>
       <guid isPermaLink="false">4b3c7070738854d7</guid>
       <description>Toronto, Canada · internship · 1mo</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lyft — Software Engineer Intern, Backend</title>
-      <link>https://go.vansh.nyc/Qn?utm_source=github-vansh-ouckah</link>
-      <guid isPermaLink="false">662e79542446b8bd</guid>
-      <description>Montreal, Canada · internship · 1mo</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -17989,13 +17975,6 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>MongoDB — Software Engineer Intern</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8209134&amp;utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">84a15c0be7012ba4</guid>
-      <description>Palo Alto, CA +4 more · internship · 23d</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Palantir — Forward Deployed Software Engineer - Internship - Warp Speed</title>
       <link>https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb</link>
       <guid isPermaLink="false">5b1fb419a0498d0f</guid>
@@ -18014,6 +17993,13 @@
       <link>https://amazon.jobs/en/jobs/10565667/software-development-engineer-intern-aws-database-2027-us?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">f56ec0d44ef09e67</guid>
       <description>United States · internship · 23d</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Software Engineer Intern</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8209134&amp;utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">84a15c0be7012ba4</guid>
+      <description>Palo Alto, CA +4 more · internship · 23d</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -18521,13 +18507,6 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Apple — Internship - Machine Learning Research</title>
-      <link>https://www.linkedin.com/jobs/view/4479373164</link>
-      <guid isPermaLink="false">1741bc18143787f7</guid>
-      <description>Paris, Île-De-France, France · internship · 24d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Apple — Internship - Machine Learning Research - Speech-To-Speech Translation</title>
       <link>https://www.linkedin.com/jobs/view/4481117448</link>
       <guid isPermaLink="false">5a30e5c9c8029ce9</guid>
@@ -18588,27 +18567,6 @@
       <link>https://jobs.lever.co/palantir/66b495eb-aaf9-4bf9-a759-41854534add7/apply?utm_source=Simplify&amp;ref=Simplify</link>
       <guid isPermaLink="false">d02f6de2c223a3c8</guid>
       <description>NYC · new_grad · 24d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II (Backend - Java)</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291922</link>
-      <guid isPermaLink="false">280fe37a545c6d24</guid>
-      <description>Vancouver, Canada · mid_level · 24d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II (Backend _ Java)</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291663</link>
-      <guid isPermaLink="false">4ccf0972410b4189</guid>
-      <description>Vancouver, Canada · mid_level · 24d</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Engineer II - Java Full Stack React</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613</link>
-      <guid isPermaLink="false">3e889ecfaef7e817</guid>
-      <description>Pune, India · mid_level · 24d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -18742,6 +18700,27 @@
       <link>https://jobs.lever.co/palantir/66b495eb-aaf9-4bf9-a759-41854534add7</link>
       <guid isPermaLink="false">ef6e953d8a68e35b</guid>
       <description>New York, NY · new_grad · 24d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II (Backend - Java)</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291922</link>
+      <guid isPermaLink="false">280fe37a545c6d24</guid>
+      <description>Vancouver, Canada · mid_level · 24d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II (Backend _ Java)</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Vancouver-Canada/Software-Engineer-II--Backend---Java-_R-291663</link>
+      <guid isPermaLink="false">4ccf0972410b4189</guid>
+      <description>Vancouver, Canada · mid_level · 24d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II - Java Full Stack React</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613</link>
+      <guid isPermaLink="false">3e889ecfaef7e817</guid>
+      <description>Pune, India · mid_level · 24d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -19613,17 +19592,17 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Developer Intern</title>
-      <link>https://amazon.jobs/en/jobs/10554586/2027-software-dev-engineer-intern-united-kingdom?utm_source=Simplify&amp;ref=Simplify</link>
-      <guid isPermaLink="false">1b36a9236f6301c6</guid>
-      <description>London, UK +3 more · internship · 30d</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Duolingo — Data Scientist - Intern - PhD</title>
       <link>https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002</link>
       <guid isPermaLink="false">f29145aa5c9ea44c</guid>
       <description>New York City, NY +1 · internship · 30d</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Developer Intern</title>
+      <link>https://amazon.jobs/en/jobs/10554586/2027-software-dev-engineer-intern-united-kingdom?utm_source=Simplify&amp;ref=Simplify</link>
+      <guid isPermaLink="false">1b36a9236f6301c6</guid>
+      <description>London, UK +3 more · internship · 30d</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -20821,20 +20800,6 @@
       <link>https://jobs.lever.co/spotify/785989a6-b219-43b1-92d9-750a67054f24</link>
       <guid isPermaLink="false">c9b38d5f2002daed</guid>
       <description>Stockholm · other · 37d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SumUp — Backend Engineer - Merchant Risk Intelligence</title>
-      <link>https://sumup.com/careers/positions/8745286002?gh_jid=8745286002</link>
-      <guid isPermaLink="false">94ec872e61ebe434</guid>
-      <description>Vilnius, Lithuania · other · 37d</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SumUp — Backend Engineer - Merchant Risk Intelligence</title>
-      <link>https://sumup.com/careers/positions/8645259002?gh_jid=8645259002</link>
-      <guid isPermaLink="false">bef39a173a62a3ae</guid>
-      <description>Sofia, Bulgaria · other · 37d</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -24254,13 +24219,6 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer , Amazon Leo</title>
-      <link>https://www.amazon.jobs/en/jobs/10536815/software-development-engineer-amazon-leo</link>
-      <guid isPermaLink="false">6380ad387edc4500</guid>
-      <description>Redmond, Washington, USA · unknown · 66d</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II , Amazon Cross Border Tech</title>
       <link>https://www.amazon.jobs/en/jobs/10535856/software-development-engineer-ii-amazon-cross-border-tech</link>
       <guid isPermaLink="false">a8266d3ef3a09903</guid>
@@ -27110,13 +27068,6 @@
       <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Photoroom — Head of GenAI Platform</title>
-      <link>https://jobs.ashbyhq.com/photoroom/085eaa32-44fe-4928-8826-b48873823bfd</link>
-      <guid isPermaLink="false">0f9a36d7456b4a07</guid>
-      <description>Paris · mid_level · 126d</description>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer II, GuardDuty Findings Management</title>
       <link>https://www.amazon.jobs/en/jobs/10471825/software-development-engineer-ii-guardduty-findings-management</link>
       <guid isPermaLink="false">e352cbbf384c7ae3</guid>
@@ -28174,10 +28125,22 @@
       <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Senior QA Engineer, System Product Engineering</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-QA-Engineer--System-Product-Engineering_JR2008526</link>
+      <guid isPermaLink="false">0b614f71571b1f4d</guid>
+      <description>Israel, Yokneam · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Software Engineer, AI Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Infrastructure_JR2028826</link>
       <guid isPermaLink="false">df3453bdebd357e2</guid>
       <description>Israel, Tel Aviv · other · 0d</description>
+    </item>
+    <item>
+      <title>Salesforce — Technical Architect- Salesforce Devops</title>
+      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Technical-Architect--Salesforce-Devops_JR365354</link>
+      <guid isPermaLink="false">2d0918a8ffee983d</guid>
+      <description>India - Bangalore +1 more · mid_level · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Senior AI Infrastructure Engineer - EDA Infrastructure</title>
@@ -28418,12 +28381,6 @@
       <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering---AgentExchange-Buyer-Experience---LMTS_JR368156</link>
       <guid isPermaLink="false">a5ab4b2c0c06259e</guid>
       <description>California - San Francisco +1 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>Salesforce — Technical Architect- Salesforce Devops</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Technical-Architect--Salesforce-Devops_JR365354</link>
-      <guid isPermaLink="false">2d0918a8ffee983d</guid>
-      <description>India - Bangalore +1 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Unity — Développeuse ou développeur logiciel backend, Live Content / Backend Software Developer, Live Content</title>
@@ -28672,12 +28629,6 @@
       <description>2 Locations · other · 4d</description>
     </item>
     <item>
-      <title>NVIDIA — Senior Linux Systems Engineer - EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019</link>
-      <guid isPermaLink="false">e1026859489732b4</guid>
-      <description>US, CA, Remote · mid_level · 4d</description>
-    </item>
-    <item>
       <title>NVIDIA — Senior Storage Software Engineer - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer---DGX-Cloud_JR2026042</link>
       <guid isPermaLink="false">77144393e5b940c6</guid>
@@ -28802,12 +28753,6 @@
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Yerevan/Engineering-Manager--Site-Reliability---Developer-Experience_R173423-1</link>
       <guid isPermaLink="false">dfbaab6d9902fc52</guid>
       <description>Yerevan · mid_level · 6d</description>
-    </item>
-    <item>
-      <title>Mastercard — Senior Software Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/London-England-Angel-Lane/Senior-Software-Engineer_R-292850</link>
-      <guid isPermaLink="false">b4b98bc58b47ecb5</guid>
-      <description>London, England (Angel Lane) · mid_level · 6d</description>
     </item>
     <item>
       <title>Unity — Développeuse ou développeur SDK sénior, Monétisation / Senior SDK Developer, Monetization</title>

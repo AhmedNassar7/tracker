@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-11-15T09:22:44Z",
-  "total": 3653,
+  "generated_at": "2026-11-15T17:08:03Z",
+  "total": 3645,
   "jobs": [
+    {
+      "id": "0b614f71571b1f4d",
+      "kind": "job",
+      "company": "NVIDIA",
+      "title": "Senior QA Engineer, System Product Engineering",
+      "location": "Israel, Yokneam",
+      "level": "mid_level",
+      "region": "mena",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-QA-Engineer--System-Product-Engineering_JR2008526",
+      "source": "workday:nvidia",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
     {
       "id": "df3453bdebd357e2",
       "kind": "job",
@@ -16,6 +31,211 @@
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Infrastructure_JR2028826",
       "source": "workday:nvidia",
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "id": "5950726e44ce6fc3",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Engineering Manager, Knowledge Graph Platform",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-11-15",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8256326",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "degree_required": false,
+      "salary": {
+        "min": 217000,
+        "max": 303900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "10637ebcdaefe376",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Frontend Engineer, Ads",
+      "location": "Remote - United States",
+      "level": "other",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-11-15",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "gRPC",
+        "Kubernetes",
+        "Docker"
+      ],
+      "min_years_experience": 3,
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "239e9d023b99fc23",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Frontend Engineer, Ads Campaign Manager",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-11-15",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8240716",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "salary": {
+        "min": 164200,
+        "max": 229900,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "f03ebb6c3a5bd0da",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Frontend Engineer, Ads Creative",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-11-15",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "ae63e62a90867717",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Frontend Engineer, Ads Formats",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "frontend",
+      "date": "0d",
+      "posted_at": "2026-11-15",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8287466",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "6ba729ce5ab63e69",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Software Engineer, Agentic Ads Experience",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-11-15",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "Go",
+        "Rust"
+      ],
+      "min_years_experience": 5,
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "99bb0f25a946ff56",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Senior Staff Applied Scientist, Science Platform",
+      "location": "Remote - United States",
+      "level": "mid_level",
+      "region": "remote",
+      "role_type": "platform",
+      "date": "0d",
+      "posted_at": "2026-11-15",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8282748",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "SQL"
+      ],
+      "salary": {
+        "min": 232500,
+        "max": 325500,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "0c516bcbe90c5f1d",
+      "kind": "job",
+      "company": "Reddit",
+      "title": "Software Engineer, Ad Signals",
+      "location": "Remote - United States",
+      "level": "other",
+      "region": "remote",
+      "role_type": "software_engineer",
+      "date": "0d",
+      "posted_at": "2026-11-15",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8319655",
+      "source": "greenhouse:reddit",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
+      "tech_tags": [
+        "SQL"
+      ],
+      "salary": {
+        "min": 190800,
+        "max": 267100,
+        "currency": "USD",
+        "period": "year"
+      }
     },
     {
       "id": "878d4c84133197a9",
@@ -3387,6 +3607,21 @@
       "source": "workable:robusta",
       "source_url": "https://apply.workable.com/api/v1/widget/accounts/robusta?details=true",
       "min_years_experience": 2
+    },
+    {
+      "id": "2d0918a8ffee983d",
+      "kind": "job",
+      "company": "Salesforce",
+      "title": "Technical Architect- Salesforce Devops",
+      "location": "<details><summary><strong>2 locations</strong></summary>India - Bangalore<br>India - Hyderabad</details>",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "infrastructure",
+      "date": "0d",
+      "posted_at": "",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Technical-Architect--Salesforce-Devops_JR365354",
+      "source": "workday:salesforce",
+      "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
     },
     {
       "id": "4d92226e41cae2ac",
@@ -10069,32 +10304,6 @@
       }
     },
     {
-      "id": "20d89117016c3b11",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Principal Software Engineer",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Python",
-        "Java",
-        "GraphQL",
-        "Terraform",
-        "AWS"
-      ],
-      "min_years_experience": 6
-    },
-    {
       "id": "cb9266ad97c9c850",
       "kind": "job",
       "company": "Okta",
@@ -10146,6 +10355,32 @@
         "Redis",
         "Elasticsearch"
       ]
+    },
+    {
+      "id": "20d89117016c3b11",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Principal Software Engineer",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "Java",
+        "GraphQL",
+        "Terraform",
+        "AWS"
+      ],
+      "min_years_experience": 6
     },
     {
       "id": "044ebff4df5bf795",
@@ -10373,6 +10608,29 @@
       }
     },
     {
+      "id": "eaa331d33176368b",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Senior Site Reliability Engineer",
+      "location": "Dublin, Ireland",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "infrastructure",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8184826?gh_jid=8184826",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "min_years_experience": 5
+    },
+    {
       "id": "6da5ca6a48d38cdf",
       "kind": "job",
       "company": "Okta",
@@ -10388,29 +10646,6 @@
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "tech_tags": [
         "Python",
-        "Kubernetes",
-        "Terraform",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "min_years_experience": 5
-    },
-    {
-      "id": "eaa331d33176368b",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Senior Site Reliability Engineer",
-      "location": "Dublin, Ireland",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "infrastructure",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8184826?gh_jid=8184826",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
         "Kubernetes",
         "Terraform",
         "AWS",
@@ -10557,77 +10792,6 @@
       ]
     },
     {
-      "id": "c9d6280c915f6dc9",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Senior Software Engineer",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "TypeScript",
-        "JavaScript",
-        "Python"
-      ],
-      "min_years_experience": 4
-    },
-    {
-      "id": "2b6544e7f3a7ca2b",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Senior Software Engineer",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "Kubernetes",
-        "Terraform",
-        "AWS",
-        "Azure",
-        "PostgreSQL",
-        "MongoDB",
-        "Redis"
-      ]
-    },
-    {
-      "id": "b6e714d462e21604",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Senior Software Engineer",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Python",
-        "Java",
-        "Go",
-        "Kubernetes",
-        "Docker",
-        "AWS"
-      ],
-      "min_years_experience": 3
-    },
-    {
       "id": "f45fa3630c2800f8",
       "kind": "job",
       "company": "Okta",
@@ -10657,6 +10821,77 @@
         "currency": "USD",
         "period": "year"
       }
+    },
+    {
+      "id": "c9d6280c915f6dc9",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Senior Software Engineer",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "TypeScript",
+        "JavaScript",
+        "Python"
+      ],
+      "min_years_experience": 4
+    },
+    {
+      "id": "b6e714d462e21604",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Senior Software Engineer",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "Go",
+        "Kubernetes",
+        "Docker",
+        "AWS"
+      ],
+      "min_years_experience": 3
+    },
+    {
+      "id": "2b6544e7f3a7ca2b",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Senior Software Engineer",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+      ]
     },
     {
       "id": "1534fe4767621b53",
@@ -11888,7 +12123,7 @@
       ]
     },
     {
-      "id": "9fb3bf08ae74c812",
+      "id": "a199083283ee3d53",
       "kind": "job",
       "company": "Okta",
       "title": "Staff FullStack Engineer, Secures AI",
@@ -11898,7 +12133,7 @@
       "role_type": "full_stack",
       "date": "2d",
       "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8120329?gh_jid=8120329",
+      "url": "https://www.okta.com/company/careers/opportunity/8314936?gh_jid=8314936",
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "tech_tags": [
@@ -11915,7 +12150,7 @@
       }
     },
     {
-      "id": "a199083283ee3d53",
+      "id": "9fb3bf08ae74c812",
       "kind": "job",
       "company": "Okta",
       "title": "Staff FullStack Engineer, Secures AI",
@@ -11925,7 +12160,7 @@
       "role_type": "full_stack",
       "date": "2d",
       "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8314936?gh_jid=8314936",
+      "url": "https://www.okta.com/company/careers/opportunity/8120329?gh_jid=8120329",
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "tech_tags": [
@@ -12109,36 +12344,6 @@
       }
     },
     {
-      "id": "878d5ed19162e01f",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8243997?gh_jid=8243997",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Kotlin",
-        "Go",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "min_years_experience": 8,
-      "salary": {
-        "min": 194000,
-        "max": 267000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
       "id": "eb5acd91786c5490",
       "kind": "job",
       "company": "Okta",
@@ -12160,109 +12365,6 @@
         "GCP"
       ],
       "min_years_experience": 2
-    },
-    {
-      "id": "0fb138624cf03c93",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "Toronto, Ontario, Canada",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Kotlin",
-        "Go",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "min_years_experience": 8,
-      "salary": {
-        "min": 160000,
-        "max": 220000,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "1efca24879682190",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "C#"
-      ],
-      "min_years_experience": 5
-    },
-    {
-      "id": "afbb3c9392629c3e",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Node.js",
-        "Python",
-        "Java",
-        "C++"
-      ],
-      "min_years_experience": 7
-    },
-    {
-      "id": "7979c3539806a4c7",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "San Francisco, California",
-      "level": "mid_level",
-      "region": "north_america",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "Java",
-        "Kotlin",
-        "Go",
-        "AWS",
-        "GCP",
-        "Azure"
-      ],
-      "min_years_experience": 8,
-      "salary": {
-        "min": 194000,
-        "max": 267000,
-        "currency": "USD",
-        "period": "year"
-      }
     },
     {
       "id": "3969c47da8185a2e",
@@ -12312,7 +12414,67 @@
       ]
     },
     {
-      "id": "3373cca001b43183",
+      "id": "0fb138624cf03c93",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "Toronto, Ontario, Canada",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8243158?gh_jid=8243158",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Kotlin",
+        "Go",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "min_years_experience": 8,
+      "salary": {
+        "min": 160000,
+        "max": 220000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "7979c3539806a4c7",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8243124?gh_jid=8243124",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Kotlin",
+        "Go",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "min_years_experience": 8,
+      "salary": {
+        "min": 194000,
+        "max": 267000,
+        "currency": "USD",
+        "period": "year"
+      }
+    },
+    {
+      "id": "afbb3c9392629c3e",
       "kind": "job",
       "company": "Okta",
       "title": "Staff Software Engineer",
@@ -12322,7 +12484,30 @@
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8220655?gh_jid=8220655",
+      "url": "https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Node.js",
+        "Python",
+        "Java",
+        "C++"
+      ],
+      "min_years_experience": 7
+    },
+    {
+      "id": "1efca24879682190",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634",
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "tech_tags": [
@@ -12330,6 +12515,36 @@
         "C#"
       ],
       "min_years_experience": 5
+    },
+    {
+      "id": "878d5ed19162e01f",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "San Francisco, California",
+      "level": "mid_level",
+      "region": "north_america",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8243997?gh_jid=8243997",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "Java",
+        "Kotlin",
+        "Go",
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "min_years_experience": 8,
+      "salary": {
+        "min": 194000,
+        "max": 267000,
+        "currency": "USD",
+        "period": "year"
+      }
     },
     {
       "id": "989b7ab2d0af515b",
@@ -12359,27 +12574,7 @@
       "min_years_experience": 9
     },
     {
-      "id": "2068ff8f2fccaae5",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Staff Software Engineer",
-      "location": "Tel Aviv, Israel",
-      "level": "mid_level",
-      "region": "mena",
-      "role_type": "software_engineer",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "AWS"
-      ],
-      "min_years_experience": 4
-    },
-    {
-      "id": "4af8be122af99e3f",
+      "id": "3373cca001b43183",
       "kind": "job",
       "company": "Okta",
       "title": "Staff Software Engineer",
@@ -12389,13 +12584,10 @@
       "role_type": "software_engineer",
       "date": "2d",
       "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8071502?gh_jid=8071502",
+      "url": "https://www.okta.com/company/careers/opportunity/8220655?gh_jid=8220655",
       "source": "greenhouse:okta",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript",
         "Java",
         "C#"
       ],
@@ -12428,6 +12620,49 @@
         "MongoDB"
       ],
       "min_years_experience": 5
+    },
+    {
+      "id": "4af8be122af99e3f",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8071502?gh_jid=8071502",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Java",
+        "C#"
+      ],
+      "min_years_experience": 5
+    },
+    {
+      "id": "2068ff8f2fccaae5",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Staff Software Engineer",
+      "location": "Tel Aviv, Israel",
+      "level": "mid_level",
+      "region": "mena",
+      "role_type": "software_engineer",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "Python",
+        "AWS"
+      ],
+      "min_years_experience": 4
     },
     {
       "id": "1f52f58d1bbc5f5e",
@@ -12577,29 +12812,6 @@
       "min_years_experience": 6
     },
     {
-      "id": "2ffb6cc6730a477d",
-      "kind": "job",
-      "company": "Okta",
-      "title": "Staff Software Engineer - Full Stack",
-      "location": "Bengaluru, India",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "full_stack",
-      "date": "2d",
-      "posted_at": "2026-11-13",
-      "url": "https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301",
-      "source": "greenhouse:okta",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "Node.js",
-        "TypeScript",
-        "AWS"
-      ],
-      "degree_required": false,
-      "min_years_experience": 6
-    },
-    {
       "id": "45c660725ad6be5e",
       "kind": "job",
       "company": "Okta",
@@ -12624,6 +12836,29 @@
       ],
       "degree_required": false,
       "min_years_experience": 8
+    },
+    {
+      "id": "2ffb6cc6730a477d",
+      "kind": "job",
+      "company": "Okta",
+      "title": "Staff Software Engineer - Full Stack",
+      "location": "Bengaluru, India",
+      "level": "mid_level",
+      "region": "apac",
+      "role_type": "full_stack",
+      "date": "2d",
+      "posted_at": "2026-11-13",
+      "url": "https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301",
+      "source": "greenhouse:okta",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
+      "tech_tags": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "AWS"
+      ],
+      "degree_required": false,
+      "min_years_experience": 6
     },
     {
       "id": "b81e92636cf38eff",
@@ -13580,21 +13815,6 @@
       "date": "2d",
       "posted_at": "",
       "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering---AgentExchange-Buyer-Experience---LMTS_JR368156",
-      "source": "workday:salesforce",
-      "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
-    },
-    {
-      "id": "2d0918a8ffee983d",
-      "kind": "job",
-      "company": "Salesforce",
-      "title": "Technical Architect- Salesforce Devops",
-      "location": "<details><summary><strong>2 locations</strong></summary>India - Bangalore<br>India - Hyderabad</details>",
-      "level": "mid_level",
-      "region": "apac",
-      "role_type": "infrastructure",
-      "date": "2d",
-      "posted_at": "",
-      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Technical-Architect--Salesforce-Devops_JR365354",
       "source": "workday:salesforce",
       "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
     },
@@ -28083,21 +28303,6 @@
       "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
-      "id": "e1026859489732b4",
-      "kind": "job",
-      "company": "NVIDIA",
-      "title": "Senior Linux Systems Engineer - EDA Infrastructure",
-      "location": "US, CA, Remote",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "infrastructure",
-      "date": "4d",
-      "posted_at": "",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019",
-      "source": "workday:nvidia",
-      "source_url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
-    },
-    {
       "id": "77144393e5b940c6",
       "kind": "job",
       "company": "NVIDIA",
@@ -33078,21 +33283,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs"
     },
     {
-      "id": "b4b98bc58b47ecb5",
-      "kind": "job",
-      "company": "Mastercard",
-      "title": "Senior Software Engineer",
-      "location": "London, England (Angel Lane)",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "software_engineer",
-      "date": "6d",
-      "posted_at": "",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/London-England-Angel-Lane/Senior-Software-Engineer_R-292850",
-      "source": "workday:mastercard",
-      "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs"
-    },
-    {
       "id": "abfee8f8b3ea72d8",
       "kind": "job",
       "company": "Mercor",
@@ -35131,211 +35321,6 @@
       "salary": {
         "min": 129022,
         "max": 174283,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "5950726e44ce6fc3",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Engineering Manager, Knowledge Graph Platform",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "platform",
-      "date": "9d",
-      "posted_at": "2026-11-06",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8256326",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "degree_required": false,
-      "salary": {
-        "min": 217000,
-        "max": 303900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "10637ebcdaefe376",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Frontend Engineer, Ads",
-      "location": "Remote - United States",
-      "level": "other",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "9d",
-      "posted_at": "2026-11-06",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "gRPC",
-        "Kubernetes",
-        "Docker"
-      ],
-      "min_years_experience": 3,
-      "salary": {
-        "min": 164200,
-        "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "239e9d023b99fc23",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Frontend Engineer, Ads Campaign Manager",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "9d",
-      "posted_at": "2026-11-06",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8240716",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "salary": {
-        "min": 164200,
-        "max": 229900,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "f03ebb6c3a5bd0da",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Frontend Engineer, Ads Creative",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "9d",
-      "posted_at": "2026-11-06",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8175520",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "ae63e62a90867717",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Frontend Engineer, Ads Formats",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "frontend",
-      "date": "9d",
-      "posted_at": "2026-11-06",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8287466",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "React",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "6ba729ce5ab63e69",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Software Engineer, Agentic Ads Experience",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "9d",
-      "posted_at": "2026-11-06",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "JavaScript",
-        "Python",
-        "Java",
-        "Go",
-        "Rust"
-      ],
-      "min_years_experience": 5,
-      "salary": {
-        "min": 190800,
-        "max": 267100,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "99bb0f25a946ff56",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Senior Staff Applied Scientist, Science Platform",
-      "location": "Remote - United States",
-      "level": "mid_level",
-      "region": "remote",
-      "role_type": "platform",
-      "date": "9d",
-      "posted_at": "2026-11-06",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8282748",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "SQL"
-      ],
-      "salary": {
-        "min": 232500,
-        "max": 325500,
-        "currency": "USD",
-        "period": "year"
-      }
-    },
-    {
-      "id": "0c516bcbe90c5f1d",
-      "kind": "job",
-      "company": "Reddit",
-      "title": "Software Engineer, Ad Signals",
-      "location": "Remote - United States",
-      "level": "other",
-      "region": "remote",
-      "role_type": "software_engineer",
-      "date": "9d",
-      "posted_at": "2026-11-06",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/8319655",
-      "source": "greenhouse:reddit",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
-      "tech_tags": [
-        "SQL"
-      ],
-      "salary": {
-        "min": 190800,
-        "max": 267100,
         "currency": "USD",
         "period": "year"
       }
@@ -39462,27 +39447,6 @@
       ]
     },
     {
-      "id": "08ef15c78c1feb1b",
-      "kind": "job",
-      "company": "SumUp",
-      "title": "Senior Backend Engineer - Run & Grow",
-      "location": "Berlin, Germany",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "11d",
-      "posted_at": "2026-11-04",
-      "url": "https://sumup.com/careers/positions/8842256002?gh_jid=8842256002",
-      "source": "greenhouse:sumup",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
-      "tech_tags": [
-        "Go",
-        "PostgreSQL",
-        "Kafka"
-      ],
-      "relocation": true
-    },
-    {
       "id": "6b49240809a5a800",
       "kind": "job",
       "company": "SumUp",
@@ -39494,6 +39458,27 @@
       "date": "11d",
       "posted_at": "2026-11-04",
       "url": "https://sumup.com/careers/positions/8842258002?gh_jid=8842258002",
+      "source": "greenhouse:sumup",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
+      "tech_tags": [
+        "Go",
+        "PostgreSQL",
+        "Kafka"
+      ],
+      "relocation": true
+    },
+    {
+      "id": "08ef15c78c1feb1b",
+      "kind": "job",
+      "company": "SumUp",
+      "title": "Senior Backend Engineer - Run & Grow",
+      "location": "Berlin, Germany",
+      "level": "mid_level",
+      "region": "europe",
+      "role_type": "backend",
+      "date": "11d",
+      "posted_at": "2026-11-04",
+      "url": "https://sumup.com/careers/positions/8842256002?gh_jid=8842256002",
       "source": "greenhouse:sumup",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
       "tech_tags": [
@@ -56161,52 +56146,6 @@
       "min_years_experience": 3
     },
     {
-      "id": "94ec872e61ebe434",
-      "kind": "job",
-      "company": "SumUp",
-      "title": "Backend Engineer - Merchant Risk Intelligence",
-      "location": "Vilnius, Lithuania",
-      "level": "other",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "37d",
-      "posted_at": "2026-10-09",
-      "url": "https://sumup.com/careers/positions/8745286002?gh_jid=8745286002",
-      "source": "greenhouse:sumup",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "Go",
-        "C++",
-        "Kubernetes",
-        "Kafka"
-      ]
-    },
-    {
-      "id": "bef39a173a62a3ae",
-      "kind": "job",
-      "company": "SumUp",
-      "title": "Backend Engineer - Merchant Risk Intelligence",
-      "location": "Sofia, Bulgaria",
-      "level": "other",
-      "region": "europe",
-      "role_type": "backend",
-      "date": "37d",
-      "posted_at": "2026-10-09",
-      "url": "https://sumup.com/careers/positions/8645259002?gh_jid=8645259002",
-      "source": "greenhouse:sumup",
-      "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
-      "tech_tags": [
-        "Python",
-        "Java",
-        "Go",
-        "C++",
-        "Kubernetes",
-        "Kafka"
-      ]
-    },
-    {
       "id": "830750bc39cac5f3",
       "kind": "job",
       "company": "Swile",
@@ -67847,23 +67786,6 @@
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai"
     },
     {
-      "id": "0f9a36d7456b4a07",
-      "kind": "job",
-      "company": "Photoroom",
-      "title": "Head of GenAI Platform",
-      "location": "Paris",
-      "level": "mid_level",
-      "region": "europe",
-      "role_type": "platform",
-      "date": "126d",
-      "posted_at": "2026-07-12",
-      "url": "https://jobs.ashbyhq.com/photoroom/085eaa32-44fe-4928-8826-b48873823bfd",
-      "source": "ashby:photoroom",
-      "source_url": "https://api.ashbyhq.com/posting-api/job-board/photoroom",
-      "visa_sponsorship": true,
-      "relocation": true
-    },
-    {
       "id": "258b3d716ff1a0e1",
       "kind": "job",
       "company": "ClickHouse",
@@ -76718,110 +76640,14 @@
       "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
-      "id": "86f258ac6cb96522",
+      "id": "987230f6355424f6",
       "kind": "hackathon",
-      "company": "DurHack",
-      "title": "DurHack 2026",
-      "location": "Teaching and Learning Centre",
-      "date": "about 2 hours left",
+      "company": "MadHacks Team",
+      "title": "MadHacks 2026",
+      "location": "Morgridge Hall",
+      "date": "about 1 hour left",
       "posted_at": "2026-11-15",
-      "url": "https://durhack-26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "787031f9b1441564",
-      "kind": "hackathon",
-      "company": "Imperial AI Society",
-      "title": "Imperial AI Hackathon",
-      "location": "Online",
-      "date": "about 3 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://imperial-ai-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "2102030a6b854418",
-      "kind": "hackathon",
-      "company": "Princeton University",
-      "title": "HackPrinceton Fall '26",
-      "location": "JRR, LAS, Robertson, Friend",
-      "date": "about 4 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://hackprinceton-fall-26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "6c88a49070daeb47",
-      "kind": "hackathon",
-      "company": "PROJECT Emory",
-      "title": "Emory Hacks 2026",
-      "location": "Emory Univ. - Goizueta Business School",
-      "date": "about 4 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://emory-hacks-202.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "4ee359153dac4831",
-      "kind": "hackathon",
-      "company": "Georgia Tech Student Government",
-      "title": "Georgia Tech SGA x CoLL - Campus Solutions Challenge 2026",
-      "location": "Georgia Tech - Global Learning Center",
-      "date": "about 5 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://gt-campus-solutions-f26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "736feb168177a695",
-      "kind": "hackathon",
-      "company": "HackUMass",
-      "title": "HackUMass XIV",
-      "location": "Integrative Learning Center",
-      "date": "about 5 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://hackumass-xiv.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "a081f9538659416e",
-      "kind": "hackathon",
-      "company": "IBM",
-      "title": "USCxIBM Qiskit Fall Fest 2026",
-      "location": "Darla Moore School of Business, USC",
-      "date": "about 5 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://uscibm-qff26.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "16a5529d68b1c48a",
-      "kind": "hackathon",
-      "company": "kearney",
-      "title": "Kearney PERLab x Velocity AI Hackathon",
-      "location": "Online",
-      "date": "about 5 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://kearney-x-velocity-ai.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "ee50e9cc3e2642e4",
-      "kind": "hackathon",
-      "company": "Design at UT",
-      "title": "2026 DESIGN at UT Design-A-Thon: Panopticon",
-      "location": "Austin, TX, USA",
-      "date": "about 7 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://design-at-ut-designathon-2026.devpost.com/",
+      "url": "https://madhacks-fall-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76831,57 +76657,9 @@
       "company": "SFU Data Science Student Society",
       "title": "DataJam 2026",
       "location": "Online",
-      "date": "about 7 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-11-15",
       "url": "https://datajam-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "d9e026fb016a76ff",
-      "kind": "hackathon",
-      "company": "Software Engineering Club (DEV)",
-      "title": "DevHacks",
-      "location": "The Ohio State University",
-      "date": "about 7 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://devhacks2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "8b4dea941e4d1577",
-      "kind": "hackathon",
-      "company": "Engage Group",
-      "title": "Engage Test",
-      "location": "Dubai",
-      "date": "about 8 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://engage-test.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "17c6f3a16686a271",
-      "kind": "hackathon",
-      "company": "Google Developer Group on Campus at EMU",
-      "title": "Hack The Nest",
-      "location": "EMU Student Center and Halle Library",
-      "date": "about 8 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://hack-the-nest.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "987230f6355424f6",
-      "kind": "hackathon",
-      "company": "MadHacks Team",
-      "title": "MadHacks 2026",
-      "location": "Morgridge Hall",
-      "date": "about 9 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://madhacks-fall-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76891,7 +76669,7 @@
       "company": "sunhacks",
       "title": "sunhacks 2026",
       "location": "ASU Tempe Campus - Student Pavilion",
-      "date": "about 9 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-11-15",
       "url": "https://sunhacks-2026.devpost.com/",
       "source": "devpost",
@@ -76903,7 +76681,7 @@
       "company": "university of texas at arlington",
       "title": "HackUTA '26",
       "location": "University of Texas at Arlington",
-      "date": "about 9 hours left",
+      "date": "about 1 hour left",
       "posted_at": "2026-11-15",
       "url": "https://hackuta-8.devpost.com/",
       "source": "devpost",
@@ -76915,7 +76693,7 @@
       "company": "Google Developer Groups on Campus UCSC",
       "title": "DevFest Hackathon 2026",
       "location": "Online",
-      "date": "about 10 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-11-15",
       "url": "https://ucsc-devfest2026.devpost.com/",
       "source": "devpost",
@@ -76927,9 +76705,33 @@
       "company": "HackSC",
       "title": "AI@USC",
       "location": "Ginsburg Hall, USC",
-      "date": "about 10 hours left",
+      "date": "about 2 hours left",
       "posted_at": "2026-11-15",
       "url": "https://ai-usc.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "fa31f981b250073c",
+      "kind": "hackathon",
+      "company": "GTransformer Foundation",
+      "title": "GTransformer AI Buildathon 2026 — AI for Global Good",
+      "location": "Milpitas, Bay Area + Online",
+      "date": "about 3 hours left",
+      "posted_at": "2026-11-15",
+      "url": "https://gtransformer-buildathon-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "c18c8e0453394087",
+      "kind": "hackathon",
+      "company": "CSES @ UCSD",
+      "title": "SanD Hacks",
+      "location": "Qualcomm Conference Room",
+      "date": "about 4 hours left",
+      "posted_at": "2026-11-15",
+      "url": "https://sand-hacks-26.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76939,33 +76741,9 @@
       "company": "Stanford XR",
       "title": "Immerse the Bay 2026",
       "location": "Stanford University",
-      "date": "about 14 hours left",
+      "date": "about 6 hours left",
       "posted_at": "2026-11-15",
       "url": "https://immerse-the-bay-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "ca16204e5f89540e",
-      "kind": "hackathon",
-      "company": "n8n",
-      "title": "UBC eProjects x n8n LOOP Hackathon",
-      "location": "University of British Columbia",
-      "date": "about 19 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://loop.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "af00388708e689ba",
-      "kind": "hackathon",
-      "company": "Polyfinances",
-      "title": "Datathon PolyFinances BNC x AWS",
-      "location": "Polytechnique Montréal",
-      "date": "about 20 hours left",
-      "posted_at": "2026-11-15",
-      "url": "https://datathon-polyfinances-bnc-aws.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76975,9 +76753,69 @@
       "company": "Opportunity Hack",
       "title": "Opportunity Hack 2026 | ASU Fall Hackathon 2026 | Tempe Arizona - Nov 14-15",
       "location": "ASU Engineering Center G Wing",
-      "date": "about 21 hours left",
+      "date": "about 7 hours left",
       "posted_at": "2026-11-15",
       "url": "https://opportunity-hack-2026-arizona.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "ca16204e5f89540e",
+      "kind": "hackathon",
+      "company": "n8n",
+      "title": "UBC eProjects x n8n LOOP Hackathon",
+      "location": "University of British Columbia",
+      "date": "about 11 hours left",
+      "posted_at": "2026-11-15",
+      "url": "https://loop.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "438e8544712de411",
+      "kind": "hackathon",
+      "company": "Hack Club",
+      "title": "Haven Las Vegas",
+      "location": "Pololu Corporation",
+      "date": "about 12 hours left",
+      "posted_at": "2026-11-15",
+      "url": "https://haven-las-vegas.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "af00388708e689ba",
+      "kind": "hackathon",
+      "company": "Polyfinances",
+      "title": "Datathon PolyFinances BNC x AWS",
+      "location": "Polytechnique Montréal",
+      "date": "about 12 hours left",
+      "posted_at": "2026-11-15",
+      "url": "https://datathon-polyfinances-bnc-aws.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "889fd7cdf08624f6",
+      "kind": "hackathon",
+      "company": "UGREEN",
+      "title": "UGREEN Hackathon 2026 on AI NAS",
+      "location": "Online",
+      "date": "about 15 hours left",
+      "posted_at": "2026-11-15",
+      "url": "https://ugreenhackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "f122b1b772fce717",
+      "kind": "hackathon",
+      "company": "AI Collective",
+      "title": "The Next Frontier 2026: A Space Innovation Hackathon",
+      "location": "ECPI Virginia Beach Campus",
+      "date": "1 day left",
+      "posted_at": "2026-11-15",
+      "url": "https://aichr-space.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -76994,6 +76832,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "067b094c4088439a",
+      "kind": "hackathon",
+      "company": "PRODUCT@TAMU",
+      "title": "Fall 2026 Projects",
+      "location": "Online",
+      "date": "1 day left",
+      "posted_at": "2026-11-15",
+      "url": "https://fall-2026-projects.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "a5ac34b80e48e63d",
       "kind": "hackathon",
       "company": "Workelate",
@@ -77004,6 +76854,18 @@
       "url": "https://unstop.com/hackathons/buildsprint-workelate-1794884",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "c4d41b39d589cdf3",
+      "kind": "hackathon",
+      "company": "HackathonForEveryone",
+      "title": "Green Shift Hacks",
+      "location": "Online",
+      "date": "2 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://green-shift-hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "a129b8840c019a89",
@@ -77018,14 +76880,14 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "067b094c4088439a",
+      "id": "bca51a81f75bc19c",
       "kind": "hackathon",
-      "company": "PRODUCT@TAMU",
-      "title": "Fall 2026 Projects",
+      "company": "Programming and Coders Club",
+      "title": "CRC Hacks",
       "location": "Online",
       "date": "2 days left",
       "posted_at": "2026-11-15",
-      "url": "https://fall-2026-projects.devpost.com/",
+      "url": "https://crc-student-hackathon.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77042,26 +76904,50 @@
       "source_url": "https://www.hackerearth.com/challenges/"
     },
     {
-      "id": "bca51a81f75bc19c",
-      "kind": "hackathon",
-      "company": "Programming and Coders Club",
-      "title": "CRC Hacks",
-      "location": "Online",
-      "date": "3 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://crc-student-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "ac5ac6d9f500678e",
       "kind": "hackathon",
       "company": "Acharya Institute of Technology",
       "title": "Competitive Programming",
       "location": "Offline",
-      "date": "5 days left",
+      "date": "4 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/competitive-programming-acharya-institute-of-technology-1771951",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "2ce5a875eff079b4",
+      "kind": "hackathon",
+      "company": "Girls Who Code UCF",
+      "title": "GWC Projects Program Fall 2026",
+      "location": "Online",
+      "date": "4 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://projects-program-fall-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "d760e011a67f0bb6",
+      "kind": "hackathon",
+      "company": "AccessEDnpo",
+      "title": "AccessED Hacks",
+      "location": "Online",
+      "date": "5 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://accessed-hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "a2ab26fa6c45b45f",
+      "kind": "hackathon",
+      "company": "College Of Engineering And Management,Kolaghat",
+      "title": "Inter-College Coding Competition 2026 | Java & Python",
+      "location": "Offline",
+      "date": "5 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://unstop.com/hackathons/inter-college-coding-competition-2026-college-of-engineering-and-managementkolaghat-1801814",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
     },
@@ -77078,6 +76964,30 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "23c113f291420c9f",
+      "kind": "hackathon",
+      "company": "Dakar Bitcoin Days",
+      "title": "Dakar Bitcoin Hack by BTrust",
+      "location": "Online",
+      "date": "5 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "454b57e48a2e28c5",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "GeNarrative Clash",
+      "location": "Kolkata, India",
+      "date": "5 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://genarrative-clash.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "e4e1713169e5c098",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -77088,18 +76998,6 @@
       "url": "https://the-big-hack-2.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "2ce5a875eff079b4",
-      "kind": "hackathon",
-      "company": "Girls Who Code UCF",
-      "title": "GWC Projects Program Fall 2026",
-      "location": "Online",
-      "date": "5 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://projects-program-fall-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "7f889dc34b91cb9b",
@@ -77126,26 +77024,14 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "a2ab26fa6c45b45f",
-      "kind": "hackathon",
-      "company": "College Of Engineering And Management,Kolaghat",
-      "title": "Inter-College Coding Competition 2026 | Java & Python",
-      "location": "Offline",
-      "date": "6 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://unstop.com/hackathons/inter-college-coding-competition-2026-college-of-engineering-and-managementkolaghat-1801814",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "454b57e48a2e28c5",
+      "id": "b8075437fa20e350",
       "kind": "hackathon",
       "company": "Devfolio",
-      "title": "GeNarrative Clash",
-      "location": "Kolkata, India",
+      "title": "Lean In Hacks 8.0",
+      "location": "Various",
       "date": "6 days left",
       "posted_at": "2026-11-15",
-      "url": "https://genarrative-clash.devfolio.co",
+      "url": "https://lean-in-hacks-8.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -77162,6 +77048,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "809ccf7819417013",
+      "kind": "hackathon",
+      "company": "STEM2Connect",
+      "title": "STEM2Connect AI Hackathon",
+      "location": "Online",
+      "date": "6 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://stem2connect-online-hackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "75d3f9be9714fb21",
       "kind": "hackathon",
       "company": "The National Institute of Engineering, Karnataka",
@@ -77174,16 +77072,28 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "b8075437fa20e350",
+      "id": "62c79b6fa25fb311",
       "kind": "hackathon",
       "company": "Devfolio",
-      "title": "Lean In Hacks 8.0",
-      "location": "Various",
+      "title": "Code N Mod",
+      "location": "Tumakur, India",
       "date": "7 days left",
       "posted_at": "2026-11-15",
-      "url": "https://lean-in-hacks-8.devfolio.co",
+      "url": "https://codenmod.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "7ceb6f2298c919d2",
+      "kind": "hackathon",
+      "company": "Dr. Ambedkar Institute of Technology for Divyangjan",
+      "title": "PromptWars X AITH Kanpur",
+      "location": "Offline",
+      "date": "7 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://unstop.com/hackathons/promptwars-x-aith-dr-ambedkar-institute-of-technology-for-divyangjan-1807596",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "aeb6fbcf36344f65",
@@ -77198,6 +77108,30 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
+      "id": "ccdda165b7f15995",
+      "kind": "hackathon",
+      "company": "Motilal Nehru National Institute of Technology",
+      "title": "Expanding Horizons 8.0 Chemical",
+      "location": "Online",
+      "date": "7 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://unstop.com/hackathons/expanding-horizons-80-chemical-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799791",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "11a58c6cfa7cddb1",
+      "kind": "hackathon",
+      "company": "SafeSpace",
+      "title": "SafeSpace Hacks",
+      "location": "Online",
+      "date": "7 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://safespace-hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "f9abe912766d0ea2",
       "kind": "hackathon",
       "company": "Writers Haven",
@@ -77210,18 +77144,6 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "62c79b6fa25fb311",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Code N Mod",
-      "location": "Tumakur, India",
-      "date": "8 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://codenmod.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "903d171b7d785d9c",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -77232,30 +77154,6 @@
       "url": "https://hackasol-iiit-nr-2026.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "7ceb6f2298c919d2",
-      "kind": "hackathon",
-      "company": "Dr. Ambedkar Institute of Technology for Divyangjan",
-      "title": "PromptWars X AITH Kanpur",
-      "location": "Offline",
-      "date": "8 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://unstop.com/hackathons/promptwars-x-aith-dr-ambedkar-institute-of-technology-for-divyangjan-1807596",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "ccdda165b7f15995",
-      "kind": "hackathon",
-      "company": "Motilal Nehru National Institute of Technology",
-      "title": "Expanding Horizons 8.0 Chemical",
-      "location": "Online",
-      "date": "8 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://unstop.com/hackathons/expanding-horizons-80-chemical-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799791",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "c973737155992c3c",
@@ -77280,6 +77178,18 @@
       "url": "https://founders-house-kolkata.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "354f3db0f497f59a",
+      "kind": "hackathon",
+      "company": "HackathonForEveryone",
+      "title": "Taskforge",
+      "location": "Online",
+      "date": "10 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://taskforge.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "99e81a5c787dcc1e",
@@ -77311,11 +77221,23 @@
       "company": "Quik CPQ Solutions LLP",
       "title": "QuikCPQ AI Innovation Challenge 2027",
       "location": "Online",
-      "date": "12 days left",
+      "date": "11 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/quikcpq-ai-innovation-challenge-2027-quik-cpq-solutions-llp-1806984",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "c65901b21fb7e1f5",
+      "kind": "hackathon",
+      "company": "Yasir Insights",
+      "title": "Build Your First AI App",
+      "location": "Online",
+      "date": "12 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://build-your-first-ai-app.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "55e3becd4d76b1e9",
@@ -77330,16 +77252,28 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "c65901b21fb7e1f5",
+      "id": "2ec47371dafd1805",
       "kind": "hackathon",
-      "company": "Yasir Insights",
-      "title": "Build Your First AI App",
-      "location": "Online",
+      "company": "Indian Institute of Technology (IIT), Bombay",
+      "title": "The Algo Trading Innovation Challenge",
+      "location": "Offline",
       "date": "13 days left",
       "posted_at": "2026-11-15",
-      "url": "https://build-your-first-ai-app.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://unstop.com/hackathons/the-algo-trading-innovation-challenge-iit-bombay-1811240",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "ad4cb01854404f56",
+      "kind": "hackathon",
+      "company": "GM University Davanagere",
+      "title": "Code Rush – 24 Hours Hackathon",
+      "location": "Offline",
+      "date": "14 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://unstop.com/hackathons/code-rush-24-hours-hackathon-ignitron-2k26-gm-university-davanagere-1791410",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "73aa43acca00279c",
@@ -77390,16 +77324,16 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "ad4cb01854404f56",
+      "id": "6611701ed60f9bb2",
       "kind": "hackathon",
-      "company": "GM University Davanagere",
-      "title": "Code Rush – 24 Hours Hackathon",
-      "location": "Offline",
+      "company": "Google",
+      "title": "#BuildHybridAI 2026",
+      "location": "Online",
       "date": "15 days left",
       "posted_at": "2026-11-15",
-      "url": "https://unstop.com/hackathons/code-rush-24-hours-hackathon-ignitron-2k26-gm-university-davanagere-1791410",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
+      "url": "https://firebasehybridaihackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "1349186cec692a16",
@@ -77426,14 +77360,14 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "6611701ed60f9bb2",
+      "id": "4a557aafd6ea9af5",
       "kind": "hackathon",
-      "company": "Google",
-      "title": "#BuildHybridAI 2026",
+      "company": "HackathonForEveryone",
+      "title": "Code for Change",
       "location": "Online",
       "date": "16 days left",
       "posted_at": "2026-11-15",
-      "url": "https://firebasehybridaihackathon.devpost.com/",
+      "url": "https://code-for-change-global.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     },
@@ -77450,16 +77384,16 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "4a557aafd6ea9af5",
+      "id": "3b0857231ed17129",
       "kind": "hackathon",
-      "company": "HackathonForEveryone",
-      "title": "Code for Change",
-      "location": "Online",
+      "company": "GM University Davanagere",
+      "title": "Capture The Flag (CTF)",
+      "location": "Offline",
       "date": "17 days left",
       "posted_at": "2026-11-15",
-      "url": "https://code-for-change-global.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
+      "url": "https://unstop.com/hackathons/capture-the-flag-ctf-ignitron-2k26-gm-university-davanagere-1791574",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "03c73da381ee2fa8",
@@ -77472,18 +77406,6 @@
       "url": "https://ml-build-challenge-4.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "3b0857231ed17129",
-      "kind": "hackathon",
-      "company": "GM University Davanagere",
-      "title": "Capture The Flag (CTF)",
-      "location": "Offline",
-      "date": "18 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://unstop.com/hackathons/capture-the-flag-ctf-ignitron-2k26-gm-university-davanagere-1791574",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "9c36331fd67572a7",
@@ -77503,11 +77425,23 @@
       "company": "Devfolio",
       "title": "Clash of Commits",
       "location": "Chennai, India",
-      "date": "20 days left",
+      "date": "19 days left",
       "posted_at": "2026-11-15",
       "url": "https://clash-of-commits.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "967410ed45eea322",
+      "kind": "hackathon",
+      "company": "Ganeshi Lal Bajaj Institute Of Technology And Management (GLBITM), Greater Noida",
+      "title": "Android Ignition",
+      "location": "Online",
+      "date": "20 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://unstop.com/hackathons/android-ignition-ganeshi-lal-bajaj-institute-of-technology-and-management-glbitm-greater-noida-1805946",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
     },
     {
       "id": "7635103f47bf26cd",
@@ -77522,16 +77456,40 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "967410ed45eea322",
+      "id": "bda3cae90ed8652a",
       "kind": "hackathon",
-      "company": "Ganeshi Lal Bajaj Institute Of Technology And Management (GLBITM), Greater Noida",
-      "title": "Android Ignition",
+      "company": "cite & slayy",
+      "title": "SLAY HACKS",
       "location": "Online",
-      "date": "21 days left",
+      "date": "22 days left",
       "posted_at": "2026-11-15",
-      "url": "https://unstop.com/hackathons/android-ignition-ganeshi-lal-bajaj-institute-of-technology-and-management-glbitm-greater-noida-1805946",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
+      "url": "https://slayy-hacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "dbbb32e7cbd92a38",
+      "kind": "hackathon",
+      "company": "Devpost",
+      "title": "Learn AR with SPECS",
+      "location": "Online",
+      "date": "22 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://learn-specs.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "61171171a9387d0b",
+      "kind": "hackathon",
+      "company": "Google",
+      "title": "Deck the Pixels",
+      "location": "Online",
+      "date": "22 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://deckthepixels.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
     },
     {
       "id": "86fe996768aaac47",
@@ -77546,48 +77504,12 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "bda3cae90ed8652a",
-      "kind": "hackathon",
-      "company": "cite & slayy",
-      "title": "SLAY HACKS",
-      "location": "Online",
-      "date": "23 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://slayy-hacks.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "dbbb32e7cbd92a38",
-      "kind": "hackathon",
-      "company": "Devpost",
-      "title": "Learn AR with SPECS",
-      "location": "Online",
-      "date": "23 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://learn-specs.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "61171171a9387d0b",
-      "kind": "hackathon",
-      "company": "Google",
-      "title": "Deck the Pixels",
-      "location": "Online",
-      "date": "23 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://deckthepixels.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "34fb0938b01fbc6e",
       "kind": "hackathon",
       "company": "reddit",
       "title": "Reddit’s Game of the Day Hackathon",
       "location": "Online",
-      "date": "24 days left",
+      "date": "23 days left",
       "posted_at": "2026-11-15",
       "url": "https://redditgameofday2026.devpost.com/",
       "source": "devpost",
@@ -77599,7 +77521,7 @@
       "company": "AI OpenBuild",
       "title": "AI OpenBuild",
       "location": "Online",
-      "date": "26 days left",
+      "date": "25 days left",
       "posted_at": "2026-11-15",
       "url": "https://ai-openbuild.devpost.com/",
       "source": "devpost",
@@ -77630,6 +77552,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "ee4026c431c7f40c",
+      "kind": "hackathon",
+      "company": "Neo4j",
+      "title": "Relate by Neo4j Hackathon",
+      "location": "Online",
+      "date": "26 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://relate.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
       "id": "d553006f7fba567c",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -77642,24 +77576,12 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "ee4026c431c7f40c",
-      "kind": "hackathon",
-      "company": "Neo4j",
-      "title": "Relate by Neo4j Hackathon",
-      "location": "Online",
-      "date": "27 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://relate.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons"
-    },
-    {
       "id": "77f2bf441475a6e0",
       "kind": "hackathon",
       "company": "Girls Who Code",
       "title": "InnovateHER Hackathon: Girls Who Code",
       "location": "Online",
-      "date": "29 days left",
+      "date": "28 days left",
       "posted_at": "2026-11-15",
       "url": "https://hackathon-girls-who-code.devpost.com/",
       "source": "devpost",
@@ -77750,6 +77672,18 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
+      "id": "6b40dcb3d6bf775c",
+      "kind": "hackathon",
+      "company": "Skill2Career",
+      "title": "IDEATHON- FutureX: Innovating for Global Challenges",
+      "location": "Online",
+      "date": "33 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://unstop.com/hackathons/ideathon-futurex-innovating-for-global-challenges-skill2career-1803074",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
       "id": "fc8596267ce06655",
       "kind": "hackathon",
       "company": "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur",
@@ -77758,18 +77692,6 @@
       "date": "33 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
-      "id": "6b40dcb3d6bf775c",
-      "kind": "hackathon",
-      "company": "Skill2Career",
-      "title": "IDEATHON- FutureX: Innovating for Global Challenges",
-      "location": "Online",
-      "date": "34 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://unstop.com/hackathons/ideathon-futurex-innovating-for-global-challenges-skill2career-1803074",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons"
     },
@@ -77786,6 +77708,30 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
+      "id": "c45a4d7faa49714b",
+      "kind": "hackathon",
+      "company": "EduLinkUp",
+      "title": "ELU Build",
+      "location": "Online",
+      "date": "40 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://unstop.com/hackathons/elubuild-edulinkup-1811493",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
+      "id": "965c8aca757081cd",
+      "kind": "hackathon",
+      "company": "Madan Mohan Malaviya University of Technology",
+      "title": "Mantrastra",
+      "location": "Offline",
+      "date": "40 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://unstop.com/hackathons/mantrastra-techsrijan-27-madan-mohan-malaviya-university-of-technology-1810554",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons"
+    },
+    {
       "id": "3844f52b4de3e742",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -77798,24 +77744,12 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "965c8aca757081cd",
-      "kind": "hackathon",
-      "company": "Madan Mohan Malaviya University of Technology",
-      "title": "Mantrastra",
-      "location": "Offline",
-      "date": "41 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://unstop.com/hackathons/mantrastra-techsrijan-27-madan-mohan-malaviya-university-of-technology-1810554",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons"
-    },
-    {
       "id": "9e1292fac1446af8",
       "kind": "hackathon",
       "company": "BMS Insitute of Technology and Management",
       "title": "CODERED'26",
       "location": "Hybrid",
-      "date": "44 days left",
+      "date": "43 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/codered26-bms-insitute-of-technology-and-management-1810268",
       "source": "unstop",
@@ -77875,7 +77809,7 @@
       "company": "Chandigarh University (CU), Ajitgarh, Punjab",
       "title": "LightHouse - Hackathon",
       "location": "Online",
-      "date": "56 days left",
+      "date": "55 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/lighthouse-hackathon-chandigarh-university-cu-ajitgarh-punjab-1809486",
       "source": "unstop",
@@ -77906,24 +77840,12 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
-      "id": "87aaa3365df9c9e6",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "GOA BUILDATHON 27",
-      "location": "India",
-      "date": "62 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://goa-buildathon.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "1796d74e92b38fcc",
       "kind": "hackathon",
       "company": "Devfolio",
       "title": "Techacks 5.0",
       "location": "Rajpura, India",
-      "date": "62 days left",
+      "date": "61 days left",
       "posted_at": "2026-11-15",
       "url": "https://techacks05.devfolio.co",
       "source": "devfolio",
@@ -77935,9 +77857,21 @@
       "company": "Devfolio",
       "title": "Convergence",
       "location": "Kalyani, India",
-      "date": "63 days left",
+      "date": "62 days left",
       "posted_at": "2026-11-15",
       "url": "https://convergence1.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "87aaa3365df9c9e6",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "GOA BUILDATHON 27",
+      "location": "India",
+      "date": "62 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://goa-buildathon.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -77952,6 +77886,18 @@
       "url": "https://www.hackerearth.com/challenges/hackathon/contextcon-remember-everything/",
       "source": "hackerearth",
       "source_url": "https://www.hackerearth.com/challenges/"
+    },
+    {
+      "id": "6b71f6fd35eadfb7",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "DevNexus Vidisha",
+      "location": "Vidisha, India",
+      "date": "69 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://devnexus-3.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "a0f0df6af384d7a0",
@@ -77978,18 +77924,6 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "6b71f6fd35eadfb7",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "DevNexus Vidisha",
-      "location": "Vidisha, India",
-      "date": "70 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://devnexus-3.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
       "id": "65a3901a7b1b620d",
       "kind": "hackathon",
       "company": "Devfolio",
@@ -77998,6 +77932,18 @@
       "date": "70 days left",
       "posted_at": "2026-11-15",
       "url": "https://woc6.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
+      "id": "2448b189643701f6",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "Health Hackathon 3.0",
+      "location": "Kothri Kalan, India",
+      "date": "74 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://health-hackathon.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78014,14 +77960,14 @@
       "source_url": "https://unstop.com/hackathons"
     },
     {
-      "id": "2448b189643701f6",
+      "id": "3b4c3539d8bab054",
       "kind": "hackathon",
       "company": "Devfolio",
-      "title": "Health Hackathon 3.0",
-      "location": "Kothri Kalan, India",
+      "title": "Hacksprint 3.0",
+      "location": "Various",
       "date": "75 days left",
       "posted_at": "2026-11-15",
-      "url": "https://health-hackathon.devfolio.co",
+      "url": "https://hacksprint-3.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78038,14 +77984,14 @@
       "source_url": "https://devfolio.co/hackathons"
     },
     {
-      "id": "3b4c3539d8bab054",
+      "id": "8511b89e52526ebd",
       "kind": "hackathon",
       "company": "Devfolio",
-      "title": "Hacksprint 3.0",
-      "location": "Various",
+      "title": "Hack Nexus 2027",
+      "location": "Nagpur, India",
       "date": "76 days left",
       "posted_at": "2026-11-15",
-      "url": "https://hacksprint-3.devfolio.co",
+      "url": "https://hack-nexus.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78058,18 +78004,6 @@
       "date": "76 days left",
       "posted_at": "2026-11-15",
       "url": "https://makeathon-9.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
-    },
-    {
-      "id": "8511b89e52526ebd",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "Hack Nexus 2027",
-      "location": "Nagpur, India",
-      "date": "77 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://hack-nexus.devfolio.co",
       "source": "devfolio",
       "source_url": "https://devfolio.co/hackathons"
     },
@@ -78091,7 +78025,7 @@
       "company": "International Institute of Information Technology (IIIT), Bhubaneswar",
       "title": "Craft N Code Delhi",
       "location": "Online",
-      "date": "83 days left",
+      "date": "82 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/craft-n-code-delhi-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iiit--1746233",
       "source": "unstop",
@@ -78103,7 +78037,7 @@
       "company": "International Institute of Information Technology (IIIT), Bhubaneswar",
       "title": "Craft N Code Haryana",
       "location": "Online",
-      "date": "83 days left",
+      "date": "82 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/craft-n-code-haryana-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iii-1746142",
       "source": "unstop",
@@ -78115,7 +78049,7 @@
       "company": "International Institute of Information Technology (IIIT), Bhubaneswar",
       "title": "Craft N Code Odisha",
       "location": "Offline",
-      "date": "83 days left",
+      "date": "82 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/craft-n-code-odisha-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iiit-1773246",
       "source": "unstop",
@@ -78127,7 +78061,7 @@
       "company": "International Institute of Information Technology (IIIT), Bhubaneswar",
       "title": "Craft N Code Tamil Nadu",
       "location": "Online",
-      "date": "83 days left",
+      "date": "82 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/craft-n-code-tamil-nadu-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology--1746234",
       "source": "unstop",
@@ -78139,7 +78073,7 @@
       "company": "International Institute of Information Technology (IIIT), Bhubaneswar",
       "title": "Craft N Code Telangana",
       "location": "Online",
-      "date": "83 days left",
+      "date": "82 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/craft-n-code-telangana-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-i-1746232",
       "source": "unstop",
@@ -78158,6 +78092,18 @@
       "source_url": "https://devpost.com/hackathons"
     },
     {
+      "id": "12a4a4599626679c",
+      "kind": "hackathon",
+      "company": "Devfolio",
+      "title": "CODERAVE 2.0",
+      "location": "Various",
+      "date": "90 days left",
+      "posted_at": "2026-11-15",
+      "url": "https://coderave-2.devfolio.co",
+      "source": "devfolio",
+      "source_url": "https://devfolio.co/hackathons"
+    },
+    {
       "id": "aaa24a3e64c22c22",
       "kind": "hackathon",
       "company": "Teens in AI",
@@ -78168,18 +78114,6 @@
       "url": "https://teens-in-ai.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
-    },
-    {
-      "id": "12a4a4599626679c",
-      "kind": "hackathon",
-      "company": "Devfolio",
-      "title": "CODERAVE 2.0",
-      "location": "Various",
-      "date": "91 days left",
-      "posted_at": "2026-11-15",
-      "url": "https://coderave-2.devfolio.co",
-      "source": "devfolio",
-      "source_url": "https://devfolio.co/hackathons"
     },
     {
       "id": "c7edb0f9b962c5f8",
@@ -78199,7 +78133,7 @@
       "company": "Army Institute of Technology (AIT), Pune",
       "title": "CSS Battle",
       "location": "Online",
-      "date": "106 days left",
+      "date": "105 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/css-battle-solutions-2k27-army-institute-of-technology-ait-pune-1802090",
       "source": "unstop",
@@ -78211,7 +78145,7 @@
       "company": "Army Institute of technology, Pune",
       "title": "SHE CODE",
       "location": "Hybrid",
-      "date": "111 days left",
+      "date": "110 days left",
       "posted_at": "2026-11-15",
       "url": "https://unstop.com/hackathons/she-code-solutions-2k27-army-institute-of-technology-pune-1802089",
       "source": "unstop",
@@ -78223,7 +78157,7 @@
       "company": "Devfolio",
       "title": "Diversion 2k27",
       "location": "Bidhannagar, India",
-      "date": "112 days left",
+      "date": "111 days left",
       "posted_at": "2026-11-15",
       "url": "https://diversion2k27.devfolio.co",
       "source": "devfolio",
@@ -78262,6 +78196,18 @@
       "date": "7 months left",
       "posted_at": "2026-11-15",
       "url": "https://phystech2027.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons"
+    },
+    {
+      "id": "17c6f3a16686a271",
+      "kind": "hackathon",
+      "company": "Google Developer Group on Campus at EMU",
+      "title": "Hack The Nest",
+      "location": "EMU Student Center and Halle Library",
+      "date": "7 minutes left",
+      "posted_at": "2026-11-15",
+      "url": "https://hack-the-nest.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons"
     }
@@ -80188,30 +80134,6 @@
       "source_url": "https://github.com/tech-conferences/conference-data"
     },
     {
-      "id": "aed6d9da6026198f",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow [SF] HackerSquad San Francisco · Previously [SF] Builders Collective A builder first community. Hear from great speakers, learn how to implement new tools, and show off what you're building with them!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-11-15",
-      "url": "/sf-hackersquad?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "d6c79e9f152747c9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Bond AI - San Francisco and Bay Area San Francisco · We host & curate the best AI events for you (160k+ members) 📤 to the weekly events email 📢 Add your event submit.bondcommunity.ai 🌎 Explore other cities bondcommunity.ai/#join",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-11-15",
-      "url": "/genai-sf?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "471efdb8c8e9c1eb",
       "kind": "event",
       "company": "Luma",
@@ -80236,18 +80158,6 @@
       "source_url": "https://luma.com/discover"
     },
     {
-      "id": "190d2fdcd350a5e9",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Frontier Tower SF San Francisco · A 16-floor nexus for frontier tech in SF. Join us at https://frontiertower.io/apply",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-11-15",
-      "url": "/frontiertower?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
       "id": "a55b3bdcd72bf05f",
       "kind": "event",
       "company": "Luma",
@@ -80256,42 +80166,6 @@
       "date": "",
       "posted_at": "2026-11-15",
       "url": "/deepmind?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "027f1be056a63692",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow J.P. Morgan Healthcare Conference San Francisco · Explore side events at the J.P. Morgan Healthcare Conference, where biotech founders, pharma leaders and investors gather for the year's biggest healthcare dealmaking week. January 11–14, 2027, San Francisco.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-11-15",
-      "url": "/jpm-healthcare-conference?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "df194f825e8048fc",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow Microsoft Ignite San Francisco · Explore side events at Microsoft Ignite, where IT leaders, developers and partners gather to see what’s next in AI, cloud and security. November 17–20, 2026, San Francisco.",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-11-15",
-      "url": "/microsoft-ignite?k=c",
-      "source": "luma",
-      "source_url": "https://luma.com/discover"
-    },
-    {
-      "id": "e62e8da82d967bd3",
-      "kind": "event",
-      "company": "Luma",
-      "title": "Follow SF Hardware Meetup San Francisco · This is a hardware community of 10,500+ builders who meet monthly. From first time founders to experts and entrepreneurs who have done it before, everyone is welcome!",
-      "location": "Global",
-      "date": "",
-      "posted_at": "2026-11-15",
-      "url": "/sf-hardware-meetup?k=c",
       "source": "luma",
       "source_url": "https://luma.com/discover"
     },
