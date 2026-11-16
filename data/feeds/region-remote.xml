@@ -4,7 +4,14 @@
     <title>tracker — Remote Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Remote tracker currently tracks.</description>
-    <lastBuildDate>Mon, 16 Nov 2026 02:06:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 09:43:19 GMT</lastBuildDate>
+    <item>
+      <title>Twilio — Software Engineer (L1)</title>
+      <link>https://job-boards.greenhouse.io/twilio/jobs/8319442</link>
+      <guid isPermaLink="false">228394b5ea7d560f</guid>
+      <description>Remote - India · other · 0d</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Reddit — Engineering Manager, Knowledge Graph Platform</title>
       <link>https://job-boards.greenhouse.io/reddit/jobs/8256326</link>
@@ -696,13 +703,6 @@
       <link>https://www.coinbase.com/careers/positions/8088201?gh_jid=8088201</link>
       <guid isPermaLink="false">7d791304ecb8a3fc</guid>
       <description>Remote - USA · mid_level · 12d</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DoorDash — Staff Software Engineer, Planner</title>
-      <link>https://job-boards.greenhouse.io/doordashusa/jobs/8304373</link>
-      <guid isPermaLink="false">1c7db614e04b2292</guid>
-      <description>United States - Remote · mid_level · 12d</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1588,16 +1588,16 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Pennylane — Senior Backend Software Engineer (Ruby on Rails)</title>
+      <title>Pennylane — Senior Backend Software Engineer</title>
       <link>https://jobs.ashbyhq.com/pennylane/ef6211d7-777e-4fd7-ae8f-d25c17df144d</link>
-      <guid isPermaLink="false">e68725049041f0b8</guid>
+      <guid isPermaLink="false">95c51241a4e992cb</guid>
       <description>Remote · mid_level · 59d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Pennylane — Senior Fullstack Software Engineer (Ruby/React &amp; TS)</title>
+      <title>Pennylane — Senior Fullstack Software Engineer</title>
       <link>https://jobs.ashbyhq.com/pennylane/aee7ca91-2914-4f12-bf27-88c2593e2c5c</link>
-      <guid isPermaLink="false">f7cf3a74c6f030de</guid>
+      <guid isPermaLink="false">05db0c55b231fef8</guid>
       <description>Remote · mid_level · 59d</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1703,169 +1703,151 @@
       <title>NVIDIA — Principal Software Engineer, GPU Firmware and GPU System Software — CSP Engagements</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--GPU-Firmware-and-GPU-System-Software---CSP-Engagements_JR2020319</link>
       <guid isPermaLink="false">49e30c2abab1080f</guid>
-      <description>US, CA, Santa Clara +3 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +3 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Compute Platform Engineer, LSF - EDA Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Compute-Platform-Engineer--LSF-_JR2023960</link>
       <guid isPermaLink="false">0b2b7870116d0bf5</guid>
-      <description>US, CA, Remote +2 more · mid_level · 0d</description>
+      <description>US, CA, Remote +2 more · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Full-Stack Software Engineer, Storage Management Platform - DGX Cloud</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Kubernetes-and-Virtualization---DGX-Cloud_JR2007944</link>
+      <guid isPermaLink="false">c44c66f7fa554bf5</guid>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Storage Software Engineer - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer---DGX-Cloud_JR2026042</link>
       <guid isPermaLink="false">77144393e5b940c6</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer - Scientific Computing PaaS</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Scientific-Computing-PaaS_JR2024331</link>
       <guid isPermaLink="false">9fb930e8e8ad5fcf</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 0d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Systems Software Engineer, Compute Stack Acceleration</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Compute-Stack-Acceleration_JR2021549</link>
+      <guid isPermaLink="false">9245920daa8db653</guid>
+      <description>US, CA, Santa Clara +3 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior AI Infrastructure Engineer - EDA Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-AI-infrastructure-engineer---Hardware-Infrastructure-Engineering_JR2024816</link>
       <guid isPermaLink="false">c65504a20fa05e87</guid>
-      <description>US, CA, Remote +4 more · mid_level · 1d</description>
+      <description>US, CA, Remote +4 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior HPC Storage Engineer - EDA Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Storage-Engineer_JR2014997</link>
       <guid isPermaLink="false">0247cf70b68f749a</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer - Distributed Systems Engineer, EDA Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Remote/Senior-Software-Engineer---Distributed-Systems-Engineer--EDA-Infrastructure_JR2024825-1</link>
       <guid isPermaLink="false">fcb34d6177e0786a</guid>
-      <description>US, WA, Remote +5 more · mid_level · 1d</description>
+      <description>US, WA, Remote +5 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer - Quantum Simulations</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Engineer---Quantum-Error-Correction-Libraries_JR2028862</link>
       <guid isPermaLink="false">d55e78b739a0e95b</guid>
-      <description>US, CA, Santa Clara +5 more · mid_level · 1d</description>
+      <description>US, CA, Santa Clara +5 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Object Storage - DGX Cloud</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Object-Storage---DGX-Cloud_JR2025155</link>
       <guid isPermaLink="false">a42bae4bfa463296</guid>
-      <description>US, CA, Santa Clara +5 more · mid_level · 1d</description>
+      <description>US, CA, Santa Clara +5 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Storage Infrastructure Software Engineer - EDA Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Infrastructure-Software-Engineer_JR2026658</link>
       <guid isPermaLink="false">042fe41a15c8c201</guid>
-      <description>US, CA, Santa Clara +3 more · mid_level · 1d</description>
+      <description>US, CA, Santa Clara +3 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Storage Software Engineer, DGXC Data Services</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Storage-Software-Engineer--DGXC-Data-Services_JR2020844</link>
       <guid isPermaLink="false">4a0d62458f19b52f</guid>
-      <description>US, CA, Santa Clara +5 more · mid_level · 1d</description>
+      <description>US, CA, Santa Clara +5 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior System Software Engineer, Platform - Server Embedded Firmware</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer--Platform---Server-Embedded-Firmware_JR2028401</link>
       <guid isPermaLink="false">b49b2990be99c826</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 1d</description>
+      <description>US, CA, Santa Clara +1 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Systems Software Engineer - GPU Performance at Scale</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Performance-Engineer_JR1996987</link>
       <guid isPermaLink="false">bfb1141b80e4b771</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 1d</description>
+      <description>US, CA, Santa Clara +4 more · mid_level · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Technical Marketing Engineer - DSX AI Infrastructure Software</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Marketing-Engineer---DSX-AI-Infrastructure-Software_JR2024197</link>
       <guid isPermaLink="false">d049ac21cc36332c</guid>
-      <description>US, CA, Santa Clara +1 more · other · 1d</description>
+      <description>US, CA, Santa Clara +1 more · other · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Technical Marketing Engineer, DSX Software Portfolio and Enablement</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Technical-Marketing-Engineer---DSX-Content-Strategy-Lead_JR2024196</link>
       <guid isPermaLink="false">eab6fe2b1969cd2a</guid>
-      <description>US, CA, Santa Clara +1 more · other · 1d</description>
+      <description>US, CA, Santa Clara +1 more · other · 2d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Infrastructure Automation Engineer, Compute Platform - EDA Infrastructure</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-NC-Remote/Senior-Infrastructure-Automation-Engineer--Compute-Platform_JR2023962</link>
       <guid isPermaLink="false">f0d04b6bc91d8a28</guid>
-      <description>US, NC, Remote +2 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Developer, NVIDIA Mission Control integration</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Developer--NVIDIA-Mission-Control---DGX-Cloud_JR2028682</link>
-      <guid isPermaLink="false">48a80f500145f94e</guid>
-      <description>US, CA, Remote +5 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, System Validation - EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Next-Generation-Architecture---EDA-Infrastructure_JR2014880</link>
-      <guid isPermaLink="false">fd49b26ffed563cc</guid>
-      <description>US, CA, Santa Clara +4 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Staff Software Engineer</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer_JR2029897</link>
-      <guid isPermaLink="false">fe1b5c8089184729</guid>
-      <description>US, CA, Santa Clara +1 more · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Systems Software Engineer- EDA Infrastructure</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Systems-Software-Engineer--EDA-Infrastructure_JR2024972-1</link>
-      <guid isPermaLink="false">89930bfb8d89aa0d</guid>
-      <description>US, CA, Remote +5 more · mid_level · 2d</description>
+      <description>US, NC, Remote +2 more · mid_level · 3d</description>
     </item>
     <item>
       <title>NVIDIA — Senior Software Engineer, Nix Packaging and Release Automation</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--Nix-Packaging-and-Release-Automation_JR2029346</link>
       <guid isPermaLink="false">39d41ca6a93995cc</guid>
-      <description>US, CA, Remote · mid_level · 3d</description>
-    </item>
-    <item>
-      <title>Salesforce — Senior Staff Prototyping Engineer, iOS</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco-Metro---Remote/Senior-Staff-Prototyping-Engineer--iOS_JR360080-1</link>
-      <guid isPermaLink="false">572e9ca71679e5de</guid>
-      <description>California - San Francisco Metro - Remote +4 more · mid_level · 3d</description>
+      <description>US, CA, Remote · mid_level · 4d</description>
     </item>
     <item>
       <title>Unity — Développeuse ou développeur SDK sénior, Monétisation / Senior SDK Developer, Monetization</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Dveloppeuse-ou-dveloppeur-SDK-snior--Montisation---Senior-SDK-Developer--Monetization_JOBREQ-2515475-1</link>
       <guid isPermaLink="false">150918586f47a3ef</guid>
-      <description>Montreal, Canada +1 more · mid_level · 6d</description>
+      <description>Montreal, Canada +1 more · mid_level · 7d</description>
     </item>
     <item>
       <title>Adobe — Sr. iOS Engineer</title>
       <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Remote-Washington/Sr-iOS-Engineer_R170605</link>
       <guid isPermaLink="false">1b1963e7af356c74</guid>
-      <description>Remote Washington +4 more · mid_level · 9d</description>
+      <description>Remote Washington +4 more · mid_level · 10d</description>
     </item>
     <item>
       <title>Unity — Senior Software Engineer, Native Editor Platform</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Remote-Washington-USA/Senior-Software-Engineer--Native-Editor-Platform_JOBREQ-2616692</link>
       <guid isPermaLink="false">199560df718a5a6a</guid>
-      <description>Remote, Washington, USA · mid_level · 18d</description>
+      <description>Remote, Washington, USA · mid_level · 19d</description>
     </item>
     <item>
       <title>Unity — Staff Engineer, Data Platform</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Mountain-View-CA-USA/Staff-Engineer--Data-Platform_JOBREQ-2616349</link>
       <guid isPermaLink="false">715cabb0974de011</guid>
-      <description>Mountain View, CA, USA +1 more · mid_level · 20d</description>
+      <description>Mountain View, CA, USA +1 more · mid_level · 21d</description>
     </item>
     <item>
       <title>Unity — Sr. Software Engineer</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Mountain-View-CA-USA/Sr-Software-Engineer_JOBREQ-2616677</link>
       <guid isPermaLink="false">54b13c6f1fcb047f</guid>
-      <description>Mountain View, CA, USA +2 more · mid_level · 24d</description>
+      <description>Mountain View, CA, USA +2 more · mid_level · 25d</description>
     </item>
     <item>
       <title>Unity — Développeur(se) logiciel sénior, écosystème Android | Senior Software Developer, Android Ecosystem</title>
       <link>https://unitytech.wd1.myworkdayjobs.com/unity/job/Montreal-Canada/Dveloppeur-se--logiciel-principal-e---cosystme-Android---Senior-Software-Engineer--Android-Ecosystem_JOBREQ-2616440</link>
       <guid isPermaLink="false">71e384a5da1f1e4e</guid>
-      <description>Montreal, Canada +4 more · mid_level · 27d</description>
+      <description>Montreal, Canada +4 more · mid_level · 28d</description>
     </item>
     <item>
       <title>Unity — Développeur(se) de logiciels | Software Developer</title>
