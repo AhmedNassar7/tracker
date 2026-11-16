@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T21:47:13Z",
+ "generated_at": "2026-11-16T02:03:53Z",
  "entries": {
   "/DC2?k=c": {
    "alive": true,
@@ -335,7 +335,7 @@
   },
   "https://ai-agents-founders-hetic-26.devpost.com/": {
    "alive": true,
-   "at": "2026-11-12T02:57:42Z"
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://ai-engineering-summit.de": {
    "alive": true,
@@ -5039,7 +5039,7 @@
   },
   "https://code-for-dfw.devpost.com/": {
    "alive": true,
-   "at": "2026-11-12T18:54:42Z"
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://code-for-humanity.devpost.com/": {
    "alive": true,
@@ -5977,10 +5977,6 @@
    "alive": true,
    "at": "2026-11-15T17:08:03Z"
   },
-  "https://dsh-hacks-v2.devpost.com/": {
-   "alive": true,
-   "at": "2026-11-08T23:41:57Z"
-  },
   "https://dublintechsummit.tech/": {
    "alive": true,
    "at": "2026-11-15T17:08:03Z"
@@ -6171,7 +6167,7 @@
   },
   "https://ese4500f26.devpost.com/": {
    "alive": true,
-   "at": "2026-11-12T02:57:42Z"
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/": {
    "alive": true,
@@ -14397,6 +14393,10 @@
    "alive": true,
    "at": "2026-11-15T21:47:13Z"
   },
+  "https://kuk-virtual-hackathon.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-16T02:03:53Z"
+  },
   "https://launchpad-hacks.devpost.com/": {
    "alive": true,
    "at": "2026-11-15T21:47:13Z"
@@ -14791,7 +14791,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Compute-Platform-Engineer--LSF-_JR2023960": {
    "alive": true,
-   "at": "2026-11-09T06:23:26Z"
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Linux-Systems-Engineer---EDA-Infrastructure_JR2025019": {
    "alive": true,
@@ -14859,7 +14859,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--GPU-Firmware-and-GPU-System-Software---CSP-Engagements_JR2020319": {
    "alive": true,
-   "at": "2026-11-10T17:49:06Z"
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Software-Engineer--Rack-Scale-System-Software---CSP-Engagements_JR2020316": {
    "alive": true,
@@ -15007,7 +15007,7 @@
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Scientific-Computing-PaaS_JR2024331": {
    "alive": true,
-   "at": "2026-11-13T07:55:36Z"
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Simulation-Software_JR2022959": {
    "alive": true,
@@ -15064,6 +15064,10 @@
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Technical-Lead---Performance-Data-Platform_JR2029009": {
    "alive": true,
    "at": "2026-11-15T17:08:03Z"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Manager---GPU-Communications-Libraries_JR1980109": {
+   "alive": true,
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MD-Remote/Logistics-Manager--Data-Center-Infrastructure_JR2029417": {
    "alive": true,
@@ -15559,7 +15563,7 @@
   },
   "https://start-developer-competition-26.devpost.com/": {
    "alive": true,
-   "at": "2026-11-12T18:54:42Z"
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://stem2connect-online-hackathon.devpost.com/": {
    "alive": true,
@@ -16301,6 +16305,10 @@
    "alive": true,
    "at": "2026-11-15T21:47:13Z"
   },
+  "https://tripleh.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-16T02:03:53Z"
+  },
   "https://twosigma.avature.net/careers/JobDetail/14020?utm_source=Simplify&ref=Simplify": {
    "alive": true,
    "at": "2026-11-15T17:07:26Z"
@@ -16324,6 +16332,10 @@
   "https://unfair-weekend.devpost.com/": {
    "alive": true,
    "at": "2026-11-14T17:05:40Z"
+  },
+  "https://unihacks-youth.devpost.com/": {
+   "alive": true,
+   "at": "2026-11-16T02:03:53Z"
   },
   "https://unitytech.wd1.myworkdayjobs.com/Unity/job/Bellevue-WA-USA/Senior-Software-Engineer_JOBREQ-2616424": {
    "alive": true,
@@ -18271,7 +18283,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10488199/software-development-engineer-ii-amazon-cross-border-tech": {
    "alive": true,
-   "at": "2026-11-15T09:22:12Z"
+   "at": "2026-11-16T02:03:33Z"
   },
   "https://www.amazon.jobs/en/jobs/10488471/software-development-engineer-opensearch-ai-search-team": {
    "alive": true,
@@ -18523,7 +18535,7 @@
   },
   "https://www.amazon.jobs/en/jobs/10503864/software-development-engineer-security-automation-aws-security-epoxy": {
    "alive": true,
-   "at": "2026-11-15T09:22:12Z"
+   "at": "2026-11-16T02:03:33Z"
   },
   "https://www.amazon.jobs/en/jobs/10503911/software-development-engineer-aws-amazon-eks": {
    "alive": true,
@@ -22121,6 +22133,10 @@
    "alive": true,
    "at": "2026-11-15T21:47:13Z"
   },
+  "https://www.coupang.jobs/en/jobs/?gh_jid=6482283": {
+   "alive": true,
+   "at": "2026-11-16T02:03:53Z"
+  },
   "https://www.coupang.jobs/en/jobs/?gh_jid=7227610": {
    "alive": true,
    "at": "2026-11-15T17:08:03Z"
@@ -22579,7 +22595,7 @@
   },
   "https://www.indeed.com/viewjob?jk=3d40f8f3bcf5748c": {
    "alive": true,
-   "at": "2026-11-12T18:54:16Z"
+   "at": "2026-11-16T02:03:33Z"
   },
   "https://www.indeed.com/viewjob?jk=61da9870b184d685": {
    "alive": true,
