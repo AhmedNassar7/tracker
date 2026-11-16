@@ -4,12 +4,33 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Mon, 16 Nov 2026 09:43:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 20:30:03 GMT</lastBuildDate>
     <item>
       <title>Foodics — Senior Software Engineer / FDE (PAY)</title>
       <link>https://apply.workable.com/j/B4225D8107</link>
       <guid isPermaLink="false">8ffccb23f4f91b43</guid>
       <description>Cairo, Egypt (Remote) · mid_level · 0d</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857</link>
+      <guid isPermaLink="false">2068ff8f2fccaae5</guid>
+      <description>Tel Aviv, Israel · mid_level · 0d</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Staff Software Engineer - Full Stack</title>
+      <link>https://www.okta.com/company/careers/opportunity/8203628?gh_jid=8203628</link>
+      <guid isPermaLink="false">9073447cc2f0e1ec</guid>
+      <description>Tel Aviv, Israel · mid_level · 0d</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tamara — Senior Product Engineer - Backend</title>
+      <link>https://job-boards.eu.greenhouse.io/tamara/jobs/4784971101</link>
+      <guid isPermaLink="false">9a71f2a88bc001c2</guid>
+      <description>Riyadh, Saudi Arabia · mid_level · 0d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -25,20 +46,6 @@
       <guid isPermaLink="false">ff6715fc9c7556bb</guid>
       <description>Egypt (Remote) · mid_level · 1d</description>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857</link>
-      <guid isPermaLink="false">2068ff8f2fccaae5</guid>
-      <description>Tel Aviv, Israel · mid_level · 3d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Staff Software Engineer - Full Stack</title>
-      <link>https://www.okta.com/company/careers/opportunity/8203628?gh_jid=8203628</link>
-      <guid isPermaLink="false">9073447cc2f0e1ec</guid>
-      <description>Tel Aviv, Israel · mid_level · 3d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Synapseanalytics — Senior DevOps Engineer</title>
@@ -405,13 +412,6 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Axis — SDET (Software Development Engineer in Test)</title>
-      <link>https://axisapp.teamtailor.com/jobs/8378441-sdet-software-development-engineer-in-test</link>
-      <guid isPermaLink="false">f4ebcc8ff8ac5bdd</guid>
-      <description>Cairo, Egypt · other · 62d</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Thndr — Senior Backend Engineer - Money Movements Squad</title>
       <link>https://jobs.ashbyhq.com/thndr/2601803d-9388-4723-9bda-30203987db9a</link>
       <guid isPermaLink="false">28c1b6e35d1a05d9</guid>
@@ -482,9 +482,9 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Yassir — Backend Engineer - Ad Serving &amp; Integrations L05</title>
+      <title>Yassir — Backend Engineer - Ad Serving &amp; Integrations</title>
       <link>https://jobs.lever.co/Yassir/387ec6d4-c8d3-4771-a039-e1f30ff6d63d</link>
-      <guid isPermaLink="false">35adbb4ee62c8df4</guid>
+      <guid isPermaLink="false">4643d3a1f360a743</guid>
       <description>Algiers, Algeria · other · 77d</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
     </item>
@@ -550,20 +550,6 @@
       <guid isPermaLink="false">f3b08e75d15e753a</guid>
       <description>Cairo, Egypt (Remote) · other · 134d</description>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Yassir — QA Automation Engineer</title>
-      <link>https://jobs.lever.co/Yassir/50bf33d6-2993-42ed-9eeb-204356fc5b9c</link>
-      <guid isPermaLink="false">a0730f4a960813d9</guid>
-      <description>Cairo, Egypt · other · 140d</description>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Yassir — QA Engineer</title>
-      <link>https://jobs.lever.co/Yassir/64d34dd2-54ad-4787-aaa3-0f0836b8e1e9</link>
-      <guid isPermaLink="false">5a103cc5b7f5ea39</guid>
-      <description>Cairo, Egypt · other · 140d</description>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Yassir — Senior Back-End Engineer (Node j.s) "Financial Service"</title>
@@ -642,6 +628,24 @@
       <description>Israel, Yokneam +1 more · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior DevOps Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-DevOps-Engineer_JR2029070</link>
+      <guid isPermaLink="false">477e78f67da95428</guid>
+      <description>Israel, Yokneam · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Physical Design Backend Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Physical-Design-Backend-Engineer_JR2029863</link>
+      <guid isPermaLink="false">bd10c272115b1f98</guid>
+      <description>Israel, Yokneam · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Senior Software Engineer, Network System Validation</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2030080</link>
+      <guid isPermaLink="false">b8b95c959c90e5b9</guid>
+      <description>Israel, Yokneam · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Software Engineer, SW Switch</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-System-Test-Architect_JR2020444</link>
       <guid isPermaLink="false">20cd7f329db7c742</guid>
@@ -652,6 +656,12 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Tools--Automation-and-AI_JR2026683</link>
       <guid isPermaLink="false">44908c27317efd22</guid>
       <description>Israel, Yokneam +2 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Software Engineer - Python, C++, Video Algorithms</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer---Python--C----Video-Algorithms_JR2026084-9</link>
+      <guid isPermaLink="false">11b5b41d82b9a360</guid>
+      <description>Israel, Yokneam +1 more · other · 0d</description>
     </item>
     <item>
       <title>NVIDIA — Software Engineer, Storage</title>
@@ -666,6 +676,12 @@
       <description>Israel - Tel Aviv · mid_level · 0d</description>
     </item>
     <item>
+      <title>Workday — Backend Engineer - AI Team - Paradox</title>
+      <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Israel-Tel-Aviv/Backend-Engineer---AI-Team---Paradox_JR-0109112</link>
+      <guid isPermaLink="false">4c9cad457d565a71</guid>
+      <description>Israel, Tel Aviv · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior QA Engineer, System Product Engineering</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-QA-Engineer--System-Product-Engineering_JR2008526</link>
       <guid isPermaLink="false">0b614f71571b1f4d</guid>
@@ -676,18 +692,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Infrastructure_JR2028826</link>
       <guid isPermaLink="false">df3453bdebd357e2</guid>
       <description>Israel, Tel Aviv · other · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Solutions Architect, NVIS</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Software-Solutions-Architect--NVIS_JR2029973</link>
-      <guid isPermaLink="false">9074f5cfcf0e24ae</guid>
-      <description>Israel, Raanana +2 more · mid_level · 3d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Test Platform Technical Leader, CPO</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Test-Platform-Technical-Leader--CPO_JR2027946</link>
-      <guid isPermaLink="false">a7f3443dfe5affcd</guid>
-      <description>Israel, Yokneam · mid_level · 3d</description>
     </item>
   </channel>
 </rss>

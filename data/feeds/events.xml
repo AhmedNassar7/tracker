@@ -4,7 +4,7 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Mon, 16 Nov 2026 09:43:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 20:30:03 GMT</lastBuildDate>
     <item>
       <title>Agile Testing Days — Agile Testing Days</title>
       <link>https://agiletestingdays.com</link>
@@ -87,6 +87,13 @@
       <link>https://amm26.digitalpublicgoods.net/</link>
       <guid isPermaLink="false">6847a18941d618df</guid>
       <description>Paris, France · 1 day left</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DuckDB × MySQL Day — DuckDB × MySQL Day</title>
+      <link>https://oursqlfoundation.org/events/duckdb-mysql-day</link>
+      <guid isPermaLink="false">0bac08752f2fe2d1</guid>
+      <description>Virtual · 1 day left</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -185,6 +192,13 @@
       <link>https://india.fluttercon.dev</link>
       <guid isPermaLink="false">8b9342906c396b83</guid>
       <description>Bangalore, India · 5 days left</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>WordCamp Bengaluru — WordCamp Bengaluru</title>
+      <link>https://bengaluru.wordcamp.org/2026</link>
+      <guid isPermaLink="false">aed8005c8c523cfb</guid>
+      <description>Bangalore, India · 6 days left</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -314,6 +328,20 @@
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>JakartaOne Livestream — JakartaOne Livestream</title>
+      <link>https://jakartaone.jakarta.ee/jakartaone-livestream-2026</link>
+      <guid isPermaLink="false">668f0e7dbb9276c2</guid>
+      <description>Virtual · 15 days left</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Oh My Hack — Oh My Hack</title>
+      <link>https://omhconf.pl</link>
+      <guid isPermaLink="false">a0e8db40d8d71375</guid>
+      <description>Warsaw, Poland · 16 days left</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Open Hackathons — CINECA Open Hackathon</title>
       <link>https://www.openhackathons.org/s/siteevent/a0CUP00003NdHta2AF</link>
       <guid isPermaLink="false">60f727d85778409d</guid>
@@ -346,6 +374,13 @@
       <link>https://reactday.berlin</link>
       <guid isPermaLink="false">895c17e7af3281b2</guid>
       <description>Berlin, Germany · 18 days left</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AICD Summit — AICD Summit</title>
+      <link>https://aicommunitydays.ai/events/aicd-summit-2026</link>
+      <guid isPermaLink="false">d605d606d4530f1b</guid>
+      <description>Tunis, Tunisia · 19 days left</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -451,6 +486,13 @@
       <link>https://conf.researchr.org/home/VMCAI-2027</link>
       <guid isPermaLink="false">c696fd5244bb93cd</guid>
       <description>Mexico City, Mexico · 56 days left</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Upstream — Upstream</title>
+      <link>https://upstream.snowxa.com</link>
+      <guid isPermaLink="false">159991e1c12090d2</guid>
+      <description>San Francisco, CA, U.S.A. · 59 days left</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -748,6 +790,13 @@
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>ChurConf — ChurConf</title>
+      <link>https://kr.churconf.com</link>
+      <guid isPermaLink="false">36eb024f29a71307</guid>
+      <description>Seoul, South Korea · 138 days left</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>RSAC — RSA Conference 2027</title>
       <link>https://www.rsaconference.com/usa</link>
       <guid isPermaLink="false">69afbe5f6c8f6889</guid>
@@ -850,6 +899,13 @@
       <link>https://www.gitex-europe.com/</link>
       <guid isPermaLink="false">9fde24ffcc90d233</guid>
       <description>Berlin, Germany · 169 days left</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Enterprise AI Summit — Enterprise AI Summit</title>
+      <link>https://events.itrevolution.com/2027-portland/</link>
+      <guid isPermaLink="false">1e8b88e2e36fb33b</guid>
+      <description>Portland, OR, U.S.A. · 170 days left</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -986,9 +1042,9 @@
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>GopherCon Europe — GopherCon Europe</title>
+      <title>GopherCon Europe + HeyAI — GopherCon Europe + HeyAI</title>
       <link>https://www.gophercon.eu</link>
-      <guid isPermaLink="false">7158a94167620c7a</guid>
+      <guid isPermaLink="false">b015b8c45464d5c8</guid>
       <description>Berlin, Germany · 210 days left</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
