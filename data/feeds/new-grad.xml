@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Tue, 17 Nov 2026 13:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 22:23:55 GMT</lastBuildDate>
     <item>
       <title>Roblox — \[2027\] Data Scientist - PhD Early Career - Safety</title>
       <link>https://zapply.jobs/l/d/greenhouse-roblox-8384186?s=gh-new-grad-jobs-2027</link>
@@ -17,20 +17,6 @@
       <link>https://zapply.jobs/l/d/greenhouse-roblox-8384186?s=gh-new-grad-data-science-jobs-2027</link>
       <guid isPermaLink="false">9ae5bf49f5bf011f</guid>
       <description>San Mateo, CA, United States · new_grad · 0d</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe — 2027 University Graduate - Data Scientist</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173462?s=gh-new-grad-jobs-2027</link>
-      <guid isPermaLink="false">6a9f370a888f9a21</guid>
-      <description>San Jose · new_grad · 5d</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe — 2027 University Graduate - Data Scientist</title>
-      <link>https://zapply.jobs/l/d/workday-adobe-external-experienced-R173462?s=gh-new-grad-data-science-jobs-2027</link>
-      <guid isPermaLink="false">016bbfe69ce615e3</guid>
-      <description>San Jose · new_grad · 5d</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -133,17 +119,24 @@
     </item>
     <item>
       <title>SpaceX — New Graduate Engineer, Software - '26/'27 (Starlink)</title>
+      <link>https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002</link>
+      <guid isPermaLink="false">fabdb8f412e86cee</guid>
+      <description>Palo Alto, CA · new_grad · 4d</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX — New Graduate Engineer, Software - '26/'27 (Starlink)</title>
       <link>https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002</link>
       <guid isPermaLink="false">1c87f6a0fae87ba2</guid>
       <description>Redmond, WA · new_grad · 4d</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX — New Graduate Engineer, Software - '26/'27 (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002</link>
-      <guid isPermaLink="false">fabdb8f412e86cee</guid>
-      <description>Palo Alto, CA · new_grad · 4d</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <title>Adobe — 2027 University Graduate - Data Scientist</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462</link>
+      <guid isPermaLink="false">cd975b13c43ac336</guid>
+      <description>San Jose · new_grad · 5d</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer Early Career - Amazon Dedicated Cloud</title>
@@ -231,30 +224,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, Early Career — Immediate Start</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8212517</link>
-      <guid isPermaLink="false">b7486ef9d6bfaec7</guid>
-      <description>Toronto · new_grad · 19d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, Early Career — Immediate Start</title>
       <link>https://stripe.com/jobs/search?gh_jid=8212508</link>
       <guid isPermaLink="false">89a30e6770df7c84</guid>
       <description>San Francisco, Seattle, New York · new_grad · 19d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
-      <guid isPermaLink="false">b836bebf63487343</guid>
-      <description>Dublin · new_grad · 19d</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
-      <guid isPermaLink="false">334395993d3f3a1a</guid>
-      <description>Singapore · new_grad · 19d</description>
+      <title>Stripe — Software Engineer, Early Career — Immediate Start</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8212517</link>
+      <guid isPermaLink="false">b7486ef9d6bfaec7</guid>
+      <description>Toronto · new_grad · 19d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -266,9 +245,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
-      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
-      <description>San Francisco, Seattle, New York · new_grad · 19d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
+      <guid isPermaLink="false">c543a8c9860ed243</guid>
+      <description>Bucharest · new_grad · 19d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8130881</link>
+      <guid isPermaLink="false">b836bebf63487343</guid>
+      <description>Dublin · new_grad · 19d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -280,9 +266,16 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
-      <guid isPermaLink="false">c543a8c9860ed243</guid>
-      <description>Bucharest · new_grad · 19d</description>
+      <link>https://stripe.com/jobs/search?gh_jid=8128744</link>
+      <guid isPermaLink="false">ceb9ea1fb24b1574</guid>
+      <description>San Francisco, Seattle, New York · new_grad · 19d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8160776</link>
+      <guid isPermaLink="false">334395993d3f3a1a</guid>
+      <description>Singapore · new_grad · 19d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -396,6 +389,20 @@
       <guid isPermaLink="false">5f1e04a796e9065c</guid>
       <description>London, United Kingdom · new_grad · 29d</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Adobe — 2027 University Graduate - Machine Learning Engineer</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085</link>
+      <guid isPermaLink="false">34d50416f7fe6da9</guid>
+      <description>San Jose, United States of America; Waltham; San Francisco; Austin; Seattle; Lehi; New York · new_grad · 30d</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Adobe — 2027 University Graduate - Software Engineer</title>
+      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Software-Engineer_R172083</link>
+      <guid isPermaLink="false">e6ad6fafe511c468</guid>
+      <description>San Jose, United States of America; San Francisco; Austin; Seattle; Lehi; New York · new_grad · 30d</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer, ROBOTICS, Early Career - 2027</title>

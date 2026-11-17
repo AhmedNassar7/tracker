@@ -4,7 +4,7 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Tue, 17 Nov 2026 13:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 22:23:55 GMT</lastBuildDate>
     <item>
       <title>Foodics — Senior Software Engineer / FDE (PAY)</title>
       <link>https://apply.workable.com/j/B4225D8107</link>
@@ -291,6 +291,13 @@
       <guid isPermaLink="false">d34d97ae9db507b4</guid>
       <description>Makkah, Saudi Arabia (Remote) · mid_level · 40d</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon — Software Development Engineer - Shopping Personalization, Amazon Stores</title>
+      <link>https://www.amazon.jobs/en/jobs/10570946/software-development-engineer-shopping-personalization-amazon-stores</link>
+      <guid isPermaLink="false">b35cd6878ebb35d6</guid>
+      <description>Tel Aviv-Yafo, Tel Aviv, ISR · unknown · 42d</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Yassir — Senior Mobile Android Engineer</title>
@@ -615,6 +622,12 @@
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Senior Site Reliability Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Site-Reliability-Engineer_JR2030134</link>
+      <guid isPermaLink="false">b718261ec4e249b3</guid>
+      <description>Israel, Yokneam +1 more · mid_level · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Software Validation Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Validation-Engineer_JR2011195</link>
       <guid isPermaLink="false">ae260d97e7c95811</guid>
@@ -625,12 +638,6 @@
       <link>https://workday.wd5.myworkdayjobs.com/Workday/job/Israel-Tel-Aviv/Backend-Engineer---AI-Team---Paradox_JR-0109112</link>
       <guid isPermaLink="false">4c9cad457d565a71</guid>
       <description>Israel, Tel Aviv · other · 0d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Data Center Infrastructure Technical Lead, NCS</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Data-Center-Infrastructure-Technical-Lead--NCS_JR2029393-1</link>
-      <guid isPermaLink="false">4771f2690f18b520</guid>
-      <description>Israel, Yokneam +1 more · mid_level · 1d</description>
     </item>
     <item>
       <title>NVIDIA — Senior DevOps Engineer</title>
@@ -649,36 +656,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2030080</link>
       <guid isPermaLink="false">b8b95c959c90e5b9</guid>
       <description>Israel, Yokneam · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, SW Switch</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-System-Test-Architect_JR2020444</link>
-      <guid isPermaLink="false">20cd7f329db7c742</guid>
-      <description>Israel, Yokneam · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, Tools, Automation and AI</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Tools--Automation-and-AI_JR2026683</link>
-      <guid isPermaLink="false">44908c27317efd22</guid>
-      <description>Israel, Yokneam +2 more · mid_level · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Software Engineer - Python, C++, Video Algorithms</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer---Python--C----Video-Algorithms_JR2026084-9</link>
-      <guid isPermaLink="false">11b5b41d82b9a360</guid>
-      <description>Israel, Yokneam +1 more · other · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Software Engineer, Storage</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Engineer--Storage_JR2029278</link>
-      <guid isPermaLink="false">0b045313f31e4ade</guid>
-      <description>Israel, Raanana · other · 1d</description>
-    </item>
-    <item>
-      <title>Salesforce — Lead Backend Software Engineer</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Israel---Tel-Aviv/Lead-Software-Engineer_JR368460</link>
-      <guid isPermaLink="false">92850d28e2d56796</guid>
-      <description>Israel - Tel Aviv · mid_level · 1d</description>
     </item>
   </channel>
 </rss>
