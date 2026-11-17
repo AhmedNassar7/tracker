@@ -4,7 +4,14 @@
     <title>tracker — Asia-Pacific Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Asia-Pacific tracker currently tracks.</description>
-    <lastBuildDate>Tue, 17 Nov 2026 13:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 22:23:55 GMT</lastBuildDate>
+    <item>
+      <title>Amazon — Software Development Engineer, Last Mile Platform Services, SDE</title>
+      <link>https://www.amazon.jobs/en/jobs/10607252/software-development-engineer-last-mile-platform-services-sde</link>
+      <guid isPermaLink="false">5c0646ba336f8805</guid>
+      <description>Gurugram, Haryana, IND · unknown · 0d</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Apple — Fullstack Engineer - ETS</title>
       <link>https://jobs.apple.com/en-us/details/200694893/fullstack-engineer-ets</link>
@@ -20,10 +27,45 @@
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Apple — Software Engineer - Backend Systems</title>
+      <link>https://jobs.apple.com/en-us/details/200690623/software-engineer-backend-systems</link>
+      <guid isPermaLink="false">81f357bccc6e538f</guid>
+      <description>Minato, Japan · unknown · 0d</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer I</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I_R-294428-1</link>
+      <guid isPermaLink="false">16b30541bc6a9388</guid>
+      <description>Pune, India · entry_level · 0d</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Uber — Security Engineer II - Engineer</title>
       <link>https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304806</link>
       <guid isPermaLink="false">ba16aedc5afe5df1</guid>
       <description>Bengaluru, Karnataka, India · mid_level · 0d</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Uber — Software Engineer II - Machine Learning Engineer</title>
+      <link>https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304583</link>
+      <guid isPermaLink="false">e9a5df38fa205148</guid>
+      <description>Hyderabad, Telangana, India · mid_level · 0d</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Block — Software Engineer, Financial Platform - Issuing</title>
+      <link>http://block.xyz/careers/jobs/5369947008?gh_jid=5369947008</link>
+      <guid isPermaLink="false">a12abd90e6171d38</guid>
+      <description>Melbourne, Australia · other · 0d</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Block — Staff Software Engineer, Financial Platform - Issuing</title>
+      <link>http://block.xyz/careers/jobs/5414628008?gh_jid=5414628008</link>
+      <guid isPermaLink="false">d5f17561fcaabe6a</guid>
+      <description>Melbourne, Australia · mid_level · 0d</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -217,15 +259,15 @@
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer (Backend)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7651326002</link>
-      <guid isPermaLink="false">b3a035b1a45ded99</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7651345002</link>
+      <guid isPermaLink="false">26c45b01561219a9</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Senior Staff Software Engineer (Backend)</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7651345002</link>
-      <guid isPermaLink="false">26c45b01561219a9</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=7651326002</link>
+      <guid isPermaLink="false">b3a035b1a45ded99</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -357,15 +399,15 @@
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Ingestion</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002</link>
-      <guid isPermaLink="false">6ea1b1d0cdebc630</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002</link>
+      <guid isPermaLink="false">804d4ef9c1560c7d</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Databricks — Staff Software Engineer - Ingestion</title>
-      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002</link>
-      <guid isPermaLink="false">804d4ef9c1560c7d</guid>
+      <link>https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002</link>
+      <guid isPermaLink="false">6ea1b1d0cdebc630</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -469,13 +511,6 @@
     </item>
     <item>
       <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8208074</link>
-      <guid isPermaLink="false">c64ab765bd23d6d4</guid>
-      <description>Gurugram · other · 1d</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Software Engineer 3</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8092317</link>
       <guid isPermaLink="false">5da37839012eee44</guid>
       <description>Sydney · other · 1d</description>
@@ -483,8 +518,8 @@
     </item>
     <item>
       <title>MongoDB — Software Engineer 3</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8239047</link>
-      <guid isPermaLink="false">3bf220ec63e43dcb</guid>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8208074</link>
+      <guid isPermaLink="false">c64ab765bd23d6d4</guid>
       <description>Gurugram · other · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -492,6 +527,13 @@
       <title>MongoDB — Software Engineer 3</title>
       <link>https://www.mongodb.com/careers/job/?gh_jid=8083366</link>
       <guid isPermaLink="false">86cc509ce14125f1</guid>
+      <description>Gurugram · other · 1d</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MongoDB — Software Engineer 3</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8239047</link>
+      <guid isPermaLink="false">3bf220ec63e43dcb</guid>
       <description>Gurugram · other · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -539,15 +581,15 @@
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955</link>
-      <guid isPermaLink="false">cb9266ad97c9c850</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
+      <guid isPermaLink="false">d287749893376873</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Principal Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674</link>
-      <guid isPermaLink="false">d287749893376873</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955</link>
+      <guid isPermaLink="false">cb9266ad97c9c850</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -581,15 +623,15 @@
     </item>
     <item>
       <title>Okta — Senior Site Reliability Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984</link>
-      <guid isPermaLink="false">c14594b55d24b1eb</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8260950?gh_jid=8260950</link>
+      <guid isPermaLink="false">6da5ca6a48d38cdf</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Senior Site Reliability Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8260950?gh_jid=8260950</link>
-      <guid isPermaLink="false">6da5ca6a48d38cdf</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984</link>
+      <guid isPermaLink="false">c14594b55d24b1eb</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -604,6 +646,13 @@
       <title>Okta — Senior Site Reliability Engineer (K8s, Terraform, Python)</title>
       <link>https://www.okta.com/company/careers/opportunity/8255904?gh_jid=8255904</link>
       <guid isPermaLink="false">34c2b05539fc43ab</guid>
+      <description>Bengaluru, India · mid_level · 1d</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Okta — Senior Software Engineer</title>
+      <link>https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823</link>
+      <guid isPermaLink="false">b6e714d462e21604</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -625,13 +674,6 @@
       <title>Okta — Senior Software Engineer</title>
       <link>https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312</link>
       <guid isPermaLink="false">2b6544e7f3a7ca2b</guid>
-      <description>Bengaluru, India · mid_level · 1d</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Okta — Senior Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823</link>
-      <guid isPermaLink="false">b6e714d462e21604</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -734,13 +776,6 @@
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Okta — Senior Software Engineer, Workflows (Fullstack Javascript Engineer)</title>
-      <link>https://www.okta.com/company/careers/opportunity/5772061?gh_jid=5772061</link>
-      <guid isPermaLink="false">cb4bb9ea1c1a8866</guid>
-      <description>Bengaluru, India · mid_level · 1d</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Okta — Software Architect, Java Backend</title>
       <link>https://www.okta.com/company/careers/opportunity/7882676?gh_jid=7882676</link>
       <guid isPermaLink="false">9f762c4e4ca50f4a</guid>
@@ -805,15 +840,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8236504?gh_jid=8236504</link>
-      <guid isPermaLink="false">eb5acd91786c5490</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8263825?gh_jid=8263825</link>
+      <guid isPermaLink="false">3969c47da8185a2e</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783</link>
-      <guid isPermaLink="false">afbb3c9392629c3e</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8236504?gh_jid=8236504</link>
+      <guid isPermaLink="false">eb5acd91786c5490</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -826,15 +861,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8345801?gh_jid=8345801</link>
-      <guid isPermaLink="false">a481ce015b7e97fa</guid>
+      <link>https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783</link>
+      <guid isPermaLink="false">afbb3c9392629c3e</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer</title>
-      <link>https://www.okta.com/company/careers/opportunity/8263825?gh_jid=8263825</link>
-      <guid isPermaLink="false">3969c47da8185a2e</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8345801?gh_jid=8345801</link>
+      <guid isPermaLink="false">a481ce015b7e97fa</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -882,15 +917,15 @@
     </item>
     <item>
       <title>Okta — Staff Software Engineer - Full Stack</title>
-      <link>https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301</link>
-      <guid isPermaLink="false">2ffb6cc6730a477d</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508</link>
+      <guid isPermaLink="false">45c660725ad6be5e</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Okta — Staff Software Engineer - Full Stack</title>
-      <link>https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508</link>
-      <guid isPermaLink="false">45c660725ad6be5e</guid>
+      <link>https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301</link>
+      <guid isPermaLink="false">2ffb6cc6730a477d</guid>
       <description>Bengaluru, India · mid_level · 1d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1127,16 +1162,16 @@
     </item>
     <item>
       <title>Coupang — Senior Backend Engineer (Monetization) - Coupang Play</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8384779</link>
-      <guid isPermaLink="false">7c6165909e97e43c</guid>
-      <description>Singapore · mid_level · 5d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8384805</link>
+      <guid isPermaLink="false">f078075df7124d23</guid>
+      <description>Seoul, South Korea · mid_level · 5d</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Senior Backend Engineer (Monetization) - Coupang Play</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8384805</link>
-      <guid isPermaLink="false">f078075df7124d23</guid>
-      <description>Seoul, South Korea · mid_level · 5d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8384779</link>
+      <guid isPermaLink="false">7c6165909e97e43c</guid>
+      <description>Singapore · mid_level · 5d</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1162,16 +1197,16 @@
     </item>
     <item>
       <title>Coupang — Staff, Backend Engineer (Monetization) - Coupang Play</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8364437</link>
-      <guid isPermaLink="false">b99c098910b6c556</guid>
-      <description>Singapore · mid_level · 5d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8384816</link>
+      <guid isPermaLink="false">eb58df33fc46a982</guid>
+      <description>Seoul, South Korea · mid_level · 5d</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff, Backend Engineer (Monetization) - Coupang Play</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8384816</link>
-      <guid isPermaLink="false">eb58df33fc46a982</guid>
-      <description>Seoul, South Korea · mid_level · 5d</description>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8364437</link>
+      <guid isPermaLink="false">b99c098910b6c556</guid>
+      <description>Singapore · mid_level · 5d</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1385,13 +1420,6 @@
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Apple — Forward Deployed Software Engineer - Platforms Engineering</title>
-      <link>https://jobs.apple.com/en-us/details/200690939/forward-deployed-software-engineer-platforms-engineering</link>
-      <guid isPermaLink="false">36f5fb51cb774c35</guid>
-      <description>Shanghai, China · unknown · 12d</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coupang — Senior Android Engineer</title>
       <link>https://www.coupang.jobs/en/jobs/?gh_jid=8275812</link>
       <guid isPermaLink="false">ebc13375fc8bebaf</guid>
@@ -1407,15 +1435,15 @@
     </item>
     <item>
       <title>Coupang — Staff Engineer - Cloud Backend Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8338332</link>
-      <guid isPermaLink="false">d78b101d7fb380d4</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8338334</link>
+      <guid isPermaLink="false">20828d33d403e630</guid>
       <description>Bengaluru · mid_level · 12d</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Staff Engineer - Cloud Backend Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8338334</link>
-      <guid isPermaLink="false">20828d33d403e630</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8338332</link>
+      <guid isPermaLink="false">d78b101d7fb380d4</guid>
       <description>Bengaluru · mid_level · 12d</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1526,6 +1554,13 @@
     </item>
     <item>
       <title>Jane Street — Software Engineer</title>
+      <link>https://www.janestreet.com/join-jane-street/apply/5791948002?gh_jid=5791948002</link>
+      <guid isPermaLink="false">24a8cfb5be5007f9</guid>
+      <description>Singapore · other · 14d</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jane Street — Software Engineer</title>
       <link>https://www.janestreet.com/join-jane-street/apply/8617298002?gh_jid=8617298002</link>
       <guid isPermaLink="false">114b12b84b6053b5</guid>
       <description>Hong Kong, Hong Kong · other · 14d</description>
@@ -1533,9 +1568,9 @@
     </item>
     <item>
       <title>Jane Street — Software Engineer</title>
-      <link>https://www.janestreet.com/join-jane-street/apply/8632392002?gh_jid=8632392002</link>
-      <guid isPermaLink="false">ca9336c1abf029de</guid>
-      <description>Singapore · other · 14d</description>
+      <link>https://www.janestreet.com/join-jane-street/apply/4756741002?gh_jid=4756741002</link>
+      <guid isPermaLink="false">7271293dcb9d6a6c</guid>
+      <description>Hong Kong, Hong Kong · other · 14d</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1554,16 +1589,9 @@
     </item>
     <item>
       <title>Jane Street — Software Engineer</title>
-      <link>https://www.janestreet.com/join-jane-street/apply/5791948002?gh_jid=5791948002</link>
-      <guid isPermaLink="false">24a8cfb5be5007f9</guid>
+      <link>https://www.janestreet.com/join-jane-street/apply/8632392002?gh_jid=8632392002</link>
+      <guid isPermaLink="false">ca9336c1abf029de</guid>
       <description>Singapore · other · 14d</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jane Street — Software Engineer</title>
-      <link>https://www.janestreet.com/join-jane-street/apply/4756741002?gh_jid=4756741002</link>
-      <guid isPermaLink="false">7271293dcb9d6a6c</guid>
-      <description>Hong Kong, Hong Kong · other · 14d</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1644,13 +1672,6 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Duolingo — Senior Software Engineer, iOS, Monetization</title>
-      <link>https://careers.duolingo.com/jobs/8701378002?gh_jid=8701378002</link>
-      <guid isPermaLink="false">c8cb011e07edfc13</guid>
-      <description>Beijing, China · mid_level · 15d</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Duolingo — Software Engineer II, iOS, Growth</title>
       <link>https://careers.duolingo.com/jobs/8612120002?gh_jid=8612120002</link>
       <guid isPermaLink="false">a5672e132347470f</guid>
@@ -1690,20 +1711,6 @@
       <link>https://www.amazon.jobs/en/jobs/10593656/software-development-engineer</link>
       <guid isPermaLink="false">e2ed29d1dae81aa0</guid>
       <description>Hyderabad, Telangana, IND · unknown · 18d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Block — Software Engineer, Financial Platform - Issuing</title>
-      <link>http://block.xyz/careers/jobs/5369947008?gh_jid=5369947008</link>
-      <guid isPermaLink="false">a12abd90e6171d38</guid>
-      <description>Melbourne, Australia · other · 18d</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Block — Staff Software Engineer, Financial Platform - Issuing</title>
-      <link>http://block.xyz/careers/jobs/5414628008?gh_jid=5414628008</link>
-      <guid isPermaLink="false">d5f17561fcaabe6a</guid>
-      <description>Melbourne, Australia · mid_level · 18d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -1827,15 +1834,15 @@
     </item>
     <item>
       <title>Coupang — Sr. Director, Back-End Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118861</link>
-      <guid isPermaLink="false">dcedf4c9c8a0c807</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118859</link>
+      <guid isPermaLink="false">4c63e9a34c143091</guid>
       <description>Seoul, South Korea · mid_level · 18d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Sr. Director, Back-End Engineering</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118859</link>
-      <guid isPermaLink="false">4c63e9a34c143091</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=8118861</link>
+      <guid isPermaLink="false">dcedf4c9c8a0c807</guid>
       <description>Seoul, South Korea · mid_level · 18d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1855,15 +1862,15 @@
     </item>
     <item>
       <title>Coupang — Sr.Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7948499</link>
-      <guid isPermaLink="false">08663e102caa2726</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7925105</link>
+      <guid isPermaLink="false">51983b44cc6d9e55</guid>
       <description>Hyderabad · mid_level · 18d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Coupang — Sr.Staff Backend Engineer</title>
-      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7925105</link>
-      <guid isPermaLink="false">51983b44cc6d9e55</guid>
+      <link>https://www.coupang.jobs/en/jobs/?gh_jid=7948499</link>
+      <guid isPermaLink="false">08663e102caa2726</guid>
       <description>Hyderabad · mid_level · 18d</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -1942,6 +1949,13 @@
       <link>https://www.amazon.jobs/en/jobs/10591689/software-development-engineer-ring-taipei-software-team</link>
       <guid isPermaLink="false">0ee5da331ba4ff92</guid>
       <description>Taipei City, TWN · unknown · 19d</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Product-Manager---Technical-II_R-293237</link>
+      <guid isPermaLink="false">7f8ae791f2a5e597</guid>
+      <description>Pune, India · mid_level · 19d</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2071,13 +2085,6 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon — Software Development Engineer - 3, Tax and Account Compliance</title>
-      <link>https://www.amazon.jobs/en/jobs/10588652/software-development-engineer-3-tax-and-account-compliance</link>
-      <guid isPermaLink="false">fa8b35415ad5b2f5</guid>
-      <description>Bengaluru, Karnataka, IND · unknown · 22d</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer, AFT External Fulfillment</title>
       <link>https://www.amazon.jobs/en/jobs/10589197/software-development-engineer-aft-external-fulfillment</link>
       <guid isPermaLink="false">0e7eaf7213be1a68</guid>
@@ -2170,15 +2177,15 @@
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Prime Benefits</title>
-      <link>https://www.amazon.jobs/en/jobs/10585995/software-development-engineer-ii-prime-benefits</link>
-      <guid isPermaLink="false">a908833c1031f4d2</guid>
+      <link>https://www.amazon.jobs/en/jobs/10585996/software-development-engineer-ii-prime-benefits</link>
+      <guid isPermaLink="false">df8f2035563a519b</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 26d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer II, Prime Benefits</title>
-      <link>https://www.amazon.jobs/en/jobs/10585996/software-development-engineer-ii-prime-benefits</link>
-      <guid isPermaLink="false">df8f2035563a519b</guid>
+      <link>https://www.amazon.jobs/en/jobs/10585995/software-development-engineer-ii-prime-benefits</link>
+      <guid isPermaLink="false">a908833c1031f4d2</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 26d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -2187,6 +2194,13 @@
       <link>https://www.amazon.jobs/en/jobs/10586124/software-development-engineer-ship-with-amazon</link>
       <guid isPermaLink="false">095782a6b5b774b3</guid>
       <description>Hyderabad, Telangana, IND · unknown · 26d</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II - Java Full Stack React</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II---Java-Full-Stack-React_R-293613</link>
+      <guid isPermaLink="false">3e889ecfaef7e817</guid>
+      <description>Pune, India · mid_level · 26d</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2264,6 +2278,13 @@
       <link>https://www.amazon.jobs/en/jobs/10582086/software-development-engineer-ii-da-frk</link>
       <guid isPermaLink="false">16ee56472e443a02</guid>
       <description>Bengaluru, Karnataka, IND · mid_level · 30d</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Software Engineer II</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290039</link>
+      <guid isPermaLink="false">69a4da45cbc0a5cd</guid>
+      <description>Pune, India · mid_level · 30d</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -2568,9 +2589,9 @@
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ClickHouse — Senior Software Engineer (Typescript / Frontend) - AI/ML</title>
+      <title>ClickHouse — Senior Software Engineer (Typescript / Front-end) - AI/ML</title>
       <link>https://jobs.ashbyhq.com/clickhouse/dd1eb66c-b6ab-4afa-9aff-7c6c254a6554</link>
-      <guid isPermaLink="false">31bacb979772be9b</guid>
+      <guid isPermaLink="false">5d0754e4b2b9ba21</guid>
       <description>Australia · mid_level · 42d</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -3261,12 +3282,6 @@
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Mastercard — Software Engineer I</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Pune-India/Software-Engineer-I_R-294428-1</link>
-      <guid isPermaLink="false">a20e504fb47504ad</guid>
-      <description>Pune, India · entry_level · 0d</description>
-    </item>
-    <item>
       <title>NVIDIA — Manager, Client Platform Firmware</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Manager--Client-Platform-Firmware_JR2029034</link>
       <guid isPermaLink="false">f2fab28b7b748ee1</guid>
@@ -3283,18 +3298,6 @@
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Vietnam-Ho-Chi-Minh-City/SWQA-Test-Developer-Engineer--SDET_JR2029943</link>
       <guid isPermaLink="false">f9ed6ad27e37136c</guid>
       <description>Vietnam, Ho Chi Minh City · other · 0d</description>
-    </item>
-    <item>
-      <title>Salesforce — Software Engineering AMTS</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-AMTS_JR307116</link>
-      <guid isPermaLink="false">93d9da5153f03bb4</guid>
-      <description>India - Bangalore +1 more · other · 0d</description>
-    </item>
-    <item>
-      <title>Salesforce — Software Engineering LMTS - Backend Distributed Systems</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS_JR338174</link>
-      <guid isPermaLink="false">6aac2aa1147c2989</guid>
-      <description>India - Bangalore +1 more · other · 0d</description>
     </item>
     <item>
       <title>Salesforce — Software Engineering PMTS (Full Stack)</title>
@@ -3331,12 +3334,6 @@
       <link>https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/SW-Engineer--Python--Product-Reliability---DB-Reliability-Eng---1-to-2-years--exp-only-_REF089081W</link>
       <guid isPermaLink="false">f8da71e57606c17a</guid>
       <description>IN - Bengaluru, India · other · 1d</description>
-    </item>
-    <item>
-      <title>Salesforce — Technical Architect- Salesforce Devops</title>
-      <link>https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Technical-Architect--Salesforce-Devops_JR365354</link>
-      <guid isPermaLink="false">2d0918a8ffee983d</guid>
-      <description>India - Bangalore +1 more · mid_level · 2d</description>
     </item>
     <item>
       <title>Mastercard — Senior Software Engineer</title>
