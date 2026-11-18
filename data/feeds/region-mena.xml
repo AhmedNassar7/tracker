@@ -4,7 +4,7 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 14:00:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 21:57:58 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer, MLIL Firmware</title>
       <link>https://www.amazon.jobs/en/jobs/10607880/software-development-engineer-mlil-firmware</link>
@@ -370,6 +370,13 @@
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon — Software Development Engineer - Shopping Personalization AI, Amazon Stores</title>
+      <link>https://www.amazon.jobs/en/jobs/10568490/software-development-engineer-shopping-personalization-ai-amazon-stores</link>
+      <guid isPermaLink="false">6d5cfbbe89b89e60</guid>
+      <description>Tel Aviv-Yafo, Tel Aviv, ISR · unknown · 45d</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Blabs — Senior Backend Engineer (Python)</title>
       <link>https://apply.workable.com/j/99B482550F</link>
       <guid isPermaLink="false">462732ee036ad588</guid>
@@ -629,28 +636,34 @@
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA — Physical Design Backend Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Physical-Design-Backend-Engineer_JR2026772</link>
+      <guid isPermaLink="false">262876a36d5c7726</guid>
+      <description>Israel, Tel Aviv +1 more · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Senior Software Architect, AI Network</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Software-Architect--AI-Network_JR2018051</link>
       <guid isPermaLink="false">58ac785b4c19b8e1</guid>
       <description>Israel, Raanana +1 more · mid_level · 0d</description>
     </item>
     <item>
+      <title>NVIDIA — Senior Software Engineer</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Senior-Software-Engineer_JR2016506</link>
+      <guid isPermaLink="false">fda7d2e39f43b856</guid>
+      <description>Israel, Raanana +1 more · mid_level · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Software Engineer, NVLink</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Engineer--NVLink_JR2025935</link>
+      <guid isPermaLink="false">0f4ef336440579c6</guid>
+      <description>Israel, Raanana +1 more · other · 0d</description>
+    </item>
+    <item>
       <title>NVIDIA — Software Validation Engineer</title>
       <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Validation-Engineer_JR2011195</link>
       <guid isPermaLink="false">ae260d97e7c95811</guid>
       <description>Israel, Yokneam · other · 1d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Physical Design Backend Engineer</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Physical-Design-Backend-Engineer_JR2029863</link>
-      <guid isPermaLink="false">bd10c272115b1f98</guid>
-      <description>Israel, Yokneam · mid_level · 2d</description>
-    </item>
-    <item>
-      <title>NVIDIA — Senior Software Engineer, Network System Validation</title>
-      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Software-Engineer--Network-System-Validation_JR2030080</link>
-      <guid isPermaLink="false">b8b95c959c90e5b9</guid>
-      <description>Israel, Yokneam · mid_level · 2d</description>
     </item>
   </channel>
 </rss>
