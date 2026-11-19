@@ -4,7 +4,14 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Thu, 19 Nov 2026 03:27:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:04:20 GMT</lastBuildDate>
+    <item>
+      <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
+      <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
+      <guid isPermaLink="false">1ce62c63e37bc29e</guid>
+      <description>Mexico · mid_level · 0d</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>ClickHouse — Senior Software Engineer - Cloud Infrastructure - (US Remote)</title>
       <link>https://jobs.ashbyhq.com/clickhouse/caf49f06-ed35-4637-9372-f4df114e852f</link>
@@ -25,13 +32,6 @@
       <guid isPermaLink="false">8e5b176dcf9b95fb</guid>
       <description>Santiago, Chile · mid_level · 1d</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB — Senior Software Engineer, Competitive Benchmarking</title>
-      <link>https://www.mongodb.com/careers/job/?gh_jid=8177031</link>
-      <guid isPermaLink="false">1ce62c63e37bc29e</guid>
-      <description>Mexico · mid_level · 3d</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Airbnb — Senior Fullstack Software Engineer, Quality Platform</title>
@@ -258,13 +258,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Kraken — Software Engineer II - Rust - Pro</title>
-      <link>https://jobs.ashbyhq.com/kraken.com/225dd840-3938-4fe4-84cd-cca280efafc2</link>
-      <guid isPermaLink="false">9d0a1938942f6b04</guid>
-      <description>Brazil · mid_level · 37d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>SumUp — Senior Software Engineer (Lending Team)</title>
       <link>https://sumup.com/careers/positions/8769169002?gh_jid=8769169002</link>
       <guid isPermaLink="false">3ee0d9e70044c025</guid>
@@ -382,12 +375,6 @@
       <guid isPermaLink="false">19c730acee6300f3</guid>
       <description>Brasil · mid_level · 167d</description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastercard — Software Integration Engineer</title>
-      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Software-Integration-Engineer_R-277533</link>
-      <guid isPermaLink="false">13fcc2582548d81d</guid>
-      <description>Mexico City, Mexico · other · 12d</description>
     </item>
   </channel>
 </rss>
