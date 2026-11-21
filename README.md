@@ -4,13 +4,13 @@
 
 <p align="center"><i>Software engineering jobs, internships, hackathons, and events — free, updated hourly.</i></p>
 
-[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) [![CI](https://github.com/AhmedNassar7/tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/ci.yml) [![Deploy site](https://github.com/AhmedNassar7/tracker/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/deploy-site.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Total opportunities 4592](https://img.shields.io/badge/Total%20opportunities-4592-brightgreen.svg)](data/README.md) [![Jobs 4298](https://img.shields.io/badge/Jobs-4298-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-11-21](https://img.shields.io/badge/Last%20updated-2026--11--21-grey.svg)](LAST_UPDATED)
+[![Hourly Global Tech Roles PR](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/hourly-global-roles.yml) [![CI](https://github.com/AhmedNassar7/tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/ci.yml) [![Deploy site](https://github.com/AhmedNassar7/tracker/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/AhmedNassar7/tracker/actions/workflows/deploy-site.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Total opportunities 4455](https://img.shields.io/badge/Total%20opportunities-4455-brightgreen.svg)](data/README.md) [![Jobs 4163](https://img.shields.io/badge/Jobs-4163-16a34a.svg)](data/README.md#jobs) [![Last updated 2026-11-21](https://img.shields.io/badge/Last%20updated-2026--11--21-grey.svg)](LAST_UPDATED)
 
-[![Internship 357](https://img.shields.io/badge/Internship-357-22c55e.svg)](data/README.md#internship) [![Early Career 87](https://img.shields.io/badge/Early%20Career-87-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 3854](https://img.shields.io/badge/Mid--Level%20and%20Above-3854-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 139](https://img.shields.io/badge/Hackathons-139-f59e0b.svg)](data/README.md#hackathons) [![Events 155](https://img.shields.io/badge/Events-155-8b5cf6.svg)](data/README.md#events)
+[![Internship 358](https://img.shields.io/badge/Internship-358-22c55e.svg)](data/README.md#internship) [![Early Career 92](https://img.shields.io/badge/Early%20Career-92-0ea5e9.svg)](data/README.md#early-career) [![Mid-Level and Above 3713](https://img.shields.io/badge/Mid--Level%20and%20Above-3713-dc2626.svg)](data/README.md#mid-level-and-above) [![Hackathons 138](https://img.shields.io/badge/Hackathons-138-f59e0b.svg)](data/README.md#hackathons) [![Events 154](https://img.shields.io/badge/Events-154-8b5cf6.svg)](data/README.md#events)
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB.svg?logo=python&logoColor=white)](scripts/) [![stdlib only](https://img.shields.io/badge/dependencies-stdlib%20only-informational.svg)](CLAUDE.md) [![Astro site](https://img.shields.io/badge/site-Astro%20%2B%20React-ff5d01.svg?logo=astro&logoColor=white)](site/)
 
-### 👉 [**Open the full list of 4592 opportunities**](data/README.md)
+### 👉 [**Open the full list of 4455 opportunities**](data/README.md)
 
 That page has everything: jobs, internships, hackathons, and events, each with a direct apply link. No account needed, just click and go.
 
@@ -20,13 +20,13 @@ _As of 2026-11-21._
 
 | Category | Count | Link |
 |---|---:|---|
-| Internship | 357 | [View](data/README.md#internship) |
-| Early Career | 87 | [View](data/README.md#early-career) |
-| Mid-Level and Above | 3854 | [View](data/README.md#mid-level-and-above) |
-| **Jobs total** | **4298** | [View](data/README.md#jobs) |
-| Hackathons | 139 | [View](data/README.md#hackathons) |
-| Events | 155 | [View](data/README.md#events) |
-| **Grand total** | **4592** | [View](data/README.md) |
+| Internship | 358 | [View](data/README.md#internship) |
+| Early Career | 92 | [View](data/README.md#early-career) |
+| Mid-Level and Above | 3713 | [View](data/README.md#mid-level-and-above) |
+| **Jobs total** | **4163** | [View](data/README.md#jobs) |
+| Hackathons | 138 | [View](data/README.md#hackathons) |
+| Events | 154 | [View](data/README.md#events) |
+| **Grand total** | **4455** | [View](data/README.md) |
 
 ## Features
 
