@@ -4,7 +4,7 @@
     <title>tracker — Middle East &amp; Africa Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Middle East &amp; Africa tracker currently tracks.</description>
-    <lastBuildDate>Sun, 22 Nov 2026 03:14:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 11:32:07 GMT</lastBuildDate>
     <item>
       <title>Amazon — Software Development Engineer – EC2</title>
       <link>https://www.amazon.jobs/en/jobs/10609851/software-development-engineer-ec2</link>
@@ -153,13 +153,6 @@
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Unifonic — Senior Java Software Engineer</title>
-      <link>https://jobs.unifonic.com/o/senior-software-engineer-java-eg</link>
-      <guid isPermaLink="false">45940a6f1584e816</guid>
-      <description>Cairo, Egypt +3 more · mid_level · 11d</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Synapseanalytics — DevOps Engineer II</title>
       <link>https://synapseanalytics.recruitee.com/o/devops-engineer-ii</link>
       <guid isPermaLink="false">736e8fc5b7374eb7</guid>
@@ -172,20 +165,6 @@
       <guid isPermaLink="false">6635b1ce8076c992</guid>
       <description>Egypt (Remote) · mid_level · 14d</description>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Incorta — Principle Software Engineer</title>
-      <link>https://jobs.lever.co/incorta/7637ea82-5651-4400-9b87-6da61f913e95</link>
-      <guid isPermaLink="false">dc375b500d411618</guid>
-      <description>Cairo · other · 17d</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Incorta — Senior Software Engineer</title>
-      <link>https://jobs.lever.co/incorta/dc034adb-5dab-48cc-9c75-3433ddf5b2d6</link>
-      <guid isPermaLink="false">52f42f46f28758ef</guid>
-      <description>Cairo · mid_level · 17d</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer - 2027</title>
@@ -606,6 +585,18 @@
       <guid isPermaLink="false">69420840ce813f13</guid>
       <description>Cape Town, Western Cape, ZAF · unknown · 177d</description>
       <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA — DevOps and Automation Engineer – ICPE</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/DevOps-and-Automation-Engineer---ICPE_JR2025436-1</link>
+      <guid isPermaLink="false">c5df6e690c8cf837</guid>
+      <description>Israel, Yokneam · other · 0d</description>
+    </item>
+    <item>
+      <title>NVIDIA — Software Engineer, AI Infrastructure</title>
+      <link>https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Infrastructure_JR2028826</link>
+      <guid isPermaLink="false">df3453bdebd357e2</guid>
+      <description>Israel, Tel Aviv · other · 0d</description>
     </item>
   </channel>
 </rss>

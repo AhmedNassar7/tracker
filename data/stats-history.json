@@ -1,105 +1,7 @@
 {
-  "updated_at": "2026-11-22T03:14:48Z",
+  "updated_at": "2026-11-22T11:32:07Z",
   "retention_days": 90,
   "snapshots": [
-    {
-      "at": "2026-08-24T03:18:45Z",
-      "curated_roles": 194,
-      "public_opportunities": 2592,
-      "jobs_total": 2368,
-      "hackathons_total": 204,
-      "events_total": 3,
-      "total_items": 2575,
-      "level_counts": {
-        "internship": 124,
-        "early_career": 100,
-        "mid_level": 2144
-      }
-    },
-    {
-      "at": "2026-08-24T05:03:46Z",
-      "curated_roles": 191,
-      "public_opportunities": 2542,
-      "jobs_total": 2315,
-      "hackathons_total": 204,
-      "events_total": 3,
-      "total_items": 2522,
-      "level_counts": {
-        "internship": 123,
-        "early_career": 98,
-        "mid_level": 2094
-      }
-    },
-    {
-      "at": "2026-08-24T05:55:25Z",
-      "curated_roles": 191,
-      "public_opportunities": 2545,
-      "jobs_total": 2318,
-      "hackathons_total": 204,
-      "events_total": 3,
-      "total_items": 2525,
-      "level_counts": {
-        "internship": 123,
-        "early_career": 98,
-        "mid_level": 2097
-      }
-    },
-    {
-      "at": "2026-08-24T07:22:22Z",
-      "curated_roles": 191,
-      "public_opportunities": 2541,
-      "jobs_total": 2313,
-      "hackathons_total": 205,
-      "events_total": 3,
-      "total_items": 2521,
-      "level_counts": {
-        "internship": 123,
-        "early_career": 98,
-        "mid_level": 2092
-      }
-    },
-    {
-      "at": "2026-08-24T09:06:02Z",
-      "curated_roles": 196,
-      "public_opportunities": 2588,
-      "jobs_total": 2365,
-      "hackathons_total": 204,
-      "events_total": 4,
-      "total_items": 2573,
-      "level_counts": {
-        "internship": 124,
-        "early_career": 103,
-        "mid_level": 2138
-      }
-    },
-    {
-      "at": "2026-08-24T10:06:09Z",
-      "curated_roles": 195,
-      "public_opportunities": 2587,
-      "jobs_total": 2364,
-      "hackathons_total": 204,
-      "events_total": 3,
-      "total_items": 2571,
-      "level_counts": {
-        "internship": 123,
-        "early_career": 100,
-        "mid_level": 2141
-      }
-    },
-    {
-      "at": "2026-08-24T10:55:44Z",
-      "curated_roles": 194,
-      "public_opportunities": 2593,
-      "jobs_total": 2365,
-      "hackathons_total": 204,
-      "events_total": 7,
-      "total_items": 2576,
-      "level_counts": {
-        "internship": 124,
-        "early_career": 100,
-        "mid_level": 2141
-      }
-    },
     {
       "at": "2026-08-24T11:46:03Z",
       "curated_roles": 196,
@@ -47661,6 +47563,131 @@
           "ClickHouse": 59,
           "Robinhood": 51,
           "Expedia Group": 45
+        }
+      }
+    },
+    {
+      "at": "2026-11-22T11:32:07Z",
+      "curated_roles": 1464,
+      "public_opportunities": 3651,
+      "jobs_total": 4283,
+      "hackathons_total": 146,
+      "events_total": 152,
+      "total_items": 4581,
+      "level_counts": {
+        "internship": 369,
+        "early_career": 88,
+        "mid_level": 3826
+      },
+      "dimensions": {
+        "by_level": {
+          "unknown": 750,
+          "internship": 341,
+          "new_grad": 57,
+          "entry_level": 22,
+          "mid_level": 2159,
+          "junior": 5,
+          "other": 913
+        },
+        "by_region": {
+          "apac": 467,
+          "europe": 608,
+          "unknown": 506,
+          "north_america": 2264,
+          "remote": 263,
+          "mena": 85,
+          "latam": 54
+        },
+        "by_remote_type": {
+          "onsite": 1202,
+          "remote": 2,
+          "unknown": 3043
+        },
+        "by_role_type": {
+          "software_engineer": 2430,
+          "machine_learning": 119,
+          "infrastructure": 477,
+          "security": 46,
+          "mobile": 175,
+          "platform": 444,
+          "backend": 262,
+          "full_stack": 227,
+          "frontend": 67
+        },
+        "by_category": {
+          "faang": 970,
+          "big_tech": 28,
+          "product_saas": 24,
+          "ai_research": 5,
+          "fintech": 23,
+          "ride_delivery": 27,
+          "more_global_tech": 49,
+          "microsoft_group": 29,
+          "cloud_infra": 18,
+          "apac_tech": 30,
+          "consulting_finance": 1,
+          "uncategorized": 3043
+        },
+        "by_country": {
+          "United States": 2044,
+          "Unknown": 662,
+          "India": 306,
+          "Canada": 286,
+          "United Kingdom": 147,
+          "Ireland": 97,
+          "China": 58,
+          "Germany": 49,
+          "Poland": 49,
+          "Spain": 47,
+          "South Korea": 41,
+          "Egypt": 40,
+          "France": 35,
+          "Brazil": 34,
+          "Sweden": 29
+        },
+        "by_source": {
+          "amazon": 823,
+          "greenhouse:spacex": 421,
+          "greenhouse:databricks": 177,
+          "greenhouse:elastic": 163,
+          "greenhouse:okta": 139,
+          "jibe:careers.se.com": 135,
+          "greenhouse:roblox": 128,
+          "ashby:openai": 120,
+          "derec4_newgrad": 119,
+          "greenhouse:anthropic": 118,
+          "apple": 111,
+          "greenhouse:stripe": 94,
+          "ashby:snowflake": 78,
+          "greenhouse:coupang": 78,
+          "greenhouse:mongodb": 76,
+          "greenhouse:coinbase": 72,
+          "greenhouse:cloudflare": 66,
+          "greenhouse:sonyinteractiveentertainmentglobal": 62,
+          "ashby:clickhouse": 59,
+          "greenhouse:robinhood": 51
+        },
+        "top_companies": {
+          "Amazon": 846,
+          "SpaceX": 421,
+          "Databricks": 178,
+          "Elastic": 163,
+          "Okta": 140,
+          "Schneider Electric": 135,
+          "Roblox": 133,
+          "OpenAI": 120,
+          "Anthropic": 118,
+          "Apple": 115,
+          "Stripe": 107,
+          "Snowflake": 93,
+          "Coupang": 78,
+          "MongoDB": 77,
+          "Coinbase": 73,
+          "Cloudflare": 66,
+          "Sony Interactive Entertainment": 66,
+          "ClickHouse": 59,
+          "Robinhood": 51,
+          "Expedia Group": 47
         }
       }
     }
