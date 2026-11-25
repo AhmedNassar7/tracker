@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-11-25T12:54:11Z",
+  "updated_at": "2026-11-25T22:31:48Z",
   "retention_days": 90,
   "snapshots": [
-    {
-      "at": "2026-08-27T20:32:44Z",
-      "curated_roles": 198,
-      "public_opportunities": 2664,
-      "jobs_total": 2440,
-      "hackathons_total": 206,
-      "events_total": 3,
-      "total_items": 2649,
-      "level_counts": {
-        "internship": 119,
-        "early_career": 102,
-        "mid_level": 2219
-      }
-    },
     {
       "at": "2026-08-28T05:26:21Z",
       "curated_roles": 194,
@@ -47960,6 +47946,132 @@
           "ClickHouse": 58,
           "Robinhood": 52,
           "Expedia Group": 46
+        }
+      }
+    },
+    {
+      "at": "2026-11-25T22:31:48Z",
+      "curated_roles": 1464,
+      "public_opportunities": 3696,
+      "jobs_total": 4284,
+      "hackathons_total": 164,
+      "events_total": 149,
+      "total_items": 4597,
+      "level_counts": {
+        "internship": 322,
+        "early_career": 86,
+        "mid_level": 3876
+      },
+      "dimensions": {
+        "by_level": {
+          "internship": 307,
+          "unknown": 737,
+          "mid_level": 2195,
+          "new_grad": 52,
+          "entry_level": 28,
+          "junior": 4,
+          "other": 939
+        },
+        "by_region": {
+          "north_america": 2246,
+          "apac": 470,
+          "europe": 604,
+          "unknown": 517,
+          "remote": 280,
+          "mena": 89,
+          "latam": 56
+        },
+        "by_remote_type": {
+          "onsite": 1182,
+          "remote": 2,
+          "hybrid": 3,
+          "unknown": 3075
+        },
+        "by_role_type": {
+          "frontend": 67,
+          "software_engineer": 2458,
+          "security": 49,
+          "machine_learning": 116,
+          "infrastructure": 463,
+          "mobile": 178,
+          "platform": 445,
+          "backend": 254,
+          "full_stack": 232
+        },
+        "by_category": {
+          "faang": 962,
+          "big_tech": 27,
+          "product_saas": 20,
+          "ai_research": 3,
+          "fintech": 34,
+          "ride_delivery": 28,
+          "more_global_tech": 50,
+          "consulting_finance": 5,
+          "microsoft_group": 25,
+          "apac_tech": 31,
+          "cloud_infra": 2,
+          "uncategorized": 3075
+        },
+        "by_country": {
+          "United States": 2051,
+          "Unknown": 655,
+          "India": 306,
+          "Canada": 292,
+          "United Kingdom": 144,
+          "Ireland": 102,
+          "China": 66,
+          "Spain": 49,
+          "Poland": 47,
+          "Germany": 44,
+          "Egypt": 41,
+          "South Korea": 40,
+          "France": 37,
+          "Brazil": 35,
+          "Sweden": 30
+        },
+        "by_source": {
+          "amazon": 816,
+          "greenhouse:spacex": 430,
+          "greenhouse:databricks": 164,
+          "greenhouse:elastic": 161,
+          "greenhouse:okta": 146,
+          "jibe:careers.se.com": 140,
+          "greenhouse:roblox": 127,
+          "ashby:openai": 119,
+          "greenhouse:anthropic": 119,
+          "apple": 111,
+          "derec4_newgrad": 105,
+          "greenhouse:stripe": 95,
+          "greenhouse:mongodb": 78,
+          "greenhouse:coupang": 77,
+          "ashby:snowflake": 75,
+          "greenhouse:coinbase": 73,
+          "greenhouse:cloudflare": 67,
+          "greenhouse:sonyinteractiveentertainmentglobal": 63,
+          "ashby:clickhouse": 58,
+          "greenhouse:robinhood": 54
+        },
+        "top_companies": {
+          "Amazon": 842,
+          "SpaceX": 430,
+          "Databricks": 165,
+          "Elastic": 161,
+          "Okta": 147,
+          "Schneider Electric": 140,
+          "Roblox": 130,
+          "Anthropic": 119,
+          "OpenAI": 119,
+          "Apple": 113,
+          "Stripe": 105,
+          "MongoDB": 78,
+          "Coinbase": 77,
+          "Coupang": 77,
+          "Snowflake": 75,
+          "Cloudflare": 67,
+          "Sony Interactive Entertainment": 67,
+          "ClickHouse": 58,
+          "Robinhood": 54,
+          "DoorDash": 46
         }
       }
     }
