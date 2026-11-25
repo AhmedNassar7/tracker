@@ -4,1056 +4,1049 @@
     <title>tracker — Events</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Tech events tracker is currently tracking.</description>
-    <lastBuildDate>Tue, 24 Nov 2026 17:45:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 02:26:30 GMT</lastBuildDate>
+    <item>
+      <title>AI World Congress — AI World Congress</title>
+      <link>https://aiconference.london</link>
+      <guid isPermaLink="false">3dee712ad855258d</guid>
+      <description>London, U.K. · happening now</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Big Data Europe — Big Data Europe</title>
       <link>https://bigdataconference.eu</link>
       <guid isPermaLink="false">bcc787cae86c12b2</guid>
       <description>Vilnius, Lithuania · happening now</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DDC .NET Developer Conference — DDC .NET Developer Conference</title>
-      <link>https://www.developer-world.de/ddc</link>
-      <guid isPermaLink="false">f8586d5f8dd26543</guid>
-      <description>Cologne, Germany · happening now</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <title>WeAreDevelopers Conference India — WeAreDevelopers Conference India</title>
+      <link>https://www.wearedevelopers.com/conference-india</link>
+      <guid isPermaLink="false">b88297d6e04f3d99</guid>
+      <description>Bengaluru, India · happening now</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>XtremeAI Online Conference — XtremeAI Online Conference</title>
       <link>https://xtremeai.dev</link>
       <guid isPermaLink="false">869a71b4d252d8c2</guid>
       <description>Virtual · happening now</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI World Congress — AI World Congress</title>
-      <link>https://aiconference.london</link>
-      <guid isPermaLink="false">3dee712ad855258d</guid>
-      <description>London, U.K. · 1 day left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>WeAreDevelopers Conference India — WeAreDevelopers Conference India</title>
-      <link>https://www.wearedevelopers.com/conference-india</link>
-      <guid isPermaLink="false">b88297d6e04f3d99</guid>
-      <description>Bengaluru, India · 1 day left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>betterCode() Rust — betterCode() Rust</title>
       <link>https://rust.bettercode.eu</link>
       <guid isPermaLink="false">81c6ce7daba95092</guid>
-      <description>Virtual · 2 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Virtual · 1 day left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>EdTech Conference — EdTech Conference</title>
       <link>https://edtechconferences.london</link>
       <guid isPermaLink="false">16477afb18928c38</guid>
-      <description>London, U.K. · 2 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 1 day left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SymfonyCon — SymfonyCon</title>
       <link>https://live.symfony.com/2026-warsaw-con</link>
       <guid isPermaLink="false">1612975b8c96081f</guid>
-      <description>Warsaw, Poland · 2 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Warsaw, Poland · 1 day left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Workplace Ninjas India — Workplace Ninjas India</title>
       <link>https://www.wpninjas-india.com</link>
       <guid isPermaLink="false">7b840196069d1975</guid>
-      <description>Delhi, India · 3 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Delhi, India · 2 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>FOSS for All Conference — FOSS for All Conference</title>
       <link>https://2026.fossforall.org</link>
       <guid isPermaLink="false">18f5bf07cd3ad473</guid>
-      <description>Seoul, South Korea · 4 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Seoul, South Korea · 3 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon Web Services — AWS re:Invent</title>
       <link>https://aws.amazon.com/events/reinvent/</link>
       <guid isPermaLink="false">1b17ceebc7e72b99</guid>
-      <description>Las Vegas, USA · 6 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Las Vegas, USA · 5 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>APIConf — APIConf</title>
       <link>https://apiconf.io</link>
       <guid isPermaLink="false">8a99dc2c867f02d2</guid>
-      <description>Clear Water, FL, U.S.A. · 6 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Clear Water, FL, U.S.A. · 5 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DevOpsCon Munich — DevOpsCon Munich</title>
       <link>https://devopscon.io/muenchen</link>
       <guid isPermaLink="false">054cf655b09011d7</guid>
-      <description>Munich, Germany · 6 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Munich, Germany · 5 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ESPC — ESPC</title>
       <link>https://www.sharepointeurope.com</link>
       <guid isPermaLink="false">057d935a0df2c2bd</guid>
-      <description>Amsterdam, Netherlands · 6 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 5 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>IT Security Summit Munich — IT Security Summit Munich</title>
       <link>https://it-security-summit.com/munich</link>
       <guid isPermaLink="false">c7a750f3a2ede0a2</guid>
-      <description>Munich, Germany · 6 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Munich, Germany · 5 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Apidays Paris — Apidays Paris</title>
       <link>https://www.apidays.global/paris</link>
       <guid isPermaLink="false">fb861273f3387f81</guid>
-      <description>Paris, France · 7 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Paris, France · 6 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>APLAS — APLAS 2026</title>
       <link>https://conf.researchr.org/home/aplas-atva-2026</link>
       <guid isPermaLink="false">b4e4f6598487435f</guid>
-      <description>Hong Kong · 7 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Hong Kong · 6 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Build It Summit — Build It Summit</title>
       <link>https://builditsummit.com</link>
       <guid isPermaLink="false">6fb3c42f61e4b41c</guid>
-      <description>Paris, France · 7 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Paris, France · 6 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>JakartaOne Livestream — JakartaOne Livestream</title>
       <link>https://jakartaone.jakarta.ee/jakartaone-livestream-2026</link>
       <guid isPermaLink="false">668f0e7dbb9276c2</guid>
-      <description>Virtual · 7 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Virtual · 6 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Oh My Hack — Oh My Hack</title>
       <link>https://omhconf.pl</link>
       <guid isPermaLink="false">a0e8db40d8d71375</guid>
-      <description>Warsaw, Poland · 8 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Warsaw, Poland · 7 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Open Hackathons — CINECA Open Hackathon</title>
       <link>https://www.openhackathons.org/s/siteevent/a0CUP00003NdHta2AF</link>
       <guid isPermaLink="false">60f727d85778409d</guid>
-      <description>Bologna, Italy · 8 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Bologna, Italy · 7 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>betterCode() PHP — betterCode() PHP</title>
       <link>https://php.bettercode.eu</link>
       <guid isPermaLink="false">2603afa735b38930</guid>
-      <description>Virtual · 9 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Virtual · 8 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AI Coding Summit Berlin Edition — AI Coding Summit Berlin Edition</title>
       <link>https://aicodingsummit.com/berlin</link>
       <guid isPermaLink="false">c268f9a1139b6374</guid>
-      <description>Berlin, Germany · 10 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 9 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>PyConf — PyConf</title>
       <link>https://pyconf.org</link>
       <guid isPermaLink="false">804c24d50b45be4d</guid>
-      <description>San Francisco, CA, U.S.A. · 10 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Francisco, CA, U.S.A. · 9 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>React Day Berlin — React Day Berlin</title>
       <link>https://reactday.berlin</link>
       <guid isPermaLink="false">895c17e7af3281b2</guid>
-      <description>Berlin, Germany · 10 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 9 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AICD Summit — AICD Summit</title>
       <link>https://aicommunitydays.ai/events/aicd-summit-2026</link>
       <guid isPermaLink="false">d605d606d4530f1b</guid>
-      <description>Tunis, Tunisia · 11 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Tunis, Tunisia · 10 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DevFestMN — DevFestMN</title>
       <link>https://devfest.mn</link>
       <guid isPermaLink="false">ac2bb5b378ca7b52</guid>
-      <description>Minneapolis, MN, U.S.A. · 11 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Minneapolis, MN, U.S.A. · 10 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>NeurIPS Foundation — NeurIPS 2026</title>
       <link>https://neurips.cc/Conferences/2026</link>
       <guid isPermaLink="false">d52458d74935c666</guid>
-      <description>Sydney, Australia · 12 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Sydney, Australia · 11 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ArchConf — ArchConf</title>
       <link>https://archconf.com</link>
       <guid isPermaLink="false">2a5ad13bccd6e3a0</guid>
-      <description>Clearwater, FL, U.S.A. · 13 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Clearwater, FL, U.S.A. · 12 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>IT-Tage — IT-Tage</title>
       <link>https://www.it-tage.org</link>
       <guid isPermaLink="false">92c9b7ef8a157149</guid>
-      <description>Frankfurt am Main, Germany · 13 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Frankfurt am Main, Germany · 12 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>KAOUN Int'l — GITEX GLOBAL</title>
       <link>https://www.gitex.com/</link>
       <guid isPermaLink="false">c711d27b9275ed85</guid>
-      <description>Dubai, UAE · 13 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Dubai, UAE · 12 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Linux Foundation — Open Source Summit Japan</title>
       <link>https://events.linuxfoundation.org/open-source-summit-japan/</link>
       <guid isPermaLink="false">6141c4279e4c7baf</guid>
-      <description>Tokyo, Japan · 13 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Tokyo, Japan · 12 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Conversations Roadshow: New York by CTO Craft — Conversations Roadshow: New York by CTO Craft</title>
       <link>https://conversations.ctocraft.com/new-york</link>
       <guid isPermaLink="false">d9cb8f8731318936</guid>
-      <description>New York, NY, U.S.A. · 14 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>New York, NY, U.S.A. · 13 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>droidcon London — droidcon London</title>
       <link>https://london.droidcon.com</link>
       <guid isPermaLink="false">d6974c15a405be8b</guid>
-      <description>London, U.K. · 15 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 14 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Great International AI Native Summit (GAINS) — Great International AI Native Summit (GAINS)</title>
       <link>https://ainativesummit.com</link>
       <guid isPermaLink="false">861a00be547188f9</guid>
-      <description>Bangalore, India · 15 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Bangalore, India · 14 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Open Source Experience — Open Source Experience</title>
       <link>https://www.opensource-experience.com/en/</link>
       <guid isPermaLink="false">78dfb6aaa1ffd3e2</guid>
-      <description>Paris, France · 16 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Paris, France · 15 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AI for Developers — AI for Developers</title>
       <link>https://aiconference.dev</link>
       <guid isPermaLink="false">1e68d51b58238632</guid>
-      <description>Virtual · 23 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Virtual · 22 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SciPy India — SciPy India</title>
       <link>https://scipy.in/2026/</link>
       <guid isPermaLink="false">5c1d17fdabc03b80</guid>
-      <description>Chennai, India · 25 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Chennai, India · 24 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AI Conf Asia — AI Conf Asia</title>
       <link>https://aiconf.asia</link>
       <guid isPermaLink="false">7b94081a923c7e19</guid>
-      <description>Kathmandu, Nepal · 46 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Kathmandu, Nepal · 45 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ACM SIGPLAN — POPL 2027</title>
       <link>https://popl27.sigplan.org/</link>
       <guid isPermaLink="false">7110e0f53252aa02</guid>
-      <description>Mexico City, Mexico · 47 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Mexico City, Mexico · 46 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ACM SIGPLAN — VMCAI 2027</title>
       <link>https://conf.researchr.org/home/VMCAI-2027</link>
       <guid isPermaLink="false">c696fd5244bb93cd</guid>
-      <description>Mexico City, Mexico · 48 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Mexico City, Mexico · 47 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>M365 Con — M365 Con</title>
       <link>https://m365con.net</link>
       <guid isPermaLink="false">a781708789e51b2f</guid>
-      <description>Virtual · 48 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Virtual · 47 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Upstream — Upstream</title>
       <link>https://upstream.snowxa.com</link>
       <guid isPermaLink="false">159991e1c12090d2</guid>
-      <description>San Francisco, CA, U.S.A. · 51 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Francisco, CA, U.S.A. · 50 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>JChampions Conference — JChampions Conference</title>
       <link>https://jchampionsconf.com</link>
       <guid isPermaLink="false">7f928c18a9ca2e38</guid>
-      <description>Virtual · 58 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Virtual · 57 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>FUN OCaml — FUN OCaml</title>
       <link>https://fun-ocaml.com</link>
       <guid isPermaLink="false">e97498603cbf51a1</guid>
-      <description>Bangalore, India · 62 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Bangalore, India · 61 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>FOSDEM — FOSDEM</title>
       <link>https://fosdem.org/2027/</link>
       <guid isPermaLink="false">4f4014ba094e2c6e</guid>
-      <description>Brussels, Belgium · 67 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Brussels, Belgium · 66 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>3rd International Conference on Artificial Intelligence and Data Science — 3rd International Conference on Artificial Intelligence and Data Science</title>
       <link>https://datascience.averconferences.com</link>
       <guid isPermaLink="false">f4cf66404c3e6ca5</guid>
-      <description>Dubai, United Arab Emirates · 69 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Dubai, United Arab Emirates · 68 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ARCtic Conference — ARCtic Conference</title>
       <link>https://arcticonference.com</link>
       <guid isPermaLink="false">86f52049a2e5af9b</guid>
-      <description>Oulu, Finland · 70 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Oulu, Finland · 69 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Daytona Compute — Daytona Compute</title>
       <link>https://compute.daytona.io</link>
       <guid isPermaLink="false">90755305637e9b9d</guid>
-      <description>San Francisco, CA, U.S.A. · 71 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Francisco, CA, U.S.A. · 70 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>STEP — STEP Conference</title>
       <link>https://stepconference.com/</link>
       <guid isPermaLink="false">b8eaaf493ccf67b1</guid>
-      <description>Dubai, UAE · 71 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Dubai, UAE · 70 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TechEx Global — TechEx Global</title>
       <link>https://techexevent.com/global</link>
       <guid isPermaLink="false">209566fb98aec831</guid>
-      <description>London, U.K. · 71 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 70 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Web Summit — Web Summit Qatar</title>
       <link>https://qatar.websummit.com/</link>
       <guid isPermaLink="false">c3c8c14b5bfc67fe</guid>
-      <description>Doha, Qatar · 71 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Doha, Qatar · 70 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>HalfStack Phoenix — HalfStack Phoenix</title>
       <link>https://halfstackconf.com/phoenix</link>
       <guid isPermaLink="false">8b19372b0dad6267</guid>
-      <description>Phoenix, AZ, U.S.A. · 73 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Phoenix, AZ, U.S.A. · 72 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>RiseUp — RiseUp Summit</title>
       <link>https://riseupsummit.com/</link>
       <guid isPermaLink="false">1bbdda7878084535</guid>
-      <description>Cairo, Egypt · 73 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Cairo, Egypt · 72 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Developer Week — Developer Week</title>
       <link>https://www.developerweek.com</link>
       <guid isPermaLink="false">e0334acc952a895c</guid>
-      <description>Santa Clara, CA, U.S.A. · 77 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Santa Clara, CA, U.S.A. · 76 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Africa Tech Summit — Africa Tech Summit Nairobi</title>
       <link>https://www.africatechsummit.com/nairobi/</link>
       <guid isPermaLink="false">db0fac319e692f05</guid>
-      <description>Nairobi, Kenya · 78 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Nairobi, Kenya · 77 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Django Software Foundation — DjangoCon Europe 2027</title>
       <link>https://2027.djangocon.eu/</link>
       <guid isPermaLink="false">b13d38fa626f76fb</guid>
-      <description>Innsbruck, Austria · 85 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Innsbruck, Austria · 84 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DevNetwork — DeveloperWeek 2027</title>
       <link>https://www.developerweek.com/</link>
       <guid isPermaLink="false">a3dd6adce217cf6a</guid>
-      <description>Oakland, USA · 86 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Oakland, USA · 85 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ConFoo Montreal — ConFoo Montreal</title>
       <link>https://confoo.ca/en/2027</link>
       <guid isPermaLink="false">45abeb0ef82082e3</guid>
-      <description>Montreal, Canada · 92 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Montreal, Canada · 91 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Hacklytics — Hacklytics 2027</title>
       <link>https://hacklytics.io/</link>
       <guid isPermaLink="false">8b0c1ba51024cc62</guid>
-      <description>Atlanta, USA · 94 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Atlanta, USA · 93 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>BASTA! Spring — BASTA! Spring</title>
       <link>https://basta.net/frankfurt</link>
       <guid isPermaLink="false">8f39cd13bbfc4d05</guid>
-      <description>Frankfurt am Main, Germany · 97 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Frankfurt am Main, Germany · 96 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GSMA — MWC Barcelona</title>
       <link>https://www.mwcbarcelona.com/</link>
       <guid isPermaLink="false">ad564004fd7293e1</guid>
-      <description>Barcelona, Spain · 97 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Barcelona, Spain · 96 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Mountain Camp — Mountain Camp</title>
       <link>https://drupalmountaincamp.ch</link>
       <guid isPermaLink="false">598c65d4b9ade219</guid>
-      <description>Davos, Switzerland · 98 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Davos, Switzerland · 97 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Test Automation Days — Test Automation Days</title>
       <link>https://www.testautomationdays.com</link>
       <guid isPermaLink="false">3b152fdc65136290</guid>
-      <description>Hilversum, Netherlands · 99 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Hilversum, Netherlands · 98 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Annual Global Summit on Artificial Intelligence and Machine Learning — Annual Global Summit on Artificial Intelligence and Machine Learning</title>
       <link>https://vividglobalsummits.com/2027/artificial-intelligence</link>
       <guid isPermaLink="false">3d2be3e8c88e6627</guid>
-      <description>Barcelona, Spain · 104 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Barcelona, Spain · 103 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>INTED — INTED</title>
       <link>https://iated.org/inted</link>
       <guid isPermaLink="false">4c60e0bf99d3869a</guid>
-      <description>Valencia, Spain · 105 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Valencia, Spain · 104 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Voxxed Days Zürich — Voxxed Days Zürich</title>
       <link>https://vdz27.voxxeddays.ch</link>
       <guid isPermaLink="false">1a463178016c16e4</guid>
-      <description>Zurich, Switzerland · 105 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Zurich, Switzerland · 104 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Vuejs Amsterdam — Vuejs Amsterdam</title>
       <link>https://www.vuejs.amsterdam</link>
       <guid isPermaLink="false">2fe0b6c436c26095</guid>
-      <description>Amsterdam, Netherlands · 107 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 106 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>JSWorld Conference — JSWorld Conference</title>
       <link>https://www.jsworldconference.com</link>
       <guid isPermaLink="false">2704938d8b781a4d</guid>
-      <description>Amsterdam, Netherlands · 108 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 107 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>CTO Craft Con: London — CTO Craft Con: London</title>
       <link>https://conference.ctocraft.com/london</link>
       <guid isPermaLink="false">998d619494ab7f1e</guid>
-      <description>London, U.K. · 111 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 110 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>NVIDIA — NVIDIA GTC 2027</title>
       <link>https://www.nvidia.com/gtc/</link>
       <guid isPermaLink="false">efc9849f6c6bd031</guid>
-      <description>San Jose, USA · 111 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Jose, USA · 110 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SXSW — SXSW</title>
       <link>https://sxsw.com/</link>
       <guid isPermaLink="false">10124d75f05ca127</guid>
-      <description>Austin, USA · 111 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Austin, USA · 110 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Appdevcon — Appdevcon</title>
       <link>https://appdevcon.nl</link>
       <guid isPermaLink="false">05019d6dcf65bb54</guid>
-      <description>Amsterdam, Netherlands · 112 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 111 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Dutch AI Conference — Dutch AI Conference</title>
       <link>https://aiconference.nl</link>
       <guid isPermaLink="false">b36bd2f079026b3d</guid>
-      <description>Amsterdam, Netherlands · 112 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 111 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Dutch PHP Conference — Dutch PHP Conference</title>
       <link>https://phpconference.nl</link>
       <guid isPermaLink="false">292a213ca5bd4684</guid>
-      <description>Amsterdam, Netherlands · 112 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 111 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GITEX AI LATAM — GITEX AI LATAM</title>
       <link>https://www.gitexlatam.com</link>
       <guid isPermaLink="false">fe822c7618815460</guid>
-      <description>São Paulo, Brazil · 112 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>São Paulo, Brazil · 111 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Webdevcon — Webdevcon</title>
       <link>https://webdevcon.nl</link>
       <guid isPermaLink="false">5258736760284ba8</guid>
-      <description>Amsterdam, Netherlands · 112 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 111 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Enterprise Private AI UAE — Enterprise Private AI UAE</title>
       <link>https://airswipe-global.com</link>
       <guid isPermaLink="false">f03fe0747844bb91</guid>
-      <description>Dubai, United Arab Emirates · 113 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Dubai, United Arab Emirates · 112 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ACM SIGPLAN — CGO 2027</title>
       <link>https://conf.researchr.org/home/cgo-2027</link>
       <guid isPermaLink="false">4f0d7f37914de4cd</guid>
-      <description>Salt Lake City, USA · 116 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Salt Lake City, USA · 115 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International Conference on Artificial Intelligence and Machine Learning — International Conference on Artificial Intelligence and Machine Learning</title>
       <link>https://aiml.scientificmeditech.com</link>
       <guid isPermaLink="false">a95351301b9728e6</guid>
-      <description>Barcelona, Spain · 116 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Barcelona, Spain · 115 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>PyCascades — PyCascades</title>
       <link>https://2027.pycascades.com</link>
       <guid isPermaLink="false">c86c413b7fa06e6c</guid>
-      <description>Seattle, WA, U.S.A. · 116 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Seattle, WA, U.S.A. · 115 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>FOSS-LÄND x OpenChain — FOSS-LÄND x OpenChain</title>
       <link>https://openchainproject.org/foss-land-x-openchain-2027</link>
       <guid isPermaLink="false">7e9e389099792059</guid>
-      <description>Stuttgart, Germany · 118 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Stuttgart, Germany · 117 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ParisTestConf — ParisTestConf</title>
       <link>https://paristestconf.com</link>
       <guid isPermaLink="false">3386928a58cdc5ad</guid>
-      <description>Paris, France · 119 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Paris, France · 118 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Voxxed Days Amsterdam — Voxxed Days Amsterdam</title>
       <link>https://amsterdam.voxxeddays.com</link>
       <guid isPermaLink="false">6053d31beece5dac</guid>
-      <description>Amsterdam, Netherlands · 127 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 126 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SCaLE — SCaLE</title>
       <link>https://www.socallinuxexpo.org/scale/24x</link>
       <guid isPermaLink="false">25d6df4f23bd0a47</guid>
-      <description>Pasadena, CA, U.S.A. · 128 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Pasadena, CA, U.S.A. · 127 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SunSecCon — SunSecCon</title>
       <link>https://www.sunseccon.org/2027</link>
       <guid isPermaLink="false">54bcb36971827b24</guid>
-      <description>Pasadena, CA, U.S.A. · 128 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Pasadena, CA, U.S.A. · 127 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DevOpsDay LA — DevOpsDay LA</title>
       <link>https://devopsdays.org/events/2027-los-angeles</link>
       <guid isPermaLink="false">413e9020787c0683</guid>
-      <description>Pasadena, CA, U.S.A. · 129 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Pasadena, CA, U.S.A. · 128 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ChurConf — ChurConf</title>
       <link>https://kr.churconf.com</link>
       <guid isPermaLink="false">36eb024f29a71307</guid>
-      <description>Seoul, South Korea · 130 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Seoul, South Korea · 129 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>RSAC — RSA Conference 2027</title>
       <link>https://www.rsaconference.com/usa</link>
       <guid isPermaLink="false">69afbe5f6c8f6889</guid>
-      <description>San Francisco, USA · 132 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Francisco, USA · 131 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>BSides Prague — BSides Prague</title>
       <link>https://bsidesprg.cz</link>
       <guid isPermaLink="false">20c1a42c32b30586</guid>
-      <description>Prague, Czech Republic · 134 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Prague, Czech Republic · 133 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>LEAP — LEAP</title>
       <link>https://onegiantleap.com/</link>
       <guid isPermaLink="false">9befe49cac44d667</guid>
-      <description>Riyadh, Saudi Arabia · 139 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Riyadh, Saudi Arabia · 138 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Open Community Experience — Open Community Experience</title>
       <link>https://ocxconf.org</link>
       <guid isPermaLink="false">284c0f48f8294459</guid>
-      <description>Brussels, Belgium · 140 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Brussels, Belgium · 139 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>betterCode() ABAP — betterCode() ABAP</title>
       <link>https://abap.bettercode.eu</link>
       <guid isPermaLink="false">edd0380dca281bf6</guid>
-      <description>Virtual · 141 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Virtual · 140 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AI Coding Summit Asia — AI Coding Summit Asia</title>
       <link>https://aicodingsummit.com/asia</link>
       <guid isPermaLink="false">8f9529e511ef88a7</guid>
-      <description>Singapore, Singapore · 142 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Singapore, Singapore · 141 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GENAIX: Global Generative &amp; Agentic AI Summit — GENAIX: Global Generative &amp; Agentic AI Summit</title>
       <link>https://genaixworld.com</link>
       <guid isPermaLink="false">f280c09d9e465933</guid>
-      <description>Singapore, Singapore · 142 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Singapore, Singapore · 141 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>React Summit Asia — React Summit Asia</title>
       <link>https://reactsummit.asia</link>
       <guid isPermaLink="false">bf3680c8422136b9</guid>
-      <description>Singapore, Singapore · 142 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Singapore, Singapore · 141 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Digital Crafts Day — Digital Crafts Day</title>
       <link>https://dc-nordoberpfalz.de/DigitalCraftsDay/2027</link>
       <guid isPermaLink="false">977954e408111022</guid>
-      <description>Weiden, Germany · 143 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Weiden, Germany · 142 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Java Day Istanbul — Java Day Istanbul</title>
       <link>https://www.javaday.istanbul</link>
       <guid isPermaLink="false">25e234d503ce19c2</guid>
-      <description>Istanbul, Turkey · 144 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Istanbul, Turkey · 143 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AiX Conference — AiX Conference</title>
       <link>https://aixconf.co.uk</link>
       <guid isPermaLink="false">95772bc17fb48f8b</guid>
-      <description>Newcastle-Upon-Tyne, U.K. · 148 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Newcastle-Upon-Tyne, U.K. · 147 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>CityAI by CityJS Conference — CityAI by CityJS Conference</title>
       <link>https://london.cityaiconf.org</link>
       <guid isPermaLink="false">f7a099a48f84834e</guid>
-      <description>London, U.K. · 148 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 147 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GITEX AI MEDITERRANEAN — GITEX AI MEDITERRANEAN</title>
       <link>https://www.gitexitaly.com</link>
       <guid isPermaLink="false">f8d83b5b6999a586</guid>
-      <description>Rome, Italy · 148 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Rome, Italy · 147 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>STAREAST — STAREAST</title>
       <link>https://stareast.techwell.com</link>
       <guid isPermaLink="false">e8b5ba7d89ddf94c</guid>
-      <description>Orlando, FL, U.S.A. · 152 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Orlando, FL, U.S.A. · 151 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>JCON EUROPE — JCON EUROPE</title>
       <link>https://2027.europe.jcon.one</link>
       <guid isPermaLink="false">b84d47f95bfe6d67</guid>
-      <description>Cologne, Germany · 153 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Cologne, Germany · 152 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Great International Developer Summit (GIDS) — Great International Developer Summit (GIDS)</title>
       <link>https://developersummit.com</link>
       <guid isPermaLink="false">aa075f982ffba7ba</guid>
-      <description>Bangalore, India · 154 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Bangalore, India · 153 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Mobile Makers — Mobile Makers</title>
       <link>https://mobilemakers.fr/en/#cfp</link>
       <guid isPermaLink="false">2ee23f54b205b4a4</guid>
-      <description>Paris, France · 157 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Paris, France · 156 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>KAOUN Int'l — GITEX Europe</title>
       <link>https://www.gitex-europe.com/</link>
       <guid isPermaLink="false">9fde24ffcc90d233</guid>
-      <description>Berlin, Germany · 161 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 160 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Enterprise AI Summit — Enterprise AI Summit</title>
       <link>https://events.itrevolution.com/2027-portland/</link>
       <guid isPermaLink="false">1e8b88e2e36fb33b</guid>
-      <description>Portland, OR, U.S.A. · 162 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Portland, OR, U.S.A. · 161 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Re:Build — Re:Build</title>
       <link>https://rebuildcon.uk</link>
       <guid isPermaLink="false">29dc7f4e3df53266</guid>
-      <description>London, U.K. · 162 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 161 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>JAX — JAX</title>
       <link>https://jax.de/mainz</link>
       <guid isPermaLink="false">97b1b3212d9f66d5</guid>
-      <description>Mainz, Germany · 167 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Mainz, Germany · 166 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>EuroSTAR Conference — EuroSTAR Conference</title>
       <link>https://conference.eurostarsoftwaretesting.com</link>
       <guid isPermaLink="false">68fdd517a6a7cfdd</guid>
-      <description>Copenhagen, Denmark · 168 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Copenhagen, Denmark · 167 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>JSNation — JSNation</title>
       <link>https://jsnation.com</link>
       <guid isPermaLink="false">e2edb5b3383f1d69</guid>
-      <description>Amsterdam, Netherlands · 178 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 177 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>React Summit — React Summit</title>
       <link>https://reactsummit.com</link>
       <guid isPermaLink="false">92ef9c0c846f312d</guid>
-      <description>Amsterdam, Netherlands · 178 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 177 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DevOpsCon San Diego — DevOpsCon San Diego</title>
       <link>https://devopscon.io/san-diego</link>
       <guid isPermaLink="false">21109a59961a75f1</guid>
-      <description>San Diego, CA, U.S.A. · 181 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Diego, CA, U.S.A. · 180 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International JavaScript Conference San Diego — International JavaScript Conference San Diego</title>
       <link>https://javascript-conference.com/san-diego</link>
       <guid isPermaLink="false">81855d7723c2c0c7</guid>
-      <description>San Diego, CA, U.S.A. · 181 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Diego, CA, U.S.A. · 180 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Dublin Tech Summit — Dublin Tech Summit</title>
       <link>https://dublintechsummit.tech/</link>
       <guid isPermaLink="false">6e2d2842dfe27c65</guid>
-      <description>Dublin, Ireland · 183 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Dublin, Ireland · 182 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GITEX AI SERBIA — GITEX AI SERBIA</title>
       <link>https://www.gitexserbia.com</link>
       <guid isPermaLink="false">81522a720ed32504</guid>
-      <description>Belgrade, Serbia · 183 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Belgrade, Serbia · 182 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Devworld Conference — Devworld Conference</title>
       <link>https://www.devworldconference.com</link>
       <guid isPermaLink="false">661df100c04c62d2</guid>
-      <description>Amsterdam, Netherlands · 191 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Amsterdam, Netherlands · 190 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AI Con USA — AI Con USA</title>
       <link>https://aiconusa.techwell.com</link>
       <guid isPermaLink="false">931fbeaa6e6f4e82</guid>
-      <description>Seattle, WA, U.S.A. · 194 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Seattle, WA, U.S.A. · 193 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>API Conference London — API Conference London</title>
       <link>https://apiconference.net/london</link>
       <guid isPermaLink="false">fab476bad8e465cf</guid>
-      <description>London, U.K. · 195 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 194 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DevOpsCon London — DevOpsCon London</title>
       <link>https://devopscon.io/london</link>
       <guid isPermaLink="false">bbf8dcf3bc8edad9</guid>
-      <description>London, U.K. · 195 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 194 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International JavaScript Conference London — International JavaScript Conference London</title>
       <link>https://javascript-conference.com/london</link>
       <guid isPermaLink="false">fe65091c145725a8</guid>
-      <description>London, U.K. · 195 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, U.K. · 194 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>enterJS — enterJS</title>
       <link>https://enterjs.de</link>
       <guid isPermaLink="false">aed7292b137b0a04</guid>
-      <description>Cologne, Germany · 197 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Cologne, Germany · 196 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International Conference on Cybersecurity, AI &amp; Future Digital Infrastructure — International Conference on Cybersecurity, AI &amp; Future Digital Infrastructure</title>
       <link>https://cyberfuture2027.com</link>
       <guid isPermaLink="false">efbdd3829d44761d</guid>
-      <description>Singapore, Singapore · 197 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Singapore, Singapore · 196 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International Conference on Robotics, Artificial Intelligence and Autonomous Systems — International Conference on Robotics, Artificial Intelligence and Autonomous Systems</title>
       <link>https://icraias2027.com</link>
       <guid isPermaLink="false">33621317ca99b993</guid>
-      <description>Singapore, Singapore · 197 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Singapore, Singapore · 196 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AI in Production — AI in Production</title>
       <link>https://ai-in-production.jumpingrivers.com</link>
       <guid isPermaLink="false">23e8b20731fb72eb</guid>
-      <description>Newcastle-Upon-Tyne, U.K. · 198 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Newcastle-Upon-Tyne, U.K. · 197 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DevOpsCon Berlin — DevOpsCon Berlin</title>
       <link>https://devopscon.io/berlin</link>
       <guid isPermaLink="false">f3a5492889d14ec6</guid>
-      <description>Berlin, Germany · 202 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 201 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GopherCon Europe + HeyAI — GopherCon Europe + HeyAI</title>
       <link>https://www.gophercon.eu</link>
       <guid isPermaLink="false">b015b8c45464d5c8</guid>
-      <description>Berlin, Germany · 202 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 201 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International PHP Conference Berlin — International PHP Conference Berlin</title>
       <link>https://phpconference.com/berlin-en</link>
       <guid isPermaLink="false">d07a037387903206</guid>
-      <description>Berlin, Germany · 202 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 201 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>IT Security Summit Berlin — IT Security Summit Berlin</title>
       <link>https://it-security-summit.com/berlin</link>
       <guid isPermaLink="false">1dea4efd5975713d</guid>
-      <description>Berlin, Germany · 202 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 201 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>London Tech Week — London Tech Week</title>
       <link>https://londontechweek.com/</link>
       <guid isPermaLink="false">72584720918b1f8b</guid>
-      <description>London, UK · 202 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>London, UK · 201 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Nürnberg Digital Festival — Nürnberg Digital Festival</title>
       <link>https://nuernberg.digital/de</link>
       <guid isPermaLink="false">83420fcb192c008f</guid>
-      <description>Nürnberg, Germany · 202 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Nürnberg, Germany · 201 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>webinale Berlin — webinale Berlin</title>
       <link>https://webinale.com/berlin</link>
       <guid isPermaLink="false">05a6abea9100bf27</guid>
-      <description>Berlin, Germany · 202 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 201 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Accelerate Tomorrow AI Summit — Accelerate Tomorrow AI Summit</title>
       <link>https://www.acceleratetomorrow.com</link>
       <guid isPermaLink="false">d235efdfceb79743</guid>
-      <description>Berlin, Germany · 203 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 202 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Data Centre North America — Data Centre North America</title>
       <link>https://datacentrecongress.com/northamerica</link>
       <guid isPermaLink="false">fc73240af79fa8d9</guid>
-      <description>San Jose, CA, U.S.A. · 204 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Jose, CA, U.S.A. · 203 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TechEx North America — TechEx North America</title>
       <link>https://techexevent.com/northamerica</link>
       <guid isPermaLink="false">bfed7b22dad5000a</guid>
-      <description>San Jose, CA, U.S.A. · 204 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>San Jose, CA, U.S.A. · 203 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Viva Technology — VivaTech</title>
       <link>https://vivatechnology.com/</link>
       <guid isPermaLink="false">01cdd212b886d246</guid>
-      <description>Paris, France · 204 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Paris, France · 203 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>VibeKode Munich — VibeKode Munich</title>
       <link>https://vibekode.it/munich</link>
       <guid isPermaLink="false">65ab76c5da786388</guid>
-      <description>Munich, Germany · 209 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Munich, Germany · 208 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>WeAreDevelopers — WeAreDevelopers World Congress</title>
       <link>https://www.wearedevelopers.com/world-congress</link>
       <guid isPermaLink="false">81d209b0142a44dd</guid>
-      <description>Berlin, Germany · 232 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Berlin, Germany · 231 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Black Hat — Black Hat USA 2027</title>
       <link>https://blackhat.com/</link>
       <guid isPermaLink="false">9569fdd7b8825185</guid>
-      <description>Las Vegas, USA · 249 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Las Vegas, USA · 248 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DEFNA — DjangoCon US</title>
       <link>https://2027.djangocon.us/</link>
       <guid isPermaLink="false">f48d20ffb1e8675f</guid>
-      <description>Riverside, USA · 293 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Riverside, USA · 292 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Annual Global Summit on Robotics, AI and Machine Learning — Annual Global Summit on Robotics, AI and Machine Learning</title>
       <link>https://vividglobalsummits.com/2027/agsrobot</link>
       <guid isPermaLink="false">13965724245edcd0</guid>
-      <description>Rome, Italy · 295 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Rome, Italy · 294 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>BASTA! Fall — BASTA! Fall</title>
       <link>https://basta.net/mainz</link>
       <guid isPermaLink="false">873f3e97e2d7c148</guid>
-      <description>Mainz, Germany · 307 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Mainz, Germany · 306 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Artificial Intelligence — Artificial Intelligence</title>
       <link>https://artificialintelligence.novelticsconferences.com</link>
       <guid isPermaLink="false">81821bf0fd2a12db</guid>
-      <description>Barcelona, Spain · 328 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Barcelona, Spain · 327 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>W-JAX — W-JAX</title>
       <link>https://jax.de/muenchen</link>
       <guid isPermaLink="false">7c294a93006d3e27</guid>
-      <description>Munich, Germany · 349 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Munich, Germany · 348 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International JavaScript Conference Munich — International JavaScript Conference Munich</title>
       <link>https://javascript-conference.com/muenchen</link>
       <guid isPermaLink="false">69559036944f865b</guid>
-      <description>Munich, Germany · 356 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Munich, Germany · 355 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>International PHP Conference Munich — International PHP Conference Munich</title>
       <link>https://phpconference.com/munich</link>
       <guid isPermaLink="false">509a89fabee88033</guid>
-      <description>Munich, Germany · 356 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Munich, Germany · 355 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>webinale Munich — webinale Munich</title>
       <link>https://webinale.com/munich</link>
       <guid isPermaLink="false">e5f3355d46b71835</guid>
-      <description>Munich, Germany · 356 days left</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Munich, Germany · 355 days left</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Luma — Follow Build Club The most collaborative AI community in the world (50+ Cities, 30K+ community)</title>
       <link>https://lu.ma/buildercommunityanz?k=c</link>
       <guid isPermaLink="false">471efdb8c8e9c1eb</guid>
       <description>Global</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Luma — Follow Google DeepMind Connect with the Google DeepMind Developer Experience Team</title>
       <link>https://lu.ma/deepmind?k=c</link>
       <guid isPermaLink="false">a55b3bdcd72bf05f</guid>
       <description>Global</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Luma — Follow South Park Commons SPC is a home for frontier technologists and founders pursuing their most ambitious work. To learn more or apply, visit southparkcommons.com.</title>
       <link>https://lu.ma/southparkcommons-events?k=c</link>
       <guid isPermaLink="false">87b69b42ea415acf</guid>
       <description>Global</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
