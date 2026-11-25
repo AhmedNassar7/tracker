@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-11-25T02:26:30Z",
+  "updated_at": "2026-11-25T12:54:11Z",
   "retention_days": 90,
   "snapshots": [
-    {
-      "at": "2026-08-27T09:49:35Z",
-      "curated_roles": 198,
-      "public_opportunities": 2629,
-      "jobs_total": 2404,
-      "hackathons_total": 207,
-      "events_total": 3,
-      "total_items": 2614,
-      "level_counts": {
-        "internship": 120,
-        "early_career": 101,
-        "mid_level": 2183
-      }
-    },
     {
       "at": "2026-08-27T20:32:44Z",
       "curated_roles": 198,
@@ -47849,6 +47835,131 @@
           "ClickHouse": 58,
           "Robinhood": 52,
           "DoorDash": 45
+        }
+      }
+    },
+    {
+      "at": "2026-11-25T12:54:11Z",
+      "curated_roles": 1464,
+      "public_opportunities": 3701,
+      "jobs_total": 4290,
+      "hackathons_total": 162,
+      "events_total": 149,
+      "total_items": 4601,
+      "level_counts": {
+        "internship": 320,
+        "early_career": 90,
+        "mid_level": 3880
+      },
+      "dimensions": {
+        "by_level": {
+          "internship": 305,
+          "unknown": 735,
+          "new_grad": 53,
+          "mid_level": 2193,
+          "entry_level": 30,
+          "junior": 4,
+          "other": 947
+        },
+        "by_region": {
+          "north_america": 2254,
+          "apac": 475,
+          "europe": 612,
+          "unknown": 500,
+          "remote": 276,
+          "mena": 96,
+          "latam": 54
+        },
+        "by_remote_type": {
+          "onsite": 1184,
+          "remote": 2,
+          "unknown": 3081
+        },
+        "by_role_type": {
+          "frontend": 68,
+          "software_engineer": 2463,
+          "security": 45,
+          "machine_learning": 115,
+          "mobile": 175,
+          "platform": 444,
+          "infrastructure": 467,
+          "backend": 257,
+          "full_stack": 233
+        },
+        "by_category": {
+          "faang": 966,
+          "big_tech": 25,
+          "product_saas": 20,
+          "ai_research": 3,
+          "fintech": 33,
+          "ride_delivery": 28,
+          "more_global_tech": 48,
+          "consulting_finance": 5,
+          "microsoft_group": 25,
+          "apac_tech": 31,
+          "cloud_infra": 2,
+          "uncategorized": 3081
+        },
+        "by_country": {
+          "United States": 2042,
+          "Unknown": 649,
+          "India": 311,
+          "Canada": 292,
+          "United Kingdom": 141,
+          "Ireland": 103,
+          "China": 67,
+          "Spain": 50,
+          "Germany": 46,
+          "Poland": 46,
+          "Egypt": 41,
+          "South Korea": 40,
+          "France": 38,
+          "Brazil": 34,
+          "Sweden": 31
+        },
+        "by_source": {
+          "amazon": 818,
+          "greenhouse:spacex": 425,
+          "greenhouse:databricks": 164,
+          "greenhouse:elastic": 162,
+          "greenhouse:okta": 146,
+          "jibe:careers.se.com": 140,
+          "greenhouse:roblox": 127,
+          "ashby:openai": 119,
+          "greenhouse:anthropic": 119,
+          "apple": 110,
+          "derec4_newgrad": 105,
+          "greenhouse:stripe": 96,
+          "greenhouse:coupang": 77,
+          "greenhouse:mongodb": 76,
+          "ashby:snowflake": 75,
+          "greenhouse:coinbase": 71,
+          "greenhouse:cloudflare": 67,
+          "greenhouse:sonyinteractiveentertainmentglobal": 62,
+          "ashby:clickhouse": 58,
+          "greenhouse:robinhood": 52
+        },
+        "top_companies": {
+          "Amazon": 847,
+          "SpaceX": 425,
+          "Databricks": 165,
+          "Elastic": 162,
+          "Okta": 147,
+          "Schneider Electric": 140,
+          "Roblox": 130,
+          "Anthropic": 119,
+          "OpenAI": 119,
+          "Apple": 112,
+          "Stripe": 107,
+          "Coupang": 77,
+          "MongoDB": 76,
+          "Snowflake": 75,
+          "Coinbase": 72,
+          "Cloudflare": 67,
+          "Sony Interactive Entertainment": 66,
+          "ClickHouse": 58,
+          "Robinhood": 52,
+          "Expedia Group": 46
         }
       }
     }
