@@ -4,7 +4,7 @@
     <title>tracker — New Grad Roles</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>New-grad software engineering roles tracker currently tracks.</description>
-    <lastBuildDate>Fri, 27 Nov 2026 08:28:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 18:59:59 GMT</lastBuildDate>
     <item>
       <title>Arm — Graduate Software Engineer</title>
       <link>https://www.linkedin.com/jobs/view/4472552295</link>
@@ -49,16 +49,16 @@
     </item>
     <item>
       <title>SpaceX — New Graduate Engineer, Software (Starship)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8743362002?gh_jid=8743362002</link>
-      <guid isPermaLink="false">9dd9ff0985350417</guid>
-      <description>Hawthorne, CA · new_grad · 2d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002</link>
+      <guid isPermaLink="false">2941817fa5d89dfd</guid>
+      <description>Starbase, TX · new_grad · 2d</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — New Graduate Engineer, Software (Starship)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002</link>
-      <guid isPermaLink="false">2941817fa5d89dfd</guid>
-      <description>Starbase, TX · new_grad · 2d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8743362002?gh_jid=8743362002</link>
+      <guid isPermaLink="false">9dd9ff0985350417</guid>
+      <description>Hawthorne, CA · new_grad · 2d</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -70,16 +70,16 @@
     </item>
     <item>
       <title>SpaceX — New Graduate Engineer, Software - '26/'27 (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002</link>
-      <guid isPermaLink="false">fabdb8f412e86cee</guid>
-      <description>Palo Alto, CA · new_grad · 2d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002</link>
+      <guid isPermaLink="false">1c87f6a0fae87ba2</guid>
+      <description>Redmond, WA · new_grad · 2d</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX — New Graduate Engineer, Software - '26/'27 (Starlink)</title>
-      <link>https://boards.greenhouse.io/spacex/jobs/8696058002?gh_jid=8696058002</link>
-      <guid isPermaLink="false">1c87f6a0fae87ba2</guid>
-      <description>Redmond, WA · new_grad · 2d</description>
+      <link>https://boards.greenhouse.io/spacex/jobs/8696080002?gh_jid=8696080002</link>
+      <guid isPermaLink="false">fabdb8f412e86cee</guid>
+      <description>Palo Alto, CA · new_grad · 2d</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -133,23 +133,9 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
-      <guid isPermaLink="false">485c7a19842acde7</guid>
-      <description>Toronto · new_grad · 8d</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130922</link>
       <guid isPermaLink="false">c543a8c9860ed243</guid>
       <description>Bucharest · new_grad · 8d</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe — Software Engineer, New Grad</title>
-      <link>https://stripe.com/jobs/search?gh_jid=8202299</link>
-      <guid isPermaLink="false">96c447bc3e584e46</guid>
-      <description>Taiwan · new_grad · 8d</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -161,9 +147,23 @@
     </item>
     <item>
       <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8202299</link>
+      <guid isPermaLink="false">96c447bc3e584e46</guid>
+      <description>Taiwan · new_grad · 8d</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
       <link>https://stripe.com/jobs/search?gh_jid=8130930</link>
       <guid isPermaLink="false">3e53caa7727d62f6</guid>
       <description>London · new_grad · 8d</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe — Software Engineer, New Grad</title>
+      <link>https://stripe.com/jobs/search?gh_jid=8157838</link>
+      <guid isPermaLink="false">485c7a19842acde7</guid>
+      <description>Toronto · new_grad · 8d</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -214,13 +214,6 @@
       <guid isPermaLink="false">46928d4068e2c578</guid>
       <description>San Mateo, CA, United States · new_grad · 11d</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe — 2027 University Graduate - Data Scientist</title>
-      <link>https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462</link>
-      <guid isPermaLink="false">cd975b13c43ac336</guid>
-      <description>San Jose · new_grad · 15d</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon — Software Development Engineer Early Career - Amazon Dedicated Cloud</title>

@@ -4,7 +4,14 @@
     <title>tracker — Latin America Jobs</title>
     <link>https://ahmednassar7.github.io/tracker/</link>
     <description>Software engineering jobs in Latin America tracker currently tracks.</description>
-    <lastBuildDate>Fri, 27 Nov 2026 08:28:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 18:59:59 GMT</lastBuildDate>
+    <item>
+      <title>SumUp — Senior Embedded Software Engineer (AOSP Engineer)- Hardware</title>
+      <link>https://sumup.com/careers/positions/8958362002?gh_jid=8958362002</link>
+      <guid isPermaLink="false">87c8e71f0ffa02d0</guid>
+      <description>Brazil · mid_level · 0d</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Epic Games — Lead Gameplay Programmer</title>
       <link>https://epicgames.com/careers/jobs/6206043004?gh_jid=6206043004</link>
@@ -67,13 +74,6 @@
       <guid isPermaLink="false">c45e139aadd48b12</guid>
       <description>São Paulo, São Paulo, Brazil · other · 2d</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SumUp — Senior Embedded Android Engineer- Hardware</title>
-      <link>https://sumup.com/careers/positions/8958362002?gh_jid=8958362002</link>
-      <guid isPermaLink="false">c62afab51de56ac1</guid>
-      <description>Brazil · mid_level · 4d</description>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ClickHouse — Cloud Data Infrastructure Engineer</title>
@@ -279,13 +279,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>SumUp — Senior Software Engineer (Lending Team)</title>
-      <link>https://sumup.com/careers/positions/8769169002?gh_jid=8769169002</link>
-      <guid isPermaLink="false">3ee0d9e70044c025</guid>
-      <description>São Paulo, São Paulo, Brazil · mid_level · 45d</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon — Software Development Engineer Intern, Amazon University Talent Acquisition</title>
       <link>https://www.amazon.jobs/en/jobs/10574925/software-development-engineer-intern-amazon-university-talent-acquisition</link>
       <guid isPermaLink="false">e5e5538e3591c000</guid>
@@ -396,6 +389,12 @@
       <guid isPermaLink="false">19c730acee6300f3</guid>
       <description>Brasil · mid_level · 175d</description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mastercard — Senior Cloud Platform Engineer</title>
+      <link>https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Mexico-City-Mexico/Senior-Cloud-Platform-Engineer_R-287260</link>
+      <guid isPermaLink="false">8a90d2ac2d3cac37</guid>
+      <description>Mexico City, Mexico · mid_level · 0d</description>
     </item>
   </channel>
 </rss>
