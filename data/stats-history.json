@@ -1,49 +1,7 @@
 {
-  "updated_at": "2026-11-27T08:28:22Z",
+  "updated_at": "2026-11-27T18:59:59Z",
   "retention_days": 90,
   "snapshots": [
-    {
-      "at": "2026-08-29T09:05:06Z",
-      "curated_roles": 202,
-      "public_opportunities": 2695,
-      "jobs_total": 2477,
-      "hackathons_total": 205,
-      "events_total": 3,
-      "total_items": 2685,
-      "level_counts": {
-        "internship": 124,
-        "early_career": 98,
-        "mid_level": 2255
-      }
-    },
-    {
-      "at": "2026-08-29T14:30:43Z",
-      "curated_roles": 193,
-      "public_opportunities": 2686,
-      "jobs_total": 2459,
-      "hackathons_total": 205,
-      "events_total": 3,
-      "total_items": 2667,
-      "level_counts": {
-        "internship": 122,
-        "early_career": 97,
-        "mid_level": 2240
-      }
-    },
-    {
-      "at": "2026-08-29T18:30:52Z",
-      "curated_roles": 194,
-      "public_opportunities": 2687,
-      "jobs_total": 2460,
-      "hackathons_total": 206,
-      "events_total": 3,
-      "total_items": 2669,
-      "level_counts": {
-        "internship": 122,
-        "early_career": 98,
-        "mid_level": 2240
-      }
-    },
     {
       "at": "2026-08-29T21:46:40Z",
       "curated_roles": 202,
@@ -48531,6 +48489,132 @@
           "Snowflake": 75,
           "Cloudflare": 68,
           "Sony Interactive Entertainment": 68,
+          "ClickHouse": 60,
+          "Robinhood": 54,
+          "DoorDash": 46
+        }
+      }
+    },
+    {
+      "at": "2026-11-27T18:59:59Z",
+      "curated_roles": 1441,
+      "public_opportunities": 3676,
+      "jobs_total": 4238,
+      "hackathons_total": 166,
+      "events_total": 145,
+      "total_items": 4549,
+      "level_counts": {
+        "internship": 314,
+        "early_career": 78,
+        "mid_level": 3846
+      },
+      "dimensions": {
+        "by_level": {
+          "mid_level": 2176,
+          "unknown": 738,
+          "new_grad": 52,
+          "internship": 299,
+          "entry_level": 21,
+          "junior": 3,
+          "other": 929
+        },
+        "by_region": {
+          "apac": 494,
+          "europe": 570,
+          "unknown": 502,
+          "north_america": 2218,
+          "remote": 280,
+          "mena": 98,
+          "latam": 56
+        },
+        "by_remote_type": {
+          "onsite": 1154,
+          "remote": 2,
+          "hybrid": 3,
+          "unknown": 3059
+        },
+        "by_role_type": {
+          "software_engineer": 2430,
+          "infrastructure": 466,
+          "machine_learning": 113,
+          "security": 51,
+          "frontend": 71,
+          "platform": 432,
+          "mobile": 176,
+          "backend": 251,
+          "full_stack": 228
+        },
+        "by_category": {
+          "faang": 955,
+          "big_tech": 25,
+          "product_saas": 19,
+          "ai_research": 3,
+          "fintech": 21,
+          "ride_delivery": 22,
+          "more_global_tech": 49,
+          "microsoft_group": 27,
+          "consulting_finance": 5,
+          "apac_tech": 31,
+          "cloud_infra": 2,
+          "uncategorized": 3059
+        },
+        "by_country": {
+          "United States": 2023,
+          "Unknown": 649,
+          "India": 322,
+          "Canada": 280,
+          "United Kingdom": 146,
+          "Ireland": 90,
+          "China": 67,
+          "Germany": 51,
+          "Spain": 47,
+          "Poland": 44,
+          "South Korea": 41,
+          "Egypt": 40,
+          "France": 37,
+          "Brazil": 34,
+          "Sweden": 29
+        },
+        "by_source": {
+          "amazon": 817,
+          "greenhouse:spacex": 432,
+          "greenhouse:databricks": 163,
+          "greenhouse:okta": 146,
+          "jibe:careers.se.com": 143,
+          "greenhouse:elastic": 141,
+          "greenhouse:roblox": 126,
+          "ashby:openai": 119,
+          "greenhouse:anthropic": 119,
+          "apple": 114,
+          "greenhouse:stripe": 96,
+          "derec4_newgrad": 94,
+          "greenhouse:coupang": 79,
+          "ashby:snowflake": 76,
+          "greenhouse:mongodb": 76,
+          "greenhouse:coinbase": 74,
+          "greenhouse:cloudflare": 68,
+          "greenhouse:sonyinteractiveentertainmentglobal": 63,
+          "ashby:clickhouse": 60,
+          "greenhouse:robinhood": 54
+        },
+        "top_companies": {
+          "Amazon": 834,
+          "SpaceX": 432,
+          "Databricks": 164,
+          "Okta": 147,
+          "Schneider Electric": 143,
+          "Elastic": 141,
+          "Roblox": 129,
+          "Anthropic": 119,
+          "OpenAI": 119,
+          "Apple": 114,
+          "Stripe": 106,
+          "Coupang": 79,
+          "Coinbase": 77,
+          "MongoDB": 76,
+          "Snowflake": 76,
+          "Cloudflare": 68,
+          "Sony Interactive Entertainment": 67,
           "ClickHouse": 60,
           "Robinhood": 54,
           "DoorDash": 46
