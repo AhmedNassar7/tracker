@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-11-26T23:54:45Z",
+  "updated_at": "2026-11-27T08:28:22Z",
   "retention_days": 90,
   "snapshots": [
-    {
-      "at": "2026-08-29T02:14:01Z",
-      "curated_roles": 198,
-      "public_opportunities": 2689,
-      "jobs_total": 2466,
-      "hackathons_total": 206,
-      "events_total": 3,
-      "total_items": 2675,
-      "level_counts": {
-        "internship": 124,
-        "early_career": 97,
-        "mid_level": 2245
-      }
-    },
     {
       "at": "2026-08-29T09:05:06Z",
       "curated_roles": 202,
@@ -48415,6 +48401,132 @@
           "Stripe": 105,
           "Coupang": 78,
           "Coinbase": 77,
+          "MongoDB": 77,
+          "Snowflake": 75,
+          "Cloudflare": 68,
+          "Sony Interactive Entertainment": 68,
+          "ClickHouse": 60,
+          "Robinhood": 54,
+          "DoorDash": 46
+        }
+      }
+    },
+    {
+      "at": "2026-11-27T08:28:22Z",
+      "curated_roles": 1470,
+      "public_opportunities": 3684,
+      "jobs_total": 4275,
+      "hackathons_total": 160,
+      "events_total": 145,
+      "total_items": 4580,
+      "level_counts": {
+        "internship": 324,
+        "early_career": 82,
+        "mid_level": 3869
+      },
+      "dimensions": {
+        "by_level": {
+          "unknown": 741,
+          "new_grad": 53,
+          "mid_level": 2178,
+          "internship": 301,
+          "entry_level": 23,
+          "junior": 4,
+          "other": 947
+        },
+        "by_region": {
+          "apac": 490,
+          "europe": 592,
+          "north_america": 2226,
+          "unknown": 513,
+          "remote": 281,
+          "mena": 89,
+          "latam": 56
+        },
+        "by_remote_type": {
+          "onsite": 1169,
+          "remote": 2,
+          "hybrid": 3,
+          "unknown": 3073
+        },
+        "by_role_type": {
+          "software_engineer": 2451,
+          "infrastructure": 468,
+          "machine_learning": 113,
+          "security": 51,
+          "frontend": 71,
+          "platform": 436,
+          "mobile": 177,
+          "backend": 250,
+          "full_stack": 230
+        },
+        "by_category": {
+          "faang": 958,
+          "big_tech": 28,
+          "product_saas": 20,
+          "ai_research": 3,
+          "fintech": 30,
+          "ride_delivery": 21,
+          "more_global_tech": 49,
+          "microsoft_group": 27,
+          "consulting_finance": 5,
+          "apac_tech": 31,
+          "cloud_infra": 2,
+          "uncategorized": 3073
+        },
+        "by_country": {
+          "United States": 2035,
+          "Unknown": 657,
+          "India": 321,
+          "Canada": 281,
+          "United Kingdom": 142,
+          "Ireland": 99,
+          "China": 67,
+          "Germany": 48,
+          "Spain": 47,
+          "Poland": 44,
+          "Egypt": 40,
+          "South Korea": 39,
+          "France": 38,
+          "Brazil": 35,
+          "Sweden": 30
+        },
+        "by_source": {
+          "amazon": 818,
+          "greenhouse:spacex": 432,
+          "greenhouse:databricks": 162,
+          "greenhouse:okta": 147,
+          "greenhouse:elastic": 146,
+          "jibe:careers.se.com": 142,
+          "greenhouse:roblox": 126,
+          "ashby:openai": 119,
+          "greenhouse:anthropic": 119,
+          "apple": 114,
+          "derec4_newgrad": 96,
+          "greenhouse:stripe": 94,
+          "greenhouse:coupang": 77,
+          "greenhouse:mongodb": 77,
+          "ashby:snowflake": 75,
+          "greenhouse:coinbase": 74,
+          "greenhouse:cloudflare": 68,
+          "greenhouse:sonyinteractiveentertainmentglobal": 63,
+          "ashby:clickhouse": 60,
+          "greenhouse:robinhood": 54
+        },
+        "top_companies": {
+          "Amazon": 836,
+          "SpaceX": 432,
+          "Databricks": 163,
+          "Okta": 148,
+          "Elastic": 146,
+          "Schneider Electric": 142,
+          "Roblox": 129,
+          "Anthropic": 119,
+          "OpenAI": 119,
+          "Apple": 115,
+          "Stripe": 105,
+          "Coinbase": 77,
+          "Coupang": 77,
           "MongoDB": 77,
           "Snowflake": 75,
           "Cloudflare": 68,
